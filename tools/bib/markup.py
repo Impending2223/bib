@@ -73,6 +73,8 @@ def _at(text):
     volume ("I, 556") or a document ("doc. 12") reads plainly."""
     out, last = [], 0
     for m in REF_RE.finditer(text):
+        if m.group(2) == "\x01head":      # a first cite's head: works.bluebook_pin placed its pinpoint already, so a
+            continue                       # chapter's first page takes no second "at" (the owner, Nov. 23, 2026)
         v = _visible(m)
         if v and re.search(r"\d$", v):
             a = AT_PAGE.match(text, m.end())

@@ -2893,7 +2893,7 @@ def entry(series, linker, ptrs, p):
     ppp = app_list(name, sur)
     rec = recordings_list(series, name)
     tv, tv_src = tv_list(series, name)
-    out = [f'<section class="lv" id="{key_of(name)}"><h2 id="{key_of(name)}-h" data-crumb="{esc(sur)}">{esc(name)}</h2>']
+    out = [f'<section class="lv" id="{key_of(name)}"><h2 id="{key_of(name)}-h" data-crumb="{esc(name)}">{esc(name)}</h2>']   # the top bar: the name as the header gives it (Nov. 22)
     # the keys of the forms joined in this entry (frus_groups) stay anchors on it
     out[0] += "".join(f'<span id="{esc(k)}"></span>' for k in frus_keys_of(key_of(name)) if k != key_of(name))
     if e:

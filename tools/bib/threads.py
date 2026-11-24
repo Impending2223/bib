@@ -34,8 +34,9 @@ STYLE
  7. threads.html, the index: every thread with entries, in the thread index's order (th.yaml), by its full name
     ("Defense: McNamara to Clifford"), linked to its page; its statement for the whole span (its topic and its stations,
     as the calendar's pages give it: the owner, Nov. 23, 2026); its count, a split thread's parts by span.
- 8. Links in: each thread's entry in the calendar's thread index and in cal.html's list ("All entries", linked; a
-    split thread's parts by span: index_link), the bar's 糸, the reader's drawer and home page.
+ 8. Links in: each thread's entry in cal.html's list ("All entries", linked; a split thread's parts by span:
+    index_link; not on the calendar's own pages, the owner, Nov. 23, 2026), the bar's 糸, the reader's drawer and
+    home page.
 """
 import datetime
 import html
@@ -249,7 +250,7 @@ def _days(series, lst, rows_by_place, text_html, thread_name):
         if slot not in (-2, -1.5) and d.month != cur_m:
             name = f"{C.month_name[d.month]} {d.year}"
             out.append(f'<h3 id="{PREFIX}m{d.year}-{d.month:02d}" data-short="{esc(name)}" '
-                       f'data-crumb="{d.year} / {C.month_name[d.month]}">{esc(name)}</h3>')
+                       f'data-crumb="{C.month_name[d.month]}">{esc(name)}</h3>')   # the year is the h2's crumb (Nov. 22)
             cur_m = d.month
         if slot == 1:
             out.append(daybook.day_open(d, 4, False, f"{PREFIX}d{d.isoformat()}") + "</div>" + ol)

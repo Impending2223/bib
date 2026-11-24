@@ -331,8 +331,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         dates = calsplit.thread_dates_html(lst, slug, index_members(lst).get(slug, []), esc)   # its own (STYLE 15)
         if dates:
             parts.append(f'<span class="n">{dates}</span>')
-        from . import threads           # its page of all its entries (tools/bib/threads.py, STYLE 8)
-        parts.append(threads.index_link(lst, slug))
+        # its page of all its entries: linked from cal.html's list only (cal_index; the owner, Nov. 23, 2026)
         parts.append(contents.thread_slot(lst, slug))   # its tables and maps (tools/bib/contents.py, STYLE 4)
         parts.append(see_also_html(lst, e))
     else:
@@ -401,9 +400,8 @@ def ghost_thread_html(lst, e):
     anchor = calsplit.thread_anchor(lst, slug, half)
     name = f'<a class="thgl" href="{calsplit.href(lst, half or 1, mine[0]["id"])}">{esc(thread_name(lst, slug))}</a>'
     dates = calsplit.thread_dates_html(lst, slug, members, esc)
-    from . import threads               # its page of all its entries (tools/bib/threads.py, STYLE 8)
     return (f'<li id="{attr(anchor)}" class="thg" data-thread="{attr(slug)}"><span class="s">{name}</span>'
-            f'<span class="n">{dates}</span>{threads.index_link(lst, slug)}</li>')
+            f'<span class="n">{dates}</span></li>')
 
 
 def redirect_thread_html(lst, e):
