@@ -1319,3 +1319,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 23, 7:37 p.m. PT) "How big would an EPUB of the whole calendar be? Could you make one for me?"
 
 (Nov. 24, 12:28 p.m. PT) "Centered. / I do want it in the build. / Alright, all outstanding work, and PR and merge."
+
+(Nov. 24, about 12:40 p.m. PT) "Sorry, immediate: Just the "pending" work, not all outstanding work. PR and merge. Then: I've shared a handful of days of screenshots of NYT items. Inventory them and put them in the queue. Then continue with the rest of queue. Make sure the work is robust to hitting the token budget. We're spending down the last 5% of the tokens before the 4:00 p.m. PT reset."
