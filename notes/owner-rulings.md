@@ -246,3 +246,10 @@ The owner: claims with identical mapping should arise only on a "complicating" p
 
 - Default taken: the W3C Web Annotation Data Model (stand-off annotation). `c` stays one string, never cut. Each source, variant, visibility ruling and Check is an annotation with a permanent id, a motivation (supporting, challenging, ...), and a target: the whole entry by default (the owner's claim_0), or a part named by a quote selector (exact words, with prefix and suffix to anchor them). The claims are computed at build: wherever the set of annotations over the text changes, a claim, its footnote mark at its end (the owner's claim_00/claim_01 as the remainder and the part). No splitter, no frames, no ellipses, no hierarchical ids. R22 touches the annotations whose words an edit changes; check lists any annotation whose quote no longer anchors. Migration: today's `src` rows on all units become whole-entry annotations, rows on some units quote selectors over those units' words; the converter's test, every footnote and mark where it is today.
 - Applies to: notes/proposals/claims-model.md (rewritten to this before any converter), claims.py, footnotes.py, vis.py/vispage.py, variants, patch ops, check.
+
+## 35a. A note's target is a whole proposition (Nov. 24, 3:45 p.m.; refines 35)
+
+The owner: "How can a sourced claim be only 'the date is open'? Does that make sense?"
+
+- Default taken: a note's target is every word of the statement its source supports (who, what, the part it bears on), as one or several stretches of the text (the W3C model's multiple selectors): Beschloss's note on "Rusk to Dobrynin … the date is open", never a fragment that cannot stand as a statement. A whole-entry note is the default. On the page a footnote mark falls at a note's last word; notes ending together share one mark; a note on part of the entry carries a parenthetical naming its part, in the house form ("123 (the date)"). Shared words (a speaker, a subject) need no frame: several notes claim them.
+- Applies to: the claims design (35), the readers' brief (R33a, R34) once the model is in, the converter.
