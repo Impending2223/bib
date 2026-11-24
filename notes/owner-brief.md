@@ -1309,3 +1309,5 @@ The [July 4, 1960 entry for Chen Yi](https://impending2223.github.io/bib/e.html#
 "Immediate. Fix the title and the first paragraph as suggested. Drop the second paragraph (i.e., the first small-point paragraph). Keep the rest, but drop the "How to read it." sentence.
 
 But first: Could you mock up a daily calendar grid, arranged as calendars are (i.e., with days-of-the-week columns) for the lower-level pages, to sit in the year and month navigator? I want it to "read," visually, as an accordion-like "expansion" or "unfolding" of the year and month navigator. I'm thinking that the year and month navigator should continue before and after the daily calendar grid, separated by line breaks. Show me a mock-up. Give me some suggestions for alternative layouts within my framework, adjacent to it, or that serve the same function or role. Give me some suggestions on how to handle our intercalary days. (We might just ignore them, at least for now.)"
+
+"Fake this for whole lower level pages, long and short, not just a single month. No lower level page is a single month."
