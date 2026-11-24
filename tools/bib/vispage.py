@@ -214,8 +214,9 @@ def panel(prefix=""):
                       f'Show the {len(others)} states</button>'))
     meta = {"top": [[vis.tag_code(k), s] for k, s in TOP], "other": other_meta}
     return (f'<section class="vis" id="{p}vis" aria-labelledby="{p}visibility">'
-            f'<h3 id="{p}visibility" data-short="Visibility">Visibility</h3>'
-            f'<div class="vgrid">{"".join(cells)}</div>'
+            f'<div class="vhd"><h3 id="{p}visibility" data-short="Visibility">Visibility</h3>'
+            f'<button type="button" class="vcol" aria-controls="{p}vbody" aria-expanded="true">Hide</button></div>'
+            f'<div class="vbody" id="{p}vbody"><div class="vgrid">{"".join(cells)}</div>'
             f'<div class="vother" id="{p}vother" hidden><div class="vgrid">{"".join(ocells)}</div></div>'
             f'<div class="vbar"><div><span class="lab" id="{p}vpalab">Tags by</span><span class="vpa" role="group" '
             f'aria-labelledby="{p}vpalab"><button type="button" data-pa="p">provenance</button>'
@@ -226,7 +227,7 @@ def panel(prefix=""):
             f'<span class="vnote" id="{p}vpinnote">empty: at the time</span>'
             f'<button type="button" class="vpinclr" hidden>Clear: at the time</button></div></div>'
             f'<div class="vfoot"><p class="vsum" aria-live="polite"></p>'
-            f'<button type="button" class="vreset">Defaults</button></div>'
+            f'<button type="button" class="vreset">Defaults</button></div></div>'
             f'<script type="application/json" class="vismeta">{json.dumps(meta)}</script></section>')
 
 

@@ -25,7 +25,7 @@
       Object.keys(saved.s||{}).forEach(function(k){ if(/^[A-Za-z0-9_-]+\/(public|nonpublic)$/.test(k)&&saved.s[k] in RANK) st.s[k]=saved.s[k]; });
       if(['p','a','either'].indexOf(saved.pa)>=0) st.pa=saved.pa;
       if(typeof saved.pin==='string'&&/^(\d{4}-\d\d-\d\d)?$/.test(saved.pin)) st.pin=saved.pin;
-      st.open=!!saved.open;
+      st.open=!!saved.open; st.shut=!!saved.shut;
     }
   }catch(e){}
   function save(){ try{ window.localStorage.setItem(KEY,JSON.stringify(st)); }catch(e){} }
@@ -156,6 +156,8 @@
       [].forEach.call(p.querySelectorAll('.vpa button'),function(b){ b.setAttribute('aria-pressed',String(b.getAttribute('data-pa')===st.pa)); });
       var pin=p.querySelector('.vpinin'); if(pin.value!==st.pin) pin.value=st.pin;
       p.querySelector('.vpinclr').hidden=!st.pin; p.querySelector('.vnote').hidden=!!st.pin;
+      var vb=p.querySelector('.vbody'), vc=p.querySelector('.vcol');   // the panel collapsed or open (the owner, Nov. 22)
+      if(vb&&vc){ vb.hidden=!!st.shut; vc.setAttribute('aria-expanded',String(!st.shut)); vc.textContent=st.shut?'Show':'Hide'; }
       var o=p.querySelector('.vother'), f=p.querySelector('.vfold');
       if(o&&f){ o.hidden=!st.open; f.setAttribute('aria-expanded',String(st.open)); f.textContent=(st.open?'Hide':'Show')+' the '+p._other.length+' states'; }
     });
@@ -167,6 +169,7 @@
       else if(b.hasAttribute('data-pa')){ st.pa=b.getAttribute('data-pa'); save(); apply(); }
       else if(b.classList.contains('vpinclr')){ st.pin=''; save(); apply(); }
       else if(b.classList.contains('vfold')){ st.open=!st.open; save(); paint(); }
+      else if(b.classList.contains('vcol')){ st.shut=!st.shut; save(); paint(); }
       else if(b.classList.contains('vreset')){ var o=st.open; defaults(); st.open=o; save(); apply(); }
     });
     var pin=p.querySelector('.vpinin');
