@@ -1325,3 +1325,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 1:50 p.m. PT) "Claude, your instructions to the reader were too restrictive. I'm seeing too many "no dated acts" in here."
 
 (Nov. 24, about 1:55 p.m. PT) "The entry doesn't "need [] the official ones." Who said that?"
+
+(Nov. 24, about 2:00 p.m. PT) "Can you give yourself a standing instruction to avoid, and to your agents to disregard, whatever limitation  wormed its way into your brief here?"
