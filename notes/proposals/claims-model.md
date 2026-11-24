@@ -188,11 +188,64 @@ speaker, without changing a character of the page (the new frame takes the next 
         - frame: Guevara, at his home, a few days after Castro's dinner of Feb. 3, says
           id: k6
           claims:
-            - {id: k2, t: Cuba will ask Mikoyan for an enormous credit, $500 million the opening bid (Castro and Alekseyev had spoken of $100 million in November);}
-            - {id: k3, t: the Kremlin may announce it.}
+            - {id: k2, t: 'Cuba will ask Mikoyan for an enormous credit, $500 million the opening bid (Castro and Alekseyev had spoken of $100 million in November);'}
+            - {id: k3, t: 'the Kremlin may announce it.'}
             - {id: k4, t: '"It is very important for Cuba to feel independent of the U.S. and to demonstrate it."'}
 ```
 
 (`src` left out of the last block for space.) k2 keeps its id though its `t` lost the words now in k6: the claim,
 Guevara's request, is the same claim (R22: rewording that leaves each claim's substance and sources unchanged is not a
 change).
+
+## 3. Rendering, and the consistency rule
+
+**The line.** `text(e)` joins the list: siblings with one space; a frame as its `frame`, a space, then its claims
+joined. Since every `t` carries its own punctuation, nothing else is added. The converter's invariant (section 4) is
+that `text(e)` equals today's `c` byte for byte, so the page renders `text(e)` exactly as it renders `c` now: the
+same renderer, links, titles, curled quotes, characters (cjk.py), first cites (works.py). Every tool that reads `c` as
+prose today (find, the Names' Life paragraphs, threads, the EPUB, the feeds, the daybook) reads `text(e)` (one
+accessor, `store.ctext(e)`, for the 110 places in 30 modules that now read `e["c"]`).
+
+**The spans** (vispage.py, STYLE 2, unchanged in method): each claim's `t` and each frame's `frame` rendered alone and
+found in order in the whole line, a span each, `data-u` its id (`k3`) for today's letter; the spaces outside the
+spans; a frame's span ahead of its first claim's, not around its claims, so the spans stay flat and the CSS and
+script stand. The fallback (one span, unmapped, where a piece rendered alone is not found) stays for the rare `t` that
+renders differently cut; the converter counts them.
+
+**The footnote marks** (footnotes.py, STYLE 1): items in the order of the line, frames counted as items; a run of
+consecutive items with the same `src` closes with a mark inside the last claim's span (STYLE 6: a hidden claim takes
+its mark). A frame with no `src` of its own joins its first claim's run, as today, where frame and first claim are one
+unit. `src_open` goes to the last footnote, as `?` rows do now. Footnote text, *id*., first cites, STYLE 3–10:
+unchanged; they read sources, not letters.
+
+**Visibility.** A claim shows in full, greyed or hidden by its tags as now. A frame shows when any claim inside it
+shows (in full if any does, greyed if the best is greyed), and is hidden when all of them are; a frame with a ruling of
+its own (Alekseyev's report, `vis:only:ussr@k1`) is cut further by that ruling, as `vis:frame` cuts today.
+
+**The consistency rule** (the spouse: "How do you make sure the text of the claim is consistent with respect to the
+ellipses?"). A claim's *reading* is the texts of the frames that hold it, outermost first, then its `t`:
+"Alekseyev to Moscow: Guevara, ..., says the Kremlin may announce it." The rule: every claim's reading is a whole
+statement, and the readings together are the line. Four things keep it:
+
+1. *The elided element is stored once.* "Rusk:" is in the frame, not repeated or implied in each claim; the reading
+   is computed, never typed. Two claims cannot disagree about who spoke, and changing the frame changes every reading
+   under it at once (an `edit-claim` on the frame: R22 for the frame's claim, section 4).
+2. *The cut is the splitter's.* `check` splits `text(e)` with today's splitter and requires exactly the stored
+   pieces: each claim one unit, a frame's text at the head of its first claim's unit. No claim straddles a sentence or
+   semicolon; none is a fragment the splitter would not make. A reader who wants a finer claim still writes a
+   semicolon, now as two claims.
+3. *Leaning is declared, not guessed.* A claim that begins in lower case continues a sentence: it must follow a claim
+   ending ";" (else an error). If its sentence's head is a frame, the frame holds it; if not (the head is an earlier
+   claim's subject or verb, "Guevara ... says Cuba will ...; the Kremlin may announce it"), `check` warns
+   `[claim-lean]` until a reader either makes the head a frame (section 2's nested example) or tags the entry
+   `ok:claim-lean`. A capitalized sentence inside a frame is the reader's statement that it is the frame's; the
+   converter puts none there unflagged (section 4).
+4. *Shown alone, a claim shows its reading.* Wherever a claim is printed outside the line (`./bib claims show`, a
+   patch's `edit-claim` preview, an audit's row, a variant's head in a footnote), it is printed as its reading; one
+   still leaning on an earlier claim (warned under 3) is printed with a leading ellipsis, "… the Kremlin may announce
+   it.", so the elision is marked, never silently dropped.
+
+On the page itself nothing changes: with every claim shown the line is today's line. With some hidden, the visible
+ones read through their frames, which stay while any claim of theirs is shown. What the page does not do yet: when the
+claims after a ";" are hidden, the visible one still ends ";" (as now). Mending that ("." in its place) is a script
+change on the page; left out (section 5).
