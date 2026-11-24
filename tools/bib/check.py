@@ -21,6 +21,7 @@ MONTHS = {"Jan.": 1, "Feb.": 2, "Mar.": 3, "Apr.": 4, "May": 5, "June": 6, "July
 
 
 def when_matches_date(when, date):
+    when = re.sub(r"^By ", "", when or "")      # dated by its report: 'By July 2' (the reader's brief, R15a)
     if re.match(r"^\d{4}$", date or ""):          # a year alone: when opens with the year ('1962', '1962, spring')
         return re.match(rf"^{date}(?!\d)", when or "") is not None
     m = re.match(r"^(Jan\.|Feb\.|Mar\.|Apr\.|May|June|July|Aug\.|Sept\.|Oct\.|Nov\.|Dec\.)\s*(\d+)?", when or "")
