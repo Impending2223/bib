@@ -78,3 +78,121 @@ reporter and its speaker. That is the ellipsis the spouse asked about.
 
 What is wrong, in one line: the claims are the data's real atoms (sources, visibility and variants all attach to them)
 but they are not stored; they are recomputed from prose, and everything else holds positions into the recomputation.
+
+## 2. The model
+
+A calendar entry's `c` becomes a list. Each item is a claim or a frame:
+
+- **claim** `{id, t, src?, variants?}`. `id` is `k1`, `k2` ...: permanent, unique within the entry, never renamed or
+  reused (a claim struck leaves its id in the entry's `retired: [k4]`, as an entry's id leaves an alias); its full
+  address is `<entry id>#k3`. `t` is its text, one unit by today's splitter (a sentence, a clause closed by a
+  semicolon, or a quotation whole), with its own closing punctuation and no space at either end. `src` is the list of
+  sources that ground it, each a map row less its units: `'w.yang-jisheng-mubei II, 1150'`, `'via x.…'`, a link's
+  address, an unlinked item's first words. `variants` are R41's rows less `unit:`: `{witness, reads, at}`.
+- **frame** `{frame, id, src?, claims}`: an element that the claims inside it share and do not repeat (the reporter,
+  the speaker, a place-and-time head). `frame` is its text ("Alekseyev to Moscow:", "Rusk:", or a frame with no colon,
+  "Guevara, at his home, ..., says"); `id` is from the same `k` sequence, since a frame is itself a claim (that
+  Alekseyev reported, that Rusk spoke) with sources and a visibility of its own; `claims` is its list, claims or
+  frames (frames nest).
+
+What else changes on the entry:
+
+- `src` (the map) goes. Its rows move onto the claims they name; `all` puts the row on every claim. The `?` rows,
+  which a reader has not yet tied to any claim, stay on the entry as `src_open: [...]`, and the footnotes treat them as
+  now (the last footnote). The hash `src.c` goes too: an id cannot drift onto a neighbouring claim, so there is
+  nothing to go stale. A claim's rev, for a patch's `base`, is `chash(t)`, computed, never stored.
+- `variants` go onto their claims.
+- Visibility rulings stay entry tags; the part after `@` lists ids joined by "." (`@k3.k4`). Runs (`-`) go: ids are in
+  order only when first numbered. `vis:frame:ussr` becomes the frame's own ruling, `vis:only:ussr@k1` (if the vis
+  golden shows the two compute the same tags; else `vis:frame:` stays and means "the frame's ruling").
+- Nothing else: `n`, `tags`, `when`, `follows` (entries, not claims), the time and place fields stand.
+- The letters stay for reading only: `./bib claims show` prints A, B, C beside the ids, in order, as a label; nothing
+  stores a letter.
+- Only calendar entries (dated and undated) take the list. Every other list's `c` (a work's citation, a person's
+  line) and the threads' statements stay strings.
+
+The example entry, `cal.1960-06-23.soviet-union`, in full (only `c`, `src`, `tags` and `variants` differ from the
+stored entry; `n`, `when`, the times and place stand as they are):
+
+```yaml
+- id: cal.1960-06-23.soviet-union
+  when: June 23
+  date: '1960-06-23'
+  place: bucharest
+  thread: soviet-union
+  also: [china-leadership]
+  c:
+    - id: k1
+      t: Bucharest, morning.
+      src: ['w.lengxi-shinian-lunzhan-1956-1966 281–283, 285']
+      variants:
+        - witness: w.peng-zhen-nianpu-1902
+          reads: the letter and the "Notification" handed to the delegation at its lodging by Andropov, head of the CPSU Central Committee's liaison department, at 3 p.m. on June 23 ("下午三时")
+          at: IV, 37
+    - id: k2
+      t: The Soviet delegation hands Peng Zhen's delegation the CPSU Central Committee's letter, dated June 21, in seven parts (the era; war and peace; peaceful coexistence; forms of transition; international mass organizations; China's breaches of the Declarations; unity).
+      src: ['w.lengxi-shinian-lunzhan-1956-1966 281–283, 285', 'w.yang-jisheng-mubei II, 1150']
+    - id: k3
+      t: The same text had gone to the other parties as a "notification" on June 21, before the Chinese had it, by the Vietnamese, Korean and Albanian delegations' word.
+      src: ['w.lengxi-shinian-lunzhan-1956-1966 281–283, 285']
+    - id: k4
+      t: A draft communique follows, for discussion on the 24th.
+      src: ['w.lengxi-shinian-lunzhan-1956-1966 281–283, 285']
+    - id: k5
+      t: The delegation cables the points.
+      src: ['w.lengxi-shinian-lunzhan-1956-1966 281–283, 285']
+  src_open:
+    - 'w.westad-introduction 25'
+    - 'w.brothers-in-arms 381'
+    - 'via x.1963-07-05.records-cpsu-ccp-delegations'
+    - 'w.peng-zhen-nianpu-1902 IV, 37–38'
+  n: '(as now)'
+  tags: [polity:prc, name:peng-zhen, vis:only:prc+ussr, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia@k3.k4, vis:only:prc@k5]
+  time_range: ['1960-06-23T04:00Z', '1960-06-23T10:00Z']
+  time_band: morning
+  time_zone: Europe/Bucharest
+```
+
+The frame example, `cal.1960-02-10.cuba`, as the converter would write it (section 4: the frame over what surely
+leans on it; "Shown to Mikoyan." is about the cable, not Guevara's words, and stays outside):
+
+```yaml
+  c:
+    - frame: 'Alekseyev to Moscow:'
+      id: k1
+      src: ['w.fursenko-one-hell-of-a 38', 'via w.fursenko-one-hell-of-a 38 n.17']
+      claims:
+        - id: k2
+          t: Guevara, at his home, a few days after Castro's dinner of Feb. 3, says Cuba will ask Mikoyan for an enormous credit, $500 million the opening bid (Castro and Alekseyev had spoken of $100 million in November);
+          src: ['w.fursenko-one-hell-of-a 38', 'via w.fursenko-one-hell-of-a 38 n.17']
+        - id: k3
+          t: the Kremlin may announce it.
+          src: ['w.fursenko-one-hell-of-a 38', 'via w.fursenko-one-hell-of-a 38 n.17']
+        - id: k4
+          t: '"It is very important for Cuba to feel independent of the U.S. and to demonstrate it."'
+          src: ['w.fursenko-one-hell-of-a 38', 'via w.fursenko-one-hell-of-a 38 n.17']
+    - id: k5
+      t: Shown to Mikoyan.
+      src: ['w.fursenko-one-hell-of-a 38', 'via w.fursenko-one-hell-of-a 38 n.17']
+  tags: [name:guevara-ernesto, name:castro-fidel, name:mikoyan-anastas, vis:only:ussr+cuba, vis:only:ussr@k1, vis:only:ussr@k5]
+```
+
+(k4's place, inside the frame, is the converter's flag for a reader: it is a new sentence after the frame's first
+one; section 4.) A reader can then make Guevara's speech a frame of its own, nested, so that k3 and k4 keep their
+speaker, without changing a character of the page (the new frame takes the next free id, k6; no id moves):
+
+```yaml
+    - frame: 'Alekseyev to Moscow:'
+      id: k1
+      claims:
+        - frame: Guevara, at his home, a few days after Castro's dinner of Feb. 3, says
+          id: k6
+          claims:
+            - {id: k2, t: Cuba will ask Mikoyan for an enormous credit, $500 million the opening bid (Castro and Alekseyev had spoken of $100 million in November);}
+            - {id: k3, t: the Kremlin may announce it.}
+            - {id: k4, t: '"It is very important for Cuba to feel independent of the U.S. and to demonstrate it."'}
+```
+
+(`src` left out of the last block for space.) k2 keeps its id though its `t` lost the words now in k6: the claim,
+Guevara's request, is the same claim (R22: rewording that leaves each claim's substance and sources unchanged is not a
+change).
