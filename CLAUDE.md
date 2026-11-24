@@ -108,6 +108,14 @@ The site is GitHub Pages: https://impending2223.github.io/bib/ (the compiled rea
 
 The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026. Don't republish them; `publish-plan` and `mark-published` belong to that old route.
 
+## Style and layout (the owner, Nov. 24, 2026)
+
+"you reroll the styling and layout every time I give you a new task, and it drives me INSANE." For any page, preview or mock-up:
+- start from the site's own HTML and CSS (the built page's rules; the `STYLE` strings in `tools/bib/`); write no fresh CSS where an existing rule, class or token will do;
+- where something new is needed, check it against the existing scheme and refactor it to the fewest departures: the same tokens, sizes, spacing, alignment;
+- keep the count of discrete style and layout changes to a minimum; change nothing the task does not touch, and keep a preview's choices from one round to the next unless the owner asks;
+- list every departure, with its reason, when presenting the work.
+
 ## Do not
 
 - read `build/*.html` or a whole list to find something: use `find`/`show`/`works`;
