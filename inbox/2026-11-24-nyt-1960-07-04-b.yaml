@@ -1,0 +1,477 @@
+patch: 2026-11-24-nyt-1960-07-04-b
+by: 'Claude (second reader, New York Times, July 4, 1960, from the owner''s screenshots of Nov. 23; the items the first patch passed over; inventory notes/nyt/1960-07-04.md), Nov. 24, 2026'
+ops:
+- place-key: {key: new-rochelle, name: 'New Rochelle, N.Y.', zone: America/New_York, st: NY}
+- place-key: {key: manokwari, name: Manokwari, zone: Asia/Jayapura, in: netherlands}
+- primary:
+    id: cal.1960-07-02.congo
+    text: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Congo Police Patrol After Two Clashes," Léopoldville, July 2: Bakongo against Bayaka, ten hurt, about 100 held; the biggest clash in the morning, at a triumphal tour of Kasavubu; the National Security police patrol)'
+    units: '?'
+- primary:
+    id: cal.1960-07-02.middle-east
+    text: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Jordan to Protest Attacks by Nasser," Amman, July 3: Hussein "yesterday," addressing delegates of Jordanian cooperative societies, on the methods of Nasser, the Arabs soon aware of his "treacherous falsehood")'
+    units: '?'
+- primary:
+    id: cal.1960-07-02.latin-america-3
+    text: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("U.S. Envoy Scorns Warning of Death," Mexico City, July 3: the Mexican police guard posted "yesterday")'
+    units: '?'
+- check:
+    id: cal.1960-07-01.cuba
+    text: 'Check: Szulc, in the *Times* of July 4, 1960, at 2, has the Esso refinery, seized "on Friday," closed "yesterday," July 2, for lack of crude.'
+- add:
+    entry:
+      id: cal.1960-07-03.congress-3
+      when: July 3
+      date: '1960-07-03'
+      place: washington
+      thread: congress
+      c: 'By July 3: The House passes a bill, sought by the railroads, forbidding the carriage of ordinary first-class mail by air; the Post Office had been flying it experimentally.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Congress Passes Cuba Sugar Bill," the runover). Check: the day. To check: 106 Cong. Rec. (1960).'
+- add:
+    entry:
+      id: cal.1960-07-02.cuba-8
+      when: July 2–3
+      date: '1960-07-02'
+      place: washington
+      thread: cuba
+      also: [congress]
+      c: 'Macomber, Assistant Secretary of State for Congressional Relations, and Harlow, of the White House staff, pass the word to members that the President would be "furious" if Congress quit without the sugar bill, and might call it back.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 (William M. Blair, "Stakes Were High for Sugar Lobby," Washington, July 3: "last night"; and the sugar story''s runover). See [[cal.1960-06-29.cuba]]. Names: Macomber, Harlow, Eisenhower.'
+      tags: [ok:fields-time, name:macomber-william-b-jr, name:harlow-bryce-n, name:eisenhower-dwight-d]
+- add:
+    entry:
+      id: cal.1960-07-03.cuba-3
+      when: July 3
+      date: '1960-07-03'
+      place: washington
+      thread: cuba
+      also: [congress]
+      c: 'McCormack, coming from the Senate-House conference on the sugar bill soon after 5 a.m., confers about two minutes in the Speaker''s lobby with John O''Donnell, who represents the Philippine processors and growers.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 (Blair, "Stakes Were High for Sugar Lobby"). Names: McCormack.'
+      tags: [name:mccormack-john-w]
+      time: 1960-07-03T09:00Z
+      time_approx: true
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1960-07-03.cuba-4
+      when: July 3
+      date: '1960-07-03'
+      place: havana
+      thread: cuba
+      c: 'By July 3: Exporters of Cuban sugar charter all the ships they can to beat the quota cut; about 200,000 tons contracted in ten days, some 800,000 left of the 1960 quota; freight to American ports up from $4 to $5.30 a ton.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 (Tad Szulc, "Cuba Awaits Cut by U.S. on Sugar," Havana, July 3). Check: the days.'
+- add:
+    entry:
+      id: cal.1960-07-02.cuba-9
+      when: July 2
+      date: '1960-07-02'
+      thread: cuba
+      also: [latin-america]
+      c: 'By July 2: The United States submits to the O.A.S.''s Inter-American Peace Committee a detailed memorandum on Cuba''s "unwarranted hostility."'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 (Szulc, "Cuba Awaits Cut by U.S. on Sugar": "last week"). Check: the day. To check: the memorandum, *Department of State Bulletin*.'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-03.cuba-5
+      when: July 3
+      date: '1960-07-03'
+      place: havana
+      thread: cuba
+      c: 'By July 3: Armed militiamen guard the seized Esso and Shell refineries, the Government-run hotels and other seized properties.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 (Szulc, "Cuba Awaits Cut by U.S. on Sugar": "in recent days"). Check: the days.'
+- add:
+    entry:
+      id: cal.1960-07-02.congo-2
+      when: July 2
+      date: '1960-07-02'
+      place: leopoldville
+      thread: congo
+      also: [european-community]
+      c: 'Hallstein, president of the Common Market Commission, confers with Lumumba on a link between the Congo and the Common Market.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Congo Police Patrol After Two Clashes," Léopoldville, July 2). Names: Hallstein, Lumumba.'
+      tags: [name:hallstein-walter, name:lumumba-patrice]
+- add:
+    entry:
+      id: cal.1960-06.africa
+      when: June
+      date: '1960-06'
+      thread: africa
+      c: 'Uganda. Ten killed and seventeen hurt in shooting incidents in June, the Government reports July 3.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 (Kampala, July 3, UPI). Check: the days.'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-03.europe-and-the-alliance-britain
+      when: July 3
+      date: '1960-07-03'
+      thread: europe-and-the-alliance-britain
+      c: 'Bevan, at home, "still very weak," a Labor spokesman says; a relapse the week before.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Bevan ''Still Very Weak''," London, July 3: "tonight"). See [[cal.1960-07-02.europe-and-the-alliance-britain]].'
+      tags: [ok:fields-time, ok:fields-place, ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-03.cuba-6
+      when: July 3
+      date: '1960-07-03'
+      place: nyc
+      thread: cuba
+      c: 'Roa, Cuba''s Foreign Minister, leaves Idlewild for Havana after three days in New York for his son''s wedding; with him his son Raúl Roa Jr., alternate delegate to the United Nations, and the bride.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Roa Returns to Cuba": "yesterday"). Names: Roa.'
+      tags: [name:roa-y-garcia-raul, state:ny, city:new-york]
+- add:
+    entry:
+      id: cal.1960-07-01.cuba-5
+      when: July 1
+      date: '1960-07-01'
+      place: new-rochelle
+      thread: cuba
+      c: 'Raúl Roa Jr., son of Cuba''s Foreign Minister and alternate delegate to the United Nations, marries Maria Carola Baseggio in New Rochelle, N.Y.; the Foreign Minister attends.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Roa Returns to Cuba": "Friday"). Names: Roa.'
+      tags: [name:roa-y-garcia-raul, state:ny]
+- add:
+    entry:
+      id: cal.1960-06-30.indonesia
+      when: June 30
+      date: '1960-06-30'
+      place: manokwari
+      thread: indonesia
+      c: 'By June 30: Netherlands New Guinea. Dutch military activity grows at Manokwari and Biak; two marine battalions there, two army battalions to follow, about 3,000 men; a Papuan battalion of 600 recruiting; a reinforcing detachment due from the Netherlands.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 (Tillman Durdin, "Dutch on Alert in New Guinea; Troops Guard Against Indonesia," Manokwari, June 30). Check: the days.'
+- add:
+    entry:
+      id: cal.1960-07-01.latin-america-4
+      when: July 1
+      date: '1960-07-01'
+      thread: latin-america
+      also: [cuba]
+      c: 'Ambassador Hill told by the F.B.I. and the State Department, Friday night, of warnings that Cuban agents had been assigned to kill him.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("U.S. Envoy Scorns Warning of Death," Mexico City, July 3: "Friday night"). Names: Hill.'
+      tags: [ok:fields-time, ok:fields-place, name:hill-robert-c]
+- add:
+    entry:
+      id: cal.1960-07-03.latin-america
+      when: July 3
+      date: '1960-07-03'
+      place: mexico-city
+      thread: latin-america
+      c: 'Hill, under heavy guard, with his family at Christ Church; "I''m not afraid." The Embassy''s Fourth of July celebration goes on.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("U.S. Envoy Scorns Warning of Death," Mexico City, July 3: "this morning"; the Mexican police guard posted July 2). Names: Hill.'
+      tags: [ok:fields-time, name:hill-robert-c]
+- add:
+    entry:
+      id: cal.1960-07-02.south-asia-4
+      when: July 2
+      date: '1960-07-02'
+      place: lahore
+      thread: south-asia
+      c: 'By July 2: A leading Lahore editor, to the *Times*: what hurt the United States most in Pakistan was Dulles''s death; "we aren''t sure where the United States is going now."'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 (Paul Grimes, "Pakistanis Voice Misgivings on U.S.," Karachi, July 3: "last week"). Check: the day.'
+- add:
+    entry:
+      id: cal.1960-06-24.middle-east
+      when: June 24
+      date: '1960-06-24'
+      thread: middle-east
+      c: 'Nasser, in a speech, predicts Hussein will meet the fate of his grandfather, King Abdullah, assassinated.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Jordan to Protest Attacks by Nasser," Amman, July 3). Names: Nasser, Hussein.'
+      tags: [ok:fields-place, name:nasser-gamal-abdel, name:hussein-ibn-talal]
+- add:
+    entry:
+      id: cal.1960-07-03.europe-and-the-alliance-france-2
+      when: July 3
+      date: '1960-07-03'
+      place: paris
+      thread: europe-and-the-alliance-france
+      c: 'Gazier and Pineau, former Cabinet Ministers, and three others withdraw from the Socialist party''s directing committee, to which they had just been elected, against Mollet''s leaning to de Gaulle.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Socialists Renew Paris Algeria Aid," Paris, July 3: "tonight"). Names: Mollet, de Gaulle.'
+      tags: [ok:fields-time, ok:name-untagged, name:de-gaulle-charles]
+- add:
+    entry:
+      id: cal.1960-07-03.soviet-union-3
+      when: July 3
+      date: '1960-07-03'
+      thread: soviet-union
+      c: 'The Soviet rescue cruiser *Kapitan Afanasiev* joins the search for the missing RB-47 in the Barents Sea, the Norwegian radio at Vardø reports. Fourteen planes aloft at a time; nine Air Force C-54s from Britain at Bodø.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 ("Soviet Ship Joins Hunt for U.S. Jet," Bodø, Norway, July 3, AP).'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-03.berlin-and-vienna
+      when: July 3
+      date: '1960-07-03'
+      place: berlin
+      thread: berlin-and-vienna
+      c: 'West Berlin officials report 12,194 East Germans fled to West Berlin in June, 3,995 fewer than in May, 5,684 more than in June, 1959.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 ("12,194 Flee East Germany," Berlin, July 3, AP).'
+- add:
+    entry:
+      id: cal.1960-07-03.europe-and-the-alliance
+      when: July 3
+      date: '1960-07-03'
+      thread: europe-and-the-alliance
+      c: 'By July 3: Italy''s holiday season an "explosion of luxury"; mounting demands that tax agents watch the resorts.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 (Paul Hofmann, "Italians'' ''Explosion'' at Resorts," Rome, July 3). Check: the day.'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-02.europe-and-the-alliance-federal-republic-2
+      when: July 2
+      date: '1960-07-02'
+      thread: europe-and-the-alliance-federal-republic
+      c: 'West Germany''s law decontrolling rents takes effect; all controls to end by 1966; rents on prewar dwellings up 15 percent at once.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 (Sydney Gruson, "Control of Rents Is Eased by Bonn," Bonn, July 3: "yesterday").'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-03.south-asia
+      when: July 3
+      date: '1960-07-03'
+      thread: south-asia
+      also: [china]
+      c: 'By July 3: Nepal begins moving troops north to strengthen its border defenses after the Chinese attack at Mustang; the Chinese troops ordered back from the border.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 ("Nepal Moves Troops," Katmandu, July 3; the *Times* of London''s dispatch). Check: the day. See [[cal.1960-07-02.china-leadership-2]].'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-05.europe-and-the-alliance-britain
+      when: May, early
+      date: '1960-05'
+      place: paris
+      thread: europe-and-the-alliance-britain
+      also: [trade]
+      c: 'The twenty-one-nation trade talks at Paris. British ministers return thinking Dillon unsympathetic to British policy; a misunderstanding between Heathcoat Amory and Dillon.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 (Drew Middleton, "A Change for Britain?," news analysis, London, July 3). Check: the day. Names: Dillon.'
+      tags: [name:dillon-c-douglas]
+      at: before 1960-05-01
+- add:
+    entry:
+      id: cal.1960-07-02.europe-and-the-alliance-federal-republic-3
+      when: July 2
+      date: '1960-07-02'
+      thread: europe-and-the-alliance-federal-republic
+      also: [africa, congo]
+      c: 'By July 2: West German ambassadors present their credentials to the Congo and Somalia as the two celebrate independence.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 ("Close Africa Ties a Key Bonn Policy," Bonn, July 3: "last week"). Check: the days.'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-03.europe-and-the-alliance-federal-republic
+      when: July 3
+      date: '1960-07-03'
+      thread: europe-and-the-alliance-federal-republic
+      also: [africa]
+      c: 'Ambassador Wilhelm Kopf reports to Bonn: President Aden Abdullah Osman of Somalia promises one of Somalia''s first embassies in Bonn.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 ("Close Africa Ties a Key Bonn Policy"). Names: Aden Abdullah Osman.'
+      tags: [ok:fields-place, name:aden-abdullah-osman]
+- add:
+    entry:
+      id: cal.1960-07-03.elections-1960-nomination-4
+      when: July 3
+      date: '1960-07-03'
+      thread: elections-1960-nomination
+      c: 'Monroney, for Stevenson, on the taped "Radio News Conference": the convention will not be "blitzed"; Kennedy will not go "the last mile," at most 604½ votes.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 (the runover of "Johnson Supports Truman in Criticizing Convention"). See [[cal.1960-07-03.elections-1960]]. Names: Monroney, Stevenson, Kennedy.'
+      tags: [ok:fields-place, name:monroney-almer-s, name:stevenson-adlai-e, name:kennedy-john-f]
+- add:
+    entry:
+      id: cal.1960-07-03.elections-1960-nomination-5
+      when: July 3
+      date: '1960-07-03'
+      thread: elections-1960-nomination
+      c: 'By July 3: Seven House members, Lee Metcalf their spokesman, write Kennedy, Johnson, Symington and Stevenson asking that Henry Jackson be considered for Vice President; with Ashley, Magnuson (Don), McGinley, George P. Miller, Rivers and Stratton.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 (the runover of "Johnson Supports Truman"). Check: the day. Names: Metcalf, Kennedy, Johnson, Symington, Stevenson, Jackson.'
+      tags: [ok:fields-place, name:metcalf-lee-w, name:kennedy-john-f, name:johnson-lyndon-b, name:symington-william-s, name:stevenson-adlai-e, name:jackson-henry-m]
+- add:
+    entry:
+      id: cal.1960-07-03.elections-1960-nomination-6
+      when: July 3
+      date: '1960-07-03'
+      place: nyc
+      thread: elections-1960-nomination
+      c: 'Sorensen flies to New York from Los Angeles to help Kennedy prepare his answer to Truman.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 (Clayton Knowles, "Kennedy Replies to Charge Today," the runover: "yesterday"). See [[cal.1960-07-03.elections-1960-nomination-3]]. Names: Sorensen, Kennedy, Truman.'
+      tags: [name:sorensen-theodore-c, name:kennedy-john-f, name:truman-harry-s]
+- add:
+    entry:
+      id: cal.1960-07-02.jobs-and-wages
+      when: July 2
+      date: '1960-07-02'
+      place: washington
+      thread: jobs-and-wages
+      also: [congress]
+      c: 'By July 2: Frank E. Smith''s amendment to the minimum wage bill, adopted by the House after a minute''s discussion, exempts some 14 million workers from wage-and-hour protection, not as he meant; Smith: "Maybe I should have let a lobbyist write it."'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Random Notes in Washington," Washington, July 3: "last week"). Check: the day. Names: Smith.'
+      tags: [name:smith-frank-e]
+- add:
+    entry:
+      id: cal.1960-07-03.white-house
+      when: July 3
+      date: '1960-07-03'
+      thread: white-house
+      c: 'By July 3: Eisenhower, after his and Dr. Thomas Dooley''s honorary degrees at Notre Dame, writes a hundred friends about Dooley''s Southeast Asian medical project, Medico; Medico receives a hundred checks of $100. Anne Wheaton of the press staff: "a personal matter."'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Random Notes in Washington": "reportedly"). Check: the day. Names: Eisenhower.'
+      tags: [ok:fields-place, name:eisenhower-dwight-d]
+- add:
+    entry:
+      id: cal.1960-07-03.congress-4
+      when: July 3
+      date: '1960-07-03'
+      thread: congress
+      also: [trade]
+      c: 'By July 3: Clem Miller of California, for the Napa, Sonoma and Mendocino wine growers, seeks a law next session making foreign bottlers meet American fill standards.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Random Notes in Washington"). Check: the day. Names: Miller.'
+      tags: [ok:fields-place, name:miller-clement-w]
+- add:
+    entry:
+      id: cal.1960-07-03.cuba-7
+      when: July 3
+      date: '1960-07-03'
+      place: washington
+      thread: cuba
+      also: [congress]
+      c: 'By July 3: Democrats and Republicans of House Agriculture squabble over which party is more anti-Castro; Belcher, Oklahoma Republican: Castro will "shoot Democrats just as quick as he''ll shoot Republicans."'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Random Notes in Washington": "recently"). Check: the day.'
+      tags: [ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-02.republican-party-4
+      when: July 2
+      date: '1960-07-02'
+      thread: republican-party
+      c: 'By July 2: Mundt, at a $50-a-plate testimonial luncheon for his re-election, on Kennedy: unsure "whether the Democratic nominee will be Jack Kennedy or Kennedy''s Jack."'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Random Notes in Washington": "last week"). Check: the day. Names: Mundt, Kennedy.'
+      tags: [ok:fields-place, name:mundt-karl-e, name:kennedy-john-f]
+- add:
+    entry:
+      id: cal.1960-07-03.europe-and-the-alliance-2
+      when: July 3
+      date: '1960-07-03'
+      place: belgrade
+      thread: europe-and-the-alliance
+      c: 'Karamanlis, Greek Premier, ends a three-day official visit to Yugoslavia and returns home.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Greek Premier Returns Home," Belgrade, July 3, AP).'
+      tags: [ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-03.elections-1960-nomination-7
+      when: July 3
+      date: '1960-07-03'
+      place: washington
+      thread: elections-1960-nomination
+      c: 'Rep. Charles H. Brown, chairman of the Symington for President Committee, by statement released a day early: no one will have 761 on the first ballots; from the third, Symington against Stevenson, Symington the winner.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Symington Appraised," Washington, July 3, UPI). Names: Symington, Stevenson.'
+      tags: [ok:name-untagged, name:symington-william-s, name:stevenson-adlai-e]
+- add:
+    entry:
+      id: cal.1960-07-03.elections-1960-rockefeller-2
+      when: July 3
+      date: '1960-07-03'
+      thread: elections-1960-rockefeller
+      also: [republican-party]
+      c: 'W. E. Miller, Republican Congressional campaign chairman, on Mutual''s "Youth Wants to Know": Nixon "twice as qualified" as Rockefeller; Rockefeller''s criticism "healthy" for the party.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html) ("Governor Belittled," Washington, July 3, UPI; page not shown). Names: Miller, Nixon, Rockefeller.'
+      tags: [ok:fields-place, name:miller-william-e, name:nixon-richard-m, name:rockefeller-nelson]
+- add:
+    entry:
+      id: cal.1960-07-03.elections-1960-rockefeller-3
+      when: July 3
+      date: '1960-07-03'
+      place: washington
+      thread: elections-1960-rockefeller
+      also: [defense]
+      c: 'Javits agrees with Rockefeller''s call for several billion dollars more for defense, not necessarily $3.5 billion; on a television program for New York stations: Rockefeller rendering a "constructive service."'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html) ("Javits Backs Governor," Washington, July 3, UPI; page not shown). Names: Javits, Rockefeller.'
+      tags: [name:javits-jacob-k, name:rockefeller-nelson]
+- add:
+    entry:
+      id: cal.1960-07-03.crime-and-hijacking
+      when: July 3
+      date: '1960-07-03'
+      place: nyc
+      thread: crime-and-hijacking
+      c: 'A man telephones United Airlines at 8:57 p.m. that the planes taking the Yankees and the Tigers from La Guardia will crash; both searched, no bomb found.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html) ("Hoax Delays Yankees," "last night"; page not shown).'
+      tags: [state:ny, city:new-york]
+      time: 1960-07-04T00:57Z
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1960-07-03.cities-and-housing
+      when: July 3
+      date: '1960-07-03'
+      place: washington
+      thread: cities-and-housing
+      c: 'The American Municipal Association, in a special report for the A.E.C., urges a national program to help localities use atomic energy, the A.E.C. to lead.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html) ("Atom-Use Program for Towns Is Urged," Washington, July 3, AP; page not shown).'
+- add:
+    entry:
+      id: cal.1960-07-03.elections-1960-2
+      when: July 3
+      date: '1960-07-03'
+      place: newark
+      thread: elections-1960
+      also: [civil-rights-bill]
+      c: 'Meyner, on WNTA-TV''s "Report to the People": civil rights a major issue in November; "we''re not going to convince the nations ... unless we solve our problems at home."'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html) ("Civil Rights Stressed," Newark, July 3; page not shown).'
+      tags: [ok:name-untagged, state:nj]
+- add:
+    entry:
+      id: cal.1960-07-03.elections-1960-rockefeller-4
+      when: July 3
+      date: '1960-07-03'
+      thread: elections-1960-rockefeller
+      also: [republican-party]
+      c: 'Morton, the Republican national chairman, on a recorded telecast, expects New York''s delegation to put Rockefeller''s name in nomination.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 28 (Douglas Dales, "Rockefeller Says G.O.P. Bars a Test of Men and Issues," the runover: "yesterday"; Rockefeller: "He must have worked out something that I don''t know about"). Names: Morton, Rockefeller.'
+      tags: [ok:fields-place, name:morton-thruston-b, name:rockefeller-nelson]
+- add:
+    entry:
+      id: cal.1960-07-01.japan
+      when: July 1
+      date: '1960-07-01'
+      thread: japan
+      c: 'Aomori''s governorship won by the Liberal-Democrat over a Leftist.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 3 (Richard J. H. Johnston, "Kishi Party Again Wins Election," Tokyo, July 4: "last Friday"). Check: the names and the returns.'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-03.japan-2
+      when: July 3
+      date: '1960-07-03'
+      thread: japan
+      c: 'Kishi, "as late as last night," declines to say whom he favors to succeed him among Ono, Ikeda and Ishii.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 (Johnston, "Kishi Party Wins Another Election," the runover). Names: Kishi, Ikeda.'
+      tags: [ok:fields-time, ok:fields-place, ok:name-untagged, name:kishi-nobusuke, name:ikeda-hayato]
+- add:
+    entry:
+      id: cal.1960-07-03.japan-3
+      when: July 3
+      date: '1960-07-03'
+      place: tokyo
+      thread: japan
+      also: [japan-and-korea-far-east]
+      c: 'Japan''s Foreign Ministry, in its annual diplomatic report, affirms peace and good-neighbor relations, particularly with South Korea; rejects neutralism; endorses the new security treaty.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 ("Government Affirms Policy," Tokyo, July 3, AP).'
+- add:
+    entry:
+      id: cal.1960-07-03.states-and-cities
+      when: July 3
+      date: '1960-07-03'
+      place: nyc
+      thread: states-and-cities
+      c: 'A storm strikes the East Coast from New England to the Carolinas; New York at about 8:30 p.m.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 16 (the holiday story; its head not in the clippings).'
+      tags: [state:ny]
+      time: 1960-07-04T00:30Z
+      time_approx: true
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1960-07-03.transportation
+      when: July 3
+      date: '1960-07-03'
+      thread: transportation
+      c: 'By July 3: The Fourth of July week-end''s traffic deaths; New York State''s twenty-two so far. The record for the three-day holiday 407, in 1955.'
+      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1 (the holiday story; its head and the national count not in the clippings). Check: the national toll; the final figures.'
+      tags: [ok:fields-place, state:ny]
