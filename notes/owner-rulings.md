@@ -227,3 +227,15 @@ The owner: "Is the current 'claim splitting' model one we should continue and bu
 
 - Default taken: the claims are the source. `c` is a list of claims in the YAML (the list is the separator); each claim's words stored without their closing mark; a compiler (`text(e)`) makes the line: "; " within a sentence, ". " between sentences (a claim's `end:` where it differs), a frame's head once before its claims; footnote marks and visibility spans placed by claim id, not found by searching the rendered line. The splitter runs once, in the converter, to make the first lists from today's `c`, then is retired; check tests each claim's form and the compiled line, not agreement with the splitter. The converter's test: the compiled line equals today's `c` byte for byte for every entry, each mismatch listed for repair. Patches add, edit and drop claims by id; R22 to the claim touched. Supersedes item 31's "check against the splitter".
 - Applies to: notes/proposals/claims-model.md sections 3–4 (to be rewritten before the converter), the converter, claims.py, footnotes.py, vispage.py, patch ops, check.
+
+## 33. A province's politics: Lesage becomes Premier of Quebec (the NYT audit, July 6, 1960)
+
+R1: a covered state is a sovereign state or one of the American States, "not another country's subdivision (a Land, a province, a prefecture) until the owner rules it in".
+
+- Default taken: the entry stays, as Canada's politics (`polity:canada`, Canada's thread), with no Quebec polity: R1's clause governs the polity list, not whether a province's act that a source dates is an entry (R5; only R18 takes one out).
+- Applies to: cal.1960-07-05/06 Lesage entry; any province's or Land's act a source dates.
+
+## 34. Threads for Canada, Mongolia and Singapore (the NYT second pass)
+
+- Default taken: create the three threads at the merge (th.yaml, with statements), and move the entries now filed under europe-and-the-alliance, soviet-union and indonesia to them as chief thread, the old thread kept in `also:`.
+- Applies to: the NYT July 1960 patches; later entries for the three.
