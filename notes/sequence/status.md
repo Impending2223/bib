@@ -7,7 +7,7 @@ One line a month. Brief: `notes/briefs/sequence-<month>.md` (reader, Sonnet), `s
 - Audited, in the merge run that began at 4:15 a.m. (21 months; no check of its own, the build's check follows): 1960-03, 1960-08, 1960-12, 1961-02, 1961-08, 1962-01, 1962-07, 1962-11, 1963-01, 1963-05, 1963-07, 1964-12, 1966-02, 1966-04, 1966-11, 1967-02, 1967-03, 1967-05, 1967-07, 1968-04, 1968-06.
 - Audited, on the pending list (the session's `pending.txt`): 1963-09, 1960-01, 1961-06.
 - Audit out: 1960-04.
-- Reader out (started 4: 1966-10, 1960-06, 1965-12, 1962-03, 1962-06.
+- Reader out (started 4:20 a.m.): 1966-10, 1960-06, 1965-12, 1962-03, 1962-06.
 - Next by size, no brief yet: 1961-07, 1962-12, then the rest by size (`for f in lists/cal/19*.yaml; do echo "$(grep -c '^  - id: ' $f) $f"; done | sort -rn`). 80 months have briefs.
 - What the audits have shown so far: a reader's links from the entries' own words hold about nine in ten; links from the printed order of a day's items in a chronology or a volume of speeches do not (January 1964: 16 of 36 struck; R25c now says so); each audit adds about a third again.
 
