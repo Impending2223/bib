@@ -1,8 +1,8 @@
 patch: 2026-11-25-sequence-1966-03
-by: 'Claude (Sonnet, sequence pass: R25c on March 1966), Nov. 25, 2026; notes/sequence/1966-03.md'
+by: 'Claude (Sonnet, sequence pass: R25c on March 1966), Nov. 25, 2026; notes/sequence/1966-03.md. Audited and corrected by Claude (Opus), Nov. 25, 2026; notes/sequence/audit-1966-03.md'
 ops:
 - follows: {id: cal.1966-03-01.vietnam-congress-3, add: [cal.1966-03-01.vietnam-congress-2]}
-- follows: {id: cal.1966-03-01.vietnam, add: [cal.1966-03-01.vietnam-congress-4]}
+- follows: {id: cal.1966-03-01.vietnam, add: [cal.1966-03-01.vietnam-congress-4, cal.1966-03-01.vietnam-congress]}
 - follows: {id: cal.1966-03-08.china-leadership-3, add: [cal.1966-03-08.china]}
 - follows: {id: cal.1966-03-09.vietnam-struggle-2, add: [cal.1966-03-09.vietnam-struggle]}
 - follows: {id: cal.1966-03-11.china-leadership-4, add: [cal.1966-03-11.china-leadership-3]}
@@ -17,3 +17,52 @@ ops:
 - follows: {id: cal.1966-03-28.china-leadership-6, add: [cal.1966-03-28.china-leadership-4]}
 - follows: {id: cal.1966-03-30.china-leadership-2, add: [cal.1966-03-30.china-leadership-6]}
 - follows: {id: cal.1966-03-30.vietnam-struggle-3, add: [cal.1966-03-30.vietnam-struggle]}
+- follows: {id: cal.1966-03-10.program, add: [cal.1966-03-10.congress]}
+- follows: {id: cal.1966-03-20.china-leadership-2, add: [cal.1966-03-20.china-leadership]}
+- follows: {id: cal.1966-03-31.china-leadership-2, add: [cal.1966-03-31.china-leadership]}
+- check: {id: cal.1966-03-01.vietnam-congress, text: 'Check: "as the debate ends" is Gibbons''s (IV, 259); the Record prints the speech at 4379–84, after Mansfield''s motion to table (4377) and before the vote on it (4403–04) and the passage (4412).'}
+- edit:
+    id: cal.1966-03-01.vietnam
+    base: 75ca1ea9
+    set:
+      n: 'The vote to table: [112 Cong. Rec. 4404](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt4/pdf/GPO-CRECB-1966-pt4-2-1.pdf#page=82) (1966) (Senate, Mar. 1, 1966). [[w.mann-grand-delusion]], 504–05 (Johnson to Mansfield; the votes); [[w.branch-at-canaans-edge]], 451; [[w.woods-fulbright]], 410 ($4.8 billion; two weeks before the Senate, thirty-five Senators speaking against the war or its tactics). [[w.rusk-as-i-saw-it-1990]], 501, 546 (only five against tabling). The Senate sat from noon to 6:33 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D74](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=72). Check: the pages of the other votes. [FRUS 1964–68, IV, doc. 87](https://history.state.gov/historicaldocuments/frus1964-68v04/d87) (Johnson to Mansfield by telephone, 9:42 a.m.: the motion to table must not "imply any dilution" of the resolution). [[w.gibbons-u-s-government-and]], IV, 251–59. Check: Branch dates the vote Mar. 2. After the debate on Morse''s amendment (the Record) and Ball''s lunch with the four Senators, before the vote by Gibbons''s account. After [[cal.1966-03-01.vietnam-congress|Fulbright''s speech]] too: the Record prints it at 4379–84 and the vote to table at 4403–04. The House''s vote (112 Cong. Rec. 4474) after [[cal.1966-03-01.vietnam-congress-4|Cohelan''s statement]] (4431). To check: [[w.berman-william-fulbright-and-the]]; [[w.evans-lyndon-b-johnson]], 597 (cited by [[w.branch-at-canaans-edge]], 451). See [[cal.1966-01-19.vietnam]]; [[cal.1966-02-04.vietnam]]. Names: Morse, Gruening, Fulbright, McCarthy, Young.'
+- edit:
+    id: cal.1966-03-09.vietnam-struggle-2
+    base: 60fe5e95
+    set:
+      n: '[[w.gibbons-u-s-government-and]], IV, 270. Check: the memorandum''s day and file; Komer''s of 7:50 p.m. that day, FRUS 1964–68, IV, doc. 92, reports the coming showdown of Kỳ and Thi. After [[cal.1966-03-09.vietnam-struggle|the flash 2653]]: Lodge meets Kỳ again "after receiving Washington''s reply," and the memorandum reports "these developments," the second meeting among them (IV, 269–70 and n.10). See [[cal.1966-03-09.vietnam-struggle]]. Names: Bromley Smith, Johnson, Lodge.'
+- edit:
+    id: cal.1966-03-16.china-leadership-4
+    base: 5d0302f4
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 22 (Mar. 16, 1966). Made public: 2020. After [[cal.1966-03-16.china-leadership-2|his report]] and [[cal.1966-03-16.china-leadership-3|his words on the *Song of Wang Jie*]] to the North China Bureau meeting at Tianjin that day (III, 20–21); the meeting at Tianjin, III, 20. Names: Zhou Enlai.'
+- edit:
+    id: cal.1966-03-17.vietnam-struggle-3
+    base: c8ba8d0e
+    set:
+      n: '[[w.gibbons-u-s-government-and]], IV, 272–73. Check: the cables'' numbers. After [[cal.1966-03-17.vietnam-struggle|Lodge''s two hours with Trí Quang]]: Bùi Diễm''s call "Later that day" (IV, 272); Trí Quang''s call "After his meeting with Lodge (as well as the discussion between Bui Diem and Habib)" (IV, 273). See [[cal.1966-03-17.vietnam-struggle-2]]. Names: Bùi Diễm, Habib, Nguyễn Văn Thiệu, Thích Trí Quang, Tâm Châu.'
+- edit:
+    id: cal.1966-03-17.vietnam-struggle-2
+    base: 71dee5c4
+    set:
+      n: '[[w.gibbons-u-s-government-and]], IV, 272–73. To check: Washington to Saigon 2745, Mar. 17, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 273 n.22). After [[cal.1966-03-17.vietnam-struggle-3|Bùi Diễm''s report of the two plans]]: "In its reply" (IV, 273). See [[cal.1966-03-17.vietnam-struggle]]. Names: Lodge, Nguyễn Văn Thiệu, Nguyễn Cao Kỳ.'
+- edit:
+    id: cal.1966-03-20.china-leadership-4
+    base: c3214804
+    set:
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 475. Made public: 2012. After [[cal.1966-03-20.china-leadership|the morning session]]: Peng at the meeting that morning (上午), then back to Peking (IV, 475). See [[cal.1966-03-20.china-leadership]]. Names: Peng Zhen.'
+- edit:
+    id: cal.1966-03-20.china-leadership-2
+    base: 50c8446c
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 22 (Mar. 20, 1966). Made public: 2020. After [[cal.1966-03-20.china-leadership|the morning session at Hangzhou]]: Zhou at the meeting Mar. 18–20, then to Shanghai on the 20th (III, 22); the session of the 20th in the morning ([[w.peng-zhen-nianpu-1902]], IV, 475). Names: Zhou Enlai.'
+- edit:
+    id: cal.1966-03-30.vietnam-struggle-3
+    base: 43efc22a
+    set:
+      n: '[[w.gibbons-u-s-government-and]], IV, 276. To check: Washington to Saigon 2893, Mar. 30, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 276 n.33). After [[cal.1966-03-30.vietnam-struggle|Rusk''s cable 2884]]: "Later that same day a second cable" (IV, 276). See [[cal.1966-03-30.vietnam-struggle]]. Names: Lodge.'
+- edit:
+    id: cal.1966-03-10.program
+    base: 4ccb9f22
+    set:
+      n: '[[w.johnson-white-house-diary]], 369–70 (Lady Bird Johnson''s account). Made public: 1970. After [[cal.1966-03-10.congress|the meeting with the Leadership]]: Mrs. Johnson writes of it as past, a meeting "that lasted for several hours," when he comes to dinner at "ten minutes of 11" (369). Names: Johnson, Hobby.'
