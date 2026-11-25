@@ -479,6 +479,10 @@ def run(series, only=None):
         add(ERROR, where, msg, "claims")
     for where, msg in warns:
         add(WARN, where, msg, "claims")
+    # substance left in the note: what an entry's citations hold that its line lacks (tools/bib/notesub.py; R33a)
+    from . import notesub
+    for where, msg in notesub.problems(series):
+        add(WARN, where, msg, "note-substance")
     # a calendar line's cuts: the stored numbers of its parts (tools/bib/cuts.py, STYLE 1-3)
     from . import cuts
     for _, e in claims.calendar(series):
