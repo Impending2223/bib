@@ -5,22 +5,34 @@ ops:
     id: cal.1960-01-07.china-leadership
     after: end
     words: Zhu De, Chen Yi and Peng Zhen attend.
-    item: '[[w.zhu-de-nianpu-xinbian]], III, 1760'
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1760 (Zhu De)'
+- cite:
+    id: cal.1960-01-07.china-leadership
+    item: '[[w.chen-yi-nianpu]], 800 (Chen Yi)'
+    'on': Zhu De, Chen Yi and Peng Zhen attend.
+- cite:
+    id: cal.1960-01-07.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 2 (Peng Zhen)'
+    'on': Zhu De, Chen Yi and Peng Zhen attend.
 - add-words:
     id: cal.1960-01-07.china-leadership
     after: end
-    words: Chen Yun is absent, ill; the 1960 target for output is 306 billion yuan, and the 1959 grain crop was in fact 340 billion jin.
-    item: '[[w.chen-yun-nianpu-xiuding]], III, 29–30'
+    words: Chen Yun absent, ill.
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 30'
 - add-words:
     id: cal.1960-01-07.china-leadership
     after: end
-    words: 'Peng Zhen: Lin Biao reports on defense on the 14th, Nie Rongzhen and Lu Dingyi on the 15th; Mao speaks the afternoon of the 17th.'
-    item: '[[w.peng-zhen-nianpu-1902]], IV, 2'
+    words: Industrial and agricultural output for 1960 set at 306 billion yuan; output, steel and grain to rise 22, 33 and 11 percent.
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 29'
 - add-words:
     id: cal.1960-01-07.china-leadership
     after: end
-    words: The goal of a "comprehensive industrial system" in eight years is reconfirmed; Mao calls Khrushchev a revisionist.
+    words: 'The goal of a "comprehensive industrial system" in eight years reconfirmed. Mao: Khrushchev a revisionist.'
     item: '[[w.jian-zhou-enlai]], 442'
+- cite:
+    id: cal.1960-01-07.china-leadership
+    item: '[[w.jian-zhou-enlai]], 451 (Mao on Khrushchev)'
+    'on': 'The goal of a "comprehensive industrial system" in eight years reconfirmed. Mao: Khrushchev a revisionist.'
 - names:
     id: cal.1960-01-07.china-leadership
     tags:
@@ -39,140 +51,181 @@ ops:
 - add-words:
     id: cal.1960-07.china
     after: end
-    words: Sudarikov hands the Soviet note to Vice Foreign Minister Zhang Hanfu on July 16; all experts to leave between July 28 and Sept. 1.
+    words: In Peking the Soviet chargé, Sudarikov, hands the note to Vice Foreign Minister Zhang Hanfu.
     item: '[[w.peng-zhen-nianpu-1902]], IV, 46'
 - add-words:
     id: cal.1960-07.china
     after: end
-    words: Of 304 projects, 156 date from Stalin's time and 148 from Khrushchev's; 109 were done by 1959, 48 are due in 1960, 147 remain.
-    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 335–336, 338'
+    words: All experts to leave between July 28 and Sept. 1.
+    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 335'
 - variant:
     id: cal.1960-07.china
-    'on': Khrushchev recalls all Soviet experts from China and sharply cuts Soviet material and military aid.
-    witness: w.yang-jisheng-mubei
-    reads: 1,390 experts to withdraw, 343 contracts and 257 science and technology projects torn up, 900-odd more not sent
-    at: II, 1171
+    'on': All experts to leave between July 28 and Sept. 1.
+    witness: w.peng-zhen-nianpu-1902
+    reads: the notice that all experts would leave between July 28 and Sept. 1 given July 25, without waiting for China's answer
+    at: IV, 46
+- add-words:
+    id: cal.1960-07.china
+    after: end
+    words: 1,390 experts to go and more than 900 not to be sent; 343 contracts for experts and 257 projects of scientific and technical cooperation ended.
+    item: '[[w.yang-jisheng-mubei]], II, 1171'
+- cite:
+    id: cal.1960-07.china
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 47 n.1'
+    'on': 1,390 experts to go and more than 900 not to be sent; 343 contracts for experts and 257 projects of scientific and technical cooperation ended.
 - variant:
     id: cal.1960-07.china
-    'on': Khrushchev recalls all Soviet experts from China and sharply cuts Soviet material and military aid.
+    'on': 1,390 experts to go and more than 900 not to be sent; 343 contracts for experts and 257 projects of scientific and technical cooperation ended.
     witness: w.lengxi-shinian-lunzhan-1956-1966
     reads: 1,299 experts and over 1,700 dependents
-    at: 335–336
+    at: '336'
 - variant:
     id: cal.1960-07.china
-    'on': Khrushchev recalls all Soviet experts from China and sharply cuts Soviet material and military aid.
+    'on': 1,390 experts to go and more than 900 not to be sent; 343 contracts for experts and 257 projects of scientific and technical cooperation ended.
     witness: w.brothers-in-arms
-    reads: 'Chen Yi to Chervonenko, Aug. 4, 1960: some 1,400 to 1,500 specialists, the Chinese told July 16'
+    reads: 'Chen Yi to Chervonenko, Aug. 4, 1960: some 1,400 to 1,500 specialists'
     at: '362'
 - variant:
     id: cal.1960-07.china
-    'on': Khrushchev recalls all Soviet experts from China and sharply cuts Soviet material and military aid.
+    'on': 1,390 experts to go and more than 900 not to be sent; 343 contracts for experts and 257 projects of scientific and technical cooperation ended.
     witness: w.brothers-in-arms
-    reads: 'Deng Xiaoping, July 8, 1963: over 1,300 specialists to withdraw, over 900 recalled from business trips'
+    reads: 'Deng Xiaoping, July 8, 1963, in the Soviet record: over 1,300 specialists, over 900 recalled from business trips'
     at: '381'
 - check:
     id: cal.1960-07.china
     text: 'Check: [[w.westad-introduction]], 25, has the Soviet government inform Liu Shaoqi, not Zhang Hanfu; [[w.friedman-shadow-cold-war]], 52, has Peking notified "two days after the conclusion of the plenum."'
+- place:
+    id: cal.1960-07.china
+    at: peking
+    basis: c
 - names:
     id: cal.1960-07.china
     tags:
     - name:zhang-hanfu
-    - name:stalin-joseph
-    - name:khrushchev-nikita-s
+    - name:sudarikov
     - ok:note-substance
     add:
     - Zhang Hanfu
-    - Stalin
-    - Khrushchev
+    - Sudarikov
 - add-words:
     id: cal.1961-01-03.china-leadership
     after: end
     words: Zhu De, Peng Zhen and Chen Yun attend.
-    item: '[[w.zhu-de-nianpu-xinbian]], III, 1791'
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1791 (Zhu De)'
+- cite:
+    id: cal.1961-01-03.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 90 (Peng Zhen)'
+    'on': Zhu De, Peng Zhen and Chen Yun attend.
+- cite:
+    id: cal.1961-01-03.china-leadership
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 63 (Chen Yun)'
+    'on': Zhu De, Peng Zhen and Chen Yun attend.
 - add-words:
     id: cal.1961-01-03.china-leadership
     after: end
-    words: 'Li: a steel target of 20 million tons leaves gaps in iron, coal, transport and timber.'
+    words: 'Li: 20 million tons of steel leaves gaps in iron, coal, transport and timber; 19 or 19.5 for margin. Mao: three years of high targets and strain have squeezed farming.'
     item: '[[w.yang-shangkun-riji]], I, 639'
 - add-words:
     id: cal.1961-01-03.china-leadership
     after: end
-    words: Asked whether "great leap" can still be said in 1961, Deng answers that the New Year editorials of *Hongqi* and *Renmin ribao* did not.
-    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1609'
-- check:
+    words: 'Liu: raising 1960''s steel from 18.4 to 20.4 million tons was an error; this year''s plan to leave margin in every item.'
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 501'
+- add-words:
     id: cal.1961-01-03.china-leadership
-    text: 'Check: [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 501, gives Jan. 3 as the Central Work Conference''s third report session, Liu saying that raising 1960''s steel from 18.4 to 20.4 million tons was an error; the meeting broke up at 1:45 a.m. by [[w.yang-shangkun-riji]], I, 639, at 1:30 by the Peng Zhen and Zhu De nianpu.'
+    after: end
+    words: Asked by Mao whether "great leap" can still be said in 1961, Deng answers that the New Year editorials of *Hongqi* and *Renmin ribao* did not.
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1609'
 - names:
     id: cal.1961-01-03.china-leadership
     tags:
-    - name:zhu-de
-    - name:peng-zhen
-    - name:chen-yun
-    - name:deng-xiaoping
     - ok:note-substance
-    add:
-    - Zhu De
-    - Peng Zhen
-    - Chen Yun
-    - Deng Xiaoping
 - add-words:
     id: cal.1961-01-14.china-leadership
     after: end
-    words: Zhu De and Peng Zhen attend; Liu Shaoqi speaks on the Moscow meeting.
-    item: '[[w.zhu-de-nianpu-xinbian]], III, 1792'
+    words: Zhu De and Peng Zhen attend.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1792 (Zhu De)'
+- cite:
+    id: cal.1961-01-14.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 91 (Peng Zhen)'
+    'on': Zhu De and Peng Zhen attend.
 - add-words:
     id: cal.1961-01-14.china-leadership
     after: end
-    words: The plan runs agriculture, light industry, heavy industry, in that order; capital construction in the budget is cut 38 percent, steel up 1.6 percent; private plots go from 5 to 7 percent.
-    item: '[[w.chen-yun-nianpu-xiuding]], III, 67–68'
+    words: Liu Shaoqi speaks on the Moscow meeting.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 92'
+- variant:
+    id: cal.1961-01-14.china-leadership
+    'on': Chen Yun on steel and grain.
+    witness: w.peng-zhen-nianpu-1902
+    reads: Chen Yun speaks on markets and grain
+    at: IV, 92
+- add-words:
+    id: cal.1961-01-14.china-leadership
+    after: end
+    words: The plan runs agriculture, light industry, heavy industry, in that order; capital construction in the budget cut 38 percent, steel up 1.6 percent; private plots from 5 to 7 percent, for twenty years at least.
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 68'
+- cite:
+    id: cal.1961-01-14.china-leadership
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1792 (the order)'
+    'on': The plan runs agriculture, light industry, heavy industry, in that order; capital construction in the budget cut 38 percent, steel up 1.6 percent; private plots from 5 to 7 percent, for twenty years at least.
 - add-words:
     id: cal.1961-01-14.china-leadership
     after: end
     words: 'Li''s report, Jan. 14: industrial output in 1960 214 billion yuan; for 1961 coal 436 million tons, iron 27.5 million, steel 19 million.'
-    item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 19–46'
+    item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 19, 35'
 - add-words:
     id: cal.1961-01-14.china-leadership
     after: end
-    words: 'Mao, the 18th: 1961 a year of investigation.'
-    item: '[[w.peng-zhen-nianpu-1902]], IV, 91–92'
+    words: 'Zhu De, the 18th: farming and light industry first, then heavy; railways and shipping.'
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1792'
+- add-words:
+    id: cal.1961-01-14.china-leadership
+    after: end
+    words: 'Mao, closing, the 18th: 1961 a year of investigation and study.'
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 92'
+- cite:
+    id: cal.1961-01-14.china-leadership
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1792'
+    'on': 'Mao, closing, the 18th: 1961 a year of investigation and study.'
 - names:
     id: cal.1961-01-14.china-leadership
     tags:
     - name:zhu-de
     - name:peng-zhen
-    - name:liu-shaoqi
-    - name:mao-zedong
     - ok:note-substance
     add:
     - Zhu De
     - Peng Zhen
-    - Liu Shaoqi
-    - Mao Zedong
 - add-words:
     id: cal.1961-06-25.china-leadership-4
     after: end
     words: The talk begins at 9 p.m. and runs over two hours.
-    item: '[[w.brothers-in-arms]], 369–374'
+    item: '[[w.brothers-in-arms]], 369, 374'
 - add-words:
     id: cal.1961-06-25.china-leadership-4
     after: end
     words: Mao, with angina for a month, cannot see him; Liu Shaoqi has been freed to write the report for the fortieth anniversary.
-    item: '[[w.brothers-in-arms]], 369–374'
+    item: '[[w.brothers-in-arms]], 369–70'
 - add-words:
     id: cal.1961-06-25.china-leadership-4
     after: end
     words: 'The drought: the summer harvest will be some 10 million tons below last year''s 30 million, and the year''s grain will hardly match last year''s 160 million tons.'
-    item: '[[w.brothers-in-arms]], 369–374'
+    item: '[[w.brothers-in-arms]], 370'
 - add-words:
     id: cal.1961-06-25.china-leadership-4
     after: end
     words: Chervonenko hands over the record of Khrushchev's talks with Kennedy at Vienna; Zhou says the Western sources differ and not all can be taken seriously.
-    item: '[[w.brothers-in-arms]], 369–374'
+    item: '[[w.brothers-in-arms]], 370–71'
 - add-words:
     id: cal.1961-06-25.china-leadership-4
     after: end
     words: The Soviet–Korean treaty is welcomed; Zhou will answer on Brezhnev's visit within days; he has been told to work half days.
-    item: '[[w.brothers-in-arms]], 369–374'
+    item: '[[w.brothers-in-arms]], 373–74'
+- add-words:
+    id: cal.1961-06-25.china-leadership-4
+    after: end
+    words: Present, Ye Husheng, Yan Minfu and Zhou Zhucheng; for the embassy, Rakhmanin and Mochulskii.
+    item: '[[w.brothers-in-arms]], 374'
 - names:
     id: cal.1961-06-25.china-leadership-4
     tags:
@@ -206,38 +259,82 @@ ops:
 - add-words:
     id: cal.1961-08-23.china-leadership
     after: end
-    words: Zhu De and Peng Zhen attend; Chen Yun, ill, only the first half (to Sept. 1).
-    item: '[[w.zhu-de-nianpu-xinbian]], III, 1812–1813'
+    words: Zhu De and Peng Zhen attend; Chen Yun, ill, only to Sept. 1.
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 104'
+- cite:
+    id: cal.1961-08-23.china-leadership
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1812–13 (Zhu De)'
+    'on': Zhu De and Peng Zhen attend; Chen Yun, ill, only to Sept. 1.
+- cite:
+    id: cal.1961-08-23.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 149 (Peng Zhen)'
+    'on': Zhu De and Peng Zhen attend; Chen Yun, ill, only to Sept. 1.
 - add-words:
     id: cal.1961-08-23.china-leadership
     after: end
-    words: 'Wang Renzhong''s diary: Mao asks of the harvests and the Sixty Articles; "we shall hit more nails"; the economy has reached bottom.'
-    item: '[[w.mao-zedong-zhuan]], V, ch. 68 nn.20, 21'
+    words: 'Mao, Aug. 23: socialism not yet understood, the Sixty Articles no final answer; "we shall hit more nails" for three years. To the enlarged Standing Committee later: the economy has reached bottom and rises day by day.'
+    item: '[[w.mao-zedong-zhuan]], V, ch. 68 at nn.20, 21'
 - add-words:
     id: cal.1961-08-23.china-leadership
     after: end
-    words: The directive is the "Instruction on current industrial problems."
+    words: 'Reports: Zhou on grain, Li Xiannian on markets and prices, Li Fuchun on industry, Bo Yibo on the Seventy Articles, Lu Dingyi on the Sixty; Deng''s speech the summing-up.'
+    item: '[[w.mao-zedong-zhuan]], V, ch. 68 at n.21'
+- add-words:
+    id: cal.1961-08-23.china-leadership
+    after: end
+    words: 'The directive is the "Instruction on current industrial problems."'
     item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 538'
+- cite:
+    id: cal.1961-08-23.china-leadership
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1813'
+    'on': 'The directive is the "Instruction on current industrial problems."'
 - add-words:
     id: cal.1961-08-23.china-leadership
     after: end
-    words: 'A report to the conference: 99.6 billion yuan spent on capital construction in the three years to September 1961, 9.2 billion more on housing.'
-    item: '[[w.dikotter-maos-great-famine]], 166 n.13'
+    words: 99.6 billion yuan spent on capital construction in the three years to September 1961, 9.2 billion more on housing.
+    item: '[[w.dikotter-maos-great-famine]], 166'
+- cite:
+    id: cal.1961-08-23.china-leadership
+    item: '[[w.dikotter-maos-great-famine]], 166 n.13 (a report at the Lushan conference)'
+    'on': 99.6 billion yuan spent on capital construction in the three years to September 1961, 9.2 billion more on housing.
+- edit:
+    id: cal.1961-08-23.china-leadership
+    base: d5848e92
+    kind: reword
+    set:
+      time_range:
+      - 1961-08-22T22:00Z
+      - 1961-08-23T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      range_basis: record
+- cite:
+    id: cal.1961-08-23.china-leadership
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1812 (the meeting at Mao''s, morning)'
+    'on': time
 - names:
     id: cal.1961-08-23.china-leadership
     tags:
     - name:zhu-de
     - name:peng-zhen
     - name:chen-yun
-    - name:wang-renzhong
-    - name:mao-zedong
+    - name:zhou-enlai
+    - name:li-xiannian
+    - name:li-fuchun
+    - name:bo-yibo
+    - name:lu-dingyi
+    - name:deng-xiaoping
     - ok:note-substance
     add:
     - Zhu De
     - Peng Zhen
     - Chen Yun
-    - Wang Renzhong
-    - Mao Zedong
+    - Zhou Enlai
+    - Li Xiannian
+    - Li Fuchun
+    - Bo Yibo
+    - Lu Dingyi
+    - Deng Xiaoping
 - add-words:
     id: cal.1961-12-10.goldwater
     after: end
@@ -265,53 +362,63 @@ ops:
 - add-words:
     id: cal.1962-01-30.china-leadership
     after: end
-    words: Zhou Enlai and Peng Zhen attend the afternoon plenary.
+    words: Zhou Enlai attends.
     item: '[[w.zhou-enlai-nianpu-1949]], II, 454'
 - add-words:
     id: cal.1962-01-30.china-leadership
     after: end
-    words: 'Mao: comrades are to "unleash their anger"; for the Center''s mistakes he is directly or indirectly responsible; without democracy, no centralization.'
+    words: 'Mao: comrades are to "unleash their anger"; for the Center''s mistakes he is directly or indirectly responsible; without frustration released, no unity, without democracy, no centralization.'
     item: '[[w.jian-zhou-enlai]], 461'
 - add-words:
     id: cal.1962-01-30.china-leadership
     after: end
-    words: 'On the Soviet relation: not necessarily Albania''s way; the Seven Thousand stand for 650 million people and fear no isolation; 90 percent of the world will in the end stand with China.'
-    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 488–489'
+    words: 'On the Soviet relation: not necessarily Albania''s way; even if Moscow splits, China will not; no counter-polemics. The Seven Thousand stand for 650 million people and fear no isolation; 90 percent of the world will in the end stand with China.'
+    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 488'
 - add-words:
     id: cal.1962-01-30.china-leadership
     after: end
-    words: Mao names Liu Shaoqi, Zhou Enlai and Deng Xiaoping, and Chen Yun, as understanding more of industry and commerce.
-    item: '[[w.chen-yun-nianpu-xiuding]], III, 119–120'
+    words: 'On industry and commerce: Liu Shaoqi, Zhou Enlai and Deng Xiaoping understand more than he, Chen Yun most.'
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 119–20'
 - names:
     id: cal.1962-01-30.china-leadership
     tags:
     - name:zhou-enlai
-    - name:peng-zhen
     - name:liu-shaoqi
     - name:deng-xiaoping
     - name:chen-yun
     - ok:note-substance
     add:
     - Zhou Enlai
-    - Peng Zhen
     - Liu Shaoqi
     - Deng Xiaoping
     - Chen Yun
 - add-words:
     id: cal.1962-02-21.china-leadership
     after: end
-    words: Yao Yilin reports on trade, 3 to 7:30 p.m. on the 21st.
+    words: Yao Yilin reports on trade, 3 to 7:30 p.m. on the 21st; Yang Shangkun attends.
     item: '[[w.yang-shangkun-riji]], II, 126'
 - add-words:
     id: cal.1962-02-21.china-leadership
     after: end
-    words: Zhou Enlai and Peng Zhen attend; Chen Yun speaks on the 23rd.
-    item: '[[w.zhou-enlai-nianpu-1949]], II, 460'
+    words: 'Zhou Enlai and Peng Zhen attend. Chen Yun, the 23rd: farming down, building too heavy, prices high, speculation; Liu: "I firmly support you."'
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 175'
+- cite:
+    id: cal.1962-02-21.china-leadership
+    item: '[[w.zhou-enlai-nianpu-1949]], II, 460 (Zhou)'
+    'on': 'Zhou Enlai and Peng Zhen attend. Chen Yun, the 23rd: farming down, building too heavy, prices high, speculation; Liu: "I firmly support you."'
+- cite:
+    id: cal.1962-02-21.china-leadership
+    item: '[[w.jian-zhou-enlai]], 463 (Chen Yun''s points; Liu''s words)'
+    'on': 'Zhou Enlai and Peng Zhen attend. Chen Yun, the 23rd: farming down, building too heavy, prices high, speculation; Liu: "I firmly support you."'
 - add-words:
     id: cal.1962-02-21.china-leadership
     after: end
     words: 'Liu: the Seven Thousand Cadres Conference did not lay the difficulties bare; an extraordinary time needs extraordinary means.'
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 72'
+- cite:
+    id: cal.1962-02-21.china-leadership
+    item: '[[w.jian-zhou-enlai]], 463'
+    'on': 'Liu: the Seven Thousand Cadres Conference did not lay the difficulties bare; an extraordinary time needs extraordinary means.'
 - add-words:
     id: cal.1962-02-21.china-leadership
     after: end
@@ -332,6 +439,7 @@ ops:
 - edit:
     id: cal.1962-02-21.china-leadership
     base: '96025516'
+    kind: reword
     set:
       time_range:
       - 1962-02-21T07:00Z
@@ -342,6 +450,7 @@ ops:
     id: cal.1962-02-21.china-leadership
     tags:
     - name:yao-yilin
+    - name:yang-shangkun
     - name:zhou-enlai
     - name:peng-zhen
     - name:chen-yun
@@ -350,6 +459,7 @@ ops:
     - ok:note-substance
     add:
     - Yao Yilin
+    - Yang Shangkun
     - Zhou Enlai
     - Peng Zhen
     - Chen Yun
@@ -646,7 +756,7 @@ ops:
     item: '[[w.mcpherson-political-education]], 359'
 - cite:
     id: cal.1967-07-24.civil-disorders-detroit
-    item: '[[w.califano-triumph-and-tragedy-of]], 217 (the statement Fortas's)'
+    item: '[[w.califano-triumph-and-tragedy-of]], 217 (the statement Fortas''s)'
     'on': About 10 p.m., in the Oval Office, Johnson reads the statement he has written with a Washington lawyer, Hoover and McNamara present.
 - add-words:
     id: cal.1967-07-24.civil-disorders-detroit

@@ -1,16 +1,21 @@
-patch: notes-pass-04
-by: 'Claude (reader; the notes pass, batch 04: R33a, building on the entry from its cites)'
+patch: 2026-11-25-notes-pass-04
+by: 'Claude (reader; the notes pass, batch 04: R33a, building on the entry from its cites); audited by Claude (Opus), Nov. 25, 2026, against the pages (notes/notes-pass/audit-04.md)'
 ops:
 - add-words:
     id: cal.1960-12-07.china-leadership
     after: end
-    words: 'Afternoon, the enlarged Politburo. Deng: the greatest gain, "agreement through consultation"; Khrushchev and the CPSU criticized; neither side wants a split; the argument ended for a stage, not finished.'
+    words: 'Afternoon, the enlarged Politburo. Deng: Khrushchev and the CPSU criticized; the greatest gain, "agreement through consultation"; neither side wants a split; the argument ended for a stage, not finished.'
     item: '[[w.deng-xiaoping-nianpu-1904]], III, 1603–1604'
 - add-words:
     id: cal.1960-12-07.china-leadership
     after: end
-    words: Peng Zhen and Zhu De attend.
+    words: Peng Zhen attends.
     item: '[[w.peng-zhen-nianpu-1902]], IV, 83'
+- add-words:
+    id: cal.1960-12-07.china-leadership
+    after: end
+    words: Zhu De attends.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1789'
 - names:
     id: cal.1960-12-07.china-leadership
     add:
@@ -21,42 +26,52 @@ ops:
     - name:peng-zhen
     - name:zhu-de
     - name:khrushchev-nikita-s
+- edit:
+    id: cal.1960-12-07.china-leadership
+    base: a1ba2b2e
+    set:
+      time_range:
+      - 1960-12-07T04:00Z
+      - 1960-12-07T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
 - add-words:
     id: cal.1960-12-16.robert-kennedy
     after: end
-    words: The announcement, with Dillon's, is on the front steps at N Street.
+    words: The announcement, with Dillon's, that morning on the front steps at N Street; Robert Kennedy brings Goldberg.
     item: '[[w.odonnell-johnny-we-hardly-knew]], 273'
-- add-words:
-    id: cal.1960-12-16.robert-kennedy
-    after: end
-    words: Clifford, against the appointment, goes to Joseph Kennedy.
-    item: '[[w.clifford-counsel-to-the-president-2]], 336–38'
-- add-words:
-    id: cal.1960-12-16.robert-kennedy
-    after: end
-    words: Joseph Kennedy is for it.
-    item: '[[w.robert-kennedy-in-his]], 73–74'
 - names:
     id: cal.1960-12-16.robert-kennedy
     add:
-    - Clifford
-    - Joseph Kennedy
+    - Goldberg
     tags:
-    - name:clifford-clark
-    - name:kennedy-joseph-p
+    - name:goldberg-arthur-j
+- edit:
+    id: cal.1960-12-16.robert-kennedy
+    base: e0f7abc1
+    set:
+      time_range:
+      - 1960-12-16T11:00Z
+      - 1960-12-16T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+      place: washington
+    unset:
+    - range_basis
 - add-words:
     id: cal.1960-12-19.china-leadership-3
     after: end
-    words: Chen Yi and First Deputy Premier Nhiek Tioulong sign a protocol on economic and technical aid, a supplementary protocol to the aid agreement of June 21, 1956, an air-transport agreement and notes on Chinese railway and farm experts.
+    words: Chen Yi and First Deputy Premier Nhiek Tioulong sign a protocol on economic and technical aid, a supplementary protocol to the aid agreement of June 21, 1956, a shipping agreement and notes on Chinese railway and farm experts.
     item: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 177'
+- cite:
+    id: cal.1960-12-19.china-leadership-3
+    item: '[[w.chen-yi-nianpu]], 848–849'
+    'on': Chen Yi and First Deputy Premier … railway and farm experts.
 - add-words:
     id: cal.1960-12-19.china-leadership-3
     after: end
-    words: Zhu De attends the signing.
+    words: Zhu De attends the signing of the statement and the treaty.
     item: '[[w.zhu-de-nianpu-xinbian]], III, 1789'
-- check:
-    id: cal.1960-12-19.china-leadership-3
-    text: 'Check: Chen Yi''s chronology ([[w.chen-yi-nianpu]], 848–849) has a shipping agreement where the Foreign Ministry''s history has an air-transport agreement (177).'
 - names:
     id: cal.1960-12-19.china-leadership-3
     add:
@@ -70,13 +85,18 @@ ops:
 - add-words:
     id: cal.1960-12-24.china-leadership
     after: end
-    words: 'Chen Yun speaks from his three months'' inquiry: a billion yuan for higher grain purchase prices; oil-seed, pig, poultry and egg prices raised. Mao: socialist construction not to be rushed, half a century; 1961 a year of seeking truth from facts.'
+    words: 'Chen Yun speaks on the way through the difficulties, from his three months'' inquiry. The conference also sets a billion yuan to raise the grain purchase price and raises the prices of oil-seed, pigs, poultry and eggs. Mao: socialist construction not to be rushed, half a century; 1961 a year of seeking truth from facts. The Center puts Chen Yun at the head of a small group on grain prices.'
     item: '[[w.chen-yun-nianpu-xiuding]], III, 60–61'
 - add-words:
     id: cal.1960-12-24.china-leadership
     after: end
-    words: Peng Zhen and Zhu De attend.
+    words: Peng Zhen attends.
     item: '[[w.peng-zhen-nianpu-1902]], IV, 86'
+- add-words:
+    id: cal.1960-12-24.china-leadership
+    after: end
+    words: Zhu De attends.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1790'
 - names:
     id: cal.1960-12-24.china-leadership
     add:
@@ -90,7 +110,7 @@ ops:
 - add-words:
     id: cal.1960-12-26.china-leadership
     after: end
-    words: 'Mao: he no longer chairs the Politburo and "practically never speaks" at the Central Committee; Liu Shaoqi has run its routine since 1956. Yan Mingfu, Zhu Jueren, Sudarikov and Rakhmanin are present; the greetings are from the CPSU Central Committee and Khrushchev.'
+    words: 'Mao: he has not chaired the Politburo since 1953–54 and "practically never speaks" at the Central Committee''s plenums; Liu Shaoqi has run the Politburo''s routine since 1956. Yan Mingfu, Zhu Jueren, Sudarikov and Rakhmanin are also present; the greetings are from the CPSU Central Committee and Khrushchev. More than an hour.'
     item: '[[w.brothers-in-arms]], 365–369'
 - names:
     id: cal.1960-12-26.china-leadership
@@ -107,13 +127,13 @@ ops:
 - add-words:
     id: cal.1961-01-09.china-leadership
     after: end
-    words: 'Mao adds "no investigation, no right to speak." Liu Zihou reports on two Hebei counties; Mao: the false Communist, the real Kuomintang.'
-    item: '[[w.mao-zedong-zhuan]], V, ch. 67 n.7'
+    words: 'Mao adds "no investigation, no right to speak." Liu Zihou reports on two Hebei counties; Mao: in the third-class counties the old cadres "false Communists, real Kuomintang."'
+    item: '[[w.mao-zedong-zhuan]], V, ch. 67'
 - add-words:
     id: cal.1961-01-09.china-leadership
     after: end
     words: Peng Zhen attends.
-    item: '[[w.peng-zhen-nianpu-1902]], IV, 91'
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 90–91'
 - names:
     id: cal.1961-01-09.china-leadership
     add:
@@ -125,13 +145,13 @@ ops:
 - add-words:
     id: cal.1961-01-09.transition-and-staff
     after: end
-    words: Kennedy is at the house from about 2:20 to shortly before 5, about 300 people in the cold outside; after Schlesinger, Surrey's tax task force, Chayes, Bundy, Stratton and Wiesner see him.
+    words: Kennedy is at the house from about 2:20 to shortly after 5, about 300 people in the cold outside; after Schlesinger, 2:30 to 3:30, Surrey's tax task force, Chayes, Bundy, Stratton and Wiesner see him.
     item: '[[w.schlesinger-journals]], 102'
 - add-words:
     id: cal.1961-01-09.transition-and-staff
     after: end
     words: The address is his "Farewell to Massachusetts," drafted by Sorensen.
-    item: '[[w.sorensen-counselor]], 219–20'
+    item: '[[w.sorensen-counselor]], 219'
 - names:
     id: cal.1961-01-09.transition-and-staff
     add:
@@ -143,7 +163,7 @@ ops:
 - add-words:
     id: cal.1961-01-18.china-leadership
     after: end
-    words: 'Liu Shaoqi and Chen Yun also speak: Liu on the Moscow conference, Chen Yun on planning, agriculture, the market and grain. Liu: Mikoyan and Kozlov came Nov. 26 to feel China out with the lure of restored aid.'
+    words: 'Liu Shaoqi and Chen Yun also speak: Liu on the Moscow conference, Chen Yun chiefly on planning and agriculture, the Moscow conference a success. Liu: Mikoyan and Kozlov came Nov. 26 to feel China out with the lure of restored aid.'
     item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 445–448'
 - add-words:
     id: cal.1961-01-18.china-leadership
@@ -177,13 +197,26 @@ ops:
 - add-words:
     id: cal.1961-03-15.china-leadership-2
     after: end
-    words: 'The conference in effect began Mar. 10: the Three South conference at Canton under Mao, the Three North at Peking under Liu, Zhou Enlai, Chen Yun and Deng, the Three North going to Canton Mar. 14. Zhu De attends.'
-    item: '[[w.zhu-de-nianpu-xinbian]], III, 1800–1801'
+    words: 'The conference in effect began Mar. 10: the Three South conference at Canton under Mao, the Three North at Peking under Liu, Zhou Enlai, Chen Yun and Deng, the Three North going to Canton Mar. 14.'
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1800 n.1'
 - add-words:
     id: cal.1961-03-15.china-leadership-2
     after: end
-    words: Zhou speaks on the 19th, 20th and 22nd; Peng Zhen attends.
+    words: Zhu De attends.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1800'
+- add-words:
+    id: cal.1961-03-15.china-leadership-2
+    after: end
+    words: Zhou speaks on the 19th in the Central-South and North China group and on the 20th on grain and foreign trade; on the 22nd he revises the Center's letter on the draft.
     item: '[[w.zhou-enlai-nianpu-1949]], II, 398–99'
+- add-words:
+    id: cal.1961-03-15.china-leadership-2
+    after: end
+    words: Peng Zhen attends.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 112'
+- check:
+    id: cal.1961-03-15.china-leadership-2
+    text: 'Check: who presides on the 20th: Zhou''s chronology has Zhou ([[w.zhou-enlai-nianpu-1949]], II, 399), Liu''s has Liu ([[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 508).'
 - names:
     id: cal.1961-03-15.china-leadership-2
     add:
@@ -204,27 +237,18 @@ ops:
     words: 'The letter holds: "No investigation, no right to speak."'
     item: '[[w.macfarquhar-origins-of-the-cultural]], III, 48'
 - add-words:
-    id: cal.1961-03-23.china-leadership-3
+    id: cal.1961-04-19.cuba
     after: end
-    words: Then Liu Shaoqi goes to Changsha and Ningxiang, Zhu De to Sichuan, Hunan and Shaanxi, Deng Xiaoping and Peng Zhen to Shunyi and Huairou.
-    item: '[[w.peng-dehuai-nianpu]], 763'
-- names:
-    id: cal.1961-03-23.china-leadership-3
-    add:
-    - Liu Shaoqi
-    - Zhu De
-    - Deng Xiaoping
-    - Peng Zhen
-    tags:
-    - name:liu-shaoqi
-    - name:zhu-de
-    - name:deng-xiaoping
-    - name:peng-zhen
+    words: 'The Chiefs'' order to Dennison goes at 0337: pilots to carry as little identification as possible.'
+    item: '[[w.poole-joint-chiefs-of-staff]], 115'
 - add-words:
     id: cal.1961-04-19.cuba
     after: end
-    words: 'The Chiefs'' order to Dennison goes at 0337: pilots to carry as little identification as possible. Lemnitzer: "go guerrilla"; Burke, prodded by Robert Kennedy, asks an hour of air cover.'
-    item: '[[w.poole-joint-chiefs-of-staff]], 115'
+    words: 'At the meeting Lemnitzer: the invaders to "go guerrilla"; Burke, prodded by Robert Kennedy, proposes an hour of air cover.'
+    item: '[[w.thomas-robert-kennedy]], 121'
+- check:
+    id: cal.1961-04-19.cuba
+    text: 'Check: Poole has Lemnitzer''s "go guerrilla" to Kennedy on the morning of the 19th ([[w.poole-joint-chiefs-of-staff]], 116), Thomas at the meeting after midnight (121).'
 - names:
     id: cal.1961-04-19.cuba
     add:
@@ -238,8 +262,18 @@ ops:
 - add-words:
     id: cal.1961-04-22.china-leadership-2
     after: end
-    words: 'The Laotian side: Souvanna Phouma and Souphanouvong. Dinner on the 22nd, talks the morning of the 23rd, Chen Yi at them, "in a cordial and friendly atmosphere"; common views reached.'
+    words: 'The Laotian side: Souvanna Phouma and Souphanouvong. Zhou''s dinner on the 22nd; the talks the morning of the 23rd, Chen Yi at them.'
     item: '[[w.chen-yi-nianpu]], 868'
+- add-words:
+    id: cal.1961-04-22.china-leadership-2
+    after: end
+    words: The talks "in a cordial and friendly atmosphere."
+    item: '[[w.guan-vietnamese-communists-relations-with]], 190'
+- add-words:
+    id: cal.1961-04-22.china-leadership-2
+    after: end
+    words: Common views reached.
+    item: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 192–193'
 - names:
     id: cal.1961-04-22.china-leadership-2
     add:
@@ -251,13 +285,18 @@ ops:
 - add-words:
     id: cal.1961-04-26.china-leadership-2
     after: end
-    words: Deng Xiaoping sends it, on Mao's wish, as Zhongfa [61] 323 to the bureaus and committees, with four enclosures, titled "several important documents the Chairman commented on."
+    words: Deng Xiaoping sends it, on Mao's wish, to the bureaus and committees, with four enclosures, subtitled as Hu's material on the mess halls.
+    item: '[[w.mao-zedong-zhuan]], V, ch. 68'
+- add-words:
+    id: cal.1961-04-26.china-leadership-2
+    after: end
+    words: The document is Zhongfa [61] 323, titled "several important documents the Chairman commented on."
     item: '[[w.yang-jisheng-mubei]], II, 1173'
 - add-words:
     id: cal.1961-04-26.china-leadership-2
     after: end
-    words: 'Hu''s letter of Apr. 14, from Shaoshan: in three brigades of the former Dongjiao commune at Xiangxiang, 707 dead from October 1958 to March 1961, 13.5 percent of their people; in two brigades nearby, about 20 percent over three years.'
-    item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 300–315'
+    words: 'Hu''s letter of Apr. 14: in three brigades of the former Dongjiao commune at Xiangxiang, 707 dead from October 1958 to March 1961, 13.5 percent of their people, by report; in two brigades nearby, about 20 percent over three years; in the county about 30,000 in three years.'
+    item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 301–302'
 - names:
     id: cal.1961-04-26.china-leadership-2
     add:
@@ -267,8 +306,8 @@ ops:
 - add-words:
     id: cal.1961-04-28.opinion
     after: end
-    words: 'May 3: Evelyn Lincoln brings Kennedy an advance of the poll, which Schlesinger''s journal has at 82 percent.'
-    item: '[[w.schlesinger-journals]], 121'
+    words: 'May 3, late afternoon: Evelyn Lincoln brings Kennedy an advance of the poll.'
+    item: '[[w.schlesinger-journals]], 120–21'
 - names:
     id: cal.1961-04-28.opinion
     add:
@@ -278,7 +317,7 @@ ops:
 - add-words:
     id: cal.1961-05-25.space
     after: end
-    words: 'Defense: $100 million for the ROAD divisions, $138 million for Army and Marine equipment, the Marines raised to 190,000.'
+    words: 'Defense: $100 million for the ROAD divisions, $138 million for Army and Marine equipment, the Marines raised from 178,000 to 190,000.'
     item: '[[w.poole-joint-chiefs-of-staff]], 65'
 - add-words:
     id: cal.1961-05-25.space
@@ -295,12 +334,12 @@ ops:
     id: cal.1961-06-03.berlin-and-vienna
     after: end
     words: 'Khrushchev: the treaty "in December of this year." Kennedy: "Then it will be a cold winter."'
-    item: '[[w.prezidium-tsk-kpss-1954]], III, 171–215'
+    item: '[[w.prezidium-tsk-kpss-1954]], III, 214'
 - add-words:
     id: cal.1961-06-03.berlin-and-vienna
     after: end
-    words: In the garden walk Khrushchev holds to three inspections a year, with a veto.
-    item: '[[w.fursenko-khrushchevs-cold-war]], 360–64'
+    words: On the test ban Khrushchev allows three inspections a year and a veto on enforcement.
+    item: '[[w.fursenko-khrushchevs-cold-war]], 362'
 - add-words:
     id: cal.1961-06-03.berlin-and-vienna
     after: end
@@ -319,7 +358,7 @@ ops:
 - add-words:
     id: cal.1961-06-10.china-leadership-3
     after: end
-    words: Peng Zhen attends; Liu Shaoqi's speech for the anniversary and college admissions are on the agenda.
+    words: Peng Zhen attends, the 258th meeting; Liu Shaoqi's speech for the anniversary and college admissions are on the agenda.
     item: '[[w.peng-zhen-nianpu-1902]], IV, 133'
 - names:
     id: cal.1961-06-10.china-leadership-3
@@ -336,8 +375,13 @@ ops:
 - add-words:
     id: cal.1961-06-12.china-leadership
     after: end
-    words: 'Mao: sum up eleven years of building, which may take another eleven; read Stalin''s *Economic Problems of Socialism in the USSR* again.'
-    item: '[[w.mao-zedong-zhuan]], V, ch. 68 n.19'
+    words: 'The plenary, 11 a.m. to 2 p.m. Mao: sum up eleven years of building, which may take another eleven.'
+    item: '[[w.yang-shangkun-riji]], II, 41'
+- add-words:
+    id: cal.1961-06-12.china-leadership
+    after: end
+    words: 'Mao: read Stalin''s *Economic Problems of Socialism in the USSR* again.'
+    item: '[[w.mao-zedong-zhuan]], V, ch. 68'
 - add-words:
     id: cal.1961-06-12.china-leadership
     after: end
@@ -367,20 +411,29 @@ ops:
     - name:zhou-enlai
     - name:li-xiannian
     - name:peng-zhen
+- edit:
+    id: cal.1961-06-12.china-leadership
+    base: d368191b
+    set:
+      time: 1961-06-12T03:00Z
+      time_zone: Asia/Shanghai
+    unset:
+    - time_range
+    - time_band
 - add-words:
     id: cal.1961-06-12.china-leadership-3
     after: end
-    words: 'June 12, afternoon: Liu Shaoqi, with Soong Ching-ling, Dong Biwu, Zhu De and Zhou Enlai, meets the delegation. Liu: shortcomings and errors, joined to two years of calamity, have added to the losses; cadres must know the laws of socialist economic development.'
+    words: 'June 12: Liu Shaoqi, with Soong Ching-ling, Dong Biwu, Zhu De and Zhou Enlai, meets the delegation. Liu: shortcomings and errors, joined to two years of calamity, have added to the losses; cadres must know the laws of socialist economic development.'
     item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 526'
 - add-words:
     id: cal.1961-06-12.china-leadership-3
     after: end
-    words: Talks with Zhou, Li Fuchun, Luo Ruiqing, Luo Guibo, Fang Yi and He Wei. The communiqué records "complete identity of views"; the South's struggle against American aggression and Diệm a sacred right.
+    words: Talks with Zhou, Li Fuchun, Luo Ruiqing, Luo Guibo, Fang Yi and He Wei. The communiqué of the 15th records "complete identity of views"; the South's struggle against American aggression and Diệm a sacred right.
     item: '[[w.guan-vietnamese-communists-relations-with]], 196–197'
 - add-words:
     id: cal.1961-06-12.china-leadership-3
     after: end
-    words: Peng Zhen attends Zhou's banquet.
+    words: Peng Zhen, with Zhou, Dong Biwu and Li Fuchun, meets Phạm Văn Đồng at the airport, and attends Zhou's banquet that evening.
     item: '[[w.peng-zhen-nianpu-1902]], IV, 133'
 - names:
     id: cal.1961-06-12.china-leadership-3
@@ -407,30 +460,50 @@ ops:
 - add-words:
     id: cal.1961-06-17.china-leadership-2
     after: end
-    words: 'The Secretariat sits 10 a.m. to 2 p.m., Deng presiding, Zhou attending, on coal: Guo Hongtao reports for the State Economic Commission, Wang Heshou adds. Deng: industry far more complex than farming, "no bottom in our hearts"; regulations only after investigation.'
+    words: 'The morning, Deng presiding, Zhou attending: working regulations for industrial enterprises to be drafted. Deng: industry far more complex than farming, "no bottom in our hearts"; regulations only with investigation.'
     item: '[[w.deng-xiaoping-nianpu-1904]], III, 1645'
 - add-words:
     id: cal.1961-06-17.china-leadership-2
     after: end
-    words: 'Peng Zhen: these years advance and retreat without an overall plan; heavy industry''s retreat to be planned, not rash.'
-    item: '[[w.peng-zhen-nianpu-1902]], IV, 134–135'
+    words: 'Peng Zhen, at the 259th meeting: these years advance and retreat without an overall plan; heavy industry''s retreat to be planned, not rash.'
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 134'
 - names:
     id: cal.1961-06-17.china-leadership-2
     add:
     - Deng Xiaoping
-    - Guo Hongtao
-    - Wang Heshou
     - Peng Zhen
     tags:
     - name:deng-xiaoping
-    - name:guo-hongtao
-    - name:wang-heshou
     - name:peng-zhen
+- edit:
+    id: cal.1961-06-17.china-leadership-2
+    base: ddc10a9d
+    set:
+      time_range:
+      - 1961-06-16T22:00Z
+      - 1961-06-17T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
 - add-words:
     id: cal.1961-07-06.china-leadership-2
     after: end
-    words: 'Liu Shaoqi presides, 3 to 7 p.m. Nie Rongzhen and Zhang Jingfu report; Liu, Zhou, Deng Xiaoping, Kang Sheng, Peng Zhen and Li Fuchun speak; Mao is absent. Liu: a good document, but the work is biased toward blind command, to be corrected. Deng: it is to be tried and amended into "a constitution for scientific work."'
+    words: The Politburo sits 3 to 7 p.m.
+    item: '[[w.yang-shangkun-riji]], II, 48'
+- add-words:
+    id: cal.1961-07-06.china-leadership-2
+    after: end
+    words: 'Liu Shaoqi presides. Liu: a good document; the work is biased, with blind command, and the bias to be corrected.'
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 528'
+- add-words:
+    id: cal.1961-07-06.china-leadership-2
+    after: end
+    words: Nie Rongzhen and Zhang Jingfu report; Mao is absent. By Nie's account Liu, Zhou, Deng Xiaoping, Peng Zhen and Li Fuchun approve; Kang Sheng asks how Marxism-Leninism should lead science.
     item: '[[w.macfarquhar-origins-of-the-cultural]], III, 98–99'
+- add-words:
+    id: cal.1961-07-06.china-leadership-2
+    after: end
+    words: 'Deng: to be tried and amended into "a constitution for scientific work."'
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1647'
 - names:
     id: cal.1961-07-06.china-leadership-2
     add:
@@ -447,10 +520,19 @@ ops:
     - name:kang-sheng
     - name:peng-zhen
     - name:li-fuchun
+- edit:
+    id: cal.1961-07-06.china-leadership-2
+    base: 8189b621
+    set:
+      time: 1961-07-06T07:00Z
+      time_zone: Asia/Shanghai
+    unset:
+    - time_range
+    - time_band
 - add-words:
     id: cal.1961-07-20.china-leadership-3
     after: end
-    words: 'Peng Zhen, with Yang Shangkun, hears Qian Ying: reviews for cadres who erred in work, not for degenerates; production the center of work in the villages. Peng: the "left" and "right" labels on cadres not off production removed and no more pinned. He also hears Li Weihan (Luo Mai), Xu Bing and Ping Jiesan: the national bourgeoisie mostly reformable, by Mao''s word; posts kept or raised, the wrongly treated restored, unpaid fixed interest paid.'
+    words: 'Peng Zhen, with Yang Shangkun, hears Qian Ying: reviews for cadres who erred in work, not for degenerates; production the center of work in the villages. Peng: the "left" and "right" labels on cadres not off production removed and no more pinned. He also hears Li Weihan, Xu Bing and Ping Jiesan: the national bourgeoisie mostly reformable, by Mao''s word; posts kept or raised, the wrongly treated restored, unpaid fixed interest paid.'
     item: '[[w.peng-zhen-nianpu-1902]], IV, 141–142'
 - names:
     id: cal.1961-07-20.china-leadership-3
@@ -463,43 +545,21 @@ ops:
 - add-words:
     id: cal.1961-07-24.berlin-and-vienna
     after: end
-    words: At the Cabinet meeting in the Berlin crisis Robert Kennedy, with Ribicoff and Goldberg, proposes raising income taxes; Kennedy tells O'Donnell he will not mention it now to Bobby. Heller and Samuelson argue against.
-    item: '[[w.odonnell-johnny-we-hardly-knew]], 315–16, 343'
-- add-words:
-    id: cal.1961-07-24.berlin-and-vienna
-    after: end
-    words: No national emergency; the call-up postponed to September; Acheson and Johnson kept out.
-    item: '[[w.fursenko-khrushchevs-cold-war]], 371–72'
+    words: At a Cabinet meeting Ribicoff and Goldberg back Robert Kennedy's proposal; afterward Kennedy tells O'Donnell he will not mention it now to Bobby.
+    item: '[[w.odonnell-johnny-we-hardly-knew]], 315'
 - names:
     id: cal.1961-07-24.berlin-and-vienna
     add:
     - Ribicoff
     - Goldberg
-    - Samuelson
-    - Acheson
-    - Johnson
     tags:
     - name:ribicoff-abraham
     - name:goldberg-arthur-j
-    - name:samuelson-paul-a
-    - name:acheson-dean-g
-    - name:johnson-lyndon-b
-- add-words:
-    id: cal.1961-08-01.transition-and-staff
-    after: end
-    words: The press story was Anthony Lewis's in the *Times* of July 3.
-    item: '[[w.navasky-kennedy-justice]], 362–63'
-- names:
-    id: cal.1961-08-01.transition-and-staff
-    add:
-    - Lewis
-    tags:
-    - name:lewis-anthony
 - add-words:
     id: cal.1961-08-31.testing
     after: end
-    words: 'The meeting, with the leaders, is Thursday morning at 10:45. Present: Johnson, Rusk, McNamara, Seaborg, Dulles, Lemnitzer, Taylor, Bohlen, Murrow, Fisher, Bundy and Schlesinger. Rusk proposes a statement announcing the decision to resume; Kennedy, after a call from Stevenson, turns it into preparations ordered. Johnson: Khrushchev should take the heat for a few days. Murrow is against a statement.'
-    item: '[[w.schlesinger-journals]], 130–32'
+    words: 'The meeting begins Thursday morning shortly after 10, the leaders due at 10:45. Present: Johnson, Rusk, McNamara, Seaborg, Dulles, Lemnitzer, Taylor, Bohlen, Murrow, Fisher, Bundy, Scoville and Schlesinger. Rusk proposes a statement announcing the decision to resume; Kennedy, back from a call from Stevenson, turns it into preparations ordered. Johnson: let Khrushchev take the heat for a few days. Murrow is against a statement.'
+    item: '[[w.schlesinger-journals]], 130–31'
 - names:
     id: cal.1961-08-31.testing
     add:
@@ -530,28 +590,55 @@ ops:
     - name:bundy-mcgeorge
     - name:schlesinger-arthur-m-jr
     - name:stevenson-adlai-e
-- add-words:
-    id: cal.1961-09-01.testing
-    after: end
-    words: 'At the Mansion Kennedy, in a bathrobe, gets two statements: McCloy for announcing resumption, Murrow and Schlesinger against. He is "not inclined to announce our resumption at this point" but does not know how much longer he can refrain.'
-    item: '[[w.schlesinger-journals]], 132–33'
-- names:
-    id: cal.1961-09-01.testing
-    add:
-    - Kennedy
-    - Murrow
-    - Schlesinger
-    - McCloy
-    tags:
-    - name:kennedy-john-f
-    - name:murrow-edward-r
-    - name:schlesinger-arthur-m-jr
-    - name:mccloy-john-j
+- edit:
+    id: cal.1961-08-31.testing
+    base: b97d6fab
+    set:
+      time: 1961-08-31T14:00Z
+      time_approx: true
+      time_zone: America/New_York
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- add:
+    entry:
+      id: cal.1961-09-01.testing-2
+      when: Sept. 1
+      date: '1961-09-01'
+      place: washington
+      thread: testing
+      c: 'After Bundy''s call at three that a Soviet test seems to have taken place, two statements to Kennedy at the Mansion, in a bathrobe: McCloy and Dean for announcing resumption, Murrow and Schlesinger against. Kennedy is not inclined to announce resumption yet, not knowing how much longer he can refrain. Later, in the Oval Room: the Security Council question dropped, "It would look hypocritical." He leaves for Hyannis Port.'
+      n: '[[w.schlesinger-journals]], 132–33 (the journal of Sept. 4: Friday, Sept. 1; "At three"). See [[cal.1961-09-01.testing]]. Names: Kennedy, Bundy, McCloy, Dean, Murrow, Schlesinger.'
+      time: 1961-09-01T19:00Z
+      time_approx: true
+      time_zone: America/New_York
+      tags:
+      - name:kennedy-john-f
+      - name:bundy-mcgeorge
+      - name:mccloy-john-j
+      - name:dean-arthur-h
+      - name:murrow-edward-r
+      - name:schlesinger-arthur-m-jr
+- add:
+    entry:
+      id: cal.1961-07-03.confirmations
+      when: July 3
+      date: '1961-07-03'
+      thread: confirmations
+      also:
+      - press-and-broadcasting
+      c: 'Anthony Lewis in the *New York Times* on Francis X. Morrissey for a federal judgeship: lawyers critical privately, bar association officials expected to speak against the nomination if it is made; Byron White and Robert Kennedy "worried about the nomination," the President wanting to make it.'
+      n: '[[w.navasky-kennedy-justice]], 363. See [[cal.1961-08-01.transition-and-staff]]. Names: Lewis, White, Robert Kennedy.'
+      tags:
+      - name:lewis-anthony
+      - name:white-byron-r
+      - name:kennedy-robert-f
 - add-words:
     id: cal.1961-09-15.china-leadership
     after: end
-    words: 'In Wu Lengxi''s account the afternoon is at Mao''s residence, the Standing Committee on the CPSU''s draft Programme: Lu Dingyi, Wang Jiaxiang, Liu Ningyi, Zhang Hanfu, Peng Zhen, Yang Shangkun and Wu present, Deng Xiaoping for the first half. Lu: the "state" and the "party of the whole people" drop the dictatorship of the proletariat. Mao: two years'' struggle did not hold Khrushchev; prepare for a fight at the Twenty-second Congress.'
-    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 459–467'
+    words: 'In Wu Lengxi''s account the afternoon is at Mao''s residence by the lake, the Standing Committee on the CPSU''s draft Programme: Lu Dingyi, Wang Jiaxiang, Liu Ningyi, Zhang Hanfu, Peng Zhen, Yang Shangkun and Wu present; Deng Xiaoping, gone to Korea, not there. Mao: the draft is Old Mrs. Wang''s foot-binding cloth, long and foul. Lu: the "state" and the "party of the whole people" drop the dictatorship of the proletariat. Mao: two years'' struggle did not hold Khrushchev; prepare for a fight at the Twenty-second Congress.'
+    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 459–466'
 - names:
     id: cal.1961-09-15.china-leadership
     add:
@@ -561,7 +648,6 @@ ops:
     - Zhang Hanfu
     - Yang Shangkun
     - Wu Lengxi
-    - Deng Xiaoping
     - Khrushchev
     tags:
     - name:lu-dingyi
@@ -570,13 +656,12 @@ ops:
     - name:zhang-hanfu
     - name:yang-shangkun
     - name:wu-lengxi
-    - name:deng-xiaoping
     - name:khrushchev-nikita-s
 - add-words:
     id: cal.1961-09-26.china-leadership
     after: end
     words: 'The nine: Liu Zihou, Wang Luming, Kang Xiumin, Pang Jun, Hu Kaiming, Liu Qi and Li Yuenong of Hebei; Zhou Xing and Cheng Huairen of Shandong.'
-    item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 740–743'
+    item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 740'
 - names:
     id: cal.1961-09-26.china-leadership
     add:
@@ -590,7 +675,7 @@ ops:
 - add-words:
     id: cal.1961-10-06.berlin-and-vienna
     after: end
-    words: 'A Friday evening, more than two hours in the Oval Room of the residence. West Berlin as an international zone; Kennedy: Gromyko offers "an apple for an orchard." Kennedy gives him Krylov''s fable of the swan, the pike and the crab, a copy for Khrushchev too.'
+    words: 'A Friday evening, more than two hours in the Oval Room of the residence. Gromyko again puts West Berlin as an international zone; Kennedy: "You''re offering us an apple for an orchard." Kennedy gives him Krylov''s fable of the swan, the pike and the crab, a copy for Khrushchev too.'
     item: '[[w.odonnell-johnny-we-hardly-knew]], 345–46'
 - names:
     id: cal.1961-10-06.berlin-and-vienna
@@ -603,37 +688,46 @@ ops:
 - add-words:
     id: cal.1961-10-11.vietnam
     after: end
-    words: Gilpatric records the meeting. The Chiefs and McNamara argue for troops in Laos; Harriman is against.
+    words: 'McNamara and the Chiefs want American infantry in Laos; Harriman: too dangerous.'
     item: '[[w.moyar-triumph-forsaken]], 135'
 - add-words:
     id: cal.1961-10-11.vietnam
     after: end
-    words: Kennedy authorizes the Jungle Jim detachment to Vietnam "to serve under the MAAG as a training mission" and not for combat for now.
-    item: '[[w.futrell-united-states-air-force]], 76, 80'
+    words: That morning Kennedy authorizes the Jungle Jim detachment to Vietnam "to serve under the MAAG as a training mission and not for combat at the present time."
+    item: '[[w.futrell-united-states-air-force]], 80'
 - names:
     id: cal.1961-10-11.vietnam
     add:
-    - Gilpatric
     - Harriman
     - McNamara
     tags:
-    - name:gilpatric-roswell-l
     - name:harriman-w-averell
     - name:mcnamara-robert-s
+- edit:
+    id: cal.1961-10-11.vietnam
+    base: d98bc212
+    set:
+      time_range:
+      - 1961-10-11T10:00Z
+      - 1961-10-11T16:00Z
+      time_band: morning
+      time_zone: America/New_York
+    unset:
+    - range_basis
 - add-words:
     id: cal.1961-11-06.china-leadership
     after: end
-    words: 'Liu Shaoqi presides: the Politburo, the Secretariat and the six bureaus'' secretaries, on the team as the basis. Nov. 7: all regions favor accounting at the small team and full contracts for deliveries; the state cannot deal with 4.6 million teams without the brigade; 86 billion jin a year to the state the minimum (Deng). Nov. 10: 82 billion jin for next year, no lower (Deng); he agrees to Tao Zhu''s proposal to bring all prefectural secretaries to Peking.'
+    words: 'Liu Shaoqi presides. Deng, Nov. 7: all regions favor accounting at the small team and full contracts for deliveries; the state cannot deal with 4.6 million teams without the brigade; 86 billion jin a year to the state the minimum. Nov. 10: 82 billion jin for next year, no lower; he agrees to Tao Zhu''s proposal to bring all prefectural secretaries to Peking.'
     item: '[[w.deng-xiaoping-nianpu-1904]], III, 1669–1670'
 - add-words:
     id: cal.1961-11-06.china-leadership
     after: end
-    words: 'Nov. 10: Chen Yun, on grain and the market: this year''s 72 billion jin too little, next year 20 billion more grown, 10 billion of it bought, 82 billion; 10 million townspeople sent down.'
+    words: 'Nov. 10: Chen Yun, on grain and the market: this year''s 72 billion jin too little, next year 20 billion more grown, 10 billion of it bought, 82 billion; 10 million townspeople already sent down by the end of October.'
     item: '[[w.chen-yun-nianpu-xiuding]], III, 113–114'
 - add-words:
     id: cal.1961-11-06.china-leadership
     after: end
-    words: 'Peng Zhen: once grain is contracted, the peasants will hand over the 18 billion jin the Center wants.'
+    words: 'Peng Zhen: once grain is contracted, the peasants will hand over the 18 billion jin the Center wants. All agree to full contracting.'
     item: '[[w.peng-zhen-nianpu-1902]], IV, 159'
 - names:
     id: cal.1961-11-06.china-leadership
@@ -653,15 +747,15 @@ ops:
     id: cal.1961-11-08.vietnam
     after: end
     words: The memorandum, McNamara for the Chiefs and Gilpatric, is "inclined to recommend" the commitment and the means.
-    item: '[[w.mcnamara-in-retrospect]], ch. 2 at n.12'
+    item: '[[w.mcnamara-in-retrospect]], ch. 2'
 - add-words:
     id: cal.1961-11-08.vietnam
     after: end
-    words: Six divisions, about 205,000 men.
+    words: The ground forces needed, at most six divisions, about 205,000 men.
     item: '[[w.ball-past-has-another-pattern]], 367'
 - check:
     id: cal.1961-11-08.vietnam
-    text: 'Check: Mann (248) has McNamara''s memorandum to Kennedy, which he dates Nov. 5, put the upper limit at 220,000 men.'
+    text: 'Check: [[w.mann-grand-delusion]], 248, as the note gives it, has McNamara''s memorandum, which Mann dates Nov. 5, put the upper limit at 220,000 men.'
 - names:
     id: cal.1961-11-08.vietnam
     add:
@@ -691,13 +785,12 @@ ops:
 - add-words:
     id: cal.1961-11.china-leadership
     after: end
-    words: 'Deng''s report of Nov. 9 is from Longyan, Fujian. Mao''s comment: investigation with concrete analysis is "the soul of Marxism"; each provincial first secretary to take a work group to the villages for ten days, by Dec. 20, in Deng''s way.'
-    item: '[[w.jianguo-yilai-mao-zedong]], XVI, 170–172'
-- add-words:
+    words: 'Mao''s comment: investigation with concrete analysis is "the soul of Marxism"; each provincial first secretary to take work groups to the villages for about ten days, by Dec. 20, by Deng Zihui''s method; for Zhou Enlai, Deng Xiaoping, Peng Zhen and Tan Zhenlin to read, then by telegram through Yang Shangkun.'
+    item: '[[w.jianguo-yilai-mao-zedong]], XVI, 170'
+- cite:
     id: cal.1961-11.china-leadership
-    after: end
-    words: For Zhou Enlai, Deng Xiaoping, Peng Zhen and Tan Zhenlin to read, then by telegram through Yang Shangkun.
     item: '[[w.peng-zhen-nianpu-1902]], IV, 160–161'
+    'on': Mao's comment … through Yang Shangkun.
 - names:
     id: cal.1961-11.china-leadership
     add:
@@ -715,22 +808,27 @@ ops:
 - add-words:
     id: cal.1961-12-06.china-leadership-2
     after: end
-    words: 'The Planning Commission''s briefing: the economy in a deep depression; food the main problem; 1961 grain output 147.5 million tons, 2.8 per cent above 1960''s low.'
-    item: '[[w.macfarquhar-origins-of-the-cultural]], III, 138–140'
+    words: 'The Planning Commission''s briefing for Zhou, Chen Yun, Deng and Li Fuchun: the economy in a deep depression; food the main problem. Grain in 1961, 147.5 million tons, 2.8 per cent above 1960''s low.'
+    item: '[[w.macfarquhar-origins-of-the-cultural]], III, 138'
 - add-words:
     id: cal.1961-12-06.china-leadership-2
     after: end
-    words: 'Chen Yun: 8 million fewer townspeople; for the 60 million of the big and middle cities, beans, 3 jin a month each for eight months.'
+    words: 'Chen Yun: a target of 8 million fewer townspeople; for the 60 million of the big and middle cities, beans, 3 jin a month each for eight months.'
     item: '[[w.chen-yun-nianpu-xiuding]], III, 116–117'
 - add-words:
     id: cal.1962-01-17.china-leadership
     after: end
-    words: 'Jan. 17: Chen Yun is at the first meeting, called by Liu Shaoqi; the members include Liu, Zhou, Deng Xiaoping, Chen Yun, Li Fuchun, Li Xiannian and Bo Yibo.'
+    words: 'Jan. 17, the Huairen Tang''s back hall, 3 to 6:30 p.m.: Liu Shaoqi, Deng Xiaoping, Chen Boda, Li Fuchun, Bo Yibo, Li Jingquan, Tao Zhu and Song Renqiong speak first.'
+    item: '[[w.yang-shangkun-riji]], II, 114'
+- add-words:
+    id: cal.1962-01-17.china-leadership
+    after: end
+    words: Chen Yun is at the first meeting; the members include Liu, Zhou, Deng Xiaoping, Chen Yun, Li Fuchun, Li Xiannian and Bo Yibo.
     item: '[[w.chen-yun-nianpu-xiuding]], III, 120'
 - add-words:
     id: cal.1962-01-17.china-leadership
     after: end
-    words: 'Zhou, after Peng Zhen: seek the causes in ourselves; stress the errors as breaches of Mao Zedong Thought; the Chairman saw the problems early; "listen to the helmsman."'
+    words: 'Zhou, after Peng Zhen: seek the causes in ourselves; the Chairman saw the problems early; listen to the "boatman."'
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 66–67'
 - add-words:
     id: cal.1962-01-17.china-leadership
@@ -739,7 +837,7 @@ ops:
     item: '[[w.peng-zhen-nianpu-1902]], IV, 168'
 - check:
     id: cal.1962-01-17.china-leadership
-    text: 'Check: Chen Yun''s chronology has nineteen members of the drafting committee; MacFarquhar (III, 155) has twenty-one.'
+    text: 'Check: Chen Yun''s chronology has nineteen members of the drafting committee (III, 120); [[w.peng-zhen-nianpu-1902]], IV, 168, [[w.yang-jisheng-tiandi-fanfu]], I, 66 and MacFarquhar (III, 155) twenty-one.'
 - names:
     id: cal.1962-01-17.china-leadership
     add:
@@ -749,6 +847,10 @@ ops:
     - Li Xiannian
     - Bo Yibo
     - Peng Zhen
+    - Chen Boda
+    - Li Jingquan
+    - Tao Zhu
+    - Song Renqiong
     tags:
     - name:chen-yun
     - name:deng-xiaoping
@@ -756,6 +858,17 @@ ops:
     - name:li-xiannian
     - name:bo-yibo
     - name:peng-zhen
+    - name:chen-boda
+    - name:li-jingquan
+    - name:tao-zhu
+    - name:song-renqiong
+- edit:
+    id: cal.1962-01-17.china-leadership
+    base: b843af85
+    set:
+      time: 1962-01-17T07:00Z
+      time_zone: Asia/Shanghai
+      place: peking
 - add-words:
     id: cal.1962-01-18.china-leadership-2
     after: end
@@ -770,7 +883,7 @@ ops:
     id: cal.1962-01-18.china-leadership-2
     after: end
     words: 'Zhou at once: it is we, not the chairman, who should take responsibility.'
-    item: '[[w.jian-zhou-enlai]], 461–462'
+    item: '[[w.jian-zhou-enlai]], 462'
 - names:
     id: cal.1962-01-18.china-leadership-2
     add:
@@ -783,30 +896,36 @@ ops:
     - name:liu-lantao
     - name:ulanhu
     - name:zhou-enlai
+- edit:
+    id: cal.1962-01-18.china-leadership-2
+    base: 1b436659
+    set:
+      time: 1962-01-18T07:00Z
+      time_zone: Asia/Shanghai
 - add-words:
     id: cal.1962-01-27.china-leadership
     after: end
-    words: 'Some 7,000 cadres attend. Liu: the slogans to clear up include "as bold as the man, as high the yield."'
+    words: Liu heard the peasants' saying in Hunan; the slogans to clear up include "as bold as the man, as high the yield."
     item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 547–548'
 - add-words:
     id: cal.1962-01-27.china-leadership
     after: end
-    words: The Hunan peasants' saying is 30 percent natural calamity, 70 percent man-made.
-    item: '[[w.dikotter-maos-great-famine]], 335–336 n.1'
+    words: Some 7,000 cadres hear him.
+    item: '[[w.dikotter-maos-great-famine]], 335'
 - add-words:
     id: cal.1962-01-27.china-leadership
     after: end
     words: The oral report held a passage on Peng Dehuai of about 1,100 characters, cut from Liu's *Selected Works*.
-    item: '[[w.yang-jisheng-mubei]], II, 1125–1126 n.29'
+    item: '[[w.yang-jisheng-mubei]], II, 1125'
 - add-words:
     id: cal.1962-02-26.china-leadership-3
     after: end
-    words: 'Chen Yun: grain some 80 billion jin under 1957, 10 billion jin imported last year and 8 billion this; 100 million mu of land lost net; the plan to be tested, then spread, "steady and sure."'
+    words: 'Chen Yun: grain some 80 billion jin under 1957, over 10 billion jin imported last year and 8 billion this; 100 million mu of land lost net; the plan to be tested, then spread, "steady and sure."'
     item: '[[w.chen-yun-nianpu-xiuding]], III, 125–128'
 - add-words:
     id: cal.1962-02-26.china-leadership-3
     after: end
-    words: Li Xiannian speaks on credit and the market; the Center forwards the three speeches Mar. 18.
+    words: Li Xiannian speaks on credit and the market; on Liu Shaoqi's proposal the Center forwards the three speeches Mar. 18.
     item: '[[w.mao-zedong-zhuan]], V, ch. 69'
 - names:
     id: cal.1962-02-26.china-leadership-3
@@ -817,8 +936,18 @@ ops:
 - add-words:
     id: cal.1962-04-09.china-leadership
     after: end
-    words: Liu presides, 3 to 7:30 p.m.; seven speak before Mao. Zhou Enlai, Deng Xiaoping, Peng Zhen and Zhu De attend.
+    words: 3 to 7:30 p.m.; the parties' men speak, then Mao.
     item: '[[w.yang-shangkun-riji]], II, 142'
+- add-words:
+    id: cal.1962-04-09.china-leadership
+    after: end
+    words: Liu Shaoqi presides.
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 553'
+- add-words:
+    id: cal.1962-04-09.china-leadership
+    after: end
+    words: Peng Zhen attends.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 187'
 - add-words:
     id: cal.1962-04-09.china-leadership
     after: end
@@ -827,33 +956,42 @@ ops:
 - names:
     id: cal.1962-04-09.china-leadership
     add:
-    - Zhou Enlai
-    - Deng Xiaoping
     - Peng Zhen
-    - Zhu De
     tags:
-    - name:zhou-enlai
-    - name:deng-xiaoping
     - name:peng-zhen
-    - name:zhu-de
+- edit:
+    id: cal.1962-04-09.china-leadership
+    base: 1078dbf2
+    set:
+      time: 1962-04-09T07:00Z
+      time_zone: Asia/Shanghai
 - add-words:
     id: cal.1962-05-24.missile-crisis
     after: end
-    words: Unanimous; Mikoyan for.
+    words: Eleven members of the Presidium, Malinovsky and Gromyko speak; unanimous, Mikoyan for.
     item: '[[w.fursenko-khrushchevs-cold-war]], 436'
 - add-words:
     id: cal.1962-05-24.missile-crisis
     after: end
-    words: Rashidov's delegation, with Biryuzov the real power, goes to Havana; Castro accepts May 29–30. By Alekseev's notes, Castro says the Cubans may be the first victims of a showdown with U.S. imperialism.
-    item: '[[w.dobrynin-in-confidence]], 74–76'
+    words: Rashidov's delegation, Marshal Biryuzov the real power, reaches Havana late in May; Castro accepts.
+    item: '[[w.fursenko-khrushchevs-cold-war]], 438–39'
+- add-words:
+    id: cal.1962-05-24.missile-crisis
+    after: end
+    words: 'By Alekseev''s account, Castro: "May we be the first victims of a showdown with U.S. imperialism!"'
+    item: '[[w.dobrynin-in-confidence]], 76'
 - names:
     id: cal.1962-05-24.missile-crisis
     add:
     - Mikoyan
     - Rashidov
+    - Malinovsky
+    - Gromyko
     tags:
     - name:mikoyan-anastas
     - name:rashidov
+    - name:malinovsky-rodion-y
+    - name:gromyko-andrei
 - add-words:
     id: cal.1962-06-06.defense
     after: end
@@ -870,11 +1008,11 @@ ops:
 - add-words:
     id: cal.1962-06-16.china-leadership-2
     after: end
-    words: 'The statement answers Liu Shaoqi''s report and speech at the January conference. Its five parts: Lushan, his talks with Zhou Xiaozhou and Zhang Wentian and why he wrote to Mao on July 14, 1959; Gao Gang; his ten contacts with foreigners, above all the tour of eight East European countries before Lushan; his record, merits and errors; the "bourgeois military line" charged in October 1960. He denies "illicit relations with a foreign country."'
+    words: 'The statement answers Liu Shaoqi''s report and speech at the January conference. Its five parts: Lushan, his talks with Zhou Xiaozhou and Zhang Wentian and why he wrote to Mao on July 14, 1959; Gao Gang; his ten contacts with foreigners, above all the tour of eight East European countries before Lushan; his record, merits and errors; the "bourgeois military line" charged in October 1960. He denies any subversion with foreigners and any clique to usurp the Party.'
     item: '[[w.peng-dehuai-nianpu]], 772–775'
 - check:
     id: cal.1962-06-16.china-leadership-2
-    text: 'Check: Yang Shangkun''s diary has Peng hand the statement to Yang June 18 ([[w.yang-shangkun-riji]], II, 185).'
+    text: 'Check: the day handed over: Peng Dehuai''s chronology has him take it to Yang Shangkun at Zhongnanhai the same day (775); Yang''s diary has Peng bring it, "over sixty thousand characters," the evening of June 18 ([[w.yang-shangkun-riji]], II, 184–85).'
 - names:
     id: cal.1962-06-16.china-leadership-2
     add:
@@ -888,12 +1026,12 @@ ops:
 - add-words:
     id: cal.1962-06-27.court
     after: end
-    words: 'Sorensen: the school-prayer reply was unscripted, not suggested to Kennedy in advance.'
-    item: '[[w.sorensen-counselor]], 166'
+    words: 'Sorensen: the school-prayer reply was not scripted or suggested by him in advance.'
+    item: '[[w.sorensen-counselor]], 165'
 - add-words:
     id: cal.1962-06-27.court
     after: end
-    words: The Formosa statement answers Chiang's talk of an invasion; it is drawn from the campaign speeches; the same message goes to Warsaw.
+    words: The Formosa statement answers Chiang's talk of an invasion; Sorensen drew it from the campaign speeches.
     item: '[[w.sorensen-kennedy]], 661–62'
 - names:
     id: cal.1962-06-27.court
@@ -906,13 +1044,17 @@ ops:
 - add-words:
     id: cal.1962-07-02.china-leadership-5
     after: end
-    words: 'Deng presides, the 328th meeting, on rehabilitation of cadres, the Youth League and farming. Deng: many ask to divide the land; farming alone does best now; "yellow cat, black cat," whichever restores output fastest in the transition; he cites Chen Yun''s inquiry.'
+    words: 'Deng presides, on rehabilitation of cadres, the Youth League and farming. Deng: many ask to divide the land; Chen Yun has inquired; farming alone does best now; "yellow cat, black cat," whichever restores output fastest in the transition.'
     item: '[[w.deng-xiaoping-nianpu-1904]], III, 1712–1713'
 - add-words:
     id: cal.1962-07-02.china-leadership-5
     after: end
     words: 'Peng Zhen: stop the talk of difficulties and turn to the positive; Deng: "I lean that way."'
-    item: '[[w.mao-zedong-zhuan]], V, ch. 70 n.25'
+    item: '[[w.mao-zedong-zhuan]], V, ch. 70'
+- cite:
+    id: cal.1962-07-02.china-leadership-5
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1713'
+    'on': 'Peng Zhen: stop the talk … "I lean that way."'
 - names:
     id: cal.1962-07-02.china-leadership-5
     add:
@@ -926,7 +1068,7 @@ ops:
 - add-words:
     id: cal.1962-07.china-leadership-9
     after: end
-    words: 'Earlier Tian Jiaying, Chen Yun and Deng Zihui had spoken to Mao for household contracting. Liu: Chen and Tian spoke within the Party; with so many starved, history will judge them both, people eating people. Mao: the three red flags denied, the land divided.'
+    words: 'Before, Tian Jiaying, Chen Yun and Deng Zihui had spoken to Mao for household contracting. Liu: Chen and Tian spoke within the Party, no breach of discipline; so many starved, history will write of Mao and Liu, people eating people in the books. Mao: the three red flags denied, the land divided; why not resist? and after his death?'
     item: '[[w.yang-jisheng-mubei]], II, 1175'
 - names:
     id: cal.1962-07.china-leadership-9
@@ -954,13 +1096,13 @@ ops:
 - add-words:
     id: cal.1962-08-05.china-leadership
     after: end
-    words: 'At the noon talk are Ke Qingshi, Li Baohua, Tao Zhu, Wang Renzhong, Deng Zihui, Chen Boda, Chen Zhengren, Liao Luyan and Wang Guanlan. Mao: the Southwest said the day before that within half a year of household contracting classes divide sharply.'
-    item: '[[w.mao-zedong-zhuan]], V, ch. 70 n.40'
+    words: 'At the talk are Ke Qingshi, Li Baohua, Tao Zhu, Wang Renzhong, Deng Zihui, Chen Boda, Chen Zhengren, Liao Luyan and Wang Guanlan. Mao: the Southwest said the afternoon before that within half a year of household contracting classes divide sharply.'
+    item: '[[w.mao-zedong-zhuan]], V, ch. 70'
 - add-words:
     id: cal.1962-08-05.china-leadership
     after: end
-    words: 'On Peng Dehuai: the anti-Right struggle of 1959 mostly wrongly done, but not to be blown away at one stroke; his demand for reversal refused.'
-    item: '[[w.yang-jisheng-mubei]], II, 1128–1130 n.35–37'
+    words: 'On Peng Dehuai, who wants his verdict reversed: the anti-Right struggle of 1959 mostly wrongly done, but not to be blown away at one stroke.'
+    item: '[[w.yang-jisheng-mubei]], II, 1130'
 - names:
     id: cal.1962-08-05.china-leadership
     add:
@@ -978,7 +1120,7 @@ ops:
 - add-words:
     id: cal.1962-08-06.china-leadership
     after: end
-    words: 'Mao: some see all dark these two years; five or eight years to recover leaves no hope; strive for fast, prepare for slow; going it alone means polarization in a year, and Khrushchev dares not openly dissolve the collective farms. Deng Zihui and Tian Jiaying are named.'
+    words: 'In speeches and interjections through the conference, Mao: some see all dark these two years; five or eight years to recover leaves no hope; strive for fast, prepare for slow; going it alone means polarization in a year, and Khrushchev dares not openly dissolve the collective farms. Deng Zihui and Tian Jiaying are named.'
     item: '[[w.chen-yun-nianpu-xiuding]], III, 137–138'
 - add-words:
     id: cal.1962-08-06.china-leadership
@@ -998,8 +1140,8 @@ ops:
 - add-words:
     id: cal.1962-08-09.china-leadership
     after: end
-    words: 'By MacFarquhar, Mao opens the first of six speeches to the core group on whether the CCP could fall: the KMT lasted twenty-three years, the CCP has a few more. Deng Zihui, Wang Jiaxiang, Kang Sheng, Wu Lengxi and Hu Sheng to be co-opted into the group; forty percent of peasant households on baochan daohu; the Planning Commission, the Economic Commission and the State Council''s finance and trade and agriculture offices "independent kingdoms"; Zhou Enlai and Chen Yi questioned on bourgeois intellectuals.'
-    item: '[[w.macfarquhar-origins-of-the-cultural]], III, 276–80'
+    words: 'By MacFarquhar, Mao opens the first of six speeches to the core group on whether the CCP could fall: the KMT lasted twenty-three years, the CCP has a few more. In these speeches: Deng Zihui, Wang Jiaxiang, Kang Sheng, Wu Lengxi and Hu Sheng to be co-opted into the group; forty percent of peasant households on baochan daohu; the finance and economic offices "independent kingdoms"; Zhou Enlai and Chen Yi questioned on bourgeois intellectuals.'
+    item: '[[w.macfarquhar-origins-of-the-cultural]], III, 277–80'
 - add-words:
     id: cal.1962-08-09.china-leadership
     after: end
@@ -1009,7 +1151,7 @@ ops:
     id: cal.1962-08-09.china-leadership
     after: end
     words: Mao names Hu Kaiming of Hebei, a vice-governor, as having pressed him two years with the "all dark" view.
-    item: '[[w.yang-jisheng-mubei]], I, 555–556 n.45'
+    item: '[[w.yang-jisheng-mubei]], I, 555–556'
 - names:
     id: cal.1962-08-09.china-leadership
     add:
@@ -1033,59 +1175,57 @@ ops:
 - add-words:
     id: cal.1962-08-10.cuba
     after: end
-    words: 'Murrow is present with Rusk, McNamara and McCone. Lansdale''s memorandum: McNamara is for the "liquidation of leaders"; Harvey and McCone object.'
+    words: McNamara suggests Mongoose consider the "liquidation of leaders"; Lansdale puts it on paper; Harvey and McCone object.
     item: '[[w.thomas-robert-kennedy]], 159'
 - add-words:
     id: cal.1962-08-10.cuba
     after: end
-    words: 'By Goodwin''s account McNamara says the only way to get rid of Castro is to kill him; Harvey: "Executive Action."'
+    words: 'By Goodwin''s account McNamara says the only way to get rid of Castro is to kill him; Harvey: "Oh, you mean Executive Action."'
     item: '[[w.jones-bay-of-pigs]], 159–60'
 - names:
     id: cal.1962-08-10.cuba
     add:
     - Lansdale
     - Goodwin
-    - Murrow
     tags:
     - name:lansdale-edward-g
     - name:goodwin-richard-n
-    - name:murrow-edward-r
 - add-words:
     id: cal.1962-08-26.china-leadership
     after: end
-    words: 'Liu Shaoqi, Chen Yi, Peng Zhen and Zhu De attend. The papers: the decision on consolidating the communes'' collective economy and the revised Working Regulations. Mao condemns household contracting as "capitalist" and Deng Zihui as a "rightist."'
-    item: '[[w.dikotter-cultural-revolution]], 17–18 n.12'
+    words: Peng Zhen and Liu Shaoqi attend.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 213'
+- cite:
+    id: cal.1962-08-26.china-leadership
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 559'
+    'on': Peng Zhen and Liu Shaoqi attend.
 - names:
     id: cal.1962-08-26.china-leadership
     add:
     - Liu Shaoqi
-    - Chen Yi
     - Peng Zhen
-    - Zhu De
     tags:
     - name:liu-shaoqi
-    - name:chen-yi
     - name:peng-zhen
-    - name:zhu-de
 - add-words:
     id: cal.1962-09-17.governors-ny
     after: end
-    words: 'Robert Kennedy''s part: Buckley of the Bronx needed, turned from O''Connor; the Harris poll for Morgenthau at his behest. At Syracuse, "Down with the bosses!"; Morgenthau wins on the second ballot at four in the morning. Mayor Wagner is a major force for him.'
+    words: A Harris poll, at the President's behest, had Morgenthau the strongest; Wagner backs him; he and Morgenthau need Charles Buckley of the Bronx. At Syracuse, cries of "Down with the bosses!"; the second ballot at four in the morning.
     item: '[[w.smith-on-his-own-terms]], 379'
 - add-words:
     id: cal.1962-09-17.governors-ny
     after: end
-    words: At Buffalo, Sept. 19, Rockefeller is renominated by acclamation.
+    words: Rockefeller is renominated by acclamation.
     item: '[[w.smith-on-his-own-terms]], 380'
 - names:
     id: cal.1962-09-17.governors-ny
     add:
-    - Robert Kennedy
+    - Kennedy
     - Buckley
     - Harris
     - Wagner
     tags:
-    - name:kennedy-robert-f
+    - name:kennedy-john-f
     - name:buckley-charles-a
     - name:harris-louis
     - name:wagner-robert-f-jr
@@ -1097,13 +1237,13 @@ ops:
 - add-words:
     id: cal.1962-09-27.china-leadership
     after: end
-    words: 'Peng Zhen: three attitudes to the work since the leap, those who correct errors, those who seize on them to reverse verdicts, and rightists who gloat; the three red banners will not fall, for without the communes and the collective economy the three years could not have been survived.'
+    words: 'Peng Zhen, that morning: three attitudes to the work since the leap, those who correct errors, those who seize on them to reverse verdicts, and rightists who gloat; the three red banners will not fall, for without the communes and the collective economy the three years could not have been survived.'
     item: '[[w.peng-zhen-nianpu-1902]], IV, 216–217'
 - add-words:
     id: cal.1962-09-27.china-leadership
     after: end
     words: The revised regulations make the team the basic unit of accounting and, for a long period, of ownership; private plots 5 to 7 percent of the land, total private land up to 15 percent.
-    item: '[[w.macfarquhar-origins-of-the-cultural]], III, 286–89'
+    item: '[[w.macfarquhar-origins-of-the-cultural]], III, 286–88'
 - add-words:
     id: cal.1962-09-27.china-leadership
     after: end
@@ -1113,31 +1253,39 @@ ops:
     id: cal.1962-09-27.china-leadership
     add:
     - Xi Zhongxun
+    - Kang Sheng
     tags:
     - name:xi-zhongxun
+    - name:kang-sheng
 - add-words:
     id: cal.1962-10-16.missile-crisis
     after: end
-    words: 'Kennedy, in pajamas: "He can''t do this to me!"'
+    words: 'About 8 a.m., Kennedy, still in his pajamas: "He can''t do this to me!"'
     item: '[[w.thomas-robert-kennedy]], 209'
 - add-words:
     id: cal.1962-10-16.missile-crisis
     after: end
-    words: He calls Sorensen into the Oval Office with the U-2 news and asks for copies of his two public warnings on Soviet offensive weapons in Cuba. Johnson sits in the ExComm. Taylor is for a series of strikes and a blockade.
+    words: He calls Sorensen into the Oval Office with the U-2 news and asks him to bring copies of his two public warnings on Soviet offensive weapons in Cuba.
     item: '[[w.sorensen-counselor]], 285–86'
 - names:
     id: cal.1962-10-16.missile-crisis
     add:
     - Sorensen
-    - Johnson
     tags:
     - name:sorensen-theodore-c
-    - name:johnson-lyndon-b
 - add-words:
     id: cal.1962-10-20.missile-crisis
     after: end
-    words: Robert Kennedy telephones him in Chicago. With Admiral Burkley at his bedside he says he has a temperature and a cold and that the press is to be told he returns on Burkley's advice; Salinger gets a note, "Slight upper respiratory." Johnson, in Hawaii, also returns with "a cold." Stevenson proposes a course and dissents at the Oval Office meeting at 2:30 p.m.; Rusk's handwritten summary; Kennedy for the blockade.
+    words: In the morning, Admiral Burkley at his bedside, he tells Salinger he has a temperature and a cold, the press to be told he returns on Burkley's advice, and hands him a note, "Slight upper respiratory." Johnson, in Hawaii, also returns, with a cold. That afternoon, in the Oval Room upstairs, Kennedy announces the blockade; Rusk and McNamara support him; Stevenson proposes to offer the Jupiters in Turkey and Guantánamo; Dillon, Lovett and McCone criticize him.
     item: '[[w.odonnell-johnny-we-hardly-knew]], 364–65'
+- add-words:
+    id: cal.1962-10-20.missile-crisis
+    after: end
+    words: Saturday morning Robert Kennedy telephones him in Chicago.
+    item: '[[w.thomas-robert-kennedy]], 219'
+- check:
+    id: cal.1962-10-20.missile-crisis
+    text: 'Check: O''Donnell has the President call his brother about 10:30 the night before, from the hotel suite, and agree to return in the morning ([[w.odonnell-johnny-we-hardly-knew]], 364).'
 - names:
     id: cal.1962-10-20.missile-crisis
     add:
@@ -1146,17 +1294,32 @@ ops:
     - Stevenson
     - Burkley
     - Salinger
+    - Rusk
+    - McNamara
+    - Dillon
+    - Lovett
+    - McCone
     tags:
     - name:kennedy-robert-f
     - name:johnson-lyndon-b
     - name:stevenson-adlai-e
     - name:burkley-george-g
     - name:salinger-pierre
+    - name:rusk-dean
+    - name:mcnamara-robert-s
+    - name:dillon-c-douglas
+    - name:lovett-robert-a
+    - name:mccone-john-a
 - add-words:
     id: cal.1962-10-22.missile-crisis-4
     after: end
-    words: 'Humphrey is flown in by a military plane, with Hickenlooper from Iowa; Hale Boggs is brought from the Gulf by helicopter and jet. Halleck is informed, not consulted. Kennedy to Dirksen: tonight he will get re-elected. Kennedy: he himself was for an air strike or an invasion last Tuesday.'
+    words: 'Hale Boggs is brought from the Gulf by helicopter and jet. Kennedy to Dirksen: tonight he will get reelected. Kennedy: he himself was for an air strike or an invasion last Tuesday. Dirksen backs the plan; Halleck wants it on record that he was informed, not consulted.'
     item: '[[w.odonnell-johnny-we-hardly-knew]], 370–72'
+- add-words:
+    id: cal.1962-10-22.missile-crisis-4
+    after: end
+    words: Humphrey is flown in by a military plane, with Hickenlooper from Iowa.
+    item: '[[w.humphrey-education-of-a-public-1976]], 249'
 - names:
     id: cal.1962-10-22.missile-crisis-4
     add:
@@ -1174,7 +1337,7 @@ ops:
 - add-words:
     id: cal.1962-10-27.missile-crisis
     after: end
-    words: 'Dobrynin''s report written that night: the generals "spoiling for a fight"; the Jupiters out in four to five months, nothing said publicly; an answer by Sunday. Robert Kennedy sees him at 7:45 p.m. at the Justice Department.'
+    words: 'Late that night, at the Justice Department, by Dobrynin''s report written then: the generals "spoiling for a fight"; the Jupiters out in four to five months, nothing said publicly; an answer by Sunday.'
     item: '[[w.dobrynin-in-confidence]], 89–91'
 - add-words:
     id: cal.1962-10-27.missile-crisis
@@ -1192,8 +1355,13 @@ ops:
 - add-words:
     id: cal.1962-10-27.missile-crisis-2
     after: end
-    words: 'The Presidium dictates and approves it, Protocol 62, to be broadcast at 5 p.m. Radio Moscow announces it while the ExComm meets to draft a reply to the first letter. Thompson: Khrushchev''s advisers had talked him into trying for the trade.'
-    item: '[[w.odonnell-johnny-we-hardly-knew]], 381'
+    words: 'The Presidium, Protocol 62: Khrushchev dictates it, it is approved, to be broadcast Oct. 27 at 5 p.m.'
+    item: '[[w.prezidium-tsk-kpss-1954]], I, 623'
+- add-words:
+    id: cal.1962-10-27.missile-crisis-2
+    after: end
+    words: 'Radio Moscow announces it while the ExComm meets that morning to draft a reply to the first letter. Thompson: Khrushchev''s advisers had talked him into trying for the trade.'
+    item: '[[w.odonnell-johnny-we-hardly-knew]], 381–82'
 - names:
     id: cal.1962-10-27.missile-crisis-2
     add:
