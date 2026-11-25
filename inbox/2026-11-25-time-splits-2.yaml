@@ -176,6 +176,8 @@ ops:
       - name:johnson-frank-m-jr
       - name:iakovos
       time_zone: America/Chicago
+    settles:
+    - 'Check: Bernstein, 231, gives a crowd of 2,000 on the courthouse steps.'
 - add:
     entry:
       id: cal.1965-03-15.voting-rights-selma-3
@@ -317,6 +319,8 @@ ops:
       - name:goodman-andrew
       - name:schwerner-michael
       - name:price-cecil-r
+    settles:
+    - 'Check: the station wagon''s day, June 23 (no source read gives it).'
 - add:
     entry:
       id: cal.1964-06-21.mississippi-4
@@ -414,7 +418,7 @@ ops:
       also:
       - soviet-union
       c: The Soviets release the American convoy, no troops dismounting and no tailgate lowered, at about the hour of Rusk's meeting with Dobrynin. The Washington Ambassadorial Group agrees all the same that each of the three Western powers send the Soviet Union a protest note.
-      n: '[FRUS 1961–63, XV, doc. 236](https://history.state.gov/historicaldocuments/frus1961-63v15/d236), n. 2 ("At about the same time that Rusk and Dobrynin were meeting"; Telegram 641 from Berlin, Nov. 6, Department of State, Central Files, POL 38–10, not read). The hour is the note''s "about the same time," 6:10 p.m. Washington''s clock. See [[cal.1963-11-04.berlin-and-vienna]].'
+      n: '[FRUS 1961–63, XV, doc. 236](https://history.state.gov/historicaldocuments/frus1961-63v15/d236), n. 2 ("At about the same time that Rusk and Dobrynin were meeting"; the protest notes). To check: Telegram 641 from Berlin, Nov. 6, 1963, Department of State, Central Files, POL 38–10 (cited by FRUS 1961–63, XV, doc. 236 n. 2). The hour is the note''s "about the same time," 6:10 p.m. Washington''s clock. See [[cal.1963-11-04.berlin-and-vienna]].'
       time: 1963-11-05T23:10Z
       time_approx: true
       time_zone: America/New_York
@@ -497,29 +501,28 @@ ops:
       range_basis: record
 - edit:
     id: cal.1965-04-28.latin-america
-    base: 43e81172
+    base: 3ee5760f
     kind: correct
     set:
-      c: Santo Domingo.{1} The junta's officers tell the embassy they can no longer protect Americans;{2} Bennett asks for Marines.{3}
-      n: 'Statement by the President Upon Ordering Troops Into the Dominican Republic, [1965 Pub. Papers 461](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=537) (Apr. 28, 1965). [FRUS 1964–68, XXXII, doc. 28](https://history.state.gov/historicaldocuments/frus1964-68v32/d28); [doc. 29](https://history.state.gov/historicaldocuments/frus1964-68v32/d29); [doc. 34](https://history.state.gov/historicaldocuments/frus1964-68v32/d34); [doc. 35](https://history.state.gov/historicaldocuments/frus1964-68v32/d35); [doc. 36](https://history.state.gov/historicaldocuments/frus1964-68v32/d36); [doc. 38](https://history.state.gov/historicaldocuments/frus1964-68v32/d38). [[w.drea-mcnamara-clifford-and-the-2011]], 294 (Bennett''s cables and his request for Marines; the meeting with the leaders; the address at 8:40 p.m.; Bennett''s later cables); [[w.poole-joint-chiefs-of-staff-2012]], 139 (Bennett''s request; the leaders; the address; Bennett''s cable that night); [[w.johnson-vantage-point]], 194–97; [[w.dallek-flawed-giant]], 263–64 (not Bennett''s cable that night); [[w.poole-joint-chiefs-of-staff-2012]], 139 (Bennett''s cable urging Marines ashore at once; that evening the Joint Chiefs'' order, on Johnson''s decision); [[w.ball-past-has-another-pattern]], 328 (Wednesday, April 28: the government radio announces a new junta under Colonel Benoit, who asks Bennett for twelve hundred marines; Bennett first demurs; then his "critic" message, "American lives are in danger," "the time has come," reaches Johnson in the retreat off the Oval Office with Rusk, McNamara, Bundy, Moyers and Ball, talking of Vietnam; four hundred marines ashore within hours; not the 8:40 p.m. statement). [[w.rusk-as-i-saw-it-1990]], 371 (the embassy told; Bennett''s request; the leaders). To check: [[w.lowenthal-dominican-intervention]]; [[w.gleijeses-dominican-crisis]]; [[w.mcpherson-yankee-no]]; [[w.rabe-killing-zone]]; [[w.martin-overtaken-by-events]]; [[w.reaching-for-glory]]; Santo Domingo to State, msg 1132, Apr. 28, 1965, SecDef Subject Decimal files, Acc 70A-1266 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 294 n.13); President''s Daily Diary, Apr. 28, 1965, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 294 n.14). Split under R25b and R17: the Public Papers'' note (461) gives Johnson''s address its own hour (8:40 p.m.), and FRUS XXXII, doc. 36, Bennett''s recommendation of armed intervention its own (2327Z); each is an entry of its own. The telegram that reports the police chief (doc. 34) is stamped 2302Z, 7:02 p.m. in Washington: the report''s hour, not the act''s. See [[cal.1965-04-24.latin-america]]. Names: Bennett. Check: Rusk, with Johnson, McNamara and Bundy when Bennett''s cable came, has Johnson order five hundred Marines ashore that day and sixteen hundred more the next ([[w.rusk-as-i-saw-it-1990]], 371).'
+      c: Santo Domingo.{1} The junta's officers tell the embassy they can no longer protect Americans.{2}
+      n: '[FRUS 1964–68, XXXII, doc. 32](https://history.state.gov/historicaldocuments/frus1964-68v32/d32) (Critic 5, Apr. 28, 2040Z: the Country Team, "time has come to land the Marines"). Statement by the President Upon Ordering Troops Into the Dominican Republic, [1965 Pub. Papers 461](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=537) (Apr. 28, 1965). [FRUS 1964–68, XXXII, doc. 28](https://history.state.gov/historicaldocuments/frus1964-68v32/d28); [doc. 29](https://history.state.gov/historicaldocuments/frus1964-68v32/d29); [doc. 34](https://history.state.gov/historicaldocuments/frus1964-68v32/d34); [doc. 35](https://history.state.gov/historicaldocuments/frus1964-68v32/d35); [doc. 36](https://history.state.gov/historicaldocuments/frus1964-68v32/d36); [doc. 38](https://history.state.gov/historicaldocuments/frus1964-68v32/d38). [[w.drea-mcnamara-clifford-and-the-2011]], 294 (Bennett''s cables and his request for Marines; the meeting with the leaders; the address at 8:40 p.m.; Bennett''s later cables); [[w.poole-joint-chiefs-of-staff-2012]], 139 (Bennett''s request; the leaders; the address; Bennett''s cable that night); [[w.johnson-vantage-point]], 194–97; [[w.dallek-flawed-giant]], 263–64 (not Bennett''s cable that night); [[w.poole-joint-chiefs-of-staff-2012]], 139 (Bennett''s cable urging Marines ashore at once; that evening the Joint Chiefs'' order, on Johnson''s decision); [[w.ball-past-has-another-pattern]], 328 (Wednesday, April 28: the government radio announces a new junta under Colonel Benoit, who asks Bennett for twelve hundred marines; Bennett first demurs; then his "critic" message, "American lives are in danger," "the time has come," reaches Johnson in the retreat off the Oval Office with Rusk, McNamara, Bundy, Moyers and Ball, talking of Vietnam; four hundred marines ashore within hours; not the 8:40 p.m. statement). [[w.rusk-as-i-saw-it-1990]], 371 (the embassy told; Bennett''s request; the leaders). To check: [[w.lowenthal-dominican-intervention]]; [[w.gleijeses-dominican-crisis]]; [[w.mcpherson-yankee-no]]; [[w.rabe-killing-zone]]; [[w.martin-overtaken-by-events]]; [[w.reaching-for-glory]]; Santo Domingo to State, msg 1132, Apr. 28, 1965, SecDef Subject Decimal files, Acc 70A-1266 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 294 n.13); President''s Daily Diary, Apr. 28, 1965, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 294 n.14). Split under R25b and R17: FRUS XXXII, docs. 28, 29 and 32, give Benoit''s telephoned request, the junta''s written request and Bennett''s recommendation to land the Marines their own hours (1900Z, 2015Z, 2040Z); the Public Papers'' note (461) gives Johnson''s address its own hour (8:40 p.m.), and FRUS XXXII, doc. 36, Bennett''s recommendation of armed intervention its own (2327Z); each is an entry of its own. The telegram that reports the police chief (doc. 34) is stamped 2302Z, 7:02 p.m. in Washington: the report''s hour, not the act''s. See [[cal.1965-04-24.latin-america]]. Check: Rusk, with Johnson, McNamara and Bundy when Bennett''s cable came, has Johnson order five hundred Marines ashore that day and sixteen hundred more the next ([[w.rusk-as-i-saw-it-1990]], 371).'
       src:
         rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=537: 1, 2, 3'
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d28: 1, 2, 3'
-        - 'w.drea-mcnamara-clifford-and-the-2011 294: 1, 2, 3'
-        - 'via w.drea-mcnamara-clifford-and-the-2011 294 n.13a: 2, 3'
-        - 'via w.drea-mcnamara-clifford-and-the-2011 294 n.13b: 2, 3'
-        - 'via w.drea-mcnamara-clifford-and-the-2011 294 n.13c: 2, 3'
-        - 'via w.drea-mcnamara-clifford-and-the-2011 294 n.13f: 2, 3'
-        - 'w.johnson-vantage-point 194–97: 1, 2, 3'
-        - 'w.dallek-flawed-giant 263–64: 1, 2, 3'
-        - 'via w.poole-joint-chiefs-of-staff-2012 139 n.7: 3'
-        - 'w.rusk-as-i-saw-it-1990 371: 2, 3'
-        - 'via x.1984.rusk-interviews-with-richard-rusk: 2, 3'
-        - 'w.poole-joint-chiefs-of-staff-2012 139: 3'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d32: 2'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=537: 1, 2'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d28: 1, 2'
+        - 'w.drea-mcnamara-clifford-and-the-2011 294: 1, 2'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 294 n.13a: 2'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 294 n.13b: 2'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 294 n.13c: 2'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 294 n.13f: 2'
+        - 'w.johnson-vantage-point 194–97: 1, 2'
+        - 'w.dallek-flawed-giant 263–64: 1, 2'
+        - 'w.rusk-as-i-saw-it-1990 371: 2'
+        - 'via x.1984.rusk-interviews-with-richard-rusk: 2'
+        - 'w.poole-joint-chiefs-of-staff-2012 139: ?'
         - 'w.ball-past-has-another-pattern 328: ?'
-      tags:
-      - name:bennett-w-tapley-jr
+      tags: []
     unset:
     - time
     - time_zone
@@ -532,9 +535,9 @@ ops:
       place: santo-domingo
       thread: latin-america-dominican-republic
       follows:
-      - cal.1965-04-28.latin-america
+      - cal.1965-04-28.latin-america-dominican-republic-7
       c: 'Santo Domingo, 2327Z, 7:27 p.m. in Washington. Bennett, flash: with all government authority breaking down, "serious thought" to "armed intervention which would go beyond the mere protection of Americans and seek to establish order"; if the loyal forces fail, intervene "to prevent another Cuba"; more military units to be sent.'
-      n: '[FRUS 1964–68, XXXII, doc. 36](https://history.state.gov/historicaldocuments/frus1964-68v32/d36) (Santo Domingo to the NSA, Apr. 28, 2327Z; received in the Department at 7:52 p.m.). It follows the junta''s word and Bennett''s request for Marines, reported in doc. 34, 2302Z. See [[cal.1965-04-28.latin-america]]. Names: Bennett.'
+      n: '[FRUS 1964–68, XXXII, doc. 36](https://history.state.gov/historicaldocuments/frus1964-68v32/d36) (Santo Domingo to the NSA, Apr. 28, 2327Z; received in the Department at 7:52 p.m.). It follows Bennett''s Critic 5, 2040Z (doc. 32), and Critic 6, 2302Z (doc. 34). See [[cal.1965-04-28.latin-america]]. Names: Bennett.'
       time: 1965-04-28T23:27Z
       time_zone: America/Santo_Domingo
       tags:
@@ -554,6 +557,48 @@ ops:
       time_zone: America/New_York
       tags:
       - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1965-04-28.latin-america-dominican-republic-8
+      when: Apr. 28
+      date: '1965-04-28'
+      place: santo-domingo
+      thread: latin-america-dominican-republic
+      c: 'Santo Domingo, 1900Z. Colonel Benoit of the junta telephones the embassy to ask that the United States land 1,200 Marines "to help restore peace to this country"; given no encouragement. Bennett: the situation does not yet justify it.'
+      n: '[FRUS 1964–68, XXXII, doc. 28](https://history.state.gov/historicaldocuments/frus1964-68v32/d28) (Santo Domingo to the Department, Apr. 28, 1900Z, no. 1149). See [[cal.1965-04-28.latin-america]]. Names: Bennett.'
+      time: 1965-04-28T19:00Z
+      time_zone: America/Santo_Domingo
+      tags:
+      - name:bennett-w-tapley-jr
+- add:
+    entry:
+      id: cal.1965-04-28.latin-america-dominican-republic-9
+      when: Apr. 28
+      date: '1965-04-28'
+      place: santo-domingo
+      thread: latin-america-dominican-republic
+      follows:
+      - cal.1965-04-28.latin-america-dominican-republic-8
+      c: 'Santo Domingo, 2015Z, Critic 4: the text of the new military junta''s request for American military help, the movement against it "directed by Communists," which if victorious would make the country "another Cuba."'
+      n: '[FRUS 1964–68, XXXII, doc. 29](https://history.state.gov/historicaldocuments/frus1964-68v32/d29) (Santo Domingo to the NSA, Apr. 28, 2015Z). It follows Benoit''s call of 1900Z (doc. 28). See [[cal.1965-04-28.latin-america]].'
+      time: 1965-04-28T20:15Z
+      time_zone: America/Santo_Domingo
+      tags: []
+- add:
+    entry:
+      id: cal.1965-04-28.latin-america-dominican-republic-7
+      when: Apr. 28
+      date: '1965-04-28'
+      place: santo-domingo
+      thread: latin-america-dominican-republic
+      follows:
+      - cal.1965-04-28.latin-america-dominican-republic-9
+      c: 'Santo Domingo, 2040Z, Critic 5. Bennett: the San Isidro pilots tired, the army''s leadership disorganized, the police chief able only to hold a few installations; Benoit has formally asked for troops; the Country Team unanimous that the "time has come to land the Marines. American lives are in danger." "I recommend immediate landing."'
+      n: '[FRUS 1964–68, XXXII, doc. 32](https://history.state.gov/historicaldocuments/frus1964-68v32/d32) (Santo Domingo to the NSA, Apr. 28, 2040Z; received in the Department at 5:16 p.m.). [[w.poole-joint-chiefs-of-staff-2012]], 139 (Bennett''s request). It follows the junta''s written request (doc. 32 n. 2: doc. 29). See [[cal.1965-04-28.latin-america]]. Names: Bennett.'
+      time: 1965-04-28T20:40Z
+      time_zone: America/Santo_Domingo
+      tags:
+      - name:bennett-w-tapley-jr
 - edit:
     id: cal.1965-05-01.latin-america-dominican-republic
     base: 537fce9a
@@ -592,12 +637,10 @@ ops:
       date: '1965-05-02'
       thread: latin-america-dominican-republic
       c: 'Masterson, 2:14 a.m., replies: Plan A, 18 battalions and seven days, at "prohibitive" cost and risk; Plan B, 15 battalions and 24 hours, casualties unknown; Plan C, 12 battalions over three to five days, the fewest casualties.'
-      n: '[[w.poole-joint-chiefs-of-staff-2012]], 141 ("Replying at 0214 on 2 May"). Check: Poole''s clock for the hours ("1840", "0214", "1303") is not stated; Washington''s is assumed. It follows Wheeler''s request (141). See [[cal.1965-05-01.latin-america-dominican-republic]].'
+      n: '[[w.poole-joint-chiefs-of-staff-2012]], 141 ("Replying at 0214 on 2 May"). Check: Poole''s clock for the hours ("1840", "0214", "1303") is not stated; Washington''s is assumed. See [[cal.1965-05-01.latin-america-dominican-republic]].'
       time: 1965-05-02T06:14Z
       time_zone: America/New_York
       tags: []
-      follows:
-      - cal.1965-05-01.latin-america-dominican-republic-4
 - add:
     entry:
       id: cal.1965-05-02.latin-america-dominican-republic-4
@@ -685,14 +728,15 @@ ops:
       n: '[FRUS 1964–68, XXV, doc. 223](https://history.state.gov/historicaldocuments/frus1964-68v25/d223) (the Situation Room to Johnson, Sept. 23, 7:10 a.m.: "honored without incident at 6:00 PM last evening"); [FRUS 1964–68, XXV, doc. 222](https://history.state.gov/historicaldocuments/frus1964-68v25/d222) (the deadline extended to "6:00 PM today"). See [[cal.1965-09-20.india-and-china]].'
       time: 1965-09-22T22:00Z
       time_zone: America/New_York
-      tags: []
+      tags:
+      - ok:fields-place
 - edit:
     id: cal.1967-03-12.india-and-china
     base: 2d00a8d3
     kind: correct
     set:
       c: Djakarta. The Provisional People's Consultative Assembly (MPRS) withdraws Sukarno's mandate by acclamation.
-      n: '[FRUS 1964–68, XXVI, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v26/d233), n. 2 (the Assembly "accepted by acclamation that afternoon a decree withdrawing Sukarno''s mandate"; the telegram of Mar. 13 it cites, not read). [Doc. 232](https://history.state.gov/historicaldocuments/frus1964-68v26/d232) (McNamara to Johnson, Mar. 1) is of the month before. To check: [[w.simpson-economists-with-guns]]. Split under R25b and R17: FRUS XXVI, doc. 233 n. 2, gives Suharto''s swearing-in its own hour (10:45 p.m.), and doc. 233 Green''s cable its own day (Mar. 15); each is an entry of its own. See [[cal.1966-03-11.india-and-china]]. Names: Sukarno.'
+      n: '[FRUS 1964–68, XXVI, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v26/d233), n. 2 (the Assembly "accepted by acclamation that afternoon a decree withdrawing Sukarno''s mandate"). To check: telegram 4239 from Djakarta, Mar. 13, 1967 (cited by FRUS 1964–68, XXVI, doc. 233 n. 2). [Doc. 232](https://history.state.gov/historicaldocuments/frus1964-68v26/d232) (McNamara to Johnson, Mar. 1) is of the month before. To check: [[w.simpson-economists-with-guns]]. Split under R25b and R17: FRUS XXVI, doc. 233 n. 2, gives Suharto''s swearing-in its own hour (10:45 p.m.), and doc. 233 Green''s cable its own day (Mar. 15); each is an entry of its own. See [[cal.1966-03-11.india-and-china]]. Names: Sukarno.'
       src:
         rows: []
       tags:
@@ -714,7 +758,7 @@ ops:
       follows:
       - cal.1967-03-12.india-and-china
       c: Djakarta. Suharto is sworn in as Acting President, 10:45 p.m., after the Assembly's decree withdrawing Sukarno's mandate.
-      n: '[FRUS 1964–68, XXVI, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v26/d233), n. 2 (telegram 4239 from Djakarta, Mar. 13, cited, not read: "sworn in as Acting President at 10:45 p.m. on March 12"). It follows the Assembly''s decree of the afternoon (n. 2). See [[cal.1967-03-12.india-and-china]]. Names: Suharto, Sukarno.'
+      n: '[FRUS 1964–68, XXVI, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v26/d233), n. 2 ("sworn in as Acting President at 10:45 p.m. on March 12"). To check: telegram 4239 from Djakarta, Mar. 13, 1967 (cited by FRUS 1964–68, XXVI, doc. 233 n. 2). It follows the Assembly''s decree of the afternoon (n. 2). See [[cal.1967-03-12.india-and-china]]. Names: Suharto, Sukarno.'
       time: 1967-03-12T15:45Z
       time_zone: Asia/Jakarta
       tags:
@@ -807,6 +851,8 @@ ops:
       - name:johnson-lyndon-b
       time: 1964-10-27T14:00Z
       place: washington
+    settles:
+    - 'Check: the Papers'' note has Johnson speak in Post Office Square at 5:50 p.m.'
 - add:
     entry:
       id: cal.1964-10-26.elections-1964-johnson-2
@@ -1496,6 +1542,10 @@ ops:
       - name:van-dyk-ted
       - state:wa
       variants: []
+    settles:
+    - 'Check: Chester has the night''s session end at 5:15 a.m.'
+    - 'Check: Solberg, 382–83, has the session end with Humphrey''s'
+    - 'Check: the hour: [[w.obrien-no-final-victories]], 260, has t'
 - add:
     entry:
       id: cal.1968-09-29.elections-1968-humphrey-5
@@ -1718,11 +1768,11 @@ ops:
       - state:ca
 - edit:
     id: cal.1968-03-25.vietnam
-    base: b000cf37
+    base: 0382b254
     kind: correct
     set:
       c: 'The Wise Men.{1} Mar. 25, at State: dinner with Rusk, Clifford and others, three briefings, DePuy''s among them.{2} The briefers: Habib, Carver and DePuy;{9} Habib: "Stop bombing and negotiate."{10}'
-      n: '[[w.johnson-vantage-point]], 415–18; [[w.mcpherson-political-education]], 433 (Acheson to McPherson, Mar. 26: the majority for de-escalation; Carroll''s editorial "my views precisely"); [[w.clifford-counsel-to-the-president-2]], 511–18 (the dinner at State and the three briefings; Johnson with Wheeler and Abrams, his words otherwise: "We have no support for the war. This was caused by the 206,000-man request and the leaks, by Teddy Kennedy and Bobby Kennedy"; Bundy''s summary; Ball and Vance for a full halt, not Goldberg); [[w.rusk-as-i-saw-it-1990]], 480–81 (the group; Acheson''s change); [[w.preston-war-council]], 238 (Bundy the Wise Men''s spokesman: "must begin to take steps to disengage"); [[w.white-making-of-the-president-1969]], 111–13; [[w.branch-at-canaans-edge]], 727–28 (Acheson, "what in the name of God are five hundred thousand men out there doing?"; Abrams to Johnson that evening); [[w.branch-at-canaans-edge]], 729 (Johnson to Wheeler and Abrams, "I don''t give a damn about the election"); [[w.berman-lyndon-johnsons-war]], 194–99 (Habib, Carver and DePuy; Habib: "Stop bombing and negotiate"; Goldberg: "who the hell are we fighting?"; Mar. 26, Bundy''s summary, Acheson: "we can no longer do the job we set out to do"; Ball, Vance, Dillon; Bradley, Taylor, Murphy, Fortas against); [[w.shesol-mutual-contempt]], 433 ("Your whole group must have been brainwashed"; Johnson: "This is caused by the 206,000-troop request, leaks ... and Bobby Kennedy"); [[w.kotz-judgment-days]], 398–99 ("We have no support for the war"); [[w.bernstein-guns-or-butter]], 481 (Habib: "Stop the bombing and negotiate"; Bundy: "a very significant shift"; Bradley for "support troops" only); [[w.drea-mcnamara-clifford-and-the-2011]], 189 (Clifford''s three options to the Wise Men at State; Johnson with them 10:30 a.m.–12:15 p.m., Mar. 26); [[w.taylor-swords-and-plowshares]], 390–91 (Carver, DePuy and Habib briefing; two sessions; the President''s poll); [[w.barrett-uncertain-warriors]], 147–48 (Wheeler and Abrams alone with Johnson on Mar. 26, almost two hours, before the Wise Men; Johnson: "We must have something"); [[w.zaroulis-who-spoke-up]], 159–60 (the week of March 25: the Wise Men briefed by Habib, DePuy and Carver, conferring with Rusk and Clifford; the next day their verdict, Bundy speaking for them; the bombing should be stopped, the war unwinnable); [[w.dallek-flawed-giant]], 512 (Mar. 26, Johnson with the Chiefs, by Clifford a "painfully sad speech": "We need more money in an election year, more taxes in an election year, more troops in an election year and more [budget] cuts in an election year. ... We have no support for the war"; not the causes Johnson names in H). [[w.longley-lbjs-1968]], 80–82 (Acheson''s terms; the briefings; the meeting with the President; "Who poisoned the well," by Clifford''s account); [[w.palermo-in-his-own-right]], 153 (H; the words as FRUS 1964–68, VI, doc. 156, prints them). [[w.ball-past-has-another-pattern]], 407–09 (the briefings; Bundy''s summary, Fortas and Murphy dissenting; Acheson, Dillon, Ridgway, Vance). Made public: FRUS 1964–68, VI (2002). [[w.cosmas-joint-chiefs-of-staff]], 169 (the briefings; the meeting; Acheson); [[w.drea-mcnamara-clifford-and-the-2011]], 189, 225 (the briefings of Mar. 25, DePuy''s among them; Johnson with Wheeler and Abrams; the majority for disengaging; some for stopping the bombing at once); [[w.dallek-flawed-giant]], 511–12 (the briefings; Johnson with the Chiefs; the majority for withdrawal, several against); [[w.herring-lbj-and-vietnam]], 162–63 (the Wise Men reconvened, most for moving toward extrication; Johnson with Wheeler and Abrams, Mar. 26). [FRUS 1964–68, VI, doc. 155](https://history.state.gov/historicaldocuments/frus1964-68v06/d155); [doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v06/d156); [doc. 157](https://history.state.gov/historicaldocuments/frus1964-68v06/d157); [doc. 158](https://history.state.gov/historicaldocuments/frus1964-68v06/d158). Check: Taylor names Murphy, Fortas and himself as the three for the course of the strategy review, not Bradley ([[w.taylor-swords-and-plowshares]], 390). To check: [[w.isaacson-wise-men]]; [[w.schandler-unmaking-of-a-president]]; [[w.hoopes-limits-of-intervention]]; [[w.brinkley-dean-acheson]]; President''s Daily Diary, March 26, 1968, pp. 4–8, LBJ (cited by [[w.branch-at-canaans-edge]], 727); [[w.langguth-our-vietnam]], 488–90 (cited by [[w.branch-at-canaans-edge]], 727); Rusk,As J Saw It, p. 478 (cited by [[w.branch-at-canaans-edge]], 728); FRUS, *Vol. 6* (n.d.), 474 (cited by [[w.branch-at-canaans-edge]], 728); FRUS, *Vol. 6* (n.d.), 476 (cited by [[w.branch-at-canaans-edge]], 728). See [[cal.1968-02-27.vietnam]]. The hours of Mar. 26 are the Notes of Meeting''s: Johnson with Wheeler and Abrams, 10:30 a.m.–12:15 p.m. (doc. 156), and the group with the President, 1:15–3:05 p.m. (doc. 157). The first line gave 10:30 a.m. to 12:15 p.m. to the group; Drea, 189, and doc. 156 give that span to Wheeler and Abrams. Split under R25b and R17: FRUS VI, doc. 156, gives Johnson''s meeting with Wheeler and Abrams its own day and hours (Mar. 26, 10:30 a.m.–12:15 p.m.), and doc. 157 the meeting with the group its own (1:15–3:05 p.m.); each is an entry of its own. Names: Rusk, Clifford, DePuy, Habib, Carver. Check: Ball (408) has Fortas and Murphy as the dissenters. Check: Clifford, 516, has Fortas with Bradley, Taylor and Murphy.'
+      n: '[[w.johnson-vantage-point]], 415–18; [[w.mcpherson-political-education]], 433 (Acheson to McPherson, Mar. 26: the majority for de-escalation; Carroll''s editorial "my views precisely"); [[w.clifford-counsel-to-the-president-2]], 511–18 (the dinner at State and the three briefings; Johnson with Wheeler and Abrams, his words otherwise: "We have no support for the war. This was caused by the 206,000-man request and the leaks, by Teddy Kennedy and Bobby Kennedy"; Bundy''s summary; Ball and Vance for a full halt, not Goldberg); [[w.rusk-as-i-saw-it-1990]], 480–81 (the group; Acheson''s change); [[w.preston-war-council]], 238 (Bundy the Wise Men''s spokesman: "must begin to take steps to disengage"); [[w.white-making-of-the-president-1969]], 111–13; [[w.branch-at-canaans-edge]], 727–28 (Acheson, "what in the name of God are five hundred thousand men out there doing?"; Abrams to Johnson that evening); [[w.branch-at-canaans-edge]], 729 (Johnson to Wheeler and Abrams, "I don''t give a damn about the election"); [[w.berman-lyndon-johnsons-war]], 194–99 (Habib, Carver and DePuy; Habib: "Stop bombing and negotiate"; Goldberg: "who the hell are we fighting?"; Mar. 26, Bundy''s summary, Acheson: "we can no longer do the job we set out to do"; Ball, Vance, Dillon; Bradley, Taylor, Murphy, Fortas against); [[w.shesol-mutual-contempt]], 433 ("Your whole group must have been brainwashed"; Johnson: "This is caused by the 206,000-troop request, leaks ... and Bobby Kennedy"); [[w.kotz-judgment-days]], 398–99 ("We have no support for the war"); [[w.bernstein-guns-or-butter]], 481 (Habib: "Stop the bombing and negotiate"; Bundy: "a very significant shift"; Bradley for "support troops" only); [[w.drea-mcnamara-clifford-and-the-2011]], 189 (Clifford''s three options to the Wise Men at State; Johnson with them 10:30 a.m.–12:15 p.m., Mar. 26); [[w.taylor-swords-and-plowshares]], 390–91 (Carver, DePuy and Habib briefing; two sessions; the President''s poll); [[w.barrett-uncertain-warriors]], 147–48 (Wheeler and Abrams alone with Johnson on Mar. 26, almost two hours, before the Wise Men; Johnson: "We must have something"); [[w.zaroulis-who-spoke-up]], 159–60 (the week of March 25: the Wise Men briefed by Habib, DePuy and Carver, conferring with Rusk and Clifford; the next day their verdict, Bundy speaking for them; the bombing should be stopped, the war unwinnable); [[w.dallek-flawed-giant]], 512 (Mar. 26, Johnson with the Chiefs, by Clifford a "painfully sad speech": "We need more money in an election year, more taxes in an election year, more troops in an election year and more [budget] cuts in an election year. ... We have no support for the war"; not the causes Johnson names in H). [[w.longley-lbjs-1968]], 80–82 (Acheson''s terms; the briefings; the meeting with the President; "Who poisoned the well," by Clifford''s account); [[w.palermo-in-his-own-right]], 153 (H; the words as FRUS 1964–68, VI, doc. 156, prints them). [[w.ball-past-has-another-pattern]], 407–09 (the briefings; Bundy''s summary, Fortas and Murphy dissenting; Acheson, Dillon, Ridgway, Vance). Made public: FRUS 1964–68, VI (2002). [[w.cosmas-joint-chiefs-of-staff]], 169 (the briefings; the meeting; Acheson); [[w.drea-mcnamara-clifford-and-the-2011]], 189, 225 (the briefings of Mar. 25, DePuy''s among them; Johnson with Wheeler and Abrams; the majority for disengaging; some for stopping the bombing at once); [[w.dallek-flawed-giant]], 511–12 (the briefings; Johnson with the Chiefs; the majority for withdrawal, several against); [[w.herring-lbj-and-vietnam]], 162–63 (the Wise Men reconvened, most for moving toward extrication; Johnson with Wheeler and Abrams, Mar. 26). [FRUS 1964–68, VI, doc. 155](https://history.state.gov/historicaldocuments/frus1964-68v06/d155); [doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v06/d156); [doc. 157](https://history.state.gov/historicaldocuments/frus1964-68v06/d157); [doc. 158](https://history.state.gov/historicaldocuments/frus1964-68v06/d158). Check: Taylor names Murphy, Fortas and himself as the three for the course of the strategy review, not Bradley ([[w.taylor-swords-and-plowshares]], 390). To check: [[w.isaacson-wise-men]]; [[w.schandler-unmaking-of-a-president]]; [[w.hoopes-limits-of-intervention]]; [[w.brinkley-dean-acheson]]; President''s Daily Diary, March 26, 1968, pp. 4–8, LBJ (cited by [[w.branch-at-canaans-edge]], 727); [[w.langguth-our-vietnam]], 488–90 (cited by [[w.branch-at-canaans-edge]], 727); Rusk,As J Saw It, p. 478 (cited by [[w.branch-at-canaans-edge]], 728); FRUS, *Vol. 6* (n.d.), 474 (cited by [[w.branch-at-canaans-edge]], 728); FRUS, *Vol. 6* (n.d.), 476 (cited by [[w.branch-at-canaans-edge]], 728). See [[cal.1968-02-27.vietnam]]. The hours of Mar. 26 are the Notes of Meeting''s: Johnson with Wheeler and Abrams, 10:30 a.m.–12:15 p.m. (doc. 156), and the group with the President, 1:15–3:05 p.m. (doc. 157). The first line gave 10:30 a.m. to 12:15 p.m. to the group; Drea, 189, and doc. 156 give that span to Wheeler and Abrams. Split under R25b and R17: FRUS VI, doc. 156, gives Johnson''s meeting with Wheeler and Abrams its own day and hours (Mar. 26, 10:30 a.m.–12:15 p.m.), doc. 157 the meeting with the group its own (1:15–3:05 p.m.), and doc. 158 the summary session its own (3:15–4:32 p.m., n. 1); each is an entry of its own. Names: Rusk, Clifford, DePuy, Habib, Carver. Check: Ball (408) has Fortas and Murphy as the dissenters. Check: Clifford, 516, has Fortas with Bradley, Taylor and Murphy.'
       src:
         rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d155: 1, 2'
@@ -1765,6 +1815,8 @@ ops:
       - name:habib-philip-c
       - name:carver-george-a-jr
       when: Mar. 25
+    settles:
+    - 'Check: FRUS 1964–68, VI, times the meetings of Mar. 26: Johnson with Wheeler and Abrams, 10:30 a.m.–12:15 p.m.'
 - add:
     entry:
       id: cal.1968-03-26.vietnam-205000
@@ -1781,6 +1833,7 @@ ops:
       - name:wheeler-earle
       - name:abrams-creighton
       - name:kennedy-edward-m
+      - name:ted-kennedy
       - name:kennedy-robert-f
 - add:
     entry:
@@ -1791,9 +1844,26 @@ ops:
       thread: vietnam-205000
       follows:
       - cal.1968-03-26.vietnam-205000
-      c: 'The Wise Men with the President, 1:15 to 3:05 p.m. McGeorge Bundy''s summary: Acheson for the majority, "we can no longer do the job we set out to do in the time we have left and we must begin to take steps to disengage"; Ball, Dean, Vance, Dillon and Bundy with him; Bradley, Taylor and Murphy against; Ball, Goldberg and Vance for stopping the bombing now.'
-      n: '[FRUS 1964–68, VI, doc. 157](https://history.state.gov/historicaldocuments/frus1964-68v06/d157) (notes of the meeting, Mar. 26, 1:15–3:05 p.m.); [FRUS 1964–68, VI, doc. 158](https://history.state.gov/historicaldocuments/frus1964-68v06/d158) (summary of notes: Bundy''s summary). [[w.drea-mcnamara-clifford-and-the-2011]], 189 (Wheeler and Abrams brief the Wise Men an hour after the President''s meeting with them). The dissenters, and the accounts that differ, are the Checks of the first entry. It follows the morning meeting, Wheeler and Abrams to brief the group after it (Drea, 189). See [[cal.1968-03-25.vietnam]]. Names: Bundy, Acheson, Ball, Dean, Vance, Dillon, Bradley, Taylor, Murphy, Goldberg, Johnson.'
+      c: 'The Wise Men with the President, 1:15 to 3:05 p.m. Wheeler: Westmoreland does not fear a general defeat; "no reason for all the gloom and doom we see in the United States press." Abrams: of 149 South Vietnamese maneuver battalions, 8 unsatisfactory at Tet, 30 with distinction.'
+      n: '[FRUS 1964–68, VI, doc. 157](https://history.state.gov/historicaldocuments/frus1964-68v06/d157) (notes of the meeting, Mar. 26, 1:15–3:05 p.m.; those present in n. 1, Fortas from 2:50 p.m., Humphrey from 3:07). [[w.drea-mcnamara-clifford-and-the-2011]], 189 (Wheeler and Abrams brief the Wise Men an hour after the President''s meeting with them). It follows the morning meeting. See [[cal.1968-03-25.vietnam]]. Names: Johnson, Wheeler, Abrams.'
       time: 1968-03-26T18:15Z
+      time_zone: America/New_York
+      tags:
+      - name:johnson-lyndon-b
+      - name:wheeler-earle
+      - name:abrams-creighton
+- add:
+    entry:
+      id: cal.1968-03-26.vietnam-205000-3
+      when: Mar. 26
+      date: '1968-03-26'
+      place: washington
+      thread: vietnam-205000
+      follows:
+      - cal.1968-03-26.vietnam-205000-2
+      c: 'The Wise Men with the President again, 3:15 to 4:32 p.m. McGeorge Bundy''s summary: Acheson for the majority, "we can no longer do the job we set out to do in the time we have left and we must begin to take steps to disengage"; Ball, Dean, Vance, Dillon and Bundy with him; Bradley, Taylor and Murphy against; Ball, Goldberg and Vance for stopping the bombing now.'
+      n: '[FRUS 1964–68, VI, doc. 158](https://history.state.gov/historicaldocuments/frus1964-68v06/d158) (summary of notes; n. 1: the meeting "lasted from 3:15 to 4:32 p.m."). The dissenters, and the accounts that differ, are the Checks of the first entry. It follows the meeting of 1:15 to 3:05 p.m. See [[cal.1968-03-25.vietnam]]. Names: Bundy, Acheson, Ball, Dean, Vance, Dillon, Bradley, Taylor, Murphy, Goldberg, Johnson.'
+      time: 1968-03-26T20:15Z
       time_zone: America/New_York
       tags:
       - name:johnson-lyndon-b
@@ -1892,7 +1962,7 @@ ops:
     kind: correct
     set:
       c: Evening. The Nixon family with the Johnsons in the Executive Mansion; Johnson's Cabinet receives Nixon's at the State Department; the two staffs in the White House mess.{1}
-      n: '[[w.johnson-vantage-point]], 558–59, by Johnson''s account; [[w.johnson-white-house-diary]], 753–55 (Dec. 12: Mrs. Johnson and Luci meet Pat and Tricia Nixon in the West Hall and show the family floor; "Lyndon and Mr. Nixon appeared" a little past 7 and "we left the Nixons with Luci" for the Amir of Kuwait''s reception at the Embassy; Nixon''s Cabinet names are in the evening news; the diary has no State Department reception, no mess and no Oval Office talk). The Oval Office talk, with Nixon''s account of it (RN, 357–58), is [[cal.1968-12-12.transition-and-staff-4]]: FRUS XIV, doc. 331, gives it its own hours, 5:35 to 7:25 p.m., from the Daily Diary. It follows the talk ("Lyndon and Mr. Nixon appeared"). See [[cal.1968-09-11.transition-and-staff]]. Names: Nixon, Johnson.'
+      n: '[[w.johnson-vantage-point]], 558–59, by Johnson''s account; [[w.johnson-white-house-diary]], 753–55 (Dec. 12: Mrs. Johnson and Luci meet Pat and Tricia Nixon in the West Hall and show the family floor; "Lyndon and Mr. Nixon appeared" a little past 7 and "we left the Nixons with Luci" for the Amir of Kuwait''s reception at the Embassy; Nixon''s Cabinet names are in the evening news; the diary has no State Department reception, no mess and no Oval Office talk). [[w.nixon-rn]], 357–58 (Johnson and Nixon in the Oval Office: that talk is [[cal.1968-12-12.transition-and-staff-4]]). Split under R25b and R17: FRUS XIV, doc. 331, gives the talk its own hours, 5:35 to 7:25 p.m., from the Daily Diary; it is an entry of its own. This entry follows the talk ("Lyndon and Mr. Nixon appeared"). See [[cal.1968-09-11.transition-and-staff]]. Names: Nixon, Johnson.'
       src:
         rows:
         - 'w.johnson-vantage-point 558–59: 1'
@@ -1923,6 +1993,8 @@ ops:
     - time_range
     - time_zone
     - range_basis
+    settles:
+    - 'Check: whose clock the 6 p.m. wire''s hour is, Washington''s o'
 - add:
     entry:
       id: cal.1968-03-16.elections-1968-johnson
@@ -1991,6 +2063,8 @@ ops:
       - polity:drv
       - polity:us
       - province:quang-tin
+    settles:
+    - 'Check: the first day; the history gives landings on Dec. 12 '
 - add:
     entry:
       id: cal.1965-12-18.vietnam-hanoi-2
@@ -2028,6 +2102,10 @@ ops:
       when: Dec. 8
       time: 1965-12-08T05:30Z
       time_zone: Asia/Ho_Chi_Minh
+    unset:
+    - time_range
+    - time_band
+    - range_basis
 - add:
     entry:
       id: cal.1965-12-09.vietnam-operations
