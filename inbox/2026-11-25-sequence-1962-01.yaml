@@ -1,17 +1,40 @@
 patch: 2026-11-25-sequence-1962-01
-by: 'Claude (Sonnet, sequence pass: R25c on Jan. 1962), Nov. 25, 2026; notes/sequence/1962-01.md'
+by: 'Claude (Sonnet, sequence pass: R25c on Jan. 1962), Nov. 25, 2026; notes/sequence/1962-01.md. Audited by Claude (Opus), Nov. 25, 2026: notes/sequence/audit-1962-01.md'
 ops:
 - follows: {id: cal.1962-01-02.china-leadership-4, add: [cal.1962-01-02.china-leadership]}
+- follows: {id: cal.1962-01-08.china-leadership-7, remove: [cal.1962-01-08.china-leadership-3], why: 'Yang Shangkun''s diary, II, 109, says only that he read parts one and two that morning and that they had "already" been sent to the groups (已发各小组讨论); nothing shows the sending came after his reading.'}
 - follows: {id: cal.1962-01-10.china-leadership-4, add: [cal.1962-01-10.china-leadership]}
 - follows: {id: cal.1962-01-16.china-leadership, add: [cal.1962-01-16.china-leadership-6]}
 - follows: {id: cal.1962-01-16.china-leadership-8, add: [cal.1962-01-16.china-leadership]}
 - follows: {id: cal.1962-01-18.foreign-aid, add: [cal.1962-01-18.china]}
-- follows: {id: cal.1962-01-18.soviet-union-2, add: [cal.1962-01-18.soviet-union]}
-- follows: {id: cal.1962-01-18.soviet-union-3, add: [cal.1962-01-18.soviet-union-2]}
+- follows: {id: cal.1962-01-18.soviet-union-2, add: [cal.1962-01-18.soviet-union, cal.1962-01-18.press-and-broadcasting]}
+- follows: {id: cal.1962-01-18.program, add: [cal.1962-01-18.soviet-union-2]}
+- follows: {id: cal.1962-01-18.soviet-union-3, add: [cal.1962-01-18.program]}
 - follows: {id: cal.1962-01-21.robert-kennedy, add: [cal.1962-01-21.soviet-union]}
 - follows: {id: cal.1962-01-28.soviet-union-2, add: [cal.1962-01-28.soviet-union]}
 - follows: {id: cal.1962-01-29.china-leadership-2, add: [cal.1962-01-29.china-leadership]}
 - follows: {id: cal.1962-01-30.china-leadership-2, add: [cal.1962-01-30.china-leadership]}
 - follows: {id: cal.1962-01-30.china-leadership-3, add: [cal.1962-01-30.china-leadership]}
 - follows: {id: cal.1962-01-30.press-and-broadcasting, add: [cal.1962-01-30.soviet-union]}
-- follows: {id: cal.1962-01-30.soviet-union-2, add: [cal.1962-01-30.soviet-union]}
+- follows: {id: cal.1962-01-30.soviet-union-2, add: [cal.1962-01-30.press-and-broadcasting]}
+- follows: {id: cal.1962-01-31.china-leadership-4, add: [cal.1962-01-31.china-leadership-5]}
+- edit:
+    id: cal.1962-01-18.soviet-union-2
+    base: 05fb7b96
+    set:
+      n: '[[w.salinger-with-kennedy]], 208–09. After [[cal.1962-01-18.press-and-broadcasting|the lunch with Reston]]: back at the office, Bolshakov''s call, and the meeting "that evening" (208). After [[cal.1962-01-18.soviet-union|the Presidium]]: its resolution, "Regarding Instructions to the Confidential Representative in Soviet Matters in the United States," is dated Jan. 18 ([[w.fursenko-one-hell-of-a]], 154 n.14), and Moscow''s Jan. 18 ended at 4 p.m. in Washington. See [[cal.1962-01-18.soviet-union]]. Names: Bolshakov, Salinger, Khrushchev, Kennedy, Robert Kennedy, Adzhubei.'
+- edit:
+    id: cal.1962-01-18.program
+    base: 53acec20
+    set:
+      n: '[[w.schlesinger-journals]], 146; [[w.salinger-with-kennedy]], 207, 209 (the formal dinner for Stravinsky''s eightieth birthday; after most guests leave, Kennedy has Salinger play for Stravinsky, who walks out halfway; Bernstein stays; not Field or Kennedy''s words). After [[cal.1962-01-18.soviet-union-2|the Hay-Adams talk]]: from the bar Salinger "went directly back to the White House for the Stravinsky dinner" ([[w.salinger-with-kennedy]], 209). Made public: [[w.schlesinger-journals]] (2007). Names: Kennedy, Schlesinger.'
+- edit:
+    id: cal.1962-01-18.soviet-union-3
+    base: e6bdce2c
+    set:
+      n: '[[w.salinger-with-kennedy]], 209. After [[cal.1962-01-18.program|the Stravinsky dinner]]: Salinger plays for Stravinsky after most of the guests have left, then meets the President in his office "shortly before midnight" (209). Names: Kennedy, Salinger, Robert Kennedy, Bolshakov, Adzhubei.'
+- edit:
+    id: cal.1962-01-30.soviet-union-2
+    base: 9c212e3a
+    set:
+      n: '[[w.salinger-with-kennedy]], 214. After [[cal.1962-01-30.press-and-broadcasting|the briefing]]: Salinger briefs the press after the Adzhubeis leave the White House, then holds the reception "that night" (214). See [[cal.1962-01-30.soviet-union]]. Names: Salinger, Adzhubei, Bolshakov.'

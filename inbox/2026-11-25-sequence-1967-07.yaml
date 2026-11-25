@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1967-07
-by: 'Claude (Sonnet, sequence pass: R25c on July 1967), Nov. 25, 2026; notes/sequence/1967-07.md'
+by: 'Claude (Sonnet, sequence pass: R25c on July 1967), Nov. 25, 2026; audited and corrected by Claude (Opus, R25c, R33b), Nov. 25, 2026; notes/sequence/1967-07.md, notes/sequence/audit-1967-07.md'
 ops:
 - follows: {id: cal.1967-07-14.china-leadership-6, add: [cal.1967-07-14.china-leadership-4, cal.1967-07-14.china-leadership-5, cal.1967-07-14.china-leadership-7, cal.1967-07-14.china-leadership-9]}
 - follows: {id: cal.1967-07-18.china-leadership-6, add: [cal.1967-07-18.china-leadership-5]}
@@ -15,7 +15,77 @@ ops:
 - follows: {id: cal.1967-07-22.china-leadership-2, add: [cal.1967-07-22.china-leadership-7]}
 - follows: {id: cal.1967-07-22.china-leadership-5, add: [cal.1967-07-22.china-leadership-2]}
 - follows: {id: cal.1967-07-24.china-leadership-2, add: [cal.1967-07-24.china-leadership-4]}
-- follows: {id: cal.1967-07-24.china-leadership-3, add: [cal.1967-07-24.china-leadership]}
 - follows: {id: cal.1967-07-31.china-leadership-9, add: [cal.1967-07-31.china-leadership-8]}
 - follows: {id: cal.1967-07-31.china-leadership, add: [cal.1967-07-31.china-leadership-8]}
 - follows: {id: cal.1967-07-31.china-leadership-2, add: [cal.1967-07-31.china-leadership, cal.1967-07-31.china-leadership-9]}
+- follows:
+    id: cal.1967-07-20.china-leadership-6
+    add:
+    - cal.1967-07-20.china-leadership
+- follows:
+    id: cal.1967-07-22.china-leadership-7
+    add:
+    - cal.1967-07-22.china-leadership-4
+- edit:
+    id: cal.1967-07-14.china-leadership-6
+    base: 18bdf598
+    set:
+      n: '[[w.macfarquhar-maos-last-revolution]], 207–208 ("late on the evening that Mao arrived"); [[w.mao-zedong-zhuan]], VI, ch. 76 (Xie Fuzhi and Wang Li reach Wuhan on the 14th; against Zhou Enlai''s instruction not to appear in public for the time, they go that night to Hubei University and meet a group of rebels, whom they support; next day the rebels hold a great parade welcoming them to settle Wuhan''s question; the book does not give the Red Guards from Chongqing, the wall posters or the slogans). [[w.yang-jisheng-tiandi-fanfu]], I, 523 (Xie Fuzhi, Yu Lijin and Wang Li, with Peking Aeronautics Institute Red Guards, reach Wuhan on the 14th, met at the airport by Li Zuopeng); [[w.yang-jisheng-tiandi-fanfu]], I, 526–527 (late on July 14 Wang Li and Xie Fuzhi read the posters at Hubei University and let out something of the Center''s mind to the crowd; the rebels post welcomes; the schools'' loudspeakers play "Chairman Mao has sent his men," not knowing Mao himself is in Wuhan). After [[cal.1967-07-14.china-leadership-4|Zhou''s arrival]], [[cal.1967-07-14.china-leadership-5|the guesthouse staff]], [[cal.1967-07-14.china-leadership-7|the Chongqing reception]] and [[cal.1967-07-14.china-leadership-9|the accord]]: Xie Fuzhi and Wang Li, passing through Chongqing on the 14th, receive the factions and preside at the accord''s signing ([[w.yang-jisheng-tiandi-fanfu]], I, 495) and reach Wuhan that day (I, 523); Liu Feng meets Zhou''s plane, Zhou sees to the staff before Mao''s arrival, and the walk is "late on the evening that Mao arrived," Liu Feng having gone with Zhou to meet Mao ([[w.macfarquhar-maos-last-revolution]], 207). Made public: 1994. To check: [[w.li-insiders-account-of-the]], 68 (cited by [[w.macfarquhar-maos-last-revolution]], 208 n.40); [[w.shaoguang-failure-of-charisma]], 149–150 (cited by [[w.macfarquhar-maos-last-revolution]], 208 n.41); [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 251 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 523 n.9). Names: Xie Fuzhi, Wang Li.'
+- edit:
+    id: cal.1967-07-18.china-leadership-6
+    base: c293c87e
+    set:
+      n: '[[w.macfarquhar-maos-last-revolution]], 209 ("On the night of July 18–19"); [[w.yang-jisheng-tiandi-fanfu]], I, 528 (on the 19th the rebels broadcast the "four points" across the city; posters against Wang Li fill the streets). After [[cal.1967-07-18.china-leadership-5|Xie''s visit to the Institute]]: Xie takes his group there late at night "to spread the good news"; then, on the night of July 18–19, "the news of the settlement was spread throughout the city by the jubilant rebels" ([[w.macfarquhar-maos-last-revolution]], 209). To check: [[w.zaidao-haojie-zhongde-yi-mu]], 74–79 (cited by [[w.macfarquhar-maos-last-revolution]], 210 n.44a); [[w.shaoguang-failure-of-charisma]], 152–153 (cited by [[w.macfarquhar-maos-last-revolution]], 210 n.44d). Names: Xie Fuzhi, Wang Li.'
+- edit:
+    id: cal.1967-07-20.china-leadership-9
+    base: d7d7876a
+    set:
+      n: '[[w.macfarquhar-maos-last-revolution]], 212. After [[cal.1967-07-20.china-leadership-5|Mao''s order]]: Mao demands that Chen Zaidao find Wang Li; "Zhong Hanhua took on the task"; Zhong, let in, is unsuccessful in his plea ([[w.macfarquhar-maos-last-revolution]], 211–212). Check: [[w.yang-jisheng-tiandi-fanfu]], I, 532, has Zhong Hanhua kowtow from the platform, begging that Wang Li be let go, as Wang is dragged into the compound, which may put the plea before Mao''s order. Made public: 1994. To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49a). Check: the hour. Names: Zhong Hanhua, Wang Li.'
+- edit:
+    id: cal.1967-07-20.china-leadership-10
+    base: 6bc1625e
+    set:
+      n: '[[w.macfarquhar-maos-last-revolution]], 212 ("during mealtime"); [[w.yang-jisheng-tiandi-fanfu]], I, 536–537 (Kong Qingde 孔慶德, after the independent division''s men have questioned Wang Li 王力, sends the Million Heroes'' heads Liu Jingsheng 劉敬勝 and Xie Minhua 謝敏華 out and hands Wang Li to Zhang Zhaojian 張昭劍 of the 29th Division, who runs with him up the hill and hurts his leg; Yang gives no hour). After [[cal.1967-07-20.china-leadership-9|Zhong''s plea]]: Zhong is unsuccessful; "However, during mealtime" Kong and Ye move Wang Li ([[w.macfarquhar-maos-last-revolution]], 212). [[w.yang-jisheng-tiandi-fanfu]] has Zhong plead as Wang is brought in (I, 532) and Kong go in after the questioning (I, 536). Made public: 1994. To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49a). Names: Kong Qingde, Ye Ming, Wang Li.'
+- edit:
+    id: cal.1967-07-20.china-leadership-15
+    base: '10297336'
+    set:
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 534; [[w.teiwes-tragedy-of-lin-biao]], 83 (that afternoon an urgent meeting in Peking, Lin, Jiang Qing and other leaders of the Cultural Revolution Group and Zhou present, decides to send reliable troops to Wuhan, orders the local army to keep the delegation safe, and sends Zhou to see to Mao''s safe passage to Shanghai; Wang Li soon released). The words: 下午 (I, 534). After [[cal.1967-07-20.china-leadership-6|Yang Chengwu''s call]]: the call reaches Zhou in the morning at the Diaoyutai; in the afternoon Lin and the Group meet at the Great Hall, Zhou coming later ([[w.yang-jisheng-tiandi-fanfu]], I, 534). Made public: 2011. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 684–685 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 534 n.46); [[w.wen-feng-shentanxia-de-lin-biao]], 148–149 (cited by [[w.teiwes-tragedy-of-lin-biao]], 83 n.52a); [[w.yunsheng-maojiawan-jishi]], 124–125 (cited by [[w.teiwes-tragedy-of-lin-biao]], 83 n.52b); [[w.lee-politics-of-the-chinese]], 246–247 (cited by [[w.teiwes-tragedy-of-lin-biao]], 83 n.52c). Names: Lin Biao, Zhou Enlai, Wu Faxian, Fu Chuanzuo, Liu Feng.'
+- edit:
+    id: cal.1967-07-20.china-leadership-2
+    base: 105a979d
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 167 (July 20, 1967, the item after); [[w.macfarquhar-maos-last-revolution]], 211 (Zhou lands late in the afternoon at the Shanpo air base, almost forty miles out, and urges Mao to leave); [[w.yang-jisheng-tiandi-fanfu]], I, 535 (Zhou flies back to Wuhan in the afternoon, his movements known: over a hundred of the independent division and Million Heroes trucks burst into the Wangjiadun airfield, armed, "we want the Premier"; by Wu Faxian, told by Liu Feng of the trucks, he had the plane land at Shanpo, 60 km away; by Zhou''s doctor Zhang Zuoliang 張佐良, two more planes carry men of Unit 8341; after circling over the crowd at Wangjiadun they land at Shanpo about 5, later fly to Wangjiadun, and after dark Zhou, in plain clothes and dark glasses, goes by two jeeps to the East Lake guesthouse, Baihua No. 1, to arrange Mao''s leaving; the 15th Airborne Army''s Eighth Company of Shangganling guards Mao to his train at the Hankou airfield siding); [[w.jian-zhou-enlai]], 576 (Zhou, shocked that Mao "was almost attacked," reports at once to Lin Biao and Jiang Qing; he flies back to Wuhan on the afternoon of July 20 and arranges Mao''s evacuation). After [[cal.1967-07-20.china-leadership-6|Yang Chengwu''s call]]: Zhou, told in the morning, will settle Peking''s business and fly at once to Wuhan ([[w.yang-jisheng-tiandi-fanfu]], I, 534); he lands at Shanpo about 5 p.m. (I, 535). Made public: 2020. To check: Xu Hailiang 徐海亮, *7·20 shijian shilu* 《7·20事件實錄》 (2010) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 535 n.51); *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 687 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 535 n.52); the recollection of Zhou''s doctor Zhang Zuoliang 張佐良 (named in the text) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 535 n.t1); [[w.zhou-enlai-nianpu-1949]], III, 171 (cited by [[w.jian-zhou-enlai]], 576 n.48b). Names: Zhou Enlai, Lin Biao, Wu Faxian, Chen Zaidao.'
+- edit:
+    id: cal.1967-07-20.china-leadership-6
+    base: da6e95b6
+    set:
+      n: '[[w.macfarquhar-maos-last-revolution]], 211; [[w.yang-jisheng-tiandi-fanfu]], I, 534 (that morning Zhou is holding the Group''s liaison meeting at the Diaoyutai when Yang Chengwu''s urgent call comes; Zhou: move the Chairman to a safe place as need be; he will settle Peking''s business and fly at once to Wuhan; Wu Faxian''s memoir puts the meeting the night of Zhou''s return, the Zhou chronology on the 20th, which Yang follows). After [[cal.1967-07-20.china-leadership|the seizure of Wang Li]]: Yang Chengwu telephones Zhou "with the news" of the incident ([[w.macfarquhar-maos-last-revolution]], 211); the call comes in the morning, telling of the disorder in Wuhan ([[w.yang-jisheng-tiandi-fanfu]], I, 534). Made public: 2006. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 3rd ed., 2011), 684–685 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 534 n.46). Names: Zhou Enlai, Mao Zedong, Yang Chengwu. Check: the book (211) names no source here.'
+- edit:
+    id: cal.1967-07-22.china-leadership-2
+    base: c6d407cb
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967; [[w.zhou-enlai-nianpu-1949-2020]], III, 168 (July 22, 1967; Zhou at the full meeting of the Cultural Revolution Group under Lin Biao, who calls the July 20 incident a "counter-revolutionary riot"); [[w.macfarquhar-maos-last-revolution]], 212 (that evening, with Zhou and the Group, Lin Biao hears Xie Fuzhi''s report; the incident is called a "counterrevolutionary revolt"); [[w.teiwes-tragedy-of-lin-biao]], 84 (Lin chairs the meeting of all the Cultural Revolution Group''s members that hears Xie Fuzhi on Wuhan, calls it a "counterrevolutionary riot," and at once recalls Chen Zaidao and Zhong Hanhua to Peking); [[w.dikotter-cultural-revolution]], 150–151 n.5 (Lin Biao at once denounces the Wuhan incident as a "counter-revolutionary revolt"). After [[cal.1967-07-22.china-leadership-7|the landing]]: "At 4:55 p.m." Xie and Wang land; "That evening Lin Biao chaired a meeting" to hear Xie''s report ([[w.macfarquhar-maos-last-revolution]], 212). Made public: 1994. To check: [[w.li-insiders-account-of-the]], 72 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.50); [[w.wen-feng-shentanxia-de-lin-biao]], 149–151, 154 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.56a); [[w.yunsheng-maojiawan-jishi]], 126–129 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.56b). Names: Lin Biao.'
+- edit:
+    id: cal.1967-07-22.china-leadership-5
+    base: 6119c7aa
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 168 (July 22, 1967, the item after). After [[cal.1967-07-22.china-leadership-2|Lin''s meeting]], the weakest kind of basis: [[w.zhou-enlai-nianpu-1949-2020]], III, 168, prints the telegram''s drafting next after the meeting, and [[w.teiwes-tragedy-of-lin-biao]], 84, has the meeting at once recall Chen Zaidao and Zhong Hanhua to Peking, which is what the telegram asks. Made public: 2020. Names: Zhou Enlai, Chen Zaidao, Zhong Hanhua, Fu Chuanzuo, Liu Feng, Niu Huailong.'
+- edit:
+    id: cal.1967-07-22.china-leadership-4
+    base: deb0600b
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 168 (July 22, 1967); [[w.macfarquhar-maos-last-revolution]], 212 (at the city airport Zhou hands command of the Region to Kong Qingde and Ye Ming, to work from the 29th Division''s headquarters). After [[cal.1967-07-22.china-leadership-6|Shanpo]]: Zhou sees Wang Li and Xie Fuzhi off at Shanpo, "then rushed to the city airport," where he hands Kong Qingde and Ye Ming the Region ([[w.macfarquhar-maos-last-revolution]], 212). Made public: 1994. To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49a). Names: Zhou Enlai, Ye Ming, Kong Qingde, Li Zuopeng, Liu Feng, Chen Zaidao, Zhong Hanhua.'
+- edit:
+    id: cal.1967-07-22.china-leadership-7
+    base: 5f82ef80
+    set:
+      n: '[[w.macfarquhar-maos-last-revolution]], 212; [[w.yang-jisheng-tiandi-fanfu]], I, 537 (Zhou sees Wang Li and Xie Fuzhi off in the afternoon and flies with Li Zuopeng in another plane; he has theirs circle so that he lands first at the western suburb airport; by Chen Zaidao Lin Biao and Jiang Qing had the plane circle for show; over 10,000 welcome Wang Li (Li Zuopeng), a few thousand (Wang Guangyu); Zhou and Jiang Qing hold him up as he limps through the crowd in an ill-fitting air force uniform). After [[cal.1967-07-22.china-leadership-4|Zhou at the Wangjiadun airfield]]: Zhou flies back to Peking in the afternoon ([[w.zhou-enlai-nianpu-1949-2020]], III, 168), his plane taking off after theirs, and has theirs circle so that he lands first and meets them ([[w.yang-jisheng-tiandi-fanfu]], I, 537). To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49a); "Quarterly Chronicle and Documentation," China Quarterly, no. 32 (October–December 1967), 185 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49b); Chen Zaidao 陳再道, 〈武漢7·20事件始末〉, in [[w.wenhua-dageming-yanjiu-ziliao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.58); *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 596 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.59a); [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 255 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.59b); Wang Guangyu 王廣宇, 〈「7·20」事件後中央文革小組的幾件事〉, *Jiyi* 《記憶》, no. 16 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.59c, n.60). Names: Xie Fuzhi, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Wang Li.'
+- edit:
+    id: cal.1967-07-31.china-leadership-2
+    base: e325abfe
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 171 (July 31, 1967); [[w.liu-jixian-ye-jianying-nianpu]], II, 969 (July 31, 1967; afternoon 下午; Zhou telephones Xu Xiangqian 徐向前, his haircut done, that by Mao''s instruction the army''s old marshals are all to attend the reception). After [[cal.1967-07-31.china-leadership|Mao''s answer]] and [[cal.1967-07-31.china-leadership-9|the haircut]]: Zhou telephones Xu with Mao''s instruction once the haircut is done, 徐向前理完发，周恩来电话通知 ([[w.liu-jixian-ye-jianying-nianpu]], II, 969). Made public: 2020. See [[cal.1967-07-31.china-leadership]]. Names: Zhou Enlai, Xu Xiangqian, Mao Zedong, Liu Ningyi, Yang Chengwu, Wang Xinting.'
+- check:
+    id: cal.1967-07-24.china-leadership-3
+    text: 'Check: the day. The Mao chronology has Mao give Yang Chengwu, in Shanghai on the evening of July 24, his errand to go back to Peking, and talk with him again on July 26 as he is about to go back for the Aug. 1 reception ([[w.zedong-mao-zedong-nianpu]], VI, July 24 and 26, 1967).'
