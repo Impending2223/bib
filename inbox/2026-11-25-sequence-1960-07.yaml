@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1960-07
-by: 'Claude (Sonnet, sequence pass, July 1960: R25c), Nov. 25, 2026; to be audited on Opus'
+by: 'Claude (Sonnet, sequence pass, July 1960: R25c), Nov. 25, 2026; audited on Opus, Nov. 25, 2026 (notes/sequence/audit-1960-07.md)'
 ops:
 - follows:
     id: cal.1960-07-02.cuba-2
@@ -10,6 +10,10 @@ ops:
     add:
     - cal.1960-07-02.europe-and-the-alliance
 - follows:
+    id: cal.1960-07-02.africa-2
+    add:
+    - cal.1960-07-02.africa-3
+- follows:
     id: cal.1960-07-02.testing
     add:
     - cal.1960-07-02.testing-6
@@ -18,7 +22,7 @@ ops:
     add:
     - cal.1960-07-02.testing-6
 - follows:
-    id: cal.1960-07-04.china-leadership-7
+    id: cal.1960-07-04.china-leadership-6
     add:
     - cal.1960-07-04.china-leadership-3
 - follows:
@@ -86,6 +90,11 @@ ops:
     add:
     - cal.1960-07-13.elections-1960-los-angeles-2
 - follows:
+    id: cal.1960-07-13.elections-1960
+    add:
+    - cal.1960-07-13.elections-1960-los-angeles-3
+    - cal.1960-07-13.elections-1960-los-angeles-4
+- follows:
     id: cal.1960-07-14.elections-1960-los-angeles-16
     add:
     - cal.1960-07-14.elections-1960-los-angeles-15
@@ -103,10 +112,6 @@ ops:
     add:
     - cal.1960-07-15.elections-1960
 - follows:
-    id: cal.1960-07-18.china-leadership-7
-    add:
-    - cal.1960-07-18.china-leadership-8
-- follows:
     id: cal.1960-07-22.china-leadership-9
     add:
     - cal.1960-07-22.china-leadership-8
@@ -118,7 +123,3 @@ ops:
     id: cal.1960-07-26.elections-1960
     add:
     - cal.1960-07-26.elections-1960-chicago
-- follows:
-    id: cal.1960-07-28.republican-party
-    add:
-    - cal.1960-07-28.elections-1960

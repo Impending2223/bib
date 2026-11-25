@@ -482,6 +482,11 @@ def op_edit(series, body, source, report, touched):
     if merged == cur:
         report.add("same", eid)
         return
+    if merged.get("c") != cur.get("c") and "src" not in named and isinstance(cur.get("src"), dict) \
+            and not merged.get("conflict"):
+        from . import claims as _cl, cuts as _cuts
+        if cur["src"].get("c") == _cl.chash(cur.get("c")):    # the map was good before the edit: its numbers hold
+            _cuts.renew(merged)                               # (cuts.py, STYLE 12)
     _replace(sec, cur, merged)
     touched.add(sec)
     if lst.kind == "calendar" and str(merged.get("date")) != str(cur.get("date")) and not merged.get("conflict"):

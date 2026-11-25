@@ -220,3 +220,17 @@ def test_an_edit_may_settle_a_check_it_names():
     assert len(patchaudit.drops(cur, new)) == 2
     assert patchaudit.drops(cur, new, settles=['Check: the day of the call.']) == ["'Check: the place.'"]
     assert patchaudit.drops(cur, new, settles=['Check: the day', 'Check: the place.']) == []
+
+
+def test_renew_writes_the_hash_where_the_numbers_hold():
+    """STYLE 12: a map by numbers, all still in the line, takes the new hash; a lettered row or a lost part does not."""
+    from tools.bib import claims, cuts
+    e = {"id": "cal.1961-01-01.x", "c": "One thing, reworded. Two.", "cuts": [[20, 1]],
+         "src": {"c": "00000000", "rows": ["w.x 12: 1", "w.y 3: all"]}}
+    assert cuts.renew(e) and e["src"]["c"] == claims.chash(e["c"])
+    assert not cuts.renew(e)                                   # fresh already
+    lost = {"id": "cal.1961-01-01.y", "c": "One. Two.", "cuts": [[4, 1]],
+            "src": {"c": "00000000", "rows": ["w.x 12: 2"]}}
+    assert not cuts.renew(lost) and lost["src"]["c"] == "00000000"
+    letters = {"id": "cal.1961-01-01.z", "c": "One. Two.", "src": {"c": "00000000", "rows": ["w.x 12: A"]}}
+    assert not cuts.renew(letters)
