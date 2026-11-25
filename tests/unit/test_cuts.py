@@ -246,3 +246,19 @@ def test_follows_remove_needs_a_reason_and_a_link_that_is_there():
     new, err = addops.follows({"id": "cal.1961-01-01.b", "follows": ["cal.1961-01-01.a"]},
                               {"remove": ["cal.1961-01-01.a"], "why": "w"})
     assert err is None and "follows" not in new
+
+
+def test_follows_basis_writes_the_order_sentence_once():
+    from tools.bib import addops
+    e = {"id": "cal.1961-01-01.b", "n": "[[w.x]], 12. To check: [[w.y]]. Names: Zhou."}
+    body = {"add": ["cal.1961-01-01.a"], "basis": "the printed order alone ([[w.x]], II, 12)"}
+    new, err = addops.follows(e, body)
+    assert err is None and new["follows"] == ["cal.1961-01-01.a"]
+    sent = "The order: after [[cal.1961-01-01.a]], the printed order alone ([[w.x]], II, 12)."
+    assert sent in new["n"]
+    assert new["n"].index(sent) < new["n"].index("To check:") < new["n"].index("Names:")
+    again, err = addops.follows(new, body)
+    assert err is None and again["n"].count("The order:") == 1
+    assert addops.follows(e, {"basis": "a page"})[1]
+    plain, err = addops.follows(e, {"add": ["cal.1961-01-01.a"]})
+    assert err is None and plain["n"] == e["n"]

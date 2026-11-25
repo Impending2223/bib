@@ -61,6 +61,9 @@ STYLE
     '[[w.card]], III, 1900'}` (or `text:` a linked record, as `primary` takes it, where the source is a document or a newspaper and no work's page) puts the words into the line after the place named (`after: end` for the end), a part
     of their own, cited to the item alone (cuts.py, STYLE 10; R33a). No base: two readers adding to one entry do not
     conflict.
+11. `follows: {id, add: [the earlier], basis: 'the printed order alone ([[w.card]], III, 123)'}`: the link, and in the
+    note the sentence "The order: after [[the earlier]], the printed order alone ([[w.card]], III, 123)." (R25c: a link
+    whose basis the two lines do not show says what it rests on). No base, no edit of the note.
 """
 import os
 import re
@@ -330,8 +333,9 @@ def add_words(e, body):
 
 
 def follows(e, body):
-    """`follows` ids added (dayorder STYLE 2); its basis goes in the note by a `check`-like sentence the patch writes
-    with an edit, or is already there. `remove:` takes out links the entry has that an audit found wrong (the reader's
+    """`follows` ids added (dayorder STYLE 2). `basis:` what the link rests on where the two lines do not show it
+    (a page, "the printed order alone ([[w.x]], III, 123)"): written into the note as "The order: after [[id]], <basis>."
+    before "To check:" and "Names:" (STYLE 11; the reader's brief, R25c), once. `remove:` takes out links the entry has that an audit found wrong (the reader's
     brief, R25c), with `why:` the record or the words that show it; a link the entry does not have is an error."""
     new = dict(e)
     fs = list(store.as_list(e.get("follows")))
@@ -343,11 +347,21 @@ def follows(e, body):
         if gone:
             return None, f"follows: the entry does not follow {', '.join(gone)}"
         fs = [f for f in fs if f not in rm]
-    fs += [f for f in body.get("add") or [] if f not in fs and f != e.get("id")]
+    add = [str(f) for f in store.as_list(body.get("add")) if f != e.get("id")]
+    fs += [f for f in add if f not in fs]
     if fs:
         new["follows"] = fs
     else:
         new.pop("follows", None)
+    basis = str(body.get("basis") or "").strip().rstrip(".")
+    if basis:                                 # STYLE 11: what the link rests on, a sentence of the note
+        if not add:
+            return None, "follows: basis goes with add: (the entries the link names)"
+        text = f"The order: after {' and '.join(f'[[{f}]]' for f in add)}, {basis}."
+        parts = nm.parse(new.get("n") or "")
+        if not any(p[0] == "text" and store.fold(p[1]) == store.fold(text) for p in parts):
+            parts.insert(_first(parts, lambda p: p[0] in ("tc", "names") or _text_starts(p, STOP_TC)), ("text", text))
+            new["n"] = nm.render(_clean(parts))
     return new, None
 
 
