@@ -1,0 +1,45 @@
+--- fixture/inbox/11-letters-base-2.yaml
++++ after/inbox/11-letters-base-2.yaml
+@@ -0,0 +1,4 @@
++patch: fx-letters-no-base
++by: tests
++ops:
++  - variant: {id: cal.1961-04-30.cuba-bay-of-pigs, unit: C, witness: w.reeves-president-kennedy, reads: 'May 1', at: '99'}
+--- fixture/inbox/11-letters-base-3.yaml
++++ after/inbox/11-letters-base-3.yaml
+@@ -0,0 +1,4 @@
++patch: fx-letters-stale
++by: tests
++ops:
++  - cite: {id: cal.1961-04-30.cuba-bay-of-pigs, base: c29e028f, item: '[[w.reeves-president-kennedy]], 99', units: B}
+--- fixture/inbox/merged/11-letters-base-1.yaml
++++ after/inbox/merged/11-letters-base-1.yaml
+@@ -0,0 +1,5 @@
++patch: fx-letters-held
++by: tests
++ops:
++  - cite: {id: cal.1961-04-01.cuba, base: 8f92f1b9, item: '[[w.schlesinger-thousand-days-1965]], 260–61', units: A}
++  - cite: {id: cal.1961-04-01.cuba, base: 8f92f1b9, item: '[[w.reeves-president-kennedy]], 84', units: A}
+--- fixture/lists/cal/196104.yaml
++++ after/lists/cal/196104.yaml
+@@ -10,5 +10,5 @@
+     also: [press-and-broadcasting]
+     c: 'Schlesinger to Kennedy, by memorandum, on his lunch with Handleman of *U.S. News & World Report*, who recited the details of the CIA''s plan: "Obviously if an enterprising magazine writer could pick this all up in Miami in a couple of weeks, Havana must be well-posted on developments."'
+-    n: '[[w.reeves-president-kennedy]], 83. To check: [[w.schlesinger-thousand-days-1965]], 260–61 (cited by [[w.reeves-president-kennedy]], 83); Schlesinger to Kennedy, Apr. 1, 1961, President''s Office Files, box 65, Kennedy Library (cited by [[w.reeves-president-kennedy]], 83). Names: Schlesinger, Kennedy.'
++    n: '[[w.reeves-president-kennedy]], 83; [[w.schlesinger-thousand-days-1965]], 260–61; [[w.reeves-president-kennedy]], 84. To check: Schlesinger to Kennedy, Apr. 1, 1961, President''s Office Files, box 65, Kennedy Library (cited by [[w.reeves-president-kennedy]], 83). Names: Schlesinger, Kennedy.'
+     src:
+       c: '35387267'
+@@ -16,4 +16,6 @@
+         - 'w.reeves-president-kennedy 83: all'
+         - 'via w.reeves-president-kennedy 83 n.a-correspondent-named-harold-handleman: all'
++        - 'w.schlesinger-thousand-days-1965 260–61: A'
++        - 'w.reeves-president-kennedy 84: A'
+     tags: [name:schlesinger-arthur-m-jr, name:kennedy-john-f]
+     time_range:
+@@ -7395,5 +7397,5 @@
+     thread: cuba-bay-of-pigs
+     also: [laos]
+-    c: 'Fulbright on *Meet the Press*: the questions mostly on Cuba. Executive privilege: he will not say whether he advised against the landing. The exiles an unruly lot, beyond anyone''s control. A long attack on intervention in Laos.'
++    c: 'Sunday. Fulbright on *Meet the Press*: the questions mostly on Cuba. Executive privilege: he will not say whether he advised against the landing. The exiles an unruly lot, beyond anyone''s control. A long attack on intervention in Laos.'
+     n: 'The program: the Library of Congress''s inventory of Spivak''s photographs, LOT 13025-620 (the guest, Apr. 30). [[w.woods-fulbright]], 269 (the questions and answers). Check: Woods has it five days after the White House meeting of Apr. 18–19. To check: Holt to Marcy, Apr. 24, 1961, Series 48:1, Box 2:2, SPF (cited by [[w.woods-fulbright]], 269 n.24). Names: Fulbright.'
+     src:
