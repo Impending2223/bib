@@ -52,6 +52,7 @@ Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every 
 | 48 | The Nov. 24 requests not yet placed | not a question |
 | 49 | For the owner to procure | not a question |
 | 50 | Entries made from a fragment of a story (a headline, a cut-off column) | settled by the owner, Nov. 24: not entered (R18a) |
+| 54 | Exceptions to the series' spelling of Chinese names (R19a) | Peking, Quemoy and Free China settled by the owner, Nov. 24; the rest defaults from the tree's present practice |
 | 53 | Map rows "work, page, note" that lead to a record marked read (2,315), printed as "284 & n.70b (citing ...)" | settled by the owner, Nov. 24: a reader picks one of three for each; no unmarked citation unless the cited matter was read |
 | 52 | An entry of one day with several acts, one of them timed | revised by the owner, Nov. 24: split into a pair, the timed act with its hour, the order by `follows:` |
 | 51 | A work's page, a note on the page, and the two together: one source or three citations | settled by the owner, Nov. 24: three citations, each with its meaning |
@@ -502,3 +503,11 @@ The question (put to the owner Nov. 24, about 7:40 p.m. PT): 2,315 rows of entri
 **Settled by the owner, Nov. 24, 2026, about 9:55 p.m. PT:** "I'll take your recommendation, with your three choices. We can't have an unmarked citation unless we've read the cited matter." For each row a reader picks one: (1) cite the record itself, in the copy the series holds, where it was read and bears the words out; (2) cite the note where its own text supports the words; (3) otherwise neither, and the record stays behind "To check:" with its "cited by". Each reader's patch is audited on Opus.
 
 How it is being done: the rows are listed in `notes/via-read/rows-2026-11-25.tsv` (1,393 entries). In 1,964 rows the entry already cites the held copy; what is left there is to check by rule that the direct cite is placed on the same words as the row, and to give a reader those where it is not. In 351 rows the entry has no direct cite: two readers have them (`notes/via-read/batch-a.tsv`, `batch-b.tsv`). When the patches are merged, the footnote code stops printing a "work, page, note" row as a citation at all (`tools/bib/footnotes.py`, `_cites`, the `via` branch): a row of that kind then only links the entry to the registry, and an unread record still goes behind "To check:".
+
+## 54. Exceptions to the series' spelling of Chinese names (the reader's brief, R19a)
+
+Settled by the owner, Nov. 24, 2026: Peking stays ("I'm content with 'Peking.'"); Quemoy stays, and may take the Pinyin in parentheses ("We're also keeping Quemoy. There we can give the parenthetical."); territories under, and persons of, Free China are a general exception ("Shouldn't we license a general departure from the rule for territories under, and persons of, 'Free China'?", taken as the owner's direction).
+
+Defaults taken from what the calendar's lines do now, counted Nov. 24 (the owner asked what other exceptions to keep in mind): Hong Kong (614 uses) and Macao (41); Canton (631, against Guangzhou 104); Tibet and Lhasa, and Tibetan, Mongol and Uighur names in their own forms (Ulanhu 66, Ulanfu 44: one form to be chosen); Sun Yat-sen (57); the Yangtze (59, against Yangzi 4); Tsinghua (296, against Qinghua 40); the Kuomintang (103, against Guomindang 25); Chinese abroad who wrote their own names in Latin letters; titles of works and authors' names as the works print them.
+
+Where it applies: every line and note. The mixed cases are not yet made consistent (Guangzhou, Qinghua, Guomindang, Ulanfu, Sinkiang 11, Jinmen 4, Yangzi 4); a pass does that once the owner has seen the list. If the owner rules any default the other way, that name is respelled across the tree by rule.
