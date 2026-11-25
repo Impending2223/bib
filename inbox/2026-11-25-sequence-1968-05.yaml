@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1968-05
-by: 'Claude (Sonnet, sequence pass: R25c on May 1968), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass: R25c on May 1968), Nov. 25, 2026; audited and corrected by Claude (Opus, R25c, R33b), Nov. 25, 2026'
 ops:
 - follows:
     id: cal.1968-05-06.soviet-union-leadership-2
@@ -9,14 +9,77 @@ ops:
     id: cal.1968-05-06.robert-kennedy-campaign-primaries-2
     add:
     - cal.1968-05-06.robert-kennedy-campaign-primaries
+- edit:
+    id: cal.1968-05-06.robert-kennedy-campaign-primaries-3
+    base: 2a948d2c
+    set:
+      n: '[[w.witcover-85-days]], 178. Order: after [[cal.1968-05-06.robert-kennedy-campaign-primaries-2|the Holiday Inn bar]], by Witcover (177–78: "Later, at dinner"). Names: Robert Kennedy.'
+- follows:
+    id: cal.1968-05-06.robert-kennedy-campaign-primaries-3
+    add:
+    - cal.1968-05-06.robert-kennedy-campaign-primaries-2
+- edit:
+    id: cal.1968-05-07.robert-kennedy-campaign-primaries-2
+    base: c45c50fa
+    set:
+      n: '[[w.witcover-85-days]], 179. Order: after [[cal.1968-05-07.robert-kennedy-campaign-primaries-3|O''Brien''s first precinct figures]], by Witcover (178–79: O''Brien brings the first sample returns, the South Bend figures, to the airport motel; then the Sheraton-Lincoln) and O''Brien (239: O''Brien goes "down the hall to see his candidate"). See [[cal.1968-05-07.elections-1968-2]]. Names: Robert Kennedy, Cronkite, McCarthy.'
+- follows:
+    id: cal.1968-05-07.robert-kennedy-campaign-primaries-2
+    add:
+    - cal.1968-05-07.robert-kennedy-campaign-primaries-3
+- edit:
+    id: cal.1968-05-07.robert-kennedy-campaign-primaries
+    base: 46aa758c
+    set:
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 883. Order: after [[cal.1968-05-07.robert-kennedy-campaign-primaries-2|the television interviews]], by Witcover (180–81: the interviews, the ballroom, the press room and the suite; "Later that night", the terminal coffee shop with two McCarthy students until after five in the morning). To check: [[w.newfield-robert-kennedy]], 265; [[w.stout-people]], 237 (cited by [[w.schlesinger-robert-kennedy-and-his]], 883 nn.36–37). See [[cal.1968-05-07.elections-1968-2]]. Names: Robert Kennedy, Eugene McCarthy.'
+- follows:
+    id: cal.1968-05-07.robert-kennedy-campaign-primaries
+    add:
+    - cal.1968-05-07.robert-kennedy-campaign-primaries-2
 - follows:
     id: cal.1968-05-10.robert-kennedy-campaign-primaries-2
     add:
     - cal.1968-05-10.robert-kennedy-campaign-primaries
+- edit:
+    id: cal.1968-05-10.robert-kennedy-campaign-primaries-3
+    base: 647ea76a
+    set:
+      n: '[[w.witcover-85-days]], 185, 189 (the next day''s stories mostly give Humphrey a modest edge, 189). Order: after [[cal.1968-05-10.robert-kennedy-campaign-primaries-2|Nebraska City]], by Witcover (188–89: the motorcade through six towns "before reaching Omaha" for the dinner, "That night"). Names: Robert Kennedy, Humphrey, McCarthy.'
+- follows:
+    id: cal.1968-05-10.robert-kennedy-campaign-primaries-3
+    add:
+    - cal.1968-05-10.robert-kennedy-campaign-primaries-2
+- edit:
+    id: cal.1968-05-13.elections-1968
+    base: aba5bb72
+    set:
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 888–89; [[w.witcover-85-days]], 193–94 (Creighton University, noon; the student''s question, whether the Army is not a way out of the ghettos, and the answer, "how can you say that we can deal with the problems of the poor by sending them to Vietnam?"; the last speech in the Negro section of Omaha, in the rain, "Run for the buses!"). Order: after [[cal.1968-05-13.robert-kennedy-campaign-primaries|Wahoo]], by Witcover (191–93: Wahoo "the next morning," Boys Town, then Omaha for the noon rally at Creighton). To check: Helen Dudar, "The Perilous Campaign," *New York Post*, June 5, 1968 (cited by [[w.schlesinger-robert-kennedy-and-his]], 889 n.63). Names: Robert Kennedy.'
+- follows:
+    id: cal.1968-05-13.elections-1968
+    add:
+    - cal.1968-05-13.robert-kennedy-campaign-primaries
 - follows:
     id: cal.1968-05-13.robert-kennedy-campaign-primaries-2
     add:
     - cal.1968-05-13.elections-1968
+- edit:
+    id: cal.1968-05-14.robert-kennedy-campaign-primaries-2
+    base: 2f712f2c
+    set:
+      n: '[[w.witcover-85-days]], 197. Order: after [[cal.1968-05-14.robert-kennedy-campaign-primaries|Iowa]], by Witcover (196: back in Omaha from Des Moines "by early evening"; the returns that night). See [[cal.1968-05-14.robert-kennedy-campaign-2]]. Names: Robert Kennedy, McCarthy.'
+- follows:
+    id: cal.1968-05-14.robert-kennedy-campaign-primaries-2
+    add:
+    - cal.1968-05-14.robert-kennedy-campaign-primaries
+- edit:
+    id: cal.1968-05-14.robert-kennedy-campaign-2
+    base: 2267eb0a
+    set:
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 889; [[w.witcover-85-days]], 197–98 (the press room at the Sheraton-Fontenelle; the combined vote against the Administration "about 84 percent"; "I think the people want to move in a different direction. We can''t have the politics of happiness and joy when we have so many problems in our own country."). Check: the day and the occasion. Order: after [[cal.1968-05-14.robert-kennedy-campaign-primaries-2|the television remarks]], by Witcover (197: after television, the reporters'' demand, and Kennedy down to the press room). See [[cal.1968-05-14.elections-1968]]. Names: Robert Kennedy, McCarthy, Johnson, Humphrey.'
+- follows:
+    id: cal.1968-05-14.robert-kennedy-campaign-2
+    add:
+    - cal.1968-05-14.robert-kennedy-campaign-primaries-2
 - follows:
     id: cal.1968-05-15.africa-2
     add:
@@ -33,26 +96,92 @@ ops:
     id: cal.1968-05-18.china-leadership-5
     add:
     - cal.1968-05-18.china-leadership-4
+- edit:
+    id: cal.1968-05-18.robert-kennedy-campaign-primaries-2
+    base: f2e243f1
+    set:
+      n: '[[w.witcover-85-days]], 205–06. Order: after [[cal.1968-05-18.robert-kennedy-campaign-primaries|the Beaver State Special]], by Witcover (205–06: "the rest of Saturday," the plane to San Francisco that night, the Sheraton-Palace, then the flight to Los Angeles). Names: Robert Kennedy.'
+- follows:
+    id: cal.1968-05-18.robert-kennedy-campaign-primaries-2
+    add:
+    - cal.1968-05-18.robert-kennedy-campaign-primaries
+- edit:
+    id: cal.1968-05-18.conservation
+    base: 12ecb236
+    set:
+      n: '[[w.johnson-white-house-diary]], 675 (Lady Bird Johnson''s account). The day''s tour of Van Cortlandt Manor and Sunnyside with Laurance Rockefeller and Liz Carpenter (672–74) and the dinner at Brooke Astor''s (675–76) are passed over, sights and a social evening. Order: after [[cal.1968-05-18.elections-1968-republican-nomination|the tea at Tarrytown]], by Mrs. Johnson''s diary (674: "Back at Laurance and Mary''s, I changed ... and we set out for Lyndhurst"). Names: Lady Bird Johnson.'
+- follows:
+    id: cal.1968-05-18.conservation
+    add:
+    - cal.1968-05-18.elections-1968-republican-nomination
+- edit:
+    id: cal.1968-05-23.robert-kennedy-campaign-primaries-2
+    base: 96da88af
+    set:
+      n: '[[w.witcover-85-days]], 212. Order: after [[cal.1968-05-23.robert-kennedy-campaign-primaries|the river trip]], by Witcover (212: "Later that same day"), and after [[cal.1968-05-23.robert-kennedy-campaign-2|Pearson''s call]], the answer it asked for. See [[cal.1968-05-23.robert-kennedy-campaign-2]]. Names: Salinger, Pearson, Robert Kennedy, King.'
 - follows:
     id: cal.1968-05-23.robert-kennedy-campaign-primaries-2
     add:
     - cal.1968-05-23.robert-kennedy-campaign-2
+    - cal.1968-05-23.robert-kennedy-campaign-primaries
 - follows:
     id: cal.1968-05-24.china-leadership-4
     add:
     - cal.1968-05-24.china-leadership-3
+- edit:
+    id: cal.1968-05-25.robert-kennedy-campaign-primaries
+    base: bb256ef2
+    set:
+      n: '[[w.witcover-85-days]], 215–17. Order: after [[cal.1968-05-25.robert-kennedy-campaign-2|the afternoon in Kennedy''s suite]], by Witcover (214–15: the talk late in the afternoon and past six; "That night" the Coliseum). Names: McCarthy, Robert Kennedy, Salinger.'
 - follows:
     id: cal.1968-05-25.robert-kennedy-campaign-primaries
     add:
-    - cal.1968-05-25.robert-kennedy
+    - cal.1968-05-25.robert-kennedy-campaign-2
+- edit:
+    id: cal.1968-05-25.robert-kennedy
+    base: 750d0dee
+    set:
+      n: '[[w.palermo-in-his-own-right]], 213–14. Order: after [[cal.1968-05-25.robert-kennedy-campaign-2|the talk with O''Brien]], by Palermo (213–14: O''Brien neutral, Kennedy decides not to debate; then the letter). To check: Robert Kennedy to McCarthy, May 25, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 214 n.126). See [[cal.1968-05-24.elections-1968]]. Names: Robert Kennedy, McCarthy, Humphrey.'
+- follows:
+    id: cal.1968-05-25.robert-kennedy
+    add:
+    - cal.1968-05-25.robert-kennedy-campaign-2
+- edit:
+    id: cal.1968-05-26.robert-kennedy-campaign
+    base: f1a89b36
+    set:
+      n: '[[w.thomas-robert-kennedy]], 381; [[w.schlesinger-robert-kennedy-and-his]], 907 (the Portland Zoo: Kennedy dodges McCarthy; Larner, McCarthy''s speechwriter, shouts "Coward"); [[w.witcover-85-days]], 217 (the Portland zoo; Barry tells Kennedy McCarthy is approaching, "within 50 yards or so"; "Let''s get out of here"; "Coward! Chicken!" from McCarthyites; McCarthy boards the press bus and invites the reporters to his campaign). Order: after [[cal.1968-05-26.robert-kennedy-campaign-primaries|Neveh Shalom]], by Witcover (217: "Earlier, Kennedy had spoken at the Neveh Shalom Synagogue"). See [[cal.1968-05-25.robert-kennedy-campaign-2]]. Names: Robert Kennedy, McCarthy.'
+- follows:
+    id: cal.1968-05-26.robert-kennedy-campaign
+    add:
+    - cal.1968-05-26.robert-kennedy-campaign-primaries
+- edit:
+    id: cal.1968-05-27.robert-kennedy-campaign-primaries-2
+    base: 9db18e84
+    set:
+      n: '[[w.witcover-85-days]], 219–20. Order: after [[cal.1968-05-27.robert-kennedy-campaign-primaries|Roseburg]], by Witcover (218–19: Roseburg "the first stop"; "That night, to close the Oregon campaign," the reception). Names: Robert Kennedy, Green, McCarthy, Humphrey, Johnson.'
+- follows:
+    id: cal.1968-05-27.robert-kennedy-campaign-primaries-2
+    add:
+    - cal.1968-05-27.robert-kennedy-campaign-primaries
 - follows:
     id: cal.1968-05-28.robert-kennedy-campaign-primaries-3
     add:
     - cal.1968-05-28.robert-kennedy-campaign-primaries-2
+- edit:
+    id: cal.1968-05-28.robert-kennedy-campaign-primaries-6
+    base: 95966c29
+    set:
+      n: '[[w.witcover-85-days]], 221–22 (the telegram written on the flight by Dutton, at Kennedy''s insistence, 221). Order: after [[cal.1968-05-28.robert-kennedy-campaign-primaries-3|the concession prepared in the suite]], by O''Brien (242: the telegram argued in Kennedy''s room, "So we sent the telegram") and Witcover (221: to the suite, then down to the ballroom). See [[cal.1968-05-28.robert-kennedy-campaign-primaries-2]]. Names: Robert Kennedy, McCarthy.'
 - follows:
     id: cal.1968-05-28.robert-kennedy-campaign-primaries-6
     add:
     - cal.1968-05-28.robert-kennedy-campaign-primaries-3
+- edit:
+    id: cal.1968-05-28.robert-kennedy-campaign-primaries-9
+    base: 9bb39c35
+    set:
+      n: '[[w.witcover-85-days]], 223–24. Order: after [[cal.1968-05-28.robert-kennedy-campaign-primaries-6|the Mayfair ballroom]], by Witcover (222–25: Kennedy leaves the ballroom through the kitchen; the gathering in the suite, the postmortem in a bedroom, and Kennedy to bed). See [[cal.1968-05-28.robert-kennedy-campaign-primaries-3]]. Names: Robert Kennedy, Sorensen, Goodwin, Salinger, Dutton, McCarthy.'
 - follows:
     id: cal.1968-05-28.robert-kennedy-campaign-primaries-9
     add:
@@ -61,3 +190,13 @@ ops:
     id: cal.1968-05-29.robert-kennedy-campaign-california-2
     add:
     - cal.1968-05-29.robert-kennedy-campaign
+- edit:
+    id: cal.1968-05-30.robert-kennedy-campaign-california-4
+    base: e9017f76
+    set:
+      n: '[[w.witcover-85-days]], 237–38. Order: after [[cal.1968-05-30.robert-kennedy-campaign-california-2|the Central Valley train]], by Witcover (237: "After his whistle-stop tour and a reception in Oakland"). Names: Robert Kennedy, Glenn, Dutton.'
+- follows:
+    id: cal.1968-05-30.robert-kennedy-campaign-california-4
+    add:
+    - cal.1968-05-30.robert-kennedy-campaign-california-2
+
