@@ -4348,25 +4348,24 @@ entries:
     place: birmingham
     thread: freedom-rides
     also: [robert-kennedy, alabama-birmingham]
-    c: 'Birmingham. Robert Kennedy by telephone to the riders at Shuttlesworth''s house, then to Patterson''s office: Connor''s police to the city line, then Patterson, who says he cannot guarantee "this bunch of rabble-rousers" safe passage. The drivers will not drive.{1} The riders give up the buses and fly to New Orleans near midnight, Seigenthaler with them.{2}'
-    n: '[[w.branch-parting-the-waters]], 426–29; [[w.schlesinger-robert-kennedy-and-his]], 295 (Seigenthaler sent to Birmingham; the airlines'' bomb threats; he takes the riders by plane to New Orleans, the hour not given). To check: *Jet*, June 1, 1961, at 20–21; [*New York Times*, May 15, 1961](https://timesmachine.nytimes.com/timesmachine/1961/05/15/issue.html), at 1; Birmingham police report of the mass meeting of May 15, 1961, Eugene T. Connor Papers, box 9, folder 24, Birmingham Public Library (cited by [[w.branch-parting-the-waters]], 426 n.3); Peck, *Freedom Ride*, 101; [[w.farmer-lay-bare-the-heart]], 203; [[w.guthman-we-band-of-brothers]], 167–68; [[w.meier-core]], 173 (cited by [[w.branch-parting-the-waters]], 426 n.3); John Seigenthaler, recorded interview by Ronald J. Grele, Feb. 22, 1966, 305–09, JFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 295 n.48). See [[cal.1961-05-04.freedom-rides]]. Names: Robert Kennedy, Shuttlesworth, Connor, Patterson, Seigenthaler.'
+    follows:
+      - cal.1961-05-15.freedom-rides-3
+    c: Birmingham. Robert Kennedy by telephone to Patterson and his aides; Patterson, on the radio, cannot guarantee "this bunch of rabble-rousers" safe passage. Kennedy to Greyhound, whose drivers will not drive.{1}
+    n: '[[w.branch-parting-the-waters]], 426–29; [[w.schlesinger-robert-kennedy-and-his]], 295 (Seigenthaler sent to Birmingham; the airlines'' bomb threats; he takes the riders by plane to New Orleans, the hour not given). To check: *Jet*, June 1, 1961, at 20–21; [*New York Times*, May 15, 1961](https://timesmachine.nytimes.com/timesmachine/1961/05/15/issue.html), at 1; Birmingham police report of the mass meeting of May 15, 1961, Eugene T. Connor Papers, box 9, folder 24, Birmingham Public Library (cited by [[w.branch-parting-the-waters]], 426 n.3); Peck, *Freedom Ride*, 101; [[w.farmer-lay-bare-the-heart]], 203; [[w.guthman-we-band-of-brothers]], 167–68; [[w.meier-core]], 173 (cited by [[w.branch-parting-the-waters]], 426 n.3); John Seigenthaler, recorded interview by Ronald J. Grele, Feb. 22, 1966, 305–09, JFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 295 n.48). See [[cal.1961-05-04.freedom-rides]]. Split under R25b and R17: Branch, 426, gives the call to the riders at Shuttlesworth''s house its own hour ("ten o''clock that morning"), before the calls to Patterson and Greyhound (426–27), and 429 the flight its own ("near midnight"); each is an entry of its own. Patterson''s words are the radio''s (427). Names: Robert Kennedy, Patterson.'
     src:
-      c: 0b33fbb2
       rows:
-        - 'w.branch-parting-the-waters 426–29: 1, 2'
-        - 'via w.branch-parting-the-waters 426 n.3a: 1, 2'
-        - 'via w.branch-parting-the-waters 426 n.3b: 1, 2'
-        - 'via w.branch-parting-the-waters 426 n.3c: 1, 2'
-        - 'via w.branch-parting-the-waters 426 n.3d: 1, 2'
-        - 'via w.branch-parting-the-waters 426 n.3e: 1, 2'
-        - 'via w.branch-parting-the-waters 426 n.1: 1, 2'
-        - 'via w.branch-parting-the-waters 426 n.3f: 1, 2'
-        - 'via w.branch-parting-the-waters 426 n.3g: 1, 2'
-        - 'via w.branch-parting-the-waters 426 n.3h: 1, 2'
-        - 'via w.branch-parting-the-waters 426 n.3i: 1, 2'
-        - 'w.schlesinger-robert-kennedy-and-his 295: 2'
-        - 'via w.schlesinger-robert-kennedy-and-his 295 n.48: 2'
-    tags: [name:kennedy-robert-f, name:shuttlesworth-fred, name:connor-eugene, name:patterson-john, name:seigenthaler-john, state:al, city:birmingham]
+        - 'w.branch-parting-the-waters 426–29: 1'
+        - 'via w.branch-parting-the-waters 426 n.3a: 1'
+        - 'via w.branch-parting-the-waters 426 n.3b: 1'
+        - 'via w.branch-parting-the-waters 426 n.3c: 1'
+        - 'via w.branch-parting-the-waters 426 n.3d: 1'
+        - 'via w.branch-parting-the-waters 426 n.3e: 1'
+        - 'via w.branch-parting-the-waters 426 n.1: 1'
+        - 'via w.branch-parting-the-waters 426 n.3f: 1'
+        - 'via w.branch-parting-the-waters 426 n.3g: 1'
+        - 'via w.branch-parting-the-waters 426 n.3h: 1'
+        - 'via w.branch-parting-the-waters 426 n.3i: 1'
+    tags: [name:kennedy-robert-f, name:patterson-john, state:al, city:birmingham]
   - id: cal.1961-05-15.intelligence
     when: May 15
     date: '1961-05-15'
@@ -4585,6 +4584,33 @@ entries:
       - 1961-05-15T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1961-05-15.freedom-rides-3
+    when: May 15
+    date: '1961-05-15'
+    time: 1961-05-15T16:00Z
+    place:
+      - washington
+      - birmingham
+    thread: freedom-rides
+    also: [robert-kennedy, alabama-birmingham]
+    c: 'Robert Kennedy telephones the riders at Shuttlesworth''s house, 10 a.m.: Simeon Booker of *Jet* first, then Shuttlesworth. Riders "trapped"; Shuttlesworth asks police protection to Montgomery; Kennedy: one bus, then Connor''s police at the station and to the city line. Shuttlesworth: to the Alabama line.'
+    n: '[[w.branch-parting-the-waters]], 426 (the call "at ten o''clock that morning"; the Attorney General asking for Booker; Shuttlesworth: police protection to Montgomery; Kennedy: one bus; then the escort Connor concedes through the FBI, to the city line; Shuttlesworth: the escort in Anniston was to the city line, "where the bus burned"). The hour is Birmingham''s clock, Alabama on standard time in 1961. See [[cal.1961-05-15.freedom-rides]]. Names: Robert Kennedy, Shuttlesworth, Connor.'
+    tags: [name:kennedy-robert-f, name:shuttlesworth-fred, name:connor-eugene, state:al, city:birmingham]
+    time_zone: America/Chicago
+  - id: cal.1961-05-15.freedom-rides-4
+    when: May 15
+    date: '1961-05-15'
+    time: 1961-05-16T06:00Z
+    time_approx: true
+    place: birmingham
+    thread: freedom-rides
+    also: [robert-kennedy, alabama-birmingham]
+    follows:
+      - cal.1961-05-15.freedom-rides
+    c: The riders give up the buses for the airport; Seigenthaler, sent by Robert Kennedy, goes with them. Held there into the night by bomb threats, they fly to New Orleans, the plane lifting off near midnight.
+    n: '[[w.branch-parting-the-waters]], 428–29 ("the plane lifted off the ground near midnight"); [[w.schlesinger-robert-kennedy-and-his]], 295 (Seigenthaler takes the riders by plane to New Orleans, the hour not given). The hour is Branch''s "near midnight," Birmingham''s clock: Alabama kept standard time, 6 a.m. UTC May 16. See [[cal.1961-05-15.freedom-rides]]. Names: Seigenthaler, Robert Kennedy.'
+    tags: [name:seigenthaler-john, name:kennedy-robert-f, state:al, city:birmingham]
+    time_zone: America/Chicago
   - id: cal.1961-05-16.laos
     when: May 16
     date: '1961-05-16'

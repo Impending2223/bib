@@ -58,11 +58,26 @@ entries:
   - id: cal.1970-01-05.china-leadership
     when: Jan. 5
     date: '1970-01-05'
+    place: peking
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
-    c: 'Zhou Enlai hears the report of a strong earthquake of 7.3 at 1 a.m. in the Yuxi and Honghe districts of Yunnan. On Jan. 7, on the telegram of Sichuan''s revolutionary committee and the Chengdu Military Region on sending a delegation to console and relieve the stricken area, he writes: the stress should be on raising high the great red banner of Mao Zedong Thought, rousing morale, strengthening medical care (fifty-odd is too few; Sichuan can send two hundred capable medical men, with medicine and instruments), self-reliance and rebuilding homes. The same day, on the Foreign Ministry''s paper on other countries'' reactions to the Yunnan earthquake, he proposes that Xinhua issue a short item on it, to answer well-meant inquiries.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 335 (Jan. 5, 1970). Made public: 2020. Names: Zhou Enlai.'
+    follows:
+      - cal.1970-01-05.china-leadership-2
+    c: Zhou Enlai hears the report of a strong earthquake of 7.3 in the Yuxi and Honghe districts of Yunnan.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 335 (Jan. 5, 1970). Made public: 2020. Split under R25b and R17: the chronology (III, 335) gives the earthquake its own hour (凌晨一时), and Zhou''s two notes their own day (七日; 同日); each is an entry of its own. It follows the earthquake. Names: Zhou Enlai.'
+    src:
+      rows: []
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1970-01-05.china-leadership-2
+    when: Jan. 5
+    date: '1970-01-05'
+    time: 1970-01-04T17:00Z
+    place: yuxi
+    thread: china-leadership
+    c: A strong earthquake, 7.3, at 1 a.m. in the Yuxi 玉溪 and Honghe 红河 districts of Yunnan 云南.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 335 (Jan. 5 and 7, 1970): 凌晨一时发生七点三级强烈地震. Made public: 2020. See [[cal.1970-01-05.china-leadership]]. Check: the day of the quake: the chronology gives it in the entry for Jan. 5, as early morning, one o''clock.'
+    tags: [polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1970-01-06.china-leadership
     when: Jan. 6
     date: '1970-01-06'
@@ -84,6 +99,25 @@ entries:
       - 1970-01-07T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1970-01-07.china-leadership-2
+    when: Jan. 7
+    date: '1970-01-07'
+    place: peking
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: 'Zhou Enlai, on the telegram of Sichuan''s revolutionary committee and the Chengdu Military Region on sending a delegation to console and relieve the stricken area, writes: the stress should be on raising high the great red banner of Mao Zedong Thought, rousing morale, strengthening medical care (fifty-odd is too few; Sichuan can send two hundred capable medical men, with medicine and instruments), self-reliance and rebuilding homes.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 335 (Jan. 5 and 7, 1970): 就四川省革命委员会、成都军区关于派团前往灾区慰问、救灾的电报批示. Made public: 2020. See [[cal.1970-01-05.china-leadership]]. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1970-01-07.china-leadership-3
+    when: Jan. 7
+    date: '1970-01-07'
+    place: peking
+    thread: china-leadership
+    follows:
+      - cal.1970-01-07.china-leadership-2
+    c: Zhou Enlai, on the Foreign Ministry's 外交部 paper on other countries' reactions to the Yunnan earthquake, proposes that Xinhua 新华社 issue a short item on the earthquake, to answer well-meant inquiries.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 335 (Jan. 5 and 7, 1970): 同日, 在外交部关于一些国家对中国云南地震的反应材料上批. Made public: 2020. It follows the note on the telegram (同日, after it in the chronology). See [[cal.1970-01-05.china-leadership]]. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1970-01-08.china-leadership
     when: Jan. 8
     date: '1970-01-08'

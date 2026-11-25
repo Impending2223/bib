@@ -1395,19 +1395,17 @@ entries:
         - 'via x.1964-02-05.johnson-walter-jenkins-telephone-1025: 1, 2'
     tags: [name:johnson-lyndon-b, name:jenkins-walter-w, name:kennedy-robert-f]
   - id: cal.1964-02-05.cuba
-    when: Feb. 5–6
+    when: Feb. 5
     date: '1964-02-05'
     time: 1964-02-06T02:33Z
     place: nyc
     thread: cuba
-    c: 'Johnson in New York, engagements accepted earlier: the Joseph P. Kennedy, Jr., Foundation''s awards dinner, the Americana, 9:33 p.m.;{1} the Weizmann Institute''s dinner, the Waldorf-Astoria, Feb. 6.{2} In touch by telephone with Rusk on the seized Cuban fishing boats, by Johnson''s account; Salinger with him.{3}'
-    n: 'Remarks at the Joseph P. Kennedy, Jr., Foundation Awards Dinner, [1963–64 Pub. Papers 269](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=353) (Feb. 5, 1964); Remarks at the Dinner of the Weizmann Institute of Science, [1963–64 Pub. Papers 270](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=354) (Feb. 6, 1964). [[w.johnson-vantage-point]], 185 (the trip; Rusk by telephone); [[w.johnson-white-house-diary]], 68 (Johnson leaves in the middle of the afternoon for New York and the Joseph P. Kennedy Foundation dinner; Mrs. Johnson stays; not the Weizmann dinner or Cuba). The time is the first day''s. See [[cal.1964-02-06.cuba]]. Names: Johnson, Rusk, Salinger.'
+    c: 'Johnson in New York, an engagement accepted earlier: the Joseph P. Kennedy, Jr., Foundation''s awards dinner, the Americana, 9:33 p.m.{1} In touch by telephone with Rusk on the seized Cuban fishing boats, by Johnson''s account; Salinger with him.{3}'
+    n: 'Remarks at the Joseph P. Kennedy, Jr., Foundation Awards Dinner, [1963–64 Pub. Papers 269](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=353) (Feb. 5, 1964); [[w.johnson-vantage-point]], 185 (the trip; Rusk by telephone); [[w.johnson-white-house-diary]], 68 (Johnson leaves in the middle of the afternoon for New York and the Joseph P. Kennedy Foundation dinner; Mrs. Johnson stays; not the Weizmann dinner or Cuba). Split under R17: the Public Papers (270) give the Weizmann Institute''s dinner its own day, Feb. 6; it is an entry of its own. See [[cal.1964-02-06.cuba]]. Names: Johnson, Rusk, Salinger.'
     src:
-      c: b4fb3f3b
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=353: 1'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=354: 1'
-        - 'w.johnson-vantage-point 185: 1, 2'
+        - 'w.johnson-vantage-point 185: 1, 3'
         - 'w.johnson-white-house-diary 68: ?'
     tags: [name:johnson-lyndon-b, name:rusk-dean, name:salinger-pierre, state:ny, city:nyc]
     time_zone: America/New_York
@@ -1823,6 +1821,14 @@ entries:
       - 1964-02-06T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-02-06.cuba-4
+    when: Feb. 6
+    date: '1964-02-06'
+    place: nyc
+    thread: cuba
+    c: Johnson in New York at the dinner of the Weizmann Institute of Science, the Waldorf-Astoria, an engagement accepted earlier.
+    n: 'Remarks at the Dinner of the Weizmann Institute of Science, [1963–64 Pub. Papers 270](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=354) (Feb. 6, 1964; the note, on [the American Presidency Project''s page](https://www.presidency.ucsb.edu/documents/remarks-new-york-city-the-dinner-the-weizmann-institute-science): the Grand Ballroom of the Waldorf-Astoria; no hour). [[w.johnson-vantage-point]], 185 (the trip). See [[cal.1964-02-05.cuba]]. Names: Johnson.'
+    tags: [name:johnson-lyndon-b, state:ny, city:nyc, ok:fields-time]
   - id: cal.1964-02-07.economy
     when: Feb. 7
     date: '1964-02-07'

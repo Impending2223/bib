@@ -1386,12 +1386,11 @@ entries:
     time: 1968-11-05T13:55Z
     place: minnesota
     thread: elections-1968-humphrey
-    c: Humphrey, after his telethon and a party at a friend's in Beverly Hills, flies through the night to Minnesota and votes at the Marysville township hall;{1} out of sight until shortly before midnight, then the Leamington Hotel, Minneapolis.{2}
-    n: '[[w.white-making-of-the-president-1969]], 395; [[w.solberg-hubert-humphrey]], 403–04 (Minneapolis at 7:55 a.m.; the vote at the "Maryville" Township Hall at nine; dinner at Andreas''s on Lake Minnetonka; the Leamington a little after eleven). Names: Humphrey.'
+    c: Humphrey, after his telethon and a party at a friend's in Beverly Hills, flies through the night to Minnesota.{1}
+    n: '[[w.white-making-of-the-president-1969]], 395; [[w.solberg-hubert-humphrey]], 403–04 (Minneapolis at 7:55 a.m.; the vote at the "Maryville" Township Hall at nine; dinner at Andreas''s on Lake Minnetonka; the Leamington a little after eleven). Split under R25b and R17: Solberg, 403–04, gives the vote its own hour ("Even at nine" the hall full), the dinner at Andreas''s its own place in the evening, and the arrival at the Leamington its own hour ("a little after eleven"); each is an entry of its own. Names: Humphrey.'
     src:
-      c: 50b75be9
       rows:
-        - 'w.white-making-of-the-president-1969 395: 1, 2'
+        - 'w.white-making-of-the-president-1969 395: 1'
         - 'w.solberg-hubert-humphrey 403–04: 1'
     tags: [name:humphrey-hubert-h, state:mn]
     time_zone: America/Chicago
@@ -1445,6 +1444,48 @@ entries:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 260: ?'
         - 'w.jianguo-yilai-mao-zedong XIX, 365: 1'
     tags: [polity:prc, polity:pakistan, name:zhou-enlai, name:mao-zedong, name:dong-biwu, vis:only:prc+pakistan]
+  - id: cal.1968-11-05.elections-1968-humphrey-6
+    when: Nov. 5
+    date: '1968-11-05'
+    time: 1968-11-05T15:00Z
+    time_approx: true
+    place: minnesota
+    thread: elections-1968-humphrey
+    follows:
+      - cal.1968-11-05.elections-1968-humphrey
+    c: Humphrey votes at the Marysville township hall, Wright County, Minn., about nine, the hall full of Wright County people and a hundred cameramen and reporters at the door; he marks his ballot.
+    n: '[[w.solberg-hubert-humphrey]], 403 ("Even at nine the Maryville Township Hall ... was filled"; the vote after the landing at 7:55 a.m. and the forty miles to his Lake Waverly home). [[w.white-making-of-the-president-1969]], 395. The hour is Solberg''s "at nine," Minnesota''s clock, approximate. It follows the landing at 7:55 (403). See [[cal.1968-11-05.elections-1968-humphrey]]. Names: Humphrey.'
+    tags: [name:humphrey-hubert-h, state:mn]
+    time_zone: America/Chicago
+  - id: cal.1968-11-05.elections-1968-humphrey-8
+    when: Nov. 5
+    date: '1968-11-05'
+    place: minnesota
+    thread: elections-1968-humphrey
+    follows:
+      - cal.1968-11-05.elections-1968-humphrey-6
+    c: Humphrey and his wife to dinner at Dwayne Andreas's home on Lake Minnetonka, the rest of their family with them, as the first returns come in from the East.
+    n: '[[w.solberg-hubert-humphrey]], 404 ("went off to Dwayne Andreas''s Lake Minnetonka home"; the first returns, from Dixville, N.H.). It follows the day at home, to bed after the vote, up at four (404). The range is the evening band, Minnesota''s clock; Solberg gives no hour. See [[cal.1968-11-05.elections-1968-humphrey]]. Names: Humphrey.'
+    tags: [name:humphrey-hubert-h, state:mn]
+    time_zone: America/Chicago
+    time_range:
+      - 1968-11-06T01:00Z
+      - 1968-11-06T04:00Z
+    time_band: evening
+    range_basis: record
+  - id: cal.1968-11-05.elections-1968-humphrey-7
+    when: Nov. 5
+    date: '1968-11-05'
+    time: 1968-11-06T05:00Z
+    time_approx: true
+    place: minneapolis
+    thread: elections-1968-humphrey
+    follows:
+      - cal.1968-11-05.elections-1968-humphrey-8
+    c: Humphrey, out of sight through the day, arrives at the Leamington Hotel, Minneapolis, his headquarters, a little after eleven in the evening; the first returns already in.
+    n: '[[w.solberg-hubert-humphrey]], 404 ("Arriving at the Leamington headquarters at a little after eleven"); [[w.white-making-of-the-president-1969]], 395 (out of sight until shortly before midnight). The hour is Solberg''s, approximate. It follows the dinner at Andreas''s (404). See [[cal.1968-11-05.elections-1968-humphrey]]. Names: Humphrey. Check: White, 395, has the Leamington shortly before midnight.'
+    tags: [name:humphrey-hubert-h, state:mn, city:minneapolis]
+    time_zone: America/Chicago
   - id: cal.1968-11-06.elections-1968
     when: Nov. 6
     date: '1968-11-06'

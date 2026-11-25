@@ -53,6 +53,7 @@ Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every 
 | 49 | For the owner to procure | not a question |
 | 50 | Entries made from a fragment of a story (a headline, a cut-off column) | settled by the owner, Nov. 24: not entered (R18a) |
 | 54 | Exceptions to the series' spelling of Chinese names (R19a) | Peking, Quemoy and Free China settled by the owner, Nov. 24; the rest defaults from the tree's present practice |
+| 55 | The day's order: a rule for every patch (R25c) and a sequence pass over the whole calendar | default: the rule now; the pass tried on two months, then run a month at a time, Sonnet reads and Opus audits |
 | 53 | Map rows "work, page, note" that lead to a record marked read (2,315), printed as "284 & n.70b (citing ...)" | settled by the owner, Nov. 24: a reader picks one of three for each; no unmarked citation unless the cited matter was read |
 | 52 | An entry of one day with several acts, one of them timed | revised by the owner, Nov. 24: split into a pair, the timed act with its hour, the order by `follows:` |
 | 51 | A work's page, a note on the page, and the two together: one source or three citations | settled by the owner, Nov. 24: three citations, each with its meaning |
@@ -516,3 +517,17 @@ Where it applies: every line and note. The mixed cases are not yet made consiste
 
 Defaults taken in the same run, for the owner to overrule: Sinkiang to Xinjiang (11; it is the same name, 新疆, in the postal spelling, and the People's Republic governed the region throughout the span; the owner asked, and the answer given is in the session's reply of that hour); Guomindang to Kuomintang (20; the party of the Republic of China); Ulanfu to Ulanhu (39; one man, the form the calendar used more).
 
+## 55. The day's order: a rule and a sequence pass (the reader's brief, R25c)
+
+The owner, Nov. 24, 2026, about 11:45 p.m. PT: "Shouldn't all the fellows responding to Truman's naming of them get a 'follows:' tag too? Is there a way to get this into a reader/auditor brief or a subsequent 'sort'/'sequence' pass? Many of these seem like could easily be sorted with a simple 'put them together, read them, and ask yourself "what goes after what?"' pass. No?"
+
+Done at once: the 14 entries of July 2, 1960 that answer or comment on Truman's press conference follow it (`inbox/merged/`, the patch `2026-11-25-truman-follows`); the staff watching the telecast do not, being at the same hour.
+
+Defaults taken, for the owner to overrule:
+
+- The rule is R25c: before a patch is handed in, each day it touches is printed and read together, and `follows:` written on the later entry wherever the entries' words or their sources show the order. The auditor does the same.
+- A link names the entry its entry comes directly after, and runs within one day. Two acts with nothing to say which came first get no link.
+- The pass over the calendar as it stands (counted Nov. 24: 3,550 days with two or more entries, 51,038 entries on them, 1,372 with a link; 2,308 entries whose note points to an entry of the same day and that have no link) goes a month at a time: a Sonnet reader, then an Opus audit, then the merge. Tried first on October 1962 and March 1968 (`notes/briefs/sequence-1962-10.md` and the like; notes in `notes/sequence/`). If the two months come back sound, the rest follow, the densest months first.
+- The sheet the readers work from is `python3 -I tools/times/day_order.py YEAR --from YYYY-MM --until YYYY-MM --full`.
+
+Where it applies: every calendar patch from now on, and the whole calendar by the pass.

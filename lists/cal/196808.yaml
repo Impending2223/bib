@@ -6027,8 +6027,10 @@ entries:
     place: chicago
     thread: elections-1968-chicago-streets
     also: [war-opposition, civil-disorders]
-    c: 'Chicago, Lincoln Park. The police command post opens. More than 2,000 in the park by 5 p.m. Ginsberg, Hoffman, Rubin, Sanders and Krassner write statements: they will leave when told. About 11 p.m. some 60 police clear the park; about 200 pushed into Clark Street and down Wells; 11 arrested.'
-    n: '[[w.rights-in-conflict-convention-week]], 134–39; [[w.zaroulis-who-spoke-up]], 184 (Saturday, Aug. 24: Lincoln Park; the Yippie leaders'' statement to observe the 11 p.m. curfew; Ginsberg''s "om"; about 200 cleared near 11 p.m.; 11 arrested). See [[cal.1968-08-22.elections-1968]]. Names: Hoffman, Rubin.'
+    c: 'Chicago, Lincoln Park. The police command post opens. More than 2,000 in the park by 5 p.m. Ginsberg, Hoffman, Rubin, Sanders and Krassner write statements: they will leave when told.'
+    n: '[[w.rights-in-conflict-convention-week]], 134–39; [[w.zaroulis-who-spoke-up]], 184 (Saturday, Aug. 24: Lincoln Park; the Yippie leaders'' statement to observe the 11 p.m. curfew; Ginsberg''s "om"; about 200 cleared near 11 p.m.; 11 arrested). Split under R25b and R17: *Rights in Conflict*, 138, gives the clearing of the park its own hour ("At about 11 p.m."); it is an entry of its own. See [[cal.1968-08-22.elections-1968]]. Names: Hoffman, Rubin.'
+    src:
+      rows: []
     tags: [name:hoffman-abbie, name:rubin-jerry, state:il, city:chicago]
   - id: cal.1968-08-24.elections-1968-chicago-2
     when: Aug. 24
@@ -6259,6 +6261,20 @@ entries:
     c: Chen Yi 陈毅 at the reception of the Chinese People's Association for Friendship with Foreign Countries 对外友协 and the China–Romania Friendship Association 中国罗马尼亚友好协会 for Romania's national day.
     n: '[[w.chen-yi-nianpu]], 1207. Names: Chen Yi.'
     tags: [polity:prc, polity:romania, name:chen-yi, ok:fields-place]
+  - id: cal.1968-08-24.elections-1968-chicago-streets
+    when: Aug. 24
+    date: '1968-08-24'
+    time: 1968-08-25T04:00Z
+    time_approx: true
+    place: chicago
+    thread: elections-1968-chicago-streets
+    also: [war-opposition, civil-disorders]
+    follows:
+      - cal.1968-08-24.elections-1968-chicago
+    c: Chicago, Lincoln Park, the curfew hour. About 11 p.m. some 60 police, in three lines, begin to clear the park; the three-wheel motorcycles herd the crowd of about 200 west toward Clark Street; 11 arrested.
+    n: '[[w.rights-in-conflict-convention-week]], 138 ("At about 11 p.m. three lines of police, totalling not more than 60 men"; the crowd of about 200; "toward Clark Street"). [[w.zaroulis-who-spoke-up]], 184 (about 200 cleared near 11 p.m.; 11 arrested). See [[cal.1968-08-24.elections-1968-chicago]].'
+    tags: [state:il, city:chicago]
+    time_zone: America/Chicago
   - id: cal.1968-08-25.opinion
     when: Aug. 25
     date: '1968-08-25'
@@ -7283,9 +7299,16 @@ entries:
     place: chicago
     thread: elections-1968-chicago-streets
     also: [war-opposition]
-    c: 'Chicago, the Church of the Three Crosses. Some 50 Lincoln Park clergymen and residents form the Lincoln Park Emergency Citizens Committee: police to lift the ban on sleeping in the park. The clergy to hold a prayer vigil in the park from 11 p.m., against the curfew. At 4 p.m. a delegation sees the 18th District''s commander.'
-    n: '[[w.rights-in-conflict-convention-week]], 184–85. See [[cal.1968-08-22.elections-1968]].'
+    c: 'Chicago, the Church of the Three Crosses. Some 50 Lincoln Park clergymen and residents form the Lincoln Park Emergency Citizens Committee: police to lift the ban on sleeping in the park. The clergy to hold a prayer vigil in the park from 11 p.m., against the curfew.'
+    n: '[[w.rights-in-conflict-convention-week]], 184–85. The meeting ran "Between 11 a.m. and 2 p.m." (184). Split under R25b and R17: *Rights in Conflict*, 184, gives the delegation''s meeting with the 18th District''s commander its own hour ("At 4 p.m."); it is an entry of its own. See [[cal.1968-08-22.elections-1968]].'
+    src:
+      rows: []
     tags: [state:il, city:chicago]
+    time_range:
+      - 1968-08-27T16:00Z
+      - 1968-08-27T19:00Z
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1968-08-27.press-and-broadcasting
     when: Aug. 27
     date: '1968-08-27'
@@ -7320,8 +7343,10 @@ entries:
     place: chicago
     thread: elections-1968-chicago-streets
     also: [war-opposition, labor-disputes]
-    c: Chicago. From Lincoln Park, a march to the CTA bus barn at Clark and Schubert for the striking Negro bus drivers; at 9 p.m. the police let it circle the barn, not enter.
-    n: '[[w.rights-in-conflict-convention-week]], 186, 189–90. The time is the march''s start: at 8:10 p.m. the police broadcast that demonstrators were leaving the park; the first group at the barn about 8:56 (189). See [[cal.1968-08-22.elections-1968]].'
+    c: Chicago. From Lincoln Park, a march to the CTA bus barn at Clark and Schubert for the striking Negro bus drivers.
+    n: '[[w.rights-in-conflict-convention-week]], 186, 189–90. The time is the march''s start: at 8:10 p.m. the police broadcast that demonstrators were leaving the park (189); the first group at the barn about 8:56 (189–90). Split under R25b and R17: *Rights in Conflict*, 190, gives the police''s word at the barn its own hour ("At 9 p.m."); it is an entry of its own. See [[cal.1968-08-22.elections-1968]].'
+    src:
+      rows: []
     tags: [state:il, city:chicago]
     time_zone: America/Chicago
   - id: cal.1968-08-27.elections-1968-chicago-7
@@ -7697,6 +7722,32 @@ entries:
     c: 'The Center''s Organization Department 中共中央组织部 reports to Kang Sheng 康生 on the political standing of the members of the Third NPC Standing Committee 第三届全国人大常委会: of its 115 members ten, among them Zhu De 朱德, Zhang Yunyi 张云逸, Wang Weizhou 王维舟, Hu Qiaomu 胡乔木, Ye Jianying 叶剑英, Xu Xiangqian 徐向前 and Xiao Jinguang 萧劲光, have "grave errors, not yet characterized."'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1965–1966. Made public: 2016. Names: Kang Sheng, Zhu De, Ye Jianying, Xu Xiangqian, Zhang Yunyi, Hu Qiaomu.'
     tags: [polity:prc, ok:fields-place, name:kang-sheng, name:zhu-de, name:ye-jianying, name:xu-xiangqian, vis:only:prc, name:hu-qiaomu, name:zhang-yunyi]
+  - id: cal.1968-08-27.elections-1968-chicago-streets
+    when: Aug. 27
+    date: '1968-08-27'
+    time: 1968-08-27T21:00Z
+    place: chicago
+    thread: elections-1968-chicago-streets
+    also: [war-opposition]
+    follows:
+      - cal.1968-08-27.elections-1968-chicago-4
+    c: 'Chicago, Lincoln Park. At 4 p.m. a delegation of about 25 from the Lincoln Park Emergency Citizens Committee meets the 18th District''s commander in the police command post: it asks him to suspend the curfew, cut the police force in the park and stop what it calls brutality. He has no authority to suspend the curfew; he will relay the request to Superintendent Conlisk.'
+    n: '[[w.rights-in-conflict-convention-week]], 184–85 ("At 4 p.m."). See [[cal.1968-08-27.elections-1968-chicago-4]].'
+    tags: [state:il, city:chicago]
+    time_zone: America/Chicago
+  - id: cal.1968-08-27.elections-1968-chicago-streets-2
+    when: Aug. 27
+    date: '1968-08-27'
+    time: 1968-08-28T02:00Z
+    place: chicago
+    thread: elections-1968-chicago-streets
+    also: [war-opposition, labor-disputes]
+    follows:
+      - cal.1968-08-27.elections-1968-chicago-6
+    c: Chicago, the CTA bus barn at Clark and Schubert. At 9 p.m. police tell the marchers they may march around the barn but not enter. A bus grazes a police sergeant; the driver is arrested. The marchers circle the block twice and head south, the first of them at Drummond and Clark at 10:45 p.m.
+    n: '[[w.rights-in-conflict-convention-week]], 190 ("At 9 p.m. police told demonstrators they could march around the bus barn, but would not be allowed to enter"; the bus, the sergeant grazed, the driver arrested). See [[cal.1968-08-27.elections-1968-chicago-6]].'
+    tags: [state:il, city:chicago]
+    time_zone: America/Chicago
   - id: cal.1968-08-28.elections-1968
     when: Aug. 28
     date: '1968-08-28'

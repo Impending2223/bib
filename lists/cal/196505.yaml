@@ -27,18 +27,16 @@ entries:
       rows:
         - 'w.macv-command-history-1965 90: all'
   - id: cal.1965-05-01.latin-america-dominican-republic
-    when: May 1–2
+    when: May 1
     date: '1965-05-01'
-    time: 1965-05-01T22:40Z
+    place: santo-domingo
     thread: latin-america-dominican-republic
-    c: 'Palmer asks four more airborne battalions and a third of Marines. 6:40 p.m., Wheeler asks for three plans to confine the rebels to the south and east of the city; Masterson, 2:14 a.m. May 2: Plan A, 18 battalions and seven days, Plan B 15 and 24 hours, Plan C 12 over three to five days. 1:03 p.m. May 2 the Chiefs choose B, a corridor at dawn May 3, and approve another Marine battalion and the five uncommitted battalions of the 82nd.'
-    n: '[[w.poole-joint-chiefs-of-staff-2012]], 141–42. The time is the first day''s. See [[cal.1965-04-29.latin-america-dominican-republic-2]]. Names: Palmer, Wheeler.'
+    c: Palmer asks four more airborne battalions and a third of Marines.
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 141–42. Split under R25b and R17: Poole, 141, gives Wheeler''s request, Masterson''s reply and the Chiefs'' orders their own hours ("At 1840 on 1 May", "0214 on 2 May", "at 1303 on 2 May"), and 142 the approval of more units its own day ("during 2 May"); each is an entry of its own. See [[cal.1965-04-29.latin-america-dominican-republic-2]]. Names: Palmer.'
     src:
-      c: bb1e8c0c
       rows:
         - 'w.poole-joint-chiefs-of-staff-2012 141–42: all'
-    tags: [name:palmer-bruce-jr, name:wheeler-earle]
-    time_zone: America/New_York
+    tags: [name:palmer-bruce-jr]
   - id: cal.1965-05-01.latin-america-dominican-republic-2
     when: May 1
     date: '1965-05-01'
@@ -303,6 +301,16 @@ entries:
       - 1965-05-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-05-01.latin-america-dominican-republic-4
+    when: May 1
+    date: '1965-05-01'
+    time: 1965-05-01T22:40Z
+    place: washington
+    thread: latin-america-dominican-republic
+    c: 'Wheeler, 6:40 p.m., asks CINCLANT, Masterson and Palmer to assess three perimeters to confine the rebels to the south and east of Santo Domingo: A, a close-in perimeter sealing off the south; B, a corridor from the Duarte Bridge to the Marines'' eastern position; C, a longer perimeter farther north.'
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 141 ("At 1840 on 1 May"). Check: Poole''s clock for the hours ("1840", "0214", "1303") is not stated; Washington''s is assumed. See [[cal.1965-05-01.latin-america-dominican-republic]]. Names: Wheeler, Palmer.'
+    tags: [name:wheeler-earle, name:palmer-bruce-jr]
+    time_zone: America/New_York
   - id: cal.1965-05-02.latin-america
     when: May 2
     date: '1965-05-02'
@@ -559,6 +567,33 @@ entries:
     c: Zhu De 朱德 meets the Kenyan women's delegation led by *Kaiselinna Akumu Ayangguo* 凯瑟琳娜·阿库姆·阿扬果 and the Angolan women's delegation led by *Luxila Neitu* 卢西拉·内图.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1931. Names: Zhu De.'
     tags: [polity:prc, polity:kenya, name:zhu-de]
+  - id: cal.1965-05-02.latin-america-dominican-republic-3
+    when: May 2
+    date: '1965-05-02'
+    time: 1965-05-02T06:14Z
+    thread: latin-america-dominican-republic
+    c: 'Masterson, 2:14 a.m., replies: Plan A, 18 battalions and seven days, at "prohibitive" cost and risk; Plan B, 15 battalions and 24 hours, casualties unknown; Plan C, 12 battalions over three to five days, the fewest casualties.'
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 141 ("Replying at 0214 on 2 May"). Check: Poole''s clock for the hours ("1840", "0214", "1303") is not stated; Washington''s is assumed. See [[cal.1965-05-01.latin-america-dominican-republic]].'
+    time_zone: America/New_York
+  - id: cal.1965-05-02.latin-america-dominican-republic-4
+    when: May 2
+    date: '1965-05-02'
+    time: 1965-05-02T17:03Z
+    place: washington
+    thread: latin-america-dominican-republic
+    follows:
+      - cal.1965-05-02.latin-america-dominican-republic-3
+    c: The Joint Chiefs choose Plan B and, 1:03 p.m., order a corridor created at dawn May 3.
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 141 ("at 1303 on 2 May, issued orders to create a corridor at dawn on 3 May"). Check: Poole''s clock for the hours ("1840", "0214", "1303") is not stated; Washington''s is assumed. It follows Masterson''s reply (141). See [[cal.1965-05-01.latin-america-dominican-republic]].'
+    time_zone: America/New_York
+  - id: cal.1965-05-02.latin-america-dominican-republic-5
+    when: May 2
+    date: '1965-05-02'
+    place: washington
+    thread: latin-america-dominican-republic
+    c: The Joint Chiefs approve deploying another Marine battalion and all five uncommitted battalions of the 82nd Airborne Division, Palmer wanting strength to meet an all-out attack on Santo Domingo with uprisings in the countryside.
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 142 ("during 2 May"; no hour given). See [[cal.1965-05-01.latin-america-dominican-republic]]. Names: Palmer.'
+    tags: [name:palmer-bruce-jr]
   - id: cal.1965-05-03.court
     when: May 3
     date: '1965-05-03'

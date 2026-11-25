@@ -4223,22 +4223,15 @@ entries:
     date: '1968-03-16'
     thread: elections-1968-johnson
     also: [robert-kennedy-campaign]
-    c: 'The White House''s account of the commission.{1} Tom Johnson to Jim Jones at the Ranch, Mar. 16, 6 and 6:33 p.m.: the version for the press.{2} CBS, by Tom Johnson''s wire of Mar. 17, 2:06 p.m.: Kennedy had issued an ultimatum, Johnson to announce on television that "a complete revision of the U.S. war was needed." Johnson gives Sidey of *Time* his account.{3}'
-    n: '[[w.palermo-in-his-own-right]], 138; [[w.shesol-mutual-contempt]], 423 (a White House aide: "the damnedest piece of political blackmail"; Mudd for CBS: Kennedy''s price "that the President go on TV to state that a complete revision of the U.S. war policy was needed"; Jim Jones writes "NO" by it). The time is the first day''s. Check: whose clock the 6 p.m. wire''s hour is, Washington''s or the Ranch''s; the range takes both readings. To check: Tom Johnson to Jim Jones, Mar. 16, 1968, 6:33 p.m., WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.34); Tom Johnson to Jim Jones, Mar. 16, 1968, 6 p.m., Watson Papers, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.37); Tom Johnson to Johnson, Mar. 17, 1968, 2:06 p.m., WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.33). See [[cal.1968-03-14.robert-kennedy]]. Names: Tom Johnson, Lyndon Johnson, Robert Kennedy, Sidey. Check: what the White House gave out, and to whom, from the wires themselves (Palermo, 138: "It was the White House that broke the story"); Sidey''s day.'
+    c: The White House's account of the commission.{1} Johnson gives Sidey of *Time* his account.{3}
+    n: '[[w.palermo-in-his-own-right]], 138; [[w.shesol-mutual-contempt]], 423 (a White House aide: "the damnedest piece of political blackmail"; Mudd for CBS: Kennedy''s price "that the President go on TV to state that a complete revision of the U.S. war policy was needed"; Jim Jones writes "NO" by it). Split under R25b and R17: Palermo''s notes (296 nn.33, 34, 37) give the three wires their own hours, received at the LBJ Ranch''s CommCenter (6 and 6:33 p.m. Mar. 16, 2:06 p.m. Mar. 17), the Ranch''s clock; each is an entry of its own. To check: Tom Johnson to Jim Jones, Mar. 16, 1968, 6:33 p.m., WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.34); Tom Johnson to Jim Jones, Mar. 16, 1968, 6 p.m., Watson Papers, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.37); Tom Johnson to Johnson, Mar. 17, 1968, 2:06 p.m., WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.33). See [[cal.1968-03-14.robert-kennedy]]. Names: Lyndon Johnson, Robert Kennedy, Sidey. Check: what the White House gave out, and to whom, from the wires themselves (Palermo, 138: "It was the White House that broke the story"); Sidey''s day.'
     src:
-      c: 6be98d4b
       rows:
-        - 'w.palermo-in-his-own-right 138: 1, 2, 3'
-        - 'via w.palermo-in-his-own-right 138 n.34: 1'
+        - 'w.palermo-in-his-own-right 138: 1, 3'
         - 'via w.palermo-in-his-own-right 138 n.37: 1'
-        - 'via w.palermo-in-his-own-right 138 n.33: 2'
+        - 'via w.palermo-in-his-own-right 138 n.34: 3'
         - 'w.shesol-mutual-contempt 423: ?'
-    tags: [name:johnson-tom, name:johnson-lyndon-b, name:kennedy-robert-f, name:sidey-hugh]
-    time_range:
-      - 1968-03-16T23:00Z
-      - 1968-03-17T00:00Z
-    time_zone: America/New_York
-    range_basis: record
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:sidey-hugh]
   - id: cal.1968-03-16.robert-kennedy-2
     when: Mar. 16, morning
     date: '1968-03-16'
@@ -4471,6 +4464,34 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 649: all'
     tags: [polity:prc]
+  - id: cal.1968-03-16.elections-1968-johnson
+    when: Mar. 16
+    date: '1968-03-16'
+    time: 1968-03-17T00:00Z
+    place:
+      - washington
+      - lbj-ranch
+    thread: elections-1968-johnson
+    also: [robert-kennedy-campaign]
+    c: 'Tom Johnson to Jim Jones at the Ranch, secret, received 6 p.m.: the version of the commission plan for the press.'
+    n: '[[w.palermo-in-his-own-right]], 138 (the White House "gave to the press an account crafted to cast Kennedy in the role of a usurper of presidential authority"); 296 n.37 (Tom Johnson to Jim Jones, Mar. 16, 1968, "received LBJ Ranch CommCen., 6:00 p.m.," Watson Papers, LBJ Library). To check: the wire itself (cited by [[w.palermo-in-his-own-right]], 296 n.37). See [[cal.1968-03-16.elections-1968-4]]. Names: Tom Johnson.'
+    tags: [name:johnson-tom]
+    time_zone: America/Chicago
+  - id: cal.1968-03-16.elections-1968-johnson-2
+    when: Mar. 16
+    date: '1968-03-16'
+    time: 1968-03-17T00:33Z
+    place:
+      - washington
+      - lbj-ranch
+    thread: elections-1968-johnson
+    also: [robert-kennedy-campaign]
+    follows:
+      - cal.1968-03-16.elections-1968-johnson
+    c: Tom Johnson to Jim Jones at the Ranch, secret, received 6:33 p.m., on the commission plan.
+    n: '[[w.palermo-in-his-own-right]], 296 nn.34, 35 (Tom Johnson to Jim Jones, Mar. 16, 1968, "received by the LBJ Ranch CommCenter 6:33 p.m. (secret)," WHFN, LBJ Library; Palermo cites it at 138 for Johnson''s account to Sidey and for the White House''s first breach of the confidence). To check: the wire itself (cited by [[w.palermo-in-his-own-right]], 296 nn.34, 35). See [[cal.1968-03-16.elections-1968-4]]. Names: Tom Johnson. Check: what the wire says.'
+    tags: [name:johnson-tom]
+    time_zone: America/Chicago
   - id: cal.1968-03-17.opinion
     when: Mar. 17
     date: '1968-03-17'
@@ -4751,6 +4772,19 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 515: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 515 n.58: all'
     tags: [polity:prc, ok:fields-place]
+  - id: cal.1968-03-17.elections-1968-johnson-3
+    when: Mar. 17
+    date: '1968-03-17'
+    time: 1968-03-17T20:06Z
+    place:
+      - washington
+      - lbj-ranch
+    thread: elections-1968-johnson
+    also: [robert-kennedy-campaign]
+    c: 'CBS, by Tom Johnson''s wire to Johnson through Jim Jones, received at the Ranch 2:06 p.m.: Kennedy had issued an ultimatum, Johnson to announce on television that "a complete revision of the U.S. war was needed."'
+    n: '[[w.palermo-in-his-own-right]], 296 n.33 (Tom Johnson to Johnson through Jim Jones, Sunday, Mar. 17, 1968, "received by the LBJ Ranch CommCenter 2:06 p.m., text of bulletin carried on C.B.S. News"); [[w.palermo-in-his-own-right]], 138 (the White House "telling CBS News that Kennedy had issued an ultimatum"); [[w.shesol-mutual-contempt]], 423 (Mudd for CBS). To check: the wire itself (cited by [[w.palermo-in-his-own-right]], 296 n.33). See [[cal.1968-03-16.elections-1968-4]]. Names: Tom Johnson, Lyndon Johnson, Robert Kennedy.'
+    tags: [name:johnson-tom, name:johnson-lyndon-b, name:kennedy-robert-f]
+    time_zone: America/Chicago
   - id: cal.1968-03-18.vietnam
     when: Mar. 18
     date: '1968-03-18'
@@ -6858,68 +6892,48 @@ entries:
         - 'via w.dikotter-cultural-revolution 172 n.27c: ?'
     tags: [polity:prc, name:zhou-enlai, name:lin-biao, vis:only:prc, name:yang-chengwu]
   - id: cal.1968-03-25.vietnam
-    when: Mar. 25–26
+    when: Mar. 25
     date: '1968-03-25'
     place: washington
     thread: vietnam-205000
-    c: 'The Wise Men.{1} Mar. 25, at State: dinner with Rusk, Clifford and others, three briefings, DePuy''s among them.{2} Mar. 26, Johnson with Wheeler and Abrams, then the group with the President.{3} McGeorge Bundy''s summary: Acheson for the majority, "we can no longer do the job we set out to do in the time we have left and we must begin to take steps to disengage";{4} Ball, Dean, Vance and Dillon with him;{5} Bradley, Taylor and Murphy against;{6} Ball, Goldberg and Vance for stopping the bombing now.{7} Johnson to Wheeler and Abrams: "We have no support for the war. This is caused by the 206,000 troop request, leaks, Ted Kennedy and Bobby Kennedy."{8} The briefers: Habib, Carver and DePuy;{9} Habib: "Stop bombing and negotiate."{10} The group with the President, 10:30 a.m. to 12:15 p.m.{11}'
-    n: '[[w.johnson-vantage-point]], 415–18; [[w.mcpherson-political-education]], 433 (Acheson to McPherson, Mar. 26: the majority for de-escalation; Carroll''s editorial "my views precisely"); [[w.clifford-counsel-to-the-president-2]], 511–18 (the dinner at State and the three briefings; Johnson with Wheeler and Abrams, his words otherwise: "We have no support for the war. This was caused by the 206,000-man request and the leaks, by Teddy Kennedy and Bobby Kennedy"; Bundy''s summary; Ball and Vance for a full halt, not Goldberg); [[w.rusk-as-i-saw-it-1990]], 480–81 (the group; Acheson''s change); [[w.preston-war-council]], 238 (Bundy the Wise Men''s spokesman: "must begin to take steps to disengage"); [[w.white-making-of-the-president-1969]], 111–13; [[w.branch-at-canaans-edge]], 727–28 (Acheson, "what in the name of God are five hundred thousand men out there doing?"; Abrams to Johnson that evening); [[w.branch-at-canaans-edge]], 729 (Johnson to Wheeler and Abrams, "I don''t give a damn about the election"); [[w.berman-lyndon-johnsons-war]], 194–99 (Habib, Carver and DePuy; Habib: "Stop bombing and negotiate"; Goldberg: "who the hell are we fighting?"; Mar. 26, Bundy''s summary, Acheson: "we can no longer do the job we set out to do"; Ball, Vance, Dillon; Bradley, Taylor, Murphy, Fortas against); [[w.shesol-mutual-contempt]], 433 ("Your whole group must have been brainwashed"; Johnson: "This is caused by the 206,000-troop request, leaks ... and Bobby Kennedy"); [[w.kotz-judgment-days]], 398–99 ("We have no support for the war"); [[w.bernstein-guns-or-butter]], 481 (Habib: "Stop the bombing and negotiate"; Bundy: "a very significant shift"; Bradley for "support troops" only); [[w.drea-mcnamara-clifford-and-the-2011]], 189 (Clifford''s three options to the Wise Men at State; Johnson with them 10:30 a.m.–12:15 p.m., Mar. 26); [[w.taylor-swords-and-plowshares]], 390–91 (Carver, DePuy and Habib briefing; two sessions; the President''s poll); [[w.barrett-uncertain-warriors]], 147–48 (Wheeler and Abrams alone with Johnson on Mar. 26, almost two hours, before the Wise Men; Johnson: "We must have something"); [[w.zaroulis-who-spoke-up]], 159–60 (the week of March 25: the Wise Men briefed by Habib, DePuy and Carver, conferring with Rusk and Clifford; the next day their verdict, Bundy speaking for them; the bombing should be stopped, the war unwinnable); [[w.dallek-flawed-giant]], 512 (Mar. 26, Johnson with the Chiefs, by Clifford a "painfully sad speech": "We need more money in an election year, more taxes in an election year, more troops in an election year and more [budget] cuts in an election year. ... We have no support for the war"; not the causes Johnson names in H). [[w.longley-lbjs-1968]], 80–82 (Acheson''s terms; the briefings; the meeting with the President; "Who poisoned the well," by Clifford''s account); [[w.palermo-in-his-own-right]], 153 (H; the words as FRUS 1964–68, VI, doc. 156, prints them). [[w.ball-past-has-another-pattern]], 407–09 (the briefings; Bundy''s summary, Fortas and Murphy dissenting; Acheson, Dillon, Ridgway, Vance). Made public: FRUS 1964–68, VI (2002). [[w.cosmas-joint-chiefs-of-staff]], 169 (the briefings; the meeting; Acheson); [[w.drea-mcnamara-clifford-and-the-2011]], 189, 225 (the briefings of Mar. 25, DePuy''s among them; Johnson with Wheeler and Abrams; the majority for disengaging; some for stopping the bombing at once); [[w.dallek-flawed-giant]], 511–12 (the briefings; Johnson with the Chiefs; the majority for withdrawal, several against); [[w.herring-lbj-and-vietnam]], 162–63 (the Wise Men reconvened, most for moving toward extrication; Johnson with Wheeler and Abrams, Mar. 26). [FRUS 1964–68, VI, doc. 155](https://history.state.gov/historicaldocuments/frus1964-68v06/d155); [doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v06/d156); [doc. 157](https://history.state.gov/historicaldocuments/frus1964-68v06/d157); [doc. 158](https://history.state.gov/historicaldocuments/frus1964-68v06/d158). Check: Taylor names Murphy, Fortas and himself as the three for the course of the strategy review, not Bradley ([[w.taylor-swords-and-plowshares]], 390). Check: FRUS 1964–68, VI, times the meetings of Mar. 26: Johnson with Wheeler and Abrams, 10:30 a.m.–12:15 p.m., in the family dining room (doc. 156); the group with the President, 1:15–3:05 p.m. (doc. 157); Bundy''s summary, 3:15–4:32 p.m. (doc. 158). The entry gives the group 10:30 a.m. to 12:15 p.m., after Drea, 189. To check: [[w.isaacson-wise-men]]; [[w.schandler-unmaking-of-a-president]]; [[w.hoopes-limits-of-intervention]]; [[w.brinkley-dean-acheson]]; President''s Daily Diary, March 26, 1968, pp. 4–8, LBJ (cited by [[w.branch-at-canaans-edge]], 727); [[w.langguth-our-vietnam]], 488–90 (cited by [[w.branch-at-canaans-edge]], 727); Rusk,As J Saw It, p. 478 (cited by [[w.branch-at-canaans-edge]], 728); FRUS, *Vol. 6* (n.d.), 474 (cited by [[w.branch-at-canaans-edge]], 728); FRUS, *Vol. 6* (n.d.), 476 (cited by [[w.branch-at-canaans-edge]], 728). See [[cal.1968-02-27.vietnam]]. Names: Rusk, Clifford, DePuy, Johnson, Wheeler, Abrams, Bundy, Acheson, Ball, Dean, Vance, Dillon, Bradley, Taylor, Murphy, Goldberg, Habib, Carver, Ted Kennedy. Check: Ball (408) has Fortas and Murphy as the dissenters. Check: Clifford, 516, has Fortas with Bradley, Taylor and Murphy.'
+    c: 'The Wise Men.{1} Mar. 25, at State: dinner with Rusk, Clifford and others, three briefings, DePuy''s among them.{2} The briefers: Habib, Carver and DePuy;{9} Habib: "Stop bombing and negotiate."{10}'
+    n: '[[w.johnson-vantage-point]], 415–18; [[w.mcpherson-political-education]], 433 (Acheson to McPherson, Mar. 26: the majority for de-escalation; Carroll''s editorial "my views precisely"); [[w.clifford-counsel-to-the-president-2]], 511–18 (the dinner at State and the three briefings; Johnson with Wheeler and Abrams, his words otherwise: "We have no support for the war. This was caused by the 206,000-man request and the leaks, by Teddy Kennedy and Bobby Kennedy"; Bundy''s summary; Ball and Vance for a full halt, not Goldberg); [[w.rusk-as-i-saw-it-1990]], 480–81 (the group; Acheson''s change); [[w.preston-war-council]], 238 (Bundy the Wise Men''s spokesman: "must begin to take steps to disengage"); [[w.white-making-of-the-president-1969]], 111–13; [[w.branch-at-canaans-edge]], 727–28 (Acheson, "what in the name of God are five hundred thousand men out there doing?"; Abrams to Johnson that evening); [[w.branch-at-canaans-edge]], 729 (Johnson to Wheeler and Abrams, "I don''t give a damn about the election"); [[w.berman-lyndon-johnsons-war]], 194–99 (Habib, Carver and DePuy; Habib: "Stop bombing and negotiate"; Goldberg: "who the hell are we fighting?"; Mar. 26, Bundy''s summary, Acheson: "we can no longer do the job we set out to do"; Ball, Vance, Dillon; Bradley, Taylor, Murphy, Fortas against); [[w.shesol-mutual-contempt]], 433 ("Your whole group must have been brainwashed"; Johnson: "This is caused by the 206,000-troop request, leaks ... and Bobby Kennedy"); [[w.kotz-judgment-days]], 398–99 ("We have no support for the war"); [[w.bernstein-guns-or-butter]], 481 (Habib: "Stop the bombing and negotiate"; Bundy: "a very significant shift"; Bradley for "support troops" only); [[w.drea-mcnamara-clifford-and-the-2011]], 189 (Clifford''s three options to the Wise Men at State; Johnson with them 10:30 a.m.–12:15 p.m., Mar. 26); [[w.taylor-swords-and-plowshares]], 390–91 (Carver, DePuy and Habib briefing; two sessions; the President''s poll); [[w.barrett-uncertain-warriors]], 147–48 (Wheeler and Abrams alone with Johnson on Mar. 26, almost two hours, before the Wise Men; Johnson: "We must have something"); [[w.zaroulis-who-spoke-up]], 159–60 (the week of March 25: the Wise Men briefed by Habib, DePuy and Carver, conferring with Rusk and Clifford; the next day their verdict, Bundy speaking for them; the bombing should be stopped, the war unwinnable); [[w.dallek-flawed-giant]], 512 (Mar. 26, Johnson with the Chiefs, by Clifford a "painfully sad speech": "We need more money in an election year, more taxes in an election year, more troops in an election year and more [budget] cuts in an election year. ... We have no support for the war"; not the causes Johnson names in H). [[w.longley-lbjs-1968]], 80–82 (Acheson''s terms; the briefings; the meeting with the President; "Who poisoned the well," by Clifford''s account); [[w.palermo-in-his-own-right]], 153 (H; the words as FRUS 1964–68, VI, doc. 156, prints them). [[w.ball-past-has-another-pattern]], 407–09 (the briefings; Bundy''s summary, Fortas and Murphy dissenting; Acheson, Dillon, Ridgway, Vance). Made public: FRUS 1964–68, VI (2002). [[w.cosmas-joint-chiefs-of-staff]], 169 (the briefings; the meeting; Acheson); [[w.drea-mcnamara-clifford-and-the-2011]], 189, 225 (the briefings of Mar. 25, DePuy''s among them; Johnson with Wheeler and Abrams; the majority for disengaging; some for stopping the bombing at once); [[w.dallek-flawed-giant]], 511–12 (the briefings; Johnson with the Chiefs; the majority for withdrawal, several against); [[w.herring-lbj-and-vietnam]], 162–63 (the Wise Men reconvened, most for moving toward extrication; Johnson with Wheeler and Abrams, Mar. 26). [FRUS 1964–68, VI, doc. 155](https://history.state.gov/historicaldocuments/frus1964-68v06/d155); [doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v06/d156); [doc. 157](https://history.state.gov/historicaldocuments/frus1964-68v06/d157); [doc. 158](https://history.state.gov/historicaldocuments/frus1964-68v06/d158). Check: Taylor names Murphy, Fortas and himself as the three for the course of the strategy review, not Bradley ([[w.taylor-swords-and-plowshares]], 390). To check: [[w.isaacson-wise-men]]; [[w.schandler-unmaking-of-a-president]]; [[w.hoopes-limits-of-intervention]]; [[w.brinkley-dean-acheson]]; President''s Daily Diary, March 26, 1968, pp. 4–8, LBJ (cited by [[w.branch-at-canaans-edge]], 727); [[w.langguth-our-vietnam]], 488–90 (cited by [[w.branch-at-canaans-edge]], 727); Rusk,As J Saw It, p. 478 (cited by [[w.branch-at-canaans-edge]], 728); FRUS, *Vol. 6* (n.d.), 474 (cited by [[w.branch-at-canaans-edge]], 728); FRUS, *Vol. 6* (n.d.), 476 (cited by [[w.branch-at-canaans-edge]], 728). See [[cal.1968-02-27.vietnam]]. The hours of Mar. 26 are the Notes of Meeting''s: Johnson with Wheeler and Abrams, 10:30 a.m.–12:15 p.m. (doc. 156), and the group with the President, 1:15–3:05 p.m. (doc. 157). The first line gave 10:30 a.m. to 12:15 p.m. to the group; Drea, 189, and doc. 156 give that span to Wheeler and Abrams. Split under R25b and R17: FRUS VI, doc. 156, gives Johnson''s meeting with Wheeler and Abrams its own day and hours (Mar. 26, 10:30 a.m.–12:15 p.m.), doc. 157 the meeting with the group its own (1:15–3:05 p.m.), and doc. 158 the summary session its own (3:15–4:32 p.m., n. 1); each is an entry of its own. Names: Rusk, Clifford, DePuy, Habib, Carver. Check: Ball (408) has Fortas and Murphy as the dissenters. Check: Clifford, 516, has Fortas with Bradley, Taylor and Murphy.'
     src:
-      c: 1e0f25a8
       rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d155: 1, 2, 3, 4, 5, 6, 7'
-        - 'w.johnson-vantage-point 415–18: 1, 2, 3, 4, 5, 7'
-        - 'w.drea-mcnamara-clifford-and-the-2011 189: 1, 2, 3, 4'
-        - 'w.drea-mcnamara-clifford-and-the-2011 225: 7'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d155: 1, 2'
+        - 'w.johnson-vantage-point 415–18: 1, 2'
+        - 'w.drea-mcnamara-clifford-and-the-2011 189: 1, 2'
         - 'via w.drea-mcnamara-clifford-and-the-2011 189 n.65b: 2'
-        - 'via w.drea-mcnamara-clifford-and-the-2011 189 n.66a: 3'
-        - 'via w.drea-mcnamara-clifford-and-the-2011 189 n.67a: 3, 4'
-        - 'via w.drea-mcnamara-clifford-and-the-2011 225 n.89a: 7'
-        - 'w.dallek-flawed-giant 511–12: 1, 2, 3'
-        - 'w.cosmas-joint-chiefs-of-staff 169: 1, 2, 3, 4'
+        - 'w.dallek-flawed-giant 511–12: 1, 2'
+        - 'w.cosmas-joint-chiefs-of-staff 169: 1, 2'
         - 'via w.cosmas-joint-chiefs-of-staff 169 n.57a: 2'
         - 'via w.cosmas-joint-chiefs-of-staff 169 n.57b: 2'
-        - 'via w.cosmas-joint-chiefs-of-staff 169 n.58: 3, 4'
-        - 'via w.dallek-flawed-giant 512 n.52a: 4, 5, 6, 7'
         - 'via w.dallek-flawed-giant 512 n.52b: 2'
-        - 'via w.dallek-flawed-giant 512 n.53b: 3'
-        - 'w.herring-lbj-and-vietnam 162–63: 1, 3, 4'
-        - 'via w.herring-lbj-and-vietnam 163 n.38a: 3'
-        - 'w.longley-lbjs-1968 80–82: 1, 2, 3, 4'
-        - 'via w.longley-lbjs-1968 81 n.107: 3'
-        - 'via w.longley-lbjs-1968 82 n.108: 4'
-        - 'w.palermo-in-his-own-right 153: 8'
-        - 'w.ball-past-has-another-pattern 407–09: 1, 2, 3, 4, 5'
-        - 'w.mcpherson-political-education 433: 4'
-        - 'w.clifford-counsel-to-the-president-2 511–18: 1, 2, 3, 4, 5, 6, 8'
-        - 'via w.clifford-counsel-to-the-president-2 516 n.20: 4, 5, 6'
-        - 'w.rusk-as-i-saw-it-1990 480–81: 1, 4'
+        - 'w.herring-lbj-and-vietnam 162–63: 1'
+        - 'w.longley-lbjs-1968 80–82: 1, 2'
+        - 'w.ball-past-has-another-pattern 407–09: 1, 2'
+        - 'w.clifford-counsel-to-the-president-2 511–18: 1, 2'
+        - 'w.rusk-as-i-saw-it-1990 480–81: 1'
         - 'w.preston-war-council 238: ?'
-        - 'via x.1984.rusk-interviews-with-richard-rusk: 1, 4'
-        - 'w.white-making-of-the-president-1969 111–13: 1, 2, 3, 4, 5, 6, 7, 8'
+        - 'via x.1984.rusk-interviews-with-richard-rusk: 1'
+        - 'w.white-making-of-the-president-1969 111–13: 1, 2'
         - 'w.branch-at-canaans-edge 727–28: ?'
-        - 'via x.1968-03-26.notes-of-meeting-1-15-3: 1, 2, 3, 4, 5, 6, 7, 8'
-        - 'via x.1968-03-26.presidents-daily-diary-march-26-1968: 1, 2, 3, 4, 5, 6, 7, 8'
-        - 'via x.1968-03-26.johnsons-meeting-with-wheeler-the-joint: 1, 2, 3, 4, 5, 6, 7, 8'
-        - 'via x.1968-03-27.lbj-briefings-by-general-william-depuy: 1, 2, 3, 4, 5, 6, 7, 8'
-        - 'via x.undated.rusk-as-j-saw-it-p: 1, 2, 3, 4, 5, 6, 7, 8'
-        - 'via x.undated.frus-vol-6: 1, 2, 3, 4, 5, 6, 7, 8'
+        - 'via x.1968-03-26.notes-of-meeting-1-15-3: 1, 2'
+        - 'via x.1968-03-26.presidents-daily-diary-march-26-1968: 1, 2'
+        - 'via x.1968-03-26.johnsons-meeting-with-wheeler-the-joint: 1, 2'
+        - 'via x.1968-03-27.lbj-briefings-by-general-william-depuy: 1, 2'
+        - 'via x.undated.rusk-as-j-saw-it-p: 1, 2'
+        - 'via x.undated.frus-vol-6: 1, 2'
         - 'w.branch-at-canaans-edge 729: ?'
         - 'via w.preston-war-council 238 n.5b: ?'
-        - 'w.berman-lyndon-johnsons-war 194–99: 1, 4, 5, 6, 9, 10'
+        - 'w.berman-lyndon-johnsons-war 194–99: 1, 9, 10'
         - 'w.shesol-mutual-contempt 433: ?'
-        - 'w.kotz-judgment-days 398–99: 3, 8'
-        - 'w.bernstein-guns-or-butter 481: 1, 2, 3, 4, 5, 6'
+        - 'w.bernstein-guns-or-butter 481: 1, 2'
         - 'w.drea-mcnamara-clifford-and-the-2011 189: ?'
-        - 'w.taylor-swords-and-plowshares 390–91: 1, 2, 3, 9'
-        - 'w.barrett-uncertain-warriors 147–48: 3'
-        - 'w.zaroulis-who-spoke-up 159–60: 1, 4, 9'
+        - 'w.taylor-swords-and-plowshares 390–91: 1, 2, 9'
+        - 'w.zaroulis-who-spoke-up 159–60: 1, 9'
         - 'w.dallek-flawed-giant 512: ?'
-        - 'w.drea-mcnamara-clifford-and-the-2011 189: 11'
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d158: 4, 5, 6, 7'
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d157: 3'
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d156: 3'
-    tags: [name:rusk-dean, name:clifford-clark, name:depuy-william-e, name:johnson-lyndon-b, name:wheeler-earle, name:abrams-creighton, name:bundy-mcgeorge, name:acheson-dean-g, name:ball-george-w, name:dean-arthur-h, name:vance-cyrus, name:dillon-c-douglas, name:bradley-omar-n, name:taylor-maxwell, name:murphy-robert-d, name:goldberg-arthur-j, name:ridgway-matthew-b, name:lodge-henry-cabot, name:mccloy-john-j, name:fortas-abe, name:kennedy-robert-f, name:kennedy-edward-m, name:habib-philip-c, name:carver-george-a-jr, ok:fields-time, name:ted-kennedy]
+    tags: [name:rusk-dean, name:clifford-clark, name:depuy-william-e, name:habib-philip-c, name:carver-george-a-jr]
     short: the Wise Men
   - id: cal.1968-03-25.elections-1968
     when: Mar. 25
@@ -7339,6 +7353,40 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 499: all'
     tags: [polity:prc]
+  - id: cal.1968-03-26.vietnam-205000
+    when: Mar. 26
+    date: '1968-03-26'
+    time: 1968-03-26T15:30Z
+    place: washington
+    thread: vietnam-205000
+    c: 'Johnson with Wheeler and Abrams, 10:30 a.m. to 12:15 p.m.: "We have no support for the war. This is caused by the 206,000 troop request, leaks, Ted Kennedy and Bobby Kennedy." He asks them to give the Wise Men the whole picture, pro and con.'
+    n: '[FRUS 1964–68, VI, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v06/d156) (notes of the meeting, Mar. 26, 10:30 a.m.–12:15 p.m.: "We have no support for the war. This is caused by the 206,000 troop request, leaks, Ted Kennedy and Bobby Kennedy"; the Wise Men to have "the whole picture—pros and cons"). [[w.drea-mcnamara-clifford-and-the-2011]], 189 (between 10:30 a.m. and 12:15 p.m. on 26 March the President met with Wheeler and Abrams). See [[cal.1968-03-25.vietnam]]. Names: Johnson, Wheeler, Abrams, Ted Kennedy, Robert Kennedy.'
+    tags: [name:johnson-lyndon-b, name:wheeler-earle, name:abrams-creighton, name:kennedy-edward-m, name:ted-kennedy, name:kennedy-robert-f]
+    time_zone: America/New_York
+  - id: cal.1968-03-26.vietnam-205000-2
+    when: Mar. 26
+    date: '1968-03-26'
+    time: 1968-03-26T18:15Z
+    place: washington
+    thread: vietnam-205000
+    follows:
+      - cal.1968-03-26.vietnam-205000
+    c: 'The Wise Men with the President, 1:15 to 3:05 p.m. Wheeler: Westmoreland does not fear a general defeat; "no reason for all the gloom and doom we see in the United States press." Abrams: of 149 South Vietnamese maneuver battalions, 8 unsatisfactory at Tet, 30 with distinction.'
+    n: '[FRUS 1964–68, VI, doc. 157](https://history.state.gov/historicaldocuments/frus1964-68v06/d157) (notes of the meeting, Mar. 26, 1:15–3:05 p.m.; those present in n. 1, Fortas from 2:50 p.m., Humphrey from 3:07). [[w.drea-mcnamara-clifford-and-the-2011]], 189 (Wheeler and Abrams brief the Wise Men an hour after the President''s meeting with them). It follows the morning meeting. See [[cal.1968-03-25.vietnam]]. Names: Johnson, Wheeler, Abrams.'
+    tags: [name:johnson-lyndon-b, name:wheeler-earle, name:abrams-creighton]
+    time_zone: America/New_York
+  - id: cal.1968-03-26.vietnam-205000-3
+    when: Mar. 26
+    date: '1968-03-26'
+    time: 1968-03-26T20:15Z
+    place: washington
+    thread: vietnam-205000
+    follows:
+      - cal.1968-03-26.vietnam-205000-2
+    c: 'The Wise Men with the President again, 3:15 to 4:32 p.m. McGeorge Bundy''s summary: Acheson for the majority, "we can no longer do the job we set out to do in the time we have left and we must begin to take steps to disengage"; Ball, Dean, Vance, Dillon and Bundy with him; Bradley, Taylor and Murphy against; Ball, Goldberg and Vance for stopping the bombing now.'
+    n: '[FRUS 1964–68, VI, doc. 158](https://history.state.gov/historicaldocuments/frus1964-68v06/d158) (summary of notes; n. 1: the meeting "lasted from 3:15 to 4:32 p.m."). The dissenters, and the accounts that differ, are the Checks of the first entry. It follows the meeting of 1:15 to 3:05 p.m. See [[cal.1968-03-25.vietnam]]. Names: Bundy, Acheson, Ball, Dean, Vance, Dillon, Bradley, Taylor, Murphy, Goldberg, Johnson.'
+    tags: [name:johnson-lyndon-b, name:bundy-mcgeorge, name:acheson-dean-g, name:ball-george-w, name:dean-arthur-h, name:vance-cyrus, name:dillon-c-douglas, name:bradley-omar-n, name:taylor-maxwell, name:murphy-robert-d, name:goldberg-arthur-j]
+    time_zone: America/New_York
   - id: cal.1968-03-27.court
     when: Mar. 27
     date: '1968-03-27'

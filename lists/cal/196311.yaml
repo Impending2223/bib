@@ -840,24 +840,20 @@ entries:
     time_zone: America/New_York
     range_basis: kind
   - id: cal.1963-11-04.berlin-and-vienna
-    when: Nov. 4–5
+    when: Nov. 4
     date: '1963-11-04'
-    time: 1963-11-04T16:30Z
+    place: marienborn
     thread: berlin-and-vienna
     also: [soviet-union]
-    c: 'A small American convoy held on the autobahn over dismounting and lowering the tailgates.{1} Rusk calls in the Soviet chargé, Kornienko, 11:30 a.m., Nov. 4: the convoy within the limits for not dismounting, the procedures given the Soviet military Oct. 29.{2} Nov. 5, 6:10 p.m., Rusk to Dobrynin, who knows nothing of it; about then the Soviets let the convoy go, no one dismounting, no tailgate lowered.{3}'
-    n: '[FRUS 1961–63, XV, doc. 234](https://history.state.gov/historicaldocuments/frus1961-63v15/d234); [doc. 236](https://history.state.gov/historicaldocuments/frus1961-63v15/d236). [[w.rusk-as-i-saw-it-1990]], 227; [[w.sorensen-kennedy]], 600 (dismounting or lowering the tailgates to be counted); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 169 (the dismounting required of convoys from late October). Check: Rusk puts the harassment over the tailgates in September 1963 (227). The time is the first day''s. See [[cal.1963-10-10.berlin-and-vienna]]. Names: Rusk, Kornienko, Dobrynin.'
+    c: A small American convoy held on the autobahn at Marienborn over dismounting and lowering the tailgates.{1}
+    n: '[FRUS 1961–63, XV, doc. 234](https://history.state.gov/historicaldocuments/frus1961-63v15/d234) (n. 1: Bonn''s Flash, received in the Department at 5:02 a.m. Nov. 4, reports Convoy T–1 detained at Marienborn, the Soviets insisting that the men in the back of the trucks dismount); [doc. 236](https://history.state.gov/historicaldocuments/frus1961-63v15/d236). [[w.rusk-as-i-saw-it-1990]], 227; [[w.sorensen-kennedy]], 600 (dismounting or lowering the tailgates to be counted); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 169 (the dismounting required of convoys from late October). Check: Rusk puts the harassment over the tailgates in September 1963 (227). Split under R25b and R17: FRUS XV, doc. 234, gives Rusk''s talk with Kornienko its own hour (11:30 a.m. Nov. 4), and doc. 236 his talk with Dobrynin and the convoy''s release their own day and hour (6:10 p.m. Nov. 5, n. 1; n. 2); each is an entry of its own. See [[cal.1963-10-10.berlin-and-vienna]]. Check: the hour of the stop; the Flash reporting it reached the Department at 5:02 a.m. Nov. 4.'
     src:
-      c: 84370d07
       rows:
-        - 'https://history.state.gov/historicaldocuments/frus1961-63v15/d234: 1, 2'
-        - 'https://history.state.gov/historicaldocuments/frus1961-63v15/d236: 3'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v15/d234: 1'
         - 'w.rusk-as-i-saw-it-1990 227: 1'
         - 'via x.1984.rusk-interviews-with-richard-rusk: 1'
         - 'w.sorensen-kennedy 600: 1'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 169: 1'
-    tags: [name:rusk-dean, name:kornienko-georgi-m, name:dobrynin-anatoly]
-    time_zone: America/New_York
   - id: cal.1963-11-04.vietnam-3
     when: Nov. 4
     date: '1963-11-04'
@@ -1014,6 +1010,19 @@ entries:
       - 1963-11-04T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-11-04.berlin-and-vienna-2
+    when: Nov. 4
+    date: '1963-11-04'
+    time: 1963-11-04T16:30Z
+    place: washington
+    thread: berlin-and-vienna
+    also: [soviet-union]
+    follows:
+      - cal.1963-11-04.berlin-and-vienna
+    c: 'Rusk calls in the Soviet chargé, Kornienko, 11:30 a.m.: the convoy held over dismounting is within the limits for not dismounting; the tailgates of the vehicles are under the height the procedures set; the procedures were given the Soviet military Oct. 29. Kornienko: no information; the Soviet requirements unchanged. Rusk asks him to inform Moscow and Dobrynin.'
+    n: '[FRUS 1961–63, XV, doc. 234](https://history.state.gov/historicaldocuments/frus1961-63v15/d234) (the Department to Bonn, 1:47 p.m.: "at 11:30 am Washington time"). It follows the convoy''s detention, reported at 5:02 a.m. (n. 1). See [[cal.1963-11-04.berlin-and-vienna]]. Names: Rusk, Kornienko.'
+    tags: [name:rusk-dean, name:kornienko-georgi-m]
+    time_zone: America/New_York
   - id: cal.1963-11-05.states-and-cities
     when: Nov. 5
     date: '1963-11-05'
@@ -1335,6 +1344,28 @@ entries:
     c: Peking 北京. Zhu De 朱德 inspects the Dongbeiwang commune 东北旺人民公社 in the western suburbs.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1890. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1963-11-05.berlin-and-vienna
+    when: Nov. 5
+    date: '1963-11-05'
+    time: 1963-11-05T23:10Z
+    place: washington
+    thread: berlin-and-vienna
+    also: [soviet-union]
+    c: 'Rusk to Dobrynin, 6:10 p.m., after Dobrynin''s call on the Under Secretary about West Berlin and the test ban treaty: any reply to Rusk''s representations of Nov. 4? None; Dobrynin disclaims knowledge, and notes the convoy had sleeping bags and rations. Rusk: astonished, after the procedures passed to the Soviet military Oct. 29.'
+    n: '[FRUS 1961–63, XV, doc. 236](https://history.state.gov/historicaldocuments/frus1961-63v15/d236) (the Department to Bonn, 8:15 p.m.; n. 1: "The meeting with Dobrynin took place at 6:10 p.m."). See [[cal.1963-11-04.berlin-and-vienna]]. Names: Rusk, Dobrynin.'
+    tags: [name:rusk-dean, name:dobrynin-anatoly]
+    time_zone: America/New_York
+  - id: cal.1963-11-05.berlin-and-vienna-2
+    when: Nov. 5
+    date: '1963-11-05'
+    time: 1963-11-05T23:10Z
+    time_approx: true
+    place: marienborn
+    thread: berlin-and-vienna
+    also: [soviet-union]
+    c: The Soviets release the American convoy, no troops dismounting and no tailgate lowered, at about the hour of Rusk's meeting with Dobrynin. The Washington Ambassadorial Group agrees all the same that each of the three Western powers send the Soviet Union a protest note.
+    n: '[FRUS 1961–63, XV, doc. 236](https://history.state.gov/historicaldocuments/frus1961-63v15/d236), n. 2 ("At about the same time that Rusk and Dobrynin were meeting"; the protest notes). To check: Telegram 641 from Berlin, Nov. 6, 1963, Department of State, Central Files, POL 38–10 (cited by FRUS 1961–63, XV, doc. 236 n. 2). The hour is the note''s "about the same time," 6:10 p.m. Washington''s clock. See [[cal.1963-11-04.berlin-and-vienna]].'
+    time_zone: America/New_York
   - id: cal.1963-11-06.vietnam
     when: Nov. 6
     date: '1963-11-06'

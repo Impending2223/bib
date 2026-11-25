@@ -11,6 +11,11 @@ ops:
     name: Marshall, Tex.
     zone: America/Chicago
     st: TX
+- place-key:
+    key: chushul
+    name: Chushul
+    zone: Asia/Kolkata
+    in: india
 - edit:
     id: cal.1960-01.cuba-5
     base: d7e8a93e
@@ -38,7 +43,7 @@ ops:
 - add-words:
     id: cal.1960-05.cuba-2
     after: Castro designates José Miró Cardona Ambassador to the United States.
-    words: Castro never sets a date for his departure and never sees him after his return from Spain, the *Times* reports.
+    words: By a report of July 5, Castro never set a date for his departure and never saw him after his return from Spain.
     text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
 - edit:
     id: cal.1960-05.desegregation-schools
@@ -69,12 +74,12 @@ ops:
     id: cal.1960-06-22.south-asia
     base: a0509bbe
     set:
-      n: 'Paul Grimes, "U.S. Planes a Familiar Sight at Pakistan Base Linked to U-2," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day.'
+      n: 'Paul Grimes, "U.S. Planes a Familiar Sight at Pakistan Base Linked to U-2," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 6. Check: the day.'
 - edit:
     id: cal.1960-06-22.south-asia-2
     base: 97e7a62b
     set:
-      n: 'Paul Grimes, "U.S. Planes a Familiar Sight at Pakistan Base Linked to U-2," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day.'
+      n: 'Paul Grimes, "U.S. Planes a Familiar Sight at Pakistan Base Linked to U-2," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 6. Check: the day.'
 - place:
     id: cal.1960-06-22.south-asia-2
     at: peshawar
@@ -141,7 +146,7 @@ ops:
 - add-words:
     id: cal.1960-07-02.japan-4
     after: end
-    words: 'Its announced sole aim: the abandonment of the security pact.'
+    words: The Council's announced sole aim is the abandonment of the security pact, the *Times* reports.
     text: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html)'
 - edit:
     id: cal.1960-07-04.congo-3
@@ -162,7 +167,7 @@ ops:
     id: cal.1960-07-04.soviet-union-3
     base: a4b77b30
     set:
-      n: '"Shake-Up Reported in Outer Mongolia," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). The thread: Mongolia has none (nearest, the Soviet Union).'
+      n: '"Shake-Up Reported in Outer Mongolia," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the names, as the paper spells them (Tumur-Ochir, Balzhiniam, Zhagvaral, Maidar, Luvsorravdan).'
 - edit:
     id: cal.1960-07-05.africa
     base: 3fa97454
@@ -276,6 +281,19 @@ ops:
     base: 11d1d584
     set:
       n: '"Pauley Criticizes Butler on Tickets," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. Names: Kennedy.'
+      c: 'Edwin W. Pauley, Los Angeles oil man and a delegate: if Butler planned to fix the convention, he had tickets enough; his own vote undecided; Kennedy will have to win on the first ballot.'
+    kind: reword
+- add:
+    entry:
+      id: cal.1960-07-05.democratic-party-6
+      when: July 5
+      date: '1960-07-05'
+      place: los-angeles
+      thread: democratic-party
+      also: [elections-1960-los-angeles]
+      c: Butler, at Los Angeles, no comment on Pauley's statement on the convention tickets.
+      n: '"Pauley Criticizes Butler on Tickets," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. See [[cal.1960-07-05.democratic-party-2]].'
+      tags: [ok:name-untagged]
 - edit:
     id: cal.1960-07-05.democratic-party-3
     base: ea07fb5e
@@ -396,7 +414,9 @@ ops:
     id: cal.1960-07-05.elections-1960-nomination-8
     base: 9a1df05f
     set:
-      n: '"Di Salle Is Challenged," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18. Names: DiSalle, Kennedy, Truman.'
+      n: '"Di Salle Is Challenged," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18. The *Times* gives "among the riggers" as Brown''s words, not Truman''s. Names: DiSalle, Kennedy, Truman.'
+      c: 'John W. Brown, Republican State Representative, once Ohio''s interim Governor, accuses DiSalle of backing Kennedy for the promise of a Cabinet post; Truman, he says, recognizes DiSalle "among the riggers."'
+    kind: correct
 - edit:
     id: cal.1960-07-05.elections-1960-nomination-9
     base: '97378485'
@@ -406,7 +426,7 @@ ops:
     id: cal.1960-07-05.europe-and-the-alliance
     base: bbc95910
     set:
-      n: '"Lesage Becomes Premier of Quebec," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). The thread: Canada has none (a Canada thread proposed).'
+      n: '"Lesage Becomes Premier of Quebec," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html).'
 - edit:
     id: cal.1960-07-05.europe-and-the-alliance-federal-republic
     base: 8937cf6d
@@ -505,11 +525,30 @@ ops:
     base: a5d1ddfe
     set:
       n: 'Greg MacGregor, "Thai Rulers Honored in Parade," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 13. Names: Wagner.'
+      c: King Bhumibol and Queen Sirikit of Thailand in a twenty-minute parade up Broadway to City Hall, some 750,000 along the route by the police estimate; received by Mayor and Mrs. Wagner.
+    kind: correct
 - add-words:
     id: cal.1960-07-05.japan-and-korea-far-east
     after: received by Mayor and Mrs. Wagner.
     words: The parade ends at 12:25 p.m.
     text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- add:
+    entry:
+      id: cal.1960-07-05.japan-and-korea-far-east-5
+      when: July 5
+      date: '1960-07-05'
+      place: nyc
+      thread: japan-and-korea-far-east
+      follows: [cal.1960-07-05.japan-and-korea-far-east]
+      c: At a Waldorf-Astoria luncheon Wagner gives King Bhumibol the Medal of the City; the King gives the city a model of the royal barge, and the Mayor a cigarette case.
+      n: 'Greg MacGregor, "Thai Rulers Honored in Parade," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 13. After the parade, by the *Times*. See [[cal.1960-07-05.japan-and-korea-far-east]]. Names: Wagner.'
+      tags: [ok:name-untagged, name:wagner-robert-f-jr, state:ny, city:new-york]
+      time_range:
+        - 1960-07-05T16:00Z
+        - 1960-07-05T18:00Z
+      time_band: workday midday
+      time_zone: America/New_York
+      range_basis: record
 - edit:
     id: cal.1960-07-05.japan-and-korea-far-east-2
     base: cbe43832
@@ -564,6 +603,17 @@ ops:
     base: f7c9485e
     set:
       n: A. H. Raskin, "G.E. Estimates Union Demands Add Up to 500 Million in 2 Years," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html).
+      c: General Electric puts a $500,000,000 price on the I.U.E.'s contract demands over two years, "astronomic."
+    kind: reword
+- add:
+    entry:
+      id: cal.1960-07-05.labor-disputes-4
+      when: July 5
+      date: '1960-07-05'
+      place: washington
+      thread: labor-disputes
+      c: 'Al Hartnett, secretary-treasurer of the I.U.E., in Washington, answers General Electric: the demands "realistically geared"; no "crisis" bargaining; asks an early start on negotiations.'
+      n: 'A. H. Raskin, "G.E. Estimates Union Demands Add Up to 500 Million in 2 Years," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. See [[cal.1960-07-05.labor-disputes-3]].'
 - edit:
     id: cal.1960-07-05.latin-america
     base: e74ab306
@@ -617,6 +667,21 @@ ops:
     base: 0076335f
     set:
       n: '"Nehru Visits Border Area," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Nehru.'
+      c: Nehru flies by helicopter over the disputed Ladakh border near Chushul, Indian and Chinese troops under 400 yards apart.
+      place: chushul
+    kind: reword
+- add:
+    entry:
+      id: cal.1960-07-05.south-asia-5
+      when: July 5
+      date: '1960-07-05'
+      place: srinagar
+      thread: south-asia
+      also: [china]
+      follows: [cal.1960-07-05.south-asia-4]
+      c: 'Nehru, to political workers at Srinagar after the flight: "some territory of Ladakh is under foreign occupation."'
+      n: '"Nehru Visits Border Area," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). After the flight, by the *Times*. See [[cal.1960-07-05.south-asia-4]]. Names: Nehru.'
+      tags: [name:nehru-jawaharlal]
 - edit:
     id: cal.1960-07-05.soviet-union-2
     base: 75ce9a16
@@ -659,7 +724,7 @@ ops:
 - add-words:
     id: cal.1960-07-06.cuba-2
     after: 'Havana''s Law 851 the same day: American property may be nationalized.'
-    words: The eight-article law lets Castro and Dorticós nationalize American property by resolution, paying in thirty-year bonds at no more than 2 percent interest, from a dollar surplus on sugar bought above 3,000,000 tons at 5.75 cents or more.
+    words: The eight-article law, the Council of Ministers', lets Castro and Dorticós nationalize American property by resolution, paying in thirty-year bonds at no more than 2 percent, the interest due only if the United States buys at least 3,000,000 tons of Cuban sugar a year at 5.75 cents a pound or more.
     text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
 - names:
     id: cal.1960-07-06.cuba-2

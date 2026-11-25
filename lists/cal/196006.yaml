@@ -5042,16 +5042,16 @@ entries:
     date: '1960-06-29'
     thread: china-leadership
     also: [soviet-union]
-    c: 'The editorial "Hold High the Revolutionary Banner of the Moscow Declaration" in *Renmin ribao*.{1} Mao had finished revising it at Bengbu, 3 a.m., adding: the revolutionary people over 90 percent;{2} lasting peace only when imperialism and capitalism are gone, classes truly ended.{3}'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 29, 1960; [[w.zhou-enlai-nianpu-1949]], II, 327, June 27, 1960 (the editorial discussed at Mao''s that evening); [[w.jianguo-yilai-mao-zedong]], XV, 260–261 (June 29, 1960; Mao''s 毛泽东 additions to the draft of the editorial ''Hold High the Revolutionary Banner of the Moscow Declaration'' 《高举莫斯科宣言的马克思列宁主义革命旗帜》: the imperialist war camp and its running dogs a small handful; the revolutionary people over 90 percent; lasting peace only when imperialism and capitalism are ended and classes truly abolished; printed from the *Renmin ribao* 人民日报 of June 29, 1960, with Mao''s revised copy; the Wengao marks his added words in a different type, and gives no hour or place); [[w.peng-zhen-nianpu-1902]], IV, 42 (under June 27, 1960). Made public: 1997. Names: Mao Zedong.'
+    follows:
+      - cal.1960-06-29.china-leadership-8
+    c: The editorial "Hold High the Revolutionary Banner of the Moscow Declaration" in *Renmin ribao*.{1}
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 29, 1960; [[w.zhou-enlai-nianpu-1949]], II, 327, June 27, 1960; [[w.jianguo-yilai-mao-zedong]], XV, 260–261 (June 29, 1960; Mao''s 毛泽东 additions to the draft of the editorial ''Hold High the Revolutionary Banner of the Moscow Declaration'' 《高举莫斯科宣言的马克思列宁主义革命旗帜》: the imperialist war camp and its running dogs a small handful; the revolutionary people over 90 percent; lasting peace only when imperialism and capitalism are ended and classes truly abolished; printed from the *Renmin ribao* 人民日报 of June 29, 1960, with Mao''s revised copy; the Wengao marks his added words in a different type, and gives no hour or place); [[w.peng-zhen-nianpu-1902]], IV, 42 (under June 27, 1960). Split under R25b and R17: the Mao nianpu (IV, June 29, 1960) gives Mao''s finishing his revision of the draft its own hour and place (三时余, at Bengbu 蚌埠); it is an entry of its own, before the printing.'
     src:
-      c: 0b77bfa0
       rows:
-        - 'w.zedong-mao-zedong-nianpu IV, June 29, 1960: 1, 2, 3'
-        - 'w.zhou-enlai-nianpu-1949 II, 327, June 27, 1960: 2'
-        - 'w.jianguo-yilai-mao-zedong XV, 260–261: 1, 2, 3'
+        - 'w.zedong-mao-zedong-nianpu IV, June 29, 1960: 1'
+        - 'w.jianguo-yilai-mao-zedong XV, 260–261: 1'
         - 'w.peng-zhen-nianpu-1902 IV, 42: ?'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc@2.3]
+    tags: [polity:prc, vis:only:prc@2.3]
     variants:
       - unit: '1'
         witness: w.peng-zhen-nianpu-1902
@@ -5152,6 +5152,18 @@ entries:
     c: Truman telegraphs Governor Blair of Missouri he will not attend the convention and resigns as a delegate.
     n: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18 ("Truman Reported Going to Party''s Convention": "last Wednesday"). Names: Truman.'
     tags: [ok:fields-place, ok:name-untagged, name:truman-harry-s, state:mo]
+  - id: cal.1960-06-29.china-leadership-8
+    when: June 29
+    date: '1960-06-29'
+    time: 1960-06-28T19:00Z
+    time_approx: true
+    place: bengbu
+    thread: china-leadership
+    also: [soviet-union]
+    c: 'Mao Zedong 毛泽东, arrived at Bengbu 蚌埠 at 3 a.m., finishes revising the draft of the *Renmin ribao* 人民日报 editorial a little after three, adding: the revolutionary people over 90 percent; lasting peace only when imperialism and capitalism are gone, classes truly ended.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 29, 1960 (晨三时到达安徽蚌埠。三时余，对《人民日报》社论稿《高举莫斯科宣言的马克思列宁主义革命旗帜》审阅修改完毕; his additions, "革命人民有百分之九十以上" and, after "帝国主义制度", "和资本主义制度，真正消灭了阶级"). [[w.jianguo-yilai-mao-zedong]], XV, 260–261 (June 29, 1960; Mao''s 毛泽东 additions to the draft of the editorial ‘Hold High the Revolutionary Banner of the Moscow Declaration’ 《高举莫斯科宣言的马克思列宁主义革命旗帜》, the words marked in a different type; printed from the *Renmin ribao* 人民日报 of June 29, 1960, with Mao''s revised copy; no hour or place). To check: [[w.zhou-enlai-nianpu-1949]], II, 327, June 27, 1960 (the editorial discussed at Mao''s that evening). Made public: 1997. See [[cal.1960-06-29.china-leadership]]. Names: Mao Zedong.'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc@2.3]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-30.congo
     when: June 30
     date: '1960-06-30'

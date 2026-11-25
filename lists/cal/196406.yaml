@@ -3494,20 +3494,19 @@ entries:
     time_zone: Europe/Zurich
     range_basis: kind
   - id: cal.1964-06-10.cyprus
-    when: June 10–11
+    when: June 10
     date: '1964-06-10'
-    time: 1964-06-10T23:00Z
-    time_approx: true
+    time: 1964-06-10T17:00Z
+    place: athens
     thread: cyprus
-    c: 'Athens, then Ankara.{1} Papandreou to Ball, by Ball''s account: the time not ripe; a solution by enosis; he will not talk with İnönü, but will visit Johnson; Makarios a nuisance, to be left out. Ankara, about 2 a.m.: Hare. Erkin at 9; then İnönü, hurt by Johnson''s letter, its "juridical thunderbolts": the Foreign Office will have to answer them.{2}'
-    n: 'FRUS 1964–68, XVI, [doc. 64](https://history.state.gov/historicaldocuments/frus1964-68v16/d64), n. 2 (the visits, June 10–11). [[w.ball-past-has-another-pattern]], 352–54. The time is the arrival at Ankara, "about two in the morning" of June 11 (353); Ball gives the Athens talk no hour. Names: Papandreou, Ball, İnönü, Johnson, Makarios III, Hare, Erkin.'
+    c: 'Athens.{1} Papandreou to Ball at seven, by Ball''s account: the time not ripe; a solution by enosis; he will not talk with İnönü, but will visit Johnson; Makarios a nuisance, to be left out.{2}'
+    n: 'FRUS 1964–68, XVI, [doc. 64](https://history.state.gov/historicaldocuments/frus1964-68v16/d64), n. 2 (the visits, June 10–11). [[w.ball-past-has-another-pattern]], 352–54. The time is Ball''s: "at seven" (352), Athens'' clock. Split under R25b and R17: Ball, 353–54, gives his arrival at Ankara its own day and hour ("about two in the morning"), his talk with Erkin its own ("at 9:00 a.m."), and the talk with İnönü its own place in the morning, after Erkin and before his take-off at 12:30; each is an entry of June 11. Names: Papandreou, Ball, İnönü, Johnson, Makarios III.'
     src:
-      c: d186e82c
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v16/d64: 1'
         - 'w.ball-past-has-another-pattern 352–54: 1, 2'
-    tags: [name:papandreou-george, name:ball-george-w, name:inonu-ismet, name:johnson-lyndon-b, name:makarios-iii, name:hare-raymond-a, name:erkin-feridun-c]
-    time_zone: Europe/Istanbul
+    tags: [name:papandreou-george, name:ball-george-w, name:inonu-ismet, name:johnson-lyndon-b, name:makarios-iii]
+    time_zone: Europe/Athens
   - id: cal.1964-06-10.vietnam-force-levels
     when: June 10
     date: '1964-06-10'
@@ -4440,6 +4439,44 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 383: all'
     tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
+  - id: cal.1964-06-11.cyprus-2
+    when: June 11
+    date: '1964-06-11'
+    time: 1964-06-10T23:00Z
+    time_approx: true
+    place: ankara
+    thread: cyprus
+    c: 'Ankara, about 2 a.m.: Ball, in from Athens, is briefed by Ambassador Hare before bed. A high Turkish official: a bitter pill was perhaps needed, but not a bitter coating as well.'
+    n: '[[w.ball-past-has-another-pattern]], 353 ("arrived in Ankara about two in the morning"; Hare''s briefing "Before going to bed"). It follows the talk at Athens at seven (352). See [[cal.1964-06-10.cyprus]]. Names: Ball, Hare.'
+    tags: [name:ball-george-w, name:hare-raymond-a]
+    time_zone: Europe/Istanbul
+  - id: cal.1964-06-11.cyprus-3
+    when: June 11
+    date: '1964-06-11'
+    time: 1964-06-11T06:00Z
+    place: ankara
+    thread: cyprus
+    follows:
+      - cal.1964-06-11.cyprus-2
+    c: 'Ankara. Ball with Foreign Minister Erkin, 9 a.m.: the Turkish government''s view of the President''s letter; Ball keeps his arguments for İnönü.'
+    n: '[[w.ball-past-has-another-pattern]], 354 ("at 9:00 a.m."). See [[cal.1964-06-10.cyprus]]. Names: Ball, Erkin.'
+    tags: [name:ball-george-w, name:erkin-feridun-c]
+    time_zone: Europe/Istanbul
+  - id: cal.1964-06-11.cyprus-4
+    when: June 11
+    date: '1964-06-11'
+    place: ankara
+    thread: cyprus
+    follows:
+      - cal.1964-06-11.cyprus-3
+    c: 'Ankara. Ball with İnönü, after Erkin: İnönü, hurt by Johnson''s letter, receives him correctly; Ball tells him of the Papandreou talk, and that Makarios need not be in any negotiations; İnönü: "the first rays of light." Aside, the letter held "all the juridical thunderbolts"; the Foreign Office will have to answer them.'
+    n: '[[w.ball-past-has-another-pattern]], 354 (the talk after the meeting with Erkin; "I was airborne again at 12:30"). FRUS 1964–68, XVI, [doc. 64](https://history.state.gov/historicaldocuments/frus1964-68v16/d64) (Ball to Johnson, June 11: in Ankara, İnönü maneuvering the United States into responsibility for a settlement). The range is Ball''s: after 9 a.m., before 12:30 p.m., Ankara''s clock. See [[cal.1964-06-10.cyprus]]. Names: Ball, İnönü, Johnson, Papandreou, Makarios III.'
+    tags: [name:ball-george-w, name:inonu-ismet, name:johnson-lyndon-b, name:papandreou-george, name:makarios-iii]
+    time_zone: Europe/Istanbul
+    time_range:
+      - 1964-06-11T06:00Z
+      - 1964-06-11T09:30Z
+    range_basis: record
   - id: cal.1964-06-12.elections-1964
     when: June 12
     date: '1964-06-12'
@@ -7374,20 +7411,16 @@ entries:
     when: June 21
     date: '1964-06-21'
     thread: mississippi
-    c: Chaney, Goodman and Schwerner, of CORE's Meridian project, missing in Neshoba County after a visit to the burned Mount Zion church at Longdale. Deputy Sheriff Price had held them in the Philadelphia jail; released after 10 p.m. June 21, their burned station wagon found near the Bogue Chitto June 23; Johnson sees Goodman's and Schwerner's parents and sends Dulles to Mississippi. Check the last.
-    n: 'The President''s News Conference, [1963–64 Pub. Papers 802](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=886) (June 23, 1964). *United States v. Price*, [383 U.S. 787](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383787/usrep383787.pdf) (1966). [[w.dittmer-local-people]], 246–51 (247: Price, the jail, the release at about 10:30; 250: the President on the telephone to Eastland and Governor Johnson, Dulles to Jackson; not the station wagon''s day); [[w.branch-pillar-of-fire]], 361–64; [[w.taking-charge]], 425; [[w.taking-charge]], 431–39. The Court''s opinion has Price detain the three June 21 and release them "in the dark of that night" (383 U.S. at 790); Dittmer, 247, the same, the release "about 10:30 that night"; the June 23 the line set beside the release is kept with the station wagon. The time is the arrest, "shortly after 3:00 P.M." (Dittmer, 247), Mississippi''s clock in 1964, daylight or standard, in doubt: the range covers both. To check: [[w.taking-charge-2001]]; [[w.mars-witness-in-philadelphia]]; [[w.cagin-we-are-not-afraid]]; [[w.gage-g-man]]; President''s Daily Diary, June 23, 1964 ([National Archives Catalog](https://catalog.archives.gov/id/192440)) (cited by [[w.dittmer-local-people]], 250 n.16). See [[cal.1964-06-14.mississippi]]. Names: Chaney, Goodman, Schwerner, Price, Johnson, Dulles. Check: the station wagon''s day, June 23 (no source read gives it).'
+    c: Chaney, Goodman and Schwerner, of CORE's Meridian project, missing in Neshoba County after a visit to the burned Mount Zion church at Longdale.{1} Deputy Sheriff Price arrests them on the outskirts of Philadelphia and holds them in the jail.{2}
+    n: 'The President''s News Conference, [1963–64 Pub. Papers 802](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=886) (June 23, 1964). *United States v. Price*, [383 U.S. 787](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383787/usrep383787.pdf) (1966). [[w.dittmer-local-people]], 246–51 (247: the arrest, the jail, the release at about 10:30); [[w.branch-pillar-of-fire]], 361–64; [[w.taking-charge]], 425. The Court''s opinion has Price detain the three June 21 and release them "in the dark of that night" (383 U.S. at 790); Dittmer, 247, the same, the release "about 10:30 that night". The time is the arrest, "shortly after 3:00 P.M." (Dittmer, 247), Mississippi''s clock in 1964, daylight or standard, in doubt: the range covers both. To check: [[w.taking-charge-2001]]; [[w.mars-witness-in-philadelphia]]; [[w.cagin-we-are-not-afraid]]; [[w.gage-g-man]]; President''s Daily Diary, June 23, 1964 ([National Archives Catalog](https://catalog.archives.gov/id/192440)) (cited by [[w.dittmer-local-people]], 250 n.16). Split under R25b and R17: Dittmer, 247, gives the release its own hour ("about 10:30 that night"), and Branch, *Pillar of Fire*, 366–67, the finding of the station wagon its own day (Tuesday, June 23, hours before Hoover''s call of 4:05 p.m.); each is an entry of its own. Hoover''s call, the parents'' visit and the sending of Dulles are entries of June 23 already. See [[cal.1964-06-14.mississippi]]. Names: Chaney, Goodman, Schwerner, Price.'
     src:
-      c: dd2b7065
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=886: all'
         - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383787/usrep383787.pdf: all'
-        - 'w.dittmer-local-people 247: A-C'
-        - 'w.dittmer-local-people 250: E'
-        - 'via w.dittmer-local-people 250 n.16: E'
-        - 'w.branch-pillar-of-fire 361–64: A-D'
-        - 'w.taking-charge 425: A'
-        - 'w.taking-charge 431–39: E'
-    tags: [name:chaney-james-e, name:goodman-andrew, name:schwerner-michael, name:price-cecil-r, name:johnson-lyndon-b, name:dulles-allen-w]
+        - 'w.dittmer-local-people 247: 1, 2'
+        - 'w.branch-pillar-of-fire 361–64: 1, 2'
+        - 'w.taking-charge 425: 1'
+    tags: [name:chaney-james-e, name:goodman-andrew, name:schwerner-michael, name:price-cecil-r]
     short: Chaney, Goodman, Schwerner
     time_range:
       - 1964-06-21T20:00Z
@@ -7580,6 +7613,21 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1817: all'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc, name:yang-shangkun]
+  - id: cal.1964-06-21.mississippi-4
+    when: June 21
+    date: '1964-06-21'
+    place: neshoba-county
+    thread: mississippi
+    follows:
+      - cal.1964-06-21.mississippi
+    c: Price releases Chaney, Goodman and Schwerner from the Philadelphia jail after 10 p.m., about 10:30; he stops them again ten miles south of the town.
+    n: '[[w.dittmer-local-people]], 247 ("their release at about 10:30 that night, only to be stopped again ten miles south of town by Deputy Price"). *United States v. Price*, [383 U.S. 787](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383787/usrep383787.pdf) (1966), at 790 (released "in the dark of that night"). It follows the arrest and the jail (Dittmer, 247). The hour is Dittmer''s, in Mississippi''s clock for 1964, daylight or standard in doubt: the range covers both. See [[cal.1964-06-21.mississippi]]. Names: Chaney, Goodman, Schwerner, Price.'
+    tags: [name:chaney-james-e, name:goodman-andrew, name:schwerner-michael, name:price-cecil-r]
+    time_zone: America/Chicago
+    time_range:
+      - 1964-06-22T03:30Z
+      - 1964-06-22T04:30Z
+    range_basis: record
   - id: cal.1964-06-22.court
     when: June 22
     date: '1964-06-22'
@@ -8546,6 +8594,14 @@ entries:
     c: The Peking Room of the Great Hall of the People 人民大会堂北京厅, Peking 北京. Zhu De 朱德 at the small meeting Mao Zedong 毛泽东 calls.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1911. Made public: 2016. Names: Zhu De, Mao Zedong.'
     tags: [polity:prc, name:zhu-de, name:mao-zedong, vis:only:prc]
+  - id: cal.1964-06-23.mississippi-16
+    when: June 23
+    date: '1964-06-23'
+    place: neshoba-county
+    thread: mississippi
+    c: 'Their burned station wagon found in a thicket near the Bogue Chitto bridge outside Philadelphia, by Choctaw Indians; FBI agent Proctor identifies it by the license tag. The agent sends word to the FBI by coded message: car found, no bodies.'
+    n: '[[w.branch-pillar-of-fire]], 366–67 (Proctor''s find "hours earlier" than Hoover''s call of 4:05 p.m., Tuesday; the burned Ford Fairlane, its license tag the CORE station wagon''s; the coded message through New Orleans). See [[cal.1964-06-21.mississippi]]. Check: the hour of the find; Branch gives none.'
+    tags: [state:ms, ok:fields-time]
   - id: cal.1964-06-24.opinion
     when: June 24
     date: '1964-06-24'

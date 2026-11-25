@@ -3757,10 +3757,13 @@ entries:
   - id: cal.1968-01-24.china-leadership
     when: Jan. 24
     date: '1968-01-24'
+    place: peking
     thread: china-leadership
     also: [india-and-china-cultural-revolution]
-    c: Zhou Enlai receives the whole Hunan study class and the members of the Hunan preparatory group and repeats that the ultra-left trend of the Hunan "Sheng Wulian" is to be criticized. At midnight on the 26th he talks with the members of the Hunan preparatory group.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 210 (Jan. 24, 1968); [[w.yang-jisheng-tiandi-fanfu]], II, 962 (Kang Sheng, Zhou Enlai, Chen Boda, Jiang Qing, Yao Wenyuan and others, receiving the Hunan factions and the preparatory group, condemn "Whither China?"; Kang Sheng: no middle-school or university student could write it, there is a black hand behind it). Made public: 2020. Names: Zhou Enlai.'
+    c: Zhou Enlai receives the whole Hunan study class and the members of the Hunan preparatory group and repeats that the ultra-left trend of the Hunan "Sheng Wulian" is to be criticized.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 210 (Jan. 24, 1968); [[w.yang-jisheng-tiandi-fanfu]], II, 962 (Kang Sheng, Zhou Enlai, Chen Boda, Jiang Qing, Yao Wenyuan and others, receiving the Hunan factions and the preparatory group, condemn "Whither China?"; Kang Sheng: no middle-school or university student could write it, there is a black hand behind it). Made public: 2020. Split under R25b and R17: the chronology (III, 210, under Jan. 24) gives the talk with the preparatory group''s members its own day and hour (二十六日晚十二时); it is an entry of its own. Names: Zhou Enlai.'
+    src:
+      rows: []
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1968-01-24.china-leadership-2
     when: Jan. 24
@@ -4209,6 +4212,17 @@ entries:
     c: Peng Dehuai 彭德怀 is interrogated from 6:30 p.m. to 3 a.m. on the 27th, nine hours, one of the longer sessions.
     n: '[[w.peng-dehuai-nianpu]], 816. The words: 晚6点半 (6:30 p.m.); 27日晨3点 (3 a.m. on the 27th) (816). Made public: 1998. Names: Peng Dehuai.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai]
+    time_zone: Asia/Shanghai
+  - id: cal.1968-01-26.china-leadership-5
+    when: Jan. 26
+    date: '1968-01-26'
+    time: 1968-01-26T16:00Z
+    place: peking
+    thread: china-leadership
+    also: [india-and-china-cultural-revolution]
+    c: Zhou Enlai talks with the members of the Hunan preparatory group at twelve at night on the 26th.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 210–211 (under Jan. 24, 1968: 二十六日晚十二时，与湖南省革筹小组成员谈话). Made public: 2020. See [[cal.1968-01-24.china-leadership]]. Names: Zhou Enlai. Check: the hour: 晚十二时 is twelve o''clock at night, taken as the midnight that ends the 26th.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1968-01-27.civil-disorders
     when: Jan. 27
@@ -8200,3 +8214,12 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 112: all'
     tags: [polity:prc, vis:only:prc, name:deng-tuo]
+  - id: cal.1968-01-31.vietnam-tet-18
+    when: Jan. 31
+    date: '1968-01-31'
+    time: 1968-01-30T18:30Z
+    time_approx: true
+    thread: vietnam-tet
+    c: IV Corps. The offensive opens at about 2:30 a.m.; in the first 48 hours 13 of the 16 province capitals struck.
+    n: '[[w.macv-command-history-1968]], 397 ("launched at approximately 0230 on 31 January"; "13 of the 16 province capitals"). The hour is MACV''s, Saigon''s clock. See [[cal.1968-02-05.vietnam-tet-3]].'
+    time_zone: Asia/Ho_Chi_Minh

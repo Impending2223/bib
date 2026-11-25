@@ -1,14 +1,9 @@
 patch: 2026-11-25-nyt-cleanup-c2
-by: Claude (cleanup of the Times entries, R26a, second run), Nov. 25, 2026
+by: Claude (cleanup of the Times entries, R26a, second run), Nov. 25, 2026; audited and corrected, Nov. 25, 2026 (notes/nyt/audit-cleanup-c2.md)
 ops:
 - place-key:
     key: kaprun
     name: Kaprun
-    zone: Europe/Vienna
-    in: austria
-- place-key:
-    key: villach
-    name: Villach
     zone: Europe/Vienna
     in: austria
 - edit:
@@ -24,55 +19,106 @@ ops:
 - edit:
     id: cal.1960-07-05.cuba-2
     base: 8fa10630
+    kind: correct
     set:
-      n: 'William J. Jorden, "U.S. Files Protest on Cuban Seizure of Oil Refineries," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 2. Law: [[cal.1960-07-06.cuba-2]]. Names: Dillon.'
-- add-words:
-    id: cal.1960-07-05.cuba-2
-    after: Agriculture halts new imports of Cuban sugar pending the President's action under the new act.
-    words: A White House spokesman says the President has delayed signing the bill pending a review by the departments. Cuba's quota for the year is 3,119,655 tons, about 740,000 not yet received, the *Times* reports.
-    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+      c: Agriculture halts new imports of Cuban sugar pending the President's action under the new act.
+      n: 'William J. Jorden, "U.S. Files Protest on Cuban Seizure of Oil Refineries," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 2. Split under R17: the White House''s word on the signing and the State Department''s announcement of the Advisory Committee''s meeting, in the same story, are entries of their own. Law: [[cal.1960-07-06.cuba-2]].'
+    unset:
+    - tags
 - add-words:
     id: cal.1960-07-05.cuba-2
     after: end
-    words: 'Herter is on vacation. The public members: Walter J. Donnelly, Milton S. Eisenhower, George K. Holland, O. A. Knight, Charles A. Meyer, Dana Gardner Munro.'
+    words: Cuba's quota for the year is 3,119,655 tons, about 740,000 not yet received, the *Times* reports.
     text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
-- names:
-    id: cal.1960-07-05.cuba-2
-    add:
-    - Herter
-    - Donnelly
-    - Milton Eisenhower
-    - Meyer
-    tags:
-    - name:herter-christian-a
-    - name:donnelly-walter-j
-    - name:eisenhower-milton-s
-    - name:meyer-charles-a
+- add:
+    entry:
+      id: cal.1960-07-05.cuba-8
+      when: July 5
+      date: '1960-07-05'
+      place: washington
+      thread: cuba
+      c: A White House spokesman says the President has delayed signing the sugar bill, passed over the week-end, pending a review by the departments concerned.
+      n: 'William J. Jorden, "U.S. Files Protest on Cuban Seizure of Oil Refineries," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 2. See [[cal.1960-07-05.cuba-2]].'
+      tags:
+      - name:eisenhower-dwight-d
+- add:
+    entry:
+      id: cal.1960-07-05.cuba-9
+      when: July 5
+      date: '1960-07-05'
+      place: washington
+      thread: cuba
+      c: 'The State Department announces the National Advisory Committee on Inter-American Affairs to meet July 6 and 7, Dillon presiding, Herter on vacation; Cuba to head the agenda, informed sources say. The public members: Walter J. Donnelly, Milton S. Eisenhower, George K. Holland, O. A. Knight, Charles A. Meyer, Dana Gardner Munro.'
+      n: 'William J. Jorden, "U.S. Files Protest on Cuban Seizure of Oil Refineries," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 2. See [[cal.1960-07-05.cuba-2]]. Names: Dillon, Herter, Donnelly, Milton Eisenhower, Meyer.'
+      tags:
+      - name:dillon-c-douglas
+      - name:herter-christian-a
+      - name:donnelly-walter-j
+      - name:eisenhower-milton-s
+      - name:meyer-charles-a
 - edit:
     id: cal.1960-07-05.elections-1960-los-angeles
     base: ce8ddec1
     set:
-      n: 'Leo Egan, "Democrats Hear Ideas for Planks," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. W. H. Lawrence, "Democratic Hopefuls Face Early Test on Voting Rule," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 20 (the four days of hearings; the debate on Social Security). Names: Bowles, Annis, Butler.'
+      n: 'Leo Egan, "Democrats Hear Ideas for Planks," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. W. H. Lawrence, "Democratic Hopefuls Face Early Test on Voting Rule," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1 (the four days of hearings; the debate on Social Security; Butler''s prediction). Names: Bowles, Annis, Butler.'
 - add-words:
     id: cal.1960-07-05.elections-1960-los-angeles
     after: end
-    words: 'Other witnesses: Bishop Gerald H. Kennedy for the National Council of Churches; Cecil E. Burney of Corpus Christi, Tex., for the American Bar Association. Butler tells reporters the fourteen-member arrangements committee chose the officials; only Bowles has declared publicly for a candidate.'
+    words: 'Other witnesses: Bishop Gerald H. Kennedy of the Methodist Church for the National Council of Churches; Cecil E. Burney of Corpus Christi, Tex., for the American Bar Association. Nearly ninety are to appear. Butler predicts a platform without a major floor fight.'
     text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- add:
+    entry:
+      id: cal.1960-07-05.elections-1960-los-angeles-7
+      when: July 5
+      date: '1960-07-05'
+      place: los-angeles
+      thread: elections-1960-los-angeles
+      also:
+      - democratic-party
+      follows:
+      - cal.1960-07-05.elections-1960-los-angeles
+      c: 'Butler, to reporters after his appearance before the Platform Committee, answering Johnson''s complaint: no candidate consulted on the convention''s officials, chosen by the fourteen-member committee on arrangements, he one member, from nineteen possibilities; of those chosen only Bowles has declared for a candidate.'
+      n: 'Leo Egan, "Democrats Hear Ideas for Planks," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. The order: after his appearance before the committee. Check: whether this is the news conference of [[cal.1960-07-05.democratic-party]]. Names: Butler, Johnson, Bowles.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:bowles-chester
+      - ok:name-untagged
 - edit:
     id: cal.1960-07-05.elections-1960-nomination
     base: 8ec14eb4
+    kind: correct
     set:
-      n: '"Wagner Denies State Delegation Is Rigged to Favor Kennedy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). See [[cal.1960-07-02.elections-1960-2]]. Names: Wagner, Truman, Stevenson.'
-- add-words:
-    id: cal.1960-07-05.elections-1960-nomination
-    after: Some thirty for Stevenson picket City Hall.
-    words: Ira Lesser leads them.
-    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+      c: 'Wagner, chairman of the New York delegation, at a City Hall news conference: the delegation not rigged, no unit rule; he would "like to see young men get a chance."'
+      n: '"Wagner Denies State Delegation Is Rigged to Favor Kennedy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Split under R17: the Stevenson pickets at City Hall, in the same story, are an entry of their own. The order: the pickets came first. See [[cal.1960-07-02.elections-1960-2]]. Names: Wagner, Truman, Stevenson.'
 - add-words:
     id: cal.1960-07-05.elections-1960-nomination
     after: end
-    words: Asked about Truman's charge of a rigged convention, Wagner says Truman has "every right" to his opinion. More than 100 of the delegation's 114 votes are indicated for Kennedy, the *Times* reports.
+    words: 'Asked about Truman''s charge of a rigged convention, Wagner says Truman has "every right" to his opinion. Too busy to visit the Stevenson headquarters; Stevenson "an old and good friend." More than 100 of the delegation''s 114 votes are indicated for Kennedy, the *Times* reports.'
     text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- names:
+    id: cal.1960-07-05.elections-1960-nomination
+    add:
+    - Kennedy
+    tags:
+    - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1960-07-05.elections-1960-nomination-12
+      when: July 5
+      date: '1960-07-05'
+      place: nyc
+      thread: elections-1960-nomination
+      c: Some thirty of the Stevenson-for-President Committee, led by Ira Lesser, picket City Hall to press Wagner to support Stevenson.
+      n: '"Wagner Denies State Delegation Is Rigged to Favor Kennedy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). See [[cal.1960-07-05.elections-1960-nomination]]. Names: Wagner, Stevenson.'
+      tags:
+      - name:wagner-robert-f-jr
+      - name:stevenson-adlai-e
+      - state:ny
+      - city:new-york
+- follows:
+    id: cal.1960-07-05.elections-1960-nomination
+    add:
+    - cal.1960-07-05.elections-1960-nomination-12
 - edit:
     id: cal.1960-07-05.soviet-union
     base: 9d8b72ef
@@ -81,7 +127,7 @@ ops:
 - add-words:
     id: cal.1960-07-05.soviet-union
     after: end
-    words: 'Furtseva, the Minister of Culture, is with him. He calls communism his "elixir of life."'
+    words: 'He praises the dam''s engineers, builders and workmen. Furtseva, the Minister of Culture, is with him. He calls communism his "elixir of life." Kaprun was largely financed with United States aid funds, the *Times* reports.'
     text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
 - names:
     id: cal.1960-07-05.soviet-union
@@ -91,6 +137,6 @@ ops:
     - name:furtseva-yekaterina-a
 - place:
     id: cal.1960-07-05.soviet-union
-    at: [kaprun, villach]
+    at: kaprun
     basis: c
-    note: the remark at Kaprun, the convoy's end at Villach, the dateline (R26a)
+    note: the remark at the Kaprun dam; the item places it there, not at the dateline (R26a); the day's first stop (P5)

@@ -1794,13 +1794,12 @@ entries:
     date: '1967-03-10'
     place: war-zone-c
     thread: vietnam-operations
-    c: Junction City. A night mortar and ground attack on the 2d Battalion, 2d Infantry;{1} three Americans killed, 38 wounded, 197 of the enemy found dead the next morning. Phase I ends at midnight Mar. 17; Phase II, in eastern War Zone C, from 12:01 a.m.{2} Mar. 18.{3}
-    n: '[[w.macv-command-history-1967]], 388; [[w.cosmas-joint-chiefs-of-staff]], 33–34 (the night assault on a battalion of the 3rd Brigade; the second phase from Mar. 18). See [[cal.1967-02-22.vietnam]].'
+    c: Junction City. A night mortar and ground attack on the 2d Battalion, 2d Infantry;{1} three Americans killed, 38 wounded, 197 of the enemy found dead the next morning.{2}
+    n: '[[w.macv-command-history-1967]], 388; [[w.cosmas-joint-chiefs-of-staff]], 33–34 (the night assault on a battalion of the 3rd Brigade; the second phase from Mar. 18). Split under R17: MACV, 388, gives the start of Phase II its own day and hour ("180001H March"); it is an entry of its own. See [[cal.1967-02-22.vietnam]].'
     src:
-      c: a367e598
       rows:
-        - 'w.macv-command-history-1967 388: 1, 2, 3'
-        - 'w.cosmas-joint-chiefs-of-staff 33–34: 1, 3'
+        - 'w.macv-command-history-1967 388: 1, 2'
+        - 'w.cosmas-joint-chiefs-of-staff 33–34: 1'
     tags: [province:tay-ninh, place:war-zone-c]
     time_range:
       - 1967-03-10T14:00Z
@@ -2163,10 +2162,18 @@ entries:
     date: '1967-03-12'
     place: jakarta
     thread: indonesia
-    c: 'Djakarta. The Provisional People''s Consultative Assembly (MPRS) withdraws Sukarno''s mandate by acclamation; Suharto sworn as Acting President at 10:45 p.m. Green, Mar. 15: all effective power formally removed from Sukarno.'
-    n: 'FRUS 1964–68, XXVI, docs. [232](https://history.state.gov/historicaldocuments/frus1964-68v26/d232), [233](https://history.state.gov/historicaldocuments/frus1964-68v26/d233). To check: [[w.simpson-economists-with-guns]]. See [[cal.1966-03-11.india-and-china]]. Names: Sukarno, Suharto, Green.'
-    tags: [name:sukarno, name:suharto, name:green-marshall]
+    c: Djakarta. The Provisional People's Consultative Assembly (MPRS) withdraws Sukarno's mandate by acclamation.
+    n: '[FRUS 1964–68, XXVI, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v26/d233), n. 2 (the Assembly "accepted by acclamation that afternoon a decree withdrawing Sukarno''s mandate"). To check: telegram 4239 from Djakarta, Mar. 13, 1967 (cited by FRUS 1964–68, XXVI, doc. 233 n. 2). [Doc. 232](https://history.state.gov/historicaldocuments/frus1964-68v26/d232) (McNamara to Johnson, Mar. 1) is of the month before. To check: [[w.simpson-economists-with-guns]]. Split under R25b and R17: FRUS XXVI, doc. 233 n. 2, gives Suharto''s swearing-in its own hour (10:45 p.m.), and doc. 233 Green''s cable its own day (Mar. 15); each is an entry of its own. See [[cal.1966-03-11.india-and-china]]. Names: Sukarno.'
+    src:
+      rows: []
+    tags: [name:sukarno]
     short: Sukarno's mandate withdrawn, Suharto Acting President
+    time_range:
+      - 1967-03-12T05:00Z
+      - 1967-03-12T11:00Z
+    time_band: afternoon
+    time_zone: Asia/Jakarta
+    range_basis: record
   - id: cal.1967-03-12.opinion
     when: Mar. 12
     date: '1967-03-12'
@@ -2219,6 +2226,18 @@ entries:
     c: Ye Jianying 叶剑英 presides at the Military Commission's 军委 sixty-first standing meeting, on the posts of cadres of several large military regions.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 962. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, name:ye-jianying, vis:only:prc, ok:fields-place]
+  - id: cal.1967-03-12.indonesia
+    when: Mar. 12
+    date: '1967-03-12'
+    time: 1967-03-12T15:45Z
+    place: jakarta
+    thread: indonesia
+    follows:
+      - cal.1967-03-12.india-and-china
+    c: Djakarta. Suharto is sworn in as Acting President, 10:45 p.m., after the Assembly's decree withdrawing Sukarno's mandate.
+    n: '[FRUS 1964–68, XXVI, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v26/d233), n. 2 ("sworn in as Acting President at 10:45 p.m. on March 12"). To check: telegram 4239 from Djakarta, Mar. 13, 1967 (cited by FRUS 1964–68, XXVI, doc. 233 n. 2). It follows the Assembly''s decree of the afternoon (n. 2). See [[cal.1967-03-12.india-and-china]]. Names: Suharto, Sukarno.'
+    tags: [name:suharto, name:sukarno]
+    time_zone: Asia/Jakarta
   - id: cal.1967-03-13.latin-america
     when: Mar. 13
     date: '1967-03-13'
@@ -2874,6 +2893,16 @@ entries:
         - 'w.chang-friends-and-enemies 277: all'
         - 'via x.1967-03-15.denny-to-rusk: all'
     tags: [polity:us, vis:only:us, name:rusk-dean, ok:fields-place]
+  - id: cal.1967-03-15.indonesia
+    when: Mar. 15
+    date: '1967-03-15'
+    time: 1967-03-15T11:05Z
+    place: jakarta
+    thread: indonesia
+    c: 'Green, from Djakarta: the MPRS session just concluded a probable turning point; all effective power formally removed from Sukarno; Suharto showed dedication to democratic means and skill in gaining consensus. Elections scheduled for mid-1968.'
+    n: '[FRUS 1964–68, XXVI, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v26/d233) (Djakarta to the Department, Mar. 15, 1105Z, no. 4287, "Post-MPRS Political Situation"). See [[cal.1967-03-12.india-and-china]]. Names: Green, Sukarno, Suharto.'
+    tags: [name:green-marshall, name:sukarno, name:suharto]
+    time_zone: Asia/Jakarta
   - id: cal.1967-03-16.soviet-union
     when: Mar. 16
     date: '1967-03-16'
@@ -3528,6 +3557,16 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 254: all'
     tags: [polity:prc, ok:fields-place]
+  - id: cal.1967-03-18.vietnam-operations-2
+    when: Mar. 18
+    date: '1967-03-18'
+    time: 1967-03-17T16:01Z
+    place: war-zone-c
+    thread: vietnam-operations
+    c: Junction City. Phase I ends at midnight Mar. 17; Phase II, in eastern War Zone C, from 12:01 a.m.
+    n: '[[w.macv-command-history-1967]], 388 (Phase I "concluded at midnight on 17 March"; "Phase II was initiated at 180001H March," the operation shifting to the eastern portion of War Zone C); [[w.cosmas-joint-chiefs-of-staff]], 33–34 (the second phase "began on 18 March," in the eastern portion of War Zone C). The hour is MACV''s, Saigon''s clock (H). See [[cal.1967-03-10.vietnam-operations]].'
+    tags: [province:tay-ninh, place:war-zone-c]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1967-03-19.opinion
     when: Mar. 19
     date: '1967-03-19'

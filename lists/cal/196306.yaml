@@ -6031,19 +6031,18 @@ entries:
         - 'w.chen-yi-nianpu 973: ?'
     tags: [polity:prc, polity:dprk, name:zhou-enlai]
   - id: cal.1963-06-25.china-leadership-2
-    when: June 25–26
+    when: June 25
     date: '1963-06-25'
     time: 1963-06-25T04:00Z
     thread: china-leadership
     also: [soviet-union]
-    c: Peking to Chengdu and back.{1} Deng Xiaoping and Peng Zhen, with Wu Lengxi, Yao Zhen, Xiong Fu, Fan Ruoyu, Wang Li and a number of younger drafters, fly to Chengdu June 25 for a rest before Moscow.{2} They arrive at noon and lodge at the Jinniuba Hotel; Wu's party drives to the foot of Mount Emei, which they reach at dusk, and does not climb. At midnight Deng's secretary Wang Ruilin telephones from Chengdu that Mao wants them back in Peking the next day; they return to Chengdu at dawn and fly to Peking in the afternoon.{3}
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 594–595 ("left Peking June 25"; "noon at Chengdu"; Deng: "if we go, go quickly, Mao may think of something and recall us"; Yao Zhen''s old injury to the back, Xiong Fu just over an illness; Wu wished to climb the mountain; "a military order is like a mountain falling"; Wu''s party "wished the mountain well from its foot"); [[w.peng-zhen-nianpu-1902]], IV, 279 (June 25, 1963, evening; Mao''s telegram calls Deng Xiaoping, Peng Zhen and the others back to Peking at once on the Sino-Soviet talks). The time is the first day''s. Made public: 1999. Check: Yang Shangkun''s diary has Mao''s meeting on the evening of June 25 call Deng Xiaoping and the others back to Peking at once, Yang telephoning Deng that night, and Deng''s party back by the afternoon of June 27 ([[w.yang-shangkun-riji]], II, 290). Names: Deng Xiaoping, Peng Zhen, Mao Zedong, Wu Lengxi, Yao Zhen, Fan Ruoyu, Wang Li, Wang Ruilin. Check: whether Deng and Peng Zhen also went to Emei: Wu says only that his party did; Mao''s reason for the recall is not given.'
+    c: Peking to Chengdu.{1} Deng Xiaoping and Peng Zhen, with Wu Lengxi, Yao Zhen, Xiong Fu, Fan Ruoyu, Wang Li and a number of younger drafters, fly to Chengdu June 25 for a rest before Moscow.{2} They arrive at noon and lodge at the Jinniuba Hotel.{3}
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 594–595 ("left Peking June 25"; "noon at Chengdu"; Deng: "if we go, go quickly, Mao may think of something and recall us"; Yao Zhen''s old injury to the back, Xiong Fu just over an illness; Wu wished to climb the mountain; "a military order is like a mountain falling"; Wu''s party "wished the mountain well from its foot"); [[w.peng-zhen-nianpu-1902]], IV, 279 (June 25, 1963, evening; Mao''s telegram calls Deng Xiaoping, Peng Zhen and the others back to Peking at once on the Sino-Soviet talks). The time is the first day''s. Made public: 1999. Check: Yang Shangkun''s diary has Mao''s meeting on the evening of June 25 call Deng Xiaoping and the others back to Peking at once, Yang telephoning Deng that night, and Deng''s party back by the afternoon of June 27 ([[w.yang-shangkun-riji]], II, 290). Split under R25b and R17: Wu, 594–595, gives the party''s arrival at the foot of Mount Emei its own part of the day (黄昏), Wang Ruilin''s call its own hour (当天午夜), the return to Chengdu its own (第二天一清早) and the flight to Peking its own (下午); each is an entry of its own. Names: Deng Xiaoping, Peng Zhen, Wu Lengxi, Yao Zhen, Fan Ruoyu, Wang Li. Check: whether Deng and Peng Zhen also went to Emei: Wu says only that his party did; Mao''s reason for the recall is not given.'
     src:
-      c: a8a7b254
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 594–595: 1, 2, 3'
         - 'w.peng-zhen-nianpu-1902 IV, 279: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:mao-zedong, vis:only:prc, name:fan-ruoyu, name:wang-li, name:wang-ruilin, name:wu-lengxi, name:yao-zhen]
+    tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc, name:fan-ruoyu, name:wang-li, name:wu-lengxi, name:yao-zhen]
     variants:
       - unit: '2'
         witness: w.yang-shangkun-riji
@@ -6130,6 +6129,39 @@ entries:
       - 1963-06-25T11:00Z
       - 1963-06-25T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1963-06-25.china-leadership-7
+    when: June 25
+    date: '1963-06-25'
+    place: emei
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-06-25.china-leadership-2
+    c: Wu Lengxi's party drives from Chengdu 成都 in three cars to the foot of Mount Emei 峨眉山, reached at dusk. Wu proposes to climb at once and eat supper on the mountain; Yao Zhen 姚溱, with an old injury to the back, and Xiong Fu 熊复, just over a heart illness, are against it; the climb is put off to the morning.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 594–595: 吃过午饭后, 立即分乘三辆汽车出发, 赶到峨眉山下已是黄昏. The words: dusk. The range is the evening band; Wu gives no hour. Check: Wu''s account has the party leave June 25; Yang Shangkun''s diary, Deng''s and Peng Zhen''s chronologies put the start of the Chengdu journey on June 23 (the variants on the first entry). It follows the noon arrival at Chengdu and lunch (吃过午饭后). See [[cal.1963-06-25.china-leadership-2]]. Names: Wu Lengxi, Yao Zhen.'
+    tags: [polity:prc, name:wu-lengxi, name:yao-zhen, vis:only:prc]
+    time_zone: Asia/Shanghai
+    time_range:
+      - 1963-06-25T11:00Z
+      - 1963-06-25T14:00Z
+    time_band: evening
+    range_basis: record
+  - id: cal.1963-06-25.china-leadership-8
+    when: June 25
+    date: '1963-06-25'
+    time: 1963-06-25T16:00Z
+    time_approx: true
+    place:
+      - chengdu
+      - emei
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-06-25.china-leadership-7
+    c: 'At midnight Deng''s secretary Wang Ruilin 王瑞林 telephones from Chengdu and wakes Yao Zhen: Mao wants them back in Peking tomorrow. Deng: back to Chengdu early, no climb.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 594–595: 当天午夜, 小平同志的秘书王瑞林从成都打来电话. The words: midnight. Wu''s "that day''s midnight" is taken as the midnight ending June 25. Check: Wu''s account has the party leave June 25; Yang Shangkun''s diary, Deng''s and Peng Zhen''s chronologies put the start of the Chengdu journey on June 23 (the variants on the first entry). It follows the arrival at the foot of the mountain. See [[cal.1963-06-25.china-leadership-2]]. Names: Deng Xiaoping, Wang Ruilin, Yao Zhen, Mao Zedong, Wu Lengxi.'
+    tags: [polity:prc, name:deng-xiaoping, name:wang-ruilin, name:yao-zhen, name:mao-zedong, name:wu-lengxi, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1963-06-26.berlin-and-vienna
     when: June 26
@@ -6491,6 +6523,42 @@ entries:
       - 1963-06-26T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-06-26.china-leadership-9
+    when: June 26
+    date: '1963-06-26'
+    place:
+      - emei
+      - chengdu
+    thread: china-leadership
+    also: [soviet-union]
+    c: Wu's party, at the foot of Mount Emei 峨眉山 and not climbing, returns to Chengdu 成都 at first light.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 594–595: 第二天一清早赶回成都. The words: first light. The range is the early-morning band; Wu gives no hour. Check: Wu''s account has the party leave June 25; Yang Shangkun''s diary, Deng''s and Peng Zhen''s chronologies put the start of the Chengdu journey on June 23 (the variants on the first entry). See [[cal.1963-06-25.china-leadership-2]]. Names: Wu Lengxi.'
+    tags: [polity:prc, name:wu-lengxi, vis:only:prc]
+    time_zone: Asia/Shanghai
+    time_range:
+      - 1963-06-25T21:00Z
+      - 1963-06-26T00:00Z
+    time_band: early morning
+    range_basis: record
+  - id: cal.1963-06-26.china-leadership-10
+    when: June 26
+    date: '1963-06-26'
+    place:
+      - chengdu
+      - peking
+    thread: china-leadership
+    also: [soviet-union]
+    follows:
+      - cal.1963-06-26.china-leadership-9
+    c: Wu's party flies from Chengdu to Peking in the afternoon.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 594–595: 下午飞返北京. The words: afternoon. The range is the afternoon band; Wu gives no hour. Check: Wu''s account has the party leave June 25; Yang Shangkun''s diary, Deng''s and Peng Zhen''s chronologies put the start of the Chengdu journey on June 23 (the variants on the first entry). It follows the return to Chengdu. See [[cal.1963-06-25.china-leadership-2]]. Names: Wu Lengxi.'
+    tags: [polity:prc, name:wu-lengxi, vis:only:prc]
+    time_zone: Asia/Shanghai
+    time_range:
+      - 1963-06-26T04:00Z
+      - 1963-06-26T10:00Z
+    time_band: afternoon
+    range_basis: record
   - id: cal.1963-06-27.vietnam
     when: June 27
     date: '1963-06-27'

@@ -1592,19 +1592,19 @@ entries:
     n: '[[w.peng-dehuai-nianpu]], 793. Names: Peng Dehuai.'
     tags: [polity:prc, name:peng-dehuai]
   - id: cal.1965-12-08.vietnam-operations
-    when: Dec. 8–9
+    when: Dec. 8
     date: '1965-12-08'
+    time: 1965-12-08T05:30Z
     place: que-son-basin
     thread: vietnam-operations
-    c: Harvest Moon, the Marines' and the South Vietnamese 2d Division's operation in the Quế Sơn valley against the 1st Viet Cong Regiment.{1} The 11th Ranger Battalion ambushed on the Thăng Bình–Hiệp Đức road, the afternoon of Dec. 8;{2} the 5th Regiment's command group and 1st Battalion overrun the next morning, the regimental commander killed.{3} Marines of Task Force Delta landed by helicopter from 10 a.m., Dec. 9, behind the enemy.{4}
-    n: '[[w.shulimson-u-s-marines-in]], 98–104; [[w.vietnam-victory-in-vietnam]], 160 (the 5th Regimental Task Force beaten off at Đồng Dương); [[w.lich-su-khang-chien-chong-my]], IV, 63 (Liên Kết 18, opened to relieve the Việt An post; the Marines landed Dec. 9 and 10). [[w.macv-command-history-1965]], 164–65 (the operation from Dec. 8; the 11th Rangers overrun).'
+    c: Harvest Moon, the Marines' and the South Vietnamese 2d Division's operation in the Quế Sơn valley against the 1st Viet Cong Regiment.{1} The 11th Ranger Battalion ambushed on the Thăng Bình–Hiệp Đức road, 1:30 p.m. Dec. 8, and overrun.{2}
+    n: '[[w.shulimson-u-s-marines-in]], 98–104 (103: the 5th ARVN Regiment out of Thăng Bình on Dec. 8; "At 1330" the rangers ambushed by the 70th VC Battalion, overrun in the first fifteen minutes); [[w.vietnam-victory-in-vietnam]], 160 (the 5th Regimental Task Force beaten off at Đồng Dương); [[w.lich-su-khang-chien-chong-my]], IV, 63 (Liên Kết 18, opened to relieve the Việt An post; the Marines landed Dec. 9 and 10). [[w.macv-command-history-1965]], 164–65 (the operation from Dec. 8; the 11th Rangers overrun). The time is the ambush''s, 1330, Saigon''s clock (Shulimson, 103). Split under R25b and R17: Shulimson, 104, gives the overrun of the 5th Regiment''s command group its own day and hour ("On 9 December, about 0645") and the Marines'' landing its own ("At 1000"); each is an entry of Dec. 9.'
     src:
-      c: 1aea261a
       rows:
-        - 'w.shulimson-u-s-marines-in 98–104: 1, 2, 3, 4'
-        - 'w.vietnam-victory-in-vietnam 160: 1, 3'
+        - 'w.shulimson-u-s-marines-in 98–104: 1, 2'
+        - 'w.vietnam-victory-in-vietnam 160: 1'
         - 'w.macv-command-history-1965 164–65: 1, 2'
-        - 'w.lich-su-khang-chien-chong-my IV, 63: 1, 4'
+        - 'w.lich-su-khang-chien-chong-my IV, 63: 1'
     tags: [province:quang-tin]
     short: Harvest Moon
     variants:
@@ -1612,12 +1612,7 @@ entries:
         witness: w.lich-su-khang-chien-chong-my
         reads: the ARVN 5th Task Force and two armored squadrons open Liên Kết 18 to relieve the Việt An post after twelve days of siege; Dec. 9 the Saigon force beaten, and five Marine battalions landed on the shore and in the hills, Dec. 9 and 10, at An Lý, Châu Xuân, Cẩm La, La Ngà and Chiêm Sơn
         at: IV, 63
-    time_range:
-      - 1965-12-08T04:00Z
-      - 1965-12-08T10:00Z
     time_zone: Asia/Ho_Chi_Minh
-    range_basis: record
-    time_band: afternoon
   - id: cal.1965-12-08.vietnam-pause
     when: Dec. 8
     date: '1965-12-08'
@@ -1953,6 +1948,29 @@ entries:
     c: Deyang 德阳. Peng Dehuai 彭德怀 inspects the No. 2 heavy steel works 第二重型钢铁厂 (so printed) and the Dongfang electrical machinery works 东方电机厂.
     n: '[[w.peng-dehuai-nianpu]], 793. Names: Peng Dehuai.'
     tags: [polity:prc, name:peng-dehuai]
+  - id: cal.1965-12-09.vietnam-operations
+    when: Dec. 9
+    date: '1965-12-09'
+    time: 1965-12-08T22:45Z
+    time_approx: true
+    place: que-son-basin
+    thread: vietnam-operations
+    c: Harvest Moon. About 6:45 a.m. the 60th and 80th VC Battalions strike; the 5th ARVN Regiment's command group and 1st Battalion overrun, the regimental commander killed.
+    n: '[[w.shulimson-u-s-marines-in]], 104 ("On 9 December, about 0645, the 60th and 80th VC Battalions struck"; the command group and the 1st Battalion overrun, the commander killed). [[w.vietnam-victory-in-vietnam]], 160 (the 5th Regimental Task Force beaten off at Đồng Dương). See [[cal.1965-12-08.vietnam-operations]].'
+    tags: [province:quang-tin]
+    time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1965-12-09.vietnam-operations-2
+    when: Dec. 9
+    date: '1965-12-09'
+    time: 1965-12-09T02:00Z
+    place: que-son-basin
+    thread: vietnam-operations
+    follows:
+      - cal.1965-12-09.vietnam-operations
+    c: Harvest Moon. At 10 a.m. Marine helicopters lift Utter's 2d Battalion, 7th Marines, of Task Force Delta, from Tam Kỳ to a landing zone west of the South Vietnamese; by late afternoon it holds a hill mass, meeting few Viet Cong.
+    n: '[[w.shulimson-u-s-marines-in]], 104–05 ("At 1000," the UH-34Ds of HMM-161 and HMM-361 lift the battalion from Tam Kỳ to a landing zone 5½ miles west of the ARVN; Henderson commits the Marines after the overrun). [[w.lich-su-khang-chien-chong-my]], IV, 63 (the Marines landed Dec. 9 and 10). It follows the overrun (104). See [[cal.1965-12-08.vietnam-operations]].'
+    tags: [province:quang-tin]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-12-10.oil
     when: Dec. 10
     date: '1965-12-10'
@@ -2856,9 +2874,11 @@ entries:
     place: viet-an
     thread: vietnam-hanoi
     also: [vietnam-operations]
-    c: 'Cẩm Khê market, Quảng Tín. Regiment 1''s Battalions 90 and 70 attack the Americans packed into the market, Battalion 60 blocking from the north; they are beaten off the retreat road to Tam Kỳ. The fight ends at 3 p.m. Dec. 18. Lê Hữu Trữ, the regiment commander: "hold the Americans by the belt."'
-    n: '[[w.lich-su-khang-chien-chong-my]], IV, 63–64. See [[cal.1965-12-08.vietnam-operations]]. Check: the first day; the history gives landings on Dec. 12 and 15. Names: Lê Hữu Trữ.'
-    tags: [polity:drv, polity:us, ok:fields-time, name:le-huu-tru]
+    c: Quảng Tín. Regiment 1 (Ba Gia), already in the communes where the Americans land on Dec. 9, 10, 12 and 15, attacks their wings and blocks their withdrawal by Chiêm Sơn, Hà Châu and Cẩm Khê and Quán Ruồng toward Tam Kỳ; the fighting fierce until the morning of the 18th.
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 63. See [[cal.1965-12-08.vietnam-operations]]. Split under R25b and R17: the history, IV, 63–64, gives the attack on the Americans in Cẩm Khê market its own day ("sáng ngày 18," the morning of Dec. 18) and its end its own hour ("15 giờ ngày 18-12-1965"); it is an entry of its own. Check: the first day; the history gives landings on Dec. 9, 10, 12 and 15.'
+    src:
+      rows: []
+    tags: [polity:drv, polity:us, province:quang-tin]
   - id: cal.1965-12-15.china-leadership-2
     when: Dec. 15
     date: '1965-12-15'
@@ -3545,6 +3565,20 @@ entries:
     c: Chen Yi 陈毅 cables Prince Norodom Kantol on the fifth anniversary of the China–Cambodia treaty of friendship and mutual non-aggression.
     n: '[[w.chen-yi-nianpu]], 1134. Names: Chen Yi, Norodom Kantol.'
     tags: [polity:prc, polity:cambodia, name:chen-yi, name:norodom-kantol, ok:fields-place]
+  - id: cal.1965-12-18.vietnam-hanoi-2
+    when: Dec. 18
+    date: '1965-12-18'
+    place: viet-an
+    thread: vietnam-hanoi
+    also: [vietnam-operations]
+    c: 'Cẩm Khê market, Quảng Tín, from the morning of Dec. 18. The Americans, hard pressed, bunch in the market; Regiment 1''s Battalions 90 and 70 attack it, Battalion 60 blocking from the north. The fight ends at 3 p.m., the Americans withdrawing; the history counts it a victory. Lê Hữu Trữ, the regiment''s commander, summing up the Việt An battle: "hold the Americans by the belt."'
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 63–64 (63: the fighting "cho đến sáng ngày 18," the Americans in Cẩm Khê market, Battalions 90 and 70 attack, 60 blocks from the north; 64: "15 giờ ngày 18-12-1965, trận đánh kết thúc thắng lợi"; Lê Hữu Trữ''s "bám thắt lưng Mỹ mà đánh" in summing up). The range runs from the morning to the end at 15 giờ, Saigon''s clock. See [[cal.1965-12-15.vietnam-hanoi]]. Names: Lê Hữu Trữ.'
+    tags: [polity:drv, polity:us, province:quang-tin, name:le-huu-tru]
+    time_zone: Asia/Ho_Chi_Minh
+    time_range:
+      - 1965-12-17T22:00Z
+      - 1965-12-18T07:00Z
+    range_basis: record
   - id: cal.1965-12-19.vietnam-pause
     when: Dec. 19
     date: '1965-12-19'

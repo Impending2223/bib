@@ -154,6 +154,33 @@ entries:
     c: 'Sihanouk to the two Geneva co-chairmen and other heads of government, by letter: a new, enlarged conference on Laos, Thailand, South Vietnam and Burma in it.'
     n: '[[w.guan-vietnamese-communists-relations-with]], 174. Names: Sihanouk.'
     tags: [polity:cambodia, name:norodom-sihanouk, ok:fields-place]
+  - id: cal.1961-01-01.soviet-union
+    when: Jan. 1
+    date: '1961-01-01'
+    time: 1961-01-01T07:00Z
+    time_approx: true
+    place: palm-beach
+    thread: soviet-union
+    c: Merriman Smith of UPI and Arrowsmith of the AP bring Khrushchev's greeting to Salinger at the Palm Beach Country Club, about 2 a.m. He does not wake the President-elect. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 62 ("at about 2 a.m. New Year''s morning"; Smith of UPI, Arrowsmith of the AP). See [[cal.1960-12-31.soviet-union]]. Names: Salinger, Khrushchev.'
+    tags: [name:salinger-pierre, name:khrushchev-nikita-s]
+    time_zone: America/New_York
+  - id: cal.1961-01-01.soviet-union-2
+    when: Jan. 1
+    date: '1961-01-01'
+    place: palm-beach
+    thread: soviet-union
+    follows:
+      - cal.1961-01-01.soviet-union
+    c: Salinger gives Kennedy Khrushchev's greeting in the morning, still in Smith's handwriting. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 62 ("the next morning"). It follows the delivery of 2 a.m. (the same page). See [[cal.1960-12-31.soviet-union]]. Names: Salinger, Kennedy, Khrushchev.'
+    tags: [name:salinger-pierre, name:kennedy-john-f, name:khrushchev-nikita-s]
+    time_zone: America/New_York
+    time_range:
+      - 1961-01-01T11:00Z
+      - 1961-01-01T17:00Z
+    time_band: morning
+    range_basis: record
   - id: cal.1961-01-02.laos
     when: Jan. 2–3
     date: '1961-01-02'

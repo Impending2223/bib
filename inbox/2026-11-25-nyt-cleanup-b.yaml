@@ -51,6 +51,48 @@ ops:
     name: Ladakh
     zone: Asia/Kolkata
     in: india
+- place-key:
+    key: coquilhatville
+    name: Coquilhatville
+    zone: Africa/Kinshasa
+    in: congo
+- add:
+    entry:
+      id: cal.1960-07-04.congo-4
+      when: By July 4
+      date: '1960-07-04'
+      thread: congo
+      c: Kasai. An order to arrest Joseph Ngalula, head of the dissident provincial government, reported. Ngalula of Kalonji's wing of the Congolese National Movement; Lumumba, head of the other, supports the Kasai officials acting against him.
+      n: 'Harry Gilroy, "Congolese Police Kill 10 in Clash," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 8. Check: the day; the order "reported." See [[cal.1960-07-04.congo]]. Names: Lumumba.'
+      tags:
+      - name:lumumba-patrice
+- add:
+    entry:
+      id: cal.1960-07-04.labor-disputes
+      when: July 4
+      date: '1960-07-04'
+      place: leopoldville
+      thread: labor-disputes
+      also:
+      - congo
+      c: Léopoldville. Workers of Otraco, the national transport organization, strike, not all of them having had the $2 bonus for independence; the police force them from the dock area.
+      n: 'Harry Gilroy, "Congolese Police Kill 10 in Clash," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 8. See [[cal.1960-07-04.congo]].'
+- add:
+    entry:
+      id: cal.1960-07-04.europe-and-the-alliance-federal-republic-2
+      when: July 4
+      date: '1960-07-04'
+      place: bonn
+      thread: europe-and-the-alliance-federal-republic
+      also:
+      - defense
+      follows:
+      - cal.1960-07-04.europe-and-the-alliance-federal-republic
+      c: 'Brucker, six hours after his news conference, the Defense Ministry having protested sharply, by a statement through the United States Embassy: his references to Strauss''s interest in the Polaris "were by no means intended to indicate an interest on the part of the minister in acquiring this weapon system."'
+      n: '"Brucker Discusses Missiles for Bonn," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 9. The order: "six hours later." See [[cal.1960-07-04.europe-and-the-alliance-federal-republic]]. Names: Brucker, Strauss.'
+      tags:
+      - name:brucker-wilber-m
+      - name:strauss-franz-josef
 - add:
     entry:
       id: cal.1960-07-02.elections-1960-nomination-15
@@ -58,7 +100,9 @@ ops:
       date: '1960-07-02'
       thread: elections-1960-nomination
       c: Collins, the convention's permanent chairman, telegraphs Truman a second time, urging him to attend; no answer.
-      n: '"Collins Pledges Fair Convention," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html). Check: the hour. See [[cal.1960-07-03.elections-1960-nomination]]. Names: Collins, Truman.'
+      n: '"Collins Pledges Fair Convention," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html). The order: the paper has it sent after Truman''s news conference. See [[cal.1960-07-03.elections-1960-nomination]]. Names: Collins, Truman.'
+      follows:
+      - cal.1960-07-02.elections-1960-2
       tags:
       - name:collins-leroy
       - name:truman-harry-s
@@ -77,24 +121,14 @@ ops:
       - name:khrushchev-nikita-s
 - add:
     entry:
-      id: cal.1960-07-04.elections-1960-nomination-7
-      when: July 4
-      date: '1960-07-04'
-      place: independence-mo
-      thread: elections-1960-nomination
-      c: 'Truman, reached by telephone at Independence, cannot comment on Kennedy''s statement: he has not read it and did not hear it, having worked all day at the Truman library.'
-      n: 'Clayton Knowles, "Kennedy''s Reply to Truman Asks Young Leaders," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 20. See [[cal.1960-07-04.elections-1960]]. Names: Truman, Kennedy.'
-      tags:
-      - name:truman-harry-s
-      - name:kennedy-john-f
-- add:
-    entry:
-      id: cal.1960-07-04.elections-1960-kennedy-2
-      when: By July 4
-      date: '1960-07-04'
+      id: cal.1960-06.elections-1960-kennedy
+      when: June, about the 13th
+      date: '1960-06'
+      at: before 1960-06-13
+      place: washington
       thread: elections-1960-kennedy
       c: 'Sorensen, asked by a reporter about Kennedy''s health and reports that he uses cortisone: "He is not on cortisone." Asked what other drug he might use: "I don''t know that he is on anything."'
-      n: '"Use of Drug Denied," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html). Check: the day. See [[cal.1960-07-04.elections-1960-2]]. Names: Sorensen, Kennedy.'
+      n: '"Use of Drug Denied," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html). Check: the day. Names: Sorensen, Kennedy.'
       tags:
       - name:sorensen-theodore-c
       - name:kennedy-john-f
@@ -162,7 +196,7 @@ ops:
     id: cal.1960-06-14.europe-and-the-alliance-france
     base: 40c3aa80
     set:
-      n: 'Thomas F. Brady, "Algerians Balk at French Terms," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14; "Algerians'' Communique," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 15. Names: de Gaulle.'
+      n: 'Thomas F. Brady, "Algerians Balk at French Terms for Peace Talks," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14; "Algerians'' Communique," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 15. Names: de Gaulle.'
 - edit:
     id: cal.1960-06-20.europe-and-the-alliance-france
     base: d5008232
@@ -177,7 +211,7 @@ ops:
     id: cal.1960-06-25.europe-and-the-alliance-france
     base: 01ce8837
     set:
-      n: 'Thomas F. Brady, "Algerians Balk at French Terms," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14; "Algerians'' Communique," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 15. See [[cal.1960-06-14.europe-and-the-alliance-france]]. Check: the days.'
+      n: 'Thomas F. Brady, "Algerians Balk at French Terms for Peace Talks," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14; "Algerians'' Communique," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 15. See [[cal.1960-06-14.europe-and-the-alliance-france]]. Check: the days.'
 - edit:
     id: cal.1960-06-28.south-asia
     base: 91bcead1
@@ -192,7 +226,7 @@ ops:
     id: cal.1960-06-30.congress
     base: 3dc53ee5
     set:
-      n: 'John D. Morris, "Drive Is On to Curb Rules Unit," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 22. To check: 106 Cong. Rec. (1960). Names: Smith.'
+      n: 'John D. Morris, "Drive On to Curb House Rules Unit," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 22. To check: 106 Cong. Rec. (1960). Names: Smith.'
 - edit:
     id: cal.1960-06-30.indonesia
     base: 6a17a0a5
@@ -212,7 +246,9 @@ ops:
     id: cal.1960-07-01.cuba
     base: 17d00a9e
     set:
-      n: 'Tad Szulc, "Cuban Airline Flights Cut as Oil Concerns Ask Cash," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 15; "Cuban Seizure Studied," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html). Check: Szulc, in the *Times* of July 4, 1960, at 2, has the Esso refinery, seized "on Friday," closed "yesterday," July 2, for lack of crude. See [[cal.1960-06-29.cuba]].'
+      n: 'Tad Szulc, "Cuban Airline Flights Cut as Oil Concerns Ask Cash," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 15; "Cuban Seizure Studied," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html). Check: Tad Szulc, "Cuba Awaits Cut by U.S. on Sugar," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2, has the Esso refinery, seized July 1, closed July 2 for lack of crude. See [[cal.1960-06-29.cuba]].'
+    settles:
+    - 'Check: Szulc, in the *Times* of July 4, 1960, at 2, has the Esso refinery'
 - edit:
     id: cal.1960-07-01.cuba-5
     base: e7d35b45
@@ -227,7 +263,7 @@ ops:
     id: cal.1960-07-01.japan
     base: 1e11d88a
     set:
-      n: 'Richard J. H. Johnston, "Kishi Party Again Wins Election," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 3. Check: the names and the returns.'
+      n: 'Richard J. H. Johnston, "Kishi Party Again Wins Election over Japanese Leftist Opposition," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 3. Check: the names and the returns.'
 - edit:
     id: cal.1960-07-01.latin-america-4
     base: 3161847d
@@ -252,7 +288,9 @@ ops:
     id: cal.1960-07-02.cuba-3
     base: 11d4af13
     set:
-      n: 'Tad Szulc, "Cuban Airline Hit by Action on Oil," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 15. Check: the day: the story''s "meanwhile," July 1 or 2. Check: Szulc, in the *New York Times*, July 5, 1960 ("Cuba Gets Ready to Take U.S. Mills," Havana, July 4; page not shown), has the Havana refinery of Esso closed "early Saturday," July 2. See [[cal.1960-07-01.cuba]].'
+      n: 'Tad Szulc, "Cuban Airline Hit by Action on Oil," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 15. Check: the day: the story''s "meanwhile," July 1 or 2. Check: Tad Szulc, "Cuba Gets Ready to Take U.S. Mills," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), has the Havana refinery of Esso closed early on July 2. See [[cal.1960-07-01.cuba]].'
+    settles:
+    - 'Check: Szulc, in the *New York Times*, July 5, 1960'
 - edit:
     id: cal.1960-07-02.cuba-8
     base: 35f4e680
@@ -277,7 +315,9 @@ ops:
     id: cal.1960-07-02.europe-and-the-alliance-france-3
     base: 356cddc0
     set:
-      n: '"Algerian Nationalists Meet," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html). Check: the Provisional Government''s communiqué of July 4 (the *New York Times*, July 5, 1960, at 15) has it meet in Tunis "July 2 and 3.".'
+      n: '"Algerian Nationalists Meet," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html). Check: the Provisional Government''s communiqué of July 4, "Algerians'' Communique," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 15, has it meet in Tunis "July 2 and 3."'
+    settles:
+    - 'Check: the Provisional Government''s communiqué of July 4 (the'
 - edit:
     id: cal.1960-07-02.immigration
     base: 86c0a97a
@@ -287,7 +327,7 @@ ops:
     id: cal.1960-07-02.jobs-and-wages
     base: dcde86ff
     set:
-      n: '"Random Notes in Washington," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4. Check: the day. Names: Smith.'
+      n: '"Random Notes in Washington: How Amendment Went Astray," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4. Check: the day. Names: Smith.'
 - edit:
     id: cal.1960-07-02.latin-america-3
     base: 62a55ff4
@@ -307,7 +347,7 @@ ops:
     id: cal.1960-07-02.republican-party-4
     base: e279f622
     set:
-      n: '"Random Notes in Washington," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4. Check: the day. Names: Mundt, Kennedy.'
+      n: '"Random Notes in Washington: How Amendment Went Astray," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4. Check: the day. Names: Mundt, Kennedy.'
 - edit:
     id: cal.1960-07-02.south-asia-4
     base: 958b60d8
@@ -352,7 +392,7 @@ ops:
     id: cal.1960-07-03.congress-4
     base: fd33652c
     set:
-      n: '"Random Notes in Washington," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4. Check: the day. Names: Miller.'
+      n: '"Random Notes in Washington: How Amendment Went Astray," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4. Check: the day. Names: Miller.'
 - edit:
     id: cal.1960-07-03.crime-and-hijacking
     base: c2e3961a
@@ -392,7 +432,7 @@ ops:
     id: cal.1960-07-03.cuba-7
     base: dc9e74cd
     set:
-      n: '"Random Notes in Washington," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4. Check: the day. Names: Belcher, Castro.'
+      n: '"Random Notes in Washington: How Amendment Went Astray," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4. Check: the day. Names: Belcher, Castro.'
 - edit:
     id: cal.1960-07-03.elections-1960
     base: d0b58604
@@ -463,11 +503,10 @@ ops:
     base: bf4c6980
     set:
       n: 'Douglas Dales, "Rockefeller Says G.O.P. Bars a Test of Men and Issues," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 28. Names: Morton, Rockefeller.'
-- edit:
+- delete:
     id: cal.1960-07-03.europe-and-the-alliance
     base: d2841513
-    set:
-      n: 'Paul Hofmann, "Italians'' ''Explosion'' at Resorts," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3. Check: the day.'
+    why: 'struck by the audit (R18a): made from the corner of a July 4, 1960 clipping showing only the head, cut at the frame, and the opening lines of the Rome story, beside items given whole'
 - edit:
     id: cal.1960-07-03.europe-and-the-alliance-2
     base: 194262de
@@ -517,7 +556,7 @@ ops:
     id: cal.1960-07-03.japan-2
     base: 2f7072b3
     set:
-      n: 'Richard J. H. Johnston, "Kishi Party Wins Another Election," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3. Names: Kishi, Ikeda.'
+      n: 'Richard J. H. Johnston, "Kishi Party Again Wins Election over Japanese Leftist Opposition," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3. Names: Kishi, Ikeda.'
 - edit:
     id: cal.1960-07-03.japan-3
     base: 087c78b3
@@ -542,7 +581,7 @@ ops:
     id: cal.1960-07-03.soviet-union
     base: 6e6dd296
     set:
-      n: 'M. S. Handler, "Khrushchev Sees Hitlerite Threat from Bonn Regime," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 3. Names: Khrushchev, Adenauer.'
+      n: 'M. S. Handler, "Khrushchev Sees Hitlerite Threat from Bonn Regime," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 3. The order: Ybbs-Persenbeug, the first stop, before Mauthausen, by the paper. Names: Khrushchev, Adenauer.'
 - edit:
     id: cal.1960-07-03.soviet-union-2
     base: 6ea016f0
@@ -553,21 +592,19 @@ ops:
     base: a16fe827
     set:
       n: '"Soviet Ship Joins Hunt for U.S. Jet," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3.'
-- edit:
+- delete:
     id: cal.1960-07-03.states-and-cities
     base: 2e9cb47f
-    set:
-      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 16. Check: the day; the clipping gives the hour only.'
-- edit:
+    why: 'struck by the audit (R18a; ruling 50): made from the tail of a page-1 column of the July 4, 1960 paper, its head not given, beside items given whole'
+- delete:
     id: cal.1960-07-03.transportation
     base: c018860d
-    set:
-      n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1. Check: the national toll; the final figures.'
+    why: 'struck by the audit (R18a; ruling 50): made from the same tail of the holiday story, its head and national count not given'
 - edit:
     id: cal.1960-07-03.white-house
     base: 263a15e3
     set:
-      n: '"Random Notes in Washington," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4. Check: the day. Names: Eisenhower.'
+      n: '"Random Notes in Washington: How Amendment Went Astray," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4. Check: the day. Names: Eisenhower.'
 - edit:
     id: cal.1960-07-03.white-house-2
     base: 965dc5de
@@ -621,6 +658,13 @@ ops:
       c: Xinhua reports an all-out effort to rush irrigating equipment to northeast China's drought-struck wheat provinces, Gansu, Hebei, Henan, Hubei and Shandong; at least 1,000,000 cadres sent.
     kind: reword
 - edit:
+    id: cal.1960-07-04.china-leadership-2
+    base: 51bd45e8
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 329 (July 4, 1960); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 150 (July 4, 1960; the border guard, as Zhou proposed in his letter of July 2, hands the detained Nepalese and the horses to Nepal at the Mani pass; both sides state their wish for friendship and harmony). Made public: 1997. Check: "Nepalese Rebuffs Peiping on Incident," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), has the soldier''s body and ten Nepalese prisoners handed over July 5. Names: Zhou Enlai.'
+    settles:
+    - 'Check: the *New York Times*, July 5, 1960 (Katmandu'
+- edit:
     id: cal.1960-07-04.cities-and-housing
     base: c44af048
     set:
@@ -628,8 +672,12 @@ ops:
 - edit:
     id: cal.1960-07-04.congo
     base: 5cc826b4
+    kind: correct
     set:
-      n: 'Harry Gilroy, "Congolese Police Kill 10 in Clash," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 3. Check: the arrest order "reported." See [[cal.1960-07-02.congo]]. Names: Lumumba.'
+      c: Coquilhatville. Troops fire on Mongo demonstrators asking a province of their own in Equator, ten killed, some twenty wounded.
+      n: 'Harry Gilroy, "Congolese Police Kill 10 in Clash," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 8. Split under R17: the Kasai arrest order and the Otraco strike, reported in the same story, are entries of their own. See [[cal.1960-07-02.congo]].'
+    settles:
+    - 'Check: the arrest order'
 - edit:
     id: cal.1960-07-04.congo-2
     base: 9703f0ad
@@ -694,7 +742,7 @@ ops:
     id: cal.1960-07-04.cyprus
     base: 230f7413
     set:
-      n: 'Lawrence Fellows, "Cyprus to Shun Military Blocs," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html). Names: Makarios, Kutchuk.'
+      n: 'Lawrence Fellows, "Cyprus to Shun Military Blocs," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html). See [[cal.1960-07-01.cyprus]]. Names: Makarios, Kutchuk.'
 - edit:
     id: cal.1960-07-04.cyprus-2
     base: 88d06e37
@@ -714,7 +762,7 @@ ops:
     id: cal.1960-07-04.elections-1960-2
     base: a1872a94
     set:
-      n: '[[w.shesol-mutual-contempt]], 35; [[w.salinger-with-kennedy]], 40 (the press conference of Connally and India Edwards: Kennedy has Addison''s disease and might prove physically unfit; Johnson''s statement denying advance knowledge; not the words quoted, the *Times* or the day). W. H. Lawrence, "Johnson Backers Urge Health Test," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 19. Check: the words: the *Times* has no "today." Check: the day: [[w.salinger-with-kennedy]], 40, puts the Connally–Edwards press conference "on the first day of the convention" (July 11). Check: the *Times* dates it July 4. To check: India Edwards oral history, LBJ Library. Names: Connally, Kennedy, Johnson.'
+      n: '[[w.shesol-mutual-contempt]], 35; [[w.salinger-with-kennedy]], 40 (the press conference of Connally and India Edwards: Kennedy has Addison''s disease and might prove physically unfit; Johnson''s statement denying advance knowledge; not the words quoted, the *Times* or the day). W. H. Lawrence, "Johnson Backers Urge Health Test," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html). Check: the words: the *Times* has no "today." Check: the day: [[w.salinger-with-kennedy]], 40, puts the Connally–Edwards press conference "on the first day of the convention" (July 11). Check: the *Times* dates it July 4. To check: India Edwards oral history, LBJ Library. Names: Connally, Kennedy, Johnson.'
 - edit:
     id: cal.1960-07-04.elections-1960-3
     base: 8376f9b1
@@ -728,8 +776,16 @@ ops:
 - edit:
     id: cal.1960-07-04.elections-1960-los-angeles-2
     base: 5953d06b
+    kind: correct
     set:
-      n: 'Gladwin Hill, "Democrats Open Hearings Today on Platform Issues," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 23. Names: Stevenson.'
+      c: 'Los Angeles. The first candidate demonstration: some eighty young people march for an hour around the Biltmore, "We Want Stevenson."'
+      n: 'Gladwin Hill, "Democrats Open Hearings Today on Platform Issues," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 23. Split under R17: the Kennedy and Johnson headquarters, in the same story, are entries of their own. Names: Stevenson.'
+      time_range:
+      - '1960-07-04T19:00Z'
+      - '1960-07-05T01:00Z'
+      time_band: afternoon
+      time_zone: America/Los_Angeles
+      range_basis: record
 - edit:
     id: cal.1960-07-04.elections-1960-los-angeles-3
     base: 2e0fae22
@@ -749,17 +805,27 @@ ops:
     id: cal.1960-07-04.elections-1960-los-angeles-7
     base: d6a00f59
     set:
-      n: 'Gladwin Hill, "Democrats Open Hearings Today," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 23. Check: the day. Names: Johnson.'
+      n: 'Gladwin Hill, "Democrats Open Hearings Today on Platform Issues," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 23. Check: the day. Names: Johnson.'
 - edit:
     id: cal.1960-07-04.elections-1960-los-angeles-8
     base: 032d1aea
     set:
-      n: 'Gladwin Hill, "Democrats Open Hearings Today," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 23. Check: the day. Names: Stevenson, Johnson, Kennedy, Symington.'
+      n: 'Gladwin Hill, "Democrats Open Hearings Today on Platform Issues," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 23. Check: the day. Names: Stevenson, Johnson, Kennedy, Symington.'
 - edit:
     id: cal.1960-07-04.elections-1960-nomination
     base: e0adf806
     set:
       n: '"Smathers Charges Butler ''Slanting''," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 10. Names: Smathers, Collins.'
+- edit:
+    id: cal.1960-07-04.elections-1960-nomination-6
+    base: 7fe293c7
+    set:
+      n: 'Clayton Knowles, "Kennedy''s Reply to Truman Asks Young Leaders," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 20. See [[cal.1960-07-04.elections-1960]]. Names: Truman, Kennedy.'
+- add-words:
+    id: cal.1960-07-04.elections-1960-nomination-6
+    after: end
+    words: He has been busy all day working at the Truman library.
+    text: 'Clayton Knowles, "Kennedy''s Reply to Truman Asks Young Leaders," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 20'
 - edit:
     id: cal.1960-07-04.elections-1960-nomination-2
     base: 4b17a8f6
@@ -813,8 +879,10 @@ ops:
 - edit:
     id: cal.1960-07-04.europe-and-the-alliance-federal-republic
     base: 7a2f4961
+    kind: correct
     set:
-      n: '"Brucker Discusses Missiles for Bonn," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 9. Names: Brucker, Strauss.'
+      c: 'Brucker, Secretary of the Army, at a news conference in Bonn: Strauss interested in medium-range ballistic missiles, the United States no objection.'
+      n: '"Brucker Discusses Missiles for Bonn," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 9. Split under R17: his correction, six hours later, is an entry of its own. Names: Brucker, Strauss.'
 - edit:
     id: cal.1960-07-04.europe-and-the-alliance-france
     base: 4f0c642a
@@ -824,7 +892,7 @@ ops:
     id: cal.1960-07-04.europe-and-the-alliance-france-2
     base: a5a3d849
     set:
-      n: 'Thomas F. Brady, "Algerians Balk at French Terms," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14. Check: the day. Names: de Gaulle.'
+      n: 'Thomas F. Brady, "Algerians Balk at French Terms for Peace Talks," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14. Check: the day. The order: Brady has the statement welcome the communique. Names: de Gaulle.'
 - edit:
     id: cal.1960-07-04.indonesia
     base: 3ee88dfd
@@ -879,7 +947,7 @@ ops:
     id: cal.1960-07-04.robert-kennedy
     base: 27b79d1d
     set:
-      n: '[[w.shesol-mutual-contempt]], 35–36; [[w.thomas-robert-kennedy]], 97 (a press conference; a medical report on his brother''s health); [[w.sorensen-counselor]], 193 (at a convention press conference two of Johnson''s top aides question Kennedy''s life expectancy on the ground of Addison''s disease; the Kennedy for President press office issues a statement from Robert Kennedy that the candidate "does not now nor has he ever had an ailment described classically as Addison''s Disease, which is a tuberculous destruction of the adrenal gland"; not the day, the doctors'' report or "malicious and false"). Check: Thomas quotes the report''s word as "superb" (97). Answering Edwards: [[w.shesol-mutual-contempt]], 35–36. Check: Counselor, 193, has the statement come from the press office as Robert Kennedy''s, "does not now nor has he ever had an ailment described classically as Addison''s Disease, which is a tuberculous destruction of the adrenal gland"; the entry has him say it at a press conference, "ailment classically described as Addison''s disease.". W. H. Lawrence, "Johnson Backers Urge Health Test," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (the words "described classically" and "malicious and false"; the report of June 11 by Eugene J. Cohen and Janet Travell). To check: Myer Feldman oral history, JFK Library. See [[cal.1960-07-04.elections-1960-2]]. Names: Robert Kennedy, Kennedy, Johnson. Check: the day; Shesol: "a quick press conference."'
+      n: '[[w.shesol-mutual-contempt]], 35–36; [[w.thomas-robert-kennedy]], 97 (a press conference; a medical report on his brother''s health); [[w.sorensen-counselor]], 193 (at a convention press conference two of Johnson''s top aides question Kennedy''s life expectancy on the ground of Addison''s disease; the Kennedy for President press office issues a statement from Robert Kennedy that the candidate "does not now nor has he ever had an ailment described classically as Addison''s Disease, which is a tuberculous destruction of the adrenal gland"; not the day, the doctors'' report or "malicious and false"). Check: Thomas quotes the report''s word as "superb" (97). Answering Edwards: [[w.shesol-mutual-contempt]], 35–36. Check: Counselor, 193, has the statement come from the press office as Robert Kennedy''s, "does not now nor has he ever had an ailment described classically as Addison''s Disease, which is a tuberculous destruction of the adrenal gland"; the entry has him say it at a press conference, "ailment classically described as Addison''s disease.". W. H. Lawrence, "Johnson Backers Urge Health Test," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (it reads "described classically"). To check: Myer Feldman oral history, JFK Library. See [[cal.1960-06-11.elections-1960-kennedy]], [[cal.1960-07-04.elections-1960-2]]. Names: Robert Kennedy, Kennedy, Johnson. Check: the day; Shesol: "a quick press conference."'
 - edit:
     id: cal.1960-07-04.rules
     base: 127241b6
@@ -909,7 +977,9 @@ ops:
     id: cal.1960-07-04.soviet-union
     base: 3d4d8733
     set:
-      n: 'A. M. Rosenthal, "Austrians Ignore Khrushchev Tour," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 9. Check: Handler, in the *New York Times*, July 6, 1960, at 1 ("Khrushchev Looks to Reds'' Triumph"), has Khrushchev at a party in the Residenz, Salzburg, the night of July 4. Names: Khrushchev.'
+      n: 'A. M. Rosenthal, "Austrians Ignore Khrushchev Tour," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 9. Check: M. S. Handler, "Khrushchev Looks to Reds'' Triumph," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, has Khrushchev at a party in the Residenz, Salzburg, the night of July 4. Names: Khrushchev.'
+    settles:
+    - 'Check: Handler, in the *New York Times*, July 6, 1960'
 - edit:
     id: cal.1960-07-04.soviet-union-2
     base: 0b2c89c8
@@ -949,7 +1019,7 @@ ops:
     id: cal.1960-07-05.elections-1960-los-angeles-6
     base: 665f8f85
     set:
-      n: 'Gladwin Hill, "Democrats Open Hearings Today," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 23. Check: that it opened. Names: Kennedy.'
+      n: 'Gladwin Hill, "Democrats Open Hearings Today on Platform Issues," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 23. Check: that it opened. Names: Kennedy.'
 - edit:
     id: cal.1960-07-05.middle-east
     base: f59bd84f
@@ -1027,6 +1097,33 @@ ops:
     note: the dateline (or the constituency), R26a; the dateline is in notes/nyt/dating-b.tsv
 - tag:
     id: cal.1960-07-02.europe-and-the-alliance-federal-republic-2
+    remove:
+    - ok:fields-place
+- place:
+    id: cal.1960-07-02.republican-party-4
+    at: washington
+    basis: n
+    note: the dateline of "Random Notes in Washington" (Washington, July 3), R26a; the item places the act nowhere else
+- tag:
+    id: cal.1960-07-02.republican-party-4
+    remove:
+    - ok:fields-place
+- place:
+    id: cal.1960-07-03.congress-4
+    at: washington
+    basis: n
+    note: the dateline of "Random Notes in Washington" (Washington, July 3), R26a; the item places the act nowhere else
+- tag:
+    id: cal.1960-07-03.congress-4
+    remove:
+    - ok:fields-place
+- place:
+    id: cal.1960-07-03.white-house
+    at: washington
+    basis: n
+    note: the dateline of "Random Notes in Washington" (Washington, July 3), R26a; the item places the act nowhere else
+- tag:
+    id: cal.1960-07-03.white-house
     remove:
     - ok:fields-place
 - place:
@@ -1212,30 +1309,36 @@ ops:
 - add-words:
     id: cal.1960-07-02.congo
     after: end
-    words: Bakongo and Bayaka clash in Léopoldville from the night of July 1; the biggest clash in the morning, at a triumphal tour of Kasavubu. Ten hurt, about 100 held; the National Security police patrol.
+    words: Two clashes in Léopoldville, Bakongo against Bayaka, the biggest in the morning, at a triumphal tour of Kasavubu, now Chief of State. Ten hurt, about 100 held; the National Security police patrol.
     text: '"Congo Police Patrol After Two Clashes," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2'
 - src:
     id: cal.1960-07-02.congo
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html: all'
+    row: https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html
+    on: Tribal disturbances begin in the Congo.
+- names:
+    id: cal.1960-07-02.congo
+    add:
+    - Kasavubu
+    tags:
+    - name:kasavubu-joseph
 - add-words:
     id: cal.1960-07-02.congo
     after: end
-    words: A curfew. Lulua and Baluba clash at Luluabourg.
+    words: The trouble starts late the night before, Bayaka looting a Bakongo tribesman's store. A curfew. Lulua and Baluba fight again at Luluabourg.
     text: '"Two Tribes Battle in Capital of Congo," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html)'
 - src:
     id: cal.1960-07-02.congo
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html: all'
+    row: https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html
+    on: Tribal disturbances begin in the Congo.
 - add-words:
     id: cal.1960-07-02.immigration
     after: end
-    words: Walter opposes.
+    words: Walter, the chief House figure on immigration, opposes admitting the Middle and Far Eastern refugees.
     text: '"Congress Passes Cuba Sugar Bill," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2'
 - src:
     id: cal.1960-07-02.immigration
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html: all'
+    row: https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html
+    on: Congress completes the compromise refugee bill … from the Middle East and the Far East.
 - names:
     id: cal.1960-07-02.immigration
     add:
@@ -1245,12 +1348,12 @@ ops:
 - add-words:
     id: cal.1960-07-02.middle-east
     after: end
-    words: Addressing delegates of Jordanian cooperative societies; the Arabs will soon be aware of Nasser's "treacherous falsehood."
+    words: Addressing delegates of Jordanian cooperative societies; the Arabs will soon become more aware of Nasser's "treacherous falsehood."
     text: '"Jordan to Protest Attacks by Nasser," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2'
 - src:
     id: cal.1960-07-02.middle-east
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html: all'
+    row: https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html
+    on: Hussein, at a government International Cooperation Day celebration, calls for Arab unity and an end to the rift caused by Nasser's policies.
 - add-words:
     id: cal.1960-07-02.white-house
     after: end
@@ -1258,8 +1361,8 @@ ops:
     text: '"Eisenhower Golfs," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html)'
 - src:
     id: cal.1960-07-02.white-house
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html: all'
+    row: https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html
+    on: Eisenhower plays thirty-six holes … George E. Allen.
 - add-words:
     id: cal.1960-07-03.congress-2
     after: end
@@ -1273,7 +1376,7 @@ ops:
     id: cal.1960-07-03.cuba-2
     after: end
     words: The conferees agree at 4:15 a.m., the House acts at 5:50; Cooley leads the House's fight.
-    text: Quits till August," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 2
+    text: '"Congress Passes Cuba Sugar Bill; Quits till August," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 2'
 - src:
     id: cal.1960-07-03.cuba-2
     rows:
@@ -1285,12 +1388,20 @@ ops:
     text: '"Johnson Supports Truman in Criticizing Convention," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 4'
 - src:
     id: cal.1960-07-03.elections-1960
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html: all'
+    row: https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html
+    on: Johnson will not rule out taking second place.
+- names:
+    id: cal.1960-07-03.elections-1960
+    add:
+    - Truman
+    - Kennedy
+    tags:
+    - name:truman-harry-s
+    - name:kennedy-john-f
 - add-words:
     id: cal.1960-07-03.elections-1960-nomination
     after: end
-    words: The Rules Committee, Loveless chairman, is weighing a rule.
+    words: He understands that the Rules Committee, Loveless its chairman, is weighing a rule on changes during roll calls.
     text: '"Collins Pledges Fair Convention," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html)'
 - src:
     id: cal.1960-07-03.elections-1960-nomination
@@ -1305,8 +1416,8 @@ ops:
 - add-words:
     id: cal.1960-07-03.elections-1960-rockefeller
     after: end
-    words: Percy to come to New York next week on the platform. No plan to have Rockefeller's name placed.
-    text: Bars a Test of Men and Issues," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 28
+    words: 'Percy, chairman of the resolutions committee, to come to New York next week to discuss the platform with him. On his name being placed in nomination: "There is no plan to my knowledge."'
+    text: 'Douglas Dales, "Rockefeller Says G.O.P. Bars a Test of Men and Issues," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 28'
 - src:
     id: cal.1960-07-03.elections-1960-rockefeller
     rows:
@@ -1315,7 +1426,7 @@ ops:
     id: cal.1960-07-03.elections-1960-rockefeller-4
     after: end
     words: 'Rockefeller: "He must have worked out something that I don''t know about."'
-    text: Bars a Test of Men and Issues," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 28
+    text: 'Douglas Dales, "Rockefeller Says G.O.P. Bars a Test of Men and Issues," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 28'
 - src:
     id: cal.1960-07-03.elections-1960-rockefeller-4
     rows:
@@ -1323,8 +1434,8 @@ ops:
 - add-words:
     id: cal.1960-07-03.soviet-union
     after: end
-    words: Figl is present.
-    text: Handler, "Khrushchev Sees Hitlerite Threat from Bonn Regime," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 3
+    words: Figl, President of the Austrian National Assembly, among those who greet him.
+    text: M. S. Handler, "Khrushchev Sees Hitlerite Threat from Bonn Regime," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 3
 - src:
     id: cal.1960-07-03.soviet-union
     rows:
@@ -1332,12 +1443,22 @@ ops:
 - add-words:
     id: cal.1960-07-04.congo
     after: end
-    words: Bomboko and Ileo are of the tribe; Kalonji's wing is set against Lumumba's, the *New York Times* reports.
-    text: Harry Gilroy, "Congolese Police Kill 10 in Clash," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 3
+    words: Bomboko, the Foreign Minister, and Ileo, president of the Senate, are of the tribe.
+    text: Harry Gilroy, "Congolese Police Kill 10 in Clash," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 8
 - src:
     id: cal.1960-07-04.congo
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html: all'
+    row: https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html
+    on: Coquilhatville. Troops fire on Mongo demonstrators … are of the tribe.
+- place:
+    id: cal.1960-07-04.congo
+    at: coquilhatville
+    basis: c
+    note: the item places the shooting at Coquilhatville (the dateline is Leopoldville), R26a
+- tag:
+    id: cal.1960-07-04.congo
+    remove:
+    - ok:fields-place
+    - name:lumumba-patrice
 - names:
     id: cal.1960-07-04.congo
     add:
@@ -1350,7 +1471,7 @@ ops:
     id: cal.1960-07-04.cuba
     after: end
     words: Thirty-seven American mills by Bequer's count, thirty-one by others'.
-    text: Mills," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html)
+    text: Tad Szulc, "Cuba Gets Ready to Take U.S. Mills," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html)
 - src:
     id: cal.1960-07-04.cuba
     rows:
@@ -1365,41 +1486,19 @@ ops:
     rows:
     - 'https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html: all'
 - add-words:
-    id: cal.1960-07-04.cuba-4
-    after: end
-    words: A Foreign Office spokesman announces it.
-    text: '"Britain Will Protest," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html)'
-- src:
-    id: cal.1960-07-04.cuba-4
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html: all'
-- add-words:
-    id: cal.1960-07-04.cyprus
-    after: end
-    words: Agreement on the form had been reached July 1.
-    text: Lawrence Fellows, "Cyprus to Shun Military Blocs," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html)
-- src:
-    id: cal.1960-07-04.cyprus
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html: all'
-- add-words:
     id: cal.1960-07-04.elections-1960
     after: end
     words: Sorensen comes on with him.
     text: Clayton Knowles, "Kennedy's Reply to Truman Asks Young Leaders," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 20
-- src:
-    id: cal.1960-07-04.elections-1960
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html: all'
 - add-words:
     id: cal.1960-07-04.elections-1960-2
     after: end
     words: Edwards is co-chairman of Citizens for Johnson; Connally offers Johnson's medical record.
-    text: Lawrence, "Johnson Backers Urge Health Test," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 19
+    text: W. H. Lawrence, "Johnson Backers Urge Health Test," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html)
 - src:
     id: cal.1960-07-04.elections-1960-2
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html: all'
+    row: https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html
+    on: Los Angeles. India Edwards … if it were not for cortisone";
 - add-words:
     id: cal.1960-07-04.elections-1960-nomination
     after: end
@@ -1419,19 +1518,10 @@ ops:
     rows:
     - 'https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html: all'
 - add-words:
-    id: cal.1960-07-04.europe-and-the-alliance-federal-republic
-    after: end
-    words: The correction comes six hours later.
-    text: '"Brucker Discusses Missiles for Bonn," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 9'
-- src:
-    id: cal.1960-07-04.europe-and-the-alliance-federal-republic
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html: all'
-- add-words:
     id: cal.1960-07-04.europe-and-the-alliance-france
     after: end
     words: Paris is silent.
-    text: Brady, "Algerians Balk at French Terms for Peace Talks," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 14, 15
+    text: Thomas F. Brady, "Algerians Balk at French Terms for Peace Talks," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 14, 15
 - src:
     id: cal.1960-07-04.europe-and-the-alliance-france
     rows:
@@ -1448,8 +1538,8 @@ ops:
 - add-words:
     id: cal.1960-07-04.soviet-union
     after: end
-    words: Pittermann is at the plant. He visits a breeding farm at "Wils."
-    text: Rosenthal, "Austrians Ignore Khrushchev Tour," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 9
+    words: Pittermann is at the plant. At "Wils," a state breeding farm, he accepts two prize bulls.
+    text: A. M. Rosenthal, "Austrians Ignore Khrushchev Tour," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 9
 - src:
     id: cal.1960-07-04.soviet-union
     rows:
@@ -1464,17 +1554,41 @@ ops:
     rows:
     - 'https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html: all'
 - add-words:
+    id: cal.1960-07-04.robert-kennedy
+    after: 'A doctors'' report: health "excellent."'
+    words: He releases it, dated June 11, signed by Dr. Eugene J. Cohen and Dr. Janet Travell.
+    text: 'W. H. Lawrence, "Johnson Backers Urge Health Test," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html)'
+- src:
+    id: cal.1960-07-04.robert-kennedy
+    row: https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html
+    on: any statement to the contrary … repudiate the irresponsible statements."
+- add-words:
     id: cal.1960-07-05.state-constitutions-ok
     after: end
     words: A fourth State question, a $35,500,000 bond issue for college buildings, is on the ballot, the *New York Times* reports.
     text: '"Oklahoma to Vote in Primaries Today," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html)'
-- src:
-    id: cal.1960-07-05.state-constitutions-ok
-    rows:
-    - 'https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html: all'
+- follows:
+    id: cal.1960-07-03.soviet-union
+    add:
+    - cal.1960-07-03.soviet-union-4
+- follows:
+    id: cal.1960-07-04.elections-1960-los-angeles-9
+    add:
+    - cal.1960-07-04.elections-1960-2
+- follows:
+    id: cal.1960-07-04.elections-1960-nomination-6
+    add:
+    - cal.1960-07-04.elections-1960
+- follows:
+    id: cal.1960-07-04.europe-and-the-alliance-france-2
+    add:
+    - cal.1960-07-04.europe-and-the-alliance-france
+- check:
+    id: cal.1960-07-02.china-leadership-2
+    text: 'Check: "Nepal Moves Troops," [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3, has seventeen Nepalese captured, ten by Peking''s admission.'
 - check:
     id: cal.1960-07-04.elections-1960-2
-    text: 'Check: the page: 19 as [[w.shesol-mutual-contempt]], 35, gives it; the clipping shows none.'
+    text: 'Check: the page: 19 by [[w.shesol-mutual-contempt]], 35.'
 - tag:
     id: cal.1960-07-04.soviet-union-2
     add:
