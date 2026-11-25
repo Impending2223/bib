@@ -1,10 +1,18 @@
 patch: 2026-11-25-sequence-1961-01
-by: 'Claude (Sonnet, sequence pass: R25c on January 1961), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass: R25c on January 1961), Nov. 25, 2026; audited by Claude (Opus, R25c, R33b), Nov. 25, 2026'
 ops:
 - follows:
     id: cal.1961-01-04.laos-3
     add:
     - cal.1961-01-04.laos-2
+- follows:
+    id: cal.1961-01-05.china-leadership-3
+    add:
+    - cal.1961-01-05.china-leadership-2
+- follows:
+    id: cal.1961-01-05.china-leadership-4
+    add:
+    - cal.1961-01-05.china-leadership-3
 - follows:
     id: cal.1961-01-07.china-leadership-2
     add:
@@ -35,6 +43,10 @@ ops:
     - cal.1961-01-20.transition-and-staff
 - follows:
     id: cal.1961-01-20.robert-kennedy
+    add:
+    - cal.1961-01-20.transition-and-staff
+- follows:
+    id: cal.1961-01-20.states-and-cities
     add:
     - cal.1961-01-20.transition-and-staff
 - follows:

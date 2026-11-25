@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1965-03
-by: 'Claude (Sonnet, sequence pass, March 1965: R25c), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass, March 1965: R25c), Nov. 25, 2026; audited by Claude (Opus), Nov. 25, 2026 (notes/sequence/audit-1965-03.md)'
 ops:
 - follows:
     id: cal.1965-03-01.china-leadership
@@ -78,10 +78,6 @@ ops:
     add:
     - cal.1965-03-23.china-leadership-3
 - follows:
-    id: cal.1965-03-24.school-aid-4
-    add:
-    - cal.1965-03-24.school-aid
-- follows:
     id: cal.1965-03-27.china-leadership-3
     add:
     - cal.1965-03-27.china-leadership
@@ -105,3 +101,71 @@ ops:
     id: cal.1965-03-30.china-leadership-4
     add:
     - cal.1965-03-30.china-leadership
+- follows:
+    id: cal.1965-03-02.china-leadership-2
+    add:
+    - cal.1965-03-02.china-leadership-3
+- follows:
+    id: cal.1965-03-02.china-leadership-9
+    add:
+    - cal.1965-03-02.china-leadership
+- follows:
+    id: cal.1965-03-05.voting-rights
+    add:
+    - cal.1965-03-05.king-2
+- follows:
+    id: cal.1965-03-08.civil-rights-organizations
+    add:
+    - cal.1965-03-08.vietnam
+- follows:
+    id: cal.1965-03-08.voting-rights-selma-11
+    add:
+    - cal.1965-03-08.voting-rights-selma-10
+- follows:
+    id: cal.1965-03-08.voting-rights-selma-12
+    add:
+    - cal.1965-03-08.voting-rights-selma-11
+- follows:
+    id: cal.1965-03-09.voting-rights-selma-3
+    add:
+    - cal.1965-03-09.voting-rights-selma-2
+- follows:
+    id: cal.1965-03-15.china-leadership-10
+    add:
+    - cal.1965-03-15.china-leadership-9
+- follows:
+    id: cal.1965-03-19.china-leadership-8
+    add:
+    - cal.1965-03-19.china-leadership-7
+- follows:
+    id: cal.1965-03-25.alabama
+    add:
+    - cal.1965-03-25.voting-rights-selma
+- follows:
+    id: cal.1965-03-30.china-leadership-16
+    add:
+    - cal.1965-03-30.china-leadership-6
+- follows:
+    id: cal.1965-03-30.china-leadership-17
+    add:
+    - cal.1965-03-30.china-leadership-6
+- edit:
+    id: cal.1965-03-11.civil-rights-the-executive-2
+    base: '79289870'
+    set:
+      n: '[[w.branch-at-canaans-edge]], 89. After [[cal.1965-03-11.voting-rights-2|the call of 10:35 a.m.]]: Branch has the press conference "initiated and scripted by Johnson," and the note cites that call for it (89 and its note). To check: [Johnson and Katzenbach, 10:35 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-nicholas-katzenbach-march-11-1965), Conversation WH6503-06-7059 (Miller Center); *New York Times*, [Mar. 12 at 1](https://timesmachine.nytimes.com/timesmachine/1965/03/12/issue.html) and [Mar. 13, 1965, at 12](https://timesmachine.nytimes.com/timesmachine/1965/03/13/issue.html) (cited by [[w.branch-at-canaans-edge]], 89). See [[cal.1965-03-07.voting-rights]]. Names: Katzenbach, Johnson.'
+- edit:
+    id: cal.1965-03-08.voting-rights-selma-11
+    base: d78a7faa
+    set:
+      n: '[[w.kotz-judgment-days]], 293; [[w.bernstein-guns-or-butter]], 228–29 (Doar, Fred Miller and James Laue of the Community Relations Service; at 4 a.m. the leaders decide to go on). After [[cal.1965-03-08.voting-rights-selma-10|King''s word at Brown Chapel]] that the march will go ahead, in Kotz''s sequence (293). See [[cal.1965-03-08.voting-rights-selma-9]]. Names: Doar, Martin Luther King, Johnson, Frank Johnson.'
+- edit:
+    id: cal.1965-03-08.voting-rights-selma-12
+    base: 68e27a94
+    set:
+      n: '[[w.kotz-judgment-days]], 293. After [[cal.1965-03-08.voting-rights-selma-11|Doar''s talk with King]], "seeking a last-minute solution," in Kotz''s sequence (293). To check: *Where He Stood*, television documentary on Collins (WFSU-TV, 1990) (cited by [[w.kotz-judgment-days]], 293 n.31). Check: the hour. See [[cal.1965-03-07.voting-rights]]. Names: Johnson, Collins, Martin Luther King.'
+- edit:
+    id: cal.1965-03-09.voting-rights-selma-3
+    base: f1587b95
+    set:
+      n: '[[w.kotz-judgment-days]], 294–95; [[w.bernstein-guns-or-butter]], 229 (Collins with Lingo and Clark; "everything would be all right"). After [[cal.1965-03-09.voting-rights-selma-2|King''s call to Katzenbach]]: Collins lands "minutes later" (Kotz, 294). To check: [[w.garrow-protest-at-selma]], 85–86; [[w.wagy-governor-leroy-collins-of]], 410–11; [*New York Times*, Mar. 10, 1965](https://timesmachine.nytimes.com/timesmachine/1965/03/10/issue.html), at 1 (cited by [[w.kotz-judgment-days]], 294 nn.33–35). See [[cal.1965-03-08.voting-rights-selma-12]]. Names: Collins, Doar, Martin Luther King, Shuttlesworth, Clark, Lingo, Wallace.'
