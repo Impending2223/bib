@@ -23,7 +23,7 @@ For the owner. The ruling (about 10:45 a.m. PT, "Immediate."): a reception comes
 
 ## What the old rules had cost
 
-- Few links had been struck or taken out on the two old grounds: about twenty in all (fourteen of them in January 1964). The larger effect was on pairs never linked: the readers and auditors of the night before had left them with "nothing says which came first" because the rule told them a printed order was no order.
+- Few links had been struck or taken out on the two old grounds: about two dozen in all (fourteen of them in January 1964). The larger effect was on pairs never linked: the readers and auditors of the night before had left them with "nothing says which came first" because the rule told them a printed order was no order.
 
 ## Finding the links again
 
