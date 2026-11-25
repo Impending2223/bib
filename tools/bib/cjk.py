@@ -23,6 +23,11 @@ STYLE
 2a. A Japanese, Korean or other non-Chinese name the source gives only in characters, read in Pinyin, stands in roman
    in quotation marks with its characters after it, and the characters stay in the line ('led by "Zhunei Meng"
    竹内猛'; the owner, Nov. 23, 2026: "the CJK must also be given, and the transliteration ... without italics").
+2b. The same where the characters hold the name dot (阿卜杜勒·埃尼·易卜拉欣: a foreign name the Chinese source
+   transliterates, of any length): quoted, its characters stay; written in italics, as the readers of Nov. 21, 2026
+   wrote them ("*Abudule Aini Yibulaxin* 阿卜杜勒·埃尼·易卜拉欣"), it is shown in roman in quotation marks with its
+   characters (the data is not changed). A transliterated name with no dot in its characters cannot be told from
+   an italic title (*Hongqi* 红旗) by rule: it is quoted in the data (STYLE 2a).
 3. A dropped run's characters are not collected (no "Characters:" sentence: the owner, above); a person's in the
    note's "Names:" sentence are given after his name at their first appearance on the page (a calendar half, as
    tools/bib/works.py FIRST CITE counts pages; the entries in the page's order, a day's as the day lays them out:
@@ -97,6 +102,8 @@ def _quoted(before):
 
 
 READING = re.compile(r"^[\"“][A-Z][a-z]+(?: [A-Z][a-z]+){0,3}[\"”]$")   # "Zhunei Meng" (STYLE 2a)
+READING_DOT = re.compile(r"^[\"“][A-Z][A-Za-z'’-]*(?: [A-Za-z'’-]+){0,6}[\"”]$")   # "Abudule Aini Yibulaxin" (STYLE 2b)
+ITALIC_NAME = re.compile(r"^\*[A-Z][A-Za-z'’-]*(?: [A-Za-z'’-]+){0,6}\*$")      # *Abudule Aini Yibulaxin* (STYLE 2b)
 OPEN = "([\"“'‘"
 
 
@@ -269,6 +276,14 @@ def split(text):
             continue                                 # words quoted in corner brackets gloss only a quotation
         if not comma and READING.match(lab) and len(m.group("run")) <= 6:
             continue                                 # a non-Chinese name read in Pinyin, quoted: its characters stay (STYLE 2a)
+        if not comma and "·" in m.group("run") and READING_DOT.match(lab):
+            continue                                 # the same, a name with its dot (STYLE 2b)
+        if not comma and "·" in m.group("run") and ITALIC_NAME.match(lab):
+            k = text.rfind(lab, pos, m.start())      # written in italics: shown in roman, quoted, the characters kept
+            if k >= 0:
+                out.append(text[pos:k] + '"' + lab[1:-1] + '"' + text[k + len(lab):m.end()])
+                pos = m.end()
+                continue
         if comma:                                    # ... and only where the label is all it holds ("the" aside)
             inner = re.search(r"\(([^()]*)$", b)
             if not inner or re.sub(r"^(?:the|a|an) ", "", inner.group(1)).rstrip("\"”'’").lstrip("\"“'‘") \

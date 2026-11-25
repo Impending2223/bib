@@ -380,3 +380,22 @@ def test_names_line_stops_at_characters():
     n = "Names: Liu Shaoqi 刘少奇. Characters: Hangzhou 杭州."
     _, body, tail = names_line(n)
     assert body == "Liu Shaoqi 刘少奇" and tail == ". Characters: Hangzhou 杭州."
+
+
+# STYLE 2b: a transliterated foreign name with its dot, written in italics: roman, quoted, the characters kept.
+DOTTED = [
+    ('Chen Yi 陈毅 receives *Abudulake Suxi* 阿卜杜拉克·苏西 and his wife.',
+     'Chen Yi receives "Abudulake Suxi" 阿卜杜拉克·苏西 and his wife.'),
+    ('led by Brigadier *Abudule Aini Yibulaxin* 阿卜杜勒·埃尼·易卜拉欣.',
+     'led by Brigadier "Abudule Aini Yibulaxin" 阿卜杜勒·埃尼·易卜拉欣.'),
+    ('meets "Ai\'ermeisi Awumada" 埃尔梅斯·阿乌马达.', 'meets "Ai\'ermeisi Awumada" 埃尔梅斯·阿乌马达.'),
+    ('In *Hongqi* 红旗 and *Renmin ribao* 人民日报.', 'In *Hongqi* and *Renmin ribao*.'),
+    ('receives *Aijian* 艾坚.', 'receives *Aijian*.'),
+]
+
+
+@pytest.mark.parametrize("text,want", DOTTED)
+def test_dotted_transliteration(text, want):
+    from bib import cjk
+    assert cjk.drop(text) == want
+    assert cjk.drop(want) == want                       # STYLE 6: a line already dropped is not changed
