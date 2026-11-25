@@ -419,6 +419,9 @@ def op_add(series, body, source, report, touched):
         at = [x["id"] for x in sec.entries].index(body["after"]) + 1
     else:
         at = auto_position(sec, e)
+    if isinstance(e.get("src"), dict):           # the map an `add` brings was made on its own line (cuts.py, STYLE 12)
+        from . import cuts as _cuts
+        _cuts.renew(e)
     sec.entries.insert(at, e)
     touched.add(sec)
     report.add("conflict" if dups else "added", eid, f"possible duplicate of {', '.join(dups)}" if dups else f"{lst.abbr} {sec.code or sec.id}")

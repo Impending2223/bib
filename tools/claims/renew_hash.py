@@ -19,7 +19,7 @@ def main():
     for sec in s.lists["cal"].sections:
         for e in sec.entries:
             src = e.get("src")
-            if not isinstance(src, dict) or not src.get("c") or src.get("c") == claims.chash(e.get("c") or ""):
+            if not isinstance(src, dict) or src.get("c") == claims.chash(e.get("c") or ""):
                 continue
             if cuts.renew(e):
                 done.append(e["id"])

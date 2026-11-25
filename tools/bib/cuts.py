@@ -460,8 +460,8 @@ def renew(e):
     numbers do not move (STYLE 6: an edit's line keeps its cuts, merge.op_edit), so an audited edit of the line (R22)
     leaves such a map good. A map with a lettered row, or a row naming a part the line has lost, stays stale."""
     src, c = e.get("src"), e.get("c") or ""
-    if not isinstance(src, dict) or not src.get("c") or src.get("c") == claims.chash(c):
-        return False
+    if not isinstance(src, dict) or src.get("c") == claims.chash(c):
+        return False                         # (a map with no hash, written whole by an `add`, takes one the same way)
     if any(k == "row" for k, _, _ in stored_letters(e)):
         return False
     for r in src.get("rows") or []:
