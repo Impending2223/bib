@@ -703,8 +703,13 @@ ops:
 - add-words:
     id: cal.1967-01-06.china-leadership-3
     after: end
-    words: At a rally in People's Square, 100,000 gather and denounce Chen Pixian, Cao Diqiu and Wei Wenbo; of the Party committee's 56 members and alternates 45 are thrown out.
+    words: 'At a rally in People''s Square, 100,000; three orders, their texts approved by Zhang and Yao: Cao Diqiu no longer recognized as secretary and mayor, Chen Pixian to account for himself, the committee to be reorganized. Of the Party committee''s 56 members and alternates 45 are thrown out; Yao to the Center that evening: the committee "has in effect collapsed completely."'
     item: '[[w.macfarquhar-maos-last-revolution]], 165'
+- add-words:
+    id: cal.1967-01-06.china-leadership-3
+    after: end
+    words: Chen Pixian, Cao Diqiu, Wei Wenbo and Yang Xiguang are struggled at the rally.
+    item: '[[w.mao-zedong-zhuan]], VI, ch. 76 at n.4'
 - names:
     id: cal.1967-01-06.china-leadership-3
     tags:
@@ -916,22 +921,26 @@ ops:
 - add-words:
     id: cal.1968-10-13.china-leadership
     after: end
-    words: 'Mao: "what questions should be raised?" He speaks of Zhang Dingcheng, Wang Renzhong, Tao Zhu, Wang Yanchun, Deng Xiaoping and Jiang Hua, with Zhou''s and Xu Shiyou''s interjections; on the Ninth Congress, "talk about it among yourselves first."'
+    words: 'Mao: "what questions should be raised?" On the members: Zhang Dingcheng no spy, yet absent; Wang Renzhong a hidden traitor and KMT member; Tao Zhu with historical problems; Wang Yanchun no good; Jiang Hua no longer to be protected, Xu Shiyou assenting. On the Ninth Congress: "talk about it among yourselves first."'
     item: '[[w.macfarquhar-maos-last-revolution]], 274'
 - add-words:
     id: cal.1968-10-13.china-leadership
     after: end
-    words: Of the 97 members of the Eighth Central Committee 10 are dead and 40 present; the ten bring the members present to 51 percent.
+    words: 'Of the 97 members of the Eighth Central Committee 10 are dead and 40 present; with the ten alternates raised, 50, 51 percent of 97.'
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 688'
 - names:
     id: cal.1968-10-13.china-leadership
     tags:
+    - name:wang-yanchun
+    - name:xu-shiyou
     - name:zhang-dingcheng
     - name:wang-renzhong
     - name:tao-zhu
     - name:jiang-hua
     - ok:note-substance
     add:
+    - Wang Yanchun
+    - Xu Shiyou
     - Zhang Dingcheng
     - Wang Renzhong
     - Tao Zhu
@@ -1271,13 +1280,23 @@ ops:
 - add-words:
     id: cal.1962-02-07.china-leadership
     after: end
-    words: Yang Shangkun, ill, is absent; Peng Zhen attends; the resolution on Liu Shaoqi's report is adopted.
+    words: Yang Shangkun, ill, is absent.
     item: '[[w.yang-shangkun-riji]], II, 121'
 - add-words:
     id: cal.1962-02-07.china-leadership
     after: end
-    words: 'Zhou: grain short by about 10 billion jin in 1962; eight measures, the first to cut offices, urban population, staff and grain supply; "it is we who have made the mistakes," Mao not to take the responsibility.'
-    item: '[[w.zhou-enlai-nianpu-1949]], II, 455–56'
+    words: Peng Zhen attends; the resolution on Liu Shaoqi's report is adopted.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 173'
+- add-words:
+    id: cal.1962-02-07.china-leadership
+    after: end
+    words: 'Zhou: grain short by about 10 billion jin in 1962; eight measures, the first to cut offices, town population, staff and grain supply.'
+    item: '[[w.zhou-enlai-nianpu-1949]], II, 456'
+- add-words:
+    id: cal.1962-02-07.china-leadership
+    after: end
+    words: 'Zhou: Mao should not take the responsibility, "it is we who have made the mistakes."'
+    item: '[[w.jian-zhou-enlai]], 462'
 - names:
     id: cal.1962-02-07.china-leadership
     tags:
@@ -1331,8 +1350,17 @@ ops:
 - add-words:
     id: cal.1962-08-17.china-leadership
     after: end
-    words: 'Peng Zhen attends; Mao presides. Li Xiannian: purchases less, imports 5.4 million tons last year, 4.7 this; free-market prices halved, grain''s to a quarter. Mao: better let grain, cotton and oil into the free market; have Tan Zhenlin speak of the situation.'
-    item: '[[w.mao-zedong-zhuan]], V, ch. 70 n.48'
+    words: Peng Zhen attends.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 212'
+- add-words:
+    id: cal.1962-08-17.china-leadership
+    after: end
+    words: 'Mao presides. Li Xiannian: grain imports 5.4 million tons last year, 4.7 this; free-market prices halved, porks by half, grains further. On whether grain, cotton and oil may enter the free market, Mao: "Better let it come out in the open"; Liu agrees. To Li: "For the situation let Tan Zhenlin speak; for the difficulties, you."'
+    item: '[[w.mao-zedong-zhuan]], V, ch. 70 at n.48'
+- cite:
+    id: cal.1962-08-17.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 212 (Mao on the free market)'
+    'on': 'Mao presides. Li Xiannian: grain imports 5.4 million tons last year, 4.7 this; free-market prices halved, porks by half, grains further. On whether grain, cotton and oil may enter the free market, Mao: "Better let it come out in the open"; Liu agrees. To Li: "For the situation let Tan Zhenlin speak; for the difficulties, you."'
 - add-words:
     id: cal.1962-08-17.china-leadership
     after: end
@@ -1341,6 +1369,7 @@ ops:
 - names:
     id: cal.1962-08-17.china-leadership
     tags:
+    - name:liu-shaoqi
     - name:peng-zhen
     - name:li-xiannian
     - name:tan-zhenlin
@@ -1349,6 +1378,7 @@ ops:
     - Peng Zhen
     - Li Xiannian
     - Tan Zhenlin
+    - Liu Shaoqi
 - add-words:
     id: cal.1963-06-22.civil-rights-bill
     after: end
@@ -1373,8 +1403,13 @@ ops:
 - add-words:
     id: cal.1963-07-10.china-leadership-3
     after: end
-    words: 'Peng Zhen attends. Suslov on Soviet help to Chinese defense: 24 defense enterprises built, 33 building, 60 divisions armed, the documentation for the MiG-17, MiG-19, MiG-21-F and Tu-16; 198 enterprises, 21,000 sets of documentation; Khrushchev''s words to Mao on a joint fleet, July 31, 1958.'
-    item: '[[w.brothers-in-arms]], 383–385'
+    words: Peng Zhen attends.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 283'
+- add-words:
+    id: cal.1963-07-10.china-leadership-3
+    after: end
+    words: 'Suslov on Soviet help to Chinese defense: 24 defense enterprises built, 33 building, 60 divisions armed, the documentation for the MiG-17, MiG-19, MiG-21-F and Tu-16; 198 enterprises, 21,000 sets of documentation; Khrushchev''s words to Mao on a joint fleet, July 31, 1958.'
+    item: '[[w.brothers-in-arms]], 384–85'
 - names:
     id: cal.1963-07-10.china-leadership-3
     tags:
@@ -1408,18 +1443,48 @@ ops:
 - add-words:
     id: cal.1963-11-14.china-leadership-2
     after: end
-    words: Zhou Enlai, Zhu De and Peng Zhen attend. The meeting adopts in principle the reports on the 1963 plan and 1964 draft plan and the 1963 budget, to be given by Li Fuchun and Li Xiannian at the Fourth Session of the Second NPC; Peng Zhen explains the session's procedure and the election of deputies.
+    words: Zhou Enlai, Zhu De and Peng Zhen attend.
+    item: '[[w.zhou-enlai-nianpu-1949]], II, 594 (Zhou)'
+- cite:
+    id: cal.1963-11-14.china-leadership-2
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1891 (Zhu De)'
+    'on': Zhou Enlai, Zhu De and Peng Zhen attend.
+- cite:
+    id: cal.1963-11-14.china-leadership-2
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 299 (Peng Zhen)'
+    'on': Zhou Enlai, Zhu De and Peng Zhen attend.
+- add-words:
+    id: cal.1963-11-14.china-leadership-2
+    after: end
+    words: The meeting adopts in principle the reports on the 1963 plan and 1964 draft plan and the 1963 budget, to be given by Li Fuchun and Li Xiannian at the Fourth Session of the Second NPC.
     item: '[[w.zhou-enlai-nianpu-1949]], II, 594'
+- cite:
+    id: cal.1963-11-14.china-leadership-2
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 584–85'
+    'on': The meeting adopts in principle the reports on the 1963 plan and 1964 draft plan and the 1963 budget, to be given by Li Fuchun and Li Xiannian at the Fourth Session of the Second NPC.
+- add-words:
+    id: cal.1963-11-14.china-leadership-2
+    after: end
+    words: Peng Zhen explains the session's procedure and the election of the next NPC's deputies.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 299'
+- cite:
+    id: cal.1963-11-14.china-leadership-2
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 585'
+    'on': Peng Zhen explains the session's procedure and the election of the next NPC's deputies.
 - add-words:
     id: cal.1963-11-14.china-leadership-2
     after: end
     words: 'Liu relays two measures of Mao''s against modern revisionism, agreed at Hangzhou: wider propaganda; wider relaying, from cadres below grade 17 to all the people.'
     item: '[[w.peng-zhen-nianpu-1902]], IV, 299'
+- cite:
+    id: cal.1963-11-14.china-leadership-2
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 584–85'
+    'on': 'Liu relays two measures of Mao''s against modern revisionism, agreed at Hangzhou: wider propaganda; wider relaying, from cadres below grade 17 to all the people.'
 - add-words:
     id: cal.1963-11-14.china-leadership-2
     after: end
     words: 'The document: unity with over 95 percent of peasants and cadres; work teams from above to rectify cadres; no general reclassification of peasants.'
-    item: '[[w.macfarquhar-origins-of-the-cultural]], III, 344–47'
+    item: '[[w.macfarquhar-origins-of-the-cultural]], III, 346–47'
 - names:
     id: cal.1963-11-14.china-leadership-2
     tags:
@@ -1486,15 +1551,26 @@ ops:
 - add-words:
     id: cal.1964-06-17.china-leadership
     after: end
-    words: Peng Zhen attends. Tan Zhenlin is to revise the Later Ten Points and the regulations on poor and lower-middle peasants' associations; Peng Zhen to draft the Center's directive on socialist education in the cities. The movement is to take four or five years; the League has only 24 million members, over 7 million past the age.
+    words: 'Peng Zhen attends. Decided: Tan Zhenlin to revise the Later Ten Points and the rules for the poor and lower-middle peasants'' associations; Peng Zhen to draft the Center''s directive on socialist education in the cities.'
     item: '[[w.peng-zhen-nianpu-1902]], IV, 339'
+- cite:
+    id: cal.1964-06-17.china-leadership
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1816 (the decisions)'
+    'on': 'Peng Zhen attends. Decided: Tan Zhenlin to revise the Later Ten Points and the rules for the poor and lower-middle peasants'' associations; Peng Zhen to draft the Center''s directive on socialist education in the cities.'
+- add-words:
+    id: cal.1964-06-17.china-leadership
+    after: end
+    words: 'Deng: the movement to take four or five years, in town and country; the League has only 24 million members, over 7 million past the age.'
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1816'
 - names:
     id: cal.1964-06-17.china-leadership
     tags:
+    - name:deng-xiaoping
     - name:peng-zhen
     - name:tan-zhenlin
     - ok:note-substance
     add:
+    - Deng Xiaoping
     - Peng Zhen
     - Tan Zhenlin
 - add-words:
@@ -1558,17 +1634,33 @@ ops:
 - add-words:
     id: cal.1964-10-16.china-leadership-5
     after: end
-    words: 'Zhu De, Dong Biwu, Peng Zhen and Li Fuchun are with them; more than 3,000 who wrote and played the epic are present. The bomb exploded at 3 p.m.; Zhou: "We have successfully tested our first atomic bomb!"'
+    words: Deng Xiaoping, Zhu De, Dong Biwu, Peng Zhen and Li Fuchun are with them.
     item: '[[w.deng-xiaoping-nianpu-1904]], III, 1833'
+- cite:
+    id: cal.1964-10-16.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 363'
+    'on': Deng Xiaoping, Zhu De, Dong Biwu, Peng Zhen and Li Fuchun are with them.
+- add-words:
+    id: cal.1964-10-16.china-leadership-5
+    after: end
+    words: More than 3,000 who made and played the epic are there; the bomb exploded at 3 p.m.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 363'
+- add-words:
+    id: cal.1964-10-16.china-leadership-5
+    after: end
+    words: 'Zhou: "We have successfully tested our first atomic bomb!"'
+    item: '[[w.jian-zhou-enlai]], 517'
 - names:
     id: cal.1964-10-16.china-leadership-5
     tags:
+    - name:deng-xiaoping
     - name:zhu-de
     - name:dong-biwu
     - name:peng-zhen
     - name:li-fuchun
     - ok:note-substance
     add:
+    - Deng Xiaoping
     - Zhu De
     - Dong Biwu
     - Peng Zhen
@@ -1612,8 +1704,22 @@ ops:
 - add-words:
     id: cal.1964-12-20.china-leadership
     after: end
-    words: 'Liu declines to chair and speaks first. Mao names Zhang Linzhi, by Yang Jisheng''s account, as a four-unclean cadre in power. Twenty percent would be some 140 million people. Bo Yibo and Li Xiannian: strike the power holders first.'
-    item: '[[w.mao-zedong-zhuan]], VI, ch. 73'
+    words: 'Liu declines to chair and speaks first. Mao: 20 percent of 700 million would be 140 million. Deng: the target in the end a few percent. Liu: the main contradiction is between the four cleans and the four uncleans; Tao Zhu agrees; Mao: "not subject to man''s will."'
+    item: '[[w.mao-zedong-zhuan]], VI, ch. 73 at n.35'
+- add-words:
+    id: cal.1964-12-20.china-leadership
+    after: end
+    words: 'By Wang Guangmei''s and Liu Yuan''s account, Liu asks who in the Coal or Metallurgy ministry is a capitalist roader in power; Mao: "Zhang Linzhi is!"'
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 89'
+- cite:
+    id: cal.1964-12-20.china-leadership
+    item: '[[w.mao-zedong-zhuan]], VI, ch. 73 at n.35 (a minister named, not by name)'
+    'on': 'By Wang Guangmei''s and Liu Yuan''s account, Liu asks who in the Coal or Metallurgy ministry is a capitalist roader in power; Mao: "Zhang Linzhi is!"'
+- add-words:
+    id: cal.1964-12-20.china-leadership
+    after: end
+    words: 'Bo Yibo: rectify the department''s Party group, the factory''s secretary and director first; Li Xiannian: else the poor and lower-middle peasants are rectified in the end.'
+    item: '[[w.macfarquhar-origins-of-the-cultural]], III, 421'
 - add-words:
     id: cal.1964-12-20.china-leadership
     after: end
@@ -1622,12 +1728,18 @@ ops:
 - names:
     id: cal.1964-12-20.china-leadership
     tags:
+    - name:deng-xiaoping
+    - name:tao-zhu
+    - name:liu-shaoqi
     - name:zhang-linzhi
     - name:bo-yibo
     - name:li-xiannian
     - name:peng-zhen
     - ok:note-substance
     add:
+    - Deng Xiaoping
+    - Tao Zhu
+    - Liu Shaoqi
     - Zhang Linzhi
     - Bo Yibo
     - Li Xiannian
@@ -1640,8 +1752,8 @@ ops:
 - add-words:
     id: cal.1965-02-11.soviet-union
     after: end
-    words: 'Mao: the polemic will run 25 years, then 10,000; Albania is the key; of the Mar. 1 meeting, "we favor your holding it, but we shall not go"; unity in ten to fifteen years or earlier.'
-    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 913–921'
+    words: 'Mao: the polemic will run 25 years, then 10,000; of the Mar. 1 meeting, "we favor your holding it, but we shall not go"; while the Albanian question stands, no meeting; the two parties may unite in some ten years. Kosygin: sooner.'
+    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 914–20'
 - add-words:
     id: cal.1965-02-11.soviet-union
     after: end
@@ -1650,6 +1762,7 @@ ops:
 - edit:
     id: cal.1965-02-11.soviet-union
     base: 8f6bea21
+    kind: reword
     set:
       time: 1965-02-11T02:00Z
       time_zone: Asia/Shanghai
@@ -1767,8 +1880,12 @@ ops:
 - add-words:
     id: cal.1966-05-06.china-leadership-2
     after: end
-    words: Zhang speaks after Kang Sheng; more than 10,000 readers' letters have come in on Yao Wenyuan's article.
-    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 158–159'
+    words: 'Close to eighty present. Kang Sheng speaks eight hours over May 5 and 6; Zhang after him: more than 10,000 readers'' letters have come in on Yao Wenyuan''s article.'
+    item: '[[w.macfarquhar-maos-last-revolution]], 37'
+- cite:
+    id: cal.1966-05-06.china-leadership-2
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 158–59 (the order of the speakers)'
+    'on': 'Close to eighty present. Kang Sheng speaks eight hours over May 5 and 6; Zhang after him: more than 10,000 readers'' letters have come in on Yao Wenyuan''s article.'
 - names:
     id: cal.1966-05-06.china-leadership-2
     tags:
@@ -1829,8 +1946,18 @@ ops:
 - add-words:
     id: cal.1966-08-04.china-leadership-4
     after: end
-    words: 'Nearly 20,000 gather at the East Field; Dong Biwu, Deng Xiaoping, Li Fuchun, Chen Boda, Tao Zhu and Wang Renzhong and the Cultural Revolution Group''s members sit on low stools below the stage; Ye Lin''s self-criticism is found evasive; nine students speak. Of three young people from the attached middle school Zhou says: "I salute you."'
-    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 221–222'
+    words: 'Nearly 20,000 gather at the East Field; Dong Biwu, Deng Xiaoping, Li Fuchun, Chen Boda, Tao Zhu and Wang Renzhong and the Cultural Revolution Group''s members sit on camp stools below the stage; Ye Lin''s self-criticism is found evasive; nine students speak.'
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 221'
+- add-words:
+    id: cal.1966-08-04.china-leadership-4
+    after: end
+    words: Deng speaks briefly.
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1928'
+- add-words:
+    id: cal.1966-08-04.china-leadership-4
+    after: end
+    words: 'Of the three young people from the attached middle school Zhou says: "I salute you."'
+    item: '[[w.macfarquhar-maos-last-revolution]], 88'
 - check:
     id: cal.1966-08-04.china-leadership-4
     text: 'Check: the hour of Zhou''s speech: [[w.yang-jisheng-tiandi-fanfu]], I, 221–222, 1 a.m. Aug. 5; [[w.macfarquhar-maos-last-revolution]], 88, around midnight; [[w.deng-xiaoping-nianpu-1904]], III, 1928, the meeting at 8 p.m.'
