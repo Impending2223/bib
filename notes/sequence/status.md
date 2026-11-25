@@ -5,8 +5,8 @@ One line a month. Brief: `notes/briefs/sequence-<month>.md` (reader, Sonnet), `s
 - On main (PR #219, Nov. 25, 3:20 a.m. PT; 23 months): 1960-07, 1960-09, 1960-10, 1960-11, 1961-01, 1961-04, 1961-05, 1962-10, 1963-11, 1964-01, 1964-04, 1964-06, 1964-08, 1965-03, 1965-04, 1965-07, 1965-08, 1966-06, 1966-08, 1967-01, 1968-01, 1968-03, 1968-08; the two struck links.
 - Merged on the branch at 4:15 a.m., check at 0 errors (27 months; for the next PR): 1960-05, 1961-03, 1963-04, 1963-06, 1963-10, 1963-12, 1964-02, 1964-03, 1964-05, 1964-07, 1964-09, 1964-10, 1964-11, 1965-01, 1965-02, 1965-05, 1965-06, 1965-09, 1965-11, 1966-03, 1966-05, 1966-07, 1966-09, 1967-08, 1968-02, 1968-05, 1968-07.
 - Audited, in the merge run that began at 4:15 a.m. (21 months; no check of its own, the build's check follows): 1960-03, 1960-08, 1960-12, 1961-02, 1961-08, 1962-01, 1962-07, 1962-11, 1963-01, 1963-05, 1963-07, 1964-12, 1966-02, 1966-04, 1966-11, 1967-02, 1967-03, 1967-05, 1967-07, 1968-04, 1968-06.
-- Audited, on the pending list (the session's `pending.txt`): 1963-09, 1960-01, 1961-06, 1960-04.
-- Audit out: 1965-12, 1960-06, 1962-03, 1962-06, 1966-10.
+- Audited, on the pending list (the session's `pending.txt`): 1963-09, 1960-01, 1961-06, 1960-04, 1965-12.
+- Audit out: 1960-06, 1962-03, 1962-06, 1966-10.
 - Reader out: none.
 - Next by size, no brief yet: 1961-07, 1962-12, then the rest by size (`for f in lists/cal/19*.yaml; do echo "$(grep -c '^  - id: ' $f) $f"; done | sort -rn`). 80 months have briefs.
 - What the audits have shown so far: a reader's links from the entries' own words hold about nine in ten; links from the printed order of a day's items in a chronology or a volume of speeches do not (January 1964: 16 of 36 struck; R25c now says so); each audit adds about a third again.

@@ -67,6 +67,10 @@ ops:
 - edit:
     id: cal.1965-12-27.vietnam
     base: 40347aca
+    unset:
+    - time_range
+    - time_band
+    - range_basis
     set:
       time: 1965-12-28T03:00Z
       time_zone: America/New_York
