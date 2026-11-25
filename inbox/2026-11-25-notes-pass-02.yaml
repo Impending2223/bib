@@ -948,26 +948,44 @@ ops:
 - add-words:
     id: cal.1968-10-31.china-leadership
     after: end
-    words: The plenum breaks into groups to criticize Zhu De, Chen Yun, Chen Yi, Ye Jianying, Li Fuchun, Li Xiannian and other veterans.
-    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 659–660'
+    words: 'From the start the plenum breaks into groups to criticize Zhu De, Chen Yun, Chen Yi, Ye Jianying, Li Fuchun, Li Xiannian and other veterans.'
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 660'
 - add-words:
     id: cal.1968-10-31.china-leadership
     after: end
-    words: 'Mao: Feng Youlan, Jian Bozan and Wu Han have some use; Wang Hongwen, the worker delegate, is named.'
-    item: '[[w.mao-zedong-zhuan]], VI, ch. 77 nn.38, 51, 52'
-- add-words:
-    id: cal.1968-10-31.china-leadership
-    after: end
-    words: Liu is expelled and dismissed "once and for all."
+    words: 'Liu is expelled and dismissed "once and for all"; Chen Shaomin alone does not raise her hand.'
     item: '[[w.macfarquhar-maos-last-revolution]], 277'
+- cite:
+    id: cal.1968-10-31.china-leadership
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 660 (Chen Shaomin)'
+    'on': 'Liu is expelled and dismissed "once and for all"; Chen Shaomin alone does not raise her hand.'
 - add-words:
     id: cal.1968-10-31.china-leadership
     after: end
-    words: 'Mao: "the meeting wasn''t too bad; in fact it went quite well."'
+    words: 'Mao: Feng Youlan, Jian Bozan and Wu Han still of some use.'
+    item: '[[w.mao-zedong-zhuan]], VI, ch. 77 at n.38'
+- cite:
+    id: cal.1968-10-31.china-leadership
+    item: '[[w.macfarquhar-maos-last-revolution]], 280 (Jian Bozan and Feng Youlan)'
+    'on': 'Mao: Feng Youlan, Jian Bozan and Wu Han still of some use.'
+- add-words:
+    id: cal.1968-10-31.china-leadership
+    after: end
+    words: 'Mao has the worker delegate Wang Hongwen stand: "Too bad there arent more young comrades attending this meeting."'
+    item: '[[w.macfarquhar-maos-last-revolution]], 280'
+- add-words:
+    id: cal.1968-10-31.china-leadership
+    after: end
+    words: 'Mao: "the meeting wasnt too bad; in fact it went quite well."'
     item: '[[w.macfarquhar-maos-last-revolution]], 281'
 - names:
     id: cal.1968-10-31.china-leadership
     tags:
+    - name:chen-shaomin
+    - name:jian-bozan
+    - name:wu-han
+    - name:chen-yi
+    - name:li-xiannian
     - name:zhu-de
     - name:chen-yun
     - name:ye-jianying
@@ -976,6 +994,11 @@ ops:
     - name:wang-hongwen
     - ok:note-substance
     add:
+    - Chen Shaomin
+    - Jian Bozan
+    - Wu Han
+    - Chen Yi
+    - Li Xiannian
     - Zhu De
     - Chen Yun
     - Ye Jianying
