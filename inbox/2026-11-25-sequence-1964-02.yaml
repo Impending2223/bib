@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1964-02
-by: 'Claude (Sonnet, sequence pass: R25c on February 1964), Nov. 25, 2026; notes/sequence/1964-02.md'
+by: 'Claude (Sonnet, sequence pass: R25c on February 1964), Nov. 25, 2026; notes/sequence/1964-02.md. Audited by Claude (Opus), Nov. 25, 2026: notes/sequence/audit-1964-02.md'
 ops:
 - follows:
     id: cal.1964-02-02.china-leadership-6
@@ -77,3 +77,41 @@ ops:
     id: cal.1964-02-29.china-leadership-5
     add:
     - cal.1964-02-29.china-leadership-4
+    - cal.1964-02-29.china-leadership-6
+- follows:
+    id: cal.1964-02-12.china-leadership-5
+    add:
+    - cal.1964-02-12.china-leadership-4
+- follows:
+    id: cal.1964-02-23.china-leadership-9
+    add:
+    - cal.1964-02-23.china-leadership-8
+- follows:
+    id: cal.1964-02-24.china-leadership-3
+    add:
+    - cal.1964-02-24.china-leadership-2
+- edit:
+    id: cal.1964-02-12.china-leadership-5
+    base: e7c32926
+    set:
+      n: '[[w.yang-shangkun-riji]], II, 351 (Feb. 12, 1964). The words: 7时半参加军民联欢，在小礼堂陪同黎笋同志等看戏。10时回家 (II, 351). After [[cal.1964-02-12.china-leadership-4|Mao''s reception of Lê Duẩn]], in the diary''s order: Liu''s dinner 4 to 6:30, then Mao''s reception, then the gathering at 7:30 (II, 351). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Lê Duẩn.'
+- edit:
+    id: cal.1964-02-24.china-leadership-3
+    base: 832827a4
+    set:
+      n: '[[w.zhou-enlai-waijiao-huodong]], 396 (Feb. 24, 1964; 傍晚); [[w.chen-yi-nianpu]], 1016 (Feb. 24, 1964, dusk; Chen Yi with Zhou from Lahore to Dacca 达卡). After [[cal.1964-02-24.china-leadership-2|the picnic at Lahore]]: the dashiji has the picnic, then the flight from Lahore at dusk (396). See [[cal.1964-02-18.china-leadership]]. Names: Zhou Enlai, Bhutto.'
+- edit:
+    id: cal.1964-02-29.china-leadership-5
+    base: 215a08b7
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 625 (Feb. 29, 1964); [[w.zhou-enlai-waijiao-huodong]], 398 (Feb. 29, 1964; 晚上, 结束对锡兰的访问和宋庆龄副主席及代表团离科伦坡回国); [[w.zhou-enlai-waijiao-huodong]], 398 (Mar. 1, 1964; 上午9时25分, 和宋庆龄副主席乘专机回到昆明); [[w.yang-shangkun-riji]], II, 356 (Mar. 1, 1964; Zhou''s party reaches Kunming at 10 a.m., Mar. 1); [[w.chen-yi-nianpu]], 1018 (Feb. 29, 1964, evening, Chen Yi with Soong Ching-ling and Zhou leaves Colombo in the same plane; Mar. 1, 9:25 a.m., at Kunming). After [[cal.1964-02-29.china-leadership-4|the signing of the communiqué]] and [[cal.1964-02-29.china-leadership-6|the Japanese journalists]]: the departure ends the visit, "结束对锡兰的访问后" (dashiji, 398), and both acts were at Colombo. Names: Zhou Enlai, Chen Yi, Song Qingling.'
+- edit:
+    id: cal.1964-02-28.civil-rights-bill
+    base: e8796b74
+    set:
+      n: '[[w.whalen-longest-debate]], 138–39; [[w.purdum-idea-whose-time-has-2014]], 225–27 (Humphrey and Kuchel with Mitchell and Rauh on Friday, Feb. 28; Kuchel: no committee meetings; Humphrey: Russell''s "war of nerves"; all to accept no less than the House bill and keep in touch with McCulloch and Celler); [[w.risen-bill-of-the-century]], 180–82 (Feb. 28, Humphrey and Kuchel meet that afternoon for the first time, Rauh, Wilkins and Mitchell present: quorum rosters, a daily newsletter, title captains, no cloture vote without 67; not the two-speech rule or the words). After [[cal.1964-02-28.civil-rights-bill-2|the 11 a.m. meeting with Katzenbach and Marshall]]: "With the Justice Department''s endorsement in hand, that afternoon Humphrey met for the first time with Kuchel" ([[w.risen-bill-of-the-century]], 181). To check: Stephen Horn, Periodic Log, Feb. 28, 1964, 24–26 (cited by [[w.whalen-longest-debate]], 258). Names: Humphrey, Kuchel, Clarence Mitchell, Rauh, McCulloch, Celler, Dirksen, Russell.'
+      time_range:
+      - 1964-02-28T17:00Z
+      - 1964-02-28T23:00Z
+      time_band: afternoon
+    unset: [range_basis]
