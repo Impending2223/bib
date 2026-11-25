@@ -192,12 +192,11 @@ entries:
     date: '1966-01-10'
     place: hattiesburg
     thread: mississippi
-    c: 'Hattiesburg, Forrest General Hospital, the morning after the attack.{1} Dahmer to J. C. Fairley: "They finally got me."{2} To the Reverend Robert Beech: "I think I made a mistake," reminding him that he had always said it was unwise to be too far out front.{3} Dead at 3:45 p.m.{4}'
-    n: '[[w.branch-pillar-of-fire]], 607. To check: Int. J. C. Fairley, June 20, 1992; Int. Robert Beech, Dec. 8, 1991 (both cited by [[w.branch-pillar-of-fire]], 607). See [[cal.1966-01-10.mississippi]]. Names: Dahmer.'
+    c: 'Hattiesburg, Forrest General Hospital, the morning after the attack.{1} Dahmer to J. C. Fairley: "They finally got me."{2} To the Reverend Robert Beech: "I think I made a mistake," reminding him that he had always said it was unwise to be too far out front.{3}'
+    n: '[[w.branch-pillar-of-fire]], 607. To check: Int. J. C. Fairley, June 20, 1992; Int. Robert Beech, Dec. 8, 1991 (both cited by [[w.branch-pillar-of-fire]], 607). Split under R25b and R17: Branch (607) gives Dahmer''s death its own hour, 3:45 p.m.; it is now an entry. See [[cal.1966-01-10.mississippi]]. Names: Dahmer.'
     src:
-      c: 63d62eb9
       rows:
-        - 'w.branch-pillar-of-fire 607: 1, 2, 3, 4'
+        - 'w.branch-pillar-of-fire 607: 1, 2, 3'
         - 'via x.1992-06-20.int-j-c-fairley-june-20-1992: 2'
         - 'via x.1991-12-08.int-robert-beech-dec-8-1991: 3'
     tags: [name:dahmer-vernon, city:hattiesburg, state:ms]
@@ -275,6 +274,18 @@ entries:
     c: Tanggu 塘沽, Tianjin 天津. On the way Zhu De 朱德 inspects the new port of Tanggu 塘沽新港.{1} He hears Hu Zhaoheng 胡昭衡, mayor of Tianjin 天津市.{2}
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1946. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc@2]
+  - id: cal.1966-01-10.mississippi-4
+    when: Jan. 10
+    date: '1966-01-10'
+    time: 1966-01-10T21:45Z
+    place: hattiesburg
+    thread: mississippi
+    follows:
+      - cal.1966-01-10.mississippi-3
+    c: Dahmer dies at Forrest General Hospital, Hattiesburg, at 3:45 p.m.
+    n: '[[w.branch-pillar-of-fire]], 607. After the morning''s visitors: "The visitors departed. Dahmer went to sleep," then death (607). See [[cal.1966-01-10.mississippi-3]]. Names: Dahmer.'
+    tags: [name:dahmer-vernon, city:hattiesburg, state:ms]
+    time_zone: America/Chicago
   - id: cal.1966-01-11.legislatures-ca
     when: Jan. 11
     date: '1966-01-11'

@@ -1686,8 +1686,8 @@ entries:
     place: hebei
     thread: china-leadership
     also: [china]
-    c: 'Zhou Enlai, in the afternoon, goes to the quake zone for the Center and the State Council: Shijiazhuang, the Xingtai prefectural leaders at 4 p.m., Longyao County at 11 p.m. At the county''s relief headquarters, six points: self-reliance, hard work, rebuilding homes and production; three or four cadres to each brigade; the 63rd Army to command; record the experience; quakes'' laws "we must solve"; cooking pots within two days.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 19–20 (Mar. 9, 1966; afternoon, 下午, to Shijiazhuang; 四时, 4 p.m.; 晚十一时, 11 p.m.). Made public: 2020. Names: Zhou Enlai.'
+    c: 'Zhou Enlai, in the afternoon, goes to the quake zone for the Center and the State Council: Shijiazhuang.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 19 (Mar. 9, 1966; afternoon, 下午, to Shijiazhuang, first, 先到石家庄, for the prefectural committee''s report). Made public: 2020. Split under R25b and R17: the nianpu (III, 19) gives the talk with the Xingtai leaders and the visit to Longyao hours of their own, 四时 and 晚十一时; each is now an entry. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
     time_range:
       - 1966-03-09T04:00Z
@@ -1721,6 +1721,30 @@ entries:
       - 1966-03-08T22:00Z
       - 1966-03-09T04:00Z
     time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1966-03-09.china-leadership-6
+    when: Mar. 9
+    date: '1966-03-09'
+    time: 1966-03-09T08:00Z
+    place: hebei
+    thread: china-leadership
+    also: [china]
+    follows:
+      - cal.1966-03-09.china-leadership-2
+    c: Zhou Enlai talks with the Xingtai prefectural committee's leaders, 4 p.m.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 19 (Mar. 9, 1966; 四时, 4 p.m., after Shijiazhuang, 先到石家庄; where the talk was held not given). Made public: 2020. See [[cal.1966-03-09.china-leadership-2]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1966-03-09.china-leadership-7
+    when: Mar. 9
+    date: '1966-03-09'
+    time: 1966-03-09T15:00Z
+    place: longyao
+    thread: china-leadership
+    also: [china]
+    c: 'Zhou Enlai at Longyao County, 11 p.m. At the county''s relief headquarters, six points: self-reliance, hard work, rebuilding homes and production; three or four cadres to each brigade; the 63rd Army to command; record the experience; quakes'' laws "we must solve"; cooking pots within two days.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 19–20 (Mar. 9, 1966; 晚十一时, 11 p.m.). Made public: 2020. See [[cal.1966-03-09.china-leadership-2]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1966-03-10.vietnam
     when: Mar. 10

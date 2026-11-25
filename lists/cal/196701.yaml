@@ -299,10 +299,9 @@ entries:
     when: Jan. 2
     date: '1967-01-02'
     thread: vietnam-air-war
-    c: Air Force F-4C Phantoms down seven MiG-21s, the biggest air battle of the war; MiG kills 34 in all. The New Year's stand-down ends at 7 a.m., 111 violations recorded, 24 significant.
-    n: '[[w.macv-command-history-1967]], 1255.'
+    c: Air Force F-4C Phantoms down seven MiG-21s, the biggest air battle of the war; MiG kills 34 in all.
+    n: '[[w.macv-command-history-1967]], 1255. Split under R25b and R17: the command''s chronology (1255) gives the end of the New Year''s stand-down its own hour, 0700H; it is now an entry.'
     src:
-      c: 1169d585
       rows:
         - 'w.macv-command-history-1967 1255: all'
   - id: cal.1967-01-02.war-opposition
@@ -453,6 +452,14 @@ entries:
     c: 'Zhou Enlai 周恩来 minutes on Peng Dehuai''s 彭德怀 letter to Mao 毛泽东: read out at the briefing meeting 碰头会; to go to the Chairman, Comrade Lin Biao 林彪 and Comrade Jiang Qing 江青 (who left early) in turn, then to the Peng Dehuai case group''s 彭德怀专案组 files.'
     n: '[[w.peng-dehuai-nianpu]], 801. Made public: 1998. Names: Zhou Enlai, Peng Dehuai, Mao Zedong, Lin Biao, Jiang Qing.'
     tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:peng-dehuai, name:mao-zedong, name:lin-biao, name:jiang-qing, ok:fields-place]
+  - id: cal.1967-01-02.vietnam-air-war-3
+    when: Jan. 2
+    date: '1967-01-02'
+    time: 1967-01-01T23:00Z
+    thread: vietnam-air-war
+    c: The New Year's stand-down ends at 7 a.m., 111 violations recorded, 24 significant.
+    n: '[[w.macv-command-history-1967]], 1255 ("stand-down period ends 0700H": the H zone, UTC+8, Saigon''s clock). See [[cal.1967-01-02.vietnam-air-war-2]].'
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1967-01-03.congress
     when: Jan. 3
     date: '1967-01-03'

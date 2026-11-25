@@ -4653,20 +4653,16 @@ entries:
   - id: cal.1968-05-27.robert-kennedy
     when: May 27
     date: '1968-05-27'
-    time: 1968-05-27T17:30Z
     place: oregon
     thread: robert-kennedy-campaign-primaries
     also: [elections-1968]
-    c: 'Oregon, the day before the vote.{1} McCarthy''s radio spots: Harris''s poll has Kennedy losing to Nixon (the poll: Kennedy 42, Nixon 40; McCarthy 39, Nixon 40).{2} Vanden Heuvel wires Finney, McCarthy''s director in Oregon.{3} Salinger, a statement at the Benson Hotel, 10:30 a.m.: Harris "confirmed the total inaccuracy" of the spots; "I state categorically that Mr. Finney''s 11th hour emergence in this campaign ... has more the purpose of advancing Mr. Humphrey''s campaign than that of Senator McCarthy."{4}'
-    n: '[[w.palermo-in-his-own-right]], 215–16. To check: vanden Heuvel to Finney, telegram, May 27, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 215 n.129); Salinger''s statement, May 27, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 215 n.130). Names: McCarthy, Robert Kennedy, Nixon, vanden Heuvel, Salinger, Humphrey. Check: the poll''s figures from Harris.'
+    c: 'Oregon, the day before the vote.{1} McCarthy''s radio spots: Harris''s poll has Kennedy losing to Nixon (the poll: Kennedy 42, Nixon 40; McCarthy 39, Nixon 40).{2} Vanden Heuvel wires Finney, McCarthy''s director in Oregon.{3}'
+    n: '[[w.palermo-in-his-own-right]], 215–16. To check: vanden Heuvel to Finney, telegram, May 27, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 215 n.129). Split under R25b and R17: Palermo''s note (215 n.130) gives Salinger''s statement its own hour and place, the Benson Hotel, 10:30 a.m.; it is now an entry. Names: McCarthy, Robert Kennedy, Nixon, vanden Heuvel. Check: the poll''s figures from Harris.'
     src:
-      c: 11f0981d
       rows:
-        - 'w.palermo-in-his-own-right 215–16: 1, 2, 3, 4'
-        - 'via w.palermo-in-his-own-right 215 n.129: 2'
-        - 'via w.palermo-in-his-own-right 215 n.130: 3'
-    tags: [name:mccarthy-eugene-j, name:kennedy-robert-f, name:nixon-richard-m, name:vanden-heuvel-william-j, name:salinger-pierre, name:humphrey-hubert-h, state:or]
-    time_zone: America/Los_Angeles
+        - 'w.palermo-in-his-own-right 215–16: 1, 2, 3'
+        - 'via w.palermo-in-his-own-right 215 n.129: 2, 3'
+    tags: [name:mccarthy-eugene-j, name:kennedy-robert-f, name:nixon-richard-m, name:vanden-heuvel-william-j, state:or]
   - id: cal.1968-05-27.elections-1968
     when: May 27
     date: '1968-05-27'
@@ -4895,6 +4891,19 @@ entries:
       - 1968-05-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1968-05-27.robert-kennedy-campaign-primaries-4
+    when: May 27
+    date: '1968-05-27'
+    time: 1968-05-27T17:30Z
+    place: portland
+    thread: robert-kennedy-campaign-primaries
+    also: [elections-1968]
+    follows:
+      - cal.1968-05-27.robert-kennedy
+    c: 'Salinger, a statement at the Benson Hotel, 10:30 a.m.: Harris "confirmed the total inaccuracy" of the spots; "I state categorically that Mr. Finney''s 11th hour emergence in this campaign ... has more the purpose of advancing Mr. Humphrey''s campaign than that of Senator McCarthy."'
+    n: '[[w.palermo-in-his-own-right]], 215–16; 215 n.130 (the place and the hour: "Statement by Pierre Salinger, Benson Hotel, May 27, 1968, 10:30 a.m."). To check: Salinger''s statement, May 27, 1968, 10:30 a.m., RFK Papers, PCP, Press Division, Box 15, JFK Library (cited by [[w.palermo-in-his-own-right]], 215 n.130). Salinger "followed up" vanden Heuvel''s telegram (215). See [[cal.1968-05-27.robert-kennedy]]. Names: Salinger, Humphrey, McCarthy.'
+    tags: [name:salinger-pierre, name:humphrey-hubert-h, name:mccarthy-eugene-j, state:or]
+    time_zone: America/Los_Angeles
   - id: cal.1968-05-28.vietnam-paris
     when: May 28
     date: '1968-05-28'

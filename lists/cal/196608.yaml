@@ -3117,15 +3117,13 @@ entries:
     place: chicago
     thread: mayors
     also: [open-housing]
-    c: 'Chicago.{1} Daley: "I am asking for calm. I will meet with anyone and do anything to prevent what is happening to our city."{2} The Commission on Human Relations, at a noon meeting, proposes a peace conference;{3} Daley telephones Ross Beatty of the Real Estate Board to call one.{4}'
-    n: '[[w.ralph-northern-protest]], 130, 149–50; [[w.anderson-confronting-the-color-line]], 230 (the Commission on Human Relations; Daley at his first press conference in a week); [[w.cohen-american-pharaoh]], 398 (Daley, Aug. 9: stop marching and negotiate; Cody''s moratorium). To check: CCHR minutes, Aug. 9, 1966, Marciniak files (cited by [[w.ralph-northern-protest]], 150 n.62); *Chicago Sun-Times*, 11 August 1966 (cited by [[w.anderson-confronting-the-color-line]], 230 n.60). Names: Daley.'
+    c: 'Chicago.{1} Daley: "I am asking for calm. I will meet with anyone and do anything to prevent what is happening to our city."{2}'
+    n: '[[w.ralph-northern-protest]], 130, 149–50; [[w.anderson-confronting-the-color-line]], 230 (Daley at his first press conference in a week); [[w.cohen-american-pharaoh]], 398 (Daley, Aug. 9: stop marching and negotiate; Cody''s moratorium). Split under R25b and R17: Ralph (150) gives the Commission on Human Relations'' meeting its own hour, noon, and the order of the day after it (the Commission to Daley "later that afternoon"; Daley''s call to Beatty); each is now an entry. Names: Daley.'
     src:
-      c: 9fd271f2
       rows:
-        - 'w.ralph-northern-protest 130, 149–50: 1, 2, 3, 4'
-        - 'w.anderson-confronting-the-color-line 230: 1, 3'
-        - 'via w.anderson-confronting-the-color-line 230 n.60: 1, 3'
-        - 'w.cohen-american-pharaoh 398: 1, 2, 3, 4'
+        - 'w.ralph-northern-protest 130, 149–50: 1, 2'
+        - 'w.anderson-confronting-the-color-line 230: 1'
+        - 'w.cohen-american-pharaoh 398: 1, 2'
     tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-08-09.open-housing-2
     when: Aug. 9
@@ -3320,6 +3318,45 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 195: all'
     tags: [polity:prc, vis:only:prc, name:qi-benyu]
+  - id: cal.1966-08-09.mayors-2
+    when: Aug. 9
+    date: '1966-08-09'
+    time: 1966-08-09T17:00Z
+    place: chicago
+    thread: mayors
+    also: [open-housing]
+    c: The Commission on Human Relations, at a special noon meeting, proposes a conference of the mayor, the civil rights leaders, the Real Estate Board and others.
+    n: '[[w.ralph-northern-protest]], 150 ("a special noon meeting"); [[w.anderson-confronting-the-color-line]], 230 (the Commission "agreed that some effort should be made"; no hour). To check: CCHR minutes, Aug. 9, 1966, Marciniak files (cited by [[w.ralph-northern-protest]], 150 n.62); Chicago Commission on Human Relations, Minutes of Meeting, Aug. 9, 1966; *Chicago Sun-Times*, Aug. 10, 1966 (cited by [[w.anderson-confronting-the-color-line]], 230 n.59). See [[cal.1966-08-09.mayors]].'
+    tags: [state:il, city:chicago]
+    time_zone: America/Chicago
+  - id: cal.1966-08-09.mayors-3
+    when: Aug. 9
+    date: '1966-08-09'
+    place: chicago
+    thread: mayors
+    also: [open-housing]
+    follows:
+      - cal.1966-08-09.mayors-2
+    c: The Commission on Human Relations puts its proposal to Daley; the city's leadership to be convened, but not under the mayor's or the city's auspices.
+    n: '[[w.ralph-northern-protest]], 150 ("Later that afternoon"; the caucus at City Hall against the city''s sponsoring it); [[w.anderson-confronting-the-color-line]], 230 ("later in the day"). To check: Chicago Commission on Human Relations, Minutes of Meeting, Aug. 9, 1966; *Chicago Sun-Times*, Aug. 10, 1966 (cited by [[w.anderson-confronting-the-color-line]], 230 n.59). After the noon meeting (Ralph, 150). See [[cal.1966-08-09.mayors]]. Names: Daley.'
+    tags: [state:il, city:chicago, name:daley-richard-j]
+    time_range:
+      - 1966-08-09T17:00Z
+      - 1966-08-09T23:00Z
+    time_band: afternoon
+    time_zone: America/Chicago
+    range_basis: record
+  - id: cal.1966-08-09.mayors-4
+    when: Aug. 9
+    date: '1966-08-09'
+    place: chicago
+    thread: mayors
+    also: [open-housing]
+    follows:
+      - cal.1966-08-09.mayors-3
+    c: Daley telephones Ross Beatty of the Real Estate Board, who agrees to call a negotiating session.
+    n: '[[w.ralph-northern-protest]], 150; [[w.anderson-confronting-the-color-line]], 230. To check: CCHR minutes, Aug. 9, 1966, Marciniak files (cited by [[w.ralph-northern-protest]], 150 n.63); Chicago Commission on Human Relations, Minutes of Meeting, Aug. 9, 1966; *Chicago Sun-Times*, Aug. 10, 1966 (cited by [[w.anderson-confronting-the-color-line]], 230 n.59). After the meeting with the Commission and the caucus at City Hall (Ralph, 150; Anderson, 230). See [[cal.1966-08-09.mayors]]. Names: Daley.'
+    tags: [state:il, city:chicago, name:daley-richard-j]
   - id: cal.1966-08-10.space
     when: Aug. 10
     date: '1966-08-10'

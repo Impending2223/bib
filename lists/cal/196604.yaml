@@ -2830,8 +2830,10 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     also: [vietnam-air-war]
-    c: 'The Secretariat''s secret cable no. 36 to the committees of Hanoi, Haiphong, Thái Nguyên and a dozen provinces: two planes struck Nam Định at 6:27 a.m. Apr. 14 by surprise, with heavy loss of life and houses; the city still too full, the alert late; the committees reminded to stand ready.'
-    n: '*Điện mật của Ban Bí thư số 36 gửi Thành uỷ Hà Nội, Hải Phòng, Thái Nguyên và các Tỉnh uỷ* (the title the editors''). [[w.van-kien-dang-toan]], XXVII, 118–19. Made public: 2003.'
+    follows:
+      - cal.1966-04-14.vietnam-air-war-2
+    c: 'The Secretariat''s secret cable no. 36 to the committees of Hanoi, Haiphong, Thái Nguyên and a dozen provinces on the strike on Nam Định: the city still too full, the alert late; the committees reminded to stand ready.'
+    n: '*Điện mật của Ban Bí thư số 36 gửi Thành uỷ Hà Nội, Hải Phòng, Thái Nguyên và các Tỉnh uỷ* (the title the editors''). [[w.van-kien-dang-toan]], XXVII, 118–19. Made public: 2003. Split under R25b and R17: the cable (XXVII, 118) gives the strike on Nam Định its own hour, 6:27 a.m. ("lúc 6 giờ 27 phút"); it is now an entry, and the cable, which reports it, follows it.'
     tags: [polity:drv, vis:only:drv]
   - id: cal.1966-04-14.china-leadership-3
     when: Apr. 14
@@ -2923,6 +2925,17 @@ entries:
     c: 'Peking 北京. Zhu De 朱德 presides over the enlarged thirtieth meeting of the Third NPC Standing Committee 第三届全国人大常委会, which hears Shi Ximin 石西民, Vice-Minister of Culture 文化部, on the cultural revolution.{1} Zhu De speaks, asking all to read the thirty-two books of Marx, Engels, Lenin and Stalin: "Now, when I have nothing else to do, I read every day, new books and old. The new books are Chairman Mao''s; the old, those of Marx, Engels, Lenin and Stalin. I find them interesting, and urge you all to read them."{2}'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1950–1951. Made public: 2016. Names: Zhu De, Shi Ximin.'
     tags: [polity:prc, name:zhu-de, vis:only:prc@2, name:shi-ximin]
+  - id: cal.1966-04-14.vietnam-air-war-2
+    when: Apr. 14
+    date: '1966-04-14'
+    time: 1966-04-13T23:27Z
+    place: nam-dinh
+    thread: vietnam-air-war
+    also: [vietnam-hanoi]
+    c: Two planes strike Nam Định, 6:27 a.m., by surprise, with heavy loss of life and houses.
+    n: '[[w.van-kien-dang-toan]], XXVII, 118 (the Secretariat''s cable no. 36: "lúc 6 giờ 27 phút, hai máy bay địch"). Made public: 2003. See [[cal.1966-04-14.vietnam-hanoi-2]].'
+    tags: [polity:drv, vis:only:drv]
+    time_zone: Asia/Bangkok
   - id: cal.1966-04-15.opinion
     when: Apr. 15
     date: '1966-04-15'

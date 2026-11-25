@@ -133,6 +133,7 @@ The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026
 - write the thread index by hand, or `s:` on calendar entries;
 - edit `published.yaml` by hand;
 - push to `main` with errors from `./bib check`.
+- write a Drive file id, a file's name or size, or anything else about a copy, into a card's note or an entry's note: the site prints both. A copy's id goes in the work's book-check file or `notes/drive-cards-2026-11-25.tsv` (Nov. 24, 2026: an inventory run put Drive ids into 36 cards' notes and they reached the site).
 - hard-wrap a Markdown file: a paragraph or a list item is one line (the owner, Nov. 5, 2026: "unwrap them all, fix the scripts"; `notes/guide/entries.md`; `tools/bib/mdwrap.py`); every brief for an agent that writes a `.md` says so.
 
 ## Topic guides (`notes/guide/`; read the one your task touches)

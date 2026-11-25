@@ -438,18 +438,17 @@ entries:
     time_zone: America/New_York
     range_basis: kind
   - id: cal.1966-07-02.states-and-cities-omaha
-    when: July 2–7
+    when: July 2–4
     date: '1966-07-02'
     place: omaha
     thread: states-and-cities
-    c: Omaha. Negro youths at the Safeway and Skaggs lot at 24th and Lake, the night of July 2; rocks at a police car, windows broken and fires on North 24th Street through the holiday weekend; a boy of fifteen shot in the leg by police.{1} July 5, after 12:30 a.m., the police ask for the Guard; Mayor Sorensen keeps police and 128 Guardsmen on alert until Thursday. He meets a hundred young men at the North Side YMCA.{2}
-    n: '[[w.howard-then-the-burnings-began]], 82–85; [[w.peirce-great-plains-states-of]], 217 (the riots, three days). The time is the first day''s. Check: Omaha''s clock in July 1966 (daylight time or not); the range takes both readings. Names: Sorensen.'
+    c: Omaha. Negro youths at the Safeway and Skaggs lot at 24th and Lake, the night of July 2; rocks at a police car, windows broken and fires on North 24th Street through the holiday weekend; a boy of fifteen shot in the leg by police.{1}
+    n: '[[w.howard-then-the-burnings-began]], 82–85; [[w.peirce-great-plains-states-of]], 217 (the riots, three days). The hours (Howard, 84–85): Saturday evening, July 2, the youths gather; 12:49 a.m., a woman calls the police; 1 a.m., the property violence begins. The time is the first day''s. Check: Omaha''s clock in July 1966 (daylight time or not); the range takes both readings. Split under R25b and R17: Howard (85) gives the call for the Guard and the Guard''s march their own hours, 12:30 and 1:10 a.m., July 5; they, the mayor''s order and his meeting at the YMCA are now entries.'
     src:
-      c: c5af2256
       rows:
-        - 'w.howard-then-the-burnings-began 82–85: 1, 2'
+        - 'w.howard-then-the-burnings-began 82–85: 1'
         - 'w.peirce-great-plains-states-of 217: 1'
-    tags: [state:ne, city:omaha, name:sorensen-a-v]
+    tags: [state:ne, city:omaha]
     short: Omaha
     time_range:
       - 1966-07-03T03:00Z
@@ -1190,6 +1189,44 @@ entries:
     c: Zhu De 朱德 meets Osman Dana 欧斯曼·达纳, former minister and deputy of the Republic of Lebanon 黎巴嫩共和国.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1954. Names: Zhu De.'
     tags: [polity:prc, polity:lebanon, name:zhu-de]
+  - id: cal.1966-07-05.states-and-cities
+    when: July 5
+    date: '1966-07-05'
+    place: omaha
+    thread: states-and-cities
+    c: Omaha. 12:30 a.m., a hundred police and state troopers move on another crowd at 24th and Lake and, undermanned, ask at once for the National Guard.
+    n: '[[w.howard-then-the-burnings-began]], 85 ("At 12:30 a.m. on Tuesday, July 5"). Check: Omaha''s clock in July 1966 (daylight time or not); the range takes both readings. See [[cal.1966-07-02.states-and-cities-omaha]].'
+    tags: [state:ne, city:omaha]
+    time_range:
+      - 1966-07-05T05:30Z
+      - 1966-07-05T06:30Z
+    time_zone: America/Chicago
+    range_basis: record
+  - id: cal.1966-07-05.states-and-cities-2
+    when: July 5
+    date: '1966-07-05'
+    place: omaha
+    thread: states-and-cities
+    follows:
+      - cal.1966-07-05.states-and-cities
+    c: Omaha. Guardsmen of the 1st Battalion, 134th Infantry, and the 867th Engineer Company, under Brigadier General William Bachman, leave the armory at 69th and Mercy at 1:10 a.m. and reach 24th and Maple at 1:40. The crowd taunts them; no clash.
+    n: '[[w.howard-then-the-burnings-began]], 85. The Guard answers the police''s call of 12:30 a.m. (85). Check: Omaha''s clock in July 1966 (daylight time or not); the range takes both readings. See [[cal.1966-07-02.states-and-cities-omaha]].'
+    tags: [state:ne, city:omaha]
+    time_range:
+      - 1966-07-05T06:10Z
+      - 1966-07-05T07:10Z
+    time_zone: America/Chicago
+    range_basis: record
+  - id: cal.1966-07-05.states-and-cities-3
+    when: July 5
+    date: '1966-07-05'
+    place: omaha
+    thread: states-and-cities
+    follows:
+      - cal.1966-07-05.states-and-cities-2
+    c: Omaha. Mayor Sorensen keeps the police and 128 National Guardsmen on alert until Thursday, to break up any groups at 24th and Lake.
+    n: '[[w.howard-then-the-burnings-began]], 85 (next after the Guard''s march, in Howard''s order). Check: the day of the order. See [[cal.1966-07-02.states-and-cities-omaha]]. Names: Sorensen.'
+    tags: [state:ne, city:omaha, name:sorensen-a-v]
   - id: cal.1966-07-06.vietnam
     when: July 6
     date: '1966-07-06'
@@ -7422,3 +7459,12 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 180: all'
     tags: [polity:prc, vis:only:prc, name:wang-li]
+  - id: cal.1966-07.states-and-cities
+    when: July, after the 5th
+    date: 1966-07
+    at: after 1966-07-05
+    place: omaha
+    thread: states-and-cities
+    c: Omaha, the North Side YMCA, at its director Sam Cornelius's invitation. Mayor Sorensen, Lynch, the public safety director, and L. K. Smith meet a hundred young Negro men, who air grievances on police brutality, joblessness and the lack of recreation.
+    n: '[[w.howard-then-the-burnings-began]], 85 (after the calling of the Guard; no day given). Check: the day. See [[cal.1966-07-02.states-and-cities-omaha]]. Names: Sorensen.'
+    tags: [state:ne, city:omaha, name:sorensen-a-v]

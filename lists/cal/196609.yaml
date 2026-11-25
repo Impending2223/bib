@@ -1559,21 +1559,16 @@ entries:
     date: '1966-09-09'
     place: memphis
     thread: king
-    c: 'Memphis, Lawson''s retreat for SCLC''s staff, nearly forty workers, on morale and Hosea Williams. 6:51 p.m., King to Levison by telephone, the FBI''s wiretap: black power will wane, but "the press is keeping it alive"; "Stokely may do time for the riot."'
-    n: '[[w.branch-at-canaans-edge]], 526–27. To check: SAC, New York, to Director, Sept. 10, 1966, FR-NR (cited by [[w.branch-at-canaans-edge]], 526); Int. James Lawson, Novy. 9, 1983 (Branch) (cited by [[w.branch-at-canaans-edge]], 526); Notes of Memphis retreat, Sept. 1966, A/SC49f14 (cited by [[w.branch-at-canaans-edge]], 527); Int. James Lawson, Nov. 14, 1983 (Branch) (cited by [[w.branch-at-canaans-edge]], 527); minutes of July 26, 1966, board meeting of the American Foundation on Nonviolence, Lowenstein Papers, File 1268, Box 50, UNC (cited by [[w.branch-at-canaans-edge]], 527); Wiretap transcript of telephone conversation between MLK and Stanley Levison, 6:51 p.m., Sept. 9, 1966, FLNY-9-1057a (cited by [[w.branch-at-canaans-edge]], 527); *New York Times*, Sept. 12 (cited by [[w.branch-at-canaans-edge]], 527); 1966, p.49 (cited by [[w.branch-at-canaans-edge]], 527). See [[cal.1966-09-06.georgia]]. Names: King, Lawson, Levison, Carmichael, Williams.'
+    c: Memphis, Lawson's retreat for SCLC's staff, nearly forty workers, on morale and Hosea Williams.
+    n: '[[w.branch-at-canaans-edge]], 526–27. To check: Int. James Lawson, Novy. 9, 1983 (Branch) (cited by [[w.branch-at-canaans-edge]], 526); Notes of Memphis retreat, Sept. 1966, A/SC49f14 (cited by [[w.branch-at-canaans-edge]], 527); Int. James Lawson, Nov. 14, 1983 (Branch) (cited by [[w.branch-at-canaans-edge]], 527); minutes of July 26, 1966, board meeting of the American Foundation on Nonviolence, Lowenstein Papers, File 1268, Box 50, UNC (cited by [[w.branch-at-canaans-edge]], 527). Split under R25b and R17: Branch''s note (527) gives the call to Levison its own hour, the wiretap transcript''s 6:51 p.m.; it is now an entry. See [[cal.1966-09-06.georgia]]. Names: King, Lawson, Williams.'
     src:
-      c: 2d9194fc
       rows:
         - 'w.branch-at-canaans-edge 526–27: all'
-        - 'via x.1966-09-10.sac-new-york-to-director-sept: all'
         - 'via x.1983-11-09.int-james-lawson-novy-9-1983: all'
         - 'via x.1966-09.notes-of-memphis-retreat-sept-1966: all'
         - 'via x.1983-11-14.int-james-lawson-nov-14-1983: all'
         - 'via x.1966-07-26.minutes-of-july-26-1966-board: all'
-        - 'via x.1966-09-09.wiretap-transcript-of-telephone-conversation-between: all'
-        - 'via x.undated.new-york-times-sept-12: all'
-        - 'via x.1966.1966-p-49: all'
-    tags: [name:king-martin-luther-jr, name:lawson-james-m-jr, name:levison-stanley-d, name:carmichael-stokely, name:williams-hosea]
+    tags: [name:king-martin-luther-jr, name:lawson-james-m-jr, name:williams-hosea]
   - id: cal.1966-09-09.black-nationalism
     when: Sept. 9
     date: '1966-09-09'
@@ -1709,6 +1704,18 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 228: all'
     tags: [polity:prc]
+  - id: cal.1966-09-09.king-2
+    when: Sept. 9
+    date: '1966-09-09'
+    time: 1966-09-09T22:51Z
+    place:
+      - memphis
+      - nyc
+    thread: king
+    c: 'King to Levison by telephone, 6:51 p.m., the FBI''s wiretap: black power will wane, but "the press is keeping it alive"; "Stokely may do time for the riot."'
+    n: '[[w.branch-at-canaans-edge]], 527 (the call from Memphis over the wiretapped line, the words quoted); 527, the note (the hour: the wiretap transcript''s title, "6:51 p.m., Sept. 9, 1966"). To check: Wiretap transcript of telephone conversation between MLK and Stanley Levison, 6:51 p.m., Sept. 9, 1966, FLNY-9-1057a (cited by [[w.branch-at-canaans-edge]], 527); SAC, New York, to Director, Sept. 10, 1966, FR-NR (cited by [[w.branch-at-canaans-edge]], 526); *New York Times*, Sept. 12, 1966, 49 (cited by [[w.branch-at-canaans-edge]], 527). Check: whose clock the 6:51 p.m. is (the log is the FBI New York office''s; Eastern assumed). See [[cal.1966-09-09.king]]. Names: King, Levison, Carmichael.'
+    tags: [name:king-martin-luther-jr, name:levison-stanley-d, name:carmichael-stokely]
+    time_zone: America/New_York
   - id: cal.1966-09-10.robert-kennedy
     when: Sept. 10
     date: '1966-09-10'
@@ -1983,8 +1990,10 @@ entries:
     when: Sept. 11
     date: '1966-09-11'
     thread: china-leadership
-    c: Mao circles, at dawn, Tao Zhu's draft *Renmin ribao* editorial "Workers, Peasants and Revolutionary Students, Unite Under the Banner of Mao Zedong Thought," sent at 1 a.m. with the note that it follows Mao's instruction and was revised by the Cultural Revolution Group. Printed that day.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 11, 1966. Made public: 2013. Names: Mao Zedong, Tao Zhu.'
+    follows:
+      - cal.1966-09-11.china-leadership-5
+    c: Mao circles, at dawn, Tao Zhu's draft *Renmin ribao* editorial "Workers, Peasants and Revolutionary Students, Unite Under the Banner of Mao Zedong Thought." Printed that day.
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 11, 1966 (晨, at dawn). Made public: 2013. Split under R25b and R17: the nianpu gives Tao Zhu''s sending of the draft its own hour, 1 a.m. (本日晨一时); it is now an entry, and Mao''s reading follows it. Names: Mao Zedong, Tao Zhu.'
     tags: [name:mao-zedong, name:tao-zhu, polity:prc, vis:only:prc]
     time_range:
       - 1966-09-10T21:00Z
@@ -2025,6 +2034,16 @@ entries:
       - 1966-09-11T11:00Z
       - 1966-09-11T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1966-09-11.china-leadership-5
+    when: Sept. 11
+    date: '1966-09-11'
+    time: 1966-09-10T17:00Z
+    place: peking
+    thread: china-leadership
+    c: Tao Zhu sends Mao the draft *Renmin ribao* editorial "Workers, Peasants and Revolutionary Students, Unite Under the Banner of Mao Zedong Thought," at 1 a.m., with the note that it follows Mao's instruction and was revised by the Cultural Revolution Group.
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 11, 1966 (本日晨一时送审, sent at 1 a.m.). Made public: 2013. See [[cal.1966-09-11.china-leadership]]. Names: Tao Zhu, Mao Zedong.'
+    tags: [name:tao-zhu, name:mao-zedong, polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
   - id: cal.1966-09-12.mississippi
     when: Sept. 12–17
@@ -4643,14 +4662,16 @@ entries:
         - 'w.pu-weihua-zalan-jiu-shijie 228: all'
     tags: [polity:prc]
   - id: cal.1966-09-27.states-and-cities-san-francisco
-    when: Sept. 27–Oct. 2
+    when: Sept. 27
     date: '1966-09-27'
+    time: 1966-09-27T21:30Z
     place: san-francisco
     thread: civil-disorders
     also: [states-and-cities]
-    c: 'San Francisco. A policeman shoots Matthew Johnson, 16, running from a stolen car at Hunters Point, Sept. 27; rioting at Hunters Point and in the Fillmore. Shelley asks for the Guard, 11:39 p.m.; Brown sends 2,000; a curfew. Sept. 28, police fire into the Bayview Community Center. Emergency ended Oct. 2. The police report: 457 arrested, 160 hurt.'
-    n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it. To check: [[w.crowe-prophets-of-rage]]. See [[cal.1965-08-11.states-and-cities]]. Names: Shelley, Brown, Matthew Johnson.'
-    tags: [state:ca, city:san-francisco, name:johnson-matthew, name:shelley-john-f, name:brown-edmund-g]
+    c: San Francisco. A policeman shoots Matthew Johnson, 16, running from a stolen car at Hunters Point, Sept. 27.
+    n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it (read Nov. 25, 2026: the officer at the car at 2:30 p.m.; the police told of the shooting at 3:10 p.m.; *128 Hours*, 2–4). To check: [[w.crowe-prophets-of-rage]]. Split under R25b and R17: the article, after *128 Hours*, gives the riot, Shelley''s call and Brown''s order hours of their own (7:35, 11:39 and 11:44 p.m.), and the shooting into the Bayview Community Center and the end of the emergency days of their own; each is now an entry. See [[cal.1965-08-11.states-and-cities]]. Names: Matthew Johnson.'
+    tags: [state:ca, city:san-francisco, name:johnson-matthew]
+    time_zone: America/Los_Angeles
   - id: cal.1966-09-27.vietnam
     when: Sept. 27
     date: '1966-09-27'
@@ -4771,6 +4792,41 @@ entries:
       - 1966-09-27T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1966-09-27.civil-disorders-3
+    when: Sept. 27
+    date: '1966-09-27'
+    time: 1966-09-28T02:35Z
+    place: san-francisco
+    thread: civil-disorders
+    also: [states-and-cities]
+    follows:
+      - cal.1966-09-27.states-and-cities-san-francisco
+    c: San Francisco. A riot declared in progress at Hunters Point, 7:35 p.m.; by 11 p.m. rioting and looting reported in the Fillmore.
+    n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it (read Nov. 25, 2026; *128 Hours*, 7, 10). To check: [[w.crowe-prophets-of-rage]]. See [[cal.1966-09-27.states-and-cities-san-francisco]].'
+    tags: [state:ca, city:san-francisco]
+    time_zone: America/Los_Angeles
+  - id: cal.1966-09-27.civil-disorders
+    when: Sept. 27
+    date: '1966-09-27'
+    time: 1966-09-28T06:39Z
+    place: san-francisco
+    thread: civil-disorders
+    also: [states-and-cities]
+    c: San Francisco. At the police chief's asking, Mayor Shelley telephones Governor Brown, 11:39 p.m., for 2,000 National Guardsmen.
+    n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it (read Nov. 25, 2026; *128 Hours*, 10–11). To check: [[w.crowe-prophets-of-rage]]. See [[cal.1966-09-27.states-and-cities-san-francisco]]. Names: Shelley, Brown.'
+    tags: [state:ca, city:san-francisco, name:shelley-john-f, name:brown-edmund-g]
+    time_zone: America/Los_Angeles
+  - id: cal.1966-09-27.civil-disorders-2
+    when: Sept. 27
+    date: '1966-09-27'
+    time: 1966-09-28T06:44Z
+    place: san-francisco
+    thread: civil-disorders
+    also: [states-and-cities]
+    c: Governor Brown mobilizes the 2,000 Guardsmen, 11:44 p.m., and declares a state of emergency in San Francisco; a curfew from midnight to 6 a.m.
+    n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it (read Nov. 25, 2026; *128 Hours*, 10–11). Check: where Brown was. To check: [[w.crowe-prophets-of-rage]]. See [[cal.1966-09-27.states-and-cities-san-francisco]]. Names: Brown.'
+    tags: [state:ca, city:san-francisco, name:brown-edmund-g]
+    time_zone: America/Los_Angeles
   - id: cal.1966-09-28.opinion
     when: Sept. 28
     date: '1966-09-28'
@@ -5086,6 +5142,20 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 227: all'
     tags: [polity:prc, name:zhang-pinghua]
+  - id: cal.1966-09-28.civil-disorders
+    when: Sept. 28
+    date: '1966-09-28'
+    place: san-francisco
+    thread: civil-disorders
+    also: [states-and-cities]
+    c: San Francisco. Police fire into the Bayview Community Center.
+    n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it (read Nov. 25, 2026: an officer reported hurt at 5:43 p.m.; the police then fire on the center; the Guard''s sweep along Third done by 7:15 p.m.; *128 Hours*, 14–15, 42, which the article says leaves out the shooting into the center). To check: [[w.crowe-prophets-of-rage]]. See [[cal.1966-09-27.states-and-cities-san-francisco]].'
+    tags: [state:ca, city:san-francisco]
+    time_range:
+      - 1966-09-29T00:43Z
+      - 1966-09-29T02:15Z
+    time_zone: America/Los_Angeles
+    range_basis: record
   - id: cal.1966-09-29.poverty
     when: Sept. 29
     date: '1966-09-29'
