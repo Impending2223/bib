@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1965-09
-by: 'Claude (Sonnet, sequence pass: R25c on September 1965), Nov. 25, 2026; notes/sequence/1965-09.md'
+by: 'Claude (Sonnet, sequence pass: R25c on September 1965), Nov. 25, 2026; notes/sequence/1965-09.md; audited by Claude (Opus), Nov. 25, 2026: notes/sequence/audit-1965-09.md'
 ops:
 - follows:
     id: cal.1965-09-02.program
@@ -14,6 +14,10 @@ ops:
     add:
     - cal.1965-09-05.china-leadership-6
 - follows:
+    id: cal.1965-09-05.china-leadership
+    add:
+    - cal.1965-09-05.china-leadership-6
+- follows:
     id: cal.1965-09-07.china-leadership-10
     add:
     - cal.1965-09-07.china-leadership-9
@@ -21,6 +25,10 @@ ops:
     id: cal.1965-09-07.china-leadership-3
     add:
     - cal.1965-09-07.china-leadership-10
+- follows:
+    id: cal.1965-09-07.china-leadership-11
+    add:
+    - cal.1965-09-07.china-leadership-3
 - follows:
     id: cal.1965-09-09.china-leadership-3
     add:
@@ -38,9 +46,13 @@ ops:
     add:
     - cal.1965-09-15.china-leadership-13
 - follows:
-    id: cal.1965-09-15.latin-america-dominican-republic
+    id: cal.1965-09-15.china-leadership-15
     add:
-    - cal.1965-09-15.latin-america
+    - cal.1965-09-15.china-leadership-4
+- follows:
+    id: cal.1965-09-15.china-leadership-16
+    add:
+    - cal.1965-09-15.china-leadership-4
 - follows:
     id: cal.1965-09-19.china-leadership-4
     add:
