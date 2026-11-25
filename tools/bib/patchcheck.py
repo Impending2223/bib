@@ -159,7 +159,7 @@ def check(series, path, legacy=False):
                     errors.append(f"{kind} {eid}: no such entry, and not in the ledger")
                 continue
             _, err = addops.FNS[kind](hit[2], body)
-            if err:
+            if err and not isinstance(err, addops.Anchor):   # words the patch itself adds are found in the dry run below
                 errors.append(f"{kind} {eid}: {err}")
         if kind in ("edit", "delete") and body.get("base") is not None and not isinstance(body["base"], str):
             # YAML reads an all-digit rev as a number (STYLE 2): read back as the rev, merge._base; quote it
