@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1962-10
-by: 'Claude (Sonnet, sequence pass: R25c on October 1962), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass: R25c on October 1962), Nov. 25, 2026; audited by Claude (Opus), Nov. 25, 2026'
 ops:
 - follows:
     id: cal.1962-10-01.china-3
@@ -111,3 +111,103 @@ ops:
     id: cal.1962-10-27.missile-crisis-excomm-5
     add:
     - cal.1962-10-27.missile-crisis-excomm-4
+- follows:
+    id: cal.1962-10-19.missile-crisis-warnings-2
+    add:
+    - cal.1962-10-19.missile-crisis-warnings-3
+- follows:
+    id: cal.1962-10-19.missile-crisis-2
+    add:
+    - cal.1962-10-19.missile-crisis-8
+- follows:
+    id: cal.1962-10-21.missile-crisis-12
+    add:
+    - cal.1962-10-21.missile-crisis-9
+- follows:
+    id: cal.1962-10-21.missile-crisis-13
+    add:
+    - cal.1962-10-21.missile-crisis-12
+- follows:
+    id: cal.1962-10-21.missile-crisis-11
+    add:
+    - cal.1962-10-21.missile-crisis-13
+- follows:
+    id: cal.1962-10-22.missile-crisis-34
+    add:
+    - cal.1962-10-22.missile-crisis-quarantine-2
+- follows:
+    id: cal.1962-10-22.missile-crisis-38
+    add:
+    - cal.1962-10-22.missile-crisis-37
+- follows:
+    id: cal.1962-10-22.missile-crisis
+    add:
+    - cal.1962-10-22.missile-crisis-diplomacy-4
+- follows:
+    id: cal.1962-10-24.missile-crisis-diplomacy
+    add:
+    - cal.1962-10-24.missile-crisis-4
+- follows:
+    id: cal.1962-10-24.missile-crisis-diplomacy-3
+    add:
+    - cal.1962-10-24.missile-crisis
+- follows:
+    id: cal.1962-10-25.missile-crisis-diplomacy-3
+    add:
+    - cal.1962-10-25.missile-crisis-3
+    - cal.1962-10-25.soviet-union-leadership
+- follows:
+    id: cal.1962-10-26.missile-crisis-9
+    add:
+    - cal.1962-10-26.missile-crisis-3
+- follows:
+    id: cal.1962-10-27.missile-crisis-excomm-4
+    add:
+    - cal.1962-10-27.governors
+- follows:
+    id: cal.1962-10-28.press-and-broadcasting
+    add:
+    - cal.1962-10-28.missile-crisis
+- follows:
+    id: cal.1962-10-28.defense
+    add:
+    - cal.1962-10-28.missile-crisis
+- follows:
+    id: cal.1962-10-28.missile-crisis-settlement
+    add:
+    - cal.1962-10-28.missile-crisis
+- edit:
+    id: cal.1962-10-19.missile-crisis-warnings-2
+    base: fe0a3f3d
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 363–64 (O''Donnell''s and Powers''s account); [[w.salinger-with-kennedy]], 251 (Salinger finds O''Donnell alone in the suite after Kennedy has left for a $100-a-plate Democratic dinner at McCormick Place, Yates not named: "You''re going to have to cut me in pretty quick"). After [[cal.1962-10-19.missile-crisis-warnings-3|the call to Sylvester]], in Salinger''s sequence (251). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: O''Donnell, Salinger, Kennedy.'
+- edit:
+    id: cal.1962-10-21.missile-crisis-12
+    base: 66b229be
+    set:
+      n: '[[w.salinger-with-kennedy]], 258. After [[cal.1962-10-21.missile-crisis-9|Bundy''s briefing]], in Salinger''s sequence (258). Names: Salinger, Kennedy.'
+- edit:
+    id: cal.1962-10-21.missile-crisis-13
+    base: 609ed17c
+    set:
+      n: '[[w.salinger-with-kennedy]], 259. After [[cal.1962-10-21.missile-crisis-12|the talk on Mass]] and the meeting called "within the hour," in Salinger''s sequence (258–59). Check: the hour. Check: Salinger places the meeting "that morning" (259); the 506th NSC sat 2:30 to 4:50 p.m. ([[cal.1962-10-21.missile-crisis-3]]). See [[cal.1962-10-21.missile-crisis-3]]. Names: Kennedy, Salinger, O''Brien.'
+- edit:
+    id: cal.1962-10-21.missile-crisis-11
+    base: a511fa44
+    set:
+      n: '[[w.salinger-with-kennedy]], 260 (they then go over the cables in Manning''s office, where Don May of UPI finds them together). After [[cal.1962-10-21.missile-crisis-13|the President''s instructions]], in Salinger''s sequence (259: "I then left for my meeting with Sylvester and Manning"). Names: Salinger, Sylvester, Manning.'
+- edit:
+    id: cal.1962-10-22.missile-crisis-34
+    base: 95e7f5f3
+    set:
+      n: '[[w.salinger-with-kennedy]], 263. After [[cal.1962-10-22.missile-crisis-quarantine-2|the backgrounder]], in Salinger''s sequence (263). Names: Salinger, Kennedy.'
+- edit:
+    id: cal.1962-10-22.missile-crisis-38
+    base: bcfdbb3e
+    set:
+      n: '[[w.salinger-with-kennedy]], 267. After [[cal.1962-10-22.missile-crisis-37|the calls to the correspondents]], in Salinger''s sequence (267: "I then put in a call to Bill Steven"). See [[cal.1962-10-21.missile-crisis-10]]. Names: Salinger.'
+- edit:
+    id: cal.1962-10-26.missile-crisis-9
+    base: 888a8d7b
+    set:
+      n: '[FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 79](https://history.state.gov/historicaldocuments/frus1961-63v11/d79) (Bromley Smith''s summary record). [[w.sorensen-kennedy]], 711 (the pressures weighed; the leaflet drop prepared, cleared by the President and held). After [[cal.1962-10-26.missile-crisis-3|the boarding]]: McNamara reports on the quarantine and Defense is authorized to release information on the boarding (FRUS, doc. 79). See [[cal.1962-10-25.missile-crisis-9]]. Names: McCone, Bundy, Kennedy.'

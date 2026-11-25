@@ -59,3 +59,12 @@ def test_render_parse_round_trip(n):
 def test_sentence_after_cong():
     assert notemerge.sentences("Pub. L. 87-1, 87th Cong. To check: [[w.b]].") == \
         ["Pub. L. 87-1, 87th Cong.", "To check: [[w.b]]."]
+
+
+def test_items_keep_a_quoted_headline_whole():
+    """A semicolon inside a quoted title is the title's (R26a: "Congress Passes Cuba Sugar Bill; Quits till
+    August"); an unclosed quotation mark leaves the old split."""
+    from tools.bib import notemerge
+    s = 'C. P. Trussell, "Congress Passes Cuba Sugar Bill; Quits till August," [*New York Times*, July 4, 1960](http://x), at 1; [[w.x]], 12'
+    assert notemerge.items(s) == [s.split("; [[")[0], "[[w.x]], 12"]
+    assert notemerge.items('a "b; c') == ['a "b', "c"]

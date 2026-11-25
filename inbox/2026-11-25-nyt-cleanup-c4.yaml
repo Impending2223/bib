@@ -1,5 +1,5 @@
 patch: 2026-11-25-nyt-cleanup-c4
-by: Claude (cleanup of the Times entries of Feb. 18, Sept. 7 and 8, 1960 and Jan. 6, 1968, R26a; no clippings to hand, so each cite is rewritten from what its note held), Nov. 25, 2026
+by: Claude (cleanup of the Times entries of Feb. 18, Sept. 7 and 8, 1960 and Jan. 6, 1968, R26a; no clippings to hand, so each cite is rewritten from what its note held), Nov. 25, 2026; audited the same day (Claude, auditor; the cites held to the audited notes of Nov. 12 and 14; the clippings not on the Drive; notes/nyt/audit-cleanup-c4.md)
 ops:
 - edit:
     id: cal.1960-02-16.cuba
@@ -180,6 +180,8 @@ ops:
     base: ae8f1f0e
     set:
       n: '"Soviet Urges U.N. Accept Red China," [*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html). Names: Gromyko, Hammarskjöld.'
+      c: 'United Nations. The Soviet Union formally asks the General Assembly to consider admitting Communist China. Gromyko, in a message to Hammarskjold, asks that the agenda of the session opening Sept. 20 include "Representation of China in the United Nations," the Nationalist regime to be unseated and the Peking Government seated. An accompanying memorandum calls the exclusion "a source of enormous damage" to the United Nations.'
+    kind: reword
 - edit:
     id: cal.1960-09-06.elections-1960-nixon
     base: 027f41b8
@@ -195,6 +197,8 @@ ops:
     base: 4505cede
     set:
       n: '"Walter Denounces Immigration Plank" (UPI), [*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html). Check: the day of the letter and of its insertion. To check: *Congressional Record*, the letter. Names: Walter, Bowles.'
+      when: By Sept. 6
+    kind: reword
     settles:
     - 'Check: the day: the dispatch is dated Sept. 6 and says the letter "was inserted in the Congressional Record" without giving a day for either.'
 - edit:
@@ -227,6 +231,8 @@ ops:
     base: fae21220
     set:
       n: 'Jacques Nevard, "Resistance Head Warned in Laos," [*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html). Check: the day.'
+      when: By Sept. 6
+    kind: reword
     settles:
     - 'Check: the day: the dispatch of Sept. 6 gives the report and no day for the surrender.'
 - edit:
@@ -259,6 +265,9 @@ ops:
     base: ea2f3948
     set:
       n: '"2 Nations Cut Dominican Ties" (AP), [*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html).'
+      c: 'Buenos Aires. Argentina breaks diplomatic relations with the Dominican Republic, following the recommendation of the Organization of American States. The AP adds that the United States and nearly all the other American republics have taken similar action.'
+      place: buenos-aires
+    kind: reword
 - add-words:
     id: cal.1960-09-06.latin-america-dominican-republic-2
     after: end
@@ -274,11 +283,15 @@ ops:
     base: d29109ca
     set:
       n: '"Speakers Agree on Peace," [*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html). See [[cal.1960-09-05.vietnam]]. Names: Mukhitdinov.'
+      c: 'Hanoi, the third national congress of the Vietnam Lao Động (Communist) party. Nuritdin A. Mukhitdinov, head of the Soviet delegation, repeats the Moscow thesis that war can be prevented because the increased strength of Communist countries has changed the international balance of forces in their favor.'
+    kind: reword
 - edit:
     id: cal.1960-09-06.vietnam-2
     base: 4ee93b37
     set:
       n: '"Speakers Agree on Peace," [*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html). See [[cal.1960-09-06.vietnam]].'
+      c: 'Hanoi, the third national congress of the Vietnam Lao Động party. Li Fuchun, head of the Peking delegation: an "alliance" of Communist forces against imperialism "could prevent war." But "revisionists" are trying to "kill the revolutionary spirit of Marxism and undermine the faith of the working people in general in socialism."'
+    kind: reword
 - edit:
     id: cal.1960-09-07.elections-1960-kennedy-7
     base: 029a7a97
@@ -361,7 +374,9 @@ ops:
     id: cal.1960-09-07.berlin-and-vienna-2
     base: edacdc46
     set:
-      n: Sydney Gruson, "Allies Weighing Berlin Reprisals," [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html).
+      n: 'Sydney Gruson, "Allies Weighing Berlin Reprisals," [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html). Check: the day.'
+      when: By Sept. 8
+    kind: reword
 - edit:
     id: cal.1960-09-07.congo-2
     base: b0a8118f
@@ -618,3 +633,114 @@ ops:
     - Betancourt
     tags:
     - name:betancourt-romulo
+- add:
+    entry:
+      id: cal.1960-02-16.cuba-3
+      when: Feb. 16–17
+      date: '1960-02-16'
+      place: nyc
+      thread: cuba
+      c: New York. Rubottom, Assistant Secretary of State for Inter-American Affairs, holds a private meeting with American business leaders on the Cuban Government's moves toward expropriation of American property and the anti-American policies of the Bank of Cuba.
+      n: 'James Reston, "Capital Considers a Tougher Policy on Castro Regime," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1. Check: the day of each meeting. See [[cal.1960-02-16.cuba]]. Names: Rubottom.'
+      tags: [name:rubottom-roy-r-jr, state:ny, city:new-york]
+- add:
+    entry:
+      id: cal.1960-09-06.latin-america-dominican-republic-3
+      when: Sept. 6
+      date: '1960-09-06'
+      thread: latin-america-dominican-republic
+      c: Uruguay breaks diplomatic relations with the Dominican Republic, following the recommendation of the Organization of American States.
+      n: '"2 Nations Cut Dominican Ties" (AP), [*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html). See [[cal.1960-09-06.latin-america-dominican-republic-2]].'
+- place: {id: cal.1960-02-17.cuba-4, at: washington, basis: n, note: 'the dateline of Reston''s story, Washington ("here")'}
+- place: {id: cal.1960-02-17.latin-america, at: washington, basis: n, note: 'the dateline of Reston''s story, Washington ("here")'}
+- place: {id: cal.1960-09-06.laos-2, at: vientiane, basis: n, note: 'the dateline, Vientiane, Sept. 6'}
+- place: {id: cal.1960-09-06.latin-america-dominican-republic, at: washington, basis: seat, note: 'the State Department'}
+- place: {id: cal.1960-09-07.labor-5, at: washington, basis: n, note: 'after the Court of Appeals hearing in Washington (cal.1960-09-07.labor-3)'}
+- names:
+    id: cal.1960-09-06.vietnam-2
+    add:
+    - Li Fuchun
+    tags:
+    - name:li-fuchun
+- names:
+    id: cal.1960-09-07.congo-9
+    add:
+    - Bomboko
+    tags:
+    - name:bomboko-justin-marie
+- edit:
+    id: cal.1960-02-17.press-and-broadcasting
+    base: 285345e3
+    set:
+      n: 'The President''s News Conference of February 17, 1960, [1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241) (189–99; the note, 199: the hour and the count). Jack Raymond, "Angry President Denies He Misled U.S. on Defenses," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 12; W. H. Lawrence, "Eisenhower Cool to Fight in Party on Second Place," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 17; James Reston, "Capital Considers a Tougher Policy on Castro Regime," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 2; Felix Belair Jr., "President Scoffs at Tour Dangers," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html). Names: Eisenhower.'
+- edit:
+    id: cal.1960-02-17.latin-america-2
+    base: 5daab058
+    set:
+      n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 189. Jack Raymond, "Angry President Denies He Misled U.S. on Defenses," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 12 (the talk); Felix Belair Jr., "President Scoffs at Tour Dangers," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html) (the networks'' hour). Names: Eisenhower.'
+- edit:
+    id: cal.1960-02-17.republican-party
+    base: 83488c84
+    set:
+      n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 190. W. H. Lawrence, "Eisenhower Cool to Fight in Party on Second Place," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 17. Names: Eisenhower.'
+- edit:
+    id: cal.1960-02-17.cuba-2
+    base: 16b2ce81
+    set:
+      n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 190–91. James Reston, "Capital Considers a Tougher Policy on Castro Regime," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 2. Names: Eisenhower.'
+- edit:
+    id: cal.1960-02-17.farm
+    base: 2f6c5071
+    set:
+      n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 191. W. H. Lawrence, "Eisenhower Cool to Fight in Party on Second Place," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 17 (as "one hope" of the message to win Farm Belt votes, not his words). Names: Eisenhower.'
+- edit:
+    id: cal.1960-02-17.latin-america-3
+    base: 146f32b7
+    set:
+      n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 192–93. Felix Belair Jr., "President Scoffs at Tour Dangers," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html) (his words as one "just can''t worry about such things"). Names: Eisenhower, Nixon.'
+- edit:
+    id: cal.1960-02-17.elections-1960-nixon
+    base: 8cd9b369
+    set:
+      n: '[1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241), at 195–96. W. H. Lawrence, "Eisenhower Cool to Fight in Party on Second Place," [*New York Times*, Feb. 18, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/18/issue.html), at 1, 17. Names: Eisenhower, Nixon.'
+- edit:
+    id: cal.1960-09-07.press-and-broadcasting
+    base: 39adeca6
+    set:
+      n: 'The President''s News Conference of September 7, 1960, [1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729) (677–86; the note, 686: the hour and the count). E. W. Kenworthy, "Eisenhower Bids Soviet Stop Aid to Congo Forces," [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 5; Felix Belair Jr., "Religion as Issue Denounced Again by White House," [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 16; Jack Raymond, "President Urges Security Review," [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 11. To check: the transcript, [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 16. Names: Eisenhower.'
+- edit:
+    id: cal.1960-09-07.elections-1960-religion
+    base: 4170a65f
+    set:
+      n: '[1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 678. Felix Belair Jr., "Religion as Issue Denounced Again by White House," [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 16 (question 2: "voicing prejudice—I want"). See [[cal.1960-09-05.elections-1960-religion]]. Names: Eisenhower, Nixon.'
+- edit:
+    id: cal.1960-09-07.elections-1960-3
+    base: 45c5db3c
+    set:
+      n: '[1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 680. Felix Belair Jr., "Religion as Issue Denounced Again by White House," [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 16 (question 5). Names: Eisenhower.'
+- edit:
+    id: cal.1960-09-07.intelligence-4
+    base: 00a40793
+    set:
+      n: '[1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 683. Jack Raymond, "President Urges Security Review," [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 11 (question 11). See [[cal.1960-09-06.intelligence]]. Names: Eisenhower.'
+- edit:
+    id: cal.1960-09-07.congo-10
+    base: c1c40ccb
+    set:
+      n: '[1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 683–84 (the answer corrected on Hagerty''s word to "Russian military crews"). E. W. Kenworthy, "Eisenhower Bids Soviet Stop Aid to Congo Forces," [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 5 (question 12). Names: Eisenhower, Hagerty.'
+- edit:
+    id: cal.1960-09-07.congress
+    base: 79c69e18
+    set:
+      n: '[1960–61 Pub. Papers 677](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=729), at 684–85. Felix Belair Jr., "Religion as Issue Denounced Again by White House," [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html), at 1, 16 (question 17: "throughout the nation"). Names: Eisenhower.'
+- edit:
+    id: cal.1968-01-05.antisubversion
+    base: e2e0b692
+    set:
+      n: '"Hoover Says Reds Use Black Power" (UPI), [*New York Times*, Jan. 6, 1968](https://timesmachine.nytimes.com/timesmachine/1968/01/06/issue.html), at 1, 59; [[w.branch-at-canaans-edge]], 668 (the satisfaction, the opposition, black power). To check: the report itself. Names: Hoover.'
+- names:
+    id: cal.1960-09-05.latin-america
+    add:
+    - Turbay Ayala
+    tags:
+    - name:turbay-ayala-julio-cesar

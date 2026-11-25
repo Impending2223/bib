@@ -69,12 +69,17 @@ PIN_ONLY = re.compile(r"^(?:docs?|nos?|pp?|vols?|nn?|chs?|pts?|§§?)\.?\s*[\[\d
 
 
 def items(s):
-    """A sentence's top-level items (split at semicolons outside brackets and parentheses; an item that is only a
-    pinpoint kept with the cite before it, PIN_ONLY)."""
+    """A sentence's top-level items (split at semicolons outside brackets, parentheses and a quoted title: the
+    headline "Congress Passes Cuba Sugar Bill; Quits till August" is one item's, R26a; the quotation marks counted
+    only where the sentence closes every one it opens; an item that is only a pinpoint kept with the cite before it,
+    PIN_ONLY)."""
     out, depth, cur = [], 0, ""
+    paired, quoted = s.count('"') % 2 == 0, False
     for ch in s:
         depth += (ch in "([") - (ch in ")]")
-        if ch == ";" and depth == 0:
+        if ch == '"' and paired:
+            quoted = not quoted
+        if ch == ";" and depth == 0 and not quoted:
             out.append(cur.strip())
             cur = ""
         else:

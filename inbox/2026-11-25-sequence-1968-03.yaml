@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1968-03
-by: 'Claude (Sonnet, sequence pass, March 1968: R25c), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass, March 1968: R25c), Nov. 25, 2026; audited by Claude (Opus), Nov. 25, 2026 (notes/sequence/audit-1968-03.md)'
 ops:
 - follows:
     id: cal.1968-03-02.robert-kennedy-campaign
@@ -9,6 +9,10 @@ ops:
     id: cal.1968-03-04.china-leadership-2
     add:
     - cal.1968-03-04.china-leadership
+- follows:
+    id: cal.1968-03-05.elections-1968-4
+    add:
+    - cal.1968-03-05.elections-1968-johnson
 - follows:
     id: cal.1968-03-07.robert-kennedy-campaign-decision-2
     add:
@@ -26,17 +30,11 @@ ops:
     add:
     - cal.1968-03-10.robert-kennedy
 - follows:
-    id: cal.1968-03-12.robert-kennedy-campaign-decision
-    add:
-    - cal.1968-03-12.robert-kennedy-campaign-2
-- follows:
     id: cal.1968-03-12.robert-kennedy-campaign
     add:
     - cal.1968-03-12.robert-kennedy-campaign-decision
-- follows:
-    id: cal.1968-03-13.elections-1968
-    add:
-    - cal.1968-03-13.robert-kennedy-campaign-decision-5
+    - cal.1968-03-12.robert-kennedy-campaign-2
+    - cal.1968-03-12.elections-1968
 - follows:
     id: cal.1968-03-14.democratic-party
     add:
@@ -51,17 +49,18 @@ ops:
     - cal.1968-03-14.africa
     - cal.1968-03-14.transition-and-staff
 - follows:
-    id: cal.1968-03-15.economy-gold-2
-    add:
-    - cal.1968-03-15.economy-gold
-- follows:
-    id: cal.1968-03-15.robert-kennedy-campaign-decision-2
-    add:
-    - cal.1968-03-15.robert-kennedy-campaign-2
-- follows:
     id: cal.1968-03-15.robert-kennedy-campaign
     add:
     - cal.1968-03-15.robert-kennedy-campaign-decision-2
+- follows:
+    id: cal.1968-03-15.robert-kennedy-campaign-3
+    add:
+    - cal.1968-03-15.robert-kennedy-campaign
+- follows:
+    id: cal.1968-03-15.robert-kennedy-campaign-2
+    add:
+    - cal.1968-03-15.robert-kennedy-campaign-3
+    - cal.1968-03-15.robert-kennedy-campaign-decision
 - follows:
     id: cal.1968-03-16.robert-kennedy
     add:
@@ -75,9 +74,29 @@ ops:
     add:
     - cal.1968-03-16.robert-kennedy-campaign-2
 - follows:
+    id: cal.1968-03-16.robert-kennedy-2
+    add:
+    - cal.1968-03-16.robert-kennedy-campaign-2
+- follows:
+    id: cal.1968-03-16.robert-kennedy-campaign-3
+    add:
+    - cal.1968-03-16.robert-kennedy-campaign-2
+- follows:
     id: cal.1968-03-17.robert-kennedy-campaign-3
     add:
     - cal.1968-03-17.robert-kennedy
+- follows:
+    id: cal.1968-03-17.robert-kennedy-campaign-4
+    add:
+    - cal.1968-03-17.robert-kennedy-campaign-3
+- follows:
+    id: cal.1968-03-17.robert-kennedy-2
+    add:
+    - cal.1968-03-17.robert-kennedy-campaign-4
+- follows:
+    id: cal.1968-03-17.robert-kennedy-campaign-5
+    add:
+    - cal.1968-03-17.robert-kennedy-2
 - follows:
     id: cal.1968-03-17.robert-kennedy-campaign
     add:
@@ -99,6 +118,10 @@ ops:
     add:
     - cal.1968-03-18.robert-kennedy-campaign-2
 - follows:
+    id: cal.1968-03-18.robert-kennedy-campaign-decision
+    add:
+    - cal.1968-03-18.elections-1968-johnson
+- follows:
     id: cal.1968-03-20.elections-1968-2
     add:
     - cal.1968-03-20.robert-kennedy-campaign-decision
@@ -106,6 +129,10 @@ ops:
     id: cal.1968-03-22.economy-surcharge-3
     add:
     - cal.1968-03-22.economy-surcharge
+- follows:
+    id: cal.1968-03-23.china-leadership-6
+    add:
+    - cal.1968-03-23.china-leadership-3
 - follows:
     id: cal.1968-03-23.robert-kennedy-campaign-2
     add:
@@ -143,12 +170,15 @@ ops:
     add:
     - cal.1968-03-30.vietnam-2
 - follows:
-    id: cal.1968-03-31.elections-1968
+    id: cal.1968-03-31.elections-1968-johnson-5
     add:
     - cal.1968-03-31.elections-1968-johnson-4
     - cal.1968-03-31.elections-1968-johnson-7
-    - cal.1968-03-31.elections-1968-johnson-5
     - cal.1968-03-31.elections-1968-johnson-15
+- follows:
+    id: cal.1968-03-31.elections-1968
+    add:
+    - cal.1968-03-31.elections-1968-johnson-5
     - cal.1968-03-31.elections-1968-johnson-16
 - follows:
     id: cal.1968-03-31.elections-1968-johnson-2
@@ -194,3 +224,38 @@ ops:
     id: cal.1968-03-31.robert-kennedy-campaign-decision
     add:
     - cal.1968-03-31.robert-kennedy
+- edit:
+    id: cal.1968-03-05.elections-1968-4
+    base: 9be10ae5
+    set:
+      n: '[[w.bernstein-guns-or-butter]], 485 (O''Brien''s oral history; McCarthy''s *The Year of the People*, quoted); [[w.obrien-no-final-victories]], 220 (Mar. 5, the filing deadline for the Apr. 30 primary; Donahue, State Senate leader, standing by to file as Johnson''s stand-in; Watson fails to return two calls; Johnson''s silence: O''Brien tells Donahue he cannot file; not McCarthy''s words). After [[cal.1968-03-05.elections-1968-johnson|the breakfast]]: the calls of the afternoon, to the five o''clock deadline, in O''Brien''s sequence (220). Names: O''Brien, Johnson, McCarthy.'
+- edit:
+    id: cal.1968-03-15.robert-kennedy-campaign
+    base: a8add835
+    set:
+      n: '[[w.white-making-of-the-president-1969]], 164; [[w.witcover-85-days]], 83 (Kings Point, the home of Mrs. Anita Richmond, more than a hundred housewives; to a woman, "Well, you can help me in this great effort I''m going to undertake"; not the 175, the nine o''clock or "Yes, I have"). After [[cal.1968-03-15.robert-kennedy-campaign-decision-2|the shuttle to New York]] and the calls from Smith''s apartment, in Witcover''s sequence (82–83). Names: Robert Kennedy.'
+- edit:
+    id: cal.1968-03-15.robert-kennedy-campaign-2
+    base: a383afb5
+    set:
+      n: '[[w.white-making-of-the-president-1969]], 165–66; [[w.branch-at-canaans-edge]], 710 (the White House''s "blood oath" commitments); [[w.thomas-robert-kennedy]], 360 (Friday night at Hickory Hill, a dinner party going on; Walinsky, Sorensen and Schlesinger draft the announcement until after 3 a.m.; Sorensen''s draft wins); [[w.schlesinger-robert-kennedy-and-his]], 854–57 (the side room about 10:30, Sorensen, Dutton, Stevens, Walinsky, Greenfield, Lowenstein; Lowell''s call wishing him luck; the drafts haggled over; Edward Kennedy at six, "Very unsatisfactory"; Schlesinger and vanden Heuvel for endorsing McCarthy; Kennedy: "I''m going ahead"; the statement redrafted by Sorensen after Green Bay); [[w.schlesinger-journals]], 282–83 (a party in progress at Hickory Hill; Dutton and Sorensen dismayed by it; the serious talk with Kennedy, Walinsky, Lowenstein, Greenfield and Stevens, Schlesinger and vanden Heuvel stressing conciliation of McCarthy''s people; bed around 1:30; about four hours later Edward Kennedy back from McCarthy: "Very unsatisfactory," and to vanden Heuvel "Abigail said no"; an hour or so later Kennedy, in pajamas, to Schlesinger, "What do you think I should do?" and, on coming out for McCarthy, "I can''t do that. It would be too humiliating. Kennedys don''t act that way"; at the breakfast table Schlesinger and vanden Heuvel for McCarthy, and Kennedy: "I''m going ahead, and there is no point in talking about anything else"; not "long planned," the hours of five and seven, Dutton at breakfast or Green Bay); [[w.witcover-85-days]], 84–85 (Friday night, Hickory Hill, dinner and the drafting of the announcement in the study by Schlesinger, Sorensen and Walinsky, Lowenstein among the guests; Edward Kennedy flies to Green Bay; not the hours or the words). After [[cal.1968-03-15.robert-kennedy-campaign-3|the Long Island stops]] and the flight back to Washington, in Witcover''s sequence (84). To check: [[w.schlesinger-thousand-days-1965]], 910–21 (cited by [[w.branch-at-canaans-edge]], 710); transcript, "Kennedy Announcement," March 16, 1968, RFK Senate Papers, Box 4, JFK (cited by [[w.branch-at-canaans-edge]], 710); Mike Manatos note, March 16, 1968, Marvin Watson Papers, "Robert Kennedy" Folder, Box 25, LBJ (cited by [[w.branch-at-canaans-edge]], 710); Marvin Watson to LBJ, March 15, 1968, Watson Papers, Box 25, LBJ (cited by [[w.branch-at-canaans-edge]], 710). See [[cal.1968-03-16.elections-1968]]; [[cal.1968-03-14.robert-kennedy]]. Names: Robert Kennedy, Sorensen, Dutton, Schlesinger, vanden Heuvel, Walinsky, Greenfield, Lowenstein, Edward Kennedy.'
+- edit:
+    id: cal.1968-03-16.robert-kennedy-campaign-3
+    base: c57574e7
+    set:
+      n: '[[w.witcover-85-days]], 92. After [[cal.1968-03-16.robert-kennedy-campaign-2|the announcement]] of 10 a.m., during the afternoon session in Edward Kennedy''s office, in Witcover''s sequence (86, 92). See [[cal.1968-03-16.elections-1968-4]]. Names: Mankiewicz, Edward Kennedy.'
+- edit:
+    id: cal.1968-03-17.robert-kennedy-campaign-4
+    base: b150da80
+    set:
+      n: '[[w.witcover-85-days]], 94–95. After [[cal.1968-03-17.robert-kennedy-campaign-3|the South Boston parade]] and the flight to New York, in Witcover''s sequence (94–95). See [[cal.1968-03-16.elections-1968-4]]. Names: Robert Kennedy, Daley.'
+- edit:
+    id: cal.1968-03-17.robert-kennedy-2
+    base: '88724900'
+    set:
+      n: '[[w.palermo-in-his-own-right]], 140; [[w.shesol-mutual-contempt]], 423–24 ("I am surprised that the traditional rules of confidence governing White House conversations are no longer respected by the White House itself"; "only more war, more troops, more killing"; an "incredible distortion"); [[w.witcover-85-days]], 94–95 (Mudd of CBS learns of the commission; at his apartment Kennedy, Salinger, Mankiewicz and vanden Heuvel draft the statement giving the Kennedy version: Sorensen proposed the commission, Johnson asked for names, the meeting with Clifford, the President''s refusal; not the words of the statement). After [[cal.1968-03-17.robert-kennedy-campaign-4|the call to Daley]], in Witcover''s sequence (95). To check: Kennedy''s statement, Mar. 17, 1968, vanden Heuvel Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 140 n.43). See [[cal.1968-03-14.robert-kennedy]]. Names: Robert Kennedy. Check: Palermo, 140: the members Kennedy named those of Clifford''s list but his own name.'
+- edit:
+    id: cal.1968-03-17.robert-kennedy-campaign-5
+    base: 83a6ddd4
+    set:
+      n: '[[w.witcover-85-days]], 96. After [[cal.1968-03-17.robert-kennedy-2|the statement]], in Witcover''s sequence (95–96). See [[cal.1968-03-17.robert-kennedy-2]]. Names: Robert Kennedy, Daley, Sorensen, Johnson.'
