@@ -1,14 +1,41 @@
 patch: 2026-11-25-sequence-1961-08
-by: 'Claude (Sonnet, sequence pass: R25c on August 1961), Nov. 25, 2026; notes/sequence/1961-08.md'
+by: 'Claude (Sonnet, sequence pass: R25c on August 1961), Nov. 25, 2026; notes/sequence/1961-08.md; audited by Claude (Opus), Nov. 25, 2026; notes/sequence/audit-1961-08.md'
 ops:
 - follows: {id: cal.1961-08-12.china-leadership-10, add: [cal.1961-08-12.china-leadership-9]}
 - follows: {id: cal.1961-08-12.china-leadership-3, add: [cal.1961-08-12.china-leadership-11]}
+- check: {id: cal.1961-08-12.china-leadership-3, text: 'Check: the place; the activities chronology (318) names none, and Zhou''s chronology (II, 427) has him back in Peking only on Aug. 13.'}
 - follows: {id: cal.1961-08-13.berlin-and-vienna-2, add: [cal.1961-08-13.berlin-and-vienna]}
 - follows: {id: cal.1961-08-13.china-leadership-4, add: [cal.1961-08-13.china-leadership-9]}
 - follows: {id: cal.1961-08-14.china-leadership-5, add: [cal.1961-08-14.china-leadership-2]}
+- follows: {id: cal.1961-08-16.china-leadership-4, add: [cal.1961-08-16.china-leadership-3]}
+- edit:
+    id: cal.1961-08-16.china-leadership-4
+    base: 82e52e11
+    set:
+      n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 上午). After [[cal.1961-08-16.china-leadership-3|the farewell to Phạm Văn Đồng]]: one item of the morning, the farewell at the Peking airport and then the flight with Nkrumah out of Peking ([[w.zhou-enlai-waijiao-huodong]], 319). Names: Zhou Enlai, Nkrumah.'
 - follows: {id: cal.1961-08-16.china-leadership-6, add: [cal.1961-08-16.china-leadership]}
 - follows: {id: cal.1961-08-18.china-leadership, add: [cal.1961-08-18.china-leadership-10]}
-- follows: {id: cal.1961-08-18.china-leadership-3, add: [cal.1961-08-18.china-leadership-2]}
+- follows: {id: cal.1961-08-19.china-leadership-8, add: [cal.1961-08-19.china-leadership-7]}
+- edit:
+    id: cal.1961-08-19.china-leadership-8
+    base: 24b57817
+    set:
+      n: '[[w.chen-yi-nianpu]], 886. After [[cal.1961-08-19.china-leadership-7|the visits]]: the poems recited at the banquet, written for Goulart''s visit, are on Meijiawu and Pingfeng Hill, two of the day''s visits ([[w.chen-yi-nianpu]], 886). The words: 晚上 (886). Names: Chen Yi, Goulart, Zhou Jianren.'
+- follows: {id: cal.1961-08-19.china-leadership-11, add: [cal.1961-08-19.china-leadership-10]}
 - follows: {id: cal.1961-08-20.china-leadership-8, add: [cal.1961-08-20.china-leadership-7]}
 - follows: {id: cal.1961-08-23.china-leadership-2, add: [cal.1961-08-23.china-leadership]}
+- follows: {id: cal.1961-08-30.press-and-broadcasting, add: [cal.1961-08-30.school-aid, cal.1961-08-30.states-and-cities]}
+- edit:
+    id: cal.1961-08-30.press-and-broadcasting
+    base: 5b112fc3
+    set:
+      n: 'The President''s News Conference, [1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630) (Aug. 30, 1961), at 572–80 (the note, 580: the sixteenth, the place and the hour). After [[cal.1961-08-30.school-aid|the House''s vote]] and [[cal.1961-08-30.states-and-cities|Atlanta''s schools]]: the opening statement praises the four high schools "desegregated today," and the first question on school aid asks of "the House action today on your school aid measure" (572–80). Names: Kennedy.'
 - follows: {id: cal.1961-08-31.testing-2, add: [cal.1961-08-31.testing]}
+- edit:
+    id: cal.1961-08-31.berlin-and-vienna
+    base: ea11db8c
+    set:
+      time: 1961-08-31T20:00Z
+      time_approx: true
+      n: '[FRUS 1961–63, XIV, doc. 135](https://history.state.gov/historicaldocuments/frus1961-63v14/d135) (Bundy''s memorandum of decisions). The President joins the Berlin Steering Group at the White House shortly after 4 p.m.: [FRUS 1961–63, XIV, doc. 135](https://history.state.gov/historicaldocuments/frus1961-63v14/d135), n.2 (Rusk''s appointment book; the President''s log). [[w.schlesinger-robert-kennedy-and-his]], 429–30; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 161 (Norstad authorized to replace civil aircraft with military and to let fighters take "aggressive protective measures"; no authority against anti-aircraft and missile fire, the allies refusing); [[w.poole-joint-chiefs-of-staff]], 150. To check: Robert Kennedy, dictated Sept. 1, 1961, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 430 n.54). See [[cal.1961-08-13.berlin-and-vienna]]. Names: Kennedy, Lemnitzer, Taylor, Robert Kennedy, McNamara. Check: Robert Kennedy''s notes do not date the meeting; Bundy''s memorandum is of Aug. 31.'
+    unset: [time_range, time_band, range_basis]
