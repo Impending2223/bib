@@ -1,9 +1,8 @@
 patch: 2026-11-25-rerule-watch
-by: 'Claude (Sonnet, the re-ruling of R25c: a reception or an act during an event follows its entry), Nov. 25, 2026'
+by: 'Claude (Sonnet, the re-ruling of R25c: a reception or an act during an event follows its entry), Nov. 25, 2026; audited by Claude (Opus), the same day'
 ops:
 - follows: {id: cal.1960-07-02.elections-1960-nomination-13, add: [cal.1960-07-02.elections-1960-2]}
 - follows: {id: cal.1960-07-15.elections-1960-2, add: [cal.1960-07-15.elections-1960]}
-- follows: {id: cal.1960-07-15.elections-1960-3, add: [cal.1960-07-15.elections-1960]}
 - follows: {id: cal.1960-09-12.elections-1960-kennedy-6, add: [cal.1960-09-12.elections-1960]}
 - follows: {id: cal.1961-04-21.cuba-bay-of-pigs-2, add: [cal.1961-04-21.cuba]}
 - follows: {id: cal.1963-05-03.alabama-birmingham-2, add: [cal.1963-05-03.alabama-birmingham]}
@@ -17,7 +16,6 @@ ops:
 - follows: {id: cal.1965-11-27.china-leadership-11, add: [cal.1965-11-27.china-leadership-2]}
 - follows: {id: cal.1966-07-29.china-leadership-2, add: [cal.1966-07-29.china-leadership]}
 - follows: {id: cal.1968-03-31.vietnam-congress, add: [cal.1968-03-31.elections-1968]}
-- follows: {id: cal.1968-03-31.elections-1968-humphrey, add: [cal.1968-03-31.elections-1968]}
 - follows: {id: cal.1968-03-31.elections-1968-mccarthy-3, add: [cal.1968-03-31.elections-1968]}
 - follows: {id: cal.1968-03-31.elections-1968-johnson-6, add: [cal.1968-03-31.elections-1968]}
 - follows: {id: cal.1968-06-04.elections-1968-nixon, add: [cal.1968-06-04.elections-1968]}
@@ -31,12 +29,18 @@ ops:
 - follows: {id: cal.1962-09-25.white-house, add: [cal.1962-09-25.vietnam-2]}
 - follows: {id: cal.1962-09-25.white-house-2, add: [cal.1962-09-25.white-house]}
 - follows: {id: cal.1964-06-04.china-leadership-6, add: [cal.1964-06-04.china-leadership-3]}
-- follows: {id: cal.1964-10-26.elections-1964-johnson, add: [cal.1964-10-26.goldwater]}
+- follows: {id: cal.1964-10-26.elections-1964-johnson, add: [cal.1964-10-26.goldwater], basis: '[[w.perlstein-before-the-storm]], 497 ("outside Madison Square Garden during Goldwater''s rally")'}
 - follows: {id: cal.1964-12-01.press-and-broadcasting, add: [cal.1964-12-01.king]}
-- follows: {id: cal.1965-11-26.china-leadership-8, add: [cal.1965-11-26.china-leadership-7]}
+- follows: {id: cal.1965-11-26.china-leadership-8, add: [cal.1965-11-26.china-leadership-7], basis: '[[w.teiwes-tragedy-of-lin-biao]], 210 (Luo''s report to Mao is the talk at which Mao sends word to Lin Biao; "Zhou Enlai was present")'}
 - follows: {id: cal.1966-10-24.vietnam-asian-trip-2, add: [cal.1966-10-24.vietnam-asian-trip]}
 - follows: {id: cal.1967-10-21.war-opposition-2, add: [cal.1967-10-21.war-opposition]}
 - follows: {id: cal.1967-10-21.war-opposition-3, add: [cal.1967-10-21.war-opposition]}
 - follows: {id: cal.1968-03-31.elections-1968-9, add: [cal.1968-03-31.elections-1968]}
 - follows: {id: cal.1968-03-13.robert-kennedy-campaign-decision-6, add: [cal.1968-03-13.elections-1968], basis: '[[w.witcover-85-days]], 74 (the call made during the meeting)'}
-- follows: {id: cal.1965-12-27.vietnam, add: [cal.1965-12-27.vietnam-pause], basis: '[[w.gibbons-u-s-government-and]], IV, 127 (the calls to Taylor and Rusk made inside McNamara''s talk of 8:05 to 10:55 p.m. Central time; FRUS 1964–68, III, docs. 253–54)'}
+- follows: {id: cal.1965-12-27.vietnam, add: [cal.1965-12-27.vietnam-pause], basis: 'FRUS 1964–68, III, [doc. 253](https://history.state.gov/historicaldocuments/frus1964-68v03/d253) (Johnson''s call to Taylor, 10 p.m. Washington time: "Secretary McNamara was on the line"), inside the talk of 8:05 to 10:55 p.m. Central time ([[w.gibbons-u-s-government-and]], IV, 127)'}
+- follows: {id: cal.1963-06-11.civil-rights-bill-2, add: [cal.1963-06-11.alabama]}
+- follows: {id: cal.1964-12-15.china-leadership-6, add: [cal.1964-12-15.china-leadership]}
+- follows: {id: cal.1966-03-29.china-leadership-9, add: [cal.1966-03-29.soviet-union-leadership-2]}
+- follows: {id: cal.1967-05-13.china-leadership-6, add: [cal.1967-05-13.china-leadership-5]}
+- follows: {id: cal.1969-03-02.china-leadership-6, add: [cal.1969-03-02.china-leadership-5]}
+- follows: {id: cal.1969-10-20.china-leadership-2, add: [cal.1969-10-20.china-leadership]}
