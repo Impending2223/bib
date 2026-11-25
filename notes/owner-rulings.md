@@ -348,3 +348,10 @@ Both reviews: nothing in them waits on the claims work (386 adds, 19 primary row
 
 - Default taken: 35f with three openings: (1) ids of two kinds that cannot be confused (a part `3`, a claim `a3`), so a row, a ruling or a variant can later name either with no change of grammar; (2) a row and a variant may name a field the entry already has (`date`, `time`, `place`) as well as a part (730 of the 1,326 variants are about an hour or a date); (3) 35f does not say a cut may exist only where a source, ruling or variant needs one, only that nothing else needs one yet (the compile folds a cut no source distinguishes). The calendar is not committed to atomic claims. The trial the answer proposes (February 1960, every thread, claims written to a side file, no entry or page touched; the Cuba thread's sources, Jan.–Mar. 1960; two Sonnet passes and an Opus audit; about a million tokens) is queued after the 35f conversion's first year, unless the owner calls for it sooner.
 - Applies to: the 35f design note and converter; the queue (handoff 4aw).
+
+## 35h. `add-words`: an addition as a patch op (the design note, notes/proposals/claims-model.md, section (d); Nov. 24)
+
+The rewritten design note adds a patch op that 35f did not record: `add-words: {id, after, words, item}`, by which a reader adds words to an entry as a part of their own with their source, with no `base`. Without it every addition is a whole-entry `edit`, and two readers adding to one entry conflict.
+
+- Default taken: adopt it. It is the owner's "simple addition to a shared frame" (Nov. 24, 3:35 p.m.: "claim_0" and "claim_1"), and R22's third sentence ("A new unit, from a source cited for it, is added freely") made mechanical. The merge places the words, makes the cut, and cites the source for the new part only.
+- Applies to: addops.py, patchcheck.py, merge.py; R33a; CLAUDE.md's list of patch ops, once built.
