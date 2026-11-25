@@ -582,8 +582,10 @@ entries:
     time: 1963-12-03T15:00Z
     thread: farm
     also: [civil-rights-bill]
+    follows:
+      - cal.1963-12-03.civil-rights-bill
     c: 'Johnson to Daley by telephone, 10 a.m.: the cotton bill, billions in aid to Southern farmers.{1} Daley, who holds the eleven votes of the Chicago delegation, and McCormack, against helping Southerners who vote against civil rights, come round.{2}'
-    n: '[[w.kotz-judgment-days]], 39 (the call by its note; the lobbying of Daley and McCormack). To check: Johnson and Daley, Dec. 3, 1963, 10:00 a.m., Tape K6312.02, PNO 14, LBJ Library; Kenneth O''Donnell, oral history, 71, LBJ Library (cited by [[w.kotz-judgment-days]], 39 nn.71–72). See [[cal.1963-12-03.civil-rights-bill]]. Names: Johnson, Daley, McCormack.'
+    n: '[[w.kotz-judgment-days]], 39 (the call by its note; the lobbying of Daley and McCormack). After [[cal.1963-12-03.civil-rights-bill|the leaders'' breakfast]], at which the leaders offered the cotton bill: the breakfast "began promptly the next morning at 8:45" ([[w.whalen-longest-debate]], 81). To check: Johnson and Daley, Dec. 3, 1963, 10:00 a.m., Tape K6312.02, PNO 14, LBJ Library; Kenneth O''Donnell, oral history, 71, LBJ Library (cited by [[w.kotz-judgment-days]], 39 nn.71–72). See [[cal.1963-12-03.civil-rights-bill]]. Names: Johnson, Daley, McCormack.'
     src:
       c: d559a35a
       rows:
@@ -940,6 +942,8 @@ entries:
     place: washington
     thread: civil-rights-bill
     also: [civil-rights-organizations]
+    follows:
+      - cal.1963-12-04.republican-party-congress
     c: 'Farmer of CORE with Johnson, after Dirksen. Johnson for public accommodations: the story of Zephyr Wright, his cook, who would not take the beagle on the drive to Texas, "Driving through the South is tough enough."{1}'
     n: '[[w.whalen-longest-debate]], 82; [[w.kotz-judgment-days]], 22 (Farmer with Johnson in the Oval Office; the story of Zephyr Wright, his cook, kept from "whites only" restrooms; Johnson lobbying senators by telephone during the talk; no date given); [[w.risen-bill-of-the-century]], 145 (the leaders with Johnson at the White House, undated, on a couch, Johnson in a rocking chair; Farmer asks why; the story of Zephyr Wright and her husband driving his car to Texas; not the beagle or the words). To check: Farmer, interview by Harri Baker, Oct. 1969, LBJ Library (cited by [[w.whalen-longest-debate]], 253). Names: Farmer, Johnson.'
     src:
@@ -1274,20 +1278,24 @@ entries:
     thread: robert-kennedy
     also: [transition-and-staff]
     c: 'Robert Kennedy to Schlesinger on "the revolt of the FBI," the Bureau dealing with the White House past him: something he would gladly occupy himself with in the next eleven months. By Schlesinger''s journal.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 629. Check: the day; the text has "early in December," the journal cited is of Dec. 5. To check: Schlesinger, journal, Dec. 5, 1963, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 629 n.43). Names: Robert Kennedy, Schlesinger.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 629; [[w.schlesinger-journals]], 212 (the journal of Dec. 5: on the flight back from Boston, "a revolt of the FBI since his brother''s death"). Check: the day; the text has "early in December," the journal cited is of Dec. 5. To check: Schlesinger, journal, Dec. 5, 1963, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 629 n.43). Names: Robert Kennedy, Schlesinger.'
     src:
       c: bf352311
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 629: all'
         - 'via w.schlesinger-robert-kennedy-and-his 629 n.43: all'
+        - 'w.schlesinger-journals 212: ?'
     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr]
   - id: cal.1963-12-05.latin-america
     when: Dec. 5
     date: '1963-12-05'
     place: washington
     thread: latin-america
+    follows:
+      - cal.1963-12-05.robert-kennedy
+      - cal.1963-12-05.robert-kennedy-2
     c: 'Washington, lunch and again later in the day. Moyers to Schlesinger on the proposed Under Secretaryship for the Western Hemisphere; asked of Mann, Schlesinger: able, but a "disaster," a free enterprise ideologist who does not believe in the Alliance for Progress, a return to John Foster Dulles; Robert Kennedy might be urged instead. Moyers: sure Johnson would give Robert Kennedy anything he wanted. By Schlesinger''s journal.'
-    n: '[[w.schlesinger-journals]], 213. Made public: [[w.schlesinger-journals]] (2007). Names: Moyers, Schlesinger, Mann, Robert Kennedy, Johnson, Dulles.'
+    n: '[[w.schlesinger-journals]], 213. After [[cal.1963-12-05.robert-kennedy|the flight to Boston and the talk on the way back]]: Schlesinger flew to Boston with Robert Kennedy "this morning" and talked with him "on the way back" (211–12); the luncheon with Moyers, in Washington, follows (213). Made public: [[w.schlesinger-journals]] (2007). Names: Moyers, Schlesinger, Mann, Robert Kennedy, Johnson, Dulles.'
     tags: [name:moyers-bill, name:schlesinger-arthur-m-jr, name:mann-thomas-c, name:kennedy-robert-f, name:johnson-lyndon-b, city:washington, name:dulles-john-foster]
   - id: cal.1963-12-05.transition-and-staff-2
     when: Dec. 5
@@ -1395,6 +1403,27 @@ entries:
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1892. The words: 晚八时，到毛泽东处开会 (1892). Made public: 2016. Names: Zhu De, Mao Zedong.'
     tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1963-12-05.latin-america-2
+    when: Dec. 5
+    date: '1963-12-05'
+    thread: latin-america
+    also: [robert-kennedy]
+    follows:
+      - cal.1963-12-05.latin-america
+    c: 'Evening. Schlesinger to Robert Kennedy on the Latin American post: good for the Alliance, perhaps not for his own future. Kennedy agrees on Mann, but can take no other assignment for eleven months: Justice until the civil rights bill passes, in March or April, then the campaign. Word to go to Johnson that no appointment to the post be made without consulting President Kennedy''s Latin American executors, himself, Shriver, Goodwin and Schlesinger. By Schlesinger''s journal.'
+    n: '[[w.schlesinger-journals]], 213 ("In the evening I brought the matter up with Bobby"). After [[cal.1963-12-05.latin-america|the talk with Moyers]]: the matter is the one Schlesinger had raised with Moyers that day (213). Made public: [[w.schlesinger-journals]] (2007). See [[cal.1963-12-05.latin-america]]. Names: Schlesinger, Robert Kennedy, Mann, Johnson, Shriver, Goodwin.'
+    tags: [name:schlesinger-arthur-m-jr, name:kennedy-robert-f, name:mann-thomas-c, name:johnson-lyndon-b, name:shriver-r-sargent, name:goodwin-richard-n]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-12-05.latin-america
+        from: 2026-11-25-sequence-1963-12
+    time_range:
+      - 1963-12-06T00:00Z
+      - 1963-12-06T03:00Z
+    time_band: evening
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-12-06.opinion
     when: Dec. 6
     date: '1963-12-06'
@@ -2049,7 +2078,7 @@ entries:
     thread: assassination
     also: [robert-kennedy]
     c: 'Robert Kennedy to Schlesinger, by Schlesinger''s journal: no serious doubt Oswald was guilty, but still argument whether alone or in a larger plot, Castro''s or the gangsters''; the FBI thinks him alone, McCone two people shooting.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 615–16. To check: Schlesinger, journal, Dec. 9, 1963 (cited by [[w.schlesinger-robert-kennedy-and-his]], 616 n.49). See [[cal.1963-11-22.assassination]]. Names: Robert Kennedy, Schlesinger, Oswald, Castro, McCone.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 615–16. Check: the day; [[w.schlesinger-journals]], 214, prints the same words of Robert Kennedy on Oswald under Dec. 5 ([[cal.1963-12-05.assassination-3]]); the two may be one talk. To check: Schlesinger, journal, Dec. 9, 1963 (cited by [[w.schlesinger-robert-kennedy-and-his]], 616 n.49). See [[cal.1963-11-22.assassination]]. Names: Robert Kennedy, Schlesinger, Oswald, Castro, McCone.'
     src:
       c: 0cf72dc0
       rows:
@@ -2330,6 +2359,8 @@ entries:
     place: nairobi
     thread: china-leadership
     also: [africa]
+    follows:
+      - cal.1963-12-10.china-leadership-5
     c: Nairobi 内罗毕. Chen Yi 陈毅 calls on Jomo Kenyatta, Kenya's Prime Minister, at his office.
     n: '[[w.chen-yi-nianpu]], 999. Names: Chen Yi, Kenyatta.'
     tags: [polity:prc, polity:kenya, name:chen-yi, name:kenyatta-jomo, ok:fields-time]
@@ -2707,6 +2738,8 @@ entries:
     place: peking
     thread: china-leadership
     also: [soviet-union]
+    follows:
+      - cal.1963-12-12.china-leadership-5
     c: Great Hall. Mao receives José Sotomayor of the Peruvian Communist Party (Left); Zhao Yimin present. Today a sixth commentary appears; Khrushchev proposes a cease-fire, we shall answer in time, the articles not finished. The focus of the world's contradictions is Asia, Africa and Latin America, not Europe and North America; help the peoples of the three continents form an anti-imperialist front.
     n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 12, 1963. Made public: 2013. Names: Mao Zedong, Khrushchev, José Sotomayor, Zhao Yimin.'
     tags: [polity:prc, polity:ussr, name:mao-zedong, name:khrushchev-nikita-s, vis:only:prc, name:jose-sotomayor, name:zhao-yimin]
@@ -2787,6 +2820,8 @@ entries:
     date: '1963-12-12'
     thread: china
     also: [africa]
+    follows:
+      - cal.1963-12-12.china-leadership-8
     c: The Foreign Ministry spokesman issues a statement stressing once more that the Chinese government has always unremittingly supported every effort of the Asian and African countries to increase their representation in the main organs of the United Nations.
     n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 308 (Dec. 12, 1963).'
     src:
@@ -3005,8 +3040,10 @@ entries:
     place: washington
     thread: robert-kennedy
     also: [democratic-party, transition-and-staff]
+    follows:
+      - cal.1963-12-13.robert-kennedy
     c: 'Late afternoon, Robert Kennedy with Goodwin and Schlesinger at Justice, Harriman distressed by Mann''s coming appointment for Latin America: "Our power will last for just eleven months. ... After November 5th we''ll all be dead."{1} The hundred men devoted to the purposes "must all stay in close touch";{2} "collective action."{3} Of Johnson: "He knows all about politics and nothing about human beings." By Schlesinger''s journal.{4}'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 630–31; [[w.schlesinger-journals]], 214–15 (late afternoon, Goodwin and Schlesinger with Robert Kennedy: "The important thing for us to do now is to stick together. Our power will last for just eleven months. It will disappear the day of the election"; "There are a hundred men scattered through the government who are devoted to the purposes"; "He knows all about politics and nothing about human beings"; Schlesinger "more and more persuaded that he should go for the vice presidency"; the page has no Harriman or Mann and not "After November 5th we''ll all be dead"); [[w.goodwin-remembering-america]], 246–47 (Goodwin''s account: Schlesinger and Goodwin in the Attorney General''s office over Mann''s appointment; Robert Kennedy, pouring bourbon, takes a call: "He''s dead. Let him be dead"; Harriman''s words to him "last night": "I didn''t come down here to work for George Ball or Dean Rusk; I came to work for John Kennedy"; "We''re important to Johnson. I''m the most important because my name happens to be Kennedy. But we''re all important, if we act together"; "I''ve lost a brother, but that''s not what''s important"; of a Lubell column, Johnson: "Well, he''s already got the Negroes"; not the hour, the hundred men or the journal''s words); [[w.thomas-robert-kennedy]], 289 (no day, mid-December: "stay in close touch"). Check: the day and the words. [[w.goodwin-remembering-america]], 246–47, has Schlesinger and Goodwin call on Robert Kennedy on Monday, Dec. 16, 1963, after Mann''s appointment was announced (Dec. 14), and Robert Kennedy: "Remember after November fifth [the presidential election] we''re all done.". To check: Schlesinger, journal, Dec. 13, 1963 (cited by [[w.schlesinger-robert-kennedy-and-his]], 631 n.51–52); Goodwin, "The Structure Itself Must Change," *Rolling Stone*, June 6, 1974. Names: Robert Kennedy, Goodwin, Schlesinger, Harriman, Mann, Johnson.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 630–31; [[w.schlesinger-journals]], 214–15 (late afternoon, Goodwin and Schlesinger with Robert Kennedy: "The important thing for us to do now is to stick together. Our power will last for just eleven months. It will disappear the day of the election"; "There are a hundred men scattered through the government who are devoted to the purposes"; "He knows all about politics and nothing about human beings"; Schlesinger "more and more persuaded that he should go for the vice presidency"; the page has no Harriman or Mann and not "After November 5th we''ll all be dead"); [[w.goodwin-remembering-america]], 246–47 (Goodwin''s account: Schlesinger and Goodwin in the Attorney General''s office over Mann''s appointment; Robert Kennedy, pouring bourbon, takes a call: "He''s dead. Let him be dead"; Harriman''s words to him "last night": "I didn''t come down here to work for George Ball or Dean Rusk; I came to work for John Kennedy"; "We''re important to Johnson. I''m the most important because my name happens to be Kennedy. But we''re all important, if we act together"; "I''ve lost a brother, but that''s not what''s important"; of a Lubell column, Johnson: "Well, he''s already got the Negroes"; not the hour, the hundred men or the journal''s words); [[w.thomas-robert-kennedy]], 289 (no day, mid-December: "stay in close touch"). After [[cal.1963-12-13.robert-kennedy|State''s meeting on travel]]: "I first told him about a State Department meeting that afternoon" ([[w.schlesinger-journals]], 214). Check: the day and the words. [[w.goodwin-remembering-america]], 246–47, has Schlesinger and Goodwin call on Robert Kennedy on Monday, Dec. 16, 1963, after Mann''s appointment was announced (Dec. 14), and Robert Kennedy: "Remember after November fifth [the presidential election] we''re all done.". To check: Schlesinger, journal, Dec. 13, 1963 (cited by [[w.schlesinger-robert-kennedy-and-his]], 631 n.51–52); Goodwin, "The Structure Itself Must Change," *Rolling Stone*, June 6, 1974. Names: Robert Kennedy, Goodwin, Schlesinger, Harriman, Mann, Johnson.'
     src:
       c: cdd77dc0
       rows:
@@ -3096,6 +3133,8 @@ entries:
     place: rangoon
     thread: china-leadership
     also: [china, africa]
+    follows:
+      - cal.1963-12-13.china-leadership
     c: Rangoon. Zhou Enlai stops briefly on the way to the UAR and is received and seen off by Ne Win.
     n: '[[w.zhou-enlai-waijiao-huodong]], 377 (Dec. 13, 1963; 晚上). See [[cal.1963-12-13.china-leadership]]. Names: Zhou Enlai, Ne Win.'
     src:
@@ -3406,6 +3445,8 @@ entries:
     date: '1963-12-14'
     place: washington
     thread: congress
+    follows:
+      - cal.1963-12-14.latin-america
     c: 'The White House, dinner. Johnson with Boggs, Albert Thomas, Mills, Brooks, Albert, Gerald Ford and Thornberry and their wives. The talk: recognizing the Dominican Republic, Mann''s naming for Latin America, and "the Tax Bill, the Tax Bill, the Tax Bill."'
     n: '[[w.johnson-white-house-diary]], 16–17 (Lady Bird Johnson''s account). See [[cal.1963-12-14.latin-america]]. Names: Johnson, Lady Bird Johnson, Boggs, Albert Thomas, Mills, Brooks, Albert, Gerald Ford, Thornberry, Mann.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:boggs-hale, name:thomas-albert, name:mills-wilbur-d, name:brooks-jack-b, name:albert-carl, name:ford-gerald-r, name:thornberry-william-h, name:mann-thomas-c]
@@ -3580,6 +3621,8 @@ entries:
     date: '1963-12-14'
     thread: china-leadership
     also: [africa]
+    follows:
+      - cal.1963-12-14.china
     c: Chen Yi 陈毅 cables Jomo Kenyatta, congratulating him on the establishment of relations between China and Kenya.
     n: '[[w.chen-yi-nianpu]], 999. Names: Chen Yi, Kenyatta.'
     tags: [polity:prc, polity:kenya, name:chen-yi, name:kenyatta-jomo, ok:fields-place]
@@ -3845,6 +3888,8 @@ entries:
     date: '1963-12-16'
     place: peking
     thread: china-leadership
+    follows:
+      - cal.1963-12-16.china-leadership-6
     c: 'Evening, Yinian Tang.{1} Mao, Liu Shaoqi, Deng Xiaoping and others hear Nie Rongzhen on the ten-year plan for science and technology.{2} First Mao asks all to rise in silence for Luo Ronghuan, dead this day; he praises his principle, his faithfulness, his work for Party unity. Party unity: the Party not pure; allow a minority to err in the open, not to scheme in secret.{3}'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Dec. 16, 1963. [[w.deng-xiaoping-nianpu-1904]], III, 1781 (Dec. 16, 1963; evening, 晚; Deng with Mao and Liu Shaoqi hears Nie Rongzhen on questions of the 1963–72 plan for science and technology); [[w.mao-zedong-zhuan]], VI, ch. 72 (the evening of Dec. 16 at the Yinian Tang: Mao with Liu, Deng and others hears Nie Rongzhen on the ten-year science plan; first a silence for Luo Ronghuan, Mao on his principle and faithfulness; on the Party''s impurity (mahjong) and the minority''s right to err in the open; Mao breaking in often, and on science (n.32)). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 72). To check: Mao Zedong 毛泽东, remarks on hearing the ten-year science and technology plan, Dec. 16, 1963 ([[w.mao-zedong-wenji]], VIII, 351) (cited by [[w.mao-zedong-zhuan]], VI, ch. 72 n.32). See [[cal.1963-12-16.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Nie Rongzhen, Luo Ronghuan.'
     src:
@@ -4089,9 +4134,9 @@ entries:
     thread: succession
     also: [press-and-broadcasting]
     follows:
-      - cal.1963-12-17.latin-america
+      - cal.1963-12-17.succession
     c: 'Johnson to Ball by telephone, 6:05 p.m., after his address to the UN at noon: reactions from Stevenson at the UN, to be fed out through State''s press office.{1}'
-    n: '[Johnson and George Ball, 6:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-ball-december-17-1963), Tape K6312.09 (Miller Center). [[w.taking-charge]], 105. After the Senate rose at 5:47 p.m.: Daily Digest, [109 Cong. Rec. D623](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=621) (Dec. 17, 1963). Names: Johnson, Ball, Stevenson.'
+    n: '[Johnson and George Ball, 6:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-ball-december-17-1963), Tape K6312.09 (Miller Center). [[w.taking-charge]], 105. After [[cal.1963-12-17.succession|the address to the UN]]: "At noon, LBJ addressed the United Nations in New York ... Now he tries to generate some favorable press coverage" ([[w.taking-charge]], 105). Names: Johnson, Ball, Stevenson.'
     src:
       c: 7b71bae0
       rows:
@@ -5394,6 +5439,8 @@ entries:
     date: '1963-12-23'
     place: washington
     thread: foreign-aid
+    follows:
+      - cal.1963-12-23.foreign-aid-3
     c: The White House, a Christmas party for the House, the absent Democrats called back for the aid appropriation.{1} Johnson, on a chair in the State Dining Room, asks for the bill without Mundt's amendment;{2} a committee promised to make aid cheaper.{3} Halleck courted.{4}
     n: '[[w.dallek-flawed-giant]], 70–71; [[w.caro-passage-of-power]], 501–02 (the members called back, the party, the chair; not the committee or Halleck); [[w.johnson-vantage-point]], 40 (the reception; the plea from a chair; the House called back); [[w.whalen-longest-debate]], 88–89 (more than two hundred members; 1:20 p.m., the two-thirds lost, 202–105); [[w.valenti-very-human-president]], 191–93 (Congress called back in the Christmas holidays; the party for the Congress in the State Dining Room Dec. 23, Johnson on a gold damask chair, Halleck and Passman present; Halleck courted; the vote to be taken Christmas Eve; Johnson to Halleck, "I''m sorry if anyone down here said anything ugly about you"; not Mundt''s amendment or the committee); [[w.purdum-idea-whose-time-has-2014]], 171–72 (the reception, Dec. 23, five o''clock, over two hundred members; Johnson on a gilt chair; apology to Halleck; "We''re Americans first"; Purdum has the East Room). Check: Purdum, 172, has the reception in the East Room, not the State Dining Room. To check: O''Brien to Johnson, Dec. 10, 1963, Office Files of the President, LBJ Library; Reedy to Johnson, Dec. 16, 1963, LBJ Library; Notes on Leadership Breakfast, Dec. 17, 1963, Diary Backup, LBJ Library; Arthur Goldschmidt OH, LBJ Library (cited by [[w.dallek-flawed-giant]], 71). See [[cal.1963-11-15.foreign-aid]]. Names: Johnson, Mundt, Halleck.'
     src:
@@ -6102,6 +6149,8 @@ entries:
     place: washington
     thread: foreign-aid
     also: [trade, succession]
+    follows:
+      - cal.1963-12-24.foreign-aid-2
     c: 'The House, in at 7 a.m. on Christmas Eve, adopts Passman''s amendment to the aid appropriation, [189–158](https://voteview.com/rollcall/RH0880119): the President may allow Export-Import Bank guarantees on credit to Communist countries in the national interest.{1} The wheat credit kept.{2} Senate agrees Dec. 30, [56–14](https://voteview.com/rollcall/RS0880229).{3} About $3 billion, against $4.5 billion asked.{4} Signed Jan. 6, [77 Stat. 857](https://www.govinfo.gov/content/pkg/STATUTE-77/pdf/STATUTE-77-Pg857.pdf).{5}'
     n: 'The House rose at 9:12 a.m.: [Daily Digest, D635](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=633). [109 Cong. Rec. House, Dec. 24, 1963](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt19/pdf/GPO-CRECB-1963-pt19-10-2.pdf). Statement by the President on the Proposed Reduction in Foreign Aid Funds, [1963–64 Pub. Papers 55](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=139) (Dec. 14, 1963). [[w.caro-passage-of-power]], 501–02; [[w.whalen-longest-debate]], 89; [[w.johnson-white-house-diary]], 19 (the House met early and passed the foreign aid bill, which released the Johnsons; not the amendment or the vote); [[w.albert-little-giant-1990]], 283 (the House passes the aid bill once Colmer gives the Rules Committee its quorum at 7 a.m.; not the House''s hour, Passman''s amendment, the count or the Senate); [[w.purdum-idea-whose-time-has-2014]], 172 (the House''s special session at 7 a.m. passes the bill; not the amendment nor the votes). See [[cal.1963-11-15.foreign-aid]]; [[cal.1963-10-09.trade]]. Names: Passman.'
     src:
@@ -6205,6 +6254,8 @@ entries:
       - washington
       - philadelphia
     thread: succession
+    follows:
+      - cal.1963-12-24.foreign-aid
     c: Johnson leaves Washington about 9:30 a.m., after the House passes the foreign aid bill. At Philadelphia, the funeral of Representative William Green; then to Austin.
     n: '[[w.johnson-white-house-diary]], 19 (Lady Bird Johnson''s account). See [[cal.1963-12-23.democratic-party]], [[cal.1963-12-24.foreign-aid]]. Names: Johnson, Lady Bird Johnson, William Green.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:green-william-j-jr]
@@ -6213,6 +6264,8 @@ entries:
     date: '1963-12-24'
     place: austin
     thread: succession
+    follows:
+      - cal.1963-12-24.succession
     c: Austin, the Governor's Mansion. Johnson and Mrs. Johnson see Connally, his arm in a sling, and his wife.
     n: '[[w.johnson-white-house-diary]], 19 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Connally.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:connally-john]
@@ -7133,6 +7186,8 @@ entries:
     date: '1963-12-27'
     thread: china-leadership
     also: [africa]
+    follows:
+      - cal.1963-12-27.china-leadership-5
     c: On the flight to Rabat, Chen Yi 陈毅 and Zhou Enlai 周恩来 each cable their thanks to Ben Bella and Bouteflika.
     n: '[[w.chen-yi-nianpu]], 1002–1003. Names: Chen Yi, Zhou Enlai, Ben Bella, Bouteflika.'
     tags: [polity:prc, polity:algeria, name:chen-yi, name:zhou-enlai, name:ben-bella-ahmed, name:bouteflika-abdel-aziz, ok:fields-place, ok:fields-time]
@@ -7189,8 +7244,10 @@ entries:
     date: '1963-12-28'
     place: lbj-ranch
     thread: europe-and-the-alliance
+    follows:
+      - cal.1963-12-28.europe-and-the-alliance-2
     c: Erhard at the LBJ Ranch.{1} Six American divisions to stay in Germany, "as long as they are needed";{2} the offset, German purchases of American arms against the forces' dollar spending, to continue;{3} no arrangement to perpetuate a divided Germany; the multilateral force "a new means of strengthening Western defense."{4}
-    n: 'Joint Statement Following Discussions With Chancellor Erhard, [1963–64 Pub. Papers 99](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=183) (Dec. 29, 1963). [FRUS 1961–63, XV, doc. 253](https://history.state.gov/historicaldocuments/frus1961-63v15/d253) (the talks, Dec. 28, 3:15 p.m.: East-West relations). [[w.schwartz-lyndon-johnson-and-europe]], 22–23, 65 (the talks; the six divisions); [[w.caro-passage-of-power]], 506–07 (the state visit of Dec. 28: Erhard met at Bergstrom, by helicopter to the ranch; Johnson and Erhard with only the interpreters present, Rusk and Schroeder with the staffs in the next room; the talk in a meadow; not the terms). [[w.gavin-gold-dollars-and-power]], 113, 139–40 (the divisions; the offset). To check: German record of the talks, *Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1963*, III, docs. 486, 490 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 23 n.57, 65 n.77); *Time*, Jan. 10, 1964, at 23 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 22 n.55). See [[cal.1963-01-14.europe-and-the-alliance]]. Check: Gavin, 113, 140, quotes the communiqué: the offset of "great value to both governments," to be "fully executed and continued"; those are the words of the joint statement of Dec. 21, 1965; that of Dec. 29, 1963: "It was agreed that this arrangement should continue." Names: Erhard.'
+    n: 'Joint Statement Following Discussions With Chancellor Erhard, [1963–64 Pub. Papers 99](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=183) (Dec. 29, 1963). [FRUS 1961–63, XV, doc. 253](https://history.state.gov/historicaldocuments/frus1961-63v15/d253) (the talks, Dec. 28, 3:15 p.m.: East-West relations). [[w.schwartz-lyndon-johnson-and-europe]], 22–23, 65 (the talks; the six divisions); [[w.caro-passage-of-power]], 506–07 (the state visit of Dec. 28: Erhard met at Bergstrom, by helicopter to the ranch; Johnson and Erhard with only the interpreters present, Rusk and Schroeder with the staffs in the next room; the talk in a meadow; not the terms). [[w.gavin-gold-dollars-and-power]], 113, 139–40 (the divisions; the offset). After [[cal.1963-12-28.europe-and-the-alliance-2|the welcome at Bergstrom]]: the helicopter to the Ranch, the stag luncheon, and "after lunch there were more talks" ([[w.johnson-white-house-diary]], 23–24). To check: German record of the talks, *Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1963*, III, docs. 486, 490 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 23 n.57, 65 n.77); *Time*, Jan. 10, 1964, at 23 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 22 n.55). See [[cal.1963-01-14.europe-and-the-alliance]]. Check: Gavin, 113, 140, quotes the communiqué: the offset of "great value to both governments," to be "fully executed and continued"; those are the words of the joint statement of Dec. 21, 1965; that of Dec. 29, 1963: "It was agreed that this arrangement should continue." Names: Erhard.'
     src:
       c: d270f5c6
       rows:
@@ -7230,6 +7287,8 @@ entries:
     date: '1963-12-28'
     place: lbj-ranch
     thread: europe-and-the-alliance
+    follows:
+      - cal.1963-12-28.europe-and-the-alliance
     c: The Ranch, evening. Stag dinner for Erhard and about forty of the German delegation. Gifts exchanged; the Johnsons give a book of poems by Hulda Walter, a Fredericksburg girl, translated, with a letter to Mrs. Erhard.
     n: '[[w.johnson-white-house-diary]], 24 (Lady Bird Johnson''s account). See [[cal.1963-12-28.europe-and-the-alliance]]. Names: Johnson, Lady Bird Johnson, Erhard.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:erhard-ludwig]
@@ -7465,8 +7524,10 @@ entries:
     date: '1963-12-29'
     place: stonewall-tx
     thread: europe-and-the-alliance
+    follows:
+      - cal.1963-12-29.europe-and-the-alliance-2
     c: 'Stonewall school gymnasium, the barbecue for Erhard: the German delegation, the German, White House and local press, about seventy-five invited guests;{1} Van Cliburn plays.{2} Johnson introduces the Germans and his own party; Rusk''s introduction moving. Toasts by Erhard and Johnson.{3}'
-    n: '[[w.johnson-white-house-diary]], 25–27 (Lady Bird Johnson''s account; the guests are hers, among them Von Braun, Kleberg, Ransom and Dobie); [[w.salinger-with-kennedy]], 336 (the barbecue in the gym of Stonewall High School for Erhard; Van Cliburn plays Chopin to some six hundred; then Johnson over the loudspeaker calls Salinger to the piano, Erhard shakes his hand, and Johnson: "I don''t know what I would have done without him, night and day, over this past month"). Check: the day: [[w.salinger-with-kennedy]], 335, puts Erhard''s visit to the Ranch "shortly before Christmas in 1963.". See [[cal.1963-12-29.europe-and-the-alliance]]. Names: Johnson, Erhard, Rusk, Van Cliburn.'
+    n: '[[w.johnson-white-house-diary]], 25–27 (Lady Bird Johnson''s account; the guests are hers, among them Von Braun, Kleberg, Ransom and Dobie); [[w.salinger-with-kennedy]], 336 (the barbecue in the gym of Stonewall High School for Erhard; Van Cliburn plays Chopin to some six hundred; then Johnson over the loudspeaker calls Salinger to the piano, Erhard shakes his hand, and Johnson: "I don''t know what I would have done without him, night and day, over this past month"). After [[cal.1963-12-29.europe-and-the-alliance-2|Fredericksburg]]: "We returned ... to find that the guests were already arriving in the gymnasium. They had been invited for one o''clock" ([[w.johnson-white-house-diary]], 25). Check: the day: [[w.salinger-with-kennedy]], 335, puts Erhard''s visit to the Ranch "shortly before Christmas in 1963.". See [[cal.1963-12-29.europe-and-the-alliance]]. Names: Johnson, Erhard, Rusk, Van Cliburn.'
     src:
       c: d936852f
       rows:
@@ -7847,15 +7908,23 @@ entries:
     place: austin
     thread: succession
     c: Austin. Johnson and Mrs. Johnson at the funeral of Mrs. Tom Miller, widow of the mayor.
-    n: '[[w.johnson-white-house-diary]], 27–28 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
+    n: '[[w.johnson-white-house-diary]], 27–28 (Lady Bird Johnson''s account: "in the afternoon," 27). Names: Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
+    time_range:
+      - 1963-12-30T18:00Z
+      - 1963-12-31T00:00Z
+    time_band: afternoon
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1963-12-30.succession-2
     when: Dec. 30
     date: '1963-12-30'
     place: austin
     thread: succession
+    follows:
+      - cal.1963-12-30.succession
     c: 'Austin, dedication of the Agudas Achim Synagogue, postponed from Nov. 24. Novy introduces Johnson: "all those Jews he got out of Germany during the days of Hitler." Johnson: his first unofficial speech in the office was in a place of worship in his home town.'
-    n: '[[w.johnson-white-house-diary]], 28 (Lady Bird Johnson''s account; the words are Novy''s as she gives them). To check: the Public Papers, remarks at the dedication, Dec. 30, 1963. Names: Johnson, Lady Bird Johnson.'
+    n: '[[w.johnson-white-house-diary]], 28 (Lady Bird Johnson''s account; the words are Novy''s as she gives them). After [[cal.1963-12-30.succession|Mrs. Miller''s funeral]]: "Later we went to the dedication" ([[w.johnson-white-house-diary]], 28). To check: the Public Papers, remarks at the dedication, Dec. 30, 1963. Names: Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
   - id: cal.1963-12-30.vietnam-hanoi
     when: Dec. 30
