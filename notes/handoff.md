@@ -11,28 +11,27 @@ The owner, Nov. 24: "That's not what the handoff says, is it? Can you reconcile 
 2. The defaults for the owner's open questions 1–30 (notes/owner-rulings.md; an agent).
 3. The claims model (4aw.1; 1i; owner-rulings 35f, 35g): the design note rewritten, then the unguarded cite op, the stale maps, a page and its notes as one source, the conversion a year at a time. No new calendar readers or auditors until it is in (the owner, Nov. 22).
 
-**Then, in the owner's order.**
+**Then, in the owner's order** (as the owner placed the items on Nov. 24, about 6 p.m.: "The Soviet batch and inventory between 4 and 5. The clock-time pass between 4 and the Soviet batch and inventory. The display fixes for CJK between 4 and the clock-time pass. The 1960 DNC/RNC convention pass between the Soviet batch and inventory and 5. The atomic claims trial last, after 16."; their 4, 5 and 16 are the numbers of the list given them in reply, here items 6, 11 and 22).
 4. Layout leftovers (4aw.1a, 1b: done, PRs #211–#214): the unquoted italic transliterations (1a/1b progress); the unwrap tool's two faults (1h).
-5. The stopped work (4aw.2; 4at): the China map; the R27 redo, about 180 entries, "Circulated in China" (4aq); the China threads measurement (4at).
+5. The stopped work (4aw.2; 4at): the China map; the R27 redo, about 180 entries, "Circulated in China" (4aq); the China threads measurement (4at), then the re-threading on its default (owner-rulings 30).
 6. Audit briefs aligned to R22 and a check warning for substance left in the notes; then the pass over the notes, 5,432 entries (4aw.3; 4av).
-7. The rest of the Nov. 21–22 queue (4aw.4): the Fursenko and Naftali quotation re-check (4as); "Mrs."/"Col." with a remap; *Wenxian* run 2; the register's leftovers (4au); cjk display fixes (confirm: the full-width 中点 and the dropped characters, 4ao.4).
-8. The China reading order (4i, with 10a the Peking Automobile compilation), and with it: *Origins* III run 1's notes pass to redo (4b); *77 Conversations*, the rest (4d); the *wansui* (4h); the memoirs (4g); the PRC leftovers of batch 15 (C0 item 4).
-9. Batch 16, the DRV: the page cites (C0 item 6; "No ruling on the page cites yet": a default to be taken under "Nothing blocks"). (C0 item 5, the 63 *Văn kiện* documents: done, 79d9847, 67 entered.)
-10. Batch 17, the Wilson Center's documents, about 107 files (C0 item 7): not started.
-11. The re-read pass: every "Passed over" row ruled on a ground struck Nov. 15, the principals' family, health and drinking rows first (C0 item 8). Now also under R0 and R15a.
-12. The notes pass re-run for the works furthest behind (C0 item 9; `./bib notes-coverage`).
-13. Pollack, *Arabs at War* (C0 item 10).
-14. King, the FBI and King's private life (C0 item 11); surveillance at home (C0 item 12).
-15. The time-of-day and place pass, two tiers: from the entries, then from the sources (C0 item 13; 4k.1, the 822 entries with a clock time and no time field: confirm).
-16. Batch 18: Nixon, 1968, California, Agnew, *Freedom of Communications*, 27 readers (C0 item 14).
-17. The French pilot, then the German (C0 item 15).
-18. Indicators for the other sovereigns (C0 item 16).
-19. The 1969 foundations (C0 item 17).
-
-**The owner's requests of Nov. 24, not yet placed by the owner.** By default after item 6 and ahead of item 7, since each is a reading pass and waits on item 3; the owner may move them:
-- The 1960 Democratic convention, a comprehensive pass (1e).
-- The Drive inventory, then the Soviet and Sino-Soviet reading batches, the Soviet side of the July 16, 1960 recall among them (1f).
-- The atomic-claims trial, February 1960 (owner-rulings 35g): after the conversion's first year; it touches no entry and could run sooner.
+7. The display fixes for CJK (4ao.4: characters dropped after a verb, role, title or italic Pinyin; the full-width 中点 between characters at render; confirm each against the tree first).
+8. The clock-time pass: the entries with a clock time in `c` and no `time` or `time_range` (4k.1, some 822 by the rough count of Nov. 18; confirm the count against the tree), proposals from the text and a reader's check against the source.
+9. The Drive inventory, then the Soviet and Sino-Soviet reading batches, the Soviet side of the July 16, 1960 recall among them (1f).
+10. The 1960 conventions, a comprehensive pass: the Democratic (1e) and, by the owner's word of Nov. 24 ("DNC/RNC"), the Republican (Chicago, July 25–28, and the days before: the platform, the Nixon–Rockefeller meeting of July 22–23, the nominations), to the same standards: dates, times of day, places, `follows:`, substance in `c`, one event an entry, the sequence in order.
+11. The rest of the Nov. 21–22 queue (4aw.4): the Fursenko and Naftali quotation re-check (4as); "Mrs."/"Col." with a remap; *Wenxian* run 2; the register's leftovers (4au).
+12. The China reading order (4i, with 10a the Peking Automobile compilation), and with it: *Origins* III run 1's notes pass to redo (4b); *77 Conversations*, the rest (4d); the *wansui* (4h); the memoirs (4g); the PRC leftovers of batch 15 (C0 item 4).
+13. Batch 16, the DRV: the page cites (C0 item 6; "No ruling on the page cites yet": a default to be taken under "Nothing blocks"). (C0 item 5, the 63 *Văn kiện* documents: done, 79d9847, 67 entered.)
+14. Batch 17, the Wilson Center's documents, about 107 files (C0 item 7): not started.
+15. The re-read pass: every "Passed over" row ruled on a ground struck Nov. 15, the principals' family, health and drinking rows first (C0 item 8). Now also under R0 and R15a.
+16. The notes pass re-run for the works furthest behind (C0 item 9; `./bib notes-coverage`).
+17. Pollack, *Arabs at War* (C0 item 10).
+18. King, the FBI and King's private life (C0 item 11); surveillance at home (C0 item 12).
+19. The time-of-day and place pass, its two tiers (C0 item 13), less what item 8 has done.
+20. Batch 18: Nixon, 1968, California, Agnew, *Freedom of Communications*, 27 readers (C0 item 14).
+21. The French pilot, then the German (C0 item 15).
+22. Indicators for the other sovereigns (C0 item 16); then the 1969 foundations (C0 item 17).
+23. The atomic-claims trial, February 1960 (owner-rulings 35g; notes/proposals/claims-atomic.md, section 8): last.
 
 **On file, not queued** (the owner, Nov. 16; C0 items 18–20): Operation SOLO's visibility leads; tidying; the Near East skeletons; the JFK, RFK and LBJ oral histories. **Old lists** (B) and **for the owner to procure** (E): as set out below.
 
