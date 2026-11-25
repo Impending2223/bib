@@ -1,18 +1,14 @@
 patch: 2026-11-25-sequence-1964-01
-by: 'Claude (Sonnet, sequence pass: R25c on January 1964), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass: R25c on January 1964), Nov. 25, 2026; notes/sequence/1964-01.md. Audited by Claude (Opus), Nov. 25, 2026: notes/sequence/audit-1964-01.md'
 ops:
 - follows:
-    id: cal.1964-01-03.china-leadership-11
+    id: cal.1964-01-05.elections-1964-johnson
     add:
-    - cal.1964-01-03.china-leadership-2
-- follows:
-    id: cal.1964-01-04.china-leadership-2
-    add:
-    - cal.1964-01-04.china-leadership
+    - cal.1964-01-05.press-and-broadcasting
 - follows:
     id: cal.1964-01-05.china-leadership-7
     add:
-    - cal.1964-01-05.china-leadership-2
+    - cal.1964-01-05.china-leadership-6
 - follows:
     id: cal.1964-01-05.china-leadership-9
     add:
@@ -22,14 +18,6 @@ ops:
     add:
     - cal.1964-01-05.china-leadership-9
 - follows:
-    id: cal.1964-01-06.china-leadership-3
-    add:
-    - cal.1964-01-06.china-leadership-2
-- follows:
-    id: cal.1964-01-07.china-leadership-9
-    add:
-    - cal.1964-01-07.china-leadership-8
-- follows:
     id: cal.1964-01-09.china-leadership-14
     add:
     - cal.1964-01-09.china-leadership-13
@@ -38,25 +26,13 @@ ops:
     add:
     - cal.1964-01-09.china-leadership-14
 - follows:
-    id: cal.1964-01-10.china-leadership-12
-    add:
-    - cal.1964-01-10.china-leadership-5
-- follows:
-    id: cal.1964-01-10.china-leadership-9
-    add:
-    - cal.1964-01-10.china-leadership-7
-- follows:
     id: cal.1964-01-10.china-leadership-10
     add:
     - cal.1964-01-10.china-leadership-9
 - follows:
-    id: cal.1964-01-12.china-leadership-3
+    id: cal.1964-01-11.poverty-2
     add:
-    - cal.1964-01-12.china-leadership-2
-- follows:
-    id: cal.1964-01-12.china-leadership-10
-    add:
-    - cal.1964-01-12.china-leadership-5
+    - cal.1964-01-11.poverty
 - follows:
     id: cal.1964-01-14.europe-and-the-alliance-2
     add:
@@ -69,14 +45,6 @@ ops:
     id: cal.1964-01-15.china-leadership-15
     add:
     - cal.1964-01-15.china-leadership-14
-- follows:
-    id: cal.1964-01-15.china-leadership-2
-    add:
-    - cal.1964-01-15.china-leadership-12
-- follows:
-    id: cal.1964-01-17.china-leadership-13
-    add:
-    - cal.1964-01-17.china-leadership-12
 - follows:
     id: cal.1964-01-18.china-leadership-7
     add:
@@ -94,13 +62,9 @@ ops:
     add:
     - cal.1964-01-21.china-leadership
 - follows:
-    id: cal.1964-01-22.china-leadership
+    id: cal.1964-01-21.china-leadership-9
     add:
-    - cal.1964-01-22.china-leadership-2
-- follows:
-    id: cal.1964-01-22.china-leadership-9
-    add:
-    - cal.1964-01-22.china-leadership-3
+    - cal.1964-01-21.china-leadership-2
 - follows:
     id: cal.1964-01-23.china-leadership-2
     add:
@@ -118,21 +82,9 @@ ops:
     add:
     - cal.1964-01-26.china-leadership-7
 - follows:
-    id: cal.1964-01-26.china-leadership-8
-    add:
-    - cal.1964-01-26.china-leadership
-- follows:
-    id: cal.1964-01-27.china-leadership-13
-    add:
-    - cal.1964-01-27.china-leadership-5
-- follows:
     id: cal.1964-01-27.white-house
     add:
     - cal.1964-01-27.cyprus
-- follows:
-    id: cal.1964-01-28.china-leadership-5
-    add:
-    - cal.1964-01-28.china-leadership-4
 - follows:
     id: cal.1964-01-28.china-leadership-11
     add:
@@ -141,10 +93,28 @@ ops:
     id: cal.1964-01-29.china-leadership-7
     add:
     - cal.1964-01-29.china-leadership-6
-- follows:
-    id: cal.1964-01-30.china-leadership-11
-    add:
-    - cal.1964-01-30.china-leadership-10
-- check:
-    id: cal.1964-01-20.china-leadership-4
-    text: 'Check: the order; the Chen Yi nianpu (1010) lists the dinner at the embassy before the farewell reception at the palace.'
+- edit:
+    id: cal.1964-01-05.elections-1964-johnson
+    base: 684b5523
+    set:
+      n: '[[w.johnson-white-house-diary]], 30 (Lady Bird Johnson''s account; before it, coffee with the Connallys at the Governor''s Mansion). After [[cal.1964-01-05.press-and-broadcasting|St. Barnabas and the drive through Johnson City]], in Lady Bird Johnson''s sequence ("We began it by going to St. Barnabas," 29; "Next, we went out to Senator Yarborough''s," 30). Names: Johnson, Lady Bird Johnson, Yarborough.'
+- edit:
+    id: cal.1964-01-05.china-leadership-9
+    base: 0c1123de
+    set:
+      n: '[[w.zhu-de-nianpu-xinbian]], III, 1895. After [[cal.1964-01-05.china-leadership-8|Jinan]]: the tour, as the nianpu gives it on Jan. 4, runs Shandong before Jiangsu (III, 1895). Made public: 2016. Names: Zhu De.'
+- edit:
+    id: cal.1964-01-11.poverty-2
+    base: 7fd422db
+    set:
+      n: '[[w.johnson-white-house-diary]], 40–41 (Lady Bird Johnson''s account). After [[cal.1964-01-11.poverty|Scranton and Wilkes-Barre]], in Lady Bird Johnson''s sequence: the squares, the mill and the institute, then lunch, "Then we went to Wilkes College" (39–40). See [[cal.1964-01-11.poverty]]. Names: Lady Bird Johnson, Graham.'
+- edit:
+    id: cal.1964-01-18.china-leadership-7
+    base: da4124c1
+    set:
+      n: '[[w.yang-shangkun-riji]], II, 344 (Jan. 18, 1964). The words: 办公到1时，打羽毛球后睡 (II, 344). After [[cal.1964-01-18.china-leadership-6|the 6 p.m. talk]], in the diary''s sequence: the talk at 6, a film after dinner, work to 1 a.m., then badminton and sleep (II, 344). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+- edit:
+    id: cal.1964-01-21.china-leadership-9
+    base: 3898099e
+    set:
+      n: '[[w.chen-yi-nianpu]], 1010. The words: 之后 (1010). After [[cal.1964-01-21.china-leadership-2|the arrival at Conakry]]: the nianpu writes the poems "afterward" 之后, in its item of the morning''s flight from Bamako to Conakry (1010). To check: *Chen Yi shici xuanji* 陈毅诗词选集 (not carded), the poems. Names: Chen Yi, Zhang Qian.'
