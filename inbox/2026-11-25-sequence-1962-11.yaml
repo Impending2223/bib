@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1962-11
-by: 'Claude (Sonnet, sequence pass: R25c on November 1962), Nov. 25, 2026; notes/sequence/1962-11.md'
+by: 'Claude (Sonnet, sequence pass: R25c on November 1962), Nov. 25, 2026; audited by Claude (Opus), Nov. 25, 2026; notes/sequence/1962-11.md, notes/sequence/audit-1962-11.md'
 ops:
 - follows: {id: cal.1962-11-06.china-3, add: [cal.1962-11-06.china-2]}
 - follows: {id: cal.1962-11-10.economy, add: [cal.1962-11-10.democratic-party]}
@@ -7,3 +7,24 @@ ops:
 - follows: {id: cal.1962-11-19.china, add: [cal.1962-11-19.south-asia]}
 - follows: {id: cal.1962-11-19.south-asia-2, add: [cal.1962-11-19.china]}
 - follows: {id: cal.1962-11-20.china-leadership-2, add: [cal.1962-11-20.china-leadership]}
+- follows: {id: cal.1962-11-20.china-leadership, add: [cal.1962-11-20.south-asia]}
+- edit:
+    id: cal.1962-11-19.south-asia
+    base: e15370c0
+    set:
+      time: 1962-11-19T08:00Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1962-11-09.japan
+    base: c3fad7f2
+    set:
+      time: 1962-11-09T15:50Z
+      n: '[[w.jian-zhou-enlai]], 505; [[w.zhou-enlai-nianpu-1949]], II, 510 (Nov. 9, 1962: Liao Chengzhi and Takasaki sign the memorandum on Sino-Japanese private trade and related papers, with Zhou Enlai and Chen Yi at the signing); [[w.zhou-enlai-waijiao-huodong]], 340 (Nov. 9, 1962; 晚11时50分; Zhou Enlai present at the signing); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 251 (Nov. 9, 1962; Liao Chengzhi, chairman of the Chinese Afro-Asian Solidarity Committee, and Takasaki sign at Peking a memorandum on Sino-Japanese non-governmental trade: on the basis of equality and mutual benefit, by the method of gradual accumulation, to develop non-governmental trade further); [[w.chen-yi-nianpu]], 942 (Nov. 9, 1962, evening; Chen Yi at the signing of the memorandum, on the line of Zhou''s and Matsumura''s talks of September). To check: [[w.zhonghua-renmin-gongheguo-jingji]], 432–33, 469–71 (cited by [[w.jian-zhou-enlai]], 505 n.50a). See [[cal.1962-10.japan]]. Names: Takasaki, Liao Chengzhi. Check: the order of the signing, at 11:50 p.m. by the Zhou chronology (340), and of Takasaki''s farewell banquet, "evening," at which he says the memorandum was signed ([[w.zhonghua-renmin-gongheguo-waijiao-2001]], 251; [[cal.1962-11-09.china-leadership-3]]).'
+    unset:
+    - time_range
+    - time_band
+- edit:
+    id: cal.1962-11-21.soviet-union-leadership
+    base: 17fe624a
+    set:
+      n: 'P 68/II. [[w.prezidium-tsk-kpss-1954]], III, 399–403 (doc. 272.1 and the draft, Gromyko''s; for: Brezhnev, Voronov, Kirilenko, Kozlov, Kosygin, Podgorny, Polyansky, Suslov, Khrushchev, 399 n.г; the telegram sent Nov. 21, 399 n.е). Malin''s note of the session (I, 646), headed "пункт II" (item II), is on Laos: See [[cal.1962-11-21.laos]], [[cal.1962-11-16.soviet-union]]. After [[cal.1962-11-21.laos|Laos]], in the order of Malin''s notes: on one leaf, the instructions to the ambassador in Laos, then "Va. Об указаниях т. Микояну" (on the instructions to Mikoyan), Gromyko reading, "Утвердить текст указаний" (approve the text); the item numbers pencilled in later, the "Va" over an earlier number (I, 646–47 and nn.в, а). Made public: 2008. Names: Khrushchev, Mikoyan, Kennedy, Kuznetsov, Zorin, U Thant, McCloy, Stevenson.'
