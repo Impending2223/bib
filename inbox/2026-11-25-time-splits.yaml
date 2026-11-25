@@ -199,6 +199,11 @@ ops:
     name: Nam Định
     zone: Asia/Bangkok
     in: drv
+- place-key:
+    key: ciudad-juarez
+    name: Ciudad Juárez
+    zone: America/Ciudad_Juarez
+    in: mexico
 - add:
     entry:
       id: cal.1966-04-14.vietnam-air-war-2
@@ -456,13 +461,33 @@ ops:
     base: 38009bcb
     kind: correct
     set:
-      c: San Francisco. A policeman shoots Matthew Johnson, 16, running from a stolen car at Hunters Point, Sept. 27; rioting at Hunters Point and in the Fillmore.
-      n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it. To check: [[w.crowe-prophets-of-rage]]. Split under R25b and R17: the acts moved out of this entry are entries of their own. See [[cal.1965-08-11.states-and-cities]]. Names: Matthew Johnson.'
+      c: San Francisco. A policeman shoots Matthew Johnson, 16, running from a stolen car at Hunters Point, Sept. 27.
+      n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it (read Nov. 25, 2026: the officer at the car at 2:30 p.m.; the police told of the shooting at 3:10 p.m.; *128 Hours*, 2–4). To check: [[w.crowe-prophets-of-rage]]. Split under R25b and R17: the article, after *128 Hours*, gives the riot, Shelley''s call and Brown''s order hours of their own (7:35, 11:39 and 11:44 p.m.), and the shooting into the Bayview Community Center and the end of the emergency days of their own; each is now an entry. See [[cal.1965-08-11.states-and-cities]]. Names: Matthew Johnson.'
       tags:
       - state:ca
       - city:san-francisco
       - name:johnson-matthew
       when: Sept. 27
+      time: 1966-09-27T21:30Z
+      time_zone: America/Los_Angeles
+- add:
+    entry:
+      id: cal.1966-09-27.civil-disorders-3
+      when: Sept. 27
+      date: '1966-09-27'
+      place: san-francisco
+      thread: civil-disorders
+      also:
+      - states-and-cities
+      follows:
+      - cal.1966-09-27.states-and-cities-san-francisco
+      c: San Francisco. A riot declared in progress at Hunters Point, 7:35 p.m.; by 11 p.m. rioting and looting reported in the Fillmore.
+      n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it (read Nov. 25, 2026; *128 Hours*, 7, 10). To check: [[w.crowe-prophets-of-rage]]. See [[cal.1966-09-27.states-and-cities-san-francisco]].'
+      time: 1966-09-28T02:35Z
+      time_zone: America/Los_Angeles
+      tags:
+      - state:ca
+      - city:san-francisco
 - add:
     entry:
       id: cal.1966-09-27.civil-disorders
@@ -472,14 +497,31 @@ ops:
       thread: civil-disorders
       also:
       - states-and-cities
-      c: San Francisco. Shelley asks for the Guard, 11:39 p.m.; Brown sends 2,000; a curfew.
-      n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it. To check: [[w.crowe-prophets-of-rage]]. See [[cal.1966-09-27.states-and-cities-san-francisco]]. Names: Shelley, Brown.'
+      c: San Francisco. At the police chief's asking, Mayor Shelley telephones Governor Brown, 11:39 p.m., for 2,000 National Guardsmen.
+      n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it (read Nov. 25, 2026; *128 Hours*, 10–11). To check: [[w.crowe-prophets-of-rage]]. See [[cal.1966-09-27.states-and-cities-san-francisco]]. Names: Shelley, Brown.'
       time: 1966-09-28T06:39Z
       time_zone: America/Los_Angeles
       tags:
       - state:ca
       - city:san-francisco
       - name:shelley-john-f
+      - name:brown-edmund-g
+- add:
+    entry:
+      id: cal.1966-09-27.civil-disorders-2
+      when: Sept. 27
+      date: '1966-09-27'
+      place: san-francisco
+      thread: civil-disorders
+      also:
+      - states-and-cities
+      c: Governor Brown mobilizes the 2,000 Guardsmen, 11:44 p.m., and declares a state of emergency in San Francisco; a curfew from midnight to 6 a.m.
+      n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it (read Nov. 25, 2026; *128 Hours*, 10–11). Check: where Brown was. To check: [[w.crowe-prophets-of-rage]]. See [[cal.1966-09-27.states-and-cities-san-francisco]]. Names: Brown.'
+      time: 1966-09-28T06:44Z
+      time_zone: America/Los_Angeles
+      tags:
+      - state:ca
+      - city:san-francisco
       - name:brown-edmund-g
 - add:
     entry:
@@ -491,7 +533,12 @@ ops:
       also:
       - states-and-cities
       c: San Francisco. Police fire into the Bayview Community Center.
-      n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it. To check: [[w.crowe-prophets-of-rage]]. See [[cal.1966-09-27.states-and-cities-san-francisco]].'
+      n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it (read Nov. 25, 2026: an officer reported hurt at 5:43 p.m.; the police then fire on the center; the Guard''s sweep along Third done by 7:15 p.m.; *128 Hours*, 14–15, 42, which the article says leaves out the shooting into the center). To check: [[w.crowe-prophets-of-rage]]. See [[cal.1966-09-27.states-and-cities-san-francisco]].'
+      time_range:
+      - 1966-09-29T00:43Z
+      - 1966-09-29T02:15Z
+      time_zone: America/Los_Angeles
+      range_basis: record
       tags:
       - state:ca
       - city:san-francisco
@@ -505,7 +552,7 @@ ops:
       also:
       - states-and-cities
       c: 'San Francisco. The emergency ends. The police report: 457 arrested, 160 hurt.'
-      n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it. To check: [[w.crowe-prophets-of-rage]]. Check: the day of the police report. See [[cal.1966-09-27.states-and-cities-san-francisco]].'
+      n: 'San Francisco Police Department, *128 Hours* (1966) (Check the title), as [Wikipedia, "Hunters Point social uprising (1966)"](https://en.wikipedia.org/wiki/Hunters_Point_social_uprising_%281966%29) gives it. To check: [[w.crowe-prophets-of-rage]]. Check: the article, read Nov. 25, 2026, gives the uprising as Sept. 27–Oct. 1 and, in the 128 hours after the shooting, 359 arrested and 51 hurt (after Agee); the day, the 457 and the 160 rest on the line this entry was split from. Check: the day of the police report. See [[cal.1966-09-27.states-and-cities-san-francisco]].'
       tags:
       - state:ca
       - city:san-francisco
@@ -515,7 +562,7 @@ ops:
     kind: correct
     set:
       c: Diaoyutai Building 12. Mao calls Zhou Enlai and others to discuss the handling of archives in the Cultural Revolution.
-      n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 15, 1966. [[w.zhou-enlai-nianpu-1949-2020]], III, 89 (Nov. 15, 1966; Zhou at Mao''s on archive materials; next day the Politburo meeting revises the supplementary rules by Mao''s view, issued with his approval the same day). Made public: 2013. Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: Mao Zedong, Zhou Enlai.'
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 15, 1966. [[w.zhou-enlai-nianpu-1949-2020]], III, 89 (Nov. 15, 1966; Zhou at Mao''s on archive materials; next day the Politburo meeting revises the supplementary rules by Mao''s view, issued with his approval the same day). Made public: 2013. Split under R25b and R17: the Mao nianpu (Nov. 15, 1966) gives Mao''s reply its own hour, midnight of Nov. 16 (当晚十二时), after the Politburo''s revision of that day; each is now an entry of Nov. 16. Names: Mao Zedong, Zhou Enlai.'
 - add:
     entry:
       id: cal.1966-11-16.china-leadership-7
@@ -539,10 +586,9 @@ ops:
       thread: china-leadership
       follows:
       - cal.1966-11-16.china-leadership-7
-      c: 'Mao, at midnight: "returned to the Premier; do as drafted." The regulation is issued the same day.'
-      n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 15, 1966. [[w.zhou-enlai-nianpu-1949-2020]], III, 89 (Nov. 15, 1966; Zhou at Mao''s on archive materials; next day the Politburo meeting revises the supplementary rules by Mao''s view, issued with his approval the same day). Made public: 2013. Check: whether the midnight begins or ends Nov. 16 (the Nov. 15 nianpu has the regulation issued the same day). The Politburo meeting comes first in the nianpu''s order. See [[cal.1966-11-15.china-leadership]]. Names: Mao Zedong, Zhou Enlai.'
+      c: 'Mao, at midnight, on the Politburo''s revised regulation on archives: "returned to the Premier; do as drafted." The regulation is issued the same day.'
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, Nov. 15, 1966 (当晚十二时, "that night at twelve," after the Politburo''s revision of Nov. 16: the end of Nov. 16). [[w.zhou-enlai-nianpu-1949-2020]], III, 89 (Nov. 15, 1966; next day the Politburo meeting revises the supplementary rules by Mao''s view, issued with his approval the same day). Made public: 2013. The Politburo meeting comes first in the nianpu''s order. See [[cal.1966-11-15.china-leadership]]. Names: Mao Zedong, Zhou Enlai.'
       time: 1966-11-16T16:00Z
-      time_approx: true
       time_zone: Asia/Shanghai
       tags:
       - name:mao-zedong
@@ -555,7 +601,7 @@ ops:
     kind: correct
     set:
       c: 'Mao reads Jiang Qing''s draft speech of Nov. 24 for the coming arts-and-literature rally and adds a paragraph: new literature and art have grown against the old; even Peking opera, hardest to reform, has new works; thirty years ago Lu Xun was the bold banner-bearer of the cultural revolution.{1}'
-      n: '[[w.zedong-mao-zedong-nianpu]], VI, late Nov. 1966 (the entry "11月下旬"). [[w.jianguo-yilai-mao-zedong]], XVIII, 396–399 (Nov. 24, 1966; Mao''s notes, "changed a little, for the Group''s comrades'' reference," on the draft Jiang Qing sent Nov. 24, and "back to Jiang Qing; some more changes, rather sounder," one o''clock (一时), Nov. 28, on the draft of Nov. 27, printed from the manuscripts and his revised copy; note 2: he softened her lines to the First Peking Opera Troupe and added that she worked "on the basis of others'' first creations"; note 4: he struck "loyal to Chairman Mao"; she spoke Nov. 28). Made public: 2013. To check: Jiang Qing, draft speech for the rally of the arts world, sent to Mao Nov. 24 and Nov. 27, 1966 (given Nov. 28) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 397 n.1). Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: Mao Zedong, Jiang Qing, Lu Xun.'
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, late Nov. 1966 (the entry "11月下旬"). [[w.jianguo-yilai-mao-zedong]], XVIII, 396–399 (the item dated November 1966, 一九六六年十一月; Mao''s notes, "changed a little, for the Group''s comrades'' reference," on the draft Jiang Qing sent Nov. 24, and "back to Jiang Qing; some more changes, rather sounder," one o''clock (一时), Nov. 28, on the draft of Nov. 27, printed from the manuscripts and his revised copy; note 2: he softened her lines to the First Peking Opera Troupe and added that she worked "on the basis of others'' first creations"; note 4: he struck "loyal to Chairman Mao"; she spoke Nov. 28). Made public: 2013. To check: Jiang Qing, draft speech for the rally of the arts world, sent to Mao Nov. 24 and Nov. 27, 1966 (given Nov. 28) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 397 n.1). Split under R25b and R17: the Wengao (XVIII, 396: 十一月二十八日一时) and the nianpu (二十八日晨一时) give Mao''s second note its own hour, 1 a.m. Nov. 28; it is now an entry. Check: the day: Mao''s first note is on the draft Jiang Qing sent Nov. 24; the nianpu puts both in late November, the Wengao in November 1966. Names: Mao Zedong, Jiang Qing, Lu Xun.'
       src:
         rows:
         - 'w.zedong-mao-zedong-nianpu VI, late Nov. 1966: ?'
@@ -569,7 +615,7 @@ ops:
       date: '1966-11-28'
       thread: china-leadership
       c: 'Mao, 1 a.m., on Jiang Qing''s draft of the 27th: a paragraph added where she speaks of work groups: the trouble is their policy, not their form; units without groups relied on old leaders.'
-      n: '[[w.zedong-mao-zedong-nianpu]], VI, late Nov. 1966 (the entry "11月下旬"). [[w.jianguo-yilai-mao-zedong]], XVIII, 396–399 (Nov. 24, 1966; Mao''s notes, "changed a little, for the Group''s comrades'' reference," on the draft Jiang Qing sent Nov. 24, and "back to Jiang Qing; some more changes, rather sounder," one o''clock (一时), Nov. 28, on the draft of Nov. 27, printed from the manuscripts and his revised copy; note 2: he softened her lines to the First Peking Opera Troupe and added that she worked "on the basis of others'' first creations"; note 4: he struck "loyal to Chairman Mao"; she spoke Nov. 28). Made public: 2013. To check: Jiang Qing, draft speech for the rally of the arts world, sent to Mao Nov. 24 and Nov. 27, 1966 (given Nov. 28) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 397 n.1). See [[cal.1966-11-24.china-leadership]]. Names: Mao Zedong, Jiang Qing.'
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, late Nov. 1966 (the entry "11月下旬"). [[w.jianguo-yilai-mao-zedong]], XVIII, 396–399 (the item dated November 1966, 一九六六年十一月; Mao''s notes, "changed a little, for the Group''s comrades'' reference," on the draft Jiang Qing sent Nov. 24, and "back to Jiang Qing; some more changes, rather sounder," one o''clock (一时), Nov. 28, on the draft of Nov. 27, printed from the manuscripts and his revised copy; note 2: he softened her lines to the First Peking Opera Troupe and added that she worked "on the basis of others'' first creations"; note 4: he struck "loyal to Chairman Mao"; she spoke Nov. 28). Made public: 2013. To check: Jiang Qing, draft speech for the rally of the arts world, sent to Mao Nov. 24 and Nov. 27, 1966 (given Nov. 28) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 397 n.1). See [[cal.1966-11-24.china-leadership]]. Names: Mao Zedong, Jiang Qing.'
       time: 1966-11-27T17:00Z
       time_zone: Asia/Shanghai
       tags:
@@ -583,7 +629,7 @@ ops:
     kind: correct
     set:
       c: Air Force F-4C Phantoms down seven MiG-21s, the biggest air battle of the war; MiG kills 34 in all.
-      n: '[[w.macv-command-history-1967]], 1255. Split under R25b and R17: the acts moved out of this entry are entries of their own.'
+      n: '[[w.macv-command-history-1967]], 1255. Split under R25b and R17: the command''s chronology (1255) gives the end of the New Year''s stand-down its own hour, 0700H; it is now an entry.'
       src:
         rows:
         - 'w.macv-command-history-1967 1255: all'
@@ -594,7 +640,7 @@ ops:
       date: '1967-01-02'
       thread: vietnam-air-war
       c: The New Year's stand-down ends at 7 a.m., 111 violations recorded, 24 significant.
-      n: '[[w.macv-command-history-1967]], 1255. Check: whose clock the 7 a.m. is (MACV''s, Saigon''s, assumed). See [[cal.1967-01-02.vietnam-air-war-2]].'
+      n: '[[w.macv-command-history-1967]], 1255 ("stand-down period ends 0700H": the H zone, UTC+8, Saigon''s clock). See [[cal.1967-01-02.vietnam-air-war-2]].'
       time: 1967-01-01T23:00Z
       time_zone: Asia/Ho_Chi_Minh
       tags: []
@@ -604,7 +650,7 @@ ops:
     kind: correct
     set:
       c: Eban in Washington from Paris and London; with Rusk May 25.{1}
-      n: '[FRUS 1964–68, XIX, doc. 72](https://history.state.gov/historicaldocuments/frus1964-68v19/d72); [doc. 77](https://history.state.gov/historicaldocuments/frus1964-68v19/d77). [[w.rusk-as-i-saw-it-1990]], 386 (restraint urged; "not alone"); [[w.dallek-flawed-giant]], 427 (Eban with Johnson, May 26: the three possibilities, the British plan for the maritime powers, Johnson''s preference for the U.N., "Israel need not be alone unless it chooses to go alone"; not the hours or Egypt''s troops). See [[cal.1967-05-16.middle-east]]. Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: Eban, Rusk, Wheeler, Johnson. Check: Rusk has Eban come to Washington May 26, Johnson and Rusk together urging restraint ([[w.rusk-as-i-saw-it-1990]], 386).'
+      n: '[FRUS 1964–68, XIX, doc. 72](https://history.state.gov/historicaldocuments/frus1964-68v19/d72); [doc. 77](https://history.state.gov/historicaldocuments/frus1964-68v19/d77). [[w.rusk-as-i-saw-it-1990]], 386 (restraint urged; "not alone"); [[w.dallek-flawed-giant]], 427 (Eban with Johnson, May 26: the three possibilities, the British plan for the maritime powers, Johnson''s preference for the U.N., "Israel need not be alone unless it chooses to go alone"; not the hours or Egypt''s troops). See [[cal.1967-05-16.middle-east]]. Split under R25b and R17: FRUS XIX, docs. 72 and 77, give the President''s meeting with his advisers and his talk with Eban on May 26 hours of their own (1:30 p.m.; 7:15 to 8:40 p.m.); each is now an entry. Doc. 72 reports Rusk''s talk with Eban. Names: Eban, Rusk. Check: Rusk has Eban come to Washington May 26, Johnson and Rusk together urging restraint ([[w.rusk-as-i-saw-it-1990]], 386).'
       src:
         rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d72: 1'
@@ -612,7 +658,6 @@ ops:
       tags:
       - name:eban-abba-s
       - name:rusk-dean
-      - name:harman-avraham
     unset:
     - variants
 - add:
@@ -636,8 +681,10 @@ ops:
       date: '1967-05-26'
       place: washington
       thread: middle-east-six-day-war
-      c: 'Eban with Johnson, 7:15 to 8:40 p.m.: what will the United States do to keep the Strait open? Johnson: Israel must not be responsible for starting hostilities; the maritime powers to act, on the British plan; and twice, "Israel will not be alone unless it decides to go it alone."'
-      n: '[FRUS 1964–68, XIX, doc. 77](https://history.state.gov/historicaldocuments/frus1964-68v19/d77) (memorandum of conversation, 7:15–8:40 p.m.). [[w.rusk-as-i-saw-it-1990]], 386 (restraint urged; "not alone"); [[w.dallek-flawed-giant]], 427 (Eban with Johnson, May 26: the three possibilities, the British plan for the maritime powers, Johnson''s preference for the U.N., "Israel need not be alone unless it chooses to go alone"; not the hours). Check: Dallek, 427, gives "Israel need not be alone unless it chooses to go alone". See [[cal.1967-05-25.middle-east]]. Names: Eban, Johnson.'
+      follows:
+      - cal.1967-05-26.middle-east-six-day-war-2
+      c: 'Eban, with Harman, and Johnson, 7:15 to 8:40 p.m.: what will the United States do to keep the Strait open? Johnson: Israel must not be responsible for starting hostilities; the maritime powers to act, on the British plan; and twice, "Israel will not be alone unless it decides to go it alone."'
+      n: '[FRUS 1964–68, XIX, doc. 77](https://history.state.gov/historicaldocuments/frus1964-68v19/d77) (memorandum of conversation, 7:15–8:40 p.m.). [[w.rusk-as-i-saw-it-1990]], 386 (restraint urged; "not alone"); [[w.dallek-flawed-giant]], 427 (Eban with Johnson, May 26: the three possibilities, the British plan for the maritime powers, Johnson''s preference for the U.N., "Israel need not be alone unless it chooses to go alone"; not the hours). Johnson speaks from the notes of his meeting with his advisers earlier in the day (doc. 77). See [[cal.1967-05-25.middle-east]]. Names: Eban, Harman, Johnson. Check: Dallek, 427, gives "Israel need not be alone unless it chooses to go alone."'
       time: 1967-05-26T23:15Z
       time_zone: America/New_York
       tags:
@@ -650,7 +697,7 @@ ops:
     kind: correct
     set:
       c: Israel's aircraft strike Egypt's air bases in the morning;{1} war with Egypt, Jordan and Syria.{2}
-      n: '[FRUS 1964–68, XIX, doc. 150](https://history.state.gov/historicaldocuments/frus1964-68v19/d150); [doc. 152](https://history.state.gov/historicaldocuments/frus1964-68v19/d152); [doc. 155](https://history.state.gov/historicaldocuments/frus1964-68v19/d155); [doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v19/d156); [doc. 157](https://history.state.gov/historicaldocuments/frus1964-68v19/d157); [doc. 159](https://history.state.gov/historicaldocuments/frus1964-68v19/d159). [Johnson and McNamara, 7:57 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-june-5-1967), Conversation WH6706-01-11903 (Miller Center). [[w.drea-mcnamara-clifford-and-the-2011]], 441–42 (the Egyptian airfields struck; the hot line, McNamara''s call, the reply; nineteen messages and a duplicate to June 10; the war); [[w.johnson-vantage-point]], 297–99 (the attack, the hot line, the spokesman''s words); [[w.dallek-flawed-giant]], 427–28 (the war, the neutrality statement); [[w.mcnamara-in-retrospect]], ch. 10 (at the Pentagon from 7 a.m.; within the hour the War Room''s general: Kosygin on the hot line; McNamara has it patched to the Situation Room and calls the President). [[w.rusk-as-i-saw-it-1990]], 386 (the attack; the hot line); [[w.califano-triumph-and-tragedy-of]], 204–05 (McCloskey: "neutral in thought, word, and deed"; Ginsburg and Fortas on the Neutrality Act; Christian and Rusk to back away); [[w.dallek-flawed-giant]], 427–28 (June 5, the Israelis begin a six-day war, defeating Egyptian, Jordanian and Syrian forces; Johnson at a newspaper photograph of himself: "There''s a picture of a sad man"; that afternoon a State Department spokesman: the United States "neutral in thought, word and deed"; not the air strikes, the hot line or McCloskey by name); [[w.johnson-white-house-diary]], 520–22 (two calls in the night, about 4:30 and an hour later; Johnson: "We have a war on our hands—in the Middle East"; a State Department official''s phrase "neutral in thought, word, and deed," and Rusk on television "to try to clarify the word"; not the hot line or the hour of 7:57). To check: [[w.oren-six-days-of-war]]; [[w.quandt-lyndon-johnson-and-the]]; [[w.quandt-peace-process]]; [[w.six-day-war]]; [[w.segev-1967]]; [[w.shlaim-iron-wall]]; [[w.shlaim-lion-of-jordan]]; [[w.spiegel-other-arab-israeli-conflict]]; [[w.little-making-of-a-special]]; [[w.ben-zvi-lyndon-b-johnson-and]]; [[w.klinghoffer-vietnam-jews-and-the]]; the NSC Histories "Mid-East Crisis: Summary" and "The President in the Middle East Crisis, May 12–June 19, 1967," NSF, LBJ Library; Califano to Johnson, June 5, 1967, 5:10 p.m., Diary Backup, LBJ Library (cited by [[w.dallek-flawed-giant]], 428). See [[cal.1967-05-16.middle-east]]; [[cal.1963-08-30.testing]]. Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: McNamara, Kosygin, McCloskey, Johnson. Check: whose morning, Cairo''s or Israel''s clock, an hour apart; the range takes both.'
+      n: '[FRUS 1964–68, XIX, doc. 150](https://history.state.gov/historicaldocuments/frus1964-68v19/d150); [doc. 152](https://history.state.gov/historicaldocuments/frus1964-68v19/d152); [doc. 155](https://history.state.gov/historicaldocuments/frus1964-68v19/d155); [doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v19/d156); [doc. 157](https://history.state.gov/historicaldocuments/frus1964-68v19/d157); [doc. 159](https://history.state.gov/historicaldocuments/frus1964-68v19/d159). [Johnson and McNamara, 7:57 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-june-5-1967), Conversation WH6706-01-11903 (Miller Center). [[w.drea-mcnamara-clifford-and-the-2011]], 441–42 (the Egyptian airfields struck; the hot line, McNamara''s call, the reply; nineteen messages and a duplicate to June 10; the war); [[w.johnson-vantage-point]], 297–99 (the attack, the hot line, the spokesman''s words); [[w.dallek-flawed-giant]], 427–28 (the war, the neutrality statement); [[w.mcnamara-in-retrospect]], ch. 10 (at the Pentagon from 7 a.m.; within the hour the War Room''s general: Kosygin on the hot line; McNamara has it patched to the Situation Room and calls the President). [[w.rusk-as-i-saw-it-1990]], 386 (the attack; the hot line); [[w.califano-triumph-and-tragedy-of]], 204–05 (McCloskey: "neutral in thought, word, and deed"; Ginsburg and Fortas on the Neutrality Act; Christian and Rusk to back away); [[w.dallek-flawed-giant]], 427–28 (June 5, the Israelis begin a six-day war, defeating Egyptian, Jordanian and Syrian forces; Johnson at a newspaper photograph of himself: "There''s a picture of a sad man"; that afternoon a State Department spokesman: the United States "neutral in thought, word and deed"; not the air strikes, the hot line or McCloskey by name); [[w.johnson-white-house-diary]], 520–22 (two calls in the night, about 4:30 and an hour later; Johnson: "We have a war on our hands—in the Middle East"; a State Department official''s phrase "neutral in thought, word, and deed," and Rusk on television "to try to clarify the word"; not the hot line or the hour of 7:57). To check: [[w.oren-six-days-of-war]]; [[w.quandt-lyndon-johnson-and-the]]; [[w.quandt-peace-process]]; [[w.six-day-war]]; [[w.segev-1967]]; [[w.shlaim-iron-wall]]; [[w.shlaim-lion-of-jordan]]; [[w.spiegel-other-arab-israeli-conflict]]; [[w.little-making-of-a-special]]; [[w.ben-zvi-lyndon-b-johnson-and]]; [[w.klinghoffer-vietnam-jews-and-the]]; the NSC Histories "Mid-East Crisis: Summary" and "The President in the Middle East Crisis, May 12–June 19, 1967," NSF, LBJ Library; Califano to Johnson, June 5, 1967, 5:10 p.m., Diary Backup, LBJ Library (cited by [[w.dallek-flawed-giant]], 428). See [[cal.1967-05-16.middle-east]]; [[cal.1963-08-30.testing]]. Split under R25b and R17: the Miller Center''s catalogue and FRUS XIX, doc. 155, give McNamara''s call on the hot line its own hour, 7:57 a.m., and Dallek (428) puts McCloskey''s words in the afternoon; each is now an entry. Check: whose morning, Cairo''s or Israel''s clock, an hour apart; the range takes both.'
       src:
         rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d150: 1, 2'
@@ -666,6 +713,8 @@ ops:
         - 'w.johnson-white-house-diary 520–22: ?'
       tags: []
       short: Israel's strike
+    unset:
+    - also
 - add:
     entry:
       id: cal.1967-06-05.middle-east-six-day-war-4
@@ -706,12 +755,11 @@ ops:
     kind: correct
     set:
       c: 'The Security Council, unanimous, Resolution 233: a cease-fire. Johnson: "a first step" toward peace.{1}'
-      n: 'Security Council Resolution [233 (1967)](https://undocs.org/S/RES/233(1967)). Statement by the President on the United Nations Security Council''s Cease-Fire Vote in the Middle East Situation, [1967 Pub. Papers 598](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=666) (June 6, 1967). [FRUS 1964–68, XXXIV, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v34/d233) (Radio Cairo). [[w.drea-mcnamara-clifford-and-the-2011]], 443 (Radio Cairo; the breaks in relations); [[w.dallek-flawed-giant]], 430–31 (the evening of June 6, Johnson announces support of "a simple cease-fire" as a necessary first step toward a "settled peace"; the Council not insisting on a pullback; not Resolution 233 or the other units). To check: [[w.yergin-prize]]; Cairo to State, msgs 8586 and 8597, June 6, 1967, Cable files, OSD Historical Office (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 443 n.62). See [[cal.1967-06-05.middle-east]]. The oil embargo: [[cal.1967-06-06.oil]]. Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: Johnson. Check: Drea lists Algeria, Egypt, Iraq, Mauritania, Syria, Sudan and Yemen (443 n.).'
+      n: 'Security Council Resolution [233 (1967)](https://undocs.org/S/RES/233(1967)). Statement by the President on the United Nations Security Council''s Cease-Fire Vote in the Middle East Situation, [1967 Pub. Papers 598](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=666) (June 6, 1967). [FRUS 1964–68, XXXIV, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v34/d233) (Radio Cairo). [[w.drea-mcnamara-clifford-and-the-2011]], 443 (Radio Cairo; the breaks in relations); [[w.dallek-flawed-giant]], 430–31 (the evening of June 6, Johnson announces support of "a simple cease-fire" as a necessary first step toward a "settled peace"; the Council not insisting on a pullback; not Resolution 233 or the other units). To check: [[w.yergin-prize]]; Cairo to State, msgs 8586 and 8597, June 6, 1967, Cable files, OSD Historical Office (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 443 n.62). See [[cal.1967-06-05.middle-east]]. The oil embargo: [[cal.1967-06-06.oil]]. Split under R25b and R17: FRUS XXXIV, doc. 233, gives Radio Cairo''s charge its own hour, 7:40 a.m.; it, the closing of the canal and the breaks in relations are now entries. Names: Johnson.'
       src:
         rows:
         - 'https://undocs.org/S/RES/233(1967): 1'
         - 'https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=666: 1'
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v34/d233: 1'
         - 'w.dallek-flawed-giant 430–31: ?'
       tags:
       - name:johnson-lyndon-b
@@ -723,7 +771,7 @@ ops:
       place: cairo
       thread: middle-east-six-day-war
       c: 'Radio Cairo, from 7:40 a.m.: American aircraft in the Israeli attacks.'
-      n: '[FRUS 1964–68, XXXIV, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v34/d233) (Radio Cairo). [[w.drea-mcnamara-clifford-and-the-2011]], 443 (Radio Cairo; the breaks in relations). To check: Cairo to State, msgs 8586 and 8597, June 6, 1967, Cable files, OSD Historical Office (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 443 n.62). See [[cal.1967-06-06.middle-east]].'
+      n: '[FRUS 1964–68, XXXIV, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v34/d233) (editorial note: "At 7:40 a.m. on June 6, Radio Cairo began broadcasting the charge"). [[w.drea-mcnamara-clifford-and-the-2011]], 443 (Radio Cairo, "early the next morning"). To check: Telegram 8565 from Cairo, June 6, 1967, RG 59, Central Files 1967–69, POL 27 ARAB–ISR (cited by FRUS 1964–68, XXXIV, doc. 233); Cairo to State, msgs 8586 and 8597, June 6, 1967, Cable files, OSD Historical Office (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 443 n.62). Check: whose clock the 7:40 a.m. is (Cairo''s assumed; the note rests on a cable from Cairo). See [[cal.1967-06-06.middle-east]].'
       time: 1967-06-06T04:40Z
       time_zone: Africa/Cairo
       tags: []
@@ -735,7 +783,7 @@ ops:
       place: cairo
       thread: middle-east-six-day-war
       c: Egypt closes the Suez Canal.
-      n: '[FRUS 1964–68, XXXIV, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v34/d233) (Radio Cairo). [[w.drea-mcnamara-clifford-and-the-2011]], 443 (Radio Cairo; the breaks in relations). To check: Cairo to State, msgs 8586 and 8597, June 6, 1967, Cable files, OSD Historical Office (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 443 n.62). See [[cal.1967-06-06.middle-east]]. Check: the hour and the day.'
+      n: 'To check: [[w.yergin-prize]]. Check: no source read gives it: FRUS XXXIV, doc. 233, and Drea, 443, read for it, do not; it rests on the line this entry was split from. Check: the hour and the day. See [[cal.1967-06-06.middle-east]].'
       tags: []
 - add:
     entry:
@@ -744,42 +792,23 @@ ops:
       date: '1967-06-06'
       thread: middle-east-six-day-war
       c: Egypt, Syria, Iraq, Algeria, Sudan and Yemen break relations with the United States, June 6–7 (Check the list).
-      n: '[FRUS 1964–68, XXXIV, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v34/d233) (Radio Cairo). [[w.drea-mcnamara-clifford-and-the-2011]], 443 (Radio Cairo; the breaks in relations). To check: Cairo to State, msgs 8586 and 8597, June 6, 1967, Cable files, OSD Historical Office (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 443 n.62). See [[cal.1967-06-06.middle-east]]. Check: Drea lists Algeria, Egypt, Iraq, Mauritania, Syria, Sudan and Yemen (443 n.). Names: Nasser.'
-      tags:
-      - name:nasser-gamal-abdel
+      n: '[[w.drea-mcnamara-clifford-and-the-2011]], 443 (the breaks, "from Mauritania to Iraq"; no day). To check: Cairo to State, msgs 8586 and 8597, June 6, 1967, Cable files, OSD Historical Office (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 443 n.62). Check: Drea lists Algeria, Egypt, Iraq, Mauritania, Syria, Sudan and Yemen (443 n.). Check: the days, which rest on the line this entry was split from. See [[cal.1967-06-06.middle-east]].'
+      tags: []
 - edit:
     id: cal.1967-06-09.middle-east
     base: b2dffbbe
     kind: correct
     set:
       c: Egypt accepts the cease-fire the night of June 8. June 9, Israel attacks Syria on the Golan Heights; Nasser resigns, and withdraws the resignation June 10.{1}
-      n: 'FRUS 1964–68, XIX, docs. [243](https://history.state.gov/historicaldocuments/frus1964-68v19/d243), [244](https://history.state.gov/historicaldocuments/frus1964-68v19/d244), [246](https://history.state.gov/historicaldocuments/frus1964-68v19/d246), [247](https://history.state.gov/historicaldocuments/frus1964-68v19/d247), [252](https://history.state.gov/historicaldocuments/frus1964-68v19/d252), [255](https://history.state.gov/historicaldocuments/frus1964-68v19/d255). [[w.dobrynin-in-confidence]], 165–66 (the hot line, the fleet, the break, the cease-fire; not the words quoted, nor the men with Johnson); [[w.dallek-flawed-giant]], 431 (Syria agrees to halt June 9, Israel fights on, to June 10; Johnson orders the Sixth Fleet east; Israel agrees to a cease-fire on all fronts; not the hot-line text or the others at the table). Made public: Helms''s account of the morning of June 10, in Saunders''s memorandum of Oct. 22, 1968, FRUS 1964–68, XIX (2004). See [[cal.1967-06-05.middle-east]]. Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: Nasser, Kosygin, Thompson, Helms, McNamara, Johnson.'
+      n: 'FRUS 1964–68, XIX, docs. [243](https://history.state.gov/historicaldocuments/frus1964-68v19/d243), [244](https://history.state.gov/historicaldocuments/frus1964-68v19/d244), [246](https://history.state.gov/historicaldocuments/frus1964-68v19/d246), [247](https://history.state.gov/historicaldocuments/frus1964-68v19/d247), [252](https://history.state.gov/historicaldocuments/frus1964-68v19/d252), [255](https://history.state.gov/historicaldocuments/frus1964-68v19/d255). [[w.dobrynin-in-confidence]], 165–66 (the hot line, the fleet, the break, the cease-fire; not the words quoted, nor the men with Johnson); [[w.dallek-flawed-giant]], 431 (Syria agrees to halt June 9, Israel fights on, to June 10; Johnson orders the Sixth Fleet east; Israel agrees to a cease-fire on all fronts; not the hot-line text or the others at the table). Made public: Helms''s account of the morning of June 10, in Saunders''s memorandum of Oct. 22, 1968, FRUS 1964–68, XIX (2004). See [[cal.1967-06-05.middle-east]]. Split under R25b and R17: FRUS XIX, doc. 243, gives Kosygin''s message on the hot line its own hour, 8:48 a.m., June 10 (already the entry [[cal.1967-06-10.middle-east-six-day-war]]); the Soviet break with Israel, the cease-fire on the Syrian front and Resolution 236 are now entries of their own. Names: Nasser.'
       src:
         rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d243: 1'
         - 'w.dallek-flawed-giant 431: ?'
       tags:
       - name:nasser-gamal-abdel
-- add:
-    entry:
-      id: cal.1967-06-10.middle-east-six-day-war-6
-      when: June 10
-      date: '1967-06-10'
-      place: washington
-      thread: middle-east-six-day-war
-      also:
-      - soviet-union
-      c: 'Kosygin on the hot line, 8:48 a.m.: unless the fighting stops "in the next few hours," "necessary actions will be taken, including military." Johnson, with Thompson, Helms and McNamara, turns the Sixth Fleet east toward the Syrian coast.'
-      n: 'FRUS 1964–68, XIX, docs. [243](https://history.state.gov/historicaldocuments/frus1964-68v19/d243), [246](https://history.state.gov/historicaldocuments/frus1964-68v19/d246), [247](https://history.state.gov/historicaldocuments/frus1964-68v19/d247), [252](https://history.state.gov/historicaldocuments/frus1964-68v19/d252), [255](https://history.state.gov/historicaldocuments/frus1964-68v19/d255). [[w.dobrynin-in-confidence]], 165–66 (the hot line, the fleet; not the words quoted, nor the men with Johnson); [[w.dallek-flawed-giant]], 431 (Johnson orders the Sixth Fleet east; not the hot-line text or the others at the table). Made public: Helms''s account of the morning of June 10, in Saunders''s memorandum of Oct. 22, 1968, FRUS 1964–68, XIX (2004). The 8:48 a.m. is the time the Soviet Molink sent the message, by a typed notation on the copy (doc. 243 n.1; received 8:52, taken to Johnson at 9:05); Johnson''s reply is dated 9:39 a.m. Check: whose clock the notation keeps (Washington''s assumed). See [[cal.1967-06-09.middle-east]]. Names: Kosygin, Thompson, Helms, McNamara, Johnson.'
-      time: 1967-06-10T12:48Z
-      time_zone: America/New_York
-      tags:
-      - name:kosygin-aleksei
-      - name:thompson-llewellyn-e
-      - name:helms-richard
-      - name:mcnamara-robert-s
-      - name:johnson-lyndon-b
-      - name:saunders-harold-h
+      when: June 9–10
+    unset:
+    - also
 - add:
     entry:
       id: cal.1967-06-10.middle-east-six-day-war-7
@@ -788,8 +817,9 @@ ops:
       thread: middle-east-six-day-war
       also:
       - soviet-union
+      place: moscow
       c: The Soviet Union breaks relations with Israel.
-      n: '[[w.dobrynin-in-confidence]], 165–66 (the break). See [[cal.1967-06-09.middle-east]]. Check: the hour.'
+      n: '[[w.dobrynin-in-confidence]], 165 ("Moscow on June 10 broke diplomatic relations with Jerusalem"). Check: the hour. See [[cal.1967-06-09.middle-east]].'
       tags: []
 - add:
     entry:
@@ -798,10 +828,10 @@ ops:
       date: '1967-06-10'
       thread: middle-east-six-day-war
       c: Israel and Syria cease fire the evening of June 10.
-      n: FRUS 1964–68, XIX, docs. [252](https://history.state.gov/historicaldocuments/frus1964-68v19/d252), [255](https://history.state.gov/historicaldocuments/frus1964-68v19/d255). [[w.dobrynin-in-confidence]], 165–66 (the cease-fire); [[w.dallek-flawed-giant]], 431 (Israel agrees to a cease-fire on all fronts). See [[cal.1967-06-09.middle-east]].
+      n: 'FRUS 1964–68, XIX, docs. [252](https://history.state.gov/historicaldocuments/frus1964-68v19/d252) (Johnson to Kosygin, 10:58 a.m., Washington: Israel "regards cease-fire as in effect now"), [255](https://history.state.gov/historicaldocuments/frus1964-68v19/d255) (11:58 a.m.: "military action in the Middle East is being concluded"). [[w.dobrynin-in-confidence]], 166 ("Late on June 10 Israel ended its military operations on all fronts, and cease-fire agreements were signed"); [[w.dallek-flawed-giant]], 431 (Israel agrees to a cease-fire on all fronts). The evening is Dobrynin''s "late on June 10." Check: the hour: Israel''s announcement was known in Washington by 10:58 a.m., 4:58 p.m. in Israel (doc. 252). See [[cal.1967-06-09.middle-east]].'
       time_range:
-      - 1967-06-10T16:00Z
-      - 1967-06-10T21:00Z
+      - 1967-06-10T17:00Z
+      - 1967-06-10T20:00Z
       time_band: evening
       time_zone: Asia/Jerusalem
       range_basis: record
@@ -822,7 +852,7 @@ ops:
     kind: correct
     set:
       c: 'Buffalo, near Côn Thiên. An air observer calls artillery and air strikes on a concentration of the enemy: 200 killed.'
-      n: '[[w.macv-command-history-1967]], 360. To check: COMUSMACV, 071010Z Jul 67, "Daily SITREP"; COMUSMACV, 070310Z Jul 67, "TELECON" (cited by [[w.macv-command-history-1967]], 361 n.20). See [[cal.1967-07-02.vietnam-operations]]. Split under R25b and R17: the acts moved out of this entry are entries of their own.'
+      n: '[[w.macv-command-history-1967]], 360. To check: COMUSMACV, 071010Z Jul 67, "Daily SITREP"; COMUSMACV, 070310Z Jul 67, "TELECON" (cited by [[w.macv-command-history-1967]], 361 n.20). See [[cal.1967-07-02.vietnam-operations]]. Split under R25b and R17: the command history (360) gives the enemy''s shelling its own hours, 0745 to 1345; it is now an entry.'
       src:
         rows:
         - 'w.macv-command-history-1967 360: all'
@@ -834,7 +864,7 @@ ops:
       place: con-thien
       thread: vietnam-operations
       c: Buffalo, near Côn Thiên. Enemy artillery, 7:45 a.m. to 1:45 p.m., kills 14 and wounds 25, most by one 152mm shell on a battalion command post of the 9th Marines, the first 152mm fire of the war.
-      n: '[[w.macv-command-history-1967]], 360. Check: whose clock the hours are (MACV''s, Saigon''s, assumed). To check: COMUSMACV, 071010Z Jul 67, "Daily SITREP" (cited by [[w.macv-command-history-1967]], 361 n.20). See [[cal.1967-07-05.vietnam-operations]].'
+      n: '[[w.macv-command-history-1967]], 360 ("between 0745 and 1345 on 5 July"). The time is the shelling''s start. Check: whose clock the hours are (the command''s local time, UTC+8, assumed). To check: COMUSMACV, 071010Z Jul 67, "Daily SITREP" (cited by [[w.macv-command-history-1967]], 361 n.20). See [[cal.1967-07-05.vietnam-operations]].'
       time: 1967-07-04T23:45Z
       time_zone: Asia/Ho_Chi_Minh
       tags:
@@ -844,8 +874,10 @@ ops:
     base: 02964842
     kind: correct
     set:
-      c: 'Morning, Shanghai. Mao hears Yang Chengwu relay Zhou Enlai''s 8:20 telephone call from Wuhan: report of Wuhan events to be oblique, no names; protect Chen Zaidao and others. Mao: Wuhan is to be treated as an error; if he has resolve, we cannot get out and Zhou cannot get in, yet he has not ordered that none pass; agrees to protect Chen.'
-      n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967. Made public: 2013. Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: Mao Zedong, Yang Chengwu, Zhou Enlai, Zhang Chunqiao, Yu Lijin, Wang Dongxing, Chen Zaidao, Xie Fuzhi, Wang Li.'
+      c: 'Morning, Shanghai, the Hongqiao Guesthouse. Mao hears Yang Chengwu relay Zhou Enlai''s telephone call from Wuhan. Mao: Wuhan is to be treated as an error; if he has resolve, we cannot get out and Zhou cannot get in, yet he has not ordered that none pass; agrees to protect Chen Zaidao and others.'
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967 (上午, in the morning, at the Hongqiao Guesthouse, 虹桥宾馆). Made public: 2013. Split under R25b and R17: the nianpu gives Zhou''s call its own hour, 8:20 (八时二十分), and Mao''s later talks of the day theirs, 11 a.m., 1:30 and 2:40 p.m.; each is now an entry. Names: Mao Zedong, Yang Chengwu, Zhou Enlai, Chen Zaidao.'
+      follows:
+      - cal.1967-07-22.china-leadership-10
       tags:
       - name:mao-zedong
       - name:zhou-enlai
@@ -855,13 +887,33 @@ ops:
       - name:yang-chengwu
 - add:
     entry:
+      id: cal.1967-07-22.china-leadership-10
+      when: July 22
+      date: '1967-07-22'
+      place:
+      - wuhan
+      - shanghai
+      thread: china-leadership
+      c: 'Zhou Enlai telephones Shanghai from Wuhan, 8:20 a.m., on the situation there: reports of the Wuhan events to be oblique, no names; Chen Zaidao and others to be protected.'
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967 (周恩来八时二十分从武汉来电话, as Yang Chengwu reports it to Mao that morning). Made public: 2013. Check: whom Zhou spoke to (Yang Chengwu, it seems). See [[cal.1967-07-22.china-leadership]]. Names: Zhou Enlai, Chen Zaidao.'
+      time: 1967-07-22T00:20Z
+      time_zone: Asia/Shanghai
+      tags:
+      - name:zhou-enlai
+      - name:chen-zaidao
+      - polity:prc
+      - vis:only:prc
+- add:
+    entry:
       id: cal.1967-07-22.china-leadership-9
       when: July 22
       date: '1967-07-22'
       place: shanghai
       thread: china-leadership
+      follows:
+      - cal.1967-07-22.china-leadership
       c: '11 a.m., Shanghai, Mao with Yang Chengwu, Zhang Chunqiao, Yu Lijin and Wang Dongxing: Zhou Enlai, Xie Fuzhi and Wang Li have nothing to say in Wuhan, they''d be surrounded and made to sign that the "Million Heroes" is revolutionary; best leave; talks in Peking, three sides together. This is no longer Wuhan''s matter but the nation''s; Zhou to act as he sees fit.'
-      n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967. Made public: 2013. See [[cal.1967-07-22.china-leadership]]. Names: Mao Zedong, Yang Chengwu, Zhang Chunqiao, Yu Lijin, Wang Dongxing, Zhou Enlai, Xie Fuzhi, Wang Li.'
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967 (上午十一时, after the morning''s report). Made public: 2013. See [[cal.1967-07-22.china-leadership]]. Names: Mao Zedong, Yang Chengwu, Zhang Chunqiao, Yu Lijin, Wang Dongxing, Zhou Enlai, Xie Fuzhi, Wang Li.'
       time: 1967-07-22T03:00Z
       time_zone: Asia/Shanghai
       tags:
@@ -875,13 +927,35 @@ ops:
       - name:wang-li
       - polity:prc
       - vis:only:prc
+- add:
+    entry:
+      id: cal.1967-07-22.china-leadership-11
+      when: July 22
+      date: '1967-07-22'
+      place: shanghai
+      thread: china-leadership
+      follows:
+      - cal.1967-07-22.china-leadership-9
+      c: 'Shanghai. Mao, at 1:30 and again at 2:40 p.m., on the Wuhan incident: the army fights chiefly a battle of ideas, which tempers men; support of the left given wrongly is corrected, a matter of understanding; to go on with a wrong line is a matter of standpoint.'
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967 (下午一时三十分和二时四十分, two talks, their words given once). The time is the first talk''s. Made public: 2013. See [[cal.1967-07-22.china-leadership]]. Names: Mao Zedong.'
+      time: 1967-07-22T05:30Z
+      time_zone: Asia/Shanghai
+      tags:
+      - name:mao-zedong
+      - polity:prc
+      - vis:only:prc
 - edit:
     id: cal.1967-07-25.china-leadership
     base: 4ba3eb8e
     kind: correct
     set:
       c: 'Afternoon. Mao reads the Wuhan Military Region committee''s draft "Notice of the PLA Wuhan Forces" (July 24) and drafts the Center''s reply to it: their stand and policy now right, the notice to be published;{1} erring cadres, Chen Zaidao too, whom the masses want brought down, may stand and join the revolution if they mend and are forgiven;{2} work on the troops and the Million Heroes; the left to take no revenge; watch for bad men. The notice is posted July 26 and printed July 29.{3}'
-      n: '[[w.zedong-mao-zedong-nianpu]], VI, July 25, 1967; [[w.jianguo-yilai-mao-zedong]], XIX, 127–131 (July 25, 1967; Mao''s note of 5 p.m. July 25 and his draft reply of the Center to the Wuhan Military Region''s telegram of 8:10 p.m. July 24 with its notice; his note of 10 p.m. to Lin Biao on the draft letter ''To the revolutionary masses of Wuhan and the commanders and fighters'', which he adds a paragraph to, that the Center issued July 27); [[w.mao-zedong-zhuan]], VI, ch. 76 nn.56, 57 (July 25 Mao drafts the reply of the Center to the Party committee of the Wuhan Military Region, n.56: ''for cadres who have made serious errors, including you and comrade Chen Zaidao whom the broad revolutionary masses want to overthrow, if they no longer hold to the errors, correct them in earnest and are understood by the masses, they may still stand up and join the revolutionary ranks''; Chen Zaidao writes in his memoirs that without Mao''s word ''comrade'' Lin Biao and the rest could have done for them easily, n.57). [[w.teiwes-tragedy-of-lin-biao]], 84 n.57 (Mao approves the slogan "Drag out the small handful" on the 24th or 25th, and again on the 27th; Guan Feng coined it in January 1967); [[w.teiwes-tragedy-of-lin-biao]], 84 n.55 (Mao and Lin approve two letters, the harsh open letter of the 27th and a milder one, dated the 26th, to the Party committee of the Wuhan Military Region, which speaks of "Comrade Chen Zaidao"). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 76). To check: Wuhan Military Region Party Committee Standing Committee, telegram of 8:10 p.m. July 24, 1967 to Mao Zedong, Lin Biao, Zhou Enlai and the Center''s bodies, sending the ''Notice of the PLA Wuhan forces'' on the ''July 20 incident'' for examination: the incident stirred up by a very few in the army and the ''Million Heroes'' (Baiwan xiongshi 百万雄师), Chen Zaidao its ringleader; the region''s leaders made errors of direction and line; posted July 26, printed in the Renmin ribao July 29 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 128 n.3); Draft Letter to the revolutionary masses of Wuhan and the broad commanders and fighters (Gei Wuhanshi geming qunzhong he guangda zhizhanyuan de yi feng xin 给武汉市革命群众和广大指战员的一封信), forwarded by Lin Biao July 24, 1967; issued by the Center, State Council, Military Commission and Cultural Revolution Group July 27 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 130 n.1); Mao Zedong 毛泽东, reply telegram of the Center to the Party committee of the Wuhan Military Region 武汉军区党委, drafted for the Central Committee (manuscript 手稿), July 25, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.56); Chen Zaidao 陈再道, remark on the word "comrade" in Mao''s telegram of July 25, 1967, in [[w.chen-zaidao-huiyilu]], II, 363 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.57); Shen Tao-sheng, "The ''Gang of Four'' and Lin Piao," *Renmin ribao*, May 18, 1978, translated in FBIS, May 24, 1978, E6 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.57a); [[w.zhonggong-dangshi-jiaoxue-cankao]], XXV, 505, 524 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.57b). Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: Mao Zedong, Chen Zaidao, Lin Biao.'
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, July 25, 1967; [[w.jianguo-yilai-mao-zedong]], XIX, 127–131 (July 25, 1967; Mao''s note of 5 p.m. July 25 and his draft reply of the Center to the Wuhan Military Region''s telegram of 8:10 p.m. July 24 with its notice; his note of 10 p.m. to Lin Biao on the draft letter ''To the revolutionary masses of Wuhan and the commanders and fighters'', which he adds a paragraph to, that the Center issued July 27); [[w.mao-zedong-zhuan]], VI, ch. 76 nn.56, 57 (July 25 Mao drafts the reply of the Center to the Party committee of the Wuhan Military Region, n.56: ''for cadres who have made serious errors, including you and comrade Chen Zaidao whom the broad revolutionary masses want to overthrow, if they no longer hold to the errors, correct them in earnest and are understood by the masses, they may still stand up and join the revolutionary ranks''; Chen Zaidao writes in his memoirs that without Mao''s word ''comrade'' Lin Biao and the rest could have done for them easily, n.57). [[w.teiwes-tragedy-of-lin-biao]], 84 n.57 (Mao approves the slogan "Drag out the small handful" on the 24th or 25th, and again on the 27th; Guan Feng coined it in January 1967); [[w.teiwes-tragedy-of-lin-biao]], 84 n.55 (Mao and Lin approve two letters, the harsh open letter of the 27th and a milder one, dated the 26th, to the Party committee of the Wuhan Military Region, which speaks of "Comrade Chen Zaidao"). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 76). To check: Wuhan Military Region Party Committee Standing Committee, telegram of 8:10 p.m. July 24, 1967 to Mao Zedong, Lin Biao, Zhou Enlai and the Center''s bodies, sending the ''Notice of the PLA Wuhan forces'' on the ''July 20 incident'' for examination: the incident stirred up by a very few in the army and the ''Million Heroes'' (Baiwan xiongshi 百万雄师), Chen Zaidao its ringleader; the region''s leaders made errors of direction and line; posted July 26, printed in the Renmin ribao July 29 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 128 n.3); Draft Letter to the revolutionary masses of Wuhan and the broad commanders and fighters (Gei Wuhanshi geming qunzhong he guangda zhizhanyuan de yi feng xin 给武汉市革命群众和广大指战员的一封信), forwarded by Lin Biao July 24, 1967; issued by the Center, State Council, Military Commission and Cultural Revolution Group July 27 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 130 n.1); Mao Zedong 毛泽东, reply telegram of the Center to the Party committee of the Wuhan Military Region 武汉军区党委, drafted for the Central Committee (manuscript 手稿), July 25, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.56); Chen Zaidao 陈再道, remark on the word "comrade" in Mao''s telegram of July 25, 1967, in [[w.chen-zaidao-huiyilu]], II, 363 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.57); Shen Tao-sheng, "The ''Gang of Four'' and Lin Piao," *Renmin ribao*, May 18, 1978, translated in FBIS, May 24, 1978, E6 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.57a); [[w.zhonggong-dangshi-jiaoxue-cankao]], XXV, 505, 524 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.57b). Split under R25b and R17: the Wengao (XIX, 130: 七月二十五日下午十时) and the nianpu (晚十时) give Mao''s revision of the letter to Wuhan its own hour, 10 p.m.; it is now an entry. Names: Mao Zedong, Chen Zaidao.'
+      tags:
+      - name:mao-zedong
+      - polity:prc
+      - vis:only:prc
+      - name:chen-zaidao
       src:
         rows:
         - 'w.zedong-mao-zedong-nianpu VI, July 25, 1967: 1, 2, 3'
@@ -898,8 +972,8 @@ ops:
       when: July 25
       date: '1967-07-25'
       thread: china-leadership
-      c: 10 p.m., Mao revises the Center's open telegram to the city of Wuhan, sent by Lin Biao.
-      n: '[[w.jianguo-yilai-mao-zedong]], XIX, 127–131 (July 25, 1967; his note of 10 p.m. to Lin Biao on the draft letter to the revolutionary masses of Wuhan and the commanders and fighters, to which he adds a paragraph; the Center issued it July 27). Made public: 2013. To check: Draft Letter to the revolutionary masses of Wuhan, forwarded by Lin Biao July 24, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 130 n.1). See [[cal.1967-07-25.china-leadership]]. Names: Mao Zedong, Lin Biao.'
+      c: '10 p.m., Mao revises the draft letter of the Center, the State Council, the Military Commission and the Cultural Revolution Group "To the revolutionary masses of Wuhan and the commanders and fighters," sent by Lin Biao, and adds a paragraph: those who erred, if they truly correct their errors and win the masses'' understanding, are still good. Back to Lin Biao "to decide."'
+      n: '[[w.jianguo-yilai-mao-zedong]], XIX, 130 (七月二十五日下午十时; the paragraph added; the Center issued the letter July 27, n.1); [[w.zedong-mao-zedong-nianpu]], VI, July 25, 1967 (晚十时). Made public: [[w.zedong-mao-zedong-nianpu]] (2013). To check: Draft Letter to the revolutionary masses of Wuhan, forwarded by Lin Biao July 24, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 130 n.1). See [[cal.1967-07-25.china-leadership]]. Names: Mao Zedong, Lin Biao.'
       time: 1967-07-25T14:00Z
       time_zone: Asia/Shanghai
       tags:
@@ -914,18 +988,32 @@ ops:
     kind: correct
     set:
       c: Díaz Ordaz at the White House, Oct. 26–27.
-      n: 'Joint Statement Following Discussions With President Diaz Ordaz of Mexico, [1967 Pub. Papers 952](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=344) (Oct. 27, 1967); Text of the Chamizal Declaration, [1967 Pub. Papers 961](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=353) (Oct. 28, 1967); Remarks at the Chamizal Ceremony, Juarez, Mexico, [1967 Pub. Papers 959](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=351) (Oct. 28, 1967); Remarks to the Delegates to the Mexican-American Conference, El Paso, Texas, [1967 Pub. Papers 956](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=348) (Oct. 28, 1967). [[w.johnson-white-house-diary]], 584–87 (Oct. 26 only: the arrival ceremony at noon, the limousine "for the thirty-seventh time this year," the drive to Blair House, the State dinner for 190 guests; not Oct. 27–28 or the Chamizal). The time is the first day''s. The arrival ceremony at noon ([[w.johnson-white-house-diary]], 584–87). To check: [[w.lamborn-statecraft-domestic-politics-and]]. See [[cal.1963-07-18.latin-america]]. Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: Díaz Ordaz, Johnson.'
+      n: 'Joint Statement Following Discussions With President Diaz Ordaz of Mexico, [1967 Pub. Papers 952](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=344) (Oct. 27, 1967). [[w.johnson-white-house-diary]], 584–87 (Oct. 26 only: the arrival ceremony at noon, the limousine "for the thirty-seventh time this year," the drive to Blair House, the State dinner for 190 guests; not Oct. 27–28 or the Chamizal). The time is the first day''s. The arrival ceremony at noon ([[w.johnson-white-house-diary]], 584–87). To check: [[w.lamborn-statecraft-domestic-politics-and]]. See [[cal.1963-07-18.latin-america]]. Split under R25b and R17: the Public Papers (961, the note) give the signing of the final act on the Chamizal its own hour, about 5:30 p.m., Oct. 27, and the change of the boundary, the El Paso conference and the ceremony at the Chamizal monument theirs, 12:01 a.m., 11 a.m. and 1:10 p.m., Oct. 28; each is now an entry. Names: Díaz Ordaz, Johnson.'
       src:
         rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=344: all'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=353: all'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=351: all'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=348: all'
         - 'w.johnson-white-house-diary 584–87: ?'
       tags:
       - name:diaz-ordaz-gustavo
       - name:johnson-lyndon-b
       when: Oct. 26–27
+      place: washington
+- add:
+    entry:
+      id: cal.1967-10-27.latin-america
+      when: Oct. 27
+      date: '1967-10-27'
+      place: washington
+      thread: latin-america
+      c: The White House, about 5:30 p.m. Rusk and Carrillo Flores, Mexico's Secretary of Foreign Relations, Johnson and Díaz Ordaz witnessing, sign the final act giving effect as of 12:01 a.m., Oct. 28, to the Boundary and Water Commission's Minute 228, the new boundary at El Paso and Ciudad Juárez.
+      n: 'Text of the Chamizal Declaration, [1967 Pub. Papers 961](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=353) (Oct. 28, 1967) (the note: "at approximately 5:30 p.m. on October 27 at the White House"); Joint Statement Following Discussions With President Diaz Ordaz of Mexico, [1967 Pub. Papers 952](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=344) (Oct. 27, 1967) (signed "In their presence"). To check: Rusk''s remarks, 3 Weekly Comp. Pres. Docs. 1491 (cited by 1967 Pub. Papers 961). See [[cal.1967-10-26.latin-america]]. Names: Rusk, Johnson, Díaz Ordaz.'
+      time: 1967-10-27T21:30Z
+      time_approx: true
+      time_zone: America/New_York
+      tags:
+      - name:rusk-dean
+      - name:johnson-lyndon-b
+      - name:diaz-ordaz-gustavo
 - add:
     entry:
       id: cal.1967-10-28.latin-america
@@ -934,12 +1022,10 @@ ops:
       place: el-paso
       thread: latin-america
       c: 'At 12:01 a.m., the boundary changes at El Paso and Ciudad Juárez: El Chamizal returned to Mexico under the convention of Aug. 29, 1963.'
-      n: 'Text of the Chamizal Declaration, [1967 Pub. Papers 961](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=353) (Oct. 28, 1967). To check: [[w.lamborn-statecraft-domestic-politics-and]]. See [[cal.1967-10-26.latin-america]]. Names: Díaz Ordaz, Johnson.'
+      n: 'Text of the Chamizal Declaration, [1967 Pub. Papers 961](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=353) (Oct. 28, 1967) ("At 12:01 this morning"). To check: [[w.lamborn-statecraft-domestic-politics-and]]. Check: the clock (El Paso''s, Mountain daylight time, assumed; Ciudad Juárez kept the same hour). See [[cal.1967-10-26.latin-america]].'
       time: 1967-10-28T06:01Z
       time_zone: America/Denver
       tags:
-      - name:diaz-ordaz-gustavo
-      - name:johnson-lyndon-b
       - state:tx
       - city:el-paso
 - add:
@@ -962,29 +1048,28 @@ ops:
       id: cal.1967-10-28.latin-america-3
       when: Oct. 28
       date: '1967-10-28'
-      place: el-paso
+      place: ciudad-juarez
       thread: latin-america
-      c: Johnson and Díaz Ordaz proclaim the transfer at the Chamizal monument on the Mexican side, 1:10 p.m., sign the declaration, and dedicate three bridges.
-      n: 'Remarks at the Chamizal Ceremony, Juarez, Mexico, [1967 Pub. Papers 959](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=351) (Oct. 28, 1967) (the note: spoke at 1:10 p.m. at the Chamizal Monument; the two Presidents signed the declaration of transfer); Text of the Chamizal Declaration, [1967 Pub. Papers 961](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=353) (Oct. 28, 1967). Check: the clock (Mountain time at El Paso and Juárez assumed); the dedication of three bridges rests on the old line. See [[cal.1967-10-26.latin-america]]. Names: Díaz Ordaz, Johnson.'
+      follows:
+      - cal.1967-10-28.latin-america-2
+      c: Ciudad Juárez, the Chamizal monument, 1:10 p.m. Johnson and Díaz Ordaz proclaim the transfer and sign the declaration, which dedicates three bridges.
+      n: 'Remarks at the Chamizal Ceremony, Juarez, Mexico, [1967 Pub. Papers 959](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=351) (Oct. 28, 1967) (the note: spoke at 1:10 p.m. at the Chamizal Monument at Juarez, Chihuahua; the two Presidents then signed the declaration of transfer); Text of the Chamizal Declaration, [1967 Pub. Papers 961](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=353) (Oct. 28, 1967) ("Today we dedicate three such bridges"; done at Ciudad Juarez). Check: the clock (Juárez''s, six hours behind Greenwich, as El Paso''s that day). See [[cal.1967-10-26.latin-america]]. Names: Díaz Ordaz, Johnson.'
       time: 1967-10-28T19:10Z
-      time_zone: America/Denver
+      time_zone: America/Ciudad_Juarez
       tags:
       - name:diaz-ordaz-gustavo
       - name:johnson-lyndon-b
-      - state:tx
-      - city:el-paso
 - edit:
     id: cal.1968-05-27.robert-kennedy
     base: 75d03d98
     kind: correct
     set:
       c: 'Oregon, the day before the vote.{1} McCarthy''s radio spots: Harris''s poll has Kennedy losing to Nixon (the poll: Kennedy 42, Nixon 40; McCarthy 39, Nixon 40).{2} Vanden Heuvel wires Finney, McCarthy''s director in Oregon.{3}'
-      n: '[[w.palermo-in-his-own-right]], 215–16. To check: vanden Heuvel to Finney, telegram, May 27, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 215 n.129); Salinger''s statement, May 27, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 215 n.130). Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: McCarthy, Robert Kennedy, Nixon, vanden Heuvel, Salinger, Humphrey. Check: the poll''s figures from Harris.'
+      n: '[[w.palermo-in-his-own-right]], 215–16. To check: vanden Heuvel to Finney, telegram, May 27, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 215 n.129). Split under R25b and R17: Palermo''s note (215 n.130) gives Salinger''s statement its own hour and place, the Benson Hotel, 10:30 a.m.; it is now an entry. Names: McCarthy, Robert Kennedy, Nixon, vanden Heuvel. Check: the poll''s figures from Harris.'
       src:
         rows:
         - 'w.palermo-in-his-own-right 215–16: 1, 2, 3'
-        - 'via w.palermo-in-his-own-right 215 n.129: 2'
-        - 'via w.palermo-in-his-own-right 215 n.130: 3'
+        - 'via w.palermo-in-his-own-right 215 n.129: 2, 3'
       tags:
       - name:mccarthy-eugene-j
       - name:kennedy-robert-f
@@ -1003,8 +1088,10 @@ ops:
       thread: robert-kennedy-campaign-primaries
       also:
       - elections-1968
+      follows:
+      - cal.1968-05-27.robert-kennedy
       c: 'Salinger, a statement at the Benson Hotel, 10:30 a.m.: Harris "confirmed the total inaccuracy" of the spots; "I state categorically that Mr. Finney''s 11th hour emergence in this campaign ... has more the purpose of advancing Mr. Humphrey''s campaign than that of Senator McCarthy."'
-      n: '[[w.palermo-in-his-own-right]], 215–16. To check: Salinger''s statement, May 27, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 215 n.130). See [[cal.1968-05-27.robert-kennedy]]. Names: Salinger, Humphrey, McCarthy.'
+      n: '[[w.palermo-in-his-own-right]], 215–16; 215 n.130 (the place and the hour: "Statement by Pierre Salinger, Benson Hotel, May 27, 1968, 10:30 a.m."). To check: Salinger''s statement, May 27, 1968, 10:30 a.m., RFK Papers, PCP, Press Division, Box 15, JFK Library (cited by [[w.palermo-in-his-own-right]], 215 n.130). Salinger "followed up" vanden Heuvel''s telegram (215). See [[cal.1968-05-27.robert-kennedy]]. Names: Salinger, Humphrey, McCarthy.'
       time: 1968-05-27T17:30Z
       time_zone: America/Los_Angeles
       tags:
@@ -1018,7 +1105,7 @@ ops:
     kind: correct
     set:
       c: 'Los Angeles. Mayor Yorty, at a press conference several hours after the arrest, names the suspect: Sirhan Bishara Sirhan, 24, a Jordanian born in Jerusalem, in the Los Angeles area since 1957. By Witcover''s account.'
-      n: '[[w.witcover-85-days]], 286. See [[cal.1968-06-05.robert-kennedy]]. Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: Yorty, Sirhan.'
+      n: '[[w.witcover-85-days]], 286. See [[cal.1968-06-05.robert-kennedy]]. Split under R25b and R17: Witcover (286) gives the arraignment its own hour, 7:40 a.m., Pacific time; it and Chief Reddin''s account are now entries. Names: Yorty, Sirhan.'
       when: June 5
     unset:
     - time
@@ -1030,8 +1117,10 @@ ops:
       date: '1968-06-05'
       place: los-angeles
       thread: assassination
+      follows:
+      - cal.1968-06-05.assassination-12
       c: Los Angeles. Sirhan arraigned at 7:40 a.m. on six counts of assault with intent to murder; bail $250,000. By Witcover's account.
-      n: '[[w.witcover-85-days]], 286. See [[cal.1968-06-05.assassination-12]]. Names: Sirhan.'
+      n: '[[w.witcover-85-days]], 286 ("quickly arraigned at 7:40 A.M., Pacific time"; next after Yorty''s naming of him, in Witcover''s order). Check: the order. See [[cal.1968-06-05.assassination-12]]. Names: Sirhan.'
       time: 1968-06-05T14:40Z
       time_zone: America/Los_Angeles
       tags:
@@ -1056,31 +1145,25 @@ ops:
     base: 4142eca7
     kind: correct
     set:
-      c: 'A second attack reported, at night, on the Maddox and the C. Turner Joy.{1} By early afternoon in Washington, Herrick, commanding the patrol: many contacts and torpedoes "doubtful," "freak weather effects," "over-eager sonarmen";{2} a "complete evaluation" asked.{3}'
-      n: 'Radio and Television Report to the American People Following Renewed Aggression in the Gulf of Tonkin, [1963–64 Pub. Papers 927](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=167) (Aug. 4, 1964). FRUS 1964–68, I, docs. [272](https://history.state.gov/historicaldocuments/frus1964-68v01/d272), [276](https://history.state.gov/historicaldocuments/frus1964-68v01/d276), [278](https://history.state.gov/historicaldocuments/frus1964-68v01/d278), [280](https://history.state.gov/historicaldocuments/frus1964-68v01/d280), [286](https://history.state.gov/historicaldocuments/frus1964-68v01/d286). [President''s Daily Diary, Aug. 4, 1964](https://catalog.archives.gov/id/192446), images 3, 5, 8, 11 (LBJ Library; National Archives Catalog). [[w.gibbons-u-s-government-and]], II, 289–97 (the day hour by hour: the reports, Herrick''s doubts at 1:27 p.m., the NSC, the leaders, the strikes, the address at 11:37 p.m.); [[w.vietnam-victory-in-vietnam]], 132 (no engagement on Aug. 4; the incident called fabricated); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 521–22 (the reported attack; the Maddox''s doubts; the NSC; the strikes; the address after 11:30 p.m.); [[w.cosmas-joint-chiefs-of-staff-2012]], 106–108 (all but Herrick); [[w.marolda-united-states-navy-and]], 426–34, 440, 443–44, 446 (the night action; the lunch at 1 p.m., Herrick''s doubts; the strikes ordered, Johnson to the congressmen; the address, 11:36 p.m.); [[w.asselin-hanois-road-to-the]], 196–97 (the second attack reported; Hanoi''s denial: no engagement Aug. 4); [[w.johnson-vantage-point]], 114–17; [[w.moyar-triumph-forsaken]], 311–13 (311–12: the night''s contacts, the evidence then and since; 312–13: the leaders'' meeting, Saltonstall against "limited"); [[w.mcnamara-in-retrospect]], ch. 5 at nn.5–10 (the Maddox''s warning at 7:40 a.m., Washington; the plan, four patrol boat bases and two oil depots; 11:40 a.m., McNamara with Rusk, Bundy and the Chiefs, then the NSC and lunch with the President; Herrick''s message; the NSC at 6:15 p.m., the strike authorized; the leaders at 6:45 p.m.; the Ticonderoga''s order at 7:22 p.m.). [[w.macv-command-history-1964]], 109 (the second attack, as MACV recorded it); [[w.branch-pillar-of-fire]], 434–36; [[w.bernstein-guns-or-butter]], 336–37 (Herrick''s first message 7:40 p.m. Saigon time; his first count, 22 torpedoes; Stockdale over the scene, "Not a one"; the Chiefs and McNamara confirm by 4:49 p.m.); [[w.bernstein-guns-or-butter]], 534 (Stockdale, leading planes over the gulf, saw no North Vietnamese boats); [[w.dallek-flawed-giant]], 150–53 (the attack reported; the NSC and the leaders in the evening; the address that night); [[w.logevall-choosing-war]], 198–99 (the reported attack that evening; Herrick''s cable, "freak weather effects" and "overeager sonarmen"; retaliation ordered; not "complete evaluation"); [[w.johnson-white-house-diary]], 187–89 (word that two destroyers were attacked by North Vietnamese PT boats, one on Sunday unanswered; Johnson ordered air action against the gunboats and their bases; after 11 p.m. on the air: "limited and fitting," "We still seek no wider war," Stevenson to the Security Council, a resolution asked of Congress; not the hour, the ships'' names or the NSC); [[w.goodwin-remembering-america]], 357–58 (Goodwin, called by Moyers to the fish room after 11 p.m.; the statement: the second attack "this very day," the strikes, "limited and fitting," "We still seek no wider war"; Bundy and his aides, "tension and elation"; not the hour of the broadcast, the ships, Herrick or the NSC); [[w.lich-su-khang-chien-chong-my]], III, 365–66 (Aug. 4: a great storm, the 12 torpedo boats at anchor in their base; Herrick''s cable of that day, the torpedo contacts "doubtful", quoted after Amter, *Vietnam Verdict*, in the Hanoi translation of 1985, 88; Sharp to McNamara, after the Pentagon Papers). Check: Branch has the strikes authorized at 7:22 p.m. and the address at 11:34 p.m. (436). Check: Bernstein, 534, dates the alleged attack Aug. 3. Check: Logevall, 199, puts Johnson''s address at 11:37 p.m. The time is Johnson''s address. To check: Joint Staff, JCS, Tonkin Gulf Composite Diary (cited by [[w.marolda-united-states-navy-and]], 440 n.7); Msg, CTG72.1 041754Z Aug 1964 (cited by [[w.marolda-united-states-navy-and]], 440 n.9); Msg, JCS 042119Z Aug 1964 (cited by [[w.marolda-united-states-navy-and]], 443 n.21); Joint Staff, JCS, Tonkin Gulf Composite Diary (cited by [[w.marolda-united-states-navy-and]], 446 n.26b); McNamara''s telephone conversation with Sharp, Aug. 4, 1964, NSF, LBJ Library (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 522 n.104); Herrick''s message of 1:27 p.m., Aug. 4, 1964, NSF, Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], II, 290 n.34); telephone conversation, Aug. 4, 1964, LBJL, NSF, VNCF, box 228 (cited by [[w.moyar-triumph-forsaken]], 312 n.14); [[w.mcnamara-in-retrospect]], 133, 134, 135 (cited by [[w.branch-pillar-of-fire]], 434, 435, 436); Chronology of Second Attack, n.d., NSF: Country: Vietnam, LBJ Library (cited by [[w.dallek-flawed-giant]], 150 n.75); Chronology of events, Aug. 4–5, 1964, NSF: Country: Vietnam, LBJ Library (cited by [[w.dallek-flawed-giant]], 152 n.80); Notes of the NSC meeting, Aug. 4, 1964, NSF, NSC Meetings File, LBJ Library (cited by [[w.dallek-flawed-giant]], 152 n.81). See [[cal.1964-08-02.vietnam]]. Split under R25b and R17: the acts moved out of this entry are entries of their own. Names: Herrick. Check: Moyar, 312: "most of the information now available supports the view that an attack did not occur." Check: MACV''s history, 109, has it "firmly established" that at least five boats engaged the destroyers; thirteen contacts fired on.'
+      c: A second attack reported, at night, on the Maddox and the C. Turner Joy.{1}
+      n: 'Radio and Television Report to the American People Following Renewed Aggression in the Gulf of Tonkin, [1963–64 Pub. Papers 927](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=167) (Aug. 4, 1964). FRUS 1964–68, I, docs. [272](https://history.state.gov/historicaldocuments/frus1964-68v01/d272), [276](https://history.state.gov/historicaldocuments/frus1964-68v01/d276), [278](https://history.state.gov/historicaldocuments/frus1964-68v01/d278), [280](https://history.state.gov/historicaldocuments/frus1964-68v01/d280), [286](https://history.state.gov/historicaldocuments/frus1964-68v01/d286). [President''s Daily Diary, Aug. 4, 1964](https://catalog.archives.gov/id/192446), images 3, 5, 8, 11 (LBJ Library; National Archives Catalog). [[w.gibbons-u-s-government-and]], II, 289–97 (the day hour by hour: the reports, Herrick''s doubts at 1:27 p.m., the NSC, the leaders, the strikes, the address at 11:37 p.m.); [[w.vietnam-victory-in-vietnam]], 132 (no engagement on Aug. 4; the incident called fabricated); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 521–22 (the reported attack; the Maddox''s doubts; the NSC; the strikes; the address after 11:30 p.m.); [[w.cosmas-joint-chiefs-of-staff-2012]], 106–108 (all but Herrick); [[w.marolda-united-states-navy-and]], 426–34, 440, 443–44, 446 (the night action; the lunch at 1 p.m., Herrick''s doubts; the strikes ordered, Johnson to the congressmen; the address, 11:36 p.m.); [[w.asselin-hanois-road-to-the]], 196–97 (the second attack reported; Hanoi''s denial: no engagement Aug. 4); [[w.johnson-vantage-point]], 114–17; [[w.moyar-triumph-forsaken]], 311–13 (311–12: the night''s contacts, the evidence then and since; 312–13: the leaders'' meeting, Saltonstall against "limited"); [[w.mcnamara-in-retrospect]], ch. 5 at nn.5–10 (the Maddox''s warning at 7:40 a.m., Washington; the plan, four patrol boat bases and two oil depots; 11:40 a.m., McNamara with Rusk, Bundy and the Chiefs, then the NSC and lunch with the President; Herrick''s message; the NSC at 6:15 p.m., the strike authorized; the leaders at 6:45 p.m.; the Ticonderoga''s order at 7:22 p.m.). [[w.macv-command-history-1964]], 109 (the second attack, as MACV recorded it); [[w.branch-pillar-of-fire]], 434–36; [[w.bernstein-guns-or-butter]], 336–37 (Herrick''s first message 7:40 p.m. Saigon time; his first count, 22 torpedoes; Stockdale over the scene, "Not a one"; the Chiefs and McNamara confirm by 4:49 p.m.); [[w.bernstein-guns-or-butter]], 534 (Stockdale, leading planes over the gulf, saw no North Vietnamese boats); [[w.dallek-flawed-giant]], 150–53 (the attack reported; the NSC and the leaders in the evening; the address that night); [[w.logevall-choosing-war]], 198–99 (the reported attack that evening; Herrick''s cable, "freak weather effects" and "overeager sonarmen"; retaliation ordered; not "complete evaluation"); [[w.johnson-white-house-diary]], 187–89 (word that two destroyers were attacked by North Vietnamese PT boats, one on Sunday unanswered; Johnson ordered air action against the gunboats and their bases; after 11 p.m. on the air: "limited and fitting," "We still seek no wider war," Stevenson to the Security Council, a resolution asked of Congress; not the hour, the ships'' names or the NSC); [[w.goodwin-remembering-america]], 357–58 (Goodwin, called by Moyers to the fish room after 11 p.m.; the statement: the second attack "this very day," the strikes, "limited and fitting," "We still seek no wider war"; Bundy and his aides, "tension and elation"; not the hour of the broadcast, the ships, Herrick or the NSC); [[w.lich-su-khang-chien-chong-my]], III, 365–66 (Aug. 4: a great storm, the 12 torpedo boats at anchor in their base; Herrick''s cable of that day, the torpedo contacts "doubtful", quoted after Amter, *Vietnam Verdict*, in the Hanoi translation of 1985, 88; Sharp to McNamara, after the Pentagon Papers). Check: Bernstein, 534, dates the alleged attack Aug. 3. The time is the Maddox''s first report that an attack appeared imminent, 7:40 a.m. EDT, 7:40 p.m. Saigon time (FRUS I, doc. 272). To check: Joint Staff, JCS, Tonkin Gulf Composite Diary (cited by [[w.marolda-united-states-navy-and]], 440 n.7); Msg, CTG72.1 041754Z Aug 1964 (cited by [[w.marolda-united-states-navy-and]], 440 n.9); Msg, JCS 042119Z Aug 1964 (cited by [[w.marolda-united-states-navy-and]], 443 n.21); Joint Staff, JCS, Tonkin Gulf Composite Diary (cited by [[w.marolda-united-states-navy-and]], 446 n.26b); McNamara''s telephone conversation with Sharp, Aug. 4, 1964, NSF, LBJ Library (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 522 n.104); Herrick''s message of 1:27 p.m., Aug. 4, 1964, NSF, Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], II, 290 n.34); telephone conversation, Aug. 4, 1964, LBJL, NSF, VNCF, box 228 (cited by [[w.moyar-triumph-forsaken]], 312 n.14); [[w.mcnamara-in-retrospect]], 133, 134, 135 (cited by [[w.branch-pillar-of-fire]], 434, 435, 436); Chronology of Second Attack, n.d., NSF: Country: Vietnam, LBJ Library (cited by [[w.dallek-flawed-giant]], 150 n.75); Chronology of events, Aug. 4–5, 1964, NSF: Country: Vietnam, LBJ Library (cited by [[w.dallek-flawed-giant]], 152 n.80); Notes of the NSC meeting, Aug. 4, 1964, NSF, NSC Meetings File, LBJ Library (cited by [[w.dallek-flawed-giant]], 152 n.81). See [[cal.1964-08-02.vietnam]]. Split under R25b and R17: FRUS I, docs. 276, 278, 280 and 286, and the Public Papers give Herrick''s report (1:27 p.m.), the National Security Council (6:15 p.m.), the leaders'' meeting (6:45 p.m.), Sharp''s word of the launch (11:20 p.m.) and the address (11:36 p.m.) hours of their own; each is now an entry, the leaders'' meeting the entry [[cal.1964-08-04.vietnam-congress-2]] already held. Check: Moyar, 312: "most of the information now available supports the view that an attack did not occur." Check: MACV''s history, 109, has it "firmly established" that at least five boats engaged the destroyers; thirteen contacts fired on.'
       src:
         rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d272: 1, 2, 3'
-        - 'https://catalog.archives.gov/id/192446: 1, 2, 3'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d272: 1'
+        - 'https://catalog.archives.gov/id/192446: 1'
         - 'w.vietnam-victory-in-vietnam 132: 1'
         - 'w.marolda-united-states-navy-and 426–34: 1'
-        - 'w.marolda-united-states-navy-and 440: 2, 3'
-        - 'w.johnson-vantage-point 114–17: 1, 2'
-        - 'via w.marolda-united-states-navy-and 440 n.8: 2, 3'
-        - 'via w.marolda-united-states-navy-and 440 n.9: 2'
-        - 'w.kaplan-mcnamara-ascendancy-1961-1965 521–22: 1, 2'
-        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 522 n.104a: 2'
+        - 'w.johnson-vantage-point 114–17: 1'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 521–22: 1'
         - 'w.cosmas-joint-chiefs-of-staff-2012 106–108: 1'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 106 n.20: 1'
         - 'w.asselin-hanois-road-to-the 196: 1'
-        - 'w.gibbons-u-s-government-and II, 289–97: 1, 2, 3'
-        - 'via w.gibbons-u-s-government-and II, 290 n.34: 2, 3'
+        - 'w.gibbons-u-s-government-and II, 289–97: 1'
         - 'w.moyar-triumph-forsaken 311–13: 1'
         - 'w.macv-command-history-1964 109: 1'
-        - 'w.mcnamara-in-retrospect ch. 5 at nn.5–10: 1, 2, 3'
-        - 'via x.1964-08-04.msg-ctg72-1-041727z-aug-1964: 2, 3'
-        - 'w.branch-pillar-of-fire 434–36: 1, 2'
-        - 'w.bernstein-guns-or-butter 336–37: 1, 2'
+        - 'w.mcnamara-in-retrospect ch. 5 at nn.5–10: 1'
+        - 'w.branch-pillar-of-fire 434–36: 1'
+        - 'w.bernstein-guns-or-butter 336–37: 1'
         - 'w.bernstein-guns-or-butter 534: 1'
         - 'via x.1996.moise-tonkin-gulf-and-the-passim: 1'
         - 'w.dallek-flawed-giant 150–53: 1'
@@ -1088,14 +1171,25 @@ ops:
         - 'via w.dallek-flawed-giant 152 n.80b: 1'
         - 'via w.dallek-flawed-giant 152 n.81: 1'
         - 'via w.dallek-flawed-giant 153 n.83: 1'
-        - 'w.logevall-choosing-war 198–99: 1, 2'
-        - 'w.lich-su-khang-chien-chong-my III, 365–66: 2, 3'
+        - 'w.logevall-choosing-war 198–99: 1'
+      tags:
+      - place:gulf-of-tonkin
+      time: 1964-08-04T11:40Z
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1964-08-04.vietnam-tonkin-16
+      when: Aug. 4
+      date: '1964-08-04'
+      place: gulf-of-tonkin
+      thread: vietnam-tonkin
+      c: 'Herrick, commanding the patrol, 1:27 p.m., Washington time: many reported contacts and torpedoes "doubtful," "freak weather effects," "over-eager sonarmen"; no visual sightings; a "complete evaluation" asked before further action.'
+      n: '[FRUS 1964–68, I, doc. 276](https://history.state.gov/historicaldocuments/frus1964-68v01/d276) (editorial note, after the chronology of Aug. 28: "At 1:27 p.m., the Maddox reported"; the report in message 041727Z, received at the National Military Command Center an hour and a half to two hours later). Works read for this part of the entry it was split from: [[w.marolda-united-states-navy-and]], 440 (the lunch at 1 p.m., Herrick''s doubts); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 521–22 (the Maddox''s doubts); [[w.gibbons-u-s-government-and]], II, 290 (Herrick''s doubts at 1:27 p.m.); [[w.mcnamara-in-retrospect]], ch. 5 at nn.5–10 (Herrick''s message); [[w.johnson-vantage-point]], 114–17; [[w.branch-pillar-of-fire]], 434–36; [[w.bernstein-guns-or-butter]], 336–37; [[w.logevall-choosing-war]], 198–99 (Herrick''s cable, "freak weather effects" and "overeager sonarmen"; not "complete evaluation"); [[w.lich-su-khang-chien-chong-my]], III, 365–66 (Herrick''s cable, the torpedo contacts "doubtful"). To check: Msg, CTG72.1 041754Z Aug 1964 (cited by [[w.marolda-united-states-navy-and]], 440 n.9); Herrick''s message of 1:27 p.m., Aug. 4, 1964, NSF, Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], II, 290 n.34). See [[cal.1964-08-04.vietnam]]. Names: Herrick.'
+      time: 1964-08-04T17:27Z
+      time_zone: America/New_York
       tags:
       - name:herrick-john-j
       - place:gulf-of-tonkin
-    unset:
-    - time
-    - time_zone
 - add:
     entry:
       id: cal.1964-08-04.vietnam-tonkin-12
@@ -1104,7 +1198,7 @@ ops:
       place: washington
       thread: vietnam-tonkin
       c: 'The National Security Council, 6:15 to 6:40 p.m.: McNamara reports the attacks on the two destroyers continuing; Rusk: an immediate and direct reaction is necessary; air strikes agreed on two bases in the north of North Vietnam and two base complexes in the south.'
-      n: '[FRUS 1964–68, I, doc. 278](https://history.state.gov/historicaldocuments/frus1964-68v01/d278) (summary notes of the 538th meeting, 6:15–6:40 p.m.). See [[cal.1964-08-04.vietnam]]. Names: McNamara, Rusk.'
+      n: '[FRUS 1964–68, I, doc. 278](https://history.state.gov/historicaldocuments/frus1964-68v01/d278) (summary notes of the 538th meeting, 6:15–6:40 p.m.). Works read for this part of the entry it was split from ("The NSC and the congressional leaders; strikes ordered"): [[w.marolda-united-states-navy-and]], 443–44; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 521–22 (the NSC; the strikes); [[w.cosmas-joint-chiefs-of-staff-2012]], 106–108; [[w.gibbons-u-s-government-and]], II, 289–97; [[w.moyar-triumph-forsaken]], 311–13; [[w.mcnamara-in-retrospect]], ch. 5 at nn.5–10 (the NSC at 6:15 p.m., the strike authorized); [[w.branch-pillar-of-fire]], 434–36; [[w.bernstein-guns-or-butter]], 336–37; [[w.dallek-flawed-giant]], 150–53 (the NSC in the evening); [[w.johnson-vantage-point]], 114–17. To check: Notes of the NSC meeting, Aug. 4, 1964, NSF, NSC Meetings File, LBJ Library (cited by [[w.dallek-flawed-giant]], 152 n.81); Msg, JCS 042119Z Aug 1964 (cited by [[w.marolda-united-states-navy-and]], 443 n.21). Check: the strike execute message, JCS 7720, went to CINCPAC at 5:19 p.m. (doc. 276); McNamara (ch. 5) has the Ticonderoga''s order at 7:22 p.m.; Branch (436) the strikes authorized at 7:22 p.m. See [[cal.1964-08-04.vietnam]]. Names: McNamara, Rusk.'
       time: 1964-08-04T22:15Z
       time_zone: America/New_York
       tags:
@@ -1112,36 +1206,32 @@ ops:
       - name:rusk-dean
 - add:
     entry:
-      id: cal.1964-08-04.vietnam-tonkin-13
+      id: cal.1964-08-04.vietnam-tonkin-14
+      when: Aug. 4
+      date: '1964-08-04'
+      place: washington
+      thread: vietnam-tonkin
+      c: 'Admiral Sharp to McNamara by telephone, 11:20 p.m.: the Ticonderoga "got her planes off" at 10:43 p.m., Washington time, 10:43 a.m. Aug. 5 in Saigon; almost two hours to the targets.'
+      n: '[FRUS 1964–68, I, doc. 286](https://history.state.gov/historicaldocuments/frus1964-68v01/d286) (editorial note, after the chronology of Aug. 28). The strike itself: [[cal.1964-08-05.vietnam]]. See [[cal.1964-08-04.vietnam]]. Names: Sharp, McNamara.'
+      time: 1964-08-05T03:20Z
+      time_zone: America/New_York
+      tags:
+      - name:sharp-u-s-grant
+      - name:mcnamara-robert-s
+- add:
+    entry:
+      id: cal.1964-08-04.vietnam-tonkin-17
       when: Aug. 4
       date: '1964-08-04'
       place: washington
       thread: vietnam-tonkin
       follows:
-      - cal.1964-08-04.vietnam-tonkin-12
-      c: 'Johnson with the congressional leaders at the White House, 6:45 p.m.: McNamara briefs them on the attack, Rusk on the political situation; Johnson asks that it be held in the closest confidence.'
-      n: '[FRUS 1964–68, I, doc. 280](https://history.state.gov/historicaldocuments/frus1964-68v01/d280) (notes of the leadership meeting, 6:45 p.m.). See [[cal.1964-08-04.vietnam]]. Names: Johnson, McNamara, Rusk.'
-      time: 1964-08-04T22:45Z
-      time_zone: America/New_York
-      tags:
-      - name:johnson-lyndon-b
-      - name:mcnamara-robert-s
-      - name:rusk-dean
-- add:
-    entry:
-      id: cal.1964-08-04.vietnam-tonkin-14
-      when: Aug. 4
-      date: '1964-08-04'
-      place: gulf-of-tonkin
-      thread: vietnam-tonkin
-      follows:
-      - cal.1964-08-04.vietnam-tonkin-13
-      c: 'The strikes begin: the Ticonderoga''s planes off at 10:43 p.m., Washington time (10:43 a.m. Aug. 5, Saigon time); Admiral Sharp confirms it to McNamara at 11:20 p.m., and McNamara calls Johnson.'
-      n: '[FRUS 1964–68, I, doc. 286](https://history.state.gov/historicaldocuments/frus1964-68v01/d286) (editorial note). See [[cal.1964-08-04.vietnam]]. Names: Sharp, McNamara, Johnson.'
-      time: 1964-08-05T02:43Z
-      time_zone: America/New_York
+      - cal.1964-08-04.vietnam-tonkin-14
+      c: McNamara, after talking with Wheeler, telephones Johnson that the planes are off.
+      n: '[FRUS 1964–68, I, doc. 286](https://history.state.gov/historicaldocuments/frus1964-68v01/d286) (editorial note: after Sharp''s call of 11:20 p.m.). See [[cal.1964-08-04.vietnam]]. Names: McNamara, Wheeler, Johnson.'
       tags:
       - name:mcnamara-robert-s
+      - name:wheeler-earle
       - name:johnson-lyndon-b
 - add:
     entry:
@@ -1151,9 +1241,9 @@ ops:
       place: washington
       thread: vietnam-tonkin
       follows:
-      - cal.1964-08-04.vietnam-tonkin-14
+      - cal.1964-08-04.vietnam-tonkin-17
       c: 'Johnson on television, 11:36 p.m.: "limited and fitting"; "We still seek no wider war."'
-      n: 'Radio and Television Report to the American People Following Renewed Aggression in the Gulf of Tonkin, [1963–64 Pub. Papers 927](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=167) (Aug. 4, 1964) (the note: began speaking at 11:36 p.m., eastern daylight time); [FRUS 1964–68, I, doc. 286](https://history.state.gov/historicaldocuments/frus1964-68v01/d286) (editorial note). See [[cal.1964-08-04.vietnam]]. Names: Johnson.'
+      n: 'Radio and Television Report to the American People Following Renewed Aggression in the Gulf of Tonkin, [1963–64 Pub. Papers 927](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=167) (Aug. 4, 1964) (the note: began speaking at 11:36 p.m., eastern daylight time; from the Fish Room); [FRUS 1964–68, I, doc. 286](https://history.state.gov/historicaldocuments/frus1964-68v01/d286) (editorial note: 11:36 p.m.). Works read for this part of the entry it was split from: [[w.marolda-united-states-navy-and]], 446 (the address, 11:36 p.m.); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 521–22 (the address after 11:30 p.m.); [[w.cosmas-joint-chiefs-of-staff-2012]], 106–108; [[w.gibbons-u-s-government-and]], II, 289–97 (the address at 11:37 p.m.); [[w.bernstein-guns-or-butter]], 336–37; [[w.dallek-flawed-giant]], 150–53 (the address that night); [[w.johnson-vantage-point]], 114–17; [[w.johnson-white-house-diary]], 187–89 (after 11 p.m. on the air: "limited and fitting," "We still seek no wider war"; not the hour); [[w.goodwin-remembering-america]], 357–58 (Goodwin called to the Fish Room after 11 p.m.; "limited and fitting," "We still seek no wider war"; not the hour). To check: Joint Staff, JCS, Tonkin Gulf Composite Diary (cited by [[w.marolda-united-states-navy-and]], 446 n.26b). Check: Branch has the address at 11:34 p.m. (436); Logevall, 199, and Gibbons put it at 11:37 p.m. See [[cal.1964-08-04.vietnam]]. Names: Johnson.'
       time: 1964-08-05T03:36Z
       time_zone: America/New_York
       tags:

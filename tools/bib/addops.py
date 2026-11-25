@@ -111,8 +111,8 @@ def _target(e, body):
     if on in (None, ""):
         return e, None, None
     if str(on) in claims.FIELDS:
-        if not claims.has_field(e, str(on)):
-            return None, None, f"on: {on}: the entry has no {on}"
+        if not claims.has_field(e, str(on)):      # the same patch may set the field: the dry run decides
+            return None, None, Anchor(f"on: {on}: the entry has no {on}")
         return e, str(on), None
     new, nums, why = cuts.part_for(e, on)
     if new is None:

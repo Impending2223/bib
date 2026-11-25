@@ -441,8 +441,8 @@ def state(e):
     out = []
     for i in range(len(us)):
         L = claims.LETTERS[i]
-        srcs = sorted((r.rsplit(": ", 1)[0], "?" if u == "?" else "") for r, k, key, pin, note, u, item in rows
-                      if u == "?" or (u is not None and L in u))
+        srcs = sorted({(r.rsplit(": ", 1)[0], "?" if u == "?" else "") for r, k, key, pin, note, u, item in rows
+                       if u == "?" or (u is not None and L in u)})      # a row listed twice is one source
         rl = sorted((r["kind"], tuple(sorted(r["pols"])), r["date"] or "") for r in rules
                     if r["units"] is None or L in r["units"])
         vs = sorted((str(v.get("witness")), str(v.get("reads")), str(v.get("at"))) for v in e.get("variants") or []
