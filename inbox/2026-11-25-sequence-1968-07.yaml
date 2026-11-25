@@ -1,14 +1,10 @@
 patch: 2026-11-25-sequence-1968-07
-by: 'Claude (Sonnet, sequence pass: R25c on July 1968), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass: R25c on July 1968), Nov. 25, 2026; audited by Claude (Opus, R25c, R33b), Nov. 25, 2026'
 ops:
 - follows:
     id: cal.1968-07-03.soviet-union-leadership
     add:
     - cal.1968-07-03.soviet-union-leadership-2
-- follows:
-    id: cal.1968-07-15.conservation-4
-    add:
-    - cal.1968-07-15.conservation-3
 - follows:
     id: cal.1968-07-16.china-leadership-5
     add:
@@ -18,46 +14,362 @@ ops:
     add:
     - cal.1968-07-18.china-leadership-5
 - follows:
-    id: cal.1968-07-19.farm
-    add:
-    - cal.1968-07-19.poverty
-- follows:
     id: cal.1968-07-23.china-leadership
     add:
     - cal.1968-07-23.china
 - follows:
+    id: cal.1968-07-28.china-leadership-2
+    add:
+    - cal.1968-07-28.china-leadership
+- edit:
+    id: cal.1968-07-15.conservation-4
+    base: 04188d94
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2039. The House sat from noon to 11:11 p.m.: [Daily Digest, D351](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=349). Order: after [[cal.1968-07-15.conservation-3|the rivers and harbors bill]], in the House''s order of business, by the Record''s pages: rivers and harbors, 21369–86; Palmetto Bend, 21423–26 ([Daily Digest, D350](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=348)); roll calls 381 and 385. Check: CQ prints 295–104. Names: Aspinall.'
+- follows:
+    id: cal.1968-07-15.conservation-4
+    add:
+    - cal.1968-07-15.conservation-3
+- edit:
+    id: cal.1968-07-15.conservation-2
+    base: 7702cb9a
+    set:
+      n: '[[w.cq-weekly-report]], July 26, 1968, 1957, 1960, 1962. The House sat from noon to 11:11 p.m.: [Daily Digest, D351](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=349). Order: after [[cal.1968-07-15.conservation-3|the rivers and harbors bill]], by the Record''s pages: rivers and harbors, 21369–86; Redwood, 21386–414; trails, 21426–39; Oahe, 21446–50 ([Daily Digest, D350](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=348)). Names: Aspinall.'
+- follows:
+    id: cal.1968-07-15.conservation-2
+    add:
+    - cal.1968-07-15.conservation-3
+- edit:
+    id: cal.1968-07-15.conservation-5
+    base: 72acdf46
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2210. The House sat from noon to 11:11 p.m.: [Daily Digest, D351](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=349). Order: after [[cal.1968-07-15.conservation-2|the Oahe bill]], by the Record''s pages: Oahe, 21446–50; scenic rivers, 21450–61 ([Daily Digest, D350](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=348), [Daily Digest, D351](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=349)).'
+- follows:
+    id: cal.1968-07-15.conservation-5
+    add:
+    - cal.1968-07-15.conservation-2
+- edit:
+    id: cal.1968-07-15.transportation-2
+    base: 3189e7f4
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2209. The House sat from noon to 11:11 p.m.: [Daily Digest, D351](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=349). Order: after [[cal.1968-07-15.conservation-5|the scenic rivers bill]], by the Record''s pages: scenic rivers, 21450–61; S. 752, 21461–67 ([Daily Digest, D350](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=348), [Daily Digest, D351](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=349)).'
+- follows:
+    id: cal.1968-07-15.transportation-2
+    add:
+    - cal.1968-07-15.conservation-5
+- edit:
+    id: cal.1968-07-15.poverty
+    base: 2ee4150c
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2212. The House sat from noon to 11:11 p.m.: [Daily Digest, D351](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=349). Order: after [[cal.1968-07-15.transportation-2|S. 752]], by the Record''s pages: S. 752, 21461–67; the Hunger Commission, 21473–79 ([Daily Digest, D350](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=348)).'
+- follows:
+    id: cal.1968-07-15.poverty
+    add:
+    - cal.1968-07-15.transportation-2
+- edit:
+    id: cal.1968-07-17.congress
+    base: e26079f1
+    set:
+      n: '[[w.cq-weekly-report]], July 26, 1968, 1953–55. Order: after [[cal.1968-07-17.school-aid|the vocational education bill]], in the Senate''s order of business, by the Record''s pages: vocational education, 21721–51; the legislative appropriation, 21752–55 ([Daily Digest, D356](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=354)). Names: Gross.'
+- follows:
+    id: cal.1968-07-17.congress
+    add:
+    - cal.1968-07-17.school-aid
+- edit:
+    id: cal.1968-07-17.consumers
+    base: 755ed5b9
+    set:
+      n: '[[w.cq-weekly-report]], July 26, 1968, 1958–59. Order: after [[cal.1968-07-17.congress|the legislative appropriation]], by the Record''s pages: the legislative appropriation, 21752–55; S.J. Res. 160, 21755–56; S. 1299, 21756 ([Daily Digest, D356](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=354)).'
+- follows:
+    id: cal.1968-07-17.consumers
+    add:
+    - cal.1968-07-17.congress
+- edit:
+    id: cal.1968-07-17.congress-2
+    base: 278eceda
+    set:
+      n: '[[w.cq-weekly-report]], July 26, 1968, 1955–57. Order: after [[cal.1968-07-17.consumers|S. 1299]], by the Record''s pages: S. 1299, 21756; passports, 21758 ([Daily Digest, D356](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=354)). Names: Hays.'
+- follows:
+    id: cal.1968-07-17.congress-2
+    add:
+    - cal.1968-07-17.consumers
+- edit:
+    id: cal.1968-07-18.foreign-aid
+    base: 9266e3eb
+    set:
+      n: '[[w.cq-weekly-report]], July 26, 1968, 1947, 2012. The House sat from noon to 10:28 p.m.: [Daily Digest, D362](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=360). Order: after [[cal.1968-07-18.crime-and-hijacking|the juvenile delinquency report]], in the House''s order of business, by the Record''s pages: juvenile delinquency, 22048–50; foreign aid, 22050–122 ([Daily Digest, D362](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=360)). See [[cal.1968-07-17.foreign-aid]].'
+- follows:
+    id: cal.1968-07-18.foreign-aid
+    add:
+    - cal.1968-07-18.crime-and-hijacking
+- edit:
+    id: cal.1968-07-19.conservation
+    base: 31409f5a
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2052–53. Order: after [[cal.1968-07-19.transportation|the high-speed ground transportation bill]], in the Senate''s order of business, by the Record''s pages: high-speed transportation, 22303–04; the Federal Power Commission bill, 22305–06 ([Daily Digest, D363](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=361)).'
+- follows:
+    id: cal.1968-07-19.conservation
+    add:
+    - cal.1968-07-19.transportation
+- edit:
+    id: cal.1968-07-19.poverty
+    base: 2922a430
+    set:
+      n: '[[w.cq-weekly-report]], July 26, 1968, 1957, 2010 (the vote). The Senate sat from noon to 6:44 p.m.: [Daily Digest, D365](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=363). Order: after [[cal.1968-07-19.conservation|the Federal Power Commission bill]], by the Record''s pages: the Federal Power Commission bill, 22305–06; Fort''s contempt, 22351–62 ([Daily Digest, D363](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=361), [Daily Digest, D364](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=362)). To check: [[w.moore-almighty-black-p-stone]]. See [[cal.1967-11-15.poverty]]. Names: Fort, McClellan.'
+- follows:
+    id: cal.1968-07-19.poverty
+    add:
+    - cal.1968-07-19.conservation
+- edit:
+    id: cal.1968-07-19.farm
+    base: 2f5d9b69
+    set:
+      n: '[[w.cq-weekly-report]], July 26, 1968, 2010–11 (the votes). Order: after [[cal.1968-07-19.poverty|Fort''s contempt]], by the Record''s pages: Fort''s contempt, 22351–62; the farm bill, 22362–74 ([Daily Digest, D364](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=362)); roll calls 500 and 501. To check: [[w.cochrane-american-farm-policy-1948]]; [[w.hansen-gaining-access]]. See [[cal.1967-09-27.farm]].'
+- follows:
+    id: cal.1968-07-19.farm
+    add:
+    - cal.1968-07-19.poverty
+- edit:
+    id: cal.1968-07-20.conservation
+    base: 014d2430
+    set:
+      n: '[[w.cq-weekly-report]], July 26, 1968, 2011. Order: after [[cal.1968-07-20.conservation-2|the sea grant bill]], in the Senate''s order of business, by the Record''s pages: the call of the calendar, the sea grant bill in it, 22433–37; public works, 22457–75 ([Daily Digest, D367](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=365), [Daily Digest, D368](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=366)). Names: Cooper.'
+- follows:
+    id: cal.1968-07-20.conservation
+    add:
+    - cal.1968-07-20.conservation-2
+- edit:
+    id: cal.1968-07-22.conservation-2
+    base: 02ca798d
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2043–44. Order: after [[cal.1968-07-22.congress|the District''s bills]], in the House''s order of business, by the Record''s pages: the District''s bills, 22600–30; the estuaries, 22632 ([Daily Digest, D370](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=368)).'
+- follows:
+    id: cal.1968-07-22.conservation-2
+    add:
+    - cal.1968-07-22.congress
+- edit:
+    id: cal.1968-07-22.japan-and-korea-pueblo
+    base: 9668947b
+    set:
+      n: '[114 Cong. Rec. 22,646](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-5-2.pdf#page=49) (1968) (July 22, 1968). [[w.longley-lbjs-1968]], 51 (Reid). The House sat from noon to 7:34 p.m.: [Daily Digest, D370](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=368). Order: after [[cal.1968-07-22.conservation-2|the estuaries bill]], by the Record''s pages: the estuaries, 22632 ([Daily Digest, D370](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=368)); the special order, 22646. Check: the count of members and where the special order ends; Longley cites Reid at 18098, her remarks of June 20 ("150 days later"). See [[cal.1968-01-23.japan-and-korea]]. Names: Scherle, Ford, Rivers, Bob Wilson, Reid.'
+- follows:
+    id: cal.1968-07-22.japan-and-korea-pueblo
+    add:
+    - cal.1968-07-22.conservation-2
+- edit:
+    id: cal.1968-07-25.labor
+    base: 45f9e7c3
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2024–25, 2088. The House sat from noon to 10:02 p.m.: [Daily Digest, D382](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=380). Order: after [[cal.1968-07-25.students|the Higher Education Amendments]], in the House''s order of business, by the Record''s pages: higher education, 23331–87; the labor bill, 23387–406 ([Daily Digest, D382](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=380)); roll calls 399–400 and 401–404. Check: CQ prints Thompson''s 156–217. Names: Taft.'
+- follows:
     id: cal.1968-07-25.labor
     add:
     - cal.1968-07-25.students
+- edit:
+    id: cal.1968-07-26.economy-surcharge
+    base: 210e745c
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2051–52, 2084. [[w.cq-weekly-report]], Aug. 16, 1968, 2192 (the committee''s amendment, 46–17). The Senate sat from noon to 7:17 p.m.: [Daily Digest, D385](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=383). Order: after [[cal.1968-07-26.consumers|the mutual fund bill]], in the Senate''s order of business, by the Record''s pages: mutual funds, 23515, 23519–52; postal employees, 23553–58, 23566–67, 23569–91 ([Daily Digest, D384](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=382), [Daily Digest, D385](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=383)); roll calls 516 and 517–521. Names: Williams, Monroney, Miller.'
 - follows:
     id: cal.1968-07-26.economy-surcharge
     add:
     - cal.1968-07-26.consumers
+- edit:
+    id: cal.1968-07-26.trade
+    base: 482bb682
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2214. The Senate sat from noon to 7:17 p.m.: [Daily Digest, D385](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=383). Order: after [[cal.1968-07-26.consumers|the mutual fund bill]], by the Record''s pages: mutual funds, 23515, 23519–52; renegotiation, 23558 ([Daily Digest, D384](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=382)). Names: Long.'
+- follows:
+    id: cal.1968-07-26.trade
+    add:
+    - cal.1968-07-26.consumers
+- edit:
+    id: cal.1968-07-26.cities-and-housing
+    base: 5d0f1381
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2031, 2044, 2090. Order: after [[cal.1968-07-26.farm|the cotton bill]], in the House''s order of business, by the Record''s pages: cotton, 23598 ([Daily Digest, D385](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=383)); housing, 23636–92 ([Daily Digest, D386](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=384)). Check: CQ''s story prints the vote 227–135 (2031) and 226–135 (2044); its vote chart, 228–135 (2090), as Voteview. See [[cal.1968-07-10.cities-and-housing]].'
+- follows:
+    id: cal.1968-07-26.cities-and-housing
+    add:
+    - cal.1968-07-26.farm
+- edit:
+    id: cal.1968-07-26.transportation
+    base: ecb70add
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2053, 2090. Order: after [[cal.1968-07-26.cities-and-housing|the housing report]], in the House''s order of business, by the Record''s pages: housing, 23636–92; highways, 23692–713 ([Daily Digest, D386](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=384)); roll calls 405 and 406. Check: CQ prints 166–167. Names: Stratton.'
 - follows:
     id: cal.1968-07-26.transportation
     add:
     - cal.1968-07-26.cities-and-housing
+- edit:
+    id: cal.1968-07-29.conservation-2
+    base: e4c56da4
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2044. Order: after [[cal.1968-07-29.consumers-2|the poultry bill]], in the Senate''s order of business, by the Record''s pages: poultry, 23980–91; the call of the calendar, S. 3866 in it, 24013–21 ([Daily Digest, D388](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=386)).'
 - follows:
-    id: cal.1968-07-28.china-leadership-2
+    id: cal.1968-07-29.conservation-2
     add:
-    - cal.1968-07-28.china-leadership
+    - cal.1968-07-29.consumers-2
+- edit:
+    id: cal.1968-07-29.transportation
+    base: e4450407
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2053, 2085. Order: after [[cal.1968-07-29.conservation-2|the call of the calendar]], by the Record''s pages: the call of the calendar, 24013–21 ([Daily Digest, D388](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=386)); highways, 24023–38 ([Daily Digest, D389](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=387)); roll calls 522–523 before, 524. See [[cal.1968-07-26.transportation]].'
 - follows:
     id: cal.1968-07-29.transportation
     add:
-    - cal.1968-07-29.consumers-2
+    - cal.1968-07-29.conservation-2
+- edit:
+    id: cal.1968-07-29.economy-surcharge
+    base: 7685c7cd
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2085. [[w.cq-weekly-report]], Aug. 16, 1968, 2199 (McClellan''s amendment, Bayh''s change, 62–10; the bill passed that day). Order: after [[cal.1968-07-29.transportation|the highway report]], by the Record''s pages: highways, 24023–38; the State, Justice and Commerce votes, 24038–48 ([Daily Digest, D389](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=387)); roll calls 524 and 525–526. Names: McClellan, Bayh.'
 - follows:
     id: cal.1968-07-29.economy-surcharge
     add:
     - cal.1968-07-29.transportation
+- edit:
+    id: cal.1968-07-29.states-and-cities
+    base: be28ee50
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2198. Order: after [[cal.1968-07-29.economy-surcharge|the State, Justice and Commerce votes]], by the Record''s pages: the appropriation, 24038–48; S. 698, 24049–57 ([Daily Digest, D389](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=387)).'
 - follows:
-    id: cal.1968-07-30.farm-2
+    id: cal.1968-07-29.states-and-cities
     add:
-    - cal.1968-07-30.farm
+    - cal.1968-07-29.economy-surcharge
+- edit:
+    id: cal.1968-07-30.confirmations
+    base: 6825abce
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2028, 2086. The Senate sat from noon to 6:57 p.m.: [Daily Digest, D392](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=390). Order: after [[cal.1968-07-30.poverty|S. Res. 281]], in the Senate''s order of business, by the Record''s pages: S. Res. 281, 24160–62 ([Daily Digest, D391](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=389)); the vote on Sprague, [114 Cong. Rec. 24,199](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-6-1.pdf#page=91) (1968). Names: Sprague, Murphy, Dodd.'
+- follows:
+    id: cal.1968-07-30.confirmations
+    add:
+    - cal.1968-07-30.poverty
+- edit:
+    id: cal.1968-07-30.foreign-aid
+    base: ab8739ad
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2114 (the Pueblo amendment, July 30, 43–29). [[w.cq-weekly-report]], Aug. 2, 1968, 2018, 2086–87. Order: after [[cal.1968-07-30.confirmations|the Sprague vote]], by the Record''s pages: the vote on Sprague, [114 Cong. Rec. 24,199](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-6-1.pdf#page=91); the amendment on the *Pueblo*, [24,206](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-6-1.pdf#page=98) (1968); roll calls 527 and 528. See [[cal.1968-07-17.foreign-aid]].'
 - follows:
     id: cal.1968-07-30.foreign-aid
     add:
     - cal.1968-07-30.confirmations
+- edit:
+    id: cal.1968-07-30.jobs-and-wages
+    base: 673e86c5
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2116. Order: after [[cal.1968-07-30.congress-2|Burleson''s election]], in the House''s order of business, by the Record''s pages: Burleson and Friedel, 24220; the veterans'' resolution, 24222 ([Daily Digest, D393](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=391)).'
+- follows:
+    id: cal.1968-07-30.jobs-and-wages
+    add:
+    - cal.1968-07-30.congress-2
+- edit:
+    id: cal.1968-07-30.farm
+    base: 1e77bff0
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2029–30, 2090. Order: after [[cal.1968-07-30.jobs-and-wages|the veterans'' resolution]], by the Record''s pages: the veterans'' resolution, 24222; food stamps, 24222–44 ([Daily Digest, D393](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=391)). Names: Sullivan, Teague.'
+- follows:
+    id: cal.1968-07-30.farm
+    add:
+    - cal.1968-07-30.jobs-and-wages
+- edit:
+    id: cal.1968-07-30.farm-2
+    base: c4e9cbc2
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2092. Order: after [[cal.1968-07-30.farm|the food stamp bill]], in the House''s order of business, by the Record''s pages: food stamps, 24222–44; the farm bill''s rule, 24245–66 ([Daily Digest, D393](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=391)); roll calls 408–409 and 410. See [[cal.1968-07-19.farm]].'
+- follows:
+    id: cal.1968-07-30.farm-2
+    add:
+    - cal.1968-07-30.farm
+- edit:
+    id: cal.1968-07-31.congress
+    base: 35fd7e14
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2116. Order: after [[cal.1968-07-31.students|the student loans]], in the House''s order of business, by the Record''s pages: student loans, 24368–71 ([Daily Digest, D396](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=394)); S. 2060, 24372 ([Daily Digest, D397](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=395)).'
+- follows:
+    id: cal.1968-07-31.congress
+    add:
+    - cal.1968-07-31.students
+- edit:
+    id: cal.1968-07-31.farm
+    base: bb66e88f
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2092. Order: after [[cal.1968-07-31.congress|S. 2060]], by the Record''s pages: S. 2060, 24372; the farm bill, 24373–413 ([Daily Digest, D397](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=395)). See [[cal.1968-07-19.farm]].'
+- follows:
+    id: cal.1968-07-31.farm
+    add:
+    - cal.1968-07-31.congress
+- edit:
+    id: cal.1968-07-31.transportation
+    base: 0982ece8
+    set:
+      n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2028–29. Order: after [[cal.1968-07-31.foreign-aid|the Senate''s amendments to the aid bill]], in the Senate''s order of business, by the Record''s pages: the aid bill, 24501–32; the pipeline report, 24544–46 ([Daily Digest, D395](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=393)).'
+- follows:
+    id: cal.1968-07-31.transportation
+    add:
+    - cal.1968-07-31.foreign-aid
+- edit:
+    id: cal.1968-07-11.transportation
+    base: 7e6d389d
+    set:
+      n: '[[w.cq-weekly-report]], July 26, 1968, 1956–57. The Senate sat from noon to 6:27 p.m.: [Daily Digest, D342](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=340). Order: after [[cal.1968-07-11.conservation|the Interior appropriation]], in the Senate''s order of business, by the Record''s pages: Interior, 20893–98; aircraft noise, 20915–31 ([Daily Digest, D341](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=339)). Names: Case, Proxmire.'
+- follows:
+    id: cal.1968-07-11.transportation
+    add:
+    - cal.1968-07-11.conservation
+- edit:
+    id: cal.1968-07-24.crime-and-hijacking
+    base: 3405fa54
+    set:
+      n: '[114 Cong. Rec. 23,093–96](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-1-2.pdf#page=28) (1968) (July 24, 1968) (the amendments'' texts, the separate votes and passage: MacGregor''s, 23093–94; Latta''s, 23094; Poff''s, 23094–95; Sikes''s and passage, 23095–96; the list of yeas on passage headed "YEAS—350," the count 305, 23095). Conference report, H. Rept. 90–1956, the managers'' statement, [114 Cong. Rec. 30,576–77](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt23/pdf/GPO-CRECB-1968-pt23-5-2.pdf#page=21) (1968) (Oct. 10, 1968) (the House bill''s ammunition, age and nonresident provisions, Latta''s, Poff''s and Sikes''s; in conference the Senate''s definition, "all ammunition and components of ammunition for all firearms," adopted, Latta''s and Sikes''s kept, Poff''s without the bar on probation and suspension for a first offense or on concurrent sentences). [[w.cq-weekly-report]], July 26, 1968, 1939–40, 2014 (the bill''s provisions and the votes; no registration or licensing); [[w.cq-weekly-report]], Aug. 2, 1968, 2047 (passed, the mail-order and interstate sale of rifles and shotguns stopped). CQ (1939) gives the Sikes amendment as letting the National Board for the Promotion of Rifle Practice furnish arms and ammunition to clubs of the National Rifle Association. The House sat from noon to 7:04 p.m.: [Daily Digest, D378](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=376). Order: after [[cal.1968-07-19.crime-and-hijacking-guns-3|Latta''s amendment]], in the Committee of the Whole, [114 Cong. Rec. 23,086](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-1-2.pdf#page=21) (1968), before the separate votes and passage, 23093–96. To check: [[w.zimring-firearms-and-federal-law]]; [[w.spitzer-politics-of-gun-control]]; [[w.winkler-gunfight]]. See [[cal.1968-06-06.crime-and-hijacking]]. Names: Poff, Johnson, MacGregor, Latta, Sikes.'
+- follows:
+    id: cal.1968-07-24.crime-and-hijacking
+    add:
+    - cal.1968-07-19.crime-and-hijacking-guns-3
+- edit:
+    id: cal.1968-07-19.crime-and-hijacking-guns-4
+    base: 329f023b
+    set:
+      when: July 23
+      date: '1968-07-23'
+      n: '[114 Cong. Rec. 22,773–77](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=30) (1968) (July 23, 1968) (the first amendment beaten, 90–99, 22773; the second, 22774; MacGregor to Tenzer on the .22 rimfire bullet, 22777). [[w.cq-weekly-report]], July 26, 1968, 1940. The Record dates it July 23. Order: after [[cal.1968-07-19.crime-and-hijacking-guns-2|Dingell''s amendment]], by the Record''s pages: Dingell''s, [114 Cong. Rec. 22,765](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=22); MacGregor''s two, [22,773–77](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=30) (1968). See [[cal.1968-07-24.crime-and-hijacking]]. Names: MacGregor, Robert Kennedy.'
+    kind: correct
+    settles:
+    - 'Check: the day; CQ gives the four days of debate.'
+- follows:
+    id: cal.1968-07-19.crime-and-hijacking-guns-4
+    add:
+    - cal.1968-07-19.crime-and-hijacking-guns-2
+- edit:
+    id: cal.1968-07-30.vietnam-air-war-2
+    base: 12a9b8cb
+    set:
+      n: '[[w.drea-mcnamara-clifford-and-the-2011]], 229. Order: after [[cal.1968-07-30.vietnam-paris|the lunch]], where Johnson asked for it (FRUS 1964–68, VI, doc. [316](https://history.state.gov/historicaldocuments/frus1964-68v06/d316), 1 to 2:05 p.m.); Taylor''s memorandum is of July 30: FRUS 1964–68, VI, doc. [319](https://history.state.gov/historicaldocuments/frus1964-68v06/d319) n.2. Check: the report''s findings; the sentence runs over p. 230. Names: Taylor, Johnson.'
 - follows:
     id: cal.1968-07-30.vietnam-air-war-2
     add:
     - cal.1968-07-30.vietnam-paris
+- edit:
+    id: cal.1968-07-19.crime-and-hijacking-guns-2
+    base: b8fe01e4
+    set:
+      when: July 23
+      date: '1968-07-23'
+      n: '[114 Cong. Rec. 22,765](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=22) (1968) (July 23, 1968) (the teller vote, 99–56). [[w.cq-weekly-report]], July 26, 1968, 1939. The Record dates it July 23. See [[cal.1968-07-24.crime-and-hijacking]]. Names: Dingell.'
+    kind: correct
+    settles:
+    - 'Check: the day; CQ gives the four days of debate.'
+- edit:
+    id: cal.1968-07-19.crime-and-hijacking-guns-3
+    base: 157aabfe
+    set:
+      when: July 24
+      date: '1968-07-24'
+      n: '[114 Cong. Rec. 23,086](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-1-2.pdf#page=21) (1968) (July 24, 1968) (the teller vote, 111–69). [[w.cq-weekly-report]], July 26, 1968, 1939. The Record dates it July 24. See [[cal.1968-07-24.crime-and-hijacking]]. Names: Latta.'
+    kind: correct
+    settles:
+    - 'Check: the day; CQ gives the four days of debate.'
+- check:
+    id: cal.1968-07-19.farm
+    text: 'Check: the Daily Digest has the vote on the payment limit, 25–47, on July 20, and the amendment as modified a limit of $15,000 (D367–68); for July 19 it gives the amendment pending at the recess as $25,000 (D365).'
