@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1965-07
-by: 'Claude (Sonnet, sequence pass, July 1965: R25c), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass, July 1965: R25c), Nov. 25, 2026; audited and corrected by Claude (Opus, R25c, R33b), Nov. 25, 2026'
 ops:
 - follows:
     id: cal.1965-07-02.school-aid
@@ -22,9 +22,9 @@ ops:
     add:
     - cal.1965-07-18.china-leadership-3
 - follows:
-    id: cal.1965-07-20.vietnam-july-decision
+    id: cal.1965-07-20.vietnam
     add:
-    - cal.1965-07-20.vietnam
+    - cal.1965-07-20.vietnam-july-decision
 - follows:
     id: cal.1965-07-26.vietnam-air-war-2
     add:
@@ -37,3 +37,137 @@ ops:
     id: cal.1965-07-28.vietnam-july-decision
     add:
     - cal.1965-07-28.vietnam
+- follows:
+    id: cal.1965-07-01.china-leadership-9
+    add:
+    - cal.1965-07-01.china-leadership-3
+- follows:
+    id: cal.1965-07-06.china-leadership
+    add:
+    - cal.1965-07-06.china-leadership-6
+- follows:
+    id: cal.1965-07-12.china-leadership-2
+    add:
+    - cal.1965-07-12.china-leadership-3
+- follows:
+    id: cal.1965-07-12.china-leadership-12
+    add:
+    - cal.1965-07-12.china-leadership-11
+- follows:
+    id: cal.1965-07-16.court-fortas
+    add:
+    - cal.1965-07-16.transition-and-staff
+- follows:
+    id: cal.1965-07-17.china-leadership-7
+    add:
+    - cal.1965-07-17.china-leadership-5
+- follows:
+    id: cal.1965-07-17.china-leadership-8
+    add:
+    - cal.1965-07-17.china-leadership-5
+- follows:
+    id: cal.1965-07-20.china-leadership-11
+    add:
+    - cal.1965-07-20.china-leadership
+- follows:
+    id: cal.1965-07-21.china-leadership-4
+    add:
+    - cal.1965-07-21.china-leadership-11
+- follows:
+    id: cal.1965-07-21.china-leadership
+    add:
+    - cal.1965-07-21.china-leadership-4
+- follows:
+    id: cal.1965-07-21.vietnam-july-decision-2
+    add:
+    - cal.1965-07-21.vietnam
+- follows:
+    id: cal.1965-07-21.school-aid
+    add:
+    - cal.1965-07-21.court-fortas
+- follows:
+    id: cal.1965-07-21.press-and-broadcasting
+    add:
+    - cal.1965-07-21.school-aid
+- follows:
+    id: cal.1965-07-24.china-leadership-4
+    add:
+    - cal.1965-07-24.china-leadership-3
+- follows:
+    id: cal.1965-07-27.china-leadership-5
+    add:
+    - cal.1965-07-27.china-leadership-3
+- follows:
+    id: cal.1965-07-27.china-leadership-13
+    add:
+    - cal.1965-07-27.china-leadership-5
+- follows:
+    id: cal.1965-07-27.china-leadership-4
+    add:
+    - cal.1965-07-27.china-leadership-2
+- follows:
+    id: cal.1965-07-28.court-2
+    add:
+    - cal.1965-07-28.defense
+- follows:
+    id: cal.1965-07-29.china-leadership-2
+    add:
+    - cal.1965-07-29.china-leadership-4
+- follows:
+    id: cal.1965-07-29.china-leadership
+    add:
+    - cal.1965-07-29.china-leadership-2
+- follows:
+    id: cal.1965-07-29.china-leadership-3
+    add:
+    - cal.1965-07-29.china-leadership-2
+- follows:
+    id: cal.1965-07-31.china-leadership-8
+    add:
+    - cal.1965-07-31.china-leadership-7
+- follows:
+    id: cal.1965-07-31.china-leadership
+    add:
+    - cal.1965-07-31.china-leadership-7
+- edit:
+    id: cal.1965-07-02.school-aid
+    base: 8b026fc5
+    set:
+      time: 1965-07-02T21:17Z
+      time_zone: America/New_York
+      n: 'Remarks in New York City Before the Convention of the National Education Association, [1965 Pub. Papers 716](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=190) (July 2, 1965). [[w.graham-uncertain-triumph]], 83; [[w.johnson-white-house-diary]], 294 (Johnson to address the National Education Association at Madison Square Garden "to propose the Teachers'' Corps"; not the words). The words: "The President spoke at 5:17 p.m. at Madison Square Garden" (the note to the item in the Papers). Names: Johnson.'
+- edit:
+    id: cal.1965-07-02.vietnam-july-decision
+    base: 764fa9b0
+    set:
+      time: 1965-07-02T15:00Z
+      time_zone: America/New_York
+      n: '[FRUS 1964–68, III, doc. 44](https://history.state.gov/historicaldocuments/frus1964-68v03/d44) (editorial note: the meeting of July 2, from the Daily Diary; the three errands, by William Bundy''s manuscript history). [[w.dallek-flawed-giant]], 272 (from William Bundy''s manuscript history); [[w.mcnamara-in-retrospect]], ch. 7 at n.45. [[w.drea-mcnamara-clifford-and-the-2011]], 37 (McNamara, Wheeler and Lodge to Saigon). The words: "At 11 a.m. on July 2, 1965" (FRUS doc. 44). See [[cal.1965-07-01.vietnam]]. Names: Johnson, McNamara, Harriman, Ball.'
+- edit:
+    id: cal.1965-07-16.court-fortas
+    base: 6b5739e5
+    set:
+      n: '[[w.johnson-white-house-diary]], 299–300 (Mrs. Johnson''s account). After [[cal.1965-07-16.transition-and-staff|the funeral]]: in Mrs. Johnsons account they return to the White House after the service, and the call to Fortas comes "after 9" (299). See [[cal.1965-07-14.transition-and-staff]]. Made public: 1970. Names: Fortas, Clifford, Goldberg, Johnson, Lady Bird Johnson.'
+- edit:
+    id: cal.1965-07-20.vietnam
+    base: 1d881fba
+    set:
+      n: '[FRUS 1964–68, III, doc. 67](https://history.state.gov/historicaldocuments/frus1964-68v03/d67). [[w.gibbons-u-s-government-and]], III, 380–387; [[w.drea-mcnamara-clifford-and-the-2011]], 43; [[w.poole-joint-chiefs-of-staff-2012]], 43 (the call-up; the regulars); [[w.cosmas-joint-chiefs-of-staff-2012]], 308 (the recommendations); [[w.johnson-vantage-point]], 145–46; [[w.moyar-triumph-forsaken]], 411; [[w.califano-triumph-and-tragedy-of]], 35 (the report: 100,000 to 125,000 more men; 235,000 reserves; 375,000 more regulars; "$X"); [[w.bernstein-guns-or-butter]], 347 (the situation "worse than a year ago (when it was worse than the year before that)"; an "acceptable outcome within a reasonable time"); [[w.taylor-swords-and-plowshares]], 348–49 (McNamara in Saigon from July 16, five days, with Lodge, Wheeler and Goodpaster; the 175,000 and 34 battalions); [[w.mann-grand-delusion]], 448 (McNamara''s report to Johnson: by October 175,000 men in all, perhaps 100,000 more early in 1966; a call-up of 235,000 reserve and National Guard troops and the regular forces up 375,000; not the battalions, Lodge or Wheeler, or the supplemental). [[w.westmoreland-soldier-reports]], 141–43 (the visit to Saigon from July 16; Westmoreland''s estimate for McNamara, about 175,000 men and then some 100,000 more; McNamara for calling the reserves; Vance''s message the second day). Check: Bernstein, 347, reads the figures as 75,000 men to 200,000 by October and 600,000 in all by mid-1966. Check: Mann, 448, has McNamara return to Washington on July 21 and report to Johnson then; the entry has July 20. After [[cal.1965-07-20.vietnam-july-decision|Lodge''s memorandum]]: Lodge "apparently wrote" it in Saigon, on the draft of the report (FRUS doc. 66 n.1), and the report as sent records his concurrence (doc. 67; its n.1, Lodge''s comments on the draft, Saigon, July 19). See [[cal.1965-07-01.vietnam]]. Names: McNamara, Wheeler, Taylor, Westmoreland, Sharp, Lodge, Johnson.'
+- edit:
+    id: cal.1965-07-21.school-aid
+    base: 1e314e92
+    set:
+      time: 1965-07-21T22:00Z
+      time_zone: America/New_York
+      n: 'Remarks to the Delegates to the White House Conference on Education, [1965 Pub. Papers 771](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=245) (July 21, 1965). [[w.califano-triumph-and-tragedy-of]], 36; [[w.johnson-white-house-diary]], 304–05 (the White House Conference on Education: the Chairmen with Johnson at 5, his short speech to hundreds on the lawn, opening on "the first White House teach-in"; Goldberg on the platform; not the quoted words). The words: "The President spoke at 6 p.m. on the South Lawn" (the note to the item in the Papers). After [[cal.1965-07-21.court-fortas|Mrs. Johnson''s talk with Fortas]], which in her account comes before her afternoon away and her return at 5 (304). Names: Johnson.'
+- edit:
+    id: cal.1965-07-21.press-and-broadcasting
+    base: 750c5cc7
+    set:
+      n: '[[w.johnson-white-house-diary]], 305–06 (Mrs. Johnson''s account). After [[cal.1965-07-21.school-aid|the conference]]: after the reception Mrs. Johnson goes upstairs "about 7:30" to wait for Johnson, who brings Hagerty, Moyers and the Valentis (305). Made public: 1970. Names: Hagerty, Moyers, Valenti, Eisenhower, Johnson, Lady Bird Johnson.'
+- edit:
+    id: cal.1965-07-27.vietnam-july-decision-3
+    base: 33f4e1eb
+    set:
+      time: 1965-07-27T22:30Z
+      time_zone: America/New_York
