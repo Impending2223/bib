@@ -1,218 +1,250 @@
-# The claims data model (design note, handoff 4aw.1 (a))
+# Sources tied to parts of an entry: the design (rulings 35f and 35g)
 
-The owner's spouse, Nov. 22, 2026: "I don't understand this until I see the data model. Claude, what's the data model?"; "How do you make sure the text of the claim is consistent with respect to the ellipses?" The owner, the same day: "a clear improvement on what we have." This note is the design: today's model (1), the new one (2), how the page renders it (3), the migration (4), the risks and the defaults taken (5). No code changes with it.
+For the owner first, the implementer second. Nov. 25, 2026.
 
-## 1. Today
+This note replaces the design that stood here until today (a list of stored claims with frames; git history keeps it). The owner's questions of Nov. 24 and rulings 31, 32, 35 and 35f in `notes/owner-rulings.md` set that design aside. This note states ruling 35f, with the three additions of ruling 35g. The two reviews are `notes/proposals/claims-model-review.md` and `notes/proposals/claims-model-review-fable.md`.
 
-A calendar entry's `c` is one string. Everything that speaks of "a claim" speaks of a piece of that string that a program cuts out again each time it is wanted:
+Five terms, used the same way throughout.
 
-- **Units.** `claims.units(c)` (tools/bib/claims.py, STYLE 1) splits `c` at sentence ends and at semicolons, never inside a quotation, parentheses or brackets, and letters the pieces A, B, C ... Z, AA. Nothing in `c` marks them; a reader wanting a finer unit writes a semicolon. 58,276 entries, 154,691 units.
-- **The claim map, `src`.** Hidden, after `n`. `c:` is `chash(c)`, the first 8 hex digits of the SHA-1 of the string the map was made against; `rows` are `'<source> <pin>: <units>'`, units `all`, letters and runs (`A, C-E`), or `?` (not yet mapped). A map whose hash no longer matches is stale: `check` flags it, since the letters may have shifted. Where there is no `src`, the mechanical map is derived from `n` (STYLE 5) and never stored. 40,874 entries are mapped by a reader; 123,129 rows, 19,941 of them `?`.
-- **Visibility.** Rulings are entry tags (vis.py, STYLE 8): `vis:only:ussr`, `vis:from:us:1962-02-10`, and a unit's own after `@` with its letters (`@A`, `@B-D`, `@A.C`); a unit's ruling wins over the entry's (257 such tags). `vis:frame:ussr` (20 entries) marks the first unit's opening words up to a colon ("Alekseyev to Moscow:") as a report's frame with polities of its own; `vis.frame_text()` finds it, and the page gives it a span of its own (vispage.py, STYLE 2) with the unit's letter.
-- **Variants** (R41): `variants: [{unit: A, witness, reads, at}]`, the unit by letter; `check` (witnesses.py) tests the letter against `len(units(c))` (1,326 rows).
-- **Footnotes** (footnotes.py, STYLE 1–8): runs of units with the same sources close with a mark; the mark sits inside the last unit's span, so a hidden unit takes its mark with it (STYLE 6).
-- **The page** (vispage.py, STYLE 2) renders the whole `c` once, then renders each unit alone and looks for it, in order, in the whole rendering, to wrap it in `<span class="cl" data-u="B" ...>`. Where a unit is not found (a link or title that renders whole but not cut), the entry falls back to one span, unmapped.
-- **`follows`** (dayorder.py, STYLE 2) names entries, not units: it is untouched by any of this.
-- **Patches**: `cite: {id, item, units}` and `src` rows carry letters; `variant: {id, unit, ...}`; an `edit` replaces `c` whole against the entry's `base` rev, so two readers adding to different sentences of one entry conflict.
+- The **line** is an entry's `c`.
+- A **unit** is a sentence of the line, or a clause that ends in a semicolon. The tools find the units by rule each time they need them. This is today's term.
+- A **cut** is a mark stored in the line at the end of some words. The page never shows it.
+- A **part** is the words between two cuts. An entry with no cut has one part, the whole line.
+- A **row** is one line of an entry's `src`: a source, its page, and the words it supports.
 
-Example, `cal.1960-06-23.soviet-union` (lists/cal/196006.yaml), as stored:
+## (a) What changes and what does not
 
-```yaml
-  c: Bucharest, morning. The Soviet delegation hands Peng Zhen's delegation the CPSU Central Committee's letter,
-     dated June 21, in seven parts (the era; war and peace; ...; unity). The same text had gone to the other
-     parties as a "notification" on June 21, before the Chinese had it, by the Vietnamese, Korean and Albanian
-     delegations' word. A draft communique follows, for discussion on the 24th. The delegation cables the points.
-  src:
-    c: ec205ebb
-    rows:
-      - 'w.lengxi-shinian-lunzhan-1956-1966 281–283, 285: all'
-      - 'w.yang-jisheng-mubei II, 1150: B'
-      - 'w.westad-introduction 25: ?'
-      - 'w.brothers-in-arms 381: ?'
-      - 'via x.1963-07-05.records-cpsu-ccp-delegations: ?'
-      - 'w.peng-zhen-nianpu-1902 IV, 37–38: ?'
-  tags: [polity:prc, name:peng-zhen, vis:only:prc+ussr,
-         vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia@C-D,
-         vis:only:prc@E]
-  variants:
-    - unit: A
-      witness: w.peng-zhen-nianpu-1902
-      reads: the letter and the "Notification" handed to the delegation at its lodging by Andropov, ... at 3 p.m.
-             on June 23 ("下午三时")
-      at: IV, 37
-```
+The build already makes the footnotes the owner described on Nov. 24 at 4:00 p.m. `footnotes.py` takes the units in order. Neighbouring units with the same sources share one mark and one footnote. The footnote is compiled from the rows. Two neighbouring footnotes are never the same.
 
-(`c` and `reads` wrapped here for the page; one line each in the file.) The splitter gives A "Bucharest, morning.", B "The Soviet delegation hands ...", C "The same text had gone ...", D "A draft communique follows ...", E "The delegation cables the points." Four structures (the map's rows, two `@` tags, the variant) point at these five pieces by position. None of them holds the text it means; each trusts that the splitter, run again, cuts the same way. If a reader inserts a sentence after A, every letter after it now names the wrong sentence, and only the hash notices, and only for the map: the `@C-D` tag and a variant's `unit:` would silently move to the neighbouring sentence.
+So the page does not change. One thing under it changes: how a row names the words it supports.
 
-A frame, `cal.1960-02-10.cuba` (lists/cal/196002.yaml): `c` is "Alekseyev to Moscow: Guevara, at his home, ... says Cuba will ask Mikoyan for an enormous credit, $500 million the opening bid (...); the Kremlin may announce it. "It is very important for Cuba to feel independent of the U.S. and to demonstrate it." Shown to Mikoyan." Units: A (the frame and Guevara's request), B "the Kremlin may announce it.", C the quotation, D "Shown to Mikoyan."; tags `vis:frame:ussr`, `vis:only:ussr+cuba`, `vis:only:ussr@D`. B and C are Guevara's words as Alekseyev reported them, but nothing records it: "Alekseyev to Moscow:" belongs to A alone, and B read alone ("the Kremlin may announce it") has lost both its reporter and its speaker. That is the ellipsis the spouse asked about.
+Today a row names units by letter: `'w.yang-jisheng-mubei II, 1150: B'`. The letters are counted from the punctuation each time. If someone adds a sentence, every later letter names a different sentence. The tools notice this for rows (the map is marked stale) and do not notice it for visibility rulings or variants.
 
-What is wrong, in one line: the claims are the data's real atoms (sources, visibility and variants all attach to them) but they are not stored; they are recomputed from prose, and everything else holds positions into the recomputation.
+Under 35f a row names parts by number. The number is stored in the line itself, in a cut, at the end of the part. Words can be added or changed around a cut and the number stays with its words.
 
-## 2. The model
+What does not change:
 
-A calendar entry's `c` becomes a list. Each item is a claim or a frame:
+- The line stays one string of prose.
+- The note `n` stays the citation record.
+- `src` keeps its rows. `all` and `?` keep their meaning.
+- `footnotes.py` compiles as it does now. Its ten STYLE rules stand.
+- The units stay. Footnotes and visibility still work unit by unit. A part is a run of whole units with a stored number.
+- An entry with no cut is stored and shown exactly as today. That is about five entries in six.
 
-- **claim** `{id, t, src?, variants?}`. `id` is `k1`, `k2` ...: permanent, unique within the entry, never renamed or reused (a claim struck leaves its id in the entry's `retired: [k4]`, as an entry's id leaves an alias); its full address is `<entry id>#k3`. `t` is its text, one unit by today's splitter (a sentence, a clause closed by a semicolon, or a quotation whole), with its own closing punctuation and no space at either end. `src` is the list of sources that ground it, each a map row less its units: `'w.yang-jisheng-mubei II, 1150'`, `'via x.…'`, a link's address, an unlinked item's first words. `variants` are R41's rows less `unit:`: `{witness, reads, at}`.
-- **frame** `{frame, id, src?, claims}`: an element that the claims inside it share and do not repeat (the reporter, the speaker, a place-and-time head). `frame` is its text ("Alekseyev to Moscow:", "Rusk:", or a frame with no colon, "Guevara, at his home, ..., says"); `id` is from the same `k` sequence, since a frame is itself a claim (that Alekseyev reported, that Rusk spoke) with sources and a visibility of its own; `claims` is its list, claims or frames (frames nest).
+What changes:
 
-What else changes on the entry:
+- About 10,000 entries get cuts: those where a row, a visibility ruling or a variant names less than the whole line.
+- In those entries, rows, rulings and variants name part numbers where they now name letters.
+- A patch names a part by quoting its words. The merge makes the cut.
+- A row or a variant may name the entry's date, time or place (35g).
+- `patch-check` applies R22 from the difference between the old line and the new, part by part.
 
-- `src` (the map) goes. Its rows move onto the claims they name; `all` puts the row on every claim. The `?` rows, which a reader has not yet tied to any claim, stay on the entry as `src_open: [...]`, and the footnotes treat them as now (the last footnote). The hash `src.c` goes too: an id cannot drift onto a neighbouring claim, so there is nothing to go stale. A claim's rev, for a patch's `base`, is `chash(t)`, computed, never stored.
-- `variants` go onto their claims.
-- Visibility rulings stay entry tags; the part after `@` lists ids joined by "." (`@k3.k4`). Runs (`-`) go: ids are in order only when first numbered. `vis:frame:ussr` becomes the frame's own ruling, `vis:only:ussr@k1` (if the vis golden shows the two compute the same tags; else `vis:frame:` stays and means "the frame's ruling").
-- Nothing else: `n`, `tags`, `when`, `follows` (entries, not claims), the time and place fields stand.
-- The letters stay for reading only: `./bib claims show` prints A, B, C beside the ids, in order, as a label; nothing stores a letter.
-- Only calendar entries (dated and undated) take the list. Every other list's `c` (a work's citation, a person's line) and the threads' statements stay strings.
+## (b) The data on two real entries
 
-The example entry, `cal.1960-06-23.soviet-union`, in full (only `c`, `src`, `tags` and `variants` differ from the stored entry; `n`, `when`, the times and place stand as they are):
+### `cal.1960-06-23.soviet-union`
+
+Stored today (the line and the variant's reading shortened here with "…"; the other fields left out):
 
 ```yaml
-- id: cal.1960-06-23.soviet-union
-  when: June 23
-  date: '1960-06-23'
-  place: bucharest
-  thread: soviet-union
-  also: [china-leadership]
-  c:
-    - id: k1
-      t: Bucharest, morning.
-      src: ['w.lengxi-shinian-lunzhan-1956-1966 281–283, 285']
-      variants:
-        - witness: w.peng-zhen-nianpu-1902
-          reads: the letter and the "Notification" handed to the delegation at its lodging by Andropov, head of the CPSU Central Committee's liaison department, at 3 p.m. on June 23 ("下午三时")
-          at: IV, 37
-    - id: k2
-      t: The Soviet delegation hands Peng Zhen's delegation the CPSU Central Committee's letter, dated June 21, in seven parts (the era; war and peace; peaceful coexistence; forms of transition; international mass organizations; China's breaches of the Declarations; unity).
-      src: ['w.lengxi-shinian-lunzhan-1956-1966 281–283, 285', 'w.yang-jisheng-mubei II, 1150']
-    - id: k3
-      t: The same text had gone to the other parties as a "notification" on June 21, before the Chinese had it, by the Vietnamese, Korean and Albanian delegations' word.
-      src: ['w.lengxi-shinian-lunzhan-1956-1966 281–283, 285']
-    - id: k4
-      t: A draft communique follows, for discussion on the 24th.
-      src: ['w.lengxi-shinian-lunzhan-1956-1966 281–283, 285']
-    - id: k5
-      t: The delegation cables the points.
-      src: ['w.lengxi-shinian-lunzhan-1956-1966 281–283, 285']
-  src_open:
-    - 'w.westad-introduction 25'
-    - 'w.brothers-in-arms 381'
-    - 'via x.1963-07-05.records-cpsu-ccp-delegations'
-    - 'w.peng-zhen-nianpu-1902 IV, 37–38'
-  n: '(as now)'
-  tags: [polity:prc, name:peng-zhen, vis:only:prc+ussr, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia@k3.k4, vis:only:prc@k5]
-  time_range: ['1960-06-23T04:00Z', '1960-06-23T10:00Z']
-  time_band: morning
-  time_zone: Europe/Bucharest
+c: Bucharest, morning. The Soviet delegation hands Peng Zhen's delegation the CPSU Central Committee's letter, dated June 21, in seven parts (the era; war and peace; … unity). The same text had gone to the other parties as a "notification" on June 21, before the Chinese had it, by the Vietnamese, Korean and Albanian delegations' word. A draft communique follows, for discussion on the 24th. The delegation cables the points.
+src:
+  c: ec205ebb
+  rows:
+    - 'w.lengxi-shinian-lunzhan-1956-1966 281–283, 285: all'
+    - 'w.yang-jisheng-mubei II, 1150: B'
+    - 'w.westad-introduction 25: ?'
+tags: [polity:prc, name:peng-zhen, vis:only:prc+ussr, 'vis:only:prc+ussr+albania+…@C-D', 'vis:only:prc@E']
+variants:
+  - {unit: A, witness: w.peng-zhen-nianpu-1902, reads: '… at 3 p.m. on June 23', at: 'IV, 37'}
 ```
 
-The frame example, `cal.1960-02-10.cuba`, as the converter would write it (section 4: the frame over what surely leans on it; "Shown to Mikoyan." is about the cable, not Guevara's words, and stays outside):
+The line has five units, A to E. Yang Jisheng's row names B. One ruling names C and D, another E. The variant names A.
+
+Stored under 35f:
 
 ```yaml
-  c:
-    - frame: 'Alekseyev to Moscow:'
-      id: k1
-      src: ['w.fursenko-one-hell-of-a 38', 'via w.fursenko-one-hell-of-a 38 n.17']
-      claims:
-        - id: k2
-          t: Guevara, at his home, a few days after Castro's dinner of Feb. 3, says Cuba will ask Mikoyan for an enormous credit, $500 million the opening bid (Castro and Alekseyev had spoken of $100 million in November);
-          src: ['w.fursenko-one-hell-of-a 38', 'via w.fursenko-one-hell-of-a 38 n.17']
-        - id: k3
-          t: the Kremlin may announce it.
-          src: ['w.fursenko-one-hell-of-a 38', 'via w.fursenko-one-hell-of-a 38 n.17']
-        - id: k4
-          t: '"It is very important for Cuba to feel independent of the U.S. and to demonstrate it."'
-          src: ['w.fursenko-one-hell-of-a 38', 'via w.fursenko-one-hell-of-a 38 n.17']
-    - id: k5
-      t: Shown to Mikoyan.
-      src: ['w.fursenko-one-hell-of-a 38', 'via w.fursenko-one-hell-of-a 38 n.17']
-  tags: [name:guevara-ernesto, name:castro-fidel, name:mikoyan-anastas, vis:only:ussr+cuba, vis:only:ussr@k1, vis:only:ussr@k5]
+c: Bucharest, morning.{1} The Soviet delegation hands … unity).{2} The same text had gone … word. A draft communique follows, for discussion on the 24th.{3} The delegation cables the points.{4}
+src:
+  c: (the hash of the line above, cuts included)
+  rows:
+    - 'w.lengxi-shinian-lunzhan-1956-1966 281–283, 285: 1, 2, 3, 4'
+    - 'w.yang-jisheng-mubei II, 1150: 2'
+    - 'w.westad-introduction 25: ?'
+tags: [polity:prc, name:peng-zhen, vis:only:prc+ussr, 'vis:only:prc+ussr+albania+…@3', 'vis:only:prc@4']
+variants:
+  - {unit: 1, witness: w.peng-zhen-nianpu-1902, reads: '… at 3 p.m. on June 23', at: 'IV, 37'}
 ```
 
-(k4's place, inside the frame, is the converter's flag for a reader: it is a new sentence after the frame's first one; section 4.) A reader can then make Guevara's speech a frame of its own, nested, so that k3 and k4 keep their speaker, without changing a character of the page (the new frame takes the next free id, k6; no id moves):
+Four cuts, four parts. Part 1 is unit A. Part 2 is unit B. Part 3 is units C and D, which no row, ruling or variant tells apart. Part 4 is unit E. Wu Lengxi's `all` is written out as the four numbers, so that a sentence added later is not his.
+
+The page, before and after, is the same. It has three footnotes: one after "Bucharest, morning." (Wu Lengxi), one after the sentence on the letter (Wu Lengxi; Yang Jisheng), one at the end (Wu Lengxi, and the `?` rows). There is no mark between parts 3 and 4. Their sources are the same, and only a ruling tells them apart.
+
+### `cal.1960-02-10.cuba`
+
+Stored today:
 
 ```yaml
-    - frame: 'Alekseyev to Moscow:'
-      id: k1
-      claims:
-        - frame: Guevara, at his home, a few days after Castro's dinner of Feb. 3, says
-          id: k6
-          claims:
-            - {id: k2, t: 'Cuba will ask Mikoyan for an enormous credit, $500 million the opening bid (Castro and Alekseyev had spoken of $100 million in November);'}
-            - {id: k3, t: 'the Kremlin may announce it.'}
-            - {id: k4, t: '"It is very important for Cuba to feel independent of the U.S. and to demonstrate it."'}
+c: 'Alekseyev to Moscow: Guevara, at his home, a few days after Castro''s dinner of Feb. 3, says Cuba will ask Mikoyan for an enormous credit, $500 million the opening bid (Castro and Alekseyev had spoken of $100 million in November); the Kremlin may announce it. "It is very important for Cuba to feel independent of the U.S. and to demonstrate it." Shown to Mikoyan.'
+src:
+  c: 67d5a62d
+  rows:
+    - 'w.fursenko-one-hell-of-a 38: all'
+    - 'via w.fursenko-one-hell-of-a 38 n.17: all'
+tags: [name:guevara-ernesto, name:castro-fidel, name:mikoyan-anastas, vis:only:ussr+cuba, vis:frame:ussr, vis:only:ussr@D]
 ```
 
-(`src` left out of the last block for space.) k2 keeps its id though its `t` lost the words now in k6: the claim, Guevara's request, is the same claim (R22: rewording that leaves each claim's substance and sources unchanged is not a change).
+Four units. One ruling names D, "Shown to Mikoyan."
 
-## 3. Rendering, and the consistency rule
+Stored under 35f: two cuts, for that ruling.
 
-**The line.** `text(e)` joins the list: siblings with one space; a frame as its `frame`, a space, then its claims joined. Since every `t` carries its own punctuation, nothing else is added. The converter's invariant (section 4) is that `text(e)` equals today's `c` byte for byte, so the page renders `text(e)` exactly as it renders `c` now: the same renderer, links, titles, curled quotes, characters (cjk.py), first cites (works.py). Every tool that reads `c` as prose today (find, the Names' Life paragraphs, threads, the EPUB, the feeds, the daybook) reads `text(e)` (one accessor, `store.ctext(e)`, for the 110 places in 30 modules that now read `e["c"]`).
+```yaml
+c: 'Alekseyev to Moscow: Guevara, at his home, … (Castro and Alekseyev had spoken of $100 million in November); the Kremlin may announce it. "It is very important for Cuba to feel independent of the U.S. and to demonstrate it."{1} Shown to Mikoyan.{2}'
+src:
+  c: (the hash of the line above)
+  rows:
+    - 'w.fursenko-one-hell-of-a 38: 1, 2'
+    - 'via w.fursenko-one-hell-of-a 38 n.17: 1, 2'
+tags: [name:guevara-ernesto, name:castro-fidel, name:mikoyan-anastas, vis:only:ussr+cuba, vis:frame:ussr, 'vis:only:ussr@2']
+```
 
-**The spans** (vispage.py, STYLE 2, unchanged in method): each claim's `t` and each frame's `frame` rendered alone and found in order in the whole line, a span each, `data-u` its id (`k3`) for today's letter; the spaces outside the spans; a frame's span ahead of its first claim's, not around its claims, so the spans stay flat and the CSS and script stand. The fallback (one span, unmapped, where a piece rendered alone is not found) stays for the rare `t` that renders differently cut; the converter counts them.
+The page, before and after, is the same. One source supports the whole line, so there is one block and no mark. The visibility panel treats the four units as it does now. `vis:frame:ussr` is unchanged.
 
-**The footnote marks** (footnotes.py, STYLE 1): items in the order of the line, frames counted as items; a run of consecutive items with the same `src` closes with a mark inside the last claim's span (STYLE 6: a hidden claim takes its mark). A frame with no `src` of its own joins its first claim's run, as today, where frame and first claim are one unit. `src_open` goes to the last footnote, as `?` rows do now. Footnote text, *id*., first cites, STYLE 3–10: unchanged; they read sources, not letters.
+## (c) The cut in the file
 
-**Visibility.** A claim shows in full, greyed or hidden by its tags as now. A frame shows when any claim inside it shows (in full if any does, greyed if the best is greyed), and is hidden when all of them are; a frame with a ruling of its own (Alekseyev's report, `vis:only:ussr@k1`) is cut further by that ruling, as `vis:frame` cuts today.
+**The mark.** A cut is written `{3}`: a brace, the part's number, a brace. It stands directly after the last character of the part (its full stop or semicolon, or the closing quotation mark or bracket after that) and before the space. No entry's line holds a brace today, so the mark cannot be mistaken for prose.
 
-**The consistency rule** (the spouse: "How do you make sure the text of the claim is consistent with respect to the ellipses?"). A claim's *reading* is the texts of the frames that hold it, outermost first, then its `t`: "Alekseyev to Moscow: Guevara, ..., says the Kremlin may announce it." The rule: every claim's reading is a whole statement, and the readings together are the line. Four things keep it:
+**All or none.** A line has no cut, or it has one at the end of every part, the last part included. So a line with cuts ends in a cut.
 
-1. *The elided element is stored once.* "Rusk:" is in the frame, not repeated or implied in each claim; the reading is computed, never typed. Two claims cannot disagree about who spoke, and changing the frame changes every reading under it at once (an `edit-claim` on the frame: R22 for the frame's claim, section 4).
-2. *The cut is the splitter's.* `check` splits `text(e)` with today's splitter and requires exactly the stored pieces: each claim one unit, a frame's text at the head of its first claim's unit. No claim straddles a sentence or semicolon; none is a fragment the splitter would not make. A reader who wants a finer claim still writes a semicolon, now as two claims.
-3. *Leaning is declared, not guessed.* A claim that begins in lower case continues a sentence: it must follow a claim ending ";" (else an error). If its sentence's head is a frame, the frame holds it; if not (the head is an earlier claim's subject or verb, "Guevara ... says Cuba will ...; the Kremlin may announce it"), `check` warns `[claim-lean]` until a reader either makes the head a frame (section 2's nested example) or tags the entry `ok:claim-lean`. A capitalized sentence inside a frame is the reader's statement that it is the frame's; the converter puts none there unflagged (section 4).
-4. *Shown alone, a claim shows its reading.* Wherever a claim is printed outside the line (`./bib claims show`, a patch's `edit-claim` preview, an audit's row, a variant's head in a footnote), it is printed as its reading; one still leaning on an earlier claim (warned under 3) is printed with a leading ellipsis, "… the Kremlin may announce it.", so the elision is marked, never silently dropped.
+**Numbers.** A part's number is unique in its entry. It is never changed and never used again. A new part takes the highest number the entry has ever used, plus one. The numbers need not be in order along the line.
 
-On the page itself nothing changes: with every claim shown the line is today's line. With some hidden, the visible ones read through their frames, which stay while any claim of theirs is shown. What the page does not do yet: when the claims after a ";" are hidden, the visible one still ends ";" (as now). Mending that ("." in its place) is a script change on the page; left out (section 5).
+**When a part is cut in two.** Both halves take new numbers. The old number is recorded in the entry: `cut_from: {'5': '2', '6': '2'}` says parts 5 and 6 were cut from part 2. The merge rewrites every row, ruling and variant that named 2 to name 5 and 6. A reference to 2 from outside the entry (an auditor's file, a command) still resolves, to both.
 
-## 4. Migration
+**Loading and writing.** `store.py` takes the cuts out when it loads a calendar entry. In memory `c` is the plain line, and a second field, `cuts`, lists each cut's place in the plain line and its number. Every tool that reads `c` as prose reads what it reads now. When `store.py` writes the entry (`stored_form`), it puts the cuts back into `c` and leaves `cuts` out. The entry's rev, which a patch quotes as its `base`, is taken from the stored form, cuts included.
 
-**Order.** (1) One accessor, `store.ctext(e)`, and every reader of `c` as prose moved to it, while `c` is still a string: no data change, the tests green. (2) The converter, dry run first. (3) The tools reading both forms. (4) The trial year, the owner shown. (5) All 58,276 entries. (6) `check` refuses a string `c` on a calendar entry.
+**What a hand editor sees.** The line with its marks. The rule: leave a mark where it is; if you move the words it follows, move it with them; never delete one. `check` reports a number that a row names and the line lacks.
 
-**The converter** (`./bib claims convert [--year Y] [--dry-run]`, a module of its own). For each calendar entry:
+**What the commands print.** `./bib show ID` prints the entry as the file holds it, marks included, because an `edit` is copied from it. `./bib claims show ID` prints the parts one to a line, each with its number and its sources, and the units' letters beside them as labels only. `./bib find` searches the plain line.
 
-1. Split `c` by `claims.units()`, today's splitter; the pieces become claims `k1`, `k2` ... in order; the letters map A→k1, B→k2 ... Require `" ".join(pieces) == c`; an entry whose `c` does not rejoin (a double space, a stray break) is left a string and listed.
-2. `src`: each row parsed (`parse_row`); `all` puts the row's source on every claim; letters and runs on those claims; `?` into `src_open`. A stale map (its `c:` hash not `chash(c)`): converted by its letters as they stand and tagged `todo:claims-stale`, listed for a reader, since its letters may not fit; never re-guessed. An entry with no `src` (the mechanical map, 17,188) gets claims with no `src`: the mechanical map is then worked out claim by claim, as now unit by unit, and still never stored.
-3. `variants`: each to its claim by letter; one whose letter is past the last unit stays on the entry, listed (check already errors on it).
-4. Visibility tags: `@` letters and runs to ids (`@C-D` → `@k3.k4`); a letter past the end kept as is, listed.
-5. Frames, only where sure. A unit that opens with a head up to a colon (vis.py's `frame_text()`: outside quotation and parentheses, short, no link), followed by units beginning in lower case after a ";" (the same sentence): a frame, the head its `frame`, the rest of that unit and each such continuation its claims. Where `vis:frame:` is on the entry, the same, and the ruling becomes the frame's (`@k1`). A frame head followed only by new sentences (capital after "."): no frame unless `vis:frame:` is there; the next sentences stay outside, and the entry is listed in `notes/claims/frames.tsv` (entry, head, the next unit, a column for the reader's call). A head too long, with a link, or one of the note's labels ("Votes:"): no frame, listed. A lower-case continuation whose head is not a colon ("Guevara ... says X; Y"): no frame, `[claim-lean]` (section 3), counted. Of the 1,904 entries whose `c` opens "X:" (a rough count), most are one sentence and need no frame.
-6. Verify, entry by entry, before writing: `ctext(e)` equals the old `c`; each claim's sources equal the old unit's by the old map; each claim's visibility tags (vis.entry_claims) equal the old unit's; the footnotes' HTML equals the old. Any difference: the entry is not converted, and is listed.
-7. Write through store.py (field order kept: `c`, then `src_open` where `src` was).
+**Two kinds of id (35g, 1).** A part's id is digits: `3`. A claim's id, if the calendar ever takes atomic claims, is `a` and digits: `a3`. Nothing writes a claim's id now. The row grammar, the ruling's `@` and the variant's `unit` accept both forms from the start, so adding claims later changes no grammar.
 
-**The tools.**
-- claims.py: `units()` stays, as the splitter of check's rule 2 and the converter; `claims(e)` yields `(id, reading, t, frame ids, src)`; rows by id; `show` prints ids with the letters as labels; `seed` writes claim `src` lists.
-- footnotes.py: runs over claims instead of units (STYLE 1, 6); the rest unchanged.
-- vis.py: `RULE_RX`'s `@` takes ids (`k\d+` joined by "."); `vis:frame:` read as the frame's ruling; address (STYLE 5) reads the claim's reading, so a frame's names address its claims.
-- vispage.py: spans by claim and frame, `data-u` the id.
-- witnesses.py: the variant and `via` checks by claim.
-- addops.py, patchcheck.py, merge.py: the ops below.
+**A cut with nothing naming it (35g, 3).** Allowed. It changes no page: the footnote compile joins neighbouring parts whose sources are the same.
 
-**Patch ops.**
-- `add-claim: {id, after: k2 | before: k1 | end: k1 (a frame's end) | end, t, src, variants?}`: no base (R33a: a new claim from a source cited for it is added freely). The merge gives it the next id (the highest of the claims' and `retired`'s, plus one) and prints it; patch-check prints the id it would get; later ops of the same patch name it by a handle (`as: n1`).
-- `edit-claim: {id, claim: k3, base: <chash of its t>, t?, src?, kind: reword | correct}`: R22 applies to k3 alone. `correct` needs the settling record said in the note (the patch adds the sentence, "The Papers date it Aug. 26."); `reword` keeps `src`, and patch-check errors where a number, a date or a capitalized name in `t` changes (that is a `correct`). Two patches editing different claims of one entry merge without conflict; the same claim, two texts: a conflict on that claim, `{field: 'c#k3', ...}`, settled by `./bib resolve ID --field c#k3`.
-- `drop-claim: {id, claim, base, why}`: R22 as above; the id goes to `retired`.
-- `frame: {id, over: [k2, k3], t: 'Guevara, ..., says', from: k2}`: makes a frame over consecutive claims, moving `t` out of the head of `from`; patch-check requires `ctext(e)` unchanged (a frame is structure, not a change).
-- The present ops: `cite: {id, item, claims: [k1, k3]}` (`all` is expanded at patch-check to the ids at the patch's head, so it never covers a claim added later); `src: {id, claim, add}`; `variant: {id, claim, witness, reads, at}`; `to-check`, `check`, `names`, `also`, `follows`, `primary`, `place` unchanged.
-- An `add` (a new entry) may still give `c` as a string, and `src` rows with letters: the merge converts it (steps 1–5). A whole-entry `edit` giving `c` as a string (the eight NYT patches, written before the model) is accepted for the transition: the merge re-splits it and aligns with the claims at its base, unchanged pieces keeping their ids, a changed piece at its place keeping its id and reported as an `edit-claim` for an R22 look, new pieces new ids, lost ones retired. After the trial, patch-check refuses a string `c` in an `edit` of a converted entry and names the ops.
+**What `check` holds.** Marks well formed. Numbers unique in the entry. A line with any cut ends in one. A cut follows closing punctuation and is not inside a link, italics, a quotation or parentheses. No brace in a line other than a mark. Every number that a row, a ruling or a variant names is in the line. `src.c` matches the stored line.
 
-**The trial: 1960.** A year with report frames (Alekseyev's: 5 of the 20 `vis:frame` entries, 12 in 1960–61) and the eight NYT patches waiting to merge against it in the new form, so the trial runs the merge path too. Shown to the owner: the converter's counts and lists (not converted, stale, frames to settle, leaning), four entries' YAML before and after, and that the year's pages are byte for byte the same but for `data-u`. Then the rest of the calendar, a year at a time, each verified as in step 6.
+## (d) Patches
 
-**Per-claim checks** (new `check` rules, each with its bracketed name for `ok:`): `claim-ids` (unique `k\d+`, none retired reused), `claim-cut` (section 3, rule 2), `claim-lean` (rule 3, a warning), `claim-src` (each source a claim names is an item of `n` or a link of its `t`: today's problems() per claim), `claim-unmapped` (on a reader-mapped entry, a claim with no source and no `src_open`), `claim-refs` (every `@` id and variant's claim exists), `frame` (a frame holds at least one claim; its text has no space at either end).
+**Naming a part by its words.** A patch does not write numbers. It quotes the words (the entry and the page here are made up, to show the form):
 
-**Tests and goldens.** Unit tests for the converter: rejoin, letters to ids for `src`, `@` tags and variants, `src_open`, the frame cases (sure, doubtful, `vis:frame`, label, lean), the stale map. A property test (tests/property): for any `c` the splitter accepts, convert then `ctext` gives `c` back, and `units(ctext)` gives the claims. The fixture (tests/make_fixture.py) converted; the golden pages (tests/golden/expected) regenerated once, and the diff between old and new goldens must be `data-u` values only. Golden patches (tests/golden/patches) for `add-claim`, `edit-claim` (both kinds, and the R22 refusal), `drop-claim`, `frame`, two readers on two claims of one entry (no conflict), two on one claim (a conflict), and an old-form `edit`.
+```yaml
+- cite: {id: cal.1961-03-10.berlin, item: '[[w.beschloss-crisis-years]], 123', on: 'Moscow will send Zorin.'}
+```
 
-## 5. Risks and open questions, with the default taken
+`on:` holds the part's words, from its first to its last, as the line has them. A long part may be given by its first and last words with three dots between: `on: 'The same text … for discussion on the 24th.'` With no `on:`, the source is for the whole line as it stands when the patch merges.
 
-Nothing here blocks on the owner (CLAUDE.md; handoff 1g): each has the default the work proceeds on.
+`primary`, `variant` and `src` take `on:` the same way.
 
-1. *Claims are still sentences and clauses, not atomic facts* (the owner, Nov. 22: "is there any way to make the world look more like my fantastical world of atomic facts?"). The model stores what the splitter cuts today; a finer claim is a reader's split (`edit-claim` and `add-claim` in one patch), now cheap and safe because nothing else moves. Default: no forced atomization; readers split as they map.
-2. *The splitter's present mistakes are frozen* (a cut after an abbreviation not in its list). The page is unaffected, and `claim-cut` uses the same splitter, so the data stays consistent. Default: freeze; a reader mends one by `edit-claim` on the first piece and `drop-claim` on the second.
-3. *The doubtful frames* (an "X:" head followed by new sentences) may be many. Default: outside the frame, listed in notes/claims/frames.tsv, settled by readers as they pass (the `frame` op); the page reads the same either way, so only the standalone reading and the frame's visibility wait.
-4. *Longer YAML.* About 155,000 claims, each with `id` and `t`, and an `all` source repeated on every claim: a few MB more in lists/cal. Repeating is the point (a new claim is not covered by an old source). Default: always the list, even for one claim (one form for the tools); `./bib claims show` collapses repeats for reading. Alternative, if the files prove unwieldy: a string `c` on a calendar entry read as the single claim `k1`.
-5. *No hash.* A hand edit of a `t` that changes its substance is no longer flagged stale. Default: patches carry R22 (`edit-claim`'s base and kind); direct edits are the maintainer's, seen in the diff; no stored hash.
-6. *Ids out of order* after inserts, so no runs in `@` tags or `cite`. Default: explicit lists; letters shown as computed labels only.
-7. *A visible claim ending ";" when the claims after it are hidden.* Default: left as now (the Style and layout rule: change nothing the task does not touch); a later page change can print "." there.
-8. *`vis:frame:` and `vis:only:…@k1`* may not compute the same tags. Default: convert only where the vis goldens match; elsewhere keep `vis:frame:` as the frame's ruling.
-9. *Patches written before the model* (the eight NYT patches and any in inbox/). Default: kept unmerged, as the owner ruled, then merged through the transition path (section 4) after the trial year, each one's realignments reviewed as `edit-claim`s.
-10. *The reword test* (numbers, dates and capitalized names) will misfire on a capital that is no name ("the Senate" to "Senate"). Default: an error for numbers, dates and the entry's name-tag surnames; a warning otherwise.
-11. *Other lists and the threads' statements* keep a string `c`. Default: so; the model may extend to the Names' Life lines later if they get maps of their own.
-12. *Claim links across entries* (`[[cal.…#k3]]`) become possible; the stemma's `--unit B` becomes `--claim k3`. Default: the stemma's flag only; no link markup until asked.
-13. *Running the conversion while readers work.* Merges have no lock. Default: convert a year per commit with no reader or merge running (the owner's rule already holds readers until the model is in), then the waiting patches.
+**What `patch-check` requires.** The words are in the line, once (if twice, quote more). They begin at the start of the line, or after a cut, or after a sentence or semicolon clause ends. They end where a sentence or semicolon clause ends. They do not begin or end inside a link, italics, a quotation or parentheses. `patch-check` prints the parts the op will name, and any cut it will make.
+
+**What the merge does.** It finds the words again in the line as it then stands. If they are parts already, the row names them. If not, the merge makes the cut or cuts, gives the new parts numbers, rewrites the rows that named the part it cut, and records `cut_from`. If the entry had no cut, the merge first gives the whole line a cut at its end and rewrites every `all` to that number; so the old sources stay with the old words. If the words are no longer in the line, the op is not applied. The merge records a conflict on the entry (`{kind: anchor, op: …, from: …}`), and `./bib conflicts` lists it.
+
+**Adding words to an entry.** A new op, with no `base` (again made up, to show the form):
+
+```yaml
+- add-words: {id: cal.1963-10-01.china-leadership, after: 'Yang Shangkun attends.', words: 'Zhu De and Chen Yi are on the rostrum.', item: '[[w.zhu-de-nianpu-xinbian]], III, 1900'}
+```
+
+The merge puts the words after the place named (`after: end` for the end of the line), makes them a part of their own, and gives that part the source. No earlier source is made to support them. Two readers adding to one entry do not conflict.
+
+**An `edit` that changes the line.** It carries `base`, as now. Its new line keeps every cut of the base, each after the words it followed. If the new line has no marks, `patch-check` places each one after the same words where those words are unchanged, and asks the reader to place the rest. Section (e) says what else an `edit` must state.
+
+**A row or a variant that names a field (35g, 2).** An entry's date, time and place are facts with no words in the line. A source for one of them names the field:
+
+```yaml
+- cite: {id: cal.1960-06-23.soviet-union, item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 285', on: time}
+- variant: {id: cal.1960-06-23.soviet-union, field: time, value: '15:00', witness: w.peng-zhen-nianpu-1902, reads: 'at 3 p.m. on June 23', at: 'IV, 37'}
+```
+
+The fields are `date`, `time` (whichever time field the entry has) and `place`. Stored, the row reads `'w.lengxi-… 285: time'`, and the variant has `field:` where another has `unit:`. `check` requires that the entry has the field. A field takes no footnote mark. A source cited only for a field is printed in the entry's first footnote, where the day's label is printed now (`claims.py`, STYLE 7), or in the block where the entry has no footnotes.
+
+**Letters.** A patch written before this change may still name letters, but only with `base:` the entry's rev (section (f), 1).
+
+## (e) R22 from the difference
+
+`patch-check` compares the base line with the new line, part by part. An entry with no cut is one part.
+
+- A part whose words are the same: nothing to state.
+- New words, set off as a part of their own with a source (`add-words`, or an `edit` followed in the same patch by an op that names the new words with `on:`): an addition. Free.
+- A part whose words changed: the `edit` states `kind: reword` or `kind: correct`.
+  - `reword`: `patch-check` requires that no number, no date and no tagged person's name in the part changed. The part's sources stay.
+  - `correct`: the patch adds to the note the sentence that names the settling record ("The Papers date it Aug. 26.").
+- A part removed: `kind: correct`, with the same sentence.
+
+The reader's brief, a sentence each:
+
+- **R22.** For "A unit already in an entry (a claim of `c`, as the claim map divides it, R34) changes only where a record settles it beyond doubt": "A part already in an entry (the words between two cuts, R34; the whole line where it has no cut) changes only where a record settles it beyond doubt". For "A new unit, from a source cited for it, is added freely (R33a)": "New words, from a source cited for them, are added freely as a part of their own (R33a)". Added at the end: "State which in the edit: `kind: reword` or `kind: correct`."
+- **R33**, second case. For "it bears out part: pin it with the parenthetical (and the letters, R34)": "it bears out part: pin it and name the part by its words (`on:`, R34)".
+- **R33a.** For "put it into `c`: an `edit` at the patch's head (fresh base) … the claim map renewed (R34), the source cited for the units it bears": "put it into `c` with `add-words`: the words, where they go, and the source, which is then cited for those words alone". For "or where its pinpoint bears on part only": nothing; those words go.
+- **R34.** The whole rule: "The claim map. A source is cited for the whole line or for a part of it. Name a part by its words: `cite: {id, item, on: 'first words … last words'}`. The words end where a sentence or a semicolon clause ends. A source for the date, the hour or the place names the field (`on: time`). `./bib claims show ID` prints the parts. Keep the rows other runs wrote. Read the footnotes `./bib claims show ID --inline` makes, in a scratch copy with your patch merged."
+- **R35.** For "The map ties it to its units by a `via` row: `via x.1965-02-07.bundy-to-johnson: B, E`": "The map ties it to its parts by a `src` op: `{id, row: 'via x.1965-02-07.bundy-to-johnson', on: '…'}`". For "`./bib stemma ID [--unit B]`": "`./bib stemma ID [--part 3]`". For "the additive `variant` op ({id, unit, witness, reads, at})": "the additive `variant` op ({id, on or field, witness, reads, at})".
+- **R41.** For "each reading against its unit, in the witness's words, with its page": "each reading against its part, named by its words, or against the field it disputes (`field: time`, with `value:` the reading in the field's form), in the witness's words, with its page".
+
+CLAUDE.md, the patch ops: `cite: {id, item, on}` for `cite: {id, item, units}`, and `add-words` added to the list.
+
+## (f) Before the conversion, and the conversion
+
+Three passes come first. Each changes some pages, and each lists the entries whose pages change. They are done first so that the conversion itself changes no page.
+
+1. **The letter ops made safe.** Today `cite`, `primary` and `variant` take letters with no `base`. If the line changed after the reader looked, the letters name other words and nothing reports it. From this pass an op that names letters must carry `base:`, and the merge refuses it if the entry's rev differs. No page changes.
+2. **The stale maps.** 1,048 readers' maps were made against a line that has since changed. Their entries are shown as one block. For each, find in git history the line whose hash the map records. Match the old units to the present ones by their text. A row keeps a unit that is unchanged. A row keeps a unit whose words changed, and the entry is listed for a reader. A row does not take a unit that is wholly new; so an `all` becomes the letters of the old units. Write the new hash. Entries that regain footnotes are listed.
+3. **A work's page and its note, one source.** A row for a page (`w.x 88`) and a row for a note on that page (`via w.x 88 n.32`) are printed as one citation. Today they still count as two sources when the build compares neighbouring units, and so they can put a mark between two units. From this pass they count as one for that comparison. The registry keeps the two rows apart. By one measure 489 entries lose their only mark; the pass lists them.
+
+**The conversion.** One year at a time, with no reader and no merge running.
+
+- It touches only an entry in which a stored row, a visibility ruling or a variant names letters short of all.
+- It compares each pair of neighbouring units. Where the rows, rulings or variants that name the two units differ, it writes a cut between them. It writes a cut at the end of the line.
+- It numbers the parts 1, 2, 3 in order.
+- It rewrites letters to numbers in the rows, the rulings (`@C-D` to `@3`; several numbers joined by a dot, `@3.4`) and the variants. In a converted entry it writes `all` out as the numbers.
+- It writes the new hash.
+
+**Two proofs, for each year.**
+
+1. Unit by unit, every entry has the same sources, the same rulings and the same variants before and after.
+2. The year's pages are the same, byte for byte.
+
+An entry that fails either proof is not converted. It is listed.
+
+## (g) Display questions, kept apart from all of the above
+
+None of these is part of 35f. Each changes what the page prints. Each is to be shown in a preview built from the site's own HTML and CSS, with every departure listed, before it is merged. The default I would take is given for each.
+
+1. **Sources that every footnote of an entry shares.** Today, where three or more are shared, the build drops the footnotes and shows one block (STYLE 8, "block"). 516 entries are in that state; their part-by-part sources are not on the page. The choices: (i) "block", as now; (ii) "first": the shared sources in note 1, and later notes opening "Sources cited *supra* note 1" (as coded, this also claims note 1's own sources for the later notes, and would need mending); (iii) the shared sources printed once, unnumbered, ahead of the numbered notes, as an entry with no footnotes prints its block now; the numbered notes then hold only what is particular to their passage, and a passage with nothing particular has no mark. Default: (iii). Until the owner has seen the preview, "block" stays.
+2. **A footnote the same as an earlier one of its entry.** 856 entries print one. Default: "*See supra* note 1." If 1 (iii) is taken, most of these go.
+3. **The `?` rows.** 19,941 rows, in 13,778 entries, are sources whose part no reader has placed. Today they are printed in the entry's last footnote, as if they supported the last passage. Default: print them after the numbered footnotes, each with the parenthetical it has in the note. Give the placing of them to the pass that goes back over the notes.
+4. **Variants in footnotes.** Today no page prints a variant; the reader sees the note's "Check: … gives …". Default: no change now. A preview of the variant in its part's footnote, after "*But see*", for the owner to judge.
+5. **Marks and footnotes when the visibility panel hides text.** (i) A mark is inside the last unit of its passage. If that unit is hidden and earlier units of the passage are shown, the mark is hidden too. Default: the script moves the mark to the passage's last shown unit. (ii) When every unit of a passage is hidden, its footnote is still shown below, numbered, with no mark in the text. Default: hide that footnote; grey it when the passage is greyed. (iii) The EPUB has no panel and shows every unit in full. Default: leave it.
+
+One more, a change to the build and not to the design: marks and visibility spans are placed by rendering each unit alone and searching for it in the rendered line. Where the search fails, the entry is shown as a block. Default: after the conversion, pass a private mark through the renderer at each unit's end and place on that. Entries that regain footnotes are listed.
+
+## (h) The order of work
+
+Each step has its test and what can go wrong.
+
+1. **Make the letter ops safe** (section (f), 1). Test: a golden patch whose `base` is out of date is refused. Can go wrong: nothing waits on letters; the eight NYT patches name none.
+2. **Rebase the stale maps** (section (f), 2). Test: the count of stale maps is zero or a short list; the entries whose pages change are listed. Can go wrong: the clone is shallow and history does not reach the old line (fetch the full history first); a line was changed twice and the hash matches no commit (list it; a reader maps it again).
+3. **A page and its note as one source** (section (f), 3). Test: a unit test of the comparison; the page difference is exactly the listed entries. Can go wrong: a note that supports a different unit from its page loses its mark on the page; the registry still holds the difference.
+4. **`store.py`: cuts out on load, back on write; `cuts` and `cut_from`; the `check` rules of section (c).** Test: load and write every calendar file and get the same bytes; no built page holds a brace mark; revs unchanged for entries without cuts. Can go wrong: a tool that sets `c` directly drops the cuts (`merge.py`'s combine, `importer.py`, `works.py` set it today); give them one function to set the line and its cuts together.
+5. **`claims.py`: a row's target as part numbers and fields; numbers turned into units for everything downstream.** Test: for an entry and its converted copy, `resolve()` gives the same sources for every unit. `footnotes.py` needs no change.
+6. **`vis.py`, `witnesses.py`, `addops.py`, `cli.py`:** the ruling's `@` takes numbers; a variant's `unit` takes a number, or the variant has `field`; `claims show` prints parts; the stemma takes `--part`. Test: the visibility goldens unchanged on a converted fixture.
+7. **The converter, dry run, on 1960.** Test: the two proofs of section (f). Shown to the owner: the counts, the list of entries not converted, four entries before and after.
+8. **The patch ops** (section (d)): `on:`, the merge's cut, `cut_from`, `add-words`, an `edit` keeping its cuts, the two kinds of edit, the anchor conflict. Test: golden patches for each; two readers adding to one entry merge without conflict; an op whose words are gone becomes a conflict. Can go wrong: two merges at once (merges have no lock; one at a time, as now).
+9. **The briefs**: R22, R33, R33a, R34, R35, R41 as in section (e); CLAUDE.md's patch ops; `notes/guide/brief.md` and `changing.md`. Readers and auditors may start again after this step.
+10. **Convert 1960 for real, then each later year**, each with its two proofs. Then `check` refuses letters in a stored row, ruling or variant.
+11. **The display previews** of section (g), each on its own.
+12. **The trial of atomic claims** (35g): February 1960, written to a side file, after the first converted year.
+
+What can go wrong across the whole:
+
+- A hand edit deletes or misplaces a cut. `check` reports a missing number. It cannot report a cut moved to the wrong words; the stale hash reports that the line changed.
+- A reader rewrites a line and moves words from one part into another. `patch-check` shows each changed part with its sources and asks for the kind of edit. A reader can still answer wrongly; the audit reads those answers.
+- Braces come into use in prose. `check` forbids them in a calendar line.
+- The rule for finding units is changed later. No stored number moves. A mark that the build computes from units (a link in the line; the day's label) can move, as it can today.
