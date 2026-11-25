@@ -425,7 +425,7 @@ def problems(series):
             if kind is None:
                 errors.append((e["id"], f"src row does not parse: {r!r}"))
                 continue
-            if u is None or (u != "?" and not u <= set(letters(n_units))):
+            if u is None or (u != "?" and not u <= set(letters(n_units)) | set(FIELDS)):
                 errors.append((e["id"], f"src row names a unit the entry lacks ({n_units} units): {r!r}"))
                 continue
             if item is None:

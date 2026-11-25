@@ -263,6 +263,10 @@ def apply_patch(series, patch, source, report, dry=False):
     sections touched (written only when no op errored)."""
     touched = set()
     ops = patch.get("ops") or []
+    for op in ops:                           # YAML reads a bare `on:` as true: read back as the key (addops STYLE 9)
+        for body in op.values() if isinstance(op, dict) else []:
+            if isinstance(body, dict) and True in body:
+                body["on"] = body.pop(True)
     ops = [o for o in ops if "add" in o] + [o for o in ops if "add" not in o]   # adds first (tools/bib/addops.py)
     ops = [o for o in ops if "place-key" in o] + [o for o in ops if "place-key" not in o]   # the gazetteer's rows first
     from . import places as _places

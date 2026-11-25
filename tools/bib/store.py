@@ -302,8 +302,9 @@ def as_list(v):
     return v if isinstance(v, list) else [v]
 
 
-def normalize_entry(e):
-    """Coerce hand-edited values into the canonical shape and order."""
+def normalize_entry(e, marks=False):
+    """Coerce hand-edited values into the canonical shape and order. `marks`: the entry is in its stored form, on its
+    way to the file, and a calendar line's cut marks stay in it (tools/bib/cuts.py, STYLE 5)."""
     if "date" in e and isinstance(e["date"], (datetime.date, datetime.datetime)):
         e["date"] = e["date"].isoformat()
     if "date" in e and isinstance(e["date"], int) and not isinstance(e["date"], bool):
@@ -316,7 +317,7 @@ def normalize_entry(e):
     for k in ("c", "work"):
         if isinstance(e.get(k), list) and len(e[k]) == 1:
             e[k] = e[k][0]
-    if isinstance(e.get("c"), str) and "{" in e["c"] and str(e.get("id") or "").startswith("cal."):
+    if not marks and isinstance(e.get("c"), str) and "{" in e["c"] and str(e.get("id") or "").startswith("cal."):
         from . import cuts as _cuts        # a calendar line's cut marks, out of the line (tools/bib/cuts.py, STYLE 5)
         plain, ks = _cuts.strip(e["c"])
         if ks:
@@ -543,7 +544,7 @@ class Series:
         path = os.path.join(self.root, "lists", lst.key, sec.file)
         head = [f"{lst.abbr} {sec.code or ''} {sec.title}".replace("  ", " ").strip(),
                 "Entries in display order. See CLAUDE.md for the fields. Run ./bib check after editing."]
-        entries = [normalize_entry(stored_form(e)) for e in sec.entries]
+        entries = [normalize_entry(stored_form(e), marks=True) for e in sec.entries]
         loaded = getattr(sec, "_disk", None)
         if loaded is not None:
             now = file_digest(path)

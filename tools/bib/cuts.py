@@ -33,6 +33,11 @@ STYLE
     them in the line as it then stands (locate), readies the entry (ensure), and cuts where it must (name).
 10. `add-words` puts new words into the line as a part of their own (add_words), with their own source: no earlier
     source is made to support them, and two readers adding to one entry do not conflict.
+11. R22 from the difference (edit_problems; patch-check): an `edit` that only adds sentences or clauses states
+    nothing. One that changes or removes words already in the line states `kind: reword` (no number, no date and no
+    tagged person's name changes) or `kind: correct` (the same edit adds to the note the sentence that names the
+    settling record). The comparison is unit by unit: a sentence or clause found word for word in the new line is
+    unchanged.
  7. Two kinds of id (35g, 1): a part's is digits, `3`; a claim's, if the calendar takes atomic claims, `a3`. Only parts
     are marked in a line; the grammars that name them (a row, a ruling's `@`, a variant's `unit`) take both (ID).
 """
@@ -358,6 +363,50 @@ def carry(old_c, old_cuts, new_c):
         else:
             lost.append(num)
     return sorted(out, key=lambda x: x[0]), lost
+
+
+# ---------------------------------------------------------------- R22 from the difference (patch-check)
+
+MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec")
+
+
+def _facts(texts, names):
+    """The numbers, the months and the tagged persons' names in some units: what a rewording may not change."""
+    s = " ".join(texts)
+    out = collections.Counter(re.findall(r"\d[\d,.:]*\d|\d", s))
+    out.update(m for m in re.findall(r"[A-Z][a-z]+", s) if m.rstrip(".") in MONTHS or m in names)
+    return out
+
+
+def edit_problems(old, new_line, body, names=()):
+    """What an `edit` that changes a calendar line must state (R22; STYLE 11), as messages. `old`: the entry the edit
+    was made against; `new_line`: its new `c` as the patch writes it; `body`: the op; `names`: the surnames of the
+    persons the entry tags."""
+    new_c = strip(new_line)[0]
+    olds, news = claims.units(old.get("c") or ""), claims.units(new_c)
+    if olds == news:
+        return []
+    kept = [u for u in olds if u in news]
+    was = [u for u in olds if u not in news]              # units changed or removed
+    now = [u for u in news if u not in olds]              # units changed or new
+    if not was:
+        return []                                         # only new words: an addition (R33a), free
+    kind = body.get("kind")
+    if kind not in ("reword", "correct"):
+        return ["the edit changes words already in the line: state kind: reword (the same facts in other words) or "
+                "kind: correct (a record settles it; R22). New words alone need neither: add them with add-words"]
+    if kind == "reword":
+        a, b = _facts(was, names), _facts(now, names)
+        if a != b:
+            diff = sorted(set((a - b) + (b - a)))
+            return [f"kind: reword, but a number, a date or a tagged person's name changes ({', '.join(diff)[:120]}): "
+                    "that is kind: correct, with the sentence in the note that names the settling record (R22)"]
+        return []
+    n = (body.get("set") or {}).get("n")
+    if not isinstance(n, str) or n.strip() == (old.get("n") or "").strip():
+        return ["kind: correct: the same edit adds to the note the sentence that names the settling record "
+                "(\"The Papers date it Aug. 26.\"; R22)"]
+    return []
 
 
 # ---------------------------------------------------------------- from letters to cuts (tools/claims/convert.py)

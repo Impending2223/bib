@@ -55,7 +55,8 @@ STYLE
     line as it stands at the merge: `all` where the line has no cut, else the numbers of its parts. Words no longer
     in the line: at patch-check an error; at the merge the op is not applied, and the entry takes a conflict
     `{kind: anchor, op, why, from}` (./bib conflicts; settled by naming the part afresh, then ./bib resolve ID
-    --take keep).
+    --take keep). YAML reads a bare `on` as the truth value; the merge reads it back as the key, so it need not
+    be quoted.
 10. `add-words: {id, after: 'Yang Shangkun attends.', words: 'Zhu De and Chen Yi are on the rostrum.', item:
     '[[w.card]], III, 1900'}` puts the words into the line after the place named (`after: end` for the end), a part
     of their own, cited to the item alone (cuts.py, STYLE 10; R33a). No base: two readers adding to one entry do not
