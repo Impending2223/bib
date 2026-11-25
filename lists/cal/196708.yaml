@@ -77,6 +77,12 @@ entries:
     c: Morning, in Lady Bird Johnson's "Board of Directors Room," a session on the LBJ Library with Max Brooks, Gordon Bunshaft, Horace Busby, Arthur Drexler and Dorothy Territo, at President Grant's Cabinet table.
     n: '[[w.johnson-white-house-diary]], 550. Names: Lady Bird Johnson, Busby.'
     tags: [name:johnson-lady-bird, name:busby-horace]
+    time_range:
+      - 1967-08-01T10:00Z
+      - 1967-08-01T16:00Z
+    time_band: morning
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1967-08-01.china-leadership
     when: Aug. 1
     date: '1967-08-01'
@@ -387,6 +393,12 @@ entries:
     c: 'Afternoon, Shanghai. Mao hears Yang Chengwu, back from Peking, relay what Lin Biao, Zhou Enlai and the Group need instruction on. On the staffing of the Wuhan, Shenyang, Jiangxi and Henan commands and some field and air units: the Cultural Revolution is good for knowing cadres; cadres are mostly good; "one pull, three beat down" is not reasonable; the courts and police have good men. Staff, rear-service, navy and air corps to send investigation teams of seven or eight to Hunan, Jiangxi, Anhui; Anhui the key; call them to Peking.'
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 3, 1967. Made public: 2013. Names: Mao Zedong, Yang Chengwu, Lin Biao, Zhou Enlai.'
     tags: [name:mao-zedong, name:lin-biao, name:zhou-enlai, polity:prc, vis:only:prc, name:yang-chengwu]
+    time_range:
+      - 1967-08-03T04:00Z
+      - 1967-08-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-08-03.china-leadership-4
     when: Aug. 3, 5
     date: '1967-08-03'
@@ -997,6 +1009,12 @@ entries:
     c: 'Zhou Enlai, in the evening, receives Hunan''s delegates to Peking: seizing guns at random is unlawful; an error by the PLA in supporting the Left does not make it a black command; such disrespect for the field armies amounts to wanting no leadership and is anarchist. On transport: all bodies must unite on grasping revolution and promoting production; if transport stops the arteries are cut and the people''s livelihood suffers.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 172–173 (Aug. 6, 1967, the item after). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-08-06T11:00Z
+      - 1967-08-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-08-06.china-leadership-3
     when: Aug. 6
     date: '1967-08-06'
@@ -1211,6 +1229,8 @@ entries:
     date: '1967-08-07'
     thread: press-and-broadcasting
     also: [vietnam]
+    follows:
+      - cal.1967-08-07.vietnam
     c: Johnson, having read Apple's story on the stalemate, tells his aides Apple is "a Communist" and "a threat to national security."
     n: '[[w.mann-grand-delusion]], 547 (quoting it). Check: the day; Mann: after Johnson read the story. To check: [[w.dallek-flawed-giant]], 475 (cited by [[w.mann-grand-delusion]], 547 n.21). See [[cal.1967-08-07.vietnam]]. Names: Johnson, Apple.'
     src:
@@ -1385,10 +1405,8 @@ entries:
     date: '1967-08-08'
     thread: vietnam-congress
     also: [economy-surcharge, vietnam-air-war]
-    follows:
-      - cal.1967-08-08.vietnam-congress
     c: 'Johnson with Democratic congressmen, for the tax bill, by Tom Johnson''s notes: "There is no stalemate"; "The kill ratio is 10 to 1." Wolff of New York: "Nobody sees the light at the end of the tunnel"; he cites Ford on the bombing. Johnson: "We are taking out half of the infiltration with our bombing, some reports show"; doing what Ford asks would mean "a war with China tonight"; "I believe in civilian government"; of 242 targets the Chiefs proposed, all but the 39 in the buffer zone along China''s border authorized; "The generals are ready to bomb there but I''m not"; Hanoi bombed within half a mile of Hồ''s house.'
-    n: '[[w.berman-lyndon-johnsons-war]], 60, 71. Order: after Ford''s speech in the House that day, which Wolff cites. To check: Tom Johnson''s notes of the meeting of Aug. 8, 1967, LBJ Library (quoted by [[w.berman-lyndon-johnsons-war]], 71). See [[cal.1967-08-08.vietnam-congress]]. Names: Johnson, Wolff, Ford, Hồ Chí Minh, Tom Johnson.'
+    n: '[[w.berman-lyndon-johnsons-war]], 60, 71. To check: Tom Johnson''s notes of the meeting of Aug. 8, 1967, LBJ Library (quoted by [[w.berman-lyndon-johnsons-war]], 71). See [[cal.1967-08-08.vietnam-congress]]. Names: Johnson, Wolff, Ford, Hồ Chí Minh, Tom Johnson. Check: the day: [[w.gibbons-u-s-government-and]], IV, 800, puts Johnson''s words "I am not going to do what Ford says, because we would be in a war with China tonight" at a briefing for House Democrats "the next day," Aug. 9, by Tom Johnson''s notes of Aug. 9; Berman, 60, 71, gives the same words on Aug. 8. The two entries may be one meeting, that of Aug. 9, 9:02 a.m.'
     src:
       c: c90e5e39
       rows:
@@ -1923,7 +1941,7 @@ entries:
     place: washington
     thread: vietnam-congress-republicans
     c: 'Javits in the Senate: "an imperative need to reassess our commitment";{1} the momentum threatens "a full-blown colonial venture."{2} South Vietnam''s elections to begin the end of the commitment; the bombing ended or held to the routes near the DMZ.{3} Clark welcomes him "to the ranks of the ''nervous nellies'' and the ''doves.''" Case: "is the Johnson administration blind to the signs of growing public unrest?"{4} McGovern: the 45,000 more "perhaps the most significant—turning point," taking the country "more deeply into the war."{5}'
-    n: '[113 Cong. Rec. 22355](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=8) (Aug. 11, 1967). [113 Cong. Rec. 22352](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=5) (Aug. 11, 1967) (Clark). [113 Cong. Rec. 22,348 ff.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=1); [22362–64](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=15) (Senate, Aug. 11, 1967). [[w.gibbons-u-s-government-and]], IV, 758–59. [[w.mann-grand-delusion]], 554. The Senate sat from noon to 6:28 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=1), [D410](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=408). Names: Javits, Clark, Case, McGovern.'
+    n: '[113 Cong. Rec. 22355](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=8) (Aug. 11, 1967). [113 Cong. Rec. 22352](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=5) (Aug. 11, 1967) (Clark). [113 Cong. Rec. 22,348 ff.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=1); [22362–64](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=15) (Senate, Aug. 11, 1967). [[w.gibbons-u-s-government-and]], IV, 758–59. [[w.mann-grand-delusion]], 554. The Senate sat from noon to 6:28 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=1), [D410](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=408). Check: Case''s question is from his own speech on the troops, recognized under the order of business after Kennedy''s and Young''s (113 Cong. Rec. 22,362), the Case and Cooper entry of this day, not from the Javits debate; McGovern''s words (22,355) come in Kennedy''s time. Names: Javits, Clark, Case, McGovern.'
     src:
       c: d4a9eca5
       rows:
@@ -2100,10 +2118,12 @@ entries:
     date: '1967-08-11'
     place: washington
     thread: vietnam-congress-republicans
-    c: 'Case and Cooper in the Senate on the 45,000 more troops: the South Vietnamese must do more. Case: "is the Johnson administration blind to the signs of growing public unrest about Vietnam? Is it deaf to the continuing advice of Members of Congress?"'
-    n: '[[w.gibbons-u-s-government-and]], IV, 758. The Senate sat from noon to 6:28 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=1), [D410](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=408). To check: [113 Cong. Rec. 22,362–64](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=15) (Senate, Aug. 11, 1967) (cited by [[w.gibbons-u-s-government-and]], IV, 758 n.134). See [[cal.1967-08-11.vietnam-congress]]. Names: Case, Cooper.'
+    follows:
+      - cal.1967-08-11.robert-kennedy
+    c: 'Case and Cooper in the Senate on the 45,000 more troops: the South Vietnamese must do more. Case: "is the Johnson administration blind to the signs of growing public unrest about Vietnam? Is it deaf to the cautionary advice of Members of Congress?"'
+    n: '[[w.gibbons-u-s-government-and]], IV, 758. The Record reads "cautionary advice" ([113 Cong. Rec. 22,362](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=15)); Gibbons, 758, "continuing advice." After [[cal.1967-08-11.robert-kennedy|Robert Kennedy]]: the Record prints Case''s speech, recognized under the order of business, after Kennedy''s speech and its colloquy (22,352–60) and Young''s on the antiballistic missile (22,360–62). The Senate sat from noon to 6:28 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=1), [D410](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=408). To check: [113 Cong. Rec. 22,362–64](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=15) (Senate, Aug. 11, 1967) (cited by [[w.gibbons-u-s-government-and]], IV, 758 n.134). See [[cal.1967-08-11.vietnam-congress]]. Names: Case, Cooper.'
     src:
-      c: 3d98ee37
+      c: 9f9f0456
       rows:
         - 'w.gibbons-u-s-government-and IV, 758: all'
         - 'via x.1967-08-11.113-cong-rec-22362-64-https: all'
@@ -2302,6 +2322,12 @@ entries:
     c: 'Zhou Enlai, before dawn, receives the delegates of Jiangxi''s two factions and the Jiangxi Military District''s heads: the pro-army liaison station may not be set up inside the Region and must move out at once; the Center has not called a third great linking up.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 174 (Aug. 12, 1967). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-08-11T16:00Z
+      - 1967-08-11T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-08-12.china-leadership-4
     when: Aug. 12
     date: '1967-08-12'
@@ -2669,6 +2695,12 @@ entries:
     c: 'Zhou Enlai, before dawn, receives delegates of Guangzhou''s mass bodies on public order and criticizes the Guangzhou Railway "General Command" for storming the airport on the 12th, seizing a navigation station and taking the militia''s guns: no side may take arms; with public security paralyzed, what if Hong Kong agents come in?'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 175 (Aug. 14, 1967). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-08-13T16:00Z
+      - 1967-08-13T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-08-14.china-leadership-3
     when: Aug. 14
     date: '1967-08-14'
@@ -3239,6 +3271,12 @@ entries:
     c: Zhou Enlai, before dawn, receives the Guangzhou delegates again and hears their proposals for a settlement.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 175 (under Aug. 14, 1967). Made public: 2020. See [[cal.1967-08-14.china-leadership-2]]. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-08-15T16:00Z
+      - 1967-08-15T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-08-16.china-leadership-5
     when: Aug. 16
     date: '1967-08-16'
@@ -4541,8 +4579,10 @@ entries:
     date: '1967-08-22'
     place: washington
     thread: middle-east
+    follows:
+      - cal.1967-08-22.middle-east-2
     c: 'State dinner for the Shah of Iran, the Empress at home. Johnson''s toast: "I must add special congratulations on Your Majesty''s superb sense of timing. You have had the foresight to schedule your coronation when your polls are up." The Shah: women have gained "even equality in wearing a crown." The American Ballet Theater dances Rodeo in the East Room. David Lilienthal tells Lady Bird Johnson, "something like" this: "A very persuasive man has put me to work on Vietnam."'
-    n: '[[w.johnson-white-house-diary]], 560–63. To check: the Public Papers, 1967, Aug. 22. Names: Pahlavi, Johnson, Lady Bird Johnson, Lilienthal.'
+    n: '[[w.johnson-white-house-diary]], 560–63. After [[cal.1967-08-22.middle-east-2|the arrival]]: Lady Bird Johnson''s diary has the arrival "almost on the dot of 5," then Johnson''s talk with the Shah in the office, then the State Dinner ([[w.johnson-white-house-diary]], 559–60). To check: the Public Papers, 1967, Aug. 22. Names: Pahlavi, Johnson, Lady Bird Johnson, Lilienthal.'
     tags: [name:pahlavi-mohammed-reza, name:johnson-lyndon-b, name:johnson-lady-bird, name:lilienthal-david-e]
   - id: cal.1967-08-22.china-leadership
     when: Aug. 22
@@ -5047,6 +5087,12 @@ entries:
     c: 'Zhou Enlai, before dawn, receives the two factions of Guangxi come to Peking and severely criticizes the seizing of military supplies for Vietnam and factional armed fights: stop the "civil war" at once, seal and hand in arms, keep the railways open. Look how the civil war has gone: the railways fought over section by section are worse than the old warlord wars, and cannot be borne; attacking railways and taking field-army guns is nothing of the Cultural Revolution; the slogan "drag out the handful in the army" turns the spearhead.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 178 (Aug. 24, 1967); [[w.yang-jisheng-tiandi-fanfu]], I, 505 (the Central leaders'' fifth reception of the Guangxi delegates; Zhou: the Military District erred in supporting the left and now backs the "4·22"; three steps, stop fighting, seal arms, welcome back the expelled; to the "4·22": "you are fine rebels ... but to drag Wei Guoqing out of the Jingxi Hotel and beat him went too far"; the Workers'' Headquarters'' heads Xiong Yijun 熊一軍 and Ding Youyi 丁友儀 to be freed). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-08-23T16:00Z
+      - 1967-08-23T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-08-24.china
     when: Aug. 24
     date: '1967-08-24'
@@ -5370,6 +5416,7 @@ entries:
         witness: w.dikotter-cultural-revolution
         reads: Aug. 23, 1967 (Zhou sends Mao a copy of Wang Li's speech the day after the burning of the British mission)
         at: 162 n.32
+    time_zone: Asia/Shanghai
   - id: cal.1967-08-25.china-leadership-4
     when: Aug. 25
     date: '1967-08-25'
@@ -5378,6 +5425,12 @@ entries:
     c: Jiang Qing, against Zhou Enlai's wish that Song Renqiong go back to work in Liaoning, has rebels burst at night into the Jingxi Hotel to seize Song Renqiong and Chen Xilian, threatening to "beat them to death". Zhou, told of it, has Fu Chongbi take men to rescue them, and has them moved.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 178 (Aug. 25, 1967, the item after). Made public: 2020. Names: Zhou Enlai, Jiang Qing, Song Renqiong, Chen Xilian, Fu Chongbi.'
     tags: [name:zhou-enlai, name:jiang-qing, name:chen-xilian, polity:prc, vis:only:prc, name:fu-chongbi, name:song-renqiong]
+    time_range:
+      - 1967-08-25T14:00Z
+      - 1967-08-25T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-08-25.china-leadership-5
     when: Aug. 25
     date: '1967-08-25'
@@ -5503,6 +5556,12 @@ entries:
     c: Zhou Enlai, at dawn, receiving Liaoning's delegates, criticizes the seizure of Song Renqiong and Chen Xilian as "the style of Kuomintang agents", and asks each side to stop armed fighting, support the PLA, seal all arms and keep the railways in and out of the Pass open.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 178 (under Aug. 25, 1967). Made public: 2020. See [[cal.1967-08-25.china-leadership-4]]. Names: Zhou Enlai, Song Renqiong, Chen Xilian.'
     tags: [name:zhou-enlai, name:chen-xilian, polity:prc, vis:only:prc, name:song-renqiong]
+    time_range:
+      - 1967-08-25T16:00Z
+      - 1967-08-25T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-08-26.china-leadership
     when: Aug. 26
     date: '1967-08-26'
@@ -5525,6 +5584,7 @@ entries:
         - 'w.jian-zhou-enlai 583: ?'
         - 'w.liu-jixian-ye-jianying-nianpu II, 970: ?'
     tags: [name:zhou-enlai, name:mao-zedong, name:chen-boda, name:kang-sheng, name:jiang-qing, polity:prc, vis:only:prc, name:guan-feng, name:qi-benyu, name:wang-li, name:yang-chengwu]
+    time_zone: Asia/Shanghai
   - id: cal.1967-08-26.china-leadership-3
     when: Aug. 26
     date: '1967-08-26'
@@ -5542,6 +5602,8 @@ entries:
     date: '1967-08-26'
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1967-08-26.china-leadership
     c: 'Zhou Enlai sends Yang Chengwu on to Beidaihe to brief Lin Biao on Mao''s decision on Wang Li, Guan Feng and Qi Benyu: "If the Chairman asks, just tell him it was my idea."{1}'
     n: '[[w.macfarquhar-maos-last-revolution]], 230; [[w.teiwes-tragedy-of-lin-biao]], 88, 97 (Lin''s complaint at Yang''s purge, Mar. 24, 1968: Mao had asked Yang the summer before to visit Lin, ill at Beidaihe, about the case of Wang Li, Guan Feng and Qi Benyu, and Yang was hesitant to go). Made public: 2000. To check: [[w.li-wang-li-fansi-lu]], II, 1014 (cited by [[w.macfarquhar-maos-last-revolution]], 230 n.37); [[w.zishen-zhanjiang-yu-tongshuai]], 378 (cited by [[w.macfarquhar-maos-last-revolution]], 230 n.38); [[w.kau-lin-piao-affair]], 495 (cited by [[w.teiwes-tragedy-of-lin-biao]], 88 n.66). See [[cal.1967-08-26.china-leadership]]. Names: Zhou Enlai, Lin Biao, Mao Zedong, Yang Chengwu, Wang Li, Guan Feng, Qi Benyu.'
     src:
@@ -5609,8 +5671,10 @@ entries:
     date: '1967-08-26'
     place: daoxian
     thread: china-leadership
+    follows:
+      - cal.1967-08-26.china-leadership-8
     c: 'Wutian brigade. Zhu Baosheng 朱報生 calls an eleven-man meeting of militia and cadres: five of the children spared, one, Zhu Niuren 朱牛仁, to be killed; six in all.'
-    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669. Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669. After [[cal.1967-08-26.china-leadership-8|the call]]: Zhu "put down the telephone" and at once called the meeting (II, 669). Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
     src:
       c: dc9dea53
       rows:
@@ -5999,8 +6063,10 @@ entries:
     date: '1967-08-28'
     place: daoxian
     thread: china-leadership
+    follows:
+      - cal.1967-08-28.china-leadership-6
     c: Yuejin brigade, evening. He Fangqian 何芳乾's meeting of cadres, Party and League members and activists decides to kill all 61 of the "four categories" and their children.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 673. The words: 回來當晚 (II, 673). Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 673. The words: 回來當晚 (II, 673). After [[cal.1967-08-28.china-leadership-6|the commune''s meeting]]: He came back from it and called his own meeting that evening (II, 673). Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
     src:
       c: 39b51013
       rows:
@@ -6165,6 +6231,12 @@ entries:
     c: 'Afternoon, Hongqiao guesthouse. Mao hears Yang Chengwu on the Group''s meeting of Aug. 25. On Wang Li''s Aug. 7 talk: he could not have said such things, nor told Wang to run the Foreign Ministry. Who is to handle propaganda and foreign affairs: the first way better, Yao Wenyuan to take over, in time. The Foreign Ministry cadres'' files to be looked at and kept: "they have perhaps done it." Zhou is not well: sleep more, no long meetings. On those who would bring down the Heilongjiang revolutionary committee: "no."'
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 29, 1967. Made public: 2013. Names: Mao Zedong, Yang Chengwu, Wang Li, Yao Wenyuan, Zhou Enlai.'
     tags: [name:mao-zedong, name:yao-wenyuan, name:zhou-enlai, polity:prc, vis:only:prc, name:wang-li, name:yang-chengwu]
+    time_range:
+      - 1967-08-29T04:00Z
+      - 1967-08-29T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-08-29.china-leadership-2
     when: Aug. 29
     date: '1967-08-29'
