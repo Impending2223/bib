@@ -290,3 +290,8 @@ Both reviews: nothing in them waits on the claims work (386 adds, 19 primary row
 
 - Default taken: merge them at the 5:06 p.m. resume (resolve --take keep on the distinct same-day notices; the merge-time items in the handoff, 1d), check, build, PR, merge.
 - Applies to: inbox/2026-11-24-nyt-1960-07-0[3-6]{,-b}.yaml.
+
+## 35g. Keeping atomic claims open (the Fable reviewer's answer, notes/proposals/claims-atomic.md, sections 7–8; amends 35f)
+
+- Default taken: 35f with three openings: (1) ids of two kinds that cannot be confused (a part `3`, a claim `a3`), so a row, a ruling or a variant can later name either with no change of grammar; (2) a row and a variant may name a field the entry already has (`date`, `time`, `place`) as well as a part (730 of the 1,326 variants are about an hour or a date); (3) 35f does not say a cut may exist only where a source, ruling or variant needs one, only that nothing else needs one yet (the compile folds a cut no source distinguishes). The calendar is not committed to atomic claims. The trial the answer proposes (February 1960, every thread, claims written to a side file, no entry or page touched; the Cuba thread's sources, Jan.–Mar. 1960; two Sonnet passes and an Opus audit; about a million tokens) is queued after the 35f conversion's first year, unless the owner calls for it sooner.
+- Applies to: the 35f design note and converter; the queue (handoff 4aw).
