@@ -77,6 +77,8 @@ def _clean(parts):
 
 def _units_ok(e, spec):
     from . import claims
+    if claims.NUMBERED.match(str(spec)):
+        return claims.parse_target(str(spec), e) is not None
     n = len(claims.units(e.get("c") or ""))
     u = claims.parse_units(spec, n)
     return u is not None and (u == "?" or u <= set(claims.letters(n)))
@@ -223,9 +225,11 @@ def src(e, body):
 def variant(e, body):
     """A variant (R41) added: {id, unit, witness, reads, at}; one already there the same is not added twice (the Chen
     test, point 6: variants were an `edit`, with a base, on entries others were adding to)."""
-    row = {k: body[k] for k in ("unit", "witness", "reads", "at") if body.get(k) not in (None, "")}
+    row = {k: body[k] for k in ("unit", "field", "value", "witness", "reads", "at") if body.get(k) not in (None, "")}
     if not row.get("witness") or not row.get("reads"):
-        return None, "variant: give at least witness and reads (and unit, at)"
+        return None, "variant: give at least witness and reads (and unit or field, at)"
+    if row.get("field") and (row.get("unit") or row.get("value") is None):
+        return None, "variant: a field's variant gives field and value, and no unit (claims.py, STYLE 9)"
     new = dict(e)
     vs = list(e.get("variants") or [])
     if row not in vs:
@@ -299,7 +303,8 @@ def lettered(kind, body):
         specs = [body.get("unit")]
     elif kind in ("src", "via"):
         specs = [(claims.parse_row(r) or (None,) * 5)[4] for r in body.get("rows") or []]
-    hit = [str(x) for x in specs if x not in (None, "", "all", "?")]
+    hit = [str(x) for x in specs if x not in (None, "", "all", "?") and not claims.NUMBERED.match(str(x))
+           and not re.fullmatch(r"\d+(?:\.\d+)*", str(x))]            # a part's number holds through edits: no base
     return ", ".join(hit) or None
 
 

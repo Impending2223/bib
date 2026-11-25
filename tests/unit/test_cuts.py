@@ -117,3 +117,34 @@ def test_a_number_the_line_lacks_does_not_resolve():
     from bib import claims
     e = _entry(THREE_CUT, ['w.frus 12: 9'])
     assert claims.resolve(e)[0][5] is None
+
+
+# Step 6: a visibility ruling, a variant and the variant op name parts by number, or a field.
+def test_a_ruling_names_parts_by_number():
+    from bib import vis
+    e = _entry(THREE_CUT, ['w.frus 12: 1, 2'], tags=['vis:only:ussr@2', 'vis:only:prc@1.2'])
+    got = {tuple(sorted(r['pols'])): r['units'] for r in vis.rulings(e)}
+    assert got == {('ussr',): {'C'}, ('prc',): {'A', 'B', 'C'}}
+    old = _entry(THREE, ['w.frus 12: all'], tags=['vis:only:ussr@C'])
+    assert vis.rulings(old)[0]['units'] == {'C'}
+    assert vis.rulings(_entry(THREE_CUT, [], tags=['vis:only:ussr@9'])) == []      # no such part: no ruling
+
+
+def test_named_letters():
+    from bib import claims
+    e = _entry(THREE_CUT, [])
+    assert claims.named_letters(e, '1') == {'A', 'B'}
+    assert claims.named_letters(e, 'C') == {'C'}
+    assert claims.named_letters(e, 'D') is None and claims.named_letters(e, '7') is None
+
+
+def test_the_variant_op_takes_a_field():
+    from bib import addops
+    e = _entry(THREE_CUT, [], time='15:00')
+    new, err = addops.variant(e, {'field': 'time', 'value': '14:00', 'witness': 'w.peng', 'reads': 'at 2 p.m.', 'at': 'IV, 37'})
+    assert err is None and new['variants'] == [{'field': 'time', 'value': '14:00', 'witness': 'w.peng', 'reads': 'at 2 p.m.', 'at': 'IV, 37'}]
+    assert addops.variant(e, {'field': 'time', 'witness': 'w.peng', 'reads': 'x'})[1]
+    assert addops.lettered('variant', {'unit': 'C'}) == 'C'
+    assert addops.lettered('variant', {'unit': '2'}) is None                      # a number needs no base
+    assert addops.lettered('cite', {'units': '1, 2'}) is None
+    assert addops.lettered('src', {'rows': ['w.frus 12: 2', 'w.frus 12: time']}) is None

@@ -163,6 +163,17 @@ def parse_target(spec, e):
     return out
 
 
+def named_letters(e, spec):
+    """The letters a ruling's `@` or a variant's `unit` names: a letter, or parts' numbers joined by a dot or a comma
+    (`3`, `3.4`), turned into their units' letters; None where the line has no such unit or part."""
+    spec = str(spec)
+    if re.fullmatch(r"a?\d+(?:(?:\.|, )a?\d+)*", spec):
+        u = parse_target(spec.replace(".", ", "), e)
+        return u
+    n = len(units(e.get("c") or ""))
+    return {spec} if spec in letters(n) else None
+
+
 def has_field(e, f):
     if f == "time":
         return any(e.get(k) not in (None, "") for k in ("time", "time_approx", "time_range"))
