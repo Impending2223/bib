@@ -26,12 +26,13 @@ entries:
     thread: soviet-union
     also: [defense]
     c: 'An RB-47 out of a base in Britain, on a reconnaissance mission over the Barents Sea, shot down by the Soviet Air Force. Four of the crew killed, two taken. American intelligence: never nearer than thirty miles to Soviet airspace.'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 290. To check: editorial note, FRUS 1958–60, X, pt. 1, 540–42 (cited by [[w.fursenko-khrushchevs-cold-war]], 290 n.87). Report: [[cal.1960-07-11.soviet-union]].'
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 2 ("Arctic Search Is Pressed for U.S. Plane Carrying 6," Bonn, July 2: the RB-47 out of Brize Norton missing since July 1, the search; the Pentagon''s denial of any overflight; not the shooting down). [[w.fursenko-khrushchevs-cold-war]], 290. To check: editorial note, FRUS 1958–60, X, pt. 1, 540–42 (cited by [[w.fursenko-khrushchevs-cold-war]], 290 n.87). Report: [[cal.1960-07-11.soviet-union]].'
     src:
       c: 36c28ae2
       rows:
         - 'w.fursenko-khrushchevs-cold-war 290: all'
         - 'via w.fursenko-khrushchevs-cold-war 290 n.87: all'
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html: ?'
     short: the RB-47
   - id: cal.1960-07-01.elections-1960-rockefeller
     when: July 1
@@ -178,6 +179,36 @@ entries:
       - 1960-07-01T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1960-07-01.cuba
+    when: July 1
+    date: '1960-07-01'
+    place: havana
+    thread: cuba
+    also: [oil]
+    c: Cuba seizes the Esso and Shell refineries, Esso's in the morning, its tanks holding crude for twenty hours at a quarter of capacity.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 15 (Tad Szulc, "Cuban Airline Flights Cut as Oil Concerns Ask Cash," Havana, July 2: the two seizures "yesterday," Esso''s in the morning; Esso''s affiliates told the same day to make Cubana pay cash for fuel); "Cuban Seizure Studied," London, July 2 (the Foreign Office: Britain "actively considering" what steps to take on Shell''s; page not shown). See [[cal.1960-06-29.cuba]].'
+    tags: [ok:fields-time]
+  - id: cal.1960-07-01.cuba-2
+    when: July 1
+    date: '1960-07-01'
+    thread: cuba
+    also: [soviet-union, oil]
+    c: Guevara, president of the National Bank, in a speech, says the Soviet Union will fill all Cuba's oil needs.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 15 (Szulc, "Cuban Airline Hit by Action on Oil," the speech "yesterday"; the place not given; the *Times*: Cuba uses some 26 million barrels a year). See [[cal.1960-07-01.cuba]]. Names: Guevara.'
+    tags: [name:guevara-ernesto]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-01.cuba
+        from: 2026-11-24-nyt-1960-07-03
+  - id: cal.1960-07-01.state-legislatures
+    when: July 1
+    date: '1960-07-01'
+    place: honolulu
+    thread: state-legislatures
+    c: Hawaii's legislature ends its special session, seventeen days after it opened at Iolani Palace. Twelve bills for Hilo, struck by the tidal wave of May 23; a compromise on selling and leasing State lands to relocate Hilo's businesses.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 18 ("Hawaii Legislators End Special Session," Honolulu, July 2: ended "late Friday"). Check: the bills'' numbers and the land act''s terms. See [[cal.1960-06-23.states-and-cities-us]].'
+    tags: [state:hi, city:honolulu]
   - id: cal.1960-07-02.amendments
     when: July 2
     date: '1960-07-02'
@@ -197,7 +228,7 @@ entries:
     date: '1960-07-02'
     thread: elections-1960-nomination
     c: 'Truman''s televised press conference. His endorsement of Symington repeated; Johnson, Bowles, Meyner and six others added. The convention "prearranged ... mockery ... controlled ... by one candidate." To Kennedy: "are you certain that you are quite ready for the country, or that the country is ready for you"; "May I urge you to be patient?"'
-    n: '[[w.sorensen-kennedy]], 151–52; [[w.clifford-counsel-to-the-president-2]], 321; [[w.wofford-of-kennedys-and-kings]], 49 (July 2, Truman on television against Kennedy; Symington, Johnson, Bowles, Meyner and "several others"; "be patient"; not the quotations or the number); [[w.odonnell-johnny-we-hardly-knew]], 201 (the televised press conference of July 2: Kennedy "too young" and "not quite ready," the convention "prearranged"; Symington, Johnson, Meyner and Bowles preferred, Stevenson "pointedly" excluded). To check: [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html). Check: Clifford gives Kennedy''s answer ("If fourteen years in major elective office is insufficient experience ...") without its day. Reply: [[cal.1960-07-04.elections-1960]]. Names: Truman, Symington, Johnson, Bowles, Kennedy.'
+    n: '[[w.sorensen-kennedy]], 151–52; [[w.clifford-counsel-to-the-president-2]], 321; [[w.wofford-of-kennedys-and-kings]], 49 (July 2, Truman on television against Kennedy; Symington, Johnson, Bowles, Meyner and "several others"; "be patient"; not the quotations or the number); [[w.odonnell-johnny-we-hardly-knew]], 201 (the televised press conference of July 2: Kennedy "too young" and "not quite ready," the convention "prearranged"; Symington, Johnson, Meyner and Bowles preferred, Stevenson "pointedly" excluded). [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 18, 19 (Donald Janson, "Truman Charges Kennedy Backers Run Convention," "Truman Accuses Kennedy Backers," Independence, Mo., July 2, at 1, 19; the transcript, at 18; the replies of Symington, Humphrey, Ribicoff, Brown, Stevenson, Miller, Halleck, McCarthy, Gore, Jackson and Clark, at 19). Check: Clifford gives Kennedy''s answer ("If fourteen years in major elective office is insufficient experience ...") without its day. Reply: [[cal.1960-07-04.elections-1960]]. Names: Truman, Symington, Johnson, Bowles, Kennedy.'
     src:
       c: a2189c1e
       rows:
@@ -225,11 +256,12 @@ entries:
     date: '1960-07-02'
     thread: congo
     c: Tribal disturbances begin in the Congo.
-    n: '[[w.bissell-reflections-of-a-cold]], 143. Check: the day and the places; Bissell names Lefever. To check: [[w.lefever-crisis-in-the-congo]], 4–5, 8–9, 11–12 (cited by [[w.bissell-reflections-of-a-cold]], 143 n.2). See [[cal.1960-06-30.congo]].'
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Two Tribes Battle in Capital of Congo," Léopoldville, July 2, UPI: Bayaka against Bakongo in Léopoldville from the night of July 1, some 100 jailed, a curfew; Lulua against Baluba at Luluabourg; page not shown). [[w.bissell-reflections-of-a-cold]], 143. Check: the day and the places; Bissell names Lefever. To check: [[w.lefever-crisis-in-the-congo]], 4–5, 8–9, 11–12 (cited by [[w.bissell-reflections-of-a-cold]], 143 n.2). See [[cal.1960-06-30.congo]].'
     src:
       c: 6f4374fa
       rows:
         - 'w.bissell-reflections-of-a-cold 143: all'
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html: ?'
   - id: cal.1960-07-02.china-leadership
     when: July 2
     date: '1960-07-02'
@@ -244,13 +276,14 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai to Koirala on the border accident: the unit fighting Tibetan rebels mistook a party north of the Kore pass for rebels and fired, one killed, ten taken; the place on Chinese soil. He apologizes, will find who is responsible, return the men, the body and goods, and accept Nepal''s claim for compensation. Chinese troops to stay ten kilometers from the border, and to withdraw twenty when the task ends.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 328 (July 2, 1960); [[w.zhou-enlai-waijiao-huodong]], 284 (July 2, 1960); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 149 (July 2, 1960; Zhou''s letter to Koirala: a party of Nepalese entered China''s border and the troops, taking them for Tibetan rebels, caused the accident; deep regret, apology to the Nepalese government, condolences for the dead). Made public: 1993. Names: Zhou Enlai, Koirala.'
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 ("Nepal Moves Troops," Katmandu, July 3, dispatch of the *Times*, London: Zhou''s letter received; the troops to withdraw six and a quarter miles from the border; the apology; Peking admits ten seized). [[w.zhou-enlai-nianpu-1949]], II, 328 (July 2, 1960); [[w.zhou-enlai-waijiao-huodong]], 284 (July 2, 1960); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 149 (July 2, 1960; Zhou''s letter to Koirala: a party of Nepalese entered China''s border and the troops, taking them for Tibetan rebels, caused the accident; deep regret, apology to the Nepalese government, condolences for the dead). Made public: 1993. Names: Zhou Enlai, Koirala.'
     src:
       c: e3fb59c4
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 328: ?'
         - 'w.zhou-enlai-waijiao-huodong 284: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 149: A, C'
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html: ?'
     tags: [polity:prc, polity:nepal, name:zhou-enlai, name:koirala-bisweswar-prasad, vis:only:prc+nepal]
   - id: cal.1960-07-02.china-leadership-3
     when: July 2
@@ -391,18 +424,261 @@ entries:
     c: Chen Yun 陈云 returns from Shanghai 上海 to Peking 北京.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 39. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun]
+  - id: cal.1960-07-02.voting-rights
+    when: July 2
+    date: '1960-07-02'
+    thread: voting-rights
+    also: [civil-rights-organizations]
+    c: 'The NAACP asks the Red Cross to relieve Negro families in Fayette County, Tenn., who registered to vote and lost jobs, credit and insurance and cannot buy gasoline: Wilkins, by telegram, a "man-made disaster." The same day the Memphis branch''s leaders go into the county.'
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Boycott of Negroes Stirs Plea for Aid," the telegram "yesterday"; Memphis, July 2, the branch, David S. Cunningham its president; page not shown). Check: the day: the telegram''s story undatelined, its "yesterday" in a Sunday paper read as July 2. Names: Wilkins.'
+    tags: [ok:fields-place, name:wilkins-roy, state:tn]
+  - id: cal.1960-07-02.elections-1960-nomination
+    when: July 2
+    date: '1960-07-02'
+    thread: elections-1960-nomination
+    also: [press-and-broadcasting]
+    c: Kennedy, by telegram to the three networks' presidents, Stanton, Kintner and Goldenson, asks equal time under Section 315 to answer Truman, who spoke for "another duly announced candidate," Symington; suggests Tuesday or Wednesday evening.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 19 (Leo Egan, "Kennedy Demands Air Time to Reply," "Kennedy Seeking Air Time to Reply," Los Angeles, July 2: the telegram''s text). See [[cal.1960-07-02.elections-1960-2]]. Reply: [[cal.1960-07-02.elections-1960-nomination-2]]. Names: Kennedy, Truman, Symington.'
+    tags: [ok:fields-time, name:kennedy-john-f, name:truman-harry-s, name:symington-william-s, name:stanton-frank]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-02.elections-1960-2
+          - cal.1960-07-02.elections-1960-3
+        from: 2026-11-24-nyt-1960-07-03
+  - id: cal.1960-07-02.elections-1960-nomination-2
+    when: July 2
+    date: '1960-07-02'
+    thread: elections-1960-nomination
+    also: [press-and-broadcasting]
+    c: 'CBS, by telegram to Kennedy, offers thirty minutes of television and radio for a spokesman of his choosing, July 4 or July 9, with questions from the press. Stanton: Section 315 does not apply, Truman not a candidate and his program a news interview; were Kennedy to reply in person, equal time would be owed every other candidate.'
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 19 ("C.B.S. Outlines Conditions": "last night"; the hours, July 4, 1 to 1:30 p.m., July 9, noon to 12:30). See [[cal.1960-07-02.elections-1960-nomination]]. Names: Kennedy, Truman.'
+    tags: [name:stanton-frank, name:kennedy-john-f, name:truman-harry-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-02.elections-1960-2
+          - cal.1960-07-02.elections-1960-3
+          - cal.1960-07-02.elections-1960-nomination
+        from: 2026-11-24-nyt-1960-07-03
+  - id: cal.1960-07-02.elections-1960-nomination-3
+    when: July 2
+    date: '1960-07-02'
+    place: minneapolis
+    thread: elections-1960-nomination
+    c: 'Humphrey, in an interview: will not let his name go to the convention for Vice President in a contest; would, it is believed, accept it unopposed. His choice Freeman. "I''m a candidate for re-election to the Senate."'
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 20 ("Humphrey Is Open to 2d Spot Draft," Minneapolis, July 2). Names: Humphrey, Freeman.'
+    tags: [name:humphrey-hubert-h, name:freeman-orville-l, state:mn, city:minneapolis]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-02.elections-1960-2
+          - cal.1960-07-02.elections-1960-3
+          - cal.1960-07-02.elections-1960-nomination
+          - cal.1960-07-02.elections-1960-nomination-2
+        from: 2026-11-24-nyt-1960-07-03
+  - id: cal.1960-07-02.cuba
+    when: July 2
+    date: '1960-07-02'
+    place: washington
+    thread: cuba
+    also: [congress]
+    c: Senate Finance shelves the House's bill extending the Sugar Act through 1961 and reports instead a resolution giving the President authority to cut Cuba's quota until Jan. 1, 1961. Senate adopts it, 84–0.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 20 (Russell Baker, "Congress Recess Delayed by Fight over Cuba Sugar," "Congress Recess Snarled by Fight"). To check: 106 Cong. Rec. (1960), the day''s pages. Reply: [[cal.1960-07-02.cuba-2]]. See [[cal.1960-06-29.cuba]].'
+  - id: cal.1960-07-02.cuba-2
+    when: July 2
+    date: '1960-07-02'
+    time: 1960-07-03T02:00Z
+    time_approx: true
+    place: washington
+    thread: cuba
+    also: [congress]
+    c: House, reconvened about 10 p.m., by a unanimous shouting vote sends the Senate's sugar resolution back, unconstitutional, revenue measures the House's to originate.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 20 (Baker, "Congress Recess Snarled by Fight"). To check: 106 Cong. Rec. (1960), the day''s pages. See [[cal.1960-07-02.cuba]].'
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-02.cuba
+        from: 2026-11-24-nyt-1960-07-03
+    time_zone: America/New_York
+  - id: cal.1960-07-02.confirmations
+    when: July 2
+    date: '1960-07-02'
+    place: washington
+    thread: confirmations
+    also: [civil-rights-the-executive]
+    c: Senate confirms Robert S. Rankin, of Duke, to the Civil Rights Commission, over Southern noes; Winthrop G. Brown ambassador to Laos, Andrew G. Lynch to the Somali Republic, Clare H. Timberlake to the Congo; Jacob Mishler and Frederick W. Kaess district judges; Edward C. Sweeney to the Subversive Activities Control Board; Carl J. Stephens general counsel of Agriculture. Earlier, 247 postmasters.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Rights'' Board Aide Approved by Senate," Washington, July 2, AP: "tonight"; page not shown). To check: Senate Executive Journal (1960). Names: Brown.'
+    tags: [ok:name-untagged, name:brown-winthrop-g]
+  - id: cal.1960-07-02.foreign-aid
+    when: July 2
+    date: '1960-07-02'
+    place: washington
+    thread: foreign-aid
+    c: House, on Anderson's plea, votes $73,667,700, the first payment to the International Development Association, 137–100 standing, Albert Thomas leading; most Republicans against. Senate had approved it July 1.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Loan Fund Voted," Washington, July 2, UPI: Anderson''s call and letter to Appropriations; page not shown). To check: 106 Cong. Rec. (1960), the day''s pages. Names: Anderson.'
+    tags: [ok:name-untagged, name:anderson-robert-b]
+  - id: cal.1960-07-02.immigration
+    when: July 2
+    date: '1960-07-02'
+    place: washington
+    thread: immigration
+    c: Congress completes the compromise refugee bill, Senate then House; to the White House. European refugees up to a quarter of those the thirty-eight other nations resettle; the conferees drop the Senate's 4,500 from the Middle East and the Far East.
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Congress Passes Cuba Sugar Bill": the refugee bill among those passed before the recess, some 5,000 European refugees, one for every four the other countries take; the conferees drop Fong''s amendment for 4,500 from the Far East and the Middle East; Walter against). [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 20 ("Immigration Bill Voted," Washington, July 2, AP). To check: the bill''s number; 106 Cong. Rec. (1960).'
+    src:
+      c: ce34b545
+      rows:
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html: all'
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html: ?'
+  - id: cal.1960-07-02.testing
+    when: July 2
+    date: '1960-07-02'
+    place: moscow
+    thread: testing
+    also: [soviet-union]
+    c: The United States' note, delivered to the Soviet Foreign Ministry, answering Khrushchev's of June 27 on the Geneva walkout. The fault the Soviet Union's; talks should resume.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 2 (William J. Jorden, "U.S. Blames Soviet for Snag on Arms; Urges New Talks," Washington, July 2: delivered "this morning"; the text, at 2). To check: *Documents on Disarmament, 1960*. See [[cal.1960-06-27.testing]]. Names: Khrushchev.'
+    tags: [ok:fields-time, name:khrushchev-nikita-s]
+  - id: cal.1960-07-02.defense
+    when: July 2
+    date: '1960-07-02'
+    place: washington
+    thread: defense
+    c: Douglas, Deputy Secretary of Defense, orders old defense records declassified by stages, downgraded each twelve years, the most sensitive excepted.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 8 ("Pentagon to Cut Secrecy of Files," Washington, July 2, UPI: Murray Snyder, in charge of the project, on the 1958 step). See [[cal.1960-07-02.congress]]. Names: Douglas.'
+    tags: [name:douglas-james-h-jr]
+  - id: cal.1960-07-02.congress
+    when: July 2
+    date: '1960-07-02'
+    place: washington
+    thread: congress
+    also: [press-and-broadcasting]
+    c: 'House Government Information subcommittee files its report on five years of inquiry: agencies "from the White House down" withhold more from Congress and the public, claiming executive privilege, despite the 1958 law. Hoffman, Republican, dissents.'
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 8 ("Pentagon to Cut Secrecy of Files"). To check: the report, H. Rept., 86th Cong.'
+    tags: [name:moss-john-e]
+  - id: cal.1960-07-02.conservation
+    when: July 2
+    date: '1960-07-02'
+    place: washington
+    thread: conservation
+    c: Kerr, chairman of the Senate Select Committee on National Water Resources, makes public the Reclamation Bureau's $22 billion plan for the West's water over forty years, 17 million acres more under irrigation by 2000.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Senators Receive a 22-Billion Plan for Conservation," Washington, July 2, AP; page not shown). Names: Kerr.'
+    tags: [name:kerr-robert-s]
+  - id: cal.1960-07-02.soviet-union
+    when: July 2
+    date: '1960-07-02'
+    place: vienna
+    thread: soviet-union
+    also: [soviet-union-u2, japan]
+    c: 'Khrushchev, in the great hall of the Hofburg, before the Austro-Soviet Society, 2,000 present: the cancelled visit to Japan a disaster for the United States, its prestige never lower; the U-2.'
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 2 (M. S. Handler, "U.S. Prestige Low, Khrushchev Says," Vienna, July 2: "tonight"). Names: Khrushchev.'
+    tags: [name:khrushchev-nikita-s]
+  - id: cal.1960-07-02.europe-and-the-alliance-france
+    when: July 2
+    date: '1960-07-02'
+    place: paris
+    thread: europe-and-the-alliance-france
+    c: 'Auriol''s letter of May 25 to Léon Noël, president of the Constitutional Council, published: de Gaulle''s acts unconstitutional, the council not consulted (the school aid, the refusal of a special session in March, the Community''s revision); he will no longer sit.'
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1, 10 (Robert C. Doty, "Auriol Terms Acts of de Gaulle Illegal," "Auriol in Protest Says de Gaulle Commits Unconstitutional Acts," Paris, July 2). Names: de Gaulle.'
+    tags: [name:de-gaulle-charles]
+  - id: cal.1960-07-02.europe-and-the-alliance
+    when: July 2
+    date: '1960-07-02'
+    place: rome
+    thread: europe-and-the-alliance
+    c: Italy. The neo-Fascist Italian Social Movement withdraws its support from Tambroni's government, its Genoa congress banned. Tambroni confers with Gronchi.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Paul Hofmann, "Italian Neo-Fascists Announce They''ll Cease to Back Tambroni," Rome, July 2; page not shown). Names: Gronchi.'
+    tags: [name:gronchi-giovanni]
+  - id: cal.1960-07-02.latin-america
+    when: July 2
+    date: '1960-07-02'
+    place: washington
+    thread: latin-america
+    also: [latin-america-dominican-republic]
+    c: Venezuela, through Falcón Briceño, its ambassador, asks the OAS Council's president, Sánchez Gavito, for a meeting of foreign ministers on its charge against the Dominican Republic, the attempt on Betancourt of June 24.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Venezuela Presses Dominican Charge," Washington, July 2, AP: "tonight"; page not shown). See [[cal.1960-06-24.latin-america]]. Names: Betancourt.'
+    tags: [name:betancourt-romulo]
+  - id: cal.1960-07-02.japan
+    when: July 2
+    date: '1960-07-02'
+    place: tokyo
+    thread: japan
+    c: The five chief leaders of the Liberal Democratic Party, it is reported, agree on a party convention July 13 to elect Kishi's successor.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Richard J. H. Johnston, "Demonstration Draws 22,000 of 225,000 Expected in Japan," Tokyo, July 2: "reported"; page not shown). Names: Kishi.'
+    tags: [name:kishi-nobusuke]
+  - id: cal.1960-07-02.japan-2
+    when: July 2
+    date: '1960-07-02'
+    time: 1960-07-02T06:00Z
+    time_approx: true
+    place: tokyo
+    thread: japan
+    c: Zengakuren, Sohyo and the Socialist youth march against the government, the security treaty and the police, from a park near the Diet. By the police count 22,000; more than 225,000 had been announced.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Richard J. H. Johnston, "Demonstration Draws 22,000 of 225,000 Expected in Japan," Tokyo, July 2: gathered shortly before 3 p.m.; page not shown). Check: the count, the police''s. See [[cal.1960-07-02.japan]].'
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-02.japan
+        from: 2026-11-24-nyt-1960-07-03
+    time_zone: Asia/Tokyo
+  - id: cal.1960-07-02.south-asia
+    when: July 2
+    date: '1960-07-02'
+    thread: south-asia
+    also: [india-and-china-kashmir]
+    c: Nehru begins a five-day visit to Kashmir and Ladakh, Srinagar and Leh.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Nehru Starts Visit to Disputed Areas," New Delhi, July 2; page not shown). Names: Nehru.'
+    tags: [name:nehru-jawaharlal]
+  - id: cal.1960-07-02.white-house
+    when: July 2
+    date: '1960-07-02'
+    place: gettysburg
+    thread: white-house
+    c: Eisenhower plays thirty-six holes at the Gettysburg Country Club, with William E. Robinson, Arthur Nevins, Dick Slechter and George E. Allen.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Eisenhower Golfs," Gettysburg, Pa., July 2, AP: six hours; page not shown). Names: Eisenhower.'
+    tags: [name:eisenhower-dwight-d, state:pa, city:gettysburg]
+  - id: cal.1960-07-02.cuba-3
+    when: By July 2
+    date: '1960-07-02'
+    place: havana
+    thread: cuba
+    also: [oil]
+    c: The Cuban Petroleum Institute closes Esso's Belot refinery, 35,000 barrels a day, seized July 1, for want of crude.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 15 (Szulc, "Cuban Airline Hit by Action on Oil," Havana, July 2: "meanwhile"). Check: the day: the story''s "meanwhile," July 1 or 2. See [[cal.1960-07-01.cuba]].'
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-02.cuba
+          - cal.1960-07-02.cuba-2
+        from: 2026-11-24-nyt-1960-07-03
+  - id: cal.1960-07-02.latin-america-dominican-republic
+    when: By July 2
+    date: '1960-07-02'
+    thread: latin-america-dominican-republic
+    c: The Dominican Republic proclaimed in a state of national emergency; Army, Navy and Air Force on maneuvers, "guided missiles" test-fired.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) ("Venezuela Presses Dominican Charge," Ciudad Trujillo, July 2, UPI: "reported today"; page not shown). Check: the day. See [[cal.1960-07-02.latin-america]].'
+  - id: cal.1960-07-02.press-and-broadcasting
+    when: July 2
+    date: '1960-07-02'
+    place: washington
+    thread: press-and-broadcasting
+    also: [congress]
+    c: House leaders lay aside until Aug. 15 the Senate-passed bill relaxing equal time; for President and Vice President, stations bound only to the two major parties' nominees. Oren Harris, chairman of Interstate Commerce, to call it up Aug. 15.
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html) ("Equal-Time Bill Tabled," Washington, July 3, UPI: "yesterday"; page not shown). Names: Harris.'
+    tags: [name:harris-oren]
   - id: cal.1960-07-03.elections-1960
     when: July 3–4
     date: '1960-07-03'
     thread: elections-1960-nomination
     c: Johnson will not rule out taking second place.
-    n: '[[w.kallina-kennedy-v-nixon]], 76; [[w.shesol-mutual-contempt]], 43 (his words of July 3, "from running the elevator to the top job," and of July 4). To check: Richard L. Lyons, "Kennedy Set to Offer Johnson Second Place," *Washington Post*, July 12, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 76 n.68). Names: Johnson. Check: the form and the place.'
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 4 ("Johnson Supports Truman in Criticizing Convention," "Johnson Upholds Truman''s Opinion," Washington, July 3: Johnson on the American Broadcasting Company''s "College News Conference"; agrees with Truman that the convention has "aspects of a prearranged affair"; Butler set it up without consulting him; would serve "from running the elevator to the top job"; no talks with Kennedy on second place; his announcement within days). [[w.kallina-kennedy-v-nixon]], 76; [[w.shesol-mutual-contempt]], 43 (his words of July 3, "from running the elevator to the top job," and of July 4). To check: Richard L. Lyons, "Kennedy Set to Offer Johnson Second Place," *Washington Post*, July 12, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 76 n.68). Names: Johnson. Check: the form and the place.'
     src:
       c: c406f3f7
       rows:
         - 'w.kallina-kennedy-v-nixon 76: all'
         - 'via w.kallina-kennedy-v-nixon 76 n.68: all'
         - 'w.shesol-mutual-contempt 43: A'
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html: ?'
     tags: [name:johnson-lyndon-b]
   - id: cal.1960-07-03.china-leadership
     when: July 3
@@ -514,6 +790,167 @@ entries:
     c: 'Chen Yun 陈云 talks with Zhu Lizhi 朱理治, member of the Center''s Finance and Economics Small Group 中共中央财经小组 and vice-chairman of the State Planning Commission 国家计划委员会: grain supply still very tight this year; in three years, 10,000 small fertilizer works making 800 tons of synthetic ammonia a year each, for 64 billion jin of fertilizer, 50 jin a mu, needing 2 million tons of rolled steel (350,000 tons of it seamless tube, and 300 tons of nickel and chrome), 4 million kilowatts of generators and 160,000 tons of copper; and 20 million more horsepower of drainage and irrigation machinery, for 25 million in all.'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 39. Made public: 2015. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun, vis:only:prc]
+  - id: cal.1960-07-03.cuba
+    when: July 3
+    date: '1960-07-03'
+    time: 1960-07-03T06:00Z
+    time_approx: true
+    place: washington
+    thread: cuba
+    also: [congress]
+    c: Senate, after 2 a.m., passes a compromise sugar bill by voice vote, the key test 30–29. The President may cut Cuba's quota at once; the deficit to be bought from Panama, Haiti, the Netherlands, the Philippines, Costa Rica and Taiwan.
+    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html), at 1 (Baker, "Congress Recess Delayed by Fight over Cuba Sugar," Washington, Sunday, July 3). Check: the test vote''s question; the *Times* of July 4. To check: 106 Cong. Rec. (1960), the day''s pages. See [[cal.1960-07-02.cuba-2]]. Law: [[cal.1960-07-06.cuba-2]].'
+    time_zone: America/New_York
+  - id: cal.1960-07-03.cuba-2
+    when: July 3
+    date: '1960-07-03'
+    place: washington
+    thread: cuba
+    also: [congress]
+    c: Congress passes the sugar bill. Conferees agree; House by a unanimous shout; Senate, after two hours, 32–24. The President to set Cuba's quota for 1960 and the first quarter of 1961 at any figure; cuts made up from fifteen other countries, the Philippines 15 percent of the rest; the President may allot 160,000 tons to domestic growers.
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 2 ("Congress Passes Cuba Sugar Bill; Quits till August," Washington, July 3: the conferees at 4:15 a.m., the House at 5:50; Cooley led the House''s fight; Macomber and Harlow carried word the President would be "furious"); William M. Blair, "Stakes Were High for Sugar Lobby" (McCormack and John O''Donnell, for the Philippine growers, after 5 a.m.); Tad Szulc, "Cuba Awaits Cut by U.S. on Sugar," Havana, July 3. Check: the vote''s question and the bill''s number. To check: 106 Cong. Rec. (1960). Law: [[cal.1960-07-06.cuba-2]]. Names: Cooley, McCormack.'
+    tags: [name:cooley-harold-d, name:mccormack-john-w]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-03.cuba
+        from: 2026-11-24-nyt-1960-07-04
+    time_range:
+      - 1960-07-03T08:15Z
+      - 1960-07-03T12:30Z
+    time_band: morning
+    time_zone: America/New_York
+  - id: cal.1960-07-03.congress
+    when: July 3
+    date: '1960-07-03'
+    place: washington
+    thread: congress
+    c: Congress recesses for the conventions. Senate, in session since 10 a.m. July 2, more than twenty-two hours, quits at 8:33 a.m.; House, sitting since noon, at 8:51. House to return Aug. 15; Senate Aug. 8.
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1 ("Congress Passes Cuba Sugar Bill; Quits till August"). Pending: aid to schools, minimum wage, medical aid for the aged, housing, the size of the foreign aid appropriation. See [[cal.1960-06-29.congress]].'
+    time_range:
+      - 1960-07-03T12:33Z
+      - 1960-07-03T12:51Z
+    time_zone: America/New_York
+  - id: cal.1960-07-03.congress-2
+    when: July 3
+    date: '1960-07-03'
+    place: washington
+    thread: congress
+    c: Congress passes the Senate's version of Summerfield's bill against obscene mail. Post Office may stop an addressee's mail only by a court order on probable cause.
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Congress Passes Cuba Sugar Bill": the Post Office had asked forty-five days'' stop orders, and the House passed the bill so; the compromise passed the Senate without objection). Check: the hour and the bill''s number. Names: Summerfield.'
+    tags: [name:summerfield-arthur-e]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-03.congress
+        from: 2026-11-24-nyt-1960-07-04
+  - id: cal.1960-07-03.elections-1960-rockefeller
+    when: July 3
+    date: '1960-07-03'
+    thread: elections-1960-rockefeller
+    also: [cuba]
+    c: 'Rockefeller on CBS''s "Face the Nation": the Republican leadership does not want a contest of men or issues, "a mistake"; Nixon could not win in a popular election far from New York''s stand; odds 99 to 1 on his nomination. On Cuba, a meeting of foreign ministers; the sugar premium might be impounded for the expropriated.'
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 28 (Douglas Dales, "Rockefeller Says G.O.P. Bars a Test of Men and Issues": Percy to come to New York next week on the platform; no plan to have his name placed). Names: Rockefeller, Nixon, Percy.'
+    tags: [name:rockefeller-nelson, name:nixon-richard-m, name:percy-charles-h, ok:fields-place]
+  - id: cal.1960-07-03.elections-1960-nomination
+    when: July 3
+    date: '1960-07-03'
+    thread: elections-1960-nomination
+    c: 'Collins, the convention''s permanent chairman, on NBC''s "Meet the Press": an orderly procedure for changes of votes during a roll call, fair to all. Has telegraphed Truman twice, without answer, urging him to attend.'
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html) ("Collins Pledges Fair Convention," Los Angeles, July 3: the second telegram sent July 2; Loveless''s Rules Committee weighing a rule; page not shown). Names: Collins, Truman.'
+    tags: [name:collins-leroy, name:truman-harry-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-03.elections-1960
+        from: 2026-11-24-nyt-1960-07-04
+  - id: cal.1960-07-03.elections-1960-nomination-2
+    when: July 3
+    date: '1960-07-03'
+    place: nyc
+    thread: elections-1960-nomination
+    c: 'Harriman, on WRCA-TV''s "Searchlight": Truman''s charge will not move many; the convention "entirely open." Expects New York''s delegation to cast at least 105 votes for Kennedy on the first ballot.'
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Harriman Doubts Truman''s Charge"). See [[cal.1960-07-02.elections-1960-2]]. Names: Harriman, Truman, Kennedy.'
+    tags: [name:harriman-w-averell, name:truman-harry-s, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-03.elections-1960
+          - cal.1960-07-03.elections-1960-nomination
+        from: 2026-11-24-nyt-1960-07-04
+  - id: cal.1960-07-03.elections-1960-nomination-3
+    when: July 3
+    date: '1960-07-03'
+    thread: elections-1960-nomination
+    also: [press-and-broadcasting]
+    c: Kennedy to answer Truman at his own news conference, the Roosevelt Hotel, New York, July 4. NBC, by Kintner's telegram, to carry it live, radio and television; CBS to tape it and use what it judges news; ABC portions.
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 4 (Clayton Knowles, "Kennedy Replies to Charge Today": arranged by telephone from Hyannis Port; Sorensen flew in from the West Coast July 3; Shriver''s arrangements); Jack Gould, "TV: Battle of Unequals" (CBS''s decision "yesterday"; page not shown). Reply: [[cal.1960-07-04.elections-1960]]. Names: Kennedy, Truman, Sorensen.'
+    tags: [name:kennedy-john-f, name:truman-harry-s, name:kintner-robert-e, name:sorensen-theodore-c, ok:fields-place]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-03.elections-1960
+          - cal.1960-07-03.elections-1960-nomination
+          - cal.1960-07-03.elections-1960-nomination-2
+        from: 2026-11-24-nyt-1960-07-04
+  - id: cal.1960-07-03.elections-1960-religion
+    when: July 3
+    date: '1960-07-03'
+    place: dallas
+    thread: elections-1960-religion
+    c: 'W. A. Criswell, preaching at the First Baptist Church, Dallas: Kennedy''s election would "spell the death of a free church in a free state."'
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 4 ("Kennedy Is Attacked," Dallas, July 3, AP). Names: Criswell, Kennedy.'
+    tags: [name:criswell-john, name:kennedy-john-f, state:tx, city:dallas]
+  - id: cal.1960-07-03.japan
+    when: July 3
+    date: '1960-07-03'
+    thread: japan
+    c: Saitama, governor. Kurihara (Liberal Democrat), re-elected, defending the security treaty, 374,598 of 667,579, unofficial, over Umezawa (Socialist) and Baba (Democratic Socialist).
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 3 (Richard J. H. Johnston, "Kishi Party Again Wins Election over Japanese Leftist Opposition," Tokyo, July 4: with the Liberal Democrats'' win in Aomori, July 1; Kishi names no successor). Check: the Aomori result.'
+  - id: cal.1960-07-03.soviet-union
+    when: July 3
+    date: '1960-07-03'
+    thread: soviet-union
+    also: [europe-and-the-alliance-federal-republic]
+    c: Khrushchev, at Mauthausen on the first day of a five-day tour of the Austrian provinces, lays a wreath to the Soviet dead and likens Adenauer to Hitler; names Oberländer.
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 1, 3 (M. S. Handler, "Khrushchev Sees Hitlerite Threat from Bonn Regime," Mauthausen, July 3: Figl present; the photographers'' strike at Ybbs-Persenbeug). Names: Khrushchev, Adenauer.'
+    tags: [name:khrushchev-nikita-s, name:adenauer-konrad]
+  - id: cal.1960-07-03.soviet-union-2
+    when: July 3
+    date: '1960-07-03'
+    thread: soviet-union
+    c: 'Khrushchev, at an impromptu news conference at Linz: ready to negotiate with any future American government, but not with Eisenhower''s; new negotiations unlikely before the American elections.'
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 ("Early Talks Ruled Out," Linz, July 3, UPI). See [[cal.1960-07-03.soviet-union]]. Names: Khrushchev, Eisenhower.'
+    tags: [name:khrushchev-nikita-s, name:eisenhower-dwight-d]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-07-03.soviet-union
+        from: 2026-11-24-nyt-1960-07-04
+  - id: cal.1960-07-03.middle-east
+    when: July 3
+    date: '1960-07-03'
+    thread: middle-east
+    c: Jordan's Cabinet decides to complain to the Arab League of the United Arab Republic's instigation and interference. Majali; the League's council at Beirut, Aug. 22.
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Jordan to Protest Attacks by Nasser," Amman, July 3, dispatch of the *Times*, London: Nasser''s speech of June 24; Hussein''s reply July 2).'
+    tags: [name:hussein-ibn-talal, name:nasser-gamal-abdel]
+  - id: cal.1960-07-03.europe-and-the-alliance-france
+    when: July 3
+    date: '1960-07-03'
+    place: paris
+    thread: europe-and-the-alliance-france
+    c: The Socialist party reaffirms its support of de Gaulle's self-determination for Algeria. Gazier, Pineau and three others quit the directing committee just elected, finding Mollet too uncritical of de Gaulle.
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 2 ("Socialists Renew Paris Algeria Aid," Paris, July 3). Names: de Gaulle.'
+    tags: [name:de-gaulle-charles]
+  - id: cal.1960-07-03.china
+    when: July 3
+    date: '1960-07-03'
+    place: peking
+    thread: china
+    also: [africa]
+    c: Peking, a rally of 1,000 for the new African states. Liu Changsheng, of the China–Africa Friendship Association, and Liao Chengzhi, of the Afro-Asian Solidarity Committee, against American "neocolonial" aid.
+    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html) ("Peiping Assails U.S.," Hong Kong, July 3; page not shown). Names: Liu Changsheng, Liao Chengzhi.'
+    tags: [name:liao-chengzhi, name:liu-changsheng]
   - id: cal.1960-07-04.elections-1960
     when: July 4
     date: '1960-07-04'
