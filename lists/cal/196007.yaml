@@ -2238,12 +2238,16 @@ entries:
     follows:
       - cal.1960-07-04.china-leadership-6
     c: On the train to Beidaihe 北戴河. Yang Shangkun 杨尚昆 with Liu Shaoqi 刘少奇 on the thinking of Maomao 毛毛 (Liu Yunruo 刘允若, Liu's son), till the arrival at 3:30 a.m.
-    n: '[[w.yang-shangkun-riji]], I, 524 (July 4, 1960). The words: 与少奇同志谈毛毛的思想问题，直到3时半到达北戴河均未睡 (I, 524); after the talk with Nie. See [[cal.1960-07-04.china-leadership-3]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Shaoqi, Liu Yunruo.'
+    n: '[[w.yang-shangkun-riji]], I, 524 (July 4, 1960). The words: 与少奇同志谈毛毛的思想问题，直到3时半到达北戴河均未睡 (I, 524); after the talk with Nie. The range: from the train''s departure, 9:30 p.m. (9时半乘火车), to the arrival at 3:30 a.m. July 5; the talk with Liu came after the talk with Nie and a film (I, 524). See [[cal.1960-07-04.china-leadership-3]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Liu Shaoqi, Liu Yunruo.'
     src:
       c: 9310b247
       rows:
         - 'w.yang-shangkun-riji I, 524: all'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:liu-yunruo, name:yang-shangkun]
+    time_range:
+      - 1960-07-04T13:30Z
+      - 1960-07-04T19:30Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-07-04.china-leadership-8
     when: July 4
     date: '1960-07-04'
@@ -4244,12 +4248,17 @@ entries:
     place: los-angeles
     thread: elections-1960-los-angeles
     c: Los Angeles. Lawrence, Pennsylvania's governor, met at the airport the evening of July 9 by John Bailey, who drives him to the Biltmore pressing Kennedy's case. July 10, 11 a.m., Kennedy and Lawrence alone at the Biltmore for half an hour; late that night Lawrence to Stevenson at the Beverly Hills Hotel, two hours. No word from Lawrence.
-    n: '[[w.white-making-of-the-president]], 160–61. See [[cal.1960-07-08.elections-1960]]. Names: Lawrence, Kennedy, Stevenson.'
+    n: '[[w.white-making-of-the-president]], 160–61. See [[cal.1960-07-08.elections-1960]]. The time is the first day''s. Names: Lawrence, Kennedy, Stevenson.'
     src:
       c: 27d28315
       rows:
         - 'w.white-making-of-the-president 160–61: all'
     tags: [name:lawrence-david-l, name:kennedy-john-f, name:stevenson-adlai-e, state:ca]
+    time_range:
+      - 1960-07-10T02:00Z
+      - 1960-07-10T05:00Z
+    time_band: evening
+    time_zone: America/Los_Angeles
   - id: cal.1960-07-09.elections-1960-4
     when: July 9–10
     date: '1960-07-09'
@@ -5535,11 +5544,13 @@ entries:
   - id: cal.1960-07-13.elections-1960-los-angeles-2
     when: July 13
     date: '1960-07-13'
+    time: 1960-07-13T22:00Z
     place: los-angeles
     thread: elections-1960-los-angeles
     c: 'Los Angeles, the Sports Arena, the convention gaveled to order at 3 p.m. Rayburn makes the first nominating speech, for Johnson: "a poor boy who dreamed great dreams." Johnson watches it on television in his suite.'
-    n: '[[w.caro-passage-of-power]], 106–07. Names: Rayburn, Johnson. Check: the hour of the speech.'
+    n: '[[w.caro-passage-of-power]], 106–07. The time is the session''s opening; the speech''s hour is not given. Names: Rayburn, Johnson. Check: the hour of the speech.'
     tags: [name:rayburn-sam, name:johnson-lyndon-b]
+    time_zone: America/Los_Angeles
   - id: cal.1960-07-13.elections-1960-los-angeles-3
     when: July 13
     date: '1960-07-13'

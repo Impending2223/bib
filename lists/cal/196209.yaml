@@ -2227,6 +2227,7 @@ entries:
   - id: cal.1962-09-15.china-leadership-7
     when: Sept. 15
     date: '1962-09-15'
+    time: 1962-09-15T16:30Z
     thread: china-leadership
     c: Zhou Enlai 周恩来 with Yang Shangkun 杨尚昆, 12:30 to after 2:30 a.m. (the night of Sept. 15–16).
     n: '[[w.yang-shangkun-riji]], II, 210 (Sept. 15, 1962). The words: 总理12时半来谈话，到2时半过了才走 (II, 210). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Yang Shangkun.'
@@ -2235,6 +2236,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 210: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
+    time_zone: Asia/Shanghai
   - id: cal.1962-09-16.middle-east
     when: Sept. 16
     date: '1962-09-16'
@@ -4018,11 +4020,15 @@ entries:
   - id: cal.1962-09-25.white-house-4
     when: Sept. 25
     date: '1962-09-25'
+    time: 1962-09-26T06:35Z
     place: washington
     thread: white-house
+    follows:
+      - cal.1962-09-25.white-house-3
     c: Washington, the British Embassy, the supper party after the theater. Kennedy with Mrs. Kennedy, his mother and the Colombian Ambassador, Sanz de Santamaría, and his wife, guests of Ormsby-Gore; he stays until 2:35 a.m. and is back at the White House at 2:45.
-    n: '[[w.odonnell-johnny-we-hardly-knew]], 300–01 (O''Donnell''s and Powers''s account). See [[cal.1962-09-25.white-house-3]]. Names: Kennedy, Ormsby-Gore.'
+    n: '[[w.odonnell-johnny-we-hardly-knew]], 300–01 (O''Donnell''s and Powers''s account). The time is his leaving, 2:35 a.m. Sept. 26. After the theater ([[cal.1962-09-25.white-house-3]]). See [[cal.1962-09-25.white-house-3]]. Names: Kennedy, Ormsby-Gore.'
     tags: [name:kennedy-john-f, name:ormsby-gore-david, polity:uk]
+    time_zone: America/New_York
   - id: cal.1962-09-25.china-leadership
     when: Sept. 25
     date: '1962-09-25'

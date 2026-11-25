@@ -719,12 +719,16 @@ entries:
     follows:
       - cal.1962-07-05.china-leadership-2
     c: Tian Jiaying 田家英 with Yang Shangkun 杨尚昆, to 3 a.m.
-    n: '[[w.yang-shangkun-riji]], II, 192 (July 5, 1962). The words: 以后田家英同志来谈话，到3点才睡 (II, 192). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 192 (July 5, 1962). The words: 以后田家英同志来谈话，到3点才睡 (II, 192). The range: from the end of the talk before it, at midnight ([[cal.1962-07-05.china-leadership-2]]), to 3 a.m. July 6. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
     src:
       c: 918ccd64
       rows:
         - 'w.yang-shangkun-riji II, 192: all'
     tags: [polity:prc, vis:only:prc, name:tian-jiaying, name:yang-shangkun]
+    time_range:
+      - 1962-07-05T16:00Z
+      - 1962-07-05T19:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-05.china-leadership-4
     when: July 5–6
     date: '1962-07-05'
@@ -4913,14 +4917,16 @@ entries:
   - id: cal.1962-07-23.china-leadership-5
     when: July 23
     date: '1962-07-23'
+    time: 1962-07-23T11:00Z
     thread: china-leadership
     c: Li Bozhao 李伯钊 operated on; Yang Shangkun 杨尚昆 sees her at 7 p.m.
-    n: '[[w.yang-shangkun-riji]], II, 197 (July 23, 1962). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-07-20.china-leadership-4]]. Names: Li Bozhao, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 197 (July 23, 1962). The words: 晚间7时终于去看了她 (II, 197). The time is Yang''s visit''s; the hour of the operation is not given. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-07-20.china-leadership-4]]. Names: Li Bozhao, Yang Shangkun.'
     src:
       c: 7ba6fb1b
       rows:
         - 'w.yang-shangkun-riji II, 197: all'
     tags: [polity:prc, vis:only:prc, name:li-bozhao, name:yang-shangkun]
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-23.china-leadership-6
     when: July 23
     date: '1962-07-23'
@@ -6129,9 +6135,15 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 199: all'
     tags: [polity:prc, vis:only:prc, name:yang-shangkun]
+    time_range:
+      - 1962-07-27T22:00Z
+      - 1962-07-28T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-28.china-leadership-5
     when: July 28
     date: '1962-07-28'
+    time: 1962-07-28T16:30Z
     place:
       - beidaihe
       - peking
@@ -6143,6 +6155,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 199–200: all'
     tags: [polity:prc, vis:only:prc, name:li-bozhao, name:yang-shangkun]
+    time_zone: Asia/Shanghai
   - id: cal.1962-07-28.china-leadership-7
     when: July 28
     date: '1962-07-28'

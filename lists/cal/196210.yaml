@@ -5090,7 +5090,7 @@ entries:
     thread: missile-crisis
     also: [press-and-broadcasting]
     c: 'After the meeting, Kennedy to Salinger: ask the networks for half an hour at 7 p.m. the next night, "but hold off as long as you can"; arrange briefings at the White House, State and the Pentagon right after the speech; with O''Brien, bring the congressional leaders back for 5 p.m. the next day. By Salinger''s account.'
-    n: '[[w.salinger-with-kennedy]], 259. Check: the hour. See [[cal.1962-10-21.missile-crisis-3]]. Names: Kennedy, Salinger, O''Brien.'
+    n: '[[w.salinger-with-kennedy]], 259. Check: the hour. Check: Salinger places the meeting "that morning" (259); the 506th NSC sat 2:30 to 4:50 p.m. ([[cal.1962-10-21.missile-crisis-3]]). See [[cal.1962-10-21.missile-crisis-3]]. Names: Kennedy, Salinger, O''Brien.'
     tags: [name:kennedy-john-f, name:salinger-pierre, name:obrien-lawrence-f]
   - id: cal.1962-10-21.missile-crisis-11
     when: Oct. 21
@@ -5889,11 +5889,14 @@ entries:
   - id: cal.1962-10-22.missile-crisis-diplomacy-2
     when: Oct. 22
     date: '1962-10-22'
+    time: 1962-10-22T16:00Z
+    time_approx: true
     place: london
     thread: missile-crisis-diplomacy
     c: 'London, after the text of Kennedy''s speech arrives about 5 p.m. Macmillan and Home draft the reply: support in preventing the Russians'' "new act of aggression," with points for thought. A first draft, advising him to seize Cuba, dropped.'
     n: '[[w.macmillan-diaries]], 509 (the "Suez analogy"; the fear of a trade of the Cuban rockets for Turkish or Italian bases, or of Berlin for Cuba). See [[cal.1962-10-22.missile-crisis-16]]. Names: Macmillan, Douglas-Home, Kennedy.'
     tags: [name:macmillan-harold, name:douglas-home-alec, name:kennedy-john-f, polity:uk, polity:us, polity:cuba, polity:ussr, name:home-alec-douglas]
+    time_zone: Europe/London
   - id: cal.1962-10-22.europe-and-the-alliance
     when: Oct. 22
     date: '1962-10-22'
@@ -5952,8 +5955,13 @@ entries:
     thread: missile-crisis-quarantine
     also: [press-and-broadcasting]
     c: Morning. Salinger asks Minow of the FCC to clear the way for the use of ten radio stations; Minow flies back from New York and telephones the managers to stand by for a White House call at 6 p.m. By Salinger's account.
-    n: '[[w.salinger-with-kennedy]], 261. Names: Salinger, Minow.'
+    n: '[[w.salinger-with-kennedy]], 261. The range: "one of my first calls that day" (261). Names: Salinger, Minow.'
     tags: [name:salinger-pierre, name:minow-newton-n]
+    time_range:
+      - 1962-10-22T10:00Z
+      - 1962-10-22T16:00Z
+    time_band: morning
+    time_zone: America/New_York
   - id: cal.1962-10-22.missile-crisis-quarantine-2
     when: Oct. 22
     date: '1962-10-22'
@@ -10203,8 +10211,13 @@ entries:
     place: bonn
     thread: europe-and-the-alliance
     c: Bonn, the Cabinet all day, with long breaks; from 6:30 p.m. without the FDP's ministers. The social package passed all the same (continued pay in sickness, sickness insurance, child allowances), eleven CDU/CSU ministers a quorum. The FDP's parliamentary executive asks the dismissal of Hopf and Strauß, the state secretaries.
-    n: 'Carstens to Schröder at Entebbe, Fernschreiben Nr. 21, Oct. 31, 1962, 9 p.m.: "Hier ist eine ernste Regierungskrise ausgebrochen" (a serious government crisis has broken out here). [[w.akten-zur-auswartigen-politik]], III, 1821 (Dok. 427; n.5, the FDP''s demand, refused Nov. 2; n.6, the Cabinet''s decision). To check: *Kabinettsprotokolle* 1962, 490–92 (cited by [[w.akten-zur-auswartigen-politik]], III, 1821 n.6). See [[cal.1962-10-31.europe-and-the-alliance-2]]. Names: Hopf, Strauss.'
+    n: 'Carstens to Schröder at Entebbe, Fernschreiben Nr. 21, Oct. 31, 1962, 9 p.m.: "Hier ist eine ernste Regierungskrise ausgebrochen" (a serious government crisis has broken out here). [[w.akten-zur-auswartigen-politik]], III, 1821 (Dok. 427; n.5, the FDP''s demand, refused Nov. 2; n.6, the Cabinet''s decision). The range: the Cabinet sat all day; the hour the FDP''s ministers left, 6:30 p.m., is a later act. To check: *Kabinettsprotokolle* 1962, 490–92 (cited by [[w.akten-zur-auswartigen-politik]], III, 1821 n.6). See [[cal.1962-10-31.europe-and-the-alliance-2]]. Names: Hopf, Strauss.'
     tags: [name:hopf-volkmar, name:strauss-walter, polity:frg]
+    time_range:
+      - 1962-10-31T05:00Z
+      - 1962-10-31T18:00Z
+    time_band: daytime
+    time_zone: Europe/Berlin
   - id: cal.1962-10.japan
     when: Oct., late
     date: 1962-10

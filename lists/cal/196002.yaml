@@ -89,16 +89,18 @@ entries:
   - id: cal.1960-02-01.china-leadership-3
     when: Feb. 1
     date: '1960-02-01'
+    time: 1960-02-01T04:00Z
     place: hainan
     thread: china-leadership
     c: 'Hainan 海南. Yang Shangkun 杨尚昆 and his party from Jiaji 嘉积 to Haikou 海口, Wenchang 文昌 given up, many being ill; rice fields on the way. At Haikou at noon: a park, the Wugong ci 五公祠, the town.'
-    n: '[[w.yang-shangkun-riji]], I, 475 (Feb. 1, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1527 (Feb. 1, 1960; Deng leaves Jiaji, at Haikou 海口 at noon; the park and the town; Yang Shangkun not named). The words: 12时到达海口 (I, 475). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 475 (Feb. 1, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1527 (Feb. 1, 1960; Deng leaves Jiaji, at Haikou 海口 at noon; the park and the town; Yang Shangkun not named). The words: 12时到达海口 (I, 475). The time is the arrival at Haikou; the hour of leaving Jiaji is not given. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
       c: f1a89b9b
       rows:
         - 'w.yang-shangkun-riji I, 475: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1527: ?'
     tags: [polity:prc, vis:only:prc, name:yang-shangkun]
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-01.china-leadership-4
     when: Feb. 1
     date: '1960-02-01'
@@ -298,13 +300,18 @@ entries:
     place: guangdong
     thread: china-leadership
     c: 'Guangdong 广东. Yang Shangkun 杨尚昆 and his party by car from Zhanjiang 湛江 by Huaxian 化县 and Dianbai 电白 to Yangjiang 阳江 county (its hall, a commune''s pig raising), and to Xinhui 新会 county at 6 p.m.: the county''s agricultural exhibition.'
-    n: '[[w.yang-shangkun-riji]], I, 476 (Feb. 3, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1528 (Feb. 3, 1960; Deng leaves Zhanjiang, at Yangjiang 阳江 at noon, the Ganglie brigade''s pig farm 岗列大队养猪场; at Xinhui 新会 at 6 p.m.; Yang Shangkun not named). The words: 于下午6时到达新会县 (I, 476). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 476 (Feb. 3, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1528 (Feb. 3, 1960; Deng leaves Zhanjiang, at Yangjiang 阳江 at noon, the Ganglie brigade''s pig farm 岗列大队养猪场; at Xinhui 新会 at 6 p.m.; Yang Shangkun not named). The words: 中午到达阳江县吃午饭; 于下午6时到达新会县 (I, 476). The range is the arrival at Yangjiang, at midday; the hour of leaving Zhanjiang is not given. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
       c: 74dca366
       rows:
         - 'w.yang-shangkun-riji I, 476: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1528: ?'
     tags: [polity:prc, vis:only:prc, name:yang-shangkun]
+    time_range:
+      - 1960-02-03T04:00Z
+      - 1960-02-03T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-03.cuba
     when: Feb. 3
     date: '1960-02-03'
@@ -435,13 +442,18 @@ entries:
     place: guangdong
     thread: china-leadership
     c: Guangdong 广东. Yang Shangkun 杨尚昆 and his party at Xinhui 新会 (Mashan 马山, the greening of Guifeng 圭峰, the labor university, the tool-reform exhibition, a farm-machinery works); at Jiangmen 江门, China's first large sugar mill; at Foshan 佛山, the Zumiao 祖庙 park, craft workshops, a model street; back at Canton 广州 at 5 p.m.
-    n: '[[w.yang-shangkun-riji]], I, 476 (Feb. 4, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1528 (Feb. 4, 1960; morning, Deng at the Xinhui farm-machinery works; Jiangmen 江门, the sugar-cane chemical works; afternoon, Foshan 佛山, the park, the craft workshops and the model street for hygiene; at Canton at 5 p.m.; Yang Shangkun not named). The words: 下午5时到达广州 (I, 476). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 476 (Feb. 4, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1528 (Feb. 4, 1960; morning, Deng at the Xinhui farm-machinery works; Jiangmen 江门, the sugar-cane chemical works; afternoon, Foshan 佛山, the park, the craft workshops and the model street for hygiene; at Canton at 5 p.m.; Yang Shangkun not named). The words: 晨起即上马山; 下午5时到达广州 (I, 476). The range is the first act''s: early morning, on Mashan. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
       c: 6ca049ab
       rows:
         - 'w.yang-shangkun-riji I, 476: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1528: ?'
     tags: [polity:prc, vis:only:prc, name:yang-shangkun]
+    time_range:
+      - 1960-02-03T21:00Z
+      - 1960-02-04T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
   - id: cal.1960-02-04.vietnam-hanoi
     when: Feb. 4
     date: '1960-02-04'
@@ -1972,12 +1984,14 @@ entries:
   - id: cal.1960-02-15.congress
     when: Feb. 15
     date: '1960-02-15'
+    time: 1960-02-15T17:11Z
     place: washington
     thread: congress
     also: [democratic-party, economy]
     c: 'Senate Democrats in conference at the freshmen''s request, Muskie speaking for them; Johnson reads a statement on the session''s problems. Douglas leads on the Joint Economic Committee''s report: growth 2.3 percent a year, 1953–59, against 4.6 to 4.7 percent, 1947–53; unemployment 4 percent. Against lifting the 4¼ percent interest ceiling: it would be "unilateral disarmament." Long (La.): the Republicans "want to saddle us with high interest rates for the next twenty years." Adjourned 12:11 p.m.'
-    n: '[[w.ritchie-minutes-of-the-senate]], 557–71 (the meeting, 557–60; Johnson''s statement, 561–63; Douglas, 558–59; Long, 560; the interest-rate papers attached, 564–71). Names: Johnson, Muskie, Douglas, Long.'
+    n: '[[w.ritchie-minutes-of-the-senate]], 557–71 (the meeting, 557–60; Johnson''s statement, 561–63; Douglas, 558–59; Long, 560; the interest-rate papers attached, 564–71). The time is the adjournment''s; the minutes give no hour for the opening. Names: Johnson, Muskie, Douglas, Long.'
     tags: [name:johnson-lyndon-b, name:muskie-edmund-s, name:douglas-paul-h, name:long-russell-b]
+    time_zone: America/New_York
   - id: cal.1960-02-15.china-leadership
     when: Feb. 15
     date: '1960-02-15'
@@ -2751,12 +2765,14 @@ entries:
   - id: cal.1960-02-18.congress
     when: Feb. 18
     date: '1960-02-18'
+    time: 1960-02-18T15:54Z
     place: washington
     thread: congress
     also: [democratic-party, foreign-aid]
     c: 'Senate Democrats in conference, adjourning 10:54 a.m. Clark on the budget: "We cannot be the party of irresponsible spenders." Johnson tells of the leaders'' recent unpublicized meeting with Eisenhower on foreign aid. Symington: the President "is acting like a spoiled child on defense." Douglas, asked by Johnson, says stand firm on the 4¼ percent ceiling.'
-    n: '[[w.ritchie-minutes-of-the-senate]], 572–75 (the meeting; Johnson''s account of the White House meeting, 573; Symington''s words, 573; Douglas, 575). See [[cal.1960-02.foreign-aid]]. Names: Clark, Johnson, Eisenhower, Symington, Douglas.'
+    n: '[[w.ritchie-minutes-of-the-senate]], 572–75 (the meeting; Johnson''s account of the White House meeting, 573; Symington''s words, 573; Douglas, 575). See [[cal.1960-02.foreign-aid]]. The time is the adjournment''s; the minutes give no hour for the opening. Names: Clark, Johnson, Eisenhower, Symington, Douglas.'
     tags: [name:clark-joseph-s, name:johnson-lyndon-b, name:eisenhower-dwight-d, name:symington-william-s, name:douglas-paul-h]
+    time_zone: America/New_York
   - id: cal.1960-02-18.cuba-2
     when: Feb. 18
     date: '1960-02-18'

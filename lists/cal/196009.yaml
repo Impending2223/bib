@@ -3238,12 +3238,16 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: Peking 北京. Mao 毛泽东 calls Yang Shangkun 杨尚昆 and asks about the documents, to 5:30.
-    n: '[[w.yang-shangkun-riji]], I, 543 (Sept. 11, 1960). The words: 5时半完毕 (I, 543). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 543 (Sept. 11, 1960). The words: 下午3时去钓鱼台开会，4时半回; 5时半完毕 (I, 543). The range: after the return at 4:30 p.m. to the end at 5:30 p.m. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mao Zedong, Yang Shangkun.'
     src:
       c: c14e0a21
       rows:
         - 'w.yang-shangkun-riji I, 543: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc, name:yang-shangkun]
+    time_range:
+      - 1960-09-11T08:30Z
+      - 1960-09-11T09:30Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-09-11.china-leadership-7
     when: Sept. 11
     date: '1960-09-11'
@@ -6031,11 +6035,16 @@ entries:
   - id: cal.1960-09-22.farm-4
     when: Sept. 22
     date: '1960-09-22'
+    place: sioux-city
     thread: farm
     also: [elections-1960-kennedy]
     c: '3 a.m. Kennedy telephones Goodwin about the farm speech for the Plowing Contest: "Look ... about that speech. I want to be sure I don''t fall on my face. Call Hubert [Humphrey] in the morning and read it to him. Make sure it''s right."'
-    n: '[[w.goodwin-remembering-america]], 119 (Goodwin''s account). See [[cal.1960-09-21.farm-2]]. Names: Kennedy, Goodwin, Humphrey.'
+    n: '[[w.goodwin-remembering-america]], 119 (Goodwin''s account). The range: 3 a.m. at Sioux City, Iowa, where Kennedy spent the night ([[cal.1960-09-21.elections-1960-kennedy-5]]); Goodwin does not name the place. Iowa kept daylight time by local option in 1960, so the clock is standard or daylight, an hour apart. See [[cal.1960-09-21.farm-2]]. Names: Kennedy, Goodwin, Humphrey.'
     tags: [name:kennedy-john-f, name:goodwin-richard-n, name:humphrey-hubert-h]
+    time_range:
+      - 1960-09-22T08:00Z
+      - 1960-09-22T09:00Z
+    time_zone: America/Chicago
   - id: cal.1960-09-22.farm-5
     when: Sept. 22
     date: '1960-09-22'

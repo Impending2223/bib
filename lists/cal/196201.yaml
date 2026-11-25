@@ -2571,15 +2571,20 @@ entries:
   - id: cal.1962-01-16.china-leadership-8
     when: Jan. 16
     date: '1962-01-16'
+    place: peking
     thread: china-leadership
     c: 'Tian Jiaying 田家英 to Yang Shangkun 杨尚昆: Liu and Deng have spoken to Mao 毛泽东; Mao sets up a drafting committee 起草委员会 of 20, to settle first what the main contradiction is, then write; it meets the next day at 3 p.m. By Yang Jisheng, under Liu Shaoqi: Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Bo Yibo, Chen Boda, Ke Qingshi, Li Jingquan, Song Renqiong, Ulanfu, Tao Zhu, Liu Lantao, Wang Renzhong and others.'
-    n: '[[w.yang-shangkun-riji]], II, 113 (Jan. 16, 1962); [[w.yang-jisheng-tiandi-fanfu]], I, 66 (Mao proposes a new drafting committee of 21 under Liu Shaoqi: Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Bo Yibo, Chen Boda, Ke Qingshi, Li Jingquan, Song Renqiong, Ulanfu, Tao Zhu, Liu Lantao, Wang Renzhong and others). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 75 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 66 n.57). See [[cal.1962-01-16.china-leadership]]. Names: Tian Jiaying, Yang Shangkun, Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Bo Yibo, Chen Boda, Ke Qingshi, Li Jingquan, Tao Zhu, Song Renqiong, Liu Lantao, Wang Renzhong.'
+    n: '[[w.yang-shangkun-riji]], II, 113 (Jan. 16, 1962); [[w.yang-jisheng-tiandi-fanfu]], I, 66 (Mao proposes a new drafting committee of 21 under Liu Shaoqi: Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Bo Yibo, Chen Boda, Ke Qingshi, Li Jingquan, Song Renqiong, Ulanfu, Tao Zhu, Liu Lantao, Wang Renzhong and others). The words: 8时半到12时半汇报; 2时半才回家 (II, 113). The range: from the report meeting''s end, 12:30 a.m. Jan. 17, to the return home at 2:30 a.m. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 75 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 66 n.57). See [[cal.1962-01-16.china-leadership]]. Names: Tian Jiaying, Yang Shangkun, Mao Zedong, Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Li Xiannian, Bo Yibo, Chen Boda, Ke Qingshi, Li Jingquan, Tao Zhu, Song Renqiong, Liu Lantao, Wang Renzhong.'
     src:
       c: 6759bcc5
       rows:
         - 'w.yang-shangkun-riji II, 113: A-C'
         - 'w.yang-jisheng-tiandi-fanfu I, 66: B, D'
     tags: [polity:prc, name:mao-zedong, vis:only:prc, name:liu-shaoqi, name:zhou-enlai, name:chen-yun, name:deng-xiaoping, name:peng-zhen, name:li-fuchun, name:li-xiannian, name:bo-yibo, name:chen-boda, name:ke-qingshi, name:li-jingquan, name:tao-zhu, name:liu-lantao, name:song-renqiong, name:tian-jiaying, name:wang-renzhong, name:yang-shangkun]
+    time_range:
+      - 1962-01-16T16:30Z
+      - 1962-01-16T18:30Z
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-16.china-leadership-9
     when: Jan. 16
     date: '1962-01-16'
@@ -4507,8 +4512,13 @@ entries:
     place: paris
     thread: soviet-union
     c: Paris, the Soviet Embassy, four hours. Salinger and Murrow agree with Kharlamov on a series of thirty-minute joint television programs, the first on March 18, at noon in Washington and 7 p.m. in Moscow, the theme "What Kind of World I Would Like to Live In." Salinger asks whether the Soviet Union would negotiate a "hot line"; Kharlamov will find out in Moscow. By Salinger's account.
-    n: '[[w.salinger-with-kennedy]], 211–13 (each side to film its principal on March 9 or 10; the luncheon at the embassy after). Check: the day ("the next morning" after the cocktail party). Names: Salinger, Murrow, Kharlamov.'
+    n: '[[w.salinger-with-kennedy]], 211–13 (each side to film its principal on March 9 or 10; the luncheon at the embassy after). The range: the talks began "the next morning" (211). Check: the day ("the next morning" after the cocktail party). Names: Salinger, Murrow, Kharlamov.'
     tags: [name:salinger-pierre, name:murrow-edward-r, name:kharlamov-mikhail-a]
+    time_range:
+      - 1962-01-29T05:00Z
+      - 1962-01-29T11:00Z
+    time_band: morning
+    time_zone: Europe/Paris
   - id: cal.1962-01-29.china-leadership
     when: Jan. 29
     date: '1962-01-29'
@@ -4613,12 +4623,16 @@ entries:
     follows:
       - cal.1962-01-29.china-leadership-4
     c: Tian Jiaying 田家英 and Kang Yimin 康一民 to Yang Shangkun 杨尚昆, to 1:45 a.m.
-    n: '[[w.yang-shangkun-riji]], II, 118 (Jan. 29, 1962). The words: 一直到1时3刻 (II, 118). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Kang Yimin, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 118 (Jan. 29, 1962). The words: 一直到1时3刻 (II, 118). The range: after 10 p.m., when the office work began ([[cal.1962-01-29.china-leadership-4]]), to 1:45 a.m. Jan. 30. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Kang Yimin, Yang Shangkun.'
     src:
       c: 3aa60b0a
       rows:
         - 'w.yang-shangkun-riji II, 118: all'
     tags: [polity:prc, vis:only:prc, name:kang-yimin, name:tian-jiaying, name:yang-shangkun]
+    time_range:
+      - 1962-01-29T14:00Z
+      - 1962-01-29T17:45Z
+    time_zone: Asia/Shanghai
   - id: cal.1962-01-29.china-leadership-6
     when: Jan. 29
     date: '1962-01-29'
