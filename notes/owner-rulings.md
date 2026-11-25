@@ -276,3 +276,17 @@ The review's finding: today's footnotes.py already compiles footnotes the way 35
 
 - Default taken: keep `src` and its rows; a row's target, besides `all` and `?`, may be quoted words (`"Moscow will send Zorin"`, or two quoted ends), and the letters are converted to quoted words once; `src.c` kept as the text a row's `all` was made against, and the merge taught to narrow `all` rows and carry quotes across an edit; variants `on:` and visibility rulings by quoted words; footnotes.py's compile unchanged, run over the boundaries the quotes give; the splitter kept for visibility's segmentation and as a reading aid, never as an address. Before conversion: rebase the 1,048 stale maps from history; count a work's page and its notes as one source; make the additive ops `cite` and `variant` carry words, not letters. Done a year at a time, each proved by the same passages and sources before and after. The display repairs the review lists (STYLE 8's "block", "*See supra* note n." for a repeated footnote, part-naming parentheticals, `?` rows, marks under visibility) go with the trial year as listed departures, none blocking.
 - Applies to: claims.py, footnotes.py, vis.py/vispage.py, addops.py, patchcheck, merge, R22/R32/R34/R41/R51 (a sentence each); supersedes 35's annotation apparatus; notes/proposals/claims-model.md to be marked superseded and rewritten to this.
+
+## 35f. Cuts, not quotes (the Fable review's comparison, notes/proposals/claims-model-review-fable.md, section 10; amends 35e's storage, keeps its display, passes and proof)
+
+The two independent reviews agree on the finding (today's footnotes.py already compiles the footnoted passages the owner described; neither redesign is to be built) and on nearly all the remedy; they differ on where a part's boundary is stored: 35e in each source row as quoted words, the Fable review once in `c` as a cut with a permanent id, never shown. The owner's own question of 3:25 p.m. ("a not-human-readable 'separator'") points to the second.
+
+- Default taken: 35f as the Fable review states it. `c` stays one string; a cut with a permanent id is stored in it only where a source, a variant or a visibility ruling bears on less than the whole entry; rows, rulings and variants name part ids where they now name letters; a patch names a part by its words (`on:`), and the merge makes the cut; footnotes.py compiles as now over parts. Before conversion: the stale maps rebased from history; a work's page and its notes one source for passages; `cite`, `primary` and `variant` carrying words. Conversion a year at a time, proved by the same passages and sources, then the pages byte for byte. Display changes apart, each previewed and listed as a departure. The fallback, if the owner will not have cuts in `c`: 35e with the review's three repairs.
+- Applies to: store.py, claims.py, footnotes.py, vis.py, vispage.py, witnesses.py, addops.py, patchcheck.py, merge.py; R22, R33, R33a, R34, R35, R41; notes/proposals/claims-model.md marked superseded and rewritten to this.
+
+## 36. The eight held NYT patches (Nov. 24)
+
+Both reviews: nothing in them waits on the claims work (386 adds, 19 primary rows at `?`, three edits, no letters). The owner's Nov. 22 rule holds new readers and auditors until the model is in; these are read and audited.
+
+- Default taken: merge them at the 5:06 p.m. resume (resolve --take keep on the distinct same-day notices; the merge-time items in the handoff, 1d), check, build, PR, merge.
+- Applies to: inbox/2026-11-24-nyt-1960-07-0[3-6]{,-b}.yaml.

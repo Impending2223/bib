@@ -1369,3 +1369,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 4:10 p.m. PT) "Do you set token budgets for the agents or does the backend do that? How do they compare to your own in-session budget? Can you change the agent's "effort" settings? Can you summon a higher-level agent (i.e., Fable), or assign them a higher "effort" setting than you yourself are acting on? Or not?"
 
 (Nov. 24, about 4:20 p.m. PT) "The first reader pass on any subsequently-audited read should be in Sonnet, including in-session. Opus audits. Write that to your standing instructions. Have a Fable high effort run give me a fresh audit. Same brief as the first, save whatever minimum changes needed to reflect subsequent changes to state. When the Fable agent returns with its brief, give it the old Opus audit brief if it hasn't seen it already."
+
+(The Fable review and its comparison landed about 4:50 p.m. PT, Nov. 24: notes/proposals/claims-model-review-fable.md; defaults 35f and 36 recorded.)
