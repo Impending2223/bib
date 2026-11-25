@@ -771,17 +771,18 @@ entries:
     place: philadelphia
     thread: elections-1968-humphrey
     also: [vietnam]
-    c: 'Philadelphia: Humphrey, some American units might be withdrawn from Vietnam late in 1968 or early in 1969;{1} at Denver the same day, the convention''s majority and minority planks on Vietnam not far apart.{2}'
-    n: '[[w.chester-american-melodrama]], 633 (Philadelphia and Denver; Rusk''s correction; Humphrey to Clifford that night); [[w.solberg-hubert-humphrey]], 375 (Philadelphia, John F. Kennedy Plaza, a Penn student panel''s question; Denver, the two planks "so mildly different"); [[w.white-making-of-the-president-1969]], 334–35 (Philadelphia, some 10,000; Rusk''s repudiation; Denver); [[w.zaroulis-who-spoke-up]], 202 (early September: Humphrey suggests some troops might come home in late 1968 or early 1969; Johnson corrects him). Check: Humphrey, 396, makes Philadelphia the campaign''s start (thin crowds, too little advance work, Rizzo''s crowd estimate) and gives no day, nothing of the withdrawal remarks. See [[cal.1968-09-02.elections-1968]]. Names: Humphrey.'
+    c: 'Philadelphia: Humphrey, some American units might be withdrawn from Vietnam late in 1968 or early in 1969;{1} at Denver the same day, the convention''s majority and minority planks on Vietnam not far apart.{2} Some 10,000 at the rally in downtown Philadelphia.{3} By Solberg''s account the question comes from a University of Pennsylvania student panel; White has reporters pressing him.{4}'
+    n: '[[w.chester-american-melodrama]], 633 (Philadelphia and Denver; Rusk''s correction; Humphrey to Clifford that night); [[w.solberg-hubert-humphrey]], 375 (Philadelphia, John F. Kennedy Plaza, a Penn student panel''s question; Denver, the two planks "so mildly different"); [[w.white-making-of-the-president-1969]], 334–35 (Philadelphia, some 10,000; Rusk''s repudiation; Denver); [[w.zaroulis-who-spoke-up]], 202 (early September: Humphrey suggests some troops might come home in late 1968 or early 1969; Johnson corrects him); [[w.white-making-of-the-president-1969]], 334; [[w.solberg-hubert-humphrey]], 375. Check: Humphrey, 396, makes Philadelphia the campaign''s start (thin crowds, too little advance work, Rizzo''s crowd estimate) and gives no day, nothing of the withdrawal remarks. See [[cal.1968-09-02.elections-1968]]. Names: Humphrey.'
     src:
-      c: bbfc2632
+      c: 2a9f9614
       rows:
         - 'w.chester-american-melodrama 633: 1'
-        - 'w.solberg-hubert-humphrey 375: 1, 2'
         - 'via w.solberg-hubert-humphrey 375 n.mildly: 2'
         - 'w.white-making-of-the-president-1969 334–35: ?'
         - 'w.zaroulis-who-spoke-up 202: 1'
-    tags: [name:humphrey-hubert-h, state:pa, city:philadelphia]
+        - 'w.white-making-of-the-president-1969 334: 3'
+        - 'w.solberg-hubert-humphrey 375: 1, 2, 4'
+    tags: [name:humphrey-hubert-h, state:pa, city:philadelphia, ok:note-substance]
   - id: cal.1968-09-09.states-and-cities-nyc
     when: Sept. 9
     date: '1968-09-09'
@@ -1318,6 +1319,19 @@ entries:
     c: Route 22. Regiment 88 of the 5th Division ambushes and counterattacks and by the history's count puts about 350 out of action, destroys 46 vehicles and shoots down 6 helicopters.
     n: '[[w.lich-su-khang-chien-chong-my]], V, 236. See [[cal.1968-09-12.vietnam-hanoi-2]]. The figures are the history''s.'
     tags: [polity:drv, polity:us, polity:rvn]
+  - id: cal.1968-09-12.court-fortas
+    when: Sept. 12, evening
+    date: '1968-09-12'
+    place: washington
+    thread: court-fortas
+    c: 'Paul Porter shows Califano his letter to businessmen raising money for Fortas''s seminars at American University: $30,000 raised, $15,000 paid. Califano tells Larry Temple, and Johnson later that evening; Johnson: "We won''t withdraw the nomination. I won''t do that to Abe." By Califano''s account.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 316. See [[cal.1968-09-13.court-fortas]]. Names: Califano, Temple, Johnson, Fortas. Check: the day; Califano has it "shortly before" the hearings resumed Sept. 13.'
+    tags: [name:califano-joseph-a-jr, name:temple-larry, name:johnson-lyndon-b, name:fortas-abe]
+    time_range:
+      - 1968-09-12T23:00Z
+      - 1968-09-13T02:00Z
+    time_band: evening
+    time_zone: America/New_York
   - id: cal.1968-09-13.court-fortas
     when: Sept. 13
     date: '1968-09-13'
@@ -4261,3 +4275,11 @@ entries:
       rows:
         - 'w.chang-friends-and-enemies 277: all'
     tags: [polity:prc]
+  - id: cal.1968-09.court-fortas-2
+    when: Sept., after Tennery's testimony
+    date: 1968-09
+    at: after 1968-09-13
+    thread: court-fortas
+    c: Dirksen withdraws his support of Fortas and will not vote to shut off debate. By Califano's account.
+    n: '[[w.califano-triumph-and-tragedy-of]], 317. See [[cal.1968-09-13.court-fortas]]. Names: Dirksen, Fortas. Check: the day.'
+    tags: [name:dirksen-everett, name:fortas-abe]
