@@ -5576,13 +5576,18 @@ entries:
     when: Mar. 25
     date: '1961-03-25'
     thread: china-leadership
-    c: 'Peng Zhen 彭真 tells Yang Shangkun 杨尚昆: the Canton conference 广州会议 settled the rural policies, and Mao 毛泽东 stressed investigation; the Center has issued a directive on it, sent to the printers that day. Yang: he too should go out to investigate.'
-    n: '[[w.yang-shangkun-riji]], I, 667 (Mar. 25, 1961; note 1: the Center''s letter to the regional bureaus and provincial committees on earnest investigation). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-03-23.china-leadership-3]]. Names: Peng Zhen, Yang Shangkun, Mao Zedong.'
+    c: 'Peng Zhen 彭真 tells Yang Shangkun 杨尚昆: the Canton conference 广州会议 settled the rural policies, and Mao 毛泽东 stressed investigation;{2} the Center has issued a directive on it, sent to the printers that day.{3} Yang: he too should go out to investigate.{4}'
+    cut_from:
+      '2': '1'
+      '3': '1'
+      '4': '1'
+    n: '[[w.yang-shangkun-riji]], I, 667 (Mar. 25, 1961; note 1: the Center''s letter to the regional bureaus and provincial committees on earnest investigation); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 225–27 (the Center''s letter of Mar. 23, 1961 on earnest investigation, the directive meant; not the printing that day). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-03-23.china-leadership-3]]. Names: Peng Zhen, Yang Shangkun, Mao Zedong.'
     src:
       c: 5e76ad28
       rows:
-        - 'w.yang-shangkun-riji I, 667: all'
-        - 'via w.yang-shangkun-riji I, 667 n.1: all'
+        - 'w.yang-shangkun-riji I, 667: 2, 3, 4'
+        - 'via w.yang-shangkun-riji I, 667 n.1: 2, 3, 4'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 225–27: 3'
     tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc, name:yang-shangkun]
   - id: cal.1961-03-25.laos
     when: Mar. 25

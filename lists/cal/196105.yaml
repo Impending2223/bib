@@ -6762,7 +6762,7 @@ entries:
     date: '1961-05-23'
     thread: vietnam-johnson-asia
     c: Johnson's report to Kennedy on the trip urges a decision to stand in Southeast Asia.{1}
-    n: 'Letter from Johnson to Kennedy (K–J Adm. II.H.3), FRUS 1961–63, I, docs. [59](https://history.state.gov/historicaldocuments/frus1961-63v01/d59), [60](https://history.state.gov/historicaldocuments/frus1961-63v01/d60). [[w.gibbons-u-s-government-and]], II, 44–45; [[w.sorensen-kennedy]], 653. Check: Gibbons, II, 44, has the report given May 24, the day Johnson returned, with an oral report to congressional leaders; FRUS prints it undated. [[w.preston-war-council]], 84. See [[cal.1961-05-09.vietnam]]. Names: Johnson, Kennedy.'
+    n: 'Letter from Johnson to Kennedy (K–J Adm. II.H.3), FRUS 1961–63, I, docs. [59](https://history.state.gov/historicaldocuments/frus1961-63v01/d59), [60](https://history.state.gov/historicaldocuments/frus1961-63v01/d60). [[w.gibbons-u-s-government-and]], II, 44–45; [[w.sorensen-kennedy]], 653. Check: Gibbons, II, 44, has the report given May 24, the day Johnson returned, with an oral report to congressional leaders; FRUS prints it undated. [[w.preston-war-council]], 84. Check: FRUS prints the paper (doc. 59) without its sections on the Laotian crisis and Southeast Asia, Taiwan and the Philippines; its section on Vietnam urges that the effort there be made. See [[cal.1961-05-09.vietnam]]. Names: Johnson, Kennedy.'
     src:
       c: 2699afaf
       rows:
@@ -9284,13 +9284,17 @@ entries:
     date: 1961-05
     thread: berlin-and-vienna
     also: [soviet-union, intelligence]
-    c: The Kremlin has copies of the papers France delivered to NATO on the allies' positions on Berlin; the Presidium also reads the West German Ambassador's correspondence with Bonn.
-    n: '[[w.fursenko-khrushchevs-cold-war]], 374. Check: the day: the work cites the Presidium''s stenogram of May 26 for the intelligence (374 nn.39–40). To check: the stenogram, May 26, 1961 (cited by [[w.fursenko-khrushchevs-cold-war]], 374 nn.39–40). Discussed: [[cal.1961-05-26.soviet-union]].'
+    c: The Kremlin has copies of the papers France delivered to NATO on the allies' positions on Berlin;{2} the Presidium also reads the West German Ambassador's correspondence with Bonn.{3}
+    cut_from:
+      '2': '1'
+      '3': '1'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 374; [[w.prezidium-tsk-kpss-1954]], I, 500 (Khrushchev reads out Ambassador Kroll''s message to Bonn). Check: the day: the work cites the Presidium''s stenogram of May 26 for the intelligence (374 nn.39–40). Check: the stenogram (I, 503) has Khrushchev on a memorandum presented to the French government on the German talks at the NATO session, setting out the views of four states, not all the members; "the papers France delivered to NATO" is Fursenko and Naftali''s (374). To check: the stenogram, May 26, 1961 (cited by [[w.fursenko-khrushchevs-cold-war]], 374 nn.39–40). Discussed: [[cal.1961-05-26.soviet-union]].'
     src:
       c: 4c7af422
       rows:
-        - 'w.fursenko-khrushchevs-cold-war 374: all'
-        - 'via w.fursenko-khrushchevs-cold-war 374 n.39: all'
+        - 'w.fursenko-khrushchevs-cold-war 374: 2, 3'
+        - 'via w.fursenko-khrushchevs-cold-war 374 n.39: 2, 3'
+        - 'w.prezidium-tsk-kpss-1954 I, 500: 3'
     tags: [vis:only:ussr]
   - id: cal.1961-05.freedom-rides-4
     when: May, late
