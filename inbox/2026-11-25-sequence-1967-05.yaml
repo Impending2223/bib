@@ -1,18 +1,15 @@
-patch: 2026-11-25-sequence-1967-05
-by: 'Claude (Sonnet, sequence pass: R25c on May 1967), Nov. 25, 2026; notes/sequence/1967-05.md'
+patch: '2026-11-25-sequence-1967-05'
+by: 'Claude (Sonnet, sequence pass: R25c on May 1967), Nov. 25, 2026; notes/sequence/1967-05.md; audited and corrected by Claude (Opus), Nov. 25, 2026; notes/sequence/audit-1967-05.md'
 ops:
-- follows:
-    id: cal.1967-05-07.china-leadership-3
-    add:
-    - cal.1967-05-07.china-leadership-5
 - follows:
     id: cal.1967-05-15.vietnam-congress-2
     add:
     - cal.1967-05-15.vietnam-congress
-- follows:
-    id: cal.1967-05-16.vietnam-air-war
-    add:
-    - cal.1967-05-16.vietnam
+- edit:
+    id: cal.1967-05-15.vietnam-congress-2
+    base: 0aa1c4e6
+    set:
+      n: '[113 Cong. Rec. 12608–09](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-1-1.pdf#page=90) (May 15, 1967). [113 Cong. Rec. 12,593–94, 12,608–09](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-1-1.pdf#page=75) (1967). [[w.mann-grand-delusion]], 545–46. The Senate sat from noon to 4:51 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=1), [D230](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=228). Order: after [[cal.1967-05-15.vietnam-congress|Cooper''s speech]] and its colloquy, which Mansfield says he heard (12,593). See [[cal.1967-05-15.vietnam-congress]]. Names: Mansfield, Morse.'
 - follows:
     id: cal.1967-05-18.china-leadership-8
     add:
@@ -21,7 +18,33 @@ ops:
     id: cal.1967-05-23.vietnam-congress
     add:
     - cal.1967-05-23.vietnam-congress-2
+- edit:
+    id: cal.1967-05-23.vietnam-congress
+    base: 25f086ad
+    set:
+      n: '[113 Cong. Rec. 13,534–35](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-7-1.pdf#page=77) (1967) (Senate, May 23, 1967). [[w.gibbons-u-s-government-and]], IV, 686–87. After 2 p.m.: the hour of 2 o''clock announced and the unfinished business laid before the Senate, [13,533](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-7-1.pdf#page=76); the Senate adjourned at 5:21 p.m., [Daily Digest, D249](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=247). Order: after [[cal.1967-05-23.vietnam-congress-2|Pell''s speech]] (13,498–502), before the hour of 2 o''clock. See [[cal.1967-05-17.opinion-2]]. Names: Morton.'
+      time_range:
+      - '1967-05-23T18:00Z'
+      - '1967-05-23T21:21Z'
+      time_zone: America/New_York
+      range_basis: record
 - follows:
     id: cal.1967-05-24.middle-east-six-day-war-2
     add:
     - cal.1967-05-24.vietnam-congress
+- edit:
+    id: cal.1967-05-24.middle-east-six-day-war-2
+    base: f719f4fa
+    set:
+      n: '[113 Cong. Rec. 13,788](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-8-1.pdf#page=104) (1967) (Senate, May 24, 1967). [[w.woods-j-william-fulbright-vietnam]], 152 (the Soviet Union''s good offices for Vietnam). The Senate sat from noon to 3:04 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=1), [D251](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=249). Order: after [[cal.1967-05-24.vietnam-congress|Mansfield''s speech]] (13,728), in the Senate''s proceedings of the day as the Record prints them (13,685–806). Names: Fulbright.'
+      time_range:
+      - '1967-05-24T16:00Z'
+      - '1967-05-24T19:04Z'
+- edit:
+    id: cal.1967-05-24.vietnam-congress
+    base: 679a1821
+    set:
+      n: '[113 Cong. Rec. 13,728](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-8-1.pdf#page=44) (1967) (Senate, May 24, 1967). [[w.gibbons-u-s-government-and]], IV, 680. The Senate sat from noon to 3:04 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=1), [D251](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=249). See [[cal.1967-05-18.vietnam-congress-2]]. Names: Mansfield.'
+      time_range:
+      - '1967-05-24T16:00Z'
+      - '1967-05-24T19:04Z'
