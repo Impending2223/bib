@@ -4,6 +4,43 @@ The standing rule (CLAUDE.md, "Nothing blocks on the owner"; the owner, Nov. 24,
 
 Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every passage marked "For the owner". Line numbers are those of handoff.md at c8146e7 (the file has grown since). Items 1–30 restated and filled the evening of Nov. 24: "Settled" quotes the owner or names the commit; "Default taken" is a default, not a ruling, for the owner to overrule.
 
+## Items 1–30 at a glance
+
+| Item | The question, in a line | Status |
+|---|---|---|
+| 1 | The old record's "open" and "for the owner" passages give way to the queue | not a question |
+| 2 | Johnson–Udall, Jan. 17/18, 1969: one call or two; four bundled entries | default |
+| 3 | RFK oral histories missing from the Drive | not a question |
+| 4 | Tag the Hồng Quảng secretary Nguyễn Thọ Chân with FRUS's ambassador? | default |
+| 5 | Vietnamese official history's army edition; Kang Sheng's Red Guard speech; *Fansi lu* card; April 1966 pair | default; (c) settled |
+| 6 | Authors' estimates; "by the 25th"; Wuhan, March 1967; Yang diary receptions; Tiandeng; Fu Lei; Speck and Whitman | defaults; (a), (b), (g), (h) settled |
+| 7 | Is an internal-circulation printing "made public"? | settled |
+| 8 | Where the time-of-day and place pass goes in the queue | not a question |
+| 9 | Four splits; Powers; partners' words; Souphanouvong; Hanoi 1964; the Congo, 1960; "Vol." titles; visibility splits | defaults (a), (f), (g); the rest settled |
+| 10 | The dance with Fortas and Harriman's 75th: in or out? | settled |
+| 11 | The round-4 list of duplicates, bundles and misdatings | settled |
+| 12 | Batch 6: citizens' letters, Garrow's classes, custody suit, "below the level", a re-reading batch | defaults; (d), (g), (h) settled |
+| 13 | *Lịch sử Quân đội* (1988): internal circulation? FO 371's year | default |
+| 14 | Feb. 1963 pair; *Dangshi tongxun*; the 1986 Zhu De nianpu; scholars' articles | default |
+| 15 | Scholars' articles cited in notes; "Named: 1990"; the Hilsman notes' year | defaults; (b) settled |
+| 16 | Zhu De's letter of May 9, 1961: "Made public: 1983" by the *Xuanji*? | default |
+| 17 | *Dangshi ziliao* no. 30 and Wang Nianyi; a `part_of`; *Huishou "wenge"*; criticism by name | defaults; (c) settled |
+| 18 | The "three loyalties" campaign: Dikötter's March 1968 | default |
+| 19 | Zhou nianpu 2020 against the 1997 edition; partial printings | default |
+| 20 | *Dangshi ziliao* no. 70 (1999): internal circulation? | default |
+| 21 | May 19, 1965: one occasion or two; Sudan's ambassador | default |
+| 22 | Kang Sheng's list, 29 or 18; Zhu De at the Sept. 23, 1965 talk | default |
+| 23 | The two *Chen Yun zhuan* cards; Tan Lifu's father; Mao's Aug. 23, 1966 words | default |
+| 24 | The chronological sort, the name-tag check, the CJK pass | not a question (done) |
+| 25 | Red Guard records and the *Wenku*; the Peking house-search count | settled |
+| 26 | Sorensen's flight to Hyannis Port, July 3 or 4, 1960 | default |
+| 27 | Threads for Canada, Mongolia, Singapore; the July 16, 1960 note | default (item 34); (b) settled |
+| 28 | The 1960 convention pass's recommendations | not a question |
+| 29 | Gather the questions into this file | not a question |
+| 30 | How to re-thread the China entries after the measurement | default |
+
+Counts: wholly settled 4 (7, 10, 11, 25); defaults taken 20, seven of them with parts settled (5, 6, 9, 12, 15, 17, 27); not a question 6 (1, 3, 8, 24, 28, 29).
+
 ## 1. handoff.md:12
 
 Not a question: the head of the old record says that where its night sections call a thing "open" or "for the owner", the queue supersedes them. The queue is kept at the head of notes/handoff.md.
@@ -167,73 +204,68 @@ Question: was *Zhonggong dangshi ziliao* no. 70 (1999; Bu's own article) printed
 
 ## 21. handoff.md:299
 
-`cal.1965-05-19.china-leadership` (Zhou's words to the operations conference) and `-5` (Deng's reception of it after the Politburo) were named as one occasion entered twice; they record two acts (a speech, a reception), so both stand unless you rule them one. If the FRUS key `fakhreddine-mohamed` (Sudan's UN representative, 1969–71) is the 1964 ambassador in Peking, a name entry joining them would let the tags follow. Hồ Chí Minh's May 1965 stay in China is now closed throughout (his published birthday telegram of May 18 public).
+Questions (the Zhu De run 5 audit): (a) are `cal.1965-05-19.china-leadership` (Zhou's words to the Military Commission's operations conference) and `-5` (Deng, with Liu, Zhou and Zhu De, receives the conference after the Politburo meeting and speaks) one occasion entered twice? (b) Is the FRUS key `fakhreddine-mohamed` (Sudan's UN representative, 1969–71) the man who was Sudan's ambassador in Peking in 1964?
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Default taken: both stand. They record two acts by two speakers, Zhou's talk and Deng's reception and speech, each dated by its record (R17: "Each act its own entry"). Each gets a "See" link to the other, the later pointing back.
+- (b) Default taken: not joined until a source shows one man. R4 ("nothing from memory") and notes/guide/names.md (who is one person). The 1964 ambassador gets his own name entry with "Check: whether the same man as FRUS's `fakhreddine-mohamed`."
+- Applies to: (a) the two May 19, 1965 entries; (b) the 1964 Peking entries naming Sudan's ambassador, and a new name entry.
 
 ## 22. handoff.md:303
 
-Kang Sheng's list of July 21, 1968 has 29 in Zhu De's class in this book against 18 in the Chen Yun nianpu's entry (a variant, unresolved); whether Zhu De was at Mao's talk with Peng Dehuai on Sept. 23, 1965 is now a Check on `cal.1965-09-23.china-leadership` (the Peng Dehuai reading, under way, may settle it).
+Questions (the Zhu De run 6 audit): (a) Kang Sheng's list of July 21, 1968 puts 29 people in Zhu De's class in the Zhu De nianpu and 18 in the Chen Yun nianpu: which? (b) Was Zhu De at Mao's talk with Peng Dehuai on Sept. 23, 1965 (`cal.1965-09-23.china-leadership`)?
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Default taken: both counts, as a variant (R41: "Where witnesses differ, each reading against its unit, in the witness's words, with its page"), with "Check: the list's own count." Neither book is preferred; neither gives a document for the number.
+- (b) Default taken: the Check stays until a source names those present. The Peng Dehuai nianpu, now cited on the entry, is read for the morning's list; if it names Zhu De, or names others and not him, the Check is struck and `c` follows it (R33a).
+- Applies to: (a) `cal.1968-07-21.china-leadership-6`; (b) `cal.1965-09-23.china-leadership`.
 
 ## 23. handoff.md:305
 
-combine the two *Chen Yun zhuan* cards (`w.chen-yun-zhuan`, 2005, and `w.jin-chongji-chen-yun-zhuan`, 2015, joined by `edition_of`; the paging runs on one line, a reprint)?; Tan Lifu's father is 譚政文 in Bu and the record, 譚正文 in `cal.1966-08-12.china-leadership-6` (from Tiandi); `cal.1966-08.china-leadership-10`, now dated Aug. 23, still carries "Made public: Check" (Bu names no printing for Mao's words). The Kang Sheng attack on Chen Yun (Aug. 10 or 13, 1966) is settled: Bu's add was the Chen Yun entry, now a cite with a variant; nothing to combine.
+Questions (the Bu run 5 audit): (a) combine the two *Chen Yun zhuan* cards (`w.chen-yun-zhuan`, 2005, and `w.jin-chongji-chen-yun-zhuan`, 2015), now joined by `edition_of`, since the paging is the same (a reprint)? (b) Tan Lifu's father is 譚政文 in Bu and the record, 譚正文 in `cal.1966-08-12.china-leadership-6` (from Tiandi): which? (c) `cal.1966-08.china-leadership-10` (Mao, Aug. 23, 1966: Peking "too civilized") still says "Made public: Check"; Bu names no printing of Mao's words.
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Default taken: keep both cards, joined by `edition_of`, and cite the 2005 card wherever the two pages agree. R27 needs the earlier year for "Made public", and a card holds one year; the cards' join already says they are one text.
+- (b) Default taken: 譚政文 in `c`, as Bu and the record have it (R4: the page read; the record first, R26), with Tiandi's 譚正文 kept as a variant (R41).
+- (c) Default taken: "Made public:" takes the year of the earliest work cited for the act that prints Mao's words, Bu's book if no earlier one (R27: "Any work cited counts, read or not"), with "Check: an earlier printing."
+- Applies to: (a) the cites of `w.jin-chongji-chen-yun-zhuan`; (b) `cal.1966-08-12.china-leadership-6`; (c) `cal.1966-08.china-leadership-10`.
 
 ## 24. handoff.md:309
 
-one chronological sort for the calendar and the Names pages (and every list of calendar entries); the missing-name-tag check (`name-untagged`) and its sweep, as a patch `inbox/2026-11-21-name-tags.yaml`; the CJK pass (foreign persons given only in characters: identified from evidence, else the Pinyin of the transliteration in parentheses), as a patch `inbox/2026-11-21-cjk-names.yaml`. Merged: Bu Weihua run 6 (a74c952; next run from p. 259, the Hailar train incident of Sept. 3, 1966). Audits running: *Wenxian* vols. 13 and 14, Teiwes and Sun run 2.
-
-- Default taken: (to fill)
-- Applies to: (to fill)
+Not a question: three pieces of work "running for the owner" on Nov. 21 (one chronological sort for every list of calendar entries; the missing-name-tag check `name-untagged` and its sweep; the CJK pass for foreign persons given only in characters). All three are done: d7ff5c4 (the sort, the name-tag check) and f5d5f36 (the name-tag sweep and the CJK names, audited). The record is in notes/handoff.md, 4am and 4aq.
 
 ## 25. handoff.md:309
 
-whether Zhou's 1967 talks known from Red Guard records later printed in the *Wenku* count as publication ("Made public: 1967" on four adds, as the tree's like entries); which Peking count leads `cal.1966-08.china-leadership-21` (MacFarquhar's 33,695 households or the Peking histories' 114,000).
+Questions (the Bu run 6 audit): (a) do Zhou's 1967 talks, known from Red Guard records later printed in the *Wenku*, count as "Made public: 1967" (four adds, as like entries in the tree)? (b) Which Peking count leads `cal.1966-08.china-leadership-21`: MacFarquhar's 33,695 households or the Peking histories' 114,000?
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Settled: the owner, Nov. 21: "Would someone in Paris or Bonn or New York, or even Hong Kong, have been able to access these Red Guard records "as of 1967"?" and "Apply your public-date rule"; then R27 as revised and endorsed ("I endorse your revised R27", Nov. 21; 0303b9a): a Red Guard printing is "briefly available and then suppressed", noted as "Circulated in China: ...", and "Made public:" is the first durable open printing (the *Wenku*, or an earlier translation abroad that was openly distributed). The 124 Red Guard witness rows are `circulated: prc` (43298e8). Left to do: the four adds and the like entries, in the R27 redo (handoff 4aq).
+- (b) Settled: d818bd4 ("Peking house searches, Aug.–Sept. 1966: 114,000 households leads, 33,695 a variant (the owner, Nov. 21)"). The entry now leads with 114,000 and keeps 33,695 as a variant.
 
 ## 26. handoff.md:346
 
-.
+Question: the *Times* of July 4 and of July 5, 1960 disagree on the day Sorensen flew from the West Coast to Hyannis Port (July 3 or July 4). Both are recorded.
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Default taken: both readings stay as they are, each in its own cite (the *Times* of July 4, 1, 4: July 3; the *Times* of July 5, 1, 20: "yesterday", July 4), as R41 has variants recorded. The flight has no entry of its own. If one is made, it is dated July 3, by the earlier report, which is nearer the event (R15a: "Where the report says "yesterday" ... it dates the event by that"), with the July 5 reading as a variant and "Check: the day."
+- Applies to: `cal.1960-07-03.elections-1960-nomination-3` (the reply arranged) and `cal.1960-07-04.elections-1960` (the reply), and the NYT patches of July 4–5, 1960.
 
 ## 27. handoff.md:347
 
-new threads proposed for Canada, Mongolia and Singapore (now filed under europe-and-the-alliance, soviet-union, indonesia). For a reading (the owner's question, 2:45 p.m.): the Soviet side of the July 16 note recalling the experts (the Presidium's protocols, June–Aug. 1960; Lüthi; the plenum of July 13–16), and the entry cal.1960-07.china's month date against its 'July 16'.
+Questions: (a) new threads for Canada, Mongolia and Singapore (entries now filed under europe-and-the-alliance, soviet-union, indonesia)? (b) For a reading (the owner's question, 2:45 p.m.): the Soviet side of the note of July 16, 1960 recalling the experts, and the entry `cal.1960-07.china`'s month date against its "July 16".
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Default already taken: item 34 (create the three threads at the merge; the entries moved to them, the old thread in `also:`).
+- (b) The reading is not a question: it is queued as the Soviet reading batch (notes/handoff.md, 1f). The date is settled by work already done: `cal.1960-07.china` now reads `when: July 16`, `date: '1960-07-16'`; only its id keeps the month, and ids never change (CLAUDE.md).
 
 ## 28. handoff.md:348
 
-. Brief: R0 quoted whole first, then the sources and the assignment only. Readers, then the Opus audit, then merge.
-
-- Default taken: (to fill)
-- Applies to: (to fill)
+Not a question: the 1960 Democratic convention pass (1e), where readers are to recommend, "for the owner", how to state times or orders that cannot be reconciled. On the standing rule the pass does not wait: such accounts go in as variants (R41) with a Check, and the recommendations go to notes/proposals/. The plan is kept in notes/handoff.md, 1e.
 
 ## 29. handoff.md:350
 
-" item in this file (about 25: 4m, 4ab–4aw, today's) into notes/owner-rulings.md, each with the default taken and where it applies, and carry on; the claims model's design goes to the owner while the converter and trial proceed; the China threads measurement proceeds on its default.
-
-- Default taken: (to fill)
-- Applies to: (to fill)
+Not a question: the instruction (1g) to gather every "For the owner" item into this file, done by this list. The script did not take up some passages: 4m (handoff line 80: the sixteen-county meeting's reports; football matches watched together; a famine thread for the Mubei papers; the small-town State check), the section "For the owner (their rulings wanted)" (line 194: legislators as members of government; Hồ's and Phạm Văn Đồng's 1968 visits; the NLF telegrams; the Xinhua-reported receptions), and 4al (line 307: the Peng Dehuai custody-years reading of "public"). They are still to be added here, after item 36.
 
 ## 30. handoff.md:351
 
-'s ruling.
+Question: the China threads measurement (episodes, Mao, Zhou and Liu as person threads, the party's functional systems, *xitong*) is "for the owner's ruling": how to re-thread the 26,320 entries now under `china-leadership`.
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Default taken: re-thread on the proposal the owner liked (Nov. 22: "I like your new proposal"; "I did like "The bomb" and your subthread suggestions for the Cultural Revolution"), once the measurement is done. Each `china-leadership` entry moves to the first of these that fits: an episode thread (the 26 in notes/proposals/china-threads-survey.md, the bomb and the six Cultural Revolution stages among them); else the person thread of Mao, Zhou or Liu where he is the actor; else the system its business belongs to (the Center's daily work, foreign affairs, the army, finance and economy, agriculture, political-legal, propaganda and culture, organization, united front and nationalities). `china-leadership` goes into `also:` so no link is lost. Entries that fit none stay where they are. The measurement's shares and leftovers go to the owner as a proposal while the work goes on.
+- Applies to: th.yaml (new threads with their statements); the `china-leadership` entries; notes/proposals/china-threads-survey.md; the queue (notes/handoff.md, 2).
 
 ## 31. The claims model's "consistency rule" (Nov. 24, 3:20 p.m.)
 
