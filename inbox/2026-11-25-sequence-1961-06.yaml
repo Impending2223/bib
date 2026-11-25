@@ -1,8 +1,8 @@
 patch: 2026-11-25-sequence-1961-06
-by: 'Claude (Sonnet, sequence pass: R25c on June 1961), Nov. 25, 2026; notes/sequence/1961-06.md'
+by: 'Claude (Sonnet, sequence pass: R25c on June 1961), Nov. 25, 2026; notes/sequence/1961-06.md. Audited by Claude (Opus), Nov. 25, 2026: notes/sequence/audit-1961-06.md'
 ops:
 - follows: {id: cal.1961-06-03.berlin-and-vienna-2, add: [cal.1961-06-03.berlin-and-vienna]}
-- follows: {id: cal.1961-06-03.berlin-and-vienna-3, add: [cal.1961-06-03.berlin-and-vienna-4]}
+- follows: {id: cal.1961-06-03.berlin-and-vienna-3, add: [cal.1961-06-03.berlin-and-vienna-4, cal.1961-06-03.berlin-and-vienna]}
 - follows: {id: cal.1961-06-04.berlin-and-vienna, add: [cal.1961-06-04.press-and-broadcasting]}
 - follows: {id: cal.1961-06-04.berlin-and-vienna-2, add: [cal.1961-06-04.press-and-broadcasting]}
 - follows: {id: cal.1961-06-04.berlin-and-vienna-4, add: [cal.1961-06-04.berlin-and-vienna-3]}
@@ -10,7 +10,23 @@ ops:
 - follows: {id: cal.1961-06-06.laos-2, add: [cal.1961-06-06.china-leadership-2]}
 - follows: {id: cal.1961-06-08.china-leadership-11, add: [cal.1961-06-08.china-leadership-10]}
 - follows: {id: cal.1961-06-12.china-leadership-2, add: [cal.1961-06-12.china-leadership]}
+- follows: {id: cal.1961-06-13.china-leadership-5, add: [cal.1961-06-13.china-leadership]}
 - follows: {id: cal.1961-06-24.soviet-union-2, add: [cal.1961-06-24.soviet-union]}
 - follows: {id: cal.1961-06-24.soviet-union-3, add: [cal.1961-06-24.soviet-union-2]}
-- follows: {id: cal.1961-06-26.laos, add: [cal.1961-06-26.china-leadership-4]}
 - follows: {id: cal.1961-06-27.china-leadership-8, add: [cal.1961-06-27.china-leadership-7]}
+- check: {id: cal.1961-06-26.laos, text: 'Check: the place and the day. Harriman''s own report, Confe 287 from Geneva, June 26, 10 p.m. ([FRUS 1961–63, XXIV, doc. 122](https://history.state.gov/historicaldocuments/frus1961-63v24/d122), and its n.1), puts the talk at Geneva, late in the evening of June 25, Souvanna leaving for Paris the next morning.'}
+- edit:
+    id: cal.1961-06-03.berlin-and-vienna-3
+    base: 14aa7eb0
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 335 (O''Donnell''s and Powers''s account). After [[cal.1961-06-03.berlin-and-vienna|the first talk]]: the leaders talk for an hour in the embassy and then come in to lunch ([[w.salinger-with-kennedy]], 177–78; [[w.odonnell-johnny-we-hardly-knew]], 333–35). Names: Kennedy, Khrushchev.'
+- edit:
+    id: cal.1961-06-13.china-leadership-5
+    base: af01fd43
+    set:
+      n: '[[w.zhou-enlai-waijiao-huodong]], 313 (June 13, 1961; 晚上); [[w.peng-zhen-nianpu-1902]], IV, 134 (June 13, 1961, evening; Peng Zhen at Liu Shaoqi''s banquet welcoming Sukarno and his party). After [[cal.1961-06-13.china-leadership|Mao''s reception of Sukarno]]: the reception at 下午6时20分, the banquet 晚上 ([[w.zhou-enlai-waijiao-huodong]], 313). Names: Zhou Enlai, Liu Shaoqi, Sukarno.'
+- edit:
+    id: cal.1961-06-16.china-leadership-6
+    base: 646f878e
+    set:
+      n: '[[w.yang-shangkun-riji]], II, 42 (June 16, 1961). The words: 下午 (II, 42). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). After [[cal.1961-06-16.china-leadership-5|Zeng San and Deng Diantao]]: 下午曾三、邓典桃，然后是富春同志来谈话 ([[w.yang-shangkun-riji]], II, 42). Names: Li Fuchun, Yang Shangkun.'
