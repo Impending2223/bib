@@ -110,7 +110,7 @@ The owner's standing rule (Oct. 28, 2026): no work between 7 a.m. and 5 p.m. Pac
 
 Where a question is the owner's, take the reading the brief and the owner's past rulings best support, do the work on it, and record both in `notes/owner-rulings.md` (the question, the default taken, where it applies), so the owner can overrule it later and the work be redone by rule. Show a design or a proposal while the work goes on, not before it.
 
-Answers that set out a design, a comparison or a proposal go to an `.md` (`notes/proposals/`), sent to the owner, not into a reply (the owner, Nov. 24, 2026: "I'm not sure you should be writing these to a reply rather than to an MD").
+Answers that set out a design, a comparison or a proposal go to an `.md` (`notes/proposals/`), sent to the owner, not into a reply (the owner, Nov. 24, 2026: "I'm not sure you should be writing these to a reply rather than to an MD"). They are written to the prose standard above, as it applies to a note: plain everyday words, one idea a sentence, no coined terms or figures of speech, a term of art said once in plain words and then used the same way (the owner, Nov. 24, 2026: "follow our prose standard, for my sake. The Claudish vocabulary and syntax is strong here, and harder to follow than I'd like"); every brief for an agent that writes for the owner says so.
 
 ## Publishing
 
