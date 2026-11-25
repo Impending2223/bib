@@ -6,7 +6,7 @@ Work in /home/user/bib (branch `ccr-29ad5edc-peju1y`). Read `CLAUDE.md` and `not
 
 Sources:
 - The patch `inbox/2026-11-25-notes-pass-04.yaml` (a Sonnet reader's) and its note `notes/notes-pass/batch-04.md`; the batch's list, `notes/notes-pass/batch-04.tsv`. The reader took the words it added from the notes' parentheticals and did not open the cited pages.
-- Each entry (`./bib show ID`), its note, and the sources cited at the pages cited: the linked records, and the works' copies on the owner's Google Drive (a card names its file; load the Drive tools with ToolSearch; a file over 10 MB may not download: read its pages through `read_file_content`; put any copy in a new directory of your own under `/tmp/claude-0/-home-user-bib/0eff10cc-e92b-525c-82ae-0e08a8f79d60/scratchpad/`, named for this audit, and delete it when you finish; change nothing on Drive).
+- Each entry (`./bib show ID`), its note, and the sources cited at the pages cited: the linked records, and the works' copies on the owner's Google Drive (how to find a file, fetch it whatever its size, and read its page: `notes/guide/reading-a-copy.md`; read that guide first, and change nothing on Drive).
 
 Assignment:
 1. Audit every op of the patch against the page it cites: read the page. Correct the patch in place; strike what the page does not bear out; where the sources differ, a variant or a "Check:" as the brief directs.

@@ -359,7 +359,7 @@ ops:
     id: cal.1964-06-02.elections-1964
     after: end
     words: Goldwater over Rockefeller, 1,120,403 to 1,052,053, 51.6 percent.
-    item: '[Cal. Secretary of State, *Statement of Vote, Consolidated Primary Election, June 2, 1964*, 4–7](https://archive.org/details/castatem196264cali/page/n123)'
+    text: '[Cal. Secretary of State, *Statement of Vote, Consolidated Primary Election, June 2, 1964*, 4–7](https://archive.org/details/castatem196264cali/page/n123)'
 - add-words:
     id: cal.1964-06-02.elections-1964
     after: end
@@ -419,7 +419,7 @@ ops:
     id: cal.1965-02-07.vietnam
     after: end
     words: 'Johnson''s statement: "We have no choice now but to clear the decks"; a Hawk air defense battalion ordered to South Vietnam.'
-    item: 'Statement by the President Upon Ordering Withdrawal of American Dependents From South Viet-Nam, [1965 Pub. Papers 153](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=229) (Feb. 7, 1965)'
+    text: 'Statement by the President Upon Ordering Withdrawal of American Dependents From South Viet-Nam, [1965 Pub. Papers 153](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=229) (Feb. 7, 1965)'
 - cite:
     id: cal.1965-02-07.vietnam
     item: '[[w.nixon-rn]], 271 (the words)'
@@ -486,7 +486,7 @@ ops:
     id: cal.1965-07-28.vietnam
     after: end
     words: '"I do not find it easy to send the flower of our youth, our finest young men, into battle."'
-    item: 'The President''s News Conference, [1965 Pub. Papers 794](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=268) (July 28, 1965)'
+    text: 'The President''s News Conference, [1965 Pub. Papers 794](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=268) (July 28, 1965)'
 - cite:
     id: cal.1965-07-28.vietnam
     item: '[[w.califano-triumph-and-tragedy-of]], 48'
@@ -495,7 +495,7 @@ ops:
     id: cal.1965-07-28.vietnam
     after: end
     words: John Chancellor named director of the Voice of America.
-    item: 'The President''s News Conference, [1965 Pub. Papers 794](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=268) (July 28, 1965)'
+    text: 'The President''s News Conference, [1965 Pub. Papers 794](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=268) (July 28, 1965)'
 - cite:
     id: cal.1965-07-28.vietnam
     item: '[[w.califano-triumph-and-tragedy-of]], 47, 49'
@@ -504,7 +504,7 @@ ops:
     id: cal.1965-07-28.vietnam
     after: end
     words: 'Asked of Governor Hatfield''s warning of world war III, Johnson: "I don''t interpret it that way."'
-    item: 'The President''s News Conference, [1965 Pub. Papers 794](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=268) (July 28, 1965)'
+    text: 'The President''s News Conference, [1965 Pub. Papers 794](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=268) (July 28, 1965)'
 - cite:
     id: cal.1965-07-28.vietnam
     item: '[[w.califano-triumph-and-tragedy-of]], 49'
@@ -521,23 +521,40 @@ ops:
 - add-words:
     id: cal.1966-06-04.africa
     after: end
-    words: He arrives at Johannesburg the night of June 4, with Ethel Kennedy and Walinsky; some 1,500 meet him at the airport.
-    item: '[[w.branch-at-canaans-edge]], 473–75'
+    words: He lands at Johannesburg minutes before midnight, June 4, with Ethel Kennedy, Walinsky and Angie Novello.
+    item: '[[w.shesol-mutual-contempt]], 301'
 - add-words:
     id: cal.1966-06-04.africa
     after: end
-    words: 'At Natal University: "What if God is black?"'
-    item: '[[w.branch-at-canaans-edge]], 473–75'
+    words: Forty American journalists' visas revoked; 1,500 break through to the plane.
+    item: '[[w.branch-at-canaans-edge]], 473–74'
 - add-words:
     id: cal.1966-06-04.africa
     after: end
-    words: Cape Town, 15,000.
-    item: '[[w.branch-at-canaans-edge]], 473–75'
+    words: 'At Natal University, before twenty thousand students: "What if God is black?"'
+    item: '[[w.branch-at-canaans-edge]], 474'
 - add-words:
     id: cal.1966-06-04.africa
     after: end
-    words: Luthuli is given a recording of John Kennedy's address of June 11, 1963, Lowenstein's idea.
-    item: '[[w.branch-at-canaans-edge]], 473–75'
+    words: At Cape Town 15,000 hear him.
+    item: '[[w.branch-at-canaans-edge]], 474'
+- add-words:
+    id: cal.1966-06-04.africa
+    after: end
+    words: At a farm near Durban, Luthuli is given a tape recorder and a recording of John Kennedy's address of June 11, 1963, Lowenstein's idea.
+    item: '[[w.branch-at-canaans-edge]], 474'
+- edit:
+    id: cal.1966-06-04.africa
+    base: 488d3d81
+    kind: reword
+    set:
+      time: 1966-06-04T21:50Z
+      time_approx: true
+      time_zone: Africa/Johannesburg
+- cite:
+    id: cal.1966-06-04.africa
+    item: '[[w.shesol-mutual-contempt]], 301'
+    'on': time
 - names:
     id: cal.1966-06-04.africa
     tags:
@@ -569,15 +586,24 @@ ops:
     id: cal.1967-04-04.king
     after: end
     words: '2,700 in the pews and 1,200 more; King: "my conscience leaves me no other choice."'
-    item: '[[w.branch-at-canaans-edge]], 590–94'
-- add-words:
+    item: '[[w.branch-at-canaans-edge]], 591'
+- variant:
     id: cal.1967-04-04.king
-    after: end
-    words: Harding and Maguire draft the text.
-    item: '[[w.branch-at-canaans-edge]], 590–94'
-- check:
+    'on': '2,700 in the pews and 1,200 more; King: "my conscience leaves me no other choice."'
+    witness: w.kotz-judgment-days
+    reads: an audience of three thousand
+    at: '374'
+- edit:
     id: cal.1967-04-04.king
-    text: 'Check: [[w.branch-at-canaans-edge]], 590–94, adds Lowenstein to the drafters; [[w.kotz-judgment-days]], 373–75, has Andrew Young draft it from Harding''s and Maguire''s, and some three thousand present.'
+    base: a20cf8fd
+    kind: reword
+    set:
+      time: 1967-04-05T01:00Z
+      time_zone: America/New_York
+- cite:
+    id: cal.1967-04-04.king
+    item: '[[w.branch-at-canaans-edge]], 590 (the eight o''clock program)'
+    'on': time
 - names:
     id: cal.1967-04-04.king
     tags:
@@ -586,44 +612,68 @@ ops:
     id: cal.1967-07-24.civil-disorders-detroit
     after: end
     words: Romney has called Ramsey Clark from before 3 a.m.
-    item: '[[w.califano-triumph-and-tragedy-of]], 213–18'
+    item: '[[w.califano-triumph-and-tragedy-of]], 213'
+- cite:
+    id: cal.1967-07-24.civil-disorders-detroit
+    item: '[[w.zelizer-fierce-urgency-of-now]], 274'
+    'on': Romney has called Ramsey Clark from before 3 a.m.
 - add-words:
     id: cal.1967-07-24.civil-disorders-detroit
     after: end
-    words: 'Hoover warns: "Harlem will break loose in thirty minutes."'
-    item: '[[w.califano-triumph-and-tragedy-of]], 213–18'
+    words: 'Johnson fears the charge that "we cannot kill enough people in Vietnam so we go out and shoot civilians in Detroit."'
+    item: '[[w.califano-triumph-and-tragedy-of]], 217'
+- cite:
+    id: cal.1967-07-24.civil-disorders-detroit
+    item: '[[w.drea-mcnamara-clifford-and-the-2011]], 275'
+    'on': 'Johnson fears the charge that "we cannot kill enough people in Vietnam so we go out and shoot civilians in Detroit."'
 - add-words:
     id: cal.1967-07-24.civil-disorders-detroit
     after: end
-    words: Johnson drafts the statement with a Washington lawyer, Hoover and McNamara present.
-    item: '[[w.mcpherson-political-education]], 359–60'
+    words: 'Hoover: "Harlem will break loose in thirty minutes."'
+    item: '[[w.califano-triumph-and-tragedy-of]], 217'
+- cite:
+    id: cal.1967-07-24.civil-disorders-detroit
+    item: '[[w.zelizer-fierce-urgency-of-now]], 274'
+    'on': 'Hoover: "Harlem will break loose in thirty minutes."'
+- cite:
+    id: cal.1967-07-24.civil-disorders-detroit
+    item: '[[w.drea-mcnamara-clifford-and-the-2011]], 276 (just before 10:30 p.m.)'
+    'on': 'Hoover: "Harlem will break loose in thirty minutes."'
 - add-words:
     id: cal.1967-07-24.civil-disorders-detroit
     after: end
-    words: By 4 a.m. July 25, nearly 15,000 Guard and Regular troops are in the city.
-    item: '[[w.drea-mcnamara-clifford-and-the-2011]], 274–76'
-- check:
+    words: About 10 p.m., in the Oval Office, Johnson reads the statement he has written with a Washington lawyer, Hoover and McNamara present.
+    item: '[[w.mcpherson-political-education]], 359'
+- cite:
     id: cal.1967-07-24.civil-disorders-detroit
-    text: 'Check: the toll: [[w.bernstein-guns-or-butter]], 418–19, 40 dead, 2,000 injured, 5,000 arrested; [[w.drea-mcnamara-clifford-and-the-2011]], 274–76, 37 civilians dead by July 28.'
+    item: '[[w.califano-triumph-and-tragedy-of]], 217 (the statement Fortas's)'
+    'on': About 10 p.m., in the Oval Office, Johnson reads the statement he has written with a Washington lawyer, Hoover and McNamara present.
+- add-words:
+    id: cal.1967-07-24.civil-disorders-detroit
+    after: end
+    words: By 4 a.m. July 25, nearly 15,000 Guard and Regular troops are in the Detroit area.
+    item: '[[w.drea-mcnamara-clifford-and-the-2011]], 276'
 - names:
     id: cal.1967-07-24.civil-disorders-detroit
     tags:
     - name:hoover-j-edgar
     - name:clark-ramsey
+    - name:mcnamara-robert-s
     - ok:note-substance
     add:
     - Hoover
     - Ramsey Clark
+    - McNamara
 - add-words:
     id: cal.1967-09-03.vietnam
     after: end
     words: Dzu, second, has over 800,000 votes, for negotiations; Hương is ahead in Saigon.
-    item: '[[w.berman-lyndon-johnsons-war]], 79–80'
+    item: '[[w.berman-lyndon-johnsons-war]], 79'
 - add-words:
     id: cal.1967-09-03.vietnam
     after: end
     words: Governor Richard Hughes and Senator George Murphy are among the observers, Westmoreland's guests.
-    item: '[[w.westmoreland-soldier-reports]], 219–20'
+    item: '[[w.westmoreland-soldier-reports]], 220'
 - names:
     id: cal.1967-09-03.vietnam
     tags:
@@ -638,93 +688,101 @@ ops:
 - add-words:
     id: cal.1968-04-05.civil-disorders
     after: end
-    words: Walter Washington asks for troops after the proclamation; Vance is called in; Califano's office is a command center; Carmichael leads a march on Georgetown.
-    item: '[[w.califano-triumph-and-tragedy-of]], 278–79'
+    words: Shortly after Johnson's proclamation on King in the Fish Room, Walter Washington asks for Army troops; Johnson calls in Vance; Califano's office a command center.
+    item: '[[w.califano-triumph-and-tragedy-of]], 278'
 - add-words:
     id: cal.1968-04-05.civil-disorders
     after: end
-    words: Troops are ordered not to shoot; by 2 a.m. Apr. 6, 350 injured and more than 1,570 arrested; all federal forces gone by Apr. 16.
+    words: 'Johnson: "If humanly possible, I don''t want anybody killed."'
+    item: '[[w.califano-triumph-and-tragedy-of]], 278'
+- add-words:
+    id: cal.1968-04-05.civil-disorders
+    after: end
+    words: About 4 p.m. Warren Christopher, having toured the riot areas with General Haines, recommends troops; Johnson sends the federal troops first, under orders not to shoot; more than 11,600 federal troops and nearly 1,900 Guardsmen. By 2 a.m. Apr. 6, 350 injured, 8 dead, more than 1,570 arrested.
     item: '[[w.drea-mcnamara-clifford-and-the-2011]], 284–85'
 - check:
     id: cal.1968-04-05.civil-disorders
-    text: 'Check: [[w.drea-mcnamara-clifford-and-the-2011]], 284–85, has 8 dead by 2 a.m. Apr. 6; [[w.califano-triumph-and-tragedy-of]], 278–79, 14,000 troops.'
+    text: 'Check: [[w.drea-mcnamara-clifford-and-the-2011]], 285, has 8 dead by 2 a.m. Apr. 6; [[w.califano-triumph-and-tragedy-of]], 279, 14,000 troops in the end.'
 - names:
     id: cal.1968-04-05.civil-disorders
     tags:
     - name:washington-walter-e
-    - name:carmichael-stokely
+    - name:vance-cyrus
+    - name:califano-joseph-a-jr
+    - name:christopher-warren
     - ok:note-substance
     add:
     - Walter Washington
-    - Carmichael
+    - Vance
+    - Califano
+    - Christopher
 - add-words:
     id: cal.1968-04-09.king
     after: end
     words: Some 60,000 to 100,000 are outside.
     item: '[[w.bernstein-guns-or-butter]], 496'
+- cite:
+    id: cal.1968-04-09.king
+    item: '[[w.wofford-of-kennedys-and-kings]], 201 (a hundred thousand or more on the march)'
+    'on': Some 60,000 to 100,000 are outside.
 - add-words:
     id: cal.1968-04-09.king
     after: end
-    words: Johnson stays away on the Secret Service's and the FBI's warning of threats; Humphrey is sent, with Walter Washington and others.
+    words: Johnson stays away on the Secret Service's and the FBI's warning of threats; Humphrey is sent, with Thurgood Marshall, Weaver and Walter Washington. Kennedy is cheered, Nixon jeered.
     item: '[[w.califano-triumph-and-tragedy-of]], 282'
+- cite:
+    id: cal.1968-04-09.king
+    item: '[[w.shesol-mutual-contempt]], 449 (Johnson at home on the warning)'
+    'on': Johnson stays away on the Secret Service's and the FBI's warning of threats; Humphrey is sent, with Thurgood Marshall, Weaver and Walter Washington. Kennedy is cheered, Nixon jeered.
 - add-words:
     id: cal.1968-04-09.king
     after: end
-    words: Robert Kennedy walks at the head of the procession; Mays gives the eulogy.
+    words: Robert Kennedy walks at the head of the procession.
     item: '[[w.shesol-mutual-contempt]], 449'
+- add-words:
+    id: cal.1968-04-09.king
+    after: end
+    words: 'Mays gives the eulogy at the burial: "the American people are in part responsible."'
+    item: '[[w.wofford-of-kennedys-and-kings]], 203'
 - names:
     id: cal.1968-04-09.king
     tags:
     - name:washington-walter-e
+    - name:marshall-thurgood
+    - name:weaver-robert-c
     - ok:note-substance
     add:
     - Walter Washington
+    - Thurgood Marshall
+    - Weaver
 - add-words:
     id: cal.1968-05-28.elections-1968-2
     after: end
-    words: 'The count: McCarthy 44.7 percent, Kennedy 38.8, Johnson 12.4, Humphrey 4.'
-    item: '[[w.witcover-85-days]], 221'
-- add-words:
-    id: cal.1968-05-28.elections-1968-2
-    after: end
-    words: 'Kennedy, at the Benson Hotel: "If it wasn''t for the honor of the thing, I''d rather have passed it up."'
-    item: '[[w.palermo-in-his-own-right]], 216–17'
-- add-words:
-    id: cal.1968-05-28.elections-1968-2
-    after: end
-    words: 'Republican: Nixon 73 percent, Reagan 22, Rockefeller 4.'
-    item: '[[w.bernstein-guns-or-butter]], 502, 507'
-- check:
-    id: cal.1968-05-28.elections-1968-2
-    text: 'Check: the shares vary: [[w.zaroulis-who-spoke-up]], 170, McCarthy 46 percent, Kennedy 36; [[w.bernstein-guns-or-butter]], 502, 45 and 39.'
+    words: 'Kennedy, to his workers at the Benson Hotel, Portland, takes the blame: "If it wasn''t for the honor of the thing, I''d rather have passed it up."'
+    item: '[[w.palermo-in-his-own-right]], 217'
 - names:
     id: cal.1968-05-28.elections-1968-2
     tags:
-    - name:reagan-ronald
-    - name:rockefeller-nelson
-    - name:humphrey-hubert-h
-    - name:johnson-lyndon-b
     - ok:note-substance
-    add:
-    - Reagan
-    - Rockefeller
-    - Humphrey
-    - Johnson
 - add-words:
     id: cal.1968-09-30.elections-1968
     after: end
-    words: 'Harriman''s spokesman: nothing in it to upset the negotiations.'
-    item: '[[w.chester-american-melodrama]], 648–50'
-- check:
+    words: The half hour costs the national committee $100,000; its appeal for funds brings in $150,000, in gifts averaging $14.
+    item: '[[w.chester-american-melodrama]], 646, 650'
+- cite:
     id: cal.1968-09-30.elections-1968
-    text: 'Check: the money raised by the speech: [[w.chester-american-melodrama]], 648–50, $150,000; [[w.white-making-of-the-president-1969]], 354–56, $100,000.'
+    item: '[[w.white-making-of-the-president-1969]], 354 (the cost)'
+    'on': The half hour costs the national committee $100,000; its appeal for funds brings in $150,000, in gifts averaging $14.
+- variant:
+    id: cal.1968-09-30.elections-1968
+    'on': The half hour costs the national committee $100,000; its appeal for funds brings in $150,000, in gifts averaging $14.
+    witness: w.white-making-of-the-president-1969
+    reads: the appeal brought in two and a half times as much as the $100,000 the broadcast cost
+    at: '356'
 - names:
     id: cal.1968-09-30.elections-1968
     tags:
-    - name:harriman-w-averell
     - ok:note-substance
-    add:
-    - Harriman
 - add-words:
     id: cal.1968-10-13.china-leadership
     after: end

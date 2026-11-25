@@ -1401,3 +1401,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 9:55 p.m. PT) "I'll take your recommendation, with your three choices. We can't have an unmarked citation unless we've read the cited matter." (Owner-rulings 53; two Sonnet readers started on the 351 rows where the entry does not yet cite the held copy, `notes/via-read/`.)
 
 (Nov. 24, about 10:05 p.m. PT) "The Chinese volumes are an obstacle? Is it not possible to do an OCR pass on the page of interest alone?" (Answered: it is possible, and the Opus auditors did it tonight for Yang Shangkun's diary; the readers did not. Written into the reader's brief as R54a.)
+
+(Nov. 24, about 10:15 p.m. PT) "Claude... these are all solved problems... can you write the solution to them somewhere the readers (and you!) can find and read?" (Written: `notes/guide/reading-a-copy.md`, from the recipe an Opus auditor used that night; linked from CLAUDE.md and the reader's brief, R54a; the night's briefs corrected, which had told readers a large file might not download; the running agents told.)

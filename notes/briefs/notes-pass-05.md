@@ -8,7 +8,7 @@ The owner's words (Nov. 21, 2026): "Shouldn't this material go out of the citati
 
 Sources:
 - `notes/notes-pass/batch-05.tsv`: 60 calendar entries whose citations hold persons, words or figures their line lacks (the test is `tools/bib/notesub.py`; its third column is a hint, not a ruling).
-- Each entry (`./bib show ID`), its note, and the sources its note cites at the pages cited: the linked records, and the works' copies on the owner's Google Drive (a card names its file; load the Drive tools with ToolSearch; a file over 10 MB may not download: read its pages through `read_file_content`; put any copy in a new directory of your own under `/tmp/claude-0/-home-user-bib/0eff10cc-e92b-525c-82ae-0e08a8f79d60/scratchpad/`, named for your batch, and delete it when you finish; change nothing on Drive).
+- Each entry (`./bib show ID`), its note, and the sources its note cites at the pages cited: the linked records, and the works' copies on the owner's Google Drive (how to find a file, fetch it whatever its size, and read its page: `notes/guide/reading-a-copy.md`; read that guide first, and change nothing on Drive).
 
 Assignment: for each of the 60 entries, apply R33a from the brief's text. Write the patch `inbox/2026-11-25-notes-pass-05.yaml` (`add-words`, `names`, `cite ... on:`, `edit` with `kind:` where R22 calls for one, and the field ops R25a calls for); `./bib patch-check` it until it shows 0 errors. Write `notes/notes-pass/batch-05.md`: one line an entry, saying what you did or why the entry stays as it is (an entry read and left takes the tag `ok:note-substance`, by a `names` op with `tags`), and which pages you read. Plain everyday prose; a paragraph or a list item is one line (never hard-wrap Markdown).
 
