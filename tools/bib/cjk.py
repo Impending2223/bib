@@ -70,7 +70,11 @@ AFTER_OK = re.compile(r"(?:[\s,.;:!?)\]*'\"’”–]|$)")
 WORD = re.compile(rf"^(?![{CH}])[^\W\d_](?:(?![{CH}])[^\W_]|['’–-])*$")   # a word in Latin script
 FUNC = {"him", "her", "me", "us", "them", "it", "as", "is", "was", "are", "were", "be", "called", "named", "titled",
         "reads", "read", "says", "said", "writes", "wrote", "word", "words", "name", "names", "and", "or", "but",
-        "headed", "entitled", "quotes", "quoted", "reading"}
+        "headed", "entitled", "quotes", "quoted", "reading",
+        # a verb of meeting: the characters after it are a person the source names only in characters, the sentence's
+        # own words ("Liu Shaoqi meets 埃尔南"; the owner's queue, Nov. 21, 2026: characters dropped after a verb)
+        "receives", "received", "meets", "met", "sees", "cables", "greets", "welcomes", "thanks", "congratulates",
+        "invites", "accompanies"}
 # a plain noun that introduces words rather than glossing them ("the slogan 三面红旗", "the line 不到长城非好汉"): no
 # label alone; a term of its own words keeps it ("the general line 总路线")
 INTRO = {"slogan", "slogans", "line", "lines", "inscription", "phrase", "motto", "banner", "title", "text", "verse",

@@ -405,3 +405,10 @@ def test_the_name_dot_between_characters_is_shown_full_width():
     from bib import markup
     assert markup.to_html('under "Babaka Niang" 巴巴卡·尼昂; a · b') == 'under "Babaka Niang" 巴巴卡・尼昂; a · b'
     assert markup.to_html('[阿里·坦布维](https://e.com/a·b)') == '<a href="https://e.com/a·b">阿里・坦布维</a>'
+
+
+def test_characters_after_a_verb_of_meeting_stay():
+    from bib import cjk
+    assert cjk.drop("Liu Shaoqi 刘少奇 meets 埃尔南 of Chile.") == "Liu Shaoqi meets 埃尔南 of Chile."
+    assert cjk.drop("Chen Yi 陈毅 receives 艾坚 and his wife.") == "Chen Yi receives 艾坚 and his wife."
+    assert cjk.drop("the county committee 縣委 meets.") == "the county committee meets."
