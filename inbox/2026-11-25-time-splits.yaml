@@ -1342,6 +1342,149 @@ ops:
       time_zone: America/New_York
       tags:
       - name:johnson-lyndon-b
+- edit:
+    id: cal.1969-01-19.transition-and-staff
+    base: 017519eb
+    kind: correct
+    set:
+      c: 'The White House solarium, the morning of Johnson''s last full day, after breakfast: Mass with Luci, offered by a priest of her wedding.{1}'
+      n: '[[w.califano-triumph-and-tragedy-of]], 334–38; [[w.mcpherson-political-education]], 451–52 (the party in the Mansion on the last night, "a little subdued"); [[w.dallek-flawed-giant]], 598–99 (the last evening, the staff party in the mansion; Johnson to Califano of Fulbright: "We never should have let the fight become so personal"; not the church, the calls or the hour); [[w.johnson-white-house-diary]], 771, 773–74 (Jan. 19: to the National City Christian Church with the Grahams, Lynda, Luci and Johnson; Dr. Davis''s bulletin, Graham''s benediction; the evening buffet for sixty of the two staffs, Harry McPherson''s toast "to these last five years and to Lyndon," Johnson''s quiet talk, "Auld Lang Syne"; not the Mass, the calls or Fulbright). Split under R25b and R17: Califano (334–38) gives the day''s acts their own parts of the day, the morning''s Mass and service, Humphrey''s call early in the afternoon, the farewells and calls early in the evening, the staff''s buffet, and the last its hour, shortly before 11 p.m.; each is now an entry. Names: Johnson, Luci Baines Johnson Nugent.'
+      src:
+        rows:
+        - 'w.califano-triumph-and-tragedy-of 334–38: 1'
+      tags:
+      - name:johnson-lyndon-b
+      - name:nugent-luci-baines-johnson
+      time_range:
+      - 1969-01-19T11:00Z
+      - 1969-01-19T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+- add:
+    entry:
+      id: cal.1969-01-19.transition-and-staff-7
+      when: Jan. 19
+      date: '1969-01-19'
+      place: washington
+      thread: transition-and-staff
+      follows:
+      - cal.1969-01-19.transition-and-staff
+      c: Later that morning, the National City Christian Church. Johnson and Mrs. Johnson, with Billy Graham, at the Sunday service.
+      n: '[[w.califano-triumph-and-tragedy-of]], 334 ("Later that morning"); [[w.johnson-white-house-diary]], 771 (to the National City Christian Church with the Grahams, Lynda, Luci and Johnson; Dr. Davis''s bulletin, Graham''s benediction). See [[cal.1969-01-19.transition-and-staff]]. Names: Johnson, Lady Bird Johnson, Graham.'
+      time_range:
+      - 1969-01-19T11:00Z
+      - 1969-01-19T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:johnson-lyndon-b
+      - name:johnson-lady-bird
+      - name:graham-billy
+- add:
+    entry:
+      id: cal.1969-01-19.transition-and-staff-8
+      when: Jan. 19
+      date: '1969-01-19'
+      place: washington
+      thread: transition-and-staff
+      follows:
+      - cal.1969-01-19.transition-and-staff-7
+      c: 'Humphrey telephones Johnson early in the afternoon: "Just thinking of you, and to thank you for all you''ve done for me, Mr. President."'
+      n: '[[w.califano-triumph-and-tragedy-of]], 335 ("early on that last afternoon"). See [[cal.1969-01-19.transition-and-staff]]. Names: Humphrey, Johnson.'
+      time_range:
+      - 1969-01-19T17:00Z
+      - 1969-01-19T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:humphrey-hubert-h
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1969-01-19.transition-and-staff-9
+      when: Jan. 19
+      date: '1969-01-19'
+      place: washington
+      thread: transition-and-staff
+      follows:
+      - cal.1969-01-19.transition-and-staff-8
+      c: Early in the evening, Rusk and Harriman call on Johnson to say farewell.
+      n: '[[w.califano-triumph-and-tragedy-of]], 335 ("Early that evening"). See [[cal.1969-01-19.transition-and-staff]]. Names: Rusk, Harriman, Johnson.'
+      time_range:
+      - 1969-01-20T00:00Z
+      - 1969-01-20T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:rusk-dean
+      - name:harriman-w-averell
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1969-01-19.transition-and-staff-10
+      when: Jan. 19
+      date: '1969-01-19'
+      place: washington
+      thread: transition-and-staff
+      follows:
+      - cal.1969-01-19.transition-and-staff-9
+      c: Johnson telephones Rockefeller to thank him for his help and to encourage him to stay in politics.
+      n: '[[w.califano-triumph-and-tragedy-of]], 335 (early that evening, after Rusk and Harriman). See [[cal.1969-01-19.transition-and-staff]]. Names: Johnson, Rockefeller.'
+      time_range:
+      - 1969-01-20T00:00Z
+      - 1969-01-20T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:johnson-lyndon-b
+      - name:rockefeller-nelson
+- add:
+    entry:
+      id: cal.1969-01-19.transition-and-staff-11
+      when: Jan. 19
+      date: '1969-01-19'
+      place: washington
+      thread: transition-and-staff
+      follows:
+      - cal.1969-01-19.transition-and-staff-10
+      c: Johnson and Mrs. Johnson stop by Henry Ford II's party at the F Street Club.
+      n: '[[w.califano-triumph-and-tragedy-of]], 335 (after the farewells and the call, before the staff''s buffet). Check: Ford''s given name (Califano: "Henry Ford"). See [[cal.1969-01-19.transition-and-staff]]. Names: Johnson, Lady Bird Johnson, Henry Ford II.'
+      time_range:
+      - 1969-01-20T00:00Z
+      - 1969-01-20T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:johnson-lyndon-b
+      - name:johnson-lady-bird
+      - name:ford-henry-ii
+- add:
+    entry:
+      id: cal.1969-01-19.transition-and-staff-12
+      when: Jan. 19
+      date: '1969-01-19'
+      place: washington
+      thread: transition-and-staff
+      follows:
+      - cal.1969-01-19.transition-and-staff-11
+      c: 'The White House, the second floor: the Johnsons'' buffet dinner for the immediate staff. Johnson, of Fulbright: "We never should have let the fight become so personal." McPherson''s toast; "Auld Lang Syne." Johnson: one more act as President, more land for the National Park system. He says goodbye and goes to bed shortly before 11 p.m.'
+      n: '[[w.califano-triumph-and-tragedy-of]], 335–38; [[w.mcpherson-political-education]], 451–52 (the party in the Mansion on the last night, "a little subdued"); [[w.dallek-flawed-giant]], 598–99 (the last evening, the staff party in the mansion; Johnson to Califano of Fulbright: "We never should have let the fight become so personal"; not the church, the calls or the hour); [[w.johnson-white-house-diary]], 773–74 (the evening buffet for sixty of the two staffs, Harry McPherson''s toast "to these last five years and to Lyndon," Johnson''s quiet talk, "Auld Lang Syne"). The time runs from the evening to shortly before 11 p.m. (Califano, 338). See [[cal.1969-01-19.transition-and-staff]]. Names: Johnson, Fulbright, McPherson.'
+      time_range:
+      - 1969-01-20T00:00Z
+      - 1969-01-20T04:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:johnson-lyndon-b
+      - name:fulbright-j-william
+      - name:mcpherson-harry
 - add-words:
     id: cal.1967-06-10.middle-east-six-day-war
     after: end
