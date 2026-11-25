@@ -617,6 +617,11 @@ entries:
     date: '1968-08-02'
     place: washington
     thread: congress
+    follows:
+      - cal.1968-08-02.court-fortas
+      - cal.1968-08-02.health
+      - cal.1968-08-02.health-2
+      - cal.1968-08-02.conservation-2
     c: Congress recesses to noon, Sept. 4, H. Con. Res. 805, over the two conventions. The Senate in session 130 days, the House 114.
     n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2142.'
     time_range:
@@ -1340,6 +1345,8 @@ entries:
     time: 1968-08-05T22:56Z
     place: miami
     thread: elections-1968-miami
+    follows:
+      - cal.1968-08-05.elections-1968-miami-2
     c: Nixon arrives at Miami International Airport, 6:56 p.m., to a demonstration.
     n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105. Names: Nixon.'
     tags: [name:nixon-richard-m]
@@ -1356,15 +1363,19 @@ entries:
     date: '1968-08-05'
     thread: elections-1968-miami
     also: [civil-rights-the-executive]
+    follows:
+      - cal.1968-08-05.elections-1968-miami-10
     c: 'Brooke, the temporary chairman, to the convention: white separatism in the suburbs and black in the slums both rejected; "an integrated society of magnificent pluralism." The Democrats raise the hopes of the disadvantaged "only to dash them."'
-    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105. Names: Brooke.'
+    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105. After [[cal.1968-08-05.elections-1968-miami-10|Eisenhower''s address and the new Senators]], in the order of the second session: [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), [63](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/63/mode/1up)–68, [74](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/74/mode/1up)–75. Names: Brooke.'
     tags: [name:brooke-edward-w]
   - id: cal.1968-08-05.elections-1968-miami-12
     when: Aug. 5
     date: '1968-08-05'
     thread: elections-1968-miami
+    follows:
+      - cal.1968-08-05.elections-1968-miami-14
     c: 'Evans''s keynote, Lindsay introducing him: a war "we have not won in Saigon, cannot negotiate in Paris and will not explain to the American people"; nearly 150,000 casualties, more than 20,000 dead; "the disintegration of the old order." Adjourned 11:27 p.m.'
-    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105, 2135. Names: Evans, Lindsay.'
+    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105, 2135. After [[cal.1968-08-05.elections-1968-miami-14|Gurney and the Senate candidates]], in the order of the second session: [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), [89](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/89/mode/1up)–93. Names: Evans, Lindsay.'
     tags: [name:evans-daniel-j, name:lindsay-john-v]
   - id: cal.1968-08-05.elections-1968-chicago
     when: Aug. 5
@@ -1403,8 +1414,10 @@ entries:
     place: miami-beach
     thread: elections-1968-miami
     also: [republican-party, conservative-movement]
+    follows:
+      - cal.1968-08-05.elections-1968-miami-11
     c: Miami Beach, the convention's opening day. Goldwater's speech, thirty-three bursts of applause; "I'm still mad about Barry" buttons.
-    n: '[[w.chester-american-melodrama]], 436–37. See [[cal.1968-08-05.elections-1968]]. Names: Goldwater.'
+    n: '[[w.chester-american-melodrama]], 436–37. After [[cal.1968-08-05.elections-1968-miami-11|Brooke''s address]], in the order of the second session: [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), [75](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/75/mode/1up)–78, [81](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/81/mode/1up). See [[cal.1968-08-05.elections-1968]]. Names: Goldwater.'
     src:
       c: 2f49e971
       rows:
@@ -1455,8 +1468,10 @@ entries:
     date: '1968-08-05'
     time: 1968-08-06T02:31Z
     thread: elections-1968-miami
+    follows:
+      - cal.1968-08-05.elections-1968-miami
     c: The second session, 10:31 p.m. Senator Murphy introduces Representative Gurney of Florida, a candidate for the Senate, who introduces the party's other Senate candidates.
-    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105. See [[cal.1968-08-05.elections-1968-miami-10]]. Names: Murphy, Gurney.'
+    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105. After [[cal.1968-08-05.elections-1968-miami|Goldwater''s speech]], in the order of the second session: [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), [81](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/81/mode/1up)–89. See [[cal.1968-08-05.elections-1968-miami-10]]. Names: Murphy, Gurney.'
     src:
       c: bf78a7c7
       rows:
@@ -1511,6 +1526,8 @@ entries:
     date: '1968-08-05'
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1968-08-05.china-leadership
     c: Zhou Enlai sharply criticizes the Foreign Ministry's general office for issuing the record of Mao's talk with Arshad Husain without setting Mao's words in bold type, as the Cultural Revolution's custom required, and orders the original recalled and reissued.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 246 (Aug. 5, 1968). Made public: 2020. Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
@@ -1601,6 +1618,8 @@ entries:
     place: miami-beach
     thread: elections-1968-miami
     also: [vietnam]
+    follows:
+      - cal.1968-08-06.elections-1968-miami-17
     c: 'Miami Beach.{1} The Republican platform, Dirksen''s committee''s report, adopted by voice vote: on Vietnam, "a progressive de-Americanization of the war, both military and civilian," and a negotiated peace.{2}'
     n: '[Republican Party Platform of 1968](https://www.presidency.ucsb.edu/documents/republican-party-platform-1968) (Aug. 5, 1968). [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the third session, Aug. 6, [239](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/239/mode/1up). [[w.cq-weekly-report]], Aug. 9, 1968, 2095, 2097, 2140 (adopted by voice vote, without debate; Dirksen''s committee). Check: CQ''s chronology has the platform adopted at 12:22 a.m., Aug. 7, the third session having run past midnight (2140); its summary, Aug. 6 (2095, 2097); its analysis, Aug. 7 (2099); its text, "adopted ... on Aug. 6" (2126). See [[cal.1968-08-05.elections-1968]]. Names: Dirksen.'
     src:
@@ -1738,15 +1757,19 @@ entries:
     when: Aug. 6
     date: '1968-08-06'
     thread: elections-1968-miami
+    follows:
+      - cal.1968-08-06.elections-1968-miami-12
     c: Dewey, introduced by Mathias, addresses the convention.
-    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105. Names: Dewey, Mathias.'
+    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105. After [[cal.1968-08-06.elections-1968-miami-12|the committees'' reports]], in the order of the third session: [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), [183](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/183/mode/1up), [191](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/191/mode/1up). Names: Dewey, Mathias.'
     tags: [name:dewey-thomas-e, name:mathias-charles-mcc-jr]
   - id: cal.1968-08-06.elections-1968-miami-14
     when: Aug. 6
     date: '1968-08-06'
     thread: elections-1968-miami
+    follows:
+      - cal.1968-08-06.elections-1968-miami-13
     c: 'Ford, the permanent chairman, introduced by Arends: "the biggest deficit since World War II, the most riots and civil disorders in American history," the highest crime rate, interest rates, cost of living and taxes, "the worst credibility gap," "the longest war in American history."'
-    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105. Names: Ford, Arends.'
+    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2105. After [[cal.1968-08-06.elections-1968-miami-13|Dewey''s address]], in the order of the third session: [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), [191](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/191/mode/1up), [204](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/204/mode/1up)–5. Names: Ford, Arends.'
     tags: [name:ford-gerald-r, name:arends-leslie-c]
   - id: cal.1968-08-06.elections-1968-miami-15
     when: Aug. 6
@@ -1767,8 +1790,10 @@ entries:
     when: Aug. 6
     date: '1968-08-06'
     thread: elections-1968-miami
+    follows:
+      - cal.1968-08-06.elections-1968-miami-14
     c: 'Dirksen to the convention: America not "sick" but "mismanaged"; the "''Great Society''...a straight-out misdeal." Chafee presents the platform "in a little package."'
-    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2140. Names: Dirksen, Chafee.'
+    n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2140. After [[cal.1968-08-06.elections-1968-miami-14|Ford''s address]], in the order of the third session: [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), [205](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/205/mode/1up), [211](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/211/mode/1up). Names: Dirksen, Chafee.'
     tags: [name:dirksen-everett, name:chafee-john-h]
   - id: cal.1968-08-06.elections-1968-miami-18
     when: Aug. 6
@@ -2242,6 +2267,8 @@ entries:
     date: '1968-08-07'
     time: 1968-08-07T04:24Z
     thread: elections-1968-miami
+    follows:
+      - cal.1968-08-07.elections-1968-miami
     c: 12:24 a.m. The third session's close. Governor Samuelson of Idaho moves adjournment of the convention, two minutes after it adopts the platform by voice vote.
     n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2140. See [[cal.1968-08-06.elections-1968-miami]]. Names: Samuelson.'
     src:
@@ -2288,7 +2315,7 @@ entries:
     follows:
       - cal.1968-08-08.elections-1968-miami-2
     c: 'Miami Beach.{1} Nixon names Agnew;{2} Agnew nominated, 1,119, over Romney, put up by delegates against him, 186.{3} Nixon''s acceptance: the voice of "the forgotten Americans—the non-shouters; the non-demonstrators."{4} Johnson by telephone: a briefing at the ranch.{5} Lindsay nominates Agnew.{6}'
-    n: '[Address Accepting the Presidential Nomination at the Republican National Convention in Miami Beach, Florida](https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-republican-national-convention-miami) (Aug. 8, 1968). [Johnson and Nixon, 4:09 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-nixon-august-8-1968), Conversation WH6808-01-13304 (Miller Center). [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the fifth session, the roll call [420–431](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/420/mode/1up). [[w.nixon-rn]], 311–14 (Agnew chosen; the challenge in Romney''s name); [[w.cq-weekly-report]], Aug. 9, 1968, 2096–97, 2137, 2141 (Agnew named, 12:39 p.m.; the ballot; the acceptance, its text). [[w.cq-weekly-report]], Aug. 16, 1968, 2190 (the ballot for Vice President by State: Agnew 1,119, Romney 186, 28 others and not voting). [[w.chester-american-melodrama]], 490, 493 (Agnew named, 12:40 p.m.; the revolt at the evening session); [[w.kabaservice-rule-and-ruin]], 244–45 (Agnew''s choice; Lindsay''s speech); [[w.white-making-of-the-president-1969]], 254–56 (the acceptance); [[w.zelizer-fierce-urgency-of-now]], 306 (the acceptance: "The long dark night for America is about to end"; the "forgotten Americans"; Agnew chosen); [[w.bernstein-guns-or-butter]], 508 (Ball: "a fourth-rate political hack"); [[w.goldberg-barry-goldwater]], 253 (the acceptance speech: Nixon praises Goldwater''s "forgotten Americans—the non shouters, the non demonstrators"; Goldberg gives no day). Order: the choice named after the night''s and the morning''s meetings (White, 250–53). To check: [[w.witcover-white-knight]]; [[w.coffey-spiro-agnew-and-the]]. See [[cal.1968-08-07.elections-1968]]. Names: Nixon, Agnew, Romney, Johnson, Lindsay. Check: Nixon gives Agnew 1,128 votes (314).'
+    n: '[Address Accepting the Presidential Nomination at the Republican National Convention in Miami Beach, Florida](https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-republican-national-convention-miami) (Aug. 8, 1968). [Johnson and Nixon, 4:09 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-nixon-august-8-1968), Conversation WH6808-01-13304 (Miller Center). [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the fifth session, the roll call [420–431](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/420/mode/1up). [[w.nixon-rn]], 311–14 (Agnew chosen; the challenge in Romney''s name); [[w.cq-weekly-report]], Aug. 9, 1968, 2096–97, 2137, 2141 (Agnew named, 12:39 p.m.; the ballot; the acceptance, its text). [[w.cq-weekly-report]], Aug. 16, 1968, 2190 (the ballot for Vice President by State: Agnew 1,119, Romney 186, 28 others and not voting). [[w.chester-american-melodrama]], 490, 493 (Agnew named, 12:40 p.m.; the revolt at the evening session); [[w.kabaservice-rule-and-ruin]], 244–45 (Agnew''s choice; Lindsay''s speech); [[w.white-making-of-the-president-1969]], 254–56 (the acceptance); [[w.zelizer-fierce-urgency-of-now]], 306 (the acceptance: "The long dark night for America is about to end"; the "forgotten Americans"; Agnew chosen); [[w.bernstein-guns-or-butter]], 508 (Ball: "a fourth-rate political hack"); [[w.goldberg-barry-goldwater]], 253 (the acceptance speech: Nixon praises Goldwater''s "forgotten Americans—the non shouters, the non demonstrators"; Goldberg gives no day). Order: the choice named after the night''s and the morning''s meetings (White, 250–53). Check: the Proceedings has Morton nominating Agnew and Lindsay seconding the nomination ([*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), [409](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/409/mode/1up), [411](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/411/mode/1up)). To check: [[w.witcover-white-knight]]; [[w.coffey-spiro-agnew-and-the]]. See [[cal.1968-08-07.elections-1968]]. Names: Nixon, Agnew, Romney, Johnson, Lindsay. Check: Nixon gives Agnew 1,128 votes (314).'
     src:
       c: '42050102'
       rows:
@@ -2366,6 +2393,8 @@ entries:
     when: Aug. 8
     date: '1968-08-08'
     thread: elections-1968-miami
+    follows:
+      - cal.1968-08-08.elections-1968-miami
     c: Lindsay refuses to let his name be put in nomination for Vice President; he seconds Agnew.
     n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2097. Names: Lindsay, Agnew.'
     tags: [name:lindsay-john-v, name:agnew-spiro-t]
@@ -2566,6 +2595,8 @@ entries:
     when: Aug. 8
     date: '1968-08-08'
     thread: elections-1968-humphrey
+    follows:
+      - cal.1968-08-08.elections-1968-miami
     c: 'Johnson telephones Humphrey: Nixon and Agnew are coming to the Ranch Aug. 10; Humphrey invited for Aug. 9.'
     n: '[[w.solberg-hubert-humphrey]], 349. Check: Solberg''s note gives no record of the call. See [[cal.1968-07-25.elections-1968]]. Names: Johnson, Humphrey, Nixon, Agnew.'
     src:
@@ -3024,6 +3055,8 @@ entries:
     date: '1968-08-10'
     place: sacramento
     thread: elections-1968-mccarthy
+    follows:
+      - cal.1968-08-10.elections-1968-2
     c: 'Sacramento, a news conference. McCarthy: Nixon "will make it easier" to support the Democratic nominee; McGovern''s candidacy "no significant effect"; "I would rather have had his endorsement."'
     n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2179. Names: McCarthy, Nixon, McGovern.'
     tags: [name:mccarthy-eugene-j, name:nixon-richard-m, name:mcgovern-george]
@@ -4376,6 +4409,8 @@ entries:
     time: 1968-08-20T00:37Z
     place: detroit
     thread: vietnam-paris
+    follows:
+      - cal.1968-08-19.elections-1968
     c: 'Detroit.{1} Johnson to the Veterans of Foreign Wars: "This administration does not intend to move further until it has good reason to believe that the other side intends seriously to join us in deescalating the war."{2}'
     n: 'Remarks in Detroit at the Annual Convention of the Veterans of Foreign Wars, [1968–69 Pub. Papers 896](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=206) (Aug. 19, 1968). [[w.cq-weekly-report]], Aug. 30, 1968, 2337 (the substance). [[w.bernstein-guns-or-butter]], 511; [[w.mann-grand-delusion]], 612 (Aug. 19, to the Veterans of Foreign Wars: Johnson renounces the bombing halt imposed Mar. 31, "We are not going to stop the bombing just to give them a chance to step up their bloodbath"; not Detroit or the words of unit B); [[w.johnson-white-house-diary]], 703 (Aug. 20: Johnson "had arrived late last night after a speech in Detroit to the Veterans of Foreign Wars"; nothing of the speech). See [[cal.1968-07-29.vietnam]]. Names: Johnson.'
     src:
@@ -4785,6 +4820,7 @@ entries:
     also: [soviet-union-czechoslovakia]
     follows:
       - cal.1968-08-20.soviet-union
+      - cal.1968-08-20.soviet-union-czechoslovakia-3
     c: 'The night of the invasion of Czechoslovakia, after the National Security Council: Johnson keeps Humphrey for a lecture: not Presidential timber, soft on foreign policy, bending to McCarthy''s doves, straining the loyalty of Connally and the South.'
     n: '[[w.white-making-of-the-president-1969]], 278 (the President to a newsman, of Humphrey: "He cries too much"; to a friend in July: "Hubert''s just too old-fashioned"). Check: Humphrey''s own account. Order: after the National Security Council, [[cal.1968-08-20.soviet-union]]. Names: Johnson, Humphrey, McCarthy, Connally.'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:mccarthy-eugene-j, name:connally-john]
@@ -4814,8 +4850,9 @@ entries:
     also: [testing-missile-talks]
     follows:
       - cal.1968-08-20.soviet-union
+      - cal.1968-08-20.soviet-union-czechoslovakia-3
     c: 'Late that night, at State, Rusk reads Dobrynin Johnson''s message from notes: no knowledge of any part taken by non-communist countries, nor of any public request for help from Prague; "we feel we should carefully reconsider the possibility of announcing a meeting between our leaders." By Dobrynin''s account.'
-    n: '[[w.dobrynin-in-confidence]], 186; [[w.dallek-flawed-giant]], 555 (Johnson instructs Rusk to tell Dobrynin of his decision not to announce anything about a visit or talks; not the hour, the place or the words). Order: late that night, after Dobrynin''s call on Johnson. See [[cal.1968-08-20.soviet-union]]. Names: Rusk, Dobrynin, Johnson.'
+    n: '[[w.dobrynin-in-confidence]], 186; [[w.dallek-flawed-giant]], 555 (Johnson instructs Rusk to tell Dobrynin of his decision not to announce anything about a visit or talks; not the hour, the place or the words). Order: late that night, after Dobrynin''s call on Johnson. After [[cal.1968-08-20.soviet-union-czechoslovakia-3|the National Security Council]], at which Johnson instructs Rusk to ask Dobrynin in and Rusk reads the draft reply: [FRUS 1964–68, XVII, doc. 81](https://history.state.gov/historicaldocuments/frus1964-68v17/d81). See [[cal.1968-08-20.soviet-union]]. Names: Rusk, Dobrynin, Johnson.'
     src:
       c: '33979768'
       rows:
@@ -4912,8 +4949,13 @@ entries:
     thread: soviet-union
     also: [testing-missile-talks]
     c: 'The White House. Walt Rostow to Mrs. Johnson, asked whether anything good is to happen in the next day or two: "It looks as if the Russians have emptied their out-basket to us. They have answered all of the President''s correspondence." Staff talk of a press conference for Wednesday morning; all roadblocks to the nuclear talks seem overcome.'
-    n: '[[w.johnson-white-house-diary]], 703–04 (Lady Bird Johnson''s account). The press conference of Wednesday is not described. Names: Rostow, Lady Bird Johnson.'
+    n: '[[w.johnson-white-house-diary]], 703–04 (Lady Bird Johnson''s account). The press conference of Wednesday is not described. The time: the morning, before lunch ("our high hopes of this morning," 704). Names: Rostow, Lady Bird Johnson.'
     tags: [name:rostow-walt-w, name:johnson-lady-bird, city:washington]
+    time_range:
+      - 1968-08-20T10:00Z
+      - 1968-08-20T16:00Z
+    time_band: morning
+    time_zone: America/New_York
   - id: cal.1968-08-20.vietnam-hanoi
     when: Aug. 20
     date: '1968-08-20'
@@ -5729,8 +5771,10 @@ entries:
     place: chicago
     thread: elections-1968-chicago-streets
     also: [war-opposition]
+    follows:
+      - cal.1968-08-23.elections-1968-chicago-3
     c: 'Judge Lynch dismisses the Mobilization''s suit: the Park District and the city not arbitrary in refusing permits "for the particular places and at the particular times sought"; no First Amendment right to a park to sleep in.'
-    n: '[[w.rights-in-conflict-convention-week]], 67–68 (Davis, Dellinger and Peck to City Hall after; Daley out); [[w.zaroulis-who-spoke-up]], 184 (Aug. 23: Judge Lynch rules for the city; the three suits lost; no permits). See [[cal.1968-03-26.elections-1968-chicago]].'
+    n: '[[w.rights-in-conflict-convention-week]], 67–68 (Davis, Dellinger and Peck to City Hall after; Daley out); [[w.zaroulis-who-spoke-up]], 184 (Aug. 23: Judge Lynch rules for the city; the three suits lost; no permits). After [[cal.1968-08-23.elections-1968-chicago-3|the Yippies'' withdrawal of their suit]], made knowing a decision in the Mobilization''s suit was to come: [[w.rights-in-conflict-convention-week]], 73. See [[cal.1968-03-26.elections-1968-chicago]].'
     tags: [name:davis-rennie, name:dellinger-david, state:il, city:chicago]
     time_range:
       - 1968-08-23T14:00Z
@@ -6520,6 +6564,8 @@ entries:
     date: '1968-08-25'
     place: chicago
     thread: elections-1968-chicago
+    follows:
+      - cal.1968-08-25.elections-1968-chicago-7
     c: 'Chicago, after the Illinois caucus. Humphrey through a lobby of young people shouting "We Want Gene," up to his suite on the Conrad Hilton''s twenty-fifth floor. With O''Brien, Fred Harris, Mondale, Rowe, Connell and Andreas: O''Brien sure Edward Kennedy will not run. Humphrey: Kennedy''s views on Vietnam and his own draft plank "practically agree—hell, it''s a matter of semantics"; his draft "won''t get us into trouble in high places, and it''s progressive."'
     n: '[[w.solberg-hubert-humphrey]], 358. To check: Edgar Berman, diary, Aug. 25, 1968, Berman files (cited by [[w.solberg-hubert-humphrey]], 358, its note). See [[cal.1968-08-25.elections-1968-chicago-6]]. Names: Humphrey, O''Brien, Fred Harris, Mondale, Rowe, Edward Kennedy.'
     src:
@@ -6534,8 +6580,10 @@ entries:
     place: chicago
     thread: elections-1968-chicago-platform
     also: [vietnam]
+    follows:
+      - cal.1968-08-25.elections-1968-chicago-9
     c: Chicago, late at night. Ginsburg to Humphrey's suite, crowded with newsmen and politicians; Humphrey takes him into a bedroom, closes the door, and they go over "the differences and their implications." Humphrey vows to stand firm.
-    n: '[[w.solberg-hubert-humphrey]], 353. See [[cal.1968-08-25.elections-1968-chicago-9]]. Names: Ginsburg, Humphrey.'
+    n: '[[w.solberg-hubert-humphrey]], 353. After [[cal.1968-08-25.elections-1968-chicago-9|the call to the Ranch]] from Boggs''s room, in Solberg''s sequence (352–53). See [[cal.1968-08-25.elections-1968-chicago-9]]. Names: Ginsburg, Humphrey.'
     src:
       c: a98a3e0e
       rows:
@@ -6683,8 +6731,10 @@ entries:
     place: chicago
     thread: elections-1968-chicago
     also: [vietnam-paris]
+    follows:
+      - cal.1968-08-26.elections-1968-chicago-24
     c: 'Chicago, the convention''s first day.{1} Watson, sent by Johnson, to Humphrey: the plank on Vietnam Humphrey''s people worked out "doesn''t meet with the President''s approval";{2} "You must stay the course on Vietnam if you expect to be nominated."{3} Humphrey to Johnson by telephone: Rusk and Rostow approved it.{4} Johnson: "this plank just undercuts our whole policy."{5} By Humphrey''s and Watson''s accounts.{6}'
-    n: '[[w.longley-lbjs-1968]], 212–13; [[w.solberg-hubert-humphrey]], 353–54, 359–60 (Watson: the President absolutely refuses Humphrey''s draft plank; Humphrey to Johnson by telephone: there will be trouble at the convention if it is not put forward; Johnson: "That plank undercuts our whole policy and, by God, the Democratic party ought not to be doing this to me"; not the day, Rusk and Rostow, or Watson''s words); [[w.bernstein-guns-or-butter]], 511 (Watson to Humphrey at the Conrad Hilton; Johnson: "It hasn''t been cleared with me"; the committee for the administration''s plank, 65 to 35); [[w.mann-grand-delusion]], 612 (Johnson to Humphrey on the plank: "this plank just undercuts our whole policy and, by God, the Democratic party ought not to be doing that to me"; Rusk and Rostow had assented; Boggs threatened to oppose; undated; not Watson or the telephone); [[w.obrien-no-final-victories]], 251–52 (O''Brien''s account, undated: Charles Murphy, the President''s spokesman, pronounces the Ginsburg–Sorensen draft unacceptable; Ginsburg and O''Brien urge Humphrey to call the President; Humphrey: "These are just words ... I don''t see that we''ve upset any applecarts"; O''Brien to Ginsburg: "This could blow the whole campaign"; Humphrey accepts the Johnson plank; not Watson, Rusk and Rostow, or the day). [[w.humphrey-education-of-a-public-1976]], 387–90 (the plank cleared with Rusk and Rostow; Watson; the call to Johnson; Humphrey''s account). To check: [[w.watson-chief-of-staff]], 296–99; [[w.witcover-year-the-dream-died]], 315; [Johnson and Watson, 10:39 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-marvin-watson-machine-noise-and-office), Conversation WH6808-02-13320 (Miller Center). See [[cal.1968-07-09.elections-1968]]. Names: Watson, Humphrey, Rusk, Rostow, Johnson. Check: Humphrey puts Watson''s message on the morning after the Southern governors cleared the plank on Monday, so Tuesday, Aug. 27 (389); "You must stay the course" is not in his account.'
+    n: '[[w.longley-lbjs-1968]], 212–13; [[w.solberg-hubert-humphrey]], 353–54, 359–60 (Watson: the President absolutely refuses Humphrey''s draft plank; Humphrey to Johnson by telephone: there will be trouble at the convention if it is not put forward; Johnson: "That plank undercuts our whole policy and, by God, the Democratic party ought not to be doing this to me"; not the day, Rusk and Rostow, or Watson''s words); [[w.bernstein-guns-or-butter]], 511 (Watson to Humphrey at the Conrad Hilton; Johnson: "It hasn''t been cleared with me"; the committee for the administration''s plank, 65 to 35); [[w.mann-grand-delusion]], 612 (Johnson to Humphrey on the plank: "this plank just undercuts our whole policy and, by God, the Democratic party ought not to be doing that to me"; Rusk and Rostow had assented; Boggs threatened to oppose; undated; not Watson or the telephone); [[w.obrien-no-final-victories]], 251–52 (O''Brien''s account, undated: Charles Murphy, the President''s spokesman, pronounces the Ginsburg–Sorensen draft unacceptable; Ginsburg and O''Brien urge Humphrey to call the President; Humphrey: "These are just words ... I don''t see that we''ve upset any applecarts"; O''Brien to Ginsburg: "This could blow the whole campaign"; Humphrey accepts the Johnson plank; not Watson, Rusk and Rostow, or the day). [[w.humphrey-education-of-a-public-1976]], 387–90 (the plank cleared with Rusk and Rostow; Watson; the call to Johnson; Humphrey''s account). After [[cal.1968-08-26.elections-1968-chicago-24|Ginsburg''s three hours more with Murphy]], in Solberg''s sequence (353: "Then"). To check: [[w.watson-chief-of-staff]], 296–99; [[w.witcover-year-the-dream-died]], 315; [Johnson and Watson, 10:39 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-marvin-watson-machine-noise-and-office), Conversation WH6808-02-13320 (Miller Center). See [[cal.1968-07-09.elections-1968]]. Names: Watson, Humphrey, Rusk, Rostow, Johnson. Check: Humphrey puts Watson''s message on the morning after the Southern governors cleared the plank on Monday, so Tuesday, Aug. 27 (389); "You must stay the course" is not in his account.'
     src:
       c: 67731fc3
       rows:
@@ -7034,6 +7084,8 @@ entries:
     place: chicago
     thread: elections-1968-chicago-platform
     also: [vietnam]
+    follows:
+      - cal.1968-08-26.elections-1968-chicago-platform
     c: 'Chicago, after Humphrey''s breakfast. Ginsburg, three hours more with Charles Murphy over the plank on Vietnam: Humphrey''s text, "Stop the bombing of North Vietnam. The action and its timing shall take into account the security of our troops and the likelihood of a response from Hanoi"; Johnson''s, the "when clause," "Stop all the bombing of North Vietnam when this action would not endanger the lives of our troops in the field; this action should take into account the response from Hanoi." Murphy calls the Ranch twice; Jim Jones stands against Humphrey''s wording both times.'
     n: '[[w.solberg-hubert-humphrey]], 353 (Ginsburg at lunch: "They played with these words, and the President at the other end of the line down on the ranch just hung on to every inch as if he had nothing else to do"). See [[cal.1968-08-26.elections-1968-chicago-platform]]. Names: Ginsburg, Charles Murphy, Humphrey, Johnson, Jones.'
     src:
@@ -7060,6 +7112,8 @@ entries:
     place: chicago
     thread: elections-1968-chicago-platform
     also: [vietnam]
+    follows:
+      - cal.1968-08-26.elections-1968-chicago
     c: Chicago. After Watson's word and his call to Johnson, Humphrey withdraws his draft plank on Vietnam, Boggs, the platform committee's chairman, having said that what is unacceptable to the President is unacceptable to him.
     n: '[[w.solberg-hubert-humphrey]], 354, 360. See [[cal.1968-08-26.elections-1968-chicago]]. Names: Watson, Johnson, Humphrey, Boggs.'
     src:
@@ -7677,6 +7731,8 @@ entries:
     place: chicago
     thread: elections-1968-chicago-platform
     also: [vietnam]
+    follows:
+      - cal.1968-08-27.elections-1968-chicago-2
     c: 'Chicago, after Johnson''s call. Humphrey to his platform advisers: their "fighting with" Johnson''s draftsmen is "embarrassing the President." "If he comes up, it will be just as embarrassing for me."'
     n: '[[w.solberg-hubert-humphrey]], 360–61. To check: Edgar Berman, diary, Aug. 27, 1968, Berman files (cited by [[w.solberg-hubert-humphrey]], 360, its note). See [[cal.1968-08-27.elections-1968-chicago-2]]. Names: Humphrey, Johnson.'
     src:
@@ -8324,8 +8380,10 @@ entries:
     date: '1968-08-29'
     time: 1968-08-29T21:34Z
     thread: elections-1968-chicago
+    follows:
+      - cal.1968-08-29.elections-1968-chicago-14
     c: '4:34 p.m. Humphrey names Muskie his choice for Vice President: qualified, he says, for the Presidency itself.'
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2284. [[w.white-making-of-the-president-1969]], 305 (four o''clock; Harris told first). See [[cal.1968-08-28.elections-1968]]. Names: Humphrey, Muskie.'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2284. [[w.white-making-of-the-president-1969]], 305 (four o''clock; Harris told first). After [[cal.1968-08-29.elections-1968-chicago-14|the choice in Humphrey''s suite]], made with Humphrey nominated ([[w.obrien-no-final-victories]], 253); Humphrey puts his final decision on Thursday morning ([[w.humphrey-education-of-a-public-1976]], 390). See [[cal.1968-08-28.elections-1968]]. Names: Humphrey, Muskie.'
     tags: [name:humphrey-hubert-h, name:muskie-edmund-s]
   - id: cal.1968-08-29.elections-1968-chicago-8
     when: Aug. 29
@@ -8477,7 +8535,7 @@ entries:
     place: chicago
     thread: elections-1968-chicago
     c: 'Chicago, Humphrey''s suite. Humphrey, Rowe, Connell and O''Brien in one bedroom, Muskie in another, Harris in the living room. Humphrey: "if you had fifteen seconds to decide, who would it be?" O''Brien: "Ed Muskie"; Rowe and Connell agree. Humphrey tells each himself. By O''Brien''s account.'
-    n: '[[w.obrien-no-final-victories]], 253. Check: the day (the work gives none). Names: Humphrey, Rowe, O''Brien, Muskie, Harris.'
+    n: '[[w.obrien-no-final-victories]], 253. Check: the day (the work gives none). Check: Humphrey puts the final choice of Muskie on Thursday morning, Aug. 29 ([[w.humphrey-education-of-a-public-1976]], 390); O''Brien, after Humphrey''s nomination (253). Names: Humphrey, Rowe, O''Brien, Muskie, Harris.'
     tags: [name:humphrey-hubert-h, name:rowe-james-h-jr, name:obrien-lawrence-f, name:muskie-edmund-s, name:harris-fred-r, state:il, city:chicago]
   - id: cal.1968-08-29.vietnam-hanoi
     when: Aug. 29
