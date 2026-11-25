@@ -1395,3 +1395,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 9:20 p.m. PT) "Ruling 52 should be revised into a pair of entries, one dated precisely, and one with an inverse-\"follows:\", no? (\"precedes:\"?)" (Done: owner-rulings 52 revised; the reader's brief, R25b; the order is carried by `follows:` on the later entry, so no new field was made; a reader set to split the entries the clock-time audits listed.)
 
 (Nov. 24, about 9:35 p.m. PT) "Please do remove the old commit." (Checked first: no commit ever held the listing of the wider Drive library. The inventory files first entered git in commit 61a34bdd, after the rows had been taken out. Nothing to remove; the earlier report that the list had been pushed was wrong.)
+
+(Nov. 24, about 9:45 p.m. PT) "Explain the \"page and note\" rows question to me." (Answered in the reply.)
