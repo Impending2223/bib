@@ -1,0 +1,63 @@
+patch: 2026-11-25-sequence-1967-02
+by: 'Claude (Sonnet, sequence pass: R25c on February 1967), Nov. 25, 2026; notes/sequence/1967-02.md. Audited by Claude (Opus), Nov. 25, 2026: notes/sequence/audit-1967-02.md'
+ops:
+- follows:
+    id: cal.1967-02-01.vietnam-support
+    add:
+    - cal.1967-02-01.vietnam
+- follows:
+    id: cal.1967-02-06.china-leadership
+    add:
+    - cal.1967-02-06.china-leadership-3
+- follows:
+    id: cal.1967-02-10.china-leadership-2
+    add:
+    - cal.1967-02-10.china-leadership
+- follows:
+    id: cal.1967-02-16.china-leadership-3
+    add:
+    - cal.1967-02-16.china-leadership-6
+- check:
+    id: cal.1967-02-16.china-leadership-3
+    text: 'Check: the hour of the report to Mao, about 10 p.m. ([[w.yang-jisheng-tiandi-fanfu]], I, 390, "晚上 10 點左右"; [[w.macfarquhar-maos-last-revolution]], 194–195, between ten and midnight); the drawing up of the record is also told in [[cal.1967-02-16.china-leadership-6]], and the report, split from it (R25b), would take its hour.'
+- follows:
+    id: cal.1967-02-17.china-leadership-6
+    add:
+    - cal.1967-02-17.china-leadership-2
+- follows:
+    id: cal.1967-02-17.vietnam
+    add:
+    - cal.1967-02-17.vietnam-air-war
+- check:
+    id: cal.1967-02-17.vietnam-air-war
+    text: 'Check: the hour: Sharp''s answer to this cable, CINCPAC 170820Z ([[cal.1967-02-17.vietnam-air-war-2]]), is 3:20 a.m. Feb. 17, Washington time, so the cable went before it, the night of Feb. 16–17, not in the workday.'
+- follows:
+    id: cal.1967-02-19.china-leadership-2
+    add:
+    - cal.1967-02-19.china-leadership
+- follows:
+    id: cal.1967-02-23.china-leadership-5
+    add:
+    - cal.1967-02-23.china-leadership-4
+- follows:
+    id: cal.1967-02.china-leadership-8
+    add:
+    - cal.1967-02-23.china-leadership-4
+- check:
+    id: cal.1967-02.china-leadership-8
+    text: 'Check: the hour: Yang (I, 399) has the Military Commission leader''s call to Zhao Yongfu about 8 p.m. (晚八時許), after the General Staff''s call of 2 p.m. ([[cal.1967-02-23.china-leadership-5]]); MacFarquhar (180) has the congratulations immediately after the shooting.'
+- follows:
+    id: cal.1967-02-26.robert-kennedy
+    add:
+    - cal.1967-02-26.opinion
+- edit:
+    id: cal.1967-02-26.robert-kennedy
+    base: 093a5ced
+    set:
+      time_range: ['1967-02-26T17:00Z', '1967-02-26T23:00Z']
+      time_band: afternoon
+      time_zone: America/New_York
+- follows:
+    id: cal.1967-02-28.china-leadership-2
+    add:
+    - cal.1967-02-28.china-leadership

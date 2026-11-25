@@ -1,0 +1,140 @@
+patch: 2026-11-25-sequence-1963-01
+by: 'Claude (Sonnet, sequence pass: R25c on January 1963), Nov. 25, 2026; audited by Claude (Opus), Nov. 25, 2026; notes/sequence/1963-01.md, notes/sequence/audit-1963-01.md'
+ops:
+- follows:
+    id: cal.1963-01-05.china-leadership
+    add:
+    - cal.1963-01-05.china-leadership-4
+- follows:
+    id: cal.1963-01-05.china-leadership-2
+    add:
+    - cal.1963-01-05.china-leadership
+- follows:
+    id: cal.1963-01-07.china-leadership-5
+    add:
+    - cal.1963-01-07.soviet-union
+- follows:
+    id: cal.1963-01-08.china-leadership-10
+    add:
+    - cal.1963-01-08.china-leadership-4
+- follows:
+    id: cal.1963-01-14.white-house
+    add:
+    - cal.1963-01-14.program
+- follows:
+    id: cal.1963-01-15.china-leadership-6
+    add:
+    - cal.1963-01-15.china-leadership-5
+- follows:
+    id: cal.1963-01-18.congress-2
+    add:
+    - cal.1963-01-18.congress
+- follows:
+    id: cal.1963-01-22.china-leadership-7
+    add:
+    - cal.1963-01-22.china-leadership-6
+- follows:
+    id: cal.1963-01-23.china-leadership-8
+    add:
+    - cal.1963-01-23.china-leadership-7
+- follows:
+    id: cal.1963-01-28.china-leadership-6
+    add:
+    - cal.1963-01-28.china-leadership-5
+- follows:
+    id: cal.1963-01-29.china-leadership-5
+    add:
+    - cal.1963-01-29.china-leadership-4
+- follows:
+    id: cal.1963-01-29.school-aid-2
+    add:
+    - cal.1963-01-29.school-aid
+- edit:
+    id: cal.1963-01-05.china-leadership
+    base: 48d7edaf
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 5, 1963 (and n. 4). [[w.zhou-enlai-nianpu-1949]], II, 525 (Jan. 5, 1963: Zhou Enlai with Mao receives Bandaranaike, and Subandrio brought by Chen Yi). The words: 下午，同本日到达杭州的周恩来谈话 ([[w.zedong-mao-zedong-nianpu]], V, Jan. 5, 1963). Made public: 1997. After [[cal.1963-01-05.china-leadership-4|Zhou''s departure from Peking]]: Zhou reaches Hangzhou that day (the Mao nianpu, above), the party there at noon ([[w.chen-yi-nianpu]], 950). Names: Mao Zedong, Zhou Enlai, Bandaranaike, Subandrio.'
+      time_range:
+      - 1963-01-05T04:00Z
+      - 1963-01-05T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1963-01-05.china-leadership-2
+    base: 2053f249
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 5, 1963 ("同日"). [[w.zhou-enlai-waijiao-huodong]], 349 (Jan. 5, 1963; 下午6时, 杭州, 陪同毛泽东主席会见). Made public: 1993. See [[cal.1963-01-05.china-leadership]]. After [[cal.1963-01-05.china-leadership|Mao''s talk with Zhou]]: the Mao nianpu puts the talk in the afternoon (下午) and this reception at 6 p.m. (下午六时) (V, Jan. 5, 1963). Names: Mao Zedong, Bandaranaike, Zhou Enlai, Chen Yi, Huo Shilian.'
+- follows:
+    id: cal.1963-01-08.china-leadership-4
+    add:
+    - cal.1963-01-08.china-leadership-3
+- edit:
+    id: cal.1963-01-08.china-leadership
+    base: ae11799b
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 8, 1963 (and Jan. 9). [[w.zhou-enlai-nianpu-1949]], II, 525 (Jan. 15, 1963: Zhou Enlai, at Mao''s request, drafts the Central Committee notice on the 1963 plan and the like; the nianpu gives a conference in mid-February, not a meeting of the regional secretaries from Feb. 5); [[w.deng-xiaoping-nianpu-1904]], III, 1741–1742 (Jan. 9, 1963; Deng reads the record of Zhou Enlai''s call of the 8th from Hangzhou, in which Zhou gives Mao''s three instructions: the anti-revisionist article held until Khrushchev has spoken at the SED congress and then answered with his Supreme Soviet speech; more ''writers'' (秀才) for the delegation; Ke Qingshi''s plan of a small meeting on Feb. 5 with the bureau secretaries and a work conference on Feb. 10 with the provincial secretaries). The words: 晚上，同周恩来谈话 ([[w.zedong-mao-zedong-nianpu]], V, Jan. 8, 1963). Made public: 1997. After [[cal.1963-01-08.china-leadership-4|Zhou''s seeing Bandaranaike off at Shanghai]]: Zhou is at Shanghai''s Hongqiao airport that day ([[w.zhou-enlai-waijiao-huodong]], 349), and with Mao at Hangzhou that evening. Check: Yang Shangkun''s diary records a call from Zhou Enlai at Hangzhou on Jan. 8 ([[w.yang-shangkun-riji]], II, 241–242), none on Jan. 9; whether the call of unit C is that one. Names: Mao Zedong, Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Khrushchev, Yang Shangkun.'
+      time_range:
+      - 1963-01-08T11:00Z
+      - 1963-01-08T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- follows:
+    id: cal.1963-01-08.china-leadership
+    add:
+    - cal.1963-01-08.china-leadership-4
+- edit:
+    id: cal.1963-01-08.china-leadership-8
+    base: e0f42fa1
+    set:
+      n: '[[w.yang-shangkun-riji]], II, 241–242 (Jan. 8, 1963); [[w.peng-zhen-nianpu-1902]], IV, 238 (Jan. 9, 1963; Zhou Enlai telephones from Hangzhou to Liu Shaoqi, Deng Xiaoping, Peng Zhen and others three instructions of Mao: the articles against modern revisionism held until Khrushchev speaks at the East German congress, then both his speeches answered; a few more "scholars" in the delegation to the congress; Ke Qingshi''s proposal agreed, a small meeting of the regional bureaus'' secretaries Feb. 5 and a Central Work Conference with the provincial secretaries Feb. 10). The words: 总理由杭州来电话 (II, 241). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). After [[cal.1963-01-08.china-leadership-4|the seeing-off at Shanghai]], Zhou being at Hongqiao airport that day ([[w.zhou-enlai-waijiao-huodong]], 349); and after [[cal.1963-01-08.china-leadership-7|the Secretariat''s meeting]]: the diary writes the call after the meeting of 3:30 to 6 p.m. and before the evening (晚间) (II, 241–242), the order of its sentences, the weakest basis. Names: Zhou Enlai, Yang Shangkun.'
+- follows:
+    id: cal.1963-01-08.china-leadership-8
+    add:
+    - cal.1963-01-08.china-leadership-4
+    - cal.1963-01-08.china-leadership-7
+- edit:
+    id: cal.1963-01-14.europe-and-the-alliance-2
+    base: 80d33587
+    set:
+      n: '[[w.ball-past-has-another-pattern]], 269–70. The words: "the following morning" (269); "At the conclusion of the morning" (270). Check: the government''s announcement not read. See [[cal.1962-12-18.europe-and-the-alliance]]. Names: Ball, Adenauer, Macmillan.'
+      time_range:
+      - 1963-01-14T05:00Z
+      - 1963-01-14T11:00Z
+      time_band: morning
+      time_zone: Europe/Berlin
+    unset:
+    - range_basis
+- edit:
+    id: cal.1963-01-17.china-leadership-2
+    base: e966c5d9
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 526 (Jan. 17, 1963). Made public: 1997. After [[cal.1963-01-17.china-leadership-6|the delegation''s journey to Hangzhou]]: Zhou is at Hangzhou Jan. 9–21 ([[cal.1963-01-09.china-leadership]]), and Chen Yi brings the delegation there from Guangzhou that morning ([[w.chen-yi-nianpu]], 951). Names: Zhou Enlai, Chen Yi, Kofi Asante Ofori-Atta.'
+- follows:
+    id: cal.1963-01-17.china-leadership-2
+    add:
+    - cal.1963-01-17.china-leadership-6
+- edit:
+    id: cal.1963-01-18.congress
+    base: c9d8a5fd
+    set:
+      n: '[[w.ritchie-minutes-of-the-senate]], 616–17 (Monroney''s report to the Senate Democratic Conference, Feb. 7, 1963, attached to its minutes). The words: "This group met at noon January 18" (616). Names: Mansfield, Monroney.'
+      time: 1963-01-18T17:00Z
+      time_zone: America/New_York
+- edit:
+    id: cal.1963-01-21.china-leadership-9
+    base: c4d91f08
+    set:
+      n: '[[w.zhu-de-nianpu-xinbian]], III, 1861. Made public: 2016. After [[cal.1963-01-21.china-leadership-8|the return to Haikou]]: away from Haikou since Jan. 15, he comes back to it on the 21st by the eastern road (III, 1860–1861); the hearing is at Haikou as the line places it, the nianpu naming no place for it. Names: Zhu De.'
+- follows:
+    id: cal.1963-01-21.china-leadership-9
+    add:
+    - cal.1963-01-21.china-leadership-8
+- edit:
+    id: cal.1963-01-21.china-leadership-10
+    base: 9203f02d
+    set:
+      n: '[[w.zhu-de-nianpu-xinbian]], III, 1861. Made public: 2016. After [[cal.1963-01-21.china-leadership-8|the return to Haikou]]: he comes back to Haikou from the eastern road (回到海口市) and goes out by the western road (乘车沿西线) (III, 1861). Names: Zhu De.'
+- follows:
+    id: cal.1963-01-21.china-leadership-10
+    add:
+    - cal.1963-01-21.china-leadership-8

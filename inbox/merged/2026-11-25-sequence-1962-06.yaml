@@ -1,0 +1,58 @@
+patch: 2026-11-25-sequence-1962-06
+by: 'Claude (Sonnet, sequence pass: R25c on June 1962), Nov. 25, 2026; notes/sequence/1962-06.md. Audited and corrected by Claude (Opus), Nov. 25, 2026 (R33b); notes/sequence/audit-1962-06.md'
+ops:
+- follows: {id: cal.1962-06-04.china-leadership-7, add: [cal.1962-06-04.china-leadership-6]}
+- follows: {id: cal.1962-06-06.king, add: [cal.1962-06-06.civil-rights-the-executive]}
+- follows: {id: cal.1962-06-08.china-leadership-12, add: [cal.1962-06-08.china-leadership-11]}
+- follows: {id: cal.1962-06-08.china-leadership-13, add: [cal.1962-06-08.china-leadership-11]}
+- follows: {id: cal.1962-06-09.china-leadership-3, add: [cal.1962-06-09.china-leadership-4]}
+- follows: {id: cal.1962-06-12.china-leadership-9, add: [cal.1962-06-12.china-leadership-8]}
+- follows: {id: cal.1962-06-14.china-leadership-9, add: [cal.1962-06-14.china]}
+- follows: {id: cal.1962-06-15.china-leadership-2, add: [cal.1962-06-15.china-leadership]}
+- follows: {id: cal.1962-06-15.china-leadership-11, add: [cal.1962-06-15.china-leadership-10]}
+- follows: {id: cal.1962-06-22.china, add: [cal.1962-06-22.china-leadership-8]}
+- follows: {id: cal.1962-06-22.china-leadership-9, add: [cal.1962-06-22.china-leadership-8]}
+- follows: {id: cal.1962-06-22.china-2, add: [cal.1962-06-22.china]}
+- follows: {id: cal.1962-06-23.china, add: [cal.1962-06-23.laos]}
+- follows: {id: cal.1962-06-26.china-leadership-2, add: [cal.1962-06-26.china-leadership]}
+- follows: {id: cal.1962-06-29.china-leadership, add: [cal.1962-06-29.china-leadership-5]}
+- follows: {id: cal.1962-06-29.china-leadership-13, add: [cal.1962-06-29.china-leadership-12]}
+- follows: {id: cal.1962-06-29.china-leadership-2, add: [cal.1962-06-29.china-leadership-12]}
+- follows: {id: cal.1962-06-29.china-leadership-8, add: [cal.1962-06-29.china-leadership-7]}
+- check: {id: cal.1962-06-23.laos, text: 'Check: the day. Kennedy''s message of June 13 already speaks of "the formation of a Coalition Government" (the princes'' agreement of June 12), and no source cited here dates the government''s formation June 23.'}
+- edit:
+    id: cal.1962-06-08.china-leadership-12
+    base: a779be69
+    set:
+      n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Made public: 2016. The order: Zhu De reached Tonghai and then Jianshui that day, on the road from Yuxi, where he was on June 7, to Jianshui, from which he set out for Gejiu on June 9 ([[w.zhu-de-nianpu-xinbian]], III, 1842). Names: Zhu De.'
+- edit:
+    id: cal.1962-06-08.china-leadership-13
+    base: 5152ab80
+    set:
+      n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Made public: 2016. The order: the tower is at Jianshui, which Zhu De reached from Tonghai that day ([[w.zhu-de-nianpu-xinbian]], III, 1842); nothing in the chronology orders the visit against his hearing of the Jianshui county committee. Names: Zhu De.'
+- edit:
+    id: cal.1962-06-12.china-leadership-9
+    base: c91f60bb
+    set:
+      n: '[[w.zhu-de-nianpu-xinbian]], III, 1843. Made public: 2016. The order: Zhu De heard the Mile county committee 途经弥勒县时, passing through Mile on the way to Yiliang ([[w.zhu-de-nianpu-xinbian]], III, 1843). Names: Zhu De.'
+- edit:
+    id: cal.1962-06-15.china-leadership-2
+    base: 5e89c6fc
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 484 (June 15, 1962); [[w.zhou-enlai-waijiao-huodong]], 331 (June 15, 1962; 晚6时40分, 沈阳车站); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 231–232 (June 15–July 2, 1962; the Korean Supreme People''s Assembly delegation under Pak Kum Chol, Workers'' Party vice-chairman, visits China; Mao, Liu Shaoqi, Zhu De and Zhou Enlai each receive it, the days not given). Made public: 1993. The order: after the day at Tieling, 下午，返回沈阳，迎接途经这里的朝鲜最高人民会议代表团 ([[w.zhou-enlai-nianpu-1949]], II, 483–84). Names: Zhou Enlai.'
+- edit:
+    id: cal.1962-06-29.china-leadership-8
+    base: cdab8503
+    set:
+      n: '[[w.yang-shangkun-riji]], II, 190 (June 29, 1962). The words: 看电视后办公到2时。童小鹏同志来谈 (II, 190). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). The order: the diary''s order alone; the day''s hours stand in order on the page (8 a.m., morning, afternoon, 7:30 p.m.), and Tong''s talk is its last sentence, after the swim ([[w.yang-shangkun-riji]], II, 190). Names: Tong Xiaopeng, Yang Shangkun.'
+- edit:
+    id: cal.1962-06-10.missile-crisis
+    base: 6cbe9b3c
+    set:
+      time_zone: Europe/Moscow
+      n: '[[w.fursenko-one-hell-of-a]], 187–89; [[w.fursenko-khrushchevs-cold-war]], 439–40 (Operation Anadyr: forty missiles in five regiments, 50,874 men, forty-two Il-28s, eighty FKRs; "I think we will win this operation"); [[w.poole-joint-chiefs-of-staff]], 161 (by June 10 a plan ready: 36 R-12s on 24 launchers, 24 R-14s on 16); [[w.prezidium-tsk-kpss-1954]], I, 568 (Protocol 35); [[w.prezidium-tsk-kpss-1954]], I, 1102 n.4 (the editors: Rashidov and Biryuzov report; Malinovsky reads the General Staff''s memorandum, 24 R-12s and 16 R-14s; 80 cruise missiles, 42 Il-28s, a MiG-21 squadron, 12 SA-2 units, 50,874 men, 12 submarines). Check: under P 35/I, June 10, Rashidov''s report, the volume prints only "Решение – особая папка" (decision: special file) ([[w.prezidium-tsk-kpss-1954]], III, 283); its note: the text never reached the archive (III, 1001 n.1). The Presidium''s materials are not printed. Check: the protocol (I, 567–68) lists Gromyko, Malinovsky and the general staff among those present and has Rashidov''s report on the trip, "go for the decision," the draft resolution approved; not the hour, "Castro satisfied" or "unanimously." The editors (I, 1102 n.4) have twelve submarines, for patrol off the American coast, and nothing of a submarine base or of missiles in reserve. To check: General Ivanov''s notes on a Council of Ministers resolution, AGSRF (cited by [[w.fursenko-one-hell-of-a]], 187 n.13, 188 n.14); Dobrynin''s report of June 4 and the Presidium''s materials, APRF (cited by [[w.fursenko-one-hell-of-a]], 188 n.14). The order: Malin''s notes of the session, the date, the items, the discussion and the decisions all in red ink in his hand, give Kozlov''s report on Novocherkassk first and Rashidov''s report on Cuba after it; the item numbers, II and I, were pencilled in later ([[w.prezidium-tsk-kpss-1954]], I, 567–68 and its notes). The weakest kind of basis, a note-taker''s order alone (owner-rulings 55, the fifth default). See [[cal.1962-05-24.missile-crisis]]. Names: Gromyko, Malinovsky, Castro, Rashidov.'
+- edit:
+    id: cal.1962-06-21.china-leadership
+    base: '99292099'
+    set:
+      time_zone: Asia/Shanghai

@@ -56,6 +56,8 @@ pdftoppm -f 485 -l 485 -r 60 -png book.pdf probe      # then open probe-485.png 
 
 Yang Shangkun's diary: volume I is printed page plus 6, volume II plus 5 on the pages the auditors of Nov. 24 read (to about p. 390). The offset does not hold through volume II: a reader of Nov. 25 found printed 565 at page 520 of the file, and an auditor the same night found printed 649–664 at the file's page less 45 (the printed number is the file's page plus 45 there). So start from the offset, look at the printed number on the image, and step from there. Every page image shows its own printed number, so check each page as you read it. Where an offset from a book-check file does not hold, find the passage by its words instead (recipe 6).
 
+Salinger, *With Kennedy*: in printed pp. 176–88 the printed page is the file's page less 26, not less 20 as the work's book-check file says (an auditor, Nov. 25). Longley, *LBJ's 1968*: the copy on the Drive holds one chapter only, 25 pages (an auditor, Nov. 25). Take the page from the image in both, as everywhere.
+
 ## 5. Read one page of a scan
 
 Render the page and open the image with the Read tool. You can read a page image directly, in any script. At 80 to 90 dpi a page of Chinese is clearly legible; use 150 or 200 for small print or footnotes.

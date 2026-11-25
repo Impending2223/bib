@@ -1,0 +1,22 @@
+patch: 2026-11-25-sequence-1966-11
+by: 'Claude (Sonnet, sequence pass: R25c on November 1966), Nov. 25, 2026; notes/sequence/1966-11.md. Audited by Claude (Opus), Nov. 25, 2026; notes/sequence/audit-1966-11.md'
+ops:
+- follows: {id: cal.1966-11-01.elections-1966, add: [cal.1966-11-01.vietnam-asian-trip]}
+- follows: {id: cal.1966-11-03.china-leadership, add: [cal.1966-11-03.china-leadership-2]}
+- follows: {id: cal.1966-11-07.vietnam-2, add: [cal.1966-11-07.students]}
+- follows: {id: cal.1966-11-08.elections-1966-3, add: [cal.1966-11-08.elections-1966-2]}
+- follows: {id: cal.1966-11-08.elections-1966-4, add: [cal.1966-11-08.elections-1966]}
+- follows: {id: cal.1966-11-10.china-leadership-3, add: [cal.1966-11-10.china-leadership-2]}
+- follows: {id: cal.1966-11-17.vietnam-3, add: [cal.1966-11-17.vietnam-2]}
+- follows: {id: cal.1966-11-21.china-leadership-3, add: [cal.1966-11-21.china-leadership-2]}
+- check: {id: cal.1966-11-22.china-leadership, text: 'Check: the day of the report to Mao; Yang Jisheng ([[w.yang-jisheng-tiandi-fanfu]], I, 334–35) has Li Fuchun pass on the same four points by telephone at 10 p.m. on Nov. 21, Zhou and he having already reported to Mao ([[cal.1966-11-21.china-leadership-3]]).'}
+- check: {id: cal.1966-11-25.transportation, text: 'Check: the day of Califano''s word to Saunders; Califano (163) has Saunders call him "the Monday morning after Thanksgiving," Nov. 28.'}
+- edit:
+    id: cal.1966-11-30.china-leadership-3
+    base: e5f92f1e
+    kind: correct
+    set:
+      c: 'Zhou Enlai speaks at the collective reception by the Center''s leaders of masses from factories, mines, institutions and offices around the country. Because of the Cultural Revolution all have had problems; the Center is studying them and drafting decisions; they have been long away from their units, with production and work, and most may go back, leaving a few delegates. Chen Yi adds that in a word it is the Premier''s instruction, the Center''s spirit: make revolution and grasp and promote production, without hampering production.'
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 94 (Nov. 30, 1966, the item after). The chronology names Chen Yi, not Chen Boda: 陈毅在讲话中说：千言万语一句话，就是刚才周总理的指示 (III, 94), Chen Yi speaking after Zhou ("just now"). Names: Zhou Enlai, Chen Yi.'
+      tags: [name:zhou-enlai, name:chen-yi, polity:prc]
+- follows: {id: cal.1966-11-30.china-leadership-5, add: [cal.1966-11-30.china-leadership-3]}

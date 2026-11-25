@@ -1,0 +1,80 @@
+patch: 2026-11-25-sequence-1967-03
+by: 'Claude (Sonnet, sequence pass: R25c on March 1967), Nov. 25, 2026; audited and corrected by Claude (Opus, R25c, R33b), Nov. 25, 2026; notes/sequence/1967-03.md, notes/sequence/audit-1967-03.md'
+ops:
+- follows: {id: cal.1967-03-01.robert-kennedy, add: [cal.1967-03-01.crime-and-hijacking]}
+- follows: {id: cal.1967-03-02.robert-kennedy, add: [cal.1967-03-02.robert-kennedy-3]}
+- follows: {id: cal.1967-03-14.school-aid-2, add: [cal.1967-03-14.school-aid]}
+- follows: {id: cal.1967-03-14.school-aid-3, add: [cal.1967-03-14.school-aid-2]}
+- follows: {id: cal.1967-03-15.school-aid, add: [cal.1967-03-15.assassination]}
+- follows: {id: cal.1967-03-15.vietnam, add: [cal.1967-03-15.school-aid]}
+- follows: {id: cal.1967-03-15.war-opposition, add: [cal.1967-03-15.vietnam]}
+- follows: {id: cal.1967-03-15.school-aid-2, add: [cal.1967-03-15.war-opposition]}
+- follows: {id: cal.1967-03-15.school-aid-3, add: [cal.1967-03-15.school-aid-2]}
+- follows: {id: cal.1967-03-18.students, add: [cal.1967-03-18.states-and-cities-us]}
+- follows: {id: cal.1967-03-18.states-and-cities, add: [cal.1967-03-18.students]}
+- follows: {id: cal.1967-03-23.china-leadership-2, add: [cal.1967-03-23.china-leadership-3]}
+- follows: {id: cal.1967-03-30.china-leadership-3, add: [cal.1967-03-30.china-leadership-5]}
+- edit:
+    id: cal.1967-03-01.robert-kennedy
+    base: 25ffdaf4
+    set:
+      n: '[[w.thomas-robert-kennedy]], 337. After [[cal.1967-03-01.crime-and-hijacking|the Court''s order]]: Chavez had sworn to kill Kennedy if Hoffa went to prison; Thomas gives the Court''s turning down Hoffa''s last appeal and then "That same day" the armed men''s boarding (337). To check: [[w.sheridan-fall-and-rise-of]], 406–07 (cited by [[w.thomas-robert-kennedy]], 464). See [[cal.1967-03-01.crime-and-hijacking]]. Names: Robert Kennedy, Hoffa. Check: the days of the warning and of Hoffa''s word to Chavez.'
+- edit:
+    id: cal.1967-03-09.elections-1968-johnson
+    base: 4ccfb1be
+    set:
+      time: 1967-03-09T20:33Z
+      n: 'The President''s News Conference, [1967 Pub. Papers 303](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=371) (Mar. 9, 1967) (the opening on the investment credit; the hour, 3:33 p.m., in the East Room, the note, 310). [[w.johnson-white-house-diary]], 492–93. Names: Lady Bird Johnson, Johnson, Humphrey.'
+- edit:
+    id: cal.1967-03-14.school-aid-2
+    base: 0e9176e5
+    set:
+      n: '[[w.johnson-white-house-diary]], 497–98. After [[cal.1967-03-14.school-aid|Canada Township]]: Lady Bird Johnson''s diary has the party leaving Canada Township by 1:30, "Then we were off down the mountain" to Cullowhee (497); the diary''s order, with its hours. Names: Lady Bird Johnson, Gardner.'
+- edit:
+    id: cal.1967-03-14.school-aid-3
+    base: 2494281c
+    set:
+      n: '[[w.johnson-white-house-diary]], 498–99. After [[cal.1967-03-14.school-aid-2|Cullowhee]]: the diary has the party leaving Cullowhee for Asheville, back "a little past 5," an hour''s rest, then the class at Lee Edwards High School (498); the diary''s order, with its hours. Names: Lady Bird Johnson, Johnson, Gardner.'
+- edit:
+    id: cal.1967-03-15.school-aid
+    base: '59499862'
+    set:
+      time_range: ['1967-03-15T12:00Z', '1967-03-15T18:00Z']
+      time_band: morning
+      time_zone: America/Chicago
+      range_basis: record
+      n: '[[w.johnson-white-house-diary]], 499–501. The words: "the high point of the morning" (500). After [[cal.1967-03-15.assassination|Arlington]]: Johnson came from the 7 a.m. ceremony at Arlington to the Nashville airport, a half-hour late, and on to the Hermitage "where we were bound for breakfast" (499). Names: Lady Bird Johnson, Johnson, Ellington.'
+- edit:
+    id: cal.1967-03-15.school-aid-2
+    base: d57a1fb3
+    set:
+      n: '[[w.johnson-white-house-diary]], 502. After [[cal.1967-03-15.war-opposition|the protesters]]: the diary has the car stopped by the two protesters as it left the Capitol after the address, then "We drove on to Columbia" (501–02); the diary''s order. Names: Lady Bird Johnson, Johnson.'
+- edit:
+    id: cal.1967-03-15.school-aid-3
+    base: 3eee5ff1
+    set:
+      time_range: ['1967-03-16T01:00Z', '1967-03-16T04:00Z']
+      time_band: evening
+      time_zone: America/Chicago
+      range_basis: record
+      n: '[[w.johnson-white-house-diary]], 502–03. The words: "Another high point of the evening" (503). After [[cal.1967-03-15.school-aid-2|Columbia]]: the diary has Columbia, then "We next drove" to Polk''s home, then "Back at the Mansion in Nashville" the reception and seminar (502); the diary''s order. Names: Johnson, Gardner, Cater, Smith.'
+- edit:
+    id: cal.1967-03-18.students
+    base: ba3cf541
+    set:
+      time_range: ['1967-03-18T11:00Z', '1967-03-18T17:00Z']
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+      n: '[[w.johnson-white-house-diary]], 503–04. After [[cal.1967-03-18.states-and-cities-us|the Governors'' conference]]: Johnson opened the conference with his remarks of welcome at 9:05 a.m., which end "I hope that it will be a useful and rewarding experience for you" (1967 Pub. Papers 369, 371, the note); the diary has him come to the students "breaking away from the Governors'' briefing" and the Governors "all day long" in briefings with the Cabinet (504, 505). Names: Lady Bird Johnson, Johnson, Busby.'
+- edit:
+    id: cal.1967-03-18.states-and-cities
+    base: 4906017b
+    set:
+      n: '[[w.johnson-white-house-diary]], 504–05. After [[cal.1967-03-18.students|the students]]: the diary has Lady Bird Johnson with the students in the Yellow Oval Room in the morning, the wives meanwhile gathering below, then "We boarded the buses" for Gravelly Point, and the State Department "at one" (503–05); the diary''s order of her own movements, with its hours. Names: Lady Bird Johnson, Wallace.'
+- check: {id: cal.1967-03-30.china-leadership-3, text: 'Check: the day the issue appeared: Mao approved the commentator''s article it prints at 9 p.m., Mar. 30 ([[cal.1967-03-30.china-leadership-5]]); the Zhou chronology dates the issue Mar. 30 (III, 139), the Liu Shaoqi chronology Apr. 1 (654–655).'}
+- check: {id: cal.1967-03-16.vietnam-supplemental, text: 'Check: two acts, the signing and the House''s vote on the appropriation (R17); the hour of the signing not found. The Record puts the House''s vote (6889) before its debate on H.R. 6950, the investment credit (6891); split, the vote can take its order.'}
+- check: {id: cal.1967-03-19.china-leadership-2, text: 'Check: the second sentence may be the Military Commission''s decision of the same day, [[cal.1967-03-19.china-leadership-4]].'}
+- check: {id: cal.1967-03-20.vietnam-operations, text: 'Check: the date and the time: the time is the probe''s, 10:50 p.m., Mar. 19, Saigon, and the entry is dated Mar. 20; either the date is Mar. 19, "Mar. 19–20," with the first act''s time, or the time is the attack''s.'}
+- check: {id: cal.1967-03-10.china-leadership, text: 'Check: [[w.zhou-enlai-nianpu-1949-2020]], III, 131–32, gives under Mar. 10 the Jiangsu telegram and the Kunming note, not Zhou''s report on Mao''s instruction of Mar. 9.'}
+- check: {id: cal.1967-03-04.robert-kennedy-3, text: 'Check: the day: Thomas puts Pearson''s column on Mar. 3, "the morning after his speech," and this on "The following day, March 4" (336); [[cal.1967-03-07.cuba]] dates the column Mar. 7.'}

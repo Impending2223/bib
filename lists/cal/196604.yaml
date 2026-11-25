@@ -618,10 +618,13 @@ entries:
   - id: cal.1966-04-04.vietnam-struggle
     when: Apr. 4
     date: '1966-04-04'
+    time: 1966-04-05T02:03Z
     place: washington
     thread: vietnam-struggle
+    follows:
+      - cal.1966-04-04.vietnam-struggle-3
     c: 'Washington to Saigon: no American forces in Đà Nẵng or Huế or against dissident troops.{1}'
-    n: 'FRUS 1964–68, IV, docs. [110](https://history.state.gov/historicaldocuments/frus1964-68v04/d110), [112](https://history.state.gov/historicaldocuments/frus1964-68v04/d112). Made public: FRUS 1964–68, IV (1998). [[w.gibbons-u-s-government-and]], IV, 279–81. See [[cal.1966-03-10.vietnam]].'
+    n: 'FRUS 1964–68, IV, docs. [110](https://history.state.gov/historicaldocuments/frus1964-68v04/d110), [112](https://history.state.gov/historicaldocuments/frus1964-68v04/d112). Made public: FRUS 1964–68, IV (1998). [[w.gibbons-u-s-government-and]], IV, 279–81. Telegram 2965 to Lodge and Westmoreland, "the first one" Johnson approved at the meeting, transmitted at 9:03 p.m. (doc. 112 and its note 2). After [[cal.1966-04-04.vietnam-struggle-3|the meeting]]. See [[cal.1966-03-10.vietnam]].'
     src:
       c: '45554991'
       rows:
@@ -629,12 +632,7 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 279–81: 1'
         - 'via w.gibbons-u-s-government-and IV, 279 n.44: 1'
     tags: [name:johnson-lyndon-b]
-    time_range:
-      - 1966-04-04T14:00Z
-      - 1966-04-04T22:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1966-04-04.europe-and-the-alliance-france
     when: Apr. 4
     date: '1966-04-04'
@@ -703,21 +701,19 @@ entries:
   - id: cal.1966-04-04.vietnam-struggle-4
     when: Apr. 4
     date: '1966-04-04'
+    time: 1966-04-05T02:05Z
     place: washington
     thread: vietnam-struggle
     follows:
       - cal.1966-04-04.vietnam-struggle-3
     c: 'State to Lodge, 2966, the second cable approved at the meeting: a political answer "as quickly and peacefully as possible"; much more contact with the government and the opposition; Lodge or Negroponte to see Trí Quang; a "prompt solution" for Thi''s future. Kỳ''s successor from the Directorate, Chiểu for choice; "We are at a loss here to suggest any civilian."'
-    n: '[[w.gibbons-u-s-government-and]], IV, 281. After the meeting that approved it, by Gibbons''s account. To check: Washington to Saigon 2964 and 2966, Apr. 4, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 281 n.45). See [[cal.1966-04-04.vietnam-struggle-3]]. Names: Lodge, Thích Trí Quang, Nguyễn Chánh Thi, Nguyễn Cao Kỳ.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 281. After the meeting that approved it, by Gibbons''s account. Transmitted at 9:05 p.m., by FRUS''s note to the meeting''s record cited on [[cal.1966-04-04.vietnam-struggle-3]]. To check: Washington to Saigon 2964 and 2966, Apr. 4, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 281 n.45). See [[cal.1966-04-04.vietnam-struggle-3]]. Names: Lodge, Thích Trí Quang, Nguyễn Chánh Thi, Nguyễn Cao Kỳ.'
     src:
       c: f5d527d4
       rows:
         - 'w.gibbons-u-s-government-and IV, 281: all'
         - 'via w.gibbons-u-s-government-and IV, 281 n.45: all'
     tags: [name:lodge-henry-cabot, name:thich-tri-quang, name:nguyen-chanh-thi, name:nguyen-cao-ky]
-    time_range:
-      - 1966-04-05T00:10Z
-      - 1966-04-05T05:00Z
     time_zone: America/New_York
   - id: cal.1966-04-04.vietnam-struggle-5
     when: Apr. 4
@@ -906,6 +902,8 @@ entries:
       - peking
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1966-04-04.china-leadership-6
     c: Deng Xiaoping 邓小平 flies from Yan'an 延安 back to Peking 北京.
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1907 (Apr. 4, 1966); [[w.pu-weihua-zalan-jiu-shijie]], 77 (by Kang Sheng''s account: called back by Kang''s telephone to Xi''an Apr. 2, Deng back in Peking Apr. 4). The words: 下午一时三十分 (III, 1907). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
     src:
@@ -1141,8 +1139,8 @@ entries:
     place: ci-county
     thread: china-leadership
     also: [china]
-    c: 'Zhou Enlai at Ci County, to officials of Hebei, Handan and the central departments, repeating what the day''s inspection showed. The drive for wells has run hot: "active attitude, steady steps, voluntary, self-reliance", neither phrase to be dropped; no added burdens on the people; mechanization step by step; relief joined to production, loans to spur self-help, not dependence.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 25–26 (Apr. 5, 1966). Made public: 2020. Names: Zhou Enlai.'
+    c: 'Zhou Enlai at Ci County, to officials of Hebei, Handan and the central departments, on what his inspection of the past days showed, repeating what he had said on the tour. The drive for wells has run hot: "active attitude, steady steps, voluntary, self-reliance", neither phrase to be dropped; no added burdens on the people; mechanization step by step; relief joined to production, loans to spur self-help, not dependence.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 25–26 (Apr. 5, 1966). The chronology: 就几天视察中发现的问题 ... 又讲了以上内容 (III, 25), the inspection of several days, not of the day. Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1966-04-05.china-leadership-2
     when: Apr. 5
@@ -2460,6 +2458,8 @@ entries:
     when: Apr. 12
     date: '1966-04-12'
     thread: latin-america
+    follows:
+      - cal.1966-04-12.latin-america
     c: 'Valenti, with Johnson''s answer on the open car, telephones J. Edgar Hoover. Hoover: "Just put yourself in the hands of the Mexican Secret Police and the local constabulary ... the president would be safer driving down the boulevards of Mexico City than he would be in New York City." He sends a dozen FBI agents from nearby cities in the southern United States. Moyers, Freeman and Valenti agree to the open car.'
     n: '[[w.valenti-very-human-president]], 120–21 (Valenti''s account). Check: the day; the same afternoon as Valenti''s call to the Ranch, by his account. See [[cal.1966-04-12.latin-america]]. Names: Valenti, Hoover, Johnson, Moyers, Freeman.'
     tags: [name:valenti-jack, name:hoover-j-edgar, name:johnson-lyndon-b, name:moyers-bill, name:freeman-fulton, polity:mexico]
@@ -2866,8 +2866,10 @@ entries:
     time: 1966-04-14T01:00Z
     place: hangzhou
     thread: china-leadership
+    follows:
+      - cal.1966-04-14.china-leadership-2
     c: 'Mao 毛泽东, at 9 a.m., writes from Hangzhou 杭州 to Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Peng Zhen 彭真: their letter of the 12th and its papers received; Kang Sheng 康生, Chen Boda 陈伯达 and others of the drafting group to go today or tomorrow to Shanghai to talk the papers over with Shanghai, then Kang and Chen to come on the night of the 16th or morning of the 17th; they to come on the 16th; whether the regional bureaus send men, theirs to decide.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 481. The words: 上午九时 (IV, 481). Made public: 2012. See [[cal.1966-04-12.china-leadership]]. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Kang Sheng, Chen Boda.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 481. The words: 上午九时 (IV, 481). After [[cal.1966-04-14.china-leadership-2|Mao''s 8:30 a.m. note]], by the hours the note on that entry gives from Mao''s manuscripts. Made public: 2012. See [[cal.1966-04-12.china-leadership]]. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Kang Sheng, Chen Boda.'
     src:
       c: 1ec3f78d
       rows:
@@ -3171,6 +3173,8 @@ entries:
     date: '1966-04-16'
     place: hangzhou
     thread: china-leadership
+    follows:
+      - cal.1966-04-16.china-leadership-7
     c: 'Hangzhou.{1} Mao presides over an enlarged Standing Committee meeting, mainly to criticize Peng Zhen;{2} also to dissolve the Five-Man Group and set up a new Cultural Revolution Group.{3} Present: Liu Shaoqi (from Apr. 20, back from Pakistan, Afghanistan and Burma), Zhou Enlai, Lin Biao, Deng Xiaoping, Peng Zhen, Chen Yi, Li Xiannian, Chen Boda, Kang Sheng, Nie Rongzhen, Ye Jianying, Xie Fuzhi, Xiao Hua, Li Jingquan, Tao Zhu, Li Xuefeng, Liu Lantao, Song Renqiong, Wei Wenbo and Jiang Hua.{4}'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 16, 1966. [[w.zhou-enlai-nianpu-1949-2020]], III, 28 (Apr. 16, 1966; Zhou at the meeting); [[w.macfarquhar-maos-last-revolution]], 33–34 (Apr. 16, Liu Shaoqi abroad: the Group of Five dissolved, a drafting group set up); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 636–637 (Apr. 20, 1966; Liu reaches Hangzhou and attends the enlarged meeting of the Politburo Standing Committee Mao presides over, which prepares for the enlarged Politburo meeting soon to be held in Peking); [[w.deng-xiaoping-nianpu-1904]], III, 1909 (Apr. 16–25, 1966; Deng at the enlarged Politburo Standing Committee meeting Mao holds at Hangzhou, which concentrates on criticizing Peng Zhen and also discusses revoking the ''February Outline'' and the Group of Five for the Cultural Revolution and setting up a Cultural Revolution Group again; it in the main adopts the draft ''Notice of the Central Committee'' 《中国共产党中央委员会通知》 (draft), several times revised by Mao, and the list of the Central Cultural Revolution Group, for the Politburo''s enlarged meeting about to be held at Peking); [[w.mao-zedong-zhuan]], VI, ch. 74 (Apr. 16 Zhou Enlai, Deng Xiaoping, Peng Zhen, Chen Yi 陈毅, Ye Jianying 叶剑英 and the heads of the Center bureaus come again to Hangzhou for the enlarged Standing Committee meeting Mao calls; Liu Shaoqi, on his journey to Pakistan, Afghanistan and Burma, reaches Hangzhou only on the 20th). [[w.yang-jisheng-tiandi-fanfu]], I, 125–127 (Apr. 16–24, Mao presides at Hangzhou over the enlarged Standing Committee meeting, mainly to criticize Peng Zhen and to discuss revoking the Outline; it takes up Peng''s errors, the revoking of the Outline, the dissolving of the Group and the setting up of a new cultural-revolution group; Mao: "I do not believe it is only Wu Han''s problem ... there are people in the court 朝裏有人, in every great region and every province and city"; the Feb. 3 paper "in a hurry"; on rectifying the left at Wuhan, "I do not agree"; Liu Shaoqi, back at Kunming 昆明 Apr. 19, is told by the General Office to come at once; the day he reaches Hangzhou not given); [[w.yang-jisheng-tiandi-fanfu]], II, 1143 (at the Liuzhuang guesthouse; the February Outline revoked; the year printed "1996"); [[w.peng-zhen-nianpu-1902]], IV, 482–483 (Apr. 16–24, 1966; Peng Zhen there; the meeting centers on criticizing him, and on withdrawing the February Outline and the Five-Man Group and setting up a Cultural Revolution Group; Zhou Enlai, Deng Xiaoping, Chen Yi, Ye Jianying and the regional heads there, Liu Shaoqi from the 20th, back from abroad; seven papers exposing Peng and Lu Dingyi printed and sent to all members of the Peking committee; Mao: *Spark in the Reeds* allowed only three days in Peking, not a day more, "no needle can go in, no water be splashed in"; Deng: his working relations with Peng normal; Zhou: in Peking he finds whom he needs; Mao to Peng: criticism to help, not to be tense; Peng silent throughout; Peng examines himself: the outline wrong, his alone, not Liu''s, Zhou''s or Deng''s, who interjected that they shared it; "say I plot, I am not that kind of man"; Mao after: "do not be tense, we help you," "things can always be examined clear"); [[w.jian-zhou-enlai]], 539 (Mao "appeared at the meeting on April 23": Peng, backing Wu Han, has made the criticism hard; "revisionism has not only appeared in the cultural circles but has also emerged in the party, the government, and the military, which is a very big problem"; the conference links Peng, Luo Ruiqing, Lu Dingyi and Yang Shangkun as a "counterrevolutionary clique"); [[w.teiwes-tragedy-of-lin-biao]], 61 (the April Standing Committee meeting at Hangzhou, whose record of the absent Mao''s views shapes the May meeting); [[w.chen-yi-nianpu]], 1144 (Apr. 22–24, 1966; Chen Yi at the enlarged meeting of the Politburo Standing Committee at Hangzhou, which criticizes the "February Outline" 《二月提纲》 drawn up under Peng Zhen and adopts the revised draft of the "Notice" (the later May 16 Notice) Mao revised many times); [[w.pu-weihua-zalan-jiu-shijie]], 70–71 (the second Hangzhou meeting, "to lift the lid on Peng Zhen"; Liu Shaoqi, back at Kunming Apr. 19, called by the General Office, reaches Hangzhou Apr. 20 and presides, Zhou Enlai in fact chairing; decided, the Outline and the Five-Man Group withdrawn, a new Cultural Revolution Group set up); [[w.liu-jixian-ye-jianying-nianpu]], II, 936 (Apr. 17–25, 1966; Ye Jianying 叶剑英 at Mao''s enlarged Standing Committee at Hangzhou 杭州: Peng Zhen and the February Outline criticized; the Notice (the May 16 Notice) drafted under Chen Boda 陈伯达 and revised by Mao adopted in revised draft); [[w.zhu-de-nianpu-xinbian]], III, 1951 (Apr. 17–25, 1966; Mao Zedong 毛泽东 presides over the enlarged Politburo Standing Committee 中共中央政治局常委扩大会议 at Hangzhou 杭州, with Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真, Ye Jianying 叶剑英 and others and the heads of the regional bureaus; Liu Shaoqi 刘少奇 and Chen Yi 陈毅, called by urgent cable, come from Kunming 昆明 on Apr. 20; Zhu De 朱德 is not told to attend; the meeting dissolves the Five-Man Group 文化革命五人小组 and its office and sets up a drafting group for the Cultural Revolution''s documents under the Politburo Standing Committee; Peng Zhen is wrongly criticized). Made public: 1996. Check: [[w.jian-zhou-enlai]], 539, puts Mao''s appearance and words at the meeting on Apr. 23; [[cal.1966-04-22.china-leadership]] and [[cal.1966-04-24.china-leadership]] have him speak Apr. 22 and preside Apr. 24. To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 12 (cited by [[w.macfarquhar-maos-last-revolution]], 33 n.5); [[w.zedong-mao-zedong-nianpu]], V, 580 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 125 n.45); [[w.xianzhi-mao-zedong-zhuan-1949]], 1407–1408 (cited by [[w.jian-zhou-enlai]], 539 n.82a); [[w.zedong-mao-zedong-nianpu]], V, 580 (cited by [[w.jian-zhou-enlai]], 539 n.82b); [[w.nianyi-da-dongluande-niandai]], 9–16 (cited by [[w.teiwes-tragedy-of-lin-biao]], 61 n.8a); [[w.qibin-zhongguo-gongchandang-zhizheng-sishinian]], 267–268 (cited by [[w.teiwes-tragedy-of-lin-biao]], 61 n.8b); [[w.ye-yonglie-chen-boda]], 261 (cited by [[w.teiwes-tragedy-of-lin-biao]], 61 n.8c). Names: Mao Zedong, Peng Zhen, Liu Shaoqi, Zhou Enlai, Lin Biao, Deng Xiaoping, Chen Yi, Li Xiannian, Chen Boda, Kang Sheng, Nie Rongzhen, Ye Jianying, Xie Fuzhi, Xiao Hua, Li Jingquan, Tao Zhu, Li Xuefeng, Liu Lantao, Song Renqiong, Wei Wenbo, Jiang Hua.'
     src:
@@ -3210,6 +3214,8 @@ entries:
     date: '1966-04-16'
     place: hangzhou
     thread: china-leadership
+    follows:
+      - cal.1966-04-16.china-leadership-7
     c: Zhou Enlai, at Hangzhou, talks three times with Peng Zhen, and in turn with Deng Xiaoping, Nie Rongzhen, Chen Yi, Li Xiannian, Kang Sheng and the regional leaders.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 28 (Apr. 16, 1966, "在杭期间"); [[w.deng-xiaoping-nianpu-1904]], III, 1909 (Apr. 16, 1966; 下午六时; Deng talks with Zhou Enlai 周恩来); [[w.peng-zhen-nianpu-1902]], IV, 482–483 (Apr. 16–24, 1966; after Mao''s criticism Peng Zhen tells Zhou how the *Spark in the Reeds* showings came about, Wan Li having already been asked to arrange the Peking performances; Zhou: why did you not speak at the meeting? Peng: he could not contradict the Chairman to his face). Made public: 2020. Names: Zhou Enlai, Peng Zhen, Deng Xiaoping, Nie Rongzhen, Chen Yi, Li Xiannian, Kang Sheng.'
     tags: [name:zhou-enlai, name:peng-zhen, name:deng-xiaoping, name:nie-rongzhen, name:chen-yi, name:li-xiannian, name:kang-sheng, polity:prc, vis:only:prc]
@@ -3290,8 +3296,10 @@ entries:
     when: Apr. 16
     date: '1966-04-16'
     thread: china-leadership
+    follows:
+      - cal.1966-04-16.china-leadership-6
     c: Xinhua 新华社 tells its offices to withdraw the release it sent of the *Beijing ribao* 北京日报 and *Qianxian* 前线 editors' note.
-    n: '[[w.pu-weihua-zalan-jiu-shijie]], 69. Made public: 2008. See [[cal.1966-04-16.china-leadership-6]]. The words: 4月16日晚 (69).'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 69. Made public: 2008. See [[cal.1966-04-16.china-leadership-6]]. The words: 4月16日晚 (69). After [[cal.1966-04-16.china-leadership-6|the printing]]: the paper of the 16th, the withdrawal that evening (69).'
     src:
       c: 7f6850ff
       rows:
@@ -3892,6 +3900,8 @@ entries:
     date: '1966-04-20'
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1966-04-20.china-leadership-3
     c: Deng Xiaoping 邓小平 talks with Zhou Enlai 周恩来 and Chen Yi 陈毅 at Liu Shaoqi's 刘少奇.
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1910 (Apr. 20, 1966). The words: △ 下午 (III, 1910). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Zhou Enlai, Chen Yi, Liu Shaoqi.'
     src:
@@ -4931,6 +4941,8 @@ entries:
       - hangzhou
       - shanghai
     thread: china-leadership
+    follows:
+      - cal.1966-04-26.china-leadership
     c: Peng Zhen 彭真, "escorted" by Li Xuefeng 李雪峰 and Song Renqiong 宋任穷, leaves Hangzhou 杭州 by train for Shanghai 上海, then by air for Peking 北京, arriving early on the 27th; asked on the way to write to Mao 毛泽东, he says his mind is in confusion, and, pen in hand several times, writes nothing.
     n: '[[w.peng-zhen-nianpu-1902]], IV, 484; [[w.pu-weihua-zalan-jiu-shijie]], 71 n.90 (after the meeting the Center names Li Xuefeng and Song Renqiong to go back to Peking by air with Peng, in name to accompany, in fact to escort him). The words: 晚 (IV, 484). Made public: 2012. To check: Li Xuefeng 李雪峰, 〈我所知道的「文革」發動內情〉, in [[w.huishou-wenge-2-vols]], II, 602 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 71 n.90). Names: Peng Zhen, Mao Zedong, Li Xuefeng, Song Renqiong.'
     src:
@@ -5486,6 +5498,8 @@ entries:
     date: '1966-04-28'
     place: peking
     thread: china-leadership
+    follows:
+      - cal.1966-04-28.china-leadership-2
     c: Peking 北京. Zhu De 朱德 takes part in the talks with Mehmet Shehu 穆罕默德·谢胡, chairman of Albania's Council of Ministers 阿尔巴尼亚部长会议.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1952. Made public: 2016. See [[cal.1966-04-28.china-leadership-2]]. Names: Zhu De, Mehmet Shehu.'
     tags: [polity:prc, polity:albania, name:zhu-de, vis:only:prc+albania, name:mehmet-shehu]
@@ -5724,8 +5738,10 @@ entries:
     date: '1966-04-29'
     place: zunhua
     thread: china-leadership
+    follows:
+      - cal.1966-04-29.china-leadership
     c: Chen Yi 陈毅 writes the poem "Shashiyu" 《沙石峪》.
-    n: '[[w.chen-yi-nianpu]], 1145–1146. Names: Chen Yi.'
+    n: '[[w.chen-yi-nianpu]], 1145–1146. The words: 之后 (1145). After [[cal.1966-04-29.china-leadership|the visit to Shashiyu]]: the chronology''s "afterward" (1145). Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi]
   - id: cal.1966-04-29.china-leadership-7
     when: Apr. 29
@@ -6661,7 +6677,7 @@ entries:
     place: shanghai
     thread: china-leadership
     c: Shanghai 上海. Zhou Enlai 周恩来, passing through on his way back to Peking 北京 from Hangzhou 杭州, receives from Liu Zhijian 刘志坚 the new comment on the army forum's summary.
-    n: '[[w.pu-weihua-zalan-jiu-shijie]], 48. Made public: 2008. See [[cal.1966-04-16.china-leadership-8]]. Names: Zhou Enlai, Liu Zhijian.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 48. Made public: 2008. Check: the day; Zhou was in Peking on Apr. 30, at the afternoon rally ([[cal.1966-04-30.china-leadership-3]]), and the Zhou chronology has him go to Shanghai Apr. 25 and fly back to Peking the next day (III, 28; [[cal.1966-04-25.china-leadership]]). See [[cal.1966-04-16.china-leadership-8]]. Names: Zhou Enlai, Liu Zhijian.'
     src:
       c: 9f90b571
       rows:

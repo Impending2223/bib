@@ -1,0 +1,88 @@
+patch: 2026-11-25-sequence-1963-07
+by: 'Claude (Sonnet, sequence pass: R25c on July 1963), Nov. 25, 2026; audited by Claude (Opus), Nov. 25, 2026; notes/sequence/1963-07.md, notes/sequence/audit-1963-07.md'
+ops:
+- follows:
+    id: cal.1963-07-02.europe-and-the-alliance-kennedy-in-2
+    add:
+    - cal.1963-07-02.europe-and-the-alliance-kennedy-in
+- follows:
+    id: cal.1963-07-02.europe-and-the-alliance-kennedy-in-3
+    add:
+    - cal.1963-07-02.europe-and-the-alliance-kennedy-in-2
+- follows:
+    id: cal.1963-07-02.europe-and-the-alliance-kennedy-in-4
+    add:
+    - cal.1963-07-02.europe-and-the-alliance-kennedy-in-3
+- edit:
+    id: cal.1963-07-02.europe-and-the-alliance-kennedy-in-4
+    base: 8efbff72
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 425–26 (O''Donnell''s and Powers''s account). After [[cal.1963-07-02.europe-and-the-alliance-kennedy-in-3|the North American College]]: the visit to NATO headquarters at Naples, after Rome, comes "before his departure to the United States," and from Naples they fly "directly to Washington" ([[w.odonnell-johnny-we-hardly-knew]], 425–26). See [[cal.1963-07-01.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy.'
+- follows:
+    id: cal.1963-07-04.railroads
+    add:
+    - cal.1963-07-04.vietnam
+- check:
+    id: cal.1963-07-05.china
+    text: 'Check: the day the talks opened and who spoke first: Wu Lengxi, MacFarquhar and the Deng Xiaoping nianpu have the first meeting on July 6, Suslov speaking, and Deng''s speech of nearly five hours at the second, July 8 (the variants); the delegation reached Moscow at 2:40 p.m. on July 5 ([[cal.1963-07-05.china-leadership-4]]).'
+- follows:
+    id: cal.1963-07-05.china-leadership
+    add:
+    - cal.1963-07-05.china-leadership-7
+- follows:
+    id: cal.1963-07-08.vietnam-3
+    add:
+    - cal.1963-07-08.vietnam-2
+- follows:
+    id: cal.1963-07-10.china-leadership-4
+    add:
+    - cal.1963-07-10.china-leadership
+- follows:
+    id: cal.1963-07-12.china-leadership-8
+    remove:
+    - cal.1963-07-12.china-leadership-7
+    why: 'Yang Shangkun''s diary (II, 296, July 12) has "8时晚餐后又去使馆，李岩同志来谈话": Li Yan''s talk is at the evening visit to the embassy that the -7 line counts as its meeting "again after 8 p.m.", so the two are of the same hour and the one occasion, not one after the other. Li Yan''s talk keeps its own hour, 8 p.m.'
+- edit:
+    id: cal.1963-07-15.china-leadership-4
+    base: 2ad7fa35
+    set:
+      time: 1963-07-15T07:00Z
+      time_zone: Europe/Moscow
+- follows:
+    id: cal.1963-07-15.testing-2
+    add:
+    - cal.1963-07-15.testing
+- follows:
+    id: cal.1963-07-16.europe-and-the-alliance
+    add:
+    - cal.1963-07-16.economy-2
+- edit:
+    id: cal.1963-07-16.europe-and-the-alliance
+    base: 5be47384
+    set:
+      n: '[[w.poole-joint-chiefs-of-staff]], 209–10. After [[cal.1963-07-16.economy-2|McNamara''s memorandum]]: McNamara sent his recommendations to the White House with the Chiefs'' caveats attached, and Kennedy approved them on July 16 ([[w.poole-joint-chiefs-of-staff]], 210); the memorandum of that day is the one that makes them, the 23 B-47s and 32 C-130s among them, with the Chiefs'' concern set out ([FRUS 1961–63, IX, doc. 28](https://history.state.gov/historicaldocuments/frus1961-63v09/d28)). See [[cal.1963-07-16.japan]]. Names: Kennedy, McNamara.'
+- follows:
+    id: cal.1963-07-16.japan
+    add:
+    - cal.1963-07-16.economy-2
+- edit:
+    id: cal.1963-07-16.japan
+    base: 8294abe1
+    set:
+      n: '[[w.poole-joint-chiefs-of-staff]], 291. After [[cal.1963-07-16.economy-2|McNamara''s memorandum]]: McNamara dropped the move of the Marine Air Wing, and on July 16 Kennedy approved the smaller steps ([[w.poole-joint-chiefs-of-staff]], 290–91); the memorandum of that day proposes the steps in Japan and leaves the wing''s move to a review ([FRUS 1961–63, IX, doc. 28](https://history.state.gov/historicaldocuments/frus1961-63v09/d28)). Names: Kennedy.'
+- follows:
+    id: cal.1963-07-19.goldwater-2
+    add:
+    - cal.1963-07-19.elections-1964
+- edit:
+    id: cal.1963-07-19.goldwater-2
+    base: 5ee118f2
+    set:
+      n: '[[w.novak-agony-of-the-g]], 215–16. After [[cal.1963-07-19.elections-1964|Rockefeller''s news conference]]: the words are "Goldwater''s reply to Rockefeller''s challenge," the challenge to disavow right-wing support made at that news conference ([[w.novak-agony-of-the-g]], 215). See [[cal.1963-07-19.elections-1964]]. Names: Goldwater, Rockefeller. Check: the day.'
+- check:
+    id: cal.1963-07-20.china-leadership-4
+    text: 'Check: when the communiqué was revised: Yang Shangkun''s diary has the Chinese ask a twenty-minute recess of the ninth meeting to discuss the draft, and on resuming the passage on stopping the open polemic struck and agreement reached, the meeting rising at 11:30 a.m. ([[w.yang-shangkun-riji]], II, 299–300); Wu has the revision after the meeting.'
+- follows:
+    id: cal.1963-07-26.testing
+    add:
+    - cal.1963-07-26.testing-3

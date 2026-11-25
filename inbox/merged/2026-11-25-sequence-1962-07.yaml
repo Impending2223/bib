@@ -1,0 +1,67 @@
+patch: 2026-11-25-sequence-1962-07
+by: 'Claude (Sonnet, sequence pass: R25c on July 1962), Nov. 25, 2026; notes/sequence/1962-07.md. Audited and corrected by Claude (Opus), Nov. 25, 2026 (R33b); notes/sequence/audit-1962-07.md'
+ops:
+- follows: {id: cal.1962-07-06.china-leadership, add: [cal.1962-07-06.china-leadership-7]}
+- follows: {id: cal.1962-07-09.china-2, add: [cal.1962-07-09.laos]}
+- follows: {id: cal.1962-07-10.king, add: [cal.1962-07-10.albany]}
+- follows: {id: cal.1962-07-18.china-leadership-6, add: [cal.1962-07-18.china-leadership]}
+- follows: {id: cal.1962-07-22.china-leadership-13, add: [cal.1962-07-22.china-leadership]}
+- follows: {id: cal.1962-07-23.china-leadership-8, add: [cal.1962-07-23.laos]}
+- follows: {id: cal.1962-07-23.china-leadership-11, add: [cal.1962-07-23.laos]}
+- follows: {id: cal.1962-07-02.laos, add: [cal.1962-07-02.china-leadership-3]}
+- follows: {id: cal.1962-07-11.china-leadership-2, add: [cal.1962-07-11.china-leadership-8]}
+- follows: {id: cal.1962-07-19.china-leadership, add: [cal.1962-07-19.china-leadership-8]}
+- follows: {id: cal.1962-07-21.georgia-albany-2, add: [cal.1962-07-21.robert-kennedy]}
+- follows: {id: cal.1962-07-22.civil-rights-organizations, add: [cal.1962-07-22.georgia-albany]}
+- follows:
+    id: cal.1962-07-06.missile-crisis
+    remove: [cal.1962-07-06.soviet-union-leadership]
+    why: 'Malin''s notes of Protocol 40 (Prezidium TsK KPSS, I, 570–71) give the biology item under a typed heading, its number III pencilled in for a typed 3, and the questions on Cuba on the next sheet in another ink (sheet 25 red, sheet 26 violet); the Cuba questions are no item of the signed protocol (III, 1002–03 n.5). Nothing says which was taken first; volume III''s printed order is a collection''s order, no order of the day (owner-rulings 55).'
+- follows:
+    id: cal.1962-07-12.cuba
+    remove: [cal.1962-07-12.soviet-union-leadership]
+    why: 'The link rests on the item numbers of Protocol 41 alone (I and II). Malin''s notes (Prezidium TsK KPSS, I, 571–72) are written under headings typed beforehand, the agenda, item II''s typed 2 corrected in pencil; the notes follow the agenda, and nothing in them says the plan was taken before the advisers. A serial number of one body''s acts is no order of the day (owner-rulings 55, the audit of May 1961).'
+- follows:
+    id: cal.1962-07-19.china-leadership-10
+    remove: [cal.1962-07-19.china-leadership]
+    why: 'The Deng chronology (III, 1717) gives the day as three items: the Secretariat in the morning; a △ item, the Standing Committee in the afternoon; a second △ item, the notice signed and issued, with no part of the day. A chronology''s printed order is no order of the day (owner-rulings 55), and no other source cited places the signing.'
+- edit:
+    id: cal.1962-07-11.china-leadership-2
+    base: 0175ef1a
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 489 (July 11, 1962); [[w.mao-zedong-zhuan]], V, ch. 70 (July 11: Zhou Enlai hears the reports on the border again, and reports to Mao). [[w.jian-zhou-enlai]], 477 (that evening Zhou''s meeting of military and diplomatic officials, past midnight). Made public: 1997. To check: [[w.zishen-yang-chengwu-nianpu-chronological]], 366 (cited by [[w.jian-zhou-enlai]], 477 n.55b). The order: the report of the helicopters and the new post came first; Zhou called the meeting that evening on what it showed ([[w.jian-zhou-enlai]], 477). Names: Zhou Enlai, Mao Zedong.'
+- edit:
+    id: cal.1962-07-21.georgia-albany-2
+    base: a8216f9a
+    set:
+      n: '[[w.branch-parting-the-waters]], 611–13. To check: interviews: S. B. Wells, July 9, 1985 (cited by [[w.branch-parting-the-waters]], 612 n.1); [*New York Times*, July 22, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/22/issue.html), at 1; *Albany Herald*, July 22, 1962, at 1; Lewis, *King*, 161 (cited by [[w.branch-parting-the-waters]], 612 n.2); interviews: Claude Sitton, Dec. 14, 1983 (cited by [[w.branch-parting-the-waters]], 612 n.3). The order: King sent word round Anderson''s house that he would obey the order before he set out for Shiloh, where Wells was holding the crowd ([[w.branch-parting-the-waters]], 611–12). See [[cal.1962-07-20.albany]]. Names: Martin Luther King.'
+- edit:
+    id: cal.1962-07-22.civil-rights-organizations
+    base: 6e6c127f
+    set:
+      n: '[[w.branch-parting-the-waters]], 613–15. To check: [[w.forman-making-of-black-revolutionaries]], 274–75; Lewis, *King*, 163; Kunstler, *Deep in My Heart*, 106; interviews: Charles Jones, Nov. 23, 1986; Charles Sherrod, Jan. 23, 1986; C. B. King, July 10, 1985; Timothy Jenkins, Mar. 11 and Apr. 23, 1986; Clarence Jones, Aug. 18, 1986; Marion King Smith, July 31, 1986 (cited by [[w.branch-parting-the-waters]], 613 n.5). The order: the session began late that afternoon, after the press conference ([[w.branch-parting-the-waters]], 613); Garrow has the press conference in the afternoon and the meeting with the SNCC workers that evening ([[w.garrow-bearing-the-cross]], 207). See [[cal.1962-07-22.georgia-albany]]. Names: Forman, Martin Luther King.'
+- edit:
+    id: cal.1962-07-19.china-leadership
+    base: de243ee8
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], V, July 19, 1962; [[w.yang-shangkun-riji]], II, 196 (July 19, 1962; at the pool, to 6 p.m.; Mao repeats the two questions he put to Yang the day before, naming no one; the conference''s members to Beidaihe in two parties, July 23 and 24); [[w.deng-xiaoping-nianpu-1904]], III, 1717 (July 19, 1962; afternoon; Deng at Mao''s Standing Committee: some central leaders back output or land by household, the collective or the individual road; against decentralism in the central departments); [[w.mao-zedong-zhuan]], V, ch. 70 n.30 (July 19: Mao presides over the Standing Committee, repeating the two questions of the day before without naming anyone; the delegates to the work conference to go to Beidaihe in two parties, July 23 and 24 (Yang''s diary, II, 196)). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 196) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). The order: Yang was hearing the Wuxi team, from 3 p.m. for about an hour, when Mao''s office called him to the meeting at the pool ([[w.yang-shangkun-riji]], II, 196). See [[cal.1962-07-18.china-leadership]]. Names: Mao Zedong.'
+- edit:
+    id: cal.1962-07-22.china-leadership-13
+    base: 9aba433b
+    set:
+      n: '[[w.jian-zhou-enlai]], 478. Made public: 1994. To check: [[w.zhongyin-bianjie-ziwei-fanji]], 141 (cited by [[w.jian-zhou-enlai]], 478 n.60). The order: Zhou had the report at 1:30 a.m. and told Mao at once; they kept to "diplomacy first," and Zhou''s order to Xinjiang came of that ([[w.jian-zhou-enlai]], 478). See [[cal.1962-07-22.china-leadership]]. Names: Zhou Enlai.'
+- edit:
+    id: cal.1962-07-01.soviet-union-leadership
+    base: 274719b4
+    set:
+      n: 'Protocol 39, items XIII and XVII. [[w.prezidium-tsk-kpss-1954]], I, 570 (doc. 254, Malin''s notes); III, 285–87 (doc. 254.2, the KGB''s note, not printed; P 39/XVII and the note of Tolstikov and Antonov). The order: Malin''s notes of the session, all in his hand in one ink, put the Berlin and Cuba items before items XIII and XVII; the item numbers were added later in pencil and do not follow the notes (the McNamara item, numbered I, stands inside item II), so the order is that of the notes as written ([[w.prezidium-tsk-kpss-1954]], I, 569–70). The weakest kind of basis, a note-taker''s order alone. See [[cal.1962-07-01.berlin-and-vienna]], [[cal.1962-07-01.berlin-and-vienna]]. Made public: 2003. Names: Moskalenko, Yuferov, Brezhnev, Kirilenko.'
+- edit:
+    id: cal.1962-07-06.china-leadership-2
+    base: 89497c58
+    set:
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1962-07-22.china-leadership
+    base: 348f800a
+    set:
+      time_zone: Asia/Shanghai
