@@ -6143,23 +6143,21 @@ entries:
   - id: cal.1961-08-31.testing
     when: Aug. 31
     date: '1961-08-31'
+    time: 1961-08-31T14:00Z
+    time_approx: true
     place: washington
     thread: testing
-    c: 'Kennedy with the National Security Council and the congressional leaders. The White House statement: the Soviet announcement "primarily a form of atomic blackmail, designed to substitute terror for reason"; the stockpile and the delivery systems "wholly adequate."'
-    n: 'White House Statement Following the President''s Meeting With the National Security Council and Congressional Leaders on the Resumption of Nuclear Tests by the U.S.S.R, [1961 Pub. Papers 584](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=642) (Aug. 31, 1961). [[w.sorensen-kennedy]], 620; [[w.schlesinger-journals]], 130–32 (Thursday morning''s meeting before the congressional leaders at 10:45 (Johnson, Rusk, McNamara, Seaborg, Dulles, Lemnitzer, Taylor, Bohlen, Murrow, Fisher, Bundy, Scoville and Schlesinger present): Rusk proposes a statement announcing the decision to resume; Kennedy, after a call from Stevenson, turns it into preparations ordered; Johnson: "it would be a good thing if you let Khrushchev take the heat for a few days"; Murrow against the statement; the page does not give the White House statement''s text). See [[cal.1961-08-30.testing]]. Names: Kennedy.'
+    c: 'Kennedy with the National Security Council and the congressional leaders. The White House statement: the Soviet announcement "primarily a form of atomic blackmail, designed to substitute terror for reason"; the stockpile and the delivery systems "wholly adequate."{1} The meeting begins Thursday morning shortly after 10, the leaders due at 10:45. Present: Johnson, Rusk, McNamara, Seaborg, Dulles, Lemnitzer, Taylor, Bohlen, Murrow, Fisher, Bundy, Scoville and Schlesinger. Rusk proposes a statement announcing the decision to resume; Kennedy, back from a call from Stevenson, turns it into preparations ordered. Johnson: let Khrushchev take the heat for a few days. Murrow is against a statement.{2}'
+    n: 'White House Statement Following the President''s Meeting With the National Security Council and Congressional Leaders on the Resumption of Nuclear Tests by the U.S.S.R, [1961 Pub. Papers 584](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=642) (Aug. 31, 1961). [[w.sorensen-kennedy]], 620; [[w.schlesinger-journals]], 130–32 (Thursday morning''s meeting before the congressional leaders at 10:45 (Johnson, Rusk, McNamara, Seaborg, Dulles, Lemnitzer, Taylor, Bohlen, Murrow, Fisher, Bundy, Scoville and Schlesinger present): Rusk proposes a statement announcing the decision to resume; Kennedy, after a call from Stevenson, turns it into preparations ordered; Johnson: "it would be a good thing if you let Khrushchev take the heat for a few days"; Murrow against the statement; the page does not give the White House statement''s text); [[w.schlesinger-journals]], 130–31. See [[cal.1961-08-30.testing]]. Names: Kennedy, Johnson, Rusk, McNamara, Seaborg, Dulles, Lemnitzer, Taylor, Bohlen, Murrow, Fisher, Bundy, Schlesinger, Stevenson.'
     src:
-      c: a8b90bd9
+      c: 1ba59ca8
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=642: all'
-        - 'w.sorensen-kennedy 620: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=642: 1'
+        - 'w.sorensen-kennedy 620: 1'
         - 'w.schlesinger-journals 130–32: ?'
-    tags: [name:kennedy-john-f]
-    time_range:
-      - 1961-08-31T13:00Z
-      - 1961-08-31T21:00Z
-    time_band: workday daytime
+        - 'w.schlesinger-journals 130–31: 2'
+    tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:seaborg-glenn-t, name:dulles-allen-w, name:lemnitzer-lyman-l, name:taylor-maxwell, name:bohlen-charles-e, name:murrow-edward-r, name:fisher-adrian-s, name:bundy-mcgeorge, name:schlesinger-arthur-m-jr, name:stevenson-adlai-e]
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1961-08.goldwater
     when: Aug.
     date: 1961-08

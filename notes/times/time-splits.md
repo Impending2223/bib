@@ -1,0 +1,41 @@
+# Time splits, Nov. 25, 2026
+
+The patch is `inbox/2026-11-25-time-splits.yaml`: 24 `edit` ops (each `kind: correct`, with its `base`), 42 `add` ops, 1 `place-key` (nam-dinh). `./bib patch-check` shows 0 errors; the warnings are the same-day, same-thread duplicate flags on the new entries, which the merger settles with `./bib resolve ID --take keep`. The first entry in each split keeps its id and, as R25b says, its note's bibliography; each new entry carries its own sources and points back with "See [[id]]". Hours come from the entry's own cite (the line already gave them) and, where the repository holds the record, from the record: FRUS text (Berlin, Middle East), the Public Papers' notes (Oct. 28, 1967) and the Miller Center catalogue (7:57 a.m., June 5, 1967). I did not fetch any Drive copy; where a new entry rests on a book or nianpu the original cited, its note says "To check" or cites the original's pinpoint unchanged. Following the coordinator's correction, any such page still to be read is for the audit, by the recipe in `notes/guide/reading-a-copy.md`.
+
+## Split
+
+- cal.1963-10-10.berlin-and-vienna: the convoy stays; Rusk with Dobrynin 9 a.m. (doc. 220), Kennedy's meeting 12:30 p.m. (doc. 221), Kohler to Zorin 8 p.m. Moscow (doc. 223) and Zorin to Kohler 10:30 p.m. (doc. 226) are four entries of Oct. 11; the entry's time and zone are removed.
+- cal.1966-01-02.steel: the telegram stays; the Califano and Ackley briefing, 2:15 p.m., is its own entry.
+- cal.1966-01-10.mississippi-3: the hospital morning stays; Dahmer's death at 3:45 p.m. is its own entry.
+- cal.1966-03-09.china-leadership-2: the afternoon trip to Shijiazhuang stays; Xingtai at 4 p.m. and Longyao at 11 p.m. (the six points) are two entries.
+- cal.1966-04-14.vietnam-hanoi-2: the Secretariat's cable stays; the strike on Nam Định at 6:27 a.m. is its own entry (new place key nam-dinh, Hanoi's clock).
+- cal.1966-06-14.state-and-city-finance-nyc: the talks (June 14–15) stay; Rockefeller's 4:10 a.m. announcement is an entry of June 16.
+- cal.1966-07-02.states-and-cities-omaha: the riots stay; the Guard request after 12:30 a.m. July 5 and the mayor's meeting are an entry of July 5, its hour a range of the two readings of Omaha's clock.
+- cal.1966-08-09.mayors: Daley's statement stays; the Commission's noon meeting and Daley's call to Beatty (`follows` the meeting) are two entries.
+- cal.1966-09-09.king: the Memphis retreat stays; King's call to Levison at 6:51 p.m. is its own entry (Eastern clock, the FBI New York log, with a Check).
+- cal.1966-09-11.china-leadership: Mao's circling at dawn stays and now `follows` Tao Zhu's sending of the draft at 1 a.m., a new entry.
+- cal.1966-09-27.states-and-cities-san-francisco: the shooting and rioting stay; the Guard request at 11:39 p.m., the Bayview shooting of Sept. 28 and the end of the emergency with the police report (Oct. 2, day of the report a Check) are three entries.
+- cal.1966-11-15.china-leadership: Mao's meeting on archives stays; the Politburo's revision of Nov. 16 and Mao's reply at midnight (`follows` it; end of Nov. 16, approximate, with a Check) are two entries.
+- cal.1966-11-24.china-leadership: Mao's note on the draft of Nov. 24 stays; his note of 1 a.m. Nov. 28 is its own entry.
+- cal.1967-01-02.vietnam-air-war-2: the air battle stays; the end of the stand-down at 7 a.m. (Saigon clock assumed) is its own entry. The order of the two is not given in the note, so no `follows`.
+- cal.1967-05-25.middle-east: Eban in Washington stays; Johnson's meeting at 1:30 p.m. (doc. 72) and Eban with Johnson at 7:15 p.m. (doc. 77) are two entries of May 26.
+- cal.1967-06-05.middle-east: the strike and the war stay; McNamara's call at 7:57 a.m. with the hot line and the twenty messages (catalogue and docs. 155–159), and McCloskey's statement (afternoon range, Dallek) are two entries. The original keeps its whole note, as the audit refuses a note that drops a read work.
+- cal.1967-06-06.middle-east: the Council's vote and Johnson's statement stay; Radio Cairo from 7:40 a.m., the closing of Suez and the breaks in relations are three entries.
+- cal.1967-06-09.middle-east: Egypt's acceptance, the Golan and Nasser stay; Kosygin's message of 8:48 a.m. and the Sixth Fleet (doc. 243: sent by the Soviet Molink at 8:48, Washington's clock assumed), the Soviet break with Israel, the Israel–Syria cease-fire that evening and Resolution 236 (June 11) are four entries.
+- cal.1967-07-05.vietnam-operations: the air observer's strike stays; the enemy artillery from 7:45 a.m. to 1:45 p.m. is its own entry.
+- cal.1967-07-22.china-leadership: the morning hearing of Zhou's call stays; Mao at 11 a.m. is its own entry.
+- cal.1967-07-25.china-leadership: the afternoon reply (5 p.m.) stays; Mao's revision of the open telegram at 10 p.m. is its own entry.
+- cal.1967-10-26.latin-america: the state visit (Oct. 26–27) stays; the boundary change at 12:01 a.m., the El Paso conference at 11 a.m. and the Chamizal ceremony at 1:10 p.m. (Public Papers notes) are three entries of Oct. 28.
+- cal.1968-05-27.robert-kennedy: the spots, the poll and the wire stay (the entry's time removed); Salinger's statement at 10:30 a.m. is its own entry.
+- cal.1968-06-05.assassination-12: Yorty's naming of the suspect stays (the entry's time removed); the arraignment at 7:40 a.m. and Reddin's account are two entries.
+
+## Stays one entry (a trip, visit, session or one event)
+
+- cal.1966-03-29.soviet-union-leadership-2 (a party congress), cal.1966-05-20.soviet-union-leadership (a trip, R15), cal.1967-01-28, cal.1967-05-09, cal.1968-12-16, cal.1969-04-22 and cal.1969-06-03.soviet-union-leadership, cal.1965-10-05 and cal.1965-12-20.soviet-union-leadership (visits and sessions from Brezhnev's workbook, one entry each by R15; the hours are the visit's end or a later day's, no first-act hour).
+- cal.1960-10-15.elections-1960-kennedy, cal.1960-10-18.elections-1960-3, cal.1960-11-05.elections-1960-kennedy-8, cal.1960-01-06.china-leadership-3, cal.1962-10-22.soviet-union-leadership, cal.1962-10-23.missile-crisis-8, cal.1962-12-24.cuba-2: one event each; the hour in the line is a remark, a deadline or a detail of it.
+- cal.1963-06-25.republican-party and cal.1963-11-22.press-and-broadcasting: a convention and four days of coverage, one event each.
+- cal.1969-01-19.transition-and-staff: one day's account, an event-day.
+
+## Not reached
+
+These candidates from the audits were read in the lists but not split in this run, for want of time: cal.1960-06-29.china-leadership, cal.1960-11-07.elections-1960-5, cal.1960-11-17.china-leadership, cal.1960-12-31.soviet-union, cal.1961-04-17.cuba-6, cal.1961-05-15.freedom-rides, cal.1963-06-25.china-leadership-2, cal.1963-07-09.railroads, cal.1963-11-04.berlin-and-vienna, cal.1963-12-17.china-leadership-4, cal.1964-02-05.cuba, cal.1964-06-10.cyprus, cal.1964-06-21.mississippi, cal.1964-08-04.vietnam, cal.1964-10-01.students, cal.1964-10-27.elections-1964-3, cal.1965-03-05, 03-15 and 03-21 (civil rights and Selma, Birmingham), cal.1965-04-28.latin-america, cal.1965-05-01.latin-america-dominican-republic, cal.1965-09-19.china-leadership, cal.1965-09-20.india-and-china, cal.1965-12-08.vietnam-operations, cal.1965-12-15.vietnam-hanoi, cal.1966-01-31.vietnam, cal.1967-02-09.vietnam, cal.1967-03-10.vietnam-operations, cal.1967-03-12.india-and-china, cal.1967-09-16.china-leadership, cal.1968-01-24.china-leadership, cal.1968-02-05.vietnam-tet-3, cal.1968-03-16.elections-1968-4, cal.1968-03-25.vietnam (the Wise Men: Johnson with Wheeler and Abrams, then the group at 10:30 a.m. Mar. 26), cal.1968-08-20.soviet-union, cal.1968-08-24 and 08-27.elections-1968-chicago, cal.1968-09-27 and 09-29.elections-1968, cal.1968-10-30.vietnam-paris, cal.1968-11-05.elections-1968-humphrey, cal.1968-12-11.transition-and-staff, cal.1970-01-05.china-leadership.

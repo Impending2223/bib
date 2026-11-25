@@ -1134,15 +1134,26 @@ ops:
 - add-words:
     id: cal.1961-05-11.vietnam
     after: end
-    words: Kennedy authorizes 100 more advisers and 400 Special Forces men; a study of raising South Vietnam's army to 200,000.
+    words: 'It confirms the approvals of Apr. 29 and directs an assessment of raising South Vietnam''s forces from 170,000 to 200,000.'
+    text: '[NSAM No. 52](https://history.state.gov/historicaldocuments/frus1961-63v01/d52)'
+- cite:
+    id: cal.1961-05-11.vietnam
+    item: '[[w.mann-grand-delusion]], 231'
+    'on': 'It confirms the approvals of Apr. 29 and directs an assessment of raising South Vietnam''s forces from 170,000 to 200,000.'
+- add-words:
+    id: cal.1961-05-11.vietnam
+    after: end
+    words: 'By McNamara''s account, Kennedy scales the task force''s plan back to 100 more advisers and 400 Special Forces men.'
     item: '[[w.mcnamara-in-retrospect]], ch. 2 at nn.9–10'
 - names:
     id: cal.1961-05-11.vietnam
     tags:
     - name:kennedy-john-f
+    - name:mcnamara-robert-s
     - ok:note-substance
     add:
     - Kennedy
+    - McNamara
 - add-words:
     id: cal.1961-05-21.china-leadership
     after: end
@@ -1176,13 +1187,24 @@ ops:
 - add-words:
     id: cal.1961-05-21.freedom-rides
     after: end
-    words: Nearly 1,500 are in the church against "a huge, howling mob."
+    words: 'Nearly 1,500 are in the church against "a huge, howling mob." King, from the pulpit: the law "can keep him from lynching me."'
     item: '[[w.wofford-of-kennedys-and-kings]], 154'
 - add-words:
     id: cal.1961-05-21.freedom-rides
     after: end
-    words: 'King telephones Robert Kennedy through the night; Farmer: "we have been cooling off for 350 years."'
-    item: '[[w.kotz-judgment-days]], 53–54'
+    words: 'Farmer is there too. King telephones Robert Kennedy through the night; to Kennedy''s request for a cooling-off, Farmer: "we have been cooling off for 350 years."'
+    item: '[[w.kotz-judgment-days]], 53'
+- edit:
+    id: cal.1961-05-21.freedom-rides
+    base: 039e012f
+    kind: reword
+    set:
+      time_range:
+      - 1961-05-22T00:00Z
+      - 1961-05-22T03:00Z
+      time_band: evening
+      time_zone: America/Chicago
+      range_basis: record
 - names:
     id: cal.1961-05-21.freedom-rides
     tags:
@@ -1195,24 +1217,27 @@ ops:
 - add-words:
     id: cal.1961-12-16.latin-america
     after: end
-    words: 'Kennedy asks Goodwin by telephone whether to go despite the Secret Service: "I think the trip will be a triumph." Goodwin drafts all his speeches for Venezuela and Colombia; at Bogotá at least 500,000.'
-    item: '[[w.goodwin-remembering-america]], 214'
+    words: 'At Caracas more than 4,000 political suspects are jailed for the visit and 20,000 troops face the crowds on the route from the airport; O''Donnell and Powers carry revolvers at his side.'
+    item: '[[w.salinger-with-kennedy]], 167'
+- variant:
+    id: cal.1961-12-16.latin-america
+    'on': 'At Caracas more than 4,000 political suspects are jailed for the visit and 20,000 troops face the crowds on the route from the airport; O''Donnell and Powers carry revolvers at his side.'
+    witness: w.nixon-six-crises
+    reads: 35,000 steel-helmeted troops on duty, the highway from Maiquetía closed twelve hours before, the cruiser Northampton off the harbor
+    at: 223 n.3
 - add-words:
     id: cal.1961-12-16.latin-america
     after: end
-    words: 'Caracas: Venezuela jails more than 4,000 political suspects for the visit; O''Donnell and Powers are armed at the President''s side.'
-    item: '[[w.salinger-with-kennedy]], 167–68'
-- check:
-    id: cal.1961-12-16.latin-america
-    text: 'Check: the troops on the route from the Caracas airport: [[w.salinger-with-kennedy]], 167–68, 20,000; [[w.nixon-six-crises]], 223 n.3, 35,000.'
+    words: At Bogotá at least 500,000.
+    item: '[[w.goodwin-remembering-america]], 214'
 - names:
     id: cal.1961-12-16.latin-america
     tags:
-    - name:goodwin-richard-n
+    - name:odonnell-kenneth-p
     - name:powers-david-f
     - ok:note-substance
     add:
-    - Goodwin
+    - O'Donnell
     - Powers
 - add-words:
     id: cal.1962-02-07.china-leadership
@@ -1240,15 +1265,21 @@ ops:
     after: end
     words: 'Brandt, Clay and Lightner meet him at the airport; a motorcade to the Rathaus; a crowd of perhaps 100,000. His impromptu speech: "They will let their balloons come over—but not their people." At the Free University that evening: "We have not forgotten those in East Germany." Schlesinger talks with Brandt on the Wall.'
     item: '[[w.schlesinger-journals]], 147–48'
+- place:
+    id: cal.1962-02-22.robert-kennedy-trip
+    at: berlin
+    basis: c
 - names:
     id: cal.1962-02-22.robert-kennedy-trip
     tags:
     - name:brandt-willy
+    - name:clay-lucius-d
     - name:lightner-e-allan-jr
     - name:schlesinger-arthur-m-jr
     - ok:note-substance
     add:
     - Brandt
+    - Clay
     - Lightner
     - Schlesinger
 - add-words:
@@ -1259,7 +1290,7 @@ ops:
 - add-words:
     id: cal.1962-07-23.vietnam
     after: end
-    words: 'Military assistance: $101.4 million in fiscal 1961, $177 million in 1962, $179.4 million in 1963.'
+    words: 'His goal, South Vietnamese forces able to do without American support within three years; military assistance, $101.4 million in fiscal 1961, $177 million in 1962 and $179.4 million in 1963, to be cut early.'
     item: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 277'
 - names:
     id: cal.1962-07-23.vietnam
@@ -1292,13 +1323,13 @@ ops:
 - add-words:
     id: cal.1963-06-22.civil-rights-bill
     after: end
-    words: Robert Kennedy is there, with Schlesinger at his request. Kennedy cites Bull Connor and the Gallup poll (approval 60 to 47).
-    item: '[[w.schlesinger-journals]], 195–98'
+    words: 'Robert Kennedy speaks briefly; Schlesinger there at his request. Kennedy: Bull Connor "has done more for civil rights than almost anybody else"; the administration''s approval in the Gallup poll down from 60 to 47 percent.'
+    item: '[[w.schlesinger-journals]], 196–97'
 - add-words:
     id: cal.1963-06-22.civil-rights-bill
     after: end
-    words: 'In the Rose Garden: "They''re Communists; you''ve got to get rid of them."'
-    item: '[[w.kotz-judgment-days]], 64, 68–69'
+    words: 'In the Rose Garden, of Levison and O''Dell: "They''re Communists; you''ve got to get rid of them"; "If they shoot you down, they''ll shoot us down, too."'
+    item: '[[w.kotz-judgment-days]], 68–69'
 - names:
     id: cal.1963-06-22.civil-rights-bill
     tags:
