@@ -55,6 +55,9 @@ STYLE
     (notes/proposals/claims-model.md, (f) 3; ruling 35f): a unit that cites "88" and the next that cites "88 & n.32
     (citing ...)", or the note alone, make one run, under the fuller citation, with the page where either unit cites
     it. Two different notes of one page stay two sources. The registry and the map keep the rows apart.
+12. A source cited for a field alone (claims.py, STYLE 9: the entry's date, hour or place, facts with no words in the
+    line) takes no mark; it closes the first footnote, where the day's label's items go, or stays in the one block
+    where the entry has no footnotes (rulings 35g, 2).
 """
 import collections
 import re
@@ -303,6 +306,12 @@ def _cites(series, e):
                 seen.add((x["kind"], x["key"], x["text"]))
                 uniq.append(x)
         per.append(uniq)
+    head = []                             # a source cited for a field alone (the hour, the place): no unit's, and
+    for r, k, key, pin, note, u, item in rows:      # no mark; in the first footnote (STYLE 12)
+        if k and isinstance(u, set) and u and u <= set(claims.FIELDS) and item and item not in used:
+            head.append(card(key, pin, item, pin) if k == "card" else
+                        lab(item, dict(kind="text", key=item, pin="", paren="", text=item)))
+            used.add(item)
     tail = []
 
     def unrowed(item):
@@ -318,7 +327,7 @@ def _cites(series, e):
         if it not in used and not any(it == x["text"] for p in per for x in p):
             used.add(it)
             unrowed(it)
-    return us, per, tail, list(unread)
+    return us, per, tail, head, list(unread)
 
 
 def _id(cur, prev, head):
@@ -421,7 +430,7 @@ def build(series, e, _probe=False):
     src = e.get("src")
     if isinstance(src, dict) and src.get("c") and src.get("c") != claims.chash(c):
         return None                       # a stale map: its letters may not fit (claims.py, STYLE 4)
-    us, per, tail, unread = _cites(series, e)
+    us, per, tail, head, unread = _cites(series, e)
     runs = []
     for i in range(len(us)):
         key = [(x["kind"], x["key"], x["pin"]) for x in per[i]]
@@ -441,6 +450,8 @@ def build(series, e, _probe=False):
     runs = [r for r in runs if r[2]]
     if len(runs) <= 1:
         return None
+    if head:
+        runs[0][2] = runs[0][2] + head
     runs = shared(runs, REPEAT, COMMON)    # the sources every footnote shares (STYLE 8)
     if runs is None:
         return None

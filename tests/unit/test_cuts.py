@@ -69,3 +69,51 @@ def test_a_line_changed_without_its_cuts_is_not_written():
         store.stored_form(e)
     cuts.set_line(e, 'Sunday.{3} ' + LINE)
     assert store.stored_form(e)['c'] == 'Sunday.{3} ' + LINE
+
+
+# claims.py, STYLE 9: a row that names parts by number gives each unit the sources its letters gave.
+def _entry(c, rows, **kw):
+    from bib import claims
+    e = store.normalize_entry(dict({'id': 'cal.1961-03-10.berlin', 'date': '1961-03-10', 'c': c,
+                                    'n': '[[w.frus]], 12. [[w.beschloss]], 123.'}, **kw))
+    e['src'] = {'c': claims.chash(e['c']), 'rows': rows}
+    return e
+
+
+def _per_unit(e):
+    from bib import claims
+    us = claims.units(e['c'])
+    rows = claims.resolve(e)
+    return [sorted(key for r, k, key, pin, note, u, item in rows if u not in (None, '?') and claims.LETTERS[i] in u)
+            for i in range(len(us))]
+
+
+THREE = 'Rusk sees Dobrynin. The talks will resume on Monday; Moscow will send Zorin.'
+THREE_CUT = 'Rusk sees Dobrynin. The talks will resume on Monday;{1} Moscow will send Zorin.{2}'
+
+
+def test_numbers_resolve_as_the_letters_did():
+    old = _entry(THREE, ['w.frus 12: all', 'w.beschloss 123: C'])
+    new = _entry(THREE_CUT, ['w.frus 12: 1, 2', 'w.beschloss 123: 2'])
+    assert _per_unit(old) == _per_unit(new) == [['w.frus'], ['w.frus'], ['w.beschloss', 'w.frus']]
+
+
+def test_a_number_that_was_cut_resolves_to_its_halves():
+    e = _entry('Rusk sees Dobrynin.{3} The talks will resume on Monday;{4} Moscow will send Zorin.{2}',
+               ['w.frus 12: 1', 'w.beschloss 123: 2'], cut_from={'3': '1', '4': '1'})
+    assert _per_unit(e) == [['w.frus'], ['w.frus'], ['w.beschloss']]
+
+
+def test_a_field_gives_no_unit_a_source():
+    from bib import claims
+    e = _entry(THREE_CUT, ['w.frus 12: 1, 2', 'w.beschloss 123: time'], time='15:00')
+    assert _per_unit(e) == [['w.frus'], ['w.frus'], ['w.frus']]
+    assert [u for *_, u, _ in claims.resolve(e)][1] == {'time'}
+    del e['time']
+    assert [u for *_, u, _ in claims.resolve(e)][1] is None          # the entry has no hour: an error for check
+
+
+def test_a_number_the_line_lacks_does_not_resolve():
+    from bib import claims
+    e = _entry(THREE_CUT, ['w.frus 12: 9'])
+    assert claims.resolve(e)[0][5] is None

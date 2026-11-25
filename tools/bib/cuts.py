@@ -113,7 +113,13 @@ def parts(c, cuts):
 def units_of(e):
     """number -> the unit indices of the part, for an entry (in memory: `c` plain, `cuts`)."""
     ps = parts(e.get("c") or "", e.get("cuts") or [])
-    return {n: us for n, us in ps or [] if n is not None}
+    out = {n: us for n, us in ps or [] if n is not None}
+    cf = {str(k): str(v) for k, v in (e.get("cut_from") or {}).items()}
+    for _ in range(len(cf)):                       # a number that was cut still resolves, to its halves (STYLE 4)
+        for new, old in cf.items():
+            if new in out:
+                out[old] = sorted(set(out.get(old, [])) | set(out[new]))
+    return out
 
 
 def next_id(e):
