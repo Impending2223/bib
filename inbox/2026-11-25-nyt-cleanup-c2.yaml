@@ -1,0 +1,96 @@
+patch: 2026-11-25-nyt-cleanup-c2
+by: Claude (cleanup of the Times entries, R26a, second run), Nov. 25, 2026
+ops:
+- place-key:
+    key: kaprun
+    name: Kaprun
+    zone: Europe/Vienna
+    in: austria
+- place-key:
+    key: villach
+    name: Villach
+    zone: Europe/Vienna
+    in: austria
+- edit:
+    id: cal.1960-07-05.china
+    base: 568a20dc
+    set:
+      n: '"Ghana Asks ''Bold'' Western Aid," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 150 (July 5, 1960).'
+- add-words:
+    id: cal.1960-07-05.china
+    after: end
+    words: Xinhua carries the Foreign Ministry's announcement. Ghana is the second African state to recognize the Peking government, after Guinea, the *Times* reports.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-07-05.cuba-2
+    base: 8fa10630
+    set:
+      n: 'William J. Jorden, "U.S. Files Protest on Cuban Seizure of Oil Refineries," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 2. Law: [[cal.1960-07-06.cuba-2]]. Names: Dillon.'
+- add-words:
+    id: cal.1960-07-05.cuba-2
+    after: Agriculture halts new imports of Cuban sugar pending the President's action under the new act.
+    words: A White House spokesman says the President has delayed signing the bill pending a review by the departments. Cuba's quota for the year is 3,119,655 tons, about 740,000 not yet received, the *Times* reports.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- add-words:
+    id: cal.1960-07-05.cuba-2
+    after: end
+    words: 'Herter is on vacation. The public members: Walter J. Donnelly, Milton S. Eisenhower, George K. Holland, O. A. Knight, Charles A. Meyer, Dana Gardner Munro.'
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- names:
+    id: cal.1960-07-05.cuba-2
+    add:
+    - Herter
+    - Donnelly
+    - Milton Eisenhower
+    - Meyer
+    tags:
+    - name:herter-christian-a
+    - name:donnelly-walter-j
+    - name:eisenhower-milton-s
+    - name:meyer-charles-a
+- edit:
+    id: cal.1960-07-05.elections-1960-los-angeles
+    base: ce8ddec1
+    set:
+      n: 'Leo Egan, "Democrats Hear Ideas for Planks," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. W. H. Lawrence, "Democratic Hopefuls Face Early Test on Voting Rule," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 20 (the four days of hearings; the debate on Social Security). Names: Bowles, Annis, Butler.'
+- add-words:
+    id: cal.1960-07-05.elections-1960-los-angeles
+    after: end
+    words: 'Other witnesses: Bishop Gerald H. Kennedy for the National Council of Churches; Cecil E. Burney of Corpus Christi, Tex., for the American Bar Association. Butler tells reporters the fourteen-member arrangements committee chose the officials; only Bowles has declared publicly for a candidate.'
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-07-05.elections-1960-nomination
+    base: 8ec14eb4
+    set:
+      n: '"Wagner Denies State Delegation Is Rigged to Favor Kennedy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). See [[cal.1960-07-02.elections-1960-2]]. Names: Wagner, Truman, Stevenson.'
+- add-words:
+    id: cal.1960-07-05.elections-1960-nomination
+    after: Some thirty for Stevenson picket City Hall.
+    words: Ira Lesser leads them.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- add-words:
+    id: cal.1960-07-05.elections-1960-nomination
+    after: end
+    words: Asked about Truman's charge of a rigged convention, Wagner says Truman has "every right" to his opinion. More than 100 of the delegation's 114 votes are indicated for Kennedy, the *Times* reports.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-07-05.soviet-union
+    base: 9d8b72ef
+    set:
+      n: 'M. S. Handler, "Khrushchev Looks to Reds'' Triumph," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 15. Names: Khrushchev.'
+- add-words:
+    id: cal.1960-07-05.soviet-union
+    after: end
+    words: 'Furtseva, the Minister of Culture, is with him. He calls communism his "elixir of life."'
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- names:
+    id: cal.1960-07-05.soviet-union
+    add:
+    - Furtseva
+    tags:
+    - name:furtseva-yekaterina-a
+- place:
+    id: cal.1960-07-05.soviet-union
+    at: [kaprun, villach]
+    basis: c
+    note: the remark at Kaprun, the convoy's end at Villach, the dateline (R26a)
