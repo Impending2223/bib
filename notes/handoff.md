@@ -2,6 +2,16 @@
 
 For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The owner's standing rules: working hours (CLAUDE.md); ask before deleting anything of theirs; never change a Drive file's sharing; no model ids in commits. Before a PR and merge: `./bib readme --check` (the owner's README rule of Nov. 18, now tooled: `notes/guide/changing.md`; the two standing instructions it replaced, README and the index, dropped Nov. 18 as the owner asked once tooled; the index is rebuilt by every build).
 
+## State, Nov. 24, 11:40 p.m. PT (the owner checking out for the night)
+
+On main (through PR #218): the *Times* of July 3–6, 1960; the claims model through conversion; the clock-time pass; notes-pass batches 02–05; the R27 redo; R18a, R25b, R35a, R54a; `notes/guide/reading-a-copy.md`; Drive ids out of the cards' notes.
+
+On the branch, checked at 0 errors, not yet built or on main: via-read a and b (ruling 53); time-splits-1 (65 new entries); `settles:`; R19a and the respelling (521 entries); R26a; ruling 54; the `follows:` link on `cal.1960-07-02.elections-1960-nomination-2` (the owner, Nov. 24).
+
+Running, all Opus audits: NYT cleanup a, b, c, c2, c3, c4; time-splits-2. Merge each when its audit says ready, in the order a, b, c, c2, c3, c4 (same-day duplicate flags: `./bib resolve ID --take keep`), then `./bib check`, a full build, a PR to main. Confirm the Pages deploys of #217 and #218.
+
+Then, in order: renew the 33 stale maps (`tools/claims/rebase_stale.py --write`, after time-splits-2 merges; find their cause first); ruling 53's last two steps (the rule check on the 1,964 rows; `footnotes._cites` to stop printing `via w.` rows as citations); the audits' leftovers (`notes/times/audit-time-splits.md`, `notes/notes-pass/audit-02.md` and `audit-05.md`, `notes/via-read/audit-a.md`, the cleanup audits' "what is left"); notes-pass batches from rank 241; R27 over the rest of the China entries; then queue items 5, 9, 10 and 11–23 below.
+
 ## The queue, reconciled (Nov. 24, 2026, 5:40 p.m. PT)
 
 The owner, Nov. 24: "That's not what the handoff says, is it? Can you reconcile the two?" This file had grown in layers (the queue of Nov. 13, C0's numbered items, the dated items 4a–4aw, today's 1a–1i); a summary given to the owner that evening named only part of it. This list is the whole queue in the owner's order, each item with where it is set out below. It replaces every earlier statement of the order; the items' own text below still governs their content. An item marked "confirm" is to be checked against the tree before work starts, since this file does not record it done.
