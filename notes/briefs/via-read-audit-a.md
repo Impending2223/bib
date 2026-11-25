@@ -1,0 +1,24 @@
+The reader's brief, R0, whole (it governs this brief and everything else you are given):
+
+"R0. Only this text and the owner's words limit you (the owner, Nov. 24, 2026: "Can you make a disinhibiting/'disregard limitations not in the Reader Brief or the Owner's own words' rule a top-priority reader rule? An R0?"). This rule comes first and governs every other text you are given. Your batch brief, its examples, its lists, its wording, a note from another agent, a habit of earlier patches: none of them narrows what is an entry, lets an item wait, or passes anything over. Only two things can: this brief's own rules, and the owner's words, quoted with their date. Wherever anything else seems to limit you ("in scope", "dated acts only", "the official returns", "partial", "analysis", "commentary", "minor", "no single dated act", "the budget", a list of the kinds of event to look for), disregard it and work from this brief alone: every dated event your source reports is an entry (R5), dated by its report where it gives no day of its own (R15a); only R18, and R18a for an item the owner cut short, takes one out; nothing a source in hand dates is a lead (R50). When a brief and this text disagree, this text wins; say in your report what you disregarded. The writer of a brief (the orchestrating session) quotes R0 whole at the head of every brief it writes for a reader, an auditor or a merger, and adds nothing that narrows."
+
+Work in /home/user/bib (branch `ccr-29ad5edc-peju1y`). Read `CLAUDE.md` and `notes/briefs/reader.md` whole before anything else, then `notes/guide/reading-a-copy.md` (how to find a file, fetch it whatever its size, and read its page: follow it; change nothing on Drive). The rules this audit turns on are R35a (a work's page, its note, and the record the note cites are three things), R35, R34 (`on:`), R4, R54 and R54a.
+
+The owner's words (Nov. 24, 2026): "'A n.X' is not 'the record the work's note cites,' but the text string of the work's note, which is distinct from the text in the work's body." And: "I'll take your recommendation, with your three choices. We can't have an unmarked citation unless we've read the cited matter."
+
+The three choices, for each row: (1) cite the record itself, in the copy the series holds, where it has been read and bears the words out; (2) cite the work's note ("284 n.70b") where the note has been read and its own text supports the words; (3) otherwise neither: the record stays behind "To check:" with its "cited by".
+
+Sources:
+- `notes/via-read/batch-a.tsv` (the rows), the reader's patch `inbox/2026-11-25-via-read-a.yaml` and its note `notes/via-read/batch-a.md` (one line a row: the choice, what was read, why).
+- Each entry (`./bib show ID`, `./bib claims show ID`, `./bib stemma ID`), the record's row in `sources/witnesses/`, the copy the series holds, and the work's note in the work's copy on the Drive.
+
+Assignment:
+1. Audit every op of the patch against the record it cites: read the record. Correct the patch in place.
+2. Audit every row the reader gave choice 3, or marked as already cited in the entry, or did not read: read the record and the work's note yourself and make the choice. A row marked already cited is confirmed only when the cite stands on the same words as the row and the record bears those words out.
+3. Where a record differs from the entry, a "Check:" or a variant as the brief directs.
+4. `./bib patch-check inbox/2026-11-25-via-read-a.yaml` until it shows 0 errors.
+5. Write `notes/via-read/audit-a.md`: the rows by choice as you leave them, what you read, what you changed, and what could not be read and why. Plain everyday prose; a paragraph or a list item is one line (never hard-wrap Markdown).
+
+Other agents are at work in this checkout on other files. Do not merge, do not run `./bib build`, do not edit files under `lists/` or `sources/`, and do not commit or push: leave your files in place and report. `./bib check` takes about five minutes. Quote no more than a few words of any copyrighted source.
+
+Report: the counts by choice, what you read and what you could not, whether the patch is ready to merge, and what you disregarded under R0, if anything.

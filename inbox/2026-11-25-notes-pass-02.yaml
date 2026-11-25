@@ -1489,20 +1489,43 @@ ops:
 - add-words:
     id: cal.1964-09-28.elections-1964
     after: end
-    words: Six stops, the day ending at Boston at 2 a.m., where he sees Edward Kennedy; Theodore White puts the Providence crowd at perhaps half a million; some 3,000 are at the airport at 9:30 a.m.
+    words: 'He lands at Providence at 9:30 a.m. to some 3,000 at the airport.'
+    item: '[[w.white-making-of-the-president-1965]], 364–65'
+- add-words:
+    id: cal.1964-09-28.elections-1964
+    after: end
+    words: 'Six stops, the day ending at Boston at 2 a.m.; at Providence perhaps half a million; Brown''s convocation reached seventy minutes late.'
     item: '[[w.bernstein-guns-or-butter]], 150'
+- cite:
+    id: cal.1964-09-28.elections-1964
+    item: '[[w.white-making-of-the-president-1965]], 366–67'
+    'on': 'Six stops, the day ending at Boston at 2 a.m.; at Providence perhaps half a million; Brown''s convocation reached seventy minutes late.'
+- add-words:
+    id: cal.1964-09-28.elections-1964
+    after: end
+    words: 'At Boston he visits Edward Kennedy, ill; over a million people in the day, by Valenti''s count.'
+    item: '[[w.valenti-very-human-president]], 204'
 - add-words:
     id: cal.1964-09-28.elections-1964
     after: end
     words: 'At Brown: "I look with the greatest of favor upon the proposal of your own able President Keeney''s Commission for a National Foundation for the Humanities."'
     item: '[[w.bernstein-guns-or-butter]], 442–43'
+- edit:
+    id: cal.1964-09-28.elections-1964
+    base: 4176d17a
+    kind: reword
+    set:
+      time: 1964-09-28T13:30Z
+      time_zone: America/New_York
 - names:
     id: cal.1964-09-28.elections-1964
     tags:
     - name:kennedy-edward-m
+    - name:valenti-jack
     - ok:note-substance
     add:
     - Edward Kennedy
+    - Valenti
 - add-words:
     id: cal.1964-10-16.china-leadership-5
     after: end
@@ -1524,13 +1547,25 @@ ops:
 - add-words:
     id: cal.1964-11-01.vietnam
     after: end
-    words: Taylor flies to the field by helicopter in the rain early Nov. 1; the mortars came from sampans; the B-57 squadron is "virtually wiped out"; Taylor and his colleagues call for immediate retaliation. About a hundred Viet Cong in black.
-    item: '[[w.taylor-swords-and-plowshares]], 323–25'
+    words: 'Taylor helicopters to the field in heavy rain once it is light: the mortars came by sampan; the B-57 squadron "virtually wiped out." With his colleagues'' unanimous support he cables for immediate retaliation.'
+    item: '[[w.taylor-swords-and-plowshares]], 323–24'
 - add-words:
     id: cal.1964-11-01.vietnam
     after: end
-    words: Westmoreland and Moorer, with Sharp, press for reprisal.
-    item: '[[w.marolda-united-states-navy-and]], 472–73'
+    words: 'Westmoreland, Sharp and Moorer join in the call; CINCPAC''s list takes in the barracks at Đồng Hới and the MiG base at Phúc Yên.'
+    item: '[[w.marolda-united-states-navy-and]], 473'
+- variant:
+    id: cal.1964-11-01.vietnam
+    'on': 'The Viet Cong mortar the air base after midnight: 4 Americans killed, 30 wounded, 27 aircraft destroyed or damaged.'
+    witness: w.marolda-united-states-navy-and
+    reads: four Americans killed and seventy-two wounded; twenty-four U.S. and South Vietnamese aircraft destroyed or damaged
+    at: 472–73
+- variant:
+    id: cal.1964-11-01.vietnam
+    'on': 'The Viet Cong mortar the air base after midnight: 4 Americans killed, 30 wounded, 27 aircraft destroyed or damaged.'
+    witness: w.bernstein-guns-or-butter
+    reads: a hundred Vietcong in black pajamas inside the compound; six B-57s destroyed, 20 aircraft damaged; five Americans and two South Vietnamese killed, nearly a hundred injured
+    at: '338'
 - check:
     id: cal.1964-11-01.vietnam
     text: 'Check: [[w.gibbons-u-s-government-and]], II, 363–64, has five killed, 76 wounded, 27 of 30 B-57s destroyed or damaged.'
@@ -1538,10 +1573,12 @@ ops:
     id: cal.1964-11-01.vietnam
     tags:
     - name:westmoreland-william
+    - name:sharp-u-s-grant
     - name:moorer-thomas
     - ok:note-substance
     add:
     - Westmoreland
+    - Sharp
     - Moorer
 - add-words:
     id: cal.1964-12-20.china-leadership
@@ -1604,59 +1641,89 @@ ops:
 - add-words:
     id: cal.1965-02-22.vietnam
     after: end
-    words: 'Throckmorton favors a brigade; Westmoreland asks two battalions, 3,500 men, a third offshore; about 1,300 Marines are there already. Taylor''s cables: the American soldier "not a suitable guerilla fighter for Asian forests and jungles"; Johnson approves.'
+    words: 'Throckmorton, back from Đà Nẵng, would bring in a whole Marine brigade of three battalions; Westmoreland asks two, the third held offshore. Taylor endorses one, reluctantly.'
     item: '[[w.westmoreland-soldier-reports]], 123'
+- add-words:
+    id: cal.1965-02-22.vietnam
+    after: end
+    words: 'Taylor, in his cables: the American soldier "is not a suitable guerilla fighter for Asian forests and jungles."'
+    item: '[[w.clifford-counsel-to-the-president-2]], 409'
 - names:
     id: cal.1965-02-22.vietnam
     tags:
     - name:throckmorton-john-l
-    - name:johnson-lyndon-b
     - ok:note-substance
     add:
     - Throckmorton
-    - Johnson
 - add-words:
     id: cal.1965-03-15.voting-rights
     after: end
-    words: Goodwin's draft; Valenti feeds Johnson a page at a time by 6:00; Humphrey urged the address. An audience of 70 million; forty-two minutes, by Lady Bird Johnson's diary. "What happened in Selma was an American tragedy."
+    words: 'Goodwin''s draft; by 6:00 Valenti is feeding Johnson a page at a time. An audience of 70 million; forty-two minutes, by Lady Bird Johnson''s diary.'
     item: '[[w.bernstein-guns-or-butter]], 235–36'
 - add-words:
     id: cal.1965-03-15.voting-rights
     after: end
-    words: The first special domestic message in person since Truman's in 1946.
-    item: '[[w.wofford-of-kennedys-and-kings]], 185–86'
+    words: '"What happened in Selma was an American tragedy."'
+    text: 'Special Message to the Congress: The American Promise, [1965 Pub. Papers 281](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=357) (Mar. 15, 1965)'
+- add-words:
+    id: cal.1965-03-15.voting-rights
+    after: end
+    words: 'The first special message on a domestic bill given in person since Truman''s of 1946; a night session asked so that most could watch.'
+    item: '[[w.wofford-of-kennedys-and-kings]], 186'
 - names:
     id: cal.1965-03-15.voting-rights
     tags:
     - name:goodwin-richard-n
     - name:valenti-jack
-    - name:humphrey-hubert-h
     - name:truman-harry-s
     - ok:note-substance
     add:
     - Goodwin
     - Valenti
-    - Humphrey
     - Truman
 - add-words:
     id: cal.1965-07-22.vietnam
     after: end
-    words: 'At noon in the Cabinet Room: McNamara, Vance, Wheeler, the four Chiefs, Brown, Nitze, Resor, Bundy and Valenti, and Clifford at Johnson''s request. Greene: five years and 500,000 men; Wheeler: the North "can''t match us on a buildup."'
-    item: '[[w.valenti-very-human-president]], 340–52'
+    words: 'At noon in the Cabinet Room: McNamara, Vance, Wheeler, Harold Johnson, McConnell, McDonald and Greene, Brown, Nitze, Resor, Bundy and Valenti, and Clifford at Johnsons request. Greene: five years and 500,000 men; Wheeler: the North "cant match us on a buildup."'
+    item: '[[w.valenti-very-human-president]], 340, 343, 348'
+- cite:
+    id: cal.1965-07-22.vietnam
+    item: '[[w.herring-lbj-and-vietnam]], 35 (Greene)'
+    'on': 'At noon in the Cabinet Room: McNamara, Vance, Wheeler, Harold Johnson, McConnell, McDonald and Greene, Brown, Nitze, Resor, Bundy and Valenti, and Clifford at Johnsons request. Greene: five years and 500,000 men; Wheeler: the North "cant match us on a buildup."'
 - names:
     id: cal.1965-07-22.vietnam
     tags:
+    - name:mcnamara-robert-s
+    - name:vance-cyrus
     - name:wheeler-earle
+    - name:johnson-harold-k
+    - name:mcconnell-john-p
+    - name:mcdonald-david-l
+    - name:greene-wallace-m-jr
+    - name:brown-harold
+    - name:nitze-paul
+    - name:resor-stanley-r
+    - name:bundy-mcgeorge
     - name:valenti-jack
     - ok:note-substance
     add:
+    - McNamara
+    - Vance
     - Wheeler
+    - Harold Johnson
+    - McConnell
+    - McDonald
+    - Greene
+    - Brown
+    - Nitze
+    - Resor
+    - Bundy
     - Valenti
 - add-words:
     id: cal.1965-12-05.economy
     after: end
-    words: The White House had said Nov. 30 that a Quadriad would meet "in the very near future." Califano is at the Ranch Dec. 6; the meeting is "superficially amicable."
-    item: '[[w.califano-triumph-and-tragedy-of]], 108–09'
+    words: 'Califano flies down with them; on the lawn Johnson looks for a way to turn Martin and finds none; the meeting, the lunch and the press conference "superficially amicable."'
+    item: '[[w.califano-triumph-and-tragedy-of]], 109'
 - names:
     id: cal.1965-12-05.economy
     tags:
