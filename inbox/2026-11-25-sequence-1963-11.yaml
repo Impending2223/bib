@@ -1,10 +1,6 @@
 patch: 2026-11-25-sequence-1963-11
-by: 'Claude (Sonnet, sequence pass: R25c on November 1963), Nov. 25, 2026; notes/sequence/1963-11.md'
+by: 'Claude (Sonnet, sequence pass: R25c on November 1963), Nov. 25, 2026; audited and corrected by Claude (Opus), Nov. 25, 2026; notes/sequence/1963-11.md, notes/sequence/audit-1963-11.md'
 ops:
-- follows:
-    id: cal.1963-11-01.vietnam-saigon-7
-    add:
-    - cal.1963-11-01.vietnam-saigon-6
 - follows:
     id: cal.1963-11-01.vietnam-saigon-8
     add:
@@ -14,9 +10,17 @@ ops:
     add:
     - cal.1963-11-01.china-leadership-4
 - follows:
+    id: cal.1963-11-01.china-leadership-3
+    add:
+    - cal.1963-11-01.china-leadership-4
+- follows:
     id: cal.1963-11-01.china-leadership-2
     add:
     - cal.1963-11-01.china-leadership
+- follows:
+    id: cal.1963-11-04.china-leadership-2
+    add:
+    - cal.1963-11-04.china-leadership
 - follows:
     id: cal.1963-11-09.china-2
     add:
@@ -26,6 +30,14 @@ ops:
     add:
     - cal.1963-11-09.china-leadership
 - follows:
+    id: cal.1963-11-12.elections-1964
+    add:
+    - cal.1963-11-12.elections-1964-2
+- follows:
+    id: cal.1963-11-14.white-house
+    add:
+    - cal.1963-11-14.transportation
+- follows:
     id: cal.1963-11-14.white-house-2
     add:
     - cal.1963-11-14.white-house
@@ -33,6 +45,10 @@ ops:
     id: cal.1963-11-16.defense
     add:
     - cal.1963-11-16.elections-1964-2
+- follows:
+    id: cal.1963-11-18.cuba
+    add:
+    - cal.1963-11-18.elections-1964
 - follows:
     id: cal.1963-11-19.white-house-2
     add:
@@ -50,41 +66,65 @@ ops:
     add:
     - cal.1963-11-21.trade
 - follows:
+    id: cal.1963-11-21.assassination-2
+    add:
+    - cal.1963-11-21.congress-2
+    - cal.1963-11-21.vietnam
+- follows:
     id: cal.1963-11-21.white-house
     add:
     - cal.1963-11-21.assassination-2
 - follows:
-    id: cal.1963-11-21.democratic-party-4
+    id: cal.1963-11-21.democratic-party-3
     add:
     - cal.1963-11-21.democratic-party-2
+- follows:
+    id: cal.1963-11-21.democratic-party-4
+    add:
     - cal.1963-11-21.democratic-party-3
 - follows:
     id: cal.1963-11-21.democratic-party-5
     add:
     - cal.1963-11-21.democratic-party-4
 - follows:
-    id: cal.1963-11-22.assassination-15
+    id: cal.1963-11-22.democratic-party-2
+    add:
+    - cal.1963-11-22.right-and-the-military
+- follows:
+    id: cal.1963-11-22.assassination-14
+    add:
+    - cal.1963-11-22.democratic-party-2
+- follows:
+    id: cal.1963-11-22.democratic-party-3
     add:
     - cal.1963-11-22.assassination-14
+- follows:
+    id: cal.1963-11-22.assassination-15
+    add:
     - cal.1963-11-22.democratic-party-3
+- follows:
+    id: cal.1963-11-22.democratic-party-4
+    add:
+    - cal.1963-11-22.assassination-15
+- follows:
+    id: cal.1963-11-22.white-house
+    add:
+    - cal.1963-11-22.democratic-party-4
 - follows:
     id: cal.1963-11-22.democratic-party-5
     add:
-    - cal.1963-11-22.democratic-party-2
+    - cal.1963-11-22.white-house
 - follows:
     id: cal.1963-11-22.democratic-party-6
     add:
     - cal.1963-11-22.democratic-party-5
+    - cal.1963-11-22.elections-1964-4
 - follows:
     id: cal.1963-11-22.assassination
     add:
     - cal.1963-11-22.democratic-party-6
 - follows:
     id: cal.1963-11-22.assassination-10
-    add:
-    - cal.1963-11-22.assassination
-- follows:
-    id: cal.1963-11-22.goldwater-4
     add:
     - cal.1963-11-22.assassination
 - follows:
@@ -110,7 +150,8 @@ ops:
 - follows:
     id: cal.1963-11-22.assassination-11
     add:
-    - cal.1963-11-22.assassination
+    - cal.1963-11-22.succession-3
+    - cal.1963-11-22.succession-13
 - follows:
     id: cal.1963-11-22.assassination-12
     add:
@@ -122,7 +163,11 @@ ops:
 - follows:
     id: cal.1963-11-22.assassination-17
     add:
-    - cal.1963-11-22.assassination
+    - cal.1963-11-22.succession
+- follows:
+    id: cal.1963-11-22.assassination-7
+    add:
+    - cal.1963-11-22.succession-13
 - follows:
     id: cal.1963-11-22.succession-30
     add:
@@ -134,22 +179,24 @@ ops:
 - follows:
     id: cal.1963-11-22.succession-24
     add:
-    - cal.1963-11-22.assassination
+    - cal.1963-11-22.succession-18
 - follows:
     id: cal.1963-11-22.succession-28
     add:
     - cal.1963-11-22.succession-18
 - follows:
+    id: cal.1963-11-22.succession-20
+    add:
+    - cal.1963-11-22.succession-28
+- follows:
     id: cal.1963-11-22.succession-25
     add:
     - cal.1963-11-22.succession-24
-    - cal.1963-11-22.succession-28
 - follows:
     id: cal.1963-11-22.succession
     add:
     - cal.1963-11-22.succession-20
     - cal.1963-11-22.succession-25
-    - cal.1963-11-22.succession-28
 - follows:
     id: cal.1963-11-22.succession-8
     add:
@@ -161,6 +208,10 @@ ops:
 - follows:
     id: cal.1963-11-22.succession-21
     add:
+    - cal.1963-11-22.succession-9
+- follows:
+    id: cal.1963-11-22.succession-22
+    add:
     - cal.1963-11-22.succession
 - follows:
     id: cal.1963-11-22.succession-26
@@ -169,14 +220,15 @@ ops:
 - follows:
     id: cal.1963-11-22.succession-27
     add:
-    - cal.1963-11-22.succession
+    - cal.1963-11-22.succession-26
 - follows:
     id: cal.1963-11-22.succession-17
     add:
-    - cal.1963-11-22.succession-9
     - cal.1963-11-22.succession-21
-    - cal.1963-11-22.succession-26
+    - cal.1963-11-22.succession-22
     - cal.1963-11-22.succession-27
+    - cal.1963-11-22.succession-11
+    - cal.1963-11-22.assassination-17
 - follows:
     id: cal.1963-11-22.succession-13
     add:
@@ -190,11 +242,19 @@ ops:
     add:
     - cal.1963-11-22.succession-17
 - follows:
+    id: cal.1963-11-22.succession-16
+    add:
+    - cal.1963-11-22.succession-3
+- follows:
     id: cal.1963-11-22.china-leadership-10
     add:
     - cal.1963-11-22.china-leadership
 - follows:
     id: cal.1963-11-23.succession-13
+    add:
+    - cal.1963-11-23.succession-12
+- follows:
+    id: cal.1963-11-23.succession-4
     add:
     - cal.1963-11-23.succession-12
 - follows:
@@ -221,3 +281,89 @@ ops:
     id: cal.1963-11-27.succession
     add:
     - cal.1963-11-27.succession-3
+- edit:
+    id: cal.1963-11-14.white-house
+    base: 7fec0826
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 19, 441 (O''Donnell''s and Powers''s account). After [[cal.1963-11-14.transportation|the ribbon at the Mason-Dixon line]]: "From there he flew to New York" ([[w.odonnell-johnny-we-hardly-knew]], 441). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy. Check: the airport (Idlewild at 19, LaGuardia, "twelve miles," at 441).'
+- edit:
+    id: cal.1963-11-14.white-house-2
+    base: 3e930389
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 441 (O''Donnell''s and Powers''s account). After [[cal.1963-11-14.white-house|the ride in from the airport]]: "Then," the walk out of the Carlyle (441). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). See [[cal.1963-11-14.white-house]]. Names: Kennedy, Powers, Stephen Smith.'
+- edit:
+    id: cal.1963-11-18.cuba
+    base: aebcf9ff
+    set:
+      n: 'Address in Miami Before the Inter-American Press Association, [1963 Pub. Papers 872](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=930) (Nov. 18, 1963). [[w.schlesinger-robert-kennedy-and-his]], 554 (the speech''s signal; Goodwin its chief author); [[w.sorensen-kennedy]], 537, 723; [[w.paterson-contesting-castro]], 261 n.48 ("small band of conspirators"); [[w.goodwin-remembering-america]], 224 (Kennedy''s speech on the Alliance for Progress "to a convention of publishers in Miami," drafted with Goodwin at Palm Beach; the publishers "not very enthusiastic," Kennedy "not in his best form"; not the Inter-American Press Association or the words). The Tampa address the same day: [[cal.1963-11-18.elections-1964]]. [[w.branch-pillar-of-fire]], 166. After [[cal.1963-11-18.elections-1964|the Tampa address]]: the party flew back to Washington late that night, after the speech at Miami Beach ([[w.odonnell-johnny-we-hardly-knew]], 441–42). See [[cal.1963-09-18.cuba]]. Names: Kennedy, Goodwin.'
+- edit:
+    id: cal.1963-11-21.democratic-party-3
+    base: 3240843e
+    set:
+      n: '[[w.valenti-very-human-president]], 31–33 (Valenti''s account). After [[cal.1963-11-21.democratic-party-2|the crowd estimate at the end of the motorcade]]: Valenti leaves the car and goes up to the Vice President''s suite (31). See [[cal.1963-11-21.assassination]]. Names: Johnson, Valenti.'
+- edit:
+    id: cal.1963-11-21.democratic-party-4
+    base: c2b159be
+    set:
+      n: '[[w.valenti-very-human-president]], 36–37 (Valenti''s account). After [[cal.1963-11-21.democratic-party-3|the talk in the Vice President''s suite]]: "Now it was time to go to the coliseum" (Valenti, 34). See [[cal.1963-11-21.assassination]]. Names: Kennedy, Johnson, Valenti, Thomas.'
+- edit:
+    id: cal.1963-11-22.assassination-14
+    base: 7a136841
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 24 (O''Donnell''s and Powers''s account). After [[cal.1963-11-22.democratic-party-2|Kennedy''s call to O''Donnell on Yarborough]]: Kennedy and Powers then go down to the parking lot (24). To check: the Public Papers, the remarks in the parking lot across from the Texas Hotel, Nov. 22, 1963. Names: Kennedy.'
+- edit:
+    id: cal.1963-11-22.democratic-party-3
+    base: '20748184'
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 24 (O''Donnell''s and Powers''s account). After [[cal.1963-11-22.assassination-14|the parking lot]]: "From the parking lot, the President headed back into the hotel" (24). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, Yarborough.'
+- edit:
+    id: cal.1963-11-22.democratic-party-4
+    base: ec606701
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 26 (O''Donnell''s and Powers''s account). After [[cal.1963-11-22.assassination-15|the Chamber of Commerce breakfast]]: the Kennedys come back up to the suite to rest for an hour before the flight (25–26). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, Johnson.'
+- edit:
+    id: cal.1963-11-22.white-house
+    base: 458e74c8
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 26 (O''Donnell''s and Powers''s account). After [[cal.1963-11-22.democratic-party-4|the call to Garner]]: O''Donnell waits through the call, hands Kennedy the paper, and Kellerman then comes in (26). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: O''Donnell.'
+- edit:
+    id: cal.1963-11-22.democratic-party-5
+    base: ad9cf2bf
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 26 (O''Donnell''s and Powers''s account); [[w.obrien-no-final-victories]], 156–57 (Friday morning, the President''s suite at the Hotel Texas: Kennedy tells O''Brien to end the Johnson–Yarborough "sideshow": "I don''t care if you have to throw Yarborough into the car with Lyndon"; at the window, of the speaker''s platform, the Secret Service could not stop "someone who really wanted to get you"; O''Brien then persuades Yarborough on the sidewalk by the motorcade and tells Johnson; not the telephone call, Connally or the reception). After [[cal.1963-11-22.white-house|Kellerman''s question on the bubble top]]: "Then Larry O''Brien called" (O''Donnell, 26). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: O''Brien, Kennedy, Yarborough, Connally, O''Donnell, Johnson.'
+- edit:
+    id: cal.1963-11-22.assassination-17
+    base: e00ffc33
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 416 (O''Donnell''s and Powers''s account). After [[cal.1963-11-22.succession|the oath]]: the arrangement was made "on the flight from Dallas" (416), and Air Force One left Love Field only after the oath. Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). See [[cal.1963-06-28.europe-and-the-alliance-kennedy-in-3]]. Names: Jacqueline Kennedy, Kennedy.'
+- edit:
+    id: cal.1963-11-22.succession-24
+    base: 8e48123b
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 35–37 (O''Donnell''s and Powers''s account); [[w.obrien-no-final-victories]], 158–60 (the hospital: Kilduff, the acting press secretary, asks what to tell the press; the casket; a coroner and a judge insist on an autopsy; O''Donnell, Powers, McHugh and O''Brien push the casket past the Dallas officials, O''Brien shoving a priest aside; the entry has Dr. Rose and Judge Ward by name, which O''Brien does not give). After [[cal.1963-11-22.succession-18|Johnson''s leaving Parkland]]: as Johnson leaves for Love Field O''Donnell goes back to Mrs. Kennedy, and the trouble over the casket follows (O''Donnell, 34–35). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: O''Donnell, Powers, O''Brien, McHugh, Clifton.'
+- edit:
+    id: cal.1963-11-22.succession-20
+    base: 654e4fd2
+    set:
+      n: '[[w.valenti-very-human-president]], 46–47 (Valenti''s account). After [[cal.1963-11-22.succession-28|Johnson''s entering the center cabin]]: Johnson sits down, and then beckons Valenti and gives the order (45–47). See [[cal.1963-11-22.succession]]. Names: Johnson, Katzenbach, Valenti, Hughes.'
+- edit:
+    id: cal.1963-11-22.succession-21
+    base: 1dd8b781
+    set:
+      n: '[[w.valenti-very-human-president]], 50–51 (Valenti''s account; he does not recall whose draft it was). After [[cal.1963-11-22.succession-9|the call to Nellie Connally]]: "Later," Valenti goes for Moyers, and Johnson then asks the three for the remarks (49–50). See [[cal.1963-11-22.succession]]. Names: Johnson, Valenti, Moyers, Carpenter.'
+- edit:
+    id: cal.1963-11-22.succession-27
+    base: 7bff7cbf
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 41 (O''Donnell''s and Powers''s account). After [[cal.1963-11-22.succession-26|Johnson''s visit to the rear compartment]]: Moyers "came back to us later" (41). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Moyers, O''Donnell, O''Brien, Johnson, Cliff Carter.'
+- edit:
+    id: cal.1963-11-22.succession-22
+    base: e847494f
+    set:
+      n: '[[w.valenti-very-human-president]], 52 (Valenti''s account; who is addressed in the orders he does not say). After [[cal.1963-11-22.succession|the oath]]: Valenti places the calls in "the mid-journey of Air Force One," before the descent to Andrews (51–52). See [[cal.1963-11-22.succession]]; the Cabinet''s plane: [[cal.1963-11-22.assassination-3]]. Names: Johnson, Bundy, Jenkins, Rusk, McNamara.'
+- edit:
+    id: cal.1963-11-01.china-leadership-2
+    base: 3e2e6d80
+    set:
+      time: 1963-11-01T13:15Z
+      time_zone: Asia/Shanghai
