@@ -1,13 +1,209 @@
 patch: 2026-11-25-sequence-1960-06
-by: 'Claude (Sonnet, sequence pass: R25c on June 1960), Nov. 25, 2026; notes/sequence/1960-06.md'
+by: 'Claude (Sonnet, sequence pass: R25c on June 1960), Nov. 25, 2026; audited by Claude (Opus), Nov. 25, 2026; notes/sequence/1960-06.md, notes/sequence/audit-1960-06.md'
 ops:
-- follows: {id: cal.1960-06-04.china-leadership, add: [cal.1960-06-04.china-leadership-5]}
-- follows: {id: cal.1960-06-07.china-leadership, add: [cal.1960-06-07.china-leadership-3]}
-- follows: {id: cal.1960-06-07.china-leadership-6, add: [cal.1960-06-07.china-leadership]}
-- follows: {id: cal.1960-06-08.china-leadership-2, add: [cal.1960-06-08.china-leadership-7]}
-- follows: {id: cal.1960-06-09.china-leadership, add: [cal.1960-06-09.china-leadership-4]}
-- follows: {id: cal.1960-06-09.china-leadership-5, add: [cal.1960-06-09.china-leadership]}
-- follows: {id: cal.1960-06-14.china-leadership, add: [cal.1960-06-14.china-leadership-2]}
-- follows: {id: cal.1960-06-27.testing-2, add: [cal.1960-06-27.testing]}
-- follows: {id: cal.1960-06-28.china-leadership-3, add: [cal.1960-06-28.china-leadership-5]}
-- follows: {id: cal.1960-06-30.republican-party-congress, add: [cal.1960-06-30.jobs-and-wages-2]}
+- follows:
+    id: cal.1960-06-01.china-leadership
+    add:
+    - cal.1960-06-01.china-leadership-2
+- follows:
+    id: cal.1960-06-02.china-leadership-2
+    add:
+    - cal.1960-06-02.china-leadership
+- follows:
+    id: cal.1960-06-04.china-leadership
+    add:
+    - cal.1960-06-04.china-leadership-5
+- edit:
+    id: cal.1960-06-04.china-leadership
+    base: 7a29bd4d
+    set:
+      time: 1960-06-04T07:30Z
+      time_zone: Asia/Shanghai
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, June 4, 1960; [[w.yang-shangkun-riji]], I, 515 (June 4–6, 1960; June 4, at the swimming pool, 3:30 to 7 p.m., the "main points of the plan" read together; June 5, 3 to 7:30 p.m., Li Fuchun''s report again; June 6, 3 to 7 p.m., in the hall of the Hangzhou Hotel, the report finished). Made public: 2013. The time is the first day''s. Check: Made public: the diary printed its record of the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 515), before the year the note gives. Names: Mao Zedong, Li Fuchun, Kang Sheng, Yang Shangkun, Tian Jiaying.'
+- follows:
+    id: cal.1960-06-07.china-leadership
+    add:
+    - cal.1960-06-07.china-leadership-3
+- edit:
+    id: cal.1960-06-07.china-leadership
+    base: f2a37166
+    set:
+      time: 1960-06-07T09:00Z
+      time_zone: Asia/Shanghai
+- variant:
+    id: cal.1960-06-07.china-leadership
+    field: time
+    value: 1960-06-07T09:30Z
+    witness: w.zedong-mao-zedong-nianpu
+    reads: 下午五时半 (5:30 p.m.), after Xi Zhongxun and Ji Pengfei report at 4 p.m.
+    at: IV, June 7, 1960
+- follows:
+    id: cal.1960-06-07.china-leadership-6
+    add:
+    - cal.1960-06-07.china-leadership
+- edit:
+    id: cal.1960-06-08.china-leadership-2
+    base: 33bd1c56
+    set:
+      time: 1960-06-08T07:00Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-06-09.china-leadership
+    base: f56e5c60
+    set:
+      time: 1960-06-09T07:30Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-06-09.china-leadership-4
+    base: a08255c5
+    set:
+      time_range:
+      - 1960-06-09T04:00Z
+      - 1960-06-09T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+- follows:
+    id: cal.1960-06-09.china-leadership-5
+    add:
+    - cal.1960-06-09.china-leadership
+- edit:
+    id: cal.1960-06-14.china-leadership
+    base: 71bf9dbc
+    set:
+      time: 1960-06-14T07:30Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-06-14.china-leadership-2
+    base: ceeefd44
+    set:
+      time_range:
+      - 1960-06-13T22:00Z
+      - 1960-06-14T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- follows:
+    id: cal.1960-06-15.china-leadership-4
+    add:
+    - cal.1960-06-15.china-leadership-6
+- edit:
+    id: cal.1960-06-17.china-leadership
+    base: cd24cb37
+    set:
+      time_range:
+      - 1960-06-17T11:00Z
+      - 1960-06-17T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, June 17, 1960; [[w.lengxi-shinian-lunzhan-1956-1966]], 278 (Mao speaks at the meeting on industry, commerce, agriculture and the communes); [[w.chen-yun-nianpu-xiuding]], III, 39 (June 17: Chen Yun at the meeting Mao calls). The words: 晚上 ([[w.zedong-mao-zedong-nianpu]], IV, June 17, 1960). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Chen Yun, Li Fuchun, Li Xiannian, Bo Yibo.'
+- follows:
+    id: cal.1960-06-18.china-leadership-2
+    add:
+    - cal.1960-06-18.china-leadership
+- edit:
+    id: cal.1960-06-18.china-leadership-2
+    base: d48351b1
+    set:
+      time: 1960-06-18T09:00Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-06-22.soviet-union
+    base: e9a466da
+    set:
+      time_range:
+      - 1960-06-22T17:00Z
+      - 1960-06-22T20:00Z
+      time_band: evening
+      time_zone: Europe/Bucharest
+- edit:
+    id: cal.1960-06-22.china-leadership-6
+    base: 6ed15cf2
+    set:
+      time_range:
+      - 1960-06-22T04:00Z
+      - 1960-06-22T10:00Z
+      time_band: morning
+      time_zone: Europe/Bucharest
+- edit:
+    id: cal.1960-06-22.china-leadership-7
+    base: 5d220a6d
+    set:
+      time_range:
+      - 1960-06-22T10:00Z
+      - 1960-06-22T16:00Z
+      time_band: afternoon
+      time_zone: Europe/Bucharest
+- edit:
+    id: cal.1960-06-23.china-leadership-5
+    base: 782a8261
+    set:
+      time: 1960-06-23T17:00Z
+      time_zone: Europe/Bucharest
+- follows:
+    id: cal.1960-06-24.china-leadership-3
+    add:
+    - cal.1960-06-24.china-leadership
+- edit:
+    id: cal.1960-06-25.china-leadership-10
+    base: 9f56c849
+    set:
+      time: 1960-06-25T10:00Z
+      time_zone: Europe/Bucharest
+- edit:
+    id: cal.1960-06-25.china-leadership-11
+    base: 4f2fd7e2
+    set:
+      time_range:
+      - 1960-06-25T17:00Z
+      - 1960-06-25T20:00Z
+      time_band: evening
+      time_zone: Europe/Bucharest
+- edit:
+    id: cal.1960-06-26.china-leadership-3
+    base: 3407d4c5
+    set:
+      time_range:
+      - 1960-06-26T10:00Z
+      - 1960-06-26T16:00Z
+      time_band: afternoon
+      time_zone: Europe/Bucharest
+- edit:
+    id: cal.1960-06-27.china-leadership-8
+    base: 50d30296
+    set:
+      time_range:
+      - 1960-06-27T10:00Z
+      - 1960-06-27T16:00Z
+      time_band: afternoon
+      time_zone: Europe/Bucharest
+- follows:
+    id: cal.1960-06-28.china-leadership-3
+    add:
+    - cal.1960-06-28.china-leadership-5
+- check:
+    id: cal.1960-06-29.china-leadership-6
+    text: 'Check: the day Mao left Shanghai: the Mao nianpu has him leave by special train on the afternoon of June 28, reach Bengbu at 3 a.m. June 29 and leave Bengbu on the afternoon of June 30 ([[w.zedong-mao-zedong-nianpu]], IV, June 28, 29 and 30, 1960).'
+- edit:
+    id: cal.1960-06-30.china-leadership-3
+    base: dccb0968
+    set:
+      time: 1960-06-30T08:00Z
+      time_zone: Asia/Shanghai
+    unset:
+    - time_range
+    - time_band
+- check:
+    id: cal.1960-06-30.china-leadership-3
+    text: 'Check: the Mao nianpu has Mao at Bengbu until the afternoon of June 30 and at Jinan the next morning ([[w.zedong-mao-zedong-nianpu]], IV, June 30, 1960).'
+- follows:
+    id: cal.1960-06-30.china-leadership-5
+    add:
+    - cal.1960-06-30.china-leadership-3
+- follows:
+    id: cal.1960-06-30.republican-party-congress
+    add:
+    - cal.1960-06-30.jobs-and-wages-2
+- edit:
+    id: cal.1960-06-30.republican-party-congress
+    base: 018d691a
+    set:
+      n: '[[w.wolff-minutes-of-the-senate]], 864–66 (the recess, 865; the veto, 866). After [[cal.1960-06-30.jobs-and-wages-2|the veto]]: Dirksen reads the conference excerpts from the veto ([[w.wolff-minutes-of-the-senate]], 866). Names: Dirksen, Aiken, Eisenhower.'

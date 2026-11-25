@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1965-12
-by: 'Claude (Sonnet, sequence pass: R25c on December 1965), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass: R25c on December 1965), Nov. 25, 2026; audited and corrected by Claude (Opus), Nov. 25, 2026 (R33b)'
 ops:
 - follows:
     id: cal.1965-12-14.vietnam-pause-3
@@ -10,6 +10,79 @@ ops:
     add:
     - cal.1965-12-17.china-leadership-4
 - follows:
-    id: cal.1965-12-24.robert-kennedy
+    id: cal.1965-12-04.vietnam-pause-2
     add:
-    - cal.1965-12-24.vietnam
+    - cal.1965-12-04.vietnam-pause
+- follows:
+    id: cal.1965-12-07.china-leadership-7
+    add:
+    - cal.1965-12-07.china-leadership-2
+- follows:
+    id: cal.1965-12-14.south-asia
+    add:
+    - cal.1965-12-14.india-and-china
+- follows:
+    id: cal.1965-12-15.china-leadership-7
+    add:
+    - cal.1965-12-15.china-leadership-6
+- follows:
+    id: cal.1965-12-18.vietnam-pause
+    add:
+    - cal.1965-12-18.vietnam-pause-2
+- follows:
+    id: cal.1965-12-21.china-leadership-4
+    add:
+    - cal.1965-12-21.china-leadership-2
+- add-words:
+    id: cal.1965-12-21.china-leadership-2
+    after: end
+    words: Peng Zhen takes leave of the body in the afternoon.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 456'
+- names:
+    id: cal.1965-12-21.china-leadership-2
+    add:
+    - Peng Zhen
+    tags:
+    - name:peng-zhen
+- edit:
+    id: cal.1965-12-04.vietnam-pause-2
+    base: 097aeb9e
+    set:
+      n: '[FRUS 1964–68, III, doc. 216](https://history.state.gov/historicaldocuments/frus1964-68v03/d216). [[w.gibbons-u-s-government-and]], IV, 118 n.18. Made public: FRUS 1964–68, III (1996). The order: Bundy''s memorandum, written that morning, reached the Ranch at 11 a.m. Central time ([FRUS 1964–68, III, doc. 215](https://history.state.gov/historicaldocuments/frus1964-68v03/d215), n.1); Goldberg''s talk with Rusk and Ball ran from 12:30 to 12:55 p.m. (doc. 216, n.2), and he wrote after it. Names: Goldberg, Johnson, Rusk, Ball.'
+- edit:
+    id: cal.1965-12-15.china-leadership-7
+    base: f6ebd054
+    set:
+      n: '[[w.pu-weihua-zalan-jiu-shijie]], 30; [[w.teiwes-tragedy-of-lin-biao]], 213 (He Long deprived of his charge of the Military Commission''s daily work). Made public: 2008. The order: Deng spoke before the meeting closed (会议结束前), Lin Biao called his meeting as it ended (会议结束之际) ([[w.pu-weihua-zalan-jiu-shijie]], 29–30). See [[cal.1965-12-08.china-leadership]]. Names: Lin Biao, Luo Ruiqing, He Long.'
+- edit:
+    id: cal.1965-12-18.vietnam-pause
+    base: 939ac492
+    set:
+      n: '[FRUS 1964–68, III, doc. 235](https://history.state.gov/historicaldocuments/frus1964-68v03/d235) (Valenti''s notes). [[w.johnson-vantage-point]], 235–37; [[w.mcnamara-in-retrospect]], ch. 8 at n.26. [[w.gibbons-u-s-government-and]], IV, 121–23; [[w.berman-lyndon-johnsons-war]], 12 (Johnson: "Then, no matter what we do in the military field there is no sure victory?" McNamara: "That''s right. We have been too optimistic."); [[w.drea-mcnamara-clifford-and-the-2011]], 66 (four and a half hours, the civilians alone; the 30-hour Christmas truce extended several days); [[w.schlesinger-robert-kennedy-and-his]], 734 ("On December 18, Johnson, still skeptical, decided to give it a try"; McNamara had argued for a bombing pause since early November; the Joint Chiefs, Lodge, Westmoreland, Clifford and Fortas opposed it; Ball for it; Rusk and Bundy "dropped their earlier opposition"; the pause begins with a Christmas truce and runs through January 1966); [[w.dallek-flawed-giant]], 344 (the meeting of the next day: a pause contained "serious military risks"; McNamara: "We have been too optimistic"; Fortas and Clifford speak against a pause; Johnson: "We''ll take the pause"; not the hours or who else was present); [[w.valenti-very-human-president]], 228–40 (Dec. 18, 12:35 p.m., the Cabinet Room: Johnson, Rusk, McNamara, Bundy, Ball, Alexis Johnson, Fortas, Clifford and Valenti; Rusk, "one chance in ten or twenty ... One chance in twenty"; McNamara, "That''s baloney," "one out of three or one in two," "We have been too optimistic"; Clifford''s seven objections; Fortas''s doubts of the effect, not clearly against; Johnson to McNamara: "We''ll take the pause"); [[w.chang-friends-and-enemies]], 268 (the meeting with advisers on the pause). Made public: FRUS 1964–68, III (1996). [[w.clifford-counsel-to-the-president-2]], 434–36 (the meeting; McNamara''s "one out of three or one out of two"; Clifford against the pause; Johnson''s note to him). To check: Memo, meeting with advisers on bombing pause, Dec. 18, 1965, Johnson Papers, Special Files, Meeting Notes, box 1 (cited by [[w.chang-friends-and-enemies]], 268 n.28c). The order: State''s outline was among the draft papers prepared for discussion at this meeting, set for 11:45 a.m. ([FRUS 1964–68, III, doc. 234](https://history.state.gov/historicaldocuments/frus1964-68v03/d234)). See [[cal.1965-12-17.vietnam]]. Names: Johnson, Rusk, McNamara, McGeorge Bundy, Ball, U. Alexis Johnson, Fortas, Clifford, Wheeler, Valenti. Check: Clifford, 436, has Johnson deciding "the next day, in a much shorter meeting," on a pause of unspecified length; FRUS prints no meeting of Dec. 19.'
+- edit:
+    id: cal.1965-12-21.china-leadership-4
+    base: 44a5c328
+    set:
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 456. The words: 下午……随后 (IV, 456). Made public: 2012. The order: Peng Zhen took leave of Huang Yanpei''s body in the afternoon and then (随后) left for Hangzhou (IV, 456). Names: Peng Zhen.'
+- edit:
+    id: cal.1965-12-27.vietnam
+    base: 40347aca
+    set:
+      time: 1965-12-28T03:00Z
+      time_zone: America/New_York
+      n: 'FRUS 1964–68, III, docs. [250](https://history.state.gov/historicaldocuments/frus1964-68v03/d250), [253](https://history.state.gov/historicaldocuments/frus1964-68v03/d253), [254](https://history.state.gov/historicaldocuments/frus1964-68v03/d254) (editorial note). [[w.johnson-vantage-point]], 237; [[w.gibbons-u-s-government-and]], IV, 126–27; [[w.zaroulis-who-spoke-up]], 66 (Johnson, at the Ranch, telephones his decision on the "peace offensive" to Washington late at night on Dec. 27; the Bundy brothers caught at a debutante ball); [[w.dallek-flawed-giant]], 345–46 (Johnson agrees to a bombing pause on Dec. 27, after the Christmas truce; Taylor urges a longer halt; not the call or "several more days"). [[w.preston-war-council]], 226 (Taylor, by Bundy''s report, "thinks the political reward of a solid pause is worth it at this stage"). To check: McGeorge Bundy to Johnson, Dec. 27, 1965, NSF Memos to the President—McGeorge Bundy, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 126 n.42). The time is Taylor''s call, 10 p.m. Washington time (doc. 253); Johnson told Rusk of the deferral at about 10:30 p.m. (doc. 254). See [[cal.1965-12-24.vietnam]]. Check: Gibbons (IV, 127 n.43), from McGeorge Bundy''s memorandum of Dec. 27, has Taylor now for going on with the pause "since we have endured three days." Names: Johnson, Taylor.'
+- edit:
+    id: cal.1965-12-22.soviet-union-leadership
+    base: d3180f27
+    set:
+      time_zone: Europe/Moscow
+- edit:
+    id: cal.1965-12-24.vietnam
+    base: a315e8d7
+    set:
+      time_zone: Asia/Ho_Chi_Minh
+- edit:
+    id: cal.1965-12-27.vietnam-pause
+    base: 6b938d49
+    set:
+      time_zone: America/Chicago
