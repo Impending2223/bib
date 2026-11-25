@@ -1371,3 +1371,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 4:20 p.m. PT) "The first reader pass on any subsequently-audited read should be in Sonnet, including in-session. Opus audits. Write that to your standing instructions. Have a Fable high effort run give me a fresh audit. Same brief as the first, save whatever minimum changes needed to reflect subsequent changes to state. When the Fable agent returns with its brief, give it the old Opus audit brief if it hasn't seen it already."
 
 (The Fable review and its comparison landed about 4:50 p.m. PT, Nov. 24: notes/proposals/claims-model-review-fable.md; defaults 35f and 36 recorded.)
+
+(Nov. 24, about 4:42 p.m. PT) "Ask the Fable agent what we're missing by not having an atomic claims model and what it would take to get there."
