@@ -83,73 +83,87 @@ Question: the two social evenings dropped from Schlesinger's *Journals* (a dance
 
 ## 11. handoff.md:200
 
-)
+Question: the "Round 4 items (for the owner)" list: some forty possible duplicates, bundles, misdatings and overlaps, 1960–69, from the round-3 and round-4 reviews, each asking combine, split or re-date.
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Settled: the list was read, audited and merged the night of Nov. 13–14 (b01d502: 12 combines, the splits, the re-datings, the stale Checks struck). What it left is in item 2: `cal.1965-02-26.vietnam` and `-3`, the Johnson–Udall call, and the further splits named there.
 
 ## 12. handoff.md:254
 
-):
+Questions ("Batch 6 (for the owner)"): (a) Gifford: private citizens' letters (Blough, Walker, Fay, Greenbaum and others) were passed over because R7 covers persons with a public role; does R18 take them in? (b) Garrow's book-check passes over whole classes in a sentence, against R48. (c) Smith: the Murphy custody suit left out as family. (d) Solberg: Humphrey's bladder polyp (June 9, 1967) and Johnson's departure in the blackout (Nov. 22, 1967) entered; the owner may rule otherwise. (e) Barrett: rows passed over as "below the calendar's level". (f) A batch for the rows readers did not take up that R14, R15 and R50 now make entries (Moyar's operations and month-dated rows, Longley's dated "lead" rows, Mann's undated rows, Dobrynin's month-dated rows)? (g) Schwartz: three rows passed over as another country's politics (Krone, Macmillan, Erhard's defeat). (h) Whalen: Teresa McGovern's arrest (CQ, Aug. 2, 1968) entered. The rest of the list (Moyar, Longley, Gibbons, MACV, the sit-ins' times) records what was done.
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Default taken: entries. R5: every dated event the work dates and treats is an entry, and only R18 takes one out; R18 calls "anything said or done in private about public business" not private. A citizen's letter on politics to an officeholder is that.
+- (b) Default taken: re-read the classes Garrow's book-check passed over. R48: "Never a row or sentence passing over a class of event."
+- (c) Default taken: an entry. R18 (the owner, Nov. 15: "Family events and health for the principals go in"): Rockefeller is a principal followed for politics, and the suit is a family event of his marriage.
+- (d) Settled: the same ruling of Nov. 15 ("Family events and health for the principals go in"). Both stand.
+- (e) Default taken: re-read those rows. R18 has no "below the level" ground; R0 tells readers to disregard such limits.
+- (f) Default taken: yes, one batch. R0: "nothing a source in hand dates is a lead"; R15: a month or a year is a date; R14: military operations are entries. One reader for each book, Sonnet, with an Opus audit, the brief opening with R0 whole.
+- (g) Settled: the owner, Oct. 30: "Why are we excluding the domestic politics of other countries? I'm not sure that rule makes sense"; R18 now: "Another country's domestic politics is within the brief." Left to do: enter the three rows.
+- (h) Settled: the crime clause struck (the owner, Nov. 20: "Heck, just drop it"). It stands.
+- Applies to: the book-checks of Gifford, Garrow, Smith, Barrett, Schwartz, Moyar, Longley, Mann (*Walls*) and Dobrynin (batch 6, notes/book-checks/); a re-reading batch for (a), (b), (c), (e), (f), (g), queued as one item.
 
 ## 13. handoff.md:277
 
-, from the Ang audit (Nov. 21):** the *Lịch sử Quân đội Nhân dân Việt Nam* card (1988) is the "Made public" year of several entries; its copyright page should be checked for internal circulation (lưu hành nội bộ, R27). The FO 371 files' "Made public: 1997" follows R27's printing rule (Ang the earliest printing), not the files' opening at Kew.
+Question (the Ang audit, Nov. 21): the *Lịch sử Quân đội Nhân dân Việt Nam* card (1988) gives the "Made public" year of several entries; was it printed for internal circulation (lưu hành nội bộ)? And is "Made public: 1997" right for the FO 371 files that Ang printed, though Kew opened them earlier?
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Default taken: 1988 stands, marked "(marking not seen)" until the copyright page is read. R27: "A reader checks a Chinese work's copyright page for 内部发行 and like markings, and says "(marking not seen)" where it can't be checked"; lưu hành nội bộ is such a marking. If it is found, 1988 moves beside "Made public" as "Printed for internal circulation" and the year becomes the first open printing's. For FO 371: 1997 stands. R27 dates publication by "the earliest durable open printing", and the opening of a file at an archive is not a printing.
+- Applies to: every entry whose "Made public" rests on `w.lich-su-quan-doi` (vol. II, 1988); the FO 371 entries from Ang; the reader who next opens the 1988 volume's scan.
 
 ## 14. handoff.md:281
 
-`cal.1963-02.china-leadership-4` and `cal.1963-02-25.china-leadership` may be one act; was *Dangshi tongxun* (1984) internal circulation (a Check on `cal.1965-12-31.china-leadership-7`)?; were any of Zhu De's closed acts of 1960–61 already printed in the 1986 one-volume nianpu (if so, "Made public: 1986")?; Chang run 2 asks whether scholars' and journalists' articles of the span are entries (its audit rules). Running: Dikötter CR run 2, Bu run 2, Zhu De run 2, Ye Jianying nianpu run 1 (readers); the Chang run 2 audit.
+Questions (the audits of Nov. 21): (a) are `cal.1963-02.china-leadership-4` (Mao breaks into Liu's speech: revisionism in the countryside) and `cal.1963-02-25.china-leadership` (Mao at the plenary on Liu's report on modern revisionism) one act? (b) Was *Dangshi tongxun* (1984) printed for internal circulation (a Check on `cal.1965-12-31.china-leadership-7`)? (c) Were any of Zhu De's closed acts of 1960–61 printed first in the one-volume Zhu De nianpu of 1986? (d) Are articles by scholars and journalists written in the span entries (asked by Chang run 2)?
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Default taken: two entries. They report different remarks on different matters, and nothing read puts the countryside remark in the Feb. 25 sitting (R17: each act dated by its own record). `-4` takes "Check: whether at the plenary of Feb. 25 (`cal.1963-02-25.china-leadership`)."
+- (b) Default taken: as the entry now stands: "Made public: 1984", with its Check on internal circulation (R27, "(marking not seen)"). If the marking is found, the year becomes 2008, as the Check says.
+- (c) Default taken: the later year stands, and each entry adds the 1986 nianpu behind "To check:" with "Check: whether the 1986 nianpu prints it (R27)." R27 counts any work cited; the 1986 volume is not yet cited, and nothing read says it prints these acts.
+- (d) See item 15 (a): entries.
+- Applies to: (a) the two Feb. 1963 entries; (b) `cal.1965-12-31.china-leadership-7`; (c) Zhu De's closed acts of 1960–61 from the Zhu De nianpu runs (`./bib find -l cal --since 1960 --until 1961-12 -t vis` on Zhu De's tag).
 
 ## 15. handoff.md:283
 
-(a) articles by commentators or scholars that a work cites only in a note, as samples of opinion, undated in its text (Zagoria, Brzezinski, "Bear and Dragon", Alsop): entries, or witness rows only (the audit kept the first three as rows, the press pieces as entries)? (b) "Made public: 1990" on papers Chang only names in a note: naming is not printing; would you prefer "Named: 1990"? (c) the Hilsman meeting notes: 1963 as printed, 1962 probable from the folder. Running: Dikötter CR run 2, Zhu De run 2, Ye Jianying run 1, Bu run 3 (readers); Bu run 2 (audit).
+Questions (the Chang run 2 audit): (a) articles by commentators or scholars that a work cites only in a note, as samples of opinion, undated in its text (Zagoria, Brzezinski, "Bear and Dragon", Alsop): entries, or witness rows only? (b) "Made public: 1990" on papers Chang only names in a note: naming is not printing; would "Named: 1990" be better? (c) The Hilsman meeting notes (`cal.1963-03-14.china`): 1963 as printed, or 1962 as the folder suggests?
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Default taken: entries, dated by the note's citation (the issue or the year), filed under the thread of their matter, as well as witness rows. R5 and R0 (only R18 removes, and R18 does not name commentary); R13 takes in the press and journals that "treat politics or current events and have reach, influence or access"; the owner, Nov. 12: "These guys gotta read the footnotes," dating an article by its note.
+- (b) Settled: the owner, Nov. 21: "Notes that name an act count as a printing of it" (now in R27). "Made public: 1990" stands; no "Named:" form.
+- (c) Default taken: Mar. 14, 1963 stands, as Chang prints it on the page read, with the present Check giving the folder's 1962. The owner's test for the Toots Shor's dinner (Nov. 12: move it "if there's no citation, authority or witness that says 'Saturday'") keeps a date that a witness gives; the folder is a reason to check, not a witness to the day.
+- Applies to: (a) Zagoria, Brzezinski, "Bear and Dragon" and the rows of Chang run 2's audit kept as rows only, and like rows in later audits; (c) `cal.1963-03-14.china`.
 
 ## 16. handoff.md:285
 
-`cal.1961-05-09.china-leadership` has "Made public: 1997" (MacFarquhar), but its To check names *Zhu De xuanji*, 374–75 (1983): if the Xuanji prints the letter, R27 makes it 1983. Left for a reading of the Xuanji. Small follow-ups not yet made: the Check on `cal.1961-08-15.china-leadership-5` (马东山 is Ma Dong-san, as `cal.1961-04-05.china-leadership-5` has it), and "the days not given" in `c` of `cal.1961-09-28.china` and `cal.1961-10-22.china` (the Zhu De nianpu now gives Sept. 28 and Oct. 23 for Zhu De's receptions).
+Question (the Zhu De run 2 audit): `cal.1961-05-09.china-leadership` (Zhu De's letter to Mao on the mess halls) says "Made public: 1997" (MacFarquhar), but its To check names the *Zhu De xuanji*, 374–75 (1983). If the *Xuanji* prints the letter, is it "Made public: 1983"? Two small fixes also listed: the Check on `cal.1961-08-15.china-leadership-5` (马东山 is Ma Dong-san, as `cal.1961-04-05.china-leadership-5` has it) and "the days not given" in `cal.1961-09-28.china` and `cal.1961-10-22.china` (the Zhu De nianpu gives Sept. 28 and Oct. 23).
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Default taken: "Made public: 1983 (*Zhu De xuanji*, 374–75, as cited; Check: that it prints the letter)." R27: "Any work cited counts, read or not", and the year is "the earliest at which any work cited for the act printed it." The two small fixes are not questions and are done as R33a asks (building on the entry): the Check resolved to Ma Dong-san; Zhu De's reception days written into `c` from the nianpu, the Liu days left as "not given" if still not given.
+- Applies to: `cal.1961-05-09.china-leadership`; `cal.1961-08-15.china-leadership-5`; `cal.1961-09-28.china`; `cal.1961-10-22.china`.
 
 ## 17. handoff.md:287
 
-were *Zhonggong dangshi ziliao* no. 30 (1989) and Wang Nianyi's *Dangshi yanjiu ziliao* (1982) printed for internal circulation (three "Made public: 1989" rest on the first)? The catalogue's card `w.zhonggong-dangshi-ziliao-no` (no year) could take run 1's Liu Zhijian row as `part_of`. *Huishou "wenge"*: the card keeps 2000, the earliest printing; the Tiandi entries give "Made public: 2007" for its essays, which would move to 2000 by R27 (a sweep, on your word). The audit treated a provincial criticism by name (點名批判) as public.
+Questions (the Bu run 2 audit): (a) were *Zhonggong dangshi ziliao* no. 30 (1989) and Wang Nianyi's *Dangshi yanjiu ziliao* (1982) printed for internal circulation (three "Made public: 1989" rest on the first)? (b) Should the card `w.zhonggong-dangshi-ziliao-no` (no year) take run 1's Liu Zhijian row as `part_of`? (c) *Huishou "wenge"*: the card says 2000, the earliest printing; the Tiandi entries give "Made public: 2007" for its essays: move them to 2000? (d) The audit treated a provincial criticism by name (點名批判) as public.
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Default taken: the years stand, each with "(marking not seen)" and a Check for 内部发行 (R27), until the copyright pages are read.
+- (b) Default taken: yes. A numbered issue of a series is part of the series (the works catalogue's `part_of`, notes/guide/works.md); the issue's year goes on the issue's row.
+- (c) Settled by R27: "The year is the earliest at which any work cited for the act printed it" (the owner, Nov. 18: "Fix the 1993/1997 error"). Left to do: the sweep, 2007 to 2000, on every entry citing `w.huishou-wenge-2-vols` for its "Made public".
+- (d) Default taken: public. A criticism by name is made before the meeting or the readers it is addressed to; R27 dates only acts "done in private and documented in records nobody saw at the time."
+- Applies to: (a) the three "Made public: 1989" entries of Bu run 2 and those resting on Wang Nianyi; (b) the card and the row; (c) the Tiandi entries citing *Huishou "wenge"*; (d) the Bu runs' provincial criticisms.
 
 ## 18. handoff.md:289
 
-`cal.1968.china-leadership-40` (MacFarquhar, the Three Loyalties campaign, year 1968, "Check: the day") could take Dikötter's March 1968 as its month (an edit that moves it into March's section). Running: Ye Jianying run 1 (audit), Zhu De run 3 (audit); readers Bu run 3, Ye run 2, Chen Yun run 1, Zhu De run 4.
+Question: `cal.1968.china-leadership-40` (MacFarquhar: the "three loyalties" campaign, dated to the year, "Check: the day"): take Dikötter's March 1968 as its month?
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Default taken: yes. R15: a month is a closer date than a year, and R33a asks a reader to build on the entry from a source read. Edit `date:` to '1968-03' and `when:` to "Mar." (which moves it into March's section), cite Dikötter with his page, and keep "Check: the day."
+- Applies to: `cal.1968.china-leadership-40`.
 
 ## 19. handoff.md:291
 
-many 1966 entries from the 2020 Zhou chronology carry "Made public: 2020"; the 1997 edition's vol. III probably printed many of those acts first (not on the Drive; a lead). A closed act printed only in part keeps the later year, since one "Made public" line cannot give its units different years.
+Question (the Ye Jianying run 1 audit): many 1966 entries from the 2020 Zhou nianpu carry "Made public: 2020", though the 1997 edition's vol. III probably printed many of those acts first (not on the Drive). The audit's rule: a closed act printed only in part keeps the later year.
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Default taken: each such entry adds the 1997 edition (its card, `Zhou Enlai nianpu, 1949–1976`, 1997) behind "To check:", with "Check: whether the 1997 edition prints it; if so, Made public: 1997." The audit's rule on partial printings is not taken: the owner ruled on Nov. 21 that "Notes that name an act count as a printing of it", so a printing in part makes the act public in the year of that printing.
+- Applies to: the 1966 entries citing the 2020 Zhou nianpu with "Made public: 2020"; the 1997 edition, a lead for procurement (notes/leads.md).
 
 ## 20. handoff.md:297
 
-was *Zhonggong dangshi ziliao* no. 70 (1999, Bu's own article) printed for internal circulation? Three adds (May 20, May 31, June 4, 1966) rest "Made public: 1999" on it (the same question as no. 30, item 4ab). The *Guangxi wenge dashi nianbiao* card stays 1990 (Bu's 1999 taken as a misprint).
+Question: was *Zhonggong dangshi ziliao* no. 70 (1999; Bu's own article) printed for internal circulation? Three adds (May 20, May 31, June 4, 1966) rest "Made public: 1999" on it.
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Default taken: as item 17 (a): 1999 stands, with "(marking not seen)" and a Check for 内部发行 (R27). The *Guangxi wenge dashi nianbiao* card's 1990 stands (Bu's 1999 taken as a misprint, as the audit did).
+- Applies to: the three Bu run 4 entries of May 20, May 31 and June 4, 1966.
 
 ## 21. handoff.md:299
 
