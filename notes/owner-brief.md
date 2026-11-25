@@ -1397,3 +1397,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 9:35 p.m. PT) "Please do remove the old commit." (Checked first: no commit ever held the listing of the wider Drive library. The inventory files first entered git in commit 61a34bdd, after the rows had been taken out. Nothing to remove; the earlier report that the list had been pushed was wrong.)
 
 (Nov. 24, about 9:45 p.m. PT) "Explain the \"page and note\" rows question to me." (Answered in the reply.)
+
+(Nov. 24, about 9:55 p.m. PT) "I'll take your recommendation, with your three choices. We can't have an unmarked citation unless we've read the cited matter." (Owner-rulings 53; two Sonnet readers started on the 351 rows where the entry does not yet cite the held copy, `notes/via-read/`.)

@@ -1,0 +1,89 @@
+patch: 2026-11-25-time-splits
+by: agent
+ops:
+- edit:
+    id: cal.1963-10-10.berlin-and-vienna
+    base: db09bb59
+    kind: correct
+    set:
+      c: 'An American convoy of eighteen vehicles held at Marienborn, Oct. 10, and again at Babelsberg, Oct. 11: its men will not dismount.{1} Through, Oct. 12.{6}'
+      n: '[FRUS 1961–63, XV, doc. 220](https://history.state.gov/historicaldocuments/frus1961-63v15/d220); [doc. 228](https://history.state.gov/historicaldocuments/frus1961-63v15/d228). [[w.rusk-as-i-saw-it-1990]], 227; [[w.sorensen-kennedy]], 600 (the squabble in the fall of 1963 over dismounting). Check: Rusk puts the harassment over the tailgates in September 1963 (227). Split under R25b and R17: the talks and the meeting of Oct. 11 are entries of their own. See [[cal.1963-06-26.berlin-and-vienna]].'
+      tags: []
+      src:
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v15/d220: 1'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v15/d228: 6'
+        - 'w.rusk-as-i-saw-it-1990 227: 1'
+        - 'via x.1984.rusk-interviews-with-richard-rusk: 1'
+        - 'w.sorensen-kennedy 600: 1'
+    unset:
+    - time
+    - time_zone
+- add:
+    entry:
+      id: cal.1963-10-11.berlin-and-vienna
+      when: Oct. 11
+      date: '1963-10-11'
+      place: washington
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      c: 'Rusk summons Dobrynin, 9 a.m.: eighteen American vehicles held at Babelsberg, the convoy held at Marienborn the day before; a unilateral change of established procedures, by force.'
+      n: '[FRUS 1961–63, XV, doc. 220](https://history.state.gov/historicaldocuments/frus1961-63v15/d220) (the Department to Moscow, 10:07 a.m.: the Secretary summoned Dobrynin at 9:00 a.m.). See [[cal.1963-10-10.berlin-and-vienna]]. Names: Rusk, Dobrynin.'
+      time: 1963-10-11T13:00Z
+      time_zone: America/New_York
+      tags:
+      - name:rusk-dean
+      - name:dobrynin-anatoly
+- add:
+    entry:
+      id: cal.1963-10-11.berlin-and-vienna-2
+      when: Oct. 11
+      date: '1963-10-11'
+      place: washington
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      c: 'Kennedy with Rusk, McNamara, Taylor and Thompson, 12:30 p.m.: Rusk would assemble the tripartite Free Style forces and ask the British and French to send convoys; Kennedy doubts more convoys should be blocked.'
+      n: '[FRUS 1961–63, XV, doc. 221](https://history.state.gov/historicaldocuments/frus1961-63v15/d221) (memorandum of conference, 12:30 p.m.). See [[cal.1963-10-10.berlin-and-vienna]]. Names: Kennedy, Rusk, McNamara, Taylor, Thompson.'
+      time: 1963-10-11T16:30Z
+      time_zone: America/New_York
+      tags:
+      - name:kennedy-john-f
+      - name:rusk-dean
+      - name:mcnamara-robert-s
+      - name:taylor-maxwell
+      - name:thompson-llewellyn-e
+- add:
+    entry:
+      id: cal.1963-10-11.berlin-and-vienna-3
+      when: Oct. 11
+      date: '1963-10-11'
+      place: moscow
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      c: 'Kohler to Zorin in Moscow, 8 p.m.: the detention of the convoy at Babelsberg; he asks that Khrushchev be told. Zorin: the convoys had refused the usual inspection.'
+      n: '[FRUS 1961–63, XV, doc. 223](https://history.state.gov/historicaldocuments/frus1961-63v15/d223) (Kohler to the Department, midnight Moscow time: "2000 local time"). See [[cal.1963-10-10.berlin-and-vienna]]. Names: Kohler, Zorin, Khrushchev.'
+      time: 1963-10-11T17:00Z
+      time_zone: Europe/Moscow
+      tags:
+      - name:kohler-foy-d
+      - name:zorin-valerian
+      - name:khrushchev-nikita-s
+- add:
+    entry:
+      id: cal.1963-10-11.berlin-and-vienna-4
+      when: Oct. 11
+      date: '1963-10-11'
+      place: moscow
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      c: 'Zorin summons Kohler, 10:30 p.m.: the convoy refused the established procedures and was held; Moscow cannot accept his protest.'
+      n: '[FRUS 1961–63, XV, doc. 226](https://history.state.gov/historicaldocuments/frus1961-63v15/d226) (Kohler to the Department, Oct. 12, 3 a.m.: "10:30 pm local time"). See [[cal.1963-10-10.berlin-and-vienna]]. Names: Zorin, Kohler.'
+      time: 1963-10-11T19:30Z
+      time_zone: Europe/Moscow
+      tags:
+      - name:zorin-valerian
+      - name:kohler-foy-d

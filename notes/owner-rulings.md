@@ -52,6 +52,7 @@ Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every 
 | 48 | The Nov. 24 requests not yet placed | not a question |
 | 49 | For the owner to procure | not a question |
 | 50 | Entries made from a fragment of a story (a headline, a cut-off column) | settled by the owner, Nov. 24: not entered (R18a) |
+| 53 | Map rows "work, page, note" that lead to a record marked read (2,315), printed as "284 & n.70b (citing ...)" | settled by the owner, Nov. 24: a reader picks one of three for each; no unmarked citation unless the cited matter was read |
 | 52 | An entry of one day with several acts, one of them timed | revised by the owner, Nov. 24: split into a pair, the timed act with its hour, the order by `follows:` |
 | 51 | A work's page, a note on the page, and the two together: one source or three citations | settled by the owner, Nov. 24: three citations, each with its meaning |
 
@@ -494,3 +495,10 @@ Where it applies: the 1966–70 rows of the clock pass (`inbox/2026-11-25-clock-
 
 **Revised by the owner, Nov. 24, 2026, about 9:20 p.m. PT:** "Ruling 52 should be revised into a pair of entries, one dated precisely, and one with an inverse-'follows:', no? ('precedes:'?)" So: where an entry of one day holds several acts and only one of them has an hour, the entry is split (R17). The act with the hour is its own entry and takes the hour. The other act is its own entry with no hour, and the day's order between the two is recorded. The order is recorded with the field the calendar has, `follows:`, on whichever of the two came later (the reader's brief, R25b); a `precedes:` field would say the same thing from the other side, and none was made. The clock-time audits list the entries to split (`notes/times/audit-clock-pass-a.md`, `-b.md`, `-c.md`).
 
+## 53. The "page and note" rows that lead to a record marked read
+
+The question (put to the owner Nov. 24, about 7:40 p.m. PT): 2,315 rows of entries' source maps have the form "work, page, note" and lead to a registry record marked read. The page prints them as a citation, "284 & n.70b (citing ...)". On the owner's reading (R35a) that form says the note's own text supports the sentence; what the row recorded is that the note names a record, and that the series holds a copy of it.
+
+**Settled by the owner, Nov. 24, 2026, about 9:55 p.m. PT:** "I'll take your recommendation, with your three choices. We can't have an unmarked citation unless we've read the cited matter." For each row a reader picks one: (1) cite the record itself, in the copy the series holds, where it was read and bears the words out; (2) cite the note where its own text supports the words; (3) otherwise neither, and the record stays behind "To check:" with its "cited by". Each reader's patch is audited on Opus.
+
+How it is being done: the rows are listed in `notes/via-read/rows-2026-11-25.tsv` (1,393 entries). In 1,964 rows the entry already cites the held copy; what is left there is to check by rule that the direct cite is placed on the same words as the row, and to give a reader those where it is not. In 351 rows the entry has no direct cite: two readers have them (`notes/via-read/batch-a.tsv`, `batch-b.tsv`). When the patches are merged, the footnote code stops printing a "work, page, note" row as a citation at all (`tools/bib/footnotes.py`, `_cites`, the `via` branch): a row of that kind then only links the entry to the registry, and an unread record still goes behind "To check:".
