@@ -2,77 +2,84 @@
 
 The standing rule (CLAUDE.md, "Nothing blocks on the owner"; the owner, Nov. 24, 2026: "Nothing should block on 'awaiting my ruling.'"): each question below is worked on its default; the owner overrules by writing under it, and the work is redone by rule.
 
-Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every passage marked "For the owner". Defaults to be filled at the 4 p.m. resume.
+Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every passage marked "For the owner". Line numbers are those of handoff.md at c8146e7 (the file has grown since). Items 1–30 restated and filled the evening of Nov. 24: "Settled" quotes the owner or names the commit; "Default taken" is a default, not a ruling, for the owner to overrule.
 
 ## 1. handoff.md:12
 
-", this queue supersedes them.
-
-- Default taken: (to fill)
-- Applies to: (to fill)
+Not a question: the head of the old record says that where its night sections call a thing "open" or "for the owner", the queue supersedes them. The queue is kept at the head of notes/handoff.md.
 
 ## 2. handoff.md:24
 
-, Jan. 17/18, 1969, one Johnson–Udall call or two (Bernstein 305 against Shesol); further splits noted: `cal.1968-08-28.elections-1968` (plank, Ribicoff, the ballot), `cal.1968-02-27.vietnam` (Wheeler's report, the meeting at State), `cal.1962-10-01.defense` (McNamara's meeting, Arends's letter), `cal.1963-11-22.assassination-8`; the merged entries' claim maps to reseed (the mechanical map stands meanwhile).
+Question: Jan. 17 or 18, 1969: was Johnson's telephone scolding of Udall over the stadium one call or two (Bernstein, 305, puts it Friday, Jan. 17; Shesol, 463, on Jan. 18)? The same line notes four entries that hold more than one act (`cal.1968-08-28.elections-1968`, `cal.1968-02-27.vietnam`, `cal.1962-10-01.defense`, `cal.1963-11-22.assassination-8`) and, not for the owner, `cal.1965-02-26.vietnam` and `-3` as perhaps one meeting.
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Default taken: one call. Both entries carry the same quoted words ("Hell of a way to run a department") from the same page of Bernstein, so they record one act (R17); Bernstein's day stands, being tied to the press story, and Shesol's Jan. 18 becomes a variant (R41). The four bundled entries are split by R17 ("never several events in one entry"): the plank, Ribicoff's speech and the ballot; Wheeler's report and the meeting at State; McNamara's meeting with the Chiefs and Arends's charge (dated by its report, R15a, "Oct., by the 7th" from Kaplan, 115 n.75, with "Check: the day"); the Chiefs' alert, about 2 p.m., goes to `cal.1963-11-22.defense` if that entry holds it, the session with the Germans staying. The first part of each keeps the bibliography; the rest point back.
+- Applies to: `./bib combine cal.1969-01-17.conservation cal.1969-01-18.conservation-2`, Shesol, 463, kept with a variant on the day; edits splitting the four entries named; the claim maps of the merged entries reseeded (not a ruling, work left). `cal.1965-02-26.vietnam` and `-3` stay apart, as the Check on `-3` says, until the Daily Diary shows a second meeting or not.
 
 ## 3. handoff.md:37
 
-to move): the owner's `RFK OH` folder (Drive `1sChFLbuSMINeixPDqb26oieHlHynxNs_`) inventoried and checked against the finding aid (`notes/oral-histories-rfk-inventory.md`): every interview available on the site wanted; what is missing listed for the owner. Duplicates: count the approvals first and offer the owner's one-step route (the way of working).
-
-- Default taken: (to fill)
-- Applies to: (to fill)
+Not a question: the RFK Oral History folder on the Drive checked against the finding aid; the interviews missing are a list for the owner to procure. The list is kept in notes/oral-histories-rfk-inventory.md.
 
 ## 4. handoff.md:70
 
-tag Nguyễn Thọ Chân? FRUS's `nguyen-tho-chan` is the ambassador to the USSR; the page does not say he is the Hồng Quảng secretary). Fixed: Mubei pages 647 on are vol. II (a36f024: run 4's second reader had cited them as I). Running: the audits of Mubei run 5 (partial: 24 entries; run 6 to start where its book-check says) and *Tiandi fanfu* run 1 (1966: 62 entries); the official history readers 4–6, resumed from `notes/wip/b16-lskc-*` (patch names `2026-11-14-b16-lskc-*`, the ledger's). Next: Dikötter run 2 (from p. 144); *Tiandi fanfu* run 2 after its audit; Mubei run 6.
+Question: should the Hồng Quảng Zone secretary Nguyễn Thọ Chân (the Secretariat meeting of May 31, 1962, `cal.1962-05-31.vietnam-hanoi`) carry the tag `name:nguyen-tho-chan`, which is FRUS's key for the DRV ambassador to the USSR? Nothing on the page says they are one man.
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Default taken: not the same man until a source says so. R4 ("nothing from memory") and the Names rule on who is one person (notes/guide/names.md) do not let a shared name join two careers. The Hồng Quảng secretary gets a name entry of his own, and the entry a "Check: whether the same man as the ambassador to the USSR (FRUS key `nguyen-tho-chan`)."
+- Applies to: `cal.1962-05-31.vietnam-hanoi`; a new name entry; any later entry naming either man.
 
 ## 5. handoff.md:72
 
-"Made public" for the official history's 1995–2012 first edition (printed "mainly for the army": publication under R27?); Nguyễn Thọ Chân's tag; Kang Sheng's July 27, 1966 speech printed only in Red Guard sheets (public?); a card for Wang Li's *Fansi lu* 2008 edition (Yang's pages); the April 1966 Politburo pair (one session?).
+Questions: (a) does the first edition of the Vietnamese official history, *Lịch sử Kháng chiến chống Mỹ* (1995–2012, distributed "mainly" in the army), count as publication under R27? (b) Nguyễn Thọ Chân's tag (item 4). (c) Is Kang Sheng's speech of July 27, 1966, printed only in Red Guard sheets, public? (d) Should Wang Li's *Fansi lu*, 2008 edition (the pages Yang cites), get a card? (e) Is the April 1966 Politburo pair one session?
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Default taken: "Made public: 2013" (the second edition, sold "rộng rãi", widely) stands, as the audits upheld it. The first edition is the small-batch, limited printing R27 (c) describes; it is noted beside: "Circulated in Vietnam: first edition (Chính trị quốc gia, 1995–2012; distributed mainly within the army)." Where a first-edition volume is shown held in open libraries, that volume's year is used instead.
+- (b) See item 4.
+- (c) Settled: R27 as revised and endorsed (the owner, Nov. 21: "I endorse your revised R27"; 0303b9a): a Red Guard tabloid is "briefly available and then suppressed", so it is noted as "Circulated in China: ...", and "Made public:" is the first durable open printing, abroad and in China as each is known. Left to do: apply it to this entry in the R27 redo (queue, handoff 4aq).
+- (d) Default taken: yes. CLAUDE.md: "A work with no card yet gets one first: `./bib works new`." The 2008 edition gets its own card, joined to any other edition by `edition_of`; Yang's cites point to it.
+- (e) Default taken: two entries unless a source puts both in one sitting. R17 makes each act its own entry, dated by its own record; the pair gets a "Check: one session?" until a record that dates the sitting is read.
+- Applies to: (a) every entry citing `w.lich-su-khang-chien-chong-my` with "Made public: 2013" (notes/book-checks/lich-su-khang-chien-chong-my.md); (c) the Kang Sheng entry of July 27, 1966; (d) a new card and Yang's cites of *Fansi lu*; (e) the two April 1966 Politburo entries.
 
 ## 6. handoff.md:74
 
-do the author's own estimates and totals (a historian's famine figure) go in too? Also: patch-check STYLE 13 (name tags) reviewed and fixed (07f0a82).
+Questions (the night of Nov. 20, several marked for the owner): (a) do an author's own estimates and totals (a historian's famine figure) go in? (b) The Dikötter audit's form for an act a file reports without its day ("Jan., by the 25th", `at: before`, "Check: the day"; 42 entries), the open "one rule for 'by April'". (c) Is MacFarquhar's March 1967 outlawing (`cal.1967-03.china-leadership-14`) the same act as the Wuhan Military Region's notice of Mar. 21 (`cal.1967-03-21.china-leadership-8`)? (d) Are the two Yang Shangkun diary receptions of national conferences (`cal.1963-06-02.china-leadership-4`, `cal.1963-11-27.china-leadership-3`) closed, as the diary has them, or public? (e) The Tiandeng order given before a crowd: its visibility. (f) Fu Lei's year (Yang prints 1968). (g) Gansu's 500–600 seizures, a statistic or an entry? (h) Branch, *At Canaan's Edge*, 501, 511 (Speck, Whitman, 1966).
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Settled: the owner, Nov. 21, 12:14 and 12:19 a.m.: "Put those numbers in too. Put them in the "gloss" on the most appropriate entry"; "not the opening or closing of each thread's "statement." The first or last entry in a thread." Done in 1af2cfe (the gloss restated).
+- (b) Settled: R15a (the owner, Nov. 24: "Please do."): "on or before the report's day ... `when: 'By July 2'` (or the month's form, "July, by the 2nd"), `date:` that day, with "Check: the day"." Left to do: the 42 entries take `date:` the file's day, not the month with `at: before`.
+- (c) Default taken: one act. The notice of Mar. 21 is the outlawing; MacFarquhar dates the same act to the month (R17, one event one entry). Combine `-14` into `-8`; the arrests of 2,000 to 3,000 stay in `c` with "Check: the days of the arrests."
+- (d) Default taken: public in China. R27 governs only "an event done in private and documented in records nobody saw at the time"; a reception of a national conference's delegates, photographed, is done before hundreds. Each keeps a "Check: the *Renmin ribao* report."
+- (e) Default taken: public in China, on the same ground as (d): an order given before a crowd is not done in private.
+- (f) Default taken: the year Yang prints, with "Check: the year" and, where another source cited gives a different year, a variant (R41).
+- (g) Settled: withdrawn the same night with the conditions exclusion (handoff 4v, Nov. 21, 12:10 a.m.: "The question on Gansu's 500–600 seizures (above) withdrawn: it stays").
+- (h) Settled: R18's crime clause struck (the owner, Nov. 20: "Heck, just drop it."): every dated crime the source records is an entry. Left to do: enter Speck and Whitman from Branch, 501, 511, if not already in.
+- Applies to: (b) the 42 Dikötter entries with `at: before` and "Check: the day"; (c) the two Wuhan entries; (d) the two Yang Shangkun receptions and like receptions in the Yang diary runs; (e) the Tiandeng entry; (f) the Fu Lei entry; (h) two new entries, 1966.
 
 ## 7. handoff.md:90
 
-does an internal-circulation (内部发行) printing, such as the first-edition *Wengao* (1987–98), count as "made public" under R27? If not, the 1996 years set tonight on about 80 *Wengao* entries give way to the earliest open printing (the Red Guard *Wansui* volumes of 1967 and 1969, the JPRS translations, the official open compilations), item by item.
+Question: does an internal-circulation printing (内部发行), such as the first-edition *Mao Wengao* (1987–98), count as "made public" under R27?
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Settled: the owner, Nov. 18: "Internal-circulation printing doesn't count as 'made public' for visibility—it's not a 'publication' in my understanding of the word—but the earlier printing should be noted next to the 'made public'/'publication' date." Now R27 (a) (c877e3f); the *Wengao* entries redone (de8438e, 86 entries). Nothing left beyond the R27 redo already queued.
 
 ## 8. handoff.md:102
 
-to move. Two tiers:
-
-- Default taken: (to fill)
-- Applies to: (to fill)
+Not a question: the time-of-day and place pass, placed in the queue "for the owner to move", with its two tiers (from the entries, then from the sources). The owner has since moved it ("Queue amended (the owner): the times pass ahead of the dateline prototype", 326c031). Its plan is kept in notes/handoff.md, item 13 of the old queue.
 
 ## 9. handoff.md:150
 
-the four splits (July 2, 1964 passage and signing; Aug. 30, 1961 Clay and the Soviet test; Aug. 30, 1961 school aid and *Time*; June 13, 1963); Powers in Soviet custody (privy or not); a Soviet report of a partner's words (ussr alone, or with the partner); Souphanouvong's polity before June 23, 1962; `cal.1964-10.vietnam-hanoi` (drv+fr+uk?); the Kasavubu–Lumumba appeal of July 13, 1960 and Khrushchev's message of Aug. 5, 1960 (public?); the 20 titled volumes with "Vol." in their titles (Roman too?); the visibility audits' lists of entries to split.
+Questions (Nov. 13): (a) four entries that hold two acts: should they be split (July 2, 1964, the House vote and the signing; Aug. 30, 1961, Clay and the Soviet test; Aug. 30, 1961, school aid and *Time*; June 13, 1963)? (b) Powers in Soviet custody: privy or not? (c) A Soviet report of a partner's words: the USSR alone, or with the partner? (d) Souphanouvong's polity before June 23, 1962. (e) `cal.1964-10.vietnam-hanoi`: DRV, France and Britain? (f) Were the Kasavubu–Lumumba appeal of July 13, 1960 and Khrushchev's message of Aug. 5, 1960 public? (g) The 20 titled volumes with "Vol." in their titles: Roman numerals too? (h) The visibility audits' lists of entries to split.
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- (a) Default taken: split three, keep one. R17: "the announcement and the act", "hearings and the vote", each its own entry. July 2, 1964: the House vote and the signing are two acts; Aug. 30, 1961, Clay's appointment and the Soviet announcement are two (the test to its own thread); June 13, 1963: the labor leaders that day, the religious leaders five days later (June 18) their own entry, the later meetings one month-dated entry (R15). The *Time* and school-aid answers of Aug. 30, 1961 are one news conference, 1961 Pub. Papers 572, so they stay one entry (R17: one address whose matter falls in several threads), with `also:` the school-aid thread.
+- (b) Settled: the owner, Nov. 13: "Set Powers's visibility to the US to his release date. Invisible to the US while held incommunicado." Done in 11560a5.
+- (c) Settled: the owner, Nov. 13: ""Alekseyev to Moscow: " is Soviet-only, but "Guevara says . . ." is Soviet-and-Cuban. (I don't mind having different levels of visibility in a single entry. I like it!)" Done (unit-scoped `vis:only`, bcf0237).
+- (d) Settled: the owner, Nov. 13: "Date Souvanphong's polity." Done in bcf0237.
+- (e) Settled: the owner, Nov. 13: "Correct the Hanoi October 1964 entry." Done in 11560a5 (the entry now `vis:only:drv+fr`, `vis:from:uk:1964-10-24`).
+- (f) Default taken: the appeal to the UN public, Khrushchev's message closed with a Check. The appeal was addressed to the United Nations and so made in the open. The message stays `vis:only:ussr+congo` as Fursenko and Naftali give it, with "Check: whether the message was printed at the time (TASS, *Pravda*)." R4 forbids settling that from memory. The appeal, now a sentence of `cal.1960-07-12.congo`, becomes its own entry by R17, dated by its record.
+- (g) Default taken: Roman numerals for the works with "Vol." only in their long titles too. The owner asked on Nov. 13 for the long titles of multi-volume series to take the short titles' Roman form ("could we do the same for their first, long titles"), and ruled on the 20 short titles; one form for both is the reading that request supports.
+- (h) Settled: the owner, Nov. 13: "Don't make it a rule to split entries mixing a private Soviet act with its public form." Those lists are not to be split on visibility grounds.
+- Applies to: (a) `cal.1964-07-02.civil-rights-bill`, `cal.1961-08-30.berlin-and-vienna`, `cal.1963-06-13.civil-rights-bill` split by edit and add; `cal.1961-08-30.cuba-bay-of-pigs` takes `also:`; (f) `cal.1960-07-12.congo`, `cal.1960-08-05.congo`; (g) the cards with "Vol." in the long title only (works.py STYLE 9's `volume:` field).
 
 ## 10. handoff.md:158
 
-the two social evenings dropped from the *Journals* (a dance with Fortas and Humphrey, Jan. 19, 1965; Harriman's 75th birthday at Hickory Hill, Nov. 14, 1966) are a borderline call under R18's "social occasion among the principals of a pending matter": keep them out, or in?
+Question: the two social evenings dropped from Schlesinger's *Journals* (a dance with Fortas and Humphrey, Jan. 19, 1965; Harriman's 75th birthday at Hickory Hill, Nov. 14, 1966): in or out under R18's "social occasion among the principals of a pending matter"?
 
-- Default taken: (to fill)
-- Applies to: (to fill)
+- Settled: the owner, Nov. 12: "Re: the social events, I take the broader view. If there's a non-routine occasion, like these, where we can put principals together, it should be in." Both restored the same night (handoff, Nov. 12, item (d); 274416d). Nothing left.
 
 ## 11. handoff.md:200
 
