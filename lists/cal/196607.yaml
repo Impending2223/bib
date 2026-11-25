@@ -443,7 +443,7 @@ entries:
     place: omaha
     thread: states-and-cities
     c: Omaha. Negro youths at the Safeway and Skaggs lot at 24th and Lake, the night of July 2; rocks at a police car, windows broken and fires on North 24th Street through the holiday weekend; a boy of fifteen shot in the leg by police. July 5, after 12:30 a.m., the police ask for the Guard; Mayor Sorensen keeps police and 128 Guardsmen on alert until Thursday. He meets a hundred young men at the North Side YMCA.
-    n: '[[w.howard-then-the-burnings-began]], 82–85; [[w.peirce-great-plains-states-of]], 217 (the riots, three days). Names: Sorensen.'
+    n: '[[w.howard-then-the-burnings-began]], 82–85; [[w.peirce-great-plains-states-of]], 217 (the riots, three days). The time is the first day''s. Check: Omaha''s clock in July 1966 (daylight time or not); the range takes both readings. Names: Sorensen.'
     src:
       c: c5af2256
       rows:
@@ -451,6 +451,12 @@ entries:
         - 'w.peirce-great-plains-states-of 217: A-D'
     tags: [state:ne, city:omaha, name:sorensen-a-v]
     short: Omaha
+    time_range:
+      - 1966-07-03T03:00Z
+      - 1966-07-03T06:00Z
+    time_band: night
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1966-07-02.europe-and-the-alliance
     when: July 2
     date: '1966-07-02'
@@ -5518,11 +5524,13 @@ entries:
   - id: cal.1966-07-27.china-leadership-5
     when: July 27
     date: '1966-07-27'
+    time: 1966-07-27T16:00Z
+    time_approx: true
     place: peking
     thread: china-leadership
     also: [south-asia]
     c: 'Zhou Enlai, at midnight, receives Pakistan''s Commerce Minister and the President''s adviser on defence, Faruque. Told that Iran''s and Turkey''s leaders are interested in visiting China: they may find an official delegation hard just now, but semi-official or near-official people could come; China would welcome them and be ready to receive them; the systems differ, the interests are shared.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 42 (July 27, 1966); [[w.zhou-enlai-waijiao-huodong]], 502 (July 27, 1966; midnight, Building 6, Diaoyutai guesthouse); [[w.zhonghua-renmin-gongheguo-waijiao]], 120 (July 27–30, 1966; Zhou to Faruque: a fighting friendship on common ground). Made public: 1993. Names: Zhou Enlai, Faruque.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 42 (July 27, 1966; 午夜, the day''s last item, after the Peking University meeting); [[w.zhou-enlai-waijiao-huodong]], 502 (July 27, 1966; midnight, Building 6, Diaoyutai guesthouse); [[w.zhonghua-renmin-gongheguo-waijiao]], 120 (July 27–30, 1966; Zhou to Faruque: a fighting friendship on common ground). Made public: 1993. Names: Zhou Enlai, Faruque.'
     src:
       c: 8e085b3b
       rows:
@@ -5530,6 +5538,7 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 502: A'
         - 'w.zhonghua-renmin-gongheguo-waijiao 120: A'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc+pakistan, name:faruque]
+    time_zone: Asia/Shanghai
   - id: cal.1966-07-27.china
     when: July 27
     date: '1966-07-27'

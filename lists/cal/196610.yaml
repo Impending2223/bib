@@ -158,10 +158,12 @@ entries:
   - id: cal.1966-10-01.china-leadership-5
     when: Oct. 1
     date: '1966-10-01'
+    time: 1966-10-01T16:00Z
     thread: china-leadership
     c: Zhou Enlai talks with Chen Boda at midnight.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 71 (Oct. 1, 1966, the item after). Made public: 2020. Names: Zhou Enlai, Chen Boda.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 71 (Oct. 1, 1966, the item after; 晚十二时, the day''s last item). Made public: 2020. Names: Zhou Enlai, Chen Boda.'
     tags: [name:zhou-enlai, name:chen-boda, polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1966-10-01.china-leadership-7
     when: Oct. 1
     date: '1966-10-01'
@@ -4917,11 +4919,13 @@ entries:
   - id: cal.1966-10-30.robert-kennedy
     when: Oct. 30
     date: '1966-10-30'
+    time: 1966-10-31T03:30Z
+    time_approx: true
     place: nyc
     thread: robert-kennedy
     also: [assassination]
     c: 'New York, P. J. Clarke''s, talk with Schlesinger till 2:30 a.m. Robert Kennedy wonders how long he can avoid comment on the Warren report: he thinks it a poor job and will not endorse it, but will not criticize it and reopen the whole business. On Johnson: the voters probably agree with him 80 percent on the issues between them, but no longer believe him. Rueful about his own vogue. By Schlesinger''s journal.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 616, 759; [[w.schlesinger-journals]], 253–54 (the entry of Oct. 30: the Dillons'' dinner; Kennedy, from campaigning, "last stop: Connecticut," arrives about 10:30, Goodwin a few moments before; "we talked until 2:30" at P.J. Clarke''s; the 80 percent for Johnson and 20 for him; "rueful about his own vogue"; the Warren Report; also Johnson on their day of campaigning, undated, and the Manchester book, not in the entry); [[w.thomas-robert-kennedy]], 333 (the Warren Commission, a poor job; not to be criticized in public; the month only). To check: Schlesinger, journal, Oct. 30, 1966, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 616 n.51). Names: Robert Kennedy, Schlesinger, Johnson.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 616, 759; [[w.schlesinger-journals]], 253–54 (the entry of Oct. 30: the Dillons'' dinner; Kennedy, from campaigning, "last stop: Connecticut," arrives about 10:30, Goodwin a few moments before; "we talked until 2:30" at P.J. Clarke''s; the 80 percent for Johnson and 20 for him; "rueful about his own vogue"; the Warren Report; also Johnson on their day of campaigning, undated, and the Manchester book, not in the entry); [[w.thomas-robert-kennedy]], 333 (the Warren Commission, a poor job; not to be criticized in public; the month only). The time is Kennedy''s arrival at the Dillons'', about 10:30 p.m.; they left for Clarke''s about midnight ([[w.schlesinger-journals]], 253). To check: Schlesinger, journal, Oct. 30, 1966, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 616 n.51). Names: Robert Kennedy, Schlesinger, Johnson.'
     src:
       c: 7d192b6e
       rows:
@@ -4930,6 +4934,7 @@ entries:
         - 'w.schlesinger-journals 253–54: A, B, C, D, E'
     tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b, city:nyc, state:ny]
     aliases: [cal.1966-10.assassination]
+    time_zone: America/New_York
   - id: cal.1966-10-30.vietnam-asian-trip-2
     when: Oct. 30
     date: '1966-10-30'

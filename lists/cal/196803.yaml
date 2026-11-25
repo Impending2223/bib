@@ -791,15 +791,17 @@ entries:
   - id: cal.1968-03-05.elections-1968
     when: Mar. 5–6
     date: '1968-03-05'
+    time: 1968-03-06T08:00Z
     place: california
     thread: elections-1968-mccarthy
     c: 'California, the night of Mar. 5, McCarthy''s petition parties, some five hundred, Jo Sedida''s idea: at midnight, the first hour of the season for signatures, the guests turn canvassers; by 6 a.m., 33,000 signatures, 13,851 required. McCarthy first on the ballot.'
-    n: '[[w.chester-american-melodrama]], 328. Names: McCarthy.'
+    n: '[[w.chester-american-melodrama]], 328. The time is the canvassing''s, at midnight of Mar. 5–6, the first hour of the season (328). Names: McCarthy.'
     src:
       c: b2061624
       rows:
         - 'w.chester-american-melodrama 328: all'
     tags: [name:mccarthy-eugene-j, state:ca]
+    time_zone: America/Los_Angeles
   - id: cal.1968-03-05.elections-1968-2
     when: Mar. 5
     date: '1968-03-05'
@@ -3240,11 +3242,13 @@ entries:
   - id: cal.1968-03-13.robert-kennedy-campaign-decision-5
     when: Mar. 13, evening
     date: '1968-03-13'
+    time: 1968-03-13T23:30Z
     place: washington
     thread: robert-kennedy-campaign-decision
     c: 'Washington, CBS studio, taped late in the afternoon for 6:30 p.m.; Cronkite questions from New York. Kennedy: "I was reluctant to become involved in this struggle because I thought it might turn into a personal conflict between President Johnson and myself." He gives Rusk''s testimony, the Kerner Report and Nixon as reasons; has not talked to McCarthy but wants to. Whether he will support McCarthy: "I want to decide that and what I will do after I have a chance to assess it all." By Witcover''s account.'
     n: '[[w.witcover-85-days]], 70–72. See [[cal.1968-03-13.elections-1968]]. Names: Robert Kennedy, Cronkite, McCarthy.'
     tags: [name:kennedy-robert-f, name:cronkite-walter, name:mccarthy-eugene-j]
+    time_zone: America/New_York
   - id: cal.1968-03-13.robert-kennedy-campaign-decision-6
     when: Mar. 13, night
     date: '1968-03-13'
@@ -4203,7 +4207,7 @@ entries:
     thread: elections-1968-johnson
     also: [robert-kennedy-campaign]
     c: 'The White House''s account of the commission. Tom Johnson to Jim Jones at the Ranch, Mar. 16, 6 and 6:33 p.m.: the version for the press. CBS, by Tom Johnson''s wire of Mar. 17, 2:06 p.m.: Kennedy had issued an ultimatum, Johnson to announce on television that "a complete revision of the U.S. war was needed." Johnson gives Sidey of *Time* his account.'
-    n: '[[w.palermo-in-his-own-right]], 138; [[w.shesol-mutual-contempt]], 423 (a White House aide: "the damnedest piece of political blackmail"; Mudd for CBS: Kennedy''s price "that the President go on TV to state that a complete revision of the U.S. war policy was needed"; Jim Jones writes "NO" by it). To check: Tom Johnson to Jim Jones, Mar. 16, 1968, 6:33 p.m., WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.34); Tom Johnson to Jim Jones, Mar. 16, 1968, 6 p.m., Watson Papers, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.37); Tom Johnson to Johnson, Mar. 17, 1968, 2:06 p.m., WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.33). See [[cal.1968-03-14.robert-kennedy]]. Names: Tom Johnson, Lyndon Johnson, Robert Kennedy, Sidey. Check: what the White House gave out, and to whom, from the wires themselves (Palermo, 138: "It was the White House that broke the story"); Sidey''s day.'
+    n: '[[w.palermo-in-his-own-right]], 138; [[w.shesol-mutual-contempt]], 423 (a White House aide: "the damnedest piece of political blackmail"; Mudd for CBS: Kennedy''s price "that the President go on TV to state that a complete revision of the U.S. war policy was needed"; Jim Jones writes "NO" by it). The time is the first day''s. Check: whose clock the 6 p.m. wire''s hour is, Washington''s or the Ranch''s; the range takes both readings. To check: Tom Johnson to Jim Jones, Mar. 16, 1968, 6:33 p.m., WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.34); Tom Johnson to Jim Jones, Mar. 16, 1968, 6 p.m., Watson Papers, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.37); Tom Johnson to Johnson, Mar. 17, 1968, 2:06 p.m., WHFN, LBJ Library (cited by [[w.palermo-in-his-own-right]], 138 n.33). See [[cal.1968-03-14.robert-kennedy]]. Names: Tom Johnson, Lyndon Johnson, Robert Kennedy, Sidey. Check: what the White House gave out, and to whom, from the wires themselves (Palermo, 138: "It was the White House that broke the story"); Sidey''s day.'
     src:
       c: 6be98d4b
       rows:
@@ -4213,6 +4217,11 @@ entries:
         - 'via w.palermo-in-his-own-right 138 n.33: B'
         - 'w.shesol-mutual-contempt 423: ?'
     tags: [name:johnson-tom, name:johnson-lyndon-b, name:kennedy-robert-f, name:sidey-hugh]
+    time_range:
+      - 1968-03-16T23:00Z
+      - 1968-03-17T00:00Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1968-03-16.robert-kennedy-2
     when: Mar. 16, morning
     date: '1968-03-16'

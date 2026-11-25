@@ -482,3 +482,11 @@ The question: where one sentence of an entry cites a work's page and the next ci
 The default taken on Nov. 24, from the two reviews of the claims design: no; a page and its note counted as one source when neighbours were compared, and 69 entries lost a mark.
 
 **Settled by the owner, Nov. 24, 2026, about 7:30 p.m. PT**, the other way: "Reverse the change. These aren't 'footnotes that all say the same thing,' as I understand it. The citations on these entries may have been misentered, but, as written, I understand 'A', 'A n.X', and 'A; A n.X' all to be valid citations, with distinct meanings." Reversed the same evening (`tools/bib/footnotes.py`, STYLE 11). The page: the work's own text supports the words. The note: the record the work's note cites supports them. Both: each does. The 69 entries are listed in `notes/claims/page-note-one.tsv` for a reader to check that their rows were entered as meant.
+
+## 52. notes/times/audit-clock-pass-c.md ("A time field on an entry of several acts in one day")
+
+The question: an entry of one day records several acts, and only a later act has an hour in the record. Does the entry take that hour as its `time`?
+
+The default taken, Nov. 25, 2026, by the audit of clock pass C: no. R25 gives an entry of several days its first act's time, and I read that as holding for the acts of one day too. Where the first act has no hour and no part of the day, the entry takes no field. Where the line or note gives the first act a part of the day ("night", "afternoon"), the entry takes that band.
+
+Where it applies: the 1966–70 rows of the clock pass (`inbox/2026-11-25-clock-times-c.yaml`), and any later pass over entries that hold several acts. If the owner rules the other way, those rows take the later act's hour, and the audit note lists them.
