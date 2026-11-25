@@ -153,3 +153,76 @@ Not in this change, and to be decided apart from it: (b), the shared sources. Th
 4. Before any converter: fix the unguarded `cite … units` op (carry the base's hash), and list the 1,048 stale maps.
 5. Put two questions to the owner with previews, the work going on meanwhile: how shared sources are printed (section 6, 9), and whether variants are printed in footnotes (section 6, 7).
 6. Give the `?` rows to the notes pass.
+
+## 10. Compared with the earlier review
+
+Added Nov. 25, after sections 1–9 were committed (e3ed40b). Read then: `notes/proposals/claims-model-review.md` (the first review, by an Opus reviewer on the same brief) and `notes/owner-rulings.md`, item 35e, the default recorded from it. Sections 1–9 stand as written; where this section corrects one of their figures it says so. Checked for this section, by a fourth throwaway script running `claims.resolve`, `footnotes.build`, `footnotes._cites` and `footnotes.shared` over every entry: the counts named below. No code or data changed.
+
+### Where the two agree
+
+1. The finding. Today's `footnotes.py` already compiles the footnoted passages of 35d; identical neighbours cannot arise; what 35d changes is storage, not the page. Both reviews open on it.
+2. The verdict on the proposal. Rulings 35–35d as written are over-built (every source, variant, ruling and Check an annotation) and silent on visibility, variants, additions, patches, the `?` rows, the label rule and migration. Neither would build Design 2 or Design 3.
+3. The remedy's frame. Keep `c` a string, `n` the citation record, `src` and its rows, and the footnote compile. Name a part in a patch by its words (`cite: {id, item, on: '…'}`), checked at the patch's head and again at the merge. Pin a whole-entry row to the text it was made against, so that an addition is the owner's claim_1 and no earlier source vouches for it. Make R22 a test on the diff. Keep the splitter for visibility's cut alone, never as an address. Carry the boundaries through the renderer as a private mark, not by rendering each piece and searching.
+4. The same faults found in the files: the design note still Design 2 and unmarked; the comparison's recommendation stopping at 35a; "the test for a part" left with a fallback that overclaims; "cured at the root" mistaken; 35d headed as the owner's design though the owner's words were questions and fix only the display; the reader's brief and CLAUDE.md still in letters.
+5. The same live defect: a `cite` with `units` carries no base (`addops.py`, `_units_ok`), so letters can land on the wrong sentence unseen.
+6. The same open display questions, none blocking: STYLE 8's "block", the repeats, the `?` tail, variants as "*But see*", marks and footnotes under visibility.
+
+### Where they differ, and which is right
+
+1. **Where a boundary is stored: the one difference of design.** The first review and 35e store it in each row, as quoted words (`'w.beschloss-crisis-years 123: "Moscow will send Zorin"'`, or two quoted ends), and have the merge carry and rewrite the quotes across every edit. Section 8 stores it once, as a cut in `c` with a part id, and rows, rulings and variants name ids. I hold to section 8, on what the data shows:
+   - *Each boundary would be written several times.* The stored rows that name a part name 31,216 stretches; the calendar has about 15,700 distinct cuts. Two readers' quotes that end a word apart make a sliver passage with its own footnote; 35e has no rule against it. A cut is stated once and cannot be nearly restated.
+   - *The quote meets the house's own quotation marks.* Of the 27,034 stored rows that name a part, 8,737 cover words holding a double quotation mark and 10,829 an apostrophe (checked: the units each row names). The row grammar `"…"` inside a single-quoted YAML string needs an escape in a third of its rows.
+   - *A ruling cannot hold a quote.* 35e has "visibility rulings by quoted words". The 257 rulings are tags, flat strings in a flow list, parsed by `vis.py`'s `RULE_RX` and edited by `./bib tag`. A sentence with its commas, colons and quotation marks is not a tag. They would need a field of their own; with part ids they keep today's form (`@3`).
+   - *A hand edit breaks quotes.* CLAUDE.md allows editing the section file. Under 35e a corrected spelling inside quoted words orphans every row that quotes them, an error to mend row by row. Under section 8 it touches nothing, and `src.c` reports the map stale, as now.
+   - *Parts have no name under 35e.* The owner's scheme names them (claim_0, claim_00, claim_01). The stemma's `--unit`, a variant, an audit's row and R22's "a unit already in an entry" each need something to point at.
+   - *The code moves less.* Parts with ids stand where units with letters stand, one for one, in `claims.py`, `footnotes.py`, `vis.py`, `witnesses.py` and `addops.py`. Quoted ranges need a new row grammar, ranges resolved to offsets, and a merge that rewrites quotes through diffs.
+   - What 35e has that section 8 has not: `c` in the files stays clean prose, and a row can be read without looking at `c`. That is worth something, and it is the fallback. It does not outweigh the six points.
+2. **The separator.** The first review uses it at build time only, "never stored" (its 5.8), and sets aside "citations inline in `c`" (its 6). That last is right, and is not what section 8 does: the citations stay in `n` and `src`; only a cut with an id goes into `c`. The owner's 3:25 p.m. question set the separator against "the current 'claim splitting' model", which is a question about what is stored. I read it so; the owner can say.
+3. **How many `?` rows' entries.** The first review: "19,941 rows (in 8,066 entries)". Mine: 13,778 entries. Checked: 19,941 rows in 13,778 entries; of them 13,486 rows in 8,314 entries with a stored map (8,066 where the map is current) and 6,455 rows in 5,464 entries with the mechanical map. The first review paired every map's rows with the stored, current maps' entries. 13,778 is right.
+4. **How many entries STYLE 8 makes a block.** The first review: "about 1,165". Mine (section 4): 1,054. Checked with the build's own `_cites` and `shared`, the tail joined as `build()` joins it: 516. Both were too high; both counted the map's rows, before `footnotes.py` drops unread records and joins a page with its note. Read 516 for 1,054 in sections 4 and 5.
+5. **What is on the page.** The first review counted with `footnotes.build`: 7,510 entries with footnotes, 20,649 footnotes, 856 entries printing one footnote twice. Checked: 7,509, 20,647 and 856. My 8,396 entries, 23,759 passages and 1,880 are the maps' figures before the stale rule and STYLE 8. For what the owner sees, the first review's are the ones to use. The proportions of section 4 (a source under every mark in nine of ten split entries; one footnote in three holding nothing else) are of the maps and stand as that.
+6. **The count of entries.** The first review: 58,454. Mine: 58,276. Checked: the calendar list holds 58,579 entries, 303 of them threads' statements; 58,276 are entries with a line. 58,276 is the figure the tools' `claims stats` gives.
+7. **Over-splitting by a page and its note.** The first review (its 5.12): 1,269 entries split only because a work's page row and its `via` note row cover different units. I had put the 1,167 entries that fold when keyed by work down to "one work cited at different pages" (section 4). Checked: 489 fold when a work's page and its notes at exactly that page count as one source; 836 when the registry's `via x.` rows are also left aside; 1,167 when the page is ignored. So most of my 1,167 is the first review's effect, not different pages, and section 4's sentence is wrong in its cause. I could not reach 1,269; a note's page inside a page range, which I did not match, may account for it. The first review's remedy is right: such rows are the stemma's and should not cut the page.
+8. **A ruling's cut.** The first review (its 5.5) says a visibility ruling "must not cut a passage, or it produces exactly the identical adjacent footnotes". Under "footnotes.py's compile unchanged" it cannot: the run compile folds neighbours with the same sources whatever cut them. Section 8's example has such a cut, with no mark. A small slip; the two agree on the outcome.
+9. **The established model.** The first review names editors' ranges (ProseMirror, Quill) and the citation processor (citeproc). Section 7 names the footnote call and the critical edition's anchored apparatus. Ranges describe the compile well; anchors describe the store. Not a disagreement of substance.
+
+### What the first review found that I missed
+
+1. "An entry starts as one passage ... with one footnote" (the comparison), read literally, puts a mark and a numbered note on the fifty thousand entries now shown as a block, against the owner's Nov. 18 "should be rendered without the footnote". It should read "one block, as today".
+2. Item 35's migration test ("every footnote and mark where it is today") and 35d's display changes cannot both hold. The proof is to be split: first the same passages and the same sources per passage; then the display changes, by list.
+3. 35a's mark rule and 35d's give different pages for a part in the middle (two marks, three marks).
+4. The stale maps can be rebased from git history, which holds the text each `src.c` was made against. Section 8 only listed them.
+5. 4,427 stored rows list every letter without writing `all` (checked; the first review has 4,417). They were made against those words and are to be pinned to them.
+6. A witness cited both for and against the same words: `cal.1960-06-23.soviet-union` has the Peng Zhen nianpu as a `?` row and as a variant. A check is wanted.
+7. Two kinds of parenthetical, what the cited matter says and which part it bears on, that the data does not tell apart; a rule and a check for the second once a part is named.
+8. A field called `notes:` beside `n:` will be misread. Footnote anchors renumber when a part is added.
+9. "*See supra* note n." for a footnote that repeats an earlier one of its entry.
+10. The mark of a passage whose last sentence is hidden should move to its last visible sentence.
+
+### What I found that it missed
+
+1. The hash does not guard the cut: commit 1cc197c changed the splitter and 55 entries were renumbered by hand, nothing stale. 35e keeps the splitter "for visibility's segmentation"; that is safe only if nothing stored points into it, rulings included.
+2. The three points above against quotes in the store: the tags, the quotation marks, the sliver passages.
+3. The owner's part ids (Q13) and the witness trace (Q3) as requirements; the atomic-facts wish (Q8), which no design meets and which should be said to the owner plainly.
+4. The measured drift: 1,023 stale maps whose every placed row is `all`.
+5. A hidden claim's footnote stays on the page, numbered, with no mark (`vispage.js` selects `span.cl` only). The EPUB shows every claim in full where the site greys.
+6. The shared sources as arithmetic, and a third treatment beside "block" and "first": printed once, unnumbered, ahead of the numbered notes.
+7. The held patches' contents: 386 adds, 19 `primary` rows at `?`, three edits, no letter. They can merge now.
+
+### Whether I would change the recommendation
+
+In its storage, no. In its programme, yes: section 9 gains from the first review the three passes before conversion (the stale maps rebased from history; a work's page and its notes one source for passages; the additive ops carrying words), the split proof (passages and sources first, display after), "one block, as today" for an unsplit entry, and the display repairs listed as departures with the trial year. 35e and section 8 are the same change but for where a boundary lives.
+
+### The design to adopt, as a ruling
+
+**35f. Cuts, not quotes (amends 35e's storage; keeps its display, its passes and its proof).**
+
+- A calendar entry's `c` stays one string. Where, and only where, a source, a variant or a visibility ruling bears on less than the whole entry, a cut is stored in `c` at the end of that part, with a permanent id, never shown on any page. An entry with no cut is one part, the whole.
+- `src` rows, the `@` of a visibility ruling and a variant's `unit` name part ids where they now name letters. `all` is written only while an entry has no cut; the merge that makes the first cut rewrites `all` to the ids, so words added later are a new part under their own source.
+- A part that is cut gives way to two new ids; the old id stays as an alias of both.
+- In a patch a part is named by its words (`on: '…'`), found once in `c` at the patch's head and at the merge, ending where a clause or sentence ends; the merge makes the cut. The words are never stored. An `edit` keeps every cut of its base; R22 is applied part by part from the diff: words only added, free; words changed, the settling record or a declared rewording.
+- `n` stays the citation record; `footnotes.py` compiles as now, over parts; the build places marks and spans on the cuts. The splitter computes visibility's sentences inside a part and nothing stored names them.
+- Before conversion: the stale maps rebased from history; a work's page and its notes counted as one source for passages; `cite`, `primary` and `variant` carrying words. Conversion a year at a time, each proved by the same passages and the same sources per passage, then the pages byte for byte.
+- Display changes (STYLE 8, repeats, the `?` rows, variants in footnotes, marks under visibility) are apart from this, each previewed and listed as a departure.
+- The fallback, if the owner will not have cuts in `c`: 35e as recorded, with two-ended quotes, the rulings moved out of the tags into a field of their own, and a check that no two rows' ends fall within a clause of each other.
+- Applies to: `store.py` (cuts taken out on load, put back on write), `claims.py`, `footnotes.py`, `vis.py`, `vispage.py`, `witnesses.py`, `addops.py`, `patchcheck.py`, `merge.py`; R22, R33, R33a, R34, R35, R41 (a sentence each); `notes/proposals/claims-model.md` marked superseded.
