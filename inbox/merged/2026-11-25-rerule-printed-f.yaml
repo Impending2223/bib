@@ -1,0 +1,75 @@
+patch: 2026-11-25-rerule-printed-f
+by: 'Claude (Sonnet, re-ruling of the printed order, R25c as the owner rewrote it Nov. 25, 2026; owner-rulings 56), months June to Sept., Nov., Dec. 1965 and Feb. to May 1966; notes/sequence/rerule/printed-f.md; audited by Claude (Opus), notes/sequence/rerule/audit-printed-f.md'
+ops:
+# June 1965
+# audit: the nianpu prints the gift to Pyongyang (-8) between the two receptions, so -9 points at -8, and -8 follows -7
+- follows: {id: cal.1965-06-04.china-leadership-8, add: [cal.1965-06-04.china-leadership-7], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 421)'}
+- follows: {id: cal.1965-06-04.china-leadership-9, add: [cal.1965-06-04.china-leadership-8], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 421)'}
+- follows: {id: cal.1965-06-05.china-leadership-2, add: [cal.1965-06-05.china-leadership-4], basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 460–61)'}
+- follows: {id: cal.1965-06-06.china-leadership-3, add: [cal.1965-06-06.china-leadership-2], basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 461)'}
+- follows: {id: cal.1965-06-06.china-leadership-4, add: [cal.1965-06-06.china-leadership-3], basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 461)'}
+- follows: {id: cal.1965-06-06.china-leadership-10, add: [cal.1965-06-06.china-leadership-9], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1101)'}
+- follows: {id: cal.1965-06-14.china-leadership, add: [cal.1965-06-14.china-leadership-3], basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 462)'}
+- follows: {id: cal.1965-06-19.china-leadership-3, add: [cal.1965-06-19.china-leadership-2], basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 462–63)'}
+- follows: {id: cal.1965-06-24.china-leadership-5, add: [cal.1965-06-24.china-leadership-3], basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 464)'}
+- follows: {id: cal.1965-06-25.china-leadership, add: [cal.1965-06-25.china-leadership-2], basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 464)'}
+- follows: {id: cal.1965-06-27.china-leadership-2, add: [cal.1965-06-27.china-leadership], basis: 'the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 740)'}
+- follows: {id: cal.1965-06-28.china-leadership-11, add: [cal.1965-06-28.china-leadership-10], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1105)'}
+# August 1965
+- follows: {id: cal.1965-08-15.china-leadership-7, add: [cal.1965-08-15.china-leadership-6], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1113)'}
+# audit: the page has 拜会 (calls on), not 回拜 (returns the call); the line is corrected before the link writes its sentence
+- edit:
+    id: cal.1965-08-17.china-leadership-13
+    base: 9a0af388
+    kind: correct
+    set:
+      c: Jakarta 雅加达. Chen Yi 陈毅 calls on "Piao Yongchun" 朴永淳.
+      n: '[[w.chen-yi-nianpu]], 1114. The words: 下午 (1114). The nianpu has 拜会朴永淳, a call, not 回拜, a return call (1114). Names: Chen Yi.'
+- follows: {id: cal.1965-08-17.china-leadership-13, add: [cal.1965-08-17.china-leadership-12], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1114)'}
+# audit: the nianpu prints the call on Nguyễn Duy Trinh (-14) between the call on Pak and the call on Aidit
+- follows: {id: cal.1965-08-17.china-leadership-14, add: [cal.1965-08-17.china-leadership-13], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1114)'}
+- follows: {id: cal.1965-08-17.china-leadership-15, add: [cal.1965-08-17.china-leadership-14], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1114)'}
+- follows: {id: cal.1965-08-17.china-leadership-16, add: [cal.1965-08-17.china-leadership-15], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1114)'}
+# September 1965
+- follows: {id: cal.1965-09-04.china-leadership-7, add: [cal.1965-09-04.china-leadership-6], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1117)'}
+- follows: {id: cal.1965-09-05.china-leadership-10, add: [cal.1965-09-05.china-leadership-9], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1118)'}
+- follows: {id: cal.1965-09-05.china-leadership-11, add: [cal.1965-09-05.china-leadership-10], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1118)'}
+- follows: {id: cal.1965-09-21.china-leadership-3, add: [cal.1965-09-21.china-leadership-2], basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 478)'}
+- follows: {id: cal.1965-09-23.china-leadership-9, add: [cal.1965-09-23.china-leadership-8], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1122)'}
+- follows: {id: cal.1965-09-24.china-leadership-3, add: [cal.1965-09-24.china-leadership-2], basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 478)'}
+- follows: {id: cal.1965-09-25.china-leadership, add: [cal.1965-09-25.china-leadership-6], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1123)'}
+- follows: {id: cal.1965-09-27.china-leadership, add: [cal.1965-09-27.china-leadership-11], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1123)'}
+# November 1965
+- follows: {id: cal.1965-11-06.china-leadership-12, add: [cal.1965-11-06.china-leadership-11], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1132–33)'}
+# audit, added: the pair the audit of November left ("nothing read shows which came first")
+- follows: {id: cal.1965-11-13.china-leadership-2, add: [cal.1965-11-13.china-leadership], basis: 'the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 763)'}
+- follows: {id: cal.1965-11-13.china-leadership-3, add: [cal.1965-11-13.china-leadership-2], basis: 'the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 763–64)'}
+# December 1965
+- follows: {id: cal.1965-12-07.china-leadership-7, add: [cal.1965-12-07.china-leadership-6], basis: 'the printed order alone ([[w.deng-xiaoping-nianpu-1904]], III, 1886)'}
+- follows: {id: cal.1965-12-14.china-leadership-4, add: [cal.1965-12-14.china-leadership-3], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 454)'}
+- follows: {id: cal.1965-12-21.china-leadership-6, add: [cal.1965-12-21.china-leadership-5], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1135)'}
+- follows: {id: cal.1965-12-23.china-leadership-5, add: [cal.1965-12-23.china-leadership-3], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 456)'}
+# February 1966 (audit, added: the Peng Zhen pairs the reader of February left as giving "no order")
+- follows: {id: cal.1966-02-01.china-leadership-6, add: [cal.1966-02-01.china-leadership-5], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 464–65)'}
+- follows: {id: cal.1966-02-02.china-leadership-6, add: [cal.1966-02-02.china-leadership-5], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 465)'}
+- follows: {id: cal.1966-02-02.china-leadership-7, add: [cal.1966-02-02.china-leadership-6], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 465)'}
+- follows: {id: cal.1966-02-12.china-leadership-8, add: [cal.1966-02-12.china-leadership-7], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 470)'}
+# March 1966
+- follows: {id: cal.1966-03-01.china-leadership-5, add: [cal.1966-03-01.china-leadership-4], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 471)'}
+- follows: {id: cal.1966-03-01.china-leadership-6, add: [cal.1966-03-01.china-leadership-5], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 471)'}
+- follows: {id: cal.1966-03-09.china-leadership-2, add: [cal.1966-03-09.china-leadership], basis: 'the printed order alone ([[w.zhou-enlai-nianpu-1949-2020]], III, 18–19)'}
+- follows: {id: cal.1966-03-12.china-leadership-4, add: [cal.1966-03-12.china-leadership-3], basis: 'the printed order alone ([[w.zhou-enlai-nianpu-1949-2020]], III, 20–21)'}
+- follows: {id: cal.1966-03-27.china-leadership-6, add: [cal.1966-03-27.china-leadership-5], basis: 'the printed order alone ([[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634)'}
+- follows: {id: cal.1966-03-27.china-leadership-7, add: [cal.1966-03-27.china-leadership-6], basis: 'the printed order alone ([[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634)'}
+- follows: {id: cal.1966-03-30.china-leadership-5, add: [cal.1966-03-30.china-leadership-4], basis: 'the printed order alone ([[w.deng-xiaoping-nianpu-1904]], III, 1904)'}
+# April 1966
+- follows: {id: cal.1966-04-05.china-leadership-2, add: [cal.1966-04-05.china-leadership], basis: 'the printed order alone ([[w.zhou-enlai-nianpu-1949-2020]], III, 25–26)'}
+- follows: {id: cal.1966-04-14.china-leadership-6, add: [cal.1966-04-14.china-leadership-4], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 480–81)'}
+- follows: {id: cal.1966-04-14.china-leadership-7, add: [cal.1966-04-14.china-leadership-6], basis: 'the printed order alone ([[w.peng-zhen-nianpu-1902]], IV, 481)'}
+- follows: {id: cal.1966-04-27.china-leadership-7, add: [cal.1966-04-27.china-leadership-6], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1145)'}
+# audit: the Chen Yi nianpu prints the Friendship Association's reception (-9) between the gathering and the arts evening
+- follows: {id: cal.1966-04-30.china-leadership-9, add: [cal.1966-04-30.china-leadership-4], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1146)'}
+- follows: {id: cal.1966-04-30.china-leadership, add: [cal.1966-04-30.china-leadership-9], basis: 'the printed order alone ([[w.chen-yi-nianpu]], 1146; [[w.zhou-enlai-waijiao-huodong]], 493, prints the arts evening after the gathering)'}
+# May 1966
+- follows: {id: cal.1966-05-04.china-leadership-4, add: [cal.1966-05-04.china-leadership-3], basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 493)'}
+- follows: {id: cal.1966-05-10.china-leadership-5, add: [cal.1966-05-10.china-leadership], basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 494)'}

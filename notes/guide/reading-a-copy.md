@@ -58,6 +58,8 @@ Yang Shangkun's diary: volume I is printed page plus 6, volume II plus 5 on the 
 
 Salinger, *With Kennedy*: in printed pp. 176–88 the printed page is the file's page less 26, not less 20 as the work's book-check file says (an auditor, Nov. 25). Longley, *LBJ's 1968*: the copy on the Drive holds one chapter only, 25 pages (an auditor, Nov. 25). Take the page from the image in both, as everywhere.
 
+A page count from the `file` command is not the file's page count: on the copy of the Zhou Enlai nianpu, II, it prints "4 page(s)" for a volume of 773 pages, and a reader of Nov. 25 took the copy for a fragment and left a page unread. Count the pages with `pdfinfo` (or `mutool info`), and open the page.
+
 ## 5. Read one page of a scan
 
 Render the page and open the image with the Read tool. You can read a page image directly, in any script. At 80 to 90 dpi a page of Chinese is clearly legible; use 150 or 200 for small print or footnotes.
