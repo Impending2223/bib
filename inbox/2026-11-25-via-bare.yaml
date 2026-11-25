@@ -1,7 +1,86 @@
 patch: 2026-11-25-via-bare
-by: Claude (the orchestrating session), from the rule check of ruling 53 (notes/via-read/rule-2026-11-25.tsv, the two parts left without a source). FRUS 1964-68, IV, doc. 156, read in sources/frus-text/1966-06.json.xz, holds "speak in terms of disassociation" and the paragraph on the timing of a visit. To be audited on Opus before it is merged.
+by: Claude (the orchestrating session), from the rule check of ruling 53 (notes/via-read/rule-2026-11-25.tsv, the two parts left without a source). FRUS 1964-68, IV, doc. 156, read in sources/frus-text/1966-06.json.xz, holds "speak in terms of disassociation" and the paragraph on the timing of a visit. Audited on Opus, Nov. 25, 2026 (notes/via-read/audit-bare.md), against doc. 156 whole with its notes, in the repository's text and on history.state.gov, and against Hansard for Feb. 8, 1966. The audit split the one cite into two, corrected the visit's words to the document's, added the document's substance to the line, and added four entries the document's text and notes date.
 ops:
+  - edit:
+      id: cal.1966-06-14.vietnam-air-war
+      base: 3349c51d
+      kind: correct
+      set:
+        c: 'Johnson to Wilson, after Rusk''s private talk with him: "I see no way of avoiding such action," the corridor through Laos, the buildup, Cambodia, no interest in peace in Hanoi;{1} "not ... an air assault on civilian centers."{2} Not to "speak in terms of disassociation." A visit in mid- or late July.{3}'
+        n: '[FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156). [[w.gibbons-u-s-government-and]], IV, 370; [[w.gibbons-u-s-government-and]], IV, 370 (Rusk''s private talk with Wilson; the strikes not against population centers). The message itself gives the visit "in mid- or late July," not late July alone (doc. 156). Made public: FRUS 1964–68, IV (1998). See [[cal.1966-06-03.vietnam-air-war]]. Names: Johnson, Wilson, Rusk.'
   - cite:
       id: cal.1966-06-14.vietnam-air-war
       item: '[FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156)'
-      on: 'Not to "speak in terms of disassociation." A visit late in July.'
+      on: 'Not to "speak in terms of disassociation."'
+  - cite:
+      id: cal.1966-06-14.vietnam-air-war
+      item: '[FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156)'
+      on: 'A visit in mid- or late July.'
+  - add-words:
+      id: cal.1966-06-14.vietnam-air-war
+      after: '"not ... an air assault on civilian centers."'
+      words: 'The target the oil installations of Hanoi and Haiphong; orders not yet issued.'
+      text: '[FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156)'
+  - add-words:
+      id: cal.1966-06-14.vietnam-air-war
+      after: 'Not to "speak in terms of disassociation."'
+      words: 'Else seven points to include, among them: Wilson told beforehand; oil storage the target, not civilian centers; Britain, with no troops in the fighting, not to judge the military action; Hanoi and Peking unresponsive.'
+      text: '[FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156)'
+  - add-words:
+      id: cal.1966-06-14.vietnam-air-war
+      after: 'A visit in mid- or late July.'
+      words: '"A good deal of blue sky" between the visit and any action in Vietnam; nothing before mid-July, the dates left open.'
+      text: '[FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156)'
+  - add-words:
+      id: cal.1966-06-14.vietnam-air-war
+      after: end
+      words: 'Drafted by Rusk, reviewed by Johnson, redrafted by Rusk and Rostow; an information copy to McNamara.'
+      text: '[FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156) n.1'
+  - names:
+      id: cal.1966-06-14.vietnam-air-war
+      add: [Rostow, McNamara]
+      tags: [name:rostow-walt-w, name:mcnamara-robert-s]
+  - add:
+      entry:
+        id: cal.1966-02-08.vietnam-air-war
+        when: Feb. 8
+        date: '1966-02-08'
+        place: london
+        thread: vietnam-air-war
+        also: [europe-and-the-alliance]
+        c: 'Wilson in the Commons, in the debate on South and South-East Asia: "We have made it clear in Washington that we could not support any extension of the bombing against North Vietnam by stages to Hanoi or Haiphong."'
+        n: '[HC Deb, Feb. 8, 1966](https://api.parliament.uk/historic-hansard/commons/1966/feb/08/south-and-south-east-asia), vol. 724, c. 259. [FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156) n.3. Wilson rose at 4.48 p.m. (Hansard); the time is his speech''s start. Check: Bruce''s report of the words, as doc. 156 n.3 quotes it, reads "Hanoi and Haiphong"; Hansard, "Hanoi or Haiphong." Names: Wilson.'
+        time: 1966-02-08T16:48Z
+        time_zone: Europe/London
+        tags: [name:wilson-harold]
+  - add:
+      entry:
+        id: cal.1966-06-02.vietnam-air-war-2
+        when: June 2
+        date: '1966-06-02'
+        place: london
+        thread: vietnam-air-war
+        also: [europe-and-the-alliance]
+        c: 'London 5768: Bruce reports Wilson''s words in the Commons, Feb. 8: Britain could not support any extension of the bombing of North Vietnam to Hanoi and Haiphong.'
+        n: '[FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156) n.3. To check: London to Washington 5768, June 2, 1966, Department of State, Central Files, POL 27 VIET S (cited by FRUS 1964–68, IV, doc. 156 n.3). See [[cal.1966-02-08.vietnam-air-war]]. Names: Bruce, Wilson.'
+        tags: [name:bruce-david-k-e, name:wilson-harold]
+  - add:
+      entry:
+        id: cal.1966-06-10.vietnam-air-war
+        when: June 10
+        date: '1966-06-10'
+        place: london
+        thread: vietnam-air-war
+        also: [europe-and-the-alliance]
+        c: 'Rusk with Wilson in London, in private and with his colleagues, by Johnson''s account of Rusk''s report: the oil at Hanoi and Haiphong; points that would put a different cast on a British dissociation from the strikes; the "revival of SEATO"; Rhodesia and the maritime strike.'
+        n: '[FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156); [FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156) n.2 (the day and the place). See [[cal.1966-06-03.vietnam-air-war]]. Names: Rusk, Wilson, Johnson.'
+        tags: [name:rusk-dean, name:wilson-harold, name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1966-06-14.africa
+        when: By June 14
+        date: '1966-06-14'
+        thread: africa
+        c: 'Johnson suggests to Senghor, President of Senegal, a visit to Washington, July 11–13.'
+        n: '[FRUS 1964–68, IV, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v04/d156). Check: the day. Names: Johnson, Senghor.'
+        tags: [name:johnson-lyndon-b, name:senghor-leopold-sedar]
