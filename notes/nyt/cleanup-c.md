@@ -1,0 +1,22 @@
+# Cleanup of the Times entries to R26a (part c)
+
+- cal.1960-07-05.elections-1960: Cite in the rule's form; the parenthetical held matter already in the line, and Truman's answer is already cal.1960-07-05.elections-1960-nomination-5, so it goes. Place kept (Washington).
+- cal.1960-06-28.specials: Cite in the rule's form; the paper's differing count kept as the parenthetical; the certification date into the line, attributed. Place kept (North Dakota, the constituency).
+- cal.1960-07-05.cuba: Cite in the rule's form; the note's answer to Guevara's reading into the line. Place kept (Havana, where the note was delivered).
+- cal.1960-07-05.cuba-3: Cite in the rule's form; the three other ambassadors' names into the line; Rojas Santamarina's asylum is already cal.1960-06-28.cuba; the Man in the News column supports nothing in the line and goes. Place kept.
+- cal.1960-07-05.cuba-4: Cite in the rule's form, no page; Shell's arrears into the line, attributed. Place kept (London).
+- cal.1960-07-05.testing: Two cites in the rule's form, one per story. Place kept (Geneva).
+- cal.1960-07-05.elections-1960-nixon: Cite in the rule's form, no page; Hagerty's remarks and the July 6 news conference are already cal.1960-07-05.white-house. Place kept.
+- cal.1960-07-05.elections-1960-nixon-2: Cite in the rule's form, no page; place set to Washington by the dateline.
+- cal.1960-07-05.voting-rights: Cite in the rule's form, no page. Place kept.
+- cal.1960-07-05.desegregation-schools: Cite in the rule's form, no page; place set to Baton Rouge by the dateline.
+- cal.1960-07-05.elections-1960-rockefeller: Cite in the rule's form; "tonight" and the dateline to the tsv. Place kept.
+- cal.1960-07-05.soviet-union-u2: Cite in the rule's form, no page; the Lakenheath report into the line, attributed. Place kept.
+- cal.1960-07-05.europe-and-the-alliance-france: Cite in the rule's form, no page; "tonight" and the dateline to the tsv; the villa into the line; place set to Tunis by the dateline.
+- cal.1960-07-05.cyprus: Two cites in the rule's form, no page. Place kept (Nicosia).
+- cal.1960-07-05.europe-and-the-alliance-britain: Cite in the rule's form, no page; "tonight" to the tsv. Place kept.
+- cal.1960-07-05.foreign-aid: Cite in the rule's form; the meeting's length and the plan's figure into the line, the figure attributed. Place kept.
+- cal.1960-07-05.elections-1960-3: Cite in the rule's form; the parenthetical cut to what the source does not give (the percent). Place set to Oklahoma, the constituency.
+- cal.1960-09-06.vietnam: respelled to the series' form (R19a): Lao Dong to Lao Động. Its cite is not yet brought to R26a (not reached).
+- cal.1960-09-06.vietnam-2: respelled to the series' form (R19a): Lao Dong to Lao Động; Li Fu-chun to Li Fuchun; Peiping delegation to Peking delegation. Its cite is not yet brought to R26a (not reached).
+- cal.1960-09-06.china-2: respelled to the series' form (R19a): Peiping Government to Peking Government. Its cite is not yet brought to R26a (not reached).
