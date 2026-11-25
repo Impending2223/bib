@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1960-11
-by: 'Claude (Sonnet, sequence pass, November 1960: R25c), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass, November 1960: R25c), Nov. 25, 2026; audited by Claude (Opus, R25c, R33b), Nov. 25, 2026'
 ops:
 - follows:
     id: cal.1960-11-01.elections-1960-kennedy-2
@@ -49,6 +49,7 @@ ops:
     id: cal.1960-11-02.elections-1960-kennedy-5
     add:
     - cal.1960-11-02.elections-1960-2
+    - cal.1960-11-02.elections-1960-kennedy-4
 - follows:
     id: cal.1960-11-02.elections-1960-3
     add:
@@ -126,21 +127,13 @@ ops:
     add:
     - cal.1960-11-05.elections-1960-kennedy-6
 - follows:
-    id: cal.1960-11-05.elections-1960-kennedy-8
+    id: cal.1960-11-05.elections-1960-kennedy-12
     add:
+    - cal.1960-11-05.elections-1960-kennedy-6
     - cal.1960-11-05.elections-1960-kennedy-7
-- follows:
-    id: cal.1960-11-05.elections-1960-kennedy-9
-    add:
-    - cal.1960-11-05.elections-1960-kennedy-8
-- follows:
-    id: cal.1960-11-05.elections-1960-2
-    add:
-    - cal.1960-11-05.elections-1960-kennedy-9
 - follows:
     id: cal.1960-11-05.elections-1960-kennedy-11
     add:
-    - cal.1960-11-05.elections-1960-2
     - cal.1960-11-05.elections-1960-kennedy-12
 - follows:
     id: cal.1960-11-06.elections-1960-kennedy
@@ -199,6 +192,10 @@ ops:
     add:
     - cal.1960-11-07.elections-1960-kennedy-4
 - follows:
+    id: cal.1960-11-07.elections-1960-kennedy-5
+    add:
+    - cal.1960-11-07.elections-1960-kennedy-7
+- follows:
     id: cal.1960-11-08.elections-1960-count-16
     add:
     - cal.1960-11-08.elections-1960-8
@@ -212,6 +209,10 @@ ops:
     - cal.1960-11-08.elections-1960-count-16
 - follows:
     id: cal.1960-11-08.elections-1960-count-14
+    add:
+    - cal.1960-11-08.elections-1960-count-13
+- follows:
+    id: cal.1960-11-08.elections-1960-count-15
     add:
     - cal.1960-11-08.elections-1960-count-13
 - follows:
