@@ -1427,3 +1427,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 25, about 11:13 a.m. PT, marked "Immediate.") "Immediate. Do we know the reason why the Sonnet readers didn't open the books and the Opus auditors did? Was that just a briefing issue?" (Answered in the reply: mostly the brief and the shape of the task, by the evidence in hand, the readers' own reasons not being on record. R25c given a sentence that makes the page a step before a pair is left.)
 
 (Nov. 25, about 11:16 a.m. PT) "What does the queue for the resume look like now?" (Answered in the reply, as a question on the queue itself: the re-ruling first, then the six items the session had put ahead of the owner's ordered queue, then the owner's items 5, 9, 10 and 11–23; the sequence pass's unread months off the queue until the owner says.)
+
+(Nov. 25, about 11:20 a.m. PT) "Put the 56 unread months at the very end, after the 1969 foundations and before the atomic-claims trial." (Done at once, as an amendment of the queue: `notes/handoff.md`, item 22a of the reconciled queue.)
