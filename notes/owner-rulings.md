@@ -51,6 +51,7 @@ Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every 
 | 47 | 4ap: the R27 redo, read or not | settled |
 | 48 | The Nov. 24 requests not yet placed | not a question |
 | 49 | For the owner to procure | not a question |
+| 50 | Entries made from a fragment of a story (a headline, a cut-off column) | default taken |
 
 Counts: wholly settled 4 (7, 10, 11, 25); defaults taken 20, seven of them with parts settled (5, 6, 9, 12, 15, 17, 27); not a question 6 (1, 3, 8, 24, 28, 29). Items 37–49 (added for passages the script missed): wholly settled 4 (39, 40, 43, 47); defaults taken 7, six with parts settled (37, 38, 41, 42, 44, 45) and one whole (46); not a question 2 (48, 49).
 
@@ -462,3 +463,11 @@ Not a question: three requests (the 1960 convention pass, the Drive inventory an
 ## 49. handoff.md:133 ("E. For the owner to procure")
 
 Not a question: the procurement list (the Pike hearings; the foreign plan's "P" list; the DDF 1962 tome II). Kept in notes/handoff.md, section E.
+
+## 50. notes/nyt/audit-leftovers.md ("For the owner", Nov. 24)
+
+The question: two of the July 4, 1960 clippings show only part of a story, a headline ("Festival Closed Because of Rioting") and the tail of a column on Denktash. Is each an entry now, or a lead until the full story is read?
+
+The default taken: each is an entry. R0 and R15a say a report dates what it reports, and R50 says nothing a source in hand dates is a lead. The entries say only what the clipping shows and carry "Check:" for the rest (cal.1960-07-04.civil-disorders, cal.1960-07-04.cyprus-3).
+
+Where it applies: any clipping that shows part of a story. If the owner rules the other way, the two entries are struck and such fragments go to the leads file.
