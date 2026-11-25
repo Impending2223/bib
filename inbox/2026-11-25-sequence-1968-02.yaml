@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1968-02
-by: 'Claude (Sonnet, sequence pass, February 1968: R25c), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass, February 1968: R25c), Nov. 25, 2026; audited and corrected by Claude (Opus, R25c, R33b), Nov. 25, 2026; notes/sequence/1968-02.md, notes/sequence/audit-1968-02.md'
 ops:
 - follows:
     id: cal.1968-02-04.china-leadership
@@ -9,10 +9,12 @@ ops:
     id: cal.1968-02-05.china-leadership-5
     add:
     - cal.1968-02-05.china-leadership-4
-- follows:
+- check:
+    id: cal.1968-02-05.china-leadership-5
+    text: 'Check: the day of the editorial: Yang (I, 474) dates the founding Feb. 5 and gives no day for the editorial.'
+- check:
     id: cal.1968-02-07.china-leadership-2
-    add:
-    - cal.1968-02-07.china-leadership
+    text: 'Check: "after the meeting with Mao": the Zhou nianpu (III, 213) has Zhou go with Mao to meet Hồ Chí Minh and, "the same day" (同日), make his proposal in talking with Hồ; the Wilson Center text (doc. 30) gives no hour. The talk may be part of the same meeting.'
 - follows:
     id: cal.1968-02-07.vietnam-khe-sanh-2
     add:
@@ -21,6 +23,14 @@ ops:
     id: cal.1968-02-08.europe-and-the-alliance-2
     add:
     - cal.1968-02-08.europe-and-the-alliance
+- edit:
+    id: cal.1968-02-08.europe-and-the-alliance-2
+    base: 0ef1b41b
+    set:
+      n: '[[w.johnson-white-house-diary]], 630–32 (Lady Bird Johnson''s account; the toasts in her quotation and paraphrase, not the texts). Merrill''s songs, "On the Road to Mandalay" and the Gershwin, had been called by the press an insult to the British Empire; Wilson sent word they were his favorites (629). After [[cal.1968-02-08.europe-and-the-alliance|the talks]]: the conference set for 11:30 to one, then lunch on the second floor, "talking and working until past 3:30"; the dinner that night ([[w.johnson-white-house-diary]], 629–30). To check: the Public Papers, the toasts, Feb. 8, 1968. See [[cal.1968-02-08.europe-and-the-alliance]]. Names: Wilson, Lady Bird Johnson, Fulbright, Johnson.'
+- check:
+    id: cal.1968-02-17.china-leadership
+    text: 'Check: the day: receiving the Vietnamese at 1:40 p.m. Feb. 17, Zhou says he told Wei Guoqing "yesterday" (昨天) to hold a meeting on Guangxi''s railways and report today ([[w.zhou-enlai-nianpu-1949-2020]], III, 216).'
 - follows:
     id: cal.1968-02-26.republican-party-congress
     add:
