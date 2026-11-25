@@ -1,0 +1,31 @@
+$ ./bib merge inbox/before-0.yaml
+== fx-line
+  edited    cal.1961-04-30.cuba-bay-of-pigs
+
+--- exit 0
+
+$ ./bib patch-check inbox/11-letters-base-1.yaml
+== 11-letters-base-1.yaml: 0 errors, 0 warnings
+
+--- exit 0
+
+$ ./bib patch-check inbox/11-letters-base-2.yaml
+== 11-letters-base-2.yaml: 1 errors, 0 warnings
+  error  cal.1961-04-30.cuba-bay-of-pigs: variant: names units by letter (C) with no base: add base: the rev ./bib show cal.1961-04-30.cuba-bay-of-pigs prints (the letters name other words once the line changes)
+
+--- exit 1
+
+$ ./bib patch-check inbox/11-letters-base-3.yaml
+== 11-letters-base-3.yaml: 1 errors, 0 warnings
+  error  cal.1961-04-30.cuba-bay-of-pigs: cite: the line has changed since base c29e028f: the letters (B) may name other words now. ./bib show cal.1961-04-30.cuba-bay-of-pigs, and name them afresh
+
+--- exit 1
+
+$ ./bib merge --auto inbox/11-letters-base-1.yaml inbox/11-letters-base-2.yaml inbox/11-letters-base-3.yaml
+== fx-letters-held (auto)
+  1 entries changed; read: cal.1961-04-01.cuba
+== 11-letters-base-2.yaml: 1 errors, 0 warnings
+  error  cal.1961-04-30.cuba-bay-of-pigs: variant: names units by letter (C) with no base: add base: the rev ./bib show cal.1961-04-30.cuba-bay-of-pigs prints (the letters name other words once the line changes)
+  refused: 11-letters-base-2.yaml left in the inbox
+
+--- exit 1

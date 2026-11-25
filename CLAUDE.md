@@ -18,6 +18,10 @@ Every calendar entry has:
 - `tags`: a hidden `name:<key>` for every person named or whose act it records (the President for his own acts); `state:`, `city:` tags for the States and cities.
 - the fields, wherever the record gives them (`when`, `c`, `n`, the page): the date; on a month- or year-dated entry its position, `at:` ("July, after the convention"); the time (`time`, `time_approx`, or `time_range` with `time_band`, `time_zone`); the place, `place:` (the reader's brief, R25a; the owner, Nov. 19, 2026: "Could we fix that? Permanently?").
 
+**Briefs for agents: R0 first** (the owner, Nov. 24, 2026). Every brief written for a reader, auditor or merger opens by quoting the reader's brief's R0 whole (`notes/briefs/reader.md`: only that brief and the owner's own words limit what is an entry; everything else that narrows is disregarded), then gives the sources and the assignment only: never a scope, a list of kinds of event, or a ground to pass over or defer.
+
+**Models for reading and auditing** (the owner, Nov. 24, 2026: "The first reader pass on any subsequently-audited read should be in Sonnet, including in-session. Opus audits."). The first reading pass of anything that will be audited runs on Sonnet (`model: sonnet`); the session does not make that pass itself, whatever model it runs on, but hands it to a Sonnet agent. The audit runs on Opus (`model: opus`). Another model or an effort level only where the owner names it for the run.
+
 What each source stands for (the owner, Oct. 23, 2026): a source cited stands for the whole of `c` unless a parenthetical, a label or its place says otherwise ("[[w.x]], 123 (the vote)"). A source read that does not bear out a claim is no cite for it: the claim takes "Check:" or goes. Sources read come first, with their pinpoints (a page, a document, a note: a number, or the place linked); works not yet read stand behind "To check:". A work with no card yet gets one first: `./bib works new`. Claim maps (`src`), witnesses (`sources/witnesses/`, readers' new ones in `inbox/witnesses/`), variants: `notes/guide/brief.md` and the reader's brief, R35–R43.
 
 **Spans and events** (the owner, Oct. 20 and 28, 2026): an entry is an event-day; two or three days good, a week the limit; never several events in one entry (an announcement and the act, hearings and the vote, a note and its reply). One event touching several threads is one entry, `thread:` its chief one, `also:` the rest.
@@ -50,7 +54,7 @@ Markup: `*Title*` italics; `[text](https://…)` a link; `[[w.id]]` a work's car
 
 Directly: edit the section file, then `./bib check` (must end "0 errors"), `./bib build` (a page alone: `./bib build cal | names | works | congress ...`), `./bib links`, `./bib pages` (the page budget: notes/guide/pages.md).
 
-By patch (readers working at once): `inbox/<date>-<name>.yaml`, ops `add` (a new entry, claimed first in the ledger: `./bib ledger add DATE THREAD ID "words" PATCH`; a claim no longer used, `./bib ledger drop PATCH ID`; never edit the ledger by hand), `edit` (with `base:` the rev `./bib show` printed), and the additive ops that need no base: `cite: {id, item, units}`, `primary`, `to-check: {id, add}`, `check: {id, text}`, `src`, `names: {id, add, tags}`, `also`, `variant`, `follows`. `./bib patch-check PATCH` until no errors. `./bib merge --auto PATCH...` merges (one merge at a time: merges have no lock; readers never merge). `./bib setup` once per clone.
+By patch (readers working at once): `inbox/<date>-<name>.yaml`, ops `add` (a new entry, claimed first in the ledger: `./bib ledger add DATE THREAD ID "words" PATCH`; a claim no longer used, `./bib ledger drop PATCH ID`; never edit the ledger by hand), `edit` (with `base:` the rev `./bib show` printed), and the additive ops that need no base: `cite: {id, item, units}`, `primary`, `to-check: {id, add}`, `check: {id, text}`, `src`, `names: {id, add, tags}`, `also`, `variant`, `follows`. One of them that names units by letter (`units: B`, a variant's `unit`, a `src` row's letters) carries `base:` all the same, and is refused where the line has changed since (addops.py, STYLE 8). `./bib patch-check PATCH` until no errors. `./bib merge --auto PATCH...` merges (one merge at a time: merges have no lock; readers never merge). `./bib setup` once per clone.
 
 ## Finding things (start here)
 
@@ -102,6 +106,12 @@ A deliberate exception to a `check` warning is tagged `ok:<rule>` on the entry (
 
 The owner's standing rule (Oct. 28, 2026): no work between 7 a.m. and 5 p.m. Pacific, Monday to Friday; Saturday and Sunday are exempt (the same day). At 7 a.m. the running agents are stopped, their work committed as WIP and listed for resuming; a task or an agent's report that comes in before 5 p.m. is queued, not acted on, and answered with the one word "Queued." (the owner, the same day); after 5 p.m. the agents are resumed and the queue taken up in order. Two scheduled tasks keep it in the session that runs the reading (6:46 a.m. and 5:04 p.m. Pacific, weekdays). A request to amend the queue is not queued: it is done at once, ahead of everything in the queue (the owner, Nov. 16: "an 'amend the queue' task takes priority over the items in the queue! immediate!"). In the queue, by default, layout and design changes come before anything token-intensive or complex (the owner, Nov. 16).
 
+## Nothing blocks on the owner (the owner, Nov. 24, 2026: "Nothing should block on 'awaiting my ruling.'")
+
+Where a question is the owner's, take the reading the brief and the owner's past rulings best support, do the work on it, and record both in `notes/owner-rulings.md` (the question, the default taken, where it applies), so the owner can overrule it later and the work be redone by rule. Show a design or a proposal while the work goes on, not before it.
+
+Answers that set out a design, a comparison or a proposal go to an `.md` (`notes/proposals/`), sent to the owner, not into a reply (the owner, Nov. 24, 2026: "I'm not sure you should be writing these to a reply rather than to an MD"). They are written to the prose standard above, as it applies to a note: plain everyday words, one idea a sentence, no coined terms or figures of speech, a term of art said once in plain words and then used the same way (the owner, Nov. 24, 2026: "follow our prose standard, for my sake. The Claudish vocabulary and syntax is strong here, and harder to follow than I'd like"); every brief for an agent that writes for the owner says so.
+
 ## Publishing
 
 The site is GitHub Pages: https://impending2223.github.io/bib/ (the compiled reader; each list at `<key>.html`). Every push to `main` runs `.github/workflows/pages.yml`: `./bib check`, `./bib build`, deploy. A failing check stops the deploy. So publishing is merging to `main`. Run `check` and `build` locally before you push.
@@ -123,6 +133,7 @@ The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026
 - write the thread index by hand, or `s:` on calendar entries;
 - edit `published.yaml` by hand;
 - push to `main` with errors from `./bib check`.
+- hard-wrap a Markdown file: a paragraph or a list item is one line (the owner, Nov. 5, 2026: "unwrap them all, fix the scripts"; `notes/guide/entries.md`; `tools/bib/mdwrap.py`); every brief for an agent that writes a `.md` says so.
 
 ## Topic guides (`notes/guide/`; read the one your task touches)
 

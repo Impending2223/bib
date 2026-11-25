@@ -1,0 +1,6 @@
+# Letters need a base (tools/bib/addops.py, STYLE 8). Another patch changes the Fulbright entry's line and is merged
+# and committed after the readers looked (base c29e028f). 1.yaml names letters twice on one entry with the base it read;
+# the first op changes the note and so the rev, and the second is still held to the line: both applied. 2.yaml names a
+# letter with no base: refused. 3.yaml names a unit of the changed line by letter, with the old base: refused.
+git: true
+before: [0.yaml]

@@ -39,6 +39,14 @@ STYLE
     `tags`; a row joins the stored map (seeded as in 2 where there is none).
  7. An op on an id the tree does not hold: refused, unless the ledger of new entries (tools/bib/ledger.py) names it,
     when it is deferred (inbox/deferred.yaml) and applied by the next `./bib merge --auto` after the entry lands.
+ 8. Letters need a base (notes/proposals/claims-model.md, (f) 1; rulings 35f). An op that names units by letter
+    (`units` on `cite` and `primary`, `unit` on `variant`, a `src` row's letters; `all` and `?` are not letters)
+    carries `base:` the rev `./bib show` printed, as an `edit` does. The letters are counted from the line's
+    punctuation, so they name other words once the line has changed. The merge applies the op only where the line
+    (`c`) is the one the base had: the entry's rev now, its rev when this patch began (an earlier op of the patch
+    may have changed its note), or a rev found in git. No base, a base not found, or a line changed since: the op
+    is refused, and with it the patch. One exception: a patch whose own `edit` set the line names that line's
+    letters without a base. A letter op on an entry not yet in the tree is refused, not deferred.
 """
 import os
 import re
@@ -51,6 +59,8 @@ STOP_TC = ("See [[",)
 DEFERRED = os.path.join(store.ROOT, "inbox", "deferred.yaml")
 DRY = False                                   # set by merge.apply_patch: a dry run defers nothing
 PENDING = None                                # merge.apply_patch: the ops deferred, written only if no op errored
+START = {}                                    # merge.apply_patch: id -> (rev, hash of c) as the patch began (STYLE 8)
+OWN_C = {}                                    # merge.op_edit: id -> the line this patch's own edit set (STYLE 8)
 
 
 def _text_starts(part, prefixes):
@@ -279,15 +289,58 @@ def defer_rows(new):
     store.dump_yaml(rows, DEFERRED, header=DEFERRED_HEAD)
 
 
+def lettered(kind, body):
+    """The letters an op names (STYLE 8), as written, or None: `all` and `?` name none."""
+    from . import claims
+    specs = []
+    if kind in ("cite", "primary"):
+        specs = [body.get("units")]
+    elif kind == "variant":
+        specs = [body.get("unit")]
+    elif kind in ("src", "via"):
+        specs = [(claims.parse_row(r) or (None,) * 5)[4] for r in body.get("rows") or []]
+    hit = [str(x) for x in specs if x not in (None, "", "all", "?")]
+    return ", ".join(hit) or None
+
+
+def base_problem(series, cur, body, spec):
+    """Why a letter op may not be applied to `cur` (STYLE 8), or None."""
+    from . import claims, merge
+    eid, line = cur.get("id"), claims.chash(cur.get("c"))
+    if eid in OWN_C and OWN_C[eid] == cur.get("c"):
+        return None                           # the patch's own edit wrote this line
+    if not body.get("base"):
+        return (f"names units by letter ({spec}) with no base: add base: the rev ./bib show {eid} prints "
+                "(the letters name other words once the line changes)")
+    rev = merge._base(body["base"])
+    if store.rev(cur) == rev:
+        return None
+    if START.get(eid, (None,))[0] == rev:
+        was = START[eid][1]
+    else:
+        old = merge.find_base(series, eid, rev)
+        if old is None:
+            return f"base {rev} not found: the letters ({spec}) cannot be held to the line they were read from"
+        was = claims.chash(old.get("c"))
+    if was != line:
+        return (f"the line has changed since base {rev}: the letters ({spec}) may name other words now. "
+                f"./bib show {eid}, and name them afresh")
+    return None
+
+
 def make_op(kind):
     fn = FNS[kind]
 
     def op(series, body, source, report, touched):
         eid = body.get("id")
         hit = series.get(eid)
+        spec = lettered(kind, body)
         if not hit:
             from . import ledger
-            if ledger.named(eid):
+            if spec and ledger.named(eid):
+                report.add("error", eid, f"{kind}: names units by letter ({spec}) on an entry not yet in the tree; "
+                                         "name them, with a base, once it lands")
+            elif ledger.named(eid):
                 if not DRY:
                     defer({kind: body}, source)
                 report.add("deferred", eid, f"{kind}: the entry is in the ledger, not yet the tree")
@@ -295,6 +348,10 @@ def make_op(kind):
                 report.add("error", eid, "no such entry (and not in the ledger)")
             return
         lst, sec, cur = hit
+        err = base_problem(series, cur, body, spec) if spec else None
+        if err:
+            report.add("error", eid, f"{kind}: {err}")
+            return
         new, err = fn(cur, body)
         if err:
             report.add("error", eid, err)

@@ -1321,3 +1321,65 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, 12:28 p.m. PT) "Centered. / I do want it in the build. / Alright, all outstanding work, and PR and merge."
 
 (Nov. 24, about 12:40 p.m. PT) "Sorry, immediate: Just the "pending" work, not all outstanding work. PR and merge. Then: I've shared a handful of days of screenshots of NYT items. Inventory them and put them in the queue. Then continue with the rest of queue. Make sure the work is robust to hitting the token budget. We're spending down the last 5% of the tokens before the 4:00 p.m. PT reset."
+
+(Nov. 24, about 1:50 p.m. PT) "Claude, your instructions to the reader were too restrictive. I'm seeing too many "no dated acts" in here."
+
+(Nov. 24, about 1:55 p.m. PT) "The entry doesn't "need [] the official ones." Who said that?"
+
+(Nov. 24, about 2:00 p.m. PT) "Can you give yourself a standing instruction to avoid, and to your agents to disregard, whatever limitation  wormed its way into your brief here?"
+
+(Nov. 24, about 2:05 p.m. PT) "Do we still have some rule that bars dating something from the fact of the report itself?" (Answered: R50 and R15 act as one; R15a proposed, awaiting the owner.)
+
+(Nov. 24, about 2:10 p.m. PT) On R15a as proposed: "Please do."
+
+(Nov. 24, about 2:15 p.m. PT) "Alright, but you wrote the prior briefs as you did even though we had those roles in our brief, so I'm not sure the rules being "written down and committed in two places" is enough. Can you make a disinhibiting/"disregard limitations not in the Reader Brief or the Owner's own words" rule a top-priority reader rule? An R0?"
+
+(Nov. 24, about 2:25 p.m. PT) "Could you get someone to do a comprehensive pass over the events of the 1960 DNC? As it is, our entries don't seem to conform to our current standards for dates, times-of-day, locations, "follows:", making sure content is in the entry and not the notes. The Nixon entry needs to be split, too. Putting things in order is important, and our calendar makes a mess of it for this sequence. The readers or auditors might need to go back to our sources to sort things out. The readers or auditors might also need to recommend some way to clearly state alternative, irreconcilable accounts of times and follows, but there's a good amount to be done to reconcile and order entries before that should be necessary."
+
+(Nov. 24, about 2:45 p.m. PT) "Do we have the Soviet side of the note to the PRC of July 15, 1960? How was that decision taken and carried out on the Soviet side?" (Answered: no Soviet-side entries; Prezidium TsK KPSS and Lüthi proposed for a reading.)
+
+(Nov. 24, about 2:40 p.m. PT) "Zubok and Taubman are on the drive. More Zuboks than one, I think."
+
+(Nov. 24, about 2:43 p.m. PT) "Disregard my "July 15". That was my slip. Put together a full Soviet read batch. First, inventory the PDFs I've added that haven't been caught—since you didn't catch the Zuboks and the Taubman—and add them to our records, since that's where you were inclined to search first. Then suggest and prepare batch runs for them. What should go in the Soviet run? The Sino-Soviet run? Other runs?"
+
+(Nov. 24, about 2:50 p.m. PT) "I did tell you to start on the queue, "immediate" ... We have 2% left now. What's next?" Then: "Wait, Claude. That's not the queue. What's in the queue?" (Answered: 4aw's order, the claims model first; the NYT readers and auditors started against "before any new readers or auditors start up"; their patches held unmerged until the model is in.)
+
+(Nov. 24, about 2:55 p.m. PT) "What work is awaiting my ruling? Nothing should block on "awaiting my ruling.""
+
+(Nov. 24, about 3:10 p.m. PT) "Can you remove the midsentence line breaks in the .MD? I thought we had that as a standing rule."
+
+(Nov. 24, about 3:20 p.m. PT) "Claude, I believe my spouse's "ellipses" question was founded on a misapprehension. I don't think I understand the section in the claims model brief that addresses it. What turns on this?" (Answered: little; default proposed, frames only where vis:frame or a plain "Name:" head exists, no lean warnings, no ellipses.)
+
+(Nov. 24, about 3:25 p.m. PT) "Is the current "claim splitting" model one we should continue and build on? Wouldn't it make more sense to have a not-human-readable "separator" and/or "compiler" instead?"
+
+(Nov. 24, about 3:35 p.m. PT) "Right, but your two examples have several "claims" that have identical mapping. Shouldn't that only happen on a second, "complicating" pass, which would take the prior "claim_0" create new sets of "claim" from it? So the new piece would be "claim_0" and "claim_1" for simple additions to a shared frame or for a new matter that covers all of a former claim and adds to it: "claim_00" and "claim_01" for passes that speak only to one element of a shared frame, but not the balance (so, e.g., "claim_01" speaks to "claim_0(A)", and "claim_00" = "claim_0" - "claim_0(A)")? (Feel free to cure this, patch this, or recommend a better design here. Is there a preexisting model we could use here instead of rolling out own? I don't want to make more spaghetti.) Having everything turn on full stops and semicolons in the new model seems a bit odd."
+
+(Nov. 24, about 3:45 p.m. PT) "Can you brief this for me? How does it compare to the existing suggestion?" Then: "How can a sourced claim be only "the date is open"? Does that make sense?"
+
+(Nov. 24, about 3:50 p.m. PT) "Right, but your variant doesn't make sense either. What dates are open? Claude, I'm not sure you should be writing these to a reply rather than to an MD."
+
+(Nov. 24, about 3:55 p.m. PT) "Does Design 3 require the parenthetical? It seems like it would lead to unreadable/unparseable sourcing blocks at scale."
+
+(Nov. 24, about 4:00 p.m. PT) "Claude, is your suggestion here consistent with the design rule I gave you earlier? I'm troubled by you rerolling the entire citation design scheme in a one-off reply to me here. What's wrong with footnotes? You know I have no objection to footnotes, right? I just have an objection to four footnotes that all say the same thing. When a new pass complicates and splits the original into parts, shouldn't those parts compile, mechanically, into footnoted passages, with the contents of a footnote compiled, mechanically, from the supporting citations? Shouldn't things look identical online, in print, and in the ebook? Should I have to tap or hover to see the matching?"
+
+(Nov. 24, about 4:05 p.m. PT) "Could you send this to an auditor? I want a fresh set of eyes on this. I'm not sure I've caught nearly everything, and we're far from where we started with."
+
+(The fresh review landed Nov. 24 evening: notes/proposals/claims-model-review.md; its smaller change recorded as default 35e.)
+
+(Nov. 24, about 4:10 p.m. PT) "Do you set token budgets for the agents or does the backend do that? How do they compare to your own in-session budget? Can you change the agent's "effort" settings? Can you summon a higher-level agent (i.e., Fable), or assign them a higher "effort" setting than you yourself are acting on? Or not?"
+
+(Nov. 24, about 4:20 p.m. PT) "The first reader pass on any subsequently-audited read should be in Sonnet, including in-session. Opus audits. Write that to your standing instructions. Have a Fable high effort run give me a fresh audit. Same brief as the first, save whatever minimum changes needed to reflect subsequent changes to state. When the Fable agent returns with its brief, give it the old Opus audit brief if it hasn't seen it already."
+
+(The Fable review and its comparison landed about 4:50 p.m. PT, Nov. 24: notes/proposals/claims-model-review-fable.md; defaults 35f and 36 recorded.)
+
+(Nov. 24, about 4:42 p.m. PT) "Ask the Fable agent what we're missing by not having an atomic claims model and what it would take to get there."
+
+(Nov. 24, about 5:25 p.m. PT) "Ask the Fable agent to follow our prose standard, for my sake. The Claudish vocabulary and syntax is strong here, and harder to follow than I'd like. Then ask: First, your backend renders atomic claims in plain-language sentences. Is there a way to render them that preserves precision and consistency in a less verbose form? Second, your atomic claim model cleaves the prose sentence from the claims. Is there a way to design the claim backend and the prose compiler that would resolve a set of atomic claims into prose mechanically, without the exercise of judgment? The answers to these questions may be different."
+
+(Nov. 24, about 5:30 p.m. PT) "What does the queue look like?" Then, of the answer: "That's not what the handoff says, is it? Can you reconcile the two?" (The whole queue written at the head of notes/handoff.md, "The queue, reconciled".)
+
+(Nov. 24, about 6:00 p.m. PT) "The Soviet batch and inventory between 4 and 5. The clock-time pass between 4 and the Soviet batch and inventory. The display fixes for CJK between 4 and the clock-time pass. The 1960 DNC/RNC convention pass between the Soviet batch and inventory and 5. The atomic claims trial last, after 16. Is there a reason it should go earlier? That wasn't the impression I got from the agent. I'm troubled by the knottiness we've encountered in reconciling subsequent reader batches and sorting entries, but we've made and not yet evaluated other partial remedies for and wards against it, and it doesn't sound like the atomic claims system, as proposed, would cost a great deal, and not do much to help."
+
+(Nov. 24, about 6:30 p.m. PT) "Explain the "Articles a work cites only in a footnote" default to me. What was the question? What's the issue? What's the resolution?" Then (about 6:40 p.m.), on whether to narrow it for scholarly articles: "No, I think the default ruling makes sense. If we know enough to both place an item in our span and say something about it, it makes sense to have it as an entry. What the China Quarterly said is of interest to us."
+
+(Nov. 24, about 5:40 p.m. PT) "We don't have a famine thread? Is that just because we're leaving it for the China thread review?" (Answered: yes. No famine thread in `th.yaml`; the famine entries sit under "China: Leadership". The survey of Nov. 22 measured a `china-famine` episode thread at about 930 entries, October 1959 to December 1962; it waits with the stopped China work, queue item 5, and can be made ahead of the other China threads on the owner's word. The times given for the three entries above run about an hour late.)

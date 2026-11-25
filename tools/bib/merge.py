@@ -272,6 +272,14 @@ def apply_patch(series, patch, source, report, dry=False):
     _PARTS.update(patch_parts(ops))
     _addops.DRY = dry
     _addops.PENDING = []                     # ops deferred by this patch, written with its sections
+    _addops.START.clear()                    # each entry the patch names, as the patch finds it (addops STYLE 8)
+    _addops.OWN_C.clear()
+    from . import claims as _claims
+    for op in ops:
+        (kind, body), = op.items()
+        hit = series.get((body or {}).get("id")) if isinstance(body, dict) else None
+        if hit and hit[2].get("id") not in _addops.START:
+            _addops.START[hit[2]["id"]] = (store.rev(hit[2]), _claims.chash(hit[2].get("c")))
     errors = report.errors
     for op in ops:
         (kind, body), = op.items()
@@ -449,6 +457,8 @@ def op_edit(series, body, source, report, touched):
         for c in merged.get("conflict", []):
             if c.get("base") == "\x00unknown":
                 c["base"] = None
+    if "c" in (body.get("set") or {}) and merged.get("c") == theirs.get("c"):
+        _addops.OWN_C[merged.get("id")] = merged.get("c")     # the patch's own line (addops STYLE 8)
     if merged == cur:
         report.add("same", eid)
         return

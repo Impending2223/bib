@@ -1,0 +1,254 @@
+patch: 2026-11-24-nyt-1960-07-05
+by: 'Claude (reader, New York Times, July 5, 1960, from the owner''s screenshots of Nov. 23; inventory notes/nyt/1960-07-05.md), Nov. 24, 2026'
+ops:
+- primary:
+    id: cal.1960-07-04.elections-1960
+    text: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 20 (Clayton Knowles, "Kennedy''s Reply to Truman Asks Young Leaders," "Kennedy Says Vigor of Youth Is Needed in the White House": the Hotel Roosevelt; a 1,600-word statement, read in twelve minutes, then questions from some 100 newsmen; Sorensen flew from the West Coast to Hyannis Port "yesterday," July 4 (the *Times* of July 4: July 3), and came on with him; Truman, reached at Independence, had not read it; the transcript, at 20)'
+    units: '?'
+- primary:
+    id: cal.1960-07-05.state-constitutions-ok
+    text: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Oklahoma to Vote in Primaries Today," Oklahoma City, July 4, AP: four State questions, a $35,500,000 bond issue for college buildings among them; page not shown)'
+    units: '?'
+- edit:
+    id: cal.1960-07-04.elections-1960-2
+    base: 358be2ad
+    set:
+      n: '[[w.shesol-mutual-contempt]], 35; [[w.salinger-with-kennedy]], 40 (the press conference of Connally and India Edwards: Kennedy has Addison''s disease and might prove physically unfit; Johnson''s statement denying advance knowledge; not the words quoted, the *Times* or the day). [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 19 (W. H. Lawrence, "Johnson Backers Urge Health Test," Los Angeles, July 4: Edwards, co-chairman of Citizens for Johnson; her words "Doctors have told me he would not be alive if it were not for cortisone"; Connally offers Johnson''s medical record; the page by [[w.shesol-mutual-contempt]], 35, not shown in the clipping). Check: the words: the *Times* has no "today." Check: the day: [[w.salinger-with-kennedy]], 40, puts the Connally–Edwards press conference "on the first day of the convention" (July 11). Check: the *Times* dates it July 4. To check: India Edwards oral history, LBJ Library. Names: Connally, Kennedy, Johnson.'
+- edit:
+    id: cal.1960-07-04.robert-kennedy
+    base: 2dd4bae5
+    set:
+      n: '[[w.shesol-mutual-contempt]], 35–36; [[w.thomas-robert-kennedy]], 97 (a press conference; a medical report on his brother''s health); [[w.sorensen-counselor]], 193 (at a convention press conference two of Johnson''s top aides question Kennedy''s life expectancy on the ground of Addison''s disease; the Kennedy for President press office issues a statement from Robert Kennedy that the candidate "does not now nor has he ever had an ailment described classically as Addison''s Disease, which is a tuberculous destruction of the adrenal gland"; not the day, the doctors'' report or "malicious and false"). Check: Thomas quotes the report''s word as "superb" (97). Answering Edwards: [[w.shesol-mutual-contempt]], 35–36. Check: Counselor, 193, has the statement come from the press office as Robert Kennedy''s, "does not now nor has he ever had an ailment described classically as Addison''s Disease, which is a tuberculous destruction of the adrenal gland"; the entry has him say it at a press conference, "ailment classically described as Addison''s disease.". [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Lawrence, "Johnson Backers Urge Health Test": Robert Kennedy''s words, "described classically," as *Counselor* gives them, and "malicious and false"; the report of June 11 by Eugene J. Cohen and Janet Travell; Salinger; "Use of Drug Denied," Washington, July 4, Sorensen''s earlier answer; page not shown). To check: Myer Feldman oral history, JFK Library. See [[cal.1960-07-04.elections-1960-2]]. Names: Robert Kennedy, Kennedy, Johnson. Check: the day; Shesol: "a quick press conference."'
+- add:
+    entry:
+      id: cal.1960-07-04.europe-and-the-alliance-france
+      when: July 4
+      date: '1960-07-04'
+      place: tunis
+      thread: europe-and-the-alliance-france
+      c: 'The Algerian Provisional Government, by communique, rejects the conditions France set at Melun for peace talks in Paris, "in effect a refusal to negotiate": its delegation, Abbas at its head, kept from all contact, even with Ben Bella and the other prisoners. Its acceptance of de Gaulle''s invitation stands; its envoys will return if the conditions are worked out by the two parties.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 14, 15 (Thomas F. Brady, "Algerians Balk at French Terms for Peace Talks," Tunis, July 4: the Provisional Government met July 2 and 3 on Boumendjel''s report; Tunisia''s statement welcoming it; Paris silent; the text, at 15). Names: Abbas, de Gaulle.'
+      tags: [name:abbas-ferhat, name:de-gaulle-charles]
+- add:
+    entry:
+      id: cal.1960-07-04.congo
+      when: July 4
+      date: '1960-07-04'
+      thread: congo
+      c: 'Coquilhatville. Troops fire on Mongo demonstrators asking a province of their own in Equator, ten killed, some twenty wounded. Kasai''s government orders the arrest of Ngalula''s dissident government. Otraco''s workers strike in Léopoldville for the independence bonus.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 3 (Harry Gilroy, "Congolese Police Kill 10 in Clash," "10 Killed in New Congo Clash as Police Fire on Protest Rally," Léopoldville, July 4: the *Times*''s "Munongo"; Bomboko and Ileo of the tribe; Kalonji''s wing against Lumumba''s). Check: the arrest order "reported." See [[cal.1960-07-02.congo]]. Names: Lumumba.'
+      tags: [name:lumumba-patrice, ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-04.soviet-union
+      when: July 4
+      date: '1960-07-04'
+      thread: soviet-union
+      c: 'Khrushchev in Austria: Linz, the United Austrian steel works, the West no help to Austria, "Who will help you?"; Salzburg, against the "revanchist circles" next door; the Soviet Union would not "remain idle" if Austria''s neutrality were infringed. Fuschl, his lodging.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 9 (A. M. Rosenthal, "Austrians Ignore Khrushchev Tour," Salzburg, July 4: Pittermann at the plant; the breeding farm at "Wils"). Names: Khrushchev.'
+      tags: [name:khrushchev-nikita-s, ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-04.soviet-union-u2
+      when: July 4
+      date: '1960-07-04'
+      place: moscow
+      thread: soviet-union-u2
+      c: 'Mikoyan, at Thompson''s Independence Day reception: Powers will have an open trial for spying, the date the prosecutor''s to set.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Open Trial for U-2 Pilot Announced by Mikoyan," Moscow, July 4; page not shown). See [[cal.1960-07-04.soviet-union-2]]. Names: Mikoyan, Powers.'
+      tags: [name:mikoyan-anastas, name:powers-francis-gary]
+- add:
+    entry:
+      id: cal.1960-07-04.soviet-union-2
+      when: July 4
+      date: '1960-07-04'
+      place: moscow
+      thread: soviet-union
+      c: 'Thompson''s Independence Day reception, some 500 Muscovites. Mikoyan, Kozlov and Ignatov of the Presidium; Mikoyan: relations "must improve"; Kozlov: within six to eight months. Thompson not asked this year to speak on Moscow television.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Osgood Caruthers, "Big Soviet Crowd at July 4 Party," Moscow, July 4: Van Cliburn; Mikoyan on Cuba''s oil; page not shown). Names: Thompson, Mikoyan, Kozlov, Ignatov.'
+      tags: [name:thompson-llewellyn-e, name:mikoyan-anastas, name:kozlov-frol-r, name:ignatov-nikolai-g]
+- add:
+    entry:
+      id: cal.1960-07-04.cuba
+      when: July 4
+      date: '1960-07-04'
+      place: havana
+      thread: cuba
+      c: 'Conrado Bequer, secretary general of the National Federation of Sugar Workers, on television: the workers ready to nationalize the American-owned mills when Castro orders reprisals for a cut in the quota. Its executive body meets on the seizure.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Tad Szulc, "Cuba Gets Ready to Take U.S. Mills," Havana, July 4: thirty-seven American mills by Bequer''s count, thirty-one by others''; Alfonso Gutiérrez of the Cuban Petroleum Institute: eighteen tankers on the way from the Black Sea; page not shown). Names: Castro.'
+      tags: [name:castro-fidel, ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-04.cuba-2
+      when: July 4
+      date: '1960-07-04'
+      place: havana
+      thread: cuba
+      c: 'Bonsal, at the American Club: he views the worsening relations "with sadness and growing concern"; the Cuban government''s illusion of a difference between the American government and the American people has led to miscalculations.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Szulc, "Cuba Gets Ready to Take U.S. Mills": the Independence Day speech; page not shown). Names: Bonsal.'
+      tags: [name:bonsal-philip-w]
+- add:
+    entry:
+      id: cal.1960-07-04.cuba-4
+      when: July 4
+      date: '1960-07-04'
+      place: london
+      thread: cuba
+      also: [oil]
+      c: Britain instructs its ambassador in Havana to lodge a "strong protest" against the seizure of Shell's refinery. Further action not yet decided.
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Britain Will Protest," London, July 4: a Foreign Office spokesman; page not shown).'
+- add:
+    entry:
+      id: cal.1960-07-04.cuba-3
+      when: July 4
+      date: '1960-07-04'
+      thread: cuba
+      also: [soviet-union]
+      c: 'East Berlin. Núñez Jiménez, director of the Agrarian Reform Institute, received by Ulbricht; at Humboldt University: Cuba wants relations with all the Communist countries. Trade, sugar for industrial goods.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Communist Ties Sought," Berlin, July 4: ADN; after the Soviet Union, Poland and Czechoslovakia; page not shown). Names: Núñez Jiménez, Ulbricht.'
+      tags: [name:nunez-jimenez-antonio, name:ulbricht-walter, ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-04.latin-america-dominican-republic
+      when: July 4
+      date: '1960-07-04'
+      place: caracas
+      thread: latin-america-dominican-republic
+      also: [latin-america]
+      c: 'Betancourt: the Dominican Republic plainly behind the attempt on his life; one plotter in touch with Trujillo, another trained there in explosives; proof to go to the OAS Council, to meet July 9. Receives civic leaders, his first visitors since.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Betancourt Scores Trujillo on Attack," Caracas, July 4; page not shown). See [[cal.1960-06-24.latin-america]]. Names: Betancourt, Trujillo.'
+      tags: [name:betancourt-romulo, ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-nomination
+      when: July 4
+      date: '1960-07-04'
+      place: miami
+      thread: elections-1960-nomination
+      c: 'Smathers, chairman of the Senate Democratic Campaign Committee: Butler''s is a "slanted," a "get-even" convention, squeezing out the Congressional Democrats; Collins chosen to lend respectability. Not rigged.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 10 ("Smathers Charges Butler ''Slanting''," Miami, July 4, AP: in an interview). Names: Smathers, Collins.'
+      tags: [name:smathers-george-a, name:collins-leroy, state:fl, city:miami]
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-nomination-2
+      when: July 4
+      date: '1960-07-04'
+      place: washington
+      thread: elections-1960-nomination
+      c: 'Mansfield asks an end to "snide rumors and charges": Johnson and Kennedy both in good health; questioning a nominee on section, religion, maturity or health "nefarious."'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Mansfield Scores Tactics," Washington, July 4, AP; page not shown). See [[cal.1960-07-04.elections-1960-2]]. Names: Mansfield, Johnson, Kennedy.'
+      tags: [name:mansfield-mike, name:johnson-lyndon-b, name:kennedy-john-f]
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-nomination-3
+      when: July 4
+      date: '1960-07-04'
+      place: little-rock
+      thread: elections-1960-nomination
+      c: 'Fourteen Louisianans, led by State Senator William Rainach, in an advertisement in the *Arkansas Gazette*, ask Faubus to lead a Southern bloc against both Johnson and Kennedy. Faubus has not seen it.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Racists Bid Faubus Head Delegate Bloc," Little Rock, July 4, AP: five more such advertisements scheduled; page not shown). Names: Faubus, Johnson, Kennedy.'
+      tags: [name:faubus-orval-e, name:johnson-lyndon-b, name:kennedy-john-f, state:ar, city:little-rock, ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-los-angeles-2
+      when: July 4
+      date: '1960-07-04'
+      place: los-angeles
+      thread: elections-1960-los-angeles
+      c: 'Los Angeles. The first candidate demonstration: some eighty young people march for an hour around the Biltmore, "We Want Stevenson." Kennedy''s men to open headquarters in the Biltmore''s Music Room; Johnson''s take the Fox Figueroa theatre.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 23 (Gladwin Hill, "Democrats Open Hearings Today on Platform Issues": "this afternoon"; Draft Stevenson''s two rooms). Names: Stevenson.'
+      tags: [name:stevenson-adlai-e]
+- add:
+    entry:
+      id: cal.1960-07-04.africa
+      when: July 4
+      date: '1960-07-04'
+      place: accra
+      thread: africa
+      c: 'Nkrumah opens Ghana''s first republican Parliament: a non-nuclear bloc of uncommitted states, or of African states alone; a political union of Africa, Touré with him; a bureau in Accra for South Africa''s banned nationalists.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Nkrumah Urges Nonatomic Bloc," Accra, July 4; page not shown). Names: Nkrumah.'
+      tags: [name:nkrumah-kwame, ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-04.middle-east-dimona
+      when: July 4
+      date: '1960-07-04'
+      thread: middle-east-dimona
+      c: 'Israel announces its first reactor operating: the research reactor at Nahal Sorek, of the swimming-pool type, built by the Ministry of Defense with American components under the 1955 agreement. Bergmann reports it to Ben-Gurion.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("First Atom Reactor Operating in Israel," Tel Aviv, July 4: announced "tonight"; page not shown). Names: Ben-Gurion.'
+      tags: [name:ben-gurion-david, ok:name-untagged]
+      time_band: evening
+      time_range:
+        - 1960-07-04T16:00Z
+        - 1960-07-04T21:59Z
+      time_zone: Asia/Jerusalem
+- add:
+    entry:
+      id: cal.1960-07-04.europe-and-the-alliance-federal-republic
+      when: July 4
+      date: '1960-07-04'
+      place: bonn
+      thread: europe-and-the-alliance-federal-republic
+      also: [defense]
+      c: 'Brucker, Secretary of the Army, at a news conference in Bonn: Strauss interested in medium-range ballistic missiles, the United States no objection. After the Defense Ministry''s protest, through the Embassy: he meant the Polaris, not a wish of Strauss''s to acquire it.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 9 ("Brucker Discusses Missiles for Bonn," Bonn, July 4: the correction six hours later). Names: Brucker, Strauss.'
+      tags: [name:brucker-wilber-m, name:strauss-franz-josef]
+- add:
+    entry:
+      id: cal.1960-07-04.cyprus
+      when: July 4
+      date: '1960-07-04'
+      place: nicosia
+      thread: cyprus
+      c: 'Makarios and Küçük clear the last obstacle to independence, the Turks'' 30 percent of the civil service, a committee to recommend within five months. Makarios: Cyprus in no military bloc.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Lawrence Fellows, "Cyprus to Shun Military Blocs," Nicosia, July 4: "this morning"; agreement on the form reached July 1; page not shown). Names: Makarios, Kutchuk.'
+      tags: [name:makarios-iii, name:kutchuk-fazil, ok:fields-time]
+- add:
+    entry:
+      id: cal.1960-07-04.cyprus-2
+      when: July 4
+      date: '1960-07-04'
+      place: london
+      thread: cyprus
+      c: 'Macleod, Colonial Secretary: a bill naming Cyprus''s independence day may pass Parliament before the month''s end; the settlement''s documents to be initialed at Nicosia within days by the five parties.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Action Expected in July," London, July 4; page not shown). See [[cal.1960-07-04.cyprus]]. Names: Macleod.'
+      tags: [name:macleod-iain-n]
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-rockefeller
+      when: July 4
+      date: '1960-07-04'
+      place: pocantico-hills
+      thread: elections-1960-rockefeller
+      c: 'Pocantico Hills. The Rockefellers'' dinner for King Bhumibol and Queen Sirikit of Thailand, ninety-five guests; the King plays with Benny Goodman''s band.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 10 (Milton Esterow, "2 Kings Really Go at Governor''s Party," "2 Kings Really Go at Rockefellers''": the King arrived at La Guardia that day). Names: Rockefeller.'
+      tags: [name:rockefeller-nelson, state:ny, ok:fields-time, ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-04.congress
+      when: July 4
+      date: '1960-07-04'
+      place: washington
+      thread: congress
+      c: 'Senate Judiciary''s juvenile delinquency subcommittee, in its annual report: federal aid to the States for training social workers, as in the bill the Senate passed and the House has not; referrals to juvenile courts up 175 percent, 1948–58.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 26 ("Senate Report Asks U.S. Funds to Help Delinquency Fight," Washington, July 4, AP). To check: the report, S. Rept., 86th Cong.'
+- add:
+    entry:
+      id: cal.1960-07-04.white-house
+      when: July 4
+      date: '1960-07-04'
+      place: gettysburg
+      thread: white-house
+      c: Eisenhower plays eighteen holes at Gettysburg with George E. Allen, William E. Robinson and Barry Leithead; returns to Washington by car in the afternoon. To Newport Thursday.
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("President Shoots 18 Holes of Golf," Gettysburg, July 4, UPI: eighteen on July 3; bridge; page not shown). Names: Eisenhower.'
+      tags: [name:eisenhower-dwight-d, state:pa, city:gettysburg, ok:fields-time]
+- add:
+    entry:
+      id: cal.1960-07-05.middle-east
+      when: July 5
+      date: '1960-07-05'
+      thread: middle-east
+      also: [latin-america]
+      c: 'Israel, by a note handed in at Buenos Aires by its ambassador, Levavi, asks Argentina to consider the Eichmann case closed: its apology, with the Security Council''s resolution, "adequate reparation." Argentina''s demand for his return tacitly rejected.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 8 ("Argentina Asked to End Nazi Case," Tel Aviv, July 5: the text made public "this morning"; Argentina''s note of June 8; MacKay, acting Foreign Minister, Buenos Aires, July 4). Check: the hour.'
+      tags: [ok:fields-time, ok:fields-place]

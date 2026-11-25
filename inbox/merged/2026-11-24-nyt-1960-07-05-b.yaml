@@ -1,0 +1,745 @@
+patch: 2026-11-24-nyt-1960-07-05-b
+by: 'Claude (second reader, New York Times, July 5, 1960, from the owner''s screenshots of Nov. 23; the items the first patch passed over; inventory notes/nyt/1960-07-05.md), Nov. 24, 2026'
+ops:
+- place-key: {key: rostock, name: Rostock, zone: Europe/Berlin, in: gdr}
+- check:
+    id: cal.1960-07-04.china-leadership-2
+    text: 'Check: the *New York Times*, July 5, 1960 (Katmandu, Tuesday, July 5, Reuters; page not shown), has the soldier''s body and ten Nepalese prisoners handed over "today," July 5.'
+- place-key: {key: oklee, name: 'Oklee, Minn.', zone: America/Chicago, st: MN}
+- place-key: {key: amman, name: Amman, zone: Asia/Amman, in: jordan}
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-nomination-4
+      when: July 4
+      date: '1960-07-04'
+      place: libertyville
+      thread: elections-1960-nomination
+      c: 'Stevenson, at his Libertyville farm: does not know what Truman meant; "not informed of any rigging of any kind" by the Kennedy group or any other.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 20 ("Stevenson Doubts ''Rigging''," Chicago, July 4). Names: Stevenson, Truman, Kennedy.'
+      tags: [name:stevenson-adlai-e, name:truman-harry-s, name:kennedy-john-f, state:il]
+- add:
+    entry:
+      id: cal.1960-07-05.elections-1960-kennedy
+      when: 'By July 5'
+      date: '1960-07-05'
+      thread: elections-1960-kennedy
+      c: 'Sorensen, with an assistant of Governor Hatfield of Oregon, works to block a primary bill less favorable to Kennedy; Hatfield vetoes it and lets the other become law.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 20 ("Kennedy''s Top Adviser," Man in the News). Check: the day; the bills; the year: before Kennedy''s Oregon primary ([[cal.1960-05-20.elections-1960]]), and if before Jan. 6, 1960, outside the span. Names: Sorensen, Hatfield, Kennedy.'
+      tags: [ok:fields-place, name:sorensen-theodore-c, name:hatfield-mark-o, name:kennedy-john-f, state:or]
+- add:
+    entry:
+      id: cal.1960-06-30.congress
+      when: June 30
+      date: '1960-06-30'
+      place: washington
+      thread: congress
+      also: [rules]
+      c: 'Howard W. Smith, chairman of House Rules, in a House speech, defends the committee against its critics, stung by Gerald T. Flynn''s complaint that voters are "sick and tired" of it.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 22 (John D. Morris, "Drive Is On to Curb Rules Unit," Washington, July 4: "last Thursday"). To check: 106 Cong. Rec. (1960). Names: Smith.'
+      tags: [name:smith-howard-w]
+- add:
+    entry:
+      id: cal.1960-07-04.rules
+      when: 'By July 4'
+      date: '1960-07-04'
+      place: washington
+      thread: rules
+      also: [congress]
+      c: 'Liberal Democrats of the Democratic Study Group, Holifield, Frank Thompson and Stewart Udall leading, Bolling, not of the group, their tactician, organize a drive to curb House Rules at the opening of the next Congress; the twenty-one-day rule among the proposals; an "outside coalition" of voters being organized.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 22 (Morris, "Drive On to Curb House Rules Unit"). Check: the day. Names: Holifield, Thompson, Udall, Bolling.'
+      tags: [name:holifield-chet, name:thompson-frank-jr, name:udall-stewart-l, name:bolling-richard]
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-los-angeles-3
+      when: July 4
+      date: '1960-07-04'
+      place: los-angeles
+      thread: elections-1960-los-angeles
+      c: 'J. Leonard Reinsch, the convention''s director, reports rooms found for all who asked, both rival delegations from Puerto Rico among them; the police to open command posts at the Biltmore and the Sports Arena.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 23 (Gladwin Hill, "Democrats Open Hearings Today on Platform Issues," Los Angeles, July 4).'
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-los-angeles-4
+      when: July 4
+      date: '1960-07-04'
+      place: los-angeles
+      thread: elections-1960-los-angeles
+      c: 'Stephen A. Mitchell, counsel to the convention''s Rules Committee, explains his proposed rule barring a state from changing its vote during a roll call; Kennedy''s headquarters appears prepared for it, expecting to win on the second ballot.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Leo Egan, "Convention Rule Facing a Change," Los Angeles, July 4; page not shown). Names: Mitchell, Kennedy.'
+      tags: [name:mitchell-stephen-a, name:kennedy-john-f]
+- add:
+    entry:
+      id: cal.1960-07-04.democratic-party
+      when: 'By July 4'
+      date: '1960-07-04'
+      thread: democratic-party
+      also: [elections-1960-los-angeles]
+      c: 'Jacob Arvey, Illinois national committeeman, proposes a rule giving each state a vote in the National Committee in proportion to its convention votes.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Egan, "Convention Rule Facing a Change"; page not shown). Check: the day.'
+      tags: [ok:fields-place, ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-04.white-house-2
+      when: July 4
+      date: '1960-07-04'
+      place: philadelphia
+      thread: white-house
+      c: 'The fifty-star flag raised officially at Independence Hall by a Marine color guard; Fong, given the working model by Clark and Scott, speaks on the sugar act and Cuba and the Monroe Doctrine; Scott reads Eisenhower''s greeting.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 24 (William G. Weart, "Fifty-Star Flag Flies for Fourth," Philadelphia, July 4). Names: Fong, Clark, Scott, Eisenhower.'
+      tags: [name:fong-hiram-l, name:clark-joseph-s, name:scott-hugh-d-jr, name:eisenhower-dwight-d, state:pa, city:philadelphia]
+- add:
+    entry:
+      id: cal.1960-07-04.white-house-3
+      when: July 4
+      date: '1960-07-04'
+      place: baltimore
+      thread: white-house
+      c: 'Fort McHenry, at midnight, by the President''s direction, the first raising of the fifty-star flag; some 30,000 there. Seaton, in a speech, contrasts democracy and communism; Inouye leads Hawaii''s delegation.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 1, 24 (Weart; "Program at Shrine," Baltimore, July 4, AP). Names: Seaton, Inouye, Eisenhower.'
+      tags: [name:seaton-fred-a, name:inouye-daniel-k, name:eisenhower-dwight-d, state:md]
+      time: 1960-07-04T04:00Z
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1960-07-04.white-house-4
+      when: July 4
+      date: '1960-07-04'
+      place: honolulu
+      thread: white-house
+      c: 'Honolulu, Iolani Palace, from 11:25 a.m.: the fifty-star flag raised; Governor Quinn, in a speech, on the East-West Center planned at the University of Hawaii.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 24 ("Hawaii Hails New Flag," Honolulu, July 4, UPI). Names: Quinn.'
+      tags: [name:quinn-william-f, state:hi, city:honolulu]
+      time: 1960-07-04T21:25Z
+      time_zone: Pacific/Honolulu
+- add:
+    entry:
+      id: cal.1960-07-04.congress-2
+      when: July 4
+      date: '1960-07-04'
+      place: washington
+      thread: congress
+      c: '5,200 fifty-star flags flown on the Capitol''s poles, from midnight to 10 a.m., for members who asked.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 24 ("5,200 Flags Up at Capitol," Washington, July 4, UPI).'
+      time: 1960-07-04T04:00Z
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1960-07-04.middle-east
+      when: July 4
+      date: '1960-07-04'
+      place: buenos-aires
+      thread: middle-east
+      also: [latin-america]
+      c: 'Luis MacKay, Argentina''s Acting Foreign Minister, says unofficial proposals to settle the Eichmann case are under study.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 8 ("Argentines Study Accord," Buenos Aires, July 4, Reuters).'
+- add:
+    entry:
+      id: cal.1960-07-04.middle-east-2
+      when: July 4
+      date: '1960-07-04'
+      place: amman
+      thread: middle-east
+      c: 'Lieut. Abboud Salem Hassan, of the Iraqi Air Force, at a news conference at the Amman radio station: Nasser organizing Iraqi officers to overthrow Kassem; the rising fixed for July 14 by Amer.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 9 ("Iraqi Plot Reported," Amman, July 4; the *Times* of London''s dispatch). Names: Nasser, Amer.'
+      tags: [name:nasser-gamal-abdel, name:amer-abdel-hakim, ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-03.europe-and-the-alliance-3
+      when: July 3–4
+      date: '1960-07-03'
+      thread: europe-and-the-alliance
+      c: 'Vancouver, B.C. Fire from a planer mill, from the evening of July 3, burns five blocks of waterfront; $2,000,000; fifteen hurt.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 9 ("Vancouver Hit by Fire," Vancouver, July 4, AP: "last evening"). The time is the first day''s. The thread: Canada has none (a Canada thread proposed).'
+      tags: [ok:fields-place]
+      time_range:
+      - 1960-07-04T02:00Z
+      - 1960-07-04T05:00Z
+      time_band: evening
+      time_zone: America/Vancouver
+- add:
+    entry:
+      id: cal.1960-07-03.europe-and-the-alliance-4
+      when: July 3
+      date: '1960-07-03'
+      place: warsaw
+      thread: europe-and-the-alliance
+      also: [soviet-union]
+      c: 'Brig. Gen. Bronislaw Bednarz, assistant chief of the Polish Army''s main political board, elected chairman of the Polish Tourist Association at a week-end meeting; the political board''s command apparently reshaped.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14 ("Polish Army Shifts Political Officers," Warsaw, July 4, UPI: "a week-end meeting"). Check: the day, July 2 or 3.'
+- add:
+    entry:
+      id: cal.1960-05.europe-and-the-alliance
+      when: May
+      date: '1960-05'
+      thread: europe-and-the-alliance
+      also: [soviet-union]
+      c: 'Zarzycki resigns as Poland''s Deputy Minister of Defense in charge of party activities in the army, becomes Lord Mayor of Warsaw; Brig. Gen. Wojciech Jaruzelski succeeds him.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14 ("Polish Army Shifts Political Officers": "in May"). Check: the day. Names: Jaruzelski.'
+      tags: [ok:fields-place, name:jaruzelski-wojciech]
+- add:
+    entry:
+      id: cal.1960-07-04.laos
+      when: 'By July 4'
+      date: '1960-07-04'
+      thread: laos
+      c: 'Thai police reports: Laotian troops have put down a rising of hill tribesmen fighting for the Pathet Lao; thirty to forty Cheung warriors taken; some 300 refugees into Thailand.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14 ("Laos Said to Quell Rebellion," Bangkok, July 4, AP). Check: the day.'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-04.africa-2
+      when: July 4
+      date: '1960-07-04'
+      place: london
+      thread: africa
+      also: [europe-and-the-alliance-britain]
+      c: 'House of Commons debates South Africa''s place in the Commonwealth should it become a republic. Alport, Minister of State: no precedent; Marquand, for Labor: Verwoerd says Britain, Australia and Canada would keep it in.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Commons Is Wary on South Africa," London, July 4; page not shown). To check: Hansard.'
+      tags: [ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-04.africa-3
+      when: July 4
+      date: '1960-07-04'
+      place: london
+      thread: africa
+      c: 'The Committee of African Organizations charges Portuguese troops with raiding villages around Luanda, and fifty-two arrests in Angola in the first half of June; the Portuguese Embassy denies knowledge.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Portuguese Raids in Angola Charged," London, July 4, AP; page not shown).'
+- add:
+    entry:
+      id: cal.1960-07-04.europe-and-the-alliance
+      when: July 4
+      date: '1960-07-04'
+      place: belgrade
+      thread: europe-and-the-alliance
+      c: 'Announced at Belgrade: Dillon, Under Secretary of State, to visit Yugoslavia July 17–20, the first high State Department official since Dulles in 1955.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Dillon to Visit Belgrade," Belgrade, July 4, AP; page not shown). Names: Dillon.'
+      tags: [name:dillon-c-douglas]
+- add:
+    entry:
+      id: cal.1960-07-04.congo-2
+      when: 'By July 4'
+      date: '1960-07-04'
+      thread: congo
+      also: [africa]
+      c: 'Hammarskjöld arranges for Bunche to stay in the Congo until mid-August and Stavropoulos in Somalia until the end of July; plans to leave Geneva for South Africa about July 25, by Somalia and the Congo.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Thomas J. Hamilton, "U.N. to Aid Congo and Somalia," United Nations, July 4: "reliable sources"; page not shown). Check: the day. Names: Hammarskjöld, Bunche.'
+      tags: [ok:fields-place, name:hammarskjold-dag, name:bunche-ralph-j]
+- add:
+    entry:
+      id: cal.1960-07-04.south-asia
+      when: July 4
+      date: '1960-07-04'
+      place: katmandu
+      thread: south-asia
+      also: [china]
+      c: 'Koirala repudiates Peking''s claim that the Mustang shooting took place in Chinese territory; satisfied with Zhou''s letter in its admission, regret and offer of compensation.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Nepalese Rebuffs Peiping on Incident," Katmandu, July 4; page not shown). See [[cal.1960-07-02.china-leadership-2]]. Names: Koirala, Zhou Enlai.'
+      tags: [name:koirala-bisweswar-prasad, name:zhou-enlai]
+- add:
+    entry:
+      id: cal.1960-07-04.south-asia-4
+      when: July 4
+      date: '1960-07-04'
+      thread: south-asia
+      also: [china]
+      c: 'Nehru, in Ladakh, warns of "new dangers" from China; the Army will "protect and serve you."'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Ladakh, Kashmir, July 4, Reuters," in "Nepalese Rebuffs Peiping"; page not shown). Names: Nehru.'
+      tags: [ok:fields-place, name:nehru-jawaharlal]
+- add:
+    entry:
+      id: cal.1960-07-04.europe-and-the-alliance-2
+      when: July 4
+      date: '1960-07-04'
+      place: dublin
+      thread: europe-and-the-alliance
+      c: 'Dublin Corporation elects Maurice E. Dockrell Lord Mayor, the first Protestant in sixty years.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Protestant Is Dublin Mayor," Dublin, July 4; page not shown).'
+- add:
+    entry:
+      id: cal.1960-07-04.berlin-and-vienna
+      when: July 4
+      date: '1960-07-04'
+      place: rostock
+      thread: berlin-and-vienna
+      c: 'Grotewohl, opening the Baltic Week at Rostock, on East German television, revives the 1957 proposal of non-aggression pacts among the Baltic countries and Norway; West Germany planning aggression from the Baltic.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Baltic Pact Proposed," Berlin, July 4, Reuters; page not shown). Names: Grotewohl.'
+      tags: [name:grotewohl-otto]
+- add:
+    entry:
+      id: cal.1960-05-05.berlin-and-vienna
+      when: May 5
+      date: '1960-05-05'
+      thread: berlin-and-vienna
+      also: [crime-and-hijacking]
+      c: 'Manfred Smolka, 29, a former East German police lieutenant who tried to get his wife and daughter into West Germany, convicted of espionage and sabotage by the Erfurt District Court; sentenced to death.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("East German Aide Doomed," Bonn, July 4, Reuters: "convicted May 5"; page not shown). Check: the day of the sentence.'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-04.europe-and-the-alliance-britain
+      when: July 4
+      date: '1960-07-04'
+      thread: europe-and-the-alliance-britain
+      c: 'Bevan, a comfortable night; still critical, his physicians say.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Bevan''s Condition Unchanged," London, July 4, AP; page not shown).'
+      tags: [ok:fields-place, ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-03.indonesia
+      when: July 3
+      date: '1960-07-03'
+      thread: indonesia
+      also: [china]
+      c: 'Tjimahi, West Java. Security troops enforcing the decree barring aliens from rural trade clash with Chinese; two Chinese women killed.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Peiping Makes Protest," Jakarta, July 4: an army spokesman, "yesterday"; page not shown).'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-04.indonesia
+      when: July 4
+      date: '1960-07-04'
+      place: jakarta
+      thread: indonesia
+      also: [china]
+      c: 'China protests the Tjimahi killings; Ambassador Huang Zhen hands the note to Subandrio at the Foreign Ministry.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Peiping Makes Protest," Jakarta, July 4; page not shown). Names: Huang Zhen, Subandrio.'
+      tags: [name:huang-zhen, name:subandrio]
+- add:
+    entry:
+      id: cal.1960-07-03.indonesia-2
+      when: July 3
+      date: '1960-07-03'
+      place: singapore
+      thread: indonesia
+      c: 'Singapore detains two journalists, Loke Peng Lum and Wong Chin Sen, under the Preservation of Public Security ordinance, for questioning on suspected Right-wing subversion.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Singapore Journalist Held," Singapore, July 4, Reuters: "last night"; page not shown). The thread: Singapore has none (nearest, Indonesia).'
+      time_range:
+      - 1960-07-03T14:30Z
+      - 1960-07-03T16:30Z
+      time_band: night
+      time_zone: Asia/Singapore
+- add:
+    entry:
+      id: cal.1960-03.south-asia
+      when: Mar.
+      date: '1960-03'
+      place: kabul
+      thread: south-asia
+      c: 'Khrushchev, visiting Kabul, supports Pushtoonistan.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Paul Grimes, "Tension Persists on Pakistan Line," Peshawar, June 23; page not shown). Check: the day. Names: Khrushchev.'
+      tags: [name:khrushchev-nikita-s]
+- add:
+    entry:
+      id: cal.1960-07-04.latin-america
+      when: July 4
+      date: '1960-07-04'
+      place: london
+      thread: latin-america
+      also: [cuba]
+      c: 'Frondizi, on a four-day official visit to Britain: Argentina will join the United States against any nation of the hemisphere fallen under Communist rule; asked of Cuba, respects internal decisions unless a danger to others.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Frondizi Pledges Aid Against Reds," London, July 4; page not shown). Names: Frondizi.'
+      tags: [name:frondizi-arturo]
+- add:
+    entry:
+      id: cal.1960-07-04.latin-america-2
+      when: July 4
+      date: '1960-07-04'
+      thread: latin-america
+      c: 'Perón leaves his villa near Madrid for Galicia, to stay while Frondizi is in Spain.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Madrid, July 4, Reuters, with "Frondizi Pledges Aid Against Reds"; page not shown). Names: Frondizi.'
+      tags: [ok:name-untagged, name:frondizi-arturo]
+      place: madrid
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-3
+      when: July 4
+      date: '1960-07-04'
+      place: oklee
+      thread: elections-1960
+      c: 'Coya Knutson, before thousands at Oklee''s fiftieth anniversary, announces for Congress, to disprove "the big lie"; faces Roy Wiseth, the district convention''s choice, in September.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Mrs. Knutson Is in Race," Oklee, Minn., July 4, AP; page not shown).'
+      tags: [state:mn]
+- add:
+    entry:
+      id: cal.1960-07-04.china
+      when: 'By July 4'
+      date: '1960-07-04'
+      place: havana
+      thread: china
+      also: [cuba]
+      c: 'Chinese residents of Cuba receive by mail from Peking questionnaires of the Association of Chinese Returnees on their jobs, kin and property in Cuba and China.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Peiping Surveys Chinese in Cuba," Havana, July 4; page not shown). Check: the day.'
+- add:
+    entry:
+      id: cal.1960-07-04.cuba-5
+      when: 'By July 4'
+      date: '1960-07-04'
+      thread: cuba
+      also: [china, oil]
+      c: 'The Chinese tanker *Peking*, carrying Soviet crude for Cuba, collides off Tunisia with the Norwegian *Rondefjell*; resumes its voyage the night of July 4.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Red Chinese Tanker in Crash on Way to Cuba," Tunis, July 4, Reuters: "tonight"; page not shown). Check: the day.'
+      tags: [ok:fields-place, ok:fields-time]
+- add:
+    entry:
+      id: cal.1960-07-04.china-2
+      when: July 4
+      date: '1960-07-04'
+      thread: china
+      c: 'Hsinhua reports an all-out effort to rush irrigating equipment to northeast China''s drought-struck wheat provinces, Kansu, Hopeh, Honan, Hupeh and Shantung; at least 1,000,000 cadres sent.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Red China Battles to Save Wheat Crop," Hong Kong, July 4; page not shown).'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-05.south-asia
+      when: July 5
+      date: '1960-07-05'
+      place: manila
+      thread: south-asia
+      c: 'Tourist directors of eight Asian countries meet at Manila, three days, to plan a Visit the Orient Year in 1961.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Asian Tourist Aides to Meet," Manila, July 4, Reuters: "tomorrow"; page not shown). Check: that it met.'
+- add:
+    entry:
+      id: cal.1960-07-04.crime-and-hijacking
+      when: July 4
+      date: '1960-07-04'
+      thread: crime-and-hijacking
+      c: 'Pierreville, Que. Five hooded armed men rob a branch of La Banque Provinciale du Canada of $17,000.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Five Rob Bank in Quebec," Pierreville, Que., July 4, AP; page not shown).'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-04.south-asia-2
+      when: 'By July 4'
+      date: '1960-07-04'
+      thread: south-asia
+      c: 'Floods on the Kathiawar peninsula kill thirty, the Gujarat government reports; 500 houses destroyed.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("30 Killed in Indian Floods," Bombay, July 4, AP; page not shown). Check: the days.'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-04.africa-4
+      when: July 4
+      date: '1960-07-04'
+      thread: africa
+      c: 'Nigeria''s health officers sent to fight smallpox in the Nano area, Onitsha Province; eight dead, thirty cases.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("8 Die of Smallpox in Nigeria," Lagos, July 4, UPI; page not shown).'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-04.south-asia-3
+      when: 'By July 4'
+      date: '1960-07-04'
+      place: new-delhi
+      thread: south-asia
+      c: 'The National Museum''s building completed in New Delhi; the Department of Archaeology to take eight months moving the exhibits from the Presidential Palace.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Museum Completed in New Delhi," a photograph and caption; page not shown). Check: the day.'
+- add:
+    entry:
+      id: cal.1960-07-04.japan
+      when: July 4
+      date: '1960-07-04'
+      place: tokyo
+      thread: japan
+      c: 'About 200 demonstrate before the American Embassy during its Independence Day reception against the security treaty.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("200 Protest Treaty in Tokyo," Tokyo, July 4, UPI; page not shown).'
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-nomination-5
+      when: July 4
+      date: '1960-07-04'
+      thread: elections-1960-nomination
+      c: 'AP''s tally: Kentucky''s new delegation for Johnson, 18½ of 31; Kennedy at 539½.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("New Democratic Count," Washington, July 4, AP; page not shown). Names: Johnson, Kennedy.'
+      tags: [ok:fields-place, name:johnson-lyndon-b, name:kennedy-john-f, state:ky]
+- add:
+    entry:
+      id: cal.1960-07-03.crime-and-hijacking-2
+      when: July 3
+      date: '1960-07-03'
+      thread: crime-and-hijacking
+      also: [defense]
+      c: 'Sculthorpe, the U.S. Air Force base in England. Safebreakers may have taken £250,000 of the July pay from the American Express Bank''s strongroom; Scotland Yard at work.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Police Try a Break-In," Sculthorpe, England, July 4, Reuters: "last night"; page not shown). Check: the sum.'
+      tags: [ok:fields-place]
+      time_range:
+      - 1960-07-03T21:00Z
+      - 1960-07-03T23:00Z
+      time_band: night
+      time_zone: Europe/London
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-kennedy
+      when: July 4
+      date: '1960-07-04'
+      thread: elections-1960-kennedy
+      c: 'A family spokesman at Hyannis says Mrs. Kennedy expects a second child in late November or early December; will miss the convention''s early sessions.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Second Kennedy Child Is Expected in Autumn," Hyannis, Mass., July 4, AP: "tonight"; page not shown). Names: Jacqueline Kennedy.'
+      tags: [name:kennedy-jacqueline, state:ma]
+      place: hyannis
+      time_range:
+      - 1960-07-04T23:00Z
+      - 1960-07-05T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-religion
+      when: July 4
+      date: '1960-07-04'
+      place: washington
+      thread: elections-1960-religion
+      c: 'A spokesman for the Catholic bishops says neither the hierarchy nor the National Catholic Welfare Conference has appeared before the platform committees, and will not this year.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (John Wicklein, "Religious Groups to Offer Planks": "yesterday in Washington"; page not shown).'
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-los-angeles-5
+      when: 'By July 4'
+      date: '1960-07-04'
+      thread: elections-1960-los-angeles
+      also: [immigration]
+      c: 'The National Council of Churches and the Union of American Hebrew Congregations will ask the Democratic platform committee to repeal the immigration quotas and restrain House Un-American Activities; Bishop Gerald H. Kennedy to be the first witness.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Wicklein, "Religious Groups to Offer Planks"; page not shown). Check: the day.'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-04.cities-and-housing
+      when: July 4
+      date: '1960-07-04'
+      place: nyc
+      thread: cities-and-housing
+      c: 'Yeshiva University outlines a five-story, $3,000,000 classroom and administration building at Amsterdam Avenue and 185th Street, the first construction of its $30,000,000 program for two campuses.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Yeshiva University Plans New Building": "yesterday"; page not shown).'
+      tags: [state:ny, city:new-york]
+- add:
+    entry:
+      id: cal.1960-07-06.states-and-cities
+      when: July 6
+      date: '1960-07-06'
+      place: nyc
+      thread: states-and-cities
+      c: 'The General Society of Mechanics and Tradesmen, 175 years old, marks Independence Day at its West Forty-fourth Street headquarters; McKneally, American Legion commander, to speak.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 24 ("175-Year-Old Mechanics'' Guild to Mark the ''Fourth'' Tomorrow": "tomorrow"). Check: that it was held; the day, the paper''s "tomorrow" being July 6, its matter the Fourth.'
+      tags: [state:ny, city:new-york, ok:name-untagged]
+- add:
+    entry:
+      id: cal.1960-07-01.europe-and-the-alliance
+      when: July 1–3
+      date: '1960-07-01'
+      thread: europe-and-the-alliance
+      c: 'Canada''s three-day Dominion Day holiday, 122 accidental deaths, a record; sixty-two in traffic, forty-nine drowned.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 24 ("122 Accidental Deaths Set Record in Canada," Ottawa, July 4, AP). Check: the days.'
+      tags: [ok:fields-place]
+- check:
+    id: cal.1960-07-02.cuba-3
+    text: 'Check: Szulc, in the *New York Times*, July 5, 1960 ("Cuba Gets Ready to Take U.S. Mills," Havana, July 4; page not shown), has the Havana refinery of Esso closed "early Saturday," July 2.'
+- check:
+    id: cal.1960-07-02.europe-and-the-alliance-france-3
+    text: 'Check: the Provisional Government''s communiqué of July 4 (the *New York Times*, July 5, 1960, at 15) has it meet in Tunis "July 2 and 3."'
+- primary:
+    id: cal.1960-07-02.white-house
+    text: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("President Shoots 18 Holes of Golf," Gettysburg, July 4, UPI: thirty-six holes "on Saturday"; page not shown)'
+    units: '?'
+- add:
+    entry:
+      id: cal.1960-07-04.berlin-and-vienna-2
+      when: July 4
+      date: '1960-07-04'
+      place: bonn
+      thread: berlin-and-vienna
+      c: 'A spokesman of the West German Ministry for All-German Affairs discloses an East German court''s death sentence on Manfred Smolka.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("East German Aide Doomed," Bonn, July 4, Reuters; page not shown). See [[cal.1960-05-05.berlin-and-vienna]].'
+- add:
+    entry:
+      id: cal.1960-06-08.middle-east
+      when: June 8
+      date: '1960-06-08'
+      thread: middle-east
+      also: [latin-america]
+      c: 'Argentina, by note to Israel, demands Eichmann''s return and the punishment of those responsible for the violation of Argentine law.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 8 ("Argentina Asked to End Nazi Case," Tel Aviv, July 5: "the Argentine note of June 8").'
+- add:
+    entry:
+      id: cal.1960-05.africa
+      when: May–June
+      date: '1960-05'
+      thread: africa
+      c: 'Strong troop contingents from Portugal arrive in Angola to reinforce the local security forces against political trouble after the Congo''s independence.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Portuguese Raids in Angola Charged," London, July 4, AP: "In May and June"; page not shown). Check: the days.'
+- add:
+    entry:
+      id: cal.1960-06.africa-2
+      when: June
+      date: '1960-06'
+      thread: africa
+      also: [congo]
+      c: 'The Trusteeship Council establishes a mission in Ruanda-Urundi, the Belgian trust territory beside the Congo.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Thomas J. Hamilton, "U.N. to Aid Congo and Somalia," United Nations, July 4: "Last month"; page not shown). Check: the day.'
+- add:
+    entry:
+      id: cal.1960-07-04.africa-5
+      when: 'By July 4'
+      date: '1960-07-04'
+      thread: africa
+      c: 'Pier Spinelli, head of the United Nations office at Geneva, has undertaken a special mission to Togo.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Hamilton, "U.N. to Aid Congo and Somalia": "recently"; page not shown). Check: the day.'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-04.europe-and-the-alliance-3
+      when: 'By July 4'
+      date: '1960-07-04'
+      thread: europe-and-the-alliance
+      also: [soviet-union]
+      c: 'Brig. Gen. Jozef Urbanowicz, formerly head of a military academy, has become assistant chief of the Polish Army''s main political board, the press discloses.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14 ("Polish Army Shifts Political Officers," Warsaw, July 4, UPI: "recently"). Check: the day.'
+- add:
+    entry:
+      id: cal.1960-07-04.europe-and-the-alliance-france-2
+      when: 'By July 4'
+      date: '1960-07-04'
+      place: tunis
+      thread: europe-and-the-alliance-france
+      also: [africa-algeria-morocco]
+      c: 'The Tunisian Government, by statement, congratulates the Algerian rebels on their "political sense and praiseworthy moderation"; the next move "up to General de Gaulle."'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14 (Thomas F. Brady, "Algerians Balk at French Terms," Tunis, July 4). Check: the day. Names: de Gaulle.'
+      tags: [name:de-gaulle-charles]
+- add:
+    entry:
+      id: cal.1960-07-04.cuba-6
+      when: July 4
+      date: '1960-07-04'
+      place: havana
+      thread: cuba
+      also: [press-and-broadcasting]
+      c: '*Revolución*, the regime''s newspaper, publishes a forty-page July 4 supplement, "The Negroes in the United States," of art and articles by American Negro writers on race relations.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Tad Szulc, "Cuba Gets Ready to Take U.S. Mills," Havana, July 4; page not shown).'
+- add:
+    entry:
+      id: cal.1960-07-04.cuba-7
+      when: July 4
+      date: '1960-07-04'
+      place: havana
+      thread: cuba
+      also: [press-and-broadcasting]
+      c: 'José Pardo Llada, radio commentator, the regime''s voice, in his daily broadcast: this the Fourth not of Washington, Jefferson and Lincoln but of "Buffalo Bill, Jesse James and Al Capone."'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Szulc, "Cuba Gets Ready to Take U.S. Mills"; page not shown). Names: Pardo Llada.'
+      tags: [name:pardo-llada-jose]
+- add:
+    entry:
+      id: cal.1960-07-04.cuba-8
+      when: 'By July 4'
+      date: '1960-07-04'
+      place: havana
+      thread: cuba
+      also: [oil]
+      c: 'Alfonso Gutiérrez, president of the Cuban Petroleum Institute, in an interview: eighteen tankers on the way from Black Sea ports, the first the Italian *Giuseppe Giulietti*, 200,000 barrels, due July 13; Venezuelan crude sought, to blend with the Soviet; a reserve of eight to ten days, refined at the former Shell plant and the former Texas Company''s at Santiago.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (Szulc, "Cuba Gets Ready to Take U.S. Mills"; page not shown). Check: the day.'
+- add:
+    entry:
+      id: cal.1960-06-11.elections-1960-kennedy
+      when: June 11
+      date: '1960-06-11'
+      thread: elections-1960-kennedy
+      c: 'Dr. Eugene J. Cohen and Dr. Janet Travell, Kennedy''s physicians, sign a report on his health: "excellent"; "fully capable of meeting any obligation of the Presidency"; his adrenal glands functioning at a test in December 1958.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) (W. H. Lawrence, "Johnson Backers Urge Health Test," Los Angeles, July 4: the report "dated June 11, 1960"; page not shown). Made public: released by Kennedy''s side, July 4, 1960 (the *New York Times*, July 5, 1960). Names: Kennedy.'
+      tags: [name:kennedy-john-f, ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-07-03.white-house-2
+      when: July 3
+      date: '1960-07-03'
+      place: gettysburg
+      thread: white-house
+      c: 'Eisenhower plays eighteen holes at Gettysburg; over the week-end, bridge with George E. Allen, William E. Robinson and Barry Leithead.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("President Shoots 18 Holes of Golf," Gettysburg, July 4, UPI: "eighteen on Sunday"; page not shown). Names: Eisenhower.'
+      tags: [name:eisenhower-dwight-d, state:pa, city:gettysburg]
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-los-angeles-7
+      when: 'By July 4'
+      date: '1960-07-04'
+      place: los-angeles
+      thread: elections-1960-los-angeles
+      c: 'Johnson''s forces rent the Fox Figueroa movie theatre, across from the Sports Arena, for headquarters, besides their hotel''s.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 23 (Gladwin Hill, "Democrats Open Hearings Today," Los Angeles, July 4). Check: the day. Names: Johnson.'
+      tags: [name:johnson-lyndon-b]
+- add:
+    entry:
+      id: cal.1960-07-04.elections-1960-los-angeles-8
+      when: 'By July 4'
+      date: '1960-07-04'
+      place: los-angeles
+      thread: elections-1960-los-angeles
+      c: 'The convention''s directors allot the Draft-Stevenson movement two small conference rooms at the Biltmore. Johnson and Kennedy to have auxiliary headquarters in two model homes outside the Sports Arena; Symington, losing the drawing, space for trailers.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 23 (Hill, "Democrats Open Hearings Today"). Check: the day. Names: Stevenson, Johnson, Kennedy, Symington.'
+      tags: [name:stevenson-adlai-e, name:johnson-lyndon-b, name:kennedy-john-f, name:symington-william-s]
+- add:
+    entry:
+      id: cal.1960-07-05.elections-1960-los-angeles-6
+      when: July 5
+      date: '1960-07-05'
+      place: los-angeles
+      thread: elections-1960-los-angeles
+      c: 'Kennedy''s headquarters to open in the Biltmore''s mezzanine "Music Room."'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 23 (Hill, "Democrats Open Hearings Today," Los Angeles, July 4: "tomorrow"). Check: that it opened. Names: Kennedy.'
+      tags: [name:kennedy-john-f]
+- add:
+    entry:
+      id: cal.1960-07-04.press-and-broadcasting
+      when: 'By July 4'
+      date: '1960-07-04'
+      thread: press-and-broadcasting
+      also: [elections-1960-nomination]
+      c: '*Life*''s special issue on politics, its first page an advertisement costing $152,000, "There Were No Ghost Writers at the Alamo"; a questioner calls it a "veiled plug" for Johnson, Kennedy not.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 20 (the transcript of Kennedy''s news conference of July 4). Check: the issue''s date; who placed the advertisement. Names: Johnson, Kennedy.'
+      tags: [name:johnson-lyndon-b, name:kennedy-john-f]
+- add:
+    entry:
+      id: cal.1960-06-14.europe-and-the-alliance-france
+      when: June 14
+      date: '1960-06-14'
+      thread: europe-and-the-alliance-france
+      also: [africa-algeria-morocco]
+      c: 'De Gaulle, in a speech, invites the Algerian rebels to talk peace.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14, 15 (Thomas F. Brady, "Algerians Balk at French Terms," Tunis, July 4: "the invitation to talk peace made by President de Gaulle June 14"; the Provisional Government''s communiqué, "Algerians'' Communique," Tunis, July 4, Reuters: "his speech of June 14, 1960"). Names: de Gaulle.'
+      tags: [name:de-gaulle-charles]
+- add:
+    entry:
+      id: cal.1960-06-20.europe-and-the-alliance-france
+      when: June 20
+      date: '1960-06-20'
+      thread: europe-and-the-alliance-france
+      also: [africa-algeria-morocco]
+      c: 'The Algerian Provisional Government, by statement, announces it will send a delegation under Ferhat Abbas to meet de Gaulle.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 15 (the Provisional Government''s communiqué of July 4: "its June 20 statement"). See [[cal.1960-06-14.europe-and-the-alliance-france]]. Names: Abbas, de Gaulle.'
+      tags: [name:abbas-ferhat, name:de-gaulle-charles]
+- add:
+    entry:
+      id: cal.1960-06-25.europe-and-the-alliance-france
+      when: June 25–29
+      date: '1960-06-25'
+      thread: europe-and-the-alliance-france
+      also: [africa-algeria-morocco]
+      c: 'Melun. Two emissaries of the Algerian Provisional Government, Ahmed Boumendjel among them, in talks with French representatives on the delegation''s journey; France sets its conditions.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14, 15 (Brady, "Algerians Balk at French Terms": Boumendjel "spent three days in talks"; the communiqué: "talks held in Melun June 25 to 29"). See [[cal.1960-06-14.europe-and-the-alliance-france]]. Check: the days.'
+      tags: [ok:fields-place]
+- add:
+    entry:
+      id: cal.1960-06-29.europe-and-the-alliance-france
+      when: June 29
+      date: '1960-06-29'
+      thread: europe-and-the-alliance-france
+      also: [africa-algeria-morocco]
+      c: 'A French Government communiqué on Melun: "the representatives of the Government made known the conditions under which talks could be organized."'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 15 (the Provisional Government''s communiqué of July 4 quotes it). See [[cal.1960-06-14.europe-and-the-alliance-france]].'
+- add:
+    entry:
+      id: cal.1960-06-28.south-asia
+      when: June 28
+      date: '1960-06-28'
+      thread: south-asia
+      also: [china]
+      c: 'North of the Kore pass, the Mustang area. Chinese troops, taking a party of Nepalese for Tibetan rebels, fire on them: one soldier killed, seventeen civilians taken, by Zhou Enlai''s account as reported.'
+      n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Nepalese Rebuffs Peiping on Incident," Katmandu, July 4; page not shown). Check: the number taken: ten in Zhou''s letter of July 2. Names: Zhou Enlai.'
+      tags: [name:zhou-enlai, ok:fields-place]
