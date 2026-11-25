@@ -439,6 +439,14 @@ def op_edit(series, body, source, report, touched):
     theirs = store.normalize_entry(theirs)
     if theirs.get("cuts"):                    # an edit's new line keeps the entry's cuts (tools/bib/cuts.py, STYLE 6)
         from . import cuts as _cuts
+        if "c" in (body.get("set") or {}) and "{" not in str(body["set"]["c"]) and theirs["c"] != cur.get("c"):
+            placed, lost = _cuts.carry(cur.get("c") or "", cur.get("cuts") or [], theirs["c"])
+            if lost:                          # a line written without its marks: each goes after the same words
+                report.add("error", eid, f"the edit's line has no cut marks, and part {', '.join(lost)} cannot be "
+                                         f"placed (its last sentence changed): copy the line from ./bib show {eid}, "
+                                         "marks included, and leave each mark after its words")
+                return
+            _cuts.set_line(theirs, theirs["c"], placed)
         bad = _cuts.problems(theirs.get("c") or "", theirs["cuts"])
         if bad:
             report.add("error", eid, "the edit's line does not keep the entry's cut marks ({1}, {2} ...): copy the "

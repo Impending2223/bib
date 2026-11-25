@@ -47,6 +47,19 @@ STYLE
     may have changed its note), or a rev found in git. No base, a base not found, or a line changed since: the op
     is refused, and with it the patch. One exception: a patch whose own `edit` set the line names that line's
     letters without a base. A letter op on an entry not yet in the tree is refused, not deferred.
+ 9. `on:` names a part by its words (cuts.py, STYLE 9; rulings 35f): `cite: {id, item, on: 'Moscow will send
+    Zorin.'}`; the same on `primary`, `variant` and `src` (`src: {id, row: 'via x.1965-02-07.bundy-to-johnson', on:
+    '...'}`). The merge finds the words in the line as it stands, makes the cut where there is none, and the row
+    names the part's number. `on: time` (or `date`, `place`) names a field (claims.py, STYLE 9); a variant of a
+    field is `{id, field: time, value: '15:00', witness, reads, at}`. With no `on:`, the source is for the whole
+    line as it stands at the merge: `all` where the line has no cut, else the numbers of its parts. Words no longer
+    in the line: at patch-check an error; at the merge the op is not applied, and the entry takes a conflict
+    `{kind: anchor, op, why, from}` (./bib conflicts; settled by naming the part afresh, then ./bib resolve ID
+    --take keep).
+10. `add-words: {id, after: 'Yang Shangkun attends.', words: 'Zhu De and Chen Yi are on the rostrum.', item:
+    '[[w.card]], III, 1900'}` puts the words into the line after the place named (`after: end` for the end), a part
+    of their own, cited to the item alone (cuts.py, STYLE 10; R33a). No base: two readers adding to one entry do not
+    conflict.
 """
 import os
 import re
@@ -84,14 +97,51 @@ def _units_ok(e, spec):
     return u is not None and (u == "?" or u <= set(claims.letters(n)))
 
 
+class Anchor(str):
+    """An op's refusal because its words are not in the line (STYLE 9): an error at patch-check, a conflict at the
+    merge."""
+
+
+def _target(e, body):
+    """(the entry, the row's target, None) for an op that may name a part or a field with `on:` (STYLE 9), or
+    (None, None, why not). No `on:`: (the entry, None, None)."""
+    from . import claims, cuts
+    on = body.get("on")
+    if on in (None, ""):
+        return e, None, None
+    if str(on) in claims.FIELDS:
+        if not claims.has_field(e, str(on)):
+            return None, None, f"on: {on}: the entry has no {on}"
+        return e, str(on), None
+    new, nums, why = cuts.part_for(e, on)
+    if new is None:
+        return None, None, Anchor(f"on: {str(on)[:60]!r}: {why}")
+    return new, ", ".join(nums), None
+
+
 def _with_row(e, row, replaces=None):
     """The entry's map with `row` added (STYLE 2); `replaces` (a source key: 'w.card 123', an address) drops the seeded
     row for the same source."""
     from . import claims
     src = e.get("src") or claims.mechanical(e) or {"c": claims.chash(e.get("c")), "rows": []}
     rows = list(src.get("rows") or [])
+    key, _, spec = row.rpartition(": ")
+    if replaces and e.get("cuts") and claims.NUMBERED.match(spec):
+        # a part named for a source the map has already (STYLE 9): a row for the whole line gives way (the reader
+        # narrows it); a row for other parts is joined, so two readers naming two parts keep both, in either order
+        from . import cuts
+        whole, mine = cuts.every(e), spec.split(", ")
+        for r in rows:
+            k, _, sp = r.rpartition(": ")
+            if k == replaces and claims.NUMBERED.match(sp) and set(sp.split(", ")) != set(whole):
+                mine += [x for x in sp.split(", ") if x not in mine]
+        order = whole + sorted(claims.FIELDS)
+        row = f"{key}: {', '.join(sorted(mine, key=lambda x: order.index(x) if x in order else len(order)))}"
     if replaces:
         rows = [r for r in rows if r.rsplit(": ", 1)[0] != replaces or r == row]
+    if row.endswith(": all") and e.get("cuts"):       # the whole line as it stands: its parts' numbers (STYLE 9)
+        from . import cuts
+        row = f"{row[:-5]}: {', '.join(cuts.every(e))}"
     if row not in rows:
         rows.append(row)
     return {"c": src.get("c") or claims.chash(e.get("c")), "rows": rows}
@@ -110,6 +160,11 @@ def cite(e, body):
     row_key = k[2] if lm else f"{card} {k[2]}"
     if body.get("units") and not _units_ok(e, body["units"]):
         return None, f"units {body['units']!r} not in the entry's {len(claims.units(e.get('c') or ''))}"
+    e, target, err = _target(e, body)
+    if err:
+        return None, err
+    if target:
+        body = dict(body, units=target)
     parts = nm.parse(e.get("n") or "")
     for kind, v in parts:
         if kind == "tc":
@@ -138,6 +193,11 @@ def primary(e, body):
         return None, f"primary needs a linked record: {text!r}"
     if body.get("units") and not _units_ok(e, body["units"]):
         return None, f"units {body['units']!r} not in the entry"
+    e, target, err = _target(e, body)
+    if err:
+        return None, err
+    if target:
+        body = dict(body, units=target)
     new = dict(e)
     n = e.get("n") or ""
     if not any(url in n for _, url in links):
@@ -214,7 +274,16 @@ def also(e, body):
 
 def src(e, body):
     from . import claims
+    e, target, err = _target(e, body)
+    if err:
+        return None, err
     new = dict(e)
+    if body.get("row"):                        # one source, its part named by its words (STYLE 9)
+        if not target:
+            return None, "src: a row takes on: the part's words, or a field"
+        if claims.parse_row(f"{body['row']}: {target}") is None:
+            return None, f"src row does not parse: {body['row']!r}"
+        new["src"] = _with_row(new, f"{body['row']}: {target}", replaces=body["row"])
     for r in body.get("rows") or []:
         if claims.parse_row(r) is None:
             return None, f"src row does not parse: {r!r}"
@@ -225,6 +294,12 @@ def src(e, body):
 def variant(e, body):
     """A variant (R41) added: {id, unit, witness, reads, at}; one already there the same is not added twice (the Chen
     test, point 6: variants were an `edit`, with a base, on entries others were adding to)."""
+    e, target, err = _target(e, body)
+    if err:
+        return None, err
+    if target:
+        from . import claims
+        body = dict(body, **({"field": target} if target in claims.FIELDS else {"unit": target.replace(", ", ".")}))
     row = {k: body[k] for k in ("unit", "field", "value", "witness", "reads", "at") if body.get(k) not in (None, "")}
     if not row.get("witness") or not row.get("reads"):
         return None, "variant: give at least witness and reads (and unit or field, at)"
@@ -236,6 +311,17 @@ def variant(e, body):
         vs.append(row)
     new["variants"] = vs
     return new, None
+
+
+def add_words(e, body):
+    """STYLE 10."""
+    from . import cuts
+    if not body.get("item"):
+        return None, "add-words: give item, the source the words are from"
+    new, num, why = cuts.add_words(e, body.get("after") or "end", body.get("words"))
+    if new is None:
+        return None, Anchor(f"add-words: {why}") if str(why).startswith("after:") else f"add-words: {why}"
+    return cite(new, {"item": body["item"], "units": num})
 
 
 def follows(e, body):
@@ -270,7 +356,7 @@ def place(e, body):
     return new, None
 
 
-FNS = {"place": place, "variant": variant, "follows": follows, "cite": cite, "primary": primary, "to-check": to_check, "check": check, "names": names, "also": also,
+FNS = {"add-words": add_words, "place": place, "variant": variant, "follows": follows, "cite": cite, "primary": primary, "to-check": to_check, "check": check, "names": names, "also": also,
        "src": src, "via": src}
 
 
@@ -358,10 +444,20 @@ def make_op(kind):
             report.add("error", eid, f"{kind}: {err}")
             return
         new, err = fn(cur, body)
+        if isinstance(err, Anchor) and not DRY:    # the words are gone since the patch was checked (STYLE 9)
+            new = dict(cur)
+            mark = {"kind": "anchor", "op": {kind: dict(body)}, "why": str(err), "from": source}
+            if mark not in (cur.get("conflict") or []):
+                new["conflict"] = list(cur.get("conflict") or []) + [mark]
+            i = next(k for k, x in enumerate(sec.entries) if x is cur)
+            sec.entries[i] = new
+            touched.add(sec)
+            report.add("conflict", eid, f"{kind}: {err}")
+            return
         if err:
             report.add("error", eid, err)
             return
-        new = store.normalize_entry(new)
+        new = store.normalize_entry(store.stored_form(new)) if new.get("cuts") else store.normalize_entry(new)
         if new == cur:
             report.add("same", eid, kind)
             return

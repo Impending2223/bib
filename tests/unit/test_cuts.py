@@ -148,3 +148,66 @@ def test_the_variant_op_takes_a_field():
     assert addops.lettered('variant', {'unit': '2'}) is None                      # a number needs no base
     assert addops.lettered('cite', {'units': '1, 2'}) is None
     assert addops.lettered('src', {'rows': ['w.frus 12: 2', 'w.frus 12: time']}) is None
+
+
+# Step 8: a patch names a part by its words (`on:`), and adds words as a part of their own.
+def _note_entry():
+    return store.normalize_entry({'id': 'cal.1961-03-10.berlin', 'date': '1961-03-10', 'c': THREE,
+                                  'n': '[[w.frus]], 12. To check: [[w.beschloss]].'})
+
+
+def test_cite_on_cuts_the_line_and_keeps_the_old_source_whole():
+    from bib import addops
+    new, err = addops.cite(_note_entry(), {'item': '[[w.beschloss]], 123', 'on': 'Moscow will send Zorin.'})
+    assert err is None
+    assert store.stored_form(new)['c'] == 'Rusk sees Dobrynin. The talks will resume on Monday;{2} Moscow will send Zorin.{3}'
+    assert new['src']['rows'] == ['w.frus 12: 2, 3', 'w.beschloss 123: 3'] and new['cut_from'] == {'2': '1', '3': '1'}
+    assert _per_unit(new) == [['w.frus'], ['w.frus'], ['w.beschloss', 'w.frus']]
+
+
+def test_two_parts_named_for_one_source_in_either_order():
+    from bib import addops
+    a = {'item': '[[w.beschloss]], 123', 'on': 'Moscow will send Zorin.'}
+    b = {'item': '[[w.beschloss]], 123', 'on': 'Rusk sees Dobrynin.'}
+    x = addops.cite(addops.cite(_note_entry(), a)[0], b)[0]
+    y = addops.cite(addops.cite(_note_entry(), b)[0], a)[0]
+    assert _per_unit(x) == _per_unit(y) == [['w.beschloss', 'w.frus'], ['w.frus'], ['w.beschloss', 'w.frus']]
+
+
+def test_words_not_in_the_line_are_an_anchor_refusal():
+    from bib import addops
+    new, err = addops.cite(_note_entry(), {'item': '[[w.beschloss]], 123', 'on': 'Moscow will send Gromyko.'})
+    assert new is None and isinstance(err, addops.Anchor)
+    new, err = addops.cite(_note_entry(), {'item': '[[w.beschloss]], 123', 'on': 'will send Zorin.'})
+    assert new is None and 'do not begin' in err
+
+
+def test_add_words_is_a_part_of_its_own_with_its_own_source():
+    from bib import addops
+    new, err = addops.add_words(_note_entry(), {'after': 'Rusk sees Dobrynin.', 'words': 'Thompson is present.',
+                                                'item': '[[w.beschloss]], 124'})
+    assert err is None
+    assert store.stored_form(new)['c'] == ('Rusk sees Dobrynin.{2} Thompson is present.{4} The talks will resume on Monday; '
+                                           'Moscow will send Zorin.{3}')
+    assert _per_unit(new) == [['w.frus'], ['w.beschloss'], ['w.frus'], ['w.frus']]
+    end, err = addops.add_words(_note_entry(), {'words': 'Thompson is present.', 'item': '[[w.beschloss]], 124'})
+    assert err is None and store.stored_form(end)['c'] == THREE + '{1} Thompson is present.{2}'
+    assert _per_unit(end) == [['w.frus'], ['w.frus'], ['w.frus'], ['w.beschloss']]
+
+
+def test_cite_on_a_field_and_no_on_with_cuts():
+    from bib import addops
+    e = dict(_note_entry(), time='15:00')
+    new, err = addops.cite(e, {'item': '[[w.beschloss]], 123', 'on': 'time'})
+    assert err is None and new['src']['rows'][-1] == 'w.beschloss 123: time' and 'cuts' not in new
+    cut = addops.cite(_note_entry(), {'item': '[[w.beschloss]], 123', 'on': 'Moscow will send Zorin.'})[0]
+    more, err = addops.cite(cut, {'item': '[[w.reeves]], 9'})
+    assert err is None and more['src']['rows'][-1] == 'w.reeves 9: 2, 3'           # the whole line as it stands
+
+
+def test_an_edit_without_marks_carries_them():
+    from bib import cuts
+    c, ks = cuts.strip(THREE_CUT)
+    placed, lost = cuts.carry(c, ks, 'Sunday. ' + c)
+    assert lost == [] and cuts.insert('Sunday. ' + c, placed) == 'Sunday. Rusk sees Dobrynin. The talks will resume on Monday;{1} Moscow will send Zorin.{2}'
+    assert cuts.carry(c, ks, c.replace('Zorin', 'Gromyko'))[1] == ['2']
