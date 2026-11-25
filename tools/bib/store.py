@@ -21,7 +21,7 @@ ROOT = os.path.abspath(os.environ.get("BIB_ROOT") or
 LISTS = os.path.join(ROOT, "lists")
 
 # Field order inside an entry. Anything else is kept, after these.
-ENTRY_FIELDS = ["id", "when", "date", "at", "time", "time_approx", "place", "thread", "also", "follows", "part_of", "s", "work", "card_note", "byline", "ditto", "c", "c2", "c3", "r", "n", "src", "gloss", "tags",
+ENTRY_FIELDS = ["id", "when", "date", "at", "time", "time_approx", "place", "thread", "also", "follows", "part_of", "s", "work", "card_note", "byline", "ditto", "c", "cuts", "cut_from", "c2", "c3", "r", "n", "src", "gloss", "tags",
                 "aliases", "conflict"]
 
 
@@ -261,6 +261,16 @@ def stored_form(entry):
     the writer's: a new note is the listing's note; a new citation cuts the pointer (the entry cites as written)."""
     d = entry.get("_derived")
     out = {k: v for k, v in entry.items() if not k.startswith("_")}
+    ks = out.get("cuts")                   # a calendar line's cuts go back into it (tools/bib/cuts.py, STYLE 5)
+    if isinstance(ks, list) and all(isinstance(x, (list, tuple)) and len(x) == 2 for x in ks):
+        from . import cuts as _cuts
+        del out["cuts"]
+        if ks:
+            bad = _cuts.problems(out.get("c") or "", ks)
+            if bad:
+                raise ValueError(f"{out.get('id')}: the line's cuts do not fit it ({'; '.join(bad)}); set the line "
+                                 "and its cuts together (cuts.set_line)")
+            out["c"] = _cuts.insert(out["c"], ks)
     if not d:
         return out
     for k, (shown, stored) in d.items():
@@ -306,6 +316,11 @@ def normalize_entry(e):
     for k in ("c", "work"):
         if isinstance(e.get(k), list) and len(e[k]) == 1:
             e[k] = e[k][0]
+    if isinstance(e.get("c"), str) and "{" in e["c"] and str(e.get("id") or "").startswith("cal."):
+        from . import cuts as _cuts        # a calendar line's cut marks, out of the line (tools/bib/cuts.py, STYLE 5)
+        plain, ks = _cuts.strip(e["c"])
+        if ks:
+            e["c"], e["cuts"] = plain, ks
     ordered = {k: e[k] for k in ENTRY_FIELDS if k in e}
     ordered.update({k: v for k, v in e.items() if k not in ordered})
     return ordered

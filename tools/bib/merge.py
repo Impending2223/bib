@@ -437,6 +437,14 @@ def op_edit(series, body, source, report, touched):
     for k in body.get("unset") or []:
         theirs.pop(k, None)
     theirs = store.normalize_entry(theirs)
+    if theirs.get("cuts"):                    # an edit's new line keeps the entry's cuts (tools/bib/cuts.py, STYLE 6)
+        from . import cuts as _cuts
+        bad = _cuts.problems(theirs.get("c") or "", theirs["cuts"])
+        if bad:
+            report.add("error", eid, "the edit's line does not keep the entry's cut marks ({1}, {2} ...): copy the "
+                                     f"line from ./bib show {eid}, marks included, and leave each after its words "
+                                     f"({'; '.join(bad)})")
+            return
     named = list((body.get("set") or {}).keys()) + list(body.get("unset") or [])
     if not body.get("base"):
         # No base: the editor did not say which version they changed. Apply,
