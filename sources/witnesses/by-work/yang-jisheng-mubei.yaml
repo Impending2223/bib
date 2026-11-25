@@ -1,887 +1,2762 @@
 # w.yang-jisheng-mubei: its edges, page and note to the witness its text rests on (tools/bib/witnesses.py).
-# run 1
-- {at: 'I, 72 n.56', of: w.zhang-shufan-xinyang-shijian, kind: citation}
-- {at: 'I, 72 n.57', of: w.zhang-shufan-xinyang-shijian, kind: citation}
-- {at: 'I, 67 n.t1', of: x.1960-04.henan-supervisory-committee-report-gushi-deaths, kind: citation}
-- {at: 'I, 72 n.t1', of: x.1960-04.henan-supervisory-committee-report-gushi-deaths, kind: citation}
-- {at: 'I, 72 n.t2', of: x.2001-03.li-jian-interview-yang-jisheng, kind: citation}
-- {at: 'I, 73 n.t1', of: x.2001-03.li-jian-interview-yang-jisheng, kind: citation}
-- {at: 'I, 74 n.t1', of: x.2001-03.li-jian-interview-yang-jisheng, kind: citation}
-- {at: 'I, 38 n.8', of: x.1960-06-18.work-group-report-xinyang-deaths-and-grain, kind: citation}
-- {at: 'I, 56 n.29', of: x.1960-06-18.work-group-report-xinyang-deaths-and-grain, kind: citation}
-- {at: 'I, 46 n.18', of: x.1960-06-03.henan-inspection-team-taolin-commune-report, kind: citation}
-- {at: 'I, 46 n.19', of: x.1960-06-03.huangchuan-county-committee-second-inspection-deaths, kind: citation}
-- {at: 'I, 50 n.26', of: x.1960-06-03.henan-inspection-team-taolin-commune-report, kind: citation}
-- {at: 'I, 57 n.30', of: x.1960-06-03.sanpisi-commune-group-report-huangchuan-deaths, kind: citation}
-- {at: 'I, 68 n.50', of: x.1960-06-03.sanpisi-commune-group-report-huangchuan-deaths, kind: citation}
-- {at: 'I, 69 n.53', of: x.1960-12.wang-binglin-materials-exposing-yang-weiping, kind: citation}
-- {at: 'I, 69 n.54', of: x.1960-12.wang-binglin-materials-exposing-yang-weiping, kind: citation}
-- {at: 'I, 71 n.55', of: x.1960-12.wang-binglin-materials-exposing-yang-weiping, kind: citation}
-- {at: 'I, 69 n.t1', of: x.2001-03.li-ruiying-account-yang-jisheng, kind: citation}
-- {at: 'I, 70 n.t1', of: x.2001-11-09.yu-dehong-typescript-xinyang-incident, kind: citation}
-- {at: 'I, 71 n.t1', of: x.2001-11-09.yu-dehong-typescript-xinyang-incident, kind: citation}
-- {at: 'I, 75 n.t1', of: x.1990-10-30.wang-congwu-interview-qiao-peihua, kind: citation}
-- {at: 'I, 76 n.t1', of: x.1990-10-30.wang-congwu-interview-qiao-peihua, kind: citation}
-- {at: 'I, 75 n.58', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: 9, 326}
-- {at: 'I, 76 n.59', of: w.qiao-peihua-zhou-enlai-yu-xinyang, kind: citation}
-- {at: 'I, 47 n.20', of: x.1960-10-09.org-dept-henan-group-report-xi-county-fanghu, kind: citation}
-- {at: 'I, 47 n.21', of: x.1960-10-09.xi-county-investigation-report-li-zhenhai-et-al, kind: citation}
-- {at: 'I, 62 n.37', of: x.1960-10-09.xi-county-investigation-report-li-zhenhai-et-al, kind: citation}
-- {at: 'I, 50 n.24', of: x.2000-07-19.qiao-peihua-xinyang-shijian-typescript, kind: citation}
-- {at: 'I, 61 n.34', of: x.1960-11-01.henan-committee-examination-xinyang-incident, kind: citation}
-- {at: 'I, 61 n.35', of: x.1960-12-06.xu-zirong-speech-henan-standing-committee, kind: citation}
-- {at: 'I, 61 n.36', of: x.1960-10-15.yang-weiping-report-xinyang-incident, kind: citation}
-- {at: 'I, 38 n.9', of: x.1960-11-01.henan-committee-examination-xinyang-incident, kind: citation}
-- {at: 'I, 50 n.25', of: x.1960-11-01.henan-committee-request-expel-lu-sentence-ma, kind: citation}
-- {at: 'I, 44 n.15', of: x.1960-11-28.li-li-report-to-wu-zhipu-huaidian-commune, kind: citation}
-- {at: 'I, 43 n.14', of: x.2000-07-19.qiao-peihua-xinyang-shijian-typescript, kind: citation}
-- {at: 'I, 68 n.51', of: x.1960-12-21.wei-zhen-report-outstanding-problems-county, kind: citation}
-- {at: 'I, 68 n.52', of: x.1960-12-22.xinyang-prefectural-committee-report-rectification-famine-relief, kind: citation}
-- {at: 'I, 78 n.62', of: x.1960-12-22.xinyang-prefectural-committee-report-rectification-famine-relief, kind: citation}
-- {at: 'I, 77 n.60', of: x.1960-12-01.wang-congwu-xu-zirong-report-feudal-restoration-xinyang, kind: citation}
-- {at: 'I, 77 n.61', of: x.2000-07-19.qiao-peihua-xinyang-shijian-typescript, kind: citation}
-- {at: 'I, 77 n.t1', of: x.1960-10.zhang-desheng-relay-of-mao-talks-oct-27-28, kind: citation}
-- {at: 'I, 79 n.63', of: x.1960-11-20.central-case-group-report-xinyang-cases, kind: citation}
-- {at: 'I, 82 n.64', of: x.1960-12-06.wang-renzhong-speech-henan-standing-committee, kind: citation}
-- {at: 'I, 82 n.65', of: x.1960-12-06.xu-zirong-speech-henan-standing-committee, kind: citation}
-- {at: 'I, 83 n.66', of: x.1960-12-06.wang-congwu-speech-henan-standing-committee, kind: citation}
-- {at: 'I, 84 n.67', of: x.1960-10.lu-xianwen-self-examination-draft, kind: citation}
-- {at: 'I, 85 n.68', of: x.1960-10-21.ma-longshan-self-examination-xinyang, kind: citation}
-- {at: 'II, 838 n.63', of: w.xianzhi-mao-zedong-zhuan-1949, kind: citation, pin: II, 1044}
-- {at: 'II, 838 n.64', of: w.xianzhi-mao-zedong-zhuan-1949, kind: citation, pin: II, 1045}
-- {at: 'II, 838 n.65', of: w.mao-zedong-zhuan, kind: citation, pin: 939}
-- {at: 'II, 838 n.66', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: 9, 326}
-- {at: 'II, 834 n.58', of: x.1995.feng-tongqing-shiji-youjing-dan-qiu-wuxian, kind: citation}
-- {at: 'II, 835 n.59', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: 9, 349–350}
-- {at: 'II, 817 n.18', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation}
-- {at: 'II, 813 n.7', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation, pin: 573}
-- {at: 'II, 813 n.8', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation, pin: 572}
-- {at: 'II, 813 n.9', of: x.1960-02-14.sichuan-symposium-li-jingquan-prefectural-secretaries, kind: citation}
-- {at: 'II, 815 n.13', of: x.1958-11.mao-talks-first-zhengzhou-meeting-wansui, kind: citation}
-- {at: 'II, 815 n.14', of: x.1999.li-rui-dayuejin-qinlishi-xia, kind: citation}
-- {at: 'II, 816 n.15', of: x.1960-12-13.shu-tong-my-examination-shandong-enlarged-meeting, kind: citation}
-- {at: 'II, 816 n.16', of: x.1996.tao-lujia-mao-zhuxi-jiao-women-dang-shengwei-shuji, kind: citation}
-- {at: 'II, 816 n.17', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: 8, 235}
-- {at: 'II, 818 n.19', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: 9, 364–365}
-- {at: 'II, 822 n.25', of: x.1960-11-19.dongtai-work-team-report-lunan-brigade, kind: citation}
-- {at: 'II, 822 n.26', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation, pin: 689}
-- {at: 'II, 823 n.27', of: x.1960-11.suzhou-committee-brief-mocheng-commune-twelve-articles, kind: citation}
-- {at: 'II, 823 n.28', of: x.1960-11-23.qutang-work-team-report-huzhuang-brigade, kind: citation}
-- {at: 'II, 836 n.60', of: x.1960-12-08.center-directive-grave-situation-shandong-henan-gansu-guizhou, kind: citation}
-- {at: 'I, 36 n.3', of: x.1960-11-20.xinyang-case-review-group-on-ma-longshan, kind: citation}
-- {at: 'I, 36 n.4', of: w.zhang-shufan-xinyang-shijian, kind: citation}
-- {at: 'I, 36 n.5', of: w.zhang-shufan-xinyang-shijian, kind: citation}
-- {at: 'I, 67 n.48', of: x.1999.lu-baoguo-account-yang-jisheng, kind: citation}
-- {at: 'I, 67 n.49', of: x.1960.zhang-fu-account-suppressed-report-to-center, kind: citation}
-- {at: 'I, 167 n.46', of: x.2000-08-10.tongwei-old-cadres-symposium-yang-jisheng, kind: citation}
-- {at: 'I, 167 n.47', of: x.1960-03-30.dingxi-procuratorate-report-tongwei-labor-education-teams, kind: citation}
-- {at: 'I, 167 n.48', of: x.1960-04-21.center-forwarding-gansu-report-tongwei-county-committee, kind: citation}
-- {at: 'I, 172 n.49', of: x.1960-04-21.center-forwarding-gansu-report-tongwei-county-committee, kind: citation}
-- {at: 'I, 170 n.t1', of: x.1960-03-10.tongwei-county-committee-telephone-report, kind: citation}
-- {at: 'I, 171 n.t1', of: x.1960-04-20.dou-minghai-report-tongwei-longxi-inspection, kind: citation}
-- {at: 'I, 171 n.t2', of: x.1960-04-06.gansu-committee-report-tongwei-county-committee-degenerate, kind: citation}
-- {at: 'I, 175 n.51', of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years, kind: citation}
-# audit of run 1, Nov. 19
-- {at: 'I, 66 n.46', of: x.1960-10-09.xi-county-investigation-report-li-zhenhai-et-al, kind: citation}
-- {at: 'I, 66 n.47', of: x.2001-03.li-ruiying-account-yang-jisheng, kind: citation}
-- {at: 'I, 85 n.t1', of: x.1999.zhang-shenglan-account-yang-jisheng, kind: citation}
-- {at: 'I, 170 n.t2', of: x.1960-02-19.li-kunrun-report-to-zhang-zhongliang-tongwei, kind: citation}
-# run 2
-- {at: 'I, 139 n.12', of: x.1960-02-17.qingshui-county-committee-telephone-report-livelihood-outflow, kind: citation}
-- {at: 'I, 139 n.t1', of: x.1960-07.gansu-committee-report-to-center-one-finger-question, kind: citation}
-- {at: 'I, 139 n.11', of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years, kind: citation}
-- {at: 'I, 144 n.21', of: x.1960-08-19.gansu-rural-work-department-report-minxian-problem, kind: citation}
-- {at: 'I, 132 n.6', of: x.1960-11-09.gansu-three-level-cadre-meeting-bulletin-4, kind: citation}
-- {at: 'I, 132 n.7', of: x.1960-11-09.gansu-three-level-cadre-meeting-bulletin-6, kind: citation}
-- {at: 'I, 133 n.8', of: x.1960-11-11.gansu-three-level-cadre-meeting-bulletin-13, kind: citation}
-- {at: 'I, 133 n.9', of: x.1960-11-11.gansu-three-level-cadre-meeting-bulletin-13, kind: citation}
-- {at: 'I, 149 n.28', of: x.1960-12-03.lanzhou-municipal-committee-report-edema-cadres-workers, kind: citation}
-- {at: 'I, 148 n.27', of: x.1960-12-09.gansu-industry-transport-department-report-edema, kind: citation}
-- {at: 'I, 148 n.t2', of: x.1960-12-11.yumen-city-committee-report-edema-mines-enterprises-schools, kind: citation}
-- {at: 'I, 148 n.t1', of: x.1960-12-18.baiyin-city-committee-report-edema-prevention, kind: citation}
-- {at: 'I, 140 n.t1', of: x.1960-12-23.gansu-committee-departments-death-tables-1958-60, kind: citation}
-- {at: 'I, 144 n.20', of: x.1960-12-24.tianshui-prefectural-committee-report-free-medical-funds, kind: citation}
-- {at: 'I, 149 n.t1', of: x.1960-12-30.jiuquan-iron-steel-company-committee-report-edema, kind: citation}
-- {at: 'I, 149 n.t2', of: x.1960.yumen-labor-reform-department-report-farm-deaths, kind: citation}
-- {at: 'I, 165 n.43', of: x.1961-01-12.dingxi-work-group-report-prefectural-enlarged-meeting-bulletin-3, kind: citation}
-- {at: 'I, 202 n.31', of: x.1960-02-09.national-grain-bureau-chiefs-conference-bulletin-nanchong, kind: citation}
-- {at: 'I, 201 n.29', of: x.1960-02-14.sichuan-symposium-li-jingquan-prefectural-secretaries, kind: citation}
-- {at: 'I, 202 n.30', of: x.1960-03-26.li-jingquan-speech-second-nanchong-prefectural-secretaries-meeting, kind: citation}
-- {at: 'I, 212 n.54', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 80'}
-- {at: 'I, 211 n.51', of: x.1960-03-26.guan-county-committee-office-report-two-abnormal-deaths, kind: citation}
-- {at: 'I, 205 n.35', of: x.1960-04-04.liu-wang-xiao-report-jintang-sanxing-mess-hall, kind: citation}
-- {at: 'I, 214 n.61', of: x.1960-04-16.qiao-zhai-report-neijiang-edema-zizhong, kind: citation}
-- {at: 'I, 210 n.50', of: x.1960-04-25.wenjiang-prefectural-office-telephone-record-dayi-county, kind: citation}
-- {at: 'I, 228 n.95', of: x.1960-05-02.agricultural-inspection-corps-jiangjin-group-report-fines, kind: citation}
-- {at: 'I, 227 n.91', of: x.1960-05-03.agricultural-inspection-corps-jiangjin-group-report-meals, kind: citation}
-- {at: 'I, 222 n.83', of: x.1960-06-03.luzhou-inspection-group-reports-production-living-illegal-conduct, kind: citation}
-- {at: 'I, 203 n.32', of: x.1960-08-05.li-jingquan-letter-to-li-xiannian-sichuan-grain-levy, kind: citation}
-- {at: 'I, 206 n.36', of: x.1960-09-26.liang-qishan-letter-kai-county-grain-edema, kind: citation}
-- {at: 'I, 227 n.92', of: x.1960-10-03.wang-ziqing-report-rong-county-problems, kind: citation}
-- {at: 'I, 206 n.37', of: x.1960-10-22.bishan-county-committee-twelve-urgent-measures-edema, kind: citation}
-- {at: 'I, 215 n.62', of: x.1960-10-28.xue-zhiqiang-letter-wanxian-grain-inspection-group, kind: citation}
-- {at: 'I, 188 n.3', of: x.1960-11-30.zhang-liu-report-rong-county-problem, kind: citation}
-- {at: 'I, 227 n.92', of: x.1960-11-30.zhang-liu-report-rong-county-problem, kind: citation}
-- {at: 'I, 185 n.1', of: x.1960-12-01.gao-yilu-preliminary-check-losses-communist-wind-pi-county, kind: citation}
-- {at: 'I, 186 n.2', of: x.1960-12-01.gao-yilu-preliminary-check-losses-communist-wind-pi-county, kind: citation}
-- {at: 'I, 188 n.4', of: x.1960-12-01.gao-yilu-preliminary-check-losses-communist-wind-pi-county, kind: citation}
-- {at: 'I, 190 n.8', of: x.1960-12-01.li-huaipei-speech-sichuan-second-phase-work-conference, kind: citation}
-- {at: 'I, 248 n.102', of: x.1960-12-01.wenjiang-work-group-pan-tingguang-illegal-conduct-case, kind: citation}
-- {at: 'I, 248 n.101', of: x.1960-12-06.public-security-qionglai-joint-work-group-report-yang-shulou, kind: citation}
-- {at: 'I, 216 n.70', of: x.1960-12-13.wang-shuben-report-wenjiang-prefectural-committee-songlin-hospital, kind: citation}
-- {at: 'I, 216 n.69', of: w.dong-fu-maimiaoer-qing, kind: citation}
-- {at: 'I, 247 n.119', of: x.1960-11-03.rural-work-bulletin-83-neijiang-pigs, kind: citation}
-- {at: 'I, 252 n.t1', of: x.1960.sichuan-committee-instruction-household-registration-population-statistics, kind: citation}
-- {at: 'I, 250 n.126', of: x.1960-10-03.wang-ziqing-report-rong-county-problems, kind: citation}
-- {at: 'I, 248 n.102', of: w.dong-fu-maimiaoer-qing, kind: citation}
-- {at: 'I, 252 n.131', of: w.dong-fu-maimiaoer-qing, kind: citation}
-- {at: 'I, 190 n.9', of: x.1959-07-09.yibin-branch-jiangan-work-team-report-changning-taoping-commune, kind: citation}
-- {at: 'I, 205 n.34', of: w.dangdai-sichuan-yaoshi-shilu, kind: citation, pin: '66–67'}
-- {at: 'I, 206 n.38', of: x.1962-01-02.bishan-county-committee-report-1961-disease-prevention, kind: citation}
-- {at: 'I, 206 n.39', of: x.1961-01-17.mianyang-work-group-songxi-commune-backwardness-material, kind: citation}
-- {at: 'I, 210 n.48', of: x.1962-07-24.provincial-disease-elimination-office-disease-situation, kind: citation}
-- {at: 'I, 210 n.49', of: x.1962-09-04.li-dingbang-yaan-area-production-living, kind: citation}
-- {at: 'I, 211 n.52', of: x.2011-09-12.wang-xiansheng-letter-to-yang-jisheng-two-cases, kind: citation}
-- {at: 'I, 211 n.53', of: x.1959-05-23.cc-propaganda-department-xuanjiao-dongtai-edema, kind: citation}
-- {at: 'I, 212 n.55', of: x.1961-02-01.health-ministry-party-group-report-prevention-main-diseases, kind: citation}
-- {at: 'I, 213 n.56', of: x.1959-08-09.yang-wanxuan-report-changning-drought-edema, kind: citation}
-- {at: 'I, 213 n.57', of: x.1959-12-07.luzhou-prefectural-office-report-gulin-disease, kind: citation}
-- {at: 'I, 213 n.58', of: x.1959-12-08.li-jingquan-comment-luzhou-gulin-disease-report, kind: citation}
-- {at: 'I, 213 n.59', of: x.1959-12-12.luzhou-committee-forwards-gulin-epidemic-investigation-group-report, kind: citation}
-- {at: 'I, 214 n.60', of: x.1961-01-18.provincial-disease-elimination-office-work-group-edema-prevention, kind: citation}
-- {at: 'I, 215 n.63', of: x.1961-03-07.provincial-disease-elimination-office-edema-prevention-work, kind: citation}
-- {at: 'I, 216 n.65', of: x.1961-08-26.wei-ping-tan-wancai-report-fuling-inspection-group, kind: citation}
-- {at: 'I, 216 n.66', of: x.1961-08-12.prefectural-disease-elimination-office-fuling-wulong-commune-bulletin, kind: citation}
-- {at: 'I, 216 n.67', of: x.1962-09-04.li-dingbang-yaan-area-production-living, kind: citation}
-- {at: 'I, 216 n.68', of: x.1962-05-27.zhou-yi-report-xichang-area-odds-and-ends, kind: citation}
-- {at: 'I, 228 n.93', of: x.1961-01-22.liu-wenzhen-report-five-counties-rectification-guidance, kind: citation}
-- {at: 'I, 228 n.94', of: x.1961-09-20.provincial-inspection-corps-fuling-group-maan-commune-report, kind: citation}
-- {at: 'I, 188 n.5', of: x.1961-01-05.rural-work-department-investigation-group-leshan-baiyang-tools, kind: citation}
-- {at: 'I, 189 n.6', of: x.1961-01-16.work-group-leshan-mianzhu-commune-cadres-blind-direction, kind: citation}
-- {at: 'I, 189 n.7', of: x.1961-01-31.li-lin-report-dianjiang-chengxi-commune-chunhua-district, kind: citation}
-- {at: 'I, 221 n.82', of: x.1962-01-16.provincial-inspection-group-report-rong-county-serious-problems, kind: citation}
-- {at: 'I, 247 n.117', of: x.1962-05.sichuan-statistical-bureau-1962-05, kind: citation}
-- {at: 'I, 247 n.118', of: x.1962-07-25.planning-committee-analysis-sichuan-grain-output, kind: citation}
-- {at: 'I, 248 n.100', of: x.1962-03.provincial-work-group-xinfan-hetun-commune-problems, kind: citation}
-- {at: 'I, 250 n.125', of: x.2010.liao-bokang-xiao-li-liao-clique-recollection, kind: citation}
-- {at: 'I, 252 n.132', of: x.1962-01.ming-lang-letter-to-center-1962-01, kind: citation}
-- {at: 'I, 215 n.64', of: x.1961-03-07.provincial-disease-elimination-office-edema-prevention-work, kind: citation}
-- {at: 'I, 260 n.5', of: x.1960-01-07.zhao-yushu-examination-five-level-enlarged-meeting, kind: citation}
-- {at: 'I, 261 n.7', of: x.1960-01-07.zhao-yushu-examination-five-level-enlarged-meeting, kind: citation}
-- {at: 'I, 262 n.10', of: x.1960-01-07.zhao-yushu-examination-five-level-enlarged-meeting, kind: citation}
-- {at: 'I, 262 n.9', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 263 n.12', of: x.1961-03-14.fengyang-county-committee-rectification-bulletin-16, kind: citation}
-- {at: 'I, 263 n.13', of: x.1961-03-14.fengyang-county-committee-rectification-bulletin-16, kind: citation}
-- {at: 'I, 264 n.15', of: x.1961-01-10.fengyang-five-level-enlarged-meeting-bulletin-6, kind: citation}
-- {at: 'I, 272 n.24', of: x.1961-08-09.fengyang-section-chiefs-rectification-meeting-record, kind: citation}
-- {at: 'I, 272 n.25', of: x.1961-01.fengyang-five-level-enlarged-meeting-bulletin, kind: citation}
-- {at: 'I, 272 n.26', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 272 n.27', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 257 n.t1', of: w.fengyang-xianzhi, kind: citation}
-- {at: 'I, 260 n.4', of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive, kind: citation}
-- {at: 'I, 261 n.6', of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive, kind: citation}
-- {at: 'I, 262 n.8', of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive, kind: citation}
-- {at: 'I, 263 n.11', of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive, kind: citation}
-- {at: 'I, 264 n.14', of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive, kind: citation}
-- {at: 'I, 273 n.28', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 273 n.29', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 272 n.t1', of: x.1960.zhang-shaobai-shi-qiuming-letter-to-center-and-mao, kind: citation}
-- {at: 'I, 288 n.70', of: x.1960-07-18.dougou-commune-three-anti-rectification-summary-report-wuwei, kind: citation}
-- {at: 'I, 288 n.71', of: x.1960-11-27.wuwei-county-committee-report-carrying-out-twelve-article-letter, kind: citation}
-- {at: 'I, 293 n.76', of: w.zhou-enlai-shuxin-xuanji, kind: citation, pin: '556'}
-- {at: 'I, 299 n.t1', of: x.2005.liang-zhiyuan-chentong-de-lishi-jiaoxun-haoxian-siwang-shilu, kind: citation}
-- {at: 'I, 327 n.100', of: x.1960-01-26.bengbu-grain-saving-group-report-advanced-cooking-methods, kind: citation}
-- {at: 'I, 323 n.t1', of: x.1960-03-13.anhui-finance-trade-department-report-current-grain-work, kind: citation}
-- {at: 'I, 329 n.t1', of: x.1960-11-29.cheng-guanghua-report-bengbu-small-autumn-harvest-conference, kind: citation}
-- {at: 'I, 331 n.t1', of: x.1960-10-01.fengyang-county-committee-notice-mixing-grain-vegetables, kind: citation}
-- {at: 'I, 320 n.91', of: x.1960-08-04.zeng-qingmei-report-xiao-county-majing-commune, kind: citation}
-- {at: 'I, 331 n.101', of: w.dangdai-zhongguo-anhui, kind: citation}
-- {at: 'I, 331 n.101', of: w.anhui-tuixing-zerentian-de, kind: citation, pin: '7'}
-- {at: 'I, 325 n.98', of: x.2001-04-09.li-jian-talk-with-yang-jisheng-central-control-commission, kind: citation}
-- {at: 'I, 343 n.t1', of: x.1960-02-20.jilin-committee-circular-stop-suicides, kind: citation}
-- {at: 'I, 347 n.19', of: x.1960-03-21.wang-huanru-speech-second-jilin-party-congress-livelihood, kind: citation}
-- {at: 'I, 347 n.20', of: x.1960-03.yue-lin-speech-second-jilin-party-congress, kind: citation}
-- {at: 'I, 353 n.32', of: x.1960-04-27.tongyu-county-committee-report-livestock-forwarded-by-jilin-committee, kind: citation}
-- {at: 'I, 358 n.45', of: x.1960-06-15.siping-prefectural-committee-report-shuangliao-outflow, kind: citation}
-- {at: 'I, 343 n.7', of: x.1960-10-31.li-youwen-concluding-speech-grain-work-jilin-three-level-cadre-meeting, kind: citation}
-- {at: 'I, 351 n.28', of: x.1960-11-10.wu-de-concluding-report-jilin-three-level-cadre-meeting, kind: citation}
-- {at: 'I, 352 n.29', of: x.1960-11-10.wu-de-concluding-report-jilin-three-level-cadre-meeting, kind: citation}
-- {at: 'I, 352 n.29', of: x.1960-11-10.wu-de-concluding-report-jilin-three-level-cadre-meeting, kind: citation}
-- {at: 'I, 343 n.8', of: x.1960-11-14.jilin-committee-report-grain-work-to-center-and-northeast-bureau, kind: citation}
-- {at: 'I, 344 n.9', of: x.1960-12-07.wu-de-speech-jilin-telephone-conference-grain-purchase-livelihood, kind: citation}
-- {at: 'I, 350 n.25', of: x.1960-12-28.jilin-committee-report-trial-points-emergency-directive-letter, kind: citation}
-- {at: 'I, 351 n.27', of: x.1960-12-28.jilin-committee-report-trial-points-emergency-directive-letter, kind: citation}
-- {at: 'I, 356 n.40', of: x.1960-12-28.jilin-city-committee-report-current-edema-situation, kind: citation}
-- {at: 'I, 362 n.51', of: x.1960-12-29.jilin-committee-opinions-streamline-staff-compress-urban-population, kind: citation}
-- {at: 'I, 361 n.49', of: x.1960-02-20.wang-huanru-speech-second-jilin-party-congress-rural-livelihood, kind: citation}
-- {at: 'I, 344 n.10', of: x.1961-02-11.jilin-committee-report-grain-situation-livelihood-1961-02, kind: citation}
-- {at: 'I, 344 n.11', of: x.1961-11-29.jilin-grain-situation-report-outline-draft, kind: citation}
-- {at: 'I, 347 n.17', of: x.1961-05-11.changchun-municipal-office-report-stop-stripping-bark, kind: citation}
-- {at: 'I, 347 n.18', of: x.1961-03-04.he-jianzhong-telephone-record-nonggongbu, kind: citation}
-- {at: 'I, 350 n.24', of: x.1961-05-18.jilin-committee-forwards-jiuzhan-commune-rectification-report, kind: citation}
-- {at: 'I, 350 n.26', of: x.1959-08-05.jilin-procuratorate-party-group-report-grain-policy-offenders, kind: citation}
-- {at: 'I, 352 n.30', of: x.1961.jilin-committee-document-1961-19, kind: citation}
-- {at: 'I, 352 n.31', of: x.1961-07-15.jilin-committee-forwards-lishu-circular-heshan-commune, kind: citation}
-- {at: 'I, 353 n.33', of: x.1961-05-10.song-zhenting-report-huaide-county-party-rectification, kind: citation}
-- {at: 'I, 356 n.38', of: x.1961.jilin-committee-urgent-notice-rescue-severe-edema, kind: citation}
-- {at: 'I, 356 n.39', of: x.1961-07-27.ruan-bo-huaide-county-production-livelihood-telephone-record, kind: citation}
-- {at: 'I, 358 n.43', of: x.1961.jilin-committee-document-1961-462, kind: citation}
-- {at: 'I, 358 n.44', of: x.1961-02-10.jilin-committee-report-prevent-abnormal-deaths-of-travelers, kind: citation}
-- {at: 'I, 358 n.46', of: x.1961-12-25.jilin-committee-forwards-public-security-group-report-siping-station, kind: citation}
-- {at: 'I, 362 n.50', of: x.1961-05-10.wu-de-second-letter-to-chairman, kind: citation}
-- {at: 'I, 362 n.52', of: w.jilin-shengzhi, kind: citation, pin: '206'}
-- {at: 'I, 372 n.14', of: w.jiang-weiqing-qishi-nian-zhengcheng, kind: citation, pin: '448'}
-- {at: 'I, 372 n.15', of: w.jiang-weiqing-qishi-nian-zhengcheng, kind: citation, pin: '448'}
-- {at: 'I, 377 n.22', of: x.1960-07-25.sun-haiguang-letter-to-jiangsu-committee-han-comment, kind: citation}
-- {at: 'I, 379 n.27', of: x.1960-07-28.jiangsu-rectification-meeting-bulletin-2-eight-opinions-to-cadres, kind: citation}
-- {at: 'I, 381 n.31', of: x.1960-09-05.lu-jing-letter-jiangsu-committee-dongqiao-commune-wu-county, kind: citation}
-- {at: 'I, 376 n.20', of: x.1960-09-20.jiangsu-work-group-danyang-county-report-to-committee, kind: citation}
-- {at: 'I, 379 n.28', of: x.1960-09-25.song-guo-li-letter-jiangsu-yangzhou-jiangdu-committees, kind: citation}
-- {at: 'I, 380 n.30', of: x.1960-10-09.jiangsu-committee-forwards-general-office-xinghua-three-brigades-investigation, kind: citation}
-- {at: 'I, 378 n.25', of: x.1960-10-18.jiangsu-work-group-report-changshu-baimao-commune-exaggerated-output, kind: citation}
-- {at: 'I, 377 n.23', of: x.1960-11-15.jiangsu-work-group-zhengnan-brigade-tianmei-commune-investigation, kind: citation}
-- {at: 'I, 374 n.19', of: x.1960-11-16.jiangsu-work-group-wuli-commune-brigade-8-four-winds-report, kind: citation}
-- {at: 'I, 373 n.17', of: x.1960-11-19.dongtai-work-team-report-lunan-brigade, kind: citation}
-- {at: 'I, 374 n.18', of: x.1960-11-23.qutang-work-team-report-huzhuang-brigade, kind: citation}
-- {at: 'I, 394 n.52', of: x.1960-09-20.jiangsu-work-group-danyang-county-report-to-committee, kind: citation}
-- {at: 'I, 376 n.21', of: x.1960-11.suzhou-prefectural-committee-report-mocheng-commune-twelve-articles, kind: citation}
-- {at: 'I, 378 n.24', of: x.1960-11.mocheng-commune-twelve-articles-first-step-bulletin, kind: citation}
-- {at: 'I, 391 n.44', of: x.1960-06-25.grain-ministry-work-group-report-baoying-yixing-grain-problem, kind: citation}
-- {at: 'I, 391 n.46', of: x.1960-07-22.yin-bingshan-speech-county-city-first-secretaries-meeting, kind: citation}
-- {at: 'I, 390 n.42', of: x.1960-08-04.xiyong-brigade-why-no-great-leap-in-recent-years, kind: citation}
-- {at: 'I, 392 n.47', of: x.1960-08-24.shanghai-bureau-office-letter-from-jiangsu-work-group, kind: citation}
-- {at: 'I, 393 n.48', of: x.1960-09-18.jiangsu-work-group-gaolun-brigade-tianmei-commune-first-report, kind: citation}
-- {at: 'I, 393 n.49', of: x.1960-10-19.zhenjiang-prefectural-work-group-report-lishui-county-standing-committee-rectification, kind: citation}
-- {at: 'I, 384 n.36', of: x.1960-10-30.shanghai-bureau-director-yang-report-feng-pei-donghai-counties, kind: citation}
-- {at: 'I, 384 n.37', of: x.1960-12-02.xu-shenxing-report-siyang-county-grain-problem, kind: citation}
-- {at: 'I, 394 n.53', of: x.1960-12-27.sun-haiguang-report-to-ministers-xin-sun-yixing, kind: citation}
-- {at: 'I, 385 n.38', of: x.1960-12-28.feng-guangcai-report-wangxing-commune-withholds-rations, kind: citation}
-- {at: 'I, 408 n.15', of: x.1960-09-20.zhang-jinqi-report-luoding-edema-deaths, kind: citation}
-- {at: 'I, 406 n.t1', of: x.1998.he-tianjing-account-to-yang-jisheng-luoding, kind: citation}
-- {at: 'I, 416 n.18', of: x.1960-07-31.zheng-cheng-zhang-report-nanxiong-shixing-commune-illegal-conduct-deaths, kind: citation}
-- {at: 'I, 410 n.16', of: w.huang-dongwen-wo-qinli-gaoyao, kind: citation}
-- {at: 'I, 426 n.21', of: x.1960-05-04.wu-nansheng-report-hepu-county-edema-deaths, kind: citation}
-- {at: 'I, 420 n.19', of: x.1961-01-11.wenchang-county-committee-summary-report-four-level-cadre-conference, kind: citation}
-- {at: 'I, 423 n.t1', of: x.1961-01.zhongshan-county-four-level-cadre-conference-situation-report, kind: citation}
-- {at: 'I, 442 n.t1', of: x.1960-03-21.shandong-huiyi-qingkuang-1-mar-21, kind: citation}
-- {at: 'I, 443 n.10', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 98–99'}
-- {at: 'I, 446 n.15', of: x.1960-07.shandong-committee-office-tongxun-yu-ziliao-31, kind: citation}
-- {at: 'I, 441 n.7', of: x.1960-09-20.shandong-committee-report-conveying-carrying-out-beidaihe-meeting, kind: citation}
-- {at: 'I, 446 n.14', of: x.1960-09-20.shandong-committee-report-conveying-carrying-out-beidaihe-meeting, kind: citation}
-- {at: 'I, 442 n.t2', of: x.1960-10-12.yct-shandong-sun-jiwen-pan-zhaoxi-letter-laiwu-privilege, kind: citation}
-- {at: 'I, 439 n.t1', of: x.1960-12-16.zeng-xisheng-report-shandong-five-level-cadre-meeting, kind: citation}
-- {at: 'I, 446 n.16', of: x.1960-12-20.ministry-of-grain-15-province-grain-bureau-chiefs-conference-bulletin, kind: citation}
-- {at: 'I, 453 n.23', of: x.1960-08-14.shandong-committee-work-conference-bulletin-aug-14, kind: citation}
-- {at: 'I, 455 n.27', of: x.1960-10-29.zeng-xisheng-talk-shandong-enlarged-meeting-emergency-mobilization, kind: citation}
-- {at: 'I, 454 n.26', of: x.1960-12-03.shandong-committee-enlarged-meeting-bulletin-dec-3-15, kind: citation}
-- {at: 'I, 453 n.21', of: x.1960-12-13.mu-lin-speech-shandong-enlarged-meeting-dec-13, kind: citation}
-- {at: 'I, 453 n.22', of: x.1960-12-03.shandong-committee-enlarged-meeting-bulletin-dec-3-15, kind: citation}
-- {at: 'I, 454 n.24', of: x.1960-12-15.zhao-jianmin-speech-shandong-enlarged-meeting-dec-15, kind: citation}
-- {at: 'I, 454 n.t1', of: x.1960-12-23.yang-dezhi-speech-shandong-enlarged-meeting-dec-23, kind: citation}
-- {at: 'I, 471 n.t1', of: x.1960-03-03.jiang-hua-report-high-speed-soul-of-building-socialism-commune-secretaries, kind: citation}
-- {at: 'I, 473 n.15', of: x.1960-03-21.jiang-hua-speech-county-first-secretaries-meeting-dahua-xin-hall, kind: citation}
-- {at: 'I, 478 n.27', of: x.1960-03-25.zhejiang-supervisory-committee-report-banquets-hangzhou-transport-bureau, kind: citation}
-- {at: 'I, 478 n.27', of: w.zhonggong-zhejiang-sheng-jijian, kind: citation}
-- {at: 'I, 478 n.23', of: x.1960-04-06.zhejiang-health-department-investigation-report-cyanosis, kind: citation}
-- {at: 'I, 476 n.20', of: x.1960-05-09.zhejiang-rural-work-department-office-material-mess-halls-livelihood, kind: citation}
-- {at: 'I, 478 n.26', of: x.1960-05-10.lin-hujia-speech-field-conference-transforming-backward-teams-huangyan, kind: citation}
-- {at: 'I, 476 n.21', of: x.1959-05-25.zhejiang-committee-forwards-general-office-grain-shortage-materials, kind: citation}
-- {at: 'I, 478 n.24', of: x.1961-01-13.dali-production-team-substitute-foods-information-material-3, kind: citation}
-- {at: 'I, 478 n.25', of: x.1961-12-15.zhejiang-rural-work-department-current-rural-livelihood-1961-12, kind: citation}
-- {at: 'I, 515 n.t1', of: x.1960-04-26.shi-huaibi-telephone-report-lancang-grain-flight-record, kind: citation}
-- {at: 'I, 512 n.47', of: x.1960-06-08.yunnan-work-group-report-yanshan-county-neglect-livelihood-mistaken-struggle, kind: citation}
-- {at: 'I, 511 n.45', of: x.1960-07-29.chuxiong-prefectural-committee-report-edema-situation-to-provincial-committee, kind: citation}
-- {at: 'I, 511 n.46', of: x.1960-09-03.simao-prefectural-committee-report-lancang-edema-deaths-examination, kind: citation}
-- {at: 'I, 519 n.t1', of: x.1960-11-30.xuanwei-counterrevolutionary-riot-investigation-report, kind: citation}
-- {at: 'I, 520 n.52', of: x.1960-12-02.xie-fuzhi-report-to-zhou-and-li-fuchun-xuanwei-riot-and-grain, kind: citation}
-- {at: 'I, 513 n.48', of: x.1960-12-09.chuxiong-prefectural-committee-report-taoyuan-district-cangling-commune, kind: citation}
-- {at: 'I, 548 n.t1', of: x.1960-01-16.zhangjiakou-city-committee-composite-report-anti-rightist-village-rectification, kind: citation}
-- {at: 'I, 547 n.40', of: x.1960-01-21.tangshan-city-committee-report-village-rectification-to-provincial-committee, kind: citation}
-- {at: 'I, 542 n.24', of: x.1960-01-26.hebei-supervisory-committee-letter-to-provincial-committee-ci-county-zhang-chengxian-comment, kind: citation}
-- {at: 'I, 542 n.23', of: x.1960-02-18.hebei-committee-report-prevention-treatment-edema-to-center, kind: citation}
-- {at: 'I, 544 n.32', of: x.1960-04-29.hebei-committee-forwards-public-security-party-group-poisoning-bulletin, kind: citation}
-- {at: 'I, 544 n.33', of: x.1960-05-15.hebei-anti-poison-inspection-group-report-zhuo-ningjin-tang-poisonings, kind: citation}
-- {at: 'I, 540 n.20', of: x.1960-07-18.central-office-anguo-work-group-report-wurenqiao-commune-mess-hall, kind: citation}
-- {at: 'I, 545 n.34', of: x.1960-09-21.hebei-committee-forwards-public-security-report-present-poisoning-accidents, kind: citation}
-- {at: 'I, 543 n.30', of: x.1960-10-13.hebei-supervisory-committee-report-villages-continuing-edema, kind: citation}
-- {at: 'I, 543 n.25', of: x.1960-10-18.hebei-committee-report-mass-movement-grain-work-livelihood-to-center, kind: citation}
-- {at: 'I, 545 n.t1', of: x.1960-10-07.tangshan-city-committee-report-cocklebur-seed-poisoning, kind: citation}
-- {at: 'I, 544 n.31', of: x.1960-11-08.hebei-committee-urgent-notice-arranging-masses-livelihood, kind: citation}
-- {at: 'I, 541 n.22', of: x.1991.zhangjiakou-diqu-dangshi-ziliao-1991-no-1, kind: citation}
-- {at: 'I, 543 n.26', of: x.1960-12-17.hebei-committee-brief-edema-situation-to-north-china-bureau-and-center, kind: citation}
-- {at: 'I, 545 n.t2', of: x.1960-12-28.hebei-committee-secret-telegram-finding-and-stopping-deaths, kind: citation}
-- {at: 'I, 567 n.t1', of: x.1960-02-24.guizhou-committee-report-rural-public-mess-halls-to-center, kind: citation}
-- {at: 'I, 568 n.9', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 44–45'}
-- {at: 'I, 568 n.t1', of: x.undated.zhongjiwei-dashiji-given-to-yang-jisheng-by-li-jian, kind: citation}
-- {at: 'I, 636 n.t1', of: x.1960-06-15.niu-peicong-telephone-notice-to-li-youwen-no-meat-jun-15, kind: citation}
-- {at: 'I, 621 n.5', of: x.1960-09-10.li-xiannian-speech-center-telephone-conference-lowering-ration-standards, kind: citation}
-- {at: 'I, 623 n.8', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 402'}
-- {at: 'I, 623 n.7', of: x.1960-12-26.xuanjiao-dongtai-113-grain-education, kind: citation}
-- {at: 'I, 623 n.6', of: x.1961-01-19.anshan-city-committee-report-grain-education-workers-families, kind: citation}
-- {at: 'I, 629 n.16', of: x.1960-10-07.shi-xudong-letter-to-center-handan-special-supply, kind: citation}
-- {at: 'I, 623 n.t1', of: x.1960-10-24.liaoning-committee-industrial-department-report-ideological-education-grain-question, kind: citation}
-- {at: 'I, 137 n.10', of: x.2009-07-20.peng-xing-letter-to-yang-jisheng-shishi-bianzheng, kind: citation}
-- {at: 'I, 140 n.13', of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years, kind: citation}
-- {at: 'I, 140 n.14', of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years, kind: citation}
-- {at: 'I, 140 n.15', of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years, kind: citation}
-- {at: 'I, 141 n.16', of: w.zhongguo-renkou-gansu-fence, kind: citation}
-- {at: 'I, 141 n.17', of: w.li-lei-youyou-suiyue, kind: citation, pin: '149'}
-- {at: 'I, 142 n.18', of: w.fu-shanglun-gaobie-jiee, kind: citation, pin: '21'}
-- {at: 'I, 143 n.19', of: w.cao-shuji-da-jihuang, kind: citation, pin: '277'}
-- {at: 'I, 150 n.29', of: w.he-fengming-jingli, kind: citation, pin: '420'}
-- {at: 'I, 165 n.42', of: x.1965-07-05.tongwei-county-committee-lessons-of-tongwei-history-report-1965, kind: citation}
-- {at: 'I, 226 n.89', of: x.1961-01-31.li-lin-report-dianjiang-chengxi-commune-chunhua-district, kind: citation}
-- {at: 'I, 226 n.90', of: x.1961-01-16.wenjiang-work-group-jintang-five-level-cadre-meeting-report-1961-01-16, kind: citation}
-- {at: 'I, 288 n.68', of: x.1961-01-14.yao-kuijia-examination-wuwei-county-committee-standing-committee-1961-01-14, kind: citation}
-- {at: 'I, 288 n.69', of: x.2006.xie-guiping-wuwei-xian-de-da-yuejin-yundong-ji-qi-houguo-2006, kind: citation}
-- {at: 'I, 320 n.90', of: x.1961.bengbu-city-1961-three-level-cadre-meeting-bulletin-opinions-to-provincial-committee, kind: citation}
-- {at: 'I, 325 n.97', of: x.1961-11-17.bengbu-disease-elimination-leading-group-report-disease-prevention-1961-11-17, kind: citation}
-- {at: 'I, 373 n.16', of: x.1959-02-12.jiangsu-rectification-inspection-corps-yangzhou-branch-report-1959-02-12, kind: citation}
-- {at: 'I, 378 n.26', of: x.1961-04.guabu-commune-rectification-research-group-report-luhe-county-cadre-style-1961-04, kind: citation}
-- {at: 'I, 380 n.29', of: x.1960-11-15.jiangsu-work-group-zhengnan-brigade-tianmei-commune-investigation, kind: citation}
-- {at: 'I, 383 n.35', of: w.jiangsu-wushi-nian, kind: citation}
-- {at: 'I, 390 n.39', of: x.1990.changshu-shizhi-1990, kind: citation}
-- {at: 'I, 390 n.40', of: x.1981.dongan-zhi-1981, kind: citation}
-- {at: 'I, 390 n.41', of: x.1960-07-25.sun-haiguang-letter-to-jiangsu-committee-han-comment, kind: citation}
-- {at: 'I, 391 n.43', of: x.1962-05-30.jiangsu-committee-report-lixiahe-area-current-situation-1962-05-30, kind: citation}
-- {at: 'I, 391 n.45', of: x.1961-06-10.baoying-county-committee-work-group-tianping-commune-report-1961-06-10, kind: citation}
-- {at: 'I, 393 n.50', of: x.1990.lishui-xianzhi-1990, kind: citation}
-- {at: 'I, 394 n.51', of: x.1959-04-15.yan-jingzhan-telephone-report-people-s-livelihood-1959-04-15, kind: citation}
-- {at: 'I, 406 n.12', of: x.undated.yumi-zhixiang-de-da-taowang-guangdong-san-nian-da-jihuang-qingkuang-online, kind: citation}
-- {at: 'I, 406 n.13', of: x.1988.zhu-yuncheng-ed-zhongguo-renkou-guangdong-fence-1988, kind: citation}
-- {at: 'I, 406 n.14', of: w.cao-shuji-da-jihuang, kind: citation, pin: '139'}
-- {at: 'I, 426 n.22', of: x.2005-12-26.hong-kong-flight-section-sources-xgc2000-and-2005-article, kind: citation}
-- {at: 'I, 442 n.8', of: x.1959-06-18.xia-zhengnong-report-checking-shouzhang-to-provincial-committee-1959-06-18, kind: citation}
-- {at: 'I, 452 n.20', of: x.1960-12-10.shu-tong-wo-de-jiancha-dec-10-1960, kind: citation}
-- {at: 'I, 445 n.13', of: x.1960-12-13.shu-tong-my-examination-shandong-enlarged-meeting, kind: citation}
-- {at: 'I, 454 n.25', of: x.1987-11-12.duan-junji-shen-qie-huainian-zhang-beihua-tongzhi-1987-11-12, kind: citation}
-- {at: 'I, 455 n.28', of: x.2010.xiao-gan-wo-suo-zhidao-de-teshu-anjian-2010, kind: citation}
-- {at: 'I, 471 n.10', of: x.1957-12-28.jiang-hua-jianchi-dang-de-zhengque-luxian-people-s-daily-1957-12-28, kind: citation}
-- {at: 'I, 471 n.11', of: x.1957-06.yang-xinpei-report-xianju-masses-disturbance-1957-06, kind: citation}
-- {at: 'I, 471 n.12', of: x.1955-07-31.mao-guanyu-nongye-hezuohua-wenti-1955-07-31, kind: citation}
-- {at: 'I, 471 n.13', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '5, 362'}
-- {at: 'I, 471 n.14', of: x.1955-09-13.central-rural-work-department-review-zhejiang-cooperation-question-1955-09-13, kind: citation}
-- {at: 'I, 510 n.41', of: x.1959-10-28.yunnan-committee-report-anti-right-struggle-provincial-organs-1959-10-28, kind: citation}
-- {at: 'I, 510 n.42', of: x.1959-09.yunnan-committee-first-session-eighth-plenum-resolution-1959-09, kind: citation}
-- {at: 'I, 521 n.53', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 501'}
-- {at: 'I, 569 n.10', of: w.yan-yuebin-guizhou-de-da-jihuang, kind: citation, pin: '58'}
-- {at: 'I, 574 n.12', of: x.2007-11.liu-qisheng-lishi-de-beiju-chentong-de-jingshi-meitan-shijian-2007, kind: citation}
-- {at: 'I, 575 n.13', of: x.1993-01.zheng-yi-dayuejin-shiqi-nongcun-beiju-jiangkou-shijian-zhengming-1993, kind: citation}
-- {at: 'I, 575 n.14', of: w.yan-yuebin-guizhou-de-da-jihuang, kind: citation, pin: '59'}
-- {at: 'I, 575 n.15', of: x.2006-10.gao-hua-zai-guizhou-siqing-yundong-de-beijing-2006-10, kind: citation}
-- {at: 'I, 593 n.9', of: x.2005.wu-wenjun-e-hun-ji-zhongguo-liushi-niandai-jihuang-kao-2005, kind: citation}
-- {at: 'I, 593 n.10', of: x.2009.yin-shusheng-teshu-anjian-de-yuanshi-jilu-2009, kind: citation}
-- {at: 'I, 593 n.11', of: x.2009.yin-shusheng-teshu-anjian-de-yuanshi-jilu-2009, kind: citation}
-- {at: 'I, 625 n.13', of: x.1960-11-09.center-document-1960-927-qi-yanming-report-special-supply-beijing, kind: citation}
-- {at: 'I, 638 n.23', of: x.1995.dishuidong-exhibit-text-copied-by-yang-jisheng-1995, kind: citation}
-- {at: 'I, 549 n.43', of: x.1960-06-02.handan-city-committee-report-32-rural-three-anti-pilots-to-provincial-committee, kind: citation}
-- {at: 'I, 324 n.94', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 324 n.96', of: x.undated.fang-shi-talk-with-yang-jisheng-foreign-experts-hefei, kind: citation}
-- {at: 'I, 324 n.95', of: x.2001-04-09.li-jian-talk-with-yang-jisheng-central-control-commission, kind: citation}
-- {at: 'I, 628 n.15', of: w.luo-pinghan-sannian-kunnan-shiqi, kind: citation}
-# run 3
-- {at: 'II, 824 n.29', of: x.1961-02-04.central-committee-directive-forwarding-henan-luoyang-cash-in-documents, kind: citation}
-- {at: 'II, 824 n.30', of: x.1961-06-02.meishan-county-report-main-situation-of-refunds, kind: citation}
-- {at: 'II, 824 n.31', of: x.1961-09-19.sichuan-refund-committee-office-opinions-current-refund-problems, kind: citation}
-- {at: 'II, 824 n.33', of: x.1961-08-24.rural-work-department-report-implementing-sixty-articles, kind: citation}
-- {at: 'II, 826 n.38', of: x.1961-08-24.rural-work-department-report-implementing-sixty-articles, kind: citation}
-- {at: 'II, 825 n.36', of: x.1962-07-15.jiangsu-people-council-general-office-jinsha-six-market-towns, kind: citation}
-- {at: 'II, 830 n.t1', of: x.1962-06.tao-zhu-wang-renzhong-longsheng-symposium-record, kind: citation}
-- {at: 'II, 830 n.45', of: x.1962-07-22.mao-zedong-comment-printing-longsheng-symposium-record, kind: citation}
-- {at: 'II, 831 n.46', of: x.1962-12-11.anhui-committee-summary-correcting-responsibility-fields, kind: citation}
-- {at: 'II, 833 n.56', of: x.1961-11-17.bengbu-leading-group-opinions-compressing-urban-population, kind: citation}
-- {at: 'II, 833 n.57', of: x.1962-06-10.changzhou-committee-circular-daming-textile-mill-disturbance, kind: citation}
-- {at: 'II, 837 n.61', of: x.1962-10-13.central-work-group-situation-bulletin-24-hechuan-cadres, kind: citation}
-- {at: 'II, 832 n.t1', of: x.1961-06-18.central-committee-nine-measures-reducing-urban-population, kind: citation}
-- {at: 'II, 832 n.t2', of: x.1961-06-18.central-committee-urgent-instruction-verifying-urban-population-grain, kind: citation}
-- {at: 'II, 832 n.t3', of: x.1962-05-27.central-committee-state-council-decision-further-streamlining, kind: citation}
-- {at: 'II, 831 n.47', of: w.chen-yun-wenxuan-1956, kind: citation, pin: '159'}
-- {at: 'II, 831 n.48', of: w.chen-yun-wenxuan-1956, kind: citation, pin: '160'}
-- {at: 'II, 832 n.49', of: w.chen-yun-wenxuan-1956, kind: citation, pin: '160'}
-- {at: 'II, 832 n.50', of: w.chen-yun-wenxuan-1956, kind: citation, pin: '151'}
-- {at: 'II, 827 n.39', of: w.zhijun-lishi-buzai-paihuai-history, kind: citation, pin: '84'}
-- {at: 'I, 144 n.22', of: x.1962-01-15.wuwei-prefectural-committee-telephone-report-yongchang-illness-outflow, kind: citation}
-- {at: 'I, 145 n.23', of: x.1962-04-08.gannan-prefectural-committee-report-livelihood-and-rural-grain-quota, kind: citation}
-- {at: 'I, 145 n.24', of: x.1962-05-11.linxia-prefectural-committee-brief-dahejia-baoan-commune-livelihood, kind: citation}
-- {at: 'I, 175 n.t1', of: x.1961-02-27.gansu-committee-provisions-centralized-and-special-training-classes, kind: citation}
-- {at: 'I, 175 n.t2', of: x.1961-11-25.dingxi-prefectural-committee-county-committees-opinions-on-center-and-province-leaders, kind: citation}
-- {at: 'I, 167 n.t1', of: x.1961-01-13.dingxi-prefectural-committee-enlarged-meeting-bulletin, kind: citation}
-- {at: 'I, 156 n.32', of: x.1961-01-08.gansu-health-department-inspection-group-report-tongwei, kind: citation}
-- {at: 'I, 232 n.99', of: x.1961-09-19.sichuan-committee-work-group-report-jiangbei-correcting-household-contracting, kind: citation}
-- {at: 'I, 233 n.100', of: x.1962-08-28.central-work-group-situation-bulletin-12-jiangbei-xinglong-household-contracting, kind: citation}
-- {at: 'I, 245 n.114', of: x.1962-08-28.central-work-group-situation-bulletin-12-jiangbei-xinglong-household-contracting, kind: citation}
-- {at: 'I, 233 n.101', of: x.1961-08-25.pingshan-county-committee-work-group-wuyi-brigade-correcting-household-contracting, kind: citation}
-- {at: 'I, 245 n.115', of: x.1961-09-19.sichuan-committee-draft-opinions-screening-rehabilitation-specific-problems, kind: citation}
-- {at: 'I, 229 n.96', of: x.1961-01-06.liu-wenzhen-telephone-report-bishan-mess-halls, kind: citation}
-- {at: 'I, 232 n.t1', of: x.1961-09-25.li-jingquan-comment-on-jiangbei-report-socialist-education, kind: citation}
-- {at: 'I, 245 n.113', of: x.1962-10-13.central-work-group-situation-bulletin-24-hechuan-cadres, kind: citation}
-- {at: 'I, 200 n.28', of: x.1961-01-31.li-lin-report-dianjiang-chengxi-commune-chunhua-district, kind: citation}
-- {at: 'I, 200 n.27', of: x.1961-01-12.sichuan-rectification-work-corps-mianyang-group-material-shima-commune, kind: citation}
-- {at: 'I, 206 n.t1', of: x.1962-01-19.sichuan-committee-bishan-work-group-report-daxing-commune-deaths, kind: citation}
-- {at: 'I, 207 n.40', of: x.1961-08-31.daxian-work-corps-inspection-group-report-qu-county-guanyin-earth, kind: citation}
-- {at: 'I, 218 n.73', of: x.1961-07-05.yibin-prefectural-committee-disease-elimination-group-report-swelling-disease, kind: citation}
-- {at: 'I, 218 n.74', of: x.1961-07-26.li-yin-yibin-production-inspection-group-report-anbian-commune-empty-fields, kind: citation}
-- {at: 'I, 218 n.75', of: x.1959-07-09.sichuan-inspection-corps-yibin-sub-corps-jiang-an-team-report-taoping-commune-changning, kind: citation}
-- {at: 'I, 219 n.76', of: x.1962-08-24.central-work-group-investigation-dazu-tuqiao-commune-cadres-overeating, kind: citation}
-- {at: 'I, 219 n.77a', of: x.1962-01-28.jiangbei-county-committee-wang-daoyi-report-shiba-commune-emergency-disease-control, kind: citation}
-- {at: 'I, 219 n.77b', of: x.1961-08-26.disease-elimination-office-fuling-inspection-group-report-minjia-commune, kind: citation}
-- {at: 'I, 218 n.t1', of: x.1962-02-02.yibin-prefectural-committee-telephone-report-current-disease-control, kind: citation}
-- {at: 'I, 217 n.71', of: w.dong-fu-maimiaoer-qing, kind: citation}
-- {at: 'I, 217 n.72', of: w.dong-fu-maimiaoer-qing, kind: citation}
-- {at: 'I, 219 n.78', of: x.1961-01-31.li-lin-report-dianjiang-chengxi-commune-chunhua-district, kind: citation}
-- {at: 'I, 271 n.20a', of: x.1961-01-08.fengyang-five-level-enlarged-meeting-bulletin-4, kind: citation}
-- {at: 'I, 271 n.20b', of: x.1961-01-09.fengyang-five-level-enlarged-meeting-bulletin-5, kind: citation}
-- {at: 'I, 271 n.20c', of: x.1961-01-10.fengyang-five-level-enlarged-meeting-bulletin-6, kind: citation}
-- {at: 'I, 271 n.21', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 271 n.22', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 271 n.23', of: x.1961-01-10.fengyang-five-level-enlarged-meeting-bulletin-6, kind: citation}
-- {at: 'I, 266 n.18', of: w.guo-shutian-shiheng-de-zhongguo, kind: citation, pin: '19'}
-- {at: 'I, 266 n.19', of: w.zhang-wanshu-guxiang-renmin-de-xiaosheng, kind: citation, pin: '29, 57'}
-- {at: 'I, 334 n.104', of: x.1961-05-03.central-general-office-forwarding-anhui-report-guaranteed-labor-production, kind: citation}
-- {at: 'I, 333 n.103', of: x.1961-03-20.zeng-xisheng-letter-to-mao-and-others-responsibility-fields, kind: citation}
-- {at: 'I, 326 n.t1', of: x.1961.li-jian-report-anhui-dropsy-blockade-punishment-of-cadres, kind: citation}
-- {at: 'I, 326 n.t2', of: x.1961.weng-keye-draft-report-bengbu-fifteen-counties-investigation, kind: citation}
-- {at: 'I, 326 n.99', of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo, kind: citation, pin: '235–237'}
-- {at: 'I, 330 n.t1', of: x.1961-03-26.bengbu-city-committee-instruction-organizing-masses-to-gather-wild-vegetables, kind: citation}
-- {at: 'I, 265 n.16a', of: x.1960-01-07.zhao-yushu-examination-five-level-enlarged-meeting, kind: citation}
-- {at: 'I, 265 n.16b', of: x.1961-08-24.ma-weimin-speech-fengyang-three-level-cadre-meeting-two-years-lessons, kind: citation}
-- {at: 'I, 265 n.17', of: x.1958-12.fengyang-county-committee-industry-transport-department-summary-report-1958, kind: citation}
-- {at: 'I, 342 n.4', of: x.1961-05-09.wu-de-first-letter-to-the-chairman, kind: citation}
-- {at: 'I, 342 n.5', of: x.1961-05-10.song-zhenting-report-huaide-county-main-problems-further-rectification, kind: citation}
-- {at: 'I, 344 n.10', of: x.1961-02-11.jilin-committee-report-grain-situation-livelihood-arrangement, kind: citation}
-- {at: 'I, 344 n.11', of: x.1961-11-29.jilin-outline-report-grain-situation-draft, kind: citation}
-- {at: 'I, 345 n.12', of: x.1962-03-05.jilin-finance-trade-department-report-convening-rural-livelihood-conference, kind: citation}
-- {at: 'I, 345 n.13', of: x.1961-11-29.jilin-outline-report-grain-situation-draft, kind: citation}
-- {at: 'I, 345 n.14', of: x.1961-01-07.jilin-committee-general-office-big-drive-substitute-foods, kind: citation}
-- {at: 'I, 346 n.15', of: x.1961-01-18.northeast-bureau-report-substitute-food-drive-northeast, kind: citation}
-- {at: 'I, 346 n.16', of: x.1961-01-25.northeast-bureau-finance-committee-report-three-province-finance-trade-ministers-symposium, kind: citation}
-- {at: 'I, 347 n.17', of: x.1961-05-11.changchun-committee-general-office-report-stopping-bark-stripping, kind: citation}
-- {at: 'I, 347 n.18', of: x.1961-03-04.he-jianzhong-telephone-record-to-rural-work-department-jilin, kind: citation}
-- {at: 'I, 347 n.19', of: x.1960-03-21.wang-xinru-speech-jilin-party-congress-arranging-livelihood, kind: citation}
-- {at: 'I, 347 n.20', of: x.1960-03.yue-lin-speech-jilin-second-party-congress, kind: citation}
-- {at: 'I, 341 n.2', of: x.1958-02-13.jilin-procuratorate-party-group-report-crimes-against-grain-policy, kind: citation}
-- {at: 'I, 341 n.3', of: x.1959-01-09.jilin-procuratorate-high-court-supervisory-department-opinions-punishing-grain-policy-violators, kind: citation}
-- {at: 'I, 342 n.6', of: x.1959-06-09.jilin-committee-report-current-grain-situation, kind: citation}
-- {at: 'I, 344 n.9', of: x.1960-12-07.wu-de-speech-jilin-committee-telephone-conference-grain-procurement-livelihood, kind: citation}
-- {at: 'I, 362 n.50', of: x.1961-05-10.wu-de-second-letter-to-the-chairman-mess-halls, kind: citation}
-- {at: 'I, 361 n.49', of: x.1960-02-20.wang-xinru-speech-jilin-party-congress-arranging-rural-livelihood, kind: citation}
-- {at: 'I, 362 n.51', of: x.1960-12-29.jilin-committee-document-streamlining-staff-adjusting-labor-reducing-urban-population, kind: citation}
-- {at: 'I, 362 n.52', of: w.jilin-shengzhi, kind: citation, pin: '206'}
-- {at: 'I, 355 n.35', of: x.1961-03-11.jilin-health-department-party-group-report-tao-an-edema-two-management-districts, kind: citation}
-- {at: 'I, 355 n.37', of: x.1961-06-02.jilin-health-department-party-group-report-preventing-curing-main-diseases, kind: citation}
-- {at: 'I, 354 n.34', of: x.1961-12-07.zhang-shiying-letter-to-wu-de-zhao-lin-secretariat-fusong-ginseng-production, kind: citation}
-- {at: 'I, 355 n.36', of: x.1961-03-04.he-jianzhong-telephone-record-to-rural-work-department-jilin, kind: citation}
-- {at: 'II, 1173 n.t1', of: x.1961-03-23.central-committee-letter-on-seriously-carrying-out-investigation-work, kind: citation}
-- {at: 'II, 1173 n.t2', of: x.1961-04-27.anhui-committee-report-trial-guaranteed-labor-production-responsibility, kind: citation}
-- {at: 'II, 1173 n.t3', of: x.1961-04-26.zhongfa-61-323-several-important-documents-mao-commented-on, kind: citation}
-- {at: 'II, 1174 n.t1', of: x.1961-12-09.state-council-finance-trade-office-peking-committee-request-nonstaple-food, kind: citation}
-- {at: 'II, 1174 n.t2', of: x.1961-12-17.central-committee-document-forwarding-nonstaple-food-request, kind: citation}
-- {at: 'II, 824 n.32', of: x.1960-11-19.dongtai-work-team-report-lunan-brigade, kind: citation}
-- {at: 'II, 825 n.34', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation, pin: '568'}
-- {at: 'II, 825 n.35', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation, pin: '568'}
-- {at: 'II, 827 n.40', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation, pin: '579'}
-- {at: 'II, 826 n.37', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '8, 395–396'}
-- {at: 'II, 837 n.62', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '8, 209'}
-- {at: 'II, 833 n.51', of: w.jilin-shengzhi, kind: citation, pin: '206'}
-- {at: 'II, 833 n.52', of: x.1991.henan-shengzhi-p57, kind: citation}
-- {at: 'II, 833 n.53', of: x.1998.fujian-shengzhi-p113, kind: citation}
-- {at: 'II, 833 n.54', of: x.1987.hu-huanyong-zhongguo-renkou-shanghai-fence-p143, kind: citation}
-- {at: 'II, 833 n.55', of: x.1994.qiqihar-shi-zhigao-p124, kind: citation}
-- {at: 'I, 207 n.41', of: x.1989.beichuan-xian-wenshi-ziliao-xuanji-6-pp128-132, kind: citation}
-- {at: 'I, 154 n.31', of: x.1990.tongwei-xianzhi-pp146-147, kind: citation}
-- {at: 'I, 156 n.33', of: x.2005.zhang-dafa-jinqiao-lu-man-pp35-37, kind: citation}
-- {at: 'I, 200 n.25', of: x.1959-07-23.yan-hongyan-letter-renshou-rural-work-to-provincial-committee-and-dazhang, kind: citation}
-- {at: 'I, 200 n.26', of: x.1959-07-29.guo-binglin-letter-to-minister-xia, kind: citation}
-- {at: 'I, 245 n.110', of: x.1959-12-25.sichuan-committee-table-key-criticized-party-cadres-factories-mines, kind: citation}
-- {at: 'I, 245 n.111', of: x.1959-12-25.sichuan-committee-table-key-criticized-party-cadres-colleges-schools, kind: citation}
-- {at: 'I, 245 n.112', of: x.1959-12-25.sichuan-committee-tables-key-criticized-non-party-cadres, kind: citation}
-- {at: 'I, 333 n.102', of: x.1994.zhongguo-nongye-hezuohua-shiliao-1994-1-p36-dangdai-zhongguo-anhui, kind: citation}
-- {at: 'II, 839 n.t1', of: x.1962-08-25.grain-ministry-planning-department-grain-data-digest, kind: citation}
-- {at: 'I, 316 n.t1', of: x.1962-08-25.grain-ministry-planning-department-grain-data-digest, kind: citation}
-- {at: 'I, 341 n.t1', of: x.1962-08-25.grain-ministry-planning-department-grain-data-digest, kind: citation}
-- {at: 'I, 315 n.85', of: x.1961-03-18.cheng-guanghua-examination-bengbu-city-committee-record, kind: citation}
-- {at: 'I, 316 n.86', of: x.1961-03-18.cheng-guanghua-examination-bengbu-city-committee-record, kind: citation}
-# run 4
-- {at: 'I, 208 n.42', of: x.1961-08-12.prefectural-disease-elimination-office-fuling-wulong-commune-bulletin, kind: citation}
-- {at: 'I, 224 n.85', of: x.1959-07-09.sichuan-inspection-corps-yibin-sub-corps-jiang-an-team-report-taoping-commune-changning, kind: citation}
-- {at: 'I, 220 n.80', of: w.dong-fu-maimiaoer-qing, kind: citation}
-- {at: 'I, 220 n.81', of: x.undated.liao-bokang-lishi-changhe-xuanwo-typescript, kind: citation}
-- {at: 'I, 248 n.121', of: x.1960-12-06.public-security-qionglai-joint-work-group-report-yang-shulou, kind: citation}
-- {at: 'I, 248 n.122', of: x.1960-12-01.wenjiang-work-group-pan-tingguang-illegal-conduct-case, kind: citation}
-- {at: 'I, 249 n.123', of: x.2005.dangdai-sichuan-yaoshi-shilu-1-p156, kind: citation}
-- {at: 'I, 249 n.124', of: w.dong-fu-maimiaoer-qing, kind: citation}
-- {at: 'I, 287 n.66', of: x.1998.ding-renbu-huoyang-zhongsheng-de-wuwei-gongchan-meng, kind: citation}
-- {at: 'I, 287 n.67', of: x.1998.ding-renbu-huoyang-zhongsheng-de-wuwei-gongchan-meng, kind: citation}
-- {at: 'I, 543 n.27', of: x.1961-01-07.feng-yunting-letter-pei-yangshan-hengshui-and-other-counties, kind: citation}
-- {at: 'I, 535 n.11', of: x.1961-01-07.feng-yunting-letter-pei-yangshan-hengshui-and-other-counties, kind: citation}
-- {at: 'I, 536 n.13', of: x.1961-01-17.hebei-agriculture-department-party-group-initial-examination-blind-commanding-wind, kind: citation}
-- {at: 'I, 536 n.14', of: x.1961-01-17.hebei-agriculture-department-party-group-initial-examination-blind-commanding-wind, kind: citation}
-- {at: 'I, 543 n.29', of: x.1961-01-21.hu-kaiming-letter-liu-zihou-zhangjiakou-livelihood, kind: citation}
-- {at: 'I, 545 n.35', of: x.1961-09-17.hebei-committee-office-prefectural-committees-discussion-telephone-conference, kind: citation}
-- {at: 'I, 546 n.36', of: x.1961-10-06.liu-zihou-urgent-telephone-grain-procurement, kind: citation}
-- {at: 'I, 546 n.37', of: x.1961-10-14.hebei-committee-office-fourth-brief-grain-work-regions, kind: citation}
-- {at: 'I, 546 n.38', of: x.1961-08-12.hebei-health-department-party-group-report-disease-prevention-campaign, kind: citation}
-- {at: 'I, 548 n.42', of: x.1962-04-28.hebei-rectification-office-supervisory-committee-summary-organizational-handling, kind: citation}
-- {at: 'I, 212 n.t1', of: x.1961.sichuan-committee-notice-disease-work-after-health-ministry-report, kind: citation}
-- {at: 'I, 208 n.43', of: x.1962.jiangjin-prefectural-committee-report-on-edema, kind: citation}
-- {at: 'I, 208 n.44', of: x.1962-01-25.ma-jiliang-telephone-report-changshou, kind: citation}
-- {at: 'I, 208 n.45', of: x.1962-01-15.wanxian-prefectural-committee-office-report-rural-edema, kind: citation}
-- {at: 'I, 209 n.46', of: x.1962-03-02.lin-pian-tian-wu-guoxian-report-on-sichuan, kind: citation}
-- {at: 'I, 209 n.47', of: x.1962-03-17.chen-guodong-report-to-li-xiannian, kind: citation}
-- {at: 'I, 223 n.84', of: x.1961-01-16.wenjiang-work-group-jintang-five-level-cadre-meeting-report-1961-01-16, kind: citation}
-- {at: 'I, 225 n.88', of: x.1960-11-13.fan-zhizhong-report-nanping-commune-hechuan, kind: citation}
-- {at: 'I, 225 n.86', of: x.1960-11-29.qiao-zhimin-report-nanping-commune-rectification, kind: citation}
-- {at: 'I, 225 n.87', of: x.1960-11-29.qiao-zhimin-report-nanping-commune-rectification, kind: citation}
-- {at: 'I, 220 n.79', of: x.1961-04-08.dianjiang-work-group-jiefeng-commune-recovery-report, kind: citation}
-- {at: 'I, 248 n.120', of: x.1962-03.provincial-work-group-xinfan-hetun-commune-problems, kind: citation}
-- {at: 'I, 246 n.116', of: x.undated.liao-bokang-lishi-changhe-xuanwo-typescript, kind: citation}
-- {at: 'I, 280 n.48', of: x.1961-01-15.zhao-yushu-second-supplementary-examination-five-level-meeting, kind: citation}
-- {at: 'I, 280 n.49', of: x.1961-01-15.zhao-yushu-second-supplementary-examination-five-level-meeting, kind: citation}
-- {at: 'I, 279 n.45', of: x.1961-02-10.fengyang-county-committee-xiaoxihe-commune-bad-people-in-power-report, kind: citation}
-- {at: 'I, 280 n.51', of: x.1961-02-10.fengyang-county-committee-xiaoxihe-commune-bad-people-in-power-report, kind: citation}
-- {at: 'I, 281 n.52', of: x.1961-02-10.fengyang-county-committee-xiaoxihe-commune-bad-people-in-power-report, kind: citation}
-- {at: 'I, 279 n.46', of: x.1961-04-18.wudian-commune-committee-report-rectification-work, kind: citation}
-- {at: 'I, 280 n.50', of: x.1961-11-07.fengyang-county-committee-report-five-winds, kind: citation}
-- {at: 'I, 281 n.53', of: x.1961.fengyang-county-committee-research-group-sifeng-brigade-bulletins, kind: citation}
-- {at: 'I, 305 n.t1', of: x.2005.liang-zhiyuan-chentong-de-lishi-jiaoxun-haoxian-siwang-shilu, kind: citation}
-- {at: 'I, 357 n.42', of: x.1961-10-30.jilin-public-security-civil-affairs-party-groups-report-halt-free-movement, kind: citation}
-- {at: 'I, 385 n.t1', of: x.1961-01-20.li-shuren-letter-chen-feng-huaiyin-wangxing-commune-rations, kind: citation}
-- {at: 'I, 382 n.32', of: x.1961-04.guabu-commune-rectification-research-group-report-luhe-county-cadre-style-1961-04, kind: citation}
-- {at: 'I, 405 n.11', of: x.undated.yumi-zhixiang-de-da-taowang-guangdong-san-nian-da-jihuang-qingkuang-online, kind: citation}
-- {at: 'I, 422 n.t1', of: x.1961-01-21.jiangmen-suburb-four-level-cadre-meeting-situation-report, kind: citation}
-- {at: 'I, 424 n.t1', of: x.1961-01-03.bao-an-county-four-level-cadre-meeting-summary-report, kind: citation}
-- {at: 'I, 425 n.t1', of: x.1961-01-03.shunde-county-committee-four-level-cadre-meeting-summary-report, kind: citation}
-- {at: 'I, 414 n.17', of: x.1961-03-12.prefectural-investigation-group-gaoyao-sijia-brigade-report, kind: citation}
-- {at: 'I, 428 n.23', of: x.2001.guangdong-shengzhi-gongan-zhi, kind: citation}
-- {at: 'I, 444 n.11', of: x.1961-05-12.shandong-grain-department-report-shandong-grain-problem, kind: citation}
-- {at: 'I, 447 n.17', of: x.1961-05-12.shandong-grain-department-report-shandong-grain-problem, kind: citation}
-- {at: 'I, 462 n.32', of: x.undated.gao-hua-da-zaihuang-yu-siqing-yundong-de-qiyuan, kind: citation}
-- {at: 'I, 467 n.5', of: x.1961-07-16.zeng-shaowen-report-national-grain-bureau-chiefs-conference, kind: citation}
-- {at: 'I, 467 n.6', of: x.1962-05-14.zhejiang-grain-conference-documents, kind: citation}
-- {at: 'I, 467 n.7', of: x.1961.zhejiang-committee-general-office-key-grain-counties-investigation-materials-1-17, kind: citation}
-- {at: 'I, 474 n.16', of: x.1961-03.zhejiang-committee-general-office-equalization-and-refund-report, kind: citation}
-- {at: 'I, 475 n.18', of: x.1961-02-09.zhejiang-rural-work-department-qingkuang-ziliao-10-liming-team, kind: citation}
-- {at: 'I, 479 n.32', of: x.1961-05-04.qu-county-work-group-luotou-brigade-basic-materials, kind: citation}
-- {at: 'I, 482 n.33', of: x.1961-05-28.zhejiang-committee-work-group-huangyan-luqiao-town-rural-work-draft, kind: citation}
-- {at: 'I, 483 n.34', of: x.1961-05-18.luqiao-commune-survey-group-comparison-two-production-brigades, kind: citation}
-- {at: 'I, 536 n.12', of: x.1991.zhangjiakou-diqu-dangshi-ziliao-1991-no-1, kind: citation}
-- {at: 'I, 539 n.7', of: x.1961-01-17.hebei-agriculture-department-party-group-initial-examination-blind-commanding-wind, kind: citation}
-- {at: 'I, 548 n.41', of: x.2008.an-zhenying-hebei-sheng-shenbie-pingfan-gongzuo-de-huiyi-yu-sikao, kind: citation}
-- {at: 'I, 274 n.30', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 274 n.31', of: x.1961-01-09.fengyang-five-level-enlarged-meeting-bulletin-5, kind: citation}
-- {at: 'I, 274 n.32', of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive, kind: citation}
-- {at: 'I, 275 n.33', of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive, kind: citation}
-- {at: 'I, 275 n.34', of: x.1989.xiangcun-sanshi-nian-fengyang-xian, kind: citation}
-- {at: 'I, 275 n.35', of: x.1989.xiangcun-sanshi-nian-fengyang-xian, kind: citation}
-- {at: 'I, 276 n.36', of: x.1959-10-30.fengyang-county-committee-zhao-conghua-antiparty-material, kind: citation}
-- {at: 'I, 276 n.37', of: x.1959-12-08.fengyang-county-committee-rectification-development, kind: citation}
-- {at: 'I, 276 n.38', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 277 n.39', of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive, kind: citation}
-- {at: 'I, 277 n.40', of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive, kind: citation}
-- {at: 'I, 277 n.41', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 277 n.42', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 278 n.43', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 278 n.44', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 279 n.47', of: x.1961-02-01.chen-zhenya-report-fengyang-problem, kind: citation}
-- {at: 'I, 281 n.54', of: x.1963-03-10.fengyang-county-committee-report-correcting-responsibility-fields, kind: citation}
-- {at: 'I, 405 n.9', of: x.2001.lin-li-xiang-zhongyang-zuo-jiantao-de-tao-zhu, kind: citation}
-- {at: 'I, 405 n.10', of: x.1995.peng-jianxin-60-niandai-guangdong-sheng-jingji-tiaozheng-gaishu, kind: citation}
-- {at: 'I, 444 n.12', of: x.1959-05-23.cc-propaganda-department-xuanjiao-dongtai-edema, kind: citation}
-- {at: 'I, 474 n.17', of: x.1958-12-29.zhejiang-committee-forwards-jiande-daya-and-fuyang-changkou-reports, kind: citation}
-- {at: 'I, 475 n.19', of: x.1958-12-21.center-forwards-zhejiang-report-wenzhou-jinhua-socialist-education-violations, kind: citation}
-- {at: 'I, 479 n.28', of: x.1991.zhejiang-statistical-yearbook-1991, kind: citation}
-- {at: 'I, 479 n.29', of: x.1988.wang-siyun-zhongguo-renkou-zhejiang-fence, kind: citation}
-- {at: 'I, 479 n.31', of: w.cao-shuji-da-jihuang, kind: citation}
-- {at: 'II, 724 n.30', of: x.1961-05-09.yan-hongyan-letter-to-mao-on-rural-commune-questions, kind: citation}
-- {at: 'I, 513 n.t1', of: x.1961-06-26.wenshan-prefecture-two-reports-maguan-xichou-grain-riots, kind: citation}
-- {at: 'I, 537 n.15', of: x.1962-07-01.hebei-agriculture-department-work-group-cangzhou-ten-brigades-survey, kind: citation}
-- {at: 'I, 550 n.44', of: x.2008.an-zhenying-hebei-sheng-shenbie-pingfan-gongzuo-de-huiyi-yu-sikao, kind: citation}
-- {at: 'I, 556 n.45', of: x.1962-08-09.mao-zedong-talk-to-core-group-beidaihe-central-work-conference-mao-sixiang-wansui, kind: citation}
-- {at: 'I, 550 n.t1', of: x.1991.xiaoling-liu-zheng-hu-kaiming-bing-fei-hu-kaiming, kind: citation}
-- {at: 'I, 550 n.t2', of: x.2004-10.yang-jisheng-interview-hu-xiaoyan-shijiazhuang, kind: citation}
-- {at: 'I, 566 n.t1', of: x.2001.wang-minsan-zou-zai-gangsi-bande-rizi-li, kind: citation}
-- {at: 'I, 592 n.8', of: x.1961-02.xining-public-security-bureau-rule-on-cannibalism-arrests, kind: citation}
-- {at: 'I, 595 n.t1', of: x.2009.yin-shusheng-teshu-anjian-de-yuanshi-jilu-2009, kind: citation}
-- {at: 'I, 590 n.t1', of: x.1962.ye-fei-remarks-fujian-group-enlarged-central-work-conference, kind: citation}
-- {at: 'I, 624 n.10', of: x.1961-01-19.anshan-city-committee-report-grain-education-workers-families, kind: citation}
-- {at: 'I, 623 n.7', of: x.1960-12-26.xuanjiao-dongtai-113-grain-education, kind: citation}
-- {at: 'I, 623 n.8', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 402'}
-- {at: 'I, 624 n.9', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 419'}
-- {at: 'I, 624 n.11', of: x.1962-07-25.sichuan-health-department-disease-situation, kind: citation}
-- {at: 'I, 619 n.2', of: x.1961-04-30.zhongfa-61-338-gu-mu-opinions-workers-leaving-plants-jia-bubin-letter, kind: citation}
-- {at: 'I, 620 n.t1', of: x.1961-04-17.jilin-committee-urgent-circular-stop-units-seizing-commune-land, kind: citation}
-- {at: 'I, 619 n.t1', of: x.1961-05-16.northeast-bureau-notice-stabilizing-workers-ranks, kind: citation}
-- {at: 'I, 619 n.3', of: x.1962-01-20.jilin-committee-report-farm-sideline-bases-of-enterprises, kind: citation}
-- {at: 'I, 620 n.4', of: x.1962-11-09.jilin-committee-investigation-report-workers-families-self-supply-farming, kind: citation}
-- {at: 'I, 618 n.t1', of: x.1962-08-20.grain-ministry-general-office-grain-work-bulletin-28, kind: citation}
-- {at: 'I, 626 n.14', of: x.1961-12-17.central-committee-document-forwarding-nonstaple-food-request, kind: citation}
-- {at: 'I, 637 n.20', of: x.undated.su-linda-wo-gei-mao-zhuxi-dang-chushi, kind: citation}
-- {at: 'I, 637 n.21', of: x.2000-05-24.gu-jun-zhongguoren-chu-chang-xican, kind: citation}
-- {at: 'I, 637 n.22', of: x.2005.he-fang-dangshi-biji, kind: citation}
-- {at: 'II, 667 n.29', of: x.2002.shen-zhihua-guanyu-1950-niandai-sulian-yuanhua-daikuan, kind: citation}
-- {at: 'II, 667 n.30', of: w.lengxi-shinian-lunzhan-1956-1966, kind: citation, pin: 'I, 336–337'}
-- {at: 'II, 664 n.24', of: x.1961-04-10.ye-jizhuang-banquet-speech-soviet-foreign-trade-ministry, kind: citation}
-- {at: 'II, 664 n.23', of: x.1981-08-13.jiefangjun-bao-soviet-experts-withdrawal, kind: citation}
-- {at: 'II, 668 n.33', of: x.1961-04-25.communique-chinese-albanian-economic-delegations-talks, kind: citation}
-- {at: 'II, 668 n.31', of: x.1964-12-31.zhou-enlai-government-work-report-renmin-ribao, kind: citation}
-- {at: 'II, 668 n.32', of: x.undated.shen-zhihua-chunchi-xiangyi-haishi-zhengzhi-lianyin, kind: citation}
-- {at: 'II, 669 n.35', of: x.1999.malile-wo-yanzhong-de-zhongguo-zhengyaomen, kind: citation}
-- {at: 'II, 741 n.6', of: x.1961-05.lei-bingrang-yuzhong-county-report-on-mess-halls, kind: citation}
-- {at: 'II, 747 n.16', of: x.1961-05.lei-bingrang-yuzhong-county-report-on-mess-halls, kind: citation}
-- {at: 'II, 741 n.7', of: x.2001.luo-pinghan-daguofan-gonggong-shitang-shimo, kind: citation}
-- {at: 'II, 741 n.8', of: x.1959-07-03.xinfan-county-commune-mess-halls-survey, kind: citation}
-- {at: 'II, 747 n.17', of: x.1958-11.mao-zedong-talk-eighth-central-committee-sixth-plenum-record, kind: citation}
-- {at: 'II, 742 n.9', of: x.1961-04.shaoshan-commune-report-on-solving-the-mess-hall-problem, kind: citation}
-- {at: 'II, 761 n.47', of: x.1961-04.shaoshan-commune-report-on-solving-the-mess-hall-problem, kind: citation}
-- {at: 'II, 761 n.48', of: x.1961-04.shaoshan-commune-report-on-solving-the-mess-hall-problem, kind: citation}
-- {at: 'II, 760 n.44', of: x.1959-09.central-general-office-document-mess-hall-labor-days, kind: citation}
-- {at: 'II, 760 n.45', of: x.1998.zhang-buzhen-kewang-zhenhua-liu-shaoqi-zai-1961, kind: citation}
-- {at: 'II, 760 n.46', of: x.1961-05-09.wang-feng-report-to-mao-on-rural-mess-halls, kind: citation}
-- {at: 'II, 767 n.53', of: x.1961-04-26.zhongfa-61-323-several-important-documents-mao-commented-on, kind: citation}
-- {at: 'II, 767 n.54', of: w.de-zhu-de-xuanji-selected, kind: citation, pin: '374'}
-- {at: 'II, 767 n.55', of: w.shaoqi-liu-shaoqi-xuanji-selected, kind: citation, pin: 'II, 329'}
-- {at: 'II, 768 n.56', of: w.enlai-zhou-enlai-xuanji-selected, kind: citation, pin: 'II, 315'}
-- {at: 'II, 768 n.57', of: w.nongye-jitihua-zhongyao-wenjian, kind: citation, pin: 'II, 484'}
-- {at: 'II, 768 n.58', of: x.1961-05-11.li-jingquan-letter-to-mao-mess-hall-trial-points-neijiang, kind: citation}
-- {at: 'II, 956 n.65', of: x.1960-11-02.tan-zhenlin-talk-national-telephone-conference-rations, kind: citation}
-- {at: 'II, 956 n.66', of: x.2001.wang-minsan-zou-zai-gangsi-bande-rizi-li, kind: citation}
-- {at: 'II, 956 n.67', of: x.2000-12-13.yang-jisheng-interview-liu-zongtang-chengdu, kind: citation}
-- {at: 'II, 957 n.69', of: x.1961-08-26.li-xiannian-speech-national-conference-grain-commerce-bureau-heads, kind: citation}
-- {at: 'II, 957 n.68', of: x.1961-05-07.grain-ministry-outline-report-on-the-grain-problem, kind: citation}
-- {at: 'II, 967 n.t1', of: x.1961-02-16.all-china-womens-federation-party-group-report-prolapse-amenorrhea, kind: citation}
-- {at: 'II, 967 n.74', of: x.1961-05-09.wang-feng-report-to-mao-on-rural-mess-halls, kind: citation}
-- {at: 'II, 972 n.t1', of: x.undated.zhou-bopin-talk-with-yang-jisheng-population-table, kind: citation}
-- {at: 'II, 1036 n.44', of: x.1962-01-06.zhongfa-62-110-construction-ministry-party-group-report-halted-projects, kind: citation}
-- {at: 'II, 1030 n.37', of: x.undated.wang-ping-dayuejin-he-tiaozheng-shiqi-de-renmin-shenghuo, kind: citation}
-- {at: 'II, 1030 n.38', of: x.undated.wang-ping-dayuejin-he-tiaozheng-shiqi-de-renmin-shenghuo, kind: citation}
-- {at: 'II, 1031 n.39', of: x.1962-05-09.zhongfa-62-206-finance-trade-office-united-front-report-back-door, kind: citation}
-- {at: 'II, 1043 n.20', of: x.1992.qiandongnan-miaozu-dongzu-zizhizhou-zhi-gongan-zhi, kind: citation}
-- {at: 'II, 1043 n.21', of: x.1993.zheng-yi-dayuejin-shiqi-nongcun-beiju-jiangkou-shijian-gaishi, kind: citation}
-- {at: 'II, 1043 n.22', of: x.1995.sichuan-sheng-gongan-zhi, kind: citation}
-- {at: 'II, 1043 n.23', of: x.1996.jingchuan-xian-zhi, kind: citation}
-- {at: 'II, 1043 n.24', of: x.1997.hunan-sheng-zhi-vol-6-zhengfazhi-gongan, kind: citation}
-- {at: 'II, 1043 n.26', of: x.1993.hebei-sheng-zhi-vol-71-gongan-zhi, kind: citation}
-- {at: 'II, 1044 n.27', of: x.1994.jianhe-xian-zhi, kind: citation}
-- {at: 'II, 1044 n.28', of: x.1993.dianjiang-xian-zhi, kind: citation}
-- {at: 'II, 1044 n.29', of: w.jilin-shengzhi, kind: citation, pin: 'vol. 12, 170'}
-- {at: 'II, 1044 n.30', of: x.1995.nanhua-xian-zhi, kind: citation}
-- {at: 'II, 1044 n.31', of: x.1990.jiayuguan-shi-zhi, kind: citation}
-- {at: 'II, 1044 n.32', of: x.1994.aba-zhou-zhi, kind: citation}
-- {at: 'II, 1044 n.33', of: x.1996.simao-diqu-zhi, kind: citation}
-- {at: 'II, 1044 n.34', of: x.1992.tonghai-xian-zhi, kind: citation}
-- {at: 'II, 1045 n.35', of: x.1995.yunnan-sheng-zhi-vol-8, kind: citation}
-- {at: 'II, 1047 n.39', of: x.1993.anhui-sheng-zhi-gongan-zhi, kind: citation}
-- {at: 'II, 1047 n.40', of: x.1989.gansu-sheng-zhi-vol-2, kind: citation}
-- {at: 'II, 1047 n.41', of: x.1995.zhangye-shi-zhi, kind: citation}
-- {at: 'II, 1047 n.42', of: x.1992.anxi-xian-zhi, kind: citation}
-- {at: 'II, 1047 n.43', of: x.1992.leishan-xian-zhi, kind: citation}
-- {at: 'II, 1047 n.44', of: x.1989.liping-xian-zhi, kind: citation}
-- {at: 'II, 1047 n.45', of: x.1995.chaozhou-shi-zhi, kind: citation}
-- {at: 'II, 1054 n.59', of: x.1991.chongqing-xian-zhi, kind: citation}
-- {at: 'II, 1054 n.57', of: x.1993.chuxiong-yizu-zizhizhou-zhi-vol-2, kind: citation}
-- {at: 'II, 1054 n.58', of: x.1962-01-10.cui-cifeng-summary-talk-jilin-symposium-unified-action-against-theft, kind: citation}
-- {at: 'II, 1054 n.60', of: x.1960-07-18.jilin-political-legal-committee-party-group-report-arrest-execution-quotas, kind: citation}
-- {at: 'II, 1056 n.62', of: x.1961-11-02.xu-shoushen-talk-jilin-telephone-conference-city-public-order, kind: citation}
-- {at: 'II, 1045 n.36', of: x.1961-01-07.zhangye-prefectural-committee-report-wuwei-station-grain-thefts, kind: citation}
-- {at: 'II, 1046 n.37', of: x.1961-01-11.jiuquan-city-committee-report-flour-mill-mistaken-firing, kind: citation}
-- {at: 'II, 1046 n.38', of: x.1961-01-23.tianshui-work-group-prefectural-committee-report-railway-transport-safety, kind: citation}
-- {at: 'II, 1047 n.46', of: x.1961-01-12.zhang-guangqin-report-rural-security-disorder, kind: citation}
-- {at: 'II, 1056 n.t1', of: x.1962-10-19.xie-fuzhi-speech-national-political-legal-work-conference, kind: citation}
-- {at: 'II, 1111 n.1', of: x.1996.wu-lengxi-he-tian-jiaying-gongshi-de-rizi, kind: citation}
-- {at: 'II, 1111 n.2', of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo, kind: citation, pin: '46–47'}
-- {at: 'II, 1111 n.3', of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo, kind: citation, pin: '99'}
-- {at: 'II, 1125 n.26', of: x.1962-04-11.deng-zihui-guanyu-longsheng-xian-de-baochan-daohu-wenti, kind: citation}
-- {at: 'II, 1125 n.27', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1084–1085'}
-- {at: 'II, 1125 n.28', of: x.1962-07-07.deng-xiaoping-speech-youth-league-seventh-plenum, kind: citation}
-- {at: 'II, 1141 n.64', of: x.1961-01-31.zhongfa-center-forwards-hubei-report-tonghaikou-second-stage-rectification, kind: citation}
-- {at: 'II, 1143 n.65', of: x.1961-02-15.northeast-bureau-agricultural-committee-heilongjiang-work-group-xiangyangchuan-pilot-report, kind: citation}
-- {at: 'I, 396 n.t1', of: x.1962-07-15.jiangsu-people-council-general-office-jinsha-six-market-towns, kind: citation}
-- {at: 'I, 591 n.7', of: x.1997.ningde-shi-weyuanhui-dangshi-yanjiushi-zhongguo-gongchandang-ningde-lishi-dashiji, kind: citation}
-- {at: 'II, 669 n.34', of: x.1998.geng-biao-huiyilu-xinhua-wenzhai-1998-4, kind: citation}
-- {at: 'II, 1141 n.63', of: x.undated.li-dazhang-da-chu-gei-shengwei-changwei-he-xinan-ju-tongzhi-yi-yue, kind: citation}
-# run 5
-- {at: 'II, 732 n.t1', of: x.1960-03-09.center-directive-urban-communes-mar-9, kind: citation}
-- {at: 'II, 732 n.t2', of: x.1960-02-22.acftu-report-xiangfang-commune-feb-22, kind: citation}
-- {at: 'II, 732 n.t3', of: x.1960-02-28.henan-report-urban-communes-feb-28, kind: citation}
-- {at: 'II, 733 n.t1', of: x.1960-04-08.xinhua-woguo-chengshi-renmin-gongshe-de-fazhan, kind: citation}
-- {at: 'II, 733 n.50', of: x.1960-04-18.central-committee-forwarding-shanghai-report-lilong-urban-communes-zhongfa-60-354, kind: citation}
-- {at: 'II, 733 n.51', of: x.1960-06-08.central-committee-forwarding-acftu-report-urban-communes-zhongfa-60-522, kind: citation}
-- {at: 'II, 917 n.144', of: x.1960-01-08.mianyang-prefectural-committee-report-remaking-backward-communes-socialist-education, kind: citation}
-- {at: 'II, 913 n.138', of: x.1960-01-15.central-committee-approval-central-organs-party-committees-rightist-opportunist-standards, kind: citation}
-- {at: 'II, 913 n.139', of: x.1960-01-15.central-committee-approval-central-organs-party-committees-rightist-opportunist-standards, kind: citation}
-- {at: 'II, 806 n.57', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 307'}
-- {at: 'II, 806 n.58', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 352'}
-- {at: 'II, 805 n.56a', of: x.1960-11-03.mianyang-county-committee-summary-first-stage, kind: citation}
-- {at: 'II, 805 n.56b', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation, pin: '620'}
-- {at: 'II, 791 n.40a', of: x.1960-11-03.mianyang-county-committee-summary-first-stage, kind: citation}
-- {at: 'II, 791 n.40b', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation, pin: '620'}
-- {at: 'II, 791 n.39', of: x.1960-12-15.liaoning-work-group-tieling-fanhe-commune-rectification-pilot-summary, kind: citation}
-- {at: 'II, 951 n.58', of: x.1960-12-15.liaoning-work-group-tieling-fanhe-commune-rectification-pilot-summary, kind: citation}
-- {at: 'II, 944 n.46', of: x.1960-02-12.tan-zhenlin-speech-national-conference-finance-trade-secretaries-sown-area, kind: citation}
-- {at: 'II, 958 n.t1', of: x.1960-04-19.li-xiannian-speech-national-telephone-conference-non-staple-food-purchase, kind: citation}
-- {at: 'II, 955 n.64', of: x.1960-07-12.niu-peicong-chen-guodong-emergency-report-on-the-grain-situation, kind: citation}
-- {at: 'II, 955 n.t1', of: x.1960-10-16.li-xiannian-report-national-conference-finance-trade-secretaries, kind: citation}
-- {at: 'II, 959 n.t1', of: x.1960-11-09.academy-of-sciences-party-group-proposal-on-making-grain-substitutes, kind: citation}
-- {at: 'II, 961 n.t1', of: x.1960-11.institute-of-entomology-proposal-on-eating-insects, kind: citation}
-- {at: 'II, 1040 n.2', of: x.1960-12-19.northwest-bureau-paper-severe-handling-of-acts-against-grain-policy-xibei-fa-60-16, kind: citation}
-- {at: 'II, 1053 n.53', of: x.1960-04-04.jilin-committee-forwarding-procuratorate-report-on-arrests-in-1959, kind: citation}
-- {at: 'II, 1053 n.55', of: x.1960-07-18.jilin-committee-reply-to-political-legal-committee-party-group-on-arrest-approval, kind: citation}
-- {at: 'II, 734 n.53', of: x.1961-06-03.acftu-urban-commune-office-development-of-communes-in-large-and-middle-cities-1960, kind: citation}
-- {at: 'II, 1112 n.4', of: w.shangkun-yang-shangkun-riji-2, kind: citation, pin: 'II, 110'}
-- {at: 'II, 1112 n.5', of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo, kind: citation, pin: '75'}
-- {at: 'II, 1113 n.6', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1026–1027'}
-- {at: 'II, 1113 n.7', of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo, kind: citation, pin: '110–111'}
-- {at: 'II, 1113 n.8', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1026–1027'}
-- {at: 'II, 1115 n.9', of: w.shaoqi-liu-shaoqi-xuanji-selected, kind: citation, pin: '418–443'}
-- {at: 'II, 1115 n.10', of: x.1967-02-03.mao-talk-cabo-baluku, kind: citation}
-- {at: 'II, 1115 n.11', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1019'}
-- {at: 'II, 1116 n.12', of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo, kind: citation, pin: '143–145'}
-- {at: 'II, 1116 n.13', of: w.xianzhi-mao-zedong-zhuan-1949, kind: citation, pin: 'II, 1190'}
-- {at: 'II, 1116 n.14', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1046'}
-- {at: 'II, 1117 n.15', of: x.1962-01-30.mao-zedong-speech-to-the-seven-thousand-cadres-conference, kind: citation}
-- {at: 'II, 1119 n.17', of: w.chen-yun-wenxuan-1956, kind: citation, pin: '183–198'}
-- {at: 'II, 1119 n.18', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1051–1052'}
-- {at: 'II, 1120 n.19', of: w.shaoqi-liu-shaoqi-xuanji-selected, kind: citation, pin: '444–445'}
-- {at: 'II, 1120 n.20', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1073'}
-- {at: 'II, 1121 n.21', of: x.1962-05-11.deng-xiaoping-speech-may-work-conference, kind: citation, pin: '319'}
-- {at: 'II, 917 n.146', of: x.1962-05-11.deng-xiaoping-speech-may-work-conference, kind: citation}
-- {at: 'II, 1124 n.24', of: w.chen-yun-wenxuan-1956, kind: citation, pin: '183–198'}
-- {at: 'II, 1124 n.25', of: w.gongheguo-zhuxi-liu-shaoqi, kind: citation, pin: 'II, 1274'}
-- {at: 'II, 1126 n.30', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 998'}
-- {at: 'II, 1128 n.34', of: x.1962-08-06.mao-zedong-speech-of-aug-6-1962-opening-the-beidaihe-work-co, kind: citation}
-- {at: 'II, 1129 n.35', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1074–1077'}
-- {at: 'II, 1129 n.36', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1074–1088'}
-- {at: 'II, 1130 n.37', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1092–1093'}
-- {at: 'II, 1130 n.38', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1093'}
-- {at: 'II, 1130 n.39', of: w.kecheng-huang-kecheng-zishu, kind: citation, pin: '270'}
-- {at: 'II, 1131 n.42', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1096'}
-- {at: 'II, 1131 n.43', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1096'}
-- {at: 'II, 1131 n.44', of: w.kecheng-huang-kecheng-zishu, kind: citation, pin: '270'}
-- {at: 'II, 1132 n.46', of: x.2006-10.gao-hua-zai-guizhou-siqing-yundong-de-beijing-2006-10, kind: citation}
-- {at: 'II, 1122 n.22', of: x.2000.wang-guangmei-liu-yuan-et-al-ni-suo-bu-zhidao-de-liu-shaoqi-p90, kind: citation}
-- {at: 'II, 1122 n.23', of: x.2003-09-25.zhou-boping-talk-with-yang-jisheng-sept-25-2003, kind: citation}
-- {at: 'II, 1126 n.31', of: x.1979-03-06.lu-dingyi-huainian-renmin-de-hao-zongli-guangming-ribao, kind: citation}
-- {at: 'II, 1127 n.32', of: x.2006.zhu-liang-wang-jiaxiang-sanhe-yishao-yanhuang-chunqiu-2006-8, kind: citation}
-- {at: 'II, 1127 n.33', of: x.2005.yan-mingfu-cong-wo-qinli-de-jijian-shi-kan-kang-sheng-yanhuang-chunqiu-2005-5, kind: citation}
-- {at: 'II, 1130 n.40', of: x.2003.zhao-jialiang-talk-with-yang-jisheng-gao-gang-secretary, kind: citation}
-- {at: 'II, 1131 n.41', of: x.2003.zhao-jialiang-talk-with-yang-jisheng-gao-gang-secretary, kind: citation}
-- {at: 'II, 1132 n.45', of: x.1983.zhongguo-gongchandang-lici-zhongyao-huiyi-wenji-xia-p196-197, kind: citation}
-- {at: 'II, 1118 n.16', of: x.1962-02-28.gansu-provincial-organs-opinions-on-work-conference-documents, kind: citation}
-- {at: 'II, 732 n.47', of: x.1958-10-01.xinhua-deng-xiaoping-zai-dongbei-diqu-shicha-renmin-ribao, kind: citation}
-- {at: 'II, 732 n.48', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation, pin: '516'}
-- {at: 'II, 732 n.49', of: w.xianzhi-mao-zedong-zhuan-1949, kind: citation, pin: 'II, 1057'}
-- {at: 'II, 734 n.52', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 154–155'}
-- {at: 'II, 790 n.38', of: x.1998.wang-jinglin-li-jianxin-zhi-cheng-ta-fuyu-zhi-lu-paoziyan, kind: citation}
-- {at: 'II, 912 n.137', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '8, 488'}
-- {at: 'II, 917 n.143', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation, pin: '573–574'}
-- {at: 'II, 917 n.145', of: x.1991.hu-sheng-zhongguo-gongchandang-de-qishi-nian-p367, kind: citation}
-- {at: 'II, 944 n.42', of: x.1958-08-11.kang-zhuo-mao-zhuxi-dao-le-xushui-renmin-ribao, kind: citation}
-- {at: 'II, 944 n.43', of: x.1958-09-30.liu-shaoqi-tongzhi-shicha-jiangsu-chengxiang-renmin-ribao, kind: citation}
-- {at: 'II, 944 n.44', of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian, kind: citation, pin: '519'}
-- {at: 'II, 944 n.45', of: x.1960-11-23.qutang-work-team-report-huzhuang-brigade, kind: citation}
-- {at: 'II, 945 n.47', of: x.1997.xue-pangao-ziran-kexue-yanjiu-mangmu-tingming-zhengzhi-de-jiaoxun, kind: citation}
-- {at: 'II, 951 n.57', of: x.1991.fengdu-xian-zhi-p31, kind: citation}
-- {at: 'II, 958 n.70', of: x.1959-09-10.li-xiannian-talk-preparatory-meeting-national-finance-trade-secretaries, kind: citation}
-- {at: 'II, 959 n.71', of: x.1960-11-10.tan-zhenlin-report-national-conference-food-substitutes, kind: citation}
-- {at: 'II, 1040 n.1', of: x.undated.li-ruojian-dayuejin-yu-kunnan-shiqi-de-shehui-dongdang-he-shehui-kongzhi, kind: citation}
-- {at: 'II, 1052 n.52', of: x.1998-08.gao-hua-dayuejin-yundong-yu-guojia-quanli-de-kuozhang-ershiyi-shiji-48, kind: citation}
-- {at: 'II, 1053 n.54', of: x.1959-08-10.jilin-political-legal-joint-office-campaign-situation-draft, kind: citation}
-- {at: 'II, 1053 n.56', of: x.1992.tianchang-xian-zhi-p149, kind: citation}
-- {at: 'II, 1126 n.29', of: w.pipan-ziliao, kind: citation, pin: '206–208'}
-# run 6
-- {at: 'I, 386 n.t1', of: x.1960-11-04.sun-haiguang-qiu-lu-suzhou-fushipin-jiancha-baogao, kind: citation}
-- {at: 'II, 1084 n.15', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 44–46'}
-- {at: 'II, 1084 n.16', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 64–65'}
-- {at: 'II, 1084 n.17', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 62–63'}
-- {at: 'II, 1084 n.18', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 68'}
-- {at: 'II, 1084 n.19', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 74–75'}
-- {at: 'II, 1085 n.20', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 73'}
-- {at: 'II, 1085 n.21', of: w.zilong-ye-zilong-huiyilu, kind: citation, pin: '219'}
-- {at: 'II, 1085 n.22', of: w.zilong-ye-zilong-huiyilu, kind: citation, pin: '220'}
-- {at: 'II, 1085 n.23', of: w.zilong-ye-zilong-huiyilu, kind: citation, pin: '258'}
-- {at: 'II, 1085 n.24', of: w.zilong-ye-zilong-huiyilu, kind: citation, pin: '221'}
-- {at: 'II, 1031 n.t1', of: x.1960-08.central-committee-urgent-instruction-steel-output-aug, kind: citation}
-- {at: 'II, 1033 n.40', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1073'}
-- {at: 'II, 788 n.36', of: x.undated.jia-qiyun-fan-youqing-gu-ganjin-speech-statistics-bureau-heads-summary, kind: citation}
-- {at: 'II, 788 n.37', of: w.xianzhi-mao-zedong-zhuan-1949, kind: citation, pin: 'II, 1130'}
-- {at: 'II, 807 n.62', of: x.1960-12-30.mao-remarks-cwc-report-meeting-dec-30, kind: citation}
-- {at: 'II, 918 n.147', of: x.1961-06-12.mao-speech-cwc-close-jun-12, kind: citation}
-- {at: 'II, 1134 n.47', of: x.1960-06-02.handan-city-committee-report-32-rural-three-anti-pilots-to-provincial-committee, kind: citation}
-- {at: 'II, 1134 n.48', of: x.1964-07-05.wang-guangmei-report-on-the-taoyuan-experience, kind: citation, pin: '471–570'}
-- {at: 'II, 1135 n.49', of: x.1998.li-xin-siqing-ji-huiwang-liunian-p120-121, kind: citation}
-- {at: 'II, 1135 n.51', of: x.2001.wang-li-wang-li-yigao-wang-li-fansilu-xia-p573, kind: citation}
-- {at: 'II, 1135 n.52', of: x.1964-09-01.cc-forwards-wang-guangmei-taoyuan-report, kind: citation}
-- {at: 'II, 1137 n.53', of: x.2006-01.gao-hua-zai-guizhou-siqing-yundong-de-beihou-xiuding-quanben, kind: citation}
-- {at: 'II, 1137 n.54', of: x.2000.wang-guangmei-liu-yuan-et-al-ni-suo-bu-zhidao-de-liu-shaoqi-p110, kind: citation}
-- {at: 'II, 1137 n.55', of: w.gongheguo-zhuxi-liu-shaoqi, kind: citation, pin: 'II, 1285'}
-- {at: 'II, 1138 n.56', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 407–409'}
-- {at: 'II, 1138 n.57', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 417'}
-- {at: 'II, 1138 n.58', of: w.jin-1949-1989-niande-zhongguo, kind: citation, pin: '533–534'}
-- {at: 'II, 1138 n.59', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 349'}
-- {at: 'II, 1139 n.60', of: w.jianguo-yilai-zhongyao-wenxian, kind: citation, pin: 'XIII, 378–383'}
-- {at: 'II, 1139 n.61', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 207'}
-- {at: 'II, 1139 n.62', of: w.xianzhi-mao-zedong-zhuan-1949, kind: citation, pin: 'II, 1101'}
-- {at: 'II, 1144 n.66', of: x.2010.yin-shusheng-cong-pi-shi-naoju-kan-siqing-yundong-yanhuang-chunqiu-2010-7, kind: citation}
-- {at: 'II, 1145 n.67', of: x.2000.wang-guangmei-liu-yuan-et-al-ni-suo-bu-zhidao-de-liu-shaoqi-p115-118, kind: citation}
-- {at: 'II, 1146 n.68', of: w.yibo-ruogan-zhongda-juece-yu, kind: citation, pin: 'II, 1131'}
-- {at: 'II, 1146 n.69', of: x.2005-03.chen-xiaonong-chen-boda-zuihou-koushu-huiyi, kind: citation}
-- {at: 'II, 1150 n.73', of: x.undated.shen-zhihua-da-yuejin-renmin-gongshe-yu-zhong-su-tongmeng-de-polie, kind: citation}
-- {at: 'II, 1151 n.74', of: x.undated.yang-mu-conversation-with-yang-jisheng-pol-pot, kind: citation}
-# run 7
-- {at: 'I, 308 n.83', of: x.2003.liang-zhiyuan-guanyu-tezhong-anjian-de-huibao-kaifang-2003-10, kind: citation}
-# run 8
-- {at: 'I, 125 n.t1', of: x.1961-01-05.central-work-group-qian-ying-report-tianshui-anti-rightist-persecution, kind: citation}
-- {at: 'I, 125 n.3', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '8, 529'}
-- {at: 'I, 125 n.4', of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years, kind: citation}
-- {at: 'I, 125 n.5', of: x.1962-02-28.gansu-provincial-organs-opinions-on-work-conference-documents, kind: citation}
-- {at: 'I, 134 n.t1', of: x.1993.yang-wenyu-article-tao-river-diversion-yanhuang-chunqiu-1993-3, kind: citation}
-- {at: 'I, 146 n.t1', of: x.1961-03-18.central-work-group-linxia-city-report, kind: citation}
-- {at: 'I, 146 n.25', of: x.2011-06-11.ge-dun-letter-to-yang-jisheng-linxia-contracting, kind: citation}
-- {at: 'I, 147 n.26', of: w.li-lei-youyou-suiyue, kind: citation, pin: '122–150'}
-- {at: 'I, 151 n.30', of: w.he-fengming-jingli, kind: citation, pin: '394–397'}
-- {at: 'I, 157 n.34', of: x.1965-07-05.tongwei-county-committee-lessons-of-tongwei-history-report-1965, kind: citation}
-- {at: 'I, 157 n.t1', of: x.2000-08-10.tongwei-old-cadres-symposium-yang-jisheng, kind: citation}
-- {at: 'I, 158 n.35', of: w.fu-shanglun-gaobie-jiee, kind: citation, pin: '26'}
-- {at: 'I, 160 n.36', of: x.2005.zhang-dafa-jinqiao-lu-man-pp35-37, kind: citation, pin: '33–38'}
-- {at: 'I, 169 n.t1', of: x.1960.wang-bingxiang-report-on-tongwei-problem, kind: citation}
-- {at: 'I, 174 n.t1', of: x.1965-09-09.gansu-committee-report-forwarding-tongwei-lessons-to-northwest-bureau, kind: citation}
-- {at: 'I, 382 n.33', of: x.1960-09-05.lu-jing-letter-jiangsu-committee-dongqiao-commune-wu-county, kind: citation}
-- {at: 'I, 382 n.34', of: x.1959-02-12.jiangsu-rectification-inspection-corps-yangzhou-branch-report-1959-02-12, kind: citation}
-- {at: 'I, 126 n.t1', of: x.1999.zhenyuan-county-party-history-office-dayuejin-qijian-de-zhenyuan-yuanan-bainian-chao-1999-4, kind: citation}
-# run 9
-- {at: 'I, 578 n.1', of: x.1999-06.guo-zhizhen-wu-dailing-1959-nian-shouyang-shijian-cangsang, kind: citation}
-- {at: 'I, 582 n.4', of: x.1998-10-09.wang-ding-guangxi-huanjiang-zeng-fang-zuida-weixing-nanfang-zhoumo, kind: citation}
-- {at: 'I, 587 n.5a', of: x.1998-05.li-shujie-tan-zhongning-shijian, kind: citation}
-- {at: 'I, 587 n.5b', of: x.1998-05.su-zhongshen-wo-zai-zhongning-shijian-shang-jiechu-dao-gao-zhibiao-wenti, kind: citation}
-- {at: 'I, 587 n.5c', of: x.1998-05.ren-shanyi-zhongning-shijian-qianhou-de-jidian-lingxing-huiyi, kind: citation}
-- {at: 'I, 587 n.5d', of: x.1998-05.ye-guangcai-nongmin-xiao-hanxing-shangshu-mao-zedong, kind: citation}
-- {at: 'I, 589 n.6', of: x.2001.lin-qiang-tianzai-hu-renhuo-hu-fujian-dayuejin-yundong-zai-renshi, kind: citation}
-- {at: 'I, 597 n.12', of: x.2010-01.yin-shusheng-gongan-gongzuo-dayuejin-shi-ruhe-gao-qilai-de, kind: citation}
-- {at: 'I, 587 n.5', of: x.1998-05.ningxia-wenshi-ziliao-21-zhongning-shijian, kind: citation}
-- {at: 'I, 519 n.51', of: x.1995.luquan-yizu-miaozu-zizhixian-zhi, kind: citation}
-- {at: 'I, 578 n.2', of: x.1956-01.national-program-for-agricultural-development-1956-1967, kind: citation}
-- {at: 'I, 582 n.3', of: x.undated.li-jian-talk-with-yang-jisheng-guangxi-deaths-1957, kind: citation}
-- {at: 'I, 173 n.50', of: x.1965-07-05.tongwei-county-committee-lessons-of-tongwei-history-report-1965, kind: citation}
-# run 10
-- {at: 'I, 629 n.16', of: x.1960.hebei-committee-document-60-619-forwarding-shi-xudong-opinions-handan, kind: citation}
-- {at: 'I, 639 n.24', of: x.1961-04-14.hu-qiaomu-letter-to-mao-shaoshan-materials, kind: citation}
-- {at: 'I, 640 n.25', of: x.undated.shuai-hao-yi-jiu-wei-tian-zhongguo-da-jihuang-zhong-de-maotaijiu-jishi, kind: citation}
-- {at: 'I, 640 n.26', of: x.undated.zhou-mengsheng-maotai-jiuchang-jinxi-jianwen-renhuai-wenshi-ziliao-6, kind: citation}
-- {at: 'II, 648 n.2', of: w.shaoqi-liu-shaoqi-xuanji-selected, kind: citation, pin: 'II, 337'}
-- {at: 'II, 648 n.4', of: w.sanzhong-quanhui-yilai-zhongyao, kind: citation, pin: 'II, 754–755'}
-- {at: 'II, 754 n.36', of: w.zedong-jianguo-yilai-mao-zedong, kind: citation, pin: '9, 44–45'}
-- {at: 'II, 754 n.37', of: x.1960-03-07.center-forwarding-hebei-provisions-cadres-joining-mess-halls, kind: citation}
-- {at: 'II, 756 n.39', of: w.nongye-jitihua-zhongyao-wenjian, kind: citation, pin: 'II, 293'}
-- {at: 'II, 762 n.49', of: x.1997.liu-bingxun-mao-zedong-jueding-jiesan-nongcun-shitang-de-laiyou-bainian-chao-1997-6, kind: citation}
-- {at: 'II, 763 n.50', of: w.jiang-weiqing-qishi-nian-zhengcheng, kind: citation, pin: '454–456'}
-- {at: 'II, 785 n.27', of: x.1998.kang-jian-huihuang-de-huanmie-renmin-gongshe-jingshilu-p189, kind: citation}
-- {at: 'II, 785 n.28', of: x.1963-11-14.guo-moruo-letter-to-chen-mingyuan-dayuejin, kind: citation}
-- {at: 'II, 785 n.29', of: x.1958-11-23.mao-zedong-speech-wuchang-conference-noon, kind: citation}
-- {at: 'II, 832 n.t4', of: x.1963-07-31.central-streamlining-group-report-completion-and-end, kind: citation}
-- {at: 'II, 840 n.67', of: x.1960-01-26.center-forwarding-grain-ministry-report-grain-reserves-100-billion-jin, kind: citation}
-- {at: 'II, 842 n.70', of: x.1960-04-19.li-xiannian-speech-national-telephone-conference-non-staple-food-purchase, kind: citation}
-- {at: 'II, 842 n.71', of: x.1960-05-03.agricultural-inspection-corps-jiangjin-group-report-meals, kind: citation, pin: '56–59'}
-- {at: 'II, 844 n.72', of: x.1960-01-08.commerce-ministry-party-group-report-1959-export-supply-plan, kind: citation}
-- {at: 'II, 903 n.118a', of: w.kecheng-huang-kecheng-zishu, kind: citation, pin: '259'}
-- {at: 'II, 903 n.118b', of: w.rui-lushan-huiyi-shilu, kind: citation, pin: '280'}
-- {at: 'II, 903 n.119', of: w.rui-lushan-huiyi-shilu, kind: citation, pin: '251'}
+- at: I, 72 n.56
+  of: w.zhang-shufan-xinyang-shijian
+  kind: citation
+- at: I, 72 n.57
+  of: w.zhang-shufan-xinyang-shijian
+  kind: citation
+- at: I, 67 n.t1
+  of: x.1960-04.henan-supervisory-committee-report-gushi-deaths
+  kind: citation
+- at: I, 72 n.t1
+  of: x.1960-04.henan-supervisory-committee-report-gushi-deaths
+  kind: citation
+- at: I, 72 n.t2
+  of: x.2001-03.li-jian-interview-yang-jisheng
+  kind: citation
+- at: I, 73 n.t1
+  of: x.2001-03.li-jian-interview-yang-jisheng
+  kind: citation
+- at: I, 74 n.t1
+  of: x.2001-03.li-jian-interview-yang-jisheng
+  kind: citation
+- at: I, 38 n.8
+  of: x.1960-06-18.work-group-report-xinyang-deaths-and-grain
+  kind: citation
+- at: I, 56 n.29
+  of: x.1960-06-18.work-group-report-xinyang-deaths-and-grain
+  kind: citation
+- at: I, 46 n.18
+  of: x.1960-06-03.henan-inspection-team-taolin-commune-report
+  kind: citation
+- at: I, 46 n.19
+  of: x.1960-06-03.huangchuan-county-committee-second-inspection-deaths
+  kind: citation
+- at: I, 50 n.26
+  of: x.1960-06-03.henan-inspection-team-taolin-commune-report
+  kind: citation
+- at: I, 57 n.30
+  of: x.1960-06-03.sanpisi-commune-group-report-huangchuan-deaths
+  kind: citation
+- at: I, 68 n.50
+  of: x.1960-06-03.sanpisi-commune-group-report-huangchuan-deaths
+  kind: citation
+- at: I, 69 n.53
+  of: x.1960-12.wang-binglin-materials-exposing-yang-weiping
+  kind: citation
+- at: I, 69 n.54
+  of: x.1960-12.wang-binglin-materials-exposing-yang-weiping
+  kind: citation
+- at: I, 71 n.55
+  of: x.1960-12.wang-binglin-materials-exposing-yang-weiping
+  kind: citation
+- at: I, 69 n.t1
+  of: x.2001-03.li-ruiying-account-yang-jisheng
+  kind: citation
+- at: I, 70 n.t1
+  of: x.2001-11-09.yu-dehong-typescript-xinyang-incident
+  kind: citation
+- at: I, 71 n.t1
+  of: x.2001-11-09.yu-dehong-typescript-xinyang-incident
+  kind: citation
+- at: I, 75 n.t1
+  of: x.1990-10-30.wang-congwu-interview-qiao-peihua
+  kind: citation
+- at: I, 76 n.t1
+  of: x.1990-10-30.wang-congwu-interview-qiao-peihua
+  kind: citation
+- at: I, 75 n.58
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9
+  326: null
+- at: I, 76 n.59
+  of: w.qiao-peihua-zhou-enlai-yu-xinyang
+  kind: citation
+- at: I, 47 n.20
+  of: x.1960-10-09.org-dept-henan-group-report-xi-county-fanghu
+  kind: citation
+- at: I, 47 n.21
+  of: x.1960-10-09.xi-county-investigation-report-li-zhenhai-et-al
+  kind: citation
+- at: I, 62 n.37
+  of: x.1960-10-09.xi-county-investigation-report-li-zhenhai-et-al
+  kind: citation
+- at: I, 50 n.24
+  of: x.2000-07-19.qiao-peihua-xinyang-shijian-typescript
+  kind: citation
+- at: I, 61 n.34
+  of: x.1960-11-01.henan-committee-examination-xinyang-incident
+  kind: citation
+- at: I, 61 n.35
+  of: x.1960-12-06.xu-zirong-speech-henan-standing-committee
+  kind: citation
+- at: I, 61 n.36
+  of: x.1960-10-15.yang-weiping-report-xinyang-incident
+  kind: citation
+- at: I, 38 n.9
+  of: x.1960-11-01.henan-committee-examination-xinyang-incident
+  kind: citation
+- at: I, 50 n.25
+  of: x.1960-11-01.henan-committee-request-expel-lu-sentence-ma
+  kind: citation
+- at: I, 44 n.15
+  of: x.1960-11-28.li-li-report-to-wu-zhipu-huaidian-commune
+  kind: citation
+- at: I, 43 n.14
+  of: x.2000-07-19.qiao-peihua-xinyang-shijian-typescript
+  kind: citation
+- at: I, 68 n.51
+  of: x.1960-12-21.wei-zhen-report-outstanding-problems-county
+  kind: citation
+- at: I, 68 n.52
+  of: x.1960-12-22.xinyang-prefectural-committee-report-rectification-famine-relief
+  kind: citation
+- at: I, 78 n.62
+  of: x.1960-12-22.xinyang-prefectural-committee-report-rectification-famine-relief
+  kind: citation
+- at: I, 77 n.60
+  of: x.1960-12-01.wang-congwu-xu-zirong-report-feudal-restoration-xinyang
+  kind: citation
+- at: I, 77 n.61
+  of: x.2000-07-19.qiao-peihua-xinyang-shijian-typescript
+  kind: citation
+- at: I, 77 n.t1
+  of: x.1960-10.zhang-desheng-relay-of-mao-talks-oct-27-28
+  kind: citation
+- at: I, 79 n.63
+  of: x.1960-11-20.central-case-group-report-xinyang-cases
+  kind: citation
+- at: I, 82 n.64
+  of: x.1960-12-06.wang-renzhong-speech-henan-standing-committee
+  kind: citation
+- at: I, 82 n.65
+  of: x.1960-12-06.xu-zirong-speech-henan-standing-committee
+  kind: citation
+- at: I, 83 n.66
+  of: x.1960-12-06.wang-congwu-speech-henan-standing-committee
+  kind: citation
+- at: I, 84 n.67
+  of: x.1960-10.lu-xianwen-self-examination-draft
+  kind: citation
+- at: I, 85 n.68
+  of: x.1960-10-21.ma-longshan-self-examination-xinyang
+  kind: citation
+- at: II, 838 n.63
+  of: w.xianzhi-mao-zedong-zhuan-1949
+  kind: citation
+  pin: II
+  1044: null
+- at: II, 838 n.64
+  of: w.xianzhi-mao-zedong-zhuan-1949
+  kind: citation
+  pin: II
+  1045: null
+- at: II, 838 n.65
+  of: w.mao-zedong-zhuan
+  kind: citation
+  pin: 939
+- at: II, 838 n.66
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9
+  326: null
+- at: II, 834 n.58
+  of: x.1995.feng-tongqing-shiji-youjing-dan-qiu-wuxian
+  kind: citation
+- at: II, 835 n.59
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9
+  349–350: null
+- at: II, 817 n.18
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+- at: II, 813 n.7
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+  pin: 573
+- at: II, 813 n.8
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+  pin: 572
+- at: II, 813 n.9
+  of: x.1960-02-14.sichuan-symposium-li-jingquan-prefectural-secretaries
+  kind: citation
+- at: II, 815 n.13
+  of: x.1958-11.mao-talks-first-zhengzhou-meeting-wansui
+  kind: citation
+- at: II, 815 n.14
+  of: x.1999.li-rui-dayuejin-qinlishi-xia
+  kind: citation
+- at: II, 816 n.15
+  of: x.1960-12-13.shu-tong-my-examination-shandong-enlarged-meeting
+  kind: citation
+- at: II, 816 n.16
+  of: x.1996.tao-lujia-mao-zhuxi-jiao-women-dang-shengwei-shuji
+  kind: citation
+- at: II, 816 n.17
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 8
+  235: null
+- at: II, 818 n.19
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9
+  364–365: null
+- at: II, 822 n.25
+  of: x.1960-11-19.dongtai-work-team-report-lunan-brigade
+  kind: citation
+- at: II, 822 n.26
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+  pin: 689
+- at: II, 823 n.27
+  of: x.1960-11.suzhou-committee-brief-mocheng-commune-twelve-articles
+  kind: citation
+- at: II, 823 n.28
+  of: x.1960-11-23.qutang-work-team-report-huzhuang-brigade
+  kind: citation
+- at: II, 836 n.60
+  of: x.1960-12-08.center-directive-grave-situation-shandong-henan-gansu-guizhou
+  kind: citation
+- at: I, 36 n.3
+  of: x.1960-11-20.xinyang-case-review-group-on-ma-longshan
+  kind: citation
+- at: I, 36 n.4
+  of: w.zhang-shufan-xinyang-shijian
+  kind: citation
+- at: I, 36 n.5
+  of: w.zhang-shufan-xinyang-shijian
+  kind: citation
+- at: I, 67 n.48
+  of: x.1999.lu-baoguo-account-yang-jisheng
+  kind: citation
+- at: I, 67 n.49
+  of: x.1960.zhang-fu-account-suppressed-report-to-center
+  kind: citation
+- at: I, 167 n.46
+  of: x.2000-08-10.tongwei-old-cadres-symposium-yang-jisheng
+  kind: citation
+- at: I, 167 n.47
+  of: x.1960-03-30.dingxi-procuratorate-report-tongwei-labor-education-teams
+  kind: citation
+- at: I, 167 n.48
+  of: x.1960-04-21.center-forwarding-gansu-report-tongwei-county-committee
+  kind: citation
+- at: I, 172 n.49
+  of: x.1960-04-21.center-forwarding-gansu-report-tongwei-county-committee
+  kind: citation
+- at: I, 170 n.t1
+  of: x.1960-03-10.tongwei-county-committee-telephone-report
+  kind: citation
+- at: I, 171 n.t1
+  of: x.1960-04-20.dou-minghai-report-tongwei-longxi-inspection
+  kind: citation
+- at: I, 171 n.t2
+  of: x.1960-04-06.gansu-committee-report-tongwei-county-committee-degenerate
+  kind: citation
+- at: I, 175 n.51
+  of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years
+  kind: citation
+- at: I, 66 n.46
+  of: x.1960-10-09.xi-county-investigation-report-li-zhenhai-et-al
+  kind: citation
+- at: I, 66 n.47
+  of: x.2001-03.li-ruiying-account-yang-jisheng
+  kind: citation
+- at: I, 85 n.t1
+  of: x.1999.zhang-shenglan-account-yang-jisheng
+  kind: citation
+- at: I, 170 n.t2
+  of: x.1960-02-19.li-kunrun-report-to-zhang-zhongliang-tongwei
+  kind: citation
+- at: I, 139 n.12
+  of: x.1960-02-17.qingshui-county-committee-telephone-report-livelihood-outflow
+  kind: citation
+- at: I, 139 n.t1
+  of: x.1960-07.gansu-committee-report-to-center-one-finger-question
+  kind: citation
+- at: I, 139 n.11
+  of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years
+  kind: citation
+- at: I, 144 n.21
+  of: x.1960-08-19.gansu-rural-work-department-report-minxian-problem
+  kind: citation
+- at: I, 132 n.6
+  of: x.1960-11-09.gansu-three-level-cadre-meeting-bulletin-4
+  kind: citation
+- at: I, 132 n.7
+  of: x.1960-11-09.gansu-three-level-cadre-meeting-bulletin-6
+  kind: citation
+- at: I, 133 n.8
+  of: x.1960-11-11.gansu-three-level-cadre-meeting-bulletin-13
+  kind: citation
+- at: I, 133 n.9
+  of: x.1960-11-11.gansu-three-level-cadre-meeting-bulletin-13
+  kind: citation
+- at: I, 149 n.28
+  of: x.1960-12-03.lanzhou-municipal-committee-report-edema-cadres-workers
+  kind: citation
+- at: I, 148 n.27
+  of: x.1960-12-09.gansu-industry-transport-department-report-edema
+  kind: citation
+- at: I, 148 n.t2
+  of: x.1960-12-11.yumen-city-committee-report-edema-mines-enterprises-schools
+  kind: citation
+- at: I, 148 n.t1
+  of: x.1960-12-18.baiyin-city-committee-report-edema-prevention
+  kind: citation
+- at: I, 140 n.t1
+  of: x.1960-12-23.gansu-committee-departments-death-tables-1958-60
+  kind: citation
+- at: I, 144 n.20
+  of: x.1960-12-24.tianshui-prefectural-committee-report-free-medical-funds
+  kind: citation
+- at: I, 149 n.t1
+  of: x.1960-12-30.jiuquan-iron-steel-company-committee-report-edema
+  kind: citation
+- at: I, 149 n.t2
+  of: x.1960.yumen-labor-reform-department-report-farm-deaths
+  kind: citation
+- at: I, 165 n.43
+  of: x.1961-01-12.dingxi-work-group-report-prefectural-enlarged-meeting-bulletin-3
+  kind: citation
+- at: I, 202 n.31
+  of: x.1960-02-09.national-grain-bureau-chiefs-conference-bulletin-nanchong
+  kind: citation
+- at: I, 201 n.29
+  of: x.1960-02-14.sichuan-symposium-li-jingquan-prefectural-secretaries
+  kind: citation
+- at: I, 202 n.30
+  of: x.1960-03-26.li-jingquan-speech-second-nanchong-prefectural-secretaries-meeting
+  kind: citation
+- at: I, 212 n.54
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 80
+- at: I, 211 n.51
+  of: x.1960-03-26.guan-county-committee-office-report-two-abnormal-deaths
+  kind: citation
+- at: I, 205 n.35
+  of: x.1960-04-04.liu-wang-xiao-report-jintang-sanxing-mess-hall
+  kind: citation
+- at: I, 214 n.61
+  of: x.1960-04-16.qiao-zhai-report-neijiang-edema-zizhong
+  kind: citation
+- at: I, 210 n.50
+  of: x.1960-04-25.wenjiang-prefectural-office-telephone-record-dayi-county
+  kind: citation
+- at: I, 228 n.95
+  of: x.1960-05-02.agricultural-inspection-corps-jiangjin-group-report-fines
+  kind: citation
+- at: I, 227 n.91
+  of: x.1960-05-03.agricultural-inspection-corps-jiangjin-group-report-meals
+  kind: citation
+- at: I, 222 n.83
+  of: x.1960-06-03.luzhou-inspection-group-reports-production-living-illegal-conduct
+  kind: citation
+- at: I, 203 n.32
+  of: x.1960-08-05.li-jingquan-letter-to-li-xiannian-sichuan-grain-levy
+  kind: citation
+- at: I, 206 n.36
+  of: x.1960-09-26.liang-qishan-letter-kai-county-grain-edema
+  kind: citation
+- at: I, 227 n.92
+  of: x.1960-10-03.wang-ziqing-report-rong-county-problems
+  kind: citation
+- at: I, 206 n.37
+  of: x.1960-10-22.bishan-county-committee-twelve-urgent-measures-edema
+  kind: citation
+- at: I, 215 n.62
+  of: x.1960-10-28.xue-zhiqiang-letter-wanxian-grain-inspection-group
+  kind: citation
+- at: I, 188 n.3
+  of: x.1960-11-30.zhang-liu-report-rong-county-problem
+  kind: citation
+- at: I, 227 n.92
+  of: x.1960-11-30.zhang-liu-report-rong-county-problem
+  kind: citation
+- at: I, 185 n.1
+  of: x.1960-12-01.gao-yilu-preliminary-check-losses-communist-wind-pi-county
+  kind: citation
+- at: I, 186 n.2
+  of: x.1960-12-01.gao-yilu-preliminary-check-losses-communist-wind-pi-county
+  kind: citation
+- at: I, 188 n.4
+  of: x.1960-12-01.gao-yilu-preliminary-check-losses-communist-wind-pi-county
+  kind: citation
+- at: I, 190 n.8
+  of: x.1960-12-01.li-huaipei-speech-sichuan-second-phase-work-conference
+  kind: citation
+- at: I, 248 n.102
+  of: x.1960-12-01.wenjiang-work-group-pan-tingguang-illegal-conduct-case
+  kind: citation
+- at: I, 248 n.101
+  of: x.1960-12-06.public-security-qionglai-joint-work-group-report-yang-shulou
+  kind: citation
+- at: I, 216 n.70
+  of: x.1960-12-13.wang-shuben-report-wenjiang-prefectural-committee-songlin-hospital
+  kind: citation
+- at: I, 216 n.69
+  of: w.dong-fu-maimiaoer-qing
+  kind: citation
+- at: I, 247 n.119
+  of: x.1960-11-03.rural-work-bulletin-83-neijiang-pigs
+  kind: citation
+- at: I, 252 n.t1
+  of: x.1960.sichuan-committee-instruction-household-registration-population-statistics
+  kind: citation
+- at: I, 250 n.126
+  of: x.1960-10-03.wang-ziqing-report-rong-county-problems
+  kind: citation
+- at: I, 248 n.102
+  of: w.dong-fu-maimiaoer-qing
+  kind: citation
+- at: I, 252 n.131
+  of: w.dong-fu-maimiaoer-qing
+  kind: citation
+- at: I, 190 n.9
+  of: x.1959-07-09.yibin-branch-jiangan-work-team-report-changning-taoping-commune
+  kind: citation
+- at: I, 205 n.34
+  of: w.dangdai-sichuan-yaoshi-shilu
+  kind: citation
+  pin: 66–67
+- at: I, 206 n.38
+  of: x.1962-01-02.bishan-county-committee-report-1961-disease-prevention
+  kind: citation
+- at: I, 206 n.39
+  of: x.1961-01-17.mianyang-work-group-songxi-commune-backwardness-material
+  kind: citation
+- at: I, 210 n.48
+  of: x.1962-07-24.provincial-disease-elimination-office-disease-situation
+  kind: citation
+- at: I, 210 n.49
+  of: x.1962-09-04.li-dingbang-yaan-area-production-living
+  kind: citation
+- at: I, 211 n.52
+  of: x.2011-09-12.wang-xiansheng-letter-to-yang-jisheng-two-cases
+  kind: citation
+- at: I, 211 n.53
+  of: x.1959-05-23.cc-propaganda-department-xuanjiao-dongtai-edema
+  kind: citation
+- at: I, 212 n.55
+  of: x.1961-02-01.health-ministry-party-group-report-prevention-main-diseases
+  kind: citation
+- at: I, 213 n.56
+  of: x.1959-08-09.yang-wanxuan-report-changning-drought-edema
+  kind: citation
+- at: I, 213 n.57
+  of: x.1959-12-07.luzhou-prefectural-office-report-gulin-disease
+  kind: citation
+- at: I, 213 n.58
+  of: x.1959-12-08.li-jingquan-comment-luzhou-gulin-disease-report
+  kind: citation
+- at: I, 213 n.59
+  of: x.1959-12-12.luzhou-committee-forwards-gulin-epidemic-investigation-group-report
+  kind: citation
+- at: I, 214 n.60
+  of: x.1961-01-18.provincial-disease-elimination-office-work-group-edema-prevention
+  kind: citation
+- at: I, 215 n.63
+  of: x.1961-03-07.provincial-disease-elimination-office-edema-prevention-work
+  kind: citation
+- at: I, 216 n.65
+  of: x.1961-08-26.disease-elimination-office-fuling-inspection-group-report-minjia-commune
+  kind: citation
+- at: I, 216 n.66
+  of: x.1961-08-12.prefectural-disease-elimination-office-fuling-wulong-commune-bulletin
+  kind: citation
+- at: I, 216 n.67
+  of: x.1962-09-04.li-dingbang-yaan-area-production-living
+  kind: citation
+- at: I, 216 n.68
+  of: x.1962-05-27.zhou-yi-report-xichang-area-odds-and-ends
+  kind: citation
+- at: I, 228 n.93
+  of: x.1961-01-22.liu-wenzhen-report-five-counties-rectification-guidance
+  kind: citation
+- at: I, 228 n.94
+  of: x.1961-09-20.provincial-inspection-corps-fuling-group-maan-commune-report
+  kind: citation
+- at: I, 188 n.5
+  of: x.1961-01-05.rural-work-department-investigation-group-leshan-baiyang-tools
+  kind: citation
+- at: I, 189 n.6
+  of: x.1961-01-16.work-group-leshan-mianzhu-commune-cadres-blind-direction
+  kind: citation
+- at: I, 189 n.7
+  of: x.1961-01-31.li-lin-report-dianjiang-chengxi-commune-chunhua-district
+  kind: citation
+- at: I, 221 n.82
+  of: x.1962-01-16.provincial-inspection-group-report-rong-county-serious-problems
+  kind: citation
+- at: I, 247 n.117
+  of: x.1962-05.sichuan-statistical-bureau-1962-05
+  kind: citation
+- at: I, 247 n.118
+  of: x.1962-07-25.planning-committee-analysis-sichuan-grain-output
+  kind: citation
+- at: I, 248 n.100
+  of: x.1962-03.provincial-work-group-xinfan-hetun-commune-problems
+  kind: citation
+- at: I, 250 n.125
+  of: x.2010.liao-bokang-xiao-li-liao-clique-recollection
+  kind: citation
+- at: I, 252 n.132
+  of: x.1962-01.ming-lang-letter-to-center-1962-01
+  kind: citation
+- at: I, 215 n.64
+  of: x.1961-03-07.provincial-disease-elimination-office-edema-prevention-work
+  kind: citation
+- at: I, 260 n.5
+  of: x.1960-01-07.zhao-yushu-examination-five-level-enlarged-meeting
+  kind: citation
+- at: I, 261 n.7
+  of: x.1960-01-07.zhao-yushu-examination-five-level-enlarged-meeting
+  kind: citation
+- at: I, 262 n.10
+  of: x.1960-01-07.zhao-yushu-examination-five-level-enlarged-meeting
+  kind: citation
+- at: I, 262 n.9
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 263 n.12
+  of: x.1961-03-14.fengyang-county-committee-rectification-bulletin-16
+  kind: citation
+- at: I, 263 n.13
+  of: x.1961-03-14.fengyang-county-committee-rectification-bulletin-16
+  kind: citation
+- at: I, 264 n.15
+  of: x.1961-01-10.fengyang-five-level-enlarged-meeting-bulletin-6
+  kind: citation
+- at: I, 272 n.24
+  of: x.1961-08-09.fengyang-section-chiefs-rectification-meeting-record
+  kind: citation
+- at: I, 272 n.25
+  of: x.1961-01.fengyang-five-level-enlarged-meeting-bulletin
+  kind: citation
+- at: I, 272 n.26
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 272 n.27
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 257 n.t1
+  of: w.fengyang-xianzhi
+  kind: citation
+- at: I, 260 n.4
+  of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive
+  kind: citation
+- at: I, 261 n.6
+  of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive
+  kind: citation
+- at: I, 262 n.8
+  of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive
+  kind: citation
+- at: I, 263 n.11
+  of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive
+  kind: citation
+- at: I, 264 n.14
+  of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive
+  kind: citation
+- at: I, 273 n.28
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 273 n.29
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 272 n.t1
+  of: x.1960.zhang-shaobai-shi-qiuming-letter-to-center-and-mao
+  kind: citation
+- at: I, 288 n.70
+  of: x.1960-07-18.dougou-commune-three-anti-rectification-summary-report-wuwei
+  kind: citation
+- at: I, 288 n.71
+  of: x.1960-11-27.wuwei-county-committee-report-carrying-out-twelve-article-letter
+  kind: citation
+- at: I, 293 n.76
+  of: w.zhou-enlai-shuxin-xuanji
+  kind: citation
+  pin: '556'
+- at: I, 299 n.t1
+  of: x.2005.liang-zhiyuan-chentong-de-lishi-jiaoxun-haoxian-siwang-shilu
+  kind: citation
+- at: I, 327 n.100
+  of: x.1960-01-26.bengbu-grain-saving-group-report-advanced-cooking-methods
+  kind: citation
+- at: I, 323 n.t1
+  of: x.1960-03-13.anhui-finance-trade-department-report-current-grain-work
+  kind: citation
+- at: I, 329 n.t1
+  of: x.1960-11-29.cheng-guanghua-report-bengbu-small-autumn-harvest-conference
+  kind: citation
+- at: I, 331 n.t1
+  of: x.1960-10-01.fengyang-county-committee-notice-mixing-grain-vegetables
+  kind: citation
+- at: I, 320 n.91
+  of: x.1960-08-04.zeng-qingmei-report-xiao-county-majing-commune
+  kind: citation
+- at: I, 331 n.101
+  of: w.dangdai-zhongguo-anhui
+  kind: citation
+- at: I, 331 n.101
+  of: w.anhui-tuixing-zerentian-de
+  kind: citation
+  pin: '7'
+- at: I, 325 n.98
+  of: x.2001-04-09.li-jian-talk-with-yang-jisheng-central-control-commission
+  kind: citation
+- at: I, 343 n.t1
+  of: x.1960-02-20.jilin-committee-circular-stop-suicides
+  kind: citation
+- at: I, 347 n.19
+  of: x.1960-03-21.wang-huanru-speech-second-jilin-party-congress-livelihood
+  kind: citation
+- at: I, 347 n.20
+  of: x.1960-03.yue-lin-speech-second-jilin-party-congress
+  kind: citation
+- at: I, 353 n.32
+  of: x.1960-04-27.tongyu-county-committee-report-livestock-forwarded-by-jilin-committee
+  kind: citation
+- at: I, 358 n.45
+  of: x.1960-06-15.siping-prefectural-committee-report-shuangliao-outflow
+  kind: citation
+- at: I, 343 n.7
+  of: x.1960-10-31.li-youwen-concluding-speech-grain-work-jilin-three-level-cadre-meeting
+  kind: citation
+- at: I, 351 n.28
+  of: x.1960-11-10.wu-de-concluding-report-jilin-three-level-cadre-meeting
+  kind: citation
+- at: I, 352 n.29
+  of: x.1960-11-10.wu-de-concluding-report-jilin-three-level-cadre-meeting
+  kind: citation
+- at: I, 352 n.29
+  of: x.1960-11-10.wu-de-concluding-report-jilin-three-level-cadre-meeting
+  kind: citation
+- at: I, 343 n.8
+  of: x.1960-11-14.jilin-committee-report-grain-work-to-center-and-northeast-bureau
+  kind: citation
+- at: I, 344 n.9
+  of: x.1960-12-07.wu-de-speech-jilin-telephone-conference-grain-purchase-livelihood
+  kind: citation
+- at: I, 350 n.25
+  of: x.1960-12-28.jilin-committee-report-trial-points-emergency-directive-letter
+  kind: citation
+- at: I, 351 n.27
+  of: x.1960-12-28.jilin-committee-report-trial-points-emergency-directive-letter
+  kind: citation
+- at: I, 356 n.40
+  of: x.1960-12-28.jilin-city-committee-report-current-edema-situation
+  kind: citation
+- at: I, 362 n.51
+  of: x.1960-12-29.jilin-committee-opinions-streamline-staff-compress-urban-population
+  kind: citation
+- at: I, 361 n.49
+  of: x.1960-02-20.wang-huanru-speech-second-jilin-party-congress-rural-livelihood
+  kind: citation
+- at: I, 344 n.10
+  of: x.1961-02-11.jilin-committee-report-grain-situation-livelihood-1961-02
+  kind: citation
+- at: I, 344 n.11
+  of: x.1961-11-29.jilin-grain-situation-report-outline-draft
+  kind: citation
+- at: I, 347 n.17
+  of: x.1961-05-11.changchun-municipal-office-report-stop-stripping-bark
+  kind: citation
+- at: I, 347 n.18
+  of: x.1961-03-04.he-jianzhong-telephone-record-nonggongbu
+  kind: citation
+- at: I, 350 n.24
+  of: x.1961-05-18.jilin-committee-forwards-jiuzhan-commune-rectification-report
+  kind: citation
+- at: I, 350 n.26
+  of: x.1959-08-05.jilin-procuratorate-party-group-report-grain-policy-offenders
+  kind: citation
+- at: I, 352 n.30
+  of: x.1961.jilin-committee-document-1961-19
+  kind: citation
+- at: I, 352 n.31
+  of: x.1961-07-15.jilin-committee-forwards-lishu-circular-heshan-commune
+  kind: citation
+- at: I, 353 n.33
+  of: x.1961-05-10.song-zhenting-report-huaide-county-party-rectification
+  kind: citation
+- at: I, 356 n.38
+  of: x.1961.jilin-committee-urgent-notice-rescue-severe-edema
+  kind: citation
+- at: I, 356 n.39
+  of: x.1961-07-27.ruan-bo-huaide-county-production-livelihood-telephone-record
+  kind: citation
+- at: I, 358 n.43
+  of: x.1961.jilin-committee-document-1961-462
+  kind: citation
+- at: I, 358 n.44
+  of: x.1961-02-10.jilin-committee-report-prevent-abnormal-deaths-of-travelers
+  kind: citation
+- at: I, 358 n.46
+  of: x.1961-12-25.jilin-committee-forwards-public-security-group-report-siping-station
+  kind: citation
+- at: I, 362 n.50
+  of: x.1961-05-10.wu-de-second-letter-to-chairman
+  kind: citation
+- at: I, 362 n.52
+  of: w.jilin-shengzhi
+  kind: citation
+  pin: '206'
+- at: I, 372 n.14
+  of: w.jiang-weiqing-qishi-nian-zhengcheng
+  kind: citation
+  pin: '448'
+- at: I, 372 n.15
+  of: w.jiang-weiqing-qishi-nian-zhengcheng
+  kind: citation
+  pin: '448'
+- at: I, 377 n.22
+  of: x.1960-07-25.sun-haiguang-letter-to-jiangsu-committee-han-comment
+  kind: citation
+- at: I, 379 n.27
+  of: x.1960-07-28.jiangsu-rectification-meeting-bulletin-2-eight-opinions-to-cadres
+  kind: citation
+- at: I, 381 n.31
+  of: x.1960-09-05.lu-jing-letter-jiangsu-committee-dongqiao-commune-wu-county
+  kind: citation
+- at: I, 376 n.20
+  of: x.1960-09-20.jiangsu-work-group-danyang-county-report-to-committee
+  kind: citation
+- at: I, 379 n.28
+  of: x.1960-09-25.song-guo-li-letter-jiangsu-yangzhou-jiangdu-committees
+  kind: citation
+- at: I, 380 n.30
+  of: x.1960-10-09.jiangsu-committee-forwards-general-office-xinghua-three-brigades-investigation
+  kind: citation
+- at: I, 378 n.25
+  of: x.1960-10-18.jiangsu-work-group-report-changshu-baimao-commune-exaggerated-output
+  kind: citation
+- at: I, 377 n.23
+  of: x.1960-11-15.jiangsu-work-group-zhengnan-brigade-tianmei-commune-investigation
+  kind: citation
+- at: I, 374 n.19
+  of: x.1960-11-16.jiangsu-work-group-wuli-commune-brigade-8-four-winds-report
+  kind: citation
+- at: I, 373 n.17
+  of: x.1960-11-19.dongtai-work-team-report-lunan-brigade
+  kind: citation
+- at: I, 374 n.18
+  of: x.1960-11-23.qutang-work-team-report-huzhuang-brigade
+  kind: citation
+- at: I, 394 n.52
+  of: x.1960-09-20.jiangsu-work-group-danyang-county-report-to-committee
+  kind: citation
+- at: I, 376 n.21
+  of: x.1960-11.suzhou-prefectural-committee-report-mocheng-commune-twelve-articles
+  kind: citation
+- at: I, 378 n.24
+  of: x.1960-11.mocheng-commune-twelve-articles-first-step-bulletin
+  kind: citation
+- at: I, 391 n.44
+  of: x.1960-06-25.grain-ministry-work-group-report-baoying-yixing-grain-problem
+  kind: citation
+- at: I, 391 n.46
+  of: x.1960-07-22.yin-bingshan-speech-county-city-first-secretaries-meeting
+  kind: citation
+- at: I, 390 n.42
+  of: x.1960-08-04.xiyong-brigade-why-no-great-leap-in-recent-years
+  kind: citation
+- at: I, 392 n.47
+  of: x.1960-08-24.shanghai-bureau-office-letter-from-jiangsu-work-group
+  kind: citation
+- at: I, 393 n.48
+  of: x.1960-09-18.jiangsu-work-group-gaolun-brigade-tianmei-commune-first-report
+  kind: citation
+- at: I, 393 n.49
+  of: x.1960-10-19.zhenjiang-prefectural-work-group-report-lishui-county-standing-committee-rectification
+  kind: citation
+- at: I, 384 n.36
+  of: x.1960-10-30.shanghai-bureau-director-yang-report-feng-pei-donghai-counties
+  kind: citation
+- at: I, 384 n.37
+  of: x.1960-12-02.xu-shenxing-report-siyang-county-grain-problem
+  kind: citation
+- at: I, 394 n.53
+  of: x.1960-12-27.sun-haiguang-report-to-ministers-xin-sun-yixing
+  kind: citation
+- at: I, 385 n.38
+  of: x.1960-12-28.feng-guangcai-report-wangxing-commune-withholds-rations
+  kind: citation
+- at: I, 408 n.15
+  of: x.1960-09-20.zhang-jinqi-report-luoding-edema-deaths
+  kind: citation
+- at: I, 406 n.t1
+  of: x.1998.he-tianjing-account-to-yang-jisheng-luoding
+  kind: citation
+- at: I, 416 n.18
+  of: x.1960-07-31.zheng-cheng-zhang-report-nanxiong-shixing-commune-illegal-conduct-deaths
+  kind: citation
+- at: I, 410 n.16
+  of: w.huang-dongwen-wo-qinli-gaoyao
+  kind: citation
+- at: I, 426 n.21
+  of: x.1960-05-04.wu-nansheng-report-hepu-county-edema-deaths
+  kind: citation
+- at: I, 420 n.19
+  of: x.1961-01-11.wenchang-county-committee-summary-report-four-level-cadre-conference
+  kind: citation
+- at: I, 423 n.t1
+  of: x.1961-01.zhongshan-county-four-level-cadre-conference-situation-report
+  kind: citation
+- at: I, 442 n.t1
+  of: x.1960-03-21.shandong-huiyi-qingkuang-1-mar-21
+  kind: citation
+- at: I, 443 n.10
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 98–99
+- at: I, 446 n.15
+  of: x.1960-07.shandong-committee-office-tongxun-yu-ziliao-31
+  kind: citation
+- at: I, 441 n.7
+  of: x.1960-09-20.shandong-committee-report-conveying-carrying-out-beidaihe-meeting
+  kind: citation
+- at: I, 446 n.14
+  of: x.1960-09-20.shandong-committee-report-conveying-carrying-out-beidaihe-meeting
+  kind: citation
+- at: I, 442 n.t2
+  of: x.1960-10-12.yct-shandong-sun-jiwen-pan-zhaoxi-letter-laiwu-privilege
+  kind: citation
+- at: I, 439 n.t1
+  of: x.1960-12-16.zeng-xisheng-report-shandong-five-level-cadre-meeting
+  kind: citation
+- at: I, 446 n.16
+  of: x.1960-12-20.ministry-of-grain-15-province-grain-bureau-chiefs-conference-bulletin
+  kind: citation
+- at: I, 453 n.23
+  of: x.1960-08-14.shandong-committee-work-conference-bulletin-aug-14
+  kind: citation
+- at: I, 455 n.27
+  of: x.1960-10-29.zeng-xisheng-talk-shandong-enlarged-meeting-emergency-mobilization
+  kind: citation
+- at: I, 454 n.26
+  of: x.1960-12-03.shandong-committee-enlarged-meeting-bulletin-dec-3-15
+  kind: citation
+- at: I, 453 n.21
+  of: x.1960-12-13.mu-lin-speech-shandong-enlarged-meeting-dec-13
+  kind: citation
+- at: I, 453 n.22
+  of: x.1960-12-03.shandong-committee-enlarged-meeting-bulletin-dec-3-15
+  kind: citation
+- at: I, 454 n.24
+  of: x.1960-12-15.zhao-jianmin-speech-shandong-enlarged-meeting-dec-15
+  kind: citation
+- at: I, 454 n.t1
+  of: x.1960-12-23.yang-dezhi-speech-shandong-enlarged-meeting-dec-23
+  kind: citation
+- at: I, 471 n.t1
+  of: x.1960-03-03.jiang-hua-report-high-speed-soul-of-building-socialism-commune-secretaries
+  kind: citation
+- at: I, 473 n.15
+  of: x.1960-03-21.jiang-hua-speech-county-first-secretaries-meeting-dahua-xin-hall
+  kind: citation
+- at: I, 478 n.27
+  of: x.1960-03-25.zhejiang-supervisory-committee-report-banquets-hangzhou-transport-bureau
+  kind: citation
+- at: I, 478 n.27
+  of: w.zhonggong-zhejiang-sheng-jijian
+  kind: citation
+- at: I, 478 n.23
+  of: x.1960-04-06.zhejiang-health-department-investigation-report-cyanosis
+  kind: citation
+- at: I, 476 n.20
+  of: x.1960-05-09.zhejiang-rural-work-department-office-material-mess-halls-livelihood
+  kind: citation
+- at: I, 478 n.26
+  of: x.1960-05-10.lin-hujia-speech-field-conference-transforming-backward-teams-huangyan
+  kind: citation
+- at: I, 476 n.21
+  of: x.1959-05-25.zhejiang-committee-forwards-general-office-grain-shortage-materials
+  kind: citation
+- at: I, 478 n.24
+  of: x.1961-01-13.dali-production-team-substitute-foods-information-material-3
+  kind: citation
+- at: I, 478 n.25
+  of: x.1961-12-15.zhejiang-rural-work-department-current-rural-livelihood-1961-12
+  kind: citation
+- at: I, 515 n.t1
+  of: x.1960-04-26.shi-huaibi-telephone-report-lancang-grain-flight-record
+  kind: citation
+- at: I, 512 n.47
+  of: x.1960-06-08.yunnan-work-group-report-yanshan-county-neglect-livelihood-mistaken-struggle
+  kind: citation
+- at: I, 511 n.45
+  of: x.1960-07-29.chuxiong-prefectural-committee-report-edema-situation-to-provincial-committee
+  kind: citation
+- at: I, 511 n.46
+  of: x.1960-09-03.simao-prefectural-committee-report-lancang-edema-deaths-examination
+  kind: citation
+- at: I, 519 n.t1
+  of: x.1960-11-30.xuanwei-counterrevolutionary-riot-investigation-report
+  kind: citation
+- at: I, 520 n.52
+  of: x.1960-12-02.xie-fuzhi-report-to-zhou-and-li-fuchun-xuanwei-riot-and-grain
+  kind: citation
+- at: I, 513 n.48
+  of: x.1960-12-09.chuxiong-prefectural-committee-report-taoyuan-district-cangling-commune
+  kind: citation
+- at: I, 548 n.t1
+  of: x.1960-01-16.zhangjiakou-city-committee-composite-report-anti-rightist-village-rectification
+  kind: citation
+- at: I, 547 n.40
+  of: x.1960-01-21.tangshan-city-committee-report-village-rectification-to-provincial-committee
+  kind: citation
+- at: I, 542 n.24
+  of: x.1960-01-26.hebei-supervisory-committee-letter-to-provincial-committee-ci-county-zhang-chengxian-comment
+  kind: citation
+- at: I, 542 n.23
+  of: x.1960-02-18.hebei-committee-report-prevention-treatment-edema-to-center
+  kind: citation
+- at: I, 544 n.32
+  of: x.1960-04-29.hebei-committee-forwards-public-security-party-group-poisoning-bulletin
+  kind: citation
+- at: I, 544 n.33
+  of: x.1960-05-15.hebei-anti-poison-inspection-group-report-zhuo-ningjin-tang-poisonings
+  kind: citation
+- at: I, 540 n.20
+  of: x.1960-07-18.central-office-anguo-work-group-report-wurenqiao-commune-mess-hall
+  kind: citation
+- at: I, 545 n.34
+  of: x.1960-09-21.hebei-committee-forwards-public-security-report-present-poisoning-accidents
+  kind: citation
+- at: I, 543 n.30
+  of: x.1960-10-13.hebei-supervisory-committee-report-villages-continuing-edema
+  kind: citation
+- at: I, 543 n.25
+  of: x.1960-10-18.hebei-committee-report-mass-movement-grain-work-livelihood-to-center
+  kind: citation
+- at: I, 545 n.t1
+  of: x.1960-10-07.tangshan-city-committee-report-cocklebur-seed-poisoning
+  kind: citation
+- at: I, 544 n.31
+  of: x.1960-11-08.hebei-committee-urgent-notice-arranging-masses-livelihood
+  kind: citation
+- at: I, 541 n.22
+  of: x.1991.zhangjiakou-diqu-dangshi-ziliao-1991-no-1
+  kind: citation
+- at: I, 543 n.26
+  of: x.1960-12-17.hebei-committee-brief-edema-situation-to-north-china-bureau-and-center
+  kind: citation
+- at: I, 545 n.t2
+  of: x.1960-12-28.hebei-committee-secret-telegram-finding-and-stopping-deaths
+  kind: citation
+- at: I, 567 n.t1
+  of: x.1960-02-24.guizhou-committee-report-rural-public-mess-halls-to-center
+  kind: citation
+- at: I, 568 n.9
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 44–45
+- at: I, 568 n.t1
+  of: x.undated.zhongjiwei-dashiji-given-to-yang-jisheng-by-li-jian
+  kind: citation
+- at: I, 636 n.t1
+  of: x.1960-06-15.niu-peicong-telephone-notice-to-li-youwen-no-meat-jun-15
+  kind: citation
+- at: I, 621 n.5
+  of: x.1960-09-10.li-xiannian-speech-center-telephone-conference-lowering-ration-standards
+  kind: citation
+- at: I, 623 n.8
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 402
+- at: I, 623 n.7
+  of: x.1960-12-26.xuanjiao-dongtai-113-grain-education
+  kind: citation
+- at: I, 623 n.6
+  of: x.1961-01-19.anshan-city-committee-report-grain-education-workers-families
+  kind: citation
+- at: I, 629 n.16
+  of: x.1960-10-07.shi-xudong-letter-to-center-handan-special-supply
+  kind: citation
+- at: I, 623 n.t1
+  of: x.1960-10-24.liaoning-committee-industrial-department-report-ideological-education-grain-question
+  kind: citation
+- at: I, 137 n.10
+  of: x.2009-07-20.peng-xing-letter-to-yang-jisheng-shishi-bianzheng
+  kind: citation
+- at: I, 140 n.13
+  of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years
+  kind: citation
+- at: I, 140 n.14
+  of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years
+  kind: citation
+- at: I, 140 n.15
+  of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years
+  kind: citation
+- at: I, 141 n.16
+  of: w.zhongguo-renkou-gansu-fence
+  kind: citation
+- at: I, 141 n.17
+  of: w.li-lei-youyou-suiyue
+  kind: citation
+  pin: '149'
+- at: I, 142 n.18
+  of: w.fu-shanglun-gaobie-jiee
+  kind: citation
+  pin: '21'
+- at: I, 143 n.19
+  of: w.cao-shuji-da-jihuang
+  kind: citation
+  pin: '277'
+- at: I, 150 n.29
+  of: w.he-fengming-jingli
+  kind: citation
+  pin: '420'
+- at: I, 165 n.42
+  of: x.1965-07-05.tongwei-county-committee-lessons-of-tongwei-history-report-1965
+  kind: citation
+- at: I, 226 n.89
+  of: x.1961-01-31.li-lin-report-dianjiang-chengxi-commune-chunhua-district
+  kind: citation
+- at: I, 226 n.90
+  of: x.1961-01-16.wenjiang-work-group-jintang-five-level-cadre-meeting-report-1961-01-16
+  kind: citation
+- at: I, 288 n.68
+  of: x.1961-01-14.yao-kuijia-examination-wuwei-county-committee-standing-committee-1961-01-14
+  kind: citation
+- at: I, 288 n.69
+  of: x.2006.xie-guiping-wuwei-xian-de-da-yuejin-yundong-ji-qi-houguo-2006
+  kind: citation
+- at: I, 320 n.90
+  of: x.1961.bengbu-city-1961-three-level-cadre-meeting-bulletin-opinions-to-provincial-committee
+  kind: citation
+- at: I, 325 n.97
+  of: x.1961-11-17.bengbu-disease-elimination-leading-group-report-disease-prevention-1961-11-17
+  kind: citation
+- at: I, 373 n.16
+  of: x.1959-02-12.jiangsu-rectification-inspection-corps-yangzhou-branch-report-1959-02-12
+  kind: citation
+- at: I, 378 n.26
+  of: x.1961-04.guabu-commune-rectification-research-group-report-luhe-county-cadre-style-1961-04
+  kind: citation
+- at: I, 380 n.29
+  of: x.1960-11-15.jiangsu-work-group-zhengnan-brigade-tianmei-commune-investigation
+  kind: citation
+- at: I, 383 n.35
+  of: w.jiangsu-wushi-nian
+  kind: citation
+- at: I, 390 n.39
+  of: x.1990.changshu-shizhi-1990
+  kind: citation
+- at: I, 390 n.40
+  of: x.1981.dongan-zhi-1981
+  kind: citation
+- at: I, 390 n.41
+  of: x.1960-07-25.sun-haiguang-letter-to-jiangsu-committee-han-comment
+  kind: citation
+- at: I, 391 n.43
+  of: x.1962-05-30.jiangsu-committee-report-lixiahe-area-current-situation-1962-05-30
+  kind: citation
+- at: I, 391 n.45
+  of: x.1961-06-10.baoying-county-committee-work-group-tianping-commune-report-1961-06-10
+  kind: citation
+- at: I, 393 n.50
+  of: x.1990.lishui-xianzhi-1990
+  kind: citation
+- at: I, 394 n.51
+  of: x.1959-04-15.yan-jingzhan-telephone-report-people-s-livelihood-1959-04-15
+  kind: citation
+- at: I, 406 n.12
+  of: x.undated.yumi-zhixiang-de-da-taowang-guangdong-san-nian-da-jihuang-qingkuang-online
+  kind: citation
+- at: I, 406 n.13
+  of: x.1988.zhu-yuncheng-ed-zhongguo-renkou-guangdong-fence-1988
+  kind: citation
+- at: I, 406 n.14
+  of: w.cao-shuji-da-jihuang
+  kind: citation
+  pin: '139'
+- at: I, 426 n.22
+  of: x.2005-12-26.hong-kong-flight-section-sources-xgc2000-and-2005-article
+  kind: citation
+- at: I, 442 n.8
+  of: x.1959-06-18.xia-zhengnong-report-checking-shouzhang-to-provincial-committee-1959-06-18
+  kind: citation
+- at: I, 452 n.20
+  of: x.1960-12-10.shu-tong-wo-de-jiancha-dec-10-1960
+  kind: citation
+- at: I, 445 n.13
+  of: x.1960-12-13.shu-tong-my-examination-shandong-enlarged-meeting
+  kind: citation
+- at: I, 454 n.25
+  of: x.1987-11-12.duan-junji-shen-qie-huainian-zhang-beihua-tongzhi-1987-11-12
+  kind: citation
+- at: I, 455 n.28
+  of: x.2010.xiao-gan-wo-suo-zhidao-de-teshu-anjian-2010
+  kind: citation
+- at: I, 471 n.10
+  of: x.1957-12-28.jiang-hua-jianchi-dang-de-zhengque-luxian-people-s-daily-1957-12-28
+  kind: citation
+- at: I, 471 n.11
+  of: x.1957-06.yang-xinpei-report-xianju-masses-disturbance-1957-06
+  kind: citation
+- at: I, 471 n.12
+  of: x.1955-07-31.mao-guanyu-nongye-hezuohua-wenti-1955-07-31
+  kind: citation
+- at: I, 471 n.13
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 5, 362
+- at: I, 471 n.14
+  of: x.1955-09-13.central-rural-work-department-review-zhejiang-cooperation-question-1955-09-13
+  kind: citation
+- at: I, 510 n.41
+  of: x.1959-10-28.yunnan-committee-report-anti-right-struggle-provincial-organs-1959-10-28
+  kind: citation
+- at: I, 510 n.42
+  of: x.1959-09.yunnan-committee-first-session-eighth-plenum-resolution-1959-09
+  kind: citation
+- at: I, 521 n.53
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 501
+- at: I, 569 n.10
+  of: w.yan-yuebin-guizhou-de-da-jihuang
+  kind: citation
+  pin: '58'
+- at: I, 574 n.12
+  of: x.2007-11.liu-qisheng-lishi-de-beiju-chentong-de-jingshi-meitan-shijian-2007
+  kind: citation
+- at: I, 575 n.13
+  of: x.1993-01.zheng-yi-dayuejin-shiqi-nongcun-beiju-jiangkou-shijian-zhengming-1993
+  kind: citation
+- at: I, 575 n.14
+  of: w.yan-yuebin-guizhou-de-da-jihuang
+  kind: citation
+  pin: '59'
+- at: I, 575 n.15
+  of: x.2006-10.gao-hua-zai-guizhou-siqing-yundong-de-beijing-2006-10
+  kind: citation
+- at: I, 593 n.9
+  of: x.2005.wu-wenjun-e-hun-ji-zhongguo-liushi-niandai-jihuang-kao-2005
+  kind: citation
+- at: I, 593 n.10
+  of: x.2009.yin-shusheng-teshu-anjian-de-yuanshi-jilu-2009
+  kind: citation
+- at: I, 593 n.11
+  of: x.2009.yin-shusheng-teshu-anjian-de-yuanshi-jilu-2009
+  kind: citation
+- at: I, 625 n.13
+  of: x.1960-11-09.center-document-1960-927-qi-yanming-report-special-supply-beijing
+  kind: citation
+- at: I, 638 n.23
+  of: x.1995.dishuidong-exhibit-text-copied-by-yang-jisheng-1995
+  kind: citation
+- at: I, 549 n.43
+  of: x.1960-06-02.handan-city-committee-report-32-rural-three-anti-pilots-to-provincial-committee
+  kind: citation
+- at: I, 324 n.94
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 324 n.96
+  of: x.undated.fang-shi-talk-with-yang-jisheng-foreign-experts-hefei
+  kind: citation
+- at: I, 324 n.95
+  of: x.2001-04-09.li-jian-talk-with-yang-jisheng-central-control-commission
+  kind: citation
+- at: I, 628 n.15
+  of: w.luo-pinghan-sannian-kunnan-shiqi
+  kind: citation
+- at: II, 824 n.29
+  of: x.1961-02-04.central-committee-directive-forwarding-henan-luoyang-cash-in-documents
+  kind: citation
+- at: II, 824 n.30
+  of: x.1961-06-02.meishan-county-report-main-situation-of-refunds
+  kind: citation
+- at: II, 824 n.31
+  of: x.1961-09-19.sichuan-refund-committee-office-opinions-current-refund-problems
+  kind: citation
+- at: II, 824 n.33
+  of: x.1961-08-24.rural-work-department-report-implementing-sixty-articles
+  kind: citation
+- at: II, 826 n.38
+  of: x.1961-08-24.rural-work-department-report-implementing-sixty-articles
+  kind: citation
+- at: II, 825 n.36
+  of: x.1962-07-15.jiangsu-people-council-general-office-jinsha-six-market-towns
+  kind: citation
+- at: II, 830 n.t1
+  of: x.1962-06.tao-zhu-wang-renzhong-longsheng-symposium-record
+  kind: citation
+- at: II, 830 n.45
+  of: x.1962-07-22.mao-zedong-comment-printing-longsheng-symposium-record
+  kind: citation
+- at: II, 831 n.46
+  of: x.1962-12-11.anhui-committee-summary-correcting-responsibility-fields
+  kind: citation
+- at: II, 833 n.56
+  of: x.1961-11-17.bengbu-leading-group-opinions-compressing-urban-population
+  kind: citation
+- at: II, 833 n.57
+  of: x.1962-06-10.changzhou-committee-circular-daming-textile-mill-disturbance
+  kind: citation
+- at: II, 837 n.61
+  of: x.1962-10-13.central-work-group-situation-bulletin-24-hechuan-cadres
+  kind: citation
+- at: II, 832 n.t1
+  of: x.1961-06-18.central-committee-nine-measures-reducing-urban-population
+  kind: citation
+- at: II, 832 n.t2
+  of: x.1961-06-18.central-committee-urgent-instruction-verifying-urban-population-grain
+  kind: citation
+- at: II, 832 n.t3
+  of: x.1962-05-27.central-committee-state-council-decision-further-streamlining
+  kind: citation
+- at: II, 831 n.47
+  of: w.chen-yun-wenxuan-1956
+  kind: citation
+  pin: '159'
+- at: II, 831 n.48
+  of: w.chen-yun-wenxuan-1956
+  kind: citation
+  pin: '160'
+- at: II, 832 n.49
+  of: w.chen-yun-wenxuan-1956
+  kind: citation
+  pin: '160'
+- at: II, 832 n.50
+  of: w.chen-yun-wenxuan-1956
+  kind: citation
+  pin: '151'
+- at: II, 827 n.39
+  of: w.zhijun-lishi-buzai-paihuai-history
+  kind: citation
+  pin: '84'
+- at: I, 144 n.22
+  of: x.1962-01-15.wuwei-prefectural-committee-telephone-report-yongchang-illness-outflow
+  kind: citation
+- at: I, 145 n.23
+  of: x.1962-04-08.gannan-prefectural-committee-report-livelihood-and-rural-grain-quota
+  kind: citation
+- at: I, 145 n.24
+  of: x.1962-05-11.linxia-prefectural-committee-brief-dahejia-baoan-commune-livelihood
+  kind: citation
+- at: I, 175 n.t1
+  of: x.1961-02-27.gansu-committee-provisions-centralized-and-special-training-classes
+  kind: citation
+- at: I, 175 n.t2
+  of: x.1961-11-25.dingxi-prefectural-committee-county-committees-opinions-on-center-and-province-leaders
+  kind: citation
+- at: I, 167 n.t1
+  of: x.1961-01-13.dingxi-prefectural-committee-enlarged-meeting-bulletin
+  kind: citation
+- at: I, 156 n.32
+  of: x.1961-01-08.gansu-health-department-inspection-group-report-tongwei
+  kind: citation
+- at: I, 232 n.99
+  of: x.1961-09-19.sichuan-committee-work-group-report-jiangbei-correcting-household-contracting
+  kind: citation
+- at: I, 233 n.100
+  of: x.1962-08-28.central-work-group-situation-bulletin-12-jiangbei-xinglong-household-contracting
+  kind: citation
+- at: I, 245 n.114
+  of: x.1962-08-28.central-work-group-situation-bulletin-12-jiangbei-xinglong-household-contracting
+  kind: citation
+- at: I, 233 n.101
+  of: x.1961-08-25.pingshan-county-committee-work-group-wuyi-brigade-correcting-household-contracting
+  kind: citation
+- at: I, 245 n.115
+  of: x.1961-09-19.sichuan-committee-draft-opinions-screening-rehabilitation-specific-problems
+  kind: citation
+- at: I, 229 n.96
+  of: x.1961-01-06.liu-wenzhen-telephone-report-bishan-mess-halls
+  kind: citation
+- at: I, 232 n.t1
+  of: x.1961-09-25.li-jingquan-comment-on-jiangbei-report-socialist-education
+  kind: citation
+- at: I, 245 n.113
+  of: x.1962-10-13.central-work-group-situation-bulletin-24-hechuan-cadres
+  kind: citation
+- at: I, 200 n.28
+  of: x.1961-01-31.li-lin-report-dianjiang-chengxi-commune-chunhua-district
+  kind: citation
+- at: I, 200 n.27
+  of: x.1961-01-12.sichuan-rectification-work-corps-mianyang-group-material-shima-commune
+  kind: citation
+- at: I, 206 n.t1
+  of: x.1962-01-19.sichuan-committee-bishan-work-group-report-daxing-commune-deaths
+  kind: citation
+- at: I, 207 n.40
+  of: x.1961-08-31.daxian-work-corps-inspection-group-report-qu-county-guanyin-earth
+  kind: citation
+- at: I, 218 n.73
+  of: x.1961-07-05.yibin-prefectural-committee-disease-elimination-group-report-swelling-disease
+  kind: citation
+- at: I, 218 n.74
+  of: x.1961-07-26.li-yin-yibin-production-inspection-group-report-anbian-commune-empty-fields
+  kind: citation
+- at: I, 218 n.75
+  of: x.1959-07-09.sichuan-inspection-corps-yibin-sub-corps-jiang-an-team-report-taoping-commune-changning
+  kind: citation
+- at: I, 219 n.76
+  of: x.1962-08-24.central-work-group-investigation-dazu-tuqiao-commune-cadres-overeating
+  kind: citation
+- at: I, 219 n.77a
+  of: x.1962-01-28.jiangbei-county-committee-wang-daoyi-report-shiba-commune-emergency-disease-control
+  kind: citation
+- at: I, 219 n.77b
+  of: x.1961-08-26.disease-elimination-office-fuling-inspection-group-report-minjia-commune
+  kind: citation
+- at: I, 218 n.t1
+  of: x.1962-02-02.yibin-prefectural-committee-telephone-report-current-disease-control
+  kind: citation
+- at: I, 217 n.71
+  of: w.dong-fu-maimiaoer-qing
+  kind: citation
+- at: I, 217 n.72
+  of: w.dong-fu-maimiaoer-qing
+  kind: citation
+- at: I, 219 n.78
+  of: x.1961-01-31.li-lin-report-dianjiang-chengxi-commune-chunhua-district
+  kind: citation
+- at: I, 271 n.20a
+  of: x.1961-01-08.fengyang-five-level-enlarged-meeting-bulletin-4
+  kind: citation
+- at: I, 271 n.20b
+  of: x.1961-01-09.fengyang-five-level-enlarged-meeting-bulletin-5
+  kind: citation
+- at: I, 271 n.20c
+  of: x.1961-01-10.fengyang-five-level-enlarged-meeting-bulletin-6
+  kind: citation
+- at: I, 271 n.21
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 271 n.22
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 271 n.23
+  of: x.1961-01-10.fengyang-five-level-enlarged-meeting-bulletin-6
+  kind: citation
+- at: I, 266 n.18
+  of: w.guo-shutian-shiheng-de-zhongguo
+  kind: citation
+  pin: '19'
+- at: I, 266 n.19
+  of: w.zhang-wanshu-guxiang-renmin-de-xiaosheng
+  kind: citation
+  pin: 29, 57
+- at: I, 334 n.104
+  of: x.1961-05-03.central-general-office-forwarding-anhui-report-guaranteed-labor-production
+  kind: citation
+- at: I, 333 n.103
+  of: x.1961-03-20.zeng-xisheng-letter-to-mao-and-others-responsibility-fields
+  kind: citation
+- at: I, 326 n.t1
+  of: x.1961.li-jian-report-anhui-dropsy-blockade-punishment-of-cadres
+  kind: citation
+- at: I, 326 n.t2
+  of: x.1961.weng-keye-draft-report-bengbu-fifteen-counties-investigation
+  kind: citation
+- at: I, 326 n.99
+  of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo
+  kind: citation
+  pin: 235–237
+- at: I, 330 n.t1
+  of: x.1961-03-26.bengbu-city-committee-instruction-organizing-masses-to-gather-wild-vegetables
+  kind: citation
+- at: I, 265 n.16a
+  of: x.1960-01-07.zhao-yushu-examination-five-level-enlarged-meeting
+  kind: citation
+- at: I, 265 n.16b
+  of: x.1961-08-24.ma-weimin-speech-fengyang-three-level-cadre-meeting-two-years-lessons
+  kind: citation
+- at: I, 265 n.17
+  of: x.1958-12.fengyang-county-committee-industry-transport-department-summary-report-1958
+  kind: citation
+- at: I, 342 n.4
+  of: x.1961-05-09.wu-de-first-letter-to-the-chairman
+  kind: citation
+- at: I, 342 n.5
+  of: x.1961-05-10.song-zhenting-report-huaide-county-main-problems-further-rectification
+  kind: citation
+- at: I, 344 n.10
+  of: x.1961-02-11.jilin-committee-report-grain-situation-livelihood-arrangement
+  kind: citation
+- at: I, 344 n.11
+  of: x.1961-11-29.jilin-outline-report-grain-situation-draft
+  kind: citation
+- at: I, 345 n.12
+  of: x.1962-03-05.jilin-finance-trade-department-report-convening-rural-livelihood-conference
+  kind: citation
+- at: I, 345 n.13
+  of: x.1961-11-29.jilin-outline-report-grain-situation-draft
+  kind: citation
+- at: I, 345 n.14
+  of: x.1961-01-07.jilin-committee-general-office-big-drive-substitute-foods
+  kind: citation
+- at: I, 346 n.15
+  of: x.1961-01-18.northeast-bureau-report-substitute-food-drive-northeast
+  kind: citation
+- at: I, 346 n.16
+  of: x.1961-01-25.northeast-bureau-finance-committee-report-three-province-finance-trade-ministers-symposium
+  kind: citation
+- at: I, 347 n.17
+  of: x.1961-05-11.changchun-committee-general-office-report-stopping-bark-stripping
+  kind: citation
+- at: I, 347 n.18
+  of: x.1961-03-04.he-jianzhong-telephone-record-to-rural-work-department-jilin
+  kind: citation
+- at: I, 347 n.19
+  of: x.1960-03-21.wang-xinru-speech-jilin-party-congress-arranging-livelihood
+  kind: citation
+- at: I, 347 n.20
+  of: x.1960-03.yue-lin-speech-jilin-second-party-congress
+  kind: citation
+- at: I, 341 n.2
+  of: x.1958-02-13.jilin-procuratorate-party-group-report-crimes-against-grain-policy
+  kind: citation
+- at: I, 341 n.3
+  of: x.1959-01-09.jilin-procuratorate-high-court-supervisory-department-opinions-punishing-grain-policy-violators
+  kind: citation
+- at: I, 342 n.6
+  of: x.1959-06-09.jilin-committee-report-current-grain-situation
+  kind: citation
+- at: I, 344 n.9
+  of: x.1960-12-07.wu-de-speech-jilin-committee-telephone-conference-grain-procurement-livelihood
+  kind: citation
+- at: I, 362 n.50
+  of: x.1961-05-10.wu-de-second-letter-to-the-chairman-mess-halls
+  kind: citation
+- at: I, 361 n.49
+  of: x.1960-02-20.wang-xinru-speech-jilin-party-congress-arranging-rural-livelihood
+  kind: citation
+- at: I, 362 n.51
+  of: x.1960-12-29.jilin-committee-document-streamlining-staff-adjusting-labor-reducing-urban-population
+  kind: citation
+- at: I, 362 n.52
+  of: w.jilin-shengzhi
+  kind: citation
+  pin: '206'
+- at: I, 355 n.35
+  of: x.1961-03-11.jilin-health-department-party-group-report-tao-an-edema-two-management-districts
+  kind: citation
+- at: I, 355 n.37
+  of: x.1961-06-02.jilin-health-department-party-group-report-preventing-curing-main-diseases
+  kind: citation
+- at: I, 354 n.34
+  of: x.1961-12-07.zhang-shiying-letter-to-wu-de-zhao-lin-secretariat-fusong-ginseng-production
+  kind: citation
+- at: I, 355 n.36
+  of: x.1961-03-04.he-jianzhong-telephone-record-to-rural-work-department-jilin
+  kind: citation
+- at: II, 1173 n.t1
+  of: x.1961-03-23.center-letter-earnest-investigation-mar-23-1961
+  kind: citation
+- at: II, 1173 n.t2
+  of: x.1961-04-27.anhui-committee-report-trial-guaranteed-labor-production-responsibility
+  kind: citation
+- at: II, 1173 n.t3
+  of: x.1961-04-26.zhongfa-61-323-several-important-documents-mao-commented-on
+  kind: citation
+- at: II, 1174 n.t1
+  of: x.1961-12-09.state-council-finance-trade-office-peking-committee-request-nonstaple-food
+  kind: citation
+- at: II, 1174 n.t2
+  of: x.1961-12-17.central-committee-document-forwarding-nonstaple-food-request
+  kind: citation
+- at: II, 824 n.32
+  of: x.1960-11-19.dongtai-work-team-report-lunan-brigade
+  kind: citation
+- at: II, 825 n.34
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+  pin: '568'
+- at: II, 825 n.35
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+  pin: '568'
+- at: II, 827 n.40
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+  pin: '579'
+- at: II, 826 n.37
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 8, 395–396
+- at: II, 837 n.62
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 8, 209
+- at: II, 833 n.51
+  of: w.jilin-shengzhi
+  kind: citation
+  pin: '206'
+- at: II, 833 n.52
+  of: x.1991.henan-shengzhi-p57
+  kind: citation
+- at: II, 833 n.53
+  of: x.1998.fujian-shengzhi-p113
+  kind: citation
+- at: II, 833 n.54
+  of: x.1987.hu-huanyong-zhongguo-renkou-shanghai-fence-p143
+  kind: citation
+- at: II, 833 n.55
+  of: x.1994.qiqihar-shi-zhigao-p124
+  kind: citation
+- at: I, 207 n.41
+  of: x.1989.beichuan-xian-wenshi-ziliao-xuanji-6-pp128-132
+  kind: citation
+- at: I, 154 n.31
+  of: x.1990.tongwei-xianzhi-pp146-147
+  kind: citation
+- at: I, 156 n.33
+  of: x.2005.zhang-dafa-jinqiao-lu-man-pp35-37
+  kind: citation
+- at: I, 200 n.25
+  of: x.1959-07-23.yan-hongyan-letter-renshou-rural-work-to-provincial-committee-and-dazhang
+  kind: citation
+- at: I, 200 n.26
+  of: x.1959-07-29.guo-binglin-letter-to-minister-xia
+  kind: citation
+- at: I, 245 n.110
+  of: x.1959-12-25.sichuan-committee-table-key-criticized-party-cadres-factories-mines
+  kind: citation
+- at: I, 245 n.111
+  of: x.1959-12-25.sichuan-committee-table-key-criticized-party-cadres-colleges-schools
+  kind: citation
+- at: I, 245 n.112
+  of: x.1959-12-25.sichuan-committee-tables-key-criticized-non-party-cadres
+  kind: citation
+- at: I, 333 n.102
+  of: x.1994.zhongguo-nongye-hezuohua-shiliao-1994-1-p36-dangdai-zhongguo-anhui
+  kind: citation
+- at: II, 839 n.t1
+  of: x.1962-08-25.grain-ministry-planning-department-grain-data-digest
+  kind: citation
+- at: I, 316 n.t1
+  of: x.1962-08-25.grain-ministry-planning-department-grain-data-digest
+  kind: citation
+- at: I, 341 n.t1
+  of: x.1962-08-25.grain-ministry-planning-department-grain-data-digest
+  kind: citation
+- at: I, 315 n.85
+  of: x.1961-03-18.cheng-guanghua-examination-bengbu-city-committee-record
+  kind: citation
+- at: I, 316 n.86
+  of: x.1961-03-18.cheng-guanghua-examination-bengbu-city-committee-record
+  kind: citation
+- at: I, 208 n.42
+  of: x.1961-08-12.prefectural-disease-elimination-office-fuling-wulong-commune-bulletin
+  kind: citation
+- at: I, 224 n.85
+  of: x.1959-07-09.sichuan-inspection-corps-yibin-sub-corps-jiang-an-team-report-taoping-commune-changning
+  kind: citation
+- at: I, 220 n.80
+  of: w.dong-fu-maimiaoer-qing
+  kind: citation
+- at: I, 220 n.81
+  of: x.undated.liao-bokang-lishi-changhe-xuanwo-typescript
+  kind: citation
+- at: I, 248 n.121
+  of: x.1960-12-06.public-security-qionglai-joint-work-group-report-yang-shulou
+  kind: citation
+- at: I, 248 n.122
+  of: x.1960-12-01.wenjiang-work-group-pan-tingguang-illegal-conduct-case
+  kind: citation
+- at: I, 249 n.123
+  of: x.2005.dangdai-sichuan-yaoshi-shilu-1-p156
+  kind: citation
+- at: I, 249 n.124
+  of: w.dong-fu-maimiaoer-qing
+  kind: citation
+- at: I, 287 n.66
+  of: x.1998.ding-renbu-huoyang-zhongsheng-de-wuwei-gongchan-meng
+  kind: citation
+- at: I, 287 n.67
+  of: x.1998.ding-renbu-huoyang-zhongsheng-de-wuwei-gongchan-meng
+  kind: citation
+- at: I, 543 n.27
+  of: x.1961-01-07.feng-yunting-letter-pei-yangshan-hengshui-and-other-counties
+  kind: citation
+- at: I, 535 n.11
+  of: x.1961-01-07.feng-yunting-letter-pei-yangshan-hengshui-and-other-counties
+  kind: citation
+- at: I, 536 n.13
+  of: x.1961-01-17.hebei-agriculture-department-party-group-initial-examination-blind-commanding-wind
+  kind: citation
+- at: I, 536 n.14
+  of: x.1961-01-17.hebei-agriculture-department-party-group-initial-examination-blind-commanding-wind
+  kind: citation
+- at: I, 543 n.29
+  of: x.1961-01-21.hu-kaiming-letter-liu-zihou-zhangjiakou-livelihood
+  kind: citation
+- at: I, 545 n.35
+  of: x.1961-09-17.hebei-committee-office-prefectural-committees-discussion-telephone-conference
+  kind: citation
+- at: I, 546 n.36
+  of: x.1961-10-06.liu-zihou-urgent-telephone-grain-procurement
+  kind: citation
+- at: I, 546 n.37
+  of: x.1961-10-14.hebei-committee-office-fourth-brief-grain-work-regions
+  kind: citation
+- at: I, 546 n.38
+  of: x.1961-08-12.hebei-health-department-party-group-report-disease-prevention-campaign
+  kind: citation
+- at: I, 548 n.42
+  of: x.1962-04-28.hebei-rectification-office-supervisory-committee-summary-organizational-handling
+  kind: citation
+- at: I, 212 n.t1
+  of: x.1961.sichuan-committee-notice-disease-work-after-health-ministry-report
+  kind: citation
+- at: I, 208 n.43
+  of: x.1962.jiangjin-prefectural-committee-report-on-edema
+  kind: citation
+- at: I, 208 n.44
+  of: x.1962-01-25.ma-jiliang-telephone-report-changshou
+  kind: citation
+- at: I, 208 n.45
+  of: x.1962-01-15.wanxian-prefectural-committee-office-report-rural-edema
+  kind: citation
+- at: I, 209 n.46
+  of: x.1962-03-02.lin-pian-tian-wu-guoxian-report-on-sichuan
+  kind: citation
+- at: I, 209 n.47
+  of: x.1962-03-17.chen-guodong-report-to-li-xiannian
+  kind: citation
+- at: I, 223 n.84
+  of: x.1961-01-16.wenjiang-work-group-jintang-five-level-cadre-meeting-report-1961-01-16
+  kind: citation
+- at: I, 225 n.88
+  of: x.1960-11-13.fan-zhizhong-report-nanping-commune-hechuan
+  kind: citation
+- at: I, 225 n.86
+  of: x.1960-11-29.qiao-zhimin-report-nanping-commune-rectification
+  kind: citation
+- at: I, 225 n.87
+  of: x.1960-11-29.qiao-zhimin-report-nanping-commune-rectification
+  kind: citation
+- at: I, 220 n.79
+  of: x.1961-04-08.dianjiang-work-group-jiefeng-commune-recovery-report
+  kind: citation
+- at: I, 248 n.120
+  of: x.1962-03.provincial-work-group-xinfan-hetun-commune-problems
+  kind: citation
+- at: I, 246 n.116
+  of: x.undated.liao-bokang-lishi-changhe-xuanwo-typescript
+  kind: citation
+- at: I, 280 n.48
+  of: x.1961-01-15.zhao-yushu-second-supplementary-examination-five-level-meeting
+  kind: citation
+- at: I, 280 n.49
+  of: x.1961-01-15.zhao-yushu-second-supplementary-examination-five-level-meeting
+  kind: citation
+- at: I, 279 n.45
+  of: x.1961-02-10.fengyang-county-committee-xiaoxihe-commune-bad-people-in-power-report
+  kind: citation
+- at: I, 280 n.51
+  of: x.1961-02-10.fengyang-county-committee-xiaoxihe-commune-bad-people-in-power-report
+  kind: citation
+- at: I, 281 n.52
+  of: x.1961-02-10.fengyang-county-committee-xiaoxihe-commune-bad-people-in-power-report
+  kind: citation
+- at: I, 279 n.46
+  of: x.1961-04-18.wudian-commune-committee-report-rectification-work
+  kind: citation
+- at: I, 280 n.50
+  of: x.1961-11-07.fengyang-county-committee-report-five-winds
+  kind: citation
+- at: I, 281 n.53
+  of: x.1961.fengyang-county-committee-research-group-sifeng-brigade-bulletins
+  kind: citation
+- at: I, 305 n.t1
+  of: x.2005.liang-zhiyuan-chentong-de-lishi-jiaoxun-haoxian-siwang-shilu
+  kind: citation
+- at: I, 357 n.42
+  of: x.1961-10-30.jilin-public-security-civil-affairs-party-groups-report-halt-free-movement
+  kind: citation
+- at: I, 385 n.t1
+  of: x.1961-01-20.li-shuren-letter-chen-feng-huaiyin-wangxing-commune-rations
+  kind: citation
+- at: I, 382 n.32
+  of: x.1961-04.guabu-commune-rectification-research-group-report-luhe-county-cadre-style-1961-04
+  kind: citation
+- at: I, 405 n.11
+  of: x.undated.yumi-zhixiang-de-da-taowang-guangdong-san-nian-da-jihuang-qingkuang-online
+  kind: citation
+- at: I, 422 n.t1
+  of: x.1961-01-21.jiangmen-suburb-four-level-cadre-meeting-situation-report
+  kind: citation
+- at: I, 424 n.t1
+  of: x.1961-01-03.bao-an-county-four-level-cadre-meeting-summary-report
+  kind: citation
+- at: I, 425 n.t1
+  of: x.1961-01-03.shunde-county-committee-four-level-cadre-meeting-summary-report
+  kind: citation
+- at: I, 414 n.17
+  of: x.1961-03-12.prefectural-investigation-group-gaoyao-sijia-brigade-report
+  kind: citation
+- at: I, 428 n.23
+  of: x.2001.guangdong-shengzhi-gongan-zhi
+  kind: citation
+- at: I, 444 n.11
+  of: x.1961-05-12.shandong-grain-department-report-shandong-grain-problem
+  kind: citation
+- at: I, 447 n.17
+  of: x.1961-05-12.shandong-grain-department-report-shandong-grain-problem
+  kind: citation
+- at: I, 462 n.32
+  of: x.undated.gao-hua-da-zaihuang-yu-siqing-yundong-de-qiyuan
+  kind: citation
+- at: I, 467 n.5
+  of: x.1961-07-16.zeng-shaowen-report-national-grain-bureau-chiefs-conference
+  kind: citation
+- at: I, 467 n.6
+  of: x.1962-05-14.zhejiang-grain-conference-documents
+  kind: citation
+- at: I, 467 n.7
+  of: x.1961.zhejiang-committee-general-office-key-grain-counties-investigation-materials-1-17
+  kind: citation
+- at: I, 474 n.16
+  of: x.1961-03.zhejiang-committee-general-office-equalization-and-refund-report
+  kind: citation
+- at: I, 475 n.18
+  of: x.1961-02-09.zhejiang-rural-work-department-qingkuang-ziliao-10-liming-team
+  kind: citation
+- at: I, 479 n.32
+  of: x.1961-05-04.qu-county-work-group-luotou-brigade-basic-materials
+  kind: citation
+- at: I, 482 n.33
+  of: x.1961-05-28.zhejiang-committee-work-group-huangyan-luqiao-town-rural-work-draft
+  kind: citation
+- at: I, 483 n.34
+  of: x.1961-05-18.luqiao-commune-survey-group-comparison-two-production-brigades
+  kind: citation
+- at: I, 536 n.12
+  of: x.1991.zhangjiakou-diqu-dangshi-ziliao-1991-no-1
+  kind: citation
+- at: I, 539 n.7
+  of: x.1961-01-17.hebei-agriculture-department-party-group-initial-examination-blind-commanding-wind
+  kind: citation
+- at: I, 548 n.41
+  of: x.2008.an-zhenying-hebei-sheng-shenbie-pingfan-gongzuo-de-huiyi-yu-sikao
+  kind: citation
+- at: I, 274 n.30
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 274 n.31
+  of: x.1961-01-09.fengyang-five-level-enlarged-meeting-bulletin-5
+  kind: citation
+- at: I, 274 n.32
+  of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive
+  kind: citation
+- at: I, 275 n.33
+  of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive
+  kind: citation
+- at: I, 275 n.34
+  of: x.1989.xiangcun-sanshi-nian-fengyang-xian
+  kind: citation
+- at: I, 275 n.35
+  of: x.1989.xiangcun-sanshi-nian-fengyang-xian
+  kind: citation
+- at: I, 276 n.36
+  of: x.1959-10-30.fengyang-county-committee-zhao-conghua-antiparty-material
+  kind: citation
+- at: I, 276 n.37
+  of: x.1959-12-08.fengyang-county-committee-rectification-development
+  kind: citation
+- at: I, 276 n.38
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 277 n.39
+  of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive
+  kind: citation
+- at: I, 277 n.40
+  of: x.1960-11-24.fengyang-county-committee-trial-point-report-emergency-directive
+  kind: citation
+- at: I, 277 n.41
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 277 n.42
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 278 n.43
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 278 n.44
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 279 n.47
+  of: x.1961-02-01.chen-zhenya-report-fengyang-problem
+  kind: citation
+- at: I, 281 n.54
+  of: x.1963-03-10.fengyang-county-committee-report-correcting-responsibility-fields
+  kind: citation
+- at: I, 405 n.9
+  of: x.2001.lin-li-xiang-zhongyang-zuo-jiantao-de-tao-zhu
+  kind: citation
+- at: I, 405 n.10
+  of: x.1995.peng-jianxin-60-niandai-guangdong-sheng-jingji-tiaozheng-gaishu
+  kind: citation
+- at: I, 444 n.12
+  of: x.1959-05-23.cc-propaganda-department-xuanjiao-dongtai-edema
+  kind: citation
+- at: I, 474 n.17
+  of: x.1958-12-29.zhejiang-committee-forwards-jiande-daya-and-fuyang-changkou-reports
+  kind: citation
+- at: I, 475 n.19
+  of: x.1958-12-21.center-forwards-zhejiang-report-wenzhou-jinhua-socialist-education-violations
+  kind: citation
+- at: I, 479 n.28
+  of: x.1991.zhejiang-statistical-yearbook-1991
+  kind: citation
+- at: I, 479 n.29
+  of: x.1988.wang-siyun-zhongguo-renkou-zhejiang-fence
+  kind: citation
+- at: I, 479 n.31
+  of: w.cao-shuji-da-jihuang
+  kind: citation
+- at: II, 724 n.30
+  of: x.1961-05-09.yan-hongyan-letter-to-mao-on-rural-commune-questions
+  kind: citation
+- at: I, 513 n.t1
+  of: x.1961-06-26.wenshan-prefecture-two-reports-maguan-xichou-grain-riots
+  kind: citation
+- at: I, 537 n.15
+  of: x.1962-07-01.hebei-agriculture-department-work-group-cangzhou-ten-brigades-survey
+  kind: citation
+- at: I, 550 n.44
+  of: x.2008.an-zhenying-hebei-sheng-shenbie-pingfan-gongzuo-de-huiyi-yu-sikao
+  kind: citation
+- at: I, 556 n.45
+  of: x.1962-08-09.mao-zedong-talk-to-core-group-beidaihe-central-work-conference-mao-sixiang-wansui
+  kind: citation
+- at: I, 550 n.t1
+  of: x.1991.xiaoling-liu-zheng-hu-kaiming-bing-fei-hu-kaiming
+  kind: citation
+- at: I, 550 n.t2
+  of: x.2004-10.yang-jisheng-interview-hu-xiaoyan-shijiazhuang
+  kind: citation
+- at: I, 566 n.t1
+  of: x.2001.wang-minsan-zou-zai-gangsi-bande-rizi-li
+  kind: citation
+- at: I, 592 n.8
+  of: x.1961-02.xining-public-security-bureau-rule-on-cannibalism-arrests
+  kind: citation
+- at: I, 595 n.t1
+  of: x.2009.yin-shusheng-teshu-anjian-de-yuanshi-jilu-2009
+  kind: citation
+- at: I, 590 n.t1
+  of: x.1962.ye-fei-remarks-fujian-group-enlarged-central-work-conference
+  kind: citation
+- at: I, 624 n.10
+  of: x.1961-01-19.anshan-city-committee-report-grain-education-workers-families
+  kind: citation
+- at: I, 623 n.7
+  of: x.1960-12-26.xuanjiao-dongtai-113-grain-education
+  kind: citation
+- at: I, 623 n.8
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 402
+- at: I, 624 n.9
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 419
+- at: I, 624 n.11
+  of: x.1962-07-24.provincial-disease-elimination-office-disease-situation
+  kind: citation
+- at: I, 619 n.2
+  of: x.1961-04-30.zhongfa-61-338-gu-mu-opinions-workers-leaving-plants-jia-bubin-letter
+  kind: citation
+- at: I, 620 n.t1
+  of: x.1961-04-17.jilin-committee-urgent-circular-stop-units-seizing-commune-land
+  kind: citation
+- at: I, 619 n.t1
+  of: x.1961-05-16.northeast-bureau-notice-stabilizing-workers-ranks
+  kind: citation
+- at: I, 619 n.3
+  of: x.1962-01-20.jilin-committee-report-farm-sideline-bases-of-enterprises
+  kind: citation
+- at: I, 620 n.4
+  of: x.1962-11-09.jilin-committee-investigation-report-workers-families-self-supply-farming
+  kind: citation
+- at: I, 618 n.t1
+  of: x.1962-08-20.grain-ministry-general-office-grain-work-bulletin-28
+  kind: citation
+- at: I, 626 n.14
+  of: x.1961-12-17.central-committee-document-forwarding-nonstaple-food-request
+  kind: citation
+- at: I, 637 n.20
+  of: x.undated.su-linda-wo-gei-mao-zhuxi-dang-chushi
+  kind: citation
+- at: I, 637 n.21
+  of: x.2000-05-24.gu-jun-zhongguoren-chu-chang-xican
+  kind: citation
+- at: I, 637 n.22
+  of: x.2005.he-fang-dangshi-biji
+  kind: citation
+- at: II, 667 n.29
+  of: x.2002.shen-zhihua-guanyu-1950-niandai-sulian-yuanhua-daikuan
+  kind: citation
+- at: II, 667 n.30
+  of: w.lengxi-shinian-lunzhan-1956-1966
+  kind: citation
+  pin: I, 336–337
+- at: II, 664 n.24
+  of: x.1961-04-10.ye-jizhuang-banquet-speech-soviet-foreign-trade-ministry
+  kind: citation
+- at: II, 664 n.23
+  of: x.1981-08-13.jiefangjun-bao-soviet-experts-withdrawal
+  kind: citation
+- at: II, 668 n.33
+  of: x.1961-04-25.communique-chinese-albanian-economic-delegations-talks
+  kind: citation
+- at: II, 668 n.31
+  of: x.1964-12-31.zhou-enlai-government-work-report-renmin-ribao
+  kind: citation
+- at: II, 668 n.32
+  of: x.undated.shen-zhihua-chunchi-xiangyi-haishi-zhengzhi-lianyin
+  kind: citation
+- at: II, 669 n.35
+  of: x.1999.malile-wo-yanzhong-de-zhongguo-zhengyaomen
+  kind: citation
+- at: II, 741 n.6
+  of: x.1961-05.lei-bingrang-yuzhong-county-report-on-mess-halls
+  kind: citation
+- at: II, 747 n.16
+  of: x.1961-05.lei-bingrang-yuzhong-county-report-on-mess-halls
+  kind: citation
+- at: II, 741 n.7
+  of: x.2001.luo-pinghan-daguofan-gonggong-shitang-shimo
+  kind: citation
+- at: II, 741 n.8
+  of: x.1959-07-03.xinfan-county-commune-mess-halls-survey
+  kind: citation
+- at: II, 747 n.17
+  of: x.1958-11.mao-zedong-talk-eighth-central-committee-sixth-plenum-record
+  kind: citation
+- at: II, 742 n.9
+  of: x.1961-04.shaoshan-commune-report-on-solving-the-mess-hall-problem
+  kind: citation
+- at: II, 761 n.47
+  of: x.1961-04.shaoshan-commune-report-on-solving-the-mess-hall-problem
+  kind: citation
+- at: II, 761 n.48
+  of: x.1961-04.shaoshan-commune-report-on-solving-the-mess-hall-problem
+  kind: citation
+- at: II, 760 n.44
+  of: x.1959-09.central-general-office-document-mess-hall-labor-days
+  kind: citation
+- at: II, 760 n.45
+  of: x.1998.zhang-buzhen-kewang-zhenhua-liu-shaoqi-zai-1961
+  kind: citation
+- at: II, 760 n.46
+  of: x.1961-05-09.wang-feng-report-to-mao-on-rural-mess-halls
+  kind: citation
+- at: II, 767 n.53
+  of: x.1961-04-26.zhongfa-61-323-several-important-documents-mao-commented-on
+  kind: citation
+- at: II, 767 n.54
+  of: w.de-zhu-de-xuanji-selected
+  kind: citation
+  pin: '374'
+- at: II, 767 n.55
+  of: w.shaoqi-liu-shaoqi-xuanji-selected
+  kind: citation
+  pin: II, 329
+- at: II, 768 n.56
+  of: w.enlai-zhou-enlai-xuanji-selected
+  kind: citation
+  pin: II, 315
+- at: II, 768 n.57
+  of: w.nongye-jitihua-zhongyao-wenjian
+  kind: citation
+  pin: II, 484
+- at: II, 768 n.58
+  of: x.1961-05-11.li-jingquan-letter-to-mao-mess-hall-trial-points-neijiang
+  kind: citation
+- at: II, 956 n.65
+  of: x.1960-11-02.tan-zhenlin-talk-national-telephone-conference-rations
+  kind: citation
+- at: II, 956 n.66
+  of: x.2001.wang-minsan-zou-zai-gangsi-bande-rizi-li
+  kind: citation
+- at: II, 956 n.67
+  of: x.2000-12-13.yang-jisheng-interview-liu-zongtang-chengdu
+  kind: citation
+- at: II, 957 n.69
+  of: x.1961-08-26.li-xiannian-speech-national-conference-grain-commerce-bureau-heads
+  kind: citation
+- at: II, 957 n.68
+  of: x.1961-05-07.grain-ministry-outline-report-on-the-grain-problem
+  kind: citation
+- at: II, 967 n.t1
+  of: x.1961-02-16.all-china-womens-federation-party-group-report-prolapse-amenorrhea
+  kind: citation
+- at: II, 967 n.74
+  of: x.1961-05-09.wang-feng-report-to-mao-on-rural-mess-halls
+  kind: citation
+- at: II, 972 n.t1
+  of: x.undated.zhou-bopin-talk-with-yang-jisheng-population-table
+  kind: citation
+- at: II, 1036 n.44
+  of: x.1962-01-06.zhongfa-62-110-construction-ministry-party-group-report-halted-projects
+  kind: citation
+- at: II, 1030 n.37
+  of: x.undated.wang-ping-dayuejin-he-tiaozheng-shiqi-de-renmin-shenghuo
+  kind: citation
+- at: II, 1030 n.38
+  of: x.undated.wang-ping-dayuejin-he-tiaozheng-shiqi-de-renmin-shenghuo
+  kind: citation
+- at: II, 1031 n.39
+  of: x.1962-05-09.zhongfa-62-206-finance-trade-office-united-front-report-back-door
+  kind: citation
+- at: II, 1043 n.20
+  of: x.1992.qiandongnan-miaozu-dongzu-zizhizhou-zhi-gongan-zhi
+  kind: citation
+- at: II, 1043 n.21
+  of: x.1993.zheng-yi-dayuejin-shiqi-nongcun-beiju-jiangkou-shijian-gaishi
+  kind: citation
+- at: II, 1043 n.22
+  of: x.1995.sichuan-sheng-gongan-zhi
+  kind: citation
+- at: II, 1043 n.23
+  of: x.1996.jingchuan-xian-zhi
+  kind: citation
+- at: II, 1043 n.24
+  of: x.1997.hunan-sheng-zhi-vol-6-zhengfazhi-gongan
+  kind: citation
+- at: II, 1043 n.26
+  of: x.1993.hebei-sheng-zhi-vol-71-gongan-zhi
+  kind: citation
+- at: II, 1044 n.27
+  of: x.1994.jianhe-xian-zhi
+  kind: citation
+- at: II, 1044 n.28
+  of: x.1993.dianjiang-xian-zhi
+  kind: citation
+- at: II, 1044 n.29
+  of: w.jilin-shengzhi
+  kind: citation
+  pin: vol. 12, 170
+- at: II, 1044 n.30
+  of: x.1995.nanhua-xian-zhi
+  kind: citation
+- at: II, 1044 n.31
+  of: x.1990.jiayuguan-shi-zhi
+  kind: citation
+- at: II, 1044 n.32
+  of: x.1994.aba-zhou-zhi
+  kind: citation
+- at: II, 1044 n.33
+  of: x.1996.simao-diqu-zhi
+  kind: citation
+- at: II, 1044 n.34
+  of: x.1992.tonghai-xian-zhi
+  kind: citation
+- at: II, 1045 n.35
+  of: x.1995.yunnan-sheng-zhi-vol-8
+  kind: citation
+- at: II, 1047 n.39
+  of: x.1993.anhui-sheng-zhi-gongan-zhi
+  kind: citation
+- at: II, 1047 n.40
+  of: x.1989.gansu-sheng-zhi-vol-2
+  kind: citation
+- at: II, 1047 n.41
+  of: x.1995.zhangye-shi-zhi
+  kind: citation
+- at: II, 1047 n.42
+  of: x.1992.anxi-xian-zhi
+  kind: citation
+- at: II, 1047 n.43
+  of: x.1992.leishan-xian-zhi
+  kind: citation
+- at: II, 1047 n.44
+  of: x.1989.liping-xian-zhi
+  kind: citation
+- at: II, 1047 n.45
+  of: x.1995.chaozhou-shi-zhi
+  kind: citation
+- at: II, 1054 n.59
+  of: x.1991.chongqing-xian-zhi
+  kind: citation
+- at: II, 1054 n.57
+  of: x.1993.chuxiong-yizu-zizhizhou-zhi-vol-2
+  kind: citation
+- at: II, 1054 n.58
+  of: x.1962-01-10.cui-cifeng-summary-talk-jilin-symposium-unified-action-against-theft
+  kind: citation
+- at: II, 1054 n.60
+  of: x.1960-07-18.jilin-political-legal-committee-party-group-report-arrest-execution-quotas
+  kind: citation
+- at: II, 1056 n.62
+  of: x.1961-11-02.xu-shoushen-talk-jilin-telephone-conference-city-public-order
+  kind: citation
+- at: II, 1045 n.36
+  of: x.1961-01-07.zhangye-prefectural-committee-report-wuwei-station-grain-thefts
+  kind: citation
+- at: II, 1046 n.37
+  of: x.1961-01-11.jiuquan-city-committee-report-flour-mill-mistaken-firing
+  kind: citation
+- at: II, 1046 n.38
+  of: x.1961-01-23.tianshui-work-group-prefectural-committee-report-railway-transport-safety
+  kind: citation
+- at: II, 1047 n.46
+  of: x.1961-01-12.zhang-guangqin-report-rural-security-disorder
+  kind: citation
+- at: II, 1056 n.t1
+  of: x.1962-10-19.xie-fuzhi-speech-national-political-legal-work-conference
+  kind: citation
+- at: II, 1111 n.1
+  of: x.1996.wu-lengxi-he-tian-jiaying-gongshi-de-rizi
+  kind: citation
+- at: II, 1111 n.2
+  of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo
+  kind: citation
+  pin: 46–47
+- at: II, 1111 n.3
+  of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo
+  kind: citation
+  pin: '99'
+- at: II, 1125 n.26
+  of: x.1962-04-11.deng-zihui-guanyu-longsheng-xian-de-baochan-daohu-wenti
+  kind: citation
+- at: II, 1125 n.27
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1084–1085
+- at: II, 1125 n.28
+  of: x.1962-07-07.deng-xiaoping-speech-youth-league-seventh-plenum
+  kind: citation
+- at: II, 1141 n.64
+  of: x.1961-01-31.zhongfa-center-forwards-hubei-report-tonghaikou-second-stage-rectification
+  kind: citation
+- at: II, 1143 n.65
+  of: x.1961-02-15.northeast-bureau-agricultural-committee-heilongjiang-work-group-xiangyangchuan-pilot-report
+  kind: citation
+- at: I, 396 n.t1
+  of: x.1962-07-15.jiangsu-people-council-general-office-jinsha-six-market-towns
+  kind: citation
+- at: I, 591 n.7
+  of: x.1997.ningde-shi-weyuanhui-dangshi-yanjiushi-zhongguo-gongchandang-ningde-lishi-dashiji
+  kind: citation
+- at: II, 669 n.34
+  of: x.1998.geng-biao-huiyilu-xinhua-wenzhai-1998-4
+  kind: citation
+- at: II, 1141 n.63
+  of: x.undated.li-dazhang-da-chu-gei-shengwei-changwei-he-xinan-ju-tongzhi-yi-yue
+  kind: citation
+- at: II, 732 n.t1
+  of: x.1960-03-09.center-directive-urban-communes-mar-9
+  kind: citation
+- at: II, 732 n.t2
+  of: x.1960-02-22.acftu-report-xiangfang-commune-feb-22
+  kind: citation
+- at: II, 732 n.t3
+  of: x.1960-02-28.henan-report-urban-communes-feb-28
+  kind: citation
+- at: II, 733 n.t1
+  of: x.1960-04-08.xinhua-woguo-chengshi-renmin-gongshe-de-fazhan
+  kind: citation
+- at: II, 733 n.50
+  of: x.1960-04-18.central-committee-forwarding-shanghai-report-lilong-urban-communes-zhongfa-60-354
+  kind: citation
+- at: II, 733 n.51
+  of: x.1960-06-08.central-committee-forwarding-acftu-report-urban-communes-zhongfa-60-522
+  kind: citation
+- at: II, 917 n.144
+  of: x.1960-01-08.mianyang-prefectural-committee-report-remaking-backward-communes-socialist-education
+  kind: citation
+- at: II, 913 n.138
+  of: x.1960-01-15.central-committee-approval-central-organs-party-committees-rightist-opportunist-standards
+  kind: citation
+- at: II, 913 n.139
+  of: x.1960-01-15.central-committee-approval-central-organs-party-committees-rightist-opportunist-standards
+  kind: citation
+- at: II, 806 n.57
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 307
+- at: II, 806 n.58
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 352
+- at: II, 805 n.56a
+  of: x.1960-11-03.mianyang-county-committee-summary-first-stage
+  kind: citation
+- at: II, 805 n.56b
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+  pin: '620'
+- at: II, 791 n.40a
+  of: x.1960-11-03.mianyang-county-committee-summary-first-stage
+  kind: citation
+- at: II, 791 n.40b
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+  pin: '620'
+- at: II, 791 n.39
+  of: x.1960-12-15.liaoning-work-group-tieling-fanhe-commune-rectification-pilot-summary
+  kind: citation
+- at: II, 951 n.58
+  of: x.1960-12-15.liaoning-work-group-tieling-fanhe-commune-rectification-pilot-summary
+  kind: citation
+- at: II, 944 n.46
+  of: x.1960-02-12.tan-zhenlin-speech-national-conference-finance-trade-secretaries-sown-area
+  kind: citation
+- at: II, 958 n.t1
+  of: x.1960-04-19.li-xiannian-speech-national-telephone-conference-non-staple-food-purchase
+  kind: citation
+- at: II, 955 n.64
+  of: x.1960-07-12.niu-peicong-chen-guodong-emergency-report-on-the-grain-situation
+  kind: citation
+- at: II, 955 n.t1
+  of: x.1960-10-16.li-xiannian-report-national-conference-finance-trade-secretaries
+  kind: citation
+- at: II, 959 n.t1
+  of: x.1960-11-09.academy-of-sciences-party-group-proposal-on-making-grain-substitutes
+  kind: citation
+- at: II, 961 n.t1
+  of: x.1960-11.institute-of-entomology-proposal-on-eating-insects
+  kind: citation
+- at: II, 1040 n.2
+  of: x.1960-12-19.northwest-bureau-paper-severe-handling-of-acts-against-grain-policy-xibei-fa-60-16
+  kind: citation
+- at: II, 1053 n.53
+  of: x.1960-04-04.jilin-committee-forwarding-procuratorate-report-on-arrests-in-1959
+  kind: citation
+- at: II, 1053 n.55
+  of: x.1960-07-18.jilin-committee-reply-to-political-legal-committee-party-group-on-arrest-approval
+  kind: citation
+- at: II, 734 n.53
+  of: x.1961-06-03.acftu-urban-commune-office-development-of-communes-in-large-and-middle-cities-1960
+  kind: citation
+- at: II, 1112 n.4
+  of: w.shangkun-yang-shangkun-riji-2
+  kind: citation
+  pin: II, 110
+- at: II, 1112 n.5
+  of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo
+  kind: citation
+  pin: '75'
+- at: II, 1113 n.6
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1026–1027
+- at: II, 1113 n.7
+  of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo
+  kind: citation
+  pin: 110–111
+- at: II, 1113 n.8
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1026–1027
+- at: II, 1115 n.9
+  of: w.shaoqi-liu-shaoqi-xuanji-selected
+  kind: citation
+  pin: 418–443
+- at: II, 1115 n.10
+  of: x.1967-02-03.mao-talk-cabo-baluku
+  kind: citation
+- at: II, 1115 n.11
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1019
+- at: II, 1116 n.12
+  of: w.zhang-suhua-bianju-qiqian-ren-dahui-shimo
+  kind: citation
+  pin: 143–145
+- at: II, 1116 n.13
+  of: w.xianzhi-mao-zedong-zhuan-1949
+  kind: citation
+  pin: II, 1190
+- at: II, 1116 n.14
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1046
+- at: II, 1117 n.15
+  of: x.1962-01-30.mao-zedong-speech-to-the-seven-thousand-cadres-conference
+  kind: citation
+- at: II, 1119 n.17
+  of: w.chen-yun-wenxuan-1956
+  kind: citation
+  pin: 183–198
+- at: II, 1119 n.18
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1051–1052
+- at: II, 1120 n.19
+  of: w.shaoqi-liu-shaoqi-xuanji-selected
+  kind: citation
+  pin: 444–445
+- at: II, 1120 n.20
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1073
+- at: II, 1121 n.21
+  of: x.1962-05-11.deng-xiaoping-speech-may-work-conference
+  kind: citation
+  pin: '319'
+- at: II, 917 n.146
+  of: x.1962-05-11.deng-xiaoping-speech-may-work-conference
+  kind: citation
+- at: II, 1124 n.24
+  of: w.chen-yun-wenxuan-1956
+  kind: citation
+  pin: 183–198
+- at: II, 1124 n.25
+  of: w.gongheguo-zhuxi-liu-shaoqi
+  kind: citation
+  pin: II, 1274
+- at: II, 1126 n.30
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 998
+- at: II, 1128 n.34
+  of: x.1962-08-06.mao-zedong-speech-of-aug-6-1962-opening-the-beidaihe-work-co
+  kind: citation
+- at: II, 1129 n.35
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1074–1077
+- at: II, 1129 n.36
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1074–1088
+- at: II, 1130 n.37
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1092–1093
+- at: II, 1130 n.38
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1093
+- at: II, 1130 n.39
+  of: w.kecheng-huang-kecheng-zishu
+  kind: citation
+  pin: '270'
+- at: II, 1131 n.42
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1096
+- at: II, 1131 n.43
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1096
+- at: II, 1131 n.44
+  of: w.kecheng-huang-kecheng-zishu
+  kind: citation
+  pin: '270'
+- at: II, 1132 n.46
+  of: x.2006-10.gao-hua-zai-guizhou-siqing-yundong-de-beijing-2006-10
+  kind: citation
+- at: II, 1122 n.22
+  of: x.2000.wang-guangmei-liu-yuan-et-al-ni-suo-bu-zhidao-de-liu-shaoqi-p90
+  kind: citation
+- at: II, 1122 n.23
+  of: x.2003-09-25.zhou-boping-talk-with-yang-jisheng-sept-25-2003
+  kind: citation
+- at: II, 1126 n.31
+  of: x.1979-03-06.lu-dingyi-huainian-renmin-de-hao-zongli-guangming-ribao
+  kind: citation
+- at: II, 1127 n.32
+  of: x.2006.zhu-liang-wang-jiaxiang-sanhe-yishao-yanhuang-chunqiu-2006-8
+  kind: citation
+- at: II, 1127 n.33
+  of: x.2005.yan-mingfu-cong-wo-qinli-de-jijian-shi-kan-kang-sheng-yanhuang-chunqiu-2005-5
+  kind: citation
+- at: II, 1130 n.40
+  of: x.2003.zhao-jialiang-talk-with-yang-jisheng-gao-gang-secretary
+  kind: citation
+- at: II, 1131 n.41
+  of: x.2003.zhao-jialiang-talk-with-yang-jisheng-gao-gang-secretary
+  kind: citation
+- at: II, 1132 n.45
+  of: x.1983.zhongguo-gongchandang-lici-zhongyao-huiyi-wenji-xia-p196-197
+  kind: citation
+- at: II, 1118 n.16
+  of: x.1962-02-28.gansu-provincial-organs-opinions-on-work-conference-documents
+  kind: citation
+- at: II, 732 n.47
+  of: x.1958-10-01.xinhua-deng-xiaoping-zai-dongbei-diqu-shicha-renmin-ribao
+  kind: citation
+- at: II, 732 n.48
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+  pin: '516'
+- at: II, 732 n.49
+  of: w.xianzhi-mao-zedong-zhuan-1949
+  kind: citation
+  pin: II, 1057
+- at: II, 734 n.52
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 154–155
+- at: II, 790 n.38
+  of: x.1998.wang-jinglin-li-jianxin-zhi-cheng-ta-fuyu-zhi-lu-paoziyan
+  kind: citation
+- at: II, 912 n.137
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 8, 488
+- at: II, 917 n.143
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+  pin: 573–574
+- at: II, 917 n.145
+  of: x.1991.hu-sheng-zhongguo-gongchandang-de-qishi-nian-p367
+  kind: citation
+- at: II, 944 n.42
+  of: x.1958-08-11.kang-zhuo-mao-zhuxi-dao-le-xushui-renmin-ribao
+  kind: citation
+- at: II, 944 n.43
+  of: x.1958-09-30.liu-shaoqi-tongzhi-shicha-jiangsu-chengxiang-renmin-ribao
+  kind: citation
+- at: II, 944 n.44
+  of: x.1992.huang-daoxia-jianguo-yilai-nongye-hezuohua-shiliao-huibian
+  kind: citation
+  pin: '519'
+- at: II, 944 n.45
+  of: x.1960-11-23.qutang-work-team-report-huzhuang-brigade
+  kind: citation
+- at: II, 945 n.47
+  of: x.1997.xue-pangao-ziran-kexue-yanjiu-mangmu-tingming-zhengzhi-de-jiaoxun
+  kind: citation
+- at: II, 951 n.57
+  of: x.1991.fengdu-xian-zhi-p31
+  kind: citation
+- at: II, 958 n.70
+  of: x.1959-09-10.li-xiannian-talk-preparatory-meeting-national-finance-trade-secretaries
+  kind: citation
+- at: II, 959 n.71
+  of: x.1960-11-10.tan-zhenlin-report-national-conference-food-substitutes
+  kind: citation
+- at: II, 1040 n.1
+  of: x.undated.li-ruojian-dayuejin-yu-kunnan-shiqi-de-shehui-dongdang-he-shehui-kongzhi
+  kind: citation
+- at: II, 1052 n.52
+  of: x.1998-08.gao-hua-dayuejin-yundong-yu-guojia-quanli-de-kuozhang-ershiyi-shiji-48
+  kind: citation
+- at: II, 1053 n.54
+  of: x.1959-08-10.jilin-political-legal-joint-office-campaign-situation-draft
+  kind: citation
+- at: II, 1053 n.56
+  of: x.1992.tianchang-xian-zhi-p149
+  kind: citation
+- at: II, 1126 n.29
+  of: w.pipan-ziliao
+  kind: citation
+  pin: 206–208
+- at: I, 386 n.t1
+  of: x.1960-11-04.sun-haiguang-qiu-lu-suzhou-fushipin-jiancha-baogao
+  kind: citation
+- at: II, 1084 n.15
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 44–46
+- at: II, 1084 n.16
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 64–65
+- at: II, 1084 n.17
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 62–63
+- at: II, 1084 n.18
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 68
+- at: II, 1084 n.19
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 74–75
+- at: II, 1085 n.20
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 73
+- at: II, 1085 n.21
+  of: w.zilong-ye-zilong-huiyilu
+  kind: citation
+  pin: '219'
+- at: II, 1085 n.22
+  of: w.zilong-ye-zilong-huiyilu
+  kind: citation
+  pin: '220'
+- at: II, 1085 n.23
+  of: w.zilong-ye-zilong-huiyilu
+  kind: citation
+  pin: '258'
+- at: II, 1085 n.24
+  of: w.zilong-ye-zilong-huiyilu
+  kind: citation
+  pin: '221'
+- at: II, 1031 n.t1
+  of: x.1960-08.central-committee-urgent-instruction-steel-output-aug
+  kind: citation
+- at: II, 1033 n.40
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1073
+- at: II, 788 n.36
+  of: x.undated.jia-qiyun-fan-youqing-gu-ganjin-speech-statistics-bureau-heads-summary
+  kind: citation
+- at: II, 788 n.37
+  of: w.xianzhi-mao-zedong-zhuan-1949
+  kind: citation
+  pin: II, 1130
+- at: II, 807 n.62
+  of: x.1960-12-30.mao-remarks-cwc-report-meeting-dec-30
+  kind: citation
+- at: II, 918 n.147
+  of: x.1961-06-12.mao-speech-cwc-close-jun-12
+  kind: citation
+- at: II, 1134 n.47
+  of: x.1960-06-02.handan-city-committee-report-32-rural-three-anti-pilots-to-provincial-committee
+  kind: citation
+- at: II, 1134 n.48
+  of: x.1964-07-05.wang-guangmei-report-on-the-taoyuan-experience
+  kind: citation
+  pin: 471–570
+- at: II, 1135 n.49
+  of: x.1998.li-xin-siqing-ji-huiwang-liunian-p120-121
+  kind: citation
+- at: II, 1135 n.51
+  of: x.2001.wang-li-wang-li-yigao-wang-li-fansilu-xia-p573
+  kind: citation
+- at: II, 1135 n.52
+  of: x.1964-09-01.cc-forwards-wang-guangmei-taoyuan-report
+  kind: citation
+- at: II, 1137 n.53
+  of: x.2006-01.gao-hua-zai-guizhou-siqing-yundong-de-beihou-xiuding-quanben
+  kind: citation
+- at: II, 1137 n.54
+  of: x.2000.wang-guangmei-liu-yuan-et-al-ni-suo-bu-zhidao-de-liu-shaoqi-p110
+  kind: citation
+- at: II, 1137 n.55
+  of: w.gongheguo-zhuxi-liu-shaoqi
+  kind: citation
+  pin: II, 1285
+- at: II, 1138 n.56
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 407–409
+- at: II, 1138 n.57
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 417
+- at: II, 1138 n.58
+  of: w.jin-1949-1989-niande-zhongguo
+  kind: citation
+  pin: 533–534
+- at: II, 1138 n.59
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 349
+- at: II, 1139 n.60
+  of: w.jianguo-yilai-zhongyao-wenxian
+  kind: citation
+  pin: XIII, 378–383
+- at: II, 1139 n.61
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 207
+- at: II, 1139 n.62
+  of: w.xianzhi-mao-zedong-zhuan-1949
+  kind: citation
+  pin: II, 1101
+- at: II, 1144 n.66
+  of: x.2010.yin-shusheng-cong-pi-shi-naoju-kan-siqing-yundong-yanhuang-chunqiu-2010-7
+  kind: citation
+- at: II, 1145 n.67
+  of: x.2000.wang-guangmei-liu-yuan-et-al-ni-suo-bu-zhidao-de-liu-shaoqi-p115-118
+  kind: citation
+- at: II, 1146 n.68
+  of: w.yibo-ruogan-zhongda-juece-yu
+  kind: citation
+  pin: II, 1131
+- at: II, 1146 n.69
+  of: x.2005-03.chen-xiaonong-chen-boda-zuihou-koushu-huiyi
+  kind: citation
+- at: II, 1150 n.73
+  of: x.undated.shen-zhihua-da-yuejin-renmin-gongshe-yu-zhong-su-tongmeng-de-polie
+  kind: citation
+- at: II, 1151 n.74
+  of: x.undated.yang-mu-conversation-with-yang-jisheng-pol-pot
+  kind: citation
+- at: I, 308 n.83
+  of: x.2003.liang-zhiyuan-guanyu-tezhong-anjian-de-huibao-kaifang-2003-10
+  kind: citation
+- at: I, 125 n.t1
+  of: x.1961-01-05.central-work-group-qian-ying-report-tianshui-anti-rightist-persecution
+  kind: citation
+- at: I, 125 n.3
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 8, 529
+- at: I, 125 n.4
+  of: x.1962.gansu-committee-inspection-report-lanzhou-meeting-two-years
+  kind: citation
+- at: I, 125 n.5
+  of: x.1962-02-28.gansu-provincial-organs-opinions-on-work-conference-documents
+  kind: citation
+- at: I, 134 n.t1
+  of: x.1993.yang-wenyu-article-tao-river-diversion-yanhuang-chunqiu-1993-3
+  kind: citation
+- at: I, 146 n.t1
+  of: x.1961-03-18.central-work-group-linxia-city-report
+  kind: citation
+- at: I, 146 n.25
+  of: x.2011-06-11.ge-dun-letter-to-yang-jisheng-linxia-contracting
+  kind: citation
+- at: I, 147 n.26
+  of: w.li-lei-youyou-suiyue
+  kind: citation
+  pin: 122–150
+- at: I, 151 n.30
+  of: w.he-fengming-jingli
+  kind: citation
+  pin: 394–397
+- at: I, 157 n.34
+  of: x.1965-07-05.tongwei-county-committee-lessons-of-tongwei-history-report-1965
+  kind: citation
+- at: I, 157 n.t1
+  of: x.2000-08-10.tongwei-old-cadres-symposium-yang-jisheng
+  kind: citation
+- at: I, 158 n.35
+  of: w.fu-shanglun-gaobie-jiee
+  kind: citation
+  pin: '26'
+- at: I, 160 n.36
+  of: x.2005.zhang-dafa-jinqiao-lu-man-pp35-37
+  kind: citation
+  pin: 33–38
+- at: I, 169 n.t1
+  of: x.1960.wang-bingxiang-report-on-tongwei-problem
+  kind: citation
+- at: I, 174 n.t1
+  of: x.1965-09-09.gansu-committee-report-forwarding-tongwei-lessons-to-northwest-bureau
+  kind: citation
+- at: I, 382 n.33
+  of: x.1960-09-05.lu-jing-letter-jiangsu-committee-dongqiao-commune-wu-county
+  kind: citation
+- at: I, 382 n.34
+  of: x.1959-02-12.jiangsu-rectification-inspection-corps-yangzhou-branch-report-1959-02-12
+  kind: citation
+- at: I, 126 n.t1
+  of: x.1999.zhenyuan-county-party-history-office-dayuejin-qijian-de-zhenyuan-yuanan-bainian-chao-1999-4
+  kind: citation
+- at: I, 578 n.1
+  of: x.1999-06.guo-zhizhen-wu-dailing-1959-nian-shouyang-shijian-cangsang
+  kind: citation
+- at: I, 582 n.4
+  of: x.1998-10-09.wang-ding-guangxi-huanjiang-zeng-fang-zuida-weixing-nanfang-zhoumo
+  kind: citation
+- at: I, 587 n.5a
+  of: x.1998-05.li-shujie-tan-zhongning-shijian
+  kind: citation
+- at: I, 587 n.5b
+  of: x.1998-05.su-zhongshen-wo-zai-zhongning-shijian-shang-jiechu-dao-gao-zhibiao-wenti
+  kind: citation
+- at: I, 587 n.5c
+  of: x.1998-05.ren-shanyi-zhongning-shijian-qianhou-de-jidian-lingxing-huiyi
+  kind: citation
+- at: I, 587 n.5d
+  of: x.1998-05.ye-guangcai-nongmin-xiao-hanxing-shangshu-mao-zedong
+  kind: citation
+- at: I, 589 n.6
+  of: x.2001.lin-qiang-tianzai-hu-renhuo-hu-fujian-dayuejin-yundong-zai-renshi
+  kind: citation
+- at: I, 597 n.12
+  of: x.2010-01.yin-shusheng-gongan-gongzuo-dayuejin-shi-ruhe-gao-qilai-de
+  kind: citation
+- at: I, 587 n.5
+  of: x.1998-05.ningxia-wenshi-ziliao-21-zhongning-shijian
+  kind: citation
+- at: I, 519 n.51
+  of: x.1995.luquan-yizu-miaozu-zizhixian-zhi
+  kind: citation
+- at: I, 578 n.2
+  of: x.1956-01.national-program-for-agricultural-development-1956-1967
+  kind: citation
+- at: I, 582 n.3
+  of: x.undated.li-jian-talk-with-yang-jisheng-guangxi-deaths-1957
+  kind: citation
+- at: I, 173 n.50
+  of: x.1965-07-05.tongwei-county-committee-lessons-of-tongwei-history-report-1965
+  kind: citation
+- at: I, 629 n.16
+  of: x.1960.hebei-committee-document-60-619-forwarding-shi-xudong-opinions-handan
+  kind: citation
+- at: I, 639 n.24
+  of: x.1961-04-14.hu-qiaomu-letter-to-mao-shaoshan-materials
+  kind: citation
+- at: I, 640 n.25
+  of: x.undated.shuai-hao-yi-jiu-wei-tian-zhongguo-da-jihuang-zhong-de-maotaijiu-jishi
+  kind: citation
+- at: I, 640 n.26
+  of: x.undated.zhou-mengsheng-maotai-jiuchang-jinxi-jianwen-renhuai-wenshi-ziliao-6
+  kind: citation
+- at: II, 648 n.2
+  of: w.shaoqi-liu-shaoqi-xuanji-selected
+  kind: citation
+  pin: II, 337
+- at: II, 648 n.4
+  of: w.sanzhong-quanhui-yilai-zhongyao
+  kind: citation
+  pin: II, 754–755
+- at: II, 754 n.36
+  of: w.zedong-jianguo-yilai-mao-zedong
+  kind: citation
+  pin: 9, 44–45
+- at: II, 754 n.37
+  of: x.1960-03-07.center-forwarding-hebei-provisions-cadres-joining-mess-halls
+  kind: citation
+- at: II, 756 n.39
+  of: w.nongye-jitihua-zhongyao-wenjian
+  kind: citation
+  pin: II, 293
+- at: II, 762 n.49
+  of: x.1997.liu-bingxun-mao-zedong-jueding-jiesan-nongcun-shitang-de-laiyou-bainian-chao-1997-6
+  kind: citation
+- at: II, 763 n.50
+  of: w.jiang-weiqing-qishi-nian-zhengcheng
+  kind: citation
+  pin: 454–456
+- at: II, 785 n.27
+  of: x.1998.kang-jian-huihuang-de-huanmie-renmin-gongshe-jingshilu-p189
+  kind: citation
+- at: II, 785 n.28
+  of: x.1963-11-14.guo-moruo-letter-to-chen-mingyuan-dayuejin
+  kind: citation
+- at: II, 785 n.29
+  of: x.1958-11-23.mao-zedong-speech-wuchang-conference-noon
+  kind: citation
+- at: II, 832 n.t4
+  of: x.1963-07-31.central-streamlining-group-report-completion-and-end
+  kind: citation
+- at: II, 840 n.67
+  of: x.1960-01-26.center-forwarding-grain-ministry-report-grain-reserves-100-billion-jin
+  kind: citation
+- at: II, 842 n.70
+  of: x.1960-04-19.li-xiannian-speech-national-telephone-conference-non-staple-food-purchase
+  kind: citation
+- at: II, 842 n.71
+  of: x.1960-05-03.agricultural-inspection-corps-jiangjin-group-report-meals
+  kind: citation
+  pin: 56–59
+- at: II, 844 n.72
+  of: x.1960-01-08.commerce-ministry-party-group-report-1959-export-supply-plan
+  kind: citation
+- at: II, 903 n.118a
+  of: w.kecheng-huang-kecheng-zishu
+  kind: citation
+  pin: '259'
+- at: II, 903 n.118b
+  of: w.rui-lushan-huiyi-shilu
+  kind: citation
+  pin: '280'
+- at: II, 903 n.119
+  of: w.rui-lushan-huiyi-shilu
+  kind: citation
+  pin: '251'
