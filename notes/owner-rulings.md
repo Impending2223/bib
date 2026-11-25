@@ -479,6 +479,8 @@ Where it applies: any clipping that shows part of a story. If the owner rules th
 
 **Settled by the owner, Nov. 24, 2026, about 6:55 p.m. PT**, the other way: "if I appear to have *intentionally* declined to give them a full item, they should take that as a defeasible sign that I don't want them to write up the matter the omitted item contains." The rule is the reader's brief, R18a. The two entries are struck (patch `inbox/merged/2026-11-24-nyt-fragments-struck.yaml`); their ids, cal.1960-07-04.civil-disorders and cal.1960-07-04.cyprus-3, are not to be used again. Such fragments are not filed as leads either.
 
+**Three more struck under the same rule, Nov. 25, 2026** (the Opus audit of the *Times* cleanup, part b; `notes/nyt/audit-cleanup-b.md`): cal.1960-07-03.states-and-cities and cal.1960-07-03.transportation, both made from the tail of the page-1 holiday story, whose head the clippings do not give; cal.1960-07-03.europe-and-the-alliance (Italy's "explosion of luxury"), of which only a corner shows. Their ids are not to be used again. The owner may overrule: the entries are in git, in the commit before the merge of `inbox/merged/2026-11-25-nyt-cleanup-b.yaml`.
+
 ## 51. notes/proposals/claims-model.md, (f) 3 and (h) 3 ("A page and its note as one source")
 
 The question: where one sentence of an entry cites a work's page and the next cites the page with a note on it (or the note alone), are the two sentences differently sourced, each with its own footnote?
@@ -504,6 +506,8 @@ The question (put to the owner Nov. 24, about 7:40 p.m. PT): 2,315 rows of entri
 **Settled by the owner, Nov. 24, 2026, about 9:55 p.m. PT:** "I'll take your recommendation, with your three choices. We can't have an unmarked citation unless we've read the cited matter." For each row a reader picks one: (1) cite the record itself, in the copy the series holds, where it was read and bears the words out; (2) cite the note where its own text supports the words; (3) otherwise neither, and the record stays behind "To check:" with its "cited by". Each reader's patch is audited on Opus.
 
 How it is being done: the rows are listed in `notes/via-read/rows-2026-11-25.tsv` (1,393 entries). In 1,964 rows the entry already cites the held copy; what is left there is to check by rule that the direct cite is placed on the same words as the row, and to give a reader those where it is not. In 351 rows the entry has no direct cite: two readers have them (`notes/via-read/batch-a.tsv`, `batch-b.tsv`). When the patches are merged, the footnote code stops printing a "work, page, note" row as a citation at all (`tools/bib/footnotes.py`, `_cites`, the `via` branch): a row of that kind then only links the entry to the registry, and an unread record still goes behind "To check:".
+
+**Done, Nov. 25, 2026.** The footnote code no longer prints a "work, page, note" row as a citation (`tools/bib/footnotes.py`, STYLE 13). The rule check (`python3 -I tools/claims/via_rule.py --write`; `notes/via-read/rule-2026-11-25.tsv`) compared every part of every line with such a row to a record marked read: 4,101 parts cite the record's own copy on the same words, so nothing is lost; 557 keep the work's page and lose only the "& n. (citing ...)" tail; 237 cite the record's copy elsewhere in the entry but not on that part; 2 parts, both of cal.1966-06-14.vietnam-air-war, were left with no source, and FRUS 1964–68, IV, doc. 156 bears them out (`inbox/2026-11-25-via-bare.yaml`, to be audited). The 794 rows of the middle two kinds are a reader's list: for each, cite the record there (choice 1), cite the note (choice 2), or leave it (choice 3).
 
 ## 54. Exceptions to the series' spelling of Chinese names (the reader's brief, R19a)
 
@@ -531,3 +535,5 @@ Defaults taken, for the owner to overrule:
 - The sheet the readers work from is `python3 -I tools/times/day_order.py YEAR --from YYYY-MM --until YYYY-MM --full`.
 
 Where it applies: every calendar patch from now on, and the whole calendar by the pass.
+
+**The trial, Nov. 25, 2026.** October 1962: the Sonnet reader wrote 29 links; the Opus audit kept all 29 and added 17. March 1968: the reader wrote 47; the audit struck 4 that ran the wrong way or tied the wrong people, kept 43 and added 11. So the reading is sound with its audit, and the audit is needed. Both patches are merged. The pass now runs a month at a time, densest months first (`notes/sequence/`). The audits also list what the reading turned up besides: entries that hold several acts (R25b), hours the sources give that the entries lack, days in doubt, possible duplicates; those lists are in each `notes/sequence/audit-<month>.md`, for a later pass.
