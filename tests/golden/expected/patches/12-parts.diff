@@ -1,0 +1,49 @@
+--- fixture/inbox/12-parts-3.yaml
++++ after/inbox/12-parts-3.yaml
+@@ -0,0 +1,4 @@
++patch: fx-on-gone
++by: tests
++ops:
++  - cite: {id: cal.1961-04-30.cuba-bay-of-pigs, item: '[[w.reeves-president-kennedy]], 100', on: 'A long attack on intervention in Cambodia.'}
+--- fixture/inbox/merged/12-parts-1.yaml
++++ after/inbox/merged/12-parts-1.yaml
+@@ -0,0 +1,4 @@
++patch: fx-on
++by: tests
++ops:
++  - cite: {id: cal.1961-04-30.cuba-bay-of-pigs, item: '[[w.reeves-president-kennedy]], 99', on: 'A long attack on intervention in Laos.'}
+--- fixture/inbox/merged/12-parts-2.yaml
++++ after/inbox/merged/12-parts-2.yaml
+@@ -0,0 +1,5 @@
++patch: fx-add-words
++by: tests
++ops:
++  - add-words: {id: cal.1961-04-30.cuba-bay-of-pigs, after: 'Fulbright on *Meet the Press*: the questions mostly on Cuba.', words: 'Spivak moderates.', item: '[[w.schlesinger-thousand-days-1965]], 251'}
++  - cite: {id: cal.1961-04-30.cuba-bay-of-pigs, item: '[[w.schlesinger-thousand-days-1965]], 252', on: date}
+--- fixture/lists/cal/196104.yaml
++++ after/lists/cal/196104.yaml
+@@ -7395,12 +7395,18 @@
+     thread: cuba-bay-of-pigs
+     also: [laos]
+-    c: 'Fulbright on *Meet the Press*: the questions mostly on Cuba. Executive privilege: he will not say whether he advised against the landing. The exiles an unruly lot, beyond anyone''s control. A long attack on intervention in Laos.'
+-    n: 'The program: the Library of Congress''s inventory of Spivak''s photographs, LOT 13025-620 (the guest, Apr. 30). [[w.woods-fulbright]], 269 (the questions and answers). Check: Woods has it five days after the White House meeting of Apr. 18–19. To check: Holt to Marcy, Apr. 24, 1961, Series 48:1, Box 2:2, SPF (cited by [[w.woods-fulbright]], 269 n.24). Names: Fulbright.'
+-    src:
+-      c: 8bc1e622
++    c: 'Fulbright on *Meet the Press*: the questions mostly on Cuba.{1} Spivak moderates.{5} Executive privilege: he will not say whether he advised against the landing. The exiles an unruly lot, beyond anyone''s control.{3} A long attack on intervention in Laos.{4}'
++    cut_from:
++      '3': '2'
++      '4': '2'
++    n: 'The program: the Library of Congress''s inventory of Spivak''s photographs, LOT 13025-620 (the guest, Apr. 30). [[w.woods-fulbright]], 269 (the questions and answers); [[w.reeves-president-kennedy]], 99; [[w.schlesinger-thousand-days-1965]], 251; [[w.schlesinger-thousand-days-1965]], 252. Check: Woods has it five days after the White House meeting of Apr. 18–19. To check: Holt to Marcy, Apr. 24, 1961, Series 48:1, Box 2:2, SPF (cited by [[w.woods-fulbright]], 269 n.24). Names: Fulbright.'
++    src:
++      c: f6dab5dd
+       rows:
+         - 'w.woods-fulbright 269: ?'
+-        - 'w.woods-fulbright 269: B-D'
+-        - 'via x.1961-04-24.holt-to-marcy: B-D'
++        - 'w.woods-fulbright 269: 3, 4'
++        - 'via x.1961-04-24.holt-to-marcy: 3, 4'
++        - 'w.reeves-president-kennedy 99: 4'
++        - 'w.schlesinger-thousand-days-1965 251: 5'
++        - 'w.schlesinger-thousand-days-1965 252: date'
+     tags: [name:fulbright-j-william]
+   - id: cal.1961-04.cuba-2

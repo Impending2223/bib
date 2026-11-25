@@ -380,3 +380,35 @@ def test_names_line_stops_at_characters():
     n = "Names: Liu Shaoqi 刘少奇. Characters: Hangzhou 杭州."
     _, body, tail = names_line(n)
     assert body == "Liu Shaoqi 刘少奇" and tail == ". Characters: Hangzhou 杭州."
+
+
+# STYLE 2b: a transliterated foreign name with its dot, written in italics: roman, quoted, the characters kept.
+DOTTED = [
+    ('Chen Yi 陈毅 receives *Abudulake Suxi* 阿卜杜拉克·苏西 and his wife.',
+     'Chen Yi receives "Abudulake Suxi" 阿卜杜拉克·苏西 and his wife.'),
+    ('led by Brigadier *Abudule Aini Yibulaxin* 阿卜杜勒·埃尼·易卜拉欣.',
+     'led by Brigadier "Abudule Aini Yibulaxin" 阿卜杜勒·埃尼·易卜拉欣.'),
+    ('meets "Ai\'ermeisi Awumada" 埃尔梅斯·阿乌马达.', 'meets "Ai\'ermeisi Awumada" 埃尔梅斯·阿乌马达.'),
+    ('In *Hongqi* 红旗 and *Renmin ribao* 人民日报.', 'In *Hongqi* and *Renmin ribao*.'),
+    ('receives *Aijian* 艾坚.', 'receives *Aijian*.'),
+]
+
+
+@pytest.mark.parametrize("text,want", DOTTED)
+def test_dotted_transliteration(text, want):
+    from bib import cjk
+    assert cjk.drop(text) == want
+    assert cjk.drop(want) == want                       # STYLE 6: a line already dropped is not changed
+
+
+def test_the_name_dot_between_characters_is_shown_full_width():
+    from bib import markup
+    assert markup.to_html('under "Babaka Niang" 巴巴卡·尼昂; a · b') == 'under "Babaka Niang" 巴巴卡・尼昂; a · b'
+    assert markup.to_html('[阿里·坦布维](https://e.com/a·b)') == '<a href="https://e.com/a·b">阿里・坦布维</a>'
+
+
+def test_characters_after_a_verb_of_meeting_stay():
+    from bib import cjk
+    assert cjk.drop("Liu Shaoqi 刘少奇 meets 埃尔南 of Chile.") == "Liu Shaoqi meets 埃尔南 of Chile."
+    assert cjk.drop("Chen Yi 陈毅 receives 艾坚 and his wife.") == "Chen Yi receives 艾坚 and his wife."
+    assert cjk.drop("the county committee 縣委 meets.") == "the county committee meets."

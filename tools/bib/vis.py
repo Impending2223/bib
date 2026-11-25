@@ -675,12 +675,16 @@ def claims_of(series, lst, e):
     return out
 
 
-RULE_RX = re.compile(r"^vis:(only|from|frame):([a-z0-9+-]+?)(?::(\d{4}-\d{2}-\d{2}))?(?:@([A-Z.-]+))?$")
+RULE_RX = re.compile(r"^vis:(only|from|frame):([a-z0-9+-]+?)(?::(\d{4}-\d{2}-\d{2}))?(?:@([A-Z.-]+|\d+(?:\.\d+)*))?$")
 
 
-def _units(spec):
-    """`A`, `A.C`, `B-D` (STYLE 8) -> a set of letters; None where it does not parse."""
+def _units(spec, e=None):
+    """`A`, `A.C`, `B-D` (STYLE 8), or the numbers of the line's parts, `3`, `3.4` (cuts.py) -> a set of letters;
+    None where it does not parse, or the line has no such part."""
     from .claims import LETTERS
+    if spec[:1].isdigit():
+        from . import claims as C
+        return C.named_letters(e or {}, spec)
     out = set()
     for part in spec.split("."):
         a, _, b = part.partition("-")
@@ -701,7 +705,7 @@ def rulings(e):
         kind, pols, day, us = m.groups()
         if (kind == "from") != bool(day):
             continue
-        units = _units(us) if us else None
+        units = _units(us, e) if us else None
         if us and units is None:
             continue
         out.append({"kind": kind, "pols": set(pols.split("+")), "date": day, "units": units})
@@ -998,13 +1002,13 @@ def ruling_problems(e, cls):
         if not t.startswith("vis:"):
             continue
         m = RULE_RX.match(t)
-        if not m or (m.group(1) == "from") != bool(m.group(3)) or (m.group(4) and _units(m.group(4)) is None):
+        if not m or (m.group(1) == "from") != bool(m.group(3)) or (m.group(4) and _units(m.group(4), e) is None):
             out.append(f"{t}: not a ruling (vis.py STYLE 8)")
             continue
         bad = sorted(p for p in m.group(2).split("+") if p not in pols)
         if bad:
             out.append(f"{t}: no such polity {', '.join(bad)} (sources/polities.yaml)")
-        us = _units(m.group(4)) if m.group(4) else set()
+        us = _units(m.group(4), e) if m.group(4) else set()
         past = sorted(u for u in us if u not in LETTERS[:n])
         if past:
             out.append(f"{t}: no unit {', '.join(past)} (the entry has {n})")

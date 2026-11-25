@@ -1,0 +1,29 @@
+$ ./bib patch-check inbox/13-edit-kind-1.yaml
+== 13-edit-kind-1.yaml: 1 errors, 0 warnings
+  error  edit cal.1961-04-30.cuba-bay-of-pigs: the edit changes words already in the line: state kind: reword (the same facts in other words) or kind: correct (a record settles it; R22). New words alone need neither: add them with add-words
+
+--- exit 1
+
+$ ./bib patch-check inbox/13-edit-kind-2.yaml
+== 13-edit-kind-2.yaml: 1 errors, 0 warnings
+  error  edit cal.1961-04-30.cuba-bay-of-pigs: kind: reword, but a number, a date or a tagged person's name changes (12): that is kind: correct, with the sentence in the note that names the settling record (R22)
+
+--- exit 1
+
+$ ./bib patch-check inbox/13-edit-kind-3.yaml
+== 13-edit-kind-3.yaml: 1 errors, 0 warnings
+  error  edit cal.1961-04-30.cuba-bay-of-pigs: kind: correct: the same edit adds to the note the sentence that names the settling record ("The Papers date it Aug. 26."; R22)
+
+--- exit 1
+
+$ ./bib patch-check inbox/13-edit-kind-4.yaml
+== 13-edit-kind-4.yaml: 0 errors, 0 warnings
+
+--- exit 0
+
+$ ./bib merge --auto inbox/13-edit-kind-1.yaml inbox/13-edit-kind-2.yaml inbox/13-edit-kind-3.yaml inbox/13-edit-kind-4.yaml
+== 13-edit-kind-1.yaml: 1 errors, 0 warnings
+  error  edit cal.1961-04-30.cuba-bay-of-pigs: the edit changes words already in the line: state kind: reword (the same facts in other words) or kind: correct (a record settles it; R22). New words alone need neither: add them with add-words
+  refused: 13-edit-kind-1.yaml left in the inbox
+
+--- exit 1

@@ -21,8 +21,8 @@ STYLE
     RATIO) are "changed": the row keeps the unit, and the entry is listed for a reader. A present unit matched to no
     old unit is new: no row takes it. An old unit matched to no present unit is gone.
  3. A row's letters become the present letters of the old units it named. `all` stays `all` where no present unit is
-    new, and otherwise becomes those letters. `?` stays. A row all of whose units are gone becomes `?`, and the entry
-    is listed.
+    new, and otherwise becomes those letters. `?` stays. Where a row's units are all gone, or it names letters the
+    old line never had, the map is not rewritten ("lost"): it stays stale, and the entry is listed for a reader.
  4. Variants (`unit:`) and visibility rulings (`@C`) also name letters, and record no hash: which line they were
     made against is not known. They are not changed. An entry that has one, and whose units moved, is listed.
  5. The new hash is written. The report: notes/claims/stale-rebase.md (the counts and the lists) and
@@ -230,7 +230,7 @@ def main():
             counts["with a variant or ruling"] += 1
         counts[kind] += 1
         rows.append((e["id"], kind, detail))
-        if write:
+        if write and kind != "lost":                     # a map with a row that cannot be carried over is left stale
             e["src"] = new_src
             touched.add(sec)
     if write:

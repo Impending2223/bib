@@ -348,7 +348,14 @@ def problems(series):
         if e.get("variants"):
             n_units = len(claims.units(e.get("c") or ""))
             for v in e["variants"]:
-                if not isinstance(v, dict) or v.get("unit") not in claims.letters(n_units):
+                if isinstance(v, dict) and v.get("field") and not v.get("unit"):   # a field's variant (35g, 2)
+                    if v["field"] not in claims.FIELDS or not claims.has_field(e, v["field"]) or v.get("value") in (None, ""):
+                        errors.append((e["id"], f"variant's field {v['field']!r}: date, time or place, one the entry "
+                                                "has, with value: the reading in the field's form"))
+                    elif v.get("witness") not in rows and not str(v.get("witness", "")).startswith("w."):
+                        errors.append((e["id"], f"variant's witness {v.get('witness')!r} unknown"))
+                    continue
+                if not isinstance(v, dict) or v.get("unit") is None or claims.named_letters(e, v["unit"]) is None:
                     errors.append((e["id"], f"variant's unit {v.get('unit') if isinstance(v, dict) else v!r} not in c"))
                 elif v.get("witness") not in rows and not str(v.get("witness", "")).startswith("w."):
                     errors.append((e["id"], f"variant's witness {v.get('witness')!r} unknown"))
@@ -403,7 +410,7 @@ def stemma(series, eid, unit=None):
             else:
                 out.append(f"   {r}")
         for v in e.get("variants") or []:
-            if v.get("unit") == L:
+            if v.get("unit") is not None and L in (claims.named_letters(e, v["unit"]) or ()):
                 out.append(f"   variant: {v.get('witness')} reads {v.get('reads')!r} ({v.get('at', '')})")
         out.append(f"   roots {len(found_roots)}, agents {len(agents)}")
     return out

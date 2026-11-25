@@ -1345,6 +1345,7 @@ warn   sources/witnesses: 172 roots do not say why (`open` blank): each reader f
 warn   lists/cal/: 17 entries with a source in the note and no row for it  [claims]
 warn   lists/cal/: 4 entries with a unit no source covers  [claims]
 warn   lists/cal/: 195 rows not yet mapped to units (`?`: the note's parenthetical, to be turned into letters)  [claims]
+warn   lists/cal/: 102 entries whose citations hold persons, words or figures the line lacks, 16 of them strongly (python3 -I tools/notes/substance.py lists them; the reader's brief, R33a)  [note-substance]
 warn   cal.1961-04-01.laos: vis:only:ussr+drv: no such polity drv, ussr (sources/polities.yaml)  [vis]
 warn   cal.1961-04-01.china-leadership: vis:only:prc: no such polity prc (sources/polities.yaml)  [vis]
 warn   cal.1961-04-01.china-leadership-2: vis:only:prc: no such polity prc (sources/polities.yaml)  [vis]
@@ -2041,6 +2042,6 @@ warn   lists/cal/196108.yaml:4618: a Public Papers link whose page is no item's 
 warn   lists/cal/196108.yaml:4812: a Public Papers link whose page is no item's first page: https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=642  [ppp-app]
 warn   lists/cal/th.yaml: threads out of alphabetical order at 'China: Leadership'  [thread-order]
 warn   cal.1961-04-28.vietnam: 'Diem' without its diacritics (sources/name-forms.yaml, VIET_PLACES)  [diacritics]
-698 errors, 1345 warnings
+698 errors, 1346 warnings
 
 --- exit 1

@@ -132,9 +132,16 @@ def to_html(text, resolve=None):
     return re.sub(r"\x00(\d+)\x00", lambda m: held[int(m.group(1))], t)
 
 
+# The name dot between characters (巴巴卡·尼昂), shown full width, as the owner wrote it (Nov. 21, 2026: "Could we
+# give the full-width 中点 for CJK surnames and given names rather than the simple, unspaced '·'? '巴巴卡・尼昂'?").
+# The data keeps the dot as the readers typed it; only the page changes.
+_CJK = "㐀-䶿一-鿿豈-﫿ぁ-ヿ"
+MIDDOT_RE = re.compile(rf"(?<=[{_CJK}])·(?=[{_CJK}])")
+
+
 def _inline(t):
     t = html.escape(t, quote=False)
-    return ITAL_RE.sub(r"<i>\1</i>", t)
+    return ITAL_RE.sub(r"<i>\1</i>", MIDDOT_RE.sub("・", t))
 
 
 def plain(text, label=None):

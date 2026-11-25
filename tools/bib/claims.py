@@ -33,6 +33,12 @@ STYLE
  4. Only what a reader decides is stored. The mechanical map follows the note and `c` as they change; a reader's
     map is made against one `c` (its hash), and if `c` changes its letters may no longer fit: `check` reports it
     stale until a reader looks again and writes the new hash.
+ 9. Parts and fields (cuts.py; rulings 35f, 35g). A row may name, where it named letters, the numbers of the line's
+    parts (`w.x 88: 3`, `w.x 88: 3, 5`): the number is stored in the line by a cut and stays with its words when the
+    line is edited. Or a field, for a fact with no words in the line: `date`, `time` (whichever time field the entry
+    has), `place` (`w.x 285: time`). resolve() turns numbers into their units' letters, so the footnotes, the
+    visibility and the stemma work unit by unit as before. A number the line lacks, or a field the entry lacks, is
+    an error. Letters stay the labels of the units as computed (the mechanical map, `claims show`).
  5. The mechanical map, from the note as written under the owner's rule "omission implies" (CLAUDE.md, "What each
     source stands for"): a work read (with its pinpoint, a number or a link: is_pin) and no parenthetical, `all`; with one, `?`; a link in the
     note's sources, `all`; a link in `c` (a statute, a case), the unit holding it; an unlinked item, no row (in the notes it is nearly always
@@ -62,7 +68,11 @@ LETTERS = [chr(65 + i) for i in range(26)] + [chr(65 + i) + chr(65 + j) for i in
 NOT_SOURCE = ("To check:", "See ", "Names:", "Check:", "Made public", "Reply:", "The order:", "Bibliography:",
               "Statute (", "Opinion (", "Also ")
 LINK = markup.LINK_RE
-ROW = re.compile(r"^(?P<src>.+?): (?P<units>all|\?|[A-Z]{1,2}(?:-[A-Z]{1,2})?(?:, [A-Z]{1,2}(?:-[A-Z]{1,2})?)*)$")
+FIELDS = ("date", "time", "place")           # an entry's facts with no words in the line (STYLE 9; 35g, 2)
+_TARGET = r"(?:a?\d+|date|time|place)"       # a part's number, a claim's id (cuts.py, STYLE 7), a field
+ROW = re.compile(r"^(?P<src>.+?): (?P<units>all|\?|[A-Z]{1,2}(?:-[A-Z]{1,2})?(?:, [A-Z]{1,2}(?:-[A-Z]{1,2})?)*|"
+                 + _TARGET + r"(?:, " + _TARGET + r")*)$")
+NUMBERED = re.compile(r"^" + _TARGET + r"(?:, " + _TARGET + r")*$")
 QUOTES = '"“”'
 
 
@@ -132,6 +142,42 @@ def parse_units(spec, n):
         else:
             out.add(part)
     return out
+
+
+def parse_target(spec, e):
+    """A row's numbers and fields (STYLE 9) -> the letters of the parts' units, with the fields' names beside them
+    ({'B', 'C', 'time'}); None where the line has no such part or the entry no such field. Everything downstream
+    works unit by unit, as before; a field's name is no unit's letter, so it gives no unit a source."""
+    from . import cuts
+    us = cuts.units_of(e)
+    out = set()
+    for t in spec.split(", "):
+        if t in FIELDS:
+            if not has_field(e, t):
+                return None
+            out.add(t)
+        elif t in us:
+            out |= {LETTERS[i] for i in us[t]}
+        else:
+            return None
+    return out
+
+
+def named_letters(e, spec):
+    """The letters a ruling's `@` or a variant's `unit` names: a letter, or parts' numbers joined by a dot or a comma
+    (`3`, `3.4`), turned into their units' letters; None where the line has no such unit or part."""
+    spec = str(spec)
+    if re.fullmatch(r"a?\d+(?:(?:\.|, )a?\d+)*", spec):
+        u = parse_target(spec.replace(".", ", "), e)
+        return u
+    n = len(units(e.get("c") or ""))
+    return {spec} if spec in letters(n) else None
+
+
+def has_field(e, f):
+    if f == "time":
+        return any(e.get(k) not in (None, "") for k in ("time", "time_approx", "time_range"))
+    return e.get(f) not in (None, "")
 
 
 def parse_row(row):
@@ -320,7 +366,7 @@ def resolve(e, cards=None):
             out.append((r, None, None, None, None, None, None))
             continue
         kind, key, pin, note, spec = p
-        u = parse_units(spec, n_units)
+        u = parse_target(spec, e) if NUMBERED.match(spec) else parse_units(spec, n_units)
         if kind in ("card", "via") and len(all_.get(("card", key)) or []) > 1 and pin:
             want = _pages(pin)                 # a card cited twice (two issues of a periodical): the item whose pages
             fit = [it for it in all_[("card", key)]       # hold the row's
@@ -379,7 +425,7 @@ def problems(series):
             if kind is None:
                 errors.append((e["id"], f"src row does not parse: {r!r}"))
                 continue
-            if u is None or (u != "?" and not u <= set(letters(n_units))):
+            if u is None or (u != "?" and not u <= set(letters(n_units)) | set(FIELDS)):
                 errors.append((e["id"], f"src row names a unit the entry lacks ({n_units} units): {r!r}"))
                 continue
             if item is None:
@@ -396,7 +442,10 @@ def problems(series):
                 have, want = _pages(k[2] if k[0] == "card" else ""), _pages(pin)
                 if have is not None and want is not None and not want <= have:
                     errors.append((e["id"], f"src row's pages {pin} not among the note's ({k[2]}): {r!r}"))
-            if u == "?":
+            if u is None:
+                errors.append((e["id"], f"src row names a part the line does not have, or a field the entry lacks "
+                                        f"(./bib claims show {e['id']} prints the parts): {r!r}"))
+            elif u == "?":
                 counts["unmapped"] += 1
                 cover |= set(letters(n_units))
             else:

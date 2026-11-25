@@ -588,13 +588,20 @@ def cmd_loose_dates(series, a):
 def cmd_stemma(series, a):
     """Each unit's tree of witnesses, from the note's items to the roots (tools/bib/witnesses.py); --leads the open
     upstreams."""
-    from . import witnesses
+    from . import witnesses, claims
     if a.leads:
         for why, wid, what, where in witnesses.leads():
             print(f"{why:16} {wid}  {what}" + (f"  ({where})" if where else ""))
         return 0
     for eid in a.ids:
-        print("\n".join(witnesses.stemma(series, eid, a.unit)))
+        unit = a.unit
+        if getattr(a, "part", None):      # a part's number: its units' letters, each printed
+            hit = series.get(eid)
+            ls = sorted(claims.named_letters(hit[2], a.part) or []) if hit else []
+            for L in ls or [None]:
+                print("\n".join(witnesses.stemma(series, eid, L)))
+            continue
+        print("\n".join(witnesses.stemma(series, eid, unit)))
     return 0
 
 
@@ -621,8 +628,15 @@ def cmd_claims(series, a):
         e = hit[2]
         print(f"# {eid}   map: {'by a reader' if e.get('src') else 'mechanical' if claims.mechanical(e) else 'none'}"
               + ("" if not e.get("src") or e["src"].get("c") == claims.chash(e.get("c")) else "   STALE"))
-        for k, u in enumerate(claims.units(e.get("c") or "")):
-            print(f"  {claims.LETTERS[k]:>2}  {u}")
+        us = claims.units(e.get("c") or "")
+        if e.get("cuts"):                 # the parts, each with its number; the units' letters beside, as labels
+            from . import cuts
+            for num, idx in cuts.parts(e["c"], e["cuts"]) or []:
+                label = claims.LETTERS[idx[0]] + (f"-{claims.LETTERS[idx[-1]]}" if len(idx) > 1 else "")
+                print(f"  {num:>3}  ({label})  {' '.join(us[i] for i in idx)}")
+        else:
+            for k, u in enumerate(us):
+                print(f"  {claims.LETTERS[k]:>2}  {u}")
         for row in (e.get("src") or {}).get("rows") or []:
             print(f"   src  {row}")
         text, notes, other = claims.verbose(series, e, inline=a.inline)
@@ -1110,6 +1124,7 @@ def main(argv=None):
     x = sub.add_parser("stemma", help="each unit's witnesses to the roots: stemma ID... [--unit B]; --leads")
     x.add_argument("ids", nargs="*")
     x.add_argument("--unit")
+    x.add_argument("--part", help="a part's number (./bib claims show ID prints them)")
     x.add_argument("--leads", action="store_true")
     x = sub.add_parser("reconcile", help="conflicts on a note: two patches' citations joined, shown; --write applies")
     x.add_argument("ids", nargs="*")

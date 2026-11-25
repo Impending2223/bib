@@ -1,0 +1,43 @@
+--- fixture/inbox/13-edit-kind-1.yaml
++++ after/inbox/13-edit-kind-1.yaml
+@@ -0,0 +1,7 @@
++patch: fx-kind-1
++by: tests
++ops:
++  - edit:
++      id: cal.1961-04-30.cuba-bay-of-pigs
++      base: c29e028f
++      set: {c: 'Fulbright on *Meet the Press*: the questions chiefly on Cuba. Executive privilege: he will not say whether he advised against the landing. The exiles an unruly lot, beyond anyone''s control. A long attack on intervention in Laos.'}
+--- fixture/inbox/13-edit-kind-2.yaml
++++ after/inbox/13-edit-kind-2.yaml
+@@ -0,0 +1,8 @@
++patch: fx-kind-2
++by: tests
++ops:
++  - edit:
++      id: cal.1961-04-30.cuba-bay-of-pigs
++      base: c29e028f
++      kind: reword
++      set: {c: 'Fulbright on *Meet the Press*: the 12 questions mostly on Cuba. Executive privilege: he will not say whether he advised against the landing. The exiles an unruly lot, beyond anyone''s control. A long attack on intervention in Laos.'}
+--- fixture/inbox/13-edit-kind-3.yaml
++++ after/inbox/13-edit-kind-3.yaml
+@@ -0,0 +1,8 @@
++patch: fx-kind-3
++by: tests
++ops:
++  - edit:
++      id: cal.1961-04-30.cuba-bay-of-pigs
++      base: c29e028f
++      kind: correct
++      set: {c: 'Fulbright on *Face the Nation*: the questions mostly on Cuba. Executive privilege: he will not say whether he advised against the landing. The exiles an unruly lot, beyond anyone''s control. A long attack on intervention in Laos.'}
+--- fixture/inbox/13-edit-kind-4.yaml
++++ after/inbox/13-edit-kind-4.yaml
+@@ -0,0 +1,8 @@
++patch: fx-kind-4
++by: tests
++ops:
++  - edit:
++      id: cal.1961-04-30.cuba-bay-of-pigs
++      base: c29e028f
++      kind: reword
++      set: {c: 'Sunday. Fulbright on *Meet the Press*: the questions chiefly on Cuba. Executive privilege: he will not say whether he advised against the landing. The exiles an unruly lot, beyond anyone''s control. A long attack on intervention in Laos.'}

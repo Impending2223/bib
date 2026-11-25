@@ -71,6 +71,10 @@ def check(series, path, legacy=False):
     name = d.get("patch") or os.path.basename(path)
     claimed = {r["id"]: r for r in ledger.rows()}
     ops = d.get("ops") or []
+    for op in ops:                       # YAML reads a bare `on:` as true: read back as the key (addops STYLE 9)
+        for body in op.values() if isinstance(op, dict) else []:
+            if isinstance(body, dict) and True in body:
+                body["on"] = body.pop(True)
     added = set()
     from .merge import patch_parts
     parts = patch_parts(ops)
@@ -161,6 +165,13 @@ def check(series, path, legacy=False):
             # YAML reads an all-digit rev as a number (STYLE 2): read back as the rev, merge._base; quote it
             warnings.append(f"{kind} {eid}: base {body['base']!r} loads as a number; quote it: base: "
                             f"'{merge._base(body['base'])}'")
+        if kind == "edit" and str(eid).startswith("cal.") and isinstance((body.get("set") or {}).get("c"), str):
+            from . import cuts                            # R22 from the difference (tools/bib/cuts.py, STYLE 11)
+            hit = series.get(eid)
+            old = (merge.find_base(series, eid, merge._base(body["base"])) if body.get("base") else None) or (hit[2] if hit else None)
+            if old is not None:
+                names = {str(t).split(":", 1)[1].split("-")[0].capitalize() for t in old.get("tags") or [] if str(t).startswith("name:")}
+                errors += [f"edit {eid}: {m}" for m in cuts.edit_problems(old, body["set"]["c"], body, names)]
         if kind == "edit":
             sets = set((body.get("set") or {}).keys())
             if sets and sets <= {"n", "src", "tags", "also"} and not body.get("unset"):

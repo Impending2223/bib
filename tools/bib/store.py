@@ -21,7 +21,7 @@ ROOT = os.path.abspath(os.environ.get("BIB_ROOT") or
 LISTS = os.path.join(ROOT, "lists")
 
 # Field order inside an entry. Anything else is kept, after these.
-ENTRY_FIELDS = ["id", "when", "date", "at", "time", "time_approx", "place", "thread", "also", "follows", "part_of", "s", "work", "card_note", "byline", "ditto", "c", "c2", "c3", "r", "n", "src", "gloss", "tags",
+ENTRY_FIELDS = ["id", "when", "date", "at", "time", "time_approx", "place", "thread", "also", "follows", "part_of", "s", "work", "card_note", "byline", "ditto", "c", "cuts", "cut_from", "c2", "c3", "r", "n", "src", "gloss", "tags",
                 "aliases", "conflict"]
 
 
@@ -261,6 +261,16 @@ def stored_form(entry):
     the writer's: a new note is the listing's note; a new citation cuts the pointer (the entry cites as written)."""
     d = entry.get("_derived")
     out = {k: v for k, v in entry.items() if not k.startswith("_")}
+    ks = out.get("cuts")                   # a calendar line's cuts go back into it (tools/bib/cuts.py, STYLE 5)
+    if isinstance(ks, list) and all(isinstance(x, (list, tuple)) and len(x) == 2 for x in ks):
+        from . import cuts as _cuts
+        del out["cuts"]
+        if ks:
+            bad = _cuts.problems(out.get("c") or "", ks)
+            if bad:
+                raise ValueError(f"{out.get('id')}: the line's cuts do not fit it ({'; '.join(bad)}); set the line "
+                                 "and its cuts together (cuts.set_line)")
+            out["c"] = _cuts.insert(out["c"], ks)
     if not d:
         return out
     for k, (shown, stored) in d.items():
@@ -292,8 +302,9 @@ def as_list(v):
     return v if isinstance(v, list) else [v]
 
 
-def normalize_entry(e):
-    """Coerce hand-edited values into the canonical shape and order."""
+def normalize_entry(e, marks=False):
+    """Coerce hand-edited values into the canonical shape and order. `marks`: the entry is in its stored form, on its
+    way to the file, and a calendar line's cut marks stay in it (tools/bib/cuts.py, STYLE 5)."""
     if "date" in e and isinstance(e["date"], (datetime.date, datetime.datetime)):
         e["date"] = e["date"].isoformat()
     if "date" in e and isinstance(e["date"], int) and not isinstance(e["date"], bool):
@@ -306,6 +317,11 @@ def normalize_entry(e):
     for k in ("c", "work"):
         if isinstance(e.get(k), list) and len(e[k]) == 1:
             e[k] = e[k][0]
+    if not marks and isinstance(e.get("c"), str) and "{" in e["c"] and str(e.get("id") or "").startswith("cal."):
+        from . import cuts as _cuts        # a calendar line's cut marks, out of the line (tools/bib/cuts.py, STYLE 5)
+        plain, ks = _cuts.strip(e["c"])
+        if ks:
+            e["c"], e["cuts"] = plain, ks
     ordered = {k: e[k] for k in ENTRY_FIELDS if k in e}
     ordered.update({k: v for k, v in e.items() if k not in ordered})
     return ordered
@@ -528,7 +544,7 @@ class Series:
         path = os.path.join(self.root, "lists", lst.key, sec.file)
         head = [f"{lst.abbr} {sec.code or ''} {sec.title}".replace("  ", " ").strip(),
                 "Entries in display order. See CLAUDE.md for the fields. Run ./bib check after editing."]
-        entries = [normalize_entry(stored_form(e)) for e in sec.entries]
+        entries = [normalize_entry(stored_form(e), marks=True) for e in sec.entries]
         loaded = getattr(sec, "_disk", None)
         if loaded is not None:
             now = file_digest(path)

@@ -38,3 +38,5 @@ Both ids were claimed in the ledger first (`./bib ledger add`).
 ## For the owner
 
 - The two July 4 entries are thin: each says no more than a headline or the tail of a story shows. They are entered because R0 and R15a say a report dates what it reports and nothing a source in hand dates is a lead. If the owner would rather keep such fragments as leads until the full story is read, the two entries can be struck by that rule.
+
+**Nov. 24, 2026, about 6:55 p.m. PT.** The owner's rule (the reader's brief, R18a): an item the owner appears to have left out on purpose is not written up. The festival headline and the Denktash fragment of the July 4 paper are such items. The two entries made from them, cal.1960-07-04.civil-disorders and cal.1960-07-04.cyprus-3, are struck, and the fragments are not leads. The nurses' fragment stays out.

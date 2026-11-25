@@ -479,6 +479,23 @@ def run(series, only=None):
         add(ERROR, where, msg, "claims")
     for where, msg in warns:
         add(WARN, where, msg, "claims")
+    # substance left in the note: what an entry's citations hold that its line lacks (tools/bib/notesub.py; R33a)
+    from . import notesub
+    for where, msg in notesub.problems(series):
+        add(WARN, where, msg, "note-substance")
+    # a calendar line's cuts: the stored numbers of its parts (tools/bib/cuts.py, STYLE 1-3)
+    from . import cuts
+    for _, e in claims.calendar(series):
+        ks = e.get("cuts")
+        if ks is not None and not (isinstance(ks, list) and all(isinstance(x, (list, tuple)) and len(x) == 2 for x in ks)):
+            add(ERROR, e["id"], "cuts: not a field to write; a cut is a mark in the line, {3}", "cuts")
+        elif ks or "{" in e["c"] or "}" in e["c"]:
+            for msg in cuts.problems(e["c"], ks or []):
+                add(ERROR, e["id"], f"cuts: {msg}", "cuts")
+        cf = e.get("cut_from")
+        if cf is not None and (not isinstance(cf, dict) or not e.get("cuts") or
+                               any(not re.fullmatch(r"\d+", str(k)) or not re.fullmatch(r"\d+", str(v)) for k, v in cf.items())):
+            add(ERROR, e["id"], "cut_from: {new number: the number it was cut from}, on a line with cuts", "cuts")
     # each claim's visibility: whose record, who knew, from when (sources/provenance.yaml, sources/polities.yaml;
     # tools/bib/vis.py): warnings only, never an error, so the site still deploys (the spec, §9.1)
     from . import vis

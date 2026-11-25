@@ -263,6 +263,10 @@ def apply_patch(series, patch, source, report, dry=False):
     sections touched (written only when no op errored)."""
     touched = set()
     ops = patch.get("ops") or []
+    for op in ops:                           # YAML reads a bare `on:` as true: read back as the key (addops STYLE 9)
+        for body in op.values() if isinstance(op, dict) else []:
+            if isinstance(body, dict) and True in body:
+                body["on"] = body.pop(True)
     ops = [o for o in ops if "add" in o] + [o for o in ops if "add" not in o]   # adds first (tools/bib/addops.py)
     ops = [o for o in ops if "place-key" in o] + [o for o in ops if "place-key" not in o]   # the gazetteer's rows first
     from . import places as _places
@@ -437,6 +441,22 @@ def op_edit(series, body, source, report, touched):
     for k in body.get("unset") or []:
         theirs.pop(k, None)
     theirs = store.normalize_entry(theirs)
+    if theirs.get("cuts"):                    # an edit's new line keeps the entry's cuts (tools/bib/cuts.py, STYLE 6)
+        from . import cuts as _cuts
+        if "c" in (body.get("set") or {}) and "{" not in str(body["set"]["c"]) and theirs["c"] != cur.get("c"):
+            placed, lost = _cuts.carry(cur.get("c") or "", cur.get("cuts") or [], theirs["c"])
+            if lost:                          # a line written without its marks: each goes after the same words
+                report.add("error", eid, f"the edit's line has no cut marks, and part {', '.join(lost)} cannot be "
+                                         f"placed (its last sentence changed): copy the line from ./bib show {eid}, "
+                                         "marks included, and leave each mark after its words")
+                return
+            _cuts.set_line(theirs, theirs["c"], placed)
+        bad = _cuts.problems(theirs.get("c") or "", theirs["cuts"])
+        if bad:
+            report.add("error", eid, "the edit's line does not keep the entry's cut marks ({1}, {2} ...): copy the "
+                                     f"line from ./bib show {eid}, marks included, and leave each after its words "
+                                     f"({'; '.join(bad)})")
+            return
     named = list((body.get("set") or {}).keys()) + list(body.get("unset") or [])
     if not body.get("base"):
         # No base: the editor did not say which version they changed. Apply,
