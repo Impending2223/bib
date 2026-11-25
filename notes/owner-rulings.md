@@ -4,7 +4,7 @@ The standing rule (CLAUDE.md, "Nothing blocks on the owner"; the owner, Nov. 24,
 
 Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every passage marked "For the owner". Line numbers are those of handoff.md at c8146e7 (the file has grown since). Items 1–30 restated and filled the evening of Nov. 24: "Settled" quotes the owner or names the commit; "Default taken" is a default, not a ruling, for the owner to overrule.
 
-## Items 1–30 at a glance
+## Items 1–30 and 37–49 at a glance
 
 | Item | The question, in a line | Status |
 |---|---|---|
@@ -38,8 +38,21 @@ Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every 
 | 28 | The 1960 convention pass's recommendations | not a question |
 | 29 | Gather the questions into this file | not a question |
 | 30 | How to re-thread the China entries after the measurement | default |
+| 37 | 4m: the sixteen-county reports; football matches; a famine thread; the small-town State check | defaults; (b) settled |
+| 38 | China audits, Nov. 14: legislators; Hồ's and Phạm's 1968 visits; NLF telegrams; Xinhua receptions | defaults; (1), (3) settled |
+| 39 | October 1962 pilot: new threads; the AAPD cards; DDF tome II | settled |
+| 40 | The press's hours; Li Zhisui and Chang; kind bands | settled |
+| 41 | Nov. 11–12: Hickory Hill drink; wording variants; year pages; court cases; periodicals; Nov. 11, 1968 lunch | defaults (a), (f); the rest settled |
+| 42 | Round-4 list and leftovers: what is still open | defaults (a), (b); the list settled |
+| 43 | H.R. 7152 audits: re-datings, staff memos, "selfish bastards" | settled |
+| 44 | Sit-ins, Feb. 1960: Raleigh's first day | default; in part settled |
+| 45 | 4ai: "To check" works for R27; Mao's 40,000; Tao Zhu's death; Kang Sheng's attack | defaults (b), (c); (a), (d) settled |
+| 46 | 4al: "public" in Peng Dehuai's custody years | default |
+| 47 | 4ap: the R27 redo, read or not | settled |
+| 48 | The Nov. 24 requests not yet placed | not a question |
+| 49 | For the owner to procure | not a question |
 
-Counts: wholly settled 4 (7, 10, 11, 25); defaults taken 20, seven of them with parts settled (5, 6, 9, 12, 15, 17, 27); not a question 6 (1, 3, 8, 24, 28, 29).
+Counts: wholly settled 4 (7, 10, 11, 25); defaults taken 20, seven of them with parts settled (5, 6, 9, 12, 15, 17, 27); not a question 6 (1, 3, 8, 24, 28, 29). Items 37–49 (added for passages the script missed): wholly settled 4 (39, 40, 43, 47); defaults taken 7, six with parts settled (37, 38, 41, 42, 44, 45) and one whole (46); not a question 2 (48, 49).
 
 ## 1. handoff.md:12
 
@@ -258,7 +271,7 @@ Not a question: the 1960 Democratic convention pass (1e), where readers are to r
 
 ## 29. handoff.md:350
 
-Not a question: the instruction (1g) to gather every "For the owner" item into this file, done by this list. The script did not take up some passages: 4m (handoff line 80: the sixteen-county meeting's reports; football matches watched together; a famine thread for the Mubei papers; the small-town State check), the section "For the owner (their rulings wanted)" (line 194: legislators as members of government; Hồ's and Phạm Văn Đồng's 1968 visits; the NLF telegrams; the Xinhua-reported receptions), and 4al (line 307: the Peng Dehuai custody-years reading of "public"). They are still to be added here, after item 36.
+Not a question: the instruction (1g) to gather every "For the owner" item into this file, done by this list. The script did not take up some passages: 4m (handoff line 80: the sixteen-county meeting's reports; football matches watched together; a famine thread for the Mubei papers; the small-town State check), the section "For the owner (their rulings wanted)" (line 194: legislators as members of government; Hồ's and Phạm Văn Đồng's 1968 visits; the NLF telegrams; the Xinhua-reported receptions), and 4al (line 307: the Peng Dehuai custody-years reading of "public"). They are items 37–49.
 
 ## 30. handoff.md:351
 
@@ -355,3 +368,97 @@ The rewritten design note adds a patch op that 35f did not record: `add-words: {
 
 - Default taken: adopt it. It is the owner's "simple addition to a shared frame" (Nov. 24, 3:35 p.m.: "claim_0" and "claim_1"), and R22's third sentence ("A new unit, from a source cited for it, is added freely") made mechanical. The merge places the words, makes the cut, and cites the source for the new part only.
 - Applies to: addops.py, patchcheck.py, merge.py; R33a; CLAUDE.md's list of patch ops, once built.
+
+## 37. handoff.md:80 (4m, "For the owner to rule", Nov. 18–19)
+
+Questions: (a) the sixteen-county meeting's reports (the Yang Shangkun 1965 audit; the Northwest Bureau's meeting on the sixteen key counties, `cal.1965-03-28.china-leadership-3`): one entry per report, or subentries of the meeting? (b) Football matches watched together (June 22 and Sept. 24, 1965): R18's "non-routine occasion", or passed over? (c) A famine thread or subthread for the ~260 local famine papers from *Mubei*, now under `china-leadership`? (d) CLAUDE.md says `check` enforces a small town's State at first mention ("Anniston, Ala."), and no code does: implement it, or drop the claim?
+
+- (a) Default taken: subentries. The meeting is the event and each report is a part of it, as the subentry form made for the Presidium sessions and the news conferences has it (handoff, batch 13; notes/guide/entries.md, subentries). This keeps R17's one event, one entry, and gives each report its own date and words.
+- (b) Settled: R18 as the owner rewrote it: "what the principal does off the job is an entry (sport, recreation, ...)", and "a non-routine occasion that puts principals together" is not private (the owner, Nov. 12: "If there's a non-routine occasion, like these, where we can put principals together, it should be in"; Nov. 15 for the principals' sport). Sept. 24 is in (`cal.1965-09-24.china-leadership-3`); left to do: enter June 22 if it is not.
+- (c) Default taken: the famine episode thread of the China threads measurement (item 30; notes/proposals/china-threads-survey.md, `china-famine`, 1959-10 to 1962-12), not a thread of its own made now. The owner asked on Nov. 22 for episodes as the cuts ("None of the threads have to extend across the entire span!"), and the survey already places the famine papers there.
+- (d) Default taken: implement it, as a `check` warning. CLAUDE.md lists it among "Forms that `check` enforces", and the form is the house style in notes/guide/entries.md; the gazetteer (tools/bib/fields.py, `fields-place`) already knows "Anniston, Ala." as a place. The warning fires on a town of an American State named in `c` without its State at first mention; an entry that is a deliberate exception takes `ok:<rule>`.
+- Applies to: (a) the sixteen-county reports from the Yang 1965 run; (b) the June 22, 1965 match; (c) the ~260 *Mubei* famine entries, at the re-threading; (d) tools/bib/check.py and its tests.
+
+## 38. handoff.md:194 ("For the owner (their rulings wanted)", the China audits, Nov. 14)
+
+Questions: (1) does a legislator (a senator, a member of the Diet, an M.P. leading his party) count as a member of government for visibility? And Janet Jagan (Aug. 31, 1962), the PKI under Aidit while a minister (Sept. 3, 1963; July 4 and Aug. 5, 1965), and the letters of Sept. 15, 1964 to six parties abroad. (2) Hồ Chí Minh's visits of Feb. 7 and Apr. 20, 1968 and Phạm Văn Đồng's of Apr. 29 and Nov. 17, 1968, kept wholly secret (`prc+drv`): were they reported at the time? (3) The NLF telegrams of Dec. 19, 1968 and 1969 keep `polity:nlf`, though the NLF is folded into the DRV. (4) Gaps for a later pass (the PRC statement of Oct. 16, 1964; Oct. 19, 1964; the Third NPC; Zhenbao; the Kosygin–Zhou airport meeting; the Ninth Congress; the Lei Yang–Stoessel talks). (5) Receptions Xinhua reported, left without a ruling, each with a Check.
+
+- (1) Settled: the owner, Nov. 14: "Legislators are visible to the sovereign as "members of government" if (a) their party is in government or (b) they don't belong to anti-system or revolutionary parties ... Communist MLs in government (e.g., members of the ruling party in socialist states or the PKI under Sukarno) are visible to the sovereign as "members of government," but Communist MLs not in government (e.g., the PCF, PCI, CPGB, CPUSA, JCP) are not." The PKI entries follow it. Default taken for the rest: Jagan's party governed British Guiana, so she counts as a member of government under (a); the six letters of Sept. 15, 1964 are ruled party by party on the same test.
+- (2) Default taken: kept secret (`prc+drv`), each with "Check: whether reported at the time (Xinhua, *Nhân Dân*)." R4 forbids answering from memory, and the entries' sources give no report.
+- (3) Settled: the owner, Nov. 11: "Please do fold the NLF into the DRV." Left to do: retag the telegrams `polity:drv`.
+- (4) Not a question: gaps, kept as leads in notes/leads.md (Foreign).
+- (5) Default taken: public in China, as in item 6 (d); a reception Xinhua reported was done before the press. The Check for the report stays until it is read.
+- Applies to: (1) the Jagan entry and the Sept. 15, 1964 letters; (2) the four 1968 visit entries; (3) the NLF telegrams of Dec. 19, 1968 and 1969; (5) the batch 15 receptions with a Xinhua Check.
+
+## 39. handoff.md:194 (the same section: the October 1962 foreign pilot)
+
+Questions: new threads (`soviet-leadership` under soviet-union; `federal-republic` and `britain` under europe-and-the-alliance); the AAPD's cards (one a year, or one card with the year in the cite); the DDF 1962 tome II (the Drive has tome I only).
+
+- Settled: the owner, Nov. 12, on the threads and the series and volume cards for the AAPD, the DDF and the Kabinettsprotokolle: "Agreed on all except the sequence." The threads exist (`soviet-union-leadership`, `europe-and-the-alliance-britain`, `-federal-republic`). The DDF tome II is not a question: it is on the procurement list (notes/handoff.md, "E. For the owner to procure").
+
+## 40. handoff.md:194 (the same section: the press's hours, Li Zhisui and Chang and Halliday, the kind bands)
+
+- Settled: each bullet records the owner's ruling of Nov. 11 (notes/owner-brief.md, Nov. 11; on Li Zhisui and Chang and Halliday: "uneven scrutiny ... I want to hear the nasty stories"). Left: the *Amsterdam News*'s release day, a lead, not a question.
+
+## 41. handoff.md:160 ("Rulings wanted (the owner)", the night of Nov. 11–12)
+
+Questions: (a) the Hickory Hill drink of Mar. 14, 1968, against the calendar's Mar. 15–16; (b) same-sense wording variants (King "struck down"): keep or drop; (c) year pages over 8 MB: split?; (d) court cases ("v.") that split into units; (e) foreign periodicals; (f) the Nov. 11, 1968 lunch, entered twice.
+
+- (a) Default taken: Mar. 15–16 stands (`cal.1968-03-15.robert-kennedy-campaign-2`). No source for Mar. 14 was found (handoff, B.3), and R4 allows no date from memory.
+- (b) Settled: the owner, Nov. 12: "Wording variants go in if we quote either wording." Restored (handoff, Nov. 12, (f)).
+- (c) Settled: the owner, Nov. 12: "Keep the page size rule and split the years." Done (handoff, Nov. 12, (g)).
+- (d) Settled: the owner, Nov. 12: "Fix the court-case units." Done (handoff, Nov. 12, (h)).
+- (e) Settled: the owner, Nov. 12: "Give cards to the foreign periodicals." Done (PR #173).
+- (f) Default taken: one lunch, one entry. `cal.1968-11-11.transition-and-staff` and `-2` both hold Nixon's lunch with the Johnsons before the Cabinet Room meeting (R17). Combine `-2` into the first.
+- Applies to: (a) the Mar. 15–16, 1968 entry; (f) `./bib combine cal.1968-11-11.transition-and-staff cal.1968-11-11.transition-and-staff-2`.
+
+## 42. handoff.md:200 and its later record (the round-4 list and the leftovers, what is still open)
+
+- Settled: the round-4 list was merged as audited (b01d502), and the leftovers (4209bc6). What is still open is item 2, item 41 (a), and three more: (a) `cal.1961-01.rules` (now dated Jan. 24) and `cal.1961-01-24.congress`, one breakfast?; (b) Zelizer: who Mills told to "choose guns" (Zelizer: the President; the entry, from Sanders's memo: Treasury's liaison); (c) the Kasavubu–Lumumba appeal and Khrushchev's message (item 9 (f)).
+- (a) Default taken: one breakfast, one entry. Both record Rayburn at the first weekly leaders' breakfast, Jan. 24, 1961 (R17). Combine `cal.1961-01.rules` into `cal.1961-01-24.congress`, with `also: [rules]`.
+- (b) Default taken: both readings, as a variant (R41), with "Check: whom Mills addressed"; the memo, the record, is cited first (R26).
+- Applies to: (a) the two Jan. 24, 1961 entries; (b) the Mills entry citing Zelizer.
+
+## 43. handoff.md:147 ("For the owner (from the audits)", the night of Nov. 12–13)
+
+Questions: the re-datings and combinations from the H.R. 7152 audits (May 19; the June 1 cloture petition; the Moyers remark; Jan. 21; the "listen to Dirksen" talk; Apr. 13; Smith's amendment), the staff memos (entries, or R18?), and the "selfish bastards" call.
+
+- Settled: the owner, Nov. 13: "Keep the staff memos. Bring back the selfish bastards." and "Yes on Dirksen's "idea." Check on the cloture petition. ... Move the floor meeting. Two tellings for now. Take it out of Feb. 5." All done (handoff, Nov. 12–13, "The owner ruled on the audits"). The four bundles of the same list are item 9 (a).
+
+## 44. handoff.md:269 ("Times wanted (owner)", the sit-ins of Feb. 8–13, 1960)
+
+Question: the times and disagreements in the sit-in articles of Feb. 9–14, 1960 (Raleigh's first day, Feb. 8 or 10; Hampton's, Feb. 10 or 11; Nashville, 40 or 500).
+
+- Settled in part: the split's old Checks were struck (7e5c848; the owner, Nov. 13: "I believe the not yet checked items are done"). Default taken for the one live disagreement (Raleigh's first day, Branch against Carson): both readings as a variant (R41), the entry on the day the record or the paper of the next morning gives, with "Check: the day."
+- Applies to: `cal.1960-02-08.sit-ins` and `cal.1960-02-10.sit-ins`.
+
+## 45. handoff.md:301 (4ai, the Chen Yun runs 2 and 3 audits, Nov. 21)
+
+Questions: (a) does a work named only behind "To check" count for R27 (four entries, `cal.1961-10.china-leadership-2` among them)? (b) `cal.1969-01-25.china-leadership-2`, Mao's reception of over 40,000, is closed ("Made public: 1995"), though such receptions are public elsewhere. (c) Tao Zhu's death is "Made public: 2015", though it was made known at his rehabilitation in 1978. (d) Kang Sheng's attack on Chen Yun, Aug. 10, 1966 (`cal.1966-08-10.china-leadership-7`): combine with Bu run 5's `-8`?
+
+- (a) Settled: R27 as revised and endorsed (the owner, Nov. 21: ""Made public" doesn't require a source to have been read, does it?" and "I endorse your revised R27"): "Any work cited counts, read or not."
+- (b) Default taken: public, no `vis` ruling. A reception of 40,000 is done in the open; R27 dates only acts "done in private".
+- (c) Default taken: "Made public: 1978", the rehabilitation's announcement, with "Check: its printing (*Renmin ribao*)." R27: the earliest durable open printing, and a newspaper is one; the 2015 work goes beside it only if it printed more.
+- (d) Settled by work done: the Bu run 5 audit found Bu's add to be the Chen Yun entry itself, now a cite with a variant; nothing to combine (handoff, 4ak).
+- Applies to: (b) `cal.1969-01-25.china-leadership-2`; (c) the Tao Zhu entry.
+
+## 46. handoff.md:307 (4al, the Peng Dehuai run 1 audit: "public" in the custody years)
+
+Question: the auditors read "public" in Peng's custody years as done in the open, before people other than his guards and the organs holding him, whether or not the press reported it (tours, life among the Wujiahuayuan villagers, transport under escort public; acts inside the compound or in custody, and family occasions, closed; struggle meetings public where the page calls them a rally, counts thousands or puts them in a stadium). That is the auditors' reading, not the owner's ruling.
+
+- Default taken: the auditors' reading. R27 dates by record only "an event done in private and documented in records nobody saw at the time"; what was done before villagers or a rally of thousands was not done in private. When *Peng Dehuai zhuan* (1993) is cited, "Made public" on the closed acts moves to 1993 where it prints them (R27, the earliest work cited).
+- Applies to: the Peng Dehuai nianpu entries of his custody years; any later run on a principal in custody (Liu Shaoqi, Deng, He Long).
+
+## 47. handoff.md:321 (4ap, "awaiting their word", Nov. 21)
+
+Question: the R27 redo of the 168 swept entries and 9 Teiwes entries, with any work cited counting whether read or not, and openness deciding.
+
+- Settled: the owner, Nov. 21: "I endorse your revised R27" (0303b9a; R27's "Publication" and "Each country"). Left to do: the redo itself, queued (handoff, 4aq; the queue's item 2).
+
+## 48. handoff.md, head ("The owner's requests of Nov. 24, not yet placed by the owner")
+
+Not a question: three requests (the 1960 convention pass, the Drive inventory and the Soviet batches, the atomic-claims trial) placed by default after the queue's item 6, "the owner may move them". The list is kept at the head of notes/handoff.md.
+
+## 49. handoff.md:133 ("E. For the owner to procure")
+
+Not a question: the procurement list (the Pike hearings; the foreign plan's "P" list; the DDF 1962 tome II). Kept in notes/handoff.md, section E.
