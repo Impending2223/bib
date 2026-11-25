@@ -308,10 +308,6 @@ ops:
       time_band: morning
       time_zone: Asia/Shanghai
       range_basis: record
-- cite:
-    id: cal.1961-08-23.china-leadership
-    item: '[[w.zhu-de-nianpu-xinbian]], III, 1812 (the meeting at Mao''s, morning)'
-    'on': time
 - names:
     id: cal.1961-08-23.china-leadership
     tags:
@@ -563,26 +559,58 @@ ops:
     id: cal.1965-05-11.china-leadership
     after: end
     words: Liu Shaoqi presides; Zhu De and Peng Zhen attend.
-    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 618–619'
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 618 (Liu)'
+- cite:
+    id: cal.1965-05-11.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 417'
+    'on': Liu Shaoqi presides; Zhu De and Peng Zhen attend.
+- cite:
+    id: cal.1965-05-11.china-leadership
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1933 (Zhu De)'
+    'on': Liu Shaoqi presides; Zhu De and Peng Zhen attend.
 - add-words:
     id: cal.1965-05-11.china-leadership
     after: end
-    words: 'Liu: over 1,260 projects now, near the peak''s 1,700; none to be started without the Center''s approval.'
-    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 618–619'
+    words: Adopted, the reports on adjusting the 1965 capital construction plan and the 1965 budget, and the decision to set up political departments in industry and transport.
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 618'
+- cite:
+    id: cal.1965-05-11.china-leadership
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 417'
+    'on': Adopted, the reports on adjusting the 1965 capital construction plan and the 1965 budget, and the decision to set up political departments in industry and transport.
+- add-words:
+    id: cal.1965-05-11.china-leadership
+    after: end
+    words: 'Liu: over 1,260 projects now, near the peak''s 1,700; none to be started freely, some to be put off.'
+    item: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 618–19'
+- add-words:
+    id: cal.1965-05-11.china-leadership
+    after: end
+    words: 'Zhu De: the supply and marketing cooperatives to buy in the villages; Liu, Zhou, Deng, Li Fuchun and Li Xiannian agree.'
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1933'
 - check:
     id: cal.1965-05-11.china-leadership
     text: 'Check: [[w.jian-zhou-enlai]], 526, has Zhou tell a Politburo meeting that "some control should be exerted" on construction, war preparation and foreign aid, no day given.'
+- edit:
+    id: cal.1965-05-11.china-leadership
+    base: d7469776
+    kind: reword
+    set:
+      range_basis: record
 - names:
     id: cal.1965-05-11.china-leadership
     tags:
     - name:liu-shaoqi
     - name:zhu-de
     - name:peng-zhen
+    - name:li-fuchun
+    - name:li-xiannian
     - ok:note-substance
     add:
     - Liu Shaoqi
     - Zhu De
     - Peng Zhen
+    - Li Fuchun
+    - Li Xiannian
 - add-words:
     id: cal.1965-07-28.vietnam
     after: end
@@ -661,10 +689,6 @@ ops:
       time: 1966-06-04T21:50Z
       time_approx: true
       time_zone: Africa/Johannesburg
-- cite:
-    id: cal.1966-06-04.africa
-    item: '[[w.shesol-mutual-contempt]], 301'
-    'on': time
 - names:
     id: cal.1966-06-04.africa
     tags:
@@ -710,10 +734,6 @@ ops:
     set:
       time: 1967-04-05T01:00Z
       time_zone: America/New_York
-- cite:
-    id: cal.1967-04-04.king
-    item: '[[w.branch-at-canaans-edge]], 590 (the eight o''clock program)'
-    'on': time
 - names:
     id: cal.1967-04-04.king
     tags:
