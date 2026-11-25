@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1968-01
-by: 'Claude (Sonnet, sequence pass, January 1968: R25c), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass, January 1968: R25c), Nov. 25, 2026; audited by Claude (Opus), Nov. 25, 2026 (R25c, R33b)'
 ops:
 - follows:
     id: cal.1968-01-04.soviet-union
@@ -57,3 +57,39 @@ ops:
     id: cal.1968-01-31.vietnam-tet-5
     add:
     - cal.1968-01-31.vietnam-tet-11
+- follows:
+    id: cal.1968-01-17.conservation
+    add:
+    - cal.1968-01-17.conservation-2
+- follows:
+    id: cal.1968-01-25.white-house
+    add:
+    - cal.1968-01-25.japan-and-korea
+    - cal.1968-01-25.transition-and-staff
+- follows:
+    id: cal.1968-01-31.vietnam-tet-2
+    add:
+    - cal.1968-01-31.vietnam-tet
+- follows:
+    id: cal.1968-01-31.vietnam-tet-8
+    add:
+    - cal.1968-01-31.vietnam-tet
+- follows:
+    id: cal.1968-01-31.vietnam-tet-9
+    add:
+    - cal.1968-01-31.vietnam-tet
+- edit:
+    id: cal.1968-01-25.japan-and-korea-pueblo-4
+    base: 43582ca2
+    set:
+      n: '[[w.drea-mcnamara-clifford-and-the-2011]], 489 (n.15; Drea also has McNamara defer the Chiefs'' request for 8,500 more men for the Eighth Army, its day not given, the memoranda of Jan. 29 and Feb. 1 among the note''s sources). Order: after [[cal.1968-01-25.japan-and-korea-pueblo|the breakfast]], the morning meeting with the President, in Drea''s sequence (488–89). To check: Nitze notes, Jan. 25, 1968, Nitze Papers, LC; JCSM-53-68 for SecDef, Jan. 25, 1968 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 489 n.15). See [[cal.1968-01-25.japan-and-korea-pueblo]]. Names: McNamara, Nitze.'
+- edit:
+    id: cal.1968-01-25.japan-and-korea-pueblo-8
+    base: 2c4236d2
+    set:
+      n: '[[w.drea-mcnamara-clifford-and-the-2011]], 489 ("later that day"; n.15). Order: after [[cal.1968-01-25.japan-and-korea-pueblo-4|McNamara''s talk to his staffs]], "in turn," in Drea''s sequence (489). See [[cal.1968-01-25.japan-and-korea-pueblo-4]]. Names: Wheeler, Johnson.'
+- edit:
+    id: cal.1968-01-25.white-house
+    base: 4da6ff9a
+    set:
+      n: '[[w.johnson-white-house-diary]], 625–27 (Lady Bird Johnson''s account). Johnson''s toast as Mrs. Johnson paraphrases it; the Speaker''s toast and Warren''s theme as she reports them. Order: after the news of [[cal.1968-01-25.japan-and-korea|the call-up]], "sometime in the morning," and of [[cal.1968-01-25.transition-and-staff|Gardner''s resignation]], by Mrs. Johnson''s account (625). To check: the toasts, if in the Public Papers. Names: Johnson, Humphrey, McCormack, Warren, Fortas, Meany.'
