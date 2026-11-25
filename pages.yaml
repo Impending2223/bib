@@ -22,29 +22,58 @@ exempt:
 works:
   by: letter
 names:
+  a:
+  - page: names-aa-ali
+    from: a
+    label: Aa–Ali
+  - page: names-alia-az
+    from: alia
+    label: Alia–Az
   b:
-  - page: names-ba-blanch
+  - page: names-ba-begg
     from: b
-    label: Ba–Blanch
-  - page: names-blanck-buckleyo
+    label: Ba–Begg
+  - page: names-begi-blanch
+    from: begi
+    label: Begi–Blanch
+  - page: names-blanck-brear
     from: blanck
-    label: Blanck–Buckley, O
-  - page: names-buckleyw-bz
+    label: Blanck–Brear
+  - page: names-breat-buckleyo
+    from: breat
+    label: Breat–Buckley, O
+  - page: names-buckleyw-bung
     from: buckley-w
-    label: Buckley, W–Bz
+    label: Buckley, W–Bung
+  - page: names-bunk-bz
+    from: bunk
+    label: Bunk–Bz
   c:
-  - page: names-ca-chel
+  - page: names-ca-castl
     from: c
-    label: Ca–Chel
+    label: Ca–Castl
+  - page: names-castr-chel
+    from: castr
+    label: Castr–Chel
   - page: names-chen-chenx
     from: chen
     label: Chen–Chen, X
-  - page: names-cheny-chenyi
+  - page: names-cheny-chenya
     from: chen-y
-    label: Chen, Y–Chen, Yi
-  - page: names-chenyu-cliff
+    label: Chen, Y–Chen, Ya
+  - page: names-chenyi
+    from: chen-yi
+    label: Chen Yi
+    only: chen-yi
+  - page: names-chenyo-chenyi
+    from: chen-yo
+    label: Chen, Yo–Chen, Yi
+  - page: names-chenyu-christi
     from: chen-yu
-    label: Chen, Yu–Cliff
+    label: Chen, Yu–Christi
+  - page: names-christo-cliff
+    from: christo
+    label: Christo–Cliff
   - page: names-cliffo-collinsjf
     from: cliffo
     label: Cliffo–Collins, J F
@@ -55,36 +84,73 @@ names:
   - page: names-da-dengf
     from: d
     label: Da–Deng, F
-  - page: names-dengx-deng
+  - page: names-dengx-dengx
     from: deng-x
-    label: Deng, X–Deng
+    label: Deng, X–Deng, X
+  - page: names-dengy-deng
+    from: deng-y
+    label: Deng, Y–Deng
   - page: names-dengi-dip
     from: dengi
     label: Dengi–Dip
-  - page: names-dir-dz
+  - page: names-dir-douglasl
     from: dir
-    label: Dir–Dz
+    label: Dir–Douglas, L
+  - page: names-douglasp-dz
+    from: douglas-p
+    label: Douglas, P–Dz
+  f:
+  - page: names-fa-fort
+    from: f
+    label: Fa–Fort
+  - page: names-forta-fuk
+    from: forta
+    label: Forta–Fuk
+  - page: names-ful-fz
+    from: ful
+    label: Ful–Fz
   g:
-  - page: names-ga-gord
+  - page: names-ga-golds
     from: g
-    label: Ga–Gord
+    label: Ga–Golds
+  - page: names-goldw-goodwinh
+    from: goldw
+    label: Goldw–Goodwin, H
+  - page: names-goodwinr-gord
+    from: goodwin-r
+    label: Goodwin, R–Gord
   - page: names-gore-gz
     from: gore
     label: Gore–Gz
   h:
-  - page: names-ha-henn
+  - page: names-ha-harrish
     from: h
-    label: Ha–Henn
-  - page: names-henr-humphreyd
+    label: Ha–Harris, H
+  - page: names-harrisl-henn
+    from: harris-l
+    label: Harris, L–Henn
+  - page: names-henr-hofe
     from: henr
-    label: Henr–Humphrey, D
+    label: Henr–Hofe
+  - page: names-hoff-huangh
+    from: hoff
+    label: Hoff–Huang, H
+  - page: names-huangk-humphreyd
+    from: huang-k
+    label: Huang, K–Humphrey, D
   - page: names-humphreyg-hz
     from: humphrey-g
     label: Humphrey, G–Hz
   j:
-  - page: names-ja-johnsonlynda
+  - page: names-ja-jiangn
     from: j
-    label: Ja–Johnson, Lynda
+    label: Ja–Jiang, N
+  - page: names-jiangq-johnsonj
+    from: jiang-q
+    label: Jiang, Q–Johnson, J
+  - page: names-johnsonl-johnsonlynda
+    from: johnson-l
+    label: Johnson, L–Johnson, Lynda
   - page: names-johnsonlyndonb
     from: johnson-lyndon-b
     only: johnson-lyndon-b
@@ -93,29 +159,60 @@ names:
     from: johnson-m
     label: Johnson, M–Jz
   k:
-  - page: names-ka-kennedyja
+  - page: names-ka-katz
     from: k
-    label: Ka–Kennedy, Ja
+    label: Ka–Katz
+  - page: names-katze-kennedyja
+    from: katze
+    label: Katze–Kennedy, Ja
   - page: names-kennedyjohnf
     from: kennedy-john-f
     only: kennedy-john-f
     label: Kennedy, John F.
-  - page: names-kennedyjos-kho
+  - page: names-kennedyjos-kennedyri
     from: kennedy-jos
-    label: Kennedy, Jos–Kho
-  - page: names-khr-kissic
+    label: Kennedy, Jos–Kennedy, Ri
+  - page: names-kennedyrobertf
+    from: kennedy-robert-f
+    label: Kennedy, Robert F.
+    only: kennedy-robert-f
+  - page: names-kennedyw-kho
+    from: kennedy-w
+    label: Kennedy, W–Kho
+  - page: names-khr-killh
     from: khr
-    label: Khr–Kissic
+    label: Khr–Killh
+  - page: names-killi-kingmari
+    from: killi
+    label: Killi–King, Mari
+  - page: names-kingmart-kirilenkoandreip
+    from: king-mart
+    label: King, Mart–Kirilenko, Andrei P
+  - page: names-kirilenkoandreipa-kissic
+    from: kirilenko-andrei-pa
+    label: Kirilenko, Andrei Pa–Kissic
   - page: names-kissin-kz
     from: kissin
     label: Kissin–Kz
   l:
-  - page: names-la-lim
+  - page: names-la-leving
     from: l
-    label: La–Lim
-  - page: names-lin-liuj
+    label: La–Leving
+  - page: names-levins-lijia
+    from: levins
+    label: Levins–Li, Jia
+  - page: names-lijie-lian
+    from: li-jie
+    label: Li, Jie–Lian
+  - page: names-liao-lim
+    from: liao
+    label: Liao–Lim
+  - page: names-lin-lindsayd
     from: lin
-    label: Lin–Liu, J
+    label: Lin–Lindsay, D
+  - page: names-lindsayj-liuj
+    from: lindsay-j
+    label: Lindsay, J–Liu, J
   - page: names-liushaoqi
     from: liu-shaoqi
     label: Liu Shaoqi
@@ -123,9 +220,12 @@ names:
   - page: names-liuz-llor
     from: liuz
     label: Liuz–Llor
-  - page: names-llos-lz
+  - page: names-llos-luc
     from: llos
-    label: Llos–Lz
+    label: Llos–Lu, C
+  - page: names-lud-lz
+    from: lu-d
+    label: Lu, D–Lz
   m:
   - page: names-ma-man
     from: m
@@ -134,69 +234,144 @@ names:
     from: mao-zedong
     only: mao-zedong
     label: Mao Zedong
-  - page: names-mar-mcgi
+  - page: names-mar-mccarthyc
     from: mar
-    label: Mar–Mcgi
-  - page: names-mcgo-med
+    label: Mar–Mccarthy, C
+  - page: names-mccarthye-mcelroyn
+    from: mccarthy-e
+    label: Mccarthy, E–Mcelroy, N
+  - page: names-mcelroyw-mcgi
+    from: mcelroy-w
+    label: Mcelroy, W–Mcgi
+  - page: names-mcgo-mcnamarap
     from: mcgo
-    label: Mcgo–Med
-  - page: names-mee-mossf
+    label: Mcgo–Mcnamara, P
+  - page: names-mcnamararoberts
+    from: mcnamara-robert-s
+    label: McNamara, Robert S.
+    only: mcnamara-robert-s
+  - page: names-mcnar-med
+    from: mcnar
+    label: Mcnar–Med
+  - page: names-mee-mono
     from: mee
-    label: Mee–Moss, F
+    label: Mee–Mono
+  - page: names-monr-mossf
+    from: monr
+    label: Monr–Moss, F
   - page: names-mossj-mz
     from: moss-j
     label: Moss, J–Mz
   n:
-  - page: names-na-nis
+  - page: names-na-nguyenkhang
     from: n
-    label: Na–Nis
-  - page: names-nit-nz
+    label: Na–Nguyen, Khang
+  - page: names-nguyenkhanh-nis
+    from: nguyen-khanh
+    label: Nguyen, Khanh–Nis
+  - page: names-nit-nixonp
     from: nit
-    label: Nit–Nz
+    label: Nit–Nixon, P
+  - page: names-nixonr-nolte
+    from: nixon-r
+    label: Nixon, R–Nolte
+  - page: names-nolti-nz
+    from: nolti
+    label: Nolti–Nz
   p:
   - page: names-pa-pengm
     from: p
     label: Pa–Peng, M
-  - page: names-pengz-perri
+  - page: names-pengz-peng
     from: peng-z
-    label: Peng, Z–Perri
+    label: Peng, Z–Peng
+  - page: names-penn-perri
+    from: penn
+    label: Penn–Perri
   - page: names-perro-pz
     from: perro
     label: Perro–Pz
   r:
-  - page: names-ra-rockefellerm
+  - page: names-ra-rhodesg
     from: r
-    label: Ra–Rockefeller, M
-  - page: names-rockefellern-rush
+    label: Ra–Rhodes, G
+  - page: names-rhodesj-rockefellerm
+    from: rhodes-j
+    label: Rhodes, J–Rockefeller, M
+  - page: names-rockefellern-ronne
     from: rockefeller-n
-    label: Rockefeller, N–Rush
-  - page: names-rusk-rz
+    label: Rockefeller, N–Ronne
+  - page: names-ronni-rush
+    from: ronni
+    label: Ronni–Rush
+  - page: names-rusk-ruskd
     from: rusk
-    label: Rusk–Rz
+    label: Rusk–Rusk, D
+  - page: names-ruskh-rz
+    from: rusk-h
+    label: Rusk, H–Rz
   s:
-  - page: names-sa-shoo
+  - page: names-sa-schub
     from: s
-    label: Sa–Shoo
-  - page: names-shor-stend
+    label: Sa–Schub
+  - page: names-schul-shoo
+    from: schul
+    label: Schul–Shoo
+  - page: names-shor-songq
     from: shor
-    label: Shor–Stend
+    label: Shor–Song, Q
+  - page: names-songr-stend
+    from: song-r
+    label: Song, R–Stend
   - page: names-stenn-sz
     from: stenn
     label: Stenn–Sz
   t:
-  - page: names-ta-thomsong
+  - page: names-ta-taylork
     from: t
-    label: Ta–Thomson, G
+    label: Ta–Taylor, K
+  - page: names-taylorm-thomsong
+    from: taylor-m
+    label: Taylor, M–Thomson, G
   - page: names-thomsonj-tz
     from: thomson-j
     label: Thomson, J–Tz
   w:
-  - page: names-wa-whitee
+  - page: names-wa-wangk
     from: w
-    label: Wa–White, E
-  - page: names-whitef-wz
+    label: Wa–Wang, K
+  - page: names-wangl-welchri
+    from: wang-l
+    label: Wang, L–Welch, Ri
+  - page: names-welchro-wheelerc
+    from: welch-ro
+    label: Welch, Ro–Wheeler, C
+  - page: names-wheelere-whitee
+    from: wheeler-e
+    label: Wheeler, E–White, E
+  - page: names-whitef-wirth
     from: white-f
-    label: White, F–Wz
+    label: White, F–Wirth
+  - page: names-wirtz-wz
+    from: wirtz
+    label: Wirtz–Wz
+  y:
+  - page: names-ya-yangshangkui
+    from: y
+    label: Ya–Yang, Shangkui
+  - page: names-yangshangkun
+    from: yang-shangkun
+    label: Yang Shangkun 杨尚昆
+    only: yang-shangkun
+  - page: names-yangshangl-yef
+    from: yang-shangl
+    label: Yang, Shangl–Ye, F
+  - page: names-yej-yug
+    from: ye-j
+    label: Ye, J–Yu, G
+  - page: names-yul-yz
+    from: yu-l
+    label: Yu, L–Yz
   z:
   - page: names-za-zhi
     from: z
@@ -205,9 +380,16 @@ names:
     from: zhou-enlai
     only: zhou-enlai
     label: Zhou Enlai
-  - page: names-zhous-zz
+  - page: names-zhous-zho
     from: zhou-s
-    label: Zhou, S–Zz
+    label: Zhou, S–Zho
+  - page: names-zhude
+    from: zhu-de
+    label: Zhu De
+    only: zhu-de
+  - page: names-zhug-zz
+    from: zhu-g
+    label: Zhu, G–Zz
 executive:
   parts:
   - page: executive-1953
@@ -452,7 +634,40 @@ threads:
     from: '1969-01-01'
     label: 1969–1970
 retired:
+- names-ba-blanch
+- names-blanck-buckleyo
+- names-buckleyw-bz
+- names-ca-chel
 - names-ca-chenx
+- names-cheny-chenyi
 - names-cheny-collinsjf
+- names-chenyu-cliff
+- names-dengx-deng
 - names-dengx-dip
+- names-dir-dz
+- names-ga-gord
+- names-ha-henn
+- names-henr-humphreyd
+- names-ja-johnsonlynda
+- names-ka-kennedyja
+- names-kennedyjos-kho
+- names-khr-kissic
+- names-la-lim
+- names-lin-liuj
 - names-lin-llor
+- names-llos-lz
+- names-mar-mcgi
+- names-mcgo-med
+- names-mee-mossf
+- names-na-nis
+- names-nit-nz
+- names-pengz-perri
+- names-ra-rockefellerm
+- names-rockefellern-rush
+- names-rusk-rz
+- names-sa-shoo
+- names-shor-stend
+- names-ta-thomsong
+- names-wa-whitee
+- names-whitef-wz
+- names-zhous-zz

@@ -902,6 +902,8 @@ entries:
     place: hanoi
     thread: vietnam-hanoi
     also: [vietnam-diplomacy, soviet-union, china]
+    follows:
+      - cal.1966-10-04.vietnam-hanoi-2
     c: 'Hanoi. The closing sitting, from 1500 hrs to 1700. Maurer: nothing to add; the two sides'' views are as one and the contacts should go on; he will tell the Chinese and the Soviets in brief. Talk of the Polish and Hungarian proposals, U Thant''s and the French precedent in the military case; Đồng: agreement, and other delegations come in November.'
     n: '"[Transcript of Discussions Held by Comrades Ion Gheorghe Maurer and Paul Niculescu-Mizil With the Delegation in The Democratic Republic of Vietnam](https://digitalarchive.umd.edu/document/122581)" (Oct. 3, 1966), ANR, Fond CC al PCR, Secţia Relaţii Externe, 127/1966, dosar nr. 3345, 31.XII.1966, f. 1–110, trans. Larry L. Watts, Wilson Center Digital Archive. Sitting of 1500–1700 hrs, dated Oct. 4 in the transcript; Đồng: ''Tomorrow you leave''. See [[cal.1966-10-03.vietnam-hanoi]]. Names: Maurer, Phạm Văn Đồng, U Thant. Check: the days; the file note reads Oct. 2–3, against the transcript''s Oct. 3 and 4 and Maurer''s own ''October 3 and in the afternoon of October 4'' at Peking. Check: the year the document was first printed or posted; the Archive page gives none.'
     tags: [polity:romania, polity:drv, name:maurer-ion-gheorghe, name:pham-van-dong, vis:only:romania+drv, name:u-thant]
@@ -1308,8 +1310,6 @@ entries:
     time: 1966-10-06T19:00Z
     place: washington
     thread: cities-and-housing
-    follows:
-      - cal.1966-10-06.vietnam-asian-trip
     part_of: cal.1966-10-06.press-and-broadcasting
     c: Demonstration Cities "one of the most important pieces of legislation for the good of all American mankind that we can act upon this session," the push the Speaker's meeting asked for.
     n: '[1966 Pub. Papers 1117](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=491), at 1119–20. [[w.califano-triumph-and-tragedy-of]], 135; [[w.dallek-flawed-giant]], 321 (Oct. 6, press conference: no domestic problem "more critical than rebuilding our cities"; demonstration cities "one of the most important pieces of legislation for the good of all American mankind that we can act upon this session"; not the Speaker''s meeting); [[w.johnson-white-house-diary]], 428–29 (the news conference, the East Room, 3 p.m., Mrs. Johnson in the front row; among the questions "the Cities Bill"; not the words in the entry). Names: Johnson, McCormack.'
@@ -1339,13 +1339,15 @@ entries:
   - id: cal.1966-10-06.vietnam-asian-trip
     when: Oct. 6
     date: '1966-10-06'
+    time: 1966-10-06T19:00Z
     place: washington
     thread: vietnam-asian-trip
     also: [transition-and-staff]
     part_of: cal.1966-10-06.press-and-broadcasting
     c: 'Johnson names Sol Linowitz Ambassador to the Organization of American States, Llewellyn Thompson Ambassador to the Soviet Union and Ellsworth Bunker, in Thompson''s place, Ambassador at Large. The trip: from Oct. 17, seventeen days, twenty-five thousand miles, New Zealand, Australia, the Philippines, Thailand, Malaysia, South Korea, a refueling stop in Alaska; the Manila Conference of all the nations in the war "the important business"; Mrs. Johnson to go. On the Great Society: "When you pass 85 bills out of 90 recommended, I think that is a pretty good box score."'
-    n: '[1966 Pub. Papers 1117](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=491), at 1117 (the posts; Manila), 1120 (the box score), 1123 (the itinerary; Mrs. Johnson; not the miles, the refueling stop in Alaska or "the important business"). [[w.johnson-white-house-diary]], 428–29 (Lady Bird Johnson''s account; Bunker "Ambassador to the government of Vietnam," against the transcript). Names: Johnson, Thompson, Bunker, Lady Bird Johnson. Check: Bunker''s post.'
+    n: '[1966 Pub. Papers 1117](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=491), at 1117 (the posts; Manila), 1120 (the box score), 1123 (the itinerary; Mrs. Johnson; not the miles, the refueling stop in Alaska or "the important business"). [[w.johnson-white-house-diary]], 428–29 (Lady Bird Johnson''s account; Bunker "Ambassador to the government of Vietnam," against the transcript). The hour is the news conference''s, 3 p.m. (1124). Names: Johnson, Thompson, Bunker, Lady Bird Johnson. Check: Bunker''s post.'
     tags: [name:johnson-lyndon-b, name:thompson-llewellyn-e, name:bunker-ellsworth, name:johnson-lady-bird]
+    time_zone: America/New_York
   - id: cal.1966-10-06.press-and-broadcasting
     when: Oct. 6
     date: '1966-10-06'
@@ -1783,6 +1785,8 @@ entries:
     when: Oct. 9
     date: '1966-10-09'
     thread: china-leadership
+    follows:
+      - cal.1966-10-09.china-leadership
     c: 'Ye Jianying 叶剑英, at the second group of the Central Work Conference 中央工作会议: the Chairman means the movement to run to January, four months more; readiness for war is pressing, war may come about 1968; the Chairman cannot sleep till the third front 三线 is built; the Cultural Revolution 文化大革命 the best mobilization for war, as the Japanese and Americans see; the young armed with Mao Zedong Thought 毛泽东思想.'
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 946. Made public: 2007. Names: Ye Jianying, Mao Zedong.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc, name:mao-zedong]
@@ -2548,10 +2552,11 @@ entries:
   - id: cal.1966-10-15.vietnam
     when: Oct. 15
     date: '1966-10-15'
+    time: 1966-10-15T18:10Z
     place: washington
     thread: vietnam
     c: McNamara and Wheeler with Johnson before the NSC meets on the Asian trip.{1} Humphrey and Vance there.{2} Johnson, dissatisfied with pacification but unwilling to override Rusk and Lodge, approves the dual system, civil and military;{3} results in 90 to 120 days.{4}
-    n: '[FRUS 1964–68, IV, doc. 272](https://history.state.gov/historicaldocuments/frus1964-68v04/d272). [[w.gibbons-u-s-government-and]], IV, 462–63, 471; [[w.drea-mcnamara-clifford-and-the-2011]], 79 (Johnson, Humphrey, McNamara, Vance and Wheeler on the differences between the Chiefs and McNamara); [[w.dallek-flawed-giant]], 383, 387 (the NSC meeting of Oct. 15: the administrative compromise between military and civilian authorities given 90 to 120 days before the program is put fully under military control; McNamara: pacification to date a "basic disappointment" (383); Oct. 15, to McNamara and Wheeler: limits on bombing around Hanoi and Haiphong held, new targets agreed (387)). See [[cal.1966-10-10.vietnam]]. Names: McNamara, Wheeler, Johnson, Humphrey, Vance, Rusk, Lodge.'
+    n: '[FRUS 1964–68, IV, doc. 272](https://history.state.gov/historicaldocuments/frus1964-68v04/d272). The session with the President began at 2:10 p.m., the NSC at 2:40: doc. 272 and its n.2 (the President''s Daily Diary). [[w.gibbons-u-s-government-and]], IV, 462–63, 471; [[w.drea-mcnamara-clifford-and-the-2011]], 79 (Johnson, Humphrey, McNamara, Vance and Wheeler on the differences between the Chiefs and McNamara); [[w.dallek-flawed-giant]], 383, 387 (the NSC meeting of Oct. 15: the administrative compromise between military and civilian authorities given 90 to 120 days before the program is put fully under military control; McNamara: pacification to date a "basic disappointment" (383); Oct. 15, to McNamara and Wheeler: limits on bombing around Hanoi and Haiphong held, new targets agreed (387)). See [[cal.1966-10-10.vietnam]]. Names: McNamara, Wheeler, Johnson, Humphrey, Vance, Rusk, Lodge.'
     src:
       c: d323ca9c
       rows:
@@ -2562,12 +2567,7 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 79: 1'
         - 'w.dallek-flawed-giant 383, 387: 4'
     tags: [name:mcnamara-robert-s, name:wheeler-earle, name:johnson-lyndon-b, name:humphrey-hubert-h, name:vance-cyrus, name:rusk-dean, name:lodge-henry-cabot]
-    time_range:
-      - 1966-10-15T13:00Z
-      - 1966-10-15T21:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1966-10-15.vietnam-asian-trip
     when: Oct. 15
     date: '1966-10-15'
@@ -2887,6 +2887,8 @@ entries:
     when: Oct. 17–18
     date: '1966-10-17'
     thread: vietnam-asian-trip
+    follows:
+      - cal.1966-10-17.program
     c: Johnson's Asian trip.{1} From Washington Oct. 17, by Honolulu and American Samoa.{2}
     n: 'Remarks at Dulles International Airport on Departing for the Asian-Pacific Trip, [1966 Pub. Papers 1216](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=590) (Oct. 17, 1966); Remarks at the East-West Center in Honolulu, [1966 Pub. Papers 1219](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=593) (Oct. 18, 1966); Remarks Upon Arrival at Tafuna International Airport, Pago Pago, American Samoa, [1966 Pub. Papers 1227](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=601) (Oct. 18, 1966). [[w.johnson-vantage-point]], 359–60; [[w.dallek-flawed-giant]], 383–85 (the trip); [[w.herring-lbj-and-vietnam]], 139 (the trip: Manila, then each of the allies); [[w.mcpherson-political-education]], 304 (Samoa: the reception line; the speech written on the plane); [[w.dallek-flawed-giant]], 338 (the seventeen-day trip to Asia, Oct. 17 to Nov. 2; he says shortly before he has no plans to campaign when he returns); [[w.johnson-white-house-diary]], the plates after 406 (unnumbered captions: "The President and First Lady arrive in New Zealand for first leg of Far East trip, October 17–November 2"; "Toasting with a native chief in Pago Pago, October 18"). [[w.mcpherson-political-education]], 303–15 (the advance party''s trip in the early fall; the President''s, Samoa to Anchorage). To check: [[w.gibbons-u-s-government-and]]; [[w.rostow-diffusion-of-power]]. Names: Johnson.'
     src:
@@ -2943,13 +2945,17 @@ entries:
     date: '1966-10-17'
     thread: program
     also: [vietnam-asian-trip]
-    c: 'About to leave for Asia, Johnson calls Califano to his bedroom: "You''re going to be the President. ... We have to get all this legislation passed." He loads him up with instructions, and with cufflinks, lighters and an electric toothbrush, by Califano''s account.'
-    n: '[[w.bernstein-guns-or-butter]], 319. Check: the day; Bernstein gives "in 1966 when the President was about to leave for Southeast Asia." To check: Califano, Oral History Interview, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 319 n.1). Names: Johnson, Califano.'
+    c: 'About to leave for Asia, Johnson calls Califano to his bedroom: "You''re going to be the President. ... We have to get all this legislation passed."{2} He loads him up with instructions, and with cufflinks, lighters and an electric toothbrush, by Califano''s account.{3}'
+    cut_from:
+      '2': '1'
+      '3': '1'
+    n: '[[w.bernstein-guns-or-butter]], 319; [[w.califano-triumph-and-tragedy-of]], 150 (the presents, "just before he departed in a helicopter from the south lawn of the White House"; not the instructions). To check: Califano, Oral History Interview, LBJ Library (cited by [[w.bernstein-guns-or-butter]], 319 n.1). Names: Johnson, Califano.'
     src:
       c: 71b0179e
       rows:
-        - 'w.bernstein-guns-or-butter 319: all'
-        - 'via w.bernstein-guns-or-butter 319 n.1a: all'
+        - 'w.bernstein-guns-or-butter 319: 2, 3'
+        - 'via w.bernstein-guns-or-butter 319 n.1a: 2, 3'
+        - 'w.califano-triumph-and-tragedy-of 150: 3'
     tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr]
     time_range:
       - 1966-10-17T13:00Z
@@ -3203,8 +3209,10 @@ entries:
     date: '1966-10-20'
     place: washington
     thread: poverty
+    follows:
+      - cal.1966-10-20.cities-and-housing
     c: 'Economic Opportunity Amendments: the conference report through the House, [170–109](https://voteview.com/rollcall/RH0890386).'
-    n: 'The House sat from noon to 10:15 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D598](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=596). Check: the Record''s page. See [[cal.1966-09-29.poverty]].'
+    n: '[112 Cong. Rec. 28,141–78](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt21/pdf/GPO-CRECB-1966-pt21-1-2.pdf#page=56) (1966) (House, Oct. 20: Perkins calls up the conference report, 28,141; the vote, 28,178). The House sat from noon to 10:15 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D598](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=596). Order: after [[cal.1966-10-20.cities-and-housing|the Demonstration Cities vote]], by the Record''s pages: that vote at 28,139, this report called up at 28,141. See [[cal.1966-09-29.poverty]].'
     time_range:
       - 1966-10-20T16:00Z
       - 1966-10-21T02:15Z
@@ -3214,8 +3222,10 @@ entries:
     date: '1966-10-20'
     place: washington
     thread: economy-investment-credit
+    follows:
+      - cal.1966-10-20.school-aid
     c: The conference report on the suspension of the investment credit through the House, [161–76](https://voteview.com/rollcall/RH0890390).
-    n: 'The House sat from noon to 10:15 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D598](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=596). Check: the Record''s page. See [[cal.1966-09-08.economy]].'
+    n: '[112 Cong. Rec. 28,224–37](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt21/pdf/GPO-CRECB-1966-pt21-1-2.pdf#page=139) (1966) (House, Oct. 20: Mills calls up the conference report, 28,224; the recommittal and the vote, 28,237). The House sat from noon to 10:15 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D598](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=596). Order: after [[cal.1966-10-20.school-aid|the school-aid vote]], by the Record''s pages: that vote at 28,215, this report called up at 28,224. See [[cal.1966-09-08.economy]].'
     time_range:
       - 1966-10-20T16:00Z
       - 1966-10-21T02:15Z
@@ -3226,8 +3236,10 @@ entries:
     place: washington
     thread: school-aid
     also: [desegregation-schools]
+    follows:
+      - cal.1966-10-20.poverty
     c: 'Elementary and Secondary Education Amendments: the conference report through the House, [185–76](https://voteview.com/rollcall/RH0890388).'
-    n: 'The House sat from noon to 10:15 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D598](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=596). Check: the Record''s page. See [[cal.1966-10-06.school-aid]].'
+    n: '[112 Cong. Rec. 28,192–215](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt21/pdf/GPO-CRECB-1966-pt21-1-2.pdf#page=107) (1966) (House, Oct. 20: Perkins calls up the conference report, 28,192; the vote, 28,215). The House sat from noon to 10:15 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D598](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=596). Order: after [[cal.1966-10-20.poverty|the Economic Opportunity vote]], by the Record''s pages: that vote at 28,178, this report called up at 28,192. See [[cal.1966-10-06.school-aid]].'
     time_range:
       - 1966-10-20T16:00Z
       - 1966-10-21T02:15Z
@@ -3238,8 +3250,10 @@ entries:
     place: washington
     thread: program
     also: [congress]
+    follows:
+      - cal.1966-10-20.economy-investment-credit
     c: 'Long''s campaign fund: the conference report on the Foreign Investors Tax Act through the House, [171–46](https://voteview.com/rollcall/RH0890392).'
-    n: 'The House sat from noon to 10:15 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D598](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=596). Check: the Record''s page. See [[cal.1966-10-12.program]]. Names: Long.'
+    n: '[112 Cong. Rec. 28,240–55](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt21/pdf/GPO-CRECB-1966-pt21-1-2.pdf#page=155) (1966) (House, Oct. 20: Mills calls up the conference report, 28,240; the recommittal and the vote, 28,255). The House sat from noon to 10:15 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D598](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=596). Order: after [[cal.1966-10-20.economy-investment-credit|the investment-credit vote]], by the Record''s pages: that vote at 28,237, this report called up at 28,240. See [[cal.1966-10-12.program]]. Names: Long.'
     tags: [name:long-russell-b]
     time_range:
       - 1966-10-20T16:00Z
@@ -3251,7 +3265,7 @@ entries:
     place: washington
     thread: cities-and-housing
     c: 'The Demonstration Cities Act: the House agrees to the conference report, [142–126](https://voteview.com/rollcall/RH0890385).{1}'
-    n: '[[w.bernstein-guns-or-butter]], 467; [[w.dallek-flawed-giant]], 322 (the final votes: a 142 to 126 vote in the House; Dallek gives no day). The House sat from noon to 10:15 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D598](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=596). Check: the Record''s page. See [[cal.1966-10-14.cities-and-housing]].'
+    n: '[112 Cong. Rec. 28,112–39](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt21/pdf/GPO-CRECB-1966-pt21-1-2.pdf#page=27) (1966) (House, Oct. 20: Patman calls up the conference report, 28,112; the vote, 28,139). [[w.bernstein-guns-or-butter]], 467; [[w.dallek-flawed-giant]], 322 (the final votes: a 142 to 126 vote in the House; Dallek gives no day). The House sat from noon to 10:15 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D598](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=596). See [[cal.1966-10-14.cities-and-housing]].'
     src:
       c: 08e2f679
       rows:
@@ -3879,8 +3893,10 @@ entries:
     date: '1966-10-23'
     place: peking
     thread: china-leadership
+    follows:
+      - cal.1966-10-23.china-leadership-2
     c: Peking.{1} Liu Shaoqi and Deng Xiaoping make their self-criticisms at the Central Work Conference, taking the main responsibility for the "line error" in directing the Cultural Revolution.{2}
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 23, 1966. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 651 (Oct. 23, 1966; Liu makes his self-criticism speech at the Central Work Conference and takes responsibility for the "line error": in the fifty-odd days after June 1 he made a line error and a directional error in leading the proletarian cultural revolution, chiefly his responsibility; the responsibility of other comrades, those in Peking at the Center, some in the State Council, the Peking committee, the work groups and some localities, is a lesser one; before July 18 Mao was not in Peking and the Center''s daily work was presided over by him, the Peking cultural revolution was reported to meetings he presided over, at which some wrong decisions were made and wrong suggestions approved or agreed to); [[w.macfarquhar-maos-last-revolution]], 137–138 (Liu admits two sets of "errors," the summer''s "serious errors in line," "right-opportunistic in nature," and past errors in principle and line, chiefly the "right deviation" of 1962 and the tendency of 1964; he does not call himself a "revisionist." Deng''s is more personal in tone, endorses Lin Biao as Mao''s "assistant and successor," and is ready to call what he did with Liu in the summer a "bourgeois reactionary erroneous line"); [[w.macfarquhar-origins-of-the-cultural]], III, 344 (Liu in his confession: he did not know how the second ten points came about; Peng Zhen''s tour of seven provinces and report to Mao gave its ideas); [[w.deng-xiaoping-nianpu-1904]], III, 1933 (Oct. 23, 1966; Deng makes his self-criticism at the Central Work Conference; besides examining his so-called ''line error'' he says it must be made clear that the great majority of the work teams are good comrades, and that for the mistakes made in this work, except in a few cases, the chief responsibility should not be borne by them but by himself and Comrade Shaoqi); [[w.mao-zedong-zhuan]], VI, ch. 75 (Oct. 23 Liu Shaoqi and Deng Xiaoping, at the plenary session, make self-criticisms and of their own accord take responsibility for sending work teams and the like; their drafts had gone to Mao first, who welcomed them). [[w.yang-jisheng-tiandi-fanfu]], I, 300–302 (Oct. 23 in the plenary meeting of the conference Liu Shaoqi and Deng Xiaoping make their self-criticisms; Liu: "I wrongly judged the situation and took the normal phenomena of the mass movement for a ''counter-current against the Party and the proletarian dictatorship,'' and so stood on the reactionary bourgeois side and carried out the bourgeois line"; Deng: Mao''s "Bombard the Headquarters" "hit the point in a single needle," "hit my vital part," the work groups a form of an error whose substance is the line, the mass line, standing on the side against the revolutionary masses; Lin Biao is the model to learn from); [[w.jian-zhou-enlai]], 554 (Liu and Deng own "serious mistakes by carrying out bourgeois reactionary lines"; most present lukewarm, even resentful). Made public: 1996. To check: Liu Shaoqi, self-criticism at the Central Work Conference, Oct. 23, 1966 ([[w.pipan-ziliao]], III, 721–732) (cited by [[w.macfarquhar-maos-last-revolution]], 138 n.16); Deng Xiaoping, self-criticism at the Central Work Conference, Oct. 23, 1966 ([[w.wuchanjieji-wenhua-dageming-ziliao]], 684–687) (cited by [[w.macfarquhar-maos-last-revolution]], 138 n.17); Liu Shaoqi, confession of Oct. 1966, as published, in [[w.issues-and-studies-taipei]], 95–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 344 n.54); Liu Shaoqi, self-criticism at the Central Work Conference, Oct. 23, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 301 n.33); Deng Xiaoping, self-criticism at the Central Work Conference, Oct. 23, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 302 n.34); Liu Shaoqi''s and Deng Xiaoping''s self-criticism at the Central Work Conference, October 23, 1966, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.jian-zhou-enlai]], 554 n.45). Names: Liu Shaoqi, Deng Xiaoping.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 23, 1966. [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 651 (Oct. 23, 1966; Liu makes his self-criticism speech at the Central Work Conference and takes responsibility for the "line error": in the fifty-odd days after June 1 he made a line error and a directional error in leading the proletarian cultural revolution, chiefly his responsibility; the responsibility of other comrades, those in Peking at the Center, some in the State Council, the Peking committee, the work groups and some localities, is a lesser one; before July 18 Mao was not in Peking and the Center''s daily work was presided over by him, the Peking cultural revolution was reported to meetings he presided over, at which some wrong decisions were made and wrong suggestions approved or agreed to); [[w.macfarquhar-maos-last-revolution]], 137–138 (Liu admits two sets of "errors," the summer''s "serious errors in line," "right-opportunistic in nature," and past errors in principle and line, chiefly the "right deviation" of 1962 and the tendency of 1964; he does not call himself a "revisionist." Deng''s is more personal in tone, endorses Lin Biao as Mao''s "assistant and successor," and is ready to call what he did with Liu in the summer a "bourgeois reactionary erroneous line"); [[w.macfarquhar-origins-of-the-cultural]], III, 344 (Liu in his confession: he did not know how the second ten points came about; Peng Zhen''s tour of seven provinces and report to Mao gave its ideas); [[w.deng-xiaoping-nianpu-1904]], III, 1933 (Oct. 23, 1966; Deng makes his self-criticism at the Central Work Conference; besides examining his so-called ''line error'' he says it must be made clear that the great majority of the work teams are good comrades, and that for the mistakes made in this work, except in a few cases, the chief responsibility should not be borne by them but by himself and Comrade Shaoqi); [[w.mao-zedong-zhuan]], VI, ch. 75 (Oct. 23 Liu Shaoqi and Deng Xiaoping, at the plenary session, make self-criticisms and of their own accord take responsibility for sending work teams and the like; their drafts had gone to Mao first, who welcomed them). [[w.yang-jisheng-tiandi-fanfu]], I, 300–302 (Oct. 23 in the plenary meeting of the conference Liu Shaoqi and Deng Xiaoping make their self-criticisms; Liu: "I wrongly judged the situation and took the normal phenomena of the mass movement for a ''counter-current against the Party and the proletarian dictatorship,'' and so stood on the reactionary bourgeois side and carried out the bourgeois line"; Deng: Mao''s "Bombard the Headquarters" "hit the point in a single needle," "hit my vital part," the work groups a form of an error whose substance is the line, the mass line, standing on the side against the revolutionary masses; Lin Biao is the model to learn from); [[w.jian-zhou-enlai]], 554 (Liu and Deng own "serious mistakes by carrying out bourgeois reactionary lines"; most present lukewarm, even resentful); [[w.zhou-enlai-nianpu-1949-2020]], III, 80 (Zhou that day: the two self-criticisms "this afternoon at the meeting"). Made public: 1996. To check: Liu Shaoqi, self-criticism at the Central Work Conference, Oct. 23, 1966 ([[w.pipan-ziliao]], III, 721–732) (cited by [[w.macfarquhar-maos-last-revolution]], 138 n.16); Deng Xiaoping, self-criticism at the Central Work Conference, Oct. 23, 1966 ([[w.wuchanjieji-wenhua-dageming-ziliao]], 684–687) (cited by [[w.macfarquhar-maos-last-revolution]], 138 n.17); Liu Shaoqi, confession of Oct. 1966, as published, in [[w.issues-and-studies-taipei]], 95–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 344 n.54); Liu Shaoqi, self-criticism at the Central Work Conference, Oct. 23, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 301 n.33); Deng Xiaoping, self-criticism at the Central Work Conference, Oct. 23, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 302 n.34); Liu Shaoqi''s and Deng Xiaoping''s self-criticism at the Central Work Conference, October 23, 1966, in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.jian-zhou-enlai]], 554 n.45). Names: Liu Shaoqi, Deng Xiaoping.'
     src:
       c: e7fa82da
       rows:
@@ -3895,13 +3911,23 @@ entries:
         - 'via w.yang-jisheng-tiandi-fanfu I, 301 n.33: 1, 2'
         - 'via w.yang-jisheng-tiandi-fanfu I, 302 n.34: 1, 2'
         - 'w.jian-zhou-enlai 554: ?'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 80: time'
     tags: [name:liu-shaoqi, name:deng-xiaoping, polity:prc, vis:only:prc]
+    time_range:
+      - 1966-10-23T04:00Z
+      - 1966-10-23T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1966-10-23.china-leadership-2
     when: Oct. 23
     date: '1966-10-23'
     thread: china-leadership
-    c: 'Zhou Enlai calls the State Council''s vice-premiers and branch heads, the ministries'' Party-group secretaries and heads of the Center''s organs and the Military Commission, on easing the strain between the work groups and the students: the groups'' chief men to take responsibility; their errors are among the people. The Military Commission, Defense, Public Security and Foreign Affairs are not to open their posters and files to students.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 80 (Oct. 23, 1966). Made public: 2020. Names: Zhou Enlai.'
+    c: 'Zhou Enlai calls the State Council''s vice-premiers and branch heads, the ministries'' Party-group secretaries and heads of the Center''s organs and the Military Commission, on easing the strain between the work groups and the students: the groups'' chief men to take responsibility; their errors are among the people. The Military Commission, Defense, Public Security and Foreign Affairs are not to open their posters and files to students.{1} Two comrades make self-criticisms at the meeting this afternoon; he calls this urgent small meeting before it to forewarn them.{2}'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 80 (Oct. 23, 1966); [[w.zhou-enlai-nianpu-1949-2020]], III, 80. Made public: 2020. Names: Zhou Enlai.'
+    src:
+      c: 6de53aec
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 80: 2'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1966-10-23.china-leadership-3
     when: Oct. 23
@@ -3915,6 +3941,8 @@ entries:
     date: '1966-10-23'
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1966-10-23.china-leadership
     c: 'Within twenty-four hours of Liu''s and Deng''s self-criticisms the whole staff, about a hundred, of a section of the Central Committee''s Organization Department sign the first big-character poster to attack Deng Xiaoping by name, "Deng Xiaoping Is Also China''s Khrushchev!": it accuses him of deleting references to Mao Zedong Thought from the constitution of the Eighth Party Congress, of opposing organized study of Mao''s works among cadres and of promoting individual farming after the Great Leap disaster, and reveals for the first time that in 1962 he said the color of the cat does not matter so long as it catches mice.'
     n: '[[w.macfarquhar-maos-last-revolution]], 146. To check: [[w.dadao-deng-xiaoping]], 26–28 (cited by [[w.macfarquhar-maos-last-revolution]], 146 n.48). See [[cal.1966-10-21.china-leadership-4]]. Names: Deng Xiaoping, Mao Zedong. Check: the day, within a day of the self-criticisms of Oct. 23 (146).'
     src:
@@ -4307,6 +4335,8 @@ entries:
     date: '1966-10-25'
     place: peking
     thread: china-leadership
+    follows:
+      - cal.1966-10-25.china-leadership-5
     c: 'Peking.{1} Mao to the Central Work Conference, on the first and second fronts and on the Cultural Revolution.{2} After Stalin''s death Malenkov could not hold, and revisionism came; hence a first and a second front;{3} now it has bred "independent kingdoms," and the Eleventh Plenum changed it.{4} Before it he was on the second front, leaving daily work to others to build their standing;{5} he bears blame, for proposing the Secretariat and for trusting too much.{6} Peking could not carry out his views, so the Wu Han criticism began in Shanghai.{7} He lit the fire: one wall poster approved, a letter to the Tsinghua middle school Red Guards, a poster of his own;{8} the movement only five months old;{9} Liu Shaoqi and Deng Xiaoping not wholly to blame.{10} Of Deng: deaf, he sits far from him at meetings and never seeks him out.{11} Lin Biao speaks too;{12} Zhou Enlai, Deng and Ye Jianying there.{13}'
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Oct. 25, 1966. [[w.zhou-enlai-nianpu-1949-2020]], III, 81 (Oct. 25, 1966; Zhou at the plenary session of the Central Work Conference, where Lin Biao and Mao speak); [[w.macfarquhar-maos-last-revolution]], 136, 139 (Mao describes the statements of the conference''s initial stage as "not really that normal" and extends it; in his final address he admits that changes have come at a remarkably fast pace, asks "Who wants to topple you?" and hopes things will be a bit better after the "seventeen-day conference"); [[w.jianguo-yilai-mao-zedong]], XVIII, 374–382 (Oct. 25, 1966; Mao''s speech, printed from his revised copy; he also says he caused the trouble: approved one wall poster, wrote a letter to the Tsinghua middle school Red Guards, wrote a wall poster of his own; the movement only five months old, may need two five-month spells or more; Liu Shaoqi and Deng Xiaoping not wholly to blame; this conference took seventeen days; note 1: on Nov. 1 he revised Chen Boda''s record of it, "not to be issued for now"); [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94 (in October 1966 Mao quotes himself as having asked about revisionism appearing in "Beijing"); [[w.deng-xiaoping-nianpu-1904]], III, 1933–1934 (Oct. 25, 1966; Deng at the plenary session of the Central Work Conference Mao presides over; Mao says that before the Eleventh Plenum he stood in the second line, not running daily work, many things left to others, and those in the first line handled them not so well, and that the first-line, second-line system is now changed, the Peking question in the main settled; he also shows his dissatisfaction with Deng: Deng is deaf, at a meeting sits far from him and never seeks him out); [[w.mao-zedong-zhuan]], VI, ch. 75 nn.16, 21 (Oct. 25 Mao''s speech to the conference, the summing up, n.21: first the history of the first and second fronts, set up because after Stalin''s death Malenkov could not hold and revisionism came; he took the second front before the Eleventh Plenum so that others might gain standing among the masses and the country not be shaken when he went to see Marx; it had not gone well; now changed, but the Red Guards do not yet know; the alarm at the Twenty-three Articles; his warning in Sept. and Oct. of 1965 that Peking might go revisionist; ''Peking''s problem can now be said to be basically solved''; second, the cultural revolution, only five months old, perhaps two five-month periods more; ''the movement reached your own heads''; ''who wants to overthrow you? I do not, nor perhaps the Red Guards''; the first stage''s speeches abnormal, n.16). [[w.yang-jisheng-tiandi-fanfu]], I, 302–303 (Oct. 25 Mao to the conference: "if one wants the country safe: Stalin died, Malenkov could not hold, trouble came, revisionism came, they had set up a first front and a second front; now I think it not so good; I was on the second front, others on the first, and so it was scattered; coming into the city it was no longer concentrated; with a first and a second front came quite a few independent kingdoms"; "I too am responsible: first, I proposed the Secretariat, and the first and second fronts in the Standing Committee; then, I trusted others too much"; "the fire of the cultural revolution was lit by me, in great haste, only a few months; it does not run smoothly, there are conflicts, which is natural"; to the cadres: "if the line is wrong, correct it; who wants to overthrow you? I do not, and I think the Red Guards need not either"; after the conference Chen Boda''s report goes down, and Mao''s Aug. 5 poster is published to the whole Party and country); [[w.jian-zhou-enlai]], 554 (Mao: the Cultural Revolution only six months old, understandable that many fail to see its need; "revolutionary movements are naturally legitimate"); [[w.liu-jixian-ye-jianying-nianpu]], II, 947 (Oct. 25, 1966; Ye Jianying 叶剑英 at the conference''s plenary); [[w.pu-weihua-zalan-jiu-shijie]], 200, 200 n.19, 203 n.24 (before the Eleventh Plenum he was on the second line, and those on the first did not handle things so well; now the system of first and second lines has changed; after the last meeting some places held no meetings, others were thrown into disorder by the Red Guards). Made public: 2006. Check: the book calls it his final address to the conference (139); the chronology has the conference close Oct. 28. Check: whether Mao''s words of October 1966 the book cites ([[w.nianyi-da-dongluande-niandai]], 113) are this speech''s (III, 445 n.94). Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], VI, ch. 75), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]] or [[w.nianyi-da-dongluande-niandai]] or the 1997 edition of the Zhou chronology ([[w.zhou-enlai-nianpu-1949]]), cited here, prints it. To check: [[w.mao-zedong-sixiang-wan]], 275 (cited by [[w.macfarquhar-maos-last-revolution]], 136 n.11); [[w.xianzhi-mao-zedong-zhuan-1949]], II, 1451 (cited by [[w.macfarquhar-maos-last-revolution]], 139 n.24); Mao Zedong, address to the Central Work Conference, Oct. 25, 1966 ([[w.schoenhals-chinas-cultural-revolution-1966]], 5–9) (cited by [[w.macfarquhar-maos-last-revolution]], 139 n.25); Record of Mao Zedong''s speech of Oct. 25, 1966 at the Central Work Conference, sent to Mao by Chen Boda (Mao''s revisions and note of Nov. 1) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 378 n.1); [[w.nianyi-da-dongluande-niandai]], 113 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94c); Michael Schoenhals, communication to the author (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 445 n.94d); Mao Zedong 毛泽东, speech at the Central Work Conference 中央工作会议 (record 讲话记录), Oct. 25, 1966 (cited by [[w.mao-zedong-zhuan]], VI, ch. 75 n.21); Mao Zedong 毛泽东, speech at the Central Work Conference 中央工作会议 (record 讲话记录), Oct. 25, 1966 (cited by [[w.mao-zedong-zhuan]], VI, ch. 75 n.16); Mao Zedong, address to the Central Work Conference, Oct. 25, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 303 n.35); Mao''s speech at the Central Work Conference, October 25, 1966, in [[w.wenhua-dageming-yanjiu-ziliao]], I, 150–151 (cited by [[w.jian-zhou-enlai]], 554 n.46); [[w.zedong-jianguo-yilai-mao-zedong]], XII, 143 (1998) (cited by [[w.pu-weihua-zalan-jiu-shijie]], 200 n.19). Names: Mao Zedong, Wu Han, Liu Shaoqi, Deng Xiaoping, Lin Biao, Zhou Enlai, Ye Jianying.'
     src:
