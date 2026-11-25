@@ -1,8 +1,131 @@
 patch: 2026-11-25-sequence-1967-08
-by: 'Claude (Sonnet, sequence pass: R25c on August 1967), Nov. 25, 2026; notes/sequence/1967-08.md'
+by: 'Claude (Sonnet, sequence pass: R25c on August 1967), Nov. 25, 2026; audited and corrected by Claude (Opus, R25c, R33b), Nov. 25, 2026; notes/sequence/1967-08.md, notes/sequence/audit-1967-08.md'
 ops:
 - follows: {id: cal.1967-08-07.press-and-broadcasting, add: [cal.1967-08-07.vietnam]}
 - follows: {id: cal.1967-08-22.middle-east-3, add: [cal.1967-08-22.middle-east-2]}
 - follows: {id: cal.1967-08-26.china-leadership-4, add: [cal.1967-08-26.china-leadership]}
 - follows: {id: cal.1967-08-26.china-leadership-9, add: [cal.1967-08-26.china-leadership-8]}
 - follows: {id: cal.1967-08-28.china-leadership-7, add: [cal.1967-08-28.china-leadership-6]}
+- follows: {id: cal.1967-08-11.vietnam-congress-republicans, add: [cal.1967-08-11.robert-kennedy]}
+- follows:
+    id: cal.1967-08-08.vietnam-congress-2
+    remove: [cal.1967-08-08.vietnam-congress]
+    why: 'Gibbons, IV, 800, puts Johnson''s answer to Ford ("I am not going to do what Ford says") at the House Democrats'' briefing "the next day," Aug. 9; Berman, 60, 71, gives the Aug. 8 meeting no hour, and Ford had announced his break at a news conference before his speech. The record shows no order within Aug. 8.'
+- edit:
+    id: cal.1967-08-08.vietnam-congress-2
+    base: bf1e7f94
+    set:
+      n: '[[w.berman-lyndon-johnsons-war]], 60, 71. To check: Tom Johnson''s notes of the meeting of Aug. 8, 1967, LBJ Library (quoted by [[w.berman-lyndon-johnsons-war]], 71). See [[cal.1967-08-08.vietnam-congress]]. Names: Johnson, Wolff, Ford, Hồ Chí Minh, Tom Johnson. Check: the day: [[w.gibbons-u-s-government-and]], IV, 800, puts Johnson''s words "I am not going to do what Ford says, because we would be in a war with China tonight" at a briefing for House Democrats "the next day," Aug. 9, by Tom Johnson''s notes of Aug. 9; Berman, 60, 71, gives the same words on Aug. 8. The two entries may be one meeting, that of Aug. 9, 9:02 a.m.'
+- edit:
+    id: cal.1967-08-26.china-leadership-9
+    base: c0323a21
+    set:
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 669. After [[cal.1967-08-26.china-leadership-8|the call]]: Zhu "put down the telephone" and at once called the meeting (II, 669). Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+- edit:
+    id: cal.1967-08-28.china-leadership-7
+    base: 215be219
+    set:
+      n: '[[w.yang-jisheng-tiandi-fanfu]], II, 673. The words: 回來當晚 (II, 673). After [[cal.1967-08-28.china-leadership-6|the commune''s meeting]]: He came back from it and called his own meeting that evening (II, 673). Made public: 2010 (Tan Hecheng, *Xue de shenhua*, by its catalogue record). To check: Tan Hecheng 譚合成, *Xue de shenhua: gongyuan 1967 nian Hunan Daoxian da tusha jishi* 《血的神話——公元1967年湖南道縣大屠殺紀實》 (Tiandi tushu, Hong Kong) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 667 n.t1).'
+- edit:
+    id: cal.1967-08-22.middle-east-3
+    base: 441a7bad
+    set:
+      n: '[[w.johnson-white-house-diary]], 560–63. After [[cal.1967-08-22.middle-east-2|the arrival]]: Lady Bird Johnson''s diary has the arrival "almost on the dot of 5," then Johnson''s talk with the Shah in the office, then the State Dinner ([[w.johnson-white-house-diary]], 559–60). To check: the Public Papers, 1967, Aug. 22. Names: Pahlavi, Johnson, Lady Bird Johnson, Lilienthal.'
+- edit:
+    id: cal.1967-08-11.vietnam-congress-republicans
+    base: ea2c7c9a
+    kind: correct
+    set:
+      c: 'Case and Cooper in the Senate on the 45,000 more troops: the South Vietnamese must do more. Case: "is the Johnson administration blind to the signs of growing public unrest about Vietnam? Is it deaf to the cautionary advice of Members of Congress?"'
+      n: '[[w.gibbons-u-s-government-and]], IV, 758. The Record reads "cautionary advice" ([113 Cong. Rec. 22,362](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=15)); Gibbons, 758, "continuing advice." After [[cal.1967-08-11.robert-kennedy|Robert Kennedy]]: the Record prints Case''s speech, recognized under the order of business, after Kennedy''s speech and its colloquy (22,352–60) and Young''s on the antiballistic missile (22,360–62). The Senate sat from noon to 6:28 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=1), [D410](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=408). To check: [113 Cong. Rec. 22,362–64](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt17/pdf/GPO-CRECB-1967-pt17-2-1.pdf#page=15) (Senate, Aug. 11, 1967) (cited by [[w.gibbons-u-s-government-and]], IV, 758 n.134). See [[cal.1967-08-11.vietnam-congress]]. Names: Case, Cooper.'
+- check: {id: cal.1967-08-11.vietnam-congress, text: 'Check: Case''s question is from his own speech on the troops, recognized under the order of business after Kennedy''s and Young''s (113 Cong. Rec. 22,362), the Case and Cooper entry of this day, not from the Javits debate; McGovern''s words (22,355) come in Kennedy''s time.'}
+- edit:
+    id: cal.1967-08-01.program
+    base: 90f37478
+    set:
+      time_range: ['1967-08-01T10:00Z', '1967-08-01T16:00Z']
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+- edit:
+    id: cal.1967-08-03.china-leadership
+    base: 2ba9e860
+    set:
+      time_range: ['1967-08-03T04:00Z', '1967-08-03T10:00Z']
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-08-06.china-leadership-2
+    base: d5869188
+    set:
+      time_range: ['1967-08-06T11:00Z', '1967-08-06T14:00Z']
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-08-12.china-leadership
+    base: 9a477adf
+    set:
+      time_range: ['1967-08-11T16:00Z', '1967-08-11T22:00Z']
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-08-14.china-leadership-2
+    base: 47e8fbfc
+    set:
+      time_range: ['1967-08-13T16:00Z', '1967-08-13T22:00Z']
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-08-16.china-leadership-4
+    base: 39c78daa
+    set:
+      time_range: ['1967-08-15T16:00Z', '1967-08-15T22:00Z']
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-08-24.china-leadership
+    base: af5e5a93
+    set:
+      time_range: ['1967-08-23T16:00Z', '1967-08-23T22:00Z']
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-08-25.china-leadership-4
+    base: 5a22418c
+    set:
+      time_range: ['1967-08-25T14:00Z', '1967-08-25T16:00Z']
+      time_band: night
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-08-26.china-leadership-2
+    base: c5d498ed
+    set:
+      time_range: ['1967-08-25T16:00Z', '1967-08-25T22:00Z']
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-08-29.china-leadership
+    base: 9fc76799
+    set:
+      time_range: ['1967-08-29T04:00Z', '1967-08-29T10:00Z']
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-08-25.china-leadership-3
+    base: 1b9cdfe9
+    set:
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1967-08-26.china-leadership
+    base: 75f471fc
+    set:
+      time_zone: Asia/Shanghai

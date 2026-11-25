@@ -1,12 +1,11 @@
 patch: 2026-11-25-sequence-1963-06
-by: 'Claude (Sonnet, sequence pass: R25c on June 1963), Nov. 25, 2026; notes/sequence/1963-06.md'
+by: 'Claude (Sonnet, sequence pass: R25c on June 1963), Nov. 25, 2026; audited by Claude (Opus), Nov. 25, 2026; notes/sequence/1963-06.md, notes/sequence/audit-1963-06.md'
 ops:
 - follows: {id: cal.1963-06-01.civil-rights-bill-2, add: [cal.1963-06-01.civil-rights-bill]}
 - follows: {id: cal.1963-06-02.china-leadership, add: [cal.1963-06-02.china-leadership-2]}
 - follows: {id: cal.1963-06-03.civil-rights-bill, add: [cal.1963-06-03.civil-rights-bill-3]}
 - follows: {id: cal.1963-06-07.civil-rights-bill-2, add: [cal.1963-06-07.civil-rights-bill]}
 - follows: {id: cal.1963-06-09.testing, add: [cal.1963-06-09.civil-rights-the-executive-us]}
-- follows: {id: cal.1963-06-11.civil-rights-bill-2, add: [cal.1963-06-11.alabama]}
 - follows: {id: cal.1963-06-11.civil-rights-bill-4, add: [cal.1963-06-11.civil-rights-bill-2]}
 - follows: {id: cal.1963-06-11.civil-rights-bill, add: [cal.1963-06-11.civil-rights-bill-4]}
 - follows: {id: cal.1963-06-11.king, add: [cal.1963-06-11.civil-rights-bill]}
@@ -15,13 +14,95 @@ ops:
 - follows: {id: cal.1963-06-19.china-leadership, add: [cal.1963-06-19.china-leadership-4]}
 - follows: {id: cal.1963-06-23.china-leadership-4, add: [cal.1963-06-23.china-leadership]}
 - follows: {id: cal.1963-06-25.china-leadership-8, add: [cal.1963-06-25.china-leadership-6]}
-- follows: {id: cal.1963-06-26.berlin-and-vienna-5, add: [cal.1963-06-26.berlin-and-vienna]}
 - follows: {id: cal.1963-06-26.europe-and-the-alliance-kennedy-in, add: [cal.1963-06-26.berlin-and-vienna, cal.1963-06-26.berlin-and-vienna-5]}
 - follows: {id: cal.1963-06-26.europe-and-the-alliance-kennedy-in-2, add: [cal.1963-06-26.europe-and-the-alliance-kennedy-in]}
+- follows: {id: cal.1963-06-27.europe-and-the-alliance-kennedy-in-2, add: [cal.1963-06-27.europe-and-the-alliance-kennedy-in]}
+- follows: {id: cal.1963-06-27.europe-and-the-alliance-kennedy-in-3, add: [cal.1963-06-27.europe-and-the-alliance-kennedy-in-2]}
+- follows: {id: cal.1963-06-27.europe-and-the-alliance-kennedy-in-4, add: [cal.1963-06-27.europe-and-the-alliance-kennedy-in-3]}
 - follows: {id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-2, add: [cal.1963-06-28.europe-and-the-alliance-kennedy-in]}
+- follows: {id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-3, add: [cal.1963-06-28.europe-and-the-alliance-kennedy-in-2]}
+- follows: {id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-5, add: [cal.1963-06-28.europe-and-the-alliance-kennedy-in-3]}
 - follows: {id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-6, add: [cal.1963-06-28.europe-and-the-alliance-kennedy-in-5]}
 - follows: {id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-7, add: [cal.1963-06-28.europe-and-the-alliance-kennedy-in-6]}
 - follows: {id: cal.1963-06-29.europe-and-the-alliance-kennedy-in, add: [cal.1963-06-29.europe-and-the-alliance-kennedy-in-2]}
 - follows: {id: cal.1963-06-29.europe-and-the-alliance-kennedy-in-3, add: [cal.1963-06-29.europe-and-the-alliance-kennedy-in]}
 - follows: {id: cal.1963-06-29.europe-and-the-alliance-kennedy-in-4, add: [cal.1963-06-29.europe-and-the-alliance-kennedy-in-3]}
 - follows: {id: cal.1963-06-29.europe-and-the-alliance-kennedy-in-europe, add: [cal.1963-06-29.europe-and-the-alliance-kennedy-in-4]}
+- edit:
+    id: cal.1963-06-01.civil-rights-bill-2
+    base: 7beaae4f
+    set:
+      n: '[[w.caro-passage-of-power]], 258; [[w.risen-bill-of-the-century]], 57–58 (Johnson asks O''Donnell for a fifteen-minute meeting with the President; O''Donnell says no; not "alone" or the official''s words); [[w.purdum-idea-whose-time-has-2014]], 39 (Johnson asks O''Donnell for a meeting with the President, is refused, and turns to Schlei; not the words nor the day). The meeting: [[cal.1963-06-03.civil-rights-bill]]. After [[cal.1963-06-01.civil-rights-bill|the meeting]]: Johnson asked O''Donnell "at the end of the June 1 meeting" ([[w.whalen-longest-debate]], 76). Check: Risen, 57, puts the request "the Saturday before" the White House meeting he dates June 1, that is, May 25. Names: Johnson, O''Donnell.'
+- edit:
+    id: cal.1963-06-03.civil-rights-bill
+    base: 29ba7f9f
+    set:
+      n: '[[w.dallek-flawed-giant]], 37 (from the conversation in the Vice Presidential Papers, Civil Rights, LBJ Library); [[w.caro-passage-of-power]], 258–61 (the call: not seen the bill, the timing, the President''s moral commitment; before it, a 10 a.m. meeting on the bill in the Oval Office, Kennedy asking Johnson to give Sorensen his views); [[w.mann-walls-of-jericho]], 360–63 (recorded by Dictaphone; the South first, the moral issue face to face; Russell to be consulted, and the Republicans); [[w.shesol-mutual-contempt]], 100–102 (the call, from the Dictaphone recording''s transcript: "we haven''t passed anything yet"; the timing); [[w.kotz-judgment-days]], 61 ("if he goes down there and looks them in the eye and states the moral issue and the Christian issue, and he does it face to face"); [[w.whalen-longest-debate]], 77 ("you haven''t done your homework on public sentiment"); [[w.risen-bill-of-the-century]], 58–59 (Johnson to Sorensen: Gettysburg-style speech in the South, the tax bill first, Russell; "I got it from the New York Times"; not the quotation in A); [[w.purdum-idea-whose-time-has-2014]], 39, 162 (Sorensen''s call of June 3 and Johnson''s advice: more soundings in Congress, the rest of the program passed first, a major speech in the South; not "I''ve never seen it" (Purdum has "I haven''t seen it" at the meeting of June 1, 39)). [[w.reeves-president-kennedy]], 504–505; [[w.branch-pillar-of-fire]], 93–95. White OH, LBJ Library; Johnson''s conversation with Sorensen, June 3, 1963, Vice Presidential Papers: Civil Rights, LBJ Library; Norbert Schlei to Robert Kennedy, June 4, 1963, Attorney General''s Papers, JFK Library; Johnson to Sorensen, June 10, 1963, Theodore Sorensen Papers, JFK Library (cited by [[w.dallek-flawed-giant]], 37); Transcript of dictaphone recording, Johnson–Sorensen, June 3, 1963, Johnson Library (cited by [[w.reeves-president-kennedy]], 504). After [[cal.1963-06-03.civil-rights-bill-3|the meeting with the leaders]]: Johnson''s silence "at the White House meeting that morning," then Schlei''s visit; "Next, Ted Sorensen telephoned" ([[w.whalen-longest-debate]], 76–77). Names: Johnson, Sorensen.'
+- edit:
+    id: cal.1963-06-11.vietnam
+    base: 89e2fd25
+    set:
+      n: 'FRUS 1961–63, III, docs. [163](https://history.state.gov/historicaldocuments/frus1961-63v03/d163), [164](https://history.state.gov/historicaldocuments/frus1961-63v03/d164). [[w.miller-misalliance]], 270–73; [[w.gibbons-u-s-government-and]], II, 144 (the first self-immolation, June 11); [[w.schulimson-joint-chiefs-of-staff]], 314; [[w.futrell-united-states-air-force]], 186 (the burning, June 11); [[w.moyar-triumph-forsaken]], 220–21; [[w.bernstein-guns-or-butter]], 327 (Browne tipped off in advance; the photograph on the front pages the next day); [[w.sorensen-kennedy]], 657 (monks burning themselves to death); [[w.selverstone-kennedy-withdrawal]], 133 (Quảng Đức''s self-immolation, June 11); [[w.ball-past-has-another-pattern]], 370 (Quang Duc pours gasoline over his head and burns himself to death on a crowded Saigon street, other bonzes in a circle around him; no day; not the photograph); [[w.lich-su-khang-chien-chong-my]], III, 310 (Thích Quảng Đức, in Saigon, June 11). The hour: "At ten o''clock" ([[w.moyar-triumph-forsaken]], 220). To check: [[w.browne-new-face-of-war]]; [[w.browne-muddy-boots-and-red]]; [[w.prochnau-once-upon-a-distant]]; [[w.king-they-who-burned-themselves]]; [[w.biggs-dying-without-killing]]; Miller''s interview with Malcolm Browne, Oct. 2009 (cited by [[w.miller-misalliance]], 271 n.84); Martin and Clever, III, 65–70 (cited by [[w.futrell-united-states-air-force]], 186 n.5a); msg, CINCPAC to MACV, Jun 5, 1963 (cited by [[w.futrell-united-states-air-force]], 186 n.5b). See [[cal.1963-05-08.vietnam]]. Names: Thích Quảng Đức, Browne.'
+      time: 1963-06-11T02:00Z
+      time_zone: Asia/Ho_Chi_Minh
+- edit:
+    id: cal.1963-06-16.vietnam-2
+    base: 6483ab93
+    set:
+      n: '[FRUS 1961–63, III, doc. 177](https://history.state.gov/historicaldocuments/frus1961-63v03/d177) (the riot near the Xá Lợi pagoda from about 9:15 to 11 a.m.; the communiqué read over the radio that morning). [[w.lich-su-khang-chien-chong-my]], III, 312. After [[cal.1963-06-16.vietnam|the joint communiqué]]: the riot "just a few hours after" the accord was announced ([[w.moyar-triumph-forsaken]], 222). Names: Thích Quảng Đức.'
+      time: 1963-06-16T01:15Z
+      time_approx: true
+      time_zone: Asia/Ho_Chi_Minh
+    unset:
+    - time_range
+    - time_band
+- edit:
+    id: cal.1963-06-27.europe-and-the-alliance-kennedy-in-2
+    base: 44944b16
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 413 (O''Donnell''s and Powers''s account). After [[cal.1963-06-27.europe-and-the-alliance-kennedy-in|McCloskey]]: McCloskey waiting "when we came downstairs," then the talk with Lemass, in the authors'' account of the morning ([[w.odonnell-johnny-we-hardly-knew]], 412–13). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy.'
+- edit:
+    id: cal.1963-06-27.europe-and-the-alliance-kennedy-in-3
+    base: 01d827b0
+    set:
+      n: 'Remarks on the Quay at New Ross, [1963 Pub. Papers 531](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=589) (June 27, 1963). [[w.odonnell-johnny-we-hardly-knew]], 413 (O''Donnell''s and Powers''s account). After [[cal.1963-06-27.europe-and-the-alliance-kennedy-in-2|the talk with Lemass]]: "After the President had a talk with Sean Lemass," the helicopters to New Ross ([[w.odonnell-johnny-we-hardly-knew]], 413). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy.'
+- edit:
+    id: cal.1963-06-27.europe-and-the-alliance-kennedy-in-4
+    base: 8514d35e
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 414–15 (O''Donnell''s and Powers''s account). After [[cal.1963-06-27.europe-and-the-alliance-kennedy-in-3|New Ross]]: "Then we were on our way" to the cottage ([[w.odonnell-johnny-we-hardly-knew]], 413). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy, Powers, Eunice Shriver.'
+- edit:
+    id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-2
+    base: b5005ba3
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 415 (O''Donnell''s and Powers''s account). After [[cal.1963-06-28.europe-and-the-alliance-kennedy-in|Cork]]: "We flew back to Dublin for a luncheon" ([[w.odonnell-johnny-we-hardly-knew]], 415). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy.'
+- edit:
+    id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-3
+    base: a2c3fbaa
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 415–16 (O''Donnell''s and Powers''s account). After [[cal.1963-06-28.europe-and-the-alliance-kennedy-in-2|the luncheon]]: "From the luncheon," to Arbour Hill ([[w.odonnell-johnny-we-hardly-knew]], 415). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy.'
+- edit:
+    id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-5
+    base: 8a572afc
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 417 (O''Donnell''s and Powers''s account). After [[cal.1963-06-28.europe-and-the-alliance-kennedy-in-3|Arbour Hill]]: the address to the Parliament "later that Friday afternoon" ([[w.odonnell-johnny-we-hardly-knew]], 416), then "When we left the Dail" (417). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy, O''Donnell, Daley, Mansfield.'
+- edit:
+    id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-6
+    base: 6bcfa997
+    set:
+      n: 'Remarks at a Civic and Academic Reception in St. Patrick''s Hall, Dublin Castle, [1963 Pub. Papers 539](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=597) (June 28, 1963). [[w.odonnell-johnny-we-hardly-knew]], 417–18 (O''Donnell''s and Powers''s account). After [[cal.1963-06-28.europe-and-the-alliance-kennedy-in-5|leaving the Dail]]: "The President then hurried to Dublin Castle" ([[w.odonnell-johnny-we-hardly-knew]], 417). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy.'
+- edit:
+    id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-7
+    base: 60e6c953
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 418–19 (O''Donnell''s and Powers''s account). After [[cal.1963-06-28.europe-and-the-alliance-kennedy-in-6|Dublin Castle]]: "That evening" ([[w.odonnell-johnny-we-hardly-knew]], 418). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy.'
+- edit:
+    id: cal.1963-06-29.europe-and-the-alliance-kennedy-in-3
+    base: 19faf05d
+    set:
+      n: 'Remarks at a Reception in Limerick, [1963 Pub. Papers 541](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=599) (June 29, 1963). [[w.odonnell-johnny-we-hardly-knew]], 420–21 (O''Donnell''s and Powers''s account). After [[cal.1963-06-29.europe-and-the-alliance-kennedy-in|Galway]]: "On the way to Shannon, we made two stops," Galway and then Limerick ([[w.odonnell-johnny-we-hardly-knew]], 419–20). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy, O''Donnell.'
+- edit:
+    id: cal.1963-06-29.europe-and-the-alliance-kennedy-in-4
+    base: 699f0265
+    set:
+      n: 'Remarks at Shannon Airport Upon Leaving for England, [1963 Pub. Papers 542](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=600) (June 29, 1963). [[w.odonnell-johnny-we-hardly-knew]], 421–22 (O''Donnell''s and Powers''s account). After [[cal.1963-06-29.europe-and-the-alliance-kennedy-in-3|Limerick]]: the helicopter "from the racecourse park in Limerick for the short hop to Shannon Airport" ([[w.odonnell-johnny-we-hardly-knew]], 421). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy. Check: the Papers'' notes have Limerick at 1:30 p.m. and Shannon at 1:15 p.m.; O''Donnell (421) has Limerick first.'
