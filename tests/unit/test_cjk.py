@@ -399,3 +399,9 @@ def test_dotted_transliteration(text, want):
     from bib import cjk
     assert cjk.drop(text) == want
     assert cjk.drop(want) == want                       # STYLE 6: a line already dropped is not changed
+
+
+def test_the_name_dot_between_characters_is_shown_full_width():
+    from bib import markup
+    assert markup.to_html('under "Babaka Niang" 巴巴卡·尼昂; a · b') == 'under "Babaka Niang" 巴巴卡・尼昂; a · b'
+    assert markup.to_html('[阿里·坦布维](https://e.com/a·b)') == '<a href="https://e.com/a·b">阿里・坦布维</a>'
