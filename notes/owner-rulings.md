@@ -52,6 +52,7 @@ Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every 
 | 48 | The Nov. 24 requests not yet placed | not a question |
 | 49 | For the owner to procure | not a question |
 | 50 | Entries made from a fragment of a story (a headline, a cut-off column) | settled by the owner, Nov. 24: not entered (R18a) |
+| 51 | A work's page, a note on the page, and the two together: one source or three citations | settled by the owner, Nov. 24: three citations, each with its meaning |
 
 Counts: wholly settled 4 (7, 10, 11, 25); defaults taken 20, seven of them with parts settled (5, 6, 9, 12, 15, 17, 27); not a question 6 (1, 3, 8, 24, 28, 29). Items 37–49 (added for passages the script missed): wholly settled 4 (39, 40, 43, 47); defaults taken 7, six with parts settled (37, 38, 41, 42, 44, 45) and one whole (46); not a question 2 (48, 49).
 
@@ -473,3 +474,11 @@ The default taken: each is an entry. R0 and R15a say a report dates what it repo
 Where it applies: any clipping that shows part of a story. If the owner rules the other way, the two entries are struck and such fragments go to the leads file.
 
 **Settled by the owner, Nov. 24, 2026, about 6:55 p.m. PT**, the other way: "if I appear to have *intentionally* declined to give them a full item, they should take that as a defeasible sign that I don't want them to write up the matter the omitted item contains." The rule is the reader's brief, R18a. The two entries are struck (patch `inbox/merged/2026-11-24-nyt-fragments-struck.yaml`); their ids, cal.1960-07-04.civil-disorders and cal.1960-07-04.cyprus-3, are not to be used again. Such fragments are not filed as leads either.
+
+## 51. notes/proposals/claims-model.md, (f) 3 and (h) 3 ("A page and its note as one source")
+
+The question: where one sentence of an entry cites a work's page and the next cites the page with a note on it (or the note alone), are the two sentences differently sourced, each with its own footnote?
+
+The default taken on Nov. 24, from the two reviews of the claims design: no; a page and its note counted as one source when neighbours were compared, and 69 entries lost a mark.
+
+**Settled by the owner, Nov. 24, 2026, about 7:30 p.m. PT**, the other way: "Reverse the change. These aren't 'footnotes that all say the same thing,' as I understand it. The citations on these entries may have been misentered, but, as written, I understand 'A', 'A n.X', and 'A; A n.X' all to be valid citations, with distinct meanings." Reversed the same evening (`tools/bib/footnotes.py`, STYLE 11). The page: the work's own text supports the words. The note: the record the work's note cites supports them. Both: each does. The 69 entries are listed in `notes/claims/page-note-one.tsv` for a reader to check that their rows were entered as meant.

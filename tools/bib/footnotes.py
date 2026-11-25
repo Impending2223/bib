@@ -51,10 +51,10 @@ STYLE
     entries also get the full footnote treatment?") set them by apply() and notes_html(), the calendar's own: the
     Threads pages through the calendar's renderer (threads.py), the Names' Life paragraphs (lives.py), whose anchors
     carry the person's key (an entry two persons of one page give, each its own).
-11. A work's page and a note on that page are one source when neighbouring units are compared
-    (notes/proposals/claims-model.md, (f) 3; ruling 35f): a unit that cites "88" and the next that cites "88 & n.32
-    (citing ...)", or the note alone, make one run, under the fuller citation, with the page where either unit cites
-    it. Two different notes of one page stay two sources. The registry and the map keep the rows apart.
+11. A work's page ("88"), a note on that page ("88 n.32") and the page with its note ("88 & n.32") are three citations
+    with three meanings, and neighbouring units that differ in them are differently sourced: each run takes its own
+    mark (the owner, Nov. 24, 2026: "as written, I understand 'A', 'A n.X', and 'A; A n.X' all to be valid citations,
+    with distinct meanings", reversing a change of the same day that had counted a page and its note as one source).
 12. A source cited for a field alone (claims.py, STYLE 9: the entry's date, hour or place, facts with no words in the
     line) takes no mark; it closes the first footnote, where the day's label's items go, or stays in the one block
     where the entry has no footnotes (rulings 35g, 2).
@@ -63,8 +63,6 @@ import collections
 import re
 
 from . import claims, witnesses
-
-PAGE_NOTE_ONE = True                      # STYLE 11
 
 # the day's label: the chamber's sitting ("The Senate sat from noon to 8:05 p.m.: [Daily Digest, D3](…)"); a label
 # of one fact ("After the NSC: …") stays with the sources no row names, at the end (STYLE 3)
@@ -251,11 +249,7 @@ def _cites(series, e):
             ns = (f"n.{nums[0]}" if len(nums) == 1 else "nn." + ", ".join(nums))
         what = "; ".join(dict.fromkeys(_citing(r, cited) for r in recs))
         p = (f"{pin} & {ns}" if joined else f"{pin} {ns}") if ns else str(pin)
-        d = dict(kind="card", key=key, pin=p, paren=f"(citing {what})", text=f"[[{key}]], {p} (citing {what})",
-                 base=str(pin), notes=tuple(str(nt) for nt in notes), joined=joined)
-        if not joined:                           # the form it takes where a neighbouring unit cites the page (STYLE 11)
-            d["alt"] = via(key, pin, notes, True)
-        return d
+        return dict(kind="card", key=key, pin=p, paren=f"(citing {what})", text=f"[[{key}]], {p} (citing {what})")
 
     per, unread = [], {}
     for i, unit in enumerate(us):
@@ -398,29 +392,6 @@ def shared(runs, mode=REPEAT, k=COMMON):
     return [runs[0]] + [[key, last, [sup] + [x for x in cites if _ck(x) not in common]] for key, last, cites in runs[1:]]
 
 
-def _one(a, b):
-    """Two neighbouring units' sources as one list, where they differ only in that one cites a work's page and the
-    other a note on that page, or the page with the note (STYLE 11); else None."""
-    if len(a) != len(b):
-        return None
-    out = []
-    for x, y in zip(a, b):
-        if (x["kind"], x["key"], x["pin"]) == (y["kind"], y["key"], y["pin"]):
-            out.append(x)
-            continue
-        if x["kind"] != "card" or y["kind"] != "card" or x["key"] != y["key"]:
-            return None
-        if x.get("base", x["pin"]) != y.get("base", y["pin"]):
-            return None
-        nx, ny = x.get("notes"), y.get("notes")
-        if nx is not None and ny is not None and nx != ny:
-            return None                        # two notes of one page: two sources
-        full = x if nx is not None else y
-        page = nx is None or ny is None or x.get("joined") or y.get("joined")     # a unit cites the page itself
-        out.append(full if full.get("joined") or not page else full["alt"])
-    return out
-
-
 def build(series, e, _probe=False):
     """None where the entry is shown as before (STYLE 2); else (groups, notes, rest): groups, the index of each run's
     last unit and its footnote's number; notes, each footnote's markup; rest, the note's other sentences."""
@@ -434,12 +405,8 @@ def build(series, e, _probe=False):
     runs = []
     for i in range(len(us)):
         key = [(x["kind"], x["key"], x["pin"]) for x in per[i]]
-        one = _one(runs[-1][2], per[i]) if runs and PAGE_NOTE_ONE else None
         if runs and runs[-1][0] == key:
             runs[-1][1] = i
-        elif one is not None:                  # a page and its note, one source (STYLE 11)
-            runs[-1][1:] = [i, one]
-            runs[-1][0] = [(x["kind"], x["key"], x["pin"]) for x in one]
         else:
             runs.append([key, i, per[i]])
     if tail:
