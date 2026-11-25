@@ -1,5 +1,7 @@
 # *Mao Zedong nianpu, 1949–1976* (2013): the PRC skeleton, 1960–69
 
+**The copy (checked Nov. 24, 2026).** Drive id `1ch6UXFFBQiWlpRwvFjUhVyGw-CyDKgxy`, an EPUB. Its file name says "年月目录" (index by year and month); the file is the whole chronology, 123 parts and about 4 million characters, to 1976, not a table of contents. How to read it: `notes/guide/reading-a-copy.md`, "Files whose names mislead" and recipe 6.
+
 Card `w.zedong-mao-zedong-nianpu`. Read Nov. 14, 2026, from the owner's Drive epub of the publisher's nine-volume set (the 1893–1949 revised edition and the 1949–1976 set; the 1949–1976 set's volumes in the epub are the first to fifth, the sixth separate), one section a reader and a span of years, in the order of the span. Cited by volume (Roman) and the day, as the October 1962 pilot did.
 
 

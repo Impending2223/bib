@@ -24,6 +24,11 @@ Try these in order.
 3. `./bib works show w.<card>`: the card's note may name the file.
 4. The Drive search tool. Load it with ToolSearch (`select:mcp__Google_Drive__search_files`). Search by title, in the work's own script too, with `excludeContentSnippets: true`: `title contains '杨尚昆' or title contains 'Yang Shangkun'`. The result gives each file's id and size.
 
+### Files whose names mislead
+
+- **The Mao nianpu** (`w.zedong-mao-zedong-nianpu`): Drive id `1ch6UXFFBQiWlpRwvFjUhVyGw-CyDKgxy`, an EPUB of 5.6 MB. Its file name contains "年月目录" ("index by year and month"). That names the EPUB's navigation, not its content. The file is the whole chronology: 123 parts, about 4 million characters, running to 1976 (checked Nov. 24, 2026). It is not "only a table of contents". Fetch it with the curl line below, unzip it, and find the day under its year and month (recipe 6, "An EPUB"); a day is written "7月16日" under the year's heading, so search for the month and day, not the full date.
+- A card's Drive id is in `notes/drive-cards-2026-11-25.tsv` (card, id) where the inventory of Nov. 25 found the file; ids are never written into a card's note, which the site prints.
+
 ## 3. Get the file onto disk, whatever its size
 
 Use curl on Drive's download address with the file's id. This works for every file in the owner's shared folder. It worked on the first try for files of 20, 24, 25 and 69 MB.
