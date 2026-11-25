@@ -234,3 +234,15 @@ def test_renew_writes_the_hash_where_the_numbers_hold():
     assert not cuts.renew(lost) and lost["src"]["c"] == "00000000"
     letters = {"id": "cal.1961-01-01.z", "c": "One. Two.", "src": {"c": "00000000", "rows": ["w.x 12: A"]}}
     assert not cuts.renew(letters)
+
+
+def test_follows_remove_needs_a_reason_and_a_link_that_is_there():
+    from tools.bib import addops
+    e = {"id": "cal.1961-01-01.b", "follows": ["cal.1961-01-01.a", "cal.1961-01-01.c"]}
+    new, err = addops.follows(e, {"remove": ["cal.1961-01-01.a"], "why": "the same hour"})
+    assert err is None and new["follows"] == ["cal.1961-01-01.c"]
+    assert addops.follows(e, {"remove": ["cal.1961-01-01.a"]})[1]
+    assert addops.follows(e, {"remove": ["cal.1961-01-01.x"], "why": "w"})[1]
+    new, err = addops.follows({"id": "cal.1961-01-01.b", "follows": ["cal.1961-01-01.a"]},
+                              {"remove": ["cal.1961-01-01.a"], "why": "w"})
+    assert err is None and "follows" not in new

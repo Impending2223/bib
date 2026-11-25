@@ -1,0 +1,11 @@
+patch: 2026-11-25-sequence-struck
+by: Claude (the orchestrating session), from two Opus audits of the sequence pass (notes/sequence/audit-1960-07.md, audit-1961-04.md), which found these links in the tree wrong and could not take them out by an additive op
+ops:
+  - follows:
+      id: cal.1960-07-15.elections-1960-3
+      remove: [cal.1960-07-15.elections-1960]
+      why: 'Joseph Kennedy watches the acceptance as it is given: the same hour, no order (R25c)'
+  - follows:
+      id: cal.1961-04-19.cuba-3
+      remove: [cal.1961-04-19.cuba-2]
+      why: 'Schlesinger''s journal has the flight reach Opa-locka about 8:15 a.m. and the news that it was "substantially over" just after 10 a.m.; the beachhead falls at 2:32 p.m.'

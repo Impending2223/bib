@@ -331,12 +331,23 @@ def add_words(e, body):
 
 def follows(e, body):
     """`follows` ids added (dayorder STYLE 2); its basis goes in the note by a `check`-like sentence the patch writes
-    with an edit, or is already there."""
+    with an edit, or is already there. `remove:` takes out links the entry has that an audit found wrong (the reader's
+    brief, R25c), with `why:` the record or the words that show it; a link the entry does not have is an error."""
     new = dict(e)
     fs = list(store.as_list(e.get("follows")))
+    rm = [str(f) for f in store.as_list(body.get("remove"))]
+    if rm:
+        if not str(body.get("why") or "").strip():
+            return None, "follows: remove needs why: (the record or the words that show the link wrong)"
+        gone = [f for f in rm if f not in fs]
+        if gone:
+            return None, f"follows: the entry does not follow {', '.join(gone)}"
+        fs = [f for f in fs if f not in rm]
     fs += [f for f in body.get("add") or [] if f not in fs and f != e.get("id")]
     if fs:
         new["follows"] = fs
+    else:
+        new.pop("follows", None)
     return new, None
 
 

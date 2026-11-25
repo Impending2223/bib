@@ -12,7 +12,7 @@ Sources:
 - Each entry in full (`./bib show ID`), its note, and the sources it cites, wherever the lines do not settle an order.
 
 Assignment:
-1. Audit every link in the patch against the two entries, and against their sources where the lines do not show the order: strike a link the record does not bear out, turn round one that runs the wrong way, and point a link at the entry its entry comes directly after.
+1. Audit every link in the patch against the two entries, and against their sources where the lines do not show the order: strike a link the record does not bear out, turn round one that runs the wrong way, and point a link at the entry its entry comes directly after. A link already in the tree that the record shows wrong: take it out by `follows: {id, remove: [<id>], why: ...}` (R25c).
 2. Read every day of the month yourself as R25c asks, and add the links the reader did not write.
 3. Correct the patch in place. `./bib patch-check inbox/2026-11-25-sequence-1968-03.yaml` until it shows 0 errors.
 4. Write `notes/sequence/audit-1968-03.md`: links checked, kept, struck, turned, added; what you read beyond the lines; what is left. Plain everyday prose; a paragraph or a list item is one line (never hard-wrap Markdown).

@@ -1,20 +1,20 @@
 patch: 2026-11-25-sequence-1966-06
-by: 'Claude (Sonnet, sequence pass: R25c on June 1966), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass: R25c on June 1966), Nov. 25, 2026; audited by Claude (Opus), Nov. 25, 2026'
 ops:
 - follows:
-    id: cal.1966-06-02.china-leadership-5
+    id: cal.1966-06-01.china-leadership-3
     add:
-    - cal.1966-06-02.china-leadership-6
+    - cal.1966-06-01.china-leadership
+- follows:
+    id: cal.1966-06-01.china-leadership-14
+    add:
+    - cal.1966-06-01.china-leadership
 - follows:
     id: cal.1966-06-03.china-leadership-3
     add:
     - cal.1966-06-03.china-leadership
 - follows:
     id: cal.1966-06-06.china-leadership-2
-    add:
-    - cal.1966-06-06.china-leadership
-- follows:
-    id: cal.1966-06-06.china-leadership-3
     add:
     - cal.1966-06-06.china-leadership
 - follows:
@@ -47,6 +47,10 @@ ops:
     add:
     - cal.1966-06-18.china-leadership-5
 - follows:
+    id: cal.1966-06-18.china-leadership-9
+    add:
+    - cal.1966-06-18.china-leadership-5
+- follows:
     id: cal.1966-06-19.china-leadership-3
     add:
     - cal.1966-06-19.china-leadership-2
@@ -59,6 +63,34 @@ ops:
     add:
     - cal.1966-06-21.china-leadership-5
 - follows:
-    id: cal.1966-06-27.china-leadership-9
+    id: cal.1966-06-21.china-leadership-19
     add:
-    - cal.1966-06-27.china-leadership-4
+    - cal.1966-06-21.china-leadership-5
+- follows:
+    id: cal.1966-06-24.china-leadership-2
+    add:
+    - cal.1966-06-24.china-leadership
+- follows:
+    id: cal.1966-06-29.china-leadership-4
+    add:
+    - cal.1966-06-29.vietnam
+- edit:
+    id: cal.1966-06-03.china-leadership-3
+    base: f5a1c81e
+    set:
+      n: '[[w.macfarquhar-maos-last-revolution]], 42; [[w.dikotter-cultural-revolution]], 57–58 n.13 (the new committee inaugurated; Mao''s portraits and red flags over the headquarters, arc lamps, lorries of delegations; the demonstration tapers off at 8 the next morning). After [[cal.1966-06-03.china-leadership|Mao''s approval of the two dispatches]]: he approves the drafts of that day''s Xinhua dispatches ([[w.zedong-mao-zedong-nianpu]], V, June 3, 1966), and the appointments become public that afternoon (MacFarquhar, 42). To check: Donald Hopson, U.K. chargé d''affaires, Beijing, to Foreign Office, London, No. 422, "Campaign against anti-Party elements," June 4, 1966, Public Record Office, Kew, FO 371/1869/80 (cited by [[w.macfarquhar-maos-last-revolution]], 42 n.43).'
+- edit:
+    id: cal.1966-06-21.china-leadership-18
+    base: 0c043abf
+    set:
+      n: '[[w.pu-weihua-zalan-jiu-shijie]], 163. After [[cal.1966-06-21.china-leadership-5|Kuai Dafu''s note on the poster]]: her words answer it (Pu, 163). Made public: 2008. Names: Wang Guangmei, Kuai Dafu.'
+- edit:
+    id: cal.1966-06-21.china-leadership-19
+    base: 451c8817
+    set:
+      n: '[[w.pu-weihua-zalan-jiu-shijie]], 163. After [[cal.1966-06-21.china-leadership-5|Kuai Dafu''s note on the poster]]: the call to strike back is in Pu''s account of the incident the note began (163). Made public: 2008. See [[cal.1966-06-21.china-leadership-18]]. Names: Bo Yibo.'
+- edit:
+    id: cal.1966-06-24.china-leadership-2
+    base: 5c430215
+    set:
+      n: '[[w.zhou-enlai-waijiao-huodong]], 498 (June 24, 1966; morning; Tirana). After [[cal.1966-06-24.china-leadership|the delegation''s arrival at Tirana]], 10 a.m. (498). Names: Zhou Enlai.'
