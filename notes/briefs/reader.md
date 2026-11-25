@@ -78,6 +78,8 @@ Nothing else is passed over, and no class of event in a blanket (R48).
 
 **R19. The prose.** Compact, plain, compressed. Record what happened, not what it meant. No praise, blame, irony or color: no "for Moscow's benefit", "a good midterm", "the movement reads it as a defeat". Short declaratives and fragments; drop articles and verbs where the line still reads. Match the section you add to: read a few of its entries first. CLAUDE.md, "The brief", gives a before and after.
 
+**R19a. Names in the series' spelling, whatever the source's** (the owner, Nov. 24, 2026: "I don't know where to write this, but can you tell someone that \"Shansi (Shanxi) Province added to the areas affected, with Honan and Hopei\" is bad form even when the source is the New York Times of July 1960? Surely we can... translate? re-transliterate? cis-literate? these into the series-standard here?"). A source's romanization is not the entry's. A Chinese name, of a person or a place, that a source gives in Wade-Giles or a postal spelling is written in the line and the note in the series' form, Hanyu Pinyin: Shanxi, Henan, Hebei, Sichuan, Guangdong; Zhou Enlai, Liu Shaoqi, Chen Yi. Never both ("Shansi (Shanxi)"), and never the source's alone. The same for any other language the series writes one way (Vietnamese with its diacritics, CLAUDE.md; Korean and Japanese names in the readings the tree uses): find the name in the tree (`./bib find`, the name entries, the gazetteer `sources/places.yaml`) and write it as the tree does. The series' own exceptions stand as its entries have them (Peking for the capital in the span; Chiang Kai-shek; Hong Kong, Canton where the gazetteer says so). Inside a direct quotation the source's words stay as printed. Characters are added only from a page that prints them (R4): a newspaper in English gives none. A name you cannot identify is written as the source has it, with "Check: the name".
+
 **R20. The fields.** `id` from `./bib new-id cal <date> <thread>`; `when`, `date`, `thread`, `also`; no `s:`.
 - `c`: what happened, in one to three clipped sentences: who, what, the number. A memoir's account is said so in `c` where it matters ("Johnson writes that ...").
 - `n`: the pointers (Part D).
@@ -238,6 +240,7 @@ R35-R43 are in force from Nov. 3, 2026: the registry is built (`tools/bib/witnes
 | R19 | Oct. 1 (OB, "The prose") | "Compact. Plain. Compressed. Springs and Autumns, but without the subtle words." |
 | R20 | Oct. 12–23 (CL) | the places, Oct. 12; the election results, Oct. 23: "fix the form to a single, prescribed standard"; the tags: house rule |
 | R21 | Oct. 1 (OB): "Names, events"; Oct. 14 (CL): no list or section after the names | |
+| R19a | Nov. 24 (OB, about 11 p.m. PT) | "I don't know where to write this, but can you tell someone that \"Shansi (Shanxi) Province added to the areas affected, with Honan and Hopei\" is bad form even when the source is the New York Times of July 1960? Surely we can... translate? re-transliterate? cis-literate? these into the series-standard here?" |
 | R22 | house rule (the primary-record and histories runs) | |
 | R23 | Oct. 5 (OB, "Check") | "could you write 'Check' as you've done before in calendar entries, so it can be looked up/verified later" |
 | R24 | house rule (CL, "The informal record"; the batch briefs) | |
