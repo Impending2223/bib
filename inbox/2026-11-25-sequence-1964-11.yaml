@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1964-11
-by: 'Claude (Sonnet, sequence pass: R25c on November 1964), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass: R25c on November 1964), Nov. 25, 2026; audited and corrected by Claude (Opus), Nov. 25, 2026'
 ops:
 - follows:
     id: cal.1964-11-01.vietnam-4
@@ -66,13 +66,9 @@ ops:
     add:
     - cal.1964-11-10.china-leadership-6
 - follows:
-    id: cal.1964-11-13.china-leadership
-    add:
-    - cal.1964-11-13.china-leadership-2
-- follows:
     id: cal.1964-11-15.transition-and-staff-2
     add:
-    - cal.1964-11-15.succession
+    - cal.1964-11-15.transition-and-staff
 - follows:
     id: cal.1964-11-16.china-leadership
     add:
@@ -86,10 +82,112 @@ ops:
     add:
     - cal.1964-11-21.farm
 - follows:
-    id: cal.1964-11-23.china-leadership-9
-    add:
-    - cal.1964-11-23.china-leadership-4
-- follows:
     id: cal.1964-11-27.china
     add:
     - cal.1964-11-27.china-leadership-7
+- follows:
+    id: cal.1964-11-01.china-leadership-3
+    add:
+    - cal.1964-11-01.china-leadership-5
+- follows:
+    id: cal.1964-11-01.china-leadership-9
+    add:
+    - cal.1964-11-01.china-leadership-5
+- follows:
+    id: cal.1964-11-03.elections-1964-5
+    add:
+    - cal.1964-11-03.elections-1964
+- follows:
+    id: cal.1964-11-03.elections-1964-7
+    add:
+    - cal.1964-11-03.elections-1964
+- follows:
+    id: cal.1964-11-03.elections-1964-6
+    add:
+    - cal.1964-11-03.elections-1964-2
+- follows:
+    id: cal.1964-11-04.china-leadership
+    add:
+    - cal.1964-11-04.china-leadership-3
+- follows:
+    id: cal.1964-11-05.china-leadership-15
+    add:
+    - cal.1964-11-05.china-leadership-14
+- follows:
+    id: cal.1964-11-06.china-leadership-15
+    add:
+    - cal.1964-11-06.china-leadership-16
+- follows:
+    id: cal.1964-11-13.china-leadership-8
+    add:
+    - cal.1964-11-13.china-leadership-7
+- follows:
+    id: cal.1964-11-15.transition-and-staff
+    add:
+    - cal.1964-11-15.succession
+- follows:
+    id: cal.1964-11-17.program
+    add:
+    - cal.1964-11-17.transition-and-staff
+- follows:
+    id: cal.1964-11-17.white-house
+    add:
+    - cal.1964-11-17.transition-and-staff-2
+- follows:
+    id: cal.1964-11-19.civil-rights-the-executive
+    add:
+    - cal.1964-11-19.civil-rights-the-executive-2
+- check:
+    id: cal.1964-11-04.china-leadership-4
+    text: 'Check: the hour; [[w.zhou-enlai-waijiao-huodong]], 427, prints 上午10时15分, not 10:45.'
+- check:
+    id: cal.1964-11-05.china-leadership-2
+    text: 'Check: the arrival hour; [[w.zhou-enlai-waijiao-huodong]], 427, prints 下午6时15分, not 6时45分.'
+- check:
+    id: cal.1964-11-03.china-leadership
+    text: 'Check: the hour; [[w.zhou-enlai-waijiao-huodong]], 427, prints 上午11时.'
+- edit:
+    id: cal.1964-11-07.china-leadership-5
+    base: 09262e78
+    set:
+      n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 608 (Nov. 7, 1964); [[w.macfarquhar-origins-of-the-cultural]], III, 412 (Liu approves the Hunan order of Nov. 1 on Nov. 12; the approving Central Committee directive is his, after Mao''s approval). After [[cal.1964-11-07.china-leadership-10|Mao''s note to Liu on the Hunan request]]: MacFarquhar''s note gives Mao''s approval as prior to the directive Liu drafted ([[w.macfarquhar-origins-of-the-cultural]], III, 412 n.71). Made public: 1996. To check: the Central Committee''s instruction of Nov. 12, 1964 on the exercise of power by the poor and lower-middle peasant associations (关于在阶级斗争严重的地区由贫协行使权力的批示) (cited by [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 608); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1122 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 412 n.71b); [[w.zedong-jianguo-yilai-mao-zedong]], 11, 241–2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 412 n.71c). Names: Liu Shaoqi.'
+- edit:
+    id: cal.1964-11-15.transition-and-staff
+    base: 129e9b97
+    set:
+      n: '[[w.johnson-white-house-diary]], 203 (Lady Bird Johnson''s account). After [[cal.1964-11-15.succession|the return to the White House]]: "After shaking hands all around, we went to a party for Walter Heller" ([[w.johnson-white-house-diary]], 203). Names: Heller, Johnson, Lady Bird Johnson.'
+- edit:
+    id: cal.1964-11-15.transition-and-staff-2
+    base: 5b47ddd1
+    set:
+      n: '[[w.johnson-white-house-diary]], 203 (Lady Bird Johnson''s account). After [[cal.1964-11-15.transition-and-staff|the party for Heller]]: the diary''s "Later that evening" comes after the party, not the return ([[w.johnson-white-house-diary]], 203). Names: Johnson.'
+- edit:
+    id: cal.1964-11-16.china-leadership
+    base: 4e41b13b
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 16, 1964. [[w.zhou-enlai-nianpu-1949]], II, 688 (Nov. 16, 1964: in the evening Zhou accompanies Mao in receiving Kim Il Sung); [[w.lengxi-shinian-lunzhan-1956-1966]], 883–888 (Kim Il Sung back from Vietnam; Zhou briefs him first; Mao''s talk that afternoon; Hồ Chí Minh''s three points, through Kim; Mao''s four points: no big campaign against the new leaders, the December meeting to be resisted, answer only a CPSU open document); [[w.peng-zhen-nianpu-1902]], IV, 372 (Nov. 16, 1964, evening; Peng Zhen accompanies Mao in meeting Kim Il Sung). After [[cal.1964-11-16.china-leadership-3|Zhou''s talk with Kim Il Sung at 5 p.m.]]: 会谈后，陪同金日成首相去毛泽东主席处 ([[w.zhou-enlai-waijiao-huodong]], 429). Made public: 1997. See [[cal.1964-11-08.china-leadership]]. Names: Mao Zedong, Kim Il Sung.'
+- edit:
+    id: cal.1964-11-19.king-2
+    base: fd6be98b
+    set:
+      n: '[[w.branch-pillar-of-fire]], 527–28; [[w.kotz-judgment-days]], 230. After [[cal.1964-11-19.king|the Bimini statement]]: the telegram joins King''s own tone to his advisers'' call for a strong rebuttal, after their messages from New York that his statement showed weakness ([[w.branch-pillar-of-fire]], 527). To check: Int. Harry Wachtel, Oct. 27, 1983 (cited by [[w.branch-pillar-of-fire]], 527); MLK to Hoover, Nov. 19, 1964, FK-584 (cited by [[w.branch-pillar-of-fire]], 527); Atlanta to Director, urgent teletype of 10:30 p.m., Nov. 19, 1964, FK-539 (cited by [[w.branch-pillar-of-fire]], 528). See [[cal.1964-11-18.civil-rights-the-executive]]. Names: King, Hoover.'
+- edit:
+    id: cal.1964-11-19.civil-rights-the-executive
+    base: 6bf0c645
+    set:
+      n: '[[w.garrow-bearing-the-cross]], 361; [[w.kotz-judgment-days]], 231 (King away, by wire; Wilkins on Hoover''s "deplorable" comments; Johnson silent); [[w.branch-pillar-of-fire]], 527. After [[cal.1964-11-19.civil-rights-the-executive-2|Katzenbach in Hoover''s office]]: Katzenbach "went directly to the White House, where the major civil rights leaders loudly complained" ([[w.branch-pillar-of-fire]], 527). Check: Branch quotes Wilkins, "we solidly backed Dr. King" (527). To check: Valenti to Johnson, Nov. 13, 1964, King Name File, Johnson Library; King to Johnson, Nov. 17, 1964, King Name File, Johnson Library; [*New York Times*, Nov. 20, 1964](https://timesmachine.nytimes.com/timesmachine/1964/11/20/issue.html), at 1; *Washington Post*, Nov. 20, 1964, at A2; *New York Herald Tribune*, Nov. 20, 1964, at 1 (cited by [[w.garrow-bearing-the-cross]], 361 n.5); NYAN, Nov. 28, 1964, p. 1 (cited by [[w.branch-pillar-of-fire]], 527); PC, Nov. 28, 1964, p. 1 (cited by [[w.branch-pillar-of-fire]], 527); *Jet*, Dec. 3, 1964, at 6–8 (cited by [[w.branch-pillar-of-fire]], 527). See [[cal.1964-11-18.civil-rights-the-executive]]. Check: the day; Garrow, "one day after the story broke." Names: Martin Luther King, Hoover, Wilkins, Johnson.'
+- edit:
+    id: cal.1964-11-17.program
+    base: d59224e1
+    set:
+      n: '[[w.johnson-white-house-diary]], 205 (Lady Bird Johnson''s account). After [[cal.1964-11-17.transition-and-staff|the call on the Jenkinses]]: "Back on the second floor of the White House, I found Mary Lasker waiting" ([[w.johnson-white-house-diary]], 205). Names: Lady Bird Johnson.'
+- edit:
+    id: cal.1964-11-17.white-house
+    base: 8bb97718
+    set:
+      n: '[[w.johnson-white-house-diary]], 205–07 (Lady Bird Johnson''s account). After [[cal.1964-11-17.transition-and-staff-2|the Dungan reception]]: "About 9 o''clock we returned from the Dungan reception" ([[w.johnson-white-house-diary]], 205). Names: Johnson, Lady Bird Johnson, Fortas, Tom Clark, Valenti, Graham.'
+- edit:
+    id: cal.1964-11-04.china-leadership
+    base: 82b5abc1
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 684 (Nov. 4, 1964); [[w.zhou-enlai-waijiao-huodong]], 427 (Nov. 4, 1964; 上午, 和罗瑞卿副总理专程前往上海, 欢迎印度尼西亚总统苏加诺); [[w.zhou-enlai-waijiao-huodong]], 427 (Nov. 4, 1964; 下午4时, 上海锦江饭店, 和苏加诺总统举行会谈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 371 (Nov. 4, 1964; Sukarno, President of Indonesia, returning from a visit to Korea, stops briefly at Shanghai; Zhou flies from Peking to meet him and holds talks with him; the two exchange views on the international situation and agree that world developments favor the peoples'' anti-imperialist struggle; Sukarno states Indonesia''s support for China''s nuclear test and for convening a conference of heads of government; Zhou says China proposed the conference to break the nuclear monopoly). After [[cal.1964-11-04.china-leadership-3|the seeing-off of Keita at Peking]]: both in the morning (上午), and Zhou at Hongqiao by 10:15 a.m. ([[w.zhou-enlai-waijiao-huodong]], 427). Made public: 1993. Names: Zhou Enlai, Luo Ruiqing, Sukarno.'
