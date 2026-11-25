@@ -54,7 +54,7 @@ The PDF page is the printed page plus an offset. The offset differs from volume 
 pdftoppm -f 485 -l 485 -r 60 -png book.pdf probe      # then open probe-485.png with the Read tool
 ```
 
-Yang Shangkun's diary: volume I is printed page plus 6, volume II plus 5 on the pages the auditors of Nov. 24 read (to about p. 390). The offset does not hold through volume II: a reader of Nov. 25 found printed 565 at page 520 of the file. So start from the offset, look at the printed number on the image, and step from there. Every page image shows its own printed number, so check each page as you read it. Where an offset from a book-check file does not hold, find the passage by its words instead (recipe 6).
+Yang Shangkun's diary: volume I is printed page plus 6, volume II plus 5 on the pages the auditors of Nov. 24 read (to about p. 390). The offset does not hold through volume II: a reader of Nov. 25 found printed 565 at page 520 of the file, and an auditor the same night found printed 649–664 at the file's page less 45 (the printed number is the file's page plus 45 there). So start from the offset, look at the printed number on the image, and step from there. Every page image shows its own printed number, so check each page as you read it. Where an offset from a book-check file does not hold, find the passage by its words instead (recipe 6).
 
 ## 5. Read one page of a scan
 
