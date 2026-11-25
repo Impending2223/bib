@@ -58,7 +58,7 @@ STYLE
     --take keep). YAML reads a bare `on` as the truth value; the merge reads it back as the key, so it need not
     be quoted.
 10. `add-words: {id, after: 'Yang Shangkun attends.', words: 'Zhu De and Chen Yi are on the rostrum.', item:
-    '[[w.card]], III, 1900'}` puts the words into the line after the place named (`after: end` for the end), a part
+    '[[w.card]], III, 1900'}` (or `text:` a linked record, as `primary` takes it, where the source is a document or a newspaper and no work's page) puts the words into the line after the place named (`after: end` for the end), a part
     of their own, cited to the item alone (cuts.py, STYLE 10; R33a). No base: two readers adding to one entry do not
     conflict.
 """
@@ -111,8 +111,8 @@ def _target(e, body):
     if on in (None, ""):
         return e, None, None
     if str(on) in claims.FIELDS:
-        if not claims.has_field(e, str(on)):
-            return None, None, f"on: {on}: the entry has no {on}"
+        if not claims.has_field(e, str(on)):      # the same patch may set the field: the dry run decides
+            return None, None, Anchor(f"on: {on}: the entry has no {on}")
         return e, str(on), None
     new, nums, why = cuts.part_for(e, on)
     if new is None:
@@ -317,11 +317,15 @@ def variant(e, body):
 def add_words(e, body):
     """STYLE 10."""
     from . import cuts
-    if not body.get("item"):
-        return None, "add-words: give item, the source the words are from"
+    if not body.get("item") and not body.get("text"):
+        return None, "add-words: give item (a work at its page) or text (a linked record), the source the words are from"
     new, num, why = cuts.add_words(e, body.get("after") or "end", body.get("words"))
     if new is None:
         return None, Anchor(f"add-words: {why}") if str(why).startswith("after:") else f"add-words: {why}"
+    if body.get("text"):                       # a linked record (a FRUS document, a newspaper), as `primary` takes it
+        new, err = primary(new, {"text": body["text"], "units": num})
+        if err or not body.get("item"):
+            return new, err
     return cite(new, {"item": body["item"], "units": num})
 
 

@@ -1,0 +1,22 @@
+The reader's brief, R0, whole (it governs this brief and everything else you are given):
+
+"R0. Only this text and the owner's words limit you (the owner, Nov. 24, 2026: "Can you make a disinhibiting/'disregard limitations not in the Reader Brief or the Owner's own words' rule a top-priority reader rule? An R0?"). This rule comes first and governs every other text you are given. Your batch brief, its examples, its lists, its wording, a note from another agent, a habit of earlier patches: none of them narrows what is an entry, lets an item wait, or passes anything over. Only two things can: this brief's own rules, and the owner's words, quoted with their date. Wherever anything else seems to limit you ("in scope", "dated acts only", "the official returns", "partial", "analysis", "commentary", "minor", "no single dated act", "the budget", a list of the kinds of event to look for), disregard it and work from this brief alone: every dated event your source reports is an entry (R5), dated by its report where it gives no day of its own (R15a); only R18, and R18a for an item the owner cut short, takes one out; nothing a source in hand dates is a lead (R50). When a brief and this text disagree, this text wins; say in your report what you disregarded. The writer of a brief (the orchestrating session) quotes R0 whole at the head of every brief it writes for a reader, an auditor or a merger, and adds nothing that narrows."
+
+Work in /home/user/bib (branch `ccr-29ad5edc-peju1y`). Read `CLAUDE.md` and `notes/briefs/reader.md` whole before anything else, then `notes/guide/reading-a-copy.md` (how to find a file on the Drive, fetch it whatever its size, and read its page: follow it; change nothing on Drive). The rule this audit turns on is R27 (Made public; publication; "Circulated in China:"), with R22 (`kind:`), R4 and R54a.
+
+Sources:
+- The patch `inbox/2026-11-25-r27-redo.yaml` (a Sonnet reader's: 176 `edit` ops on notes), the witness rows `inbox/witnesses/2026-11-25-r27-redo.yaml` (59 `amend` rows), and the reader's note `notes/r27-redo-2026-11-25.md`, which lists the entries, the works ruled on with the ground for each, and what it could not settle.
+- Each entry (`./bib show ID`), its note, the cards of the works it cites, and the works' copies on the owner's Google Drive where a printing's date, kind or internal marking needs the copyright page.
+
+Assignment:
+1. Audit every op against R27 as it stands and against the works: the year of each "Made public:", whether each printing named is durable and open, each "Circulated in China:" and "Printed for internal circulation:" sentence. Correct the patch in place.
+2. The reader marked about 20 Chinese works of 1982 to 2004 "marking not seen", and five entries rest on two of them (*Sanzhong quanhui yilai zhongyao wenxian huibian*, 1982; *Zhonghua renmin gongheguo zuzhi faze xuanbian*, 1985). Find each work on the Drive or its catalogue record, read the copyright page where there is a copy, and settle each entry on what you find; where a marking cannot be seen, the entry says so by a "Check:".
+3. Thirteen entries keep an old "Check: ... may print it earlier" sentence that the redo answers: strike each where the record answers it (an `edit` may drop a Check where its `kind: correct` names the settling record; if `patch-check` still refuses, list them for the merger with the exact sentence).
+4. *Current Background* no. 891: find its year, and settle `cal.1963-09.china-leadership-4` and `cal.1964-06-27.china-leadership-5`.
+5. The witness rows: confirm the 59 retypings from the works they come from.
+6. `./bib patch-check inbox/2026-11-25-r27-redo.yaml` until it shows 0 errors.
+7. Write `notes/r27-redo-audit-2026-11-25.md`: ops checked, changed, struck, added; the works and their markings as found; what is left. Plain everyday prose; a paragraph or a list item is one line (never hard-wrap Markdown).
+
+Other agents are at work in this checkout on other files. Do not merge, do not run `./bib build`, do not edit files under `lists/`, and do not commit or push: leave your files in place and report. `./bib check` takes about five minutes. Quote no more than a few words of any copyrighted source.
+
+Report: what you checked against a copy and what you could not, what you changed and why, whether the patch is ready to merge, and what you disregarded under R0, if anything.

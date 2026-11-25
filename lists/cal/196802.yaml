@@ -2580,13 +2580,13 @@ entries:
   - id: cal.1968-02-12.vietnam-tet
     when: Feb. 12
     date: '1968-02-12'
+    time: 1968-02-12T06:12Z
     thread: vietnam-tet
-    c: 'Westmoreland: the enemy''s third phase, to take Quảng Trị and Thừa Thiên, begun;{1} he asks for reinforcements now.{2} Johnson with his advisers: a brigade of the 82d Airborne, 3,800 men, and Marines, 6,500, to Vietnam;{3} the Joint Chiefs had asked that a reserve call-up come first.{4}'
+    c: 'Westmoreland: the enemy''s third phase, to take Quảng Trị and Thừa Thiên, begun;{1} he asks for reinforcements now.{2} He asks that a Marine regiment package and a brigade package of the 82d Airborne go at once: "I need these 525,000 troops now," the ceiling promised for 1969.{5} Johnson with his advisers: a brigade of the 82d Airborne, 3,800 men, and Marines, 6,500, to Vietnam;{3} the Joint Chiefs had asked that a reserve call-up come first.{4}'
     n: 'FRUS 1964–68, VI, docs. [68](https://history.state.gov/historicaldocuments/frus1964-68v06/d68), [70](https://history.state.gov/historicaldocuments/frus1964-68v06/d70). [[w.drea-mcnamara-clifford-and-the-2011]], 183 (Westmoreland''s cable; the lunch, some 10,000 men approved; the Chiefs for deferring and a call-up); [[w.westmoreland-soldier-reports]], 352 (the request, quoted; the White House meeting that day, by Wheeler''s report: "you are not expressing a firm demand"; Westmoreland: "not because I fear defeat"); [[w.califano-triumph-and-tragedy-of]], 259 (Westmoreland "desperately need[ed]" reinforcements; 10,500 ordered; Wheeler sent the next day); [[w.branch-at-canaans-edge]], 693–94 ("a new ball game"; the six battalions); [[w.berman-lyndon-johnsons-war]], 164–66 ("a new ball game"; "I need these 525,000 troops now"; six battalions, 10,500; Wheeler: Westmoreland "does not know how sacrosanct" the 525,000; the Chiefs against, Johnson for sending them); [[w.taylor-swords-and-plowshares]], 385 (Westmoreland''s request of Feb. 12: an airborne brigade and a Marine regiment); [[w.barrett-uncertain-warriors]], 116 (Westmoreland''s "firm request for troops," 10,000 more at once; Feb. 12, unanimous advice to send them; Johnson approved them "for the period of the emergency only"). [[w.longley-lbjs-1968]], 64 (the meeting). Made public: the Pentagon Papers (1971); FRUS 1964–68, VI (2002). [[w.clifford-counsel-to-the-president-2]], 478 (Westmoreland''s "firm request"; the lunch, all for more troops, Clifford silent). To check: JCSM-91-68 to McNamara, Feb. 12, 1968, Pentagon Papers Backup, Acc 75-062 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 183 n.44); [[w.karnow-vietnam]], 562–64 (cited by [[w.branch-at-canaans-edge]], 693); FRUS, *Vol. 6* (n.d.), 153, footnotes 1–3 (cited by [[w.branch-at-canaans-edge]], 693); "U.S. rushes 10,500 to Meet Threat of Vietnam Foe," [*New York Times*, Feb. 14, 1968](https://timesmachine.nytimes.com/timesmachine/1968/02/14/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 694). See [[cal.1968-01-30.vietnam]]. Names: Westmoreland, Johnson.'
     src:
-      c: 1ea7446e
+      c: c579e1c5
       rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d68: 1, 2, 3, 4'
         - 'w.drea-mcnamara-clifford-and-the-2011 183: 2, 3, 4'
         - 'via w.drea-mcnamara-clifford-and-the-2011 183 n.42a: 2'
         - 'via w.drea-mcnamara-clifford-and-the-2011 183 n.42c: 3'
@@ -2606,7 +2606,9 @@ entries:
         - 'w.berman-lyndon-johnsons-war 164–66: ?'
         - 'w.taylor-swords-and-plowshares 385: 1, 2'
         - 'w.barrett-uncertain-warriors 116: 2, 3'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d68: 1, 2, 5, 3, 4'
     tags: [name:westmoreland-william, name:johnson-lyndon-b]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1968-02-12.king
     when: Feb. 12
     date: '1968-02-12'
@@ -2775,6 +2777,18 @@ entries:
       - 1968-02-12T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1968-02-12.vietnam-tet-2
+    when: Feb. 12
+    date: '1968-02-12'
+    time: 1968-02-12T18:45Z
+    place: washington
+    thread: vietnam-tet
+    follows:
+      - cal.1968-02-12.vietnam-tet
+    c: 'Johnson with his senior advisers on Westmoreland''s cable, 1:45 to 3:08 p.m. Rusk would send the six battalions without a permanent commitment. McNamara: send the units asked, for the emergency only, and send Wheeler to meet Bunker, Westmoreland and Vance; 14 days. Wheeler: 3,800 from the 82d Airborne and 6,500 Marines, 10,300 in all. Clifford asks what has changed in the enemy''s strategy.'
+    n: 'FRUS 1964–68, VI, doc. [70](https://history.state.gov/historicaldocuments/frus1964-68v06/d70) (notes of the meeting). Made public: FRUS 1964–68, VI (2002). The cable (0612Z) came first. See [[cal.1968-02-12.vietnam-tet]]. Names: Johnson, Rusk, McNamara, Wheeler, Bunker, Westmoreland, Vance, Clifford.'
+    tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:wheeler-earle, name:bunker-ellsworth, name:westmoreland-william, name:vance-cyrus, name:clifford-clark]
+    time_zone: America/New_York
   - id: cal.1968-02-13.state-and-city-finance-seattle
     when: Feb. 13
     date: '1968-02-13'

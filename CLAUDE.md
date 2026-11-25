@@ -18,7 +18,7 @@ Every calendar entry has:
 - `tags`: a hidden `name:<key>` for every person named or whose act it records (the President for his own acts); `state:`, `city:` tags for the States and cities.
 - the fields, wherever the record gives them (`when`, `c`, `n`, the page): the date; on a month- or year-dated entry its position, `at:` ("July, after the convention"); the time (`time`, `time_approx`, or `time_range` with `time_band`, `time_zone`); the place, `place:` (the reader's brief, R25a; the owner, Nov. 19, 2026: "Could we fix that? Permanently?").
 
-**Briefs for agents: R0 first** (the owner, Nov. 24, 2026). Every brief written for a reader, auditor or merger opens by quoting the reader's brief's R0 whole (`notes/briefs/reader.md`: only that brief and the owner's own words limit what is an entry; everything else that narrows is disregarded), then gives the sources and the assignment only: never a scope, a list of kinds of event, or a ground to pass over or defer.
+**Briefs for agents: R0 first** (the owner, Nov. 24, 2026). Every brief written for a reader, auditor or merger opens by quoting the reader's brief's R0 whole (`notes/briefs/reader.md`: only that brief and the owner's own words limit what is an entry; everything else that narrows is disregarded), then gives the sources and the assignment only: never a scope, a list of kinds of event, or a ground to pass over or defer. For how to fetch a file and read a page the brief points to `notes/guide/reading-a-copy.md` and says nothing of its own (the owner, Nov. 24, 2026: "these are all solved problems... can you write the solution to them somewhere the readers (and you!) can find and read?", after briefs written that night told readers a large file might not download, and three readers left pages unread).
 
 **Models for reading and auditing** (the owner, Nov. 24, 2026: "The first reader pass on any subsequently-audited read should be in Sonnet, including in-session. Opus audits."). The first reading pass of anything that will be audited runs on Sonnet (`model: sonnet`); the session does not make that pass itself, whatever model it runs on, but hands it to a Sonnet agent. The audit runs on Opus (`model: opus`). Another model or an effort level only where the owner names it for the run.
 
@@ -150,6 +150,7 @@ The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026
 - `elections.md`, `specials.md`, `primaries.md`, `conventions.md`, `governors.md`, `legislatures.md`: returns and their sources.
 - `state-sources.md`, `state-finance.md`: the States' publications and law registers; State finance.
 - `indicators.md`, `armed-forces.md`, `budgets-bills.md`: economic indicators, the war's tables, forces, budgets, bills, appropriations.
+- `reading-a-copy.md`: getting a source from the Drive whatever its size, finding the page, reading a scan a page at a time, records online, cleaning up. Read it before you fetch or cite any page; every brief for a reader or an auditor points to it and restates none of it.
 - `indochina-maps.md`: the maps of Indochina.
 - `ebooks-feeds.md`, `desk.md`: the ebooks and feeds; the owner's desk.
 - `pages.md`: the page budget: `./bib pages`, the splits it directs (`pages.yaml`), their pointers and old addresses.
