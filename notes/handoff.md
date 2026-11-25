@@ -2,6 +2,40 @@
 
 For a fresh orchestrating session. Read CLAUDE.md (the core), then this. The owner's standing rules: working hours (CLAUDE.md); ask before deleting anything of theirs; never change a Drive file's sharing; no model ids in commits. Before a PR and merge: `./bib readme --check` (the owner's README rule of Nov. 18, now tooled: `notes/guide/changing.md`; the two standing instructions it replaced, README and the index, dropped Nov. 18 as the owner asked once tooled; the index is rebuilt by every build).
 
+## The queue, reconciled (Nov. 24, 2026, 5:40 p.m. PT)
+
+The owner, Nov. 24: "That's not what the handoff says, is it? Can you reconcile the two?" This file had grown in layers (the queue of Nov. 13, C0's numbered items, the dated items 4a–4aw, today's 1a–1i); a summary given to the owner that evening named only part of it. This list is the whole queue in the owner's order, each item with where it is set out below. It replaces every earlier statement of the order; the items' own text below still governs their content. An item marked "confirm" is to be checked against the tree before work starts, since this file does not record it done.
+
+**Now running.**
+1. The eight NYT patches of July 3–6, 1960: merging (owner-rulings 36; items 1c, 1d). Then the merge-time items of 1d, check, build, PR, merge.
+2. The defaults for the owner's open questions 1–30 (notes/owner-rulings.md; an agent).
+3. The claims model (4aw.1; 1i; owner-rulings 35f, 35g): the design note rewritten, then the unguarded cite op, the stale maps, a page and its notes as one source, the conversion a year at a time. No new calendar readers or auditors until it is in (the owner, Nov. 22).
+
+**Then, in the owner's order.**
+4. Layout leftovers (4aw.1a, 1b: done, PRs #211–#214): the unquoted italic transliterations (1a/1b progress); the unwrap tool's two faults (1h).
+5. The stopped work (4aw.2; 4at): the China map; the R27 redo, about 180 entries, "Circulated in China" (4aq); the China threads measurement (4at).
+6. Audit briefs aligned to R22 and a check warning for substance left in the notes; then the pass over the notes, 5,432 entries (4aw.3; 4av).
+7. The rest of the Nov. 21–22 queue (4aw.4): the Fursenko and Naftali quotation re-check (4as); "Mrs."/"Col." with a remap; *Wenxian* run 2; the register's leftovers (4au); cjk display fixes (confirm: the full-width 中点 and the dropped characters, 4ao.4).
+8. The China reading order (4i, with 10a the Peking Automobile compilation), and with it: *Origins* III run 1's notes pass to redo (4b); *77 Conversations*, the rest (4d); the *wansui* (4h); the memoirs (4g); the PRC leftovers of batch 15 (C0 item 4).
+9. Batch 16, the DRV: the page cites (C0 item 6; "No ruling on the page cites yet": a default to be taken under "Nothing blocks"). (C0 item 5, the 63 *Văn kiện* documents: done, 79d9847, 67 entered.)
+10. Batch 17, the Wilson Center's documents, about 107 files (C0 item 7): not started.
+11. The re-read pass: every "Passed over" row ruled on a ground struck Nov. 15, the principals' family, health and drinking rows first (C0 item 8). Now also under R0 and R15a.
+12. The notes pass re-run for the works furthest behind (C0 item 9; `./bib notes-coverage`).
+13. Pollack, *Arabs at War* (C0 item 10).
+14. King, the FBI and King's private life (C0 item 11); surveillance at home (C0 item 12).
+15. The time-of-day and place pass, two tiers: from the entries, then from the sources (C0 item 13; 4k.1, the 822 entries with a clock time and no time field: confirm).
+16. Batch 18: Nixon, 1968, California, Agnew, *Freedom of Communications*, 27 readers (C0 item 14).
+17. The French pilot, then the German (C0 item 15).
+18. Indicators for the other sovereigns (C0 item 16).
+19. The 1969 foundations (C0 item 17).
+
+**The owner's requests of Nov. 24, not yet placed by the owner.** By default after item 6 and ahead of item 7, since each is a reading pass and waits on item 3; the owner may move them:
+- The 1960 Democratic convention, a comprehensive pass (1e).
+- The Drive inventory, then the Soviet and Sino-Soviet reading batches, the Soviet side of the July 16, 1960 recall among them (1f).
+- The atomic-claims trial, February 1960 (owner-rulings 35g): after the conversion's first year; it touches no entry and could run sooner.
+
+**On file, not queued** (the owner, Nov. 16; C0 items 18–20): Operation SOLO's visibility leads; tidying; the Near East skeletons; the JFK, RFK and LBJ oral histories. **Old lists** (B) and **for the owner to procure** (E): as set out below.
+
 ## The new way of working (the owner, Nov. 10, 2026: "I approve both")
 - CLAUDE.md is the core; topics in `notes/guide/`. Row readers work from `notes/briefs/reader-card.md`.
 - Models: readers on Sonnet with the card; mechanical work (merging, duplicate flags, scripts) on Sonnet or Haiku; Opus audits a sample of each reader's rulings and every disagreement. At most 4-6 agents at once (the machine has 4 processors).

@@ -1375,3 +1375,5 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 24, about 4:42 p.m. PT) "Ask the Fable agent what we're missing by not having an atomic claims model and what it would take to get there."
 
 (Nov. 24, about 5:25 p.m. PT) "Ask the Fable agent to follow our prose standard, for my sake. The Claudish vocabulary and syntax is strong here, and harder to follow than I'd like. Then ask: First, your backend renders atomic claims in plain-language sentences. Is there a way to render them that preserves precision and consistency in a less verbose form? Second, your atomic claim model cleaves the prose sentence from the claims. Is there a way to design the claim backend and the prose compiler that would resolve a set of atomic claims into prose mechanically, without the exercise of judgment? The answers to these questions may be different."
+
+(Nov. 24, about 5:30 p.m. PT) "What does the queue look like?" Then, of the answer: "That's not what the handoff says, is it? Can you reconcile the two?" (The whole queue written at the head of notes/handoff.md, "The queue, reconciled".)
