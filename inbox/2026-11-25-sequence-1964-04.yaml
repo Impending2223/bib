@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1964-04
-by: 'Claude (Sonnet, sequence pass: R25c on April 1964), Nov. 25, 2026; notes/sequence/1964-04.md'
+by: 'Claude (Sonnet, sequence pass: R25c on April 1964), Nov. 25, 2026; notes/sequence/1964-04.md. Audited by Claude (Opus), Nov. 25, 2026: notes/sequence/audit-1964-04.md'
 ops:
 - follows:
     id: cal.1964-04-04.civil-rights-bill-4
@@ -56,4 +56,115 @@ ops:
 - follows:
     id: cal.1964-04-30.democratic-party
     add:
+    - cal.1964-04-30.japan-and-korea-far-east
+- follows:
+    id: cal.1964-04-10.china-leadership-4
+    add:
+    - cal.1964-04-10.china-leadership-2
+- follows:
+    id: cal.1964-04-10.press-and-broadcasting
+    add:
+    - cal.1964-04-10.program
+- follows:
+    id: cal.1964-04-10.transition-and-staff
+    add:
+    - cal.1964-04-10.press-and-broadcasting
+- follows:
+    id: cal.1964-04-12.china-leadership-7
+    add:
+    - cal.1964-04-12.china-leadership-2
+- follows:
+    id: cal.1964-04-13.china-leadership-10
+    add:
+    - cal.1964-04-13.china-leadership-9
+- follows:
+    id: cal.1964-04-14.consumers
+    add:
+    - cal.1964-04-14.middle-east-2
+- follows:
+    id: cal.1964-04-14.middle-east-3
+    add:
+    - cal.1964-04-14.consumers
+- follows:
+    id: cal.1964-04-14.china-leadership-5
+    add:
+    - cal.1964-04-14.china-leadership-4
+- follows:
+    id: cal.1964-04-15.china-leadership-10
+    add:
+    - cal.1964-04-15.china-leadership-9
+- follows:
+    id: cal.1964-04-16.china-leadership-5
+    add:
+    - cal.1964-04-16.china-leadership-3
+- follows:
+    id: cal.1964-04-23.program
+    add:
+    - cal.1964-04-23.medicare
+- follows:
+    id: cal.1964-04-27.white-house
+    add:
+    - cal.1964-04-27.south-asia
+- follows:
+    id: cal.1964-04-27.labor
+    add:
+    - cal.1964-04-27.white-house
+- follows:
+    id: cal.1964-04-30.japan-and-korea-far-east
+    add:
     - cal.1964-04-30.white-house
+- edit:
+    id: cal.1964-04-10.press-and-broadcasting
+    base: a6263a84
+    set:
+      n: '[[w.johnson-white-house-diary]], 107–08 (Lady Bird Johnson''s account, quoting the AP and the Herald Tribune). After [[cal.1964-04-10.program|the 2:30 reception of the Sandburgs and Steichens]]: the Lincoln Room, tea in the Yellow Room, "Then Lyndon took them out on the Truman Balcony" (108). Names: Johnson.'
+- edit:
+    id: cal.1964-04-10.transition-and-staff
+    base: 607d1a26
+    set:
+      n: '[[w.johnson-white-house-diary]], 108–09 (Lady Bird Johnson''s account). After [[cal.1964-04-10.press-and-broadcasting|the balcony]]: the afternoon''s visit, then "This evening we dined out" (108). Names: Johnson, Lady Bird Johnson, Dillon, Fowler.'
+- edit:
+    id: cal.1964-04-14.consumers
+    base: 72abe9fc
+    set:
+      n: '[[w.johnson-white-house-diary]], 109–10 (Lady Bird Johnson''s account). After [[cal.1964-04-14.middle-east-2|the King''s arrival at 11:30]]: "Meanwhile, I was getting ready to dash over to the Department of Agriculture" (109). Names: Lady Bird Johnson, Freeman, Esther Peterson.'
+- edit:
+    id: cal.1964-04-14.middle-east-3
+    base: 5b235858
+    set:
+      n: '[[w.johnson-white-house-diary]], 110–12 (Lady Bird Johnson''s account; Hoover "never goes to affairs of this sort"). After [[cal.1964-04-14.consumers|the Food and Home Fair]]: the fair, the Senate Ladies'' luncheon, then the guests upstairs "A little before 8" (109–10). See [[cal.1964-04-14.middle-east]]. Names: Johnson, Lady Bird Johnson, Hussein, Warren, Ball, Duke, Hoover.'
+- edit:
+    id: cal.1964-04-27.white-house
+    base: f46b4362
+    set:
+      n: '[[w.johnson-white-house-diary]], 125–27 (Lady Bird Johnson''s account). After [[cal.1964-04-27.south-asia|the coffee with Mrs. Gandhi at 11]]: lunch with Jane Engelhard, then "Later in the day" to Mrs. Kennedy''s (125). Names: Lady Bird Johnson, Jacqueline Kennedy.'
+- edit:
+    id: cal.1964-04-27.labor
+    base: 19c66278
+    set:
+      n: '[[w.johnson-white-house-diary]], 127 (Lady Bird Johnson''s account). After [[cal.1964-04-27.white-house|the call on Mrs. Kennedy]]: "I returned to the White House just in time for one of Lyndon''s instant receptions" (127). Names: Johnson, Lady Bird Johnson.'
+- edit:
+    id: cal.1964-04-30.japan-and-korea-far-east
+    base: d8570652
+    set:
+      n: '[[w.johnson-white-house-diary]], 130 (Lady Bird Johnson''s account). After [[cal.1964-04-30.white-house|the Congressional Club''s breakfast]]: "The first big event of the day" (128), then "The next event of the day was a reception in the Blue Room" (130). Names: Lady Bird Johnson, Duke.'
+- edit:
+    id: cal.1964-04-30.democratic-party
+    base: 84c232ac
+    set:
+      n: '[[w.johnson-white-house-diary]], 130 (Lady Bird Johnson''s account). After [[cal.1964-04-30.japan-and-korea-far-east|the reception for the Japanese Governors]]: "Finally Lyndon and I and Jack Valenti sat down to dinner. Later we returned to the Sheraton Park" (130). Names: Johnson, Lady Bird Johnson.'
+- edit:
+    id: cal.1964-04-12.china-leadership-7
+    base: c4ab2480
+    set:
+      n: '[[w.yang-shangkun-riji]], II, 368 (Apr. 12, 1964). The words: 姚溱在兰州，与他通了话 (II, 368). After [[cal.1964-04-12.china-leadership-2|the talk with Hill]]: the diary has the dinner and talk from 4 to 8, then television at home and work to 1:30, then the call (II, 368). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Yao Zhen.'
+- edit:
+    id: cal.1964-04-14.china-leadership-5
+    base: d6fc780a
+    set:
+      n: '[[w.yang-shangkun-riji]], II, 368 (Apr. 14, 1964). The words: 吴冷西来电话，关于祝贺赫生日电报问题 (II, 368). After [[cal.1964-04-14.china-leadership-4|the evening report on Ke Qingshi''s illness]]: the diary writes the call after the evening''s report and before "办公到2时睡" (II, 368). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wu Lengxi, Yang Shangkun, Khrushchev. Check: Wu''s place: the diary has him call from Changsha on Apr. 13.'
+- edit:
+    id: cal.1964-04-15.china-leadership-10
+    base: f63251a0
+    set:
+      n: '[[w.yang-shangkun-riji]], II, 369 (Apr. 15, 1964). The words: 田家英同志明天出发，来谈话。2时回家睡 (II, 369). After [[cal.1964-04-15.china-leadership-9|the report of the comrades from Shanghai]]: the diary writes the talk after the 8 p.m. meeting, the report to Mao and Deng and the Shanghai comrades'' report, and before going home at 2 (II, 369). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'

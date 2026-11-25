@@ -90,13 +90,25 @@ ops:
     add:
     - cal.1960-09-07.labor-3
 - follows:
-    id: cal.1960-09-07.elections-1960-kennedy-2
+    id: cal.1960-09-07.elections-1960-kennedy-5
     add:
     - cal.1960-09-07.elections-1960-kennedy
+- follows:
+    id: cal.1960-09-07.elections-1960-kennedy-2
+    add:
+    - cal.1960-09-07.elections-1960-kennedy-5
 - follows:
     id: cal.1960-09-07.elections-1960-kennedy-3
     add:
     - cal.1960-09-07.elections-1960-kennedy-2
+- follows:
+    id: cal.1960-09-07.elections-1960-kennedy-4
+    add:
+    - cal.1960-09-07.elections-1960-kennedy-3
+- follows:
+    id: cal.1960-09-07.china-leadership-8
+    add:
+    - cal.1960-09-07.china-leadership-2
 - follows:
     id: cal.1960-09-08.elections-1960-kennedy
     add:
@@ -138,9 +150,13 @@ ops:
     add:
     - cal.1960-09-09.elections-1960-kennedy
 - follows:
-    id: cal.1960-09-09.elections-1960-kennedy-3
+    id: cal.1960-09-09.elections-1960-kennedy-7
     add:
     - cal.1960-09-09.elections-1960-kennedy-2
+- follows:
+    id: cal.1960-09-09.elections-1960-kennedy-3
+    add:
+    - cal.1960-09-09.elections-1960-kennedy-7
 - follows:
     id: cal.1960-09-09.elections-1960-kennedy-4
     add:
@@ -162,9 +178,14 @@ ops:
     add:
     - cal.1960-09-09.elections-1960-kennedy-9
 - follows:
+    id: cal.1960-09-09.elections-1960-religion
+    add:
+    - cal.1960-09-09.elections-1960-kennedy-9
+- follows:
     id: cal.1960-09-09.elections-1960-kennedy-11
     add:
     - cal.1960-09-09.elections-1960-kennedy-8
+    - cal.1960-09-09.elections-1960-religion
 - follows:
     id: cal.1960-09-08.elections-1960
     add:
@@ -211,9 +232,13 @@ ops:
     add:
     - cal.1960-09-13.elections-1960-kennedy
 - follows:
-    id: cal.1960-09-13.elections-1960-kennedy-3
+    id: cal.1960-09-13.elections-1960-kennedy-6
     add:
     - cal.1960-09-13.elections-1960-kennedy-2
+- follows:
+    id: cal.1960-09-13.elections-1960-kennedy-3
+    add:
+    - cal.1960-09-13.elections-1960-kennedy-6
 - follows:
     id: cal.1960-09-13.elections-1960-kennedy-4
     add:
@@ -222,6 +247,10 @@ ops:
     id: cal.1960-09-13.elections-1960-kennedy-7
     add:
     - cal.1960-09-13.elections-1960-kennedy-4
+- follows:
+    id: cal.1960-09-13.china-leadership-3
+    add:
+    - cal.1960-09-13.china-leadership-12
 - follows:
     id: cal.1960-09-14.elections-1960-kennedy
     add:
