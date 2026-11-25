@@ -922,14 +922,16 @@ entries:
   - id: cal.1964-07-02.civil-rights-bill-16
     when: July 2
     date: '1964-07-02'
+    time: 1964-07-02T17:44Z
     thread: civil-rights-bill
     c: 'Johnson to Reedy and Moyers by telephone, on the hour for the television address at the signing: the White House asked for 7:00 p.m., the networks prefer 6:45, which they say brings a larger audience. Johnson: "Six forty-five is four-forty-five in a good part of our country, George"; "They''re selfish bastards" who want public affairs in the afternoon and "don''t want to give up that night primary time."'
-    n: '[[w.purdum-idea-whose-time-has-2014]], 320. To check: TPR, Johnson, vol. 8, 384 (cited by [[w.purdum-idea-whose-time-has-2014]], 320 n.). Names: Johnson, Reedy, Moyers. Check: the hour (after the call to Albert, by the recordings'' page).'
+    n: 'The time: [Johnson and Reedy, 1:44 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-reedy-and-office-conversation-july-2), Conversation WH6407-02-4129 (Miller Center; PRDE''s catalogue: Reedy, Moyers joining). [[w.purdum-idea-whose-time-has-2014]], 320. To check: TPR, Johnson, vol. 8, 384 (cited by [[w.purdum-idea-whose-time-has-2014]], 320 n.). Names: Johnson, Reedy, Moyers. Check: the hour (after the call to Albert, by the recordings'' page). The catalogue puts the Reedy call before the calls with Albert (2:05 and 2:29 p.m.). Check: that the recording is the call Purdum quotes (by its catalogue: Reedy, Moyers joining; not heard).'
     src:
       c: 4e3c0db3
       rows:
         - 'w.purdum-idea-whose-time-has-2014 320: all'
     tags: [name:johnson-lyndon-b, name:reedy-george-e, name:moyers-bill]
+    time_zone: America/New_York
   - id: cal.1964-07-02.china-leadership
     when: July 2
     date: '1964-07-02'
@@ -1026,6 +1028,7 @@ entries:
   - id: cal.1964-07-02.china-leadership-8
     when: July 2
     date: '1964-07-02'
+    time: 1964-07-02T17:30Z
     place: peking
     thread: china-leadership
     c: Peking 北京. Kong Yuan 孔原 with Yang Shangkun 杨尚昆, to 1:30 a.m.
@@ -1035,6 +1038,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 389: all'
     tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
+    time_zone: Asia/Shanghai
   - id: cal.1964-07-02.china-leadership-9
     when: July 2
     date: '1964-07-02'
@@ -4144,11 +4148,14 @@ entries:
   - id: cal.1964-07-13.elections-1964-johnson
     when: July 13
     date: '1964-07-13'
+    time: 1964-07-14T03:00Z
+    time_approx: true
     place: washington
     thread: elections-1964-johnson
     c: 'The White House, Johnson''s small room, until nearly 11 p.m. Johnson meeting with O''Donnell, Valenti, Maguire, "Cliff," Jenkins, "at least eight of the chief political cogs in the machine" by Mrs. Johnson''s count. He comes home with Jenkins and Maguire: "We are on the move."'
     n: '[[w.johnson-white-house-diary]], 177 (Lady Bird Johnson''s account). Check: who "Cliff" is (Cliff Carter?). Names: Johnson, Lady Bird Johnson, O''Donnell, Valenti, Walter Jenkins.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:odonnell-kenneth-p, name:valenti-jack, name:jenkins-walter-w]
+    time_zone: America/New_York
   - id: cal.1964-07-13.china-leadership
     when: July 13
     date: '1964-07-13'
@@ -7843,7 +7850,7 @@ entries:
       rows:
         - 'w.johnson-white-house-diary 183–84: ?'
         - 'w.valenti-very-human-president 145: ?'
-    tags: [name:johnson-lyndon-b, name:goldwater-barry-m]
+    tags: [name:johnson-lyndon-b, name:goldwater-barry-m, ok:fields-time]
     variants:
       - unit: B
         witness: w.valenti-very-human-president

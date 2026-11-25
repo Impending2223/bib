@@ -3216,6 +3216,7 @@ entries:
   - id: cal.1965-06-12.china-leadership-4
     when: June 12
     date: '1965-06-12'
+    time: 1965-06-12T06:00Z
     thread: china-leadership
     follows:
       - cal.1965-06-12.china-leadership-3
@@ -3226,6 +3227,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 632: all'
     tags: [polity:prc, name:li-fuchun, vis:only:prc, name:kong-yuan, name:yang-shangkun]
+    time_zone: Asia/Shanghai
   - id: cal.1965-06-12.china-leadership-5
     when: June 12
     date: '1965-06-12'
@@ -8428,8 +8430,13 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam-operations]
     c: Phú Bổn. June 30 a task force of two paratroop battalions (1st and 5th) and the 2d Battalion of the 40th Regiment, 22d Division, comes up from Cheo Reo to relieve the Central Highlands posts; Regiment 2 ambushes it about 10 km from Cheo Reo and fights until dark; 1 a.m., July 1, it attacks the pocket and after an hour finishes it.
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 431. The time is the first day''s. Check: the result is cut off at III, 431.'
-    tags: [polity:drv, ok:fields-time]
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 431. The time is the attack''s, "1 giờ đêm ngày 1-7" (III, 431); the history does not say whose clock, Saigon''s or Hanoi''s: the range covers both. The ambush of June 30 has no hour. Check: the result is cut off at III, 431.'
+    tags: [polity:drv]
+    time_zone: Asia/Ho_Chi_Minh
+    time_range:
+      - 1965-06-30T17:00Z
+      - 1965-06-30T18:00Z
+    range_basis: record
   - id: cal.1965-06-30.vietnam-hanoi
     when: June 30
     date: '1965-06-30'

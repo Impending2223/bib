@@ -29,15 +29,22 @@ ops:
     id: cal.1963-06-12.mississippi-2
     base: f1771781
     set:
-      time: 1963-06-12T07:00Z
-      time_zone: Etc/GMT+6
-      time_approx: true
+      time_zone: America/Chicago
+      time_range:
+      - 1963-06-12T06:00Z
+      - 1963-06-12T07:00Z
+      range_basis: record
+      n: '[[w.young-easy-burden]], 253–57; the agent, by Young''s account, "the brother-in-law of the sheriff" (257). After the news of the murder: [[w.young-easy-burden]], 253. The time: King''s call to Young and Bevel at Gaston''s, Birmingham, "about one o''clock in the morning" ([[w.young-easy-burden]], 254); Birmingham''s clock in 1963, daylight or standard, in doubt: the range covers both. See [[cal.1963-06-09.mississippi]]. Names: Andrew Young, Martin Luther King, Medgar Evers, Hamer, Ponder, Guyot.'
 - edit:
     id: cal.1963-06-25.mississippi
     base: ba737a2b
     set:
-      time: 1963-06-25T18:00Z
-      time_zone: Etc/GMT+6
+      time_zone: America/Chicago
+      time_range:
+      - 1963-06-25T17:00Z
+      - 1963-06-25T18:00Z
+      range_basis: record
+      n: '[[w.branch-pillar-of-fire]], 113. The time: the arrests "at noon" (113), Mississippi''s clock in 1963, daylight or standard, in doubt: the range covers both. To check: Undated SNCC report entitled Mississippi, A/KP16f15, p. 15 (cited by [[w.branch-pillar-of-fire]], 113); undated affidavit of Douglas MacArthur Cotton, A/MFDP10f1 (cited by [[w.branch-pillar-of-fire]], 113). See [[cal.1963-06-18.mississippi-2]]. Names: Guyot.'
 - edit:
     id: cal.1963-06-25.china-leadership-2
     base: f631c4d0
@@ -117,6 +124,7 @@ ops:
       time: 1964-03-12T14:00Z
       time_zone: Europe/Athens
       time_approx: true
+      n: '[[w.johnson-white-house-diary]], 91–94 (Lady Bird Johnson''s account). The time is the lunch''s; the diary gives the burial no hour (91–93). Names: Lady Bird Johnson, Truman, Labouisse, Couve de Murville, Constantine, Juliana.'
 - edit:
     id: cal.1964-03-13.china-leadership-4
     base: 6036e1e0
@@ -175,6 +183,7 @@ ops:
       time: 1964-06-10T23:00Z
       time_zone: Europe/Istanbul
       time_approx: true
+      n: 'FRUS 1964–68, XVI, [doc. 64](https://history.state.gov/historicaldocuments/frus1964-68v16/d64), n. 2 (the visits, June 10–11). [[w.ball-past-has-another-pattern]], 352–54. The time is the arrival at Ankara, "about two in the morning" of June 11 (353); Ball gives the Athens talk no hour. Names: Papandreou, Ball, İnönü, Johnson, Makarios III, Hare, Erkin.'
 - edit:
     id: cal.1964-06-10.laos
     base: 494c2ebf
@@ -224,10 +233,9 @@ ops:
     id: cal.1964-08-23.mississippi-2
     base: 24ef5559
     set:
-      time: 1964-08-23T04:00Z
       time_zone: America/New_York
-      time_approx: true
-      n: '[[w.branch-pillar-of-fire]], 463. The time is the first day''s. To check: Ibid., p. 24 (cited by [[w.branch-pillar-of-fire]], 463); int. Dorothy Zellner, Dec. 12, 1991 (cited by [[w.branch-pillar-of-fire]], 463). See [[cal.1964-08-22.mississippi]]. Names: Forman, Carmichael.'
+      n: '[[w.branch-pillar-of-fire]], 463. The time: "At midnight Sunday" (463), the night of Aug. 23–24. To check: Ibid., p. 24 (cited by [[w.branch-pillar-of-fire]], 463); int. Dorothy Zellner, Dec. 12, 1991 (cited by [[w.branch-pillar-of-fire]], 463). See [[cal.1964-08-22.mississippi]]. Names: Forman, Carmichael.'
+      time: 1964-08-24T04:00Z
 - edit:
     id: cal.1964-10-27.elections-1964-3
     base: f81cc702
@@ -321,9 +329,12 @@ ops:
     id: cal.1965-06-30.vietnam-hanoi-2
     base: 94361c03
     set:
-      time: 1965-06-30T17:00Z
       time_zone: Asia/Ho_Chi_Minh
-      n: '[[w.lich-su-khang-chien-chong-my]], III, 431. The time is the attack''s, 1 a.m. July 1. Check: the result is cut off at III, 431.'
+      n: '[[w.lich-su-khang-chien-chong-my]], III, 431. The time is the attack''s, "1 giờ đêm ngày 1-7" (III, 431); the history does not say whose clock, Saigon''s or Hanoi''s: the range covers both. The ambush of June 30 has no hour. Check: the result is cut off at III, 431.'
+      time_range:
+      - 1965-06-30T17:00Z
+      - 1965-06-30T18:00Z
+      range_basis: record
 - edit:
     id: cal.1965-08-01.desegregation-schools
     base: d83d561f
@@ -336,6 +347,7 @@ ops:
     set:
       time: 1965-08-15T01:09Z
       time_zone: America/New_York
+      n: '[[w.califano-triumph-and-tragedy-of]], 59–61; [[w.kotz-judgment-days]], 340 (two days without an answer; Anderson: "the violence will rest on the White House''s head"; McNamara and Abrams for the Guard''s request; Califano gives the order; Valenti saves his job); [[w.bernstein-guns-or-butter]], 385–86 (Califano''s account). The time: "9:09 P.M. Eastern time" ([[w.califano-triumph-and-tragedy-of]], 61). Check: the Miller Center''s catalogue has Johnson and Califano at 8:09 p.m. (Conversation WH6508-04-8538), Kotz''s note too (341 n.5). To check: Valenti to Johnson, Aug. 14, 1965, 6:25 p.m., and Califano to Valenti, Aug. 14, 1965, 11:52 p.m., LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 61 n.16, 60 n.14); *Military Support of Law Enforcement During Civil Disturbances: A Report Concerning the California National Guard''s Part in Suppressing the Los Angeles Riot—August 1965*, 28 (cited by [[w.califano-triumph-and-tragedy-of]], 60 n.13). See [[cal.1965-08-11.states-and-cities]]. Names: Johnson, Califano, Abrams, McNamara, Katzenbach, Ramsey Clark, Valenti.'
 - edit:
     id: cal.1965-09-19.china-leadership
     base: 6cc40de6
@@ -346,8 +358,12 @@ ops:
     id: cal.1965-12-05.vietnam-hanoi
     base: ed71a5ca
     set:
-      time: 1965-12-05T09:00Z
       time_zone: Asia/Ho_Chi_Minh
+      time_range:
+      - 1965-12-05T09:00Z
+      - 1965-12-05T10:00Z
+      range_basis: record
+      n: '[[w.lich-su-khang-chien-chong-my]], IV, 62–63. The time: "Đến 17 giờ" (IV, 62), the end of a day-long fight; the history does not say whose clock, Saigon''s or Hanoi''s: the range covers both. Check: the hour is the battle''s end.'
 - edit:
     id: cal.1963-06-11.civil-rights-bill-2
     base: f0abbf1a
@@ -357,6 +373,7 @@ ops:
       - 1963-06-12T00:00Z
       time_zone: America/New_York
       range_basis: record
+      n: '[[w.sorensen-counselor]], 278–79 (Sorensen''s account, written in 2008; Sorensen "made some noises about limited time"; not the hour of the decision). The range is Salinger''s request to the networks, "then after 4:30 p.m." (279), to the 8 p.m. address; Kennedy''s words as Wallace left the doorway came before it, at an hour Sorensen does not give. See [[cal.1963-06-11.alabama]]. Names: Kennedy, Sorensen, Wallace, O''Donnell, O''Brien, Salinger, Robert Kennedy, Marshall.'
 - edit:
     id: cal.1964-05-20.china-leadership
     base: 8c940b27
@@ -370,12 +387,13 @@ ops:
     id: cal.1964-11-03.elections-1964-5
     base: f927e6e1
     set:
-      time_range:
-      - 1964-11-04T06:00Z
-      - 1964-11-04T12:00Z
       time_zone: America/Chicago
+      time_range:
+      - 1964-11-04T02:00Z
+      - 1964-11-04T08:00Z
+      time_band: election night
       range_basis: record
-      time_band: predawn
+      n: '[[w.humphrey-education-of-a-public-1976]], 309; [[w.solberg-hubert-humphrey]], 263 (with Muriel Humphrey, back from Hawaii and Alaska, and Dwayne and Inez Andreas, three and a half hours in the nineteenth-floor suite of the Sheraton Ritz waiting for Johnson to claim victory; Arizona Republican after a close finish). The time: election night, the word "sometime after midnight" within it. See [[cal.1964-11-03.elections-1964]]. Names: Humphrey.'
 - edit:
     id: cal.1964-11-10.china-leadership
     base: a8a5bb6e
@@ -406,6 +424,76 @@ ops:
       time_zone: Asia/Ho_Chi_Minh
       range_basis: record
       time_band: afternoon
+- edit:
+    id: cal.1963-12-17.china-leadership-4
+    base: 2228671d
+    set:
+      time: 1963-12-17T07:30Z
+      time_zone: Asia/Shanghai
+      n: '[[w.yang-shangkun-riji]], II, 335–336 (Dec. 17, 1963). The words: 3时半请孙大夫看病、针灸 (II, 335). The time is 3:30 p.m.: the diary sets it after the morning''s talk with Kang Yimin and before the afternoon''s 4:30 farewell to Luo Ronghuan (II, 335). The time is the first day''s. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Sun Zhenhuan, Yang Shangkun.'
+- edit:
+    id: cal.1964-06-15.vietnam-4
+    base: 06ee513c
+    set:
+      time_range:
+      - 1964-06-15T23:00Z
+      - 1964-06-16T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      n: '[[w.valenti-very-human-president]], 299–300 (Valenti''s account). The time: after the dinner, the evening. See [[cal.1964-06-15.elections-1964-johnson]]. Names: Johnson, Clifford, Alsop, Valenti.'
+- edit:
+    id: cal.1964-06-21.mississippi
+    base: 39b904da
+    set:
+      c: Chaney, Goodman and Schwerner, of CORE's Meridian project, missing in Neshoba County after a visit to the burned Mount Zion church at Longdale. Deputy Sheriff Price had held them in the Philadelphia jail; released after 10 p.m. June 21, their burned station wagon found near the Bogue Chitto June 23; Johnson sees Goodman's and Schwerner's parents and sends Dulles to Mississippi. Check the last.
+      time_range:
+      - 1964-06-21T20:00Z
+      - 1964-06-21T21:00Z
+      time_zone: America/Chicago
+      range_basis: record
+      n: 'The President''s News Conference, [1963–64 Pub. Papers 802](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=886) (June 23, 1964). *United States v. Price*, [383 U.S. 787](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383787/usrep383787.pdf) (1966). [[w.dittmer-local-people]], 246–51 (247: Price, the jail, the release at about 10:30; 250: the President on the telephone to Eastland and Governor Johnson, Dulles to Jackson; not the station wagon''s day); [[w.branch-pillar-of-fire]], 361–64; [[w.taking-charge]], 425; [[w.taking-charge]], 431–39. The Court''s opinion has Price detain the three June 21 and release them "in the dark of that night" (383 U.S. at 790); Dittmer, 247, the same, the release "about 10:30 that night"; the June 23 the line set beside the release is kept with the station wagon. The time is the arrest, "shortly after 3:00 P.M." (Dittmer, 247), Mississippi''s clock in 1964, daylight or standard, in doubt: the range covers both. To check: [[w.taking-charge-2001]]; [[w.mars-witness-in-philadelphia]]; [[w.cagin-we-are-not-afraid]]; [[w.gage-g-man]]; President''s Daily Diary, June 23, 1964 ([National Archives Catalog](https://catalog.archives.gov/id/192440)) (cited by [[w.dittmer-local-people]], 250 n.16). See [[cal.1964-06-14.mississippi]]. Names: Chaney, Goodman, Schwerner, Price, Johnson, Dulles. Check: the station wagon''s day, June 23 (no source read gives it).'
+    kind: correct
+- edit:
+    id: cal.1964-07-02.civil-rights-bill-16
+    base: ceb048e7
+    set:
+      time: 1964-07-02T17:44Z
+      time_zone: America/New_York
+      n: 'The time: [Johnson and Reedy, 1:44 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-reedy-and-office-conversation-july-2), Conversation WH6407-02-4129 (Miller Center; PRDE''s catalogue: Reedy, Moyers joining). [[w.purdum-idea-whose-time-has-2014]], 320. To check: TPR, Johnson, vol. 8, 384 (cited by [[w.purdum-idea-whose-time-has-2014]], 320 n.). Names: Johnson, Reedy, Moyers. Check: the hour (after the call to Albert, by the recordings'' page). The catalogue puts the Reedy call before the calls with Albert (2:05 and 2:29 p.m.). Check: that the recording is the call Purdum quotes (by its catalogue: Reedy, Moyers joining; not heard).'
+- edit:
+    id: cal.1964-10-01.students
+    base: 641e9ab1
+    set:
+      time: 1964-10-01T19:30Z
+      time_zone: America/Los_Angeles
+      n: 'Free Speech Movement, [*Chronicle of the Free Speech Controversy*](https://www.fsm-a.org/stacks/FSM_chronofcontrov.html) (leaflet). [[w.branch-pillar-of-fire]], 503, 505–06; [[w.bernstein-guns-or-butter]], 403–05 (Savio''s three demands; the pack-in; Oct. 2, the agreement at 7:20); [[w.perlstein-before-the-storm]], 448–49 (the United Front of nineteen groups, right to left, YAF and the Young Republicans among them; Weinberg''s arrest; Savio on the car''s roof). The time: the police car surrounded from "12:30 PM Thursday" (the leaflet). The time is the first day''s. To check: [[w.rorabaugh-berkeley-at-war]]; [[w.cohen-freedoms-orator]]; [[w.gitlin-sixties]]; [[w.berkeley-in-the-sixties]]; Heirich, The Beginning, pp. 98–119 (cited by [[w.branch-pillar-of-fire]], 503); Viorst, Fire in the Streets, pp. 290–91 (cited by [[w.branch-pillar-of-fire]], 503); Heirich, The Beginning, pp. 129–44 (cited by [[w.branch-pillar-of-fire]], 505); Viorst, Fire in the Streets, pp. 29108 (cited by [[w.branch-pillar-of-fire]], 505). See [[cal.1962-06-11.students]]. Names: Savio, Weinberg, Kerr.'
+- edit:
+    id: cal.1965-03-05.civil-rights-organizations
+    base: '27478319'
+    set:
+      time: 1965-03-06T03:00Z
+      time_approx: true
+      time_zone: America/New_York
+      n: '[[w.branch-at-canaans-edge]], 29–31, 40–42, 50. The time: the committee "convened before ten o''clock Friday night" (29). The time is the first day''s. To check: Minutes, SNCC executive committee meeting, Mar. 5, 1965, and Mar. 6, 1965, SNCC Papers, King Library and Archives; John P. Lewis and Silas Norman, Jr., to King, Mar. 7, 1965, King Papers, King Library and Archives (cited by [[w.branch-at-canaans-edge]], 29–31, 40–42). See [[cal.1965-03-07.voting-rights]]. Names: Forman, John Lewis, Martin Luther King.'
+- edit:
+    id: cal.1965-03-21.alabama-birmingham
+    base: cf9417d7
+    set:
+      time_range:
+      - 1965-03-21T11:00Z
+      - 1965-03-21T14:00Z
+      time_band: early morning
+      time_zone: America/Chicago
+      range_basis: record
+      n: '[[w.branch-at-canaans-edge]], 140, 145. The time: the first box found at "early Sunday mass" (140). To check: Moyers to Johnson, Mar. 21, 1965, and "Bombing Devices Found in Birmingham," 10:45 p.m., Mar. 21, 1965, WH Confidential, box 56, LBJ Library; [*New York Times*, Mar. 22, 1965](https://timesmachine.nytimes.com/timesmachine/1965/03/22/issue.html), at 1, 27 (cited by [[w.branch-at-canaans-edge]], 140, 145). See [[cal.1963-09-15.alabama]]. Names: Moyers, Johnson.'
+- edit:
+    id: cal.1965-12-20.soviet-union-leadership
+    base: a5e537af
+    set:
+      time: 1965-12-20T08:00Z
+      time_zone: Europe/Moscow
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 97–98 (Dec. 20–22). The words: выехал в Завидово в 11⁰⁰ (II, 97). The time is the first day''s. Names: Brezhnev, Kekkonen, Podgorny.'
 - tag:
     id: cal.1963-02.defense-8
     add:
@@ -447,14 +535,6 @@ ops:
     add:
     - ok:fields-time
 - tag:
-    id: cal.1964-06-15.vietnam-4
-    add:
-    - ok:fields-time
-- tag:
-    id: cal.1964-07-02.civil-rights-bill-16
-    add:
-    - ok:fields-time
-- tag:
     id: cal.1964-07-24.labor
     add:
     - ok:fields-time
@@ -468,10 +548,6 @@ ops:
     - ok:fields-time
 - tag:
     id: cal.1964-09.elections-1964-johnson
-    add:
-    - ok:fields-time
-- tag:
-    id: cal.1965-03-21.alabama-birmingham
     add:
     - ok:fields-time
 - tag:
@@ -489,4 +565,12 @@ ops:
 - tag:
     id: cal.1965-11-28.soviet-union-leadership
     add:
+    - ok:fields-time
+- tag:
+    id: cal.1965-06-30.vietnam-hanoi-2
+    remove:
+    - ok:fields-time
+- tag:
+    id: cal.1965-12-05.vietnam-hanoi
+    remove:
     - ok:fields-time

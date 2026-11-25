@@ -1055,8 +1055,13 @@ entries:
     thread: vietnam-hanoi
     also: [vietnam-operations]
     c: Bàu Đa Dội, Long Nguyên, Bến Cát. Regiment 2 of the 9th Division attacks the 2d Brigade, 1st Infantry Division, in a day-long fight under heavy air and artillery; at 5 p.m. it holds the field, a company destroyed, another battalion hurt. The brigade leaves Dầu Tiếng.
-    n: '[[w.lich-su-khang-chien-chong-my]], IV, 62–63. Check: the hour is the battle''s end.'
-    tags: [polity:drv, polity:us, ok:fields-time]
+    n: '[[w.lich-su-khang-chien-chong-my]], IV, 62–63. The time: "Đến 17 giờ" (IV, 62), the end of a day-long fight; the history does not say whose clock, Saigon''s or Hanoi''s: the range covers both. Check: the hour is the battle''s end.'
+    tags: [polity:drv, polity:us]
+    time_zone: Asia/Ho_Chi_Minh
+    time_range:
+      - 1965-12-05T09:00Z
+      - 1965-12-05T10:00Z
+    range_basis: record
   - id: cal.1965-12-05.china-leadership-8
     when: Dec. 5
     date: '1965-12-05'
@@ -1606,6 +1611,12 @@ entries:
         witness: w.lich-su-khang-chien-chong-my
         reads: the ARVN 5th Task Force and two armored squadrons open Liên Kết 18 to relieve the Việt An post after twelve days of siege; Dec. 9 the Saigon force beaten, and five Marine battalions landed on the shore and in the hills, Dec. 9 and 10, at An Lý, Châu Xuân, Cẩm La, La Ngà and Chiêm Sơn
         at: IV, 63
+    time_range:
+      - 1965-12-08T04:00Z
+      - 1965-12-08T10:00Z
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
+    time_band: afternoon
   - id: cal.1965-12-08.vietnam-pause
     when: Dec. 8
     date: '1965-12-08'
@@ -3814,10 +3825,12 @@ entries:
   - id: cal.1965-12-20.soviet-union-leadership
     when: Dec. 20–22
     date: '1965-12-20'
+    time: 1965-12-20T08:00Z
     thread: soviet-union-leadership
     c: Moscow. Kekkonen, President of Finland. Brezhnev and Podgorny take him to Zavidovo Dec. 20; Brezhnev is with Kekkonen all of Dec. 21; Dec. 22, 10:20 to 12, he joins the negotiation in the Kremlin.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 97–98 (Dec. 20–22). Names: Brezhnev, Kekkonen, Podgorny.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 97–98 (Dec. 20–22). The words: выехал в Завидово в 11⁰⁰ (II, 97). The time is the first day''s. Names: Brezhnev, Kekkonen, Podgorny.'
     tags: [name:brezhnev-leonid, name:podgorny-nikolai-v, name:kekkonen-urho, polity:ussr, polity:finland]
+    time_zone: Europe/Moscow
   - id: cal.1965-12-20.china-leadership
     when: Dec. 20
     date: '1965-12-20'

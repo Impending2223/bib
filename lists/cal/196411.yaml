@@ -1509,13 +1509,19 @@ entries:
     place: minneapolis
     thread: elections-1964
     c: 'Minneapolis, the Sheraton-Ritz, election night. Humphrey with several hundred friends and staff in a ballroom, Gates''s arrangements; sometime after midnight Secret Service agents at his table: he is Vice President-elect. By Humphrey''s account.'
-    n: '[[w.humphrey-education-of-a-public-1976]], 309; [[w.solberg-hubert-humphrey]], 263 (with Muriel Humphrey, back from Hawaii and Alaska, and Dwayne and Inez Andreas, three and a half hours in the nineteenth-floor suite of the Sheraton Ritz waiting for Johnson to claim victory; Arizona Republican after a close finish). See [[cal.1964-11-03.elections-1964]]. Names: Humphrey.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 309; [[w.solberg-hubert-humphrey]], 263 (with Muriel Humphrey, back from Hawaii and Alaska, and Dwayne and Inez Andreas, three and a half hours in the nineteenth-floor suite of the Sheraton Ritz waiting for Johnson to claim victory; Arizona Republican after a close finish). The time: election night, the word "sometime after midnight" within it. See [[cal.1964-11-03.elections-1964]]. Names: Humphrey.'
     src:
       c: f94991b5
       rows:
         - 'w.humphrey-education-of-a-public-1976 309: all'
         - 'w.solberg-hubert-humphrey 263: ?'
     tags: [name:humphrey-hubert-h, state:mn, city:minneapolis]
+    time_zone: America/Chicago
+    time_range:
+      - 1964-11-04T02:00Z
+      - 1964-11-04T08:00Z
+    time_band: election night
+    range_basis: record
   - id: cal.1964-11-03.elections-1964-johnson
     when: Nov. 3–4
     date: '1964-11-03'
@@ -3224,6 +3230,8 @@ entries:
   - id: cal.1964-11-08.vietnam-saigon
     when: Nov. 8
     date: '1964-11-08'
+    time: 1964-11-07T23:15Z
+    time_approx: true
     thread: vietnam-saigon
     c: 'The decrees on the High Command, translated by 7:15 a.m. for Westmoreland, already signed: cumbersome and ambiguous by MACV''s reading, the checks on promotions, appointments and budget gone. Westmoreland and Taylor object.'
     n: '[[w.macv-command-history-1964]], 159. To check: Decree, 8 Nov 64, The Organization of High Command, RVNAF (cited by [[w.macv-command-history-1964]], 159 n.23). See [[cal.1964-11-07.vietnam-saigon]]. Names: Westmoreland, Taylor.'
@@ -3233,6 +3241,7 @@ entries:
         - 'w.macv-command-history-1964 159: all'
         - 'via w.macv-command-history-1964 159 n.23: all'
     tags: [name:westmoreland-william, name:taylor-maxwell]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1964-11-08.republican-party
     when: Nov. 8
     date: '1964-11-08'
@@ -3884,6 +3893,12 @@ entries:
         - 'w.lengxi-shinian-lunzhan-1956-1966 868–874: A, B, C, D, E, F, G'
         - 'w.deng-xiaoping-nianpu-1904 III, 1836: ?'
     tags: [name:mao-zedong, name:khrushchev-nikita-s, name:deng-xiaoping, name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1964-11-10T11:00Z
+      - 1964-11-10T14:00Z
+    time_zone: Asia/Shanghai
+    range_basis: record
+    time_band: evening
   - id: cal.1964-11-10.china-leadership-2
     when: Nov. 10
     date: '1964-11-10'

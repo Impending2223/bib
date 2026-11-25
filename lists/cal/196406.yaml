@@ -1823,6 +1823,8 @@ entries:
   - id: cal.1964-06-06.elections-1964
     when: June 6
     date: '1964-06-06'
+    time: 1964-06-07T10:00Z
+    time_approx: true
     place: cleveland
     thread: elections-1964-scranton
     also: [goldwater]
@@ -1837,6 +1839,7 @@ entries:
         - 'w.novak-agony-of-the-g 422–23: all'
     tags: [name:white-f-clifton, state:oh, name:scranton-william-w, name:rhodes-james-a, name:goldwater-barry-m]
     aliases: [cal.1964-06-06.goldwater]
+    time_zone: America/New_York
   - id: cal.1964-06-06.vietnam
     when: June 6
     date: '1964-06-06'
@@ -3478,15 +3481,18 @@ entries:
   - id: cal.1964-06-10.cyprus
     when: June 10–11
     date: '1964-06-10'
+    time: 1964-06-10T23:00Z
+    time_approx: true
     thread: cyprus
     c: 'Athens, then Ankara. Papandreou to Ball, by Ball''s account: the time not ripe; a solution by enosis; he will not talk with İnönü, but will visit Johnson; Makarios a nuisance, to be left out. Ankara, about 2 a.m.: Hare. Erkin at 9; then İnönü, hurt by Johnson''s letter, its "juridical thunderbolts": the Foreign Office will have to answer them.'
-    n: 'FRUS 1964–68, XVI, [doc. 64](https://history.state.gov/historicaldocuments/frus1964-68v16/d64), n. 2 (the visits, June 10–11). [[w.ball-past-has-another-pattern]], 352–54. Names: Papandreou, Ball, İnönü, Johnson, Makarios III, Hare, Erkin.'
+    n: 'FRUS 1964–68, XVI, [doc. 64](https://history.state.gov/historicaldocuments/frus1964-68v16/d64), n. 2 (the visits, June 10–11). [[w.ball-past-has-another-pattern]], 352–54. The time is the arrival at Ankara, "about two in the morning" of June 11 (353); Ball gives the Athens talk no hour. Names: Papandreou, Ball, İnönü, Johnson, Makarios III, Hare, Erkin.'
     src:
       c: d186e82c
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v16/d64: A'
         - 'w.ball-past-has-another-pattern 352–54: all'
     tags: [name:papandreou-george, name:ball-george-w, name:inonu-ismet, name:johnson-lyndon-b, name:makarios-iii, name:hare-raymond-a, name:erkin-feridun-c]
+    time_zone: Europe/Istanbul
   - id: cal.1964-06-10.vietnam-force-levels
     when: June 10
     date: '1964-06-10'
@@ -3663,6 +3669,7 @@ entries:
   - id: cal.1964-06-10.laos
     when: June 10
     date: '1964-06-10'
+    time: 1964-06-10T16:00Z
     thread: laos
     c: 'Hanoi and Peking radios denounce the strafing that day of Khang Khay by American jets; a Chinese colonel of the economic and cultural mission killed, they say. State''s noon briefing acknowledges Air Force reconnaissance over the Plain of Jars the day before, the escorts returning fire. Unger: "a liar a second time in three days."'
     n: '[[w.anthony-war-in-northern-laos]], 114–15; [[w.lich-su-khang-chien-chong-my]], III, 369 (June 11, 1964: American planes bomb Khăng Khay, Xiêng Khoảng, civilians dead and wounded). Check: Souphanouvong told the control commission, June 16, the attack was June 11, by six T-28s "piloted by Americans" (114); who struck Khang Khay not settled. To check: AmEmb Vientiane to SECSTATE, 1587, June 11, 1964 (cited by [[w.anthony-war-in-northern-laos]], 114 n.34a); AmEmb Vientiane to SECSTATE, 1614, June 13, 1964 (cited by [[w.anthony-war-in-northern-laos]], 114 n.34b); SECSTATE to AmEmb Vientiane, 1170, June 10, 1964 (cited by [[w.anthony-war-in-northern-laos]], 115 n.40); AmEmb Vientiane to SECSTATE, 1586, June 10, 1964 (cited by [[w.anthony-war-in-northern-laos]], 115 n.41). See [[cal.1964-06-09.laos]]. Names: Unger.'
@@ -3681,6 +3688,7 @@ entries:
         witness: w.lich-su-khang-chien-chong-my
         reads: American planes bomb the town of Khăng Khay on June 11, killing and wounding many civilians
         at: III, 369
+    time_zone: America/New_York
   - id: cal.1964-06-10.civil-rights-bill-5
     when: June 10
     date: '1964-06-10'
@@ -5417,8 +5425,14 @@ entries:
     place: washington
     thread: vietnam
     c: 'The White House, after dinner for the Cliffords and the Alsops. Johnson, Clifford, Joseph Alsop and Valenti walk five times round the Ellipse, about a mile and a quarter. Johnson presses Alsop: "what the hell would you do at 9:00 a.m. tomorrow morning?" Alsop answers in generalities. To Clifford and Valenti: Alsop is like de Gaulle on neutralization, "Don''t bother me, those are just details." By Valenti''s account.'
-    n: '[[w.valenti-very-human-president]], 299–300 (Valenti''s account). See [[cal.1964-06-15.elections-1964-johnson]]. Names: Johnson, Clifford, Alsop, Valenti.'
+    n: '[[w.valenti-very-human-president]], 299–300 (Valenti''s account). The time: after the dinner, the evening. See [[cal.1964-06-15.elections-1964-johnson]]. Names: Johnson, Clifford, Alsop, Valenti.'
     tags: [name:johnson-lyndon-b, name:clifford-clark, name:alsop-joseph, name:valenti-jack]
+    time_range:
+      - 1964-06-15T23:00Z
+      - 1964-06-16T02:00Z
+    time_band: evening
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1964-06-15.civil-rights-organizations
     when: June 15
     date: '1964-06-15'
@@ -5826,6 +5840,7 @@ entries:
   - id: cal.1964-06-16.china-leadership-5
     when: June 16
     date: '1964-06-16'
+    time: 1964-06-16T15:00Z
     thread: china-leadership
     c: Near Nankou 南口. An artillery exercise, after the display at the Ming Tombs 十三陵; Yang Shangkun 杨尚昆 watches; back at 11 p.m.
     n: '[[w.yang-shangkun-riji]], II, 384 (June 16, 1964). The words: 5时到6时看了水上表演，随后去南口附近，看炮兵演习，夜间11时才回 (II, 384). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
@@ -5834,6 +5849,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 384: all'
     tags: [polity:prc, vis:only:prc, name:yang-shangkun]
+    time_zone: Asia/Shanghai
   - id: cal.1964-06-16.china-leadership-6
     when: June 16
     date: '1964-06-16'
@@ -7341,8 +7357,8 @@ entries:
     when: June 21
     date: '1964-06-21'
     thread: mississippi
-    c: Chaney, Goodman and Schwerner, of CORE's Meridian project, missing in Neshoba County after a visit to the burned Mount Zion church at Longdale. Deputy Sheriff Price had held them in the Philadelphia jail; released after 10 p.m. June 23, their burned station wagon found near the Bogue Chitto; Johnson sees Goodman's and Schwerner's parents and sends Dulles to Mississippi. Check the last.
-    n: 'The President''s News Conference, [1963–64 Pub. Papers 802](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=886) (June 23, 1964). *United States v. Price*, [383 U.S. 787](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383787/usrep383787.pdf) (1966). [[w.dittmer-local-people]], 246–51 (247: Price, the jail, the release at about 10:30; 250: the President on the telephone to Eastland and Governor Johnson, Dulles to Jackson; not the station wagon''s day); [[w.branch-pillar-of-fire]], 361–64; [[w.taking-charge]], 425; [[w.taking-charge]], 431–39. To check: [[w.taking-charge-2001]]; [[w.mars-witness-in-philadelphia]]; [[w.cagin-we-are-not-afraid]]; [[w.gage-g-man]]; President''s Daily Diary, June 23, 1964 ([National Archives Catalog](https://catalog.archives.gov/id/192440)) (cited by [[w.dittmer-local-people]], 250 n.16). See [[cal.1964-06-14.mississippi]]. Names: Chaney, Goodman, Schwerner, Price, Johnson, Dulles.'
+    c: Chaney, Goodman and Schwerner, of CORE's Meridian project, missing in Neshoba County after a visit to the burned Mount Zion church at Longdale. Deputy Sheriff Price had held them in the Philadelphia jail; released after 10 p.m. June 21, their burned station wagon found near the Bogue Chitto June 23; Johnson sees Goodman's and Schwerner's parents and sends Dulles to Mississippi. Check the last.
+    n: 'The President''s News Conference, [1963–64 Pub. Papers 802](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=886) (June 23, 1964). *United States v. Price*, [383 U.S. 787](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383787/usrep383787.pdf) (1966). [[w.dittmer-local-people]], 246–51 (247: Price, the jail, the release at about 10:30; 250: the President on the telephone to Eastland and Governor Johnson, Dulles to Jackson; not the station wagon''s day); [[w.branch-pillar-of-fire]], 361–64; [[w.taking-charge]], 425; [[w.taking-charge]], 431–39. The Court''s opinion has Price detain the three June 21 and release them "in the dark of that night" (383 U.S. at 790); Dittmer, 247, the same, the release "about 10:30 that night"; the June 23 the line set beside the release is kept with the station wagon. The time is the arrest, "shortly after 3:00 P.M." (Dittmer, 247), Mississippi''s clock in 1964, daylight or standard, in doubt: the range covers both. To check: [[w.taking-charge-2001]]; [[w.mars-witness-in-philadelphia]]; [[w.cagin-we-are-not-afraid]]; [[w.gage-g-man]]; President''s Daily Diary, June 23, 1964 ([National Archives Catalog](https://catalog.archives.gov/id/192440)) (cited by [[w.dittmer-local-people]], 250 n.16). See [[cal.1964-06-14.mississippi]]. Names: Chaney, Goodman, Schwerner, Price, Johnson, Dulles. Check: the station wagon''s day, June 23 (no source read gives it).'
     src:
       c: dd2b7065
       rows:
@@ -7356,6 +7372,11 @@ entries:
         - 'w.taking-charge 431–39: E'
     tags: [name:chaney-james-e, name:goodman-andrew, name:schwerner-michael, name:price-cecil-r, name:johnson-lyndon-b, name:dulles-allen-w]
     short: Chaney, Goodman, Schwerner
+    time_range:
+      - 1964-06-21T20:00Z
+      - 1964-06-21T21:00Z
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1964-06-21.opinion
     when: June 21
     date: '1964-06-21'

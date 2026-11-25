@@ -1813,7 +1813,7 @@ entries:
         - 'https://www.presidency.ucsb.edu/documents/statement-the-president-urging-railroad-management-and-union-leaders-arbitrate-their: all'
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=619: all'
         - 'w.sorensen-kennedy 442: all'
-    tags: [name:kennedy-john-f, name:goldberg-arthur-j, name:wirtz-w-willard, name:hodges-luther-h, name:meany-george]
+    tags: [name:kennedy-john-f, name:goldberg-arthur-j, name:wirtz-w-willard, name:hodges-luther-h, name:meany-george, ok:fields-time]
     short: the strike deadlines
   - id: cal.1963-07-09.cuba
     when: July 9
@@ -2349,7 +2349,7 @@ entries:
       c: d159e293
       rows:
         - 'w.yang-shangkun-riji II, 296: all'
-    tags: [polity:prc, vis:only:prc+ussr]
+    tags: [polity:prc, vis:only:prc+ussr, ok:fields-time]
   - id: cal.1963-07-11.china-leadership-6
     when: July 11
     date: '1963-07-11'
@@ -2603,6 +2603,7 @@ entries:
   - id: cal.1963-07-12.china-leadership-8
     when: July 12
     date: '1963-07-12'
+    time: 1963-07-12T17:00Z
     place: moscow
     thread: china-leadership
     also: [soviet-union]
@@ -2615,6 +2616,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 296: all'
     tags: [polity:prc, vis:only:prc, name:li-yan, name:yang-shangkun]
+    time_zone: Europe/Moscow
   - id: cal.1963-07-12.testing
     when: July 12
     date: '1963-07-12'
@@ -3734,7 +3736,7 @@ entries:
       rows:
         - 'w.purdum-idea-whose-time-has-2014 81: A-D'
       c: 633d332f
-    tags: [name:ervin-sam-j-jr, name:eastland-james-o, name:keating-kenneth-b, name:dodd-thomas-j]
+    tags: [name:ervin-sam-j-jr, name:eastland-james-o, name:keating-kenneth-b, name:dodd-thomas-j, ok:fields-time]
   - id: cal.1963-07-17.china-leadership
     when: July 17
     date: '1963-07-17'
@@ -4583,6 +4585,8 @@ entries:
   - id: cal.1963-07-20.china-leadership-9
     when: July 20
     date: '1963-07-20'
+    time: 1963-07-20T08:30Z
+    time_approx: true
     place: moscow
     thread: china-leadership
     also: [soviet-union]
@@ -4595,6 +4599,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 300: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Europe/Moscow
   - id: cal.1963-07-20.china-leadership-10
     when: July 20
     date: '1963-07-20'

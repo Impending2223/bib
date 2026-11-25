@@ -1198,6 +1198,7 @@ entries:
   - id: cal.1964-04-05.china-leadership-8
     when: Apr. 5
     date: '1964-04-05'
+    time: 1964-04-05T16:30Z
     place: peking
     thread: china-leadership
     follows:
@@ -1209,6 +1210,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 366: all'
     tags: [polity:prc, vis:only:prc, name:kong-yuan, name:xu-ming, name:yang-shangkun]
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-05.china-leadership-9
     when: Apr. 5
     date: '1964-04-05'
@@ -2628,7 +2630,7 @@ entries:
       rows:
         - 'w.whalen-longest-debate 161–62: all'
         - 'via x.1964-04-10.congressional-record-7589: all'
-    tags: [name:johnston-olin-d, name:ervin-sam-j-jr, name:humphrey-hubert-h, name:dirksen-everett]
+    tags: [name:johnston-olin-d, name:ervin-sam-j-jr, name:humphrey-hubert-h, name:dirksen-everett, ok:fields-time]
   - id: cal.1964-04-10.program
     when: Apr. 10
     date: '1964-04-10'
@@ -5107,10 +5109,13 @@ entries:
   - id: cal.1964-04-19.white-house
     when: Apr. 19
     date: '1964-04-19'
+    time: 1964-04-19T15:15Z
+    time_approx: true
     thread: white-house
     c: Johnson and Mrs. Johnson to St. Mark's Church with Dillon and Mrs. Dillon and Stevenson, who had come about 10:15 to talk a little business; Johnson shakes hands with tourists at the gate. Lunch with the Dillons and the McNamaras.
     n: '[[w.johnson-white-house-diary]], 114–15 (Lady Bird Johnson''s account; she does not say what Stevenson''s business was). Names: Johnson, Lady Bird Johnson, Dillon, Stevenson, McNamara.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:dillon-c-douglas, name:stevenson-adlai-e, name:mcnamara-robert-s]
+    time_zone: America/New_York
   - id: cal.1964-04-19.china-leadership
     when: Apr. 19
     date: '1964-04-19'

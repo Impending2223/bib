@@ -2086,6 +2086,7 @@ entries:
   - id: cal.1964-05-09.elections-1964-state-conventions
     when: May 9
     date: '1964-05-09'
+    time: 1964-05-09T11:30Z
     place: lansing
     thread: elections-1964-state-conventions
     c: 'Lansing, Michigan''s Republican convention. White with Romney at 6:30 a.m., Romney back from the tornadoes at Flint: Goldwater''s share of the twelve delegates at large. One at large and an alternate for Goldwater, eight delegates in all; Romney holds the other forty as favorite son.'
@@ -2095,6 +2096,7 @@ entries:
       rows:
         - 'w.white-suite-3505 322–24: all'
     tags: [name:white-f-clifton, name:romney-george-w, name:goldwater-barry-m, state:mi]
+    time_zone: America/Detroit
   - id: cal.1964-05-09.vietnam
     when: May 9
     date: '1964-05-09'
@@ -2877,6 +2879,7 @@ entries:
   - id: cal.1964-05-12.civil-rights-bill-2
     when: May 12
     date: '1964-05-12'
+    time: 1964-05-13T04:18Z
     place: washington
     thread: civil-rights-bill
     c: 'Evening. Mansfield keeps the Senate in until 12:18 a.m., a shot across the Southerners'' bow. Russell: "That doesn''t scare us. ... We''re ready for it."'
@@ -2886,6 +2889,7 @@ entries:
       rows:
         - 'w.risen-bill-of-the-century 217: all'
     tags: [name:mansfield-mike, name:russell-richard-b]
+    time_zone: America/New_York
   - id: cal.1964-05-12.civil-rights-bill-3
     when: May 12
     date: '1964-05-12'
@@ -3065,16 +3069,18 @@ entries:
   - id: cal.1964-05-13.elections-1964
     when: May 13
     date: '1964-05-13'
+    time: 1964-05-13T22:30Z
     place: oregon
     thread: elections-1964-primaries
     c: 'Oregon, Rockefeller''s last week, alone in the State: "He Cares Enough to Come": the Gateway Shopping Center, 3:30 p.m.; the University of Portland, 8 p.m. His "mainstream": the party must move with it. Price''s direct mail and a television barrage for the last forty-eight hours.'
-    n: '[[w.white-making-of-the-president-1965]], 112–14; [[w.smith-on-his-own-terms]], 433, 437 ("He Cares Enough to Come," Deardourff''s; the University of Portland: "What do the absent advocate?"). See [[cal.1964-04-11.elections-1964]]. Names: Rockefeller.'
+    n: '[[w.white-making-of-the-president-1965]], 112–14; [[w.smith-on-his-own-terms]], 433, 437 ("He Cares Enough to Come," Deardourff''s; the University of Portland: "What do the absent advocate?"). The time is the first stop''s. See [[cal.1964-04-11.elections-1964]]. Names: Rockefeller.'
     src:
       c: e0bcaea8
       rows:
         - 'w.white-making-of-the-president-1965 112–14: all'
         - 'w.smith-on-his-own-terms 433, 437: A-B'
     tags: [name:rockefeller-nelson, state:or]
+    time_zone: America/Los_Angeles
   - id: cal.1964-05-13.vietnam
     when: May 13
     date: '1964-05-13'
@@ -4220,7 +4226,7 @@ entries:
       c: d1fe4581
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1812: all'
-    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, name:tan-zhenlin, name:zhou-enlai, vis:only:prc, name:li-fuchun]
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, name:tan-zhenlin, name:zhou-enlai, vis:only:prc, name:li-fuchun, ok:fields-time]
   - id: cal.1964-05-17.china-leadership-5
     when: May 17
     date: '1964-05-17'
@@ -5087,6 +5093,11 @@ entries:
     c: 'Zhou flies from Shanghai to Tianjin. With Chen Yi, He Long and Peng Zhen visits a garrison unit at Yangcun and watches a military exercise. On the drill ground raises a fist with the soldiers: heighten vigilance, defend the fatherland. Praises the traditional method of officers and men teaching each other; checks each soldier''s explosive charges against combat standard. Evening, in the rain, watches the "Night Tiger Company" report. Tells the troops to master Mao''s military thought, train in close and night fighting, prepare fully for a war of resistance; in three to five years all troops so trained and the militia too, and none could beat China. Back in Beijing at midnight.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 643–44 (May 20, 1964); [[w.peng-zhen-nianpu-1902]], IV, 334 (May 20, 1964; Peng Zhen, with Chen Yi and He Long, accompanies Zhou Enlai to a unit at Yangcun to see a military exercise; in the evening, in the rain, the "Night Tiger Company''s" display; back to Peking at midnight); [[w.chen-yi-nianpu]], 1030 (May 20, 1964, afternoon; Chen Yi with Peng Zhen, He Long, Luo Ruiqing, Yang Yong 杨勇 and others accompanies Zhou at the Yangcun 杨村 range, Tianjin, to watch the Peking Military Region''s "crack units"). Made public: 1997. Names: Zhou Enlai, Chen Yi, He Long, Peng Zhen.'
     tags: [name:zhou-enlai, name:chen-yi, name:he-long, name:peng-zhen, polity:prc, vis:only:prc]
+    time_range:
+      - 1964-05-20T04:00Z
+      - 1964-05-20T16:00Z
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1964-05-20.china-leadership-2
     when: May 20
     date: '1964-05-20'

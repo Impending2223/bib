@@ -1741,11 +1741,13 @@ entries:
   - id: cal.1965-03-05.civil-rights-organizations
     when: Mar. 5–6
     date: '1965-03-05'
+    time: 1965-03-06T03:00Z
+    time_approx: true
     place: atlanta
     thread: civil-rights-organizations
     also: [voting-rights-selma]
     c: 'Atlanta, Frazier''s café. SNCC''s executive committee, two nights, on King''s march from Selma. Silas Norman, the Selma project''s director: SNCC should give logistics and medical help; Forman, Cox and others for a course of SNCC''s own; Lewis alone for the march: "If these people want to march, I''m going to march with them." Toward midnight Saturday: SNCC disapproves the march, its workers free to join "as individuals." Lewis and Norman to King, Mar. 7: "the objectives of the march do not justify the danger and the resources involved."'
-    n: '[[w.branch-at-canaans-edge]], 29–31, 40–42, 50. To check: Minutes, SNCC executive committee meeting, Mar. 5, 1965, and Mar. 6, 1965, SNCC Papers, King Library and Archives; John P. Lewis and Silas Norman, Jr., to King, Mar. 7, 1965, King Papers, King Library and Archives (cited by [[w.branch-at-canaans-edge]], 29–31, 40–42). See [[cal.1965-03-07.voting-rights]]. Names: Forman, John Lewis, Martin Luther King.'
+    n: '[[w.branch-at-canaans-edge]], 29–31, 40–42, 50. The time: the committee "convened before ten o''clock Friday night" (29). The time is the first day''s. To check: Minutes, SNCC executive committee meeting, Mar. 5, 1965, and Mar. 6, 1965, SNCC Papers, King Library and Archives; John P. Lewis and Silas Norman, Jr., to King, Mar. 7, 1965, King Papers, King Library and Archives (cited by [[w.branch-at-canaans-edge]], 29–31, 40–42). See [[cal.1965-03-07.voting-rights]]. Names: Forman, John Lewis, Martin Luther King.'
     src:
       c: 067ee2b0
       rows:
@@ -1756,6 +1758,7 @@ entries:
         - 'via w.branch-at-canaans-edge 40 n.julian-bond-proposed: C-D'
         - 'via w.branch-at-canaans-edge 42 n.voted-toward-midnight: D-E'
     tags: [name:forman-james, name:lewis-john, name:king-martin-luther-jr]
+    time_zone: America/New_York
   - id: cal.1965-03-05.vietnam-2
     when: Mar. 5
     date: '1965-03-05'
@@ -5653,6 +5656,7 @@ entries:
   - id: cal.1965-03-15.voting-rights-selma-2
     when: Mar. 15
     date: '1965-03-15'
+    time: 1965-03-15T23:08Z
     place: selma
     thread: voting-rights-selma
     also: [king]
@@ -5667,6 +5671,7 @@ entries:
         - 'w.kotz-judgment-days 307–08, 312: F'
         - 'w.bernstein-guns-or-butter 231: A-B, D-E'
     tags: [name:reeb-james-j, name:reuther-walter, name:king-martin-luther-jr, name:johnson-frank-m-jr, name:clark-james-g-jr, name:iakovos]
+    time_zone: America/Chicago
   - id: cal.1965-03-15.voting-rights-2
     when: Mar. 15
     date: '1965-03-15'
@@ -8022,7 +8027,7 @@ entries:
     thread: alabama-birmingham
     also: [voting-rights-selma]
     c: Birmingham. Bombs of dynamite, timed for noon, found at Our Lady of the Universe Catholic Church, at a mortuary of A. G. Gaston's, and at the home of Arthur Shores; an Army demolition team from Fort McClellan disarms them, one of fifty-eight sticks. Four bombs at Negro sites disarmed by night, Moyers reports to Johnson; two more on Mar. 22.
-    n: '[[w.branch-at-canaans-edge]], 140, 145. To check: Moyers to Johnson, Mar. 21, 1965, and "Bombing Devices Found in Birmingham," 10:45 p.m., Mar. 21, 1965, WH Confidential, box 56, LBJ Library; [*New York Times*, Mar. 22, 1965](https://timesmachine.nytimes.com/timesmachine/1965/03/22/issue.html), at 1, 27 (cited by [[w.branch-at-canaans-edge]], 140, 145). See [[cal.1963-09-15.alabama]]. Names: Moyers, Johnson.'
+    n: '[[w.branch-at-canaans-edge]], 140, 145. The time: the first box found at "early Sunday mass" (140). To check: Moyers to Johnson, Mar. 21, 1965, and "Bombing Devices Found in Birmingham," 10:45 p.m., Mar. 21, 1965, WH Confidential, box 56, LBJ Library; [*New York Times*, Mar. 22, 1965](https://timesmachine.nytimes.com/timesmachine/1965/03/22/issue.html), at 1, 27 (cited by [[w.branch-at-canaans-edge]], 140, 145). See [[cal.1963-09-15.alabama]]. Names: Moyers, Johnson.'
     src:
       c: '95750533'
       rows:
@@ -8032,6 +8037,12 @@ entries:
         - 'via w.branch-at-canaans-edge 140 n.dashed-up-the: A'
         - 'via w.branch-at-canaans-edge 145 n.bill-moyers-notified: B'
     tags: [name:moyers-bill, name:johnson-lyndon-b]
+    time_range:
+      - 1965-03-21T11:00Z
+      - 1965-03-21T14:00Z
+    time_band: early morning
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1965-03-21.voting-rights-selma
     when: Mar. 21
     date: '1965-03-21'
@@ -9414,6 +9425,7 @@ entries:
   - id: cal.1965-03-24.china-leadership-7
     when: Mar. 24
     date: '1965-03-24'
+    time: 1965-03-24T11:00Z
     place: niujiao
     thread: china-leadership
     follows:
@@ -9425,6 +9437,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 530: all'
     tags: [polity:prc, vis:only:prc, name:hang-shangzeng, name:yang-shangkun]
+    time_zone: Asia/Shanghai
   - id: cal.1965-03-24.china-leadership-8
     when: Mar. 24
     date: '1965-03-24'
@@ -10169,6 +10182,7 @@ entries:
   - id: cal.1965-03-26.china-leadership-3
     when: Mar. 26
     date: '1965-03-26'
+    time: 1965-03-26T06:00Z
     place: niujiao
     thread: china-leadership
     follows:
@@ -10180,6 +10194,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 531: all'
     tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:zhang-fuhan]
+    time_zone: Asia/Shanghai
   - id: cal.1965-03-26.china-leadership-4
     when: Mar. 26
     date: '1965-03-26'
@@ -12474,6 +12489,7 @@ entries:
   - id: cal.1965-03-31.china-leadership-7
     when: Mar. 31
     date: '1965-03-31'
+    time: 1965-03-31T04:00Z
     place: niujiao
     thread: china-leadership
     c: 'Niujiao 牛角, the square before the primary school, noon. The meeting of struggle against Zhang ××, a landlord missed in the class lines and an unfit Party member: some 2,000 of the village, other villages and the Doumen 斗门 middle school; many speak. Yang Shangkun 杨尚昆, by car from Xi''an 西安, there before 11 a.m.; he leaves after Zhang Jingru 张景儒 speaks.'
@@ -12483,6 +12499,7 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 552: all'
     tags: [polity:prc, vis:only:prc, name:yang-shangkun, name:zhang-jingru]
+    time_zone: Asia/Shanghai
   - id: cal.1965-03-31.china-leadership-8
     when: Mar. 31
     date: '1965-03-31'

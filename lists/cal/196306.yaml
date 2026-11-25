@@ -2379,8 +2379,13 @@ entries:
     place: washington
     thread: civil-rights-bill
     c: 'The Oval Office, the schoolhouse door on television. As Wallace leaves the doorway, Kennedy to Sorensen: "I think we''d better give that speech tonight." No decision had been made and no draft prepared; O''Donnell and O''Brien opposed a speech, Sorensen had reservations. Kennedy settles on 8 p.m.; Salinger asks the networks for the time, by then after 4:30 p.m. Robert Kennedy, come with Burke Marshall: "Don''t worry, we have a lot of good material over at the Justice Department that we can send to you."'
-    n: '[[w.sorensen-counselor]], 278–79 (Sorensen''s account, written in 2008; Sorensen "made some noises about limited time"; not the hour of the decision). See [[cal.1963-06-11.alabama]]. Names: Kennedy, Sorensen, Wallace, O''Donnell, O''Brien, Salinger, Robert Kennedy, Marshall.'
+    n: '[[w.sorensen-counselor]], 278–79 (Sorensen''s account, written in 2008; Sorensen "made some noises about limited time"; not the hour of the decision). The range is Salinger''s request to the networks, "then after 4:30 p.m." (279), to the 8 p.m. address; Kennedy''s words as Wallace left the doorway came before it, at an hour Sorensen does not give. See [[cal.1963-06-11.alabama]]. Names: Kennedy, Sorensen, Wallace, O''Donnell, O''Brien, Salinger, Robert Kennedy, Marshall.'
     tags: [name:sorensen-theodore-c, name:kennedy-john-f, name:wallace-george-c, name:odonnell-kenneth-p, name:obrien-lawrence-f, name:salinger-pierre, name:kennedy-robert-f, name:marshall-burke]
+    time_range:
+      - 1963-06-11T20:30Z
+      - 1963-06-12T00:00Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-06-11.civil-rights-bill-4
     when: June 11
     date: '1963-06-11'
@@ -2771,12 +2776,17 @@ entries:
     follows:
       - cal.1963-06-12.mississippi
     c: 'Winona. Andrew Young, Bevel and Dorothy Cotton, sent by King about 1 a.m. after the news of Evers''s murder, drive from Birmingham, arriving late in the morning. With the sheriff, Wiley Branton on the telephone from Atlanta and an FBI agent come on a brutality complaint: bonds of $300 each for Hamer, Annelle Ponder, June Johnson, Rosemary Freeman, Elvester Morris and Lawrence Guyot. They come out beaten; to Greenwood.'
-    n: '[[w.young-easy-burden]], 253–57; the agent, by Young''s account, "the brother-in-law of the sheriff" (257). After the news of the murder: [[w.young-easy-burden]], 253. See [[cal.1963-06-09.mississippi]]. Names: Andrew Young, Martin Luther King, Medgar Evers, Hamer, Ponder, Guyot.'
+    n: '[[w.young-easy-burden]], 253–57; the agent, by Young''s account, "the brother-in-law of the sheriff" (257). After the news of the murder: [[w.young-easy-burden]], 253. The time: King''s call to Young and Bevel at Gaston''s, Birmingham, "about one o''clock in the morning" ([[w.young-easy-burden]], 254); Birmingham''s clock in 1963, daylight or standard, in doubt: the range covers both. See [[cal.1963-06-09.mississippi]]. Names: Andrew Young, Martin Luther King, Medgar Evers, Hamer, Ponder, Guyot.'
     src:
       c: 227aca4c
       rows:
         - 'w.young-easy-burden 253–57: all'
     tags: [name:young-andrew-j-jr, name:king-martin-luther-jr, name:evers-medgar, name:hamer-fannie-lou, name:ponder-annelle, name:guyot-lawrence]
+    time_zone: America/Chicago
+    time_range:
+      - 1963-06-12T06:00Z
+      - 1963-06-12T07:00Z
+    range_basis: record
   - id: cal.1963-06-12.desegregation-schools
     when: June 12
     date: '1963-06-12'
@@ -5968,7 +5978,7 @@ entries:
     place: greenwood-ms
     thread: mississippi
     c: Greenwood. Some two hundred Negroes at the Leflore County courthouse to register. The city council passes an ordinance requiring citizens to leave courthouse property on request; the leaders arrested at noon. Nine, Hollis Watkins and Lawrence Guyot among them, sentenced to six months and $500 apiece.
-    n: '[[w.branch-pillar-of-fire]], 113. To check: Undated SNCC report entitled Mississippi, A/KP16f15, p. 15 (cited by [[w.branch-pillar-of-fire]], 113); undated affidavit of Douglas MacArthur Cotton, A/MFDP10f1 (cited by [[w.branch-pillar-of-fire]], 113). See [[cal.1963-06-18.mississippi-2]]. Names: Guyot.'
+    n: '[[w.branch-pillar-of-fire]], 113. The time: the arrests "at noon" (113), Mississippi''s clock in 1963, daylight or standard, in doubt: the range covers both. To check: Undated SNCC report entitled Mississippi, A/KP16f15, p. 15 (cited by [[w.branch-pillar-of-fire]], 113); undated affidavit of Douglas MacArthur Cotton, A/MFDP10f1 (cited by [[w.branch-pillar-of-fire]], 113). See [[cal.1963-06-18.mississippi-2]]. Names: Guyot.'
     src:
       c: ae3d208b
       rows:
@@ -5977,6 +5987,11 @@ entries:
         - 'via w.branch-pillar-of-fire 113 n.courthouse-on-june-25.b: all'
         - 'via w.branch-pillar-of-fire 113 n.courthouse-on-june-25.c: all'
     tags: [name:guyot-lawrence, state:ms]
+    time_zone: America/Chicago
+    time_range:
+      - 1963-06-25T17:00Z
+      - 1963-06-25T18:00Z
+    range_basis: record
   - id: cal.1963-06-25.elections-1964
     when: June 25
     date: '1963-06-25'
@@ -6012,10 +6027,11 @@ entries:
   - id: cal.1963-06-25.china-leadership-2
     when: June 25–26
     date: '1963-06-25'
+    time: 1963-06-25T04:00Z
     thread: china-leadership
     also: [soviet-union]
     c: Peking to Chengdu and back. Deng Xiaoping and Peng Zhen, with Wu Lengxi, Yao Zhen, Xiong Fu, Fan Ruoyu, Wang Li and a number of younger drafters, fly to Chengdu June 25 for a rest before Moscow. They arrive at noon and lodge at the Jinniuba Hotel; Wu's party drives to the foot of Mount Emei, which they reach at dusk, and does not climb. At midnight Deng's secretary Wang Ruilin telephones from Chengdu that Mao wants them back in Peking the next day; they return to Chengdu at dawn and fly to Peking in the afternoon.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 594–595 ("left Peking June 25"; "noon at Chengdu"; Deng: "if we go, go quickly, Mao may think of something and recall us"; Yao Zhen''s old injury to the back, Xiong Fu just over an illness; Wu wished to climb the mountain; "a military order is like a mountain falling"; Wu''s party "wished the mountain well from its foot"); [[w.peng-zhen-nianpu-1902]], IV, 279 (June 25, 1963, evening; Mao''s telegram calls Deng Xiaoping, Peng Zhen and the others back to Peking at once on the Sino-Soviet talks). Made public: 1999. Check: Yang Shangkun''s diary has Mao''s meeting on the evening of June 25 call Deng Xiaoping and the others back to Peking at once, Yang telephoning Deng that night, and Deng''s party back by the afternoon of June 27 ([[w.yang-shangkun-riji]], II, 290). Names: Deng Xiaoping, Peng Zhen, Mao Zedong, Wu Lengxi, Yao Zhen, Fan Ruoyu, Wang Li, Wang Ruilin. Check: whether Deng and Peng Zhen also went to Emei: Wu says only that his party did; Mao''s reason for the recall is not given.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 594–595 ("left Peking June 25"; "noon at Chengdu"; Deng: "if we go, go quickly, Mao may think of something and recall us"; Yao Zhen''s old injury to the back, Xiong Fu just over an illness; Wu wished to climb the mountain; "a military order is like a mountain falling"; Wu''s party "wished the mountain well from its foot"); [[w.peng-zhen-nianpu-1902]], IV, 279 (June 25, 1963, evening; Mao''s telegram calls Deng Xiaoping, Peng Zhen and the others back to Peking at once on the Sino-Soviet talks). The time is the first day''s. Made public: 1999. Check: Yang Shangkun''s diary has Mao''s meeting on the evening of June 25 call Deng Xiaoping and the others back to Peking at once, Yang telephoning Deng that night, and Deng''s party back by the afternoon of June 27 ([[w.yang-shangkun-riji]], II, 290). Names: Deng Xiaoping, Peng Zhen, Mao Zedong, Wu Lengxi, Yao Zhen, Fan Ruoyu, Wang Li, Wang Ruilin. Check: whether Deng and Peng Zhen also went to Emei: Wu says only that his party did; Mao''s reason for the recall is not given.'
     src:
       c: a8a7b254
       rows:
@@ -6035,6 +6051,7 @@ entries:
         witness: w.peng-zhen-nianpu-1902
         reads: Deng Xiaoping and Peng Zhen go to Chengdu June 23 ("6月23日 和邓小平率领反修文件起草小组成员去成都")
         at: IV, 279
+    time_zone: Asia/Shanghai
   - id: cal.1963-06-25.china-leadership-3
     when: June 25
     date: '1963-06-25'

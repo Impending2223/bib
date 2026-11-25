@@ -29,17 +29,21 @@ entries:
   - id: cal.1965-05-01.latin-america-dominican-republic
     when: May 1–2
     date: '1965-05-01'
+    time: 1965-05-01T22:40Z
     thread: latin-america-dominican-republic
     c: 'Palmer asks four more airborne battalions and a third of Marines. 6:40 p.m., Wheeler asks for three plans to confine the rebels to the south and east of the city; Masterson, 2:14 a.m. May 2: Plan A, 18 battalions and seven days, Plan B 15 and 24 hours, Plan C 12 over three to five days. 1:03 p.m. May 2 the Chiefs choose B, a corridor at dawn May 3, and approve another Marine battalion and the five uncommitted battalions of the 82nd.'
-    n: '[[w.poole-joint-chiefs-of-staff-2012]], 141–42. See [[cal.1965-04-29.latin-america-dominican-republic-2]]. Names: Palmer, Wheeler.'
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 141–42. The time is the first day''s. See [[cal.1965-04-29.latin-america-dominican-republic-2]]. Names: Palmer, Wheeler.'
     src:
       c: bb1e8c0c
       rows:
         - 'w.poole-joint-chiefs-of-staff-2012 141–42: all'
     tags: [name:palmer-bruce-jr, name:wheeler-earle]
+    time_zone: America/New_York
   - id: cal.1965-05-01.latin-america-dominican-republic-2
     when: May 1
     date: '1965-05-01'
+    time: 1965-05-01T15:00Z
+    time_approx: true
     place: santo-domingo
     thread: latin-america-dominican-republic
     c: Santo Domingo. The Marines set up the international security zone, some three square miles in the southwest of the city, the embassy and the Embajador within it. The paratroopers, from San Isidro, move west about 10 a.m., take the Duarte Bridge over the Ozama, and hold a bridgehead on the west bank. Firefights; Caamaño protests. Moorer becomes CINCLANT.
@@ -53,6 +57,7 @@ entries:
         - 'via x.1965-07-12.military-operations-dominican-overview: B-C'
         - 'via x.1982-05-28.palmer-interview-gittinger: C-E'
     tags: [name:caamano-deno-francisco, name:moorer-thomas, name:palmer-bruce-jr]
+    time_zone: America/Santo_Domingo
   - id: cal.1965-05-01.latin-america-dominican-republic-3
     when: May 1
     date: '1965-05-01'
@@ -1287,6 +1292,12 @@ entries:
       rows:
         - 'w.yang-shangkun-riji II, 595: all'
     tags: [polity:prc, vis:only:prc, name:yang-shangkun]
+    time_range:
+      - 1965-05-05T04:00Z
+      - 1965-05-05T10:00Z
+    time_zone: Asia/Shanghai
+    range_basis: record
+    time_band: afternoon
   - id: cal.1965-05-05.china-leadership-3
     when: May 5
     date: '1965-05-05'
