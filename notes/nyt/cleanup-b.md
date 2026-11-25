@@ -1,0 +1,189 @@
+# Cleanup b: the *New York Times* entries of the patches for July 4 and 5, 1960, brought to R26a
+
+Patch `inbox/2026-11-25-nyt-cleanup-b.yaml`; the dateline, time words and page flag of every cite are in `notes/nyt/dating-b.tsv` (several cites in one entry: the fields joined by " | ", in the order of the cites). One line an entry, saying what changed. Datelines came from the notes of the earlier readers, checked against the clippings (downloaded to the scratchpad, read, deleted) where the notes were silent or substance was in question; Google Drive was not changed.
+
+Counts: 169 entries changed in `n` (the other 1 on the list held no parenthetical to clear, or only a Check that patch-check will not let a patch change); 31 places set; 27 added sentences (substance moved into lines); 6 new entries; 1 entry respelled (R19a).
+
+- `cal.1960-03.south-asia`: Author and title out of the parenthetical; dateline Peshawar to the table; the place Kabul stays (the entry's act is Khrushchev's visit, not the dateline's).
+- `cal.1960-05-05.berlin-and-vienna`: Title out; dateline Bonn, the court's place Erfurt set (the item puts the trial at the Erfurt District Court, so the dateline presumption gives way); `ok:fields-place` stays.
+- `cal.1960-05.africa`: Title out; dateline London to the table; no place (the item puts the act in Angola, which has no gazetteer key).
+- `cal.1960-05.europe-and-the-alliance`: Title out; the resignation and the appointment set at Warsaw, the dateline's place.
+- `cal.1960-05.europe-and-the-alliance-britain`: Author and title moved to the cite ("news analysis" dropped); the place Paris stays (the item puts the talks there).
+- `cal.1960-06-08.middle-east`: Title out; the note's June 8 date to the table. No place: the dateline is the report of an Israeli release of July 5, not of the June 8 act.
+- `cal.1960-06-11.elections-1960-kennedy`: Author and title moved to the cite; "page not shown" out. The "Made public" sentence no longer repeats the paper. No place: the dateline is the release of July 4, not the signing of June 11.
+- `cal.1960-06-14.europe-and-the-alliance-france`: Two items, the dispatch and the communiqué, each cited in full with its page; the quoted dates to the table.
+- `cal.1960-06-20.europe-and-the-alliance-france`: The communiqué cited by its title; the quoted date to the table.
+- `cal.1960-06-24.middle-east`: Title out; dateline Amman to the table. No place: the speech of June 24 is not the dateline's act.
+- `cal.1960-06-25.europe-and-the-alliance-france`: Two items, the dispatch and the communiqué, each cited in full with its page; the quoted words to the table.
+- `cal.1960-06-28.south-asia`: Title out; "page not shown" out; dateline Katmandu to the table. No place: the report is of July 4, the act of June 28.
+- `cal.1960-06-29.europe-and-the-alliance-france`: The communiqué cited by its title.
+- `cal.1960-06-30.congress`: Author and title moved to the cite; time words to the table; the place Washington stays.
+- `cal.1960-06-30.indonesia`: Author and title moved to the cite; dateline to the table; the place Manokwari stays.
+- `cal.1960-06.africa`: Dateline to the table; the Government's report of July 3 set at Kampala. The clipping shows no head, so the cite has no title.
+- `cal.1960-06.africa-2`: Author and title moved to the cite; "page not shown" out. No place: the act is of last month.
+- `cal.1960-07-01.cuba`: Authors and titles moved to the cites, the second item cited in full; "page not shown" out. The Esso instruction on Cubana is [[cal.1960-07-01.cuba-3]]; the Foreign Office's statement of July 2 is a new entry (below).
+- `cal.1960-07-01.cuba-5`: Title out; time word to the table.
+- `cal.1960-07-01.europe-and-the-alliance`: Title out; dateline to the table. No place: a count for the whole country.
+- `cal.1960-07-01.japan`: Author and title moved to the cite; time words to the table. Place set at Aomori, the constituency (the election presumption, though the dispatch is from Tokyo); new gazetteer key.
+- `cal.1960-07-01.latin-america-4`: Title out; time words and "where Hill was not said" out to the table. Place set at Mexico City on the dateline presumption (the item places it nowhere else).
+- `cal.1960-07-02.china-leadership-2`: Titles moved to the cites; the parentheticals held what `c` already says, and are out. No place: Zhou's letter is not the dateline's act.
+- `cal.1960-07-02.congo`: Titles moved to the cites; the parentheticals' account of the clashes (who fought, ten hurt, about 100 held, the curfew, Luluabourg, the police patrol) put into the line (two sentences, each cited to its item). Place set at Léopoldville (dateline).
+- `cal.1960-07-02.congo-2`: Title moved to the cite; dateline to the table; the place Léopoldville stays.
+- `cal.1960-07-02.cuba-3`: Author and title moved to the cite; the Check's later cite left as it stands; the place Havana stays.
+- `cal.1960-07-02.cuba-8`: Author and title moved to the cite; time words to the table; the place stays.
+- `cal.1960-07-02.cuba-9`: Author and title moved to the cite; time words to the table. No place: the memorandum's submission is not the dateline's act.
+- `cal.1960-07-02.europe-and-the-alliance-federal-republic-2`: Author and title moved to the cite; time word to the table; place set at Bonn (dateline).
+- `cal.1960-07-02.europe-and-the-alliance-federal-republic-3`: Title moved to the cite; time words to the table. No place: the credentials were presented in the Congo and Somalia, not at the dateline.
+- `cal.1960-07-02.europe-and-the-alliance-france-3`: Title moved to the cite; "page not shown" out; the place Tunis stays.
+- `cal.1960-07-02.immigration`: Titles moved to the cites; the parenthetical's account of the bill is in `c` but for Walter's opposition, now added; the place stays.
+- `cal.1960-07-02.jobs-and-wages`: Title moved to the cite; time words to the table; the place stays.
+- `cal.1960-07-02.latin-america-3`: Titles moved to the cites; time word to the table; the place stays.
+- `cal.1960-07-02.middle-east`: Titles moved to the cites; the audience and the "treacherous falsehood" put into the line; time word to the table; the place stays.
+- `cal.1960-07-02.press-and-broadcasting`: Title moved to the cite; time word to the table; the place stays.
+- `cal.1960-07-02.republican-party-4`: Title moved to the cite; time words to the table. No place: the item gives none.
+- `cal.1960-07-02.south-asia-4`: Author and title moved to the cite; time words to the table; the place Lahore stays (the editor's).
+- `cal.1960-07-02.white-house`: Titles moved to the cites; "page not shown" out; "six hours" put into the line; time word to the table; the place stays.
+- `cal.1960-07-03.berlin-and-vienna`: Title moved to the cite; dateline to the table; the place stays.
+- `cal.1960-07-03.china`: Title moved to the cite; "page not shown" out; the place Peking stays (the rally's).
+- `cal.1960-07-03.cities-and-housing`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-03.congress`: Title moved to the cite; the place stays.
+- `cal.1960-07-03.congress-2`: Title moved to the cite; the parenthetical's account of the House bill and the Senate's passage put into the line; the place stays.
+- `cal.1960-07-03.congress-3`: Title moved to the cite ("the runover" out); the place stays.
+- `cal.1960-07-03.congress-4`: Title moved to the cite. No place: the item gives none.
+- `cal.1960-07-03.crime-and-hijacking`: Title moved to the cite; "page not shown" out; time words to the table; the place stays.
+- `cal.1960-07-03.crime-and-hijacking-2`: Title moved to the cite; "page not shown" out; time words to the table; place set at Sculthorpe (dateline; new gazetteer key).
+- `cal.1960-07-03.cuba-2`: Titles and authors moved to the cites, the Blair and Szulc items cited in full; the hours of the conferees and the House and Cooley's lead put into the line. Macomber and Harlow's word is [[cal.1960-07-02.cuba-8]]; McCormack with O'Donnell is [[cal.1960-07-03.cuba-3]].
+- `cal.1960-07-03.cuba-3`: Author and title moved to the cite; the place stays.
+- `cal.1960-07-03.cuba-4`: Author and title moved to the cite; the place stays.
+- `cal.1960-07-03.cuba-5`: Author and title moved to the cite; time words to the table; the place stays.
+- `cal.1960-07-03.cuba-6`: Title moved to the cite; time word to the table; the place stays.
+- `cal.1960-07-03.cuba-7`: Title moved to the cite; time word to the table; the place stays.
+- `cal.1960-07-03.elections-1960`: Title moved to the cite; the parenthetical's account of the interview put into the line (one added sentence cited to the Times); place set at Washington (dateline).
+- `cal.1960-07-03.elections-1960-2`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-03.elections-1960-nomination`: Title moved to the cite; "page not shown" out; the Rules Committee's weighing put into the line, and Loveless named; the second telegram of July 2 is a new entry (below); place set at Los Angeles (dateline).
+- `cal.1960-07-03.elections-1960-nomination-2`: Title moved to the cite; the place stays.
+- `cal.1960-07-03.elections-1960-nomination-3`: Authors and titles moved to the cites; the arrangements the parenthetical lists are in `c`; "yesterday" and "page not shown" out.
+- `cal.1960-07-03.elections-1960-nomination-4`: Title moved to the cite ("the runover" out). No place: the item gives none for the taping.
+- `cal.1960-07-03.elections-1960-nomination-5`: Title moved to the cite ("the runover" out). No place: the item gives none.
+- `cal.1960-07-03.elections-1960-nomination-6`: Author and title moved to the cite; time word to the table; the place stays.
+- `cal.1960-07-03.elections-1960-nomination-7`: Title moved to the cite; the place stays.
+- `cal.1960-07-03.elections-1960-religion`: Title moved to the cite; the place stays.
+- `cal.1960-07-03.elections-1960-rockefeller`: Author and title moved to the cite; Percy and the nomination put into the line. No place: the item gives none.
+- `cal.1960-07-03.elections-1960-rockefeller-2`: Title moved to the cite; "page not shown" out; place set at Washington (dateline).
+- `cal.1960-07-03.elections-1960-rockefeller-3`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-03.elections-1960-rockefeller-4`: Author and title moved to the cite; Rockefeller's remark put into the line; time word to the table. No place: the item gives none.
+- `cal.1960-07-03.europe-and-the-alliance`: Author and title moved to the cite; dateline to the table. No place: the season is not an act at the dateline.
+- `cal.1960-07-03.europe-and-the-alliance-2`: Title moved to the cite; the place stays.
+- `cal.1960-07-03.europe-and-the-alliance-3`: Title moved to the cite; time words to the table; place set at Vancouver (dateline; new gazetteer key).
+- `cal.1960-07-03.europe-and-the-alliance-4`: Title moved to the cite; time words to the table; the place stays.
+- `cal.1960-07-03.europe-and-the-alliance-britain`: Title moved to the cite; time word to the table; place set at London (dateline).
+- `cal.1960-07-03.europe-and-the-alliance-federal-republic`: Title moved to the cite (no parenthetical to clear). No place: where Kopf reported from is not given.
+- `cal.1960-07-03.europe-and-the-alliance-france`: Title moved to the cite; the place stays.
+- `cal.1960-07-03.indonesia`: Title moved to the cite; "page not shown" out; time word to the table. No place: the item puts the clash at Tjimahi, not at the dateline.
+- `cal.1960-07-03.indonesia-2`: Title moved to the cite; "page not shown" out; time words to the table; the place stays.
+- `cal.1960-07-03.japan`: Author and title moved to the cite; the parenthetical's other items are entries ([[cal.1960-07-01.japan]], [[cal.1960-07-03.japan-2]]). Place set at Saitama, the constituency (election presumption; new gazetteer key).
+- `cal.1960-07-03.japan-2`: Author and title moved to the cite ("the runover" out); place set at Tokyo (dateline).
+- `cal.1960-07-03.japan-3`: Title moved to the cite; the place stays.
+- `cal.1960-07-03.latin-america`: Title moved to the cite; time words to the table; the guard of July 2 is [[cal.1960-07-02.latin-america-3]]; the place stays.
+- `cal.1960-07-03.middle-east`: Title moved to the cite; the speech of June 24 and Hussein's reply are entries ([[cal.1960-06-24.middle-east]], [[cal.1960-07-02.middle-east]]); place set at Amman (dateline).
+- `cal.1960-07-03.south-asia`: Title moved to the cite; place set at Katmandu (dateline).
+- `cal.1960-07-03.soviet-union`: Author and title moved to the cite; Figl's presence put into the line; the photographers' strike is a new entry (below); place set at Mauthausen (dateline; new gazetteer key).
+- `cal.1960-07-03.soviet-union-2`: Title moved to the cite; place set at Linz (the conference's place in `c`, and the dateline; new gazetteer key).
+- `cal.1960-07-03.soviet-union-3`: Title moved to the cite; dateline to the table. No place: the item puts the act in the Barents Sea.
+- `cal.1960-07-03.states-and-cities`: "The holiday story; its head not in the clippings" out of the parenthetical; the place stays.
+- `cal.1960-07-03.transportation`: "The holiday story; its head and the national count not in the clippings" out of the parenthetical. No place: a count for the State.
+- `cal.1960-07-03.white-house`: Title moved to the cite; the paper's "reportedly" is in `c` already. No place: the item gives none.
+- `cal.1960-07-03.white-house-2`: Title moved to the cite; "page not shown" out; time words to the table; the place stays.
+- `cal.1960-07-04.africa`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.africa-2`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.africa-3`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.africa-4`: Title moved to the cite; "page not shown" out. No place: the item puts the act in the Nano area.
+- `cal.1960-07-04.africa-5`: Author and title moved to the cite; time word to the table; "page not shown" out. No place: the act is "recent," and the item puts it in Togo.
+- `cal.1960-07-04.berlin-and-vienna`: Title moved to the cite; "page not shown" out; the place Rostock stays (the item's).
+- `cal.1960-07-04.berlin-and-vienna-2`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.china`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.china-2`: Title moved to the cite; "page not shown" out. No place: the item puts the effort in China's provinces, not at the dateline.
+- `cal.1960-07-04.china-leadership-2`: The Check's own *Times* cite is left as it stands (patch-check will not let a Check be changed); its dateline, Katmandu, July 5, and "today" are in the table.
+- `cal.1960-07-04.cities-and-housing`: Title moved to the cite; "page not shown" out; time word to the table; the place stays.
+- `cal.1960-07-04.congo`: Author and title moved to the cite; the tribe and the wings put into the line as the paper's background (Bomboko and Ileo named); the Times's "Munongo" spelling is not kept. No place: the item puts the shooting at Coquilhatville.
+- `cal.1960-07-04.congo-2`: Author and title moved to the cite; "page not shown" out; the paper's "reliable sources" to the table; place set at New York (the United Nations dateline).
+- `cal.1960-07-04.congress`: Title moved to the cite; the place stays.
+- `cal.1960-07-04.congress-2`: Title moved to the cite; the place stays.
+- `cal.1960-07-04.crime-and-hijacking`: Title moved to the cite; "page not shown" out; place set at Pierreville (dateline; new gazetteer key).
+- `cal.1960-07-04.cuba`: Author and title moved to the cite; the mill count put into the line (the tankers are [[cal.1960-07-04.cuba-8]]); "page not shown" out; the place stays.
+- `cal.1960-07-04.cuba-2`: Author and title moved to the cite (the speech's day is in `c`); "page not shown" out; the place stays.
+- `cal.1960-07-04.cuba-3`: Title moved to the cite; "page not shown" out; the earlier visits put into the line; place set at East Berlin (the dateline's Berlin, an East German agency's report).
+- `cal.1960-07-04.cuba-4`: Title moved to the cite; "page not shown" out; the spokesman put into the line; the place stays.
+- `cal.1960-07-04.cuba-5`: Title moved to the cite; "page not shown" out; time word to the table. No place: the collision was at sea off Tunisia.
+- `cal.1960-07-04.cuba-6`: Author and title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.cuba-7`: Author and title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.cuba-8`: Author and title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.cyprus`: Author and title moved to the cite; "page not shown" out; time words to the table; the earlier agreement put into the line; the place stays.
+- `cal.1960-07-04.cyprus-2`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.democratic-party`: Author and title moved to the cite (the full name from [[cal.1960-07-04.elections-1960-los-angeles-4]]); "page not shown" out; place set at Los Angeles (that story's dateline).
+- `cal.1960-07-04.elections-1960`: Author and title moved to the cite; the parenthetical's hall, statement and questioners are in `c` already; Sorensen's coming on put into the line; Truman's not having read it is a new entry (below); the place stays.
+- `cal.1960-07-04.elections-1960-2`: Author and title moved to the cite; Edwards's office and Connally's offer put into the line; the clipping shows no page, so the cite gives none and a Check says that 19 is Shesol's page; the place stays.
+- `cal.1960-07-04.elections-1960-3`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.elections-1960-kennedy`: Title moved to the cite; "page not shown" out; time word to the table; the place stays.
+- `cal.1960-07-04.elections-1960-los-angeles-2`: Author and title moved to the cite; time words to the table; the Draft Stevenson rooms are [[cal.1960-07-04.elections-1960-los-angeles-8]]; the place stays.
+- `cal.1960-07-04.elections-1960-los-angeles-3`: Author and title moved to the cite; the place stays.
+- `cal.1960-07-04.elections-1960-los-angeles-4`: Author and title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.elections-1960-los-angeles-5`: Author and title moved to the cite (the full name from [[cal.1960-07-04.elections-1960-religion]]); "page not shown" out. No place: the item's dateline is not in the clipping.
+- `cal.1960-07-04.elections-1960-los-angeles-7`: Author and title moved to the cite; the place stays.
+- `cal.1960-07-04.elections-1960-los-angeles-8`: Author and title moved to the cite; the place stays.
+- `cal.1960-07-04.elections-1960-nomination`: Title moved to the cite; the interview put into the line; the place stays.
+- `cal.1960-07-04.elections-1960-nomination-2`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.elections-1960-nomination-3`: Title moved to the cite; "page not shown" out; the scheduled advertisements put into the line; the place stays.
+- `cal.1960-07-04.elections-1960-nomination-4`: Title moved to the cite; the place Libertyville stays (the item's: his farm).
+- `cal.1960-07-04.elections-1960-nomination-5`: Title moved to the cite; "page not shown" out; place set at Washington (dateline).
+- `cal.1960-07-04.elections-1960-religion`: Author and title moved to the cite; "page not shown" out; time words to the table; the place stays.
+- `cal.1960-07-04.elections-1960-rockefeller`: Authors and titles moved to the cites; "page not shown" out; time words to the table; the King's arrival at La Guardia is a new entry (below); the place stays.
+- `cal.1960-07-04.europe-and-the-alliance`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.europe-and-the-alliance-2`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.europe-and-the-alliance-3`: Title moved to the cite; time word to the table; place set at Warsaw (dateline).
+- `cal.1960-07-04.europe-and-the-alliance-britain`: Title moved to the cite; "page not shown" out; place set at London (dateline).
+- `cal.1960-07-04.europe-and-the-alliance-federal-republic`: Title moved to the cite; the correction's lag put into the line; the place stays.
+- `cal.1960-07-04.europe-and-the-alliance-france`: Author and title moved to the cite; Paris's silence put into the line (the July 2–3 meeting and Tunisia's statement are entries already: [[cal.1960-07-02.europe-and-the-alliance-france-3]], [[cal.1960-07-04.europe-and-the-alliance-france-2]]); the place stays.
+- `cal.1960-07-04.europe-and-the-alliance-france-2`: Author and title moved to the cite; the place stays.
+- `cal.1960-07-04.indonesia`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.japan`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.laos`: Title moved to the cite; dateline to the table. No place: the item puts the act in Laos, with Thai police the source.
+- `cal.1960-07-04.latin-america`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.latin-america-2`: The cite given by the story's title, the Madrid item's dateline to the table; "page not shown" out; the place stays.
+- `cal.1960-07-04.latin-america-dominican-republic`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.middle-east`: Title moved to the cite; the place stays.
+- `cal.1960-07-04.middle-east-2`: Title moved to the cite; the place stays.
+- `cal.1960-07-04.middle-east-dimona`: Title moved to the cite; "page not shown" out; time word to the table; place set at Tel Aviv (dateline).
+- `cal.1960-07-04.press-and-broadcasting`: The description of the item (the transcript of the news conference) put into the line as where the question was asked; the cite keeps the page. No place: the item gives none.
+- `cal.1960-07-04.robert-kennedy`: Author and title moved to the cite; "page not shown" out; the parenthetical keeps only the words the Times bears out. Salinger's statement and Sorensen's denial are new entries (below); place set at Los Angeles (dateline).
+- `cal.1960-07-04.rules`: Author and title moved to the cite; the place stays.
+- `cal.1960-07-04.south-asia`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.south-asia-2`: Title moved to the cite; "page not shown" out. No place: floods on a peninsula, the Gujarat government the source.
+- `cal.1960-07-04.south-asia-3`: Title moved to the cite ("a photograph and caption" and "page not shown" out); the place stays.
+- `cal.1960-07-04.south-asia-4`: The item's title given as the cite's (the dateline had stood in its place); "page not shown" out; place set at Ladakh (dateline; new gazetteer key).
+- `cal.1960-07-04.soviet-union`: Author and title moved to the cite; Pittermann and the farm put into the line; place set at Linz, the first stop (the dateline's Salzburg is the second; new gazetteer key).
+- `cal.1960-07-04.soviet-union-2`: Author and title moved to the cite; "page not shown" out; Mikoyan's answer on oil and Cliburn's playing (from the clipping) put into the line; the place stays.
+- `cal.1960-07-04.soviet-union-u2`: Title moved to the cite; "page not shown" out; the place stays.
+- `cal.1960-07-04.white-house`: Title moved to the cite; "page not shown" out; the July 3 round is [[cal.1960-07-03.white-house-2]]; the place stays.
+- `cal.1960-07-04.white-house-2`: Author and title moved to the cite; the place stays.
+- `cal.1960-07-04.white-house-3`: Author and titles moved to the cites, the second item cited in full; the place stays.
+- `cal.1960-07-04.white-house-4`: Title moved to the cite; the place stays.
+- `cal.1960-07-05.elections-1960-kennedy`: Title moved to the cite ("Man in the News" is the column's label, out).
+- `cal.1960-07-05.elections-1960-los-angeles-6`: Author and title moved to the cite; time word to the table; the place stays.
+- `cal.1960-07-05.middle-east`: Title moved to the cite; the parenthetical's other items (Argentina's note, MacKay) are entries ([[cal.1960-06-08.middle-east]], [[cal.1960-07-04.middle-east]]); time words to the table. Place set at Buenos Aires, where `c` says the note was handed in (the item places it there, so the dateline presumption gives way).
+- `cal.1960-07-05.south-asia`: Title moved to the cite; "page not shown" out; time word to the table; the place stays.
+- `cal.1960-07-05.state-constitutions-ok`: Title moved to the cite; "page not shown" out; the bond issue put into the line as the paper's report; the place stays (the State, the election presumption).
+- `cal.1960-07-06.states-and-cities`: Title moved to the cite; time word to the table; the place stays.
+- `cal.1960-07-04.china-2`: also respelled Hsinhua, Kansu, Hopeh, Honan, Hupeh and Shantung as Xinhua, Gansu, Hebei, Henan, Hubei and Shandong in `c` (R19a; `kind: reword`).
+
+New entries:
+
+- `cal.1960-07-02.elections-1960-nomination-15`: Collins's second telegram to Truman, sent July 2 by the *Times* of July 4; from the parenthetical of [[cal.1960-07-03.elections-1960-nomination]].
+- `cal.1960-07-03.soviet-union-4`: the photographers' sitdown strike at Ybbs-Persenbeug, read from the clipping (the earlier reader had it only as a name in a parenthetical); place `ybbs-persenbeug` (new key).
+- `cal.1960-07-04.elections-1960-nomination-7`: Truman, reached at Independence, has not read or heard Kennedy's statement; from the parenthetical of [[cal.1960-07-04.elections-1960]], checked on the clipping.
+- `cal.1960-07-04.elections-1960-kennedy-2`: Sorensen's denial that Kennedy is on cortisone, given about three weeks before July 4 by the paper (`when` "By July 4", Check: the day); from "Use of Drug Denied," which the earlier reader listed but did not enter.
+- `cal.1960-07-04.elections-1960-los-angeles-9`: the Kennedy forces' answer to India Edwards and Salinger's statement on his health, from the Lawrence story.
+- `cal.1960-07-04.japan-and-korea-far-east`: the arrival of King Bhumibol and Queen Sirikit at La Guardia, from the Esterow story.
+- Not added: the Foreign Office's statement of July 2 on Shell (from "Cuban Seizure Studied"): cleanup a already claimed it as `cal.1960-07-02.cuba-11`.
+
+New gazetteer keys: erfurt, aomori, saitama, sculthorpe, vancouver, mauthausen, linz, ybbs-persenbeug, pierreville, ladakh.

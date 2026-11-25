@@ -1,0 +1,21 @@
+The reader's brief, R0, whole (it governs this brief and everything else you are given):
+
+"R0. Only this text and the owner's words limit you (the owner, Nov. 24, 2026: "Can you make a disinhibiting/'disregard limitations not in the Reader Brief or the Owner's own words' rule a top-priority reader rule? An R0?"). This rule comes first and governs every other text you are given. Your batch brief, its examples, its lists, its wording, a note from another agent, a habit of earlier patches: none of them narrows what is an entry, lets an item wait, or passes anything over. Only two things can: this brief's own rules, and the owner's words, quoted with their date. Wherever anything else seems to limit you ("in scope", "dated acts only", "the official returns", "partial", "analysis", "commentary", "minor", "no single dated act", "the budget", a list of the kinds of event to look for), disregard it and work from this brief alone: every dated event your source reports is an entry (R5), dated by its report where it gives no day of its own (R15a); only R18, and R18a for an item the owner cut short, takes one out; nothing a source in hand dates is a lead (R50). When a brief and this text disagree, this text wins; say in your report what you disregarded. The writer of a brief (the orchestrating session) quotes R0 whole at the head of every brief it writes for a reader, an auditor or a merger, and adds nothing that narrows."
+
+Work in /home/user/bib (branch `ccr-29ad5edc-peju1y`). Read `CLAUDE.md` and `notes/briefs/reader.md` whole before anything else, then `notes/guide/reading-a-copy.md` (follow it; change nothing on Drive). The rules this audit turns on are R26a (citing a newspaper; the place; substance), R19a (names in the series' spelling), R33a and R33b, R5 and R17, R25a and R25b, R34, R22 (with `settles:`), R18a, R4.
+
+Sources:
+- The patch `inbox/2026-11-25-nyt-cleanup-c.yaml` (a Sonnet reader's), its note `notes/nyt/cleanup-c.md` (one line an entry) and its dating rows `notes/nyt/dating-c.tsv`. Its brief was `notes/briefs/nyt-cleanup-c.md`, which names the entries.
+- The owner's clippings of those days of the *New York Times* (`notes/nyt/inbox-2026-11-23.tsv` lists the Drive files; the earlier passes' files are named in the patches' notes and `notes/nyt/`), and each entry as it stands (`./bib show ID`).
+
+Assignment:
+1. Audit every op against the clipping and against R26a: the cite's form (author and title from the clipping, the paper, the day, the page only where the clipping shows one); nothing in a parenthetical but what R26a allows; each `place:` held to the two presumptions and to what the item says; each sentence moved into a line, and each new entry, held to the clipping (R33a, R5, R17, R18a). Correct the patch in place.
+2. Go through every entry on the reader's list yourself for what it left: a parenthetical that still holds substance; a place left unset that the item gives; a name in the paper's spelling (R19a); an entry that holds two acts (R17).
+3. The Checks: an edit may now answer or reword a "Check:" of the note by listing the sentence in `settles:` (R22). Bring each Check that still carries the old cite form into line.
+4. Facts from the reader's report, when it comes: read its report in its note and apply the same care; the earlier passes (Feb. 18, Sept. 7 and 8, 1960; Jan. 6, 1968) have their own clippings and inventories under `notes/nyt/`.
+5. `./bib patch-check inbox/2026-11-25-nyt-cleanup-c.yaml` until it shows 0 errors. Its duplicate warnings on new entries are for the merger.
+6. Write `notes/nyt/audit-cleanup-c.md`: ops checked, changed, added, struck; what was read on the clippings and what was not; what is left. Plain everyday prose; a paragraph or a list item is one line (never hard-wrap Markdown).
+
+Other agents are at work in this checkout on other files, among them the other two cleanup patches. Do not merge, do not run `./bib build`, do not edit files under `lists/`, and do not commit or push: leave your files in place and report. `./bib check` takes about five minutes. Quote no more than a few words of the newspaper.
+
+Report: what you checked against a clipping and what you could not, what you changed and why, whether the patch is ready to merge, and what you disregarded under R0, if anything.
