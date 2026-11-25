@@ -336,6 +336,10 @@ ops:
     add:
     - cal.1960-09-17.elections-1960-kennedy-4
 - follows:
+    id: cal.1960-09-17.soviet-union
+    add:
+    - cal.1960-09-17.china-leadership-6
+- follows:
     id: cal.1960-09-17.china-leadership-5
     add:
     - cal.1960-09-17.soviet-union
@@ -376,25 +380,21 @@ ops:
     add:
     - cal.1960-09-21.elections-1960-kennedy-4
 - follows:
-    id: cal.1960-09-21.farm-2
-    add:
-    - cal.1960-09-21.elections-1960-kennedy-5
-- follows:
     id: cal.1960-09-22.farm-5
     add:
     - cal.1960-09-22.farm-4
 - follows:
-    id: cal.1960-09-22.farm
+    id: cal.1960-09-22.elections-1960-kennedy-2
     add:
     - cal.1960-09-22.elections-1960-kennedy
 - follows:
-    id: cal.1960-09-22.elections-1960-kennedy-2
+    id: cal.1960-09-22.farm
     add:
-    - cal.1960-09-22.farm
+    - cal.1960-09-22.elections-1960-kennedy-2
 - follows:
     id: cal.1960-09-22.farm-2
     add:
-    - cal.1960-09-22.elections-1960-kennedy-2
+    - cal.1960-09-22.farm
     - cal.1960-09-22.farm-5
 - follows:
     id: cal.1960-09-22.elections-1960
@@ -453,6 +453,10 @@ ops:
     add:
     - cal.1960-09-26.elections-1960-debates-2
     - cal.1960-09-26.elections-1960-debates-3
+- follows:
+    id: cal.1960-09-27.elections-1960-kennedy
+    add:
+    - cal.1960-09-27.elections-1960
 - follows:
     id: cal.1960-09-27.elections-1960-kennedy-2
     add:
