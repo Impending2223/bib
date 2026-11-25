@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1966-04
-by: 'Claude (Sonnet, sequence pass: R25c on April 1966), Nov. 25, 2026; notes/sequence/1966-04.md'
+by: 'Claude (Sonnet, sequence pass: R25c on April 1966), Nov. 25, 2026; notes/sequence/1966-04.md. Audited by Claude (Opus), Nov. 25, 2026: notes/sequence/audit-1966-04.md'
 ops:
 - follows:
     id: cal.1966-04-04.china-leadership-7
@@ -13,10 +13,20 @@ ops:
     id: cal.1966-04-14.china-leadership-5
     add:
     - cal.1966-04-14.china-leadership-2
+- edit:
+    id: cal.1966-04-14.china-leadership-5
+    base: 1474a587
+    set:
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 481. The words: 上午九时 (IV, 481). After [[cal.1966-04-14.china-leadership-2|Mao''s 8:30 a.m. note]], by the hours the note on that entry gives from Mao''s manuscripts. Made public: 2012. See [[cal.1966-04-12.china-leadership]]. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Kang Sheng, Chen Boda.'
 - follows:
     id: cal.1966-04-16.china-leadership-9
     add:
     - cal.1966-04-16.china-leadership-6
+- edit:
+    id: cal.1966-04-16.china-leadership-9
+    base: ae854ea0
+    set:
+      n: '[[w.pu-weihua-zalan-jiu-shijie]], 69. Made public: 2008. See [[cal.1966-04-16.china-leadership-6]]. The words: 4月16日晚 (69). After [[cal.1966-04-16.china-leadership-6|the printing]]: the paper of the 16th, the withdrawal that evening (69).'
 - follows:
     id: cal.1966-04-16.china-leadership
     add:
@@ -37,3 +47,45 @@ ops:
     id: cal.1966-04-28.china-leadership-4
     add:
     - cal.1966-04-28.china-leadership-2
+- follows:
+    id: cal.1966-04-04.vietnam-struggle
+    add:
+    - cal.1966-04-04.vietnam-struggle-3
+- edit:
+    id: cal.1966-04-04.vietnam-struggle
+    base: 07e30d3b
+    set:
+      time: 1966-04-05T02:03Z
+      time_zone: America/New_York
+      n: 'FRUS 1964–68, IV, docs. [110](https://history.state.gov/historicaldocuments/frus1964-68v04/d110), [112](https://history.state.gov/historicaldocuments/frus1964-68v04/d112). Made public: FRUS 1964–68, IV (1998). [[w.gibbons-u-s-government-and]], IV, 279–81. Telegram 2965 to Lodge and Westmoreland, "the first one" Johnson approved at the meeting, transmitted at 9:03 p.m. (doc. 112 and its note 2). After [[cal.1966-04-04.vietnam-struggle-3|the meeting]]. See [[cal.1966-03-10.vietnam]].'
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1966-04-04.vietnam-struggle-4
+    base: 6d43543d
+    set:
+      time: 1966-04-05T02:05Z
+      n: '[[w.gibbons-u-s-government-and]], IV, 281. After the meeting that approved it, by Gibbons''s account. Transmitted at 9:05 p.m., by FRUS''s note to the meeting''s record cited on [[cal.1966-04-04.vietnam-struggle-3]]. To check: Washington to Saigon 2964 and 2966, Apr. 4, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 281 n.45). See [[cal.1966-04-04.vietnam-struggle-3]]. Names: Lodge, Thích Trí Quang, Nguyễn Chánh Thi, Nguyễn Cao Kỳ.'
+    unset:
+    - time_range
+- edit:
+    id: cal.1966-04-05.china-leadership
+    base: c9461139
+    kind: correct
+    set:
+      c: 'Zhou Enlai at Ci County, to officials of Hebei, Handan and the central departments, on what his inspection of the past days showed, repeating what he had said on the tour. The drive for wells has run hot: "active attitude, steady steps, voluntary, self-reliance", neither phrase to be dropped; no added burdens on the people; mechanization step by step; relief joined to production, loans to spur self-help, not dependence.'
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 25–26 (Apr. 5, 1966). The chronology: 就几天视察中发现的问题 ... 又讲了以上内容 (III, 25), the inspection of several days, not of the day. Made public: 2020. Names: Zhou Enlai.'
+- follows:
+    id: cal.1966-04-29.china-leadership-6
+    add:
+    - cal.1966-04-29.china-leadership
+- edit:
+    id: cal.1966-04-29.china-leadership-6
+    base: 3d1973a1
+    set:
+      n: '[[w.chen-yi-nianpu]], 1145–1146. The words: 之后 (1145). After [[cal.1966-04-29.china-leadership|the visit to Shashiyu]]: the chronology''s "afterward" (1145). Names: Chen Yi.'
+- check:
+    id: cal.1966-04-30.china-leadership-7
+    text: 'Check: the day; Zhou was in Peking on Apr. 30, at the afternoon rally ([[cal.1966-04-30.china-leadership-3]]), and the Zhou chronology has him go to Shanghai Apr. 25 and fly back to Peking the next day (III, 28; [[cal.1966-04-25.china-leadership]]).'

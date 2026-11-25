@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1964-12
-by: 'Claude (Sonnet, sequence pass: R25c on December 1964), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass: R25c on December 1964), Nov. 25, 2026; audited by Claude (Opus), Nov. 25, 2026'
 ops:
 - follows:
     id: cal.1964-12-01.china-leadership-7
@@ -15,18 +15,21 @@ ops:
     add:
     - cal.1964-12-02.china-leadership-3
 - follows:
-    id: cal.1964-12-08.china-leadership-7
-    add:
-    - cal.1964-12-08.china-leadership
-    - cal.1964-12-08.china-leadership-2
-- follows:
     id: cal.1964-12-10.voting-rights
     add:
     - cal.1964-12-10.king-3
 - follows:
-    id: cal.1964-12-10.king-4
+    id: cal.1964-12-10.king
     add:
     - cal.1964-12-10.voting-rights
+- follows:
+    id: cal.1964-12-10.king-4
+    add:
+    - cal.1964-12-10.king
+- follows:
+    id: cal.1964-12-16.china-leadership-2
+    add:
+    - cal.1964-12-16.china-leadership-7
 - follows:
     id: cal.1964-12-16.china-leadership-5
     add:
@@ -48,6 +51,35 @@ ops:
     add:
     - cal.1964-12-29.georgia
 - follows:
+    id: cal.1964-12-30.china-leadership-2
+    add:
+    - cal.1964-12-30.china-leadership
+- follows:
     id: cal.1964-12-31.china-leadership-6
     add:
     - cal.1964-12-31.china-leadership-5
+- edit:
+    id: cal.1964-12-10.king
+    base: 0914a6ea
+    set:
+      n: '[[w.branch-pillar-of-fire]], 542. After [[cal.1964-12-10.voting-rights|the ceremony]]: reporters "interrupted the receptions afterward" with the news from Mississippi, and King spoke at a press conference ([[w.branch-pillar-of-fire]], 541–42). To check: Television transcript of King press conference, Dec. 10, 1964, A/KS (cited by [[w.branch-pillar-of-fire]], 542). See [[cal.1964-12-04.mississippi]]. Names: King.'
+- edit:
+    id: cal.1964-12-10.king-4
+    base: 75343d7d
+    set:
+      n: '[[w.branch-pillar-of-fire]], 542 & n. To check: Int. Harry Wachtel, Oct. 27, 1983; Eskridge to Greenberg, Dec. 28, 1964, A/SC9f37 (both cited by [[w.branch-pillar-of-fire]], 542). [[w.young-easy-burden]], 322 (Young orders the case; the SCLC "family" in King''s suite after the ceremony; Daddy King''s toast, to God; not Eskridge or Wachtel). After [[cal.1964-12-10.king|the press conference]]: the press conference at the receptions after the ceremony, the toasts "that night" ([[w.branch-pillar-of-fire]], 541–42). See [[cal.1964-12-10.voting-rights]]. Names: King, Wachtel.'
+- edit:
+    id: cal.1964-12-16.china-leadership-2
+    base: 0f7f5192
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 694 (Dec. 16, 1964); [[w.zhou-enlai-waijiao-huodong]], 430 (Dec. 16, 1964; 上午11时, 人民大会堂福建厅, 和陈毅副总理同阿尔及利亚总统特使乌兹加尼举行会谈, 并共进午餐); [[w.chen-yi-nianpu]], 1073 (Dec. 16, 1964, noon; Chen Yi with Zhou holds talks with Ouzegane). After [[cal.1964-12-16.china-leadership-7|Ouzegane''s welcome at the airport]]: the envoy met on his arrival that morning (上午，到机场欢迎) before the talks (中午) ([[w.chen-yi-nianpu]], 1073). Made public: 1993. Names: Zhou Enlai, Amar Ouzegane.'
+- edit:
+    id: cal.1964-12-25.vietnam-saigon-2
+    base: 5c84cbfd
+    set:
+      n: '[FRUS 1964–68, I, doc. 471](https://history.state.gov/historicaldocuments/frus1964-68v01/d471) n.2 (the calls). [[w.westmoreland-soldier-reports]], 95 (Kỳ; the accommodation). After [[cal.1964-12-25.vietnam-saigon|Taylor''s cable]]: the cable, sent 9 p.m. Saigon time, has the calls still to be made ("I have asked Throckmorton to see individually four Young Turk Generals"; "Throckmorton is also to kill the canard") ([FRUS 1964–68, I, doc. 467](https://history.state.gov/historicaldocuments/frus1964-68v01/d467)). Check: Westmoreland names Thi as well (95); Saigon 1955 of Dec. 26, as FRUS gives it, Kỳ, Cang and Thiệu. To check: Throckmorton to Taylor, Dec. 26, 1964, Westmoreland Papers, History Backup, LBJ Library (cited by FRUS 1964–68, I, doc. 471 n.2). See [[cal.1964-12-22.vietnam]]. Names: Throckmorton, Westmoreland, Nguyễn Cao Kỳ, Nguyễn Văn Thiệu, Taylor, Nguyễn Khánh, Trần Văn Hương.'
+- edit:
+    id: cal.1964-12-30.china-leadership-2
+    base: 76e33793
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 698 (Dec. 30, 1964); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 612 (Dec. 30, 1964; Liu presides at the Supreme State Conference and speaks on the international and home situation, the socialist-education movement and the two labor and two education systems; the movement''s main point is to rectify those in power in our Party who stubbornly take the capitalist road, in the production brigades, teams and communes, some in the counties, some in the special districts and provinces, and a few departments of the Center; on remolding he says not to fear it, for he too at first was no Marxist and believed in Confucius, in feudal literati, then in capitalism and the Kuomintang, and last found Marxism; if China itself is done well and its people and society remolded, a quarter of the world is done well); [[w.peng-zhen-nianpu-1902]], IV, 382–383 (Dec. 30, 1964; Peng Zhen speaks at the twenty-first Supreme State Conference, Liu Shaoqi presiding, on the lists of the state''s leaders and the CPPCC''s chairman, vice-chairmen and standing members; Liu on the situation, socialist education and the two systems of labor and of education); [[w.zhu-de-nianpu-xinbian]], III, 1926 (Dec. 30, 1964; Zhu De 朱德 at the Supreme State Conference 最高国务会议 Liu Shaoqi 刘少奇 presides over, which consults on the lists of leaders to be proposed to the first sessions of the Third NPC 第三届全国人大 and of the Fourth CPPCC National Committee 政协第四届全国委员会). After [[cal.1964-12-30.china-leadership|the list sent to Mao, Liu, Zhu and Deng]]: the covering word says more names "还可在最高国务会议上提出", and the conference then discusses "上述名单" ([[w.zhou-enlai-nianpu-1949]], II, 698). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi.'
