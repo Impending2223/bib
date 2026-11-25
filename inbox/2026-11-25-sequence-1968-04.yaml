@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1968-04
-by: 'Claude (Sonnet, sequence pass: R25c on April 1968), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass: R25c on April 1968), Nov. 25, 2026; audited and corrected by Claude (Opus, R25c, R33b), Nov. 25, 2026'
 ops:
 - follows:
     id: cal.1968-04-01.elections-1968-johnson-5
@@ -9,14 +9,29 @@ ops:
     id: cal.1968-04-01.elections-1968-2
     add:
     - cal.1968-04-01.testing-npt
+- edit:
+    id: cal.1968-04-01.robert-kennedy-campaign-4
+    base: 17af0349
+    set:
+      n: '[[w.shesol-mutual-contempt]], 446; [[w.witcover-85-days]], 133 (Camden: "We take pride in President Johnson, who brought to final fulfillment the policies of thirty years, and who yesterday sacrificed personal political considerations to win the peace"; not the Schlesinger line). Order: after [[cal.1968-04-01.robert-kennedy-campaign-3|the Overseas Press Club]], by Witcover (132–33: the press conference "the next morning"; "That day, Kennedy flew to Philadelphia" for the suburbs "and a stop in Camden"). To check: Speech drafts, Mar. 30 and Apr. 1, 1968, RFK Speeches, 1965–1968, Reading Copies, box 9, JFK Library (cited by [[w.shesol-mutual-contempt]], 446). Names: Robert Kennedy, Johnson, Schlesinger.'
+- follows:
+    id: cal.1968-04-01.robert-kennedy-campaign-4
+    add:
+    - cal.1968-04-01.robert-kennedy-campaign-3
 - follows:
     id: cal.1968-04-02.elections-1968-johnson
     add:
     - cal.1968-04-02.elections-1968
+- edit:
+    id: cal.1968-04-02.robert-kennedy-campaign-2
+    base: ffc475ee
+    set:
+      n: '[[w.shesol-mutual-contempt]], 446; [[w.witcover-85-days]], 134 (the Democratic fund-raiser in Philadelphia: Kennedy calls Tate "one of the greatest mayors in the United States"; "to see if he''s smiling"; not the text on Johnson). Order: after [[cal.1968-04-02.robert-kennedy-campaign-primaries|O''Donnell''s talk with Tate]] ("prior to the dinner") and [[cal.1968-04-02.robert-kennedy-campaign|the Palestra]] ("That same afternoon, before the Tate dinner"), by Witcover (134–35). To check: Speech, Apr. 2, 1968, RFK Speeches, 1965–1968, Reading Copies, box 9, JFK Library (cited by [[w.shesol-mutual-contempt]], 446). Names: Robert Kennedy, Johnson.'
 - follows:
     id: cal.1968-04-02.robert-kennedy-campaign-2
     add:
     - cal.1968-04-02.robert-kennedy-campaign-primaries
+    - cal.1968-04-02.robert-kennedy-campaign
 - follows:
     id: cal.1968-04-02.robert-kennedy-campaign-primaries-2
     add:
@@ -38,25 +53,40 @@ ops:
     add:
     - cal.1968-04-04.elections-1968
 - follows:
-    id: cal.1968-04-04.robert-kennedy-campaign
-    add:
-    - cal.1968-04-04.robert-kennedy
-- follows:
     id: cal.1968-04-04.robert-kennedy-campaign-2
     add:
     - cal.1968-04-04.robert-kennedy
+- edit:
+    id: cal.1968-04-04.robert-kennedy-campaign-3
+    base: a06146cf
+    set:
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 876. Order: after [[cal.1968-04-04.robert-kennedy-campaign-2|the call to Coretta King]]: from the rally Kennedy "went straight back to the Marott Hotel" and telephoned her ([[w.witcover-85-days]], 142); the militants "waited for him now," and "Kennedy finally arrived" ([[w.schlesinger-robert-kennedy-and-his]], 876). To check: John Lewis, interview by Jean Stein, Sept. 9, 1968, 7, Stein Papers; [[w.vanden-heuvel-on-his-own]], 338 (cited by [[w.schlesinger-robert-kennedy-and-his]], 876 n.3). See [[cal.1968-04-04.robert-kennedy]]. Names: Robert Kennedy, John Lewis.'
 - follows:
     id: cal.1968-04-04.robert-kennedy-campaign-3
+    add:
+    - cal.1968-04-04.robert-kennedy-campaign-2
+- edit:
+    id: cal.1968-04-04.robert-kennedy-campaign
+    base: c0bdd8ce
+    set:
+      n: '[[w.thomas-robert-kennedy]], 367–68. Thomas notes Warren Rogers doubted Braden''s story (471). The time is the first day''s. Order: after [[cal.1968-04-04.robert-kennedy-campaign-3|the meeting with the militants]], by [[w.schlesinger-robert-kennedy-and-his]], 876–77 ("After the meeting," Kennedy to Greenfield that King''s death was not the worst thing, then "Harvey Lee Oswald"; early in the morning the blanket over Greenfield). See [[cal.1968-04-04.robert-kennedy]]. Names: Robert Kennedy, Walinsky, Greenfield, Braden.'
+- follows:
+    id: cal.1968-04-04.robert-kennedy-campaign
+    add:
+    - cal.1968-04-04.robert-kennedy-campaign-3
+- edit:
+    id: cal.1968-04-04.robert-kennedy-campaign-4
+    base: a23a9a90
+    set:
+      n: '[[w.sorensen-counselor]], 463–64 (Sorensen''s account, written in 2008; the notes quoted in part; Kennedy''s staff inserted the language into their draft that night). Order: after [[cal.1968-04-04.robert-kennedy|the Indianapolis rally]], by Sorensen (463: Kennedy spoke in Indianapolis; "He then telephoned me"); not placed against the call to Coretta King or the militants. See [[cal.1968-04-04.robert-kennedy]]. Names: Sorensen, Robert Kennedy, King.'
+- follows:
+    id: cal.1968-04-04.robert-kennedy-campaign-4
     add:
     - cal.1968-04-04.robert-kennedy
 - follows:
     id: cal.1968-04-04.robert-kennedy-campaign-decision-2
     add:
     - cal.1968-04-04.robert-kennedy-campaign-decision
-- follows:
-    id: cal.1968-04-04.civil-disorders-king-2
-    add:
-    - cal.1968-04-04.civil-disorders
 - follows:
     id: cal.1968-04-04.civil-disorders-king-3
     add:
@@ -81,6 +111,24 @@ ops:
     id: cal.1968-04-05.press-and-broadcasting
     add:
     - cal.1968-04-05.press-and-broadcasting-2
+- edit:
+    id: cal.1968-04-05.civil-disorders-king-2
+    base: 5576b8e2
+    set:
+      n: '[[w.johnson-white-house-diary]], 652 (Lady Bird Johnson''s account; Connally''s words in her paraphrase). Her agents then ask that she arrive late and ride a minibus; Johnson, by telephone, "thought I should go on to Hemisfair." Order: after [[cal.1968-04-05.press-and-broadcasting|the Ranch tour]], by Mrs. Johnson''s diary (651–52: supper in the yard at 6; "After my guests had left," calls to Lynda and to Liz Carpenter, then "I talked to John Connally and then I had a conference call"). Names: Connally, Lady Bird Johnson, Carpenter.'
+- follows:
+    id: cal.1968-04-05.civil-disorders-king-2
+    add:
+    - cal.1968-04-05.press-and-broadcasting
+- edit:
+    id: cal.1968-04-07.civil-disorders-king-2
+    base: 45cd6cbc
+    set:
+      n: '[[w.clifford-counsel-to-the-president-2]], 531; [[w.califano-triumph-and-tragedy-of]], 281 (after leaving Westmoreland at Andrews; along 7th and 14th Streets Northwest); [[w.longley-lbjs-1968]], 127 (low over 7th and 14th Streets). Order: after [[cal.1968-04-07.civil-disorders-king-4|the Mass]], by the [President''s Daily Diary, Apr. 7, 1968](https://catalog.archives.gov/id/192479), images 3, 5 (LBJ Library; National Archives Catalog): out of St. Dominic''s 1:15 p.m.; the helicopter, Westmoreland and Clifford aboard, from the South Lawn 4:16 p.m. Names: Clifford, Johnson.'
+- follows:
+    id: cal.1968-04-07.civil-disorders-king-2
+    add:
+    - cal.1968-04-07.civil-disorders-king-4
 - follows:
     id: cal.1968-04-08.china-leadership-6
     add:
@@ -102,6 +150,11 @@ ops:
     id: cal.1968-04-09.conservation
     add:
     - cal.1968-04-09.elections-1968-johnson
+- edit:
+    id: cal.1968-04-09.vietnam-support
+    base: d5c7e3a6
+    set:
+      n: '[[w.johnson-white-house-diary]], 658–59 (Lady Bird Johnson''s account). Legge''s words as Mrs. Johnson gives them; he had said the same to her privately. Order: after [[cal.1968-04-09.conservation|Goliad]], by Mrs. Johnson''s diary (658: from the chapel "loaded onto the bus, and drove on to Gonzales"; "It was 2 o''clock when we reached Gonzales"). Names: Lady Bird Johnson.'
 - follows:
     id: cal.1968-04-09.vietnam-support
     add:
@@ -110,6 +163,12 @@ ops:
     id: cal.1968-04-09.elections-1968-2
     add:
     - cal.1968-04-09.vietnam-support
+- check:
+    id: cal.1968-04-09.elections-1968
+    text: 'Check: the day; Witcover (145–46) puts this meeting about 10:30 p.m. the night before the funeral, after the 9 p.m. meeting ([[cal.1968-04-08.robert-kennedy-campaign-decision]]), and the meeting with King''s associates after it, until nearly 3 a.m.'
+- check:
+    id: cal.1968-04-05.robert-kennedy-campaign-decision
+    text: 'Check: the day; Goodwin (526–27) puts it the morning after King''s death, when Kennedy went from Indianapolis to Cleveland ([[w.witcover-85-days]], 142; [[w.schlesinger-robert-kennedy-and-his]], 877).'
 - follows:
     id: cal.1968-04-10.open-housing
     add:
@@ -128,3 +187,12 @@ ops:
     id: cal.1968-04-10.robert-kennedy-campaign-3
     add:
     - cal.1968-04-10.transition-and-staff
+- edit:
+    id: cal.1968-04-11.robert-kennedy-campaign-primaries
+    base: 1bfa5746
+    set:
+      n: '[[w.witcover-85-days]], 148. Order: after [[cal.1968-04-11.robert-kennedy-2|Lansing]], by Witcover (147–48: of the day''s two developments "The private development occurred first, at the Jack Tar Hotel in Lansing"; then Kalamazoo). Names: Robert Kennedy.'
+- follows:
+    id: cal.1968-04-11.robert-kennedy-campaign-primaries
+    add:
+    - cal.1968-04-11.robert-kennedy-2
