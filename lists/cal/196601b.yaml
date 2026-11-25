@@ -192,14 +192,14 @@ entries:
     date: '1966-01-10'
     place: hattiesburg
     thread: mississippi
-    c: 'Hattiesburg, Forrest General Hospital, the morning after the attack.{1} Dahmer to J. C. Fairley: "They finally got me."{2} To the Reverend Robert Beech: "I think I made a mistake," reminding him that he had always said it was unwise to be too far out front.{3} Dead at 3:45 p.m.{4}'
-    n: '[[w.branch-pillar-of-fire]], 607. To check: Int. J. C. Fairley, June 20, 1992; Int. Robert Beech, Dec. 8, 1991 (both cited by [[w.branch-pillar-of-fire]], 607). See [[cal.1966-01-10.mississippi]]. Names: Dahmer.'
+    c: 'Hattiesburg, Forrest General Hospital, the morning after the attack.{1} Dahmer to J. C. Fairley: "They finally got me."{2} To the Reverend Robert Beech: "I think I made a mistake," reminding him that he had always said it was unwise to be too far out front.{3}'
+    n: '[[w.branch-pillar-of-fire]], 607. To check: Int. J. C. Fairley, June 20, 1992; Int. Robert Beech, Dec. 8, 1991 (both cited by [[w.branch-pillar-of-fire]], 607). Split under R25b and R17: Branch (607) gives Dahmer''s death its own hour, 3:45 p.m.; it is now an entry. See [[cal.1966-01-10.mississippi]]. Names: Dahmer.'
     src:
-      c: 63d62eb9
       rows:
-        - 'w.branch-pillar-of-fire 607: 1, 2, 3, 4'
+        - 'w.branch-pillar-of-fire 607: 1, 2, 3'
         - 'via x.1992-06-20.int-j-c-fairley-june-20-1992: 2'
         - 'via x.1991-12-08.int-robert-beech-dec-8-1991: 3'
+      c: 413cb9ed
     tags: [name:dahmer-vernon, city:hattiesburg, state:ms]
     time_range:
       - 1966-01-10T12:00Z
@@ -275,6 +275,18 @@ entries:
     c: Tanggu 塘沽, Tianjin 天津. On the way Zhu De 朱德 inspects the new port of Tanggu 塘沽新港.{1} He hears Hu Zhaoheng 胡昭衡, mayor of Tianjin 天津市.{2}
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1946. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc@2]
+  - id: cal.1966-01-10.mississippi-4
+    when: Jan. 10
+    date: '1966-01-10'
+    time: 1966-01-10T21:45Z
+    place: hattiesburg
+    thread: mississippi
+    follows:
+      - cal.1966-01-10.mississippi-3
+    c: Dahmer dies at Forrest General Hospital, Hattiesburg, at 3:45 p.m.
+    n: '[[w.branch-pillar-of-fire]], 607. After the morning''s visitors: "The visitors departed. Dahmer went to sleep," then death (607). See [[cal.1966-01-10.mississippi-3]]. Names: Dahmer.'
+    tags: [name:dahmer-vernon, city:hattiesburg, state:ms]
+    time_zone: America/Chicago
   - id: cal.1966-01-11.legislatures-ca
     when: Jan. 11
     date: '1966-01-11'
@@ -2701,6 +2713,14 @@ entries:
       - 1966-01-21T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1966-01-21.vietnam-congress
+    when: Jan. 21
+    date: '1966-01-21'
+    place: washington
+    thread: vietnam-congress
+    c: 'Seventy-seven House Democrats, mostly liberals, led by Brock Adams, write Johnson: support for his diplomatic efforts to end the war; seek a U.N. cease-fire. The signatures got in four hours.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 140 ("In only four hours, Adams and his colleagues got 77 Members of the House to sign the letter"); [[w.zaroulis-who-spoke-up]], 71 (seventy-six members, "urging him to halt escalation"). The letter: 112 Cong. Rec. 844 (Jan. 24, 1966), by the Public Papers'' note to the reply (1966 Pub. Papers 44). Names: Adams. Check: Zaroulis, 71, has seventy-six members.'
+    tags: [name:adams-brockman, ok:fields-time]
   - id: cal.1966-01-22.vietnam-pause
     when: Jan. 22
     date: '1966-01-22'
@@ -2861,6 +2881,15 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 81: all'
     tags: [polity:prc, polity:japan]
+  - id: cal.1966-01-22.vietnam-congress
+    when: Jan. 22
+    date: '1966-01-22'
+    place: washington
+    thread: vietnam-congress
+    also: [vietnam-pause]
+    c: 'Johnson to the House members, by Adams, first in alphabetical order: grateful for their support; "no part of this whole problem to which we give closer attention" than the United Nations; from Hanoi only hostility; "no abandonment of our peace efforts"; the forces in Vietnam to have "every dollar and every gun and every decision" they must have.'
+    n: 'Reply to a Letter From a Group of House Members, [1966 Pub. Papers 44](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=120) (Jan. 22, 1966; the text on [the American Presidency Project](https://www.presidency.ucsb.edu/documents/reply-letter-from-group-house-members-relating-the-situation-vietnam)). Names: Johnson, Adams.'
+    tags: [name:johnson-lyndon-b, name:adams-brockman, ok:fields-time]
   - id: cal.1966-01-23.opinion
     when: Jan. 23
     date: '1966-01-23'
@@ -4089,6 +4118,21 @@ entries:
     c: Xiaoshan county 萧山县. Zhu De 朱德 inspects the Dongfanghong commune 东方红公社.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1966-01-27.vietnam-congress-5
+    when: Jan. 27
+    date: '1966-01-27'
+    place: washington
+    thread: vietnam-congress
+    also: [vietnam-pause]
+    c: 'Fifteen Democratic Senators, Hartke first, write Johnson against resuming the bombing, with Mansfield, Aiken and Fulbright: the first organized, open challenge to him from Senate Democrats. Sent in the afternoon, by Harriman''s account.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 156–57 (the letter''s text; the fifteen, 156 n.128; "the Senators had already sent their letter to the President that same afternoon," Harriman to McGeorge Bundy, Feb. 4, 1966, 156 n.129). [[w.mann-grand-delusion]], 481–83. The range is the afternoon band, by Harriman''s "that same afternoon." Names: Hartke, Mansfield, Aiken, Fulbright.'
+    tags: [name:hartke-rupert-v, name:mansfield-mike, name:aiken-george-d, name:fulbright-j-william]
+    time_zone: America/New_York
+    time_range:
+      - 1966-01-27T17:00Z
+      - 1966-01-27T23:00Z
+    time_band: afternoon
+    range_basis: record
   - id: cal.1966-01-28.european-community
     when: Jan. 28–29
     date: '1966-01-28'
@@ -4354,6 +4398,17 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 463: all'
     tags: [polity:prc, name:peng-zhen, name:chen-boda, name:li-jingquan, vis:only:prc, ok:fields-place, name:mao-zedong, name:liu-lantao, name:song-renqiong]
+  - id: cal.1966-01-28.vietnam-congress-2
+    when: Jan. 28
+    date: '1966-01-28'
+    time: 1966-01-28T21:15Z
+    place: washington
+    thread: vietnam-congress
+    also: [vietnam-pause]
+    c: 'Johnson to Hartke, read by Moyers at his news conference, 4:15 p.m.: "guided in these matters by the resolution of the Congress approved on August 10, 1964 ... by a vote of 504 to 2"; his views as in his reply to the House members.'
+    n: 'Reply to a Letter From a Group of Senators, [1966 Pub. Papers 112](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=188) (Jan. 28, 1966; the note, on [the American Presidency Project''s page](https://www.presidency.ucsb.edu/documents/reply-letter-from-group-senators-relating-the-situation-vietnam): read by Moyers "at his news conference at 4:15 p.m."). [[w.gibbons-u-s-government-and]], IV, 157. It follows the Senators'' letter. See [[cal.1966-01-27.vietnam-congress-5]]. Names: Johnson, Hartke, Moyers.'
+    tags: [name:johnson-lyndon-b, name:hartke-rupert-v, name:moyers-bill]
+    time_zone: America/New_York
   - id: cal.1966-01-29.vietnam-congress
     when: Jan. 29
     date: '1966-01-29'
@@ -4440,7 +4495,7 @@ entries:
     place: washington
     thread: vietnam-congress
     c: 'Morse in the Senate against the President''s answer to the fifteen Senators: S. Res. 217, the Foreign Relations Committee to investigate publicly all aspects of the policy in Vietnam; S. Con.{1} Res. 75, to terminate the Southeast Asia Resolution.{2} Morse: "We owe it to the president to decide whether the American people are entitled to a debate on the issue of a declaration of war."{3}'
-    n: '[112 Cong. Rec. 1484, 1506–11](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-2-1.pdf#page=26) (1966) (Senate, Jan. 29, 1966). [[w.gibbons-u-s-government-and]], IV, 226. [[w.mann-grand-delusion]], 503. The Senate sat from noon to 2:34 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D27](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=25). See [[cal.1966-01-28.vietnam-congress]]. Names: Morse.'
+    n: '[112 Cong. Rec. 1510](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-2-1.pdf#page=30) (Jan. 29, 1966). [112 Cong. Rec. 1484, 1506–11](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-2-1.pdf#page=26) (1966) (Senate, Jan. 29, 1966). [[w.gibbons-u-s-government-and]], IV, 226. [[w.mann-grand-delusion]], 503. The Senate sat from noon to 2:34 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D27](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=25). See [[cal.1966-01-28.vietnam-congress]]. Names: Morse.'
     src:
       c: d2d6c0cf
       rows:
@@ -4449,6 +4504,7 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 226 n.41: 1, 2'
         - 'w.mann-grand-delusion 503: 2, 3'
         - 'via w.mann-grand-delusion 503 n.17: 3'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-2-1.pdf#page=30: 3'
     tags: [name:morse-wayne]
     time_range:
       - 1966-01-29T17:00Z
@@ -4457,22 +4513,20 @@ entries:
   - id: cal.1966-01-29.vietnam-pause-3
     when: Jan. 29
     date: '1966-01-29'
+    time: 1966-01-29T18:20Z
     thread: vietnam-pause
-    c: 'The NSC with the Joint Chiefs, Califano present: the Chiefs'' "highest priority on resuming bombing"; Harold Johnson: "surge troops in, doubling and tripling the number," an emergency, the reserves. Johnson: "Senator McCarthy wants to know how much it really stops."{1} Califano to Johnson that afternoon: the case for resuming "totally unconvincing";{2} get a good lawyer to argue it to Congress and the public.{3}'
-    n: '[[w.califano-triumph-and-tragedy-of]], 120–21 (Califano''s notes). To check: notes of the NSC meeting of Jan. 29, 1966, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 121 n.30). See [[cal.1966-01-29.vietnam-pause]]. Names: Califano, Harold Johnson, Lyndon Johnson, McCarthy.'
+    c: 'The NSC with the Joint Chiefs, Califano present: the Chiefs'' "highest priority on resuming bombing"; Harold Johnson: "surge troops in, doubling and tripling the number," an emergency, the reserves. Johnson: "Senator McCarthy wants to know how much it really stops."{1} Rusk on the peace offensive: "no runs, no hits, no errors."{4} Califano to Johnson that afternoon: the case for resuming "totally unconvincing";{2} get a good lawyer to argue it to Congress and the public.{3}'
+    n: '[FRUS 1964–68, IV, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v04/d55). [[w.califano-triumph-and-tragedy-of]], 120–21 (Califano''s notes); [[w.gibbons-u-s-government-and]], IV, 163 (Rusk and Goldberg: no diplomatic progress; Harold Johnson on the surge, the reserves, a national emergency). Check: the day and hour: FRUS IV, doc. 55, has Jan. 29, 1:20–2:30 p.m., from the Daily Diary (n. 1), and the time is that; Gibbons, IV, 163 n.146, has Sunday, Jan. 30, 12:15 to 2:25 p.m., the notes'' date an error. To check: notes of the NSC meeting of Jan. 29, 1966, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 121 n.30). See [[cal.1966-01-29.vietnam-pause]]. Names: Califano, Harold Johnson, Lyndon Johnson, McCarthy.'
     src:
-      c: cd65d831
+      c: 7d8baeaf
       rows:
         - 'w.califano-triumph-and-tragedy-of 120–21: 1, 2, 3'
         - 'via w.califano-triumph-and-tragedy-of 121 n.30: 1'
         - 'via w.califano-triumph-and-tragedy-of 121 n.31: 2'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d55: 4'
+        - 'w.gibbons-u-s-government-and IV, 163: ?'
     tags: [name:califano-joseph-a-jr, name:johnson-harold-k, name:johnson-lyndon-b, name:mccarthy-eugene-j]
-    time_range:
-      - 1966-01-29T14:00Z
-      - 1966-01-29T22:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1966-01-29.mississippi
     when: Jan. 29–30
     date: '1966-01-29'
@@ -4664,31 +4718,18 @@ entries:
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
   - id: cal.1966-01-31.vietnam
-    when: Jan. 31–Feb. 2
+    when: Jan. 31
     date: '1966-01-31'
     time: 1966-01-31T15:00Z
     thread: vietnam-air-war
-    c: 'The bombing of the North resumed after 37 days.{1} Before it: Jan. 21, 77 House members write for more effort through the United Nations;{2} Jan. 27, 15 Senators, Hartke the first, against resuming.{3} Johnson''s reply, Jan. 28: guided by the resolution of Aug. 10, 1964, "by a vote of 504 to 2."{4} Hồ Chí Minh''s letter of Jan. 24 to heads of state.{5} NSC, Jan. 29: the peace offensive, in the notes of Rusk''s report, "no runs, no hits, no errors."{6} Jan. 31, 10 a.m., Johnson on television: aircraft "have resumed action in North Vietnam."{7} The same day Goldberg asks the Security Council to meet, with a resolution for a conference to apply the Geneva accords.{8} Feb. 2, the Council puts Vietnam on its agenda, 9–2 (Check), and adjourns for private consultations.{9}'
-    n: 'Statement by the President Announcing Resumption of Air Strikes on North Vietnam, [1966 Pub. Papers 114](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=190) (Jan. 31, 1966); Reply to a Letter From a Group of House Members, [1966 Pub. Papers 44](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=120) (Jan. 22, 1966); Reply to a Letter From a Group of Senators, [1966 Pub. Papers 112](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=188) (Jan. 28, 1966). [FRUS 1964–68, IV, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v04/d55); [doc. 56](https://history.state.gov/historicaldocuments/frus1964-68v04/d56); [doc. 57](https://history.state.gov/historicaldocuments/frus1964-68v04/d57); [doc. 59](https://history.state.gov/historicaldocuments/frus1964-68v04/d59). [[w.gibbons-u-s-government-and]], IV, 140, 155–58, 163–64 (the House members'' letter, 140; the Senators'' letter and the reply, 155–58; the NSC and the resumption, 163–64); [[w.preston-war-council]], 227; [[w.califano-triumph-and-tragedy-of]], 121 (resumed Jan. 31; Hanoi and Haiphong still barred); [[w.branch-at-canaans-edge]], 433 (from the White House theater, 10 a.m.); [[w.cosmas-joint-chiefs-of-staff-2012]], 408 (the order to resume at 0001, Jan. 31, Saigon time, by armed reconnaissance of designated areas and routes); [[w.drea-mcnamara-clifford-and-the-2011]], 69 (after 37 days; rain, low visibility and a lower level of sorties); [[w.zaroulis-who-spoke-up]], 71 (a letter from seventy-six members of Congress and one from fifteen Democratic senators; Johnson''s reply, guided by the resolution of Aug. 10, 1964; Ho''s letter to foreign governments, "impudent threat," undated; Jan. 31 on television, the bombing resumed); [[w.clifford-counsel-to-the-president-2]], 437 (the bombing resumes after the thirty-seven day pause, announced by the President at 10 a.m. on Jan. 31 as Air Force planes were already going north; not the broadcast or the words); [[w.dallek-flawed-giant]], 351 (Jan. 31: Johnson announces renewed bombing and says the end of the pause did "not mean the end of our pursuit of peace"; asks for an immediate meeting of the U.N. Security Council; expresses "full sympathy" with the Pope''s appeal; not the hour, the television or Goldberg); [[w.schlesinger-journals]], 245 (the entry of Mar. 11: "toward the end of January, he decided to end the pause and resume bombing," for reasons, so far as Schlesinger could find out, "psychological and political rather than military"; not the day or the 37 days). [[w.mann-grand-delusion]], 481–83 (the Senators'' letter; the reply; the resumption). [[w.rusk-as-i-saw-it-1990]], 466 (the resumption). To check: "Johnson Asks U.N. to Summon Vietnam Peace Conference/ Bombing in North Resumes," [*New York Times*, Feb. 1, 1966](https://timesmachine.nytimes.com/timesmachine/1966/02/01/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 433). See [[cal.1965-12-24.vietnam]]; [[cal.1966-01-03.vietnam]]. Made public, the NSC notes: FRUS 1964–68, IV (1998). Gibbons dates the NSC meeting Sunday, Jan. 30, the notes'' date of Jan. 29 an error (IV, 163 n.146); FRUS''s editors take its time, 1:20–2:30 p.m., Jan. 29, from the Daily Diary (doc. 55 n. 1). The time is the first day''s: the broadcast, 10 a.m. (the Public Papers'' note, 114). Names: Johnson, Hồ Chí Minh, Rusk, Goldberg, Hartke.'
+    c: 'The bombing of the North resumed after 37 days.{1} Johnson on television, 10 a.m.: aircraft "have resumed action in North Vietnam."{7}'
+    n: 'Statement by the President Announcing Resumption of Air Strikes on North Vietnam, [1966 Pub. Papers 114](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=190) (Jan. 31, 1966). [FRUS 1964–68, IV, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v04/d55); [doc. 56](https://history.state.gov/historicaldocuments/frus1964-68v04/d56); [doc. 57](https://history.state.gov/historicaldocuments/frus1964-68v04/d57); [doc. 59](https://history.state.gov/historicaldocuments/frus1964-68v04/d59). [[w.gibbons-u-s-government-and]], IV, 140, 155–58, 163–64 (the House members'' letter, 140; the Senators'' letter and the reply, 155–58; the NSC and the resumption, 163–64); [[w.preston-war-council]], 227; [[w.califano-triumph-and-tragedy-of]], 121 (resumed Jan. 31; Hanoi and Haiphong still barred); [[w.branch-at-canaans-edge]], 433 (from the White House theater, 10 a.m.); [[w.cosmas-joint-chiefs-of-staff-2012]], 408 (the order to resume at 0001, Jan. 31, Saigon time, by armed reconnaissance of designated areas and routes); [[w.drea-mcnamara-clifford-and-the-2011]], 69 (after 37 days; rain, low visibility and a lower level of sorties); [[w.zaroulis-who-spoke-up]], 71 (a letter from seventy-six members of Congress and one from fifteen Democratic senators; Johnson''s reply, guided by the resolution of Aug. 10, 1964; Ho''s letter to foreign governments, "impudent threat," undated; Jan. 31 on television, the bombing resumed); [[w.clifford-counsel-to-the-president-2]], 437 (the bombing resumes after the thirty-seven day pause, announced by the President at 10 a.m. on Jan. 31 as Air Force planes were already going north; not the broadcast or the words); [[w.dallek-flawed-giant]], 351 (Jan. 31: Johnson announces renewed bombing and says the end of the pause did "not mean the end of our pursuit of peace"; asks for an immediate meeting of the U.N. Security Council; expresses "full sympathy" with the Pope''s appeal; not the hour, the television or Goldberg); [[w.schlesinger-journals]], 245 (the entry of Mar. 11: "toward the end of January, he decided to end the pause and resume bombing," for reasons, so far as Schlesinger could find out, "psychological and political rather than military"; not the day or the 37 days). [[w.mann-grand-delusion]], 481–83 (the Senators'' letter; the reply; the resumption). [[w.rusk-as-i-saw-it-1990]], 466 (the resumption). To check: "Johnson Asks U.N. to Summon Vietnam Peace Conference/ Bombing in North Resumes," [*New York Times*, Feb. 1, 1966](https://timesmachine.nytimes.com/timesmachine/1966/02/01/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 433). See [[cal.1965-12-24.vietnam]]; [[cal.1966-01-03.vietnam]]. The time is the broadcast''s, 10 a.m. (the Public Papers'' note, 114). Split under R25b and R17: Gibbons, IV, 140 and 156, gives the House members'' letter its own day (Jan. 21) and the Senators'' theirs (Jan. 27); the Public Papers give Johnson''s replies theirs (44, Jan. 22; 112, Jan. 28, read by Moyers at 4:15 p.m.); and Gibbons, IV, 164 n.151, the request to the Security Council (Jan. 31) and the Council''s vote (it met Feb. 1 and 2); each is an entry of its own. Hồ Chí Minh''s letter of Jan. 24 and the NSC of Jan. 29 are entries already ([[cal.1966-01-24.vietnam-hanoi-2]]; [[cal.1966-01-29.vietnam-pause-3]], which takes FRUS IV, doc. 55, and Rusk''s words). Names: Johnson.'
     src:
-      c: feb541ff
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=190: 1, 7'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=120: 2'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=188: 4'
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d55: 5, 6, 8'
-        - 'w.gibbons-u-s-government-and IV, 140: 2'
-        - 'w.gibbons-u-s-government-and IV, 155–58: 3, 4'
-        - 'w.gibbons-u-s-government-and IV, 163–64: 1, 6, 7, 8, 9'
-        - 'via w.gibbons-u-s-government-and IV, 140 n.79: 2'
-        - 'via w.gibbons-u-s-government-and IV, 156 n.128: 3'
-        - 'via w.gibbons-u-s-government-and IV, 157 n.131b: 4'
-        - 'via w.gibbons-u-s-government-and IV, 163 n.146: 6'
+        - 'w.gibbons-u-s-government-and IV, 163–64: 1, 7'
         - 'via w.gibbons-u-s-government-and IV, 164 n.150: 1, 7'
-        - 'via w.gibbons-u-s-government-and IV, 164 n.151a: 8'
-        - 'via w.gibbons-u-s-government-and IV, 164 n.151b: 8, 9'
-        - 'w.mann-grand-delusion 481–83: 1, 3, 4'
-        - 'via w.mann-grand-delusion 482 n.13: 3, 4'
+        - 'w.mann-grand-delusion 481–83: 1'
         - 'w.rusk-as-i-saw-it-1990 466: 1'
         - 'w.preston-war-council 227: 1'
         - 'via x.1984.rusk-interviews-with-richard-rusk: 1'
@@ -4701,12 +4742,8 @@ entries:
         - 'w.clifford-counsel-to-the-president-2 437: ?'
         - 'w.dallek-flawed-giant 351: ?'
         - 'w.schlesinger-journals 245: ?'
-    tags: [name:johnson-lyndon-b, name:hartke-rupert-v, name:ho-chi-minh, name:rusk-dean, name:goldberg-arthur-j]
-    variants:
-      - unit: '2'
-        witness: w.zaroulis-who-spoke-up
-        reads: A letter from seventy-six members of Congress urging him to halt escalation
-        at: '71'
+      c: 7f307253
+    tags: [name:johnson-lyndon-b]
     time_zone: America/New_York
   - id: cal.1966-01-31.mississippi
     when: Jan. 31–Feb. 1
@@ -4778,7 +4815,7 @@ entries:
     follows:
       - cal.1966-01-31.vietnam
     c: 'Congress on the resumption.{1} Aiken: "we have passed the point of no return";{2} taxes, "universal conscription," controls to come; his vote of Aug. 1964 never a grant "to wage war at will"; he will support the President. Morse and Cotton welcome the turn to the UN. Dirksen speaks for the decision.{3} Laird, in the House: shifts of policy, no progress with 200,000 men, the Mansfield report a "stinging indictment";{4} he and Ford ask a debate, perhaps a new resolution.{5} Aiken: "This $13 billion is only the first drop in the bucket."{6}'
-    n: '[112 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-3-2.pdf) (1966); [House](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-3-1.pdf), 1564–66 (Laird). Aiken at 1576–77, Cotton at 1584–86; Gibbons cites "1553 ff.," a page of the Senate''s day of Jan. 29. [[w.gibbons-u-s-government-and]], IV, 165–67. [[w.mann-grand-delusion]], 479, 483 (Aiken). On the resumption: [[cal.1966-01-31.vietnam]]. The Senate sat from noon to 1:06 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D27](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=25). The House sat from noon to 12:41 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D28](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=26). See [[cal.1966-01-31.vietnam]]. Names: Aiken, Morse, Cotton, Dirksen, Laird, Ford, Mansfield. Check: Mann, 479, sets Aiken''s "first drop" with the request of Jan. 19. Check: the page.'
+    n: '[112 Cong. Rec. 1565–66](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-3-1.pdf#page=13) (Jan. 31, 1966). [112 Cong. Rec. 1577](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-3-2.pdf#page=3) (Jan. 31, 1966). [112 Cong. Rec. 1576–77](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-3-2.pdf#page=2) (Jan. 31, 1966) (the Record: "since we now seem to have passed the point of no return"). [112 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-3-2.pdf) (1966); [House](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-3-1.pdf), 1564–66 (Laird). Aiken at 1576–77, Cotton at 1584–86; Gibbons cites "1553 ff.," a page of the Senate''s day of Jan. 29. [[w.gibbons-u-s-government-and]], IV, 165–67. [[w.mann-grand-delusion]], 479, 483 (Aiken). On the resumption: [[cal.1966-01-31.vietnam]]. The Senate sat from noon to 1:06 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D27](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=25). The House sat from noon to 12:41 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D28](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=26). Check: the Record, 1576, has Aiken "since we now seem to have passed the point of no return," not "we have passed"; Dirksen is not found on the Senate''s pages of the day, 1575–1622. See [[cal.1966-01-31.vietnam]]. Names: Aiken, Morse, Cotton, Dirksen, Laird, Ford, Mansfield. Check: Mann, 479, sets Aiken''s "first drop" with the request of Jan. 19. Check: the page.'
     src:
       c: 57e43f1b
       rows:
@@ -4789,6 +4826,9 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 167 n.156: 4'
         - 'w.mann-grand-delusion 479, 483: 2, 6'
         - 'via w.mann-grand-delusion 483 n.21: 2, 6'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-3-2.pdf#page=2: 2'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-3-2.pdf#page=3: 6'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt2/pdf/GPO-CRECB-1966-pt2-3-1.pdf#page=13: 4'
     tags: [name:aiken-george-d, name:morse-wayne, name:cotton-norris-h, name:dirksen-everett, name:laird-melvin-r, name:ford-gerald-r, name:mansfield-mike]
     time_range:
       - 1966-01-31T17:00Z
@@ -5064,3 +5104,11 @@ entries:
     c: Hangzhou 杭州. Zhu De 朱德 inspects the Hangzhou oxygen-machine works 杭州制氧机厂.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1947. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1966-01-31.vietnam-diplomacy
+    when: Jan. 31
+    date: '1966-01-31'
+    place: nyc
+    thread: vietnam-diplomacy
+    c: The United States asks an urgent meeting of the Security Council on Vietnam, as Johnson announces with the resumption.
+    n: '[[w.gibbons-u-s-government-and]], IV, 164 n.151 (State''s summary: "On January 31, 1966 the United States again requested an urgent meeting of the Council"); 164 (Johnson: the U.S. "would also ask for consideration of the Vietnam situation by the U.N. Security Council"). To check: Rusk to Johnson, "Bringing Vietnam to the Security Council," Jan. 29, 1966, NSF, Memos to the President, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 164 n.151). See [[cal.1966-01-31.vietnam]]. Check: Goldberg''s part and the resolution, for a conference to apply the Geneva accords, which the line before this split gave.'
+    tags: [ok:fields-time]

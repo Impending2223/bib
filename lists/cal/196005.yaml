@@ -988,7 +988,7 @@ entries:
     date: '1960-05-05'
     thread: china-leadership
     also: [south-asia, defense]
-    c: 'Zhou Enlai telegraphs the Center and Mao: since the Sino-Indian communiqué did not mention stopping patrols and Indian troops have begun moving in the west, the Tibet and southern Sinkiang military regions should seize the time and weather to take commanding ground within a few kilometers of China''s frontier line and set up posts first, patrols still stopped; if Indian troops enter, China will urge them out and avoid armed clash. Mao approves May 6, "do so"; Deng gives Luo Ruiqing the orders in person.'
+    c: 'Zhou Enlai telegraphs the Center and Mao: since the Sino-Indian communiqué did not mention stopping patrols and Indian troops have begun moving in the west, the Tibet and southern Xinjiang military regions should seize the time and weather to take commanding ground within a few kilometers of China''s frontier line and set up posts first, patrols still stopped; if Indian troops enter, China will urge them out and avoid armed clash. Mao approves May 6, "do so"; Deng gives Luo Ruiqing the orders in person.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 315 (May 5, 1960). Made public: 1997. Names: Zhou Enlai, Mao Zedong, Deng Xiaoping, Luo Ruiqing.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:deng-xiaoping, name:luo-ruiqing, vis:only:prc]
   - id: cal.1960-05-05.china-leadership-2
@@ -1113,11 +1113,11 @@ entries:
   - id: cal.1960-05-05.berlin-and-vienna
     when: May 5
     date: '1960-05-05'
+    place: erfurt
     thread: berlin-and-vienna
     also: [crime-and-hijacking]
     c: Manfred Smolka, 29, a former East German police lieutenant who tried to get his wife and daughter into West Germany, convicted of espionage and sabotage by the Erfurt District Court; sentenced to death.
-    n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("East German Aide Doomed," Bonn, July 4, Reuters: "convicted May 5"; page not shown). Check: the day of the sentence.'
-    tags: [ok:fields-place]
+    n: '"East German Aide Doomed," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html). Check: the day of the sentence.'
   - id: cal.1960-05-06.voting-rights
     when: May 6
     date: '1960-05-06'
@@ -4714,14 +4714,20 @@ entries:
     when: May 20
     date: '1960-05-20'
     thread: vietnam-congress
-    c: 'Williams to Mansfield: the MAAG not doubled. The 350 men of TERM, since 1956 a cover for logistical advisers, go into a MAAG of 685, which the ICC approved Apr. 19; the change "ends subterfuge." The MAAG to "work itself out of a job," some 15 percent fewer in mid-1961, 20 percent a year after.{1} Herter''s reply, May 10, much the same.{2}'
-    n: 'FRUS 1958–60, I, docs. [154](https://history.state.gov/historicaldocuments/frus1958-60v01/d154) (the interim reply by wire; Herter''s), [166](https://history.state.gov/historicaldocuments/frus1958-60v01/d166) (the letter). Made public: [[w.def-u-s-viet-rels]], Book 10, 1279–80 (1971). [[w.gibbons-u-s-government-and]], I, 338–39 (the reply: not doubled, TERM''s 350 into the MAAG, "ends subterfuge," the cuts; not the day, the 685, the ICC or Herter). See [[cal.1960-05-05.vietnam-congress]]. Names: Williams, Mansfield, Herter.'
+    c: 'Williams to Mansfield: the MAAG not doubled. The 350 men of TERM, since 1956 a cover for logistical advisers, go into a MAAG of 685, which the ICC approved Apr. 19;{3} the change "ends subterfuge."{5} The MAAG to "work itself out of a job," some 15 percent fewer in mid-1961, 20 percent a year after.{6} Herter''s reply, May 10, much the same.{2}'
+    cut_from:
+      '3': '1'
+      '4': '1'
+      '5': '4'
+      '6': '4'
+    n: 'FRUS 1958–60, I, docs. [154](https://history.state.gov/historicaldocuments/frus1958-60v01/d154) (the interim reply by wire; Herter''s), [166](https://history.state.gov/historicaldocuments/frus1958-60v01/d166) (the letter). Made public: [[w.def-u-s-viet-rels]], Book 10, 1279–80 (1971). [[w.gibbons-u-s-government-and]], I, 338–39 (the reply: not doubled, TERM''s 350 into the MAAG, "ends subterfuge," the cuts; not the day, the 685, the ICC or Herter). Check: Williams''s letter (FRUS 1958–60, I, doc. 166) has the MAAG "working itself out of a job," Mansfield''s phrase, and TERM "partly presented to ICC as a subterfuge in the beginning"; the words "ends subterfuge" are not in it. See [[cal.1960-05-05.vietnam-congress]]. Names: Williams, Mansfield, Herter.'
     src:
       c: e6768b90
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v01/d154: 2'
-        - 'w.gibbons-u-s-government-and I, 338–39: 1'
-        - 'via w.gibbons-u-s-government-and I, 339 n.160a: 1'
+        - 'w.gibbons-u-s-government-and I, 338–39: 3, 5, 6'
+        - 'via w.gibbons-u-s-government-and I, 339 n.160a: 3, 5, 6'
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v01/d166: 3, 6'
     tags: [name:williams-samuel-t, name:mansfield-mike, name:herter-christian-a]
     time_range:
       - 1960-05-20T13:00Z
@@ -7919,7 +7925,7 @@ entries:
     place: lahore
     thread: south-asia
     c: Nineteen Moslem religious leaders meet at Lahore, critics of Ayub's political theories; their reply to the constitution commission's questionnaire urges free elections and a return to the parliamentary system.
-    n: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html) (Paul Grimes, "Ayub Plan for New Constitution Stirs Open Criticism in Pakistan," Karachi, July 2; page not shown). Check: the day. Names: Ayub.'
+    n: 'Paul Grimes, "Ayub Plan for New Constitution Stirs Open Criticism in Pakistan," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html). Check: the day. Names: Ayub.'
     tags: [name:ayub-khan-mohammad]
   - id: cal.1960-05.europe-and-the-alliance-britain
     when: May, early
@@ -7929,28 +7935,33 @@ entries:
     thread: europe-and-the-alliance-britain
     also: [trade]
     c: The twenty-one-nation trade talks at Paris. British ministers return thinking Dillon unsympathetic to British policy; a misunderstanding between Heathcoat Amory and Dillon.
-    n: '[*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3 (Drew Middleton, "A Change for Britain?," news analysis, London, July 3). Check: the day. Names: Dillon.'
+    n: 'Drew Middleton, "A Change for Britain?" [*New York Times*, July 4, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/04/issue.html), at 3. Check: the day. Names: Dillon.'
     tags: [name:dillon-c-douglas]
   - id: cal.1960-05.europe-and-the-alliance
     when: May
     date: 1960-05
+    place: warsaw
     thread: europe-and-the-alliance
     also: [soviet-union]
     c: Zarzycki resigns as Poland's Deputy Minister of Defense in charge of party activities in the army, becomes Lord Mayor of Warsaw; Brig. Gen. Wojciech Jaruzelski succeeds him.
-    n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14 ("Polish Army Shifts Political Officers": "in May"). Check: the day. Names: Jaruzelski.'
-    tags: [ok:fields-place, name:jaruzelski-wojciech]
+    n: '"Polish Army Shifts Political Officers," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14. Check: the day. Names: Jaruzelski.'
+    tags: [name:jaruzelski-wojciech]
   - id: cal.1960-05.africa
     when: May–June
     date: 1960-05
     thread: africa
     c: Strong troop contingents from Portugal arrive in Angola to reinforce the local security forces against political trouble after the Congo's independence.
-    n: '[*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html) ("Portuguese Raids in Angola Charged," London, July 4, AP: "In May and June"; page not shown). Check: the days.'
+    n: '"Portuguese Raids in Angola Charged," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html). Check: the days.'
   - id: cal.1960-05.cuba-2
     when: May
     date: 1960-05
     thread: cuba
-    c: Castro designates José Miró Cardona Ambassador to the United States.
-    n: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 3 (Szulc, "Once a Castro Backer": "last May"; Castro never set a date for his departure, it was reported July 5). Check: the day. Names: Castro, Miró Cardona.'
+    c: Castro designates José Miró Cardona Ambassador to the United States.{1} By a report of July 5, Castro never set a date for his departure and never saw him after his return from Spain.{2}
+    n: '"Once a Castro Backer," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 3. Check: the day. Names: Castro, Miró Cardona.'
+    src:
+      c: 413b237a
+      rows:
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html: 1, 2'
     tags: [name:castro-fidel, name:miro-cardona-jose]
   - id: cal.1960-05.desegregation-schools
     when: May
@@ -7958,7 +7969,7 @@ entries:
     place: new-orleans
     thread: desegregation-schools
     c: Judge J. Skelly Wright orders New Orleans' first grades integrated in September.
-    n: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html) ("Gov. Davis Is Firm," Baton Rouge, July 5, AP: "in May"; page not shown). Check: the day. To check: *Bush v. Orleans Parish School Board*. Names: Wright.'
+    n: '"Gov. Davis Is Firm," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. To check: *Bush v. Orleans Parish School Board*. Names: Wright.'
     tags: [name:wright-j-skelly, state:la]
   - id: cal.1960-05.elections-1960-nomination-4
     when: May
@@ -7966,5 +7977,5 @@ entries:
     place: chicago
     thread: elections-1960-nomination
     c: Wagner lunches privately with Stevenson in Chicago.
-    n: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html) ("Wagner Denies State Delegation Is Rigged to Favor Kennedy": "last May"; page not shown). Check: the day. Names: Wagner, Stevenson.'
+    n: '"Wagner Denies State Delegation Is Rigged to Favor Kennedy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. Names: Wagner, Stevenson.'
     tags: [name:wagner-robert-f-jr, name:stevenson-adlai-e]

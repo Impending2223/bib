@@ -421,12 +421,12 @@ entries:
     when: July 5
     date: '1967-07-05'
     thread: vietnam-operations
-    c: 'Buffalo, near Côn Thiên. An air observer calls artillery and air strikes on a concentration of the enemy: 200 killed. Enemy artillery, 7:45 a.m. to 1:45 p.m., kills 14 and wounds 25, most by one 152mm shell on a battalion command post of the 9th Marines, the first 152mm fire of the war.'
-    n: '[[w.macv-command-history-1967]], 360. To check: COMUSMACV, 071010Z Jul 67, "Daily SITREP"; COMUSMACV, 070310Z Jul 67, "TELECON" (cited by [[w.macv-command-history-1967]], 361 n.20). See [[cal.1967-07-02.vietnam-operations]].'
+    c: 'Buffalo, near Côn Thiên. An air observer calls artillery and air strikes on a concentration of the enemy: 200 killed.'
+    n: '[[w.macv-command-history-1967]], 360. To check: COMUSMACV, 071010Z Jul 67, "Daily SITREP"; COMUSMACV, 070310Z Jul 67, "TELECON" (cited by [[w.macv-command-history-1967]], 361 n.20). See [[cal.1967-07-02.vietnam-operations]]. Split under R25b and R17: the command history (360) gives the enemy''s shelling its own hours, 0745 to 1345; it is now an entry.'
     src:
-      c: a7b96d5e
       rows:
         - 'w.macv-command-history-1967 360: all'
+      c: 9174df4a
     tags: [place:con-thien]
   - id: cal.1967-07-05.vietnam-force-levels
     when: July 5
@@ -533,6 +533,16 @@ entries:
       - 1967-07-05T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1967-07-05.vietnam-operations-2
+    when: July 5
+    date: '1967-07-05'
+    time: 1967-07-04T23:45Z
+    place: con-thien
+    thread: vietnam-operations
+    c: Buffalo, near Côn Thiên. Enemy artillery, 7:45 a.m. to 1:45 p.m., kills 14 and wounds 25, most by one 152mm shell on a battalion command post of the 9th Marines, the first 152mm fire of the war.
+    n: '[[w.macv-command-history-1967]], 360 ("between 0745 and 1345 on 5 July"). The time is the shelling''s start. Check: whose clock the hours are (the command''s local time, UTC+8, assumed). To check: COMUSMACV, 071010Z Jul 67, "Daily SITREP" (cited by [[w.macv-command-history-1967]], 361 n.20). See [[cal.1967-07-05.vietnam-operations]].'
+    tags: [place:con-thien]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1967-07-06.congo
     when: July 6–8
     date: '1967-07-06'
@@ -1028,7 +1038,7 @@ entries:
     when: July 9
     date: '1967-07-09'
     thread: china-leadership
-    c: Zhou Enlai has the Railways Ministry's production command group find out how the Peking–Canton and Baoji–Chengdu trunk lines are blocked.
+    c: Zhou Enlai has the Railways Ministry's production command group find out how the Peking–Guangzhou and Baoji–Chengdu trunk lines are blocked.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 165 (July 9, 1967). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-07-09.china
@@ -1127,7 +1137,7 @@ entries:
     thread: vietnam
     also: [congress, republican-party-congress]
     c: 'Bradford Morse and Stafford, with other House Republicans, propose a staged de-escalation, "GRID": no bombing north of the 21st parallel, Hanoi in, Haiphong out, for sixty days; north of the 20th if Hanoi answers in kind; and so on, step for step.{1} Albert answers them: the plan implies the key to peace "lies not in Hanoi, but in Washington."{2} Rivers: Hanoi not "punished ... enough."{3}'
-    n: '[113 Cong. Rec. 18,193–94](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt14/pdf/GPO-CRECB-1967-pt14-2-1.pdf#page=128) (1967); [18227](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt14/pdf/GPO-CRECB-1967-pt14-2-2.pdf#page=35); [18233 ff.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt14/pdf/GPO-CRECB-1967-pt14-2-2.pdf#page=41) (House, July 10, 1967). [[w.johns-vietnams-second-front]], 157 (all but Albert and Rivers); [[w.gibbons-u-s-government-and]], IV, 801–03. To check: Read to Rostow, "Comments on Republican Proposal for Staged De-Escalation in Vietnam," July 10, 1967 (State, Central File, Pol 27 Viet S); press release, July 17, 1967, box 81B, Adair Papers; the GRID proposal, pamphlet, Dirksen Working Papers, folder 2874, Dirksen Papers (cited by [[w.johns-vietnams-second-front]], 157 n.138). Check: Johns cites a press release of July 17. Names: Morse, Stafford, Albert, Rivers.'
+    n: '[113 Cong. Rec. 18226](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt14/pdf/GPO-CRECB-1967-pt14-2-2.pdf#page=34) (July 10, 1967). [113 Cong. Rec. 18225](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt14/pdf/GPO-CRECB-1967-pt14-2-2.pdf#page=33) (July 10, 1967) (the plan: no bombing north of the 21st parallel for 60 days, then step for step; the name "GRID" not found on the page). [113 Cong. Rec. 18,193–94](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt14/pdf/GPO-CRECB-1967-pt14-2-1.pdf#page=128) (1967); [18227](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt14/pdf/GPO-CRECB-1967-pt14-2-2.pdf#page=35); [18233 ff.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt14/pdf/GPO-CRECB-1967-pt14-2-2.pdf#page=41) (House, July 10, 1967). [[w.johns-vietnams-second-front]], 157 (all but Albert and Rivers); [[w.gibbons-u-s-government-and]], IV, 801–03. To check: Read to Rostow, "Comments on Republican Proposal for Staged De-Escalation in Vietnam," July 10, 1967 (State, Central File, Pol 27 Viet S); press release, July 17, 1967, box 81B, Adair Papers; the GRID proposal, pamphlet, Dirksen Working Papers, folder 2874, Dirksen Papers (cited by [[w.johns-vietnams-second-front]], 157 n.138). Check: Johns cites a press release of July 17. Names: Morse, Stafford, Albert, Rivers.'
     src:
       c: c3fc8752
       rows:
@@ -1143,6 +1153,8 @@ entries:
         - 'w.johns-vietnams-second-front 157: 1'
         - 'via w.johns-vietnams-second-front 157 n.138a: 1'
         - 'via w.johns-vietnams-second-front 157 n.138b: 1'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt14/pdf/GPO-CRECB-1967-pt14-2-2.pdf#page=33: 1'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt14/pdf/GPO-CRECB-1967-pt14-2-2.pdf#page=34: 3'
     tags: [name:morse-frank-b, name:stafford-robert-t, name:albert-carl, name:rivers-l-mendel]
     time_range:
       - 1967-07-10T13:00Z
@@ -1235,7 +1247,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: 'Zhou Enlai hears Huang Yongsheng on Guangdong: a great alliance with the Left as its core is no monopoly; "conservatives" cannot be excluded, or the Red Congress will not be approved. On Hong Kong: force there does not fit present policy; China leaves Macao as an opening to the market; the struggle in Hong Kong is long and not to be hurried.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 165 (July 10, 1967); [[w.yang-jisheng-tiandi-fanfu]], II, 1097 (at the Jingxi Hotel, hearing the Canton Military Region''s leaders: "the Chairman said yesterday: still no force"); [[w.jian-zhou-enlai]], 580 (Zhou conveys Mao''s words to the General Staff and the officials for Hong Kong: Sha Tau Kok not to be repeated, against the policy of no force there; the struggle "a long one," not to be rushed; not the day). Made public: 2020. To check: Yu Ruxin 餘汝信, *Xianggang, 1967* 《香港，1967》 (2012), 197 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1097 n.17); [[w.chen-yangyong-kucheng-weiju]], 355–356 (cited by [[w.jian-zhou-enlai]], 580 n.61). Names: Zhou Enlai, Huang Yongsheng.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 165 (July 10, 1967); [[w.yang-jisheng-tiandi-fanfu]], II, 1097 (at the Jingxi Hotel, hearing the Guangzhou Military Region''s leaders: "the Chairman said yesterday: still no force"); [[w.jian-zhou-enlai]], 580 (Zhou conveys Mao''s words to the General Staff and the officials for Hong Kong: Sha Tau Kok not to be repeated, against the policy of no force there; the struggle "a long one," not to be rushed; not the day). Made public: 2020. To check: Yu Ruxin 餘汝信, *Xianggang, 1967* 《香港，1967》 (2012), 197 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1097 n.17); [[w.chen-yangyong-kucheng-weiju]], 355–356 (cited by [[w.jian-zhou-enlai]], 580 n.61). Names: Zhou Enlai, Huang Yongsheng.'
     tags: [name:zhou-enlai, name:huang-yongsheng, polity:prc, vis:only:prc]
   - id: cal.1967-07-10.china-leadership-2
     when: July 10
@@ -4061,9 +4073,11 @@ entries:
     date: '1967-07-22'
     place: shanghai
     thread: china-leadership
-    c: 'Morning, Shanghai. Mao hears Yang Chengwu relay Zhou Enlai''s 8:20 telephone call from Wuhan: report of Wuhan events to be oblique, no names; protect Chen Zaidao and others. Mao: Wuhan is to be treated as an error; if he has resolve, we cannot get out and Zhou cannot get in, yet he has not ordered that none pass; agrees to protect Chen. 11 a.m., with Yang, Zhang Chunqiao, Yu Lijin, Wang Dongxing: Zhou, Xie Fuzhi and Wang Li have nothing to say in Wuhan, they''d be surrounded and made to sign that the "Million Heroes" is revolutionary; best leave; talks in Peking, three sides together. This is no longer Wuhan''s matter but the nation''s; Zhou to act as he sees fit.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967. Made public: 2013. Names: Mao Zedong, Yang Chengwu, Zhou Enlai, Zhang Chunqiao, Yu Lijin, Wang Dongxing, Chen Zaidao, Xie Fuzhi, Wang Li.'
-    tags: [name:mao-zedong, name:zhou-enlai, name:zhang-chunqiao, name:xie-fuzhi, polity:prc, vis:only:prc, name:chen-zaidao, name:wang-dongxing, name:wang-li, name:yang-chengwu, name:yu-lijin]
+    follows:
+      - cal.1967-07-22.china-leadership-10
+    c: 'Morning, Shanghai, the Hongqiao Guesthouse. Mao hears Yang Chengwu relay Zhou Enlai''s telephone call from Wuhan. Mao: Wuhan is to be treated as an error; if he has resolve, we cannot get out and Zhou cannot get in, yet he has not ordered that none pass; agrees to protect Chen Zaidao and others.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967 (上午, in the morning, at the Hongqiao Guesthouse, 虹桥宾馆). Made public: 2013. Split under R25b and R17: the nianpu gives Zhou''s call its own hour, 8:20 (八时二十分), and Mao''s later talks of the day theirs, 11 a.m., 1:30 and 2:40 p.m.; each is now an entry. Names: Mao Zedong, Yang Chengwu, Zhou Enlai, Chen Zaidao.'
+    tags: [name:mao-zedong, name:zhou-enlai, polity:prc, vis:only:prc, name:chen-zaidao, name:yang-chengwu]
     time_range:
       - 1967-07-21T22:00Z
       - 1967-07-22T04:00Z
@@ -4184,6 +4198,42 @@ entries:
         - 'w.dikotter-cultural-revolution 174: all'
         - 'via w.dikotter-cultural-revolution 174 n.30: all'
     tags: [polity:prc]
+  - id: cal.1967-07-22.china-leadership-10
+    when: July 22
+    date: '1967-07-22'
+    time: 1967-07-22T00:20Z
+    place:
+      - wuhan
+      - shanghai
+    thread: china-leadership
+    c: 'Zhou Enlai telephones Shanghai from Wuhan, 8:20 a.m., on the situation there: reports of the Wuhan events to be oblique, no names; Chen Zaidao and others to be protected.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967 (周恩来八时二十分从武汉来电话, as Yang Chengwu reports it to Mao that morning). Made public: 2013. Check: whom Zhou spoke to (Yang Chengwu, it seems). See [[cal.1967-07-22.china-leadership]]. Names: Zhou Enlai, Chen Zaidao.'
+    tags: [name:zhou-enlai, name:chen-zaidao, polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1967-07-22.china-leadership-9
+    when: July 22
+    date: '1967-07-22'
+    time: 1967-07-22T03:00Z
+    place: shanghai
+    thread: china-leadership
+    follows:
+      - cal.1967-07-22.china-leadership
+    c: '11 a.m., Shanghai, Mao with Yang Chengwu, Zhang Chunqiao, Yu Lijin and Wang Dongxing: Zhou Enlai, Xie Fuzhi and Wang Li have nothing to say in Wuhan, they''d be surrounded and made to sign that the "Million Heroes" is revolutionary; best leave; talks in Peking, three sides together. This is no longer Wuhan''s matter but the nation''s; Zhou to act as he sees fit.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967 (上午十一时, after the morning''s report). Made public: 2013. See [[cal.1967-07-22.china-leadership]]. Names: Mao Zedong, Yang Chengwu, Zhang Chunqiao, Yu Lijin, Wang Dongxing, Zhou Enlai, Xie Fuzhi, Wang Li.'
+    tags: [name:mao-zedong, name:yang-chengwu, name:zhang-chunqiao, name:yu-lijin, name:wang-dongxing, name:zhou-enlai, name:xie-fuzhi, name:wang-li, polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
+  - id: cal.1967-07-22.china-leadership-11
+    when: July 22
+    date: '1967-07-22'
+    time: 1967-07-22T05:30Z
+    place: shanghai
+    thread: china-leadership
+    follows:
+      - cal.1967-07-22.china-leadership-9
+    c: 'Shanghai. Mao, at 1:30 and again at 2:40 p.m., on the Wuhan incident: the army fights chiefly a battle of ideas, which tempers men; support of the left given wrongly is corrected, a matter of understanding; to go on with a wrong line is a matter of standpoint.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967 (下午一时三十分和二时四十分, two talks, their words given once). The time is the first talk''s. Made public: 2013. See [[cal.1967-07-22.china-leadership]]. Names: Mao Zedong.'
+    tags: [name:mao-zedong, polity:prc, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1967-07-23.civil-disorders
     when: July 23
     date: '1967-07-23'
@@ -4191,7 +4241,7 @@ entries:
     thread: civil-disorders-detroit
     also: [states-and-cities, elections-1968]
     c: Detroit.{1} A police raid on an after-hours club at 12th Street and Clairmount, early in the morning, sets off five days of rioting;{2} Romney calls out the Michigan National Guard.{3} Forty-three dead, more than 7,200 arrested.{4}
-    n: '[[w.report-of-the-national]], [84–108](https://archive.org/details/reportofnation00unit/page/n112/mode/1up) (Bantam ed.). [[w.branch-at-canaans-edge]], 631–33 (forty-three killed; 205 bullets fired by the paratroopers); [[w.bernstein-guns-or-butter]], 418; [[w.zelizer-fierce-urgency-of-now]], 273–75 (the raid on the after-hours club, eighty-two arrested, the crowd: "Black power. Don''t let them take our people away"; forty-three dead, more than a thousand hurt, almost seven thousand arrested); [[w.graham-uncertain-triumph]], 162 (Detroit, July 23–28); [[w.berman-lyndon-johnsons-war]], 60 (the rioting, late July; over 7,000 arrested); [[w.dallek-flawed-giant]], 413 (Detroit erupts July 23, "the country''s worst rioting since 1943"; not the raid, the guard or the count); [[w.white-making-of-the-president-1969]], 202 (July 23, Detroit; City Police, National Guard, State Police and the Army; 43 killed, 33 black and 10 white; property damage some $45,000,000; not the raid, Romney or the arrests). Check: the governor''s proclamation. Check: Berman, 60, gives forty killed. To check: [[w.fine-violence-in-the-model]]; [[w.locke-detroit-riot-of-1967]]; [[w.hersey-algiers-motel-incident]]; [[w.sugrue-origins-of-the-urban]]; [[w.thompson-whose-detroit]]; [[w.mclaughlin-long-hot-summer-of]]; Kerner, *Report* (n.d.), 84–94 (cited by [[w.branch-at-canaans-edge]], 631); [*New York Times*, July 24, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/24/issue.html), at 15 (cited by [[w.branch-at-canaans-edge]], 631); "The Detroit Riots Chronology," Office of the President, Box 3, LBJ (cited by [[w.branch-at-canaans-edge]], 631); "Notes of the President''s Activities During the Detroit Crisis, Crisis Period, 10 p.m. to 12:30 a.m., July 24, 1967," Tom Johnson meeting notes, Box 1, LBJ (cited by [[w.branch-at-canaans-edge]], 632); Hoover to Tolson, DeLoach, and Sullivan, July 25, 1967, FCT-NR (cited by [[w.branch-at-canaans-edge]], 632); "Army''s Entry into Detroit (cited by [[w.branch-at-canaans-edge]], 632); How Decision Was Made," [*New York Times*, July 30, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/30/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 632); "Romney Accuses Johnson on Riots," [*New York Times*, Aug. 1, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/01/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 632); Califano to LBJ, 7:30 p.m., Aug. 2, 1967, Office of the President, Box 3, LBJ (cited by [[w.branch-at-canaans-edge]], 632); Califano to LBJ, 7:55 p.m., Sept. 11, 1967, with attached report of Vance to McNamara, Box 56, WHCE, LBJ (cited by [[w.branch-at-canaans-edge]], 632); Califano, Triumph, pp (cited by [[w.branch-at-canaans-edge]], 632); [*New York Times*, July 25, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/25/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 632); Kerner, *Report* (n.d.), 100–108 (cited by [[w.branch-at-canaans-edge]], 632). Names: Romney.'
+    n: '[[w.report-of-the-national]], [84–108](https://archive.org/details/reportofnation00unit/page/n112/mode/1up) (Bantam ed.). [[w.branch-at-canaans-edge]], 631–33 (forty-three killed; 205 bullets fired by the paratroopers); [[w.bernstein-guns-or-butter]], 418; [[w.zelizer-fierce-urgency-of-now]], 273–75 (the raid on the after-hours club, eighty-two arrested, the crowd: "Black power. Don''t let them take our people away"; forty-three dead, more than a thousand hurt, almost seven thousand arrested); [[w.graham-uncertain-triumph]], 162 (Detroit, July 23–28); [[w.berman-lyndon-johnsons-war]], 60 (the rioting, late July; over 7,000 arrested); [[w.dallek-flawed-giant]], 413 (Detroit erupts July 23, "the country''s worst rioting since 1943"; not the raid, the guard or the count); [[w.white-making-of-the-president-1969]], 202 (July 23, Detroit; City Police, National Guard, State Police and the Army; 43 killed, 33 black and 10 white; property damage some $45,000,000; not the raid, Romney or the arrests). Check: the governor''s proclamation. Check: Berman, 60, gives forty killed. To check: [[w.fine-violence-in-the-model]]; [[w.locke-detroit-riot-of-1967]]; [[w.hersey-algiers-motel-incident]]; [[w.sugrue-origins-of-the-urban]]; [[w.thompson-whose-detroit]]; [[w.mclaughlin-long-hot-summer-of]]; Kerner, *Report* (n.d.), 84–94 (cited by [[w.branch-at-canaans-edge]], 631); [*New York Times*, July 24, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/24/issue.html), at 15 (cited by [[w.branch-at-canaans-edge]], 631); "The Detroit Riots Chronology," Office of the President, Box 3, LBJ (cited by [[w.branch-at-canaans-edge]], 631); "Notes of the President''s Activities During the Detroit Crisis, Crisis Period, 10 p.m. to 12:30 a.m., July 24, 1967," Tom Johnson meeting notes, Box 1, LBJ (cited by [[w.branch-at-canaans-edge]], 632); Hoover to Tolson, DeLoach, and Sullivan, July 25, 1967, FCT-NR (cited by [[w.branch-at-canaans-edge]], 632); "Army''s Entry into Detroit; How Decision Was Made," [*New York Times*, July 30, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/30/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 632); "Romney Accuses Johnson on Riots," [*New York Times*, Aug. 1, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/01/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 632); Califano to LBJ, 7:30 p.m., Aug. 2, 1967, Office of the President, Box 3, LBJ (cited by [[w.branch-at-canaans-edge]], 632); Califano to LBJ, 7:55 p.m., Sept. 11, 1967, with attached report of Vance to McNamara, Box 56, WHCE, LBJ (cited by [[w.branch-at-canaans-edge]], 632); Califano, Triumph, pp (cited by [[w.branch-at-canaans-edge]], 632); [*New York Times*, July 25, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/25/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 632); Kerner, *Report* (n.d.), 100–108 (cited by [[w.branch-at-canaans-edge]], 632). Names: Romney.'
     src:
       c: 6558cc50
       rows:
@@ -4772,10 +4822,9 @@ entries:
     date: '1967-07-25'
     time: 1967-07-25T09:00Z
     thread: china-leadership
-    c: 'Afternoon. Mao reads the Wuhan Military Region committee''s draft "Notice of the PLA Wuhan Forces" (July 24) and drafts the Center''s reply to it: their stand and policy now right, the notice to be published;{1} erring cadres, Chen Zaidao too, whom the masses want brought down, may stand and join the revolution if they mend and are forgiven;{2} work on the troops and the Million Heroes; the left to take no revenge; watch for bad men. 10 p.m., he revises the Center''s open telegram to the city of Wuhan, sent by Lin Biao. The notice is posted July 26 and printed July 29.{3}'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, July 25, 1967; [[w.jianguo-yilai-mao-zedong]], XIX, 127–131 (July 25, 1967; Mao''s note of 5 p.m. July 25 and his draft reply of the Center to the Wuhan Military Region''s telegram of 8:10 p.m. July 24 with its notice; his note of 10 p.m. to Lin Biao on the draft letter ''To the revolutionary masses of Wuhan and the commanders and fighters'', which he adds a paragraph to, that the Center issued July 27); [[w.mao-zedong-zhuan]], VI, ch. 76 nn.56, 57 (July 25 Mao drafts the reply of the Center to the Party committee of the Wuhan Military Region, n.56: ''for cadres who have made serious errors, including you and comrade Chen Zaidao whom the broad revolutionary masses want to overthrow, if they no longer hold to the errors, correct them in earnest and are understood by the masses, they may still stand up and join the revolutionary ranks''; Chen Zaidao writes in his memoirs that without Mao''s word ''comrade'' Lin Biao and the rest could have done for them easily, n.57). [[w.teiwes-tragedy-of-lin-biao]], 84 n.57 (Mao approves the slogan "Drag out the small handful" on the 24th or 25th, and again on the 27th; Guan Feng coined it in January 1967); [[w.teiwes-tragedy-of-lin-biao]], 84 n.55 (Mao and Lin approve two letters, the harsh open letter of the 27th and a milder one, dated the 26th, to the Party committee of the Wuhan Military Region, which speaks of "Comrade Chen Zaidao"). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 76). To check: Wuhan Military Region Party Committee Standing Committee, telegram of 8:10 p.m. July 24, 1967 to Mao Zedong, Lin Biao, Zhou Enlai and the Center''s bodies, sending the ''Notice of the PLA Wuhan forces'' on the ''July 20 incident'' for examination: the incident stirred up by a very few in the army and the ''Million Heroes'' (Baiwan xiongshi 百万雄师), Chen Zaidao its ringleader; the region''s leaders made errors of direction and line; posted July 26, printed in the Renmin ribao July 29 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 128 n.3); Draft Letter to the revolutionary masses of Wuhan and the broad commanders and fighters (Gei Wuhanshi geming qunzhong he guangda zhizhanyuan de yi feng xin 给武汉市革命群众和广大指战员的一封信), forwarded by Lin Biao July 24, 1967; issued by the Center, State Council, Military Commission and Cultural Revolution Group July 27 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 130 n.1); Mao Zedong 毛泽东, reply telegram of the Center to the Party committee of the Wuhan Military Region 武汉军区党委, drafted for the Central Committee (manuscript 手稿), July 25, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.56); Chen Zaidao 陈再道, remark on the word "comrade" in Mao''s telegram of July 25, 1967, in [[w.chen-zaidao-huiyilu]], II, 363 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.57); Shen Tao-sheng, "The ''Gang of Four'' and Lin Piao," *Renmin ribao*, May 18, 1978, translated in FBIS, May 24, 1978, E6 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.57a); [[w.zhonggong-dangshi-jiaoxue-cankao]], XXV, 505, 524 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.57b). Names: Mao Zedong, Chen Zaidao, Lin Biao.'
+    c: 'Afternoon. Mao reads the Wuhan Military Region committee''s draft "Notice of the PLA Wuhan Forces" (July 24) and drafts the Center''s reply to it: their stand and policy now right, the notice to be published;{1} erring cadres, Chen Zaidao too, whom the masses want brought down, may stand and join the revolution if they mend and are forgiven;{2} work on the troops and the Million Heroes; the left to take no revenge; watch for bad men. The notice is posted July 26 and printed July 29.{3}'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, July 25, 1967; [[w.jianguo-yilai-mao-zedong]], XIX, 127–131 (July 25, 1967; Mao''s note of 5 p.m. July 25 and his draft reply of the Center to the Wuhan Military Region''s telegram of 8:10 p.m. July 24 with its notice; his note of 10 p.m. to Lin Biao on the draft letter ''To the revolutionary masses of Wuhan and the commanders and fighters'', which he adds a paragraph to, that the Center issued July 27); [[w.mao-zedong-zhuan]], VI, ch. 76 nn.56, 57 (July 25 Mao drafts the reply of the Center to the Party committee of the Wuhan Military Region, n.56: ''for cadres who have made serious errors, including you and comrade Chen Zaidao whom the broad revolutionary masses want to overthrow, if they no longer hold to the errors, correct them in earnest and are understood by the masses, they may still stand up and join the revolutionary ranks''; Chen Zaidao writes in his memoirs that without Mao''s word ''comrade'' Lin Biao and the rest could have done for them easily, n.57). [[w.teiwes-tragedy-of-lin-biao]], 84 n.57 (Mao approves the slogan "Drag out the small handful" on the 24th or 25th, and again on the 27th; Guan Feng coined it in January 1967); [[w.teiwes-tragedy-of-lin-biao]], 84 n.55 (Mao and Lin approve two letters, the harsh open letter of the 27th and a milder one, dated the 26th, to the Party committee of the Wuhan Military Region, which speaks of "Comrade Chen Zaidao"). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 76). To check: Wuhan Military Region Party Committee Standing Committee, telegram of 8:10 p.m. July 24, 1967 to Mao Zedong, Lin Biao, Zhou Enlai and the Center''s bodies, sending the ''Notice of the PLA Wuhan forces'' on the ''July 20 incident'' for examination: the incident stirred up by a very few in the army and the ''Million Heroes'' (Baiwan xiongshi 百万雄师), Chen Zaidao its ringleader; the region''s leaders made errors of direction and line; posted July 26, printed in the Renmin ribao July 29 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 128 n.3); Draft Letter to the revolutionary masses of Wuhan and the broad commanders and fighters (Gei Wuhanshi geming qunzhong he guangda zhizhanyuan de yi feng xin 给武汉市革命群众和广大指战员的一封信), forwarded by Lin Biao July 24, 1967; issued by the Center, State Council, Military Commission and Cultural Revolution Group July 27 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 130 n.1); Mao Zedong 毛泽东, reply telegram of the Center to the Party committee of the Wuhan Military Region 武汉军区党委, drafted for the Central Committee (manuscript 手稿), July 25, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.56); Chen Zaidao 陈再道, remark on the word "comrade" in Mao''s telegram of July 25, 1967, in [[w.chen-zaidao-huiyilu]], II, 363 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.57); Shen Tao-sheng, "The ''Gang of Four'' and Lin Piao," *Renmin ribao*, May 18, 1978, translated in FBIS, May 24, 1978, E6 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.57a); [[w.zhonggong-dangshi-jiaoxue-cankao]], XXV, 505, 524 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.57b). Split under R25b and R17: the Wengao (XIX, 130: 七月二十五日下午十时) and the nianpu (晚十时) give Mao''s revision of the letter to Wuhan its own hour, 10 p.m.; it is now an entry. Names: Mao Zedong, Chen Zaidao.'
     src:
-      c: d0bf7908
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, July 25, 1967: 1, 2, 3'
         - 'w.jianguo-yilai-mao-zedong XIX, 127–131: 1, 2, 3'
@@ -4785,7 +4834,8 @@ entries:
         - 'w.teiwes-tragedy-of-lin-biao 84 n.57: ?'
         - 'via x.1978-05-18.shen-tao-sheng-gang-of-four-and-lin-piao-renmin-ribao: ?'
         - 'w.teiwes-tragedy-of-lin-biao 84 n.55: ?'
-    tags: [name:mao-zedong, name:lin-biao, polity:prc, vis:only:prc, name:chen-zaidao]
+      c: 29e74dce
+    tags: [name:mao-zedong, polity:prc, vis:only:prc, name:chen-zaidao]
     time_zone: Asia/Shanghai
   - id: cal.1967-07-25.china-leadership-2
     when: July 25
@@ -4866,6 +4916,15 @@ entries:
       - 1967-07-24T22:00Z
       - 1967-07-25T04:00Z
     time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1967-07-25.china-leadership-8
+    when: July 25
+    date: '1967-07-25'
+    time: 1967-07-25T14:00Z
+    thread: china-leadership
+    c: '10 p.m., Mao revises the draft letter of the Center, the State Council, the Military Commission and the Cultural Revolution Group "To the revolutionary masses of Wuhan and the commanders and fighters," sent by Lin Biao, and adds a paragraph: those who erred, if they truly correct their errors and win the masses'' understanding, are still good. Back to Lin Biao "to decide."'
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 130 (七月二十五日下午十时; the paragraph added; the Center issued the letter July 27, n.1); [[w.zedong-mao-zedong-nianpu]], VI, July 25, 1967 (晚十时). Made public: [[w.zedong-mao-zedong-nianpu]] (2013). To check: Draft Letter to the revolutionary masses of Wuhan, forwarded by Lin Biao July 24, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 130 n.1). See [[cal.1967-07-25.china-leadership]]. Names: Mao Zedong, Lin Biao.'
+    tags: [name:mao-zedong, name:lin-biao, polity:prc, vis:only:prc, ok:fields-place]
     time_zone: Asia/Shanghai
   - id: cal.1967-07-26.civil-rights-organizations
     when: July 26

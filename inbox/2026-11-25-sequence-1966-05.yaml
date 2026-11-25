@@ -1,0 +1,110 @@
+patch: 2026-11-25-sequence-1966-05
+by: 'Claude (Sonnet, sequence pass: R25c on May 1966), Nov. 25, 2026; notes/sequence/1966-05.md; audited and corrected by Claude (Opus), Nov. 25, 2026: notes/sequence/audit-1966-05.md'
+ops:
+- follows:
+    id: cal.1966-05-03.china-leadership
+    add:
+    - cal.1966-05-03.china-leadership-2
+- follows:
+    id: cal.1966-05-04.china-leadership-6
+    add:
+    - cal.1966-05-04.china-leadership-5
+    - cal.1966-05-04.china-leadership-8
+- follows:
+    id: cal.1966-05-10.vietnam
+    add:
+    - cal.1966-05-10.vietnam-2
+- follows:
+    id: cal.1966-05-12.china
+    add:
+    - cal.1966-05-12.vietnam-air-war
+- follows:
+    id: cal.1966-05-15.china-leadership-4
+    add:
+    - cal.1966-05-15.china-leadership-2
+- follows:
+    id: cal.1966-05-16.china-leadership-5
+    add:
+    - cal.1966-05-16.china-leadership
+- follows:
+    id: cal.1966-05-17.china-leadership-4
+    add:
+    - cal.1966-05-17.china-leadership-12
+- follows:
+    id: cal.1966-05-19.china-leadership-5
+    add:
+    - cal.1966-05-19.china-leadership-4
+- follows:
+    id: cal.1966-05-23.china-leadership-3
+    add:
+    - cal.1966-05-23.china-leadership-8
+- follows:
+    id: cal.1966-05-25.china-leadership-8
+    add:
+    - cal.1966-05-25.china-leadership
+- edit:
+    id: cal.1966-05-10.vietnam-2
+    base: 6935a570
+    kind: correct
+    set:
+      c: 'The NSC''s briefing paper on the rules of engagement for Cambodia, for the NSC meeting of the day: no immediate pursuit of hostile troops or vessels into Cambodian territory or waters; American land forces not to enter or fire into Cambodia without Washington''s approval in each instance, or in emergencies of self-defense; hostile aircraft may be pursued into Cambodian air space when actually engaged in combat.'
+      n: '[[w.gibbons-u-s-government-and]], IV, 360 n.18. The note gives the words the line had before this correction (fire across the border in self-defense only; offensive operations could make Cambodia a belligerent; "questions of law and of international and domestic opinion also weigh heavily with us") to Rusk and McNamara''s cable 3212 of Apr. 26 ([[cal.1966-04-26.vietnam]]), and the words above to the briefing paper, "for an NSC meeting on May 10, 1966" (IV, 360 n.18). To check: NSC briefing paper on the rules of engagement for Cambodia, May 10, 1966, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 360 n.18). See [[cal.1966-05-10.vietnam]].'
+- edit:
+    id: cal.1966-05-15.vietnam-struggle-3
+    base: 9505381e
+    set:
+      time: 1966-05-15T11:31Z
+      time_zone: America/New_York
+      n: '[[w.gibbons-u-s-government-and]], IV, 317. The words: "At 7:31 a.m." (Washington time; IV, 317). [[w.gibbons-u-s-government-and]], IV, 315–16 (William Bundy''s recollection, 1986, of the night in the operations room; Lodge: "we just go on"). On Kỳ''s move: [[cal.1966-05-15.vietnam]]. To check: Washington to Saigon 3450, May 15, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 317 n.8). See [[cal.1966-05-15.vietnam]]. Names: William Bundy.'
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1966-05-05.china-leadership
+    base: 36ccda0b
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], V, May 5, 1966; [[w.zhou-enlai-nianpu-1949-2020]], III, 30 (May 5, 1966; Zhou with Shehu at Mao''s reception that afternoon); [[w.zhonghua-renmin-gongheguo-waijiao]], 99 (Apr. 26–May 11, 1966; Shehu''s visit, Apr. 26–May 11; Mao receives the delegation; Liu and Zhou talks, complete agreement); [[w.macfarquhar-origins-of-the-cultural]], III, 461 (his one public appearance between November and July, a photograph with a visiting Albanian leader in May); [[w.deng-xiaoping-nianpu-1904]], III, 1913 (May 5, 1966; afternoon, 下午; Deng with Zhou Enlai and Lin Biao accompanies Mao in meeting Shehu''s party; Mao stresses opposition to revisionism and prevention of a capitalist restoration; he introduces Deng to the guests as one who understands military affairs: ''you see how small he is, but it was he who commanded the taking of Nanjing'', two field armies, nearly a million troops; then Shanghai, Zhejiang, Hangzhou, Jiangxi, Fujian, and the Second Field Army westward to Sichuan, Yunnan, Guizhou, nearly a hundred million people); [[w.mao-zedong-zhuan]], VI, ch. 74 n.38 (Mao''s talk with the Albanian party and government delegation under Shehu, no place given: he may be called by Marx before long; Marx''s and Engels''s heirs took their party from them, as Khrushchev took Lenin''s; for China two possibilities, the first that revisionism takes Peking, the second a part divides; ''we are at dusk'', so he would put the bourgeois restoration right while he still has breath). [[w.pu-weihua-zalan-jiu-shijie]], 72 n.91 (the "peeling of bamboo shoots": two possibilities, a counter-revolutionary dictatorship and restoration, or peeling layer by layer, the bad cut away; from 1921 to 1966, forty-six years, scores of Central Committee members cast out, Chen Duxiu, Qu Qiubai, Li Lisan, Wang Ming, Zhang Guotao, Zhang Wentian, Gao Gang, Rao Shushi, Peng Dehuai, Luo Ruiqing, Peng Zhen and others, and some still beside us not found out); [[w.pu-weihua-zalan-jiu-shijie]], 73–74 (Mao''s words quoted: Marx and Engels did not foresee their party taken by their heirs, nor Lenin Khrushchev; who knows the day revisionism takes Peking, those who back us now may turn; a second possibility, a partial split; "we are at dusk", so while he has breath he will deal with bourgeois restoration). Made public: 2002. To check: Mao Zedong 毛泽东, talk with the Albanian party and government delegation 阿尔巴尼亚党政代表团 under Mehmet Shehu 谢胡 (record 谈话记录), May 5, 1966 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.38); Mao Zedong 毛泽东, talk with the Albanian party and government delegation under Mehmet Shehu, May 5, 1966 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 72 n.91); [[w.xianzhi-mao-zedong-zhuan-1949]], II, 1410 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 74 n.1). After [[cal.1966-05-05.china-leadership-2|the delegation''s flight to Shanghai with Zhou]], at noon ([[w.zhou-enlai-waijiao-huodong]], 493), and [[cal.1966-05-05.china-leadership-6|Deng''s journey there from Peking]]: the reception is in the afternoon, Zhou and Deng present (the Zhou and Deng nianpu, above). Names: Mao Zedong, Mehmet Shehu, Zhou Enlai, Lin Biao, Deng Xiaoping, Wu Xiuquan. Check: the reception as reported at the time (Xinhua; *Renmin ribao*, the next day).'
+      time_range:
+      - 1966-05-05T04:00Z
+      - 1966-05-05T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- follows:
+    id: cal.1966-05-05.china-leadership
+    add:
+    - cal.1966-05-05.china-leadership-2
+    - cal.1966-05-05.china-leadership-6
+- follows:
+    id: cal.1966-05-11.china-leadership-9
+    add:
+    - cal.1966-05-11.china
+- edit:
+    id: cal.1966-05-18.vietnam-struggle-2
+    base: b4efdedf
+    set:
+      n: '[[w.westmoreland-soldier-reports]], 174. After [[cal.1966-05-18.vietnam-struggle|Walt on the bridge]]: "That evening"; the dissidents agree, "perhaps impressed by Walt''s earlier performance at the bridge" (174). Names: Walt, Westmoreland.'
+- follows:
+    id: cal.1966-05-18.vietnam-struggle-2
+    add:
+    - cal.1966-05-18.vietnam-struggle
+- edit:
+    id: cal.1966-05-17.vietnam
+    base: 4e9d5301
+    set:
+      n: 'Remarks at a Democratic Party Dinner in Chicago, [1966 Pub. Papers 513](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=589) (May 17, 1966). [[w.gibbons-u-s-government-and]], IV, 310–11 (and McPherson''s account of it, 1979); [[w.branch-at-canaans-edge]], 451 ("not arrogance but agony"); [[w.zaroulis-who-spoke-up]], 83 (a Cook County Democratic dinner; "some Nervous Nellies"). [[w.mann-grand-delusion]], 510. [[w.mcpherson-political-education]], 393. To check: *Washington Star*, May 18, 1966 (cited by [[w.branch-at-canaans-edge]], 451); [*New York Times*, May 18, 1966](https://timesmachine.nytimes.com/timesmachine/1966/05/18/issue.html), at 1, 8 (cited by [[w.branch-at-canaans-edge]], 451); [*New York Times*, May 18, 1966](https://timesmachine.nytimes.com/timesmachine/1966/05/18/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 451). See [[cal.1966-05-11.vietnam]]. Names: Johnson.'
+- follows:
+    id: cal.1966-05-17.vietnam
+    remove:
+    - cal.1966-05-17.testing
+    why: 'The link''s stated basis, "the sources above", is the order of the note''s citations, which is no order of the day (R25c); none of the sources cited speaks to the Senate''s vote. The two acts are unrelated, and the hours already place them: the Senate sat from noon to 3:29 p.m. (Daily Digest, D234), and Johnson spoke at 8 p.m. after the dinner at McCormick Place (1966 Pub. Papers 520).'
+- edit:
+    id: cal.1966-05-26.africa
+    base: 083c2c7e
+    set:
+      n: 'Remarks at a Reception Marking the Third Anniversary of the Organization of African Unity, [1966 Pub. Papers 556](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=632) (May 26, 1966). FRUS 1964–68, XXIV, docs. [210](https://history.state.gov/historicaldocuments/frus1964-68v24/d210), [211](https://history.state.gov/historicaldocuments/frus1964-68v24/d211). [[w.shesol-mutual-contempt]], 301 (the speech in the East Room, the ambassadors of the OAU and three hundred guests in the East Room); [[w.schlesinger-robert-kennedy-and-his]], 744 ("The week before he left," Kennedy for South Africa, Johnson "delivered a speech on Africa, his first (and last) as President"; the Times: "Cynics will wonder," "if the attention given to Senator Kennedy''s forthcoming visit" did not explain the "sudden presidential discovery of the dark continent"; no day, no place). To check: [[w.lyons-keeping-africa-off-the]]; [[w.noer-cold-war-and-black]]; [[w.deroche-black-white-and-chrome]]. See [[cal.1963-05-22.africa]].'
+- follows:
+    id: cal.1966-05-26.africa
+    remove:
+    - cal.1966-05-26.jobs-and-wages
+    why: 'The link''s stated basis, "the sources above", is the order of the note''s citations, which is no order of the day (R25c); none of the sources cited speaks to the House''s vote. The two acts are unrelated, and the hours already place them: the House sat from noon to 6:21 p.m. (Daily Digest, D259), and Johnson spoke at 6:55 p.m. in the East Room (1966 Pub. Papers 560).'

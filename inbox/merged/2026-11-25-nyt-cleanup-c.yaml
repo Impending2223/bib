@@ -1,0 +1,276 @@
+patch: 2026-11-25-nyt-cleanup-c
+by: Claude (cleanup of the Times entries, R26a), Nov. 25, 2026; audited against the owner's clippings of July 6, 1960 (notes/nyt/audit-cleanup-c.md), Nov. 25, 2026
+ops:
+- place-key:
+    key: baton-rouge
+    name: Baton Rouge, La.
+    zone: America/Chicago
+    st: LA
+- edit:
+    id: cal.1960-07-05.elections-1960
+    base: d758d3d8
+    set:
+      n: 'John D. Morris, "Johnson Enters Race Officially; Sees 500 Votes," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 18 (not "as of this moment" or the front row); "Transcript of Senator Johnson''s News Conference on His Presidential Candidacy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18 (the two quotations; more than 500, Kennedy fewer than 600; Rayburn to nominate him). [[w.caro-passage-of-power]], 97–98; [[w.young-two-suns-of-the]], 34 (the day); [[w.white-making-of-the-president]], 134 (July 5 the announcement); [[w.shesol-mutual-contempt]], 36 (the announcement, at one o''clock; not Rayburn or the words). [[w.mcpherson-political-education]], 175 (the announcement before a big crowd in the Senate auditorium). To check: *Washington Evening Star*, July 6, 1960 (McGrory) (cited by [[w.caro-passage-of-power]], 97). Names: Johnson, Rayburn, Kennedy, Dodd, Inouye.'
+- edit:
+    id: cal.1960-06-28.specials
+    base: b66c0248
+    set:
+      n: '[N.D. *Official Abstract*, June 28, 1960, p. 3](https://www.sos.nd.gov/sites/default/files/documents/elections/election-results-pdfs/1960-06-28-special.pdf). "Burdick Lead Grows," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20 (unofficial, forty-six counties: Burdick 104,492, Davis 103,382). See [[cal.1960-03-08.specials]]. Names: Burdick, Davis.'
+- add-words:
+    id: cal.1960-06-28.specials
+    after: end
+    words: The State Canvassing Board is to certify the count by July 18, the *New York Times* reports.
+    text: '"Burdick Lead Grows," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20'
+- edit:
+    id: cal.1960-07-05.cuba
+    base: fd394199
+    set:
+      n: '"Text of U.S. Protest to Cuba on Refinery Action," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 2; William J. Jorden, "U.S. Files Protest on Cuban Seizure of Oil Refineries," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 2. Names: Bonsal, Guevara.'
+- add-words:
+    id: cal.1960-07-05.cuba
+    after: it asks the seizure rescinded.
+    words: 'The note answers Guevara''s reading of the Mineral Fuel Law of 1938: the article applies only to oil from Cuban soil; the refineries were built under Law Decree 1758 of Nov. 2, 1954, which requires them to refine no Government crude.'
+    text: '"Text of U.S. Protest to Cuba on Refinery Action," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 2'
+- edit:
+    id: cal.1960-07-05.cuba-3
+    base: 5c598d70
+    kind: correct
+    set:
+      c: 'Miró Cardona, ambassador-designate to the United States, the revolution''s first Prime Minister, resigns by letter to Dorticós, the "ideological divergencies" past reconciling, and takes asylum in the Argentine Embassy, 7:35 a.m.'
+      n: 'Tad Szulc, "Ex-Cuban Premier Quits Regime and Asks Asylum," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 3. The Foreign Ministry''s answer, that afternoon, is entered apart ([[cal.1960-07-05.cuba-6]]). Names: Miró Cardona, Dorticós.'
+- add:
+    entry:
+      id: cal.1960-07-05.cuba-6
+      when: July 5
+      date: '1960-07-05'
+      place: havana
+      thread: cuba
+      follows:
+      - cal.1960-07-05.cuba-3
+      c: 'The Foreign Ministry announces Miró Cardona "removed" as ambassador-designate to the United States, in a reorganization of the diplomatic service, and three other ambassadors with him: Manuel Piedra de la Concha, to Italy; Francisco Pividal, to El Salvador; Francisco García Mador, to the United Nations at Geneva.'
+      n: 'Tad Szulc, "Ex-Cuban Premier Quits Regime and Asks Asylum," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 3. The order: the announcement "countered" the resignation. See [[cal.1960-07-05.cuba-3]]. Names: Miró Cardona.'
+      tags:
+      - name:miro-cardona-jose
+      time_range:
+      - 1960-07-05T17:00Z
+      - 1960-07-05T23:00Z
+      time_band: afternoon
+      time_zone: America/Havana
+      range_basis: record
+- edit:
+    id: cal.1960-07-05.cuba-4
+    base: aae474d5
+    kind: correct
+    set:
+      c: 'The Foreign Office discloses Britain''s "strong" note on the seizure of Shell''s refinery, delivered by Fordham, the ambassador: "deepest concern and displeasure"; the refinery to be restored "on a normal footing." No reply.'
+      n: 'Walter H. Waggoner, "Britain Protests Shell Plant Loss," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). The question in the Lords is entered apart ([[cal.1960-07-05.cuba-7]]). Check: the note''s day.'
+- add-words:
+    id: cal.1960-07-05.cuba-4
+    after: end
+    words: Shell's debt to its crude-oil suppliers, Cuba refusing the remittances, reached $17,000,000 by June, the *New York Times* reports.
+    text: 'Walter H. Waggoner, "Britain Protests Shell Plant Loss," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- add:
+    entry:
+      id: cal.1960-07-05.cuba-7
+      when: July 5
+      date: '1960-07-05'
+      place: london
+      thread: cuba
+      also:
+      - europe-and-the-alliance-britain
+      c: 'The House of Lords. Morrison of Lambeth, Foreign Secretary when Abadan was seized in 1951, asks whether Britain will use "force, even war" over its oil interests in Cuba. Lansdowne, Under Secretary for Foreign Affairs, declines to answer: "a delicate matter."'
+      n: 'Walter H. Waggoner, "Britain Protests Shell Plant Loss," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). To check: Hansard, H.L. Deb., July 5, 1960. See [[cal.1960-07-05.cuba-4]].'
+      tags:
+      - ok:name-untagged
+- edit:
+    id: cal.1960-07-05.testing
+    base: 4f8e3191
+    set:
+      n: '"Minor Gains Made at Test-Ban Talks," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html); Thomas J. Hamilton, "U.S. Said to Drop Plan for Session of U.N. Arms Body," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 6 (Tsarapkin accepts the plan; the American consideration). Names: Tsarapkin, Wadsworth.'
+- names:
+    id: cal.1960-07-05.testing
+    add:
+    - Tsarapkin
+    - Wadsworth
+    tags:
+    - name:tsarapkin-semen-k
+    - name:wadsworth-james-j
+- add:
+    entry:
+      id: cal.1960-07-05.testing-3
+      when: July 5
+      date: '1960-07-05'
+      place: geneva
+      thread: testing
+      follows:
+      - cal.1960-07-05.testing
+      c: 'Tsarapkin, to newsmen after the session: any American nuclear test, for whatever purpose, without Soviet agreement the Soviet Union would consider a violation of the unofficial moratorium in effect since the talks began.'
+      n: '"Minor Gains Made at Test-Ban Talks," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). The order: "after the meeting." See [[cal.1960-07-05.testing]]. Names: Tsarapkin.'
+      tags:
+      - name:tsarapkin-semen-k
+- edit:
+    id: cal.1960-07-05.elections-1960-nixon
+    base: 52e2bed6
+    kind: correct
+    set:
+      c: Nixon with Eisenhower, the morning, more than an hour, after Anderson; Republican politics only, by Hagerty.
+      n: '"Nixon in Long White House Visit Talks Politics With Eisenhower," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). The day''s bills and the President''s plans for Newport and Chicago are entered apart ([[cal.1960-07-05.white-house-2]], [[cal.1960-07-05.white-house]]). Names: Nixon, Eisenhower, Anderson, Hagerty.'
+- add:
+    entry:
+      id: cal.1960-07-05.white-house-2
+      when: July 5
+      date: '1960-07-05'
+      place: washington
+      thread: white-house
+      c: Eisenhower, back at the White House after a long weekend at his Gettysburg farm, signs a batch of secondary bills.
+      n: '"Nixon in Long White House Visit Talks Politics With Eisenhower," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Eisenhower.'
+      tags:
+      - name:eisenhower-dwight-d
+- add-words:
+    id: cal.1960-07-05.white-house
+    after: end
+    words: The President and Mrs. Eisenhower to leave for Newport Thursday afternoon; from there he flies to Chicago July 26 to address the Republican convention.
+    text: '"Nixon in Long White House Visit Talks Politics With Eisenhower," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-07-05.elections-1960-nixon-2
+    base: fbe12650
+    set:
+      n: '"Nixon Hits Rockwell," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Nixon.'
+- place:
+    id: cal.1960-07-05.elections-1960-nixon-2
+    at: washington
+    basis: n
+    note: the dateline (R26a)
+- edit:
+    id: cal.1960-07-05.voting-rights
+    base: 03b2ef59
+    set:
+      n: '"Stella Bill Signed," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). To check: the act''s Statutes at Large cite. See [[cal.1960-02-15.voting-rights]]. Names: Eisenhower.'
+- edit:
+    id: cal.1960-07-05.desegregation-schools
+    base: c3303349
+    set:
+      n: '"Gov. Davis Is Firm," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Davis, Wright.'
+      tags: [name:davis-jimmie-h, state:la, city:baton-rouge, ok:name-untagged, name:wright-j-skelly]
+- place:
+    id: cal.1960-07-05.desegregation-schools
+    at: baton-rouge
+    basis: n
+    note: the dateline (R26a)
+- edit:
+    id: cal.1960-07-05.elections-1960-rockefeller
+    base: 78a9db7d
+    set:
+      n: '"Drive for Rockefeller Set," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. Names: Rockefeller.'
+      tags: [name:rockefeller-nelson, ok:name-untagged]
+      time_range:
+      - 1960-07-06T02:00Z
+      - 1960-07-06T05:00Z
+      time_band: evening
+      time_zone: America/Los_Angeles
+      range_basis: record
+- edit:
+    id: cal.1960-07-05.soviet-union-u2
+    base: 423c3774
+    set:
+      n: '"U-2 an Issue in Britain," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). To check: Hansard, H.C. Deb., July 5, 1960. Names: Macmillan.'
+- add-words:
+    id: cal.1960-07-05.soviet-union-u2
+    after: end
+    words: Labour members ask of a report that a Senate committee had evidence of reconnaissance flights from Lakenheath; Macmillan has not seen it and will reply in writing.
+    text: '"U-2 an Issue in Britain," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-07-05.europe-and-the-alliance-france
+    base: f1adc481
+    set:
+      n: 'Thomas F. Brady, "Algerian Deems Talks Inevitable," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Abbas.'
+      tags: [name:abbas-ferhat]
+      time_range:
+      - 1960-07-05T18:00Z
+      - 1960-07-05T21:00Z
+      time_band: evening
+      time_zone: Africa/Tunis
+      range_basis: record
+- add-words:
+    id: cal.1960-07-05.europe-and-the-alliance-france
+    after: end
+    words: The speech, in French, recorded in the study of his villa at Tunis.
+    text: 'Thomas F. Brady, "Algerian Deems Talks Inevitable," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- place:
+    id: cal.1960-07-05.europe-and-the-alliance-france
+    at: tunis
+    basis: n
+    note: the dateline (R26a)
+- edit:
+    id: cal.1960-07-05.cyprus
+    base: 3ad1e58b
+    kind: correct
+    set:
+      c: 'Cyprus''s Council of Ministers sets the elections: the House of Representatives July 31, the Greek and Turkish Communal Chambers Aug. 7. Britain is to keep two bases, ninety-nine square miles, the *New York Times* reports.'
+      n: 'Lawrence Fellows, "Cyprus Will Vote July 31 and Aug. 7," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html) (not the bases); "Britain Keeps 99 Miles," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html) (the bases). The bargain with A.K.E.L. is entered apart ([[cal.1960-07-05.cyprus-2]]).'
+- tag:
+    id: cal.1960-07-05.cyprus
+    remove:
+    - name:makarios-iii
+- add-words:
+    id: cal.1960-07-05.cyprus
+    after: 'Cyprus''s Council of Ministers sets the elections: the House of Representatives July 31, the Greek and Turkish Communal Chambers Aug. 7.'
+    words: It also approves an amendment to the electoral law for two more members of the Greek Communal Chamber, one Armenian, one Maronite.
+    text: 'Lawrence Fellows, "Cyprus Will Vote July 31 and Aug. 7," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-07-05.europe-and-the-alliance-britain
+    base: '99467122'
+    set:
+      n: 'Drew Middleton, "Maudling Wary on European Tie," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Maudling.'
+      tags: [name:maudling-reginald]
+      time_range:
+      - 1960-07-05T18:00Z
+      - 1960-07-05T21:00Z
+      time_band: evening
+      time_zone: Europe/London
+      range_basis: record
+- edit:
+    id: cal.1960-07-05.foreign-aid
+    base: 4379129b
+    set:
+      n: Sydney Gruson, "Bonn Called Lax on Aid Programs," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 8.
+- add-words:
+    id: cal.1960-07-05.foreign-aid
+    after: end
+    words: Van Scherpenberg outlines Bonn's plans, a five-year $500,000,000 aid program; Reinhardt, of the Economy Ministry, defends them. The meeting runs through Thursday.
+    text: 'Sydney Gruson, "Bonn Called Lax on Aid Programs," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 8'
+- edit:
+    id: cal.1960-07-05.elections-1960-3
+    base: 8c6a7bca
+    set:
+      n: '"Kerr Wins Oklahoma Primary; One Incumbent in Hard Race," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20 (all but the percent). Check: the official returns (the State Election Board). See [[cal.1960-07-05.state-constitutions-ok]]. Names: Kerr, Wickersham, Edmondson, Jarman, Steed, Albert.'
+      tags: [state:ok, name:kerr-robert-s, name:wickersham-victor-e, name:edmondson-edmond-a, name:jarman-john, name:steed-thomas-j, name:albert-carl]
+- place:
+    id: cal.1960-07-05.elections-1960-3
+    at: oklahoma
+    basis: n
+    note: the constituency (R26a)
+- edit:
+    id: cal.1960-09-06.vietnam
+    base: d29109ca
+    kind: reword
+    set:
+      c: Hanoi, the third national congress of the Vietnam Lao Động (Communist) party. Nuritdin A. Mukhitdinov, head of the Soviet delegation, repeats the Moscow thesis that war can be prevented because the increased strength of Communist countries has changed the international balance of forces in their favor.
+- edit:
+    id: cal.1960-09-06.vietnam-2
+    base: 4ee93b37
+    kind: reword
+    set:
+      c: 'Hanoi, the third national congress of the Vietnam Lao Động party. Li Fuchun, head of the Peking delegation: an "alliance" of Communist forces against imperialism "could prevent war." But "revisionists" are trying to "kill the revolutionary spirit of Marxism and undermine the faith of the working people in general in socialism."'
+- edit:
+    id: cal.1960-09-06.china-2
+    base: ae8f1f0e
+    kind: reword
+    set:
+      c: United Nations. The Soviet Union formally asks the General Assembly to consider admitting Communist China. Gromyko, in a message to Hammarskjold, asks that the agenda of the session opening Sept. 20 include "Representation of China in the United Nations," the Nationalist regime to be unseated and the Peking Government seated. An accompanying memorandum calls the exclusion "a source of enormous damage" to the United Nations.
+- names:
+    id: cal.1960-09-06.vietnam-2
+    add:
+    - Li Fuchun
+    tags:
+    - name:li-fuchun

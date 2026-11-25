@@ -1,0 +1,132 @@
+# Cleanup of the Times entries to R26a (part c4)
+
+The entries of the *Times* passes of Feb. 18, 1960, Sept. 7, 1960, Sept. 8, 1960 and Jan. 6, 1968 (patches 2026-11-12-b12-nyt-19600218, -19600907, -19600908 and 2026-11-14-nyt-1968-01-06, -b and -c). Patch: `inbox/2026-11-25-nyt-cleanup-c4.yaml`; the datelines, time words and pages: `notes/nyt/dating-c4.tsv`.
+
+The clippings of these four days are not on the Drive (a search by title and the inventory of Nov. 25 find folders only for July 3 to 7, 1960 and Sept. 9, 1960). Each cite is therefore rewritten from what its note held (author, title, page). No place is set or changed, no word is added that the note did not already hold, and the titles and authors the notes gave only by a sibling entry are said so on their lines. Where a story's two heads were given, the second is the continuation head and the first is cited. The pages of a story are the note's own. For the audit, with the clippings: confirm each title, author and page, and set the places the datelines in the tsv give.
+
+- cal.1960-02-16.cuba: Cite in the rule's form (the story's author from cal.1960-02-18.cuba-2, which pairs both of its heads with Reston); "dated Feb. 17" and "yesterday and today" to the tsv; the Check cut to its question. No place set (the line names two cities).
+- cal.1960-02-17.court: Cite in the rule's form; the Times's note on the address, a background fact, into the line, attributed; the Times's reading of Frankfurter and Hand dropped. Place kept (New York).
+- cal.1960-02-17.cuba-3: Cite in the rule's form (Reston, as for cuba-2); the "dated Feb. 17" to the tsv; the Check cut to "the day". Place kept (Washington).
+- cal.1960-02-17.cuba-4: Cite in the rule's form; the bill's terms and the expected draft, in the old parenthetical, into the line, attributed. No place set.
+- cal.1960-02-17.cuba-5: Cite in the rule's form, no page; the dateline, "Saturday" and the note on his presence in Washington out of the parenthetical (dateline to the tsv). No place set (the note's dateline and his presence in Washington differ; no clipping).
+- cal.1960-02-17.defense: Cite in the rule's form; the title is that of cal.1960-02-17.defense-3 (same author, same pages), the note named only "Raymond"; the parenthetical cut to what the story does not give. Place kept.
+- cal.1960-02-17.defense-3: Cite in the rule's form (Raymond and the pages as for cal.1960-02-17.defense; the second head, "President Hits Defense Critics," is the continuation head at 12); the parenthetical held matter already in the line. Place kept.
+- cal.1960-02-17.defense-4: Cite in the rule's form (the head the note gave, at 12; author not given); the parenthetical held matter already in the line. No place set.
+- cal.1960-02-17.defense-5: Cite in the rule's form (the head the note gave, at 12; author not given); the parenthetical held matter already in the line. No place set.
+- cal.1960-02-17.elections-1960-nomination: Cite in the rule's form, no page; the byline, dateline and "page not shown" out of the parenthetical (to the tsv). Place kept (Richmond, the dateline).
+- cal.1960-02-17.elections-1960-primaries: Cite in the rule's form, no page; the parenthetical (the paper's count of the tour's days, the photograph, "implied" strategy) cut; the paper's day-count to the tsv. Place kept (Milwaukee).
+- cal.1960-02-17.elections-1960-primaries-2: Cite in the rule's form, no page; the parenthetical held matter already in the line. Place kept (Beaver Dam).
+- cal.1960-02-17.elections-1960-primaries-3: Cite in the rule's form, no page; the parenthetical held matter already in the line. Place kept (Mayville).
+- cal.1960-02-17.elections-1960-primaries-4: Cite in the rule's form, no page; the parenthetical held matter already in the line. Place kept (Fond du Lac).
+- cal.1960-02-17.europe-and-the-alliance-britain: Cite in the rule's form; the parenthetical held matter already in the line. Place kept (London).
+- cal.1960-02-17.latin-america: Cite in the rule's form (Reston, as for cuba-2); the parenthetical cut to what the story does not give. No place set.
+- cal.1960-02-17.latin-america-4: Cite in the rule's form, no page; "today" to the tsv; "no page shown" and the schedule remark out. No place set.
+- cal.1960-02-17.middle-east: Cite in the rule's form, no page; the parenthetical (the Times's reading of Kassim's campaign among it) cut. Place kept (Aleppo).
+- cal.1960-02-17.voting-rights-2: Cite in the rule's form (the second head, "Rights Deadlock Broken in House," is the continuation head at 15); the parenthetical held matter already in the line. Place kept.
+- cal.1960-02-17.voting-rights-3: Cite in the rule's form (same story as voting-rights-2; its continuation head was the one the note gave); the parenthetical cut to what the paper alone gives. Place kept.
+- cal.1960-02-18.cuba-2: Cite in the rule's form (both heads are the one story); the parenthetical cut to what the story does not give; the line already holds the review and the measures. No place set.
+- cal.1960-02-18.indonesia: Cite in the rule's form, no page; the wire and the day out of the parenthetical (to the tsv). Place kept (Jakarta).
+- cal.1960-09-05.laos: Cite in the rule's form, no page; dateline and "late last night" to the tsv. Place kept (Savannakhet, where the broadcast was made).
+- cal.1960-09-05.latin-america: Cite in the rule's form (the two heads are the one story); the parenthetical cut to what the story does not give; the session and the fund, from the old parenthetical, into the line, attributed. Dillon's warning on Cuba, named in the old parenthetical without its words, is not moved (the clipping is not to hand). Place kept (Bogotá).
+- cal.1960-09-05.latin-america-2: Cite in the rule's form; the parenthetical held matter already in the line; "last night" to the tsv. Place kept (San Salvador).
+- cal.1960-09-05.vietnam: Cite in the rule's form, no page; byline, dateline and "page not shown" out (to the tsv); the parenthetical cut to what the story does not give. Place kept (Hanoi, where the congress sat; the dispatch is from Hong Kong).
+- cal.1960-09-06.antisubversion: Cite in the rule's form; the failed subpoena, from the old parenthetical, into the line, attributed (the day not given). No place set.
+- cal.1960-09-06.antisubversion-2: Cite in the rule's form; the parenthetical held matter already in the line. No place set.
+- cal.1960-09-06.china: Cite in the rule's form, no page; wire and day to the tsv. Place kept (Taipei).
+- cal.1960-09-06.china-2: Cite in the rule's form, no page; byline and day to the tsv; the Times's note on Khrushchev's expected speech dropped. Place kept (New York).
+- cal.1960-09-06.elections-1960-nixon: Cite in the rule's form; the note on the day of Kennedy's speech to the tsv. No place set.
+- cal.1960-09-06.elections-1960-rockefeller: Cite in the rule's form; "yesterday" to the tsv; "the city of the hotel not given" dropped (no place set).
+- cal.1960-09-06.immigration: Cite in the rule's form, no page; wire and day to the tsv; the Check cut to its question. No place set.
+- cal.1960-09-06.intelligence: Cite in the rule's form; the parenthetical (Hagerty) held matter already in the line. Place kept (Washington).
+- cal.1960-09-06.intelligence-2: Cite in the rule's form; the "not entered" remarks dropped. No place set.
+- cal.1960-09-06.laos: Cite in the rule's form, no page; "yesterday" and dateline to the tsv. Place kept (Vientiane).
+- cal.1960-09-06.laos-2: Cite in the rule's form, no page. No place set.
+- cal.1960-09-06.laos-3: Cite in the rule's form, no page; byline and day to the tsv. Place kept (Washington).
+- cal.1960-09-06.laos-4: Cite in the rule's form, no page; the paper's time words to the tsv; the Check cut to "the day". Place kept (Luang Prabang).
+- cal.1960-09-06.latin-america: Cite in the rule's form; the parenthetical held matter already in the line. Place kept (San Salvador).
+- cal.1960-09-06.latin-america-2: Cite in the rule's form; the parenthetical held matter already in the line. Place kept (Bogotá).
+- cal.1960-09-06.latin-america-3: Cite in the rule's form (same story as latin-america-2, its continuation head the one the note gave); the Times's additions into the line, attributed. Place kept (Bogotá).
+- cal.1960-09-06.latin-america-dominican-republic: Cite in the rule's form (no title known), no page; wire and day to the tsv. No place set.
+- cal.1960-09-06.latin-america-dominican-republic-2: Cite in the rule's form, no page; wire and day to the tsv; the OAS condemnation, from the old parenthetical, into the line, attributed to the dispatch. No place set.
+- cal.1960-09-06.soviet-union: Three cites in the rule's form, one per story (the first by Caruthers at 1, 11, the text of the statements at 10, the third without a page; "War Threat Seen," the other head the note gave, is not a separate story and goes); the parenthetical held matter already in the line, and the item of Aug. 1 (Martin's and Mitchell's disappearance after June 24) is the calendar's own. Place kept (Moscow).
+- cal.1960-09-06.vietnam: Cite in the rule's form, no page; byline, dateline and "page not shown" to the tsv. Place kept (Hanoi).
+- cal.1960-09-06.vietnam-2: Cite in the rule's form, no page; byline, dateline and "page not shown" to the tsv; the Times's note on "revisionism" dropped. Place kept (Hanoi).
+- cal.1960-09-07.elections-1960-kennedy-7: Cite in the rule's form; the parenthetical (subheads) held matter already in the line. No place set.
+- cal.1960-09-07.elections-1960-kennedy-8: Cite in the rule's form; dateline and the paper's time words to the tsv. Place kept (New York; the dateline is Atlanta, and the note gives no clipping to settle it).
+- cal.1960-09-05.congo: Three cites in the rule's form (the three heads the note gave; the pages "1, 2" stay with the first, the others' pages not shown by the note); "Monday" to the tsv; the parenthetical cut to the UN's Sept. 7 acts and what the story does not give. No place set.
+- cal.1960-09-05.congo-2: Cite in the rule's form; the reports of the planes and trucks into the line, attributed; Eisenhower's Sept. 7 answer is already in the Check and cal.1960-09-07.congo-2. No place set.
+- cal.1960-09-05.congo-4: Cite in the rule's form, no page; dateline and the paper's time words to the tsv; the Check cut to its question. Place kept (Elisabethville).
+- cal.1960-09-05.elections-1960-religion: Cite in the rule's form; "on Monday" to the tsv. Place kept (Marion).
+- cal.1960-09-06.congo-2: Cite in the rule's form; "last night" to the tsv. Place kept (Brazzaville).
+- cal.1960-09-06.congo-3: Cite in the rule's form, no page; wire, day and "last night" to the tsv. Place kept (Léopoldville).
+- cal.1960-09-06.congo-4: Cite in the rule's form, no page; wire, day and "last night" to the tsv; the Check cut to its question. No place set.
+- cal.1960-09-06.elections-1960: Cite in the rule's form; the parenthetical held matter already in the line. Place kept (Seattle).
+- cal.1960-09-07.antisubversion: Cite in the rule's form (Raymond, as for intelligence); the parenthetical held matter already in the line; the Check cut to "the day". No place set.
+- cal.1960-09-07.antisubversion-2: Cite in the rule's form; the Check cut to "the day". No place set.
+- cal.1960-09-07.berlin-and-vienna: Cite in the rule's form, no page; dateline to the tsv; the parenthetical (the source's statements "as the Times reports them") held what the line already says. Place kept (Vienna).
+- cal.1960-09-07.berlin-and-vienna-2: Cite in the rule's form, no page; dateline and time words to the tsv. No place set.
+- cal.1960-09-07.congo-2: Cite in the rule's form (the title is that of cal.1960-09-05.congo-2, same pages; the note named no title); the parenthetical kept as it was (it points to the question in the Public Papers). Place kept (Washington).
+- cal.1960-09-07.congo-3: Two cites in the rule's form; the AP story's page not shown. Place kept (Léopoldville).
+- cal.1960-09-07.congo-4: Cite in the rule's form. Place kept (Léopoldville).
+- cal.1960-09-07.congo-5: Cite in the rule's form. Place kept (Léopoldville).
+- cal.1960-09-07.congo-6: Cite in the rule's form, no page. Place kept (Elisabethville).
+- cal.1960-09-07.congo-7: Cite in the rule's form, no page. Place kept (Elisabethville).
+- cal.1960-09-07.congo-8: Cite in the rule's form, no page. Place kept (Accra).
+- cal.1960-09-07.congo-9: Cite in the rule's form. Place kept (Léopoldville).
+- cal.1960-09-07.elections-1960: Two cites in the rule's form, one per story; the parenthetical cut to what the story does not give; the meeting, its sponsors and its adoption into the line. Place kept (Washington).
+- cal.1960-09-07.elections-1960-2: Cite in the rule's form, no page. Place kept (Chicago).
+- cal.1960-09-07.elections-1960-kennedy-2: Cite in the rule's form; the parenthetical cut to what the story does not give; the crowd and the housing and lumber remark into the line. Place kept (Salem).
+- cal.1960-09-07.elections-1960-kennedy-4: Cite in the rule's form. Place kept (Portland).
+- cal.1960-09-07.elections-1960-kennedy-5: Cite in the rule's form. Place kept (Eugene).
+- cal.1960-09-07.elections-1960-kennedy-6: Cite in the rule's form, no page; the next day's planning session, from the old parenthetical, into the line. Place kept (Atlanta).
+- cal.1960-09-07.elections-1960-religion-2: Two cites in the rule's form, one per story; "Earlier" to the tsv. Place kept (Washington).
+- cal.1960-09-07.elections-1960-religion-3: Cite in the rule's form, no page. Place kept (Atlanta).
+- cal.1960-09-07.intelligence: Cite in the rule's form; the Check cut to "the day". No place set.
+- cal.1960-09-07.intelligence-2: Cite in the rule's form (Raymond, as for intelligence). No place set.
+- cal.1960-09-07.intelligence-3: Cite in the rule's form (Raymond, as for intelligence). Place kept (Flushing, Ohio).
+- cal.1960-09-07.labor: Cite in the rule's form, no page. Place kept (St. Louis).
+- cal.1960-09-07.labor-2: Cite in the rule's form, no page. Place kept (Washington).
+- cal.1960-09-07.labor-3: Cite in the rule's form, no page. Place kept (Washington).
+- cal.1960-09-07.labor-4: Cite in the rule's form, no page. No place set.
+- cal.1960-09-07.labor-5: Cite in the rule's form, no page. No place set.
+- cal.1960-09-07.labor-6: Cite in the rule's form, no page. Place kept (Washington).
+- cal.1960-09-07.labor-7: Cite in the rule's form, no page; the parenthetical held matter already in the line. Place kept (Washington).
+- cal.1960-09-07.labor-8: Cite in the rule's form, no page. Place kept (St. Louis).
+- cal.1960-09-07.latin-america: Cite in the rule's form. Place kept (Bogotá).
+- cal.1960-09-07.latin-america-2: Cite in the rule's form, no page. Place kept (Miami).
+- cal.1960-09-08.congo: Two cites in the rule's form, one per story. Place kept (New York).
+- cal.1960-09-09.congo: No change: it cites no Times item in the cite's place; the Times appears only inside a Check that sets two records against each other.
+- cal.1967-12-04.vietnam-2: Already in the rule's form; the row to the tsv. No place set.
+- cal.1967-12-05.vietnam-operations: The Check's short cite ("*New York Times*, Jan. 6, 1968, 3") made a full cite, the title being that of the AP story at cal.1968-01-05.vietnam-pacification; "in mid-December" kept in the Check, it being the paper's dating of the act. No place set.
+- cal.1967-12-08.soviet-union-leadership: The Check's short cite made a full cite (the title is that of cal.1968-01-05.soviet-union-czechoslovakia, the same UPI story); the paper's time words kept in the Check as the claim's own words. Place kept (Prague).
+- cal.1967-12-29.middle-east: Already in the rule's form; the row to the tsv. Place kept (Tel Aviv).
+- cal.1968-01-04.robert-kennedy: Parenthetical (the paper's "yesterday") out; to the tsv. Place kept (San Francisco).
+- cal.1968-01-04.soviet-union: The continuation head dropped; the Washington story given its own title as a second cite; "yesterday afternoon" and its dateline to the tsv. Place kept (Washington).
+- cal.1968-01-04.vietnam-air-war: The Check's short cite made a full cite (Anderson's story, as at cal.1968-01-04.soviet-union). No place set.
+- cal.1968-01-04.vietnam-diplomacy: Parenthetical (the paper's "yesterday") out; to the tsv. No place set.
+- cal.1968-01-05.defense: Already in the rule's form (the parenthetical is the list's pinpoint); the row to the tsv. No place set.
+- cal.1968-01-05.defense-2: Already in the rule's form; the row to the tsv. No place set.
+- cal.1968-01-05.defense-3: Already in the rule's form; the row to the tsv. No place set.
+- cal.1968-01-05.europe-and-the-alliance-federal-republic: Already in the rule's form; the row to the tsv. Place kept (Bonn).
+- cal.1968-01-05.europe-and-the-alliance-federal-republic-2: Already in the rule's form; the row to the tsv. Place kept (Bonn).
+- cal.1968-01-05.middle-east-2: Already in the rule's form; the row to the tsv. No place set.
+- cal.1968-01-05.soviet-union: The Check's short cite made a full cite; "again tonight" kept in the Check as the claim's own words. No place set.
+- cal.1968-01-05.soviet-union-2: The Washington story given its own title as a second cite, the dateline to the tsv. Place kept (Washington).
+- cal.1968-01-05.soviet-union-czechoslovakia: The continuation head out. Place kept (Prague).
+- cal.1968-01-05.vietnam: The "(the day)" out of the second cite; the first cite's parenthetical (an unofficial translation) kept as a description of the item read. No place set.
+- cal.1968-01-05.vietnam-2: Already in the rule's form (the box is cited by its head within the story); "Monday morning" is the claim's own words, noted in the tsv. Place kept (New Delhi).
+- cal.1968-01-05.vietnam-air-war: Dateline, day and "yesterday" out of the parenthetical, to the tsv. No place set (the dateline, Saigon, would place it; the brief set none where the clipping cannot be had).
+- cal.1968-01-05.vietnam-congress-armed-services: Already in the rule's form; the row to the tsv. No place set.
+- cal.1968-01-05.vietnam-congress-republicans: Already in the rule's form; the row to the tsv. No place set.
+- cal.1968-01-05.vietnam-diplomacy: Already in the rule's form; the row to the tsv. Place kept (Washington).
+- cal.1968-01-05.vietnam-order-of-battle: Already in the rule's form; the row to the tsv. Place kept (Washington).
+- cal.1968-01-05.vietnam-pacification: Already in the rule's form; the row to the tsv. Place kept (Saigon).
+- cal.1968-01-05.vietnam-tet: Parenthetical out; what it named (the capture of Nov. 13 in Quảng Tín, the quotations, the writer, the Mission's reading) is in the line. Place kept (Saigon).
+- cal.1968-01-05.war-opposition-2: Already in the rule's form; the row to the tsv. No place set.
+- cal.1968-01-05.war-opposition-3: Parenthetical on how much of the story the copy shows out; the Check on the rest kept. Place kept (Stockholm).
+- cal.1968-01-06.vietnam-saigon: Parenthetical on the paper's misprint of the day out, to the tsv. Place kept (Saigon).
+- cal.1968-01-05.vietnam-congress: Already in the rule's form; the row to the tsv. No place set.
+- cal.1968-01-05.vietnam-congress-2: "The headline cut off in the clipping" out of the parenthetical; the head is cited as far as the clipping showed it ("U.S. Aid for Fune..."), the full title to be had from TimesMachine. No place set.
+- cal.1968-01-05.africa: Already in the rule's form; the row to the tsv. Place kept (Lusaka).
+- cal.1968-01-05.africa-2: Already in the rule's form; the row to the tsv. Place kept (Addis Ababa).
+- cal.1968-01-05.africa-3: Already in the rule's form; the row to the tsv. Place kept (Lagos).

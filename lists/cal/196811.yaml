@@ -1386,13 +1386,13 @@ entries:
     time: 1968-11-05T13:55Z
     place: minnesota
     thread: elections-1968-humphrey
-    c: Humphrey, after his telethon and a party at a friend's in Beverly Hills, flies through the night to Minnesota and votes at the Marysville township hall;{1} out of sight until shortly before midnight, then the Leamington Hotel, Minneapolis.{2}
-    n: '[[w.white-making-of-the-president-1969]], 395; [[w.solberg-hubert-humphrey]], 403–04 (Minneapolis at 7:55 a.m.; the vote at the "Maryville" Township Hall at nine; dinner at Andreas''s on Lake Minnetonka; the Leamington a little after eleven). Names: Humphrey.'
+    c: Humphrey, after his telethon and a party at a friend's in Beverly Hills, flies through the night to Minnesota.{1}
+    n: '[[w.white-making-of-the-president-1969]], 395; [[w.solberg-hubert-humphrey]], 403–04 (Minneapolis at 7:55 a.m.; the vote at the "Maryville" Township Hall at nine; dinner at Andreas''s on Lake Minnetonka; the Leamington a little after eleven). Split under R25b and R17: Solberg, 403–04, gives the vote its own hour ("Even at nine" the hall full), the dinner at Andreas''s its own place in the evening, and the arrival at the Leamington its own hour ("a little after eleven"); each is an entry of its own. Names: Humphrey.'
     src:
-      c: 50b75be9
       rows:
-        - 'w.white-making-of-the-president-1969 395: 1, 2'
+        - 'w.white-making-of-the-president-1969 395: 1'
         - 'w.solberg-hubert-humphrey 403–04: 1'
+      c: d887f57a
     tags: [name:humphrey-hubert-h, state:mn]
     time_zone: America/Chicago
   - id: cal.1968-11-05.elections-1968-humphrey-2
@@ -1445,6 +1445,48 @@ entries:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 260: ?'
         - 'w.jianguo-yilai-mao-zedong XIX, 365: 1'
     tags: [polity:prc, polity:pakistan, name:zhou-enlai, name:mao-zedong, name:dong-biwu, vis:only:prc+pakistan]
+  - id: cal.1968-11-05.elections-1968-humphrey-6
+    when: Nov. 5
+    date: '1968-11-05'
+    time: 1968-11-05T15:00Z
+    time_approx: true
+    place: minnesota
+    thread: elections-1968-humphrey
+    follows:
+      - cal.1968-11-05.elections-1968-humphrey
+    c: Humphrey votes at the Marysville township hall, Wright County, Minn., about nine, the hall full of Wright County people and a hundred cameramen and reporters at the door; he marks his ballot.
+    n: '[[w.solberg-hubert-humphrey]], 403 ("Even at nine the Maryville Township Hall ... was filled"; the vote after the landing at 7:55 a.m. and the forty miles to his Lake Waverly home). [[w.white-making-of-the-president-1969]], 395. The hour is Solberg''s "at nine," Minnesota''s clock, approximate. It follows the landing at 7:55 (403). See [[cal.1968-11-05.elections-1968-humphrey]]. Names: Humphrey.'
+    tags: [name:humphrey-hubert-h, state:mn]
+    time_zone: America/Chicago
+  - id: cal.1968-11-05.elections-1968-humphrey-8
+    when: Nov. 5
+    date: '1968-11-05'
+    place: minnesota
+    thread: elections-1968-humphrey
+    follows:
+      - cal.1968-11-05.elections-1968-humphrey-6
+    c: Humphrey and his wife to dinner at Dwayne Andreas's home on Lake Minnetonka, the rest of their family with them, as the first returns come in from the East.
+    n: '[[w.solberg-hubert-humphrey]], 404 ("went off to Dwayne Andreas''s Lake Minnetonka home"; the first returns, from Dixville, N.H.). It follows the day at home, to bed after the vote, up at four (404). The range is the evening band, Minnesota''s clock; Solberg gives no hour. See [[cal.1968-11-05.elections-1968-humphrey]]. Names: Humphrey.'
+    tags: [name:humphrey-hubert-h, state:mn]
+    time_zone: America/Chicago
+    time_range:
+      - 1968-11-06T01:00Z
+      - 1968-11-06T04:00Z
+    time_band: evening
+    range_basis: record
+  - id: cal.1968-11-05.elections-1968-humphrey-7
+    when: Nov. 5
+    date: '1968-11-05'
+    time: 1968-11-06T05:00Z
+    time_approx: true
+    place: minneapolis
+    thread: elections-1968-humphrey
+    follows:
+      - cal.1968-11-05.elections-1968-humphrey-8
+    c: Humphrey, out of sight through the day, arrives at the Leamington Hotel, Minneapolis, his headquarters, a little after eleven in the evening; the first returns already in.
+    n: '[[w.solberg-hubert-humphrey]], 404 ("Arriving at the Leamington headquarters at a little after eleven"); [[w.white-making-of-the-president-1969]], 395 (out of sight until shortly before midnight). The hour is Solberg''s, approximate. It follows the dinner at Andreas''s (404). See [[cal.1968-11-05.elections-1968-humphrey]]. Names: Humphrey. Check: White, 395, has the Leamington shortly before midnight.'
+    tags: [name:humphrey-hubert-h, state:mn, city:minneapolis]
+    time_zone: America/Chicago
   - id: cal.1968-11-06.elections-1968
     when: Nov. 6
     date: '1968-11-06'
@@ -2518,13 +2560,14 @@ entries:
     thread: economy-franc
     also: [europe-and-the-alliance]
     c: 'The franc and the mark.{1} Johnson to Kiesinger through Fowler: no unilateral French devaluation; the monetary authorities to act together.{2}'
-    n: 'FRUS 1964–68, VIII, doc. [208](https://history.state.gov/historicaldocuments/frus1964-68v08/d208). [[w.gavin-gold-dollars-and-power]], 183. To check: [[w.solomon-international-monetary-system-1945]]; [[w.eichengreen-globalizing-capital]]. See [[cal.1967-11-18.economy]]. Made public: FRUS 1964–68, VIII (1998). Names: Johnson, Kiesinger, Fowler.'
+    n: '[FRUS 1964–68, VIII, doc. 209](https://history.state.gov/historicaldocuments/frus1964-68v08/d209) (Fowler from Bonn, Nov. 18, reporting the message; the message itself is doc. 208). FRUS 1964–68, VIII, doc. [208](https://history.state.gov/historicaldocuments/frus1964-68v08/d208). [[w.gavin-gold-dollars-and-power]], 183. To check: [[w.solomon-international-monetary-system-1945]]; [[w.eichengreen-globalizing-capital]]. See [[cal.1967-11-18.economy]]. Made public: FRUS 1964–68, VIII (1998). Names: Johnson, Kiesinger, Fowler.'
     src:
       c: 9e376db0
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d208: 1, 2'
         - 'w.gavin-gold-dollars-and-power 183: 2'
         - 'via w.gavin-gold-dollars-and-power 183 n.44: 2'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d209: 2'
     tags: [name:johnson-lyndon-b, name:kiesinger-kurt-georg, name:fowler-henry-h]
   - id: cal.1968-11-18.students-sf-state
     when: Nov. 18
@@ -3645,10 +3688,10 @@ entries:
     date: 1968-11
     place: shanghai
     thread: china-leadership
-    c: 'Shanghai 上海, the Shanghai Film Studio 上海電影製片廠. Two "outside investigators" have the actress Shangguan Yunzhu 上官雲珠, held in the "cowshed," brought out: a Guomindang "strategic spy" left behind, seen alone by Mao seven times; she is to write out "that history" by the next morning.'
+    c: 'Shanghai 上海, the Shanghai Film Studio 上海電影製片廠. Two "outside investigators" have the actress Shangguan Yunzhu 上官雲珠, held in the "cowshed," brought out: a Kuomintang "strategic spy" left behind, seen alone by Mao seven times; she is to write out "that history" by the next morning.'
     n: '[[w.yang-jisheng-tiandi-fanfu]], II, 614. Made public: 1987. To check: Fang Shouyu 方守玉, 《上官雲珠的藝術和婚姻》 (1987), 86–91 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 614 n.81). Names: Mao Zedong.'
     src:
-      c: 79de2f12
+      c: fc4f075d
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 614: all'
         - 'via w.yang-jisheng-tiandi-fanfu II, 614 n.81: all'
@@ -3708,7 +3751,7 @@ entries:
     c: China begins to withdraw its troops from North Vietnam; all back in China by July 7, 1970.
     n: '[[w.khoo-collateral-damage]], 56; [[w.friedman-shadow-cold-war]], 170, 180–81 (the troops begin leaving in 1968, as negotiations begin; all gone by the end of 1970). Made public: 1989 ([[w.ke-wenhua-dageming-zhongde-renmin]], the earliest printing the notes name). To check: [[w.ke-wenhua-dageming-zhongde-renmin]], 426 (cited by [[w.khoo-collateral-damage]], 56 n.73); [[w.qu-aiguo-zhongguo-zhiyuan-budui-zai]], 183 (cited by [[w.khoo-collateral-damage]], 56 n.74); [[w.zhai-china-and-the-vietnam]], 179 (cited by [[w.friedman-shadow-cold-war]], 170 n.103); [[w.zhai-china-and-the-vietnam]], 136–37 (cited by [[w.friedman-shadow-cold-war]], 181 n.2). See [[cal.1968-10-07.china]]. Check: the day.'
     src:
-      c: fb193981
+      c: c625065b
       rows:
         - 'w.friedman-shadow-cold-war 170, 180–81: all'
     gloss:

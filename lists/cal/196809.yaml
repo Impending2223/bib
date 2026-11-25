@@ -2816,14 +2816,14 @@ entries:
     place: portland
     thread: elections-1968-humphrey
     also: [vietnam]
-    c: 'Portland, Ore. Several hundred students of Reed College and Portland State walk out on Humphrey, "End the War!" After midnight Ball, resigned from the United Nations to work for him, and Fred Harris with Humphrey in his suite: work begins on the definitive speech.'
-    n: '[[w.chester-american-melodrama]], 646; [[w.solberg-hubert-humphrey]], 379–80 (Portland, Reed College; Gallup; Ball and Welsh that night). Names: Humphrey, Ball, Fred Harris.'
+    c: Portland, Ore. Several hundred students of Reed College and Portland State walk out on Humphrey, "End the War!"
+    n: '[[w.chester-american-melodrama]], 646; [[w.solberg-hubert-humphrey]], 379–80 (Portland, Reed College; Gallup; Ball and Welsh that night). Split under R25b and R17: Chester, 646, gives the night''s work on the speech its own hour ("Shortly after midnight"); it is an entry of Sept. 28. Names: Humphrey.'
     src:
-      c: c1dd267b
       rows:
         - 'w.chester-american-melodrama 646: all'
         - 'w.solberg-hubert-humphrey 379–80: all'
-    tags: [name:humphrey-hubert-h, name:ball-george-w, name:harris-fred-r, state:or]
+      c: 8d2f772d
+    tags: [name:humphrey-hubert-h, state:or]
   - id: cal.1968-09-27.elections-1968-2
     when: Sept. 27
     date: '1968-09-27'
@@ -3133,6 +3133,20 @@ entries:
       - 1968-09-28T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1968-09-28.elections-1968-humphrey-3
+    when: Sept. 28
+    date: '1968-09-28'
+    place: portland
+    thread: elections-1968-humphrey
+    also: [vietnam]
+    c: 'Portland, Ore., shortly after midnight. Ball, resigned from the United Nations to work for Humphrey, and Fred Harris with Humphrey in his suite: work begins on the definitive version of the speech.'
+    n: '[[w.chester-american-melodrama]], 646 ("Shortly after midnight, Ball and Fred Harris were closeted with their man in his suite"; Humphrey "gave the signal for work to start on the definitive version of the speech"). [[w.solberg-hubert-humphrey]], 380 (Ball and Welsh fly in "that night," having started on the Vietnam statement on the flight west; Harris come in from California). The range is Chester''s "shortly after midnight," Portland''s clock. See [[cal.1968-09-27.elections-1968]]. Names: Humphrey, Ball, Fred Harris.'
+    tags: [name:humphrey-hubert-h, name:ball-george-w, name:harris-fred-r, state:or]
+    time_zone: America/Los_Angeles
+    time_range:
+      - 1968-09-28T07:00Z
+      - 1968-09-28T08:00Z
+    range_basis: record
   - id: cal.1968-09-29.opinion
     when: Sept. 29
     date: '1968-09-29'
@@ -3176,24 +3190,18 @@ entries:
     place: seattle
     thread: elections-1968-humphrey
     also: [vietnam-paris]
-    c: 'Seattle, then Salt Lake City, the speech on Vietnam, by Humphrey''s account.{1} Ball''s draft;{2} O''Brien''s telegram: "Ball speech a disaster";{3} Van Dyk to draft anew.{4} At 2 p.m. Van Dyk, Sherman, Connell, Rowe, Berman, Harris, O''Brien.{5} At night in Salt Lake City, Welsh, Bailey and Moss too, till 2 a.m.{6}'
-    n: '[[w.humphrey-education-of-a-public-1976]], 401–02, 493 n.10; [[w.chester-american-melodrama]], 647–48, 741 (O''Brien with Humphrey alone in the afternoon; the night''s session in the suite); [[w.solberg-hubert-humphrey]], 381–83 (Ball''s draft; Van Dyk sent to write something quick; Rowe and Bailey at Salt Lake City; the session ending when Humphrey goes to bed at 4:30 a.m., O''Brien having left at 2:30; not the 2 p.m. list, Moss, or the telegram; the day "Sunday, September 30"); [[w.white-making-of-the-president-1969]], 354; [[w.bernstein-guns-or-butter]], 516 (O''Brien and Rowe the night before; Humphrey: "Give me a pad. I''m going to write this damn speech myself"); [[w.obrien-no-final-victories]], 260 (Sunday morning to Seattle, Humphrey''s hotel suite; Humphrey had read the draft and reacted much as O''Brien had; on to Salt Lake City that afternoon; the night''s discussion of the draft in Humphrey''s suite, a dozen present: Harris and O''Brien for a softer line, Rowe and Connell for the Johnson policy; Rowe: "You can''t expect to be elected President if you turn on the President you served under"; Humphrey: "Damn it, I''m on my own two feet ... This is my speech and I''ll write it myself"; he takes a pen; not Ball, Van Dyk or the 2 p.m. list). Check: Chester has the night''s session end at 5:15 a.m. (647–48); Humphrey, at 2 a.m. Check: Solberg, 382–83, has the session end with Humphrey''s bed at 4:30 a.m., O''Brien having left at 2:30; and he dates the day "Sunday, September 30" (381; Sunday was Sept. 29). Check: the hour: [[w.obrien-no-final-victories]], 260, has the drafting go on "until three or four in the morning, when I finally decided to leave.". To check: Humphrey''s longhand draft of the Vietnam passage, Salt Lake City, Sept. 29–30, 1968 (cited by [[w.chester-american-melodrama]], 648). See [[cal.1968-09-30.elections-1968]]. Names: Humphrey, Ball, O''Brien, Van Dyk, Sherman, Rowe, Harris, Moss. Check the day.'
+    c: 'Seattle, the speech on Vietnam, by Humphrey''s account.{1} Ball''s draft;{2} O''Brien''s telegram: "Ball speech a disaster";{3} Van Dyk to draft anew.{4}'
+    n: '[[w.humphrey-education-of-a-public-1976]], 401–02, 493 n.10; [[w.chester-american-melodrama]], 647–48, 741 (O''Brien with Humphrey alone in the afternoon; the night''s session in the suite); [[w.solberg-hubert-humphrey]], 381–83 (Ball''s draft; Van Dyk sent to write something quick; Rowe and Bailey at Salt Lake City; not the 2 p.m. list, Moss, or the telegram; the day "Sunday, September 30"); [[w.white-making-of-the-president-1969]], 354; [[w.bernstein-guns-or-butter]], 516 (O''Brien and Rowe the night before; Humphrey: "Give me a pad. I''m going to write this damn speech myself"); [[w.obrien-no-final-victories]], 260 (Sunday morning to Seattle, Humphrey''s hotel suite; Humphrey had read the draft and reacted much as O''Brien had; on to Salt Lake City that afternoon; the night''s discussion of the draft in Humphrey''s suite, a dozen present: Harris and O''Brien for a softer line, Rowe and Connell for the Johnson policy; Rowe: "You can''t expect to be elected President if you turn on the President you served under"; Humphrey: "Damn it, I''m on my own two feet ... This is my speech and I''ll write it myself"; he takes a pen; not Ball, Van Dyk or the 2 p.m. list). Check: Solberg dates the day "Sunday, September 30" (381; Sunday was Sept. 29). See [[cal.1968-09-30.elections-1968]]. Split under R25b and R17: Humphrey, 401, gives the meeting on the new draft its own hour ("a meeting scheduled for two o''clock that afternoon," in Seattle, before the flight to Salt Lake City), and 402 the night''s session in Salt Lake City its own (to "about two in the morning"); each is an entry of its own. Names: Humphrey, Ball, O''Brien, Van Dyk. Check the day.'
     src:
-      c: f4421218
       rows:
-        - 'w.humphrey-education-of-a-public-1976 401–02, 493 n.10: 1, 2, 3, 4, 5, 6'
-        - 'w.chester-american-melodrama 647–48, 741: 1, 6'
+        - 'w.humphrey-education-of-a-public-1976 401–02, 493 n.10: 1, 2, 3, 4'
+        - 'w.chester-american-melodrama 647–48, 741: 1'
         - 'w.solberg-hubert-humphrey 381–83: 2, 4'
-        - 'w.white-making-of-the-president-1969 354: 1, 2, 3, 4, 5, 6'
+        - 'w.white-making-of-the-president-1969 354: 1, 2, 3, 4'
         - 'w.bernstein-guns-or-butter 516: ?'
-        - 'via x.1968-09-29.humphreys-longhand-draft-of-the-vietnam-passage: 6'
         - 'w.obrien-no-final-victories 260: ?'
-    tags: [name:humphrey-hubert-h, name:ball-george-w, name:obrien-lawrence-f, name:van-dyk-ted, name:sherman-norman, name:rowe-james-h-jr, name:harris-fred-r, name:moss-frank-e, state:wa, state:ut]
-    variants:
-      - unit: '6'
-        witness: w.solberg-hubert-humphrey
-        reads: The struggle raged for five hours and was not finally settled when Humphrey went to bed at 4:30 a.m.
-        at: 382–83
+      c: '56880224'
+    tags: [name:humphrey-hubert-h, name:ball-george-w, name:obrien-lawrence-f, name:van-dyk-ted, state:wa]
   - id: cal.1968-09-29.elections-1968-humphrey
     when: Sept. 29
     date: '1968-09-29'
@@ -3343,6 +3351,41 @@ entries:
       rows:
         - 'w.jianguo-yilai-mao-zedong XIX, 333: all'
     tags: [polity:prc, name:mao-zedong, vis:only:prc]
+  - id: cal.1968-09-29.elections-1968-humphrey-5
+    when: Sept. 29
+    date: '1968-09-29'
+    time: 1968-09-29T21:00Z
+    place: seattle
+    thread: elections-1968-humphrey
+    also: [vietnam-paris]
+    follows:
+      - cal.1968-09-29.elections-1968-4
+    c: 'Seattle, 2 p.m., by Humphrey''s account: Van Dyk, Sherman, Connell, Rowe, Berman and Harris with Humphrey on Van Dyk''s new draft of the speech on Vietnam, O''Brien arriving later from Washington; no consensus.'
+    n: '[[w.humphrey-education-of-a-public-1976]], 401–02 ("a draft for a meeting scheduled for two o''clock that afternoon"; "We flew later that day to Salt Lake City"). To check: [[w.white-making-of-the-president-1969]], 354. It follows the morning''s drafts (401). See [[cal.1968-09-29.elections-1968-4]]. Names: Humphrey, Van Dyk, Sherman, Rowe, Harris, O''Brien. Check: the day.'
+    tags: [name:humphrey-hubert-h, name:van-dyk-ted, name:sherman-norman, name:rowe-james-h-jr, name:harris-fred-r, name:obrien-lawrence-f, state:wa]
+    time_zone: America/Los_Angeles
+  - id: cal.1968-09-29.elections-1968-humphrey-6
+    when: Sept. 29
+    date: '1968-09-29'
+    place: salt-lake-city
+    thread: elections-1968-humphrey
+    also: [vietnam-paris]
+    follows:
+      - cal.1968-09-29.elections-1968-humphrey-5
+    c: Salt Lake City, at night, by Humphrey's account. The speech, retyped in the air, reviewed again in his suite with the afternoon's group, Welsh, Bailey and, briefly, Moss with them; Connell, Van Dyk, Welsh and Sherman left at the end; worked on until about 2 a.m.
+    n: '[[w.humphrey-education-of-a-public-1976]], 402 ("We met again that night"; "We worked until about two in the morning"); [[w.chester-american-melodrama]], 647–48 (after the Sunday evening speech, about a dozen in the suite; Harris and O''Brien for the doves, Rowe and Connell the hawks; Ball gone to New York). To check: Humphrey''s longhand draft of the Vietnam passage, Salt Lake City, Sept. 29–30, 1968 (cited by [[w.chester-american-melodrama]], 648). The range is Humphrey''s: that night, after the evening speech, to about 2 a.m., Salt Lake City''s clock. See [[cal.1968-09-29.elections-1968-4]]. Names: Humphrey, Moss. Check: Chester has the night''s session end at 5:15 a.m. (647–48); Humphrey, at 2 a.m. Check: Solberg, 382–83, has the session end with Humphrey''s bed at 4:30 a.m., O''Brien having left at 2:30. Check: [[w.obrien-no-final-victories]], 260, has the drafting go on "until three or four in the morning".'
+    tags: [name:humphrey-hubert-h, name:moss-frank-e, state:ut]
+    time_zone: America/Denver
+    time_range:
+      - 1968-09-30T03:00Z
+      - 1968-09-30T08:00Z
+    range_basis: record
+    variants:
+      - field: time
+        value: 1968-09-30T10:30Z
+        witness: w.solberg-hubert-humphrey
+        reads: The struggle raged for five hours and was not finally settled when Humphrey went to bed at 4:30 a.m.
+        at: 382–83
   - id: cal.1968-09-30.elections-1968
     when: Sept. 30
     date: '1968-09-30'

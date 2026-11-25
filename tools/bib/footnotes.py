@@ -58,6 +58,12 @@ STYLE
 12. A source cited for a field alone (claims.py, STYLE 9: the entry's date, hour or place, facts with no words in the
     line) takes no mark; it closes the first footnote, where the day's label's items go, or stays in the one block
     where the entry has no footnotes (rulings 35g, 2).
+13. A map's row that reaches a record through a work's note (`via w.… 88 n.32`) is no citation and prints nothing (the
+    owner, Nov. 24, 2026: "We can't have an unmarked citation unless we've read the cited matter"; owner-rulings 53):
+    it says only that the note names the record, and links the entry to the registry. The work's page, where the map
+    has it for the unit, prints as the note cites it; the record prints where the note cites it or its copy itself;
+    a note's own text is cited by an item of the note ("88 n.32"), STYLE 11. An unread record still goes behind "To
+    check:" (STYLE 7). VIA_PRINTS restores the old form ("88 & n.32 (citing the record)", STYLE 3) for comparison.
 """
 import collections
 import re
@@ -263,16 +269,20 @@ def _cites(series, e):
         out, done = [], set()
         for k, key, pin, note, item in mine:
             if k == "card" and (key, pin) in vias:
-                if item:
-                    used.add(item)
-                out.append(via(key, pin, vias[(key, pin)], True))
+                v = via(key, pin, vias[(key, pin)], True)      # its unread records go behind "To check:" either way
                 done.add((key, pin))
+                if VIA_PRINTS:
+                    if item:
+                        used.add(item)
+                    out.append(v)
+                else:                            # the page as the note cites it; the note's record no citation (STYLE 13)
+                    out.append(card(key, pin, item, pin))
             elif k == "via":
                 if (key, pin) in done or any(k2 == "card" and (key2, pin2) == (key, pin) for k2, key2, pin2, _, _ in mine):
                     continue
                 done.add((key, pin))
                 v = via(key, pin, vias[(key, pin)], False)
-                if v:
+                if v and VIA_PRINTS:
                     out.append(v)
             elif k == "card":
                 out.append(card(key, pin, item, pin))
@@ -599,6 +609,8 @@ def _url(u):
     u = re.sub(r"^https?://(www\.)?", "", str(u or "").strip()).rstrip("/")
     return u
 
+
+VIA_PRINTS = False    # STYLE 13; True gives the form before Nov. 25, 2026, for tools/claims/via_rule.py to compare
 
 class Cited:
     """What an entry's note (and `c`) already cites, for the doubles' tests: its folded text, its links' addresses,

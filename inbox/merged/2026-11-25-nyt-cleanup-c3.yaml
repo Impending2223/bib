@@ -1,0 +1,751 @@
+patch: 2026-11-25-nyt-cleanup-c3
+by: 'Claude (cleanup c3: the Times entries of the July 6, 1960 second patch and the leftovers brought to R26a), Nov. 25, 2026'
+ops:
+- place-key:
+    key: luluabourg
+    name: Luluabourg
+    zone: Africa/Lubumbashi
+    in: congo
+- place-key:
+    key: marshall-tx
+    name: Marshall, Tex.
+    zone: America/Chicago
+    st: TX
+- place-key:
+    key: chushul
+    name: Chushul
+    zone: Asia/Kolkata
+    in: india
+- edit:
+    id: cal.1960-01.cuba-5
+    base: d7e8a93e
+    set:
+      n: '"Once a Castro Backer," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 3. Check: the day. Names: Castro, Miró Cardona.'
+- edit:
+    id: cal.1960-01.cyprus
+    base: b6cf71ca
+    set:
+      n: 'Lawrence Fellows, "Cyprus Will Vote July 31 and Aug. 7," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day; if before Jan. 6, outside the span. Names: Makarios.'
+- place:
+    id: cal.1960-01.cyprus
+    at: nicosia
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-01.cyprus
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-05.cuba-2
+    base: 269c1d5c
+    set:
+      n: '"Once a Castro Backer," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 3. Check: the day. Names: Castro, Miró Cardona.'
+- add-words:
+    id: cal.1960-05.cuba-2
+    after: Castro designates José Miró Cardona Ambassador to the United States.
+    words: By a report of July 5, Castro never set a date for his departure and never saw him after his return from Spain.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-05.desegregation-schools
+    base: e4519290
+    set:
+      n: '"Gov. Davis Is Firm," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. To check: *Bush v. Orleans Parish School Board*. Names: Wright.'
+- edit:
+    id: cal.1960-05.elections-1960-nomination-4
+    base: 9440b2fe
+    set:
+      n: '"Wagner Denies State Delegation Is Rigged to Favor Kennedy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. Names: Wagner, Stevenson.'
+- edit:
+    id: cal.1960-06-20.soviet-union-2
+    base: '78525800'
+    set:
+      n: '"Dutch Expelling Spy Suspect," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 6. See [[cal.1960-07-05.soviet-union-2]].'
+- place:
+    id: cal.1960-06-20.soviet-union-2
+    at: the-hague
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- edit:
+    id: cal.1960-06-21.cuba
+    base: 4fc9594c
+    set:
+      n: '"Farm Crisis Is Foreseen in Cuba as Traditional Patterns Change," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. Names: Castro.'
+- edit:
+    id: cal.1960-06-22.south-asia
+    base: a0509bbe
+    set:
+      n: 'Paul Grimes, "U.S. Planes a Familiar Sight at Pakistan Base Linked to U-2," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 6. Check: the day.'
+- edit:
+    id: cal.1960-06-22.south-asia-2
+    base: 97e7a62b
+    set:
+      n: 'Paul Grimes, "U.S. Planes a Familiar Sight at Pakistan Base Linked to U-2," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 6. Check: the day.'
+- place:
+    id: cal.1960-06-22.south-asia-2
+    at: peshawar
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-06-22.south-asia-2
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-06-27.south-asia
+    base: 8798dbd8
+    set:
+      n: '"India on Strike Alert," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 8. Check: the days.'
+- edit:
+    id: cal.1960-06-27.testing-2
+    base: 2e3ff098
+    set:
+      n: 'Thomas J. Hamilton, "U.S. Said to Drop Plan for Session of U.N. Arms Body," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 6. Check: the day. Names: Hammarskjöld.'
+- place:
+    id: cal.1960-06-27.testing-2
+    at: nyc
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-06-27.testing-2
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-06-28.cuba
+    base: 4bb8d27d
+    set:
+      n: 'Tad Szulc, "Ex-Cuban Premier Quits Regime and Asks Asylum," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 3. Check: the day of the resignation.'
+- edit:
+    id: cal.1960-06-29.elections-1960-nomination
+    base: 3203d1ea
+    set:
+      n: '"Truman Reported Going to Party''s Convention," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18. Names: Truman.'
+- edit:
+    id: cal.1960-06.defense
+    base: 849110f2
+    set:
+      n: '"ICBM Sites Studied," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. Names: LeMay.'
+- edit:
+    id: cal.1960-06.defense-2
+    base: 8543956d
+    set:
+      n: '"Defense Work Down," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. See [[cal.1960-07-05.defense-3]]. Names: Javits.'
+- edit:
+    id: cal.1960-06.labor-disputes
+    base: bdb61ce4
+    set:
+      n: 'A. H. Raskin, "G.E. Estimates Union Demands Add Up to 500 Million in 2 Years," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. See [[cal.1960-07-05.labor-disputes-3]].'
+- edit:
+    id: cal.1960-07-02.cuba-10
+    base: dd0697af
+    set:
+      n: '"Soviet Tankers on Way to Cuba," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html). Check: the day of the call off Morro Castle; the cargo. See [[cal.1960-07-02.cuba-7]].'
+- edit:
+    id: cal.1960-07-02.japan-4
+    base: 6cf93b5d
+    set:
+      n: 'Richard J. H. Johnston, "Demonstration Draws 22,000 of 225,000 Expected in Japan," [*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html). Check: the count, by whose. See [[cal.1960-07-02.japan-2]].'
+- add-words:
+    id: cal.1960-07-02.japan-4
+    after: end
+    words: The Council's announced sole aim is the abandonment of the security pact, the *Times* reports.
+    text: '[*New York Times*, July 3, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/03/issue.html)'
+- edit:
+    id: cal.1960-07-04.congo-3
+    base: a1debf37
+    set:
+      n: '"Lumumba Charts a Neutral Congo," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Lumumba.'
+- edit:
+    id: cal.1960-07-04.elections-1960-los-angeles-6
+    base: 12ed0296
+    set:
+      n: 'Claude Sitton, "Democratic Unity Is Thought Likely," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. Names: Kennedy, Muñoz Marín.'
+- edit:
+    id: cal.1960-07-04.japan-2
+    base: b0673f17
+    set:
+      n: 'Richard J. H. Johnston, "Japanese Left-Wing Group Split by Debate on Future Strategy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Kishi.'
+- edit:
+    id: cal.1960-07-04.soviet-union-3
+    base: a4b77b30
+    set:
+      n: '"Shake-Up Reported in Outer Mongolia," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the names, as the paper spells them (Tumur-Ochir, Balzhiniam, Zhagvaral, Maidar, Luvsorravdan).'
+- edit:
+    id: cal.1960-07-05.africa
+    base: 3fa97454
+    set:
+      n: '"Somalia Backed in U.N.," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). To check: the Council''s records.'
+- edit:
+    id: cal.1960-07-05.africa-2
+    base: 7ef3f6ae
+    set:
+      n: '"Ghana Asks ''Bold'' Western Aid," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Nkrumah.'
+- edit:
+    id: cal.1960-07-05.africa-3
+    base: 8ac4aa5e
+    set:
+      n: '"Somalia Backed in U.N.," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the days. To check: the Council''s records.'
+- edit:
+    id: cal.1960-07-05.africa-algeria-morocco
+    base: b6aa0be7
+    set:
+      n: '"Morocco Approves Rightist Labor Body," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 6.'
+- edit:
+    id: cal.1960-07-05.berlin-and-vienna
+    base: 1db0697a
+    set:
+      n: '"U.N. Gets Bonn Protest," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Hammarskjöld.'
+- edit:
+    id: cal.1960-07-05.berlin-and-vienna-2
+    base: 607c83c1
+    set:
+      n: '"U.N. Gets Bonn Protest," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). See [[cal.1960-07-05.berlin-and-vienna]]. Names: Hammarskjöld.'
+- edit:
+    id: cal.1960-07-05.congo-2
+    base: cab11581
+    set:
+      n: '"2 Die in Tribal Battle," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html).'
+- place:
+    id: cal.1960-07-05.congo-2
+    at: luluabourg
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.congo-2
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.conservative-movement
+    base: b10abea6
+    set:
+      n: '"Conservative Unit Classifies Senators," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 21. Names: Johnson, Kennedy, Morse, Symington, Byrd, Goldwater, Williams.'
+- edit:
+    id: cal.1960-07-05.crime-and-hijacking
+    base: 3b95536b
+    set:
+      n: '"Goldfine and Aide Begin Jail Terms," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1.'
+- edit:
+    id: cal.1960-07-05.crime-and-hijacking-2
+    base: 23f49b55
+    set:
+      n: '"Two Cuban Pilots Force Airliner to Fly to U.S.," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html).'
+- edit:
+    id: cal.1960-07-05.cuba-5
+    base: b642a5c5
+    set:
+      n: 'Tad Szulc, "Ex-Cuban Premier Quits Regime and Asks Asylum," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 3. See [[cal.1960-07-05.cuba-3]]. Check: the day.'
+- add-words:
+    id: cal.1960-07-05.cuba-5
+    after: end
+    words: Piedra de la Concha is in Rome, Pividal in Havana.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-07-05.cyprus-2
+    base: fdf0042a
+    set:
+      n: 'Lawrence Fellows, "Cyprus Will Vote July 31 and Aug. 7," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. Names: Makarios.'
+- place:
+    id: cal.1960-07-05.cyprus-2
+    at: nicosia
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.cyprus-2
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.defense
+    base: 1186649a
+    set:
+      n: '"Missile Train in Test," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 21.'
+- edit:
+    id: cal.1960-07-05.defense-2
+    base: ba9fd894
+    set:
+      n: '"ICBM Sites Studied," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. Names: Gates.'
+- add-words:
+    id: cal.1960-07-05.defense-2
+    after: end
+    words: A spokesman announces it.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-07-05.defense-3
+    base: 857e1977
+    set:
+      n: '"Defense Work Down," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Javits.'
+- edit:
+    id: cal.1960-07-05.democratic-party
+    base: ef852279
+    set:
+      n: 'Claude Sitton, "Democratic Unity Is Thought Likely," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. Names: Daniel.'
+- edit:
+    id: cal.1960-07-05.democratic-party-2
+    base: 11d1d584
+    set:
+      n: '"Pauley Criticizes Butler on Tickets," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. Names: Kennedy.'
+      c: 'Edwin W. Pauley, Los Angeles oil man and a delegate: if Butler planned to fix the convention, he had tickets enough; his own vote undecided; Kennedy will have to win on the first ballot.'
+    kind: reword
+- add:
+    entry:
+      id: cal.1960-07-05.democratic-party-6
+      when: July 5
+      date: '1960-07-05'
+      place: los-angeles
+      thread: democratic-party
+      also: [elections-1960-los-angeles]
+      c: Butler, at Los Angeles, no comment on Pauley's statement on the convention tickets.
+      n: '"Pauley Criticizes Butler on Tickets," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. See [[cal.1960-07-05.democratic-party-2]].'
+      tags: [ok:name-untagged]
+- edit:
+    id: cal.1960-07-05.democratic-party-3
+    base: ea07fb5e
+    set:
+      n: 'Claude Sitton, "Democratic Unity Is Thought Likely," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. Check: the day. Names: Perez.'
+- place:
+    id: cal.1960-07-05.democratic-party-3
+    at: los-angeles
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.democratic-party-3
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.democratic-party-4
+    base: 378a37bf
+    set:
+      n: 'Claude Sitton, "Democratic Unity Is Thought Likely," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. Check: the day. Names: Connor.'
+- edit:
+    id: cal.1960-07-05.democratic-party-5
+    base: 7012f118
+    set:
+      n: 'Claude Sitton, "Democratic Unity Is Thought Likely," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. Check: the days.'
+- edit:
+    id: cal.1960-07-05.elections-1960-los-angeles-2
+    base: 662ac16c
+    set:
+      n: 'W. H. Lawrence, "Democratic Hopefuls Face Early Test on Voting Rule," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 20. Names: Robert Kennedy, Johnson, Symington.'
+- edit:
+    id: cal.1960-07-05.elections-1960-los-angeles-3
+    base: a54cc057
+    set:
+      n: 'W. H. Lawrence, "Democratic Hopefuls Face Early Test on Voting Rule," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 20. Names: Collins.'
+- edit:
+    id: cal.1960-07-05.elections-1960-los-angeles-4
+    base: 0b077ba2
+    set:
+      n: '"Loveless Statement," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. Names: Loveless.'
+- edit:
+    id: cal.1960-07-05.elections-1960-los-angeles-5
+    base: 844a2582
+    set:
+      n: '"Truman Reported Going to Party''s Convention," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18. Names: Truman.'
+- edit:
+    id: cal.1960-07-05.elections-1960-nomination-10
+    base: b5111e99
+    set:
+      n: '"Stevenson Backers Begin a Mail Drive," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Stevenson.'
+- edit:
+    id: cal.1960-07-05.elections-1960-nomination-11
+    base: 33f7e330
+    set:
+      n: 'John D. Morris, "Johnson Enters Race Officially; Sees 500 Votes," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 18. Check: the day. Names: Lady Bird Johnson.'
+- add-words:
+    id: cal.1960-07-05.elections-1960-nomination-11
+    after: end
+    words: Aides say so.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- place:
+    id: cal.1960-07-05.elections-1960-nomination-11
+    at: marshall-tx
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.elections-1960-nomination-11
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.elections-1960-nomination-2
+    base: 478b6dd7
+    set:
+      n: 'W. H. Lawrence, "Democratic Hopefuls Face Early Test on Voting Rule," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 20. Names: Symington.'
+- place:
+    id: cal.1960-07-05.elections-1960-nomination-2
+    at: los-angeles
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.elections-1960-nomination-2
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.elections-1960-nomination-3
+    base: 76a8436a
+    set:
+      n: 'W. H. Lawrence, "Democratic Hopefuls Face Early Test on Voting Rule," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 20. Names: Stevenson, Kennedy, Johnson, Brown.'
+- edit:
+    id: cal.1960-07-05.elections-1960-nomination-4
+    base: de774150
+    set:
+      n: 'W. H. Lawrence, "Democratic Hopefuls Face Early Test on Voting Rule," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 20. Names: Ellington, Johnson.'
+- place:
+    id: cal.1960-07-05.elections-1960-nomination-4
+    at: los-angeles
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.elections-1960-nomination-4
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.elections-1960-nomination-5
+    base: eb048e23
+    set:
+      n: '"Truman Declines Comment," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18 (the no comment and "no second choice"); "Truman Reported Going to Party''s Convention," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18 (the telephone answer on going to Los Angeles). Names: Truman, Johnson, Symington.'
+- edit:
+    id: cal.1960-07-05.elections-1960-nomination-6
+    base: f4b542bd
+    set:
+      n: '"Symington Sees Gov. Lawrence; Doubts Convention Is Rigged," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18. Names: Symington, Lawrence, Johnson.'
+- edit:
+    id: cal.1960-07-05.elections-1960-nomination-7
+    base: 86151b31
+    set:
+      n: '"Meyner Maintains Favorite-Son Role," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18. Names: Kennedy.'
+- edit:
+    id: cal.1960-07-05.elections-1960-nomination-8
+    base: 9a1df05f
+    set:
+      n: '"Di Salle Is Challenged," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18. The *Times* gives "among the riggers" as Brown''s words, not Truman''s. Names: DiSalle, Kennedy, Truman.'
+      c: 'John W. Brown, Republican State Representative, once Ohio''s interim Governor, accuses DiSalle of backing Kennedy for the promise of a Cabinet post; Truman, he says, recognizes DiSalle "among the riggers."'
+    kind: correct
+- edit:
+    id: cal.1960-07-05.elections-1960-nomination-9
+    base: '97378485'
+    set:
+      n: '"Backing for Stevenson," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18. Names: Wagner, Humphrey, Stevenson, Kennedy, Johnson.'
+- edit:
+    id: cal.1960-07-05.europe-and-the-alliance
+    base: bbc95910
+    set:
+      n: '"Lesage Becomes Premier of Quebec," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html).'
+- edit:
+    id: cal.1960-07-05.europe-and-the-alliance-federal-republic
+    base: 8937cf6d
+    set:
+      n: '"U.S.-German Missile Rift Denied," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Strauss, Brucker.'
+- edit:
+    id: cal.1960-07-05.europe-and-the-alliance-federal-republic-2
+    base: 607a5c7c
+    set:
+      n: '"U.S.-German Missile Rift Denied," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. Names: Brucker, Strauss.'
+- edit:
+    id: cal.1960-07-05.europe-and-the-alliance-federal-republic-3
+    base: df9227e9
+    set:
+      n: 'Sydney Gruson, "Bonn Called Lax on Aid Programs," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 8. Check: the day. Names: Erhard.'
+- place:
+    id: cal.1960-07-05.europe-and-the-alliance-federal-republic-3
+    at: bonn
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.europe-and-the-alliance-federal-republic-3
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.europe-and-the-alliance-france-2
+    base: 8ace1710
+    set:
+      n: '"France Prepays Loan," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html).'
+- add-words:
+    id: cal.1960-07-05.europe-and-the-alliance-france-2
+    after: end
+    words: Since Jan. 1, Peru, Italy, Chile and Mexico have repaid $46,700,000 more, the *Times* reports.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-07-05.farm
+    base: 95a19d52
+    set:
+      n: '"Migratory Labor Decried as Waste," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Williams.'
+- edit:
+    id: cal.1960-07-05.foreign-aid-2
+    base: '17557869'
+    set:
+      n: '"Cairo to Get U.S. Loan," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html).'
+- edit:
+    id: cal.1960-07-05.indonesia
+    base: f3f4e09c
+    set:
+      n: '"Indonesian Pilot Admits Guilt," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Sukarno.'
+- edit:
+    id: cal.1960-07-05.japan
+    base: 3cb11ce2
+    set:
+      n: '"60 Hurt in Kyushu Mine Fight," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 13.'
+- edit:
+    id: cal.1960-07-05.japan-2
+    base: cf42616a
+    set:
+      n: 'Richard J. H. Johnston, "Japanese Left-Wing Group Split by Debate on Future Strategy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the days.'
+      c: The Zengakuren, at its convention, splits into three factions after the Communist party's criticism of its line on Kanba Michiko's death; its raid on Communist headquarters.
+    kind: reword
+- names:
+    id: cal.1960-07-05.japan-2
+    add:
+    - Kanba Michiko
+    tags:
+    - name:kanba-michiko
+- edit:
+    id: cal.1960-07-05.japan-3
+    base: 1dbe2df7
+    set:
+      n: 'Richard J. H. Johnston, "Japanese Left-Wing Group Split by Debate on Future Strategy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. Names: Kanba Michiko.'
+      c: The Japan Communist party criticizes the Zengakuren for an "incorrect" line in charging the police alone with Kanba Michiko's death; demands it acknowledge its own extreme measures caused it.
+    kind: reword
+- place:
+    id: cal.1960-07-05.japan-3
+    at: tokyo
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.japan-3
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.japan-4
+    base: bf363fa0
+    set:
+      n: 'Richard J. H. Johnston, "Japanese Left-Wing Group Split by Debate on Future Strategy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. See [[cal.1960-07-05.japan-3]].'
+- edit:
+    id: cal.1960-07-05.japan-5
+    base: 5281ecbe
+    set:
+      n: Richard J. H. Johnston, "Japanese Left-Wing Group Split by Debate on Future Strategy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). See [[cal.1960-07-04.japan-2]].
+- edit:
+    id: cal.1960-07-05.japan-and-korea-far-east
+    base: a5d1ddfe
+    set:
+      n: 'Greg MacGregor, "Thai Rulers Honored in Parade," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 13. Names: Wagner.'
+      c: King Bhumibol and Queen Sirikit of Thailand in a twenty-minute parade up Broadway to City Hall, some 750,000 along the route by the police estimate; received by Mayor and Mrs. Wagner.
+    kind: correct
+- add-words:
+    id: cal.1960-07-05.japan-and-korea-far-east
+    after: received by Mayor and Mrs. Wagner.
+    words: The parade ends at 12:25 p.m.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- add:
+    entry:
+      id: cal.1960-07-05.japan-and-korea-far-east-5
+      when: July 5
+      date: '1960-07-05'
+      place: nyc
+      thread: japan-and-korea-far-east
+      follows: [cal.1960-07-05.japan-and-korea-far-east]
+      c: At a Waldorf-Astoria luncheon Wagner gives King Bhumibol the Medal of the City; the King gives the city a model of the royal barge, and the Mayor a cigarette case.
+      n: 'Greg MacGregor, "Thai Rulers Honored in Parade," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 13. After the parade, by the *Times*. See [[cal.1960-07-05.japan-and-korea-far-east]]. Names: Wagner.'
+      tags: [ok:name-untagged, name:wagner-robert-f-jr, state:ny, city:new-york]
+      time_range:
+        - 1960-07-05T16:00Z
+        - 1960-07-05T18:00Z
+      time_band: workday midday
+      time_zone: America/New_York
+      range_basis: record
+- edit:
+    id: cal.1960-07-05.japan-and-korea-far-east-2
+    base: cbe43832
+    set:
+      n: Greg MacGregor, "Thai Rulers Honored in Parade," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 13.
+- edit:
+    id: cal.1960-07-05.japan-and-korea-far-east-3
+    base: a007817e
+    set:
+      n: 'McCandlish Phillips, "Thai King Plays for Two Hours at Encore Jam Session," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html); Greg MacGregor, "Thai Rulers Honored in Parade," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 13 (that the King went on to the jam session). Names: Goodman.'
+- add-words:
+    id: cal.1960-07-05.japan-and-korea-far-east-3
+    after: end
+    words: At 5:40 p.m. he has been playing two hours.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-07-05.japan-and-korea-far-east-4
+    base: c5625b4f
+    set:
+      n: Greg MacGregor, "Thai Rulers Honored in Parade," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 13. The time is the dinner's.
+- edit:
+    id: cal.1960-07-05.labor
+    base: 37c3e144
+    set:
+      n: '"Meyner Maintains Favorite-Son Role," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18. Check: the day. Names: Kennedy, Meyner.'
+- place:
+    id: cal.1960-07-05.labor
+    at: trenton
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.labor
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.labor-2
+    base: 2f17ed18
+    set:
+      n: '"Meany Declines to Pick Candidate," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Meany.'
+- edit:
+    id: cal.1960-07-05.labor-disputes
+    base: 57d20a85
+    set:
+      n: '"Rome in Stew With Gas Off," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html).'
+- edit:
+    id: cal.1960-07-05.labor-disputes-2
+    base: 3d8bbb42
+    set:
+      n: '"Engineers on Strike at 5 R.C.A. Plants," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html).'
+- edit:
+    id: cal.1960-07-05.labor-disputes-3
+    base: f7c9485e
+    set:
+      n: A. H. Raskin, "G.E. Estimates Union Demands Add Up to 500 Million in 2 Years," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html).
+      c: General Electric puts a $500,000,000 price on the I.U.E.'s contract demands over two years, "astronomic."
+    kind: reword
+- add:
+    entry:
+      id: cal.1960-07-05.labor-disputes-4
+      when: July 5
+      date: '1960-07-05'
+      place: washington
+      thread: labor-disputes
+      c: 'Al Hartnett, secretary-treasurer of the I.U.E., in Washington, answers General Electric: the demands "realistically geared"; no "crisis" bargaining; asks an early start on negotiations.'
+      n: 'A. H. Raskin, "G.E. Estimates Union Demands Add Up to 500 Million in 2 Years," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Check: the day. See [[cal.1960-07-05.labor-disputes-3]].'
+- edit:
+    id: cal.1960-07-05.latin-america
+    base: e74ab306
+    set:
+      n: '"Frondizi Plea to Castro Reported," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Frondizi, Macmillan, Castro.'
+- add-words:
+    id: cal.1960-07-05.latin-america
+    after: end
+    words: Informed sources report it.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- edit:
+    id: cal.1960-07-05.medicare
+    base: '17793273'
+    set:
+      n: 'Leo Egan, "Democrats Hear Ideas for Planks," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 20. See [[cal.1960-07-05.elections-1960-los-angeles]]. Names: Annis.'
+- edit:
+    id: cal.1960-07-05.republican-party
+    base: 7b673dd0
+    set:
+      n: 'John D. Morris, "Johnson Enters Race Officially; Sees 500 Votes," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 18. Check: the day. Names: Morton, Johnson, Kennedy.'
+- place:
+    id: cal.1960-07-05.republican-party
+    at: washington
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.republican-party
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.south-asia-2
+    base: 5d922c9b
+    set:
+      n: '"Indian 5-Year Plan Needs 4.6 Billion in Foreign Aid," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 9.'
+- edit:
+    id: cal.1960-07-05.south-asia-3
+    base: 5ab660db
+    set:
+      n: '"India on Strike Alert," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 8. Check: the day.'
+- place:
+    id: cal.1960-07-05.south-asia-3
+    at: new-delhi
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.south-asia-3
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.south-asia-4
+    base: 0076335f
+    set:
+      n: '"Nehru Visits Border Area," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Nehru.'
+      c: Nehru flies by helicopter over the disputed Ladakh border near Chushul, Indian and Chinese troops under 400 yards apart.
+      place: chushul
+    kind: reword
+- add:
+    entry:
+      id: cal.1960-07-05.south-asia-5
+      when: July 5
+      date: '1960-07-05'
+      place: srinagar
+      thread: south-asia
+      also: [china]
+      follows: [cal.1960-07-05.south-asia-4]
+      c: 'Nehru, to political workers at Srinagar after the flight: "some territory of Ladakh is under foreign occupation."'
+      n: '"Nehru Visits Border Area," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). After the flight, by the *Times*. See [[cal.1960-07-05.south-asia-4]]. Names: Nehru.'
+      tags: [name:nehru-jawaharlal]
+- edit:
+    id: cal.1960-07-05.soviet-union-2
+    base: 75ce9a16
+    set:
+      n: '"Dutch Expelling Spy Suspect," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 6.'
+- edit:
+    id: cal.1960-07-05.soviet-union-3
+    base: e88a86fe
+    set:
+      n: 'M. S. Handler, "Khrushchev Looks to Reds'' Triumph," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 15. Names: Khrushchev.'
+- edit:
+    id: cal.1960-07-05.states-and-cities-2
+    base: 2facbc07
+    set:
+      n: John Sibley, "Maniscalco Case Brings New Trial," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 34.
+- edit:
+    id: cal.1960-07-05.testing-2
+    base: a61326a4
+    set:
+      n: 'Thomas J. Hamilton, "U.S. Said to Drop Plan for Session of U.N. Arms Body," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 6. Check: the day. Names: Khrushchev.'
+- place:
+    id: cal.1960-07-05.testing-2
+    at: washington
+    basis: n
+    note: the dateline (or the item), R26a; the dateline is in notes/nyt/dating-c3.tsv
+- tag:
+    id: cal.1960-07-05.testing-2
+    remove:
+    - ok:fields-place
+- edit:
+    id: cal.1960-07-05.white-house
+    base: ee2524fb
+    set:
+      n: '"Nixon in Long White House Visit Talks Politics With Eisenhower," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). See [[cal.1960-07-05.elections-1960-nixon]]. Names: Hagerty, Eisenhower, Truman.'
+- edit:
+    id: cal.1960-07-06.cuba-2
+    base: 25e9edfc
+    set:
+      n: 'Tad Szulc, "Ex-Cuban Premier Quits Regime and Asks Asylum," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 3 (the Havana law). Statement by the President Upon Signing Bill and Proclamation Relating to the Cuban Sugar Quota, [1960–61 Pub. Papers 562](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=614); [Proclamation 3355](https://www.presidency.ucsb.edu/documents/proclamation-3355-determination-cuban-sugar-quota), [25 Fed. Reg. 6414](https://www.govinfo.gov/app/details/FR-1960-07-08). Senate, July 2: the President''s resolution, [84–0](https://voteview.com/rollcall/RS0860384); July 3, the conference report, [32–24](https://voteview.com/rollcall/RS0860387). FRUS 1958–60, VI, docs. [543](https://history.state.gov/historicaldocuments/frus1958-60v06/d543), [544](https://history.state.gov/historicaldocuments/frus1958-60v06/d544) (the meeting with the President, July 6). [[w.fursenko-one-hell-of-a]], 50 (the cut); [[w.paterson-contesting-castro]], 258 (the quota suspended in July). To check: [[w.rabe-eisenhower-and-latin-america]]; [[w.morley-imperial-state-and-revolution]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.leogrande-back-channel-to-cuba]]. Names: Eisenhower. Check: Fursenko and Naftali have Congress cut the rest of the quota from 744,000 to 44,000 short tons, July 3 (50), citing FRUS 1958–60, VI, doc. 544.'
+- add-words:
+    id: cal.1960-07-06.cuba-2
+    after: 'Havana''s Law 851 the same day: American property may be nationalized.'
+    words: The eight-article law, the Council of Ministers', lets Castro and Dorticós nationalize American property by resolution, paying in thirty-year bonds at no more than 2 percent, the interest due only if the United States buys at least 3,000,000 tons of Cuban sugar a year at 5.75 cents a pound or more.
+    text: '[*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html)'
+- names:
+    id: cal.1960-07-06.cuba-2
+    add:
+    - Castro
+    - Dorticós
+    tags:
+    - name:castro-fidel
+    - name:dorticos-torrado-osvaldo
+- edit:
+    id: cal.1960-07-06.elections-1960-nomination
+    base: 74e95924
+    set:
+      n: '"Backing for Stevenson," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 18. Check: that it left. Names: Eleanor Roosevelt, Finletter, Stevenson.'
+- edit:
+    id: cal.1960-07-06.press-and-broadcasting
+    base: c07958c2
+    set:
+      n: 'Editorial, "Johnson vs. Kennedy," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html). Names: Johnson, Kennedy.'
+- edit:
+    id: cal.1960.states-and-cities
+    base: 1ef15285
+    set:
+      n: 'John Sibley, "Maniscalco Case Brings New Trial," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 34. Check: the day. See [[cal.1960-07-05.states-and-cities-2]].'

@@ -851,6 +851,8 @@ entries:
     date: '1964-04-04'
     place: washington
     thread: civil-rights-bill
+    follows:
+      - cal.1964-04-04.civil-rights-bill
     c: 'After the quorum failure, Humphrey in an emergency meeting of Democratic senators demands to know where the missing are; he telegraphs each of them to return at once. Three Democratic title captains among them: Magnuson, Pastore, Long of Missouri.'
     n: '[[w.risen-bill-of-the-century]], 196 (the meeting, the telegrams, the three). To check: [[w.whalen-longest-debate]], 157–58 (the telegrams). See [[cal.1964-04-04.civil-rights-bill]]. Names: Humphrey, Magnuson, Pastore, Long.'
     src:
@@ -2645,15 +2647,19 @@ entries:
     date: '1964-04-10'
     place: washington
     thread: press-and-broadcasting
+    follows:
+      - cal.1964-04-10.program
     c: 'The Truman Balcony. Johnson takes Sandburg and Steichen out on the balcony and shouts back and forth with reporters in the Rose Garden. The Associated Press: "President Johnson staged a balcony scene."'
-    n: '[[w.johnson-white-house-diary]], 107–08 (Lady Bird Johnson''s account, quoting the AP and the Herald Tribune). Names: Johnson.'
+    n: '[[w.johnson-white-house-diary]], 107–08 (Lady Bird Johnson''s account, quoting the AP and the Herald Tribune). After [[cal.1964-04-10.program|the 2:30 reception of the Sandburgs and Steichens]]: the Lincoln Room, tea in the Yellow Room, "Then Lyndon took them out on the Truman Balcony" (108). Names: Johnson.'
     tags: [name:johnson-lyndon-b]
   - id: cal.1964-04-10.transition-and-staff
     when: Apr. 10
     date: '1964-04-10'
     thread: transition-and-staff
+    follows:
+      - cal.1964-04-10.press-and-broadcasting
     c: 'The home of Mr. and Mrs. Dillon. Dinner in honor of Under Secretary Fowler and Mrs. Fowler, who is leaving government for the third time; toasts. Johnson''s toast: "Go off and get rich and have a good time—for about ninety days."'
-    n: '[[w.johnson-white-house-diary]], 108–09 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, Dillon, Fowler.'
+    n: '[[w.johnson-white-house-diary]], 108–09 (Lady Bird Johnson''s account). After [[cal.1964-04-10.press-and-broadcasting|the balcony]]: the afternoon''s visit, then "This evening we dined out" (108). Names: Johnson, Lady Bird Johnson, Dillon, Fowler.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:dillon-c-douglas, name:fowler-henry-h]
   - id: cal.1964-04-10.civil-rights-bill-3
     when: Apr. 10
@@ -2737,6 +2743,8 @@ entries:
     date: '1964-04-10'
     place: wuhan
     thread: china-leadership
+    follows:
+      - cal.1964-04-10.china-leadership-2
     c: Wuchang 武昌, Hubei 湖北. Mao meets the Japanese Communist Party delegation under Hakamada Satomi 袴田里见, member of its Politburo and Secretariat, on its way to Vietnam.
     n: '[[w.jianguo-yilai-mao-zedong]], XVII, 233 (Apr. 10, 1964; note 2). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Names: Mao Zedong, Hakamada. Check: what was said, and whether the meeting was reported. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
     src:
@@ -2768,6 +2776,8 @@ entries:
       - wuhan
       - changsha
     thread: china-leadership
+    follows:
+      - cal.1964-04-10.china-leadership-4
     c: Mao 毛泽东 leaves Wuchang 武昌 and reaches Changsha 长沙 the next morning, Wang Renzhong 王任重 with him.
     n: '[[w.mao-zedong-zhuan]], VI, ch. 72 (the next morning 次日晨). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 72). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1964-04-05.china-leadership-9]]. Names: Mao Zedong, Wang Renzhong.'
     src:
@@ -3108,8 +3118,10 @@ entries:
       - peking
       - lanzhou
     thread: china-leadership
+    follows:
+      - cal.1964-04-12.china-leadership-2
     c: Yang Shangkun 杨尚昆, in Peking 北京, and Yao Zhen 姚溱, at Lanzhou 兰州, by telephone.
-    n: '[[w.yang-shangkun-riji]], II, 368 (Apr. 12, 1964). The words: 姚溱在兰州，与他通了话 (II, 368). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Yao Zhen.'
+    n: '[[w.yang-shangkun-riji]], II, 368 (Apr. 12, 1964). The words: 姚溱在兰州，与他通了话 (II, 368). After [[cal.1964-04-12.china-leadership-2|the talk with Hill]]: the diary has the dinner and talk from 4 to 8, then television at home and work to 1:30, then the call (II, 368). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Yao Zhen.'
     src:
       c: 0e11c83e
       rows:
@@ -3252,6 +3264,8 @@ entries:
     time_approx: true
     place: washington
     thread: civil-rights-bill
+    follows:
+      - cal.1964-04-13.civil-rights-bill-3
     c: 'Senate, shortly before midnight. Humphrey, interrupting Smathers on the passions of black Americans: does either of them know what it is to be told he cannot come into a restaurant? The harm is "humiliation, the lack of a sense of dignity." Smathers: in the Marine Corps some ate Spam, kept from the officer areas where the aviators ate steak; Humphrey: "a dictatorship called the military establishment."'
     n: '[[w.purdum-idea-whose-time-has-2014]], 259–60. To check: 110 Cong. Rec. 7799 (Apr. 13, 1964) (cited by [[w.purdum-idea-whose-time-has-2014]], 362). Names: Humphrey, Smathers.'
     src:
@@ -3453,6 +3467,8 @@ entries:
       - shanghai
       - peking
     thread: china-leadership
+    follows:
+      - cal.1964-04-13.china-leadership-9
     c: Chen Pixian 陈丕显 telephones Yang Shangkun 杨尚昆 on Ke Qingshi's 柯庆施 illness.
     n: '[[w.yang-shangkun-riji]], II, 368 (Apr. 13, 1964). The words: 2时回家睡。丕显来电话谈柯庆施同志的病情 (II, 368). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-03-29.china-leadership-3]]. Names: Chen Pixian, Yang Shangkun, Ke Qingshi. Check: Chen''s place: the diary does not say; Shanghai, where Ke lay ill.'
     src:
@@ -3518,7 +3534,7 @@ entries:
       - canton
       - suzhou
     thread: china-leadership
-    c: Chen Yun 陈云 goes from Canton 广州 to Suzhou 苏州.
+    c: Chen Yun 陈云 goes from Guangzhou 广州 to Suzhou 苏州.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 145. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun]
   - id: cal.1964-04-14.elections-1964
@@ -3699,16 +3715,20 @@ entries:
     date: '1964-04-14'
     place: washington
     thread: consumers
+    follows:
+      - cal.1964-04-14.middle-east-2
     c: The Department of Agriculture. Mrs. Johnson opens the Food and Home Fair for Consumers, Jane and Orville Freeman, Esther Peterson and Mrs. John G. Lee of the Consumer Advisory Council receiving her; a few words as the family's "purchasing agent."
-    n: '[[w.johnson-white-house-diary]], 109–10 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Freeman, Esther Peterson.'
+    n: '[[w.johnson-white-house-diary]], 109–10 (Lady Bird Johnson''s account). After [[cal.1964-04-14.middle-east-2|the King''s arrival at 11:30]]: "Meanwhile, I was getting ready to dash over to the Department of Agriculture" (109). Names: Lady Bird Johnson, Freeman, Esther Peterson.'
     tags: [name:johnson-lady-bird, name:freeman-orville-l, name:peterson-esther]
   - id: cal.1964-04-14.middle-east-3
     when: Apr. 14
     date: '1964-04-14'
     place: washington
     thread: middle-east
+    follows:
+      - cal.1964-04-14.consumers
     c: 'The White House, State dinner for King Hussein, about 150 guests. In the Yellow Oval Room, gifts: from the Johnsons a gold clock, a pen stand and a book of Johnson''s speeches; from the King two bracelets of Abraham''s time, a lamp, and a Bible in mother-of-pearl. The guests include Warren, Ball, the Dukes, Hoover, Najeeb Halaby, Helen Thomas of UPI. Hussein tells Mrs. Johnson that many of the Jordan''s springs rise in Israel; he piloted his own 707; the Dave Brubeck Quartet plays.'
-    n: '[[w.johnson-white-house-diary]], 110–12 (Lady Bird Johnson''s account; Hoover "never goes to affairs of this sort"). See [[cal.1964-04-14.middle-east]]. Names: Johnson, Lady Bird Johnson, Hussein, Warren, Ball, Duke, Hoover.'
+    n: '[[w.johnson-white-house-diary]], 110–12 (Lady Bird Johnson''s account; Hoover "never goes to affairs of this sort"). After [[cal.1964-04-14.consumers|the Food and Home Fair]]: the fair, the Senate Ladies'' luncheon, then the guests upstairs "A little before 8" (109–10). See [[cal.1964-04-14.middle-east]]. Names: Johnson, Lady Bird Johnson, Hussein, Warren, Ball, Duke, Hoover.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:hussein-ibn-talal, name:warren-earl, name:ball-george-w, name:duke-angier-b, name:hoover-j-edgar]
   - id: cal.1964-04-14.china-leadership
     when: Apr. 14
@@ -3786,8 +3806,10 @@ entries:
     date: '1964-04-14'
     thread: china-leadership
     also: [soviet-union]
+    follows:
+      - cal.1964-04-14.china-leadership-4
     c: Wu Lengxi 吴冷西 telephones Yang Shangkun 杨尚昆 on the telegram of greetings for Khrushchev's birthday.
-    n: '[[w.yang-shangkun-riji]], II, 368 (Apr. 14, 1964). The words: 吴冷西来电话，关于祝贺赫生日电报问题 (II, 368). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wu Lengxi, Yang Shangkun, Khrushchev. Check: Wu''s place: the diary has him call from Changsha on Apr. 13.'
+    n: '[[w.yang-shangkun-riji]], II, 368 (Apr. 14, 1964). The words: 吴冷西来电话，关于祝贺赫生日电报问题 (II, 368). After [[cal.1964-04-14.china-leadership-4|the evening report on Ke Qingshi''s illness]]: the diary writes the call after the evening''s report and before "办公到2时睡" (II, 368). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wu Lengxi, Yang Shangkun, Khrushchev. Check: Wu''s place: the diary has him call from Changsha on Apr. 13.'
     src:
       c: d34dc327
       rows:
@@ -4092,8 +4114,10 @@ entries:
     date: '1964-04-15'
     place: peking
     thread: china-leadership
+    follows:
+      - cal.1964-04-15.china-leadership-9
     c: Peking 北京. Tian Jiaying 田家英, leaving the next day, with Yang Shangkun 杨尚昆.
-    n: '[[w.yang-shangkun-riji]], II, 369 (Apr. 15, 1964). The words: 田家英同志明天出发，来谈话。2时回家睡 (II, 369). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 369 (Apr. 15, 1964). The words: 田家英同志明天出发，来谈话。2时回家睡 (II, 369). After [[cal.1964-04-15.china-leadership-9|the report of the comrades from Shanghai]]: the diary writes the talk after the 8 p.m. meeting, the report to Mao and Deng and the Shanghai comrades'' report, and before going home at 2 (II, 369). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
     src:
       c: b7f21415
       rows:
@@ -4290,6 +4314,8 @@ entries:
     date: '1964-04-16'
     place: washington
     thread: program
+    follows:
+      - cal.1964-04-16.white-house
     c: 'The White House, dinner. Barbara Ward (Lady Jackson), staying on the third floor writing memoranda and speech material, and Dr. Willis Hurst with the Johnsons. Lady Jackson: the money saved and men put out of work by McNamara''s base closings might serve a pilot program in urban renewal, a model city; automation can be a blessing. Johnson listens.'
     n: '[[w.johnson-white-house-diary]], 112–13 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson, McNamara.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:mcnamara-robert-s]
@@ -4329,6 +4355,8 @@ entries:
     place: changsha
     thread: china-leadership
     also: [congo]
+    follows:
+      - cal.1964-04-16.china-leadership-3
     c: 'Mao, Changsha, evening: talks with Zhou Enlai, who has brought guests from Beijing, then with them: Antoine, special envoy of Congo (Brazzaville), and Léonard Mitudidi, Politburo member of the African Solidarity Party of Congo (Léopoldville).{1} The oppressor alone is low; Lumumba died for lack of an army; no army, no state power, no independence, no freedom, no equality.{2} China sees their cause as its own, a duty to support it.{3}'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 16, 1964. [[w.zhou-enlai-nianpu-1949]], II, 635 (Apr. 16, 1964: Zhou flies with Antoine and Mitudidi to Changsha; in the evening talks with Mao, then accompanies him in receiving the Congolese guests; Beijing again next day); [[w.zhou-enlai-waijiao-huodong]], 402 (Apr. 16, 1964; 晚8时, 长沙, 陪同毛泽东主席接见); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 331–332 (Apr. 16, 1964; Mao, receiving the special envoy of Congo (Brazzaville), Mabundi? Antoine (马布恩古·安托万), and a member of the Politburo of Congo (Léopoldville)''s African Solidarity Party, Mikedi (米都迪): we can aid each other; you help us as we help you; your opposing imperialism there and weakening one part of imperialism is good for the world''s peoples; we do not take your affairs as yours but as ours; we make no distinction of Asian, African, Latin American or European, so long as they are revolutionary; we have a duty to support you, and you have a right to our support; if the Chinese people did not support you they would be on the side of imperialism, not true Marxist-Leninists but selfish nationalists). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Antoine, Léonard Mitudidi, Lumumba. Check: Antoine''s surname (the Chinese gives only Andoine).'
     src:
@@ -4374,6 +4402,8 @@ entries:
       - peking
       - changsha
     thread: china-leadership
+    follows:
+      - cal.1964-04-16.china-leadership-3
     c: Yang Shangkun 杨尚昆 and Zhou Enlai 周恩来, at Changsha 长沙, by telephone.
     n: '[[w.yang-shangkun-riji]], II, 369 (Apr. 16, 1964). The words: 与总理(在长沙)通话 (II, 369). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
     src:
@@ -4603,6 +4633,8 @@ entries:
     time: 1964-04-17T13:00Z
     place: peking
     thread: china-leadership
+    follows:
+      - cal.1964-04-17.china-leadership
     c: Peking 北京, Liu Shaoqi's 刘少奇, 9 to 10 p.m. Zhou Enlai 周恩来 reports on his journey to Changsha 长沙 and Shanghai 上海; Yang Shangkun 杨尚昆 there.
     n: '[[w.yang-shangkun-riji]], II, 369 (Apr. 17, 1964). The words: 9时到10时在少奇同志处，周汇报去长沙、上海情况 (II, 369). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Zhou Enlai, Yang Shangkun.'
     src:
@@ -4845,6 +4877,8 @@ entries:
     date: '1964-04-18'
     place: washington
     thread: civil-rights-bill
+    follows:
+      - cal.1964-04-18.civil-rights-bill-2
     c: 'Robert Kennedy, asked by a reporter after the meeting at Justice whether he feels as he did in the fall, when he would have dropped the Equal Employment Opportunity Commission if passage needed it: "I haven''t changed my mind."'
     n: '[[w.purdum-idea-whose-time-has-2014]], 263. See [[cal.1964-04-18.civil-rights-bill-2]]. Names: Kennedy.'
     src:
@@ -4856,6 +4890,8 @@ entries:
     when: Apr. 18
     date: '1964-04-18'
     thread: civil-rights-bill
+    follows:
+      - cal.1964-04-18.civil-rights-bill-3
     c: 'Ellender, on Robert Kennedy''s "I haven''t changed my mind": glad that Kennedy is ready to drop Title VII; he hopes he may drop other titles too.'
     n: '[[w.purdum-idea-whose-time-has-2014]], 263. See [[cal.1964-04-18.civil-rights-bill-3]]. Names: Ellender, Kennedy.'
     src:
@@ -4867,6 +4903,8 @@ entries:
     when: Apr. 18
     date: '1964-04-18'
     thread: civil-rights-bill
+    follows:
+      - cal.1964-04-18.civil-rights-bill-3
     c: 'Two hours after Robert Kennedy''s remark, asked by reporters, the Justice Department clarifies it: Kennedy, "I am for Title VII as it stands." Humphrey: "We are not going to take out Title VII."'
     n: '[[w.purdum-idea-whose-time-has-2014]], 263–64. To check: [*New York Times*, Apr. 19, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/19/issue.html) (cited by [[w.purdum-idea-whose-time-has-2014]], 362). See [[cal.1964-04-18.civil-rights-bill-3]]. Names: Kennedy, Humphrey. Check: the day of Humphrey''s words.'
     src:
@@ -5498,6 +5536,8 @@ entries:
       - peking
       - shanghai
     thread: china-leadership
+    follows:
+      - cal.1964-04-20.china-leadership-6
     c: 'Yang Shangkun 杨尚昆 and Shanghai 上海 by telephone: Ke Qingshi''s 柯庆施 operation has gone well.'
     n: '[[w.yang-shangkun-riji]], II, 370 (Apr. 20, 1964). The words: 晚间处理文电，与上海通电话，柯老手术进行很好 (II, 370). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Ke Qingshi.'
     src:
@@ -6148,6 +6188,8 @@ entries:
     place: chicago
     thread: program
     also: [democratic-party]
+    follows:
+      - cal.1964-04-23.medicare
     c: 'Chicago, McCormick Place, the Democratic Club of Cook County''s dinner. Johnson: "we have been called upon—are you listening?—to build a great society of the highest order."{1} The phrase''s first public use; the speech Moyers''s.{2}'
     n: 'Remarks in Chicago at a Fundraising Dinner of the Democratic Club of Cook County, [1963–64 Pub. Papers 527](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=611) (Apr. 23, 1964). [[w.white-making-of-the-president-1965]], 390 (the first use in public; the speech Moyers''s); [[w.cohen-american-pharaoh]], 315. See [[cal.1964-03-02.program]]. Names: Johnson, Moyers, Daley.'
     src:
@@ -6645,6 +6687,8 @@ entries:
     time_approx: true
     place: washington
     thread: succession
+    follows:
+      - cal.1964-04-25.succession
     c: 'The White House, lunch after 2 p.m. Johnson with Truman, Dobie and the editors Walker Stone and Bill Steven; Lynda Bird and a friend. Truman on the decision to use the bomb: told it would end the war in days, he asked Marshall and Bradley the cost of an invasion, 200,000 to 250,000 lives; "there was nothing to do but drop it." His hard decisions all made the same way, and he sleeps. Dobie reports Truman as saying, "Lyndon Johnson may be the greatest President since Lincoln," from the railroad settlement.'
     n: '[[w.johnson-white-house-diary]], 124 (Lady Bird Johnson''s account; the Lincoln remark is Dobie''s report). Names: Johnson, Truman, Marshall, Bradley.'
     tags: [name:johnson-lyndon-b, name:truman-harry-s, name:marshall-george-c, name:bradley-omar-n]
@@ -6653,6 +6697,8 @@ entries:
     date: '1964-04-25'
     place: washington
     thread: succession
+    follows:
+      - cal.1964-04-25.succession-2
     c: The Gridiron Dinner, Washington. Johnson attends in white tie, a stag dinner; Dobie goes with Walker Stone.
     n: '[[w.johnson-white-house-diary]], 124–25 (Lady Bird Johnson''s account; she records only that he goes). Names: Johnson.'
     tags: [name:johnson-lyndon-b]
@@ -6872,6 +6918,8 @@ entries:
     date: '1964-04-26'
     thread: china
     also: [africa]
+    follows:
+      - cal.1964-04-26.africa
     c: 'China establishes diplomatic relations with the United Republic of Tanganyika and Zanzibar. The editors'' note: that day Tanganyika and Zanzibar formed a united republic, renamed the United Republic of Tanzania on Oct. 29 of the same year.'
     n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 333–334 (Apr. 26, 1964); [[w.friedman-shadow-cold-war]], 123 (China endorses Tanganyika''s merger with revolutionary Zanzibar in early 1964). Check: the book gives only that the diplomatic relations are established; no document or day of their establishment other than Apr. 26 is given.'
     src:
@@ -7013,16 +7061,20 @@ entries:
     date: '1964-04-27'
     place: washington
     thread: white-house
+    follows:
+      - cal.1964-04-27.south-asia
     c: 'Georgetown. Mrs. Johnson asks Mrs. Kennedy to attend the meeting of the Committee for the Preservation of the White House and the tea on May 7. Mrs. Kennedy: "I cannot return to the White House"; she asks Mrs. Johnson to tell them she sends her best wishes. Mrs. Johnson shows her the East Room drapery fabric, chosen last summer from Boudin.'
-    n: '[[w.johnson-white-house-diary]], 125–27 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Jacqueline Kennedy.'
+    n: '[[w.johnson-white-house-diary]], 125–27 (Lady Bird Johnson''s account). After [[cal.1964-04-27.south-asia|the coffee with Mrs. Gandhi at 11]]: lunch with Jane Engelhard, then "Later in the day" to Mrs. Kennedy''s (125). Names: Lady Bird Johnson, Jacqueline Kennedy.'
     tags: [name:johnson-lady-bird, name:kennedy-jacqueline]
   - id: cal.1964-04-27.labor
     when: Apr. 27
     date: '1964-04-27'
     place: washington
     thread: labor
+    follows:
+      - cal.1964-04-27.white-house
     c: The White House. Johnson's impromptu reception for labor newspaper editors, nominally stag; Johnson sends for Mrs. Johnson because some of the editors are women.
-    n: '[[w.johnson-white-house-diary]], 127 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
+    n: '[[w.johnson-white-house-diary]], 127 (Lady Bird Johnson''s account). After [[cal.1964-04-27.white-house|the call on Mrs. Kennedy]]: "I returned to the White House just in time for one of Lyndon''s instant receptions" (127). Names: Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
   - id: cal.1964-04-27.civil-rights-bill
     when: Apr. 27
@@ -8556,16 +8608,20 @@ entries:
     date: '1964-04-30'
     place: washington
     thread: japan-and-korea-far-east
+    follows:
+      - cal.1964-04-30.white-house
     c: The White House, Blue Room. Mrs. Johnson, at the State Department's request, receives eleven visiting Japanese Governors and their wives; Duke and Mrs. Ball for the department.
-    n: '[[w.johnson-white-house-diary]], 130 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Duke.'
+    n: '[[w.johnson-white-house-diary]], 130 (Lady Bird Johnson''s account). After [[cal.1964-04-30.white-house|the Congressional Club''s breakfast]]: "The first big event of the day" (128), then "The next event of the day was a reception in the Blue Room" (130). Names: Lady Bird Johnson, Duke.'
     tags: [name:johnson-lady-bird, name:duke-angier-b]
   - id: cal.1964-04-30.democratic-party
     when: Apr. 30
     date: '1964-04-30'
     place: washington
     thread: democratic-party
+    follows:
+      - cal.1964-04-30.japan-and-korea-far-east
     c: 'The Sheraton Park, evening. Johnson addresses the Democratic Women''s Conference, 3,000, Margaret Price introducing him; jokes, then women in government jobs: "I promise this tonight not because you need jobs but because the country needs you." Mrs. Johnson takes a bow.'
-    n: '[[w.johnson-white-house-diary]], 130 (Lady Bird Johnson''s account). Names: Johnson, Lady Bird Johnson.'
+    n: '[[w.johnson-white-house-diary]], 130 (Lady Bird Johnson''s account). After [[cal.1964-04-30.japan-and-korea-far-east|the reception for the Japanese Governors]]: "Finally Lyndon and I and Jack Valenti sat down to dinner. Later we returned to the Sheraton Park" (130). Names: Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
   - id: cal.1964-04.civil-rights-organizations
     when: Apr., mid

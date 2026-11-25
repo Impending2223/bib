@@ -154,6 +154,33 @@ entries:
     c: 'Sihanouk to the two Geneva co-chairmen and other heads of government, by letter: a new, enlarged conference on Laos, Thailand, South Vietnam and Burma in it.'
     n: '[[w.guan-vietnamese-communists-relations-with]], 174. Names: Sihanouk.'
     tags: [polity:cambodia, name:norodom-sihanouk, ok:fields-place]
+  - id: cal.1961-01-01.soviet-union
+    when: Jan. 1
+    date: '1961-01-01'
+    time: 1961-01-01T07:00Z
+    time_approx: true
+    place: palm-beach
+    thread: soviet-union
+    c: Merriman Smith of UPI and Arrowsmith of the AP bring Khrushchev's greeting to Salinger at the Palm Beach Country Club, about 2 a.m. He does not wake the President-elect. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 62 ("at about 2 a.m. New Year''s morning"; Smith of UPI, Arrowsmith of the AP). See [[cal.1960-12-31.soviet-union]]. Names: Salinger, Khrushchev.'
+    tags: [name:salinger-pierre, name:khrushchev-nikita-s]
+    time_zone: America/New_York
+  - id: cal.1961-01-01.soviet-union-2
+    when: Jan. 1
+    date: '1961-01-01'
+    place: palm-beach
+    thread: soviet-union
+    follows:
+      - cal.1961-01-01.soviet-union
+    c: Salinger gives Kennedy Khrushchev's greeting in the morning, still in Smith's handwriting. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 62 ("the next morning"). It follows the delivery of 2 a.m. (the same page). See [[cal.1960-12-31.soviet-union]]. Names: Salinger, Kennedy, Khrushchev.'
+    tags: [name:salinger-pierre, name:kennedy-john-f, name:khrushchev-nikita-s]
+    time_zone: America/New_York
+    time_range:
+      - 1961-01-01T11:00Z
+      - 1961-01-01T17:00Z
+    time_band: morning
+    range_basis: record
   - id: cal.1961-01-02.laos
     when: Jan. 2–3
     date: '1961-01-02'
@@ -937,6 +964,8 @@ entries:
     when: Jan. 4
     date: '1961-01-04'
     thread: laos
+    follows:
+      - cal.1961-01-04.laos-2
     c: After the SEATO Council's meeting, its secretary general, Pote Sarasin of Thailand, says publicly there is no proof that North Vietnamese troops have intervened in Laos.
     n: '[[w.watson-into-the-missile-age]], 655. To check: *New York Times*, [Jan. 5](https://timesmachine.nytimes.com/timesmachine/1961/01/05/issue.html), [Jan. 11](https://timesmachine.nytimes.com/timesmachine/1961/01/11/issue.html), and [Jan. 12, 1961](https://timesmachine.nytimes.com/timesmachine/1961/01/12/issue.html) (cited by [[w.watson-into-the-missile-age]], 655 n.153). See [[cal.1961-01-04.laos-2]]. Names: Sarasin.'
     tags: [name:sarasin-pote]
@@ -1406,6 +1435,8 @@ entries:
       - moulmein
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1961-01-05.china-leadership-2
     c: Moulmein. Zhou Enlai flies from Rangoon with Ne Win and his wife and arrives; more than 100,000 line the streets.
     n: '[[w.zhou-enlai-waijiao-huodong]], 300 (Jan. 5, 1961; 上午). See [[cal.1961-01-02.china-leadership-2]]. Names: Zhou Enlai, Ne Win.'
     src:
@@ -1424,6 +1455,8 @@ entries:
     place: moulmein
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1961-01-05.china-leadership-3
     c: Moulmein. Zhou Enlai attends the welcoming meeting at the municipal council.
     n: '[[w.zhou-enlai-waijiao-huodong]], 300 (Jan. 5, 1961; 上午); [[w.chen-yi-nianpu]], 853 (Jan. 5, 1961, morning; Chen Yi with Zhou Enlai at the welcoming meeting of Moulmein''s circles at the municipal council). See [[cal.1961-01-02.china-leadership-2]]. Names: Zhou Enlai, Ne Win.'
     src:
@@ -2077,6 +2110,8 @@ entries:
     place: mandalay
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1961-01-07.china-leadership
     c: Mandalay. Zhou Enlai attends the citizens' reception at the city hall.
     n: '[[w.zhou-enlai-waijiao-huodong]], 301 (Jan. 7, 1961; 上午); [[w.chen-yi-nianpu]], 853–854 (Jan. 7, 1961, morning; Chen Yi with Zhou Enlai at Mandalay''s welcoming meeting in the city hall; speaks, praising the city and Burma''s policy of peace and neutrality and urging Asian–African unity against imperialist schemes to divide). See [[cal.1961-01-02.china-leadership-2]]. Names: Zhou Enlai.'
     src:
@@ -2582,6 +2617,8 @@ entries:
     date: '1961-01-09'
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1961-01-09.china-leadership-5
     c: On the plane home, Zhou Enlai with Chen Yi and Zhang Zhixiang decides to form the Oriental Song and Dance Ensemble (formally founded Jan. 13, 1962).
     n: '[[w.zhou-enlai-nianpu-1949]], II, 384 (Jan. 9, 1961). Made public: 1997. Check: The Chen Yi chronology has Chen Yi see Zhou Enlai off at Rangoon''s airport the morning of Jan. 9 and stay in Burma until Jan. 14 ([[w.chen-yi-nianpu]], 854). Names: Zhou Enlai, Chen Yi.'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi, vis:only:prc]
@@ -2591,6 +2628,8 @@ entries:
     place: kunming
     thread: china-leadership
     also: [economy]
+    follows:
+      - cal.1961-01-09.china-leadership-3
     c: 'At Kunming, on the way to see a performance at the military region, Zhou Enlai learns the region is building a national-defense education exhibition hall and tells its chiefs at once: with the State in economic difficulty, no building of halls and offices;{1} as it is built, give it to the locality for use. The building later became the Yunnan provincial museum.{2}'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 384 (Jan. 9, 1961); [[w.zhou-enlai-waijiao-huodong]], 301 (Jan. 9, 1961; 下午, 返抵昆明). Made public: 1993. Names: Zhou Enlai.'
     src:
@@ -2686,6 +2725,8 @@ entries:
     date: '1961-01-09'
     place: kunming
     thread: china-leadership
+    follows:
+      - cal.1961-01-09.china-leadership-3
     c: 'Zhou Enlai 周恩来 telephones Yang Shangkun 杨尚昆 from Kunming 昆明, back there that afternoon: he asks about the work conference; he will be back in Peking only on the 12th.'
     n: '[[w.yang-shangkun-riji]], I, 642 (Jan. 9, 1961). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Yang Shangkun.'
     src:
@@ -3170,6 +3211,8 @@ entries:
     when: Jan. 12
     date: '1961-01-12'
     thread: latin-america
+    follows:
+      - cal.1961-01-12.latin-america-dominican-republic
     c: Eisenhower approves a shipment of arms from the CIA to Dominicans intent on killing Trujillo.{1}
     n: '[[w.reeves-president-kennedy]], 140; [[w.sen-church-alleged-assassination-plots]], 196–97 (the Special Group, Merchant, Gray, Irwin and Dulles, approved "limited supplies of small arms and other material" for dissidents inside the Dominican Republic, the final transport by the dissidents themselves; by Merchant''s notes the Secretary of State told by late afternoon; no evidence any member but Dulles knew the dissidents meant assassination; not Eisenhower''s own approval or a shipment). To check: the Church Committee, *Alleged Assassination Plots Involving Foreign Leaders* (1975), 196–97 (cited by [[w.reeves-president-kennedy]], 140). See [[cal.1961-05-30.latin-america]]. Names: Eisenhower, Trujillo.'
     src:
@@ -3708,7 +3751,7 @@ entries:
     thread: china-leadership
     also: [soviet-union]
     c: 'The Huairen Tang.{1} The Ninth Plenum of the Eighth Central Committee, Mao presiding.{2} Deng Xiaoping on the Moscow conference: the delegation approved, the Statement and the Appeal endorsed.{3} Li Fuchun on the plans for 1960 and 1961;{4} Chen Yun on steel and grain.{5} Agriculture first;{6} building cut;{7} "adjust, consolidate, fill out, raise";{8} rural markets revived;{9} rectification by stages;{10} six regional bureaus of the Center set up.{11} Zhu De and Peng Zhen attend.{12} Liu Shaoqi speaks on the Moscow meeting.{13} The plan runs agriculture, light industry, heavy industry, in that order; capital construction in the budget cut 38 percent, steel up 1.6 percent; private plots from 5 to 7 percent, for twenty years at least.{14} Li''s report, Jan. 14: industrial output in 1960 214 billion yuan; for 1961 coal 436 million tons, iron 27.5 million, steel 19 million.{15} Zhu De, the 18th: farming and light industry first, then heavy; railways and shipping.{16} Mao, closing, the 18th: 1961 a year of investigation and study.{17}'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 14, 1961 (the entry for Jan. 14–18). [[w.zhou-enlai-nianpu-1949]], II, 384–85, Jan. 14–18, 1961 (Zhou present; the plenum''s decisions). [[w.lengxi-shinian-lunzhan-1956-1966]], 442–445 (the plenum on Deng''s report on the Moscow meeting: the meeting the largest, longest, fiercest yet, its result fairly good; the open argument from TASS''s statement of Sept. 9, 1959 to the meeting, fifteen months; the CPSU''s means, cold treatment, watching, pressure, siege, fatigue, and its two trumps, pressure and the majority; Deng''s four gains: a good statement, the lid off, the Marxist-Leninist ranks tempered, consultation to agreement set up between the parties; Wu has the plenum decide to put its strength into home adjustment from 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 13–17, 19–21 (the plenum: Mao''s speech; Li Fuchun''s opinions on the 1961 plan; Deng Xiaoping''s report and the resolution on the Moscow conference; the six regional bureaux); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 502 (Jan. 14–18, 1961; Liu attends the Ninth Plenum: the 1960 plan''s fulfillment and the 1961 plan''s main targets; agriculture as the base and big grain; the capital construction line shortened, heavy industry''s pace somewhat lowered; "adjust, consolidate, fill out, raise" adopted; the Twelve Articles and the rectification of the communes to go deep; Mao on a great wind of investigation and study); [[w.yang-shangkun-riji]], I, 643 (Jan. 14–15, 1961; opened 4 p.m. Jan. 14, Deng Xiaoping and Li Fuchun reporting; note 1: Deng on the Moscow meeting of the parties of Nov. 1960, Li on the 1960 plan''s execution and the 1961 plan''s chief targets; Jan. 15 the groups on the two reports); [[w.deng-xiaoping-nianpu-1904]], III, 1612–1613 (Jan. 14–18, 1961; Deng attends; his report on the Moscow meeting and Li Fuchun''s on the 1960 plan and the 1961 targets adopted; "readjustment, consolidation, filling out and raising standards"; agriculture the base; capital construction cut; the twelve articles carried through; the six regional bureaus approved. Deng''s report, the 14th: the meeting unprecedented in size, length and sharpness; the paper on the whole good and revolutionary; the lid lifted; "unanimity through consultation" established; the struggle paused, not ended); [[w.mao-zedong-zhuan]], V, ch. 67 (Jan. 14–18, the Ninth Plenum at Peking: Deng Xiaoping''s report on the Moscow conference, endorsed; Li Fuchun on the plan of 1960 and the main figures of 1961). [[w.yang-jisheng-mubei]], II, 1173 (the Ninth Plenum of the Eighth Central Committee, Jan. 14–18, 1961, in Peking: "adjust, consolidate, fill out, raise"; the real adjustment begins in the second half of 1961); [[w.dikotter-maos-great-famine]], 122 n.22 (Li Fuchun at the plenum, in the Hunan file of Zhongfa [61] 52: the shortages explained as a socialist economy not developing in a straight line, the Soviet Union too having had falls in grain output); [[w.yang-jisheng-mubei]], II, 1032 (the Ninth Plenum in mid-Jan. announces the policy of adjusting, consolidating, filling out and raising to the whole Party and country, with building cut and the pace adjusted, "on the basis of victories already won"); [[w.yang-jisheng-tiandi-fanfu]], I, 63 (the Ninth Plenum adopts the policy of "adjustment, consolidation, filling out and raising standards"); [[w.peng-zhen-nianpu-1902]], IV, 91–92 (Jan. 14–18, 1961; Peng Zhen attends; Deng''s report on the Moscow meeting adopted; Li Fuchun''s report on the 1960 plan and the main 1961 targets; the eight-character line, "adjust, consolidate, fill out, raise"; capital construction cut, heavy industry slowed, agriculture strengthened; the twelve-article letter carried out; the six regional bureaus (so the page''s note) approved; on the 18th Mao calls for investigation, 1961 a year of investigation; Liu Shaoqi on the Moscow meeting, Chen Yun on markets and grain); [[w.friedman-shadow-cold-war]], 62 (the Ninth Plenum, Jan. 14–18, 1961: the end of the Great Leap Forward, "agriculture as base"); [[w.zhu-de-nianpu-xinbian]], III, 1792 (Jan. 14–18, 1961; Zhu De 朱德 at the Ninth Plenum of the Eighth Central Committee 中共八届九中全会, the Huairen Tang 怀仁堂, Zhongnanhai 中南海: the line of "readjustment, consolidation, filling out and raising standards" 调整、巩固、充实、提高; the plan in the order agriculture, light industry, heavy industry; Deng Xiaoping''s report on the Moscow conference and Li Fuchun''s on the 1960 plan and the main targets of 1961; the "Twelve Articles" to be carried through in the villages); [[w.chen-yun-nianpu-xiuding]], III, 67–68 (Chen Yun at the Ninth Plenum; Li Fuchun''s report; "adjust, consolidate, fill out, raise" approved; agriculture, light industry, heavy industry in that order; capital construction in the budget cut 38 percent, steel up 1.6 percent; private plots from 5 to 7 percent for twenty years at least; pigs chiefly private, private sows allowed; the six regional bureaus approved; Mao calls for investigation and study); [[w.peng-dehuai-nianpu]], 763 (Jan. 14–18, 1961: the Ninth Plenum 中共八届九中全会 at Peking 北京 adopts the policy of "readjustment, consolidation, filling out and raising standards" 调整、巩固、充实、提高; Mao Zedong 毛泽东 speaks several times, for seeking truth from facts and investigation); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 19–46 (Li Fuchun''s report of Jan. 14 to the plenum, "Opinions on arranging the national economic plan for 1961" 《关于安排一九六一年国民经济计划的意见》, printed in full: industrial output in 1960 214 billion yuan, 4 billion over the plan, 26 percent over 1959''s actual figure; for 1961 coal 436 million tons, iron 27.5 million, steel 19 million; industrial output about 231 billion yuan, 8 percent up); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 75–77 (the plenum''s resolution of Jan. 18 on setting up the Center''s bureaus 《关于成立中央局的决议》, printed in full: the Politburo''s decision of 1960 approved; six bureaus, North China, the Northeast, East China, the Central-South, the Southwest and the Northwest, each to build a fairly complete economic system for its region; sent to the provincial and municipal committees'' secretariats and the central departments'' Party groups); [[w.zhu-de-nianpu-xinbian]], III, 1792 (Zhu De); [[w.peng-zhen-nianpu-1902]], IV, 91 (Peng Zhen); [[w.peng-zhen-nianpu-1902]], IV, 92; [[w.chen-yun-nianpu-xiuding]], III, 68; [[w.zhu-de-nianpu-xinbian]], III, 1792 (the order); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 19, 35; [[w.zhu-de-nianpu-xinbian]], III, 1792. Made public: 1996. Check: MacFarquhar has Li Fuchun give his opinions on the first day. Check: Yang Shangkun''s diary has the plenum open at 4 p.m. Jan. 14 ([[w.yang-shangkun-riji]], I, 643); a time field. To check: [[w.bank-china]], 71 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.18a); [[w.mao-zedong-sixiang-wan]], 258–59, 265–66 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.36a); [[w.xuexi-lishi-jueyi-zhuanji]], 121 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.36b); [[w.selections-from-china-mainland]], No. 633, 18 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37b); [[w.dangshi-yanjiu]], 21–33 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37d); [[w.xiaozu-huainian-zhou-enlai]], 38 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37e); [[w.dangdai-zhongguo-jingji]], 353–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37f); [[w.peking-review]], No. 4, 1961, 7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40a); [[w.history-of-the-chinese]], 286 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40b); [[w.renqiong-song-renqiong-huiyilu]], 361–62 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40c); [[w.schurmann-ideology-and-organization-in]], 147–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40d); [[w.teiwes-politics-at-maos-court]], passim (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40e); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 434–45 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 17 n.45); [[w.zhongguo-nongye-nianjian-1980]], 34–35 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 17 n.49c); [[w.lardy-chen-yuns-strategy-for]], 174 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 19 n.53); [[w.sino-soviet-dispute]], 207–21, 33–34, 206–207 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57b); [[w.zagoria-sino-soviet-conflict-1956]], 367–69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57c); [[w.gittings-survey-of-the-sino]], 144–53 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57d); Li Fuchun, speech of Jan. 14, 1961, to the Ninth Plenum on the 1961 plan (not published) (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 19 n.55); Deng Xiaoping, report to the Ninth Plenum on the Moscow meeting of the communist and workers'' parties, Jan. 14, 1961 (cited by [[w.yang-shangkun-riji]], I, 643 n.1a); Li Fuchun, speech of Jan. 14, 1961, to the Ninth Plenum on the 1961 plan (not published) (cited by [[w.yang-shangkun-riji]], I, 643 n.1b); Li Fuchun, speech at the Ninth Plenum of the Eighth Central Committee, Jan. 14, 1961 (Zhongfa [61] 52), Hunan Provincial Archives, 186-1-505, pp. 1–28 (cited by [[w.dikotter-maos-great-famine]], 122 n.22); Kenneth Lieberthal, “The Great Leap Forward and the Split in the Yan’an leadership, 1958–1965,” in The Politics of China, ed. Roderick Macfarquhar, 114 (cited by [[w.friedman-shadow-cold-war]], 62 n.4). Names: Mao Zedong, Deng Xiaoping, Li Fuchun, Chen Yun, Liu Shaoqi, Zhu De, Peng Zhen. Check: the communique as printed, *Renmin ribao*, Jan. 21, 1961; the plenum itself secret until then.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 14, 1961 (the entry for Jan. 14–18). [[w.zhou-enlai-nianpu-1949]], II, 384–85, Jan. 14–18, 1961 (Zhou present; the plenum''s decisions). [[w.lengxi-shinian-lunzhan-1956-1966]], 442–445 (the plenum on Deng''s report on the Moscow meeting: the meeting the largest, longest, fiercest yet, its result fairly good; the open argument from TASS''s statement of Sept. 9, 1959 to the meeting, fifteen months; the CPSU''s means, cold treatment, watching, pressure, siege, fatigue, and its two trumps, pressure and the majority; Deng''s four gains: a good statement, the lid off, the Marxist-Leninist ranks tempered, consultation to agreement set up between the parties; Wu has the plenum decide to put its strength into home adjustment from 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 13–17, 19–21 (the plenum: Mao''s speech; Li Fuchun''s opinions on the 1961 plan; Deng Xiaoping''s report and the resolution on the Moscow conference; the six regional bureaux); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 502 (Jan. 14–18, 1961; Liu attends the Ninth Plenum: the 1960 plan''s fulfillment and the 1961 plan''s main targets; agriculture as the base and big grain; the capital construction line shortened, heavy industry''s pace somewhat lowered; "adjust, consolidate, fill out, raise" adopted; the Twelve Articles and the rectification of the communes to go deep; Mao on a great wind of investigation and study); [[w.yang-shangkun-riji]], I, 643 (Jan. 14–15, 1961; opened 4 p.m. Jan. 14, Deng Xiaoping and Li Fuchun reporting; note 1: Deng on the Moscow meeting of the parties of Nov. 1960, Li on the 1960 plan''s execution and the 1961 plan''s chief targets; Jan. 15 the groups on the two reports); [[w.deng-xiaoping-nianpu-1904]], III, 1612–1613 (Jan. 14–18, 1961; Deng attends; his report on the Moscow meeting and Li Fuchun''s on the 1960 plan and the 1961 targets adopted; "readjustment, consolidation, filling out and raising standards"; agriculture the base; capital construction cut; the twelve articles carried through; the six regional bureaus approved. Deng''s report, the 14th: the meeting unprecedented in size, length and sharpness; the paper on the whole good and revolutionary; the lid lifted; "unanimity through consultation" established; the struggle paused, not ended); [[w.mao-zedong-zhuan]], V, ch. 67 (Jan. 14–18, the Ninth Plenum at Peking: Deng Xiaoping''s report on the Moscow conference, endorsed; Li Fuchun on the plan of 1960 and the main figures of 1961). [[w.yang-jisheng-mubei]], II, 1173 (the Ninth Plenum of the Eighth Central Committee, Jan. 14–18, 1961, in Peking: "adjust, consolidate, fill out, raise"; the real adjustment begins in the second half of 1961); [[w.dikotter-maos-great-famine]], 122 n.22 (Li Fuchun at the plenum, in the Hunan file of Zhongfa [61] 52: the shortages explained as a socialist economy not developing in a straight line, the Soviet Union too having had falls in grain output); [[w.yang-jisheng-mubei]], II, 1032 (the Ninth Plenum in mid-Jan. announces the policy of adjusting, consolidating, filling out and raising to the whole Party and country, with building cut and the pace adjusted, "on the basis of victories already won"); [[w.yang-jisheng-tiandi-fanfu]], I, 63 (the Ninth Plenum adopts the policy of "adjustment, consolidation, filling out and raising standards"); [[w.peng-zhen-nianpu-1902]], IV, 91–92 (Jan. 14–18, 1961; Peng Zhen attends; Deng''s report on the Moscow meeting adopted; Li Fuchun''s report on the 1960 plan and the main 1961 targets; the eight-character line, "adjust, consolidate, fill out, raise"; capital construction cut, heavy industry slowed, agriculture strengthened; the twelve-article letter carried out; the six regional bureaus (so the page''s note) approved; on the 18th Mao calls for investigation, 1961 a year of investigation; Liu Shaoqi on the Moscow meeting, Chen Yun on markets and grain); [[w.friedman-shadow-cold-war]], 62 (the Ninth Plenum, Jan. 14–18, 1961: the end of the Great Leap Forward, "agriculture as base"); [[w.zhu-de-nianpu-xinbian]], III, 1792 (Jan. 14–18, 1961; Zhu De 朱德 at the Ninth Plenum of the Eighth Central Committee 中共八届九中全会, the Huairen Tang 怀仁堂, Zhongnanhai 中南海: the line of "readjustment, consolidation, filling out and raising standards" 调整、巩固、充实、提高; the plan in the order agriculture, light industry, heavy industry; Deng Xiaoping''s report on the Moscow conference and Li Fuchun''s on the 1960 plan and the main targets of 1961; the "Twelve Articles" to be carried through in the villages); [[w.chen-yun-nianpu-xiuding]], III, 67–68 (Chen Yun at the Ninth Plenum; Li Fuchun''s report; "adjust, consolidate, fill out, raise" approved; agriculture, light industry, heavy industry in that order; capital construction in the budget cut 38 percent, steel up 1.6 percent; private plots from 5 to 7 percent for twenty years at least; pigs chiefly private, private sows allowed; the six regional bureaus approved; Mao calls for investigation and study); [[w.peng-dehuai-nianpu]], 763 (Jan. 14–18, 1961: the Ninth Plenum 中共八届九中全会 at Peking 北京 adopts the policy of "readjustment, consolidation, filling out and raising standards" 调整、巩固、充实、提高; Mao Zedong 毛泽东 speaks several times, for seeking truth from facts and investigation); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 19–46 (Li Fuchun''s report of Jan. 14 to the plenum, "Opinions on arranging the national economic plan for 1961" 《关于安排一九六一年国民经济计划的意见》, printed in full: industrial output in 1960 214 billion yuan, 4 billion over the plan, 26 percent over 1959''s actual figure; for 1961 coal 436 million tons, iron 27.5 million, steel 19 million; industrial output about 231 billion yuan, 8 percent up); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 75–77 (the plenum''s resolution of Jan. 18 on setting up the Center''s bureaus 《关于成立中央局的决议》, printed in full: the Politburo''s decision of 1960 approved; six bureaus, North China, the Northeast, East China, the Central-South, the Southwest and the Northwest, each to build a fairly complete economic system for its region; sent to the provincial and municipal committees'' secretariats and the central departments'' Party groups); [[w.zhu-de-nianpu-xinbian]], III, 1792 (Zhu De); [[w.peng-zhen-nianpu-1902]], IV, 91 (Peng Zhen); [[w.peng-zhen-nianpu-1902]], IV, 92; [[w.chen-yun-nianpu-xiuding]], III, 68; [[w.zhu-de-nianpu-xinbian]], III, 1792 (the order); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 19, 35; [[w.zhu-de-nianpu-xinbian]], III, 1792; [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 83 (the communiqué of Jan. 20: the plenum Jan. 14–18, held under Mao''s chairmanship); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 83 (the communiqué: Deng''s report on the Moscow meeting heard, the delegation''s work approved); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 85 (the communiqué: agriculture first in 1961); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 85 (the communiqué: basic construction to be shrunk, the pace adjusted); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 86 (the communiqué: the primary rural markets to be revived); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 87 (the communiqué: rectification in the whole country by stages); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 87 (the communiqué: six regional bureaus set up); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 19–20 (Li Fuchun''s report to the plenum, Jan. 14: the 1960 plan''s results, the 1961 plan). Made public: 1996. Check: MacFarquhar has Li Fuchun give his opinions on the first day. Check: Yang Shangkun''s diary has the plenum open at 4 p.m. Jan. 14 ([[w.yang-shangkun-riji]], I, 643); a time field. To check: [[w.bank-china]], 71 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 13 n.18a); [[w.mao-zedong-sixiang-wan]], 258–59, 265–66 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.36a); [[w.xuexi-lishi-jueyi-zhuanji]], 121 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.36b); [[w.selections-from-china-mainland]], No. 633, 18 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37b); [[w.dangshi-yanjiu]], 21–33 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37d); [[w.xiaozu-huainian-zhou-enlai]], 38 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37e); [[w.dangdai-zhongguo-jingji]], 353–61 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.37f); [[w.peking-review]], No. 4, 1961, 7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40a); [[w.history-of-the-chinese]], 286 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40b); [[w.renqiong-song-renqiong-huiyilu]], 361–62 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40c); [[w.schurmann-ideology-and-organization-in]], 147–49 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40d); [[w.teiwes-politics-at-maos-court]], passim (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 16 n.40e); [[w.zhonggong-dangshi-jiaoxue-cankao]], 23, 434–45 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 17 n.45); [[w.zhongguo-nongye-nianjian-1980]], 34–35 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 17 n.49c); [[w.lardy-chen-yuns-strategy-for]], 174 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 19 n.53); [[w.sino-soviet-dispute]], 207–21, 33–34, 206–207 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57b); [[w.zagoria-sino-soviet-conflict-1956]], 367–69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57c); [[w.gittings-survey-of-the-sino]], 144–53 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 21 n.57d); Li Fuchun, speech of Jan. 14, 1961, to the Ninth Plenum on the 1961 plan (not published) (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 19 n.55); Deng Xiaoping, report to the Ninth Plenum on the Moscow meeting of the communist and workers'' parties, Jan. 14, 1961 (cited by [[w.yang-shangkun-riji]], I, 643 n.1a); Li Fuchun, speech of Jan. 14, 1961, to the Ninth Plenum on the 1961 plan (not published) (cited by [[w.yang-shangkun-riji]], I, 643 n.1b); Li Fuchun, speech at the Ninth Plenum of the Eighth Central Committee, Jan. 14, 1961 (Zhongfa [61] 52), Hunan Provincial Archives, 186-1-505, pp. 1–28 (cited by [[w.dikotter-maos-great-famine]], 122 n.22); Kenneth Lieberthal, “The Great Leap Forward and the Split in the Yan’an leadership, 1958–1965,” in The Politics of China, ed. Roderick Macfarquhar, 114 (cited by [[w.friedman-shadow-cold-war]], 62 n.4). Names: Mao Zedong, Deng Xiaoping, Li Fuchun, Chen Yun, Liu Shaoqi, Zhu De, Peng Zhen. Check: the communique as printed, *Renmin ribao*, Jan. 21, 1961; the plenum itself secret until then.'
     src:
       c: 764f10f0
       rows:
@@ -3771,6 +3814,11 @@ entries:
         - 'w.jianguo-yilai-zhongyao-wenxian XIV, 19, 35: 15'
         - 'w.peng-zhen-nianpu-1902 IV, 92: 13, 17'
         - 'w.zhu-de-nianpu-xinbian III, 1792: 12, 14, 16, 17'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 83: 2, 3'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 85: 6, 7'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 86: 9'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 87: 10, 11'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 19–20: 4'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:li-fuchun, name:chen-yun, name:liu-shaoqi, vis:only:prc, name:zhu-de, name:peng-zhen, ok:note-substance]
     variants:
       - unit: '3'
@@ -4243,10 +4291,10 @@ entries:
     date: '1961-01-16'
     place: peking
     thread: china-leadership
-    c: Peking 北京. Peng Zhen 彭真, with Liu Ningyi 刘宁一 and others, at the airport to see off Sharkey 夏基, general secretary of the Australian Communist Party, home by way of Canton.
+    c: Peking 北京. Peng Zhen 彭真, with Liu Ningyi 刘宁一 and others, at the airport to see off Sharkey 夏基, general secretary of the Australian Communist Party, home by way of Guangzhou.
     n: '[[w.peng-zhen-nianpu-1902]], IV, 92. The words: 十六日上午 (IV, 92). Names: Peng Zhen, Liu Ningyi, Sharkey.'
     src:
-      c: 9c815364
+      c: 7ab3ba63
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 92: all'
     tags: [polity:prc, name:peng-zhen, name:liu-ningyi, name:sharkey]
@@ -5096,6 +5144,8 @@ entries:
     when: Jan. 20
     date: '1961-01-20'
     thread: civil-rights-the-executive
+    follows:
+      - cal.1961-01-20.transition-and-staff
     c: The inaugural parade.{1} Kennedy directs Goodwin to find out why the Coast Guard's unit has no Negroes;{2} Goodwin calls the Treasury.{3} By Goodwin's account.{4}
     n: '[[w.schlesinger-robert-kennedy-and-his]], 584; [[w.mann-walls-of-jericho]], 299–300 (the Coast Guard''s unit; Goodwin to Dillon); [[w.wofford-of-kennedys-and-kings]], 99; [[w.odonnell-johnny-we-hardly-knew]], 280 (at the parade, the Coast Guard Academy cadets: Kennedy "noticed that there was not one black face in their ranks"; "one of his first official acts as President was to issue an order to correct that situation"; not Goodwin); [[w.goodwin-remembering-america]], 3–5 (after the parade, in the West Wing corridor: "Did you see the Coast Guard detachment? ... There wasn''t a black face in the entire group. That''s not acceptable. Something ought to be done about it"; Goodwin telephones Dillon, "Tell him I''ll get right on it"; the first black professor at the Academy that summer, four black cadets the next year; not an order to find out why). [[w.reeves-president-kennedy]], 40 (the order to Goodwin). [[w.sorensen-kennedy]], 473 (the parade; the Coast Guard). Check: Wofford has Goodwin convey the order to the Coast Guard, his first call on the White House switchboard (99). Names: Kennedy, Goodwin. Check: Reeves has Goodwin call the commandant (40). Check: Sorensen has Kennedy telephone Dillon, whose department had the Coast Guard, that night (473).'
     src:
@@ -5134,6 +5184,8 @@ entries:
     date: '1961-01-20'
     thread: states-and-cities
     also: [labor-disputes]
+    follows:
+      - cal.1961-01-20.transition-and-staff
     c: Rockefeller, mediating a strike of the New York City tugboat operators, misses the inauguration. His message to Kennedy singles out the inaugural address for praise.
     n: '[[w.smith-on-his-own-terms]], 350. Check: the strike''s days. Names: Rockefeller, Kennedy.'
     src:
@@ -5146,6 +5198,8 @@ entries:
     date: '1961-01-20'
     place: washington
     thread: transition-and-staff
+    follows:
+      - cal.1961-01-20.transition-and-staff
     c: 'The F Street Club, after the inauguration. Admiral and Mrs. Lewis Strauss give a farewell luncheon for the Eisenhowers, the Nixons among the guests. Eisenhower to Nixon at parting: come up to Gettysburg "very soon."'
     n: '[[w.nixon-rn]], 227; [[w.nixon-six-crises]], 417 (Strauss''s luncheon at the F Street Club after the inauguration, the Eisenhowers and the Cabinet there). Names: Strauss, Eisenhower, Nixon.'
     src:
@@ -5158,6 +5212,8 @@ entries:
     when: Jan. 20
     date: '1961-01-20'
     thread: robert-kennedy
+    follows:
+      - cal.1961-01-20.transition-and-staff
     c: 'Inauguration night, at dinner with friends. The President: "I don''t know why people are so mad at me for making Bobby Attorney General. I just wanted to give him some legal experience before he practiced." Afterward Robert Kennedy, fists clenched: "Jack, you shouldn''t have said that about me." The President: "you''ve got to make fun of yourself in politics." Robert Kennedy: "You were making fun of me."'
     n: '[[w.thomas-robert-kennedy]], 110–11 (by Bartlett''s account). Names: Kennedy, Robert Kennedy.'
     src:
@@ -5179,10 +5235,10 @@ entries:
     date: '1961-01-20'
     time: 1961-01-20T08:00Z
     thread: china-leadership
-    c: 'Mao to Tian Jiaying: three investigation groups of seven, led by Chen Boda (Guangdong), Hu Qiaomu (Hunan) and Tian (Zhejiang), each with his 1930 "On Investigation Work";{1} one team to the worst brigade, one to the best, ten to fifteen days;{2} then to report to him at Canton and study industry there a month.{3}'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 20, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 39–40 (the three teams, their leaders and members); [[w.jianguo-yilai-mao-zedong]], XV, 479–480 (Jan. 20, 1961; Mao''s letter to Tian Jiaying, 4 p.m. Jan. 20: ''On investigation work'' to Chen Boda and Hu Qiaomu for revision; three groups, each of six and its leader, formed in three days, all of high level; Tian to Zhejiang, Hu to Hunan, Chen to Guangdong; one team to the worst production team, one to the best, ten to fifteen days; then to Canton to report to him, a month on industry there; the Spring Festival in Guangdong; the letter to be read by all twenty-one; printed from the manuscript); [[w.mao-zedong-zhuan]], V, ch. 67 n.10 (Jan. 20, 4 p.m., the letter to Tian Jiaying on three survey groups, Chen Boda to Guangdong, Hu Qiaomu to Hunan, Tian to Zhejiang, six members each, each split in two, a worst and a best production team, ten to fifteen days, then to Canton to report and a month in the city on industry, two months in all; the groups'' twenty-one members to read the letter). [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 106–107 (the letter printed in full, from *Mao Zedong shuxin xuanji*). Made public: 1983 ([[w.mao-zedong-shuxin-xuanji]], from which [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 106–107 prints it). Check: [[w.yang-jisheng-mubei]], II, 763, prints a photograph of the letter, its caption dated Oct. 20, 1961. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 902 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.1); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 421 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.2a); [[w.bian-mao-zedong-he-tade]], 41–42, 107, 177 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.2b); [[w.mao-zedong-shuxin-xuanji]], 574–75 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.2c); [[w.zhongguo-gongchan-dang-liushi]], 483 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.2d); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 219 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.2e); [[w.xinhua-yuebao]], No. 10, 1992, 77–79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.5a); [[w.hu-qiaomu-wenji]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.5b); [[w.rong-fengyun-renwu-jianwen-lu]], 69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.5c); [[w.jizhi-mao-zedong-yu-hu]], 81–86 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.5d); [[w.weiyuanhui-zhonggong-renming-lu]], 850 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.6b); [[w.institute-whos-who-in-communist]], 271–72 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.6c); [[w.board-whos-who-in-china]], 526–27 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.6d); [[w.1961-nian-guangdong-nongcun]], 62–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.7b); Mao Zedong 毛泽东, letter to Tian Jiaying 田家英 on organizing the survey groups (manuscript 手稿), Jan. 20, 1961, 4 p.m.; in [[w.mao-zedong-wenji]], VIII, 239–240 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.10). Names: Mao Zedong, Tian Jiaying, Chen Boda, Hu Qiaomu.'
+    c: 'Mao to Tian Jiaying: three investigation groups of seven, led by Chen Boda (Guangdong), Hu Qiaomu (Hunan) and Tian (Zhejiang), each with his 1930 "On Investigation Work";{1} one team to the worst brigade, one to the best, ten to fifteen days;{2} then to report to him at Guangzhou and study industry there a month.{3}'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 20, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 39–40 (the three teams, their leaders and members); [[w.jianguo-yilai-mao-zedong]], XV, 479–480 (Jan. 20, 1961; Mao''s letter to Tian Jiaying, 4 p.m. Jan. 20: ''On investigation work'' to Chen Boda and Hu Qiaomu for revision; three groups, each of six and its leader, formed in three days, all of high level; Tian to Zhejiang, Hu to Hunan, Chen to Guangdong; one team to the worst production team, one to the best, ten to fifteen days; then to Guangzhou to report to him, a month on industry there; the Spring Festival in Guangdong; the letter to be read by all twenty-one; printed from the manuscript); [[w.mao-zedong-zhuan]], V, ch. 67 n.10 (Jan. 20, 4 p.m., the letter to Tian Jiaying on three survey groups, Chen Boda to Guangdong, Hu Qiaomu to Hunan, Tian to Zhejiang, six members each, each split in two, a worst and a best production team, ten to fifteen days, then to Guangzhou to report and a month in the city on industry, two months in all; the groups'' twenty-one members to read the letter). [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 106–107 (the letter printed in full, from *Mao Zedong shuxin xuanji*). Made public: 1983 ([[w.mao-zedong-shuxin-xuanji]], from which [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 106–107 prints it). Check: [[w.yang-jisheng-mubei]], II, 763, prints a photograph of the letter, its caption dated Oct. 20, 1961. To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 902 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.1); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 421 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.2a); [[w.bian-mao-zedong-he-tade]], 41–42, 107, 177 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.2b); [[w.mao-zedong-shuxin-xuanji]], 574–75 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.2c); [[w.zhongguo-gongchan-dang-liushi]], 483 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.2d); [[w.chenghua-zhonghua-renmin-gongheguo-zhengzhi]], 219 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 39 n.2e); [[w.xinhua-yuebao]], No. 10, 1992, 77–79 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.5a); [[w.hu-qiaomu-wenji]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.5b); [[w.rong-fengyun-renwu-jianwen-lu]], 69 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.5c); [[w.jizhi-mao-zedong-yu-hu]], 81–86 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.5d); [[w.weiyuanhui-zhonggong-renming-lu]], 850 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.6b); [[w.institute-whos-who-in-communist]], 271–72 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.6c); [[w.board-whos-who-in-china]], 526–27 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.6d); [[w.1961-nian-guangdong-nongcun]], 62–70 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.7b); Mao Zedong 毛泽东, letter to Tian Jiaying 田家英 on organizing the survey groups (manuscript 手稿), Jan. 20, 1961, 4 p.m.; in [[w.mao-zedong-wenji]], VIII, 239–240 (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.10). Names: Mao Zedong, Tian Jiaying, Chen Boda, Hu Qiaomu.'
     src:
-      c: 2a749661
+      c: 5facaf7b
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Jan. 20, 1961: 1, 2, 3'
         - 'w.macfarquhar-origins-of-the-cultural III, 39–40: ?'
@@ -5513,6 +5569,8 @@ entries:
     time: 1961-01-21T15:15Z
     place: washington
     thread: democratic-party
+    follows:
+      - cal.1961-01-21.transition-and-staff-2
     c: 'The White House, 10:15 a.m. Daley and his wife, guests in the presidential box at the inauguration, the first visitors of Kennedy''s presidency but Truman. Daley: "strictly social."'
     n: '[[w.cohen-american-pharaoh]], 280; [[w.odonnell-johnny-we-hardly-knew]], 283 (Daley, after Truman, with his wife and six children, posed with the President, "the only favor asked for by the mayor of Chicago"; not "strictly social"). Names: Daley, John F. Kennedy, Truman.'
     src:
@@ -5546,6 +5604,8 @@ entries:
     date: '1961-01-21'
     thread: press-and-broadcasting
     also: [farm]
+    follows:
+      - cal.1961-01-21.farm
     c: Salinger's first briefing as Press Secretary, on the order doubling the surplus food ration. An Agriculture specialist gives the cost as $36 million a month, $9 for each of four million beneficiaries; two hours later he finds the $9 is for a family of four, and Salinger gives the press $9 million. By Salinger's account.
     n: '[[w.salinger-with-kennedy]], 124. See [[cal.1961-01-21.farm]]. Names: Salinger.'
     tags: [name:salinger-pierre]
@@ -6273,6 +6333,9 @@ entries:
     date: '1961-01-24'
     place: washington
     thread: rules
+    follows:
+      - cal.1961-01-24.congress
+      - cal.1961-01.rules
     c: 'The White House, the afternoon after the leaders'' breakfast. Kennedy has Rayburn back and asks him to put off the Rules Committee vote from Jan. 25 to Jan. 31. Rayburn, reluctant, agrees. Kennedy to O''Brien: "We can''t lose this one, Larry. The ball game is over if we do." By O''Brien''s account.'
     n: '[[w.obrien-no-final-victories]], 105–06. See [[cal.1961-01.rules]]. Names: Kennedy, Rayburn, O''Brien.'
     src:
@@ -6455,6 +6518,8 @@ entries:
     place: washington
     thread: press-and-broadcasting
     also: [soviet-union, testing, congo, foreign-aid, cuba]
+    follows:
+      - cal.1961-01-25.press-and-broadcasting-2
     c: 'First presidential press conference carried live, from the State Department auditorium.{1} Announces the Soviet release of the two surviving RB-47 fliers.{2} The Geneva test ban negotiations, due early in February, to be put off to late March for a clear American position;{3} McCloy''s panel of experts under Fisk of the Bell Laboratories to recommend it.{4} The American contribution to relieve the famine in the Congo much increased: more corn meal and dry milk, rice, and an airlift of a thousand tons of food, seeds and hospital supplies from African nations; the Congo''s emergency needs from surplus stocks to be met in full.{5} Relations with Cuba: none being considered; the concern is with such movements "seized by external forces" and turned to an ideology "alien to this hemisphere."{6}'
     n: 'News Conference, [1961 Pub. Papers 8](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=66). The film is at the JFK Library (K–J Adm. II.K). [[w.sorensen-kennedy]], 541 (the RB-47 fliers'' release announced); [[w.salinger-with-kennedy]], 138, 140–41 (the first press conference, the first on live television, in the State Department auditorium; the top story the release of Olmstead and McKone, free five hours; Kennedy afterward: "How many people do you think saw it?"; the audience 60 million; not the other business); [[w.albert-little-giant-1990]], 241 (at his first press conference Kennedy hopes Rayburn will prevail on the Rules Committee: "the responsibility rests with the members of the House. . . . I merely give my view as an interested citizen"; not the broadcast, the place or the rest). [[w.sorensen-kennedy]], 617 (the special group to prepare a new bargaining position and a draft treaty). [[w.sorensen-kennedy]], 636 (the first move, in the first week: the emergency airlift). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 175 (Cuba). To check: [[w.kennedy-and-the-press]]; [[w.watson-expanding-vista]]. Check: Dobrynin has Washington''s official note of Jan. 24 confirming the President''s order that American planes not enter Soviet airspace (44). See [[cal.1961-01-20.soviet-union]]. Names: Kennedy, McCloy.'
     src:
@@ -7533,6 +7598,8 @@ entries:
     when: Jan. 29
     date: '1961-01-29'
     thread: economy
+    follows:
+      - cal.1961-01-29.economy-2
     c: 'Kennedy to Heller, of the reporter''s question: "How did you answer that?" Heller: "Fast talk and rapid gestures." Kennedy: "Good job."'
     n: '[[w.reeves-president-kennedy]], 56. Check: the day; after the briefing, undated. See [[cal.1961-01-29.economy-2]]. Names: Kennedy, Heller.'
     tags: [name:kennedy-john-f, name:heller-walter-w]
@@ -9534,10 +9601,10 @@ entries:
     at: before 1961-03-20
     thread: china-leadership
     also: [china]
-    c: By spring eight cities, from Canton to Harbin, hold more than 50,000 people in the custody and deportation stations.
+    c: By spring eight cities, from Guangzhou to Harbin, hold more than 50,000 people in the custody and deportation stations.
     n: '[[w.dikotter-maos-great-famine]], 237 n.31. Made public: 2010. To check: Reports from the State Council and the Ministry of Public Security, Feb. 6, June 5 and Nov. 10, 1961, Hubei Provincial Archives, SZ34-5-15, pp. 7–8 and 58–61 (cited by [[w.dikotter-maos-great-famine]], 237 n.31). Check: the day.'
     src:
-      c: b81c428e
+      c: 4d580163
       rows:
         - 'w.dikotter-maos-great-famine 237: all'
         - 'via w.dikotter-maos-great-famine 237 n.31: all'
@@ -9567,10 +9634,10 @@ entries:
     place: canton
     thread: china-leadership
     also: [china]
-    c: A detailed investigation by the Canton People's Congress finds up to forty transfer prices for one type of metal bar; in the iron and steel industry many prices charged run 50 per cent above the state's, some ten times.
+    c: A detailed investigation by the Guangzhou People's Congress finds up to forty transfer prices for one type of metal bar; in the iron and steel industry many prices charged run 50 per cent above the state's, some ten times.
     n: '[[w.dikotter-maos-great-famine]], 160–161. Made public: 2010. To check: Guangzhou Municipal Archives, Mar. 27, June 1 and July 6, 1961, 97-8-173, pp. 45–46 and 52–53 (cited by [[w.dikotter-maos-great-famine]], 161 n.27a); Guangzhou Municipal Archives, 60-1-1, pp. 80 and 105–111 (cited by [[w.dikotter-maos-great-famine]], 161 n.27b). Check: the day.'
     src:
-      c: df5d1d99
+      c: c8b37a8a
       rows:
         - 'w.dikotter-maos-great-famine 160–161: all'
         - 'via w.dikotter-maos-great-famine 161 n.27a: all'
@@ -9674,10 +9741,10 @@ entries:
     at: before 1961-01
     place: canton
     thread: china
-    c: Around Canton hundreds of fires burn at night in the weeks after the Chinese New Year, many set by farmers demanding a private plot.
+    c: Around Guangzhou hundreds of fires burn at night in the weeks after the Chinese New Year, many set by farmers demanding a private plot.
     n: '[[w.dikotter-maos-great-famine]], 226. To check: Guangdong Provincial Archives, Feb. 3, 1961, 262-1-115, pp. 86–87 (cited by [[w.dikotter-maos-great-famine]], 226 n.20). Check: the year: the file (Feb. 3, 1961) is earlier than the Spring Festival of 1961 (Feb. 15).'
     src:
-      c: 76b3ca7c
+      c: 4b2e2f29
       rows:
         - 'w.dikotter-maos-great-famine 226: all'
         - 'via w.dikotter-maos-great-famine 226 n.20: all'
@@ -9820,10 +9887,10 @@ entries:
     at: before 1961-01-23
     place: guangdong
     thread: china
-    c: Guangdong 广东 farmers hear that Guangzhou is up in arms and Shantou 汕頭 taken, Chiang Kai-shek having invaded; banners wishing the Guomindang long life appear by the roadside ("The Guomindang has reached Dongxi Village on the 14th!"). The rumours reach Hunan 湖南 within days.
+    c: Guangdong 广东 farmers hear that Guangzhou is up in arms and Shantou 汕頭 taken, Chiang Kai-shek having invaded; banners wishing the Kuomintang long life appear by the roadside ("The Guomindang has reached Dongxi Village on the 14th!"). The rumours reach Hunan 湖南 within days.
     n: '[[w.dikotter-maos-great-famine]], 220. To check: Guangdong Provincial Archives, Jan. 23, 1961, 217-1-644, pp. 10–12 and 20 (cited by [[w.dikotter-maos-great-famine]], 220 n.36); Hunan Provincial Archives, Jan. 23, 1961, 146-1-580, p. 54 (cited by [[w.dikotter-maos-great-famine]], 220 n.37). Check: the day. Names: Chiang Kai-shek.'
     src:
-      c: 42fdb381
+      c: a41a1b22
       rows:
         - 'w.dikotter-maos-great-famine 220: all'
         - 'via w.dikotter-maos-great-famine 220 n.36: all'
@@ -10610,10 +10677,10 @@ entries:
     date: 1961-01
     place: canton
     thread: china-leadership
-    c: 'Canton. Lin Biao 林彪 to the Guangzhou Military Region: tell the cadres not to launch struggle sessions against soldiers lightly; even where criticism is due, no political labels, no criticism by name in the open.'
+    c: 'Guangzhou. Lin Biao 林彪 to the Guangzhou Military Region: tell the cadres not to launch struggle sessions against soldiers lightly; even where criticism is due, no political labels, no criticism by name in the open.'
     n: '[[w.teiwes-tragedy-of-lin-biao]], 192. Made public: 1996 ([[w.teiwes-tragedy-of-lin-biao]]). Circulated in China: [[w.gaoju-mao-zedong-sixiang]], 156 (a Red Guard compilation of leaders'' speeches, 1967; cited by [[w.teiwes-tragedy-of-lin-biao]], 192 n.53). To check: [[w.gaoju-mao-zedong-sixiang]], 156 (cited by [[w.teiwes-tragedy-of-lin-biao]], 192 n.53). Names: Lin Biao.'
     src:
-      c: 8fcea815
+      c: 3f90f5d2
       rows:
         - 'w.teiwes-tragedy-of-lin-biao 192: all'
     tags: [polity:prc, name:lin-biao, vis:only:prc]

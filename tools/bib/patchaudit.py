@@ -45,10 +45,14 @@ def load(paths):
 DATE_CHECK = re.compile(r"^Check: the (day|month|date|days)\b")
 
 
-def drops(cur, new, dated=False):
+def drops(cur, new, dated=False, settles=()):
     """What a note's read sources and Checks would lose if `new` replaced `cur` whole (STYLE 1): a stale value written
     over a current base. Cards read (cited with a pinpoint) and "Check:" sentences only. `dated`: the same edit sets a
-    full date (YYYY-MM-DD), so a "Check: the day" it strikes is settled, not lost (the notes pilot, Nov. 13, 2026)."""
+    full date (YYYY-MM-DD), so a "Check: the day" it strikes is settled, not lost (the notes pilot, Nov. 13, 2026).
+    `settles`: the Checks the edit says it answers or rewords (`settles: ['Check: the day of the call.']`, each the
+    sentence as the note has it, or its opening words): those are settled, not lost. Until Nov. 24, 2026 no edit could
+    strike or reword a Check, and three audited patches of that night left answered Checks standing for the merger to
+    strike by hand."""
     import re
     if new is None:
         return []
@@ -58,8 +62,9 @@ def drops(cur, new, dated=False):
     have = {card(m.group(0)) for m in re.finditer(ITEM, new)}
     read = " ; ".join(note_parts(cur)[0])               # the sources read only: a paged item behind "To check:" is
     out = [f"{c} (read)" for c in sorted(pinned(read) - have)]   # not read (the bearing fix, Nov. 18, 2026)
+    told = [str(x).strip() for x in settles or () if str(x).strip().startswith("Check:")]
     out += [f"'{s[:60]}'" for s in sentences(cur) if s.startswith("Check:") and s not in new
-            and not (dated and DATE_CHECK.match(s))]
+            and not (dated and DATE_CHECK.match(s)) and not any(s.startswith(t.rstrip(".")) for t in told)]
     return out
 
 
@@ -91,9 +96,11 @@ def audit(series, paths):
                 if kind == "edit" and series.get(eid) and base == store.rev(series.get(eid)[2]):
                     st = body.get("set") or {}
                     lost = drops(series.get(eid)[2].get("n") or "", st.get("n"),
-                                 dated=bool(re.match(r"^\d{4}-\d\d-\d\d$", str(st.get("date") or ""))))
+                                 dated=bool(re.match(r"^\d{4}-\d\d-\d\d$", str(st.get("date") or ""))),
+                                 settles=store.as_list(body.get("settles")))
                     if lost:
-                        refused.append(f"{name}: edit {eid} would drop what the note now holds: {'; '.join(lost)}")
+                        refused.append(f"{name}: edit {eid} would drop what the note now holds: {'; '.join(lost)}"
+                                       " (a Check the edit answers or rewords is listed in the edit's `settles:`)")
                 if kind == "edit":
                     edits[eid].append((name, sorted((body.get("set") or {}).keys()) + sorted(body.get("unset") or [])))
             elif kind == "add":

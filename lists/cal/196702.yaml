@@ -1454,11 +1454,17 @@ entries:
     time: 1967-02-07T23:00Z
     thread: vietnam
     c: The allies begin a four-day cease-fire for Tet at 7 a.m.; 183 minor and 89 significant violations. Lam Sơn II ends, a combined security operation in Bình Dương from May 23, 1966.
-    n: '[[w.macv-command-history-1967]], 1258. See [[cal.1967-02-09.vietnam]].'
+    n: '[[w.macv-command-history-1967]], 1258. Check: the hour: MACV''s chronology (1258) has 7 a.m.; its text (494) has 0800. See [[cal.1967-02-09.vietnam]].'
     src:
       c: e1036b2a
       rows:
         - 'w.macv-command-history-1967 1258: all'
+    variants:
+      - field: time
+        value: 1967-02-08T00:00Z
+        witness: w.macv-command-history-1967
+        reads: The Tet ceasefire began at 0800 on 8 February
+        at: '494'
   - id: cal.1967-02-08.conservation
     when: Feb. 8
     date: '1967-02-08'
@@ -1561,6 +1567,13 @@ entries:
     c: Peking 北京, the airport. Ye Jianying 叶剑英, with Xiao Hua 萧华, Yang Chengwu 杨成武 and others, sees off the Albanian military delegation 阿尔巴尼亚军事代表团 of Beqir Balluku 巴卢库 and *Qiake* 恰科, leaving Peking for Shanghai 上海.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 958. Names: Ye Jianying, Xiao Hua, Yang Chengwu, Beqir Balluku.'
     tags: [polity:prc, name:ye-jianying, name:beqir-balluku, name:xiao-hua, name:yang-chengwu]
+  - id: cal.1967-02-08.vietnam-air-war-2
+    when: Feb. 8
+    date: '1967-02-08'
+    thread: vietnam-air-war
+    c: The USS *Stoddard*, on surveillance patrol off Hòn Mát Island, fired on by North Vietnamese shore batteries, the first day of the Tet cease-fire.
+    n: '[[w.macv-command-history-1967]], 494 ("was fired upon by NVN shore batteries the same day"). See [[cal.1967-02-08.vietnam-2]].'
+    tags: [ok:fields-time]
   - id: cal.1967-02-09.foreign-aid
     when: Feb. 9
     date: '1967-02-09'
@@ -1579,12 +1592,12 @@ entries:
     when: Feb. 9
     date: '1967-02-09'
     thread: vietnam-air-war
-    c: 'The Tet cease-fire, from 8 a.m. Feb. 8. North Vietnam''s supply effort quickens at once: by noon Feb. 9, 40 junks, 44 logistics craft and a barge headed south near the Sông Giang; an estimated 300 craft enter the Kiến Giang in a day. The *Stoddard* fired on by shore batteries Feb. 8. Sharp asks authority to resume Sea Dragon.'
-    n: '[[w.macv-command-history-1967]], 494–95 (Feb. 10, Sharp adds that trucks are moving; a pilot: "Route 1 looked like the New Jersey Turnpike"). Names: Sharp.'
+    c: 'North Vietnam''s supply effort quickens at once, under the Tet cease-fire: by noon Feb. 9, 40 junks, 44 logistics craft and a barge headed south near the Sông Giang; an estimated 300 craft enter the Kiến Giang in a day. Sharp asks authority to resume Sea Dragon.'
+    n: '[[w.macv-command-history-1967]], 494–95 (Feb. 10, Sharp adds that trucks are moving; a pilot: "Route 1 looked like the New Jersey Turnpike"). Split under R17 and R25b: MACV, 494, gives the cease-fire''s start its own day and hour ("at 0800 on 8 February") and the *Stoddard* fired on its own day ("the same day"); the cease-fire is the entry of Feb. 8 already in the calendar, [[cal.1967-02-08.vietnam-2]], and the *Stoddard* an entry of its own. Names: Sharp.'
     src:
-      c: 155f21de
       rows:
         - 'w.macv-command-history-1967 494–95: all'
+      c: e08a7158
     tags: [name:sharp-u-s-grant]
   - id: cal.1967-02-09.vietnam-2
     when: Feb. 9
@@ -5445,7 +5458,7 @@ entries:
     thread: vietnam-supplemental
     also: [vietnam-congress]
     c: 'The Senate on Clark''s amendment.{1} Russell against: a declaration of war might widen it;{2} repeal the Tonkin Gulf resolution if Congress wants its authority;{3} of 1964, "Personally, at that time I did not contemplate anything of this magnitude";{4} "strongly opposed to any invasion of North Vietnam."{5} Fulbright: repeal "impractical."{6} Cooper: Congress cannot direct the war.{7} Mansfield offers his substitute, Clark''s second amendment revised.{8}'
-    n: '[113 Cong. Rec. 4717](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-4-1.pdf#page=79) (1967); [4723](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-4-1.pdf#page=85); [4727](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-4-1.pdf#page=89); [4766](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-4-1.pdf#page=128) (Senate, Feb. 28, 1967). [[w.gibbons-u-s-government-and]], IV, 588–89; [[w.woods-j-william-fulbright-vietnam]], 145 (Russell: Congress consulted; a concurrent resolution, beyond the veto, to end the Tonkin Gulf resolution); [[w.woods-fulbright]], 443 (Russell: Congress consulted; a concurrent resolution would end the Tonkin resolution). [[w.mann-grand-delusion]], 532 (Russell; Mansfield). Check: Woods (144–45) has Fulbright, in the debate on Clark''s amendment, press Russell (a declaration of war; one million men, two million?), citing 113 Cong. Rec. 6427–29 (Mar. 13), where Fulbright puts in a lieutenant''s letter instead. To check: John Herbers, "Fulbright Backs Vietnam Limit of 500,000 G.I.''s," [*New York Times*, Mar. 1, 1967](https://timesmachine.nytimes.com/timesmachine/1967/03/01/issue.html) (cited by [[w.woods-j-william-fulbright-vietnam]], 145 n.8). See [[cal.1967-02-23.vietnam-supplemental]]. Names: Joseph Clark, Russell, Fulbright, Cooper, Mansfield.'
+    n: '[113 Cong. Rec. 4720](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-4-1.pdf#page=82) (Feb. 28, 1967). [113 Cong. Rec. 4717](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-4-1.pdf#page=79) (1967); [4723](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-4-1.pdf#page=85); [4727](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-4-1.pdf#page=89); [4766](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-4-1.pdf#page=128) (Senate, Feb. 28, 1967). [[w.gibbons-u-s-government-and]], IV, 588–89; [[w.woods-j-william-fulbright-vietnam]], 145 (Russell: Congress consulted; a concurrent resolution, beyond the veto, to end the Tonkin Gulf resolution); [[w.woods-fulbright]], 443 (Russell: Congress consulted; a concurrent resolution would end the Tonkin resolution). [[w.mann-grand-delusion]], 532 (Russell; Mansfield). Check: Woods (144–45) has Fulbright, in the debate on Clark''s amendment, press Russell (a declaration of war; one million men, two million?), citing 113 Cong. Rec. 6427–29 (Mar. 13), where Fulbright puts in a lieutenant''s letter instead. To check: John Herbers, "Fulbright Backs Vietnam Limit of 500,000 G.I.''s," [*New York Times*, Mar. 1, 1967](https://timesmachine.nytimes.com/timesmachine/1967/03/01/issue.html) (cited by [[w.woods-j-william-fulbright-vietnam]], 145 n.8). See [[cal.1967-02-23.vietnam-supplemental]]. Names: Joseph Clark, Russell, Fulbright, Cooper, Mansfield.'
     src:
       c: 7c06df3c
       rows:
@@ -5464,6 +5477,7 @@ entries:
         - 'w.woods-j-william-fulbright-vietnam 145: 3'
         - 'via x.1967-02-28.russell-in-the-senate-feb-28: 3'
         - 'w.woods-fulbright 443: ?'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-4-1.pdf#page=82: 4'
     tags: [name:clark-joseph-s, name:russell-richard-b, name:fulbright-j-william, name:cooper-john-sherman, name:mansfield-mike]
     time_range:
       - 1967-02-28T19:00Z
@@ -5984,7 +5998,7 @@ entries:
     date: '1967-02-28'
     thread: china-leadership
     also: [china]
-    c: Zhou Enlai talks with the leaders of the Guangdong committee and the Canton Military Region and announces that the Canton Military Region and the Guangdong Military District will form a military control over the province, in two teams, one for the Cultural Revolution and one for business. The same day he talks with Yunnan officials and rebels on military control of Yunnan.
+    c: Zhou Enlai talks with the leaders of the Guangdong committee and the Guangzhou Military Region and announces that the Guangzhou Military Region and the Guangdong Military District will form a military control over the province, in two teams, one for the Cultural Revolution and one for business. The same day he talks with Yunnan officials and rebels on military control of Yunnan.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 129 (Feb. 28, 1967). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-02.china-leadership

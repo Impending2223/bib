@@ -24,7 +24,7 @@ Every calendar entry has:
 
 What each source stands for (the owner, Oct. 23, 2026): a source cited stands for the whole of `c` unless a parenthetical, a label or its place says otherwise ("[[w.x]], 123 (the vote)"). A source read that does not bear out a claim is no cite for it: the claim takes "Check:" or goes. Sources read come first, with their pinpoints (a page, a document, a note: a number, or the place linked); works not yet read stand behind "To check:". A work with no card yet gets one first: `./bib works new`. Claim maps (`src`; a part of the line is named by a cut stored in it, `{3}`: `tools/bib/cuts.py`), witnesses (`sources/witnesses/`, readers' new ones in `inbox/witnesses/`), variants: `notes/guide/brief.md` and the reader's brief, R35–R43.
 
-**Spans and events** (the owner, Oct. 20 and 28, 2026): an entry is an event-day; two or three days good, a week the limit; never several events in one entry (an announcement and the act, hearings and the vote, a note and its reply). One event touching several threads is one entry, `thread:` its chief one, `also:` the rest.
+**Spans and events** (the owner, Oct. 20 and 28, 2026): an entry is an event-day; two or three days good, a week the limit; never several events in one entry (an announcement and the act, hearings and the vote, a note and its reply). One event touching several threads is one entry, `thread:` its chief one, `also:` the rest. The day's order: where one entry of a day comes after another (a reply after the statement it answers), `follows:` on the later one (the reader's brief, R25c; the owner, Nov. 24, 2026: "put them together, read them, and ask yourself 'what goes after what?'").
 
 **Bibliography notes.** One or two fragments: what the book is, whose voice, what to read it for. Not reviews; no side labels. Most entries need none.
 
@@ -133,6 +133,7 @@ The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026
 - write the thread index by hand, or `s:` on calendar entries;
 - edit `published.yaml` by hand;
 - push to `main` with errors from `./bib check`.
+- write a Drive file id, a file's name or size, or anything else about a copy, into a card's note or an entry's note: the site prints both. A copy's id goes in the work's book-check file or `notes/drive-cards-2026-11-25.tsv` (Nov. 24, 2026: an inventory run put Drive ids into 36 cards' notes and they reached the site).
 - hard-wrap a Markdown file: a paragraph or a list item is one line (the owner, Nov. 5, 2026: "unwrap them all, fix the scripts"; `notes/guide/entries.md`; `tools/bib/mdwrap.py`); every brief for an agent that writes a `.md` says so.
 
 ## Topic guides (`notes/guide/`; read the one your task touches)

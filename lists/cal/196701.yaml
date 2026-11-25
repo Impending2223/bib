@@ -151,6 +151,8 @@ entries:
     place: shanghai
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1967-01-01.china-leadership-10
     c: About 5 a.m. Chen Pixian calls the leaders of Shanghai's major mass organizations to an urgent meeting; Wang Hongwen represents the Workers' General Headquarters and Xu Jingxian the Shanghai Party Committee Agencies Revolutionary Rebel Liaison Post. The meeting orders the Kunshan petitioners to withdraw and drafts an open letter to the people of Shanghai.
     n: '[[w.macfarquhar-maos-last-revolution]], 164; [[w.yang-jisheng-tiandi-fanfu]], I, 348–349 (Chen Pixian, in uniform as first political commissar of the Shanghai Garrison, tells the committee meeting that Zhou has just rung; from Dec. 30 for 26 hours 26 passenger trains were stopped, over 50,000 passengers could not board and over 50,000 stranded on the way, 38 freight trains stopped and 22 halted, tens of thousands of tons of goods piled up, and Shanghai has only a week''s grain; Xu Jingxian, standing opposite, blames Chen as the real commander behind Cao Diqiu, reads Zhang Chunqiao''s telephone record, and proposes a joint statement drafted by Central Conservatory and Jiaotong University students and agreed by Chen). Time: "at about five in the morning" (164). Made public: 2005. Printed for internal circulation: [[w.shanghai-wenhua-dageming-shihua]] (1992, a typeset manuscript). To check: [[w.pixian-chen-pixian-huiyilu]], 119–120 (cited by [[w.macfarquhar-maos-last-revolution]], 164 n.45); [[w.shanghai-wenhua-dageming-shihua]], I, 226–227 (cited by [[w.macfarquhar-maos-last-revolution]], 164 n.47); Xu Jingxian 徐景賢, *Shinian yi meng* 《十年一夢》 (Shidai guoji chuban youxian gongsi 時代國際出版有限公司), 22, 22–23 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 348 n.39). See [[cal.1967-01-01.china-leadership-2]]. Check: the book''s "about five in the morning" against Zhou''s call a little past three (163). Names: Chen Pixian, Wang Hongwen.'
     src:
@@ -167,6 +169,8 @@ entries:
       - peking
       - shanghai
     thread: china-leadership
+    follows:
+      - cal.1967-01-01.china-leadership-2
     c: 'Before dawn Zhang Chunqiao 張春橋, in Peking, telephones Xu Jingxian 徐景賢 about the stoppage of the railway and tells him of Zhou Enlai''s 周恩來 call to Chen Pixian: "but Chen Pixian''s word may no longer count, so I call you; you can speak at the meeting on the Center''s spirit and do some work."'
     n: '[[w.yang-jisheng-tiandi-fanfu]], I, 347–348. The words: 1月1日凌晨 (I, 347). Made public: [[w.jingxian-shinian-yimeng]], 21 (2004). To check: Xu Jingxian 徐景賢, *Shinian yi meng* 《十年一夢》 (Shidai guoji chuban youxian gongsi 時代國際出版有限公司), 21 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 348 n.38). Names: Zhang Chunqiao, Zhou Enlai, Chen Pixian.'
     src:
@@ -299,12 +303,12 @@ entries:
     when: Jan. 2
     date: '1967-01-02'
     thread: vietnam-air-war
-    c: Air Force F-4C Phantoms down seven MiG-21s, the biggest air battle of the war; MiG kills 34 in all. The New Year's stand-down ends at 7 a.m., 111 violations recorded, 24 significant.
-    n: '[[w.macv-command-history-1967]], 1255.'
+    c: Air Force F-4C Phantoms down seven MiG-21s, the biggest air battle of the war; MiG kills 34 in all.
+    n: '[[w.macv-command-history-1967]], 1255. Split under R25b and R17: the command''s chronology (1255) gives the end of the New Year''s stand-down its own hour, 0700H; it is now an entry.'
     src:
-      c: 1169d585
       rows:
         - 'w.macv-command-history-1967 1255: all'
+      c: 2e617ba5
   - id: cal.1967-01-02.war-opposition
     when: Jan. 2
     date: '1967-01-02'
@@ -453,6 +457,14 @@ entries:
     c: 'Zhou Enlai 周恩来 minutes on Peng Dehuai''s 彭德怀 letter to Mao 毛泽东: read out at the briefing meeting 碰头会; to go to the Chairman, Comrade Lin Biao 林彪 and Comrade Jiang Qing 江青 (who left early) in turn, then to the Peng Dehuai case group''s 彭德怀专案组 files.'
     n: '[[w.peng-dehuai-nianpu]], 801. Made public: 1998. Names: Zhou Enlai, Peng Dehuai, Mao Zedong, Lin Biao, Jiang Qing.'
     tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:peng-dehuai, name:mao-zedong, name:lin-biao, name:jiang-qing, ok:fields-place]
+  - id: cal.1967-01-02.vietnam-air-war-3
+    when: Jan. 2
+    date: '1967-01-02'
+    time: 1967-01-01T23:00Z
+    thread: vietnam-air-war
+    c: The New Year's stand-down ends at 7 a.m., 111 violations recorded, 24 significant.
+    n: '[[w.macv-command-history-1967]], 1255 ("stand-down period ends 0700H": the H zone, UTC+8, Saigon''s clock). See [[cal.1967-01-02.vietnam-air-war-2]].'
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1967-01-03.congress
     when: Jan. 3
     date: '1967-01-03'
@@ -884,8 +896,10 @@ entries:
     when: Jan. 4
     date: '1967-01-04'
     thread: china-leadership
+    follows:
+      - cal.1967-01-04.china-leadership-2
     c: 'Mao, at the pool, calls Zhou Enlai and others and asks him about Jiang Qing''s charge that Tao Zhu "suppressed the masses." Zhou reports Tao''s reception on Dec. 30, 1966 of the "Group to Seize Wang Renzhong in Guangzhou" and says it was no suppression. Mao: do not bring Wang Renzhong to Peking; let him make his self-criticism at Wuhan.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Jan. 4, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 105 (Jan. 4, 1967; Zhou at Mao''s: asked about Jiang Qing''s charge that Tao "suppressed the masses", he reports how Tao received the Canton corps on Dec. 30, 1966: not suppression); [[w.macfarquhar-maos-last-revolution]], 187 ("Later the same day": Zhou Enlai, asked by Mao, denies that Tao Zhu suppressed the masses who came to drag out Wang Renzhong; Tao may have a problem of attitude); [[w.teiwes-tragedy-of-lin-biao]], 70–71 (Mao, at first well disposed to Tao and critical of Jiang Qing''s actions, warns him over his "contradictions among the people" that matters of principle are involved; in the first week of January Jiang Qing, Kang Sheng and Chen Boda turn Mao against him, arguing that Tao, refusing to be questioned by Red Guards, "oppressed the masses"). Made public: 1990. To check: [[w.zhou-enlai-nianpu-1949]], III, 110 (cited by [[w.macfarquhar-maos-last-revolution]], 187 n.29a); [[w.biji-tao-zhu]], 580–582 (cited by [[w.macfarquhar-maos-last-revolution]], 187 n.29b); [[w.yanchi-tao-zhu-zai-wenhua]], 207–211, 214–216, 224–226, 229–234 (cited by [[w.teiwes-tragedy-of-lin-biao]], 71 n.29a); [[w.ye-yonglie-chen-boda]], 348–349, 366 (cited by [[w.teiwes-tragedy-of-lin-biao]], 71 n.29b). Names: Mao Zedong, Zhou Enlai, Jiang Qing, Tao Zhu, Wang Renzhong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Jan. 4, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 105 (Jan. 4, 1967; Zhou at Mao''s: asked about Jiang Qing''s charge that Tao "suppressed the masses", he reports how Tao received the Guangzhou corps on Dec. 30, 1966: not suppression); [[w.macfarquhar-maos-last-revolution]], 187 ("Later the same day": Zhou Enlai, asked by Mao, denies that Tao Zhu suppressed the masses who came to drag out Wang Renzhong; Tao may have a problem of attitude); [[w.teiwes-tragedy-of-lin-biao]], 70–71 (Mao, at first well disposed to Tao and critical of Jiang Qing''s actions, warns him over his "contradictions among the people" that matters of principle are involved; in the first week of January Jiang Qing, Kang Sheng and Chen Boda turn Mao against him, arguing that Tao, refusing to be questioned by Red Guards, "oppressed the masses"). Made public: 1990. To check: [[w.zhou-enlai-nianpu-1949]], III, 110 (cited by [[w.macfarquhar-maos-last-revolution]], 187 n.29a); [[w.biji-tao-zhu]], 580–582 (cited by [[w.macfarquhar-maos-last-revolution]], 187 n.29b); [[w.yanchi-tao-zhu-zai-wenhua]], 207–211, 214–216, 224–226, 229–234 (cited by [[w.teiwes-tragedy-of-lin-biao]], 71 n.29a); [[w.ye-yonglie-chen-boda]], 348–349, 366 (cited by [[w.teiwes-tragedy-of-lin-biao]], 71 n.29b). Names: Mao Zedong, Zhou Enlai, Jiang Qing, Tao Zhu, Wang Renzhong.'
     tags: [name:mao-zedong, name:zhou-enlai, name:jiang-qing, name:tao-zhu, polity:prc, vis:only:prc, name:wang-renzhong]
   - id: cal.1967-01-04.china-leadership-2
     when: Jan. 4
@@ -899,6 +913,8 @@ entries:
     when: Jan. 4
     date: '1967-01-04'
     thread: china-leadership
+    follows:
+      - cal.1967-01-04.china-leadership
     c: 'Zhou Enlai has his secretary tell Kuai Dafu to convey Mao''s view to the "Corps to Canton to seize Wang Renzhong": do not bring Wang to Peking; let him make his self-criticism at Wuhan.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 105 (Jan. 4, 1967, the item after). Made public: 2020. Names: Zhou Enlai, Kuai Dafu, Wang Renzhong, Mao Zedong.'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc, name:kuai-dafu, name:wang-renzhong]
@@ -1034,6 +1050,8 @@ entries:
     when: Jan. 4
     date: '1967-01-04'
     thread: china-leadership
+    follows:
+      - cal.1967-01-04.china-leadership-2
     c: 'At midnight Chen Yi 陈毅, hearing the shout "Down with Tao Zhu" 陶铸, telephones Li Fuchun 李富春 to ask whether it is a decision of the Politburo''s Standing Committee; told it is not, he says in grief and anger that a Vice-Premier, the Party''s fourth man, is named for criticism with no collective decision of the Center: what Party discipline or state law is left?'
     n: '[[w.chen-yi-nianpu]], 1180–1181. The words: 半夜 (1180–1181). Made public: 1995. Names: Chen Yi, Tao Zhu, Li Fuchun.'
     tags: [polity:prc, name:chen-yi, name:tao-zhu, name:li-fuchun, ok:fields-place, vis:only:prc]
@@ -1415,6 +1433,8 @@ entries:
     date: '1967-01-06'
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1967-01-06.china-leadership-15
     c: Zhou Enlai, told that Tsinghua's "Jinggangshan" Red Guards under Kuai Dafu have tricked Wang Guangmei out of Zhongnanhai, sends his secretary Sun Yue to Tsinghua to get her back and telephones Kuai to release her.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 106–107 (Jan. 6, 7, 1967); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 653 (Jan. 6, 1967; the book says Tsinghua rebels falsely claim Liu Shaoqi''s daughter has been crippled in a car accident, trick Wang Guangmei out of Zhongnanhai, detain her and struggle against her; she is later released after Zhou Enlai intervenes); [[w.yang-jisheng-tiandi-fanfu]], II, 692 (Zhou''s four points by telephone to Kuai Dafu: she may make self-criticism, not to be beaten or insulted, to go back after; Sun Yue fetches her). Made public: 1996. Names: Zhou Enlai, Wang Guangmei, Kuai Dafu, Sun Yue.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc, name:kuai-dafu, name:sun-yue, name:wang-guangmei]
@@ -1493,6 +1513,8 @@ entries:
     place: shanghai
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1967-01-06.china-leadership-9
     part_of: cal.1967-01-06.china-leadership-3
     c: 'Order No. 2 of the rally: Chen Pixian is to give a thorough account of how he has opposed the Cultural Revolution in Shanghai.'
     n: '[[w.macfarquhar-maos-last-revolution]], 165. To check: Orders Nos. 1–3 issued by the mass rally in Shanghai''s People''s Square, Jan. 6, 1967, in [[w.shanghai-wenhua-dageming-shihua]], I, 237–238 (cited by [[w.macfarquhar-maos-last-revolution]], 165 n.53). Names: Chen Pixian.'
@@ -1508,6 +1530,8 @@ entries:
     place: shanghai
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1967-01-06.china-leadership-10
     part_of: cal.1967-01-06.china-leadership-3
     c: 'Order No. 3 of the rally: the rally is in favor of "thoroughly reorganizing the municipal party committee".{1}'
     n: '[[w.macfarquhar-maos-last-revolution]], 165. To check: Orders Nos. 1–3 issued by the mass rally in Shanghai''s People''s Square, Jan. 6, 1967, in [[w.shanghai-wenhua-dageming-shihua]], I, 237–238 (cited by [[w.macfarquhar-maos-last-revolution]], 165 n.53). The texts of the three orders approved beforehand by Zhang Chunqiao and Yao Wenyuan (165).'
@@ -1527,6 +1551,8 @@ entries:
     date: '1967-01-06'
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1967-01-06.china-leadership-3
     c: 'Evening. Yao Wenyuan to the party center, Peking: the rally successful and orderly; the municipal committee "has in effect collapsed completely"; the situation excellent.'
     n: '[[w.macfarquhar-maos-last-revolution]], 165. Time: "that evening" (165). Made public: 2006. Printed for internal circulation: [[w.shanghai-wenhua-dageming-shihua]] (1992, a typeset manuscript). To check: Yao Wenyuan''s message to the party center in Beijing, evening of Jan. 6, 1967, in [[w.shanghai-wenhua-dageming-shihua]], I, 239 (cited by [[w.macfarquhar-maos-last-revolution]], 165 n.54). Names: Yao Wenyuan.'
     src:
@@ -1581,6 +1607,8 @@ entries:
     date: '1967-01-06'
     place: peking
     thread: china-leadership
+    follows:
+      - cal.1967-01-06.china-leadership-15
     c: Tsinghua, the West Field, evening. Wang Guangmei 王光美, on the gymnasium's balcony, answers the students' questions point by point and concedes nothing; Yang Jisheng watching.
     n: '[[w.yang-jisheng-tiandi-fanfu]], II, 692. The words: 晚上 (II, 692). Names: Wang Guangmei.'
     src:
@@ -1918,6 +1946,8 @@ entries:
     place: cu-chi
     thread: vietnam-hanoi
     also: [vietnam-operations]
+    follows:
+      - cal.1967-01-08.vietnam
     c: Bến Cát, the Iron Triangle. The Americans, after probes from Jan. 2, split their force into columns toward Bến Súc; one, into An Điền, is fought by forces of the 9th Division and the people of south Bến Cát; the night of Jan. 8 the Liberation Army goes deep into Bến Cát town and attacks its bases.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 254. See [[cal.1967-01-08.vietnam]]. Check: the units; the history calls the operation "Xêđa Phôn" (Cedar Falls).'
     tags: [polity:drv, polity:us]
@@ -2324,6 +2354,7 @@ entries:
     follows:
       - cal.1967-01-10.rules
       - cal.1967-01-10.congress
+      - cal.1967-01-10.congress-2
     c: 'State of the Union, to a joint session, 9:33 p.m.{1} "A time of testing."{2} Asked: social security up 20 percent on the average, the minimum from $44 to $70; age discrimination in employment barred; Head Start for children of three; clean air by "regional airsheds"; fair housing; jury discrimination ended; the draft reformed;{3} wiretapping outlawed but for national security;{4} truth in lending; election reform; a Safe Streets and Crime Control Act, firearms controlled; an East-West trade bill and the consular convention.{5} A 6 percent surcharge on income taxes.{6} Deficit $9.7 billion in fiscal 1967, $8.1 billion in 1968. The Soviets'' antimissile defense near Moscow.{7} Vietnam: "We face more cost, more loss, and more agony";{8} "We will stand firm."{9}'
     n: 'Annual Message to the Congress on the State of the Union, [1967 Pub. Papers 2](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=70) (Jan. 10, 1967). FRUS 1964–68, V, doc. [11](https://history.state.gov/historicaldocuments/frus1964-68v05/d11) (editorial note: the surcharge; Vietnam). [[w.dallek-flawed-giant]], 449–50 (the address on Vietnam); [[w.califano-triumph-and-tragedy-of]], 182–83 (the date chosen for Dirksen''s birthday and the television schedule; no applause for the surcharge; Robert Kennedy''s arms folded at the wiretapping passage; "We face more cost, more loss, and more agony"); [[w.zelizer-fierce-urgency-of-now]], 271 (the 6 percent surcharge to be asked: "slightly more than one-fourth of that tax cut"); [[w.berman-lyndon-johnsons-war]], 26–27 (Westmoreland''s view that the enemy could no longer succeed on the battlefield; "more cost, more loss, and more agony"; the surcharge, 6 percent); [[w.bernstein-guns-or-butter]], 367 (the surcharge, "to last for 2 years or for so long as the unusual expenditures associated with our efforts in Vietnam continue"); [[w.thomas-robert-kennedy]], 330 (all wiretapping and bugging to be banned but to protect national security; in the chamber Kennedy does not applaud, arms crossed); [[w.gibbons-u-s-government-and]], IV, 547 ("a time of testing"); [[w.mann-grand-delusion]], 521 (State of the Union, Jan. 10: "This is a time of testing for our nation"; "We face more cost, more loss, and more agony"; "General Westmoreland reports that the enemy can no longer succeed on the battlefield"); [[w.johnson-white-house-diary]], 471–73 (the evening of the speech: "a quiet, measured speech," the 6 percent surtax, "Let us fight crime" the most applause, "a time of testing," "an hour and nine minutes by my watch"; Fulbright silent, Robert Kennedy "stony-faced"; not the hour of 9:33 or the other proposals). Order: the address to the new Congress in joint session, after it convened and acted on Powell that day ([[cal.1967-01-10.congress-4]]; [[cal.1967-01-10.congress]]). See [[cal.1966-01-12.program]]. Names: Johnson.'
     src:
@@ -2362,6 +2393,7 @@ entries:
     follows:
       - cal.1967-01-10.rules
       - cal.1967-01-10.congress
+      - cal.1967-01-10.congress-2
     c: 'The surcharge proposed in the State of the Union: 6 percent on individual and corporate income taxes, from July 1, for two years or as long as the war''s unusual costs last;{1} some $4.5 billion in the first year. Tax rates still $20 billion a year below those of 1964, by Johnson''s figure.{2}'
     n: 'Annual Message to the Congress on the State of the Union, [1967 Pub. Papers 2](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=70) (Jan. 10, 1967). [[w.zelizer-taxing-america]], 257–58 (the proposal); [[w.bernstein-guns-or-butter]], 367 (6 percent, two years or as long as the war''s unusual costs); [[w.berman-lyndon-johnsons-war]], 27 (6 percent; the war''s cost over $17 billion a year). Order: in the evening''s address, after the Congress convened that day ([[cal.1967-01-10.congress-4]]). To check: [[w.okun-political-economy-of-prosperity]]; [[w.collins-more]]; [[w.president-and-the-council]]. See [[cal.1966-12-31.vietnam]]. Names: Johnson.'
     src:
@@ -2497,6 +2529,8 @@ entries:
     date: '1967-01-10'
     place: washington
     thread: congress
+    follows:
+      - cal.1967-01-10.congress-4
     c: Edward W. Brooke of Massachusetts is seated in the Senate, "the first Negro Senator since Reconstruction days."
     n: '[[w.johnson-white-house-diary]], 472 (Mrs. Johnson''s account). To check: the Congressional Record, Jan. 10, 1967. Names: Brooke, Lady Bird Johnson.'
     tags: [name:brooke-edward-w, name:johnson-lady-bird, state:ma]
@@ -2745,6 +2779,8 @@ entries:
     date: '1967-01-11'
     place: peking
     thread: china-leadership
+    follows:
+      - cal.1967-01-11.china-leadership
     c: 'Peking, Great Hall, Hebei Hall.{1} A Politburo meeting, Zhou Enlai presiding.{2} On the many posters against He Long: Mao has said only that He is to call on people and hear their criticism, not be named in public, nor seized by Red Guards.{3} Xu Xiangqian, Ye Jianying and Zhu De urge the army''s stability.{4} It names Xu head of the All-Army Cultural Revolution Group, Jiang Qing adviser, Xiao Hua and Yang Chengwu among deputies; it passes the message to Shanghai and the Center''s notice against economism (a handful on the capitalist road are inciting wage and welfare demands to turn the struggle aside) and three more papers.{5}'
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Jan. 11, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 109 (Jan. 11, 1967; Zhou at the Politburo meeting: on the big-character posters on He Long, Mao says the Politburo and Standing Committee are not to name him in public but have him call to hear criticism; the Red Guards not to seize him; the meeting passes five papers, the Notice against economism and the congratulation to Shanghai''s rebel bodies among them); [[w.deng-xiaoping-nianpu-1904]], III, 1936 (Jan. 11, 1967; the Politburo meeting decides to cancel the right of Liu Shaoqi, Deng Xiaoping, Tao Zhu, Chen Yun and He Long to attend Politburo meetings; after that Deng is sometimes notified to read in Zhongnanhai the big-character posters put up by the ''rebels''); [[w.mao-zedong-zhuan]], VI, ch. 76 n.15 (Jan. 11 at the Politburo meeting, with Mao attending, Xu Xiangqian, Ye Jianying and Zhu De speak in turn, anxious over the state of the army, and urge that its stability be kept absolutely: the army not like a school, factory or village, ''big democracy'' would bring disorder and paralysis; the more disorder in the localities, the steadier the army must be, n.15). [[w.liu-jixian-ye-jianying-nianpu]], II, 954–955 (Jan. 11, 1967; Ye Jianying 叶剑英 at the Politburo: "the more disorder in the localities, the steadier the army must be"; seven of the thirteen military regions in the movement, and all 157 army schools; the General Logistics Department 总后 paralyzed, the General Political Department 总政 nearly so, the General Staff 总参 in part, the Navy and Air Force too; the Air Force''s command moved into war shelters; the meeting passes the notice against economism and the message to the Shanghai rebel bodies); [[w.chen-yun-nianpu-xiuding]], III, 159 (the Politburo decides that Liu Shaoqi, Deng Xiaoping, Tao Zhu, Chen Yun and He Long are no longer to be told of its meetings); [[w.zhu-de-nianpu-xinbian]], III, 1960 (Jan. 11, 1967; Zhu De 朱德 at the enlarged Politburo meeting 中共中央政治局扩大会议 Lin Biao 林彪 presides over, which adopts the Center''s 中共中央 notice against economism 《中共中央关于反对经济主义的通知》 and other papers and names Xu Xiangqian 徐向前 head of the All-Army Cultural Revolution Group 全军文革小组, Jiang Qing 江青 adviser and Xiao Hua 萧华 and Yang Chengwu 杨成武 deputy heads; Zhu De speaks: the movement has gone so far as to harm production, forgetting "grasp revolution, promote production," a new problem to be solved; armed fighting goes on though long forbidden, even to smashing machines and burning houses, with counter-revolutionaries making trouble among them). Made public: 2013. Check: Zhou''s chronology says Lin Biao presided, at Mao''s proposal; this entry has Zhou presiding. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], VI, ch. 76), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if the 1997 edition of the Zhou chronology ([[w.zhou-enlai-nianpu-1949]]), cited here, prints it. To check: Record of the Politburo meeting 中共中央政治局会议记录, Jan. 11, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.15). Names: Zhou Enlai, Mao Zedong, He Long, Xu Xiangqian, Ye Jianying, Zhu De, Jiang Qing, Xiao Hua, Yang Chengwu.'
     src:
@@ -2784,6 +2820,8 @@ entries:
     date: '1967-01-11'
     place: peking
     thread: china-leadership
+    follows:
+      - cal.1967-01-11.china-leadership-11
     c: Zhou meets the Albanian military delegation led by Balluku, Politburo member, deputy chairman of the Council of Ministers and defense minister.
     n: '[[w.zhou-enlai-waijiao-huodong]], 508 (Jan. 11, 1967; evening; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 143 (Jan. 10–Feb. 10, 1967; Balluku''s military delegation, Jan. 10 to Feb. 10); [[w.liu-jixian-ye-jianying-nianpu]], II, 955 (Jan. 11, 1967; evening; Ye Jianying 叶剑英 with Zhou at the meeting and banquet for the whole delegation). The book names him 巴卢库. Names: Zhou Enlai, Beqir Balluku.'
     src:
@@ -2851,6 +2889,8 @@ entries:
     when: Jan. 11
     date: '1967-01-11'
     thread: china-leadership
+    follows:
+      - cal.1967-01-11.china-leadership-2
     c: 'The Center, the State Council, the Military Commission and the Cultural Revolution Group telegraph their congratulations to the 32 Shanghai rebel bodies: the "Urgent Notice" is "very good," their policy and action wholly correct; the whole country is called to learn from Shanghai''s revolutionary rebels and act together to beat back the bourgeois reactionary line''s new counterattack.'
     n: '[[w.yang-jisheng-tiandi-fanfu]], I, 350, 382; [[w.jian-zhou-enlai]], 564 (on Mao''s instructions the Center, State Council, Military Commission and Group send Shanghai a joint telegram of congratulation). To check: [[w.li-wang-li-fansi-lu]], 794 (cited by [[w.jian-zhou-enlai]], 564 n.84). See [[cal.1967-01-11.china-leadership-2]].'
     src:
@@ -3020,6 +3060,8 @@ entries:
     date: '1967-01-12'
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1967-01-12.china-leadership-5
     c: Two workers of the Workers' General Headquarters' Factory 822 Joint Regiment, in charge of the factory's radio equipment that morning, decide to rebroadcast the telegram at once over the factory's public address system.
     n: '[[w.macfarquhar-maos-last-revolution]], 166. Time: "that morning" (166). To check: [[w.yiyue-fengbao-congkan]], 45 (cited by [[w.macfarquhar-maos-last-revolution]], 166 n.60a). See [[cal.1967-01-12.china-leadership-5]].'
     src:
@@ -3065,6 +3107,8 @@ entries:
     date: '1967-01-12'
     place: shanghai
     thread: china-leadership
+    follows:
+      - cal.1967-01-12.china-leadership-5
     c: People's Square 人民廣場, Shanghai. A rally of 100,000 "to celebrate the Center's telegram and to smash thoroughly the new counterattack of the bourgeois reactionary line." Zhang Chunqiao 張春橋 and Yao Wenyuan 姚文元, in army uniform, appear on the platform and Zhang gives his first speech since returning to Shanghai.
     n: '[[w.yang-jisheng-tiandi-fanfu]], I, 353–354. Names: Zhang Chunqiao, Yao Wenyuan.'
     src:
@@ -3713,6 +3757,8 @@ entries:
     date: '1967-01-16'
     place: peking
     thread: china-leadership
+    follows:
+      - cal.1967-01-16.china-leadership-8
     c: 'Mao presides over an enlarged Standing Committee meeting.{1} Some of our cadres have changed in a dozen years. The left''s seizures of power are good, the right''s not. The left grows quickly: Shanghai''s left workers were a thousand and more in early Nov., a million by early Jan.; let the masses choose new cadres, factory heads and secretaries. Takeover means looking after politics and watching, not business;{2} the army takes radio stations only where the left is not in strength.{3} Not the army alone wins the land now; workers and peasants do, the army helps.{4}'
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Jan. 16, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 111 (Jan. 16, 1967; Zhou at the Center''s liaison meeting where Mao says it is good that Left masses rise to seize power: take over, run affairs only, not the work); [[w.macfarquhar-maos-last-revolution]], 166 (Mao formally approves the seizure of power from the Shanghai Party Committee and the municipal people''s government); [[w.mao-zedong-zhuan]], VI, ch. 76 n.9 (Jan. 16 Mao at the enlarged Standing Committee meeting, n.9: some of our cadres have turned in a dozen years; the left''s seizing power is good, the right''s not; the left grows fast, Shanghai''s left workers early last Nov. a thousand and more, a million early this Jan., with the students the main force; ''before, the army won the realm, now workers and peasants win it themselves, the army helps''; let the masses elect new cadres, factory heads and secretaries, ''takeover, only politics, not the work, the same men do it and we supervise'', which the book says was mostly not done). [[w.jian-zhou-enlai]], 564 ("At a central liaison meeting on January 16," so Chen; Mao: "It is good that the leftist masses have mobilized to seize political power," but "they should only oversee politics and play a supervisory role, and should not manage everyday business"); [[w.liu-jixian-ye-jianying-nianpu]], II, 955 (Jan. 16, 1967; Ye Jianying 叶剑英 at the meeting Mao Zedong 毛泽东 chairs in room 118 of the Great Hall of the People 人民大会堂一一八号, after Zhou''s liaison meeting at the Huairen Hall 怀仁堂: the left''s seizure of power good; takeover, running affairs, not business). Made public: 2013. Check: the book (166) dates Mao''s formal approval of the Shanghai seizure Jan. 16, citing Wang Nianyi (1988), 178; whether it was given at this meeting; if so, Made public: 1988. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], VI, ch. 76), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if the 1997 edition of the Zhou chronology ([[w.zhou-enlai-nianpu-1949]]), cited here, prints it. To check: [[w.nianyi-da-dongluande-niandai]], 178 (cited by [[w.macfarquhar-maos-last-revolution]], 166 n.61); Mao Zedong 毛泽东, speech at the enlarged meeting of the Politburo Standing Committee 中共中央政治局常委扩大会议 (record 讲话记录), Jan. 16, 1967 (cited by [[w.mao-zedong-zhuan]], VI, ch. 76 n.9); [[w.zhou-enlai-nianpu-1949]], III, 113 (cited by [[w.jian-zhou-enlai]], 564 n.87b). Names: Mao Zedong.'
     src:
@@ -4016,6 +4062,8 @@ entries:
     place: washington
     thread: press-and-broadcasting
     also: [congress]
+    follows:
+      - cal.1967-01-17.vietnam-congress
     c: The White House dinner for Humphrey, McCormack and Warren;{1} Johnson's toast, 8:20 p.m., in the State Dining Room.{2} The gossip columns carry Joan Crawford's words to Cathy Douglas at Califano's table; Johnson blames Califano for the leak, then Udall, by Califano's account.{3}
     n: 'The President''s Toast at a Dinner Honoring the Vice President, the Speaker, and the Chief Justice, [1967 Pub. Papers 26](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=94) (Jan. 17, 1967) (the dinner, the hour). [[w.califano-triumph-and-tragedy-of]], 171 (the dinner, "In January 1967"; the columns; the blame); [[w.johnson-white-house-diary]], 474–77 (the dinner for the Vice President, the Speaker and the Chief Justice; Joan Crawford, who had come that afternoon "to discuss the beautification program," in "shocking pink"; Johnson''s toast, "It was the fidelity of men like these that made us free"; not the hour of 8:20, the columns or Califano). To check: President''s Daily Diary, Jan. 17, 1967, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 171 n.11). Check: the days of the columns. Names: Humphrey, McCormack, Warren, Califano, Udall, Johnson.'
     src:
@@ -4460,6 +4508,8 @@ entries:
     when: Jan. 19
     date: '1967-01-19'
     thread: china-leadership
+    follows:
+      - cal.1967-01-19.china-leadership-9
     c: 'Zhou Enlai, seeing Ye Jianying''s report on the enlarged Military Commission meeting of the day (Cultural Revolution Group members attending), and that Jiang Qing and Chen Boda mean to hold a mass meeting of 100,000 that night to struggle against Xiao Hua, telephones Ye: without my order Xiao Hua is not to go to make self-criticism at the meeting.'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 112 (Jan. 19, 1967, the item after); [[w.macfarquhar-maos-last-revolution]], 176 (the enlarged session of the Military Commission meets Jan. 19–20); [[w.yang-jisheng-tiandi-fanfu]], I, 387 (at the Military Commission''s meeting Jiang Qing and Chen Boda charge Xiao Hua 蕭華, head of the General Political Department, with the army''s lagging movement, call him a "bourgeois politician" and order him to make self-criticism that night before the 100,000 at the Workers'' Stadium 工人體育場; Ye Jianying and Nie Rongzhen leave early in protest; Zhou: without my order Xiao Hua does not go; Zhou and Ye go together to Mao and the rally is stopped (the day not given)); [[w.jian-zhou-enlai]], 567 (Zhou intervenes: Xiao Hua need not attend the rally to be denounced); [[w.liu-jixian-ye-jianying-nianpu]], II, 956 (Jan. 19, 1967; after the meeting Ye Jianying 叶剑英 reports it to Zhou Enlai 周恩来; Zhou''s telephone call on Jiang Qing''s 江青 and Chen Boda''s 陈伯达 rally of 100,000 that night: without my order Xiao Hua 萧华 not to go to it). Made public: 2020. To check: [[w.lin-biao-1959-nian]], 171–187 (cited by [[w.macfarquhar-maos-last-revolution]], 176 n.35a); [[w.zedong-jianguo-yilai-mao-zedong]], XII, 190–206 (cited by [[w.macfarquhar-maos-last-revolution]], 176 n.35b); [[w.zhou-enlai-nianpu-1949]], III, 115 (cited by [[w.jian-zhou-enlai]], 567 n.6). Names: Zhou Enlai, Ye Jianying, Xiao Hua, Jiang Qing, Chen Boda.'
     tags: [name:zhou-enlai, name:ye-jianying, name:jiang-qing, name:chen-boda, polity:prc, vis:only:prc, name:xiao-hua]
@@ -4530,6 +4580,8 @@ entries:
     date: '1967-01-19'
     place: peking
     thread: china-leadership
+    follows:
+      - cal.1967-01-19.china-leadership-9
     c: Peking.{1} That night, before Mao's word protecting Xiao Hua 蕭華 is relayed, army rebels raid his house to seize him;{2} he escapes by the back door and hides at Ye Jianying's 葉劍英 home in the Western Hills 西山.{3}
     n: '[[w.yang-jisheng-tiandi-fanfu]], I, 387; [[w.liu-jixian-ye-jianying-nianpu]], II, 956 (Jan. 19, 1967; that night 当晚 rebels of the Peking Military Region''s Zhanyou troupe 北京军区战友文工团 and other units raid Xiao Hua''s 萧华 quarters; he flees by the back door to Ye Jianying''s 叶剑英 residence in the Western Hills 西山). Made public: 2007 ([[w.liu-jixian-ye-jianying-nianpu]], II, 956). Names: Ye Jianying, Mao Zedong.'
     src:
@@ -4748,10 +4800,10 @@ entries:
     date: '1967-01-20'
     place: peking
     thread: china-leadership
-    c: 'Peking, the Jingxi Hotel 京西賓館. The Military Commission''s Standing Committee meets again; the generals, knowing Mao backs Xiao Hua 蕭華, attack the Cultural Revolution Group. Huang Yongsheng 黃永勝, commander of the Canton Military Region: the Group, and Jiang Qing 江青 above all, should listen more to Chairman Mao. Jiang asks where Xiao hid the night before; Ye Jianying 葉劍英 rises: "if there is a crime of harboring, I bear it," warns that whoever throws the army into confusion will come to no good, and bangs the table, injuring his right hand: the "uproar at the Jingxi Hotel" 大鬧京西賓館.'
+    c: 'Peking, the Jingxi Hotel 京西賓館. The Military Commission''s Standing Committee meets again; the generals, knowing Mao backs Xiao Hua 蕭華, attack the Cultural Revolution Group. Huang Yongsheng 黃永勝, commander of the Guangzhou Military Region: the Group, and Jiang Qing 江青 above all, should listen more to Chairman Mao. Jiang asks where Xiao hid the night before; Ye Jianying 葉劍英 rises: "if there is a crime of harboring, I bear it," warns that whoever throws the army into confusion will come to no good, and bangs the table, injuring his right hand: the "uproar at the Jingxi Hotel" 大鬧京西賓館.'
     n: '[[w.yang-jisheng-tiandi-fanfu]], I, 387–388; [[w.jian-zhou-enlai]], 567 (Jan. 20, the army''s leaders at the Jingxi Hotel on whether Xiao Hua should be denounced at a rally, as Jiang Qing and the Group want; Ye Jianying, slamming his palm on a table in the quarrel with Jiang, hurts a finger); [[w.liu-jixian-ye-jianying-nianpu]], II, 956 (Jan. 20, 1967; asked where Xiao Hua had hidden, Ye Jianying 叶剑英 rises and bangs the table: he came to me at midnight, I took him in, "if there is a crime of harboring, I bear it"; the blow breaks a bone of his right hand). Made public: 2009. To check: 一位知情者 (an informed person), 〈讀李曉航文〉, *Jiyi* 《記憶》, no. 21 (Apr. 30, 2009) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 388 n.4); [[w.xu-xiangqian-nianpu]], II, 185 (cited by [[w.jian-zhou-enlai]], 567 n.5b). Names: Huang Yongsheng, Jiang Qing, Ye Jianying, Mao Zedong. Check: the day: Yang has "the next day" after the meeting of Xiao Hua''s summons; an informed person (n.4) says Ye''s blow was aimed at Xu Xiangqian; Yang (I, 426 n.24) gives three accounts of the broken hand: Jan. 29, the Jingxi Hotel with Chen Boda, Huairen Hall.'
     src:
-      c: 4470c851
+      c: 64e033ad
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 387–388: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 388 n.4: all'
@@ -5393,6 +5445,8 @@ entries:
     time: 1967-01-23T10:00Z
     place: xining
     thread: china-leadership
+    follows:
+      - cal.1967-01-23.china-leadership
     c: Xining 西寧. Liu Xianquan 劉賢權, deputy commander of the Lanzhou Military Region and commander of the Qinghai Military District, chairs the District's standing committee on the Center's decision on the army's support of the left (Zhongfa [67] 27 中發〔67〕27號); at 6 p.m. it adopts the line of backing "8.18" and reports to the Lanzhou Military Region, the Center and the Military Commission. Zhao Yongfu 趙永夫, deputy commander, and most cadres reject it.
     n: '[[w.yang-jisheng-tiandi-fanfu]], I, 396. The words: 下午6時 (I, 396). Made public: 1999. To check: *Liu Xianquan jiangjun* 《劉賢權將軍》 (Zhongguo wenlian chubanshe 中國文聯出版社, 1999), 331 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 396 n.25). Names: Liu Xianquan.'
     src:
@@ -5409,6 +5463,8 @@ entries:
     time_approx: true
     place: xining
     thread: china-leadership
+    follows:
+      - cal.1967-01-23.china-leadership-5
     c: Xining 西寧. After the committee's meeting the District's organ cadres form the "Revolutionary Rebel Masses' Headquarters of the Qinghai Military District Organs" 青海省軍區機關革命造反群眾司令部 to undo the backing of "8.18," with Zhao Yongfu's 趙永夫 support; at about 9 p.m. they burst into the District's offices, struggle Liu Xianquan 劉賢權 and tear off his cap badge and collar tabs; Liu is held under house arrest, his telephone cut, his guards and secretaries kept from him.
     n: '[[w.yang-jisheng-tiandi-fanfu]], I, 396. The words: 當晚9時許 (I, 396). Made public: 1999. To check: *Liu Xianquan jiangjun* 《劉賢權將軍》 (Zhongguo wenlian chubanshe 中國文聯出版社, 1999), 331 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 396 n.25); Xian Henghan 冼恒漢, *Fengyu bashi zai* 《風雨八十載》 (electronic ed.) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 396 n.26). See [[cal.1967-01-23.china-leadership-5]]. Names: Liu Xianquan.'
     src:
@@ -5572,6 +5628,8 @@ entries:
     place: peking
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1967-01-24.china-leadership-3
     c: An informal meeting of the top brass draws up a draft order, its wording borrowed in part from the Military Commission's "request for instructions" and in part devised by Lin Biao and the marshals; the Central Cultural Revolution Group fine-tunes its political rhetoric.
     n: '[[w.macfarquhar-maos-last-revolution]], 176; [[w.teiwes-tragedy-of-lin-biao]], 74–75 (after a heated debate at a joint meeting of the Military Commission and the Cultural Revolution Group, the civilians'' reservations drop two of the nine points, leaving seven); [[w.liu-jixian-ye-jianying-nianpu]], II, 957 (Jan. 24, 1967; that night 连夜 Xu, Ye Jianying 叶剑英 and Nie take Lin''s draft of nine articles to the Diaoyutai 钓鱼台 to discuss with the Cultural Revolution Group, Zhou Enlai 周恩来 and Chen Yi 陈毅 taking part; the Group rejects two articles (the movement in the army led by the Party committees; no fighting bodies across systems, trades and units) and accepts seven). Made public: 1993. To check: [[w.lin-biao-1959-nian]], 171–187 (cited by [[w.macfarquhar-maos-last-revolution]], 176 n.35a); [[w.zedong-jianguo-yilai-mao-zedong]], XII, 190–206 (cited by [[w.macfarquhar-maos-last-revolution]], 176 n.35b); [[w.nianyi-da-dongluande-niandai]], 195–198 (cited by [[w.teiwes-tragedy-of-lin-biao]], 75 n.34a); [[w.yunsheng-maojiawan-jishi]], 77–78 (cited by [[w.teiwes-tragedy-of-lin-biao]], 75 n.34b); [[w.ke-wenhua-dageming-zhongde-renmin]], 40–42 (cited by [[w.teiwes-tragedy-of-lin-biao]], 75 n.34c); [[w.hu-changshui-zhongyang-junwei-batiao-mingling]], 53–59 (cited by [[w.teiwes-tragedy-of-lin-biao]], 75 n.34d); a leading Party historian (a meticulous PLA historian of the period), interviews by Teiwes and Sun, as they report them (cited by [[w.teiwes-tragedy-of-lin-biao]], 75 n.34e). See [[cal.1967-01-24.china-leadership-3]]. Names: Lin Biao. Check: the day; between Xu Xiangqian''s visit of Jan. 24 and Lin''s submission of Jan. 25 (176).'
     src:
@@ -5594,7 +5652,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Chen Yi is made to criticize himself at a mass rally called by rebels of the foreign affairs system.
-    n: '[[w.macfarquhar-maos-last-revolution]], 185; [[w.chen-yi-nianpu]], 1181–1182 (Jan. 24, 1967, the Great Hall of the People, the rally of ten thousand of the foreign affairs system''s rebels; on Zhou''s advice Chen Yi reads a "self-examination" Zhou has gone over and revised with him; Zhou then tells the rebels Chen Yi is an old comrade of decades'' work for the Party, to be helped as a comrade and class brother). To check: Qinghua daxue "Guo Da Jiang," "Chen Yi jiancha dahui jilu," mimeograph, Jan. 31, 1967, Schoenhals collection (cited by [[w.macfarquhar-maos-last-revolution]], 185 n.8). Names: Chen Yi.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 185; [[w.chen-yi-nianpu]], 1181–1182 (Jan. 24, 1967, the Great Hall of the People, the rally of ten thousand of the foreign affairs system''s rebels; on Zhou''s advice Chen Yi reads a "self-examination" Zhou has gone over and revised with him; Zhou then tells the rebels Chen Yi is an old comrade of decades'' work for the Party, to be helped as a comrade and class brother). To check: Tsinghua daxue "Guo Da Jiang," "Chen Yi jiancha dahui jilu," mimeograph, Jan. 31, 1967, Schoenhals collection (cited by [[w.macfarquhar-maos-last-revolution]], 185 n.8). Names: Chen Yi.'
     src:
       c: 4cb6c736
       rows:
@@ -5677,6 +5735,8 @@ entries:
     date: '1967-01-24'
     thread: republican-party
     also: [economy]
+    follows:
+      - cal.1967-01-24.economy
     c: 'Halleck, former House minority leader, on the fiscal 1968 budget, $172.4 billion, the largest in history: "guns, butter and a lot of fat."'
     n: '[[w.zelizer-fierce-urgency-of-now]], 271. See [[cal.1967-01-24.economy]]. Names: Halleck. Check: the day.'
     tags: [name:halleck-charles-a]
@@ -5685,6 +5745,8 @@ entries:
     date: '1967-01-24'
     thread: republican-party-congress
     also: [economy]
+    follows:
+      - cal.1967-01-24.economy
     c: 'Dirksen on the budget: Republicans will accept a "reasonable" deficit for Vietnam, but domestic spending, the Great Society above all, will "get a hard look."'
     n: '[[w.zelizer-fierce-urgency-of-now]], 271. See [[cal.1967-01-24.economy]]. Names: Dirksen. Check: the day.'
     tags: [name:dirksen-everett]
@@ -6353,6 +6415,8 @@ entries:
     time_approx: true
     place: washington
     thread: transition-and-staff
+    follows:
+      - cal.1967-01-27.space-2
     c: 'Farewell party upstairs for Secretary of Commerce John Connor, a little before 7 p.m.: the whole Cabinet, a few staff, the Connors'' kin. During Connor''s toast a note is handed to Johnson; he announces the deaths of the three astronauts and leaves for the Situation Room.'
     n: '[[w.johnson-white-house-diary]], 482–83 (Mrs. Johnson''s account). See [[cal.1967-01-27.space-2]]. Names: Connor, Johnson, Lady Bird Johnson.'
     tags: [name:connor-john-t, name:johnson-lyndon-b, name:johnson-lady-bird]
@@ -6592,6 +6656,8 @@ entries:
     date: '1967-01-28'
     thread: china-leadership
     also: [china]
+    follows:
+      - cal.1967-01-28.china-leadership
     c: Night. The printers who receive the Military Commission order from the Commission believe it spurious and refuse to print it until they are shown Mao's original handwritten endorsement.
     n: '[[w.macfarquhar-maos-last-revolution]], 176. Time: "on the night of January 28" (176). Made public: 2001. To check: [[w.chumin-xu-xiangqian-zai-wenge]], 40 (cited by [[w.macfarquhar-maos-last-revolution]], 176 n.38). See [[cal.1967-01-28.china-leadership]]. Names: Mao Zedong.'
     src:
@@ -6738,6 +6804,8 @@ entries:
     when: Jan. 29
     date: '1967-01-29'
     thread: china-leadership
+    follows:
+      - cal.1967-01-29.china-leadership-7
     c: 'The Cultural Revolution Group sends the Fudan University Hongge hui an "extra-urgent telegram": that some heads of the Fudan Red Guards have lately turned the spearhead against Zhang Chunqiao and Yao Wenyuan and against the Group, instead of against the bourgeois reactionary line represented by Chen Pixian and Cao Diqiu, is "wholly wrong." Zhang and the rest put every propaganda machine to work on it.'
     n: '[[w.yang-jisheng-tiandi-fanfu]], I, 355; [[w.dikotter-cultural-revolution]], 131 n.9 (the Cultural Revolution Group''s telegram in support of Zhang Chunqiao, accusing some rebel leaders of having "turned the spearhead of struggle" against him). Made public: 2009. To check: Yan Changgui 閻長貴 and Wang Guangyu 王廣宇, *Wenshi qiuxin ji* (2009), 100 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 355 n.51); [[w.hunter-shanghai-journal]], 232–243 (cited by [[w.dikotter-cultural-revolution]], 131 n.9). See [[cal.1967-01-29.china-leadership-5]]. Names: Zhang Chunqiao, Yao Wenyuan, Chen Pixian, Cao Diqiu.'
     src:
@@ -7610,6 +7678,8 @@ entries:
     when: Jan. 31
     date: '1967-01-31'
     thread: china-leadership
+    follows:
+      - cal.1967-01-31.china-leadership-6
     c: 'Mao reads the Center, State Council and Military Commission telegram to the Xinjiang committee, the Xinjiang Military Region, the Production and Construction Corps and the "Xinjiang Revolutionary Seizure Headquarters": "issue." Stop all armed clashes among the people at once; the armed forces not to fire where there are crowds; no one may storm or seize power at the Military Region''s headquarters or the Corps; the armed conflict in the Shihezi area to await the Center''s investigators.{1}'
     n: '[[w.zedong-mao-zedong-nianpu]], VI, Jan. 31, 1967. [[w.jianguo-yilai-mao-zedong]], XVIII, 455 (Jan. 31, 1967; Mao''s note "Issue as is," Jan. 31, on the draft Zhou sent that day; printed from the manuscript). Made public: 2013. To check: Central Committee, State Council and Military Commission, telegram to the Xinjiang committee, the Xinjiang Military Region, the Production and Construction Corps and the seizure headquarters, draft sent by Zhou Enlai Jan. 31, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 455 n.1). Names: Mao Zedong.'
     src:
@@ -7745,10 +7815,10 @@ entries:
     date: '1967'
     thread: china-leadership
     also: [china]
-    c: Ulanfu, by this year, has lost his PLA and State Council posts too.
+    c: Ulanhu, by this year, has lost his PLA and State Council posts too.
     n: '[[w.macfarquhar-maos-last-revolution]], 43. See [[cal.1966-08-16.china-leadership-3]]. Check: the days.'
     src:
-      c: 74f203e0
+      c: 17bbf08f
       rows:
         - 'w.macfarquhar-maos-last-revolution 43: all'
     tags: [polity:prc]
@@ -8464,10 +8534,10 @@ entries:
     date: '1967'
     thread: china-leadership
     also: [china]
-    c: The center sets up a military control commission in Guangdong, with Huang Yongsheng, commander of the Canton Military Region, as its chairman.
+    c: The center sets up a military control commission in Guangdong, with Huang Yongsheng, commander of the Guangzhou Military Region, as its chairman.
     n: '[[w.macfarquhar-maos-last-revolution]], 178. Made public: 1968. To check: [[w.1966-1967-ccp-documents-of-the]], 389–395 (cited by [[w.macfarquhar-maos-last-revolution]], 178 n.49). Check: the day; the Guangdong military control committee is in being by Apr. 13 ([[cal.1967-04-13.china-leadership]]). Names: Huang Yongsheng.'
     src:
-      c: 6d68c217
+      c: 946c7510
       rows:
         - 'w.macfarquhar-maos-last-revolution 178: all'
     tags: [polity:prc, vis:only:prc, name:huang-yongsheng]
@@ -8633,7 +8703,7 @@ entries:
     thread: china-leadership
     also: [china]
     c: Wuhan. Three big rallies denounce Wang Renzhong.
-    n: '[[w.macfarquhar-maos-last-revolution]], 186 n.21; [[w.yang-jisheng-tiandi-fanfu]], I, 469 (on Jan. 1, 2 and 4 hundreds of thousands of rebel students and workers struggle Wang Renzhong at the Xinhua Road Stadium 新華路體育場, brought back from Canton where the Center had him rest with hepatitis; Zhang Tixue and Zhao Xiu stand with him; a dunce cap; the worker Jiang Shicun 姜詩存 puts his own coat on him). To check: [[w.shaoguang-failure-of-charisma]], 93–94 (cited by [[w.macfarquhar-maos-last-revolution]], 186 n.21). See [[cal.1966-12-25.china-leadership-3]]. Check: the days; the note (186 n.21) says "at the start of 1967". Names: Wang Renzhong.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 186 n.21; [[w.yang-jisheng-tiandi-fanfu]], I, 469 (on Jan. 1, 2 and 4 hundreds of thousands of rebel students and workers struggle Wang Renzhong at the Xinhua Road Stadium 新華路體育場, brought back from Guangzhou where the Center had him rest with hepatitis; Zhang Tixue and Zhao Xiu stand with him; a dunce cap; the worker Jiang Shicun 姜詩存 puts his own coat on him). To check: [[w.shaoguang-failure-of-charisma]], 93–94 (cited by [[w.macfarquhar-maos-last-revolution]], 186 n.21). See [[cal.1966-12-25.china-leadership-3]]. Check: the days; the note (186 n.21) says "at the start of 1967". Names: Wang Renzhong.'
     src:
       c: 89e41588
       rows:

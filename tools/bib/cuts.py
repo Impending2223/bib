@@ -38,6 +38,8 @@ STYLE
     tagged person's name changes) or `kind: correct` (the same edit adds to the note the sentence that names the
     settling record). The comparison is unit by unit: a sentence or clause found word for word in the new line is
     unchanged.
+12. A map's hash (`src.c`) is renewed when an edit changes the line and the map names its parts by number, all of them
+    still in the line (renew; merge.op_edit; tools/claims/renew_hash.py for maps left stale before Nov. 25, 2026).
  7. Two kinds of id (35g, 1): a part's is digits, `3`; a claim's, if the calendar takes atomic claims, `a3`. Only parts
     are marked in a line; the grammars that name them (a row, a ruling's `@`, a variant's `unit`) take both (ID).
 """
@@ -449,6 +451,27 @@ def state(e):
                     if isinstance(v, dict) and v.get("unit") is not None and L in (claims.named_letters(e, v["unit"]) or ()))
         out.append((srcs, rl, vs))
     return out
+
+
+
+def renew(e):
+    """STYLE 12. Write the present line's hash into a map that names no unit by letter, where every part its rows
+    name is still in the line: True where it was written. The hash told a reader that the letters might have moved;
+    numbers do not move (STYLE 6: an edit's line keeps its cuts, merge.op_edit), so an audited edit of the line (R22)
+    leaves such a map good. A map with a lettered row, or a row naming a part the line has lost, stays stale."""
+    src, c = e.get("src"), e.get("c") or ""
+    if not isinstance(src, dict) or src.get("c") == claims.chash(c):
+        return False                         # (a map with no hash, written whole by an `add`, takes one the same way)
+    if any(k == "row" for k, _, _ in stored_letters(e)):
+        return False
+    for r in src.get("rows") or []:
+        p = claims.parse_row(r)
+        if p is None or (claims.NUMBERED.match(p[4]) and claims.parse_target(p[4], e) is None):
+            return False
+    src = dict(src)
+    src["c"] = claims.chash(c)
+    e["src"] = src
+    return True
 
 
 def convert(e):

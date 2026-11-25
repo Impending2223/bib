@@ -1,0 +1,57 @@
+patch: 2026-11-25-sequence-1965-11
+by: 'Claude (Sonnet, sequence pass, November 1965: R25c), Nov. 25, 2026; audited and corrected by Claude (Opus), Nov. 25, 2026 (R33b)'
+ops:
+- follows:
+    id: cal.1965-11-04.china-2
+    add:
+    - cal.1965-11-04.china
+- follows:
+    id: cal.1965-11-09.china-leadership-4
+    add:
+    - cal.1965-11-09.china-leadership-3
+- follows:
+    id: cal.1965-11-10.china-leadership-10
+    add:
+    - cal.1965-11-10.china-leadership
+- follows:
+    id: cal.1965-11-10.china-leadership-11
+    add:
+    - cal.1965-11-10.china-leadership
+- follows:
+    id: cal.1965-11-27.china-leadership
+    add:
+    - cal.1965-11-27.china-leadership-9
+- follows:
+    id: cal.1965-11-27.china-leadership-4
+    add:
+    - cal.1965-11-27.china-leadership
+- follows:
+    id: cal.1965-11-30.china-leadership-14
+    add:
+    - cal.1965-11-30.china-leadership-13
+- follows:
+    id: cal.1965-11-05.china-leadership-7
+    remove:
+    - cal.1965-11-05.china-leadership-6
+    why: 'Yang Shangkun''s diary, II, 685, joins the two in one sentence with a comma: "参加书记处会议到7时，彭真同志已通知我的工作的调动" (at the Secretariat meeting until 7; Peng Zhen has already told me of my transfer). No word puts the telling after the meeting; "已" (already) puts it at the meeting or before it, and Peng Zhen presided at that meeting (Peng Zhen nianpu, IV, 446).'
+- edit:
+    id: cal.1965-11-06.china-leadership-2
+    base: 890ebc76
+    set:
+      time: 1965-11-06T09:30Z
+    unset:
+    - time_range
+    - time_band
+- edit:
+    id: cal.1965-11-19.china-leadership
+    base: 2b2408cb
+    set:
+      time: 1965-11-19T03:00Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1965-11-22.china-leadership
+    base: 454524a9
+    set:
+      time: 1965-11-22T08:45Z
+      time_zone: Asia/Shanghai
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 766 (Nov. 22–23, 1965); [[w.zhou-enlai-waijiao-huodong]], 486 (Nov. 22–23, 1965; Nov. 22, 4:45 p.m., Beijing Hall, Great Hall of the People, the meeting and talks with Kawawa; Nov. 23, 10 a.m., alone, and 4:30 p.m., Building 18, Diaoyutai guesthouse; 5 p.m., with Song Qingling, Kawawa received); [[w.zhonghua-renmin-gongheguo-waijiao]], 71 (Nov. 22–24, 1965; Kawawa''s visit, Nov. 22–24; Song Qingling receives him; Zhou on the Afro-Asian conference, the Japan–ROK treaty, Vietnam and Indochina, Zimbabwe). The time is the first day''s. Made public: 1993. Names: Zhou Enlai, Kawawa, Song Qingling.'

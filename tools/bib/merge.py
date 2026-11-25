@@ -419,6 +419,9 @@ def op_add(series, body, source, report, touched):
         at = [x["id"] for x in sec.entries].index(body["after"]) + 1
     else:
         at = auto_position(sec, e)
+    if isinstance(e.get("src"), dict):           # the map an `add` brings was made on its own line (cuts.py, STYLE 12)
+        from . import cuts as _cuts
+        _cuts.renew(e)
     sec.entries.insert(at, e)
     touched.add(sec)
     report.add("conflict" if dups else "added", eid, f"possible duplicate of {', '.join(dups)}" if dups else f"{lst.abbr} {sec.code or sec.id}")
@@ -482,6 +485,11 @@ def op_edit(series, body, source, report, touched):
     if merged == cur:
         report.add("same", eid)
         return
+    if merged.get("c") != cur.get("c") and "src" not in named and isinstance(cur.get("src"), dict) \
+            and not merged.get("conflict"):
+        from . import claims as _cl, cuts as _cuts
+        if cur["src"].get("c") == _cl.chash(cur.get("c")):    # the map was good before the edit: its numbers hold
+            _cuts.renew(merged)                               # (cuts.py, STYLE 12)
     _replace(sec, cur, merged)
     touched.add(sec)
     if lst.kind == "calendar" and str(merged.get("date")) != str(cur.get("date")) and not merged.get("conflict"):

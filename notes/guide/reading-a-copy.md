@@ -26,7 +26,7 @@ Try these in order.
 
 ### Files whose names mislead
 
-- **The Mao nianpu** (`w.zedong-mao-zedong-nianpu`): Drive id `1ch6UXFFBQiWlpRwvFjUhVyGw-CyDKgxy`, an EPUB of 5.6 MB. Its file name contains "年月目录" ("index by year and month"). That names the EPUB's navigation, not its content. The file is the whole chronology: 123 parts, about 4 million characters, running to 1976 (checked Nov. 24, 2026). It is not "only a table of contents". Fetch it with the curl line below, unzip it, and find the day under its year and month (recipe 6, "An EPUB"); a day is written "7月16日" under the year's heading, so search for the month and day, not the full date.
+- **The Mao nianpu** (`w.zedong-mao-zedong-nianpu`): Drive id `1ch6UXFFBQiWlpRwvFjUhVyGw-CyDKgxy`, an EPUB of 5.6 MB. Until Nov. 24, 2026 its file name contained "年月目录" ("index by year and month"), which named the EPUB's navigation, not its content; the owner took those words out of the name that evening. The EPUB still opens on its index of years and months, so a tool that returns only a file's first pages (the Drive connector's `read_file_content`) shows an index and nothing else. The file is the whole chronology: 123 parts, about 4 million characters, running to 1976 (checked Nov. 24, 2026). It is not "only a table of contents". Fetch it with the curl line below, unzip it, and find the day under its year and month (recipe 6, "An EPUB"); a day is written "7月16日" under the year's heading, so search for the month and day, not the full date.
 - A card's Drive id is in `notes/drive-cards-2026-11-25.tsv` (card, id) where the inventory of Nov. 25 found the file; ids are never written into a card's note, which the site prints.
 
 ## 3. Get the file onto disk, whatever its size
@@ -54,7 +54,7 @@ The PDF page is the printed page plus an offset. The offset differs from volume 
 pdftoppm -f 485 -l 485 -r 60 -png book.pdf probe      # then open probe-485.png with the Read tool
 ```
 
-Yang Shangkun's diary: volume I is printed page plus 6, volume II plus 5. Every page image shows its own printed number, so check each page as you read it. Where an offset from a book-check file does not hold, find the passage by its words instead (recipe 6).
+Yang Shangkun's diary: volume I is printed page plus 6, volume II plus 5 on the pages the auditors of Nov. 24 read (to about p. 390). The offset does not hold through volume II: a reader of Nov. 25 found printed 565 at page 520 of the file, and an auditor the same night found printed 649–664 at the file's page less 45 (the printed number is the file's page plus 45 there). So start from the offset, look at the printed number on the image, and step from there. Every page image shows its own printed number, so check each page as you read it. Where an offset from a book-check file does not hold, find the passage by its words instead (recipe 6).
 
 ## 5. Read one page of a scan
 

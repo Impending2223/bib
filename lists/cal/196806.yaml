@@ -1542,15 +1542,13 @@ entries:
       - 1968-06-05T13:52Z
     time_zone: America/Los_Angeles
   - id: cal.1968-06-05.assassination-12
-    when: June 5, arraignment
+    when: June 5
     date: '1968-06-05'
-    time: 1968-06-05T14:40Z
     place: los-angeles
     thread: assassination
-    c: 'Los Angeles. Mayor Yorty, at a press conference several hours after the arrest, names the suspect: Sirhan Bishara Sirhan, 24, a Jordanian born in Jerusalem, in the Los Angeles area since 1957. Arraigned at 7:40 a.m. on six counts of assault with intent to murder; bail $250,000. Chief Reddin: traced through the revolver and fingerprints from a job application at Hollywood Park; a newspaper article critical of Kennedy and four $100 bills in his pockets. By Witcover''s account.'
-    n: '[[w.witcover-85-days]], 286. See [[cal.1968-06-05.robert-kennedy]]. Names: Yorty, Sirhan.'
+    c: 'Los Angeles. Mayor Yorty, at a press conference several hours after the arrest, names the suspect: Sirhan Bishara Sirhan, 24, a Jordanian born in Jerusalem, in the Los Angeles area since 1957. By Witcover''s account.'
+    n: '[[w.witcover-85-days]], 286. See [[cal.1968-06-05.robert-kennedy]]. Split under R25b and R17: Witcover (286) gives the arraignment its own hour, 7:40 a.m., Pacific time; it and Chief Reddin''s account are now entries. Names: Yorty, Sirhan.'
     tags: [name:yorty-sam, name:sirhan-sirhan-bishara, state:ca, city:los-angeles]
-    time_zone: America/Los_Angeles
   - id: cal.1968-06-05.assassination-13
     when: June 5, notebooks
     date: '1968-06-05'
@@ -1577,6 +1575,26 @@ entries:
     c: 'Good Samaritan, the makeshift press room. Mankiewicz: the physicians "are concerned over his continuing failure to show improvement during the postoperative period"; as of 5 p.m. Kennedy''s condition "extremely critical as to life"; no further regular bulletins until the morning. By Witcover''s account.'
     n: '[[w.witcover-85-days]], 289. Names: Mankiewicz, Robert Kennedy.'
     tags: [name:mankiewicz-frank, name:kennedy-robert-f, state:ca, city:los-angeles]
+  - id: cal.1968-06-05.assassination-16
+    when: June 5
+    date: '1968-06-05'
+    time: 1968-06-05T14:40Z
+    place: los-angeles
+    thread: assassination
+    follows:
+      - cal.1968-06-05.assassination-12
+    c: Los Angeles. Sirhan arraigned at 7:40 a.m. on six counts of assault with intent to murder; bail $250,000. By Witcover's account.
+    n: '[[w.witcover-85-days]], 286 ("quickly arraigned at 7:40 A.M., Pacific time"; next after Yorty''s naming of him, in Witcover''s order). Check: the order. See [[cal.1968-06-05.assassination-12]]. Names: Sirhan.'
+    tags: [name:sirhan-sirhan-bishara, state:ca, city:los-angeles]
+    time_zone: America/Los_Angeles
+  - id: cal.1968-06-05.assassination-17
+    when: June 5
+    date: '1968-06-05'
+    place: los-angeles
+    thread: assassination
+    c: 'Los Angeles. Chief Reddin: Sirhan traced through the revolver and fingerprints from a job application at Hollywood Park; a newspaper article critical of Kennedy and four $100 bills in his pockets. By Witcover''s account.'
+    n: '[[w.witcover-85-days]], 286. Check: the hour and the day of the statement. See [[cal.1968-06-05.assassination-12]]. Names: Sirhan.'
+    tags: [name:sirhan-sirhan-bishara, state:ca, city:los-angeles]
   - id: cal.1968-06-06.europe-and-the-alliance-france
     when: June 6
     date: '1968-06-06'
@@ -6122,8 +6140,8 @@ entries:
     when: June 30
     date: '1968-06-30'
     thread: china-leadership
-    c: Mao Zedong 毛泽东 and others, Chen Yi 陈毅 among them, receive the members of the Mao Zedong Thought cadres' study classes of the army, navy and air force units of the PLA's 中国人民解放军 Jinan 济南, Canton 广州 and Lanzhou 兰州 areas, the workers' delegates and military control committee heads at the national coal industry's conference to "grasp revolution, promote production" 抓革命、促生产, and others.
-    n: '[[w.chen-yi-nianpu]], 1205–1206; [[w.liu-jixian-ye-jianying-nianpu]], II, 977 (June 30, 1968; Ye Jianying 叶剑英 with Mao and others receiving the delegates of the Mao Zedong Thought cadres'' study classes of the Jinan, Canton and Lanzhou military regions'' units and of the national coal conference). Names: Chen Yi, Mao Zedong.'
+    c: Mao Zedong 毛泽东 and others, Chen Yi 陈毅 among them, receive the members of the Mao Zedong Thought cadres' study classes of the army, navy and air force units of the PLA's 中国人民解放军 Jinan 济南, Guangzhou 广州 and Lanzhou 兰州 areas, the workers' delegates and military control committee heads at the national coal industry's conference to "grasp revolution, promote production" 抓革命、促生产, and others.
+    n: '[[w.chen-yi-nianpu]], 1205–1206; [[w.liu-jixian-ye-jianying-nianpu]], II, 977 (June 30, 1968; Ye Jianying 叶剑英 with Mao and others receiving the delegates of the Mao Zedong Thought cadres'' study classes of the Jinan, Guangzhou and Lanzhou military regions'' units and of the national coal conference). Names: Chen Yi, Mao Zedong.'
     tags: [polity:prc, name:chen-yi, name:mao-zedong, ok:fields-place]
   - id: cal.1968-06.china-2
     when: June, by the 13th

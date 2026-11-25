@@ -1,0 +1,135 @@
+# NYT cleanup A: R26a on the entries of the July 3, 1960 passes
+
+One line an entry. The dateline, the paper's time words and whether a page shows are in `dating-a.tsv`. Patch: `inbox/2026-11-25-nyt-cleanup-a.yaml`. Names in Wade-Giles respelled (R19a): one, cal.1960-07-02.china-2.
+
+- cal.1960-05.south-asia: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-06-25.soviet-union-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-06-25.soviet-union-3: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-06-26.china-leadership-4: cite rewritten to the rule's form; a parenthetical kept to say which words the paper bears out; place set to peking by the dateline; a Check sentence that still carries the paper's old parenthetical wording left as it stood, since the patch tool refuses an edit that drops a Check.
+- cal.1960-06-26.soviet-union-3: cite rewritten to the rule's form; place set to moscow by the dateline.
+- cal.1960-06-29.congress: cite rewritten to the rule's form; a parenthetical kept to say which words the paper bears out; place already set, kept.
+- cal.1960-06-30.antisubversion: cite rewritten to the rule's form; place set to philadelphia by the dateline; added to the line: "The four are Angelina Intille, Sadie T. Atkinson, Goldie E. Watson and Thomas Deacon.".
+- cal.1960-06-30.crime-and-hijacking: cite rewritten to the rule's form; place set to sutton-place by the dateline; added to the line: "Some of the 2,000 guests have been questioned.".
+- cal.1960-06-30.europe-and-the-alliance-federal-republic: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-06-30.soviet-union: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-06-30.soviet-union-2: cite rewritten to the rule's form; place set to moscow by the dateline.
+- cal.1960-07-01.africa: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-01.crime-and-hijacking: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-01.cuba: cite rewritten to the rule's form; a parenthetical kept to say which words the paper bears out; place already set, kept; a Check sentence that still carries the paper's old parenthetical wording left as it stood, since the patch tool refuses an edit that drops a Check.
+- cal.1960-07-01.cuba-2: cite rewritten to the rule's form; place set to havana by the dateline; added to the line: "Cuba uses some 26 million barrels a year, the *New York Times* reports.".
+- cal.1960-07-01.cuba-3: cite rewritten to the rule's form; place left unset: two acts in two places, the item places neither the first.
+- cal.1960-07-01.cuba-4: cite rewritten to the rule's form; place set to havana by the dateline.
+- cal.1960-07-01.cyprus: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-01.desegregation-schools: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-01.europe-and-the-alliance-france: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-01.latin-america-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-01.latin-america-3: cite rewritten to the rule's form; place set to santiago by the dateline.
+- cal.1960-07-01.soviet-union: cite rewritten to the rule's form; place left unset: the item places the plane over the Barents Sea, no gazetteer key; added to the line: "The *New York Times* of July 3 reports it missing on a flight from Britain, presumed down north of Norway. An Air Force spokesman at Wiesbaden calls an approach to Soviet territory unlikely. Murray Snyder, Assistant Secretary of Defense for Public Affairs, says there are no overflights."; names added: Snyder.
+- cal.1960-07-01.soviet-union-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-01.soviet-union-3: cite rewritten to the rule's form; place set to moscow by the dateline.
+- cal.1960-07-01.state-and-city-finance: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-01.state-legislatures: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-01.states-and-cities: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.africa: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.africa-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.africa-3: cite rewritten to the rule's form; place left unset: Somalia's act, no place in the item.
+- cal.1960-07-02.africa-4: cite rewritten to the rule's form; place left unset: Pondoland has no gazetteer key.
+- cal.1960-07-02.africa-5: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.africa-6: cite rewritten to the rule's form; place set to dar-es-salaam by the dateline.
+- cal.1960-07-02.china-2: cite rewritten to the rule's form; place set to peking by the dateline; line respelled in Pinyin (R19a, kind: reword).
+- cal.1960-07-02.china-leadership-2: cite rewritten to the rule's form for both items; a parenthetical kept to say which words the paper bears out; place set to peking by the dateline; a Check added: the *Times* (London) count of captured.
+- cal.1960-07-02.confirmations: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.congo: cite rewritten to the rule's form for both items; place set to leopoldville by the dateline; added to the line: "Bayaka and Bakongo fight in Léopoldville from the night of July 1; some 100 jailed, a curfew. Lulua and Baluba fight at Luluabourg."; added to the line: "Ten hurt in Léopoldville; the biggest clash in the morning, at Kasavubu's triumphal tour; the National Security police patrol."; names added: Kasavubu.
+- cal.1960-07-02.congress: cite rewritten to the rule's form; place already set, kept; added to the line: "The report calls secrecy "the first refuge of incompetents."".
+- cal.1960-07-02.congress-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.congress-3: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.congress-4: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.congress-5: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.congress-6: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.conservation: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.crime-and-hijacking: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.crime-and-hijacking-2: cite rewritten to the rule's form; place left unset: the item places the judge at San Martín, no key.
+- cal.1960-07-02.crime-and-hijacking-3: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.cuba: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.cuba-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.cuba-3: cite rewritten to the rule's form; place already set, kept; a Check sentence that still carries the paper's old parenthetical wording left as it stood, since the patch tool refuses an edit that drops a Check.
+- cal.1960-07-02.cuba-4: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.cuba-5: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.cuba-6: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.cuba-7: cite rewritten to the rule's form; place set to moscow by the dateline; added to the line: "Port officials say the *Chernovci* is due in Havana July 3 with 10,000 tons of crude oil.".
+- cal.1960-07-02.defense: cite rewritten to the rule's form; place already set, kept; added to the line: "Murray Snyder, Assistant Secretary of Defense for Public Affairs, says the program expands a downgrading begun in 1958."; names added: Snyder.
+- cal.1960-07-02.defense-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.democratic-party: cite rewritten to the rule's form; place set to los-angeles by the dateline.
+- cal.1960-07-02.democratic-party-2: cite rewritten to the rule's form; place left unset: no dateline.
+- cal.1960-07-02.democratic-party-3: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.desegregation-schools: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.elections-1960-2: cite rewritten to the rule's form; place set to independence-mo by the dateline.
+- cal.1960-07-02.elections-1960-4: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.elections-1960-los-angeles: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.elections-1960-los-angeles-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.elections-1960-nomination: cite rewritten to the rule's form; place set to los-angeles by the dateline.
+- cal.1960-07-02.elections-1960-nomination-10: cite rewritten to the rule's form; place set to washington by the dateline.
+- cal.1960-07-02.elections-1960-nomination-11: cite rewritten to the rule's form; place set to washington by the dateline.
+- cal.1960-07-02.elections-1960-nomination-12: cite rewritten to the rule's form; place set to washington by the dateline.
+- cal.1960-07-02.elections-1960-nomination-13: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.elections-1960-nomination-14: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.elections-1960-nomination-2: cite rewritten to the rule's form; place set to los-angeles by the dateline; added to the line: "The hours: July 4, 1 to 1:30 p.m.; July 9, noon to 12:30 p.m.".
+- cal.1960-07-02.elections-1960-nomination-3: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.elections-1960-nomination-4: cite rewritten to the rule's form; place set to washington by the dateline.
+- cal.1960-07-02.elections-1960-nomination-5: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.elections-1960-nomination-6: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.elections-1960-nomination-7: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.elections-1960-nomination-8: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.elections-1960-nomination-9: cite rewritten to the rule's form; place set to washington by the dateline.
+- cal.1960-07-02.europe-and-the-alliance: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.europe-and-the-alliance-britain: cite rewritten to the rule's form; place left unset: the item places Bevan in Buckinghamshire, no key.
+- cal.1960-07-02.europe-and-the-alliance-britain-2: cite rewritten to the rule's form; place set to london by the dateline; added to the line: "The *New York Times* attributes it to "highly qualified Government sources."".
+- cal.1960-07-02.europe-and-the-alliance-britain-3: cite rewritten to the rule's form; place set to london by the dateline.
+- cal.1960-07-02.europe-and-the-alliance-federal-republic: cite rewritten to the rule's form; place set to bonn by the dateline.
+- cal.1960-07-02.europe-and-the-alliance-france: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.europe-and-the-alliance-france-2: cite rewritten to the rule's form; place left unset: the item places the operation in the Aurès and Hodna mountains, no key.
+- cal.1960-07-02.europe-and-the-alliance-france-3: cite rewritten to the rule's form; place already set, kept; a Check sentence that still carries the paper's old parenthetical wording left as it stood, since the patch tool refuses an edit that drops a Check.
+- cal.1960-07-02.foreign-aid: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.foreign-aid-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.immigration: cite rewritten to the rule's form for both items; place already set, kept; added to the line: "Fong had pleaded for the 4,500; Walter, the House's chief figure on immigration, opposed."; names added: Fong, Walter.
+- cal.1960-07-02.japan: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.japan-2: cite rewritten to the rule's form; place already set, kept; added to the line: "The marchers gather shortly before 3 p.m.".
+- cal.1960-07-02.japan-3: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.latin-america: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.latin-america-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.latin-america-3: cite rewritten to the rule's form for both items; place already set, kept.
+- cal.1960-07-02.latin-america-4: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.latin-america-5: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.latin-america-6: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.latin-america-dominican-republic: cite rewritten to the rule's form; place set to santo-domingo by the dateline.
+- cal.1960-07-02.latin-america-panama: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.latin-america-panama-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.latin-america-panama-3: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.middle-east: cite rewritten to the rule's form for both items; a parenthetical kept to say which words the paper bears out; place already set, kept; added to the line: "He addresses delegates of Jordanian cooperative societies; the Arabs will soon be aware of Nasser's "treacherous falsehood," he says.".
+- cal.1960-07-02.republican-party: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.republican-party-2: cite rewritten to the rule's form; place set to san-francisco by the dateline.
+- cal.1960-07-02.republican-party-3: cite rewritten to the rule's form; place set to san-francisco by the dateline.
+- cal.1960-07-02.republican-party-congress: cite rewritten to the rule's form; place already set, kept; added to the line: "Nixon has no comment."; names added: Nixon.
+- cal.1960-07-02.south-asia: cite rewritten to the rule's form; place set to new-delhi by the dateline.
+- cal.1960-07-02.south-asia-2: cite rewritten to the rule's form; place set to karachi by the dateline.
+- cal.1960-07-02.south-asia-3: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.soviet-union: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.soviet-union-2: cite rewritten to the rule's form; place left unset: a Tass report, no place in the item.
+- cal.1960-07-02.space: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.state-and-city-finance: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.testing: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.testing-2: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.testing-3: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.testing-4: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-02.testing-5: cite rewritten to the rule's form; place left unset: de Gaulle's reply, no place in the item.
+- cal.1960-07-02.testing-6: cite rewritten to the rule's form; place left unset: Macmillan's reply, no place in the item.
+- cal.1960-07-02.voting-rights: cite rewritten to the rule's form; place left unset: the item gives the telegram no place; added to the line: "The Rev. David S. Cunningham, the branch's president, says a committee will meet to decide how much aid is needed."; a Check sentence that still carries the paper's old parenthetical wording left as it stood, since the patch tool refuses an edit that drops a Check.
+- cal.1960-07-02.white-house: cite rewritten to the rule's form for both items; place already set, kept; added to the line: "The round lasts six hours.".
+- cal.1960-07-03.cuba: cite rewritten to the rule's form; place already set, kept.
+- cal.1960-07-03.defense: cite rewritten to the rule's form; place left unset: no dateline.
+- cal.1960-07-03.elections-1960-los-angeles: cite rewritten to the rule's form; place left unset: no dateline.
+- cal.1960-07-03.press-and-broadcasting: cite rewritten to the rule's form; place set to washington by the dateline.
+- cal.1960-07-03.space: cite rewritten to the rule's form; place left unset: no dateline; added to the line: "Elmer R. Kaiser directs the project.".
+- cal.1960-07-02.cuba-11: new entry from a dated act the old parenthetical of another entry reported; place london; the cite in the rule's form.
+- cal.1960-07-01.cuba-6: new entry from a dated act the old parenthetical of another entry reported; place nyc; the cite in the rule's form.
+- cal.1960-07-02.foreign-aid-3: new entry from a dated act the old parenthetical of another entry reported; place washington; the cite in the rule's form.

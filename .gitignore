@@ -7,3 +7,8 @@ works/.lock
 .claude/worktrees/
 .venv/
 .hypothesis/
+
+# A downloaded copy of a source never belongs in the repository (notes/guide/reading-a-copy.md): none at the root.
+/*.pdf
+/*.epub
+/*.djvu

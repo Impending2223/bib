@@ -1,0 +1,101 @@
+patch: 2026-11-25-sequence-1961-03
+by: 'Claude (Sonnet, sequence pass: R25c on March 1961), Nov. 25, 2026; notes/sequence/1961-03.md; audited by Claude (Opus), Nov. 25, 2026: notes/sequence/audit-1961-03.md'
+ops:
+- follows: {id: cal.1961-03-01.peace-corps-2, add: [cal.1961-03-01.peace-corps]}
+- follows: {id: cal.1961-03-09.press-and-broadcasting, add: [cal.1961-03-09.farm]}
+- follows: {id: cal.1961-03-13.china-leadership-5, add: [cal.1961-03-13.china-leadership]}
+- follows: {id: cal.1961-03-13.china-leadership-6, add: [cal.1961-03-13.china-leadership-9]}
+- follows: {id: cal.1961-03-23.china-leadership-3, add: [cal.1961-03-23.china-leadership]}
+- follows: {id: cal.1961-03-24.program, add: [cal.1961-03-24.jobs-and-wages]}
+- follows: {id: cal.1961-03-26.china-leadership-5, add: [cal.1961-03-26.china-leadership-4]}
+- follows: {id: cal.1961-03-26.china-leadership-6, add: [cal.1961-03-26.china-leadership-5]}
+- follows: {id: cal.1961-03-26.china-leadership-7, add: [cal.1961-03-26.china-leadership-6]}
+- follows: {id: cal.1961-03-27.china-leadership-12, add: [cal.1961-03-27.china-leadership-11]}
+- follows: {id: cal.1961-03-27.china-leadership-13, add: [cal.1961-03-27.china-leadership-12]}
+- follows: {id: cal.1961-03-27.china-leadership-3, add: [cal.1961-03-27.china-leadership]}
+- follows: {id: cal.1961-03-28.china-leadership-7, add: [cal.1961-03-28.china-leadership-2]}
+- follows: {id: cal.1961-03-30.china-leadership-9, add: [cal.1961-03-30.china-leadership-8]}
+- follows: {id: cal.1961-03-01.school-aid-2, add: [cal.1961-03-01.peace-corps]}
+- follows: {id: cal.1961-03-09.economy-2, add: [cal.1961-03-09.democratic-party]}
+- follows: {id: cal.1961-03-09.europe-and-the-alliance, add: [cal.1961-03-09.economy-2]}
+- follows: {id: cal.1961-03-09.europe-and-the-alliance-france, add: [cal.1961-03-09.europe-and-the-alliance]}
+- follows: {id: cal.1961-03-09.trade, add: [cal.1961-03-09.europe-and-the-alliance-france]}
+- follows: {id: cal.1961-03-09.peace-corps, add: [cal.1961-03-09.trade]}
+- follows: {id: cal.1961-03-09.program-2, add: [cal.1961-03-09.peace-corps]}
+- follows: {id: cal.1961-03-09.transition-and-staff, add: [cal.1961-03-09.peace-corps]}
+- follows: {id: cal.1961-03-09.laos, add: [cal.1961-03-09.program-2, cal.1961-03-09.transition-and-staff]}
+- follows: {id: cal.1961-03-09.defense, add: [cal.1961-03-09.laos]}
+- follows: {id: cal.1961-03-09.economy-3, add: [cal.1961-03-09.defense]}
+- follows: {id: cal.1961-03-09.press-and-broadcasting, add: [cal.1961-03-09.economy-3]}
+- follows: {id: cal.1961-03-22.china-leadership-6, add: [cal.1961-03-22.china-leadership-5]}
+- follows: {id: cal.1961-03-25.china-leadership-7, add: [cal.1961-03-25.china-leadership-4]}
+- edit:
+    id: cal.1961-03-01.school-aid-2
+    base: bce66668
+    set:
+      n: 'The President''s News Conference of March 1, 1961, [1961 Pub. Papers 135](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=193) (Mar. 1, 1961). [[w.graham-uncertain-triumph]], 19–20. Check: Graham, 234 n.54, cites the Papers at 154–55, the conference of Mar. 8. After [[cal.1961-03-01.peace-corps|the order]]: "I have today signed an Executive order providing for the establishment of a Peace Corps," the President says in opening the conference ([1961 Pub. Papers 135](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=193)). Names: Kennedy.'
+- edit:
+    id: cal.1961-03-09.economy-2
+    base: 35404abd
+    set:
+      n: '[[w.white-making-of-the-president]], 374. After [[cal.1961-03-09.democratic-party|Truman]]: "then," in White''s account of the day (374). Names: Kennedy, Seaborg, Wiesner, Bell. Check: the day; White gives a Thursday in "early winter of 1961"; the Laos meeting with Felt ([[cal.1961-03-09.laos]]), the House''s feed grain vote and Nkrumah''s visit the day before ([[cal.1961-03-08.africa]]) are of Mar. 9.'
+- edit:
+    id: cal.1961-03-09.europe-and-the-alliance
+    base: 0fe2a0fe
+    set:
+      n: '[[w.white-making-of-the-president]], 375. After [[cal.1961-03-09.economy-2|the session with Seaborg]]: "Then," in White''s account of the day (375). Names: Finletter, Kennedy. Check: the day; White gives a Thursday in "early winter of 1961"; the Laos meeting with Felt ([[cal.1961-03-09.laos]]), the House''s feed grain vote and Nkrumah''s visit the day before ([[cal.1961-03-08.africa]]) are of Mar. 9.'
+- edit:
+    id: cal.1961-03-09.europe-and-the-alliance-france
+    base: fc3e3d72
+    set:
+      n: '[[w.white-making-of-the-president]], 375. After [[cal.1961-03-09.europe-and-the-alliance|Finletter]]: "another brief discussion," in White''s account of the day (375). Names: Gavin, Kennedy, de Gaulle. Check: the day; White gives a Thursday in "early winter of 1961"; the Laos meeting with Felt ([[cal.1961-03-09.laos]]), the House''s feed grain vote and Nkrumah''s visit the day before ([[cal.1961-03-08.africa]]) are of Mar. 9.'
+- edit:
+    id: cal.1961-03-09.trade
+    base: f6b929c8
+    set:
+      n: '[[w.white-making-of-the-president]], 375. After [[cal.1961-03-09.europe-and-the-alliance-france|Gavin]]: "A session then," in White''s account of the day (375). Names: Kennedy. Check: the day; White gives a Thursday in "early winter of 1961"; the Laos meeting with Felt ([[cal.1961-03-09.laos]]), the House''s feed grain vote and Nkrumah''s visit the day before ([[cal.1961-03-08.africa]]) are of Mar. 9.'
+- edit:
+    id: cal.1961-03-09.peace-corps
+    base: 1e9a4088
+    set:
+      n: '[[w.white-making-of-the-president]], 375. After [[cal.1961-03-09.trade|the cotton growers]]: "Then to the private quarters," in White''s account of the day (375). Names: Kennedy. Check: the day; White gives a Thursday in "early winter of 1961"; the Laos meeting with Felt ([[cal.1961-03-09.laos]]), the House''s feed grain vote and Nkrumah''s visit the day before ([[cal.1961-03-08.africa]]) are of Mar. 9.'
+- edit:
+    id: cal.1961-03-09.program-2
+    base: 6bdee870
+    set:
+      n: '[[w.white-making-of-the-president]], 375. Check: the day; White gives "a typical Thursday" of "early winter of 1961," fixed at Mar. 9 by the records (see [[cal.1961-03-09.laos]]); the Commander not named. After [[cal.1961-03-09.peace-corps|the filming]] and a private lunch, in White''s account of the day (375). Names: Kennedy.'
+- edit:
+    id: cal.1961-03-09.transition-and-staff
+    base: 917a7d28
+    set:
+      n: '[[w.white-making-of-the-president]], 375. Check: the day; White gives "a typical Thursday" of "early winter of 1961," fixed at Mar. 9 by the records (see [[cal.1961-03-09.laos]]). After [[cal.1961-03-09.peace-corps|the filming]] and a private lunch, in White''s account of the day (375). Names: Kennedy, Elizabeth Smith.'
+- edit:
+    id: cal.1961-03-09.laos
+    base: 552bea61
+    set:
+      n: '[FRUS 1961–63, XXIV, doc. 25](https://history.state.gov/historicaldocuments/frus1961-63v24/d25) (Clifton''s memorandum of the conference); [FRUS 1961–63, XXIV, doc. 26](https://history.state.gov/historicaldocuments/frus1961-63v24/d26) (a memorandum of the meeting, not declassified). [[w.schlesinger-thousand-days-1965]], 331 (the task force''s proposal); [[w.bissell-reflections-of-a-cold]], 147 (the meeting, Bissell present: Lemnitzer on the Chiefs'' plan for the Plaine des Jarres; more aid to Phoumi); [[w.white-making-of-the-president]], 375 (an hour and a quarter in the Cabinet Room; "not for the first time but for the decisive time"); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 236–37 (Millpond, seventeen preparatory steps toward the Plain about Apr. 1; the President approving the seventeen actions); [[w.poole-joint-chiefs-of-staff]], 126 (McNamara and Lemnitzer: Apr. 1 could be D-Day for the Plain of Jars if preparations begin at once); [[w.sorensen-kennedy]], 292 (Mar. 9, detailed plans for American forces in Laos presented to the President). [[w.sorensen-kennedy]], 643 (the meeting). Made public: FRUS 1961–63, XXIV. Check: White, 375, has Rusk at the meeting; Clifton''s memorandum does not list him. Check: Kaplan, 236–37, has the President approve seventeen actions on Mar. 9; the calendar has five steps approved Mar. 13. After the two ceremonial appointments ([[cal.1961-03-09.program-2]], [[cal.1961-03-09.transition-and-staff]]): "Then the supreme and somber problem of war and peace," in White''s account of the day (375). See [[cal.1961-01-19.laos]]. Names: Kennedy, Johnson, McNamara, Lemnitzer, Felt, Nitze, Dulles, Bissell, Bundy, Rostow.'
+- edit:
+    id: cal.1961-03-09.defense
+    base: d9671f67
+    set:
+      n: '[[w.white-making-of-the-president]], 375 (the Director not named). Check: the Executive roster has Frank B. Ellis in office from Mar. 9 (Wikipedia''s date). Check: the day; White gives a Thursday in "early winter of 1961"; the Laos meeting with Felt ([[cal.1961-03-09.laos]]), the House''s feed grain vote and Nkrumah''s visit the day before ([[cal.1961-03-08.africa]]) are of Mar. 9. Check: White''s same sentence has the morning''s first trial of the education bill in the House Committee on Education (375); the Daily Digest has no education session Mar. 9 (Education and Labor ordered the minimum wage bill reported, D84), the school aid hearings beginning Mar. 13 (D90). After [[cal.1961-03-09.laos|the meeting on Laos]]: "Then, from this meeting ... to another ceremony," in White''s account of the day (375).'
+- edit:
+    id: cal.1961-03-09.economy-3
+    base: e13615ae
+    set:
+      n: '[[w.white-making-of-the-president]], 375–76. After [[cal.1961-03-09.defense|the swearing in]]: "Then another conference," in White''s account of the day (375). Names: Kennedy, Bell, Bundy, Wiesner, Sorensen. Check: the day; White gives a Thursday in "early winter of 1961"; the Laos meeting with Felt ([[cal.1961-03-09.laos]]), the House''s feed grain vote and Nkrumah''s visit the day before ([[cal.1961-03-08.africa]]) are of Mar. 9.'
+- edit:
+    id: cal.1961-03-09.press-and-broadcasting
+    base: fa0fd2e5
+    set:
+      n: '[[w.white-making-of-the-president]], 376–77. After [[cal.1961-03-09.economy-3|the conference on the science budget]]: "At the end of such a day," in White''s account (375–76). Names: Kennedy, White, Nixon. Check: the day; White gives a Thursday in "early winter of 1961"; the Laos meeting with Felt ([[cal.1961-03-09.laos]]), the House''s feed grain vote and Nkrumah''s visit the day before ([[cal.1961-03-08.africa]]) are of Mar. 9.'
+- edit:
+    id: cal.1961-03-22.china-leadership-6
+    base: 763fdf3e
+    set:
+      n: '[[w.yang-shangkun-riji]], I, 666 (Mar. 22, 1961). The words: 归来办公 (I, 666). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). After [[cal.1961-03-22.china-leadership-5|Chen Yi''s dinner]]: 饭后 ... 归来办公，并组织飞机去广州 (I, 666). Names: Yang Shangkun.'
+- edit:
+    id: cal.1961-03-25.china-leadership-7
+    base: fb4d0b51
+    set:
+      n: '[[w.yang-shangkun-riji]], I, 667 (Mar. 25, 1961; note 1: the Center''s letter to the regional bureaus and provincial committees on earnest investigation); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 225–27 (the Center''s letter of Mar. 23, 1961 on earnest investigation, the directive meant; not the printing that day). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). After [[cal.1961-03-25.china-leadership-4|the flight from Hankou]] that morning: the diary has Peng Zhen tell Yang after the memorial of 3 p.m. (I, 666–67), by the diary''s own order alone. See [[cal.1961-03-23.china-leadership-3]]. Names: Peng Zhen, Yang Shangkun, Mao Zedong.'
