@@ -1,5 +1,5 @@
 patch: 2026-11-25-sequence-1961-05
-by: 'Claude (Sonnet, sequence pass, May 1961: R25c), Nov. 25, 2026'
+by: 'Claude (Sonnet, sequence pass, May 1961: R25c), Nov. 25, 2026; audited by Claude (Opus, R25c, R33b), Nov. 25, 2026'
 ops:
 - follows:
     id: cal.1961-05-01.china-leadership-13
@@ -70,10 +70,6 @@ ops:
     add:
     - cal.1961-05-16.japan-and-korea
 - follows:
-    id: cal.1961-05-19.korea-leadership-3
-    add:
-    - cal.1961-05-19.korea-leadership-4
-- follows:
     id: cal.1961-05-21.china-leadership-6
     add:
     - cal.1961-05-21.china-leadership
@@ -82,14 +78,21 @@ ops:
     add:
     - cal.1961-05-21.freedom-rides
 - follows:
-    id: cal.1961-05-22.korea-leadership-3
+    id: cal.1961-05-02.china-leadership-4
     add:
-    - cal.1961-05-22.korea-leadership-2
+    - cal.1961-05-02.china-leadership-2
 - follows:
-    id: cal.1961-05-27.korea-leadership-5
+    id: cal.1961-05-10.china-leadership-2
     add:
-    - cal.1961-05-27.korea-leadership-2
+    - cal.1961-05-10.china-leadership
 - follows:
-    id: cal.1961-05-31.china-leadership
+    id: cal.1961-05-16.transition-and-staff
+    add:
+    - cal.1961-05-16.soviet-union
+    - cal.1961-05-16.european-community
+- follows:
+    id: cal.1961-05-31.china-leadership-2
     add:
     - cal.1961-05-31.china-leadership-3
+    - cal.1961-05-31.china-leadership-4
+    - cal.1961-05-31.china-leadership-5
