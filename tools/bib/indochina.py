@@ -3,9 +3,8 @@ with the gazetteer as a table and the sources. The map is vnmap's (its STYLE 6):
 styles as the calendar's annual maps; this module writes only the page around it.
 
 STYLE
- 1. The page: a lede (what the map shows), a muted line to the map of China's page (china.html; .vnm-pg, as each
-    annual map's line to this page), the map (vnmap.full_figure: every placed entry, a year selector, all years by
-    default), the gazetteer, the sources and their licenses. Plain statements; no color.
+ 1. The page: a lede (what the map shows), the map (vnmap.full_figure: every placed entry, a year selector, all years
+    by default), the gazetteer, the sources and their licenses. Plain statements; no color.
  2. The gazetteer: one row a place of sources/vn-provinces-1966/places.json, in alphabetical order:
     the place as the series writes it (English names stay: CLAUDE.md), linked to the Wikipedia article whose
     coordinates it takes; the plain form; the kind; the 1966 province (or, outside the Republic, the country, muted);
@@ -84,7 +83,6 @@ def page(series, template):
         f'a place or a province, {ys[0]}–{ys[-1]}, at {n_used} of the gazetteer\'s {n_g} places. A year at a time, or '
         'all together. The same map stands in the calendar a year at a time, at each year\'s first entry placed in the '
         'Republic of Vietnam.</p>',
-        '<p class="vnm-pg">China on a map of its own: <a href="china.html">China</a>.</p>',
         '<h2 id="map" data-short="Map">The map</h2>',
         fig,
         '<p class="logic">A dot a place, larger by the number of the year\'s entries there; a tap lists them, each '

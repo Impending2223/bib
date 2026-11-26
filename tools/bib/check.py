@@ -437,12 +437,6 @@ def run(series, only=None):
     from . import vnmap
     for where, msg in vnmap.problems(series):
         add(ERROR, where, msg, "places")
-    # the map of China's files, and the gazetteer's places in China it does not hold yet (sources/china)
-    from . import cnmap
-    for where, msg in cnmap.problems(series):
-        add(ERROR, where, msg, "places")
-    for where, msg in cnmap.warnings(series):
-        add(WARN, where, msg, "places")
     # races settled by hand for the lives (sources/race-matches.yaml)
     from . import lives
     for where, msg in lives.problems(series):
