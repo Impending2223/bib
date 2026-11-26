@@ -1480,3 +1480,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 
 (Nov. 25, about 9:55 p.m. PT) "Does Chen Jian still abbreviate to \"Jian, {work}\"?" (Answered: yes, and so did about 350 other Chinese names written without characters. Mended by rule: `sources/name-order.yaml` lists the names written family name first, read and filed as written; `check` warns [name-order] on a new card's name that is in neither list. On the branch; to main with the next build.)
 
+(Nov. 25, about 10:10 p.m. PT) "Which of the SEA map overlays can we also use on our China map? Bring them over." (Answered: all of them, since each is made from a source that covers the world or Asia: relief, elevation, contours, rivers and lakes, climate, rain by month, population, cities. `notes/briefs/maps-3-overlays.md`, an agent at work.)
+
