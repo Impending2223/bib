@@ -19,6 +19,15 @@ Writes, in sources/indochina/:
    land, so the bands run on under it.
  - contours.geojson: contours at 500, 1,000, 1,500 and 2,000 m from the same grid at 1' (each cell the mean of 4 x 4),
    traced by contourpy, simplified at 0.003 degrees (~300 m), runs under 0.03 degrees dropped.
+
+A second frame (Nov. 26, 2026; tools/vnmap/frames.py, which holds every number that differs): the map of China,
+
+    python3 -I tools/vnmap/terrain.py ETOPO_DIR china
+
+where ETOPO_DIR holds the same model at 30 arc-seconds, the one global file
+ETOPO_2022_v1_30s_N90W180_surface.nc (1.64 GB, from
+https://www.ngdc.noaa.gov/thredds/fileServer/global/ETOPO2022/30s/30s_surface_elev_netcdf/). It writes the same
+three files in sources/china/, and hypso.json, the legend of the bands, which for China run on above 2,000 m.
 """
 import json
 import os
@@ -34,20 +43,21 @@ from affine import Affine
 from PIL import Image
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import frames  # noqa: E402
 import tiles  # noqa: E402
 
-ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
-OUT = os.path.join(ROOT, "sources", "indochina")
-FRAME = (97.5, 5.5, 113.0, 26.0)        # base.FRAME
-MAXZ = 8                                # 512-px tiles: ~300 m a pixel at z8, the 15" grid's ~460 m
+F, ARGS = frames.get(sys.argv[1:])      # the frame: Indochina's, or the one the command line names
+OUT = F["out"]
+FRAME = F["frame"]                      # base.FRAME
+MAXZ = F["dem_maxz"]                    # 512-px tiles. Indochina: ~300 m a pixel at z8, the 15" grid's ~460 m
 TILE = 512
 SEA = -1
 DEPTHS = [0, 50, 200, 1000, 2000, 4000]  # band k: deeper than DEPTHS[k]
-LEVELS = [500, 1000, 1500, 2000]
+LEVELS = F["levels"]
 
 
 def mosaic(d):
-    srcs = [rasterio.open(os.path.join(d, f"{t}.nc")) for t in ("N15E090", "N15E105", "N30E090", "N30E105")]
+    srcs = [rasterio.open(f.format(d) if "{}" in f else os.path.join(d, f)) for f in F["etopo"]]
     arr, tr = rasterio.merge.merge(srcs, bounds=FRAME, nodata=-99999.0)
     for s in srcs:
         s.close()
@@ -56,7 +66,7 @@ def mosaic(d):
 
 def land_mask(shape_, tr):
     fc = json.load(open(os.path.join(OUT, "admin.geojson"), encoding="utf-8"))
-    geoms = [f["geometry"] for f in fc["features"] if f["properties"]["k"] in ("land", "unit")]
+    geoms = [f["geometry"] for f in fc["features"] if f["properties"]["k"] in ("land", "unit", "disp")]
     return rasterio.features.rasterize(geoms, out_shape=shape_, transform=tr, fill=0, default_value=1,
                                        all_touched=False, dtype="uint8").astype(bool)
 
@@ -76,7 +86,7 @@ def dem_tiles(dem, tr):
             return None             # all sea: no tile (the source's bounds stop most such requests)
         return tiles.webp_lossless(Image.fromarray(terrarium(np.where(z < 0, SEA, z))))
     tiles.write(os.path.join(OUT, "dem.pmtiles"), FRAME, range(0, MAXZ + 1), render, tiles.TileType.WEBP,
-                {"name": "Indochina elevation", "encoding": "terrarium",
+                {"name": F["name"] + " elevation", "encoding": "terrarium",
                  "attribution": "NOAA NCEI, ETOPO 2022 15 Arc-Second Global Relief Model (2022), doi:10.25921/fd45-gt74",
                  "description": "Land elevation in whole metres (sea -1), Terrarium encoding; tools/vnmap/terrain.py"})
 
@@ -97,7 +107,7 @@ def rnd(c, p=3):
 
 
 def bathymetry(raw, tr, land):
-    k = 4
+    k = F["mean"]
     z = coarse(np.where(land, 0, raw), k)
     ctr = tr * Affine.scale(k)
     band = np.digitize(-z, DEPTHS[1:]).astype(np.int16)        # 0: 0-50 m (and the land), ... 5: 4,000 m and deeper
@@ -105,7 +115,7 @@ def bathymetry(raw, tr, land):
     for geom, v in rasterio.features.shapes(band, transform=ctr):
         gs.append(shapely.geometry.shape(geom))
         vals.append(int(v))
-    simp = shapely.coverage_simplify(np.array(gs, dtype=object), 0.01)
+    simp = shapely.coverage_simplify(np.array(gs, dtype=object), F["depth_tol"])
     by = {}
     for g, v in zip(simp, vals):
         by.setdefault(v, []).append(g)
@@ -121,7 +131,7 @@ def bathymetry(raw, tr, land):
 
 
 def contours(raw, tr, land):
-    k = 4
+    k = F["mean"]
     z = coarse(np.where(land, np.maximum(raw, 0), 0), k)
     ctr = tr * Affine.scale(k)
     ny, nx = z.shape
@@ -131,8 +141,8 @@ def contours(raw, tr, land):
     feats = []
     for lv in LEVELS:
         ls = [shapely.LineString(c) for c in gen.lines(lv) if len(c) > 1]
-        ls = [shapely.simplify(x, 0.003) for x in ls]
-        ls = [x for x in ls if x.length >= 0.03]
+        ls = [shapely.simplify(x, F["contour_tol"]) for x in ls]
+        ls = [x for x in ls if x.length >= F["contour_min"]]
         if ls:
             m = shapely.geometry.mapping(shapely.MultiLineString(ls))
             feats.append({"type": "Feature", "properties": {"elev_m": lv},
@@ -140,14 +150,39 @@ def contours(raw, tr, land):
     write("contours.geojson", feats)
 
 
+def hypso():
+    """hypso.json, the legend of the bands, in the form of sources/indochina/hypso.json: for a frame that names its
+    bands (frames.py). The land's bands are drawn by the map from the tiles; the depths' `d` is DEPTHS."""
+    land, sea = F["bands"], frames.SEA
+    assert [d for d, _, _ in sea] == DEPTHS
+    cl = [{"index": i, "kind": "land", "from_m": lo, "to_m": land[i + 1][0] if i + 1 < len(land) else None,
+           "label": lab, "color": col} for i, (lo, lab, col) in enumerate(land)]
+    cl += [{"index": len(land) + i, "kind": "sea", "depth_from_m": lo,
+            "depth_to_m": sea[i + 1][0] if i + 1 < len(sea) else None, "label": lab, "color": col}
+           for i, (lo, lab, col) in enumerate(sea)]
+    note = ("The legend of the elevation bands (drawn by MapLibre's color-relief from dem.pmtiles) and the depth bands "
+            "(bathymetry.geojson, its `d` the band's lower depth): tools/vnmap/terrain.py. Land is what admin.geojson "
+            "calls land; land below 0 m counted 0-100 m.")
+    with open(os.path.join(OUT, "hypso.json"), "w", encoding="utf-8") as f:
+        json.dump({"classes": cl, "note": note}, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    print("hypso.json", len(cl), "classes")
+
+
 def main():
-    raw, tr = mosaic(sys.argv[1])
+    raw, tr = mosaic(ARGS[0])
     raw[raw < -20000] = 0
     land = land_mask(raw.shape, tr)
     dem = np.where(land, np.maximum(raw, 0), SEA).astype(np.float32)
-    dem_tiles(dem, tr)
-    bathymetry(raw, tr, land)
-    contours(raw, tr, land)
+    steps = ARGS[1:] or ["tiles", "depths", "contours"]         # one step alone, to try a number: `... china contours`
+    if "tiles" in steps:
+        dem_tiles(dem, tr)
+    if "depths" in steps:
+        bathymetry(raw, tr, land)
+    if "contours" in steps:
+        contours(raw, tr, land)
+    if F["bands"]:
+        hypso()
 
 
 if __name__ == "__main__":

@@ -813,6 +813,35 @@ VN_FAMILY = {"lam", "nguyen", "tran", "le", "pham", "hoang", "huynh", "phan", "v
 OWN_ORDER = {"Hoang Van Chi", "Ngo Van Chieu", "Pham Van Luu", "Pham Van Minh", "Pham Van Son", "Tran Van Don",
              "Tran Van Tra", "Van Tien Dung", "Hoai Thanh", "Cao Minh", "Nguyen Huu Nguyen", "Xuân Phuong",
              "Vinh-Loc", "Li Danhui", "Malcolm X", "Cincinnatus [Cecil B. Currey]", "Nhã Ca"}
+CN_FAMILY = set(                          # the common Chinese family names, in pinyin: what `check` asks about
+    "ai an bai bao bian bo bu cai cao cen chen cheng chi cong cui dai deng ding dong du duan fan fang feng fu gao ge "
+    "geng gong gu guan guo han hao he hong hou hu hua huang ji jia jiang jin kang kong kuang lai lei li liang liao lin "
+    "ling liu long lu lü luo ma mao meng mo mu ni nie niu ou pan pang pei peng pu qi qian qiao qin qiu qu quan rao ren "
+    "ruan shao shen shi shu song su sun tan tang tao teng tian tong tu wan wang wei wen wu xi xia xiao xie xin xing "
+    "xiong xu xue yan yang yao ye yin yu yuan yue zang zeng zhai zhang zhao zheng zhong zhou zhu zong zou zuo".split())
+
+
+def _name_order():
+    """sources/name-order.yaml: names written family name first with no characters (own), and names that only look
+    so (western)."""
+    path = os.path.join(store.ROOT, "sources", "name-order.yaml")
+    d = store.load_yaml(path) if os.path.exists(path) else {}
+    return set(d.get("own") or ()), set(d.get("western") or ())
+
+
+NAME_OWN, NAME_WESTERN = _name_order()
+OWN_ORDER |= NAME_OWN
+
+
+def name_order_doubt(name):
+    """True where a card's name begins with a Chinese family name, has no characters, is read given name first, and
+    is in neither list of sources/name-order.yaml: `check` asks which it is."""
+    bare = re.sub(r"\s+et al\.\??$|\?$", "", str(name)).strip()
+    w = bare.split()
+    return (2 <= len(w) <= 3 and bool(re.fullmatch(r"[A-Za-zü' -]+", bare)) and w[0].lower() in CN_FAMILY
+            and bare not in NAME_WESTERN and not name_parts(bare)[0])
+
+
 SURNAME = {"Aurélie Basha i Novosejt": "Basha i Novosejt", "Nicholas deB. Katzenbach": "Katzenbach",
            "Carl J. Bon Tempo": "Bon Tempo"}
 RUNNING = {"Le Ly Hayslip", "Duong Van Mai Elliott"}
@@ -1050,6 +1079,10 @@ def problems(series):
             out.append(("error", where, f"{cid}: a card id is w. and lowercase words joined by hyphens"))
         if not c.get("c") and not c.get("title"):
             out.append(("error", where, f"{cid}: a card needs a title (structured) or c (verbatim)"))
+        for nm in [x for k in ("author", "editor", "translator") for x in store.as_list(c.get(k))]:
+            if name_order_doubt(nm):
+                out.append(("warn", where, f"{cid}: is {nm!r} written family name first? List it under own: or "
+                                           f"western: in sources/name-order.yaml  [name-order]"))
         if c.get("c") and c.get("title"):
             out.append(("error", where, f"{cid}: a card is structured (title) or verbatim (c), not both"))
         if not c.get("c") and not c.get("year") and not c.get("paren") and not c.get("in"):
