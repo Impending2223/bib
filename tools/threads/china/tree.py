@@ -12,16 +12,13 @@ script turns that list into the entry's threads:
  3. A person's entry goes to his subthread where one fits (his foreign business; the Cultural Revolution's stages),
     else to his own thread.
  4. A system that is not the primary thread goes in `also` only on a strong score (STRONG): the systems' word lists
-    tested worst (notes/threads/china-assign-audit.md). The Center's daily work is never a secondary thread (AUDIT 2 (1)).
- 5. Nuclear weapons: the bomb (measure.py's episode, and before July 1963 WEAPON_EARLY) and the diplomacy (DIPLOMACY
-    below) are siblings; the diplomacy at the line's opening goes first, and Bomb only where the line names the weapon
-    (AUDIT 2 (3)); talk of nuclear war gives the parent as a secondary thread (TALK; AUDIT 2 (5)).
+    tested worst (notes/threads/china-assign-audit.md).
+ 5. Nuclear weapons: the bomb (measure.py's episode) and the diplomacy (DIPLOMACY below) are siblings; talk of
+    nuclear war goes to the parent (TALK).
  6. `china-leadership` stays the thread only of the entries that fit nothing.
  7. The entries of the plain `china` thread (the China the calendar's other nations deal with) are run too, for the
     episodes and the nuclear threads only: the persons' and the systems' rules were made and tested on
     `china-leadership`. One that fits nothing stays in `china`.
-The audit of Nov. 26, 2026 (notes/threads/china-tree-audit.md) mended the rules; each mend is marked `AUDIT 2 (n)`
-here and in measure.py.
 The tsv: id, date, primary thread, the rule that placed it, the secondary threads (comma-separated).
 """
 import collections
@@ -64,30 +61,9 @@ DIPLOMACY = re.compile(
     r"against Atomic and Hydrogen Bombs|against A- and H-[Bb]ombs|bann?(?:ing)? (?:on )?atomic and hydrogen|"
     r"test[- ]ban|partial ban|three-power treaty|tripartite treaty|no first use|(?:not|never) be the first to use|"
     r"complete prohibition|thorough destruction of nuclear|non-?proliferation|nuclear umbrella|"
-    # AUDIT 2 (2): the words the first list missed: "complete and thorough prohibition", a ban on nuclear weapons,
-    # a zone free of them, their spread.
-    r"complete(?:,)? (?:and )?thorough(?:,? and resolute)? prohibition|prohibition and (?:thorough )?destruction of (?:nuclear|atomic)|"
-    r"bann?(?:ing)? (?:on |of )?nuclear weapons|ban on nuclear|nuclear ban|nuclear-free|free of nuclear|"
-    r"(?:spread|dissemination|proliferation) of nuclear|"
-    r"(?:ban|banning|prohibition)(?: and [a-z ]{0,25}destruction)? (?:of|on) (?:nuclear|atomic)|"
-    r"(?:ban|prohibition) and (?:thorough |complete |total )?destruction of (?:nuclear|atomic)|"
-    r"禁止原子弹氢弹|部分禁止核试验|三国条约|全面禁止|彻底销毁|核扩散|核保护伞|无核区", re.I)
+    r"禁止原子弹氢弹|部分禁止核试验|三国条约|全面禁止|彻底销毁|核扩散|核保护伞", re.I)
 TALK = re.compile(r"nuclear blackmail|atomic blackmail|nuclear war\b|atomic war\b|nuclear monopoly|"
                   r"核讹诈|核垄断|核战争", re.I)
-# AUDIT 2 (3, 4, 6): the weapon itself: the programme, the tests, the bombs, the missiles. NUC is any word that
-# measure.py's Bomb takes; WEAPON the weapon's own words; WEAPON_EARLY those that hold before July 1963, when
-# measure.py's Bomb has no window (the Center's decisions of 1961-62, the Special Commission, the design).
-NUC = re.compile(r"atomic|nuclear|原子弹|核武器|核试验|核爆炸|hydrogen bomb|氢弹|missile|导弹|Lop Nur|罗布泊|two bombs|两弹|"
-                 r"test ban|Qian Xuesen|钱学森|(?-i:Special Commi)|warhead|test range|Second Ministry of Machine", re.I)
-WEAPON = re.compile(r"atomic bombs?|hydrogen bombs?|原子弹|氢弹|nuclear (?:tests?|explosions?|devices?|industry|weapons? (?:programme|program))|"
-                    r"(?:first|second|third|new) (?:atomic |nuclear )?(?:test|explosion)|核试验|核爆炸|missiles?|导弹|warheads?|"
-                    r"Lop Nur|罗布泊|two bombs|两弹|(?-i:Special Commi(?:ssion|ttee))|专门委员会|Second Ministry of Machine|"
-                    r"test range|nuclear submarines?|uranium|铀", re.I)
-WEAPON_EARLY = re.compile(r"atomic bombs?|原子弹|atomic weapons|nuclear (?:weapons? )?(?:programme|program)|nuclear industry|"
-                          r"atomic (?:energy )?industry|核工业|原子能工业|(?-i:Special Commi(?:ssion|ttee))|专门委员会|"
-                          r"Second Ministry of Machine|二机部|two bombs|两弹|Lop Nur|罗布泊|nuclear device|"
-                          r"advanced weapons|frontier technology|尖端技术|尖端武器", re.I)
-HEADZONE = 200
 
 
 def line(t):
@@ -105,37 +81,11 @@ def threads(e):
     if e["thread"] == "china":                       # 7: the plain China thread's entries: the episodes only
         fits = [(t, r) for t, r in fits if r.startswith("ep:")]
     text = e["_plain"]
-    later = []                                       # threads that may only follow the persons and the systems
-    # AUDIT 2 (6): before July 1963 the weapon's own words place Bomb, as an episode.
-    if e["date"][:7] < "1963-07" and "china-bomb" not in [t for t, _ in fits]:
-        m = WEAPON_EARLY.search(text)
-        if m and m.start() < HEADZONE:
-            fits.append(("china-bomb", "nuclear:weapon"))
-    # AUDIT 2 (4): Bomb by a word of measure.py's list that comes only after the line's opening (a remark on the bomb
-    # in a planning conference, an army training conference) follows the persons and the systems.
-    if "china-bomb" in [t for t, _ in fits]:
-        m = NUC.search(text)
-        if not m or m.start() >= HEADZONE:
-            later += [x for x in fits if x[0] == "china-bomb"]
-            fits = [x for x in fits if x[0] != "china-bomb"]
-    dm = DIPLOMACY.search(text)
-    nuc = []
-    if dm and dm.start() < HEADZONE:
-        # AUDIT 2 (3): the diplomacy at the line's opening goes before Bomb; Bomb stays only where the line names
-        # the weapon itself (a test, the programme), not where "nuclear" and "test ban" are all it has.
-        nuc = [("china-nuclear-diplomacy", "nuclear:diplomacy")]
-    elif dm:
-        later.append(("china-nuclear-diplomacy", "nuclear:diplomacy"))
-    if dm and not WEAPON.search(text):
-        fits = [x for x in fits if x[0] != "china-bomb"]
-        later = [x for x in later if x[0] != "china-bomb"]
-    if not dm and "china-bomb" not in [t for t, _ in fits + later] and TALK.search(text):
-        later.append(("china-nuclear", "nuclear:talk"))   # AUDIT 2 (5): talk of nuclear war is a secondary thread
-    bomb_first = [x for x in fits if x[0] == "china-bomb"]
-    fits = [x for x in fits if x[0] != "china-bomb"]
-    k = next((i for i, (t, r) in enumerate(fits) if not r.startswith(("ep:", "nuclear:"))), len(fits))
-    fits[k:k] = nuc + bomb_first                     # with the episodes, after them: a stage or a conference first
-    fits += later
+    nuc = [("china-nuclear-diplomacy", "nuclear:diplomacy")] if DIPLOMACY.search(text) else []
+    if not nuc and "china-bomb" not in [t for t, _ in fits] and TALK.search(text):
+        nuc = [("china-nuclear", "nuclear:talk")]
+    k = next((i for i, (t, r) in enumerate(fits) if not r.startswith("ep:")), len(fits))
+    fits[k:k] = nuc                                  # with the episodes, after them: a stage or a conference first
     names = [t for t, _ in fits]
     stage = any(t in STAGES for t in names)
     foreign = "china-foreign" in names or e.get("_foreign")
@@ -145,8 +95,6 @@ def threads(e):
             t = SUB[t][1] if stage else SUB[t][0] if foreign else t
         elif t in SYS_SLUG and i and e["_sc"].get(SYS_SLUG[t], 0) < STRONG and not r.startswith("sys:body"):
             continue                                 # 4: a weak second system
-        elif t == "china-center" and i:
-            continue                                 # AUDIT 2 (1): the Center's daily work is never a secondary thread (31 of 38 read were wrong)
         if t not in [x for x, _ in out]:
             out.append((t, r))
     if not out:
