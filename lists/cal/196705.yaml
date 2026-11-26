@@ -264,21 +264,30 @@ entries:
     place: peking
     thread: china-wuhan
     also: [china-zhou-cr]
-    c: Peking, the Tiananmen rostrum. Zhou Enlai 周恩來 has Yao Dengshan 姚登山 on the rostrum for the evening's fireworks; Mao receives him and is photographed with him.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 567; [[w.jian-zhou-enlai]], 578 (on May Day Mao meets Yao at the Gate of Heavenly Peace, a meeting "not arranged by Zhou"; photographed standing between Mao and Jiang Qing); [[w.liu-jixian-ye-jianying-nianpu]], II, 964 (May 1, 1967; Ye Jianying 叶剑英 with the other central leaders on the Tiananmen 天安门 rostrum at the May Day fireworks evening); [[w.chen-yun-nianpu-xiuding]], III, 162 (evening: Chen Yun at the capital''s May Day gala at Tiananmen 天安门). The words: 5月1日晚 (I, 567). See [[cal.1967-04.china-leadership-14]]. Names: Zhou Enlai, Mao Zedong.'
+    c: Peking, the Tiananmen rostrum.{5} Zhou Enlai 周恩來 has Yao Dengshan 姚登山 on the rostrum for the evening's fireworks;{6} Mao receives him and is photographed with him.{7} In the photograph Yao stands between Mao and Jiang Qing.{2} Ye Jianying is with the other central leaders on the rostrum for the fireworks.{3} Chen Yun attends the capital's May Day gala at Tiananmen.{4}
+    cut_from:
+      '5': '1'
+      '6': '1'
+      '7': '1'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 567; [[w.jian-zhou-enlai]], 578 (on May Day Mao meets Yao at the Gate of Heavenly Peace, a meeting "not arranged by Zhou"; photographed standing between Mao and Jiang Qing); [[w.liu-jixian-ye-jianying-nianpu]], II, 964 (May 1, 1967; Ye Jianying 叶剑英 with the other central leaders on the Tiananmen 天安门 rostrum at the May Day fireworks evening); [[w.chen-yun-nianpu-xiuding]], III, 162 (evening: Chen Yun at the capital''s May Day gala at Tiananmen 天安门); [[w.jian-zhou-enlai]], 578; [[w.liu-jixian-ye-jianying-nianpu]], II, 964; [[w.chen-yun-nianpu-xiuding]], III, 162. The words: 5月1日晚 (I, 567). See [[cal.1967-04.china-leadership-14]]. Names: Zhou Enlai, Mao Zedong, Jiang Qing, Ye Jianying, Chen Yun.'
     src:
-      c: dfda85ed
+      c: a69e1f75
       rows:
-        - 'w.yang-jisheng-tiandi-fanfu I, 567: all'
-        - 'w.jian-zhou-enlai 578: ?'
-        - 'w.liu-jixian-ye-jianying-nianpu II, 964: ?'
-        - 'w.chen-yun-nianpu-xiuding III, 162: ?'
-    tags: [polity:prc, name:zhou-enlai, name:mao-zedong]
+        - 'w.yang-jisheng-tiandi-fanfu I, 567: 5, 6, 7'
+        - 'w.jian-zhou-enlai 578: 2'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 964: 3'
+        - 'w.chen-yun-nianpu-xiuding III, 162: 4'
+    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, name:jiang-qing, name:ye-jianying, name:chen-yun]
     time_range:
       - 1967-05-01T11:00Z
       - 1967-05-01T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+    variants:
+      - unit: '6'
+        witness: w.jian-zhou-enlai
+        reads: Mao meets Yao at the Gate of Heavenly Peace, a meeting not arranged by Zhou
+        at: '578'
   - id: cal.1967-05-01.china-leadership-7
     when: May 1
     date: '1967-05-01'
@@ -1534,6 +1543,7 @@ entries:
     date: '1967-05-09'
     place: sofia
     thread: soviet-union-leadership
+    also: [comecon]
     c: Sofia. Brezhnev leads the party-government delegation (Mazurov, Demichev and others) to Bulgaria, flying out May 10; May 12, in the Central Committee building, he and Zhivkov sign the new treaty of friendship, cooperation and mutual assistance and a communiqué; back in Moscow May 13, 2:55 p.m.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 189 (May 9–13). Names: Brezhnev, Zhivkov, Mazurov, Demichev.'
     tags: [name:brezhnev-leonid, name:zhivkov-todor, name:mazurov-kirill-t, polity:ussr, name:demichev-pyotr-n, polity:bulgaria]
@@ -5518,7 +5528,7 @@ entries:
     date: '1967-05-28'
     place: peking
     thread: china-zhou-foreign
-    also: [china-foreign]
+    also: [china-foreign, comecon]
     c: Zhou receives the Albanian communications ministry delegation led by the deputy minister, who is the Albanian chairman of the management committee of the Sino-Albanian Shipping Company.
     n: '[[w.zhou-enlai-waijiao-huodong]], 512 (May 28, 1967; noon; Beijing); [[w.zhonghua-renmin-gongheguo-waijiao]], 156 (May 28, 1967; the Albanian communications ministry delegation, under the deputy minister). The book names him 卡罗利. Names: Zhou Enlai.'
     src:

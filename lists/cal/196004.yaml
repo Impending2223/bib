@@ -229,7 +229,7 @@ entries:
     when: Apr. 2
     date: '1960-04-02'
     thread: china-mao-foreign
-    also: [china-liu, china-zhou-foreign, china-foreign]
+    also: [china-liu, china-zhou-foreign, china-foreign, comecon]
     c: 'Mao, Liu Shaoqi, Zhu De and Zhou Enlai telegraph Kádár, Dobi and Münnich on the fifteenth anniversary of Hungary''s liberation: the gains since the defeat of imperialist and counterrevolutionary attack in 1956; the Hungarian party''s Seventh Congress and its stand against modern revisionism and for the unity of the camp the Soviet Union leads; the Chinese–Hungarian treaty of friendship and cooperation of a year before.'
     n: '[[w.jianguo-yilai-mao-zedong]], XV, 143–145 (Apr. 2, 1960, printed from *Renmin ribao*, Apr. 4). Names: Mao Zedong, Liu Shaoqi, Zhu De, Zhou Enlai, Kádár, Dobi.'
     src:
@@ -363,6 +363,7 @@ entries:
     when: Apr. 3
     date: '1960-04-03'
     thread: china-foreign
+    also: [comecon]
     c: Chen Yi 陈毅 telegraphs Endre Sík 西克·安德烈, the Hungarian Foreign Minister, on the fifteenth anniversary of Hungary's liberation.
     n: '[[w.chen-yi-nianpu]], 809. Names: Chen Yi.'
     tags: [polity:prc, polity:hungary, name:chen-yi]
@@ -371,6 +372,7 @@ entries:
     date: '1960-04-03'
     place: peking
     thread: china-foreign
+    also: [comecon]
     c: The CPPCC auditorium 政协礼堂, Peking 北京. Chen Yi 陈毅 speaks at the rally of the capital's circles for the fifteenth anniversary of Hungary's liberation.
     n: '[[w.chen-yi-nianpu]], 809. The words: 晚上 (809). Names: Chen Yi.'
     tags: [polity:prc, polity:hungary, name:chen-yi]
@@ -383,6 +385,7 @@ entries:
     when: Apr. 3
     date: '1960-04-03'
     thread: china-foreign
+    also: [comecon]
     follows:
       - cal.1960-04-03.china-leadership-7
     c: Chen Yi 陈毅, with Zhu De 朱德, Dong Biwu 董必武, Shen Junru 沈钧儒 and Guo Moruo 郭沫若, receives the whole delegation of the Hungarian–Chinese Friendship Association led by *Pataji Yanuoshi* 帕塔基·亚诺什.
@@ -496,7 +499,7 @@ entries:
     date: '1960-04-04'
     place: peking
     thread: china-zhou-foreign
-    also: [soviet-union, china-foreign]
+    also: [soviet-union, china-foreign, comecon]
     c: Peking. Zhou Enlai attends the reception given by the Hungarian chargé d'affaires for the 15th anniversary of Hungary's liberation.
     n: '[[w.zhou-enlai-waijiao-huodong]], 272 (Apr. 4, 1960; 晚上); [[w.chen-yi-nianpu]], 809 (Apr. 4, 1960, evening; the reception of 西格蒂, the Hungarian chargé d''affaires, for the fifteenth anniversary of the liberation; Chen Yi attends); [[w.zhu-de-nianpu-xinbian]], III, 1771 (Apr. 4, 1960; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and others, at the reception of the Hungarian chargé d''affaires, 西格蒂, for the fifteenth anniversary of Hungary''s liberation). Names: Zhou Enlai.'
     src:
@@ -2455,6 +2458,13 @@ entries:
     c: Chen Yun 陈云 goes from Peking 北京 to Shanghai 上海 to rest.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 34. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun]
+  - id: cal.1960-04-15.elections-1960-religion
+    when: By Apr. 15
+    date: '1960-04-15'
+    thread: elections-1960-religion
+    c: 'Kennedy, as the *Philadelphia Inquirer* reports him, on the Poling dinner: invited by the Rev. Dr. Poling to the dinner for the Chapel of the Four Chaplains, he learned he was to attend as spokesman for the Catholic faith, in the sanctuary of a church of another faith, and the Archdiocese of Philadelphia could not support the drive; "I felt I had not credentials to attend in the capacity in which I had been asked." His record on church and state "has been written in the past fourteen years in Congress."'
+    n: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (cited as the *Philadelphia Inquirer*, April 15, 1960). Check: the day. Names: Kennedy.'
+    tags: [name:kennedy-john-f, ok:name-untagged, ok:fields-place]
   - id: cal.1960-04-16.soviet-union-u2
     when: Apr. 16
     date: '1960-04-16'
@@ -3304,6 +3314,13 @@ entries:
     c: 'The Center 中共中央 forwards the State Council Finance and Trade Office''s 国务院财贸办公室 report of Apr. 17 on emergency measures for shipping grain 《关于紧急调运粮食的几项措施的报告》, to be carried out at once: in the fifty days to two months before the new grain, 5.6 billion jin to be shipped in the second quarter, 2.4 billion by the end of April; other goods to give way to grain.'
     n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 303–306 (the comment, 303; the report, 304–306; printed from the Center''s document). Made public: 1996. See [[cal.1960-02-21.china-leadership-5]]. See [[cal.1960-04-17.china-leadership-10]].'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-04-19.elections-1960-religion-2
+    when: By Apr. 19
+    date: '1960-04-19'
+    thread: elections-1960-religion
+    c: 'Kennedy, as the *New York Herald Tribune* reports him: "I don''t think that my religion is anyone''s business but my business. Is anyone going to tell me that I lost this primary the day that I was born and baptized forty-two years ago?"'
+    n: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (cited as the *New York Herald Tribune*, April 19, 1960). Check: the day and the place; whether it is the answer at Wheeling, [[cal.1960-04-19.elections-1960-religion]]. Names: Kennedy.'
+    tags: [name:kennedy-john-f]
   - id: cal.1960-04-20.china-leadership
     when: Apr. 20
     date: '1960-04-20'
@@ -3524,13 +3541,14 @@ entries:
     date: '1960-04-21'
     place: washington
     thread: elections-1960-religion
-    c: 'Kennedy to the American Society of Newspaper Editors, Washington, on the religious issue: "I am not the Catholic candidate for President."'
-    n: 'The text: JFK Library, Pre-Presidential Papers. [[w.sorensen-kennedy]], 142–43; [[w.sorensen-counselor]], 162 (Sorensen "had a hand in the speech," Kennedy''s first full-length treatment of the issue, quoted in part: "I want no votes solely on account of my religion"; "There is only one legitimate question ... Would you, as President of the United States, be responsive in any way to ecclesiastical pressures or obligations"; not the words of the entry). Check the wording. To check: [[w.casey-making-of-a-catholic]]; [[w.carty-catholic-in-the-white]]. Names: Kennedy.'
+    c: 'Kennedy to the American Society of Newspaper Editors, Washington, on the religious issue: "I am not the Catholic candidate for President."{1} Quoted in the Democratic memorandum of September: "Once that question is answered, there is no legitimate issue of my religion ... But I do object to being the only candidate required to answer those questions."{2}'
+    n: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (the speech, its day and place; not the words in the line). The text: JFK Library, Pre-Presidential Papers. [[w.sorensen-kennedy]], 142–43; [[w.sorensen-counselor]], 162 (Sorensen "had a hand in the speech," Kennedy''s first full-length treatment of the issue, quoted in part: "I want no votes solely on account of my religion"; "There is only one legitimate question ... Would you, as President of the United States, be responsive in any way to ecclesiastical pressures or obligations"; not the words of the entry). Check the wording. To check: [[w.casey-making-of-a-catholic]]; [[w.carty-catholic-in-the-white]]. Names: Kennedy.'
     src:
-      c: 89a487e7
+      c: 485407e7
       rows:
-        - 'w.sorensen-kennedy 142–43: all'
+        - 'w.sorensen-kennedy 142–43: 1'
         - 'w.sorensen-counselor 162: ?'
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html: 2'
     tags: [name:kennedy-john-f]
   - id: cal.1960-04-21.foreign-aid
     when: Apr. 21
@@ -3550,7 +3568,7 @@ entries:
     date: '1960-04-21'
     place: moscow
     thread: cuba
-    also: [soviet-union]
+    also: [soviet-union, comecon]
     c: 'A KGB report of Apr. 20 on the Cuban general staff''s fear of an attack.{1} The Presidium, Apr. 21: "to render urgent assistance to the Cuban government." Yes to Castro''s first list of arms, German, Czech and Polish, and nothing to be paid; Prague to bear 15–25 percent of the cost, Warsaw 10–20, Moscow the rest.{2}'
     n: '[[w.fursenko-one-hell-of-a]], 46–47. Names: Castro.'
     src:
@@ -5836,7 +5854,7 @@ entries:
     when: Apr. 29
     date: '1960-04-29'
     thread: china-foreign
-    also: [china-army]
+    also: [china-army, comecon]
     c: Zhu De 朱德, with Dong Biwu 董必武, meets the Polish military delegation led by Jerzy Bordziłowski 博齐洛夫斯基, Vice-Minister of National Defense and Chief of the General Staff; Luo Ruiqing 罗瑞卿 and Peng Shaohui 彭绍辉 present.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1773. Names: Zhu De, Dong Biwu, Luo Ruiqing, Peng Shaohui.'
     tags: [polity:prc, polity:poland, ok:fields-place, name:zhu-de, name:dong-biwu, name:luo-ruiqing, name:peng-shaohui]
