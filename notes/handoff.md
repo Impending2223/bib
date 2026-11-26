@@ -458,3 +458,4 @@ Batch 7 (already in):
 - 1:35 pm: notes-pass 09 in (55 built on from pages read, 4 tagged, 1 for an edit); its Opus audit running (`notes/briefs/notes-pass-audit-09.md`; told the FRUS doc goes in as a linked record by `primary`, not a card).
 - 1:35 pm: notes-pass 06b in (12 of 15 built on; 4 new entries; two Checks); the Opus audit of 06 and 06b running (`notes/briefs/notes-pass-audit-06.md`).
 - 1:36 pm: the Jan. 7, 1960 *Times* audit: fit to merge (120 new entries, one cited; cites to the right items; the Sharkey tag fixed). Merging. Proposed for the owner by the audit: threads 'Anti-Semitism' and 'Eastern Europe' (with Czechoslovakia under it).
+- 1:38 pm: the *Times* of Sept. 9, 1960 read (44 PDFs; 72 new entries, 15 cites, 6 Checks); its Opus audit running (`notes/briefs/nyt-audit-19600909.md`).
