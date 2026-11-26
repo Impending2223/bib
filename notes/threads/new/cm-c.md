@@ -6,9 +6,9 @@ The rule I used: an entry is in where the act is a member's own dealing (Albania
 
 Counts of the 307:
 - In as primary: 1.
-- In as secondary (added to `also:`): 188.
+- In as secondary (added to `also:`): 189.
 - Out: 117.
-- Undecided: 1 (left out for now).
+- Undecided: 0.
 
 Kinds of entry the words found that are not the thread's business:
 - 34: another country's affair, with a member named in passing (the Rometsch case, a Polish commissioner in Vietnam, Polish-American voters, Tito named in a poll or an advertisement, the missile-crisis ships).
@@ -28,6 +28,8 @@ Judgment calls the owner may overrule, applied the same way throughout:
 - Kennedy's news conference of Jan. 24, 1963 is in for its first matter, the most-favored-nation treatment of Yugoslavia and Poland.
 - The Presidium of Oct. 22, 1962 on the GDR delegation is in; that of Oct. 12 and 14, 1962, with a GDR item among many, is out.
 
-Undecided: `cal.1963-10-14.china-leadership-2` (Zhou on the Ministry of Metallurgy's summary of its aid to Vietnam and to Albania; the note itself asks whether the Chinese 援阿 means Albania or Algeria). I left it out; it goes in as a secondary thread if the Albanian reading is confirmed.
+Settled after the second reading: `cal.1963-10-14.china-leadership-2` (Zhou on the Metallurgy Ministry's summary of aid to Vietnam and 援阿). I read the page of the cited work (Zhou Enlai nianpu, II, 587, PDF page 590): it prints 援越 and 援阿 with no gloss and no footnote. The entry before it, Oct. 13, is Zhou receiving the Albanian friendship delegation and the Albanian delegation on scientific and technical cooperation, and in Chinese usage 援阿 is aid to Albania; Algeria is written out in full. So I read it as Albania and put the entry in as secondary. The reading rests on context, not on a gloss in the book, so the entry's "Check: 援阿, Albania or Algeria" should stay.
+
+Second reading of the notes: I then read every note whole (106 of the 307 were longer than the 260 characters I first read; the rest I had read whole). No other row changed. The long notes only confirmed the placings: for example the note of May 15, 1962 names the meeting of seven parties on Comecon economic cooperation (in), that of July 25, 1962 a Polityka article on Polish farm cooperation (in), those of Dec. 25, 1962 and of Mar. 9, 1963 name the delegations and ambassadors among many (out), and the long Presidium notes list their many other items (out).
 
 Disregarded under R0: nothing in the brief narrowed what is an entry; I judged only the thread's own business, as the brief says. I read the owner's definition of the thread (members and associates west of the Soviet Union) as the statement does, and kept Albania in for the whole span (ruling 62, default 3) and Yugoslavia too (default 2). The brief's statement says "associate Yugoslavia"; I applied it to all the dates.
