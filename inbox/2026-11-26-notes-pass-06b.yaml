@@ -193,3 +193,67 @@ ops:
     id: cal.1965-06-24.china-leadership-10
     add: [Mahmoud Riad]
     tags: [name:riad-mahmoud]
+- add:
+    entry:
+      id: cal.1965-02-07.soviet-union
+      when: Feb. 7
+      date: '1965-02-07'
+      time: 1965-02-07T16:30:00Z
+      time_zone: America/New_York
+      place: washington
+      thread: soviet-union
+      also: [vietnam]
+      c: 'Washington. Thompson, at his house, tells Dobrynin that the destroyer patrol in the Gulf of Tonkin was cancelled for Kosygin''s visit to Hanoi and the South Vietnamese asked to suspend some actions; the attack at Pleiku, which killed seven, was by the U.S. view a deliberate attempt to "mouse trap" Kosygin. The U.S. will withdraw if North Vietnam ends its aggression and respects its neighbors. Dobrynin: striking another state is different from a guerrilla action; his government will take it as "a deliberate provocation."'
+      n: 'FRUS 1964–68, II, doc. [82](https://history.state.gov/historicaldocuments/frus1964-68v02/d82) (Thompson''s memorandum, 11:30 a.m.; Thompson says he acts on the President''s instructions). [[w.preston-war-council]], 175 (Dobrynin warns Thompson that more strikes would be "a deliberate provocation"; the day not given). Made public: 1996. See [[cal.1965-02-06.soviet-union]]. Names: Thompson, Dobrynin, Kosygin.'
+      tags: [polity:us, polity:ussr, name:thompson-llewellyn-e, name:dobrynin-anatoly, name:kosygin-aleksei]
+- add:
+    entry:
+      id: cal.1964-11-19.soviet-union
+      when: Nov. 19
+      date: '1964-11-19'
+      time: 1964-11-19T10:00:00Z
+      time_zone: Europe/Moscow
+      place: moscow
+      thread: soviet-union
+      c: 'Kohler to the State Department, Moscow, telegram 1559, 1 p.m.: Zhou''s visit and statements reinforce indications that "basic differences between USSR and CPR will continue." Soviet tone toward the West: the main lines kept, more stress on peaceful coexistence and better relations; a period of relative quiet in East–West relations expected, with firm restatements on Article 19, Berlin and Southeast Asia.'
+      n: 'FRUS 1964–68, XIV, doc. [74](https://history.state.gov/historicaldocuments/frus1964-68v14/d74) (RG 59, Central Files 1964–66, POL 15 USSR; repeated to London, Paris and Bonn). Made public: 2001. See [[cal.1964-11.china]]. Names: Kohler, Zhou Enlai, Brezhnev.'
+      tags: [polity:us, polity:ussr, name:kohler-foy-d, name:zhou-enlai, name:brezhnev-leonid]
+- add:
+    entry:
+      id: cal.1965-06-24.china-leadership-12
+      when: June 24
+      date: '1965-06-24'
+      place: algiers
+      thread: china-foreign
+      c: Chen Yi meets Subandrio, Indonesia's first deputy prime minister and foreign minister, in the evening.
+      n: '[[w.chen-yi-nianpu]], 1104 (June 24, 1965, 晚上, 分别会见: the evening, Chen Yi meets Subandrio, Mahmoud Riad and Naji Talib separately, in that order). The time is the evening, the nianpu''s word. Made public: 1995. See [[cal.1965-06-24.china-leadership-10]]. Names: Chen Yi, Subandrio.'
+      tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio, vis:only:prc+indonesia]
+      time_range: [1965-06-24T19:00:00Z, 1965-06-24T22:00:00Z]
+      time_band: evening
+      time_zone: Africa/Algiers
+      range_basis: record
+- add:
+    entry:
+      id: cal.1965-06-24.china-leadership-13
+      when: June 24
+      date: '1965-06-24'
+      place: algiers
+      thread: china-foreign
+      follows: [cal.1965-06-24.china-leadership-10]
+      c: Chen Yi meets Naji Talib, Iraq's foreign minister, in the evening.
+      n: '[[w.chen-yi-nianpu]], 1104 (June 24, 1965, 晚上, 分别会见: the evening, Chen Yi meets Subandrio, Mahmoud Riad and Naji Talib separately, in that order). The time is the evening, the nianpu''s word. The order: after [[cal.1965-06-24.china-leadership-10]], the printed order alone ([[w.chen-yi-nianpu]], 1104). Made public: 1995. See [[cal.1965-06-24.china-leadership-10]]. Names: Chen Yi, Talib.'
+      tags: [polity:prc, polity:iraq, name:chen-yi, name:talib-naji, vis:only:prc+iraq]
+      time_range: [1965-06-24T19:00:00Z, 1965-06-24T22:00:00Z]
+      time_band: evening
+      time_zone: Africa/Algiers
+      range_basis: record
+- follows:
+    id: cal.1965-06-24.china-leadership-10
+    add: [cal.1965-06-24.china-leadership-12]
+    basis: the printed order alone ([[w.chen-yi-nianpu]], 1104)
+- tag:
+    id: cal.1964-11-05.china-leadership-5
+    add: [ok:note-substance]
+- tag:
+    id: cal.1964-11.china
+    add: [ok:note-substance]

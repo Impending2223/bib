@@ -43,13 +43,15 @@ ops:
       date: '1960-01-06'
       place: washington
       thread: latin-america-trip
-      c: 'White House announces Eisenhower''s ten-day trip to Brazil, Argentina, Chile and Uruguay, with Mrs. Eisenhower: Brazil Feb. 23–26, Argentina Feb. 26–29, Chile Feb. 29–Mar. 2, Uruguay Mar. 2–3, with stops at Ramey Air Force Base, Puerto Rico. Milton Eisenhower, Herter, Rubottom and five members of the National Advisory Committee on Inter-American Affairs will go. The trip is to "publicly reflect" his "deep interest in all the countries of the New World."'
-      n: 'E. W. Kenworthy, "President Weighs Stops in Far East After Soviet Trip," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 4. "Washington Proceedings," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 13. Names: Dwight D. Eisenhower, Milton Eisenhower, Herter, Rubottom.'
+      c: 'White House announces Eisenhower''s ten-day trip to Brazil, Argentina, Chile and Uruguay, with Mrs. Eisenhower: Brazil Feb. 23–26, Argentina Feb. 26–29, Chile Feb. 29–Mar. 2, Uruguay Mar. 2–3, with stops at Ramey Air Force Base, Puerto Rico. Milton Eisenhower, Herter, Rubottom and five members of the National Advisory Committee on Inter-American Affairs (Donnelly, Holland, Knight, Meyer and Munro) will go. The trip is to "publicly reflect" his "deep interest in all the countries of the New World." Hagerty: the Puerto Rico stops are to refuel and rest; the President may stay overnight at Ramey but will not go into San Juan.'
+      n: 'E. W. Kenworthy, "President Weighs Stops in Far East After Soviet Trip," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 4. "Washington Proceedings," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 13. Names: Dwight D. Eisenhower, Milton Eisenhower, Herter, Rubottom, Hagerty.'
       tags:
       - name:eisenhower-dwight-d
       - name:eisenhower-milton-s
       - name:herter-christian-a
       - name:rubottom-roy-r-jr
+      - name:hagerty-james-c
+      - ok:fields-time
 - add:
     entry:
       id: cal.1960-01-06.latin-america-peru
@@ -57,11 +59,11 @@ ops:
       date: '1960-01-06'
       place: washington
       thread: latin-america-peru
-      c: Peru's Government is understood to have called in the U.S. Ambassador, Achilles, to express disappointment that Peru is not on Eisenhower's itinerary. Officials say Peru was ruled out because a visit would require one to Ecuador, whose capital, Quito, stands at 9,300 feet; Eisenhower has had to avoid such heights since his heart attack in 1955. Officials give no support to speculation that Nixon's reception at Lima in 1958 was the reason, but concede that the mob attack on his motorcade at Caracas was the main reason Venezuela is left out.
-      n: 'E. W. Kenworthy, "President Scans Trip to Far East," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 4. Check: the day. Names: Achilles, Nixon.'
+      c: Peru's Government is understood to have called in the U.S. Ambassador, Achilles, to express disappointment that Peru is not on Eisenhower's itinerary.
+      n: 'E. W. Kenworthy, "President Weighs Stops in Far East After Soviet Trip," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 4. Check: the day. Names: Achilles, Eisenhower.'
       tags:
       - name:achilles-theodore-c
-      - name:nixon-richard-m
+      - name:eisenhower-dwight-d
 - add:
     entry:
       id: cal.1960-01-06.latin-america-trip-2
@@ -72,9 +74,11 @@ ops:
       also:
       - congress
       c: 'Fulbright, chairman of the Senate Foreign Relations Committee, on Eisenhower''s decision to go: "Our relations with Latin America have been deteriorating for several years. I hope he will be able to repair them in this trip."'
-      n: 'E. W. Kenworthy, "President Scans Trip to Far East," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 4. Names: Fulbright.'
+      n: 'E. W. Kenworthy, "President Weighs Stops in Far East After Soviet Trip," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 4. Names: Fulbright.'
       tags:
       - name:fulbright-j-william
+      follows:
+      - cal.1960-01-06.latin-america-trip
 - add:
     entry:
       id: cal.1960-01-06.latin-america-trip-3
@@ -85,10 +89,12 @@ ops:
       also:
       - republican-party-congress
       c: Aiken of Vermont and Capehart of Indiana, Republican Senators who made separate trips to Latin America during the congressional recess, say Eisenhower's trip will improve relations with Latin America and predict he will be warmly received.
-      n: 'E. W. Kenworthy, "President Scans Trip to Far East," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 4. Names: Aiken, Capehart.'
+      n: 'E. W. Kenworthy, "President Weighs Stops in Far East After Soviet Trip," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 4. Names: Aiken, Capehart.'
       tags:
       - name:aiken-george-d
       - name:capehart-homer-e
+      follows:
+      - cal.1960-01-06.latin-america-trip
 - add:
     entry:
       id: cal.1960-01-06.latin-america
@@ -96,10 +102,26 @@ ops:
       date: '1960-01-06'
       place: washington
       thread: latin-america
-      c: Colombia's President, Lleras Camargo, will make a state visit to Washington in April, the White House announces.
-      n: 'E. W. Kenworthy, "President Scans Trip to Far East," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 4. Check: the day. Names: Lleras Camargo.'
+      c: Colombia's President, Lleras Camargo, is to make a state visit to Washington in April.
+      n: 'E. W. Kenworthy, "President Weighs Stops in Far East After Soviet Trip," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 4. Check: the day. Names: Lleras Camargo.'
       tags:
       - name:lleras-camargo-alberto
+- add:
+    entry:
+      id: cal.1960-01-06.latin-america-trip-4
+      when: Jan. 6
+      date: '1960-01-06'
+      place: washington
+      thread: latin-america-trip
+      also:
+      - latin-america-peru
+      c: Officials say a visit to Peru was ruled out because it would require one to Ecuador, whose capital, Quito, stands at 9,300 feet; since his heart attack in 1955 Eisenhower has had to avoid such heights. Altitude also rules out La Paz and Bogotá. They give no support to speculation that the demonstrations against Nixon at Lima in 1958 were the reason, but concede that the mob attack on his motorcade at Caracas is the main reason Venezuela is left out.
+      n: 'E. W. Kenworthy, "President Weighs Stops in Far East After Soviet Trip," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 4. See [[cal.1960-01-06.latin-america-trip]]. Names: Eisenhower, Nixon.'
+      tags:
+      - name:eisenhower-dwight-d
+      - name:nixon-richard-m
+      follows:
+      - cal.1960-01-06.latin-america-peru
 - add:
     entry:
       id: cal.1960-01-06.japan-and-korea-far-east
@@ -307,7 +329,7 @@ ops:
       place: washington
       thread: elections-1960
       c: Representative Levering, Democrat of Ohio, in his first term, says he will seek re-election this fall.
-      n: '"Opponent for Mundt," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html).'
+      n: '[*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html).'
       tags:
       - state:oh
 - add:
@@ -343,7 +365,7 @@ ops:
       also:
       - voting-rights
       - farm
-      c: Rayburn, at a news conference, says a House majority for a civil rights bill has only to sign a petition to discharge the Rules Committee from the bill the Judiciary Committee approved in 1959; 219 signatures are needed. He has never signed one and does not advocate it. He expects no tax cut, a minimum wage between $1.10 and $1.25, and "farm legislation of some sort," and pledges to cooperate with Eisenhower "on everything he advocates that we think is right."
+      c: Rayburn, at a news conference, says a House majority for a civil rights bill has only to sign a petition to discharge the Rules Committee from the bill the Judiciary Committee approved in 1959; 219 signatures are needed. He has never signed one and does not advocate it, but calls it "an easy way" to get the bill before the House. He expects no tax cut, a minimum wage between $1.10 and $1.25, and "farm legislation of some sort," and pledges to cooperate with Eisenhower "on everything he advocates that we think is right."
       n: 'John D. Morris, "Democrats Seek to Force Action on Civil Rights Bill," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 14. Russell Baker, "Congress Chiefs Emphasize Amity as Session Opens," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 13. Names: Rayburn, Eisenhower.'
       tags:
       - name:rayburn-sam
@@ -391,6 +413,15 @@ ops:
       - name:rayburn-sam
 - add:
     entry:
+      id: cal.1960-01-06.congress-5
+      when: Jan. 6
+      date: '1960-01-06'
+      place: washington
+      thread: congress
+      c: 'Bipartisan agreement on the major bills to be taken up early in the session: Federal aid to the States for school construction, civil rights, extension of minimum-wage coverage, expansion of the Social Security program, and farm legislation.'
+      n: 'Russell Baker, "Congress Chiefs Emphasize Amity as Session Opens," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 13.'
+- add:
+    entry:
       id: cal.1960-01-06.elections-1960-nomination
       when: Jan. 6
       date: '1960-01-06'
@@ -434,9 +465,10 @@ ops:
       - elections-1960-nomination
       - congress
       c: On the Senate floor Humphrey, a declared candidate, Symington and Nixon spend a busy hour shaking hands among the Senators. Kennedy does not reach the floor; his aides say he was busy in his office and the session ended before he could get away.
-      n: 'Russell Baker, "Congress Chiefs Emphasize Amity as Session Opens," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 13. Names: Humphrey, Nixon, Kennedy.'
+      n: 'Russell Baker, "Congress Chiefs Emphasize Amity as Session Opens," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 13. Names: Humphrey, Symington, Nixon, Kennedy.'
       tags:
       - name:humphrey-hubert-h
+      - name:symington-william-s
       - name:nixon-richard-m
       - name:kennedy-john-f
 - add:
@@ -448,7 +480,7 @@ ops:
       thread: voting-rights
       also:
       - congress
-      c: McCormack, the Democratic floor leader, begins passing the word that Rayburn's remarks were an invitation to sign the discharge petition, and joins Celler, the bill's manager, in a drive for signatures. The unofficial count is 120. The petition lies on the Speaker's desk, where members may sign or withdraw their names; supporters say about fifty-five Republicans' signatures will be needed.
+      c: McCormack, the Democratic floor leader, begins passing the word that Rayburn's remarks were an invitation to sign the discharge petition, and joins Celler, the bill's manager, in a drive for signatures. The unofficial count is 120. The petition lies on the Speaker's desk, where members may sign or withdraw their names; supporters say about fifty-five Republicans' signatures will be needed. A Democratic source says six Republicans have signed so far.
       n: 'John D. Morris, "Democrats Seek to Force Action on Civil Rights Bill," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 14. Names: McCormack, Celler.'
       tags:
       - name:mccormack-john-w
@@ -495,7 +527,7 @@ ops:
       date: '1960-01-06'
       place: norfolk-va
       thread: defense
-      c: Gates returns from a two-day meeting at Atlantic Fleet headquarters, Norfolk, with the Joint Chiefs, the service secretaries and field commanders from all over the world, where the question of the chiefs' differences arose.
+      c: Gates holds a two-day meeting at Atlantic Fleet headquarters, Norfolk, Va., with the Joint Chiefs, the service secretaries and field commanders from all over the world.
       n: 'Jack Raymond, "Gates Acts to Nip Policy Disputes of Joint Chiefs," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 6. Check: the days. Names: Gates.'
       tags:
       - name:gates-thomas-s-jr
@@ -506,12 +538,22 @@ ops:
       date: '1960-01-06'
       place: nyc
       thread: defense
-      c: Taylor, the retired Army Chief of Staff, criticizes the state of U.S. defense in New York; the charge that most provokes Gates is that the Soviet Union is two years ahead in long-range ballistic missiles. His book, *The Uncertain Trumpet*, goes on sale; it asks an end to the Joint Chiefs, to be replaced by a single chief, and says that from 1955 to 1959 the Chiefs sent the Secretary of Defense at least twenty-three split papers.
+      c: Taylor, the retired Army Chief of Staff, criticizes the state of U.S. defense in New York; the charge that most provokes Gates is that the Soviet Union is two years ahead of the United States in long-range ballistic missiles.
       n: 'Jack Raymond, "Gates Acts to Nip Policy Disputes of Joint Chiefs," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 6. Names: Taylor, Gates.'
       tags:
       - name:taylor-maxwell
       - name:gates-thomas-s-jr
       - city:nyc
+- add:
+    entry:
+      id: cal.1960-01-06.defense-7
+      when: Jan. 6
+      date: '1960-01-06'
+      thread: defense
+      c: Taylor's book, *The Uncertain Trumpet*, goes on sale. It asks an end to the Joint Chiefs, to be replaced by a single chief; says that from 1955 to 1959 the Chiefs sent the Secretary of Defense at least twenty-three split papers; and complains that the chiefs only infrequently had access to the President, and almost as infrequently to the Secretary of Defense.
+      n: 'Jack Raymond, "Gates Acts to Nip Policy Disputes of Joint Chiefs," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 6. Names: Taylor.'
+      tags:
+      - name:taylor-maxwell
 - add:
     entry:
       id: cal.1960-01-06.defense-4
@@ -581,7 +623,7 @@ ops:
       place: havana
       thread: cuba
       c: About 300 Cuban Navy men are detained in a clean-up operation, "usually well informed sources" say. The press bureau of the Ministry of Armed Forces says it has no information.
-      n: '"Cuban High Schools Get Army Program," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Check: the day.'
+      n: '[*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Check: the day.'
 - add:
     entry:
       id: cal.1960-01-06.trade
@@ -610,14 +652,14 @@ ops:
 - add:
     entry:
       id: cal.1960-01-06.testing
-      when: Jan. 6
+      when: By Jan. 6
       date: '1960-01-06'
       place: london
       thread: testing
       also:
       - europe-and-the-alliance-britain
       c: Fifty-eight prominent Britons sign an appeal to the United States to renew its suspension of nuclear weapons testing. The Campaign for Nuclear Disarmament, which issues it, calls Washington's decision not to renew the suspension a setback to the progress of 1959 and a threat to hopes for advance toward disarmament.
-      n: '"Britons in Plea to U. S.," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html).'
+      n: '"Britons in Plea to U. S.," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Check: the day.'
 - add:
     entry:
       id: cal.1960-01-06.canada
@@ -667,7 +709,7 @@ ops:
       date: '1960-01-06'
       place: warsaw
       thread: soviet-union
-      c: '*Trybuna Ludu*, the Polish Communist party newspaper, accuses Stefan Cardinal Wyszyński, Primate of Poland, of "conscience" in opposing birth control and abortion, and of "tolerating the theft of state property." It says his criticism of the 1956 law legalizing abortions under certain conditions contradicts "the elementary foundations of legality."'
+      c: '*Trybuna Ludu*, the Polish Communist party newspaper, in a long article takes Cardinal Wyszyński and his church to task for campaigning against birth control and abortion and for "tolerating the theft of state property." It accuses him of insulting Polish health services, and says his criticism of the 1956 law legalizing abortions under certain conditions contradicts "the elementary foundations of legality."'
       n: '"Wyszynski Scored Over Birth Control," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Names: Wyszyński.'
       tags:
       - name:wyszynski-stefan-cardinal
@@ -692,7 +734,7 @@ ops:
       date: '1960-01-06'
       place: rome
       thread: soviet-union
-      c: The Continentale news agency reports widespread arrests of Jews in Rumania, accused of "illegal Zionist activities," particularly in Cluj, Bucharest and Iassy. Twenty-five men accused of "Zionist espionage" are to go on trial soon, the agency says, and several Rumanian rabbis loyal to the Communist regime have denounced Zionism as "a manifestation of imperialism."
+      c: The Continentale news agency reports widespread arrests of Jews in Rumania, accused of "illegal Zionist activities," particularly in Cluj, Bucharest and Jassy. Twenty-five men accused of "Zionist espionage" are to go on trial soon, the agency says, and several Rumanian rabbis loyal to the Communist regime have denounced Zionism as "a manifestation of imperialism."
       n: '"Jews'' Arrest Reported," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
       tags:
       - polity:romania
@@ -761,14 +803,14 @@ ops:
 - add:
     entry:
       id: cal.1960-01-06.africa-algeria-morocco
-      when: Jan. 6
+      when: By Jan. 6
       date: '1960-01-06'
       place: rabat
       thread: africa-algeria-morocco
       also:
       - europe-and-the-alliance-france
-      c: French quarters in Rabat object to the new U.S.–Moroccan agreement on the Voice of America relay station in Tangier, which bars its use by third parties and ends France's right to three hours a day of broadcasts; France was not told of U.S. intentions during the talks, they say. An authoritative Moroccan source says there are "no plans" to use the station for Morocco's position on Algeria or Mauritania.
-      n: Thomas F. Brady, "France Opposes U. S. Radio Accord," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html).
+      c: French quarters in Rabat object to the new U.S.–Moroccan agreement on the Voice of America relay station in Tangier, which bars its use by third parties and ends France's right to three hours a day of broadcasts, and fear Morocco may use the transmitters for nationalist programs to Algeria or to press its claims to Mauritania. France was not told of U.S. intentions during the negotiations, they say.
+      n: 'Thomas F. Brady, "France Opposes U. S. Radio Accord," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Check: the day.'
       tags:
       - polity:fr
       - polity:morocco
@@ -782,7 +824,37 @@ ops:
       also:
       - europe-and-the-alliance-france
       c: State Department officials say France has made no formal protest against the U.S.–Moroccan agreement on the Voice of America station at Tangier, but has made inquiries about it before, during and after the negotiations.
-      n: Thomas F. Brady, "France Opposes U. S. Radio Accord," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html).
+      n: '"No Formal Protest Made," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). See [[cal.1960-01-06.africa-algeria-morocco]].'
+- add:
+    entry:
+      id: cal.1960-01-06.africa-algeria-morocco-4
+      when: Jan. 6
+      date: '1960-01-06'
+      place: rabat
+      thread: africa-algeria-morocco
+      c: An authoritative Moroccan source says there are "no plans" to use the Voice of America transmitters at Tangier to further Moroccan policy on the Algerian or Mauritanian questions.
+      n: 'Thomas F. Brady, "France Opposes U. S. Radio Accord," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). See [[cal.1960-01-06.africa-algeria-morocco]].'
+      tags:
+      - polity:morocco
+      follows:
+      - cal.1960-01-06.africa-algeria-morocco
+      time_range:
+      - 1960-01-06T22:00Z
+      - 1960-01-07T00:00Z
+      time_band: night
+      time_zone: Africa/Casablanca
+      range_basis: record
+- add:
+    entry:
+      id: cal.1960-01-06.africa-algeria-morocco-5
+      when: By Jan. 6
+      date: '1960-01-06'
+      place: rabat
+      thread: africa-algeria-morocco
+      c: On the U.S. side at Rabat it is pointed out that Morocco was given two hours a day on the Tangier transmitters last year as a preliminary gesture, and did not use the time for broadcasts to Algeria or Mauritania.
+      n: 'Thomas F. Brady, "France Opposes U. S. Radio Accord," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Check: the day. See [[cal.1960-01-06.africa-algeria-morocco]].'
+      tags:
+      - polity:morocco
 - add:
     entry:
       id: cal.1960-01-06.europe-and-the-alliance
@@ -843,7 +915,7 @@ ops:
       thread: africa
       also:
       - europe-and-the-alliance-britain
-      c: Macmillan, on the first day of his African tour, is received by Nkrumah at Accra with a guard of honor and a restrained welcome from Ghanaian crowds. Nkrumah hopes the tour will strengthen relations between Ghana and Britain and between Africa and the world; Macmillan says he has come "to see and learn." The procession avoids downtown Accra.
+      c: Macmillan, on the first day of his African tour, is received by Nkrumah at Accra with a guard of honor and a restrained welcome from Ghanaian crowds. Nkrumah hopes the tour will strengthen relations between Ghana and Britain and between Africa and the world; Macmillan says he has come "to see and learn", and that the peoples of Britain and Ghana are "long accustomed to working together." The procession avoids downtown Accra.
       n: 'Homer Bigart, "Macmillan Finds Ghana Friendly," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Names: Macmillan, Nkrumah.'
       tags:
       - name:macmillan-harold
@@ -938,6 +1010,19 @@ ops:
       - state:nj
 - add:
     entry:
+      id: cal.1960-01-06.africa-6
+      when: By Jan. 6
+      date: '1960-01-06'
+      place: johannesburg
+      thread: africa
+      also:
+      - press-and-broadcasting
+      c: 'The *Star*, Johannesburg, on the South African Foundation''s task: it is impossible to explain abroad the police''s use of firearms where tear gas would suffice, banishment and banning orders, the arbitrary refusal of passports, the reservation of jobs for whites that Africans might otherwise fill, and the Government''s opposition to television.'
+      n: 'Leonard Ingalls, "South Africa Business Men Plan Drive to Win World''s Goodwill," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Check: the day. See [[cal.1960-01-06.africa-4]].'
+      tags:
+      - polity:south-africa
+- add:
+    entry:
       id: cal.1960-01-06.europe-and-the-alliance-france-3
       when: Jan. 6
       date: '1960-01-06'
@@ -946,16 +1031,18 @@ ops:
       also:
       - defense
       - europe-and-the-alliance-britain
-      c: Twenty-two North American F-100-D Super Sabres of the 493d Squadron, 48th Tactical Fighter Wing, arrive at Lakenheath, Suffolk, from Chaumont, France, led by Col. Victor E. Warford; two more squadrons will follow by mid-month. They move under De Gaulle's decision last spring that only nuclear weapons under his control may be stored on French soil; more than 100 U.S. aircraft have gone to Britain since. The Air Force keeps publicity to a minimum.
+      c: Twenty-two North American F-100-D Super Sabres of the 493d Squadron, 48th Tactical Fighter Wing, begin to arrive at Lakenheath, Suffolk, from Chaumont, France, at about 11:30 a.m., led by Col. Victor E. Warford; two more squadrons will follow by mid-month. They move under De Gaulle's decision last spring that only nuclear weapons under his control may be stored on French soil; more than 100 U.S. aircraft have gone to Britain since. The Air Force keeps publicity to a minimum.
       n: 'Walter H. Waggoner, "22 U. S. Aircraft Shift to England," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Names: De Gaulle.'
       tags:
       - name:de-gaulle-charles
+      time: 1960-01-06T11:30Z
+      time_approx: true
+      time_zone: Europe/London
 - add:
     entry:
       id: cal.1960-01-06.europe-and-the-alliance-britain
       when: Jan. 6
       date: '1960-01-06'
-      place: lakenheath
       thread: europe-and-the-alliance-britain
       also:
       - defense
@@ -992,7 +1079,7 @@ ops:
       thread: china-foreign
       also:
       - indonesia
-      c: Fang Fang, vice chairman of the Overseas Chinese Affairs Commission, at a meeting in Shanghai on the situation of the Chinese in Indonesia, says a budget has been fixed for resettling "at least" 600,000 overseas Chinese in 1960. The Government will "receive all returned overseas Chinese, whether there are half a million or several million," he is quoted as saying in the Communist daily *Kung Pao*; Hainan alone could take 500,000.
+      c: Fang Fang, vice chairman of the Overseas Chinese Affairs Commission, at a meeting in Shanghai on the situation of the Chinese in Indonesia, says a budget has been fixed for resettling "at least" 600,000 overseas Chinese in 1960. The Government will "receive all returned overseas Chinese, whether there are half a million or several million," he is quoted as saying in the Communist daily *Kung Pao*; Hainan alone could take 500,000, and the Gutian hydroelectric station in Fujian has contracted to take 10,000.
       n: 'Tillman Durdin, "Red China Invites Indonesia Aliens," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Check: the day. Names: Fang Fang.'
       tags:
       - name:fang-fang
@@ -1065,13 +1152,36 @@ ops:
       - polity:laos
 - add:
     entry:
+      id: cal.1960-01-06.laos-2
+      when: By Jan. 6
+      date: '1960-01-06'
+      place: vientiane
+      thread: laos
+      c: 'An army communiqué says five generals called on King Savang Vatthana to report that "the High Command has deemed it has achieved its task of restoring Constitutional legality in order and security."'
+      n: '"Laos King Urged to Act," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 4. Check: the day. Names: Savang Vatthana.'
+      tags:
+      - name:savang-vatthana
+      - polity:laos
+- add:
+    entry:
       id: cal.1960-01-06.korea
       when: Jan. 6
       date: '1960-01-06'
       place: seoul
       thread: korea
-      c: Korean newspapers urge that South Korean courts be given jurisdiction over off-duty offenses by U.S. servicemen, to prevent a repeat of the head-shaving of two Korean prostitutes at a U.S. Army camp last Saturday, on orders of Capt. John W. McEnery; the *Chosun Ilbo* says that otherwise "our trust in United States forces" will not be solid. The United States has no status-of-forces treaty with Korea. Moon In Koo, chief of the Justice Ministry's Prosecution Section, says "strong protest should be made through diplomatic channels."
+      c: Korean newspapers urge that South Korean courts be given jurisdiction over off-duty offenses by U.S. servicemen, to prevent a repeat of the head-shaving of two Korean prostitutes at a U.S. Army camp last Saturday, on orders of Capt. John W. McEnery; the *Chosun Ilbo* says that otherwise "our trust in United States forces" will not be solid. The United States has no status-of-forces treaty with Korea.
       n: '"Koreans Ask U. S. Pact," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 6.'
+      tags:
+      - polity:rok
+- add:
+    entry:
+      id: cal.1960-01-06.korea-2
+      when: By Jan. 6
+      date: '1960-01-06'
+      place: seoul
+      thread: korea
+      c: 'Moon In Koo, chief of the Justice Ministry''s Prosecution Section, says a "strong protest should be made through diplomatic channels" on the head-shaving of Him Ae Soon and Kim Chung Ja at a U.S. Army camp last Saturday.'
+      n: '"Koreans Ask U. S. Pact," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 6. Check: the day. See [[cal.1960-01-06.korea]].'
       tags:
       - polity:rok
 - add:
@@ -1093,7 +1203,7 @@ ops:
       date: '1960-01-06'
       place: yokosuka
       thread: japan
-      c: A fire destroys a hospital at Yokosuka, killing eight adults and eight newborn infants; a faulty kerosene stove is said to have caused it.
+      c: A fire destroys a hospital at Yokosuka. Eight adults are known dead and eight newborn infants are believed lost; a faulty kerosene stove is said to have caused it.
       n: '"Japan Hospital Fire Kills 16," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html).'
       tags:
       - polity:japan
@@ -1135,30 +1245,47 @@ ops:
       tags:
       - polity:frg
       - ok:fields-time
+- add:
+    entry:
+      id: cal.1960-01-06.europe-and-the-alliance-federal-republic-9
+      when: Jan. 6
+      date: '1960-01-06'
+      place: bonn
+      thread: europe-and-the-alliance-federal-republic
+      c: Bonn announces that the Government will press Parliament for immediate adoption of the Penal Code amendment against anti-Semitism, with a minimum sentence of three months, after the Interior Ministry's news conference.
+      n: 'Sydney Gruson, "Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 2. See [[cal.1960-01-06.europe-and-the-alliance-federal-republic]].'
+      tags:
+      - polity:frg
       follows:
       - cal.1960-01-06.europe-and-the-alliance-federal-republic
+      - cal.1960-01-06.europe-and-the-alliance-federal-republic-2
+      time_range:
+      - 1960-01-06T21:00Z
+      - 1960-01-06T23:00Z
+      time_band: night
+      time_zone: Europe/Berlin
+      range_basis: record
 - add:
     entry:
       id: cal.1960-01-06.europe-and-the-alliance-federal-republic-3
       when: Jan. 6
       date: '1960-01-06'
-      place: hamburg
       thread: europe-and-the-alliance-federal-republic
       c: Max Brauer, Socialist Lord Mayor of Hamburg, calls the Government's proposed amendment against anti-Semitism inadequate, the first reaction to it.
       n: Sydney Gruson, "Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2.
       tags:
       - polity:frg
+      - ok:fields-place
       follows:
-      - cal.1960-01-06.europe-and-the-alliance-federal-republic
+      - cal.1960-01-06.europe-and-the-alliance-federal-republic-9
 - add:
     entry:
       id: cal.1960-01-06.europe-and-the-alliance-federal-republic-4
       when: By Jan. 6
       date: '1960-01-06'
-      place: bonn
       thread: europe-and-the-alliance-federal-republic
       c: Karl Marx, editor of the German Jewish weekly, blames the Adenauer Government for having sought "too many compromises" in dealing with the revival of Nazism, and calls for greater efforts to combat the spread of anti-Semitism.
-      n: 'Sydney Gruson, "Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day. Names: Adenauer.'
+      n: '"Stiffer Legal Action Sought," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day. Names: Adenauer.'
       tags:
       - name:adenauer-konrad
       - polity:frg
@@ -1167,10 +1294,9 @@ ops:
       id: cal.1960-01-06.europe-and-the-alliance-federal-republic-5
       when: By Jan. 6
       date: '1960-01-06'
-      place: bonn
       thread: europe-and-the-alliance-federal-republic
       c: Van Damm, secretary general of the Central Council of Jews in Germany, calls for "more fighting activity against the powers of destruction."
-      n: 'Sydney Gruson, "Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
+      n: '"Stiffer Legal Action Sought," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
       tags:
       - polity:frg
 - add:
@@ -1181,7 +1307,7 @@ ops:
       place: berlin
       thread: europe-and-the-alliance-federal-republic
       c: The governing board of West Berlin's Free University announces that proceedings have started to expel four neo-Nazi students who took part in the illegal torchlight demonstration last Saturday.
-      n: Sydney Gruson, "Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2.
+      n: '"Stiffer Legal Action Sought," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2.'
       tags:
       - polity:frg
 - add:
@@ -1194,7 +1320,7 @@ ops:
       also:
       - berlin-and-vienna
       c: The West Berlin Justice Department asks the Allied powers for permission to apply an Allied Control Council law banning Nazi activity against seventeen youths arrested the day before on charges of neo-Nazi activity, so that the participants in a Nazi-style torchlight parade can be tried if West German laws prove inapplicable.
-      n: '"Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2.'
+      n: '"Stiffer Legal Action Sought," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2.'
       tags:
       - polity:frg
 - add:
@@ -1205,7 +1331,7 @@ ops:
       place: kiel
       thread: crime-and-hijacking
       c: Swastikas and anti-Semitic slogans are daubed on automobiles and houses in several places in Kiel, the police say.
-      n: '"Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
+      n: '"Stiffer Legal Action Sought," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
       tags:
       - polity:frg
 - add:
@@ -1214,8 +1340,20 @@ ops:
       when: By Jan. 6
       date: '1960-01-06'
       thread: crime-and-hijacking
-      c: Three youths are arrested in Bavaria for neo-Nazi vandalism. Seidel, Minister-President of Bavaria, says twelve cases of vandalism have occurred in the state since Christmas.
-      n: '"Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
+      c: Three youths are arrested in Bavaria for neo-Nazi vandalism.
+      n: '"Stiffer Legal Action Sought," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
+      tags:
+      - polity:frg
+- add:
+    entry:
+      id: cal.1960-01-06.europe-and-the-alliance-federal-republic-10
+      when: By Jan. 6
+      date: '1960-01-06'
+      thread: europe-and-the-alliance-federal-republic
+      also:
+      - crime-and-hijacking
+      c: Seidel, Minister-President of Bavaria, says twelve cases of vandalism have occurred in the state since Christmas.
+      n: '"Stiffer Legal Action Sought," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
       tags:
       - polity:frg
 - add:
@@ -1225,7 +1363,7 @@ ops:
       date: '1960-01-06'
       thread: crime-and-hijacking
       c: In St. Wendel, in the Saar, a 19-year-old youth is arrested while trying to smear swastikas on a wall.
-      n: '"Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
+      n: '"Stiffer Legal Action Sought," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
       tags:
       - polity:frg
 - add:
@@ -1235,7 +1373,7 @@ ops:
       date: '1960-01-06'
       thread: crime-and-hijacking
       c: The police open investigations in four French cities after swastikas and anti-Semitic slogans are daubed on walls and on the homes of Jews, according to Reuters dispatches.
-      n: '"Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
+      n: '"Other European Incidents," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
       tags:
       - polity:fr
 - add:
@@ -1245,7 +1383,7 @@ ops:
       date: '1960-01-06'
       thread: crime-and-hijacking
       c: Three big swastikas are smeared on the royal telegraph station at the summer residence of King Frederik of Denmark at Graasten, and a sports club building at Soenderborg is also smeared.
-      n: '"Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
+      n: '"Other European Incidents," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
       tags:
       - polity:denmark
 - add:
@@ -1256,7 +1394,7 @@ ops:
       place: brussels
       thread: crime-and-hijacking
       c: In Brussels, the star of David is painted on the walls of two cafes reported to be the haunts of wartime Nazi collaborators.
-      n: '"Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
+      n: '"Other European Incidents," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
       tags:
       - polity:belgium
 - add:
@@ -1267,7 +1405,7 @@ ops:
       place: milan
       thread: crime-and-hijacking
       c: In Milan, the police arrest twenty young members of the extreme Right-wing New European Order and confiscate masses of Nazi literature and uniforms.
-      n: '"Bonn Plans Curb on Anti-Semitism," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
+      n: '"Other European Incidents," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 2. Check: the day.'
       tags:
       - polity:italy
 - add:
@@ -1344,10 +1482,10 @@ ops:
       thread: states-and-cities
       also:
       - crime-and-hijacking
-      c: A resolution is introduced in the New York City Council calling on the Police Department to mobilize all available security forces, including Transit Authority policemen, police cadets and auxiliaries, to guard the city's 3,364 churches and synagogues against "Nazi-like desecration and defilement." Sharkey, majority leader, is chief sponsor, with Ross of the Bronx and Weiss of Manhattan; it is referred to the General Welfare Committee, for expected action Tuesday.
-      n: 'Charles G. Bennett, "City Action Urged to Combat Bigots," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Names: Sharkey.'
+      c: A resolution is introduced in the New York City Council calling on the Police Department to mobilize all available security forces, including Transit Authority policemen, police cadets and auxiliaries, to guard the city's 3,364 churches and synagogues against "Nazi-like desecration and defilement." Joseph T. Sharkey, majority leader of the Council, is chief sponsor, with David Ross of the Bronx and Daniel S. Weiss of Manhattan; it is referred to the General Welfare Committee, for expected action Tuesday.
+      n: Charles G. Bennett, "City Action Urged to Combat Bigots," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html).
       tags:
-      - name:sharkey
+      - ok:name-untagged
       - city:nyc
       - state:ny
 - add:
@@ -1432,7 +1570,7 @@ ops:
       date: '1960-01-06'
       place: mamaroneck-ny
       thread: crime-and-hijacking
-      c: Vandals paint four large swastikas in black enamel on the walls and windows of the Westchester Jewish Center, Mamaroneck, N.Y., and leave a cardboard sign about "certain business practices" and "unchallenged" agents who "seek to devalue our currency." Rabbi Irving Koslowe, head of the congregation, says teen-agers might be responsible; Police Chief Jerry Geary calls it the work of a "nut."
+      c: Vandals paint four large swastikas in black enamel on the walls and windows of the Westchester Jewish Center, Mamaroneck, N.Y., and leave a cardboard sign against "certain business practices" that "seek to devalue our currency through inflating values." Rabbi Irving Koslowe, head of the congregation, says teen-agers might be responsible; Police Chief Jerry Geary calls it the work of a "nut."
       n: '"City Action Urged to Combat Bigots," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html).'
       tags:
       - state:ny
@@ -1440,11 +1578,11 @@ ops:
     id: cal.1960-01-06.congress
     base: ba2c8294
     set:
-      n: '[106 Cong. Rec. 1](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt1/pdf/GPO-CRECB-1960-pt1-1-1.pdf) (1960). The Senate sat from noon to 12:24 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1). The House sat from noon to 3 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=2). Russell Baker, "Congress Chiefs Emphasize Amity as Session Opens," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 13. "The Man of the House: Sam Rayburn," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html). Check: the House count, from the changes since the opening of 1959. To check: [[w.caro-master-of-the-senate]]; [[w.dallek-lone-star-rising]]; [[w.evans-lyndon-b-johnson]]; [[w.hardeman-rayburn]]. Names: Nixon, Johnson, Mansfield, Dirksen, Kuchel, Rayburn, McCormack, Halleck.'
+      n: '[106 Cong. Rec. 1](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt1/pdf/GPO-CRECB-1960-pt1-1-1.pdf) (1960). The Senate sat from noon to 12:24 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1). The House sat from noon to 3 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=2). Russell Baker, "Congress Chiefs Emphasize Amity as Session Opens," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 13 (the convening; Brunsdale and Kyl sworn in; the House''s birthday speeches). "Washington Proceedings," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 13 (the Senate''s resolution; Brunsdale and Kyl sworn in; the hours of the sitting). "The Man of the House: Sam Rayburn," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html) (the gavel at noon; his sixteenth year as Speaker). Check: the House count, from the changes since the opening of 1959. To check: [[w.caro-master-of-the-senate]]; [[w.dallek-lone-star-rising]]; [[w.evans-lyndon-b-johnson]]; [[w.hardeman-rayburn]]. Names: Nixon, Johnson, Mansfield, Dirksen, Kuchel, Rayburn, McCormack, Halleck.'
 - add-words:
     id: cal.1960-01-06.congress
     after: end
-    words: Brunsdale of North Dakota is sworn into the Senate, and Kyl of Iowa into the House. Rayburn, on his seventy-eighth birthday and the start of his sixteenth year as Speaker, brings down the gavel at noon, and the House spends much of its session on speeches for him.
+    words: The Senate informs the President by resolution that Congress is in session, and swears in Brunsdale of North Dakota; the House swears in Kyl of Iowa. Rayburn, in his sixteenth year as Speaker, brings down the gavel at noon; it is his seventy-eighth birthday, and the House spends much of its three-hour session on speeches for him.
     text: Russell Baker, "Congress Chiefs Emphasize Amity as Session Opens," [*New York Times*, Jan. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/01/07/issue.html), at 1, 13
 - names:
     id: cal.1960-01-06.congress

@@ -1,6 +1,9 @@
 patch: 2026-11-26-nyt-19600909
 by: Claude (reader, Sonnet; the New York Times of Sept. 9, 1960, the 44 TimesMachine files of the Drive folder "NYT 1960-09-09", R26a), Nov. 26, 2026
 ops:
+- check:
+    id: cal.1960-09-07.elections-1960-kennedy-6
+    text: 'Check: the *Times*, Sept. 9, 1960, prints a photograph of Robert F. Kennedy with Almond, Hodges and Vandiver at a breakfast in Atlanta, the day not given.'
 - primary:
     id: cal.1960-09-08.space
     text: Felix Belair Jr., "Eisenhower Terms Soviet Space Work 'Soulless, Barren'," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 8 (the dedication at Huntsville and von Braun as director of the center; not July 1).
@@ -378,6 +381,7 @@ ops:
       - polity:us
       - state:ma
       - city:miami
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-06-27.cuba-2
@@ -389,6 +393,7 @@ ops:
       tags:
       - polity:honduras
       - polity:us
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-09-08.cuba-2
