@@ -1,10 +1,11 @@
 """build/indochina.html: the map of Vietnam, Laos and Cambodia on a page of its own (the owner's request, Oct. 22, 2026),
 with the gazetteer as a table and the sources. The map is vnmap's (its STYLE 6): the same shapes, layers, script and
-styles as the calendar's annual maps; this module writes only the page around it.
+styles as the map in the calendar's and the threads' pages (tools/bib/maps.py); this module writes only the page around
+it.
 
 STYLE
- 1. The page: a lede (what the map shows), a muted line to the map of China's page (china.html; .vnm-pg, as each
-    annual map's line to this page), the map (vnmap.full_figure: every placed entry, a year selector, all years by
+ 1. The page: a lede (what the map shows), a muted line to the map of China's page (china.html; .vnm-pg, as the
+    line to this page under each map in the calendar), the map (vnmap.full_figure: every placed entry, a year selector, all years by
     default), the gazetteer, the sources and their licenses. Plain statements; no color.
  2. The gazetteer: one row a place of sources/vn-provinces-1966/places.json, in alphabetical order:
     the place as the series writes it (English names stay: CLAUDE.md), linked to the Wikipedia article whose
@@ -17,7 +18,7 @@ STYLE
 import html
 import os
 
-from . import calsplit, datelist, loose, store, vnmap
+from . import calsplit, contents, datelist, loose, maps, store, vnmap
 
 esc = lambda s: html.escape(str(s if s is not None else ""), quote=True)
 
@@ -66,14 +67,7 @@ def page(series, template):
         n_e = sum(len(v) for v in by.values())
         gz, n_g, n_used = _gazetteer(series)
         fig = vnmap.full_figure(series)
-        lst = series.lists["cal"]
-        annual = []
-        for y, eid in sorted(vnmap.anchors(series).items()):
-            hit = series.get(eid)
-            if hit:
-                e = hit[2]
-                h = calsplit.href(lst, calsplit.half_of_date(lst, loose.place_iso(e)) if calsplit.cfg(lst) else 1, eid)
-                annual.append((e["date"], f'<a href="{esc(h)}">{esc(e["when"])}</a>'))
+        annual = in_calendar(series, vnmap)
     finally:
         calsplit.CUR.clear()
         calsplit.CUR.update(saved)
@@ -82,8 +76,9 @@ def page(series, template):
         f"<h1>Indochina, {ys[0]}–{ys[-1]}</h1>",
         f'<p class="lede">Vietnam, Laos and Cambodia: the calendar\'s entries placed on one map, {n_e} entries tagged with '
         f'a place or a province, {ys[0]}–{ys[-1]}, at {n_used} of the gazetteer\'s {n_g} places. A year at a time, or '
-        'all together. The same map stands in the calendar a year at a time, at each year\'s first entry placed in the '
-        'Republic of Vietnam.</p>',
+        'all together, or any span of dates. The same map stands in each page of the calendar that holds a placed '
+        'entry, under the day of the first, and at the head of the pages of the threads of Vietnam and Laos, each on '
+        'its page\'s dates.</p>',
         '<p class="vnm-pg">China on a map of its own: <a href="china.html">China</a>.</p>',
         '<h2 id="map" data-short="Map">The map</h2>',
         fig,
@@ -94,8 +89,13 @@ def page(series, template):
         '(today\'s); relief, elevation, contours, rivers and lakes (a reservoir from its dam\'s year), climate, rain by '
         'month, population (1960 or 1970, modelled) and the cities\' populations as printed then. Two fingers or the '
         'mouse to move the map; a pinch, a double tap, the buttons, or Ctrl or ⌘ and the wheel to zoom, to 64 times; '
-        'full screen from the last button. Above the map, the year; under it, folded, the year\'s placed entries.</p>',
-        f'<p class="logic">The annual maps in the calendar: {datelist.run(annual)}</p>' if annual else "",
+        'full screen from the last button. Above the map, the year, and the span\'s two fields, From and to: the map '
+        'shows the entries dated within them. A year\'s button fills them. A date typed by hand reads in the '
+        'calendar\'s form (Apr. 15, 1961) or as 1961-04-15; a month or a year alone reads as its first day in the '
+        'first field and its last in the second; what does not read changes nothing. Under the map, folded, the '
+        'span\'s placed entries.</p>',
+        f'<p class="logic">The map in the calendar\'s pages, by the day it stands under: {datelist.run(annual)}</p>'
+        if annual else "",
         f'<h2 id="gazetteer" data-short="Gazetteer">The gazetteer</h2>',
         f'<p class="logic">Every place the series has placed or may place, {n_g} in all: the place as the series writes '
         'it, linked to the Wikipedia article whose coordinates it takes; the plain form; the kind; the province of '
@@ -151,6 +151,24 @@ def page(series, template):
     pg = pg.replace("{{page_title}}", "Indochina, 1960–1968").replace("{{main}}", "\n".join(main))
     css, js = vnmap.head_tags()
     return pg.replace("</head>", css + "\n" + CSS + "\n</head>", 1).replace("</body>", js + "\n</body>", 1)
+
+
+def in_calendar(series, m):
+    """[(date, link)]: the map m in each page of the calendar that carries it, by the day it stands under, linked to
+    its anchor there (maps.py, STYLE 3)."""
+    lst = series.lists["cal"]
+    split = calsplit.cfg(lst)
+    out = []
+    for (n, kind), (iso, eid) in sorted(maps.stands(series).items()):
+        if kind != m.KIND:
+            continue
+        lo, hi = calsplit.part_range(lst, n if split else None)
+        h = calsplit.href(lst, n, contents.anchor_id(kind, f"{lo.isoformat()}.{hi.isoformat()}"))
+        hit = series.get(eid)
+        when = (f"{contents.MONTHS[int(iso[5:7]) - 1]} {int(iso[8:])}" if iso else hit[2]["when"] if hit else "")
+        out.append((iso or maps.pad(loose.place_iso(hit[2])) if (iso or hit) else lo.isoformat(),
+                    f'<a href="{esc(h)}">{esc(when)}</a>'))
+    return out
 
 
 CSS = """<style id="vngcss">

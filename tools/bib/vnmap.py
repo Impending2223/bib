@@ -1,7 +1,6 @@
-"""Maps of Vietnam, Laos and Cambodia in the calendar: one a year, 1960–68, "Southeast Asia 1966", set above the year's
-first Southeast Asia table or, in a year without one, at the year's first entry tagged with a place in the Republic of
-Vietnam (STYLE 8), showing every entry of the year that is tagged with a place; and the same map, every year, on a page
-of its own (build/indochina.html; STYLE 6).
+"""The map of Vietnam, Laos and Cambodia: on a page of its own, every year (build/indochina.html; STYLE 6); in each
+page of the calendar that holds an entry tagged with a place, and at the head of the pages of the threads of Vietnam
+and Laos, for the page's own span of dates (STYLE 8; tools/bib/maps.py places it there and keeps the span).
 
 The data (each directory's README): sources/vn-provinces-1966/ (the provinces of late 1966, the gazetteer places.json),
 sources/indochina/ (the one border geometry admin.geojson and the layers, made once by tools/vnmap/). Calendar entries
@@ -21,11 +20,11 @@ STYLE
     named in italics. Borders: the countries and their borders only, no tint, no province. Land and water: no border
     at all. Every line from one geometry (tools/vnmap/base.py): a line is drawn once, at its highest rank, and the
     tints meet the borders exactly. North up; no rotation.
- 2. The year's places: a dot each, in the accent, larger by the number of the year's entries there (by area, constant
-    on screen); the gazetteer's other places small and muted. A tap on a dot lists its entries (date, thread, the first
-    words of the statement), each linked to the entry; a tap elsewhere names the unit under it (and the month's rain,
-    where shown). Under the map, folded, the year's placed entries in date order.
- 3. Names: the year's places first, most entries first, then the gazetteer's by rank (1, the capitals and the largest
+ 2. The span's places (the span: maps.py STYLE 2): a dot each, in the accent, larger by the number of the span's
+    entries there (by area, constant on screen); the gazetteer's other places small and muted. A tap on a dot lists its
+    entries (date, thread, the first words of the statement), each linked to the entry; a tap elsewhere names the unit
+    under it (and the month's rain, where shown). Under the map, folded, the span's placed entries in date order.
+ 3. Names: the span's places first, most entries first, then the gazetteer's by rank (1, the capitals and the largest
     cities; 2, province capitals, the main bases and battlefields, from about twice the first view; 3, the rest, from
     six times), placed by the library's collision (right, left, above, below the dot; never over another); a constant
     size on screen. Names (a box): the units' names, the corps zones' or regions', and the rivers' along their course.
@@ -35,43 +34,44 @@ STYLE
     RVN's, and North Vietnam's regions under Regions.
  5. Nothing heavy in the pages: the client (one module, build/vnmap/vnmap-<hash>.js, its CSS beside it) loads the
     library only when a map comes within 600 px of the screen; the manifest (build/geo/vn-<hash>.json: the files, the
-    legends, the places) and the borders then; each layer's file the first time the layer is shown. Rasters are tiles
+    legends, the places), the borders and the entries of the span's years (maps.py STYLE 1) then; each layer's file
+    the first time the layer is shown. Rasters are tiles
     in one PMTiles file each, read by range requests (GitHub Pages answers them; locally, a server that does:
     `npx http-server build`, not `python3 -m http.server`). At most four maps drawn at once on a page; the farthest is
     given up and drawn again when it nears. Drawn at a pixel ratio of 2 at most (a phone's 2.6 or 3 costs half as many
     pixels again a frame for no visible gain at map scale).
  6. The map on a page of its own, build/indochina.html (the owner's request, Oct. 22, 2026; the page around it is
     tools/bib/indochina.py): the same figure, styles and script (`full_figure`, class `full`), with every placed
-    entry, each carrying its year, and a year selector above the controls (All years, the default, then 1960–68 and
-    any other year with a placed entry), each year a link anchored `y<YYYY>` (`yall`), so `indochina.html#y1965`
-    opens on 1965; a choice rewrites the address, no scroll. The selected year's entries make the dots, the tap's
-    list, the folded list and the caption's count; in All years each date carries its year; lakes drawn from their
-    dam's year to the year chosen (1968 for All years). The first view the layers' frame (lon 100–110.5, lat
-    8–23.5), the box in its proportion, as tall as the screen allows; a tap's list links the place's gazetteer row
-    (`#pl-<id>`). Each annual map in the calendar closes with a muted line to the page, at its year.
+    entry, and a year selector above the span's fields (All years, the default, then 1960–68 and any other year
+    with a placed entry), each year a link anchored `y<YYYY>` (`yall`), so `indochina.html#y1965` opens on 1965; a
+    choice rewrites the address, no scroll, and fills the span's two fields (All years: the calendar's whole span);
+    a span typed by hand that is no year's leaves no button marked. The span's entries make the dots, the tap's
+    list, the folded list and the caption's count; in a span of more than one year each date carries its year; lakes
+    drawn from their dam's year to the span's last. The first view the layers' frame (lon 100–110.5, lat 8–23.5),
+    the box in its proportion, as tall as the screen allows; a tap's list links the place's gazetteer row
+    (`#pl-<id>`). Each map in the calendar and the threads closes with a muted line to the page.
  7. Layers (boxes), each with its legend part and credit, drawn only when chosen: Relief (the library's hillshade of
     the elevation tiles), Elevation (the library's colour relief of the same tiles, the sea's depth bands under the
     land), Contours, Rivers (and lakes: a reservoir from its dam's year), Climate (Köppen–Geiger, 1961–1990), Rain
     (by month, 1961–1990), Population (persons a km², 1960 or 1970: modelled, made later; the legend says so) and
     Cities (the populations the UN Demographic Yearbook printed, 1960–68, each cited by page). The thematic layers
     mute the tints. The credits under the map name every source shown; the page's Sources gives them in full.
- 8. In the calendar (the owner, Nov. 4, 2026): titled "Southeast Asia 1966" (contents' small capitals, no comma before
-    the year); its caption no second title, the year's count alone. Set on the year's first Monday (the owner, Nov. 11,
-    2026: "on the first Monday of the first week of the year"): the first Monday in January (in 1963 and 1964 the
-    MMWR week 1 opens in December, so its Monday is the year before: the year's own first Monday is taken), or, where
-    the calendar does not hold that day (Jan. 4, 1960, before the span), the first Monday it holds in the year;
-    after the day's entries, at its day block's place (dayblocks.marker), a day block's anchor (contents.day_mark, the
-    Vietnam thread). Before Nov. 11 it stood above the year's first Southeast Asia table (tools/bib/wartable.py), which
-    put 1961's in Week 49; in a year whose Monday the page lacks, at the end of the year's first entry placed in the RVN
-    (anchors), as before.
+ 8. In the calendar and the threads (the owner, Nov. 25, 2026: "In each calendar under the day of the first China
+    entry ... Put them on the relevant threads top, scoped to the thread's content and the page's range"; the same
+    rule for this map, `notes/owner-rulings.md`, 57): maps.py STYLE 3 and 4. A page of the calendar that holds a
+    placed entry carries the map under the day of its first, titled by the page's span ("Southeast Asia, Jan.–Mar.
+    1966"; contents' small capitals, no comma before a bare year), the span's fields on the page's range, the first
+    view the Republic widened to the span's places. Before Nov. 26, 2026 the calendar held a map a year, 1960–68, on
+    the year's first Monday (the owner, Nov. 4 and 11, 2026), each with its year's entries in the page.
 """
 import hashlib
 import json
 import os
 import re
 import shutil
+import sys
 
-from . import chron, contents, store
+from . import chron, store
 
 SRC = os.path.join(store.ROOT, "sources", "vn-provinces-1966")
 LAYERS = os.path.join(store.ROOT, "sources", "indochina")
@@ -87,6 +87,15 @@ HOME_RVN = [102.1, 8.4, 109.5, 17.2]    # an annual map's: the RVN, widened to t
 MAX_FILE = 50 * 2 ** 20                 # check: a map file over this is an error (git takes 100 MB)
 MAX_ALL = 60 * 2 ** 20                  # check: the map's files together
 _C = {}
+# what tools/bib/maps.py asks of a map's module: its names, its page, its figure away from that page
+KEY, KIND, PAGE, NAME = "vn", "vnmap", "indochina.html", "Indochina"
+LABEL = "Map of Vietnam, Laos and Cambodia"
+TAIL = "Provinces as of late 1966; lines approximate."
+BLURB = "Vietnam, Laos and Cambodia, 1960–1968: the calendar's placed entries on one map, by year; the gazetteer"
+SPAN = "1960–68"
+FIGURE = 'class="vnm"'
+DATA = {"home": "rvn"}                  # the first view: the Republic, widened to the span's places
+THREADS = ("vietnam",)                  # the thread the contents list a calendar page's map under
 
 # names the series writes in English (CLAUDE.md: English names stay), for the gazetteer's Vietnamese ones
 ENGLISH = {"Sài Gòn": "Saigon", "Thung lũng Ia Drang": "Ia Drang valley", "Đồi 875": "Hill 875",
@@ -144,10 +153,6 @@ def units():
 
 def shown(p):
     return ENGLISH.get(p["name"], p["name"])
-
-
-def in_rvn(p):
-    return bool(p.get("province")) or p.get("country") == "vn-south"
 
 
 def _hash(b):
@@ -332,51 +337,12 @@ def by_year(series):
     return out
 
 
-def anchors(series):
-    """{year: entry id}: the map goes with the year's first entry placed in the RVN (1960–68)."""
-    G, out = gazetteer(), {}
-    for y, rows in by_year(series).items():
-        if not "1960" <= y <= "1968":
-            continue
-        for e, pl, pv in rows:
-            if pv or any(in_rvn(G.get(p, {})) for p in pl):
-                out[y] = e["id"]
-                break
-    return out
-
-
 def _summary(c):
     from .markup import plain
     t = plain(" ".join(store.as_list(c)))
     t = re.sub(r"\s+", " ", t).strip()
     first = re.split(r"(?<=[.;])\s", t, maxsplit=1)[0]
     return first if len(first) <= 150 else first[:147].rsplit(" ", 1)[0] + " …"
-
-
-def _ents(series, rows, with_year=False, G=None):
-    """The entries a map shows, for its data: link (on the calendar page the entry is in), when, thread, the first
-    words of the statement, places, provinces; and the year, on the page of its own. `G`: the map's own places
-    (the map of China's, tools/bib/cnmap.py); the gazetteer of Indochina otherwise."""
-    from . import calsplit, loose
-    from .build import thread_name
-    lst = series.lists["cal"]
-    G = gazetteer() if G is None else G
-    out = []
-    for e, pl, pv in rows:
-        half = calsplit.half_of_date(lst, loose.place_iso(e)) if calsplit.cfg(lst) else None
-        x = {"h": calsplit.href(lst, half or 1, e["id"]), "w": e["when"], "t": thread_name(lst, e["thread"]),
-             "s": _summary(e.get("c")), "p": [p for p in pl if p in G], "v": pv}
-        if with_year:
-            x["y"] = str(e["date"])[:4]
-        out.append(x)
-    return out
-
-
-def _data(d, ents):
-    """The figure's own data: the entries, and the names of their places (for the folded list before the map)."""
-    d["e"] = ents
-    d["pn"] = {p: shown(gazetteer()[p]) for x in ents for p in x["p"]}
-    return json.dumps(d, ensure_ascii=False).replace("</", "<\\/")
 
 
 def _sw(color, text, cls=""):
@@ -418,7 +384,7 @@ def _key():
     return '<div class="vnm-key">' + "".join(parts) + "</div>"
 
 
-def _bar(full):
+def _bar():
     have = {k for k in FILES if os.path.exists(os.path.join(LAYERS, FILES[k]))}
     seg = ('<span class="seg" role="group" aria-label="Map">'
            + "".join(f'<button type="button" data-mode="{m}" aria-pressed="false">{t}</button>'
@@ -438,97 +404,46 @@ def _bar(full):
     return f'<div class="vnm-bar">{h}</div>'
 
 
-def _box(label, full):
-    return (_bar(full) + f'<div class="vnm-box"><div class="vnm-gl" role="region" aria-label="{label}"></div>'
+def box(label):
+    """The controls, the map's box and the legend: what every figure of this map holds under its span's fields."""
+    return (_bar() + f'<div class="vnm-box"><div class="vnm-gl" role="region" aria-label="{label}"></div>'
             '<div class="vnm-pop" hidden></div></div>' + _key())
 
 
-def block(series, y):
-    rows = by_year(series).get(y, [])
-    ents = _ents(series, rows)
-    n_pl = len({p for x in ents for p in x["p"]})
-    _, _, man = assets()
-    return (f'<figure class="vnm" data-geo="{man}" data-y="{y}">'
-            f'<figcaption class="vnm-cap">The year\'s {len(ents)} placed entries, at {n_pl} places, in Vietnam, Laos '
-            'and Cambodia. Provinces as of late 1966; lines approximate (sources/vn-provinces-1966).</figcaption>'
-            + _box(f"Map of Vietnam, Laos and Cambodia, {y}", False) +
-            '<details class="vnm-list"><summary>The year\'s placed entries</summary>'
-            f'<ol></ol></details><p class="vnm-pg">Every year on one map, with the gazetteer: '
-            f'<a href="indochina.html#y{y}">Indochina</a>.</p>'
-            f'<script type="application/json" class="vnm-d">{_data({"y": y}, ents)}</script></figure>')
+def manifest(series=None):
+    return assets()[2]
+
+
+def ready():
+    """The map can be drawn: its gazetteer, its borders and the vendored library are there (not in the tests' fixture)."""
+    return bool(gazetteer()) and os.path.exists(os.path.join(LAYERS, FILES["admin"])) \
+        and os.path.isdir(os.path.join(VENDOR, MAPLIBRE))
 
 
 def years(series):
     """The years the page's selector offers: 1960–68, and any other year with a placed entry."""
-    return sorted(set(map(str, range(1960, 1969))) | set(by_year(series)))
+    from . import maps
+    return sorted(set(map(str, range(1960, 1969))) | set(maps.entries(series, sys.modules[__name__])["ys"]))
 
 
 def full_figure(series):
     """The map on indochina.html (STYLE 6): every placed entry, a year selector, the frame of the layers."""
     import math
-    by = by_year(series)
+    from . import calsplit, maps
+    E = maps.entries(series, sys.modules[__name__])
     ys = years(series)
-    rows = [r for y in sorted(by) for r in by[y]]
-    ents = _ents(series, rows, with_year=True)
-    n_pl = len({p for x in ents for p in x["p"]})
+    lo, hi = calsplit.part_range(maps.calendar(series), None)       # "All years": the calendar's whole span
     yrs = ('<nav class="vnm-yrs" aria-label="Year"><a id="yall" href="#yall" data-yr="all">All years</a>'
            + "".join(f'<a id="y{y}" href="#y{y}" data-yr="{y}">{y}</a>' for y in ys) + "</nav>")
     m = lambda lat: math.log(math.tan(math.pi / 4 + math.radians(lat) / 2))   # the box's proportion only
     ar = math.radians(HOME_ALL[2] - HOME_ALL[0]) / (m(HOME_ALL[3]) - m(HOME_ALL[1]))
-    _, _, man = assets()
-    return (f'<figure class="vnm full" data-geo="{man}" data-y="all" style="--vnar:{ar:.4f}">'
-            f'<figcaption class="vnm-cap"><span class="vnm-cnt">All years: {len(ents)} placed entries, at {n_pl} '
-            'places.</span> Provinces as of late 1966; lines approximate.</figcaption>'
-            + yrs + _box("Map of Vietnam, Laos and Cambodia, 1960–1968", True) +
-            '<details class="vnm-list"><summary>The placed entries</summary><ol></ol></details>'
-            f'<script type="application/json" class="vnm-d">{_data({"y": "all", "ys": ys}, ents)}</script></figure>')
-
-
-def first_mondays(held):
-    """{year: day}: the day each year's map stands on (STYLE 8), 1960–68, from the held days (dayblocks.held_days)."""
-    import datetime
-    out = {}
-    for y in range(1960, 1969):
-        d = datetime.date(y, 1, 1)
-        d += datetime.timedelta(days=(7 - d.weekday()) % 7)      # the year's first Monday
-        while d.year == y and d.isoformat() not in held:
-            d += datetime.timedelta(days=7)
-        if d.year == y:
-            out[str(y)] = d.isoformat()
-    return out
-
-
-def above_tables(series):
-    """{year: day}: the day of the year's first Southeast Asia table the calendar shows (STYLE 8)."""
-    from . import dayblocks, wartable
-    out = {}
-    for d in wartable.sequence(dayblocks.held_days(series)):
-        out.setdefault(d[:4], d)
-    return out
-
-
-def inject(page, series):
-    from . import dayblocks, wartable
-    used = False
-    tables = first_mondays(dayblocks.held_days(series))
-    for y, eid in anchors(series).items():
-        d = tables.get(y)
-        if d:                                   # on the year's first Monday (STYLE 8)
-            mark = dayblocks.MARK.format(d)
-            if mark in page:
-                page = page.replace(mark, contents.day_mark("vnmap", y, d, wartable.THREADS) + block(series, y) + mark, 1)
-                used = True
-            continue
-        if f'<li id="{eid}"' not in page:
-            continue
-        blk = block(series, y)
-        page, k = contents.put(page, eid, blk, "vnmap", y)
-        used = used or bool(k)
-    if used and 'class="vnm-css"' not in page:
-        css, js = head_tags()
-        page = page.replace("</head>", css.replace("<link ", '<link class="vnm-css" ') + "\n</head>", 1)
-        page = page.replace("</body>", js + "\n</body>", 1)
-    return page
+    all_ = [lo.isoformat(), hi.isoformat()]
+    d = {"eu": E["files"], "ys": ys, "sp": all_, "all": all_, "gz": ""}
+    return (f'<figure class="vnm full" data-geo="{manifest()}" style="--vnar:{ar:.4f}">'
+            f'<figcaption class="vnm-cap"><span class="vnm-cnt">All years: {maps.count(E["rows"])}</span> {TAIL}'
+            '</figcaption>' + yrs + maps.fields(lo, hi) + box(f"{LABEL}, {ys[0]}–{ys[-1]}") +
+            f'<details class="vnm-list"><summary>The placed entries ({len(E["rows"])})</summary><ol></ol></details>'
+            f'<script type="application/json" class="vnm-d">{maps.data(d)}</script></figure>')
 
 
 def problems(series):
