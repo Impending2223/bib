@@ -8,8 +8,9 @@
     nav(lst, sections, half)         the contents of a calendar page: the threads, the month grid (the whole calendar's
                                      where it is in parts), a slot for the tables
     day_mark(kind, key, iso, threads)   the anchor of a block set under a date, not in an entry (tools/bib/dayblocks.py:
-                                     the Southeast Asia table and map, Armed Forces Day): it names the day and the threads in place of an
-                                     entry, and finish() lists it as it lists an entry's
+                                     the Southeast Asia table, Armed Forces Day; tools/bib/maps.py: the two maps): it
+                                     names the day and the threads in place of an entry, and finish() lists it as it
+                                     lists an entry's
     finish(page, lst, half, defer)   after every inject: the tables and maps listed in their threads' statements and in
                                      the contents (the page's own; in the reader, the whole calendar's, in its Cal.
                                      block); with defer, recorded (FOUND) for fill()
@@ -134,6 +135,14 @@ def _rollcall(key):
     return f"Roll call: {PARTY.get(p, p)} {office} nomination {y}{more}"
 
 
+def _map(name, key):
+    """A calendar page's map, titled by its span: "China, Jan.–Mar. 1966"; a bare year without the comma, "Southeast
+    Asia 1969" (STYLE 5; maps.py, STYLE 3)."""
+    from . import maps
+    lab, bare = maps.title(key)
+    return f"{name} {lab}" if bare else f"{name}, {lab}"
+
+
 def _mon_year(key):
     """'1966-01' -> 'Jan. 1966'."""
     return f"{MONTHS[int(key[5:7]) - 1]} {key[:4]}" if re.match(r"^\d{4}-\d\d$", key) else key
@@ -154,7 +163,8 @@ KINDS = {
     "primaries": lambda k: f"{PARTY.get(k[-1], k[-1])} primaries {k[:4]}",      # primaries.py
     "conventions": lambda k: f"{PARTY.get(k[-1], k[-1])} convention, {k[:4]}: delegations",   # conventions.py
     "rollcall": _rollcall,                                                     # conventions.py
-    "vnmap": lambda k: f"Southeast Asia {k}",                                   # vnmap.py
+    "vnmap": lambda k: _map("Southeast Asia", k),                               # vnmap.py via maps.py
+    "cnmap": lambda k: _map("China", k),                                        # cnmap.py via maps.py
     "war": lambda k: f"Southeast Asia, {_mon_year(k)}",                         # wartable.py via dayblocks.py
     "forces": lambda k: f"Armed forces {k}",                                    # afday.py via dayblocks.py
     "oilworld": lambda k: f"World oil {k}",                                     # oilworld.py
