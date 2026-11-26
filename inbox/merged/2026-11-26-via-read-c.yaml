@@ -1,0 +1,170 @@
+patch: 2026-11-26-via-read-c
+by: 'reader (via-read batch c); audited on Opus, Nov. 26, 2026 (notes/via-read/audit-c.md): two src ops struck, one primary narrowed, the cites of Jianguo yilai zhongyao wenxian XIV made the items the entries already print, and the audit''s own edits, Checks and variants added'
+ops:
+  - edit:
+      id: cal.1960-02-25.conservation-2
+      base: baa29c8e
+      kind: correct
+      set:
+        c: 'Edith Green in the House, on the veto of the water pollution bill: "Why is water pollution so exclusively local? ... Is the President aware of the fact that his own home State of Pennsylvania shares the Delaware River with New Jersey?"'
+        n: '[106 Cong. Rec. 3490](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt3/pdf/GPO-CRECB-1960-pt3-7-2.pdf#page=8) (1960). [[w.sundquist-politics-and-policy]], 331. The House sat from noon to 2:14 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=2), [D93](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=91). The Record has Green''s words on 3490, not 3491, and a sentence between the two questions. See [[cal.1960-02-25.conservation]]. Names: Green.'
+        src:
+          c: 2f47abe1
+          rows:
+            - 'w.sundquist-politics-and-policy 331: all'
+            - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt3/pdf/GPO-CRECB-1960-pt3-7-2.pdf#page=8: all'
+            - 'via w.sundquist-politics-and-policy 331 n.19: all'
+  - edit:
+      id: cal.1960-07-25.cuba
+      base: '90887873'
+      settles:
+        - 'Check: Eisenhower''s words on Trujillo in the memorandum (Jones, 21, cites FRUS 1958–60, VI, 1029).'
+      set:
+        n: '[FRUS 1958–60, VI, doc. 565](https://history.state.gov/historicaldocuments/frus1958-60v06/d565). The President, by the memorandum: "Until Trujillo is eliminated, we cannot get our Latin American friends to reach a proper level of indignation in dealing with Castro." Made public: FRUS 1958–60, VI (1991). [[w.jones-bay-of-pigs]], 21 (Trujillo). See [[cal.1960-07-09.cuba]]. Names: Dulles, Raúl Castro, Eisenhower, Trujillo.'
+  - src:
+      id: cal.1960-07-25.cuba
+      row: https://history.state.gov/historicaldocuments/frus1958-60v06/d565
+      'on': 'By Jones, Eisenhower: Trujillo will have to be "eliminated" before the other states support policy on Cuba.'
+  - src:
+      id: cal.1960-11-29.cuba-2
+      row: https://history.state.gov/historicaldocuments/frus1958-60v06/d614
+      'on': American armed intervention "unavoidable."
+  - src:
+      id: cal.1960-11-14.economy
+      row: https://history.state.gov/historicaldocuments/frus1958-60v04/d61
+      'on': Anderson had warned that the purchase might bring exchange controls.
+  - src:
+      id: cal.1961-01-03.cuba
+      row: https://history.state.gov/historicaldocuments/frus1961-63v10/d2
+      'on': Eisenhower breaks diplomatic and consular relations with Cuba.
+  - src:
+      id: cal.1960-05-20.vietnam-congress
+      row: https://history.state.gov/historicaldocuments/frus1958-60v01/d154
+      'on': the change "ends subterfuge."
+  - src:
+      id: cal.1960-05-20.vietnam-congress
+      row: https://history.state.gov/historicaldocuments/frus1958-60v01/d154
+      'on': The MAAG to "work itself out of a job," some 15 percent fewer in mid-1961, 20 percent a year after.
+  - src:
+      id: cal.1960-10-14.vietnam
+      row: https://history.state.gov/historicaldocuments/frus1958-60v01/d203
+      'on': 'Durbrow reads Diệm a paper of suggestions, cleared by State Oct. 7: send his brother Nhu and Trần Kim Tuyến abroad;'
+  - src:
+      id: cal.1960-10-14.vietnam
+      row: https://history.state.gov/historicaldocuments/frus1958-60v01/d203
+      'on': 'Diệm: most of it his own ideas, but the Viet Cong make it hard.'
+  - src:
+      id: cal.1961-04-17.cuba
+      row: https://history.state.gov/historicaldocuments/frus1961-63v10/d231
+      'on': paratroopers at San Blas, 7:30.
+  - src:
+      id: cal.1961-04-18.cuba-4
+      row: https://history.state.gov/historicaldocuments/frus1961-63v10/d121
+      'on': Later the President calls Burke twice, relying on him.
+  - src:
+      id: cal.1961-04-19.cuba-2
+      row: https://history.state.gov/historicaldocuments/frus1961-63v10/d231
+      'on': The beachhead falls.
+  - src:
+      id: cal.1961-04-19.cuba-2
+      row: https://history.state.gov/historicaldocuments/frus1961-63v10/d231
+      'on': Resistance over by nightfall.
+  - src:
+      id: cal.1961-04-19.cuba-2
+      row: https://history.state.gov/historicaldocuments/frus1961-63v10/d231
+      'on': 'San Román''s last message, 2:32 p.m.: "Am destroying all equipment and communications. I have nothing left to fight with."'
+  - primary:
+      id: cal.1961-04-06.cuba-bay-of-pigs
+      text: Cuba Study Group, Memorandum No. 1 to President Kennedy, "Narrative of the Anti-Castro Cuban Operation Zapata" (June 13, 1961), [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), par. 30 (the diversionary landing of 160 men in eastern Cuba, D-2).
+      'on': a guerrilla landing on D-2.
+  - cite:
+      id: cal.1961-01-20.china-leadership
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 106–107 (the letter printed in full, from *Mao Zedong shuxin xuanji*)'
+      'on': 'Mao to Tian Jiaying: three investigation groups of seven, led by Chen Boda (Guangdong), Hu Qiaomu (Hunan) and Tian (Zhejiang), each with his 1930 "On Investigation Work";'
+  - cite:
+      id: cal.1961-01-20.china-leadership
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 106–107 (the letter printed in full, from *Mao Zedong shuxin xuanji*)'
+      'on': one team to the worst brigade, one to the best, ten to fifteen days;
+  - cite:
+      id: cal.1961-01-20.china-leadership
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 106–107 (the letter printed in full, from *Mao Zedong shuxin xuanji*)'
+      'on': then to report to him at Guangzhou and study industry there a month.
+  - cite:
+      id: cal.1961-01-21.china-leadership-3
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 83–88 (the communiqué 《中国共产党第八届中央委员会第九次全体会议公报》, dated Jan. 20, printed from *Renmin ribao* of Jan. 21: the plenum met in Peking Jan. 14–18, Mao presiding; 83 members and 87 alternates; 23 others attended)'
+      'on': rectification in stages over the country.
+  - cite:
+      id: cal.1961-03-13.china-leadership
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 215–216 (the letter printed in full, signed 8 a.m., Mar. 13, Guangzhou; the notes: the Peking meeting the conference of the North China, Northeast and Northwest bureaus and provinces that Liu Shaoqi and Zhou Enlai had called, the "Three North" conference; Mao at Guangzhou with the Central-South, Southwest and East China, the "Three South"; Tao Zhu sent that day to report)'
+      'on': 'Mao, 8 a.m., to Liu Shaoqi, Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen and the Three North conference, by Tao Zhu: the two egalitarianisms, between teams in a brigade and between members in a team, "two extremely grave questions," to be studied in person; Deng and Peng to spend ten days in Miyun, Shunyi, Huairou: are they "still unclear"?'
+  - cite:
+      id: cal.1961-03-23.china-leadership-3
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 225–227 (the letter printed in full: Mao''s "On investigation work" of spring 1930, newly found, to be studied by the Party''s higher and middle cadres; the note: the essay is "Oppose book worship", left out, and gives Mao''s comment on it of Mar. 11)'
+      'on': 'The Center sends the Party''s regional bureaus and provincial committees a letter on conducting investigation seriously, with Mao''s 1930 essay "Investigation Work": county committees and above, first secretaries first, to study Mao''s method and make going down to the base, in person, for systematic typical inquiry the first task of leadership.'
+  - cite:
+      id: cal.1961-04-15.china-leadership-5
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 300–315 (Mao''s comment, signed the morning of Apr. 15, printed in full in the Center''s forwarding of Apr. 26, 300–301, with Hu Qiaomu''s letter of Apr. 14, 301–302, and its four enclosures, 303–315)'
+      'on': to be printed that day for the Hunan three-level cadre conference and discussed there;
+  - cite:
+      id: cal.1961-05-06.china-leadership-3
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 316–317 (the letter printed in full, signed May 6, at Shanghai, to Li Jingquan for Chen Zhengren and to the first secretaries of the bureaus and provinces: the Center''s list of subjects for inquiry sent Apr. 25, its notice of May 4 putting the meeting off to May 20; each first secretary to spend the half-month in the villages and write to him; the note quotes the notice of Apr. 25)'
+      'on': 'Mao to Li Jingquan, for Chen Zhengren at Pingquan commune, Jianyang: Chen''s letter of May 1 received;'
+  - cite:
+      id: cal.1961-05-06.china-leadership-3
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 316–317 (the letter printed in full, signed May 6, at Shanghai, to Li Jingquan for Chen Zhengren and to the first secretaries of the bureaus and provinces: the Center''s list of subjects for inquiry sent Apr. 25, its notice of May 4 putting the meeting off to May 20; each first secretary to spend the half-month in the villages and write to him; the note quotes the notice of Apr. 25)'
+      'on': 'To Li: why no letter? Has he been out to investigate? The Center''s list of topics went out Apr. 25; the May 4 notice puts the conference off to May 20 for fuller inquiry, so Peking can go further than Guangzhou.'
+  - cite:
+      id: cal.1961-05-07.china-leadership
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 318–319 (Zhou Enlai''s telephone report from the Handan 邯郸 district of May 7, printed from *Zhou Enlai xuanji*, II, as "On the inquiry into the mess halls, work points and other questions" 《关于食堂和评工记分等问题的调查》: three days of reports at Handan, then five days at Boyan 伯延 commune, Wu''an 武安 county; nearly all members, women and single men too, want to cook at home; members against the supply system, for keeping the "five guarantee" households; the work-point system of the higher cooperatives wanted back; the note: Mao forwarded it May 7 to the bureaus and committees)'
+      'on': supply only for the "five guarantees" households and the needy; work points as in the higher cooperatives, output contracted to the teams, work to groups.
+  - cite:
+      id: cal.1961-05-09.china-leadership-7
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 320–323 (Mao''s comment, 3 a.m., May 9, at Shanghai, and Hu Qiaomu''s letter, 11 a.m., May 8, at Changsha, printed in full: the investigation group and the Hunan committee have proposed changes to the Sixty Articles; Hu, Wang Li and others to Liuyang 浏阳 to see the new handicraft cooperatives; Tao Zhu to Taoyuan 桃源)'
+      'on': 'Mao has Hu Qiaomu''s letter of May 8 on the Hunan investigation group sent to the bureaus and committees for reference. Hu: with the Hunan committee the group has made first revisions to the Sixty Articles; Shaoshan commune''s mess halls are down from 112 to 6;'
+  - cite:
+      id: cal.1961-05-14.china-leadership-2
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 332–336 (Mao''s comment, May 14, at Tianjin, and Zhang Pinghua''s letter of May 13, printed in full: Zhang and an investigation group at Dajiang 大江 brigade, Wenjiashi 文家市 commune, Liuyang 浏阳, from May 2; Mao: the letter to go to every prefectural, city and county committee in Hunan; policy to be made with the masses; no Party committee to make policy shut indoors without inquiry)'
+      'on': Mao has Zhang Pinghua's letter of May 13 on his investigation at a brigade of Wenjiashi commune sent to the bureaus and committees for reference.
+  - cite:
+      id: cal.1961-05-14.china-leadership-2
+      item: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 332–336 (Mao''s comment, May 14, at Tianjin, and Zhang Pinghua''s letter of May 13, printed in full: Zhang and an investigation group at Dajiang 大江 brigade, Wenjiashi 文家市 commune, Liuyang 浏阳, from May 2; Mao: the letter to go to every prefectural, city and county committee in Hunan; policy to be made with the masses; no Party committee to make policy shut indoors without inquiry)'
+      'on': the mass line, every matter settled with the masses; no committee may go without investigation, and a few men shut in a room making "policies that kill people" are "absolutely forbidden."
+  - variant:
+      id: cal.1960-02-01.soviet-union
+      'on': 'The press against his speech: "the journalists write about what the government thinks."'
+      witness: w.prezidium-tsk-kpss-1954
+      reads: '"журналисты пишут о том, что думают правительства": what the governments think, plural'
+      at: I, 435
+  - check:
+      id: cal.1960-02-01.soviet-union
+      text: 'Check: the stenogram (I, 435) has the journalists write what the governments (правительства) think, plural.'
+  - check:
+      id: cal.1960-02-13.testing
+      text: 'Check: Herter''s answers at the National Press Club (the *Bulletin*, Mar. 7, 1960, 361) speak of France as "an atomic power" and of the bomb "exploded," and name no place, day, yield or message.'
+  - check:
+      id: cal.1960-04-15.civil-rights-organizations
+      text: 'Check: the King Papers'' notes to King''s statement of Apr. 15 have King''s press conference that day and his address to a mass meeting Apr. 16, and King and Lawson only "present in an advisory capacity" to the student committee; Lawson''s speaking rests on Branch (291).'
+  - check:
+      id: cal.1960-06.cuba-bay-of-pigs
+      text: 'Check: the Cuba Study Group''s Memorandum No. 1 (FRUS 1961–63, X, doc. 231) has none of these.'
+  - check:
+      id: cal.1960-07.cuba-bay-of-pigs
+      text: 'Check: the Cuba Study Group''s Memorandum No. 1 (FRUS 1961–63, X, doc. 231) has no thirty recruits and no jungle camp.'
+  - check:
+      id: cal.1960-11-11.vietnam
+      text: 'Check: McGarr (FRUS 1958–60, I, doc. 233) has the coup leaders flown out at 2 p.m. Nov. 12 on a C-47, "rumored for Phnom Penh" as its destination.'
+  - variant:
+      id: cal.1960-11-29.cuba-2
+      'on': 'By Jones: Castro''s support 30 percent;'
+      witness: x.1960-11-29.memorandum-of-conversation-at-state-nov
+      reads: Castro has "25 to 30%" of the Cuban people supporting him
+      at: FRUS 1958–60, VI, doc. 614, par. 13
+  - variant:
+      id: cal.1960-11-29.cuba-2
+      'on': a force of about 3,000 could seize ground and declare itself the government;
+      witness: x.1960-11-29.memorandum-of-conversation-at-state-nov
+      reads: '"A force of 2 to 3 thousand men"'
+      at: FRUS 1958–60, VI, doc. 614, par. 19
+  - check:
+      id: cal.1960-11-29.cuba-2
+      text: 'Check: the memorandum (doc. 614) has Varona put the force at "2 to 3 thousand men" and Castro''s support at "25 to 30%" of the people.'

@@ -1,0 +1,52 @@
+# China threads, batch f: the reading
+
+Nov. 26, 2026. A reader's note on `notes/threads/read/batch-f.tsv`, made under `notes/briefs/china-threads-read-f.md` and rulings 30, 58, 59 and 60.
+
+## What I read
+
+I read all 297 entries of `notes/threads/read/batch-f-ids.tsv` straight from `lists/cal/*.yaml`, the whole line and the whole note of each, Chinese characters and the "Made public", "To check" and "Check" sentences included. I cut nothing short. I read `CLAUDE.md`, the owner's words quoted in the brief, `notes/proposals/china-threads-revision.md`, the audit `notes/threads/china-tree-audit.md`, rulings 30, 58, 59 and 60, and every China thread in `lists/cal/th.yaml` with its statement. For a few entries I also read the entry they point back to ("See ..."), to see which thread it sits in. Nothing in `lists/`, `th.yaml` or `sources/` was changed. Nothing was merged, built, committed or pushed.
+
+## The method
+
+Each entry was placed by ruling 59: the episode whose business it is; else Mao, Zhou or Liu where he alone acts; else the system. Other threads it plainly fits went in `also`. An entry that fits no China thread keeps `china-leadership`. I used the dates of each episode's own thread: Hai Rui from March 1965, Luo Ruiqing from February 1965, Opera reform to November 1965, Four Cleanups to May 1966, and so on. Where a thread sits under another (Agriculture over Famine, Army over Luo Ruiqing, Propaganda and culture over Opera reform, Hai Rui and the models, Foreign affairs over Split with Moscow), I never put both on one entry; the entry takes the narrower thread. For the Moscow quarrel after November 1964 I used Foreign affairs, with `soviet-union` where the line is Moscow's business with China, because the Polemic thread ends with Zhou in Moscow in November 1964. Ruling 58 point 5 (a caller on the director of the General Office, with no business stated, is the Center's daily work) I applied to Yang Shangkun's callers and telephone calls.
+
+## The counts
+
+Kept in `china-leadership`: 25.
+
+Moved to each thread as the primary thread: China: Army 66; Organization 55; Propaganda and culture 44; Agriculture 24; Four Cleanups 18; Luo Ruiqing 17; Center's daily work 11; Finance and economy 10; Opera reform 6; Foreign affairs 5; Hai Rui 3; United front and nationalities 3; Famine 2; Liu Shaoqi 2; Lei Feng, Dazhai, Daqing 2; Mao Zedong 1; Third Front 1; Red Guards 1; Political-legal work 1. These add up to 272 moved and 25 kept, 297 in all.
+
+Entries with at least one secondary thread: 64. The secondary threads used are Propaganda and culture 15, Organization 10, Agriculture 8, Army 6, Zhou Enlai 5, Soviet Union 5, Foreign affairs 4, Liu Shaoqi 4, Mao Zedong 3, Finance and economy 3, Hanoi 3, Four Cleanups 2, and one each of Political-legal work, Center's daily work and Hai Rui.
+
+Old `also:` values I dropped: `china` on 22 entries (it is the parent of every China thread, so it cannot stand beside any of them); `vietnam` on 2 (the entry carries its child `vietnam-hanoi`); `soviet-union` on 1 (Deng on an article against the Tito clique, which is not Moscow's business with China). The lists' `china-army`, `china-propaganda` and `china-agriculture` in `also` were dropped wherever the entry no longer fits the thread, on 32, 31 and 14 entries.
+
+## What the word lists got wrong
+
+The lists put 99 entries in Army, 76 in Propaganda and culture, 46 in Agriculture and 76 in Organization. I kept the thread on 62, 34, 24 and 51 of them. The rest were wrong or had a better thread; the kinds are these.
+
+Army (37 wrong). 15 belong to the Luo Ruiqing affair: Lin Biao and Luo, Ye Qun with Luo, the telephone records, Luo and the Quotations preface, Lin on Luo, and the case of Xiao Xiangrong (Nov.–Dec. 1965), which the neighbouring entries already file there. 9 are a lesser figure's private day, a caller, or a remark that no body of the army acted on: Zhu De at a sports display, Peng Dehuai on his walk, three marshals looking at the wreck of a plane, Lin Biao at Hohhot, Zhu De's remark on who would command in a war, a commander calling on Chen Yun, Peng Zhen with Ye Jianying, Xiao Hua calling on Chen Yun. 5 are the arts, publishing or press: Jiang Qing's forum on army literature and art in February 1966 (4 entries), and Peng Zhen's circulation of Chen Boda's book of Mao's quotations. 3 are the General Office's own work: Yang Shangkun on war preparations, on recovering archives, and on a guard, all under the Center's daily work. 5 more are one each: Albania's request for steel (Foreign affairs), a defense plant inspected by Zhu De (Finance and economy), Peng Dehuai's posting to the Southwest (Third Front), a general's death (Organization), the abolition of the Public Security Force (Political-legal work).
+
+Propaganda and culture (42 wrong). 8 are lesser figures' days or callers: Yang Shangkun at museums, a flour mill, a troupe and a chat at the Diaoyutai, Ye Jianying's poem printed, Chen Yi copying Du Fu, Peng Zhen's talks. 6 belong to Opera reform (the Ministry of Culture's leadership, the Five-Man Group on the arts, the criticism of two films, the Secretariat on the arts, the repertoire notice). 6 belong to the Four Cleanups: the movement at Peking University (Lu Ping, Nie Yuanzi, the rectification meetings). 4 are foreign business and fall to Foreign affairs (the Moscow meeting's comment, an exchange agreement, a table tennis tournament with foreign teams, the refutation of Moscow's 'united action'). 4 are Yang Shangkun's General Office business. 4 are army business (Ye Jianying and the military schools). 3 are economy (inspections of plants, thrift, industrial articles). 2 are Hai Rui (Jiang Qing commissioning Yao Wenyuan; Zhang Chunqiao's helper). The rest are one each: two Organization, one Luo Ruiqing, one Liu Shaoqi's inscription, one emulation campaign (Jiao Yulu).
+
+Agriculture (22 wrong). 6 are plant inspections or trade, not farming: Zhu De at gear and tractor works and the farm machinery hall, the supply and marketing cooperatives, and the provinces' industry and farming reported together; they go to Finance and economy. 5 are the Four Cleanups in the villages (Yang Shangkun's work stay in Shaanxi, the Peking committee's notice on the work teams' farm time). 3 are private days: Peng Dehuai planting trees and speaking of farming, Zhu De. 3 are the arts, education and exhibits (Peng Zhen at an amateur show and to graduates, the Rent Collection Courtyard). 2 are the Famine (Hunan's grain taken, the Tongwei report). The rest: Mao's comment on city doctors (Mao Zedong), the half-farming half-study instruction (Liu Shaoqi), the Agricultural Office's Party committee (Organization).
+
+Organization (25 wrong; 51 right). 7 belong to the Four Cleanups (Hu Yaobang's circular, the Tongxian meeting, the work corps' meetings, the points for cadres squatting at points). 5 are a lesser figure's talk or a private day (Peng Dehuai on the Long March, Yang Shangkun's travel and callers with no business). 4 are the Center's daily work (callers on Yang Shangkun, a telephone call). 3 belong to the United front (the deaths of Li Genyuan, Chen Shutong and Huang Yanpei, heads of democratic bodies or the CPPCC). 2 are Propaganda and culture. One each: Hai Rui (Kang Sheng on the play), Luo Ruiqing (Lin Biao and Luo's reports), the Red Guards (a woman dying after her kin were beaten to death), and the emulation campaigns (the notice to learn from Jiao Yulu).
+
+## Doubtful placings (decided, but a second reader may differ)
+
+- `cal.1965-02-14.china-leadership-5`, `cal.1965-02-17.china-leadership-13`, and the Peng Dehuai case entries (the Party School's talks and reports on him, Oct.–Nov. 1965, and the Peng–Xi case committee): kept in Organization as a Party body's work on a case; they could instead stay in `china-leadership`.
+- Yang Shangkun's stay in Shaanxi, April–June 1965: I put the work corps' meetings and speeches in Four Cleanups, the farm visits in Agriculture, the sightseeing in `china-leadership`. The Baoji speech on the situation (`cal.1965-04-23.china-leadership-10`) and the Fengxiang trip stay in `china-leadership` because the lines do not say the movement.
+- `cal.1965-05-06.china-leadership-5` (the *Wenhui bao* essay on ghost plays) might belong to Hai Rui; the line does not say so.
+- `cal.1966-01.china-leadership-10` (Zhou Yang in hospital, Xu Liqun takes over academic criticism) might belong to Hai Rui; the line does not say so.
+- `cal.1965-11.china-leadership-7` (Deng away, Peng Zhen in charge): the note ties it to Peng's ban on reprints of Yao's article; I gave Center's daily work with Hai Rui as a second thread.
+- `cal.1965-04-23.china-leadership-15` (Lin Biao on staffing that adds Yang Chengwu beside Luo) is in Luo Ruiqing on the authors' reading; it could be Army.
+- `cal.1966-02-02.china-leadership`, `cal.1966-02.china-leadership-9`, `cal.1966-02-01.china-leadership-7` and `cal.1966-02-20.china-leadership-3` (Jiang Qing's army forum): the forum is the start of the Cultural Revolution in the arts but no stage thread covers February 1966, so Propaganda and culture with Army (and Mao Zedong on the one that records his revision of the summary).
+- `cal.1965-10-28.china-leadership-7` and the other Tsinghua middle school entries: precursors of the Red Guards, but the Red Guards thread begins with the Eleventh Plenum; I left them in Propaganda and culture.
+- `cal.1966-02-11.china-leadership-2` (Peng Zhen sends Mao his 1962 speech to the Seven Thousand, revised): kept in `china-leadership`; the 1962 conference has its own thread but this is an act of 1966.
+- The two Army Day parties (`cal.1965-07-31.china-leadership-4` and `cal.1965-07-31.china-leadership-5`): given to Army as the army's anniversary; they could be `china-leadership`.
+- The Jiao Yulu entries (`cal.1966-02-07.china-leadership-5`, `cal.1966-02-09.china-leadership-6`): given to Lei Feng, Dazhai, Daqing as an emulation campaign; the thread's statement names only those three.
+- `cal.1965-08-09.china-leadership-3` and the other Organization entries on Yang Shangkun and the mass organizations: given to Organization because the lines name the Youth League, the unions, the Women's Federation and the Control Commission, as the statement lists.
+
+## What I disregarded under R0
+
+Nothing in the brief narrowed what I read. I disregarded the word lists' proposals as a limit: each entry was placed by reading it, and the lists' column was used only to count where they were wrong.

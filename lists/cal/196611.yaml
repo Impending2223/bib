@@ -2624,8 +2624,7 @@ entries:
   - id: cal.1966-11-09.china-leadership-7
     when: Nov. 9
     date: '1966-11-09'
-    thread: china-leadership
-    also: [china-army]
+    thread: china-red-guards
     c: The Center General Office 中共中央办公厅 issues Lin Biao's 林彪 speech of Oct. 25 to the Central Work Conference, as revised, to county and regiment level.
     n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 388 (Nov. 9, 1966; note 1). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). To check: Center General Office, Lin Biao''s speech of Oct. 25, 1966 at the Central Work Conference, printed and issued to county and regiment level, Nov. 9, 1966 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 388 n.1). See [[cal.1966-11-07.china-leadership-4]]. Names: Lin Biao. Check: whether the notes of the first edition give it.'
     src:
@@ -3356,8 +3355,8 @@ entries:
   - id: cal.1966-11-13.china-leadership-2
     when: Nov. 13
     date: '1966-11-13'
-    thread: china-leadership
-    also: [china-propaganda]
+    thread: china-propaganda
+    also: [china-zhou-cr, china-united-front]
     c: The *Renmin ribao* prints Soong Ching Ling's article, as Zhou Enlai revised it.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 85 (under Nov. 6, 1966). See [[cal.1966-11-06.china-leadership-2]]. Names: Zhou Enlai, Soong Ching Ling.'
     tags: [name:zhou-enlai, polity:prc, name:song-qingling]
@@ -3643,8 +3642,7 @@ entries:
   - id: cal.1966-11-14.china-leadership-7
     when: Nov. 14
     date: '1966-11-14'
-    thread: china-leadership
-    also: [china-army]
+    thread: china-army
     c: Ye Jianying 叶剑英, by telephone with Nie Rongzhen 聂荣臻, then touring Xinjiang 新疆, agrees with him that the movement in the Xinjiang Military Region 新疆军区 and the Production and Construction Corps 生产建设兵团, on the border, may be put off.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 949. The words: 下午 (949). Made public: 2007. Names: Ye Jianying, Nie Rongzhen.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, name:nie-rongzhen, vis:only:prc]
@@ -4257,8 +4255,7 @@ entries:
     when: Nov. 17
     date: '1966-11-17'
     place: peking
-    thread: china-leadership
-    also: [china-army]
+    thread: china-army
     c: 'Peking 北京, the Great Hall of the People 人民大会堂. Ye Jianying 叶剑英 reports to the Peking Military Region''s 北京军区 four-level cadres'' meeting: Liu Shaoqi 刘少奇 and Deng Xiaoping 邓小平 had merit in the revolution''s history, not to be denied wholesale.'
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 949. Made public: 2007. Names: Ye Jianying, Liu Shaoqi, Deng Xiaoping.'
     tags: [polity:prc, name:ye-jianying, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
@@ -5438,17 +5435,20 @@ entries:
     date: '1966-11-29'
     place: washington
     thread: vietnam
-    c: 'Komer sends McNamara his "Vietnam Prognosis for 1967–68": past the turning point of losing, perhaps past the crossover point;{1} "we''re beginning to ''win'' the war," which "is a far cry from saying ... we''re going to win it"; a bandwagon by the end of 1967 or in 1968.{2} The same day, "A Strategic Plan for 1967 in Vietnam."{3}'
+    c: 'Komer sends McNamara his "Vietnam Prognosis for 1967–68": past the turning point of losing, perhaps past the crossover point;{1} "we''re beginning to ''win'' the war," which "is a far cry from saying ... we''re going to win it";{4} a bandwagon by the end of 1967 or in 1968.{5} The same day, "A Strategic Plan for 1967 in Vietnam."{3}'
+    cut_from:
+      '4': '2'
+      '5': '2'
     n: '[FRUS 1964–68, IV, doc. 318](https://history.state.gov/historicaldocuments/frus1964-68v04/d318) (the letter). [[w.gibbons-u-s-government-and]], IV, 485–87; [[w.berman-lyndon-johnsons-war]], 20 ("we are killing, defecting, or otherwise attriting more VC/NVA strength than the enemy can build up"). To check: Komer, "A Strategic Plan for 1967 in Vietnam," Nov. 29, 1966, NSF Files of Robert W. Komer, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 487 n.20). Made public: FRUS 1964–68, IV (1998). Names: Komer, McNamara.'
     src:
       c: 8c6217e4
       rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d318: 1'
-        - 'w.gibbons-u-s-government-and IV, 485–87: 1, 2, 3'
-        - 'via w.gibbons-u-s-government-and IV, 485 n.18: 1, 2'
+        - 'w.gibbons-u-s-government-and IV, 485–87: 1, 4, 5, 3'
+        - 'via w.gibbons-u-s-government-and IV, 485 n.18: 1, 4, 5'
         - 'via w.gibbons-u-s-government-and IV, 487 n.20: 3'
         - 'w.berman-lyndon-johnsons-war 20: 1'
         - 'via x.1966-11-29.komer-to-mcnamara-nov-29-1966: 1'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d318: 1, 4, 5'
     tags: [name:komer-robert-w, name:mcnamara-robert-s]
     time_range:
       - 1966-11-29T14:00Z
@@ -5577,7 +5577,7 @@ entries:
   - id: cal.1966-11-29.china-leadership-6
     when: Nov. 29
     date: '1966-11-29'
-    thread: china-leadership
+    thread: china-army
     also: [china-propaganda]
     c: Ye Jianying 叶剑英 instructs the Military Museum's 军事博物馆 exhibition halls to keep the photographs of Liu Shaoqi 刘少奇 and Deng Xiaoping 邓小平.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 951. Made public: 2007. Names: Ye Jianying, Liu Shaoqi, Deng Xiaoping.'

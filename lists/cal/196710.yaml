@@ -1648,15 +1648,22 @@ entries:
     place: washington
     thread: vietnam-congress-republicans
     also: [republican-party-congress]
-    c: 'Hugh Scott in the Senate: no member''s view the Republican Party''s, and the party not united on Vietnam;{1} "it is imperative that we not undermine the stature of the President as Commander in Chief and as the Nation''s chief diplomat."{2} His position unchanged, the nine points of May with Javits and Percy; "disapproval of present action" no ground for attacks on the President. Kuchel and Tower praise it; Case and Percy question him.{3}'
-    n: '[113 Cong. Rec. 28,203 ff.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt21/pdf/GPO-CRECB-1967-pt21-4-2.pdf#page=1) (Senate, Oct. 9, 1967). [[w.gibbons-u-s-government-and]], IV, 833–34. Names: Scott, Javits, Percy, Kuchel, Tower, Case.'
+    c: 'Hugh Scott in the Senate: no member''s view the Republican Party''s, and the party not united on Vietnam;{1} "it is imperative that we not undermine the stature of the President as Commander in Chief and as the Nation''s chief diplomat."{2} His position unchanged, the nine points of May with Javits and Percy;{4} "disapproval of present action" no ground for attacks on the President.{5} Kuchel and Tower praise it;{7} Case and Percy question him.{8}'
+    cut_from:
+      '4': '3'
+      '5': '3'
+      '6': '3'
+      '7': '6'
+      '8': '6'
+    n: '[113 Cong. Rec. 28204–07](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt21/pdf/GPO-CRECB-1967-pt21-4-2.pdf#page=2) (Oct. 9, 1967). [113 Cong. Rec. 28,203 ff.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt21/pdf/GPO-CRECB-1967-pt21-4-2.pdf#page=1) (Senate, Oct. 9, 1967). [[w.gibbons-u-s-government-and]], IV, 833–34. Names: Scott, Javits, Percy, Kuchel, Tower, Case.'
     src:
       c: 37c3f0d7
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt21/pdf/GPO-CRECB-1967-pt21-4-2.pdf#page=1: 1, 2'
         - 'w.gibbons-u-s-government-and IV, 833: 2'
-        - 'w.gibbons-u-s-government-and IV, 834: 3'
-        - 'via w.gibbons-u-s-government-and IV, 833 n.110: 1, 2, 3'
+        - 'w.gibbons-u-s-government-and IV, 834: 4, 5, 7, 8'
+        - 'via w.gibbons-u-s-government-and IV, 833 n.110: 1, 2, 4, 5, 7, 8'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt21/pdf/GPO-CRECB-1967-pt21-4-2.pdf#page=2: 4, 5, 7, 8'
     tags: [name:scott-hugh-d-jr, name:javits-jacob-k, name:percy-charles-h, name:kuchel-thomas-h, name:tower-john-g, name:case-clifford-p]
     time_range:
       - 1967-10-09T18:00Z
@@ -2375,8 +2382,8 @@ entries:
   - id: cal.1967-10-14.china-leadership-4
     when: Oct. 14
     date: '1967-10-14'
-    thread: china-leadership
-    also: [china-army, china-propaganda]
+    thread: china-army
+    also: [china-propaganda]
     c: Ye Jianying 叶剑英 presides at the Military Commission's 军委 ninety-seventh standing meeting, on statues of Mao Zedong 毛泽东 to be built by the General Logistics Department 总后勤部 and the Defense Science Commission 国防科委, and on Mao's works 毛泽东著作 to be published by the Soldiers' Press 战士出版社.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 971. Made public: 2007. Names: Ye Jianying, Mao Zedong.'
     tags: [polity:prc, name:ye-jianying, name:mao-zedong, vis:only:prc, ok:fields-place]
@@ -3629,8 +3636,7 @@ entries:
   - id: cal.1967-10-20.china-leadership-4
     when: Oct. 20
     date: '1967-10-20'
-    thread: china-leadership
-    also: [china-army]
+    thread: china-army
     c: Ye Jianying 叶剑英 presides at the Military Commission's 军委 ninety-eighth standing meeting, on the posting of the graduates of twenty-six army schools and the General Political Department's 总政治部 request to change the political conditions for conscription.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 971. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, name:ye-jianying, vis:only:prc, ok:fields-place]
@@ -4655,8 +4661,7 @@ entries:
   - id: cal.1967-10-26.china-leadership-3
     when: Oct. 26
     date: '1967-10-26'
-    thread: china-leadership
-    also: [china-army]
+    thread: china-army
     c: Ye Jianying 叶剑英 presides at the Military Commission's 军委 ninety-ninth standing meeting, on the building of the Second Artillery's 第二炮兵 bases and of the Chengdu 成都–Xiangfan 襄樊 railway.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 971. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, name:ye-jianying, vis:only:prc, ok:fields-place]
@@ -5955,8 +5960,7 @@ entries:
     when: Oct., after National Day
     date: 1967-10
     at: after 1967-10-01
-    thread: china-leadership
-    also: [china-army]
+    thread: china-zhou-cr
     c: After National Day Zhou Enlai, told that He Long has a high fever and vomits, orders him sent to Hospital 301; Jiang Qing objects, and he then orders him to Hospital 267 and sends Yang Dezhong to bring his greetings.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 194 (Oct. 1967). Made public: 2020. Names: Zhou Enlai, He Long, Jiang Qing, Yang Dezhong.'
     tags: [name:zhou-enlai, name:he-long, name:jiang-qing, polity:prc, vis:only:prc, name:yang-dezhong]
@@ -6074,8 +6078,7 @@ entries:
   - id: cal.1967-10.china-leadership-10
     when: Oct.
     date: 1967-10
-    thread: china-leadership
-    also: [china-army]
+    thread: china-army
     c: Ye Jianying 叶剑英, with the Military Commission's Standing Committee and Administrative Group 军委办事组, calls the heads of the general departments, the services and arms and some large military regions in Peking 北京 several times on the questions raised by officers transferred to civilian work 转业干部 come to Peking, and reports to Zhou Enlai 周恩来.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 971. Made public: 2007. Names: Ye Jianying, Zhou Enlai.'
     tags: [polity:prc, name:ye-jianying, name:zhou-enlai, vis:only:prc, ok:fields-place]

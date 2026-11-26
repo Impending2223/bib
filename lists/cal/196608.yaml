@@ -260,8 +260,8 @@ entries:
     when: Aug. 1
     date: '1966-08-01'
     place: peking
-    thread: china-leadership
-    also: [china-propaganda]
+    thread: china-propaganda
+    also: [china-army]
     c: The *Renmin ribao* 人民日报 prints the editorial "The whole country should be a great school of Mao Zedong Thought" 《全国都应该成为毛泽东思想的大学校》, giving the main points of Mao's May 7 comment on the army as a school.{1} To do as Mao says will raise the people's proletarian consciousness, revolutionize thought and break with all the old ideas, culture, customs and habits.{2}
     n: '[[w.mao-zedong-zhuan]], VI, ch. 74 (n.40, which dates the issue Aug. 1, 1966; the text has the editorial ''soon after'' 不久 Mao''s comment of May 7). [[w.pu-weihua-zalan-jiu-shijie]], 108 (the editorial, revised by Mao, for the thirty-ninth anniversary of the army, gives the May 7 directive in summary). To check: *Renmin ribao* 《人民日报》, Aug. 1, 1966 (the editorial "The whole country should be a great school of Mao Zedong Thought" 《全国都应该成为毛泽东思想的大学校》) (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.40); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1966-05-07.china-leadership]]. Names: Mao Zedong.'
     src:
@@ -274,8 +274,7 @@ entries:
   - id: cal.1966-08-01.china-leadership-5
     when: Aug. 1
     date: '1966-08-01'
-    thread: china-leadership
-    also: [china-army]
+    thread: china-army
     c: Chen Yi 陈毅 at the banquet of the PLA's General Staff and General Political Department for the thirty-ninth Army Day.
     n: '[[w.chen-yi-nianpu]], 1159; [[w.liu-jixian-ye-jianying-nianpu]], II, 941 (Aug. 1, 1966; Ye Jianying 叶剑英 at the banquet of the General Staff and the General Political Department). The words: 晚上 (1159). Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi, ok:fields-place]
@@ -2327,14 +2326,17 @@ entries:
     date: '1966-08-07'
     place: saigon
     thread: vietnam-force-levels
-    c: 'Westmoreland to Sharp, MAC 6814: no cut in the requirements for 1967 justified now;{1} the enemy "intends to continue a protracted war of attrition." His staff studying a "balanced force ... sustainable without national mobilization."{2}'
+    c: 'Westmoreland to Sharp, MAC 6814: no cut in the requirements for 1967 justified now;{1} the enemy "intends to continue a protracted war of attrition."{3} His staff studying a "balanced force ... sustainable without national mobilization."{4}'
+    cut_from:
+      '3': '2'
+      '4': '2'
     n: '[FRUS 1964–68, IV, doc. 205](https://history.state.gov/historicaldocuments/frus1964-68v04/d205). [[w.gibbons-u-s-government-and]], IV, 404. Made public: FRUS 1964–68, IV (1998). See [[cal.1966-08-05.vietnam-force-levels-2]]. Names: Westmoreland, Sharp.'
     src:
       c: 975f25e8
       rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d205: 1'
-        - 'w.gibbons-u-s-government-and IV, 404: 1, 2'
-        - 'via w.gibbons-u-s-government-and IV, 404 n.71: 1, 2'
+        - 'w.gibbons-u-s-government-and IV, 404: 1, 3, 4'
+        - 'via w.gibbons-u-s-government-and IV, 404 n.71: 1, 3, 4'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d205: 1, 3, 4'
     tags: [name:westmoreland-william, name:sharp-u-s-grant]
     time_range:
       - 1966-08-07T01:00Z
@@ -3487,16 +3489,22 @@ entries:
     date: '1966-08-10'
     place: saigon
     thread: vietnam
-    c: 'Lodge''s weekly telegram to Johnson, "Smell of victory": "We are not losing; we cannot lose ... never have things been going so well"; victory needs no defining, only "the ''smell of victory''";{1} open roads from Cà Mau to Quảng Trị would mean more than battles won.{2} "There is something tremendously effective about sheer mass": "more" coming in "quicker." Westmoreland to leave nearly all search and destroy to American forces. Bowles, visiting, "impressed with our entire operation." For the election, things to "put the people in a good humor."{3}'
-    n: '[FRUS 1964–68, IV, doc. 208](https://history.state.gov/historicaldocuments/frus1964-68v04/d208). [[w.gibbons-u-s-government-and]], IV, 407–09, 411; [[w.woods-j-william-fulbright-vietnam]], 158 (the road from Cà Mau to Quảng Trị). Made public: FRUS 1964–68, IV (1998). Check: FRUS numbers it Saigon 2375, Gibbons 3129. Names: Lodge, Johnson, Westmoreland, Bowles.'
+    c: 'Lodge''s weekly telegram to Johnson, "Smell of victory": "We are not losing; we cannot lose ... never have things been going so well"; victory needs no defining, only "the ''smell of victory''";{1} open roads from Cà Mau to Quảng Trị would mean more than battles won.{2} "There is something tremendously effective about sheer mass": "more" coming in "quicker."{4} Westmoreland to leave nearly all search and destroy to American forces.{6} Bowles, visiting, "impressed with our entire operation."{7} For the election, things to "put the people in a good humor."{8}'
+    cut_from:
+      '4': '3'
+      '5': '3'
+      '6': '5'
+      '7': '5'
+      '8': '5'
+    n: '[FRUS 1964–68, IV, doc. 208](https://history.state.gov/historicaldocuments/frus1964-68v04/d208). [[w.gibbons-u-s-government-and]], IV, 407–09, 411; [[w.woods-j-william-fulbright-vietnam]], 158 (the road from Cà Mau to Quảng Trị). Made public: FRUS 1964–68, IV (1998). Check: FRUS numbers it Saigon 2375, Gibbons 3129. Check: the telegram (FRUS 1964–68, IV, doc. 208, para. 25) has American forces "carrying the main burden of search and destroy operations," a major part of ARVN released to pacification. Names: Lodge, Johnson, Westmoreland, Bowles.'
     src:
       c: '52132537'
       rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d208: 1, 2'
-        - 'w.gibbons-u-s-government-and IV, 407–09, 411: 1, 2, 3'
-        - 'via w.gibbons-u-s-government-and IV, 407 n.81: 1, 2, 3'
+        - 'w.gibbons-u-s-government-and IV, 407–09, 411: 1, 2, 4, 6, 7, 8'
+        - 'via w.gibbons-u-s-government-and IV, 407 n.81: 1, 2, 4, 6, 7, 8'
         - 'w.woods-j-william-fulbright-vietnam 158: 2'
         - 'via x.1966-08-10.saigon-to-washington-3129-aug-10: 2'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d208: 1, 2, 4, 7, 8'
     tags: [name:lodge-henry-cabot, name:johnson-lyndon-b, name:westmoreland-william, name:bowles-chester]
     time_range:
       - 1966-08-10T01:00Z
@@ -4820,7 +4828,7 @@ entries:
   - id: cal.1966-08-16.china-leadership-5
     when: Aug. 16
     date: '1966-08-16'
-    thread: china-leadership
+    thread: china-red-guards
     also: [china-propaganda]
     c: 'Chen Yi 陈毅, receiving representatives of the Foreign Languages Institute and two other schools: the work teams to be judged both ways; "I sent the work teams, and Zhang Yan''s 张彦 too; I bear their errors"; "my backer is Chairman Mao"; Liu Xinquan 刘新权 is no black-gang man, nor are the work teams; he will harm neither minority nor majority nor the work teams.'
     n: '[[w.chen-yi-nianpu]], 1160–1161. Made public: 1995. Names: Chen Yi, Mao Zedong, Zhang Yan.'
@@ -5044,8 +5052,7 @@ entries:
   - id: cal.1966-08-17.china-leadership-4
     when: Aug. 17
     date: '1966-08-17'
-    thread: china-leadership
-    also: [china-army]
+    thread: china-army
     c: Ye Jianying 叶剑英 talks twice by telephone with He Long 贺龙 on the Navy 海军.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 942. The words: 下午 (942). Made public: 2007. Names: Ye Jianying, He Long.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, name:he-long, vis:only:prc]
@@ -5926,8 +5933,7 @@ entries:
   - id: cal.1966-08-19.china-leadership-14
     when: Aug. 19
     date: '1966-08-19'
-    thread: china-leadership
-    also: [china-army]
+    thread: china-red-guards
     c: Kang Sheng 康生 sends the "Changguanlou incident" material to Mao 毛泽东, Lin Biao 林彪, Zhou Enlai 周恩来, Tao Zhu 陶铸, Chen Boda 陈伯达 and others.
     n: '[[w.peng-zhen-nianpu-1902]], IV, 490. Made public: 2012. See [[cal.1966-08-18.china-leadership-13]]. Names: Kang Sheng, Mao Zedong, Lin Biao, Zhou Enlai, Tao Zhu, Chen Boda.'
     src:
@@ -6310,8 +6316,8 @@ entries:
   - id: cal.1966-08-21.china-leadership-3
     when: Aug. 21
     date: '1966-08-21'
-    thread: china-leadership
-    also: [china-army]
+    thread: china-red-guards
+    also: [china-army, china-mao-cr]
     c: On Mao's approval the PLA General Staff and General Political Department issue the rule that troops are in no case to be used to put down the revolutionary student movement by force.{1}
     n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 21, 1966 ("同日"). [[w.mao-zedong-zhuan]], VI, ch. 75 (with Mao''s approval the General Staff and the General Political Department issue on Aug. 21 the rule that troops are in no case to be used for armed suppression of the revolutionary student movement). [[w.pu-weihua-zalan-jiu-shijie]], 242, 242 n.85 (Aug. 21: the General Staff''s and General Political Department''s regulation 〈关于绝对不许动用部队武装镇压革命学生运动的规定〉: no troops in any case to suppress the revolutionary student movement by arms, still less fire on students; even to fire in the air a grave political error, to be strictly punished). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 75). Names: Mao Zedong.'
     src:
@@ -7675,8 +7681,7 @@ entries:
   - id: cal.1966-08-24.china-leadership-14
     when: Aug. 24
     date: '1966-08-24'
-    thread: china-leadership
-    also: [china-army]
+    thread: china-army
     c: Ye Jianying 叶剑英 instructs the Academy of Military Science's 军事科学院 Party committee to protect its deputy head Song Shilun 宋时轮 and deputy political commissar Zhong Qiguang 钟期光 in the movement.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 943. Made public: 2007. Names: Ye Jianying, Song Shilun, Zhong Qiguang.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc, name:song-shilun, name:zhong-qiguang]
@@ -8279,7 +8284,7 @@ entries:
     thread: open-housing
     also: [king, states-and-cities]
     c: 'Chicago.{1} The summit, from Aug. 17: Daley and the city, the Real Estate Board, the Housing Authority, churches, business, and labor with the Freedom Movement;{2} Aug. 26, an agreement at the Palmer House.{3} The Commission on Human Relations to enforce the city''s fair-housing ordinance;{4} the Real Estate Board to drop its opposition to open occupancy (Check the terms);{5} public housing scattered and low; mortgages without regard to race.{6} The marches suspended, the one into Cicero called off.{7} King: "the first step in a 1,000-mile journey."{8}'
-    n: '[Report of the subcommittee to the summit meeting on fair housing](https://www.crmvet.org/docs/66chiagm.htm) (Aug. 26, 1966); King, [Statement on Open Housing Made at the Palmer House](https://okra.stanford.edu/link/document660826-000) (King Papers Project). [[w.garrow-bearing-the-cross]], 503–07, 518–24; [[w.branch-at-canaans-edge]], 521–22 (the Walnut Room; Ayers''s report; a goal of one percent Negro occupancy in the seventy-five neighborhoods, left out of the text; Cody: "We are like a little United Nations"; Daley: "we can amend our injunction"; the ten points passed unanimously); [[w.kotz-judgment-days]], 367; [[w.bernstein-guns-or-butter]], 398–99 (King: "the first step in a thousand-mile journey"); [[w.young-easy-burden]], 414–16; [[w.ralph-northern-protest]], 168–71; [[w.anderson-confronting-the-color-line]], 262–66 (the Palmer House; Ayers''s report; Daley: "we can amend our injunction"); [[w.anderson-confronting-the-color-line]], 441–45 (the subcommittee''s report, App. II); [[w.cohen-american-pharaoh]], 417–21. To check: [[w.chicago-1966]] (which prints the agreement; Check); Chicago Real Estate Board, "Statement . . .," Aug. 17, 1966; Chicago Freedom Movement, "To Achieve Justice . . .," Aug. 17, 1966, Garrow''s files (McKnight); John McKnight, "The Summit Negotiations, Chicago, August 17, 1966–August 26, 1966," unpublished, 1966, 1–14, John McKnight Files, Evanston (cited by [[w.garrow-bearing-the-cross]], 503 n.34); *Chicago Daily News*, Aug. 26 at 1 and Aug. 27, 1966, at 1 (cited by [[w.garrow-bearing-the-cross]], 521 n.41); [*New York Times*, Aug. 27, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/27/issue.html), at 1; *Chicago Tribune*, Aug. 27, 1966, at 1 (cited by [[w.garrow-bearing-the-cross]], 523 n.43); John McKnight, "The Summit Negotiations, Chicago, August 17—August 26, 1966," in Garrow, ed., Chicago 1966, pp. 136–45 (cited by [[w.branch-at-canaans-edge]], 521); Garrow, *Chicago 1966* (1989), 137 (cited by [[w.branch-at-canaans-edge]], 521); "Rights Aides Set Goal in Chicago/ Seek 1% Negro Occupancy in 75 Areas by April 30," [*New York Times*, Aug. 28, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/28/issue.html), at 50 (cited by [[w.branch-at-canaans-edge]], 521); "Housing Pact Set, Dr. King Calls off Chicago Marches/ He Hails 10-Point Program and ''Defers'' Rights Rally by 3,000 in Cicero/ Realty Men Back Plan/ But Several Negro Groups Dissent and Map Protest by 300 Tomorrow," [*New York Times*, Aug. 27, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/27/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 522); Thomas G. Ayers, "The ''Summit Agreement, " in Garrow, ed., Chicago 1966, pp. 147–54. ol VADLEY MOMENTS (cited by [[w.branch-at-canaans-edge]], 522); *Chicago Daily News*, 29 August 1966; *Chicago Sun-Times*, 25 August 1966; "Report of the Subcommittee," p. 11 (cited by [[w.anderson-confronting-the-color-line]], 262 n.28). See [[cal.1966-07-10.open-housing]]. Names: King, Daley.'
+    n: '[Report of the subcommittee to the summit meeting on fair housing](https://www.crmvet.org/docs/66chiagm.htm) (Aug. 26, 1966); King, [Statement on Open Housing Made at the Palmer House](https://okra.stanford.edu/link/document660826-000) (King Papers Project). [[w.garrow-bearing-the-cross]], 503–07, 518–24; [[w.branch-at-canaans-edge]], 521–22 (the Walnut Room; Ayers''s report; a goal of one percent Negro occupancy in the seventy-five neighborhoods, left out of the text; Cody: "We are like a little United Nations"; Daley: "we can amend our injunction"; the ten points passed unanimously); [[w.kotz-judgment-days]], 367; [[w.bernstein-guns-or-butter]], 398–99 (King: "the first step in a thousand-mile journey"); [[w.young-easy-burden]], 414–16; [[w.ralph-northern-protest]], 168–71; [[w.anderson-confronting-the-color-line]], 262–66 (the Palmer House; Ayers''s report; Daley: "we can amend our injunction"); [[w.anderson-confronting-the-color-line]], 441–45 (the subcommittee''s report, App. II); [[w.cohen-american-pharaoh]], 417–21. Check: the subcommittee''s report has the Real Estate Board "withdraw all opposition to the philosophy of open occupancy legislation at the state level," if the legislation applies to owners as well as brokers. To check: [[w.chicago-1966]] (which prints the agreement; Check); Chicago Real Estate Board, "Statement . . .," Aug. 17, 1966; Chicago Freedom Movement, "To Achieve Justice . . .," Aug. 17, 1966, Garrow''s files (McKnight); John McKnight, "The Summit Negotiations, Chicago, August 17, 1966–August 26, 1966," unpublished, 1966, 1–14, John McKnight Files, Evanston (cited by [[w.garrow-bearing-the-cross]], 503 n.34); *Chicago Daily News*, Aug. 26 at 1 and Aug. 27, 1966, at 1 (cited by [[w.garrow-bearing-the-cross]], 521 n.41); [*New York Times*, Aug. 27, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/27/issue.html), at 1; *Chicago Tribune*, Aug. 27, 1966, at 1 (cited by [[w.garrow-bearing-the-cross]], 523 n.43); John McKnight, "The Summit Negotiations, Chicago, August 17—August 26, 1966," in Garrow, ed., Chicago 1966, pp. 136–45 (cited by [[w.branch-at-canaans-edge]], 521); Garrow, *Chicago 1966* (1989), 137 (cited by [[w.branch-at-canaans-edge]], 521); "Rights Aides Set Goal in Chicago/ Seek 1% Negro Occupancy in 75 Areas by April 30," [*New York Times*, Aug. 28, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/28/issue.html), at 50 (cited by [[w.branch-at-canaans-edge]], 521); "Housing Pact Set, Dr. King Calls off Chicago Marches/ He Hails 10-Point Program and ''Defers'' Rights Rally by 3,000 in Cicero/ Realty Men Back Plan/ But Several Negro Groups Dissent and Map Protest by 300 Tomorrow," [*New York Times*, Aug. 27, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/27/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 522); Thomas G. Ayers, "The ''Summit Agreement, " in Garrow, ed., Chicago 1966, pp. 147–54. ol VADLEY MOMENTS (cited by [[w.branch-at-canaans-edge]], 522); *Chicago Daily News*, 29 August 1966; *Chicago Sun-Times*, 25 August 1966; "Report of the Subcommittee," p. 11 (cited by [[w.anderson-confronting-the-color-line]], 262 n.28). See [[cal.1966-07-10.open-housing]]. Names: King, Daley.'
     src:
       c: 8992f5e8
       rows:
@@ -11388,8 +11393,8 @@ entries:
     date: 1966-08
     at: after 1966-08-05
     place: peking
-    thread: china-leadership
-    also: [china-army]
+    thread: china-red-guards
+    also: [china-mao-cr]
     c: Lin Biao 林彪, arrived in Peking, told by Mao 毛泽东 that he is to be the successor, writes Mao that he cannot accept. Mao insists, and Lin gives in.
     n: '[[w.teiwes-tragedy-of-lin-biao]], 64. Made public: 1993 ([[w.weixun-wo-suo-zhidaode-ye]]). To check: [[w.weixun-wo-suo-zhidaode-ye]], 215 (cited by [[w.teiwes-tragedy-of-lin-biao]], 64 n.18a); Teiwes and Sun''s unnamed oral sources (interviews with Party and military historians and with persons connected to the actors, early 1990s), as they report them (cited by [[w.teiwes-tragedy-of-lin-biao]], 64 n.18b). See [[cal.1966-08-06.china-leadership-2]]. Names: Lin Biao, Mao Zedong.'
     src:
@@ -11774,7 +11779,7 @@ entries:
     when: Aug. 31
     date: '1966-08-31'
     place: peking
-    thread: china-leadership
+    thread: china-red-guards
     c: 'Peking 北京. Chen Yun 陈云 answers the students of the Tianjin Engineering Institute 天津工学院 on the history of Yuan Xuezu 袁血卒, its vice-president and deputy Party secretary (a Party member from 1927, a leader of the Ningdu rising 宁都起义 of 1931, twice jailed in 1935 and 1936 without betraying the Party): twenty-five or twenty-six years ago, in the Organization Department 中共中央组织部 at Yan''an 延安, he settled Yuan''s case, but no longer recalls the verdict; after Liberation the Organization Department settled it again, he heard.'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 156. Made public: 2015. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun, vis:only:prc]
