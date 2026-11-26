@@ -138,14 +138,7 @@ def page(series, template):
         'contributors, and Mapbox for its code of 2020 and before), the tiles read through PMTiles 4.5.0 (BSD-3-Clause, '
         '© Protomaps LLC), the names set in Libre Franklin (SIL Open Font License 1.1, © The Libre Franklin Project '
         f'Authors); all three served from this site. <a href="{README}vendor/README.md">Their licenses</a>.</p>',
-        '<p class="logic vng-q">This product, the 1968 series\' map layers, incorporates data from the HydroSHEDS version 1 '
-        'database which is © World Wildlife Fund, Inc. (2006-2022) and has been used herein under license. WWF has not '
-        'evaluated the data as altered and incorporated within the 1968 series\' map layers, and therefore gives no '
-        'warranty regarding its accuracy, completeness, currency or suitability for any particular purpose. Portions of '
-        'the HydroSHEDS v1 database incorporate data which are the intellectual property rights of © USGS (2006-2008), '
-        'NASA (2000-2005), ESRI (1992-1998), CIAT (2004-2006), UNEP-WCMC (1993), WWF (2004), Commonwealth of Australia '
-        '(2007), and Her Royal Majesty and the British Crown and are used under license. The HydroSHEDS v1 database and '
-        'more information are available at <a href="https://www.hydrosheds.org">https://www.hydrosheds.org</a>.</p>',
+        HYDROSHEDS,
     ]
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", "Indochina, 1960–1968").replace("{{main}}", "\n".join(main))
@@ -169,6 +162,19 @@ def in_calendar(series, m):
         out.append((iso or maps.pad(loose.place_iso(hit[2])) if (iso or hit) else lo.isoformat(),
                     f'<a href="{esc(h)}">{esc(when)}</a>'))
     return out
+
+
+# HydroSHEDS's statement, in full wherever its rivers are credited (STYLE 3; sources/indochina/README.md): this page
+# and china.html
+HYDROSHEDS = (
+    '<p class="logic vng-q">This product, the 1968 series\' map layers, incorporates data from the HydroSHEDS version 1 '
+    'database which is © World Wildlife Fund, Inc. (2006-2022) and has been used herein under license. WWF has not '
+    'evaluated the data as altered and incorporated within the 1968 series\' map layers, and therefore gives no '
+    'warranty regarding its accuracy, completeness, currency or suitability for any particular purpose. Portions of '
+    'the HydroSHEDS v1 database incorporate data which are the intellectual property rights of © USGS (2006-2008), '
+    'NASA (2000-2005), ESRI (1992-1998), CIAT (2004-2006), UNEP-WCMC (1993), WWF (2004), Commonwealth of Australia '
+    '(2007), and Her Royal Majesty and the British Crown and are used under license. The HydroSHEDS v1 database and '
+    'more information are available at <a href="https://www.hydrosheds.org">https://www.hydrosheds.org</a>.</p>')
 
 
 CSS = """<style id="vngcss">

@@ -147,7 +147,8 @@ def test_figure_and_data(china_map):
     assert all(set(x) == {"h", "w", "d", "t", "s", "p", "v", "k"} for x in ents)
     assert all(x["p"] == ["peking"] for x in ents if x["v"] == [])                      # the fixture's own entries in Peking
     man = json.load(open(os.path.join(china_map, fig.split('data-geo="', 1)[1].split('"', 1)[0]), encoding="utf-8"))
-    assert man["opt"] == {"shown": ["prc", "roc", "hong-kong", "macau"], "dot": cnmap.DOT, "unit": "as of 1966"}
+    assert man["opt"] == {"shown": ["prc", "roc", "hong-kong", "macau"], "dot": cnmap.DOT, "city": cnmap.CITY,
+                          "unit": "as of 1966"}
     assert man["bounds"] == cnmap.BOUNDS and man["home"] == {"all": cnmap.HOME}
     pts = {f["properties"]["id"]: f["properties"] for f in man["places"]["features"]}
     assert set(pts) == {"peking", "taipei"} and pts["peking"]["r"] == 1 and pts["peking"]["name"] == "Peking"
@@ -181,9 +182,192 @@ def test_one_client():
     code = re.sub(r"/\*.*?\*/", "", js, flags=re.S)
     code = "\n".join(l.split("//")[0] for l in code.split("\n"))
     assert not re.search(r"\bchina\b|'prc'|'cn'", code, re.I)
-    for opt in ("O.shown ||", "O.dot ||", "O.unit", "this.D.eu", "this.D.map", "this.D.mode", "this.D.home"):
+    for opt in ("O.shown ||", "O.dot ||", "O.city ||", "O.unit", "this.D.eu", "this.D.map", "this.D.mode", "this.D.home"):
         assert opt in js, opt
     assert "['rvn', 'drv', 'laos', 'cambodia']" in js and "O.dot || 2.6" in js      # Indochina's own stay the defaults
+    assert "O.city || 0.0105" in js and cnmap.CITY == 0.0105 / 2
+
+
+# ---- the layers (the owner, Nov. 25, 2026: "Which of the SEA map overlays can we also use on our China map? Bring
+# them over."): the maps of Indochina's boxes, legend and files, by the same code; the data alone differs
+
+LAYER_BOXES = ["relief", "elevation", "contours", "rivers", "koppen", "rain", "pop", "cities"]
+CITIES = """sources:
+  dyb1966: United Nations, *Demographic Yearbook 1966*, table 6
+cities:
+- place: peking
+  as: PEKING
+  rows:
+  - {date: '1957-12-31', kind: E, pop: 4010000, of: city proper, src: dyb1966, page: 185}
+- id: fushun
+  name: Fushun
+  lat: 41.87
+  lon: 123.89
+  q: Q75026
+  rows:
+  - {date: '1957-12-31', kind: E, pop: 985000, of: city proper, src: dyb1966, page: 185, note: In italics.}
+- place: sichuan
+  rows:
+  - {date: '1953-06-30', kind: C, pop: 1, of: city proper, src: dyb1966, page: 185}
+"""
+
+
+@pytest.fixture
+def china_layers(china_map, monkeypatch, tmp_path):
+    """The map's directory with every layer's file in it (a few bytes each: the build copies, it reads no geometry)."""
+    src = tmp_path / "china"
+    os.makedirs(src)
+    for f in cnmap.FILES.values():
+        (src / f).write_bytes(b"{}")
+    (src / "hypso.json").write_text(json.dumps({"classes": [
+        {"index": 0, "kind": "land", "from_m": 0, "to_m": 5000, "label": "0–5,000 m", "color": "#acd0a5"},
+        {"index": 1, "kind": "land", "from_m": 5000, "to_m": None, "label": "5,000 m and over", "color": "#cac3b8"},
+        {"index": 2, "kind": "sea", "depth_from_m": 0, "depth_to_m": 50, "label": "0–50 m deep", "color": "#d8eaf4"},
+        {"index": 3, "kind": "sea", "depth_from_m": 50, "depth_to_m": None, "label": "50 m and deeper", "color": "#c6dff0"}]}))
+    (src / "koppen.json").write_text(json.dumps({"classes": [
+        {"value": 7, "code": "BSk", "name": "Arid, steppe, cold", "color": "#ffdc64", "share_of_land_in_frame": 0.2},
+        {"value": 1, "code": "Af", "name": "Tropical, rainforest", "color": "#0000ff", "share_of_land_in_frame": 0.0001}]}))
+    (src / "cities.yaml").write_text(CITIES, encoding="utf-8")
+    monkeypatch.setattr(cnmap, "SRC", str(src))
+    return src
+
+
+def test_layer_boxes(china_layers):
+    """The layers' boxes are the maps of Indochina's, in their order, after this map's own two; the rain's month and
+    the population's year after them. With no file, no box (the fixture: test_figure_and_data)."""
+    bar = cnmap._bar()
+    assert re.findall(r'data-l="(\w+)"', bar) == ["names", "counties"] + LAYER_BOXES
+    assert re.findall(r'data-mode="(\w+)"', bar) == ["prov", "borders", "land"]
+    assert bar.index('data-l="cities"') < bar.index("<select data-m") < bar.index("<select data-py")
+    theirs = vnmap.bar((), [], set(vnmap.FILES), True)
+    mine = cnmap._bar()
+    cut = lambda h: h[h.index('<label><input type="checkbox" data-l="relief">'):]
+    assert cut(mine) == cut(theirs)                         # the same markup to the last byte
+    os.remove(china_layers / "contours.geojson")
+    os.remove(china_layers / "cities.yaml")
+    assert re.findall(r'data-l="(\w+)"', cnmap._bar()) == ["names", "counties", "relief", "elevation", "rivers", "koppen", "rain", "pop"]
+
+
+def test_layer_key(china_layers):
+    """The legend's layer parts are vnmap.layer_key's, with this map's own words; a class under 0.1 percent of the
+    frame is left out, as on the maps of Indochina."""
+    key = cnmap._key()
+    for k in LAYER_BOXES:
+        assert f'data-show="lay:{k}"' in key, k
+    assert "ETOPO 2022 (30″, about 900 m)" in key and "5,000 m and over" in key and "50 m and deeper" in key
+    assert "Contours at 500 m (dashed), 1,000, 2,000, 3,000, 4,000 and 5,000 m." in key
+    assert "mm a month (cells of half a degree):" in key and "lon. 100" not in key
+    assert "BSk Arid, steppe, cold" in key and "Tropical, rainforest" not in key
+    assert key.index('data-show="lay:counties"') < key.index('data-show="lay:relief"')
+    parts = []
+    vnmap.layer_key(lambda show, html: parts.append(show), vnmap._legends(str(china_layers)), vnmap.WORDS)
+    assert parts == ["lay:" + k for k in LAYER_BOXES]
+
+
+def test_layer_files(china_layers):
+    """Each layer's file goes beside the pages under its own hash and extension; the cities as points, a city at its
+    gazetteer place or at its own point; the credits of the files that are there; the legends' data."""
+    s = _series()
+    man = json.load(open(os.path.join(china_layers.parent, cnmap.manifest(s)), encoding="utf-8"))
+    assert set(man["files"]) == set(cnmap.FILES) | {"cities"}
+    for k, f in cnmap.FILES.items():
+        assert re.fullmatch(rf"geo/cn-{f.split('.')[0]}-[0-9a-f]{{10}}\.{f.split('.')[1]}", man["files"][k]), k
+    assert set(man["credit"]) == set(cnmap.FILES) | {"page"}
+    assert "their names from SWORD" in man["credit"]["rivers"] and man["credit"]["dem"] == vnmap.CREDIT["dem"]
+    assert [h["from"] for h in man["hypso"]] == [0, 5000] and [d["from"] for d in man["depths"]] == [50]
+    assert man["shallow"] == "#d8eaf4" and man["pop"]["years"] == [1960, 1970] and len(man["rain"]) == len(vnmap.RAIN)
+    fc = json.load(open(os.path.join(china_layers.parent, man["files"]["cities"]), encoding="utf-8"))
+    got = {f["properties"]["id"]: f for f in fc["features"]}
+    assert set(got) == {"peking", "fushun"}                 # a province named as a place has no point: no circle
+    assert got["peking"]["geometry"]["coordinates"] == [116.4075, 39.904] and got["peking"]["properties"]["label"] == "Peking 4,010,000"
+    assert got["fushun"]["geometry"]["coordinates"] == [123.89, 41.87] and got["fushun"]["properties"]["pop"] == 985000
+    rows = json.loads(got["peking"]["properties"]["rows"])
+    assert rows == [{"text": "4,010,000 (city proper), estimate of Dec. 31, 1957: United Nations, Demographic Yearbook "
+                             "1966, table 6, p. 185."}, {"text": "The Yearbook's name: PEKING."}]
+    assert json.loads(got["fushun"]["properties"]["rows"])[0]["text"].endswith("p. 185. In italics.")
+
+
+def test_layers_wherever_the_map_stands(china_layers):
+    """The layers are offered wherever the map stands, as the maps of Indochina's are: the map's own page, a calendar
+    page's figure and a thread's all carry the one box, with the same boxes and legend."""
+    import datetime
+    s = _series()
+    lst = s.lists["cal"]
+    full = cnmap.full_figure(s)
+    cal = maps.figure(s, cnmap, datetime.date(1961, 1, 1), datetime.date(1961, 12, 31))
+    slug = next(k for r in maps.entries(s, cnmap)["rows"] for k in r["k"])
+    th = maps.figure(s, cnmap, datetime.date(1961, 1, 1), datetime.date(1961, 12, 31), th=slug, here="t-")
+    box = lambda fig: re.sub(r'aria-label="[^"]*"', "", fig[fig.rindex('<div class="vnm-bar">'):fig.index('<details class="vnm-list">')])
+    assert cal and th and box(full) == box(cal) == box(th)
+    assert re.findall(r'data-l="(\w+)"', box(cal)) == ["names", "counties"] + LAYER_BOXES
+    assert all(f'data-show="lay:{k}"' in cal for k in LAYER_BOXES)
+    assert cal.split('data-geo="', 1)[1].split('"', 1)[0] == full.split('data-geo="', 1)[1].split('"', 1)[0]   # one manifest
+
+
+@pytest.mark.parametrize("city, want", [
+    ("- place: atlantis\n  rows: []\n", "atlantis: no such place"),
+    ("- id: x\n  name: X\n  lat: 1.0\n  rows: []\n", "x: needs a place, or id, name, lat, lon and q"),
+    ("- place: peking\n  rows:\n  - {date: '1957', kind: E, pop: 1, of: city proper, src: dyb1966}\n", "peking 1957: needs pop, src and page"),
+    ("- place: peking\n  rows:\n  - {date: '1957', kind: E, pop: '1', of: city proper, src: dyb1966, page: 1}\n", "peking 1957: needs pop, src and page"),
+    ("- place: peking\n  rows:\n  - {date: '1957', kind: E, pop: 1, of: city proper, src: dyb1999, page: 1}\n", "peking 1957: needs pop, src and page"),
+])
+def test_city_problems(china_layers, city, want):
+    (china_layers / "cities.yaml").write_text(CITIES.split("cities:")[0] + "cities:\n" + city, encoding="utf-8")
+    got = [m for w, m in cnmap.problems(None) if w == "cnmap"]
+    assert any(m == "sources/china/cities.yaml: " + want or m.startswith("sources/china/cities.yaml: " + want) for m in got), got
+
+
+def test_cities_clean(china_layers):
+    assert [m for w, m in cnmap.problems(None) if "cities.yaml" in m] == []
+
+
+def test_layer_sizes(china_layers, monkeypatch):
+    """`check`'s size rules hold for China's layers as for Indochina's: a file over the limit, the files together."""
+    monkeypatch.setattr(vnmap, "MAX_FILE", 1)
+    got = [m for w, m in cnmap.problems(None)]
+    for f in cnmap.FILES.values():
+        assert f"sources/china/{f}: 2 bytes, over 1" in got, f
+    monkeypatch.setattr(vnmap, "MAX_FILE", 10)
+    monkeypatch.setattr(vnmap, "MAX_ALL", 5)
+    got = [m for w, m in cnmap.problems(None)]
+    assert got == [f"sources/china: the map's files {2 * len(cnmap.FILES)} bytes together, over 5"]
+
+
+def test_layers_load_when_ticked():
+    """The client fetches nothing of a layer before its box is ticked: every GeoJSON layer's source starts empty, the
+    cities' too, and takes its file in `load`; the tiles are read by the library when their layer is first shown."""
+    js = open(os.path.join(TOOLS, "bib", "vnmap.js"), encoding="utf-8").read()
+    lazy = re.search(r"const LAZY = \{([^}]*)\}", js)[1]
+    for k in ("rivers", "lakes", "contours", "bathy", "climate", "pop", "counties"):
+        assert f"{k}: '{k}'" in lazy, k
+    assert "cities: {type: 'geojson', data: EMPTY}" in js and "if (lay.cities) load('cities');" in js
+    assert "data: EMPTY, attribution: M.credit[k]" in js
+    css = open(os.path.join(TOOLS, "bib", "vnmap.css"), encoding="utf-8").read()
+    assert ".vnm-key s>i{" in css and ".vnm-key i{" not in css      # a swatch is an <i> in an <s>; a title's <i> is italics
+    for k in ("dem", "koppen"):
+        assert f"if (f.{k}) src.{k} = " in js and f"f.{k} && {{id: " in js
+
+
+def test_frames():
+    """tools/vnmap/frames.py: the layer scripts' numbers. Indochina's are those the scripts held before they served a
+    second frame, so its files come out the same; China's are the choices sources/china/README.md states."""
+    sys.path.insert(0, os.path.join(TOOLS, "vnmap"))
+    import frames
+    f, rest = frames.get(["DIR"])
+    assert f["id"] == "indochina" and rest == ["DIR"] and f["out"].endswith(os.path.join("sources", "indochina"))
+    assert (f["frame"], f["extent"]) == ((97.5, 5.5, 113.0, 26.0), (100.0, 8.0, 110.5, 23.5))
+    assert (f["dem_maxz"], f["koppen_maxz"], f["mean"], f["levels"]) == (8, 7, 4, [500, 1000, 1500, 2000])
+    assert (f["depth_tol"], f["contour_tol"], f["contour_min"], f["bands"]) == (0.01, 0.003, 0.03, None)
+    assert (f["pop_cells"], f["pop_tol"], f["pop_prec"], f["rain_cells"]) == (1, 0.004, 3, 1)
+    assert (f["river_min"], f["river_read"], f["river_tol"], f["lake_min"], f["lake_tol"]) == (10, None, 0.002, 1.0, 0.001)
+    assert f["sword"] == (43, 44) and len(f["delta"]) == 8 and f["etopo_sec"] == 15
+    c, rest = frames.get(["DIR", "OUT", "china", "hydro"])
+    assert c["id"] == "china" and rest == ["DIR", "OUT", "hydro"] and c["out"].endswith(os.path.join("sources", "china"))
+    assert c["frame"] == (66.0, 10.0, 142.0, 58.0) and list(c["extent"]) == cnmap.BOUNDS
+    assert c["delta"] is None and c["river_min"] == c["river_read"] and c["pop_cells"] == c["rain_cells"] == 3
+    assert [b[0] for b in c["bands"]] == [0, 100, 200, 500, 1000, 1500, 2000, 3000, 4000, 5000]
+    assert c["bands"][:6] == frames.LAND7 and c["levels"][0] == 500 and c["levels"][-1] == 5000
+    assert "5,000" in cnmap.WORDS["contours"] and all(f"{v:,}" in cnmap.WORDS["contours"] for v in c["levels"][1:])
 
 
 # ---- tools/cnmap/counties.py: the record

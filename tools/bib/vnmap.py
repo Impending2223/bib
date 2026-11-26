@@ -215,15 +215,27 @@ def _places():
 
 def _cities():
     """sources/indochina/cities.yaml as points, each with its rows as the tap shows them, cited by page."""
-    p = os.path.join(LAYERS, "cities.yaml")
+    G = gazetteer()
+
+    def point(c):
+        g = G.get(c["place"])
+        return (g["lon"], g["lat"], shown(g)) if g and g.get("lat") is not None else None
+    return cities(os.path.join(LAYERS, "cities.yaml"), point)
+
+
+def cities(p, point):
+    """A map's cities.yaml as points (the maps of Indochina's, and the map of China's: cnmap.py). point(city): its
+    (lon, lat, name), or None for a city that has no point. A city the Yearbook names otherwise (`as`) says so in a
+    last line of its tap."""
     if not os.path.exists(p):
         return {"type": "FeatureCollection", "features": []}
     d = store.load_yaml(p)
-    G, feats = gazetteer(), []
+    feats = []
     for c in d["cities"]:
-        g = G.get(c["place"])
-        if not g or g.get("lat") is None:
+        at = point(c)
+        if not at:
             continue
+        lon, lat, name = at
         rows = []
         for r in c["rows"]:
             src = d["sources"][r["src"]].replace("*", "")
@@ -231,10 +243,12 @@ def _cities():
             kind = "census" if r["kind"] == "C" else "estimate"
             rows.append({"text": f'{r["pop"]:,} ({r["of"]}), {kind} of {when}: {src}, p. {r["page"]}.'
                                  + (f' {r["note"]}' if r.get("note") else "")})
+        if c.get("as") and c["as"] != name:
+            rows.append({"text": f'The Yearbook\'s name: {c["as"]}.'})
         first = c["rows"][0]
-        feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [g["lon"], g["lat"]]},
-                      "properties": {"id": c["place"], "name": shown(g), "pop": first["pop"],
-                                     "label": f'{shown(g)} {first["pop"]:,}', "rows": json.dumps(rows, ensure_ascii=False)}})
+        feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [lon, lat]},
+                      "properties": {"id": c.get("place") or c["id"], "name": name, "pop": first["pop"],
+                                     "label": f'{name} {first["pop"]:,}', "rows": json.dumps(rows, ensure_ascii=False)}})
     return {"type": "FeatureCollection", "features": feats}
 
 
@@ -253,7 +267,9 @@ def _date(s):
     return y
 
 
-def _legends():
+def _legends(d=None):
+    """The legends' data for the manifest, from a map's own directory (Indochina's; China's: cnmap.py)."""
+    LAYERS = d or globals()["LAYERS"]
     out = {}
     hp = os.path.join(LAYERS, "hypso.json")
     if os.path.exists(hp):
@@ -364,36 +380,53 @@ def _key():
     part("always", '<s><i class="o" style="background:var(--vdot)"></i><span class="vnm-dotlab">entries, by number</span></s>')
     part("nb", "<em>North Vietnam, Laos, Cambodia: today's provinces (geoBoundaries), not those of the 1960s; "
                "Vĩnh Linh, north of the Bến Hải, the DRV's special zone of 1954–76.</em>")
-    part("lay:relief", "<em>Relief: shaded from NOAA's ETOPO 2022 (15″, about 460 m).</em>")
+    layer_key(part, L, WORDS)
+    return '<div class="vnm-key">' + "".join(parts) + "</div>"
+
+
+# what the layers' legend says of this map's own data (the map of China's: cnmap.WORDS)
+WORDS = {"relief": "15″, about 460 m", "contours": "500 m (dashed), 1,000, 1,500 and 2,000 m",
+         "rain": "lon. 100–110.5° E, lat. 8–23.5° N only", "cities": "printed, 1960–68"}
+
+
+def layer_key(part, L, W):
+    """The layers' parts of the legend, one form for every map: part(show, html) takes each; L the legends' data
+    (_legends), W the words that are the map's own (WORDS)."""
+    part("lay:relief", f"<em>Relief: shaded from NOAA's ETOPO 2022 ({W['relief']}).</em>")
     if L.get("hypso"):
         part("lay:elevation", "<em>Elevation:</em>" + "".join(_sw(h["color"], h["label"]) for h in L["hypso"])
              + "".join(_sw(h["color"], h["label"]) for h in L["depths"]))
-    part("lay:contours", "<em>Contours at 500 m (dashed), 1,000, 1,500 and 2,000 m.</em>")
+    part("lay:contours", f"<em>Contours at {W['contours']}.</em>")
     part("lay:rivers", "<em>Rivers and lakes, today's courses; a reservoir from its dam's year.</em>")
     if L.get("koppen"):
         part("lay:koppen", "<em>Köppen–Geiger climate, 1961–1990:</em>" + "".join(_sw(c["color"], f'{c["code"]} {c["name"]}') for c in L["koppen"]))
-    part("lay:rain", '<em>Rain, <span class="vnm-month">July</span>, mean of 1961–1990, mm a month (lon. 100–110.5° E, '
-                     'lat. 8–23.5° N only):</em>' + "".join(_sw(r["color"], f'{r["from"]}{"+" if i == len(RAIN) - 1 else ""}')
-                                                            for i, r in enumerate(L["rain"])))
+    part("lay:rain", f'<em>Rain, <span class="vnm-month">July</span>, mean of 1961–1990, mm a month ({W["rain"]}):</em>'
+         + "".join(_sw(r["color"], f'{r["from"]}{"+" if i == len(RAIN) - 1 else ""}') for i, r in enumerate(L["rain"])))
     part("lay:pop", '<em>Population, <span class="vnm-popyear">1960</span>, persons a km²: modelled, and made later '
                     '(ISIMIP3a, from HYDE 3.2.1); not a census:</em>'
          + "".join(_sw(c["color"], (f'{c["from"]:,}–{L["pop"]["classes"][i + 1]["from"]:,}' if i + 1 < len(POP) else f'{c["from"]:,} and over'))
                    for i, c in enumerate(L["pop"]["classes"])))
     part("lay:cities", '<s><i class="o" style="background:var(--vcity);opacity:.5"></i>Cities:</s><em>the populations the UN '
-                       '<i>Demographic Yearbook</i> printed, 1960–68 (a tap gives each figure and its page)</em>')
-    return '<div class="vnm-key">' + "".join(parts) + "</div>"
+                       f'<i>Demographic Yearbook</i> {W["cities"]} (a tap gives each figure and its page)</em>')
 
 
 def _bar():
     have = {k for k in FILES if os.path.exists(os.path.join(LAYERS, FILES[k]))}
+    modes = (("ctz", "Corps zones"), ("reg", "Regions"), ("prov", "Provinces"), ("borders", "Borders"),
+             ("land", "Land and water"))
+    return bar(modes, [("names", "Names", True), ("nb", "North Vietnam, Laos, Cambodia", True)], have, True)
+
+
+def bar(modes, own, have, cities):
+    """The controls, one form for every map: the kinds of map, the map's own boxes, then the layers' boxes for the
+    files it has (`have`: FILES' keys; `cities`: it has cities), the rain's month and the population's year."""
     seg = ('<span class="seg" role="group" aria-label="Map">'
-           + "".join(f'<button type="button" data-mode="{m}" aria-pressed="false">{t}</button>'
-                     for m, t in (("ctz", "Corps zones"), ("reg", "Regions"), ("prov", "Provinces"), ("borders", "Borders"),
-                                  ("land", "Land and water"))) + "</span>")
-    boxes = [("names", "Names", True), ("nb", "North Vietnam, Laos, Cambodia", True), ("relief", "Relief", "dem" in have),
+           + "".join(f'<button type="button" data-mode="{m}" aria-pressed="false">{t}</button>' for m, t in modes)
+           + "</span>")
+    boxes = list(own) + [("relief", "Relief", "dem" in have),
              ("elevation", "Elevation", "dem" in have), ("contours", "Contours", "contours" in have),
              ("rivers", "Rivers", "rivers" in have), ("koppen", "Climate", "koppen" in have),
-             ("rain", "Rain", "climate" in have), ("pop", "Population", "pop" in have), ("cities", "Cities", True)]
+             ("rain", "Rain", "climate" in have), ("pop", "Population", "pop" in have), ("cities", "Cities", cities)]
     h = seg + "".join(f'<label><input type="checkbox" data-l="{k}"> {t}</label>' for k, t, ok in boxes if ok)
     if "climate" in have:
         h += ('<select data-m aria-label="Month of the rain">'
@@ -476,13 +509,24 @@ def problems(series):
         for f in fs:
             if not os.path.exists(os.path.join(VENDOR, d, f)):
                 out.append(("vnmap", f"sources/vendor/{d}/{f}: missing"))
-    cp = os.path.join(LAYERS, "cities.yaml")
+    return out + city_problems("vnmap", os.path.join(LAYERS, "cities.yaml"), "sources/indochina/cities.yaml", G)
+
+
+def city_problems(kind, cp, where, G):
+    """`check`'s errors for a map's cities.yaml: a city whose place the gazetteer G lacks, or (the map of China's)
+    that has neither a place nor a point of its own with its source; a row without its figure, Yearbook and page."""
+    out = []
     if os.path.exists(cp):
         c = store.load_yaml(cp)
         for x in c.get("cities", []):
-            if x["place"] not in G:
-                out.append(("vnmap", f"sources/indochina/cities.yaml: {x['place']}: no such place"))
+            who = x.get("place") or x.get("id") or x.get("as")
+            if "place" in x:
+                if x["place"] not in G:
+                    out.append((kind, f"{where}: {x['place']}: no such place"))
+            elif not (x.get("id") and x.get("name") and isinstance(x.get("lat"), (int, float))
+                      and isinstance(x.get("lon"), (int, float)) and x.get("q")):
+                out.append((kind, f"{where}: {who}: needs a place, or id, name, lat, lon and q (its Wikidata item)"))
             for r in x.get("rows", []):
                 if r.get("src") not in c.get("sources", {}) or not r.get("page") or not isinstance(r.get("pop"), int):
-                    out.append(("vnmap", f"sources/indochina/cities.yaml: {x['place']} {r.get('date')}: needs pop, src and page"))
+                    out.append((kind, f"{where}: {who} {r.get('date')}: needs pop, src and page"))
     return out
