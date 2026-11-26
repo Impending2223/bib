@@ -1,125 +1,13 @@
 patch: 2026-11-26-nyt-19600909
-by: Claude (reader, Sonnet; the New York Times of Sept. 9, 1960, the 44 TimesMachine files of the Drive folder "NYT 1960-09-09", R26a), Nov. 26, 2026
+by: Claude (reader, Sonnet; the New York Times of Sept. 9, 1960, the 44 TimesMachine files of the Drive folder "NYT 1960-09-09", R26a), Nov. 26, 2026; audited and mended by Claude (auditor, Opus), Nov. 26, 2026 (notes/nyt/audit-19600909.md)
 ops:
-- check:
-    id: cal.1960-09-07.elections-1960-kennedy-6
-    text: 'Check: the *Times*, Sept. 9, 1960, prints a photograph of Robert F. Kennedy with Almond, Hodges and Vandiver at a breakfast in Atlanta, the day not given.'
-- primary:
-    id: cal.1960-09-08.space
-    text: Felix Belair Jr., "Eisenhower Terms Soviet Space Work 'Soulless, Barren'," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 8 (the dedication at Huntsville and von Braun as director of the center; not July 1).
-- add-words:
-    id: cal.1960-09-08.space
-    after: end
-    words: About 10,000 workers hear him; Mrs. George C. Marshall unveils a bust of Marshall a few minutes earlier. The nation's space achievements, he says, are the outgrowth not of "a soulless, barren technology, nor of a grasping state imperialism" but of "unrestrained human talent and energy."
-    text: Felix Belair Jr., "Eisenhower Terms Soviet Space Work 'Soulless, Barren'," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 8.
-- names:
-    id: cal.1960-09-08.space
-    add:
-    - Marshall
-    tags:
-    - name:marshall-george-c
-- primary:
-    id: cal.1960-09-08.berlin-and-vienna
-    text: '"German Reds Put a Continuing Curb on Berlin Travel," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 7 (the permit requirement, announced Sept. 8 in Berlin; not the passports).'
-- add-words:
-    id: cal.1960-09-08.berlin-and-vienna
-    after: end
-    words: The order, published by the East German press agency ADN, comes three days after the earlier five-day ban was lifted; permits are to be sought at the People's Police offices, and Allied personnel and other foreigners are not affected. Western officials call it the most stringent violation of Berlin's four-power status since the end of World War II.
-    text: '"German Reds Put a Continuing Curb on Berlin Travel," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 7.'
-- check:
-    id: cal.1960-09-08.berlin-and-vienna
-    text: 'Check: the *Times*, Sept. 9, 1960, at 1, 7, says it was not clear whether the curbs restricted residents of West Berlin from crossing to East Berlin, and reports no refusal of West German passports held by West Berliners.'
-- place:
-    id: cal.1960-09-08.berlin-and-vienna
-    at: berlin
-    basis: n
-    note: the dateline of the *Times* story, Berlin
-- primary:
-    id: cal.1960-09-07.congo-6
-    text: Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4 (the report of some nine tons of weapons landed "yesterday" at Elisabethville from a Belgian civil aircraft, and the UN's question to Belgium; not the "supply pipeline").
-- primary:
-    id: cal.1960-09-07.congo-6
-    text: 'A. M. Rosenthal, "U.N. Bans Katanga Flights," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (Belgian officials'' account: ordered by the Belgian army before independence, sent by a "zealous functionary" in Brussels, smaller than the nine tons reported "yesterday").'
-- check:
-    id: cal.1960-09-07.congo-6
-    text: 'Check: the day and size: Rosenthal, the *Times*, Sept. 9, 1960, from Elisabethville, Sept. 8, has the air shipment of ammunition from Brussels reach Katanga "today" and be smaller than the nine tons reported "yesterday"; Parrott, Sept. 8, has the nine tons landed "yesterday".'
-- primary:
-    id: cal.1960-09-08.congo
-    text: 'Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4 (the fourth report: authority to disarm some Congolese Army units, a reaffirmation of the directive to member powers to keep hands off the Congo, and an appeal to the factions; the report made public that day).'
-- check:
-    id: cal.1960-09-09.congo
-    text: 'Check: the *Times*, Sept. 9, 1960, at 1, 4, has the Congo Senate, Sept. 8, vote 41 to 2, seven abstaining, to reject Kasavubu''s dismissal of Lumumba, after the lower house''s 60 to 19 on Sept. 7; nothing of an annulment on Sept. 9.'
-- primary:
-    id: cal.1960-09-05.congo
-    text: Henry Tanner, "Lumumba Bids U.N. Give Up Controls or Face Ouster," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4 (Kasavubu's dismissal of Lumumba on Monday, Sept. 5, rejected by the Senate on Sept. 8).
-- primary:
-    id: cal.1960-09-07.congo-3
-    text: Henry Tanner, "Lumumba Bids U.N. Give Up Controls or Face Ouster," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4 (the lower house's vote of 60 to 19 "yesterday" to "invalidate" both dismissals).
-- primary:
-    id: cal.1960-09-06.china-3
-    text: '"Deal With Peiping Rejected by U.S.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (the 100th meeting, Tuesday, with Wang Ping-nan and Beam; the next meeting set for Oct. 18; not the words attributed to Wang in the line).'
-- primary:
-    id: cal.1960-09-07.intelligence-3
-    text: Jack Raymond, "House Units Map Defector Studies," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (Hays's acknowledgment that he might have been the member; the report to Morgan; the CIA supposition).
-- add-words:
-    id: cal.1960-09-07.intelligence-3
-    after: end
-    words: He reported it to Thomas E. Morgan, chairman of the Foreign Affairs Committee, and denies that his visitors could have known, as Mitchell and Martin claimed, that Assistant Secretary of State Macomber telephoned him during the visit.
-    text: Jack Raymond, "House Units Map Defector Studies," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html).
-- names:
-    id: cal.1960-09-07.intelligence-3
-    add:
-    - Morgan
-    - Macomber
-    tags:
-    - name:morgan-thomas-e
-    - name:macomber-william-b-jr
-- check:
-    id: cal.1960-09-07.intelligence-3
-    text: 'Check: the date: the *Times*, Sept. 9, 1960, has Hays acknowledging that he might have been the member to whom Martin and Mitchell said they spoke in a year printed "1958" with a damaged digit in the copy; "last spring" in the line.'
-- primary:
-    id: cal.1960-09-06.antisubversion
-    text: Jack Raymond, "House Units Map Defector Studies," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (the hearing set for Sept. 16; not the closed session, Gates or the hiring practices).
-- primary:
-    id: cal.1960-09-07.elections-1960
-    text: John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14 (the statement of the National Conference of Citizens for Religious Freedom, "yesterday", questioning whether a Roman Catholic President could withstand "the determined efforts of his church to breach the wall of separation of church and state"; the group headed by Peale, a supporter of Nixon).
-- primary:
-    id: cal.1960-09-07.elections-1960-religion-2
-    text: John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14 (the board of trustees' call, "yesterday", for "calm analysis and sober speech about the religious issue").
-- primary:
-    id: cal.1960-09-07.elections-1960-kennedy-6
-    text: Claude Sitton, "Peale Is Criticized," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (the uphill struggle in seven States, told to newsmen "last night" after arrival; the one-day strategy meeting at the Dinkler Plaza Hotel on Sept. 8).
-- primary:
-    id: cal.1960-09-08.elections-1960-kennedy
-    text: 'W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16 (the photograph: the crowd at the train at Redding).'
-- add-words:
-    id: cal.1960-09-08.elections-1960-kennedy
-    after: end
-    words: A photograph shows him introducing Governor Edmund G. Brown from the platform of his train.
-    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16.
-- names:
-    id: cal.1960-09-08.elections-1960-kennedy
-    add:
-    - Brown
-    tags:
-    - name:brown-edmund-g
-- check:
-    id: cal.1960-09-08.elections-1960-kennedy-10
-    text: 'Check: the hour: the *Times*, Sept. 9, 1960, at 1, 16, has Kennedy''s speech-making day begin at 8:45 a.m. at Dunsmuir, against "six in the morning" in the line.'
-- primary:
-    id: cal.1960-09-08.elections-1960-kennedy-6
-    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16 (the speech as prepared for delivery; the rally due at 9 p.m.).
-- add-words:
-    id: cal.1960-09-08.elections-1960-kennedy-6
-    after: end
-    words: 'In the text prepared for delivery he reiterates that the short post-convention Congressional session was not as injurious to the Democratic party as some said but an eye-opener that only Democratic leadership could produce progressive legislation, and makes medical care for the aged a top-priority issue; he refrains from direct attacks on Nixon while Nixon is in the hospital, but pokes fun at a "new" Republican party: "There is no new Republican party--and no old Republican party."'
-    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16.
-- names:
-    id: cal.1960-09-08.elections-1960-kennedy-6
-    add:
-    - Nixon
-    tags:
-    - name:nixon-richard-m
+- add:
+    section: th
+    after: transportation-auto-safety
+    entry:
+      id: cal.thread.united-nations
+      s: United Nations
+      c: The United Nations' organs and officers, the Security Council's and the Assembly's business, and the United States delegation, where no thread of the matter holds them.
 - add:
     entry:
       id: cal.1960-09-08.berlin-and-vienna-2
@@ -162,10 +50,9 @@ ops:
       date: '1960-09-08'
       thread: berlin-and-vienna
       place: west-berlin
-      c: 'West Berlin. The city government calls an emergency session on the East German curb and contacts the Western allies and the Bonn Government. Mayor Willy Brandt, after the session: he is convinced "we haven''t yet reached the climax of the new crisis"; he calls on the Western powers "responsible for the security of Berlin" to deal with the Communist threat.'
-      n: '"German Reds Put a Continuing Curb on Berlin Travel," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 7. Names: Brandt.'
-      tags:
-      - name:brandt-willy
+      c: West Berlin. The city government calls an emergency session on the East German curb and at once consults the Western allies and the Bonn Government.
+      n: '"German Reds Put a Continuing Curb on Berlin Travel," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 7.'
+      tags: []
       follows:
       - cal.1960-09-08.berlin-and-vienna
 - add:
@@ -174,15 +61,15 @@ ops:
       when: Sept. 9
       date: '1960-09-09'
       thread: berlin-and-vienna
-      c: 'As the *Times* reports it: the Soviet commander in Berlin has not yet answered the protest sent last week by the three Western commanders over the five-day East German traffic curbs, Aug. 31 to Sept. 4.'
-      n: '"German Reds Put a Continuing Curb on Berlin Travel," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 7.'
+      c: 'As the *Times* reports it: the Soviet commander in Berlin has not yet answered the protest of the three Western commanders, sent the week before, against the five-day East German traffic curbs of Aug. 31 to Sept. 4.'
+      n: '"German Reds Put a Continuing Curb on Berlin Travel," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 7. See [[cal.1960-08-31.berlin-and-vienna]].'
       tags:
       - polity:ussr
       - polity:us
       - polity:uk
       - polity:fr
       - polity:gdr
-      place: berlin
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-09-08.latin-america-dominican-republic-2
@@ -190,10 +77,11 @@ ops:
       date: '1960-09-08'
       thread: latin-america-dominican-republic
       also:
+      - united-nations
       - soviet-union
       place: nyc
-      c: 'United Nations. The Security Council debates the Soviet request to approve the OAS sanctions of Aug. 20 against the Trujillo regime. Kuznetsov argues under Article 53 of the Charter and revises the Soviet draft to drop its references to the sanctions, while calling the Trujillo Government "a regime of tyranny, corruption and assassination." Wadsworth: no Council endorsement is required, and the American republics want "alien ideologies" kept out of inter-American affairs. Tsiang of Nationalist China: approval would "expose the Soviet veto" to any regional decision. Argentina, Venezuela and Britain also speak. The Dominican delegation under Enrique de Marchena watches from the public gallery and declines a seat at the Council table.'
-      n: 'Kathleen Teltsch, "Soviet O.A.S. Role Is Opposed at U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 3. "Excerpts From U.N. Council Debate on Trujillo Regime in Dominican Republic," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (the speeches of Kuznetsov, Amadeo, Wadsworth, Sosa-Rodriguez and Beeley). To check: the Security Council''s record, Sept. 8, 1960. Names: Kuznetsov, Wadsworth.'
+      c: 'United Nations. The Security Council debates the Soviet request that it approve the OAS sanctions of Aug. 20 against the Trujillo regime. Kuznetsov, under Article 53 of the Charter, revises the Soviet draft to drop its references to the sanctions, while calling the Trujillo Government "a regime of tyranny, corruption and assassination." Wadsworth: no Council endorsement is required, only a report under Article 54; the American republics reject the attempts of Communist China and the Soviet Union to "make use of the political, economic or social situations of any American state." Tsiang of Nationalist China: approval would "expose to the Soviet veto" any regional decision. Argentina (Amadeo), Venezuela (Sosa-Rodriguez) and Britain (Beeley) also speak. The Dominican delegation under Enrique de Marchena watches from the public gallery and takes no seat at the Council table.'
+      n: 'Kathleen Teltsch, "Soviet O.A.S. Role Is Opposed at U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 3; "Excerpts From U.N. Council Debate on Trujillo Regime in Dominican Republic," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 2 (the speeches of Kuznetsov, Amadeo, Wadsworth, Sosa-Rodriguez and Beeley; Beeley''s "this afternoon"). To check: the Security Council''s record, Sept. 8, 1960. See [[cal.1960-08-16.latin-america]]. Names: Kuznetsov, Wadsworth.'
       tags:
       - name:kuznetsov-vasily-v
       - name:wadsworth-james-j
@@ -201,6 +89,11 @@ ops:
       - polity:us
       - polity:oas
       - polity:dominican-republic
+      time_range:
+      - 1960-09-08T16:00Z
+      - 1960-09-08T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
 - add:
     entry:
       id: cal.1960-08-30.latin-america-dominican-republic
@@ -208,8 +101,8 @@ ops:
       date: '1960-08-30'
       thread: latin-america-dominican-republic
       place: santo-domingo
-      c: 'Santo Domingo, then Ciudad Trujillo. Night of Aug. 30, Villa Consuelo: free-for-alls, by 8:30 a.m. Wednesday gang fights, more than 300 Trujillistas against more than 100 Dominican People''s Movement adherents, with sticks, clubs, stones and knives. 22 of the movement and 28 Trujillistas are hospitalized; the movement is routed and its headquarters sacked. Part of the mob sacks the headquarters and home of the Quisqueyano party''s president, Dr. Ramón Gonzales de León, burning goods valued at $12,600; the national police do not intervene. Libertad, the movement''s organ, is last sold Aug. 30, and rioters smash its press the next day. The *Times* writer (Lissner) reports it.'
-      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day of each act; the *Times* gives "Aug. 30" and "last Wednesday" (Aug. 31). Names: none.'
+      c: Ciudad Trujillo, the Villa Consuelo district. Free-for-alls through the night of Aug. 30; by 8:30 a.m. Aug. 31, gang fights, more than 300 Trujillistas against more than 100 adherents of the Dominican People's Movement, with sticks, clubs, stones and knives. 22 of the movement and 28 Trujillistas hospitalized; the movement routed, its headquarters sacked. Part of the mob sacks the headquarters of the Quisqueyano party and the home of its president, Dr. Ramón Gonzales de León, burning goods valued at $12,600; the national police do not intervene; secret police informers take part. Libertad, the movement's organ, last sold Aug. 30; its press smashed by rioters Aug. 31.
+      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). The time is the first day''s. Check: the day of the gang fights, Aug. 31 by the article''s sequence.'
       tags: []
       time_range:
       - 1960-08-31T03:00Z
@@ -223,10 +116,9 @@ ops:
       date: '1960-08-23'
       thread: latin-america-dominican-republic
       place: santo-domingo
-      c: Santo Domingo. Foreign Minister Porfirio Herrera Báez, stepping off his plane from the San José meeting, delivers a speech calling for public support in a fight against the ministers' resolution. President Balaguer, after the foreign ministers' vote, has recalled the San José delegation and organized mass demonstrations to welcome it with an orderly protest against the OAS sanctions.
-      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day of the demonstrations. See [[cal.1960-08-26.latin-america-dominican-republic]]. Names: Balaguer.'
+      c: Ciudad Trujillo. Foreign Minister Porfirio Herrera Báez, stepping off his plane from San José, delivers a speech calling for public support in a fight against the foreign ministers' resolution.
+      n: Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-08-16.latin-america]].
       tags:
-      - name:balaguer-joaquin-videla
       - polity:oas
       - ok:name-untagged
 - add:
@@ -235,21 +127,20 @@ ops:
       when: By Sept. 9
       date: '1960-09-09'
       thread: latin-america-dominican-republic
-      place: santo-domingo
-      c: Santo Domingo. Radio Caribe, a powerful station controlled by a private group and the organ of the extreme nationalist faction of Trujillo's Dominican party, first calls for Trujillo to assume the Presidency immediately as the nation's answer to the San José resolution; then denounces the Cabinet for its alleged silence on the sanctions; then demands that Trujillo take the Presidency and say whether he will steer the country on an extreme nationalist course. The Cabinet and then the President write to the station to praise its initiative and support its position on the Presidency; Balaguer says he would have resigned except that Trujillo was not disposed to accept the call. Radio Caribe ignores the letter and organizes demonstrations by workers, syndicate members and peasants. The *Times* writer (Lissner) reports it, without the days.
-      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the days; the account is undated. Names: Trujillo, Balaguer.'
+      c: Radio Caribe ignores President Balaguer's letter and organizes demonstrations by workers, syndicate members and peasants, its principal audience.
+      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. See [[cal.1960-08.latin-america-dominican-republic-3]]. Names: Balaguer.'
       tags:
-      - name:trujillo-rafael
       - name:balaguer-joaquin-videla
+      follows:
+      - cal.1960-09-09.latin-america-dominican-republic-3
 - add:
     entry:
       id: cal.1960-09-03.latin-america-dominican-republic
       when: Sept. 3
       date: '1960-09-03'
       thread: latin-america-dominican-republic
-      place: santo-domingo
-      c: Santo Domingo. The Quisqueyano party disbands, the Saturday before the *Times* writer's report. For the first time since last spring there is no functioning opposition party. Libertad is the organ of the Dominican People's Movement; La Prensa Libre, the organ of the loyal opposition, has been suspended since last February.
-      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day; the *Times* says "Saturday", Sept. 3 if the writer means the week before his return. Names: none.'
+      c: The Quisqueyano party disbands.
+      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. See [[cal.1960-08-30.latin-america-dominican-republic]].'
       tags: []
 - add:
     entry:
@@ -257,20 +148,20 @@ ops:
       when: Sept. 9
       date: '1960-09-09'
       thread: latin-america-dominican-republic
-      c: 'Will Lissner, in the *Times*, after a month in the Dominican Republic: observers in Ciudad Trujillo, within the foreign colony and the top circles of the Trujillo regime, think the United States and its allies could be confronted within a few months by a Leftist Dominican Government as full of problems as Castro''s. Had the OAS ministers voted for the immediate overthrow of the regime, they say, chaos and civil war would have followed and a Communist Government or another strong army regime. If secret elections were held now, Trujillo would probably be elected President by 99.99 percent. Balaguer''s policy of gradual "democratization" has so far survived: people discuss politics more freely, foreign correspondents report freely, many imprisoned opponents are pardoned, a general amnesty bill moves slowly through Congress; fear of the secret police remains.'
+      c: 'As the *Times* reports it: some of the best-informed observers in Ciudad Trujillo, in the foreign colony and in the top circles of the Trujillo regime, think the United States and its allies could be confronted within a few months by a Leftist Dominican Government as full of problems as Castro''s. There is no functioning opposition party, for the first time since the spring. If secret elections were held now, Trujillo would probably be elected President by 99.99 percent, they contend. Balaguer''s gradual "democratization" has so far survived: people discuss politics more freely; foreign correspondents report freely; many imprisoned opponents have been pardoned; a general amnesty bill moves slowly through Congress; fear of the secret police remains.'
       n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Castro, Trujillo, Balaguer.'
       tags:
       - name:castro-fidel
       - name:trujillo-rafael
       - name:balaguer-joaquin-videla
-      place: santo-domingo
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-09-07.soviet-union-un
       when: Sept. 7
       date: '1960-09-07'
-      thread: soviet-union-un
-      c: James J. Wadsworth is sworn in as chief United States representative at the United Nations, to replace Henry Cabot Lodge, who resigned Saturday, Sept. 3, to campaign for the Vice-Presidency.
+      thread: united-nations
+      c: James J. Wadsworth sworn in as chief United States representative at the United Nations, succeeding Henry Cabot Lodge, who resigned Sept. 3 to campaign for the Vice Presidency.
       n: '"New U.S. Chief at U.N. Rules Out Arms Talks," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Wadsworth, Lodge.'
       tags:
       - name:wadsworth-james-j
@@ -280,9 +171,9 @@ ops:
       id: cal.1960-09-08.soviet-union-un
       when: Sept. 8
       date: '1960-09-08'
-      thread: soviet-union-un
+      thread: united-nations
       place: nyc
-      c: United Nations. Wadsworth, on his first day as head of the United States delegation, presents his credentials to Secretary General Hammarskjold and renews old acquaintances.
+      c: United Nations. Wadsworth, on his first day as head of the United States delegation, presents his credentials to Hammarskjold.
       n: '"New U.S. Chief at U.N. Rules Out Arms Talks," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Wadsworth, Hammarskjöld.'
       tags:
       - name:wadsworth-james-j
@@ -294,12 +185,14 @@ ops:
       date: '1960-09-08'
       thread: testing
       also:
-      - soviet-union-un
+      - united-nations
       place: nyc
       c: 'United Nations. Wadsworth, at a news conference on his first day: serious negotiations on disarmament or a nuclear test ban are unlikely during the coming General Assembly, which is "too large a forum, too confusing," for meaningful debate.'
       n: '"New U.S. Chief at U.N. Rules Out Arms Talks," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Wadsworth.'
       tags:
       - name:wadsworth-james-j
+      follows:
+      - cal.1960-09-08.soviet-union-un
 - add:
     entry:
       id: cal.1960-09-08.china-2
@@ -317,31 +210,16 @@ ops:
 - add:
     entry:
       id: cal.1960-09-08.china-3
-      when: Sept. 8
+      when: By Sept. 8
       date: '1960-09-08'
       thread: china
       place: washington
-      c: 'Washington. The State Department makes public a statement on the Warsaw talks: it is "reluctantly compelled to conclude that Communist China, whatever its reason may be, has no serious interest either in reporting by its own newsmen from the United States or reporting by American newsmen from the China mainland." The American proposal, made three months ago, was for each government to accept the other''s newsmen on "equality and reciprocity." One official calls the Chinese reply "the most cynical statement of China''s attitude in a long time." The Department''s statement says the Chinese plan''s preamble would commit the United States to negotiate withdrawal of all its armed forces from Taiwan; officials in Washington read it as a reversal of policy meant to shatter confidence in Chiang Kai-shek.'
-      n: '"Deal With Peiping Rejected by U.S.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: whether the last sentence is the Department''s statement or the *Times*''s account of what officials noted. See [[cal.1960-09-06.china-3]]. Names: Chiang Kai-shek.'
+      c: 'Washington. The State Department makes public a statement on the Warsaw talks: it is "reluctantly compelled to conclude that Communist China, whatever its reason may be, has no serious interest either in reporting by its own newsmen from the United States or reporting by American newsmen from the China mainland." The American proposal, made three months earlier, was for each government to accept the other''s newsmen on "equality and reciprocity." One official calls the Chinese reply "the most cynical statement of China''s attitude in a long time." Officials say the Chinese preamble would commit the United States to negotiate the withdrawal of its forces from Taiwan, a reversal of policy meant to shatter confidence in Chiang Kai-shek.'
+      n: '"Deal With Peiping Rejected by U.S.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day of the statement. See [[cal.1960-09-06.china-3]]. Names: Chiang Kai-shek.'
       tags:
       - polity:us
       - polity:prc
       - name:chiang-kai-shek
-- add:
-    entry:
-      id: cal.1960-09-06.china-4
-      when: Sept. 6
-      date: '1960-09-06'
-      thread: china
-      place: warsaw
-      c: 'Warsaw. At the 100th meeting, Wang Bingnan brings back his Government''s answer to the American proposal for an exchange of newsmen: unacceptable; he offers a proposal of his own. Its preamble says the exchange would "seek to eliminate estrangement between the Chinese and American peoples," make "preliminary improvement in the present relations," and settle peacefully the question of withdrawal of all United States armed forces from Taiwan; Peking asks a guarantee in advance that none of its chosen reporters will be refused entry. Jacob D. Beam speaks for the United States. The next meeting is set for Oct. 18.'
-      n: '"Deal With Peiping Rejected by U.S.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-06.china-3]]. Names: Wang Bingnan, Beam.'
-      tags:
-      - name:wang-bingnan
-      - name:beam-jacob-d
-      - polity:prc
-      - polity:us
-      - polity:poland
 - add:
     entry:
       id: cal.1960-09-06.china-5
@@ -350,7 +228,7 @@ ops:
       thread: china
       place: taipei
       c: Taipei. Nationalist China enacts a law to induce foreign capital, approved last week by the National Congress, superseding thirty older laws; it follows American advice and a 19-point American-sponsored plan for expansion.
-      n: '"Taiwan Regime Woos Investors," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day of the approval and the body; the *Times* says "last week" and "National Congress". Names: none.'
+      n: '"Taiwan Regime Woos Investors," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day of the approval and the body that approved it.'
       tags:
       - polity:roc
       - polity:us
@@ -360,10 +238,9 @@ ops:
       when: Sept. 9
       date: '1960-09-09'
       thread: cuba
-      c: 'As the *Times* reports it: Radio Swan, a 50,000-watt American-owned station on Greater Swan Island, about 100 miles north of Honduras and under 400 miles from Cuba, is used to counter Communist propaganda in Cuba. It went on the air in May with test programs; in mid-June it went to two hours a day, and from next week will broadcast two hours each morning and three and a half hours in the evening, in Spanish and English. It is owned by the Gibraltar Steamship Company of New York. The State Department said June 1 the only station it knew of on Swan Island was a weather station. Honduras and the United States both claim the islands.'
-      n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2. Names: Castro.'
+      c: 'As the *Times* reports it: Radio Swan, a 50,000-watt American-owned station on Greater Swan Island, about 100 miles north of Honduras and under 400 miles from Cuba, counters Communist propaganda in Cuba. On the air in May with test programs; from mid-June two hours a day; from the next week two hours each morning and three and a half hours in the evening, in Spanish and English. It is owned by the Gibraltar Steamship Corporation of New York. Honduras and the United States both claim the islands.'
+      n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2. See [[cal.1960-05-17.cuba]].'
       tags:
-      - name:castro-fidel
       - polity:us
       - polity:cuba
       - polity:honduras
@@ -375,21 +252,22 @@ ops:
       when: By Sept. 8
       date: '1960-09-08'
       thread: cuba
-      c: Radio Swan agrees with Walter S. Lemmon, president of the World Wide Broadcasting System, to tape and rebroadcast some of World Wide's programs to Latin America; a thirty-minute Spanish program on World Wide's short-wave station WRUL, Scituate, Mass., will be repeated by Radio Swan on medium wave an hour later. Programs will be largely news and interviews with Cuban exiles, many prepared in Miami by Pepita Riera, "Havana Rose."
-      n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2. Check: the day of the agreement; the *Times* gives no day. See [[cal.1960-09-08.cuba]]. Names: Lemmon.'
+      c: 'Radio Swan agrees with Walter S. Lemmon, president of the World Wide Broadcasting System, to rebroadcast some of World Wide''s programs to Latin America: a thirty-minute Spanish program on its short-wave station WRUL, Scituate, Mass., to be repeated by Radio Swan on medium wave an hour later. Lemmon: largely news and interviews with Cuban exiles, many prepared in Miami by Pepita Riera, "Havana Rose."'
+      n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2. Check: the day of the agreement. Names: Lemmon.'
       tags:
       - polity:us
       - state:ma
       - city:miami
       - ok:fields-place
+      - ok:name-untagged
 - add:
     entry:
       id: cal.1960-06-27.cuba-2
       when: June 27
       date: '1960-06-27'
       thread: cuba
-      c: Honduras sends a note to the United States protesting Washington's latest assertion of sovereignty over the Swan Islands. In a reply sent late in August, the United States said it was prepared to negotiate the question; Honduras was reported to be organizing a commission to send to Washington for the talks.
-      n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2. Check: the day of the American reply, late August.'
+      c: Honduras sends the United States a note protesting Washington's latest assertion of sovereignty over the Swan Islands.
+      n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2.'
       tags:
       - polity:honduras
       - polity:us
@@ -397,12 +275,12 @@ ops:
 - add:
     entry:
       id: cal.1960-09-08.cuba-2
-      when: Sept. 8
+      when: By Sept. 8
       date: '1960-09-08'
       thread: cuba
       place: havana
       c: Havana. Paul D. Wilson, 31, a former Air Force sergeant, is expelled from Cuba after the Government rejects his offer to serve in an intelligence capacity for Cuba, Communist China or the Soviet Union; he is put on an airliner for Miami.
-      n: '"Cuba Expels Former G.I.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (AP).'
+      n: '"Cuba Expels Former G.I.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day.'
       tags:
       - polity:cuba
       - polity:us
@@ -414,11 +292,12 @@ ops:
       date: '1960-09-08'
       thread: cuba
       place: montreal
-      c: Montreal. Gen. José Pedraza y Cabrera says he has resigned as leader of a movement of Cuban exiles; he has been ordered deported from Canada.
-      n: '"Exile Quits Fight on Castro," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (AP).'
+      c: Montreal. Gen. José Pedraza y Cabrera, former chief of the Cuban Armed Forces, says he has resigned as leader of a movement of Cuban exiles plotting a counter-revolution against Castro's regime.
+      n: '"Exile Quits Fight on Castro," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Castro.'
       tags:
       - polity:cuba
       - polity:canada
+      - name:castro-fidel
 - add:
     entry:
       id: cal.1960-09-08.latin-america-2
@@ -441,7 +320,7 @@ ops:
       thread: latin-america
       place: bogota
       c: 'Bogotá. Raúl Prebisch, executive director of the UN Economic Commission for Latin America, tells the inter-American economic conference that Latin America, "even with the small aid that it has received," has not done enough for itself: a 40 percent illiteracy rate and an average of one year of schooling per capita; failure to tax idle land into production and to apply income taxes to narrow the gap between rich and poor; failures on anti-inflationary measures. Unless a "profound transformation" is effected, the youth of the continent will not stay passive: "These new generations ... will destroy this world and build another."'
-      n: Richard Eder, "Morse Hails Plan for Aid to Latins," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-05.latin-america]].
+      n: 'Richard Eder, "Morse Hails Plan for Aid to Latins," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-05.latin-america]]. Check: whether the speaker of the morning is Prebisch.'
       tags:
       - polity:un
       - ok:name-untagged
@@ -457,7 +336,7 @@ ops:
       date: '1960-09-08'
       thread: congo
       place: leopoldville
-      c: 'Léopoldville. The Congo Senate votes 41 to 2, with seven abstentions, to reject Kasavubu''s dismissal on Monday of Lumumba as Premier. The Senate is at first hostile: two ministers who countersigned the dismissal, Foreign Minister Justin Bomboko and Albert Delvaux, Minister Resident in Belgium, speak against Lumumba. Lumumba then speaks in a two-hour address; he announces his Cabinet''s decision to request immediate UN withdrawal, charges that the UN, by seizing the airports and the radio, has sought to impose military occupation ("They want to have us in slavery ... They cannot stay"), and says the Congo Government will keep law and order with its own army. Debate continues three hours. The lower house voted 60 to 19 the day before to "invalidate" both dismissals.'
+      c: 'Léopoldville. The Congo Senate votes 41 to 2, with seven abstentions, to reject Kasavubu''s dismissal of Lumumba as Premier, Sept. 5. The Senate is hostile in the morning: two ministers who countersigned the dismissal, Foreign Minister Justin Bomboko and Albert Delvaux, Minister Resident in Belgium, speak against Lumumba. Lumumba, in a two-hour address, announces his Cabinet''s decision to request immediate UN withdrawal; the UN, seizing the airports and the radio, has sought to impose military occupation ("They want to have us in slavery ... They cannot stay"); the Government will keep order with its own army. Debate continues three hours.'
       n: 'Henry Tanner, "Lumumba Bids U.N. Give Up Controls or Face Ouster," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4. See [[cal.1960-09-07.congo-3]]. Names: Lumumba, Kasavubu, Bomboko.'
       tags:
       - name:lumumba-patrice
@@ -484,7 +363,7 @@ ops:
       - polity:belgium
       - ok:fields-time
       follows:
-      - cal.1960-09-08.congo-2
+      - cal.1960-09-08.congo-10
 - add:
     entry:
       id: cal.1960-09-08.congo-4
@@ -492,13 +371,13 @@ ops:
       date: '1960-09-08'
       thread: congo
       place: leopoldville
-      c: Léopoldville. A clandestine radio station, calling itself Radio Freedom and believed controlled by Kasavubu's party, the Association of the Lower Congo (Abako), goes on the air right after the Senate vote, inviting the people to rally around Kasavubu. It declares the Lumumba Government illegal and warns that if the Premier does not give up his post by Saturday the whole Léopoldville population will be "mobilized" against him.
+      c: 'Léopoldville. A clandestine radio station calling itself Radio Freedom, believed controlled by Kasavubu''s party, the Abako, goes on the air: the people to rally round Kasavubu; the Lumumba Government illegal; if the Premier does not give up his post by Saturday the whole population of Léopoldville will be "mobilized" against him.'
       n: 'Henry Tanner, "Lumumba Bids U.N. Give Up Controls or Face Ouster," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4. Names: Kasavubu, Lumumba.'
       tags:
       - name:kasavubu-joseph
       - name:lumumba-patrice
       follows:
-      - cal.1960-09-08.congo-2
+      - cal.1960-09-08.congo-10
 - add:
     entry:
       id: cal.1960-09-08.congo-5
@@ -506,8 +385,8 @@ ops:
       date: '1960-09-08'
       thread: congo
       place: elisabethville
-      c: Elisabethville. About 200 Congolese troops are reported to have entered secessionist Katanga from the north, in the Kongolo region on the Congo River, more than 400 miles from Elisabethville; there is no official confirmation. The UN has refused to let Katanga send a police force to the troubled area and has banned unscheduled flights.
-      n: '"Katanga Invaded by Congo Troops," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (UPI). Check: the report; the *Times* gives no confirmation, and Tanner''s dispatch from Léopoldville the same day bracketed it as UPI''s.'
+      c: Elisabethville. About 200 Congolese troops are reported to have entered secessionist Katanga from the north, on the border with Kivu; no official confirmation.
+      n: '"Katanga Invaded by Congo Troops," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the report.'
       tags:
       - polity:congo
       - polity:un
@@ -525,6 +404,8 @@ ops:
       - name:tshombe-moise
       - polity:un
       - polity:belgium
+      follows:
+      - cal.1960-09-08.congo-12
 - add:
     entry:
       id: cal.1960-09-08.congo-7
@@ -532,8 +413,8 @@ ops:
       date: '1960-09-08'
       thread: congo
       place: nyc
-      c: 'United Nations. Hammarskjold sends Belgium a note verbale questioning reports that some nine tons of weapons were landed from a Belgian civil aircraft at Elisabethville the day before: "confirmed reports" had been received "to the effect that a cargo marked ''Belgian weapons or something similar''" had been delivered from a Sabena plane. "Should this be the case, the Secretary General would consider it necessary to make a formal protest against the delivery, which is contrary to the spirit and letter of the Security Council resolution of 22 July 1960" and to non-intervention in the Congo''s internal affairs. It is the third reproof he has addressed to Belgium; the Times understands a note verbale is less formal than most diplomatic communications.'
-      n: 'Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4. "Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (the addendum, Note verbale of Sept. 8). See [[cal.1960-09-07.congo-6]]. Names: Hammarskjöld.'
+      c: 'United Nations. Hammarskjold sends Belgium a note verbale: "Confirmed reports have been received to the effect that a cargo of weapons, marked ''Belgian weapons'' or something similar, the weight of which is estimated at nine tons, was unloaded at Elisabethville Airport yesterday from a DC-7 civil aircraft of the Sabena Airlines." He asks whether the Belgian Government sent or authorized it; if so, he "would consider it necessary to make a formal serious protest against the delivery, which is contrary to the letter and spirit of the Security Council resolution of 22 July 1960," binding under Articles 25 and 49. His third reproof to Belgium.'
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (the addendum, the note verbale of Sept. 8); Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4. See [[cal.1960-09-07.congo-6]]. Names: Hammarskjöld.'
       tags:
       - name:hammarskjold-dag
       - polity:belgium
@@ -545,18 +426,20 @@ ops:
       date: '1960-09-08'
       thread: congo
       place: nyc
-      c: United Nations. Yugoslavia calls for an immediate meeting of the Security Council on the Congo; its note, delivered to Hammarskjold that morning by Dobrivoje Vidic, says "new and very serious difficulties have arisen" through the Lumumba–Kasavubu conflict, caused by outside interferences, "an organized action" supporting the secessionists Tshombe and Kalonji with military equipment and instructors, "facilitated" by the practices of the UN command, and urges that the Council "take measures which would finally insure full implementation" of its resolutions. A Council session Saturday is expected; Ortona of Italy, the month's president, is discussing the Congo with the eleven members.
+      c: 'United Nations. Yugoslavia asks an immediate meeting of the Security Council on the Congo, a few hours after the fourth report; its note, delivered that morning by Dobrivoje Vidic: "new and very serious difficulties have arisen" through the Lumumba–Kasavubu conflict, from outside interference and "an organized action" for the secessionists Tshombe and Kalonji, with military equipment and instructors, "facilitated" by the practices of the UN command; the Council to "take measures which would finally insure full implementation" of its resolutions.'
       n: 'Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4. Names: Vidic, Hammarskjöld, Tshombe.'
       tags:
       - name:vidic-dobrivoje
-      - name:hammarskjold-dag
       - name:tshombe-moise
       - polity:un
+      - polity:yugoslavia
       time_range:
       - 1960-09-08T10:00Z
       - 1960-09-08T16:00Z
       time_band: morning
       time_zone: America/New_York
+      follows:
+      - cal.1960-09-08.congo
 - add:
     entry:
       id: cal.1960-09-08.congo-9
@@ -565,7 +448,7 @@ ops:
       thread: congo
       place: nyc
       c: United Nations. The UN makes public a cablegram from Lumumba inviting the Security Council to hold its next meeting in Léopoldville, under the Charter's allowance for meetings away from the seat of the organization, so that the members can see "the situation existing in the Republic of the Congo as a result of the United Nations' interference in the Congo's domestic problems."
-      n: 'Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4. Check: the day of the cablegram; the *Times* gives only the day it was made public. Names: Lumumba.'
+      n: 'Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4. Check: the day of the cablegram. Names: Lumumba.'
       tags:
       - name:lumumba-patrice
       - polity:un
@@ -576,8 +459,8 @@ ops:
       date: '1960-09-04'
       thread: congo
       place: nyc
-      c: New York. Walter Loridan, Belgium's permanent representative at the UN, writes the Secretary General with further information on the delay in the evacuation of Belgian troops from the Congo, in reply to his note of Aug. 30. Belgium says the relief arrangements by UN units were decided between Generals von Horn and Geysen on Aug. 13 and ordered Aug. 14, that the UN relief was not carried out to the timetable, and that the Belgian troops would be withdrawn at midnight Aug. 30; the company at Elisabethville was to leave for Brussels Aug. 30 and left for Kamina, delayed to Aug. 31 and Sept. 1 by a USAF rescue operation at Kano and the railway companies' resources.
-      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (A, letter dated Sept. 4).'
+      c: 'New York. Walter Loridan, Belgium''s permanent representative at the UN, writes the Secretary General on the delay in the evacuation of Belgian troops, in reply to his note of Aug. 30: the relief by UN units was settled between Generals von Horn and Gheysen on Aug. 13, ordered Aug. 14, and not carried out to the timetable; the company at Elisabethville, due to leave Aug. 30, left for Kamina and was held there to Aug. 31 and Sept. 1 by a USAF rescue operation at Kano; the paratroop battalion at Kamina, training for Ruanda, waited on the railway companies; the men left for police and fire duties stayed with the consent of the UN command.'
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4. See [[cal.1960-08-30.congo]].'
       tags:
       - polity:belgium
       - polity:un
@@ -589,20 +472,22 @@ ops:
       date: '1960-09-04'
       thread: congo
       place: nyc
-      c: 'Hammarskjold cables Belgian Foreign Minister Wigny that he must approach him personally on the Kitona base: UN representatives who went to the base report its commander has received no instructions except to give logistic support to the UN, that 650 Belgians are still there, including those at Banana, whom the commander calls all combatants (he is himself a paratroop), and that two gunboats were seen at the Banana naval base. The information comes five days after the expiry of the period set by Belgium for withdrawal, and Hammarskjold must correct his report to the Security Council of Sept. 1 as incomplete; he reiterates his formal protest and expresses personal disappointment. He notes that the last paratroops at Albertville were taken aboard on Sept. 3 at 7 p.m.'
-      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (B, cable dated Sept. 4). Check: the day; the cable mentions Albertville "yesterday, 3 September". Names: Hammarskjöld.'
+      c: 'Hammarskjold to Wigny, Belgian Foreign Minister, by cable, on the Kitona base: its commander has no instructions but to give logistic support to the UN; 650 Belgians are there and at Banana, all combatants; two gunboats at the Banana naval base. Five days after the period Belgium set for withdrawal, he must correct his report to the Council of Sept. 1 as incomplete; he reiterates his formal protest at the delay and at the erroneous information, and his keen personal disappointment.'
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4. See [[cal.1960-09-04.congo-3]]. Names: Hammarskjöld, Wigny.'
       tags:
       - name:hammarskjold-dag
       - polity:belgium
       - polity:un
+      follows:
+      - cal.1960-09-04.congo-3
 - add:
     entry:
       id: cal.1960-09-05.congo-5
       when: Sept. 5
       date: '1960-09-05'
       thread: congo
-      c: 'Wigny, Belgian Foreign Minister, cables Hammarskjold: he has personally examined his message and will send a precise reply within a few hours.'
-      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (C, cable dated Sept. 5). Names: Hammarskjöld. See [[cal.1960-09-04.congo-2]].'
+      c: 'Wigny, Belgian Foreign Minister, to Hammarskjold, by cable: he has examined the message personally and will send a precise reply within a few hours.'
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4. See [[cal.1960-09-04.congo-2]]. Names: Wigny, Hammarskjöld.'
       tags:
       - name:hammarskjold-dag
       - polity:belgium
@@ -613,8 +498,8 @@ ops:
       when: Sept. 5
       date: '1960-09-05'
       thread: congo
-      c: 'Hammarskjold writes Loridan that Belgium''s letter of Sept. 4 calls for observations: the relief arrangements of Aug. 13 and 14 were never approved by the Secretary General; Belgium''s assurance of withdrawal within eight days is dated Aug. 20 and repeated in a letter of Aug. 24 that the period would end at 2400 hours Aug. 29, and neither letter mentioned those plans nor made UN relief a condition.'
-      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (D, letter dated Sept. 5; the text in the copy is cut at the edge). Check: the rest of the letter, not on the clipping. Names: Hammarskjöld. See [[cal.1960-09-04.congo]].'
+      c: 'Hammarskjold to Loridan, on Belgium''s letter of Sept. 4: the relief arrangements of Aug. 13 and 14 were never approved by him; Belgium''s assurance of Aug. 20, withdrawal within eight days, and its letter of Aug. 24, the period to end at 2400 hours Aug. 29, named no such plans and made no condition of UN relief; Gheysen''s conditions of Aug. 24 were refused; after Aug. 24 no sign of delay, and daily assurances; the UN''s air evacuation of the Kamina battalion failed because the Belgians insisted on Usumbura.'
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4. See [[cal.1960-09-04.congo]]. Names: Hammarskjöld.'
       tags:
       - name:hammarskjold-dag
       - polity:belgium
@@ -629,11 +514,10 @@ ops:
       - congo
       - africa
       place: moscow
-      c: Moscow. President Sékou Touré of Guinea announces in a joint communiqué signed with Khrushchev that he will join Khrushchev at the UN to support Soviet efforts to "get the aggressive forces out of the Congo"; each will head his country's delegation, and the two agree there is a possibility of bringing up the question of African "national independence" among the heads of government attending the session. Touré, who had signed a trade agreement earlier after a two-day visit, leaves that evening for Outer Mongolia and Communist China; Tass had indicated earlier that he could not go to New York. At the airport he says he would not have been treated so well in "reactionary states."
+      c: 'Moscow. Sékou Touré of Guinea and Khrushchev sign a joint communiqué: Touré will join Khrushchev at the UN to support Soviet efforts to "get the aggressive forces out of the Congo"; each will head his country''s delegation; there is a possibility of raising African "national independence" among the heads of government at the session.'
       n: 'Osgood Caruthers, "Toure to Support Khrushchev in U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Touré, Khrushchev.'
       tags:
       - name:toure-ahmed-sekou
-      - name:sekou-toure
       - name:khrushchev-nikita-s
       - polity:guinea
       - polity:ussr
@@ -642,6 +526,8 @@ ops:
       - 1960-09-08T19:00Z
       time_band: evening
       time_zone: Europe/Moscow
+      follows:
+      - cal.1960-09-08.soviet-union-un-3
 - add:
     entry:
       id: cal.1960-09-08.soviet-union
@@ -649,8 +535,8 @@ ops:
       date: '1960-09-08'
       thread: soviet-union
       place: moscow
-      c: Moscow. Llewellyn E. Thompson Jr., the American Ambassador, calls on Khrushchev in his Kremlin office to seek the release of the two surviving crew members of the RB-47 shot down July 1, Capt. Freeman B. Olmstead and Capt. John R. McKone. The meeting lasts an hour and a half. Khrushchev, who leaves the next day for a Baltic port to board the *Baltika*, had insisted in exchanges with Thompson the night before that the Soviet Government means to press the RB-47 case before the General Assembly.
-      n: 'Seymour Topping, "U.S. Urges Russians to Free Two Fliers in the RB-47 Case," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Thompson, Khrushchev, Olmstead.'
+      c: 'Moscow, the Kremlin. Llewellyn E. Thompson Jr., the American Ambassador, calls on Khrushchev, on the eve of his departure, to seek the release of the two surviving crew members of the RB-47 shot down July 1, Capt. Freeman B. Olmstead and Capt. John R. McKone, and to discuss strained relations; an hour and a half. Thompson: "Prior to his expected departure for the United Nations I called on Premier Khrushchev to discuss matters of interest to both Governments, including the detention of the RB-47 fliers."'
+      n: 'Seymour Topping, "U.S. Urges Russians to Free Two Fliers in the RB-47 Case," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-07.soviet-union]]. Names: Thompson, Khrushchev, Olmstead.'
       tags:
       - name:thompson-llewellyn-e
       - name:khrushchev-nikita-s
@@ -670,13 +556,18 @@ ops:
       date: '1960-09-07'
       thread: soviet-union
       place: moscow
-      c: Moscow. Khrushchev, in exchanges with Ambassador Thompson, insists that the Soviet Government intends to press the RB-47 case before the General Assembly.
-      n: 'Seymour Topping, "U.S. Urges Russians to Free Two Fliers in the RB-47 Case," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the place and the occasion; the *Times* says "last night". Names: Khrushchev, Thompson.'
+      c: Moscow, at a reception. Khrushchev, in exchanges with Ambassador Thompson, insists that the Soviet Government means to press the RB-47 case before the General Assembly; when he complains of American flights near the Soviet Union, Thompson suggests the reception is not the place for Soviet–American differences.
+      n: 'Seymour Topping, "U.S. Urges Russians to Free Two Fliers in the RB-47 Case," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Khrushchev, Thompson.'
       tags:
       - name:khrushchev-nikita-s
       - name:thompson-llewellyn-e
       - polity:us
       - polity:ussr
+      time_range:
+      - 1960-09-07T16:00Z
+      - 1960-09-07T19:00Z
+      time_band: evening
+      time_zone: Europe/Moscow
 - add:
     entry:
       id: cal.1960-09-08.europe-and-the-alliance-federal-republic
@@ -699,12 +590,13 @@ ops:
       date: '1960-09-08'
       thread: europe-and-the-alliance
       also:
-      - soviet-union-un
+      - united-nations
       place: washington
-      c: 'Washington. Herter, in an address to editors and publishers of United Press International, indirectly replies to de Gaulle''s news conference of Monday: revision of NATO is rejected, and integration is essential. He calls Khrushchev''s bid for a summit meeting at the UN "ludicrous in the extreme." The President may speak at the opening of the General Assembly, Sept. 20.'
-      n: 'Dana Adams Schmidt, "Revision of NATO Rejected by U.S.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). E. W. Kenworthy, "Herter Ridicules a Summit in U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Herter, de Gaulle, Khrushchev.'
+      c: 'Washington. Herter, addressing editors and publishers of United Press International, answers de Gaulle''s news conference of Sept. 5: "It continues to be the policy of the United States to encourage the concept of integration in NATO"; nuclear-capable weapons are already with the allied forces. He calls Khrushchev''s proposal of a summit of the leaders of eighty and more nations at the General Assembly "ludicrous in the extreme."'
+      n: 'Dana Adams Schmidt, "Revision of NATO Rejected by U.S.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html); E. W. Kenworthy, "Herter Ridicules a Summit in U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-05.europe-and-the-alliance-france]]. Names: Herter, de Gaulle, Khrushchev.'
       tags:
       - name:herter-christian-a
+      - name:de-gaulle-charles
       - name:khrushchev-nikita-s
       - polity:fr
       - polity:nato
@@ -715,21 +607,22 @@ ops:
       when: Sept. 9
       date: '1960-09-09'
       thread: africa-algeria-morocco
-      c: 'As the *Times* reports it: a project to merge the Government of Tunisia and the rebel Provisional Government of Algeria has been reported by observers in Tunis, after Bourguiba''s statement two days earlier that he was ready to "link his fate" with Algeria. Conversations are said to have gone on almost a month. Some reports mention a common Algerian-Tunisian government, one part free and the other occupied by a foreign power; some observers think the purpose is to bring about UN intervention if France extends operations into Tunisian territory, or to let foreign troops, such as Chinese Communists, cross Tunisia into Algeria. The Tunisians and Algerians are said to have abandoned hope that France will negotiate without outside pressure.'
-      n: 'Henry Giniger, "Algerian Link-Up to Tunisia Hinted," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Bourguiba.'
+      c: 'As the *Times* reports it: a project to merge the Government of Tunisia and the rebel Provisional Government of Algeria has been reported by observers in Tunis, after Bourguiba''s statement that he was ready to "link his fate" with Algeria; conversations said to have gone on almost a month; some reports of a common Algerian–Tunisian government, one part free and one occupied; the passage of foreign troops, such as Chinese Communists, across Tunisia into Algeria said to be under consideration by the Tunisian Government.'
+      n: 'Henry Giniger, "Algerian Link-Up to Tunisia Hinted," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-06.africa-algeria-morocco]]. Names: Bourguiba.'
       tags:
       - name:bourguiba-habib-ben-ali
       - polity:algeria
       - polity:tunisia
       - polity:fr
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-09-06.africa-algeria-morocco
       when: Sept. 6
       date: '1960-09-06'
       thread: africa-algeria-morocco
-      c: Tunisia. Bourguiba says he is ready to "link his fate" with Algeria.
-      n: 'Henry Giniger, "Algerian Link-Up to Tunisia Hinted," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the place and the words; the *Times* calls it a "somewhat enigmatic statement" two days before Sept. 8. Names: Bourguiba.'
+      c: Bourguiba says he is ready to "link his fate" with Algeria.
+      n: 'Henry Giniger, "Algerian Link-Up to Tunisia Hinted," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the place.'
       tags:
       - name:bourguiba-habib-ben-ali
       - polity:tunisia
@@ -739,22 +632,25 @@ ops:
       when: Sept. 7
       date: '1960-09-07'
       thread: africa-algeria-morocco
-      c: Brittany. De Gaulle, in an appeal, asks that "the knife" be put aside, which the *Times* reads with Bourguiba's remark as a sign he could not be expected to talk with rebels whose agents were murdering people while they talked.
-      n: 'Henry Giniger, "Algerian Link-Up to Tunisia Hinted," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the place, the day and the words; the *Times* says "yesterday" of his appeal "in Brittany". Names: de Gaulle.'
+      c: Brittany. De Gaulle, in an appeal, asks that "the knife" be put aside.
+      n: 'Henry Giniger, "Algerian Link-Up to Tunisia Hinted," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: de Gaulle.'
       tags:
+      - name:de-gaulle-charles
       - polity:fr
       - polity:algeria
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-09-09.africa
       when: By Sept. 9
       date: '1960-09-09'
       thread: africa
-      c: Dakar. Senghor and Mamadou Dia leave the National Assembly; Senegal, no longer part of the Mali Federation, has formed a Government as an independent state.
-      n: '"Senghor and Dia Leaving National Assembly," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (the photograph''s caption, UPI Radiophoto). Check: the day; the caption gives none. Names: none.'
+      c: Dakar. President Léopold Sédar Senghor and Premier Mamadou Dia, newly re-elected leaders of Senegal, leave the National Assembly to cheers. Senegal, no longer part of the Mali Federation, has formed a Government as an independent state.
+      n: '"Cheered in Dakar," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day.'
       tags:
       - polity:senegal
       - polity:mali
+      place: dakar
 - add:
     entry:
       id: cal.1960-09-08.korea
@@ -762,23 +658,26 @@ ops:
       date: '1960-09-08'
       thread: korea
       place: seoul
-      c: Seoul. South Korea's Cabinet threatens to resign en masse, in a statement by ten Cabinet members. Premier John M. Chang asks President Yun Posun and House Speaker Kwak San Ghun to mediate. The Cabinet was formed 16 days earlier.
-      n: '"Korean Cabinet Rebels," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (UPI). Names: Chang.'
+      c: Seoul. Ten members of South Korea's Cabinet, formed 16 days earlier, threaten in a statement to resign en masse. Premier John M. Chang asks President Yun Po-sun and House Speaker Kwak San Ghun to mediate.
+      n: '"Korean Cabinet Rebels," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Chang, Yun Po-sun.'
       tags:
       - name:chang-myon
+      - name:yun-po-sun
       - polity:rok
 - add:
     entry:
       id: cal.1960-09-08.middle-east
-      when: Sept. 8
+      when: By Sept. 8
       date: '1960-09-08'
       thread: middle-east
       place: cairo
-      c: 'As the *Times* reports it (AP): well-informed sources in Cairo say Nasser will head the United Arab Republic''s delegation to the General Assembly in New York, his first trip to a Western country.'
+      c: Cairo. Nasser will head the United Arab Republic's delegation to the General Assembly, his first trip to a Western country, well-informed sources say.
       n: '"Nasser Coming to U.N., Cairo Sources Report," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Nasser.'
       tags:
       - name:nasser-gamal-abdel
       - polity:uar
+      also:
+      - united-nations
 - add:
     entry:
       id: cal.1960-09-10.defense
@@ -786,8 +685,8 @@ ops:
       date: '1960-09-10'
       thread: defense
       place: colorado-springs
-      c: 'Operation Sky Shield, a North American Air Defense Command test: all commercial and private flights in the United States and Canada are to be grounded for six hours, 2 to 8 a.m., some 1,000 commercial flights and 37,000 passengers, against 2,000 defense sorties; Gen. Laurence S. Kuter directs it from NORAD headquarters, Colorado Springs, and Gen. Thomas S. Power, of Strategic Air Command, is to be aloft. NORAD announced it July 25.'
-      n: '"Air Defense Test Is Set Tomorrow," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the test as held. Names: Kuter, Power.'
+      c: 'Operation Sky Shield, a North American Air Defense Command test: all commercial and private flights in the United States and Canada grounded six hours, 2 to 8 a.m., some 1,000 commercial flights and 37,000 passengers, 700 private planes, 310 Canadian flights; some 2,000 sorties of American and Canadian interceptors against Strategic Air Command bombers. Gen. Laurence S. Kuter directs it from NORAD headquarters, Colorado Springs; Gen. Thomas S. Power, of Strategic Air Command, or one of his assistants, aloft.'
+      n: '"Air Defense Test Is Set Tomorrow," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the test as held. See [[cal.1960-07-25.defense]]. Names: Kuter, Power. Check: whose clock the hours are.'
       tags:
       - name:kuter-laurence-s
       - name:power-thomas-s
@@ -805,13 +704,12 @@ ops:
       date: '1960-09-08'
       thread: antisubversion
       place: washington
-      c: Washington. Walter, at a news conference, says he is writing to Kilday, head of a subcommittee appointed by Vinson of the Armed Services Committee, to offer his co-operation in the other's inquiry into the defectors Mitchell and Martin; he will continue his own investigation, with a hearing set for Sept. 16, and is indicating in his letter where he thinks the committees' jurisdictions lie. He says Martin and Mitchell were known to acquaintances as "sex deviates," which he heard "from a source in which I have great confidence." McCormack called on Walter to conduct the inquiry on Aug. 29; the Vinson action is seen as an effort to wrest the investigation from Walter's committee. Senate leaders, who will not be quoted, stress confidence in the quiet inquiry of Russell's Armed Services Committee.
-      n: 'Jack Raymond, "House Units Map Defector Studies," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-06.antisubversion]]. Names: Walter, Kilday, Vinson, McCormack, Russell, Mitchell, Martin.'
+      c: 'Washington. Walter, at a news conference: he is writing to Kilday, head of a subcommittee appointed by Vinson of the Armed Services Committee, offering his co-operation in its inquiry into the defectors Mitchell and Martin; he will continue his own, with a hearing set for Sept. 16, and says in his letter where he thinks the committees'' jurisdictions lie. Martin and Mitchell were known to acquaintances as "sex deviates," he says, which he heard "from a source in which I have great confidence." Senate leaders, not to be quoted, stress confidence in the quiet inquiry of Russell''s Armed Services Committee.'
+      n: 'Jack Raymond, "House Units Map Defector Studies," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-08-29.antisubversion]]. Names: Walter, Kilday, Vinson, Russell, Mitchell, Martin.'
       tags:
       - name:walter-francis-e
       - name:kilday-paul-j
       - name:vinson-carl
-      - name:mccormack-john-w
       - name:russell-richard-b
 - add:
     entry:
@@ -820,8 +718,8 @@ ops:
       date: '1960-09-08'
       thread: labor
       place: washington
-      c: Washington. McClellan announces that the Senate Investigations subcommittee has abandoned its plans for rackets hearings next week, Monday, Sept. 12; the *Times* cites a quorum difficulty.
-      n: '"M''Clellan Inquiry Off," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (UPI). Names: McClellan.'
+      c: Washington. McClellan announces that the Senate Investigations subcommittee has abandoned its plans for rackets hearings the next week, citing "the difficulties of holding such hearings during an election campaign year"; a new date when he can "make arrangements for a quorum of the subcommittee."
+      n: '"M''Clellan Inquiry Off," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: McClellan.'
       tags:
       - name:mcclellan-john-l
 - add:
@@ -831,10 +729,11 @@ ops:
       date: '1960-09-08'
       thread: elections-1960-nixon
       place: houston
-      c: Houston. Wright Morrow, a Houston lawyer and former Democratic National Committeeman from Texas, endorses Nixon.
-      n: '"Texan Endorses Nixon," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (AP). Names: Nixon.'
+      c: 'Houston. Wright Morrow, a Houston lawyer and former Democratic National Committeeman from Texas, endorses Nixon: "I am convinced the election of Richard Nixon and Henry Cabot Lodge would be in the best interests of the people of our country."'
+      n: '"Texan Endorses Nixon," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Nixon, Lodge.'
       tags:
       - name:nixon-richard-m
+      - name:lodge-henry-cabot
       - state:tx
       - city:houston
 - add:
@@ -844,8 +743,8 @@ ops:
       date: '1960-09-08'
       thread: press-and-broadcasting
       place: washington
-      c: Washington. Senator Yarborough asks the public to notify his subcommittee on freedom of communications of unfair handling of political broadcasts on radio and television; the subcommittee has asked the Senate for $150,000, with no action before Congress adjourned.
-      n: '"Senator Enlists Public," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (AP). Names: Ralph Yarborough.'
+      c: Washington. Senator Yarborough asks the public to "be the jury" and tell his subcommittee on freedom of communications of unfair handling of political broadcasts on radio and television; the subcommittee had asked the Senate for $150,000, with no action before Congress adjourned.
+      n: '"Senator Enlists Public," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Ralph Yarborough.'
       tags:
       - name:yarborough-ralph
 - add:
@@ -855,11 +754,13 @@ ops:
       date: '1960-09-08'
       thread: opinion
       place: richmond
-      c: 'Richmond. A telephone poll of 402 persons by the research department of Richmond Newspapers Inc., reported here: Nixon 40, Kennedy 25, undecided 35.'
-      n: '"Richmond Favoring Nixon, Survey Finds," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html).'
+      c: 'Richmond. A telephone poll of 402 persons by the research department of Richmond Newspapers Inc., reported here: Nixon 40 percent, Kennedy 25, undecided 35; of the undecided, 7 lean to Nixon, 9 to Kennedy. Women 38 to 23, men 43 to 27.'
+      n: '"Richmond Favoring Nixon, Survey Finds," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Nixon, Kennedy.'
       tags:
       - state:va
       - city:richmond
+      - name:nixon-richard-m
+      - name:kennedy-john-f
 - add:
     entry:
       id: cal.1960-09-08.cities-and-housing
@@ -880,8 +781,8 @@ ops:
       date: '1960-09-08'
       thread: elections-1960
       place: nyc
-      c: 'New York, the Statler Hilton Hotel. Charles Burton Marshall, of the Washington Center of Foreign Policy Research and formerly of the State Department''s policy-planning staff, to the American Political Science Association: no matter who is chosen President, the election will mark a turning away from "gerontocracy," or government by an old man, and a new era for the Presidency.'
-      n: 'Kennett Love, "Wagner Charges Neglect of Cities," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day and the occasion; the *Times* gives "Further criticism of the Eisenhower Administration" from Marshall at the same meeting. See [[cal.1960-09-08.cities-and-housing]].'
+      c: 'New York, the Statler Hilton Hotel. Charles Burton Marshall, of the Washington Center of Foreign Policy Research and formerly of the State Department''s policy-planning staff, to the American Political Science Association: whoever is chosen President, the election will mark a turning away from "gerontocracy," or government by an old man.'
+      n: 'Kennett Love, "Wagner Charges Neglect of Cities," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day; the *Times* gives it with Wagner''s address at the same meeting. See [[cal.1960-09-08.cities-and-housing]].'
       tags:
       - state:ny
       - city:new-york
@@ -893,11 +794,10 @@ ops:
       date: '1960-09-08'
       thread: elections-1960-nixon
       place: worcester
-      c: 'Worcester, Mass. Lodge opens a two-day swing through Massachusetts, billed as a nonpolitical homecoming after his retirement as United States delegate to the UN. Police estimate 1,000 at City Hall, where acting Mayor Andrew B. Holmstrom gives Lodge and Senator Leverett Saltonstall keys to the city, and more than 2,500 at a hotel reception; Lodge: "I''m not fat-headed enough to think it''s for me personally ... You are saying that you approve of the course which the United States has followed in the United Nations." John A. Volpe, the Republican candidate for Governor, tells reporters that some Democrats had talked of a 500,000-vote margin for the Kennedy–Johnson slate in the State and that Lodge''s nomination had "shaved that down to 150,000 -- and we might just have a fighting chance." Even the bravest Republican politicians hold out only a forlorn hope for the State''s sixteen electoral votes, the *Times* reports.'
-      n: 'Peter Kihss, "Lodge Is on Swing in Massachusetts," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Lodge, Volpe, Saltonstall.'
+      c: 'Worcester, Mass. Lodge opens a two-day swing through Massachusetts, billed as a nonpolitical homecoming after his retirement as United States delegate to the UN. Police estimate 1,000 at City Hall, where acting Mayor Andrew B. Holmstrom gives Lodge and Senator Leverett Saltonstall the keys to the city, and more than 2,500 at a hotel reception. Lodge: "I''m not fat-headed enough to think it''s for me personally ... You are saying that you approve of the course which the United States has followed in the United Nations."'
+      n: 'Peter Kihss, "Lodge Is on Swing in Massachusetts," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Lodge, Saltonstall.'
       tags:
       - name:lodge-henry-cabot
-      - name:volpe-john-a
       - name:saltonstall-leverett
       - state:ma
       - city:worcester
@@ -910,14 +810,16 @@ ops:
       also:
       - elections-1960-religion
       place: atlanta
-      c: Atlanta, the Dinkler Plaza Hotel. A one-day Democratic strategy meeting of party leaders from Virginia, the Carolinas, Georgia and Florida, with Robert F. Kennedy. Kennedy questions the motives of Peale and the Rev. Dr. Daniel Poling, who joined in the statement of concern over John F. Kennedy's religious faith.
-      n: 'Claude Sitton, "Peale Is Criticized," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-07.elections-1960-kennedy-6]]. Names: Robert Kennedy, Peale.'
+      c: 'Atlanta, the Dinkler Plaza Hotel. A one-day Democratic strategy meeting of party leaders from Virginia, the Carolinas, Georgia and Florida, with Robert F. Kennedy. Kennedy, to newsmen, questions the motives of Peale and the Rev. Dr. Daniel Poling, who joined in the statement of concern over John F. Kennedy''s religious faith: "Their close relationship with Mr. Nixon and the Republican party in the election leads me to question the sincerity of their statement and their judgment in issuing it." Governor Almond of Virginia, at the session, still holds that Nixon is capitalizing on the issue through innuendo.'
+      n: 'Claude Sitton, "Peale Is Criticized," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-07.elections-1960-kennedy-6]]. Names: Robert Kennedy, Peale, Kennedy, Nixon.'
       tags:
       - name:kennedy-robert-f
       - name:peale-norman-vincent
+      - name:kennedy-john-f
+      - name:nixon-richard-m
       - state:ga
       - city:atlanta
-      - name:kennedy-john-f
+      - ok:name-untagged
 - add:
     entry:
       id: cal.1960-09-08.elections-1960-kennedy-12
@@ -945,10 +847,9 @@ ops:
       date: '1960-09-07'
       thread: elections-1960-kennedy
       place: nashville
-      c: Nashville. A Democratic strategy conference, with party leaders from Kentucky, Oklahoma, Texas and Tennessee, with Robert F. Kennedy; a third is set for Shreveport the next day but one.
-      n: 'Claude Sitton, "Peale Is Criticized," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day, from the *Times* ("yesterday"), and who attended. Names: Robert Kennedy.'
+      c: Nashville. A Democratic strategy conference for party leaders from Kentucky, Oklahoma, Texas and Tennessee.
+      n: 'Claude Sitton, "Peale Is Criticized," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: whether Robert F. Kennedy attended.'
       tags:
-      - name:kennedy-robert-f
       - state:tn
       - city:nashville
 - add:
@@ -958,20 +859,20 @@ ops:
       date: '1960-09-09'
       thread: elections-1960-kennedy
       place: shreveport
-      c: Shreveport, La. The third Democratic strategy conference, with party leaders from the lower South, set for Friday.
-      n: 'Claude Sitton, "Peale Is Criticized," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the conference as held; the *Times* gives it as scheduled for "tomorrow". Names: none.'
+      c: Shreveport, La. The third Democratic strategy conference, for party leaders from Alabama, Mississippi, Arkansas and Louisiana.
+      n: 'Claude Sitton, "Peale Is Criticized," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the conference as held.'
       tags:
       - state:la
       - city:shreveport
 - add:
     entry:
       id: cal.1960-09-08.elections-1960-religion
-      when: Sept. 8
+      when: By Sept. 8
       date: '1960-09-08'
       thread: elections-1960-religion
       place: houston
-      c: Houston. Kennedy accepts an invitation to address the Ministers Association of Greater Houston on Monday night, Sept. 12, after a rally, at the Crystal Ballroom of the Rice Hotel; the invitation came from the Rev. Herbert Meza, of the 800-member association.
-      n: '"Kennedy Accepts Invitation," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-12.elections-1960]]. Names: Kennedy.'
+      c: Houston. Kennedy accepts an invitation to address the Greater Houston Ministerial Association, 800 members, interdenominational and Protestant, Monday night, Sept. 12, after a rally, in the Crystal Ballroom of the Rice Hotel; the invitation came from the Rev. Herbert Meza, its vice president and program chairman.
+      n: '"Kennedy Accepts Invitation," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. Names: Kennedy.'
       tags:
       - name:kennedy-john-f
       - state:tx
@@ -1023,8 +924,8 @@ ops:
       date: '1960-09-08'
       thread: elections-1960-kennedy
       place: san-diego
-      c: San Diego. Local Democrats are irked by the cancellation of Kennedy's scheduled speech there on Saturday, Sept. 10; the Democratic campaign headquarters in Los Angeles issues a statement promising a full day in San Diego on Nov. 1 or 2.
-      n: '"Cancellation Irks Kennedy Backers," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-11.elections-1960-kennedy]]. Names: Kennedy.'
+      c: 'San Diego. Local Democratic leaders react bitterly to the cancellation of Kennedy''s noon rally there on Saturday, Sept. 10; Lloyd Winburn: "We''re disgusted"; the rally was set up at the request of the candidate''s advance men several weeks before.'
+      n: '"Cancellation Irks Kennedy Backers," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Kennedy.'
       tags:
       - name:kennedy-john-f
       - state:ca
@@ -1036,34 +937,40 @@ ops:
       date: '1960-09-08'
       thread: elections-1960-religion
       place: washington
-      c: Keating says the Democrats are injecting religion into the campaign, in a recorded radio interview.
-      n: '"Kennedy Group Cited," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (AP). Names: Keating.'
+      c: 'Washington. Keating, in a recorded radio interview: the Democrats, not the Republicans, are injecting religion into the Presidential race. "They seem to think it will do them some good to keep talking about this religious issue."'
+      n: '"Kennedy Group Cited," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Keating.'
       tags:
       - name:keating-kenneth-b
+      time_range:
+      - 1960-09-08T23:00Z
+      - 1960-09-09T02:00Z
+      time_band: evening
+      time_zone: America/New_York
 - add:
     entry:
       id: cal.1960-09-02.elections-1960-religion
-      when: Sept. 2–8
+      when: Sept. 2
       date: '1960-09-02'
       thread: elections-1960-religion
       place: washington
-      c: 'Washington. The Democratic campaign organization begins distributing to party workers across the country, and to individuals and organizations that write in, a memorandum on Kennedy''s position on church and state: answers to the questions "frequently asked by fair-minded persons," made up of quotations from Kennedy''s speeches, including his acceptance speech at Los Angeles, magazine articles, interviews, the Constitution and the congressional oath. It takes up separation of church and state, an Ambassador to the Vatican, aid to parochial schools, birth control, the Roman Catholic Church''s position, and the Knights of Columbus oath. It adds nothing new on his position; the Times prints the text.'
-      n: 'John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14. "Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (the text, with the Democratic National Committee named as its circulator). Check: the day the distribution began; the *Times* says "last Friday", Sept. 2. Names: Kennedy.'
+      c: 'Washington. The Democratic campaign organization begins quietly distributing, to party workers across the country and to voters who write in, a memorandum on Kennedy''s position on church and state: answers to the questions "frequently asked by fair-minded persons," from Kennedy''s speeches, among them his acceptance speech at Los Angeles, magazine articles and interviews, with the Constitution and the congressional oath. It takes up the separation of church and state, an Ambassador to the Vatican, aid to parochial schools, birth control, the Poling dinner, the Roman Catholic Church''s position and the Knights of Columbus oath. Nothing new on his position.'
+      n: 'John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14; "Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (the text; the Democratic National Committee its circulator). Names: Kennedy.'
       tags:
       - name:kennedy-john-f
 - add:
     entry:
       id: cal.1960-09-08.elections-1960-religion-3
-      when: Sept. 8
+      when: By Sept. 8
       date: '1960-09-08'
       thread: elections-1960-religion
       place: washington
-      c: Washington. The Kennedy campaign organization chooses for the moment to ignore the statement of the National Conference of Citizens for Religious Freedom, headed by Peale, and plans no particular counter-attack. An aide to Nixon, commenting on the Peale group's statement, repeats the Vice President's position that the religious issue has no place in the Presidential campaign.
-      n: 'John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14. See [[cal.1960-09-07.elections-1960]]. Names: Peale, Nixon.'
+      c: An aide to Nixon, commenting on the Peale group's statement, repeats Nixon's position that the religious issue has no place in the Presidential campaign.
+      n: 'John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14. Check: the day. See [[cal.1960-09-07.elections-1960]]. Names: Peale, Nixon.'
       tags:
       - name:peale-norman-vincent
       - name:nixon-richard-m
-      - name:kennedy-john-f
+      also:
+      - elections-1960-nixon
 - add:
     entry:
       id: cal.1960-09-08.elections-1960-kennedy-16
@@ -1072,11 +979,10 @@ ops:
       thread: elections-1960-kennedy
       also:
       - conservation
-      c: 'On the campaign train in California. Kennedy: "I would like to make it clear that when the people put their shoulders to the development of great dams, then I think the power should be distributed in a way that benefits the people. I don''t think the people should pay for irrigation and have the power distributed by a private company. I think the people should benefit." He takes a stand for public power in Federal hydroelectric projects, loudly applauded, and says such policies have been abandoned by the Eisenhower Administration; the two New Yorkers who contributed most to Western resources development were Theodore and Franklin D. Roosevelt, and he urges a return to their policies and a reversal of the "no new starts" conservation cutback.'
-      n: 'W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16. Check: the stop; the *Times* gives none for the remarks. Names: Kennedy, Eisenhower.'
+      c: 'On the campaign train in California. Kennedy, applauded, for public power in Federal hydroelectric projects: "I would like to make it clear that when the people put their shoulders to the development of great dams, then I think the power should be distributed in a way that benefits the people. I don''t think the people should pay for irrigation and have the power distributed by a private company." Again and again: the greatest contributions to Western resources development were Theodore and Franklin D. Roosevelt''s; a return to their policies and a reversal of the "no new starts" conservation cutback of the Eisenhower Administration.'
+      n: 'W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16. Check: the stop. Names: Kennedy.'
       tags:
       - name:kennedy-john-f
-      - name:eisenhower-dwight-d
       - state:ca
 - add:
     entry:
@@ -1101,7 +1007,7 @@ ops:
       also:
       - farm
       place: washington
-      c: 'Nixon''s headquarters issues a letter from Nixon to Senator John Sherman Cooper of Kentucky: the present tobacco program, with supports at 90 percent and strict production controls, "is the most successful of the price support programs for the basic farm crops"; "I wholly support the present tobacco program, and if elected President, I will recommend that it be continued without change," depending on the recommendations of tobacco growers, tobacco-State farm organizations and their representatives in Congress for any technical modifications.'
+      c: 'Nixon''s headquarters issues his letter to Senator John Sherman Cooper of Kentucky: the tobacco program, supports at 90 percent with strict production controls, "is the most successful of the price support programs for the basic farm crops"; "I wholly support the present tobacco program, and if elected President, I will recommend that it be continued without change"; for any improvements or technical modifications he will depend on "the recommendations of tobacco growers, tobacco-state farm organizations, and their representatives in Congress."'
       n: 'Russell Baker, "Nixon and Benson Get Wire Crossed," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Nixon, John Sherman Cooper.'
       tags:
       - name:nixon-richard-m
@@ -1134,8 +1040,919 @@ ops:
       date: '1960-09-08'
       thread: alabama
       place: birmingham
-      c: Birmingham. The *New York Times*'s attorneys say they will file a petition tomorrow with the Fifth Circuit in New Orleans to appeal the U.S. District Court ruling, amended by Judge H. H. Grooms, that last week upheld service of seven civil suits totaling $3,100,000 against the *Times*, six of $500,000 each, by officials of Birmingham and Bessemer, and one of $100,000.
-      n: '"Times Will Appeal Ruling in Alabama," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). (AP). Names: none.'
+      c: 'Birmingham. Roderick MacLeod, for the *New York Times*: the paper will file an appeal petition the next day with the Fifth Circuit at New Orleans against the U.S. District Court ruling that it can be served with libel suits in Alabama: six of $500,000 each, by the City Commissioners of Birmingham (James W. Morgan, Eugene Connor, James T. Waggoner) and of Bessemer (Jess Lanier, Raymond Parson, Hermand Thompson), and one of $100,000 by Joe Lindsay, a Birmingham detective.'
+      n: '"Times Will Appeal Ruling in Alabama," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Connor.'
       tags:
       - state:al
       - city:birmingham
+      - name:connor-eugene
+      - ok:name-untagged
+      follows:
+      - cal.1960-09-08.alabama-2
+- add:
+    entry:
+      id: cal.1960-09-08.space-2
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: space
+      place: huntsville
+      c: Huntsville. Eisenhower, flown in from Washington early in the day, spends two hours inspecting the booster first stage of the Saturn with Wernher von Braun, the center's director, and Karl Heimburg, chief of its test division.
+      n: 'Felix Belair Jr., "Eisenhower Terms Soviet Space Work ''Soulless, Barren''," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 8. See [[cal.1960-09-08.space]]. Names: Eisenhower, von Braun.'
+      tags:
+      - name:eisenhower-dwight-d
+      - name:von-braun-wernher
+      - ok:name-untagged
+- add:
+    entry:
+      id: cal.1960-09-08.congo-10
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: congo
+      place: leopoldville
+      c: Léopoldville. Lumumba drives from the Senate session to his residence and gives a victory celebration.
+      n: 'Henry Tanner, "Lumumba Bids U.N. Give Up Controls or Face Ouster," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4. Names: Lumumba.'
+      tags:
+      - name:lumumba-patrice
+      follows:
+      - cal.1960-09-08.congo-2
+- add:
+    entry:
+      id: cal.1960-09-07.congo-11
+      when: Sept. 7
+      date: '1960-09-07'
+      thread: congo
+      c: A Congolese patrol is sighted on a reconnaissance mission on the Kivu–Katanga border.
+      n: '"Katanga Invaded by Congo Troops," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-08.congo-5]].'
+      tags:
+      - polity:congo
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-09-08.congo-12
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: congo
+      place: elisabethville
+      c: Elisabethville. The UN refuses to let Katanga send a police force to the northern area.
+      n: '"Katanga Invaded by Congo Troops," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-08.congo-5]].'
+      tags:
+      - polity:un
+      - polity:congo
+- add:
+    entry:
+      id: cal.1960-09-08.congo-11
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: congo
+      also:
+      - united-nations
+      place: nyc
+      c: United Nations. Egidio Ortona of Italy, the Council's president for the month, discusses the Congo with its eleven members; a session on Saturday is expected.
+      n: Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4. See [[cal.1960-09-08.congo-8]].
+      tags:
+      - polity:un
+      - ok:name-untagged
+      follows:
+      - cal.1960-09-08.congo-8
+- add:
+    entry:
+      id: cal.1960-09-08.soviet-union-un-3
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: soviet-union-un
+      place: moscow
+      c: Moscow. Tass indicates that Sékou Touré cannot go to New York, being committed to visit Outer Mongolia and Communist China.
+      n: 'Osgood Caruthers, "Toure to Support Khrushchev in U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Touré.'
+      tags:
+      - name:toure-ahmed-sekou
+      - polity:ussr
+      - polity:guinea
+- add:
+    entry:
+      id: cal.1960-09-08.africa
+      when: By Sept. 8
+      date: '1960-09-08'
+      thread: africa
+      also:
+      - soviet-union
+      place: moscow
+      c: Moscow. Sékou Touré of Guinea signs a trade agreement with the Soviet Union, after a two-day visit.
+      n: 'Osgood Caruthers, "Toure to Support Khrushchev in U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. Names: Touré.'
+      tags:
+      - name:toure-ahmed-sekou
+      - polity:guinea
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1960-09-08.soviet-union-un-4
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: soviet-union-un
+      also:
+      - africa
+      place: moscow
+      c: Moscow, the airport, in the rain. Sékou Touré leaves for Outer Mongolia and Communist China, with full honors; he says he would not have been treated so well in "reactionary states."
+      n: 'Osgood Caruthers, "Toure to Support Khrushchev in U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Touré.'
+      tags:
+      - name:toure-ahmed-sekou
+      - polity:guinea
+      - polity:ussr
+      follows:
+      - cal.1960-09-08.soviet-union-un-2
+      time_range:
+      - 1960-09-08T16:00Z
+      - 1960-09-08T19:00Z
+      time_band: evening
+      time_zone: Europe/Moscow
+- add:
+    entry:
+      id: cal.1960-09-05.europe-and-the-alliance-france
+      when: Sept. 5
+      date: '1960-09-05'
+      thread: europe-and-the-alliance-france
+      also:
+      - europe-and-the-alliance
+      c: 'De Gaulle, at his news conference, on NATO: integration was arranged ten years ago; "Everything is commanded by Americans, and it is the Americans who dispose of utilization of the principal arms, that is to say, atomic." He proposes to undo integration and return to an alliance of national forces, and asks a French voice in the use of the nuclear weapons NATO wishes to store on French soil.'
+      n: 'Dana Adams Schmidt, "Revision of NATO Rejected by U.S.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the place and the words, from a later report. Names: de Gaulle.'
+      tags:
+      - name:de-gaulle-charles
+      - polity:fr
+      - polity:nato
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-07-25.defense
+      when: July 25
+      date: '1960-07-25'
+      thread: defense
+      c: The North American Air Defense Command announces Operation Sky Shield, a test of the continent's air defenses with all civil flights grounded.
+      n: '"Air Defense Test Is Set Tomorrow," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day and the words of the announcement.'
+      tags:
+      - polity:us
+      - polity:canada
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-09-08.soviet-union-un-5
+      when: By Sept. 8
+      date: '1960-09-08'
+      thread: soviet-union-un
+      also:
+      - united-nations
+      place: washington
+      c: 'Washington. Informed sources: Eisenhower may decide to speak at the opening of the General Assembly, Sept. 20; highly placed officials believe he would go later, after Khrushchev has spoken; others favor taking the initiative at the outset.'
+      n: 'E. W. Kenworthy, "Herter Ridicules a Summit in U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. Names: Eisenhower, Khrushchev.'
+      tags:
+      - name:eisenhower-dwight-d
+      - name:khrushchev-nikita-s
+- add:
+    entry:
+      id: cal.1960-08-29.antisubversion
+      when: Aug. 29
+      date: '1960-08-29'
+      thread: antisubversion
+      also:
+      - intelligence
+      c: McCormack, Democratic majority leader of the House, calls on Walter to conduct the inquiry into the defection of Mitchell and Martin; no other committee had shown an interest.
+      n: 'Jack Raymond, "House Units Map Defector Studies," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-06.antisubversion]]. Names: McCormack, Walter, Mitchell, Martin.'
+      tags:
+      - name:mccormack-john-w
+      - name:walter-francis-e
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-09-08.soviet-union-un-6
+      when: By Sept. 8
+      date: '1960-09-08'
+      thread: soviet-union-un
+      c: The heads of the other Communist governments of Eastern Europe have announced that they will attend the General Assembly.
+      n: 'Seymour Topping, "U.S. Urges Russians to Free Two Fliers in the RB-47 Case," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day.'
+      tags:
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1960-09-08.soviet-union-un-7
+      when: By Sept. 8
+      date: '1960-09-08'
+      thread: soviet-union-un
+      place: moscow
+      c: Moscow. The United States Embassy has issued 138 visas for the Soviet delegation and its personnel, 19 for the Ukraine's and 13 for Byelorussia's, and visas for the 191 of the *Baltika*'s crew.
+      n: 'Seymour Topping, "U.S. Urges Russians to Free Two Fliers in the RB-47 Case," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day.'
+      tags:
+      - polity:us
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1960-09-08.elections-1960-3
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: elections-1960
+      place: nyc
+      c: 'New York, the Statler Hilton Hotel, at a dinner of the American Political Science Association. The Woodrow Wilson Foundation Award for the best book on government and politics goes to Arnold Brecht for *Political Theory: The Foundations of Twentieth-Century Political Thought* (Princeton, 1959).'
+      n: 'Kennett Love, "Wagner Charges Neglect of Cities," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day; the *Times* gives it with Wagner''s address at the same meeting. See [[cal.1960-09-08.cities-and-housing]].'
+      tags:
+      - state:ny
+      - city:new-york
+      - ok:name-untagged
+      time_range:
+      - 1960-09-08T23:00Z
+      - 1960-09-09T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1960-09-08.elections-1960-nixon-6
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: elections-1960-nixon
+      place: worcester
+      c: 'Worcester, Mass. John A. Volpe, Republican candidate for Governor, to reporters: some Democrats had talked of a 500,000-vote margin for the Kennedy–Johnson ticket in the State; Lodge''s nomination had "shaved that down to 150,000--and we might just have a fighting chance."'
+      n: 'Peter Kihss, "Lodge Is on Swing in Massachusetts," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Volpe, Lodge.'
+      tags:
+      - name:volpe-john-a
+      - name:lodge-henry-cabot
+      - state:ma
+      - city:worcester
+- add:
+    entry:
+      id: cal.1960-09-08.elections-1960-kennedy-17
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: elections-1960-kennedy
+      place: atlanta
+      c: 'Atlanta. Robert F. Kennedy meets Southern Governors at breakfast: J. Lindsay Almond of Virginia, Luther H. Hodges of North Carolina and S. Ernest Vandiver of Georgia.'
+      n: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (the photograph). Check: the day. See [[cal.1960-09-07.elections-1960-kennedy-6]]. Names: Robert Kennedy, Hodges, Vandiver.'
+      tags:
+      - name:kennedy-robert-f
+      - name:hodges-luther-h
+      - name:vandiver-s-ernest-jr
+      - state:ga
+      - city:atlanta
+      - ok:name-untagged
+- add:
+    entry:
+      id: cal.1960-09-08.elections-1960-kennedy-18
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: elections-1960-kennedy
+      place: los-angeles
+      c: Los Angeles. Kennedy's campaign headquarters issues a statement on the cancelled San Diego rally; it is suggested that Kennedy would give San Diego County a full day, Nov. 1 or 2.
+      n: '"Cancellation Irks Kennedy Backers," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). See [[cal.1960-09-08.elections-1960-kennedy-15]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - state:ca
+      - city:los-angeles
+- add:
+    entry:
+      id: cal.1960-09-09.elections-1960-religion-2
+      when: Sept. 9
+      date: '1960-09-09'
+      thread: elections-1960-religion
+      c: 'As the *Times* reports it: the Kennedy campaign organization chooses for the moment to ignore the statement of Peale''s National Conference of Citizens for Religious Freedom, and plans no counter-attack.'
+      n: 'John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14. See [[cal.1960-09-07.elections-1960]]. Names: Peale.'
+      tags:
+      - name:peale-norman-vincent
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1960-03-03.elections-1960-religion
+      when: Mar. 3
+      date: '1960-03-03'
+      thread: elections-1960-religion
+      c: 'Kennedy, in *Look*: "I am flatly opposed to appointment of an Ambassador to the Vatican. Whatever advantages it might have in Rome—and I''m not convinced of these—they would be more than offset by the divisive effect at home."'
+      n: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (cited as *Look*, March 3, 1960). Check: the year; the memorandum cites *Look* of March 3, 1959, for another passage. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - polity:vatican
+- add:
+    entry:
+      id: cal.1960-04-15.elections-1960-religion
+      when: By Apr. 15
+      date: '1960-04-15'
+      thread: elections-1960-religion
+      c: 'Kennedy, as the *Philadelphia Inquirer* reports him, on the Poling dinner: invited by the Rev. Dr. Poling to the dinner for the Chapel of the Four Chaplains, he learned he was to attend as spokesman for the Catholic faith, in the sanctuary of a church of another faith, and the Archdiocese of Philadelphia could not support the drive; "I felt I had not credentials to attend in the capacity in which I had been asked." His record on church and state "has been written in the past fourteen years in Congress."'
+      n: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (cited as the *Philadelphia Inquirer*, April 15, 1960). Check: the day. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - ok:name-untagged
+- add:
+    entry:
+      id: cal.1960-04-19.elections-1960-religion-2
+      when: By Apr. 19
+      date: '1960-04-19'
+      thread: elections-1960-religion
+      c: 'Kennedy, as the *New York Herald Tribune* reports him: "I don''t think that my religion is anyone''s business but my business. Is anyone going to tell me that I lost this primary the day that I was born and baptized forty-two years ago?"'
+      n: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (cited as the *New York Herald Tribune*, April 19, 1960). Check: the day and the place; whether it is the answer at Wheeling, [[cal.1960-04-19.elections-1960-religion]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1960-08-22.elections-1960-religion
+      when: By Aug. 22
+      date: '1960-08-22'
+      thread: elections-1960-religion
+      c: The fake Knights of Columbus oath, a vow of war against Protestants and Masons, turns up in scattered cities and towns, mostly in the South, passed from hand to hand and sent anonymously through the mails; clergymen have quoted it in sermons, and it is printed in newsletters of Southern Baptist churches in Rainelle, W. Va., Phoenix, Greensboro, N.C., and Knoxville.
+      n: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (quoting *Time*, Aug. 22, 1960, at 15). Check: the day. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - state:wv
+      - state:az
+      - state:nc
+      - state:tn
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-08-22.elections-1960-religion-2
+      when: By Aug. 22
+      date: '1960-08-22'
+      thread: elections-1960-religion
+      c: West View, Pa. W. L. King, a clergyman of the Nazarene Baptist Church, who quoted the fake Knights of Columbus oath and would not retract it, is charged with criminal libel in the Magistrate's Court.
+      n: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (quoting *Time*, Aug. 22, 1960, at 15). Check: the day. See [[cal.1960-08-22.elections-1960-religion]].'
+      tags:
+      - state:pa
+      - ok:fields-place
+      - ok:name-untagged
+- add:
+    entry:
+      id: cal.1960.elections-1960-religion
+      when: 1960, spring
+      date: '1960'
+      thread: elections-1960-religion
+      c: The fake Knights of Columbus oath turns up again during the West Virginia primary, Kennedy against Humphrey.
+      n: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (quoting *Time*, Aug. 22, 1960, at 15). Check: the month. Names: Kennedy, Humphrey.'
+      tags:
+      - name:kennedy-john-f
+      - name:humphrey-hubert-h
+      - state:wv
+- add:
+    entry:
+      id: cal.1960-08-13.congo
+      when: Aug. 13
+      date: '1960-08-13'
+      thread: congo
+      c: Generals von Horn, for the UN, and Gheysen, for Belgium, settle arrangements for the relief of Belgian troops by UN units, by Belgium's account.
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (Belgium''s letter of Sept. 4). See [[cal.1960-09-05.congo-6]].'
+      tags:
+      - polity:belgium
+      - polity:un
+      - ok:name-untagged
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-08-14.congo-2
+      when: Aug. 14
+      date: '1960-08-14'
+      thread: congo
+      c: The orders for the relief of Belgian troops by UN units are issued, by Belgium's account.
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (Belgium''s letter of Sept. 4). See [[cal.1960-08-13.congo]].'
+      tags:
+      - polity:belgium
+      - polity:un
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-08-20.congo-2
+      when: Aug. 20
+      date: '1960-08-20'
+      thread: congo
+      c: Belgium assures the Secretary General that its troops will be withdrawn within eight days.
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (Hammarskjold''s letter of Sept. 5). See [[cal.1960-09-05.congo-6]].'
+      tags:
+      - polity:belgium
+      - polity:un
+- add:
+    entry:
+      id: cal.1960-08-24.congo
+      when: Aug. 24
+      date: '1960-08-24'
+      thread: congo
+      c: 'Belgium, by letter, repeats its assurance: the withdrawal period to end at 2400 hours Aug. 29.'
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (Hammarskjold''s letter of Sept. 5). See [[cal.1960-08-20.congo-2]].'
+      tags:
+      - polity:belgium
+      - polity:un
+- add:
+    entry:
+      id: cal.1960-08-24.congo-2
+      when: Aug. 24
+      date: '1960-08-24'
+      thread: congo
+      c: General Gheysen seeks conditions for the withdrawal; the UN answers against them, by Hammarskjold's account. By Belgium's, the UN that day recognizes that its relief is delayed.
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (Hammarskjold''s letter of Sept. 5; Belgium''s of Sept. 4). See [[cal.1960-08-20.congo-2]].'
+      tags:
+      - polity:belgium
+      - polity:un
+      - ok:name-untagged
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-08-25.congo-3
+      when: Aug. 25
+      date: '1960-08-25'
+      thread: congo
+      c: Kamina. The decision to send the paratroop battalion training at Kamina to Ruanda is made known there, by Belgium's account; the railway companies of the Great Lakes and Katanga can provide no trains before Aug. 30.
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (Belgium''s letter of Sept. 4).'
+      tags:
+      - polity:belgium
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-08-30.congo
+      when: Aug. 30
+      date: '1960-08-30'
+      thread: congo
+      c: Hammarskjold to Belgium, a note on the delay in the withdrawal of Belgian troops from the Congo; made public Aug. 31.
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (Belgium''s letter of Sept. 4: "the note of 30 August"); Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4 (the note made public Aug. 31). Names: Hammarskjöld.'
+      tags:
+      - name:hammarskjold-dag
+      - polity:belgium
+      - polity:un
+- add:
+    entry:
+      id: cal.1960-08-30.congo-2
+      when: Aug. 30
+      date: '1960-08-30'
+      thread: congo
+      place: elisabethville
+      c: Elisabethville. The Belgian company there, due to leave for Brussels, leaves the town for Kamina; held by a USAF rescue operation in the Kano area, it goes on only on the afternoon of Aug. 31 and the morning of Sept. 1, by Belgium's account.
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (Belgium''s letter of Sept. 4). The time is the first day''s.'
+      tags:
+      - polity:belgium
+      - polity:us
+- add:
+    entry:
+      id: cal.1960-08-31.congo
+      when: Aug. 31
+      date: '1960-08-31'
+      thread: congo
+      c: Belgium, by letter, replies to Hammarskjold's note of Aug. 30 on the delay in the withdrawal.
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (Belgium''s letter of Sept. 4). See [[cal.1960-08-30.congo]]. Names: Hammarskjöld.'
+      tags:
+      - polity:belgium
+      - polity:un
+      - name:hammarskjold-dag
+- add:
+    entry:
+      id: cal.1960-09-01.congo-2
+      when: Sept. 1
+      date: '1960-09-01'
+      thread: congo
+      also:
+      - united-nations
+      place: nyc
+      c: Hammarskjold reports to the Security Council on the withdrawal of Belgian troops; on Sept. 4 he calls the report incomplete.
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (his cable to Wigny of Sept. 4). See [[cal.1960-09-04.congo-2]]. Names: Hammarskjöld.'
+      tags:
+      - name:hammarskjold-dag
+      - polity:un
+      - polity:belgium
+- add:
+    entry:
+      id: cal.1960-09-03.congo
+      when: Sept. 3
+      date: '1960-09-03'
+      thread: congo
+      place: albertville
+      c: Albertville. The last Belgian paratroops are taken aboard, 7 p.m., by Hammarskjold's account.
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (his cable to Wigny of Sept. 4).'
+      tags:
+      - polity:belgium
+      time: 1960-09-03T17:00Z
+      time_zone: Africa/Lubumbashi
+- add:
+    entry:
+      id: cal.1960-09-04.congo-3
+      when: Sept. 4
+      date: '1960-09-04'
+      thread: congo
+      c: 'Kitona. UN representatives visit the Belgian base: its commander, a paratrooper, has no instructions but to give logistic support to the UN; 650 Belgians there and at Banana, all combatants; two gunboats seen at the Banana naval base.'
+      n: '"Text of New Notes at U.N. on the Congo," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 4 (Hammarskjold''s cable to Wigny of Sept. 4).'
+      tags:
+      - polity:belgium
+      - polity:un
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-08-03.latin-america-dominican-republic
+      when: Aug. 3
+      date: '1960-08-03'
+      thread: latin-america-dominican-republic
+      c: Joaquín Balaguer, Trujillo's protégé, becomes President of the Dominican Republic, its first civilian President in thirty years.
+      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Balaguer, Trujillo.'
+      tags:
+      - name:balaguer-joaquin-videla
+      - name:trujillo-rafael
+- add:
+    entry:
+      id: cal.1960-02.latin-america-dominican-republic
+      when: Feb.
+      date: 1960-02
+      thread: latin-america-dominican-republic
+      c: La Prensa Libre, organ of the loyal opposition, suspended.
+      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day.'
+      tags:
+      - polity:dominican-republic
+- add:
+    entry:
+      id: cal.1960-08.latin-america-dominican-republic
+      when: Aug., after the San José vote
+      date: 1960-08
+      thread: latin-america-dominican-republic
+      c: Balaguer, after the foreign ministers' vote at San José, recalls the Dominican delegation and organizes mass demonstrations to welcome it with an orderly protest against the OAS sanctions.
+      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. See [[cal.1960-08-16.latin-america]]. Names: Balaguer.'
+      tags:
+      - name:balaguer-joaquin-videla
+      - polity:oas
+      at: after 1960-08-21
+- add:
+    entry:
+      id: cal.1960-08.latin-america-dominican-republic-2
+      when: Aug., after the 23rd
+      date: 1960-08
+      thread: latin-america-dominican-republic
+      c: Herrera Báez, with the President and the Cabinet, prepares a temperate report to the National Congress, to open a strong, dignified fight on the San José resolution.
+      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. See [[cal.1960-08-23.latin-america-dominican-republic]].'
+      tags:
+      - ok:name-untagged
+      at: after 1960-08-23
+- add:
+    entry:
+      id: cal.1960-08.latin-america-dominican-republic-3
+      when: Aug., after the 23rd
+      date: 1960-08
+      thread: latin-america-dominican-republic
+      c: 'Radio Caribe, an all-wave station controlled by a private group, organ of the extreme nationalist faction of Trujillo''s Dominican party: first it calls on Trujillo to assume the Presidency at once as the answer to the San José resolution; then it denounces the Cabinet for its silence on the sanctions and on that call; then it demands that Trujillo take the Presidency and say whether he would steer the country on an extreme nationalist course.'
+      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the days. Names: Trujillo.'
+      tags:
+      - name:trujillo-rafael
+      at: after 1960-08-23
+- add:
+    entry:
+      id: cal.1960-09-09.latin-america-dominican-republic-3
+      when: By Sept. 9
+      date: '1960-09-09'
+      thread: latin-america-dominican-republic
+      c: First the Cabinet, then President Balaguer, write to Radio Caribe to praise its initiative and support its stand on the Presidency; Balaguer says he would have resigned but that Trujillo was not disposed to accept the call. He and the moderate leaders are silent on an extreme nationalist course seeking an understanding with Castro and the Soviet Union.
+      n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. See [[cal.1960-08.latin-america-dominican-republic-3]]. Names: Balaguer, Trujillo, Castro.'
+      tags:
+      - name:balaguer-joaquin-videla
+      - name:trujillo-rafael
+      - name:castro-fidel
+- add:
+    entry:
+      id: cal.1960-09-09.latin-america-dominican-republic-4
+      when: Sept. 9
+      date: '1960-09-09'
+      thread: latin-america-dominican-republic
+      also:
+      - united-nations
+      c: 'As the *Times* reports it: the Dominican delegation at the UN, since its walkout from the OAS conference at San José, stays away from the informal meetings of the Latin-American group.'
+      n: Kathleen Teltsch, "Soviet O.A.S. Role Is Opposed at U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 3. See [[cal.1960-09-08.latin-america-dominican-republic-2]].
+      tags:
+      - polity:dominican-republic
+      - polity:un
+- add:
+    entry:
+      id: cal.1960-05.cuba-3
+      when: May
+      date: 1960-05
+      thread: cuba
+      c: '*Revolución*, Havana, charges that the United States has set up Radio Swan to "combat the Cuban revolution," just after its test programs begin.'
+      n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2. Check: the day. See [[cal.1960-05-17.cuba]].'
+      tags:
+      - polity:cuba
+      - polity:us
+- add:
+    entry:
+      id: cal.1960-06-01.cuba
+      when: June 1
+      date: '1960-06-01'
+      thread: cuba
+      place: washington
+      c: 'A State Department spokesman: "the only station that I know anything about on Swan Island is a weather station."'
+      n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2. See [[cal.1960-05-17.cuba]].'
+      tags:
+      - polity:us
+- add:
+    entry:
+      id: cal.1960-08.cuba-3
+      when: Aug., late
+      date: 1960-08
+      thread: cuba
+      c: The United States, replying to Honduras's note of June 27, says it is prepared to negotiate the question of the Swan Islands.
+      n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2. Check: the day. See [[cal.1960-06-27.cuba-2]].'
+      tags:
+      - polity:us
+      - polity:honduras
+- add:
+    entry:
+      id: cal.1960-09-08.cuba-4
+      when: By Sept. 8
+      date: '1960-09-08'
+      thread: cuba
+      c: The Honduran Government is reported organizing a commission to send to Washington for talks on the Swan Islands.
+      n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2. Check: the day. See [[cal.1960-08.cuba-3]].'
+      tags:
+      - polity:honduras
+      - polity:us
+- add:
+    entry:
+      id: cal.1960-09-08.cuba-5
+      when: By Sept. 8
+      date: '1960-09-08'
+      thread: cuba
+      c: Sumner Smith, for the Boston family that owns it, leases the Swan Island site to the Gibraltar Steamship Corporation of New York for a radio transmitter.
+      n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2. Check: the day. See [[cal.1960-05-17.cuba]].'
+      tags:
+      - polity:us
+      - ok:name-untagged
+- add:
+    entry:
+      id: cal.1960-09-08.cuba-6
+      when: By Sept. 8
+      date: '1960-09-08'
+      thread: cuba
+      c: Canada orders Gen. José Pedraza y Cabrera and three other members of his exile movement deported.
+      n: '"Exile Quits Fight on Castro," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. See [[cal.1960-09-08.cuba-3]].'
+      tags:
+      - polity:canada
+      - polity:cuba
+- add:
+    entry:
+      id: cal.1960-09-08.alabama-2
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: alabama
+      also:
+      - press-and-broadcasting
+      place: birmingham
+      c: 'Birmingham. Judge H. H. Grooms, of the U.S. District Court, amends his ruling in the libel suits against the *New York Times*: the cases involve a question that, through appeal, might speed their termination.'
+      n: '"Times Will Appeal Ruling in Alabama," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html).'
+      tags:
+      - state:al
+      - city:birmingham
+      - ok:name-untagged
+- add:
+    entry:
+      id: cal.1960-09-03.alabama
+      when: By Sept. 3
+      date: '1960-09-03'
+      thread: alabama
+      also:
+      - press-and-broadcasting
+      place: birmingham
+      c: Birmingham. Judge Grooms upholds the service of seven civil suits totaling $3,100,000 against the *New York Times*, over its articles of April on race relations in Birmingham.
+      n: '"Times Will Appeal Ruling in Alabama," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day.'
+      tags:
+      - state:al
+      - city:birmingham
+      - ok:name-untagged
+- add:
+    entry:
+      id: cal.1960-09-08.berlin-and-vienna-5
+      when: Sept. 8
+      date: '1960-09-08'
+      thread: berlin-and-vienna
+      place: west-berlin
+      c: 'West Berlin. Mayor Willy Brandt, after the city government''s emergency session: he is convinced "we haven''t yet reached the climax of the new crisis"; he calls on the Western powers "responsible for the security of Berlin" to deal with the Communist threat.'
+      n: '"German Reds Put a Continuing Curb on Berlin Travel," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 7. Names: Brandt.'
+      tags:
+      - name:brandt-willy
+      follows:
+      - cal.1960-09-08.berlin-and-vienna-4
+- add:
+    entry:
+      id: cal.1960-08-31.berlin-and-vienna
+      when: Aug. 31–Sept. 4
+      date: '1960-08-31'
+      thread: berlin-and-vienna
+      c: East Germany bars West Germans from East Berlin for five days; more than 1,000 West Germans bound for Berlin are refused passage.
+      n: '"German Reds Put a Continuing Curb on Berlin Travel," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 7. See [[cal.1960-09-08.berlin-and-vienna]].'
+      tags:
+      - polity:gdr
+      - polity:frg
+- add:
+    entry:
+      id: cal.1960-08.elections-1960-nixon-3
+      when: Aug.
+      date: 1960-08
+      thread: elections-1960-nixon
+      also:
+      - farm
+      c: Nixon says present farm policy is "wrong," and commits himself to a "massive program" in its place.
+      n: 'Russell Baker, "Nixon and Benson Get Wire Crossed," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. Names: Nixon.'
+      tags:
+      - name:nixon-richard-m
+- primary:
+    id: cal.1960-09-08.space
+    text: Felix Belair Jr., "Eisenhower Terms Soviet Space Work 'Soulless, Barren'," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 8 (the dedication at Huntsville; von Braun the center's director; not July 1 or the team)
+- add-words:
+    id: cal.1960-09-08.space
+    after: end
+    words: About 10,000 workers hear him; Mrs. George C. Marshall unveils a bust of Marshall a few minutes earlier. The nation's space achievements, he says, are the outgrowth not of "a soulless, barren technology, nor of a grasping state imperialism" but of "unrestrained human talent and energy."
+    text: Felix Belair Jr., "Eisenhower Terms Soviet Space Work 'Soulless, Barren'," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 8
+- primary:
+    id: cal.1960-09-08.berlin-and-vienna
+    text: '"German Reds Put a Continuing Curb on Berlin Travel," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 7 (the permits; not the passports)'
+- add-words:
+    id: cal.1960-09-08.berlin-and-vienna
+    after: end
+    words: The order, published by the East German press agency ADN, comes three days after the earlier five-day ban was lifted; permits are to be sought at the People's Police offices, and Allied personnel and other foreigners are not affected. Western officials call it the most stringent violation of Berlin's four-power status since the end of World War II.
+    text: '"German Reds Put a Continuing Curb on Berlin Travel," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 7'
+- check:
+    id: cal.1960-09-08.berlin-and-vienna
+    text: 'Check: the *Times*, Sept. 9, 1960, at 1, 7, says it was not clear whether the curbs restricted residents of West Berlin from crossing to East Berlin, and reports no refusal of West German passports held by West Berliners.'
+- place:
+    id: cal.1960-09-08.berlin-and-vienna
+    at: berlin
+    basis: n
+    note: the dateline of the *Times* story, Berlin
+- edit:
+    id: cal.1960-09-08.berlin-and-vienna
+    base: 8c2065e3
+    set:
+      time_range:
+      - 1960-09-08T18:00Z
+      - 1960-09-08T21:00Z
+      time_band: evening
+      time_zone: Europe/Berlin
+- primary:
+    id: cal.1960-09-07.congo-6
+    text: Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4 (the nine tons, landed from a Sabena civil aircraft; not the fourth shipment or the "supply pipeline")
+    'on': Elisabethville. A plane from Brussels lands nine tons of ammunition, the fourth shipment to arrive recently.
+- add-words:
+    id: cal.1960-09-07.congo-6
+    after: end
+    words: 'Belgian officials: the shipment was ordered by the Belgian army before independence and sent by a "zealous functionary" in Brussels; it was smaller than the nine tons reported.'
+    text: A. M. Rosenthal, "U.N. Bans Katanga Flights," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html)
+- check:
+    id: cal.1960-09-07.congo-6
+    text: 'Check: the day and the size: Rosenthal, the *Times*, Sept. 9, 1960, has the air shipment from Brussels reach Katanga Sept. 8, smaller than nine tons; Parrott, the same day, has the nine tons landed Sept. 7.'
+- primary:
+    id: cal.1960-09-08.congo
+    text: Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4
+    'on': In his fourth report … temporary disarming of some Congolese military units.
+- add-words:
+    id: cal.1960-09-08.congo
+    after: end
+    words: He also appeals to all the factions to settle their differences peacefully.
+    text: Lindesay Parrott, "U.N. Chief Queries Belgium on Arms," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4
+- check:
+    id: cal.1960-09-09.congo
+    text: 'Check: the *Times*, Sept. 9, 1960, at 1, 4, has the Congo Senate, Sept. 8, vote 41 to 2, seven abstaining, to reject Kasavubu''s dismissal of Lumumba ([[cal.1960-09-08.congo-2]]), after the lower house''s 60 to 19 of Sept. 7; nothing of an annulment on Sept. 9.'
+- primary:
+    id: cal.1960-09-05.congo
+    text: Henry Tanner, "Lumumba Bids U.N. Give Up Controls or Face Ouster," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4 (not Ileo)
+    'on': Kasavubu dismisses Lumumba and names Ileo;
+- primary:
+    id: cal.1960-09-07.congo-3
+    text: Henry Tanner, "Lumumba Bids U.N. Give Up Controls or Face Ouster," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 4
+    'on': The lower house votes 60 to 19 … Lumumba's of Kasavubu;
+- primary:
+    id: cal.1960-09-06.china-3
+    text: '"Deal With Peiping Rejected by U.S.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html)'
+    'on': The 100th meeting of the Sino-American ambassadorial talks.
+- add-words:
+    id: cal.1960-09-06.china-3
+    after: end
+    words: 'Wang brings back his Government''s answer to the American proposal for an exchange of newsmen: unacceptable; he offers a proposal of his own, whose preamble says the exchange would "seek to eliminate estrangement between the Chinese and American peoples," make "preliminary improvement in the present relations," and settle peacefully the question of withdrawal of all United States armed forces from Taiwan; Peking asks a guarantee in advance that none of its chosen reporters will be refused entry. Jacob D. Beam speaks for the United States. The next meeting is set for Oct. 18.'
+    text: '"Deal With Peiping Rejected by U.S.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html)'
+- names:
+    id: cal.1960-09-06.china-3
+    add:
+    - Beam
+    tags:
+    - name:beam-jacob-d
+- primary:
+    id: cal.1960-09-07.intelligence-3
+    text: Jack Raymond, "House Units Map Defector Studies," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (not the year)
+    'on': Wayne L. Hays, Democrat of Ohio, … as he remembered.
+- add-words:
+    id: cal.1960-09-07.intelligence-3
+    after: end
+    words: He reported it to Thomas E. Morgan, chairman of the Foreign Affairs Committee, and denies that his visitors could have known, as Mitchell and Martin claimed, that Assistant Secretary of State Macomber telephoned him during the visit.
+    text: Jack Raymond, "House Units Map Defector Studies," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html)
+- names:
+    id: cal.1960-09-07.intelligence-3
+    add:
+    - Morgan
+    - Macomber
+    tags:
+    - name:morgan-thomas-e
+    - name:macomber-william-b-jr
+- check:
+    id: cal.1960-09-07.intelligence-3
+    text: 'Check: the year: the *Times*, Sept. 9, 1960, has Hays acknowledging that he might have been the member to whom Martin and Mitchell said they spoke in a year printed "1958", a digit damaged in the copy; "last spring" in the line.'
+- primary:
+    id: cal.1960-09-06.antisubversion
+    text: Jack Raymond, "House Units Map Defector Studies," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (the hearing set for Sept. 16; not the closed session, Gates or the hiring practices)
+- primary:
+    id: cal.1960-09-07.elections-1960
+    text: John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14 (not that Peale signed)
+    'on': Washington. A meeting on the religious issue; … his church's hierarchy.
+- add-words:
+    id: cal.1960-09-07.elections-1960
+    after: his church's hierarchy.
+    words: The statement asks whether a Roman Catholic President could withstand "the determined efforts of his church to breach the wall of separation of church and state."
+    text: John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14
+- primary:
+    id: cal.1960-09-07.elections-1960-religion-2
+    text: John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14
+    'on': Washington. The board of trustees … about the religious issue."
+- primary:
+    id: cal.1960-09-07.elections-1960-kennedy-6
+    text: Claude Sitton, "Peale Is Criticized," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (seven States; not Gore or the Governors)
+    'on': Atlanta. Robert F. Kennedy, … "a chance in every one of them."
+- primary:
+    id: cal.1960-09-08.elections-1960-kennedy
+    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16
+    'on': Redding, Calif., rear platform.
+- primary:
+    id: cal.1960-09-08.elections-1960-kennedy-2
+    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16
+    'on': Chico, Calif., rear platform.
+- primary:
+    id: cal.1960-09-08.elections-1960-kennedy-4
+    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16
+    'on': Sacramento, Calif., rear platform.
+- primary:
+    id: cal.1960-09-08.elections-1960-kennedy-5
+    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16
+    'on': Martinez, Calif., rear platform.
+- primary:
+    id: cal.1960-09-08.elections-1960-kennedy-7
+    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16
+    'on': Suisun, Calif., from the rear platform of his train.
+- primary:
+    id: cal.1960-09-08.elections-1960-kennedy-9
+    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16
+    'on': Richmond, Calif., the rear platform.
+- primary:
+    id: cal.1960-09-08.elections-1960-kennedy-3
+    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16 (the stop; not Moss or Brown)
+    'on': Marysville, Calif., rear platform, with Moss and Governor Brown.
+- primary:
+    id: cal.1960-09-08.elections-1960-kennedy-8
+    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16 (the stop; not Engle's home town)
+    'on': Red Bluff, Calif., the rear platform, in Clair Engle's home town.
+- add-words:
+    id: cal.1960-09-08.elections-1960-kennedy
+    after: end
+    words: He introduces Governor Edmund G. Brown from the platform; the crowd presses round the train.
+    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16
+- names:
+    id: cal.1960-09-08.elections-1960-kennedy
+    add:
+    - Brown
+    tags:
+    - name:brown-edmund-g
+- check:
+    id: cal.1960-09-08.elections-1960-kennedy-10
+    text: 'Check: the hour: the *Times*, Sept. 9, 1960, at 1, 16, has Kennedy''s speech-making day begin at 8:45 a.m. at Dunsmuir, against six in the morning in the line.'
+- primary:
+    id: cal.1960-09-08.elections-1960-kennedy-6
+    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16 (the speech as prepared for delivery; not those on the platform)
+- add-words:
+    id: cal.1960-09-08.elections-1960-kennedy-6
+    after: end
+    words: 'In the text prepared for delivery: the short post-convention session of Congress was not as injurious to the Democratic party as some said but an eye-opener that only Democratic leadership could produce progressive legislation; medical care for the aged a top-priority issue. No direct attack on Nixon while Nixon is in the hospital; on talk of a "new" Republican party: "The Republican party which we face this November is the same party we have always opposed."'
+    text: W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16
+- names:
+    id: cal.1960-09-08.elections-1960-kennedy-6
+    add:
+    - Nixon
+    tags:
+    - name:nixon-richard-m
+- edit:
+    id: cal.1960-09-08.elections-1960-kennedy-6
+    base: ee625702
+    set:
+      time: 1960-09-09T04:00Z
+      time_approx: true
+      time_zone: America/Los_Angeles
+- primary:
+    id: cal.1960-09-07.press-and-broadcasting
+    text: E. W. Kenworthy, "Herter Ridicules a Summit in U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (his words on the United Nations and Khrushchev)
+- add-words:
+    id: cal.1960-09-07.press-and-broadcasting
+    after: end
+    words: He does not intend to "debase the United Nations" by being a party to "a battle of invective and propaganda"; the chances of his seeing Khrushchev are "very, very slim indeed."
+    text: E. W. Kenworthy, "Herter Ridicules a Summit in U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html)
+- names:
+    id: cal.1960-09-07.press-and-broadcasting
+    add:
+    - Khrushchev
+    tags:
+    - name:khrushchev-nikita-s
+- primary:
+    id: cal.1960-04-21.elections-1960
+    text: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (the speech, its day and place; not the words in the line)'
+- add-words:
+    id: cal.1960-04-21.elections-1960
+    after: end
+    words: 'Quoted in the Democratic memorandum of September: "Once that question is answered, there is no legitimate issue of my religion ... But I do object to being the only candidate required to answer those questions."'
+    text: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15'
+- primary:
+    id: cal.1960-07-15.elections-1960
+    text: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15'
+    'on': 'On his religion: no "religious pressure or obligation."'

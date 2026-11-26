@@ -1540,25 +1540,21 @@ entries:
   - id: cal.1965-07-08.vietnam-july-decision
     when: July 8
     date: '1965-07-08'
+    time: 1965-07-08T15:00Z
     place: washington
     thread: vietnam-july-decision
-    c: 'The panel of former officials, Acheson, Bradley, Clifford, Gilpatric, McCloy and others, with Rusk and McNamara, then Johnson: the stakes "very high indeed";{1} no choice but to put in the forces needed and explain it to the country.{2} Johnson laments;{3} by William Bundy''s account, Acheson tells him to press on.{4}'
-    n: '[FRUS 1964–68, III, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v03/d55) (the panel''s highlights: Bradley, Gilpatric, Kistiakowsky, Larson and McCloy). [[w.dallek-flawed-giant]], 272–73; [[w.mcnamara-in-retrospect]], ch. 7 at nn.46–47 (the morning subpanel, Bradley, Gilpatric, Kistiakowsky, Larson and McCloy, with Rusk, Thompson, William Bundy and McNamara, all but Larson for "whatever" forces were needed; Hoffman for negotiations; McCloy: "We are about to get our noses bloodied but you''ve got to do it"). [[w.barrett-uncertain-warriors]], 39–40 (the Wise Men with Johnson: his long complaint; Acheson to Truman, July 10: Johnson "had no choice except to press on"; Gilpatric to Bundy after the meeting: large additional forces; no day). To check: William Bundy''s manuscript history, chap. 27, 15–21, LBJ Library (cited by [[w.dallek-flawed-giant]], 273). See [[cal.1965-07-01.vietnam]]. Names: Acheson, Bradley, Clifford, Gilpatric, McCloy, Rusk, McNamara, William Bundy, Johnson.'
+    c: 'The panel of former officials, Acheson, Bradley, Clifford, Gilpatric, McCloy and others, with Rusk and McNamara, then Johnson: the stakes "very high indeed";{1} no choice but to put in the forces needed and explain it to the country.{2} Johnson laments;{3} by William Bundy''s account, Acheson tells him to press on.{4} The Vietnam panel, Bradley, Gilpatric, Kistiakowsky, Larson and McCloy, meets at the State Department from 11 a.m. with Rusk, McNamara, Thompson and William Bundy; a plenary after lunch. Larson for a move in the UN or serious negotiations, the rest not; Hoffman, in the plenary, with him; Acheson and Dean vehement against, Dean: no time to "turn over our Far East policy to the UN." At 6:15 p.m. Johnson receives Acheson, Dean, Lovett, Cowles, Bradley and McCloy at the White House.{5}'
+    n: '[FRUS 1964–68, III, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v03/d55) (the panel''s highlights: Bradley, Gilpatric, Kistiakowsky, Larson and McCloy). [[w.dallek-flawed-giant]], 272–73; [[w.mcnamara-in-retrospect]], ch. 7 at nn.46–47 (the morning subpanel, Bradley, Gilpatric, Kistiakowsky, Larson and McCloy, with Rusk, Thompson, William Bundy and McNamara, all but Larson for "whatever" forces were needed; Hoffman for negotiations; McCloy: "We are about to get our noses bloodied but you''ve got to do it"). [[w.barrett-uncertain-warriors]], 39–40 (the Wise Men with Johnson: his long complaint; Acheson to Truman, July 10: Johnson "had no choice except to press on"; Gilpatric to Bundy after the meeting: large additional forces; no day). Check: Dallek, 272, names Clifford among the panel; FRUS, doc. 55, does not. To check: William Bundy''s manuscript history, chap. 27, 15–21, LBJ Library (cited by [[w.dallek-flawed-giant]], 273). See [[cal.1965-07-01.vietnam]]. Names: Acheson, Bradley, Clifford, Gilpatric, McCloy, Rusk, McNamara, William Bundy, Johnson, Kistiakowsky, Larson, Thompson, Hoffman, Dean, Lovett.'
     src:
-      c: 6d241163
+      c: 6cf1c80a
       rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d55: 1'
         - 'w.dallek-flawed-giant 272–73: 1, 2, 3, 4'
         - 'via w.dallek-flawed-giant 273 n.98: 1, 2, 3, 4'
         - 'w.mcnamara-in-retrospect ch. 7 at nn.46–47: 1, 2'
         - 'w.barrett-uncertain-warriors 39–40: 2, 3'
-    tags: [name:acheson-dean-g, name:bradley-omar-n, name:clifford-clark, name:gilpatric-roswell-l, name:mccloy-john-j, name:rusk-dean, name:mcnamara-robert-s, name:bundy-william, name:johnson-lyndon-b]
-    time_range:
-      - 1965-07-08T13:00Z
-      - 1965-07-08T21:00Z
-    time_band: workday daytime
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d55: 1, 5'
+    tags: [name:acheson-dean-g, name:bradley-omar-n, name:clifford-clark, name:gilpatric-roswell-l, name:mccloy-john-j, name:rusk-dean, name:mcnamara-robert-s, name:bundy-william, name:johnson-lyndon-b, name:kistiakowsky-george-b, name:larson-arthur, name:thompson-llewellyn-e, name:hoffman-paul-g, name:dean-arthur-h, name:lovett-robert-a]
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1965-07-08.robert-kennedy
     when: July 8
     date: '1965-07-08'
@@ -1729,6 +1725,16 @@ entries:
         - 'w.friedman-shadow-cold-war 139: all'
         - 'via x.1965-07-08.soviet-east-european-mfa-department-soviet-attitude-actions: ?'
     tags: [polity:prc, polity:algeria, vis:only:prc, ok:fields-place]
+  - id: cal.1965-07-08.vietnam-july-decision-3
+    when: July 8
+    date: '1965-07-08'
+    place: washington
+    thread: vietnam-july-decision
+    follows:
+      - cal.1965-07-08.vietnam-july-decision
+    c: 'After the meeting Ball to Acheson and another of the panel: "you remind me of nothing so much as a bunch of buzzards sitting on a fence and letting the young men die."'
+    n: '[[w.dallek-flawed-giant]], 273 (the words not repeated to Johnson). To check: Bundy MS History, chap. 27, p. 20, LBJ Library; George Ball OH, July 9, 1971, LBJ Library (cited by [[w.dallek-flawed-giant]], 273 n.99). See [[cal.1965-07-08.vietnam-july-decision]]. Names: Ball, Acheson.'
+    tags: [name:ball-george-w, name:acheson-dean-g]
   - id: cal.1965-07-09.medicare
     when: July 9
     date: '1965-07-09'

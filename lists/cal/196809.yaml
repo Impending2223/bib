@@ -923,16 +923,19 @@ entries:
     place: new-orleans
     thread: elections-1968
     also: [vietnam]
-    c: 'New Orleans, Johnson to the American Legion: "We yearn for the day when our men can come home. No man can predict when that day will come."{1}'
-    n: 'Remarks in New Orleans Before the 50th Annual National Convention of the American Legion, [1968–69 Pub. Papers 936](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=246) (Sept. 10, 1968). [[w.dallek-flawed-giant]], 577 (the address; not the words quoted); [[w.solberg-hubert-humphrey]], 376 (the Legion speech, after Humphrey''s forecast at Houston that day; Johnson: "When is he going to learn that I''m still President?"); [[w.white-making-of-the-president-1969]], 335 (Humphrey at Houston, the *Post*''s headline). [[w.chester-american-melodrama]], 633–34 (the words; Christian''s account, the speech written a week before; O''Brien: "That isn''t how I remember it"). See [[cal.1968-09-02.elections-1968]]. Names: Johnson.'
+    follows:
+      - cal.1968-09-10.elections-1968-humphrey
+    c: 'New Orleans, Johnson to the American Legion: "We yearn for the day when our men can come home. No man can predict when that day will come."{1} He also dismisses a bombing halt as "the suggestion made by some of our enemies abroad and some of our friends at home."{2}'
+    n: 'Remarks in New Orleans Before the 50th Annual National Convention of the American Legion, [1968–69 Pub. Papers 936](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=246) (Sept. 10, 1968). [[w.dallek-flawed-giant]], 577 (the address; not the words quoted); [[w.solberg-hubert-humphrey]], 376 (the Legion speech, after Humphrey''s forecast at Houston that day; Johnson: "When is he going to learn that I''m still President?"); [[w.white-making-of-the-president-1969]], 335 (Humphrey at Houston, the *Post*''s headline); [[w.chester-american-melodrama]], 634. [[w.chester-american-melodrama]], 633–34 (the words; Christian''s account, the speech written a week before; O''Brien: "That isn''t how I remember it"). The order: after [[cal.1968-09-10.elections-1968-humphrey]], [[w.solberg-hubert-humphrey]], 376 ("Before he had time to issue a correction, the president himself ... did so"). See [[cal.1968-09-02.elections-1968]]. Names: Johnson.'
     src:
-      c: 08cd8e92
+      c: 76a7a005
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=246: 1'
         - 'w.dallek-flawed-giant 577: 1'
         - 'w.chester-american-melodrama 633–34: 1'
         - 'w.solberg-hubert-humphrey 376: 1'
         - 'w.white-making-of-the-president-1969 335: ?'
+        - 'w.chester-american-melodrama 634: 2'
     tags: [name:johnson-lyndon-b, state:la, city:new-orleans]
   - id: cal.1968-09-10.governors-wi
     when: Sept. 10
@@ -1103,6 +1106,15 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 501: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc, ok:fields-place]
+  - id: cal.1968-09-10.elections-1968-humphrey
+    when: Sept. 10
+    date: '1968-09-10'
+    place: houston
+    thread: elections-1968-humphrey
+    also: [vietnam]
+    c: 'Houston: Humphrey holds up a newspaper headlined "Troops to Come Home" and repeats his forecast that American soldiers will soon begin to leave Vietnam; the story''s second paragraph has a Marine unit routinely replaced by another. In his hotel room: "I guess I just made a mistake."'
+    n: '[[w.solberg-hubert-humphrey]], 376 ("The very next day" after Philadelphia and Denver, Sept. 9, 375). See [[cal.1968-09-09.elections-1968]]. Names: Humphrey.'
+    tags: [name:humphrey-hubert-h, state:tx, city:houston]
   - id: cal.1968-09-11.states-and-cities-ocean-hill
     when: Sept. 11
     date: '1968-09-11'

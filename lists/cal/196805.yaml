@@ -2154,15 +2154,14 @@ entries:
     when: May 14
     date: '1968-05-14'
     thread: elections-1968
-    c: 'Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska;{1} unpledged delegates in West Virginia.{2} Democratic: Kennedy in Nebraska;{3} unpledged delegates in West Virginia.{4}'
-    n: '[*Official Report of the Board of State Canvassers of the State of Nebraska, 1968*, 3, 18](https://govdocs.nebraska.gov/epubs/S1200/S001-1968prim_gen.pdf#page=4); [*West Virginia Blue Book, 1968*, 824, 853](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1968.pdf#page=832). CQ Guide 6th (2010) 410. [[w.nixon-rn]], 302–3 (Nixon in Nebraska); [[w.white-making-of-the-president-1969]], 177 (Kennedy''s majority in Nebraska, 51.6 percent); [[w.shesol-mutual-contempt]], 450 (a labor drive for Humphrey fails in Nebraska; Kennedy over McCarthy by twenty points); [[w.bernstein-guns-or-butter]], 502 (Kennedy 52 percent, McCarthy 31, Humphrey 8.4 by write-in, Johnson 5.6); [[w.thomas-robert-kennedy]], 377 (Kennedy 51.4 percent, McCarthy 31); [[w.zaroulis-who-spoke-up]], 170 (Nebraska: Kennedy 51 percent, McCarthy 31); [[w.schlesinger-robert-kennedy-and-his]], 889 ("On May 14 he won the Nebraska primary with 51.5 percent of the vote," McCarthy "31 percent"; not West Virginia or the Republican side); [[w.obrien-no-final-victories]], 240 (Nebraska: Kennedy 51 per cent, McCarthy 31, the Johnson–Humphrey slate 14; not the Republican side or West Virginia); [[w.witcover-85-days]], 197 (Nebraska: Kennedy 51.5 percent, McCarthy 31, Johnson 5.6, Humphrey 8.4 on write-ins, others 3.5; Kennedy won 88 of 93 counties). [[w.chester-american-melodrama]], 178 (Reagan 42,703 of 200,476, 21.3 percent, Nixon 140,336, 70; Kennedy 51.7 percent, McCarthy 31.2, of 162,611). See [[cal.1968-03-12.elections-1968]]. Names: Nixon, Kennedy. Check: Nixon gives Nebraska''s Republican vote as Nixon 70 percent, Reagan 22, Rockefeller 5 (303).'
+    c: 'Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska;{1} unpledged delegates in West Virginia.{2} Democratic: Kennedy in Nebraska;{3} unpledged delegates in West Virginia.{4} Nebraska, by Chester: Reagan, on the ballot though not a candidate, gets 42,703 of 200,476 Republican votes (21.3 percent), Nixon 140,336 (70 percent); Kennedy 51.7 percent and McCarthy 31.2 of 162,611 Democratic votes.{5} Nebraska, by Witcover: Kennedy wins 88 of the 93 counties; the statewide figures give him 51.5 percent, McCarthy 31, Humphrey 8.4 on write-ins, Johnson 5.6, others 3.5.{6}'
+    n: '[*Official Report of the Board of State Canvassers of the State of Nebraska, 1968*, 3, 18](https://govdocs.nebraska.gov/epubs/S1200/S001-1968prim_gen.pdf#page=4); [*West Virginia Blue Book, 1968*, 824, 853](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1968.pdf#page=832). CQ Guide 6th (2010) 410. [[w.nixon-rn]], 302–3 (Nixon in Nebraska); [[w.white-making-of-the-president-1969]], 177 (Kennedy''s majority in Nebraska, 51.6 percent); [[w.shesol-mutual-contempt]], 450 (a labor drive for Humphrey fails in Nebraska; Kennedy over McCarthy by twenty points); [[w.bernstein-guns-or-butter]], 502 (Kennedy 52 percent, McCarthy 31, Humphrey 8.4 by write-in, Johnson 5.6); [[w.thomas-robert-kennedy]], 377 (Kennedy 51.4 percent, McCarthy 31); [[w.zaroulis-who-spoke-up]], 170 (Nebraska: Kennedy 51 percent, McCarthy 31); [[w.schlesinger-robert-kennedy-and-his]], 889 ("On May 14 he won the Nebraska primary with 51.5 percent of the vote," McCarthy "31 percent"; not West Virginia or the Republican side); [[w.obrien-no-final-victories]], 240 (Nebraska: Kennedy 51 per cent, McCarthy 31, the Johnson–Humphrey slate 14; not the Republican side or West Virginia); [[w.witcover-85-days]], 197 (Nebraska: Kennedy 51.5 percent, McCarthy 31, Johnson 5.6, Humphrey 8.4 on write-ins, others 3.5; Kennedy won 88 of 93 counties); [[w.chester-american-melodrama]], 178; [[w.witcover-85-days]], 197. [[w.chester-american-melodrama]], 178 (Reagan 42,703 of 200,476, 21.3 percent, Nixon 140,336, 70; Kennedy 51.7 percent, McCarthy 31.2, of 162,611). Check: the Nebraska figures, Chester''s and Witcover''s, against the Board of State Canvassers'' report. See [[cal.1968-03-12.elections-1968]]. Names: Nixon, Kennedy, Reagan, McCarthy, Humphrey, Johnson. Check: Nixon gives Nebraska''s Republican vote as Nixon 70 percent, Reagan 22, Rockefeller 5 (303).'
     src:
-      c: 5168df8c
+      c: f844181b
       rows:
         - 'https://govdocs.nebraska.gov/epubs/S1200/S001-1968prim_gen.pdf#page=4: 1, 2, 3, 4'
         - 'https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1968.pdf#page=832: 1, 2, 3, 4'
         - 'w.nixon-rn 302–3: 1'
-        - 'w.chester-american-melodrama 178: 1, 3'
         - 'w.white-making-of-the-president-1969 177: ?'
         - 'w.shesol-mutual-contempt 450: ?'
         - 'w.bernstein-guns-or-butter 502: ?'
@@ -2170,8 +2169,9 @@ entries:
         - 'w.zaroulis-who-spoke-up 170: ?'
         - 'w.schlesinger-robert-kennedy-and-his 889: 3'
         - 'w.obrien-no-final-victories 240: 3'
-        - 'w.witcover-85-days 197: 3'
-    tags: [primary:1968-05-14, name:nixon-richard-m, name:kennedy-robert-f]
+        - 'w.chester-american-melodrama 178: 1, 3, 5'
+        - 'w.witcover-85-days 197: 3, 6'
+    tags: [primary:1968-05-14, name:nixon-richard-m, name:kennedy-robert-f, name:reagan-ronald, name:mccarthy-eugene-j, name:humphrey-hubert-h, name:johnson-lyndon-b]
     time_range:
       - 1968-05-15T00:00Z
       - 1968-05-15T08:00Z
@@ -4457,16 +4457,18 @@ entries:
     date: '1968-05-25'
     place: portland
     thread: robert-kennedy-campaign-primaries
-    c: 'Portland, late Saturday afternoon.{1} O''Brien, won over by Walinsky, asks Robert Kennedy to debate McCarthy.{2} Kennedy: a bad idea; what if McCarthy asks about Pearson''s wiretap column?{3} Finding Walinsky, Edelman and Greenfield laughing in the hall, he tells them to go ring doorbells and slams the door.{4}'
-    n: '[[w.thomas-robert-kennedy]], 381; [[w.obrien-no-final-victories]], 241–42 (the weekend before the Oregon vote: O''Brien, Salinger, Edelman, Walinsky and Oregon people discuss McCarthy''s standing challenge to debate; O''Brien tends to favor it with reservations, some of the younger men opposed; Kennedy sends for O''Brien in his suite; Drew Pearson''s column on the King wiretap; decided no by default; the laughing aides); [[w.witcover-85-days]], 213–15 (Saturday, May 25, the eighth-floor suite at the Benson; Walinsky, Salinger, Lucey and vanden Heuvel for a debate, Mrs. Green against; O''Brien called in by Kennedy and saying it would not hurt; after six o''clock, Kennedy in his shorts orders the room cleared and tells Walinsky and Greenfield in the corridor to "go out and ring doorbells"; not Pearson''s column). To check: Lawrence O''Brien, oral history, LBJ Library; O''Brien, *No Final Victories*, 241 (cited by [[w.thomas-robert-kennedy]], 475). See [[cal.1968-05-25.robert-kennedy]]. Names: O''Brien, Walinsky, Robert Kennedy.'
+    c: 'Portland, late Saturday afternoon.{1} O''Brien, won over by Walinsky, asks Robert Kennedy to debate McCarthy.{2} Salinger, Lucey and vanden Heuvel are for a debate; Mrs. Green, whom he asks twice, says no. Kennedy''s reasons: it gives McCarthy exposure, smacks of desperation and takes a weapon from California. O''Brien, called in, thinks it would not hurt and will go along with Kennedy''s decision.{5} Kennedy: a bad idea; what if McCarthy asks about Pearson''s wiretap column?{3} Finding Walinsky, Edelman and Greenfield laughing in the hall, he tells them to go ring doorbells and slams the door.{4} Dutton gets Kennedy up after six; he orders the room cleared. In the corridor he tells Walinsky and Greenfield, his speechwriters, that they should be writing speeches, not playing the guitar. Later they say they are going back to Washington to write.{6}'
+    n: '[[w.thomas-robert-kennedy]], 381; [[w.obrien-no-final-victories]], 241–42 (the weekend before the Oregon vote: O''Brien, Salinger, Edelman, Walinsky and Oregon people discuss McCarthy''s standing challenge to debate; O''Brien tends to favor it with reservations, some of the younger men opposed; Kennedy sends for O''Brien in his suite; Drew Pearson''s column on the King wiretap; decided no by default; the laughing aides); [[w.witcover-85-days]], 213–15 (Saturday, May 25, the eighth-floor suite at the Benson; Walinsky, Salinger, Lucey and vanden Heuvel for a debate, Mrs. Green against; O''Brien called in by Kennedy and saying it would not hurt; after six o''clock, Kennedy in his shorts orders the room cleared and tells Walinsky and Greenfield in the corridor to "go out and ring doorbells"; not Pearson''s column); [[w.witcover-85-days]], 213–14; [[w.witcover-85-days]], 215. To check: Lawrence O''Brien, oral history, LBJ Library; O''Brien, *No Final Victories*, 241 (cited by [[w.thomas-robert-kennedy]], 475). See [[cal.1968-05-25.robert-kennedy]]. Names: O''Brien, Walinsky, Robert Kennedy, Salinger, Lucey, vanden Heuvel, Green, Dutton, Greenfield.'
     src:
-      c: 576bc1dc
+      c: 18e691d6
       rows:
         - 'w.thomas-robert-kennedy 381: 1, 2, 3, 4'
         - 'via w.thomas-robert-kennedy 381 n.rfk-and-obrien: 1, 2, 3, 4'
         - 'w.obrien-no-final-victories 241–42: ?'
         - 'w.witcover-85-days 213–15: ?'
-    tags: [name:obrien-lawrence-f, name:walinsky-adam, name:kennedy-robert-f, state:or]
+        - 'w.witcover-85-days 213–14: 5'
+        - 'w.witcover-85-days 215: 6'
+    tags: [name:obrien-lawrence-f, name:walinsky-adam, name:kennedy-robert-f, state:or, name:salinger-pierre, name:lucey-patrick, name:vanden-heuvel-william-j, name:green-edith, name:dutton-frederick-g, name:greenfield-jeff]
     time_range:
       - 1968-05-25T22:00Z
       - 1968-05-26T02:00Z

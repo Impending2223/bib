@@ -6609,9 +6609,16 @@ entries:
     place: algiers
     thread: china-foreign
     also: [africa, middle-east]
-    c: Chen Yi meets the UAR's foreign minister in the evening, the two to meet again on the 25th at the meeting of four countries' foreign ministers, as Nasser tells Zhou on June 25.
-    n: '"[Summary of Premier Zhou''s Conversation with President Nasser](https://digitalarchive.umd.edu/document/165425)" (June 25, 1965), PRC FMA 107-01081-07, 110–111, trans. Stephen Mercado, Wilson Center Digital Archive (Nasser''s account: "on the evening of the 24th"; the minister not named). No time set: the record names no place, so no clock. [[w.chen-yi-nianpu]], 1104 (June 24, 1965, evening, Algiers; Chen Yi meets Mahmoud Riad 马哈茂德·里亚德, the UAR''s Foreign Minister, after Subandrio and before Naji Talib). Names: Chen Yi, Nasser, Zhou Enlai. Check: the place. Check: the year the Archive posted the document.'
-    tags: [polity:prc, polity:uar, name:chen-yi, name:nasser-gamal-abdel, name:zhou-enlai, vis:only:prc+uar, ok:fields-time]
+    follows:
+      - cal.1965-06-24.china-leadership-12
+    c: Chen Yi meets the UAR's foreign minister in the evening, the two to meet again on the 25th at the meeting of four countries' foreign ministers, as Nasser tells Zhou on June 25.{1} The Chen Yi nianpu names him Mahmoud Riad.{2}
+    n: '"[Summary of Premier Zhou''s Conversation with President Nasser](https://digitalarchive.umd.edu/document/165425)" (June 25, 1965), PRC FMA 107-01081-07, 110–111, trans. Stephen Mercado, Wilson Center Digital Archive (Nasser''s account: "on the evening of the 24th"; the minister not named). No time set: the record names no place, so no clock. [[w.chen-yi-nianpu]], 1104 (June 24, 1965, evening, Algiers; Chen Yi meets Mahmoud Riad 马哈茂德·里亚德, the UAR''s Foreign Minister, after Subandrio and before Naji Talib); [[w.chen-yi-nianpu]], 1104. The order: after [[cal.1965-06-24.china-leadership-12]], the printed order alone ([[w.chen-yi-nianpu]], 1104). Names: Chen Yi, Nasser, Zhou Enlai, Mahmoud Riad. Check: the place. Check: the year the Archive posted the document.'
+    src:
+      c: cdc5029a
+      rows:
+        - 'https://digitalarchive.umd.edu/document/165425: 1'
+        - 'w.chen-yi-nianpu 1104: 2'
+    tags: [polity:prc, polity:uar, name:chen-yi, name:nasser-gamal-abdel, name:zhou-enlai, vis:only:prc+uar, ok:fields-time, name:riad-mahmoud]
     time_range:
       - 1965-06-24T19:00Z
       - 1965-06-24T22:00Z
@@ -6631,6 +6638,36 @@ entries:
       - 1965-06-24T12:00Z
     time_band: morning
     time_zone: Africa/Algiers
+  - id: cal.1965-06-24.china-leadership-12
+    when: June 24
+    date: '1965-06-24'
+    place: algiers
+    thread: china-foreign
+    c: Chen Yi meets Subandrio, Indonesia's first deputy prime minister and foreign minister, in the evening.
+    n: '[[w.chen-yi-nianpu]], 1104 (June 24, 1965, 晚上, 分别会见: the evening, Chen Yi meets Subandrio, Mahmoud Riad and Naji Talib separately, in that order). The time is the evening, the nianpu''s word. Made public: 1995. See [[cal.1965-06-24.china-leadership-10]]. Names: Chen Yi, Subandrio.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio, vis:only:prc+indonesia]
+    time_range:
+      - 1965-06-24T19:00Z
+      - 1965-06-24T22:00Z
+    time_band: evening
+    time_zone: Africa/Algiers
+    range_basis: record
+  - id: cal.1965-06-24.china-leadership-13
+    when: June 24
+    date: '1965-06-24'
+    place: algiers
+    thread: china-foreign
+    follows:
+      - cal.1965-06-24.china-leadership-10
+    c: Chen Yi meets Naji Talib, Iraq's foreign minister, in the evening.
+    n: '[[w.chen-yi-nianpu]], 1104 (June 24, 1965, 晚上, 分别会见: the evening, Chen Yi meets Subandrio, Mahmoud Riad and Naji Talib separately, in that order). The time is the evening, the nianpu''s word. The order: after [[cal.1965-06-24.china-leadership-10]], the printed order alone ([[w.chen-yi-nianpu]], 1104). Made public: 1995. See [[cal.1965-06-24.china-leadership-10]]. Names: Chen Yi, Talib.'
+    tags: [polity:prc, polity:iraq, name:chen-yi, name:talib-naji, vis:only:prc+iraq]
+    time_range:
+      - 1965-06-24T19:00Z
+      - 1965-06-24T22:00Z
+    time_band: evening
+    time_zone: Africa/Algiers
+    range_basis: record
   - id: cal.1965-06-25.vietnam
     when: June 25
     date: '1965-06-25'
