@@ -25,7 +25,7 @@ The steps (each adjustment stated in sources/china/README.md):
  4. One coverage: shapely.coverage_clean, coverage_simplify (TOL); islets under MIN_KM2 dropped.
  5. Dissolved: the counties of 1964 (crosswalk.json: each later unit's county; a unit not traced back stays as it
     is), the provinces of 1966 (Chongqing in Sichuan, Hainan in Guangdong, Tianjin in Hebei: the display year 1966;
-    Tianjin was Hebei's from 1958 to Jan. 1967), the countries; the lines each once at its rank (intl, disp, unit,
+    Tianjin was Hebei's from 1958 to Jan. 1967), the countries; the lines each once at its rank (disp, intl, unit,
     county), the coast apart. Label points: polylabel of each area's largest part.
 
 Writes, in sources/china/: admin.geojson (`k`: land, disp, unit, line, lab), counties.geojson (`k`: county, line, lab),
@@ -275,8 +275,8 @@ def main():
     fb = frame.boundary.buffer(1e-7)
     coast = shapely.difference(land.boundary, fb)
     top0 = shapely.union_all([coast, fb])
-    intl = lines(list(country.values()), top0)
-    dl = lines(list(disp.values()), shapely.union_all([top0, intl.buffer(1e-7)]))
+    dl = lines(list(disp.values()), top0)       # a disputed area's line whole, both sides: above the countries' own,
+    intl = lines(list(country.values()), shapely.union_all([top0, dl.buffer(1e-7)]))   # or none of it would be left
     top = shapely.union_all([top0, intl.buffer(1e-7), dl.buffer(1e-7)])
     prc_units = [g for u, g in units.items() if u not in ("hong-kong", "macau")]
     unitl = lines(prc_units, top)

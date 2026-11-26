@@ -98,6 +98,8 @@ EPNAME = {s: n for s, n, lo, hi, c, w in EPISODES}
 EPC = [(s, [(a, b, re.compile(r, re.I)) for a, b, r in comps], w) for s, n, lo, hi, comps, w in EPISODES]
 # words of the movement the survey's list lacked: the fallen struggled against, questioned, held
 CRW_MORE = r"|struggled against|is struggled|\bstruggles? (?:Peng|Liu|Deng|Luo|He Long|Lu Dingyi|Yang Shangkun|Tao Zhu)|taken there to be struggled|case office|case group|interrogat|\bparaded\b|the sentry|his guards?\b|guard officer|in custody|his arrest|\barrested\b|persecuted to death|commits suicide|suicide"
+# MEND 2 (11): the movement's own documents and slogans, where the line is the press or radio printing them (the audit's "business of an episode that does not use its words")
+CRW_MORE += r"|China's Khrushchev|ghosts and monsters|May 16(?:, 1966)? Circular|anti-Party group headed by Peng|failure of Peng Dehuai|Pursue the beaten foe|support the army and love the people|support the left|\bdemands? Peng Dehuai|Peng Dehuai['’]?s? (?:papers|confessions?|statements?)|papers Peng Dehuai wrote"
 CRWR = re.compile(CRW + CRW_MORE, re.I)
 # the conferences' days (the survey's final.py)
 CONF = [('china-shanghai-1960', '1960-01-07', '1960-01-17'), ('china-shanghai-1960', '1960-07-05', '1960-08-10'), ('china-twelve-articles', '1961-01-14', '1961-01-18'),
@@ -144,7 +146,8 @@ STRIP = {'china-bomb': re.compile(r"(?:Conference|Council|Congress)s? [Aa]gainst
 # 3. Keys the survey's lists lacked: (first day or month, last, regex).
 MORE = {
  'china-bomb': [('1963-07', '1969-12', r"Special Commi(?:ssion|ttee)|Central Special|中央专门委员会|专委|Second Ministry of Machine|Seventh Ministry of Machine|test range|nuclear[- ]industry|warhead")],
- 'china-polemic': [('1961-10', '1964-11', r"Pravda|真理报|\b(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth) comment|reply to the CPSU|letter of the CPSU|CPSU(?:'s)? letter|Togliatti|Thorez|anti-revisionis|Whence the differences")],
+ 'china-retreat-1962': [('1962-05', '1962-05', r"relays? the work conference|town population")],   # MEND 2 (12): the May work conference relayed to the cadres; the cut in the town population
+ 'china-polemic': [('1961-10', '1964-11', r"statement on the talks|origin and development of the differences|Pravda|真理报|\b(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth) comment|reply to the CPSU|letter of the CPSU|CPSU(?:'s)? letter|Togliatti|Thorez|anti-revisionis|Whence the differences")],
  'china-moscow-1960': [('1960-04', '1961-01', r"differences between (?:China and the Soviet|the two parties)|Sino-Soviet (?:differences|question)|parties' conference|drafting committee of the parties")],
  'china-four-cleanups': [('1962-09', '1966-05', r"socialist[- ]education")],
  'china-may-sixteenth': [('1966-04-09', '1966-05-31', r"Peng Zhen|彭真")],
@@ -168,6 +171,20 @@ LEAPRX = {r for s_, n_, lo_, hi_, r in _EP if s_ == 'leap-1960'}
 def shanghai_days(d):
     if len(d) == 10: return '1960-01-07' <= d <= '1960-01-17' or '1960-07-05' <= d <= '1960-08-10'
     return d[:7] in ('1960-01', '1960-07', '1960-08')
+# MEND 2 (1-4), Shanghai and Beidaihe, 1960. (1) The experts' recall places an entry only to Aug. 12 (two days after the conference closes): later Soviet business of 1960 is the quarrel with Moscow, and a
+# year-dated entry has no day to put in a conference. (2) A conference's days need the conference's seat or its name in the line. (3) An entry read from a famine book and not set at the conference is the
+# famine's. (4) The writers' congress of July 1960 is the arts' business, not the conference's.
+SHW_SEAT = re.compile(r"Shanghai|Beidaihe|enlarged Politburo|Central Work Conference|work conference", re.I)
+SHW_WRITERS = re.compile(r"Writers and Artists|Congress of (?:Chinese )?Writers|writers' congress|Literary and Art", re.I)
+SHW_EXPERTS = re.compile(r"experts|专家", re.I)
+# MEND 2 (5-8), Twelve Articles. (5) "urgent directive" and "emergency directive" place an entry only where the line names the letter or its commune subject (the winter had other urgent directives: steel, food
+# substitutes, grain imports, the market). (6) The winds' words place an entry only where the line has a country matter (a plan, a boiler works or a Party School is not the commune's business). (7) A foreign guest
+# is foreign business. (8) The Moscow conference's report at the Ninth Plenum goes to Moscow.
+T12_URGENT = re.compile(r"(?:urgent|emergency) directive(?! letter)(?![^.;]{0,80}(?:communes?|rural|current polic|policy questions|twelve|five winds|communist wind))", re.I)
+T12_RURAL = re.compile(r"commun(?:e|es)\b|\bcount(?:y|ies)|brigade|production team|villag|peasant|countryside|rural|\bfarm|grain|Ninth Plenum|Twelve Articles|directive letter|urgent letter|emergency letter|cadre meeting|five-level|three-level|mess hall|private plot|Work Conference", re.I)
+T12_CORE = re.compile(r"commun(?:e|es)\b|\bcount(?:y|ies)|brigade|production team|villag|peasant|countryside|rural|\bfarm|grain|Twelve Articles|directive letter|five winds|communist wind", re.I)
+T12_STRICT = re.compile(r"Twelve Articles|Directive Letter|Ninth Plenum|plenum|urgent letter|emergency letter", re.I)
+T12_MOSCOW = re.compile(r"Moscow (?:conference|meeting)|eighty-one|81 parties|meeting of representatives of the communist", re.I)
 def episodes(e, variant=''):
     """[(slug, rule)] of the episodes the entry fits, the one that takes it first."""
     d = e['date']; c = e['_plain']
@@ -179,12 +196,16 @@ def episodes(e, variant=''):
     hits = []; weakonly = set(); seatonly = set()
     for s, comps, w in EPC:
         txt = STRIP[s].sub(' ', base) if s in STRIP else base
+        if s == 'china-twelve-articles': txt = T12_URGENT.sub(' ', txt)               # MEND 2 (5)
+        if s == 'china-shanghai-1960' and (len(d) == 4 or SHW_WRITERS.search(c) or (e['works'][:1] and e['works'][0] in BOOK_FAMINE and not SHW_SEAT.search(base))): continue   # MEND 2 (1, 3, 4)
         keys = set()
         for a, b, r in comps:
             if s == 'china-shanghai-1960' and r.pattern in LEAPRX and not shanghai_days(d): continue
             if inwin(d, a, b): keys |= {m.group(0) for m in r.finditer(txt)}
         for a, b, r in MOREC.get(s, ()):
             if inspan(d, a, b) and r.search(txt): keys.add('+')
+        if s == 'china-shanghai-1960' and len(d) == 10 and d > '1960-08-12':          # MEND 2 (1)
+            keys = {k for k in keys if k != '+' and not SHW_EXPERTS.search(k)}
         if not keys: continue
         keys = {(HAN.sub('', k).strip() or k) for k in keys}                      # "Beidaihe 北戴河" is the key "Beidaihe"
         strong = [k for k in keys if not WEAK.match(k)]
@@ -199,10 +220,15 @@ def episodes(e, variant=''):
             weakonly.add(s)
             if seat and not any(len(d) == 10 and lo <= d <= hi for s2, lo, hi in CONF if s2 == s): seatonly.add(s)
         if s == 'china-opera' and e['_foreign']: continue          # a guest taken to the theatre is foreign business
+        if s == 'china-twelve-articles':                             # MEND 2 (6, 7)
+            if e['_foreign'] and not T12_STRICT.search(c): continue
+            if not T12_RURAL.search(c) and not any(re.search(r"Twelve|Directive Letter|Ninth Plenum|urgent letter|emergency letter", k, re.I) for k in keys): continue
         hits.append((s, 'ep:word'))
     if not e['_foreign'] and not private:
         for s, lo, hi in CONF:
-            if len(d) == 10 and lo <= d <= hi and CONFW.search(CONFCUT.sub(' ', c)) and s not in [h[0] for h in hits]: hits.append((s, 'ep:days'))
+            if len(d) == 10 and lo <= d <= hi and CONFW.search(CONFCUT.sub(' ', c)) and s not in [h[0] for h in hits]:
+                if s == 'china-shanghai-1960' and (not SHW_SEAT.search(c + ' ' + ' '.join(pl)) or SHW_WRITERS.search(c) or (e['works'][:1] and e['works'][0] in BOOK_FAMINE)): continue   # MEND 2 (2, 3, 4)
+                hits.append((s, 'ep:days'))
     got = [h[0] for h in hits]
     if '1964-10' <= d[:7] <= '1965-05' and 'Yang Shangkun' in c and 'china-four-cleanups' not in got and (set(pl) & POST or POSTW.search(c)) \
        and (POSTWORK.search(c) or not (set(pl) & TOUR or TOURW.search(c))) and not (PERSONAL.search(first[:90]) or MOVEMENT.search(first) or TOURDAY.search(c)):
@@ -226,6 +252,7 @@ def episodes(e, variant=''):
         last.add('china-tenth-plenum' if d < '1962-07-25' else 'china-retreat-1962')
     if 'china-twelve-articles' in weakonly and 'china-famine' in got:              # a mess hall in a famine report
         last.add('china-twelve-articles')
+    if 'china-twelve-articles' in got and 'china-moscow-1960' in got and T12_MOSCOW.search(c) and not T12_CORE.search(c): last.add('china-twelve-articles')   # MEND 2 (8)
     def rank(h):
         if len(d) == 4 and h[0] in STAGEWIN: return (h[0] in last, h[0] in seatonly, -months_in_year(h[0], d))   # a year-dated entry: the stage that covers most of the year
         return (h[0] in last, h[0] in seatonly, winlen(h[0]))
@@ -312,7 +339,7 @@ ABROAD = set("""moscow jakarta rangoon geneva algiers hanoi cairo bucharest pyon
 dar-es-salaam bogor lahore nairobi khartoum alexandria mandalay taunggyi bandung siem-reap hamhung ngapali asmara surabaya zanzibar craiova bai-chay moulmein tangier korce vlore kindia islamabad bali constanta london
 addis-ababa agra pokhara kompong-cham sandoway budapest leningrad haiphong tampaksiring kirirom shkoder labe taxila segou calcutta kampot-province vinh alma-ata tashkent paghman barvikha minsk irkutsk pagan bern lausanne
 kaesong sinuiju tokyo viet-tri ha-long-bay hon-gai prague denpasar songnim hamju-county port-said aswan oran casablanca berat tema koulikoro omdurman axum brazzaville tehran helwan herat durres paris khabarovsk warsaw""".split())
-RECEIVE = re.compile(r"\b(?:receiv(?:es?|ing)|meets?|sees? off|send-off|seen off|welcomes?|banquets?|receptions?|talks? with|calls? on|dinner|luncheon|farewell|accompan(?:y|ies)|visits?|guests?|takes|shows|hosts?|entertains?|cables?|telegraphs?|congratulat\w+|condolences|rall(?:y|ies)|in support of|solidarity|comrades|Communists|delegates?)\b")
+RECEIVE = re.compile(r"\bfriendly (?:match|game)|\b(?:receiv(?:es?|ing)|meets?|sees? off|send-off|seen off|welcomes?|banquets?|receptions?|talks? with|calls? on|dinner|luncheon|farewell|accompan(?:y|ies)|visits?|guests?|takes|shows|hosts?|entertains?|cables?|telegraphs?|congratulat\w+|condolences|rall(?:y|ies)|in support of|solidarity|comrades|Communists|delegates?)\b")
 CENTER_BODY = re.compile(r"(?<!'s )(?<!committee )\b[Tt]he Secretariat\b(?! of the (?!Central|Chinese))|\bAt the Secretariat\b|Central Secretariat|中央书记处|\b[Tt]he Politburo\b|Politburo(?:'s)? Standing Committee|Politburo meeting|中央政治局|\b[Tt]he Standing Committee\b(?! of)|Central Work Conference|中央工作会议|\bwork conference\b|\b[Tt]he Center(?:'s)?\b|中共中央|\bCentral Committee (?:issues|forwards|approves|decides|circulates|transmits|sends)|General Office|办公厅|\bplenum\b|regional bureaus' (?:first )?secretaries")
 NOT_CENTER = re.compile(r"(?:National People's Congress|NPC|CPPCC|Political Consultative Conference|People's Congress|[Pp]arty committee|provincial committee|municipal committee|[Cc]ommittee's|Supreme People's Assembly)(?:'s)?(?: 全国人大| 政协)? (?:enlarged )?Standing Committee|Standing Committee of the (?:\w+ )?(?:National|NPC|CPPCC|Supreme|Political|\w+ (?:provincial|municipal|[Pp]arty) committee)|Central Committee of the (?!Chinese)|[Pp]olitburo of the (?!Chinese)|(?:Workers' Party|Communist Party of \w+|Lao Động|Labor Party|Labour Party)(?:'s)? (?:Central Committee|Politburo)")
 HEADZONE = 200
@@ -333,12 +360,15 @@ def system_scores(e):
             m = r.search(c)
             if m: sc[k] += w if m.start() < HEADZONE else 1; hitrows[k].add(i)
     head = e['_head_s'][:70]
-    for k, r in HEADBODY.items():
-        if r.search(head): sc[k] += 4
     ev = e['_fev']
+    guest = bool(ev) and bool(RECEIVE.search(c))
+    for k, r in HEADBODY.items():
+        if r.search(head) and not (guest and k not in ('foreign', 'center')): sc[k] += 4   # MEND 2 (19): a guest received at a body is foreign business, whatever the body
     if ev:
         sc['foreign'] += ev + (2 if RECEIVE.search(c) else 0)
-        if hitrows['culture'] == {1}: sc['foreign'] += 3      # AUDIT MEND 11: a foreign guest at a performance is foreign business
+        if hitrows['culture'] and hitrows['culture'] <= {1, 2}: sc['foreign'] += 3      # AUDIT MEND 11: a foreign guest at a performance is foreign business (MEND 2 (19): or at a school, a sport, an academy)
+        if guest and e['_head'] and any(sk == 'foreign' for sk, lo, hi in OFFICE.get(e['_head'][0], ())): sc['foreign'] += 3   # MEND 2 (19): the foreign minister receiving a guest
+    if re.search(r"\bdies\b|\bdied\b|\bdeath of\b|\bfuneral|memorial (?:meeting|service)|追悼", c[:160]): sc['org'] += 4   # MEND 2 (20): a death is the Party's own business (the statement: "the deaths of leaders")
     al = set(e['also'])
     if 'farm' in al: sc['farm'] += 2
     if al & {'economy', 'trade', 'budget', 'taxes', 'oil'}: sc['economy'] += 2
@@ -351,6 +381,10 @@ def office_of(e):
     d = e['date'][:7]
     # AUDIT MEND 8 (ruling 58, 5): a caller on the director of the General Office is the Center's daily work, whatever the caller's own office.
     if 'Yang Shangkun' in e['_roman'] and d <= '1965-11': return 'center'
+    heads = [nm for nm in e['_head'] if nm in OFFICE]
+    # MEND 2 (21): a short line that names persons of two systems and no matter ("A calls on B; they talk") is no one system's; and where the head holds no office, an office named later in a short line is not his
+    held = {sk for nm in set(e['_head'] + OFFNAME.findall(e['_roman'])) for sk, lo, hi in OFFICE.get(nm, ()) if (not lo or d >= lo) and (not hi or d <= hi)}
+    if len(e['_roman']) < 130 and (len(held) > 1 or (e['_phead'] and not heads and held)): return None
     for nm in e['_head'] + OFFNAME.findall(e['_roman']):
         for sysk, lo, hi in OFFICE.get(nm, ()):
             if (not lo or d >= lo) and (not hi or d <= hi): return sysk
