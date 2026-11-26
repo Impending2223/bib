@@ -16,22 +16,19 @@
 # 1956, excluding armed forces and foreigners (1966: n. 100; 1970: n. 203); for Hong Kong, Victoria at the census of
 # 1961; for Macau, the censuses of 1950 and 1960.
 #
-# Each city: `place`, the gazetteer's key (sources/places.yaml), whose point is in sources/china/places.json. Every
-# city here is a place of the gazetteer: 34 that no calendar entry named were made places of it on Nov. 26, 2026
-# (the owner, Nov. 25: "Add the cities to the gazetteer"; tools/cnmap/places.py, CITY, names each one's Wikidata
-# item), so no city carries a point of its own. `as`: the city as the Yearbook names it; that the one is the other
+# Each city: `place`, the gazetteer's key (sources/places.yaml, sources/china/places.json), where the gazetteer holds
+# the city; where it does not, `id`, `name` (in pinyin, as the gazetteer names its places; Taiwan's in the forms the
+# Republic used), `lat`, `lon` and `q`: the point (P625) of the Wikidata item of that name, read from Wikidata's
+# query service on Nov. 26, 2026, never guessed. `as`: the city as the Yearbook names it; that the one is the other
 # is this file's reading. `rows`, the figures, each with `date` (the day of a census, C, or of an estimate, E),
 # `pop`, `of` (city proper, or urban agglomeration), `src` (the Yearbook, its table and printed page) and `note`:
 # the Yearbook's own marks, stated (an asterisk: provisional; italics, in the 1970 Yearbook: "of lesser reliability").
 # The map shows the first row; the tap, all. A figure the two Yearbooks print alike is cited to the 1966 Yearbook.
 #
-# `unplaced`: figures printed for a city this file could not place, kept so that the reading is not lost. "Malibo"
-# was not identified (the owner, Nov. 25, 2026: "I can't identify Malibo either").
+# `unplaced`: figures printed for a city this file could not place, kept so that the reading is not lost.
 #
-# Check: Chuchow is taken as Zhuzhou in Hunan (株洲): the Yearbook names no province.
-# Check: Taichow is taken as Taizhou in Jiangsu (泰州): the Yearbook names no province.
-# Check: Chinchow is taken as Jinzhou in Liaoning (锦州): the Yearbook names no province.
-# Port Arthur and Dairen (Lüta) is set at Dalian.
+# Check: Taichow is taken as Taizhou in Jiangsu (泰州), Chuchow as Zhuzhou in Hunan (株洲) and Chinchow as Jinzhou in
+# Liaoning (锦州): the Yearbook names no province. Port Arthur and Dairen (Lüta) is set at Dalian.
 sources:
   dyb1966: United Nations, *Demographic Yearbook 1966*, table 6
   dyb1970: United Nations, *Demographic Yearbook 1970*, table 8
@@ -40,7 +37,11 @@ cities:
   as: Amoy (Hsia-men)
   rows:
   - {date: '1953-06-30', kind: C, pop: 224300, of: city proper, src: dyb1966, page: 185}
-- place: anqing
+- id: anqing
+  name: Anqing
+  lat: 30.5
+  lon: 117.0333
+  q: Q360374
   as: Anking
   rows:
   - {date: '1953-06-30', kind: C, pop: 105300, of: city proper, src: dyb1966, page: 185}
@@ -76,11 +77,19 @@ cities:
   rows:
   - {date: '1957-12-31', kind: E, pop: 703000, of: city proper, src: dyb1966, page: 185, note: 'The 1970 Yearbook, p. 446, in italics.'}
   - {date: '1953-06-30', kind: C, pop: 650600, of: city proper, src: dyb1970, page: 446}
-- place: changshu
+- id: changshu
+  name: Changshu
+  lat: 31.65
+  lon: 120.7333
+  q: Q1015805
   as: Changshu
   rows:
   - {date: '1953-06-30', kind: C, pop: 101400, of: city proper, src: dyb1966, page: 185}
-- place: chaozhou
+- id: chaozhou
+  name: Chaozhou
+  lat: 23.67
+  lon: 116.63
+  q: Q59227
   as: Chaochow
   rows:
   - {date: '1953-06-30', kind: C, pop: 101300, of: city proper, src: dyb1966, page: 185}
@@ -128,7 +137,11 @@ cities:
   rows:
   - {date: '1957-12-31', kind: E, pop: 616000, of: city proper, src: dyb1966, page: 185, note: 'The 1970 Yearbook, p. 446, in italics.'}
   - {date: '1953-06-30', kind: C, pop: 553000, of: city proper, src: dyb1970, page: 446}
-- place: fushun
+- id: fushun
+  name: Fushun
+  lat: 41.8709
+  lon: 123.8917
+  q: Q75026
   as: Fushun
   rows:
   - {date: '1957-12-31', kind: E, pop: 985000, of: city proper, src: dyb1966, page: 185, note: 'The 1970 Yearbook, p. 446, in italics.'}
@@ -165,11 +178,19 @@ cities:
   rows:
   - {date: '1957-12-31', kind: E, pop: 314000, of: city proper, src: dyb1966, page: 185, note: 'The 1970 Yearbook, p. 446, in italics.'}
   - {date: '1953-06-30', kind: C, pop: 148400, of: city proper, src: dyb1970, page: 446}
-- place: huainan
+- id: huainan
+  name: Huainan
+  lat: 32.4831
+  lon: 117.0164
+  q: Q360178
   as: Hwainan
   rows:
   - {date: '1953-06-30', kind: C, pop: 286900, of: city proper, src: dyb1966, page: 185}
-- place: huangshi
+- id: huangshi
+  name: Huangshi
+  lat: 30.2018
+  lon: 115.0326
+  q: Q71204
   as: Hwangshih
   rows:
   - {date: '1953-06-30', kind: C, pop: 110500, of: city proper, src: dyb1966, page: 185}
@@ -221,11 +242,19 @@ cities:
   rows:
   - {date: '1957-12-31', kind: E, pop: 699000, of: city proper, src: dyb1966, page: 185, note: 'The 1970 Yearbook, p. 447, in italics.'}
   - {date: '1953-06-30', kind: C, pop: 397400, of: city proper, src: dyb1970, page: 447}
-- place: liaoyang
+- id: liaoyang
+  name: Liaoyang
+  lat: 41.2643
+  lon: 123.1772
+  q: Q75203
   as: Liaoyang
   rows:
   - {date: '1940-10-01', kind: C, pop: 100165, of: city proper, src: dyb1966, page: 185, note: Provisional. The 1970 Yearbook does not list the city.}
-- place: liaoyuan
+- id: liaoyuan
+  name: Liaoyuan
+  lat: 42.8976
+  lon: 125.1381
+  q: Q92311
   as: Liaoyüan
   rows:
   - {date: '1953-06-30', kind: C, pop: 120100, of: city proper, src: dyb1966, page: 185}
@@ -264,7 +293,11 @@ cities:
   rows:
   - {date: '1957-12-31', kind: E, pop: 264000, of: city proper, src: dyb1966, page: 185, note: 'The 1970 Yearbook, p. 447, in italics.'}
   - {date: '1953-06-30', kind: C, pop: 194600, of: city proper, src: dyb1970, page: 447}
-- place: nantong
+- id: nantong
+  name: Nantong
+  lat: 31.9829
+  lon: 120.8873
+  q: Q57947
   as: Nantung
   rows:
   - {date: '1953-06-30', kind: C, pop: 260400, of: city proper, src: dyb1966, page: 185}
@@ -272,7 +305,11 @@ cities:
   as: Neikiang
   rows:
   - {date: '1953-06-30', kind: C, pop: 190200, of: city proper, src: dyb1966, page: 185}
-- place: ningbo
+- id: ningbo
+  name: Ningbo
+  lat: 29.875
+  lon: 121.5492
+  q: Q42780
   as: Ningpo
   rows:
   - {date: '1953-06-30', kind: C, pop: 237500, of: city proper, src: dyb1966, page: 185}
@@ -298,7 +335,11 @@ cities:
   as: Pengpu (Pang-fou)
   rows:
   - {date: '1953-06-30', kind: C, pop: 253000, of: city proper, src: dyb1966, page: 185}
-- place: benxi
+- id: benxi
+  name: Benxi
+  lat: 41.292
+  lon: 123.761
+  q: Q75091
   as: Penki
   rows:
   - {date: '1953-06-30', kind: C, pop: 449000, of: city proper, src: dyb1966, page: 185}
@@ -316,11 +357,19 @@ cities:
   as: Shangkiu
   rows:
   - {date: '1953-06-30', kind: C, pop: 134400, of: city proper, src: dyb1970, page: 447, note: 'The 1966 Yearbook, p. 185, prints the same figure under the date 20 VI 1953.'}
-- place: shaoxing
+- id: shaoxing
+  name: Shaoxing
+  lat: 30.0
+  lon: 120.5833
+  q: Q42666
   as: Shaohing (Shao-hsing)
   rows:
   - {date: '1953-06-30', kind: C, pop: 130600, of: city proper, src: dyb1966, page: 185}
-- place: shaoyang
+- id: shaoyang
+  name: Shaoyang
+  lat: 27.2418
+  lon: 111.4725
+  q: Q194531
   as: Shaoyang
   rows:
   - {date: '1953-06-30', kind: C, pop: 117700, of: city proper, src: dyb1966, page: 185}
@@ -374,11 +423,19 @@ cities:
   as: 'Swatou (Swatow; Shan-t''ou)'
   rows:
   - {date: '1953-06-30', kind: C, pop: 280400, of: city proper, src: dyb1966, page: 185}
-- place: siping
+- id: siping
+  name: Siping
+  lat: 43.1715
+  lon: 124.3644
+  q: Q92297
   as: 'Szeping (Ssu-p''ing)'
   rows:
   - {date: '1953-06-30', kind: C, pop: 125900, of: city proper, src: dyb1966, page: 185}
-- place: taizhou-jiangsu
+- id: taizhou-jiangsu
+  name: Taizhou
+  lat: 32.4831
+  lon: 119.9
+  q: Q57931
   as: Taichow
   rows:
   - {date: '1953-06-30', kind: C, pop: 159800, of: city proper, src: dyb1966, page: 185}
@@ -428,7 +485,11 @@ cities:
   as: Tzekung (Tzu-kung)
   rows:
   - {date: '1953-06-30', kind: C, pop: 291300, of: city proper, src: dyb1966, page: 185}
-- place: zibo
+- id: zibo
+  name: Zibo
+  lat: 36.7831
+  lon: 118.0497
+  q: Q198370
   as: Tzepo (Tzu-po)
   rows:
   - {date: '1957-12-31', kind: E, pop: 806000, of: city proper, src: dyb1966, page: 185, note: 'The 1970 Yearbook, p. 447, in italics.'}
@@ -438,7 +499,11 @@ cities:
   rows:
   - {date: '1957-12-31', kind: E, pop: 275000, of: city proper, src: dyb1966, page: 185, note: 'The 1970 Yearbook, p. 447, in italics.'}
   - {date: '1953-06-30', kind: C, pop: 140700, of: city proper, src: dyb1970, page: 447}
-- place: weifang
+- id: weifang
+  name: Weifang
+  lat: 36.7167
+  lon: 119.1
+  q: Q217698
   as: Weifang
   rows:
   - {date: '1953-06-30', kind: C, pop: 148900, of: city proper, src: dyb1966, page: 185}
@@ -446,7 +511,11 @@ cities:
   as: Wenchow
   rows:
   - {date: '1953-06-30', kind: C, pop: 201600, of: city proper, src: dyb1966, page: 185}
-- place: wuzhou
+- id: wuzhou
+  name: Wuzhou
+  lat: 23.4833
+  lon: 111.3167
+  q: Q571652
   as: Wuchow
   rows:
   - {date: '1953-06-30', kind: C, pop: 110800, of: city proper, src: dyb1966, page: 185}
@@ -464,19 +533,35 @@ cities:
   rows:
   - {date: '1957-12-31', kind: E, pop: 613000, of: city proper, src: dyb1966, page: 185, note: 'The 1970 Yearbook, p. 447, in italics.'}
   - {date: '1953-06-30', kind: C, pop: 581500, of: city proper, src: dyb1970, page: 447}
-- place: wutongqiao
+- id: wutongqiao
+  name: Wutongqiao
+  lat: 29.4068
+  lon: 103.8151
+  q: Q1199645
   as: Wutungkiao
   rows:
   - {date: '1953-06-30', kind: C, pop: 199100, of: city proper, src: dyb1966, page: 185}
-- place: yangzhou
+- id: yangzhou
+  name: Yangzhou
+  lat: 32.3912
+  lon: 119.4363
+  q: Q57906
   as: Yangchow
   rows:
   - {date: '1953-06-30', kind: C, pop: 180200, of: city proper, src: dyb1966, page: 185}
-- place: yangquan
+- id: yangquan
+  name: Yangquan
+  lat: 37.8576
+  lon: 113.5762
+  q: Q72907
   as: Yangchüan
   rows:
   - {date: '1953-06-30', kind: C, pop: 177400, of: city proper, src: dyb1966, page: 185}
-- place: yantai
+- id: yantai
+  name: Yantai
+  lat: 37.4644
+  lon: 121.4478
+  q: Q210493
   as: Yentai (Chefoo)
   rows:
   - {date: '1953-06-30', kind: C, pop: 116000, of: city proper, src: dyb1966, page: 185}
@@ -490,63 +575,107 @@ cities:
   - {date: '1965-12-31', kind: E, pop: 1135500, of: city proper, src: dyb1966, page: 186}
   - {date: '1956-09-16', kind: C, pop: 737029, of: city proper, src: dyb1970, page: 447}
   - {date: '1969-12-31', kind: E, pop: 1712108, of: city proper, src: dyb1970, page: 447, note: Including 6 townships incorporated in July 1968 (n. 204).}
-- place: kaohsiung
+- id: kaohsiung
+  name: Kaohsiung
+  lat: 22.615
+  lon: 120.2975
+  q: Q181557
   as: Kaohsiung
   rows:
   - {date: '1965-12-31', kind: E, pop: 596092, of: city proper, src: dyb1966, page: 186}
   - {date: '1956-09-16', kind: C, pop: 365159, of: city proper, src: dyb1970, page: 447}
   - {date: '1969-12-31', kind: E, pop: 784502, of: city proper, src: dyb1970, page: 447}
-- place: tainan
+- id: tainan
+  name: Tainan
+  lat: 22.99
+  lon: 120.185
+  q: Q140631
   as: Tainan
   rows:
   - {date: '1965-12-31', kind: E, pop: 369820, of: city proper, src: dyb1966, page: 186}
   - {date: '1956-09-16', kind: C, pop: 284200, of: city proper, src: dyb1970, page: 447}
   - {date: '1969-12-31', kind: E, pop: 461838, of: city proper, src: dyb1970, page: 447}
-- place: taichung
+- id: taichung
+  name: Taichung
+  lat: 24.1439
+  lon: 120.6794
+  q: Q245023
   as: Taichung
   rows:
   - {date: '1965-12-31', kind: E, pop: 364262, of: city proper, src: dyb1966, page: 186}
   - {date: '1956-09-16', kind: C, pop: 247088, of: city proper, src: dyb1970, page: 447}
   - {date: '1969-12-31', kind: E, pop: 428426, of: city proper, src: dyb1970, page: 447}
-- place: keelung
+- id: keelung
+  name: Keelung
+  lat: 25.1283
+  lon: 121.7419
+  q: Q249996
   as: Keelung
   rows:
   - {date: '1965-12-31', kind: E, pop: 278320, of: city proper, src: dyb1966, page: 186}
   - {date: '1956-09-16', kind: C, pop: 194006, of: city proper, src: dyb1970, page: 447}
   - {date: '1969-12-31', kind: E, pop: 317780, of: city proper, src: dyb1970, page: 447}
-- place: chiayi
+- id: chiayi
+  name: Chiayi
+  lat: 23.48
+  lon: 120.4497
+  q: Q249995
   as: Chiayi
   rows:
   - {date: '1965-07-01', kind: E, pop: 203431, of: city proper, src: dyb1966, page: 186}
   - {date: '1956-09-16', kind: C, pop: 151852, of: city proper, src: dyb1970, page: 447}
   - {date: '1969-12-31', kind: E, pop: 234359, of: city proper, src: dyb1970, page: 447}
-- place: hsinchu
+- id: hsinchu
+  name: Hsinchu
+  lat: 24.8047
+  lon: 120.9714
+  q: Q249994
   as: Hsinchu
   rows:
   - {date: '1965-07-01', kind: E, pop: 174442, of: city proper, src: dyb1966, page: 186}
   - {date: '1956-09-16', kind: C, pop: 127753, of: city proper, src: dyb1970, page: 447}
   - {date: '1969-12-31', kind: E, pop: 201678, of: city proper, src: dyb1970, page: 447}
-- place: sanchung
+- id: sanchung
+  name: Sanchung
+  lat: 25.0667
+  lon: 121.4833
+  q: Q570267
   as: Shanchung
   rows:
   - {date: '1965-07-01', kind: E, pop: 152158, of: city proper, src: dyb1966, page: 186}
   - {date: '1969-12-31', kind: E, pop: 221400, of: city proper, src: dyb1970, page: 447}
-- place: pingtung
+- id: pingtung
+  name: Pingtung
+  lat: 22.6761
+  lon: 120.4942
+  q: Q713377
   as: Pingtung
   rows:
   - {date: '1965-07-01', kind: E, pop: 141531, of: city proper, src: dyb1966, page: 186}
   - {date: '1956-09-16', kind: C, pop: 102852, of: city proper, src: dyb1970, page: 447}
   - {date: '1969-12-31', kind: E, pop: 161590, of: city proper, src: dyb1970, page: 447}
-- place: changhua
+- id: changhua
+  name: Changhua
+  lat: 24.0667
+  lon: 120.5333
+  q: Q195215
   as: Chenghwa
   rows:
   - {date: '1965-07-01', kind: E, pop: 115635, of: city proper, src: dyb1966, page: 186}
   - {date: '1969-12-31', kind: E, pop: 133514, of: city proper, src: dyb1970, page: 447}
-- place: chungli
+- id: chungli
+  name: Chungli
+  lat: 24.9569
+  lon: 121.2236
+  q: Q172146
   as: Chungli
   rows:
   - {date: '1969-12-31', kind: E, pop: 124522, of: city proper, src: dyb1970, page: 447}
-- place: panchiao
+- id: panchiao
+  name: Panchiao
+  lat: 25.0111
+  lon: 121.4458
+  q: Q570090
   as: Panchiao
   rows:
   - {date: '1969-12-31', kind: E, pop: 101039, of: city proper, src: dyb1970, page: 447}
@@ -555,7 +684,11 @@ cities:
   rows:
   - {date: '1961-03-07', kind: C, pop: 633138, of: city proper, src: dyb1966, page: 186}
   - {date: '1961-03-07', kind: C, pop: 674962, of: urban agglomeration, src: dyb1966, page: 186}
-- place: macau
+- id: macau
+  name: Macau
+  lat: 22.19
+  lon: 113.5381
+  q: Q14773
   as: Macau
   rows:
   - {date: '1960-12-15', kind: C, pop: 161252, of: city proper, src: dyb1966, page: 189, note: Comprises the área marítima and the concelho of Macau (n. 124).}

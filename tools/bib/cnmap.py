@@ -76,8 +76,8 @@ CREDIT = {
     "counties": "Counties: as of 1964, from later lines (geoBoundaries, China ADM2, PDDL; "
                 '<a href="http://www.xzqh.org">行政区划网</a>\'s lists)',
     **{k: v for k, v in vnmap.CREDIT.items() if k != "admin"},
-    "rivers": "Rivers: HydroSHEDS v1 © World Wildlife Fund, Inc. (2006–2022), used under license; the deltas' "
-              "channels and their names from SWORD v17c (CC BY 4.0)",
+    "rivers": "Rivers: HydroSHEDS v1 © World Wildlife Fund, Inc. (2006–2022), used under license; their names from "
+              "SWORD v17c (CC BY 4.0)",
 }
 # what the layers' legend says of this map's own data (vnmap.WORDS, vnmap.layer_key)
 WORDS = {"relief": "30″, about 900 m", "contours": "500 m (dashed), 1,000, 2,000, 3,000, 4,000 and 5,000 m",
@@ -190,9 +190,8 @@ def _places(counts):
 
 
 def _cities():
-    """sources/china/cities.yaml as points (vnmap.cities): a city at its gazetteer place's point. Every city of the
-    file is a place of the gazetteer (the owner, Nov. 25, 2026: "Add the cities to the gazetteer"); a city with a
-    point of its own (`id`, `name`, `lat`, `lon`, `q`), as vnmap.city_problems still allows, would stand at it."""
+    """sources/china/cities.yaml as points (vnmap.cities): a city at its gazetteer place's point, or, where the
+    gazetteer has no such place, at the point the file gives it (Wikidata's, with its item)."""
     G = gazetteer()
 
     def point(c):

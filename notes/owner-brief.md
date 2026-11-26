@@ -1482,7 +1482,3 @@ Default each calendar page to its range. Could we have a span filter, with two t
 
 (Nov. 25, about 10:10 p.m. PT) "Which of the SEA map overlays can we also use on our China map? Bring them over." (Answered: all of them, since each is made from a source that covers the world or Asia: relief, elevation, contours, rivers and lakes, climate, rain by month, population, cities. `notes/briefs/maps-3-overlays.md`, an agent at work.)
 
-(Nov. 25, about 11:15 p.m. PT, on the China map's relief, which its builder had stopped one zoom level short to keep the file at 8.6 MB) "Make the relief sharp!" (An agent is remaking the relief's tiles a level deeper; ruling 57, "The overlays".)
-
-(Nov. 25, about 11:20 p.m. PT, on the overlays' questions) "Add the cities to the gazetteer. I can't identify Malibo either. Mend Lake Baikal. Draw the river deltas. Don't tint by regional bureaus or military region." (Ruling 57, "The overlays", amended; the Baikal mend passed to the agent remaking the relief; `notes/briefs/maps-4-deltas-cities.md`, an agent at work.)
-

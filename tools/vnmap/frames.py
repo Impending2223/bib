@@ -5,7 +5,7 @@ source a layer for both maps; a frame differs from the other by its numbers alon
 
 A script takes the frame's name as an argument of its own ("china"); with none it makes Indochina's files, as before:
 
-    python3 -I tools/vnmap/terrain.py ETOPO_DIR china HydroLAKES_polys_v10.shp
+    python3 -I tools/vnmap/terrain.py ETOPO_DIR china
     python3 -I tools/vnmap/climate.py KOPPEN_TIF LEGEND_TXT china
     python3 -I tools/vnmap/population.py ISIMIP_NC china
     python3 -I tools/vnmap/layers.py DL sources/china china hydro lakes climate
@@ -22,9 +22,6 @@ Each frame:
              hosts refused on Oct. 22, 2026 (sources/indochina/README.md); China's is the map's bounds, cnmap.BOUNDS.
   etopo      the elevation model's files in ETOPO_DIR, and the grid's step in arc-seconds
   dem_maxz   the elevation tiles' deepest zoom (512 px)
-  lake_fill  the lakes whose floor the model holds raised to their surface (terrain.py, fill_lakes): (the least lake,
-             km2; how far under HydroLAKES's surface height the middle one of the model's cells under the lake must
-             lie, metres). None: no lake is raised
   mean       the contours' and the depths' grid: the mean of mean x mean cells of the model
   depth_tol, contour_tol, contour_min   simplifying, degrees; the shortest contour run kept, degrees
   levels     the contours, metres
@@ -35,10 +32,7 @@ Each frame:
              simplifying, degrees, and the decimals kept
   rain_cells the rain's grid: rain_cells x rain_cells of CRU's 10' cells, their mean
   sword      SWORD's Pfafstetter basins read for the rivers' names (and, in a delta, their channels)
-  delta      the ring inside which the rivers are SWORD's channels, not HydroRIVERS's; or {name: ring}, several
-             deltas, each its own ring (None: no such ring). delta_min: the narrowest channel drawn there, metres
-             (0: every reach SWORD has). delta_to_sea: the rivers whose name is carried through a delta to the sea, by
-             the widest branch at each split
+  delta      the ring inside which the rivers are SWORD's channels, not HydroRIVERS's (None: no such ring)
   river_min  the least long-term mean discharge drawn, m3/s; river_read: segments under it are not read at all
              (None: all are, and a named one is drawn whatever its size)
   river_tol  simplifying, degrees; river_coarse: a second, coarser file written too (Indochina's, deleted since)
@@ -68,7 +62,7 @@ FRAMES = {
         "out": "sources/indochina", "name": "Indochina",
         "frame": (97.5, 5.5, 113.0, 26.0), "extent": (100.0, 8.0, 110.5, 23.5),
         "etopo": ("N15E090.nc", "N15E105.nc", "N30E090.nc", "N30E105.nc"), "etopo_sec": 15,
-        "dem_maxz": 8, "lake_fill": None, "mean": 4, "depth_tol": 0.01, "contour_tol": 0.003, "contour_min": 0.03,
+        "dem_maxz": 8, "mean": 4, "depth_tol": 0.01, "contour_tol": 0.003, "contour_min": 0.03,
         "levels": [500, 1000, 1500, 2000], "bands": None,
         "koppen_maxz": 7,
         "pop_cells": 1, "pop_tol": 0.004, "pop_prec": 3,
@@ -77,7 +71,6 @@ FRAMES = {
         # The Mekong delta and the Saigon lowlands (layers.py, hydro)
         "delta": [(104.70, 11.80), (105.95, 11.80), (106.45, 11.20), (106.60, 10.86), (106.95, 10.80), (107.15, 10.40),
                   (107.15, 8.40), (104.70, 8.40)],
-        "delta_min": 0, "delta_to_sea": ("Mekong River", "Bassac"),
         "river_min": 10, "river_read": None, "river_tol": 0.002, "river_coarse": True,
         "lake_min": 1.0, "lake_tol": 0.001,
     },
@@ -85,54 +78,16 @@ FRAMES = {
         "out": "sources/china", "name": "China",
         "frame": (66.0, 10.0, 142.0, 58.0), "extent": (67.0, 11.0, 141.0, 57.0),
         "etopo": ('NETCDF:"{}/ETOPO_2022_v1_30s_N90W180_surface.nc":z',), "etopo_sec": 30,
-        # zoom 6 (the owner, Nov. 25, 2026: "Make the relief sharp!"): about 1.1 km a pixel at 30 N, the 30" grid's
-        # ~930 m; lakes of 10 km2 and over that lie 50 m and more under their surface in the model ("Mend Lake Baikal.")
-        "dem_maxz": 6, "lake_fill": (10.0, 50.0),
-        "mean": 4, "depth_tol": 0.04, "contour_tol": 0.012, "contour_min": 0.12,
+        "dem_maxz": 5, "mean": 4, "depth_tol": 0.04, "contour_tol": 0.012, "contour_min": 0.12,
         "levels": [500, 1000, 2000, 3000, 4000, 5000], "bands": LAND_CN,
         "koppen_maxz": 6,
         "pop_cells": 3, "pop_tol": 0.012, "pop_prec": 2,
         "rain_cells": 3,
         "sword": (31, 32, 33, 34, 35, 36, 41, 42, 43, 44, 45, 46, 47, 48, 49),
-        # The deltas (the owner, Nov. 25, 2026: "Draw the river deltas"): inside each ring SWORD's channels of
-        # delta_min metres and wider, as in the Mekong's on the maps of Indochina (layers.py, hydro). Each ring is
-        # drawn by hand so that it crosses a river where HydroRIVERS's line and SWORD's lie together.
-        "delta": {
-            # the Pearl River's: from the Xi above Sanshui, the Bei, the Liuxi and the Dong at Shilong to the sea
-            "pearl": [(112.70, 23.47), (113.10, 23.47), (113.33, 23.25), (113.45, 23.20), (113.93, 23.20),
-                      (113.93, 22.98), (113.72, 22.85), (113.72, 22.00), (112.95, 22.00), (112.95, 22.62),
-                      (112.80, 22.75), (112.72, 23.00)],
-            # the Han's and the Rong's, at Shantou: from Chaozhou and Jieyang to the sea
-            "han": [(116.50, 23.72), (116.95, 23.72), (116.95, 23.20), (116.45, 23.20), (116.45, 23.50)],
-            # the Yangtze's: from Zhenjiang to the sea, with Chongming's two channels and the Huangpu's mouth
-            "yangtze": [(119.62, 32.42), (120.02, 32.42), (120.25, 32.12), (120.85, 32.20), (121.25, 32.00),
-                        (122.05, 31.75), (122.05, 31.15), (121.80, 31.12), (121.62, 31.32), (121.45, 31.36),
-                        (121.30, 31.53), (120.95, 31.70), (120.60, 31.88), (120.25, 31.85), (119.90, 31.98),
-                        (119.62, 32.10)],
-            # the Yellow River's: from Lijin to today's mouth (one channel in SWORD too)
-            "yellow": [(118.30, 37.45), (118.30, 37.72), (118.75, 37.90), (119.40, 37.90), (119.40, 37.62),
-                       (118.75, 37.58)],
-            # the Red River's and the Thai Binh's: from above Hanoi to the sea, the Day on the west
-            "red": [(105.80, 21.22), (106.50, 21.22), (106.95, 21.05), (106.95, 20.55), (106.70, 20.10),
-                    (106.30, 19.85), (105.95, 19.85), (105.85, 20.20), (105.72, 20.60), (105.72, 21.00)],
-            # the Irrawaddy's: from above Henzada to the sea, Bassein on the west, Rangoon and Pegu on the east
-            "irrawaddy": [(94.95, 17.95), (95.80, 17.95), (96.00, 17.20), (96.60, 17.20), (96.60, 16.30),
-                          (96.10, 15.60), (94.20, 15.60), (94.20, 16.60), (94.55, 17.10), (94.95, 17.60)],
-            # the Ganges's, the Brahmaputra's and the Meghna's: from the Hooghly above Calcutta and the Ganges above
-            # the Gorai to the Meghna's mouth
-            "ganges": [(87.80, 22.90), (88.25, 22.90), (88.95, 24.02), (89.95, 24.02), (89.92, 23.86),
-                       (90.20, 23.62), (90.52, 23.42), (90.80, 23.42), (91.00, 23.05), (91.60, 22.90),
-                       (91.70, 22.45), (91.70, 21.55), (87.80, 21.55)],
-        },
-        "delta_min": 50,
-        "delta_to_sea": ("Yangtze", "Yellow River", "Xi River", "Han River", "Red River", "Irrawaddy River", "Ganges"),
+        "delta": None,
         "river_min": 30, "river_read": 30, "river_tol": 0.008, "river_coarse": False,
         "to_sea": ("Yangtze", "Yellow River", "Amur"),
-        "same": {"Chang Jiang": "Yangtze", "Salween": "Salween River", "Salween - Nujiang": "Salween River",
-                 "Ayeyarwady River": "Irrawaddy River", "Pathein River": "Bassein River",
-                 # SWORD's name for the Yangtze's south branch, from Chongming's head to the sea (16 reaches, each
-                 # 900 m wide and over). Check
-                 "Hengli River": "Yangtze"},
+        "same": {"Chang Jiang": "Yangtze", "Salween": "Salween River", "Salween - Nujiang": "Salween River"},
         "lake_min": 10.0, "lake_tol": 0.004,
     },
 }

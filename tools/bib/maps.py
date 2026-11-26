@@ -32,8 +32,7 @@ STYLE
     and listed in the page's contents; the fields open on the page's range (calsplit.part_range). Indochina's above
     China's where both fall on one day; both above the day's Southeast Asia table. In the reader, a part's block as
     its page.
- 4. On a thread's page (threads STYLE 5): the map at the head, under the statement, the thread's subthreads (threads
-    STYLE 9) and the parts' bar, for a thread
+ 4. On a thread's page (threads STYLE 5): the map at the head, under the statement and the parts' bar, for a thread
     whose line of parents holds one of the map's roots (ROOTS: `china`; `vietnam`, `laos`, `cambodia`,
     `southeast-asia`), by the line, not by a list of names; the thread's own entries alone (those the page lists:
     its `thread` or its `also`), the fields on the page's range (a part's dates; the calendar's whole span for a page
