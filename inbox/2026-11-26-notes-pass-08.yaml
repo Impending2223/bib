@@ -1,5 +1,5 @@
 patch: 2026-11-26-notes-pass-08
-by: reader (notes pass 08)
+by: 'reader (notes pass 08); audited Nov. 26, 2026 (Opus): notes/notes-pass/audit-08.md'
 ops:
 - add-words:
     id: cal.1966-08-12.china-leadership
@@ -17,14 +17,26 @@ ops:
     - Peng Zhen
     - Luo Ruiqing
     - Lu Dingyi
+    - Yang Shangkun
     - Li Xiannian
     - Jiang Qing
     tags:
     - name:peng-zhen
     - name:luo-ruiqing
     - name:lu-dingyi
+    - name:yang-shangkun
     - name:li-xiannian
     - name:jiang-qing
+- edit:
+    id: cal.1966-08-13.china-leadership
+    base: 710e8c30
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 13, 1966. [[w.zhou-enlai-nianpu-1949-2020]], III, 48 (Aug. 13, 1966; Zhou at the Central Work Conference under Lin Biao, who calls for a few months of uproar, a purge of "ghosts and monsters", and removals and promotions); [[w.macfarquhar-maos-last-revolution]], 98 (the day after the plenum closes, Lin Biao makes personal observations at a work conference); [[w.deng-xiaoping-nianpu-1904]], III, 1930 (Aug. 13–23, 1966; Deng at the Central Work Conference Lin Biao presides over to carry out the spirit of the Eleventh Plenum; the conference goes on criticizing Liu Shaoqi, and Deng too is criticized; after it Deng hands the work of the Central Investigation Department, which he oversaw, and other work to Kang Sheng); [[w.zhu-de-nianpu-xinbian]], III, 1956 (Aug. 13, 1966; Zhu De 朱德 at the Central Work Conference 中共中央工作会议 Lin Biao 林彪 presides over); [[w.pu-weihua-zalan-jiu-shijie]], 201 (Aug. 13 to 17, so printed (Bu has Mao speak at the conference on Aug. 23, 219 n.53); to carry out the plenum; Mao talks with some to bring them round). The time is the first day''s, Ye Jianying''s morning (上午, [[w.liu-jixian-ye-jianying-nianpu]], II, 942). Made public: [[w.macfarquhar-maos-last-revolution]], 98 (2006). Circulated in China: [[w.gaoju-mao-zedong-sixiang]], 34 (a Red Guard compilation of leaders'' speeches, 1967; cited by [[w.macfarquhar-maos-last-revolution]], 98 n.62). To check: [[w.gaoju-mao-zedong-sixiang]], 34 (cited by [[w.macfarquhar-maos-last-revolution]], 98 n.62).'
+      time_range:
+      - 1966-08-12T22:00Z
+      - 1966-08-13T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
 - add-words:
     id: cal.1966-08-13.china-leadership
     after: end
@@ -40,16 +52,30 @@ ops:
     after: end
     words: The conference goes on criticizing Liu Shaoqi; Deng Xiaoping is criticized too.
     item: '[[w.deng-xiaoping-nianpu-1904]], III, 1930'
+- add-words:
+    id: cal.1966-08-13.china-leadership
+    after: end
+    words: Zhu De attends.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1956'
+- add-words:
+    id: cal.1966-08-13.china-leadership
+    after: end
+    words: Ye Jianying attends, in the morning.
+    item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 942'
 - names:
     id: cal.1966-08-13.china-leadership
     add:
     - Lin Biao
     - Liu Shaoqi
     - Deng Xiaoping
+    - Zhu De
+    - Ye Jianying
     tags:
     - name:lin-biao
     - name:liu-shaoqi
     - name:deng-xiaoping
+    - name:zhu-de
+    - name:ye-jianying
 - add-words:
     id: cal.1966-08-18.china-leadership-4
     after: end
@@ -58,7 +84,7 @@ ops:
 - add-words:
     id: cal.1966-08-18.china-leadership-4
     after: end
-    words: The order fails; Mao, hemmed in, shakes hands without pause, and by Wang Dongxing's account his hand is so swollen that for days he cannot write. Yang has him receive over 3,000 Red Guards on the rostrum.
+    words: Order breaks down; Mao, hemmed in, shakes hands without pause, and by Wang Dongxing's account his hand is so swollen that for days he cannot write. Yang has him receive over 3,000 Red Guards on the rostrum.
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 241'
 - names:
     id: cal.1966-08-18.china-leadership-4
@@ -71,16 +97,14 @@ ops:
 - add-words:
     id: cal.1966-08-19.jobs-and-wages-airlines
     after: end
-    words: Ackley puts the settlement at 4.9 percent, against the 3.2 percent guidepost. The machinists' president, Siemiller, says it "destroy[ed] all existing wage and price guidelines."
+    words: Ackley puts the settlement at 4.9 percent, against the 3.2 percent guideposts.
     item: '[[w.califano-triumph-and-tragedy-of]], 146'
 - names:
     id: cal.1966-08-19.jobs-and-wages-airlines
     add:
     - Ackley
-    - Siemiller
     tags:
     - name:ackley-gardner
-    - name:siemiller-p-l
 - add-words:
     id: cal.1966-08-31.europe-and-the-alliance
     after: end
@@ -91,11 +115,21 @@ ops:
     add: []
     tags:
     - ok:note-substance
+- edit:
+    id: cal.1966-09-02.economy-investment-credit
+    base: fbaf206e
+    set:
+      place: washington
 - add-words:
     id: cal.1966-09-02.economy-investment-credit
     after: end
     words: The Friday before Labor Day, in Califano's office, Ackley, Katzenbach, Schultze, O'Brien, Ginsburg, Fowler and McNamara each initial it.
     item: '[[w.califano-triumph-and-tragedy-of]], 148'
+- add-words:
+    id: cal.1966-09-02.economy-investment-credit
+    after: end
+    words: By Dallek, they ask $1.5 billion more cut now, $2 billion later if need be, and the 7 percent credit suspended.
+    item: '[[w.dallek-flawed-giant]], 310'
 - names:
     id: cal.1966-09-02.economy-investment-credit
     add:
@@ -103,6 +137,7 @@ ops:
     - Ackley
     - Katzenbach
     - Schultze
+    - O'Brien
     - Ginsburg
     - Fowler
     - McNamara
@@ -111,6 +146,7 @@ ops:
     - name:ackley-gardner
     - name:katzenbach-nicholas
     - name:schultze-charles-l
+    - name:obrien-lawrence-f
     - name:ginsburg-david
     - name:fowler-henry-h
     - name:mcnamara-robert-s
@@ -119,48 +155,201 @@ ops:
     after: end
     words: Jiang Qing is master of ceremonies.
     item: '[[w.macfarquhar-maos-last-revolution]], 108'
+- add-words:
+    id: cal.1966-08-31.china-leadership-2
+    after: end
+    words: 'Lin Biao and Zhou Enlai speak: Lin, firm support for the Red Guards against repression; Zhou, learn from the army, argue with words, not force.'
+    item: '[[w.zhou-enlai-nianpu-1949-2020]], III, 53'
+- add-words:
+    id: cal.1966-08-31.china-leadership-2
+    after: end
+    words: Ye Jianying is with Mao.
+    item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 943'
+- add-words:
+    id: cal.1966-08-31.china-leadership-2
+    after: end
+    words: Zhu De attends.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1957'
+- add-words:
+    id: cal.1966-08-31.china-leadership-2
+    after: end
+    words: Chen Yun attends.
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 156'
+- add-words:
+    id: cal.1966-08-31.china-leadership-2
+    after: end
+    words: Deng Xiaoping attends.
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1931'
 - names:
     id: cal.1966-08-31.china-leadership-2
     add:
     - Jiang Qing
+    - Lin Biao
+    - Zhou Enlai
+    - Ye Jianying
+    - Zhu De
+    - Chen Yun
+    - Deng Xiaoping
     tags:
     - name:jiang-qing
+    - name:lin-biao
+    - name:zhou-enlai
+    - name:ye-jianying
+    - name:zhu-de
+    - name:chen-yun
+    - name:deng-xiaoping
 - add-words:
     id: cal.1966-09-15.china-leadership
     after: end
-    words: Kang Sheng takes over from Jiang Qing as master of ceremonies.
+    words: Kang Sheng takes over from Jiang Qing as master of ceremonies; the rally lasts four hours.
     item: '[[w.macfarquhar-maos-last-revolution]], 108'
+- add-words:
+    id: cal.1966-09-15.china-leadership
+    after: end
+    words: 'Zhou: workers, commune members, technicians and cadres to keep their posts; students and Red Guards not to link up in factories, enterprises, offices below the county or the communes; factories and villages not to stop work to make revolution.'
+    item: '[[w.zhou-enlai-nianpu-1949-2020]], III, 63'
+- add-words:
+    id: cal.1966-09-15.china-leadership
+    after: end
+    words: Chen Yi is with Mao.
+    item: '[[w.chen-yi-nianpu]], 1165'
+- add-words:
+    id: cal.1966-09-15.china-leadership
+    after: end
+    words: Ye Jianying is with Mao.
+    item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 944'
+- add-words:
+    id: cal.1966-09-15.china-leadership
+    after: end
+    words: Zhu De attends.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1957'
+- add-words:
+    id: cal.1966-09-15.china-leadership
+    after: end
+    words: Deng Xiaoping attends.
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1931'
 - names:
     id: cal.1966-09-15.china-leadership
     add:
     - Kang Sheng
     - Jiang Qing
+    - Chen Yi
+    - Ye Jianying
+    - Zhu De
+    - Deng Xiaoping
     tags:
     - name:kang-sheng
     - name:jiang-qing
+    - name:chen-yi
+    - name:ye-jianying
+    - name:zhu-de
+    - name:deng-xiaoping
 - add-words:
     id: cal.1966-10-01.china-leadership
     after: end
     words: The papers count "friends from some seventy countries" among the crowd.
     item: '[[w.macfarquhar-maos-last-revolution]], 109'
 - add-words:
+    id: cal.1966-10-01.china-leadership
+    after: end
+    words: 'Lin Biao: the struggle between the proletarian revolutionary line Mao represents and the bourgeois line goes on; those who hold to the wrong line are a handful and must fail.'
+    item: '[[w.mao-zedong-zhuan]], VI, ch. 75'
+- add-words:
+    id: cal.1966-10-01.china-leadership
+    after: end
+    words: Chen Yi, with Lin Biao and Zhou Enlai, is beside Mao for the review.
+    item: '[[w.chen-yi-nianpu]], 1167'
+- add-words:
+    id: cal.1966-10-01.china-leadership
+    after: end
+    words: Ye Jianying reviews the march with Mao from the gate tower.
+    item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 945'
+- add-words:
+    id: cal.1966-10-01.china-leadership
+    after: end
+    words: Zhu De attends.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1957'
+- add-words:
+    id: cal.1966-10-01.china-leadership
+    after: end
+    words: Chen Yun attends.
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 157'
+- add-words:
+    id: cal.1966-10-01.china-leadership
+    after: end
+    words: Deng Xiaoping attends.
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1932'
+- names:
+    id: cal.1966-10-01.china-leadership
+    add:
+    - Lin Biao
+    - Zhou Enlai
+    - Chen Yi
+    - Ye Jianying
+    - Zhu De
+    - Chen Yun
+    - Deng Xiaoping
+    tags:
+    - name:lin-biao
+    - name:zhou-enlai
+    - name:chen-yi
+    - name:ye-jianying
+    - name:zhu-de
+    - name:chen-yun
+    - name:deng-xiaoping
+- add-words:
     id: cal.1966-11-25.china-leadership-2
     after: end
     words: In November more than 200,000 a day reach Peking by train, 290,000 on peak days by Zhou Enlai's count.
     item: '[[w.macfarquhar-maos-last-revolution]], 109–110'
+- add-words:
+    id: cal.1966-11-25.china-leadership-2
+    after: end
+    words: By Yang, 650,000 on Nov. 25, Mao standing four hours in the cold, and the last 1,850,000 on the 26th, from his car at the Diaoyutai and the western airfield; at the dispersal a small bridge gives way and several are trampled to death.
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 242'
+- add-words:
+    id: cal.1966-11-25.china-leadership-2
+    after: end
+    words: Lin Biao, Zhou Enlai and Chen Yi are with him on the tower.
+    item: '[[w.chen-yi-nianpu]], 1175–1176'
+- add-words:
+    id: cal.1966-11-25.china-leadership-2
+    after: end
+    words: Ye Jianying is with Mao.
+    item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 950'
+- add-words:
+    id: cal.1966-11-25.china-leadership-2
+    after: end
+    words: Zhu De attends.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1958'
+- add-words:
+    id: cal.1966-11-25.china-leadership-2
+    after: end
+    words: Deng Xiaoping attends.
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1934'
 - names:
     id: cal.1966-11-25.china-leadership-2
     add:
     - Zhou Enlai
+    - Lin Biao
+    - Chen Yi
+    - Ye Jianying
+    - Zhu De
+    - Deng Xiaoping
     tags:
     - name:zhou-enlai
+    - name:lin-biao
+    - name:chen-yi
+    - name:ye-jianying
+    - name:zhu-de
+    - name:deng-xiaoping
 - check:
     id: cal.1966-11-25.china-leadership-2
     text: 'Check: MacFarquhar (110) and Yang (I, 242) count some 12 million Red Guards in all from the eight receptions, and the Liu Shaoqi nianpu over 11,000,000.'
 - add-words:
     id: cal.1966-12-26.china-leadership
     after: end
-    words: At table he toasts "the unfolding of nationwide all-round civil war!" Zhou Enlai, Tao Zhu, Lin Biao and Kang Sheng are not invited.
+    words: By MacFarquhar's account he toasts "the unfolding of nationwide all-round civil war!" Zhou Enlai, Tao Zhu, Lin Biao and Kang Sheng are not invited.
     item: '[[w.macfarquhar-maos-last-revolution]], 155'
 - names:
     id: cal.1966-12-26.china-leadership
@@ -183,7 +372,7 @@ ops:
     id: cal.1967-01-08.china-leadership
     after: end
     words: 'By MacFarquhar''s account he says: "You don''t necessarily need ministries to make revolution."'
-    item: '[[w.macfarquhar-maos-last-revolution]], 157, 161'
+    item: '[[w.macfarquhar-maos-last-revolution]], 157'
 - names:
     id: cal.1967-01-08.china-leadership
     add:
@@ -196,32 +385,40 @@ ops:
     id: cal.1967-01-13.china-leadership-3
     after: end
     words: By Yang's account Mao has asked for "a few rules" and Zhou presides over the meeting.
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 593–594'
+    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 593'
+- add-words:
+    id: cal.1967-01-13.china-leadership-3
+    after: end
+    words: Ye Jianying attends.
+    item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 955'
 - names:
     id: cal.1967-01-13.china-leadership-3
-    add: []
+    add:
+    - Ye Jianying
     tags:
+    - name:ye-jianying
     - ok:note-substance
 - add-words:
     id: cal.1967-01-21.china-leadership
     after: end
-    words: The meeting, for Jan. 22–23, is of 150,000 to 200,000; the troops asked are 300 to 500, "if not sent, that is not supporting the cultural revolution."
-    item: '[[w.mao-zedong-zhuan]], VI, ch. 76 n.18'
+    words: 'The telegram: a meeting of 150,000 to 200,000 at Hefei on the 22nd and 23rd to denounce the Anhui committee''s leaders; 300 to 500 troops asked, "if not sent, that is not supporting the cultural revolution."'
+    item: '[[w.mao-zedong-zhuan]], VI, ch. 76'
+- check:
+    id: cal.1967-01-21.china-leadership
+    text: 'Check: Yang (I, 431) has the Anhui rebels, who had seized the power of Li Baohua, call a rally of ten thousand.'
 - add-words:
     id: cal.1967-01-24.china-leadership-3
     after: end
-    words: By Yang's account Lin Biao has Ye Jianying, Nie Rongzhen and Yang Chengwu come too, says the army cannot go on so, "very dangerous," and that a set of rules is needed, and dictates seven articles to his secretary; those present agree.
-    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 426'
+    words: Ye Jianying and Nie Rongzhen go to Lin at Maojiawan after him; Lin then dictates a draft order of nine articles.
+    item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 956–957'
 - names:
     id: cal.1967-01-24.china-leadership-3
     add:
     - Ye Jianying
     - Nie Rongzhen
-    - Yang Chengwu
     tags:
     - name:ye-jianying
     - name:nie-rongzhen
-    - name:yang-chengwu
 - check:
     id: cal.1967-01.china-leadership-27
     text: 'Check: Teiwes (53) puts the meeting with Jiang Qing at which Lin Biao shouts to Ye Qun "Get Jiang Qing out of here!" in early February 1967, and Wu Faxian, as Yang gives him (II, 731), in mid-February; this entry has it in January, after the 22nd.'
@@ -245,7 +442,7 @@ ops:
     id: cal.1967-02-16.china-leadership
     after: end
     words: 'Chen Yi: Stalin handed over to Khrushchev, who made revisionism; at Yan''an Liu Shaoqi, Deng Xiaoping and Peng Zhen were the keenest for Mao Zedong Thought, while Chen Yi and his like were struck.'
-    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 388–390'
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 389'
 - names:
     id: cal.1967-02-16.china-leadership
     add:
@@ -263,8 +460,8 @@ ops:
 - add-words:
     id: cal.1967-02-19.china-leadership
     after: end
-    words: 'Mao: let Chen Yi head the Group, Tan Zhenlin and Xu Xiangqian his deputies, and if the strength is not enough, bring back Wang Ming 王明 and Zhang Guotao 張國燾.'
-    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 391–392'
+    words: 'Mao, in anger: he and Lin Biao will go; Chen Boda and Jiang Qing to be shot, Kang Sheng exiled; let Chen Yi head the Group, Tan Zhenlin and Xu Xiangqian his deputies, and if the strength is not enough, bring back Wang Ming 王明 and Zhang Guotao 張國燾.'
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 391'
 - add-words:
     id: cal.1967-02-19.china-leadership
     after: end
@@ -275,39 +472,89 @@ ops:
     add:
     - Wang Ming
     - Zhang Guotao
-    - Lin Biao
+    - Chen Boda
     tags:
     - name:wang-ming
     - name:zhang-guotao
-    - name:lin-biao
+    - name:chen-boda
+- add-words:
+    id: cal.1967-01-10.program
+    after: end
+    words: Of the 1964 tax cut he asks back "slightly more than one-fourth" each year.
+    item: '[[w.zelizer-fierce-urgency-of-now]], 271'
+- names:
+    id: cal.1967-01-10.program
+    add: []
+    tags:
+    - ok:note-substance
+- add-words:
+    id: cal.1967-03-20.vietnam
+    after: end
+    words: 'Mar. 20–21: Johnson asks Westmoreland, "Are they bringing in as many as they''re losing?" Westmoreland: not yet; the crossover perhaps this month or next; the enemy''s order of battle 287,000 and leveling.'
+    item: '[[w.berman-lyndon-johnsons-war]], 32–33'
+- add-words:
+    id: cal.1967-03-20.vietnam
+    after: end
+    words: 'Westmoreland''s review: if the Viet Cong do not break up and the infiltration is not halted, the war could go on indefinitely. He asks that pacification be put under MACV, Komer his civilian deputy.'
+    item: '[[w.westmoreland-soldier-reports]], 214'
+- names:
+    id: cal.1967-03-20.vietnam
+    add: []
+    tags:
+    - ok:note-substance
+- follows:
+    id: cal.1967-03-20.vietnam
+    add:
+    - cal.1967-03-20.vietnam-guam
+    basis: '[[w.westmoreland-soldier-reports]], 213 ("the first order of business")'
+- edit:
+    id: cal.1967-07-15.china-leadership
+    base: b47ed6c3
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 166 (July 15–18, 1967); [[w.macfarquhar-maos-last-revolution]], 208–209 (on the afternoons of July 15 to 18 Zhou, with Xie Fuzhi and Wang Li, chairs meetings with some two dozen members of the Region''s Party committee; at the end rejects their explanations); [[w.yang-jisheng-tiandi-fanfu]], I, 524 (the afternoon of July 17 Zhou calls the Military Region''s leaders and the heads of the units supporting the left to Baihua No. 1; army cadres give the Workers'' Headquarters'' "ten great crimes" and the Million Heroes'' "ten great merits"; from the 17th to the 18th Zhou, Xie Fuzhi, Yu Lijin and Wang Li meet them again and again: "to admit error and write a self-criticism is to protect you"; Chen Zaidao still unconvinced; the views sharply opposed). The time is the first day''s, the afternoon (MacFarquhar, 208). Made public: 1989. To check: [[w.zaidao-haojie-zhongde-yi-mu]], 74–79 (cited by [[w.macfarquhar-maos-last-revolution]], 210 n.44a); [[w.shaoguang-failure-of-charisma]], 152–153 (cited by [[w.macfarquhar-maos-last-revolution]], 210 n.44d); Xu Hailiang 徐海亮, *7·20 shijian shilu* 《7·20事件實錄》 (Zhongguo wenhua chuanbo chubanshe, 2010) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 524 n.13a); *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 592–593 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 524 n.13b, n.14). Names: Zhou Enlai, Chen Zaidao, Zhong Hanhua, Mao Zedong.'
+      time_range:
+      - 1967-07-15T04:00Z
+      - 1967-07-15T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
 - add-words:
     id: cal.1967-07-15.china-leadership
     after: end
     words: Xie Fuzhi and Wang Li sit with him, the afternoons of July 15 to 18, with some two dozen members of the Region's Party committee.
-    item: '[[w.macfarquhar-maos-last-revolution]], 208–209'
+    item: '[[w.macfarquhar-maos-last-revolution]], 208'
+- add-words:
+    id: cal.1967-07-15.china-leadership
+    after: end
+    words: On the afternoon of the 17th, at Baihua No. 1, army cadres report the Workers' Headquarters' "ten great crimes" and the Million Heroes' "ten great merits"; Yu Lijin also sits with Zhou.
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 524'
 - names:
     id: cal.1967-07-15.china-leadership
     add:
     - Xie Fuzhi
     - Wang Li
+    - Yu Lijin
     tags:
     - name:xie-fuzhi
     - name:wang-li
+    - name:yu-lijin
 - add-words:
     id: cal.1967-07-18.china-leadership
     after: end
-    words: The meeting ends about ten o'clock; Zhou leaves for Peking at eleven.
+    words: The meeting ends about ten o'clock.
+    item: '[[w.macfarquhar-maos-last-revolution]], 209'
+- cite:
+    id: cal.1967-07-18.china-leadership-3
     item: '[[w.macfarquhar-maos-last-revolution]], 209'
 - add-words:
     id: cal.1967-07-21.china-leadership
     after: end
-    words: He goes by plane, escorted by air force fighters.
-    item: '[[w.macfarquhar-maos-last-revolution]], 211'
+    words: Liu Feng 劉豐, Yang Chengwu and Li Zuopeng ride with him to the airfield.
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 536'
 - add-words:
     id: cal.1967-07-21.china-leadership
     after: end
-    words: Liu Feng 劉豐, Yang Chengwu and Li Zuopeng go with him to the airfield.
-    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 536'
+    words: He flies escorted by air force fighters.
+    item: '[[w.macfarquhar-maos-last-revolution]], 211'
 - names:
     id: cal.1967-07-21.china-leadership
     add:
@@ -318,10 +565,13 @@ ops:
     - name:liu-feng
     - name:yang-chengwu
     - name:li-zuopeng
+- check:
+    id: cal.1967-07-21.china-leadership
+    text: 'Check: MacFarquhar (211) has Mao leave for Shanghai by plane at two in the morning, and Yang (I, 536) has him board at the airfield after about 2 a.m. and fly east; the line has the flight at 11 a.m.'
 - add-words:
     id: cal.1967-08-01.china-leadership
     after: end
-    words: Jiang Qing has not read it.
+    words: Nor has Jiang Qing read it beforehand.
     item: '[[w.macfarquhar-maos-last-revolution]], 231'
 - names:
     id: cal.1967-08-01.china-leadership
@@ -339,10 +589,12 @@ ops:
     add:
     - Kang Sheng
     - Li Fuchun
+    - Li Tianyou
     - Yao Wenyuan
     tags:
     - name:kang-sheng
     - name:li-fuchun
+    - name:li-tianyou
     - name:yao-wenyuan
 - add-words:
     id: cal.1966-11-03.cities-and-housing
@@ -360,41 +612,92 @@ ops:
 - add-words:
     id: cal.1966-11-04.elections-1966
     after: end
-    words: 'Beforehand he tells Califano he will give "Ol'' Nixon a little attention today"; seeing the wire copy afterward: "That ought to put him out front!"'
-    item: '[[w.califano-triumph-and-tragedy-of]], 291'
-- names:
+    words: 'Asked whether the canceled campaign trip means he will not help Democratic candidates: "when you don''t have plans, you don''t cancel plans."'
+    item: '[[w.califano-triumph-and-tragedy-of]], 152'
+- follows:
     id: cal.1966-11-04.elections-1966
     add:
-    - Califano
-    tags:
-    - name:califano-joseph-a-jr
+    - cal.1966-11-04.elections-1966-3
+    basis: '[[w.califano-triumph-and-tragedy-of]], 291 ("Before a press conference")'
+- add:
+    entry:
+      id: cal.1966-11-04.elections-1966-3
+      when: Nov. 4
+      date: '1966-11-04'
+      place: washington
+      thread: elections-1966
+      c: Before the news conference Johnson tells Califano he will give "Ol' Nixon a little attention today."
+      n: '[[w.califano-triumph-and-tragedy-of]], 291. See [[cal.1966-11-04.elections-1966]]. Names: Johnson, Califano, Nixon.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:califano-joseph-a-jr
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1966-11-04.elections-1966-4
+      when: Nov. 4
+      date: '1966-11-04'
+      place: washington
+      thread: elections-1966
+      follows:
+      - cal.1966-11-04.elections-1966
+      c: 'Back in his office, seeing the wire-service tickers lead with his "chronic campaigner," Johnson: "That ought to put him out front!"'
+      n: '[[w.califano-triumph-and-tragedy-of]], 291. The order: after [[cal.1966-11-04.elections-1966]], [[w.califano-triumph-and-tragedy-of]], 291 ("When Johnson returned to his office"). See [[cal.1966-11-04.elections-1966]]. Names: Johnson, Nixon.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:nixon-richard-m
+- edit:
+    id: cal.1966-11-13.republican-party
+    base: d0958b01
+    set:
+      time_range:
+      - 1966-11-13T11:00Z
+      - 1966-11-13T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+    unset:
+    - range_basis
 - add-words:
     id: cal.1966-11-13.republican-party
     after: end
-    words: 'The group is some twenty-five: Flanigan, Hobart Lewis, Amberg, Stans, John Lodge, Garment, Sears and Evans among them.'
-    item: '[[w.white-making-of-the-president-1969]], 50, 52'
+    words: A morning meeting.
+    item: '[[w.white-making-of-the-president-1969]], 52'
+- add-words:
+    id: cal.1966-11-13.republican-party
+    after: end
+    words: The group, grown to almost twenty-five, counts Flanigan, Hobart Lewis, Amberg, Stans, John Lodge, Garment, Sears and Evans.
+    item: '[[w.white-making-of-the-president-1969]], 50'
 - names:
     id: cal.1966-11-13.republican-party
-    add: []
+    add:
+    - Sears
     tags:
+    - name:sears-john-p
     - ok:note-substance
-- add-words:
-    id: cal.1967-01-10.program
-    after: end
-    words: Of the 1964 tax cut he asks back "slightly more than one-fourth" each year.
-    item: '[[w.zelizer-fierce-urgency-of-now]], 271'
-- names:
-    id: cal.1967-01-10.program
-    add: []
-    tags:
-    - ok:note-substance
-- add-words:
-    id: cal.1967-03-20.vietnam
-    after: end
-    words: 'Mar. 20–21: Johnson asks Westmoreland, "Are they bringing in as many as they''re losing?" Westmoreland: not yet; the crossover perhaps this month or next; the enemy''s order of battle 287,000 and leveling.'
-    item: '[[w.berman-lyndon-johnsons-war]], 32–33'
-- names:
-    id: cal.1967-03-20.vietnam
-    add: []
-    tags:
-    - ok:note-substance
+- add:
+    entry:
+      id: cal.1967-03-20.vietnam-guam
+      when: Mar. 20
+      date: '1967-03-20'
+      place: guam
+      thread: vietnam-guam
+      also:
+      - vietnam-air-war
+      c: 'Guam, Andersen Air Force Base, in the rain: Johnson addresses the airmen, Maj. Gen. William Crumm of the 3d Strategic Air Division holding an umbrella over him. The conference''s first business.'
+      n: '[[w.westmoreland-soldier-reports]], 213 ("the first order of business"). To check: the Public Papers. See [[cal.1967-03-20.vietnam]]. Names: Johnson.'
+      tags:
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1967-03-20.vietnam-guam-2
+      when: Mar. 20–21
+      date: '1967-03-20'
+      place: guam
+      thread: vietnam-guam
+      c: Guam. McNamara and Westmoreland agree on Creighton Abrams as Westmoreland's four-star deputy, to work with the South Vietnamese toward self-sufficiency; Westmoreland tells Johnson and McNamara.
+      n: '[[w.westmoreland-soldier-reports]], 214 ("In the course of the conference"). Check: the day. See [[cal.1967-03-20.vietnam]]. Names: McNamara, Westmoreland, Abrams, Johnson.'
+      tags:
+      - name:mcnamara-robert-s
+      - name:westmoreland-william
+      - name:abrams-creighton
+      - name:johnson-lyndon-b
