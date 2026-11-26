@@ -50,7 +50,8 @@ entries:
     when: Mar. 1
     date: '1964-03-01'
     place: kunming
-    thread: china-leadership
+    thread: china-opera
+    also: [china-zhou, china-army]
     follows:
       - cal.1964-03-01.china-leadership-9
     c: 'Zhou, Kunming, after watching shows by the Kunming Military Region''s troupe and others: speech first, then voice; words are content, sound is form; train hard and keep at it, modern plays in local opera are popular but may not last if not improved; do not split song from dance, keep both.'
@@ -60,7 +61,8 @@ entries:
     when: Mar. 1–3
     date: '1964-03-01'
     place: kunming
-    thread: china-leadership
+    thread: china-zhou-foreign
+    also: [china-foreign]
     c: 'Zhou, in Kunming, gives a banquet for the crew of the Dutch charter plane that flew the tour. Grants their wish to visit Beijing and sends them there in a Chinese plane. The crew: they have flown heads of state and none treated them as the premier did, as equals and with respect. On leaving they offer to serve again.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 626 (Mar. 1–3, 1964). Check: the day, "while in Kunming". Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, polity:netherlands]
@@ -68,14 +70,14 @@ entries:
     when: Mar. 1–3
     date: '1964-03-01'
     place: kunming
-    thread: china-leadership
+    thread: china-zhou
     c: 'Zhou inspects the Stone Forest scenic area at Kunming: protect it, plant trees and bring water; proposes a small hydroelectric station for nearby minority peoples. Reaches Chengdu in early March.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 626 (Mar. 1–3, 1964). Check: the day. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc]
   - id: cal.1964-03-01.china-leadership-4
     when: Mar. 1
     date: '1964-03-01'
-    thread: china-leadership
+    thread: china-polemic
     also: [soviet-union]
     c: The Chinese Central Committee's reply of Feb. 29 to the CPSU letter of Nov. 29 is handed to the Soviet chargé, Cherbakov.
     n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 29, 1964 (handed Mar. 1). [[w.lengxi-shinian-lunzhan-1956-1966]], 687, 729 ("signed Feb. 29, sent Mar. 1", not then published, the Romanians being due in two days; the CPSU had it on Mar. 1, by the Standing Committee''s reckoning of Mar. 16); [[w.mao-zedong-zhuan]], V, ch. 71 (the reply signed Feb. 29, sent Mar. 1: five parts (the border, aid, experts, trade, the stop to open polemic); four proposals, the last a meeting of 17 parties after the two-party talks (n.34, the 17; n.35, the Soviet 26)). Made public: 1999. See [[cal.1964-02-29.china-leadership-2]]. Check: the Soviet chargé''s name (the Chinese: Qierbakefu).'
@@ -92,7 +94,7 @@ entries:
     place:
       - kunming
       - peking
-    thread: china-leadership
+    thread: china-zhou
     follows:
       - cal.1964-03-01.china-leadership-9
     c: Zhou Enlai 周恩来, just back at Kunming 昆明, telephones Yang Shangkun 杨尚昆; Kong Yuan 孔原, Huang Zhen 黄镇 and Tong Xiaopeng 童小鹏 speak with him too.
@@ -111,7 +113,7 @@ entries:
     when: Mar. 1
     date: '1964-03-01'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Bai Bing 白冰, in Peking for a meeting, calls on Yang Shangkun 杨尚昆.
     n: '[[w.yang-shangkun-riji]], II, 356 (Mar. 1, 1964). The words: 下午白冰来，他是来北京开会的 (II, 356). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Bai Bing, Yang Shangkun.'
     src:
@@ -144,7 +146,7 @@ entries:
   - id: cal.1964-03-01.china-leadership-8
     when: Mar. 1
     date: '1964-03-01'
-    thread: china-leadership
+    thread: china-foreign
     also: [south-asia]
     c: Leaving Ceylon, Soong Ching-ling 宋庆龄, Zhou Enlai 周恩来 and Chen Yi 陈毅 cable their thanks to the Governor-General, William Gopallawa, and the Prime Minister, Mrs. Bandaranaike.
     n: '[[w.chen-yi-nianpu]], 1018. Names: Zhou Enlai, Chen Yi, Bandaranaike, Song Qingling.'
@@ -152,7 +154,7 @@ entries:
   - id: cal.1964-03-01.china-leadership-9
     when: Mar. 1
     date: '1964-03-01'
-    thread: china-leadership
+    thread: china-foreign
     follows:
       - cal.1964-03-01.china-leadership-8
     c: Over Burma on the flight home, Soong Ching-ling 宋庆龄, Zhou Enlai 周恩来 and Chen Yi 陈毅 cable their good wishes to General Ne Win.
@@ -161,7 +163,7 @@ entries:
   - id: cal.1964-03-01.china-leadership-10
     when: Mar. 1
     date: '1964-03-01'
-    thread: china-leadership
+    thread: china-foreign
     also: [south-asia]
     c: Chen Yi 陈毅 and Bhutto exchange cables on the first anniversary of the China–Pakistan boundary agreement.
     n: '[[w.chen-yi-nianpu]], 1018. Names: Chen Yi, Bhutto.'
@@ -170,6 +172,7 @@ entries:
     when: Mar. 1
     date: '1964-03-01'
     thread: china-leadership
+    also: [china-army]
     c: Ye Jianying 叶剑英 proposes, to strengthen the Academy of Military Science's 军事科学院 Party committee, a standing meeting of its departments' Party committee secretaries under the committee's standing committee.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 912. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
@@ -177,6 +180,7 @@ entries:
     when: Mar. 1
     date: '1964-03-01'
     thread: china-leadership
+    also: [china-agriculture]
     c: 'Zhu De 朱德 cables the Center 中共中央 and Mao Zedong 毛泽东: for two years Guangdong 广东省 has bought grain and the chief farm and sideline goods chiefly by requisition and assigned purchase, with exchange and negotiated purchase as a supplement; the quotas set in good time and then held, the increase bought by exchange and negotiation, no assigned quota added; good for state, collective and individual alike, the state getting the grain and goods it needs and the masses'' zeal kept up. Guangdong raises cassava silkworms 木薯蚕 on a large scale and makes rayon of cane bagasse, a new way to clothe the people; he proposes the provinces south of the Yangtze 江南 raise cassava silkworms wherever cassava grows, as a collective and a household sideline.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1901. Made public: 2016. Names: Zhu De, Mao Zedong.'
     tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc]
@@ -382,7 +386,7 @@ entries:
     when: Mar. 2
     date: '1964-03-02'
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     also: [soviet-union]
     c: Beijing, the Romanian Workers' Party delegation under Maurer (Bodnăraș, Ceaușescu, Stoica) arrives with a letter from Gheorghiu-Dej to Mao.{1}
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 2 and 3, 1964 (Mar. 2). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (Mar. 3–10, 1964; Liu holds talks with the Romanian Workers'' Party Central Committee delegation under Ion Gheorghe Maurer, Politburo member: the talks, not the arrival); [[w.lengxi-shinian-lunzhan-1956-1966]], 688, 723 (the delegation left Bucharest Mar. 1 and reached Peking by way of Moscow on Mar. 2; Maurer, deputy head of the State Council, leading, Bodnăraș, Ceaușescu and Stoica, the prime minister, with him; the Chinese press held its polemic from that day to the evening of Mar. 12); [[w.yang-shangkun-riji]], II, 357 (Mar. 2, 1964; the delegation lands at the Eastern Suburb airport 东郊机场 at 3:30 p.m.; Yang among those meeting it); [[w.deng-xiaoping-nianpu-1904]], III, 1802 (Mar. 2, 1964; Deng, with Liu Shaoqi 刘少奇 and others, welcomes at the airport the delegation of the Romanian Workers'' Party 罗马尼亚工人党 Central Committee 中央 under Maurer 毛雷尔, member of its Politburo 政治局 and chairman of the Council of Ministers); [[w.peng-zhen-nianpu-1902]], IV, 322 (Mar. 2, 1964, afternoon; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, at the airport meeting the Romanian Workers'' Party''s delegation under Ion Gheorghe Maurer, member of its Politburo). Made public: 1996. Names: Mao Zedong, Maurer, Ceaușescu, Gheorghiu-Dej, Bodnăraș, Stoica.'
@@ -404,7 +408,7 @@ entries:
   - id: cal.1964-03-02.china-leadership-2
     when: Mar. 2
     date: '1964-03-02'
-    thread: china-leadership
+    thread: china-foreign
     also: [vietnam-hanoi]
     c: Chen Yi, Foreign Minister, replies by cable to Xuân Thủy, Foreign Minister of the DRV, expressing China's full support for the DRV government and its stand against the U.S. war of aggression in South Vietnam, and for its just stand and reasonable demands.
     n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 325 (Mar. 2, 1964); [[w.chen-yi-nianpu]], 1018 (Mar. 2, 1964). Names: Chen Yi, Xuân Thủy.'
@@ -418,7 +422,7 @@ entries:
     when: Mar. 2
     date: '1964-03-02'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Yang Shangkun 杨尚昆 with Gong Zirong 龚子荣.
     n: '[[w.yang-shangkun-riji]], II, 356 (Mar. 2, 1964). The words: 上午约龚子荣同志谈话 (II, 356). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Gong Zirong.'
     src:
@@ -437,7 +441,7 @@ entries:
     time: 1964-03-02T07:30Z
     place: peking
     thread: china-leadership
-    also: [soviet-union]
+    also: [soviet-union, china-agriculture]
     c: Peking 北京. Yang Shangkun 杨尚昆 rides with Stoica 斯托伊卡, chairman of Romania's Council of Ministers (the editors' note), from the airport to Diaoyutai 钓鱼台; Stoica talks of Romania's industry and farming and voices his discontent with the Soviet Union.
     n: '[[w.yang-shangkun-riji]], II, 357 (Mar. 2, 1964). The words: 3时半到达，我陪同斯托伊卡乘车到钓鱼台，沿途斯说了许多关于罗工农业的情况，也表达了对苏不满 (II, 357). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Stoica.'
     src:
@@ -451,7 +455,7 @@ entries:
     date: '1964-03-02'
     time: 1964-03-02T10:30Z
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     c: Peking 北京, Diaoyutai 钓鱼台, Building 10 十楼, 6:30 to 8:30 p.m. Peng Zhen 彭真, Kang Sheng 康生 and Yang Shangkun 杨尚昆 dine with the Romanian delegation.
     n: '[[w.yang-shangkun-riji]], II, 357 (Mar. 2, 1964). The words: 6时半到8时半与彭真、康生一起去十楼，陪同罗马尼亚代表团吃饭 (II, 357). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Peng Zhen, Kang Sheng, Yang Shangkun. Check: Building 10 at Diaoyutai: the diary says "十楼" only, after the drive to Diaoyutai.'
     src:
@@ -464,7 +468,7 @@ entries:
     when: Mar. 2
     date: '1964-03-02'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Yang Shangkun 杨尚昆 speaks with Kong Yuan 孔原 by telephone.
     n: '[[w.yang-shangkun-riji]], II, 357 (Mar. 2, 1964). The words: 10时回家，办公到2时，与孔原同志通电话后，睡 (II, 357). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kong Yuan.'
     src:
@@ -476,7 +480,7 @@ entries:
     when: Mar. 2
     date: '1964-03-02'
     place: kunming
-    thread: china-leadership
+    thread: china-zhou-foreign
     c: Kunming 昆明. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the leaders of the Yunnan committee 中共云南省委 and the secretaries of the province's prefectural and city committees meeting at Kunming.
     n: '[[w.chen-yi-nianpu]], 1018. Made public: 1995. Names: Chen Yi, Zhou Enlai.'
     tags: [polity:prc, name:chen-yi, name:zhou-enlai, ok:fields-time, vis:only:prc]
@@ -484,7 +488,8 @@ entries:
     when: Mar. 2
     date: '1964-03-02'
     place: kunming
-    thread: china-leadership
+    thread: china-models
+    also: [china-zhou]
     follows:
       - cal.1964-03-02.china-leadership-7
     c: Kunming 昆明. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the conference of the Kunming forces' "four-good" companies and "five-good" soldiers; a photograph taken.
@@ -662,7 +667,8 @@ entries:
     when: Mar. 3
     date: '1964-03-03'
     place: kunming
-    thread: china-leadership
+    thread: china-zhou-foreign
+    also: [china-agriculture, china-foreign]
     c: 'Zhou receives the Albanian forestry engineer Iljaz Nako and the olive expert Betri Romani, who brought Albania''s gift of olive seedlings to Kunming. With them visits the Haikou state forest farm outside Kunming, asks the Albanian experts on olive growing, plants an olive tree himself. Tells the staff to get the trees through five stages: taking root, growth, flowering and fruit, high and stable yield, seed for later generations.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 625 (Mar. 3, 1964); [[w.zhou-enlai-waijiao-huodong]], 398 (Mar. 3, 1964; 上午9时30分, 昆明饭店, 接见阿尔巴尼亚农业部林业局总工程师伊利亚·纳科和油橄榄种植专家). Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, polity:albania]
@@ -670,8 +676,8 @@ entries:
     when: Mar. 3
     date: '1964-03-03'
     place: peking
-    thread: china-leadership
-    also: [soviet-union]
+    thread: china-polemic
+    also: [soviet-union, china-bomb]
     c: 'Peking, the Fujian Hall of the Great Hall of the People, morning: the talks with the Romanian delegation open, the first of six sessions, to Mar. 10, Liu Shaoqi heading the Chinese side (Deng Xiaoping, Peng Zhen, Kang Sheng, Wu Xiuquan, Wu Lengxi).{1} Maurer: Romania opposes making Comecon a supranational body and the Warsaw Pact''s political committee fixing the allies'' foreign policy; the Soviet Union has interfered often, and put missiles into Cuba without consulting Romania. Romania fears a split between China and the USSR and asks both to stop the open polemic; Khrushchev at Moscow seemed willing, not firmly; China should take the first step. He approves the Chinese letter of Feb. 29, shown to the delegation at Peking. Bodnăraș: China should understand Romania''s geography and position; Romania is not wholly on the Soviet side and welcomes the four proposals. The talk adjourns.{2}'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 2 and 3, 1964 (the talks open Mar. 3, Liu Shaoqi heading the Chinese side). [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (Mar. 3–10, 1964; Liu holds talks with the Romanian Workers'' Party Central Committee delegation under Ion Gheorghe Maurer, Politburo member); [[w.peng-zhen-nianpu-1902]], IV, 322 (Mar. 3–10, 1964; Peng Zhen in the Chinese delegation, Liu Shaoqi its head, Deng Xiaoping, Kang Sheng and others its members, in the talks with the Romanian delegation, which hopes to mediate in the fast worsening Sino-Soviet relations). [[w.lengxi-shinian-lunzhan-1956-1966]], 688–690 (Mar. 3 morning, the Fujian Hall; six sessions, Mar. 3, 4, 5, 6, 7 and 10; Maurer''s three points (the quarrels with the CPSU; the fear of a split; the bilateral relation); Bodnăraș). Made public: 1996. See [[cal.1964-03-02.china-leadership]]. Names: Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kang Sheng, Maurer, Bodnăraș, Wu Xiuquan, Wu Lengxi.'
     src:
@@ -706,7 +712,7 @@ entries:
     date: '1964-03-03'
     time: 1964-03-03T10:00Z
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     c: Peking 北京, the Fujian Room 福建厅, 6 to 8 p.m. A dinner for the Romanian delegation; Yang Shangkun 杨尚昆 there.
     n: '[[w.yang-shangkun-riji]], II, 357 (Mar. 3, 1964). The words: 6时到8时，去福建厅参加宴请罗马尼亚代表团 (II, 357). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
@@ -719,7 +725,7 @@ entries:
     when: Mar. 3
     date: '1964-03-03'
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     follows:
       - cal.1964-03-03.china-leadership-4
     c: Peking 北京. Yang Shangkun 杨尚昆 with Wu Lengxi 吴冷西 on the talks with the Romanians.
@@ -734,7 +740,7 @@ entries:
     date: '1964-03-03'
     time: 1964-03-03T14:00Z
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     c: Yang Shangkun 杨尚昆, 10 p.m., tells Zhou Enlai 周恩来 of the day's talks with the Romanians by telephone.
     n: '[[w.yang-shangkun-riji]], II, 357 (Mar. 3, 1964). The words: 10时将今天会谈情况，电话告诉了恩来同志 (II, 357). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai. Check: Zhou''s place: the diary names Chengdu in its call of Mar. 5.'
     src:
@@ -748,6 +754,7 @@ entries:
     date: '1964-03-03'
     place: canton
     thread: china-leadership
+    also: [china-agriculture]
     c: 'Guangzhou 广州. Zhu De 朱德 hears Lin Liming 林李明, a secretary of the Guangdong committee''s Secretariat 中共广东省委书记处, and says: let the production teams plant trees, with licences, the trees theirs; develop green tea, tung oil, pig bristles and the like, make more for export and win back the Hong Kong 香港 market; the private plots unchanged for thirty years; communism is long in coming; investment to be reckoned closely; use the land rationally, grow what pays best; keep to thrift.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1901–1902. Made public: 2016. Names: Zhu De, Lin Liming.'
     tags: [polity:prc, name:zhu-de, vis:only:prc, name:lin-liming]
@@ -1019,7 +1026,7 @@ entries:
     when: Mar. 4
     date: '1964-03-04'
     place: peking
-    thread: china-leadership
+    thread: china-polemic
     also: [soviet-union]
     c: Peking, morning.{1} Second talk with the Romanians;{2} Liu Shaoqi speaks at length. The differences began at the Twentieth Congress; China kept them to private talk; the CPSU named Albania at its Twenty-second Congress and China in its Open Letter, and China had to answer. The polemic can stop when the CPSU and the forty-odd parties that have printed some two thousand articles admit their error and withdraw their texts; China will answer every article. The CPSU's plenum and its letter to the parties are to be seen first. That the polemic harms, Liu told Khrushchev at the meeting of 81 parties and Zhou Enlai the 22nd Congress; Khrushchev would not listen, and once called open polemic the Marxist–Leninist way. China waits to see whether the CPSU accepts the four points of Feb. 29, the third time China has proposed a halt. The Romanians would do better to go to Khrushchev.{3}
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 690–693 (Mar. 4 morning (Wu: "the next day"); Liu''s speech in his order); [[w.deng-xiaoping-nianpu-1904]], III, 1802 (Mar. 3–10, 1964; Deng with Liu Shaoqi and Peng Zhen in six talks with the Romanian delegation). Made public: 1999. See [[cal.1964-03-03.china-leadership-2]]. Names: Liu Shaoqi, Zhou Enlai, Khrushchev.'
@@ -1037,7 +1044,7 @@ entries:
   - id: cal.1964-03-04.china-leadership-2
     when: Mar. 4
     date: '1964-03-04'
-    thread: china-leadership
+    thread: china-polemic
     also: [korea-leadership, soviet-union]
     c: Peking. Kim Il Sung, in the city for his talks with Mao, calls on the Romanian delegation. By his account to Mao the next evening, the Romanians say they quarrel with Khrushchev over interference and pressure, not theory, and they fear a split; they mean to go on to Korea and Vietnam after China, and ask about the Vietnamese party's recent trip to Moscow.
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 695–696 (Kim''s report to Mao on "the talk yesterday, Mar. 4", at Diaoyutai on Mar. 5). Made public: 1999. Names: Kim Il Sung, Mao Zedong, Khrushchev. Check: the place and hour of the call, and the Romanians present; Wu has it only at second hand.'
@@ -1050,7 +1057,7 @@ entries:
     when: Mar. 4
     date: '1964-03-04'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Yang Shangkun 杨尚昆 with Tian Jiaying 田家英.
     n: '[[w.yang-shangkun-riji]], II, 357 (Mar. 4, 1964). The words: 下午约田家英谈话 (II, 357). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Tian Jiaying.'
     src:
@@ -1068,7 +1075,8 @@ entries:
     date: '1964-03-04'
     time: 1964-03-04T10:00Z
     place: peking
-    thread: china-leadership
+    thread: china-liu
+    also: [china-foreign]
     c: Peking 北京, the Fujian Room 福建厅, 6 to 8 p.m. Liu Shaoqi 刘少奇 gives a dinner for the Romanian delegation; Yang Shangkun 杨尚昆 there.
     n: '[[w.yang-shangkun-riji]], II, 357 (Mar. 4, 1964). The words: 6时到8时去福建厅参加少奇同志宴请罗马尼亚代表团 (II, 357). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Liu Shaoqi, Yang Shangkun.'
     src:
@@ -1081,7 +1089,7 @@ entries:
     when: Mar. 4
     date: '1964-03-04'
     place: peking
-    thread: china-leadership
+    thread: china-center
     follows:
       - cal.1964-03-04.china-leadership-4
     c: Peking 北京. Yang Shangkun 杨尚昆 with Wu Lengxi 吴冷西 on the day's talks.
@@ -1095,7 +1103,7 @@ entries:
     when: Mar. 4
     date: '1964-03-04'
     place: peking
-    thread: china-leadership
+    thread: china-center
     follows:
       - cal.1964-03-04.china-leadership-5
     c: Yang Shangkun 杨尚昆, back home, speaks with Zhou Enlai 周恩来 by telephone.
@@ -1109,6 +1117,7 @@ entries:
     when: Mar. 4
     date: '1964-03-04'
     thread: china-leadership
+    also: [china-army]
     c: Ye Jianying 叶剑英 presides at the first meeting of the Academy of Military Science's 军事科学院 departments' Party committee secretaries, and speaks on putting the organs' style in order.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 912. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
@@ -1116,7 +1125,7 @@ entries:
     when: Mar. 4
     date: '1964-03-04'
     place: canton
-    thread: china-leadership
+    thread: china-united-front
     c: Zhu De 朱德 leaves Guangzhou 广州 to inspect the Guangxi Zhuang Autonomous Region 广西壮族自治区.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1902. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
@@ -1311,8 +1320,8 @@ entries:
     when: Mar. 5
     date: '1964-03-05'
     place: peking
-    thread: china-leadership
-    also: [korea-leadership, soviet-union]
+    thread: china-polemic
+    also: [korea-leadership, soviet-union, china-mao-foreign]
     follows:
       - cal.1964-03-05.china-leadership-3
     c: 'Mao, Diaoyutai, no. 18, evening: third talk with Kim Il Sung, with the Korean side as on Feb. 27. Kim on his talk the day before with the Romanians: they have a quarrel with Khrushchev over interference, not theory; fear a split. Liu on the afternoon''s talks: Romania wants the polemic stopped before the October two-party talks and agrees to China''s four points. Mao: Romania''s position changed from before; 40 percent of its trade is with the Soviet Union;{1} of 100-odd parties only a dozen or so truly oppose China.{2} Deng Xiaoping 邓小平: now the real exchange begins. The talk goes on at Mao''s dinner for Kim, his farewell.{3} Peng Zhen 彭真 takes part.{4}'
@@ -1329,8 +1338,8 @@ entries:
   - id: cal.1964-03-05.china-leadership-2
     when: Mar. 5
     date: '1964-03-05'
-    thread: china-leadership
-    also: [south-asia, china]
+    thread: china-zhou-foreign
+    also: [south-asia, china-foreign]
     c: 'Zhou and Chen Yi report jointly to the Central Committee and Mao on what the Ceylon leaders said in their talks: a second Asian-African conference, a second non-aligned conference, the Sino-Indian boundary.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 626 (Mar. 5, 1964). Made public: 1997. Names: Zhou Enlai, Chen Yi, Mao Zedong.'
     tags: [name:zhou-enlai, name:chen-yi, name:mao-zedong, polity:prc, polity:ceylon, vis:only:prc+ceylon]
@@ -1338,7 +1347,7 @@ entries:
     when: Mar. 5
     date: '1964-03-05'
     place: peking
-    thread: china-leadership
+    thread: china-polemic
     also: [soviet-union]
     c: Peking, afternoon. Third talk with the Romanians; Ceaușescu speaks for some three hours. The CPSU treats itself as leader and orders Romania about; its troops stayed in Romania until Romania asked again and again; the joint companies are run by the Soviets, who answered a proposal to end them with "buy it yourselves"; it called Romania nationalist, then said national sovereignty is out of date. In 1962 Khrushchev brought a letter and read it out to the Romanian Politburo; in June 1963 he abused Ceaușescu, who had come with a letter from Gheorghiu-Dej, and then in Romania quarreled two days. Ceaușescu agrees with China on the norms between parties and that criticism of one party at another's congress is wrong; he disliked the East German congress's treatment of the Chinese. He does not approve the CPSU's letters of July 14 and Nov. 29 or that of Feb. 12; asks "urgently" an end to the open polemic and that China take the lead. Maurer thanks Liu, who adjourns the talk.
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 693–694, 696 (Mar. 5 afternoon; "three hours" (696); the Romanian Central Committee''s call to the CPSU on Feb. 14). Made public: 1999. See [[cal.1964-03-04.china-leadership]], [[cal.1964-02-14.soviet-union-2]]. Names: Ceaușescu, Maurer, Liu Shaoqi, Gheorghiu-Dej, Khrushchev.'
@@ -1356,7 +1365,7 @@ entries:
     when: Mar. 5
     date: '1964-03-05'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Yang Shangkun 杨尚昆 with Wang Yuming 王愈明 on youth work.
     n: '[[w.yang-shangkun-riji]], II, 357 (Mar. 5, 1964). The words: 上午约王愈明谈青年工作问题 (II, 357). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Yuming.'
     src:
@@ -1388,7 +1397,7 @@ entries:
     date: '1964-03-05'
     time: 1964-03-05T15:00Z
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Mei Xing 梅行 and He Jun 何均 with Yang Shangkun 杨尚昆, at home, to 11 p.m.
     n: '[[w.yang-shangkun-riji]], II, 358 (Mar. 5, 1964). The words: 在家休息后，梅行、何均来谈话到11时 (II, 358). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mei Xing, He Jun, Yang Shangkun.'
     src:
@@ -1403,7 +1412,7 @@ entries:
     place:
       - peking
       - chengdu
-    thread: china-leadership
+    thread: china-zhou
     follows:
       - cal.1964-03-05.china-leadership-6
     c: Yang Shangkun 杨尚昆 and Zhou Enlai 周恩来, at Chengdu 成都, by telephone.
@@ -1416,8 +1425,8 @@ entries:
   - id: cal.1964-03-05.china-leadership-8
     when: Mar. 5
     date: '1964-03-05'
-    thread: china-leadership
-    also: [china]
+    thread: china-foreign
+    also: [china-agriculture]
     c: 'Deng Xiaoping 邓小平 meets the departing Czechoslovak ambassador, Josef Sedivy. On China''s economy and prospects: 1959–61 were hard years, with natural disasters, ignorance of the laws of socialist construction, and the Soviet withdrawal of experts and tearing up of contracts, which upset the plans and forced readjustment; from the second half of 1961 the Chinese began to readjust, thinking and solving problems themselves; in recent years the harvest is larger than in the ten before; industry, agriculture, heavy and light industry are on normal tracks; they mean to build for twenty years, agriculture as base, industry as leading factor, in the order agriculture, light, heavy, finally the four modernizations.'
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1802–1803 (Mar. 5, 1964). The words: 上午 (III, 1802–1803). Made public: 2009 (the nianpu). Names: Deng Xiaoping. Check: the ambassador''s name in Latin letters (the nianpu: 赛过维).'
     src:
@@ -1434,6 +1443,7 @@ entries:
     when: Mar. 5
     date: '1964-03-05'
     thread: china-leadership
+    also: [china-army]
     c: The Academy of Military Science 军事科学院. Ye Jianying 叶剑英, with Yan Kuiyao 阎揆要, Mo Yang 莫阳 (head of his office), Shi Xia 石侠 (his secretary) and Gao Rui 高锐 (head of the Academy's tactics department), arranges the coming specialist conference at Wuxi 无锡, Jiangsu 江苏, on writing the science of campaigns 战役学.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 913. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
@@ -1441,6 +1451,7 @@ entries:
     when: Mar. 5
     date: '1964-03-05'
     thread: china-leadership
+    also: [china-army, china-propaganda]
     c: 'Ye Jianying 叶剑英 meets all the members of the academic secretariat and academic correspondence section of the Academy of Military Science''s 军事科学院 office: follow the academic thought and trends of the whole army, and run the *Junshi xueshu yanjiu tongxun* 《军事学术研究通讯》 well.'
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 913. The words: 下午 (913). Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
@@ -1703,8 +1714,8 @@ entries:
   - id: cal.1964-03-06.china-leadership
     when: Mar. 6
     date: '1964-03-06'
-    thread: china-leadership
-    also: [soviet-union]
+    thread: china-mao-foreign
+    also: [soviet-union, china-foreign]
     follows:
       - cal.1964-03-06.china-leadership-3
     c: Mao presides in the evening over the Politburo Standing Committee on the talks with the Romanian delegation;{1} Liu Shaoqi and Deng Xiaoping attend, Peng Zhen and Kang Sheng sit in.{2}
@@ -1721,7 +1732,7 @@ entries:
     when: Mar. 6
     date: '1964-03-06'
     place: chengdu
-    thread: china-leadership
+    thread: china-zhou
     c: 'Zhou and Chen Yi, Chengdu, visit the light and chemical industry exhibition hall; inscribe: "Seek perfection; strive for the top."'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 626 (Mar. 6, 1964). Names: Zhou Enlai, Chen Yi.'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc]
@@ -1729,8 +1740,8 @@ entries:
     when: Mar. 6
     date: '1964-03-06'
     place: peking
-    thread: china-leadership
-    also: [soviet-union]
+    thread: china-polemic
+    also: [soviet-union, china-nuclear-diplomacy]
     c: 'Peking, afternoon. Fourth talk with the Romanians. Bodnăraș explains Romania''s relations with Yugoslavia since 1948, tied to the Soviet attitude, Khrushchev wishing to control the Balkans. Deng Xiaoping: the Moscow Statement of 1960 judged Yugoslavia, China holds the judgment, and Khrushchev signed it and dropped it that evening. Liu Shaoqi, answering remarks Bodnăraș and Ceaușescu had made at the coffee break: Stalin had faults but his merit was greater, and he admitted his error toward China; Khrushchev cannot admit any, so he cannot be got to correct his; Khrushchev called the partial test-ban treaty a swindle sixty days before he signed it. Liu''s answer to Ceaușescu of Mar. 5 is left for want of time.'
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 697–699 (Mar. 6 afternoon; the Romanians'' words "said not in the talks but at the coffee break", yet "a serious matter", which Deng and Liu answered gravely). Made public: 1999. See [[cal.1964-03-05.china-leadership-3]]. Names: Bodnăraș, Deng Xiaoping, Liu Shaoqi, Khrushchev, Ceaușescu.'
     src:
@@ -1759,7 +1770,7 @@ entries:
     when: Mar. 6
     date: '1964-03-06'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Yang Shangkun 杨尚昆 with Gong Zirong 龚子荣.
     n: '[[w.yang-shangkun-riji]], II, 358 (Mar. 6, 1964). The words: 上午约龚子荣同志谈话 (II, 358). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Gong Zirong.'
     src:
@@ -1776,7 +1787,7 @@ entries:
     when: Mar. 6
     date: '1964-03-06'
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     c: Peking 北京. Yang Shangkun 杨尚昆 reads the record of the talks with the Romanians 会谈记录.
     n: '[[w.yang-shangkun-riji]], II, 358 (Mar. 6, 1964). The words: 下午处理文电，读会谈记录 (II, 358). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
@@ -1810,7 +1821,7 @@ entries:
     when: Mar. 6
     date: '1964-03-06'
     place: peking
-    thread: china-leadership
+    thread: china-center
     follows:
       - cal.1964-03-06.china-leadership-6
     c: Yang Shangkun 杨尚昆 tells Zhou Enlai 周恩来 of the talks by telephone.
@@ -1824,7 +1835,7 @@ entries:
     when: Mar. 6
     date: '1964-03-06'
     place: nanning
-    thread: china-leadership
+    thread: china-four-cleanups
     c: 'Nanning 南宁. Zhu De 朱德 speaks to an enlarged meeting of the Guangxi committee 中共广西壮族自治区委: the socialist education movement 社会主义教育运动 must go closely with production, its aim to raise it; in production, strive, rely on ourselves, work hard and save; do more solid, harder work.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1902. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
@@ -1972,7 +1983,7 @@ entries:
     when: Mar. 7
     date: '1964-03-07'
     place: peking
-    thread: china-leadership
+    thread: china-polemic
     also: [soviet-union]
     c: 'Peking, afternoon.{1} Fifth talk with the Romanians.{2} Maurer: his Central Committee authorized only talk of stopping the polemic. Stoica: Comecon is run by one state; China should join. Liu Shaoqi: China''s letter asks that Comecon be reorganized; Deng Xiaoping: China has not applied. Liu gives the Chinese Central Committee''s formal answer: the CPSU is to publish its plenum resolution, give China its letter to the parties, and bring out its "decisive rebuff" and "collective measures", after which China will see whether it means to stop; China has answered only the CPSU so far, not the forty-odd parties. Peng Zhen: two "guns" are aimed at China; the Chinese have paused the articles for the Romanians'' stay, with no promise for after. Ceaușescu asks that the pause be extended; Peng Zhen refuses. The talk adjourns; Mar. 8 is a day of rest.{3}'
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 699–704 (Mar. 7 afternoon; Liu''s "formal reply" in his words; Deng on the British party; Peng Zhen''s "two guns", pause "only for you"); [[w.deng-xiaoping-nianpu-1904]], III, 1802 (Mar. 7, 1964; afternoon, 下午; the fifth talk; Deng says the CPSU''s Twenty-second Congress first launched open polemic; if it is to be stopped, Khrushchev must first declare wrong the Congress''s attacks on the Albanian party and its unnamed attacks on the CCP; if he really admits the error the Chinese can stop open polemic). Made public: 1999. See [[cal.1964-03-06.china-leadership-3]]. Names: Maurer, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Ceaușescu, Stoica.'
@@ -1990,8 +2001,8 @@ entries:
   - id: cal.1964-03-07.china-leadership-2
     when: Mar. 7
     date: '1964-03-07'
-    thread: china-leadership
-    also: [soviet-union]
+    thread: china-polemic
+    also: [soviet-union, china-mao-foreign]
     follows:
       - cal.1964-03-07.china-leadership
     c: 'Mao''s home, evening.{1} Mao presides at the Politburo Standing Committee after the fifth talk with the Romanians.{2} Liu Shaoqi: five talks, each on the polemic after the Romanians'' quarrels with the Soviets; the delegation sent at the CPSU''s prompting, yet with real quarrels of its own; a chance to pull Romania a little against Khrushchev''s great-power chauvinism. Mao: the line unchanged, no stop without agreement; the articles resume when the delegation leaves.{3}'
@@ -2042,7 +2053,7 @@ entries:
     when: Mar. 7
     date: '1964-03-07'
     place: peking
-    thread: china-leadership
+    thread: china-zhou
     c: Yang Shangkun 杨尚昆 and Zhou Enlai 周恩来 by telephone.
     n: '[[w.yang-shangkun-riji]], II, 358 (Mar. 7, 1964). The words: 晚间7时才吃饭，在家看了电视《丰收之后》。与恩来同志通电话后，办公到2时睡 (II, 358). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
     src:
@@ -2059,7 +2070,7 @@ entries:
     when: Mar. 7
     date: '1964-03-07'
     place: chengdu
-    thread: china-leadership
+    thread: china-zhou
     c: Chengdu 成都. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the women cadres of Sichuan and Chengdu at their gala for International Women's Day.
     n: '[[w.chen-yi-nianpu]], 1018. The words: 中午 (1018). Names: Chen Yi, Zhou Enlai.'
     tags: [polity:prc, name:chen-yi, name:zhou-enlai]
@@ -2072,7 +2083,7 @@ entries:
     when: Mar. 7
     date: '1964-03-07'
     place: chengdu
-    thread: china-leadership
+    thread: china-zhou-foreign
     follows:
       - cal.1964-03-07.china-leadership-5
     c: Chengdu 成都. Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the delegates to the third Party congress of the Chengdu forces.
@@ -2088,6 +2099,7 @@ entries:
     date: '1964-03-07'
     place: nanning
     thread: china-leadership
+    also: [china-agriculture]
     c: Nanning 南宁. Zhu De 朱德 hears the heads of the Wuzhou 梧州 and Nanning 南宁 prefectural committees 中共梧州地委、中共南宁地委 on farm output.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1902. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
@@ -2217,7 +2229,7 @@ entries:
     when: Mar. 8
     date: '1964-03-08'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Yang Shangkun 杨尚昆 finishes reading Tibor Méray's *Thirteen Days That Shook the Kremlin* 《震撼克里姆林的十三天》.
     n: '[[w.yang-shangkun-riji]], II, 358 (Mar. 8, 1964). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Méray.'
     src:
@@ -2229,7 +2241,7 @@ entries:
     when: Mar. 8
     date: '1964-03-08'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Yang Shangkun 杨尚昆 reads the record of the fourth Sino-Romanian talk and other papers.
     n: '[[w.yang-shangkun-riji]], II, 358 (Mar. 8, 1964). The words: 下午读了罗中会谈的第四次记录、其他文件 (II, 358). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-03-06.china-leadership-5]]. Names: Yang Shangkun.'
     src:
@@ -2246,7 +2258,7 @@ entries:
     when: Mar. 8
     date: '1964-03-08'
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     also: [soviet-union]
     c: Peking 北京. The Soviet ambassador delivers a letter, by Yang Shangkun's 杨尚昆 account to Zhou 周恩来.
     n: '[[w.yang-shangkun-riji]], II, 358 (Mar. 8, 1964). The words: 与恩来通话，告诉他今天苏联大使交来信的情况 (II, 358). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai. Check: whether the CPSU''s letter of Mar. 7 ([[cal.1964-03-07.soviet-union]]).'
@@ -2259,7 +2271,7 @@ entries:
     when: Mar. 8
     date: '1964-03-08'
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     also: [soviet-union]
     follows:
       - cal.1964-03-08.china-leadership-3
@@ -2629,8 +2641,8 @@ entries:
   - id: cal.1964-03-09.china-leadership
     when: Mar. 9
     date: '1964-03-09'
-    thread: china-leadership
-    also: [soviet-union]
+    thread: china-mao-foreign
+    also: [soviet-union, china-foreign]
     follows:
       - cal.1964-03-09.china-leadership-2
     c: 'Mao presides in the evening over the Politburo Standing Committee: Peng Zhen reports the Romanian delegation''s request to prolong the talks; one more session decided.{1} Liu Shaoqi and Deng Xiaoping attend, Kang Sheng sits in.{2}'
@@ -2647,7 +2659,7 @@ entries:
     when: Mar. 9
     date: '1964-03-09'
     place: peking
-    thread: china-leadership
+    thread: china-polemic
     also: [soviet-union]
     c: 'Peking, Diaoyutai, morning. At Ceaușescu''s urgent request Peng Zhen, Wu Xiuquan and Wu Lengxi call on him. Tense and excited, he says that many parties want the polemic stopped; the delegation has telephoned Gheorghiu-Dej, and the Romanian Central Committee asks China to extend the pause and the delegations to meet once more; he has not consulted the CPSU, and will take it up at Moscow on the way home. Peng Zhen: the pause, eight days so far and ten by their leaving, is China''s courtesy to Romania and ends when they go; the CPSU''s letter received the day before still refuses the letter of Feb. 12; Khrushchev should be asked to give the letter of Feb. 12 and say what his "decisive rebuff" is; he recalls Bucharest in 1960, where Romania urged patience, and proposes that the two parties resist Khrushchev''s great-power chauvinism together. He will report to the delegation.'
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 706–709 (the morning of Mar. 9, Diaoyutai; the Secretariat''s query to Mao and Liu Shaoqi before the three went). Made public: 1999. See [[cal.1964-03-07.china-leadership]], [[cal.1964-03-09.china-leadership]]. Names: Peng Zhen, Ceaușescu, Gheorghiu-Dej, Khrushchev, Wu Xiuquan, Wu Lengxi.'
@@ -2665,7 +2677,7 @@ entries:
     when: Mar. 9
     date: '1964-03-09'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: 'Peking 北京. The Secretariat 书记处: Deng Xiaoping 邓小平 on the Sino-Romanian talks and the preparations for the April work conference (held, the editors note, May 15–June 17); Yang Shangkun 杨尚昆 there.'
     n: '[[w.yang-shangkun-riji]], II, 358 (Mar. 9, 1964); [[w.deng-xiaoping-nianpu-1904]], III, 1803 (Mar. 9, 1964; afternoon, 下午; Deng presides at the Secretariat; on the Central Work Conference to be held in April (it met May 15–June 17, the nianpu''s note) says the central subject is agricultural planning, basic farmland construction to go into the capital-construction plan and the economic plan to rest on it, less grain to be imported to save exchange for fertilizer and chemical plant; on education and science: students'' health is poor, their living allowances should be raised, useful out-of-class books published, and scientific authors'' fees raised); [[w.peng-zhen-nianpu-1902]], IV, 323 (Mar. 9, 1964; the Secretariat''s 374th meeting; Peng Zhen there; preparing the April Central Work Conference and other matters). The words: 下午书记处会议，邓谈了中罗会谈情况和4月工作会议的准备 (II, 358). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Yang Shangkun.'
     src:
@@ -2684,7 +2696,7 @@ entries:
     when: Mar. 9
     date: '1964-03-09'
     place: peking
-    thread: china-leadership
+    thread: china-zhou
     c: Peking 北京. Yang Shangkun 杨尚昆 and Zhou Enlai 周恩来 by telephone.
     n: '[[w.yang-shangkun-riji]], II, 359 (Mar. 9, 1964). The words: 晚间去外办看港片后，与恩来同志通电话 (II, 359). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
     src:
@@ -2701,6 +2713,7 @@ entries:
     when: Mar. 9
     date: '1964-03-09'
     thread: china-leadership
+    also: [china-army]
     c: 'Ye Jianying 叶剑英, with Yang Yong 杨勇, commander of the Peking Military Region 北京军区, sees the region''s picked units 尖子分队 show their skills (radio talk in code, single-soldier assault, taking prisoners), and meets them: drill and read Chairman Mao''s works daily, red and expert; the infantry to learn hand-to-hand fighting; code talk to be spread fast.'
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 913. Made public: 2007. Names: Ye Jianying, Mao Zedong, Yang Yong.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc, name:mao-zedong, name:yang-yong]
@@ -2709,6 +2722,7 @@ entries:
     date: '1964-03-09'
     place: nanning
     thread: china-leadership
+    also: [china-agriculture]
     c: 'Nanning 南宁. Zhu De 朱德 hears Wei Guoqing 韦国清, first secretary of the Guangxi committee 中共广西壮族自治区委员会, and Qiao Xiaoguang 乔晓光, He Ximing 贺希明, Qin Yingji 覃应机, Wu Jinnan 伍晋南 and others of its Secretariat, and says of farming: Guangxi''s chief problem is water conservancy; let the masses build the works themselves, the state helping; more small reservoirs, fewer large ones.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1902. Made public: 2016. Names: Zhu De, Wei Guoqing, He Ximing, Qin Yingji.'
     tags: [polity:prc, name:zhu-de, vis:only:prc, name:he-ximing, name:qin-yingji, name:wei-guoqing]
@@ -2981,8 +2995,8 @@ entries:
     when: Mar. 10
     date: '1964-03-10'
     place: peking
-    thread: china-leadership
-    also: [soviet-union]
+    thread: china-polemic
+    also: [soviet-union, china-mao-foreign]
     c: 'Mao, Beijing, the Hall of the People, afternoon: receives and dines the Romanian delegation, with Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kang Sheng. Mao: the open polemic was begun by the other side, to end only when they retract; it is a war of pens: no one dies, the sky does not fall, grass grows, fish swim, women bear children. China will answer every article and resolution, perhaps ten years, there are 2,000;{1} he has a five-year plan, then Liu and the others.{2} Both sides were equal at the talks; "tonight a meeting of unity".{3}'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 10, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 712–723 (Mao received the delegation in the Old Peking Hall (老北京厅) of the Great Hall from 5:30 p.m. until past 7, with Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kang Sheng, Wu Xiuquan and Wu Lengxi; Mao: the polemic is a war of pens, no one dies, the sky does not fall, the grass grows, the fish swim, women bear children; China will answer every article of the 2,000-odd and every resolution, about ten years; the quarrel began in 1958 over the joint fleet and in 1960 at Bucharest; "two fortresses neither taken"; a dinner, toasts to Gheorghiu-Dej and to Mao, "a meeting of unity"); [[w.yang-shangkun-riji]], II, 359 (Mar. 10, 1964; from 6 p.m. to 8:15, at the Great Hall 大会堂; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1804 (Mar. 10, 1964; afternoon, 下午; Deng with Mao, Liu Shaoqi, Peng Zhen and others receives and dines the Romanian Workers'' Party Central Committee''s delegation; on the 12th he and Liu Shaoqi see the delegation off at the airport on its way to Korea); [[w.peng-zhen-nianpu-1902]], IV, 323 (Mar. 10, 1964, afternoon; Peng Zhen, with Liu Shaoqi, Deng Xiaoping and others, accompanies Mao in meeting the Romanian delegation and at the dinner; Mao: the open polemic was started by them, it needs a fair settlement; the talks good, both sides felt equal, "今晚是个团结的会见"). Made public: 1999. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kang Sheng.'
     src:
@@ -3003,7 +3017,7 @@ entries:
     when: Mar. 10
     date: '1964-03-10'
     place: peking
-    thread: china-leadership
+    thread: china-polemic
     also: [soviet-union]
     c: 'Peking, morning. Sixth and last talk with the Romanians. Ceaușescu: his Central Committee cables that the delegation ask China again to reconsider the pause; the delegation has also the CPSU''s recent reply to China, whose proposals include China''s; the interest of the movement lies in a stop; abuse does not make unity. Liu Shaoqi: China''s position is the four proposals of Feb. 29, agreement before a stop; he doubts the sincerity of those who ask a stop; the parties that passed anti-Chinese resolutions are to admit error and withdraw them; Romania itself had backed Khrushchev''s polemic against Albania and China. Bodnăraș: and if they admit? Liu: then China will answer no more.{1} Deng Xiaoping: the admission to be public and quick.{2} Ceaușescu asks a pause of a month or two. Maurer: they will tell Khrushchev at Moscow, and will go to Korea.{3}'
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 709–712 (Mar. 10 morning; Wu has Maurer say the delegation goes to Korea "tomorrow", though the delegation left Mar. 12 (723)); [[w.deng-xiaoping-nianpu-1904]], III, 1802 (Mar. 10, 1964; morning, 上午; the sixth talk; Deng says Khrushchev''s attack on the CCP was open and the admission of error must also be open). Made public: 1999. See [[cal.1964-03-09.china-leadership-2]], [[cal.1964-03-10.china-leadership]]. Names: Ceaușescu, Liu Shaoqi, Bodnăraș, Deng Xiaoping, Maurer, Khrushchev.'
@@ -3021,7 +3035,7 @@ entries:
   - id: cal.1964-03-10.china-leadership-3
     when: Mar. 10
     date: '1964-03-10'
-    thread: china-leadership
+    thread: china-mao
     c: 'Mao, for Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平 and Peng Zhen 彭真, then Yang Shangkun 杨尚昆 to act, on *Qunzhong fanying* 群众反映 no. 16 (Mar. 6), which prints a letter of Feb. 1964 from Wei Lianyi 魏莲一, principal of Peking Railway No. 2 Middle School, on lightening pupils'' loads: send it to every head and deputy head of the Propaganda Department, the heads, deputies and bureau chiefs of the Ministry of Education, the Peking Party committee and council''s education officials, three copies to the Youth League Center, for investigation. Too many courses, a load too heavy; teaching ill done; examinations treat pupils as enemies, by surprise attack. None of it helps the young grow lively in morals, mind and body.'
     n: '[[w.jianguo-yilai-mao-zedong]], XVII, 207–208 (Mar. 10, 1964); [[w.peng-zhen-nianpu-1902]], IV, 323 (Mar. 10, 1964; Peng Zhen, with Liu Shaoqi and Deng Xiaoping, receives Mao''s instruction on school courses, teaching and examinations). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Qunzhong fanying no. 16, Mar. 6, 1964, printing a letter of Feb. 1964 from Wei Lianyi, principal of Peking Railway No. 2 Middle School, on lightening the load of middle-school pupils (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 207 n.1a); Central Committee, Zhongfa [64] 180, Mar. 14, 1964, issuing Mao''s comment with Qunzhong fanying no. 16 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 207 n.1b). Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Yang Shangkun, Wei Lianyi. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
     src:
@@ -3036,7 +3050,7 @@ entries:
     when: Mar. 10
     date: '1964-03-10'
     place: peking
-    thread: china-leadership
+    thread: china-zhou
     c: Peking 北京. Yang Shangkun 杨尚昆 and Zhou Enlai 周恩来 by telephone.
     n: '[[w.yang-shangkun-riji]], II, 359 (Mar. 10, 1964). The words: 回家休息后，办公到2时。与恩来同志通电话 (II, 359). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai.'
     src:
@@ -3055,7 +3069,7 @@ entries:
     when: Mar. 10
     date: '1964-03-10'
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     c: Peking 北京. Peng Zhen 彭真, with Deng Xiaoping 邓小平, Kang Sheng 康生 and others, accompanies the Romanian Workers' Party's delegation to the Ministry of Culture's 文化部 concert.
     n: '[[w.peng-zhen-nianpu-1902]], IV, 323. The words: 晚 (IV, 323). See [[cal.1964-03-02.china-leadership]]. Names: Peng Zhen, Deng Xiaoping, Kang Sheng.'
     src:
@@ -3298,7 +3312,7 @@ entries:
     date: '1964-03-11'
     time: 1964-03-11T10:30Z
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     c: Peking 北京, the Peking Hotel 北京饭店, 6:30 to 9 p.m. The Romanian delegation gives a dinner; Yang Shangkun 杨尚昆 there.
     n: '[[w.yang-shangkun-riji]], II, 359 (Mar. 11, 1964). The words: 6时半到9时，参加罗马尼亚代表团请客，在北京饭店 (II, 359). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
@@ -3310,8 +3324,7 @@ entries:
   - id: cal.1964-03-11.china-leadership-3
     when: Mar. 11
     date: '1964-03-11'
-    thread: china-leadership
-    also: [china]
+    thread: china-foreign
     c: 'Deng Xiaoping 邓小平 meets the chargé d''affaires of the French mission in China, Claude Chayet 克劳德·沙耶. Deng: the two sides should develop relations gladly and exchange ambassadors on time and in other ways, in the interest of both peoples; mutual understanding has only begun and is to deepen; as it does, cultural, economic and trade bodies can have more contact.'
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1804 (Mar. 11, 1964). The words: 下午 (III, 1804). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Chayet.'
     src:
@@ -3329,6 +3342,7 @@ entries:
     date: '1964-03-11'
     place: nanning
     thread: china-leadership
+    also: [china-agriculture]
     c: Nanning 南宁. Zhu De 朱德 inspects the Guangxi forestry research institute 广西林业研究所.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1902. The words: 上午 (1902). Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
@@ -3341,7 +3355,7 @@ entries:
     when: Mar. 11
     date: '1964-03-11'
     place: nanning
-    thread: china-leadership
+    thread: china-united-front
     c: Nanning 南宁. Zhu De 朱德 hears Xie Fumin 谢扶民, vice-chairman of the Nationalities Committee of the Second NPC 第二届全国人大民族委员会, on the January forum of the minorities of the five southwestern provinces and regions 西南五省区少数民族座谈会 (Yunnan, Guizhou, Hunan, Guangxi and Guangdong 云贵湘桂粤).
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1902. The words: 下午 (1902). Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
@@ -3517,7 +3531,7 @@ entries:
   - id: cal.1964-03-12.china-leadership
     when: Mar. 12
     date: '1964-03-12'
-    thread: china-leadership
+    thread: china-foreign
     also: [soviet-union]
     c: The Romanian delegation leaves China for North Korea, after a day of rest on Mar. 11.
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 723 (Mar. 11 a day of rest; Mar. 12 departure; "eight days" of talks from Mar. 3 to Mar. 10); [[w.yang-shangkun-riji]], II, 359 (Mar. 12, 1964; seen off at the Eastern Suburb airport, 8:30 a.m.; Yang there); [[w.peng-zhen-nianpu-1902]], IV, 323 (Mar. 12, 1964, morning; Peng Zhen, with Liu Shaoqi, Deng Xiaoping, Kang Sheng, Yang Shangkun, Wu Xiuquan and others, at the airport seeing off Maurer''s delegation to Korea). Made public: 1999. See [[cal.1964-03-10.china-leadership]]. Check: the hour and the place of departure, which Wu does not give.'
@@ -3538,7 +3552,7 @@ entries:
     date: '1964-03-12'
     time: 1964-03-12T02:30Z
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     c: Peking 北京, the Foreign Affairs Office 外办, 10:30 a.m. A meeting on welcoming Zhou Enlai 周恩来 and Chen Yi 陈毅 home; Yang Shangkun 杨尚昆 there.
     n: '[[w.yang-shangkun-riji]], II, 359 (Mar. 12, 1964). The words: 10时半在外办开会，讨论欢迎周、陈回京事 (II, 359). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Chen Yi, Yang Shangkun.'
     src:
@@ -3551,7 +3565,7 @@ entries:
     when: Mar. 12
     date: '1964-03-12'
     place: peking
-    thread: china-leadership
+    thread: china-economy
     c: Peking 北京. Yang Shangkun 杨尚昆 looks over the works at the Huairen Tang 怀仁堂.
     n: '[[w.yang-shangkun-riji]], II, 359 (Mar. 12, 1964). The words: 下午处理文电，散步，去看了怀仁堂工地 (II, 359). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-02-12.china-leadership-2]]. Names: Yang Shangkun.'
     src:
@@ -3567,7 +3581,7 @@ entries:
   - id: cal.1964-03-12.china-leadership-4
     when: Mar. 12
     date: '1964-03-12'
-    thread: china-leadership
+    thread: china-foreign
     also: [indonesia]
     c: 'Deng Xiaoping 邓小平 meets Sukarni 苏卡尼, the Indonesian ambassador. Deng: China and Indonesia should go on developing their economic and cultural ties and cooperate closely at the second Afro-Asian conference and in the anti-imperialist, anti-colonial struggle.'
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1804 (Mar. 12, 1964). The words: 下午 (III, 1804). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Sukarni.'
@@ -3585,6 +3599,7 @@ entries:
     when: Mar. 12
     date: '1964-03-12'
     thread: china-leadership
+    also: [china-propaganda]
     c: Peng Zhen 彭真 asks the Peking committee's university department and the Ministry of Education 教育部 to report to the Center and the Propaganda Department what their men at the base have learned of the students' load.
     n: '[[w.peng-zhen-nianpu-1902]], IV, 323. Made public: 2012. See [[cal.1964-03-10.china-leadership-3]]. Names: Peng Zhen.'
     src:
@@ -3596,7 +3611,8 @@ entries:
     when: Mar. 12
     date: '1964-03-12'
     place: peking
-    thread: china-leadership
+    thread: china-models
+    also: [china-polemic, china-four-cleanups]
     c: 'Peking 北京. Peng Zhen 彭真 presides at the Peking committee''s Secretariat, which hears of the national education conference, and speaks: Mao''s 毛泽东 criticism of the students'' load means textbooks, examinations and cramming, the whole system to be studied; "the more books, the more stupid," against dead reading; fewer courses, time to rest and read; typical cases first, no hasty changes; a "Kangda" kind of college for the villages, half study, half labor; writers and actors "driven" down; the cadres know anti-imperialism and anti-feudalism, not anti-revisionism; the "four clean-ups," learning from the PLA and Daqing to run some years, class struggle for centuries; cadres able to fight hard battles, judged by the general line and the troops they can lead; "cool promoters," the *Beijing ribao* 北京日报 not to forget "one divides into two."'
     n: '[[w.peng-zhen-nianpu-1902]], IV, 323–324. Made public: 2012. Names: Peng Zhen, Mao Zedong.'
     src:
@@ -3694,7 +3710,7 @@ entries:
   - id: cal.1964-03-13.china-leadership
     when: Mar. 13
     date: '1964-03-13'
-    thread: china-leadership
+    thread: china-polemic
     also: [soviet-union]
     c: 'Peking. The *Renmin ribao* resumes its polemic the day after the Romanians leave, printing statements, resolutions, speeches and articles of left parties against the CPSU: Albania, Vietnam, Indonesia, Japan, New Zealand, North Korea, the Belgian communists and the Marxist–Leninist party of Australia. The seventh commentary is rebroadcast. The writers press on with the eighth and begin the ninth. The Chinese press had held its polemic from the Romanians'' arrival on Mar. 2 to the evening of Mar. 12.'
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 723–724 (the pause "from Mar. 2 to the evening of Mar. 12"; the resumption Mar. 13; the left parties named). To check: the *Renmin ribao*, Mar. 13, 1964 (the texts). See [[cal.1964-03-12.china-leadership]], [[cal.1964-02-04.china-leadership-4]].'
@@ -3708,7 +3724,7 @@ entries:
     date: '1964-03-13'
     time: 1964-03-13T09:10Z
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     c: Peking 北京, the Eastern Suburb airport 东郊机场, 5:10 p.m. Yang Shangkun 杨尚昆 meets the Japanese Communist Party's delegation and sees it to Diaoyutai 钓鱼台.
     n: '[[w.yang-shangkun-riji]], II, 360 (Mar. 13, 1964); [[w.peng-zhen-nianpu-1902]], IV, 324 (Mar. 13, 1964, afternoon; Peng Zhen at the airport meeting the Japanese party''s delegation under Hakamada Satomi, member of its Politburo and secretary of its Secretariat). The words: 5时10分去东郊机场接日本共产党代表团，送到钓鱼台 (II, 360). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
@@ -3723,7 +3739,7 @@ entries:
     date: '1964-03-13'
     time: 1964-03-13T12:00Z
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     c: Peking 北京, 8 to 9:30 p.m. Yang Shangkun 杨尚昆 at dinner with the Japanese Communist Party's delegation.
     n: '[[w.yang-shangkun-riji]], II, 360 (Mar. 13, 1964). The words: 8时到9时半陪同吃饭 (II, 360). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-03-13.china-leadership-2]]. Names: Yang Shangkun.'
     src:
@@ -3737,7 +3753,7 @@ entries:
     date: '1964-03-13'
     time: 1964-03-13T18:30Z
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Wang Zhen 王震 with Yang Shangkun 杨尚昆, late; Yang to bed at 2:30.
     n: '[[w.yang-shangkun-riji]], II, 360 (Mar. 13, 1964). The words: 晚间办公到2时，因王震同志来谈话，洗澡后睡已2时半了 (II, 360). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Zhen, Yang Shangkun.'
     src:
@@ -3750,7 +3766,7 @@ entries:
     when: Mar. 13
     date: '1964-03-13'
     place: peking
-    thread: china-leadership
+    thread: china-political-legal
     c: Peking 北京. Peng Zhen 彭真 explains to the second NPC Standing Committee's 全国人大常委会 114th session the regulations on foreigners' entry, exit, transit, residence and travel, which it approves; and analyzes the problems of the socialist camp and the international Communist movement.
     n: '[[w.peng-zhen-nianpu-1902]], IV, 324. The words: 下午 (IV, 324). Names: Peng Zhen.'
     src:
@@ -3768,6 +3784,7 @@ entries:
     date: '1964-03-13'
     place: canton
     thread: china-leadership
+    also: [china-army]
     c: Guangzhou 广州. Ye Jianying 叶剑英 receives Wang Sheling 王舍陵, a model artillery scout 炮兵侦察标兵, and sees him judge range by eye; praises him, and has his experience and his way of learning, by thousands of observations, spread through the army.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 913. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, name:ye-jianying, vis:only:prc]
@@ -3775,7 +3792,7 @@ entries:
     when: Mar. 13
     date: '1964-03-13'
     place: nanning
-    thread: china-leadership
+    thread: china-economy
     c: Nanning 南宁. Zhu De 朱德 receives all the members of the Guangxi 广西壮族自治区 three-level cadres conference on finance and trade 财贸三级干部会议, the region's conference on political work in public security 公安政治工作会议 and its three-level cadres conference on land reclamation 农垦三级干部会议.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1902–1903. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
@@ -3863,8 +3880,8 @@ entries:
     when: Mar. 14
     date: '1964-03-14'
     place: chengdu
-    thread: china-leadership
-    also: [europe-and-the-alliance]
+    thread: china-zhou-foreign
+    also: [europe-and-the-alliance, china-foreign]
     c: 'Zhou and Chen Yi, Chengdu, call a forum of ambassadors in Europe home on leave. Ambassadors home are to study, rest and not forget work; an outgoing ambassador stays responsible until the new one takes over. With Western Europe, China''s business is mainly economic: trade should first benefit states that have recognized China; balance trade with Western Europe; ambassadors to work with the foreign-trade bodies; in Northern Europe spread opposition to "two Chinas".'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 626 (Mar. 14, 1964). Made public: 1997. Names: Zhou Enlai, Chen Yi.'
     tags: [name:zhou-enlai, name:chen-yi, polity:prc, vis:only:prc]
@@ -3872,6 +3889,7 @@ entries:
     when: Mar. 14
     date: '1964-03-14'
     thread: china-leadership
+    also: [china-propaganda]
     c: The Center issues Mao's comment of Mar. 10 on school courses, teaching and examinations, with *Qunzhong fanying* 群众反映 no. 16, as Zhongfa 中发 [64] 180.
     n: '[[w.jianguo-yilai-mao-zedong]], XVII, 207 (Mar. 14, 1964; note 1); [[w.peng-zhen-nianpu-1902]], IV, 324–325 (Mar. 14, 1964; the Center issues *Qunzhong fanying* no. 16 of Mar. 6, with the letter of Wei Lianyi, head of Peking Railway No. 2 Middle School, on lightening the pupils'' load, and Mao''s comment: copies to the Propaganda and Education Ministry''s heads, the Peking committee and council, the Youth League; too many courses, poor teaching, examinations treating pupils as enemies with surprise attacks). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Names: Mao Zedong. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
     src:
@@ -3884,7 +3902,7 @@ entries:
     when: Mar. 14
     date: '1964-03-14'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Yang Shangkun 杨尚昆 finishes reading Roger Pethybridge's *A Key to Soviet Politics* 《苏联政治的钥匙》.
     n: '[[w.yang-shangkun-riji]], II, 360 (Mar. 14, 1964). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Pethybridge.'
     src:
@@ -3896,7 +3914,7 @@ entries:
     when: Mar. 14
     date: '1964-03-14'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Yang Shangkun 杨尚昆 with Kang Yimin 康一民.
     n: '[[w.yang-shangkun-riji]], II, 360 (Mar. 14, 1964). The words: 上午约康一民同志谈话 (II, 360). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kang Yimin.'
     src:
@@ -3913,7 +3931,7 @@ entries:
     when: Mar. 14
     date: '1964-03-14'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Yang Shangkun 杨尚昆 with Mao Weizhong 毛维忠 on repairing the Juren Tang 居仁堂.
     n: '[[w.yang-shangkun-riji]], II, 360 (Mar. 14, 1964). The words: 下午约毛维忠谈居仁堂修理问题 (II, 360). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-02-26.china-leadership-7]]. Names: Yang Shangkun, Mao Weizhong.'
     src:
@@ -3929,8 +3947,8 @@ entries:
   - id: cal.1964-03-14.china-leadership-6
     when: Mar. 14
     date: '1964-03-14'
-    thread: china-leadership
-    also: [china]
+    thread: china-foreign
+    also: [china-army]
     c: 'Deng Xiaoping 邓小平, as acting premier, meets the Cambodian military delegation under Lon Nol 朗诺, Deputy Prime Minister, Defense Minister and chief of staff of the Royal Armed Forces. Deng: the imperialists say a stronger China will threaten the world, its neighbors first, but the Chinese have their own work to finish; of China''s 9.6 million square kilometers most is thinly peopled, backward, ill served by roads; its industrial technology is backward; its clothes are poor, and food, clothing and goods will take great effort; to throw off economic and technical backwardness will take about fifty years.'
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1804 (Mar. 14, 1964). The words: 下午 (III, 1804). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Lon Nol.'
     src:
@@ -3947,7 +3965,7 @@ entries:
     when: Mar. 14
     date: '1964-03-14'
     place: nanning
-    thread: china-leadership
+    thread: china-united-front
     c: 'Nanning 南宁. Zhu De 朱德 attends the rally for the sixth anniversary of the Guangxi Zhuang Autonomous Region 广西壮族自治区 and speaks: Guangxi is subtropical, a good place rare in the country, with much to be done in farming, forestry, herding, sidelines and fisheries; its minerals rich, many still untapped, a fine basis for socialist industry.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1903. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
@@ -4041,7 +4059,7 @@ entries:
     when: Mar. 15
     date: '1964-03-15'
     place: peking
-    thread: china-leadership
+    thread: china-zhou
     c: Zhou returns to Beijing in the afternoon.{1} Mao, Liu Shaoqi, Deng Xiaoping and others meet him at the airport.{2}
     n: '[[w.zhou-enlai-nianpu-1949]], II, 626 (Mar. 15, 1964); [[w.zhou-enlai-waijiao-huodong]], 398 (Mar. 15, 1964; 下午, 乘专机从成都回到北京; 毛泽东、刘少奇、邓小平等到机场欢迎); [[w.lengxi-shinian-lunzhan-1956-1966]], 727 (Zhou Enlai back in Peking on Mar. 15 from the 14-country tour of four months, Chen Yi with him); [[w.yang-shangkun-riji]], II, 360 (Mar. 15, 1964; the plane lands at 4 p.m.; Mao there; Yang at the airport from 3 with his family); [[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 15, 1964; Deng with Mao and Liu Shaoqi at the airport welcoming Zhou Enlai back from his visit to fourteen countries of Asia, Africa and Europe); [[w.chen-yi-nianpu]], 1018 (Mar. 15, 1964, afternoon; Chen Yi in the same plane with Zhou from Chengdu to Peking); [[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 15, 1964, afternoon; Peng Zhen, with Mao, Liu Shaoqi, Deng Xiaoping and others, at the airport meeting Zhou Enlai and his party, back from ten African countries, Albania and three Asian countries). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
     src:
@@ -4063,8 +4081,8 @@ entries:
   - id: cal.1964-03-15.china-leadership-2
     when: Mar. 15
     date: '1964-03-15'
-    thread: china-leadership
-    also: [china]
+    thread: china-liu
+    also: [china-foreign, china-army]
     c: Liu Shaoqi receives the Cambodian military delegation headed by Lt. Gen. Lon Nol, Deputy Prime Minister, Minister of National Defense and Chief of Staff of the Royal Armed Forces.{1}
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (Mar. 15, 1964); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 325 (Mar. 11–Apr. 4, 1964; Lt. Gen. Lon Nol, Deputy Prime Minister, Minister of National Defense and Chief of Staff of the Cambodian armed forces, leads a military delegation visiting China at invitation; Mao, Liu Shaoqi, Zhou and Chen Yi and others receive the party). Names: Liu Shaoqi, Lon Nol. Check: Zhou and Chen Yi''s reception of Lon Nol is dated Mar. 17 ([[cal.1964-03-17.china-leadership]]).'
     src:
@@ -4077,7 +4095,7 @@ entries:
     when: Mar. 15
     date: '1964-03-15'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
     n: '[[w.yang-shangkun-riji]], II, 360 (Mar. 15, 1964). The words: 晚间看了电视《一家人》，田家英同志来谈话 (II, 360). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
     src:
@@ -4237,8 +4255,8 @@ entries:
     when: Mar. 16
     date: '1964-03-16'
     place: peking
-    thread: china-leadership
-    also: [soviet-union]
+    thread: china-polemic
+    also: [soviet-union, china-mao-foreign]
     c: 'Mao presides over the Politburo Standing Committee, the Hall of the People, Room 118, afternoon: Zhou Enlai reports on the 14-country tour;{1} the CPSU letter of Mar. 7 answering China''s of Feb. 29.{2} Mao: answer, but briefly; the CPSU has not published its February plenum documents nor sent China its letter to the parties, so what "decisive rebuff" or "collective measures" are meant? The more he hurries, the slower China walks; the correspondence to be considered for publication. Three more commentaries to the tenth; then theory: modern revisionism and social democracy, internationalism and nationalism.{3} Peng Zhen 彭真 and Chen Yi 陈毅 attend besides the members. Zhou reports first on Africa.{4} The members read the letter as deception and pressure. Mao reads it as a pretext for a split and a diversion from Khrushchev''s troubles at home; the talks to be put off to May of next year, the drafting committee to the autumn after, the world conference the year after.{5}'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 16, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 727–733 (the Standing Committee Mar. 16, the Chinese side with Peng Zhen and Chen Yi attending besides the members; Zhou Enlai, back from 14 countries on Mar. 15, reports first on Africa; Mao raises the CPSU letter of Mar. 7: answer it briefly; the CPSU has not printed its plenum documents or given its letter; the talks to May of next year, the preparatory meeting for the autumn after, the world conference the year after; "the more he hurries, the slower we walk"; the letters may be published; the commentaries go on to the tenth, then theory (modern revisionism and social democracy, internationalism and nationalism) and the international organizations'' two lines; the analysis of the letter as pressure, a pretext for a split and a diversion from Khrushchev''s troubles at home); [[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 16, 1964; Deng at the Politburo Standing Committee meeting Mao presides over, on the CPSU Central Committee''s letter of Mar. 7 and Zhou Enlai''s account of his fourteen-nation visit); [[w.lengxi-shinian-lunzhan-1956-1966]], 727; [[w.lengxi-shinian-lunzhan-1956-1966]], 729, 731–732. Made public: 1999. Check: Wu, 727, puts the meeting in the west hall of the Yinian Tang 颐年堂. To check: the CPSU letter of Mar. 7, 1964 (named by [[w.zedong-mao-zedong-nianpu]], V, Mar. 16, 1964). Names: Mao Zedong, Zhou Enlai, Peng Zhen, Chen Yi, Khrushchev.'
     src:
@@ -4258,7 +4276,7 @@ entries:
   - id: cal.1964-03-16.china-leadership-2
     when: Mar. 16
     date: '1964-03-16'
-    thread: china-leadership
+    thread: china-zhou-foreign
     c: Zhou wires Tsedenbal, Mongolia's Council of Ministers chairman, concern, sympathy and condolence for the losses of a month of snow and wind. China will give 10,000 tons of feed maize and 200,000 yuan.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 627 (Mar. 16, 1964). Names: Zhou Enlai, Tsedenbal.'
     tags: [name:zhou-enlai, polity:prc, polity:mongolia, name:tsedenbal]
@@ -4284,7 +4302,7 @@ entries:
     date: '1964-03-16'
     time: 1964-03-16T14:00Z
     place: peking
-    thread: china-leadership
+    thread: china-center
     follows:
       - cal.1964-03-16.china-leadership-3
     c: Peking 北京, 10 p.m. to 12:30 a.m. Kong Yuan 孔原, Tong Xiaopeng 童小鹏 and Xu Ming 许明 with Yang Shangkun 杨尚昆.
@@ -4312,6 +4330,7 @@ entries:
     when: Mar. 16
     date: '1964-03-16'
     thread: china-leadership
+    also: [china-agriculture]
     c: 'Peng Dehuai 彭德怀 mails walnuts to the Wushi brigade 乌石大队 at home for seed, and writes to the brigade that he wants to come home as a member, if they agree. The brigade''s secretary later writes back: they will come to fetch him; he is welcome.'
     n: '[[w.peng-dehuai-nianpu]], 781. Made public: 1998. Names: Peng Dehuai.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai, ok:fields-place]
@@ -4320,6 +4339,7 @@ entries:
     date: '1964-03-16'
     place: peking
     thread: china-leadership
+    also: [china-agriculture]
     c: Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 plants fruit trees in the courtyard and builds a grape trellis.
     n: '[[w.peng-dehuai-nianpu]], 781 (a △ item under Mar. 16). Made public: 1998. Names: Peng Dehuai.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai]
@@ -4522,7 +4542,8 @@ entries:
   - id: cal.1964-03-17.china-leadership
     when: Mar. 17
     date: '1964-03-17'
-    thread: china-leadership
+    thread: china-zhou-foreign
+    also: [china-foreign]
     c: 'Zhou and Chen Yi receive the Cambodian military delegation under Lt.{1} Gen. Lon Nol, deputy prime minister, defense minister and chief of staff. Zhou: the U.S. blocks China''s entry to the U.N. despite more recognitions, a policy of seeing only the present. Praises Cambodia''s independent, neutral, non-aligned policy: a state, large or small, that upholds justice is supported.{2}'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 627 (Mar. 17, 1964); [[w.zhou-enlai-waijiao-huodong]], 398 (Mar. 17, 1964; 接见柬埔寨军事代表团); [[w.chen-yi-nianpu]], 1018 (Mar. 17, 1964, morning; Chen Yi with Zhou receives Lon Nol and his delegation and gives them a banquet). Made public: 1993. Names: Zhou Enlai, Chen Yi, Lon Nol.'
     src:
@@ -4541,7 +4562,7 @@ entries:
     when: Mar. 17
     date: '1964-03-17'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Mei Xing 梅行 with Yang Shangkun 杨尚昆 on planning.
     n: '[[w.yang-shangkun-riji]], II, 361 (Mar. 17, 1964). The words: 下午梅行同志来谈计划问题 (II, 361). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Mei Xing, Yang Shangkun.'
     src:
@@ -4558,7 +4579,7 @@ entries:
     when: Mar. 17
     date: '1964-03-17'
     place: peking
-    thread: china-leadership
+    thread: china-center
     follows:
       - cal.1964-03-17.china-leadership-2
     c: Peking 北京. Tian Chou 田畴 with Yang Shangkun 杨尚昆 on the Huairen Tang 怀仁堂 and the Juren Tang 居仁堂.
@@ -4576,7 +4597,7 @@ entries:
   - id: cal.1964-03-17.china-leadership-4
     when: Mar. 17
     date: '1964-03-17'
-    thread: china-leadership
+    thread: china-foreign
     also: [africa]
     c: Henry Muli, Kenya's first Ambassador to China, calls on Chen Yi 陈毅.
     n: '[[w.chen-yi-nianpu]], 1018–1019. The words: 上午 (1018–1019). Names: Chen Yi.'
@@ -4591,6 +4612,7 @@ entries:
     date: '1964-03-17'
     place: guiyang
     thread: china-leadership
+    also: [china-army]
     c: Guiyang 贵阳. Zhu De 朱德 hears the heads of the Guizhou committee 中共贵州省委 and the Guizhou Military District 贵州省军区 on their work.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1903. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
@@ -4858,8 +4880,8 @@ entries:
     when: Mar. 18
     date: '1964-03-18'
     place: peking
-    thread: china-leadership
-    also: [soviet-union]
+    thread: china-polemic
+    also: [soviet-union, china-mao-foreign]
     c: 'Mao presides over the Politburo Standing Committee, Zhongnanhai, the Juxiang Shuwu, afternoon, on holding a Central Work Conference.{1} Mao: for a year his time has gone to the struggle with Khrushchev; now back to domestic questions. Khrushchev''s 70th birthday in April: send a telegram with some substance; the more he opposes China the more China is friendly, he for a split China for unity, to hold the initiative.{2}'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 18, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 733–734 (the Standing Committee at Mao''s home the day after the Mar. 16 meeting, on the Central Work Conference and the third-line construction; Mao: for a year his main energy has gone to the struggle with Khrushchev, now back to domestic questions; the telegram for Khrushchev''s seventieth birthday, with matter in it, in the opposite posture, he for a split and China for unity, so that China is in the initiative and may attack or fall back; Gomułka''s letter of mid-March to be answered); [[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 18, 1964; Deng at the Politburo Standing Committee meeting Mao presides over, on preparing the Central Work Conference and Sino-Soviet relations). Made public: 1999. Names: Mao Zedong, Khrushchev.'
     src:
@@ -4877,7 +4899,7 @@ entries:
   - id: cal.1964-03-18.china-leadership-2
     when: Mar. 18
     date: '1964-03-18'
-    thread: china-leadership
+    thread: china-mao
     c: 'Mao to Hua Luogeng 华罗庚, mathematician, director of the Academy of Sciences'' Institute of Mathematics: his poem and letter received; a high ambition, to be congratulated.'
     n: '[[w.jianguo-yilai-mao-zedong]], XVII, 211–212 (Mar. 18, 1964; note 2: the poem, to the tune *Xijiang yue* 西江月, sent early in 1964, of his resolve to join workers and peasants; the letter, early 1964, on applying the optimum-seeking and overall-planning methods to production). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Hua Luogeng, poem to the tune Xijiang yue, sent to Mao Zedong early in 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 211 n.2a); Hua Luogeng to Mao Zedong, letter of early 1964 on applying the optimum-seeking method and overall planning to problems of production (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 211 n.2b). Names: Mao Zedong, Hua Luogeng. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
     src:
@@ -4890,7 +4912,7 @@ entries:
   - id: cal.1964-03-18.china-leadership-3
     when: Mar. 18
     date: '1964-03-18'
-    thread: china-leadership
+    thread: china-mao
     c: 'Mao to Gao Heng 高亨, philologist, professor at Shandong 山东 University: the books, the poem and two letters received, many thanks; he reads such learned work with much pleasure.'
     n: '[[w.jianguo-yilai-mao-zedong]], XVII, 213–214 (Mar. 18, 1964; note 1: at the reception of Nov. 16, 1963 Mao had told Gao he had read his works; Gao then sent six books, among them *Zhuzi xinjian* 诸子新笺 and *Zhouyi gujing jinzhu* 周易古经今注, through Zhou Yang, and early in 1964 a poem to the tune *Shuidiao getou* on Mao''s poems). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Gao Heng to Mao Zedong, letter sent through Zhou Yang with six of his works, after Nov. 16, 1963 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 213 n.1a); Gao Heng to Mao Zedong, second letter, early 1964, with his poem to the tune Shuidiao getou on Mao''s poems (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 213 n.1b). Names: Mao Zedong, Gao Heng. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
     src:
@@ -4934,7 +4956,7 @@ entries:
   - id: cal.1964-03-18.china-leadership-5
     when: Mar. 18
     date: '1964-03-18'
-    thread: china-leadership
+    thread: china-foreign
     c: Helge Akre 黑尔格·阿克雷, Norway's new Ambassador, calls on Chen Yi 陈毅.
     n: '[[w.chen-yi-nianpu]], 1019. The words: 上午 (1019). Names: Chen Yi.'
     tags: [polity:prc, polity:norway, name:chen-yi, ok:fields-place]
@@ -4946,7 +4968,7 @@ entries:
   - id: cal.1964-03-18.china-leadership-6
     when: Mar. 18
     date: '1964-03-18'
-    thread: china-leadership
+    thread: china-foreign
     also: [africa]
     c: Joe Fio Meyer 乔-非奥·麦耶, Ghana's new Ambassador, calls on Chen Yi 陈毅.
     n: '[[w.chen-yi-nianpu]], 1019. The words: 上午 (1019). Names: Chen Yi.'
@@ -4961,6 +4983,7 @@ entries:
     date: '1964-03-18'
     place: guiyang
     thread: china-leadership
+    also: [china-agriculture]
     c: Guiyang 贵阳. Zhu De 朱德 inspects the Maotiao River reservoir 猫跳河水库.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1903. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
@@ -4969,6 +4992,7 @@ entries:
     date: '1964-03-18'
     place: guiyang
     thread: china-leadership
+    also: [china-agriculture]
     follows:
       - cal.1964-03-18.china-leadership-7
     c: Guiyang 贵阳. Zhu De 朱德 hears the departments concerned of Guizhou 贵州省 on farming, water conservancy and forestry.
@@ -5221,8 +5245,8 @@ entries:
     date: '1964-03-19'
     time: 1964-03-19T08:00Z
     place: peking
-    thread: china-leadership
-    also: [indonesia]
+    thread: china-zhou-foreign
+    also: [indonesia, china-foreign]
     c: 'Zhou receives Sukarni, Indonesia''s ambassador, and gives four views on a second Asian-African conference: it is not to oppose the non-aligned conference, and more states are to be brought in to lessen resistance;{1} the imperialists would link opposition to Malaysia with the conference, which China must not do; no fear if the non-aligned conference comes first, later preparation is better, and the second conference is to give Bandung''s ten principles concrete form; of the twenty-four invited not all may come, the Democratic Republic of Vietnam could be added.{2}'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 627 (Mar. 19, 1964); [[w.zhou-enlai-waijiao-huodong]], 398 (Mar. 19, 1964; 下午4时, 中南海西花厅). Made public: 1993. Names: Zhou Enlai, Sukarni.'
     src:
@@ -5235,7 +5259,8 @@ entries:
   - id: cal.1964-03-19.china-leadership-2
     when: Mar. 19
     date: '1964-03-19'
-    thread: china-leadership
+    thread: china-mao-foreign
+    also: [china-foreign]
     c: Mao Zedong receives Puerto Rican student representatives visiting China, Narciso Rabell Martínez and Marta Sánchez Olmeda.
     n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 325 (Mar. 19, 1964). Names: Mao Zedong. Check: the book gives the names as 纳尔希索·拉贝尔·马丁内斯 and 玛尔塔·桑切斯·奥尔梅娅 and no words of Mao''s; the Latin forms are back-converted.'
     src:
@@ -5246,8 +5271,8 @@ entries:
   - id: cal.1964-03-19.china-leadership-3
     when: Mar. 19
     date: '1964-03-19'
-    thread: china-leadership
-    also: [soviet-union, indonesia]
+    thread: china-polemic
+    also: [soviet-union, indonesia, china-mao-foreign]
     c: 'Mao on an International Liaison Department paper printing the CPSU Central Committee''s letter of Feb. 12 to the Central Committee of the Indonesian Communist Party: for Jiang Qing 江青; an old paper, still worth reading. Bluster; no way out; the Soviet revisionists have gone into a dead-end lane.'
     n: '[[w.jianguo-yilai-mao-zedong]], XVII, 215–216 (Mar. 19, 1964; note 1: the CPSU letter says its plenum will take up the Chinese leaders'' splitting and publish its report and papers). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: CPSU Central Committee to the Central Committee of the Indonesian Communist Party, letter of Feb. 12, 1964, as printed in a paper of the Chinese Central Committee''s International Liaison Department (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 215 n.1). Names: Mao Zedong, Jiang Qing. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
     src:
@@ -5280,6 +5305,7 @@ entries:
     date: '1964-03-19'
     place: peking
     thread: china-leadership
+    also: [china-propaganda]
     c: Peking 北京. Li Fuchun's 李富春 meeting on housing for the institutes of the Academy of Sciences 科学院; Yang Shangkun 杨尚昆 there.
     n: '[[w.yang-shangkun-riji]], II, 361 (Mar. 19, 1964). The words: 下午参加富春同志召集的解决科学院各研究所的房子问题会议 (II, 361). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Yang Shangkun.'
     src:
@@ -5311,7 +5337,7 @@ entries:
   - id: cal.1964-03-19.china-leadership-7
     when: Mar. 19
     date: '1964-03-19'
-    thread: china-leadership
+    thread: china-foreign
     c: Claude Chayet 克劳德·沙耶, the French chargé d'affaires, calls on Chen Yi 陈毅.
     n: '[[w.chen-yi-nianpu]], 1019. The words: 上午 (1019). Names: Chen Yi, Chayet.'
     tags: [polity:prc, polity:fr, name:chen-yi, ok:fields-place, name:chayet-claude]
@@ -5515,8 +5541,8 @@ entries:
   - id: cal.1964-03-20.china-leadership
     when: Mar. 20
     date: '1964-03-20'
-    thread: china-leadership
-    also: [africa]
+    thread: china-zhou-foreign
+    also: [africa, china-foreign]
     c: 'Zhou wires greetings to the Afro-Asian People''s Solidarity Council meeting at Algiers on Mar. 22: the risen peoples of Asia and Africa will win full political and economic independence and carry the anti-imperialist struggle through.{1}'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 627 (Mar. 20, 1964); [[w.zhou-enlai-waijiao-huodong]], 398–99 (Mar. 20, 1964; 电报祝贺亚非人民团结理事会会议); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 325 (Mar. 20, 1964; Zhou cables greetings to the session of the Afro-Asian People''s Solidarity Council to open at Algiers on Mar. 22). Names: Zhou Enlai.'
     src:
@@ -5547,7 +5573,7 @@ entries:
     when: Mar. 20
     date: '1964-03-20'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Yang Shangkun 杨尚昆 with Deng Diantao 邓典桃.
     n: '[[w.yang-shangkun-riji]], II, 361 (Mar. 20, 1964). The words: 下午同典桃同志谈话 (II, 361). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Diantao.'
     src:
@@ -5564,7 +5590,7 @@ entries:
     when: Mar. 20
     date: '1964-03-20'
     place: peking
-    thread: china-leadership
+    thread: china-center
     follows:
       - cal.1964-03-20.china-leadership-3
     c: Peking 北京. Tian Jiaying 田家英 and Mei Xing 梅行 with Yang Shangkun 杨尚昆.
@@ -5599,7 +5625,7 @@ entries:
   - id: cal.1964-03-20.china-leadership-6
     when: Mar. 20
     date: '1964-03-20'
-    thread: china-leadership
+    thread: china-foreign
     also: [soviet-union]
     c: Deng Xiaoping 邓小平 meets the Polish ambassador, Knote 克诺泰, and tells him of the talks with the Romanian Workers' Party delegation.
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 20, 1964). Made public: 2009 (the nianpu). Names: Deng Xiaoping. Check: the ambassador''s name in Latin letters.'
@@ -5611,7 +5637,7 @@ entries:
   - id: cal.1964-03-20.china-leadership-8
     when: Mar. 20
     date: '1964-03-20'
-    thread: china-leadership
+    thread: china-foreign
     also: [japan]
     c: Chen Yi 陈毅 receives the Japanese writers' delegation led by Kamei Katsuichirō 龟井胜一郎.
     n: '[[w.chen-yi-nianpu]], 1019. The words: 下午 (1019). Names: Chen Yi.'
@@ -5625,7 +5651,8 @@ entries:
     when: Mar. 20
     date: '1964-03-20'
     place: peking
-    thread: china-leadership
+    thread: china-four-cleanups
+    also: [china-propaganda]
     c: 'Peking 北京. Peng Zhen 彭真 sees the Peking art work team''s play *Sisters of the Mountain Village* 《山村姐妹》, and tells the company to go deep into life: Party and government workers, teachers and artists all must go down; "人像树一样，总得有根"; our ground the life of workers and peasants.'
     n: '[[w.peng-zhen-nianpu-1902]], IV, 325. The words: 晚 (IV, 325). Made public: 2012. Names: Peng Zhen.'
     src:
@@ -5651,6 +5678,7 @@ entries:
     date: '1964-03-20'
     place: anshun
     thread: china-leadership
+    also: [china-agriculture]
     follows:
       - cal.1964-03-20.china-leadership-9
     c: Anshun 安顺. Zhu De 朱德 inspects the Huayan commune 华严人民公社.{1} He talks with the heads of its Party committee 公社党委 on farm output and the people's life.{2}
@@ -5840,8 +5868,8 @@ entries:
   - id: cal.1964-03-21.china-leadership
     when: Mar. 21
     date: '1964-03-21'
-    thread: china-leadership
-    also: [japan, soviet-union]
+    thread: china-zhou-foreign
+    also: [japan, soviet-union, china-liu, china-foreign]
     c: Zhou, with Liu Shaoqi and Deng Xiaoping, meets the Japanese Communist Party Central Committee delegation under Hakamada Satomi, Politburo and Secretariat member.{1}
     n: '[[w.zhou-enlai-nianpu-1949]], II, 627–28 (Mar. 21, 1964); [[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 21, 1964; 下午, 和刘少奇、邓小平会见日本共产党代表团); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (Mar. 21, 1964; Liu, with Zhou Enlai and Deng Xiaoping, receives the Japanese Communist Party Central Committee delegation headed by Hakamada Satomi, Politburo and Secretariat member); [[w.yang-shangkun-riji]], II, 362 (Mar. 21, 1964; the talks with the Japanese party''s delegation at the Great Hall 大会堂 from 4 p.m.; Yang there; Zhou, Liu and Deng not named); [[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 21, 1964; afternoon, 下午; Deng with Liu Shaoqi, Zhou Enlai, Peng Zhen and Kang Sheng in talks with the Japanese Communist Party delegation under Hakamada Satomi 袴田里见, member of its Politburo and secretary of its Secretariat); [[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 21 and 25, 1964; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Deng Xiaoping and others, in talks with the Japanese party''s delegation). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Hakamada Satomi.'
     src:
@@ -5863,7 +5891,8 @@ entries:
     when: Mar. 21
     date: '1964-03-21'
     place: peking
-    thread: china-leadership
+    thread: china-zhou-foreign
+    also: [china-foreign]
     c: 'Zhou receives Mario Montfort Toledo, of the Mexican weekly *Siempre!*, then in Beijing: revolution and construction rest on self-reliance without excluding outside help;{1} with self-confidence foreign aid and support will come. "He who has the Way has many helpers."{2}'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 628 (Mar. 21, 1964); [[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 21, 1964; 接见墨西哥《永久》周刊撰稿人). Names: Zhou Enlai, Montfort Toledo.'
     src:
@@ -5876,8 +5905,8 @@ entries:
     when: Mar. 21
     date: '1964-03-21'
     place: peking
-    thread: china-leadership
-    also: [china, japan]
+    thread: china-zhou-foreign
+    also: [japan, china-foreign]
     c: Peking. Zhou Enlai attends the welcoming banquet given by the Chinese Communist Party's Central Committee for the Japanese Communist Party delegation.
     n: '[[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 21, 1964; 晚上); [[w.yang-shangkun-riji]], II, 362 (Mar. 21, 1964; the dinner at 6:30 p.m., Yang home at 8; Zhou not named); [[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 21, 1964; 同日晚; Deng gives a banquet for the Japanese Communist Party delegation under Hakamada Satomi 袴田里见); [[w.chen-yi-nianpu]], 1019 (Mar. 21, 1964, evening; Chen Yi at the Central Committee''s banquet for the delegation led by Hakamada Satomi 袴田里见). Names: Zhou Enlai.'
     src:
@@ -5896,7 +5925,7 @@ entries:
   - id: cal.1964-03-21.china-leadership-4
     when: Mar. 21
     date: '1964-03-21'
-    thread: china-leadership
+    thread: china-mao
     c: 'Mao on Li Xiannian''s 李先念 letter of Mar. 14 proposing that *Dagong bao* 大公报, the paper the Propaganda Department has given to economic work, put out a special supplement, *Jingji pinglun* 经济评论: to Kang Sheng 康生 and Wu Lengxi 吴冷西 to read, then back to Li to act on.'
     n: '[[w.jianguo-yilai-mao-zedong]], XVII, 217 (Mar. 21, 1964). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Li Xiannian to Mao Zedong, letter of Mar. 14, 1964 on a special supplement of Dagong bao, Jingji pinglun (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 217 n.1). Names: Mao Zedong, Li Xiannian, Kang Sheng, Wu Lengxi. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
     src:
@@ -5925,7 +5954,7 @@ entries:
   - id: cal.1964-03-21.china-leadership-7
     when: Mar. 21
     date: '1964-03-21'
-    thread: china-leadership
+    thread: china-foreign
     also: [japan]
     follows:
       - cal.1964-03-21.china-leadership-3
@@ -6002,7 +6031,8 @@ entries:
   - id: cal.1964-03-22.china-leadership
     when: Mar. 22
     date: '1964-03-22'
-    thread: china-leadership
+    thread: china-four-cleanups
+    also: [china-mao]
     c: 'Mao drafts for the Central Committee the instruction on organizing teams of cadres to lecture, to carry the socialist education movement through to the end: three to four years at least;{1} the "double ten points" to be read, explained and discussed in countryside and town over several years; every Central Committee member down to county Party committee members to lecture once or twice, those who refuse called slackers.{2} Encloses the PLA General Political Department report of Mar. 16 and Qufu county committee''s of Feb. 10.{3} Sent out Mar. 31.{4}'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 22, 1964. [[w.jianguo-yilai-mao-zedong]], XVII, 218–221 (Mar. 22, 1964; Mao''s draft, signed "the Center", with his note sending it to Liu, Zhou, Deng, Peng, He Long, Chen Yi, Kang Sheng, Chen Boda, Lu Dingyi and Wu Lengxi, then Yang Shangkun to handle; note 1: issued Mar. 31); [[w.mao-zedong-zhuan]], VI, ch. 72 (Mar. 22 Mao drafts the instruction to organize teams of cadres to lecture, to carry the socialist education movement through to the end (n.36)). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 72). Check: unit E, the issue of Mar. 31 (XVII, 219 n.1), is the Center''s act of another day. To check: the instruction (sent Mar. 31, 1964; named by [[w.zedong-mao-zedong-nianpu]], V, Mar. 22, 1964); General Political Department, "Summary report on the whole army''s study of the two documents on the rural socialist education movement," Mar. 16, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 220 n.3); Qufu county Party committee, "Report on the socialist education movement in the Yanjiacun brigade of Qufu under the Center''s two ten points," Feb. 10, 1964, as forwarded by the Shandong provincial committee (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 220 n.4); Mao Zedong 毛泽东, instruction drafted for the Center 中共中央 on organizing teams of cadres to lecture and carry the socialist education movement through (manuscript 手稿), Mar. 22, 1964 (cited by [[w.mao-zedong-zhuan]], VI, ch. 72 n.36). Names: Mao Zedong.'
     src:
@@ -6018,16 +6048,16 @@ entries:
     when: Mar. 22
     date: '1964-03-22'
     place: peking
-    thread: china-leadership
-    also: [soviet-union]
+    thread: china-polemic
+    also: [soviet-union, china-mao-foreign]
     c: Mao presides over the Politburo Standing Committee, Juxiang Shuwu, afternoon, on the eighth commentary on the CPSU open letter.
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 22, 1964. Made public: 2013. Names: Mao Zedong.'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1964-03-22.china-leadership-3
     when: Mar. 22
     date: '1964-03-22'
-    thread: china-leadership
-    also: [south-asia]
+    thread: china-africa-tour
+    also: [south-asia, china-zhou-foreign, china-liu]
     c: 'Zhou and Liu Shaoqi wire Ayub Khan on Pakistan''s national day: the two peoples'' deep traditional friendship; much grown in two years in politics, economy and culture; they will cooperate further for peace in Asia and the world.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 628 (Mar. 22, 1964). Names: Zhou Enlai, Liu Shaoqi, Ayub Khan.'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:ayub-khan-mohammad, polity:prc, polity:pakistan]
@@ -6035,7 +6065,7 @@ entries:
     when: Mar. 22
     date: '1964-03-22'
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     also: [japan, soviet-union]
     c: Peking 北京. Yang Shangkun 杨尚昆, at home, reads papers on the Japanese–Soviet party talks 日苏会谈.
     n: '[[w.yang-shangkun-riji]], II, 362 (Mar. 22, 1964). The words: 上午在家休息，看日苏会谈材料 (II, 362). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
@@ -6054,7 +6084,7 @@ entries:
     date: '1964-03-22'
     time: 1964-03-22T07:00Z
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     c: Peking 北京, the Museum of the Revolution 革命纪念馆, 3 to 6 p.m. Yang Shangkun 杨尚昆 takes the Japanese Communists round.
     n: '[[w.yang-shangkun-riji]], II, 362 (Mar. 22, 1964). The words: 下午3时到革命纪念馆，陪同日本同志参观，6时完 (II, 362). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-03-13.china-leadership-2]]. Names: Yang Shangkun.'
     src:
@@ -6067,7 +6097,7 @@ entries:
     when: Mar. 22
     date: '1964-03-22'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
     n: '[[w.yang-shangkun-riji]], II, 362 (Mar. 22, 1964). The words: 晚间田家英同志来谈话 (II, 362). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
     src:
@@ -6083,7 +6113,7 @@ entries:
   - id: cal.1964-03-22.china-leadership-7
     when: Mar. 22
     date: '1964-03-22'
-    thread: china-leadership
+    thread: china-foreign
     also: [south-asia]
     c: Chen Yi 陈毅 cables Bhutto, Pakistan's Foreign Minister, on Pakistan's national day.
     n: '[[w.chen-yi-nianpu]], 1019. Names: Chen Yi, Bhutto.'
@@ -6092,6 +6122,7 @@ entries:
     when: Mar. 22
     date: '1964-03-22'
     thread: china-leadership
+    also: [china-agriculture]
     c: 'Zhu De 朱德 cables the Center 中共中央 and Mao Zedong 毛泽东 on Guangxi 广西: last year''s drought was serious, grain some 1.2–1.3 billion jin 斤 below 1962, but cash crops up nearly everywhere; the region''s comrades, building on its nature, would grow grain and many lines together, subtropical cash crops above all, and hope that for the next two years the grain sent out of the region be cut or not raised; more timber, livestock and local goods could then go out, worth far more than grain, for export to buy grain; grain output so low that even the hundred-odd million jin sent out strains the whole region; in the hills, where carrying grain out is hard, some would rather give a pig than carry out a hundred jin; spare grain there better stored against famine, and for defense; their view worth weighing: in the long run less grain and more cash crops from such regions pays best.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1903–1904. Made public: 2016. Names: Zhu De, Mao Zedong.'
     tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc]
@@ -6099,7 +6130,8 @@ entries:
     when: Mar. 22
     date: '1964-03-22'
     place: guiyang
-    thread: china-leadership
+    thread: china-four-cleanups
+    also: [china-economy]
     c: Guiyang 贵阳. Zhu De 朱德 hears Zhou Lin 周林, first secretary of the Guizhou committee 中共贵州省委 and governor of Guizhou 贵州省省长, on finance and trade and on the rural socialist education movement 农村社会主义教育运动.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1904. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
@@ -6245,8 +6277,8 @@ entries:
     when: Mar. 23
     date: '1964-03-23'
     place: peking
-    thread: china-leadership
-    also: [japan, soviet-union]
+    thread: china-polemic
+    also: [japan, soviet-union, china-mao-foreign]
     c: 'Mao, Beijing, the Hall of the People, evening: receives and dines the Japanese Communist Party delegation under Hakamada Satomi, back from the Soviet Union; Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kang Sheng, Yang Shangkun, Liao Chengzhi, Zhao Yimin present. The encirclement of cities from the countryside will not do in Japan, Britain, the U.S. or much of Europe; two experiences, October''s and China''s. Of the CPSU: the Soviet side threatens "decisive rebuff" and "collective measures" and China waits; he asked the Romanians to tell Khrushchev that China is ready for a break in relations, a break in trade, the treaty torn up, an army from the northeast or Xinjiang. The JCP to hold the flag of national independence, use the Japanese-American monopoly split, build a broad front with some anti-American capitalists.'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 23, 1964. [[w.yang-shangkun-riji]], II, 362 (Mar. 23, 1964; in the Peking Room 北京厅, 6:30 to 9:30 p.m.; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 23, 1964; Deng accompanies Mao Zedong 毛泽东 in meeting Hakamada Satomi 袴田里见 and his party); [[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 23, 1964, evening; Peng Zhen, with Liu Shaoqi, Deng Xiaoping, Kang Sheng and others, accompanies Mao in meeting the Japanese party''s delegation). Made public: 2013. Check: Made public: Yang Shangkun''s diary records the reception and dinner ([[w.yang-shangkun-riji]], II, 362); by the 2017 edition''s front matter the day stands in its first edition ([[w.shangkun-yang-shangkun-riji-2]], 2001), not seen, before the 2013 the note gives. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Kang Sheng, Yang Shangkun, Liao Chengzhi, Hakamada Satomi, Zhao Yimin, Khrushchev.'
     tags: [name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, name:khrushchev-nikita-s, polity:prc, polity:ussr, vis:only:prc, name:hakamada-satomi, name:liao-chengzhi, name:yang-shangkun, name:zhao-yimin]
@@ -6259,8 +6291,8 @@ entries:
     when: Mar. 23
     date: '1964-03-23'
     place: peking
-    thread: china-leadership
-    also: [south-asia]
+    thread: china-zhou-foreign
+    also: [south-asia, china-foreign]
     c: Zhou attends the Pakistani embassy's national-day reception at Ambassador Raza's invitation.{1}
     n: '[[w.zhou-enlai-nianpu-1949]], II, 628 (Mar. 23, 1964); [[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 23, 1964; 北京饭店, 巴基斯坦驻华大使罗查举行的国庆招待会); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 326 (Mar. 23, 1964; the reception, Zhou, Chen Yi and He Long attending; Chen Yi speaks: a second Asian–African conference will do much for the Asian and African states'' anti-imperialist unity, their friendly cooperation and world peace, and China will work for its success); [[w.chen-yi-nianpu]], 1019 (Mar. 23, 1964, evening, the Peking Hotel; Chen Yi speaks: thanks Pakistan''s leaders again, for Zhou and himself; a second Asian-African conference). Names: Zhou Enlai.'
     src:
@@ -6292,7 +6324,7 @@ entries:
     when: Mar. 23
     date: '1964-03-23'
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     also: [japan, soviet-union]
     c: Peking 北京. Yang Shangkun 杨尚昆 finishes reading the whole record of the Japanese–Soviet party talks 日苏会谈, 140,000 characters.
     n: '[[w.yang-shangkun-riji]], II, 362 (Mar. 23, 1964). The words: 下午读完了"日苏会谈"全部记录，共14万字 (II, 362). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-03-22.china-leadership-4]]. Names: Yang Shangkun.'
@@ -6473,8 +6505,8 @@ entries:
   - id: cal.1964-03-24.china-leadership
     when: Mar. 24
     date: '1964-03-24'
-    thread: china-leadership
-    also: [africa]
+    thread: china-africa-tour
+    also: [africa, china-zhou-foreign]
     c: Zhou attends the dinner given by Chen Yi and Mrs.{1} Zhang Qian for the Albanian and Afro-Asian ambassadors in Beijing whose countries the delegation visited; tells of his impressions of the fourteen countries.{2}
     n: '[[w.zhou-enlai-nianpu-1949]], II, 628 (Mar. 24, 1964); [[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 24, 1964; 晚上, 陈毅副总理和夫人举行的宴会); [[w.chen-yi-nianpu]], 1019 (Mar. 24, 1964, evening; Chen Yi and Zhang Qian''s banquet for the envoys of the countries the leaders lately visited in Europe, Africa and Asia). Names: Zhou Enlai, Chen Yi, Zhang Qian.'
     src:
@@ -6494,8 +6526,8 @@ entries:
     date: '1964-03-24'
     time: 1964-03-24T03:30Z
     place: peking
-    thread: china-leadership
-    also: [africa, middle-east]
+    thread: china-zhou-foreign
+    also: [africa, middle-east, china-foreign]
     c: 'Zhou receives the ambassadors of Kenya, Ghana, the UAR, Morocco, Iraq and Syria.{1} Iraq''s ambassador Amin: Iraq, Syria and other Arab states want him to visit. Zhou: warmly received in every Arab country visited; on some questions no agreement but frank talk brought agreement on many. The second Asian-African and second non-aligned conferences differ in nature, scope and tasks, cannot replace each other; both should succeed and need not exclude one another; which comes first matters little.{2}'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 628 (Mar. 24, 1964); [[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 24, 1964; 上午11时30分, 中南海西花厅, 接见摩洛哥、阿联、伊拉克大使和叙利亚临时代办); [[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 24, 1964; 下午5时, 人民大会堂浙江厅, 肯尼亚首任驻华大使); [[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 24, 1964; 下午5时30分, 人民大会堂浙江厅, 加纳驻华大使和夫人); [[w.chen-yi-nianpu]], 1019 (Mar. 24, 1964, morning; Chen Yi with Zhou receives the Arab envoys, Zniber of Morocco, Zakaria Adly Imam 查卡里亚·阿德利·伊马姆 of the UAR, Amin of Iraq and the Syrian chargé, 哈桑·赫德). Made public: 1993. Names: Zhou Enlai, Amin.'
     src:
@@ -6510,7 +6542,7 @@ entries:
     when: Mar. 24
     date: '1964-03-24'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
     n: '[[w.yang-shangkun-riji]], II, 362 (Mar. 24, 1964). The words: 下午田家英同志来谈话 (II, 362). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
     src:
@@ -6527,7 +6559,7 @@ entries:
     when: Mar. 24
     date: '1964-03-24'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Wang Dongxing 汪东兴 with Yang Shangkun 杨尚昆 on Mao's 毛泽东 journey out of Peking.
     n: '[[w.yang-shangkun-riji]], II, 362 (Mar. 24, 1964). The words: 晚间汪东兴同志来谈主席外出事 (II, 362). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Dongxing, Yang Shangkun, Mao Zedong.'
     src:
@@ -6543,7 +6575,7 @@ entries:
   - id: cal.1964-03-24.china-leadership-5
     when: Mar. 24
     date: '1964-03-24'
-    thread: china-leadership
+    thread: china-polemic
     also: [soviet-union]
     c: Deng Xiaoping 邓小平 makes further changes in the draft Central Committee 中央 reply to the CPSU Central Committee's letter of Mar. 7, as revised by Kang Sheng 康生 and Wu Lengxi 吴冷西.
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 24, 1964). The words: 作进一步的修改 (III, 1805). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Kang Sheng, Wu Lengxi.'
@@ -6680,7 +6712,8 @@ entries:
     date: '1964-03-25'
     time: 1964-03-25T03:00Z
     place: peking
-    thread: china-leadership
+    thread: china-africa-tour
+    also: [china-zhou-foreign]
     c: 'Zhou receives the Tirana University delegation under Karaman Ili.{1} Again praises Albania''s efficiency in helping plant olives in China; the forestry bodies are to protect the seedlings. To Guo Moruo, Du Runsheng and others: no complacency, there is grass everywhere, send people to Albania to learn; the Academy of Sciences is to change "investigate" to "learn", investigation is conceit. Same day attends the signing of the Academy–Tirana University agreement and its 1964–65 plan.{2}'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 628–29 (Mar. 25, 1964); [[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 25, 1964; 上午11时, 人民大会堂河北厅, 接见阿尔巴尼亚国立地拉那大学代表团; 签字仪式). Names: Zhou Enlai, Guo Moruo, Du Runsheng.'
     src:
@@ -6693,8 +6726,8 @@ entries:
   - id: cal.1964-03-25.china-leadership-2
     when: Mar. 25
     date: '1964-03-25'
-    thread: china-leadership
-    also: [japan]
+    thread: china-zhou-foreign
+    also: [japan, china-liu, china-foreign]
     c: Zhou, with Liu Shaoqi, Deng Xiaoping, Peng Zhen and others, talks with the Japanese Communist Party delegation.{1}
     n: '[[w.zhou-enlai-nianpu-1949]], II, 629 (Mar. 25, 1964); [[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 25, 1964; 21—25日期间, 参加以刘少奇为团长的中共代表团同日本共产党代表团的会谈); [[w.yang-shangkun-riji]], II, 363 (Mar. 25, 1964; the two parties'' talks, 3:30 to 6:30 p.m.; Yang there; Zhou and the others not named). Made public: 1993. Names: Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Peng Zhen.'
     src:
@@ -6707,14 +6740,14 @@ entries:
   - id: cal.1964-03-25.china-leadership-3
     when: Mar. 25
     date: '1964-03-25'
-    thread: china-leadership
+    thread: china-zhou
     c: 'Zhou receives and dines performers of the Oriental Song and Dance Ensemble; talks about its development. Urges Wang Kun and others to join singing with local speech, opera and folk song; seats Wang Kun and Zhang Jun in the middle: why always the premier in the middle and the performers at the side, today let us change.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 629 (Mar. 25, 1964). Names: Zhou Enlai, Wang Kun, Zhang Jun.'
     tags: [name:zhou-enlai, polity:prc, name:wang-kun, name:zhang-jun]
   - id: cal.1964-03-25.china-leadership-4
     when: Mar. 25
     date: '1964-03-25'
-    thread: china-leadership
+    thread: china-mao
     c: 'Mao, on the cover of his own unpublished critique of 1941, "Critique of the Center''s line from Sept. 1931 to Jan. 1935" (on nine documents of the Wang Ming 王明 leadership): to Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Peng Zhen 彭真, Kang Sheng 康生, Chen Boda and Wu Lengxi 吴冷西 to read and give views for revision; back to Mao. On a second cover: to Chen Yi 陈毅, back to Mao.'
     n: '[[w.jianguo-yilai-mao-zedong]], XVII, 224–228 (Mar. 25, 1964; notes 1 and 7: written in 1941, after the Politburo meeting of Sept. 1941; the photograph of the manuscript came to Mao in 1964 from the Central Archives (note 9)); [[w.jian-zhou-enlai]], 519 ("months before" the end of 1964 Mao brings up the nine essays of 1941 against the "wrong lines of the early 1930s" and asks Zhou and the other leaders for comments, saying he wants to revise them; the day not given, the note citing the Mao chronology, V, 329–330). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: [[w.zedong-mao-zedong-nianpu]], V, 329–330 (cited by [[w.jian-zhou-enlai]], 519 n.6a); [[w.hu-qiaomu-huiyi-mao-zedong]], 212 (cited by [[w.jian-zhou-enlai]], 519 n.6b). Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping, Peng Zhen, Kang Sheng, Chen Boda, Wu Lengxi, Chen Yi, Wang Ming. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
     src:
@@ -6728,7 +6761,7 @@ entries:
     date: '1964-03-25'
     time: 1964-03-25T01:30Z
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     c: Peking 北京, the Museum of the Revolution 革命博物馆, 9:30 a.m. to 12:30 p.m. Yang Shangkun 杨尚昆 takes the Japanese Communists round.
     n: '[[w.yang-shangkun-riji]], II, 363 (Mar. 25, 1964). The words: 上午9时半到12时半，陪同日本同志参观革命博物馆 (II, 363). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-03-13.china-leadership-2]]. Names: Yang Shangkun.'
     src:
@@ -6742,6 +6775,7 @@ entries:
     date: '1964-03-25'
     place: liuzhou
     thread: china-leadership
+    also: [china-agriculture]
     c: Zhu De 朱德 reaches Liuzhou 柳州, Guangxi 广西, and inspects the Liuzhou water-turbine pump works 柳州水轮泵厂, the tractor works 拖拉机厂 and the Liuzhou horticultural farm 柳州园艺场.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1904. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
@@ -6906,7 +6940,7 @@ entries:
   - id: cal.1964-03-26.china-leadership
     when: Mar. 26
     date: '1964-03-26'
-    thread: china-leadership
+    thread: china-zhou-foreign
     also: [africa]
     c: Zhou goes to Mao's for a meeting;{1} talks about the African trip.{2}
     n: '[[w.zhou-enlai-nianpu-1949]], II, 629 (Mar. 26, 1964); [[w.lengxi-shinian-lunzhan-1956-1966]], 734, 739 (the Standing Committee at Mao''s home Mar. 26, the first of two meetings on Mar. 26 and 27, on the struggle with Khrushchev and the Central Work Conference); [[w.deng-xiaoping-nianpu-1904]], III, 1806 (Mar. 26, 1964; Deng attends the Politburo 政治局 Standing Committee 政治局常委会 meeting Mao Zedong 毛泽东 presides over on Sino-Soviet relations and other questions); [[w.peng-zhen-nianpu-1902]], IV, 325 (Mar. 26, 1964, afternoon; Peng Zhen sits in at Mao''s Standing Committee, hearing Zhou Enlai on his African visit and discussing Sino-Soviet relations). Made public: 1997. Check: Wu (734, 739) has the meeting at Mao''s home a Standing Committee, the first of two on Mar. 26 and 27, on the struggle with Khrushchev and the Central Work Conference; he does not name the African trip. Names: Zhou Enlai, Mao Zedong.'
@@ -6926,7 +6960,7 @@ entries:
   - id: cal.1964-03-26.china-leadership-2
     when: Mar. 26
     date: '1964-03-26'
-    thread: china-leadership
+    thread: china-mao
     c: 'Mao, returning to Tian Jiaying 田家英 the essay he is to put in the selected readings, "Oppose book worship" (as he now retitles it): written in 1929, where he cannot recall; first a short piece of that name, at Xunwu 寻乌 in Jiangxi 江西, then rewritten long to convince comrades, the substance the same; both were mimeographed.'
     n: '[[w.jianguo-yilai-mao-zedong]], XVII, 222–223 (Mar. 26, 1964; dated by Mao "Mar. 25"; the editors (note 2): Mar. 26, Tian''s letter being of midnight Mar. 25; note 1: the essay, first titled "Investigation work", printed in Aug. 1930, given by a Shanghang peasant in Feb. 1957; Mao later fixed its date as May 1930 at Xunwu; in the second edition of the *Selected Works*, vol. 1, June 1991). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Tian Jiaying to Mao Zedong, letter of midnight Mar. 25, 1964, asking when and where "Investigation work" was written (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 222 n.1a). Names: Mao Zedong, Tian Jiaying. Check: whether the day is Mar. 25, as Mao wrote, or Mar. 26, as the editors date it. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
     src:
@@ -6939,7 +6973,7 @@ entries:
     when: Mar. 26
     date: '1964-03-26'
     place: peking
-    thread: china-leadership
+    thread: china-foreign
     also: [japan]
     c: Peking 北京. The *Renmin ribao* 人民日报 prints *Akahata*'s 赤旗报 long article "Kennedy and American imperialism" 肯尼迪和美帝国主义, over 50,000 characters.
     n: '[[w.yang-shangkun-riji]], II, 363 (Mar. 26, 1964). The words: 今天的《人民日报》……日本《赤旗报》发表的《肯尼迪和美帝国主义》的长文，共5万余字 (II, 363).'
@@ -6953,6 +6987,7 @@ entries:
     date: '1964-03-26'
     place: peking
     thread: china-leadership
+    also: [china-propaganda]
     c: Peking 北京. The *Renmin ribao* 人民日报 editorial "Strive to learn Mao Zedong Thought well" 努力学好毛泽东思想.
     n: '[[w.yang-shangkun-riji]], II, 363 (Mar. 26, 1964). The words: 社论《努力学好毛泽东思想》也很重要 (II, 363).'
     src:
@@ -7093,7 +7128,7 @@ entries:
   - id: cal.1964-03-27.china-leadership
     when: Mar. 27
     date: '1964-03-27'
-    thread: china-leadership
+    thread: china-zhou-foreign
     also: [africa]
     c: Zhou sees the Chinese expert group going to Zanzibar.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 629 (Mar. 27, 1964). Made public: 1997. Names: Zhou Enlai.'
@@ -7101,8 +7136,8 @@ entries:
   - id: cal.1964-03-27.china-leadership-2
     when: Mar. 27
     date: '1964-03-27'
-    thread: china-leadership
-    also: [china]
+    thread: china-four-cleanups
+    also: [china-liu]
     c: 'Liu Shaoqi writes to Wang Guangmei in reply, on the course of the socialist-education movement at the Taoyuan brigade: 95 percent of the masses and 95 percent of the cadres are to be united, which is the movement''s and the struggle''s final aim, and cannot be reached without criticism and struggle.{1} Those who violate the people''s interests and the Party''s policy, seek the illegal gains of a few, persist, and try to wreck, cannot but be fought on firmly, or the 95 percent of masses and cadres cannot be united.{2}'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 589 (Mar. 27, 1964); [[w.macfarquhar-origins-of-the-cultural]], III, 401 (Wang Guangmei keeps in touch with Liu Shaoqi while at Taoyuan). Made public: 1996. To check: [[w.jin-1949-1989-niande-zhongguo]], 540 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 401 n.13a); [[w.survey-of-china-mainland-2]], No. 4024, 4, 8, 10, 12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 401 n.13b). Names: Liu Shaoqi, Wang Guangmei.'
     src:
@@ -7116,8 +7151,8 @@ entries:
   - id: cal.1964-03-27.china-leadership-3
     when: Mar. 27
     date: '1964-03-27'
-    thread: china-leadership
-    also: [soviet-union]
+    thread: china-polemic
+    also: [soviet-union, china-mao-foreign]
     c: Mao's home. Mao presides at the Standing Committee, the second day running (the first, Mar. 26), on the struggle with Khrushchev and the Central Work Conference; Wu gives the two days' matters together. Mao's line is to drag out the break, and to prepare for it. The reply to the CPSU letter of Mar. 7, drafted, is to say that Soviet–Chinese talks cannot be this May, and October is too early, and that they should be in the first half of 1965, May say, and put off again if either side finds the time not ripe; that the preparatory meeting is of 17 parties, not the 26 of 1960; that the world conference is not to be dated, perhaps three years off; and that each side should print the other's criticisms, the demand pressed without end. The eighth commentary is read and needs only wording, to appear at the month's end. If the CPSU prints its plenum documents and begins a campaign, China will print the two parties' letters of recent months and ask the CPSU to do the same. The telegram to Khrushchev for his seventieth birthday to be drafted in Peking, sent when Mao has seen it, in four names. Mao allows that Khrushchev may be put out by a palace coup and a worse man come, so the telegram is friendly; he likens Khrushchev to Marshal Hong of the *Water Margin*, who let out the 108 demons, the Chinese leaders being the demons.
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 734–739 (the two Standing Committee meetings at Mao''s home "on Mar. 26 and 27", "two days running"; the matters given together, not by day). Made public: 1999. See [[cal.1964-03-26.china-leadership]]. Names: Mao Zedong, Khrushchev. Check: which day each matter was raised.'
     src:
@@ -7130,6 +7165,7 @@ entries:
     date: '1964-03-27'
     place: peking
     thread: china-leadership
+    also: [china-propaganda]
     c: Peking 北京. The ACFTU's party group and the Propaganda Department report to Yang Shangkun 杨尚昆 on their examination of the *Gongren ribao* 工人日报.
     n: '[[w.yang-shangkun-riji]], II, 363 (Mar. 27, 1964). The words: 上午约全总党组和中宣部同志，汇报检查《工人日报》的情况 (II, 363). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
@@ -7146,7 +7182,7 @@ entries:
     when: Mar. 27
     date: '1964-03-27'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
     n: '[[w.yang-shangkun-riji]], II, 363 (Mar. 27, 1964). The words: 晚间休息后，办公。田家英同志来谈话 (II, 363). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
     src:
@@ -7162,7 +7198,7 @@ entries:
   - id: cal.1964-03-27.china-leadership-6
     when: Mar. 27
     date: '1964-03-27'
-    thread: china-leadership
+    thread: china-foreign
     also: [japan]
     c: Deng Xiaoping 邓小平 sees off at the airport Hakamada Satomi 袴田里见 and his party, leaving Peking 北京 for a visit to Korea.
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1805 (Mar. 27, 1964). See [[cal.1964-03-21.china-leadership]]. Names: Deng Xiaoping, Hakamada Satomi.'
@@ -7175,7 +7211,8 @@ entries:
     when: Mar. 27
     date: '1964-03-27'
     place: peking
-    thread: china-leadership
+    thread: china-opera
+    also: [china-agriculture]
     c: 'Peking 北京. Peng Zhen 彭真 at the Peking Opera Troupe''s 北京京剧团 dress rehearsal of *The Commune Head''s Daughter* 《社长的女儿》: at Yan''an in 1943 Peking opera was reformed, *Driven to Join the Liangshan Rebels* 《逼上梁山》 and *Three Attacks on the Zhu Village* 《三打祝家庄》 newly written, but not kept up; modern plays since 1958 to be summed up; Peking''s audiences know the opera, so reform carefully; time and strength as needed.'
     n: '[[w.peng-zhen-nianpu-1902]], IV, 325–326. Made public: 2012. Names: Peng Zhen.'
     src:
@@ -7251,8 +7288,8 @@ entries:
     when: Mar. 28
     date: '1964-03-28'
     place: peking
-    thread: china-leadership
-    also: [china, korea]
+    thread: china-zhou-foreign
+    also: [korea, china-foreign]
     c: Peking. Zhou Enlai receives the DPRK Academy of Sciences delegation headed by Chŏn Tu-hwan, a vice president.
     n: '[[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 28, 1964; 上午). Names: Zhou Enlai.'
     src:
@@ -7271,7 +7308,7 @@ entries:
     place:
       - peking
       - wuhan
-    thread: china-leadership
+    thread: china-mao
     c: Mao leaves Peking for the south, for Wuhan, and later goes on to Changsha.{1}
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 739–740 ("the next day, Mar. 28, he left the capital for Wuhan, and later went to Changsha"; Liu Shaoqi directing the Standing Committee''s work in his absence, 740); [[w.mao-zedong-zhuan]], VI, ch. 72 (the book has Mao leave Peking for the south Mar. 27). Made public: 1999. See [[cal.1964-03-27.china-leadership-3]]. Names: Mao Zedong. Check: the transport, and the day he reached Wuhan; Wu gives neither.'
     src:
@@ -7292,7 +7329,7 @@ entries:
   - id: cal.1964-03-28.china-leadership-3
     when: Mar. 28
     date: '1964-03-28'
-    thread: china-leadership
+    thread: china-foreign
     c: Li Xiannian, Vice-Premier, receives all the members of the Hungarian government trade delegation led by Deputy Minister of Foreign Trade Szalai Béla.
     n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 326–327 (Mar. 28, 1964). Names: Li Xiannian. Check: the book gives the deputy minister as 萨拉伊·贝洛; the Latin form is back-converted.'
     src:
@@ -7314,8 +7351,7 @@ entries:
   - id: cal.1964-03-28.china-leadership-4
     when: Mar. 28
     date: '1964-03-28'
-    thread: china-leadership
-    also: [china]
+    thread: china-foreign
     c: 'Deng Xiaoping 邓小平 meets 埃尔南 (Hernán) and the Venezuelan Communist Party students with him. On the experience of China''s new-democratic revolution: every country has its own features and must solve practical questions by them; without joining Marxism–Leninism''s universal truths to a country''s reality revolution cannot succeed; China''s experience is for reference only; others'' technique may be used, but their ways of solving political questions only for reference.'
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1806 (Mar. 28, 1964). Made public: 2009 (the nianpu). Names: Deng Xiaoping. Check: the name in Latin letters (the nianpu: 埃尔南).'
     src:
@@ -7327,7 +7363,8 @@ entries:
     when: Mar. 28–29
     date: '1964-03-28'
     place: handan
-    thread: china-leadership
+    thread: china-models
+    also: [china-four-cleanups, china-mao]
     follows:
       - cal.1964-03-28.china-leadership-2
     c: 'Handan 邯郸. Mao 毛泽东 stops two days, hears Tao Lujia 陶鲁笳 of Shanxi 山西 and Lin Tie 林铁 of Hebei 河北 and five Hebei prefectural heads. Did the work hinder production? "Every step close to production." The class struggle was not raised by the Party: the people want the four clean-ups. Hears Chen Yonggui''s 陈永贵 name for the first time.'
@@ -7343,7 +7380,7 @@ entries:
     when: Mar. 28
     date: '1964-03-28'
     place: changsha
-    thread: china-leadership
+    thread: china-four-cleanups
     c: Changsha 长沙. Zhu De 朱德 hears Zhang Pinghua 张平化, first secretary of the Hunan committee 中共湖南省委, on farm output and the rural socialist education movement 农村社会主义教育运动.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1904. The words: 上午 (1904). Made public: 2016. Names: Zhu De, Zhang Pinghua.'
     tags: [polity:prc, name:zhu-de, vis:only:prc, name:zhang-pinghua]
@@ -7356,7 +7393,8 @@ entries:
     when: Mar. 28
     date: '1964-03-28'
     place: changsha
-    thread: china-leadership
+    thread: china-political-legal
+    also: [china-united-front]
     c: Changsha 长沙. Zhu De 朱德 calls on Cheng Qian 程潜, vice-chairman of the NPC Standing Committee 全国人大常委会, vice-chairman of the Revolutionary Committee of the Kuomintang 中国国民党革命委员会 and governor of Hunan 湖南省省长.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1904. The words: 下午 (1904). Made public: 2016. Names: Zhu De, Cheng Qian.'
     tags: [polity:prc, name:zhu-de, vis:only:prc, name:cheng-qian]
@@ -7422,8 +7460,8 @@ entries:
     date: '1964-03-29'
     time: 1964-03-29T08:00Z
     place: peking
-    thread: china-leadership
-    also: [laos]
+    thread: china-zhou-foreign
+    also: [laos, china-foreign]
     c: Zhou receives Laos's health minister Khamsouk Keola;{1} exchange of views on Prince Souvanna Phouma's coming visit.{2}
     n: '[[w.zhou-enlai-nianpu-1949]], II, 629 (Mar. 29, 1964); [[w.zhou-enlai-waijiao-huodong]], 399 (Mar. 29, 1964; 下午4时, 中南海西花厅); [[w.chen-yi-nianpu]], 1019 (Mar. 29, 1964, afternoon; Chen Yi with Zhou receives Khamsouk Keola 坎苏·高拉, then gives him a banquet). Made public: 1993. Names: Zhou Enlai, Khamsouk Keola, Souvanna Phouma.'
     src:
@@ -7438,7 +7476,7 @@ entries:
     when: Mar. 29
     date: '1964-03-29'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Li Fuchun 李富春 with Yang Shangkun 杨尚昆.
     n: '[[w.yang-shangkun-riji]], II, 364 (Mar. 29, 1964). The words: 下午办公，李富春同志来谈话 (II, 364). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Li Fuchun, Yang Shangkun.'
     src:
@@ -7469,7 +7507,7 @@ entries:
     place:
       - peking
       - shanghai
-    thread: china-leadership
+    thread: china-center
     follows:
       - cal.1964-03-29.china-leadership-3
     c: Yang Shangkun 杨尚昆, after asking Liu Shaoqi 刘少奇 and Zhou Enlai 周恩来, gives Shanghai 上海 their word on whether Ke Qingshi 柯庆施 is to be operated on.
@@ -7484,6 +7522,7 @@ entries:
     date: '1964-03-29'
     place: changsha
     thread: china-leadership
+    also: [china-agriculture]
     c: Changsha 长沙. Zhu De 朱德 inspects the Hunan agricultural science research institute 湖南省农业科学研究所.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1904. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
@@ -7692,8 +7731,8 @@ entries:
     when: Mar. 30–31
     date: '1964-03-30'
     place: peking
-    thread: china-leadership
-    also: [africa, south-asia, soviet-union]
+    thread: china-africa-tour
+    also: [africa, south-asia, soviet-union, china-zhou-foreign]
     c: 'Zhou reports on the visit to fourteen countries to a joint session of the 115th and 116th meetings of the NPC Standing Committee and the 142nd and 143rd plenary meetings of the State Council. Five parts: the course and gains; the trip to Albania; Africa''s revolutionary situation and tasks; South Asia; China''s policy toward Afro-Asian states. The trip took 72 days and 108,000 li; set out the five principles for relations with African and Arab states, accepted by both; broke the U.S. block to set up relations with Tunisia and agree with Ethiopia to normalize them soon; announced the eight principles of aid; explained the Sino-Indian border; stated China''s stand on Taiwan and the U.N. against "two Chinas". The first mission to Africa was a major event in China''s foreign relations. Domestic work is the surest capital; without it going abroad does nothing. Commends the interpreters Qi Zonghua, Ji Chaozhu and Fan Chengzuo: interpreting has the best political future; seven hundred million people and so few interpreters.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 629–30 (Mar. 30–31, 1964); [[w.yang-shangkun-riji]], II, 364 (Mar. 30, 1964; at the NPC Standing Committee 人大常委会, 3 to 7 p.m. Mar. 30, "not yet finished," and 3 to 7 p.m. Mar. 31; Yang there); [[w.jian-zhou-enlai]], 503 (Zhou''s report to the National People''s Congress on the trip: Africa a continent of awakening). Made public: 1997. To check: [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, 227–228 (cited by [[w.jian-zhou-enlai]], 503 n.43). Names: Zhou Enlai, Mao Zedong.'
     tags: [name:zhou-enlai, name:mao-zedong, polity:prc, vis:only:prc]
@@ -7701,7 +7740,7 @@ entries:
     when: Mar. 30
     date: '1964-03-30'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Tian Jiaying 田家英 tells Yang Shangkun 杨尚昆 of Mao's 毛泽东 talk at Handan 邯郸 with officials of Hebei 河北 and Shanxi 山西.
     n: '[[w.yang-shangkun-riji]], II, 364 (Mar. 30, 1964). The words: 上午办公，田家英同志来谈主席在邯郸同河北、山西省同志谈话的情况 (II, 364). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun, Mao Zedong.'
     src:
@@ -7719,7 +7758,7 @@ entries:
     date: '1964-03-30'
     time: 1964-03-30T12:30Z
     place: peking
-    thread: china-leadership
+    thread: china-polemic
     also: [soviet-union]
     c: Peking 北京, 8:30 to 11 p.m. The radio broadcasts the eighth commentary, "Proletarian revolution and Khrushchev's revisionism" 无产阶级革命和赫鲁晓夫修正主义.
     n: '[[w.yang-shangkun-riji]], II, 364 (Mar. 30, 1964). The words: 晚8时半到11时，听了八评的广播《无产阶级革命和赫鲁晓夫修正主义》 (II, 364). Names: Khrushchev.'
@@ -7735,7 +7774,7 @@ entries:
     place:
       - shanghai
       - peking
-    thread: china-leadership
+    thread: china-center
     c: 'Chen Pixian 陈丕显 telephones Yang Shangkun 杨尚昆 three times: Ke Qingshi 柯庆施 better.'
     n: '[[w.yang-shangkun-riji]], II, 364 (Mar. 30, 1964). The words: 今天接丕显同志3次电话，报告柯老病情好转 (II, 364). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1964-03-29.china-leadership-3]]. Names: Chen Pixian, Yang Shangkun, Ke Qingshi.'
     src:
@@ -7747,7 +7786,8 @@ entries:
     when: Mar. 30–Apr. 1
     date: '1964-03-30'
     place: zhengzhou
-    thread: china-leadership
+    thread: china-four-cleanups
+    also: [china-mao]
     c: Zhengzhou 郑州. Mao 毛泽东 hears, in two afternoons, Liu Lantao 刘澜涛 of the Northwest Bureau 西北局, Li Qiming 李启明 of Shaanxi 陕西, Li Baohua 李葆华 of Anhui 安徽, Liu Jianxun 刘建勋 of Henan 河南 and Henan prefectural heads. The education to be thorough, three to four years; the people's contradictions and the four clean-ups first, the enemy's after; where leadership is usurped, seize power first. Asks Anhui and Henan on drainage of the lower Yellow River.
     n: '[[w.mao-zedong-zhuan]], VI, ch. 72 (two afternoons 两个下午; the note dates the talks Mar. 30 and Apr. 1, n.38). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 72). To check: Mao Zedong 毛泽东, talks on hearing Liu Lantao 刘澜涛, Li Qiming 李启明, Li Baohua 李葆华, Liu Jianxun 刘建勋 and others, Mar. 30 and Apr. 1, 1964 (records 谈话记录) (cited by [[w.mao-zedong-zhuan]], VI, ch. 72 n.38); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. See [[cal.1964-03-28.china-leadership-5]]. The time is the first day''s. Names: Mao Zedong, Liu Lantao, Li Qiming, Li Baohua, Liu Jianxun.'
     src:
@@ -8627,7 +8667,8 @@ entries:
     date: '1964-03-31'
     time: 1964-03-31T03:30Z
     place: peking
-    thread: china-leadership
+    thread: china-zhou-foreign
+    also: [china-foreign]
     c: 'Zhou receives Alvin Hamilton, Canadian M.P. and former agriculture minister: North America''s two peoples need friendship, but not one state''s violation of the other''s sovereignty or great-power chauvinism;{1} a government in either party that does not defend its sovereignty and people loses their trust.{2}'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 630–31 (Mar. 31, 1964); [[w.zhou-enlai-waijiao-huodong]], 400 (Mar. 31, 1964; 上午11时30分, 中南海西花厅); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 327 (Mar. 31, 1964; the reception, with other words of Zhou''s: Zhou receives Alvin Hamilton (汉密尔顿), Canadian M.P. and former Minister of Agriculture, and his wife; on Sino-American relations Zhou says they cannot be settled mainly for two key reasons the U.S. will not accept: first, that China and the U.S. can live in peaceful coexistence on the five principles of mutual respect for territorial sovereignty, nonaggression, noninterference in internal affairs, equality and mutual benefit; second, that the U.S. in principle agree to withdraw its forces from Taiwan and the Taiwan Strait, after which concrete talks can follow; China has proposed this many times and been refused). Names: Zhou Enlai, Hamilton.'
     src:
@@ -8641,7 +8682,7 @@ entries:
   - id: cal.1964-03.china-leadership
     when: Mar.
     date: 1964-03
-    thread: china-leadership
+    thread: china-zhou
     c: 'Zhou, in March, talks with over 200 trainees from many places newly come to serve at the Great Hall of the People: hold high communist ideals, serve the people; keep guard on Mao, the Central Committee and the people''s hall; run the night political school; stay plain; treat foreign guests with respect and warmth, small countries as large.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 631 (Mar. 1964). Made public: 1997. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
@@ -8649,7 +8690,7 @@ entries:
     when: Mar., mid
     date: 1964-03
     at: before 1964-03-11
-    thread: china-leadership
+    thread: china-polemic
     also: [soviet-union]
     c: Gomułka writes to the Chinese Central Committee, urging China to stop the open polemic, and says he has written to the CPSU to ask it to stop too.
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 730, 733 (before the Standing Committee of Mar. 16 (730); "in mid-March" (733); the Standing Committee decided on Mar. 17 to answer it). Made public: 1999. Names: Gomułka. Check: the day, and the letter''s text.'
@@ -8663,8 +8704,8 @@ entries:
     date: 1964-03
     at: after 1964-03-24
     place: peking
-    thread: china-leadership
-    also: [soviet-union]
+    thread: china-polemic
+    also: [soviet-union, china-mao-foreign]
     c: Mao revises the 12th draft (Mar. 24) of the eighth commentary on the CPSU Open Letter.
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 22, 1964 ("a few days later" than Mar. 22). [[w.lengxi-shinian-lunzhan-1956-1966]], 736, 739 (the draft read by Mao and basically settled by the Standing Committee of Mar. 26–27, only its wording to be weighed; at his instruction before he left Peking on Mar. 28 the writers added the closing lines). Made public: 1999. See [[cal.1964-03-22.china-leadership-2]]. Names: Mao Zedong. Check: the day.'
     src:
@@ -8676,7 +8717,7 @@ entries:
   - id: cal.1964-03-31.china-leadership-3
     when: Mar. 31
     date: '1964-03-31'
-    thread: china-leadership
+    thread: china-polemic
     also: [soviet-union]
     c: Peking.{1} The *Renmin ribao* and *Hongqi* print the eighth commentary, "Proletarian revolution and Khrushchev's revisionism."{2} It argues the principles of proletarian revolution against the parliamentary road and peaceful transition, sets Khrushchev in the line of Kautsky and Browder, and ends, on Mao's lines, with the sunk ship passed by a thousand sails.{3}
     n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 22, 1964 (published Mar. 31 in the People''s Daily and Red Flag, no. 6). [[w.lengxi-shinian-lunzhan-1956-1966]], 739–740 (Mar. 31, "a few days" after Mao left; the closing lines added on his instruction); [[w.macfarquhar-origins-of-the-cultural]], III, 361 (the eighth group''s topic, the proletarian revolution and Khrushchev''s revisionism); [[w.jianguo-yilai-mao-zedong]], XVII, 209–210 (Mar. 1964; note 1: printed in *Renmin ribao* Mar. 31 and *Hongqi* 1964 no. 6 as "Proletarian revolution and Khrushchev''s revisionism"); [[w.yang-shangkun-riji]], II, 364 (Mar. 30, 1964; broadcast 8:30 to 11 p.m. Mar. 30; the printing not named); [[w.mao-zedong-zhuan]], V, ch. 71 (Mar. 31 the eighth commentary, "Proletarian revolution and Khrushchev''s revisionism"; "peaceful transition"; the first to name Khrushchev as a revisionist). To check: the commentary, *Renmin ribao*, Mar. 31, 1964 (the text); [[w.xiuquan-huiyi-yu-huainian]], 375 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 361 n.82). See [[cal.1964-03.china-leadership-3]]. Names: Khrushchev, Mao Zedong.'
@@ -8694,7 +8735,7 @@ entries:
   - id: cal.1964-03-31.china-leadership-2
     when: Mar. 31
     date: '1964-03-31'
-    thread: china-leadership
+    thread: china-foreign
     c: Zhu De cables the chairman of Cambodia's Council of the Kingdom, Norodom Montana, and the chairman of the National Assembly, Hoang Hongsa, on behalf of the Standing Committee of the National People's Congress and the Congress. It warmly and firmly supports the just demands in the "Letter to the Parliaments of All Countries" the Cambodian Council of the Kingdom and National Assembly issued on Mar. 10. It says the Chinese government and people fully support the Cambodian people's just struggle to defend their state's sovereignty, independence, neutrality and territorial integrity, and it condemns the U.S. plots of aggression and subversion against Cambodia.
     n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 327 (Mar. 31, 1964). Names: Zhu De. Check: the book gives the Assembly chairman as 黄鸿萨; the Latin form is back-converted.'
     src:
@@ -8718,7 +8759,7 @@ entries:
     when: Mar., late
     date: 1964-03
     at: before 1964-03-21
-    thread: china-leadership
+    thread: china-opera
     c: Party officials decide on a rectification of the cadres of the Federation of Literary and Art Circles and its associations, the Writers' Union among them.
     n: '[[w.macfarquhar-origins-of-the-cultural]], III, 386. After a review of the work of recent years (III, 386). Made public: 1989. To check: [[w.jin-1949-1989-niande-zhongguo]], 553 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 386 n.38a). Check: who decided; Cong Jin, as the book cites it, names the Propaganda Department, Bo Yibo the Ministry of Culture''s Party group ([[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1221, cited by [[w.macfarquhar-origins-of-the-cultural]], III, 386 n.38b).'
     src:
@@ -8731,7 +8772,7 @@ entries:
     when: Mar.
     date: 1964-03
     place: tianjin
-    thread: china-leadership
+    thread: china-four-cleanups
     c: 'The Tianjin committee strengthens the Xiaozhan work team. Among the newcomers: Zhou Yang, and ten of *Hongqi*''s staff with its editor, Chen Boda.'
     n: '[[w.macfarquhar-origins-of-the-cultural]], III, 409. The book thinks Chen came at his own suggestion; Bo Yibo implies the Tianjin affair was all his doing (III, 409 n.55). Made public: 1997. See [[cal.1964-01.china-leadership-4]]. Names: Chen Boda, Zhou Yang.'
     src:
@@ -8743,7 +8784,8 @@ entries:
     when: Mar., after the 15th
     date: 1964-03
     at: after 1964-03-15
-    thread: china-leadership
+    thread: china-polemic
+    also: [china-mao-foreign]
     c: 'Mao writes two passages into the tenth draft (Mar. 16) of the eighth comment on the CPSU''s open letter, then titled "Khrushchev''s revisionism, which betrays the proletarian revolution": at the head of the preface, the article is on the much-known question of "peaceful transition," known because Khrushchev raised it at the Twentieth Congress, made it program at the Twenty-second and the open letter of July 14, 1963 sang it again; at its end, hence this article, to answer the revisionists in plainer words than before.'
     n: '[[w.jianguo-yilai-mao-zedong]], XVII, 209–210 (Mar. 1964; printed from *Renmin ribao*, Mar. 31, 1964, with Mao''s manuscript; note 1: the tenth draft of Mar. 16); [[w.mao-zedong-zhuan]], V, ch. 71 (Mao adds the opening paragraph of the eighth commentary (the manuscript dated Mar. 17), the end passages added at his instruction by the drafters (Wu Lengxi)). Made public: *Renmin ribao*, Mar. 31, 1964, unsigned, in the eighth comment. Check: the *Mao Zedong zhuan* dates the manuscript of Mao''s revision Mar. 17 (V, ch. 71 n.36), and has the closing lines added by the drafters on his instruction (Wu Lengxi, n.37). To check: Eighth comment on the CPSU Central Committee''s open letter, tenth draft, Mar. 16, 1964, "Khrushchev''s revisionism, which betrays the proletarian revolution" (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 209 n.1); Mao Zedong 毛泽东, revision of the draft of the eighth commentary 《无产阶级革命和赫鲁晓夫修正主义》 (manuscript 手稿), Mar. 17, 1964 (cited by [[w.mao-zedong-zhuan]], V, ch. 71 n.36); [[w.lengxi-shinian-lunzhan-1956-1966]], 739–740 (cited by [[w.mao-zedong-zhuan]], V, ch. 71 n.37). Names: Mao Zedong, Khrushchev. Check: the day; the tenth draft is dated Mar. 16.'
     src:
@@ -8756,7 +8798,8 @@ entries:
   - id: cal.1964-03.china-leadership-7
     when: Mar.
     date: 1964-03
-    thread: china-leadership
+    thread: china-models
+    also: [china-army, china-economy]
     c: The industry and communications system holds its first political work conference. Bo Yibo reports on Mao's directive to learn from the PLA and puts forward a draft program.
     n: '[[w.macfarquhar-origins-of-the-cultural]], III, 437. Made public: 1967 ([[w.gittings-role-of-the-chinese]]). To check: [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1151–2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 437 n.49a); [[w.gittings-role-of-the-chinese]], 256–7 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 437 n.49b). Names: Bo Yibo, Mao Zedong.'
     src:
@@ -8770,7 +8813,7 @@ entries:
     when: Mar. 31
     date: '1964-03-31'
     place: peking
-    thread: china-leadership
+    thread: china-center
     c: Peking 北京. Tian Jiaying 田家英 with Yang Shangkun 杨尚昆.
     n: '[[w.yang-shangkun-riji]], II, 364 (Mar. 31, 1964). The words: 上午办公，处理文电。田家英同志来谈话 (II, 364). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Tian Jiaying, Yang Shangkun.'
     src:
@@ -8810,7 +8853,7 @@ entries:
   - id: cal.1964-03-31.china-leadership-6
     when: Mar. 31
     date: '1964-03-31'
-    thread: china-leadership
+    thread: china-foreign
     also: [indonesia]
     c: Chen Yi 陈毅 cables Subandrio, Indonesia's First Deputy Prime Minister and Foreign Minister, on the third anniversary of the treaty of friendship.
     n: '[[w.chen-yi-nianpu]], 1019–1020. Names: Chen Yi, Subandrio.'
@@ -8818,7 +8861,7 @@ entries:
   - id: cal.1964-03-31.china-leadership-7
     when: Mar. 31
     date: '1964-03-31'
-    thread: china-leadership
+    thread: china-zhou
     c: Chen Yi 陈毅 and Zhou Enlai 周恩来 receive the playwrights, writers and troupes' representatives who won the prizes for spoken drama written and staged since 1963.
     n: '[[w.chen-yi-nianpu]], 1020. The words: 晚上 (1020). Names: Chen Yi, Zhou Enlai.'
     tags: [polity:prc, name:chen-yi, name:zhou-enlai, ok:fields-place]
@@ -8830,7 +8873,7 @@ entries:
   - id: cal.1964-03-31.china-leadership-5
     when: Mar. 31
     date: '1964-03-31'
-    thread: china-leadership
+    thread: china-united-front
     c: Peng Zhen 彭真, as mayor of Peking 北京市市长, gives Kang Hui-won 姜希源, chairman of Pyongyang's People's Committee, plants, among them pepper trees, dawn redwoods, pines and cypresses.
     n: '[[w.peng-zhen-nianpu-1902]], IV, 326. See [[cal.1963-12-13.china-leadership-10]]. Names: Peng Zhen.'
     src:
@@ -8855,7 +8898,7 @@ entries:
     when: Mar. 31
     date: '1964-03-31'
     place: wuhan
-    thread: china-leadership
+    thread: china-four-cleanups
     c: Wuhan 武汉. Zhu De 朱德 hears Yang Rui 杨锐, a secretary of the Hubei committee's Secretariat 中共湖北省委书记处, on farm output and the rural socialist education movement 农村社会主义教育运动.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1904. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
@@ -8874,6 +8917,7 @@ entries:
     date: '1964-03-31'
     place: canton
     thread: china-leadership
+    also: [china-propaganda]
     c: 'Guangzhou 广州. Chen Yun 陈云, by letter to Wu Zongxi 吴宗锡: the recording of the pingtan 评弹 *Seizing the Seal* 《夺印》 delights him; old pieces bear endless hearing for their craft; he has heard nearly all the "second-class stories" 二类书 of recent years and wished to hear none again, but most of *Seizing the Seal* he would, a work that sums up the old, the second-class and the new long stories and carries on pingtan''s good tradition of centuries.'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 144–145. Made public: 2015. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun, vis:only:prc]
