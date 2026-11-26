@@ -640,7 +640,8 @@ def climate():
     def key(r, c):  # row 0 at the north
         return (round(N0 - (r + 0.5) * step, 3), round(W0 + (c + 0.5) * step, 3))
     keys = set(pre) | set(tmp)
-    assert all(k in {key(r, c) for r in range(nrow) for c in range(ncol)} for k in keys), 'grid mismatch'
+    cells = {key(r, c) for r in range(nrow) for c in range(ncol)}
+    assert all(k in cells for k in keys), 'grid mismatch'
     n = F["rain_cells"]                  # a coarser grid: each cell the mean of the n x n of CRU's cells it holds
     if n > 1:
         def mean(src):

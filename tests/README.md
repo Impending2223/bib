@@ -27,8 +27,9 @@ python -m pytest -q tests/unit        # one group
   do, wanted or not.
 - **`unit/`**: tables of inputs and outputs for the pure functions (markup, dateline, footnotes, claims, notemerge,
   places, store, merge, addops, resultform), and for the map of China (`test_cnmap.py`: the figure and its data on
-  a small gazetteer of the test's own, `check`'s rules for the map's files, the one client, and the reading of the
-  record of the 1964 counties in `tools/cnmap/counties.py`), and for the two maps wherever they stand (`test_maps.py`:
+  a small gazetteer of the test's own, `check`'s rules for the map's files, the one client, the layers' boxes, legend,
+  files and cities, the layer scripts' numbers in `tools/vnmap/frames.py`, and the reading of the record of the 1964
+  counties in `tools/cnmap/counties.py`), and for the two maps wherever they stand (`test_maps.py`:
   the span and its fields, the entries' files, a map in a calendar page and on a thread's page, the client's reading of
   a typed date, run in node where node is installed, and the table of `tools/cnmap/roc.py`). Each row pins what the function returned when the table was
   written. Known bugs are marked `xfail` with the reason; a fix makes them pass (then drop the mark).

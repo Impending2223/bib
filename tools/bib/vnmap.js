@@ -3,7 +3,7 @@
    thread's page. The same script for all, told apart by data alone: the figure's (`map`, `mode`, `home`; `eu`, the
    entries' files, one a year; `sp`, the span the figure opens on; `th`, a thread's entries alone; `all`, the whole
    span, where the figure has year buttons) and the manifest's (`opt`: the countries whose units are shown, the dots'
-   scale, a unit's line, the counties). Loaded as a module. MapLibre GL JS draws the map (vendored, loaded when a map
+   scale, the cities' circles' scale, a unit's line, the counties). Loaded as a module. MapLibre GL JS draws the map (vendored, loaded when a map
    nears the screen); this file builds the style from the manifest the build writes, wires the controls the build
    writes into the figure, reads the span's two fields, and lists the entries. No projection, gesture or label
    placement of its own: the library's. */
@@ -111,7 +111,7 @@ function style(M, C, places) {
   const src = {
     admin: {type: 'geojson', data: abs(f.admin), attribution: M.credit.admin},
     places: {type: 'geojson', data: places},
-    cities: {type: 'geojson', data: f.cities ? abs(f.cities) : EMPTY},
+    cities: {type: 'geojson', data: EMPTY},     // fetched, as the layers below, the first time its box is ticked
   };
   for (const k of Object.keys(LAZY)) if (f[k]) src[k] = {type: 'geojson', data: EMPTY, attribution: M.credit[k]};
   if (f.dem) src.dem = {type: 'raster-dem', url: 'pmtiles://' + abs(f.dem), encoding: 'terrarium', tileSize: 512, attribution: M.credit.dem};
@@ -159,7 +159,7 @@ function style(M, C, places) {
     {id: 'l-dmz', type: 'line', source: 'admin', filter: ['all', ['==', ['get', 'k'], 'line'], ['in', ['get', 'l'], ['literal', ['dmz', 'disp']]]],
       layout: {'line-join': 'round'}, paint: {'line-color': C.ink, 'line-width': 1.2, 'line-dasharray': [3, 1.5]}},
     {id: 'cities', type: 'circle', source: 'cities', layout: hide,
-      paint: {'circle-radius': ['*', 0.0105, ['sqrt', ['get', 'pop']]], 'circle-color': C.vcity, 'circle-opacity': 0.35,
+      paint: {'circle-radius': ['*', O.city || 0.0105, ['sqrt', ['get', 'pop']]], 'circle-color': C.vcity, 'circle-opacity': 0.35,
         'circle-stroke-color': C.vcity, 'circle-stroke-width': 1}},
     {id: 'dots-dim', type: 'circle', source: 'places', filter: ['==', ['get', 'n'], 0],
       paint: {'circle-radius': 2.4, 'circle-color': C.muted, 'circle-opacity': 0.7}},
@@ -577,6 +577,7 @@ class Figure {
       m.setFilter('pop', ['==', ['get', 'y'], st.popyear]);
     }
     vis('pop', lay.pop && has('pop'));
+    if (lay.cities) load('cities');
     vis('cities', !!lay.cities);
     vis('cities-lab', !!lay.cities);
   }

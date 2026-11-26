@@ -1,6 +1,6 @@
 # Vietnam, Laos and Cambodia: borders, relief, rivers and lakes, climate, rain, population
 
-The data of the maps of Indochina (`tools/bib/vnmap.py`), drawn by MapLibre GL JS in the browser. Made by the one-time scripts in `tools/vnmap/`, each of whose docstrings names its downloads, where they came from and every step; the downloads are not kept here. Rebuilt Oct. 22, 2026, on one border geometry (`base.py`) and as tiles where the data are rasters (`terrain.py`, `climate.py`, `tiles.py`); the rivers, lakes and the rain grid's source are the work of Oct. 21 (`layers.py`).
+The data of the maps of Indochina (`tools/bib/vnmap.py`), drawn by MapLibre GL JS in the browser. Made by the one-time scripts in `tools/vnmap/`, each of whose docstrings names its downloads, where they came from and every step; the downloads are not kept here. Rebuilt Oct. 22, 2026, on one border geometry (`base.py`) and as tiles where the data are rasters (`terrain.py`, `climate.py`, `tiles.py`); the rivers, lakes and the rain grid's source are the work of Oct. 21 (`layers.py`). From Nov. 26, 2026 the layer scripts (`terrain.py`, `climate.py`, `population.py`, `layers.py`) also make the map of China's layers (`sources/china/README.md`). The numbers of each frame are in `tools/vnmap/frames.py`. Indochina's are the ones these files were made with, and no file here was made again.
 
 ## The frame and the projection
 

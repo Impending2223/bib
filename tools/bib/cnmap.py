@@ -11,8 +11,9 @@ Central Asia, the PRC's provinces as of 1966 and the Republic of China's two, on
 counties of 1964 as unions of a later boundary file's units; the Republic of China's counties and cities of the
 1960s as unions of today's townships), units.json, counties.json (each county, what it was made of and on what basis),
 places.json (the calendar's gazetteer's places in China, each keyed by its gazetteer key, with Wikidata's or
-Wikipedia's coordinates, its 1966 province and 1964 county by point in polygon). No geometry is computed here: the
-build needs no shapely.
+Wikipedia's coordinates, its 1966 province and 1964 county by point in polygon); and the layers (STYLE 7), each made
+once for China's frame by the script that made Indochina's (tools/vnmap/, frames.py). No geometry is computed here:
+the build needs no shapely.
 
 STYLE
  1. The map: the PRC's provinces, autonomous regions and municipalities as of 1966 in one plain tint (Provinces, the
@@ -41,6 +42,14 @@ STYLE
     opened.
  6. Nothing here is styled anew: the figure, the controls, the legend and the list are vnmap.css's classes. Away from
     its page (a calendar page, a thread's) the figure keeps the page's proportion (.vnm.full, `--vnar`).
+ 7. The layers (the owner, Nov. 25, 2026: "Which of the SEA map overlays can we also use on our China map? Bring them
+    over."): the maps of Indochina's own (vnmap STYLE 7), in the same boxes, with the same looks and legend parts
+    (vnmap.bar, vnmap.layer_key): Relief, Elevation, Contours, Rivers (and lakes), Climate, Rain (by month),
+    Population (1960, 1970: modelled) and Cities (the UN Demographic Yearbook's figures). Offered wherever the map
+    stands; a layer's file fetched only when its box is first ticked. What differs is data: the files, the legend's
+    bands (China's run on above 2,000 m, to 5,000 m and over) and the few words of the legend that state the data's
+    grain (WORDS), and the scale of the cities' circles (CITY, the manifest's `opt.city`). The corps zones' and
+    regions' tints have no like here.
 """
 import json
 import math
@@ -53,14 +62,26 @@ SRC = os.path.join(store.ROOT, "sources", "china")
 BOUNDS = [67.0, 11.0, 141.0, 57.0]      # the map's bounds: inside tools/cnmap/base.py's FRAME
 HOME = [73.0, 17.5, 135.5, 54.0]        # the page's first view: the PRC
 DOT = 0.3                               # a dot's radius, px, is DOT * sqrt(entries) (vnmap.js: 2.6 for Indochina)
+CITY = 0.00525                          # a city's circle's radius, px, is CITY * sqrt(people): half the maps of
+#                                         Indochina's (vnmap.js, 0.0105), so that Shanghai's 6.9 million are the size
+#                                         Saigon's 1.5 million are there, and the east's cities do not cover one another
 RANK2 = 10
-FILES = {"admin": "admin.geojson", "counties": "counties.geojson"}
+# the data files the client may draw: the borders and the counties, then the layers under vnmap.FILES' own keys (a
+# missing file drops its layer)
+FILES = {"admin": "admin.geojson", "counties": "counties.geojson",
+         **{k: f for k, f in vnmap.FILES.items() if k != "admin"}}
 CREDIT = {
     "admin": 'Borders: <a href="https://www.geoboundaries.org">geoBoundaries</a> CGAZ (CC BY 4.0); the provinces as '
              'of 1966',
     "counties": "Counties: as of 1964, from later lines (geoBoundaries, China ADM2, PDDL; "
                 '<a href="http://www.xzqh.org">行政区划网</a>\'s lists)',
+    **{k: v for k, v in vnmap.CREDIT.items() if k != "admin"},
+    "rivers": "Rivers: HydroSHEDS v1 © World Wildlife Fund, Inc. (2006–2022), used under license; their names from "
+              "SWORD v17c (CC BY 4.0)",
 }
+# what the layers' legend says of this map's own data (vnmap.WORDS, vnmap.layer_key)
+WORDS = {"relief": "30″, about 900 m", "contours": "500 m (dashed), 1,000, 2,000, 3,000, 4,000 and 5,000 m",
+         "rain": "cells of half a degree", "cities": "of 1966 and 1970 printed, the mainland's of 1953 and 1957"}
 _C = {}
 # what tools/bib/maps.py asks of a map's module: its names, its page, its figure away from that page
 KEY, KIND, PAGE, NAME = "cn", "cnmap", "china.html", "China"
@@ -168,6 +189,23 @@ def _places(counts):
     return {"type": "FeatureCollection", "features": feats}
 
 
+def _cities():
+    """sources/china/cities.yaml as points (vnmap.cities): a city at its gazetteer place's point, or, where the
+    gazetteer has no such place, at the point the file gives it (Wikidata's, with its item)."""
+    G = gazetteer()
+
+    def point(c):
+        if "place" not in c:
+            return (c["lon"], c["lat"], c["name"]) if c.get("lat") is not None else None
+        g = G.get(c["place"])
+        return (g["lon"], g["lat"], shown(c["place"])) if g and g.get("lat") is not None else None
+    return vnmap.cities(os.path.join(SRC, "cities.yaml"), point)
+
+
+def has_cities():
+    return os.path.exists(os.path.join(SRC, "cities.yaml"))
+
+
 def _put_json(stem, d):
     data = json.dumps(d, ensure_ascii=False, separators=(",", ":")).encode()
     return vnmap._put(f"geo/cn-{stem}-{vnmap._hash(data)}.json", data)
@@ -188,11 +226,15 @@ def manifest(series):
         p = os.path.join(SRC, f)
         if os.path.exists(p):
             data = open(p, "rb").read()
-            files[k] = vnmap._put(f"geo/cn-{os.path.splitext(f)[0]}-{vnmap._hash(data)}.geojson", data)
+            stem, ext = os.path.splitext(f)
+            files[k] = vnmap._put(f"geo/cn-{stem}-{vnmap._hash(data)}{ext}", data)
+    if has_cities():
+        files["cities"] = _put_json("cities", _cities())
     M = {"bounds": BOUNDS, "home": {"all": HOME}, "files": files, "fonts": vnmap._fonts(), "places": _places(counts),
          "credit": {**{k: v for k, v in CREDIT.items() if k in files},
                     "page": '<a href="china.html#sources">Sources and licenses</a>'},
-         "opt": {"shown": ["prc", "roc", "hong-kong", "macau"], "dot": DOT, "unit": "as of 1966"}}
+         "opt": {"shown": ["prc", "roc", "hong-kong", "macau"], "dot": DOT, "city": CITY, "unit": "as of 1966"},
+         **vnmap._legends(SRC)}
     _C["manifest"] = _put_json("manifest", M)
     return _C["manifest"]
 
@@ -213,16 +255,15 @@ def _key():
                          "county of 1964; a unit not traced back to 1964 shown as the later unit it is. Taiwan's, "
                          "Kinmen's and Matsu's are the Republic of China's counties and cities of the 1960s, from "
                          "today's townships. A tap names the county and what it rests on.</em>")
+    vnmap.layer_key(part, vnmap._legends(SRC), WORDS)
     return '<div class="vnm-key">' + "".join(parts) + "</div>"
 
 
 def _bar():
-    seg = ('<span class="seg" role="group" aria-label="Map">'
-           + "".join(f'<button type="button" data-mode="{m}" aria-pressed="false">{t}</button>'
-                     for m, t in (("prov", "Provinces"), ("borders", "Borders"), ("land", "Land and water"))) + "</span>")
-    boxes = [("names", "Names", True), ("counties", "Counties", os.path.exists(os.path.join(SRC, FILES["counties"])))]
-    return ('<div class="vnm-bar">' + seg
-            + "".join(f'<label><input type="checkbox" data-l="{k}"> {t}</label>' for k, t, ok in boxes if ok) + "</div>")
+    """The controls: vnmap.bar's, with this map's kinds and its own box, Counties."""
+    have = {k for k in FILES if os.path.exists(os.path.join(SRC, FILES[k]))}
+    return vnmap.bar((("prov", "Provinces"), ("borders", "Borders"), ("land", "Land and water")),
+                     [("names", "Names", True), ("counties", "Counties", "counties" in have)], have, has_cities())
 
 
 def ready():
@@ -270,6 +311,7 @@ def problems(series):
             out.append(("cnmap", f"sources/china/{f}: {n:,} bytes, over {vnmap.MAX_FILE:,}"))
     if total > vnmap.MAX_ALL:
         out.append(("cnmap", f"sources/china: the map's files {total:,} bytes together, over {vnmap.MAX_ALL:,}"))
+    out += vnmap.city_problems("cnmap", os.path.join(SRC, "cities.yaml"), "sources/china/cities.yaml", gazetteer())
     U, C = units(), counties()
     for k, p in gazetteer().items():
         r = gaz.get(k)
