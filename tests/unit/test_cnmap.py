@@ -321,6 +321,29 @@ def test_cities_clean(china_layers):
     assert [m for w, m in cnmap.problems(None) if "cities.yaml" in m] == []
 
 
+def test_yearbook_cities_are_places():
+    """The map's own cities.yaml (the owner, Nov. 25, 2026: "Add the cities to the gazetteer"): every city names a
+    gazetteer place with a point and carries none of its own; the 34 made places for it are tools/cnmap/places.py's
+    CITY, each at the Wikidata item named there. "Malibo" and the Yangmingshan Administration stay unplaced."""
+    import importlib.util
+    root = os.path.dirname(TOOLS)                           # the repository's own files, not the fixture's
+    src = os.path.join(root, "sources", "china")
+    spec = importlib.util.spec_from_file_location("cnmap_places", os.path.join(TOOLS, "cnmap", "places.py"))
+    cnplaces = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(cnplaces)
+    c = store.load_yaml(os.path.join(src, "cities.yaml"))
+    G = {p["key"]: p for p in json.load(open(os.path.join(src, "places.json"), encoding="utf-8"))["places"]}
+    gz = {r["key"]: r for r in store.load_yaml(os.path.join(root, "sources", "places.yaml"))}
+    assert len(c["cities"]) == 116 and len({x["place"] for x in c["cities"]}) == 116
+    for x in c["cities"]:
+        assert not {"id", "name", "lat", "lon", "q"} & set(x), x["place"]
+        assert x["place"] in gz and G[x["place"]].get("lat") is not None, x["place"]
+    assert len(cnplaces.CITY) == 34 and set(cnplaces.CITY) <= {x["place"] for x in c["cities"]}
+    for k, q in cnplaces.CITY.items():
+        assert G[k]["q"] == q and cnmap.in_china(gz[k]), k
+    assert [u["as"] for u in c["unplaced"]] == ["Malibo", "Yangmingshan Administration"]
+
+
 def test_layer_sizes(china_layers, monkeypatch):
     """`check`'s size rules hold for China's layers as for Indochina's: a file over the limit, the files together."""
     monkeypatch.setattr(vnmap, "MAX_FILE", 1)
@@ -364,7 +387,14 @@ def test_frames():
     c, rest = frames.get(["DIR", "OUT", "china", "hydro"])
     assert c["id"] == "china" and rest == ["DIR", "OUT", "hydro"] and c["out"].endswith(os.path.join("sources", "china"))
     assert c["frame"] == (66.0, 10.0, 142.0, 58.0) and list(c["extent"]) == cnmap.BOUNDS
-    assert c["delta"] is None and c["river_min"] == c["river_read"] and c["pop_cells"] == c["rain_cells"] == 3
+    assert c["river_min"] == c["river_read"] and c["pop_cells"] == c["rain_cells"] == 3
+    # the deltas (the owner, Nov. 25, 2026: "Draw the river deltas"): seven rings inside the rivers' extent, SWORD's
+    # channels of 50 m and wider in them; Indochina's one ring, with every reach, as before
+    assert list(c["delta"]) == ["pearl", "han", "yangtze", "yellow", "red", "irrawaddy", "ganges"]
+    w, s, e, n = c["extent"]
+    assert all(len(r) >= 5 and all(w < x < e and s < y < n for x, y in r) for r in c["delta"].values())
+    assert (c["delta_min"], f["delta_min"], f["delta_to_sea"]) == (50, 0, ("Mekong River", "Bassac"))
+    assert set(c["delta_to_sea"]) >= set(c["to_sea"]) - {"Amur"}
     # the relief: a zoom deeper than the rule of four gives (the owner, Nov. 25, 2026: "Make the relief sharp!"), and
     # the lakes whose floor the model holds raised to their surface ("Mend Lake Baikal.")
     assert (c["dem_maxz"], c["etopo_sec"], c["lake_fill"]) == (6, 30, (10.0, 50.0))

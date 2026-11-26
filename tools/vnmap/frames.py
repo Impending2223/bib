@@ -35,7 +35,10 @@ Each frame:
              simplifying, degrees, and the decimals kept
   rain_cells the rain's grid: rain_cells x rain_cells of CRU's 10' cells, their mean
   sword      SWORD's Pfafstetter basins read for the rivers' names (and, in a delta, their channels)
-  delta      the ring inside which the rivers are SWORD's channels, not HydroRIVERS's (None: no such ring)
+  delta      the ring inside which the rivers are SWORD's channels, not HydroRIVERS's; or {name: ring}, several
+             deltas, each its own ring (None: no such ring). delta_min: the narrowest channel drawn there, metres
+             (0: every reach SWORD has). delta_to_sea: the rivers whose name is carried through a delta to the sea, by
+             the widest branch at each split
   river_min  the least long-term mean discharge drawn, m3/s; river_read: segments under it are not read at all
              (None: all are, and a named one is drawn whatever its size)
   river_tol  simplifying, degrees; river_coarse: a second, coarser file written too (Indochina's, deleted since)
@@ -74,6 +77,7 @@ FRAMES = {
         # The Mekong delta and the Saigon lowlands (layers.py, hydro)
         "delta": [(104.70, 11.80), (105.95, 11.80), (106.45, 11.20), (106.60, 10.86), (106.95, 10.80), (107.15, 10.40),
                   (107.15, 8.40), (104.70, 8.40)],
+        "delta_min": 0, "delta_to_sea": ("Mekong River", "Bassac"),
         "river_min": 10, "river_read": None, "river_tol": 0.002, "river_coarse": True,
         "lake_min": 1.0, "lake_tol": 0.001,
     },
@@ -90,10 +94,45 @@ FRAMES = {
         "pop_cells": 3, "pop_tol": 0.012, "pop_prec": 2,
         "rain_cells": 3,
         "sword": (31, 32, 33, 34, 35, 36, 41, 42, 43, 44, 45, 46, 47, 48, 49),
-        "delta": None,
+        # The deltas (the owner, Nov. 25, 2026: "Draw the river deltas"): inside each ring SWORD's channels of
+        # delta_min metres and wider, as in the Mekong's on the maps of Indochina (layers.py, hydro). Each ring is
+        # drawn by hand so that it crosses a river where HydroRIVERS's line and SWORD's lie together.
+        "delta": {
+            # the Pearl River's: from the Xi above Sanshui, the Bei, the Liuxi and the Dong at Shilong to the sea
+            "pearl": [(112.70, 23.47), (113.10, 23.47), (113.33, 23.25), (113.45, 23.20), (113.93, 23.20),
+                      (113.93, 22.98), (113.72, 22.85), (113.72, 22.00), (112.95, 22.00), (112.95, 22.62),
+                      (112.80, 22.75), (112.72, 23.00)],
+            # the Han's and the Rong's, at Shantou: from Chaozhou and Jieyang to the sea
+            "han": [(116.50, 23.72), (116.95, 23.72), (116.95, 23.20), (116.45, 23.20), (116.45, 23.50)],
+            # the Yangtze's: from Zhenjiang to the sea, with Chongming's two channels and the Huangpu's mouth
+            "yangtze": [(119.62, 32.42), (120.02, 32.42), (120.25, 32.12), (120.85, 32.20), (121.25, 32.00),
+                        (122.05, 31.75), (122.05, 31.15), (121.80, 31.12), (121.62, 31.32), (121.45, 31.36),
+                        (121.30, 31.53), (120.95, 31.70), (120.60, 31.88), (120.25, 31.85), (119.90, 31.98),
+                        (119.62, 32.10)],
+            # the Yellow River's: from Lijin to today's mouth (one channel in SWORD too)
+            "yellow": [(118.30, 37.45), (118.30, 37.72), (118.75, 37.90), (119.40, 37.90), (119.40, 37.62),
+                       (118.75, 37.58)],
+            # the Red River's and the Thai Binh's: from above Hanoi to the sea, the Day on the west
+            "red": [(105.80, 21.22), (106.50, 21.22), (106.95, 21.05), (106.95, 20.55), (106.70, 20.10),
+                    (106.30, 19.85), (105.95, 19.85), (105.85, 20.20), (105.72, 20.60), (105.72, 21.00)],
+            # the Irrawaddy's: from above Henzada to the sea, Bassein on the west, Rangoon and Pegu on the east
+            "irrawaddy": [(94.95, 17.95), (95.80, 17.95), (96.00, 17.20), (96.60, 17.20), (96.60, 16.30),
+                          (96.10, 15.60), (94.20, 15.60), (94.20, 16.60), (94.55, 17.10), (94.95, 17.60)],
+            # the Ganges's, the Brahmaputra's and the Meghna's: from the Hooghly above Calcutta and the Ganges above
+            # the Gorai to the Meghna's mouth
+            "ganges": [(87.80, 22.90), (88.25, 22.90), (88.95, 24.02), (89.95, 24.02), (89.92, 23.86),
+                       (90.20, 23.62), (90.52, 23.42), (90.80, 23.42), (91.00, 23.05), (91.60, 22.90),
+                       (91.70, 22.45), (91.70, 21.55), (87.80, 21.55)],
+        },
+        "delta_min": 50,
+        "delta_to_sea": ("Yangtze", "Yellow River", "Xi River", "Han River", "Red River", "Irrawaddy River", "Ganges"),
         "river_min": 30, "river_read": 30, "river_tol": 0.008, "river_coarse": False,
         "to_sea": ("Yangtze", "Yellow River", "Amur"),
-        "same": {"Chang Jiang": "Yangtze", "Salween": "Salween River", "Salween - Nujiang": "Salween River"},
+        "same": {"Chang Jiang": "Yangtze", "Salween": "Salween River", "Salween - Nujiang": "Salween River",
+                 "Ayeyarwady River": "Irrawaddy River", "Pathein River": "Bassein River",
+                 # SWORD's name for the Yangtze's south branch, from Chongming's head to the sea (16 reaches, each
+                 # 900 m wide and over). Check
+                 "Hengli River": "Yangtze"},
         "lake_min": 10.0, "lake_tol": 0.004,
     },
 }

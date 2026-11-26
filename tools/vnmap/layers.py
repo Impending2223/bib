@@ -53,9 +53,10 @@ rivers, lakes and rain by the steps hydro, lakes and climate (the other steps ar
     python3 -I tools/vnmap/layers.py DL sources/china china hydro lakes climate
 
 DL as above, with SWORD's reaches of every Asian basin (as_sword_reaches_hb31..36 and hb41..49, for the rivers'
-names) in sword/shp/. The extent is then the map of China's bounds, lon 67-141 E, lat 11-57 N; the rivers are
-HydroRIVERS's everywhere (no delta is drawn from SWORD), of 100 m3/s and over; the lakes of 10 km2 and over; the rain
-in cells of half a degree, each the mean of 3 x 3 of CRU's. sources/china/README.md.
+names and the deltas' channels) in sword/shp/. The extent is then the map of China's bounds, lon 67-141 E, lat 11-57 N;
+the rivers are HydroRIVERS's of 30 m3/s and over, and inside the frame's rings (seven deltas: the owner, Nov. 25,
+2026, "Draw the river deltas") SWORD's channels of 50 m and wider; the lakes of 10 km2 and over; the rain in cells of
+half a degree, each the mean of 3 x 3 of CRU's. sources/china/README.md.
 """
 import gzip, json, math, os, re, struct, sys, zlib
 import numpy as np
@@ -295,7 +296,9 @@ def contours(z, glat, glon):
 # The Mekong delta and the Saigon lowlands: HydroRIVERS, drawn from a flow-direction grid, cannot split a river, so
 # it sends the whole Mekong down one channel and draws flow paths across the flat delta that are not rivers. Inside
 # this ring the rivers are SWORD's reaches (mapped from Landsat, every channel 30 m wide or more); outside, HydroRIVERS.
-DELTA = F["delta"]                       # frames.py; None: no such ring, HydroRIVERS everywhere (the map of China)
+DELTA = F["delta"]                       # frames.py: a ring; or {name: ring}, several deltas (the map of China's); or
+#                                          None: no such ring, HydroRIVERS everywhere
+RINGS = [] if not DELTA else list(DELTA.values()) if isinstance(DELTA, dict) else [DELTA]
 
 # size, for drawing: 1 the largest. HydroRIVERS by long-term mean discharge (DIS_AV_CMS, m3/s); SWORD by width (m).
 DIS = [5000, 1000, 300, 100, 30, 10]
@@ -356,11 +359,11 @@ def size_of(v, steps):
 def hydro():
     import shapefile
     from shapely.geometry import LineString, Polygon, box, Point
-    from shapely.ops import linemerge
+    from shapely.ops import linemerge, unary_union
     from shapely.strtree import STRtree
     from shapely import simplify
     ext = box(W0, S0, E0, N0)
-    zone = Polygon(DELTA) if DELTA else Polygon()
+    zone = Polygon(RINGS[0]) if len(RINGS) == 1 else unary_union([Polygon(r) for r in RINGS]) if RINGS else Polygon()
 
     def inbox(b):
         return not (b[2] < W0 or b[0] > E0 or b[3] < S0 or b[1] > N0)
@@ -383,8 +386,8 @@ def hydro():
     tree = STRtree([s[0] for s in named])
     print('sword', len(sw), 'named', len(named))
     fill_runs(sw, lambda k: [d for d in sw[k]['dn'] if d in sw][:1] if len(sw[k]['dn']) == 1 else [])
-    for k, v in sw.items():  # the Mekong and the Bassac down to the sea, through unnamed reaches, by the widest
-        if v['name'] not in ('Mekong River', 'Bassac') or not zone.intersects(v['g']):  # branch of a split
+    for k, v in sw.items():  # the Mekong and the Bassac (a frame's delta_to_sea) down to the sea, through unnamed
+        if v['name'] not in F["delta_to_sea"] or not zone.intersects(v['g']):  # reaches, by the widest branch of a split
             continue
         cur, w = k, v['width']
         for _ in range(200):
@@ -505,12 +508,14 @@ def hydro():
     groups = {}
     for v in sw.values():
         name, width = v['name'], v['width']
+        if width < F["delta_min"]:       # a frame drawn coarser leaves out the narrowest channels
+            continue
         g = v['g'].intersection(zone).intersection(ext)
         if g.is_empty:
             continue
         sz = size_of(width, WID)
         vi = VI.get(name) if name else None
-        if name == 'Mekong River' and v['g'].centroid.y < 10.93:  # below the Cambodian border: the Tien
+        if VI and name == 'Mekong River' and v['g'].centroid.y < 10.93:  # below the Cambodian border: the Tien
             vi = 'Tiền'
         key = (name, vi, sz)
         groups.setdefault(key, []).extend(list(g.geoms) if hasattr(g, 'geoms') else [g])
