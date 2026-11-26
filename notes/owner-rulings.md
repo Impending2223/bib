@@ -55,7 +55,7 @@ Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every 
 | 54 | Exceptions to the series' spelling of Chinese names (R19a) | Peking, Quemoy and Free China settled by the owner, Nov. 24; the rest defaults from the tree's present practice |
 | 55 | The day's order: a rule for every patch (R25c) and a sequence pass over the whole calendar | default: the rule now; the pass tried on two months, then run a month at a time, Sonnet reads and Opus audits |
 | 56 | The day's order: a reception after its transmission; a chronology's or a volume's printed order the weakest of presumptions | the owner's ruling, Nov. 25, 2026: both rules reversed (R25c), the entries re-ruled; the reach of the ruling to serial numbers and to an agenda's order left as it was, a default |
-| 57 | Where the China map is reached from, and whether it stands in the calendar's pages | default |
+| 57 | Where the China map is reached from, and whether it stands in the calendar's pages | the owner's ruling, Nov. 25, 2026: both; on the threads' pages too; a span filter; the ROC's subdivisions |
 | 58 | The China threads: the defaults the re-threading goes on | default |
 | 59 | The China threads: one primary thread and any number of secondary; subthreads under families; no limit of 3,000 | the owner's ruling, Nov. 25, 2026, with defaults for the names |
 | 53 | Map rows "work, page, note" that lead to a record marked read (2,315), printed as "284 & n.70b (citing ...)" | settled by the owner, Nov. 24: a reader picks one of three for each; no unmarked citation unless the cited matter was read |
@@ -592,6 +592,15 @@ Question: the owner asked for a China map "like our Southeast Asia/Indochina map
 - Applies to: `notes/briefs/china-map.md`; `tools/cnmap/`, `sources/china/`, `build/china.html`. To overrule: say where the map should be reached from, or that each year's calendar page should carry one.
 
 Under ruling 56, a note (Nov. 25, about 5:20 p.m.): of the 174 links group c's auditor added, the owner's 171 are the ones on the printed order alone. The other three stay in the tree: two that rest on the entries' words (June 23, 1962; May 26, 1963) and one on a narrative told in order (May 8, 1963, Branch). They too were read once only; say if they should be held with the rest.
+
+**The owner's ruling (Nov. 25, 2026, about 8:30 p.m.), which replaces the first default above and settles two of the builder's questions.** The words are in `notes/owner-brief.md` under that hour.
+
+- "Both": the map has a mark in the top bar and stands in the calendar's pages. "In each calendar under the day of the first China entry." "図 for both SEA and China": the top bar's one mark serves both maps.
+- "Put them on the relevant threads top, scoped to the thread's content and the page's range": a thread's page carries its map at the top, showing that thread's entries within that page's dates.
+- "Show the later units": as the default had it.
+- "Give Formosa and Free China their ROC subdivisions": Taiwan and the islands the Republic of China held are drawn with the Republic's own counties and cities.
+- "Default each calendar page to its range. Could we have a span filter, with two text fields entered by default but modifiable by hand?": a map on a calendar page opens on that page's dates; the span is two fields, filled in, that the reader can change.
+- Defaults taken on what the words leave open (`notes/briefs/maps-2.md`): the one mark 図 leads to a short page that lists the two maps; the relevant threads are China and every thread under it for the China map, and the threads of Vietnam, Laos, Cambodia and Southeast Asia for the Indochina map; the Indochina map in a calendar page follows the same rule as the China map (each page, on its range); a year's buttons stay on the two map pages and fill the two fields; the map's label for the island stays "Taiwan".
 
 ## 58. The China threads: the defaults the re-threading goes on (Nov. 25, 2026, about 6:25 p.m.)
 

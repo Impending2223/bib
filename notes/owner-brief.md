@@ -1468,3 +1468,11 @@ If \"China: bomb\" isn't only about the PRC's nuclear weapons development and te
 
 Resume the work I stopped, but don't do that again." (Done: the map builder and the reader mending the six threads launched again, each from the files as they stood; the rule written into CLAUDE.md, "Publishing", and the hand-off. The session had sat in its turn for the half hour of each of two builds, so the owner's next message could only reach it by stopping the turn, and stopping the turn stopped the agents.)
 
+(Nov. 25, about 8:30 p.m. PT, on the China map's questions) "Both. In each calendar under the day of the first China entry. 図 for both SEA and China. Put them on the relevant threads top, scoped to the thread's content and the page's range.
+
+Show the later units.
+
+Give Formosa and Free China their ROC subdivisions.
+
+Default each calendar page to its range. Could we have a span filter, with two text fields entered by default but modifiable by hand?" (Owner-rulings 57, rewritten as the owner's ruling; `notes/briefs/maps-2.md`, an agent at work on it.)
+
