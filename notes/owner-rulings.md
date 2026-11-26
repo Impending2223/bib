@@ -58,6 +58,7 @@ Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every 
 | 57 | Where the China map is reached from, and whether it stands in the calendar's pages | the owner's ruling, Nov. 25, 2026: both; on the threads' pages too; a span filter; the ROC's subdivisions |
 | 58 | The China threads: the defaults the re-threading goes on | default |
 | 59 | The China threads: one primary thread and any number of secondary; subthreads under families; no limit of 3,000 | the owner's ruling, Nov. 25, 2026, with defaults for the names |
+| 60 | A thread's page and its subthreads: the list, the two counts, a page for a parent with no entries; a parent's page still lists only its own entries | default |
 | 53 | Map rows "work, page, note" that lead to a record marked read (2,315), printed as "284 & n.70b (citing ...)" | settled by the owner, Nov. 24: a reader picks one of three for each; no unmarked citation unless the cited matter was read |
 | 52 | An entry of one day with several acts, one of them timed | revised by the owner, Nov. 24: split into a pair, the timed act with its hour, the order by `follows:` |
 | 51 | A work's page, a note on the page, and the two together: one source or three citations | settled by the owner, Nov. 24: three citations, each with its meaning |
