@@ -2398,15 +2398,18 @@ entries:
   - id: cal.1967-03-13.soviet-union-leadership
     when: Mar. 13
     date: '1967-03-13'
+    time: 1967-03-13T07:00Z
     place: moscow
     thread: soviet-union-leadership
-    c: 'Moscow. Brezhnev with Zhivkov and the Bulgarian party-government delegation (Mar. 13–15), the first talk. His notes of Zhivkov: a new stage in drawing the economies together, direct links between enterprises, perhaps one planning organ as an experiment; energy 30 percent of Bulgaria''s investment, no way but Soviet gas and oil; Bulgaria "in debt," and a slower pace would bring unemployment; the Kremikovtsi works; timber from Mongolia and Guinea; what if something happens to Romania or Yugoslavia.'
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 196–97 (№ 50, "Краткая запись выступления Т. Живкова на первой беседе" (a short record of Zhivkov''s speech at the first talk)), 274 n.86 (the editors: the timber from Mongolia and Guinea). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 177–178 (the secretaries'' record, Mar. 13–14: Moscow. Zhivkov. Brezhnev meets him Mar. 13, 9 a.m., negotiates 10 to 2, and negotiates again Mar. 14 in the Politburo''s hall with Kosygin, Andropov and Lesechko). Made public: 2016. To check: the Bulgarian record; the Soviet answers, not set down. Names: Zhivkov, Brezhnev.'
+    c: 'Moscow. Brezhnev with Zhivkov and the Bulgarian party-government delegation (Mar. 13–15), the first talk. His notes of Zhivkov: a new stage in drawing the economies together, direct links between enterprises, perhaps one planning organ as an experiment; energy 30 percent of Bulgaria''s investment, no way but Soviet gas and oil; Bulgaria "in debt," and a slower pace would bring unemployment; the Kremikovtsi works; timber from Mongolia and Guinea; what if something happens to Romania or Yugoslavia.{1} The talk runs 10 a.m. to 2 p.m.{2}'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 196–97 (№ 50, "Краткая запись выступления Т. Живкова на первой беседе" (a short record of Zhivkov''s speech at the first talk)), 274 n.86 (the editors: the timber from Mongolia and Guinea). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 177–178 (the secretaries'' record, Mar. 13–14: Moscow. Zhivkov. Brezhnev meets him Mar. 13, 9 a.m., negotiates 10 to 2, and negotiates again Mar. 14 in the Politburo''s hall with Kosygin, Andropov and Lesechko); [[w.brezhnev-rabochie-i-dnevnikovye]], II, 177. Made public: 2016. To check: the Bulgarian record; the Soviet answers, not set down. Names: Zhivkov, Brezhnev.'
     src:
-      c: 4f29950e
+      c: 2a7c057c
       rows:
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 177–178: ?'
-    tags: [polity:ussr, polity:bulgaria, name:brezhnev-leonid, name:zhivkov-todor, vis:only:ussr+bulgaria]
+        - 'w.brezhnev-rabochie-i-dnevnikovye II, 177: 2'
+    tags: [polity:ussr, polity:bulgaria, name:brezhnev-leonid, name:zhivkov-todor, vis:only:ussr+bulgaria, ok:note-substance]
+    time_zone: Europe/Moscow
   - id: cal.1967-03-13.vietnam-hanoi
     when: Mar. 13
     date: '1967-03-13'
@@ -2482,6 +2485,21 @@ entries:
     c: Peking 北京. The "Liaison Station for Criticizing Chen Yun" 批判陈云联络站 of the Central Institute of Finance and Economics 中央财经学院 questions Zhang Wentian 张闻天 on Chen Yun's 陈云 history.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 161. Made public: 2015. Names: Chen Yun, Zhang Wentian.'
     tags: [polity:prc, name:chen-yun, vis:only:prc, name:zhang-wentian]
+  - id: cal.1967-03-13.soviet-union-leadership-3
+    when: Mar. 13
+    date: '1967-03-13'
+    time: 1967-03-13T06:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    c: 'Moscow, 9 a.m.: Brezhnev meets Zhivkov on his arrival.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 177 (the secretaries'' record, Mar. 13: "встречал"). Made public: 2016. See [[cal.1967-03-13.soviet-union-leadership]]. Names: Brezhnev, Zhivkov.'
+    tags: [polity:ussr, polity:bulgaria, name:brezhnev-leonid, name:zhivkov-todor, vis:only:ussr+bulgaria]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-03-13.soviet-union-leadership
+        from: notes-pass-08b
+    time_zone: Europe/Moscow
   - id: cal.1967-03-14.poverty
     when: Mar. 14
     date: '1967-03-14'
@@ -3275,15 +3293,17 @@ entries:
   - id: cal.1967-03-17.soviet-union-leadership
     when: Mar. 17
     date: '1967-03-17'
+    time: 1967-03-17T12:00Z
     place: moscow
     thread: soviet-union-leadership
-    c: 'Moscow. Brezhnev with Ceaușescu and Maurer, come to discuss the draft treaty on nonproliferation. His notes: unity needed on disarmament; there will be states with and without nuclear arms, the Soviet weapon the guarantor of the socialist states'' security; the treaty limits the non-nuclear states'' peaceful use of the atom; opinion to be mobilized to press the United States. Maurer: why "impoverish our own positions" because the Americans disagree.'
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 198–99 (№ 52, "Беседа с т. Чаушеску" (talk with Comrade Ceaușescu), Mar. 17), 275 nn.95–97 (the editors: Ceaușescu came expressly to discuss Romania''s position on the nonproliferation treaty; the Romanian side tied the treaty to a disarmament agreement; the treaty approved by the General Assembly June 12, 1968). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 178–179 (the secretaries'' record, Mar. 17–18: Moscow. Ceaușescu and the Romanian party delegation. Brezhnev meets them Mar. 17, 10 a.m., and negotiates 3 to 8 p.m. with Kosygin, Andropov and Gromyko; Mar. 18, 10 to 2 in the Politburo''s new hall, and 3 to 5 in the Central Committee; sees them off at 5). Made public: 2016. To check: the Romanian record. Names: Ceaușescu, Maurer, Brezhnev.'
+    c: 'Moscow. Brezhnev with Ceaușescu and Maurer, come to discuss the draft treaty on nonproliferation. His notes: unity needed on disarmament; there will be states with and without nuclear arms, the Soviet weapon the guarantor of the socialist states'' security; the treaty limits the non-nuclear states'' peaceful use of the atom; opinion to be mobilized to press the United States. Maurer: why "impoverish our own positions" because the Americans disagree.{1} The talks run 3 to 8 p.m., Kosygin, Andropov, Gromyko, Aleksandrov and Samoteikin taking part.{2}'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 198–99 (№ 52, "Беседа с т. Чаушеску" (talk with Comrade Ceaușescu), Mar. 17), 275 nn.95–97 (the editors: Ceaușescu came expressly to discuss Romania''s position on the nonproliferation treaty; the Romanian side tied the treaty to a disarmament agreement; the treaty approved by the General Assembly June 12, 1968). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 178–179 (the secretaries'' record, Mar. 17–18: Moscow. Ceaușescu and the Romanian party delegation. Brezhnev meets them Mar. 17, 10 a.m., and negotiates 3 to 8 p.m. with Kosygin, Andropov and Gromyko; Mar. 18, 10 to 2 in the Politburo''s new hall, and 3 to 5 in the Central Committee; sees them off at 5); [[w.brezhnev-rabochie-i-dnevnikovye]], II, 178–179. Made public: 2016. To check: the Romanian record. Names: Ceaușescu, Maurer, Brezhnev, Kosygin, Andropov, Gromyko.'
     src:
-      c: 79bf2ffc
+      c: 8b072b3f
       rows:
-        - 'w.brezhnev-rabochie-i-dnevnikovye II, 178–179: ?'
-    tags: [polity:ussr, polity:romania, name:brezhnev-leonid, name:ceausescu-nicolae, name:maurer-ion-gheorghe, vis:only:ussr+romania]
+        - 'w.brezhnev-rabochie-i-dnevnikovye II, 178–179: 2'
+    tags: [polity:ussr, polity:romania, name:brezhnev-leonid, name:ceausescu-nicolae, name:maurer-ion-gheorghe, vis:only:ussr+romania, name:kosygin-aleksei, name:andropov-yuriy-vladimirovich, name:gromyko-andrei]
+    time_zone: Europe/Moscow
   - id: cal.1967-03-17.china-leadership
     when: Mar. 17
     date: '1967-03-17'
@@ -3379,6 +3399,21 @@ entries:
     c: Ye Jianying 叶剑英, with Li Fuchun 李富春 and Nie Rongzhen 聂荣臻, at the meeting Zhou Enlai 周恩来 calls on military control of the units under the defense industry departments 国防工业部门.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 962. Made public: 2007. Names: Ye Jianying, Li Fuchun, Nie Rongzhen, Zhou Enlai. Check: the day: the *Zhou Enlai nianpu*, as [[cal.1967-03-20.china-leadership]] cites it (III, 134–135), puts Zhou''s talk with Li Fuchun, Nie Rongzhen and Ye Jianying on military control on Mar. 18, before his report to Mao.'
     tags: [polity:prc, name:ye-jianying, name:li-fuchun, name:nie-rongzhen, name:zhou-enlai, vis:only:prc, ok:fields-place]
+  - id: cal.1967-03-17.soviet-union-leadership-3
+    when: Mar. 17
+    date: '1967-03-17'
+    time: 1967-03-17T07:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    c: 'Moscow, Vnukovo II airfield, 10 a.m.: Brezhnev meets the delegation of the Romanian Communist Party under Ceaușescu.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 178 (the secretaries'' record, Mar. 17). Made public: 2016. See [[cal.1967-03-17.soviet-union-leadership]]. Names: Brezhnev, Ceaușescu.'
+    tags: [polity:ussr, polity:romania, name:brezhnev-leonid, name:ceausescu-nicolae, vis:only:ussr+romania]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-03-17.soviet-union-leadership
+        from: notes-pass-08b
+    time_zone: Europe/Moscow
   - id: cal.1967-03-18.vietnam
     when: Mar. 18
     date: '1967-03-18'
@@ -3780,10 +3815,11 @@ entries:
     thread: vietnam-guam
     follows:
       - cal.1967-03-20.vietnam-2
-    c: 'Guam.{1} Johnson with Thiệu and Kỳ;{2} Rusk, McNamara, Wheeler, Westmoreland, Lodge, Bunker, Harriman, Sharp, Komer with him.{3} The Constituent Assembly had adopted the constitution, Mar. 18, unanimously;{4} Kỳ: the Directorate agrees.{5} Bunker, Locke and Komer presented as the new team.{6} Joint statement, Mar. 21: a President to be elected under the constitution within four to five months, a legislature shortly after;{7} village and hamlet elections from April; pacification "now beginning to show encouraging results."{8} Johnson back in Washington the night of Mar. 21.{9}'
-    n: 'Statement by the President on the New Constitution Adopted by the Constituent Assembly of the Republic of Vietnam, [1967 Pub. Papers 379](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=447) (Mar. 20, 1967); Joint Statement Following the Meeting in Guam With Chairman Thieu and Prime Minister Ky, [1967 Pub. Papers 381](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=449) (Mar. 21, 1967); The President''s News Conference in Guam Following the Conference, [1967 Pub. Papers 382](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=450) (Mar. 21, 1967). [FRUS 1964–68, V, doc. 115](https://history.state.gov/historicaldocuments/frus1964-68v05/d115); [doc. 116](https://history.state.gov/historicaldocuments/frus1964-68v05/d116); [doc. 119](https://history.state.gov/historicaldocuments/frus1964-68v05/d119). [[w.gibbons-u-s-government-and]], IV, 609–10; [[w.cosmas-joint-chiefs-of-staff]], 104 (the conference; the constitution, Mar. 18); [[w.johnson-vantage-point]], 259–60; [[w.berman-lyndon-johnsons-war]], 32–33 (Thiệu and Kỳ with the draft constitution; Bunker and Komer named before; Johnson to Westmoreland, "Are they bringing in as many as they''re losing?", Westmoreland: the crossover "perhaps this month, or next month," the order of battle 287,000 and leveling; Mar. 21, his review corps by corps, Sharp on the bombing); [[w.macv-command-history-1967]], 581 (Revolutionary Development the focus of the conference; Kỳ addresses the conferees on the army''s part in it); [[w.shesol-mutual-contempt]], 382–83 (some thirty hours; "hasty and threadbare"; Johnson home: "constructive two days"); [[w.drea-mcnamara-clifford-and-the-2011]], 136 (Westmoreland, Mar. 21: unless infiltration is stopped, "this war could go on indefinitely"); [[w.solberg-hubert-humphrey]], 304 (Guam; Bunker at the head of the new team; the publicity on the programs other than military); [[w.barrett-uncertain-warriors]], 74 (Guam, Mar. 20: Johnson with Thiệu, Kỳ and Westmoreland; Bunker and Komer the new civilian team); [[w.dallek-flawed-giant]], 459 (the Guam conference, Johnson with military commanders, Thiệu and Kỳ; Westmoreland presses for more men, warns the war "could go on indefinitely"; not the other units). [[w.westmoreland-soldier-reports]], 213–14 (Johnson to the airmen at Andersen; McNamara and Westmoreland agree on Abrams as his deputy; Westmoreland''s review, the war "could go on indefinitely"; his plan with Komer to put pacification under MACV). Check: [[w.dallek-flawed-giant]], 459, has the conference Mar. 20 to 22. The time is the first day''s. To check: [[w.schaffer-ellsworth-bunker]]; [[w.jones-blowtorch]]. After [[cal.1967-03-20.vietnam-2]] (the sources above). See [[cal.1966-09-11.vietnam]]; [[cal.1967-03-15.vietnam]]. Names: Johnson, Nguyễn Văn Thiệu, Nguyễn Cao Kỳ, Rusk, McNamara, Wheeler, Westmoreland, Lodge, Bunker, Harriman, Sharp, Komer, Locke.'
+      - cal.1967-03-20.vietnam-guam
+    c: 'Guam.{1} Johnson with Thiệu and Kỳ;{2} Rusk, McNamara, Wheeler, Westmoreland, Lodge, Bunker, Harriman, Sharp, Komer with him.{3} The Constituent Assembly had adopted the constitution, Mar. 18, unanimously;{4} Kỳ: the Directorate agrees.{5} Bunker, Locke and Komer presented as the new team.{6} Joint statement, Mar. 21: a President to be elected under the constitution within four to five months, a legislature shortly after;{7} village and hamlet elections from April; pacification "now beginning to show encouraging results."{8} Johnson back in Washington the night of Mar. 21.{9} Mar. 20–21: Johnson asks Westmoreland, "Are they bringing in as many as they''re losing?" Westmoreland: not yet; the crossover perhaps this month or next; the enemy''s order of battle 287,000 and leveling.{10} Westmoreland''s review: if the Viet Cong do not break up and the infiltration is not halted, the war could go on indefinitely. He asks that pacification be put under MACV, Komer his civilian deputy.{11}'
+    n: 'Statement by the President on the New Constitution Adopted by the Constituent Assembly of the Republic of Vietnam, [1967 Pub. Papers 379](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=447) (Mar. 20, 1967); Joint Statement Following the Meeting in Guam With Chairman Thieu and Prime Minister Ky, [1967 Pub. Papers 381](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=449) (Mar. 21, 1967); The President''s News Conference in Guam Following the Conference, [1967 Pub. Papers 382](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=450) (Mar. 21, 1967). [FRUS 1964–68, V, doc. 115](https://history.state.gov/historicaldocuments/frus1964-68v05/d115); [doc. 116](https://history.state.gov/historicaldocuments/frus1964-68v05/d116); [doc. 119](https://history.state.gov/historicaldocuments/frus1964-68v05/d119). [[w.gibbons-u-s-government-and]], IV, 609–10; [[w.cosmas-joint-chiefs-of-staff]], 104 (the conference; the constitution, Mar. 18); [[w.johnson-vantage-point]], 259–60; [[w.berman-lyndon-johnsons-war]], 32–33 (Thiệu and Kỳ with the draft constitution; Bunker and Komer named before; Johnson to Westmoreland, "Are they bringing in as many as they''re losing?", Westmoreland: the crossover "perhaps this month, or next month," the order of battle 287,000 and leveling; Mar. 21, his review corps by corps, Sharp on the bombing); [[w.macv-command-history-1967]], 581 (Revolutionary Development the focus of the conference; Kỳ addresses the conferees on the army''s part in it); [[w.shesol-mutual-contempt]], 382–83 (some thirty hours; "hasty and threadbare"; Johnson home: "constructive two days"); [[w.drea-mcnamara-clifford-and-the-2011]], 136 (Westmoreland, Mar. 21: unless infiltration is stopped, "this war could go on indefinitely"); [[w.solberg-hubert-humphrey]], 304 (Guam; Bunker at the head of the new team; the publicity on the programs other than military); [[w.barrett-uncertain-warriors]], 74 (Guam, Mar. 20: Johnson with Thiệu, Kỳ and Westmoreland; Bunker and Komer the new civilian team); [[w.dallek-flawed-giant]], 459 (the Guam conference, Johnson with military commanders, Thiệu and Kỳ; Westmoreland presses for more men, warns the war "could go on indefinitely"; not the other units); [[w.berman-lyndon-johnsons-war]], 32–33; [[w.westmoreland-soldier-reports]], 214. [[w.westmoreland-soldier-reports]], 213–14 (Johnson to the airmen at Andersen; McNamara and Westmoreland agree on Abrams as his deputy; Westmoreland''s review, the war "could go on indefinitely"; his plan with Komer to put pacification under MACV). Check: [[w.dallek-flawed-giant]], 459, has the conference Mar. 20 to 22. The time is the first day''s. The order: after [[cal.1967-03-20.vietnam-guam]], [[w.westmoreland-soldier-reports]], 213 ("the first order of business"). To check: [[w.schaffer-ellsworth-bunker]]; [[w.jones-blowtorch]]. After [[cal.1967-03-20.vietnam-2]] (the sources above). See [[cal.1966-09-11.vietnam]]; [[cal.1967-03-15.vietnam]]. Names: Johnson, Nguyễn Văn Thiệu, Nguyễn Cao Kỳ, Rusk, McNamara, Wheeler, Westmoreland, Lodge, Bunker, Harriman, Sharp, Komer, Locke.'
     src:
-      c: b6ff26ac
+      c: 8161e904
       rows:
         - 'w.gibbons-u-s-government-and IV, 609: 1, 2, 3, 6'
         - 'w.gibbons-u-s-government-and IV, 610: 4, 5'
@@ -3798,7 +3834,6 @@ entries:
         - 'via w.cosmas-joint-chiefs-of-staff 104 n.2a: 1, 2, 4'
         - 'via w.cosmas-joint-chiefs-of-staff 104 n.2b: 1, 2, 4'
         - 'w.westmoreland-soldier-reports 213–14: 1, 2, 3, 6'
-        - 'w.berman-lyndon-johnsons-war 32–33: 1, 2, 4, 6'
         - 'via x.1967-03-21.notes-from-meeting-of-president-with-vietnamese-leaders: 1, 2'
         - 'via x.1967-03-27.newsweek-mar-27-1967-29: 6'
         - 'w.macv-command-history-1967 581: 1'
@@ -3807,7 +3842,9 @@ entries:
         - 'w.solberg-hubert-humphrey 304: 1, 6'
         - 'w.barrett-uncertain-warriors 74: 1, 2'
         - 'w.dallek-flawed-giant 459: 2'
-    tags: [name:johnson-lyndon-b, name:nguyen-van-thieu, name:nguyen-cao-ky, name:rusk-dean, name:mcnamara-robert-s, name:wheeler-earle, name:westmoreland-william, name:lodge-henry-cabot, name:bunker-ellsworth, name:harriman-w-averell, name:sharp-u-s-grant, name:komer-robert-w, name:locke-eugene-m]
+        - 'w.berman-lyndon-johnsons-war 32–33: 1, 2, 4, 6, 10'
+        - 'w.westmoreland-soldier-reports 214: 11'
+    tags: [name:johnson-lyndon-b, name:nguyen-van-thieu, name:nguyen-cao-ky, name:rusk-dean, name:mcnamara-robert-s, name:wheeler-earle, name:westmoreland-william, name:lodge-henry-cabot, name:bunker-ellsworth, name:harriman-w-averell, name:sharp-u-s-grant, name:komer-robert-w, name:locke-eugene-m, ok:note-substance]
   - id: cal.1967-03-20.vietnam-supplemental
     when: Mar. 20
     date: '1967-03-20'
@@ -4053,6 +4090,23 @@ entries:
     c: 'Peking 北京. Zhang Wentian 张闻天 hands the rebels his "Views and recollections of Chen Yun" 《对陈云的看法和回忆》: Chen Yun works soundly, with resource, careful and steady, good at uniting and using cadres, "my impression of Chen Yun is good"; their economic thought is at bottom the same: the people''s material needs, growth, material incentives, central management from above, technical measures, balance, steady advance.'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 161. See [[cal.1967-03-13.china-leadership-5]]. Made public: 2015. Names: Chen Yun, Zhang Wentian.'
     tags: [polity:prc, name:chen-yun, vis:only:prc, name:zhang-wentian]
+  - id: cal.1967-03-20.vietnam-guam
+    when: Mar. 20
+    date: '1967-03-20'
+    place: guam
+    thread: vietnam-guam
+    also: [vietnam-air-war]
+    c: 'Guam, Andersen Air Force Base, in the rain: Johnson addresses the airmen, Maj. Gen. William Crumm of the 3d Strategic Air Division holding an umbrella over him. The conference''s first business.'
+    n: '[[w.westmoreland-soldier-reports]], 213 ("the first order of business"). To check: the Public Papers. See [[cal.1967-03-20.vietnam]]. Names: Johnson.'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1967-03-20.vietnam-guam-2
+    when: Mar. 20–21
+    date: '1967-03-20'
+    place: guam
+    thread: vietnam-guam
+    c: Guam. McNamara and Westmoreland agree on Creighton Abrams as Westmoreland's four-star deputy, to work with the South Vietnamese toward self-sufficiency; Westmoreland tells Johnson and McNamara.
+    n: '[[w.westmoreland-soldier-reports]], 214 ("In the course of the conference"). Check: the day. See [[cal.1967-03-20.vietnam]]. Names: McNamara, Westmoreland, Abrams, Johnson.'
+    tags: [name:mcnamara-robert-s, name:westmoreland-william, name:abrams-creighton, name:johnson-lyndon-b]
   - id: cal.1967-03-21.vietnam
     when: Mar. 21
     date: '1967-03-21'
