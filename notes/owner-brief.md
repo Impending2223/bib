@@ -1476,3 +1476,7 @@ Give Formosa and Free China their ROC subdivisions.
 
 Default each calendar page to its range. Could we have a span filter, with two text fields entered by default but modifiable by hand?" (Owner-rulings 57, rewritten as the owner's ruling; `notes/briefs/maps-2.md`, an agent at work on it.)
 
+(Nov. 25, about 8:35 p.m. PT) "(The span rule covers the SEA map too, right?)" (Answered: yes, one client for both maps.)
+
+(Nov. 25, about 9:55 p.m. PT) "Does Chen Jian still abbreviate to \"Jian, {work}\"?" (Answered: yes, and so did about 350 other Chinese names written without characters. Mended by rule: `sources/name-order.yaml` lists the names written family name first, read and filed as written; `check` warns [name-order] on a new card's name that is in neither list. On the branch; to main with the next build.)
+
