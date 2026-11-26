@@ -6802,14 +6802,17 @@ entries:
     when: Aug.
     date: 1961-08
     thread: china-famine
-    c: 'Four officials report after Li Fuchun''s speech: Li Yiqing, a senior party secretary, that in 1958 over 140,000 tonnes of farming tools went into the backyard furnaces of Henan; Wu Jingtian, vice-minister of railways, that one locomotive in five is out of use for engine damage; Peng De, vice-minister of transportation, that fewer than two vehicles in three work; Xu Chi, vice-minister of metallurgy, that the Angang steelworks stopped for weeks in the summer for want of coal.'
+    c: 'Four officials report after Li Fuchun''s speech: Li Yiqing, a senior party secretary, that in 1958 over 140,000 tonnes of farming tools went into the backyard furnaces of Henan;{2} Wu Jingtian, vice-minister of railways, that one locomotive in five is out of use for engine damage; Peng De, vice-minister of transportation, that fewer than two vehicles in three work; Xu Chi, vice-minister of metallurgy, that the Angang steelworks stopped for weeks in the summer for want of coal.{3}'
+    cut_from:
+      '2': '1'
+      '3': '1'
     n: '[[w.dikotter-maos-great-famine]], 122 n.24, 144 n.70. Made public: 2010. To check: Documents from the Beidaihe conference, Aug. 11, 1961 (the Hunan file), Hunan Provincial Archives, 186-1-584, pp. 38–48, 125, 134 and 152 (cited by [[w.dikotter-maos-great-famine]], 122 n.24; 144 n.70). Check: the meeting and the days: the book sets the reports at Lushan in the summer of 1961 (122, 144); the file it cites is of the Beidaihe conference, Aug. 11. Names: Li Fuchun, Wu Jingtian.'
     src:
-      c: f74553e3
+      c: dfb3579d
       rows:
-        - 'w.dikotter-maos-great-famine 122, 144: all'
-        - 'via w.dikotter-maos-great-famine 122 n.24: all'
-        - 'via w.dikotter-maos-great-famine 144 n.70: A'
+        - 'w.dikotter-maos-great-famine 122, 144: 2, 3'
+        - 'via w.dikotter-maos-great-famine 122 n.24: 2, 3'
+        - 'via w.dikotter-maos-great-famine 144 n.70: 2'
     tags: [polity:prc, vis:only:prc, ok:fields-at, name:li-fuchun, name:wu-jingtian]
   - id: cal.1961-08.china-leadership-5
     when: Aug., by the 10th

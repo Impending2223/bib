@@ -6234,22 +6234,29 @@ entries:
     thread: civil-rights-bill
     follows:
       - cal.1964-06-17.civil-rights-bill-3
-    c: 'Afternoon, just after the vote on the substitute. Humphrey, called off the floor: word from his wife that the biopsy on their son Robert, 20, shows a malignant tumor in a lymph node of his neck; the operation June 23 in Minneapolis. Humphrey stays in Washington, on the floor for the debate, until the bill clears the Senate. Rauh and Mitchell come to the whip''s office over the vote, find him in tears and stay with him.'
+    c: 'Afternoon, just after the vote on the substitute.{1} Humphrey, called off the floor: word from his wife that the biopsy on their son Robert, 20, shows a malignant tumor in a lymph node of his neck;{2} the operation June 23 in Minneapolis.{6} Humphrey stays in Washington, on the floor for the debate, until the bill clears the Senate.{7} Rauh and Mitchell come to the whip''s office over the vote, find him in tears and stay with him.{5}'
+    cut_from:
+      '4': '3'
+      '5': '3'
+      '6': '4'
+      '7': '4'
     n: '[[w.mann-walls-of-jericho]], 427 (just after the vote on the substitute; in tears); [[w.whalen-longest-debate]], 210 (the biopsy; the operation June 23 in Minneapolis; he stays until the bill clears the Senate); [[w.humphrey-education-of-a-public-1976]], 285, 479–80 n.13 (the call; he stays on the floor; Rauh and Mitchell, pleased with the bill''s progress, stay with him; by the note no flight to Minneapolis on the Friday, at his son''s side Saturday morning); [[w.risen-bill-of-the-century]], 235 (in the middle of the day Humphrey learns of his son''s tumor and operation; in tears before Rauh and Mitchell; stays); [[w.purdum-idea-whose-time-has-2014]], 307 (Humphrey summoned off the floor in midafternoon to a call from his wife, their son Bob''s malignant growth, major surgery; Mitchell and Rauh, dropping by happy, joining him in tears; "I had a terrible time pulling myself together to go back to the Senate floor"; Purdum has the call before the vote on the substitute (the evening)). Check: Purdum, 307, has the call in midafternoon, hours before the vote on the substitute that evening, not after it. To check: *Life*, Sept. 27, 1968 (cited by [[w.mann-walls-of-jericho]], 427); [[w.humphrey-beyond-civil-rights]], 96 (cited by [[w.whalen-longest-debate]], 271). See [[cal.1964-06-17.civil-rights-bill-3]]. Names: Humphrey, Rauh, Clarence Mitchell. Check: the day; the memoir puts the final passage "the next day," and its note puts the Friday, June 19, the day of the final vote, as the day he could not fly.'
     src:
-      c: 1559cb1a
+      c: 28d82db8
       rows:
-        - 'w.mann-walls-of-jericho 427: all'
-        - 'w.risen-bill-of-the-century 235: D'
-        - 'w.purdum-idea-whose-time-has-2014 307: ?'
+        - 'w.mann-walls-of-jericho 427: 1, 2, 5'
+        - 'w.whalen-longest-debate 210: 2, 6, 7'
+        - 'w.humphrey-education-of-a-public-1976 285, 479–80 n.13: 2, 7, 5'
+        - 'w.risen-bill-of-the-century 235: 7, 5'
+        - 'w.purdum-idea-whose-time-has-2014 307: 2, 7, 5'
     tags: [name:humphrey-hubert-h, name:rauh-joseph-l-jr, name:mitchell-clarence-jr]
     aliases: [cal.1964-06-17.civil-rights-bill-5, cal.1964-06-17.civil-rights-bill-6]
     variants:
-      - unit: A
+      - unit: '1'
         witness: w.risen-bill-of-the-century
         reads: word of the tumor "in the middle of the day," the substitute passing at about 9:30 p.m.
         at: '235'
-      - unit: B
+      - unit: '2'
         witness: w.risen-bill-of-the-century
         reads: '"a malignant brain tumor" needing "an immediate operation"'
         at: '235'

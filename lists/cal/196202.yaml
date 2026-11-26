@@ -528,14 +528,17 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [south-asia, china-foreign]
-    c: Peking Hotel. Zhou Enlai attends the reception given by the Ceylonese Ambassador, Perera, for the 14th anniversary of Ceylon's independence.
+    c: Peking Hotel.{2} Zhou Enlai attends the reception given by the Ceylonese Ambassador, Perera, for the 14th anniversary of Ceylon's independence.{3}
+    cut_from:
+      '2': '1'
+      '3': '1'
     n: '[[w.zhou-enlai-waijiao-huodong]], 329 (Feb. 3, 1962; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 218 (Feb. 3, 1962; Chen Yi''s speech at the Ceylonese ambassador''s reception for Ceylon''s 14th anniversary: he condemns the United States, working through the United Nations, for arresting the Congolese nationalist leader Gizenga, and the American states'' foreign ministers'' conference for its resolutions against and interfering with Cuba, which obstruct a peaceful solution of the Laotian question); [[w.chen-yi-nianpu]], 909 (Feb. 3, 1962, evening; Chen Yi speaks at the reception of Alvin Bernard Perera 阿尔温·伯纳德·佩雷拉: condemns the United States for arresting Gizenga through the United Nations, for driving the meeting of American foreign ministers to a resolution against Cuba, and for indulging the Savannakhet group in Laos). Names: Zhou Enlai.'
     src:
-      c: 3bba5a32
+      c: 8f9f6ba5
       rows:
-        - 'w.zhou-enlai-waijiao-huodong 329: all'
-        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 218: B'
-        - 'w.chen-yi-nianpu 909: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 218: date'
+        - 'w.chen-yi-nianpu 909: 2, date, time'
+        - 'w.zhou-enlai-waijiao-huodong 329: 2, 3, time'
     tags: [polity:prc, polity:ceylon, name:zhou-enlai]
     time_range:
       - 1962-02-03T11:00Z
