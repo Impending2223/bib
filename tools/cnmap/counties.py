@@ -42,6 +42,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
@@ -70,6 +71,10 @@ LISTS = {
     "10032": ("宁夏回族自治区", "ningxia", "Ningxia Ningxia Hui Autonomous Region"),
     "10033": ("新疆维吾尔自治区", "xinjiang", "Xinjiang Uyghur Autonomous Region"),
 }
+CODE = {"10002": 11, "10003": 12, "10004": 13, "10005": 14, "10006": 15, "10007": 21, "10008": 22, "10009": 23, "10011": 31,
+        "10012": 32, "10013": 33, "10014": 34, "10015": 35, "10016": 36, "10017": 37, "10018": 41, "10019": 42, "10020": 43,
+        "10021": 44, "10022": 45, "10023": 46, "10024": 50, "10025": 51, "10026": 52, "10027": 53, "10028": 54, "10029": 61,
+        "10030": 62, "10031": 63, "10032": 64, "10033": 65}
 MUNI = {"10002": "北京市", "10003": "天津市", "10011": "上海市", "10024": "重庆市"}
 PARENT = {"10003": "10004", "10023": "10021", "10024": "10025"}     # a province made since 1964: where its units were
 HAN = "一-鿿"
@@ -94,6 +99,12 @@ def get(url, path):
             open(path, "wb").write(b)
             time.sleep(1.2)
             return b
+        except urllib.error.HTTPError as e:
+            if e.code == 404:                        # no such page: not asked again
+                time.sleep(1.2)
+                return b""
+            print("retry", url, e, flush=True)
+            time.sleep(8 * (i + 1))
         except Exception as e:
             print("retry", url, e, flush=True)
             time.sleep(8 * (i + 1))
@@ -121,17 +132,34 @@ def fetch(d):
             years = menu(dec(get(BASE + h, os.path.join(d, f"seed-{n}-{k}.html"))))
             if len(years) >= 25:
                 break
-        got = sum(bool(get(BASE + years[y], os.path.join(d, f"{n}-{y}.html"))) for y in range(Y0, Y1 + 1) if y in years)
+        if len(years) < 25:             # no menu: the list's own year links, a page a year, numbered in order
+            anchors = {int(y): (pre, int(i)) for pre, i, y in
+                       re.findall(r'href="(show/[a-z]+/)(\d+)\.html"[^>]*>\s*((?:19|20)\d\d)年\s*<', t) if int(y) <= 1990}
+            if len(anchors) >= 2 and len({i - y for y, (_, i) in anchors.items() if y >= 1960}) == 1:
+                y0, (pre, i0) = min((y, v) for y, v in anchors.items() if y >= 1960)
+                years = {y: f"{pre}{i0 + y - y0}.html" for y in range(Y0, Y1 + 1)}
+        got = 0
+        for y in range(Y0, Y1 + 1):
+            path = os.path.join(d, f"{n}-{y}.html")
+            b = get(BASE + years[y], path) if y in years else b""
+            if not page(b, n) or f"{y}年" not in b.decode("gb18030", "replace")[:3000]:   # the site's newer address
+                if os.path.exists(path):
+                    os.remove(path)
+                b = get(f"http://www.xzqh.org/show/china/{CODE[n]}/{y}.html", path)
+                if not page(b, n) and os.path.exists(path):
+                    os.remove(path)
+                    b = b""
+            got += bool(b)
         print(n, LISTS[n][0], "years in the menu", len(years), "pages", got, flush=True)
 
 
 def page(b, lid):
     """One page: {summary, units: [{n, pref, seat, top, d (a city's district)}], notes (the year's changes)}."""
     t = b.decode("gb18030", "replace")
-    m = re.search(r'<div class="content">(.*?)(?:<div class="ad_|</div>)', t, re.S)
+    m = re.search(r'<div class="content">(.*?)(?:<div class="ads?_|<div id="siteurl"|<div class="foot"|本站内容是根据|$)', t, re.S)
     if not m:
         return None
-    body = re.sub(r"<script.*?</script>|<!--.*?-->", "", m.group(1), flags=re.S)
+    body = re.sub(r'<script.*?</script>|<!--.*?-->|<div id="years">.*?</div>', "", m.group(1), flags=re.S)
     body = re.sub(r"</?(?:p|div|tr|table|tbody|li|ul)[^>]*>|<br\s*/?>", "\n", body)
     body = re.sub(r"</?(?:td|th)[^>]*>", "　　", body)
     body = html.unescape(body).replace("\xa0", "　").replace("\r", "").replace(" ", "　")
@@ -186,7 +214,19 @@ def record(d):
             p = page(open(os.path.join(d, f), "rb").read(), m.group(1))
             if p and p["units"]:
                 out.setdefault(m.group(1), {})[int(m.group(2))] = p
+    for l, ys in out.items():           # a year's page that lists far fewer units than its neighbours is not a list
+        n = {y: sum(1 for u in p["units"] if not u.get("d")) for y, p in ys.items()}
+        for y in sorted(ys):
+            near = [n[z] for z in (y - 2, y - 1, y + 1, y + 2) if z in n]
+            if near and n[y] < 0.7 * sorted(near)[len(near) // 2]:
+                print("  set aside:", LISTS[l][0], y, n[y], "units against", near)
+                ys[y]["bad"] = True
     return out
+
+
+def good(rec, l):
+    """The years of a province that have a list."""
+    return {y for y, p in rec.get(l, {}).items() if not p.get("bad")}
 
 
 # ---- names
@@ -286,33 +326,39 @@ def walk(lid, name, year, rec):
     """A unit of `year` walked back to 1964: (list, the 1964 name or None, basis, the changes used)."""
     basis, via = "same", []
     rank = {"same": 0, "moved": 1, "renamed": 2, "part": 3, "first of several": 4, "unresolved": 5}
-    for y in range(year, Y0, -1):
-        prev = rec.get(lid, {}).get(y - 1)
-        if prev is None:                # the province's list does not reach back: its parent's (Hainan, Chongqing)
-            if lid in PARENT and (y - 1) in rec.get(PARENT[lid], {}):
+    y = year
+    while y > Y0:
+        py = max((z for z in good(rec, lid) if z < y), default=None)        # the year before that has a list
+        if py is None:                  # the province's list does not reach back: its parent's (Hainan, Chongqing)
+            if lid in PARENT and any(z < y for z in good(rec, PARENT[lid])):
                 lid = PARENT[lid]
-                prev = rec[lid][y - 1]
-            else:
-                return lid, None, "unresolved", via + [f"{y - 1}: no list"]
+                continue
+            return lid, None, "unresolved", via + [f"{y - 1}: no list"]
+        prev = rec[lid][py]
+        notes = "\n".join(rec[lid][z]["notes"] for z in range(py + 1, y + 1) if z in rec[lid])
+        this_y, y = y, py
         p = find_prev(name, prev["units"])
         if p:
             name = p
             continue
-        got = from_notes(name, rec[lid][y]["notes"] if y in rec.get(lid, {}) else "", prev["units"])
+        y = this_y
+        got = from_notes(name, notes, prev["units"])
         if got:
             old, b, s = got
             via.append(f"{y}: {s[:120]}")
             if rank[b] > rank[basis]:
                 basis = b
             name = old
+            y = py
             continue
-        moved = [(l, find_prev(name, rec[l][y - 1]["units"])) for l in rec if l != lid and (y - 1) in rec[l]]
+        moved = [(l, find_prev(name, rec[l][y - 1]["units"])) for l in rec if l != lid and (y - 1) in good(rec, l)]
         moved = [(l, n) for l, n in moved if n and base(n) == base(name)]
         if len(moved) == 1:
             via.append(f"{y}: in {LISTS[moved[0][0]][0]}'s list the year before")
             lid, name = moved[0]
             if rank["moved"] > rank[basis]:
                 basis = "moved"
+            y -= 1
             continue
         return lid, None, "unresolved", via + [f"{y}: {name} is new, and the year's changes do not say from what"]
     return lid, name, basis, via
@@ -326,7 +372,7 @@ def main():
     import shapely
     from shapely.geometry import shape
     rec = record(os.path.join(d, "xzqh"))
-    lacking = [f"{LISTS[l][0]} {y}" for l in LISTS for y in (Y0,) if y not in rec.get(l, {}) and l not in PARENT]
+    lacking = [f"{LISTS[l][0]} {y}" for l in LISTS for y in (Y0,) if y not in good(rec, l) and l not in PARENT]
     if lacking:
         print("no 1964 list:", lacking)
     # the file's units, each in its province
@@ -347,10 +393,14 @@ def main():
                 continue                    # Taiwan, Hong Kong, Macau: not the PRC's units
             hit = [near[0]]
         near2 = [l for l, pg in provs if l != hit[0] and pg.distance(g) < 0.05]
-        units.append({"id": f["properties"]["shapeID"], "file": f["properties"]["shapeName"] or "", "list": hit[0], "near": near2})
+        lid = hit[0]
+        if not good(rec, lid) and lid in PARENT:        # Chongqing: no list of its own before 1997; Sichuan's
+            lid = PARENT[lid]
+        units.append({"id": f["properties"]["shapeID"], "file": f["properties"]["shapeName"] or "", "list": lid, "near": near2})
     print(len(feats), "units in the file;", len(units), "in the PRC's provinces")
     # the file's year: the lists' year whose names match most
-    pin = {(l, y): {pinyin(u["n"]): u["n"] for u in p["units"] if not u.get("d")} for l, ys in rec.items() for y, p in ys.items()}
+    pin = {(l, y): {pinyin(u["n"]): u["n"] for u in p["units"] if not u.get("d")}
+           for l, ys in rec.items() for y, p in ys.items() if not p.get("bad")}
     score = collections.Counter()
     for y in range(1980, Y1 + 1):
         score[y] = sum(1 for u in units if u["file"].lower() in pin.get((u["list"], y), {}))
@@ -400,7 +450,7 @@ def main():
     # the 1964 units no later unit reaches
     not_shown = []
     for l in sorted(rec):
-        if Y0 not in rec[l]:
+        if Y0 not in good(rec, l):
             continue
         for x in rec[l][Y0]["units"]:
             if x.get("d") or (l, x["n"]) in to:
@@ -409,11 +459,11 @@ def main():
             if x["n"].endswith("县") and any(k == l and base(n) == base(x["n"]) for k, n in to):
                 why = "since joined to the city of its name"
             not_shown.append({"list": l, "zh": x["n"], "pref": x.get("pref") or "", "why": why})
-    n64 = sum(1 for l in rec if Y0 in rec[l] for x in rec[l][Y0]["units"] if not x.get("d"))
+    n64 = sum(1 for l in rec if Y0 in good(rec, l) for x in rec[l][Y0]["units"] if not x.get("d"))
     print("1964 units in the lists:", n64, "; drawn:", len(to), "; not shown:", len(not_shown))
     lists = {l: {"name": LISTS[l][0], "unit": LISTS[l][1],
                  "units_1964": [{"zh": x["n"], "pref": x.get("pref") or "", "seat": x.get("seat") or ""}
-                                for x in rec[l][Y0]["units"] if not x.get("d")] if Y0 in rec.get(l, {}) else []}
+                                for x in rec[l][Y0]["units"] if not x.get("d")] if Y0 in good(rec, l) else []}
              for l in LISTS}
     for u in units:
         u.pop("near", None)

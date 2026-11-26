@@ -32,6 +32,12 @@ STYLE:
     works-0.html a page a letter, each with the bar (its own letter unlinked), a line to the index, and at the foot
     the letters before and after. A card's anchor is on its letter's page; a link anywhere goes there
     (pages.works_href, pages.route), and works.html#<card> forwards an old link by script.
+ 9. The top bar names the heading the reader is under, an author's name or a title in full, as it names the person on
+    a Names page, not the letter alone (the owner, Nov. 25, 2026: "show the full name of the author or work, as the
+    Names navigation bar does, rather than just the first letter"): each heading carries an id ("wh." and its folded
+    words), `data-h` (the template's mark for a heading that is not an h2-h4: level 2 on a letter's own page, as a
+    person's is, 3 where all the letters share one page) and `data-short`, its words. The scroll wheel and the
+    Outline drawer read the same marks. No new rule in the CSS and none in the script.
 """
 import html
 import re
@@ -247,12 +253,22 @@ def pages_(series, linker, template):
 
     blocks = groups(series)
 
-    def head(hd, raw):
+    seen = {}
+    lv = 2 if pages.works_split() else 3     # on a letter's own page the heading stands where the Names' does
+
+    def bar_mark(text, cid):
+        """STYLE 9: the heading's id and what the top bar, the scroll wheel and the Outline read."""
+        base = re.sub(r"[^a-z0-9]+", "-", store.fold(text)).strip("-") or cid
+        seen[base] = seen.get(base, 0) + 1
+        hid = "wh." + base + (f"-{seen[base]}" if seen[base] > 1 else "")
+        return f' id="{esc(hid)}" data-h="{lv}" data-short="{esc(text)}"'
+
+    def head(hd, raw, cid):
         name = works.SAME.get(raw or hd, raw or hd)
         who = namelinks.written(series, re.sub(r"\s+et al\.\??$", "", name)) or namelinks.person(series, hd)
         u = namelinks.url(series, who) if who else None
         inner = esc(hd)
-        return f'<p class="wh">' + (f'<a class="nm" href="{esc(u)}">{inner}</a>' if u else inner) + "</p>"
+        return f'<p class="wh"{bar_mark(hd, cid)}>' + (f'<a class="nm" href="{esc(u)}">{inner}</a>' if u else inner) + "</p>"
 
     by_letter = {}
     for g in blocks:
@@ -267,9 +283,9 @@ def pages_(series, linker, template):
         for g in by_letter[L]:
             items = sorted(g["items"])
             if g["hd"]:
-                hh = head(g["hd"], g.get("raw"))
+                hh = head(g["hd"], g.get("raw"), items[0][2])
             else:                          # the short title, in italics (the owner's ruling, Oct. 15, 2026)
-                hh = f'<p class="wh"><i>{esc(g["title"])}</i></p>'
+                hh = f'<p class="wh"{bar_mark(g["title"], items[0][2])}><i>{esc(g["title"])}</i></p>'
             out.append('<div class="wa">' + hh + "".join(item(cid, gh) for _, gh, cid in items) + "</div>")
         return out
 
