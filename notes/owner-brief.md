@@ -1494,3 +1494,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 12:53 pm PT.** "Do the readers know that we have the books on hand?"
 
 **Nov. 26, 2026, about 1:26 pm PT.** "I've moved the Gibbons to the shared folder."
+
+**Nov. 26, 2026, about 1:53 pm PT.** "Instead of antisemitism, "Jewish diaspora" (i.e., Jews not in Israel). Instead of "Eastern Europe," "Comecon" (i.e., Comecon members and associate members west of the Soviet Union, excluding observers and the later DRV/SRV)."
