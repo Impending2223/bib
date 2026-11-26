@@ -190,13 +190,23 @@ ops:
 - add-words:
     id: cal.1965-08-30.steel
     after: end
-    words: The morning breakfast at 8 a.m. is with Morse, Collins, Simkin and his cabinet advisers; Wirtz is opposed to calling the parties in, Connor unenthusiastic. At 1 p.m. in the Cabinet Room he asks for "a noninflationary settlement" and tells them to remember "our boys in Vietnam," then sends them to Room 275 of the Executive Office Building. Afterward he opens a back channel unknown to Wirtz and Connor, Goldberg for the union and Clifford for the companies. That afternoon he sees Eisenhower, who joins him before the press. The postponement is announced at 9 p.m.; Abel is alone with Johnson later.
+    words: Breakfast at 8 a.m. is with Morse, Collins, Simkin and his cabinet advisers; Wirtz is opposed to calling the parties in, Connor unenthusiastic. At 1 p.m. in the Cabinet Room he asks for "a noninflationary settlement" and tells them to remember "our boys in Vietnam," then sends them to Room 275 of the Executive Office Building. Afterward he opens a back channel unknown to Wirtz and Connor, Goldberg for the union and Clifford for the companies. That afternoon he sees Eisenhower, who joins him before the press. The postponement is announced at 9 p.m.; Abel is alone with Johnson later.
     item: '[[w.califano-triumph-and-tragedy-of]], 90–91'
 - add-words:
     id: cal.1965-08-30.steel
     after: end
     words: Goldberg and Clifford are asked to arrange a settlement without the knowledge of Wirtz or Connor.
     item: '[[w.dallek-flawed-giant]], 305'
+- edit:
+    id: cal.1965-08-30.steel
+    base: f1a70047
+    set:
+      time: 1965-08-30T17:00Z
+      time_zone: America/New_York
+    unset:
+    - time_range
+    - time_band
+    - range_basis
 - names:
     id: cal.1965-08-30.steel
     add:
@@ -860,12 +870,12 @@ ops:
     - name:wu-han
 - add-words:
     id: cal.1966-04-10.china-leadership
-    after: end
+    after: The Center issues the army forum summary ... for the army and for the whole front.
     words: The title is "Summary of the forum on literature and art work in the forces that Comrade Lin Biao entrusted Comrade Jiang Qing to hold."
     item: '[[w.zhu-de-nianpu-xinbian]], III, 1950'
 - add-words:
     id: cal.1966-04-10.china-leadership
-    after: end
+    after: The Center issues the army forum summary ... for the army and for the whole front.
     words: Liu Zhijian's men draft the Center's comment Mar. 31; it goes as Zhongfa (66) 211 to Party committees down to county and regiment level.
     item: '[[w.pu-weihua-zalan-jiu-shijie]], 47–48'
 - names:
@@ -985,31 +995,6 @@ ops:
     - name:liu-zhijian
     - name:chen-yading
     - name:xiao-hua
-- add-words:
-    id: cal.1966-05-04.china-leadership
-    after: end
-    words: Chen Yi attends.
-    item: '[[w.chen-yi-nianpu]], 1147'
-- add-words:
-    id: cal.1966-05-04.china-leadership
-    after: end
-    words: Zhou Enlai attends from the 16th; Lin Biao speaks on the 18th.
-    item: '[[w.zhou-enlai-nianpu-1949-2020]], III, 29–30'
-- add-words:
-    id: cal.1966-05-04.china-leadership
-    after: end
-    words: 'On May 24 the meeting''s explanation of its decision touches Peng Dehuai: the "Peng Dehuai anti-Party clique" was exposed and criticized early in 1960.'
-    item: '[[w.peng-dehuai-nianpu]], 795'
-- names:
-    id: cal.1966-05-04.china-leadership
-    add:
-    - Chen Yi
-    - Lin Biao
-    - Peng Dehuai
-    tags:
-    - name:chen-yi
-    - name:lin-biao
-    - name:peng-dehuai
 - add-words:
     id: cal.1966-05-05.china-leadership
     after: end
@@ -1623,11 +1608,6 @@ ops:
     - ok:note-substance
 - names:
     id: cal.1966-04-18.china-leadership
-    add: []
-    tags:
-    - ok:note-substance
-- names:
-    id: cal.1966-05-04.china-leadership
     add: []
     tags:
     - ok:note-substance
