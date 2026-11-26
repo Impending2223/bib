@@ -17,6 +17,10 @@ Writes, in sources/indochina/:
    (5.8 MB of GeoJSON at a 400 m simplification);
  - koppen.json: the legend (the classes, the paper's colours, each class's share of the frame's land);
  - climate.geojson: one square a land cell of climate.json, {"p1".."p12": mm, "t1".."t12": degrees C}.
+
+A second frame (Nov. 26, 2026; tools/vnmap/frames.py): `python3 -I tools/vnmap/climate.py KOPPEN_TIF LEGEND_TXT china`
+writes the same three files in sources/china/ from the same two inputs, the tiles to a shallower zoom; China's
+climate.json (layers.py, its step `climate`, run first) covers the map's bounds in cells of half a degree.
 """
 import json
 import os
@@ -31,12 +35,13 @@ import shapely
 from PIL import Image
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import frames  # noqa: E402
 import tiles  # noqa: E402
 
-ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
-OUT = os.path.join(ROOT, "sources", "indochina")
-FRAME = (97.5, 5.5, 113.0, 26.0)          # base.FRAME
-MAXZ = 7                                  # 256-px tiles: ~1.2 km a pixel at z7, the 1 km grid
+F, ARGS = frames.get(sys.argv[1:])        # the frame: Indochina's, or the one the command line names
+OUT = F["out"]
+FRAME = F["frame"]                        # base.FRAME
+MAXZ = F["koppen_maxz"]                   # 256-px tiles. Indochina: ~1.2 km a pixel at z7, the 1 km grid
 
 
 def rnd(c, p=4):
@@ -82,7 +87,7 @@ def koppen(tif, legend):
                  "description": "Paletted PNG, index 0 transparent; tools/vnmap/climate.py"})
     write("koppen.json", {"source": "Beck et al. (2023), Köppen-Geiger classes for 1961-1990, 0.00833 deg (1 km); figshare "
                                     "doi:10.6084/m9.figshare.21789074.v2 (Jan. 2026 correction), CC BY 4.0",
-                          "frame": FRAME, "classes": classes})
+                          "frame": list(FRAME), "classes": classes})
 
 
 def grid():
@@ -104,5 +109,6 @@ def grid():
 
 
 if __name__ == "__main__":
-    koppen(sys.argv[1], sys.argv[2])
+    if ARGS[0] != "grid":                 # `climate.py grid china`: the squares alone, from climate.json
+        koppen(ARGS[0], ARGS[1])
     grid()

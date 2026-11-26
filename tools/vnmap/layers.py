@@ -46,12 +46,26 @@ Reads (DL/...), where from, and what each makes:
                       -> climate.json
 
 Sources, licenses and what was refused: sources/indochina/README.md.
+
+A second frame (Nov. 26, 2026; tools/vnmap/frames.py, which holds every number that differs): the map of China, its
+rivers, lakes and rain by the steps hydro, lakes and climate (the other steps are the superseded ones):
+
+    python3 -I tools/vnmap/layers.py DL sources/china china hydro lakes climate
+
+DL as above, with SWORD's reaches of every Asian basin (as_sword_reaches_hb31..36 and hb41..49, for the rivers'
+names) in sword/shp/. The extent is then the map of China's bounds, lon 67-141 E, lat 11-57 N; the rivers are
+HydroRIVERS's everywhere (no delta is drawn from SWORD), of 100 m3/s and over; the lakes of 10 km2 and over; the rain
+in cells of half a degree, each the mean of 3 x 3 of CRU's. sources/china/README.md.
 """
 import gzip, json, math, os, re, struct, sys, zlib
 import numpy as np
 
-W0, E0, S0, N0 = 100.0, 110.5, 8.0, 23.5
-DL, OUT = sys.argv[1], sys.argv[2]
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import frames  # noqa: E402
+
+F, ARGS = frames.get(sys.argv[1:])       # the frame: Indochina's, or the one the command line names
+W0, S0, E0, N0 = F["extent"]
+DL, OUT = ARGS[0], ARGS[1]
 
 
 def merc_y(lat):
@@ -281,8 +295,7 @@ def contours(z, glat, glon):
 # The Mekong delta and the Saigon lowlands: HydroRIVERS, drawn from a flow-direction grid, cannot split a river, so
 # it sends the whole Mekong down one channel and draws flow paths across the flat delta that are not rivers. Inside
 # this ring the rivers are SWORD's reaches (mapped from Landsat, every channel 30 m wide or more); outside, HydroRIVERS.
-DELTA = [(104.70, 11.80), (105.95, 11.80), (106.45, 11.20), (106.60, 10.86), (106.95, 10.80), (107.15, 10.40),
-         (107.15, 8.40), (104.70, 8.40)]
+DELTA = F["delta"]                       # frames.py; None: no such ring, HydroRIVERS everywhere (the map of China)
 
 # size, for drawing: 1 the largest. HydroRIVERS by long-term mean discharge (DIS_AV_CMS, m3/s); SWORD by width (m).
 DIS = [5000, 1000, 300, 100, 30, 10]
@@ -307,6 +320,9 @@ HAND = [('Ben Hai River', 'Bến Hải', 17.015, 107.1125, 100), ('Thach Han Riv
 # rivers that keep their names to the sea: whatever lies downstream of a segment so named is that river
 TO_SEA = {'Red River', 'Mekong River', 'Ma River', 'Lam River', 'Gianh River', 'Perfume River', 'Chao Phraya River'}
 SAME = {'Mekong': 'Mekong River', 'Nam Theun River': 'Nam Theun'}  # one river, two spellings in SWORD
+if F["id"] != "indochina":               # the tables above are Indochina's: written by hand for its rivers alone
+    VI, HAND = {}, []
+    TO_SEA, SAME = set(F.get("to_sea", ())), dict(F.get("same", {}))
 
 
 def fill_runs(segs, down_of, reach=250):
@@ -344,14 +360,14 @@ def hydro():
     from shapely.strtree import STRtree
     from shapely import simplify
     ext = box(W0, S0, E0, N0)
-    zone = Polygon(DELTA)
+    zone = Polygon(DELTA) if DELTA else Polygon()
 
     def inbox(b):
         return not (b[2] < W0 or b[0] > E0 or b[3] < S0 or b[1] > N0)
 
     # SWORD reaches in the extent
     sw = {}
-    for hb in (43, 44):
+    for hb in F["sword"]:
         r = shapefile.Reader(os.path.join(DL, f'sword/shp/as_sword_reaches_hb{hb}_v17c.shp'))
         for rec, shp in zip(r.iterRecords(), r.iterShapes()):
             if not inbox(shp.bbox) or len(shp.points) < 2:
@@ -386,6 +402,8 @@ def hydro():
     for rec, shp in zip(r.iterRecords(), r.iterShapes()):
         if not inbox(shp.bbox):
             continue
+        if F["river_read"] and rec['DIS_AV_CMS'] < F["river_read"]:
+            continue                     # a frame too large to hold every segment: the rivers drawn alone are read
         hr[rec['HYRIV_ID']] = dict(g=LineString(shp.points), down=rec['NEXT_DOWN'], up_area=rec['UPLAND_SKM'],
                                    dis=rec['DIS_AV_CMS'], main=rec['MAIN_RIV'], name=None, vi=None)
     ups = {}
@@ -468,7 +486,7 @@ def hydro():
     # HydroRIVERS outside the delta ring
     groups = {}
     for k, s in hr.items():
-        if s['dis'] < 10 and not s['name']:
+        if s['dis'] < F["river_min"] and not s['name']:
             continue
         g = s['g'].difference(zone).intersection(ext)
         if g.is_empty:
@@ -482,7 +500,7 @@ def hydro():
             props['name'] = name
         if vi:
             props['name_vi'] = vi
-        emit(lines, props, 0.002, 0.008, sz <= 4 or (name is not None and sz <= 5))
+        emit(lines, props, F["river_tol"], 0.008, sz <= 4 or (name is not None and sz <= 5))
     # SWORD inside the delta ring
     groups = {}
     for v in sw.values():
@@ -502,8 +520,10 @@ def hydro():
             props['name'] = name
         if vi:
             props['name_vi'] = vi
-        emit(lines, props, 0.002, 0.008, sz <= 3)
+        emit(lines, props, F["river_tol"], 0.008, sz <= 3)
     for which, fn in (('fine', 'rivers.geojson'), ('coarse', 'rivers-coarse.geojson')):
+        if which == 'coarse' and not F["river_coarse"]:
+            continue
         fs = sorted(feats[which], key=lambda f: -f['properties']['size'])  # small first, so large draw on top
         fc = {'type': 'FeatureCollection', 'name': fn[:-8], 'features': fs}
         with open(os.path.join(OUT, fn), 'w') as f:
@@ -526,12 +546,12 @@ def lakes():
     out = []
     for sr in r.iterShapeRecords(bbox=(W0, S0, E0, N0)):
         rec, shp = sr.record, sr.shape
-        if rec['Lake_area'] < 1.0:
+        if rec['Lake_area'] < F["lake_min"]:
             continue
         g = shape(shp.__geo_interface__).intersection(ext)
         if g.is_empty:
             continue
-        g = simplify(g, 0.001, preserve_topology=True)
+        g = simplify(g, F["lake_tol"], preserve_topology=True)
         props = {'id': rec['Hylak_id'], 'area_km2': round(rec['Lake_area'], 1),
                  'type': {1: 'lake', 2: 'reservoir', 3: 'lake control'}.get(rec['Lake_type'])}
         if rec['Lake_name']:
@@ -620,7 +640,20 @@ def climate():
     def key(r, c):  # row 0 at the north
         return (round(N0 - (r + 0.5) * step, 3), round(W0 + (c + 0.5) * step, 3))
     keys = set(pre) | set(tmp)
-    assert all(k in {key(r, c) for r in range(nrow) for c in range(ncol)} for k in keys), 'grid mismatch'
+    cells = {key(r, c) for r in range(nrow) for c in range(ncol)}
+    assert all(k in cells for k in keys), 'grid mismatch'
+    n = F["rain_cells"]                  # a coarser grid: each cell the mean of the n x n of CRU's cells it holds
+    if n > 1:
+        def mean(src):
+            acc = {}
+            for r in range(nrow):
+                for c in range(ncol):
+                    if key(r, c) in src:
+                        acc.setdefault((r // n, c // n), []).append(src[key(r, c)])
+            return {k: [sum(v[m] for v in vs) / len(vs) for m in range(12)] for k, vs in acc.items()}
+        pre, tmp = mean(pre), mean(tmp)
+        step, ncol, nrow = step * n, ncol // n, nrow // n
+        key = lambda r, c: (r, c)        # noqa: E731
     P = [[[None] * ncol for _ in range(nrow)] for _ in range(12)]
     T = [[[None] * ncol for _ in range(nrow)] for _ in range(12)]
     for r in range(nrow):
@@ -633,7 +666,8 @@ def climate():
                     T[m][r][c] = int(round(tmp[k][m] * 10))
     doc = {
         'source': 'CRU CL 2.0 (New, Lister, Hulme and Makin 2002, Climate Research 21:1-25), 10-minute mean monthly '
-                  'climate, 1961-1990, land only; https://crudata.uea.ac.uk/cru/data/hrg/tmc/; Open Database License',
+                  'climate, 1961-1990, land only; https://crudata.uea.ac.uk/cru/data/hrg/tmc/; Open Database License'
+                  + (f'; each cell the mean of the {n} x {n} of its cells it holds' if n > 1 else ''),
         'bounds': {'west': W0, 'east': E0, 'south': S0, 'north': N0},
         'projection': 'plain lon/lat (EPSG:4326) cells, equal steps in degrees',
         'cell_deg': step, 'ncols': ncol, 'nrows': nrow,
@@ -649,6 +683,6 @@ def climate():
 
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
-    steps = sys.argv[3:] or ['relief', 'hydro', 'lakes', 'koppen', 'climate']
+    steps = ARGS[2:] or ['relief', 'hydro', 'lakes', 'koppen', 'climate']
     for s in steps:
         globals()[s]()
