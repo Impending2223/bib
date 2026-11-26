@@ -55,6 +55,7 @@ Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every 
 | 54 | Exceptions to the series' spelling of Chinese names (R19a) | Peking, Quemoy and Free China settled by the owner, Nov. 24; the rest defaults from the tree's present practice |
 | 55 | The day's order: a rule for every patch (R25c) and a sequence pass over the whole calendar | default: the rule now; the pass tried on two months, then run a month at a time, Sonnet reads and Opus audits |
 | 56 | The day's order: a reception after its transmission; a chronology's or a volume's printed order the weakest of presumptions | the owner's ruling, Nov. 25, 2026: both rules reversed (R25c), the entries re-ruled; the reach of the ruling to serial numbers and to an agenda's order left as it was, a default |
+| 57 | Where the China map is reached from, and whether it stands in the calendar's pages | default |
 | 53 | Map rows "work, page, note" that lead to a record marked read (2,315), printed as "284 & n.70b (citing ...)" | settled by the owner, Nov. 24: a reader picks one of three for each; no unmarked citation unless the cited matter was read |
 | 52 | An entry of one day with several acts, one of them timed | revised by the owner, Nov. 24: split into a pair, the timed act with its hour, the order by `follows:` |
 | 51 | A work's page, a note on the page, and the two together: one source or three citations | settled by the owner, Nov. 24: three citations, each with its meaning |
@@ -578,4 +579,14 @@ The owner, Nov. 25, 2026, about 10:45 a.m. PT, marked "Immediate.": "The \"watch
 - The 171 links of group c's sweep come out of the tree until a second reader has read them. They went to main in PR #222 before the owner ruled. They are kept as a patch, and the second reading goes with the sweep, item 22b of the queue (the session's default for when).
 - The sweep of the other 70 months is item 22b of the queue.
 - What a pair without a link gets on the site is not "no order": the two entries are sorted by their chief thread and their first word, by the alphabet. R25c says so now, in the owner's words, as the reason a labelled weak presumption is better than none. The session has not taken this to reverse R25c's sentence that likelihood is no order: a presumption rests on something on a page (a printed order, a diary's order, a reception), and a likelihood on nothing but the reader's sense of it. If the owner means likelihood to count too, labelled as such, that is a further ruling.
+
+## 57. The China map: where it is reached from (Nov. 25, 2026, 6 p.m.)
+
+Question: the owner asked for a China map "like our Southeast Asia/Indochina map" with, at the least, "the provinces, counties, places". The Indochina map has a mark of its own in the top bar and a small map in each year's calendar page. Does the China map get the same two things?
+
+- Default taken: not in this step. The China map is a page of its own (`china.html`), listed on the front page as the Indochina page is, and each of the two map pages names the other in a line at its head. No new mark in the top bar and no map inside the calendar's pages. Reasons: a new mark in the top bar changes every page's layout, which the style rule says to keep to the fewest changes; and several calendar pages stand near the page budget's line.
+- Also by default: the provinces are those of 1966 and the counties those of 1964 (the answer the owner was given on Nov. 22: the mergers of 1958–61 make 1964 the year to show), each county a union of today's units; a place takes its point from Wikipedia or Wikidata and is left off the map where neither has it.
+- Applies to: `notes/briefs/china-map.md`; `tools/cnmap/`, `sources/china/`, `build/china.html`. To overrule: say where the map should be reached from, or that each year's calendar page should carry one.
+
+Under ruling 56, a note (Nov. 25, 6 p.m.): of the 174 links group c's auditor added, the owner's 171 are the ones on the printed order alone. The other three stay in the tree: two that rest on the entries' words (June 23, 1962; May 26, 1963) and one on a narrative told in order (May 8, 1963, Branch). They too were read once only; say if they should be held with the rest.
 
