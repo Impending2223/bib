@@ -8,10 +8,9 @@
                                    lists/cal/list.yaml, for the modules that file before a series is loaded)
 
 Two kinds now (the owner's request, Oct. 22, 2026): the Southeast Asia table under the first Monday of the month its
-figures refer to (tools/bib/wartable.py) and the forces tables under Armed Forces Day (tools/bib/afday.py). A new kind
-adds itself to PROVIDERS (its days, its block for a day) and registers its contents kind in contents.KINDS. The two maps
-take a day block's place too, on the day of each page's first entry placed on them (tools/bib/maps.py, STYLE 3): marker()
-sets their placeholder, and maps.inject fills it before inject() here, so a map stands above the day's other blocks.
+figures refer to (tools/bib/wartable.py; the year's first with the year's map above it, tools/bib/vnmap.py, STYLE 8) and
+the forces tables under Armed Forces Day (tools/bib/afday.py). A new kind adds itself to
+PROVIDERS (its days, its block for a day) and registers its contents kind in contents.KINDS.
 
 STYLE (keep it):
  1. A day block stands under the date and the day's entries, before the day's folded documents; several on one day in
@@ -42,18 +41,15 @@ def _days():
         out.setdefault(d, []).append("war")
     for d in afday.dates():
         out.setdefault(d, []).append("afd")
+    from . import vnmap
+    for d in vnmap.first_mondays(held_on_disk()).values():   # the year's Southeast Asia map (vnmap STYLE 8)
+        out.setdefault(d, []).append("vnmap")
     return out
-
-
-def _map_days():
-    """The days a map stands under (maps.days): known once the build has the series (daybook.SERIES)."""
-    from . import daybook, maps
-    return maps.days(daybook.SERIES) if daybook.SERIES is not None else ()
 
 
 def marker(iso):
     """The placeholder daybook.section_days sets in a day: '' where no block falls on it."""
-    return MARK.format(iso) if iso in _days() or iso in _map_days() else ""
+    return MARK.format(iso) if iso in _days() else ""
 
 
 @functools.lru_cache(maxsize=1)

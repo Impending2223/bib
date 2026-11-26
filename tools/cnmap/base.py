@@ -11,17 +11,13 @@ DIR is the download directory counties.py names. This script reads from it:
    Administrative Zones (CGAZ), main branch as read Nov. 22 and 26, 2026 (release 6.0.0), from
    https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/CGAZ/ (CC BY 4.0; the country
    lines are the U.S. Department of State's Large Scale International Boundaries);
- - DIR/gb/adm2.geojson: geoBoundaries gbOpen CHN ADM2, the county-level units (counties.py's docstring; PDDL 1.0);
- - DIR/twn/twTown1982.geo.json: Taiwan's townships and districts (tools/cnmap/roc.py's docstring; CC0 1.0).
+ - DIR/gb/adm2.geojson: geoBoundaries gbOpen CHN ADM2, the county-level units (counties.py's docstring; PDDL 1.0).
 Needs shapely >= 2.1, pyproj, pyogrio, pypinyin.
 
 The steps (each adjustment stated in sources/china/README.md):
  1. The countries: CGAZ ADM0, cut to FRAME. CGAZ's disputed areas kept as areas of their own (Aksai Chin and the
     other sectors of the Sino-Indian line, Kalapani, Siachen); the Paracels, the Senkakus and Liancourt left out.
  2. Hong Kong and Macau: CGAZ ADM1's, cut to the country.
- 2a. Taiwan, the Pescadores, Kinmen and Matsu (the owner, Nov. 25, 2026: "Give Formosa and Free China their ROC
-    subdivisions"): the Republic of China's counties and cities of the 1960s, each a union of today's townships and
-    districts (roc.py's table), cut to CGAZ's Taiwan; its two provinces, Taiwan and Fujian, the map's units there.
  3. Inside the rest of China, the county file's units, each cut to the country, the country's slivers that no unit
     covers given to the nearest unit. (The first version, of Nov. 22, took the provinces from CGAZ ADM1: its province
     lines lie up to 13 km off, Nanxiong in Jiangxi, Linzhang in Henan, so the provinces are now dissolved from the
@@ -198,7 +194,6 @@ BASIS = {"same": "the later unit of the name", "renamed": "the later unit, under
 def main():
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import counties as rec
-    import roc
     from shapely.geometry import shape
     frame = box(*FRAME)
     X = json.load(open(os.path.join(OUT, "crosswalk.json"), encoding="utf-8"))
@@ -208,7 +203,7 @@ def main():
     a1 = {d["shapeName"]: d for d in read(1, "shapeGroup='CHN'")}
     log("read ADM1", len(a1))
     pieces, props = [], []
-    chn = twn = None
+    chn = None
     for d in a0:
         g = multi(polys(shapely.intersection(d["g"], frame)))
         if g.is_empty:
@@ -220,8 +215,6 @@ def main():
             props.append({"k": "disp", "name": d["shapeName"]})
         elif d["shapeGroup"] == "CHN":
             chn = g
-        elif d["shapeGroup"] == "TWN":          # drawn by its own counties and cities, below (roc.py)
-            twn = g
         elif d["shapeGroup"] in CID:
             pieces.append(g)
             props.append({"k": "land", "c": CID[d["shapeGroup"]]})
@@ -243,15 +236,6 @@ def main():
     for u, g in colony.items():
         pieces.append(g)
         props.append({"k": "colony", "u": u})
-    # the Republic of China's counties and cities of the 1960s: today's townships, joined back (roc.py), cut to the country
-    rgeo, rmade = roc.read(os.path.join(sys.argv[1], "twn", roc.FILE))
-    rids = sorted(rgeo)
-    rgs = [multi(polys(shapely.union_all([shapely.make_valid(shape(x)) for x in rgeo[r]]))) for r in rids]
-    for r, g in zip(rids, fill(twn, rgs)):
-        if g.is_empty:
-            continue
-        pieces.append(g)
-        props.append({"k": "roc", "id": r})
     log("pieces", len(pieces))
     clean = shapely.coverage_clean(np.array(pieces, dtype=object), gap_width=0.002)
     log("coverage valid after clean:", shapely.coverage_is_valid(clean))
@@ -277,12 +261,6 @@ def main():
             units.setdefault(u66, []).append(g)
             made.setdefault(u66, set()).add(L[u["list"]]["name"])
             country.setdefault("prc", []).append(g)
-        elif p["k"] == "roc":
-            pv = roc.UNITS[p["id"]][3]
-            cty.setdefault(("r", pv, p["id"]), []).append(g)
-            units.setdefault(pv, []).append(g)
-            made.setdefault(pv, set()).add(roc.PROVINCES[pv]["zh"])
-            country.setdefault("roc", []).append(g)
         elif p["k"] == "colony":
             units.setdefault(p["u"], []).append(g)
             made.setdefault(p["u"], set()).add(META[p["u"]][0])
@@ -300,39 +278,34 @@ def main():
     dl = lines(list(disp.values()), top0)       # a disputed area's line whole, both sides: above the countries' own,
     intl = lines(list(country.values()), shapely.union_all([top0, dl.buffer(1e-7)]))   # or none of it would be left
     top = shapely.union_all([top0, intl.buffer(1e-7), dl.buffer(1e-7)])
-    meta = dict(META, **{u: (v["name"], v["kind"]) for u, v in roc.PROVINCES.items()})
-    full = dict(FULL, **{u: v["full"] for u, v in roc.PROVINCES.items()})
-    cof = lambda u: "roc" if u in roc.PROVINCES else u if u in ("hong-kong", "macau") else "prc"   # a unit's country
-    prc_units = [g for u, g in units.items() if cof(u) == "prc"]
+    prc_units = [g for u, g in units.items() if u not in ("hong-kong", "macau")]
     unitl = lines(prc_units, top)
     countyl = lines(list(cty.values()), shapely.union_all([top, unitl.buffer(1e-7)]))
     log("lines")
     feats = []
     for c, g in sorted(country.items()):
-        if c in ("prc", "roc", "hong-kong", "macau"):      # drawn by their units
+        if c in ("prc", "hong-kong", "macau"):
             continue
         feats.append(feat(g, {"k": "land", "id": c, "name": NAMES[c]}))
     for n, g in sorted(disp.items()):
         feats.append(feat(g, {"k": "disp", "name": n, "km2": round(km2(g))}))
     rows = []
     for u, g in sorted(units.items()):
-        name, kind = meta[u]
-        c = cof(u)
+        name, kind = META[u]
+        c = "prc" if u not in ("hong-kong", "macau") else u
         a = round(km2(g))
         feats.append(feat(g, {"k": "unit", "id": u, "name": name, "kind": kind, "c": c, "km2": a,
-                              **({"full": full[u]} if u in full else {})}))
-        rows.append({"id": u, "name": name, "kind": kind, "c": c, "full": full.get(u, name),
+                              **({"full": FULL[u]} if u in FULL else {})}))
+        rows.append({"id": u, "name": name, "kind": kind, "c": c, "full": FULL.get(u, name),
                      "made_of": sorted(made[u]), "km2": a})
     for cls, g in (("coast", coast), ("intl", intl), ("disp", dl), ("unit", unitl)):
         if not g.is_empty:                  # the units' lines carry the country, as tools/vnmap/base.py's do (the client's filter)
             feats.append(feat(g, {"k": "line", "l": cls, **({"c": "prc"} if cls == "unit" else {})}))
     for u, g in units.items():
-        if cof(u) == "roc":                 # the island's name stays the country's, "Taiwan": no unit's name beside it
-            continue
         pt = label_point(g)
         feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": rnd([pt.x, pt.y])},
-                      "properties": {"k": "lab", "l": "unit", "id": u, "name": meta[u][0], "km2": round(km2(g)),
-                                     "c": cof(u)}})
+                      "properties": {"k": "lab", "l": "unit", "id": u, "name": META[u][0], "km2": round(km2(g)),
+                                     "c": "prc" if u not in ("hong-kong", "macau") else u}})
     for c, g in country.items():
         if c in ("hong-kong", "macau"):
             continue
@@ -345,27 +318,12 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     s = json.dumps({"type": "FeatureCollection", "features": feats}, ensure_ascii=False, separators=(",", ":"))
     open(os.path.join(OUT, "admin.geojson"), "w", encoding="utf-8").write(s + "\n")
-    json.dump({"display_year": 1966, "source": "geoBoundaries CGAZ 6.0.0 ADM0 (CC BY 4.0); gbOpen CHN ADM2 (PDDL 1.0); "
-               + roc.SOURCE,
+    json.dump({"display_year": 1966, "source": "geoBoundaries CGAZ 6.0.0 ADM0 (CC BY 4.0); gbOpen CHN ADM2 (PDDL 1.0)",
                "units": rows}, open(os.path.join(OUT, "units.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     log("wrote admin.geojson", f"{len(s.encode()):,} bytes;", len(rows), "units")
     # the counties
     cf, crow, ids = [], [], set()
-    for key, g in sorted(cty.items(), key=lambda kv: (kv[0][0] == "r", kv[0][1], kv[0][2])):
-        if key[0] == "r":                   # a county or city of the Republic of China (roc.py): after the PRC's
-            pv, rid = key[1], key[2]
-            name, zh, kind, _, how = roc.UNITS[rid]
-            cid, a = f"{pv}-{rid}", round(km2(g))
-            ids.add(cid)
-            line = f"{zh} · {kind}, end of 1964 · {roc.PROVINCES[pv]['zh']}（中華民國） · {how}"
-            crow.append({"id": cid, "name": name, "zh": zh, "kind": kind, "unit": pv, "c": "roc",
-                         "province_1964": roc.PROVINCES[pv]["zh"], "pref": "", "seat": "", "km2": a, "guess": False,
-                         "made_of": roc.made_of(rid, rmade[rid])})
-            cf.append(feat(g, {"k": "county", "id": cid, "name": name, "line": line, "u": pv}))
-            pt = label_point(g)
-            cf.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": rnd([pt.x, pt.y])},
-                       "properties": {"k": "lab", "l": "county", "id": cid, "name": name, "km2": a}})
-            continue
+    for key, g in sorted(cty.items(), key=lambda kv: (kv[0][1], kv[0][2])):
         traced, l, zh = key[0] == "c", key[1], key[2]
         us = cmeta[key]
         u66 = L[us[0]["list"]]["unit"]
@@ -411,15 +369,13 @@ def main():
         cf.append(feat(countyl, {"k": "line", "l": "county"}))
     s = json.dumps({"type": "FeatureCollection", "features": cf}, ensure_ascii=False, separators=(",", ":"))
     open(os.path.join(OUT, "counties.geojson"), "w", encoding="utf-8").write(s + "\n")
-    json.dump({"year": 1964, "file": X["file"], "file_year": X["file_year"], "record": X["record"],
-               "roc": {"file": roc.SOURCE, "file_year": roc.FILE_YEAR}, "counties": crow,
+    json.dump({"year": 1964, "file": X["file"], "file_year": X["file_year"], "record": X["record"], "counties": crow,
                "not_shown": [dict(x, province=L[x["list"]]["name"]) for x in X["not_shown"]]},
               open(os.path.join(OUT, "counties.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
-    n64 = sum(1 for c in crow if not c.get("later") and c.get("c") != "roc")
+    n64 = sum(1 for c in crow if not c.get("later"))
     log("wrote counties.geojson", f"{len(s.encode()):,} bytes;", n64, "counties of 1964,",
         sum(1 for c in crow if c.get("guess") and not c.get("later")), "on a guess;",
-        sum(1 for c in crow if c.get("later")), "later units shown as they are;", len(X["not_shown"]),
-        "units of 1964 not shown;", sum(1 for c in crow if c.get("c") == "roc"), "units of the Republic of China")
+        len(crow) - n64, "later units shown as they are;", len(X["not_shown"]), "units of 1964 not shown")
 
 
 def rec_file_name(n):

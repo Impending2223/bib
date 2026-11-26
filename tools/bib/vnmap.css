@@ -1,6 +1,5 @@
-/* The maps of Indochina and of China (tools/bib/vnmap.py, cnmap.py, maps.py, vnmap.js): the figure, its controls and
-   legend; MapLibre's own controls restyled to the page. Colours are tokens, set again for the dark theme. The span's
-   two fields are the bar's own controls: a second .vnm-bar, its fields in the select's look. */
+/* The maps of Indochina (tools/bib/vnmap.py, vnmap.js): the figure, its controls and legend; MapLibre's own controls
+   restyled to the page. Colours are tokens, set again for the dark theme. */
 :root{--vz1:#7A9CC0;--vz2:#C6A46A;--vz3:#C3877A;--vz4:#86AE7B;--vz5:#A58CBC;
   --vr1:#8EA9C2;--vr2:#7FB0A3;--vr3:#C9B07A;--vr4:#CC9A8A;--vr5:#9FBC80;--vr6:#B59BC4;--vr7:#9CB6A0;--vr8:#D3B48C;
   --vpv:#C9CEC6;--vland:#E4E6E2;--vsea:#E3E9EE;--vop:.55;--vdot:#B03A2E;--vriv:#4F7FA8;--vlake:#9DB8CF;--vctr:#8A6E4B;
@@ -20,7 +19,7 @@
 .vnm-bar .seg button:first-child{border-left:0}
 .vnm-bar .seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 .vnm-bar label{display:inline-flex;gap:4px;align-items:center;color:var(--muted);cursor:pointer}
-.vnm-bar select,.vnm-bar input[type="text"]{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--rule);border-radius:3px}
+.vnm-bar select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--rule);border-radius:3px}
 .vnm-bar button:focus-visible,.vnm-bar input:focus-visible,.vnm-bar select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 .vnm-box{position:relative;aspect-ratio:4/5;max-height:82vh;width:100%;background:var(--vsea);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
 .vnm-box>.vnm-gl{position:absolute;inset:0;width:auto;height:auto}

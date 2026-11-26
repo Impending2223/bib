@@ -12,7 +12,7 @@ import sys
 
 import pytest
 
-from bib import calsplit, china, cnmap, maps, places as gaz, store, vnmap
+from bib import china, cnmap, places as gaz, store, vnmap
 
 TOOLS = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "tools")
 sys.path.insert(0, os.path.join(TOOLS, "cnmap"))
@@ -46,12 +46,8 @@ def china_map(monkeypatch, tmp_path):
     monkeypatch.setattr(gaz, "_INDEX", {r["key"]: r for r in ROWS})
     monkeypatch.setattr(cnmap, "_C", {"pl": {k: dict(v) for k, v in MAP.items()}, "u": dict(UNITS), "c": {}})
     monkeypatch.setattr(vnmap, "_C", {})
-    monkeypatch.setattr(maps, "_C", {})
     monkeypatch.setattr(vnmap, "OUT", str(tmp_path))
-    monkeypatch.setattr(vnmap, "VENDOR", str(tmp_path / "vendor"))   # the fixture holds no vendored library:
-    for d in (vnmap.MAPLIBRE, vnmap.PMTILES):                         # an empty one, so that the map is ready
-        os.makedirs(tmp_path / "vendor" / d)
-    monkeypatch.setattr(vnmap, "_fonts", lambda: {})          # nor a vendored font
+    monkeypatch.setattr(vnmap, "_fonts", lambda: {})          # the fixture holds no vendored font
     return tmp_path
 
 
@@ -112,8 +108,7 @@ def _series():
 
 
 def test_figure_and_data(china_map):
-    """The figure is the maps of Indochina's (its classes), told apart by data; the entries are in files of their own,
-    one a year; the year buttons and the span's two fields, filled with the calendar's whole span."""
+    """The figure is the maps of Indochina's (its classes), told apart by data; the entries are in a file of their own."""
     s = _series()
     lst = s.lists["cal"]
     es = [e for _, e in lst.entries() if "when" in e and "place" not in e][:3]
@@ -130,24 +125,19 @@ def test_figure_and_data(china_map):
     assert [m for m in ("prov", "borders", "land") if f'data-mode="{m}"' in fig] == ["prov", "borders", "land"]
     assert 'data-mode="ctz"' not in fig and 'data-l="names"' in fig
     d = json.loads(fig.split('class="vnm-d">', 1)[1].split("</script>", 1)[0])
-    lo, hi = (x.isoformat() for x in calsplit.part_range(lst, None))
-    assert set(d) == {"map", "mode", "eu", "ys", "sp", "all", "gz"}                 # no entry in the page, no names
-    assert d["map"] == "cn" and d["mode"] == "prov" and d["sp"] == d["all"] == [lo, hi] and d["gz"] == ""
-    assert d["ys"][0] == "1960" and "1969" in d["ys"] and list(d["eu"]) == ["1961"]
-    assert re.fullmatch(r"geo/cn-entries-1961-[0-9a-f]{10}\.json", d["eu"]["1961"])
-    assert fig.index('class="vnm-yrs"') < fig.index('data-sp="from"') < fig.index('data-mode="prov"')
-    assert f'data-sp="from" size="13" value="{maps.day(calsplit.part_range(lst, None)[0])}"' in fig
-    year = json.load(open(os.path.join(china_map, d["eu"]["1961"]), encoding="utf-8"))
-    ents = year["e"]
-    assert f"All years: {len(ents)} placed entries, at 1 place." in fig
+    assert d["map"] == "cn" and d["mode"] == "prov" and d["y"] == "all" and "e" not in d
+    assert d["ys"][0] == "1960" and "1969" in d["ys"] and d["pn"] == {"peking": "Peking"}
+    assert d["eu"].startswith("geo/cn-entries-") and d["eu"].endswith(".json")
+    ents = json.load(open(os.path.join(china_map, d["eu"]), encoding="utf-8"))
+    assert f"All years: {len(ents)} placed entries, at 1 places." in fig
     mine = {e["id"]: next((x for x in ents if x["h"].endswith("#" + e["id"])), None) for e in es}
     assert (mine[es[0]["id"]]["p"], mine[es[0]["id"]]["v"]) == ([], ["sichuan"])      # the province as a whole
     assert (mine[es[1]["id"]]["p"], mine[es[1]["id"]]["v"]) == (["peking"], ["sichuan"])
     assert mine[es[2]["id"]] is None                                                    # a place not on the map
-    assert all(set(x) == {"h", "w", "d", "t", "s", "p", "v", "k"} for x in ents)
+    assert all(set(x) == {"h", "w", "t", "s", "p", "v", "y"} for x in ents)
     assert all(x["p"] == ["peking"] for x in ents if x["v"] == [])                      # the fixture's own entries in Peking
     man = json.load(open(os.path.join(china_map, fig.split('data-geo="', 1)[1].split('"', 1)[0]), encoding="utf-8"))
-    assert man["opt"] == {"shown": ["prc", "roc", "hong-kong", "macau"], "dot": cnmap.DOT, "unit": "as of 1966"}
+    assert man["opt"] == {"shown": ["prc", "hong-kong", "macau"], "dot": cnmap.DOT, "unit": "as of 1966"}
     assert man["bounds"] == cnmap.BOUNDS and man["home"] == {"all": cnmap.HOME}
     pts = {f["properties"]["id"]: f["properties"] for f in man["places"]["features"]}
     assert set(pts) == {"peking", "taipei"} and pts["peking"]["r"] == 1 and pts["peking"]["name"] == "Peking"
@@ -181,7 +171,7 @@ def test_one_client():
     code = re.sub(r"/\*.*?\*/", "", js, flags=re.S)
     code = "\n".join(l.split("//")[0] for l in code.split("\n"))
     assert not re.search(r"\bchina\b|'prc'|'cn'", code, re.I)
-    for opt in ("O.shown ||", "O.dot ||", "O.unit", "this.D.eu", "this.D.map", "this.D.mode", "this.D.home"):
+    for opt in ("O.shown ||", "O.dot ||", "O.unit", "this.D.eu", "this.D.map", "this.D.mode"):
         assert opt in js, opt
     assert "['rvn', 'drv', 'laos', 'cambodia']" in js and "O.dot || 2.6" in js      # Indochina's own stay the defaults
 

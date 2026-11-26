@@ -1,43 +1,14 @@
-/* The maps of Indochina (tools/bib/vnmap.py, its STYLE notes) and the map of China (tools/bib/cnmap.py), wherever one
-   stands (tools/bib/maps.py): on its own page (indochina.html, china.html), in a calendar page, at the head of a
-   thread's page. The same script for all, told apart by data alone: the figure's (`map`, `mode`, `home`; `eu`, the
-   entries' files, one a year; `sp`, the span the figure opens on; `th`, a thread's entries alone; `all`, the whole
-   span, where the figure has year buttons) and the manifest's (`opt`: the countries whose units are shown, the dots'
-   scale, a unit's line, the counties). Loaded as a module. MapLibre GL JS draws the map (vendored, loaded when a map
-   nears the screen); this file builds the style from the manifest the build writes, wires the controls the build
-   writes into the figure, reads the span's two fields, and lists the entries. No projection, gesture or label
-   placement of its own: the library's. */
+/* The maps of Indochina: the calendar's annual maps and indochina.html (tools/bib/vnmap.py, its STYLE notes); and
+   the map of China, china.html (tools/bib/cnmap.py, its STYLE notes): the same script, told apart by data alone, the
+   figure's (`map`, `mode`, `eu`) and the manifest's (`opt`: the countries whose units are shown, the dots' scale, a
+   unit's line, the counties). One script for all, loaded as a module. MapLibre GL JS draws the map (vendored, loaded
+   when a map nears the screen); this file builds the style from the manifest the build writes, wires the controls the
+   build writes into the figure, and lists the entries. No projection, gesture or label placement of its own: the
+   library's. */
 const LIB = /*LIB*/{};                   // the vendored files, relative to this script (vnmap.py fills it in)
 const HERE = new URL('.', import.meta.url);
 const MONTHS = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
-const MAX_LIVE = 4;                      // WebGL contexts kept at once on a page (the series reader holds a map a part)
-
-/* The span's fields (maps.py, STYLE 2). A field reads a plain ISO date ("1961-04-15") or the calendar's own form
-   ("Apr. 15, 1961"; the month in full or cut to three letters or more, with or without its point or the comma; the
-   day first too, "15 Apr. 1961"). A month ("1961-04", "Apr. 1961") or a year ("1961") reads as its first day in the
-   first field and its last in the second. All figures ("4/15/1961") cannot be told apart and do not read; nor does a
-   day the month lacks. What does not read changes nothing. */
-const FULLM = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
-const pad = (n) => String(n).padStart(2, '0');
-const monthOf = (w) => { w = w.toLowerCase(); return w.length < 3 ? 0 : FULLM.findIndex((f) => f.startsWith(w)) + 1; };
-export function readDate(text, end) {
-  const s = String(text).trim();
-  let y, m, d, x;
-  if ((x = /^(\d{4})(?:-(\d{1,2})(?:-(\d{1,2}))?)?$/.exec(s))) { y = +x[1]; m = x[2] && +x[2]; d = x[3] && +x[3]; }
-  else if ((x = /^([A-Za-z]+)\.?\s+(?:(\d{1,2})(?:\s*,\s*|\s+))?(\d{4})$/.exec(s))) { m = monthOf(x[1]); d = x[2] && +x[2]; y = +x[3]; }
-  else if ((x = /^(\d{1,2})\s+([A-Za-z]+)\.?(?:\s*,\s*|\s+)(\d{4})$/.exec(s))) { d = +x[1]; m = monthOf(x[2]); y = +x[3]; }
-  else return null;
-  if (m === undefined) m = end ? 12 : 1;
-  if (m < 1 || m > 12) return null;
-  const last = new Date(Date.UTC(y, m, 0)).getUTCDate();
-  if (d === undefined) d = end ? last : 1;
-  if (d < 1 || d > last) return null;
-  return y + '-' + pad(m) + '-' + pad(d);
-}
-export const showDate = (iso) => MONTHS[+iso.slice(5, 7) - 1] + ' ' + +iso.slice(8) + ', ' + iso.slice(0, 4);
-/* a span as the calendar writes one: "Apr. 1–June 30, 1961"; "Aug. 1–31, 1966"; "Jan. 6, 1960–Aug. 31, 1976" */
-export const showSpan = (a, b) => (a === b ? showDate(a) : a.slice(0, 7) === b.slice(0, 7) ? showDate(a).slice(0, -6) + '–' + +b.slice(8) + ', ' + b.slice(0, 4) :
-  (a.slice(0, 4) === b.slice(0, 4) ? showDate(a).slice(0, -6) : showDate(a)) + '–' + showDate(b));
+const MAX_LIVE = 4;                      // WebGL contexts kept at once on a page (the series reader holds nine maps)
 
 let libP = null;
 function lib() {
@@ -214,39 +185,26 @@ class Figure {
   constructor(fig) {
     this.fig = fig;
     this.D = JSON.parse(fig.querySelector('.vnm-d').textContent);
-    this.D.ys = this.D.ys || [];
-    this.D.eu = this.D.eu || {};
-    this.Y = {};                          // the entries' files read: year -> {k: the threads, e: the entries}
-    this.E = [];                          // the entries in the span
-    this.at = {};
-    this.atv = {};
+    this.D.e = this.D.e || [];
+    this.full = !!this.D.ys;
     this.box = fig.querySelector('.vnm-box');
     this.pop = fig.querySelector('.vnm-pop');
     this.key = 'vnm2' + (this.D.map ? '-' + this.D.map : '');   // each map its own choices
     const mode0 = this.D.mode || 'ctz';
-    this.st = {mode: mode0, lay: {}, month: 7, popyear: 1960, from: this.D.sp[0], to: this.D.sp[1]};
+    this.st = {mode: mode0, lay: {}, month: 7, popyear: 1960, y: this.D.y};
     try {
       const s = JSON.parse(sessionStorage.getItem(this.key) || '{}');
       Object.assign(this.st, {mode: s.mode || mode0, lay: s.lay || {}, month: s.month || 7, popyear: s.popyear || 1960});
     } catch (e) { /* storage refused: the defaults */ }
+    if (this.full) {
+      const m = /^#y(\d{4}|all)$/.exec(location.hash);
+      this.st.y = m && (m[1] === 'all' || this.D.ys.includes(m[1])) ? m[1] : 'all';
+    }
     this.controls();
-    const y = this.D.all && this.hashYear();
-    if (y) this.setSpan(...this.yearSpan(y));
-    else this.setSpan(this.st.from, this.st.to);
-  }
-
-  /* the year buttons (the map's own page): a year's span, "All years" the whole; the year an address names */
-  yearSpan(y) { return y === 'all' ? this.D.all : [y + '-01-01', y + '-12-31']; }
-  hashYear() {
-    const m = /^#y(\d{4}|all)$/.exec(location.hash);
-    return m && (m[1] === 'all' || this.D.ys.includes(m[1])) ? m[1] : null;
-  }
-  yearNow() {                             // the button the span is, or null
-    if (!this.D.all) return null;
-    const {from, to} = this.st;
-    if (from === this.D.all[0] && to === this.D.all[1]) return 'all';
-    const y = from.slice(0, 4);
-    return from === y + '-01-01' && to === y + '-12-31' && this.D.ys.includes(y) ? y : null;
+    this.setYear(this.st.y, false);
+    if (this.D.eu) {                      // the entries in a file of their own, where a page holds thousands
+      fetch(this.D.eu).then((r) => r.json()).then((e) => { this.D.e = e; this.setYear(this.st.y, true); });
+    }
   }
 
   save() {
@@ -255,9 +213,11 @@ class Figure {
     } catch (e) { /* storage refused */ }
   }
 
-  lakeYear() { return +this.st.to.slice(0, 4); }
+  yearOf(i) { return this.D.e[i].y || this.D.y; }
+  on(i) { return this.st.y === 'all' || this.yearOf(i) === this.st.y; }
+  lakeYear() { return +(this.st.y === 'all' ? this.D.ys[this.D.ys.length - 1] : this.st.y); }
 
-  /* the controls the build wrote: the year links, the span's fields, the map's kind, the layers */
+  /* the controls the build wrote: the year links, the map's kind, the layers */
   controls() {
     const fig = this.fig;
     fig.querySelectorAll('.vnm-bar [data-mode]').forEach((b) => b.addEventListener('click', () => {
@@ -290,112 +250,72 @@ class Figure {
         if (!a) return;
         ev.preventDefault();
         try { history.replaceState(null, '', '#y' + a.dataset.yr); } catch (e) { /* a sandboxed frame */ }
-        this.setSpan(...this.yearSpan(a.dataset.yr));
+        this.setYear(a.dataset.yr, true);
       });
-      addEventListener('hashchange', () => { const y = this.hashYear(); if (y) this.setSpan(...this.yearSpan(y)); });
+      addEventListener('hashchange', () => {
+        const m = /^#y(\d{4}|all)$/.exec(location.hash);
+        if (m && (m[1] === 'all' || this.D.ys.includes(m[1]))) this.setYear(m[1], true);
+      });
     }
-    // the span's two fields: each keystroke read, and taken once both read; on leaving a field, its date written out
-    this.sp = [fig.querySelector('input[data-sp="from"]'), fig.querySelector('input[data-sp="to"]')];
-    this.sp.forEach((el, i) => {
-      if (!el) return;
-      el.addEventListener('input', () => {
-        const a = readDate(this.sp[0].value, false), b = readDate(this.sp[1].value, true);
-        if (a && b) this.setSpan(a, b, el);
-      });
-      el.addEventListener('change', () => { const d = readDate(el.value, !!i); if (d) el.value = showDate(d); });
-      el.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') el.blur(); });
-    });
     this.pop.addEventListener('click', (e) => { if (e.target.closest('.x')) this.pop.hidden = true; });
     fig.querySelector('.vnm-list').addEventListener('toggle', () => this.fillList());
   }
 
-  /* the span: the fields, the year buttons; then, once the map is near the screen, the entries (STYLE 2, 6) */
-  setSpan(from, to, typed) {
-    Object.assign(this.st, {from, to});
-    this.sp.forEach((el, i) => { if (el && el !== typed) el.value = showDate(i ? to : from); });
-    const y = this.yearNow(), yrs = this.fig.querySelector('.vnm-yrs');
-    if (yrs) yrs.querySelectorAll('a').forEach((a) => a.toggleAttribute('aria-current', a.dataset.yr === y));
-    this.pop.hidden = true;
-    if (!this.awake) return;              // before the map nears the screen: the build's own count stays
-    const turn = this.turn = (this.turn || 0) + 1;
-    this.data().then(() => {
-      if (turn !== this.turn) return;     // a later span has been asked for
-      this.refresh();
-      if (this.map) { this.places(); this.apply(); }
+  /* the year: the dots, the tap's list, the folded list, the caption, the lakes (STYLE 2, 6) */
+  setYear(y, redraw) {
+    this.st.y = y;
+    const at = {}, atv = {};
+    this.D.e.forEach((x, i) => {
+      if (!this.on(i)) return;
+      x.p.forEach((p) => (at[p] = at[p] || []).push(i));
+      (x.v || []).forEach((v) => (atv[v] = atv[v] || []).push(i));
     });
-  }
-
-  /* the years the span touches, of those the figure has entries for; their files, each read once */
-  years() { return this.D.ys.filter((y) => this.D.eu[y] && y + '-12-31' >= this.st.from && y + '-01-01' <= this.st.to); }
-  data() {
-    return Promise.all(this.years().map((y) => this.Y[y] || (this.Y[y] = fetch(this.D.eu[y]).then((r) => r.json())
-      .then((d) => (this.Y[y] = d), () => { delete this.Y[y]; }))));
-  }
-
-  /* the entries in the span (a thread's alone, where the figure is a thread's): the dots, the lists, the count */
-  refresh() {
-    const {from, to} = this.st, th = this.D.th, E = [], at = {}, atv = {};
-    for (const y of this.years()) {
-      const Y = this.Y[y];
-      if (!Y || !Y.e) continue;
-      const k = th ? Y.k.indexOf(th) : -1;
-      if (th && k < 0) continue;
-      for (const x of Y.e) {
-        if (x.d < from || x.d > to || (th && !x.k.includes(k))) continue;
-        E.push(x);
-        x.p.forEach((p) => (at[p] = at[p] || []).push(x));
-        (x.v || []).forEach((v) => (atv[v] = atv[v] || []).push(x));
-      }
-    }
-    this.E = E;
     this.at = at;
     this.atv = atv;                       // the entries placed in a unit as a whole
+    const yrs = this.fig.querySelector('.vnm-yrs');
+    if (yrs) yrs.querySelectorAll('a').forEach((a) => a.toggleAttribute('aria-current', a.dataset.yr === y));
+    const E = this.D.e.filter((x, i) => this.on(i));
+    const all = this.full && y === 'all';
+    this.E = E;
     this.listed = false;
     this.fillList();
-    this.fig.querySelector('.vnm-list summary').textContent = 'The placed entries (' + E.length + ')';
+    const pending = !!this.D.eu && !this.D.e.length;      // the entries' file not yet read: the build's own count stays
+    if (!pending) this.fig.querySelector('.vnm-list summary').textContent = (all ? 'The placed entries' : "The year's placed entries") + ' (' + E.length + ')';
     const cnt = this.fig.querySelector('.vnm-cnt');
-    if (cnt) {
-      const np = new Set(E.flatMap((x) => x.p)).size, y = this.yearNow();
-      cnt.textContent = (y === 'all' ? 'All years' : y || showSpan(from, to)) + ': ' + E.length + ' placed ' +
-        (E.length === 1 ? 'entry' : 'entries') + ', at ' + np + (np === 1 ? ' place.' : ' places.');
+    if (cnt && !pending) {
+      const np = new Set(E.flatMap((x) => x.p)).size;
+      cnt.textContent = (all ? 'All years' : y) + ': ' + E.length + ' placed ' + (E.length === 1 ? 'entry' : 'entries') + ', at ' + np + ' places.';
     }
+    this.pop.hidden = true;
+    if (redraw && this.map) { this.places(); this.apply(); }
   }
 
-  /* an entry's date, with its year where the span holds more than one; its link, on the page where the page holds it */
-  when(x) {
-    const y = x.d.slice(0, 4);
-    return esc(x.w) + (this.st.from.slice(0, 4) !== this.st.to.slice(0, 4) && !String(x.w).includes(y) ? ', ' + y : '');   // "1960", not "1960, 1960"
-  }
-  href(x) {
-    if (this.D.here == null) return x.h;
-    const id = x.h.slice(x.h.indexOf('#') + 1);
-    return document.getElementById(this.D.here + id) ? '#' + this.D.here + id : x.h;
-  }
-  name(k) { const f = this.M && this.M.byId[k]; return f ? f.properties.name : k; }
+  when(x) { return esc(x.w) + (this.full && this.st.y === 'all' && !String(x.w).includes(x.y) ? ', ' + x.y : ''); }   // "1960", not "1960, 1960"
 
   /* the folded list: written at once where it is short, else when it is opened */
   fillList() {
     const det = this.fig.querySelector('.vnm-list'), E = this.E || [];
     if (this.listed || (E.length > 1500 && !det.open)) { if (!this.listed) det.querySelector('ol').innerHTML = ''; return; }
-    det.querySelector('ol').innerHTML = E.map((x) => '<li><a href="' + esc(this.href(x)) + '">' + this.when(x) +
+    const names = this.D.pn || {};
+    det.querySelector('ol').innerHTML = E.map((x) => '<li><a href="' + esc(x.h) + '">' + this.when(x) +
       '</a> <span class="m">' + esc(x.t) + '.</span> ' + esc(x.s) +
-      (x.p.length ? ' <span class="m">(' + x.p.map((k) => esc(this.name(k))).join(', ') + ')</span>' : '') + '</li>').join('');
+      (x.p.length ? ' <span class="m">(' + x.p.map((k) => esc(names[k] || k)).join(', ') + ')</span>' : '') + '</li>').join('');
     this.listed = true;
   }
 
   /* a tap's list of entries */
   rows(hits) {
-    return '<ol>' + hits.map((x) => '<li><a href="' + esc(this.href(x)) + '">' + this.when(x) + '</a> <span class="m">' + esc(x.t) + '.</span> ' + esc(x.s) + '</li>').join('') + '</ol>';
+    return '<ol>' + hits.map((i) => { const x = this.D.e[i]; return '<li><a href="' + esc(x.h) + '">' + this.when(x) + '</a> <span class="m">' + esc(x.t) + '.</span> ' + esc(x.s) + '</li>'; }).join('') + '</ol>';
   }
 
-  /* the gazetteer's places with the span's count (`n`), for the dots and names */
+  /* the gazetteer's places with the year's count (`n`), for the dots and names */
   placesFC() {
     return {type: 'FeatureCollection', features: this.M.places.features.map((f) => ({
       type: 'Feature', geometry: f.geometry,
       properties: Object.assign({}, f.properties, {n: (this.at[f.properties.id] || []).length})}))};
   }
 
-  places() { if (this.map && this.ready) this.map.getSource('places').setData(this.placesFC()); }
+  places() { if (this.map) this.map.getSource('places').setData(this.placesFC()); }
 
   async start(ml, M) {
     this.M = M;
@@ -421,7 +341,6 @@ class Figure {
     this.fig._map = map;
     map.on('load', () => {
       this.ready = true;
-      this.places();                      // a span changed while the map was loading
       if (this.view) map.jumpTo(this.view);   // a map given up and drawn again keeps its view
       const z = this.homeZoom = this.view ? this.homeZoom : map.getZoom();
       map.setMaxZoom(z + 6);              // 64 times the first view (STYLE 4)
@@ -445,8 +364,8 @@ class Figure {
   }
 
   homeBounds() {
-    if (!this.M.home[this.D.home]) return this.M.home.all;
-    const b = this.M.home[this.D.home].slice();   // the first view widened to the span's places
+    if (this.full) return this.M.home.all;
+    const b = this.M.home.rvn.slice();
     for (const k of Object.keys(this.at)) {
       const f = this.M.byId[k];
       if (!f) continue;
@@ -620,10 +539,10 @@ class Figure {
   }
 
   showPlace(q) {
-    const hits = this.at[q.id] || [], all = this.yearNow() === 'all';
-    const gz = this.D.gz != null ? ' <a class="m" href="' + esc(this.D.gz) + '#pl-' + esc(q.id) + '">In the gazetteer</a>' : '';
+    const hits = this.at[q.id] || [], all = this.full && this.st.y === 'all';
+    const gz = this.full ? ' <a class="m" href="#pl-' + esc(q.id) + '">In the gazetteer</a>' : '';
     let h = '<button type="button" class="x" aria-label="Close">×</button><b>' + esc(q.name) + '</b>';
-    if (!hits.length) h += gz + '<div class="m">No entry placed here' + (all ? '' : ' in these dates') + '.</div>';
+    if (!hits.length) h += gz + '<div class="m">No entry placed here' + (all ? '' : ' this year') + '.</div>';
     else {
       h += ' <span class="m">' + hits.length + (hits.length > 1 ? ' entries' : ' entry') + '</span>' + gz + this.rows(hits);
     }
@@ -665,11 +584,8 @@ async function wake(el) {
   if (F.map || F.starting) return;
   F.starting = true;
   try {
-    F.awake = true;                      // the entries' files are read from here on, the span's years alone
-    const [ml, M] = await Promise.all([lib(), manifest(el.dataset.geo), F.data()]);
+    const [ml, M] = await Promise.all([lib(), manifest(el.dataset.geo)]);
     if (!M.byId) M.byId = Object.fromEntries(M.places.features.map((f) => [f.properties.id, f]));
-    F.M = M;
-    F.refresh();
     if (live.length >= MAX_LIVE) {
       const far = live.filter((x) => !x.near).sort((a, b) => a.seen - b.seen)[0] || live[0];
       far.stop();

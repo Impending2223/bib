@@ -4,9 +4,6 @@ has one), never guessed, and its 1966 province and 1964 county by point in polyg
 the gazetteer has new places in China (`./bib check` warns of each):
 
     python3 tools/cnmap/places.py CACHE_DIR [--refresh]
-    python3 -I tools/cnmap/places.py --roc     the places in the Republic of China alone: their unit and county by
-                                               point in polygon again, from places.json as it is; nothing is read
-                                               from Wikidata (after base.py has drawn the Republic's units anew)
 
 CACHE_DIR holds what was read from Wikidata's query service (https://query.wikidata.org/sparql; CC0), read Nov. 26,
 2026: cands.json (every item with coordinates whose English or Chinese label is one of a place's names) and zh.json
@@ -268,40 +265,7 @@ def km(a, b):
     return 111.2 * math.hypot((a["lon"] - b["lon"]) * math.cos(math.radians(a["lat"])), a["lat"] - b["lat"])
 
 
-def roc_again():
-    """`--roc`: each placed row whose country is the Republic of China takes its unit of 1966 and its county by point
-    in polygon again (step 5), from the files as base.py last wrote them; its point, item and rule stay."""
-    from shapely.geometry import Point, shape
-    load = lambda n: json.load(open(os.path.join(OUT, n), encoding="utf-8"))
-    units = [(f["properties"]["id"], shape(f["geometry"])) for f in load("admin.geojson")["features"]
-             if f["properties"]["k"] == "unit" and f["properties"]["c"] == "roc"]
-    cty = [(f["properties"]["id"], shape(f["geometry"])) for f in load("counties.geojson")["features"]
-           if f["properties"]["k"] == "county"]
-    d = load("places.json")
-    for row in d["places"]:
-        if row.get("c") != "roc" or row.get("lat") is None:
-            continue
-        p = Point(row["lon"], row["lat"])
-        u = next((i for i, g in units if g.contains(p)), None)
-        co = next((i for i, g in cty if g.contains(p)), None)
-        tail = {k: row.pop(k) for k in ("country", "near", "capital") if k in row}     # the keys in main()'s order
-        row.pop("unit", None)
-        row.pop("county", None)
-        if u:
-            row["unit"] = u
-        elif "country" in tail:
-            row["country"] = tail["country"]
-        if co:
-            row["county"] = co
-        if "capital" in tail:
-            row["capital"] = tail["capital"]
-        print(" ", row["key"], "unit:", u, "county:", co)
-    json.dump(d, open(os.path.join(OUT, "places.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-
-
 def main():
-    if "--roc" in sys.argv:
-        return roc_again()
     import shapely
     from opencc import OpenCC
     from shapely.geometry import Point, shape
