@@ -30,7 +30,7 @@ entries:
     thread: soviet-union-leadership
     also: [testing]
     c: 'The Presidium.{1} Khrushchev proposes offering to destroy the strategic delivery systems: "Now let''s call for cuts in an area where they think we are ahead."{2} The dismantling of NATO, SEATO and CENTO "our most sacred dream."{3} The press against his speech: "the journalists write about what the government thinks."{4} Endorsed;{5} Brezhnev for saving it for de Gaulle in March, Gromyko for waiting; no day set.{6}'
-    n: '[[w.fursenko-khrushchevs-cold-war]], 255–56; [[w.prezidium-tsk-kpss-1954]], I, 422–35 (Protocol 262 and the stenogram); [[w.prezidium-tsk-kpss-1954]], III, 83–96 (P 262/I: Khrushchev''s proposals agreed, the Foreign and Defense Ministries to draft the directives; their note of Jan. 26, the draft directives of Jan. 25 and the principles of general and complete disarmament). Check: the stenogram (I, 435) has Khrushchev: "Now they themselves think we are stronger, and we propose this"; the words in c are Fursenko and Naftali''s. See [[cal.1960-01-14.soviet-union]]. Names: Khrushchev, Brezhnev, Gromyko, de Gaulle.'
+    n: '[[w.fursenko-khrushchevs-cold-war]], 255–56; [[w.prezidium-tsk-kpss-1954]], I, 422–35 (Protocol 262 and the stenogram); [[w.prezidium-tsk-kpss-1954]], III, 83–96 (P 262/I: Khrushchev''s proposals agreed, the Foreign and Defense Ministries to draft the directives; their note of Jan. 26, the draft directives of Jan. 25 and the principles of general and complete disarmament). Check: the stenogram (I, 435) has Khrushchev: "Now they themselves think we are stronger, and we propose this"; the words in c are Fursenko and Naftali''s. Check: the stenogram (I, 435) has the journalists write what the governments (правительства) think, plural. See [[cal.1960-01-14.soviet-union]]. Names: Khrushchev, Brezhnev, Gromyko, de Gaulle.'
     src:
       c: bc0f037b
       rows:
@@ -47,6 +47,11 @@ entries:
     time_band: workday daytime
     time_zone: Europe/Moscow
     range_basis: kind
+    variants:
+      - unit: '4'
+        witness: w.prezidium-tsk-kpss-1954
+        reads: '"журналисты пишут о том, что думают правительства": what the governments think, plural'
+        at: I, 435
   - id: cal.1960-02.defense-2
     when: Feb. 1
     date: '1960-02-01'
@@ -1628,7 +1633,7 @@ entries:
     thread: testing
     also: [europe-and-the-alliance]
     c: France's first atomic test, at Reggane in the Algerian Sahara.{1} About 70 kilotons. De Gaulle's message, "Hurrah for France!"{2}
-    n: '[FRUS 1958–60, III, microfiche supp., doc. 530](https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d530); News Conference, [1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241) (Feb. 17, 1960); Herter at the National Press Club, Feb. 18, [[w.department-of-state-bulletin]], [Mar. 7, 1960, 361](https://archive.org/details/sim_department-of-state-bulletin_1960-03-07_42_1080/page/361/mode/1up). [*New York Times*, Feb. 14, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/14/issue.html), at [1](https://timesmachine.nytimes.com/timesmachine/1960/02/14/99477138.html?pageNumber=1), [2](https://timesmachine.nytimes.com/timesmachine/1960/02/14/99477138.html?pageNumber=2) (Reggan, 7 a.m.; the message''s words). Check: the yield: the *Times* has it a military secret, "less than the equivalent of 100,000 tons of TNT," some estimates near 20,000 (2). [[w.watson-into-the-missile-age]], 577, 718 (the test, Feb. 13, in the Sahara); [[w.fursenko-khrushchevs-cold-war]], 259 (the test in the Sahara, Feb. 13); [[w.chang-friends-and-enemies]], 235 (France''s first atomic device, February 1960). To check: [[w.kohl-french-nuclear-diplomacy]]. Names: de Gaulle.'
+    n: '[FRUS 1958–60, III, microfiche supp., doc. 530](https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d530); News Conference, [1960–61 Pub. Papers 189](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=241) (Feb. 17, 1960); Herter at the National Press Club, Feb. 18, [[w.department-of-state-bulletin]], [Mar. 7, 1960, 361](https://archive.org/details/sim_department-of-state-bulletin_1960-03-07_42_1080/page/361/mode/1up). [*New York Times*, Feb. 14, 1960](https://timesmachine.nytimes.com/timesmachine/1960/02/14/issue.html), at [1](https://timesmachine.nytimes.com/timesmachine/1960/02/14/99477138.html?pageNumber=1), [2](https://timesmachine.nytimes.com/timesmachine/1960/02/14/99477138.html?pageNumber=2) (Reggan, 7 a.m.; the message''s words). Check: the yield: the *Times* has it a military secret, "less than the equivalent of 100,000 tons of TNT," some estimates near 20,000 (2). [[w.watson-into-the-missile-age]], 577, 718 (the test, Feb. 13, in the Sahara); [[w.fursenko-khrushchevs-cold-war]], 259 (the test in the Sahara, Feb. 13); [[w.chang-friends-and-enemies]], 235 (France''s first atomic device, February 1960). Check: Herter''s answers at the National Press Club (the *Bulletin*, Mar. 7, 1960, 361) speak of France as "an atomic power" and of the bomb "exploded," and name no place, day, yield or message. To check: [[w.kohl-french-nuclear-diplomacy]]. Names: de Gaulle.'
     src:
       c: 681cd45f
       rows:
@@ -3668,13 +3673,13 @@ entries:
     date: '1960-02-25'
     place: washington
     thread: conservation
-    c: 'Edith Green in the House, on the veto of the water pollution bill: "Why is water pollution so exclusively local? Is the President aware of the fact that his own home state of Pennsylvania shares the Delaware river with New Jersey?"'
-    n: '[106 Cong. Rec. 3491](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt3/pdf/GPO-CRECB-1960-pt3-7-2.pdf#page=9) (1960). [[w.sundquist-politics-and-policy]], 331. The House sat from noon to 2:14 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=2), [D93](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=91). See [[cal.1960-02-25.conservation]]. Names: Green.'
+    c: 'Edith Green in the House, on the veto of the water pollution bill: "Why is water pollution so exclusively local? ... Is the President aware of the fact that his own home State of Pennsylvania shares the Delaware River with New Jersey?"'
+    n: '[106 Cong. Rec. 3490](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt3/pdf/GPO-CRECB-1960-pt3-7-2.pdf#page=8) (1960). [[w.sundquist-politics-and-policy]], 331. The House sat from noon to 2:14 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=2), [D93](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=91). The Record has Green''s words on 3490, not 3491, and a sentence between the two questions. See [[cal.1960-02-25.conservation]]. Names: Green.'
     src:
-      c: f7bdc6fe
+      c: 2f47abe1
       rows:
         - 'w.sundquist-politics-and-policy 331: all'
-        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt3/pdf/GPO-CRECB-1960-pt3-7-2.pdf#page=9: ?'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt3/pdf/GPO-CRECB-1960-pt3-7-2.pdf#page=8: all'
         - 'via w.sundquist-politics-and-policy 331 n.19: all'
     tags: [name:green-edith]
     time_range:
