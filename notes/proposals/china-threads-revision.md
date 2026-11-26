@@ -1,6 +1,6 @@
 # China threads: the scheme revised on the owner's points
 
-Nov. 25, 2026, about 7:30 p.m. PT. For the owner. This answers the six points of about 7 p.m. and sets out the scheme as it now stands. Nothing in the calendar has been changed yet. The counts are from the measurement as the audit left it (`notes/threads/china-assign-audit.md`); they are by word lists, so each is good to a few percent.
+Nov. 25, 2026, about 7:10 p.m. PT. For the owner. This answers the six points of about 7 p.m. and sets out the scheme as it now stands. Nothing in the calendar has been changed yet. The counts are from the measurement as the audit left it (`notes/threads/china-assign-audit.md`); they are by word lists, so each is good to a few percent.
 
 ## 1. Famine
 
