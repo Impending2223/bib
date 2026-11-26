@@ -11,8 +11,8 @@ less every thread either takes out; a change of `thread:` in one stands unless t
 then nothing is written. Nothing else in an entry changes; no id changes.
 
 Refused, and then nothing at all is written: a TSV whose audit (`<name>-audit.md`, or for a batch of several,
-the audit that names it) is missing; a row whose entry is missing; a slug th.yaml lacks; a thread beside its own
-parent or child after the change; two TSVs that set one entry's `thread:` differently.
+the audit that names it) is missing; a row whose entry is missing; a slug th.yaml lacks; a thread newly put beside its own
+parent or child (a pair the entry already held stays); two TSVs that set one entry's `thread:` differently.
 """
 import collections
 import csv
@@ -41,6 +41,10 @@ def audited(path):
     name = name[:-4]
     if os.path.exists(os.path.join(d, f"{name}-audit.md")):
         return True
+    for b in glob.glob(os.path.join(ROOT, "notes", "briefs", "threads-new-audit-*.md")):
+        out = os.path.basename(b)[len("threads-new-audit-"):-3]
+        if f"{name}-ids.tsv" in open(b, encoding="utf-8").read() and os.path.exists(os.path.join(d, f"{out}-audit.md")):
+            return True             # the audit brief names the batch, and its audit is written
     for a in glob.glob(os.path.join(d, "*-audit.md")):
         if f"`{name}.tsv`" in open(a, encoding="utf-8").read() or f"{name}.tsv" in open(a, encoding="utf-8").read():
             return True
@@ -97,7 +101,9 @@ def main(argv):
             if t != prim and t not in also:
                 also.append(t)
         every = [prim] + also
-        near = [(a, b) for a in every for b in every if a != b and b in line_of(a, threads)[1:]]
+        had = set([e["thread"]] + old_also)
+        near = [(a, b) for a in every for b in every if a != b and b in line_of(a, threads)[1:]
+                and not (a in had and b in had)]   # a pair the entry already held is the calendar's own
         if near:
             refused.append(f"{eid}: {near[0][0]!r} beside its parent {near[0][1]!r}")
             continue
