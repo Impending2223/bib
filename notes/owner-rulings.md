@@ -580,7 +580,7 @@ The owner, Nov. 25, 2026, about 10:45 a.m. PT, marked "Immediate.": "The \"watch
 - The sweep of the other 70 months is item 22b of the queue.
 - What a pair without a link gets on the site is not "no order": the two entries are sorted by their chief thread and their first word, by the alphabet. R25c says so now, in the owner's words, as the reason a labelled weak presumption is better than none. The session has not taken this to reverse R25c's sentence that likelihood is no order: a presumption rests on something on a page (a printed order, a diary's order, a reception), and a likelihood on nothing but the reader's sense of it. If the owner means likelihood to count too, labelled as such, that is a further ruling.
 
-## 57. The China map: where it is reached from (Nov. 25, 2026, 6 p.m.)
+## 57. The China map: where it is reached from (Nov. 25, 2026, about 5:20 p.m.)
 
 Question: the owner asked for a China map "like our Southeast Asia/Indochina map" with, at the least, "the provinces, counties, places". The Indochina map has a mark of its own in the top bar and a small map in each year's calendar page. Does the China map get the same two things?
 
@@ -588,5 +588,5 @@ Question: the owner asked for a China map "like our Southeast Asia/Indochina map
 - Also by default: the provinces are those of 1966 and the counties those of 1964 (the answer the owner was given on Nov. 22: the mergers of 1958–61 make 1964 the year to show), each county a union of today's units; a place takes its point from Wikipedia or Wikidata and is left off the map where neither has it.
 - Applies to: `notes/briefs/china-map.md`; `tools/cnmap/`, `sources/china/`, `build/china.html`. To overrule: say where the map should be reached from, or that each year's calendar page should carry one.
 
-Under ruling 56, a note (Nov. 25, 6 p.m.): of the 174 links group c's auditor added, the owner's 171 are the ones on the printed order alone. The other three stay in the tree: two that rest on the entries' words (June 23, 1962; May 26, 1963) and one on a narrative told in order (May 8, 1963, Branch). They too were read once only; say if they should be held with the rest.
+Under ruling 56, a note (Nov. 25, about 5:20 p.m.): of the 174 links group c's auditor added, the owner's 171 are the ones on the printed order alone. The other three stay in the tree: two that rest on the entries' words (June 23, 1962; May 26, 1963) and one on a narrative told in order (May 8, 1963, Branch). They too were read once only; say if they should be held with the rest.
 
