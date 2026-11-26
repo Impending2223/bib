@@ -1490,3 +1490,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 
 (Nov. 26, about 12:15 p.m. PT, Thanksgiving) "Immediate. Continue the queue. We're ignoring the weekday pause today. It's Thanksgiving in the United States." (Done at once: the pause lifted for the day; the queue taken up from the reading the re-threading left.)
 
+
+**Nov. 26, 2026, about 12:53 pm PT.** "Do the readers know that we have the books on hand?"

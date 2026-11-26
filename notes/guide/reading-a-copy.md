@@ -4,6 +4,10 @@ For every reader and auditor, and for the session that briefs them. These proble
 
 The recipes below are the ones the Opus auditors used on the night of Nov. 24, 2026, to read both volumes of Yang Shangkun's diary (24 MB and 20 MB scans with no text layer) and seven other works. Earlier runs used the same download line (`notes/book-checks/thomas-robert-kennedy.md`, `young-two-suns.md`).
 
+## 0. The books are on hand
+
+The owner's Drive holds a copy of nearly every work the series cites: the books, the chronologies, the diaries, the documentary collections, the scans in Chinese. Take it that the work you need is there, find it (section 2), and read it. A work's notes are in the same copy as its pages, at the back or at the foot of the page; reading a note is reading that copy. A row is never left unread because the book is thought to be elsewhere, or because reading it would take time: no batch has a time limit (R0). Only where the search of section 2 finds no copy at all does a row wait, and then the note says where you looked. For the rows of the "page and note" batches, `notes/via-read/copies.tsv` gives each work's file on the Drive (the inventory of Nov. 25 and the book-check files); the official histories of the Joint Chiefs of Staff that it does not find are published whole by the Joint History Office.
+
 ## 1. Work in a directory of your own
 
 The scratchpad is shared by every agent of the session. Make a directory with a name nobody else will pick, and keep everything in it.
