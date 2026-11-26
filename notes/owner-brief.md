@@ -1464,7 +1464,7 @@ Is there enough to warrant a thread on the PRC's \"nuclear strategy\"/\"nuclear 
 
 If \"China: bomb\" isn't only about the PRC's nuclear weapons development and testing, but the broader relationship between the PRC and nuclear weapons (and the CPC/CMAC/PLA and nuclear weapons, and Mao and nuclear weapons), then the \"antinuclear diplomacy\" should really be a sibling to weapons development under some kind of parent, shouldn't it?" (Answered in `notes/proposals/china-threads-revision.md`, sent to the owner; owner-rulings 59.)
 
-(Nov. 25, about 7:25 p.m. PT) "Claude, don't block me on a full build. That's a background task or an agent's task.
+(Nov. 25, about 7:14 p.m. PT) "Claude, don't block me on a full build. That's a background task or an agent's task.
 
 Resume the work I stopped, but don't do that again." (Done: the map builder and the reader mending the six threads launched again, each from the files as they stood; the rule written into CLAUDE.md, "Publishing", and the hand-off. The session had sat in its turn for the half hour of each of two builds, so the owner's next message could only reach it by stopping the turn, and stopping the turn stopped the agents.)
 
