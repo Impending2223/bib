@@ -96,7 +96,7 @@ def main(argv):
         old_also = list(e.get("also") or [])
         also = [t for t in old_also if t not in w["drop"] and t != prim]
         if e["thread"] != prim and e["thread"] not in w["drop"] and e["thread"] not in also:
-            pass                   # the old primary was taken out by the row (it lists it nowhere)
+            also.insert(0, e["thread"])   # the old primary, which the row keeps, goes into also
         for t in sorted(w["add"]):
             if t != prim and t not in also:
                 also.append(t)
