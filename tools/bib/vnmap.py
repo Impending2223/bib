@@ -414,6 +414,12 @@ def manifest(series=None):
     return assets()[2]
 
 
+def ready():
+    """The map can be drawn: its gazetteer, its borders and the vendored library are there (not in the tests' fixture)."""
+    return bool(gazetteer()) and os.path.exists(os.path.join(LAYERS, FILES["admin"])) \
+        and os.path.isdir(os.path.join(VENDOR, MAPLIBRE))
+
+
 def years(series):
     """The years the page's selector offers: 1960–68, and any other year with a placed entry."""
     from . import maps

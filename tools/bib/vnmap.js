@@ -24,8 +24,8 @@ export function readDate(text, end) {
   const s = String(text).trim();
   let y, m, d, x;
   if ((x = /^(\d{4})(?:-(\d{1,2})(?:-(\d{1,2}))?)?$/.exec(s))) { y = +x[1]; m = x[2] && +x[2]; d = x[3] && +x[3]; }
-  else if ((x = /^([A-Za-z]+)\.?\s+(?:(\d{1,2})\s*,?\s+)?(\d{4})$/.exec(s))) { m = monthOf(x[1]); d = x[2] && +x[2]; y = +x[3]; }
-  else if ((x = /^(\d{1,2})\s+([A-Za-z]+)\.?\s*,?\s+(\d{4})$/.exec(s))) { d = +x[1]; m = monthOf(x[2]); y = +x[3]; }
+  else if ((x = /^([A-Za-z]+)\.?\s+(?:(\d{1,2})(?:\s*,\s*|\s+))?(\d{4})$/.exec(s))) { m = monthOf(x[1]); d = x[2] && +x[2]; y = +x[3]; }
+  else if ((x = /^(\d{1,2})\s+([A-Za-z]+)\.?(?:\s*,\s*|\s+)(\d{4})$/.exec(s))) { d = +x[1]; m = monthOf(x[2]); y = +x[3]; }
   else return null;
   if (m === undefined) m = end ? 12 : 1;
   if (m < 1 || m > 12) return null;
@@ -35,8 +35,9 @@ export function readDate(text, end) {
   return y + '-' + pad(m) + '-' + pad(d);
 }
 export const showDate = (iso) => MONTHS[+iso.slice(5, 7) - 1] + ' ' + +iso.slice(8) + ', ' + iso.slice(0, 4);
-/* a span as the calendar writes one: "Apr. 1–June 30, 1961"; "Jan. 6, 1960–Aug. 31, 1976" */
-export const showSpan = (a, b) => (a.slice(0, 4) === b.slice(0, 4) ? showDate(a).slice(0, -6) : showDate(a)) + '–' + showDate(b);
+/* a span as the calendar writes one: "Apr. 1–June 30, 1961"; "Aug. 1–31, 1966"; "Jan. 6, 1960–Aug. 31, 1976" */
+export const showSpan = (a, b) => (a === b ? showDate(a) : a.slice(0, 7) === b.slice(0, 7) ? showDate(a).slice(0, -6) + '–' + +b.slice(8) + ', ' + b.slice(0, 4) :
+  (a.slice(0, 4) === b.slice(0, 4) ? showDate(a).slice(0, -6) : showDate(a)) + '–' + showDate(b));
 
 let libP = null;
 function lib() {

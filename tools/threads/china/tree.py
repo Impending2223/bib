@@ -159,6 +159,11 @@ def threads(e):
 
 
 def main():
+    if "cal.thread.china-famine" in open(os.path.join(M.ROOT, "lists", "cal", "th.yaml"), encoding="utf-8").read():
+        sys.exit("tree.py: the re-threading is applied (apply.py; notes/threads/china-applied.md). The rules read only "
+                 "the entries still in `china-leadership` or `china`, so a run now would overwrite "
+                 "notes/threads/china-tree.tsv with the few that remain. Run it on a checkout from before the "
+                 "re-threading, or teach read_calendar to read the applied threads first.")
     ALL = M.read_calendar()
     M.prepare(ALL)
     CL = [e for e in ALL if e["thread"] in ("china-leadership", "china")]

@@ -1521,9 +1521,11 @@ def run(series, which=None):
             smart.write(path, routed(page))
             written.append(path)
     if which in (None, "maps", "indochina", "china"):   # the page that lists the two maps (tools/bib/maps.py)
-        path = os.path.join(OUT, "maps.html")
-        smart.write(path, routed(maps.page(series, os.path.join(TEMPLATES, "list.html"))))
-        written.append(path)
+        page = maps.page(series, os.path.join(TEMPLATES, "list.html"))
+        if page:
+            path = os.path.join(OUT, "maps.html")
+            smart.write(path, routed(page))
+            written.append(path)
     if which in (None, "indicators"):     # the indicators' master: concepts, sources, tables (tools/bib/concepts.py)
         from . import concepts
         page = concepts.page(series, os.path.join(TEMPLATES, "list.html"))

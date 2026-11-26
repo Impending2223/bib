@@ -225,6 +225,11 @@ def _bar():
             + "".join(f'<label><input type="checkbox" data-l="{k}"> {t}</label>' for k, t, ok in boxes if ok) + "</div>")
 
 
+def ready():
+    """The map can be drawn: its gazetteer, its units and the vendored library are there (not in the tests' fixture)."""
+    return bool(gazetteer()) and bool(units()) and os.path.isdir(os.path.join(vnmap.VENDOR, vnmap.MAPLIBRE))
+
+
 def box(label):
     """The controls, the map's box and the legend: what every figure of this map holds under its span's fields."""
     return (_bar() + f'<div class="vnm-box"><div class="vnm-gl" role="region" aria-label="{label}"></div>'

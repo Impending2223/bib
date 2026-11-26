@@ -25,6 +25,11 @@ STYLE
     materials are the calendar's.
  5. The head: the thread's name; its statement for the page's span (statements.render), where STATEMENT; a line of
     what the page holds and its count, the thread in the calendar's index, its parent's page and its subthreads'.
+    Then, on a split thread's part, the parts' bar; then the thread's map (the owner, Nov. 25, 2026: "Put them on the
+    relevant threads top, scoped to the thread's content and the page's range"): the map of China on the pages of
+    `china` and every thread under it, the map of Indochina on those of the threads of Vietnam and Laos, the thread's
+    own entries alone, its span's fields on the page's range; none where the page's range holds no placed entry
+    (tools/bib/maps.py, STYLE 4).
  6. The budget (pages.py; pages.yaml `threads:`, written by `./bib pages --plan`): a thread's page over budget is in
     parts by date, a year a part, a year over in quarters, a quarter over in months, small ones in a row packed to the
     fill; a part `threads-<slug>-<its first unit>` (threads-china-leadership-1960Q1), labelled by its span ("1961",
@@ -305,12 +310,13 @@ def _wrap(series, template, title, main, scripts=""):
     pg = vispage.inject(pg)                  # the visibility panel's assets
     if scripts:
         pg = pg.replace("</body>", scripts + "\n</body>", 1)
-    return pg
+    from . import maps
+    return maps.head(pg)                     # the map's style and script, where the page carries one (STYLE 5)
 
 
 def thread_page(series, linker, template, lst, slug, ents, part=None, ps=None):
     """One page: the thread's (part None), or a part of it (ps the parts, part its index)."""
-    from . import build, calsplit, chron, cjk, pages, vispage
+    from . import build, calsplit, chron, cjk, maps, pages, vispage
     name = build.thread_name(lst, slug)
     me = ps[part]["page"] if ps else page_of(slug)
     text_html = build.list_text_html(series, lst.key, linker)
@@ -325,6 +331,7 @@ def thread_page(series, linker, template, lst, slug, ents, part=None, ps=None):
     main += _head(series, lst, slug, text_html, lo, hi, len(ents), not ps)
     if ps:
         main.append(pages.bar(page_of(slug), ps, part))
+    main += [f for f in [maps.thread_figure(series, lst, slug, lo, hi)] if f]   # the thread's map (STYLE 5)
     main.append(vispage.MARK)
     vispage.begin()
     with cjk.as_page(series, lst, ents, me):
@@ -345,6 +352,8 @@ def thread_index(series, linker, template, lst, slug, ps, counts):
     from . import calsplit
     lo, hi = calsplit.part_range(lst, None)
     main = [f"<h1>{esc(name)}</h1>"] + _head(series, lst, slug, text_html, lo, hi, sum(counts), True)
+    from . import maps
+    main += [f for f in [maps.thread_figure(series, lst, slug, lo, hi)] if f]   # the thread's map (STYLE 5)
     main.append('<ul class="pgl">' + "".join(
         f'<li><a href="{esc(p["page"])}.html">{esc(p["label"])}</a>: {n:,} {"entry" if n == 1 else "entries"}</li>'
         for p, n in zip(ps, counts)) + "</ul>")

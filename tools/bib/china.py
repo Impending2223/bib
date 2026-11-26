@@ -5,7 +5,7 @@ it, as tools/bib/indochina.py does for indochina.html.
 
 STYLE
  1. The page, as indochina.html: a lede (what the map shows), a muted line to the other map's page (vnmap.css's
-    .vnm-pg, as each annual map's line to indochina.html), the map (cnmap.full_figure), the gazetteer, the sources and
+    .vnm-pg, as the line under each map in the calendar), the map (cnmap.full_figure), the gazetteer, the sources and
     their licences. Plain statements; no color.
  2. The gazetteer: one row a place of the calendar's gazetteer (sources/places.yaml) that lies in China, Hong Kong,
     Macau or Taiwan, in alphabetical order: the place as the calendar writes it, linked to the Wikipedia article or the
@@ -88,6 +88,7 @@ def page(series, template):
         n_e = sum(len(v) for v in by.values())
         gz, n_g, n_on = _gazetteer(series)
         fig = cnmap.full_figure(series)
+        stands = indochina.in_calendar(series, cnmap)
     finally:
         calsplit.CUR.clear()
         calsplit.CUR.update(saved)
@@ -97,7 +98,8 @@ def page(series, template):
     n_area = sum(1 for p in G.values() if p.get("area"))
     n_un = sum(1 for p in G.values() if p.get("unplaced"))
     cj = cnmap._json("counties.json", {})
-    cs = cj.get("counties", [])
+    cs = [c for c in cj.get("counties", []) if c.get("c") != "roc"]
+    roc = [c for c in cj.get("counties", []) if c.get("c") == "roc"]
     n_later = sum(1 for c in cs if c.get("later"))
     n_c, n_guess = len(cs) - n_later, sum(1 for c in cs if c.get("guess") and not c.get("later"))
     counties = (
@@ -115,11 +117,25 @@ def page(series, template):
         'unit was not traced back to 1964; a tap says so. A line is exact only where it has not moved since. '
         f'<a href="{README}china/README.md">Each kind of case, the counts, and the counties not shown</a>.</p>'
     ) if cs else ""
+    if roc:
+        n = lambda k: sum(1 for c in roc if c["kind"] == k and c["unit"] == "taiwan")
+        counties += (
+            '<p class="logic">Taiwan, the Pescadores, Kinmen and Matsu. Drawn by the Republic of China\'s own units of '
+            f'the 1960s: Taiwan Province\'s {n("county")} counties, {n("provincial city")} provincial cities and the '
+            'Yangmingshan Administrative Bureau, and Fujian Province\'s two counties, Kinmen (Quemoy) and Lienchiang '
+            '(Matsu). Each is a union of today\'s townships and districts (g0v\'s twgeojson, made from the Institute '
+            'of Transportation\'s boundary files; CC0 1.0). Taipei is the city of before July 1968: Shilin and Beitou '
+            'are the Bureau\'s, and Neihu, Nangang, Muzha and Jingmei are Taipei county\'s. Hsinchu and Chiayi cities '
+            'are in their counties, as they were until 1982. Taichung, Tainan and Kaohsiung are each a city and a '
+            'county, as before 2010, and Xiaogang is Kaohsiung county\'s. '
+            f'<a href="{README}china/README.md">Each adjustment</a>.</p>')
     main = [
         f"<h1>China, {ys[0]}–{ys[-1]}</h1>",
         f'<p class="lede">China: the calendar\'s entries placed on one map, {n_e:,} entries whose place is in the '
         f'People\'s Republic, Hong Kong, Macau or Taiwan, {ys[0]}–{ys[-1]}, at {n_on} of the gazetteer\'s {n_g} places '
-        'there. A year at a time, or all together.</p>',
+        'there. A year at a time, or all together, or any span of dates. The same map stands in each page of the '
+        'calendar that holds a placed entry, under the day of the first, and at the head of the pages of the China '
+        'threads, each on its page\'s dates.</p>',
         '<p class="vnm-pg">Vietnam, Laos and Cambodia on a map of their own: <a href="indochina.html">Indochina</a>.</p>',
         '<h2 id="map" data-short="Map">The map</h2>',
         fig,
@@ -129,7 +145,12 @@ def page(series, template):
         'names it and lists the entries placed in the province as a whole. Boxes: the names of the provinces; the '
         'counties of 1964, drawn from later lines. Two fingers or the mouse to move the map; a pinch, a double tap, '
         'the buttons, or Ctrl or ⌘ and the wheel to zoom, to 64 times; full screen from the last button. Above the '
-        'map, the year; under it, folded, the year\'s placed entries.</p>',
+        'map, the year, and the span\'s two fields, From and to: the map shows the entries dated within them. A '
+        'year\'s button fills them. A date typed by hand reads in the calendar\'s form (Apr. 15, 1961) or as '
+        '1961-04-15; a month or a year alone reads as its first day in the first field and its last in the second; '
+        'what does not read changes nothing. Under the map, folded, the span\'s placed entries.</p>',
+        f'<p class="logic">The map in the calendar\'s pages, by the day it stands under: {datelist.run(stands)}</p>'
+        if stands else "",
         '<h2 id="gazetteer" data-short="Gazetteer">The gazetteer</h2>',
         f'<p class="logic">Every place in China, Hong Kong, Macau and Taiwan that a calendar entry\'s place names, '
         f'{n_g} in all: {n_pt} with a point, {n_area} provinces named as places, {n_un} not on the map. The place as '
@@ -149,7 +170,8 @@ def page(series, template):
         'their lines dashed, in no country\'s tint. '
         f'<a href="{README}china/README.md">The files and their making</a>.</p>',
         '<p class="logic">The provinces. Those of 1966: 21 provinces, five autonomous regions and two municipalities, '
-        'with Hong Kong and Macau as the colonies they were and Taiwan as a country of the map. Made from later lines: '
+        'with Hong Kong and Macau as the colonies they were, and Taiwan a country of the map, drawn by the Republic '
+        'of China\'s two provinces, Taiwan and Fujian (Kinmen and Matsu). Made from later lines: '
         'Tianjin put back in Hebei (a municipality again from January 1967), Hainan in Guangdong (a province from '
         '1988), Chongqing in Sichuan (a municipality from 1997). Inner Mongolia in its shape before July 1969, which is '
         'nearly today\'s. Lines moved since 1966 by less than a county are not put back.</p>',

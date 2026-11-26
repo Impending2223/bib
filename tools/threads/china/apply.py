@@ -32,6 +32,10 @@ a row whose entry's present thread is not `china-leadership` or `china`, the two
 row already applied, its thread and `also:` as this script would leave them, is counted and passed over, so the
 script may be run again); a row naming a thread neither th.yaml nor THREADS has; the Center's daily work as a
 secondary thread (the audit's mend 1).
+
+Once this has run, the tsv is the record of what was applied and cannot be made again as it was: tree.py and
+measure.py read only the entries whose thread is `china-leadership` or `china`, and the entries that moved have left
+those threads. Do not run tree.py over it (notes/threads/china-applied.md, "What is left").
 """
 import ast
 import collections

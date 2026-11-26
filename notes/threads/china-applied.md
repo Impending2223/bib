@@ -1,6 +1,6 @@
 # China threads: the re-threading applied
 
-Nov. 26, 2026. This note reports the re-threading of the China entries, done under `notes/briefs/china-threads-apply.md` and ruling 59 of `notes/owner-rulings.md` ("the re-threading as applied"). The script is `tools/threads/china/apply.py`. It read `notes/threads/china-tree.tsv` (27,831 rows) and the tree in `tools/threads/china/tree.py`, and wrote `lists/cal/th.yaml`, 122 month files of `lists/cal/` and `notes/threads/china-held.tsv`. It wrote them through the repository's own reading and writing of entries (`tools/bib/store.py`). Nothing was committed or pushed. Nothing in `sources/`, `works/` or `pages.yaml` was changed. No entry's id changed.
+Nov. 26, 2026. This note reports the re-threading of the China entries, done under `notes/briefs/china-threads-apply.md` and ruling 59 of `notes/owner-rulings.md` ("the re-threading as applied"). The script is `tools/threads/china/apply.py`. It read `notes/threads/china-tree.tsv` (27,831 rows) and the tree in `tools/threads/china/tree.py`, and wrote `lists/cal/th.yaml`, 122 month files of `lists/cal/` and `notes/threads/china-held.tsv`. It wrote them through the repository's own reading and writing of entries (`tools/bib/store.py`). Nothing was committed or pushed. Nothing in `sources/` or `works/` was changed. `pages.yaml` has three new splits, written by `./bib pages --plan` (section 7). No entry's id changed.
 
 ## 1. What was done, in short
 
@@ -11,7 +11,7 @@ Nov. 26, 2026. This note reports the re-threading of the China entries, done und
 - 2,764 entries fit nothing and are unchanged: 1,677 in "China: Leadership" and 1,087 in "China".
 - 12,200 threads were added to `also:` in all, on 24,691 changed entries.
 - `./bib check` ends in 0 errors. Its warnings went from 1,400 to 1,411.
-- The fast tests pass: 1,166 passed, 1 expected failure, as before.
+- The fast tests pass with the re-threading in the tree: 1,166 passed, 1 expected failure (section 6 says how this was shown, and why two tests fail in the working tree as it stood at the end).
 
 ## 2. The threads added
 
@@ -135,7 +135,7 @@ One case the brief did not settle. 100 entries stay in "China: Leadership", alre
 - After the change a second script, which shares no code with `apply.py` or `tools/bib`, read the files back with a plain YAML reader and compared them with the files of commit `d8a7cbd4`. For all 27,831 rows it found exactly the thread and the `also:` that the brief's rules give. In every changed file, every changed line is a `thread:` line or an `also:` line. No other field of any entry changed, nor the order of the fields, nor the order of the entries. No entry outside the tsv changed. In `th.yaml` the 306 old threads are unchanged and in their old order apart from the China threads. It found 0 faults.
 - That script was a scratch file and is not in the tree. Its rules are the ones in section 4.
 
-## 6. What `check` asked
+## 6. What `check` asked, and the tests
 
 `./bib check` ended in 0 errors at the first run after the change, so nothing in the entries had to be mended. The count of warnings went from 1,400 to 1,411. Only one rule's count moved: `thread-size` went from 36 to 47. Every other warning is the same warning as before, some on a new line number.
 
@@ -143,13 +143,36 @@ One case the brief did not settle. 100 entries stay in "China: Leadership", alre
 
 I marked no exception on any thread or entry.
 
+The fast tests (`python -m pytest -q -m "not slow"`). Right after the change they passed: 1,166 passed, 1 expected failure. At the end I ran them again in the working tree and two failed, `test_build_output` and `test_build_files` in `tests/golden/`. Those two build the tests' own small fixture, not the calendar's data, and compare the pages' sizes with a stored list. Two fixture pages came out 3 KB smaller. By then another agent's uncommitted changes to `templates/list.html` and `tools/bib/` (the maps) were in the working tree. To separate the two, I ran the fast tests in a clean copy of commit `d8a7cbd4`, the commit I started from, with the re-threading's files laid over it: every file of `lists/cal/`, `pages.yaml`, `apply.py` and this note. They passed: 1,166 passed, 1 expected failure. So the two failures are not from the re-threading.
+
 ## 7. The pages
 
-PAGES_SECTION
+What the code and the plan say (`pages.yaml`, `tools/bib/pages.py`, `tools/bib/threads.py`). A thread's page is `threads-<slug>.html`. A page over the budget of 5 MB is cut into parts by date, and the thread's own page then lists the parts. The plan only cuts a page further. It never joins parts again, so a part's address stays.
+
+What the change does:
+
+- "China: Leadership" keeps its 35 parts at the same addresses. They listed 26,563 entries and now list 3,966. The fewest in a part is 11 and the most is 240. The parts are far smaller than they need to be, 10.4 MB in all, but every old address still opens.
+- "China" keeps its 7 parts. They listed 6,475 entries and now list 1,678, because an entry that moved no longer carries `china` in `also:`.
+- 44 of the 45 new threads have a page. "Split with Moscow" has none, since it has no entry of its own.
+- An old link to an entry on a thread page (`threads-china-leadership-1960Q1.html#t-<id>`) still opens that page. If the entry has moved, it is no longer on that page, and the reader lands at the top. The entry is on its new thread's page. Links to an entry in the calendar (`cal.html#<id>`, `e.html#<id>`) go by id and are not affected.
+
+What I ran, under the lock:
+
+- `./bib build threads` alone takes 7 minutes. I ran it.
+- `./bib pages` then showed three thread pages over budget: Foreign affairs at 20.0 MB (7,362 entries), Zhou Enlai: Foreign affairs at 12.0 MB (3,483) and Army at 5.2 MB (1,635).
+- `./bib pages --plan` wrote the three splits into `pages.yaml`: Foreign affairs in 9 parts, Zhou Enlai: Foreign affairs in 5, Army in 2. It added 51 lines and changed nothing else in the file. The guide's rule is that a page over budget is split by the plan, and the tool wrote it; I edited nothing by hand.
+- I built the threads again and ran `./bib pages` again. No thread page is over budget. The largest part is 3.3 MB. The pass ends with exit 0. The only pages over budget are ten Names pages of one person each, which no split divides, as before.
+- The largest page left whole is Mao Zedong's at 4.9 MB, just under the budget. It will want parts when it grows.
+
+What I did not run:
+
+- The full build. `build/` now holds thread pages of the new state and calendar pages of the old.
+- `./bib links`. The thread pages link to each thread's line in the calendar's index, and the new threads' lines are made by the full build.
+- `./bib readme`.
 
 ## 8. What is left
 
-- The full build, then `./bib links`, `./bib pages --plan` for the pages over budget, a second build, and `./bib readme`. Every calendar page names an entry's thread in its heading line, so all of them change.
+- The full build, then `./bib links`, `./bib pages` and `./bib readme`. Every calendar page names an entry's thread in its heading line, so all of them change. The splits of the three large thread pages are already in the plan, so one build should do.
 - A parent's page does not list its subthreads' entries. The audit expected Agriculture's page to hold the entries of Famine, Twelve Articles and Sixty Articles. The site's code lists on a thread's page only the entries that name the thread in `thread:` or `also:` (`build.index_members`), and links the subthreads at the head of the page. The line under each entry and the highlight do keep the family together. So Agriculture's page lists its 876 entries and links the three episodes. "Split with Moscow" has no entry of its own and so has no page. Its three episodes have pages, but the Foreign affairs page does not link them and they have no link to a parent. They are reached from the list of all threads and from the calendar's index. If the owner wants a parent's page to hold the family, that is a change to `tools/bib/threads.py`, not to the entries.
 - The 376 held entries want the fresh sample of 30 the audit asked for. If Organization is released, 376 rows and their 18 secondary threads go in, and the five stations go back into its statement.
 - The 1,700 entries of Propaganda and culture, Army and Agriculture want reading entry by entry before any of them leaves "China: Leadership".

@@ -12,7 +12,8 @@ STYLE
  1. The entries' files. Each map's placed entries go beside the pages a file a year, build/geo/<vn|cn>-entries-<year>-
     <hash>.json: {"k": the threads' slugs, "e": the entries in the calendar's order}; an entry its link (`h`, to its
     calendar page), its date as written (`w`), its day (`d`: its place in the calendar, loose.place_iso: a month's
-    first day for a month, Jan. 1 for a year, the day its `at:` gives), its chief thread's name (`t`), the first words
+    first day for a month, Jan. 1 for a year, the day its `at:` gives; the calendar's first day where that falls
+    before it, as "1960" and "January 1960" do), its chief thread's name (`t`), the first words
     of its statement (`s`), its places (`p`), the units it names whole (`v`), and its threads (`k`: its `thread` and
     its `also`, as numbers into the file's `k`). A page carries no entry: the client reads the files of the years the
     span touches, when the map nears the screen. So a calendar page is a few kilobytes the heavier for its two maps.
@@ -74,7 +75,12 @@ def day(d):
 
 
 def span(lo, hi):
-    """A span as the calendar writes one: "Apr. 1–June 30, 1961"; "Jan. 6, 1960–Aug. 31, 1976" (vnmap.js showSpan)."""
+    """A span as the calendar writes one: "Apr. 1–June 30, 1961"; "Aug. 1–31, 1966"; "Jan. 6, 1960–Aug. 31, 1976"; one
+    day, "Apr. 15, 1961" (vnmap.js showSpan)."""
+    if lo == hi:
+        return day(lo)
+    if (lo.year, lo.month) == (hi.year, hi.month):
+        return f"{contents.MONTHS[lo.month - 1]} {lo.day}–{hi.day}, {lo.year}"
     a = day(lo)
     return (a[:-6] if lo.year == hi.year else a) + "–" + day(hi)
 
@@ -114,16 +120,19 @@ def entries(series, m):
     calsplit.CUR.update(half=None, mode="list")       # every link names its calendar page
     rows = []
     try:
-        got = {e["id"]: (e, pl, pv) for rs in m.by_year(series).values() for e, pl, pv in rs}
         G = m.gazetteer()
+        got = {e["id"]: (e, [p for p in pl if p in G], pv) for rs in (m.by_year(series) if m.ready() else {}).values()
+               for e, pl, pv in rs}
+        got = {k: v for k, v in got.items() if v[1] or v[2]}       # on the map: a place it holds, or a unit
         split = bool(calsplit.cfg(lst))
+        first = calsplit.bounds(lst)[0].isoformat()     # "1960", "January 1960": before the calendar's first day
         for e in chron.sort(lst, [t[0] for t in got.values()]):
             _, pl, pv = got[e["id"]]
             iso = loose.place_iso(e)
             n = calsplit.half_of_date(lst, iso) if split else 1
-            rows.append({"h": calsplit.href(lst, n, e["id"]), "w": e["when"], "d": pad(iso),
+            rows.append({"h": calsplit.href(lst, n, e["id"]), "w": e["when"], "d": max(pad(iso), first),
                          "t": thread_name(lst, e["thread"]), "s": vnmap._summary(e.get("c")),
-                         "p": [p for p in pl if p in G], "v": pv,
+                         "p": pl, "v": pv,
                          "k": list(dict.fromkeys([e["thread"]] + list(e.get("also") or []))),
                          "_id": e["id"], "_n": n, "_day": loose.order_key(e)[1] == 1})
     finally:
@@ -176,7 +185,7 @@ def figure(series, m, lo, hi, th=None, here=None):
     if here is not None:
         d["here"] = here
     at = f"#y{lo.year}" if lo.year == hi.year else ""
-    return (f'<figure class="vnm{m.FIGURE}" data-geo="{m.manifest(series)}">'
+    return (f'<figure {m.FIGURE} data-geo="{m.manifest(series)}">'
             f'<figcaption class="vnm-cap"><span class="vnm-cnt">{span(lo, hi)}: {count(inn)}</span> {m.TAIL}</figcaption>'
             + fields(lo, hi) + m.box(f"{m.LABEL}, {span(lo, hi)}") +
             f'<details class="vnm-list"><summary>The placed entries ({len(inn)})</summary><ol></ol></details>'
@@ -301,11 +310,14 @@ def listing(m, series=None):
 
 def page(series, template):
     """build/maps.html: the page the top bar's 図 leads to."""
+    ms = [m for m in modules() if m.ready()]
+    if not ms:
+        return None
     main = ["<h1>Maps</h1>",
             '<p class="lede">The calendar\'s placed entries on a map: Vietnam, Laos and Cambodia on one, China on the '
             'other. Each map stands also in the calendar\'s pages, under the day of the page\'s first entry placed on '
             'it, and at the head of its threads\' pages.</p>',
-            '<ol class="e lists">' + "".join(listing(m) for m in modules()) + "</ol>"]
+            '<ol class="e lists">' + "".join(listing(m) for m in ms) + "</ol>"]
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", "Maps").replace("{{main}}", "\n".join(main))
     return pg.replace("</head>", CSS + "\n</head>", 1)
