@@ -68,7 +68,9 @@ Notes on the tree:
 
 ## 5. The bomb and nuclear diplomacy
 
-Yes, there is enough for a second thread, and I suggest the parent you describe. A rough count over every entry that touches the China threads (28,464), by word lists not yet tested by reading:
+Yes, there is enough for a second thread, though it is small, and I suggest the parent you describe.
+
+I counted two ways. The first count read each entry's line and its note, over every entry that touches the China threads (28,464), by word lists not yet tested by reading:
 
 | matter | entries | years |
 |---|---:|---|
@@ -79,19 +81,23 @@ Yes, there is enough for a second thread, and I suggest the parent you describe.
 | non-proliferation and the "nuclear umbrella" | 17 | 1961–68 |
 | talk of nuclear war, "nuclear blackmail", the "paper tiger" | about 70, loosely | 1960–69 |
 
-The four middle rows together are 112 entries, 13 of which are also in the first row. So the tree would be:
+That count runs high. A note names its sources, and a source's title can hold "test ban" where the entry is about something else. Many of the test-ban entries also belong to other nations' threads and only carry China as a second thread.
 
-- **Nuclear weapons** (parent). Its own entries are those about the weapon in general: what Mao and others said of nuclear war, the guarding against a strike in 1969.
-- **Nuclear weapons: Bomb.** The programme and the tests, as now, about 160.
-- **Nuclear weapons: Nuclear diplomacy.** The test ban refused, the proposals for prohibition and no first use, the conferences against the bomb, non-proliferation. About 110.
+The second count is the one the re-threading would use: the entry's own line only, and only the entries whose thread is "China: Leadership" or "China". It gives the weapon 234 entries and the diplomacy 51.
+
+So the tree would be:
+
+- **Nuclear weapons** (parent). Its own entries are those about the weapon in general, such as what Mao and others said of nuclear war. By the stricter count there are only a handful.
+- **Nuclear weapons: Bomb.** The programme and the tests, as now: 234.
+- **Nuclear weapons: Nuclear diplomacy.** The test ban refused, the proposals for prohibition and no first use, the conferences against the bomb, non-proliferation: 51 by the stricter count, perhaps 110 if the looser one holds up when read.
 
 "Nuclear diplomacy" is my suggestion for the name. "Test ban and disarmament" is the other candidate; it is plainer but leaves out the conferences. The word lists for this thread are new and need the same test by reading as the rest.
 
 ## 6. What I am doing now, by default
 
-- The rules are being rewritten to record every thread an entry fits, to pick the primary one by the order, and to place the threads in the tree above.
+- The rules now record every thread an entry fits, pick the primary one by the order, and place the threads in the tree above (`tools/threads/china/tree.py`; the result is `notes/threads/china-tree.tsv`). Under them 10,394 of the 27,831 entries carry at least one secondary thread. Zhou Enlai's family holds 6,076 entries (3,481 of them under "Zhou Enlai: Foreign affairs"), Mao's 2,654, the Cultural Revolution's six stages 4,727, Agriculture with its three episodes about 2,300.
 - The names taken by default: "Split with Moscow" as a parent, with "Polemic" under it; "Nuclear weapons" with "Bomb" and "Nuclear diplomacy"; the two subthreads each for Mao and Zhou.
-- Then a second reading on Sonnet of the six threads the audit found weak, and an Opus audit of the primary and the secondary placings. Then the re-threading, by script.
+- Still to do before any entry moves: a second reading on Sonnet of the six threads the audit found weak, and an Opus audit of the primary and the secondary placings. Your message stopped the reader that had begun the first of these, and the map builder with it. I have not started either again; say the word and I will. Then the re-threading, by script.
 - Any name or place in the tree can change afterwards by rule, with no reading to redo.
 
 ## 7. Questions still open from the measurement
