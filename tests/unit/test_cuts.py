@@ -248,6 +248,21 @@ def test_follows_remove_needs_a_reason_and_a_link_that_is_there():
     assert err is None and "follows" not in new
 
 
+def test_follows_remove_takes_the_order_sentence_with_the_link():
+    from tools.bib import addops
+    e = {"id": "cal.1961-01-01.b", "n": "[[w.x]], 12. To check: [[w.y]]. Names: Zhou."}
+    new, _ = addops.follows(e, {"add": ["cal.1961-01-01.a"], "basis": "the printed order alone ([[w.x]], II, 12)"})
+    back, err = addops.follows(new, {"remove": ["cal.1961-01-01.a"], "why": "held for a second reader"})
+    assert err is None and back["n"] == e["n"] and "follows" not in back
+    two, _ = addops.follows(e, {"add": ["cal.1961-01-01.a", "cal.1961-01-01.c"], "basis": "the page ([[w.x]], II, 12)"})
+    one, err = addops.follows(two, {"remove": ["cal.1961-01-01.a"], "why": "w"})
+    assert err is None and one["follows"] == ["cal.1961-01-01.c"]
+    assert "The order: after [[cal.1961-01-01.c]], the page ([[w.x]], II, 12)." in one["n"]
+    other = dict(new, n=new["n"].replace("The order: after", "The order: the tower is at Jianshui. The order: after"))
+    kept, err = addops.follows(other, {"remove": ["cal.1961-01-01.a"], "why": "w"})
+    assert err is None and "The order: the tower is at Jianshui." in kept["n"] and "after [[" not in kept["n"]
+
+
 def test_follows_basis_writes_the_order_sentence_once():
     from tools.bib import addops
     e = {"id": "cal.1961-01-01.b", "n": "[[w.x]], 12. To check: [[w.y]]. Names: Zhou."}

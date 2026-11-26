@@ -64,6 +64,8 @@ STYLE
 11. `follows: {id, add: [the earlier], basis: 'the printed order alone ([[w.card]], III, 123)'}`: the link, and in the
     note the sentence "The order: after [[the earlier]], the printed order alone ([[w.card]], III, 123)." (R25c: a link
     whose basis the two lines do not show says what it rests on). No base, no edit of the note.
+    `follows: {id, remove: [the earlier], why}` takes the link out and that sentence with it (Nov. 25, 2026: the owner
+    held 171 links for a second reader); a sentence naming two entries keeps the one not removed.
 """
 import os
 import re
@@ -332,11 +334,15 @@ def add_words(e, body):
     return cite(new, {"item": body["item"], "units": num})
 
 
+ORDER = re.compile(r"The order: after ((?:\[\[[^\]]+\]\](?: and )?)+)(?=,)")
+
+
 def follows(e, body):
     """`follows` ids added (dayorder STYLE 2). `basis:` what the link rests on where the two lines do not show it
     (a page, "the printed order alone ([[w.x]], III, 123)"): written into the note as "The order: after [[id]], <basis>."
     before "To check:" and "Names:" (STYLE 11; the reader's brief, R25c), once. `remove:` takes out links the entry has that an audit found wrong (the reader's
-    brief, R25c), with `why:` the record or the words that show it; a link the entry does not have is an error."""
+    brief, R25c), with `why:` the record or the words that show it; a link the entry does not have is an error; the note's
+    sentence "The order: after [[id]], ..." for a link removed goes with it."""
     new = dict(e)
     fs = list(store.as_list(e.get("follows")))
     rm = [str(f) for f in store.as_list(body.get("remove"))]
@@ -347,6 +353,18 @@ def follows(e, body):
         if gone:
             return None, f"follows: the entry does not follow {', '.join(gone)}"
         fs = [f for f in fs if f not in rm]
+        parts = nm.parse(new.get("n") or "")  # STYLE 11: the sentence that gave the link's basis goes with the link
+        kept = []
+        for p in parts:
+            m = ORDER.match(p[1]) if p[0] == "text" else None
+            ids = re.findall(r"\[\[([^\]]+)\]\]", m.group(1)) if m else []
+            if not ids or not set(ids) & set(rm):
+                kept.append(p)
+            elif set(ids) - set(rm):         # "after [[a]] and [[b]], ...": the one removed taken out of it
+                left = " and ".join(f"[[{f}]]" for f in ids if f not in rm)
+                kept.append(("text", f"The order: after {left}{p[1][m.end(1):]}"))
+        if kept != parts:
+            new["n"] = nm.render(_clean(kept))
     add = [str(f) for f in store.as_list(body.get("add")) if f != e.get("id")]
     fs += [f for f in add if f not in fs]
     if fs:
