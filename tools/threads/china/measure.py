@@ -32,6 +32,9 @@ An entry that fits none is a leftover (`-`), its kind in the rule column (`left:
 The audit by reading of Nov. 26, 2026 (notes/threads/china-assign-audit.md) mended the rules; each mend is marked
 `AUDIT MEND n` here and in systems.py, numbered as in the audit's note.
 
+The audit of the tree (notes/threads/china-tree-audit.md) mended the rules again; each mend is marked `AUDIT 2 (n)` here and in
+tree.py, numbered as in that note.
+
 The second mending (notes/threads/china-assign-mend-2.md) mended the rules for six threads the audit found unfit (Shanghai and
 Beidaihe, 1960; Twelve Articles; Propaganda and culture; Army; Political-legal work; Finance and economy); each mend is marked
 `MEND 2 (n)` here and in systems.py, numbered as in that note.
@@ -146,15 +149,19 @@ MEETING = re.compile(r"\bconference|\bplenary|\bplenum|(?<![Pp]arty )\bgroups?\b
 ONLYCONF = {'china-afro-asian': re.compile(r"\bconference|会议", re.I)}
 # 2. Words taken out of the line before an episode's keys are tried.
 STRIP = {'china-bomb': re.compile(r"(?:Conference|Council|Congress)s? [Aa]gainst (?:Atomic|A-)(?: and Hydrogen| and H-)? ?[Bb]ombs?|against Atomic and Hydrogen Bombs|movement (?:for|against) (?:banning |the banning of )?atomic and hydrogen bombs", re.I),   # AUDIT MEND 10
-         'china-india-war': re.compile(r"印度尼西亚|Indian Ocean|Indochina|印度支那")}
+         'china-india-war': re.compile(r"印度尼西亚|Indian Ocean|Indochina|印度支那"),
+         # AUDIT 2 (7): the Third Five-Year Plan is not the third front: "Third Five-Year Plan", "Third Plan" and 三五计划 no longer place an entry (a Cambodian guest told of the plan, the farm targets for 1970, the Government Work Report).
+         'china-third-front': re.compile(r"[Tt]hird [Ff]ive-[Yy]ear [Pp]lan|[Tt]hird [Pp]lan|三五计划|third five-year"),
+         # AUDIT 2 (9): the Sixty Articles on Higher Education are not the communes' Sixty Articles.
+         'china-sixty-articles': re.compile(r"Sixty Articles (?:on|for) (?:Higher )?Education|高教六十条|高校六十条")}
 # 3. Keys the survey's lists lacked: (first day or month, last, regex).
 MORE = {
- 'china-bomb': [('1963-07', '1969-12', r"Special Commi(?:ssion|ttee)|Central Special|中央专门委员会|专委|Second Ministry of Machine|Seventh Ministry of Machine|test range|nuclear[- ]industry|warhead")],
+ 'china-bomb': [('1963-07', '1969-12', r"(?-i:Special Commi(?:ssion|ttee)|Central Special)|中央专门委员会|专委|Second Ministry of Machine|Seventh Ministry of Machine|test range|nuclear[- ]industry|warhead")],   # AUDIT 2 (10): "Special Commission" with its capitals (Peng Dehuai's "special committee" of 1928 is not the bomb's)
  'china-opera': [('1963-10', '1965-11', r"revolution in Peking opera|Peking opera revolution|modern (?:Peking )?(?:opera|drama)")],   # MEND 2 (21)
  'china-retreat-1962': [('1962-05', '1962-05', r"relays? the work conference|town population")],   # MEND 2 (10): the May work conference relayed to the cadres; the cut in the town population
  # MEND 2 (9): the polemic's own documents as the press and radio carried them
  'china-polemic': [('1961-10', '1964-11', r"statement on the talks|dispute and talks of the Chinese and Soviet|origin and development of the differences|Pravda|真理报|\b(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth) comment|reply to the CPSU|letter of the CPSU|CPSU(?:'s)? letter|Togliatti|Thorez|anti-revisionis|Whence the differences")],
- 'china-moscow-1960': [('1960-04', '1961-01', r"differences between (?:China and the Soviet|the two parties)|Sino-Soviet (?:differences|question)|parties' conference|drafting committee of the parties")],
+ 'china-moscow-1960': [('1960-04', '1961-01', r"differences between (?:China and the Soviet|the two parties)|Sino-Soviet (?:differences|question)|parties' conference|drafting committee of the parties|drafting commission|twenty-six parties|26-party|Khrushchev's (?:recent |latest )?(?:speech|speeches|remarks)")],   # AUDIT 2 (8): the drafting commission and Khrushchev's speeches of the year
  'china-four-cleanups': [('1962-09', '1966-05', r"socialist[- ]education")],
  'china-may-sixteenth': [('1966-04-09', '1966-05-31', r"Peng Zhen|彭真")],
  'china-border-war': [('1969-03', '1969-12', r"boundary (?:talks|question|rivers)|Kuznetsov|four marshals|marshals' reports?|prepar\w+ [^.;]{0,40}for war|Sino-Soviet (?:border|boundary)")],
@@ -201,7 +208,7 @@ def episodes(e, variant=''):
     if private and not e['_foreign']: return []           # a swim, a doctor, a poem in a conference's weeks is no part of the conference
     hits = []; weakonly = set(); seatonly = set()
     for s, comps, w in EPC:
-        txt = STRIP[s].sub(' ', base) if s in STRIP else base
+        txt = STRIP[s].sub(' ', base) if s in STRIP and not (s == 'china-third-front' and '1964-05-15' <= d <= '1964-06-17') else base   # AUDIT 2 (7): the Third Plan stays a word of the third front in the work conference of May 15-June 17, 1964, the thread's first station
         if s == 'china-twelve-articles': txt = T12_URGENT.sub(' ', txt)               # MEND 2 (5)
         if s == 'china-shanghai-1960' and (len(d) == 4 or SHW_WRITERS.search(c) or (e['works'][:1] and e['works'][0] in BOOK_FAMINE and not SHW_SEAT.search(base))): continue   # MEND 2 (1, 3, 4)
         keys = set()
@@ -376,7 +383,8 @@ def system_scores(e):
         sc['foreign'] += ev + (2 if RECEIVE.search(c) else 0)
         if hitrows['culture'] and hitrows['culture'] <= {1, 2}: sc['foreign'] += 3      # AUDIT MEND 11: a foreign guest at a performance is foreign business (MEND 2 (17): or at a school, a sport, an academy)
         if e['_head'] and any(sk == 'foreign' for sk, lo, hi in OFFICE.get(e['_head'][0], ())): sc['foreign'] += 3   # MEND 2 (17): the foreign minister where the line has foreign evidence (a guest, a country's film week, a friendly match)
-    if re.search(r"\bdies\b|\bdied\b|\bdeath of\b|\bfuneral|memorial (?:meeting|service)|\bMourning\b|追悼", c[:160]): sc['org'] += 6   # MEND 2 (18): a death is the Party's own business (the statement: "the deaths of leaders")
+    # AUDIT 2 (11): the death rule only for a named person and no foreign evidence (a condolence at a foreign embassy is foreign business; a famine book's starved boy is no leader)
+    if not ev and (e['_phead'] or re.search(r"(?:death of|[Mm]ourning|memorial (?:meeting|service)[^.;]{0,12} for|追悼)\s*(?:Comrade )?[A-Z]", c[:160])) and re.search(r"\bdies\b|\bdied\b|\bdeath of\b|\bfuneral|memorial (?:meeting|service)|\bMourning\b|追悼", c[:160]): sc['org'] += 6   # MEND 2 (18): a death is the Party's own business (the statement: "the deaths of leaders")
     if e['date'] >= '1969-04' and re.search(r"case groups?|专案", c): sc['org'] += 5        # MEND 2 (18): the case groups after April 1969 are the Party's own business (the statement of Organization)
     if NPCDEL.search(c): sc['foreign'] += 5       # MEND 2 (14): an NPC delegation's journey is foreign business, though the Congress sends it
     al = set(e['also'])
