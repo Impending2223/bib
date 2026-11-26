@@ -1,6 +1,6 @@
 # Via-read, batch c: what each row came to
 
-The patch is `inbox/2026-11-26-via-read-c.yaml` (15 ops, 0 errors at patch-check). Choice 1: the record cited, where read and borne out. Choice 2: the work's note cited. Choice 3: neither, the record stays behind "To check:" with its "cited by". No row came to choice 2: the notes read (Jones's, Fursenko's and the others in this batch whose pages I could not open) are bare citations, and where I could read one it carried no text of its own for the words. "Already cited" means the entry's map already has the record's own row on that part, so no op is needed and the work's note row can go.
+The patch is `inbox/2026-11-26-via-read-c.yaml` (16 ops, 0 errors at patch-check). Choice 1: the record cited, where read and borne out. Choice 2: the work's note cited. Choice 3: neither, the record stays behind "To check:" with its "cited by". No row came to choice 2: the notes read (Jones's, Fursenko's and the others in this batch whose pages I could not open) are bare citations, and where I could read one it carried no text of its own for the words. "Already cited" means the entry's map already has the record's own row on that part, so no op is needed and the work's note row can go.
 
 Rows are numbered as in `notes/via-read/batch-c.tsv` (first data row is 1).
 
