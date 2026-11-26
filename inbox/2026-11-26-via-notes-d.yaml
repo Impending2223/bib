@@ -1,13 +1,20 @@
 patch: 2026-11-26-via-notes-d
-by: reader (via-notes batch d)
+by: reader (via-notes batch d); corrected by the Opus audit, Nov. 26, 2026 (notes/via-read/audit-d.md)
 ops:
   - cite:
       id: cal.1963-08-21.vietnam
       item: '[[w.moyar-triumph-forsaken]], 232 n.6 (the generals'' document, New York Herald Tribune, Aug. 29: the commanders proposed martial law and obtained it)'
       'on': Martial law.
-  - check:
+  # The audit: FRUS XXIV, docs. 87 and 91 bear Rusk at the head of the delegation, not the opening held or Harriman; the map's row for doc. 87 narrowed in place of a Check.
+  - src:
       id: cal.1961-05-16.laos
-      text: 'Check: FRUS 1961–63, XXIV, docs. 87 and 91, read, put the opening off from May 12 to May 16 and set it for 5 p.m. Geneva time (doc. 91, Secto 146, May 15); neither reports the session held, and neither names Harriman.'
+      row: https://history.state.gov/historicaldocuments/frus1961-63v24/d87
+      'on': Rusk heads the delegation;
+  - src:
+      id: cal.1961-05-16.laos
+      row: https://history.state.gov/historicaldocuments/frus1961-63v24/d91
+      'on': Rusk heads the delegation;
+  # The audit: the map rows for V, doc. 83 and XIV, doc. 32 name parts 1-4 of a line of 8 parts, so a src op cannot narrow them (addops _with_row joins); the Check says what each document holds.
   - check:
       id: cal.1961-06-03.berlin-and-vienna
-      text: 'Check: FRUS 1961–63, V, doc. 83 (June 3, 12:45 p.m.) bears out the meeting only; the treaty, Western rights in Berlin and the six months are in XIV, doc. 32 (V, doc. 87), the Laos agreement in XXIV, doc. 107 and V, doc. 87; Reston''s remark is in none of the three.'
+      text: 'Check: FRUS 1961–63, V, doc. 83 (June 3, 12:45 p.m.) bears the meeting only; XIV, doc. 32 (June 4, 10:15 a.m.) has the treaty ending occupation rights and access and Kennedy''s "now he wants a peace treaty in six months," the aide-mémoire said to have been prepared, not handed over; XXIV, doc. 107 and V, doc. 87 have agreement on Laos, not that it was the only one; Reston''s remark is in none.'
