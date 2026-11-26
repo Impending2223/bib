@@ -155,10 +155,6 @@ def shown(p):
     return ENGLISH.get(p["name"], p["name"])
 
 
-def in_rvn(p):
-    return bool(p.get("province")) or p.get("country") == "vn-south"
-
-
 def _hash(b):
     return hashlib.sha1(b).hexdigest()[:10]
 

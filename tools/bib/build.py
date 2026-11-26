@@ -12,7 +12,7 @@ import json
 import os
 import re
 
-from . import calsplit, daybook, governors, legislatures, loose, primaries, specials, statefin, store, vispage, vnmap
+from . import calsplit, daybook, governors, legislatures, loose, maps, primaries, specials, statefin, store, vispage
 from . import chron
 from . import permalink
 from . import conventions
@@ -1282,12 +1282,8 @@ def build_series(series):
     home.append('<h2 id="home--ex" data-short="Executive">The Executive Branch</h2><ol class="e lists"><li><a class="lk" href="executive.html">'
                 '<span class="ab">Executive</span><span class="tt">The Executive Branch at each inauguration, 1953–1974: every office, its authority, its holders</span></a>'
                 '<span class="r">1953–74</span></li></ol>')
-    home.append('<h2 id="home--ic" data-short="Indochina">Indochina</h2><ol class="e lists"><li><a class="lk" href="indochina.html">'
-                '<span class="ab">Indochina</span><span class="tt">Vietnam, Laos and Cambodia, 1960–1968: the calendar\'s placed entries on one map, by year; the gazetteer</span></a>'
-                '<span class="r">1960–68</span></li></ol>')
-    home.append('<h2 id="home--cn" data-short="China">China</h2><ol class="e lists"><li><a class="lk" href="china.html">'
-                '<span class="ab">China</span><span class="tt">China, 1960–1970: the calendar\'s placed entries on one map, by year; the provinces of 1966, the counties of 1964; the gazetteer</span></a>'
-                '<span class="r">1960–70</span></li></ol>')
+    for m, gid in zip(maps.modules(), ("home--ic", "home--cn")):     # the two maps, each as maps.html lists it
+        home.append(f'<h2 id="{gid}" data-short="{m.NAME}">{m.NAME}</h2><ol class="e lists">{maps.listing(m)}</ol>')
     home.append('<h2 id="home--eb" data-short="Ebooks">Ebooks and feeds</h2><ol class="e lists"><li><a class="lk" href="ebooks.html">'
                 '<span class="ab">Ebooks</span><span class="tt">The daybook\'s documents, an ebook a month: FRUS in full, the Public Papers by title; the free White House recordings, a podcast feed a year</span></a>'
                 '<span class="r">1960–69</span></li></ol>')
@@ -1384,8 +1380,8 @@ def retired(fam):
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
-    PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "china", "indicators", "ebooks",
-             "feeds", "threads")
+    PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "china", "maps", "indicators",
+             "ebooks", "feeds", "threads")
     for l in series.lists.values():       # the calendar's later parts are built with its first
         if which and l.kind == "calendar" and calsplit.cfg(l) and which in [p["page"] for p in calsplit.cfg(l)]:
             which = l.key
@@ -1442,7 +1438,7 @@ def run(series, which=None):
                 page = budgets.inject(page, series)
                 page = bills.inject(page, series)
                 page = appropriations.inject(page, series)
-                page = vnmap.inject(page, series)
+                page = maps.inject(page, series, "list")   # the two maps, on the page's range (tools/bib/maps.py)
                 page = indicators.inject(page, series, "list")
                 page = dayblocks.inject(page, series, "list")   # day blocks: the war table, Armed Forces Day
                 page = daybook.inject(page)
@@ -1481,7 +1477,7 @@ def run(series, which=None):
         page = budgets.inject(page, series)
         page = bills.inject(page, series)
         page = appropriations.inject(page, series)
-        page = vnmap.inject(page, series)
+        page = maps.inject(page, series, "series")
         page = indicators.inject(page, series, "series")
         page = dayblocks.inject(page, series, "series")   # day blocks: the war table, Armed Forces Day
         page = daybook.inject(page)
@@ -1524,6 +1520,10 @@ def run(series, which=None):
             path = os.path.join(OUT, "china.html")
             smart.write(path, routed(page))
             written.append(path)
+    if which in (None, "maps", "indochina", "china"):   # the page that lists the two maps (tools/bib/maps.py)
+        path = os.path.join(OUT, "maps.html")
+        smart.write(path, routed(maps.page(series, os.path.join(TEMPLATES, "list.html"))))
+        written.append(path)
     if which in (None, "indicators"):     # the indicators' master: concepts, sources, tables (tools/bib/concepts.py)
         from . import concepts
         page = concepts.page(series, os.path.join(TEMPLATES, "list.html"))
