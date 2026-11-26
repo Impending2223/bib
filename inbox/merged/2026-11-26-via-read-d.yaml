@@ -1,0 +1,215 @@
+patch: 2026-11-26-via-read-d
+by: agent
+ops:
+# The Opus audit of Nov. 26, 2026 (notes/via-read/audit-d.md): its edits first, so that each applies to its base; then the readers' ops, corrected, and the audit's additive ops.
+- edit:
+    id: cal.1962-02-20.cuba
+    base: 7d665884
+    set:
+      n: '[FRUS 1961–63, X, doc. 304](https://history.state.gov/historicaldocuments/frus1961-63v10/d304); [S. Rep. No. 94-465, 143 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=154) (the six phases; the revolt in October). [[w.schlesinger-robert-kennedy-and-his]], 477; [[w.paterson-contesting-castro]], 259–60 n.35 (Lansdale''s revolt, timed for October; "complete and efficient support of the military"). See [[cal.1961-11-30.cuba]]. Names: Lansdale.'
+- edit:
+    id: cal.1962-03-16.voting-rights
+    base: c39d3389
+    kind: correct
+    set:
+      n: '[108 Cong. Rec. 4409](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-1-1.pdf#page=69), [4410](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-1-1.pdf#page=70) (1962) (Mar. 16, 1962). [[w.mann-walls-of-jericho]], 320–21. The Record has Stennis on the tax "misunderstood" at 4409 and "Voting is a privilege" at 4410. See [[cal.1962-03-14.voting-rights]]. Names: Stennis.'
+- edit:
+    id: cal.1961-11-22.vietnam
+    base: a59eade2
+    set:
+      n: '[NSAM No. 111](https://history.state.gov/historicaldocuments/frus1961-63v01/d272) (Viet. II.I.2). [[w.miller-misalliance]], 229–31 (no combat troops, the rest of the partnership endorsed; the reforms pressed on Diệm); FRUS 1961–63, I, doc. [257](https://history.state.gov/historicaldocuments/frus1961-63v01/d257) n. 2 (telegram 619 to Saigon, Nov. 15, summarized: the joint effort; telegram 618, no combat troops now). [[w.gibbons-u-s-government-and]], II, 99–100; [[w.marolda-united-states-navy-and]], 127 (NSAM 111, Nov. 22); [[w.moyar-triumph-forsaken]], 142–43; [[w.sorensen-kennedy]], 653–55 (no combat troops; the departments to be prepared for them; the mission expanded); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 273–74; [[w.taylor-swords-and-plowshares]], 248 (the NSAM, without the formal commitment); [[w.schlesinger-robert-kennedy-and-his]], 705 (Kennedy rejects combat units while accepting "another increase in military and economic assistance to Diem," insisting, by William Bundy, on "a stiffer and more quid pro quo political program"; "he absolutely declined in the National Security Action Memorandum of November 15 to make the total commitment"; not the helicopters, the airlift or the advisers with the units); [[w.mann-grand-delusion]], 251–52 (a week after the NSC meeting, NSAM 111: more helicopters and aircraft manned by U.S. uniformed personnel, air reconnaissance, air-ground support, the civil guard and self-defense corps, intelligence, economic aid; Diệm to "put the nation on a wartime footing"; the large infusion of troops Taylor, Rostow and McNamara urged not authorized; not airlift or "advisers with the units"); [[w.lich-su-khang-chien-chong-my]], III, 22 (NSAM 111, Nov. 22, 1961; the history gives Nov. 16 for the President''s approval of Taylor''s plan at III, 167). [[w.selverstone-kennedy-withdrawal]], 44, 47 (NSAM 111; no combat troops). Check: Taylor dates the NSAM''s approval Nov. 15 ([[w.taylor-swords-and-plowshares]], 248). Check: Schlesinger, 705, dates the National Security Action Memorandum Nov. 15; the entry has Nov. 22. To check: State to Saigon, Nov. 15, 1961, JFKL, NSF, box 195 (cited by [[w.moyar-triumph-forsaken]], 143 n.77). See [[cal.1961-01-28.vietnam]]; Lemnitzer''s notes of the meeting of Nov. 11 (FRUS I, doc. 236, cited by [[w.moyar-triumph-forsaken]], 142 n.76): [[cal.1961-11-11.vietnam]]. Names: Ngô Đình Diệm, Nolting.'
+- edit:
+    id: cal.1963-05-21.alabama-birmingham
+    base: 0f118cdf
+    kind: correct
+    set:
+      c: 'Stennis in the Senate: "None of us should be content to sit idly by in the face of this direct assault upon and threat to historic constitutional principles"; Alabama''s authorities functioned "fully and effectively."{1} Morse, later that day: Stennis "need only turn the pages of Life magazine of last week for pictorial proof"; "no place in America for inhumanity to man."{2}'
+      n: 'The Senate sat from noon to 6:28 p.m.: [Daily Digest, D219](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=217). [109 Cong. Rec. 9115](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=51) (1963) (Stennis); [109 Cong. Rec. 9139–40](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=75) (1963) (Morse) (May 21, 1963). [[w.mann-walls-of-jericho]], 350–51. The Record (9115) reads "this direct assault upon and threat to"; Mann, 351, drops "assault upon and." See [[cal.1963-04-03.alabama]]. Names: Stennis, Morse.'
+- edit:
+    id: cal.1962-06-08.vietnam-congress
+    base: 494ac7e7
+    kind: correct
+    set:
+      c: 'Morse in the Senate: no evidence "that it would be militarily wise for us to let an American army get bogged down anywhere in Asia in a conventional war."{1} Heavy casualties, then "a demand made that we resort to nuclear weapons."{2}'
+      n: '[108 Cong. Rec. 10,034](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt7/pdf/GPO-CRECB-1962-pt7-15-1.pdf) (1962). [[w.mann-grand-delusion]], 267. The Record (10,034) reads "a demand made that we resort." The Senate sat from noon to 3:05 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=1), [D285](https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt19/pdf/GPO-CRECB-1962-pt19-1.pdf#page=283). Names: Morse.'
+- edit:
+    id: cal.1961-05-23.freedom-rides
+    base: 4b80974d
+    kind: correct
+    settles: ['Check: Mann, 313, makes the Senator from New York Herbert Lehman, out of the Senate since 1957; in the Record he is Javits or Keating, Javits speaking just before (8648).']
+    set:
+      c: 'Thurmond in the Senate: the Freedom Riders "set out deliberately to create trouble at all costs";{1} he reads David Lawrence''s column. Javits: "I have yet to hear any excuse for the anarchy."{2} Thurmond: he did not expect him to agree "with the distinguished columnist, Mr. David Lawrence, or with the Constitution of the United States."{3}'
+      n: '[107 Cong. Rec. 8616–17, 8648](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt7/pdf/GPO-CRECB-1961-pt7-4-2.pdf#page=27) (1961) (May 23, 1961). [[w.mann-walls-of-jericho]], 313–14. The Record (8648) has Javits, yielded the floor by Morse, speak the words, and Thurmond answer "the Senator from New York." Check: Mann, 313, makes the Senator from New York Herbert Lehman, out of the Senate since 1957. See [[cal.1961-05-20.freedom-rides]]. Names: Thurmond, Lawrence, Javits.'
+- src:
+    id: cal.1962-01-19.robert-kennedy
+    row: https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=152
+    'on': 'Robert Kennedy to its principals, in his office: a solution of the Cuban problem "the top priority in the United States Government—all else is secondary—no time, money, effort, or manpower is to be spared."'
+- primary:
+    id: cal.1962-04.cuba-2
+    text: '[S. Rep. No. 94-465, 83 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=94) (Harvey and Rosselli, April 1962; the report''s account of Rosselli''s testimony, June 24, 1975).'
+    'on': Harvey approaches Rosselli for another try at Castro, cutting out Maheu.
+- src:
+    id: cal.1961-05-26.vietnam
+    row: https://history.state.gov/historicaldocuments/frus1961-63v01/d61
+    'on': '"we must push on all fronts to force a deflation of that crisis before it builds to a situation like that in Laos."'
+- src:
+    id: cal.1962-02-27.vietnam
+    row: https://history.state.gov/historicaldocuments/frus1961-63v02/d93
+    'on': Madame Nhu slightly wounded.
+- src:
+    id: cal.1962-03-16.voting-rights
+    row: https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt4/pdf/GPO-CRECB-1962-pt4-1-1.pdf#page=69
+    'on': 'Stennis in the Senate, on the poll tax amendment: the tax "misunderstood."'
+- src:
+    id: cal.1962-06-08.vietnam-congress
+    row: https://www.govinfo.gov/content/pkg/GPO-CRECB-1962-pt7/pdf/GPO-CRECB-1962-pt7-15-1.pdf
+    'on': Heavy casualties, then "a demand made that we resort to nuclear weapons."
+- src:
+    id: cal.1962-10-08.vietnam-force-levels
+    row: https://history.state.gov/historicaldocuments/frus1961-63v02/d298
+    'on': No time for his plan to phase the Americans out.
+- src:
+    id: cal.1962-12-14.missile-crisis
+    row: https://history.state.gov/historicaldocuments/frus1961-63v06/d84
+    'on': 'Bolshakov''s going: by Fursenko and Naftali, "I am sorry to learn that he is returning to Moscow."'
+- src:
+    id: cal.1962-12-18.europe-and-the-alliance
+    row: https://history.state.gov/historicaldocuments/frus1961-63v13/d407
+    'on': The same offered de Gaulle.
+- src:
+    id: cal.1963-08-19.vietnam-congress
+    row: https://history.state.gov/historicaldocuments/frus1961-63v03/d258
+    'on': 'Mansfield to Kennedy, by memorandum asked of him: "we are in for a very long haul," the costs in men and money perhaps as high as Korea''s;'
+- src:
+    id: cal.1961-06-18.china-leadership-4
+    row: w.jianguo-yilai-zhongyao-wenxian XIV, 416–418
+    'on': The Center issues an urgent instruction on verifying the urban population and the grain supply 《關於核實城市人口和糧食供應的緊急指示》, the same day as the nine measures to cut the town population 《關於減少城鎮人口和壓縮城鎮糧食銷量的九條辦法》.
+- src:
+    id: cal.1961-06-19.china-leadership-4
+    row: w.jianguo-yilai-zhongyao-wenxian XIV, 436–449
+    'on': 'The Center issues the Thirty-five Articles on the Handicraft Industry, as an experimental draft: collective ownership the main form, individual and family handicrafts allowed;'
+- src:
+    id: cal.1961-06-19.china-leadership-4
+    row: w.jianguo-yilai-zhongyao-wenxian XIV, 436–449
+    'on': the state enterprises that took over handicrafts in the Leap bear the losses of re-established collectives.
+- src:
+    id: cal.1961-06-28.china-leadership-2
+    row: w.jianguo-yilai-zhongyao-wenxian XIV, 505–510
+    'on': 'The Center''s circular on rusticating workers: those who started work since January 1958, temporary, contract, apprentice and regular, go home to the farms, except where vital;'
+- src:
+    id: cal.1961-06-28.china-leadership-2
+    row: w.jianguo-yilai-zhongyao-wenxian XIV, 505–510
+    'on': earlier arrivals may go voluntarily.
+- src:
+    id: cal.1961-06-28.china-leadership-2
+    row: w.jianguo-yilai-zhongyao-wenxian XIV, 505–510
+    'on': 'Wages: half a month to those leaving before the middle of a month;'
+- src:
+    id: cal.1961-06-28.china-leadership-2
+    row: w.jianguo-yilai-zhongyao-wenxian XIV, 505–510
+    'on': severance by length of service, from none to 2.5 months;
+- src:
+    id: cal.1961-06-28.china-leadership-2
+    row: w.jianguo-yilai-zhongyao-wenxian XIV, 505–510
+    'on': the units pay.
+- src:
+    id: cal.1961-09-29.china-leadership
+    row: w.jianguo-yilai-zhongyao-wenxian XIV, 704–711
+    'on': 'His view: "three-level ownership, the team the base," the team, not the brigade, the accounting unit;'
+- src:
+    id: cal.1961-09-29.china-leadership
+    row: w.jianguo-yilai-zhongyao-wenxian XIV, 704–711
+    'on': to be settled at the December work conference after inquiry by every level.
+- src:
+    id: cal.1961-11.china-leadership
+    row: w.jianguo-yilai-zhongyao-wenxian XIV, 798–803
+    'on': Deng Zihui sends Mao a report on rural problems;
+- cite:
+    id: cal.1962-01-08.soviet-union
+    item: '[[w.fursenko-khrushchevs-cold-war]], 412 n.10'
+    'on': A rump Presidium, Mikoyan absent;
+- primary:
+    id: cal.1961-05-23.vietnam-johnson-asia
+    text: 'Johnson to Kennedy, "Mission to Southeast Asia, India and Pakistan," May 23, 1961, [[w.united-states-vietnam-relations]], bk. 11, [159–66](https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-4-Book-I.pdf#page=188) ("The basic decision in Southeast Asia is here," [164](https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-4-Book-I.pdf#page=193)).'
+- check:
+    id: cal.1961-05-26.soviet-union
+    text: 'Check: the stenogram (I, 504–05) has Khrushchev against keeping the air links ("надо быть твердыми"; of Western planes shot down, "проглотят") and notes Mikoyan''s remark unrecorded (504); the words "cautious approach" are Dobrynin''s (44–46), not the record''s.'
+- src:
+    id: cal.1961-06-13.cuba
+    row: https://history.state.gov/historicaldocuments/frus1961-63v10/d230
+    'on': The Cuba Study Group reports.
+- src:
+    id: cal.1961-06-13.cuba
+    row: https://history.state.gov/historicaldocuments/frus1961-63v10/d233
+    'on': Blame shared;
+- check:
+    id: cal.1961-06-19.china-leadership-4
+    text: 'Check: art. 9 (XIV, 439) puts the profits, losses and debts of the period under state or commune management on the state industry''s departments and the people''s communes together, not on the state enterprises alone.'
+- primary:
+    id: cal.1961-09-20.vietnam-congress-mansfield
+    text: '[FRUS 1961–63, I, doc. 207](https://history.state.gov/historicaldocuments/frus1961-63v01/d207) (Mansfield to Kennedy, Nov. 2, 1961, repeating "the recommendations which I made in an earlier memorandum, dated September 20, 1961": democratic practices in village and province, the intellectuals enlisted, a genuine opposition, a campaign by Diệm among the people).'
+- to-check:
+    id: cal.1961-09-20.vietnam-congress-mansfield
+    add:
+    - 'Mansfield to Kennedy, Sept. 20, 1961, Mansfield Papers, University of Montana, Series XXII (cited by FRUS 1961–63, I, doc. 207 n.2, "Not printed")'
+- check:
+    id: cal.1961-09-26.china-leadership
+    text: 'Check: the Handan record (XIV, 740) gives the 1,128 accounts without a place; the book has them from "a survey in Baoding" (保定有个调查, ch. 68), not one brigade.'
+- primary:
+    id: cal.1961-11-22.vietnam
+    text: 'Telegram 619 to Saigon, Nov. 15, 1961, [[w.united-states-vietnam-relations]], bk. 11, [400–405](https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-4-Book-I.pdf#page=429) (the airlift, helicopters and uniformed personnel, 400; advisers, 402; "real administrative political and social reforms," 403).'
+    'on': Helicopters, airlift, advisers with the units;
+- src:
+    id: cal.1961-11-22.vietnam
+    row: https://nara-media-001.s3.amazonaws.com/arcmedia/research/pentagon-papers/Pentagon-Papers-Part-V-B-4-Book-I.pdf#page=429
+    'on': reforms asked of Diệm.
+- src:
+    id: cal.1962-02-27.vietnam
+    row: https://history.state.gov/historicaldocuments/frus1961-63v02/d87
+    'on': Two South Vietnamese pilots bomb Independence Palace.
+- src:
+    id: cal.1962-02-27.vietnam
+    row: https://history.state.gov/historicaldocuments/frus1961-63v02/d93
+    'on': Diệm and Nhu unhurt;
+- check:
+    id: cal.1962-03.king
+    text: 'Check: the report''s note (Book III, 88 n.34, run on to 89) has the microphone "approved only at the FBI division level" (Bland to Sullivan, Mar. 2, 1962) and the wiretap authorized by the Attorney General; it does not say he was not told of the microphone.'
+- check:
+    id: cal.1962-05-06.laos
+    text: 'Check: FRUS XXIV, doc. 343, has the garrison "moving southwest," not to the Mekong.'
+- check:
+    id: cal.1962-06-10.missile-crisis
+    text: 'Check: the editors (I, 1102 n.4) have a MiG-21 squadron (эскадрилья), not a wing.'
+- check:
+    id: cal.1962-07-01.berlin-and-vienna
+    text: 'Check: the protocol''s Berlin item (I, 569) gives the halving and the UN flag as proposals to be prepared, with nothing of a peace treaty.'
+- check:
+    id: cal.1962-08-22.missile-crisis
+    text: 'Check: FRUS X, doc. 385, its source note, records that on Aug. 22 McCone briefed the President on the meeting of Aug. 21 (doc. 382) and that the President expressed concern; it says nothing of offensive missiles at that briefing.'
+- check:
+    id: cal.1962-09-06.soviet-union
+    text: 'Check: Udall''s telegram (V, doc. 236) does not give the length of his trip.'
+- check:
+    id: cal.1962-10-25.soviet-union
+    text: 'Check: Malin''s notes and Serov''s record (I, 620–22) have Cuba made "a country of world focus" (страной мирового фокуса), not a zone of peace.'
+- check:
+    id: cal.1962-10-26.missile-crisis
+    text: 'Check: the letter (FRUS XI, doc. 84) does not say the missiles will go: the United States to pledge no invasion, then "the necessity for the presence of our military specialists in Cuba would disappear" and "the question of armaments would disappear."'
+- check:
+    id: cal.1962-10-27.missile-crisis
+    text: 'Check: Robert Kennedy''s memorandum of Oct. 30 (FRUS XI, doc. 96) has "no quid pro quo"; a sentence crossed out of it (n.2): given "four or five months," "these matters could be resolved satisfactory." It names no Jupiters.'
+- check:
+    id: cal.1962-11-21.laos
+    text: 'Check: the protocol (I, 646) and its note (I, 1115 n.2) give the ambassador''s instructions and the coalition government''s request for economic aid, not a Pathet Lao request for arms.'
+- check:
+    id: cal.1962-11.antisubversion
+    text: 'Check: the report (Book III, 90–91) has "Bureau officials" decide to "set him straight"; it does not name Hoover as ordering the call.'
+- check:
+    id: cal.1963-08-19.vietnam-congress
+    text: 'Check: FRUS III, doc. 258 does not say the President asked for the memorandum; its source note: "Believe Senator took this and gave original to the President."'
+- names:
+    id: cal.1961-05-23.freedom-rides
+    add:
+    - Javits
+    tags:
+    - name:javits-jacob-k

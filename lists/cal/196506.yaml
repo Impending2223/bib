@@ -2295,7 +2295,7 @@ entries:
     when: June 8
     date: '1965-06-08'
     thread: china-liu
-    also: [china-foreign, china-economy]
+    also: [china-foreign, china-economy, comecon]
     c: Liu Shaoqi receives the Albanian government economic delegation led by Spiro Koleka (斯皮罗·科列加), Politburo member and First Vice-Chairman of the Council of Ministers, and Koço Theodhosi (科乔·蒂奥多西), alternate Politburo member and Vice-Chairman of the Council of Ministers and Chairman of the State Planning Commission.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 622 (June 8, 1965). Names: Liu Shaoqi, Spiro Koleka.'
     tags: [polity:prc, polity:albania, name:liu-shaoqi, name:spiro-koleka]
@@ -2349,6 +2349,7 @@ entries:
     when: June 8
     date: '1965-06-08'
     thread: china-foreign
+    also: [comecon]
     c: Deng Xiaoping 邓小平 attends the signing of the agreements of the Chinese and Albanian governments on a Chinese loan to Albania and on the exchange of goods and payments for 1966–70, and of other economic-cooperation protocols.
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1865 (June 8, 1965). The words: 晚 (III, 1865). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
     src:
@@ -2630,6 +2631,7 @@ entries:
     when: June 9
     date: '1965-06-09'
     thread: china-foreign
+    also: [comecon]
     c: Chen Yi 陈毅 at the airport to see off the Albanian government economic delegation led by Spiro Koleka 斯皮罗·科列加 and Koço Theodhosi 科乔·蒂奥多西.
     n: '[[w.chen-yi-nianpu]], 1102. The words: 上午 (1102). Names: Chen Yi, Spiro Koleka.'
     tags: [polity:prc, polity:albania, name:chen-yi, ok:fields-place, name:spiro-koleka]
@@ -4908,6 +4910,7 @@ entries:
     date: '1965-06-18'
     place: moscow
     thread: soviet-union-leadership
+    also: [comecon]
     c: Moscow. Tito and the Yugoslav delegation. Brezhnev meets Tito on arrival, June 18, 2 to 4 p.m., and receives him at 6:20; negotiates June 19, 9:30 to 1 and 3 to 6.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 41–42 (June 18–19). Names: Brezhnev, Tito.'
     tags: [name:brezhnev-leonid, name:tito-josip-broz, polity:ussr, polity:yugoslavia]
@@ -6606,9 +6609,16 @@ entries:
     place: algiers
     thread: china-foreign
     also: [africa, middle-east]
-    c: Chen Yi meets the UAR's foreign minister in the evening, the two to meet again on the 25th at the meeting of four countries' foreign ministers, as Nasser tells Zhou on June 25.
-    n: '"[Summary of Premier Zhou''s Conversation with President Nasser](https://digitalarchive.umd.edu/document/165425)" (June 25, 1965), PRC FMA 107-01081-07, 110–111, trans. Stephen Mercado, Wilson Center Digital Archive (Nasser''s account: "on the evening of the 24th"; the minister not named). No time set: the record names no place, so no clock. [[w.chen-yi-nianpu]], 1104 (June 24, 1965, evening, Algiers; Chen Yi meets Mahmoud Riad 马哈茂德·里亚德, the UAR''s Foreign Minister, after Subandrio and before Naji Talib). Names: Chen Yi, Nasser, Zhou Enlai. Check: the place. Check: the year the Archive posted the document.'
-    tags: [polity:prc, polity:uar, name:chen-yi, name:nasser-gamal-abdel, name:zhou-enlai, vis:only:prc+uar, ok:fields-time]
+    follows:
+      - cal.1965-06-24.china-leadership-12
+    c: Chen Yi meets the UAR's foreign minister in the evening, the two to meet again on the 25th at the meeting of four countries' foreign ministers, as Nasser tells Zhou on June 25.{1} The Chen Yi nianpu names him Mahmoud Riad.{2}
+    n: '"[Summary of Premier Zhou''s Conversation with President Nasser](https://digitalarchive.umd.edu/document/165425)" (June 25, 1965), PRC FMA 107-01081-07, 110–111, trans. Stephen Mercado, Wilson Center Digital Archive (Nasser''s account: "on the evening of the 24th"; the minister not named). No time set: the record names no place, so no clock. [[w.chen-yi-nianpu]], 1104 (June 24, 1965, evening, Algiers; Chen Yi meets Mahmoud Riad 马哈茂德·里亚德, the UAR''s Foreign Minister, after Subandrio and before Naji Talib); [[w.chen-yi-nianpu]], 1104. The order: after [[cal.1965-06-24.china-leadership-12]], the printed order alone ([[w.chen-yi-nianpu]], 1104). Names: Chen Yi, Nasser, Zhou Enlai, Mahmoud Riad. Check: the place. Check: the year the Archive posted the document.'
+    src:
+      c: cdc5029a
+      rows:
+        - 'https://digitalarchive.umd.edu/document/165425: 1'
+        - 'w.chen-yi-nianpu 1104: 2'
+    tags: [polity:prc, polity:uar, name:chen-yi, name:nasser-gamal-abdel, name:zhou-enlai, vis:only:prc+uar, ok:fields-time, name:riad-mahmoud]
     time_range:
       - 1965-06-24T19:00Z
       - 1965-06-24T22:00Z
@@ -6628,6 +6638,36 @@ entries:
       - 1965-06-24T12:00Z
     time_band: morning
     time_zone: Africa/Algiers
+  - id: cal.1965-06-24.china-leadership-12
+    when: June 24
+    date: '1965-06-24'
+    place: algiers
+    thread: china-foreign
+    c: Chen Yi meets Subandrio, Indonesia's first deputy prime minister and foreign minister, in the evening.
+    n: '[[w.chen-yi-nianpu]], 1104 (June 24, 1965, 晚上, 分别会见: the evening, Chen Yi meets Subandrio, Mahmoud Riad and Naji Talib separately, in that order). The time is the evening, the nianpu''s word. Made public: 1995. See [[cal.1965-06-24.china-leadership-10]]. Names: Chen Yi, Subandrio.'
+    tags: [polity:prc, polity:indonesia, name:chen-yi, name:subandrio, vis:only:prc+indonesia]
+    time_range:
+      - 1965-06-24T19:00Z
+      - 1965-06-24T22:00Z
+    time_band: evening
+    time_zone: Africa/Algiers
+    range_basis: record
+  - id: cal.1965-06-24.china-leadership-13
+    when: June 24
+    date: '1965-06-24'
+    place: algiers
+    thread: china-foreign
+    follows:
+      - cal.1965-06-24.china-leadership-10
+    c: Chen Yi meets Naji Talib, Iraq's foreign minister, in the evening.
+    n: '[[w.chen-yi-nianpu]], 1104 (June 24, 1965, 晚上, 分别会见: the evening, Chen Yi meets Subandrio, Mahmoud Riad and Naji Talib separately, in that order). The time is the evening, the nianpu''s word. The order: after [[cal.1965-06-24.china-leadership-10]], the printed order alone ([[w.chen-yi-nianpu]], 1104). Made public: 1995. See [[cal.1965-06-24.china-leadership-10]]. Names: Chen Yi, Talib.'
+    tags: [polity:prc, polity:iraq, name:chen-yi, name:talib-naji, vis:only:prc+iraq]
+    time_range:
+      - 1965-06-24T19:00Z
+      - 1965-06-24T22:00Z
+    time_band: evening
+    time_zone: Africa/Algiers
+    range_basis: record
   - id: cal.1965-06-25.vietnam
     when: June 25
     date: '1965-06-25'
@@ -7677,6 +7717,7 @@ entries:
     date: '1965-06-29'
     place: moscow
     thread: soviet-union-leadership
+    also: [comecon]
     c: Moscow. Brezhnev negotiates with Tito June 29, 10 to 1; receives him June 30, 10 to 11, in the Central Committee's new hall; attends the signing of the joint communiqué at 5:20 p.m. and the reception; Tito leaves July 1.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 46–47 (June 29–July 1). Names: Brezhnev, Tito.'
     tags: [name:brezhnev-leonid, name:tito-josip-broz, polity:ussr, polity:yugoslavia]
