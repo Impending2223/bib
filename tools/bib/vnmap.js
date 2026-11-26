@@ -1,7 +1,10 @@
-/* The maps of Indochina: the calendar's annual maps and indochina.html (tools/bib/vnmap.py, its STYLE notes).
-   One script for both, loaded as a module. MapLibre GL JS draws the map (vendored, loaded when a map nears the
-   screen); this file builds the style from the manifest the build writes, wires the controls the build writes into
-   the figure, and lists the entries. No projection, gesture or label placement of its own: the library's. */
+/* The maps of Indochina: the calendar's annual maps and indochina.html (tools/bib/vnmap.py, its STYLE notes); and
+   the map of China, china.html (tools/bib/cnmap.py, its STYLE notes): the same script, told apart by data alone, the
+   figure's (`map`, `mode`, `eu`) and the manifest's (`opt`: the countries whose units are shown, the dots' scale, a
+   unit's line, the counties). One script for all, loaded as a module. MapLibre GL JS draws the map (vendored, loaded
+   when a map nears the screen); this file builds the style from the manifest the build writes, wires the controls the
+   build writes into the figure, and lists the entries. No projection, gesture or label placement of its own: the
+   library's. */
 const LIB = /*LIB*/{};                   // the vendored files, relative to this script (vnmap.py fills it in)
 const HERE = new URL('.', import.meta.url);
 const MONTHS = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
@@ -50,7 +53,7 @@ function colors() {
 }
 
 /* The style: every layer from the start, the heavy GeoJSON sources empty until their layer is first shown. */
-const LAZY = {rivers: 'rivers', lakes: 'lakes', contours: 'contours', bathy: 'bathy', climate: 'climate', pop: 'pop'};
+const LAZY = {rivers: 'rivers', lakes: 'lakes', contours: 'contours', bathy: 'bathy', climate: 'climate', pop: 'pop', counties: 'counties'};
 const ZC = {I: 'vz1', II: 'vz2', III: 'vz3', IV: 'vz4', CMD: 'vz5'};
 const RC = {'North Central Coast': 'vr1', 'South Central Coast': 'vr2', 'Central Highlands': 'vr3', 'Southeast': 'vr4',
   'Mekong Delta': 'vr5', 'Northwest': 'vr6', 'Northeast': 'vr7', 'Red River Delta': 'vr8'};
@@ -75,11 +78,11 @@ function bands(H) {
 }
 
 function style(M, C, places) {
-  const f = M.files;
+  const f = M.files, O = M.opt || {};
   const src = {
     admin: {type: 'geojson', data: abs(f.admin), attribution: M.credit.admin},
     places: {type: 'geojson', data: places},
-    cities: {type: 'geojson', data: abs(f.cities)},
+    cities: {type: 'geojson', data: f.cities ? abs(f.cities) : EMPTY},
   };
   for (const k of Object.keys(LAZY)) if (f[k]) src[k] = {type: 'geojson', data: EMPTY, attribution: M.credit[k]};
   if (f.dem) src.dem = {type: 'raster-dem', url: 'pmtiles://' + abs(f.dem), encoding: 'terrarium', tileSize: 512, attribution: M.credit.dem};
@@ -89,7 +92,7 @@ function style(M, C, places) {
     {id: 'bg', type: 'background', paint: {'background-color': C.vsea}},
     f.bathy && {id: 'bathy', type: 'fill', source: 'bathy', layout: hide,
       paint: {'fill-color': ['match', ['get', 'd'], ...M.depths.flatMap((d) => [d.from, d.color]), C.vsea]}},
-    {id: 'land', type: 'fill', source: 'admin', filter: ['in', ['get', 'k'], ['literal', ['land', 'unit']]], paint: {'fill-color': C.vland}},
+    {id: 'land', type: 'fill', source: 'admin', filter: ['in', ['get', 'k'], ['literal', ['land', 'unit', 'disp']]], paint: {'fill-color': C.vland}},
     f.dem && {id: 'elevation', type: 'color-relief', source: 'dem', layout: hide,
       paint: {'color-relief-color': bands(M.hypso)}},
     f.koppen && {id: 'koppen', type: 'raster', source: 'koppen', layout: hide, paint: {'raster-opacity': 0.8, 'raster-resampling': 'nearest'}},
@@ -97,6 +100,9 @@ function style(M, C, places) {
     f.pop && {id: 'pop', type: 'fill', source: 'pop', layout: hide,
       paint: {'fill-color': ['match', ['get', 'c'], ...M.pop.classes.flatMap((c, i) => [i, c.color]), '#ccc'], 'fill-opacity': 0.85}},
     {id: 'tint', type: 'fill', source: 'admin', filter: ['==', ['get', 'k'], 'unit'], paint: {'fill-color': C.vpv, 'fill-opacity': C.vop}},
+    // the counties (the map of China): their areas unseen, for the tap; their lines under the units'
+    f.counties && {id: 'county', type: 'fill', source: 'counties', layout: hide, filter: ['==', ['get', 'k'], 'county'],
+      paint: {'fill-color': C.vpv, 'fill-opacity': 0}},
     f.dem && {id: 'relief', type: 'hillshade', source: 'dem', layout: hide,
       paint: {'hillshade-method': 'multidirectional', 'hillshade-exaggeration': 0.45,
         'hillshade-shadow-color': 'rgba(40,40,40,0.55)', 'hillshade-highlight-color': 'rgba(255,255,255,0.35)'}},
@@ -108,6 +114,9 @@ function style(M, C, places) {
       paint: {'line-color': C.vriv, 'line-width': ['interpolate', ['linear'], ['zoom'], 5,
         ['match', ['get', 'size'], 1, 1.6, 2, 1.2, 3, 0.9, 4, 0.7, 5, 0.5, 0.35], 10,
         ['match', ['get', 'size'], 1, 5, 2, 3.5, 3, 2.5, 4, 1.8, 5, 1.3, 1]]}},
+    f.counties && {id: 'l-county', type: 'line', source: 'counties', layout: hide,
+      filter: ['all', ['==', ['get', 'k'], 'line'], ['==', ['get', 'l'], 'county']],
+      paint: {'line-color': C.vline, 'line-width': 0.4, 'line-opacity': 0.9}},
     {id: 'l-unit', type: 'line', source: 'admin', filter: ['all', ['==', ['get', 'k'], 'line'], ['==', ['get', 'l'], 'unit']],
       paint: {'line-color': C.vline, 'line-width': 0.6, 'line-opacity': 0.9}},
     {id: 'l-region', type: 'line', source: 'admin', filter: ['all', ['==', ['get', 'k'], 'line'], ['==', ['get', 'l'], 'region']], layout: hide,
@@ -118,7 +127,7 @@ function style(M, C, places) {
       paint: {'line-color': C.muted, 'line-width': 0.5, 'line-opacity': 0.6}},
     {id: 'l-intl', type: 'line', source: 'admin', filter: ['all', ['==', ['get', 'k'], 'line'], ['==', ['get', 'l'], 'intl']],
       layout: {'line-join': 'round'}, paint: {'line-color': C.ink, 'line-width': 1.2}},
-    {id: 'l-dmz', type: 'line', source: 'admin', filter: ['all', ['==', ['get', 'k'], 'line'], ['==', ['get', 'l'], 'dmz']],
+    {id: 'l-dmz', type: 'line', source: 'admin', filter: ['all', ['==', ['get', 'k'], 'line'], ['in', ['get', 'l'], ['literal', ['dmz', 'disp']]]],
       layout: {'line-join': 'round'}, paint: {'line-color': C.ink, 'line-width': 1.2, 'line-dasharray': [3, 1.5]}},
     {id: 'cities', type: 'circle', source: 'cities', layout: hide,
       paint: {'circle-radius': ['*', 0.0105, ['sqrt', ['get', 'pop']]], 'circle-color': C.vcity, 'circle-opacity': 0.35,
@@ -127,10 +136,14 @@ function style(M, C, places) {
       paint: {'circle-radius': 2.4, 'circle-color': C.muted, 'circle-opacity': 0.7}},
     {id: 'dots', type: 'circle', source: 'places', filter: ['>', ['get', 'n'], 0],
       layout: {'circle-sort-key': ['-', 0, ['get', 'n']]},
-      paint: {'circle-radius': ['max', 3.2, ['*', 2.6, ['sqrt', ['get', 'n']]]], 'circle-color': C.vdot,
+      paint: {'circle-radius': ['max', 3.2, ['*', O.dot || 2.6, ['sqrt', ['get', 'n']]]], 'circle-color': C.vdot,
         'circle-stroke-color': C.bg, 'circle-stroke-width': 1}},
     // the names: the year's places above all, then the gazetteer's by rank as the zoom allows (STYLE 3)
     {id: 'lab-unit', type: 'symbol', source: 'admin', filter: ['all', ['==', ['get', 'k'], 'lab'], ['==', ['get', 'l'], 'unit']],
+      layout: {visibility: 'none', 'text-field': ['get', 'name'], 'text-font': FONT, 'text-size': 11, 'text-max-width': 7,
+        'symbol-sort-key': ['-', 0, ['get', 'km2']], 'text-padding': 3},
+      paint: {'text-color': C.muted, 'text-halo-color': C.vland, 'text-halo-width': 1.2}},
+    f.counties && {id: 'lab-county', type: 'symbol', source: 'counties', filter: ['all', ['==', ['get', 'k'], 'lab'], ['==', ['get', 'l'], 'county']],
       layout: {visibility: 'none', 'text-field': ['get', 'name'], 'text-font': FONT, 'text-size': 11, 'text-max-width': 7,
         'symbol-sort-key': ['-', 0, ['get', 'km2']], 'text-padding': 3},
       paint: {'text-color': C.muted, 'text-halo-color': C.vland, 'text-halo-width': 1.2}},
@@ -172,13 +185,16 @@ class Figure {
   constructor(fig) {
     this.fig = fig;
     this.D = JSON.parse(fig.querySelector('.vnm-d').textContent);
+    this.D.e = this.D.e || [];
     this.full = !!this.D.ys;
     this.box = fig.querySelector('.vnm-box');
     this.pop = fig.querySelector('.vnm-pop');
-    this.st = {mode: 'ctz', lay: {}, month: 7, popyear: 1960, y: this.D.y};
+    this.key = 'vnm2' + (this.D.map ? '-' + this.D.map : '');   // each map its own choices
+    const mode0 = this.D.mode || 'ctz';
+    this.st = {mode: mode0, lay: {}, month: 7, popyear: 1960, y: this.D.y};
     try {
-      const s = JSON.parse(sessionStorage.getItem('vnm2') || '{}');
-      Object.assign(this.st, {mode: s.mode || 'ctz', lay: s.lay || {}, month: s.month || 7, popyear: s.popyear || 1960});
+      const s = JSON.parse(sessionStorage.getItem(this.key) || '{}');
+      Object.assign(this.st, {mode: s.mode || mode0, lay: s.lay || {}, month: s.month || 7, popyear: s.popyear || 1960});
     } catch (e) { /* storage refused: the defaults */ }
     if (this.full) {
       const m = /^#y(\d{4}|all)$/.exec(location.hash);
@@ -186,11 +202,14 @@ class Figure {
     }
     this.controls();
     this.setYear(this.st.y, false);
+    if (this.D.eu) {                      // the entries in a file of their own, where a page holds thousands
+      fetch(this.D.eu).then((r) => r.json()).then((e) => { this.D.e = e; this.setYear(this.st.y, true); });
+    }
   }
 
   save() {
     try {
-      sessionStorage.setItem('vnm2', JSON.stringify({mode: this.st.mode, lay: this.st.lay, month: this.st.month, popyear: this.st.popyear}));
+      sessionStorage.setItem(this.key, JSON.stringify({mode: this.st.mode, lay: this.st.lay, month: this.st.month, popyear: this.st.popyear}));
     } catch (e) { /* storage refused */ }
   }
 
@@ -239,25 +258,31 @@ class Figure {
       });
     }
     this.pop.addEventListener('click', (e) => { if (e.target.closest('.x')) this.pop.hidden = true; });
+    fig.querySelector('.vnm-list').addEventListener('toggle', () => this.fillList());
   }
 
   /* the year: the dots, the tap's list, the folded list, the caption, the lakes (STYLE 2, 6) */
   setYear(y, redraw) {
     this.st.y = y;
-    const at = {};
-    this.D.e.forEach((x, i) => { if (this.on(i)) x.p.forEach((p) => (at[p] = at[p] || []).push(i)); });
+    const at = {}, atv = {};
+    this.D.e.forEach((x, i) => {
+      if (!this.on(i)) return;
+      x.p.forEach((p) => (at[p] = at[p] || []).push(i));
+      (x.v || []).forEach((v) => (atv[v] = atv[v] || []).push(i));
+    });
     this.at = at;
+    this.atv = atv;                       // the entries placed in a unit as a whole
     const yrs = this.fig.querySelector('.vnm-yrs');
     if (yrs) yrs.querySelectorAll('a').forEach((a) => a.toggleAttribute('aria-current', a.dataset.yr === y));
     const E = this.D.e.filter((x, i) => this.on(i));
     const all = this.full && y === 'all';
-    const names = this.D.pn || {};
-    this.fig.querySelector('.vnm-list ol').innerHTML = E.map((x) => '<li><a href="' + esc(x.h) + '">' + this.when(x) +
-      '</a> <span class="m">' + esc(x.t) + '.</span> ' + esc(x.s) +
-      (x.p.length ? ' <span class="m">(' + x.p.map((k) => esc(names[k] || k)).join(', ') + ')</span>' : '') + '</li>').join('');
-    this.fig.querySelector('.vnm-list summary').textContent = (all ? 'The placed entries' : "The year's placed entries") + ' (' + E.length + ')';
+    this.E = E;
+    this.listed = false;
+    this.fillList();
+    const pending = !!this.D.eu && !this.D.e.length;      // the entries' file not yet read: the build's own count stays
+    if (!pending) this.fig.querySelector('.vnm-list summary').textContent = (all ? 'The placed entries' : "The year's placed entries") + ' (' + E.length + ')';
     const cnt = this.fig.querySelector('.vnm-cnt');
-    if (cnt) {
+    if (cnt && !pending) {
       const np = new Set(E.flatMap((x) => x.p)).size;
       cnt.textContent = (all ? 'All years' : y) + ': ' + E.length + ' placed ' + (E.length === 1 ? 'entry' : 'entries') + ', at ' + np + ' places.';
     }
@@ -265,7 +290,23 @@ class Figure {
     if (redraw && this.map) { this.places(); this.apply(); }
   }
 
-  when(x) { return esc(x.w) + (this.full && this.st.y === 'all' ? ', ' + x.y : ''); }
+  when(x) { return esc(x.w) + (this.full && this.st.y === 'all' && !String(x.w).includes(x.y) ? ', ' + x.y : ''); }   // "1960", not "1960, 1960"
+
+  /* the folded list: written at once where it is short, else when it is opened */
+  fillList() {
+    const det = this.fig.querySelector('.vnm-list'), E = this.E || [];
+    if (this.listed || (E.length > 1500 && !det.open)) { if (!this.listed) det.querySelector('ol').innerHTML = ''; return; }
+    const names = this.D.pn || {};
+    det.querySelector('ol').innerHTML = E.map((x) => '<li><a href="' + esc(x.h) + '">' + this.when(x) +
+      '</a> <span class="m">' + esc(x.t) + '.</span> ' + esc(x.s) +
+      (x.p.length ? ' <span class="m">(' + x.p.map((k) => esc(names[k] || k)).join(', ') + ')</span>' : '') + '</li>').join('');
+    this.listed = true;
+  }
+
+  /* a tap's list of entries */
+  rows(hits) {
+    return '<ol>' + hits.map((i) => { const x = this.D.e[i]; return '<li><a href="' + esc(x.h) + '">' + this.when(x) + '</a> <span class="m">' + esc(x.t) + '.</span> ' + esc(x.s) + '</li>'; }).join('') + '</ol>';
+  }
 
   /* the gazetteer's places with the year's count (`n`), for the dots and names */
   placesFC() {
@@ -306,6 +347,7 @@ class Figure {
       map.setMinZoom(Math.max(0, z - 1.5));
       map.setLayerZoomRange('names-2', z + 1.1, 24);   // rank 2 from about twice the first view, rank 3 from six times
       map.setLayerZoomRange('names-3', z + 2.6, 24);
+      if (map.getLayer('lab-county')) map.setLayerZoomRange('lab-county', z + 2.6, 24);   // the counties' names with rank 3's
       this.apply();
       const at = this.fig.querySelector('.maplibregl-ctrl-attrib');   // the credits folded to their button
       if (at) { at.classList.remove('maplibregl-compact-show'); at.removeAttribute('open'); }
@@ -349,7 +391,11 @@ class Figure {
     m.setPaintProperty('bg', 'background-color', C.vsea);
     m.setPaintProperty('land', 'fill-color', C.vland);
     for (const id of ['l-region', 'l-ctz', 'l-intl', 'l-dmz']) m.setPaintProperty(id, 'line-color', C.ink);
-    m.setPaintProperty('l-unit', 'line-color', C.vline);
+    if (m.getLayer('l-county')) {
+      m.setPaintProperty('l-county', 'line-color', C.vline);
+      m.setPaintProperty('lab-county', 'text-color', C.muted);
+      m.setPaintProperty('lab-county', 'text-halo-color', C.vland);
+    }
     m.setPaintProperty('l-coast', 'line-color', C.muted);
     m.setPaintProperty('dots', 'circle-color', C.vdot);
     m.setPaintProperty('dots', 'circle-stroke-color', C.bg);
@@ -367,6 +413,7 @@ class Figure {
   apply() {
     const m = this.map, st = this.st, C = this.C, lay = st.lay, fig = this.fig;
     fig.querySelectorAll('.vnm-bar [data-mode]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.mode === st.mode)));
+    const O = (this.M && this.M.opt) || {};
     const has = (k) => !!(this.M && this.M.files[{relief: 'dem', elevation: 'dem', koppen: 'koppen', rain: 'climate', pop: 'pop',
       rivers: 'rivers', contours: 'contours'}[k] || k]);
     const thematic = ['elevation', 'koppen', 'rain', 'pop'].some((k) => lay[k] && has(k));
@@ -387,7 +434,7 @@ class Figure {
       if (!this.loaded[k] && this.M.files[k]) { this.loaded[k] = 1; m.getSource(k).setData(abs(this.M.files[k])); }
     };
     const mode = st.mode, nb = !!lay.nb;
-    const shownC = nb ? ['rvn', 'drv', 'laos', 'cambodia'] : ['rvn'];
+    const shownC = O.shown || (nb ? ['rvn', 'drv', 'laos', 'cambodia'] : ['rvn']);
     // the tints: the RVN's units by corps zone; all Vietnam's by today's region; plain; none for borders or land
     let fill = C.vpv, filt = ['all', ['==', ['get', 'k'], 'unit'], ['in', ['get', 'c'], ['literal', shownC]]];
     if (mode === 'ctz') { fill = match('ctz', ZC, C, C.vpv); }
@@ -402,7 +449,16 @@ class Figure {
     const lineC = ['in', ['get', 'c'], ['literal', shownC]];
     m.setFilter('l-unit', ['all', ['==', ['get', 'k'], 'line'], ['==', ['get', 'l'], 'unit'], lineC]);
     m.setFilter('l-region', ['all', ['==', ['get', 'k'], 'line'], ['==', ['get', 'l'], 'region'], lineC]);
-    vis('l-unit', mode === 'ctz' || mode === 'reg' || mode === 'prov');
+    const tinted = mode === 'ctz' || mode === 'reg' || mode === 'prov';
+    vis('l-unit', tinted);
+    // the counties under the units: their lines thin, the units' then in ink, as a zone's are (the map of China)
+    const cty = !!lay.counties && has('counties') && tinted;
+    if (cty) load('counties');
+    vis('county', cty);
+    vis('l-county', cty);
+    m.setPaintProperty('l-unit', 'line-color', cty ? C.ink : C.vline);
+    m.setPaintProperty('l-unit', 'line-width', cty ? 1.3 : 0.6);
+    m.setPaintProperty('l-unit', 'line-opacity', cty ? 0.7 : 0.9);
     vis('l-ctz', mode === 'ctz');
     vis('l-region', mode === 'reg');
     vis('l-intl', mode !== 'land');
@@ -411,6 +467,7 @@ class Figure {
     // the names of the units and groups (`names`)
     const names = !!lay.names && mode !== 'land' && mode !== 'borders';
     vis('lab-unit', names);
+    vis('lab-county', names && cty);
     m.setFilter('lab-unit', ['all', ['==', ['get', 'k'], 'lab'], ['==', ['get', 'l'], 'unit'], ['in', ['get', 'c'], ['literal', shownC]]]);
     vis('lab-group', names && (mode === 'ctz' || mode === 'reg'));
     m.setFilter('lab-group', ['all', ['==', ['get', 'k'], 'lab'], ['==', ['get', 'l'], mode === 'reg' ? 'region' : 'ctz']]);
@@ -455,11 +512,15 @@ class Figure {
     }
     const city = m.queryRenderedFeatures(box, {layers: live(['cities'])});
     if (city.length) return this.showCity(city[0].properties);
-    const at = m.queryRenderedFeatures(p, {layers: live(['rain', 'tint'])});
+    const at = m.queryRenderedFeatures(p, {layers: live(['rain', 'county', 'tint'])});
     const rain = at.find((f) => f.layer.id === 'rain'), unit = at.find((f) => f.layer.id === 'tint');
-    if (!rain && !unit) { this.pop.hidden = true; return; }
+    const county = at.find((f) => f.layer.id === 'county');
+    if (!rain && !unit && !county) { this.pop.hidden = true; return; }
     let h = '<button type="button" class="x" aria-label="Close">×</button>';
+    if (county) h += '<div><b>' + esc(county.properties.name) + '</b> <span class="m">' + esc(county.properties.line) + '</span></div>';
     if (unit) h += '<b>' + esc(unit.properties.name) + '</b> <span class="m">' + esc(this.unitLine(unit.properties)) + '</span>';
+    const inU = unit && (this.M.opt || {}).unit ? this.atv[unit.properties.id] || [] : [];
+    if (inU.length) h += ' <span class="m">' + inU.length + (inU.length > 1 ? ' entries' : ' entry') + ' placed in it as a whole</span>' + this.rows(inU);
     if (rain) {
       const q = rain.properties, mo = this.st.month;
       h += '<div>Rain, ' + MONTHS[mo - 1] + ', mean of 1961–1990: ' + q['p' + mo] + ' mm' +
@@ -471,6 +532,8 @@ class Figure {
 
   unitLine(u) {
     const Z = {I: 'I Corps', II: 'II Corps', III: 'III Corps', IV: 'IV Corps', CMD: 'Capital Military District'};
+    const O = this.M.opt || {};
+    if (O.unit) return [u.kind, O.unit, u.full && u.full !== u.name ? u.full : ''].filter(Boolean).join(' · ');
     if (u.c === 'rvn') return ['province of late 1966', Z[u.ctz], u.region].filter(Boolean).join(' · ');
     return [u.kind === 'province' ? "today's province" : u.kind, u.region].filter(Boolean).join(' · ');
   }
@@ -481,8 +544,7 @@ class Figure {
     let h = '<button type="button" class="x" aria-label="Close">×</button><b>' + esc(q.name) + '</b>';
     if (!hits.length) h += gz + '<div class="m">No entry placed here' + (all ? '' : ' this year') + '.</div>';
     else {
-      h += ' <span class="m">' + hits.length + (hits.length > 1 ? ' entries' : ' entry') + '</span>' + gz + '<ol>' +
-        hits.map((i) => { const x = this.D.e[i]; return '<li><a href="' + esc(x.h) + '">' + this.when(x) + '</a> <span class="m">' + esc(x.t) + '.</span> ' + esc(x.s) + '</li>'; }).join('') + '</ol>';
+      h += ' <span class="m">' + hits.length + (hits.length > 1 ? ' entries' : ' entry') + '</span>' + gz + this.rows(hits);
     }
     this.pop.innerHTML = h;
     this.pop.hidden = false;

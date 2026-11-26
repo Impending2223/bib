@@ -257,6 +257,7 @@ error  vnmap: sources/vendor/maplibre-gl-6.13.0/LICENSE.txt: missing
 error  vnmap: sources/vendor/pmtiles-4.5.0/pmtiles.js: missing
 error  vnmap: sources/vendor/pmtiles-4.5.0/LICENSE: missing
 error  vnmap: sources/vendor/libre-franklin-5.3.0/LICENSE: missing
+error  cnmap: sources/china/admin.geojson: missing (tools/cnmap/base.py writes it)
 error  sources/people-apart.yaml: Moses, Robert: no source writes this name
 error  sources/people-apart.yaml: Lawrence, David: no source writes this name
 error  sources/people-apart.yaml: Lawrence, David L.: no source writes this name
@@ -2042,6 +2043,6 @@ warn   lists/cal/196108.yaml:4618: a Public Papers link whose page is no item's 
 warn   lists/cal/196108.yaml:4812: a Public Papers link whose page is no item's first page: https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=642  [ppp-app]
 warn   lists/cal/th.yaml: threads out of alphabetical order at 'China: Leadership'  [thread-order]
 warn   cal.1961-04-28.vietnam: 'Diem' without its diacritics (sources/name-forms.yaml, VIET_PLACES)  [diacritics]
-698 errors, 1346 warnings
+699 errors, 1346 warnings
 
 --- exit 1

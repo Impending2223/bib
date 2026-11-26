@@ -92,6 +92,9 @@ sources/vn-provinces-1966/  South Vietnam's provinces of late 1966 rebuilt from 
                           and the gazetteer of places in Indochina (its README; made by tools/vnmap/)
 sources/indochina/        the maps of Indochina's data: one border geometry, relief tiles, rivers, climate, rain, population
                           (its README; made by tools/vnmap/)
+sources/china/            the map of China's data: one border geometry (the countries, the provinces of 1966), the counties of
+                          1964 and their crosswalk from later units, the gazetteer's places in China with their coordinates
+                          (its README; made by tools/cnmap/; notes/guide/china-map.md)
 sources/vendor/           MapLibre GL JS, PMTiles and the map's font, pinned and served from the site (its README)
 build/                    generated pages (git-ignored); build/days/, the calendar's daily blocks a month a file
 tools/bib/                the code behind ./bib

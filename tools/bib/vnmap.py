@@ -265,17 +265,24 @@ def _legends():
     return out
 
 
+def client():
+    """The client and the library beside the pages: (css, js) paths from a page. One client for every map: the maps of
+    Indochina and the map of China (tools/bib/cnmap.py)."""
+    if "client" not in _C:
+        lib = {"maplibre": f"{MAPLIBRE}/maplibre-gl.mjs", "css": f"{MAPLIBRE}/maplibre-gl.css", "pmtiles": f"{PMTILES}/pmtiles.js"}
+        _vendor(MAPLIBRE)
+        _vendor(PMTILES)
+        css = open(os.path.join(HERE, "vnmap.css"), "rb").read()
+        js = open(os.path.join(HERE, "vnmap.js"), encoding="utf-8").read().replace("/*LIB*/{}", json.dumps(lib), 1).encode()
+        _C["client"] = (_put(f"vnmap/vnmap-{_hash(css)}.css", css), _put(f"vnmap/vnmap-{_hash(js)}.js", js))
+    return _C["client"]
+
+
 def assets():
     """The client, the library and the data beside the pages: (css, js, manifest) paths from a page."""
     if "assets" in _C:
         return _C["assets"]
-    lib = {"maplibre": f"{MAPLIBRE}/maplibre-gl.mjs", "css": f"{MAPLIBRE}/maplibre-gl.css", "pmtiles": f"{PMTILES}/pmtiles.js"}
-    _vendor(MAPLIBRE)
-    _vendor(PMTILES)
-    css = open(os.path.join(HERE, "vnmap.css"), "rb").read()
-    js = open(os.path.join(HERE, "vnmap.js"), encoding="utf-8").read().replace("/*LIB*/{}", json.dumps(lib), 1).encode()
-    css_p = _put(f"vnmap/vnmap-{_hash(css)}.css", css)
-    js_p = _put(f"vnmap/vnmap-{_hash(js)}.js", js)
+    css_p, js_p = client()
     files = {}
     for k, f in FILES.items():
         p = os.path.join(LAYERS, f)
@@ -297,7 +304,7 @@ def _put_json(stem, d):
 
 
 def head_tags():
-    css, js, _ = assets()
+    css, js = client()
     return f'<link rel="stylesheet" href="{css}">', f'<script type="module" src="{js}"></script>'
 
 
@@ -346,17 +353,19 @@ def _summary(c):
     return first if len(first) <= 150 else first[:147].rsplit(" ", 1)[0] + " …"
 
 
-def _ents(series, rows, with_year=False):
+def _ents(series, rows, with_year=False, G=None):
     """The entries a map shows, for its data: link (on the calendar page the entry is in), when, thread, the first
-    words of the statement, places, provinces; and the year, on the page of its own."""
+    words of the statement, places, provinces; and the year, on the page of its own. `G`: the map's own places
+    (the map of China's, tools/bib/cnmap.py); the gazetteer of Indochina otherwise."""
     from . import calsplit, loose
     from .build import thread_name
     lst = series.lists["cal"]
+    G = gazetteer() if G is None else G
     out = []
     for e, pl, pv in rows:
         half = calsplit.half_of_date(lst, loose.place_iso(e)) if calsplit.cfg(lst) else None
         x = {"h": calsplit.href(lst, half or 1, e["id"]), "w": e["when"], "t": thread_name(lst, e["thread"]),
-             "s": _summary(e.get("c")), "p": [p for p in pl if p in gazetteer()], "v": pv}
+             "s": _summary(e.get("c")), "p": [p for p in pl if p in G], "v": pv}
         if with_year:
             x["y"] = str(e["date"])[:4]
         out.append(x)

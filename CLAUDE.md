@@ -116,6 +116,8 @@ Answers that set out a design, a comparison or a proposal go to an `.md` (`notes
 
 The site is GitHub Pages: https://impending2223.github.io/bib/ (the compiled reader; each list at `<key>.html`). Every push to `main` runs `.github/workflows/pages.yml`: `./bib check`, `./bib build`, deploy. A failing check stops the deploy. So publishing is merging to `main`. Run `check` and `build` locally before you push.
 
+A full build is never waited on in the session's own turn (the owner, Nov. 25, 2026: "don't block me on a full build. That's a background task or an agent's task."). It runs in the background, or an agent runs it, and the session ends its turn and stays free for the owner; the PR is made when the build reports. A turn that sits on a build can only be reached by stopping it, and stopping it stops every agent it started.
+
 The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026. Don't republish them; `publish-plan` and `mark-published` belong to that old route.
 
 ## Style and layout (the owner, Nov. 24, 2026)
@@ -153,6 +155,7 @@ The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026
 - `indicators.md`, `armed-forces.md`, `budgets-bills.md`: economic indicators, the war's tables, forces, budgets, bills, appropriations.
 - `reading-a-copy.md`: getting a source from the Drive whatever its size, finding the page, reading a scan a page at a time, records online, cleaning up. Read it before you fetch or cite any page; every brief for a reader or an auditor points to it and restates none of it.
 - `indochina-maps.md`: the maps of Indochina.
+- `china-map.md`: the map of China (`china.html`): the provinces of 1966, the counties of 1964, the gazetteer's places; one client with the maps of Indochina.
 - `ebooks-feeds.md`, `desk.md`: the ebooks and feeds; the owner's desk.
 - `pages.md`: the page budget: `./bib pages`, the splits it directs (`pages.yaml`), their pointers and old addresses.
 
