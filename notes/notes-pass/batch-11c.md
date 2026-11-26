@@ -2,7 +2,7 @@
 
 Patch: `inbox/2026-11-26-notes-pass-11c.yaml`. The Google Drive refused every download on Nov. 26, 2026 ("Quota exceeded", `file` says HTML document, for the Wofford, Kaplan, Thomas, Salinger, Westad, Miller, McPherson, Presidium and Wu Lengxi files, tried twice). So only entries whose cited record is online were read: FRUS at history.state.gov, and the Church committee report (Senate Intelligence Committee's PDF). No book page is cited that was not read, and no entry that waits on a book is tagged `ok:note-substance`.
 
-## Built on the entry (10)
+## Built on the entry (11)
 
 - cal.1961-07-13.berlin-and-vienna: read FRUS XIV, docs. 66 and 67 in full. Added Rusk's alternative (a congressional resolution for call-ups; the Acheson paper on a low key) from doc. 66 and Dulles's "long siege" from doc. 67; Dulles named and tagged. Kaplan 153 (McNamara) not read.
 - cal.1961-08-17.latin-america: read FRUS X, doc. 257 in full. Added Guevara's terms at the party (about 2 a.m.) and his thanks for the invasion. Dillon, Kennedy and "an instrument of economic imperialism" wait on Goodwin, 196–202. The talk's own time and place are not set as fields: the entry's fields are the signing's, and the note already carries the Check on the day.
@@ -32,6 +32,5 @@ Patch: `inbox/2026-11-26-notes-pass-11c.yaml`. The Google Drive refused every do
 - cal.1962-10-17.missile-crisis-2: Thomas 215 (Acheson, Sorensen, the note on Tojo); Ball 290–91.
 - cal.1962-10-19.missile-crisis-warnings and -warnings-2: Salinger, *With Kennedy*, 250–51; O'Donnell and Powers, *Johnny, We Hardly Knew Ye*, 363–64 (Powers, Phillips, the $100 dinner, "cut me in").
 
-(That is 14 entries in 13 lines; the two October 19 entries share a line.) Miller Center tapes for Sept. 27 and 29 are rendered by script on the page: the transcripts were not available to curl, so they were not read.
 
 No page was left unread by choice; no entry above was tagged `ok:note-substance`.
