@@ -437,3 +437,4 @@ Batch 7 (already in):
 - 12:32 pm: threads batch e reported (283 moved, 14 kept); its Opus audit is running on `notes/briefs/china-threads-read-audit-e.md`.
 - 12:32 pm: threads batch c reported (287 moved, 10 kept); its Opus audit is running on `notes/briefs/china-threads-read-audit-c.md`.
 - 12:33 pm: via-read batch c reported 202 rows ruled, but 82 were left on choice 3 because their sources were not read (Chinese scans, Presidium volume, Bulletin, Willauer); the reader was sent back to read them. Row 13: Edith Green's words on 106 Cong. Rec. 3490, not 3491 (a correcting edit at the audit).
+- 12:34 pm: threads batch g reported (259 moved, 35 kept); its Opus audit is running. All seven threads batches now in audit.
