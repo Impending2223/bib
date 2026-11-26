@@ -93,6 +93,23 @@ def test_parent_with_no_entries_of_its_own_has_a_page(cal, built):
     assert threads.index_link(cal, "elections-1960") == ""        # the calendar's "All entries": its own entries
 
 
+def test_thread_in_parts(series, monkeypatch):
+    """The list on the thread's own page, its index; a part keeps the subthreads' names in its line, and states its
+    own count alone."""
+    plan = {"threads": {"cuba": [{"page": "threads-cuba-1961Q2", "from": "1961-04-01", "label": "Apr.–June 1961"},
+                                 {"page": "threads-cuba-1961Q3", "from": "1961-07-01", "label": "July–Sept. 1961"}]}}
+    monkeypatch.setattr(pages, "conf", lambda: plan)
+    got = dict(threads.pages_(series, build.Linker(series), os.path.join(build.TEMPLATES, "list.html"), only={"cuba"}))
+    ix, part = got["threads-cuba.html"], got["threads-cuba-1961Q2.html"]
+    assert SUBS.search(ix) and "together hold 173, an entry counted once" in ix
+    assert SUBS.search(ix).end() < ix.index('<ul class="pgl">')
+    assert not SUBS.search(part) and "together hold" not in part
+    assert 'Subthreads: <a href="threads-cuba-bay-of-pigs.html">Bay of Pigs</a>. <a href="threads.html">' in part
+    assert re.search(r"\d+ entries here, in the calendar's order", part)
+    assert part.index("Subthreads: ") < part.index('<nav class="pgparts"') < part.index('<li id="t-')
+    assert "sent on to the calendar" in part and "sent by its anchor's date" in ix
+
+
 def test_every_thread_with_entries_in_its_family_has_a_page(cal):
     have = threads.slugs(cal)
     fam = build.thread_members(cal)
