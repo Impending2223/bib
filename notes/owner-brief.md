@@ -1496,9 +1496,3 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 1:26 pm PT.** "I've moved the Gibbons to the shared folder."
 
 **Nov. 26, 2026, about 1:53 pm PT.** "Instead of antisemitism, "Jewish diaspora" (i.e., Jews not in Israel). Instead of "Eastern Europe," "Comecon" (i.e., Comecon members and associate members west of the Soviet Union, excluding observers and the later DRV/SRV)."
-
-**Nov. 26, 2026, about 2:15 pm PT.** "What does the queue look like? Remember to look at the full queue."
-
-**Nov. 26, 2026, about 2:20 pm PT.** "Sorry, I understood the Soviet and Sino-Soviet batches as an inventory and suggested reading list, not as a reading batch until approved. Didn't I ask for a full inventory of the works on the Drive, and a suggested breakdown of the unread items into reading batches? I thought that was what that task was."
-
-**Nov. 26, 2026, about 2:37 pm PT.** "Cultural visitors should stay in. (Ping-pong diplomacy, right? The 1998 Takhti Cup? The 'dialogue of civilizations'? Or am I overreading isolated episodes here?)"

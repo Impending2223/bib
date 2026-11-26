@@ -358,10 +358,8 @@ entries:
     place: albany
     thread: state-legislatures
     also: [robert-kennedy]
-    follows:
-      - cal.1965-02-03.state-legislatures
     c: Albany, N.Y. After a month, Zaretzki, Wagner's candidate, elected the Senate's leader with the Republicans' votes, at Rockefeller's urging.{1}
-    n: '[*New York Times*, Feb. 4, 1965](https://www.nytimes.com/1965/02/04/archives/zaretzki-wins-as-gop-steps-in-giving-wagner-man-needed-votes.html). [[w.smith-on-his-own-terms]], 462 (the twenty-sixth ballot for president pro tempore; Hughes, a Republican, nominates Zaretzki; twenty-five Republicans and fifteen Democrats). The order: after [[cal.1965-02-03.state-legislatures]], [[w.smith-on-his-own-terms]], 462 (the call, then "the morning of February 3"). See [[cal.1965-01-06.legislatures-ny]]. Names: Zaretzki, Wagner, Rockefeller.'
+    n: '[*New York Times*, Feb. 4, 1965](https://www.nytimes.com/1965/02/04/archives/zaretzki-wins-as-gop-steps-in-giving-wagner-man-needed-votes.html). [[w.smith-on-his-own-terms]], 462 (the twenty-sixth ballot for president pro tempore; Hughes, a Republican, nominates Zaretzki; twenty-five Republicans and fifteen Democrats). See [[cal.1965-01-06.legislatures-ny]]. Names: Zaretzki, Wagner, Rockefeller.'
     src:
       c: 1d749b8c
       rows:
@@ -571,7 +569,6 @@ entries:
     time_approx: true
     place: washington
     thread: civil-rights-organizations
-    also: [jewish-diaspora]
     c: The Shoreham. Johnson receives the Democratic Legacy Award of the Anti-Defamation League of B'nai B'rith; he arrives about 10 p.m. in a business suit, without dinner, met by Dore Schary and Abe Feinberg, and speaks.
     n: '[[w.johnson-white-house-diary]], 235–36. To check: 1965 Pub. Papers. Names: Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lady-bird, name:johnson-lyndon-b]
@@ -692,13 +689,6 @@ entries:
       - 1965-02-03T06:00Z
     time_band: workday midday
     time_zone: Asia/Shanghai
-  - id: cal.1965-02-03.state-legislatures
-    when: By Feb. 3
-    date: '1965-02-03'
-    thread: state-legislatures
-    c: 'Five weeks into the deadlock over the leaders of the New York legislature, Rockefeller to Wagner by telephone: "It''s time that we settle this." Spad, the Republican State chairman, and Fred Young work on the Republican members, around the corner from Ingalls''s office.'
-    n: '[[w.smith-on-his-own-terms]], 462 (before "the morning of February 3"). See [[cal.1965-01-06.legislatures-ny]]. Names: Rockefeller, Wagner. Check: the day.'
-    tags: [state:ny, name:rockefeller-nelson, name:wagner-robert-f-jr, ok:fields-place]
   - id: cal.1965-02-04.farm
     when: Feb. 4
     date: '1965-02-04'
@@ -719,15 +709,15 @@ entries:
     place: albany
     thread: state-legislatures
     also: [robert-kennedy]
-    c: Albany, N.Y. Travia elected Speaker over Steingut, again with Republican votes.{1} Wagner's Democrats and forty-six Republicans vote for him.{2} Wagner's bargain with Rockefeller beats the pair of candidates Robert Kennedy backed.{3}
-    n: '[*New York Times*, Feb. 5, 1965](https://www.nytimes.com/1965/02/05/archives/travial-elected-speaker-gop-vote-again-decisive-as-streingut-is.html). [[w.smith-on-his-own-terms]], 462 (Wagner''s Democrats and forty-six Republicans; McKeon, the Democratic State chairman: "a down payment on a Rockefeller-Wagner sellout of the people"); [[w.shesol-mutual-contempt]], 338 (Wagner''s bargain with Rockefeller; Kennedy''s candidates beaten); [[w.smith-on-his-own-terms]], 462; [[w.shesol-mutual-contempt]], 338. Check: Shesol, 338, gives Feb. 3. See [[cal.1965-01-06.legislatures-ny]]. Names: Travia, Steingut, Wagner, Rockefeller, Kennedy.'
+    c: Albany, N.Y. Travia elected Speaker over Steingut, again with Republican votes.{1}
+    n: '[*New York Times*, Feb. 5, 1965](https://www.nytimes.com/1965/02/05/archives/travial-elected-speaker-gop-vote-again-decisive-as-streingut-is.html). [[w.smith-on-his-own-terms]], 462 (Wagner''s Democrats and forty-six Republicans; McKeon, the Democratic State chairman: "a down payment on a Rockefeller-Wagner sellout of the people"); [[w.shesol-mutual-contempt]], 338 (Wagner''s bargain with Rockefeller; Kennedy''s candidates beaten). Check: Shesol, 338, gives Feb. 3. See [[cal.1965-01-06.legislatures-ny]]. Names: Travia, Steingut.'
     src:
-      c: 8b3e7d6f
+      c: 7d81fe88
       rows:
         - 'https://www.nytimes.com/1965/02/05/archives/travial-elected-speaker-gop-vote-again-decisive-as-streingut-is.html: 1'
-        - 'w.smith-on-his-own-terms 462: 1, 2'
-        - 'w.shesol-mutual-contempt 338: 3'
-    tags: [state:ny, name:travia-anthony-j, name:steingut-stanley, name:wagner-robert-f-jr, name:rockefeller-nelson, name:kennedy-robert-f]
+        - 'w.smith-on-his-own-terms 462: 1'
+        - 'w.shesol-mutual-contempt 338: ?'
+    tags: [state:ny, name:travia-anthony-j, name:steingut-stanley]
   - id: cal.1965-02-04.voting-rights
     when: Feb. 4
     date: '1965-02-04'
@@ -1021,7 +1011,7 @@ entries:
     when: Feb. 4
     date: '1965-02-04'
     thread: china-mao-foreign
-    also: [china-foreign, comecon]
+    also: [china-foreign]
     c: 'Mao telegraphs Władysław Gomułka 哥穆尔卡, first secretary of the Polish United Workers'' Party, on his 60th birthday: his long work tied to the Polish revolution and construction; the party''s friendship and unity with the Chinese party and people to grow on Marxism-Leninism and proletarian internationalism.'
     n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 7 (Feb. 4, 1965; printed from the typeset copy in the Central Archives). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]] (1987–98; Check: the volume and year). Names: Mao Zedong, Gomułka. Check: whether *Renmin ribao* printed it.'
     src:
@@ -1083,16 +1073,6 @@ entries:
       - 1965-02-04T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
-  - id: cal.1965-02-04.state-legislatures
-    when: Feb. 4
-    date: '1965-02-04'
-    place: albany
-    thread: state-legislatures
-    follows:
-      - cal.1965-02-04.legislatures-ny
-    c: 'Albany, N.Y. McKeon, the Democratic State chairman, on Travia''s election: "a down payment on a Rockefeller-Wagner sellout of the people," the sellout the Governor''s sales tax.'
-    n: '[[w.smith-on-his-own-terms]], 462. See [[cal.1965-02-04.legislatures-ny]]. Names: McKeon, Travia, Rockefeller, Wagner. Check: the day.'
-    tags: [state:ny, name:travia-anthony-j, name:rockefeller-nelson, name:wagner-robert-f-jr]
   - id: cal.1965-02-05.civil-rights-the-executive
     when: Feb. 5
     date: '1965-02-05'
@@ -1331,20 +1311,20 @@ entries:
     also: [soviet-union, vietnam-hanoi, china-foreign]
     follows:
       - cal.1965-02-05.china-leadership-2
-    c: 'Zhou''s first talk with Kosygin, chairman of the Soviet Council of Ministers, passing through Peking to Vietnam, on the road from the airport to the Diaoyutai guesthouse.{1} Yan Mingfu interprets.{4} Kosygin asks to call on Mao and Liu Shaoqi; he and Zhou are for joint action on Vietnam, Zhou saying the Americans must withdraw under the Geneva accords of 1954; Kosygin says the CPSU has a new attitude to the meeting of Mar. 1, and Zhou says to start again from scratch.{2} Of the four talks of Feb. 5–6, by the Nianpu: both sides hold that Sino-Soviet relations should develop. Zhou''s six proposals: for the fifteenth anniversary of the Sino-Soviet treaty, to print each other''s messages and speeches in the papers, showing one attitude; develop trade, long-term cooperation on some items; finish earlier projects left unfinished; carry out the yearly cultural plan better; China to send students and take Soviet ones in turn; carry out the travel agreement. Kosygin agrees to all six.{3} By the record''s summary of the other talks: Andropov to Chen Yi, the visit to Vietnam to strengthen relations, the two sides to talk on supporting the Vietnamese, the CPSU with new thoughts on the meeting of Mar. 1 and the Chinese to change their position too; Kuznetsov: Johnson and Wilson both want to visit the Soviet Union, and Kosygin will visit the United States and Britain; Loginov: Soviet civil aviation will not harm China''s.{5} In Chen Jian''s account of the four talks Zhou refuses the Moscow meeting: "This is unilaterally called by the Soviet Party, so we will not attend it."{6}'
-    n: '"[Record of the First Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin](https://digitalarchive.umd.edu/document/165488)" (Feb. 6, 1965 by the Archive; Feb. 5 by the record), PRC FMA 109-03957-04, 1–21, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 75, the Premier and Chen not having reviewed it; Part One, the first contact, on the way from the airport to the Diaoyutai State Guest House, Yan Mingfu interpreting; at the hotel, in notes written from memory, Kosygin says China seems to favor the Wilson government, which Zhou calls a Western rumor. Parts Two and Three, Chen Yi with Andropov and the other comrades, are in the record''s content summary only). [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5–6, 1965; the four talks: the first on the road from the airport to the Diaoyutai guesthouse; the second at the banquet that evening; the third from 9 p.m. to 1:55 a.m. the next day; the fourth, Feb. 6, 9 a.m., on the road from the guesthouse to the airport); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (Kosygin flew from Moscow Feb. 5, two days in Peking, Zhou''s talks with him; to Vietnam Feb. 7, Wu says); [[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 5–6, 1965; the talks together: both sides for developing relations, the six proposals, Kosygin''s assent; it does not say in which talk); [[w.jian-zhou-enlai]], 521–522 (Zhou and Kosygin, four meetings over two days: to celebrate the treaty''s fifteenth anniversary, promote trade, complete the delayed Soviet projects, exchange students, coordinate support for Vietnam; Zhou refuses the Moscow meeting of Mar. 1: "This is unilaterally called by the Soviet Party, so we will not attend it"); [[w.khoo-collateral-damage]], 21 (Kosygin''s first stop, Feb. 5–6, on his way to Hanoi; on Feb. 5 Zhou recalls his warning to discard Khrushchevism; a conference of socialist states would mean a complete break between the parties; which talk not given); [[w.jian-zhou-enlai]], 521–522. Made public: 1993. After the welcome at the airport, [[cal.1965-02-05.china-leadership-2]]: the record''s "on the way from the airport". No time set: the record''s heading gives 3 p.m., but its text has lunch "later" and the talks with Guevara "this afternoon", and the Waijiao has Kosygin at the airport at noon. Check: [[w.jian-zhou-enlai]], 522 n.13a, dates the record of the four conversations Feb. 4 and 5, 1965; the chronology and the record of the first contact have Feb. 5–6; the file the note gives, 109-03957-06, is the one 522 n.14 gives for the fifth conversation, Feb. 10. To check: [[w.radchenko-two-suns-in-the]], 131, 140–141 (cited by [[w.jian-zhou-enlai]], 521 n.12); Zhou''s four conversations with Kosygin, February 4 and February 5, 1965, 109-03957-06, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 522 n.13a); Foreign Ministry''s circular on Premier Zhou and Vice Premier Chen Yi''s conversations with Kosygin, February 10, 1965, 109-03958-01, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 522 n.13b); [[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], 265 (cited by [[w.khoo-collateral-damage]], 21 n.62a); [[w.sun-qimin-zhong-su-guanxi-shimo]], 548–550 (cited by [[w.khoo-collateral-damage]], 21 n.62b); [[w.xu-xiaotian-xin-zhongguo-yu-sulian]], II, 742 (cited by [[w.khoo-collateral-damage]], 21 n.66). Names: Zhou Enlai, Kosygin, Mao Zedong, Liu Shaoqi, Yan Mingfu, Andropov, Chen Yi, Kuznetsov, Johnson, Wilson. Check: the hour. Check: in which talk Zhou made the six proposals.'
+    c: 'Zhou''s first talk with Kosygin, chairman of the Soviet Council of Ministers, passing through Peking to Vietnam, on the road from the airport to the Diaoyutai guesthouse.{1} Kosygin asks to call on Mao and Liu Shaoqi; he and Zhou are for joint action on Vietnam, Zhou saying the Americans must withdraw under the Geneva accords of 1954; Kosygin says the CPSU has a new attitude to the meeting of Mar. 1, and Zhou says to start again from scratch.{2} Of the four talks of Feb. 5–6, by the Nianpu: both sides hold that Sino-Soviet relations should develop. Zhou''s six proposals: for the fifteenth anniversary of the Sino-Soviet treaty, to print each other''s messages and speeches in the papers, showing one attitude; develop trade, long-term cooperation on some items; finish earlier projects left unfinished; carry out the yearly cultural plan better; China to send students and take Soviet ones in turn; carry out the travel agreement. Kosygin agrees to all six.{3}'
+    n: '"[Record of the First Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin](https://digitalarchive.umd.edu/document/165488)" (Feb. 6, 1965 by the Archive; Feb. 5 by the record), PRC FMA 109-03957-04, 1–21, trans. Stephen Mercado, Wilson Center Digital Archive (top secret document 75, the Premier and Chen not having reviewed it; Part One, the first contact, on the way from the airport to the Diaoyutai State Guest House, Yan Mingfu interpreting; at the hotel, in notes written from memory, Kosygin says China seems to favor the Wilson government, which Zhou calls a Western rumor. Parts Two and Three, Chen Yi with Andropov and the other comrades, are in the record''s content summary only). [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 5–6, 1965; the four talks: the first on the road from the airport to the Diaoyutai guesthouse; the second at the banquet that evening; the third from 9 p.m. to 1:55 a.m. the next day; the fourth, Feb. 6, 9 a.m., on the road from the guesthouse to the airport); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (Kosygin flew from Moscow Feb. 5, two days in Peking, Zhou''s talks with him; to Vietnam Feb. 7, Wu says); [[w.zhou-enlai-nianpu-1949]], II, 706 (Feb. 5–6, 1965; the talks together: both sides for developing relations, the six proposals, Kosygin''s assent; it does not say in which talk); [[w.jian-zhou-enlai]], 521–522 (Zhou and Kosygin, four meetings over two days: to celebrate the treaty''s fifteenth anniversary, promote trade, complete the delayed Soviet projects, exchange students, coordinate support for Vietnam; Zhou refuses the Moscow meeting of Mar. 1: "This is unilaterally called by the Soviet Party, so we will not attend it"); [[w.khoo-collateral-damage]], 21 (Kosygin''s first stop, Feb. 5–6, on his way to Hanoi; on Feb. 5 Zhou recalls his warning to discard Khrushchevism; a conference of socialist states would mean a complete break between the parties; which talk not given). Made public: 1993. After the welcome at the airport, [[cal.1965-02-05.china-leadership-2]]: the record''s "on the way from the airport". No time set: the record''s heading gives 3 p.m., but its text has lunch "later" and the talks with Guevara "this afternoon", and the Waijiao has Kosygin at the airport at noon. Check: [[w.jian-zhou-enlai]], 522 n.13a, dates the record of the four conversations Feb. 4 and 5, 1965; the chronology and the record of the first contact have Feb. 5–6; the file the note gives, 109-03957-06, is the one 522 n.14 gives for the fifth conversation, Feb. 10. To check: [[w.radchenko-two-suns-in-the]], 131, 140–141 (cited by [[w.jian-zhou-enlai]], 521 n.12); Zhou''s four conversations with Kosygin, February 4 and February 5, 1965, 109-03957-06, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 522 n.13a); Foreign Ministry''s circular on Premier Zhou and Vice Premier Chen Yi''s conversations with Kosygin, February 10, 1965, 109-03958-01, Chinese Foreign Ministry Archive (cited by [[w.jian-zhou-enlai]], 522 n.13b); [[w.wang-taiping-zhonghua-renmin-gongheguo-waijiaoshi]], 265 (cited by [[w.khoo-collateral-damage]], 21 n.62a); [[w.sun-qimin-zhong-su-guanxi-shimo]], 548–550 (cited by [[w.khoo-collateral-damage]], 21 n.62b); [[w.xu-xiaotian-xin-zhongguo-yu-sulian]], II, 742 (cited by [[w.khoo-collateral-damage]], 21 n.66). Names: Zhou Enlai, Kosygin, Mao Zedong, Liu Shaoqi. Check: the hour. Check: in which talk Zhou made the six proposals.'
     src:
-      c: b67accad
+      c: bf3d2608
       rows:
+        - 'https://digitalarchive.umd.edu/document/165488: 1, 2'
         - 'w.zhou-enlai-waijiao-huodong 435: 1'
         - 'w.lengxi-shinian-lunzhan-1956-1966 913: 1'
         - 'w.zhou-enlai-nianpu-1949 II, 706: 3'
+        - 'w.jian-zhou-enlai 521–522: ?'
         - 'via x.1965-02.zhou-four-conversations-kosygin-cfma-109-03957-06: ?'
         - 'via x.1965-02-10.foreign-ministry-circular-zhou-chen-yi-kosygin: ?'
         - 'w.khoo-collateral-damage 21: ?'
-        - 'https://digitalarchive.umd.edu/document/165488: 1, 4, 2, 5'
-        - 'w.jian-zhou-enlai 521–522: 6'
-    tags: [name:zhou-enlai, name:kosygin-aleksei, polity:prc, polity:ussr, vis:only:prc+ussr, name:mao-zedong, name:liu-shaoqi, name:yan-mingfu, name:andropov-yuriy-vladimirovich, name:chen-yi, name:kuznetsov-vasily-v, name:johnson-lyndon-b, name:wilson-harold]
+    tags: [name:zhou-enlai, name:kosygin-aleksei, polity:prc, polity:ussr, vis:only:prc+ussr, name:mao-zedong, name:liu-shaoqi]
   - id: cal.1965-02-05.china-leadership-2
     when: Feb. 5
     date: '1965-02-05'
@@ -1547,10 +1527,10 @@ entries:
     place: hanoi
     thread: soviet-union
     also: [vietnam]
-    c: Kosygin in Hanoi;{1} the attack at Pleiku and the first reprisal strikes while he is there.{2} A destroyer patrol in the Gulf of Tonkin had been called off for the visit.{3} A Soviet government statement promises "further measures to safeguard the security and strengthen the defensive capability" of the North.{4} Andropov, Kuznetsov, Vershinin, Loginov and Sidorovich go with him, and a team of missile experts.{5} By Dobrynin, Fulbright later told him Johnson had hesitated whether to bomb at once or wait until Kosygin left.{6}
-    n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou''s account to the Romanian leaders: the Vietnamese told Kosygin that it was not the moment for negotiations; Kosygin said that Soviet arms would henceforth be free, gave the South medical aid only, and pressed for a common declaration of the socialist countries. FRUS 1964–68, II, docs. [82](https://history.state.gov/historicaldocuments/frus1964-68v02/d82), [87](https://history.state.gov/historicaldocuments/frus1964-68v02/d87), [98](https://history.state.gov/historicaldocuments/frus1964-68v02/d98), [111](https://history.state.gov/historicaldocuments/frus1964-68v02/d111) (Feb. 11). [[w.drea-mcnamara-clifford-and-the-2011]], 56 (Kosygin in Hanoi; the attack at Pleiku and the reprisal); [[w.staaveren-gradual-failure]], 11 (Kosygin in Hanoi from Feb. 4; the De Soto patrol called off); [[w.dobrynin-in-confidence]], 139–40 (Fulbright to Dobrynin: Johnson hesitated whether to wait for Kosygin to leave; Rusk''s excuses; the strongly worded Soviet message; Kosygin turned against Johnson); [[w.bernstein-guns-or-butter]], 344 (to persuade Hanoi to discuss peace; refused, more arms asked and given); [[w.logevall-choosing-war]], 322 (Kosygin in Hanoi in early February, at the time of McGeorge Bundy''s visit to Saigon; not Pleiku or the destroyer patrol); [[w.macfarquhar-origins-of-the-cultural]], III, 372 (Kosygin''s visit to Hanoi in February 1965 brings new Soviet military aid); [[w.friedman-shadow-cold-war]], 129 (Kosygin in Hanoi in early February; the NLF kills eight Marines at Pleiku and the air attacks follow, which Kosygin takes as a personal insult; talks on a new defense agreement, completed in Moscow; Kosygin then organizes military support from the rest of the Warsaw Pact); [[w.khoo-collateral-damage]], 24–25 (Kosygin in Hanoi Feb. 6–10, with Andropov, Kuznetsov, Vershinin, Loginov and Sidorovich, and a team of missile experts; on the agenda Soviet military and economic aid and the Sino-Soviet dispute); [[w.khoo-collateral-damage]], 24–25; [[w.dobrynin-in-confidence]], 139–40. [[w.preston-war-council]], 175, 184 (Dobrynin to Thompson, Feb. 7: further strikes "a deliberate provocation"; the Soviet statements, 184). To check: [[w.gaiduk-soviet-union-and-the]]; [[w.zhai-china-and-the-vietnam]]; Hist, CINCPAC, 1965, Vol II, pp 317–18 (cited by [[w.staaveren-gradual-failure]], 11 n.4a); CINCPACFLT rpt, The United States Navy in the Pacific, 1965, pp 13–14 (cited by [[w.staaveren-gradual-failure]], 11 n.4b); *New York Times*, 11 Feb 65 (cited by [[w.staaveren-gradual-failure]], 11 n.4c); [[w.griffith-sino-soviet-relations-1964]], 72–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 372 n.156); Secret report of American and European Department, Soviet–East European Department MFA on actions of new Soviet leadership in Africa and Asia, March 31, 1965, CFMA doc. 109-03652-02, 36 (cited by [[w.friedman-shadow-cold-war]], 129 n.125a); Report of embassy DRV on “International Conference of Solidarity with Vietnamese People against Aggression of U.S. Imperialism in Defense of Peace, in Hanoi 11/25–29/1964,” December 17, 1964, AVPRF f.079 o.19 papka 44 d.30, 315–22 (cited by [[w.friedman-shadow-cold-war]], 129 n.125b); [[w.gaiduk-soviet-union-and-the]], 30 (cited by [[w.friedman-shadow-cold-war]], 129 n.126); MFA News Department report on Soviet military aid to DRV, March 3, 1965, CFMA doc. 109-02850-01, 1–2 (cited by [[w.friedman-shadow-cold-war]], 129 n.127); [[w.lengxi-shinian-lunzhan-1956-1966]], II, 913–921 (cited by [[w.khoo-collateral-damage]], 24 n.91); [[w.smith-international-history-of-the-1991]], 57 (cited by [[w.khoo-collateral-damage]], 24 n.96). See [[cal.1964-10-15.soviet-union]]. Names: Kosygin, Andropov, Kuznetsov, Fulbright, Dobrynin, Johnson.'
+    c: Kosygin in Hanoi;{1} the attack at Pleiku and the first reprisal strikes while he is there.{2} A destroyer patrol in the Gulf of Tonkin had been called off for the visit.{3} A Soviet government statement promises "further measures to safeguard the security and strengthen the defensive capability" of the North.{4}
+    n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou''s account to the Romanian leaders: the Vietnamese told Kosygin that it was not the moment for negotiations; Kosygin said that Soviet arms would henceforth be free, gave the South medical aid only, and pressed for a common declaration of the socialist countries. FRUS 1964–68, II, docs. [82](https://history.state.gov/historicaldocuments/frus1964-68v02/d82), [87](https://history.state.gov/historicaldocuments/frus1964-68v02/d87), [98](https://history.state.gov/historicaldocuments/frus1964-68v02/d98), [111](https://history.state.gov/historicaldocuments/frus1964-68v02/d111) (Feb. 11). [[w.drea-mcnamara-clifford-and-the-2011]], 56 (Kosygin in Hanoi; the attack at Pleiku and the reprisal); [[w.staaveren-gradual-failure]], 11 (Kosygin in Hanoi from Feb. 4; the De Soto patrol called off); [[w.dobrynin-in-confidence]], 139–40 (Fulbright to Dobrynin: Johnson hesitated whether to wait for Kosygin to leave; Rusk''s excuses; the strongly worded Soviet message; Kosygin turned against Johnson); [[w.bernstein-guns-or-butter]], 344 (to persuade Hanoi to discuss peace; refused, more arms asked and given); [[w.logevall-choosing-war]], 322 (Kosygin in Hanoi in early February, at the time of McGeorge Bundy''s visit to Saigon; not Pleiku or the destroyer patrol); [[w.macfarquhar-origins-of-the-cultural]], III, 372 (Kosygin''s visit to Hanoi in February 1965 brings new Soviet military aid); [[w.friedman-shadow-cold-war]], 129 (Kosygin in Hanoi in early February; the NLF kills eight Marines at Pleiku and the air attacks follow, which Kosygin takes as a personal insult; talks on a new defense agreement, completed in Moscow; Kosygin then organizes military support from the rest of the Warsaw Pact); [[w.khoo-collateral-damage]], 24–25 (Kosygin in Hanoi Feb. 6–10, with Andropov, Kuznetsov, Vershinin, Loginov and Sidorovich, and a team of missile experts; on the agenda Soviet military and economic aid and the Sino-Soviet dispute). [[w.preston-war-council]], 175, 184 (Dobrynin to Thompson, Feb. 7: further strikes "a deliberate provocation"; the Soviet statements, 184). To check: [[w.gaiduk-soviet-union-and-the]]; [[w.zhai-china-and-the-vietnam]]; Hist, CINCPAC, 1965, Vol II, pp 317–18 (cited by [[w.staaveren-gradual-failure]], 11 n.4a); CINCPACFLT rpt, The United States Navy in the Pacific, 1965, pp 13–14 (cited by [[w.staaveren-gradual-failure]], 11 n.4b); *New York Times*, 11 Feb 65 (cited by [[w.staaveren-gradual-failure]], 11 n.4c); [[w.griffith-sino-soviet-relations-1964]], 72–4 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 372 n.156); Secret report of American and European Department, Soviet–East European Department MFA on actions of new Soviet leadership in Africa and Asia, March 31, 1965, CFMA doc. 109-03652-02, 36 (cited by [[w.friedman-shadow-cold-war]], 129 n.125a); Report of embassy DRV on “International Conference of Solidarity with Vietnamese People against Aggression of U.S. Imperialism in Defense of Peace, in Hanoi 11/25–29/1964,” December 17, 1964, AVPRF f.079 o.19 papka 44 d.30, 315–22 (cited by [[w.friedman-shadow-cold-war]], 129 n.125b); [[w.gaiduk-soviet-union-and-the]], 30 (cited by [[w.friedman-shadow-cold-war]], 129 n.126); MFA News Department report on Soviet military aid to DRV, March 3, 1965, CFMA doc. 109-02850-01, 1–2 (cited by [[w.friedman-shadow-cold-war]], 129 n.127); [[w.lengxi-shinian-lunzhan-1956-1966]], II, 913–921 (cited by [[w.khoo-collateral-damage]], 24 n.91); [[w.smith-international-history-of-the-1991]], 57 (cited by [[w.khoo-collateral-damage]], 24 n.96). See [[cal.1964-10-15.soviet-union]]. Names: Kosygin.'
     src:
-      c: 34fded0a
+      c: 43968b2a
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d82: 1, 2, 3, 4'
         - 'w.drea-mcnamara-clifford-and-the-2011 56: 1, 2'
@@ -1560,6 +1540,7 @@ entries:
         - 'via w.staaveren-gradual-failure 11 n.4c: 3'
         - 'w.preston-war-council 175: 1'
         - 'w.preston-war-council 184: 3'
+        - 'w.dobrynin-in-confidence 139–40: 1, 2'
         - 'via w.preston-war-council 175 n.44b: 1'
         - 'via w.preston-war-council 184 n.66a: 4'
         - 'w.bernstein-guns-or-butter 344: 1'
@@ -1571,9 +1552,8 @@ entries:
         - 'via x.1965-03-31.secret-report-american-european-department-soviet-east: ?'
         - 'via x.1964-12-17.report-embassy-drv-international-conference-solidarity-vietnamese: ?'
         - 'via x.1965-03-03.mfa-news-department-report-soviet-military-aid: ?'
-        - 'w.khoo-collateral-damage 24–25: 5'
-        - 'w.dobrynin-in-confidence 139–40: 1, 2, 6'
-    tags: [name:kosygin-aleksei, place:hanoi, name:andropov-yuriy-vladimirovich, name:kuznetsov-vasily-v, name:fulbright-j-william, name:dobrynin-anatoly, name:johnson-lyndon-b, ok:note-substance]
+        - 'w.khoo-collateral-damage 24–25: ?'
+    tags: [name:kosygin-aleksei, place:hanoi]
     short: Kosygin in Hanoi and Peking
     variants:
       - unit: '1'
@@ -2180,17 +2160,6 @@ entries:
       - 1965-02-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
-  - id: cal.1965-02-07.soviet-union
-    when: Feb. 7
-    date: '1965-02-07'
-    time: 1965-02-07T16:30Z
-    place: washington
-    thread: soviet-union
-    also: [vietnam]
-    c: 'Washington. Thompson, at his house, tells Dobrynin that the destroyer patrol in the Gulf of Tonkin was cancelled for Kosygin''s visit to Hanoi and the South Vietnamese asked to suspend some actions; the weekend''s attack on American personnel, which killed seven, was by the U.S. view a deliberate attempt to "mouse trap" Kosygin. The U.S. will withdraw if North Vietnam ends its aggression and respects its neighbors. Dobrynin: striking another state is different from a guerrilla action; his government will take it as "a deliberate provocation."'
-    n: 'FRUS 1964–68, II, doc. [82](https://history.state.gov/historicaldocuments/frus1964-68v02/d82) (Thompson''s memorandum, 11:30 a.m.; Thompson says he acts on the President''s instructions). [[w.preston-war-council]], 175 (Dobrynin warns Thompson that more strikes would be "a deliberate provocation"; the day not given). Made public: 1996. See [[cal.1965-02-06.soviet-union]]. Names: Thompson, Dobrynin, Kosygin.'
-    tags: [polity:us, polity:ussr, name:thompson-llewellyn-e, name:dobrynin-anatoly, name:kosygin-aleksei]
-    time_zone: America/New_York
   - id: cal.1965-02-08.conservation
     when: Feb. 8
     date: '1965-02-08'
@@ -3770,7 +3739,7 @@ entries:
     when: Feb. 11
     date: '1965-02-11'
     thread: king
-    also: [civil-rights-organizations, jewish-diaspora]
+    also: [civil-rights-organizations]
     c: 'King to Clarence Jones by telephone, on the FBI''s tap: drafts on "deterioration" in Negro-Jewish relations; SNCC''s leaders as at Albany, "no sense of political timing." Jones to ask Belafonte for a truce meeting.'
     n: '[[w.branch-pillar-of-fire]], 587. Check: the day. To check: Wiretap summary of MLK-Clarence Jones conversation, New York LHM dated Feb. 16, 1965, FMXNY-5586, pp. 2–4 (cited by [[w.branch-pillar-of-fire]], 587). See [[cal.1965-02-10.voting-rights-selma-2]]. Names: King.'
     src:
@@ -6006,7 +5975,7 @@ entries:
     when: Feb. 18
     date: '1965-02-18'
     thread: china-zhou-foreign
-    also: [china-foreign, comecon]
+    also: [china-foreign]
     c: Zhou writes Shehu welcoming an Albanian delegation to Beijing to discuss economic cooperation and goods exchange during Albania's fourth five-year plan; proposes an expert group first, late in February, for preliminary talks with the Chinese offices.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 709–10 (Feb. 18, 1965). Made public: 1997. Names: Zhou Enlai, Shehu.'
     tags: [name:zhou-enlai, polity:prc, polity:albania, vis:only:prc+albania, name:mehmet-shehu]
@@ -9329,7 +9298,6 @@ entries:
     at: before 1965-02-19
     place: bucharest
     thread: soviet-union
-    also: [comecon]
     c: 'A representative of the CPSU Central Committee''s International Department, at Bucharest, asks the Romanians to take part in the meeting of Mar. 1. They refuse and advise renouncing it: Kosygin''s visits to Vietnam, China and Korea, they say, have made it needless. Ceaușescu''s account to Zhou, Mar. 25.'
     n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Ceaușescu: ''Just a few days before the beginning of that gathering''; the representative ''was here''. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). See [[cal.1965-02-06.soviet-union]]. Names: Ceaușescu, Kosygin. Check: the day and the representative''s name.'
     tags: [polity:ussr, polity:romania, name:ceausescu-nicolae, name:kosygin-aleksei, vis:only:romania+ussr, vis:from:prc:1965-03-25]
