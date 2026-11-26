@@ -290,7 +290,7 @@ class Figure {
     if (redraw && this.map) { this.places(); this.apply(); }
   }
 
-  when(x) { return esc(x.w) + (this.full && this.st.y === 'all' ? ', ' + x.y : ''); }
+  when(x) { return esc(x.w) + (this.full && this.st.y === 'all' && !String(x.w).includes(x.y) ? ', ' + x.y : ''); }   // "1960", not "1960, 1960"
 
   /* the folded list: written at once where it is short, else when it is opened */
   fillList() {
