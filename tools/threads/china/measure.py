@@ -32,6 +32,10 @@ An entry that fits none is a leftover (`-`), its kind in the rule column (`left:
 The audit by reading of Nov. 26, 2026 (notes/threads/china-assign-audit.md) mended the rules; each mend is marked
 `AUDIT MEND n` here and in systems.py, numbered as in the audit's note.
 
+The second mending (notes/threads/china-assign-mend-2.md) mended the rules for six threads the audit found unfit (Shanghai and
+Beidaihe, 1960; Twelve Articles; Propaganda and culture; Army; Political-legal work; Finance and economy); each mend is marked
+`MEND 2 (n)` here and in systems.py, numbered as in that note.
+
 Variants (`--variant`): `foreign-first` (a foreign matter goes to the system before the person threads of
 Zhou and Liu); `no-book` (no `ep:book` rule); `no-office` (no `sys:office` rule).
 """
@@ -98,8 +102,8 @@ EPNAME = {s: n for s, n, lo, hi, c, w in EPISODES}
 EPC = [(s, [(a, b, re.compile(r, re.I)) for a, b, r in comps], w) for s, n, lo, hi, comps, w in EPISODES]
 # words of the movement the survey's list lacked: the fallen struggled against, questioned, held
 CRW_MORE = r"|struggled against|is struggled|\bstruggles? (?:Peng|Liu|Deng|Luo|He Long|Lu Dingyi|Yang Shangkun|Tao Zhu)|taken there to be struggled|case office|case group|interrogat|\bparaded\b|the sentry|his guards?\b|guard officer|in custody|his arrest|\barrested\b|persecuted to death|commits suicide|suicide"
-# MEND 2 (11): the movement's own documents and slogans, where the line is the press or radio printing them (the audit's "business of an episode that does not use its words")
-CRW_MORE += r"|China's Khrushchev|ghosts and monsters|May 16(?:, 1966)? Circular|anti-Party group headed by Peng|failure of Peng Dehuai|Pursue the beaten foe|support the army and love the people|support the left|\bdemands? Peng Dehuai|Peng Dehuai['’]?s? (?:papers|confessions?|statements?)|papers Peng Dehuai wrote"
+# MEND 2 (9): the movement's own documents and slogans, where the line is the press or radio printing them (the audit's "business of an episode that does not use its words")
+CRW_MORE += r"|China's Khrushchev|ghosts and monsters|May 16(?:, 1966)? Circular|anti-Party group headed by Peng|failure of Peng Dehuai|Pursue the beaten foe|support the army and love the people|support the left|\bdemands? Peng Dehuai|Peng Dehuai['’]?s? (?:papers|confessions?|statements?)|papers Peng Dehuai wrote|Down with (?:Peng|Liu|Deng|Luo|Tao|He Long|Lu Dingyi)|link(?:ing)? up\b|exchange(?:s)? (?:of )?(?:revolutionary )?experiences?|\bsurrender\w*\b[^.;]{0,50}\bprison|\bout of prison|sixty-one (?:Party members|men)|renegade|turncoat|burst into the compound|black lists?|Hold high the great red banner|editorial of Apr\. 18|Wang Guangmei"
 CRWR = re.compile(CRW + CRW_MORE, re.I)
 # the conferences' days (the survey's final.py)
 CONF = [('china-shanghai-1960', '1960-01-07', '1960-01-17'), ('china-shanghai-1960', '1960-07-05', '1960-08-10'), ('china-twelve-articles', '1961-01-14', '1961-01-18'),
@@ -146,8 +150,10 @@ STRIP = {'china-bomb': re.compile(r"(?:Conference|Council|Congress)s? [Aa]gainst
 # 3. Keys the survey's lists lacked: (first day or month, last, regex).
 MORE = {
  'china-bomb': [('1963-07', '1969-12', r"Special Commi(?:ssion|ttee)|Central Special|中央专门委员会|专委|Second Ministry of Machine|Seventh Ministry of Machine|test range|nuclear[- ]industry|warhead")],
- 'china-retreat-1962': [('1962-05', '1962-05', r"relays? the work conference|town population")],   # MEND 2 (12): the May work conference relayed to the cadres; the cut in the town population
- 'china-polemic': [('1961-10', '1964-11', r"statement on the talks|origin and development of the differences|Pravda|真理报|\b(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth) comment|reply to the CPSU|letter of the CPSU|CPSU(?:'s)? letter|Togliatti|Thorez|anti-revisionis|Whence the differences")],
+ 'china-opera': [('1963-10', '1965-11', r"revolution in Peking opera|Peking opera revolution|modern (?:Peking )?(?:opera|drama)")],   # MEND 2 (21)
+ 'china-retreat-1962': [('1962-05', '1962-05', r"relays? the work conference|town population")],   # MEND 2 (10): the May work conference relayed to the cadres; the cut in the town population
+ # MEND 2 (9): the polemic's own documents as the press and radio carried them
+ 'china-polemic': [('1961-10', '1964-11', r"statement on the talks|dispute and talks of the Chinese and Soviet|origin and development of the differences|Pravda|真理报|\b(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth) comment|reply to the CPSU|letter of the CPSU|CPSU(?:'s)? letter|Togliatti|Thorez|anti-revisionis|Whence the differences")],
  'china-moscow-1960': [('1960-04', '1961-01', r"differences between (?:China and the Soviet|the two parties)|Sino-Soviet (?:differences|question)|parties' conference|drafting committee of the parties")],
  'china-four-cleanups': [('1962-09', '1966-05', r"socialist[- ]education")],
  'china-may-sixteenth': [('1966-04-09', '1966-05-31', r"Peng Zhen|彭真")],
@@ -331,6 +337,7 @@ def persons(e):
 MAT = {k: [(w, re.compile(r, re.I)) for w, r in rows] for k, rows in SY.MATTER.items()}
 HEADBODY = {k: re.compile(r, re.I) for k, r in SY.HEADBODY.items()}
 COUNTRY = re.compile(SY.COUNTRY)
+PERSONAL2 = re.compile(SY.PERSONAL2, re.I); PRIVATE_ANY = re.compile(SY.PRIVATE_ANY, re.I)
 PERSONAL = re.compile(SY.PERSONAL); MOVEMENT = re.compile(SY.MOVEMENT); POEM = re.compile(SY.POEM)
 OFFICE = collections.defaultdict(list)
 for nm, sysk, lo, hi in SY.OFFICE: OFFICE[nm].append((sysk, lo, hi))
@@ -352,6 +359,7 @@ def foreign_evidence(e):
     if set(p.strip() for p in e['place'].split(' - ')) & ABROAD: ev = max(ev, 3)
     return ev
 VENUE = re.compile(SY.VENUE)
+NPCDEL = re.compile(r"(?:NPC|National People's Congress)[^.;A-Za-z]{0,14} delegation|delegation of the (?:NPC|National People's Congress)")
 def system_scores(e):
     c = VENUE.sub(' ', e['_plain']); sc = {}; hitrows = collections.defaultdict(set)
     for k, rows in MAT.items():
@@ -363,12 +371,14 @@ def system_scores(e):
     ev = e['_fev']
     guest = bool(ev) and bool(RECEIVE.search(c))
     for k, r in HEADBODY.items():
-        if r.search(head) and not (guest and k not in ('foreign', 'center')): sc[k] += 4   # MEND 2 (19): a guest received at a body is foreign business, whatever the body
+        if r.search(head) and not (guest and k not in ('foreign', 'center')): sc[k] += 4   # MEND 2 (17): a guest received at a body is foreign business, whatever the body
     if ev:
         sc['foreign'] += ev + (2 if RECEIVE.search(c) else 0)
-        if hitrows['culture'] and hitrows['culture'] <= {1, 2}: sc['foreign'] += 3      # AUDIT MEND 11: a foreign guest at a performance is foreign business (MEND 2 (19): or at a school, a sport, an academy)
-        if guest and e['_head'] and any(sk == 'foreign' for sk, lo, hi in OFFICE.get(e['_head'][0], ())): sc['foreign'] += 3   # MEND 2 (19): the foreign minister receiving a guest
-    if re.search(r"\bdies\b|\bdied\b|\bdeath of\b|\bfuneral|memorial (?:meeting|service)|追悼", c[:160]): sc['org'] += 4   # MEND 2 (20): a death is the Party's own business (the statement: "the deaths of leaders")
+        if hitrows['culture'] and hitrows['culture'] <= {1, 2}: sc['foreign'] += 3      # AUDIT MEND 11: a foreign guest at a performance is foreign business (MEND 2 (17): or at a school, a sport, an academy)
+        if e['_head'] and any(sk == 'foreign' for sk, lo, hi in OFFICE.get(e['_head'][0], ())): sc['foreign'] += 3   # MEND 2 (17): the foreign minister where the line has foreign evidence (a guest, a country's film week, a friendly match)
+    if re.search(r"\bdies\b|\bdied\b|\bdeath of\b|\bfuneral|memorial (?:meeting|service)|\bMourning\b|追悼", c[:160]): sc['org'] += 6   # MEND 2 (18): a death is the Party's own business (the statement: "the deaths of leaders")
+    if e['date'] >= '1969-04' and re.search(r"case groups?|专案", c): sc['org'] += 5        # MEND 2 (18): the case groups after April 1969 are the Party's own business (the statement of Organization)
+    if NPCDEL.search(c): sc['foreign'] += 5       # MEND 2 (14): an NPC delegation's journey is foreign business, though the Congress sends it
     al = set(e['also'])
     if 'farm' in al: sc['farm'] += 2
     if al & {'economy', 'trade', 'budget', 'taxes', 'oil'}: sc['economy'] += 2
@@ -382,7 +392,7 @@ def office_of(e):
     # AUDIT MEND 8 (ruling 58, 5): a caller on the director of the General Office is the Center's daily work, whatever the caller's own office.
     if 'Yang Shangkun' in e['_roman'] and d <= '1965-11': return 'center'
     heads = [nm for nm in e['_head'] if nm in OFFICE]
-    # MEND 2 (21): a short line that names persons of two systems and no matter ("A calls on B; they talk") is no one system's; and where the head holds no office, an office named later in a short line is not his
+    # MEND 2 (19): a short line that names persons of two systems and no matter ("A calls on B; they talk") is no one system's; and where the head holds no office, an office named later in a short line is not his
     held = {sk for nm in set(e['_head'] + OFFNAME.findall(e['_roman'])) for sk, lo, hi in OFFICE.get(nm, ()) if (not lo or d >= lo) and (not hi or d <= hi)}
     if len(e['_roman']) < 130 and (len(held) > 1 or (e['_phead'] and not heads and held)): return None
     for nm in e['_head'] + OFFNAME.findall(e['_roman']):
@@ -401,8 +411,8 @@ def systems(e, variant=''):
     for k in ranked[:2]: out.append((k, 'sys:matter'))
     if body and 'center' not in [o[0] for o in out]: out.append(('center', 'sys:body'))
     first = e['_first']
-    personal = bool(e['_phead']) and bool(PERSONAL.search(first[:90]) or re.search(r"Hospital|医院", e['_plain'][:40])); moving = bool(MOVEMENT.search(first)) and not re.search(r"\bto talk\b|\bto report\b|\bto discuss\b", first)   # AUDIT MEND 7: a line set in a hospital
-    if (e['_phead'] and POEM.search(first[:70])) or (personal and (not ranked or sc[ranked[0]] <= 3) and not e['_foreign']):
+    personal = (bool(e['_phead']) and bool(PERSONAL.search(first[:90]) or PERSONAL2.search(first[:220]) or re.search(r"Hospital|医院", e['_plain'][:40]))) or bool(PRIVATE_ANY.search(first[:220])); moving = bool(MOVEMENT.search(first)) and not re.search(r"\bto talk\b|\bto report\b|\bto discuss\b", first)   # AUDIT MEND 7: a line set in a hospital
+    if (e['_phead'] and POEM.search(first[:150])) or (personal and (not ranked or sc[ranked[0]] <= 3) and not e['_foreign']):
         e['_left2'] = off or (ranked[0] if ranked else None)   # a poem, a doctor, a swim, a film: no system's business
         return [], 'left:personal'
     if not ranked and not body:

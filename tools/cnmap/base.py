@@ -187,8 +187,8 @@ def log(*a):
 
 BASIS = {"same": "the later unit of the name", "renamed": "the later unit, under the name of 1964",
          "moved": "the later unit of the name, in another province's list since",
-         "part": "with a later unit set up from its ground", "first of several": "with a later unit set up from its "
-         "ground and others' (a guess)"}
+         "part": "with a later unit set up from its ground", "paired": "the later unit, its name of 1964 by the "
+         "lists alone (a guess)", "first of several": "with a later unit set up from its ground and others' (a guess)"}
 
 
 def main():

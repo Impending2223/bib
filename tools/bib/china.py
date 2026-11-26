@@ -97,22 +97,24 @@ def page(series, template):
     n_area = sum(1 for p in G.values() if p.get("area"))
     n_un = sum(1 for p in G.values() if p.get("unplaced"))
     cj = cnmap._json("counties.json", {})
-    n_c, n_guess = len(cj.get("counties", [])), sum(1 for c in cj.get("counties", []) if c.get("guess"))
+    cs = cj.get("counties", [])
+    n_later = sum(1 for c in cs if c.get("later"))
+    n_c, n_guess = len(cs) - n_later, sum(1 for c in cs if c.get("guess") and not c.get("later"))
     counties = (
-        f'<p class="logic">The counties. No open map of the counties of the 1960s was found. These are the {n_c:,} '
-        'counties, cities and like units of the end of 1964, after the mergers of 1958–61 were undone, each drawn as a '
-        'union of the units of a later boundary file (geoBoundaries\' China ADM2, the 1:4,000,000 county lines of the '
-        'National Administration of Surveying, Mapping and Geoinformation as Revolutionary GIS gave them out, Public '
-        'Domain Dedication and License; its units are those of about 1990). Which later units made up each county is '
-        'taken from the lists of every province\'s counties, year by year, and each year\'s changes, at 行政区划网 '
-        '(<a href="http://www.xzqh.org">xzqh.org</a>), and from the national codes\' history, 1981 on '
-        '(<a href="https://github.com/yescallop/areacodes">yescallop/areacodes</a>, CC0). A county whose name and '
-        'place did not change is the later unit; a city is drawn at its later size, larger than the city of 1964; a '
-        'unit made after 1964 is given whole to the county it was taken from, or to the first named where it was '
-        f'taken from several. {n_guess:,} of the {n_c:,} rest on a guess, which a tap on the county says. A line is '
-        'exact only where it has not moved since. '
+        f'<p class="logic">The counties. No open map of the counties of the 1960s was found. These are the counties, '
+        f'cities and like units of the end of 1964, after the mergers of 1958–61 were undone: {n_c:,} of them, each '
+        'drawn as a union of the units of a later boundary file (geoBoundaries\' China ADM2, the 1:4,000,000 county '
+        'lines of the National Administration of Surveying, Mapping and Geoinformation as Revolutionary GIS gave them '
+        f'out, Public Domain Dedication and License; its units are those of about {cj.get("file_year", 1994)}). Which '
+        'later units made up each county is taken from the lists of every province\'s counties, year by year, and each '
+        'year\'s changes, at 行政区划网 (<a href="http://www.xzqh.org">xzqh.org</a>). A county whose name and place did '
+        'not change is the later unit; a city is drawn at its later size, larger than the city of 1964; a unit made '
+        'after 1964 is given whole to the county it was taken from, or to the first named where it was taken from '
+        f'several. {n_guess:,} of the {n_c:,} rest on a guess, which a tap on the county says. {n_later:,} later '
+        'units are shown as they are, under their later names, where the record was not had (all Zhejiang) or the '
+        'unit was not traced back to 1964; a tap says so. A line is exact only where it has not moved since. '
         f'<a href="{README}china/README.md">Each kind of case, the counts, and the counties not shown</a>.</p>'
-    ) if n_c else ""
+    ) if cs else ""
     main = [
         f"<h1>China, {ys[0]}–{ys[-1]}</h1>",
         f'<p class="lede">China: the calendar\'s entries placed on one map, {n_e:,} entries whose place is in the '
@@ -137,16 +139,17 @@ def page(series, template):
         'linked to the map at that year. Alphabetical.</p>',
         gz,
         '<h2 id="sources" data-short="Sources">Sources and limits</h2>',
-        '<p class="logic">The borders. Every line on the map is one geometry: geoBoundaries\' Comprehensive Global '
+        '<p class="logic">The borders. Every line on the map is one geometry, simplified together so that neighbours '
+        'meet. The countries, the coast and the disputed areas are geoBoundaries\' Comprehensive Global '
         'Administrative Zones (CGAZ, release 6.0.0; Runfola et al., <i>PLoS ONE</i> 15(4): e0231866, 2020; CC BY 4.0), '
-        'whose country lines are the U.S. Department of State\'s Large Scale International Boundaries: the countries '
-        'of East and Central Asia and China\'s provinces, simplified together so that neighbours meet. The countries '
+        'whose country lines are the U.S. Department of State\'s Large Scale International Boundaries. The lines '
+        'inside China are the county file\'s, below: the provinces are dissolved from its counties. The countries '
         'are named as of the 1960s (the Soviet Union one country, East Pakistan, Burma); their lines are today\'s. '
         'The areas CGAZ marks as disputed (Aksai Chin and the other sectors of the line with India) are drawn as land, '
         'their lines dashed, in no country\'s tint. '
         f'<a href="{README}china/README.md">The files and their making</a>.</p>',
         '<p class="logic">The provinces. Those of 1966: 21 provinces, five autonomous regions and two municipalities, '
-        'with Hong Kong and Macau as the colonies they were and Taiwan as a country of the map. Made from today\'s: '
+        'with Hong Kong and Macau as the colonies they were and Taiwan as a country of the map. Made from later lines: '
         'Tianjin put back in Hebei (a municipality again from January 1967), Hainan in Guangdong (a province from '
         '1988), Chongqing in Sichuan (a municipality from 1997). Inner Mongolia in its shape before July 1969, which is '
         'nearly today\'s. Lines moved since 1966 by less than a county are not put back.</p>',

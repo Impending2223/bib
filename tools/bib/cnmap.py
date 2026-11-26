@@ -186,7 +186,7 @@ def _key():
     part("mode:prov", "<em>Provinces, autonomous regions and municipalities as of 1966: Tianjin in Hebei, Hainan in "
                       "Guangdong, Chongqing in Sichuan. A tap on one lists the entries placed in it as a whole.</em>")
     part("lay:counties", "<em>Counties and cities as of the end of 1964, each drawn from the lines of a later year "
-                         "(about 1990): a city at its later size; a county made or divided since given whole to one "
+                         f"(about {_json('counties.json', {}).get('file_year', 1994)}): a city at its later size; a county made or divided since given whole to one "
                          "county of 1964. A tap names the county and what it rests on.</em>")
     return '<div class="vnm-key">' + "".join(parts) + "</div>"
 

@@ -256,7 +256,40 @@ def test_page():
     assert p["notes"] == "★1964年10月31日国务院决定：\n1．恢复大同县。"
 
 
+def test_page_slips():
+    """The record's own slips are set right as a page is read: a character anywhere, a name in one province's lists."""
+    b = "<html><div class=\"content\">1965年末，某省辖3县。<br />\n　灃　县（城关镇）　临灃县　庆元县<br /></div></html>".encode("gb18030")
+    assert [u["n"] for u in counties.page(b, "10020")["units"]] == ["澧县", "临澧县", "庆元县"]
+    assert [u["n"] for u in counties.page(b, "10017")["units"]] == ["澧县", "临澧县", "庆云县"]
+
+
+def test_walk_restored():
+    """A unit joined to another after 1964 and restored is the unit of 1964, not the one it was joined to."""
+    rec = _rec({
+        1964: (["辽阳市", "辽阳县", "松溪县", "政和县"], ""),
+        1970: (["辽阳市", "松溪县"], "将辽阳县并入辽阳市。"),
+        1980: (["辽阳市", "辽阳县", "松溪县", "政和县"], "一、恢复辽阳县。恢复政和县，以合并于松溪县的原政和县的行政区域为政和县的行政区域。"),
+    })
+    w = lambda n: counties.walk("L", n, 1980, rec)[:3]
+    assert w("政和县") == ("L", "政和县", "same")              # the changes say restored, and the list of 1964 has it
+    assert w("辽阳县") == ("L", "辽阳县", "same")              # by way of the city of its name, back to the county
+    assert w("辽阳市") == ("L", "辽阳市", "same")
+
+
+def test_hand_tables():
+    """The rows settled by hand name real lists; a unit is named once."""
+    assert all(l in counties.LISTS and zh for l, zh in counties.NAMED.values())
+    assert all(l in counties.LISTS for l in counties.PROVINCE.values())
+    assert not set(counties.NAMED) & set(counties.PROVINCE)
+    for (l, zh), (l64, zh64, basis, ground) in counties.BACK.items():
+        assert l in counties.LISTS and l64 in counties.LISTS and ground
+        assert basis in ("renamed", "part", "first of several", "unresolved") and (zh64 is None) == (basis == "unresolved")
+
+
 def test_romanise():
     pytest.importorskip("pypinyin")
     assert [counties.romanise(n) for n in ("阳曲县", "西安市", "应县", "东兴各族自治县")] == ["Yangqu", "Xi'an", "Ying", "Dongxing"]
     assert counties.pinyin("漠河县") == "mohexian"
+    # the place-name readings the library misses, and a one-character name read with its kind
+    assert [counties.romanise(n) for n in ("于都县", "朝阳县", "长子县", "长葛县", "漯河市", "泊头市", "蔚县", "都安瑶族自治县")] == [
+        "Yudu", "Chaoyang", "Zhangzi", "Changge", "Luohe", "Botou", "Yu", "Du'an"]

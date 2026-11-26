@@ -13,20 +13,23 @@ DIR is a download directory outside the repository. It holds, or with --fetch is
    of the province at the year's end, by prefecture, and the year's changes. Read Nov. 26, 2026, at a page a second.
 Needs shapely >= 2.1, pyogrio, pypinyin.
 
-The boundary file names its units in pinyin and gives no year. Its units are those of about 1993: each is matched to
+The boundary file names its units in pinyin and gives no year. Its units are those of about 1994: each is matched to
 a unit of the record's lists by its name, in the province it lies in, and the year that matches most is taken as the
 file's (the script prints the count for each year).
 
 The steps (sources/china/README.md states each kind of case and the counts):
  1. Each of the file's units is given its province (the CGAZ province its inner point lies in) and matched to a unit
     of that province's list: the same pinyin; else the nearest spelling in that province (`fuzzy`, a guess unless the
-    two differ by two letters or fewer); else the same pinyin in a neighbouring province.
+    two differ by two letters or fewer); else the same pinyin in a neighbouring province. Before that, a unit the file
+    misnames is named by its place (`NAMED`: 49 units, each checked against Wikidata's point for the county), and a
+    unit the CGAZ province file leaves out is given its province (`PROVINCE`).
  2. Each matched unit is walked back a year at a time to 1964. While the list of the year before holds the name (or
     the name with another suffix: a county made a city), it is the same unit. Where the name is new that year, the
     year's changes say why: a new name for an old unit (`renamed`); a unit set up or restored from another's ground
     (`part`: it goes whole to the unit named, the first named where there are several, `first of several`); a unit
     moved between provinces (`moved`). Where the changes do not say, the walk stops and the unit is shown under its
-    later name (`unresolved`).
+    later name (`unresolved`). A unit joined to another after 1964 and restored (恢复) is the unit of 1964. Ten walks
+    are settled by hand from the record's own words (`BACK`).
  3. The 1964 units no later unit walks back to are listed with the reason, where one is found: a county since joined
     to its city, or to another county.
 
@@ -79,6 +82,98 @@ COLONY = {"Xianggang": "hong-kong", "": "macau"}       # the file's names for Ho
 MUNI = {"10002": "北京市", "10003": "天津市", "10011": "上海市", "10024": "重庆市"}
 PARENT = {"10003": "10004", "10023": "10021", "10024": "10025"}     # a province made since 1964: where its units were
 HAN = "一-鿿"
+# The record's own slips, set right as a page is read: a character (灃 for 澧: 澧县, 临澧县) and, in Shandong's lists, a
+# name (庆云县 printed 庆元县 from 1965 on; Hebei's list of 1964 has it right).
+SLIP_CHAR = {"灃": "澧"}
+SLIP_NAME = {"10017": {"庆元县": "庆云县"}}
+# Place-name readings the pinyin library misses (于都 Yudu, 朝阳 Chaoyang, 漯河 Luohe, 泊头 Botou, 涡阳 Guoyang; 长 is
+# chang but in 长子).
+READ = {"都": "du", "朝": "chao", "漯": "luo", "泊": "bo", "涡": "guo"}
+# Units the CGAZ province file leaves out (capes and islands more than a quarter of a degree from its nearest
+# province): each one's province, by hand. Without this the four units of the Weihai cape, Leizhou's two and the
+# islands had no unit of their own and their ground went to a neighbour.
+PROVINCE = {
+    "17275852B26462026898013": "10007", "17275852B12997706676088": "10007",      # Changhaixian (two islands)
+    "17275852B85544446441725": "10017", "17275852B33561936369452": "10017",      # Weihaishi, Rongchengshi
+    "17275852B88708837863828": "10017", "17275852B97124400303792": "10017",      # Wendengshi, Rushanshi
+    "17275852B1408079528399": "10011",                                           # Nanhuixian
+    "17275852B98852550499473": "10013", "17275852B91399175623236": "10013",      # Shengsixian, Daishanxian
+    "17275852B13333769593378": "10013",                                          # Zhoushanshi
+    "17275852B93894123088488": "10028", "17275852B90193244066864": "10028",      # Motuoxian, Yadongxian
+    "17275852B13594857559417": "10028",                                          # Cuonaxian
+    "17275852B53025585862768": "10015",                                          # Pingtanxian
+    "17275852B16521843045020": "10021", "17275852B78973254528560": "10021",      # Haikangxian, Xuwenxian
+}
+# Units named by their place, not by the file's name (Nov. 26, 2026). The file gives some units another unit's name
+# (two units named Chongmingxian, one of them Qingpu; Shanghai's counties each under a neighbour's name), or a name
+# too far from its own to match (Zhuanjiangxian for Qijiang). Each row was checked: Wikidata's point (P625) for the
+# county of the name given here falls inside the unit. {the file's shapeID: (list, the name in that list)}; the
+# comment gives the file's name.
+NAMED = {
+    "17275852B30631409334147": ("10004", "高邑县"),              # Gaochengxian
+    "17275852B94774630505431": ("10004", "唐海县"),              # Luannanxian (the second of the name)
+    "17275852B51175072856676": ("10004", "肃宁县"),              # Shuningxian
+    "17275852B63554143431725": ("10004", "临漳县"),              # Anyangxian (the second of the name), in Hebei
+    "17275852B59649283070943": ("10005", "芮城县"),              # Yunchengxian
+    "17275852B37123487699753": ("10005", "盂县"),                # Mengxian
+    "17275852B6515985392133": ("10005", "隰县"),                 # Yinxian
+    "17275852B63383755869937": ("10007", "建昌县"),              # Jianchangshi
+    "17275852B99224505968216": ("10008", "双阳县"),              # Nonganxian (the second of the name)
+    "17275852B76401344363897": ("10008", "磐石县"),              # Panshishi
+    "17275852B62674344705560": ("10011", "青浦县"),              # Chongmingxian (the second of the name)
+    "17275852B42279115337630": ("10011", "松江县"),              # Jinshanxian
+    "17275852B59692497706789": ("10011", "奉贤县"),              # Songjiangxian
+    "17275852B97102685179742": ("10011", "金山县"),              # Qingpuxian
+    "17275852B28043359135044": ("10011", "川沙县"),              # Fengxianxian
+    "17275852B19798754149723": ("10013", "嘉善县"),              # Jiashanxian, in Zhejiang
+    "17275852B90330591074302": ("10012", "金湖县"),              # Suqianxian
+    "17275852B94592901594717": ("10012", "丹阳县"),              # Danyangshi
+    "17275852B36499134265956": ("10014", "泗县"),                # Dafengshi, in Anhui
+    "17275852B25584448604265": ("10014", "屯溪市"),              # Huangshanshi (the part at Tunxi)
+    "17275852B77603849956232": ("10014", "临泉县"),              # Linquanxian
+    "17275852B37962942142742": ("10014", "宁国县"),              # Ningguoshi
+    "17275852B67626464932783": ("10016", "宜丰县"),              # Shanggaoxian (the second of the name)
+    "17275852B71083235506927": ("10016", "南康县"),              # Nankangshi
+    "17275852B53595443021236": ("10017", "鄄城县"),              # Zhenchengxian
+    "17275852B65550927062733": ("10018", "柘城县"),              # Tuochengxian
+    "17275852B10417338286601": ("10018", "原阳县"),              # Yuanyangshi
+    "17275852B24684038509558": ("10018", "汝阳县"),              # Ruyangshi
+    "17275852B61638108171693": ("10018", "泌阳县"),              # Miyangxian
+    "17275852B46380594187155": ("10018", "通许县"),              # Tongxushi
+    "17275852B30892899597118": ("10019", "大冶县"),              # Dazhishi
+    "17275852B27614191229008": ("10020", "宁乡县"),              # Liuxiangxian
+    "17275852B41550697085290": ("10020", "郴县"),                # Chengxian
+    "17275852B56364962136156": ("10021", "宝安县"),              # Shenzhenxian
+    "17275852B79176055066883": ("10022", "藤县"),                # Zhaopingxian (the second of the name)
+    "17275852B86211507455330": ("10025", "綦江县"),              # Zhuanjiangxian
+    "17275852B97051310016142": ("10025", "江北县"),              # Jingbeixian
+    "17275852B26086965557611": ("10026", "清镇县"),              # Qingzhenshi
+    "17275852B67045134559909": ("10027", "绥江县"),              # Suijiangxian, in Yunnan
+    "17275852B42043031438117": ("10027", "鲁甸县"),              # Ludingshi
+    "17275852B45394941151938": ("10028", "嘉黎县"),              # Jiahexian
+    "17275852B51612351921800": ("10029", "高陵县"),              # Gaolingshi
+    "17275852B99290886399570": ("10031", "河南蒙古族自治县"),    # Banmaxian (the second of the name)
+    "17275852B52151949988531": ("10031", "班玛县"),              # Banmaxian
+    "17275852B62165589707618": ("10033", "鄯善县"),              # Qishanxian
+    "17275852B61772244043024": ("10005", "长子县"),              # Changzixian (the file reads 长 as chang)
+    "17275852B30245146594841": ("10005", "平鲁县"),              # Pingluqu
+    "17275852B59532117303375": ("10007", "营口县"),              # Yingkoushi (the second of the name; Dashiqiao since)
+    "17275852B30054829934514": ("10032", "泾源县"),              # Jingyuanxian (the second of the name), in Ningxia
+}
+# Walks back settled by hand, where the reading of the year's changes went wrong or the changes are silent: {(list,
+# the unit's name at the file's year): (list, the unit of 1964 or None, basis, the ground: the record's own words)}.
+BACK = {
+    ("10023", "三亚市"): ("10021", "崖县", "renamed", "1984: 崖县 leaves the list and 三亚市 enters it (the lists of 1982 and 1984)"),
+    ("10025", "攀枝花市"): ("10025", "米易县", "first of several", "1965: 设立渡口市（地级），以米易、盐边、永仁、华坪4县各一部分地区为其行政区域; 1987: 渡口市更名为攀枝花市"),
+    ("10033", "奎屯市"): ("10033", "克拉玛依市", "part", "1975: 设立奎屯市（县级），以克拉玛依市的部分地区为奎屯市的行政区域"),
+    ("10006", "乌兰浩特市"): ("10006", "科尔沁右翼前旗", "part", "1964: 撤销乌兰浩特市，将乌兰浩特市的行政区域划归科尔沁右翼前旗; 1980: 将科尔沁右翼前旗的乌兰浩特镇恢复为市"),
+    ("10006", "额尔古纳左旗"): ("10006", "额尔古纳旗", "part", "1966: 撤销额尔古纳旗，分别设立额尔古纳左旗、额尔古纳右旗"),
+    ("10014", "巢湖市"): ("10014", "巢县", "renamed", "1982: 设立巢湖市，以巢县的城关镇及其附近的东方红、半汤、环城、亚父四个公社为巢湖市的行政区域; 1983: 撤销巢县，将巢县的行政区域并入巢湖市"),
+    ("10026", "万山特区"): ("10026", "玉屏县", "first of several", "1966: 设立万山特区，以玉屏、铜仁两县各一部分地区为其行政区域"),
+    ("10007", "灯塔县"): ("10007", "辽阳县", "part", "1968: 将辽阳县并入辽阳市，设立辽阳市灯塔、沙岭、兰家3区; 1980: 以辽阳市灯塔区所辖的灯塔、邵二台等十五个公社（场、镇）的行政区域，为灯塔县的行政区域"),
+    ("10004", "唐海县"): ("10004", "柏各庄区", "renamed", "1982: 同意将柏各庄农垦区改建为唐海县"),
+    ("10005", "屯留县"): ("10005", None, "unresolved", "屯留县 is in the lists from 1972 on, and no year's changes say from what"),
+}
 KIND = r"(?:自治县|自治旗|县|市|旗|特区|林区|矿区|工矿区|办事处|设治局|行政区|镇|区|管理局|行政委员会|工农区)"
 ETHN = ("蒙古|回|藏|维吾尔|苗|彝|壮|僮|布依|朝鲜|满|侗|瑶|白|土家|哈尼|哈萨克|傣|黎|傈僳|佤|畲|高山|拉祜|水|东乡|纳西|景颇|柯尔克孜|土|"
         "达斡尔|仫佬|羌|布朗|撒拉|毛南|毛难|仡佬|锡伯|阿昌|普米|塔吉克|怒|乌孜别克|俄罗斯|鄂温克|德昂|崩龙|保安|裕固|京|塔塔尔|独龙|鄂伦春|"
@@ -167,6 +262,8 @@ def page(b, lid):
     body = re.sub(r"</?(?:p|div|tr|table|tbody|li|ul)[^>]*>|<br\s*/?>", "\n", body)
     body = re.sub(r"</?(?:td|th)[^>]*>", "　　", body)
     body = html.unescape(body).replace("\xa0", "　").replace("\r", "").replace(" ", "　")
+    for a, b in list(SLIP_CHAR.items()) + list(SLIP_NAME.get(lid, {}).items()):      # the record's own slips
+        body = body.replace(a, b)
     body = re.sub(r"<(strong|b)>(.*?)</\1>", lambda m: "\n".join("<b>" + x + "</b>" for x in m.group(2).split("\n")), body, flags=re.S)
     units, notes, head, summary, in_notes = [], [], None, "", False
     if lid in MUNI:
@@ -259,17 +356,24 @@ def kind(n):
              "行政区": "administrative district", "区": "district", "管理局": "administration"}.get(k, "unit"))
 
 
-def pinyin(n):
+def syllables(n):
+    """A name's syllables: the library's, with the place-name readings it misses (READ)."""
     from pypinyin import lazy_pinyin
-    return "".join(lazy_pinyin(n)).replace("ü", "u").replace("v", "u").lower()
+    syl = lazy_pinyin(n)
+    if len(syl) == len(n):
+        syl = [READ.get(ch, "chang" if ch == "长" and "长子" not in n else s) for ch, s in zip(n, syl)]
+    return [s.replace("ü", "u").replace("v", "u") for s in syl]
+
+
+def pinyin(n):
+    return "".join(syllables(n)).lower()
 
 
 def romanise(n):
     """A name for the map, in pinyin by rule: the base, capitalised (the characters are kept beside it)."""
-    from pypinyin import lazy_pinyin
     b = base(n)
     b = re.sub(r"(县|市|旗|区)$", "", b) if len(b) > 1 else b
-    syl = [s.replace("ü", "u").replace("v", "u") for s in lazy_pinyin(b)]
+    syl = syllables(n)[:len(b)] if n.startswith(b) else syllables(b)      # read with its kind: 蔚县 is Yu, 蔚 alone Wei
     out = ""
     for i, s in enumerate(syl):
         out += ("'" if i and s[0] in "aeo" else "") + s
@@ -345,7 +449,7 @@ def from_notes(name, notes, prev):
 
 def walk(lid, name, year, rec):
     """A unit of `year` walked back to 1964: (list, the 1964 name or None, basis, the changes used)."""
-    basis, via = "same", []
+    basis, via, start = "same", [], name
     rank = {"same": 0, "moved": 1, "renamed": 2, "part": 3, "paired": 4, "first of several": 5, "unresolved": 6}
     y = year
     while y > Y0:
@@ -363,6 +467,9 @@ def walk(lid, name, year, rec):
             name = p
             continue
         y = this_y
+        if Y0 in good(rec, lid) and "恢复" + name in notes and any(u["n"] == name and not u.get("d") for u in rec[lid][Y0]["units"]):
+            via.append(f"{y}: 恢复{name}; in the list of {Y0}")       # joined to another after 1964 and restored: the unit of 1964
+            return lid, name, basis, via
         got = from_notes(name, notes, prev["units"])
         if not got:                     # a list that drops a prefecture for a year: the name in an earlier list
             for z in sorted((z for z in good(rec, lid) if py - 3 <= z < py), reverse=True):
@@ -404,6 +511,9 @@ def walk(lid, name, year, rec):
             y -= 1
             continue
         return lid, None, "unresolved", via + [f"{y}: {name} is new, and the year's changes do not say from what"]
+    if name != start and base(name) == base(start) and any(u["n"] == start and not u.get("d") for u in rec[lid][Y0]["units"]):
+        via.append(f"{start} is in the list of {Y0} beside {name}: joined to it after {Y0} and restored")
+        name = start
     return lid, name, basis, via
 
 
@@ -433,6 +543,8 @@ def main():
         hit = [l for l, pg in provs if pg.contains(pt)]
         if any(c.contains(pt) or c.distance(pt) < 0.02 for c in colonies) or (f["properties"]["shapeName"] or "") in COLONY:
             continue                        # Hong Kong, Macau (the file's Xianggang, and its unit without a name)
+        if not hit and f["properties"]["shapeID"] in PROVINCE:
+            hit = [PROVINCE[f["properties"]["shapeID"]]]
         if not hit:
             near = min(provs, key=lambda t: t[1].distance(pt))
             if near[1].distance(pt) > 0.25:
@@ -460,13 +572,18 @@ def main():
     for y in range(1980, Y1 + 1):
         score[y] = sum(1 for u in units if u["file"].lower() in pin.get((u["list"], y), {}))
     print("matches by year:", {y: score[y] for y in sorted(score)})
-    V = max(score, key=lambda y: (score[y], -y))
-    print("the file's year taken as", V)
+    V = max(y for y in score if score[y] >= max(score.values()) - 2)     # the latest of the years that match best: 1990 and
+    print("the file's year taken as", V)                                 # 1994 match alike, and the file has units of 1994
     counts = collections.Counter()
     for u in units:
         f = u["file"].lower()
         u["year"], u["zh"], u["match"] = V, None, None
         order = [V] + sorted((y for y in range(1980, Y1 + 1) if y != V), key=lambda y: abs(y - V))
+        if u["id"] in NAMED:                           # named by its place: the year nearest the file's that has the name
+            l, zh = NAMED[u["id"]]
+            y = next((y for y in order if any(zh in ns for ns in pin.get((l, y), {}).values())), V)
+            u.update(list=l, zh=zh, year=y, match="by its place")
+            continue
         for y in order:                                # the same pinyin, in its province, the file's year first
             if f in pin.get((u["list"], y), {}):
                 got = pin[(u["list"], y)][f]
@@ -517,7 +634,7 @@ def main():
         else:
             u.update(zh=None, match=None)           # not told apart: shown under the file's name
     # one name, one place: where far-apart units took the same name, the better match keeps it
-    order_m = ["name", "name, another year", "spelling", "name, the next province", "spelling, a guess"]
+    order_m = ["by its place", "name", "name, another year", "spelling", "name, the next province", "spelling, a guess"]
     claims = collections.defaultdict(list)
     for u in units:
         if u.get("zh"):
@@ -580,7 +697,13 @@ def main():
             u.update(to=None, basis="unmatched", via=[], guess=True)
             basis["unmatched"] += 1
             continue
-        l, n, b, via = walk(u["list"], u["zh"], u["year"], rec)
+        if (u["list"], u["zh"]) in BACK:
+            l, n, b, s = BACK[(u["list"], u["zh"])]
+            via = [s]
+            if n and not any(x["n"] == n for x in rec[l][Y0]["units"]):
+                raise SystemExit(f"BACK: {n} is not in the list of {Y0} of {LISTS[l][0]}")
+        else:
+            l, n, b, via = walk(u["list"], u["zh"], u["year"], rec)
         u.update(to={"list": l, "zh": n} if n else None, basis=b, via=via,
                  guess=bool(b in ("paired", "first of several", "unresolved") or (u["match"] or "").endswith("a guess")))
         basis[b] += 1

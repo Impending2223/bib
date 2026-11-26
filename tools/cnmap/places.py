@@ -20,6 +20,9 @@ The steps (sources/china/README.md states the rules and the counts):
     reason. AREA: a province named as a place takes no point (tools/bib/cnmap.py, STYLE 2).
  5. The province of 1966 (admin.geojson) and the county of 1964 (counties.geojson) the point falls in. A point of a
     place in the PRC that falls just outside it (an island, a border peak) takes the nearest unit within 0.3 degree.
+    A point that falls outside the county of its own name but within 5 km of it takes that county and its province
+    (`near` in the row): the lines are approximate, and a county seat on a border river falls across it.
+ 6. WIKI: a point from Wikipedia's article where Wikidata's for the same item is wrong (one place).
 
 Writes sources/china/places.json: {"read": date, "places": [{key, zh, lat, lon, src, q, wiki, why, unit, county, c,
 capital} | {key, area: true, unit} | {key, unplaced: reason}]}, in key order.
@@ -108,6 +111,10 @@ HAND = {
     "wu-county": ("Q3092999", "the entries: Wu county, Jiangsu"),
     "qianling": ("Q950653", "the entries: the tomb, by Qian county; Wikipedia's Qianling Mausoleum"),
     "yulin-hainan": ("Q114702838", "the entries: the naval port of Yulin, Hainan; Wikipedia's Yulin Naval Base"),
+    "qijiang": ("Q714216", "the entries: Qijiang county, Sichuan; Qijiang district of Chongqing (the rule took the river of the name)"),
+    "xinan-hebei": ("Q10946869", "the entries: Xin'an by Baiyangdian, the county committee's seat; Anxin town, the seat of Anxin county"),
+    "xincheng-hebei": ("Q252959", "the entries: Xincheng county of Baoding prefecture, Hebei; Gaobeidian since 1993"),
+    "longnan": (None, "Wikidata's and Wikipedia's point for Longnan, Jiangxi, lies 100 km north of the county, in Nankang; not taken"),
     "niujiao": (None, "a village of Chang'an county, Shaanxi; neither source has it"),
     "tianhua": (None, "a brigade of Changsha county, Hunan; neither source has it"),
     "nanxucheng": (None, "a village the entries do not place in a county; neither source has it"),
@@ -116,6 +123,15 @@ HAND = {
     "mingshui": (None, "the Mingshui station of the Jiabiangou farm, in Gaotai, Gansu; neither source has it"),
     "wangjiawan": (None, "a production team of Ningxiang county, Hunan; neither source has it"),
 }
+# A point taken from Wikipedia's article, where Wikidata's for the same item is wrong: key -> the row's fields. Read
+# from en.wikipedia.org's API (prop=coordinates), Nov. 26, 2026.
+WIKI = {
+    "binyang-county": {"lat": 23.215, "lon": 108.854, "q": "Q864098", "zh": "宾阳县",
+                       "art": "https://en.wikipedia.org/wiki/Binyang_County",
+                       "why": "the entries: Binyang county, Guangxi; Wikipedia's coordinates for the article (Wikidata's "
+                              "point for the item lies 70 km off, by Nanning)"},
+}
+OWN_KM = 5        # a point this near the county of its own name is in it: the lines are approximate
 ZS = ["", "市", "县", "区", "镇", "村", "乡", "省", "岛", "山", "湖", "水库", "自治县", "地区", "特区", "街道"]
 ES = ["", " County", " District", " Town", " Village", " Township", " Subdistrict", " Province", " Prefecture", " Island"]
 SUFFIX = r"-(hebei|guangdong|yunnan|gansu|guizhou|hunan|sichuan|anhui|jiangxi|shandong|hainan)$"
@@ -265,6 +281,16 @@ def main():
     cty = [(f["properties"]["id"], shape(f["geometry"])) for f in json.load(open(cp, encoding="utf-8"))["features"]
            if f["properties"]["k"] == "county"] if os.path.exists(cp) else []
     ctree = shapely.STRtree([g for _, g in cty]) if cty else None
+    cjp = os.path.join(OUT, "counties.json")
+    cj = {c["id"]: c for c in json.load(open(cjp, encoding="utf-8"))["counties"]} if os.path.exists(cjp) else {}
+    stem1 = lambda z: re.sub(r"(市|县|区)$", "", z) if len(z) > 2 else z
+
+    def own_county(zh, lon, lat):
+        """The county of the place's own name, where the point lies within OWN_KM of it: (county, its unit) or None."""
+        p, b = Point(lon, lat), stem1(zh or "")
+        near = [(g.distance(p) * 111.2, i) for i, g in cty if i in cj and cj[i].get("zh") and stem1(cj[i]["zh"]) == b]
+        near = [(d, i) for d, i in near if d <= OWN_KM]
+        return (min(near)[1], cj[min(near)[1]]["unit"]) if b and near else None
 
     def unit_of(lon, lat, prc):
         p = Point(lon, lat)
@@ -298,7 +324,11 @@ def main():
             continue
         zhs, en = d["zh"], en_name(d["name"])
         why = best = None
-        if k in HAND:
+        src = "wikidata"
+        if k in WIKI:
+            w = WIKI[k]
+            best, why, src = {"lon": w["lon"], "lat": w["lat"], "q": w["q"], "art": w["art"], "zh": [w["zh"]]}, w["why"], "wikipedia"
+        elif k in HAND:
             q, why = HAND[k]
             if q is None:
                 rows.append({"key": k, "unplaced": why})
@@ -369,21 +399,25 @@ def main():
                 continue
         u, land = unit_of(best["lon"], best["lat"], d["c"] == "prc")
         row = {"key": k, "zh": (best["zh"] or [""])[0], "lat": round(best["lat"], 4), "lon": round(best["lon"], 4),
-               "src": "wikidata", "q": best["q"], "wiki": best["art"] or f"https://www.wikidata.org/wiki/{best['q']}",
+               "src": src, "q": best["q"], "wiki": best["art"] or f"https://www.wikidata.org/wiki/{best['q']}",
                "why": why, "c": d["c"] if u is None or d["c"] != "prc" else next(c for i, c, _ in units if i == u)}
         if u:
             row["unit"] = u
         elif land:
             row["country"] = {"roc": "Taiwan", "dprk": "North Korea", "ussr": "Soviet Union", "vietnam": "Vietnam"}.get(land, land)
         co = county_of(best["lon"], best["lat"])
+        own = own_county(row["zh"], best["lon"], best["lat"]) if d["c"] == "prc" else None
+        if own and own[0] != co and not (co and stem1(cj.get(co, {}).get("zh") or "") == stem1(row["zh"])):
+            co, row["unit"] = own                # just outside the county of its own name: that county, and its unit
+            row["near"] = True
         if co:
             row["county"] = co
         if k in CAPITAL:
             row["capital"] = True
         if "-v" in sys.argv and k not in HAND and (best.get("tier") == 9 or not zhs):
-            print("  check:", k, best["q"], row["zh"], best["en"], u, "|", why)
+            print("  check:", k, best["q"], row["zh"], best.get("en", ""), u, "|", why)
         rows.append(row)
-        counts[why if k not in HAND else "by hand, from the entries' words"] += 1
+        counts[why if k not in HAND and k not in WIKI else "by hand, from the entries' words"] += 1
     json.dump({"read": READ, "source": "Wikidata (CC0), items' coordinates (P625) and English Wikipedia sitelinks",
                "places": rows}, open(os.path.join(OUT, "places.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(len(rows), "places:", dict(counts))
