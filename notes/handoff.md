@@ -430,3 +430,5 @@ Batch 7 (already in):
   2. Then the finished-but-stopped agents' work (4at): the China map; the R27 redo (~180 entries, "Circulated in China"); the China threads measurement (episodes, Mao/Zhou/Liu, the xitong systems) for the owner's ruling.
   3. Then R22-aligned audit briefs and the check warning for substance left in the notes (4av), then the go-back-over-the-notes pass (5,432 entries, strongest first), written as claim additions in the new model.
   4. Then the rest of the queue (4aq–4as, 4i).
+
+- 12:30 p.m.: threads batches b and f reported (297 each); their Opus audits are running on `notes/briefs/china-threads-read-audit-b.md` and `-f.md`, which mend the reader's tsv in place and write `notes/threads/read/batch-X-audit.md`. The other batches get the same brief by its letter as they report.
