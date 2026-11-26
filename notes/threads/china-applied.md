@@ -181,3 +181,11 @@ What I did not run:
 - The tsv cannot now be made again as it was. `tree.py` and `measure.py` read only the entries whose thread is `china-leadership` or `china`, and 22,991 entries have left those threads. Running `tree.py` now would write a tsv of the 4,840 entries that remain, over the one that was applied. Keep `notes/threads/china-tree.tsv` as it is. To change a thread's rule later and move entries again, the two scripts first need to read the China family's entries by their present threads.
 - A fault in `tools/bib/threads.py` that does no harm today. A thread part that a later plan drops is forwarded by finding the first thread whose page name its name begins with. For a part of any `china-…` thread that is "China", whose own page is in parts. So a dropped part of "China: Leadership" would forward to China's parts. No thread part is retired now. The fault matters only if someone later merges the small parts of "China: Leadership".
 - Ruling 58, point 2, stands as it was: no entry moved to a country's thread, and every entry keeps the countries it had in `also:`.
+
+## 9. Since this note (the thread pages, Nov. 25, 2026, about 11:30 p.m. Pacific)
+
+Three things in sections 7 and 8 are no longer true. The code is `tools/bib/threads.py` (STYLE 9 and 10), and the guide is `notes/guide/pages.md`, the Threads.
+
+- A parent's page now names every thread under it at the head, each linked to its page, with its count and its dates. It still lists only its own entries, by the owner's rule of Nov. 4. "Split with Moscow" has a page: its statement and its three subthreads. So every one of the 45 threads has a page, and the Foreign affairs page leads to all seven threads under it.
+- An old link to an entry on a thread page, where the entry has since moved, now goes on to the entry in the calendar.
+- A dropped part of a thread now forwards to its own thread. The page's whole name less its date is matched, so a part of "China: Leadership" can no longer be taken for a part of "China".

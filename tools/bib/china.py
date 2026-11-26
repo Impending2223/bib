@@ -143,9 +143,13 @@ def page(series, template):
         ("dem", "Relief, elevation, depths and contours: NOAA National Centers for Environmental Information, "
                 "<i>ETOPO 2022 Global Relief Model</i> (2022), doi:10.25921/fd45-gt74 (public domain), its grid of 30 "
                 "arc-seconds, served as elevation tiles that the map shades itself. The bands run on above 2,000 m, to "
-                "5,000 m and over; land below sea level is counted 0 m."),
+                "5,000 m and over; land below sea level is counted 0 m. Lake Baikal, whose floor the model holds, "
+                "stands at its surface, at the 449 m HydroLAKES gives."),
         ("rivers", "Rivers: HydroRIVERS v1.0 (Lehner and Grill, 2013), those with a long-term mean flow of 30 m³/s and "
-                   "over; their names from SWORD v17c (Altenau et al., 2021; CC BY 4.0), in its own English forms. "
+                   "over; in seven deltas (the Pearl River's, the Han's at Shantou, the Yangtze's, the Yellow River's, "
+                   "the Red River's, the Irrawaddy's, the Ganges's and Brahmaputra's) the channels of 50 m and wider "
+                   "as SWORD v17c maps them (Altenau et al., 2021; CC BY 4.0); the names from SWORD, in its own "
+                   "English forms. "
                    "Lakes: HydroLAKES v1.0 (Messager et al., 2016; CC BY 4.0), those of 10 km² and over, the dams' "
                    "years from GRanD (Lehner et al., 2011), as Lehner's Dam Impoundment Database gives them (CC BY "
                    "4.0). Rivers are today's courses; reservoirs without a year are not thereby older than 1969."),
@@ -187,8 +191,9 @@ def page(series, template):
         f'<p class="logic">The map in the calendar\'s pages, by the day it stands under: {datelist.run(stands)}</p>'
         if stands else "",
         '<h2 id="gazetteer" data-short="Gazetteer">The gazetteer</h2>',
-        f'<p class="logic">Every place in China, Hong Kong, Macau and Taiwan that a calendar entry\'s place names, '
-        f'{n_g} in all: {n_pt} with a point, {n_area} provinces named as places, {n_un} not on the map. The place as '
+        f'<p class="logic">Every place of the calendar\'s gazetteer in China, Hong Kong, Macau and Taiwan: the places '
+        'the entries name, and the cities of the United Nations\' <i>Demographic Yearbook</i> that no entry names '
+        f'yet. {n_g} in all: {n_pt} with a point, {n_area} provinces named as places, {n_un} not on the map. The place as '
         'the calendar writes it, linked to the Wikipedia article or the Wikidata item whose coordinates it takes; its '
         'name in Chinese as that item gives it; the province of 1966 and the county of 1964 the point falls in; the '
         f'calendar entries placed there, by year, each linked; where a place has more than {LIST}, each year\'s count, '
