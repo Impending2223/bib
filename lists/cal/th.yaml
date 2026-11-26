@@ -54,13 +54,193 @@ entries:
   - id: cal.thread.china
     s: China
     c: 'Communist China: its bomb, its seat at the UN, its quarrel with Moscow, its part in Vietnam, the ambassadorial talks at Warsaw. {{1963-07-31|The test ban refused.}} {{1964-01-27..1964-11|Zhou Enlai''s cable on the Gulf of Tonkin; China''s first atomic test; Zhou Enlai in Moscow.}} {{1965-02-11..1965-08-01|Kosygin with Mao; Chen Yi''s four points through London; the engineers and the antiaircraft divisions into North Vietnam.}} {{1966-01-07..1966-04-22|Gallup on its admission.}} {{1966-05-17|China''s third test.}} {{1967-03-08..1967-10-12|Gallup on the threat to peace; the hydrogen bomb; the "Chinese-oriented" ABM; Nixon''s "Asia After Viet Nam"; Rusk''s "billion Chinese."}} {{1968-10-17..1968-11-29|Chen Yi to Lê Đức Thọ; the Warsaw talks put off.}}'
-  - id: cal.thread.china-leadership
-    s: Leadership
-    c: The Chinese party's leadership and its decisions, at home and abroad.
+  - id: cal.thread.china-agriculture
+    s: Agriculture
+    c: 'Farming, grain, water and the communes: the Center''s rural papers, the leaders'' inspections of communes and farms. {{1960-10-07|Tan Zhenlin on five provinces'' farming.}} {{1961-11|Peng Dehuai at Wushi.}} {{1963-10-16|Zhu De in the flooded provinces.}} {{1964-06-25|The poor and lower-middle peasant associations.}}'
+    parent: china
+  - id: cal.thread.china-famine
+    s: Famine
+    c: 'The famine: the deaths and the reports of them, the grain taken, moved and bought abroad, the relief, the Center''s measures. {{1960-06-03|The Taolin report on the deaths.}} {{1960-10-03|Chen Yun on Hebei and Shandong.}} {{1961-01-03|Henan''s relief directive.}}'
+    parent: china-agriculture
+  - id: cal.thread.china-sixty-articles
+    s: Sixty Articles
+    c: 'The year of investigation: the communes'' regulations drafted at Canton, revised at Peking, and the industrial articles at Lushan. {{1961-03-10..1961-03-23|The Canton conference; the Sixty Articles.}} {{1961-04-02..1961-05-15|Liu Shaoqi in Hunan.}} {{1961-08-23..1961-09-16|Lushan; the Seventy Articles.}}'
+    parent: china-agriculture
+  - id: cal.thread.china-twelve-articles
+    s: Twelve Articles
+    c: 'The communes'' "communist wind" checked: the emergency letter and the Ninth Plenum. {{1960-11-03|The Emergency Directive Letter, the "Twelve Articles."}} {{1960-11-15|Mao''s directive on the "five winds."}} {{1961-01-14..1961-01-18|The Ninth Plenum.}}'
+    parent: china-agriculture
+  - id: cal.thread.china-army
+    s: Army
+    c: The Military Commission, the General Staff and the General Political Department; training, the coast, the militia, the marshals' inspections. {{1960-09..1960-10|The enlarged Military Commission.}} {{1961-01-20|The training conference.}} {{1962-06|Preparing for war on the coast.}} {{1964-06-10|The display of picked units.}} {{1965-05-22|Ranks abolished.}} {{1969-10-18|The orders to the General Staff.}}
+    parent: china
+  - id: cal.thread.china-luo-ruiqing
+    s: Luo Ruiqing
+    c: The Chief of Staff accused by Lin Biao and removed at the Shanghai conference. {{1965-11-27|Luo with Lin Biao.}} {{1965-12-08..1965-12-15|The Shanghai conference.}} {{1966-03-04..1966-04-08|The struggle meetings.}}
+    parent: china-army
+  - id: cal.thread.china-tenth-plenum
+    s: Beidaihe and the Tenth Plenum
+    c: '"Never forget class struggle": the Beidaihe conference, the plenum, Peng Dehuai''s case reopened. {{1962-08-06..1962-08-24|Beidaihe.}} {{1962-08-26|The plenum''s preparatory meeting.}} {{1962-09-24..1962-09-27|The Tenth Plenum.}}'
+    parent: china
+  - id: cal.thread.china-center
+    s: Center's daily work
+    c: The Politburo's and the Secretariat's sittings on mixed business, the General Office and its callers, the papers sent round, to Yang Shangkun's removal. {{1960-04-02|The "five many."}} {{1961-05|The recordings.}} {{1965-11|Yang Shangkun's last month at the General Office.}}
     parent: china
   - id: cal.thread.india-and-china-cultural-revolution
     s: Cultural Revolution
     parent: china
+  - id: cal.thread.china-may-sixteenth
+    s: May Sixteenth and the work teams
+    c: The enlarged Politburo and its Circular, Peng Zhen's fall, Nie Yuanzi's poster, the fifty days of the work teams. {{1966-05-16|The May 16 Circular.}} {{1966-05-25|Nie Yuanzi's poster.}} {{1966-07-16|Mao in the Yangtze.}} {{1966-07-28|The work teams withdrawn.}}
+    parent: india-and-china-cultural-revolution
+  - id: cal.thread.china-ninth-congress
+    s: Ninth Congress
+    c: Liu Shaoqi expelled at the Twelfth Plenum; the Ninth Congress and Lin Biao as successor. {{1968-10-13..1968-10-31|The Twelfth Plenum.}} {{1969-04-01..1969-04-24|The Ninth Congress.}} {{1969-04-28|Lin Biao's report printed.}}
+    parent: india-and-china-cultural-revolution
+  - id: cal.thread.china-red-guards
+    s: Red Guards
+    c: 'The Eleventh Plenum and the Red Guards: the rallies, the "four olds," the house searches, the attack on the "reactionary line." {{1966-08-01..1966-08-12|The Eleventh Plenum; "Bombard the Headquarters."}} {{1966-08-18|The first rally.}} {{1966-10-09..1966-10-28|The October work conference.}}'
+    parent: india-and-china-cultural-revolution
+  - id: cal.thread.china-class-ranks
+    s: Revolutionary committees
+    c: 'The revolutionary committees completed and the class ranks cleansed: Yang Chengwu''s fall, the July notices, the propaganda teams. {{1968-03-24|Yang Chengwu, Yu Lijin and Fu Chongbi dismissed.}} {{1968-07-28|Mao with the five Red Guard leaders.}} {{1968-09-05|The last committees, Tibet and Xinjiang.}}'
+    parent: india-and-china-cultural-revolution
+  - id: cal.thread.china-seizures
+    s: Seizures of power
+    c: The January Storm at Shanghai, the seizures in the provinces, the army sent in, the February Countercurrent. {{1967-01-06|The rebels take Shanghai.}} {{1967-01-23|The army to support the left.}} {{1967-02-16|The Huairen Hall.}}
+    parent: india-and-china-cultural-revolution
+  - id: cal.thread.china-wuhan
+    s: Wuhan and the army
+    c: 'The army''s factions and the armed struggle: Wuhan, the drive against "the handful in the army," the fall of Wang Li and Guan Feng. {{1967-07-20|The Million Heroes take Wang Li.}} {{1967-08-22|The British office burned.}} {{1967-08-30|Wang Li and Guan Feng detained.}}'
+    parent: india-and-china-cultural-revolution
+  - id: cal.thread.china-economy
+    s: Finance and economy
+    c: 'The plan, industry and transport, finance and trade: the commissions'' and ministries'' reports, the Center''s papers on them, the inspections of plants. {{1962-04-19|The Central Finance and Economic Group under Chen Yun.}} {{1964-08-17|The trusts.}} {{1965-11|Deng Xiaoping in the Southwest''s plants.}}'
+    parent: china
+  - id: cal.thread.china-third-front
+    s: Third Front
+    c: 'The interior industrial base: the Third Plan recast for war, Panzhihua and the southwest railways. {{1964-05-15..1964-06-17|The work conference; the third front.}} {{1965-03-29|Zhu De at Chengdu.}} {{1965-11-13|The plan conference.}}'
+    parent: china-economy
+  - id: cal.thread.china-retreat-1962
+    s: Xilou and the retreat
+    c: Chen Yun's deficit and emergency program, the cities emptied, the household contracts. {{1962-02-21..1962-02-23|The Xilou meeting.}} {{1962-05-07..1962-05-11|The May work conference; the streamlining.}} {{1962-07-06..1962-07-23|Mao against household contracting.}}
+    parent: china-economy
+  - id: cal.thread.china-foreign
+    s: Foreign affairs
+    c: 'Foreign business: the leaders'' receptions, visits, speeches and cables, the Foreign Ministry and the International Liaison Department. {{1961-05-16|Chen Yi at Geneva; the conference on Laos.}} {{1962-07-23|The Geneva agreements on Laos.}}'
+    parent: china
+  - id: cal.thread.china-afro-asian
+    s: Afro-Asian conference
+    c: 'The second Asian–African conference sought and lost at Algiers. {{1965-03-30..1965-04-01|Zhou at Algiers.}} {{1965-06-19..1965-06-28|Ben Bella deposed; the conference put off.}} {{1965-10-22|Zhou''s letter: better not to meet.}}'
+    parent: china-foreign
+  - id: cal.thread.china-india-war
+    s: India war
+    c: The border war with India and the cease-fire. {{1962-07-22|The post in the Chip Chap valley.}} {{1962-11-21|The cease-fire declared.}} {{1963-01-05|Mao and Bandaranaike at Hangzhou.}}
+    parent: china-foreign
+  - id: cal.thread.china-moscow
+    s: Split with Moscow
+    c: 'The quarrel with the Soviet party: the parties'' meetings, the open polemic, the border war.'
+    parent: china-foreign
+  - id: cal.thread.china-border-war
+    s: Border war
+    c: The clashes on the Ussuri and in Xinjiang, the war scare, the airport talks and the border talks. {{1969-03-02|Zhenbao.}} {{1969-09-11|Kosygin at the Peking airport.}} {{1969-10-20|The border talks open.}}
+    parent: china-moscow
+  - id: cal.thread.china-moscow-1960
+    s: Bucharest and Moscow
+    c: The quarrel with Moscow carried into the parties' meetings, from "Long Live Leninism!" to the Moscow Statement. {{1960-04-16|"Long Live Leninism!"}} {{1960-06-22..1960-06-26|Peng Zhen at Bucharest.}} {{1960-11-10..1960-12-01|The eighty-one parties at Moscow; Liu Shaoqi with Khrushchev.}}
+    parent: china-moscow
+  - id: cal.thread.china-polemic
+    s: Polemic
+    c: The open polemic with Moscow, from the Twenty-second Congress to Zhou in Moscow after Khrushchev's fall. {{1961-10-15..1961-10-23|Zhou at the Twenty-second Congress.}} {{1963-06-14..1963-07-20|The general line; Deng and Suslov.}} {{1964-11-05..1964-11-14|Zhou in Moscow.}}
+    parent: china-moscow
+  - id: cal.thread.china-africa-tour
+    s: Zhou in Africa
+    c: Zhou Enlai's and Chen Yi's tour of ten African countries and Albania, the eight principles of aid. {{1963-12-14|To Cairo.}} {{1963-12-21..1963-12-27|Algeria.}} {{1964-01-15|Accra; the eight principles.}}
+    parent: china-foreign
+  - id: cal.thread.china-four-cleanups
+    s: Four Cleanups
+    c: 'The socialist education movement: the Ten Points, the work teams, Taoyuan, Niujiao, the Twenty-three Articles. {{1963-05-02..1963-05-12|The Hangzhou conference; the First Ten Points.}} {{1964-10-28..1965-05|Yang Shangkun at Niujiao and Xi''an.}} {{1964-12-15..1965-01-14|The work conference; the Twenty-three Articles.}}'
+    parent: china
+  - id: cal.thread.china-leadership
+    s: Leadership
+    c: The Chinese party's leadership and its decisions, at home and abroad.
+    parent: china
+  - id: cal.thread.china-liu
+    s: Liu Shaoqi
+    c: 'The head of state to his fall: his comments, forums, receptions and visits abroad. {{1963-04-12..1963-05-16|Indonesia, Burma, Cambodia, Vietnam.}} {{1964-07|The two labor systems and the two education systems.}} {{1966-03-26..1966-04-19|Pakistan, Afghanistan, Burma.}}'
+    parent: china
+  - id: cal.thread.china-mao
+    s: Mao Zedong
+    c: 'Mao Zedong''s acts: his comments and instructions, letters, talks, audiences, poems, swims, travels. {{1964-02-13|The Spring Festival forum on education.}} {{1965-05|Jinggangshan revisited.}}'
+    parent: china
+  - id: cal.thread.china-mao-cr
+    s: Cultural Revolution
+    c: 'Mao Zedong in the Cultural Revolution''s stages: his comments on papers, his instructions and talks, the drafts he revised.'
+    parent: china-mao
+  - id: cal.thread.china-mao-foreign
+    s: Foreign guests
+    c: 'Mao Zedong''s foreign business: the guests received, the talks, the telegrams and statements. {{1960-10-22|Edgar Snow.}} {{1961-09-23|Montgomery at Wuchang.}}'
+    parent: china-mao
+  - id: cal.thread.china-nuclear
+    s: Nuclear weapons
+    c: 'China and nuclear weapons: the bomb and its tests, the diplomacy of the ban, the leaders'' words on nuclear war.'
+    parent: china
+  - id: cal.thread.china-bomb
+    s: Bomb
+    c: 'The atomic and hydrogen bombs and the missiles: their decisions and tests. {{1961-07-16|The Center''s decision on the nuclear industry.}} {{1962-11-17|The special committee under Zhou Enlai.}} {{1963-07-28|The test ban discussed.}} {{1964-10-16|The first test.}} {{1966-10-27|The missile with a warhead.}} {{1967-06-17|The hydrogen bomb.}}'
+    parent: china-nuclear
+  - id: cal.thread.china-nuclear-diplomacy
+    s: Nuclear diplomacy
+    c: The test ban treaty refused, the proposals for a summit, complete prohibition and no first use, the conferences against atomic and hydrogen bombs, non-proliferation. {{1964-10-16|The statement on the first test.}}
+    parent: china-nuclear
+  - id: cal.thread.china-organization
+    s: Organization
+    c: 'Cadres and the Party''s own bodies: appointments, the control commissions, the Youth League, the trade unions and the Women''s Federation, the deaths of leaders{{1969-04..|, the case groups after April 1969}}.'
+    parent: china
+  - id: cal.thread.china-political-legal
+    s: Political-legal work
+    c: The National People's Congress and its Standing Committee, public security, the procuracy and the courts, the census. {{1960-03-30|The National People's Congress, second session.}} {{1962-03-27|The third session.}} {{1963-02-17|The draft Criminal Law.}} {{1964-02-10|The census.}}
+    parent: china
+  - id: cal.thread.china-propaganda
+    s: Propaganda and culture
+    c: Propaganda, the press, education, science, health, the arts and sport. {{1961-07-13|The Secretariat on the schools.}} {{1962-03-05|Chen Yi to the scientists at Canton.}} {{1962-04-30|The Eight Articles on Literature and Art.}} {{1964-08|The Peking Science Symposium.}} {{1966-03-08|The Education Office.}}
+    parent: china
+  - id: cal.thread.china-hai-rui
+    s: Hai Rui
+    c: Yao Wenyuan's article, the Peking committee's defense of Wu Han, the February Outline. {{1965-11-10|Yao Wenyuan's article.}} {{1965-11-29|The *Beijing Daily* reprints it.}} {{1966-02-12|The February Outline circulated.}}
+    parent: china-propaganda
+  - id: cal.thread.china-models
+    s: Lei Feng, Dazhai, Daqing
+    c: 'The emulation campaigns: Lei Feng, the Dazhai brigade, the Daqing oilfield, learning from the army. {{1963-03-05..1963-03-06|"Learn from Comrade Lei Feng."}} {{1964-01-02|The General Office on Daqing.}} {{1964-12|Dazhai''s results checked again.}}'
+    parent: china-propaganda
+  - id: cal.thread.china-opera
+    s: Opera reform
+    c: 'The arts rectified: Mao''s two instructions, the festival of modern Peking opera, the ministry purged. {{1964-06-23|Zhou with the festival''s troupes.}} {{1964-06-05..1964-07-31|The festival of modern Peking opera.}} {{1965-04|The Ministry of Culture''s rectification ends.}}'
+    parent: china-propaganda
+  - id: cal.thread.china-seven-thousand
+    s: Seven Thousand Cadres
+    c: 'The enlarged work conference{{1962| of January 1962}}: Liu''s report, Mao''s self-criticism, Lin Biao''s defense of the Leap. {{1962-01-11|The conference opens.}} {{1962-01-27|Liu Shaoqi''s report.}} {{1962-01-30|Mao''s speech.}}'
+    parent: china
+  - id: cal.thread.china-shanghai-1960
+    s: Shanghai and Beidaihe, 1960
+    c: The year's targets set at Shanghai; the experts withdrawn and the summer conference at Beidaihe. {{1960-01-07..1960-01-17|The enlarged Politburo at Shanghai.}} {{1960-07-05..1960-08-10|Beidaihe; the Soviet experts recalled.}}
+    parent: china
+  - id: cal.thread.china-united-front
+    s: United front and nationalities
+    c: The United Front Department, the Political Consultative Conference and the democratic parties, the nationalities and religion, the overseas Chinese, Taiwan, Hong Kong and Macao. {{1960-05|The line on Taiwan.}} {{1961-06-15|The forum on placing the bourgeoisie.}} {{1962-04-16|The Kazakhs' flight.}} {{1962-05|The national united front work conference.}} {{1965-07-27|The General Office on Li Zongren.}}
+    parent: china
+  - id: cal.thread.china-zhou
+    s: Zhou Enlai
+    c: 'The Premier''s day: the State Council, the plan, the guests and the visits abroad.'
+    parent: china
+  - id: cal.thread.china-zhou-cr
+    s: Cultural Revolution
+    c: 'The Premier in the Cultural Revolution''s stages: his speeches and meetings, the Center''s telegrams and notices he drafted, his instructions to the provinces and the army.'
+    parent: china-zhou
+  - id: cal.thread.china-zhou-foreign
+    s: Foreign affairs
+    c: 'The Premier''s foreign business: the guests received, the visits abroad, the talks, statements and cables. {{1960-01-28|The boundary agreement with Burma before the State Council.}} {{1960-04|Rangoon, Delhi, Kathmandu.}} {{1963-03-02|Bhutto; the boundary agreement with Pakistan.}} {{1965-06|Pakistan and Tanzania.}} {{1969-09-02..1969-09-09|Hồ Chí Minh''s death.}}'
+    parent: china-zhou
   - id: cal.thread.cities-and-housing
     s: Cities and housing
     c: Housing, the cities, and urban transit. {{1964-01-27..1964-09-02|The housing message; the Urban Mass Transportation Act; the Housing Act of 1964.}} {{1965-03-02..1965-10-21|The message on the cities; New York's Landmarks Law; the Housing and Urban Development Act of 1965; the Department created; rent supplements struck.}} {{1966-01-13..1966-11-03|Weaver to HUD; demonstration cities, the message and the act; rent supplements funded.}} {{1967-01-12|The Douglas commission.}} {{1968-02-22..1968-08-01|"The Crisis of the Cities"; New York's Urban Development Corporation; the Housing and Urban Development Act of 1968.}} {{1969-01-17|The first report on the housing goals.}}
