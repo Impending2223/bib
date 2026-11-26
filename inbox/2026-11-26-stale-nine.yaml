@@ -34,6 +34,14 @@ ops:
       id: cal.1962-02-03.china-leadership-5
       row: "w.chen-yi-nianpu 909"
       on: "Peking Hotel."
+  - src:
+      id: cal.1962-02-03.china-leadership-5
+      row: "w.chen-yi-nianpu 909"
+      on: time
+  - src:
+      id: cal.1962-02-03.china-leadership-5
+      row: "w.zhou-enlai-waijiao-huodong 329"
+      on: time
   - edit:
       id: cal.1962-03-20.china-leadership-6
       base: b3d0f21a
@@ -42,7 +50,14 @@ ops:
           c: '10270514'
           rows:
             - "w.jianguo-yilai-mao-zedong XVI, 257–260: all"
-            - "via w.jianguo-yilai-mao-zedong XVI, 258 n.2: all"
+  - src:
+      id: cal.1962-03-20.china-leadership-6
+      row: "via w.jianguo-yilai-mao-zedong XVI, 258 n.2"
+      on: "Mao to Tian Jiaying ... through, \"very good, weighty\";"
+  - src:
+      id: cal.1962-03-20.china-leadership-6
+      row: "via w.jianguo-yilai-mao-zedong XVI, 258 n.2"
+      on: "His insertion: a backward ... a hundred-odd years at most."
   - src:
       id: cal.1962-03-20.china-leadership-6
       row: "w.mao-zedong-zhuan V, ch. 69 n.20"
@@ -76,8 +91,14 @@ ops:
           rows:
             - "w.zedong-mao-zedong-nianpu V, June 11, 1962: all"
             - "w.macfarquhar-origins-of-the-cultural III, 272: ?"
-            - "via w.macfarquhar-origins-of-the-cultural III, 272 n.65b: ?"
-            - "via w.jianguo-yilai-mao-zedong XVI, 299 n.2: all"
+  - src:
+      id: cal.1962-06-11.china-leadership
+      row: "via w.macfarquhar-origins-of-the-cultural III, 272 n.65b"
+      on: "Mao revises Xinhua's dispatch ... coast into its ranks."
+  - src:
+      id: cal.1962-06-11.china-leadership
+      row: "via w.jianguo-yilai-mao-zedong XVI, 299 n.2"
+      on: "Mao revises Xinhua's dispatch ... coast into its ranks."
   - src:
       id: cal.1962-06-11.china-leadership
       row: "w.jianguo-yilai-mao-zedong XVI, 298–300"
@@ -94,8 +115,14 @@ ops:
           c: '7eb56c42'
           rows:
             - "w.jianguo-yilai-mao-zedong XVI, 534–537: all"
-            - "via w.jianguo-yilai-mao-zedong XVI, 535 n.1a: all"
-            - "via w.jianguo-yilai-mao-zedong XVI, 535 n.1b: all"
+  - src:
+      id: cal.1963-05-02.china-leadership-8
+      row: "via w.jianguo-yilai-mao-zedong XVI, 535 n.1a"
+      on: "Song's village, family, commune and factory histories for the young."
+  - src:
+      id: cal.1963-05-02.china-leadership-8
+      row: "via w.jianguo-yilai-mao-zedong XVI, 535 n.1b"
+      on: "Mao drafts, for the ... by steps and pilots;"
   - src:
       id: cal.1963-05-02.china-leadership-8
       row: "w.mao-zedong-zhuan VI, ch. 72"
@@ -112,6 +139,10 @@ ops:
       id: cal.1963-05-02.china-leadership-8
       row: "via w.mao-zedong-zhuan VI, ch.72 n.7"
       on: date
+  - src:
+      id: cal.1963-05-02.china-leadership-8
+      row: "via w.mao-zedong-zhuan VI, ch.72 n.7"
+      on: "unite over 90 percent ... histories for the young."
   - edit:
       id: cal.1964-06-17.civil-rights-bill-4
       base: dda0743b
@@ -157,10 +188,43 @@ ops:
       set:
         src:
           c: '73718808'
-          rows:
-            - "via w.macfarquhar-origins-of-the-cultural III, 458 n.156a: B, C"
-            - "via w.macfarquhar-origins-of-the-cultural III, 458 n.156b: B, C"
-            - "via w.macfarquhar-origins-of-the-cultural III, 459 n.157: B, C"
+          rows: []
+        variants:
+          - field: date
+            value: '1966-05-09'
+            witness: w.jian-zhou-enlai
+            reads: the series of enlarged Politburo meetings chaired by Liu begins May 9
+            at: '540'
+  - src:
+      id: cal.1966-05-04.china-leadership
+      row: "via w.macfarquhar-origins-of-the-cultural III, 459 n.157"
+      on: "Peking. The enlarged Politburo ... Shaoqi presiding; Mao absent."
+  - src:
+      id: cal.1966-05-04.china-leadership
+      row: "via w.macfarquhar-origins-of-the-cultural III, 459 n.157"
+      on: "Kang Sheng, Chen Boda ... with three days' briefing;"
+  - src:
+      id: cal.1966-05-04.china-leadership
+      row: "w.shaoqi-liu-shaoqi-nianpu-chronology II, 637–638"
+      on: "On the last day Liu criticizes himself."
+  - src:
+      id: cal.1966-05-04.china-leadership
+      row: "w.macfarquhar-maos-last-revolution 36–37"
+      on: "Kang Sheng, Chen Boda ... with three days' briefing;"
+  - src:
+      id: cal.1966-05-04.china-leadership
+      row: "w.peng-zhen-nianpu-1902 IV, 484"
+      on: "Kang Sheng, Chen Boda ... with three days' briefing;"
+  - cite:
+      id: cal.1966-05-04.china-leadership
+      item: "[[w.yang-jisheng-tiandi-fanfu]], I, 159"
+      on: "Liu, Zhou Enlai and Ye Jianying take turns in the chair."
+  - variant:
+      id: cal.1966-05-04.china-leadership
+      on: "Kang Sheng, Chen Boda ... with three days' briefing;"
+      witness: w.yang-jisheng-tiandi-fanfu
+      reads: the first four days, briefings by Kang Sheng, Zhang Chunqiao and Xiao Hua, Chen Boda speaking after Zhang
+      at: I, 158–59
   - src:
       id: cal.1966-05-04.china-leadership
       row: "w.zedong-mao-zedong-nianpu V, May 4, 1966"
@@ -309,9 +373,6 @@ ops:
       id: cal.1966-05-04.china-leadership
       row: "w.peng-dehuai-nianpu 795"
       on: "Peking. The enlarged Politburo meeting, Liu Shaoqi presiding;"
-  - check:
-      id: cal.1966-05-04.china-leadership
-      text: "Check: Liu, Zhou Enlai and Ye Jianying taking turns in the chair: no source read at its cited page gives it; [[w.yang-jisheng-tiandi-fanfu]] gives it on I, 159, the page after the one cited."
   - edit:
       id: cal.1966-05-17.china-leadership-7
       base: db06868b
@@ -321,6 +382,10 @@ ops:
           rows:
             - "w.yang-jisheng-tiandi-fanfu I, 162: all"
             - "w.pu-weihua-zalan-jiu-shijie 82: all"
+  - src:
+      id: cal.1966-05-17.china-leadership-7
+      row: "w.pu-weihua-zalan-jiu-shijie 82"
+      on: time
   - edit:
       id: cal.1967-11-29.robert-kennedy-2
       base: dc0a216f
