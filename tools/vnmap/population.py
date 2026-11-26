@@ -16,11 +16,6 @@ Writes sources/indochina/population.geojson: for 1960 (band 60) and 1970 (band 7
 geodesic area (pyproj.Geod), in persons a km2, put in CLASSES and traced as polygons (rasterio.features.shapes;
 simplified as a coverage at 0.004 degrees, so neighbours still meet), one feature a class and year:
 {"y": 1960, "c": k}; k indexes CLASSES (the lower bound of the class).
-
-A second frame (Nov. 26, 2026; tools/vnmap/frames.py): `python3 -I tools/vnmap/population.py ISIMIP_NC china` writes
-sources/china/population.geojson from the same file, the same classes and years, on a grid three times as coarse:
-3 x 3 of the 5' cells summed (15', about 25 km) before the density is taken, the model's own cells being finer than
-China's map can show in a file a browser should fetch.
 """
 import json
 import os
@@ -33,32 +28,19 @@ import rasterio.windows
 import shapely
 from pyproj import Geod
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import frames  # noqa: E402
-
-F, ARGS = frames.get(sys.argv[1:])        # the frame: Indochina's, or the one the command line names
-OUT = F["out"]
-FRAME = F["frame"]                        # base.FRAME
+ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+OUT = os.path.join(ROOT, "sources", "indochina")
+FRAME = (97.5, 5.5, 113.0, 26.0)          # base.FRAME
 CLASSES = [0, 1, 10, 25, 50, 100, 250, 500, 1000]     # persons a km2: 0-1, 1-10, ..., 1,000 and over
 BANDS = {1960: 60, 1970: 70}              # time = years since 1850; band 1 is 1901
 
 
-def rnd(c, p=F["pop_prec"]):
+def rnd(c, p=3):
     return [rnd(x, p) for x in c] if isinstance(c[0], (list, tuple)) else [round(c[0], p), round(c[1], p)]
 
 
-def blocks(pop, area, wtr, k):
-    """The grid k times as coarse: each k x k block's people summed (a block with no cell of the model stays
-    empty), its area the sum of its cells', and the grid's transform."""
-    h, w = (pop.shape[0] // k) * k, (pop.shape[1] // k) * k
-    b = pop[:h, :w].reshape(h // k, k, w // k, k)
-    some = np.isfinite(b).any(axis=(1, 3))
-    tot = np.where(some, np.nansum(b, axis=(1, 3)), np.nan)
-    return tot, area[:h].reshape(h // k, k).sum(axis=1) * k, wtr * rasterio.Affine.scale(k)
-
-
 def main():
-    nc = ARGS[0]
+    nc = sys.argv[1]
     geod = Geod(ellps="WGS84")
     feats = []
     with rasterio.open(f'NETCDF:"{nc}":total-population') as r:
@@ -77,18 +59,15 @@ def main():
             assert r.tags(band)["NETCDF_DIM_time"] == str(year - 1850), r.tags(band)
             pop = r.read(band, window=win).astype(np.float64)
             pop[pop > 1e19] = np.nan
-            gtr, garea = wtr, area
-            if F["pop_cells"] > 1:
-                pop, garea, gtr = blocks(pop, area, wtr, F["pop_cells"])
-            dens = pop / garea[:, None]
+            dens = pop / area[:, None]
             cls = np.full(dens.shape, -1, np.int16)
             ok = np.isfinite(dens)
             cls[ok] = np.digitize(dens[ok], CLASSES[1:])
             gs, vals = [], []
-            for geom, v in rasterio.features.shapes(cls, mask=cls >= 0, transform=gtr):
+            for geom, v in rasterio.features.shapes(cls, mask=cls >= 0, transform=wtr):
                 gs.append(shapely.geometry.shape(geom))
                 vals.append(int(v))
-            simp = shapely.coverage_simplify(np.array(gs, dtype=object), F["pop_tol"])
+            simp = shapely.coverage_simplify(np.array(gs, dtype=object), 0.004)
             by = {}
             for g, v in zip(simp, vals):
                 by.setdefault(v, []).append(g)
