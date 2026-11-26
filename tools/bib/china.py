@@ -17,7 +17,6 @@ STYLE
     (.vng), its styles taken from there.
 """
 import html
-import os
 
 from . import calsplit, cnmap, datelist, indochina, loose, places as gaz, store
 
@@ -130,40 +129,6 @@ def page(series, template):
             'are in their counties, as they were until 1982. Taichung, Tainan and Kaohsiung are each a city and a '
             'county, as before 2010, and Xiaogang is Kaohsiung county\'s. '
             f'<a href="{README}china/README.md">Each adjustment</a>.</p>')
-    have = {k for k, f in cnmap.FILES.items() if os.path.exists(os.path.join(cnmap.SRC, f))}
-    if cnmap.has_cities():
-        have.add("cities")
-    # the layers, each named only where its file is there (the fixture has none): the boxes' line, then the sources'
-    box = [t for k, t in (("dem", "relief, elevation"), ("contours", "contours"),
-                          ("rivers", "rivers and lakes (a reservoir from its dam's year)"), ("koppen", "climate"),
-                          ("climate", "rain by month"), ("pop", "population (1960 or 1970, modelled)"),
-                          ("cities", "the cities' populations as printed then")) if k in have]
-    boxes = ("; " + ", ".join(box[:-1]) + (" and " if box[1:] else "") + box[-1]) if box else ""
-    lay = [t for k, t in (
-        ("dem", "Relief, elevation, depths and contours: NOAA National Centers for Environmental Information, "
-                "<i>ETOPO 2022 Global Relief Model</i> (2022), doi:10.25921/fd45-gt74 (public domain), its grid of 30 "
-                "arc-seconds, served as elevation tiles that the map shades itself. The bands run on above 2,000 m, to "
-                "5,000 m and over; land below sea level is counted 0 m."),
-        ("rivers", "Rivers: HydroRIVERS v1.0 (Lehner and Grill, 2013), those with a long-term mean flow of 30 m³/s and "
-                   "over; their names from SWORD v17c (Altenau et al., 2021; CC BY 4.0), in its own English forms. "
-                   "Lakes: HydroLAKES v1.0 (Messager et al., 2016; CC BY 4.0), those of 10 km² and over, the dams' "
-                   "years from GRanD (Lehner et al., 2011), as Lehner's Dam Impoundment Database gives them (CC BY "
-                   "4.0). Rivers are today's courses; reservoirs without a year are not thereby older than 1969."),
-        ("koppen", "Climate: Köppen–Geiger classes, 1961–1990, Beck et al. (2023), CC BY 4.0."),
-        ("climate", "Rain and temperature: CRU CL 2.0, monthly means of 1961–1990 (New et al., 2002), Climatic Research "
-                    "Unit, University of East Anglia, in cells of half a degree, each the mean of nine of its cells; "
-                    "the derived grid under the Open Database License."),
-        ("pop", "Population: ISIMIP3a's gridded historical population, which ISIMIP takes from HYDE 3.2.1 (Klein "
-                "Goldewijk et al., <i>Earth System Science Data</i> 9: 927–953, 2017), in cells of a quarter of a "
-                "degree, nine of its cells summed: a model, made later from national totals and later maps, not a "
-                "census (ISIMIP: CC BY 4.0)."),
-        ("cities", "Cities: the United Nations' <i>Demographic Yearbook</i>, 1966 (table 6) and 1970 (table 8), each "
-                   "figure cited by page. For the mainland these print the census of June 30, 1953 and the estimates "
-                   "of the end of 1957, as the State Statistical Bureau gave them out, and nothing later."),
-    ) if k in have]
-    layers = ('<p class="logic">The layers. Each is made from the source of the same layer of the map of Indochina, by '
-              'the same script, about four times as coarse, since this map opens about four times as far out. '
-              + " ".join(lay) + f' <a href="{README}china/README.md">The files, citations and licenses</a>.</p>') if lay else ""
     main = [
         f"<h1>China, {ys[0]}–{ys[-1]}</h1>",
         f'<p class="lede">China: the calendar\'s entries placed on one map, {n_e:,} entries whose place is in the '
@@ -178,7 +143,7 @@ def page(series, template):
         'linked to its entry. The gazetteer\'s other places small and gray. The provinces, autonomous regions and '
         'municipalities as of 1966, plain; or the countries\' borders alone; or land and water. A tap on a province '
         'names it and lists the entries placed in the province as a whole. Boxes: the names of the provinces; the '
-        f'counties of 1964, drawn from later lines{boxes}. Two fingers or the mouse to move the map; a pinch, a double tap, '
+        'counties of 1964, drawn from later lines. Two fingers or the mouse to move the map; a pinch, a double tap, '
         'the buttons, or Ctrl or ⌘ and the wheel to zoom, to 64 times; full screen from the last button. Above the '
         'map, the year, and the span\'s two fields, From and to: the map shows the entries dated within them. A '
         'year\'s button fills them. A date typed by hand reads in the calendar\'s form (Apr. 15, 1961) or as '
@@ -214,13 +179,11 @@ def page(series, template):
         '<p class="logic">The places. Wikidata\'s or Wikipedia\'s coordinates, never guessed; a place neither has is '
         'not on the map, and its row says so. A province named as a place has no point: a tap on the province lists '
         'its entries. The province and the county by point in polygon, so as approximate as the lines.</p>',
-        layers,
         '<p class="logic">The software. The map is drawn by MapLibre GL JS 6.13.0 (BSD-3-Clause; © MapLibre '
         'contributors, and Mapbox for its code of 2020 and before), the names set in Libre Franklin (SIL Open Font '
         'License 1.1, © The Libre Franklin Project Authors); both served from this site, with PMTiles 4.5.0 '
-        f'(BSD-3-Clause, © Protomaps LLC), through which the relief\'s and the climate\'s tiles are read. '
-        f'<a href="{README}vendor/README.md">Their licenses</a>.</p>',
-        indochina.HYDROSHEDS if "rivers" in have else "",
+        f'(BSD-3-Clause, © Protomaps LLC), which the maps of Indochina use. <a href="{README}vendor/README.md">Their '
+        'licenses</a>.</p>',
     ]
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", f"China, {ys[0]}–{ys[-1]}").replace("{{main}}", "\n".join(x for x in main if x))
