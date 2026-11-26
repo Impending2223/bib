@@ -435,3 +435,4 @@ Batch 7 (already in):
 - 12:30 pm: threads batch d reported (281 moved, 16 kept); its Opus audit is running on `notes/briefs/china-threads-read-audit-d.md`.
 - 12:31 pm: threads batch a reported (271 moved, 26 kept); its Opus audit is running on `notes/briefs/china-threads-read-audit-a.md`.
 - 12:32 pm: threads batch e reported (283 moved, 14 kept); its Opus audit is running on `notes/briefs/china-threads-read-audit-e.md`.
+- 12:32 pm: threads batch c reported (287 moved, 10 kept); its Opus audit is running on `notes/briefs/china-threads-read-audit-c.md`.
