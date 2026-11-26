@@ -217,9 +217,9 @@ def test_retired_part_is_its_own_threads(cal, series, monkeypatch):
     assert "names-ba-blanch.html" not in got
 
 
-def test_onward_script_on_a_page_of_entries(built):
+def test_onward_script_on_a_threads_page(built):
     assert "sent on to the calendar" in built["threads-cuba.html"]
-    assert "sent on to the calendar" not in built["threads-elections-1960.html"]
+    assert "sent on to the calendar" in built["threads-elections-1960.html"]     # its entries may have left it
     assert "sent on to the calendar" not in built["threads.html"]
 
 

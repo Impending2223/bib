@@ -28,11 +28,10 @@ STYLE
  5. The head: the thread's name; its statement for the page's span (statements.render), where STATEMENT; a line of
     what the page holds and its count, the thread in the calendar's index, its parent's page; then its subthreads
     (STYLE 9; on a split thread's part, their names in the line). Then, on a split thread's part, the parts' bar; then
-    the thread's map (the owner, Nov. 25, 2026: "Put them on the
-    relevant threads top, scoped to the thread's content and the page's range"): the map of China on the pages of
-    `china` and every thread under it, the map of Indochina on those of the threads of Vietnam and Laos, the thread's
-    own entries alone, its span's fields on the page's range; none where the page's range holds no placed entry
-    (tools/bib/maps.py, STYLE 4).
+    the thread's map (the owner, Nov. 25, 2026: "Put them on the relevant threads top, scoped to the thread's content
+    and the page's range"): the map of China on the pages of `china` and every thread under it, the map of Indochina
+    on those of the threads of Vietnam and Laos, the thread's own entries alone, its span's fields on the page's
+    range; none where the page's range holds no placed entry (tools/bib/maps.py, STYLE 4).
  6. The budget (pages.py; pages.yaml `threads:`, written by `./bib pages --plan`): a thread's page over budget is in
     parts by date, a year a part, a year over in quarters, a quarter over in months, small ones in a row packed to the
     fill; a part `threads-<slug>-<its first unit>` (threads-china-leadership-1960Q1), labelled by its span ("1961",
@@ -416,10 +415,10 @@ def _head(series, lst, slug, text_html, lo, hi, n, whole):
                                             if whole and fam != n else "")
                 + "Each as the calendar gives it; its □ leads to it there.")
     links = [f'<a href="cal.html#{esc(lst.key)}.thread.{esc(slug)}">The thread in the calendar</a>']
-    par = te.get("parent")
-    if par and par != slug and par in slugs(lst):
+    par, have = te.get("parent"), slugs(lst)
+    if par and par != slug and par in have:
         links.append(f'Part of <a href="{page_of(par)}.html">{esc(build.thread_name(lst, par))}</a>')
-    kids = [s for s in slugs(lst) if lst.threads()[s].get("parent") == slug and s != slug]
+    kids = [s for s in have if lst.threads()[s].get("parent") == slug and s != slug]
     if kids and not whole:                  # a part: the subthreads' names; the list is on the thread's own page
         links.append("Subthreads: " + ", ".join(
             f'<a href="{page_of(s)}.html">{esc(store_plain(lst.threads()[s].get("s") or s))}</a>' for s in kids))
@@ -465,7 +464,7 @@ def thread_page(series, linker, template, lst, slug, ents, part=None, ps=None):
     main = [f"<h1>{esc(name)}" + (f", {esc(ps[part]['label'])}" if ps else "") + "</h1>"]
     main += _head(series, lst, slug, text_html, lo, hi, len(ents), not ps)
     if not ents and not ps:                  # entries only under it: the head alone (STYLE 9)
-        return _wrap(series, template, title, main)
+        return _wrap(series, template, title, main, onward(lst.key))
     if ps:
         main.append(pages.bar(page_of(slug), ps, part))
     main += [f for f in [maps.thread_figure(series, lst, slug, lo, hi)] if f]   # the thread's map (STYLE 5)
