@@ -625,3 +625,12 @@ Defaults taken on what the owner left open, set out for them in `notes/proposals
 - A system goes into `also:` only where its score is strong, since the systems' word lists tested worst.
 - Applies to: `tools/threads/china/`, `notes/threads/china-assign.tsv`, `lists/cal/th.yaml`, the entries of the China threads. To overrule: name the thread and where it should sit; the script runs again.
 
+Under ruling 59, the re-threading as applied (Nov. 25, about 8:25 p.m.), on the Opus audit of the tree (`notes/threads/china-tree-audit.md`: 1,015 entries read whole). Defaults taken, each on the audit's verdict:
+
+- The threads the audit found fit are applied: all the episodes, the six stages, Bomb and Nuclear diplomacy, Mao, Zhou and Liu with the four subthreads, Foreign affairs, the Center's daily work, Political-legal work, Finance and economy, United front.
+- Three threads it found unfit as a primary thread are not made anyone's primary thread: Propaganda and culture (22 of 30 right), Army (22 of 30) and Agriculture's own entries (5 of 10). Their entries stay in "China: Leadership" and carry the thread as a secondary one, so each thread's page lists them, until they are read entry by entry. Agriculture's three episodes are applied under it.
+- Organization's 376 primary entries are held, unchanged, until a fresh sample is read under a rule the audit mended last.
+- The Center's daily work is never a secondary thread (it fit 7 times in 38 as one).
+- An entry that moves does not keep "China: Leadership" in `also:`. This changes ruling 30's default: that thread's page then lists only the entries that fit nothing. No link breaks, since links go to entries by id.
+- To overrule: name the thread; the script (`tools/threads/china/apply.py`) runs again from the rules.
+
