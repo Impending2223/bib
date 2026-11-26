@@ -395,7 +395,7 @@ class Figure {
       properties: Object.assign({}, f.properties, {n: (this.at[f.properties.id] || []).length})}))};
   }
 
-  places() { if (this.map) this.map.getSource('places').setData(this.placesFC()); }
+  places() { if (this.map && this.ready) this.map.getSource('places').setData(this.placesFC()); }
 
   async start(ml, M) {
     this.M = M;
@@ -421,6 +421,7 @@ class Figure {
     this.fig._map = map;
     map.on('load', () => {
       this.ready = true;
+      this.places();                      // a span changed while the map was loading
       if (this.view) map.jumpTo(this.view);   // a map given up and drawn again keeps its view
       const z = this.homeZoom = this.view ? this.homeZoom : map.getZoom();
       map.setMaxZoom(z + 6);              // 64 times the first view (STYLE 4)
