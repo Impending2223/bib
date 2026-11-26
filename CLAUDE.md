@@ -153,6 +153,7 @@ The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026
 - `indicators.md`, `armed-forces.md`, `budgets-bills.md`: economic indicators, the war's tables, forces, budgets, bills, appropriations.
 - `reading-a-copy.md`: getting a source from the Drive whatever its size, finding the page, reading a scan a page at a time, records online, cleaning up. Read it before you fetch or cite any page; every brief for a reader or an auditor points to it and restates none of it.
 - `indochina-maps.md`: the maps of Indochina.
+- `china-map.md`: the map of China (`china.html`): the provinces of 1966, the counties of 1964, the gazetteer's places; one client with the maps of Indochina.
 - `ebooks-feeds.md`, `desk.md`: the ebooks and feeds; the owner's desk.
 - `pages.md`: the page budget: `./bib pages`, the splits it directs (`pages.yaml`), their pointers and old addresses.
 

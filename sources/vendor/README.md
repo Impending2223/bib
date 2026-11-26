@@ -1,6 +1,6 @@
 # Vendored libraries and fonts
 
-Served from the site itself (the build copies each directory to `build/vnmap/<dir>/`), so the maps of Indochina depend on no CDN. Each directory is named by its exact version; to update, fetch the new version from npm (`npm pack <name>@<version>`), copy the same files into a directory of the new name, change the name in `tools/bib/vnmap.py` (`MAPLIBRE`, `PMTILES`, `FONT`), and rerun `./bib check` (it fails on a missing file).
+Served from the site itself (the build copies each directory to `build/vnmap/<dir>/`), so the maps of Indochina and the map of China (`tools/bib/cnmap.py`, the same client) depend on no CDN. Each directory is named by its exact version; to update, fetch the new version from npm (`npm pack <name>@<version>`), copy the same files into a directory of the new name, change the name in `tools/bib/vnmap.py` (`MAPLIBRE`, `PMTILES`, `FONT`), and rerun `./bib check` (it fails on a missing file).
 
 | directory | what | from | license |
 |---|---|---|---|

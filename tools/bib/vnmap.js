@@ -347,6 +347,7 @@ class Figure {
       map.setMinZoom(Math.max(0, z - 1.5));
       map.setLayerZoomRange('names-2', z + 1.1, 24);   // rank 2 from about twice the first view, rank 3 from six times
       map.setLayerZoomRange('names-3', z + 2.6, 24);
+      if (map.getLayer('lab-county')) map.setLayerZoomRange('lab-county', z + 2.6, 24);   // the counties' names with rank 3's
       this.apply();
       const at = this.fig.querySelector('.maplibregl-ctrl-attrib');   // the credits folded to their button
       if (at) { at.classList.remove('maplibregl-compact-show'); at.removeAttribute('open'); }

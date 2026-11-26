@@ -75,11 +75,15 @@ CODE = {"10002": 11, "10003": 12, "10004": 13, "10005": 14, "10006": 15, "10007"
         "10012": 32, "10013": 33, "10014": 34, "10015": 35, "10016": 36, "10017": 37, "10018": 41, "10019": 42, "10020": 43,
         "10021": 44, "10022": 45, "10023": 46, "10024": 50, "10025": 51, "10026": 52, "10027": 53, "10028": 54, "10029": 61,
         "10030": 62, "10031": 63, "10032": 64, "10033": 65}
+COLONY = {"Xianggang": "hong-kong", "": "macau"}       # the file's names for Hong Kong and Macau
 MUNI = {"10002": "北京市", "10003": "天津市", "10011": "上海市", "10024": "重庆市"}
 PARENT = {"10003": "10004", "10023": "10021", "10024": "10025"}     # a province made since 1964: where its units were
 HAN = "一-鿿"
 KIND = r"(?:自治县|自治旗|县|市|旗|特区|林区|矿区|工矿区|办事处|设治局|行政区|镇|区|管理局|行政委员会|工农区)"
-SUF = r"(各族自治县|[%s]{1,8}族自治县|自治县|自治旗|县|市|旗|特区|林区|矿区|工矿区|办事处|设治局|行政区|镇|区|管理局)$" % HAN
+ETHN = ("蒙古|回|藏|维吾尔|苗|彝|壮|僮|布依|朝鲜|满|侗|瑶|白|土家|哈尼|哈萨克|傣|黎|傈僳|佤|畲|高山|拉祜|水|东乡|纳西|景颇|柯尔克孜|土|"
+        "达斡尔|仫佬|羌|布朗|撒拉|毛南|毛难|仡佬|锡伯|阿昌|普米|塔吉克|怒|乌孜别克|俄罗斯|鄂温克|德昂|崩龙|保安|裕固|京|塔塔尔|独龙|鄂伦春|"
+        "赫哲|门巴|珞巴|基诺|各")
+SUF = r"((?:(?:%s)族?)*自治(?:县|旗)|县|市|旗|特区|林区|矿区|工矿区|办事处|设治局|行政区|镇|区|管理局)$" % ETHN
 
 
 # ---- the record: fetching and reading 行政区划网's pages
@@ -213,6 +217,12 @@ def record(d):
         if m and m.group(1) in LISTS:
             p = page(open(os.path.join(d, f), "rb").read(), m.group(1))
             if p and p["units"]:
+                seen, once = set(), []              # a page that prints a prefecture twice (before and after a change)
+                for u in p["units"]:
+                    if u.get("d") or u["n"] not in seen:
+                        once.append(u)
+                    seen.add(u["n"]) if not u.get("d") else None
+                p["units"] = once
                 out.setdefault(m.group(1), {})[int(m.group(2))] = p
     for l, ys in out.items():           # a year's page that lists far fewer units than its neighbours is not a list
         n = {y: sum(1 for u in p["units"] if not u.get("d")) for y, p in ys.items()}
@@ -232,15 +242,18 @@ def good(rec, l):
 # ---- names
 
 def base(n):
-    """A unit's name without its kind: 阳曲县 -> 阳曲; a one-character name keeps its kind (应县)."""
+    """A unit's name without its kind: 阳曲县 -> 阳曲; 桓仁满族自治县 -> 桓仁; a one-character name keeps its kind (应县);
+    a name that is all people and kind keeps the people (鄂伦春自治旗 -> 鄂伦春)."""
     b = re.sub(SUF, "", n)
+    if len(b) < 2 and re.search(r"自治(县|旗)$", n):
+        b = re.sub(r"族?自治(县|旗)$", "", n)
     return b if len(b) >= 2 else n
 
 
 def kind(n):
     m = re.search(SUF, n)
     k = m.group(1) if m else ""
-    return ("autonomous county" if k.endswith("自治县") else "autonomous banner" if k == "自治旗" else
+    return ("autonomous county" if k.endswith("自治县") else "autonomous banner" if k.endswith("自治旗") else
             {"县": "county", "市": "city", "旗": "banner", "镇": "town", "特区": "special district", "林区": "forest district",
              "矿区": "mining district", "工矿区": "mining district", "办事处": "office", "设治局": "administrative bureau",
              "行政区": "administrative district", "区": "district", "管理局": "administration"}.get(k, "unit"))
@@ -254,8 +267,8 @@ def pinyin(n):
 def romanise(n):
     """A name for the map, in pinyin by rule: the base, capitalised (the characters are kept beside it)."""
     from pypinyin import lazy_pinyin
-    b = re.sub(SUF, "", n) or n
-    b = re.sub(r"(各族|[%s]{1,8}族)$" % HAN, "", b) or b
+    b = base(n)
+    b = re.sub(r"(县|市|旗|区)$", "", b) if len(b) > 1 else b
     syl = [s.replace("ü", "u").replace("v", "u") for s in lazy_pinyin(b)]
     out = ""
     for i, s in enumerate(syl):
@@ -269,8 +282,10 @@ def sentences(notes):
     return [s for s in re.split(r"[。；;\n]", notes) if s.strip()]
 
 
-def find_prev(name, prev):
-    """The unit of the year before that is this one: the same name, or the same base with another kind."""
+def find_prev(name, prev, now=None):
+    """The unit of the year before that is this one: the same name, or the same base with another kind; or, given
+    this year's list (`now`), a name one character off that this year's list no longer has (the lists' own slips:
+    刚察县 and 冈察县)."""
     names = [u["n"] for u in prev if not u.get("d")]
     if name in names:
         return name
@@ -281,6 +296,12 @@ def find_prev(name, prev):
     if len(same) > 1:                   # X市 and X县 both: the county for a county, the city for anything else
         want = "县" if name.endswith("县") else "市"
         return next((n for n in same if n.endswith(want)), same[0])
+    if now is not None and len(name) >= 3:
+        cur = {base(u["n"]) for u in now if not u.get("d")}
+        off = [n for n in names if len(n) == len(name) and n[-1] == name[-1] and base(n) not in cur
+               and sum(a != b for a, b in zip(n, name)) == 1]
+        if len(off) == 1:
+            return off[0]
     return None
 
 
@@ -325,7 +346,7 @@ def from_notes(name, notes, prev):
 def walk(lid, name, year, rec):
     """A unit of `year` walked back to 1964: (list, the 1964 name or None, basis, the changes used)."""
     basis, via = "same", []
-    rank = {"same": 0, "moved": 1, "renamed": 2, "part": 3, "first of several": 4, "unresolved": 5}
+    rank = {"same": 0, "moved": 1, "renamed": 2, "part": 3, "paired": 4, "first of several": 5, "unresolved": 6}
     y = year
     while y > Y0:
         py = max((z for z in good(rec, lid) if z < y), default=None)        # the year before that has a list
@@ -337,12 +358,34 @@ def walk(lid, name, year, rec):
         prev = rec[lid][py]
         notes = "\n".join(rec[lid][z]["notes"] for z in range(py + 1, y + 1) if z in rec[lid])
         this_y, y = y, py
-        p = find_prev(name, prev["units"])
+        p = find_prev(name, prev["units"], rec[lid][this_y]["units"] if this_y in good(rec, lid) else None)
         if p:
             name = p
             continue
         y = this_y
         got = from_notes(name, notes, prev["units"])
+        if not got:                     # a list that drops a prefecture for a year: the name in an earlier list
+            for z in sorted((z for z in good(rec, lid) if py - 3 <= z < py), reverse=True):
+                p = find_prev(name, rec[lid][z]["units"])
+                if p and not any(base(name) in rec[lid][w]["notes"] for w in range(z + 1, y + 1) if w in rec[lid]):
+                    via.append(f"{py}: not in the list of {py}; in that of {z}")
+                    name, y, got = p, z, "gap"
+                    break
+            if got == "gap":
+                continue
+        if not got and this_y in good(rec, lid):    # the changes are silent: one name goes as this one comes
+            now = [u["n"] for u in rec[lid][this_y]["units"] if not u.get("d")]
+            before = [u["n"] for u in prev["units"] if not u.get("d")]
+            gone = [n for n in before if base(n) not in {base(x) for x in now}]
+            come = [n for n in now if base(n) not in {base(x) for x in before}]
+            share = [n for n in gone if set(base(n)) & set(base(name)) - set("县市旗区")]
+            pair = share[0] if len(share) == 1 else gone[0] if len(gone) == 1 and len(come) == 1 else None
+            if pair:
+                via.append(f"{this_y}: {pair} leaves the list as {name} enters it; the year's changes are not given")
+                if rank["paired"] > rank[basis]:
+                    basis = "paired"
+                name, y = pair, py
+                continue
         if got:
             old, b, s = got
             via.append(f"{y}: {s[:120]}")
@@ -381,26 +424,38 @@ def main():
                   [shapely.make_valid(shapely.from_wkb(g)) for g in geom]))
     by_cgaz = {v[2]: k for k, v in LISTS.items()}
     provs = [(by_cgaz[n], g) for n, g in cg.items() if n in by_cgaz]
+    colonies = [g for n, g in cg.items() if n.startswith(("Hong Kong", "Macau"))]
     feats = json.load(open(os.path.join(d, "gb", "adm2.geojson"), encoding="utf-8"))["features"]
     units = []
     for f in feats:
         g = shapely.make_valid(shape(f["geometry"]))
         pt = g.representative_point()
         hit = [l for l, pg in provs if pg.contains(pt)]
+        if any(c.contains(pt) or c.distance(pt) < 0.02 for c in colonies) or (f["properties"]["shapeName"] or "") in COLONY:
+            continue                        # Hong Kong, Macau (the file's Xianggang, and its unit without a name)
         if not hit:
             near = min(provs, key=lambda t: t[1].distance(pt))
             if near[1].distance(pt) > 0.25:
                 continue                    # Taiwan, Hong Kong, Macau: not the PRC's units
             hit = [near[0]]
-        near2 = [l for l, pg in provs if l != hit[0] and pg.distance(g) < 0.05]
+        near2 = [l for l, pg in sorted(provs, key=lambda t: t[1].distance(g)) if l != hit[0] and pg.distance(g) < 0.3]
         lid = hit[0]
         if not good(rec, lid) and lid in PARENT:        # Chongqing: no list of its own before 1997; Sichuan's
             lid = PARENT[lid]
-        units.append({"id": f["properties"]["shapeID"], "file": f["properties"]["shapeName"] or "", "list": lid, "near": near2})
+        units.append({"id": f["properties"]["shapeID"], "file": f["properties"]["shapeName"] or "", "list": lid, "near": near2,
+                      "g": g})
     print(len(feats), "units in the file;", len(units), "in the PRC's provinces")
     # the file's year: the lists' year whose names match most
-    pin = {(l, y): {pinyin(u["n"]): u["n"] for u in p["units"] if not u.get("d")}
-           for l, ys in rec.items() for y, p in ys.items() if not p.get("bad")}
+    pin, pref = {}, {}
+    for l, ys in rec.items():
+        for y, p in ys.items():
+            if p.get("bad"):
+                continue
+            d = pin[(l, y)] = {}
+            for x in p["units"]:
+                if not x.get("d"):
+                    d.setdefault(pinyin(x["n"]), []).append(x["n"])
+                    pref[(l, y, x["n"])] = x.get("pref") or ""
     score = collections.Counter()
     for y in range(1980, Y1 + 1):
         score[y] = sum(1 for u in units if u["file"].lower() in pin.get((u["list"], y), {}))
@@ -414,22 +469,107 @@ def main():
         order = [V] + sorted((y for y in range(1980, Y1 + 1) if y != V), key=lambda y: abs(y - V))
         for y in order:                                # the same pinyin, in its province, the file's year first
             if f in pin.get((u["list"], y), {}):
-                u.update(zh=pin[(u["list"], y)][f], year=y, match="name" if y == V else "name, another year")
+                got = pin[(u["list"], y)][f]
+                u.update(zh=got[0], year=y, match="name" if y == V else "name, another year", among=got if len(got) > 1 else None)
                 break
-        if not u["zh"]:                                # the nearest spelling in its province
-            cand = pin.get((u["list"], V), {})
-            best = difflib.get_close_matches(f, list(cand), n=1, cutoff=0.82)
-            if best:
-                diff = sum(1 for o in difflib.ndiff(f, best[0]) if o[0] in "+-")
-                u.update(zh=cand[best[0]], match="spelling" if diff <= 2 else "spelling, a guess")
         if not u["zh"]:                                # the same pinyin in a neighbouring province
             for l in u["near"]:
                 for y in order:
                     if f in pin.get((l, y), {}):
-                        u.update(zh=pin[(l, y)][f], list=l, year=y, match="name, the next province")
+                        got = pin[(l, y)][f]
+                        u.update(zh=got[0], list=l, year=y, match="name, the next province", among=got if len(got) > 1 else None)
                         break
                 if u["zh"]:
                     break
+        if not u["zh"]:                                # the nearest spelling: in its province, then in the next
+            for l in [u["list"]] + u["near"]:
+                for y in order:
+                    cand = pin.get((l, y), {})
+                    best = difflib.get_close_matches(f, list(cand), n=1, cutoff=0.82)
+                    if best:
+                        diff = sum(1 for o in difflib.ndiff(f, best[0]) if o[0] in "+-")
+                        if diff > 2 and l != u["list"]:
+                            continue                # a loose spelling is taken in the unit's own province only
+                        got = cand[best[0]]
+                        u.update(zh=got[0], list=l, year=y, match="spelling" if diff <= 2 else "spelling, a guess",
+                                 among=got if len(got) > 1 else None)
+                        break
+                if u["zh"]:
+                    break
+    dbg = set(os.environ.get("CN_DEBUG", "").split(","))
+    for u in units:
+        if u["file"] in dbg:
+            print("DEBUG first pass:", u["file"], u["list"], u["near"], u.get("zh"), u.get("match"), u.get("among"))
+    # two names of one pinyin in a province (魏县, 威县): each unit takes the one whose prefecture its neighbours are in
+    tree = shapely.STRtree([u["g"] for u in units])
+    for i, u in enumerate(units):
+        if not u.get("among"):
+            continue
+        votes = collections.Counter()
+        for j in tree.query(u["g"].buffer(0.05), predicate="intersects"):
+            v = units[int(j)]
+            if int(j) != i and v.get("zh") and not v.get("among") and v["list"] == u["list"]:
+                votes[pref.get((v["list"], v["year"], v["zh"]), "")] += 1
+        ranked = sorted(u["among"], key=lambda n: -votes[pref.get((u["list"], u["year"], n), "")])
+        top = [n for n in ranked if votes[pref.get((u["list"], u["year"], n), "")] == votes[pref.get((u["list"], u["year"], ranked[0]), "")]]
+        if len(top) == 1 and votes[pref.get((u["list"], u["year"], top[0]), "")] > 0:
+            u["zh"] = top[0]
+        else:
+            u.update(zh=None, match=None)           # not told apart: shown under the file's name
+    # one name, one place: where far-apart units took the same name, the better match keeps it
+    order_m = ["name", "name, another year", "spelling", "name, the next province", "spelling, a guess"]
+    claims = collections.defaultdict(list)
+    for u in units:
+        if u.get("zh"):
+            claims[(u["list"], u["zh"])].append(u)
+    for key, us in claims.items():
+        us.sort(key=lambda u: order_m.index(u["match"]))
+        keep = [us[0]]
+        for u in us[1:]:
+            if min(u["g"].distance(k["g"]) for k in keep) < 0.6:
+                keep.append(u)                      # the parts of one unit (islands, an enclave)
+            else:
+                if u["file"] in dbg:
+                    print("DEBUG dropped:", u["file"], key, [(k["file"], k["match"]) for k in keep])
+                u.update(zh=None, match=None)
+    # a rare character the file reads another way (柘城 as "tuocheng"): the one name of the province's list not yet
+    # taken, of two characters or more, that differs from the file's in one syllable alone and lies in the prefecture
+    # most of the unit's neighbours are in
+    from pypinyin import lazy_pinyin
+    taken = {(u["list"], u["zh"]) for u in units if u.get("zh")}
+    for i, u in enumerate(units):
+        if u.get("zh") or not u["file"]:
+            continue
+        f = u["file"].lower()
+        votes = collections.Counter()
+        for j in tree.query(u["g"].buffer(0.05), predicate="intersects"):
+            v = units[int(j)]
+            if int(j) != i and v.get("zh") and v["list"] == u["list"]:
+                votes[pref.get((v["list"], v["year"], v["zh"]), "")] += 1
+        hits = []
+        for y in [V] + [z for z in range(V - 4, V + 3) if z != V]:
+            for names in pin.get((u["list"], y), {}).values():
+                for n in names:
+                    if (u["list"], n) in taken or (n, y) in [(h[0], h[1]) for h in hits] or n in [h[0] for h in hits]:
+                        continue
+                    syl = [x.replace("ü", "u").replace("v", "u") for x in lazy_pinyin(n)]
+                    if len(syl) < 3:                    # a one-character name: too little to go on
+                        continue
+                    for k in range(len(syl) - 1):       # every syllable but the kind's, one at a time
+                        pat = "".join(re.escape(x) if m != k else "([a-z]{1,6})" for m, x in enumerate(syl))
+                        m2 = re.fullmatch(pat, f)
+                        if m2 and re.fullmatch(r"[^aeiou]{0,2}[aeiou]{1,3}(?:n|ng|r)?", m2.group(1)):
+                            hits.append((n, y, votes[pref.get((u["list"], y, n), "")]))
+                            break
+            if hits:
+                break
+        top = max((h[2] for h in hits), default=0)
+        if top > 0 and [h[2] for h in hits].count(top) == 1 and top == max(votes.values()):
+            n, y, w = max(hits, key=lambda h: h[2])
+            u.update(zh=n, year=y, match="one character read another way")
+            taken.add((u["list"], n))
+    for u in units:
+        u.pop("among", None)
         counts[u["match"] or "no match"] += 1
     print("matched:", dict(counts))
     # the walk back
@@ -442,7 +582,7 @@ def main():
             continue
         l, n, b, via = walk(u["list"], u["zh"], u["year"], rec)
         u.update(to={"list": l, "zh": n} if n else None, basis=b, via=via,
-                 guess=bool(b in ("first of several", "unresolved") or (u["match"] or "").endswith("a guess")))
+                 guess=bool(b in ("paired", "first of several", "unresolved") or (u["match"] or "").endswith("a guess")))
         basis[b] += 1
         if n:
             to[(l, n)].append(u["id"])
@@ -467,6 +607,7 @@ def main():
              for l in LISTS}
     for u in units:
         u.pop("near", None)
+        u.pop("g", None)
     json.dump({"file": "geoBoundaries gbOpen CHN ADM2 (CHN-ADM2-17275852), PDDL 1.0", "file_year": V,
                "record": "行政区划网 (xzqh.org), each province's lists, 1964-1996, read Nov. 26, 2026",
                "units": units, "not_shown": not_shown, "lists": lists},

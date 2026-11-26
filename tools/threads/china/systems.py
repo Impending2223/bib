@@ -133,6 +133,11 @@ OFFICE = [
 POEM = r"\b(?:poems?|verses?|calligraphy|inscriptions?|writes the name)\b"
 PERSONAL = (r"\b(?:hospital|doctors?|dentist|teeth|tooth|a cold|his cold|fever|ill\b|illness|unwell|blood pressure|X-ray|treatment|injection|check-?up|operation|convalesc|rests?\b|resting|on leave|sick leave|"
             r"swims?|swimming|films?|bridge|cards|billiards|walks?|strolls?|fishing|hunting|sightsee|scenery|temples?|pagoda|tombs?|park|hot springs?|climbs|scenic|birthday|grandson|his family|"
-            r"photograph|table tennis exhibition|plays (?:ball|badminton|bridge|cards|billiards|table tennis|chess)|dances?|dancing|a play|a show|a performance|an opera|Peking opera|acrobat)\b")
+            r"photograph|table tennis exhibition|plays (?:ball|badminton|bridge|cards|billiards|table tennis|chess)|dances?|dancing|a play|a show|a performance|an opera|Peking opera|acrobat|"
+            # AUDIT MEND 7: more of the private day (notes/threads/china-assign-audit.md)
+            r"cold worse|palpitations?|swollen|(?:ear|nose|throat|eyes?|teeth)[^.;]{0,20}examined|electrotherapy|wedding|zoo|storytellers?|lunch(?:es)? at|dines? at)\b")
+# AUDIT MEND 9: a building is where a thing happens, not its system's business (the CPPCC's auditorium, the Nationalities Palace).
+VENUE = (r"CPPCC auditorium|auditorium of the CPPCC|CPPCC's auditorium|政协礼堂|Overseas Chinese Building|华侨大厦|(?:Cultural )?Palace of (?:the )?Nationalities|"
+         r"Nationalities Cultural Palace|Nationalities Palace|民族文化宫|民族宫")
 MOVEMENT = (r"\b(?:arrives?|leaves?|left|flies|flew|returns?|returned|reaches|sets out|goes (?:on |back |by |from |to )|travels?|by (?:special )?train|by air|by car|by ship|the train|the plane|en route|"
             r"on the way|back (?:in|at|to)|go(?:es)? (?:from|to)|passes through|stops at|departs?|sails|drives?|moves to|stays? at|overnight)\b")

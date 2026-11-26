@@ -1435,3 +1435,31 @@ But first: Could you mock up a daily calendar grid, arranged as calendars are (i
 (Nov. 25, about 1:35 p.m. PT) "Put the sweep at the bottom of the list, after the 1969 foundations and before the atomic-claims trial. Hold the 171 links until they have a second reader. Keep the presumption—still our \"weakest\" presumption, defeasible whenever any better evidence or reasoning bears on a specific pairwise sort—for chronologies that put the day's chief item first. Remember that the alternative isn't neutrality but a bare alphabetical sort by primary thread and first word." (The queue amended at once: the sweep is item 22b. The rulings written into R25c and owner-rulings 56. Queued for 5 p.m., first: the 171 links taken out of the tree and kept as a patch for a second reader; the five links two auditors had withheld on a volume's habit written in.)
 
 (Nov. 25, about 6:12 p.m. PT) "Could we revise the Works navigation bar to show the full name of the author or work, as the Names navigation bar does, rather than just the first letter?" (Done: each heading on a Works page, an author's name or a title, carries the marks the top bar reads, as a person's heading does on a Names page; `tools/bib/bibliography.py`, STYLE 9. No new CSS and no change to the script.)
+
+(Nov. 25, about 7:00 p.m. PT, on the China threads proposal; the message stopped the turn, and the two agents then running, the map builder and a reader mending six threads' rules, were stopped with it)
+
+"The thread description should drop \"as the provinces reported it\" from \"The famine as the provinces reported it\".
+
+The thread should cover aspects of the famine that are not \"as the provinces reported it,\" shouldn't it?
+
+If we're limiting it to the famine as experienced \"in the provinces\" as opposed to as effected or heard \"in the centre\", we should use different language."
+
+"\"Polemic\" needs a better title to denote \"The open polemic with Moscow, from the Twenty-second Congress to Zhou in Moscow after Khrushchev's fall.\" (\"China: Polemic\" does not suggest, on a first read, just \"the open polemic with Moscow,\" at least not to me.) Do we have one? Can you suggest one?"
+
+"The person threads shouldn't be the persons \"outside the episodes.\" They shouldn't be an entry's primary thread \"inside the episodes,\" but there's no reason not to make them secondary threads."
+
+"We might want to subordinate the famine and related episodes to agriculture? \"China: agriculture: famine\"? Or something similar?
+
+It seems absurd to exclude the famine and related episodes from a thread like \"China: agriculture\"."
+
+"As a general rule, the tiebreaker rule the proposal suggests should decide \"the primary thread,\" not \"the only thread.\" An entry can have more than one thread.
+
+Nor, as I understand it, is there any reason to limit a thread to 3,000 items—although that count might be a good reason to suggest subthreads.
+
+Subthreads like \"Mao Zedong: ABC\" and \"Zhou Enlai: XYZ\", whether divided by episode, relationship, matter, or some other principle, are better than excluding Mao entries from the Mao family of threads, or Zhou entries from the Zhou family of threads."
+
+"\"Bomb: the foreign conferences against atomic bombs were taken out.\" This makes sense for a simple \"bomb\" thread, but. Should we have a thread for the latter?
+
+Is there enough to warrant a thread on the PRC's \"nuclear strategy\"/\"nuclear posture\"/\"nuclear diplomacy\"/\"nuclear rhetoric\"?
+
+If \"China: bomb\" isn't only about the PRC's nuclear weapons development and testing, but the broader relationship between the PRC and nuclear weapons (and the CPC/CMAC/PLA and nuclear weapons, and Mao and nuclear weapons), then the \"antinuclear diplomacy\" should really be a sibling to weapons development under some kind of parent, shouldn't it?" (Answered in `notes/proposals/china-threads-revision.md`, sent to the owner; owner-rulings 59.)

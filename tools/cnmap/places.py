@@ -96,6 +96,7 @@ HAND = {
     "xinjin": ("Q1362420", "the entries: Xinjin county, Liaoning; Pulandian since 1991"),
     "yuecheng-reservoir": ("Q15937304", "the reservoir"),
     "nanhai": ("Q1023893", "the entries: Nanhai county; the one county of the name"),
+    "chishui": ("Q65367", "the entries: the Chishui county committee; the one county of the name, in Guizhou"),
     "emei": ("Q1335318", "the entries: Emei county, at the mountain's foot; Emeishan city"),
     "fengxiang": ("Q1201619", "the entries: from Baoji by Guozhen; Fengxiang of Shaanxi"),
     "naxi": ("Q1209106", "the entries: the battlefield of the National Protection War; Naxi by Luzhou"),

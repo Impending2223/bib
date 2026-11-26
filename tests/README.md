@@ -26,7 +26,9 @@ python -m pytest -q tests/unit        # one group
   place; a duplicate), each its transcript and the files it changed. They catch any change in what the tools
   do, wanted or not.
 - **`unit/`**: tables of inputs and outputs for the pure functions (markup, dateline, footnotes, claims, notemerge,
-  places, store, merge, addops, resultform). Each row pins what the function returned when the table was
+  places, store, merge, addops, resultform), and for the map of China (`test_cnmap.py`: the figure and its data on
+  a small gazetteer of the test's own, `check`'s rules for the map's files, the one client, and the reading of the
+  record of the 1964 counties in `tools/cnmap/counties.py`). Each row pins what the function returned when the table was
   written. Known bugs are marked `xfail` with the reason; a fix makes them pass (then drop the mark).
 - **`property/`**: laws for any input (hypothesis): a three-way merge where both sides agree; an entry's rev
   whatever its key order; the emitter's round trip; an additive op twice equals once. The slow ones read every

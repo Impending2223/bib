@@ -218,10 +218,15 @@ def main():
         elif d["shapeGroup"] in CID:
             pieces.append(g)
             props.append({"k": "land", "c": CID[d["shapeGroup"]]})
-    colony = {u: multi(polys(shapely.intersection(a1[n]["g"], chn))) for n, u in UNIT.items() if u in ("hong-kong", "macau")}
+    all2 = json.load(open(os.path.join(sys.argv[1], "gb", "adm2.geojson"), encoding="utf-8"))["features"]
+    # Hong Kong and Macau: CGAZ ADM1's (its Hong Kong is the New Territories' north alone) with the county file's own
+    colony = {}
+    for n, u in UNIT.items():
+        if u in ("hong-kong", "macau"):
+            own = [shapely.make_valid(shape(f["geometry"])) for f in all2 if rec.COLONY.get(f["properties"]["shapeName"] or "") == u]
+            colony[u] = multi(polys(shapely.intersection(shapely.union_all([a1[n]["g"]] + own), chn)))
     main_ = multi(polys(shapely.difference(chn, shapely.union_all(list(colony.values())))))
-    feats2 = [f for f in json.load(open(os.path.join(sys.argv[1], "gb", "adm2.geojson"), encoding="utf-8"))["features"]
-              if f["properties"]["shapeID"] in xw]
+    feats2 = [f for f in all2 if f["properties"]["shapeID"] in xw]
     gs2 = [multi(polys(shapely.make_valid(shape(f["geometry"])))) for f in feats2]
     for f, g in zip(feats2, fill(main_, gs2)):
         if g.is_empty:
@@ -294,8 +299,8 @@ def main():
         rows.append({"id": u, "name": name, "kind": kind, "c": c, "full": FULL.get(u, name),
                      "made_of": sorted(made[u]), "km2": a})
     for cls, g in (("coast", coast), ("intl", intl), ("disp", dl), ("unit", unitl)):
-        if not g.is_empty:
-            feats.append(feat(g, {"k": "line", "l": cls}))
+        if not g.is_empty:                  # the units' lines carry the country, as tools/vnmap/base.py's do (the client's filter)
+            feats.append(feat(g, {"k": "line", "l": cls, **({"c": "prc"} if cls == "unit" else {})}))
     for u, g in units.items():
         pt = label_point(g)
         feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": rnd([pt.x, pt.y])},
@@ -324,9 +329,9 @@ def main():
         u66 = L[us[0]["list"]]["unit"]
         han = any("\u4e00" <= ch <= "\u9fff" for ch in zh)
         name = rec.romanise(zh) if han else rec_file_name(zh)
-        kind = rec.kind(zh) if han else {"xian": "county", "shi": "city", "qi": "banner"}.get(zh.lower()[-4:].lstrip("aeioung") or "", "unit")
-        if not han:
-            kind = "county" if zh.lower().endswith("xian") else "city" if zh.lower().endswith("shi") else "banner" if zh.lower().endswith("qi") else "unit"
+        low = zh.lower()
+        kind = rec.kind(zh) if han else ("county" if low.endswith("xian") else "city" if low.endswith("shi")
+                                         else "banner" if low.endswith("qi") else "unit")
         cid = base_id = f"{L[l]['unit'] if traced else u66}-{rec.pinyin(zh) if han else zh.lower()}"
         n = 2
         while cid in ids:

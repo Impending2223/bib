@@ -56,6 +56,8 @@ Gathered from notes/handoff.md on Nov. 24, 2026, 2:58 p.m. PT, by script: every 
 | 55 | The day's order: a rule for every patch (R25c) and a sequence pass over the whole calendar | default: the rule now; the pass tried on two months, then run a month at a time, Sonnet reads and Opus audits |
 | 56 | The day's order: a reception after its transmission; a chronology's or a volume's printed order the weakest of presumptions | the owner's ruling, Nov. 25, 2026: both rules reversed (R25c), the entries re-ruled; the reach of the ruling to serial numbers and to an agenda's order left as it was, a default |
 | 57 | Where the China map is reached from, and whether it stands in the calendar's pages | default |
+| 58 | The China threads: the defaults the re-threading goes on | default |
+| 59 | The China threads: one primary thread and any number of secondary; subthreads under families; no limit of 3,000 | the owner's ruling, Nov. 25, 2026, with defaults for the names |
 | 53 | Map rows "work, page, note" that lead to a record marked read (2,315), printed as "284 & n.70b (citing ...)" | settled by the owner, Nov. 24: a reader picks one of three for each; no unmarked citation unless the cited matter was read |
 | 52 | An entry of one day with several acts, one of them timed | revised by the owner, Nov. 24: split into a pair, the timed act with its hour, the order by `follows:` |
 | 51 | A work's page, a note on the page, and the two together: one source or three citations | settled by the owner, Nov. 24: three citations, each with its meaning |
@@ -589,4 +591,36 @@ Question: the owner asked for a China map "like our Southeast Asia/Indochina map
 - Applies to: `notes/briefs/china-map.md`; `tools/cnmap/`, `sources/china/`, `build/china.html`. To overrule: say where the map should be reached from, or that each year's calendar page should carry one.
 
 Under ruling 56, a note (Nov. 25, about 5:20 p.m.): of the 174 links group c's auditor added, the owner's 171 are the ones on the printed order alone. The other three stay in the tree: two that rest on the entries' words (June 23, 1962; May 26, 1963) and one on a narrative told in order (May 8, 1963, Branch). They too were read once only; say if they should be held with the rest.
+
+## 58. The China threads: the defaults the re-threading goes on (Nov. 25, 2026, about 6:25 p.m.)
+
+Question: the measurement of the proposal the owner liked (`notes/proposals/china-threads-measure.md`, sent to the owner) ends in eight questions. Ruling 30 says the re-threading goes on by default once the measurement is done. Which answers does it go on?
+
+- Default taken, question by question, as the measurement took them. (1) Where a person and a system cross, the person first, as the proposal's order states: Zhou Enlai's thread holds his foreign business. (2) Foreign business not Mao's, Zhou's or Liu's stays in one China thread, Foreign affairs; no entry moves to a country's thread, and an entry keeps any country it has in `also:`. (3) `india-and-china-cultural-revolution` is left as it is, in `also:` where entries carry it. (4) An entry read from a book whose whole subject is one episode goes to that episode. (5) A caller on the director of the General Office, where the line states no business, is the Center's daily work. (6) The leftovers, the lesser figures' private days among them, stay in `china-leadership`. (7) The National People's Congress under Political-legal work; the Youth League, the trade unions and the Women's Federation under Organization; science, health and sport under Propaganda and culture. (8) The six episodes under 100 entries stand.
+- Two threads come out over 3,000 entries (Zhou Enlai 4,361; Foreign affairs 3,812). A thread's page is already divided by date where it is large, so nothing fails; the owner's answer to questions 1 and 2 would change both.
+- The order of work: an Opus audit of the assignment by reading (`notes/briefs/china-threads-audit.md`), the rules mended where it finds a repeating fault, then the re-threading by script: each entry's `thread:` set to its new thread and `china-leadership` put in `also:`, the new threads in `th.yaml` with their statements. Entry ids do not change.
+- Applies to: `tools/threads/china/`, `notes/threads/china-assign.tsv`, `lists/cal/th.yaml`, the `china-leadership` entries. To overrule: answer any of the eight questions; the script runs again on the new rule and the entries move by rule, with no reading to redo.
+
+## 59. The China threads: primary and secondary threads, families, no limit (the owner, Nov. 25, 2026, about 7 p.m.)
+
+The owner's words are in `notes/owner-brief.md` under that hour. What they rule:
+
+- The order of the proposal (episode, then person, then system) decides an entry's primary thread, "not \"the only thread.\" An entry can have more than one thread." Every other thread it fits goes in `also:`.
+- The person threads are not the persons "outside the episodes": inside an episode the person's thread is secondary, not left off.
+- No limit of 3,000 entries on a thread; a count that size is a reason to suggest subthreads. "Subthreads like \"Mao Zedong: ABC\" and \"Zhou Enlai: XYZ\" ... are better than excluding Mao entries from the Mao family of threads."
+- The famine and the episodes related to it go under agriculture ("China: agriculture: famine").
+- The Famine statement drops "as the provinces reported it"; the thread holds the famine whole.
+- "Polemic" wants a better title; the owner asks for a suggestion.
+- The conferences against the bomb, and the PRC's wider dealings with nuclear weapons, may want a thread that is a sibling of the weapon's development under a parent; the owner asks whether there is enough.
+
+This overrules ruling 58 on its first and third points (the person against the system; the old Cultural Revolution thread) and on the note about threads over 3,000.
+
+Defaults taken on what the owner left open, set out for them in `notes/proposals/china-threads-revision.md`:
+
+- The tree: Agriculture over Famine, Twelve Articles, Sixty Articles; Finance and economy over Xilou and the retreat, Third Front; Foreign affairs over Split with Moscow (itself over Bucharest and Moscow, Polemic, Border war), India war, Zhou in Africa, Afro-Asian conference; Propaganda and culture over Opera reform, the models, Hai Rui; Army over Luo Ruiqing; Cultural Revolution (the thread the calendar has, kept as the parent) over the six stages; the rest straight under China.
+- "Polemic" keeps its short name under the new parent "Split with Moscow"; if the owner wants it to stand alone, "Polemic with Moscow".
+- "Nuclear weapons" a parent, with "Bomb" (the programme and the tests) and "Nuclear diplomacy" (the test ban, the proposals for prohibition and no first use, the conferences against the bomb, non-proliferation); a rough count gives about 160 and about 110 entries.
+- Two subthreads each for Mao and Zhou to begin with (foreign business; the Cultural Revolution), more where a count asks.
+- A system goes into `also:` only where its score is strong, since the systems' word lists tested worst.
+- Applies to: `tools/threads/china/`, `notes/threads/china-assign.tsv`, `lists/cal/th.yaml`, the entries of the China threads. To overrule: name the thread and where it should sit; the script runs again.
 

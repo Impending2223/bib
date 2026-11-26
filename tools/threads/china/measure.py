@@ -29,6 +29,9 @@ The rule, in order (the first that fits takes the entry):
 An entry that fits none is a leftover (`-`), its kind in the rule column (`left:personal`, `left:movement`,
 `left:bare`, `left:other`). The second thread is the next that would have fitted.
 
+The audit by reading of Nov. 26, 2026 (notes/threads/china-assign-audit.md) mended the rules; each mend is marked
+`AUDIT MEND n` here and in systems.py, numbered as in the audit's note.
+
 Variants (`--variant`): `foreign-first` (a foreign matter goes to the system before the person threads of
 Zhou and Liu); `no-book` (no `ep:book` rule); `no-office` (no `sys:office` rule).
 """
@@ -99,17 +102,30 @@ CRWR = re.compile(CRW + CRW_MORE, re.I)
 # the conferences' days (the survey's final.py)
 CONF = [('china-shanghai-1960', '1960-01-07', '1960-01-17'), ('china-shanghai-1960', '1960-07-05', '1960-08-10'), ('china-twelve-articles', '1961-01-14', '1961-01-18'),
         ('china-sixty-articles', '1961-03-10', '1961-03-23'), ('china-sixty-articles', '1961-05-21', '1961-06-12'), ('china-sixty-articles', '1961-08-23', '1961-09-16'),
-        ('china-seven-thousand', '1962-01-11', '1962-02-07'), ('china-retreat-1962', '1962-02-21', '1962-02-23'), ('china-tenth-plenum', '1962-07-25', '1962-08-24'), ('china-tenth-plenum', '1962-09-24', '1962-09-27'),
+        ('china-seven-thousand', '1962-01-11', '1962-02-07'), ('china-retreat-1962', '1962-02-21', '1962-02-23'), ('china-retreat-1962', '1962-05-07', '1962-05-11'),   # AUDIT MEND 12: the May work conference, a station of the thread's statement
+        ('china-tenth-plenum', '1962-07-25', '1962-08-24'), ('china-tenth-plenum', '1962-09-24', '1962-09-27'),
         ('china-four-cleanups', '1963-05-02', '1963-05-12'), ('china-four-cleanups', '1964-12-15', '1965-01-14'), ('china-luo-ruiqing', '1965-12-08', '1965-12-15'),
         ('china-may-sixteenth', '1966-05-04', '1966-05-26'), ('china-red-guards', '1966-08-01', '1966-08-12'), ('china-red-guards', '1966-10-09', '1966-10-28'),
         ('china-ninth-congress', '1968-10-13', '1968-10-31'), ('china-ninth-congress', '1969-04-01', '1969-04-24')]
-CONFW = re.compile(r"\bconference|会议|大会|plenary|plenum|全会|group meeting|小组|the meeting|Politburo|政治局|\bCongress|drafting committee|draft report", re.I)
+CONFW = re.compile(r"\bconference|会议|大会(?!堂)|plenary|plenum|全会|group meeting|小组|the meeting|Politburo|政治局|Ninth (?:Party )?Congress|Party Congress|\bthe Congress\b|drafting committee|draft report", re.I)
+# AUDIT MEND 4: a conference's days are not shown by the Great Hall (人民大会堂), the National People's
+# Congress, a mass body's congress, a ceremonial meeting or a named small group (精简小组); these are cut from the line before CONFW is tried.
+CONFCUT = re.compile(r"人民大会堂|Great Hall of the People|National People's Congress|People's Congress|全国人大|人民代表大会|\b(?:the )?meeting marking\b|(?:Streamlining|streamlining) [Gg]roup|精简小组|"
+                     r"\b(?:national|all-army|army's|ministry's|provincial|municipal|prefectural|county)\b[^.;]{0,50}\b(?:conference|congress)|代表大会|文代会|Congress of (?:Chinese )?Writers")
 STAGES = [(s, w) for s, n, lo, hi, c, w in EPISODES if w]
 BOOK_CR = {'w.yang-jisheng-tiandi-fanfu', 'w.pu-weihua-zalan-jiu-shijie', 'w.macfarquhar-maos-last-revolution', 'w.dikotter-cultural-revolution'}
 BOOK_FAMINE = {'w.yang-jisheng-mubei', 'w.dikotter-maos-great-famine'}
 BOOK_POLEMIC = {'w.lengxi-shinian-lunzhan-1956-1966'}
 SHAANXI = {'xian', 'niujiao', 'changan-county', 'shaanxi', 'yanan', 'hanzhong', 'baoji', 'lintong', 'doumen', 'huashan', 'xixiang', 'ningshan', 'shiquan', 'mian-county', 'feng-county', 'fengxiang', 'ankang'}
 SHAANXIW = re.compile(r"Xi'an|Niujiao|Chang'an|Doumen|Zhangbagou|Shaanxi|Northwest Bureau|sixteen-county|Hanzhong|Yan'an")
+# AUDIT MEND 6: the post is Chang'an county (Niujiao, Doumen) and Xi'an; his tour of south Shaanxi and Yan'an (Apr.-May 1965), his journeys,
+# his illness and his evenings are not the Four Cleanups.
+POST = {'xian', 'niujiao', 'changan-county', 'doumen'}
+POSTW = re.compile(r"Xi'an|Niujiao|Chang'an|Doumen|Zhangbagou|Northwest Bureau|sixteen-county")
+POSTWORK = re.compile(r"work corps|work teams?|Four Cleanups|四清|poor peasants|brigade|squatting|socialist education", re.I)
+TOUR = {'yanan', 'hanzhong', 'baoji', 'xixiang', 'ningshan', 'shiquan', 'mian-county', 'feng-county', 'fengxiang', 'lintong', 'huashan', 'ankang'}
+TOURW = re.compile(r"Yan'an|Hanzhong|Baoji|Xixiang|Ningshan|Shiquan|Huashan|Ankang|Lintong")
+TOURDAY = re.compile(r"\bfilms?\b|\bdines?\b|\bdinner\b|physician|hospital|palpitation|swollen|\bvisits the\b|\bsees the\b|photograph", re.I)
 def winlen(s):
     lo, hi = SPAN[s]; return (int(hi[:4]) * 12 + int(hi[5:7])) - (int(lo[:4]) * 12 + int(lo[5:7]))
 
@@ -118,12 +134,12 @@ def winlen(s):
 #    or (a conference's seat) with a word for a meeting, or with a second weak key.
 WEAK = re.compile(r"^(?:Beidaihe|北戴河|Lushan|庐山|PLACE:\S+|Xilou|西楼|Algiers|阿尔及尔|Jakarta|雅加达|Bandung|Ben Bella|本·贝拉|Boumediene|布迈丁|Tian Jiaying|田家英|Zeng Xisheng|曾希圣|Deng Zihui|邓子恢|"
                   r"Albania|阿尔巴尼亚|Hoxha|Shehu|Khrushchev|赫鲁晓夫|revision\w*|修正主义|split|anti-Chinese|mess halls?|canteens?|食堂|experts|专家|Ministry of Culture|文化部|Zhou Yang|周扬|"
-                  r"political departments?|政治部|war preparation|备战|prepare for war|evacuat\w*|Nie Rongzhen's|Kosygin|柯西金)$", re.I)
+                  r"political departments?|政治部|war preparation|备战|prepare for war|evacuat\w*|Nie Rongzhen's|Kosygin|柯西金|Southwest(?:ern)? Bureau)$", re.I)   # AUDIT MEND 5: the Southwest Bureau alone
 SEAT = re.compile(r"^(?:Beidaihe|北戴河|Lushan|庐山|PLACE:\S+|Xilou|西楼)$", re.I)
 MEETING = re.compile(r"\bconference|\bplenary|\bplenum|(?<![Pp]arty )\bgroups?\b|\bsession|Politburo|Standing Committee|Secretariat|\bthe meeting\b|\bmeeting of\b|drafting|会议|全会", re.I)
 ONLYCONF = {'china-afro-asian': re.compile(r"\bconference|会议", re.I)}
 # 2. Words taken out of the line before an episode's keys are tried.
-STRIP = {'china-bomb': re.compile(r"(?:Conference|Council|Congress)s? [Aa]gainst (?:Atomic|A-)(?: and Hydrogen| and H-)? ?[Bb]ombs?|against Atomic and Hydrogen Bombs", re.I),
+STRIP = {'china-bomb': re.compile(r"(?:Conference|Council|Congress)s? [Aa]gainst (?:Atomic|A-)(?: and Hydrogen| and H-)? ?[Bb]ombs?|against Atomic and Hydrogen Bombs|movement (?:for|against) (?:banning |the banning of )?atomic and hydrogen bombs", re.I),   # AUDIT MEND 10
          'china-india-war': re.compile(r"印度尼西亚|Indian Ocean|Indochina|印度支那")}
 # 3. Keys the survey's lists lacked: (first day or month, last, regex).
 MORE = {
@@ -145,6 +161,13 @@ STAGEWIN = {s: w for s, w in STAGES}
 def months_in_year(s, y):
     lo, hi = STAGEWIN[s]; return sum(1 for m in range(1, 13) if lo <= f"{y}-{m:02d}" <= hi)
 
+# AUDIT MEND 1: the Great Leap's words (lexicon 'leap-1960') place an entry in Shanghai and Beidaihe, 1960, only on the two conferences'
+# days (Jan. 7-17, July 5-Aug. 10) or in their months where the entry has no day; elsewhere in 1960 they are the year's ordinary business.
+from lexicon import EP as _EP
+LEAPRX = {r for s_, n_, lo_, hi_, r in _EP if s_ == 'leap-1960'}
+def shanghai_days(d):
+    if len(d) == 10: return '1960-01-07' <= d <= '1960-01-17' or '1960-07-05' <= d <= '1960-08-10'
+    return d[:7] in ('1960-01', '1960-07', '1960-08')
 def episodes(e, variant=''):
     """[(slug, rule)] of the episodes the entry fits, the one that takes it first."""
     d = e['date']; c = e['_plain']
@@ -153,11 +176,12 @@ def episodes(e, variant=''):
     first = e['_first']
     private = bool(e['_phead']) and bool(PERSONAL.search(first[:90]) or POEM.search(first[:70])) and not any(rx.fullmatch(n) for n in e['_head'] for _, rx in THREERX)
     if private and not e['_foreign']: return []           # a swim, a doctor, a poem in a conference's weeks is no part of the conference
-    hits = []; weakonly = set()
+    hits = []; weakonly = set(); seatonly = set()
     for s, comps, w in EPC:
         txt = STRIP[s].sub(' ', base) if s in STRIP else base
         keys = set()
         for a, b, r in comps:
+            if s == 'china-shanghai-1960' and r.pattern in LEAPRX and not shanghai_days(d): continue
             if inwin(d, a, b): keys |= {m.group(0) for m in r.finditer(txt)}
         for a, b, r in MOREC.get(s, ()):
             if inspan(d, a, b) and r.search(txt): keys.add('+')
@@ -173,13 +197,15 @@ def episodes(e, variant=''):
             if seat and not meet: continue
             if not seat and len(weak) < 2 and not (s in ONLYCONF and meet): continue
             weakonly.add(s)
+            if seat and not any(len(d) == 10 and lo <= d <= hi for s2, lo, hi in CONF if s2 == s): seatonly.add(s)
         if s == 'china-opera' and e['_foreign']: continue          # a guest taken to the theatre is foreign business
         hits.append((s, 'ep:word'))
     if not e['_foreign'] and not private:
         for s, lo, hi in CONF:
-            if len(d) == 10 and lo <= d <= hi and CONFW.search(c) and s not in [h[0] for h in hits]: hits.append((s, 'ep:days'))
+            if len(d) == 10 and lo <= d <= hi and CONFW.search(CONFCUT.sub(' ', c)) and s not in [h[0] for h in hits]: hits.append((s, 'ep:days'))
     got = [h[0] for h in hits]
-    if '1964-10' <= d[:7] <= '1965-05' and 'Yang Shangkun' in c and 'china-four-cleanups' not in got and (set(pl) & SHAANXI or SHAANXIW.search(c)):
+    if '1964-10' <= d[:7] <= '1965-05' and 'Yang Shangkun' in c and 'china-four-cleanups' not in got and (set(pl) & POST or POSTW.search(c)) \
+       and (POSTWORK.search(c) or not (set(pl) & TOUR or TOURW.search(c))) and not (PERSONAL.search(first[:90]) or MOVEMENT.search(first) or TOURDAY.search(c)):
         hits.append(('china-four-cleanups', 'ep:place'))   # Yang Shangkun at his post in Chang'an county and at Xi'an
     if not hits:
         if not e['_foreign']:
@@ -192,17 +218,18 @@ def episodes(e, variant=''):
             if w0 in BOOK_CR: hits += [(s, 'ep:book') for s, w in STAGES if inwin(d, *w)]
     got = [h[0] for h in hits]
     # two episodes: the seams the test found, then the shorter span
+    # AUDIT MEND 2: the two seams set which episode goes last; the rest are still ranked, so that a third episode (Famine, in July 1962)
+    # no longer takes the entry by coming first in the list. AUDIT MEND 3: an episode found only by a conference's seat (the Xilou,
+    # Beidaihe, Lushan) outside that conference's days ranks after one found by a strong key.
+    last = set()
     if 'china-retreat-1962' in got and 'china-tenth-plenum' in got:               # the Beidaihe conference opens July 25, 1962
-        drop = 'china-tenth-plenum' if d < '1962-07-25' else 'china-retreat-1962'
-        hits = [h for h in hits if h[0] != drop] + [h for h in hits if h[0] == drop]
+        last.add('china-tenth-plenum' if d < '1962-07-25' else 'china-retreat-1962')
     if 'china-twelve-articles' in weakonly and 'china-famine' in got:              # a mess hall in a famine report
-        hits = [h for h in hits if h[0] != 'china-twelve-articles'] + [h for h in hits if h[0] == 'china-twelve-articles']
+        last.add('china-twelve-articles')
     def rank(h):
-        if len(d) == 4 and h[0] in STAGEWIN: return -months_in_year(h[0], d)      # a year-dated entry: the stage that covers most of the year
-        return winlen(h[0])
-    order = {h[0]: i for i, h in enumerate(hits)}
-    if not ({'china-retreat-1962', 'china-tenth-plenum'} <= set(got)) and not ('china-twelve-articles' in weakonly and 'china-famine' in got):
-        hits.sort(key=rank)
+        if len(d) == 4 and h[0] in STAGEWIN: return (h[0] in last, h[0] in seatonly, -months_in_year(h[0], d))   # a year-dated entry: the stage that covers most of the year
+        return (h[0] in last, h[0] in seatonly, winlen(h[0]))
+    hits.sort(key=rank)
     return hits
 # The fallen, from the month each was struck down: what is done to him and what he does in custody is the movement's.
 FALLEN = {'Peng Zhen': '1966-05', 'Luo Ruiqing': '1966-01', 'Lu Dingyi': '1966-05', 'Yang Shangkun': '1966-05', 'Peng Dehuai': '1966-09', 'Liu Shaoqi': '1967-01',
@@ -297,19 +324,21 @@ def foreign_evidence(e):
     elif COUNTRY.search(c): ev = 1
     if set(p.strip() for p in e['place'].split(' - ')) & ABROAD: ev = max(ev, 3)
     return ev
+VENUE = re.compile(SY.VENUE)
 def system_scores(e):
-    c = e['_plain']; sc = {}
+    c = VENUE.sub(' ', e['_plain']); sc = {}; hitrows = collections.defaultdict(set)
     for k, rows in MAT.items():
         sc[k] = 0
-        for w, r in rows:
+        for i, (w, r) in enumerate(rows):
             m = r.search(c)
-            if m: sc[k] += w if m.start() < HEADZONE else 1
+            if m: sc[k] += w if m.start() < HEADZONE else 1; hitrows[k].add(i)
     head = e['_head_s'][:70]
     for k, r in HEADBODY.items():
         if r.search(head): sc[k] += 4
     ev = e['_fev']
     if ev:
         sc['foreign'] += ev + (2 if RECEIVE.search(c) else 0)
+        if hitrows['culture'] == {1}: sc['foreign'] += 3      # AUDIT MEND 11: a foreign guest at a performance is foreign business
     al = set(e['also'])
     if 'farm' in al: sc['farm'] += 2
     if al & {'economy', 'trade', 'budget', 'taxes', 'oil'}: sc['economy'] += 2
@@ -320,6 +349,8 @@ OFFNAME = re.compile('|'.join(sorted((re.escape(nm) for nm in OFFICE), key=len, 
 def office_of(e):
     """The system of the first office-holder at the head of the line; failing that, of the first one named in it."""
     d = e['date'][:7]
+    # AUDIT MEND 8 (ruling 58, 5): a caller on the director of the General Office is the Center's daily work, whatever the caller's own office.
+    if 'Yang Shangkun' in e['_roman'] and d <= '1965-11': return 'center'
     for nm in e['_head'] + OFFNAME.findall(e['_roman']):
         for sysk, lo, hi in OFFICE.get(nm, ()):
             if (not lo or d >= lo) and (not hi or d <= hi): return sysk
@@ -336,7 +367,7 @@ def systems(e, variant=''):
     for k in ranked[:2]: out.append((k, 'sys:matter'))
     if body and 'center' not in [o[0] for o in out]: out.append(('center', 'sys:body'))
     first = e['_first']
-    personal = bool(e['_phead']) and bool(PERSONAL.search(first[:90])); moving = bool(MOVEMENT.search(first)) and not re.search(r"\bto talk\b|\bto report\b|\bto discuss\b", first)
+    personal = bool(e['_phead']) and bool(PERSONAL.search(first[:90]) or re.search(r"Hospital|医院", e['_plain'][:40])); moving = bool(MOVEMENT.search(first)) and not re.search(r"\bto talk\b|\bto report\b|\bto discuss\b", first)   # AUDIT MEND 7: a line set in a hospital
     if (e['_phead'] and POEM.search(first[:70])) or (personal and (not ranked or sc[ranked[0]] <= 3) and not e['_foreign']):
         e['_left2'] = off or (ranked[0] if ranked else None)   # a poem, a doctor, a swim, a film: no system's business
         return [], 'left:personal'
