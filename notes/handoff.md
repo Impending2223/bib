@@ -432,3 +432,4 @@ Batch 7 (already in):
   4. Then the rest of the queue (4aq–4as, 4i).
 
 - 12:30 p.m.: threads batches b and f reported (297 each); their Opus audits are running on `notes/briefs/china-threads-read-audit-b.md` and `-f.md`, which mend the reader's tsv in place and write `notes/threads/read/batch-X-audit.md`. The other batches get the same brief by its letter as they report.
+- 12:30 pm: threads batch d reported (281 moved, 16 kept); its Opus audit is running on `notes/briefs/china-threads-read-audit-d.md`.
