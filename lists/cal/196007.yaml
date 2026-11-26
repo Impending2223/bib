@@ -6800,18 +6800,22 @@ entries:
     date: '1960-07-15'
     place: los-angeles
     thread: elections-1960-los-angeles
-    c: 'Kennedy accepts at the Memorial Coliseum: "the New Frontier of which I speak is not a set of promises—it is a set of challenges."{1} On his religion: no "religious pressure or obligation." Johnson accepts the same evening.{2}'
-    n: '[Address Accepting the Democratic Nomination for President](https://www.presidency.ucsb.edu/documents/address-accepting-the-democratic-nomination-for-president-the-memorial-coliseum-los); [Address of Senator Lyndon B. Johnson Accepting the Democratic Party Nomination for the Vice Presidency](https://www.presidency.ucsb.edu/documents/address-senator-lyndon-b-johnson-accepting-the-democratic-party-nomination-for-the-vice). [[w.kallina-kennedy-v-nixon]], 79–80 (the address at the Coliseum); [[w.white-making-of-the-president]], 177–78 (the acceptance, quoted); [[w.sorensen-counselor]], 217–19 (Sorensen''s drafting of the acceptance speech: his letter two weeks before the convention soliciting drafts; "the New Frontier" first in one of his drafts, by his recollection; not the text). [[w.sorensen-kennedy]], 166–67 (the acceptance; the New Frontier). To check: John Kenneth Galbraith to Kennedy, n.d., Galbraith Papers, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 80 n.78). See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson.'
+    c: 'Kennedy accepts at the Memorial Coliseum: "the New Frontier of which I speak is not a set of promises—it is a set of challenges."{1} On his religion: no "religious pressure or obligation."{3} Johnson accepts the same evening.{4}'
+    cut_from:
+      '3': '2'
+      '4': '2'
+    n: '"Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15. [Address Accepting the Democratic Nomination for President](https://www.presidency.ucsb.edu/documents/address-accepting-the-democratic-nomination-for-president-the-memorial-coliseum-los); [Address of Senator Lyndon B. Johnson Accepting the Democratic Party Nomination for the Vice Presidency](https://www.presidency.ucsb.edu/documents/address-senator-lyndon-b-johnson-accepting-the-democratic-party-nomination-for-the-vice). [[w.kallina-kennedy-v-nixon]], 79–80 (the address at the Coliseum); [[w.white-making-of-the-president]], 177–78 (the acceptance, quoted); [[w.sorensen-counselor]], 217–19 (Sorensen''s drafting of the acceptance speech: his letter two weeks before the convention soliciting drafts; "the New Frontier" first in one of his drafts, by his recollection; not the text). [[w.sorensen-kennedy]], 166–67 (the acceptance; the New Frontier). To check: John Kenneth Galbraith to Kennedy, n.d., Galbraith Papers, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 80 n.78). See [[cal.1960-07-12.elections-1960]]. Names: Kennedy, Johnson.'
     src:
       c: b93581d8
       rows:
-        - 'https://www.presidency.ucsb.edu/documents/address-accepting-the-democratic-nomination-for-president-the-memorial-coliseum-los: 1, 2'
-        - 'https://www.presidency.ucsb.edu/documents/address-senator-lyndon-b-johnson-accepting-the-democratic-party-nomination-for-the-vice: 1, 2'
+        - 'https://www.presidency.ucsb.edu/documents/address-accepting-the-democratic-nomination-for-president-the-memorial-coliseum-los: 1, 3, 4'
+        - 'https://www.presidency.ucsb.edu/documents/address-senator-lyndon-b-johnson-accepting-the-democratic-party-nomination-for-the-vice: 1, 3, 4'
         - 'w.kallina-kennedy-v-nixon 79–80: 1'
         - 'via w.kallina-kennedy-v-nixon 80 n.78: 1'
         - 'w.sorensen-kennedy 166–67: 1'
         - 'w.white-making-of-the-president 177–78: 1'
         - 'w.sorensen-counselor 217–19: ?'
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html: 3'
     tags: [name:kennedy-john-f, name:johnson-lyndon-b]
   - id: cal.1960-07-15.elections-1960-2
     when: July 15
@@ -8925,6 +8929,13 @@ entries:
         - 'via x.1963-03-21.prc-embassy-conakry-mfa-march-21-1963: ?'
         - 'via x.1963-08-21.letter-ccp-liaison-department-soviet-policy-guinea: ?'
     tags: [polity:ussr, polity:prc, polity:bulgaria, polity:guinea, vis:only:ussr+prc+bulgaria]
+  - id: cal.1960-07-25.defense
+    when: July 25
+    date: '1960-07-25'
+    thread: defense
+    c: The North American Air Defense Command announces Operation Sky Shield, a test of the continent's air defenses with all civil flights grounded.
+    n: '"Air Defense Test Is Set Tomorrow," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day and the words of the announcement.'
+    tags: [polity:us, polity:canada, ok:fields-place]
   - id: cal.1960-07-26.elections-1960
     when: July 26–27
     date: '1960-07-26'

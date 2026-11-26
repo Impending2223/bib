@@ -8,6 +8,16 @@ ops:
       id: cal.thread.united-nations
       s: United Nations
       c: The United Nations' organs and officers, the Security Council's and the Assembly's business, and the United States delegation, where no thread of the matter holds them.
+- place-key:
+    key: dakar
+    name: Dakar
+    zone: Africa/Dakar
+    in: senegal
+- place-key:
+    key: albertville
+    name: Albertville
+    zone: Africa/Lubumbashi
+    in: congo
 - add:
     entry:
       id: cal.1960-09-08.berlin-and-vienna-2
@@ -191,8 +201,6 @@ ops:
       n: '"New U.S. Chief at U.N. Rules Out Arms Talks," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Names: Wadsworth.'
       tags:
       - name:wadsworth-james-j
-      follows:
-      - cal.1960-09-08.soviet-union-un
 - add:
     entry:
       id: cal.1960-09-08.china-2
@@ -363,7 +371,7 @@ ops:
       - polity:belgium
       - ok:fields-time
       follows:
-      - cal.1960-09-08.congo-10
+      - cal.1960-09-08.congo-2
 - add:
     entry:
       id: cal.1960-09-08.congo-4
@@ -404,8 +412,6 @@ ops:
       - name:tshombe-moise
       - polity:un
       - polity:belgium
-      follows:
-      - cal.1960-09-08.congo-12
 - add:
     entry:
       id: cal.1960-09-08.congo-7
@@ -504,6 +510,7 @@ ops:
       - name:hammarskjold-dag
       - polity:belgium
       - polity:un
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-09-08.soviet-union-un-2
@@ -646,8 +653,9 @@ ops:
       date: '1960-09-09'
       thread: africa
       c: Dakar. President Léopold Sédar Senghor and Premier Mamadou Dia, newly re-elected leaders of Senegal, leave the National Assembly to cheers. Senegal, no longer part of the Mali Federation, has formed a Government as an independent state.
-      n: '"Cheered in Dakar," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day.'
+      n: '"Cheered in Dakar," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. Names: Senghor.'
       tags:
+      - name:senghor-leopold-sedar
       - polity:senegal
       - polity:mali
       place: dakar
@@ -930,6 +938,7 @@ ops:
       - name:kennedy-john-f
       - state:ca
       - city:san-diego
+      - ok:fields-time
 - add:
     entry:
       id: cal.1960-09-08.elections-1960-religion-2
@@ -1289,6 +1298,12 @@ ops:
       - state:ga
       - city:atlanta
       - ok:name-untagged
+      time_range:
+      - 1960-09-08T10:00Z
+      - 1960-09-08T13:00Z
+      time_band: pre-work morning
+      time_zone: America/New_York
+      range_basis: kind
 - add:
     entry:
       id: cal.1960-09-08.elections-1960-kennedy-18
@@ -1324,6 +1339,7 @@ ops:
       tags:
       - name:kennedy-john-f
       - polity:vatican
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-04-15.elections-1960-religion
@@ -1335,6 +1351,7 @@ ops:
       tags:
       - name:kennedy-john-f
       - ok:name-untagged
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-04-19.elections-1960-religion-2
@@ -1563,6 +1580,7 @@ ops:
       tags:
       - name:balaguer-joaquin-videla
       - polity:oas
+      - ok:fields-place
       at: after 1960-08-21
 - add:
     entry:
@@ -1574,6 +1592,7 @@ ops:
       n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day. See [[cal.1960-08-23.latin-america-dominican-republic]].'
       tags:
       - ok:name-untagged
+      - ok:fields-place
       at: after 1960-08-23
 - add:
     entry:
@@ -1585,6 +1604,7 @@ ops:
       n: 'Will Lissner, "Dominican Turn to Left Feared," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the days. Names: Trujillo.'
       tags:
       - name:trujillo-rafael
+      - ok:fields-place
       at: after 1960-08-23
 - add:
     entry:
@@ -1606,6 +1626,7 @@ ops:
       thread: latin-america-dominican-republic
       also:
       - united-nations
+      place: nyc
       c: 'As the *Times* reports it: the Dominican delegation at the UN, since its walkout from the OAS conference at San José, stays away from the informal meetings of the Latin-American group.'
       n: Kathleen Teltsch, "Soviet O.A.S. Role Is Opposed at U.N.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 3. See [[cal.1960-09-08.latin-america-dominican-republic-2]].
       tags:
@@ -1617,11 +1638,13 @@ ops:
       when: May
       date: 1960-05
       thread: cuba
+      place: havana
       c: '*Revolución*, Havana, charges that the United States has set up Radio Swan to "combat the Cuban revolution," just after its test programs begin.'
       n: '"American Radio in the Caribbean Counters Red Campaign in Cuba," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 2. Check: the day. See [[cal.1960-05-17.cuba]].'
       tags:
       - polity:cuba
       - polity:us
+      - ok:fields-at
 - add:
     entry:
       id: cal.1960-06-01.cuba
@@ -1655,6 +1678,7 @@ ops:
       tags:
       - polity:honduras
       - polity:us
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-09-08.cuba-5
@@ -1666,6 +1690,7 @@ ops:
       tags:
       - polity:us
       - ok:name-untagged
+      - ok:fields-place
 - add:
     entry:
       id: cal.1960-09-08.cuba-6
@@ -1726,6 +1751,7 @@ ops:
       when: Aug. 31–Sept. 4
       date: '1960-08-31'
       thread: berlin-and-vienna
+      place: east-berlin
       c: East Germany bars West Germans from East Berlin for five days; more than 1,000 West Germans bound for Berlin are refused passage.
       n: '"German Reds Put a Continuing Curb on Berlin Travel," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 7. See [[cal.1960-09-08.berlin-and-vienna]].'
       tags:
@@ -1852,7 +1878,7 @@ ops:
     'on': Washington. A meeting on the religious issue; … his church's hierarchy.
 - add-words:
     id: cal.1960-09-07.elections-1960
-    after: his church's hierarchy.
+    after: its statement, Norman Vincent Peale among the signers, asks whether a Catholic President could free himself of his church's hierarchy.
     words: The statement asks whether a Roman Catholic President could withstand "the determined efforts of his church to breach the wall of separation of church and state."
     text: John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14
 - primary:
