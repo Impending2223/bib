@@ -38,7 +38,7 @@ The owner, Nov. 25, 2026: "Both. In each calendar under the day of the first Chi
 
 The owner, Nov. 25, 2026: "Put them on the relevant threads top, scoped to the thread's content and the page's range." `maps.py`, STYLE 4; `tools/bib/threads.py`, STYLE 5.
 
-- A thread's page carries its map at the head, under the statement and the parts' bar and above the entries. It shows the thread's own entries alone: those the page lists, the thread's own and those it holds by `also:`.
+- A thread's page carries its map at the head, under the statement, the thread's subthreads and the parts' bar, and above the entries. It shows the thread's own entries alone: those the page lists, the thread's own and those it holds by `also:`.
 - Which threads. The map of China goes on the page of `china` and of every thread under it. The map of Indochina goes on the pages of `vietnam`, `laos`, `cambodia` and `southeast-asia` and of every thread under one of them. A thread is chosen by its line of parents in `lists/cal/th.yaml` (`maps.ROOTS`, `maps.of_thread`), never by a list of names. So a new thread under `china` carries the map with no change to the code. On Nov. 26, 2026 there is no `cambodia` and no `southeast-asia` thread; the rule holds if one is made.
 - A page whose range holds no placed entry of the thread carries no map. A thread divided by date carries a map on each part that has one, on the part's dates, and on its own page, on the whole span.
 - A link in the map's lists goes to the entry on the thread's page where the page holds it (`t-<id>`), and to the calendar where it does not.

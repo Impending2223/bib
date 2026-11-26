@@ -20,11 +20,13 @@ The steps (sources/china/README.md states the rules and the counts):
  3. One item chosen, by rule, and the rule kept in the row (`why`): the province in the entries' text; or Wikipedia's
     article of that bare name; or the one place of the name. Never two places 60 km apart without one of those.
  4. HAND: the places the rules do not settle, each settled from the entries' own words, or left unplaced with the
-    reason. AREA: a province named as a place takes no point (tools/bib/cnmap.py, STYLE 2).
+    reason. CITY: the UN Demographic Yearbook's cities that no entry names, each at the Wikidata item of its name.
+    AREA: a province named as a place takes no point (tools/bib/cnmap.py, STYLE 2).
  5. The province of 1966 (admin.geojson) and the county of 1964 (counties.geojson) the point falls in. A point of a
     place in the PRC that falls just outside it (an island, a border peak) takes the nearest unit within 0.3 degree.
     A point that falls outside the county of its own name but within 5 km of it takes that county and its province
-    (`near` in the row): the lines are approximate, and a county seat on a border river falls across it.
+    (`near` in the row): the lines are approximate, and a county seat on a border river falls across it. A place of
+    Hong Kong or Macau whose point falls off the colony as drawn is in that colony (Macau's own point lies 1 km off).
  6. WIKI: a point from Wikipedia's article where Wikidata's for the same item is wrong (one place).
 
 Writes sources/china/places.json: {"read": date, "places": [{key, zh, lat, lon, src, q, wiki, why, unit, county, c,
@@ -126,6 +128,26 @@ HAND = {
     "mingshui": (None, "the Mingshui station of the Jiabiangou farm, in Gaotai, Gansu; neither source has it"),
     "wangjiawan": (None, "a production team of Ningxiang county, Hunan; neither source has it"),
 }
+# The cities of the UN Demographic Yearbook, made places of the gazetteer (the owner, Nov. 25, 2026: "Add the cities to
+# the gazetteer"): key -> the Wikidata item of the city of that name, as sources/china/cities.yaml held it until then
+# (read from Wikidata's query service, Nov. 26, 2026). No entry names these places yet, so the rules have no words to
+# choose by: each takes its item, as a place settled by hand does. A reading of the Yearbook's name that is this
+# file's own is said in CITY_WHY, with its "Check".
+CITY = {"anqing": "Q360374", "changshu": "Q1015805", "chaozhou": "Q59227", "fushun": "Q75026", "huainan": "Q360178",
+        "huangshi": "Q71204", "liaoyang": "Q75203", "liaoyuan": "Q92311", "nantong": "Q57947", "ningbo": "Q42780",
+        "benxi": "Q75091", "shaoxing": "Q42666", "shaoyang": "Q194531", "siping": "Q92297",
+        "taizhou-jiangsu": "Q57931", "zibo": "Q198370", "weifang": "Q217698", "wuzhou": "Q571652",
+        "wutongqiao": "Q1199645", "yangzhou": "Q57906", "yangquan": "Q72907", "yantai": "Q210493",
+        "kaohsiung": "Q181557", "tainan": "Q140631", "taichung": "Q245023", "keelung": "Q249996",
+        "chiayi": "Q249995", "hsinchu": "Q249994", "sanchung": "Q570267", "pingtung": "Q713377",
+        "changhua": "Q195215", "chungli": "Q172146", "panchiao": "Q570090", "macau": "Q14773"}
+CITY_WHY = {"taizhou-jiangsu": 'the Yearbook\'s "Taichow", read as Taizhou in Jiangsu; the Yearbook names no province. Check'}
+YEARBOOK = "the UN Demographic Yearbook's city of the name (sources/china/cities.yaml)"
+HAND.update({k: (q, CITY_WHY.get(k, YEARBOOK)) for k, q in CITY.items()})
+# An item Wikidata gives two points: key -> (lat, lon), the one of the two taken, so that a later run takes it again.
+# Q1015805 (Changshu) has 31.65, 120.733333 and 31.64841, 120.7497, both of normal rank; the first is the point the
+# cities' file held.
+POINT = {"changshu": (31.65, 120.7333)}
 # A point taken from Wikipedia's article, where Wikidata's for the same item is wrong: key -> the row's fields. Read
 # from en.wikipedia.org's API (prop=coordinates), Nov. 26, 2026.
 WIKI = {
@@ -433,7 +455,11 @@ def main():
                 rows.append({"key": k, "unplaced": "several places of the name, and the entries do not say which"})
                 counts["unplaced"] += 1
                 continue
+        if k in POINT:
+            best = dict(best, lat=POINT[k][0], lon=POINT[k][1])
         u, land = unit_of(best["lon"], best["lat"], d["c"] == "prc")
+        if u is None and d["c"] in ("hong-kong", "macau"):
+            u = d["c"]                           # a place of the colony whose point falls off its small area as drawn
         row = {"key": k, "zh": (best["zh"] or [""])[0], "lat": round(best["lat"], 4), "lon": round(best["lon"], 4),
                "src": src, "q": best["q"], "wiki": best["art"] or f"https://www.wikidata.org/wiki/{best['q']}",
                "why": why, "c": d["c"] if u is None or d["c"] != "prc" else next(c for i, c, _ in units if i == u)}
@@ -453,7 +479,8 @@ def main():
         if "-v" in sys.argv and k not in HAND and (best.get("tier") == 9 or not zhs):
             print("  check:", k, best["q"], row["zh"], best.get("en", ""), u, "|", why)
         rows.append(row)
-        counts[why if k not in HAND and k not in WIKI else "by hand, from the entries' words"] += 1
+        counts["the Yearbook's cities" if k in CITY else why if k not in HAND and k not in WIKI
+               else "by hand, from the entries' words"] += 1
     json.dump({"read": READ, "source": "Wikidata (CC0), items' coordinates (P625) and English Wikipedia sitelinks",
                "places": rows}, open(os.path.join(OUT, "places.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(len(rows), "places:", dict(counts))

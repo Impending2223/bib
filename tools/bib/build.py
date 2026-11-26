@@ -1267,9 +1267,10 @@ def build_series(series):
     home.append('<h2 id="home--nx" data-short="Names">Names</h2><ol class="e lists"><li><a class="lk" href="#nx--top">'
                 f'<span class="ab">Names</span><span class="tt">Every person across the {NUMBERS.get(len(series.lists), len(series.lists))} lists, merged</span></a>'
                 f'<span class="r">{n_people} names</span></li></ol>')
+    from . import threads                # the threads with a page (tools/bib/threads.py, STYLE 9)
     home.append('<h2 id="home--th" data-short="Threads">Threads</h2><ol class="e lists"><li><a class="lk" href="threads.html">'
                 '<span class="ab">Threads</span><span class="tt">A page a thread: every entry of the thread, in the calendar\'s order</span></a>'
-                f'<span class="r">{sum(1 for l in series.lists.values() if l.kind == "calendar" for s, te in l.threads().items() if not te.get("see") and index_members(l).get(s))} threads</span></li></ol>')
+                f'<span class="r">{sum(len(threads.slugs(l)) for l in series.lists.values() if l.kind == "calendar")} threads</span></li></ol>')
     home.append('<h2 id="home--wk" data-short="Works">Works</h2><ol class="e lists"><li><a class="lk" href="works.html">'
                 '<span class="ab">Works</span><span class="tt">Every work the series cites, A to Z, with where it is cited</span></a>'
                 f'<span class="r">{len(series.works.cards):,} works</span></li></ol>')
