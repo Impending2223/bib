@@ -5,7 +5,7 @@ source a layer for both maps; a frame differs from the other by its numbers alon
 
 A script takes the frame's name as an argument of its own ("china"); with none it makes Indochina's files, as before:
 
-    python3 -I tools/vnmap/terrain.py ETOPO_DIR china
+    python3 -I tools/vnmap/terrain.py ETOPO_DIR china HydroLAKES_polys_v10.shp
     python3 -I tools/vnmap/climate.py KOPPEN_TIF LEGEND_TXT china
     python3 -I tools/vnmap/population.py ISIMIP_NC china
     python3 -I tools/vnmap/layers.py DL sources/china china hydro lakes climate
@@ -22,6 +22,9 @@ Each frame:
              hosts refused on Oct. 22, 2026 (sources/indochina/README.md); China's is the map's bounds, cnmap.BOUNDS.
   etopo      the elevation model's files in ETOPO_DIR, and the grid's step in arc-seconds
   dem_maxz   the elevation tiles' deepest zoom (512 px)
+  lake_fill  the lakes whose floor the model holds raised to their surface (terrain.py, fill_lakes): (the least lake,
+             km2; how far under HydroLAKES's surface height the middle one of the model's cells under the lake must
+             lie, metres). None: no lake is raised
   mean       the contours' and the depths' grid: the mean of mean x mean cells of the model
   depth_tol, contour_tol, contour_min   simplifying, degrees; the shortest contour run kept, degrees
   levels     the contours, metres
@@ -62,7 +65,7 @@ FRAMES = {
         "out": "sources/indochina", "name": "Indochina",
         "frame": (97.5, 5.5, 113.0, 26.0), "extent": (100.0, 8.0, 110.5, 23.5),
         "etopo": ("N15E090.nc", "N15E105.nc", "N30E090.nc", "N30E105.nc"), "etopo_sec": 15,
-        "dem_maxz": 8, "mean": 4, "depth_tol": 0.01, "contour_tol": 0.003, "contour_min": 0.03,
+        "dem_maxz": 8, "lake_fill": None, "mean": 4, "depth_tol": 0.01, "contour_tol": 0.003, "contour_min": 0.03,
         "levels": [500, 1000, 1500, 2000], "bands": None,
         "koppen_maxz": 7,
         "pop_cells": 1, "pop_tol": 0.004, "pop_prec": 3,
@@ -78,7 +81,10 @@ FRAMES = {
         "out": "sources/china", "name": "China",
         "frame": (66.0, 10.0, 142.0, 58.0), "extent": (67.0, 11.0, 141.0, 57.0),
         "etopo": ('NETCDF:"{}/ETOPO_2022_v1_30s_N90W180_surface.nc":z',), "etopo_sec": 30,
-        "dem_maxz": 5, "mean": 4, "depth_tol": 0.04, "contour_tol": 0.012, "contour_min": 0.12,
+        # zoom 6 (the owner, Nov. 25, 2026: "Make the relief sharp!"): about 1.1 km a pixel at 30 N, the 30" grid's
+        # ~930 m; lakes of 10 km2 and over that lie 50 m and more under their surface in the model ("Mend Lake Baikal.")
+        "dem_maxz": 6, "lake_fill": (10.0, 50.0),
+        "mean": 4, "depth_tol": 0.04, "contour_tol": 0.012, "contour_min": 0.12,
         "levels": [500, 1000, 2000, 3000, 4000, 5000], "bands": LAND_CN,
         "koppen_maxz": 6,
         "pop_cells": 3, "pop_tol": 0.012, "pop_prec": 2,

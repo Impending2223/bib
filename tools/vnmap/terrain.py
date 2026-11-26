@@ -22,12 +22,18 @@ Writes, in sources/indochina/:
 
 A second frame (Nov. 26, 2026; tools/vnmap/frames.py, which holds every number that differs): the map of China,
 
-    python3 -I tools/vnmap/terrain.py ETOPO_DIR china
+    python3 -I tools/vnmap/terrain.py ETOPO_DIR china HydroLAKES_polys_v10.shp
 
 where ETOPO_DIR holds the same model at 30 arc-seconds, the one global file
 ETOPO_2022_v1_30s_N90W180_surface.nc (1.64 GB, from
 https://www.ngdc.noaa.gov/thredds/fileServer/global/ETOPO2022/30s/30s_surface_elev_netcdf/). It writes the same
 three files in sources/china/, and hypso.json, the legend of the bands, which for China run on above 2,000 m.
+
+Lakes (Nov. 26, 2026; the owner, Nov. 25: "Mend Lake Baikal."). The model holds the floor of some lakes, not their
+surface, and Baikal showed as a basin down to 0 m. A frame that sets `lake_fill` (frames.py) has the ground under such
+a lake raised to the lake's surface before anything is made from the grid: fill_lakes, below. It needs HydroLAKES v1.0's
+polygons (the .shp of https://data.hydrosheds.org/file/hydrolakes/HydroLAKES_polys_v10_shp.zip, with its .shx and
+.dbf beside it; CC BY 4.0; the lakes layer's source, layers.py), named on the command line, and pyshp.
 """
 import json
 import os
@@ -47,6 +53,8 @@ import frames  # noqa: E402
 import tiles  # noqa: E402
 
 F, ARGS = frames.get(sys.argv[1:])      # the frame: Indochina's, or the one the command line names
+LAKES = next((a for a in ARGS if a.lower().endswith(".shp")), None)     # HydroLAKES's polygons (fill_lakes)
+ARGS = [a for a in ARGS if a != LAKES]
 OUT = F["out"]
 FRAME = F["frame"]                      # base.FRAME
 MAXZ = F["dem_maxz"]                    # 512-px tiles. Indochina: ~300 m a pixel at z8, the 15" grid's ~460 m
@@ -71,6 +79,50 @@ def land_mask(shape_, tr):
                                        all_touched=False, dtype="uint8").astype(bool)
 
 
+def fill_lakes(raw, tr, land, shp):
+    """The ground under a lake raised to the lake's surface, in `raw`, where the model holds the lake's floor. The
+    rule (frames.py, lake_fill = (least, deep)): a lake of HydroLAKES of `least` km2 or more in the frame, the middle
+    one (the median) of the model's land cells under it more than `deep` metres below the surface height HydroLAKES
+    gives (`Elevation`, whole metres). In such a lake every land cell the lake's shape touches that lies below that
+    height is set to it; a cell at or above it (an island, a shore) is left. Cells that are not land (admin.geojson)
+    are left, so the sea's depth bands do not change. A lake whose surface the model holds differs from HydroLAKES's
+    height by a few metres either way and is not touched. Returns the lakes raised."""
+    import shapefile
+    least, deep = F["lake_fill"]
+    ext = shapely.box(*FRAME)
+    r = shapefile.Reader(shp, encoding="latin-1")       # no .cpg; names with cp1252 bytes (layers.py, lakes)
+    done = []
+    for sr in r.iterShapeRecords(bbox=FRAME):
+        rec = sr.record
+        if rec["Lake_area"] < least:
+            continue
+        g = shapely.geometry.shape(sr.shape.__geo_interface__).intersection(ext)
+        if g.is_empty:
+            continue
+        w, s, e, n = g.bounds
+        c0, c1 = max(0, int((w - tr.c) / tr.a)), min(raw.shape[1], int((e - tr.c) / tr.a) + 1)
+        r0, r1 = max(0, int((n - tr.f) / tr.e)), min(raw.shape[0], int((s - tr.f) / tr.e) + 1)
+        if c1 <= c0 or r1 <= r0:
+            continue
+        m = rasterio.features.rasterize([shapely.geometry.mapping(g)], out_shape=(r1 - r0, c1 - c0),
+                                        transform=tr * Affine.translation(c0, r0), fill=0, default_value=1,
+                                        all_touched=True, dtype="uint8").astype(bool) & land[r0:r1, c0:c1]
+        win = raw[r0:r1, c0:c1]                         # a view: the grid itself is changed
+        if not m.any() or rec["Elevation"] - float(np.median(win[m])) <= deep:
+            continue
+        low = m & (win < rec["Elevation"])
+        was = np.maximum(win[low], 0)                   # what the tiles held: land below sea level counted 0
+        row = {"id": rec["Hylak_id"], "name": rec["Lake_name"], "km2": round(rec["Lake_area"], 1),
+               "surface_m": rec["Elevation"], "cells": int(m.sum()), "raised": int(low.sum()),
+               "median_m": round(float(np.median(win[m])), 1), "lowest_m": round(float(win[m].min()), 1),
+               "changed": int((was != rec["Elevation"]).sum())}
+        win[low] = rec["Elevation"]
+        done.append(row)
+        print("lake raised", row)
+    print(len(done), "lakes raised to their surface;", sum(1 for d in done if d["changed"]), "changed in the tiles")
+    return done
+
+
 def terrarium(z):
     v = np.round(z).astype(np.int32) + 32768
     rgb = np.zeros(z.shape + (3,), np.uint8)
@@ -87,7 +139,8 @@ def dem_tiles(dem, tr):
         return tiles.webp_lossless(Image.fromarray(terrarium(np.where(z < 0, SEA, z))))
     tiles.write(os.path.join(OUT, "dem.pmtiles"), FRAME, range(0, MAXZ + 1), render, tiles.TileType.WEBP,
                 {"name": F["name"] + " elevation", "encoding": "terrarium",
-                 "attribution": "NOAA NCEI, ETOPO 2022 15 Arc-Second Global Relief Model (2022), doi:10.25921/fd45-gt74",
+                 "attribution": "NOAA NCEI, ETOPO 2022 %d Arc-Second Global Relief Model (2022), "
+                                "doi:10.25921/fd45-gt74" % F["etopo_sec"],
                  "description": "Land elevation in whole metres (sea -1), Terrarium encoding; tools/vnmap/terrain.py"})
 
 
@@ -173,6 +226,10 @@ def main():
     raw, tr = mosaic(ARGS[0])
     raw[raw < -20000] = 0
     land = land_mask(raw.shape, tr)
+    if F.get("lake_fill"):
+        if not LAKES:
+            sys.exit("this frame raises its lakes (frames.py, lake_fill): name HydroLAKES_polys_v10.shp")
+        fill_lakes(raw, tr, land, LAKES)
     dem = np.where(land, np.maximum(raw, 0), SEA).astype(np.float32)
     steps = ARGS[1:] or ["tiles", "depths", "contours"]         # one step alone, to try a number: `... china contours`
     if "tiles" in steps:

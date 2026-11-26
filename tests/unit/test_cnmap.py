@@ -360,11 +360,14 @@ def test_frames():
     assert (f["depth_tol"], f["contour_tol"], f["contour_min"], f["bands"]) == (0.01, 0.003, 0.03, None)
     assert (f["pop_cells"], f["pop_tol"], f["pop_prec"], f["rain_cells"]) == (1, 0.004, 3, 1)
     assert (f["river_min"], f["river_read"], f["river_tol"], f["lake_min"], f["lake_tol"]) == (10, None, 0.002, 1.0, 0.001)
-    assert f["sword"] == (43, 44) and len(f["delta"]) == 8 and f["etopo_sec"] == 15
+    assert f["sword"] == (43, 44) and len(f["delta"]) == 8 and f["etopo_sec"] == 15 and f["lake_fill"] is None
     c, rest = frames.get(["DIR", "OUT", "china", "hydro"])
     assert c["id"] == "china" and rest == ["DIR", "OUT", "hydro"] and c["out"].endswith(os.path.join("sources", "china"))
     assert c["frame"] == (66.0, 10.0, 142.0, 58.0) and list(c["extent"]) == cnmap.BOUNDS
     assert c["delta"] is None and c["river_min"] == c["river_read"] and c["pop_cells"] == c["rain_cells"] == 3
+    # the relief: a zoom deeper than the rule of four gives (the owner, Nov. 25, 2026: "Make the relief sharp!"), and
+    # the lakes whose floor the model holds raised to their surface ("Mend Lake Baikal.")
+    assert (c["dem_maxz"], c["etopo_sec"], c["lake_fill"]) == (6, 30, (10.0, 50.0))
     assert [b[0] for b in c["bands"]] == [0, 100, 200, 500, 1000, 1500, 2000, 3000, 4000, 5000]
     assert c["bands"][:6] == frames.LAND7 and c["levels"][0] == 500 and c["levels"][-1] == 5000
     assert "5,000" in cnmap.WORDS["contours"] and all(f"{v:,}" in cnmap.WORDS["contours"] for v in c["levels"][1:])
