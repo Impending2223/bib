@@ -116,6 +116,8 @@ Answers that set out a design, a comparison or a proposal go to an `.md` (`notes
 
 The site is GitHub Pages: https://impending2223.github.io/bib/ (the compiled reader; each list at `<key>.html`). Every push to `main` runs `.github/workflows/pages.yml`: `./bib check`, `./bib build`, deploy. A failing check stops the deploy. So publishing is merging to `main`. Run `check` and `build` locally before you push.
 
+A full build is never waited on in the session's own turn (the owner, Nov. 25, 2026: "don't block me on a full build. That's a background task or an agent's task."). It runs in the background, or an agent runs it, and the session ends its turn and stays free for the owner; the PR is made when the build reports. A turn that sits on a build can only be reached by stopping it, and stopping it stops every agent it started.
+
 The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026. Don't republish them; `publish-plan` and `mark-published` belong to that old route.
 
 ## Style and layout (the owner, Nov. 24, 2026)
