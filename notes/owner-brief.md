@@ -1488,3 +1488,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 
 (Nov. 26, in the morning, during the weekday pause) "Claude... did you do nothing for six hours..." (Answered: yes. After PR #230 merged at 12:57 a.m. the session ended its turn asking the owner to say "go on" before it began the next item of the queue, and so sat idle until the pause at 6:47 a.m. That broke the standing rule that nothing blocks on the owner. The hand-off now says so in its first lines.)
 
+(Nov. 26, about 12:15 p.m. PT, Thanksgiving) "Immediate. Continue the queue. We're ignoring the weekday pause today. It's Thanksgiving in the United States." (Done at once: the pause lifted for the day; the queue taken up from the reading the re-threading left.)
+
