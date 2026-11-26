@@ -7,7 +7,7 @@ Work in /home/user/bib (branch `ccr-29ad5edc-peju1y`). Read `CLAUDE.md` whole, t
 The owner's words (Nov. 26, 2026, about 1:53 p.m. PT): "Instead of antisemitism, "Jewish diaspora" (i.e., Jews not in Israel). Instead of "Eastern Europe," "Comecon" (i.e., Comecon members and associate members west of the Soviet Union, excluding observers and the later DRV/SRV)."
 
 Sources:
-- three batches by three Sonnet readers: `notes/threads/new/cm-d-ids.tsv`, `cm-e-ids.tsv`, `cm-f-ids.tsv` (the entries each was given), and `cm-X.tsv` and `cm-X.md` for each (the placings and the note). The readers put the thread on very different shares of their lists (in the batches read so far, from 137 to 262 of 307); hold them to one rule.
+- three batches by three Sonnet readers: `notes/threads/new/cm-d-ids.tsv`, `cm-e-ids.tsv`, `cm-f-ids.tsv` (the entries each was given), and `cm-X.tsv` and `cm-X.md` for each (the placings and the note). The readers put the thread on very different shares of their lists (in the batches read so far, from 137 to 262 of 307); hold them to one rule: ruling 62, default (6) (protocol is in where a member is the actor or the other party).
 - The entries themselves in `lists/cal/*.yaml`: each entry's whole line and whole note.
 
 Assignment:
