@@ -36,3 +36,56 @@ From these alone, without reading anything, 126 nations, every State and 51 citi
 ## What you see first
 
 A preview of four pages, Laos, Alabama, Shaanxi and Chicago, before the rest are built and before anything reaches the site.
+
+## The dateline and the citation block (the owner, Nov. 26, 9:19 p.m.)
+
+- **The dateline.** A place in an entry's dateline that has a page of its own (a nation, a State, a province, a city) links to that page. The calendar's cross-references, to the Works and to the Names, use one style: the text in its own color with a faint solid underline, darker on hover (`templates/list.html`, the rule for links inside the page; `a.nm` for names). It is not dotted or dashed. The place links take the same rule, so the dateline needs no new style. The dateline itself is not lengthened.
+- **The citation block.** A line "Places:" just before "Names:", naming the nations, States, provinces and cities the entry happened in or concerns, each linked to its page, in the same style as the names. It is written by the build from the entry's place, tags and the register, not stored in the entry, so no reader writes it and it cannot go stale.
+- Both are added to the preview.
+
+## The tags' codes (the owner's question of 9:19 p.m.)
+
+- **What we have.** The six nations the visibility work began with have short codes (`us`, `ussr`, `prc`, `fr`, `frg`, `uk`), as do a few more (`drv`, `rvn`, `dprk`, `rok`, `roc`, `gdr`, `uar`, `nz`). The other 110 or so have their names spelled out (`polity:indonesia`, `polity:czechoslovakia`, `polity:central-african-republic`), because they were made from the names when the list was seeded. The States use the postal codes (`state:il`). Cities and Vietnam's provinces use spelled-out names.
+- **Recommendation.** Use ISO 3166-1's two-letter codes, in lower case, as the standard stood in its first edition of 1974, the last year of the span. That edition still has the states of the time, among them the two Germanys, the Soviet Union, Czechoslovakia, Yugoslavia and both Vietnams; each code is to be confirmed against the standard's text when the change is made. Our own additions, of three letters, for the states that were gone before 1974 (the United Arab Republic of Egypt and Syria, Tanganyika, Zanzibar, the Federation of Rhodesia and Nyasaland, the Mali Federation) and for the movements and bodies that are not states (the National Liberation Front, the Pathet Lao, the UN, NATO and the rest keep their present short names). The standard's code for the German Democratic Republic is `dd`, not `ddr`; I would keep the standard's code.
+- **Would readers find them hard?** No. `./bib check` refuses a tag that is not in the list, `sources/polities.yaml` gives each code its name, and patch-check can accept an old spelled-out tag and turn it into the code, so nobody has to remember the list.
+- **Cities and Vietnam's provinces** keep their spelled-out names: there is no short standard for them that a reader would know.
+- **When.** After the place pages are in, as one change made by a script (the tags, the register and the code that names the six), the old names kept as aliases so old links and patches still work. Ruling 67.
+
+## Conflicts, checked before the change (the owner's question of 9:24 p.m.)
+
+The two- and three-letter scheme does not rule out conflicts. Within the nations' tags no two nations can share a code, because the standard gives each one its own and our additions have three letters. But there are four other kinds of conflict, and a script can find them all before anything is renamed. It reads nothing and changes nothing.
+
+1. **The same letters in another kind of tag.** The States' postal codes and the nations' codes are often the same two letters: `al` is Alabama and Albania, `ca` California and Canada, `de` Delaware and the Federal Republic, `ga` Georgia and Gabon, `id` Idaho and Indonesia, `il` Illinois and Israel, `in` Indiana and India, `la` Louisiana and Laos, `pa` Pennsylvania and Panama, `va` Virginia and the Vatican, and more. The tags' kinds keep them apart (`state:la`, `polity:la`), so the build cannot mix them up, but a reader can write the wrong kind and `check` would accept it. So `check` will warn where a tag does not fit the entry: a `state:` tag on an entry that happened outside the United States and concerns no State, or a nation's tag that no place, person or thread of the entry supports.
+2. **Codes that meant something else later.** The 1974 edition gave codes that were later dropped or given to other countries: `cs` was Czechoslovakia and later Serbia and Montenegro; `vn` was the Republic of Vietnam in Saigon, and after 1976 the unified Vietnam; `vd` was the Democratic Republic in Hanoi; `su` the Soviet Union; `dd` the German Democratic Republic; `dy` Dahomey; `hv` Upper Volta; `bu` Burma; `zr` Zaire (the Congo of Léopoldville, renamed only in 1971). A reader who knows today's codes could misread them, above all `vn`. So the register will give each code its name for the span, and the script will list every code that the standard later reassigned, for you to rule on one by one. For the two Vietnams I would keep our own `drv` and `rvn`, which every reader of the series already knows, rather than the standard's `vd` and `vn`.
+3. **States whose name or form changed in the span.** Some states were joined, split or renamed between 1960 and 1974: Egypt was the United Arab Republic (with Syria to 1961, alone to 1971); Tanganyika and Zanzibar became Tanzania in 1964; Malaya became Malaysia in 1963, and Singapore left it in 1965; the Congo of Léopoldville became Zaire. The script lists each one, with the entries that fall on each side of the change, so the rule (one code for the state throughout, or one code for each form) can be set before the rename.
+4. **Our own short names.** The bodies and movements that are not states (`un`, `nato`, `oas`, `eec`, `oecd`, `imf`, `nlf`, `pathet-lao`) and the exceptions already in use (`uk`, which the standard reserves for the United Kingdom though its code is `gb`) are checked against the standard's list, so that none of them is a state's code.
+
+The script writes its findings to a note for you before the rename runs. Where a finding needs a ruling, the default taken is the one above, recorded as ruling 67 is.
+
+## The rule for the codes, after the owner's question of 9:27 p.m. ("Given your point on the Vietnams, is "DD" still better than "DDR"?")
+
+No. By the reasoning I gave for the Vietnams, `dd` loses. The rule should be: the standard's code, except where a reader would misread it, or where the series already writes a short name readers know. `dd` was never given to another country, so it would not be misread, but no reader knows it. The calendar's own lines write "GDR" 148 times and "DDR" 4 times, and the tags already say `gdr`.
+
+So the default is `gdr`, the form the calendar writes. `ddr` is as good if you prefer the German form; the two are not the same as any other code. The same rule gives `drv` and `rvn` (the calendar writes "DRV" 523 times), `ussr` ("USSR" 163), `prc` ("PRC" 308), `dprk` ("DPRK" 152) and `uar` ("UAR" 280), and keeps `uk`. Where the calendar writes no short name, the standard's code: `de` for the Federal Republic (the calendar writes "West Germany", never "FRG"), `kr` for the Republic of Korea, `tw` or `roc` for Taiwan to be ruled (the calendar writes "Taiwan" 301 times and "ROC" once), `fr`, `in`, `jp`, `id` and the rest.
+
+The script before the rename will count, for every state, how often the calendar writes each candidate short name, and apply this rule. It lists the result for you before anything changes.
+
+## Taiwan, and the divided states (the owner's question of 9:32 p.m.)
+
+The owner asked whether the calendar writes "Taiwan" so often and "ROC" so seldom because of where its coverage is thick and thin. It does.
+
+- Of the 150 calendar lines that say "Taiwan", 133 are in the China threads. They come from the PRC's own books (the chronologies, the *wengao*), which write 台湾, and we translate it. "Kuomintang" (81 lines) and "Chiang Kai-shek" (73 of 77) are the same: China threads, PRC sources.
+- The American side is thin, and it writes otherwise: "Formosa" (12 of its 14 lines are outside the China threads, most of them the 1960 campaign's quarrel over Quemoy and Matsu), "Nationalist", "the Republic of China".
+- The ROC's own side is nearly absent: 73 entries carry its tag, 3 are placed in Taipei, and we have read no record of its government. That record would say 中華民國, the Republic of China, or 自由中國, Free China.
+- The State Department's own papers, in the FRUS texts we hold, write "GRC" (the Government of the Republic of China) 2,952 times against "Taiwan" 1,427 and "Formosa" 231. The calendar's lines say "GRC" not once, because so few of its entries yet come from those papers.
+
+So counting the calendar's own words is not a fair test where coverage is lopsided, and the rule of 9:27 p.m. should not lean on it for the divided states. A better rule for them: **each half of a divided state keeps the short form of its own name, both halves alike**: `frg` and `gdr`, `rok` and `dprk`, `rvn` and `drv`, `roc` and `prc`. The standard's codes would make one half "the" country (`de`, `kr`, `vn`, `cn`, with `dd`, `kp`, `vd` and `tw` for the other); the series takes no side between them, and its sources on each side name their own state. These are the codes the register already has, so the rename leaves them as they are. Every other state takes the standard's code by the rule of 9:27 p.m.
+
+## The States' tags (the owner's question of 9:36 p.m.: least error at least cost)
+
+Keep `state:` with the two-letter postal codes, as now (`state:il`). Add no prefix and use no other form.
+
+- **The postal codes are the one set every reader already knows.** Any other form (a `us-` prefix, three letters) is something new to learn, and 5,251 tags and the code that reads them would change.
+- **A prefix would catch only one mistake.** With `state:us-la`, a reader who wrote `state:la` would be refused. But the likelier mistakes write a code that is valid and wrong: `polity:la` meant for Louisiana, or, after the rename, `polity:ch` (Switzerland) meant for China, `polity:at` (Austria) for Australia, `polity:ci` (the Ivory Coast). No form of the codes stops those, because each is a real code.
+- **What does stop them, at little cost, is one check over every kind of tag.** `check` compares each place tag with the rest of the entry: a nation's tag with the entry's place, its people's nations and its thread's nations (the register already has all three); a State's tag with a place in that State or a thread of that State. A tag nothing in the entry supports draws a warning, whatever its form. And `patch-check` prints each place tag a patch adds with its name ("`polity:ch`: Switzerland"), so the auditor sees what a code means without looking it up.
+- So: the States as they are; the check and the printed names, built with the place pages; the nations' codes as ruled.

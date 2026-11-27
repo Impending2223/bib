@@ -147,8 +147,8 @@ entries:
     time_approx: true
     place: kunming
     thread: china-leadership
-    c: Kunming 昆明, the Tuodong 拓东 stadium of the Tuodong people's commune. Chen Yi 陈毅 at the city's May Day meeting; then writes the poem "May Day garden party at Kunming" 《昆明五一游园》.
-    n: '[[w.chen-yi-nianpu]], 813. The words: 上午10时许 (813). Names: Chen Yi.'
+    c: Kunming 昆明, the Tuodong 拓东 stadium of the Tuodong people's commune. Chen Yi 陈毅 at the city's May Day meeting.
+    n: '[[w.chen-yi-nianpu]], 813. The words: 上午10时许 (813). The poem he writes afterward is [[cal.1960-05-01.china-leadership-13]] ([[w.chen-yi-nianpu]], 813). Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi]
     time_zone: Asia/Shanghai
   - id: cal.1960-05-01.china-leadership-9
@@ -157,8 +157,8 @@ entries:
     time: 1960-05-01T08:00Z
     place: kunming
     thread: china-united-front
-    c: Kunming 昆明, Yuantong Park 圆通公园. Chen Yi 陈毅 joins the festivities of the nationalities and circles; then writes two *ci* 词 under the title "May Day garden party at Kunming" 《昆明五一游园》.
-    n: '[[w.chen-yi-nianpu]], 813. The words: 下午4时 (813). Names: Chen Yi.'
+    c: Kunming 昆明, Yuantong Park 圆通公园. Chen Yi 陈毅 joins the festivities of the nationalities and circles.
+    n: '[[w.chen-yi-nianpu]], 813. The words: 下午4时 (813). The two *ci* he writes afterward are [[cal.1960-05-01.china-leadership-14]] ([[w.chen-yi-nianpu]], 813). Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi]
     time_zone: Asia/Shanghai
   - id: cal.1960-05-01.china-leadership-10
@@ -249,6 +249,40 @@ entries:
     c: Shanghai 上海. Chen Yun 陈云 at the May Day 五一国际劳动节 celebration of the Shanghai steelworkers and the people of Wusong district 吴淞区 at the Shanghai No. 1 Iron and Steel Works 上海第一钢铁厂.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 34. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun]
+  - id: cal.1960-05-01.china-leadership-13
+    when: May 1
+    date: '1960-05-01'
+    place: kunming
+    thread: china-leadership
+    follows:
+      - cal.1960-05-01.china-leadership-8
+    c: Kunming 昆明. Chen Yi 陈毅 writes the poem "May Day garden party at Kunming" 《昆明五一游园》 after the May Day meeting.
+    n: '[[w.chen-yi-nianpu]], 813 (May 1, 1960; "之后作《昆明五一游园》诗1首", after the morning meeting). See [[cal.1960-05-01.china-leadership-8]]. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-05-01.china-leadership-8
+          - cal.1960-05-01.china-leadership-11
+        from: lo-d02
+  - id: cal.1960-05-01.china-leadership-14
+    when: May 1
+    date: '1960-05-01'
+    place: kunming
+    thread: china-leadership
+    follows:
+      - cal.1960-05-01.china-leadership-9
+    c: Kunming 昆明. Chen Yi 陈毅 writes two *ci* 词 under the title "May Day garden party at Kunming" 《昆明五一游园》 after the garden party.
+    n: '[[w.chen-yi-nianpu]], 813 (May 1, 1960; "之后作《昆明五一游园》词二首", after the 4 p.m. festivities). See [[cal.1960-05-01.china-leadership-9]]. Names: Chen Yi.'
+    tags: [polity:prc, name:chen-yi, ok:fields-time]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-05-01.china-leadership-8
+          - cal.1960-05-01.china-leadership-9
+          - cal.1960-05-01.china-leadership-11
+          - cal.1960-05-01.china-leadership-13
+        from: lo-d02
   - id: cal.1960-05-02.crime-and-hijacking-ca
     when: May 2
     date: '1960-05-02'
@@ -561,6 +595,11 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 202–203: 2, 4'
         - 'w.yang-shangkun-riji I, 505: 2'
     tags: [polity:prc, name:mao-zedong, vis:only:prc, name:cao-mengjun, name:liu-changsheng]
+    range_basis: record
+    time_range:
+      - 1960-05-03T09:00Z
+      - 1960-05-03T11:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-03.china-leadership-2
     when: May 3
     date: '1960-05-03'
@@ -1446,6 +1485,11 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 204–205: 2'
         - 'w.yang-shangkun-riji I, 506: 1'
     tags: [polity:prc, name:mao-zedong, vis:only:prc, name:liu-ningyi, name:yang-shangkun]
+    range_basis: record
+    time_range:
+      - 1960-05-07T09:00Z
+      - 1960-05-07T13:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-07.china-leadership-2
     when: May 7
     date: '1960-05-07'
@@ -1642,6 +1686,11 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 210–211: 2, 4'
         - 'w.yang-shangkun-riji I, 506: 1'
     tags: [polity:prc, polity:cuba, name:mao-zedong, vis:only:prc+cuba, name:liu-ningyi, name:yang-shangkun]
+    range_basis: record
+    time_range:
+      - 1960-05-08T09:00Z
+      - 1960-05-08T12:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-08.china-leadership-3
     when: May 8
     date: '1960-05-08'
@@ -1959,6 +2008,11 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XV, 214–215: 2'
         - 'w.yang-shangkun-riji I, 506: 1'
     tags: [polity:prc, name:mao-zedong, vis:only:prc, name:liu-ningyi, name:yang-shangkun]
+    range_basis: record
+    time_range:
+      - 1960-05-09T09:00Z
+      - 1960-05-09T12:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-09.china-leadership-2
     when: May 9
     date: '1960-05-09'
@@ -3472,6 +3526,11 @@ entries:
         - 'via x.1960-05-15.renmin-ribao-news-item-mao-talk-wuchang-delegations: 1, 2, 4'
         - 'w.yang-shangkun-riji I, 508: 1'
     tags: [polity:prc, name:mao-zedong, name:liao-chengzhi, name:yang-shangkun]
+    range_basis: record
+    time_range:
+      - 1960-05-14T07:30Z
+      - 1960-05-14T09:30Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-14.china-leadership-2
     when: May 14
     date: '1960-05-14'
@@ -3553,10 +3612,10 @@ entries:
     also: [china-foreign]
     follows:
       - cal.1960-05-14.china-leadership-6
-    c: Wuhan 武汉. Yang Shangkun 杨尚昆 with Mao 毛泽东 on Zhou Enlai's 周恩来 journey and the afternoon's audience for the Japanese delegations.
+    c: Wuhan 武汉. Yang Shangkun 杨尚昆 with Mao 毛泽东 on Zhou Enlai's 周恩来 itinerary and the arrangements for the afternoon's audience with the Japanese delegations.
     n: '[[w.yang-shangkun-riji]], I, 508 (May 14, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong, Zhou Enlai.'
     src:
-      c: d48f104c
+      c: 065f24a3
       rows:
         - 'w.yang-shangkun-riji I, 508: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, vis:only:prc, name:yang-shangkun]
@@ -3887,10 +3946,10 @@ entries:
         - 'w.chen-yi-nianpu 817: ?'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:mao-zedong, name:eisenhower-dwight-d, vis:only:prc]
     time_range:
-      - 1960-05-16T11:00Z
-      - 1960-05-16T14:00Z
-    time_band: evening
+      - 1960-05-16T13:00Z
+      - 1960-05-16T16:30Z
     time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1960-05-16.china-leadership-2
     when: May 16
     date: '1960-05-16'
@@ -3969,18 +4028,20 @@ entries:
     date: '1960-05-16'
     place: wuhan
     thread: china-foreign
+    follows:
+      - cal.1960-05-16.china-leadership
     c: Wuhan 武汉. Zhang Yan 张彦, deputy director of the State Council's Foreign Affairs Office, and Luo Qingchang 罗青长 report to Yang Shangkun 杨尚昆, to 2:30 a.m.
-    n: '[[w.yang-shangkun-riji]], I, 508 (May 16, 1960). The words: 张彦、罗青长同志来汇报到2时半 (I, 508). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhang Yan, Luo Qingchang, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], I, 508 (May 16, 1960); [[w.yang-shangkun-riji]], I, 508 (May 16, 1960; 9 to 12:30 at night, Yang at Mao''s talk with Zhou and Chen; then Zhang Yan and Luo Qingchang report to him, to 2:30; the range runs from the end of the talk, 12:30 a.m. of the 17th). The words: 张彦、罗青长同志来汇报到2时半 (I, 508). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). The order: after [[cal.1960-05-16.china-leadership]], [[w.yang-shangkun-riji]], I, 508 (the talk with Mao, Zhou and Chen "晚9时到12时半", then the report "到2时半"). Names: Zhang Yan, Luo Qingchang, Yang Shangkun.'
     src:
       c: da616916
       rows:
-        - 'w.yang-shangkun-riji I, 508: all'
+        - 'w.yang-shangkun-riji I, 508: time'
     tags: [polity:prc, vis:only:prc, name:luo-qingchang, name:yang-shangkun, name:zhang-yan]
     time_range:
-      - 1960-05-16T14:00Z
-      - 1960-05-16T16:00Z
-    time_band: night
+      - 1960-05-16T16:30Z
+      - 1960-05-16T18:30Z
     time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1960-05-16.china-leadership-8
     when: May 16
     date: '1960-05-16'
@@ -4194,6 +4255,11 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 140: 2'
         - 'w.yang-shangkun-riji I, 509: 1, 2'
     tags: [polity:prc, polity:algeria, name:mao-zedong, name:ji-pengfei, vis:only:prc+algeria, name:krim-belkacem, name:li-qiang, name:yang-shangkun]
+    range_basis: record
+    time_range:
+      - 1960-05-17T09:30Z
+      - 1960-05-17T12:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-17.china-leadership-2
     when: May 17
     date: '1960-05-17'
@@ -5067,6 +5133,11 @@ entries:
         - 'w.yang-jisheng-mubei II, 1150: 2'
         - 'w.yang-jisheng-tiandi-fanfu I, 95–96: ?'
     tags: [polity:prc, polity:dprk, name:mao-zedong, name:kim-il-sung, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:ke-qingshi, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc+dprk, name:jiang-hua, name:wang-jiaxiang, name:yang-shangkun]
+    range_basis: record
+    time_range:
+      - 1960-05-21T11:00Z
+      - 1960-05-21T16:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-21.china-leadership-2
     when: May 21
     date: '1960-05-21'
@@ -5139,17 +5210,12 @@ entries:
     follows:
       - cal.1960-05-21.china-leadership
     c: Hangzhou 杭州. Yang Shangkun 杨尚昆, lodged at the Hangzhou Hotel 杭州饭店 with Zhou Enlai 周恩来, Deng Xiaoping 邓小平 and Ke Qingshi 柯庆施, telephones Peng Zhen 彭真.
-    n: '[[w.yang-shangkun-riji]], I, 510 (May 21, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Zhou Enlai, Deng Xiaoping, Ke Qingshi, Peng Zhen.'
+    n: '[[w.yang-shangkun-riji]], I, 510 (May 21, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Check: the hour: the diary prints the call after the talks with Kim Il Sung, which ended at midnight, and gives it no hour of its own ([[w.yang-shangkun-riji]], I, 510). Names: Yang Shangkun, Zhou Enlai, Deng Xiaoping, Ke Qingshi, Peng Zhen.'
     src:
       c: 0b77d96a
       rows:
         - 'w.yang-shangkun-riji I, 510: all'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:ke-qingshi, name:peng-zhen, vis:only:prc, name:yang-shangkun]
-    time_range:
-      - 1960-05-21T14:00Z
-      - 1960-05-21T16:00Z
-    time_band: night
-    time_zone: Asia/Shanghai
   - id: cal.1960-05.elections-1960
     when: May 21
     date: '1960-05-21'
@@ -5262,6 +5328,11 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 66 n.33: 3, 4'
         - 'via w.mao-zedong-zhuan V, ch.66 n.33: 3, 4'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, name:ke-qingshi, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:khrushchev-nikita-s, vis:only:prc, name:jiang-hua, name:wang-jiaxiang, name:yang-shangkun]
+    range_basis: record
+    time_range:
+      - 1960-05-22T09:00Z
+      - 1960-05-22T14:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-22.china-leadership-3
     when: May 22
     date: '1960-05-22'
@@ -5866,6 +5937,12 @@ entries:
       rows:
         - 'w.yang-shangkun-riji I, 512: all'
     tags: [polity:prc, vis:only:prc, name:li-xuefeng, name:yang-shangkun]
+    range_basis: record
+    time_band: workday midday
+    time_range:
+      - 1960-05-25T04:00Z
+      - 1960-05-25T06:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-25.china-leadership-9
     when: May 25
     date: '1960-05-25'
@@ -6224,21 +6301,23 @@ entries:
   - id: cal.1960-05-27.china-leadership-2
     when: May 27
     date: '1960-05-27'
+    time: 1960-05-27T04:25Z
     place: ulan-bator
     thread: china-zhou-foreign
     also: [soviet-union, china-foreign]
     follows:
       - cal.1960-05-27.china-leadership-3
-    c: Zhou Enlai at Ulan Bator on a friendly visit to Mongolia at its invitation;{1} lays a wreath at the Choibalsan mausoleum.{2}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 323 (May 27, 1960); [[w.zhou-enlai-waijiao-huodong]], 281 (May 27, 1960; 上午11时25分, 抵达乌兰巴托; 下午2时, 献花圈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 145 (May 27–June 1, 1960; Zhou leads a government delegation to Mongolia; he calls on Sambuu, chairman of the Presidium of the Great Hural, and talks with Tsedenbal); [[w.chen-yi-nianpu]], 818 (May 27, 1960; Chen Yi reaches Ulan Bator at 11:25; with Zhou Enlai, Molomjamts, First Deputy Chairman of the Council of Ministers, escorting, lays a wreath at the Sükhbaatar–Choibalsan mausoleum, 2 p.m.). Names: Zhou Enlai.'
+    c: Zhou Enlai reaches Ulan Bator, 11:25 a.m., on a friendly visit to Mongolia at its invitation.{1} Tsedenbal meets him at the airport.{2}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 323 (May 27, 1960); [[w.zhou-enlai-waijiao-huodong]], 281 (May 27, 1960; 上午11时25分, 抵达乌兰巴托; Tsedenbal at the airport); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 145 (May 27–June 1, 1960; Zhou leads a government delegation to Mongolia; he calls on Sambuu, chairman of the Presidium of the Great Hural, and talks with Tsedenbal); [[w.chen-yi-nianpu]], 818 (May 27, 1960; Chen Yi with Zhou Enlai reaches Ulan Bator at 11:25); [[w.zhou-enlai-waijiao-huodong]], 281 (May 27, 1960; 泽登巴尔主席到机场欢迎). The wreath at the mausoleum, 2 p.m., is [[cal.1960-05-27.china-zhou-foreign]] ([[w.zhou-enlai-waijiao-huodong]], 281; [[w.chen-yi-nianpu]], 818). Names: Zhou Enlai, Tsedenbal.'
     src:
-      c: f8957387
+      c: '88134016'
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 323: ?'
-        - 'w.zhou-enlai-waijiao-huodong 281: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 145: 1'
         - 'w.chen-yi-nianpu 818: ?'
-    tags: [polity:prc, polity:mongolia, name:zhou-enlai]
+        - 'w.zhou-enlai-waijiao-huodong 281: 2'
+    tags: [polity:prc, polity:mongolia, name:zhou-enlai, name:tsedenbal]
+    time_zone: Asia/Ulaanbaatar
   - id: cal.1960-05-27.china-leadership-3
     when: May 27
     date: '1960-05-27'
@@ -6409,6 +6488,29 @@ entries:
     c: The Center 中共中央 forwards the Finance Ministry Party group's 财政部党组 report on adjusting the 1960 budget and pressing revenue and economy, 《关于调整一九六〇年国家预算和大力组织国家收入、节约不必要的支出的报告》, and agrees to set the budget at 78.1 billion yuan, for every region to carry out.
     n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 213 n.2. Made public: 1996. To check: the Finance Ministry Party group''s report and the Center''s forwarding (cited by [[w.jianguo-yilai-zhongyao-wenxian]], XIII, 213 n.2). See [[cal.1960-03-30.china-leadership]].'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-05-27.china-zhou-foreign
+    when: May 27
+    date: '1960-05-27'
+    time: 1960-05-27T07:00Z
+    place: ulan-bator
+    thread: china-zhou-foreign
+    also: [soviet-union, china-foreign]
+    follows:
+      - cal.1960-05-27.china-leadership-2
+    c: Ulan Bator 乌兰巴托. Zhou Enlai lays a wreath at the Sükhbaatar–Choibalsan mausoleum, 2 p.m.; Chen Yi with him, Molomjamts, First Deputy Chairman of the Council of Ministers, escorting.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 281 (May 27, 1960; 下午2时, 向苏赫巴托尔—乔巴山陵墓献花圈); [[w.chen-yi-nianpu]], 818 (May 27, 1960, 2 p.m.; Chen Yi with Zhou Enlai, Molomjamts 莫洛姆扎木茨 escorting); [[w.zhou-enlai-nianpu-1949]], II, 323 (May 27, 1960; the wreath at the Choibalsan mausoleum, 乔巴山陵园). The order: after [[cal.1960-05-27.china-leadership-2]], [[w.zhou-enlai-waijiao-huodong]], 281 (the arrival "上午11时25分", the wreath "下午2时"). See [[cal.1960-05-27.china-leadership-2]]. Names: Zhou Enlai, Chen Yi.'
+    tags: [polity:prc, polity:mongolia, name:zhou-enlai, name:chen-yi]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-05-27.china-leadership-2
+          - cal.1960-05-27.china-leadership-3
+          - cal.1960-05-27.china-leadership-4
+          - cal.1960-05-27.china-leadership-5
+          - cal.1960-05-27.china-leadership-6
+          - cal.1960-05-27.china-leadership-8
+        from: lo-d02
+    time_zone: Asia/Ulaanbaatar
   - id: cal.1960-05-28.king
     when: May 28
     date: '1960-05-28'
@@ -6468,6 +6570,7 @@ entries:
   - id: cal.1960-05-28.china-leadership
     when: May 28
     date: '1960-05-28'
+    time: 1960-05-28T07:30Z
     place: shanghai
     thread: china-moscow-1960
     also: [china-mao-foreign]
@@ -6481,6 +6584,7 @@ entries:
         - 'w.yang-jisheng-mubei II, 1150: 2'
         - 'w.yang-jisheng-tiandi-fanfu I, 95–96: ?'
     tags: [polity:prc, name:mao-zedong, name:kang-sheng, vis:only:prc, name:jespersen, name:yang-shangkun]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-28.china-leadership-2
     when: May 28
     date: '1960-05-28'
@@ -6488,13 +6592,13 @@ entries:
     place: ulan-bator
     thread: china-zhou-foreign
     also: [soviet-union, china-economy, china-foreign]
-    c: 'Zhou Enlai''s talk with Tsedenbal, Chen Yi, Ji Pengfei and Li Qiang on the Chinese side. On Mongolia''s economy: self-reliance, more output and more people, population growth joined to production, more light industry.{1} Afterward he visits the city and the industrial combine''s shoe and wool factories.{2}'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 323 (May 28, 1960); [[w.zhou-enlai-waijiao-huodong]], 282 (May 28, 1960; 上午10时, 乌兰巴托政府大厦); [[w.zhou-enlai-waijiao-huodong]], 282 (May 28, 1960; 下午, 皮鞋厂和毛纺织厂); [[w.chen-yi-nianpu]], 819 (May 28, 1960, morning; Chen Yi at the talks of Zhou Enlai and Tsedenbal in the Government House). Made public: 1993. Names: Zhou Enlai, Chen Yi, Ji Pengfei, Tsedenbal, Li Qiang.'
+    c: 'Zhou Enlai''s talk with Tsedenbal, Chen Yi, Ji Pengfei and Li Qiang on the Chinese side. On Mongolia''s economy: self-reliance, more output and more people, population growth joined to production, more light industry.{1}'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 323 (May 28, 1960); [[w.zhou-enlai-waijiao-huodong]], 282 (May 28, 1960; 上午10时, 乌兰巴托政府大厦); [[w.chen-yi-nianpu]], 819 (May 28, 1960, morning; Chen Yi at the talks of Zhou Enlai and Tsedenbal in the Government House). Made public: 1993. The visit to the city is [[cal.1960-05-28.china-leadership-11]] and to the shoe and woolen mills [[cal.1960-05-28.china-leadership-12]] ([[w.zhou-enlai-waijiao-huodong]], 282; [[w.chen-yi-nianpu]], 819). Names: Zhou Enlai, Chen Yi, Ji Pengfei, Tsedenbal, Li Qiang.'
     src:
-      c: 68996a12
+      c: 425a4f69
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 323: ?'
-        - 'w.zhou-enlai-waijiao-huodong 282: 2'
+        - 'w.zhou-enlai-waijiao-huodong 282: 1'
         - 'w.chen-yi-nianpu 819: ?'
     tags: [polity:prc, polity:mongolia, name:zhou-enlai, name:chen-yi, name:ji-pengfei, vis:only:prc+mongolia, name:li-qiang, name:tsedenbal]
     time_zone: Asia/Ulaanbaatar
@@ -6691,13 +6795,12 @@ entries:
     thread: china-liu
     follows:
       - cal.1960-05-29.china-leadership-8
-    c: Peking. Liu Shaoqi goes to the hospital to take leave of Lin Boqu's remains.{1} Lin Boqu, Politburo member and vice-chairman of the National People's Congress Standing Committee, died there that day.{2}
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (May 29, 1960); [[w.yang-shangkun-riji]], I, 513 (May 29, 1960; Lin Boqu dies at Peking at 10:40 a.m.); [[w.peng-zhen-nianpu-1902]], IV, 31 (May 29, 1960, afternoon; Peng Zhen, with Liu Shaoqi, Song Qingling, Deng Xiaoping and others, at the Peking Hospital). Footnote 1 (487) gives Lin Boqu''s posts and the date of his death. Names: Liu Shaoqi, Lin Boqu.'
+    c: Peking. Liu Shaoqi goes to the hospital to take leave of Lin Boqu's remains.{1}
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 487 (May 29, 1960); [[w.peng-zhen-nianpu-1902]], IV, 31 (May 29, 1960, afternoon; Peng Zhen, with Liu Shaoqi, Song Qingling, Deng Xiaoping and others, at the Peking Hospital). Footnote 1 (487) gives Lin Boqu''s posts and the date of his death. Lin Boqu''s death is [[cal.1960-05-29.china-leadership-8]] ([[w.yang-shangkun-riji]], I, 513). Names: Liu Shaoqi, Lin Boqu.'
     src:
-      c: cc3d1e88
+      c: 69bdf874
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 487: ?'
-        - 'w.yang-shangkun-riji I, 513: 2'
         - 'w.peng-zhen-nianpu-1902 IV, 31: ?'
     tags: [polity:prc, name:liu-shaoqi, name:lin-boqu]
     time_range:
@@ -6771,11 +6874,13 @@ entries:
   - id: cal.1960-05-29.china-leadership-8
     when: May 29
     date: '1960-05-29'
+    time: 1960-05-29T02:40Z
     place: peking
     thread: china-organization
     c: Lin Boqu 林伯渠, member of the Politburo 中央政治局 and vice-chairman of the National People's Congress Standing Committee, dies in Peking 北京, aged 75.
-    n: '[[w.chen-yi-nianpu]], 819. Names: Lin Boqu.'
+    n: '[[w.chen-yi-nianpu]], 819; [[w.yang-shangkun-riji]], I, 513 (May 29, 1960; Lin Boqu dies at Peking at 10:40 a.m.). Names: Lin Boqu.'
     tags: [polity:prc, name:lin-boqu]
+    time_zone: Asia/Shanghai
   - id: cal.1960-05-29.china-leadership-9
     when: May 29
     date: '1960-05-29'

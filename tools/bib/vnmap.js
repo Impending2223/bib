@@ -332,9 +332,10 @@ class Figure {
       .then((d) => (this.Y[y] = d), () => { delete this.Y[y]; }))));
   }
 
-  /* the entries in the span (a thread's alone, where the figure is a thread's): the dots, the lists, the count */
+  /* the entries in the span (a thread's alone, where the figure is a thread's; a place's, where a place's): the dots, the lists, the count */
   refresh() {
     const {from, to} = this.st, th = this.D.th, E = [], at = {}, atv = {};
+    const ids = this.D.ids ? new Set(this.D.ids) : null;     // a place's page: its own entries alone (placepages.py)
     for (const y of this.years()) {
       const Y = this.Y[y];
       if (!Y || !Y.e) continue;
@@ -342,6 +343,7 @@ class Figure {
       if (th && k < 0) continue;
       for (const x of Y.e) {
         if (x.d < from || x.d > to || (th && !x.k.includes(k))) continue;
+        if (ids && !ids.has(x.h.slice(x.h.indexOf('#') + 1))) continue;
         E.push(x);
         x.p.forEach((p) => (at[p] = at[p] || []).push(x));
         (x.v || []).forEach((v) => (atv[v] = atv[v] || []).push(x));

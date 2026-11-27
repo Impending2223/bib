@@ -1074,7 +1074,7 @@ def main(argv=None):
     x.add_argument("--quiet", "-q", action="store_true", help="errors only")
     x.add_argument("--limit", type=int)
     x = sub.add_parser("build", help="write build/<key>.html and build/series.html")
-    x.add_argument("which", nargs="?", help="a list key, or 'series'; default all")
+    x.add_argument("which", nargs="?", help="a list key, or 'series', 'threads', 'places' ...; default all")
     x.add_argument("--force", action="store_true")
     x = sub.add_parser("hearings", help="the printed nomination hearings: all | open (a name only, for the hand file)")
     x.add_argument("action", nargs="?", choices=["all", "open"], default="all")
