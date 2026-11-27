@@ -1554,3 +1554,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 11:27 pm PT.** (With a zip, NARA record 157-10002-10048.) "Is this the Sheffield Edwards item?"
 
 **Nov. 27, 2026, about 11:18 am PT (Friday; marked "Immediate.", an exception to the pause).** "Immediate. Claude, the Chinese provinces named in the entries don't seem to be getting \"Place: province\" tags. Is that intended?"
+
+**Nov. 27, 2026, about 3:25 pm PT (Friday, in the pause; queued).** "Shouldn't we say more re: the January 21, 1965 meeting between Johnson, Rusk, McNamara, and the Congressional leaders of both parties? I ask because a senatorial question is raised in the entry and not answered, but the cited and linked FRUS document seems to include material worth noting even beyond the Administration's responses to the exchange. https://impending2223.github.io/bib/e.html#cal.1965-01-21.vietnam"
