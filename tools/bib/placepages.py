@@ -48,6 +48,24 @@ STYLE
     sentence written by the build, never stored: the nations, States, provinces and cities with a page that the
     entry took place in or concerns (STYLE 2), in that order (the index's: the nations as the register lists them, the
     others by name), each linked to its page as the names are.
+ 8. The place tags held to the entry (the owner, Nov. 26, 2026, 9:36 p.m.: "What would minimize error at least
+    cost?"; ruling 67; notes/proposals/place-pages.md, "The States' tags"), in `./bib check` (check.entry_problems):
+    an error, a tag that names nothing (tag_errors): `state:` not a postal code of the States or D.C. in lower case
+    (sources.STATES), `polity:` not in sources/polities.yaml. A warning, a tag nothing else in the calendar entry
+    supports (tag_findings; `ok:<rule>` on the entry where it is right): [polity-tag], a nation's tag (not an
+    organization's) none of whose nations (FOLD both ways) the entry's place, its people (their register rows, private
+    persons too), its threads, its other place tags, its `vis:` rulings or the gazetteer places its line names give,
+    and whose name, adjective, capital or code (nation_words, NATION_WORDS) its line does not write; [state-tag], on an
+    entry placed outside the State (in another State, D.C. or abroad), a State tag that no thread of the State (a
+    thread or an ancestor whose slug is the State's), no city or place tag in it, no gazetteer place in it that the
+    line names and no word of the line for it (state_words: its name, its Bluebook abbreviation) supports; [city-tag],
+    on an entry placed only at other places, in another State or nation, a city tag whose city the line does not name.
+    An entry with no place is never warned on its State or city tags. The line's words are the narrowing: without
+    them the polity rule raised 2,883 warnings over the calendar, most of them right (the countries of a delegation
+    Zhou receives, named in the line, their people untagged); the State and city rules, 266 and 68, most of them acts
+    in Washington or at a convention about a State or a city the line names.
+ 9. What a place tag names (tag_name), for `./bib patch-check` (patchcheck.py, STYLE 15): a polity's register name, a
+    State's name, a city's or place's gazetteer name, a province's on either map.
 """
 import datetime
 import html
@@ -689,7 +707,7 @@ def tag_errors(e):
                 from . import congress
                 st_keys.update({store.fold(n).lower().replace(" ", "-"): c for c, n in congress.STATE.items()})
             fix = k.lower() if k.upper() in sources.STATES else (st_keys.get(k.lower()) or "").lower()
-            out.append(f"{g}: not a State's postal code in lower case (state:al, state:dc)"
+            out.append(f"{g}: not a State's postal code in lower case (state:al; state:dc for D.C.)"
                        + (f"; write state:{fix}" if fix else ""))
         elif ns == "polity" and reg and k not in reg:
             by_tag = {str((v or {}).get("tag") or "").lower(): p for p, v in reg.items()}
