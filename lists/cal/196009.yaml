@@ -5700,13 +5700,6 @@ entries:
     c: 'Peoria, the WMBD-TV studios. Nixon''s press conference. On space: if the Soviet Union launches a man first, "we''re not going to get downhearted." Asked about his remark at Grand Forks that more may be paid to get the surpluses off the farmers'' back: his first farm speech, at Guthrie Center, Iowa, will deal with the surplus; a time should be set to deal with it.'
     n: 'Press Conference of Vice President Richard M. Nixon, WMBD-TV Studios, Peoria, IL, [APP](https://www.presidency.ucsb.edu/documents/press-conference-vice-president-richard-m-nixon-wmbd-tv-studios-peoria-il) (Sept. 14, 1960). See [[cal.1960-09-14.elections-1960-3]]. Names: Nixon.'
     tags: [name:nixon-richard-m, state:il, city:peoria]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-14.elections-1960-2
-          - cal.1960-09-14.elections-1960-3
-          - cal.1960-09-14.elections-1960-nixon
-        from: 2026-11-27-lo-d04
   - id: cal.1960-09-14.elections-1960-nixon-3
     when: Sept. 14
     date: '1960-09-14'
@@ -5720,14 +5713,6 @@ entries:
     c: St. Louis, the airport. Nixon, from Peoria, is greeted by more than 5,000, after eleven at night.
     n: '[[w.nixon-six-crises]], 331 ("past eleven when we arrived"; "an enthusiastic airport crowd of over 5000"). The hour: "past eleven" ([[w.nixon-six-crises]], 331); the time is approximate. The order: after [[cal.1960-09-14.elections-1960-nixon]] and [[cal.1960-09-14.elections-1960-nixon-2]], the flight from Peoria ([[w.nixon-six-crises]], 331). See [[cal.1960-09-14.elections-1960-3]]. Names: Nixon. Check: White has Nixon leave Peoria at eleven at night and reach St. Louis "shortly after midnight" ([[w.white-making-of-the-president]], 274).'
     tags: [name:nixon-richard-m, state:mo, city:st-louis]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-14.elections-1960-2
-          - cal.1960-09-14.elections-1960-3
-          - cal.1960-09-14.elections-1960-nixon
-          - cal.1960-09-14.elections-1960-nixon-2
-        from: 2026-11-27-lo-d04
     time_zone: America/Chicago
   - id: cal.1960-09-14.elections-1960-nixon-4
     when: Sept. 14
@@ -5739,15 +5724,6 @@ entries:
     c: St. Louis, the hotel. Nixon works on the Machinists speech for an hour, by his account.
     n: '[[w.nixon-six-crises]], 331 ("I still had an hour''s work to do at the hotel on a major speech"). The order: after [[cal.1960-09-14.elections-1960-nixon-3]], the drive into the city from the airport ([[w.nixon-six-crises]], 331). See [[cal.1960-09-14.elections-1960-3]]. Names: Nixon. Check: White has him work in the hotel room until three in the morning ([[w.white-making-of-the-president]], 274).'
     tags: [name:nixon-richard-m, state:mo, city:st-louis]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-14.elections-1960-2
-          - cal.1960-09-14.elections-1960-3
-          - cal.1960-09-14.elections-1960-nixon
-          - cal.1960-09-14.elections-1960-nixon-2
-          - cal.1960-09-14.elections-1960-nixon-3
-        from: 2026-11-27-lo-d04
   - id: cal.1960-09-15.elections-1960
     when: Sept. 15
     date: '1960-09-15'
@@ -5766,19 +5742,6 @@ entries:
         - 'via w.nixon-six-crises 332 n.text: 2'
         - 'w.white-making-of-the-president 273–74: 1, 2'
     tags: [name:nixon-richard-m, name:kennedy-john-f]
-  - id: cal.1960-09-15.cuba
-    when: Sept. 15
-    date: '1960-09-15'
-    place: harrisburg
-    thread: cuba
-    also: [elections-1960]
-    c: Harrisburg, Pa. Kennedy lays to the administration Communism "8 minutes by jet from the coast of Florida."
-    n: '[[w.nixon-six-crises]], 351 (the fifteenth; Nixon''s wording, "eight jet minutes from the coast of Florida"). [[w.communications-freedom-of-communications-part]], 250 (Kennedy at the Zembo Mosque Temple, Harrisburg, Sept. 15: "8 minutes by jet from the coast of Florida"). The same speech as [[cal.1960-09-15.elections-1960-kennedy-8]]. Names: Kennedy.'
-    src:
-      c: 2cca117a
-      rows:
-        - 'w.nixon-six-crises 351: all'
-    tags: [name:kennedy-john-f]
   - id: cal.1960-09-15.elections-1960-2
     when: Sept. 15
     date: '1960-09-15'
@@ -5888,7 +5851,7 @@ entries:
     date: '1960-09-15'
     place: harrisburg
     thread: elections-1960-kennedy
-    also: [cuba]
+    also: [cuba, elections-1960]
     follows:
       - cal.1960-09-15.elections-1960-kennedy-7
     c: 'Harrisburg, Pa., Zembo Mosque Temple. Kennedy''s statewide television speech: Cuba, with Havana''s Ambassador, and unemployment, one in 14 seeking a job.{1} On Cuba: Communism "8 minutes by jet from the coast of Florida."{2}'
@@ -5899,6 +5862,35 @@ entries:
         - 'w.communications-freedom-of-communications-part 249–252: 1'
         - 'w.communications-freedom-of-communications-part 250: 2'
     tags: [name:kennedy-john-f, state:pa]
+    aliases: [cal.1960-09-15.cuba]
+    conflict:
+      - field: c
+        ours: 'Harrisburg, Pa., Zembo Mosque Temple. Kennedy''s statewide television speech: Cuba, with Havana''s Ambassador, and unemployment, one in 14 seeking a job. On Cuba: Communism "8 minutes by jet from the coast of Florida."'
+        theirs: Harrisburg, Pa. Kennedy lays to the administration Communism "8 minutes by jet from the coast of Florida."
+        base: null
+        from: 'combine: combined cal.1960-09-15.cuba'
+      - field: thread
+        ours: elections-1960-kennedy
+        theirs: cuba
+        base: null
+        from: 'combine: combined cal.1960-09-15.cuba'
+      - field: n
+        ours: '[[w.communications-freedom-of-communications-part]], 249–252; [[w.communications-freedom-of-communications-part]], 250. The hour: "I am delighted to be here in Pennsylvania tonight" ([[w.communications-freedom-of-communications-part]], 249): the evening. Names: Kennedy.'
+        theirs: '[[w.nixon-six-crises]], 351 (the fifteenth; Nixon''s wording, "eight jet minutes from the coast of Florida"). [[w.communications-freedom-of-communications-part]], 250 (Kennedy at the Zembo Mosque Temple, Harrisburg, Sept. 15: "8 minutes by jet from the coast of Florida"). The same speech as [[cal.1960-09-15.elections-1960-kennedy-8]]. Names: Kennedy.'
+        base: null
+        from: 'combine: combined cal.1960-09-15.cuba'
+      - field: src
+        ours:
+          c: fba0c969
+          rows:
+            - 'w.communications-freedom-of-communications-part 249–252: 1'
+            - 'w.communications-freedom-of-communications-part 250: 2'
+        theirs:
+          c: 2cca117a
+          rows:
+            - 'w.nixon-six-crises 351: all'
+        base: null
+        from: 'combine: combined cal.1960-09-15.cuba'
     time_band: evening
     time_range:
       - 1960-09-15T23:00Z
@@ -6016,12 +6008,6 @@ entries:
     c: St. Louis, the hotel, about 3:30 a.m. Nixon wakes with a raging fever. Dr. John C. Lungren, who travels with him, finds a temperature over 103, probably a flu virus. Nixon tells him the Machinists' convention, set for 8:15 that morning, is the one meeting he must attend.
     n: '[[w.nixon-six-crises]], 331 ("at about three-thirty in the morning"; "a temperature of over 103, caused probably by a flu virus"; the Machinists'' convention "scheduled for 8:15 that morning"). The hour: "about three-thirty in the morning" ([[w.nixon-six-crises]], 331). See [[cal.1960-09-14.elections-1960-3]]. Names: Nixon. Check: White gives a cold, Nixon a fever, probably flu; White has Nixon, at three, unable to sleep, calling an aide, and a fever only at Roanoke that evening ([[w.white-making-of-the-president]], 274).'
     tags: [name:nixon-richard-m, state:mo, city:st-louis]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-15.elections-1960
-          - cal.1960-09-15.elections-1960-2
-        from: 2026-11-27-lo-d04
     time_zone: America/Chicago
   - id: cal.1960-09-16.japan-and-korea
     when: Sept. 16
@@ -7645,15 +7631,6 @@ entries:
     c: 'At breakfast, Goodwin to Kennedy: "It''s okay with Hubert." Kennedy grunts, takes the farm speech and puts it in his coat pocket.'
     n: '[[w.goodwin-remembering-america]], 119 (Goodwin''s account). The hour: "at breakfast" (119). See [[cal.1960-09-22.farm-5]]. Names: Goodwin, Humphrey, Kennedy. Check: the place; Goodwin names none, and Kennedy spoke at a breakfast at Sioux City that morning ([[w.communications-freedom-of-communications-part]], 314).'
     tags: [name:goodwin-richard-n, name:humphrey-hubert-h, name:kennedy-john-f]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-22.farm
-          - cal.1960-09-22.farm-2
-          - cal.1960-09-22.farm-3
-          - cal.1960-09-22.farm-4
-          - cal.1960-09-22.farm-5
-        from: 2026-11-27-lo-d04
     time_band: morning
     time_range:
       - 1960-09-22T11:00Z
@@ -7712,7 +7689,7 @@ entries:
     thread: cuba
     also: [elections-1960]
     c: 'Kennedy, in a statement for the Scripps-Howard papers: "The forces fighting for freedom in exile and in the mountains of Cuba should be sustained and assisted."'
-    n: '[[w.nixon-six-crises]], 353, 356. To check: Kennedy''s statement for the Scripps-Howard papers, Sept. 23, 1960 (cited by [[w.nixon-six-crises]], 353). See [[cal.1960-09-15.cuba]]. Names: Kennedy.'
+    n: '[[w.nixon-six-crises]], 353, 356. To check: Kennedy''s statement for the Scripps-Howard papers, Sept. 23, 1960 (cited by [[w.nixon-six-crises]], 353). See [[cal.1960-09-15.elections-1960-kennedy-8]]. Names: Kennedy.'
     src:
       c: 68ca4106
       rows:
@@ -7930,11 +7907,6 @@ entries:
     c: 'New York, the General Assembly. Wadsworth, "on behalf of and with the authorization of the Secretary of State," answers Khrushchev on the RB-47, disarmament and colonialism, and on the Secretary-General: the Soviet Union, having sought to crush Trygve Lie, now attempts to crush the office itself, "what we cannot control we will destroy"; the United Nations "must face this crisis head on."'
     n: 'FRUS 1958–60, II, doc. [185](https://history.state.gov/historicaldocuments/frus1958-60v02/d185) (the editorial note: "On the afternoon of September 23"; U.N. doc. A/PV.870). The hour: "the afternoon of September 23" (doc. 185). See [[cal.1960-09-23.soviet-union]]. Names: Wadsworth, Khrushchev.'
     tags: [name:wadsworth-james-j, name:khrushchev-nikita-s]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-23.soviet-union
-        from: 2026-11-27-lo-d04
     time_band: afternoon
     time_range:
       - 1960-09-23T16:00Z
@@ -8826,12 +8798,6 @@ entries:
     c: Chicago, the Pick-Congress. Nixon, back from the Carpenters at 12:30, is out of reach of his television advisers, Mrs. Nixon with him; he sees one visitor for five minutes in his suite and takes one long telephone call. Lodge, by report, urges him to erase the "assassin image."
     n: '[[w.white-making-of-the-president]], 285 ("When Nixon returned to his hotel from the Brotherhood appearance at 12:30"; "one visitor for five minutes that afternoon"; Lodge "reportedly"). The hour: "at 12:30" and "that afternoon" ([[w.white-making-of-the-president]], 285). See [[cal.1960-09-26.elections-1960-4]]. Names: Nixon, Pat Nixon, Lodge.'
     tags: [name:nixon-richard-m, name:nixon-pat, name:lodge-henry-cabot, state:il, city:chicago]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-26.elections-1960-4
-          - cal.1960-09-26.elections-1960-5
-        from: 2026-11-27-lo-d04
     time_band: afternoon
     time_range:
       - 1960-09-26T17:00Z
@@ -8847,13 +8813,6 @@ entries:
     c: 'Chicago, the drive to the WBBM studio. Nixon rides with one television adviser, who briefs him in the ten minutes: come out swinging. Nixon wonders whether it came from the adviser or from Stanton, who, he says, "only wanted a good show." At the studio he strikes his knee on the car door.'
     n: '[[w.white-making-of-the-president]], 285–86 (the ten-minute drive; the knee struck "again"). The hour: before the debate; Nixon entered the studio "about an hour before air time" ([[w.white-making-of-the-president]], 286). See [[cal.1960-09-26.elections-1960-4]]. Names: Nixon.'
     tags: [name:nixon-richard-m, state:il, city:chicago, ok:fields-time]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-26.elections-1960-4
-          - cal.1960-09-26.elections-1960-5
-          - cal.1960-09-26.elections-1960-nixon
-        from: 2026-11-27-lo-d04
   - id: cal.1960-09-27.japan-and-korea
     when: Sept. 27
     date: '1960-09-27'
@@ -9825,11 +9784,6 @@ entries:
     c: New York, the General Assembly. Macmillan speaks; Khrushchev twice shouts rebuttals from the floor, the second interrupting him until the Assembly's President, Boland, restores order.
     n: 'FRUS 1958–60, II, doc. [198](https://history.state.gov/historicaldocuments/frus1958-60v02/d198) (the editorial note: "the morning of September 29"; U.N. doc. A/PV.877). [[w.macmillan-pointing-the-way-1959]], 275–79. The hour: "the morning of September 29" (doc. 198). See [[cal.1960-09-29.soviet-union]]. Names: Macmillan, Khrushchev.'
     tags: [name:macmillan-harold, name:khrushchev-nikita-s]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1960-09-29.soviet-union
-        from: 2026-11-27-lo-d04
     time_band: morning
     time_range:
       - 1960-09-29T10:00Z
