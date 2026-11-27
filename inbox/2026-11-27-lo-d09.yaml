@@ -1,13 +1,13 @@
 patch: 2026-11-27-lo-d09
-by: Claude (Sonnet), leftovers batch lo-d09, Nov. 27, 2026
+by: Claude (Sonnet), leftovers batch lo-d09, Nov. 27, 2026; audited by Claude (Opus), Nov. 27, 2026 (notes/leftovers/lo-d09-audit.md)
 ops:
 - edit:
     id: cal.1962-07-02.defense
     base: b4ec6f13
     set:
-      c: 'Hershey, Pa., the Governors'' Conference, at the President''s urging. McNamara on the reserve reorganization: "far from diminishing the role of the reservist, it
-        will give him a new and even more important part"; an hour and a half with the governors'' National Guard committee.'
-      n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 112. Split under R17: the governors'' vote of July 3 is [[cal.1962-07-03.defense]]. Names: McNamara.'
+      c: 'Hershey, Pa., the Governors'' Conference, at the President''s urging. McNamara on the reserve reorganization: "far from diminishing the role of the reservist,
+        it will give him a new and even more important part"; an hour and a half with the governors'' National Guard committee.'
+      n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 112. Kaplan has the governors'' resolution the next day (112). Names: McNamara.'
     kind: correct
 - add:
     entry:
@@ -18,28 +18,29 @@ ops:
       thread: defense
       also:
       - governors
-      c: 'Hershey, Pa., the Governors'' Conference. By voice vote, no dissent, the governors adopt a resolution against the reserve reorganization plan: the National Guard
-        to keep 400,000; McNamara to restudy it; no action in any State until the Guard''s advisory committee has gone over the details.'
-      n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 112 ("The next day, by voice vote without dissent"). To check: the resolution, 108 Cong. Rec. A5968 (Aug. 3, 1962) (cited
-        by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 112 n.64). Split under R17: McNamara''s address of July 2 is [[cal.1962-07-02.defense]]. See [[cal.1962-07-02.defense]].
-        Names: McNamara.'
+      c: 'Hershey, Pa., the Governors'' Conference. By voice vote, no dissent, the governors adopt a resolution against the reserve reorganization plan: the National
+        Guard to keep 400,000; McNamara to restudy it; no action in any State until the Guard''s advisory committee has gone over the details.'
+      n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 112 ("The next day, by voice vote without dissent"). To check: the resolution, 108 Cong. Rec. A5968 (Aug. 3,
+        1962) (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 112 n.64). See [[cal.1962-07-02.defense]]. Names: McNamara.'
       tags:
       - name:mcnamara-robert-s
 - edit:
     id: cal.1962-07-14.georgia-albany
     base: 9f9b4a5f
     set:
-      c: 'Mayor Kelley: the Justice Department "collaborating and conspiring with the leaders of the Albany Movement ... to violate existing ordinances of the City of Albany."{1}
-        The *Herald*: "City Will Not Back Down on Negro Issue."{4}'
-      n: '[[w.branch-parting-the-waters]], 607 (Kelley''s words; the *Herald*''s headline). To check: *Albany Herald*, July 14 at 1 and July 15, 1962, at 1; [*New York Times*,
-        July 15, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/15/issue.html), at 28 (cited by [[w.branch-parting-the-waters]], 607 nn.2, 4). Check: the day of
-        Kelley''s statement: Branch cites the papers of July 15 for it (607). Split under R17: the Department''s denial is [[cal.1962-07-15.georgia-albany]]. See [[cal.1962-07-12.georgia-albany]].'
+      c: 'Mayor Kelley: the Justice Department "collaborating and conspiring with the leaders of the Albany Movement ... to violate existing ordinances of the City
+        of Albany."{1} The *Herald*: "City Will Not Back Down on Negro Issue."{4}'
+      n: '[[w.branch-parting-the-waters]], 607 (Kelley''s words; the *Herald*''s headline). To check: *Albany Herald*, July 14 at 1 and July 15, 1962, at 1; [*New
+        York Times*, July 15, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/15/issue.html), at 28 (cited by [[w.branch-parting-the-waters]], 607 nn.2,
+        3). Check: the day of Kelley''s statement: Branch cites the *Herald* and the *Times* of July 15 for it (607 n.3). Branch gives the Department''s denials no
+        day, and keys Katzenbach''s letter of July 14 to the Department''s dealings with the FBI (607 n.4). See [[cal.1962-07-12.georgia-albany]].'
       src:
         c: 5874a875
         rows:
         - 'w.branch-parting-the-waters 607: 1, 4'
         - 'via w.branch-parting-the-waters 607 n.3a: 1'
         - 'via w.branch-parting-the-waters 607 n.3b: 1'
+        - 'via w.branch-parting-the-waters 607 n.2: 4'
       tags:
       - state:ga
       - city:albany-ga
@@ -55,10 +56,9 @@ ops:
       also:
       - civil-rights-the-executive
       c: The Justice Department denies Mayor Kelley's charge of collaborating with the Albany Movement. Katzenbach writes Kelley.
-      n: '[[w.branch-parting-the-waters]], 607 ("a flurry of denials from the Justice Department"; Katzenbach to Kelley, July 14, 1962, Albany city records, is cited at that
-        page for the Justice Department''s exchanges, 607 n.; Branch gives no day for the denials). To check: Katzenbach to Kelley, July 14, 1962, Albany city records (cited
-        by [[w.branch-parting-the-waters]], 607). Check: the day and the form of the denial: whether Katzenbach''s letter of July 14 is it. Split under R17: Kelley''s charge
-        is [[cal.1962-07-14.georgia-albany]]. See [[cal.1962-07-14.georgia-albany]]. Names: Katzenbach.'
+      n: '[[w.branch-parting-the-waters]], 607 ("a flurry of denials from the Justice Department"; no day given); 607 n.4 (Katzenbach to Kelley, July 14, 1962, Albany
+        city records, keyed to the Department''s dealings with the FBI). Check: the day and the form of the denial, and whether Katzenbach''s letter of July 14 is
+        it. See [[cal.1962-07-14.georgia-albany]]. Names: Katzenbach.'
       tags:
       - name:katzenbach-nicholas
       - state:ga
@@ -67,18 +67,24 @@ ops:
     id: cal.1962-07-18.china-leadership
     base: 05225d9c
     set:
-      c: 'Afternoon.{1} Mao to Yang Shangkun: whether to take the collective road or the individual one; and his dissatisfaction with the State Planning Commission and the
-        Ministry of Commerce; "against dispersionism" again.{2} Yang''s diary that day: "I think the situation grave!! deeply uneasy."{3}'
-      n: '[[w.zedong-mao-zedong-nianpu]], V, July 18, 1962; [[w.yang-shangkun-riji]], II, 195–196 (July 18, 1962; at the swimming pool, to 6:30 p.m.; at 9 p.m. Yang tells Zhou
-        Enlai Mao''s points); [[w.mao-zedong-zhuan]], V, ch. 70 nn.29, 30 (July 18, afternoon, at the pool: Mao to Yang Shangkun: the collective road or the individual one,
-        and against dispersionism, the Planning Commission and the Ministry of Commerce; Yang''s diary: "the situation grave" (II, 196)). [[w.jian-zhou-enlai]], 468 (July 18:
-        Mao to Yang Shangkun on collective or private farming; unhappy with the Planning Commission and the Commerce Ministry under Zhou); [[w.chen-yun-nianpu-xiuding]], III,
-        136 (Mao to Yang Shangkun: the collective road or the individual economy? Yang''s diary: "I feel the matter is very grave!! Most uneasy!"). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]]
-        (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 195–196)
-        stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Split under R17: the evening, when Yang sends
-        for Zhou Enlai to tell him Mao''s points, is [[cal.1962-07-18.china-leadership-6]] (Yang, II, 195: after supper he rests until 9, then asks Zhou to come; [[w.jian-zhou-enlai]],
-        468: at 9:00 p.m. that evening Yang relays "the chairman''s points"). Names: Mao Zedong, Zhou Enlai, Yang Shangkun.'
+      c: 'Afternoon.{1} Mao to Yang Shangkun: whether to take the collective road or the individual one; and his dissatisfaction with the State Planning Commission
+        and the Ministry of Commerce; "against dispersionism" again.{2} Yang''s diary that day: "I think the situation grave!! deeply uneasy."{3}'
+      n: '[[w.zedong-mao-zedong-nianpu]], V, July 18, 1962; [[w.yang-shangkun-riji]], II, 195–196 (July 18, 1962; at the swimming pool, to 6:30 p.m.); [[w.mao-zedong-zhuan]],
+        V, ch. 70 nn.29, 30 (July 18, afternoon, at the pool: Mao to Yang Shangkun: the collective road or the individual one, and against dispersionism, the Planning
+        Commission and the Ministry of Commerce; Yang''s diary: "the situation grave" (II, 196)). [[w.jian-zhou-enlai]], 468 (July 18: Mao to Yang Shangkun on collective
+        or private farming; unhappy with the Planning Commission and the Commerce Ministry under Zhou); [[w.chen-yun-nianpu-xiuding]], III, 136 (Mao to Yang Shangkun:
+        the collective road or the individual economy? Yang''s diary: "I feel the matter is very grave!! Most uneasy!"). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]]
+        (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II,
+        195–196) stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Names: Mao Zedong, Zhou
+        Enlai, Yang Shangkun.'
     kind: correct
+- cite:
+    id: cal.1962-07-18.china-leadership-6
+    item: '[[w.yang-shangkun-riji]], II, 195–196 (July 18, 1962: after supper he rests until 9, then has Zhou Enlai come and talks of the points of the chairman''s
+      talk: 晚饭后休息到9时，约恩来同志来谈主席谈话的要点)'
+- cite:
+    id: cal.1962-07-18.china-leadership-6
+    item: '[[w.zedong-mao-zedong-nianpu]], V, July 18, 1962 (that evening Yang Shangkun reports Mao''s talk to Zhou Enlai)'
 - edit:
     id: cal.1962-07-19.china-leadership
     base: ceac8b54
@@ -90,23 +96,21 @@ ops:
       range_basis: record
 - cite:
     id: cal.1962-07-19.china-leadership
-    item: '[[w.yang-shangkun-riji]], II, 196 (July 19, 1962; 下午3时听了无锡工作组的汇报，约1小时，主席处电话告去游泳池开会 ... 6时结束会议: the Wuxi team heard from 3 p.m. for about an hour, then the call to
-      the pool; the meeting ended at 6 p.m.; the start, about 4 p.m., is inferred)'
+    item: '[[w.yang-shangkun-riji]], II, 196 (July 19, 1962; 下午3时听了无锡工作组的汇报，约1小时，主席处电话告去游泳池开会 ... 6时结束会议: the Wuxi team heard from 3 p.m. for about an hour, then
+      the call to the pool; the meeting ended at 6 p.m.; the start, about 4 p.m., is inferred)'
     'on': time
 - edit:
     id: cal.1962-07-18.middle-east
     base: ba6f1104
     set:
-      c: Iran. The Shah accepts Amini's resignation and his Cabinet's and names Alam Prime Minister. The Embassy attributes Amini's fall to his failure to bring the operating
-        budget's deficit down to manageable size; the deficit is at least $110–120 million.
-      n: 'FRUS 1961–63, XVIII, doc. [8](https://history.state.gov/historicaldocuments/frus1961-63v18/d8) and n.1 (July 19; "On July 18, the Shah of Iran accepted the resignation
-        of Amini and his Cabinet and appointed Asadollah Alam"; Embassy Tehran telegram 78, July 18; the deficit). The resignation and the naming are one act in the record.
-        Split under R17: State''s statement on aid is [[cal.1962-07-18.middle-east-2]]; Komer''s memorandum of July 18 is [[cal.1962-07-18.middle-east-3]]; Komer to Bundy of
-        July 19 is [[cal.1962-07-19.middle-east]]. See [[cal.1961-05-04.middle-east]]. Names: Amini, Alam, Pahlavi.'
+      c: Iran. The Shah accepts the resignation of Amini and his Cabinet and names Asadollah Alam Prime Minister.
+      n: 'FRUS 1961–63, XVIII, doc. [8](https://history.state.gov/historicaldocuments/frus1961-63v18/d8) n.1 ("On July 18, the Shah of Iran accepted the resignation
+        of Amini and his Cabinet and appointed Asadollah Alam as Iran''s new Prime Minister"). See [[cal.1961-05-04.middle-east]]. Names: Amini, Alam, Pahlavi.'
       tags:
       - name:amini-ali
       - name:alam-assadollah
       - name:pahlavi-mohammed-reza
+      place: tehran
     kind: correct
 - add:
     entry:
@@ -115,10 +119,10 @@ ops:
       date: '1962-07-18'
       place: washington
       thread: middle-east
-      c: 'State''s press statement, after reports that Amini blames the lack of US support for his fall: the United States gave $67.3 million in grants and loans under Amini
-        and committed $20 million more for a development loan.'
-      n: 'FRUS 1961–63, XVIII, doc. [8](https://history.state.gov/historicaldocuments/frus1961-63v18/d8) n.1 (Department of State telegram 50 to Tehran, July 18, which records
-        the statement). Split under R17: the resignation is [[cal.1962-07-18.middle-east]]. See [[cal.1962-07-18.middle-east]]. Names: Amini. Check: the hour of the statement.'
+      c: 'State''s press statement, after reports that Amini blames the lack of US support for his fall: the United States gave $67.3 million in grants and loans
+        under Amini and committed $20 million more for a development loan.'
+      n: 'FRUS 1961–63, XVIII, doc. [8](https://history.state.gov/historicaldocuments/frus1961-63v18/d8) n.1 (Department of State telegram 50 to Tehran, July 18,
+        which records the statement). See [[cal.1962-07-18.middle-east]]. Names: Amini. Check: the hour of the statement.'
       tags:
       - name:amini-ali
 - add:
@@ -128,11 +132,12 @@ ops:
       date: '1962-07-18'
       place: washington
       thread: middle-east
-      c: 'Komer to Kennedy: base policy on saving Amini, the only good Prime Minister Iran has had in years; Amini''s charges of too little US aid are wild; tell the Iranians
-        to cover the budget gap with oil revenues and deficit financing, no new money until the budget is pared. The Shah''s refusal to back cuts in the military and civil
-        budgets is the real cause. Sent to Bundy with a note: $87.3 million given or pledged to Amini, against a four-year average of $59.4 million.'
-      n: 'FRUS 1961–63, XVIII, doc. [5](https://history.state.gov/historicaldocuments/frus1961-63v18/d5) (July 18, 1962; "No indication has been found that the memorandum was
-        forwarded to President Kennedy"). See [[cal.1962-07-18.middle-east]]. Names: Komer, Amini, Pahlavi, Bundy, Kennedy.'
+      c: 'Komer to Kennedy: base policy on saving Amini, the only good Prime Minister Iran has had in years; Amini''s charges of too little US aid are wild; tell
+        the Iranians to cover the budget gap with oil revenues and deficit financing, no new money until the budget is pared. The Shah''s refusal to back cuts in
+        the military and civil budgets is the real cause. Sent to Bundy with a note: $87.3 million given or pledged to Amini, against a four-year average of $59.4
+        million.'
+      n: 'FRUS 1961–63, XVIII, doc. [5](https://history.state.gov/historicaldocuments/frus1961-63v18/d5) (July 18, 1962; "No indication has been found that the memorandum
+        was forwarded to President Kennedy"). See [[cal.1962-07-18.middle-east]]. Names: Komer, Amini, Pahlavi, Bundy, Kennedy.'
       tags:
       - name:komer-robert-w
       - name:amini-ali
@@ -146,11 +151,11 @@ ops:
       date: '1962-07-19'
       place: washington
       thread: middle-east
-      c: 'Komer to Bundy: "We have lost Amini," at least temporarily. The Alam cabinet, tantamount to direct rule by the Shah, will be even less able to cut the deficit of
-        at least $110–120 million. Holmes and State: let the Iranians come to us first. Komer and Gaud: tell them again to cover the gap themselves; the Shah to cut the military
-        budget back to last year''s level. Komer asks whether Kennedy will say so.'
-      n: 'FRUS 1961–63, XVIII, doc. [8](https://history.state.gov/historicaldocuments/frus1961-63v18/d8) (July 19, 1962). Split under R17: the resignation is [[cal.1962-07-18.middle-east]].
-        See [[cal.1962-07-18.middle-east]]. Names: Komer, Bundy, Amini, Alam, Pahlavi, Kennedy, Holmes, Gaud.'
+      c: 'Komer to Bundy: "We have lost Amini," at least temporarily. The Alam cabinet, tantamount to direct rule by the Shah, will be even less able to cut the deficit
+        of at least $110–120 million. Holmes and State: let the Iranians come to us first. Komer and Gaud: tell them again to cover the gap themselves; the Shah to
+        cut the military budget back to last year''s level. Komer asks whether Kennedy will say so.'
+      n: 'FRUS 1961–63, XVIII, doc. [8](https://history.state.gov/historicaldocuments/frus1961-63v18/d8) (July 19, 1962). See [[cal.1962-07-18.middle-east]]. Names:
+        Komer, Bundy, Amini, Alam, Pahlavi, Kennedy, Holmes, Gaud.'
       tags:
       - name:komer-robert-w
       - name:bundy-mcgeorge
@@ -158,25 +163,93 @@ ops:
       - name:alam-assadollah
       - name:pahlavi-mohammed-reza
       - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1962-07-18.middle-east-4
+      when: July 18
+      date: '1962-07-18'
+      place: tehran
+      thread: middle-east
+      follows:
+      - cal.1962-07-18.middle-east
+      c: 'Embassy Tehran, telegram 78: Amini has fallen for his inability to bring the deficit in Iran''s operating budget down to manageable proportions.'
+      n: 'FRUS 1961–63, XVIII, doc. [8](https://history.state.gov/historicaldocuments/frus1961-63v18/d8) n.1 (telegram 78 from Tehran, July 18; Department of State,
+        Central Files, 888.10/7–1862). See [[cal.1962-07-18.middle-east]]. Names: Amini.'
+      tags:
+      - name:amini-ali
+- add:
+    entry:
+      id: cal.1962-07-18.middle-east-5
+      when: By July 18
+      date: '1962-07-18'
+      thread: middle-east
+      c: Talbot telephones Kennedy with the figures of American aid to Amini's Iran.
+      n: 'FRUS 1961–63, XVIII, doc. [5](https://history.state.gov/historicaldocuments/frus1961-63v18/d5), source note (Komer''s covering note to Bundy, July 18: "Talbot
+        has already called JFK with aid figures"). See [[cal.1962-07-18.middle-east]]. Names: Talbot, Kennedy. Check: the day.'
+      tags:
+      - name:talbot-phillips
+      - name:kennedy-john-f
+      - name:amini-ali
+- add:
+    entry:
+      id: cal.1962-07-16.middle-east
+      when: July 16
+      date: '1962-07-16'
+      place: washington
+      thread: middle-east
+      c: 'Komer to Kennedy: whether Amini has resigned is not yet known, but Iran faces a major financial crisis; Amini cannot balance the budget, the military budget
+        being the Shah''s. Iran to dig itself out: cut the budget, cover the rest by deficit financing and oil revenues diverted from development; no repeat of last
+        year''s $15 million budget support. Press the Shah to keep Amini and cut the military budget.'
+      n: 'FRUS 1961–63, XVIII, doc. [4](https://history.state.gov/historicaldocuments/frus1961-63v18/d4) (July 16, 1962). See [[cal.1962-07-04.middle-east]]. Names:
+        Komer, Kennedy, Amini, Pahlavi.'
+      tags:
+      - name:komer-robert-w
+      - name:kennedy-john-f
+      - name:amini-ali
+      - name:pahlavi-mohammed-reza
+- add:
+    entry:
+      id: cal.1962-07-04.middle-east
+      when: July 4
+      date: '1962-07-04'
+      place: tehran
+      thread: middle-east
+      c: 'Ambassador Holmes, telegram 15 from Tehran: financial disarray in Iran; Amini struggles to keep control of the budget and of his own Cabinet; the United
+        States should go on supporting him.'
+      n: 'FRUS 1961–63, XVIII, doc. [4](https://history.state.gov/historicaldocuments/frus1961-63v18/d4) n.1 (telegram 15 from Tehran, July 4; Department of State,
+        Central Files, 888.10/7–462). See [[cal.1961-05-04.middle-east]]. Names: Amini.'
+      tags:
+      - name:amini-ali
+- add:
+    entry:
+      id: cal.1962-07-13.middle-east
+      when: July 13
+      date: '1962-07-13'
+      place: washington
+      thread: middle-east
+      c: 'State, telegram 33 to Tehran, concurs with Ambassador Holmes: the United States to go on supporting Amini.'
+      n: 'FRUS 1961–63, XVIII, doc. [4](https://history.state.gov/historicaldocuments/frus1961-63v18/d4) n.1 (telegram 33 to Tehran, July 13; Department of State,
+        Central Files, 888.10/7–1162). See [[cal.1962-07-04.middle-east]]. Names: Amini.'
+      tags:
+      - name:amini-ali
 - edit:
     id: cal.1962-07-20.economy
     base: d72baf4d
     set:
-      c: Giscard d'Estaing with Kennedy, 10 a.m.; no record of the conversation found. Giscard says afterward that he told the President the French gold purchase was to raise
-        the gold ratio of France's reserves from 65 to 70 percent and that Kennedy understood it as a contribution to stabilizing the US balance of payments.{1}
-      n: 'FRUS 1961–63, XIII, doc. [258](https://history.state.gov/historicaldocuments/frus1961-63v13/d258) n.1 (Giscard "talked with the President at 10 a.m." by the President''s
-        Appointment Book, Kennedy Library; "no other record of the conversation has been found") and text (Giscard to Ball that evening, of "their talk this morning"). [[w.gavin-gold-dollars-and-power]],
-        78–80 (not reread). To check: Ball to Kennedy, "Visit of French Finance Minister," July 18, 1962, National Security Files, Kennedy Library; memorandum of conversation
-        (luncheon), July 21, 1962 (cited by [[w.gavin-gold-dollars-and-power]], 78 n.70, 79 n.71). Split under R17: Giscard''s meeting with Ball at State, 6 p.m., is [[cal.1962-07-20.economy-3]].
-        Names: Giscard d''Estaing, Kennedy.'
+      c: Giscard d'Estaing with Kennedy, 10 a.m.; no record of the conversation found. Giscard says afterward that he told the President the French gold purchase
+        was to raise the gold ratio of France's reserves from 65 to 70 percent and that Kennedy understood it as a contribution to stabilizing the US balance of payments.{1}
+      n: 'FRUS 1961–63, XIII, doc. [258](https://history.state.gov/historicaldocuments/frus1961-63v13/d258) n.1 (Giscard "talked with the President at 10 a.m." by
+        the President''s Appointment Book, Kennedy Library; "no other record of the conversation has been found") and text (Giscard to Ball that evening, of "their
+        talk this morning"). [[w.gavin-gold-dollars-and-power]], 78 ("On 20 and 21 July 1962, Giscard met first with Kennedy"). To check: Ball to Kennedy, "Visit
+        of French Finance Minister," July 18, 1962, National Security Files, Kennedy Library (cited by [[w.gavin-gold-dollars-and-power]], 78 n.70). Names: Giscard
+        d''Estaing, Kennedy.'
       time_zone: America/New_York
       src:
         c: f5c194ed
         rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v13/d258: 1'
-        - 'w.gavin-gold-dollars-and-power 78–80: 1'
+        - 'w.gavin-gold-dollars-and-power 78: 1'
         - 'via w.gavin-gold-dollars-and-power 78 n.70: 1'
-        - 'via w.gavin-gold-dollars-and-power 79 n.71b: 1'
       tags:
       - name:giscard-destaing-valery
       - name:kennedy-john-f
@@ -197,12 +270,14 @@ ops:
       - europe-and-the-alliance-france
       follows:
       - cal.1962-07-20.economy
-      c: 'Giscard d''Estaing with Acting Secretary Ball at State, 6 to 6:50 p.m. Giscard: no unilateral change in the dollar''s parity; a secret approach among the United States,
-        Britain, France, Germany and Italy under cover of the OECD, the creditors to abstain from buying gold and to hold their dollars for a time. Ball: minimum gold reserves,
-        and a ratio of gold to dollars above them.'
-      n: 'FRUS 1961–63, XIII, doc. [258](https://history.state.gov/historicaldocuments/frus1961-63v13/d258) (memorandum of conversation, Washington, July 20, 1962, 6–6:50 p.m.).
-        [[w.gavin-gold-dollars-and-power]], 78–80 (not reread). Split under R25b: Giscard''s talk with Kennedy at 10 a.m. is [[cal.1962-07-20.economy]]. See [[cal.1962-07-20.economy]].
-        Names: Giscard d''Estaing, Ball.'
+      c: 'Giscard d''Estaing with Acting Secretary Ball at State, 6 to 6:50 p.m. Giscard: no unilateral change in the dollar''s parity; a secret approach among the
+        United States, Britain, France, Germany and Italy under cover of the OECD, the creditors to abstain from buying gold and to hold their dollars for a time.
+        Ball: minimum gold reserves, and a ratio of gold to dollars above them.'
+      n: 'FRUS 1961–63, XIII, doc. [258](https://history.state.gov/historicaldocuments/frus1961-63v13/d258) (memorandum of conversation, Washington, July 20, 1962,
+        6–6:50 p.m.). [[w.gavin-gold-dollars-and-power]], 78–80 (Giscard with Ball, Bundy and Tobin after Kennedy; Ball on a ratio of gold to dollar holdings; Giscard:
+        no unilateral action, the creditors to hold their dollars for a time). To check: memorandum of conversation (luncheon), July 21, 1962 (cited by [[w.gavin-gold-dollars-and-power]],
+        79 n.71). Check: Gavin''s meeting with Ball, Bundy and Tobin may be the luncheon of July 21 (79 n.71). See [[cal.1962-07-20.economy]]. Names: Giscard d''Estaing,
+        Ball.'
       tags:
       - name:giscard-destaing-valery
       - name:ball-george-w
@@ -220,42 +295,60 @@ ops:
     witness: w.branch-parting-the-waters
     reads: the marshals serve the order the morning of the Saturday set for the march (July 21)
     at: '609'
+- primary:
+    id: cal.1962-07-20.albany
+    text: '*Kelly v. Page*, [335 F.2d 114](https://static.case.law/f2d/335/case-pdfs/0114-01.pdf), 117 n.2 (5th Cir. 1964) (the temporary restraining order "theretofore
+      entered by the District Court," dissolved by Chief Judge Tuttle; no day given)'
 - check:
     id: cal.1962-07-20.albany
-    text: 'Check: Young, 179, has the injunction "granted on July 20" by Elliott; Garrow, 206, early Saturday, July 21; Branch, 609, served that Saturday morning. The order''s
-      own date and hour are in the court record (the city''s petition, *City of Albany v. Anderson*, M.D. Ga., July 1962), not reached.'
+    text: 'Check: the order''s day: the city''s complaint was filed July 20 (*Kelly v. Page*, [335 F.2d 114](https://static.case.law/f2d/335/case-pdfs/0114-01.pdf),
+      116 (5th Cir. 1964)); Young, 179, has the injunction "granted on July 20"; the appellate opinions give the order no day. The order, in the District Court''s
+      file (M.D. Ga.), not reached.'
+- follows:
+    id: cal.1962-07-20.albany
+    add:
+    - cal.1962-07-20.georgia-albany-5
+    basis: '*Kelly v. Page*, [335 F.2d 114](https://static.case.law/f2d/335/case-pdfs/0114-01.pdf), 116–17 (5th Cir. 1964) (the order on the city''s complaint)'
 - check:
     id: cal.1962-07-21.china-2
-    text: 'Check: what Weekend Reading (2) holds. Chang, 252 n.48, lists it, with the 1961 items, behind his sentence that in 1962 Kennedy received reports that the Chinese
-      thought the United States not necessarily wedded to hostility (252); he does not say which item holds which report, or that this one does.'
+    text: 'Check: what Weekend Reading (2) holds. Chang, 252 n.48, lists it, with the 1961 items, behind his sentence that in 1962 Kennedy received reports that the
+      Chinese thought the United States not necessarily wedded to hostility (251); he does not say which item holds which report, or that this one does.'
 - check:
     id: cal.1962-07-23.china-leadership
-    text: 'Check: the day of the telegram: the Mao nianpu (V, July 22 entry: "on the 23rd" Zhou drafts it, Mao approves it that evening) and the Zhou nianpu (II, 490: drafted
-      July 23) give July 23; Jian (478) has Zhou send it July 22, and Chen Yi, who met Menon on the afternoon of July 22 and again the morning of July 23 ([[w.chen-yi-nianpu]],
-      926), does not mention it. The entry stays on July 23.'
+    text: 'Check: the day of the telegram: the Mao nianpu (V, July 22 entry: "on the 23rd" Zhou drafts it, Mao approves it that evening) and the Zhou nianpu (II,
+      490: drafted July 23) give July 23; Jian (478) has Zhou send it July 22; Chen Yi, who met Menon on the afternoon of July 22 and again the morning of July 23
+      ([[w.chen-yi-nianpu]], 926), does not mention it.'
 - edit:
     id: cal.1962-07-22.china-leadership-4
     base: 857e6145
     set:
       when: July 22
-      c: Geneva. Chen Yi seeks out Krishna Menon, India's chief delegate to the Laos conference, for informal discussions on the border.
+      c: Geneva. Chen Yi seeks out Krishna Menon, India's chief delegate to the Laos conference, for informal discussions on the border. Chen asks him to meet again
+        the next day; Menon agrees at once.
       time_range:
       - 1962-07-22T11:00Z
       - 1962-07-22T17:00Z
       time_band: afternoon
       time_zone: Europe/Zurich
       range_basis: record
-      n: '[[w.macfarquhar-origins-of-the-cultural]], III, 301; [[w.chen-yi-nianpu]], 926 (Chen Yi meets Menon the afternoon of July 22, and again the morning of July 23); [[w.jian-zhou-enlai]],
-        478 (Chen, having met Menon that day, asks him to meet again next day; the next morning some agreement on resuming talks, a joint statement prepared, not issued, Menon
-        unable to reach Delhi). Made public: 1968. To check: [[w.brecher-india-and-world-politics]], 170 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 301 n.29a);
-        [[w.maxwell-indias-china-war]], 267 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 301 n.29b); [[w.bo-1962]], 185–6 (cited by [[w.macfarquhar-origins-of-the-cultural]],
-        III, 301 n.29d); [[w.gopal-jawaharlal-nehru]], 213 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 301 n.30); [[w.chen-yun-nianpu-1905]], II, 926 (so printed)
-        (cited by [[w.jian-zhou-enlai]], 478 n.63a); [[w.zedong-mao-zedong-nianpu]], V, 117 (cited by [[w.jian-zhou-enlai]], 478 n.63b); [[w.zhou-enlai-nianpu-1949]], II, 490
-        (cited by [[w.jian-zhou-enlai]], 478 n.63c); [[w.li-lianqing-da-waijiaojia-zhou-enlai]], IV, 316 (cited by [[w.jian-zhou-enlai]], 478 n.63d); [[w.whiting-chinese-calculus-of-deterrence]],
-        264 n.19 (cited by [[w.jian-zhou-enlai]], 478 n.64b); Arthur Lall''s review of Maxwell''s *India''s China War*, *The Asian Student*, November 27, 1971 (as Whiting quotes
-        it) (cited by [[w.jian-zhou-enlai]], 478 n.64c). Split under R17: the second meeting, the morning of July 23, with the joint statement that was not issued, is [[cal.1962-07-23.china-india-war]].
-        The hour: afternoon ([[w.chen-yi-nianpu]], 926: 7月22日 下午，会见 ... 梅农). Names: Chen Yi, Menon. Check: the days; Chen and Menon met July 22 and 23 by the Chen Yi chronology,
-        at Chen''s request by Menon''s account.'
+      n: '[[w.macfarquhar-origins-of-the-cultural]], III, 301 (Chen Yi seeking out Menon for informal discussions on the border); [[w.chen-yi-nianpu]], 926 (7月22日
+        下午，会见 ... 梅农: the afternoon of July 22); [[w.jian-zhou-enlai]], 478 (Chen, having met Menon that day, asks him to meet again the next day; Menon agrees at
+        once). Made public: 1968. To check: [[w.brecher-india-and-world-politics]], 170 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 301 n.29a); [[w.maxwell-indias-china-war]],
+        267 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 301 n.29b); [[w.bo-1962]], 185–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 301
+        n.29d); [[w.chen-yun-nianpu-1905]], II, 926 (so printed) (cited by [[w.jian-zhou-enlai]], 478 n.63a); [[w.zedong-mao-zedong-nianpu]], V, 117 (cited by [[w.jian-zhou-enlai]],
+        478 n.63b); [[w.zhou-enlai-nianpu-1949]], II, 490 (cited by [[w.jian-zhou-enlai]], 478 n.63c); [[w.li-lianqing-da-waijiaojia-zhou-enlai]], IV, 316 (cited
+        by [[w.jian-zhou-enlai]], 478 n.63d). Names: Chen Yi, Menon. Check: the days; Chen and Menon met July 22 and 23 by the Chen Yi chronology, at Chen''s request
+        by Menon''s account.'
+      src:
+        c: aabe9f37
+        rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 301: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 301 n.29a: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 301 n.29b: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 301 n.29c: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 301 n.29d: all'
+        - 'w.chen-yi-nianpu 926: ?'
+        - 'w.jian-zhou-enlai 478: ?'
     kind: correct
 - add:
     entry:
@@ -272,18 +365,28 @@ ops:
       time_band: morning
       time_zone: Europe/Zurich
       range_basis: record
-      c: Geneva 日内瓦. Chen Yi 陈毅 meets Krishna Menon again, in the morning. They appear to agree on resuming border talks and begin a joint statement; Menon cannot reach New
-        Delhi, for "technical reasons," and it is not issued.
-      n: '[[w.chen-yi-nianpu]], 926 (July 23, 1962: 上午，再次会见 ... 梅农: the morning, again meets Menon); [[w.jian-zhou-enlai]], 478 (Chen invites Menon to meet "the next day";
-        "the next morning" they "clearly reached some form of agreement" and begin a joint statement; Menon unable to contact New Delhi). Split under R17: the first meeting
-        is [[cal.1962-07-22.china-leadership-4]]. See [[cal.1962-07-22.china-leadership-4]]; [[cal.1962-07-23.china-leadership]]. Names: Chen Yi, Menon. Check: the year made
-        public.'
+      c: Geneva 日内瓦. Chen Yi 陈毅 meets Krishna Menon again, in the morning. They appear to agree on resuming border talks and begin a joint statement; Menon cannot
+        reach New Delhi, for "technical reasons," and it is not issued.
+      n: '[[w.chen-yi-nianpu]], 926 (July 23, 1962: 上午，再次会见 ... 梅农: the morning, again meets Menon); [[w.jian-zhou-enlai]], 478 ("the next morning" they "clearly
+        reached some form of agreement" and begin a joint statement; Menon unable to contact New Delhi); [[w.macfarquhar-origins-of-the-cultural]], III, 301 ("only
+        a failure in communication with New Delhi prevented the issuance of a joint communiqué proposing further talks"). To check: [[w.gopal-jawaharlal-nehru]],
+        213 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 301 n.30); [[w.whiting-chinese-calculus-of-deterrence]], 264 n.19 (cited by [[w.jian-zhou-enlai]],
+        478 n.64b); Arthur Lall''s review of Maxwell''s *India''s China War*, *The Asian Student*, November 27, 1971 (as Whiting quotes it) (cited by [[w.jian-zhou-enlai]],
+        478 n.64c). See [[cal.1962-07-22.china-leadership-4]]; [[cal.1962-07-23.china-leadership]]. Names: Chen Yi, Menon. Check: the year made public.'
       tags:
       - polity:prc
       - polity:india
       - vis:only:prc+india
       - name:chen-yi
       - name:menon-v-k-krishna
+      src:
+        c: aa2f2f66
+        rows:
+        - 'w.chen-yi-nianpu 926: all'
+        - 'w.jian-zhou-enlai 478: all'
+        - 'w.macfarquhar-origins-of-the-cultural III, 301: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 301 n.30: all'
+        - 'via x.1971-11-27.arthur-lall-review-maxwell-asian-student: all'
 - add:
     entry:
       id: cal.1962-07-21.china-center
@@ -297,9 +400,9 @@ ops:
       time_band: evening
       time_zone: Asia/Shanghai
       range_basis: record
-      c: Yang Shangkun 杨尚昆 goes to the hospital in the evening to see Li Bozhao 李伯钊 and talks with her an hour; at the office afterward until 2 a.m.
-      n: '[[w.yang-shangkun-riji]], II, 197 (July 21, 1962). The words: 晚间去医院看伯钊，谈了1小时，回家后办公到2时睡 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-07-20.china-leadership-4]].
-        Names: Yang Shangkun, Li Bozhao.'
+      c: Yang Shangkun 杨尚昆 goes to the hospital in the evening to see Li Bozhao 李伯钊 and talks with her an hour; home afterward, he works until 2 a.m.
+      n: '[[w.yang-shangkun-riji]], II, 197 (July 21, 1962). The words: 晚间去医院看伯钊，谈了1小时，回家后办公到2时睡 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).
+        See [[cal.1962-07-19.china-center-2]]. Names: Yang Shangkun, Li Bozhao.'
       tags:
       - polity:prc
       - vis:only:prc
@@ -314,7 +417,8 @@ ops:
       thread: china-center
       time: 1962-07-22T08:30Z
       time_zone: Asia/Shanghai
-      c: Yang Shangkun 杨尚昆 with Niuniu 妞妞 at Peking Hospital 北京医院 to see Li Bozhao 李伯钊, 4:30 p.m.; they sit in the garden an hour and a half and he is home before 6.
+      c: Yang Shangkun 杨尚昆 with Niuniu 妞妞 at Peking Hospital 北京医院 to see Li Bozhao 李伯钊, 4:30 p.m.; they sit in the garden an hour and a half and he is home before
+        6.
       n: '[[w.yang-shangkun-riji]], II, 197 (July 22, 1962). The words: 4时半同妞妞一起去北京医院看伯钊，在花园中坐了1小时半，6时前回家 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).
         See [[cal.1962-07-21.china-center]]. Names: Yang Shangkun, Li Bozhao.'
       tags:
@@ -322,6 +426,79 @@ ops:
       - vis:only:prc
       - name:li-bozhao
       - name:yang-shangkun
+- add:
+    entry:
+      id: cal.1962-07-19.china-center
+      when: July 19
+      date: '1962-07-19'
+      time_range:
+      - 1962-07-18T22:00Z
+      - 1962-07-19T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      range_basis: record
+      place: peking
+      thread: china-center
+      c: Morning. The Secretariat 书记处 meets on the commerce system; Yang Shangkun's 杨尚昆 diary breaks off there.
+      n: '[[w.yang-shangkun-riji]], II, 196 (July 19, 1962; the editors: 原文如此，没有记全, so in the original, not written out). The words: 上午 ... 书记处开会讨论关于商业体制和 (II, 196).
+        Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:yang-shangkun
+- add:
+    entry:
+      id: cal.1962-07-19.china-center-2
+      when: July 19
+      date: '1962-07-19'
+      time_range:
+      - 1962-07-19T11:00Z
+      - 1962-07-19T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      place: peking
+      thread: china-center
+      c: After supper Yang Shangkun 杨尚昆 and Niuniu 妞妞 go to see Li Bozhao 李伯钊.
+      n: '[[w.yang-shangkun-riji]], II, 196 (July 19, 1962). The words: 晚饭后与妞妞一起去看伯钊 (II, 196). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang
+        Shangkun, Li Bozhao.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:yang-shangkun
+      - name:li-bozhao
+- add:
+    entry:
+      id: cal.1962-07-22.china-center-2
+      when: July 22
+      date: '1962-07-22'
+      time_range:
+      - 1962-07-22T11:00Z
+      - 1962-07-22T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      place: peking
+      thread: china-center
+      follows:
+      - cal.1962-07-22.china-center
+      c: Evening. Yang Shangkun 杨尚昆 watches two Vietnamese films, "not bad," and some television; he works until 1 a.m., then home.
+      n: '[[w.yang-shangkun-riji]], II, 197 (July 22, 1962). The words: 晚间看了越南电影两部，还好，看了一部分电视，办公到1时回家 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).
+        Names: Yang Shangkun.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:yang-shangkun
+- place-key:
+    key: south-queensferry
+    name: South Queensferry
+    zone: Europe/London
+    in: uk
+- place-key:
+    key: bathgate
+    name: Bathgate
+    zone: Europe/London
+    in: uk
 - edit:
     id: cal.1962-10-16.europe-and-the-alliance-3
     base: fe1a979d
@@ -332,7 +509,9 @@ ops:
       time_band: afternoon
       time_zone: Europe/London
       range_basis: record
-      place: edinburgh
+      place:
+      - south-queensferry
+      - bathgate
 - edit:
     id: cal.1962-10-18.europe-and-the-alliance-2
     base: 74aeacca
@@ -343,8 +522,8 @@ ops:
       time_band: evening
       time_zone: Europe/London
       range_basis: record
-      n: '[[w.macmillan-diaries]], 507. The day: the diary of Oct. 19 begins "We had a good day yesterday," and holds the dinner with Maudling in that entry (507), which is
-        Oct. 18. The hour: dinner, the evening (507). See [[cal.1962-10-18.europe-and-the-alliance]]. Names: Maudling, Macmillan.'
+      n: '[[w.macmillan-diaries]], 507. The day: the diary of Oct. 19 begins "We had a good day yesterday," and holds the dinner with Maudling in that entry (507),
+        which is Oct. 18. The hour: dinner, the evening (507). See [[cal.1962-10-18.europe-and-the-alliance]]. Names: Maudling, Macmillan.'
     settles:
     - 'Check: the day: the diary of Oct. 19, after "We had a good day yesterday."'
 - edit:
@@ -387,6 +566,9 @@ ops:
       time_band: afternoon
       time_zone: America/New_York
       range_basis: record
+- check:
+    id: cal.1962-10-20.missile-crisis-7
+    text: 'Check: Sorensen, *Kennedy*, 693, has the call made from Chicago, before he boarded his plane ([[w.sorensen-kennedy]], 693).'
 - edit:
     id: cal.1962-10-20.missile-crisis-diplomacy-2
     base: df2c8353
@@ -418,8 +600,9 @@ ops:
       time_zone: America/New_York
       range_basis: record
       n: '[[w.salinger-with-kennedy]], 260 (they then go over the cables in Manning''s office, where Don May of UPI finds them together). After [[cal.1962-10-21.missile-crisis-13|the
-        President''s instructions]], in Salinger''s sequence (259: "I then left for my meeting with Sylvester and Manning"). Check: Salinger has the meeting that follows the
-        President''s instructions over before he is home at 4 p.m. (260–61); the NSC meeting of the day ended at 4:50 p.m. (FRUS XI, doc. 38). Names: Salinger, Sylvester, Manning.'
+        President''s instructions]], in Salinger''s sequence (259: "I then left for my meeting with Sylvester and Manning"). Check: Salinger has the meeting that
+        follows the President''s instructions over before he is home at 4 p.m. (260–61); the NSC meeting of the day ended at 4:50 p.m. (FRUS XI, doc. 38). Names:
+        Salinger, Sylvester, Manning.'
 - edit:
     id: cal.1962-10-22.missile-crisis-37
     base: 64924f5c
@@ -460,6 +643,53 @@ ops:
       time_band: night
       time_zone: America/New_York
       range_basis: record
+      c: 'Harriman, by telephone from Washington on Wednesday night, to Schlesinger in New York: Khrushchev wants help off the hook, and is sending signals, the letter
+        to Bertrand Russell, the orders to Soviet ships to avoid confrontation, the evening with Jerome Hines; Eisenhower ignored such signals after the U-2. "If
+        we do nothing but get tougher and tougher, we will force him into counter measures.... We must give him an out." He has not talked to Rusk, who never asks
+        his advice outside the Far East. By Schlesinger''s journal.'
+      n: '[[w.schlesinger-journals]], 175–76. The words: "On Wednesday night" (175). Made public: [[w.schlesinger-journals]] (2007). Names: Harriman, Schlesinger,
+        Khrushchev, Rusk, Eisenhower, Bertrand Russell.'
+    kind: correct
+- follows:
+    id: cal.1962-10-21.missile-crisis-13
+    add:
+    - cal.1962-10-21.missile-crisis-3
+    basis: '[[w.salinger-with-kennedy]], 259 ("Immediately following the meeting"), the 506th meeting by its minutes (FRUS XI, doc. 38)'
+- add:
+    entry:
+      id: cal.1962-10-24.missile-crisis-diplomacy-4
+      when: Oct. 24
+      date: '1962-10-24'
+      time_range:
+      - 1962-10-25T02:00Z
+      - 1962-10-25T04:00Z
+      time_band: night
+      time_zone: America/New_York
+      range_basis: record
+      place: nyc
+      thread: missile-crisis-diplomacy
+      follows:
+      - cal.1962-10-24.missile-crisis-diplomacy-3
+      c: Schlesinger reports Harriman's view to the President in a memorandum, sent that night.
+      n: '[[w.schlesinger-journals]], 176 ("a memorandum which I sent that night to the President"). Made public: [[w.schlesinger-journals]] (2007). See [[cal.1962-10-24.missile-crisis-diplomacy-3]].
+        Names: Schlesinger, Harriman, Kennedy.'
+      tags:
+      - name:schlesinger-arthur-m-jr
+      - name:harriman-w-averell
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1962-10-25.missile-crisis-diplomacy-5
+      when: Oct. 25
+      date: '1962-10-25'
+      thread: missile-crisis-diplomacy
+      c: Kennedy, who has apparently read Schlesinger's memorandum, telephones Harriman and asks him questions about it.
+      n: '[[w.schlesinger-journals]], 176 ("he called Harriman the next day and asked him questions about it"). Made public: [[w.schlesinger-journals]] (2007). See
+        [[cal.1962-10-24.missile-crisis-diplomacy-4]]. Names: Kennedy, Harriman, Schlesinger.'
+      tags:
+      - name:kennedy-john-f
+      - name:harriman-w-averell
+      - name:schlesinger-arthur-m-jr
 - edit:
     id: cal.1962-10-28.missile-crisis-settlement
     base: 71617c84
@@ -494,50 +724,37 @@ ops:
     base: a6efa864
     set:
       c: 'Bundy tells Kennedy at breakfast.{1} About 8 a.m., Kennedy, still in his pajamas: "He can''t do this to me!"{4}'
-      n: '[[w.presidential-recordings]], vols. 2–3; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 204–06 (Bundy at 8:45 a.m.; the morning meeting; air strikes and a blockade);
-        [[w.poole-joint-chiefs-of-staff]], 166 (the meeting; the options). [[w.schlesinger-robert-kennedy-and-his]], 506–07 (the options); [[w.caro-passage-of-power]], 207–22
-        (Johnson in the ExComm); [[w.fursenko-one-hell-of-a]], 222–27; [[w.rusk-as-i-saw-it-1990]], 230–31; [[w.sorensen-kennedy]], 673–78; [[w.preston-war-council]], 65–66
-        (Bundy for the strike); [[w.fursenko-khrushchevs-cold-war]], 465–66 (Bundy with the photographs; the first options); [[w.thomas-robert-kennedy]], 209 (Bundy to the
-        President about 8 a.m., the President in his pajamas: "He can''t do this to me!"); [[w.taylor-swords-and-plowshares]], 265–66 (the meeting, at 11:45 by Taylor''s account;
-        the courses, air attack, blockade, invasion; Taylor for a series of strikes and a blockade); [[w.sorensen-counselor]], 285–86 (Tuesday morning, Kennedy calls Sorensen
-        into the Oval Office with the U-2 news and the false assurances of Khrushchev and Dobrynin, and asks him to bring copies of his two public warnings on Soviet offensive
-        weapons in Cuba; first meeting of his advisers at 11:45 a.m.; the air strike the first choice of nearly everyone; Sorensen''s account, written in 2008; not Bundy''s
-        breakfast call or the taping); [[w.thomas-robert-kennedy]], 209; [[w.sorensen-counselor]], 285–86. [[w.schlesinger-thousand-days-1965]], 794–808. [[w.reeves-president-kennedy]],
-        368–77. [[w.ball-past-has-another-pattern]], 288–89 (the meeting and who sat; the afternoon at State, the evening at the White House). [FRUS 1961–63, XI, doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v11/d18);
-        [doc. 21](https://history.state.gov/historicaldocuments/frus1961-63v11/d21); [doc. 16](https://history.state.gov/historicaldocuments/frus1961-63v11/d16) (editorial
-        note: Bundy told the evening before, the President in the morning). To check: [[w.kennedy-tapes]]; [[w.stern-averting-the-final-failure]]. Split under R25b: Kennedy''s
-        call to Sorensen is [[cal.1962-10-16.missile-crisis-7]]; the first ExComm meeting, 11:50 a.m., is [[cal.1962-10-16.missile-crisis-6]]. See [[cal.1962-05-24.missile-crisis]].
-        Names: Bundy, McNamara, Taylor, Sorensen.'
+      n: 'FRUS 1961–63, XI, [doc. 16](https://history.state.gov/historicaldocuments/frus1961-63v11/d16) (editorial note: Bundy told the evening before, the President
+        in the morning). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 204–06 (Bundy at 8:45 a.m., 204); [[w.fursenko-one-hell-of-a]], 222–27 (Kennedy reading the Tuesday
+        morning papers in bed when Bundy tells him, 222); [[w.rusk-as-i-saw-it-1990]], 230–31 (briefed when he awoke); [[w.sorensen-kennedy]], 673–78 (about 9 a.m.,
+        in his bedroom, over the morning papers; Bundy''s memorandum "for your memoirs", 673); [[w.preston-war-council]], 65–66 (the day Bundy told Kennedy; Bundy
+        for the strike); [[w.fursenko-khrushchevs-cold-war]], 465–66 (Bundy with the photographs; the first options); [[w.thomas-robert-kennedy]], 209 (Bundy to the
+        President about 8 a.m., the President in his pajamas: "He can''t do this to me!"); [[w.taylor-swords-and-plowshares]], 265–66 (Bundy had already shown him
+        the photographs before the 11:45 meeting). [[w.schlesinger-thousand-days-1965]], 794–808 (at breakfast, in his dressing gown, at 8:45, 801). [[w.reeves-president-kennedy]],
+        368–77 (8:45 a.m., on the edge of his bed, 368). Check: the hour: Kaplan (204), Reeves (368) and Schlesinger (*A Thousand Days*, 801) have 8:45 a.m.; Thomas
+        (209) about 8; Sorensen (*Kennedy*, 673) about 9. See [[cal.1962-05-24.missile-crisis]]. Names: Bundy, Kennedy.'
       time_zone: America/New_York
       src:
         c: 09538463
         rows:
-        - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d18: 1'
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d16: 1'
-        - 'w.presidential-recordings: 1'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 204–06: 1'
-        - 'w.caro-passage-of-power 208–11: 1'
-        - 'w.schlesinger-thousand-days-1965 801–04: 1'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 204 n.42: 1'
+        - 'w.schlesinger-thousand-days-1965 801–04: 1'
         - 'w.reeves-president-kennedy 368–77: 1'
         - 'via w.reeves-president-kennedy 368 n.mr-president: 1'
         - 'w.fursenko-one-hell-of-a 222–27: 1'
         - 'w.rusk-as-i-saw-it-1990 230–31: 1'
-        - 'w.sorensen-kennedy 673–78: 1'
-        - 'w.preston-war-council 65–66: 1'
         - 'via x.1984.rusk-interviews-with-richard-rusk: 1'
-        - 'w.fursenko-khrushchevs-cold-war 465–66: 1'
+        - 'w.sorensen-kennedy 673–78: 1'
         - 'via x.1963.bundy-to-kennedy-for-your-memoirs: 1'
+        - 'w.preston-war-council 65–66: 1'
+        - 'w.fursenko-khrushchevs-cold-war 465–66: 1'
         - 'w.thomas-robert-kennedy 209: 1, 4'
-        - 'w.poole-joint-chiefs-of-staff 166: ?'
-        - 'via w.caro-passage-of-power 209 n.you-have-any: ?'
-        - 'w.schlesinger-robert-kennedy-and-his 506–07: ?'
-        - 'via w.schlesinger-robert-kennedy-and-his 507 n.32: ?'
-        - 'via w.reeves-president-kennedy 371 n.theres-a-medium-range-ballistic-missile: ?'
-        - 'via w.reeves-president-kennedy 375 n.bullfight-critics: ?'
-        - 'w.ball-past-has-another-pattern 288–89: ?'
-        - 'w.taylor-swords-and-plowshares 265–66: ?'
-        - 'w.sorensen-counselor 285–86: ?'
+        - 'w.taylor-swords-and-plowshares 265–66: 1'
+      tags:
+      - name:bundy-mcgeorge
+      - name:kennedy-john-f
     kind: correct
     settles:
     - 'Check: Counselor, 286, has the first meeting at 11:45 a.m.'
@@ -553,18 +770,17 @@ ops:
       thread: missile-crisis
       also:
       - robert-kennedy
-      follows:
-      - cal.1962-10-16.missile-crisis-7
       c: First ExComm meeting, 11:50 a.m., taped.{2} Air strike, invasion, blockade.{3}
-      n: '[[w.presidential-recordings]], vols. 2–3; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 204–06 (the morning meeting; air strikes and a blockade); [[w.poole-joint-chiefs-of-staff]],
-        166 (the meeting; the options). [[w.schlesinger-robert-kennedy-and-his]], 506–07 (the options); [[w.caro-passage-of-power]], 207–22 (Johnson in the ExComm); [[w.fursenko-one-hell-of-a]],
-        222–27; [[w.rusk-as-i-saw-it-1990]], 230–31; [[w.sorensen-kennedy]], 673–78; [[w.preston-war-council]], 65–66 (Bundy for the strike); [[w.fursenko-khrushchevs-cold-war]],
-        465–66 (the first options); [[w.taylor-swords-and-plowshares]], 265–66 (the meeting, at 11:45 by Taylor''s account; the courses, air attack, blockade, invasion; Taylor
-        for a series of strikes and a blockade); [[w.schlesinger-thousand-days-1965]], 794–808. [[w.reeves-president-kennedy]], 368–77. [[w.ball-past-has-another-pattern]],
-        288–89 (the meeting and who sat; the afternoon at State, the evening at the White House). [FRUS 1961–63, XI, doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v11/d18);
-        [doc. 21](https://history.state.gov/historicaldocuments/frus1961-63v11/d21). Check: Taylor has the meeting at 11:45 (265); Counselor, 286, at 11:45 a.m.; Ball (288)
-        has it called for 11:45; the entry has 11:50, the recording''s start (the Presidential Recordings catalogue). To check: [[w.kennedy-tapes]]; [[w.stern-averting-the-final-failure]].
-        Split under R25b: Bundy''s breakfast report is [[cal.1962-10-16.missile-crisis]]; Kennedy''s call to Sorensen is [[cal.1962-10-16.missile-crisis-7]]. See [[cal.1962-10-16.missile-crisis]];
+      n: '[FRUS 1961–63, XI, doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v11/d18) (transcript, 11:50 a.m.). [[w.presidential-recordings]], vols.
+        2–3; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 204–06 (the morning meeting; air strikes and a blockade); [[w.poole-joint-chiefs-of-staff]], 166 (at 1145,
+        the Cabinet Room; the options); [[w.schlesinger-robert-kennedy-and-his]], 506–07 (the options); [[w.caro-passage-of-power]], 207–22 (Johnson in the ExComm);
+        [[w.fursenko-one-hell-of-a]], 222–27 (the first opening on the schedule, 11:45; the meeting taped; the four courses); [[w.rusk-as-i-saw-it-1990]], 230–31;
+        [[w.sorensen-kennedy]], 673–78 ("At 11:45 a.m. the meeting began in the Cabinet Room," 674); [[w.preston-war-council]], 65–66 (Bundy for the strike); [[w.fursenko-khrushchevs-cold-war]],
+        465–66 (the first options); [[w.taylor-swords-and-plowshares]], 265–66 (the meeting, at 11:45; the courses, air attack, blockade, invasion; Taylor for a series
+        of strikes and a blockade); [[w.sorensen-counselor]], 285–86 (the meeting of his top advisers at 11:45 a.m.); [[w.ball-past-has-another-pattern]], 288–89
+        (called to a secret meeting at the White House at 11:45; who sat). [[w.schlesinger-thousand-days-1965]], 794–808. [[w.reeves-president-kennedy]], 368–77.
+        Check: the hour: Taylor (265), Sorensen (*Counselor*, 286; *Kennedy*, 674), Poole (166), Ball (288) and Fursenko and Naftali (223) have 11:45; the transcript
+        (FRUS XI, doc. 18) and the recording begin at 11:50. To check: [[w.kennedy-tapes]]; [[w.stern-averting-the-final-failure]]. See [[cal.1962-10-16.missile-crisis]];
         [[cal.1962-05-24.missile-crisis]]. Names: Bundy, McNamara, Taylor, Kennedy.'
       src:
         c: ff7f02e9
@@ -589,6 +805,7 @@ ops:
         - 'via x.1984.rusk-interviews-with-richard-rusk: 3'
         - 'w.fursenko-khrushchevs-cold-war 465–66: 3'
         - 'w.taylor-swords-and-plowshares 265–66: 2, 3'
+        - 'w.sorensen-counselor 285–86: 2'
       tags:
       - name:bundy-mcgeorge
       - name:kennedy-john-f
@@ -610,15 +827,15 @@ ops:
       follows:
       - cal.1962-10-16.missile-crisis
       c: Kennedy calls Sorensen into the Oval Office with the U-2 news and asks him to bring copies of his two public warnings on Soviet offensive weapons in Cuba.{5}
-      n: '[[w.sorensen-counselor]], 285–86 (Tuesday morning, Kennedy calls Sorensen into the Oval Office with the U-2 news and the false assurances of Khrushchev and Dobrynin,
-        and asks him to bring copies of his two public warnings on Soviet offensive weapons in Cuba; first meeting of his advisers at 11:45 a.m.; Sorensen''s account, written
-        in 2008; not Bundy''s breakfast call or the taping). The order: after [[cal.1962-10-16.missile-crisis]], the U-2 news Bundy had brought ([[w.sorensen-counselor]], 285–86).
-        Split under R25b: Bundy''s report is [[cal.1962-10-16.missile-crisis]]; the meeting is [[cal.1962-10-16.missile-crisis-6]]. See [[cal.1962-10-16.missile-crisis]]. Names:
-        Sorensen, Kennedy.'
+      n: '[[w.sorensen-counselor]], 285–86 (Tuesday morning, Kennedy calls Sorensen into the Oval Office with the U-2 news and the false assurances of Khrushchev
+        and Dobrynin, and asks him to bring copies of his two public warnings; the meeting at 11:45 a.m.); [[w.sorensen-kennedy]], 674 (on reaching his office, Kennedy
+        sends for Sorensen, tells him the news, asks him to the 11:45 meeting and to review his public statements). The order: after [[cal.1962-10-16.missile-crisis]],
+        the U-2 news Bundy had brought ([[w.sorensen-counselor]], 285–86). See [[cal.1962-10-16.missile-crisis]]. Names: Sorensen, Kennedy.'
       src:
         c: d143fc7b
         rows:
         - 'w.sorensen-counselor 285–86: 5'
+        - 'w.sorensen-kennedy 674: 5'
       tags:
       - name:sorensen-theodore-c
       - name:kennedy-john-f
@@ -627,57 +844,53 @@ ops:
     add:
     - cal.1962-10-16.missile-crisis-7
     basis: '[[w.sorensen-counselor]], 285–86 (the meeting of his advisers at 11:45 a.m. after the call)'
+- primary:
+    id: cal.1962-10-16.missile-crisis-3
+    text: '[FRUS 1961–63, XI, doc. 21](https://history.state.gov/historicaldocuments/frus1961-63v11/d21) (Off the Record Meeting on Cuba, Washington, Oct. 16, 1962,
+      6:30–7:55 p.m.)'
 - edit:
     id: cal.1962-10-20.missile-crisis
     base: 7a4b0ff0
     set:
-      c: Kennedy leaves Chicago with a "cold."{1} In the morning, Admiral Burkley at his bedside, he tells Salinger he has a temperature and a cold, the press to be told he
-        returns on Burkley's advice, and hands him a note, "Slight upper respiratory." Johnson, in Hawaii, also returns, with a cold.{3}
-      n: '[FRUS 1961–63, XI, doc. 34](https://history.state.gov/historicaldocuments/frus1961-63v11/d34). [[w.schlesinger-robert-kennedy-and-his]], 510–11 (the choice); [[w.fursenko-one-hell-of-a]],
-        234–35; [[w.rusk-as-i-saw-it-1990]], 234 (the decision; Rusk''s recommendation, McNamara''s and Johnson''s, by Rusk''s account); [[w.sorensen-kennedy]], 692–93; [[w.thomas-robert-kennedy]],
-        219–20 (Robert Kennedy telephones the President in Chicago; the President back, feigning a cold; the ExComm; Stevenson''s proposal; the blockade chosen); [[w.caro-passage-of-power]],
-        211 (Saturday, Oct. 20, the ExComm decides on the blockade, or "quarantine," over the Joint Chiefs'' call for immediate bombing; Robert Kennedy calls his brother in
-        Chicago, who, "pleading a cold," comes home; at the White House pool the President accepts the recommendation); [[w.odonnell-johnny-we-hardly-knew]], 364–65 (Kennedy,
-        Admiral Burkley at his bedside: "I have a temperature and a cold. Tell the press I am returning to Washington on the advice of Doctor Burkley"; his note for Salinger,
-        "Slight upper respiratory ... Weather raw & rainy. Recommended return to Washington. Cancelled schedule"; Johnson, in Hawaii, also returned with "a cold"; 365: that
-        afternoon in the Oval Room the President "announced and discussed his decision to put the blockade into effect during the following week"); [[w.salinger-with-kennedy]],
-        252 (the "medical bulletin" of a temperature and cold; the flight from Chicago at 11 a.m., at the White House 1:30; not the choice of the quarantine); [[w.obrien-no-final-victories]],
-        140–41 (Saturday, Oct. 20, in Kennedy''s Chicago hotel suite: Kennedy calls in Salinger and has him tell the press he has a cold and is returning to the White House;
-        the plane to Andrews, the helicopter, Kennedy silent, chin in hand; not the quarantine decision); [[w.odonnell-johnny-we-hardly-knew]], 364–65; [[w.thomas-robert-kennedy]],
-        219. [[w.reeves-president-kennedy]], 385–88. [[w.ball-past-has-another-pattern]], 294–95 (2:30 p.m., the Oval Office: Rusk''s handwritten summary; Kennedy for the blockade;
-        Stevenson''s dissent). Split under R17: the afternoon meeting is [[cal.1962-10-20.missile-crisis-11]]; Robert Kennedy''s telephone call is [[cal.1962-10-20.missile-crisis-12]].
-        See [[cal.1962-10-16.missile-crisis]]. Names: Robert Kennedy, Johnson, Stevenson, Burkley, Salinger, Rusk, McNamara, Dillon, Lovett, McCone.'
+      c: Kennedy leaves Chicago with a "cold."{1} Airborne at 11 a.m.; at the White House at 1:30.{5}
+      n: '[[w.salinger-with-kennedy]], 252 (airborne at 11 a.m.; at the White House at 1:30); [[w.sorensen-kennedy]], 692–93 (called back a little after 10 a.m.,
+        Washington time; the helicopter on the South Lawn a little after 1:30, 693); [[w.odonnell-johnny-we-hardly-knew]], 364–65 (the President boards Air Force
+        One that morning wearing a hat); [[w.obrien-no-final-victories]], 140–41 (the plane to Andrews, the helicopter, Kennedy silent, chin in hand); [[w.ball-past-has-another-pattern]],
+        294 (he broke off campaigning in Chicago on the excuse of a bad cold and a fever and was back early that afternoon); [[w.fursenko-one-hell-of-a]], 234 (back
+        by early afternoon); [[w.thomas-robert-kennedy]], 219–20 (feigning a cold, he returned); [[w.caro-passage-of-power]], 211 ("pleading a cold," he came home);
+        [[w.reeves-president-kennedy]], 385–88 (Burkley called in: "You''re right, I better go back," 387). Check: Salinger, 252, and O''Donnell, 364, give the note
+        Kennedy wrote for the press in different words ([[cal.1962-10-20.missile-crisis-9]]). See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy.'
       place: chicago
-      time_range:
-      - 1962-10-20T11:00Z
-      - 1962-10-20T17:00Z
-      time_band: morning
       time_zone: America/Chicago
-      range_basis: record
       src:
-        c: 83082c56
+        c: 4a79ed57
         rows:
-        - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d34: 1'
-        - 'w.reeves-president-kennedy 385–88: 1'
-        - 'w.ball-past-has-another-pattern 294–95: 1'
-        - 'w.sorensen-kennedy 692–93: 1'
+        - 'w.salinger-with-kennedy 252: 1, 5'
+        - 'w.sorensen-kennedy 692–93: 1, 5'
+        - 'w.odonnell-johnny-we-hardly-knew 364–65: 1'
+        - 'w.obrien-no-final-victories 140–41: 1'
+        - 'w.ball-past-has-another-pattern 294: 1'
+        - 'w.fursenko-one-hell-of-a 234: 1, 5'
         - 'w.thomas-robert-kennedy 219–20: 1'
         - 'w.caro-passage-of-power 211: 1'
-        - 'w.salinger-with-kennedy 252: 1'
-        - 'w.obrien-no-final-victories 140–41: 1'
-        - 'w.odonnell-johnny-we-hardly-knew 364–65: 1, 3'
-        - 'w.schlesinger-robert-kennedy-and-his 510–11: ?'
-        - 'via w.schlesinger-robert-kennedy-and-his 510 n.52: ?'
-        - 'via w.reeves-president-kennedy 388 n.at-two-thirty: ?'
-        - 'w.fursenko-one-hell-of-a 234–35: ?'
-        - 'w.rusk-as-i-saw-it-1990 234: ?'
-        - 'via x.1984.rusk-interviews-with-richard-rusk: ?'
-        - 'via w.thomas-robert-kennedy 220 n.stevenson-proposed-swapping: ?'
-        - 'w.thomas-robert-kennedy 219: ?'
+        - 'w.reeves-president-kennedy 385–88: 1'
+      time: 1962-10-20T16:00Z
+      tags:
+      - name:kennedy-john-f
     kind: correct
     settles:
     - 'Check: O''Donnell has the President call his brother about 10:30 the night before, from the hotel suite, and agree to return in the morning ([[w.odonnell-johnny-we-hardly-knew]],
       364).'
+- cite:
+    id: cal.1962-10-20.missile-crisis-9
+    item: '[[w.odonnell-johnny-we-hardly-knew]], 364 (O''Donnell''s account: the scene staged, Burkley beside the bed; "I have a temperature and a cold")'
+- cite:
+    id: cal.1962-10-20.missile-crisis-9
+    item: '[[w.obrien-no-final-victories]], 140–41 (in the Chicago suite, Kennedy calls in Salinger and has him tell the press of the cold)'
+- check:
+    id: cal.1962-10-20.missile-crisis-9
+    text: 'Check: O''Donnell, 364, gives the note as "Slight upper respiratory. 1° degree temperature. Weather raw & rainy. Recommended return to Washington. Cancelled
+      schedule"; Reeves, 387, has Kennedy call Burkley in and tell him he may be catching a cold ([[w.reeves-president-kennedy]], 387).'
 - add:
     entry:
       id: cal.1962-10-20.missile-crisis-11
@@ -691,21 +904,20 @@ ops:
       range_basis: record
       thread: missile-crisis
       follows:
-      - cal.1962-10-20.missile-crisis
-      c: Quarantine chosen over air strike.{2} That afternoon, in the Oval Room upstairs, Kennedy announces the blockade; Rusk and McNamara support him; Stevenson proposes
-        to offer the Jupiters in Turkey and Guantánamo; Dillon, Lovett and McCone criticize him.{3}
-      n: '[FRUS 1961–63, XI, doc. 34](https://history.state.gov/historicaldocuments/frus1961-63v11/d34) (minutes of the 505th meeting of the National Security Council, Washington,
-        Oct. 20, 1962, 2:30–5:10 p.m.). [[w.schlesinger-robert-kennedy-and-his]], 510–11 (the choice); [[w.fursenko-one-hell-of-a]], 234–35; [[w.rusk-as-i-saw-it-1990]], 234
-        (the decision; Rusk''s recommendation, McNamara''s and Johnson''s, by Rusk''s account); [[w.sorensen-kennedy]], 692–93; [[w.thomas-robert-kennedy]], 219–20 (Robert
-        Kennedy telephones the President in Chicago; the President back, feigning a cold; the ExComm; Stevenson''s proposal; the blockade chosen); [[w.caro-passage-of-power]],
-        211 (Saturday, Oct. 20, the ExComm decides on the blockade, or "quarantine," over the Joint Chiefs'' call for immediate bombing; Robert Kennedy calls his brother in
-        Chicago, who, "pleading a cold," comes home; at the White House pool the President accepts the recommendation); [[w.odonnell-johnny-we-hardly-knew]], 364–65 (Kennedy,
-        Admiral Burkley at his bedside: "I have a temperature and a cold. Tell the press I am returning to Washington on the advice of Doctor Burkley"; his note for Salinger,
-        "Slight upper respiratory ... Weather raw & rainy. Recommended return to Washington. Cancelled schedule"; Johnson, in Hawaii, also returned with "a cold"; 365: that
-        afternoon in the Oval Room the President "announced and discussed his decision to put the blockade into effect during the following week"); [[w.thomas-robert-kennedy]],
-        219. [[w.reeves-president-kennedy]], 385–88. [[w.ball-past-has-another-pattern]], 294–95 (2:30 p.m., the Oval Office: Rusk''s handwritten summary; Kennedy for the blockade;
-        Stevenson''s dissent). Check: O''Donnell has the meeting in the Oval Room upstairs (365); Ball, in the Oval Office (294–95). Split under R17: Kennedy''s morning in
-        Chicago is [[cal.1962-10-20.missile-crisis]]. See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Johnson, Stevenson, Rusk, McNamara, Dillon, Lovett, McCone.'
+      - cal.1962-10-20.missile-crisis-14
+      c: Quarantine chosen over air strike.{2} That afternoon, in the Oval Room upstairs, Kennedy announces the blockade; Rusk and McNamara support him; Stevenson
+        proposes to offer the Jupiters in Turkey and Guantánamo; Dillon, Lovett and McCone criticize him.{3}
+      n: '[FRUS 1961–63, XI, doc. 34](https://history.state.gov/historicaldocuments/frus1961-63v11/d34) (minutes of the 505th meeting of the National Security Council,
+        Washington, Oct. 20, 1962, 2:30–5:10 p.m.). [[w.schlesinger-robert-kennedy-and-his]], 510–11 (the choice); [[w.fursenko-one-hell-of-a]], 234–35 (after two
+        hours, the vote; the blockade carries); [[w.rusk-as-i-saw-it-1990]], 234 (the decision; Rusk''s recommendation, McNamara''s and Johnson''s, by Rusk''s account);
+        [[w.sorensen-kennedy]], 692–93 (2:30 p.m., the Oval Room upstairs, the 505th meeting of the National Security Council, 693); [[w.thomas-robert-kennedy]],
+        219–20 (the ExComm that Saturday afternoon; Stevenson''s proposal; the blockade chosen); [[w.caro-passage-of-power]], 211 (the ExComm decides on the blockade,
+        or "quarantine," over the Joint Chiefs'' call for immediate bombing); [[w.odonnell-johnny-we-hardly-knew]], 365 (that afternoon in the Oval Room the President
+        "announced and discussed his decision to put the blockade into effect during the following week"; Stevenson; Dillon, Lovett and McCone); [[w.reeves-president-kennedy]],
+        385–88 (at two-thirty the President sits down with his advisers, 388); [[w.ball-past-has-another-pattern]], 294–95 (2:30 p.m., the Oval Office: Rusk''s handwritten
+        summary; Kennedy for the blockade; Stevenson''s dissent; Dillon, Lovett and McCone upbraid him). Check: O''Donnell (365) and Sorensen (*Kennedy*, 693) have
+        the meeting in the Oval Room upstairs; Ball, in the Oval Office (294); Thomas, in the Cabinet Room (220). The order: after [[cal.1962-10-20.missile-crisis-14]],
+        [[w.reeves-president-kennedy]], 388 ("At two-thirty"). See [[cal.1962-10-16.missile-crisis]]. Names: Kennedy, Stevenson, Rusk, McNamara, Dillon, Lovett, McCone.'
       src:
         c: a5dfe3ad
         rows:
@@ -722,10 +934,9 @@ ops:
         - 'w.thomas-robert-kennedy 219–20: 2'
         - 'via w.thomas-robert-kennedy 220 n.stevenson-proposed-swapping: 2'
         - 'w.caro-passage-of-power 211: 2'
-        - 'w.odonnell-johnny-we-hardly-knew 364–65: 2, 3'
+        - 'w.odonnell-johnny-we-hardly-knew 365: 2, 3'
       tags:
       - name:kennedy-john-f
-      - name:johnson-lyndon-b
       - name:stevenson-adlai-e
       - name:rusk-dean
       - name:mcnamara-robert-s
@@ -749,14 +960,18 @@ ops:
       thread: missile-crisis
       also:
       - robert-kennedy
-      c: Saturday morning Robert Kennedy telephones him in Chicago.{4}
-      n: '[[w.thomas-robert-kennedy]], 219–20 (Robert Kennedy telephones the President in Chicago; the President back, feigning a cold). Check: O''Donnell has the President
-        call his brother about 10:30 the night before, from the hotel suite, and agree to return in the morning ([[w.odonnell-johnny-we-hardly-knew]], 364). Split under R17:
-        Kennedy''s return from Chicago is [[cal.1962-10-20.missile-crisis]]. See [[cal.1962-10-20.missile-crisis]]. Names: Robert Kennedy, Kennedy.'
+      c: Saturday morning, Robert Kennedy telephones the President in Chicago and tells him to come home.{4}
+      n: '[[w.thomas-robert-kennedy]], 219–20 ("On Saturday morning, October 20, RFK called his brother in Chicago"); [[w.fursenko-one-hell-of-a]], 234 ("His brother
+        had called him in the morning to suggest he fly back"); [[w.caro-passage-of-power]], 211 (Robert Kennedy called his brother, campaigning in Chicago). Check:
+        O''Donnell has the President call his brother about 10:30 the night before, from the hotel suite, and agree to return in the morning ([[w.odonnell-johnny-we-hardly-knew]],
+        364; [[cal.1962-10-19.missile-crisis-warnings-5]]); Reeves has Robert Kennedy reach him at the Sheraton-Blackstone before the morning ([[w.reeves-president-kennedy]],
+        387). Names: Robert Kennedy, Kennedy.'
       src:
-        c: 626e68d6
+        c: 14143c7c
         rows:
-        - 'w.thomas-robert-kennedy 219: 4'
+        - 'w.thomas-robert-kennedy 219–20: 4'
+        - 'w.fursenko-one-hell-of-a 234: 4'
+        - 'w.caro-passage-of-power 211: 4'
       tags:
       - name:kennedy-robert-f
       - name:kennedy-john-f
@@ -765,20 +980,135 @@ ops:
     add:
     - cal.1962-10-20.missile-crisis-12
     basis: '[[w.thomas-robert-kennedy]], 219–20 (the call brings the President home)'
+- add:
+    entry:
+      id: cal.1962-10-20.missile-crisis-14
+      when: Oct. 20
+      date: '1962-10-20'
+      time_range:
+      - 1962-10-20T17:30Z
+      - 1962-10-20T18:30Z
+      time_zone: America/New_York
+      range_basis: record
+      place: washington
+      thread: missile-crisis
+      also:
+      - robert-kennedy
+      follows:
+      - cal.1962-10-20.missile-crisis
+      c: The White House pool. Kennedy swims about half an hour, Robert Kennedy by the ladder telling him where everyone stands. By Caro, Robert Kennedy gives him
+        the ExComm's recommendation, and the President accepts it.
+      n: '[[w.reeves-president-kennedy]], 388 ("He paddled around for a half hour"); [[w.thomas-robert-kennedy]], 220 (Robert Kennedy, his feet in the pool, describes
+        the ExComm''s deliberations); [[w.caro-passage-of-power]], 211 (the recommendation given at the pool and accepted). The hour: after the return at 1:30 ([[w.salinger-with-kennedy]],
+        252) and before the meeting at 2:30 ([[w.reeves-president-kennedy]], 388). Check: Sorensen has himself with the President in his office before the meeting
+        ([[cal.1962-10-20.missile-crisis-excomm-5]]). See [[cal.1962-10-20.missile-crisis]]. Names: Kennedy, Robert Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - name:kennedy-robert-f
+- add:
+    entry:
+      id: cal.1962-10-20.missile-crisis-excomm-5
+      when: Oct. 20
+      date: '1962-10-20'
+      time_range:
+      - 1962-10-20T17:30Z
+      - 1962-10-20T18:30Z
+      time_zone: America/New_York
+      range_basis: record
+      place: washington
+      thread: missile-crisis-excomm
+      follows:
+      - cal.1962-10-20.missile-crisis
+      c: 'The President''s office, before the meeting. Kennedy reads Sorensen''s draft of the speech; Sorensen to him: no air strike, which could not be surgical
+        and would lead to invasion; a blockade, flexible and least likely to bring war. By Sorensen''s account.'
+      n: '[[w.sorensen-kennedy]], 693 ("we chatted in a relaxed fashion in his office before the decisive meeting scheduled for 2:30"). The hour: after the helicopter
+        landed a little after 1:30 and before the meeting at 2:30 (693). See [[cal.1962-10-20.missile-crisis-excomm-4]]. Names: Kennedy, Sorensen.'
+      tags:
+      - name:kennedy-john-f
+      - name:sorensen-theodore-c
+- add:
+    entry:
+      id: cal.1962-10-20.missile-crisis-excomm-4
+      when: Oct. 20
+      date: '1962-10-20'
+      time: 1962-10-20T13:00Z
+      time_zone: America/New_York
+      place: washington
+      thread: missile-crisis-excomm
+      c: 9 a.m., the State Department. The ExComm reviews, amends and generally approves Sorensen's draft of the President's speech.
+      n: '[[w.sorensen-kennedy]], 693 ("At 9 a.m. Saturday morning my draft was reviewed, amended and generally approved"); [[w.ball-past-has-another-pattern]], 294
+        ("We met in the Think Tank at nine in the morning to review the President''s speech as drafted by Ted Sorensen"). See [[cal.1962-10-16.missile-crisis]]. Names:
+        Sorensen.'
+      tags:
+      - name:sorensen-theodore-c
+- add:
+    entry:
+      id: cal.1962-10-20.missile-crisis-13
+      when: Oct. 20
+      date: '1962-10-20'
+      thread: missile-crisis
+      c: Johnson, campaigning in Hawaii, breaks off and returns to Washington, also with "a cold."
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 365; [[w.caro-passage-of-power]], 212 (summoned back on Saturday, on his way to Hawaii; in Washington only on Sunday,
+        Oct. 21). Check: O''Donnell has him campaigning in Hawaii that day; Caro, on his way there. See [[cal.1962-10-20.missile-crisis]]. Names: Johnson.'
+      tags:
+      - name:johnson-lyndon-b
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1962-10-20.missile-crisis-warnings-3
+      when: Oct. 20
+      date: '1962-10-20'
+      thread: missile-crisis-warnings
+      also:
+      - press-and-broadcasting
+      follows:
+      - cal.1962-10-20.missile-crisis-13
+      c: An editor of the *Washington Post*, noticing that Johnson too has a cold, asks Salinger whether it is an epidemic or a coincidence; Salinger makes no comment.
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 365. See [[cal.1962-10-20.missile-crisis-13]]. Names: Johnson, Salinger.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:salinger-pierre
 - follows:
-    id: cal.1962-10-20.missile-crisis-11
-    add:
+    id: cal.1962-10-20.missile-crisis-3
+    remove:
     - cal.1962-10-20.missile-crisis
-    basis: '[[w.salinger-with-kennedy]], 252 (at the White House at 1:30), before the meeting of 2:30 (FRUS XI, doc. 34)'
+    why: the entry it followed now holds only the President's return from Chicago; the meeting it comes after is cal.1962-10-20.missile-crisis-11
+- follows:
+    id: cal.1962-10-20.missile-crisis-3
+    add:
+    - cal.1962-10-20.missile-crisis-11
+- follows:
+    id: cal.1962-10-20.missile-crisis-5
+    remove:
+    - cal.1962-10-20.missile-crisis
+    why: the entry it followed now holds only the President's return from Chicago; the meeting it comes after is cal.1962-10-20.missile-crisis-11
+- follows:
+    id: cal.1962-10-20.missile-crisis-5
+    add:
+    - cal.1962-10-20.missile-crisis-11
+- follows:
+    id: cal.1962-10-20.missile-crisis-excomm
+    remove:
+    - cal.1962-10-20.missile-crisis
+    why: the entry it followed now holds only the President's return from Chicago; the meeting it comes after is cal.1962-10-20.missile-crisis-11
+- follows:
+    id: cal.1962-10-20.missile-crisis-excomm
+    add:
+    - cal.1962-10-20.missile-crisis-11
+- follows:
+    id: cal.1962-10-20.missile-crisis-excomm-3
+    add:
+    - cal.1962-10-20.missile-crisis-11
+    basis: '[[w.odonnell-johnny-we-hardly-knew]], 366 ("When the meeting broke up")'
 - edit:
     id: cal.1962-10-23.missile-crisis-8
     base: b6bc45c6
     set:
-      c: Two American planes fly over Mariel at 4 p.m., where the *Aleksandrovsk*, with the warheads for the R-14s and the cruise missiles, is due and behind schedule; the
-        Soviet command reroutes the ship to La Isabela.{1}
-      n: '[[w.fursenko-one-hell-of-a]], 254–55 (the overflight at 4 p.m. on Oct. 23, 254; the rerouting, 254–55). To check: Alekseev to KGB headquarters, Oct. 23, 1962, SVR
-        (cited by [[w.fursenko-one-hell-of-a]], 254 n.38). Split under R17: the arrival at La Isabela, and the warheads kept on board, are [[cal.1962-10-23.missile-crisis-quarantine-4]].
-        See [[cal.1962-10-23.soviet-union]].'
+      c: Two American planes fly over Mariel at 4 p.m., where the *Aleksandrovsk*, with the warheads for the R-14s and the cruise missiles, is due and behind schedule;
+        the Soviet command reroutes the ship to La Isabela.{1}
+      n: '[[w.fursenko-one-hell-of-a]], 254–55 (the overflight at 4 p.m. on Oct. 23, 254; the rerouting, 254–55). To check: Alekseev to KGB headquarters, Oct. 23,
+        1962, SVR (cited by [[w.fursenko-one-hell-of-a]], 254 n.38). The hour: the book''s, in its account of Cuba (254); approximate. Check: the cargo: Fursenko
+        and Naftali, 254–55, call the ship the one carrying the nuclear warheads and do not name the R-14s or the cruise missiles. See [[cal.1962-10-23.soviet-union]].'
       place: mariel
       time: 1962-10-23T21:00Z
       time_zone: America/Havana
@@ -787,6 +1117,7 @@ ops:
         rows:
         - 'w.fursenko-one-hell-of-a 254–55: 1'
         - 'via w.fursenko-one-hell-of-a 254 n.38: 1'
+      time_approx: true
     kind: correct
 - add:
     entry:
@@ -797,12 +1128,12 @@ ops:
       thread: missile-crisis-quarantine
       follows:
       - cal.1962-10-23.missile-crisis-8
-      c: The *Aleksandrovsk* reaches La Isabela hours before the quarantine; Ambassador Alekseev cables Moscow that it, "adjusted for thermonuclear arms," has arrived safely.
-        With no bunkers at the port, Pliyev keeps the warheads on board.{2}
-      n: '[[w.fursenko-one-hell-of-a]], 254–55 (the arrival "by a matter of hours"; Alekseev''s cable; no bunkers, the warheads to stay on board until the crisis subsided).
-        To check: Alekseev to KGB headquarters, Oct. 23, 1962, SVR (cited by [[w.fursenko-one-hell-of-a]], 255 n.39, n.40). Split under R17: the overflight of Mariel at 4 p.m.
-        and the rerouting are [[cal.1962-10-23.missile-crisis-8]]. See [[cal.1962-10-23.soviet-union]]. Check: the hour of the arrival: Fursenko and Naftali give only "hours"
-        before the quarantine took effect (10 a.m., Oct. 24, 255).'
+      c: The *Aleksandrovsk* reaches La Isabela hours before the quarantine; Ambassador Alekseev cables Moscow that it, "adjusted for thermonuclear arms," has arrived
+        safely. With no bunkers at the port, Pliyev keeps the warheads on board.{2}
+      n: '[[w.fursenko-one-hell-of-a]], 254–55 (the arrival "by a matter of hours"; Alekseev''s cable; no bunkers, the warheads to stay on board until the crisis
+        subsided). To check: Alekseev to KGB headquarters, Oct. 23, 1962, SVR (cited by [[w.fursenko-one-hell-of-a]], 255 n.39, n.40). See [[cal.1962-10-23.missile-crisis-8]];
+        [[cal.1962-10-23.soviet-union]]. Check: the hour of the arrival: Fursenko and Naftali give only "hours" before the quarantine took effect (10 a.m., Oct. 24,
+        255).'
       src:
         c: d8caca9f
         rows:
@@ -815,13 +1146,12 @@ ops:
       time: 1962-10-20T21:10Z
       time_approx: true
       time_zone: America/New_York
-      n: '[[w.thomas-robert-kennedy]], 224, 232; [[w.odonnell-johnny-we-hardly-knew]], 366–67 (after the ExComm meeting in the Oval Room, the President on the Truman Balcony
-        with Robert Kennedy and O''Donnell; Robert Kennedy: Stevenson is "not strong enough or tough enough to be representing us at the UN at a time like this ... somebody
-        like John McCloy"; the President: "I think Adlai showed plenty of strength and courage ... I admire him for saying what he said"; the Jupiters, "the damned things").
-        To check: Theodore Sorensen OH, JFK Library (cited by Thomas, 436, for the shelter). Check: the hour. Thomas has the talk "Saturday evening" (224) and "Saturday night"
-        (232), "right after Stevenson made his case"; O''Donnell, "when the meeting broke up" (366); the 505th meeting of the National Security Council, at which Stevenson
-        spoke, ended at 5:10 p.m. ([FRUS 1961–63, XI, doc. 34](https://history.state.gov/historicaldocuments/frus1961-63v11/d34)). The time set is the meeting''s end. Names:
-        Kennedy, Robert Kennedy, O''Donnell, Stevenson.'
+      n: '[[w.thomas-robert-kennedy]], 224, 232; [[w.odonnell-johnny-we-hardly-knew]], 366–67 (when the meeting broke up, the President on the Truman Balcony with
+        Robert Kennedy and O''Donnell; Robert Kennedy: Stevenson is "not strong enough or tough enough to be representing us at the UN at a time like this ... somebody
+        like John McCloy"; the President: "I think Adlai showed plenty of strength and courage ... I admire him for saying what he said"; the Jupiters, "the damned
+        things"). To check: Theodore Sorensen OH, JFK Library (cited by Thomas, 436, for the shelter). The hour: "When the meeting broke up" ([[w.odonnell-johnny-we-hardly-knew]],
+        366); the 505th meeting of the National Security Council ended at 5:10 p.m. ([FRUS 1961–63, XI, doc. 34](https://history.state.gov/historicaldocuments/frus1961-63v11/d34)).
+        Check: Thomas has the talk "Saturday evening" (232) and "Saturday night" (224). Names: Kennedy, Robert Kennedy, O''Donnell, Stevenson.'
 - edit:
     id: cal.1962-10-20.india-and-china
     base: 786363f3
@@ -831,19 +1161,20 @@ ops:
       time_zone: Asia/Shanghai
 - cite:
     id: cal.1962-10-20.india-and-china
-    item: '[[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69 (dawn in Aksai Chin 4:30 a.m. Indian time, 7 a.m. Beijing time; in the east 5 a.m. Indian time, 7:30 a.m.
-      Chinese time; the time set is the western sector''s)'
+    item: '[[w.macfarquhar-origins-of-the-cultural]], III, 309 n.69 (dawn in Aksai Chin 4:30 a.m. Indian time, 7 a.m. Beijing time; in the east 5 a.m. Indian time,
+      7:30 a.m. Chinese time; the time set is the western sector''s)'
     'on': time
 - edit:
     id: cal.1962-10-21.missile-crisis-13
     base: 58e9832b
     set:
-      n: '[[w.salinger-with-kennedy]], 259. After [[cal.1962-10-21.missile-crisis-12|the talk on Mass]] and the meeting called "within the hour," in Salinger''s sequence (258–59).
-        The meeting is the 506th of the National Security Council, 2:30 to 4:50 p.m. ([FRUS 1961–63, XI, doc. 38](https://history.state.gov/historicaldocuments/frus1961-63v11/d38)):
-        its minutes hold what Salinger lists, the invitation to a summit struck from the draft of the speech, Acheson, Dowling and Bruce to brief de Gaulle and the NATO Council,
-        Adenauer and Macmillan, and Wilson''s plan for the Cuban people, with Stevenson and Wilson present. Salinger places the meeting "that morning" (259) in the Cabinet
-        Room, and has himself home at 4 p.m. (260); the FRUS notes of the Oval Room meeting of 11:30 a.m. to 12:30 p.m. (doc. 36) are of the military plans. The instructions
-        came "immediately following the meeting," so about 4:50 p.m. See [[cal.1962-10-21.missile-crisis-3]]. Names: Kennedy, Salinger, O''Brien.'
+      n: '[[w.salinger-with-kennedy]], 259. After [[cal.1962-10-21.missile-crisis-12|the talk on Mass]] and the meeting called "within the hour," in Salinger''s sequence
+        (258–59). The meeting is the 506th of the National Security Council, 2:30 to 4:50 p.m. ([FRUS 1961–63, XI, doc. 38](https://history.state.gov/historicaldocuments/frus1961-63v11/d38)):
+        its minutes hold what Salinger lists, the invitation to a summit struck from the draft of the speech, Acheson, Dowling and Bruce to brief de Gaulle and the
+        NATO Council, Adenauer and Macmillan, and Wilson''s plan for the Cuban people, with Stevenson and Wilson present. Salinger places the meeting "that morning"
+        (259) in the Cabinet Room, and has himself home at 4 p.m. (260); the FRUS notes of the Oval Room meeting of 11:30 a.m. to 12:30 p.m. (doc. 36) are of the
+        military plans. The instructions came "immediately following the meeting," so about 4:50 p.m. See [[cal.1962-10-21.missile-crisis-3]]. Names: Kennedy, Salinger,
+        O''Brien.'
       time: 1962-10-21T20:50Z
       time_approx: true
       time_zone: America/New_York
@@ -854,10 +1185,10 @@ ops:
     id: cal.1962-10-22.missile-crisis-11
     base: 1dbb2b62
     set:
-      c: Before Kennedy's address, that afternoon. Rockefeller's statement against Kennedy, Hughes's draft, held at Ronan's urging;{1} Rockefeller, two hours late to a Republican
-        women's meeting, puts the State on "maximum readiness alert."{2}
-      n: '[[w.smith-on-his-own-terms]], 383. To check: *Public Papers of Nelson A. Rockefeller*, 1962, 1120 (cited by [[w.smith-on-his-own-terms]], 383). Split under R17: the
-        statement after the address is [[cal.1962-10-22.missile-crisis-39]]. Names: Kennedy, Rockefeller, Hughes.'
+      c: Before Kennedy's address, that afternoon. Rockefeller's statement against Kennedy, Hughes's draft, held at Ronan's urging;{1} Rockefeller, two hours late
+        to a Republican women's meeting, puts the State on "maximum readiness alert."{2}
+      n: '[[w.smith-on-his-own-terms]], 383 ("That afternoon"). To check: *Public Papers of Nelson A. Rockefeller*, 1962, 1120 (cited by [[w.smith-on-his-own-terms]],
+        383). Names: Kennedy, Rockefeller, Hughes.'
       src:
         c: 8414c1e3
         rows:
@@ -879,7 +1210,7 @@ ops:
       also:
       - governors
       follows:
-      - cal.1962-10-22.missile-crisis-11
+      - cal.1962-10-22.missile-crisis
       time_range:
       - 1962-10-22T23:00Z
       - 1962-10-23T02:00Z
@@ -887,9 +1218,8 @@ ops:
       time_zone: America/New_York
       range_basis: record
       c: 'Rockefeller, after Kennedy''s address, a brief statement acknowledging the danger: Americans to rally around the President.{3}'
-      n: '[[w.smith-on-his-own-terms]], 383 ("Following Kennedy''s televised confirmation"). To check: *Public Papers of Nelson A. Rockefeller*, 1962, 1120 (cited by [[w.smith-on-his-own-terms]],
-        383). Split under R25b: the statement held and the alert, before the address, are [[cal.1962-10-22.missile-crisis-11]]. See [[cal.1962-10-22.missile-crisis-11]]. Names:
-        Kennedy, Rockefeller.'
+      n: '[[w.smith-on-his-own-terms]], 383 ("Following Kennedy''s televised confirmation"). To check: *Public Papers of Nelson A. Rockefeller*, 1962, 1120 (cited
+        by [[w.smith-on-his-own-terms]], 383). See [[cal.1962-10-22.missile-crisis-11]]. Names: Kennedy, Rockefeller.'
       src:
         c: 0f549da7
         rows:
@@ -902,12 +1232,13 @@ ops:
     id: cal.1962-07-27.albany
     base: bfe2d61c
     set:
-      n: '[[w.garrow-bearing-the-cross]], 211; [[w.branch-parting-the-waters]], 621. To check: Hoover, Memo to Robert F. Kennedy regarding the racial situation in Albany, Ga.,
-        July 28, 1962, 2 pp. (the King Papers Project''s catalogue record, [OKRA](https://okra.stanford.edu/link/document620728-004), gives title, date and subjects only, no
-        text; Garrow''s FBI microfilm, 1988); SAC Atlanta to Director, July 27, 1962, FBI file 157-6-2-514; *Atlanta Constitution*, July 28, 1962, at 1; [*New York Times*,
-        July 27, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/27/issue.html), at 9; Pritchett et al., "Activities of . . . the Albany Movement," July 27, 1962;
-        Stephen Roos, "Memorandum for the File," July 27, 1962, Albany City Files, Albany, Ga.; Albany Movement, "Why a Prayer Vigil?"; Walker to "Dear Friend of Freedom,"
-        July 27, 1962, King Center (cited by [[w.garrow-bearing-the-cross]], 211 n.37). See [[cal.1961-11-17.albany]]. Names: King.'
+      n: '[[w.garrow-bearing-the-cross]], 211 ("shortly after 2:00 P.M."); [[w.branch-parting-the-waters]], 621. To check: SAC Atlanta to Director, July 27, 1962,
+        FBI file 157-6-2-514; Hoover to Robert Kennedy, July 28, 1962, FBI file 157-6-2-513 (the King Papers Project''s catalogue record, [OKRA](https://okra.stanford.edu/link/document620728-004),
+        gives its title, "Memo to Robert F. Kennedy regarding the racial situation in Albany, Ga.," its date and its subjects, and no text); *Atlanta Constitution*,
+        July 28, 1962, at 1; [*New York Times*, July 27, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/27/issue.html), at 9; Pritchett et al., "Activities
+        of . . . the Albany Movement," July 27, 1962; Stephen Roos, "Memorandum for the File," July 27, 1962, Albany City Files, Albany, Ga.; Albany Movement, "Why
+        a Prayer Vigil?"; Walker to "Dear Friend of Freedom," July 27, 1962, King Center (cited by [[w.garrow-bearing-the-cross]], 211 n.37). See [[cal.1961-11-17.albany]].
+        Names: King.'
       src:
         c: 77ae3d8d
         rows:
@@ -918,6 +1249,9 @@ ops:
         - 'via w.garrow-bearing-the-cross 211 n.37d: 1'
         - 'via w.garrow-bearing-the-cross 211 n.37e: 1'
         - 'w.branch-parting-the-waters 621: 1'
+      time: 1962-07-27T18:00Z
+      time_approx: true
+      time_zone: America/New_York
 - edit:
     id: cal.1962-10-26.missile-crisis-5
     base: 468a4f4a
@@ -925,34 +1259,29 @@ ops:
       time: 1962-10-27T02:00Z
       time_approx: true
       time_zone: America/New_York
-      n: '[[w.fursenko-khrushchevs-cold-war]], 486–87 (a try on Oct. 25 given up on sighting an American ship). To check: transcript, interview with Nikolai Shumkov, BBC Scotland
-        (cited by [[w.fursenko-khrushchevs-cold-war]], 487 n.79). See [[cal.1962-10-23.missile-crisis-10]]. The hour: "about 10:00 P.M. East Coast time (2:25 A.M., Zulu time)
-        on October 26" ([[w.fursenko-khrushchevs-cold-war]], 487); the two clocks differ by twenty-five minutes, and the time set is the East Coast hour, 10 p.m.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 486–87 (a try on Oct. 25 given up on sighting an American ship). To check: transcript, interview with Nikolai Shumkov,
+        BBC Scotland (cited by [[w.fursenko-khrushchevs-cold-war]], 487 n.79). See [[cal.1962-10-23.missile-crisis-10]]. The hour: "about 10:00 P.M. East Coast time
+        (2:25 A.M., Zulu time) on October 26" ([[w.fursenko-khrushchevs-cold-war]], 487); the two clocks differ by twenty-five minutes, and the time set is the East
+        Coast hour, 10 p.m.'
 - edit:
     id: cal.1962-10-27.missile-crisis
     base: e0fbc178
     set:
       c: Black Saturday.{1} Anderson's U-2 shot down over Cuba.{2}
-      n: '[[w.schlesinger-robert-kennedy-and-his]], 520–23 (the U-2; Robert Kennedy and Dobrynin); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 213–14, 222; [[w.poole-joint-chiefs-of-staff]],
-        180–81; [[w.rusk-as-i-saw-it-1990]], 240–42 (the U-2s; the Oval Office meeting that sent Robert Kennedy to Dobrynin, by Rusk''s account); [[w.dobrynin-in-confidence]],
-        89–91 (the U-2 down; the generals "spoiling for a fight"; the Jupiters out in four to five months, nothing said publicly; an answer by Sunday; by Dobrynin''s report
-        written that night); [[w.fursenko-khrushchevs-cold-war]], 489 (Anderson''s U-2; Robert Kennedy and Dobrynin, late Saturday); [[w.sorensen-kennedy]], 713; [[w.thomas-robert-kennedy]],
-        227–28 (Black Saturday; the U-2 shot down; Robert Kennedy to Dobrynin at 7:45 p.m. at the Justice Department: no quid pro quo, the Jupiters out in four or five months);
-        [[w.sorensen-kennedy]], 713, 715 (the U-2 downed, Anderson; the U-2 over Soviet territory from Alaska; Robert Kennedy with the reply and a strong verbal message to
-        Dobrynin, no word of the Jupiters); [[w.odonnell-johnny-we-hardly-knew]], 382 (the report that Major Rudolf Anderson''s U-2 had been shot down over Cuba, hit by a Soviet
-        surface-to-air missile; not the Siberian flight or Robert Kennedy and Dobrynin); [[w.sorensen-counselor]], 300–01 (Saturday afternoon, Sorensen with Robert Kennedy
-        and Thompson urges the President to answer the first letter and delay the reply to the second for twenty-four to forty-eight hours; the Joint Chiefs remind Kennedy
-        of the understanding to retaliate against a SAM that downs a U-2 and he says, "Let''s wait and see how this exchange of letters plays out," cancelling next day''s low-level
-        flights; of the Alaska U-2 over the Chukotski Peninsula, "There''s always one son-of-a-bitch who doesn''t get the message"); [[w.salinger-with-kennedy]], 272–73 (a
-        U-2 missing over Cuba, shot down, the pilot Major Rudolf Anderson, Jr., certain only Sunday morning; Rusk announces Saturday evening that a U-2 from Alaska strayed
-        over the Chukotski Peninsula, Soviet fighters rising; not "Black Saturday" or Robert Kennedy and Dobrynin); [[w.lengxi-shinian-lunzhan-1956-1966]], 503 (Wu: Oct. 27,
-        an American U-2 shot down over Cuba; the White House meeting decides to bomb the missile bases, then to propose that Khrushchev withdraw them under American inspection);
-        [[w.dobrynin-in-confidence]], 89–91; [[w.sorensen-counselor]], 300–01. [[w.reeves-president-kennedy]], 410–23 (the U-2; Robert Kennedy and Dobrynin). [[w.fursenko-one-hell-of-a]],
-        277–78, 281–82. [FRUS 1961–63, XI, doc. 94](https://history.state.gov/historicaldocuments/frus1961-63v11/d94); [doc. 96](https://history.state.gov/historicaldocuments/frus1961-63v11/d96).
-        To check: [[w.dobbs-one-minute-to-midnight]]; [[w.stern-averting-the-final-failure]]; [[w.sherwin-gambling-with-armageddon]]. Split under R17: the U-2 over the Chukotski
-        Peninsula is [[cal.1962-10-27.missile-crisis-16]]; Sorensen''s urging in the afternoon is [[cal.1962-10-27.missile-crisis-17]]; Robert Kennedy and Dobrynin, that evening,
-        are [[cal.1962-10-27.missile-crisis-18]]. See [[cal.1962-10-16.missile-crisis]]. Names: Dobrynin, Anderson, Robert F. Kennedy, Sorensen, Thompson. Check: Fursenko and
-        Naftali have the SA-2 fired at 10:22 a.m. on the order of Pliyev''s deputies, Grechko and Garbuz, Pliyev not reached (277–78).'
+      n: '[FRUS 1961–63, XI, doc. 94](https://history.state.gov/historicaldocuments/frus1961-63v11/d94) (the 4 p.m. meeting: a plane overdue; Taylor reads the report
+        that the wreckage is on the ground and the pilot dead). [[w.schlesinger-robert-kennedy-and-his]], 520–23 (word that a U-2 had been shot down, its pilot killed,
+        520); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 213–14, 222; [[w.poole-joint-chiefs-of-staff]], 180–81 (at 1403 a U-2 over Cuba thirty to forty minutes
+        overdue; about 1740 McNamara reports the wreckage and the pilot''s body); [[w.rusk-as-i-saw-it-1990]], 240–42 (the U-2s, by Rusk''s account); [[w.fursenko-khrushchevs-cold-war]],
+        489 (Anderson''s U-2); [[w.sorensen-kennedy]], 713 (the U-2 downed, Anderson); [[w.thomas-robert-kennedy]], 227 (Black Saturday; "A U-2 was shot down," McNamara
+        to the ExComm); [[w.odonnell-johnny-we-hardly-knew]], 382 (the report that Major Rudolf Anderson''s U-2 had been shot down over Cuba, hit by a Soviet surface-to-air
+        missile); [[w.sorensen-counselor]], 301 (a Soviet surface-to-air missile shot down a U-2 over Cuba; its pilot, Anderson, the sole fatality of the crisis);
+        [[w.salinger-with-kennedy]], 272–73 (a U-2 missing over Cuba, shot down, the pilot Major Rudolf Anderson, Jr., certain only Sunday morning); [[w.lengxi-shinian-lunzhan-1956-1966]],
+        503 (Wu: Oct. 27, an American U-2 shot down over Cuba; the White House meeting decides to bomb the missile bases, then to propose that Khrushchev withdraw
+        them under American inspection). [[w.reeves-president-kennedy]], 410–23. [[w.fursenko-one-hell-of-a]], 277–78 (10:22 a.m., 278). The hour: "At 10:22 A.M."
+        (278), under the heading "Havana, Saturday, October 27, 10 A.M. (5 P.M., Moscow Time)" (277); the heading''s two clocks differ by eight hours, Havana''s and
+        Moscow''s of the day by nine, so the hour is approximate. To check: [[w.dobbs-one-minute-to-midnight]]; [[w.stern-averting-the-final-failure]]; [[w.sherwin-gambling-with-armageddon]].
+        See [[cal.1962-10-16.missile-crisis]]. Names: Anderson. Check: Fursenko and Naftali have the SA-2 fired at 10:22 a.m. on the order of Pliyev''s deputies,
+        Grechko and Garbuz, Pliyev not reached (277–78).'
       time: 1962-10-27T15:22Z
       time_approx: true
       time_zone: America/Havana
@@ -963,52 +1292,53 @@ ops:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 213–14, 222: 1, 2'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 222 n.126: 2'
         - 'w.poole-joint-chiefs-of-staff 180–81: 2'
-        - 'w.schlesinger-robert-kennedy-and-his 520: 2'
+        - 'w.schlesinger-robert-kennedy-and-his 520–23: 2'
         - 'w.reeves-president-kennedy 410–23: 1, 2'
         - 'via w.reeves-president-kennedy 410 n.there-is-considerable-speculation: 1'
         - 'via w.reeves-president-kennedy 419 n.youre-going-to-have-a-big: 2'
-        - 'w.fursenko-one-hell-of-a 277–78, 281–82: 2'
+        - 'w.fursenko-one-hell-of-a 277–78: 2'
         - 'w.rusk-as-i-saw-it-1990 240–42: 2'
         - 'via x.1984.rusk-interviews-with-richard-rusk: 2'
         - 'w.fursenko-khrushchevs-cold-war 489: 2'
         - 'w.sorensen-kennedy 713: 2'
-        - 'w.thomas-robert-kennedy 227–28: 1, 2'
-        - 'w.sorensen-kennedy 713, 715: 2'
+        - 'w.thomas-robert-kennedy 227: 1, 2'
         - 'w.odonnell-johnny-we-hardly-knew 382: 2'
         - 'w.salinger-with-kennedy 272–73: 2'
         - 'w.lengxi-shinian-lunzhan-1956-1966 503: 2'
-        - 'w.dobrynin-in-confidence 89–91: 2'
-        - 'w.sorensen-counselor 300–01: 2'
-        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 222 n.127: ?'
-        - 'via w.poole-joint-chiefs-of-staff 181 n.90: ?'
-        - 'w.schlesinger-robert-kennedy-and-his 520–22: ?'
-        - 'via w.schlesinger-robert-kennedy-and-his 520 n.106: ?'
-        - 'via w.reeves-president-kennedy 420 n.back-in-the-oval-office: ?'
-        - 'via w.reeves-president-kennedy 420 n.dobrymn-watched-him-pedal-away: ?'
-        - 'via w.thomas-robert-kennedy 228 n.there-was-very-little-time-left: ?'
-        - 'via w.thomas-robert-kennedy 228 n.dobrynin-cabled-moscow: ?'
+        - 'w.sorensen-counselor 301: 2'
+      tags:
+      - name:anderson-rudolf-jr
     kind: correct
     settles:
-    - 'Check: Robert Kennedy''s memorandum of Oct. 30 (FRUS XI, doc. 96) has "no quid pro quo"; a sentence crossed out of it (n.2): given "four or five months," "these matters
-      could be resolved satisfactory." It names no Jupiters.'
+    - 'Check: Robert Kennedy''s memorandum of Oct. 30 (FRUS XI, doc. 96) has "no quid pro quo"; a sentence crossed out of it (n.2): given "four or five months," "these
+      matters could be resolved satisfactory." It names no Jupiters.'
 - add:
     entry:
       id: cal.1962-10-27.missile-crisis-16
       when: Oct. 27
       date: '1962-10-27'
       thread: missile-crisis
-      c: Another U-2, from Alaska, strays over the Chukotski Peninsula, Soviet fighters rising; Rusk announces it Saturday evening.{3}
-      n: '[[w.salinger-with-kennedy]], 272–73 (a U-2 from Alaska strays over the Chukotski Peninsula, Soviet fighters rising; Rusk announces it Saturday evening); [[w.sorensen-kennedy]],
-        713, 715 (the U-2 over Soviet territory from Alaska); [[w.sorensen-counselor]], 300–01 ("There''s always one son-of-a-bitch who doesn''t get the message"). Split under
-        R17: Anderson''s U-2 is [[cal.1962-10-27.missile-crisis]]. See [[cal.1962-10-27.missile-crisis]]. Names: Rusk. Check: the hour of the flight.'
+      c: A U-2 from Alaska, on an air-sampling mission, strays over the Chukotski Peninsula; Soviet fighters rise.{3}
+      n: '[FRUS 1961–63, XI, doc. 94](https://history.state.gov/historicaldocuments/frus1961-63v11/d94) (Rusk reports it at the 4 p.m. meeting: Soviet fighters scrambled
+        from a base near Wrangel Island). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 213 (an aircraft on an air-sampling mission crosses into Siberian airspace the
+        same day; Kennedy: "There is always some son-of-a-bitch who doesn''t get the word"); [[w.poole-joint-chiefs-of-staff]], 180 (McNamara and the Chiefs told
+        at 1340; the U-2 comes back safely to Alaska); [[w.sorensen-counselor]], 301 (the ExComm learns of it; Kennedy: "There''s always one son-of-a-bitch who doesn''t
+        get the message"); [[w.sorensen-kennedy]], 713 (flown deep into Soviet territory, Soviet fighters but no fire; the President decides to ignore it); [[w.thomas-robert-kennedy]],
+        227 (word reaches the ExComm in the late afternoon); [[w.salinger-with-kennedy]], 272 ("Saturday evening, October 27: Secretary Rusk announces" it). Check:
+        the hour of the flight: McNamara and the Chiefs had word of it at 1:40 p.m. (Poole, 180). See [[cal.1962-10-27.missile-crisis]]. Names: Rusk, Kennedy.'
       src:
-        c: 048aeafa
+        c: f4fd17a7
         rows:
-        - 'w.salinger-with-kennedy 272–73: 3'
-        - 'w.sorensen-kennedy 713, 715: 3'
-        - 'w.sorensen-counselor 300–01: 3'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d94: 3'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 213: 3'
+        - 'w.poole-joint-chiefs-of-staff 180: 3'
+        - 'w.sorensen-counselor 301: 3'
+        - 'w.sorensen-kennedy 713: 3'
+        - 'w.thomas-robert-kennedy 227: 3'
+        - 'w.salinger-with-kennedy 272: 3'
       tags:
       - name:rusk-dean
+      - name:kennedy-john-f
       - ok:fields-time
 - add:
     entry:
@@ -1026,22 +1356,64 @@ ops:
       time_zone: America/New_York
       range_basis: record
       follows:
-      - cal.1962-10-27.missile-crisis
-      c: Saturday afternoon Sorensen, with Robert Kennedy and Thompson, urges the President to answer the first letter and delay the reply to the second twenty-four to forty-eight
-        hours.{6}
-      n: '[[w.sorensen-counselor]], 300–01 (Saturday afternoon, Sorensen with Robert Kennedy and Thompson urges the President to answer the first letter and delay the reply
-        to the second for twenty-four to forty-eight hours; the Joint Chiefs remind Kennedy of the understanding to retaliate against a SAM that downs a U-2, and he says, "Let''s
-        wait and see how this exchange of letters plays out"). The order: after [[cal.1962-10-27.missile-crisis]], the Joint Chiefs'' reminder of retaliation for a U-2 downed
-        ([[w.sorensen-counselor]], 300–01). Split under R17: Anderson''s U-2 is [[cal.1962-10-27.missile-crisis]]. See [[cal.1962-10-27.missile-crisis]]. Names: Sorensen, Robert
-        Kennedy, Thompson.'
+      - cal.1962-10-27.missile-crisis-excomm-2
+      c: During the afternoon's ExComm, Sorensen, with Robert Kennedy and Thompson, urges the President to answer the first letter and delay the reply to the second
+        twenty-four to forty-eight hours.{6}
+      n: '[[w.sorensen-counselor]], 300–01 ("During the ExComm meeting Saturday afternoon"; "meanwhile we won''t have broken up NATO over something that never would
+        have come to NATO"; Kennedy concerned at the risks of ignoring the second letter). See [[cal.1962-10-27.missile-crisis-excomm-2]]; [[cal.1962-10-27.missile-crisis-5]].
+        Names: Sorensen, Robert Kennedy, Thompson.'
       src:
-        c: 5b53414a
+        c: 326e73f7
         rows:
         - 'w.sorensen-counselor 300–01: 6'
       tags:
       - name:sorensen-theodore-c
       - name:kennedy-robert-f
       - name:thompson-llewellyn-e
+- add:
+    entry:
+      id: cal.1962-10-27.missile-crisis-19
+      when: Oct. 27
+      date: '1962-10-27'
+      time_range:
+      - 1962-10-27T16:00Z
+      - 1962-10-27T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: record
+      place: washington
+      thread: missile-crisis
+      follows:
+      - cal.1962-10-27.missile-crisis
+      c: 'The Joint Chiefs remind Kennedy of the ExComm''s understanding to retaliate at once against a SAM site that downs a U-2. Kennedy: "Let''s wait and see how
+        this exchange of letters plays out." He cancels the next day''s low-level reconnaissance flights. By Sorensen''s account.'
+      n: '[[w.sorensen-counselor]], 301 ("as I worked on the afternoon of October 27"). Check: the record of the evening''s meeting has the next day''s mission flown
+        without escort, fighters to attack MiGs that attack it ([[cal.1962-10-27.missile-crisis-4]]). See [[cal.1962-10-27.missile-crisis]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1962-10-27.missile-crisis-20
+      when: Oct. 27
+      date: '1962-10-27'
+      time: 1962-10-27T23:15Z
+      time_approx: true
+      time_zone: America/New_York
+      place: washington
+      thread: missile-crisis
+      also:
+      - robert-kennedy
+      follows:
+      - cal.1962-10-27.missile-crisis-8
+      c: At Rusk's request, Robert Kennedy telephones Dobrynin and asks him to come to the Justice Department at a quarter to eight.
+      n: '[FRUS 1961–63, XI, doc. 96](https://history.state.gov/historicaldocuments/frus1961-63v11/d96) (Robert Kennedy to Rusk, Oct. 30, 1962: "I telephoned Ambassador
+        Dobrynin at approximately 7:15 p.m."). [[w.fursenko-one-hell-of-a]], 281 ("At approximately 7:15 P.M.", the call to the Soviet embassy). The order: after
+        [[cal.1962-10-27.missile-crisis-8]], the Oval Office meeting that sent him ([[w.thomas-robert-kennedy]], 227). See [[cal.1962-10-27.missile-crisis]]. Names:
+        Robert Kennedy, Dobrynin, Rusk.'
+      tags:
+      - name:kennedy-robert-f
+      - name:dobrynin-anatoly
+      - name:rusk-dean
 - add:
     entry:
       id: cal.1962-10-27.missile-crisis-18
@@ -1054,53 +1426,70 @@ ops:
       time: 1962-10-27T23:45Z
       time_zone: America/New_York
       follows:
-      - cal.1962-10-27.missile-crisis
-      c: 'That night Robert Kennedy to Dobrynin, at the Justice Department, 7:45 p.m.: the Jupiters to go, privately.{4} By Dobrynin''s report written then: the generals "spoiling
-        for a fight"; the Jupiters out in four to five months, nothing said publicly; an answer by Sunday.{5}'
-      n: '[[w.thomas-robert-kennedy]], 227–28 (Black Saturday; the U-2 shot down; Robert Kennedy to Dobrynin at 7:45 p.m. at the Justice Department: no quid pro quo, the Jupiters
-        out in four or five months); [[w.dobrynin-in-confidence]], 89–91 (the U-2 down; the generals "spoiling for a fight"; the Jupiters out in four to five months, nothing
-        said publicly; an answer by Sunday; by Dobrynin''s report written that night); [[w.schlesinger-robert-kennedy-and-his]], 520–23 (Robert Kennedy and Dobrynin); [[w.kaplan-mcnamara-ascendancy-1961-1965]],
-        213–14, 222; [[w.poole-joint-chiefs-of-staff]], 180–81; [[w.fursenko-khrushchevs-cold-war]], 489 (Anderson''s U-2; Robert Kennedy and Dobrynin, late Saturday); [[w.rusk-as-i-saw-it-1990]],
-        240–42 (the U-2s; the Oval Office meeting that sent Robert Kennedy to Dobrynin, by Rusk''s account); [[w.sorensen-kennedy]], 713, 715 (the U-2 downed, Anderson; the
-        U-2 over Soviet territory from Alaska; Robert Kennedy with the reply and a strong verbal message to Dobrynin, no word of the Jupiters); [[w.reeves-president-kennedy]],
-        410–23 (the U-2; Robert Kennedy and Dobrynin); [[w.fursenko-one-hell-of-a]], 277–78, 281–82. [FRUS 1961–63, XI, doc. 94](https://history.state.gov/historicaldocuments/frus1961-63v11/d94);
-        [doc. 96](https://history.state.gov/historicaldocuments/frus1961-63v11/d96). Check: Robert Kennedy''s memorandum of Oct. 30 (FRUS XI, doc. 96) has "no quid pro quo";
-        a sentence crossed out of it (n.2): given "four or five months," "these matters could be resolved satisfactory." It names no Jupiters. The order: after [[cal.1962-10-27.missile-crisis]],
-        the U-2 downed that morning ([[w.thomas-robert-kennedy]], 227–28). Split under R17: Anderson''s U-2 is [[cal.1962-10-27.missile-crisis]]. See [[cal.1962-10-27.missile-crisis]].
-        Names: Robert Kennedy, Dobrynin.'
+      - cal.1962-10-27.missile-crisis-20
+      c: 'Robert Kennedy to Dobrynin, in his office at the Justice Department, 7:45 p.m.: the Jupiters to go, privately.{4} By Dobrynin''s report written then: the
+        generals "spoiling for a fight"; the Jupiters out in four to five months, nothing said publicly; an answer by Sunday.{5}'
+      n: '[FRUS 1961–63, XI, doc. 96](https://history.state.gov/historicaldocuments/frus1961-63v11/d96) (Robert Kennedy to Rusk, Oct. 30, 1962: "We met in my office";
+        "no quid pro quo"). [[w.thomas-robert-kennedy]], 227–28 (7:45 p.m., his office at the Justice Department: no quid pro quo, the Jupiters out in four or five
+        months); [[w.dobrynin-in-confidence]], 89–91 (the U-2 down; the generals "spoiling for a fight"; the Jupiters out in four to five months, nothing said publicly;
+        an answer by Sunday; by Dobrynin''s report written that night); [[w.schlesinger-robert-kennedy-and-his]], 520–23 (at the Department of Justice, half an hour
+        after the letter went off); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 222; [[w.poole-joint-chiefs-of-staff]], 181; [[w.fursenko-khrushchevs-cold-war]],
+        489 (Robert Kennedy and Dobrynin, late Saturday); [[w.rusk-as-i-saw-it-1990]], 240–42 (the Oval Office meeting that sent Robert Kennedy to Dobrynin, by Rusk''s
+        account); [[w.sorensen-kennedy]], 715 (Robert Kennedy with the reply and a strong verbal message to Dobrynin, no word of the Jupiters); [[w.reeves-president-kennedy]],
+        410–23; [[w.fursenko-one-hell-of-a]], 281–82. Check: Robert Kennedy''s memorandum of Oct. 30 (FRUS XI, doc. 96) has "no quid pro quo"; a sentence crossed
+        out of it (n.2): given "four or five months," "these matters could be resolved satisfactory." It names no Jupiters. Check: Poole, 181, has Robert Kennedy
+        go to the Soviet embassy; his memorandum has the meeting in his office. See [[cal.1962-10-27.missile-crisis]]. Names: Robert Kennedy, Dobrynin.'
       src:
-        c: bd906fcc
+        c: 0c4961af
         rows:
-        - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d94: 4'
-        - 'w.kaplan-mcnamara-ascendancy-1961-1965 213–14, 222: 4'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d96: 4'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 222: 4'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 222 n.127: 4'
-        - 'w.poole-joint-chiefs-of-staff 180–81: 4'
+        - 'w.poole-joint-chiefs-of-staff 181: 4'
         - 'via w.poole-joint-chiefs-of-staff 181 n.90: 4'
-        - 'w.schlesinger-robert-kennedy-and-his 520–22: 4'
+        - 'w.schlesinger-robert-kennedy-and-his 520–23: 4'
         - 'via w.schlesinger-robert-kennedy-and-his 520 n.106: 4'
         - 'w.reeves-president-kennedy 410–23: 4'
         - 'via w.reeves-president-kennedy 420 n.back-in-the-oval-office: 4'
         - 'via w.reeves-president-kennedy 420 n.dobrymn-watched-him-pedal-away: 4'
-        - 'w.fursenko-one-hell-of-a 277–78, 281–82: 4'
+        - 'w.fursenko-one-hell-of-a 281–82: 4'
         - 'w.rusk-as-i-saw-it-1990 240–42: 4'
         - 'via x.1984.rusk-interviews-with-richard-rusk: 4'
         - 'w.fursenko-khrushchevs-cold-war 489: 4'
         - 'w.thomas-robert-kennedy 227–28: 4'
         - 'via w.thomas-robert-kennedy 228 n.there-was-very-little-time-left: 4'
         - 'via w.thomas-robert-kennedy 228 n.dobrynin-cabled-moscow: 4'
-        - 'w.sorensen-kennedy 713, 715: 4'
+        - 'w.sorensen-kennedy 715: 4'
         - 'w.dobrynin-in-confidence 89–91: 4, 5'
       tags:
       - name:kennedy-robert-f
       - name:dobrynin-anatoly
+- follows:
+    id: cal.1962-10-27.missile-crisis-diplomacy
+    remove:
+    - cal.1962-10-27.missile-crisis
+    why: the entry it followed now holds only the U-2 shot down that morning; the meeting with Dobrynin is cal.1962-10-27.missile-crisis-18
+- follows:
+    id: cal.1962-10-27.missile-crisis-diplomacy
+    add:
+    - cal.1962-10-27.missile-crisis-18
+- follows:
+    id: cal.1962-10-27.missile-crisis-excomm
+    remove:
+    - cal.1962-10-27.missile-crisis
+    why: the entry it followed now holds only the U-2 shot down that morning; the meeting with Dobrynin is cal.1962-10-27.missile-crisis-18
+- follows:
+    id: cal.1962-10-27.missile-crisis-excomm
+    add:
+    - cal.1962-10-27.missile-crisis-18
 - edit:
     id: cal.1962-11-01.missile-crisis-settlement
     base: a3b3219b
     set:
-      c: 'Stevenson complains to Schlesinger: his report to the State Department of Wednesday night on U Thant''s conversations with Castro was in the newspapers by Thursday
-        afternoon, to the embarrassment of Stevenson and U Thant.'
-      n: '[[w.schlesinger-journals]], 178 (Stevenson''s complaint, under Nov. 1). Made public: [[w.schlesinger-journals]] (2007). Split under R17: Schlesinger''s report to
-        Kennedy late in the afternoon, and what Kennedy did, are [[cal.1962-11-01.missile-crisis-settlement-2]]. Names: Stevenson, Schlesinger, Thant, Castro.'
+      c: 'Stevenson complains to Schlesinger: his report to the State Department of Wednesday night on U Thant''s conversations with Castro was in the newspapers
+        by Thursday afternoon, to the embarrassment of Stevenson and U Thant.'
+      n: '[[w.schlesinger-journals]], 178 (Stevenson''s complaint, under Nov. 1). Made public: [[w.schlesinger-journals]] (2007). Names: Stevenson, Schlesinger, Thant,
+        Castro.'
       tags:
       - name:stevenson-adlai-e
       - name:schlesinger-arthur-m-jr
@@ -1122,11 +1511,11 @@ ops:
       time_band: afternoon
       time_zone: America/New_York
       range_basis: record
-      c: Schlesinger reports Stevenson's complaint to Kennedy late in the afternoon. Kennedy, irritated, calls Manning and learns that the report went out in 100 copies and
-        the papers had it within two hours; he directs Manning to send each recipient a note, signed by Rusk, on the harm the leak did. White House staff are now to report
-        to Salinger each day the newsmen they have talked with.
-      n: '[[w.schlesinger-journals]], 178 ("late in the afternoon"). Made public: [[w.schlesinger-journals]] (2007). Split under R17: Stevenson''s complaint is [[cal.1962-11-01.missile-crisis-settlement]].
-        See [[cal.1962-11-01.missile-crisis-settlement]]. Names: Schlesinger, Kennedy, Manning, Rusk, Salinger.'
+      c: Schlesinger reports Stevenson's complaint to Kennedy late in the afternoon. Kennedy, irritated, calls Manning and learns that the report went out in 100
+        copies and the papers had it within two hours; he directs Manning to send each recipient a note, signed by Rusk, on the harm the leak did. White House staff
+        are now to report to Salinger each day the newsmen they have talked with.
+      n: '[[w.schlesinger-journals]], 178 ("late in the afternoon"). Made public: [[w.schlesinger-journals]] (2007). See [[cal.1962-11-01.missile-crisis-settlement]].
+        Names: Schlesinger, Kennedy, Manning, Rusk, Salinger.'
       tags:
       - name:schlesinger-arthur-m-jr
       - name:kennedy-john-f
@@ -1137,19 +1526,48 @@ ops:
     id: cal.1962-11-09.missile-crisis
     base: 3f20d900
     set:
-      c: 'At his home, Robert Kennedy to Bolshakov, by Dobrynin''s report, as his "personal opinion": the Il-28s to go "as soon as possible," no date named, or to be flown
-        only by Soviet pilots.{1}'
-      n: '[[w.fursenko-one-hell-of-a]], 299–300; [[w.fursenko-khrushchevs-cold-war]], 499. An hour before his call from the dinner for Gavin, in the evening: [[w.fursenko-one-hell-of-a]],
-        300. To check: Dobrynin to the Foreign Ministry, Nov. 9, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 300 n.45). Split under R17: the call an hour later, after
-        the dinner for Gavin had begun, is [[cal.1962-11-09.missile-crisis-settlement]]. See [[cal.1962-11-06.missile-crisis]]. Names: Robert Kennedy, Bolshakov, Dobrynin,
-        Gavin.'
+      c: 'At his home, Robert Kennedy to Bolshakov, by Dobrynin''s report, as his "personal opinion": the Il-28s to go "as soon as possible," no date named, or to
+        be flown only by Soviet pilots.{1}'
+      n: '[[w.fursenko-one-hell-of-a]], 299–300; [[w.fursenko-khrushchevs-cold-war]], 499 ("Before dressing for a formal dinner on November 9," at his home). To check:
+        Dobrynin to the Foreign Ministry, Nov. 9, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 300 n.45). See [[cal.1962-11-06.missile-crisis]]. Names: Robert
+        Kennedy, Bolshakov, Dobrynin.'
       src:
         c: 32782b75
         rows:
         - 'w.fursenko-one-hell-of-a 299–300: 1'
         - 'via w.fursenko-one-hell-of-a 300 n.45: 1'
         - 'w.fursenko-khrushchevs-cold-war 499: 1'
+      tags:
+      - name:kennedy-robert-f
+      - name:bolshakov-georgi
+      - name:dobrynin-anatoly
     kind: correct
+- add:
+    entry:
+      id: cal.1962-11-09.missile-crisis-settlement-2
+      when: Nov. 9
+      date: '1962-11-09'
+      time_range:
+      - 1962-11-10T00:00Z
+      - 1962-11-10T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      place: washington
+      thread: missile-crisis-settlement
+      also:
+      - robert-kennedy
+      follows:
+      - cal.1962-11-09.missile-crisis
+      c: The White House, the dinner and dance for General Gavin. Early in the dinner Robert Kennedy reports to the President on his talk with Bolshakov; the President
+        tells him to stop hinting at a deal that leaves the Il-28s in Cuba.
+      n: '[[w.fursenko-one-hell-of-a]], 300 ("At some point early in the dinner"). To check: Robert Kennedy''s desk diary, 1962, JFK Library (cited by [[w.fursenko-one-hell-of-a]],
+        300 n.46). See [[cal.1962-11-09.missile-crisis]]. Names: Robert Kennedy, Kennedy, Gavin, Bolshakov.'
+      tags:
+      - name:kennedy-robert-f
+      - name:kennedy-john-f
+      - name:gavin-james-m
+      - name:bolshakov-georgi
 - add:
     entry:
       id: cal.1962-11-09.missile-crisis-settlement
@@ -1159,40 +1577,31 @@ ops:
       also:
       - robert-kennedy
       follows:
-      - cal.1962-11-09.missile-crisis
-      time_range:
-      - 1962-11-09T22:00Z
-      - 1962-11-10T03:00Z
-      time_zone: America/New_York
-      range_basis: record
+      - cal.1962-11-09.missile-crisis-settlement-2
       place: washington
-      c: 'An hour later, after telling the President at the dinner for Gavin, Robert Kennedy calls Bolshakov to take it back: his words were a "private opinion"; for the President
-        a settlement requires "the rapid removal of the Il-28s from Cuba."{2}'
-      n: '[[w.fursenko-one-hell-of-a]], 299–300 ("At some point early in the dinner ... Robert Kennedy reported to his brother"; "an hour later"; the call to retract); [[w.fursenko-khrushchevs-cold-war]],
-        499. The order: after [[cal.1962-11-09.missile-crisis]], Fursenko and Naftali''s "an hour later" ([[w.fursenko-one-hell-of-a]], 300). To check: Dobrynin to the Foreign
-        Ministry, Nov. 9, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 300 n.47); Robert Kennedy''s desk diary, 1962, JFK Library (cited by [[w.fursenko-one-hell-of-a]],
-        300 n.46, the dinner). Split under R17: the first word to Bolshakov is [[cal.1962-11-09.missile-crisis]]. See [[cal.1962-11-09.missile-crisis]]. Names: Robert Kennedy,
-        Bolshakov, Gavin.'
+      c: 'Robert Kennedy telephones Bolshakov to take it back: his words were a "private opinion"; for the President a settlement requires "the rapid removal of the
+        Il-28s from Cuba."{2}'
+      n: '[[w.fursenko-one-hell-of-a]], 300 ("an hour later"); [[w.fursenko-khrushchevs-cold-war]], 499 ("An hour after their brief meeting"). The order: after [[cal.1962-11-09.missile-crisis-settlement-2]],
+        [[w.fursenko-one-hell-of-a]], 300. To check: Dobrynin to the Foreign Ministry, Nov. 9, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 300 n.47). See [[cal.1962-11-09.missile-crisis]].
+        Names: Robert Kennedy, Bolshakov.'
       src:
-        c: 0fd1e1f8
+        c: 0247bde4
         rows:
-        - 'w.fursenko-one-hell-of-a 299–300: 2'
-        - 'via w.fursenko-one-hell-of-a 300 n.46: 2'
+        - 'w.fursenko-one-hell-of-a 300: 2'
         - 'via w.fursenko-one-hell-of-a 300 n.47: 2'
         - 'w.fursenko-khrushchevs-cold-war 499: 2'
       tags:
       - name:kennedy-robert-f
       - name:bolshakov-georgi
-      - name:gavin-james-m
 - edit:
     id: cal.1962-11-15.missile-crisis-3
     base: ed325524
     set:
-      c: 'Castro at an antiaircraft battery outside Havana, a few hours before his appointment with Mikoyan: from Saturday or Sunday the order to fire again on American warplanes;
-        twenty to thirty low-level flights a day over Cuba.'
-      n: '[[w.fursenko-one-hell-of-a]], 304–5. To check: Mikoyan to Khrushchev, Nov. 17, 1962, f. 3, op. 65, d. 911, 100–103, 126–35, APRF (cited by [[w.fursenko-one-hell-of-a]],
-        304–5 n.61–68; for the dinner, 305 n.65–68). Split under R25b: Castro''s dinner with Mikoyan that night is [[cal.1962-11-15.missile-crisis-anadyr]]. See [[cal.1962-11-16.soviet-union]].
-        Names: Castro, Mikoyan, Robert Kennedy, U Thant.'
+      c: 'Castro at an antiaircraft battery outside Havana, a few hours before his appointment with Mikoyan: from Saturday or Sunday the order to fire again on American
+        warplanes; twenty to thirty low-level flights a day over Cuba.'
+      n: '[[w.fursenko-one-hell-of-a]], 304 ("A few hours before his appointment with Mikoyan"). To check: Mikoyan to Khrushchev, Nov. 18, 1962, f. 3, op. 65, d.
+        911, 181–83, APRF; Burris to Johnson, "Low-Level Reconnaissance Mission over Cuba," Dec. 4, 1962, CMC/NSA (cited by [[w.fursenko-one-hell-of-a]], 304 n.63).
+        See [[cal.1962-11-16.soviet-union]]. Names: Castro, Mikoyan.'
       time_range:
       - 1962-11-15T17:00Z
       - 1962-11-15T23:00Z
@@ -1202,8 +1611,10 @@ ops:
       src:
         c: 688a9a80
         rows:
-        - 'w.fursenko-one-hell-of-a 304–5: all'
-        - 'via w.fursenko-one-hell-of-a 305 n.66: all'
+        - 'w.fursenko-one-hell-of-a 304: all'
+      tags:
+      - name:castro-fidel
+      - name:mikoyan-anastas
     kind: correct
 - add:
     entry:
@@ -1220,16 +1631,16 @@ ops:
       time: 1962-11-16T00:55Z
       time_approx: true
       time_zone: America/Havana
-      c: 'That night, at dinner at the Soviet embassy, Castro with Mikoyan, who tells him of the talks with Robert Kennedy on the Il-28s. Castro tells of his order and his
-        letter to U Thant. Mikoyan: "Why did you not tell me about this letter before sending it to U Thant?" Castro will not reverse the order.'
-      n: '[[w.fursenko-one-hell-of-a]], 304–5 ("A few minutes before 8 P.M., Castro arrived for dinner at the Soviet embassy"; Mikoyan''s account to Khrushchev, 305 n.65–68).
-        To check: Mikoyan to Khrushchev, Nov. 17, 1962, f. 3, op. 65, d. 911, 100–103, 126–35, APRF (cited by [[w.fursenko-one-hell-of-a]], 304–5 n.61–68). Split under R25b:
-        Castro at the battery is [[cal.1962-11-15.missile-crisis-3]]. See [[cal.1962-11-16.soviet-union]]; [[cal.1962-11-15.missile-crisis-3]]. Names: Castro, Mikoyan, Robert
-        Kennedy, U Thant.'
+      c: 'That night, at dinner at the Soviet embassy, Castro with Mikoyan, who tells him of the talks with Robert Kennedy on the Il-28s. Castro tells of his order
+        and his letter to U Thant. Mikoyan: "Why did you not tell me about this letter before sending it to U Thant?" Castro will not reverse the order.'
+      n: '[[w.fursenko-one-hell-of-a]], 304–5 ("A few minutes before 8 P.M., Castro arrived for dinner at the Soviet embassy"; Mikoyan''s account to Khrushchev).
+        To check: Mikoyan to Khrushchev, Nov. 17, 1962, f. 3, op. 65, d. 911, 126–35, APRF (cited by [[w.fursenko-one-hell-of-a]], 305 n.65). See [[cal.1962-11-15.missile-crisis-3]];
+        [[cal.1962-11-16.soviet-union]]. Names: Castro, Mikoyan, Robert Kennedy, U Thant.'
       src:
         c: b58cb835
         rows:
         - 'w.fursenko-one-hell-of-a 304–5: all'
+        - 'via w.fursenko-one-hell-of-a 305 n.66: all'
       tags:
       - name:castro-fidel
       - name:mikoyan-anastas
@@ -1239,24 +1650,25 @@ ops:
     id: cal.1962-11-19.china
     base: 992dd368
     set:
-      c: Zhongnanhai.{1} Mao Zedong calls Zhou Enlai and others to a meeting at his residence, the first of two that day; Zhou goes half an hour after Mao's note and tells
-        him this is something new.{2}
-      n: '[[w.mao-zedong-zhuan]], V, ch. 71; [[w.jian-zhou-enlai]], 482 (Nov. 18: Zhou "rushed to Mao''s residence half an hour" after Mao''s note, and told him this was something
-        new). [[w.zhou-enlai-nianpu-1949]], II, 513 (Nov. 19, 1962: Zhou Enlai goes twice to Mao''s for meetings, and talks with Foreign Ministry people between); [[w.mao-zedong-zhuan]],
-        V, ch. 71 (Nov. 19: Mao twice calls Zhou Enlai and others to meetings at his residence at Zhongnanhai; Zhou and Chen Yi then receive the Indian chargé Banerjee). Made
-        public: Check (2011 at the latest). Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 71), by its postscript
-        first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.zhou-enlai-nianpu-1949]], cited here, prints it. To check: [[w.zedong-mao-zedong-nianpu]],
-        V, 169. The hour: about 4:30 p.m., half an hour after Mao''s note, which the Wengao dates 4 p.m. on Nov. 19 ([[w.jianguo-yilai-mao-zedong]], XVI, 435); Jian, 482, puts
-        the note and the visit on Nov. 18 ([[cal.1962-11-19.south-asia]]). Split under R17: the second meeting, after Zhou has talked with Foreign Ministry people, is [[cal.1962-11-19.china-3]].
+      c: Zhongnanhai.{1} At 4:30 p.m. Mao Zedong calls Zhou Enlai and others to Juxiang Shuwu 菊香书屋 to study how to promote peace talks with India, the second meeting
+        of the day; Zhou comes half an hour after Mao's note and tells him this is something new.{2}
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 19, 1962 (下午四时, Mao''s note; 四时半，在中南海菊香书屋召集周恩来等开会，研究促进中印和平谈判问题: at 4:30 p.m., a meeting at Juxiang Shuwu on promoting
+        Sino-Indian peace talks; after it Zhou Enlai and Chen Yi see India''s chargé). [[w.jian-zhou-enlai]], 482 (Nov. 18: Zhou "rushed to Mao''s residence half
+        an hour later," and told him this was something new); [[w.zhou-enlai-nianpu-1949]], II, 513 (Nov. 19, 1962: after two meetings at Mao''s and a talk with the
+        Foreign Ministry''s people, Zhou and Chen Yi receive Banerjee); [[w.mao-zedong-zhuan]], V, ch. 71 (Nov. 19: Mao twice calls Zhou Enlai and others to meetings
+        at his residence at Zhongnanhai; Zhou and Chen Yi then receive the Indian chargé Banerjee). Made public: Check (2011 at the latest). Check: Made public: the
+        *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 71), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]),
+        earlier than the year given; earlier still if [[w.zhou-enlai-nianpu-1949]], cited here, prints it. The hour: 4:30 p.m. (the Mao nianpu, Nov. 19); the Wengao
+        dates the note 4 p.m. on Nov. 19 ([[w.jianguo-yilai-mao-zedong]], XVI, 435); Jian, 482, puts the note and the visit on Nov. 18 ([[cal.1962-11-19.south-asia]]).
         Names: Mao Zedong, Zhou Enlai. Check: the day (Chen: Nov. 18).'
       time: 1962-11-19T08:30Z
-      time_approx: true
       time_zone: Asia/Shanghai
       src:
-        c: 90cf6fd0
+        c: 2efc0f12
         rows:
-        - 'w.jian-zhou-enlai 482: ?'
-        - 'w.zhou-enlai-nianpu-1949 II, 513: ?'
+        - 'w.zedong-mao-zedong-nianpu V, Nov. 19, 1962: 2'
+        - 'w.jian-zhou-enlai 482: 2'
+        - 'w.zhou-enlai-nianpu-1949 II, 513: 2'
         - 'w.mao-zedong-zhuan V, ch. 71: 2'
     kind: correct
 - add:
@@ -1268,40 +1680,66 @@ ops:
       thread: china
       also:
       - south-asia
-      follows:
-      - cal.1962-11-19.china
-      c: Zhongnanhai. Mao Zedong calls Zhou Enlai and others to a second meeting at his residence that day; between the two Zhou has talked with Foreign Ministry people.
-      n: '[[w.zhou-enlai-nianpu-1949]], II, 513 (Nov. 19, 1962: "两次到毛泽东处开会，并约外交部有关人员谈话后": after two meetings at Mao''s and a talk with the Foreign Ministry''s people, Zhou
-        and Chen Yi receive Banerjee); [[w.mao-zedong-zhuan]], V, ch. 71 (Nov. 19: Mao twice calls Zhou Enlai and others to meetings at his residence at Zhongnanhai). The hour:
-        not given; before 8 p.m., when Zhou and Chen Yi receive Banerjee ([[w.zhou-enlai-waijiao-huodong]], 341: 晚8时, [[cal.1962-11-19.south-asia-2]]). Made public: Check (2011
-        at the latest). Split under R17: the first meeting is [[cal.1962-11-19.china]]. See [[cal.1962-11-19.china]]. Names: Mao Zedong, Zhou Enlai.'
+      c: Zhongnanhai, Juxiang Shuwu 菊香书屋, morning. Mao Zedong calls Zhou Enlai and others to a meeting, the first of two that day.
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 19, 1962 (上午，在中南海菊香书屋召集周恩来等开会: in the morning, at Juxiang Shuwu). [[w.zhou-enlai-nianpu-1949]], II, 513 (Nov. 19,
+        1962: "两次到毛泽东处开会", twice to Mao''s for meetings); [[w.mao-zedong-zhuan]], V, ch. 71 (Mao twice calls Zhou Enlai and others to meetings at his residence).
+        Made public: Check (2011 at the latest). See [[cal.1962-11-19.china]]. Names: Mao Zedong, Zhou Enlai.'
       tags:
       - name:mao-zedong
       - name:zhou-enlai
       - polity:prc
-      - ok:fields-time
+      time_range:
+      - 1962-11-18T22:00Z
+      - 1962-11-19T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      range_basis: record
 - check:
     id: cal.1962-11-20.missile-crisis-2
-    text: 'Check: the hour. FRUS VI, doc. 79 gives the day alone, Moscow, Nov. 20. Schlesinger, 526–27, has Dobrynin hand the letter to Robert Kennedy at his office in the
-      morning in Washington (Moscow afternoon); Fursenko and Naftali, 309–10, have Bolshakov deliver it to the President on Nov. 20. The range is the Moscow workday of the
-      writing.'
+    text: 'Check: the hour. FRUS VI, doc. 79 gives the day alone, Moscow, Nov. 20; the range is the Moscow workday of the writing. Schlesinger, 526–27, has Dobrynin
+      hand the letter to Robert Kennedy at his office in the morning in Washington; Fursenko and Naftali, 309–10, have Bolshakov deliver it to the President.'
+- add:
+    entry:
+      id: cal.1962-11-20.missile-crisis-settlement
+      when: Nov. 20
+      date: '1962-11-20'
+      time_range:
+      - 1962-11-20T11:00Z
+      - 1962-11-20T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+      place: washington
+      thread: missile-crisis-settlement
+      also:
+      - robert-kennedy
+      follows:
+      - cal.1962-11-20.missile-crisis-2
+      c: 'Morning. Dobrynin brings Robert Kennedy, at his office, Khrushchev''s letter agreeing to take out the Il-28s in thirty days: "I have a birthday present
+        for you."'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 526 (the morning of Nov. 20, his thirty-seventh birthday). Check: Fursenko and Naftali have Bolshakov deliver
+        the message to the President on Nov. 20 ([[w.fursenko-one-hell-of-a]], 309). See [[cal.1962-11-20.missile-crisis-2]]. Names: Dobrynin, Robert Kennedy.'
+      tags:
+      - name:dobrynin-anatoly
+      - name:kennedy-robert-f
 - edit:
     id: cal.1962-11-21.laos
     base: bff06dd0
     set:
-      n: '[[w.fursenko-one-hell-of-a]], 323; [[w.fursenko-khrushchevs-cold-war]], 504–05 ("We will not do it!"; "Peace has been made without winners and losers"; "We did everything
-        we could"); [[w.prezidium-tsk-kpss-1954]], I, 646 (Protocol 68, item II, Nov. 21, 1962, Malin''s notes, "On instructions to the Soviet ambassador in Laos," Khrushchev:
-        "Не будем делать: летать, поставлять секретным порядком оружие" (we will not fly or supply arms secretly); "Главное мир. Мир заключен без побежденных и победителей";
-        "Если хотите вести войну это ваше внутреннее дело"; the Pathet Lao "shows no flexibility"; read in the volume). Check: the protocol (I, 646) and its note (I, 1115 n.2)
-        give the ambassador''s instructions and the coalition government''s request for economic aid, not a Pathet Lao request for arms. Names: Khrushchev.'
+      n: '[[w.fursenko-one-hell-of-a]], 323; [[w.fursenko-khrushchevs-cold-war]], 504–05 ("We will not do it!"; "Peace has been made without winners and losers";
+        "We did everything we could"); [[w.prezidium-tsk-kpss-1954]], I, 646 (Protocol 68, item II, Nov. 21, 1962, Malin''s notes, "On instructions to the Soviet
+        ambassador in Laos," Khrushchev: "Не будем делать: летать, поставлять секретным порядком оружие" (we will not fly or supply arms secretly); "Главное мир.
+        Мир заключен без побежденных и победителей"; "Если хотите вести войну это ваше внутреннее дело"; the Pathet Lao "shows no flexibility"). Check: the protocol
+        (I, 646) and its note (I, 1115 n.2) give the ambassador''s instructions and the coalition government''s request for economic aid, not a Pathet Lao request
+        for arms. Names: Khrushchev.'
 - edit:
     id: cal.1962-11-24.china-leadership
     base: dce9bee1
     set:
-      c: Budapest, the final day of the Hungarian congress. In the morning an official asks whether the Chinese delegation will speak at the closing reception that night. As
-        no directive has come from Beijing, Wu Xiuquan promises a reply in the afternoon.
+      c: Budapest, the final day of the Hungarian congress. In the morning an official asks whether the Chinese delegation will speak at the closing reception that
+        night. As no directive has come from Beijing, Wu Xiuquan promises a reply in the afternoon.
       n: '[[w.macfarquhar-origins-of-the-cultural]], III, 319–20. Made public: 1991. To check: [[w.xiuquan-huiyi-yu-huainian]], 349–52 (cited by [[w.macfarquhar-origins-of-the-cultural]],
-        III, 320 n.119). Split under R17: the telegram that arrived in the lunch interval is [[cal.1962-11-24.china-polemic]]. Names: Wu Xiuquan.'
+        III, 320 n.119). Names: Wu Xiuquan.'
       src:
         c: 782da299
         rows:
@@ -1309,7 +1747,8 @@ ops:
         - 'via w.macfarquhar-origins-of-the-cultural III, 320 n.119: all'
     kind: correct
     settles:
-    - 'Check: the hour of the telegram; the calendar''s entry for the Peking meeting on the delegation''s cable ([[cal.1962-11.china-leadership]]) is dated after Nov. 21.'
+    - 'Check: the hour of the telegram; the calendar''s entry for the Peking meeting on the delegation''s cable ([[cal.1962-11.china-leadership]]) is dated after
+      Nov. 21.'
 - add:
     entry:
       id: cal.1962-11-24.china-polemic
@@ -1328,13 +1767,13 @@ ops:
       time_band: workday midday
       time_zone: Europe/Budapest
       range_basis: record
-      c: 'Budapest. A telegram arrives in the lunch interval, with instructions to use the closing reception to rebut critics on three points: that the worsening of relations
-        between the CPSU and the CCP and the Albanians is attributable to Moscow, that the anti-China chorus is directed by the CPSU, and that party congresses should promote
-        unity, not split. It includes an official Chinese statement to be read out.'
+      c: 'Budapest. A telegram arrives in the lunch interval, with instructions to use the closing reception to rebut critics on three points: that the worsening
+        of relations between the CPSU and the CCP and the Albanians is attributable to Moscow, that the anti-China chorus is directed by the CPSU, and that party
+        congresses should promote unity, not split. It includes an official Chinese statement to be read out.'
       n: '[[w.macfarquhar-origins-of-the-cultural]], III, 319–20 ("a telegram arrived in the lunch interval"). Made public: 1991. To check: [[w.xiuquan-huiyi-yu-huainian]],
-        349–52 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 320 n.119). Check: the hour of the telegram, and the day it was sent from Peking; the calendar''s entry
-        for the Peking meeting on the delegation''s cable ([[cal.1962-11.china-leadership]]) is dated after Nov. 21. Split under R17: the morning request is [[cal.1962-11-24.china-leadership]].
-        See [[cal.1962-11-24.china-leadership]]. Names: Wu Xiuquan.'
+        349–52 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 320 n.119). Check: the hour of the telegram, and the day it was sent from Peking; the calendar''s
+        entry for the Peking meeting on the delegation''s cable ([[cal.1962-11.china-leadership]]) is dated after Nov. 21. See [[cal.1962-11-24.china-leadership]].
+        Names: Wu Xiuquan.'
       tags:
       - polity:prc
       - polity:hungary
@@ -1342,21 +1781,20 @@ ops:
       - name:wu-xiuquan
 - check:
     id: cal.1962-11-26.elections-1964
-    text: 'Check: the day. Reeves, 435, has the game on Nov. 26; the Army–Navy game of 1962 was played in Philadelphia on Dec. 1, a Saturday (a lead from a reference page,
-      not a record the series cites). The records to read: the President''s Daily Diary and Appointment Book for Dec. 1, 1962 (Kennedy Library), the *New York Times* of Dec.
-      2, 1962; Gilpatric''s oral history, 93–94, which Reeves cites (435 n.), is not on hand.'
+    text: 'Check: the day. Reeves, 435, has the game on Nov. 26, 1962, a Monday; the Army–Navy game is played on a Saturday. The records to read: the President''s
+      Appointment Book (Kennedy Library) and the press of the game''s day; Gilpatric''s oral history, 93–94, which Reeves cites (435 n.), is not on hand.'
 - edit:
     id: cal.1962-11-28.governors-mn-recount
     base: 3a5d60a0
     set:
       when: Nov. 28
-      c: The Minnesota Supreme Court, hearing the petitions of Andersen and Rolvaag on Nov. 28, orders the State Canvassing Board to reassemble and count the amended returns
-        of ten counties.
-      n: '*Rolvaag v. Donovan*, [264 Minn. 257](https://static.case.law/minn/264/case-pdfs/0257-01.pdf), 119 N.W.2d 1 (1962) (heard Nov. 28; the order "made and filed" the
-        same sitting, day not stated in the opinion; opinion filed Dec. 11). Check: the day of the order: the opinion has the hearing on Nov. 28 and the order made and filed
-        with no day; the Board''s declaration of Nov. 29 calls it "the order of the Supreme Court dated November 29, 1962" ([*Report of the State Canvassing Board, General
-        Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf)). Split under R17: the Board''s declaration is [[cal.1962-11-29.governors-mn-recount]].
-        See [[cal.1962-11-06.governors-mn]]. Names: Andersen, Rolvaag.'
+      c: The Minnesota Supreme Court, hearing the petitions of Andersen and Rolvaag on Nov. 28, orders the State Canvassing Board to reassemble and count the amended
+        returns of ten counties.
+      n: '*Rolvaag v. Donovan*, [264 Minn. 257](https://static.case.law/minn/264/case-pdfs/0257-01.pdf), 119 N.W.2d 1 (1962) (heard Nov. 28; the order "made and filed"
+        the same sitting, day not stated in the opinion; opinion filed Dec. 11). Check: the day of the order: the opinion has the hearing on Nov. 28 and the order
+        made and filed with no day; the Board''s declaration of Nov. 29 calls it "the order of the Supreme Court dated November 29, 1962" ([*Report of the State Canvassing
+        Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf)). See [[cal.1962-11-06.governors-mn]]. Names: Andersen,
+        Rolvaag.'
     kind: correct
 - add:
     entry:
@@ -1365,13 +1803,191 @@ ops:
       date: '1962-11-29'
       place: minnesota
       thread: governors-mn-recount
-      c: 'The State Canvassing Board, in final session pursuant to the Supreme Court''s order, counts the amended returns from ten counties and declares Andersen elected Governor:
-        Andersen 619,722, Rolvaag 619,580, Braatz 7,234.'
-      n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf) (Preface; the declaration of
-        Nov. 29, 1962, signed by all five members). *Rolvaag v. Donovan*, [264 Minn. 257](https://static.case.law/minn/264/case-pdfs/0257-01.pdf), 119 N.W.2d 1 (1962) (the
-        order). Split under R17: the Court''s order is [[cal.1962-11-28.governors-mn-recount]]. See [[cal.1962-11-06.governors-mn]]; [[cal.1962-11-28.governors-mn-recount]].
-        Names: Andersen, Rolvaag.'
+      c: 'The State Canvassing Board, in final session pursuant to the Supreme Court''s order, counts the amended returns from ten counties and declares Andersen
+        elected Governor: Andersen 619,722, Rolvaag 619,580, Braatz 7,234.'
+      n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf) (Preface; the declaration
+        of Nov. 29, 1962, signed by all five members). *Rolvaag v. Donovan*, [264 Minn. 257](https://static.case.law/minn/264/case-pdfs/0257-01.pdf), 119 N.W.2d 1
+        (1962) (the order). See [[cal.1962-11-06.governors-mn]]; [[cal.1962-11-28.governors-mn-recount]]. Names: Andersen, Rolvaag.'
       tags:
       - state:mn
       - name:andersen-elmer-l
       - name:rolvaag-karl-f
+- edit:
+    id: cal.1962-11-26.governors-mn-recount
+    base: b72670d7
+    set:
+      time: 1962-11-26T20:00Z
+      time_zone: America/Chicago
+      n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface ("on November
+        26, 1962 at 2:00 P.M."). See [[cal.1962-11-06.governors-mn]].'
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- add:
+    entry:
+      id: cal.1962-11-20.governors-mn-recount
+      when: Nov. 20
+      date: '1962-11-20'
+      time: 1962-11-20T16:00Z
+      time_zone: America/Chicago
+      place: st-paul
+      thread: governors-mn-recount
+      c: Minnesota's State Canvassing Board meets at 10 a.m. in the Secretary of State's office; Hennepin County's report not yet in, it adjourns.
+      n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface. See [[cal.1962-11-06.governors-mn]].'
+      tags:
+      - state:mn
+- add:
+    entry:
+      id: cal.1962-11-23.governors-mn-recount
+      when: Nov. 23
+      date: '1962-11-23'
+      place: minnesota
+      thread: governors-mn-recount
+      c: The Canvassing Board meets again and signs and files its final report on every office it canvassed except Governor.
+      n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface. See [[cal.1962-11-20.governors-mn-recount]].'
+      tags:
+      - state:mn
+- add:
+    entry:
+      id: cal.1962-07-19.georgia-albany
+      when: July 19
+      date: '1962-07-19'
+      place: atlanta
+      thread: georgia-albany
+      c: Mayor Kelley and City Attorney Grady Rawls go secretly to Atlanta to consult Governor Vandiver on seeking a federal injunction against the mass marches.
+      n: '[[w.garrow-bearing-the-cross]], 205 (Thursday). See [[cal.1961-11-17.albany]]. Names: Vandiver.'
+      tags:
+      - name:vandiver-s-ernest-jr
+      - state:ga
+- add:
+    entry:
+      id: cal.1962-07-19.georgia-albany-2
+      when: July 19
+      date: '1962-07-19'
+      place: albany-ga
+      thread: georgia-albany
+      c: Seven Albany Movement "testers" arrested at a sit-in.
+      n: '[[w.garrow-bearing-the-cross]], 205 (Thursday). See [[cal.1961-11-17.albany]].'
+      tags:
+      - state:ga
+      - city:albany-ga
+- add:
+    entry:
+      id: cal.1962-07-19.georgia-albany-3
+      when: July 19
+      date: '1962-07-19'
+      time_range:
+      - 1962-07-19T23:00Z
+      - 1962-07-20T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      place: albany-ga
+      thread: georgia-albany
+      also:
+      - press-and-broadcasting
+      c: 'Evening. Anderson, the Albany Movement''s president, thirty minutes on local television in answer to Gray''s attack of two nights before: the movement "did
+        not begin through the instigation of any outside persons"; "our great desire is to establish new bridges of honest communication."'
+      n: '[[w.garrow-bearing-the-cross]], 205 ("On Thursday evening"). See [[cal.1962-07-18.georgia-albany]]. Names: Anderson.'
+      tags:
+      - name:anderson-william-g
+      - state:ga
+      - city:albany-ga
+- add:
+    entry:
+      id: cal.1962-07-20.georgia-albany-2
+      when: July 20
+      date: '1962-07-20'
+      time_range:
+      - 1962-07-20T10:00Z
+      - 1962-07-20T16:00Z
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+      place: albany-ga
+      thread: georgia-albany
+      c: Morning. City Manager Stephen Roos receives the movement's written notice of a march on Saturday from Shiloh church to City Hall for a one-hour prayer service.
+      n: '[[w.garrow-bearing-the-cross]], 205–06 ("on Friday morning"). See [[cal.1962-07-19.georgia-albany-2]].'
+      tags:
+      - state:ga
+      - city:albany-ga
+- add:
+    entry:
+      id: cal.1962-07-20.georgia-albany-3
+      when: By July 20
+      date: '1962-07-20'
+      place: columbus-ga
+      thread: georgia-albany
+      c: Mayor Kelley and City Attorney Rawls, unannounced, go on from Atlanta to Columbus and meet Judge Elliott at his home.
+      n: '[[w.garrow-bearing-the-cross]], 206. Check: the day: Garrow has the city commission learn of the trip on Friday. See [[cal.1962-07-19.georgia-albany]].
+        Names: Elliott.'
+      tags:
+      - name:elliott-j-robert
+      - state:ga
+- add:
+    entry:
+      id: cal.1962-07-20.georgia-albany-4
+      when: July 20
+      date: '1962-07-20'
+      place: albany-ga
+      thread: georgia-albany
+      follows:
+      - cal.1962-07-20.georgia-albany-2
+      c: The city commission, summoned on the movement's notice, learns of Kelley and Rawls's trip and votes unanimously to "express its deep concern" at Kelley's
+        failure to consult it.
+      n: '[[w.garrow-bearing-the-cross]], 206. See [[cal.1962-07-20.georgia-albany-3]].'
+      tags:
+      - state:ga
+      - city:albany-ga
+- add:
+    entry:
+      id: cal.1962-07-20.georgia-albany-5
+      when: July 20
+      date: '1962-07-20'
+      thread: georgia-albany
+      c: The mayor, the city manager and the chief of police file the city's complaint in the federal District Court, asking that the Albany Movement's leaders be
+        enjoined from sponsoring, financing, inciting or encouraging unlawful picketing, parading, marching or congregating.
+      n: '*Kelly v. Page*, [335 F.2d 114](https://static.case.law/f2d/335/case-pdfs/0114-01.pdf), 116 (5th Cir. 1964) ("by complaint filed July 20, 1962"). See [[cal.1962-07-20.georgia-albany-3]].'
+      tags:
+      - state:ga
+      - city:albany-ga
+- add:
+    entry:
+      id: cal.1962-07-20.georgia-albany-6
+      when: July 20
+      date: '1962-07-20'
+      time_range:
+      - 1962-07-20T16:00Z
+      - 1962-07-20T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: record
+      place: albany-ga
+      thread: georgia-albany
+      also:
+      - king
+      c: Late afternoon. King, back in Albany from Washington, tells reporters he will take part in Saturday's march and is willing to be arrested again.
+      n: '[[w.garrow-bearing-the-cross]], 206 ("late Friday afternoon"). See [[cal.1962-07-19.king]]. Names: Martin Luther King.'
+      tags:
+      - name:king-martin-luther-jr
+      - state:ga
+      - city:albany-ga
+- follows:
+    id: cal.1962-07-20.georgia-albany
+    add:
+    - cal.1962-07-20.georgia-albany-6
+    basis: '[[w.garrow-bearing-the-cross]], 206 ("That evening")'
+- add:
+    entry:
+      id: cal.1962-07-24.georgia-albany-3
+      when: July 24
+      date: '1962-07-24'
+      thread: georgia-albany
+      c: 'The Albany Movement''s leaders file two class actions in the federal District Court: one against the city''s interference with their rights of peaceful
+        assembly, protest and picketing; one against segregation in the city''s facilities.'
+      n: '*Kelly v. Page*, [335 F.2d 114](https://static.case.law/f2d/335/case-pdfs/0114-01.pdf), 116 (5th Cir. 1964). Check: the day: *Anderson v. City of Albany*,
+        [321 F.2d 649](https://static.case.law/f2d/321/case-pdfs/0649-01.pdf), 653 (5th Cir. 1963), has the suit filed July 25, 1962. See [[cal.1962-07-20.georgia-albany-5]].'
+      tags:
+      - state:ga
+      - city:albany-ga
