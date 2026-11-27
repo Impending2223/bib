@@ -1,10 +1,51 @@
 patch: notes-pass-13
-by: 'Claude (reader; the notes pass, batch 13: R33a, building on the entry from its cites)'
+by: 'Claude (reader; the notes pass, batch 13: R33a, building on the entry from its cites); audited by Claude (Opus), Nov. 27, 2026'
 ops:
+- edit:
+    id: cal.1964-03-19.transition-and-staff
+    base: 7f9a960c
+    set:
+      time: 1964-03-19T22:00Z
+      time_zone: America/New_York
+      place: washington
+      n: '[[w.caro-passage-of-power]], 592–94; [[w.robert-kennedy-in-his]], 413 (Salinger''s call to Robert Kennedy on the Thursday; the filing on Friday); [[w.white-making-of-the-president-1965]], 246 (Salinger''s decision; Moyers arranges the time with the President; Johnson counts out $450, the filing fee, in cash); [[w.johnson-white-house-diary]], 96 (Salinger tells Johnson in his office about 3 p.m. that he will resign to run for the Senate in California, and then tells the press; the diary has no lunch); [[w.salinger-with-kennedy]], 345–47 (the lawyer''s call at lunch; Salinger tells Jenkins and Moyers; Johnson sees him at 3:30; the letter of resignation at 5 and Johnson''s letter accepting it; Reedy named at once; Johnson gives him a filing fee in cash, Salinger saying $450 and Johnson hearing $250). Check: Robert Kennedy has Salinger call him on Thursday "to resign the next day" ([[w.robert-kennedy-in-his]], 413). To check: *Washington Evening Star*, Mar. 20, 1964; *Newsweek*, Mar. 30, 1964 (cited by [[w.caro-passage-of-power]], 592–93). Check: the White House''s announcement. Names: Salinger. The time is the letters, 5 p.m. by Salinger (346); Johnson saw him at 3:30, an entry of its own.'
+    unset:
+    - time_range
+    - time_band
+- edit:
+    id: cal.1964-04-28.civil-rights-bill
+    base: 3e26184f
+    set:
+      time_range:
+      - 1964-04-28T23:00Z
+      - 1964-04-29T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+- edit:
+    id: cal.1964-05-12.goldwater
+    base: aad4cec6
+    set:
+      time_range:
+      - 1964-05-12T23:00Z
+      - 1964-05-13T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+- edit:
+    id: cal.1964-08.elections-1964-4
+    base: 5e95f167
+    set:
+      time_range:
+      - 1964-08-01T23:00Z
+      - 1964-08-02T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
 - add-words:
     id: cal.1964-03-16.poverty
     after: end
-    words: 'Bernstein: the budget is $962.5 million, $412.5 million for the youth programs, $315 million for community action, $235 million for the other titles. The message: the war on poverty "a struggle to give people a chance."'
+    words: 'Bernstein: of the $962.5 million budgeted, $412.5 million for the youth programs, $315 million for community action, $235 million for the other titles. The message: the war on poverty is "a struggle to give people a chance."'
     item: '[[w.bernstein-guns-or-butter]], 102–3'
 - names:
     id: cal.1964-03-16.poverty
@@ -14,7 +55,7 @@ ops:
 - add-words:
     id: cal.1964-03-18.goldwater
     after: end
-    words: His memorandum to Goldwater and Kitchel asks that "clear-cut lines of authority and responsibility be established" for the delegate hunt.
+    words: His two-page memorandum to Goldwater and Kitchel asks that "clear-cut lines of authority and responsibility be established" in the quest for delegates.
     item: '[[w.white-suite-3505]], 302'
 - names:
     id: cal.1964-03-18.goldwater
@@ -24,7 +65,7 @@ ops:
 - add-words:
     id: cal.1964-03-19.transition-and-staff
     after: end
-    words: Moyers buzzes Johnson; Johnson sees Salinger at 3:30 p.m. Salinger hands in his letter at 5 p.m. and Johnson gives him his letter of acceptance. Asked the California filing fee, Salinger says $450; Johnson, hearing $250, hands him that in cash, by Salinger's account.
+    words: Salinger gives Johnson his letter of resignation at 5 p.m. and is handed Johnson's letter accepting it. Asked the California filing fee, Salinger says $450; Johnson, hearing $250, gives him $250 in cash, by Salinger's account.
     item: '[[w.salinger-with-kennedy]], 346–47'
 - check:
     id: cal.1964-03-19.transition-and-staff
@@ -33,10 +74,8 @@ ops:
     id: cal.1964-03-19.transition-and-staff
     add:
     - Johnson
-    - Moyers
     tags:
     - name:johnson-lyndon-b
-    - name:moyers-bill
 - names:
     id: cal.1964-03-19.transition-and-staff
     add: []
@@ -80,13 +119,8 @@ ops:
 - add-words:
     id: cal.1964-04-07.elections-1964
     after: end
-    words: Reynolds had said before the vote that even 100,000 for Wallace would be a disaster; the Democratic party puts the vote down to Republicans crossing over.
-    item: '[[w.risen-bill-of-the-century]], 197'
-- add-words:
-    id: cal.1964-04-07.elections-1964
-    after: end
-    words: Goldwater is kept out of the Republican primary by agreement; Byrnes runs as a favorite son, and he and Laird persuade Rockefeller to stay out.
-    item: '[[w.white-suite-3505]], 304–05'
+    words: 'By agreement Goldwater stays out of the Republican primary: Byrnes runs as a favorite son, and he and Laird prevail on Rockefeller to stay out, White says.'
+    item: '[[w.white-suite-3505]], 305'
 - names:
     id: cal.1964-04-07.elections-1964
     add:
@@ -105,8 +139,8 @@ ops:
 - add-words:
     id: cal.1964-04-14.elections-1964
     after: end
-    words: 'Write-ins on the Republican side: Lodge 68,122, Nixon 30,313, Rockefeller 2,048, Scranton 1,842. Goldwater''s vote is 49.1 percent of the Republican vote cast. Of the forty-eight delegates elected, at least thirty-three are committed to him.'
-    item: '[[w.novak-agony-of-the-g]], 362–64'
+    words: 'Write-ins on the Republican side: Lodge 68,122, Nixon 30,313, Rockefeller 2,048, Scranton 1,842. By Novak''s count from the canvass, Goldwater''s vote is about 49.1 percent of the Republican vote in the primary. Of the forty-eight delegates elected, at least thirty-three are committed to him.'
+    item: '[[w.novak-agony-of-the-g]], 363–64'
 - names:
     id: cal.1964-04-14.elections-1964
     add:
@@ -127,8 +161,16 @@ ops:
 - add-words:
     id: cal.1964-04-21.civil-rights-bill
     after: end
-    words: 'Talmadge: a jury trial is "a sacred privilege of personal liberty." Robertson: the Senate can look forward to "a considerable elucidation." The 1957 act allowed nonjury trials in voting cases, with punishment to $300 or forty-five days.'
+    words: 'Talmadge: the right of trial by jury "a sacred privilege of personal liberty."'
+    item: '[[w.whalen-longest-debate]], 167'
+- add-words:
+    id: cal.1964-04-21.civil-rights-bill
+    after: end
+    words: 'Asked whether he will press for a vote that day, Talmadge says no; Robertson: the Senate can look forward to "a considerable elucidation."'
     item: '[[w.purdum-idea-whose-time-has-2014]], 266'
+- check:
+    id: cal.1964-04-21.civil-rights-bill
+    text: 'Check: Purdum, 266, has the Senate pass its previous thirty-seven-day record for a civil rights filibuster that day; Whalen, 166, has the Southerners near "the 37-day record" on Apr. 20.'
 - names:
     id: cal.1964-04-21.civil-rights-bill
     add:
@@ -143,7 +185,7 @@ ops:
 - add-words:
     id: cal.1964-04-28.civil-rights-bill
     after: end
-    words: Humphrey, Kuchel, Javits and Keating speak, with Archbishop Shehan, Rabbi Miller and Eugene Carson Blake, in McDonough Gymnasium and Gaston Hall that evening.
+    words: That evening Humphrey, Kuchel, Javits and Keating speak, with Archbishop Shehan, Rabbi Miller and Eugene Carson Blake, in McDonough Gymnasium, the crowd overflowing into Gaston Hall.
     item: '[[w.bernstein-guns-or-butter]], 69'
 - names:
     id: cal.1964-04-28.civil-rights-bill
@@ -189,7 +231,7 @@ ops:
     id: cal.1964-05-02.elections-1964
     after: end
     words: 'On the ballot also: Rockefeller 6,000, Smith 5,000, Stassen 5,000; Nixon has 5,000 write-ins.'
-    item: '[[w.novak-agony-of-the-g]], 366 & n.12'
+    item: '[[w.novak-agony-of-the-g]], 366'
 - add-words:
     id: cal.1964-05-02.elections-1964
     after: end
@@ -216,7 +258,7 @@ ops:
     id: cal.1964-05-05.elections-1964
     after: end
     words: 'Indiana, Republican: Goldwater 260,000, Stassen 104,000.'
-    item: '[[w.novak-agony-of-the-g]], 367 & n.13'
+    item: '[[w.novak-agony-of-the-g]], 367'
 - add-words:
     id: cal.1964-05-05.elections-1964
     after: end
@@ -238,18 +280,16 @@ ops:
 - add-words:
     id: cal.1964-05-06.civil-rights-bill
     after: end
-    words: 'Purdum: Dirksen moves to table the motion to reconsider and loses, 44–47; Moss, who missed the first vote, votes against tabling. Larry O''Brien: the day "shook hell out of them." John Stewart''s diary: it would be "a minor miracle" if the pro-civil-rights forces get back in order.'
-    item: '[[w.purdum-idea-whose-time-has-2014]], 278–79'
+    words: Dirksen's motion to table the motion to reconsider fails, 44–47, Moss, who had missed the first vote, voting against it; the motion to reconsider carries, 46–45.
+    item: '[[w.purdum-idea-whose-time-has-2014]], 278'
 - names:
     id: cal.1964-05-06.civil-rights-bill
     add:
     - Dirksen
     - Moss
-    - Lawrence O'Brien
     tags:
     - name:dirksen-everett
     - name:moss-frank-e
-    - name:obrien-lawrence-f
 - names:
     id: cal.1964-05-06.civil-rights-bill
     add: []
@@ -258,12 +298,12 @@ ops:
 - add-words:
     id: cal.1964-05-12.goldwater
     after: end
-    words: Knowland chairs the rally; over 18,000 fill the Garden, seats $2 to $10.
+    words: That night Knowland chairs the rally; a sellout crowd of more than 18,000, seats at $2, $5 and $10, sponsors' at $100.
     item: '[[w.white-suite-3505]], 339–40'
 - add-words:
     id: cal.1964-05-12.goldwater
     after: end
-    words: Goldwater calls for "Immediate and serious study" of turning federal programs over to the States or local governments.
+    words: Goldwater calls for "Immediate and serious study" of turning federal programs over to the States or local government.
     item: '[[w.goldberg-barry-goldwater]], 188'
 - names:
     id: cal.1964-05-12.goldwater
@@ -297,8 +337,13 @@ ops:
 - add-words:
     id: cal.1964-05-26.civil-rights-bill
     after: end
-    words: 'The 74-page text is called the "Dirksen substitute"; Dirksen: "we have at long last fashioned what we think is a workable bill." A Title VII clause bars preferential treatment or quotas for racial imbalance. Mansfield hopes cloture will be tried before long. Humphrey: a "practical, commonsense approach." Russell: the bill is "purely a sectional bill."'
+    words: 'The 74-page text is called the "Dirksen substitute"; Dirksen: "we have at long last fashioned what we think is a workable bill." Russell: it "stands as purely a sectional bill."'
     item: '[[w.whalen-longest-debate]], 188–89'
+- add-words:
+    id: cal.1964-05-26.civil-rights-bill
+    after: end
+    words: 'A Title VII clause bars preferential treatment or quotas for racial imbalance. Mansfield hopes cloture will be tried before long. Humphrey: a "practical, commonsense approach."'
+    item: '[[w.purdum-idea-whose-time-has-2014]], 293–94'
 - names:
     id: cal.1964-05-26.civil-rights-bill
     add:
@@ -313,16 +358,8 @@ ops:
 - add-words:
     id: cal.1964-05-26.elections-1964-2
     after: end
-    words: 'The letter reaches Washington the next day; Kitchel telephones it to Burch in Los Angeles. Scranton: "My one overriding interest is for unity within the Republican Party."'
+    words: 'Scranton: "My one overriding interest is for unity within the Republican Party."'
     item: '[[w.novak-agony-of-the-g]], 410'
-- names:
-    id: cal.1964-05-26.elections-1964-2
-    add:
-    - Kitchel
-    - Burch
-    tags:
-    - name:kitchel-denison
-    - name:burch-dean
 - names:
     id: cal.1964-05-26.elections-1964-2
     add: []
@@ -353,13 +390,8 @@ ops:
 - add-words:
     id: cal.1964-06-05.elections-1964-state-conventions
     after: end
-    words: Luke Williams's organization, which had swamped the Liberal opponents in the precincts for more than a year, delivers the delegation.
+    words: The delegates are the work of Luke Williams and his "amateurs," who had swamped their Liberal opponents in the precincts for more than a year, White says.
     item: '[[w.white-suite-3505]], 354'
-- add-words:
-    id: cal.1964-06-05.elections-1964-state-conventions
-    after: end
-    words: Williams's people control 65 percent of the State's 5,500 precincts by the end of 1963.
-    item: '[[w.white-making-of-the-president-1965]], 133–34'
 - names:
     id: cal.1964-06-05.elections-1964-state-conventions
     add: []
@@ -386,21 +418,14 @@ ops:
 - add-words:
     id: cal.1964-06-07.states-and-cities-us
     after: end
-    words: Goldwater, whose invitation Fannin and Rhodes arranged June 5, comes for Eisenhower's speech at the Monday-night banquet and refuses Scranton's suggestion that he face the governors Tuesday morning.
-    item: '[[w.novak-agony-of-the-g]], 432–33 & n.11'
-- add-words:
-    id: cal.1964-06-07.states-and-cities-us
-    after: end
-    words: 'Hess: an "attempted power play" by the Governors against Goldwater''s nomination collapses.'
-    item: '[[w.hess-republican-establishment]], 31–32'
+    words: Goldwater comes for Eisenhower's speech at the Monday-night banquet and rejects Scranton's suggestion that he face the governors Tuesday morning.
+    item: '[[w.novak-agony-of-the-g]], 432–33'
 - names:
     id: cal.1964-06-07.states-and-cities-us
     add:
     - Goldwater
-    - Fannin
     tags:
     - name:goldwater-barry-m
-    - name:fannin-paul-j
 - names:
     id: cal.1964-06-07.states-and-cities-us
     add: []
@@ -409,8 +434,8 @@ ops:
 - add-words:
     id: cal.1964-06-12.elections-1964
     after: end
-    words: He flies in John Hay Whitney's plane. That weekend the AP counts 604 sure delegates for Goldwater.
-    item: '[[w.white-making-of-the-president-1965]], 156–57'
+    words: He flies in John Hay Whitney's plane.
+    item: '[[w.white-making-of-the-president-1965]], 156'
 - add-words:
     id: cal.1964-06-12.elections-1964
     after: end
@@ -420,10 +445,8 @@ ops:
     id: cal.1964-06-12.elections-1964
     add:
     - Whitney
-    - Goldwater
     tags:
     - name:whitney-john-h
-    - name:goldwater-barry-m
 - names:
     id: cal.1964-06-12.elections-1964
     add: []
@@ -432,8 +455,13 @@ ops:
 - add-words:
     id: cal.1964-06-18.civil-rights-bill-2
     after: end
-    words: 'Russell, with nineteen of his sixty minutes left: "the moving finger is writing the final act of the longest debate." Asked whether Humphrey was given extra time on June 17, Kennedy says he was charged nine minutes. Kuchel, for the Republican leadership: the bill "will be an American achievement."'
+    words: 'Russell, with nineteen of his sixty minutes left: "the moving finger is writing the final act of the longest debate." Kuchel, for the Republican leadership: the bill "will be an American achievement."'
     item: '[[w.purdum-idea-whose-time-has-2014]], 307–08'
+- add-words:
+    id: cal.1964-06-18.civil-rights-bill-2
+    after: end
+    words: 'Russell asks whether Humphrey was given extra time on June 17; Kennedy: he was charged nine minutes.'
+    item: '[[w.risen-bill-of-the-century]], 235'
 - names:
     id: cal.1964-06-18.civil-rights-bill-2
     add:
@@ -450,7 +478,7 @@ ops:
 - add-words:
     id: cal.1964-06-19.civil-rights-bill-5
     after: end
-    words: He tells Reston of "a wonderful sense of relief and quiet joy." After a dinner with John Stewart he goes home to rest before flying to Minneapolis, to his son.
+    words: He tells Reston of "a wonderful sense of relief and quiet joy."
     item: '[[w.risen-bill-of-the-century]], 237'
 - names:
     id: cal.1964-06-19.civil-rights-bill-5
@@ -466,34 +494,13 @@ ops:
 - add-words:
     id: cal.1964-07.civil-rights-bill
     after: end
-    words: 'Talmadge: "there is no alternative but compliance." Russell: it "becomes our duty as good citizens to learn to live with it." Fulbright: differences "must be subordinated to law."'
-    item: '[[w.risen-bill-of-the-century]], 246 & n.20'
-- names:
-    id: cal.1964-07.civil-rights-bill
-    add:
-    - Talmadge
-    - Fulbright
-    tags:
-    - name:talmadge-herman-e
-    - name:fulbright-j-william
+    words: 'Russell, by Risen: it "becomes our duty as good citizens to learn to live with it."'
+    item: '[[w.risen-bill-of-the-century]], 246'
 - names:
     id: cal.1964-07.civil-rights-bill
     add: []
     tags:
     - ok:note-substance
-- add-words:
-    id: cal.1964-07-09.elections-1964
-    after: end
-    words: 'Kitchel: "The Scranton mine caved in."'
-    item: '[[w.goldberg-barry-goldwater]], 200'
-- names:
-    id: cal.1964-07-09.elections-1964
-    add:
-    - Kitchel
-    - Scranton
-    tags:
-    - name:kitchel-denison
-    - name:scranton-william-w
 - names:
     id: cal.1964-07-09.elections-1964
     add: []
@@ -502,22 +509,8 @@ ops:
 - add-words:
     id: cal.1964-07-16.elections-1964-johnson
     after: end
-    words: 'Schlesinger''s journal, from Galbraith: summoned to Washington by Johnson, he has three hours with him the evening before and an hour this morning. In the two meetings Johnson goes through eighteen vice-presidential possibilities and narrows them to six: Humphrey, Kennedy, McNamara, Stevenson, McCarthy, Shriver. He complains of the coldness of the Kennedy people.'
-    item: '[[w.schlesinger-journals]], 228–29'
-- names:
-    id: cal.1964-07-16.elections-1964-johnson
-    add:
-    - McNamara
-    - Stevenson
-    - McCarthy
-    - Shriver
-    - Robert Kennedy
-    tags:
-    - name:mcnamara-robert-s
-    - name:stevenson-adlai-e
-    - name:mccarthy-eugene-j
-    - name:shriver-r-sargent
-    - name:kennedy-robert-f
+    words: 'Schlesinger''s journal, from Galbraith: another hour with Johnson this morning, after three hours the evening before.'
+    item: '[[w.schlesinger-journals]], 228'
 - names:
     id: cal.1964-07-16.elections-1964-johnson
     add: []
@@ -526,7 +519,7 @@ ops:
 - add-words:
     id: cal.1964-07-26.vietnam-congress
     after: end
-    words: 'Lady Bird Johnson''s diary: the Restons, Phyllis and Douglas Dillon and Russell are at the Fulbrights''. Reston, back from the Republican convention, sums it up: "Just one thing. Work like Hell." She and Fulbright talk of his *Old Myths and New Realities*, De Gaulle, China and exchanges with the Iron Curtain countries; no talk of Vietnam is reported.'
+    words: 'Lady Bird Johnson''s diary: the Restons, Phyllis and Douglas Dillon and Russell are at the Fulbrights''. Reston, back from the Republican convention, sums it up: "Just one thing. Work like Hell." She and Fulbright talk of his *Old Myths and New Realities*, De Gaulle, China and exchanges with the Iron Curtain countries.'
     item: '[[w.johnson-white-house-diary]], 185–86'
 - names:
     id: cal.1964-07-26.vietnam-congress
@@ -568,8 +561,13 @@ ops:
 - add-words:
     id: cal.1964-08-07.poverty
     after: end
-    words: 'In Speaker McCormack''s office, Cooley and the Carolinians demand it, and Landrum is there; Rivers, in a prearranged move, says the South Carolina Democrats will also vote no; Boggs vouches for Yarmolinsky. McCormack takes Shriver into a side room to call Johnson, who tells him to let the Carolinians know Yarmolinsky will not be appointed. Shriver afterward: "We''ve just thrown you to the wolves."'
+    words: 'In Speaker McCormack''s office Cooley repeats the demand; Rivers, in a prearranged move, says the South Carolina Democrats will also vote no; Boggs vouches for Yarmolinsky. McCormack takes Shriver into a side room to call Johnson, who tells him to let the Carolinians know Yarmolinsky will not be appointed. Shriver afterward: "We''ve just thrown you to the wolves."'
     item: '[[w.zelizer-fierce-urgency-of-now]], 144–45'
+- add-words:
+    id: cal.1964-08-07.poverty
+    after: end
+    words: By Evans and Novak, the whips and Landrum are there.
+    item: '[[w.bernstein-guns-or-butter]], 110'
 - names:
     id: cal.1964-08-07.poverty
     add:
@@ -590,15 +588,13 @@ ops:
 - add-words:
     id: cal.1964-08-25.elections-1964-3
     after: end
-    words: 'Johnson, from the White House, tells Jenkins in Atlantic City, "Get Humphrey and tell him," then: "let Jim do it." Rowe takes forty-five minutes to find Humphrey, in a meeting with Reuther, and tells him: "You''re it." Jenkins calls twice: fog, then no flight until the morning.'
-    item: '[[w.solberg-hubert-humphrey]], 246, 254'
+    words: 'Rowe takes forty-five minutes to find Humphrey, in a meeting with Reuther, and tells him: "You''re it."'
+    item: '[[w.solberg-hubert-humphrey]], 246'
 - names:
     id: cal.1964-08-25.elections-1964-3
     add:
-    - Walter Jenkins
     - Walter Reuther
     tags:
-    - name:jenkins-walter-w
     - name:reuther-walter
 - names:
     id: cal.1964-08-25.elections-1964-3
@@ -641,3 +637,222 @@ ops:
     add: []
     tags:
     - ok:note-substance
+- add:
+    entry:
+      id: cal.1964-03-19.transition-and-staff-4
+      when: Mar. 19
+      date: '1964-03-19'
+      time: 1964-03-19T20:30Z
+      time_zone: America/New_York
+      place: washington
+      thread: transition-and-staff
+      c: 'The White House, 3:30 p.m. Johnson sees Salinger, Moyers having arranged the time: Salinger will resign to run for the Senate in California. Johnson: "Remember, I did the same thing myself once"; he tells him to draft a letter of resignation and will write one accepting it.'
+      n: '[[w.salinger-with-kennedy]], 346 (Salinger''s account: "The President sent for me at 3:30 P.M."); [[w.white-making-of-the-president-1965]], 246 (Moyers arranges the time). Check: the hour against Mrs. Johnson''s diary, 96, not read here. See [[cal.1964-03-19.transition-and-staff]]. Names: Johnson, Salinger, Moyers.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:salinger-pierre
+      - name:moyers-bill
+- add:
+    entry:
+      id: cal.1964-04.elections-1964-primaries-3
+      when: Apr., before the 7th
+      date: 1964-04
+      at: before 1964-04-07
+      place: wisconsin
+      thread: elections-1964-primaries
+      c: 'Governor Reynolds of Wisconsin, before the primary: even 100,000 votes for Wallace would be a disaster.'
+      n: '[[w.risen-bill-of-the-century]], 197. Check: the day. Names: John Reynolds, Wallace.'
+      tags:
+      - name:reynolds-john-w-jr
+      - name:wallace-george-c
+- add:
+    entry:
+      id: cal.1964-04-08.elections-1964-primaries
+      when: Apr. 8
+      date: '1964-04-08'
+      thread: elections-1964-primaries
+      also:
+      - democratic-party
+      c: 'The national Democratic party, after Wallace''s third of the Wisconsin vote, some 266,000: Republicans crossed over to skew the result.'
+      n: '[[w.risen-bill-of-the-century]], 197 ("immediately"). Check: the day. See [[cal.1964-04-07.elections-1964]]. Names: Wallace.'
+      tags:
+      - name:wallace-george-c
+- add:
+    entry:
+      id: cal.1964-05-14.baker-2
+      when: May 14
+      date: '1964-05-14'
+      time: 1964-05-15T00:38Z
+      time_zone: America/New_York
+      thread: baker
+      c: 'Johnson to Mansfield by telephone, 8:38 p.m., just off the plane and reading the ticker: "Sorry you had all that difficulty today, but I''m awfully grateful to you." Mansfield: "it had to be done." Johnson on Williams: "a mean vicious man."'
+      n: '[Johnson and Mike Mansfield, 8:38 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mike-mansfield-may-15-1964), Conversation WH6405-07-3457 (Miller Center; catalogued May 14, 20:38). [[w.taking-charge]], 356–57. Made public: the recordings, opened by the LBJ Library. Check the year. See [[cal.1964-05-14.baker]]. Names: Johnson, Mansfield, Williams.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:mansfield-mike
+      - name:williams-john-j
+      follows:
+      - cal.1964-05-14.baker
+- add:
+    entry:
+      id: cal.1964-05-27.elections-1964-primaries
+      when: May 27
+      date: '1964-05-27'
+      place:
+      - washington
+      - los-angeles
+      thread: elections-1964-primaries
+      also:
+      - goldwater
+      c: Scranton's letter of May 26 reaches Goldwater's headquarters in Washington; Kitchel telephones it to Burch in Los Angeles.
+      n: '[[w.novak-agony-of-the-g]], 410. See [[cal.1964-05-26.elections-1964-2]]. Names: Scranton, Kitchel, Burch.'
+      tags:
+      - name:scranton-william-w
+      - name:kitchel-denison
+      - name:burch-dean
+- add:
+    entry:
+      id: cal.1964-05-28.elections-1964-primaries
+      when: May 28
+      date: '1964-05-28'
+      thread: elections-1964-primaries
+      c: 'Rockefeller to reporters, of the moderates who have disowned his pamphlet: "They are all ambitious and hoping lightning will strike. What other position could they take?"'
+      n: '[[w.novak-agony-of-the-g]], 410 n.16. See [[cal.1964-05.elections-1964-2]]. Names: Rockefeller.'
+      tags:
+      - name:rockefeller-nelson
+- add:
+    entry:
+      id: cal.1964-05.elections-1964-primaries-10
+      when: May, late
+      date: 1964-05
+      at: before 1964-05-21
+      thread: elections-1964-primaries
+      c: Nixon's mother, Hannah Nixon, accepts an invitation to a Goldwater rally in California just before the primary; Nixon has her flown to New York for a vacation with him.
+      n: '[[w.novak-agony-of-the-g]], 410 n.15. Check: the day. Names: Nixon.'
+      tags:
+      - name:nixon-richard-m
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-06-05.goldwater
+      when: June 5
+      date: '1964-06-05'
+      thread: goldwater
+      also:
+      - states-and-cities
+      c: Fannin arranges with Rhodes, the host governor, Goldwater's invitation to the Governors' Conference at Cleveland; Goldwater, unwilling, is persuaded by his aides once it is announced.
+      n: '[[w.novak-agony-of-the-g]], 433 n.11. See [[cal.1964-06-07.states-and-cities-us]]. Names: Fannin, Rhodes, Goldwater.'
+      tags:
+      - name:fannin-paul-j
+      - name:rhodes-james-a
+      - name:goldwater-barry-m
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-06-13.goldwater
+      when: June 13–14
+      date: '1964-06-13'
+      thread: goldwater
+      also:
+      - elections-1964-scranton
+      c: The Associated Press counts 604 sure delegates for Goldwater, the weekend of Scranton's announcement.
+      n: '[[w.white-making-of-the-president-1965]], 157. Check: the day. See [[cal.1964-06-12.elections-1964]]. Names: Goldwater.'
+      tags:
+      - name:goldwater-barry-m
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-07.civil-rights-bill-2
+      when: July, by the 10th
+      date: 1964-07
+      at: before 1964-07-10
+      thread: civil-rights-bill
+      c: 'Talmadge to Georgians on the Civil Rights Act: "there is no alternative but compliance."'
+      n: '[[w.risen-bill-of-the-century]], 246 (by n.20, *Congressional Quarterly Weekly Report*, July 10, 1964). Check: the day. To check: *Congressional Quarterly Weekly Report*, July 10, 1964, 1454 (cited by [[w.risen-bill-of-the-century]], 246 n.20). See [[cal.1964-07.civil-rights-bill]]. Names: Talmadge.'
+      tags:
+      - name:talmadge-herman-e
+- add:
+    entry:
+      id: cal.1964-07-08.civil-rights-bill
+      when: July 8
+      date: '1964-07-08'
+      thread: civil-rights-bill
+      c: 'Fulbright, in a press release on the Civil Rights Act: "Differences of opinion—no matter how deeply felt—must be subordinated to law and resolved in accord with it."'
+      n: '[[w.risen-bill-of-the-century]], 246, 246 n.20 (the release of July 8). To check: Fulbright, press release, July 8, 1964, box 110, part 1, Leadership Conference on Civil Rights Records, Library of Congress (cited by [[w.risen-bill-of-the-century]], 246 n.20). See [[cal.1964-07.civil-rights-bill]]. Names: Fulbright.'
+      tags:
+      - name:fulbright-j-william
+- add:
+    entry:
+      id: cal.1964-07-12.elections-1964-san-francisco
+      when: July 12
+      date: '1964-07-12'
+      thread: elections-1964-san-francisco
+      c: 'Kitchel counts Scranton out on the eve of the convention: "The Scranton mine caved in. Flooding at one end of the shaft, it was now burning at the other."'
+      n: '[[w.goldberg-barry-goldwater]], 200. Check: the day ("on the eve of the San Francisco convention"). See [[cal.1964-07-09.elections-1964]]. Names: Kitchel, Scranton.'
+      tags:
+      - name:kitchel-denison
+      - name:scranton-william-w
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-07-15.elections-1964-johnson-2
+      when: July 15
+      date: '1964-07-15'
+      place: washington
+      thread: elections-1964-johnson
+      also:
+      - elections-1964-vice-presidency
+      time_range:
+      - 1964-07-15T23:00Z
+      - 1964-07-16T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      c: 'Galbraith, summoned to Washington by Johnson, three hours with him that evening, by Schlesinger''s journal, from Galbraith. Johnson goes through some eighteen vice-presidential possibilities and narrows them to six: Humphrey, Kennedy, McNamara, Stevenson, McCarthy, Shriver; McNamara with great admiration, Humphrey with warmth. He complains of the coldness of the Kennedy people.'
+      n: '[[w.schlesinger-journals]], 228–29 ("three hours with him that evening and another hour the next morning"; the journal of July 23). Check: the journal does not say at which of the two meetings Johnson went through the list. See [[cal.1964-07-16.elections-1964-johnson]]. Names: Galbraith, Johnson, Humphrey, Robert Kennedy, McNamara, Stevenson, McCarthy, Shriver.'
+      tags:
+      - name:galbraith-john-kenneth
+      - name:johnson-lyndon-b
+      - name:humphrey-hubert-h
+      - name:kennedy-robert-f
+      - name:mcnamara-robert-s
+      - name:stevenson-adlai-e
+      - name:mccarthy-eugene-j
+      - name:shriver-r-sargent
+- add:
+    entry:
+      id: cal.1964-08-25.elections-1964-vice-presidency-5
+      when: Aug. 25
+      date: '1964-08-25'
+      place:
+      - washington
+      - atlantic-city
+      thread: elections-1964-vice-presidency
+      c: 'Johnson, from the White House, to Jenkins in Atlantic City: "Get Humphrey and tell him"; then: "No, let Jim do it." Rowe to find the interview in that day''s *Star*: "That says it."'
+      n: '[[w.solberg-hubert-humphrey]], 246. Check: whether this is the call of 5:46 p.m. ([[cal.1964-08-25.elections-1964-vice-presidency-2]]). See [[cal.1964-08-25.elections-1964-4]]. Names: Johnson, Walter Jenkins, Humphrey, Rowe.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:jenkins-walter-w
+      - name:humphrey-hubert-h
+      - name:rowe-james-h-jr
+- add:
+    entry:
+      id: cal.1964-08-25.elections-1964-vice-presidency-6
+      when: Aug. 25
+      date: '1964-08-25'
+      place: atlantic-city
+      thread: elections-1964-vice-presidency
+      time_range:
+      - 1964-08-25T23:00Z
+      - 1964-08-26T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      c: 'Atlantic City, Rowe''s room. Jenkins telephones Humphrey twice: "You can''t land a plane in Washington; there''s too much fog"; then, "You can''t go until tomorrow." Humphrey, sworn to secrecy, is let tell Muriel.'
+      n: '[[w.solberg-hubert-humphrey]], 254 (after they had ordered something to eat). See [[cal.1964-08-25.elections-1964-3]]. Names: Walter Jenkins, Humphrey, Rowe.'
+      tags:
+      - name:jenkins-walter-w
+      - name:humphrey-hubert-h
+      - name:rowe-james-h-jr
+      follows:
+      - cal.1964-08-25.elections-1964-3
