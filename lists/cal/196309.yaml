@@ -1553,10 +1553,10 @@ entries:
     place: washington
     thread: vietnam
     also: [press-and-broadcasting]
-    c: 'Huntley and Brinkley, for NBC''s first half-hour news.{1} The domino theory: "I believe it."{2} A cut in aid to Saigon not "helpful at this time."{3} The President alone, the night the network''s evening news goes from fifteen minutes to thirty.{4}'
-    n: 'Transcript of Broadcast on NBC''s "Huntley-Brinkley Report.", [1963 Pub. Papers 658](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716) (Sept. 9, 1963). Kennedy, interview with Chet Huntley and David Brinkley (Viet. II.J). [[w.gibbons-u-s-government-and]], II, 163 (the interview with Huntley; the domino theory); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 288 (the interview; the domino principle); [[w.mcnamara-in-retrospect]], ch. 3 at n.19. [[w.reeves-president-kennedy]], 592–93; [[w.selverstone-kennedy-withdrawal]], 147–48, 152 (Huntley and Brinkley, Sept. 9: the domino image affirmed three times; aid cuts "would not be helpful at this time"); [[w.mann-grand-delusion]], 290–91 (Kennedy to Huntley and Brinkley of NBC, Sept. 9: the domino theory, "I believe it"; on cutting aid, "it is possible you could have some effect upon the government structure there" but "you might have a situation which could bring about a collapse"; not the first half-hour newscast or "helpful at this time"); [[w.salinger-with-kennedy]], 114 (the exclusive for NBC''s Huntley-Brinkley show when it went to thirty minutes, cut to fit, Kennedy insisting on the White House''s final approval of what was shown, and NBC agreeing; not the words). [[w.sorensen-kennedy]], 658 (the interview). [[w.branch-parting-the-waters]], 888 (the first half-hour news). To check: [[w.watson-expanding-vista]]; Manchester, *The Glory and the Dream*, 1228; *Newsweek*, Sept. 23, 1963, at 62–65 (cited by [[w.branch-parting-the-waters]], 888 n.3). See [[cal.1963-09-02.vietnam]]. Names: Huntley, Brinkley, Kennedy.'
+    c: 'Huntley and Brinkley, for NBC''s first half-hour news.{1} The domino theory: "I believe it."{2} A cut in aid to Saigon not "helpful at this time."{3}'
+    n: 'Transcript of Broadcast on NBC''s "Huntley-Brinkley Report.", [1963 Pub. Papers 658](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716) (Sept. 9, 1963). Kennedy, interview with Chet Huntley and David Brinkley (Viet. II.J). [[w.gibbons-u-s-government-and]], II, 163 (the interview with Huntley; the domino theory); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 288 (the interview; the domino principle); [[w.mcnamara-in-retrospect]], ch. 3 at n.19. [[w.reeves-president-kennedy]], 592–93; [[w.selverstone-kennedy-withdrawal]], 147–48, 152 (Huntley and Brinkley, Sept. 9: the domino image affirmed three times; aid cuts "would not be helpful at this time"); [[w.mann-grand-delusion]], 290–91 (Kennedy to Huntley and Brinkley of NBC, Sept. 9: the domino theory, "I believe it"; on cutting aid, "it is possible you could have some effect upon the government structure there" but "you might have a situation which could bring about a collapse"; not the first half-hour newscast or "helpful at this time"); [[w.salinger-with-kennedy]], 114 (the exclusive for NBC''s Huntley-Brinkley show when it went to thirty minutes, cut to fit, Kennedy insisting on the White House''s final approval of what was shown, and NBC agreeing; not the words). [[w.sorensen-kennedy]], 658 (the interview). The interview was taped in his office on the morning of Sept. 9, the broadcast that evening (the Papers'' note, 661). To check: [[w.watson-expanding-vista]]. See [[cal.1963-09-02.vietnam]]. Names: Huntley, Brinkley, Kennedy.'
     src:
-      c: 7493e13b
+      c: 173f2eea
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716: 1, 2, 3'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 288: 1, 2'
@@ -1567,13 +1567,16 @@ entries:
         - 'w.sorensen-kennedy 658: 1'
         - 'w.mcnamara-in-retrospect ch. 3 at n.19: 1, 2'
         - 'via x.1963-09-09.transcript-of-broadcast-on-nbcs-huntley: 1, 2'
-        - 'w.branch-parting-the-waters 888: 4'
-        - 'via w.branch-parting-the-waters 888 n.3b: 4'
         - 'w.selverstone-kennedy-withdrawal 147–48, 152: 1, 2, 3'
         - 'w.mann-grand-delusion 290–91: 2'
         - 'w.salinger-with-kennedy 114: 1'
     tags: [name:kennedy-john-f, name:huntley-chet, name:brinkley-david]
     aliases: [cal.1963-09-09.press-and-broadcasting]
+    time_range:
+      - 1963-09-09T10:00Z
+      - 1963-09-09T16:00Z
+    time_band: morning
+    time_zone: America/New_York
   - id: cal.1963-09-09.alabama
     when: Sept. 9–10
     date: '1963-09-09'
@@ -1814,6 +1817,21 @@ entries:
       - 1963-09-09T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1963-09-09.press-and-broadcasting-2
+    when: Sept. 9
+    date: '1963-09-09'
+    thread: press-and-broadcasting
+    also: [vietnam]
+    follows:
+      - cal.1963-09-09.vietnam
+    c: NBC's "Huntley-Brinkley Report" goes from fifteen minutes to thirty, the President alone in the first half-hour broadcast, from the interview taped that morning.
+    n: '[Transcript of Broadcast on NBC''s "Huntley-Brinkley Report.", 1963 Pub. Papers 658](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716) (Sept. 9, 1963; the note, 661: "newly expanded half-hour," broadcast "on the evening of September 9," from the tape of the interview "on the morning of the same day"). [[w.branch-parting-the-waters]], 888 (the first half-hour news). To check: Manchester, *The Glory and the Dream*, 1228; *Newsweek*, Sept. 23, 1963, at 62–65 (cited by [[w.branch-parting-the-waters]], 888 n.3). See [[cal.1963-09-09.vietnam]]. Names: Huntley, Brinkley, Kennedy.'
+    tags: [name:kennedy-john-f, name:huntley-chet, name:brinkley-david]
+    time_range:
+      - 1963-09-09T23:00Z
+      - 1963-09-10T02:00Z
+    time_band: evening
+    time_zone: America/New_York
   - id: cal.1963-09-10.economy
     when: Sept. 10
     date: '1963-09-10'
@@ -3164,18 +3182,14 @@ entries:
   - id: cal.1963-10.alabama-al
     when: Sept. 16
     date: '1963-09-16'
+    time: 1963-09-16T14:06Z
     place: alabama
     thread: alabama
     also: [antisubversion]
     c: 'Wallace approves Act No. 514, Alabama''s State Sovereignty Commission: seven members, $50,000, its records closed to the public. Members named Dec. 21.'
-    n: '[*Acts of Alabama*, 1963, Regular Session, Act No. 514, 1098–1100](https://archive.org/details/alabama-acts-1963_v3/page/n424): "Approved September 16, 1963. Time: 8:06 A.M." Jeremy Gray, "Alabama Sovereignty Commission formed with sweeping powers, no public oversight (Oct. 5, 1963)," al.com, Oct. 5, 2013, from the *Birmingham News*. To check: [[w.carter-politics-of-rage-1995]]. Names: Wallace.'
+    n: '[*Acts of Alabama*, 1963, Regular Session, Act No. 514, 1098–1100](https://archive.org/details/alabama-acts-1963_v3/page/n424): "Approved September 16, 1963. Time: 8:06 A.M." The hour is central standard time; Alabama kept no daylight time in 1963. Jeremy Gray, "Alabama Sovereignty Commission formed with sweeping powers, no public oversight (Oct. 5, 1963)," al.com, Oct. 5, 2013, from the *Birmingham News*. To check: [[w.carter-politics-of-rage-1995]]. Names: Wallace.'
     tags: [state:al, name:wallace-george-c]
-    time_range:
-      - 1963-09-16T14:00Z
-      - 1963-09-16T23:00Z
-    time_band: workday daytime
-    time_zone: America/Chicago
-    range_basis: kind
+    time_zone: Etc/GMT+6
   - id: cal.1963-09-16.elections-1964
     when: Sept. 16
     date: '1963-09-16'
@@ -4196,12 +4210,12 @@ entries:
     time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1963-09-21.china-leadership-2
-    when: Sept. 21
+    when: Sept. 21–25
     date: '1963-09-21'
     thread: china-zhou
     also: [china-united-front]
     c: Zhou Enlai, at the Overseas Chinese New Village, calls on Hong Xiannü, member of the CPPCC and Cantonese opera actress.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 581 (Sept. 21, 1963). Made public: 1997. Names: Zhou Enlai, Hong Xiannü.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 581 (Sept. 21, 1963). Made public: 1997. Check: the day: the nianpu has Zhou arrive at Guangzhou on Sept. 21, go on to Conghua, and return to Guangzhou on the evening of the 25th, and puts the call on Hong Xiannü in that stay, at the Overseas Chinese New Village (II, 581). Names: Zhou Enlai, Hong Xiannü.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:hong-xiannu]
   - id: cal.1963-09-21.china-leadership-3
     when: Sept. 21
@@ -6509,8 +6523,9 @@ entries:
     thread: china-zhou-foreign
     follows:
       - cal.1963-09-30.china-leadership
+      - cal.1963-09-30.china-leadership-8
     c: 'Peking, the Great Hall of the People.{1} Zhou Enlai speaks at the National Day reception: China firmly holds that all states, large or small, are equal, each country''s affairs are for its own people to decide, and it opposes the oppression of small countries by large, the manipulation of international affairs by a few great powers, and great-power chauvinism in every form.{2}'
-    n: '[[w.zhou-enlai-waijiao-huodong]], 372 (Sept. 30, 1963; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 301 (Sept. 30, 1963; Zhou at the National Day reception: in international affairs China firmly holds that all countries, large or small, should be equal and each country''s affairs decided by its own people; it opposes big-power oppression of small countries, the manipulation of international affairs by a few big powers and big-power chauvinism of every kind; it gives its utmost support to the national and democratic movements of Asia, Africa and Latin America and actively develops friendly relations with those countries on the five principles of peaceful coexistence); [[w.yang-shangkun-riji]], II, 317 (Sept. 30, 1963; the National Day reception at the Great Hall from 7 p.m., more than 1,800 foreign guests; Mao comes after the banquet to the hall''s cheers; over at 8:45; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1775 (Sept. 30, 1963; Deng at the reception celebrating the fourteenth anniversary of the People''s Republic, at which Zhou Enlai speaks); [[w.chen-yi-nianpu]], 987 (Sept. 30, 1963, evening, the banquet hall of the Great Hall of the People; Chen Yi at the reception); [[w.liu-jixian-ye-jianying-nianpu]], II, 904 (Sept. 30, 1963; Ye Jianying 叶剑英 at Zhou Enlai''s 周恩来 National Day reception). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 372 (Sept. 30, 1963; 晚上); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 301 (Sept. 30, 1963; Zhou at the National Day reception: in international affairs China firmly holds that all countries, large or small, should be equal and each country''s affairs decided by its own people; it opposes big-power oppression of small countries, the manipulation of international affairs by a few big powers and big-power chauvinism of every kind; it gives its utmost support to the national and democratic movements of Asia, Africa and Latin America and actively develops friendly relations with those countries on the five principles of peaceful coexistence); [[w.yang-shangkun-riji]], II, 317 (Sept. 30, 1963; the National Day reception at the Great Hall from 7 p.m., more than 1,800 foreign guests; Mao comes after the banquet to the hall''s cheers; over at 8:45; Yang there); [[w.deng-xiaoping-nianpu-1904]], III, 1775 (Sept. 30, 1963; Deng at the reception celebrating the fourteenth anniversary of the People''s Republic, at which Zhou Enlai speaks); [[w.chen-yi-nianpu]], 987 (Sept. 30, 1963, evening, the banquet hall of the Great Hall of the People; Chen Yi at the reception); [[w.liu-jixian-ye-jianying-nianpu]], II, 904 (Sept. 30, 1963; Ye Jianying 叶剑英 at Zhou Enlai''s 周恩来 National Day reception). The order: after [[cal.1963-09-30.china-leadership-8]], [[w.peng-zhen-nianpu-1902]], IV, 293 (晚, the meetings with Mao, Liu, Zhou and others; 随后, "then," Zhou''s National Day banquet); [[w.yang-shangkun-riji]], II, 317, has Mao come to the hall after the banquet had begun (主席宴会后到了场); the dashiji prints the reception before the meetings (372), the printed order alone, which the Peng Zhen nianpu''s word defeats. Names: Zhou Enlai.'
     src:
       c: acb6d8c8
       rows:
