@@ -62,7 +62,7 @@ The owner, Nov. 24: "That's not what the handoff says, is it? Can you reconcile 
 11. The rest of the Nov. 21–22 queue (4aw.4): the Fursenko and Naftali quotation re-check (4as); "Mrs."/"Col." with a remap; *Wenxian* run 2; the register's leftovers (4au).
 12. The China reading order (4i, with 10a the Peking Automobile compilation), and with it: *Origins* III run 1's notes pass to redo (4b); *77 Conversations*, the rest (4d); the *wansui* (4h); the memoirs (4g); the PRC leftovers of batch 15 (C0 item 4).
 13. Batch 16, the DRV: the page cites (C0 item 6; "No ruling on the page cites yet": a default to be taken under "Nothing blocks"). (C0 item 5, the 63 *Văn kiện* documents: done, 79d9847, 67 entered.)
-14. Batch 17, the Wilson Center's documents, about 107 files (C0 item 7): not started.
+14. Batch 17, the Wilson Center's documents, about 107 files (C0 item 7): done (read and merged Nov. 20; `notes/book-checks/cwihp-2026-11.md`), as the review of the reading plan found on Nov. 26; this line had said "not started".
 15. The re-read pass: every "Passed over" row ruled on a ground struck Nov. 15, the principals' family, health and drinking rows first (C0 item 8). Now also under R0 and R15a.
 16. The notes pass re-run for the works furthest behind (C0 item 9; `./bib notes-coverage`).
 17. Pollack, *Arabs at War* (C0 item 10).

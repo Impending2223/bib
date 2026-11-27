@@ -679,7 +679,7 @@ Question: the owner said on Nov. 25 that it seems absurd to exclude the famine f
 - The entries: every calendar entry whose line names words of either thread (148 and 1,840) to Sonnet readers who read each whole and place it (`notes/briefs/threads-new-*.md`; `notes/threads/new/`), then an Opus audit, then an apply by script (thread and `also:` only).
 - To overrule: name the point; the placings are redone by rule from the tsvs.
 
-## 63. The reading plan's batches: by subject, done in sequence (Nov. 26, 2026, about 4 p.m.)
+## 63. The reading plan's batches: by subject, done in sequence (Nov. 26, 2026, about 6:11 p.m.)
 
 - The owner's words, on `notes/proposals/drive-reading-plan.md`: "The FBI Liuzzo files should be in the civil rights batch, right? More broadly, the government documents should go with their subject matter, not an arbitrary batch of their own, no? Shouldn't the apportionment and reapportionment works be taken out of the civil rights batch? ... And shouldn't we standardize "doing" a batch in sequence, rather than in parallel, to reduce the burden on the reconciling agent?"
 - Done: the plan's batches are recut by subject. A government document (a hearing, a report, an FBI file, a data book, a dated memo) goes in the batch of its subject, not a batch of documents. Apportionment and reapportionment leave civil rights for a batch of their own subject (elections, Congress and the courts). The plan is recut by a reader and checked by a second, independent reader before it comes back.
