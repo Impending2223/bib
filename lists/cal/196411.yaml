@@ -647,22 +647,6 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
-  - id: cal.1964-11-02.elections-1964-2
-    when: Nov. 2
-    date: '1964-11-02'
-    place: chicago
-    thread: elections-1964
-    c: 'Chicago, the eve of the election. The organization''s torchlight parade, three thousand torches; Johnson at the Chicago Stadium: "Mayor Daley is the greatest politician in the country."'
-    n: '[[w.cohen-american-pharaoh]], 323. Check: the day; Cohen and Taylor: the eve of the election. Names: Johnson, Daley.'
-    src:
-      c: 21fda4b3
-      rows:
-        - 'w.cohen-american-pharaoh 323: all'
-    tags: [state:il, city:chicago, name:johnson-lyndon-b, name:daley-richard-j]
-    time_range:
-      - 1964-11-02T23:00Z
-      - 1964-11-03T06:00Z
-    time_zone: America/Chicago
   - id: cal.1964-11-02.china-leadership
     when: Nov. 2–3
     date: '1964-11-02'
@@ -979,23 +963,25 @@ entries:
   - id: cal.1964-11-03.robert-kennedy
     when: Nov. 3
     date: '1964-11-03'
-    time: 1964-11-04T05:55Z
     place: new-york-state
     thread: robert-kennedy
     also: [elections-1964]
-    c: 'Robert Kennedy elected Senator from New York over Keating, 3,823,749 to 3,104,056, 53.5 percent.{1} Johnson and Kennedy by telephone, 11:55 p.m.: Kennedy thanks him for his help;{2} Johnson: nothing will divide them.{3}'
-    n: '[Johnson and Robert Kennedy, 11:55 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-november-4-1964), Conversation WH6411-02-6142 (Miller Center). [*Statistics of the Presidential and Congressional Election of November 3, 1964*](https://clerk.house.gov/member_info/electionInfo/1964election.pdf) (Clerk of the House, 1965). [President''s Daily Diary, Nov. 3, 1964](https://catalog.archives.gov/id/192447), image 5 (LBJ Library; National Archives Catalog). [[w.schlesinger-robert-kennedy-and-his]], 675 (the election; the margin, 719,693); [[w.thomas-robert-kennedy]], 301 (won by 700,000; the late-night call: "Listen, I guess I pulled you through up here"). The hour Austin''s: PRDE places the call at Austin. Check: Thomas, 301, has Kennedy say on the call, "Listen, I guess I pulled you through up here"; the line, from the recording, has him thank Johnson for his help. To check: [[w.shesol-mutual-contempt]]. See [[cal.1964-08-25.elections-1964]]; [[cal.1964-11-03.elections-1964-2]]. Made public: the recordings, opened by the LBJ Library. Check the year. Names: Robert Kennedy, Keating, Johnson. Check: the Daily Diary gives a call from Kennedy at 11:52 p.m. (image 5).'
+    c: Robert Kennedy elected Senator from New York over Keating, 3,823,749 to 3,104,056, 53.5 percent.{1}
+    n: '[*Statistics of the Presidential and Congressional Election of November 3, 1964*](https://clerk.house.gov/member_info/electionInfo/1964election.pdf) (Clerk of the House, 1965). [[w.schlesinger-robert-kennedy-and-his]], 675 (the election; the margin, 719,693); [[w.thomas-robert-kennedy]], 301 (won by 700,000). To check: [[w.shesol-mutual-contempt]]. See [[cal.1964-08-25.elections-1964]]; [[cal.1964-11-03.elections-1964-2]]. Names: Robert Kennedy, Keating.'
     src:
-      c: 97fea6b8
+      c: 3bb6388e
       rows:
-        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-november-4-1964: 1, 2, 3'
-        - 'https://clerk.house.gov/member_info/electionInfo/1964election.pdf: 1, 2, 3'
-        - 'https://catalog.archives.gov/id/192447: 1, 2, 3'
+        - 'https://clerk.house.gov/member_info/electionInfo/1964election.pdf: 1'
         - 'w.schlesinger-robert-kennedy-and-his 675: 1'
-        - 'w.thomas-robert-kennedy 301: 1, 2'
-        - 'via w.thomas-robert-kennedy 301 n.rfk-and-lbj-election: 1, 2'
-    tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:keating-kenneth-b, ok:note-substance]
+        - 'w.thomas-robert-kennedy 301: 1'
+    tags: [name:kennedy-robert-f, name:keating-kenneth-b]
     short: Senator from New York over Keating
+    time_range:
+      - 1964-11-04T01:00Z
+      - 1964-11-04T07:00Z
+    time_band: election night
+    time_zone: America/New_York
+    range_basis: kind
   - id: cal.1964-11-03.alabama
     when: Nov. 3
     date: '1964-11-03'
@@ -1765,6 +1751,19 @@ entries:
     c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 damps the fire in the boiler room, angry: what was the boilerman, Zhang Laili 张来礼, doing, burning it so hot? Burning so takes four hundred jin of coal a day.'
     n: '[[w.peng-dehuai-nianpu]], 783. Made public: 1998. Names: Peng Dehuai.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai]
+  - id: cal.1964-11-03.robert-kennedy-2
+    when: Nov. 3
+    date: '1964-11-03'
+    time: 1964-11-04T05:55Z
+    place: austin
+    thread: robert-kennedy
+    also: [elections-1964]
+    follows:
+      - cal.1964-11-03.elections-1964-new-york
+    c: 'Johnson and Kennedy by telephone, 11:55 p.m.: Kennedy thanks him for his help; Johnson: nothing will divide them.'
+    n: '[Johnson and Robert Kennedy, 11:55 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-november-4-1964), Conversation WH6411-02-6142 (Miller Center). [President''s Daily Diary, Nov. 3, 1964](https://catalog.archives.gov/id/192447), image 5 (LBJ Library; National Archives Catalog). [[w.thomas-robert-kennedy]], 301 (the "late-night phone call": "Listen, I guess I pulled you through up here"). The hour Austin''s: PRDE places the call at Austin. The order: after [[cal.1964-11-03.elections-1964-new-york]], Kennedy''s victory statement, which Johnson watched on television ([[w.thomas-robert-kennedy]], 301). Check: Thomas, 301, has Kennedy say on the call, "Listen, I guess I pulled you through up here"; the line, from the recording, has him thank Johnson for his help. Check: the Daily Diary gives a call from Kennedy at 11:52 p.m. (image 5). To check: [[w.shesol-mutual-contempt]]. Made public: the recordings, opened by the LBJ Library. Check the year. See [[cal.1964-11-03.robert-kennedy]]. Names: Robert Kennedy, Johnson.'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
+    time_zone: America/Chicago
   - id: cal.1964-11-04.elections-1964
     when: Nov. 4
     date: '1964-11-04'
@@ -3169,7 +3168,7 @@ entries:
     follows:
       - cal.1964-11-07.china-leadership-7
     c: Night. The Central Committee receives the urgent cable of Zhou Enlai's delegation on Malinovsky's remark; the delegation proposes a formal protest to the CPSU Central Committee and asks Peking's instructions.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 862 ("the night of Nov. 7"); [[w.jian-zhou-enlai]], 512 (that evening Zhou checks the words with the interpreters and cables the Center, "the highest urgency"). Made public: 1999. To check: [[w.yan-mingfu-huiyilu]], 868 (cited by [[w.jian-zhou-enlai]], 512 n.78). Names: Zhou Enlai, Malinovsky. Check: the hour; Peking''s night of Nov. 7 is Moscow''s late afternoon, before the evening reception.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 862 ("the night of Nov. 7"); [[w.jian-zhou-enlai]], 512 (that evening Zhou checks the words with the interpreters and cables the Center, "the highest urgency"). Made public: 1999. To check: [[w.yan-mingfu-huiyilu]], 868 (cited by [[w.jian-zhou-enlai]], 512 n.78). The range: after the start of the Kremlin reception, held the evening of Nov. 7 at Moscow (晚上, [[w.lengxi-shinian-lunzhan-1956-1966]], 860), past midnight at Peking, and before the Standing Committee''s meeting of Nov. 8, 上午 (862: 11月7日夜，中央就收到了代表团发来的急电; 11月8日上午 ... 召开政治局常委会). Names: Zhou Enlai, Malinovsky.'
     src:
       c: 3d741f22
       rows:
@@ -3177,9 +3176,8 @@ entries:
         - 'w.jian-zhou-enlai 512: ?'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:malinovsky-rodion-y]
     time_range:
-      - 1964-11-07T14:00Z
       - 1964-11-07T16:00Z
-    time_band: night
+      - 1964-11-08T00:00Z
     time_zone: Asia/Shanghai
   - id: cal.1964-11-07.china-leadership-9
     when: Nov. 7
@@ -4733,15 +4731,17 @@ entries:
     when: Nov. 13
     date: '1964-11-13'
     place: moscow
-    thread: china-bomb
+    thread: china-polemic
     also: [soviet-union, china-zhou-foreign, china-foreign]
-    c: Zhou receives the staff of the Chinese embassy, students in Moscow and Chinese at the Dubna joint nuclear institute.{1} With He Long leads the delegation home;{2} on the way to the airport Kosygin proposes a top-level Sino-Soviet meeting of parties and states;{3} Zhou will tell the Central Committee.{4}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 687–88 (Nov. 13, 1964); [[w.zhou-enlai-waijiao-huodong]], 429 (Nov. 13, 1964; 晚上, 率中国党政代表团乘中国专机回国; 苏联部长会议主席柯西金到机场送行); [[w.lengxi-shinian-lunzhan-1956-1966]], 878–879 (the delegation left Moscow the evening of Nov. 13; on the way to the airport Kosygin told Zhou the new leaders do differ from Khrushchev, "else why drive him out," but would not say how: "do you believe we can carry to the end the heavy load he left us?", as Zhou told Mao on Nov. 14 of "last night"). Names: Zhou Enlai, Kosygin, He Long.'
+    follows:
+      - cal.1964-11-13.china-zhou-foreign
+    c: Zhou, with He Long 贺龙, leads the delegation home in the evening;{2} on the way to the airport Kosygin proposes a top-level Sino-Soviet meeting of parties and states;{3} Zhou will tell the Central Committee.{4}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 688 (Nov. 13, 1964; with He Long leads the Party and government delegation home; Kosygin proposes in the car the highest-level meeting of the two parties and two states, Zhou to tell the Central Committee); [[w.zhou-enlai-waijiao-huodong]], 429 (Nov. 13, 1964; after the meeting with the Soviet leaders, 晚上, 率中国党政代表团乘中国专机回国; 柯西金到机场送行); [[w.lengxi-shinian-lunzhan-1956-1966]], 878–879 (the delegation left Moscow the evening of Nov. 13; on the way to the airport Kosygin told Zhou the new leaders do differ from Khrushchev, "else why drive him out," but would not say how: "do you believe we can carry to the end the heavy load he left us?", as Zhou told Mao on Nov. 14 of "last night"). The order: after [[cal.1964-11-13.china-zhou-foreign]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 687–88), the departure "晚上" ([[w.zhou-enlai-waijiao-huodong]], 429). Names: Zhou Enlai, Kosygin, He Long.'
     src:
-      c: 0ec4df62
+      c: dbf79fdb
       rows:
-        - 'w.zhou-enlai-nianpu-1949 II, 687–88: ?'
-        - 'w.zhou-enlai-waijiao-huodong 429: 1'
+        - 'w.zhou-enlai-nianpu-1949 II, 688: ?'
+        - 'w.zhou-enlai-waijiao-huodong 429: 2'
         - 'w.lengxi-shinian-lunzhan-1956-1966 878–879: 2'
     tags: [name:zhou-enlai, name:kosygin-aleksei, polity:prc, polity:ussr, name:he-long]
     variants:
@@ -4749,6 +4749,11 @@ entries:
         witness: w.lengxi-shinian-lunzhan-1956-1966
         reads: Brezhnev proposed the top-level meeting of the two parties or states on Nov. 12, at the delegation's residence; in the car to the airport Kosygin spoke of the new leaders' difference from Khrushchev
         at: 877, 879
+    time_range:
+      - 1964-11-13T16:00Z
+      - 1964-11-13T19:00Z
+    time_band: evening
+    time_zone: Europe/Moscow
   - id: cal.1964-11-13.china-leadership-2
     when: Nov. 13
     date: '1964-11-13'
@@ -4862,6 +4867,15 @@ entries:
     c: The capital airport 首都机场, Peking 北京. Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武 and others, sees King Zahir Shah 查希尔·沙阿 and his party off home.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1922. See [[cal.1964-10-30.china-leadership-5]]. Names: Zhu De, Liu Shaoqi, Dong Biwu, Zahir Shah.'
     tags: [polity:prc, polity:afghanistan, name:zhu-de, name:liu-shaoqi, name:dong-biwu, name:zahir-shah-mohammed]
+  - id: cal.1964-11-13.china-zhou-foreign
+    when: Nov. 13
+    date: '1964-11-13'
+    place: moscow
+    thread: china-zhou-foreign
+    also: [china-bomb, china-foreign]
+    c: Moscow 莫斯科. Zhou Enlai 周恩来 receives the staff of the Chinese embassy 中国驻苏联大使馆, the Chinese students in Moscow and the Chinese at the Dubna joint nuclear institute 杜布纳联合原子核研究所.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 687 (Nov. 13, 1964; 在中国驻苏联大使馆接见使馆的全体人员、中国在莫斯科的留学生和杜布纳联合原子核研究所的中国工作人员). Made public: 1997. See [[cal.1964-11-13.china-leadership]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1964-11-14.vietnam-force-levels
     when: Nov. 14
     date: '1964-11-14'
