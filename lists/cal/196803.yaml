@@ -9526,13 +9526,13 @@ entries:
     date: '1968-03-31'
     thread: vietnam-205000
     also: [elections-1968]
-    c: 'Sunday. McPherson to Clifford by telephone: the draft, the 20th parallel taken out, reads as if only the DMZ will be bombed; hold the raids near it a few days. Clifford: Hanoi will not quibble; the orders have likely gone from CINCPAC. About five, Johnson to McPherson: "Well, I think it''s best. So long, podner."'
-    n: '[[w.mcpherson-political-education]], 438–39. See [[cal.1968-03-31.elections-1968]]. Names: McPherson, Clifford, Johnson.'
+    c: 'Sunday. McPherson to Clifford by telephone: the draft, the 20th parallel taken out, reads as if only the DMZ will be bombed; hold the raids near it a few days. Clifford: Hanoi will not quibble; the orders have likely gone from CINCPAC.'
+    n: '[[w.mcpherson-political-education]], 438–39. See [[cal.1968-03-31.elections-1968]]. Johnson''s call to McPherson at about five is its own entry. Names: McPherson, Clifford.'
     src:
-      c: 26b37ed4
+      c: 30081c88
       rows:
         - 'w.mcpherson-political-education 438–39: all'
-    tags: [name:mcpherson-harry, name:clifford-clark, name:johnson-lyndon-b]
+    tags: [name:mcpherson-harry, name:clifford-clark]
     time_range:
       - 1968-03-31T14:00Z
       - 1968-03-31T22:00Z
@@ -9612,20 +9612,20 @@ entries:
   - id: cal.1968-03-31.vietnam-205000-3
     when: Mar. 31
     date: '1968-03-31'
+    time: 1968-03-31T22:00Z
+    time_approx: true
     thread: vietnam-205000
     also: [elections-1968]
-    c: 'Johnson to McPherson by telephone, before the address: "Do you think it is a good speech?"; "Do you think Hanoi will talk?"; "I''m going to have a little ending of my own to add to yours." McPherson: "I''m very sorry." Johnson: "so long, pardner."'
-    n: '[[w.berman-lyndon-johnsons-war]], 200; [[w.branch-at-canaans-edge]], 748 ("So long, podner"). To check: [[w.oberdorfer-tet]], 317 (cited by [[w.berman-lyndon-johnsons-war]], 200 n.18); McPherson, *A Political Education* (1988), 438–39 (cited by [[w.branch-at-canaans-edge]], 748). See [[cal.1968-03-31.elections-1968]]. Names: Johnson, McPherson.'
+    c: 'Johnson to McPherson by telephone, before the address: "Do you think it is a good speech?"; "Do you think Hanoi will talk?"; "I''m going to have a little ending of my own to add to yours." McPherson: "I''m very sorry."{1} About five, Johnson: "Well, I think it''s best."{2} Johnson: "so long, pardner."{3}'
+    n: '[[w.berman-lyndon-johnsons-war]], 200; [[w.branch-at-canaans-edge]], 748 ("So long, podner"); [[w.mcpherson-political-education]], 438–39 (about five: "Well, I think it''s best. So long, podner."). To check: [[w.oberdorfer-tet]], 317 (cited by [[w.berman-lyndon-johnsons-war]], 200 n.18). See [[cal.1968-03-31.elections-1968]]. Names: Johnson, McPherson.'
     src:
-      c: b0c5cc38
+      c: 6f26d8f7
       rows:
-        - 'w.berman-lyndon-johnsons-war 200: all'
+        - 'w.berman-lyndon-johnsons-war 200: 1, 3'
         - 'w.branch-at-canaans-edge 748: ?'
-        - 'via x.1988.mcpherson-harry-a-political-education-1988: all'
+        - 'via x.1988.mcpherson-harry-a-political-education-1988: 1, 3'
+        - 'w.mcpherson-political-education 438–39: 2, time'
     tags: [name:johnson-lyndon-b, name:mcpherson-harry]
-    time_range:
-      - 1968-03-31T11:00Z
-      - 1968-04-01T02:00Z
     time_zone: America/New_York
   - id: cal.1968-03.vietnam-order-of-battle
     when: Mar.

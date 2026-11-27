@@ -1453,7 +1453,7 @@ entries:
     place: washington
     thread: vietnam-air-war
     c: 'William Bundy, "Bombing Strategy Options for the Rest of 1967," his views and, he says, Katzenbach''s and Helms''s: concentrate on the lines of communication in the "funnel" south of 20 degrees, at least as effective as the present program, saving American lives, and the option likeliest to move the North.'
-    n: '[FRUS 1964–68, V, doc. 170](https://history.state.gov/historicaldocuments/frus1964-68v05/d170). [[w.gibbons-u-s-government-and]], IV, 633. Made public: FRUS 1964–68, V (2002). To check: [[w.pentagon-papers]], IV, 165–68 (cited by [[w.gibbons-u-s-government-and]], IV, 633 n.73). See [[cal.1967-05-06.vietnam]]. Names: William Bundy, Katzenbach, Helms.'
+    n: '[FRUS 1964–68, V, doc. 170](https://history.state.gov/historicaldocuments/frus1964-68v05/d170). [[w.gibbons-u-s-government-and]], IV, 633; [[w.drea-mcnamara-clifford-and-the-2011]], 208 (the same day State''s experts, Helms backing them, for restraint). Made public: FRUS 1964–68, V (2002). To check: [[w.pentagon-papers]], IV, 165–68 (cited by [[w.gibbons-u-s-government-and]], IV, 633 n.73). See [[cal.1967-05-06.vietnam]]. Names: William Bundy, Katzenbach, Helms.'
     src:
       c: db72eec3
       rows:
@@ -1461,6 +1461,7 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 633: all'
         - 'w.gibbons-u-s-government-and IV, 633 n: all'
         - 'via x.1967-05-09.william-bundy-bombing-strategy-options-for: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 208: ?'
     tags: [name:bundy-william, name:katzenbach-nicholas, name:helms-richard]
     time_range:
       - 1967-05-09T13:00Z
@@ -1473,16 +1474,16 @@ entries:
     date: '1967-05-09'
     place: washington
     thread: vietnam-air-war
-    c: 'McNamara and Vance to Johnson, "Proposed Bombing Program Against North Vietnam," the draft memorandum McNaughton''s office prepared May 5: concentrate on the lines of communication south of 20 degrees; north of it, with one power plant still to be struck, "all worthwhile fixed targets except the ports," in Wheeler''s words, have been hit; the ports not to be struck or mined.{1} The same day State''s experts, Helms backing them, for restraint.{2}'
-    n: '[FRUS 1964–68, V, doc. 169](https://history.state.gov/historicaldocuments/frus1964-68v05/d169). [[w.gibbons-u-s-government-and]], IV, 631, 634; [[w.drea-mcnamara-clifford-and-the-2011]], 208. Made public: FRUS 1964–68, V (2002). See [[cal.1967-05-06.vietnam]]. Names: McNamara, Vance, McNaughton, Wheeler, Helms. Check: what State''s experts proposed; p. 208 cut short.'
+    c: 'McNamara and Vance to Johnson, "Proposed Bombing Program Against North Vietnam," the draft memorandum McNaughton''s office prepared May 5: concentrate on the lines of communication south of 20 degrees; north of it, with one power plant still to be struck, "all worthwhile fixed targets except the ports," in Wheeler''s words, have been hit; the ports not to be struck or mined.{1}'
+    n: '[FRUS 1964–68, V, doc. 169](https://history.state.gov/historicaldocuments/frus1964-68v05/d169). [[w.gibbons-u-s-government-and]], IV, 631, 634; [[w.drea-mcnamara-clifford-and-the-2011]], 208. Made public: FRUS 1964–68, V (2002). See [[cal.1967-05-06.vietnam]]. State''s experts'' restraint that day is on the entry of Bundy''s memorandum. Names: McNamara, Vance, McNaughton, Wheeler.'
     src:
-      c: 411c4d5c
+      c: fe95a72a
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d169: 1'
         - 'w.gibbons-u-s-government-and IV, 631, 634: 1'
         - 'via x.1967-05-09.mcnamara-and-vance-to-johnson-proposed: 1'
-        - 'w.drea-mcnamara-clifford-and-the-2011 208: 1, 2'
-    tags: [name:mcnamara-robert-s, name:vance-cyrus, name:mcnaughton-john-t, name:wheeler-earle, name:helms-richard]
+        - 'w.drea-mcnamara-clifford-and-the-2011 208: 1'
+    tags: [name:mcnamara-robert-s, name:vance-cyrus, name:mcnaughton-john-t, name:wheeler-earle]
     aliases: [cal.1967-05-09.vietnam-air-war-4]
     time_range:
       - 1967-05-09T13:00Z
@@ -5826,10 +5827,10 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [south-asia, china-foreign]
-    c: Zhou receives and gives a luncheon at the Diaoyutai guesthouse for Pakistan's defense minister, an admiral.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (May 30, 1967; morning; Diaoyutai guesthouse). The book names him 阿夫扎尔. Names: Zhou Enlai.'
+    c: Zhou receives Pakistan's defense minister, an admiral.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (May 30, 1967; morning; Diaoyutai guesthouse). The book names him 阿夫扎尔. The luncheon at the Diaoyutai guesthouse is its own entry. Names: Zhou Enlai.'
     src:
-      c: d6878388
+      c: d142f3fe
       rows:
         - 'w.zhou-enlai-waijiao-huodong 512: all'
     tags: [polity:prc, name:zhou-enlai]
@@ -5854,10 +5855,18 @@ entries:
   - id: cal.1967-05-30.china-leadership-4
     when: May 30
     date: '1967-05-30'
+    place: peking
     thread: china-zhou-foreign
     also: [south-asia, china-foreign]
-    c: Zhou Enlai 周恩来 gives an informal dinner for Vice-Admiral Afzal Rahman Khan 阿夫扎尔·拉赫曼·汗 and Yusuf 优素福, Chen Yi 陈毅 present.
-    n: '[[w.chen-yi-nianpu]], 1191. The words: 中午 (1191). Names: Chen Yi, Zhou Enlai.'
+    follows:
+      - cal.1967-05-30.china-leadership-3
+    c: Zhou Enlai 周恩来 gives an informal dinner for Vice-Admiral Afzal Rahman Khan 阿夫扎尔·拉赫曼·汗 and Yusuf 优素福, Chen Yi 陈毅 present.{1} At the Diaoyutai guesthouse.{2}
+    n: '[[w.chen-yi-nianpu]], 1191; [[w.zhou-enlai-waijiao-huodong]], 512 (May 30, 1967; Diaoyutai guesthouse). The words: 中午 (1191). The order: after [[cal.1967-05-30.china-leadership-3]], [[w.zhou-enlai-waijiao-huodong]], 512 (the reception in the morning) and [[w.chen-yi-nianpu]], 1191 (中午, the luncheon). Names: Chen Yi, Zhou Enlai.'
+    src:
+      c: adfc6195
+      rows:
+        - 'w.chen-yi-nianpu 1191: 1'
+        - 'w.zhou-enlai-waijiao-huodong 512: 2'
     tags: [polity:prc, polity:pakistan, name:chen-yi, name:zhou-enlai, ok:fields-place]
     time_range:
       - 1967-05-30T04:00Z

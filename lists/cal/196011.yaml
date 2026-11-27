@@ -7667,10 +7667,10 @@ entries:
     place: moscow
     thread: china-moscow-1960
     also: [soviet-union, vietnam-hanoi]
-    c: 'Moscow, the Chinese embassy, afternoon to night. The delegation weighs the last stage. Holding firm through the second round, it judges, has shaken the delegations: the left heartened, the center, among them the capitalist countries'' parties and some ruling ones, alarmed at a split of two great parties, Khrushchev''s followers afraid to bear a break. Hồ Chí Minh tells the Chinese he will lead a delegation to both parties to urge a compromise. Decisions: keep the resolve not to fear a break; all the "nails" and the unnamed attacks out, or no signature; none for a majority-rule resolution even if the nails go. Signing is form; the draft otherwise an anti-Chinese text, for history to judge. A break would mean the CPSU''s anti-China course, Soviet and East European aid cut, party ties cut, a diplomatic blockade and state relations ended, isolation in international bodies, separate courses on imperialism, national liberation and the workers'' movement: none enough to bend China. Six open questions: father-and-son or equal parties; majority rule or consultation to agreement; what factional activity is and who does it; what national communism is and who; whether the Twentieth and Twenty-first Congresses are affirmed; the cult of personality. The delegation cables Peking deep at night for what it may yield and when sign or not.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 397–400 ("the afternoon to the evening of the 25th"; the cable "deep at night" of the 25th). Made public: 1999. See [[cal.1960-11-25.soviet-union]]. Names: Hồ Chí Minh.'
+    c: 'Moscow, the Chinese embassy, afternoon to night. The delegation weighs the last stage. Holding firm through the second round, it judges, has shaken the delegations: the left heartened, the center, among them the capitalist countries'' parties and some ruling ones, alarmed at a split of two great parties, Khrushchev''s followers afraid to bear a break. Hồ Chí Minh tells the Chinese he will lead a delegation to both parties to urge a compromise. Decisions: keep the resolve not to fear a break; all the "nails" and the unnamed attacks out, or no signature; none for a majority-rule resolution even if the nails go. Signing is form; the draft otherwise an anti-Chinese text, for history to judge. A break would mean the CPSU''s anti-China course, Soviet and East European aid cut, party ties cut, a diplomatic blockade and state relations ended, isolation in international bodies, separate courses on imperialism, national liberation and the workers'' movement: none enough to bend China. Six open questions: father-and-son or equal parties; majority rule or consultation to agreement; what factional activity is and who does it; what national communism is and who; whether the Twentieth and Twenty-first Congresses are affirmed; the cult of personality.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 397–400 ("the afternoon to the evening of the 25th"). Made public: 1999. See [[cal.1960-11-25.soviet-union]]. The delegation''s cable deep at night is its own entry. Names: Hồ Chí Minh.'
     src:
-      c: c019af1e
+      c: e3dafea4
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 397–400: all'
     tags: [polity:prc, name:ho-chi-minh, vis:only:prc]
@@ -7752,13 +7752,22 @@ entries:
     place: moscow
     thread: china-foreign
     also: [soviet-union]
-    c: Moscow 莫斯科. The Chinese delegation cables the Center 中共中央 again for instructions on signing the draft statement.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1600 (Nov. 25, 1960). Made public: 2009 (the nianpu). See [[cal.1960-11-24.china-leadership-3]].'
+    follows:
+      - cal.1960-11-25.china-leadership
+    c: Moscow 莫斯科. The Chinese delegation cables the Center 中共中央 again for instructions on signing the draft statement.{1} It asks deep at night what it may yield and when to sign or not.{2}
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1600 (Nov. 25, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 397–400 ("deep at night" of the 25th). Made public: 2009 (the nianpu). The order: after [[cal.1960-11-25.china-leadership]], [[w.lengxi-shinian-lunzhan-1956-1966]], 397–400 ("the afternoon to the evening of the 25th"; the cable "deep at night"). See [[cal.1960-11-24.china-leadership-3]].'
     src:
-      c: d1441d42
+      c: b638a693
       rows:
-        - 'w.deng-xiaoping-nianpu-1904 III, 1600: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1600: 1'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 397–400: 2'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-11-25T19:00Z
+      - 1960-11-25T21:00Z
+    time_band: night
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1960-11-25.china-leadership-7
     when: Nov. 25
     date: '1960-11-25'

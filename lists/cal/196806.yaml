@@ -2918,19 +2918,19 @@ entries:
     n: '[[w.cq-weekly-report]], June 21, 1968, 1542. Names: Stassen.'
     tags: [name:stassen-harold-e, state:mn]
   - id: cal.1968-06-13.governors-nd
-    when: June 13–15
+    when: June 13
     date: '1968-06-13'
     place: fargo
     thread: governors
     also: [republican-party, elections-1968-state-conventions]
-    c: 'Fargo. North Dakota''s Republican convention endorses Edward Doherty, a newspaper publisher of New Rockford, N.D., for governor over four others, Richard Elkin, the State''s Nixon chairman, among them; McCarney, not seeking it, to run in the Sept. 3 primary. Young, Andrews and Kleppe endorsed. Its platform statement: the Great Society a "Grim Society of riots and assassinations."{1} Eight delegates, at least six for Nixon.{2} Rockefeller addresses the convention June 15.{3}'
-    n: '[[w.cq-weekly-report]], June 21, 1968, 1548. Clayburgh national committeeman, succeeding Rolland Meidinger; Katherine Burgum committeewoman, succeeding Marian Bertsch (1548). Andrews: interest rates the highest since the Civil War, wheat the lowest since 1942 (1548). [[w.cq-weekly-report]], July 26, 1968, 1986. Names: Doherty, McCarney, Young, Andrews, Kleppe, Rockefeller.'
+    c: 'Fargo. North Dakota''s Republican convention endorses Edward Doherty, a newspaper publisher of New Rockford, N.D., for governor over four others, Richard Elkin, the State''s Nixon chairman, among them; McCarney, not seeking it, to run in the Sept. 3 primary. Young, Andrews and Kleppe endorsed. Its platform statement: the Great Society a "Grim Society of riots and assassinations."{1} Eight delegates, at least six for Nixon.{2}'
+    n: '[[w.cq-weekly-report]], June 21, 1968, 1548. Clayburgh national committeeman, succeeding Rolland Meidinger; Katherine Burgum committeewoman, succeeding Marian Bertsch (1548). Andrews: interest rates the highest since the Civil War, wheat the lowest since 1942 (1548). [[w.cq-weekly-report]], July 26, 1968, 1986. Rockefeller''s address of June 15 is its own entry. Names: Doherty, McCarney, Young, Andrews, Kleppe.'
     src:
-      c: 84d6216f
+      c: d5e54f00
       rows:
         - 'w.cq-weekly-report June 21, 1968, 1548: 1'
-        - 'w.cq-weekly-report July 26, 1968, 1986: 2, 3'
-    tags: [name:doherty-edward-w, name:mccarney-robert-p, name:young-milton-r, name:andrews-mark, name:kleppe-thomas-s, state:nd, name:rockefeller-nelson]
+        - 'w.cq-weekly-report July 26, 1968, 1986: 2'
+    tags: [name:doherty-edward-w, name:mccarney-robert-p, name:young-milton-r, name:andrews-mark, name:kleppe-thomas-s, state:nd]
     aliases: [cal.1968-06-13.elections-1968-state-conventions]
   - id: cal.1968-06-13.elections-1968-chicago
     when: June 13
@@ -3097,16 +3097,15 @@ entries:
     when: June 14
     date: '1968-06-14'
     thread: elections-1968-humphrey
-    c: 'Moyers, Newsday''s publisher, on a New York radio station, on Humphrey and the Administration;{1} by telephone to reporters, Humphrey will "emerge on his own within the next week or so" (the *New York Times*).{2} A few days later Mondale: for Humphrey as the most liberal of the three.{3}'
-    n: '[[w.chester-american-melodrama]], 154. Check: whether the remark to reporters by telephone (the *New York Times*) is the remark of [[cal.1968-06-16.elections-1968-2]], June 16; the radio interview is of June 14. To check: Bill Moyers, interview on a New York radio station, June 14, 1968 (cited by [[w.chester-american-melodrama]], 154); *New York Times*, June 1968, Moyers by telephone: Humphrey to "emerge on his own within the next week or so" (cited by [[w.chester-american-melodrama]], 154). Names: Moyers, Humphrey, Mondale. Check: the day.'
+    c: Moyers, Newsday's publisher, on a New York radio station, on Humphrey and the Administration.{1}
+    n: '[[w.chester-american-melodrama]], 154. To check: Bill Moyers, interview on a New York radio station, June 14, 1968 (cited by [[w.chester-american-melodrama]], 154). The remark by telephone to reporters goes to the entry of June 16; Mondale''s statement is its own entry. Names: Moyers, Humphrey.'
     src:
-      c: f4004aa2
+      c: cf66dfba
       rows:
-        - 'w.chester-american-melodrama 154: 1, 2, 3'
+        - 'w.chester-american-melodrama 154: 1'
         - 'via x.1968-06-14.bill-moyers-interview-on-a-new-york-radio-statio: 1'
-        - 'via x.1968-06.new-york-times-june-1968-moyers-by-telephone-hum: 2'
-        - 'via x.undated.bill-moyers-to-chester-hodgson-and-page: 1, 2'
-    tags: [name:moyers-bill, name:humphrey-hubert-h, name:mondale-walter-f]
+        - 'via x.undated.bill-moyers-to-chester-hodgson-and-page: 1'
+    tags: [name:moyers-bill, name:humphrey-hubert-h]
   - id: cal.1968-06-14.court-fortas
     when: June 14
     date: '1968-06-14'
@@ -3270,6 +3269,15 @@ entries:
         - 'w.dikotter-cultural-revolution 176–177 n.35: ?'
         - 'via w.dikotter-cultural-revolution 177 n.35b: ?'
     tags: [polity:prc, ok:fields-place]
+  - id: cal.1968-06-15.elections-1968-state-conventions-2
+    when: June 15
+    date: '1968-06-15'
+    place: fargo
+    thread: elections-1968-state-conventions
+    also: [republican-party]
+    c: Fargo. Rockefeller addresses North Dakota's Republican convention.
+    n: '[[w.cq-weekly-report]], July 26, 1968, 1986. See [[cal.1968-06-13.governors-nd]]. Names: Rockefeller.'
+    tags: [name:rockefeller-nelson, state:nd]
   - id: cal.1968-06-16.opinion
     when: June 16
     date: '1968-06-16'
@@ -3290,7 +3298,7 @@ entries:
     date: '1968-06-16'
     thread: elections-1968-humphrey
     c: 'Moyers, on a "hunch": Humphrey will "emerge on his own" within a week or so, his differences with the administration on Vietnam stated; he has "always questioned" American military power in a war like Vietnam''s.'
-    n: '[[w.cq-weekly-report]], June 21, 1968, 1542. Names: Moyers, Humphrey.'
+    n: '[[w.cq-weekly-report]], June 21, 1968, 1542; [[w.chester-american-melodrama]], 154 (Moyers by telephone to reporters: Humphrey to "emerge on his own within the next week or so", the New York Times). Check: the day of the remark by telephone to reporters; Chester (154) gives no day, and the line of June 16 (CQ) has it in the same words. To check: *New York Times*, June 1968, Moyers by telephone: Humphrey to "emerge on his own within the next week or so" (cited by [[w.chester-american-melodrama]], 154). Names: Moyers, Humphrey.'
     tags: [name:moyers-bill, name:humphrey-hubert-h]
   - id: cal.1968-06-16.elections-1968-3
     when: June 16
@@ -6201,3 +6209,11 @@ entries:
     c: Peng Dehuai 彭德怀 is interrogated seven times; he writes his confession 交代 every day; his sleep is disordered.
     n: '[[w.peng-dehuai-nianpu]], 818. Made public: 1998. Names: Peng Dehuai.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai]
+  - id: cal.1968-06.elections-1968-humphrey-3
+    when: June, after the 14th
+    date: 1968-06
+    at: after 1968-06-14
+    thread: elections-1968-humphrey
+    c: 'A few days after Moyers''s radio interview of June 14, Mondale: for Humphrey as the most liberal of the three.'
+    n: '[[w.chester-american-melodrama]], 154. See [[cal.1968-06-14.elections-1968-3]]. Names: Mondale, Moyers, Humphrey. Check: the day.'
+    tags: [name:mondale-walter-f, name:humphrey-hubert-h, name:moyers-bill]

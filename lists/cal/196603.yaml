@@ -5138,17 +5138,17 @@ entries:
     place: rawalpindi
     thread: china-liu
     also: [south-asia, china-foreign]
-    c: 'Liu Shaoqi and his wife, with Chen Yi and his wife, begin a visit to Pakistan, to Mar. 31.{1} Liu leaves Urumqi for Pakistan, reaches Rawalpindi and holds talks with President Ayub Khan.{2} At Ayub''s welcome banquet he says: China resolutely opposes aggressors, supports all peoples who oppose aggression and will help their struggle as far as it can; the struggle of the Asian and African peoples against imperialism and aggression and for national independence will certainly win in the end.{3}'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634–635 (Mar. 26–31, 1966; Liu visits Pakistan: Rawalpindi, Mar. 26 and 27; Islamabad, Mar. 28; Lahore, Mar. 28 and 29; Karachi, Mar. 30; leaves Karachi Mar. 31 and reaches Hotan); [[w.chen-yi-nianpu]], 1140 (Mar. 26, 1966, morning, Chen Yi goes with Liu and his wife from Urumqi to Rawalpindi; Liu calls on Ayub Khan at the presidency and talks, Chen Yi present; evening, Ayub Khan''s banquet at Islamabad); [[w.zhonghua-renmin-gongheguo-waijiao]], 91 (Mar. 26–31, 1966; the visit; Ayub Khan and Bhutto with Liu throughout, at Rawalpindi, Islamabad, Lahore and Karachi; Ayub Khan''s talks with Liu; Liu at Ayub''s welcome banquet: the border settled, friendship growing, different systems no bar under the Five Principles; Chen Yi at Lahore''s citizens'' reception: China''s support for Pakistan unchanged, no passing expedient; no days given); [[w.macfarquhar-origins-of-the-cultural]], III, 456 (Liu Shaoqi leaves on his trip to Pakistan, Afghanistan and Burma, stopping twice in Xinjiang; back Apr. 19). To check: [[w.jing-factionalism-in-chinese-communist]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 456 n.152). Names: Liu Shaoqi, Chen Yi, Ayub Khan.'
+    c: Liu Shaoqi and his wife, with Chen Yi and his wife, begin a visit to Pakistan, to Mar. 31.{1} Liu leaves Urumqi for Pakistan and reaches Rawalpindi.{2}
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634–635 (Mar. 26–31, 1966; Liu visits Pakistan: Rawalpindi, Mar. 26 and 27; Islamabad, Mar. 28; Lahore, Mar. 28 and 29; Karachi, Mar. 30; leaves Karachi Mar. 31 and reaches Hotan); [[w.chen-yi-nianpu]], 1140 (Mar. 26, 1966, morning, Chen Yi goes with Liu and his wife from Urumqi to Rawalpindi); [[w.zhonghua-renmin-gongheguo-waijiao]], 91 (Mar. 26–31, 1966; the visit; Ayub Khan and Bhutto with Liu throughout, at Rawalpindi, Islamabad, Lahore and Karachi; Chen Yi at Lahore''s citizens'' reception: China''s support for Pakistan unchanged, no passing expedient; no days given); [[w.macfarquhar-origins-of-the-cultural]], III, 456 (Liu Shaoqi leaves on his trip to Pakistan, Afghanistan and Burma, stopping twice in Xinjiang; back Apr. 19). To check: [[w.jing-factionalism-in-chinese-communist]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 456 n.152). Liu''s talks with Ayub Khan and the banquet that evening are their own entries. Names: Liu Shaoqi, Chen Yi.'
     src:
-      c: 5f2992ab
+      c: 14b1e99f
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 634–635: ?'
         - 'w.chen-yi-nianpu 1140: ?'
         - 'w.zhonghua-renmin-gongheguo-waijiao 91: 1'
         - 'w.macfarquhar-origins-of-the-cultural III, 456: 1'
         - 'via w.macfarquhar-origins-of-the-cultural III, 456 n.152: 1'
-    tags: [polity:prc, polity:pakistan, name:liu-shaoqi, name:ayub-khan-mohammad, name:chen-yi, name:bhutto-zulfikar-ali]
+    tags: [polity:prc, polity:pakistan, name:liu-shaoqi, name:chen-yi]
     aliases: [cal.1966-03-26.china-leadership-3]
     time_range:
       - 1966-03-25T22:00Z
@@ -5174,6 +5174,34 @@ entries:
     c: Mianning 冕宁 county town. Peng Dehuai 彭德怀 sees the houses the Red Army 红军 lodged in on the Long March 长征 through the Yi 彝族 country.
     n: '[[w.peng-dehuai-nianpu]], 794. Names: Peng Dehuai.'
     tags: [polity:prc, name:peng-dehuai]
+  - id: cal.1966-03-26.china-liu-2
+    when: Mar. 26
+    date: '1966-03-26'
+    place: rawalpindi
+    thread: china-liu
+    also: [south-asia, china-foreign]
+    follows:
+      - cal.1966-03-26.china-leadership-4
+    c: Rawalpindi. Liu Shaoqi calls on President Ayub Khan at the presidency and talks, Chen Yi present.
+    n: '[[w.chen-yi-nianpu]], 1140 (Mar. 26, 1966; Liu calls on Ayub Khan at the presidency and talks, Chen Yi present); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634 (Mar. 26, 1966: talks with Ayub Khan; Mar. 27, the talks go on); [[w.zhonghua-renmin-gongheguo-waijiao]], 91 (Mar. 26–31, 1966; Ayub Khan''s talks with Liu; no days given). See [[cal.1966-03-26.china-leadership-4]]. The order: after [[cal.1966-03-26.china-leadership-4]], the arrival at Rawalpindi in the morning ([[w.chen-yi-nianpu]], 1140). Names: Liu Shaoqi, Ayub Khan, Chen Yi.'
+    tags: [polity:prc, polity:pakistan, name:liu-shaoqi, name:ayub-khan-mohammad, name:chen-yi]
+  - id: cal.1966-03-26.china-liu-3
+    when: Mar. 26
+    date: '1966-03-26'
+    place: islamabad
+    thread: china-liu
+    also: [south-asia, china-foreign]
+    follows:
+      - cal.1966-03-26.china-liu-2
+    c: 'Islamabad. Ayub Khan''s welcome banquet for Liu Shaoqi; Liu: China resolutely opposes aggressors, supports all peoples who oppose aggression and will help their struggle as far as it can; the struggle of the Asian and African peoples against imperialism and aggression and for national independence will certainly win in the end. The border settled, friendship growing, different systems no bar under the Five Principles.'
+    n: '[[w.chen-yi-nianpu]], 1140 (Mar. 26, 1966; evening, Ayub Khan''s banquet at Islamabad); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634 (Mar. 26, 1966: at Ayub Khan''s welcome banquet Liu''s words, as the line has them); [[w.zhonghua-renmin-gongheguo-waijiao]], 91 (Mar. 26–31, 1966; Liu at Ayub''s welcome banquet: the border settled, friendship growing, different systems no bar under the Five Principles; no days given). See [[cal.1966-03-26.china-leadership-4]]. The order: after [[cal.1966-03-26.china-liu-2]], the talks (the banquet in the evening, [[w.chen-yi-nianpu]], 1140). Names: Liu Shaoqi, Ayub Khan. Check: the place; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634, names none for the banquet and has Liu see Islamabad, the capital being built, on Mar. 28.'
+    tags: [polity:prc, polity:pakistan, name:liu-shaoqi, name:ayub-khan-mohammad]
+    time_range:
+      - 1966-03-26T14:00Z
+      - 1966-03-26T17:00Z
+    time_band: evening
+    time_zone: Asia/Karachi
+    range_basis: record
   - id: cal.1966-03-27.alabama
     when: Mar. 27
     date: '1966-03-27'
