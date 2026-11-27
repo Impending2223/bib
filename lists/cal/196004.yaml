@@ -2018,12 +2018,13 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [south-asia, china-foreign]
-    c: Peking. Zhou Enlai leaves by special plane for Burma, India and Nepal, Chen Yi, Vice Premier and Foreign Minister, with him.{1} Soong Ching Ling and Dong Biwu, Vice Chairmen, Zhu De, Chen Yun, Lin Biao and Deng Xiaoping see him off at the airport.{2}
-    n: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 13, 1960; 上午, 机场); [[w.yang-shangkun-riji]], I, 498 (Apr. 13, 1960; Yang at the capital airport to see Zhou and his party off); [[w.chen-yi-nianpu]], 809 (Apr. 13, 1960, morning; Chen Yi leaves Peking with Zhou Enlai for Burma, India and Nepal); [[w.peng-zhen-nianpu-1902]], IV, 18 (Apr. 13, 1960, morning; Peng Zhen, with Song Qingling, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping and others, at the airport to see Zhou off to Burma, India and Nepal); [[w.zhu-de-nianpu-xinbian]], III, 1772 (Apr. 13, 1960; Zhu De 朱德, with Soong Ching Ling 宋庆龄, Dong Biwu 董必武, Chen Yun 陈云, Lin Biao 林彪, Deng Xiaoping 邓小平 and others, at the airport to see Zhou Enlai off to Burma, India and Nepal); [[w.chen-yun-nianpu-xiuding]], III, 34 (Chen Yun at the airport with Zhu De, Soong Ching Ling, Dong Biwu, Lin Biao, Deng Xiaoping and others to see Zhou Enlai off). See [[cal.1960-04-13.china-leadership-3]]. Names: Zhou Enlai, Chen Yi, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Song Qingling.'
+    c: Peking. Zhou Enlai, on the invitation of the governments of Burma, India and Nepal, leaves by special plane on a friendly visit, Chen Yi, Vice Premier and Foreign Minister, with him.{1} Soong Ching Ling and Dong Biwu, Vice Chairmen, Zhu De, Chen Yun, Lin Biao and Deng Xiaoping see him off at the airport.{2} The party reaches Kunming in the afternoon.{3}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 303 (Apr. 13, 1960); [[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 13, 1960; 上午, 乘专机, 机场; 下午, 抵达昆明); [[w.yang-shangkun-riji]], I, 498 (Apr. 13, 1960; Yang at the capital airport to see Zhou and his party off); [[w.chen-yi-nianpu]], 809 (Apr. 13, 1960, morning; Chen Yi leaves Peking with Zhou Enlai for Burma, India and Nepal; afternoon (下午), Chen Yi reaches Kunming); [[w.peng-zhen-nianpu-1902]], IV, 18 (Apr. 13, 1960, morning; Peng Zhen, with Song Qingling, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping and others, at the airport to see Zhou off to Burma, India and Nepal); [[w.zhu-de-nianpu-xinbian]], III, 1772 (Apr. 13, 1960; Zhu De 朱德, with Soong Ching Ling 宋庆龄, Dong Biwu 董必武, Chen Yun 陈云, Lin Biao 林彪, Deng Xiaoping 邓小平 and others, at the airport to see Zhou Enlai off to Burma, India and Nepal); [[w.chen-yun-nianpu-xiuding]], III, 34 (Chen Yun at the airport with Zhu De, Soong Ching Ling, Dong Biwu, Lin Biao, Deng Xiaoping and others to see Zhou Enlai off). Names: Zhou Enlai, Chen Yi, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Song Qingling.'
     src:
-      c: 1d7e3794
+      c: 2aed5f10
       rows:
-        - 'w.zhou-enlai-waijiao-huodong 273: 1, 2'
+        - 'w.zhou-enlai-nianpu-1949 II, 303: 1, 3'
+        - 'w.zhou-enlai-waijiao-huodong 273: 1, 2, 3'
         - 'w.yang-shangkun-riji I, 498: 1'
         - 'w.chen-yi-nianpu 809: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 18: ?'
@@ -2031,57 +2032,6 @@ entries:
         - 'w.chen-yun-nianpu-xiuding III, 34: ?'
     tags: [polity:prc, polity:burma, polity:india, polity:nepal, name:zhou-enlai, name:chen-yi, name:dong-biwu, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:song-qingling]
     aliases: [cal.1960-04-13.china-leadership-2]
-    conflict:
-      - field: c
-        ours: Peking. Zhou Enlai leaves by special plane for Burma, India and Nepal, Chen Yi, Vice Premier and Foreign Minister, with him. Soong Ching Ling and Dong Biwu, Vice Chairmen, Zhu De, Chen Yun, Lin Biao and Deng Xiaoping see him off at the airport.
-        theirs: Zhou Enlai, on the invitation of the governments of Burma, India and Nepal, leaves on a friendly visit, Chen Yi with him; Kunming in the afternoon.
-        base: null
-        from: 'combine: combined cal.1960-04-13.china-leadership-2'
-      - field: place
-        ours: peking
-        theirs: kunming
-        base: null
-        from: 'combine: combined cal.1960-04-13.china-leadership-2'
-      - field: cuts
-        ours:
-          -
-            - 124
-            - '1'
-          -
-            - 244
-            - '2'
-        theirs:
-          -
-            - 121
-            - '1'
-          -
-            - 147
-            - '2'
-        base: null
-        from: 'combine: combined cal.1960-04-13.china-leadership-2'
-      - field: n
-        ours: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 13, 1960; 上午, 机场); [[w.yang-shangkun-riji]], I, 498 (Apr. 13, 1960; Yang at the capital airport to see Zhou and his party off); [[w.chen-yi-nianpu]], 809 (Apr. 13, 1960, morning; Chen Yi leaves Peking with Zhou Enlai for Burma, India and Nepal); [[w.peng-zhen-nianpu-1902]], IV, 18 (Apr. 13, 1960, morning; Peng Zhen, with Song Qingling, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping and others, at the airport to see Zhou off to Burma, India and Nepal); [[w.zhu-de-nianpu-xinbian]], III, 1772 (Apr. 13, 1960; Zhu De 朱德, with Soong Ching Ling 宋庆龄, Dong Biwu 董必武, Chen Yun 陈云, Lin Biao 林彪, Deng Xiaoping 邓小平 and others, at the airport to see Zhou Enlai off to Burma, India and Nepal); [[w.chen-yun-nianpu-xiuding]], III, 34 (Chen Yun at the airport with Zhu De, Soong Ching Ling, Dong Biwu, Lin Biao, Deng Xiaoping and others to see Zhou Enlai off). See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai, Chen Yi, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Song Qingling.'
-        theirs: '[[w.zhou-enlai-nianpu-1949]], II, 303 (Apr. 13, 1960); [[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 13, 1960; 上午, 乘专机; 下午, 抵达昆明); [[w.chen-yi-nianpu]], 809 (Apr. 13, 1960, afternoon (下午); Chen Yi reaches Kunming). Names: Zhou Enlai, Chen Yi.'
-        base: null
-        from: 'combine: combined cal.1960-04-13.china-leadership-2'
-      - field: src
-        ours:
-          c: 1d7e3794
-          rows:
-            - 'w.zhou-enlai-waijiao-huodong 273: 1, 2'
-            - 'w.yang-shangkun-riji I, 498: 1'
-            - 'w.chen-yi-nianpu 809: ?'
-            - 'w.peng-zhen-nianpu-1902 IV, 18: ?'
-            - 'w.zhu-de-nianpu-xinbian III, 1772: ?'
-            - 'w.chen-yun-nianpu-xiuding III, 34: ?'
-        theirs:
-          c: 5478f777
-          rows:
-            - 'w.zhou-enlai-nianpu-1949 II, 303: ?'
-            - 'w.zhou-enlai-waijiao-huodong 273: 1'
-            - 'w.chen-yi-nianpu 809: ?'
-        base: null
-        from: 'combine: combined cal.1960-04-13.china-leadership-2'
     time_range:
       - 1960-04-12T22:00Z
       - 1960-04-13T04:00Z

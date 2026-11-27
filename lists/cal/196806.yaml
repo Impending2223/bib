@@ -2922,37 +2922,11 @@ entries:
     date: '1968-06-13'
     place: fargo
     thread: governors
-    also: [republican-party]
-    c: 'Fargo. North Dakota''s Republican convention endorses Edward Doherty, a newspaper publisher of New Rockford, N.D., for governor over four others, Richard Elkin, the State''s Nixon chairman, among them; McCarney, not seeking it, to run in the Sept. 3 primary. Young, Andrews and Kleppe endorsed. Its platform statement: the Great Society a "Grim Society of riots and assassinations."'
-    n: '[[w.cq-weekly-report]], June 21, 1968, 1548. Clayburgh national committeeman, succeeding Rolland Meidinger; Katherine Burgum committeewoman, succeeding Marian Bertsch (1548). Andrews: interest rates the highest since the Civil War, wheat the lowest since 1942 (1548). Names: Doherty, McCarney, Young, Andrews, Kleppe.'
+    also: [republican-party, elections-1968-state-conventions]
+    c: 'Fargo. North Dakota''s Republican convention endorses Edward Doherty, a newspaper publisher of New Rockford, N.D., for governor over four others, Richard Elkin, the State''s Nixon chairman, among them; McCarney, not seeking it, to run in the Sept. 3 primary. Young, Andrews and Kleppe endorsed. Its platform statement: the Great Society a "Grim Society of riots and assassinations."{1} Eight delegates, at least six for Nixon.{2} Rockefeller addresses the convention June 15.{3}'
+    n: '[[w.cq-weekly-report]], June 21, 1968, 1548. Clayburgh national committeeman, succeeding Rolland Meidinger; Katherine Burgum committeewoman, succeeding Marian Bertsch (1548). Andrews: interest rates the highest since the Civil War, wheat the lowest since 1942 (1548). [[w.cq-weekly-report]], July 26, 1968, 1986. Names: Doherty, McCarney, Young, Andrews, Kleppe, Rockefeller.'
     tags: [name:doherty-edward-w, name:mccarney-robert-p, name:young-milton-r, name:andrews-mark, name:kleppe-thomas-s, state:nd, name:rockefeller-nelson]
     aliases: [cal.1968-06-13.elections-1968-state-conventions]
-    conflict:
-      - field: c
-        ours: 'Fargo. North Dakota''s Republican convention endorses Edward Doherty, a newspaper publisher of New Rockford, N.D., for governor over four others, Richard Elkin, the State''s Nixon chairman, among them; McCarney, not seeking it, to run in the Sept. 3 primary. Young, Andrews and Kleppe endorsed. Its platform statement: the Great Society a "Grim Society of riots and assassinations."'
-        theirs: 'North Dakota''s Republican State convention: eight, at least six for Nixon. Rockefeller addresses it June 15.'
-        base: null
-        from: 'combine: combined cal.1968-06-13.elections-1968-state-conventions'
-      - field: when
-        ours: June 13–15
-        theirs: June 13
-        base: null
-        from: 'combine: combined cal.1968-06-13.elections-1968-state-conventions'
-      - field: place
-        ours: fargo
-        theirs: north-dakota
-        base: null
-        from: 'combine: combined cal.1968-06-13.elections-1968-state-conventions'
-      - field: thread
-        ours: governors
-        theirs: elections-1968-state-conventions
-        base: null
-        from: 'combine: combined cal.1968-06-13.elections-1968-state-conventions'
-      - field: n
-        ours: '[[w.cq-weekly-report]], June 21, 1968, 1548. Clayburgh national committeeman, succeeding Rolland Meidinger; Katherine Burgum committeewoman, succeeding Marian Bertsch (1548). Andrews: interest rates the highest since the Civil War, wheat the lowest since 1942 (1548). Names: Doherty, McCarney, Young, Andrews, Kleppe.'
-        theirs: '[[w.cq-weekly-report]], July 26, 1968, 1986. Names: Rockefeller.'
-        base: null
-        from: 'combine: combined cal.1968-06-13.elections-1968-state-conventions'
   - id: cal.1968-06-13.elections-1968-chicago
     when: June 13
     date: '1968-06-13'
@@ -3668,37 +3642,27 @@ entries:
     date: '1968-06-18'
     place: new-york-state
     thread: elections-1968
-    also: [elections-1968]
-    c: 'New York''s primary: the district delegates to the conventions, no candidate''s name on the ballot. Democratic, 123, three a district: McCarthy at least 52, the Kennedy delegates 26, Humphrey 6; Sorensen beaten in the 17th by a McCarthy delegate. Republican, 82: Rockefeller 77, Nixon 5; Rockefeller''s slate unopposed in 71.'
-    n: '[[w.cq-weekly-report]], June 21, 1968, 1544–45. Under 21 percent of the State''s 3,533,000 registered Democrats voting, on the Senate primary''s returns (1545). Check: the State''s returns. Names: McCarthy, Kennedy, Humphrey, Sorensen, Rockefeller, Nixon.'
+    also: [elections-1968-state-conventions]
+    c: 'New York''s primary: the district delegates to the conventions, no candidate''s name on the ballot.{1} Democratic, 123, three a district: McCarthy at least 52, the Kennedy delegates 26, Humphrey 6; Sorensen beaten in the 17th by a McCarthy delegate. Republican, 82: Rockefeller 77, Nixon 5; Rockefeller''s slate unopposed in 71.{2} Humphrey had not campaigned in the State.{3}'
+    n: '[[w.cq-weekly-report]], June 21, 1968, 1544–45; [[w.chester-american-melodrama]], 403, 405. Under 21 percent of the State''s 3,533,000 registered Democrats voting, on the Senate primary''s returns (1545). See [[cal.1968-06-28.elections-1968-state-conventions]]. Names: McCarthy, Kennedy, Humphrey, Sorensen, Rockefeller, Nixon. Check: the State''s returns; Chester''s count of the Democratic delegates (403, 405) differs from CQ''s.'
     src:
-      c: 4d53dcbf
+      c: 72858d76
       rows:
-        - 'w.chester-american-melodrama 403, 405: all'
+        - 'w.cq-weekly-report June 21, 1968, 1544–45: 1, 2'
+        - 'w.chester-american-melodrama 403, 405: 3'
     tags: [name:mccarthy-eugene-j, name:kennedy-robert-f, name:humphrey-hubert-h, name:sorensen-theodore-c, name:rockefeller-nelson, name:nixon-richard-m, state:ny]
     aliases: [cal.1968-06-18.elections-1968-state-conventions]
-    conflict:
-      - field: c
-        ours: 'New York''s primary: the district delegates to the conventions, no candidate''s name on the ballot. Democratic, 123, three a district: McCarthy at least 52, the Kennedy delegates 26, Humphrey 6; Sorensen beaten in the 17th by a McCarthy delegate. Republican, 82: Rockefeller 77, Nixon 5; Rockefeller''s slate unopposed in 71.'
-        theirs: 'New York''s Democratic primary for delegates to Chicago, by district: of 123 chosen, 63 for McCarthy, 30 pledged to Robert Kennedy, 19 uncommitted, 11 for Humphrey. Humphrey had not campaigned in the State.'
-        base: null
-        from: 'combine: combined cal.1968-06-18.elections-1968-state-conventions'
-      - field: thread
-        ours: elections-1968
-        theirs: elections-1968-state-conventions
-        base: null
-        from: 'combine: combined cal.1968-06-18.elections-1968-state-conventions'
-      - field: n
-        ours: '[[w.cq-weekly-report]], June 21, 1968, 1544–45. Under 21 percent of the State''s 3,533,000 registered Democrats voting, on the Senate primary''s returns (1545). Check: the State''s returns. Names: McCarthy, Kennedy, Humphrey, Sorensen, Rockefeller, Nixon.'
-        theirs: '[[w.chester-american-melodrama]], 403, 405. Check: the figures, against the State''s returns. See [[cal.1968-06-28.elections-1968-state-conventions]]. Names: McCarthy, Robert Kennedy, Humphrey.'
-        base: null
-        from: 'combine: combined cal.1968-06-18.elections-1968-state-conventions'
     time_range:
       - 1968-06-19T00:00Z
       - 1968-06-19T06:00Z
     time_band: election night
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: '2'
+        witness: w.chester-american-melodrama
+        reads: of the 123 Democratic delegates, 63 for McCarthy, 30 pledged to Robert Kennedy, 19 uncommitted, 11 for Humphrey
+        at: 403, 405
   - id: cal.1968-06-18.elections-1968-ny-2
     when: June 18
     date: '1968-06-18'
@@ -4256,25 +4220,15 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [africa, china-army, china-foreign]
-    c: Zhou goes with Nyerere to a PLA unit of the Peking garrison and lunches with the soldiers.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 526 (June 20, 1968; morning; Beijing). Names: Zhou Enlai, Nyerere.'
+    c: Zhou goes with Nyerere to a PLA unit of the Peking garrison and lunches with the soldiers.{1} They visit also a factory and a village near Peking.{2}
+    n: '[[w.zhou-enlai-waijiao-huodong]], 526 (June 20, 1968; morning; Beijing); [[w.zhou-enlai-nianpu-1949-2020]], III, 236 (June 20, 1968; the visits to troops, a factory and a village near Peking). Made public: 2020. Names: Zhou Enlai, Nyerere.'
     src:
-      c: 10bab4f2
+      c: ecc8d1d5
       rows:
-        - 'w.zhou-enlai-waijiao-huodong 526: all'
+        - 'w.zhou-enlai-waijiao-huodong 526: 1'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 236: 1, 2'
     tags: [polity:prc, name:zhou-enlai, name:nyerere-julius-k, polity:tanzania, vis:only:prc+tanzania]
     aliases: [cal.1968-06-20.china-leadership]
-    conflict:
-      - field: c
-        ours: Zhou goes with Nyerere to a PLA unit of the Peking garrison and lunches with the soldiers.
-        theirs: Zhou Enlai accompanies Nyerere on visits to troops, a factory and a village near Peking.
-        base: null
-        from: 'combine: combined cal.1968-06-20.china-leadership'
-      - field: n
-        ours: '[[w.zhou-enlai-waijiao-huodong]], 526 (June 20, 1968; morning; Beijing). Names: Zhou Enlai, Nyerere.'
-        theirs: '[[w.zhou-enlai-nianpu-1949-2020]], III, 236 (June 20, 1968). Made public: 2020. Names: Zhou Enlai, Nyerere.'
-        base: null
-        from: 'combine: combined cal.1968-06-20.china-leadership'
     time_range:
       - 1968-06-19T22:00Z
       - 1968-06-20T04:00Z

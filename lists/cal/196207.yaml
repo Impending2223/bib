@@ -3642,48 +3642,16 @@ entries:
     also: [farm, press-and-broadcasting, china-tenth-plenum]
     follows:
       - cal.1962-07-19.china-leadership
-    c: Deng Xiaoping 邓小平 signs and issues the Center's 中共中央 notice that the press not promote "output fixed by household" 包产到户 and related questions.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1717 (July 19, 1962); [[w.peng-zhen-nianpu-1902]], IV, 206 (July 19, 1962; the Center''s urgent notice not to advertise "output by household" and the like in the press). Made public: 2009 (the nianpu). The order: after [[cal.1962-07-19.china-leadership]], the printed order alone ([[w.deng-xiaoping-nianpu-1904]], III, 1717). Check: the day; [[w.mao-zedong-zhuan]], V, ch. 70 has the Center''s urgent notice sent July 18. Names: Deng Xiaoping.'
+    c: 'Deng Xiaoping 邓小平 signs and issues the Center''s 中共中央 notice that the press not promote "output fixed by household" 包产到户 and related questions.{1} Its title: "On not advertising household contracting 包产到户 in the newspapers and other questions" 《关于不要在报纸上宣传“包产到户”等问题的通知》.{2}'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1717 (July 19, 1962); [[w.peng-zhen-nianpu-1902]], IV, 206 (July 19, 1962; the Center''s urgent notice not to advertise "output by household" and the like in the press); [[w.mao-zedong-zhuan]], V, ch. 70 (the notice''s title; the notice sent July 18). Made public: 2009 (the nianpu); [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. The order: after [[cal.1962-07-19.china-leadership]], the printed order alone ([[w.deng-xiaoping-nianpu-1904]], III, 1717). Names: Deng Xiaoping. Check: the day; [[w.mao-zedong-zhuan]], V, ch. 70 has the Center''s urgent notice sent July 18. Check: the notice''s text; the book names its title only.'
     src:
-      c: 99bdf749
+      c: e2b482ba
       rows:
-        - 'w.deng-xiaoping-nianpu-1904 III, 1717: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1717: 1'
         - 'w.peng-zhen-nianpu-1902 IV, 206: ?'
+        - 'w.mao-zedong-zhuan V, ch. 70: 2'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
     aliases: [cal.1962-07-18.china-leadership-4]
-    conflict:
-      - field: c
-        ours: Deng Xiaoping 邓小平 signs and issues the Center's 中共中央 notice that the press not promote "output fixed by household" 包产到户 and related questions.
-        theirs: The Center sends an urgent notice, "On not advertising household contracting 包产到户 in the newspapers and other questions" 《关于不要在报纸上宣传“包产到户”等问题的通知》.
-        base: null
-        from: 'combine: combined cal.1962-07-18.china-leadership-4'
-      - field: when
-        ours: July 19
-        theirs: July 18
-        base: null
-        from: 'combine: combined cal.1962-07-18.china-leadership-4'
-      - field: date
-        ours: '1962-07-19'
-        theirs: '1962-07-18'
-        base: null
-        from: 'combine: combined cal.1962-07-18.china-leadership-4'
-      - field: n
-        ours: '[[w.deng-xiaoping-nianpu-1904]], III, 1717 (July 19, 1962); [[w.peng-zhen-nianpu-1902]], IV, 206 (July 19, 1962; the Center''s urgent notice not to advertise "output by household" and the like in the press). Made public: 2009 (the nianpu). The order: after [[cal.1962-07-19.china-leadership]], the printed order alone ([[w.deng-xiaoping-nianpu-1904]], III, 1717). Check: the day; [[w.mao-zedong-zhuan]], V, ch. 70 has the Center''s urgent notice sent July 18. Names: Deng Xiaoping.'
-        theirs: '[[w.mao-zedong-zhuan]], V, ch. 70. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Check: the notice''s text and its full title; the book names it only.'
-        base: null
-        from: 'combine: combined cal.1962-07-18.china-leadership-4'
-      - field: src
-        ours:
-          c: 99bdf749
-          rows:
-            - 'w.deng-xiaoping-nianpu-1904 III, 1717: all'
-            - 'w.peng-zhen-nianpu-1902 IV, 206: ?'
-        theirs:
-          c: 5930768d
-          rows:
-            - 'w.mao-zedong-zhuan V, ch. 70: all'
-        base: null
-        from: 'combine: combined cal.1962-07-18.china-leadership-4'
   - id: cal.1962-07-19.china-leadership-11
     when: July 19
     date: '1962-07-19'

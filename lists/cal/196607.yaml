@@ -1955,46 +1955,18 @@ entries:
     date: '1966-07-10'
     place: peking
     thread: china
-    also: [vietnam-air-war, vietnam-hanoi, china-foreign]
-    c: 'Peking, a mass rally against the bombing of the oil depots at Hanoi and Haiphong. Chen Yi: the Soviet Union seeks a relaxation of tensions in Europe so that the United States can "draw away forces to cope with the Vietnamese people."'
-    n: '[[w.zhai-china-and-the-vietnam]], 165; [[w.chen-yi-nianpu]], 1156 (July 10, 1966, morning, the Great Hall of the People; Chen Yi speaks at the rally against the bombing of Hanoi and Haiphong; the bombing gives both halves of Vietnam the right to help each other and the world''s peoples the right to support them; condemns the Soviet revisionists as the helpers of the "bombing to force talks"). To check: Chen Yi''s speech, quoted in [[w.zagoria-vietnam-triangle]], 144 (cited by [[w.zhai-china-and-the-vietnam]], 165 n.40). Names: Chen Yi.'
+    also: [vietnam-air-war, vietnam-hanoi, china-foreign, china-zhou-foreign]
+    c: 'Peking, a mass rally of 10,000 from all circles in the capital, in the Great Hall of the People, angrily condemns the bombing of the oil depots at Hanoi and Haiphong and the widening of the war in Vietnam.{1} Zhou Enlai attends.{2} Chen Yi: the Soviet Union seeks a relaxation of tensions in Europe so that the United States can "draw away forces to cope with the Vietnamese people."{3}'
+    n: '[[w.zhai-china-and-the-vietnam]], 165; [[w.zhou-enlai-waijiao-huodong]], 500 (July 10, 1966; morning; Great Hall of the People); [[w.chen-yi-nianpu]], 1156 (July 10, 1966, morning, the Great Hall of the People; Chen Yi speaks at the rally against the bombing of Hanoi and Haiphong; the bombing gives both halves of Vietnam the right to help each other and the world''s peoples the right to support them; condemns the Soviet revisionists as the helpers of the "bombing to force talks"). To check: Chen Yi''s speech, quoted in [[w.zagoria-vietnam-triangle]], 144 (cited by [[w.zhai-china-and-the-vietnam]], 165 n.40). Names: Chen Yi, Zhou Enlai.'
     src:
-      c: 29890d53
+      c: 97d12edd
       rows:
-        - 'w.zhai-china-and-the-vietnam 165: all'
-        - 'via x.1966-07-10.chen-yi-at-the-peking-rally: all'
+        - 'w.zhai-china-and-the-vietnam 165: 1, 3'
+        - 'via x.1966-07-10.chen-yi-at-the-peking-rally: 3'
+        - 'w.zhou-enlai-waijiao-huodong 500: 1, 2'
         - 'w.chen-yi-nianpu 1156: ?'
     tags: [name:chen-yi, polity:prc, name:zhou-enlai]
     aliases: [cal.1966-07-10.china-leadership-5]
-    conflict:
-      - field: c
-        ours: 'Peking, a mass rally against the bombing of the oil depots at Hanoi and Haiphong. Chen Yi: the Soviet Union seeks a relaxation of tensions in Europe so that the United States can "draw away forces to cope with the Vietnamese people."'
-        theirs: Zhou attends the rally of 10,000 from all circles in the capital, in the Great Hall of the People, angrily condemning the U.S. bombing of Hanoi and Haiphong and widening of the war in Vietnam.
-        base: null
-        from: 'combine: combined cal.1966-07-10.china-leadership-5'
-      - field: thread
-        ours: china
-        theirs: china-zhou-foreign
-        base: null
-        from: 'combine: combined cal.1966-07-10.china-leadership-5'
-      - field: n
-        ours: '[[w.zhai-china-and-the-vietnam]], 165; [[w.chen-yi-nianpu]], 1156 (July 10, 1966, morning, the Great Hall of the People; Chen Yi speaks at the rally against the bombing of Hanoi and Haiphong; the bombing gives both halves of Vietnam the right to help each other and the world''s peoples the right to support them; condemns the Soviet revisionists as the helpers of the "bombing to force talks"). To check: Chen Yi''s speech, quoted in [[w.zagoria-vietnam-triangle]], 144 (cited by [[w.zhai-china-and-the-vietnam]], 165 n.40). Names: Chen Yi.'
-        theirs: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 10, 1966; morning; Great Hall of the People). Names: Zhou Enlai.'
-        base: null
-        from: 'combine: combined cal.1966-07-10.china-leadership-5'
-      - field: src
-        ours:
-          c: 29890d53
-          rows:
-            - 'w.zhai-china-and-the-vietnam 165: all'
-            - 'via x.1966-07-10.chen-yi-at-the-peking-rally: all'
-            - 'w.chen-yi-nianpu 1156: ?'
-        theirs:
-          c: fdf4682f
-          rows:
-            - 'w.zhou-enlai-waijiao-huodong 500: all'
-        base: null
-        from: 'combine: combined cal.1966-07-10.china-leadership-5'
     time_range:
       - 1966-07-09T22:00Z
       - 1966-07-10T04:00Z
@@ -2766,24 +2738,14 @@ entries:
     thread: china-zhou-foreign
     also: [south-asia, china-foreign]
     c: Zhou goes to the Hongqiao airport at Shanghai to see off Crown Prince Birendra, returning home.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 13, 1966; evening; Hongqiao airport, Shanghai). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 13, 1966; evening; Hongqiao airport, Shanghai); [[w.zhou-enlai-nianpu-1949-2020]], III, 38 (under July 3, 1966). Made public: 2020. Names: Zhou Enlai. Check: the day; the nianpu has the see-off under July 3.'
     src:
       c: 0ca5a3f4
       rows:
         - 'w.zhou-enlai-waijiao-huodong 500: all'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 38: all'
     tags: [polity:prc, name:zhou-enlai, name:birendra-bir-bikram-sha-dev, vis:only:prc+nepal]
     aliases: [cal.1966-07-13.china-leadership-2]
-    conflict:
-      - field: c
-        ours: Zhou goes to the Hongqiao airport at Shanghai to see off Crown Prince Birendra, returning home.
-        theirs: Zhou Enlai sees Crown Prince Birendra off from Shanghai.
-        base: null
-        from: 'combine: combined cal.1966-07-13.china-leadership-2'
-      - field: n
-        ours: '[[w.zhou-enlai-waijiao-huodong]], 500 (July 13, 1966; evening; Hongqiao airport, Shanghai). Names: Zhou Enlai.'
-        theirs: '[[w.zhou-enlai-nianpu-1949-2020]], III, 38 (under July 3, 1966). Made public: 2020. See [[cal.1966-07-03.china-leadership]]. Names: Zhou Enlai.'
-        base: null
-        from: 'combine: combined cal.1966-07-13.china-leadership-2'
     time_range:
       - 1966-07-13T11:00Z
       - 1966-07-13T14:00Z
@@ -3043,10 +3005,10 @@ entries:
     place: chicago
     thread: open-housing
     also: [civil-disorders, civil-rights-the-executive]
-    c: 'Chicago, before midnight to dawn July 16.{1} Doar and Roger Wilkins of Justice, sent by Katzenbach with the White House''s approval, at King''s Hamlin Avenue flat: four hours of King with Vice Lords and Cobras; Richard Tidwell of the Roman Saints for giving nonviolence a try. Then King and the Justice men to dawn.{2}'
-    n: '[[w.branch-at-canaans-edge]], 504–5; [[w.kotz-judgment-days]], 365–66 (Roger Wilkins: a "seminar in nonviolence" with the gangs, "the patience of a saint"). The time is the first day''s. Check: the hours; [[w.cohen-american-pharaoh]], 391–92 has five hours with the gang leaders, [[w.branch-at-canaans-edge]], 504–5 four. To check: [[w.wilkins-mans-life]], 208 (cited by [[w.branch-at-canaans-edge]], 504); [[w.garrow-bearing-the-cross]], 496 (cited by [[w.branch-at-canaans-edge]], 504); Int. John Doar, May 12, 1986 (Branch) (cited by [[w.branch-at-canaans-edge]], 504); Citizen King, a Roja Production for The American Experience, PBS, 2004 (cited by [[w.branch-at-canaans-edge]], 504); "Chicago Calmer as Gangs Agree to End Violence/ Youths Heed Dr. King''s Plea to Shift Tactics in Efforts to Achieve Their Aims," NYR July 17, 1966, oy le Internal deliberations reeled: Anderson and Pickering, Confronting, p. 233 (cited by [[w.branch-at-canaans-edge]], 505); Wiretap transcript of telephone conversation between Stanley Levison and Andrew Young, 12:13 a.m., July 15, 1966, FLN Y-91001 (cited by [[w.branch-at-canaans-edge]], 505). See [[cal.1966-07-12.open-housing]]. Names: Doar, Roger Wilkins, Katzenbach, King.'
+    c: 'Chicago, before midnight to dawn July 16.{1} Doar and Roger Wilkins of Justice, sent by Katzenbach with the White House''s approval, at King''s Hamlin Avenue flat: four hours of King with Vice Lords and Cobras; Richard Tidwell of the Roman Saints for giving nonviolence a try. Then King and the Justice men to dawn.{2} The West Side''s gang leaders renounce violence.{3} Young: "This puts us over the hump."{4}'
+    n: '[[w.branch-at-canaans-edge]], 504–5; [[w.kotz-judgment-days]], 365–66 (Roger Wilkins: a "seminar in nonviolence" with the gangs, "the patience of a saint"); [[w.cohen-american-pharaoh]], 391–92 (King''s flat; five hours with the gang leaders). The time is the first day''s. Check: the hours; [[w.cohen-american-pharaoh]], 391–92 has five hours with the gang leaders, [[w.branch-at-canaans-edge]], 504–5 four. To check: [[w.wilkins-mans-life]], 208 (cited by [[w.branch-at-canaans-edge]], 504); [[w.garrow-bearing-the-cross]], 496 (cited by [[w.branch-at-canaans-edge]], 504); Int. John Doar, May 12, 1986 (Branch) (cited by [[w.branch-at-canaans-edge]], 504); Citizen King, a Roja Production for The American Experience, PBS, 2004 (cited by [[w.branch-at-canaans-edge]], 504); "Chicago Calmer as Gangs Agree to End Violence/ Youths Heed Dr. King''s Plea to Shift Tactics in Efforts to Achieve Their Aims," NYR July 17, 1966, oy le Internal deliberations reeled: Anderson and Pickering, Confronting, p. 233 (cited by [[w.branch-at-canaans-edge]], 505); Wiretap transcript of telephone conversation between Stanley Levison and Andrew Young, 12:13 a.m., July 15, 1966, FLN Y-91001 (cited by [[w.branch-at-canaans-edge]], 505). See [[cal.1966-07-12.open-housing]]. Names: Doar, Roger Wilkins, Katzenbach, King, Andrew Young.'
     src:
-      c: 4df5a265
+      c: dd34f5ab
       rows:
         - 'w.branch-at-canaans-edge 504–5: 1, 2'
         - 'via x.1986-05-12.int-john-doar-may-12-1986: 1, 2'
@@ -3054,45 +3016,9 @@ entries:
         - 'via x.1966-07-17.chicago-calmer-as-gangs-agree-to: 1, 2'
         - 'via x.1966-07-15.wiretap-transcript-of-telephone-conversation-between: 1, 2'
         - 'w.kotz-judgment-days 365–66: 1'
+        - 'w.cohen-american-pharaoh 391–92: 3, 4'
     tags: [name:doar-john, name:wilkins-roger-w, name:katzenbach-nicholas, name:king-martin-luther-jr, state:il, city:chicago, name:young-andrew-j-jr]
     aliases: [cal.1966-07-16.open-housing-2]
-    conflict:
-      - field: c
-        ours: 'Chicago, before midnight to dawn July 16. Doar and Roger Wilkins of Justice, sent by Katzenbach with the White House''s approval, at King''s Hamlin Avenue flat: four hours of King with Vice Lords and Cobras; Richard Tidwell of the Roman Saints for giving nonviolence a try. Then King and the Justice men to dawn.'
-        theirs: 'Chicago, King''s flat. Five hours with the West Side''s gang leaders, who renounce violence. Young: "This puts us over the hump."'
-        base: null
-        from: 'combine: combined cal.1966-07-16.open-housing-2'
-      - field: when
-        ours: July 15–16
-        theirs: July 16
-        base: null
-        from: 'combine: combined cal.1966-07-16.open-housing-2'
-      - field: date
-        ours: '1966-07-15'
-        theirs: '1966-07-16'
-        base: null
-        from: 'combine: combined cal.1966-07-16.open-housing-2'
-      - field: n
-        ours: '[[w.branch-at-canaans-edge]], 504–5; [[w.kotz-judgment-days]], 365–66 (Roger Wilkins: a "seminar in nonviolence" with the gangs, "the patience of a saint"). The time is the first day''s. Check: the hours; [[w.cohen-american-pharaoh]], 391–92 has five hours with the gang leaders, [[w.branch-at-canaans-edge]], 504–5 four. To check: [[w.wilkins-mans-life]], 208 (cited by [[w.branch-at-canaans-edge]], 504); [[w.garrow-bearing-the-cross]], 496 (cited by [[w.branch-at-canaans-edge]], 504); Int. John Doar, May 12, 1986 (Branch) (cited by [[w.branch-at-canaans-edge]], 504); Citizen King, a Roja Production for The American Experience, PBS, 2004 (cited by [[w.branch-at-canaans-edge]], 504); "Chicago Calmer as Gangs Agree to End Violence/ Youths Heed Dr. King''s Plea to Shift Tactics in Efforts to Achieve Their Aims," NYR July 17, 1966, oy le Internal deliberations reeled: Anderson and Pickering, Confronting, p. 233 (cited by [[w.branch-at-canaans-edge]], 505); Wiretap transcript of telephone conversation between Stanley Levison and Andrew Young, 12:13 a.m., July 15, 1966, FLN Y-91001 (cited by [[w.branch-at-canaans-edge]], 505). See [[cal.1966-07-12.open-housing]]. Names: Doar, Roger Wilkins, Katzenbach, King.'
-        theirs: '[[w.cohen-american-pharaoh]], 391–92. Names: Andrew Young.'
-        base: null
-        from: 'combine: combined cal.1966-07-16.open-housing-2'
-      - field: src
-        ours:
-          c: 4df5a265
-          rows:
-            - 'w.branch-at-canaans-edge 504–5: 1, 2'
-            - 'via x.1986-05-12.int-john-doar-may-12-1986: 1, 2'
-            - 'via x.2004.citizen-king-a-roja-production-for: 1, 2'
-            - 'via x.1966-07-17.chicago-calmer-as-gangs-agree-to: 1, 2'
-            - 'via x.1966-07-15.wiretap-transcript-of-telephone-conversation-between: 1, 2'
-            - 'w.kotz-judgment-days 365–66: 1'
-        theirs:
-          c: 5af7205b
-          rows:
-            - 'w.cohen-american-pharaoh 391–92: all'
-        base: null
-        from: 'combine: combined cal.1966-07-16.open-housing-2'
   - id: cal.1966-07-15.king
     when: July 15
     date: '1966-07-15'
@@ -6084,37 +6010,16 @@ entries:
     place: peking
     thread: china-may-sixteenth
     also: [china-propaganda]
-    c: Peking 北京, the Beijing Exhibition Hall 北京展览馆. A rally to criticize the work groups; Jiang Qing 江青 and others come to back the students against them. Peng Xiaomeng 彭小蒙, of the Peking University 北京大学 middle school's Red Flag, denounces the work group.
-    n: '[[w.pu-weihua-zalan-jiu-shijie]], 179. The words: 7月28日晚 (179). See [[cal.1966-07-27.china-leadership-12]]; the Tsinghua middle school Red Guards'' posters read out there and handed to Jiang Qing for Mao: [[cal.1966-07-28.china-leadership-6]]. Names: Jiang Qing.'
+    c: 'Peking 北京, the Beijing Exhibition Hall 北京展览馆. A rally to criticize the work groups; Jiang Qing 江青 and others come to back the students against them.{1} Peng Xiaomeng 彭小蒙, of the Peking University 北京大学 middle school''s Red Flag, denounces the work group.{2} Jiang, at the Haidian district''s 海淀区 middle-school delegates'' meeting, backs the Red Guards'' rebellion against the work groups and speaks of beating: "we do not advocate beating, but it is nothing much"; beating cannot drive out wrong ideas, but beatings in a revolutionary storm are no bad thing; Mao 毛泽东 has said a good man beating a bad one serves him right, a bad man beating a good one honors the good, good men beating each other is a misunderstanding; "from now on, no more beating."{3}'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 179; [[w.pu-weihua-zalan-jiu-shijie]], 240, 240 n.81. The words: 7月28日晚 (179); 我们不提倡打人,但打人也没有什么了不起 (240). See [[cal.1966-07-27.china-leadership-12]]; the Tsinghua middle school Red Guards'' posters read out there and handed to Jiang Qing for Mao: [[cal.1966-07-28.china-leadership-6]]. To check: 江青對北京市海淀區中學生的講話 (July 28, 1966), in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.pu-weihua-zalan-jiu-shijie]], 240 n.81). Names: Jiang Qing, Mao Zedong.'
     src:
-      c: 650aa12d
+      c: b3129f05
       rows:
-        - 'w.pu-weihua-zalan-jiu-shijie 179: all'
+        - 'w.pu-weihua-zalan-jiu-shijie 179: 1, 2'
+        - 'w.pu-weihua-zalan-jiu-shijie 240: 3'
+        - 'via x.1966-07-28.jiang-qing-speech-haidian-middle-school-students: 3'
     tags: [polity:prc, name:jiang-qing, name:mao-zedong]
     aliases: [cal.1966-07-28.china-leadership-14]
-    conflict:
-      - field: c
-        ours: Peking 北京, the Beijing Exhibition Hall 北京展览馆. A rally to criticize the work groups; Jiang Qing 江青 and others come to back the students against them. Peng Xiaomeng 彭小蒙, of the Peking University 北京大学 middle school's Red Flag, denounces the work group.
-        theirs: 'Peking 北京, the Beijing Exhibition Hall 北京展览馆. Jiang Qing 江青, at the Haidian district''s 海淀区 middle-school delegates'' meeting, backs the Red Guards'' rebellion against the work groups and speaks of beating: "we do not advocate beating, but it is nothing much"; beating cannot drive out wrong ideas, but beatings in a revolutionary storm are no bad thing; Mao 毛泽东 has said a good man beating a bad one serves him right, a bad man beating a good one honors the good, good men beating each other is a misunderstanding; "from now on, no more beating."'
-        base: null
-        from: 'combine: combined cal.1966-07-28.china-leadership-14'
-      - field: n
-        ours: '[[w.pu-weihua-zalan-jiu-shijie]], 179. The words: 7月28日晚 (179). See [[cal.1966-07-27.china-leadership-12]]; the Tsinghua middle school Red Guards'' posters read out there and handed to Jiang Qing for Mao: [[cal.1966-07-28.china-leadership-6]]. Names: Jiang Qing.'
-        theirs: '[[w.pu-weihua-zalan-jiu-shijie]], 240, 240 n.81. The words: 我们不提倡打人,但打人也没有什么了不起 (240); the meeting 7月28日晚 (179). To check: 江青對北京市海淀區中學生的講話 (July 28, 1966), in [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (cited by [[w.pu-weihua-zalan-jiu-shijie]], 240 n.81). See [[cal.1966-07-28.china-leadership-12]]. Names: Jiang Qing, Mao Zedong.'
-        base: null
-        from: 'combine: combined cal.1966-07-28.china-leadership-14'
-      - field: src
-        ours:
-          c: 650aa12d
-          rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 179: all'
-        theirs:
-          c: 686c6800
-          rows:
-            - 'w.pu-weihua-zalan-jiu-shijie 240: all'
-            - 'via x.1966-07-28.jiang-qing-speech-haidian-middle-school-students: all'
-        base: null
-        from: 'combine: combined cal.1966-07-28.china-leadership-14'
     time_range:
       - 1966-07-28T11:00Z
       - 1966-07-28T14:00Z

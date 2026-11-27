@@ -3518,43 +3518,18 @@ entries:
     when: July 16
     date: '1963-07-16'
     thread: europe-and-the-alliance
+    also: [japan]
     follows:
       - cal.1963-07-16.economy-2
-    c: 'Kennedy approves McNamara''s recommendations, with the Joint Chiefs'' caveats, to cut $300 to $400 million from overseas spending by December 1964: 23 B-47s and 32 C-130s home, four air bases consolidated, Army stocks and facilities reduced.'
-    n: '[[w.poole-joint-chiefs-of-staff]], 209–10. After [[cal.1963-07-16.economy-2|McNamara''s memorandum]]: McNamara sent his recommendations to the White House with the Chiefs'' caveats attached, and Kennedy approved them on July 16 ([[w.poole-joint-chiefs-of-staff]], 210); the memorandum of that day is the one that makes them, the 23 B-47s and 32 C-130s among them, with the Chiefs'' concern set out ([FRUS 1961–63, IX, doc. 28](https://history.state.gov/historicaldocuments/frus1961-63v09/d28)). See [[cal.1963-07-16.europe-and-the-alliance]]. Names: Kennedy, McNamara.'
+    c: 'Kennedy approves McNamara''s recommendations, with the Joint Chiefs'' caveats, to cut $300 to $400 million from overseas spending by December 1964: 23 B-47s and 32 C-130s home, four air bases consolidated, Army stocks and facilities reduced.{1} In Japan, the smaller steps, the move of the 1st Marine Air Wing to Okinawa dropped.{2}'
+    n: '[[w.poole-joint-chiefs-of-staff]], 209–10; [[w.poole-joint-chiefs-of-staff]], 291. After [[cal.1963-07-16.economy-2|McNamara''s memorandum]]: McNamara sent his recommendations to the White House with the Chiefs'' caveats attached, and Kennedy approved them on July 16 ([[w.poole-joint-chiefs-of-staff]], 210); McNamara dropped the move of the Marine Air Wing, and Kennedy approved the smaller steps ([[w.poole-joint-chiefs-of-staff]], 290–91); the memorandum of that day is the one that makes the cuts, the 23 B-47s and 32 C-130s among them, with the Chiefs'' concern set out, and proposes the steps in Japan, leaving the wing''s move to a review ([FRUS 1961–63, IX, doc. 28](https://history.state.gov/historicaldocuments/frus1961-63v09/d28)). Names: Kennedy, McNamara.'
     src:
-      c: 6444dfa9
+      c: 4c41ac4a
       rows:
-        - 'w.poole-joint-chiefs-of-staff 209–10: all'
+        - 'w.poole-joint-chiefs-of-staff 209–10: 1'
+        - 'w.poole-joint-chiefs-of-staff 291: 2'
     tags: [name:kennedy-john-f, name:mcnamara-robert-s]
     aliases: [cal.1963-07-16.japan]
-    conflict:
-      - field: c
-        ours: 'Kennedy approves McNamara''s recommendations, with the Joint Chiefs'' caveats, to cut $300 to $400 million from overseas spending by December 1964: 23 B-47s and 32 C-130s home, four air bases consolidated, Army stocks and facilities reduced.'
-        theirs: Kennedy approves the smaller steps in Japan, the move of the 1st Marine Air Wing to Okinawa dropped.
-        base: null
-        from: 'combine: combined cal.1963-07-16.japan'
-      - field: thread
-        ours: europe-and-the-alliance
-        theirs: japan
-        base: null
-        from: 'combine: combined cal.1963-07-16.japan'
-      - field: n
-        ours: '[[w.poole-joint-chiefs-of-staff]], 209–10. After [[cal.1963-07-16.economy-2|McNamara''s memorandum]]: McNamara sent his recommendations to the White House with the Chiefs'' caveats attached, and Kennedy approved them on July 16 ([[w.poole-joint-chiefs-of-staff]], 210); the memorandum of that day is the one that makes them, the 23 B-47s and 32 C-130s among them, with the Chiefs'' concern set out ([FRUS 1961–63, IX, doc. 28](https://history.state.gov/historicaldocuments/frus1961-63v09/d28)). See [[cal.1963-07-16.japan]]. Names: Kennedy, McNamara.'
-        theirs: '[[w.poole-joint-chiefs-of-staff]], 291. After [[cal.1963-07-16.economy-2|McNamara''s memorandum]]: McNamara dropped the move of the Marine Air Wing, and on July 16 Kennedy approved the smaller steps ([[w.poole-joint-chiefs-of-staff]], 290–91); the memorandum of that day proposes the steps in Japan and leaves the wing''s move to a review ([FRUS 1961–63, IX, doc. 28](https://history.state.gov/historicaldocuments/frus1961-63v09/d28)). Names: Kennedy.'
-        base: null
-        from: 'combine: combined cal.1963-07-16.japan'
-      - field: src
-        ours:
-          c: 6444dfa9
-          rows:
-            - 'w.poole-joint-chiefs-of-staff 209–10: all'
-        theirs:
-          c: da0248f1
-          rows:
-            - 'w.poole-joint-chiefs-of-staff 291: all'
-        base: null
-        from: 'combine: combined cal.1963-07-16.japan'
     time_range:
       - 1963-07-16T13:00Z
       - 1963-07-16T21:00Z

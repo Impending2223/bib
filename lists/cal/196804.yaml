@@ -5385,42 +5385,16 @@ entries:
     date: '1968-04-26'
     place: washington
     thread: economy-surcharge
-    also: [economy-surcharge]
+    also: [cities-and-housing]
     c: 'The Urban Institute''s board at its first meeting, the Cabinet Room. Johnson sets aside his text: "You''ve got to figure out how to raise the taxes to pay for these social programs"; "tell us how to convince the American people that they should ante up."'
-    n: '[[w.califano-triumph-and-tragedy-of]], 284. Names: Johnson.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 284; [[w.dallek-flawed-giant]], 535. Names: Johnson.'
     src:
       c: 5f6c89ff
       rows:
         - 'w.califano-triumph-and-tragedy-of 284: all'
+        - 'w.dallek-flawed-giant 535: all'
     tags: [name:johnson-lyndon-b]
     aliases: [cal.1968-04-26.cities-and-housing]
-    conflict:
-      - field: c
-        ours: 'The Urban Institute''s board at its first meeting, the Cabinet Room. Johnson sets aside his text: "You''ve got to figure out how to raise the taxes to pay for these social programs"; "tell us how to convince the American people that they should ante up."'
-        theirs: 'Johnson to the board of the new Urban Institute, his prepared remarks set aside: the first problem is the money for the programs the people need; what is needed is someone to convince the American people to "ante up."'
-        base: null
-        from: 'combine: combined cal.1968-04-26.cities-and-housing'
-      - field: thread
-        ours: economy-surcharge
-        theirs: cities-and-housing
-        base: null
-        from: 'combine: combined cal.1968-04-26.cities-and-housing'
-      - field: n
-        ours: '[[w.califano-triumph-and-tragedy-of]], 284. Names: Johnson.'
-        theirs: '[[w.dallek-flawed-giant]], 535. Names: Johnson.'
-        base: null
-        from: 'combine: combined cal.1968-04-26.cities-and-housing'
-      - field: src
-        ours:
-          c: 5f6c89ff
-          rows:
-            - 'w.califano-triumph-and-tragedy-of 284: all'
-        theirs:
-          c: baa02d13
-          rows:
-            - 'w.dallek-flawed-giant 535: all'
-        base: null
-        from: 'combine: combined cal.1968-04-26.cities-and-housing'
     time_range:
       - 1968-04-26T14:00Z
       - 1968-04-26T22:00Z
