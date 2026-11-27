@@ -735,6 +735,7 @@ ops:
       - name:mao-zedong
       - name:deng-xiaoping
       - vis:only:prc
+      time_zone: Asia/Shanghai
       src:
         c: cc12f939
         rows:
@@ -749,6 +750,11 @@ ops:
         - 'w.jianguo-yilai-zhongyao-wenxian XIV, 317 n.1: ?'
         - 'w.deng-xiaoping-nianpu-1904 III, 1633–1634: ?'
     kind: correct
+- follows:
+    id: cal.1961-04-25.china-leadership-11
+    add:
+    - cal.1961-04-25.china-leadership-8
+    basis: '[[w.deng-xiaoping-nianpu-1904]], III, 1633–1634 (the draft written at Mao''s bidding; 晚, the draft notice discussed at Mao''s)'
 - edit:
     id: cal.1961-05-02.china-leadership-2
     base: a31568fb
