@@ -1,5 +1,5 @@
 patch: notes-pass-10
-by: 'Claude (reader; the notes pass, batch 10: R33a, building on the entry from its cites)'
+by: 'Claude (reader; the notes pass, batch 10: R33a, building on the entry from its cites); audited by Claude (Opus), Nov. 27, 2026 (notes/notes-pass/audit-10.md)'
 ops:
 - add-words:
     id: cal.1960-02-04.cuba
@@ -46,7 +46,7 @@ ops:
 - add-words:
     id: cal.1960-07-22.elections-1960
     after: end
-    words: By Kissinger's account, Nixon adds control of foreign policy and the State's patronage.
+    words: By Kissinger's account, Nixon adds control of foreign policy and all New York State patronage.
     item: '[[w.smith-on-his-own-terms]], 344–45'
 - names:
     id: cal.1960-07-22.elections-1960
@@ -83,19 +83,6 @@ ops:
     - name:powers-david-f
     - name:stevenson-adlai-e
 - add-words:
-    id: cal.1960-09.cuba-4
-    after: end
-    words: 'Hoover reports it to Bissell on Oct. 18: the source''s reliability "has not been tested"; Giancana says the killing will come in November and that he has met the assassin-to-be three times.'
-    item: '[[w.sen-church-alleged-assassination-plots]], 79'
-- names:
-    id: cal.1960-09.cuba-4
-    add:
-    - Hoover
-    - Bissell
-    tags:
-    - name:hoover-j-edgar
-    - name:bissell-richard-m-jr
-- add-words:
     id: cal.1960-09.goldwater
     after: end
     words: 'By Goldberg''s count: 126 speeches in twenty-six States, chiefly in the West and South. He attacks Kennedy''s "socialist and Left Wing" philosophy and calls Johnson a "counterfeit Confederate."'
@@ -111,7 +98,7 @@ ops:
 - add-words:
     id: cal.1960-10-20.economy
     after: end
-    words: By Anderson's account to Eisenhower on Oct. 25, foreigners were buying gold to hold and in speculation on a devaluation of the dollar, the American balance of payments being weak.
+    words: 'By Anderson''s account to Eisenhower on Oct. 25, the weak American balance of payments was one important reason: foreigners were buying gold for investment and in speculation on a devaluation of the dollar.'
     text: '[FRUS 1958–60, IV, doc. 56](https://history.state.gov/historicaldocuments/frus1958-60v04/d56)'
 - add-words:
     id: cal.1960-11-16.economy
@@ -147,7 +134,7 @@ ops:
 - add-words:
     id: cal.1960-12-15.robert-kennedy
     after: end
-    words: 'Seigenthaler, who is there, later recalls him saying he needs in the cabinet one man who will tell him the truth: "I need you in this government."'
+    words: 'Seigenthaler, who is there, later recalls him saying he has no one in the cabinet he has long known and needs someone to tell him "the unvarnished truth": "I need you in this government."'
     item: '[[w.schlesinger-robert-kennedy-and-his]], 231–32'
 - names:
     id: cal.1960-12-15.robert-kennedy
@@ -217,7 +204,7 @@ ops:
     id: cal.1961-03-28.defense
     after: end
     words: The added spending for fiscal 1962 is $650 million.
-    text: '[1961 Pub. Papers 229](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=287), 230'
+    text: '[1961 Pub. Papers 229](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=287), 231'
 - add-words:
     id: cal.1960-09-05.vietnam
     after: end
@@ -272,3 +259,34 @@ ops:
     - name:liu-shaoqi
     - name:zhu-de
     - name:peng-zhen
+- edit:
+    id: cal.1961-03-13.latin-america
+    base: 6c2b104f
+    set:
+      time: 1961-03-13T23:00Z
+      time_zone: America/New_York
+- edit:
+    id: cal.1960-06-04.china-leadership-3
+    base: 0ddc0f20
+    set:
+      time_range:
+      - 1960-06-04T04:00Z
+      - 1960-06-04T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+- add:
+    entry:
+      id: cal.1960-10-18.cuba-3
+      when: Oct. 18
+      date: '1960-10-18'
+      thread: cuba
+      also:
+      - crime-and-hijacking-maheu
+      c: 'Hoover to Bissell, by memorandum: a source "whose reliability has not been tested" reports that Giancana has told friends Castro is "to be done away with very shortly," in November; that he has met the assassin-to-be three times; and that a girl is to drop a "pill" in Castro''s food or drink.'
+      n: '[[w.sen-church-alleged-assassination-plots]], 79 (the memorandum, Hoover to the DCI, attention the DDP, Oct. 18, 1960, as the report quotes it). Made public: 1975. To check: Hoover to the DCI (Att: DDP), memorandum, Oct. 18, 1960 (cited by [[w.sen-church-alleged-assassination-plots]], 79). See [[cal.1960-09.cuba-4]]. Names: Hoover, Bissell, Giancana, Castro.'
+      tags:
+      - name:hoover-j-edgar
+      - name:bissell-richard-m-jr
+      - name:giancana-sam
+      - name:castro-fidel
