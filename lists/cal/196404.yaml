@@ -3769,15 +3769,17 @@ entries:
     place: changsha
     thread: china-mao-foreign
     also: [soviet-union, china-foreign]
-    c: 'Mao, Changsha: approves the first, longer draft of the telegram for Khrushchev''s 70th birthday, adds the last line, and meets with Deng Xiaoping, Kang Sheng, Tao Zhu, Wang Renzhong, Zhang Pinghua and Wu Lengxi at 5 p.m.{1}'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 13 and 14, 1964 (Apr. 14; 5 p.m.). [[w.lengxi-shinian-lunzhan-1956-1966]], 747–749, 752 (Mao chose the first, longer draft, putting "dear comrade" at its head and adding at its end that imperialism and reaction may tremble before the two peoples'' unity; the text settled at Changsha, "already Apr. 14", and sent to Peking for Liu Shaoqi and Zhou Enlai, who agreed; Mao''s markup of Apr. 14 shown at 749; through Deng he told Zhou that no anti-revisionist article be printed for a week after the telegram, 748); [[w.deng-xiaoping-nianpu-1904]], III, 1809 (Apr. 14, 1964; afternoon, 下午; Deng hears Mao''s changes to the draft telegram of congratulation to Khrushchev; the Renmin ribao prints the telegram Apr. 17). Made public: 1999. See [[cal.1964-04-13.china-leadership]], [[cal.1964-04-12.china-leadership-6]]. Names: Mao Zedong, Deng Xiaoping, Kang Sheng, Tao Zhu, Khrushchev, Wang Renzhong, Zhang Pinghua, Wu Lengxi. Check: Wu (747–748) has Mao''s meeting on the two drafts the afternoon after the morning''s redrafting, the 13th by his count, and the text settled "already Apr. 14".'
+    c: 'Mao, Changsha: approves the first, longer draft of the telegram for Khrushchev''s 70th birthday, adds the last line, and meets with Deng Xiaoping, Kang Sheng, Tao Zhu, Wang Renzhong, Zhang Pinghua and Wu Lengxi at 5 p.m.{1} Deng has the text wired to Peking before supper for Liu Shaoqi and Zhou Enlai to review; Zhou later telephones that both agree.{2} Mao has Deng tell Zhou that no anti-revisionist article is to be printed for a week after the telegram.{3}'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 13 and 14, 1964 (Apr. 14; 5 p.m.). [[w.lengxi-shinian-lunzhan-1956-1966]], 747–749, 752 (Mao chose the first, longer draft, putting "dear comrade" at its head and adding at its end that imperialism and reaction may tremble before the two peoples'' unity; the text settled at Changsha, "already Apr. 14", and sent to Peking for Liu Shaoqi and Zhou Enlai, who agreed; Mao''s markup of Apr. 14 shown at 749; through Deng he told Zhou that no anti-revisionist article be printed for a week after the telegram, 748); [[w.deng-xiaoping-nianpu-1904]], III, 1809 (Apr. 14, 1964; afternoon, 下午; Deng hears Mao''s changes to the draft telegram of congratulation to Khrushchev; the Renmin ribao prints the telegram Apr. 17); [[w.lengxi-shinian-lunzhan-1956-1966]], 748, 752; [[w.lengxi-shinian-lunzhan-1956-1966]], 748. Made public: 1999. See [[cal.1964-04-13.china-leadership]], [[cal.1964-04-12.china-leadership-6]]. Names: Mao Zedong, Deng Xiaoping, Kang Sheng, Tao Zhu, Khrushchev, Wang Renzhong, Zhang Pinghua, Wu Lengxi, Liu Shaoqi, Zhou Enlai. Check: Wu (747–748) has Mao''s meeting on the two drafts the afternoon after the morning''s redrafting, the 13th by his count, and the text settled "already Apr. 14".'
     src:
-      c: 941663c4
+      c: ef40df3f
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Apr. 13 and 14, 1964: 1'
         - 'w.lengxi-shinian-lunzhan-1956-1966 747–749, 752: 1'
         - 'w.deng-xiaoping-nianpu-1904 III, 1809: ?'
-    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:kang-sheng, name:tao-zhu, name:khrushchev-nikita-s, vis:only:prc, name:wang-renzhong, name:wu-lengxi, name:zhang-pinghua]
+        - 'w.lengxi-shinian-lunzhan-1956-1966 748, 752: 2'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 748: 3'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:kang-sheng, name:tao-zhu, name:khrushchev-nikita-s, vis:only:prc, name:wang-renzhong, name:wu-lengxi, name:zhang-pinghua, name:liu-shaoqi, name:zhou-enlai, ok:note-substance]
     time_zone: Asia/Shanghai
   - id: cal.1964-04-14.china
     when: Apr. 14
@@ -8997,12 +8999,3 @@ entries:
     c: 'Governor Reynolds of Wisconsin, before the primary: even 100,000 votes for Wallace would be a disaster.'
     n: '[[w.risen-bill-of-the-century]], 197. Check: the day. Names: John Reynolds, Wallace.'
     tags: [name:reynolds-john-w-jr, name:wallace-george-c]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1964-04.elections-1964
-          - cal.1964-04.elections-1964-2
-          - cal.1964-04.elections-1964-3
-          - cal.1964-04.elections-1964-primaries
-          - cal.1964-04.elections-1964-primaries-2
-        from: notes-pass-13

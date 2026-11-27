@@ -3712,11 +3712,6 @@ entries:
     c: 'Johnson to Mansfield by telephone, 8:38 p.m., just off the plane and reading the ticker: "Sorry you had all that difficulty today, but I''m awfully grateful to you." Mansfield: "it had to be done." Johnson on Williams: "a mean vicious man."'
     n: '[Johnson and Mike Mansfield, 8:38 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-mike-mansfield-may-15-1964), Conversation WH6405-07-3457 (Miller Center; catalogued May 14, 20:38). [[w.taking-charge]], 356–57. Made public: the recordings, opened by the LBJ Library. Check the year. See [[cal.1964-05-14.baker]]. Names: Johnson, Mansfield, Williams.'
     tags: [name:johnson-lyndon-b, name:mansfield-mike, name:williams-john-j]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1964-05-14.baker
-        from: notes-pass-13
     time_zone: America/New_York
   - id: cal.1964-05-15.elections-1964
     when: May 15
@@ -7060,11 +7055,6 @@ entries:
     c: Scranton's letter of May 26 reaches Goldwater's headquarters in Washington; Kitchel telephones it to Burch in Los Angeles.
     n: '[[w.novak-agony-of-the-g]], 410. See [[cal.1964-05-26.elections-1964-2]]. Names: Scranton, Kitchel, Burch.'
     tags: [name:scranton-william-w, name:kitchel-denison, name:burch-dean]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1964-05-27.elections-1964
-        from: notes-pass-13
   - id: cal.1964-05-28.middle-east
     when: May 28–June 2
     date: '1964-05-28'
@@ -7345,12 +7335,16 @@ entries:
     c: 'Rockefeller to reporters, of the moderates who have disowned his pamphlet: "They are all ambitious and hoping lightning will strike. What other position could they take?"'
     n: '[[w.novak-agony-of-the-g]], 410 n.16. See [[cal.1964-05.elections-1964-2]]. Names: Rockefeller.'
     tags: [name:rockefeller-nelson]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1964-05-28.elections-1964
-          - cal.1964-05-28.elections-1964-2
-        from: notes-pass-13
+  - id: cal.1964-05-28.robert-kennedy
+    when: May 28
+    date: '1964-05-28'
+    time: 1964-05-28T15:45Z
+    thread: robert-kennedy
+    also: [vietnam, civil-rights-the-executive]
+    c: 'Johnson and Robert Kennedy by telephone, 11:45 a.m. Johnson thanks him for his note on civil rights and asks after Cambridge, Md.; Kennedy: jobs, with 33 or 35 percent unemployment. On Vietnam Kennedy finds too much emphasis on the military side; the war "will never be won militarily"; he urges a group on Vietnam like the ExComm. Johnson: "We''d like to have you."'
+    n: '[Johnson and Robert Kennedy, May 28, 11:45 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-may-28-1964), Tape WH6405.11, Citations #3539 and #3540 (Miller Center). [[w.taking-charge]], 374–75 (the note on civil rights, Cambridge); [[w.shesol-mutual-contempt]], 262–63 ("Being quite frank about it"; the ExComm). Made public: the recordings, opened by the LBJ Library. Check the year. Names: Johnson, Robert Kennedy.'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, ok:fields-place]
+    time_zone: America/New_York
   - id: cal.1964-05-29.goldwater
     when: May 29
     date: '1964-05-29'
@@ -8628,22 +8622,3 @@ entries:
     c: Nixon's mother, Hannah Nixon, accepts an invitation to a Goldwater rally in California just before the primary; Nixon has her flown to New York for a vacation with him.
     n: '[[w.novak-agony-of-the-g]], 410 n.15. Check: the day. Names: Nixon.'
     tags: [name:nixon-richard-m, ok:fields-place]
-    conflict:
-      - kind: duplicate
-        of:
-          - cal.1964-05.elections-1964
-          - cal.1964-05.elections-1964-3
-          - cal.1964-05.elections-1964-4
-          - cal.1964-05.elections-1964-2
-          - cal.1964-05.elections-1964-5
-          - cal.1964-05.elections-1964-8
-          - cal.1964-05.elections-1964-6
-          - cal.1964-05.elections-1964-primaries
-          - cal.1964-05.elections-1964-primaries-2
-          - cal.1964-05.elections-1964-primaries-3
-          - cal.1964-05.elections-1964-primaries-4
-          - cal.1964-05.elections-1964-primaries-5
-          - cal.1964-05.elections-1964-primaries-6
-          - cal.1964-05.elections-1964-primaries-7
-          - cal.1964-05.elections-1964-primaries-8
-        from: notes-pass-13
