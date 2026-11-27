@@ -1,0 +1,1547 @@
+patch: 2026-11-27-lo-d11
+by: Claude (Sonnet), leftovers batch lo-d11, Nov. 27, 2026
+ops:
+- edit:
+    id: cal.1963-10-03.china-leadership-3
+    base: 58fe2ea7
+    set:
+      c: Zhou Enlai approves Fang Yi's request report on a loan to Algeria.{1}
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 584 (Oct. 3, 1963). Continues 585. Made public: 1997. Names: Zhou Enlai, Fang Yi.'
+      src:
+        c: 969d19b8
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 584: ?'
+      also:
+      - china-foreign
+      - africa
+    kind: correct
+- tag:
+    id: cal.1963-10-03.china-leadership-3
+    add:
+    - vis:only:prc+algeria
+    remove:
+    - polity:pakistan
+    - vis:only:prc+pakistan+algeria
+- add:
+    entry:
+      id: cal.1963-10-03.china-zhou-foreign
+      when: Oct. 3
+      date: '1963-10-03'
+      time: 1963-10-03T11:30Z
+      time_zone: Asia/Shanghai
+      place: peking
+      thread: china-zhou-foreign
+      also:
+      - south-asia
+      - soviet-union
+      - china-foreign
+      - china-nuclear-diplomacy
+      c: Peking 北京. At the dinner of Pakistan's Ambassador, Raza 罗查, at his residence, for the visiting Pakistani party for National Day, Zhou Enlai says the chief task now is to expose the three-power
+        treaty's deceit of the world's peoples. When Raza says all agree it was Zhou who led the Bandung Conference and guided its course at the critical hours, he says no, it was everyone's merit, one
+        man cannot do it, one must move all together.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 3, 1963; 晚7时30分, the dinner at Raza''s residence 其官邸 for the Pakistani National Day observation party 国庆观礼团); [[w.zhou-enlai-nianpu-1949]], II, 585
+        (Oct. 3, 1963; at the dinner Zhou says the chief task now is to expose the three-power treaty''s deceit of the world''s peoples; to Raza''s words on Bandung, no, it was everyone''s merit). Made
+        public: 1993. See [[cal.1963-10-03.china-leadership-3]]. Names: Zhou Enlai, Raza.'
+      tags:
+      - polity:prc
+      - polity:pakistan
+      - name:zhou-enlai
+      - name:raza-nawabzada-agha-mohammad
+      - vis:only:prc+pakistan
+- edit:
+    id: cal.1963-10-08.china-leadership-3
+    base: eae29334
+    set:
+      place: shanghai
+      c: Chen Yi 陈毅 leaves Shanghai 上海 with the Algerian delegation in the morning.
+      n: '[[w.chen-yi-nianpu]], 990. The words: 上午 (990). Names: Chen Yi.'
+    kind: correct
+- add:
+    entry:
+      id: cal.1963-10-08.china-foreign
+      when: Oct. 8
+      date: '1963-10-08'
+      time: 1963-10-08T05:30Z
+      time_zone: Asia/Shanghai
+      place: kunming
+      thread: china-foreign
+      also:
+      - africa
+      follows:
+      - cal.1963-10-08.china-leadership-3
+      c: Kunming 昆明. Chen Yi 陈毅 arrives with the Algerian delegation at 1:30 p.m.
+      n: '[[w.chen-yi-nianpu]], 990 (Oct. 8, 1963). The words: 于下午1时30分到达昆明 (990). See [[cal.1963-10-08.china-leadership-3]]. Names: Chen Yi.'
+      tags:
+      - polity:prc
+      - polity:algeria
+      - name:chen-yi
+- add-words:
+    id: cal.1963-10-10.china-leadership-3
+    after: end
+    words: Zhu De 朱德 presides at the 104th session.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1885'
+- names:
+    id: cal.1963-10-10.china-leadership-3
+    add:
+    - Zhu De
+    tags:
+    - name:zhu-de
+- edit:
+    id: cal.1963-10-18.china-leadership-2
+    base: d5a99ad4
+    set:
+      time_range:
+      - 1963-10-18T11:00Z
+      - 1963-10-18T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 588 (Oct. 18, 1963). The words: 晚 (II, 588). Names: Zhou Enlai.'
+- edit:
+    id: cal.1963-10-31.china-leadership
+    base: 88ab778a
+    set:
+      time_range:
+      - 1963-10-30T21:00Z
+      - 1963-10-31T00:00Z
+      time_band: early morning
+      time_zone: Asia/Shanghai
+      place: hangzhou
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 31, 1963. The words: 晨 (V, Oct. 31, 1963). [[w.zhou-enlai-nianpu-1949]], II, 592 (Oct. 31, 1963: Zhou Enlai telephones Mao in Shanghai with his report of
+        the talks with Faure on establishing relations with France; Mao has Liu, Zhou, Deng and Chen Yi fly to Shanghai Nov. 1 to talk it over and means to take up socialist education in the villages there).
+        Made public: 1997. To check: Zhou''s record of Oct. 30–31. Names: Mao Zedong, Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Chen Yi, Peng Zhen.'
+- check:
+    id: cal.1963-10-31.china-leadership
+    text: 'Check: the place: the Zhou nianpu has Zhou telephone Mao "in Shanghai" (II, 592); the Mao nianpu has Mao reach Hangzhou Oct. 29 and Shanghai Nov. 1 (V, Oct. 29, Nov. 1, 1963).'
+- edit:
+    id: cal.1963-09-21.china-leadership-2
+    base: 5e0154f9
+    set:
+      when: Sept. 21–25
+- check:
+    id: cal.1963-09-21.china-leadership-2
+    text: 'Check: the day: the nianpu has Zhou arrive at Guangzhou on Sept. 21, go on to Conghua, and return to Guangzhou on the evening of the 25th, and puts the call on Hong Xiannü in that stay, at the
+      Overseas Chinese New Village (II, 581).'
+- edit:
+    id: cal.1963-12-13.china-leadership
+    base: 79ef4365
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 600 (Dec. 13, 1963); [[w.zhou-enlai-waijiao-huodong]], 377 (Dec. 13, 1963; 应纳赛尔总统和萨布里主席的邀请, 由陈毅副总理陪同乘专机离开昆明去阿联访问). Names: Zhou Enlai.'
+    unset:
+    - time_range
+    - time_band
+- check:
+    id: cal.1963-12-13.china-leadership
+    text: 'Check: the hour of the departure from Kunming: the nianpu (II, 600) and the dashiji (377) give none, and the dashiji''s only hour on that day is the evening stop at Rangoon (晚上); Yang Shangkun''s
+      diary has Kong Yuan and Tong Xiaopeng, going abroad that day, leave "this afternoon at 5," and Zhou telephones Yang at 1 o''clock (1时), after the morning''s entries and before the afternoon''s (II,
+      334).'
+- tag:
+    id: cal.1963-12-13.china-leadership
+    add:
+    - ok:fields-time
+- follows:
+    id: cal.1963-12-30.china-leadership-6
+    add:
+    - cal.1963-12-30.china-leadership-2
+    basis: '[[w.chen-yi-nianpu]], 1004 (back at Rabat at 5:45 p.m. 下午5时45分 from Casablanca; the ceremony after)'
+- check:
+    id: cal.1963-12-30.china-leadership-6
+    text: 'Check: the communique''s day: the Chen Yi nianpu has the ceremony announcing it at the Peace Palace on Dec. 30 (1004); the Zhou nianpu has the communique published on the 31st (II, 605).'
+- cite:
+    id: cal.1963-12-27.china-leadership-4
+    item: '[[w.zhou-enlai-nianpu-1949]], II, 605 (Dec. 30, to Casablanca; Dec. 31, the China–Morocco joint communique published)'
+    'on': Dec. 31 the China–Morocco joint communique is issued.
+- edit:
+    id: cal.1964-01-03.china-leadership-2
+    base: a773bf23
+    set:
+      time_range:
+      - 1964-01-03T11:00Z
+      - 1964-01-03T17:00Z
+      time_band: afternoon
+      time_zone: Europe/Tirane
+      c: 'Zhou, Tirana, afternoon: with Hoxha, Shehu and Balluku, visits the Stalin textile combine.{1}'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 606 (Jan. 3, 1964); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 3, 1964; 下午, 参观地拉那斯大林纺织联合工厂); [[w.chen-yi-nianpu]], 1005 (Jan. 3, 1964, noon, Chen Yi with Zhou,
+        Hoxha 霍查, Shehu 谢胡, Balluku 巴卢库 and Nushi 努什 at the Stalin textile combine). Check: the hour of the visit: the nianpu and the dashiji have the afternoon (下午), the Chen Yi nianpu noon (中午, 1005).
+        Names: Zhou Enlai, Hoxha, Shehu, Balluku.'
+    kind: correct
+- add:
+    entry:
+      id: cal.1964-01-03.china-africa-tour
+      when: Jan. 3
+      date: '1964-01-03'
+      time_range:
+      - 1964-01-03T18:00Z
+      - 1964-01-03T21:00Z
+      time_band: evening
+      time_zone: Europe/Tirane
+      place: tirana
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      - comecon
+      c: Tirana 地拉那, the opera and ballet theater. Zhou Enlai 周恩来 watches the ballet *Halili and Hajrija* 《哈利利和哈伊利娅》, in the evening.
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 606 (Jan. 3, 1964; 晚); [[w.zhou-enlai-waijiao-huodong]], 383 (Jan. 3, 1964; 晚上, 在地拉那歌剧和芭蕾舞剧院); [[w.chen-yi-nianpu]], 1005 (Jan. 3, 1964, 晚上, Chen Yi with Zhou
+        at the Tirana opera and ballet theater, the ballet 《哈利利和哈伊利娅》). See [[cal.1964-01-03.china-leadership-2]]. Names: Zhou Enlai.'
+      tags:
+      - name:zhou-enlai
+      - polity:prc
+      - polity:albania
+- edit:
+    id: cal.1964-01-05.china-leadership-2
+    base: a5c8d10b
+    set:
+      time: 1964-01-05T15:30Z
+      time_zone: Europe/Tirane
+      place: tirana
+      c: Fifth talks with Hoxha, Shehu and others. Zhou says the two parties agree on matters of principle; the later conduct of the anti-revisionist struggle and the assessment of the situation can be
+        discussed further.
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 5, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 5, 1964; 下午4时30分, 第五次会谈); [[w.chen-yi-nianpu]], 1006 (Jan. 5, 1964, 4:30 p.m.; Chen Yi with Zhou
+        in the continued talks). The hour: 4:30 p.m., the dashiji (384) and the Chen Yi nianpu (1006). Made public: 1993. Names: Zhou Enlai, Hoxha, Shehu.'
+    kind: correct
+- follows:
+    id: cal.1964-01-05.china-leadership-2
+    add:
+    - cal.1964-01-05.china-africa-tour
+    basis: '[[w.zhou-enlai-waijiao-huodong]], 384 (中午, 回到地拉那; then 下午4时30分, the fifth talks)'
+- add:
+    entry:
+      id: cal.1964-01-05.china-africa-tour
+      when: Jan. 5
+      date: '1964-01-05'
+      time_range:
+      - 1964-01-05T11:00Z
+      - 1964-01-05T13:00Z
+      time_band: workday midday
+      time_zone: Europe/Tirane
+      place: tirana
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      - comecon
+      c: Zhou Enlai 周恩来 returns to Tirana 地拉那, at noon.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 5, 1964; 中午, 回到地拉那); [[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 5, 1964; 回到地拉那). See [[cal.1964-01-05.china-leadership-2]]. Names: Zhou Enlai.'
+      tags:
+      - name:zhou-enlai
+      - polity:prc
+      - polity:albania
+- edit:
+    id: cal.1964-01-06.china-leadership-2
+    base: 066e6070
+    set:
+      when: Jan. 6
+      c: 'Zhou, with Hoxha and Shehu, visits Vlorë: speaks at the mass meeting, tours the independence monument.{1}'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 6, 1964); [[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 6, 1964; 在霍查、谢胡陪同下前往发罗拉; 参加群众大会并讲话; 参观阿尔巴尼亚民族独立纪念馆). Names: Zhou Enlai, Hoxha, Shehu.'
+      src:
+        c: ff312e24
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 607: ?'
+        - 'w.zhou-enlai-waijiao-huodong 384: 1'
+    kind: correct
+- add:
+    entry:
+      id: cal.1964-01-07.china-africa-tour
+      when: Jan. 7
+      date: '1964-01-07'
+      place:
+      - vlore
+      - tirana
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      - china-economy
+      - comecon
+      c: Zhou, with Hoxha and Shehu, tours the Lenin cement works and the site of an asbestos-pipe plant at Vlorë, then a cooperative and a peasant home on the way back, and returns to Tirana.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 384 (Jan. 7, 1964; 参观发罗拉列宁水泥厂、石棉管板厂工地; 在返回地拉那途中参观农业生产合作社, 访问农民家庭); [[w.zhou-enlai-nianpu-1949]], II, 607 (Jan. 6–7, 1964; the next day the cement works, the asbestos
+        plant site, a cooperative and a peasant home, then back to Tirana); [[w.chen-yi-nianpu]], 1006 (Jan. 7, 1964, 中午, Chen Yi with Zhou back from Vlorë 发罗拉 to Tirana 地拉那; before leaving, the Lenin cement
+        works and the site of the asbestos pipe and sheet works; on the way, the Novosela 诺沃赛莱 agricultural cooperative). The words: 中午 (Chen Yi nianpu, 1006), the return to Tirana. See [[cal.1964-01-06.china-leadership-2]].
+        Names: Zhou Enlai, Hoxha, Shehu.'
+      tags:
+      - name:zhou-enlai
+      - polity:prc
+      - polity:albania
+      - name:enver-hoxha
+      - name:mehmet-shehu
+      - ok:fields-time
+- edit:
+    id: cal.1964-01-10.china-leadership-3
+    base: 4298e839
+    set:
+      c: 'Zhou, Tunis: with Chaker, Minister of Agriculture, and Habib Bourguiba Jr., visits the Tunisian dairy company STIL and a handicraft center in the suburbs.{1}'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 10, 1964); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 上午, 由农业部长沙克尔和总统府秘书长小哈比卜·布尔吉巴陪同, 参观突尼斯斯蒂牛奶工业公司以及郊区的手工艺中心); [[w.chen-yi-nianpu]], 1007
+        (Jan. 10, 1964, morning; Chen Yi with Zhou, the Minister of Agriculture Abdelmajid Chaker 阿卜杜勒·马吉德·沙克尔 and Habib Bourguiba Jr. at the handicraft center and the STIL fruit and milk works). Names:
+        Zhou Enlai, Habib Bourguiba Jr.'
+      src:
+        c: e69498da
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 609: ?'
+        - 'w.zhou-enlai-waijiao-huodong 385: 1'
+        - 'w.chen-yi-nianpu 1007: ?'
+    kind: correct
+- tag:
+    id: cal.1964-01-10.china-leadership-3
+    add:
+    - name:bourguiba-habib-jr
+- add:
+    entry:
+      id: cal.1964-01-10.china-africa-tour
+      when: Jan. 10
+      date: '1964-01-10'
+      time_range:
+      - 1964-01-10T11:00Z
+      - 1964-01-10T17:00Z
+      time_band: afternoon
+      time_zone: Africa/Tunis
+      place: tunis
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      c: 'Zhou, Tunis: visits a rural district some fifty kilometers from Tunis, 巴比比亚, and the farmer Hadi''s 哈迪 home, in the afternoon.'
+      n: '[[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 下午, 访问离突尼斯城约50公里的巴比比亚农村区); [[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 10, 1964; the rural district 离突尼斯城约五十公里的巴比比亚农村区, in a list with the
+        dairy, the handicraft center and the Neo-Destour headquarters); [[w.chen-yi-nianpu]], 1008 (Jan. 10, 1964, 下午, Chen Yi with Zhou, with the Minister of Agriculture Chaker 沙克尔, at a country district
+        some 50 km from Tunis and the farmer Hadi''s 哈迪 home). See [[cal.1964-01-10.china-leadership-3]]. Names: Zhou Enlai.'
+      tags:
+      - name:zhou-enlai
+      - polity:prc
+      - polity:tunisia
+- add:
+    entry:
+      id: cal.1964-01-10.china-africa-tour-2
+      when: Jan. 10
+      date: '1964-01-10'
+      time_range:
+      - 1964-01-10T18:00Z
+      - 1964-01-10T21:00Z
+      time_band: evening
+      time_zone: Africa/Tunis
+      place: tunis
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      c: 'Zhou, Tunis, evening: visits the Neo-Destour Political Bureau headquarters 新宪政党政治局总部.'
+      n: '[[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 10, 1964; 晚上, 访问突尼斯新宪政党政治局总部); [[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 10, 1964; the Political Bureau''s headquarters, in a list of visits); [[w.chen-yi-nianpu]],
+        1008 (Jan. 10, 1964, 晚上, Chen Yi with Zhou at the Neo-Destour Political Bureau''s headquarters). See [[cal.1964-01-10.china-leadership-3]]. Names: Zhou Enlai.'
+      tags:
+      - name:zhou-enlai
+      - polity:prc
+      - polity:tunisia
+- edit:
+    id: cal.1964-01-11.china-leadership
+    base: 14dd136c
+    set:
+      c: Zhou arrives in Accra, welcomed at the airport by a three-man committee for Nkrumah and crowds.{1}
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 11, 1964); [[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 11, 1964; 上午8时, 抵达阿克拉, 代表恩克鲁玛总统的三人委员会和各界人士热烈欢迎); [[w.zhonghua-renmin-gongheguo-waijiao-2001]],
+        313 (Jan. 11–16, 1964; Zhou visits Ghana at President Nkrumah''s invitation, with Chen Yi accompanying him, and holds talks with Nkrumah); [[w.chen-yi-nianpu]], 1008 (Jan. 11, 1964, 8 a.m., Chen
+        Yi with Zhou reaches Accra 阿克拉). Names: Zhou Enlai.'
+      src:
+        c: 78ea059b
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 609: ?'
+        - 'w.zhou-enlai-waijiao-huodong 385: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 313: 1'
+        - 'w.chen-yi-nianpu 1008: ?'
+    kind: correct
+- add:
+    entry:
+      id: cal.1964-01-11.china-africa-tour
+      when: Jan. 11
+      date: '1964-01-11'
+      time: 1964-01-11T16:20Z
+      time_zone: Africa/Accra
+      place: accra
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      c: 'Accra. Zhou drives through the city at 4:20 p.m. with the three members of the committee for Nkrumah: Botsio, Foreign Minister; Bensah, Minister of Transport and Engineering; and Ghana''s ambassador
+        to China.'
+      n: '[[w.zhou-enlai-waijiao-huodong]], 385 (Jan. 11, 1964; 下午4时20分, in the company of the three committee members, the Foreign Minister, the Minister of Transport and Engineering and Ghana''s ambassador
+        to China, 乘汽车参观阿克拉市容); [[w.zhou-enlai-nianpu-1949]], II, 609 (Jan. 11, 1964; 当日, 乘汽车参观阿克拉市容); [[w.chen-yi-nianpu]], 1008 (Jan. 11, 1964, 下午, Chen Yi with Zhou drives about the city 乘汽车参观阿克拉市容).
+        See [[cal.1964-01-11.china-leadership]]. Names: Zhou Enlai, Nkrumah, Botsio.'
+      tags:
+      - name:zhou-enlai
+      - name:nkrumah-kwame
+      - polity:prc
+      - polity:ghana
+      - name:botsio-kojo
+- edit:
+    id: cal.1964-01-17.china-leadership-3
+    base: af7dd44e
+    set:
+      c: 'Zhou, with Keita, visits Koulikoro; at the mass meeting accepts the title of honorary citizen. Aid is mutual: friendly new states building their economies is great aid to China. Tours the shipping
+        company, repair shop, oil mill.'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 612 (Jan. 17, 1964); [[w.zhou-enlai-waijiao-huodong]], 387 (Jan. 17, 1964; 在凯塔总统陪同下, 前往库利科罗市; 群众大会, 荣誉公民称号); [[w.chen-yi-nianpu]], 1009 (Jan. 17, 1964, morning;
+        Chen Yi with Zhou at Koulikoro 库利科罗, 60 km northeast of Bamako, its rally, the Mali shipping company and the oil mill). The nianpu''s list of visits runs on to the exhibition (II, 612); the dashiji
+        dates the exhibition that evening (387). Names: Zhou Enlai, Keita.'
+    kind: correct
+- edit:
+    id: cal.1964-01-18.china-leadership-7
+    base: 2456d53b
+    set:
+      time: 1964-01-18T17:00Z
+      time_approx: true
+      time_zone: Asia/Shanghai
+      n: '[[w.yang-shangkun-riji]], II, 344 (Jan. 18, 1964). The words: 办公到1时，打羽毛球后睡 (II, 344). After [[cal.1964-01-18.china-leadership-6|the 6 p.m. talk]], in the diary''s sequence: the talk at 6, a film
+        after dinner, work to 1 a.m., then badminton and sleep (II, 344). The time is after 1 a.m., Jan. 19 by the clock; the diary''s day is Jan. 18 (II, 344). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).
+        Names: Yang Shangkun.'
+- add-words:
+    id: cal.1964-01-18.china-leadership-7
+    after: end
+    words: After 1 a.m.
+    item: '[[w.yang-shangkun-riji]], II, 344'
+- edit:
+    id: cal.1964-01-26.china-leadership-6
+    base: fa046ae1
+    set:
+      c: 'Zhou has Qiao Guanhua add to the farewell address: Guinea''s people under the Democratic Party and the President push and support the anti-imperialist, anti-colonial struggle of African peoples;{1}
+        Guinean song and dance carry it. At midnight, at Conakry airport, speaks the farewell to Guinea''s *Voice of the Revolution*.{2}'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 616 (Jan. 26, 1964); [[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 26, 1964; 夜, 午夜, 科纳克里机场, 向几内亚《革命之声》广播电台发表告别词). The flight: 午夜0时30分 on Jan. 27, by the dashiji
+        (390). Names: Zhou Enlai, Qiao Guanhua.'
+      src:
+        c: 9b2e6419
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 616: ?'
+        - 'w.zhou-enlai-waijiao-huodong 390: 1'
+      place: conakry
+      time_zone: Africa/Conakry
+    kind: correct
+- add:
+    entry:
+      id: cal.1964-01-27.china-africa-tour
+      when: Jan. 27
+      date: '1964-01-27'
+      time: 1964-01-27T00:30Z
+      time_zone: Africa/Conakry
+      place: conakry
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      c: Conakry. Zhou leaves for Sudan at 0:30 a.m.; Touré sees him off at the airport.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 27, 1964; 午夜0时30分, 离科纳克里前往苏丹访问; 杜尔总统在机场欢送). Check: the Chen Yi nianpu has the departure in the morning (晨, 1011). See [[cal.1964-01-26.china-leadership-6]].
+        Names: Zhou Enlai, Touré.'
+      tags:
+      - name:zhou-enlai
+      - name:toure-ahmed-sekou
+      - polity:prc
+      - polity:guinea
+- edit:
+    id: cal.1964-01-28.china-leadership-3
+    base: 006f4e4d
+    set:
+      when: Jan. 28
+      c: 'Zhou in Sudan: talks with President Abboud.{1} Visits North Khartoum and the national museum.{2}'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 616–17 (Jan. 28–29, 1964); [[w.zhou-enlai-waijiao-huodong]], 390 (Jan. 28, 1964; 上午, 参观北喀土穆市以及苏丹民族博物馆; 上午, 共和国宫, 会谈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]],
+        318 (Jan. 27–30, 1964; Zhou visits the Sudan at the invitation of Ibrahim Abboud, Chairman of the Supreme Council of the Armed Forces, with Chen Yi accompanying him, and holds talks with Abboud);
+        [[w.chen-yi-nianpu]], 1011–1012 (Jan. 28, 1964, early morning, Chen Yi with Zhou and Maghboul Amin al-Hag 马格布勒·阿明·哈格 lays a wreath at the memorial of the battle of Khartoum; morning, North Khartoum,
+        the city and the national museum, and the ivory carving the city council''s chairman gives Zhou and Chen Yi; the talks with Abboud). Made public: 1993. Names: Zhou Enlai, Abboud.'
+      src:
+        c: 649ac555
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 616–17: ?'
+        - 'w.zhou-enlai-waijiao-huodong 390: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 318: 1'
+        - 'w.chen-yi-nianpu 1011–1012: ?'
+    kind: correct
+- add:
+    entry:
+      id: cal.1964-01-28.china-africa-tour
+      when: Jan. 28
+      date: '1964-01-28'
+      time_range:
+      - 1964-01-28T10:00Z
+      - 1964-01-28T16:00Z
+      time_band: afternoon
+      time_zone: Africa/Khartoum
+      place: omdurman
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      c: Omdurman 恩图曼. Zhou visits the city and the Khalifa museum 哈利法博物馆, in the afternoon.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 28, 1964; 下午, 访问苏丹英雄城市恩图曼; 在恩图曼参观哈利法博物馆); [[w.zhou-enlai-nianpu-1949]], II, 616–17 (Jan. 28–29, 1964); [[w.chen-yi-nianpu]], 1012 (Jan. 28, 1964, 下午,
+        Chen Yi with Zhou at Omdurman, the Khalifa museum and the city). Made public: 1993. See [[cal.1964-01-28.china-leadership-3]]. Names: Zhou Enlai.'
+      tags:
+      - name:zhou-enlai
+      - polity:prc
+      - polity:sudan
+      - vis:only:prc+sudan
+- add:
+    entry:
+      id: cal.1964-01-29.china-africa-tour
+      when: Jan. 29
+      date: '1964-01-29'
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      - china-economy
+      c: Zhou visits the Gezira 吉齐拉, the cotton region of the Blue Nile province.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 29, 1964; 访问青尼罗河省著名的棉花产区吉齐拉); [[w.zhou-enlai-nianpu-1949]], II, 616–17 (Jan. 28–29, 1964); [[w.chen-yi-nianpu]], 1012 (Jan. 29, 1964, Chen Yi with Zhou
+        in the Gezira cotton district of the Blue Nile province, and back in Khartoum at 下午5时). Made public: 1993. See [[cal.1964-01-28.china-leadership-3]]. Names: Zhou Enlai.'
+      tags:
+      - name:zhou-enlai
+      - polity:prc
+      - polity:sudan
+      - vis:only:prc+sudan
+      - ok:fields-time
+- edit:
+    id: cal.1964-01-30.china-leadership-4
+    base: cba5f638
+    set:
+      when: Jan. 30
+      c: Zhou, talks with Emperor Haile Selassie. China wants friendship with all African states, takes no side in disputes, will not arm anyone for territorial aggression; its non-involvement is firm.{1}
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 617 (Jan. 30–31, 1964); [[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 30, 1964; 下午4时30分, 阿斯马拉皇宫, 第一次会谈); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 319 (Jan.
+        30–Feb. 1, 1964; Zhou visits Ethiopia at Emperor Haile Selassie''s invitation, Chen Yi accompanying him; he holds talks with the Emperor, a frank exchange on the great questions facing the world,
+        above all general disarmament and world peace, the days not given); [[w.chen-yi-nianpu]], 1012 (Jan. 30, 1964, afternoon, the palace at Asmara; Chen Yi in the talks). Made public: 1993. Names: Zhou
+        Enlai, Haile Selassie.'
+      src:
+        c: ae68bd3c
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 617: ?'
+        - 'w.chen-yi-nianpu 1012: ?'
+        - 'w.zhou-enlai-waijiao-huodong 391: 1'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 319: 1'
+    kind: correct
+- add:
+    entry:
+      id: cal.1964-01-31.china-africa-tour
+      when: Jan. 31
+      date: '1964-01-31'
+      time: 1964-01-31T14:00Z
+      time_zone: Africa/Asmara
+      place: asmara
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      c: Asmara, the palace. Second talks, Zhou and Emperor Haile Selassie, 5 p.m.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 31, 1964; 下午5时, 在阿斯马拉皇宫同塞拉西皇帝举行第二次会谈). Made public: 1993. See [[cal.1964-01-30.china-leadership-4]]. Names: Zhou Enlai, Haile Selassie.'
+      tags:
+      - name:zhou-enlai
+      - name:haile-selassie-i
+      - polity:prc
+      - polity:ethiopia
+      - vis:only:prc+ethiopia
+- add:
+    entry:
+      id: cal.1964-01-31.china-africa-tour-2
+      when: Jan. 31
+      date: '1964-01-31'
+      place: asmara
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      c: 'The China–Ethiopia joint communiqué is signed: measures to strengthen relations, among them normalizing the two governments'' relations in the near future.'
+      n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 31, 1964; Zhou at the farewell banquet: "今天我们双方签署了中埃两国联合公报"); [[w.zhou-enlai-nianpu-1949]], II, 617 (三十一日签署的两国联合公报; its terms). See [[cal.1964-01-30.china-leadership-4]].'
+      tags:
+      - name:zhou-enlai
+      - name:haile-selassie-i
+      - polity:prc
+      - polity:ethiopia
+      - vis:only:prc+ethiopia
+- add:
+    entry:
+      id: cal.1964-01-31.china-africa-tour-3
+      when: Jan. 31
+      date: '1964-01-31'
+      time_range:
+      - 1964-01-31T16:00Z
+      - 1964-01-31T19:00Z
+      time_band: evening
+      time_zone: Africa/Asmara
+      place: asmara
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      follows:
+      - cal.1964-01-31.china-africa-tour-2
+      c: 'Asmara, the palace. At the farewell banquet, Emperor Haile Selassie present, Zhou toasts the communiqué signed that day: it will further relations and defeat outside attempts to spread baseless
+        rumors against them.'
+      n: '[[w.zhou-enlai-waijiao-huodong]], 391 (Jan. 31, 1964; 晚上, 在阿斯马拉皇宫举行告别宴会, 塞拉西一世皇帝出席了宴会; the toast: "今天我们双方签署了中埃两国联合公报"); [[w.chen-yi-nianpu]], 1012 (Jan. 31, 1964, 晚上, Chen Yi at the farewell banquet
+        Zhou gives in the Asmara palace). Made public: 1993. The order: after [[cal.1964-01-31.china-africa-tour-2]], the toast''s own words ("今天我们双方签署了", 391). See [[cal.1964-01-30.china-leadership-4]].
+        Names: Zhou Enlai, Haile Selassie.'
+      tags:
+      - name:zhou-enlai
+      - name:haile-selassie-i
+      - polity:prc
+      - polity:ethiopia
+      - vis:only:prc+ethiopia
+- edit:
+    id: cal.1963-07-12.china-leadership-5
+    base: e8d8227c
+    set:
+      time: 1963-07-12T11:00Z
+      variants:
+      - unit: '1'
+        witness: w.brothers-in-arms
+        reads: the meeting set on the 10th for ten o'clock
+        at: '385'
+      - unit: '4'
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: the Soviets propose to meet again that afternoon (他们提出下午继续开会), the fifth meeting "the same day's afternoon" (当天下午)
+        at: '608'
+      c: 'Moscow, 2 to 6 p.m.{1} Fourth meeting.{2} Deng Xiaoping''s second speech, on the CPSU''s splitting, from Bucharest on: the CPSU wields its baton, makes a split of its own and drives other parties
+        to split, carries ideological difference into relations between states, with China and with Albania.{3} He asks why the Soviets, speaking of the differences, say nothing of the withdrawal of all
+        experts from China and the tearing up of the contracts; and on Cuba which of two Soviet lines, Kennedy a pirate or Kennedy a lover of peace, stands. Suslov, pale and red by turns, says the Soviets
+        will answer next time, and asks to meet again at 2 p.m. the next day.{4} Peng Zhen attends.{5} By the Soviet record Deng says that under Moscow''s line of peaceful transition the Cuban People''s
+        Socialist Party attacked Castro''s armed struggle as "putschism," the Algerian party renounced armed struggle, and the Iraqi party was unready for the coup of Feb. 8, 1963.{6}'
+      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 606–608 ("the fourth meeting on July 12, Deng''s second speech"; "before the break"; Deng: "if you follow your baton and fall into your own trap, you contradict
+        the facts"; Deng on Cuba: "what do you mean to have us follow?"); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Deng speaks again, July 12); [[w.yang-shangkun-riji]], II, 296 (July 12, 1963;
+        the session, 2 to 6 p.m.: Deng speaks; the Soviets ask to meet again at 2 p.m. the next day); [[w.deng-xiaoping-nianpu-1904]], III, 1764 (July 12, 1963; Deng at the fourth meeting; speaks that the
+        differences show chiefly in two great questions, whether to have revolution and whether to keep the socialist camp united; says that on a series of questions the Soviet Union practices splitting,
+        not internationalism); [[w.brothers-in-arms]], 385–386 (the Soviet record, July 12, set on the 10th for "ten o''clock" (385): Deng: under Moscow''s line of peaceful transition the Cuban People''s
+        Socialist Party attacked Castro''s armed struggle, the Algerian party renounced armed struggle, the Iraqi party was unready for the coup of Feb. 8, 1963); [[w.peng-zhen-nianpu-1902]], IV, 283 (July
+        12, 1963; Peng Zhen at the fourth meeting; Deng Xiaoping: the differences come to two questions, revolution or not, the camp''s unity or not; the Soviet Union practices splitting, not internationalism);
+        [[w.peng-zhen-nianpu-1902]], IV, 283; [[w.brothers-in-arms]], 385–86. Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 352). To check: [[w.jin-1949-1989-niande-zhongguo]], 589
+        (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). See [[cal.1963-07-10.china-leadership-3]]. The hour: 2 to 6 p.m., by [[w.yang-shangkun-riji]], II, 296, which has the Soviets
+        give notice on July 11 that the next day''s session is moved from the morning to 2 p.m. (II, 296); the Soviet record has the meeting set on the 10th for ten o''clock ([[w.brothers-in-arms]], 385).
+        The next meeting: 2 p.m. on July 13, by the same diary (苏方提出明天下午2时继续会谈, II, 296), the Soviet record (386) and the Peng Zhen and Deng Xiaoping nianpus (IV, 283; III, 1764); Wu, 608, has it that afternoon.
+        Names: Deng Xiaoping, Suslov, Peng Zhen, Castro.'
+      src:
+        c: aede024e
+        rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 606–608: 2, 3, 4'
+        - 'w.macfarquhar-origins-of-the-cultural III, 352: 2, 3'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 352 n.27a: 2, 3'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1764: 2'
+        - 'w.brothers-in-arms 385–386: 2'
+        - 'via x.1963-07-05.records-cpsu-ccp-delegations: 2'
+        - 'w.peng-zhen-nianpu-1902 IV, 283: 5'
+        - 'w.brothers-in-arms 385–86: 6'
+        - 'w.yang-shangkun-riji II, 296: 1, 2, 4'
+    unset:
+    - time_range
+    - time_band
+    kind: correct
+    settles:
+    - 'Check: the hour:'
+- edit:
+    id: cal.1963-07-12.china-leadership-6
+    base: 91c70c6c
+    set:
+      when: July 13
+      date: '1963-07-13'
+      time: 1963-07-13T11:00Z
+      variants:
+      - unit: '1'
+        witness: w.lengxi-shinian-lunzhan-1956-1966
+        reads: the fifth meeting "that afternoon," the afternoon of the fourth, July 12; then the Renmin ribao editorial of July 13
+        at: '608'
+      - unit: '1'
+        witness: w.macfarquhar-origins-of-the-cultural
+        reads: Ponomarev speaks at the fifth session, "the same day" as Deng's second speech, July 12
+        at: III, 352
+      c: Moscow, 2 to 5:30 p.m.{1} Fifth meeting.{2} Ponomarev, instead of answering Deng's questions, reads his prepared text on the struggle for peace, for general and complete disarmament, and for a
+        "world without arms, armies or wars."{3} Peng Zhen attends.{4}
+      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 608 ("in the afternoon, the fifth meeting, Ponomarev spoke"; "a world of the three nos" (三无世界)); [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Ponomarev
+        speaks at the fifth session, the same day); [[w.yang-shangkun-riji]], II, 296 (July 13, 1963; Ponomarev speaks, 2 to 5:30 p.m., on July 13); [[w.deng-xiaoping-nianpu-1904]], III, 1764 (July 13,
+        1963; Deng at the fifth meeting, which the nianpu dates the 13th; Ponomarev 波诺马廖夫 speaks for the Soviet side); [[w.brothers-in-arms]], 386 (the Soviet record, under the heading July 13: Ponomarev
+        answers "the second address" of Deng "yesterday": Soviet arms given free to Algeria''s army in 1960–62, 25,000 rifles, 21,000 machine guns and submachine guns, 1,300 howitzers, cannons and mortars;
+        Castro''s speeches unprinted in China); [[w.peng-zhen-nianpu-1902]], IV, 283 (July 13, 1963; Peng Zhen at the fifth meeting; Ponomarev of the Soviet delegation speaks); [[w.peng-zhen-nianpu-1902]],
+        IV, 283. Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 352). The day: July 13, by [[w.yang-shangkun-riji]], II, 296 (Ponomarev speaks 2 to 5:30 p.m. on July 13, the session
+        asked for after Deng''s speech of July 12), the Soviet record ([[w.brothers-in-arms]], 386: Deng''s second address "yesterday"), [[w.peng-zhen-nianpu-1902]], IV, 283, and [[w.deng-xiaoping-nianpu-1904]],
+        III, 1764; [[w.lengxi-shinian-lunzhan-1956-1966]], 608, has the fifth meeting "that afternoon" after the fourth, which he dates July 12. To check: [[w.jin-1949-1989-niande-zhongguo]], 589 (cited
+        by [[w.macfarquhar-origins-of-the-cultural]], III, 352 n.27a). Names: Deng Xiaoping, Ponomarev, Peng Zhen.'
+      src:
+        c: b5f2a2f7
+        rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 608: 1, 2, 3'
+        - 'w.macfarquhar-origins-of-the-cultural III, 352: 2, 3'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 352 n.27a: 2, 3'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1764: 2'
+        - 'w.brothers-in-arms 386: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 283: 4'
+        - 'w.yang-shangkun-riji II, 296: 1, 2'
+    unset:
+    - time_range
+    - time_band
+    kind: correct
+    settles:
+    - 'Check: the day:'
+- add-words:
+    id: cal.1963-07-12.china-leadership-6
+    after: end
+    words: 'By the Soviet record Ponomarev answers Deng''s address of the day before: Moscow gave Algeria''s army, free, in 1960–62, 25,000 rifles, 21,000 machine guns and submachine guns, and 1,300 howitzers,
+      cannons and mortars; why did Peking not print Castro''s speeches?'
+    item: '[[w.brothers-in-arms]], 386'
+- follows:
+    id: cal.1963-07-12.china-leadership-6
+    remove:
+    - cal.1963-07-12.china-leadership-5
+    why: 'the fifth meeting is July 13 (Yang, II, 296; the Soviet record, 386): a link across two days is none'
+- edit:
+    id: cal.1963-07-19.china-leadership
+    base: 28c058ad
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], V, July 19, 1963; [[w.lengxi-shinian-lunzhan-1956-1966]], 615–616 (Wu: the eighth meeting, July 19, Kang Sheng speaking: he opens by charging the CPSU with breaking
+        the agreement, made for the talks, that neither side publish, charge the other or disclose the talks, in the Open Letter, which put the differences before the world; then the dictatorship of the
+        proletariat, the CPSU''s "party and state of the whole people" and Stalin, in a text prepared at Peking from several parts; Khrushchev''s praises of Stalin before the Twentieth Congress and abuse
+        after; Suslov red in the face protests, Ponomarev tries several times to break in, Deng Xiaoping lets Kang Sheng finish, and Suslov protests again and rejects the speech, as never at the seven before);
+        [[w.macfarquhar-origins-of-the-cultural]], III, 352 (Kang Sheng speaks, July 19); [[w.yang-shangkun-riji]], II, 299 (July 19, 1963; Kang Sheng speaks, 10 a.m. to 1 p.m., a twenty-minute break; the
+        Chinese propose a recess for the Soviet delegation to consider); [[w.deng-xiaoping-nianpu-1904]], III, 1765 (July 19, 1963; Deng at the eighth meeting; after Kang Sheng speaks he says that the two
+        parties have serious differences, that since the Pravda open letter of July 14 the Soviet press attacks the CCP, that in such conditions agreement on any question, even calm talks, is no longer
+        possible; proposes for the delegation that the talks pause until another agreed time); [[w.brothers-in-arms]], 387–390 (the Soviet record, among excerpts printed under the heading July 13 that run
+        on to this meeting: Kang Sheng on Khrushchev''s abuse of Stalin; Suslov''s protest at Peking radio''s propaganda; Deng: "two weeks have gone by," the meeting to adjourn, the time and place of the
+        next to be set by the two Central Committees); [[w.peng-zhen-nianpu-1902]], IV, 284 (July 19, 1963; Peng Zhen at the eighth meeting; Deng Xiaoping proposes for the delegation that the talks pause
+        and resume at a time agreed); [[w.peng-zhen-nianpu-1902]], IV, 284; [[w.yang-shangkun-riji]], II, 299; [[w.lengxi-shinian-lunzhan-1956-1966]], 615–616; [[w.deng-xiaoping-nianpu-1904]], III, 1765.
+        Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]], III, 352). The hour: 10 a.m. to 1 p.m., by Yang''s diary of the day (II, 299); Wu, 616, has the delegation report to Peking that afternoon
+        on "the afternoon''s talks" (下午会谈). To check: the delegation''s speeches and the Soviet record of the talks; [[w.jin-1949-1989-niande-zhongguo]], 589 (cited by [[w.macfarquhar-origins-of-the-cultural]],
+        III, 352 n.27a). See [[cal.1963-07-18.china-leadership]]. Names: Mao Zedong, Kang Sheng, Deng Xiaoping, Suslov, Peng Zhen, Khrushchev, Ponomarev.'
+    settles:
+    - 'Check: Wu, 616,'
+- variant:
+    id: cal.1963-07-19.china-leadership
+    'on': Kang Sheng speaks from 10 a.m. to 1 p.m., with a twenty-minute break.
+    witness: w.lengxi-shinian-lunzhan-1956-1966
+    reads: the delegation telegraphs Peking that afternoon, reporting "the afternoon's talks" (下午会谈)
+    at: '616'
+- add:
+    entry:
+      id: cal.1963-07-14.testing
+      when: July 14
+      date: '1963-07-14'
+      place: moscow
+      thread: testing
+      also:
+      - soviet-union
+      - china-nuclear-diplomacy
+      c: Moscow. Deputy Foreign Minister Zorin warmly welcomes Harriman and his delegation; Lord Hailsham's British team has an equally hospitable reception.
+      n: '[[w.chang-friends-and-enemies]], 241–42 & n.27 (July 14: Zorin "warmly welcomed" Harriman and his delegation in Moscow; the British team under Hailsham, an "equally hospitable reception"; the
+        same day a CPSU letter blasting the Chinese Communists on the front page of *Pravda*). To check: *New York Times*, July 14, 1963, at 1, 3; *Time*, July 19, 1963, at 24–25; *Peking Review*, July
+        19, 1963, at 10 (cited by [[w.chang-friends-and-enemies]], 242 n.27). See [[cal.1963-07-09.testing]]. Names: Harriman, Zorin, Hailsham.'
+      tags:
+      - name:harriman-w-averell
+      - name:zorin-valerian
+      - name:hailsham-quinton-m-h
+- follows:
+    id: cal.1963-09-30.china-leadership-7
+    add:
+    - cal.1963-09-30.china-leadership-8
+    basis: '[[w.peng-zhen-nianpu-1902]], IV, 293 (晚, the meetings with Mao, Liu, Zhou and others; 随后, "then," Zhou''s National Day banquet); [[w.yang-shangkun-riji]], II, 317, has Mao come to the hall after
+      the banquet had begun (主席宴会后到了场); the dashiji prints the reception before the meetings (372), the printed order alone, which the Peng Zhen nianpu''s word defeats'
+- add:
+    entry:
+      id: cal.1963-10-11.berlin-and-vienna-5
+      when: Oct. 11
+      date: '1963-10-11'
+      time: 1963-10-11T18:31Z
+      time_zone: America/New_York
+      place:
+      - washington
+      - moscow
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      c: 'Rusk to Kohler, 2:31 p.m., by telegram 1160, eyes only: puzzled by the timing and motive of the Soviet holdup of the convoy. He lists four possibilities: a coming crisis, the months of détente
+        a huge deception; a split in the Moscow regime; Khrushchev, beset, showing force at small risk; Soviet military in Germany out to make trouble. He asks Kohler to report any sign.'
+      n: '[FRUS 1961–63, XV, doc. 222](https://history.state.gov/historicaldocuments/frus1961-63v15/d222) (Oct. 11, 2:31 p.m.; drafted by Thompson, approved by Rusk; Top Secret, Immediate). See [[cal.1963-10-10.berlin-and-vienna]].
+        Names: Rusk, Kohler, Thompson.'
+      tags:
+      - name:rusk-dean
+      - name:kohler-foy-d
+      - name:thompson-llewellyn-e
+- add:
+    entry:
+      id: cal.1963-10-11.berlin-and-vienna-6
+      when: Oct. 11
+      date: '1963-10-11'
+      time: 1963-10-11T21:30Z
+      time_zone: America/New_York
+      place: washington
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      - defense
+      c: 'Kennedy with Rusk, McNamara, Thompson, Tyler, Nitze, Manning and Bundy, 5:30 p.m.: Tyler sums up Kohler''s talk with Zorin, who left the impression that Moscow is not out to change convoy procedures,
+        and the French consent to assemble the Free Style forces. The Russians count sixty-six men in the held convoy, the Americans thirty. Kennedy has Thompson ask Dobrynin to have Zorin tell the Soviet
+        commander to meet General Baker on dismounting; no convoys meanwhile in the disputed size; the Free Style forces to begin assembling the next day.'
+      n: '[FRUS 1961–63, XV, doc. 224](https://history.state.gov/historicaldocuments/frus1961-63v15/d224) (Memorandum of conference with President Kennedy, Oct. 11, 5:30 p.m.; no drafter shown; "General
+        Clay (JCS)" among those present; the tripartite note; the 3 p.m. meeting of the Ambassadorial Group). See [[cal.1963-10-10.berlin-and-vienna]]. Names: Kennedy, Rusk, McNamara, Thompson, Tyler, Nitze,
+        Bundy.'
+      tags:
+      - name:kennedy-john-f
+      - name:rusk-dean
+      - name:mcnamara-robert-s
+      - name:thompson-llewellyn-e
+      - name:tyler-william-r
+      - name:nitze-paul
+      - name:bundy-mcgeorge
+- add:
+    entry:
+      id: cal.1963-10-11.berlin-and-vienna-7
+      when: Oct. 11
+      date: '1963-10-11'
+      time: 1963-10-11T23:00Z
+      time_zone: America/New_York
+      place: washington
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      c: 'Thompson calls in Dobrynin, 7 p.m.: Kohler''s talks with Smirnovsky and Zorin; the American right of access, no duty to notify or dismount; the practice at the checkpoints. General Clay telephones
+        a list of convoys since May 1: only two held, and briefly. Dobrynin, at first reluctant, agrees to send Zorin a message; he and Gromyko are upset at the incident and the attention of the press.'
+      n: '[FRUS 1961–63, XV, doc. 225](https://history.state.gov/historicaldocuments/frus1961-63v15/d225) (Memorandum of conversation, Oct. 11; drafted by Thompson; "at 7:00 p.m."). See [[cal.1963-10-10.berlin-and-vienna]].
+        Names: Thompson, Dobrynin, Gromyko, Zorin.'
+      tags:
+      - name:thompson-llewellyn-e
+      - name:dobrynin-anatoly
+      - name:gromyko-andrei
+      - name:zorin-valerian
+- add:
+    entry:
+      id: cal.1963-10-12.berlin-and-vienna
+      when: Oct. 12
+      date: '1963-10-12'
+      place:
+      - cincinnati
+      - nyc
+      thread: berlin-and-vienna
+      also:
+      - soviet-union
+      c: 'Gromyko, in New York, telephones Rusk, at the Hebrew Union College in Cincinnati: the Soviet Union does not mean to change the autobahn procedures, it wants no incident on Berlin, and the incident
+        is not to cut across what Gromyko told the President. He asks Rusk to see whether the American military tried to change the procedures. Rusk holds that the Soviet military did, and that Thompson''s
+        talk with Dobrynin may clear it up. On a General Assembly resolution on bombs in orbit, Rusk says Stelle and Foster will be in New York from Monday.'
+      n: '[FRUS 1961–63, XV, doc. 227](https://history.state.gov/historicaldocuments/frus1961-63v15/d227) (Memorandum of telephone conversation, Oct. 12; drafted by Rusk on Oct. 14; Rusk in Cincinnati,
+        Gromyko in New York). Check: the hour of the call. See [[cal.1963-10-10.berlin-and-vienna]]. Names: Gromyko, Rusk, Thompson, Dobrynin, Foster.'
+      tags:
+      - name:gromyko-andrei
+      - name:rusk-dean
+      - name:thompson-llewellyn-e
+      - name:dobrynin-anatoly
+      - name:foster-william-c
+- edit:
+    id: cal.1963-10-29.civil-rights-bill
+    base: 463ff94e
+    set:
+      variants:
+      - unit: '6'
+        witness: w.zelizer-fierce-urgency-of-now
+        reads: the substitute "passed 23 to 11"
+        at: 59; 60 n.62
+      c: 'House Judiciary Committee approves the civil rights bill: the Celler–McCulloch substitute, agreed with the Justice Department and Halleck, in place of the subcommittee''s broader bill.{1} Part
+        III dropped;{2} an equal employment commission added.{3} Kennedy: "comprehensive and fair."{4} Check the vote.{5} Celler calls the committee to order at 10:45; the Moore motion fails 15 to 19, Willis
+        of Louisiana voting against it. Foley reads the 56-page substitute to 11:52 a.m.; Rodino moves to close debate, and the vote is taken as the noon bell rings: the previous question carries 20 to
+        12, the substitute is adopted 20 to 14, and the final vote to report is set for that afternoon.{6}'
+      n: 'Statement by the President Following Action on the Civil Rights Bill by the House Committee on the Judiciary, [1963 Pub. Papers 820](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=878)
+        (Oct. 29, 1963). [[w.reeves-president-kennedy]], 628–31 (the committee''s vote); [[w.sorensen-kennedy]], 500–01; [[w.sundquist-politics-and-policy]], 264–65 (the compromise in place of the subcommittee''s
+        bill, beaten 19–15; the equal employment title); [[w.mann-walls-of-jericho]], 373–74 (the subcommittee''s bill set aside, the bipartisan bill reported); [[w.zelizer-fierce-urgency-of-now]], 59–60
+        (the subcommittee''s bill beaten 19–15; the substitute 23–11); [[w.whalen-longest-debate]], 47, 58, 64–66 (the substitute in place of the subcommittee''s bill; Title III''s suits cut back; Title
+        VII''s commission to go to court; "a comprehensive and fair bill"); [[w.humphrey-education-of-a-public-1976]], 273 (McCulloch''s compromise, an equal employment commission enforcing through the
+        courts); [[w.obrien-no-final-victories]], 143, 146 (the House Judiciary Committee''s approval in late October; Kennedy''s personal intervention; Halleck and McCulloch the key Republicans; not the
+        vote of 20 to 12 or the day); [[w.risen-bill-of-the-century]], 131–33 (the compromise''s terms, the FEPC to sue in court, 131; the committee called to order at 10:45; the Moore motion lost 15–19;
+        Foley''s reading to 11:52 a.m.; Rodino''s motion; the vote; not Title III''s going); [[w.hr-rep-88-914]], 1–18 (the committee''s substitute, amendment No. 1, Titles I–X, 1–16; the title, amendment
+        No. 2, 16; against the subcommittee''s eleven titles, the Community Relations Service title dropped and the rest kept, amended, 17–18); [[w.civil-rights-rules-hearings-hr-7152]], 39–88 (the substitute
+        as printed in the reported bill, after the bill as introduced, 2–39); [[w.purdum-idea-whose-time-has-2014]], 141, 143–44 (the 56-page substitute, with the FEPC; Kennedy''s statement, "comprehensive
+        and fair"; the vote, 20 to 14 at the noon bell, after Moore''s motion beaten 19–15 (ten Democrats, Willis the tenth, and nine Republicans)); [[w.risen-bill-of-the-century]], 133. The votes: 20–12
+        is Rodino''s motion for the previous question and 20–14 the substitute, [[w.whalen-longest-debate]], 65–66 (Moore''s motion beaten, ten Democrats and nine Republicans against; Cramer''s appeal lost
+        22–11; the final vote to report set for that afternoon, no count given); Purdum, 143–44, and Risen, 133, give 20–14 for the substitute at the noon bell. Check: Sundquist, 265, has a broadened Part
+        III in the compromise, the Attorney General to intervene in any civil rights suit brought by private parties. Check: Mann, 374, from CQ''s Almanac, gives 23–11. Check: Zelizer, 59, also gives 23–11,
+        from the *Times* of Oct. 30 (60 n.62). Check: [[w.hr-rep-88-914]], 16–17, has the substitute keep the Attorney General''s suits title, amended (suits on public facilities, intervention in equal
+        protection suits), and drop the Community Relations Service title; not Part III dropped. To check: [[w.rosenberg-kennedy-johnson-and-the]] ("The Bill Moves Forward"); [[w.loevy-to-end-all-segregation]];
+        [[w.scheele-charlie-halleck]]; Nicholas Katzenbach, oral history, 159–69, Kennedy Library (cited by [[w.reeves-president-kennedy]], 629); Charles Halleck, oral history, 9–14, Kennedy Library (cited
+        by [[w.reeves-president-kennedy]], 630); H. Comm. on the Judiciary, 88th Cong., H.R. 7152 (Comm. Print No. 2, Oct. 30, 1963) (the full committee''s substitute as printed; cited by Katzenbach, Dec.
+        2, 1963, in *Civil Rights*, Pt. IV, 2772). See [[cal.1963-06-11.civil-rights-bill]]. Names: Celler, McCulloch, Halleck, Willis, Rodino.'
+      src:
+        c: 8b982b2d
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=878: 1, 2, 3, 4, 5'
+        - 'w.reeves-president-kennedy 628–31: 1'
+        - 'via w.reeves-president-kennedy 629 n.everyone-had-their-lines: 1'
+        - 'via w.reeves-president-kennedy 630 n.the-colored-vote: 1'
+        - 'w.sorensen-kennedy 500–01: 1, 2, 3, 4, 5'
+        - 'w.sundquist-politics-and-policy 264–65: 1, 3'
+        - 'w.mann-walls-of-jericho 373–74: ?'
+        - 'via w.mann-walls-of-jericho 374 n.lengthy-negotiations: 1'
+        - 'w.zelizer-fierce-urgency-of-now 59–60: ?'
+        - 'via x.1963-10-29.judiciary-committee-minutes: 1, 2, 3, 4'
+        - 'w.humphrey-education-of-a-public-1976 273: 3'
+        - 'w.obrien-no-final-victories 143, 146: ?'
+        - 'w.risen-bill-of-the-century 131–33: 3'
+        - 'w.hr-rep-88-914 1–18: ?'
+        - 'w.civil-rights-rules-hearings-hr-7152 39–88: ?'
+        - 'w.risen-bill-of-the-century 133: 6'
+        - 'w.whalen-longest-debate 47, 58, 64–66: 1, 2, 3, 4, 6'
+        - 'w.purdum-idea-whose-time-has-2014 141, 143–44: 3, 4, 6'
+    kind: correct
+    settles:
+    - 'Check: Whalen, 64–66,'
+- edit:
+    id: cal.1963-11-01.vietnam-saigon-9
+    base: be563b05
+    set:
+      time_range:
+      - 1963-11-01T09:00Z
+      - 1963-11-01T11:00Z
+      time_band: after-workday daytime
+      time_zone: Asia/Ho_Chi_Minh
+- follows:
+    id: cal.1963-11-01.vietnam-saigon-9
+    add:
+    - cal.1963-11-01.vietnam-saigon-8
+    basis: '[[w.sen-church-alleged-assassination-plots]], 223 (Minh''s second offer "half an hour later"; then "Shortly before nightfall" the assault)'
+- edit:
+    id: cal.1963-11-15.goldwater
+    base: 36b85695
+    set:
+      time_range:
+      - 1963-11-16T00:00Z
+      - 1963-11-16T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: kind
+      c: 'Pittsburgh, the Penn-Sheraton, the Harvard Business School''s alumni. Goldwater: "Millions of new jobs are lost in the limbo of investments not made, risks not taken, enterprise not dared."'
+      n: '[[w.white-suite-3505]], 240 (the dinner speech; the question on his delay was put at a press conference beforehand). Names: Goldwater.'
+      src:
+        c: bd4c33aa
+        rows:
+        - 'w.white-suite-3505 240: all'
+    kind: correct
+- follows:
+    id: cal.1963-11-15.goldwater
+    add:
+    - cal.1963-11-15.goldwater-4
+    basis: '[[w.white-suite-3505]], 240 (the press conference "beforehand")'
+- add:
+    entry:
+      id: cal.1963-11-15.goldwater-4
+      when: Nov. 15
+      date: '1963-11-15'
+      place: pittsburgh
+      thread: goldwater
+      also:
+      - elections-1964
+      c: 'Pittsburgh, the Penn-Sheraton, a press conference before the dinner. Goldwater, asked why he delays announcing his candidacy: "Why rush? I''m doing all right."'
+      n: '[[w.white-suite-3505]], 240 (the press conference "beforehand"; the dinner speech before the area Harvard Business School alumni association, "just two days after" the Citizens group was announced
+        on Nov. 13). See [[cal.1963-11-15.goldwater]]. Names: Goldwater.'
+      tags:
+      - name:goldwater-barry-m
+      - state:pa
+      - city:pittsburgh
+- edit:
+    id: cal.1963-11-22.democratic-party-5
+    base: 2e32cd66
+    set:
+      variants:
+      - unit: '2'
+        witness: w.obrien-no-final-victories
+        reads: 'O''Brien: on the Friday morning, on the sidewalk below the Hotel Texas where the motorcade waits, he persuades Yarborough to ride with Johnson, then tells Johnson at the hotel door "Yarborough''s
+          going to ride with you"; Kennedy had told him in the suite to "throw Yarborough into the car with Lyndon"'
+        at: 156–57
+- edit:
+    id: cal.1963-11-22.succession
+    base: 19a1861e
+    set:
+      n: 'Remarks Upon Arrival at Andrews Air Force Base, [1963–64 Pub. Papers 1](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=85) (Nov. 22, 1963). [President''s Daily
+        Diary, Nov. 22, 1963](https://catalog.archives.gov/id/192430), images 7, 9 (LBJ Library; National Archives Catalog). [[w.johnson-vantage-point]], 14–17 (the oath, Hughes, Mrs. Kennedy beside him;
+        the words at Andrews); [[w.dallek-flawed-giant]], 49–50 (the oath aboard Air Force One, Mrs. Kennedy beside him); [[w.shesol-mutual-contempt]], 115 (Katzenbach: "Anybody" can swear him in, Sarah
+        Hughes likely; Robert Kennedy tells Johnson so); [[w.bernstein-guns-or-butter]], 15–17 (all but the time; the plane off at 2:41 p.m., at Andrews at 5:59); [[w.young-two-suns-of-the]], 47–48 (the
+        oath aboard Air Force One at Love Field, by Judge Hughes; Mrs. Kennedy at the swearing in, by Valenti''s account); [[w.whalen-longest-debate]], 71 (the words at Andrews, "I will do my best ... That
+        is all I can do. I ask for your help--and God''s"; also the oath in the plane at Love Field, 98 minutes after Kennedy died, not the hour or the judge); [[w.johnson-white-house-diary]], 5–6, 7 (the
+        oath at Mrs. Kennedy''s side, Mrs. Johnson beside him, Judge Hughes before him; the brief statement at Andrews; not the time, the words of the oath or of the statement: "Only about four sentences");
+        [[w.valenti-very-human-president]], 47–48 (the oath: Katzenbach''s wording read back, Judge Hughes, Mrs. Kennedy "at the left side of LBJ"; the hour given as "2:40 CST"); [[w.valenti-very-human-president]],
+        56 (Andrews, "precisely 6:10 p.m. Eastern Standard Time": "I will do my best. That is all I can do. I ask for your help—and God''s"); [[w.obrien-no-final-victories]], 163–64 (Judge Hughes arrives
+        and is handed a typed sheet with the oath; Johnson asks O''Brien whether Mrs. Kennedy would join him; she comes and stands with the Johnsons; O''Brien hands the judge a book in a white box from
+        the President''s bedside table, a Catholic missal, not a Bible; not the hour or Andrews); [[w.obrien-no-final-victories]], 164. [[w.caro-passage-of-power]], 329–36, 356, 365. Shesol, 115, has Judge
+        Hughes arrive at 3:38 p.m., no zone given; read as Eastern time, it is 2:38 p.m. Central, the Public Papers'' hour; and Johnson''s hand on "John Kennedy''s Bible." Check: O''Brien, 164, has a Catholic
+        missal. To check: [[w.manchester-death-of-a-president]]; [[w.holland-kennedy-assassination-tapes]]; [[w.gillon-kennedy-assassination-24-hours]]; [[w.taking-charge-2001]]; [[w.presidential-recordings-2005]];
+        Hughes''s account as told to Michael Drury, Special Files, Assassination, LBJ Library (cited by [[w.caro-passage-of-power]], 335); Kenneth P. O''Donnell OH, LBJ Library (cited by [[w.dallek-flawed-giant]],
+        50). Names: Johnson, Jacqueline Kennedy, Hughes, O''Brien. Check: the Daily Diary gives the oath at 2:40 p.m. (image 9); so does Johnson, "approximately 2:40 p.m. Central Standard Time" (15); the
+        Public Papers'' note to item 1, 2:38.'
+    settles:
+    - 'Check: Shesol, 115,'
+- edit:
+    id: cal.1963-11-22.succession-4
+    base: 29051b3d
+    set:
+      c: Johnson, leaving the Executive Office Building for home, sets Reedy to list the labor leaders he must speak to in the next few days.
+      n: '[[w.white-making-of-the-president-1965]], 45 ("On his way home from the Executive Office Building"). After the leaders'' meeting at the Executive Office Building. See [[cal.1963-11-22.succession]].
+        Names: Johnson, Reedy.'
+      src:
+        c: f4659445
+        rows:
+        - 'w.white-making-of-the-president-1965 45: all'
+    kind: correct
+- add:
+    entry:
+      id: cal.1963-11-22.succession-32
+      when: Nov. 22
+      date: '1963-11-22'
+      time_range:
+      - 1963-11-23T00:00Z
+      - 1963-11-23T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      thread: succession
+      also:
+      - economy
+      c: Johnson, that evening, telephones Keith Funston of the New York Stock Exchange to thank him for closing the Big Board.
+      n: '[[w.white-making-of-the-president-1965]], 45 ("that evening he had telephoned Keith Funston of the New York Stock Exchange to thank him for closing the Big Board"). See [[cal.1963-11-22.succession-4]].
+        Names: Johnson.'
+      tags:
+      - name:johnson-lyndon-b
+      - ok:fields-place
+- follows:
+    id: cal.1963-11-22.succession-15
+    add:
+    - cal.1963-11-22.succession-4
+    basis: the entries' own words (Johnson leaves the Executive Office Building for home; the toast at the Elms) and [[w.white-making-of-the-president-1965]], 45 ("On his way home from the Executive Office
+      Building")
+- edit:
+    id: cal.1963-11-22.press-and-broadcasting
+    base: d6d1f73d
+    set:
+      when: Nov. 22
+      c: Television, the three networks' coverage pooled; in half an hour all commercial programs are off the air. By 2:15 p.m., within twenty-five minutes of the first report, the audience doubled; at
+        Johnson's arrival at Andrews, Md., 70 percent of New York's sets on.
+      n: '[[w.white-making-of-the-president-1965]], 12–13 ("In half an hour all commercial programs had been wiped from the air"; the Nielsen figures for the New York area, Friday, in the footnote, 13).
+        The coverage from the shooting: [[w.white-making-of-the-president-1965]], 13. See [[cal.1963-11-22.assassination]].'
+      src:
+        c: 7b4cdd19
+        rows:
+        - 'w.white-making-of-the-president-1965 12–13: all'
+    kind: correct
+- add:
+    entry:
+      id: cal.1963-11-23.press-and-broadcasting-2
+      when: Nov. 23
+      date: '1963-11-23'
+      time_range:
+      - 1963-11-23T16:00Z
+      - 1963-11-24T04:00Z
+      time_zone: America/New_York
+      thread: press-and-broadcasting
+      also:
+      - assassination
+      c: 'Television, Saturday: almost half of all sets in America stay on the full twelve hours, eleven in the morning to eleven at night, by Nielsen''s New York sample. By late Saturday over 1,500 men
+        of the three networks, 44 mobile cameras and 33 taping machines are at Washington for the pooled coverage.'
+      n: '[[w.white-making-of-the-president-1965]], 13 (the text, and the Nielsen figures in the footnote). See [[cal.1963-11-22.press-and-broadcasting]].'
+      tags:
+      - ok:fields-time
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-11-24.press-and-broadcasting
+      when: Nov. 24
+      date: '1963-11-24'
+      thread: press-and-broadcasting
+      also:
+      - assassination
+      c: 'Television, Sunday, the ceremonies in the Capitol Rotunda: 85 percent of all television homes in America watch, by Nielsen''s count.'
+      n: '[[w.white-making-of-the-president-1965]], 13 (the footnote). See [[cal.1963-11-22.press-and-broadcasting]].'
+- add:
+    entry:
+      id: cal.1963-11-25.press-and-broadcasting
+      when: Nov. 25
+      date: '1963-11-25'
+      thread: press-and-broadcasting
+      also:
+      - assassination
+      c: 'Television, Monday, the funeral and burial: 93 percent of all television sets in America, the highest total in television''s history, White writes, to more than 100 million people. Pope Paul VI''s
+        benediction is carried live from Rome; the ceremonies go by Telstar to twenty-two foreign lands, Russia and Japan among them.'
+      n: '[[w.white-making-of-the-president-1965]], 13 (the footnote). See [[cal.1963-11-22.press-and-broadcasting]]. Names: Paul VI.'
+      tags:
+      - name:paul-vi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1963-11-16.white-house
+      when: Nov. 16
+      date: '1963-11-16'
+      place: palm-beach
+      thread: white-house
+      follows:
+      - cal.1963-11-16.defense
+      c: Palm Beach, his father's house. Kennedy, on the patio beside the pool, watches the Navy–Duke football game on television with Dave Powers and Torby Macdonald; he takes Navy and gives them ten points,
+        and when Navy wins, 38–25, he demands his payoff on the spot.
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 441 (Saturday; "then on the patio beside the pool" after the morning''s Polaris firing). The order: after [[cal.1963-11-16.defense]], [[w.odonnell-johnny-we-hardly-knew]],
+        441. Names: Kennedy, Powers, Macdonald.'
+      tags:
+      - name:kennedy-john-f
+      - name:macdonald-torbert-h
+      - ok:fields-time
+      - name:powers-david-f
+- add:
+    entry:
+      id: cal.1963-11-16.white-house-2
+      when: Nov. 16
+      date: '1963-11-16'
+      time_range:
+      - 1963-11-17T00:00Z
+      - 1963-11-17T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      place: palm-beach
+      thread: white-house
+      c: Palm Beach. After dinner Kennedy sings "September Song," better than usual.
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 441 ("That night, after dinner"). Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1963-11-17.white-house
+      when: Nov. 17
+      date: '1963-11-17'
+      place: palm-beach
+      thread: white-house
+      c: Palm Beach. Kennedy spends Sunday in the pool and on the patio; he picks the Chicago Bears over the Green Bay Packers and wins another bet.
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 441 (Sunday). Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1963-11-17.white-house-2
+      when: Nov. 17
+      date: '1963-11-17'
+      time_range:
+      - 1963-11-18T00:00Z
+      - 1963-11-18T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      place: palm-beach
+      thread: white-house
+      c: Palm Beach. A showing of the film *Tom Jones*, that night.
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 441 ("That night there was a showing of a movie, Tom Jones"). Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1963-12-24.foreign-aid-3
+      when: Dec. 24
+      date: '1963-12-24'
+      time: 1963-12-24T07:00Z
+      time_zone: America/New_York
+      place: washington
+      thread: foreign-aid
+      c: 'The Oval Office, 2 a.m. Albert reaches Colmer at a Mississippi hospital, where his wife is ill: "Bill, we need you, your party needs you, and President Johnson needs you. We all need you to give
+        us a quorum." Colmer flies through a blizzard to Washington. By Albert''s account.'
+      n: '[[w.albert-little-giant-1990]], 283 ("It was 2:00 a.m. before I reached our last possibility, Bill Colmer"). The day: [[w.purdum-idea-whose-time-has-2014]], 172 (the party of Dec. 23; the House''s
+        special 7 a.m. meeting "the next morning"). See [[cal.1963-12-23.foreign-aid-4]]. Names: Albert, Colmer.'
+      tags:
+      - name:albert-carl
+      - name:colmer-william-m
+      - state:ms
+- edit:
+    id: cal.1963-12-23.foreign-aid-4
+    base: 8cbb061f
+    kind: correct
+    set:
+      c: The Oval Office, the night. Johnson, McCormack and Albert telephone for one more vote to make a quorum of the Rules Committee to send the aid conference report to the floor; most members cannot
+        be found. By Albert's account.
+      time_range:
+      - 1963-12-24T03:00Z
+      - 1963-12-24T05:00Z
+      time_band: night
+      n: '[[w.albert-little-giant-1990]], 283 ("the night of December 23"). The call to Colmer came at 2 a.m. on Dec. 24 by the clock (Albert, 283; the House''s 7 a.m. meeting "the next morning" after the
+        party of Dec. 23, [[w.purdum-idea-whose-time-has-2014]], 172). See [[cal.1963-12-23.foreign-aid]]. Names: Johnson, McCormack, Albert.'
+    unset:
+    - time
+    - time_approx
+- tag:
+    id: cal.1963-12-23.foreign-aid-4
+    remove:
+    - name:colmer-william-m
+    - state:ms
+- edit:
+    id: cal.1963-12-28.europe-and-the-alliance
+    base: cbfe0e73
+    set:
+      time: 1963-12-28T17:00Z
+      time_zone: America/Chicago
+      n: 'Joint Statement Following Discussions With Chancellor Erhard, [1963–64 Pub. Papers 99](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=183) (Dec. 29, 1963). [FRUS
+        1961–63, XV, doc. 253](https://history.state.gov/historicaldocuments/frus1961-63v15/d253) (the talks, Dec. 28, 3:15 p.m.: East-West relations). [[w.schwartz-lyndon-johnson-and-europe]], 22–23, 65
+        (the talks; the six divisions); [[w.caro-passage-of-power]], 506–07 (the state visit of Dec. 28: Erhard met at Bergstrom, by helicopter to the ranch; Johnson and Erhard with only the interpreters
+        present, Rusk and Schroeder with the staffs in the next room; the talk in a meadow; not the terms). [[w.gavin-gold-dollars-and-power]], 113, 139–40 (the divisions; the offset). After [[cal.1963-12-28.europe-and-the-alliance-2|the
+        welcome at Bergstrom]]: the helicopter to the Ranch, the stag luncheon, and "after lunch there were more talks" ([[w.johnson-white-house-diary]], 23–24). To check: German record of the talks, *Akten
+        zur Auswärtigen Politik der Bundesrepublik Deutschland 1963*, III, docs. 486, 490 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 23 n.57, 65 n.77); *Time*, Jan. 10, 1964, at 23 (cited by [[w.schwartz-lyndon-johnson-and-europe]],
+        22 n.55). The time is the first day''s: the private session at 11 a.m. ([FRUS 1961–63, XV, doc. 248](https://history.state.gov/historicaldocuments/frus1961-63v15/d248)). See [[cal.1963-01-14.europe-and-the-alliance]].
+        Check: Gavin, 113, 140, quotes the communiqué: the offset of "great value to both governments," to be "fully executed and continued"; those are the words of the joint statement of Dec. 21, 1965;
+        that of Dec. 29, 1963: "It was agreed that this arrangement should continue." Names: Erhard.'
+- add:
+    entry:
+      id: cal.1963-12-28.europe-and-the-alliance-4
+      when: Dec. 28
+      date: '1963-12-28'
+      time: 1963-12-28T17:00Z
+      time_zone: America/Chicago
+      place: lbj-ranch
+      thread: europe-and-the-alliance
+      also:
+      - soviet-union
+      - berlin-and-vienna
+      c: 'The LBJ Ranch, 11 a.m. Johnson and Erhard, alone with their interpreters: US–German relations; de Gaulle and relations with France; negotiations with the Soviets; the Berlin Christmas passes (parts
+        1, 2, 4 and 5 of nine).'
+      n: '[FRUS 1961–63, XV, doc. 248](https://history.state.gov/historicaldocuments/frus1961-63v15/d248) (Part 1), [doc. 249](https://history.state.gov/historicaldocuments/frus1961-63v15/d249) (Part 2),
+        [doc. 250](https://history.state.gov/historicaldocuments/frus1961-63v15/d250) (Part 4), [doc. 251](https://history.state.gov/historicaldocuments/frus1961-63v15/d251) (Part 5), each at 11 a.m. See
+        [[cal.1963-12-28.europe-and-the-alliance]]. Names: Johnson, Erhard.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:erhard-ludwig
+- add:
+    entry:
+      id: cal.1963-12-28.europe-and-the-alliance-5
+      when: Dec. 28
+      date: '1963-12-28'
+      time: 1963-12-28T17:15Z
+      time_zone: America/Chicago
+      place: lbj-ranch
+      thread: europe-and-the-alliance
+      also:
+      - berlin-and-vienna
+      c: 'The LBJ Ranch, 11:15 a.m. Rusk, with McGhee, Tyler and Bundy, and Foreign Minister Schroeder, with Westrick, Carstens and others, while Johnson and Erhard meet alone: the Berlin Christmas pass
+        problem and its relation to Berlin and all-German issues (part one of two).'
+      n: '[FRUS 1961–63, XV, doc. 252](https://history.state.gov/historicaldocuments/frus1961-63v15/d252) (Memorandum of conversation, Dec. 28, 11:15 a.m.; the President and Chancellor "in private session").
+        See [[cal.1963-12-28.europe-and-the-alliance]]. Names: Rusk, McGhee, Tyler, Bundy, Schroeder, Westrick, Carstens.'
+      tags:
+      - name:rusk-dean
+      - name:schroder-gerhard
+      - name:mcghee-george-c
+      - name:tyler-william-r
+      - name:bundy-mcgeorge
+      - name:carstens-karl
+      - name:westrick-ludger
+- add:
+    entry:
+      id: cal.1963-12-28.europe-and-the-alliance-6
+      when: Dec. 28
+      date: '1963-12-28'
+      time: 1963-12-28T21:15Z
+      time_zone: America/Chicago
+      place: lbj-ranch
+      thread: europe-and-the-alliance
+      also:
+      - soviet-union
+      c: 'The LBJ Ranch, 3:15 to 5:15 p.m. Johnson with Rusk and ten officials, Erhard with Schroeder and twelve: East–West relations (part 5 of 5). Erhard: Western suggestions have met few encouraging
+        answers; the test ban cut the threat of a hot war; the West needs a more exact evaluation of the Soviet position; he favors the proposed wheat sales; the recent autobahn incidents were no accident;
+        the Christmas pass issue has dynamite in it.'
+      n: '[FRUS 1961–63, XV, doc. 253](https://history.state.gov/historicaldocuments/frus1961-63v15/d253) (Memorandum of conversation, Dec. 28, 3:15 p.m.; the meeting ended at 5:15 p.m.). See [[cal.1963-12-28.europe-and-the-alliance]].
+        Names: Johnson, Rusk, Erhard, Schroeder.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:rusk-dean
+      - name:erhard-ludwig
+      - name:schroder-gerhard
+- cite:
+    id: cal.1962-10-28.soviet-union
+    item: '[[w.fursenko-one-hell-of-a]], 284–85 (Khrushchev has the whole Presidium, its candidate members and the relevant secretaries of the Central Committee meet him at noon at a government dacha at
+      Novo-Ogarevo)'
+    'on': About noon, Khrushchev's dacha outside Moscow, the whole Presidium and his advisers.
+- add-words:
+    id: cal.1962-10-28.soviet-union
+    after: end
+    words: 'Khrushchev opens the session: "In order to save the world, we must retreat." Before the terms are taken up, the Presidium allows Pliyev, if attacked, to repel it with "a responsive blow."'
+    item: '[[w.fursenko-one-hell-of-a]], 284–85'
+- variant:
+    id: cal.1962-10-28.soviet-union
+    'on': He dictates his letter accepting the first terms before word of Robert Kennedy's talk with Dobrynin reaches the room;
+    witness: w.fursenko-one-hell-of-a
+    reads: Troyanovsky, at the dacha, reads out Dobrynin's report of Robert Kennedy's talk to the session, which has him read it again; then Khrushchev calls a stenographer and dictates the acceptance
+    at: '285'
+- names:
+    id: cal.1962-10-28.soviet-union
+    add:
+    - Pliyev
+    tags:
+    - name:pliyev-issa-a
+- add:
+    entry:
+      id: cal.1964-02-02.poverty-2
+      when: Feb. 2
+      date: '1964-02-02'
+      time_range:
+      - 1964-02-03T00:00Z
+      - 1964-02-03T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      place: washington
+      thread: poverty
+      c: Evening meeting on the poverty program. Shriver, who has asked Frank Mankiewicz, the Peace Corps director in Peru, in town for two days, what he knows of poverty, introduces him as his executive
+        assistant for the war on poverty. All there but Shriver, Mankiewicz and Yarmolinsky favor a community action approach; nothing is settled, and Mankiewicz agrees to stay six weeks.
+      n: '[[w.dallek-flawed-giant]], 77–78. To check: Frank Mankiewicz oral history; Adam Yarmolinsky oral history, July 13, 1970 (cited by [[w.dallek-flawed-giant]], 78 n.51). Check: whether this is the
+        meeting of the task force in the Peace Corps conference room ([[cal.1964-02-02.poverty]]). See [[cal.1964-02-02.poverty]]. Names: Shriver, Mankiewicz, Yarmolinsky.'
+      tags:
+      - name:shriver-r-sargent
+      - name:mankiewicz-frank
+      - name:yarmolinsky-adam
+- add:
+    entry:
+      id: cal.1964.civil-rights-bill
+      when: 1964, early
+      date: '1964'
+      thread: civil-rights-bill
+      also:
+      - congress
+      c: 'Mansfield, at Johnson''s suggestion, asks Humphrey to be floor leader on the civil rights bill when it comes over from the House: Eastland, chairman of Judiciary, is not suited, and Mansfield
+        prefers to stay free for other Senate duties.'
+      n: '[[w.humphrey-education-of-a-public-1976]], 274 ("Early in the year, Mike Mansfield, at President Johnson''s suggestion, asked me to be floor leader when the bill came over"). Check: the day: Humphrey
+        gives "early in the year" only. Names: Mansfield, Humphrey, Johnson, Eastland.'
+      tags:
+      - name:mansfield-mike
+      - name:humphrey-hubert-h
+      - name:johnson-lyndon-b
+      - name:eastland-james-o
+      at: before 1964-01
+- add:
+    entry:
+      id: cal.1964-01-07.elections-1964-3
+      when: Jan. 7
+      date: '1964-01-07'
+      thread: elections-1964
+      also:
+      - republican-party
+      c: Rockefeller warns his friend Lodge, ambassador at Saigon, that "any fragmentation of the moderate effort could be dangerous," and extracts from him a promise not to authorize a campaign on his
+        behalf, by Kabaservice's account.
+      n: '[[w.kabaservice-rule-and-ruin]], 79 & n.28 (the note cites Rockefeller''s letter to Lodge of Jan. 7, 1964, George L. Hinman Papers). Check: the day: Kabaservice''s note gives the letter only;
+        the warning and the promise may have been spoken. To check: Nelson A. Rockefeller to Henry Cabot Lodge Jr., Jan. 7, 1964 (cited by [[w.kabaservice-rule-and-ruin]], 79 n.28). Names: Rockefeller,
+        Lodge.'
+      tags:
+      - name:rockefeller-nelson
+      - name:lodge-henry-cabot
+      - ok:fields-place
+- edit:
+    id: cal.1963-12-26.china-leadership-5
+    base: ecadeb03
+    set:
+      when: Dec. 27
+      date: '1963-12-27'
+      variants:
+      - unit: '1'
+        witness: w.macfarquhar-origins-of-the-cultural
+        reads: the publication "on Mao's birthday, 26 December"
+        at: III, 394
+      c: Zhou Yang's 周扬 speech of October, "The fighting tasks of workers in philosophy and the social sciences" 哲学社会科学工作者的战斗任务, is printed in the *Renmin ribao* 人民日报.{1}
+      n: '[[w.macfarquhar-origins-of-the-cultural]], III, 394. To check: [[w.schram-thought-of-mao-tse]], 167–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 394 n.82a). See [[cal.1963-10.china-leadership-2]].
+        The day: the *Renmin ribao* of Dec. 27, 1963, by the editors'' note to [[w.yang-shangkun-riji]], II, 337 n.2, and by the *Wengao*''s source line and note (XVII, 101 & n.1; see [[cal.1963-11-08.china-leadership-3]]);
+        MacFarquhar, III, 394, puts the publication on Mao''s birthday, Dec. 26. Names: Zhou Yang.'
+      src:
+        c: 6321098e
+        rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 394: 1'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 394 n.82a: 1'
+    kind: correct
+    settles:
+    - 'Check: the day;'
+- cite:
+    id: cal.1963-12-26.china-leadership-5
+    item: '[[w.yang-shangkun-riji]], II, 337 n.2 (the editors'' note: the article printed in the *Renmin ribao*, Dec. 27, 1963)'
+- cite:
+    id: cal.1963-12-26.china-leadership-5
+    item: '[[w.jianguo-yilai-mao-zedong]], XVII, 101 & n.1 (根据一九六三年十二月二十七日《人民日报》刊印; 十二月二十七日, 这个讲话在《人民日报》发表)'
+- follows:
+    id: cal.1963-12-27.china-leadership-8
+    add:
+    - cal.1963-12-26.china-leadership-5
+    basis: '[[w.yang-shangkun-riji]], II, 337 n.2 (the editors: the article printed in the *Renmin ribao* of Dec. 27)'
+- edit:
+    id: cal.1963-09-09.vietnam
+    base: 600936a9
+    set:
+      time_range:
+      - 1963-09-09T10:00Z
+      - 1963-09-09T16:00Z
+      time_band: morning
+      time_zone: America/New_York
+      c: 'Huntley and Brinkley, for NBC''s first half-hour news.{1} The domino theory: "I believe it."{2} A cut in aid to Saigon not "helpful at this time."{3}'
+      n: 'Transcript of Broadcast on NBC''s "Huntley-Brinkley Report.", [1963 Pub. Papers 658](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716) (Sept. 9, 1963). Kennedy,
+        interview with Chet Huntley and David Brinkley (Viet. II.J). [[w.gibbons-u-s-government-and]], II, 163 (the interview with Huntley; the domino theory); [[w.kaplan-mcnamara-ascendancy-1961-1965]],
+        288 (the interview; the domino principle); [[w.mcnamara-in-retrospect]], ch. 3 at n.19. [[w.reeves-president-kennedy]], 592–93; [[w.selverstone-kennedy-withdrawal]], 147–48, 152 (Huntley and Brinkley,
+        Sept. 9: the domino image affirmed three times; aid cuts "would not be helpful at this time"); [[w.mann-grand-delusion]], 290–91 (Kennedy to Huntley and Brinkley of NBC, Sept. 9: the domino theory,
+        "I believe it"; on cutting aid, "it is possible you could have some effect upon the government structure there" but "you might have a situation which could bring about a collapse"; not the first
+        half-hour newscast or "helpful at this time"); [[w.salinger-with-kennedy]], 114 (the exclusive for NBC''s Huntley-Brinkley show when it went to thirty minutes, cut to fit, Kennedy insisting on the
+        White House''s final approval of what was shown, and NBC agreeing; not the words). [[w.sorensen-kennedy]], 658 (the interview). The interview was taped in his office on the morning of Sept. 9, the
+        broadcast that evening (the Papers'' note, 661). To check: [[w.watson-expanding-vista]]. See [[cal.1963-09-02.vietnam]]. Names: Huntley, Brinkley, Kennedy.'
+      src:
+        c: 173f2eea
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716: 1, 2, 3'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 288: 1, 2'
+        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 288 n.108: 1, 2, 3'
+        - 'w.gibbons-u-s-government-and II, 163: 1, 2'
+        - 'via w.gibbons-u-s-government-and II, 163 n.75: 1, 2'
+        - 'w.reeves-president-kennedy 592–93: 1, 2, 3'
+        - 'w.sorensen-kennedy 658: 1'
+        - 'w.mcnamara-in-retrospect ch. 3 at n.19: 1, 2'
+        - 'via x.1963-09-09.transcript-of-broadcast-on-nbcs-huntley: 1, 2'
+        - 'w.selverstone-kennedy-withdrawal 147–48, 152: 1, 2, 3'
+        - 'w.mann-grand-delusion 290–91: 2'
+        - 'w.salinger-with-kennedy 114: 1'
+    kind: correct
+- add:
+    entry:
+      id: cal.1963-09-09.press-and-broadcasting-2
+      when: Sept. 9
+      date: '1963-09-09'
+      time_range:
+      - 1963-09-09T23:00Z
+      - 1963-09-10T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      thread: press-and-broadcasting
+      also:
+      - vietnam
+      follows:
+      - cal.1963-09-09.vietnam
+      c: NBC's "Huntley-Brinkley Report" goes from fifteen minutes to thirty, the President alone in the first half-hour broadcast, from the interview taped that morning.
+      n: '[Transcript of Broadcast on NBC''s "Huntley-Brinkley Report.", 1963 Pub. Papers 658](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=716) (Sept. 9, 1963; the note,
+        661: "newly expanded half-hour," broadcast "on the evening of September 9," from the tape of the interview "on the morning of the same day"). [[w.branch-parting-the-waters]], 888 (the first half-hour
+        news). To check: Manchester, *The Glory and the Dream*, 1228; *Newsweek*, Sept. 23, 1963, at 62–65 (cited by [[w.branch-parting-the-waters]], 888 n.3). See [[cal.1963-09-09.vietnam]]. Names: Huntley,
+        Brinkley, Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - name:huntley-chet
+      - name:brinkley-david
+- edit:
+    id: cal.1963-10.alabama-al
+    base: 94c57aca
+    set:
+      time: 1963-09-16T14:06Z
+      time_zone: Etc/GMT+6
+      n: '[*Acts of Alabama*, 1963, Regular Session, Act No. 514, 1098–1100](https://archive.org/details/alabama-acts-1963_v3/page/n424): "Approved September 16, 1963. Time: 8:06 A.M." The hour is central
+        standard time; Alabama kept no daylight time in 1963. Jeremy Gray, "Alabama Sovereignty Commission formed with sweeping powers, no public oversight (Oct. 5, 1963)," al.com, Oct. 5, 2013, from the
+        *Birmingham News*. To check: [[w.carter-politics-of-rage-1995]]. Names: Wallace.'
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1963-10-03.defense
+    base: 3db48ab2
+    set:
+      n: 'Daily Digest, [109 Cong. Rec. D483](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=481) (Senate), [D484](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=482)
+        (House: 336 yeas to 3 nays) (Oct. 8, 1963). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 140 (the amount and the cut). The day and the count: Oct. 8, 336 to 3, by the Digest (D483–84: the House adjourned
+        at 2:54 p.m., the Senate recessed at 6:51 p.m.); Kaplan, 140, has Oct. 3 and 335 to 3. Check: the Senate''s vote: the Digest gives no count (109 Cong. Rec. 18961–64).'
+    settles:
+    - 'Check: Kaplan, 140,'
+    - 'Check: the Senate'
+- variant:
+    id: cal.1963-10-03.defense
+    field: date
+    value: '1963-10-03'
+    witness: w.kaplan-mcnamara-ascendancy-1961-1965
+    reads: the day Oct. 3 and the House vote 335 to 3
+    at: '140'
+- follows:
+    id: cal.1964-01-03.china-leadership-11
+    add:
+    - cal.1964-01-03.china-leadership-2
+    basis: '[[w.chen-yi-nianpu]], 1005 (the visit to the textile combine; 之后, "afterward," the poem)'
+- follows:
+    id: cal.1964-01-07.china-leadership
+    add:
+    - cal.1964-01-07.china-africa-tour
+    basis: '[[w.chen-yi-nianpu]], 1006 (back at Tirana at noon, 中午, the talks continued 下午) and [[w.zhou-enlai-waijiao-huodong]], 384 (the visits and the return, then 下午5时 the sixth talks)'
+- follows:
+    id: cal.1964-01-29.china-leadership
+    add:
+    - cal.1964-01-29.china-africa-tour
+    basis: '[[w.chen-yi-nianpu]], 1012 (the Gezira; back at Khartoum 下午5时; 晚上, the farewell reception)'
+- add:
+    entry:
+      id: cal.1964-02-01.china-africa-tour
+      when: Feb. 1
+      date: '1964-02-01'
+      thread: china-africa-tour
+      also:
+      - africa
+      - china-zhou-foreign
+      c: 'The China–Ethiopia joint communiqué is issued: both sides will go on supporting the freedom struggle of the African peoples not yet independent, and work to relax tension, defend peace, and win
+        general disarmament and the complete prohibition and destruction of nuclear weapons.'
+      n: '[[w.zhonghua-renmin-gongheguo-waijiao-2001]], 319 (1日, 发表中埃联合公报). See [[cal.1964-01-31.china-africa-tour-2]].'
+      tags:
+      - polity:prc
+      - polity:ethiopia
+- follows:
+    id: cal.1964-01-31.china-africa-tour
+    add:
+    - cal.1964-01-31.china-leadership
+    basis: 'the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 391: the visit to Axum, then 下午5时 the second talks)'
+- add:
+    entry:
+      id: cal.1963-12-29.europe-and-the-alliance-5
+      when: Dec. 29
+      date: '1963-12-29'
+      time: 1963-12-29T17:00Z
+      time_zone: America/Chicago
+      place: lbj-ranch
+      thread: europe-and-the-alliance
+      also:
+      - soviet-union
+      c: 'The LBJ Ranch, 11 a.m. Johnson and Erhard, Bundy and the interpreters present: Germany and East–West negotiations (part 2 of 2). Erhard: Bonn cannot approach Khrushchev directly; would the United
+        States, holding to self-determination, explore solutions with him? Germany ready to make real sacrifices, credits among them. Johnson: no meeting with Khrushchev until it can bring concrete results;
+        a $50 billion defense budget; a dearth of new ideas; act while Khrushchev is weak, lest he go "for our jugular."'
+      n: '[FRUS 1961–63, XV, doc. 254](https://history.state.gov/historicaldocuments/frus1961-63v15/d254) (Memorandum of conversation, Dec. 29, 11 a.m.). See [[cal.1963-12-28.europe-and-the-alliance]].
+        Names: Johnson, Erhard, Bundy, Khrushchev.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:erhard-ludwig
+      - name:bundy-mcgeorge
+      - name:khrushchev-nikita-s
+- add:
+    entry:
+      id: cal.1963-12-29.europe-and-the-alliance-6
+      when: Dec. 29
+      date: '1963-12-29'
+      time: 1963-12-29T17:30Z
+      time_zone: America/Chicago
+      place: lbj-ranch
+      thread: europe-and-the-alliance
+      also:
+      - berlin-and-vienna
+      c: 'The LBJ Ranch, 11:30 a.m. Rusk, with McGhee, Bundy and Tyler, and Schroeder, with Westrick, Carstens, Knappstein and Krapf, while Johnson and Erhard meet in private. Carstens asks that consultation
+        on Berlin center at Bonn, the three ambassadors, the Federal Republic and the Senat at one table; Rusk: five vetoes, the Commandants'' authority not to be diminished. Schroeder: a German paper on
+        a new initiative on reunification, five points, by mid-January; Rusk: on such terms no meeting with the Soviets would take place; any such group to be ready for 300 meetings.'
+      n: '[FRUS 1961–63, XV, doc. 255](https://history.state.gov/historicaldocuments/frus1961-63v15/d255) (Part one, procedure for consultation on Berlin problems), [doc. 256](https://history.state.gov/historicaldocuments/frus1961-63v15/d256)
+        (Part two, the new German initiative on reunification), Dec. 29, 11:30 a.m. See [[cal.1963-12-28.europe-and-the-alliance]]. Names: Rusk, McGhee, Bundy, Tyler, Schroeder, Westrick, Carstens, Knappstein.'
+      tags:
+      - name:rusk-dean
+      - name:mcghee-george-c
+      - name:bundy-mcgeorge
+      - name:tyler-william-r
+      - name:schroder-gerhard
+      - name:westrick-ludger
+      - name:carstens-karl
+      - name:knappstein-heinrich-k
+- follows:
+    id: cal.1963-12-29.europe-and-the-alliance-6
+    add:
+    - cal.1963-12-29.europe-and-the-alliance-5
+    basis: '[FRUS 1961–63, XV, doc. 255](https://history.state.gov/historicaldocuments/frus1961-63v15/d255) ("After the President and the Chancellor had gone into private session")'
+- check:
+    id: cal.1964-02.poverty-4
+    text: 'Check: the day: [[w.dallek-flawed-giant]], 78, has the luncheon with Harrington on the Monday after Feb. 2, i.e. Feb. 3.'
+- add:
+    entry:
+      id: cal.1964-02-11.elections-1964-primaries
+      when: Feb. 11
+      date: '1964-02-11'
+      thread: elections-1964-primaries
+      also:
+      - elections-1964
+      - republican-party
+      c: 'National Draft Lodge Headquarters, press release on the New Hampshire write-in campaign for Lodge: by Kabaservice''s account of the campaign it documents, a limit of $25,000, most of it raised
+        in the State, and letters to all 96,000 registered Republicans in New Hampshire.'
+      n: '[[w.kabaservice-rule-and-ruin]], 80 & n.30. Check: what the release itself says; Kabaservice cites it for the paragraph. To check: National Draft Lodge Headquarters, press release, Feb. 11, 1964,
+        George L. Hinman Papers, Rockefeller Archives (cited by [[w.kabaservice-rule-and-ruin]], 80 n.30). Names: Lodge.'
+      tags:
+      - name:lodge-henry-cabot
+      - state:nh
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1964-02-29.elections-1964-primaries
+      when: Feb. 29
+      date: '1964-02-29'
+      thread: elections-1964-primaries
+      also:
+      - elections-1964
+      - republican-party
+      c: 'Mullen, National Draft Lodge Headquarters, press release: the Lodge campaign not splitting the moderates; "The need for an alternative was clear and it was on that basis that we offered Lodge."'
+      n: '[[w.kabaservice-rule-and-ruin]], 80 & n.29. To check: Robert R. Mullen, National Draft Lodge Headquarters, press release, Feb. 29, 1964, George L. Hinman Papers, Rockefeller Archives (cited by
+        [[w.kabaservice-rule-and-ruin]], 80 n.29). See [[cal.1963-12-23.elections-1964-2]]. Names: Lodge.'
+      tags:
+      - name:lodge-henry-cabot
