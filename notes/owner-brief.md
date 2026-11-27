@@ -1522,3 +1522,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 7:55 pm PT.** "Could we tell the readers and auditors that subsequent (non-contemporary) commentary, analysis, and matter goes in as dated and attributes \"gloss\"? We have the \"gloss\" section, right? That's what it's for. My own gloss follows others'."
 
 **Nov. 26, 2026, about 7:59 pm PT.** "Did the Drive inventory catch Taubman's Khrushchev?"
+
+**Nov. 26, 2026, about 8:50 pm PT.** "Are you sure we shouldn't have threads for Chinese provinces, the several States of the United States, certain municipalities (New York, Chicago, Beijing, Shanghai), and the sovereign nations of the world? The China thread pass warned me against them (perhaps only because they were an ineffective way of dividing the China batch?), but, as it is, it's hard to follow any given national thread anywhere outside the United States and China, and hard to follow any subnational or local thread anywhere."
