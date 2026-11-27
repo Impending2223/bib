@@ -315,7 +315,7 @@ ops:
     base: 93715bfa
     set:
       c: By Zhou's account to the Romanian leaders, Mar. 25, and to Ben Bella, Mar. 31, the Soviet Union, against the DRV's opposition and with China's answer not yet given, makes contact with de Gaulle on peace talks on Vietnam.
-      n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou: ''on 23 February of this year''. "[Record of the Second Meeting between Premier Zhou and President Ben Bella](https://digitalarchive.umd.edu/document/165405)" (Mar. 31, 1965), PRC FMA 203-00651-02, 55–85, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou''s account: "contacted the French government on 23 February"; the Soviet ambassador to France later told the Chinese ambassador that the French attitude was Moscow''s, for unconditional cease-fire talks). The record gives no place or hour. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). Names: de Gaulle, Zhou Enlai, Ben Bella. The approach to the British government is its own entry. Check: a Soviet or French record of the contact. Check: when the Chinese embassy in Paris learned of it. Check: the year the Archive posted the document.'
+      n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou: ''on 23 February of this year''. "[Record of the Second Meeting between Premier Zhou and President Ben Bella](https://digitalarchive.umd.edu/document/165405)" (Mar. 31, 1965), PRC FMA 203-00651-02, 55–85, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou''s account: "contacted the French government on 23 February"; the Soviet ambassador to France later told the Chinese ambassador that the French attitude was Moscow''s, for unconditional cease-fire talks). The record gives no place or hour. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). The approach to the British government is its own entry. Names: de Gaulle, Zhou Enlai, Ben Bella. Check: a Soviet or French record of the contact. Check: when the Chinese embassy in Paris learned of it. Check: the year the Archive posted the document.'
     kind: correct
     settles:
     - 'Check: a Soviet or French record of the contact, and the day of the British approach.'
@@ -458,11 +458,6 @@ ops:
         rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 397–400: all'
     kind: correct
-- add-words:
-    id: cal.1960-11-25.china-leadership-6
-    after: end
-    words: It asks deep at night what it may yield and when to sign or not.
-    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 397–400 ("deep at night" of the 25th)'
 - edit:
     id: cal.1960-11-25.china-leadership-6
     base: 863488dd
@@ -473,6 +468,11 @@ ops:
       time_band: night
       time_zone: Europe/Moscow
       range_basis: record
+- add-words:
+    id: cal.1960-11-25.china-leadership-6
+    after: end
+    words: It asks deep at night what it may yield and when to sign or not.
+    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 397–400 ("deep at night" of the 25th)'
 - follows:
     id: cal.1960-11-25.china-leadership-6
     add:
@@ -778,6 +778,16 @@ ops:
     after: end
     words: Part of his revising of the draft, Jan. 19–22.
     item: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 19–22, 1962)'
+- edit:
+    id: cal.1960-12-01.transition-and-staff-cabinet
+    base: 9f51f62e
+    set:
+      place: washington
+      time_range:
+      - 1960-12-01T17:00Z
+      - 1960-12-01T19:00Z
+      time_band: workday midday
+      range_basis: record
 - add-words:
     id: cal.1960-12-01.transition-and-staff-cabinet
     after: end
@@ -793,16 +803,6 @@ ops:
     - Schlesinger
     tags:
     - name:schlesinger-arthur-m-jr
-- edit:
-    id: cal.1960-12-01.transition-and-staff-cabinet
-    base: 9f51f62e
-    set:
-      place: washington
-      time_range:
-      - 1960-12-01T17:00Z
-      - 1960-12-01T19:00Z
-      time_band: workday midday
-      range_basis: record
 - add-words:
     id: cal.1967-07-13.vietnam-program-5
     after: end
