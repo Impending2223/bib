@@ -3938,6 +3938,16 @@ entries:
     c: 'Wujiahuayuan 吴家花园, Peking 北京. Peng Dehuai 彭德怀 asks to see the films *Huaishuzhuang* 《槐树庄》 and *Li Shuangshuang* 《李双双》: a good film; collectivization is the road all must take, and farming alone, without machines, is weak; but the individual economy was ended rather early, for China''s villages had farmed alone for thousands of years; collectives still plow with oxen and mules, and output cannot rise much nor stand a natural disaster while farm machinery is so far behind.'
     n: '[[w.peng-dehuai-nianpu]], 777. Made public: 1998. Names: Peng Dehuai.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai]
+  - id: cal.1962-12-23.cuba-2
+    when: Dec. 23
+    date: '1962-12-23'
+    place: havana
+    thread: cuba
+    follows:
+      - cal.1962-12-23.cuba
+    c: After four flights, 426 men out, Castro demands the $2,925,000 pledged for the wounded, by 3 p.m. the next afternoon or the rest stay. It is Sunday, the banks closed.
+    n: '[[w.guthman-we-band-of-brothers]], 136 ("It was Sunday, and all the banks were closed"; the four flights began in the late afternoon of Dec. 23, 135–36); [[w.schlesinger-robert-kennedy-and-his]], 537 (half the remaining prisoners loaded, the Cubans hold the rest until the $2.9 million unpaid for the April release comes; not the flights, the hour or the figure $1,925,000). Check: the hour of the demand: Guthman gives none. Check: O''Donnell, 311–12, has the demand "at the last minute, only a few days before the Christmas Eve deadline," of "another $2,900,000 in cash." Split under R17 and R25b. See [[cal.1962-12-23.cuba]]. Names: Castro.'
+    tags: [name:castro-fidel, ok:fields-time]
   - id: cal.1962-12-24.robert-kennedy
     when: Dec. 24
     date: '1962-12-24'
@@ -3956,21 +3966,19 @@ entries:
     when: Dec. 24
     date: '1962-12-24'
     thread: cuba
-    c: After four flights, 426 men out, Castro demands the $2,925,000 pledged for the wounded by 3 p.m. or the rest stay.{1} Nolan and Williams call Robert Kennedy and Katzenbach early in the morning.{2} Kennedy calls Cardinal Cushing, who pledges $1 million, and General Clay, who raises the other $1,925,000 and signs a personal note for it.{3} At the President's suggestion, Kennedy asks Cushing for a million before the day is over; by Cushing's account he calls back that afternoon, within three hours, the money to be at the White House before six.{4} By Guthman, Nolan and Williams fly to Miami to telephone; Castro's demand came on a Sunday, the banks closed. Cushing is a sponsor of the Families Committee, Clay head of its fund-raising.{5}
-    n: '[[w.guthman-we-band-of-brothers]], 136; [[w.schlesinger-robert-kennedy-and-his]], 537 (half the remaining prisoners loaded, the Cubans hold the rest until the $2.9 million unpaid for the April release comes; Robert Kennedy turns to Cushing, who raises $1 million in a few hours from Latin American friends; Clay raises the rest on his personal note; not the flights, the hour, the figure $1,925,000 or the calls of Nolan and Williams); [[w.odonnell-johnny-we-hardly-knew]], 311–12 (Cushing''s account: Robert Kennedy telephones him, at the President''s suggestion, to ask for a million dollars before the day is over, to get the prisoners out before Christmas; he calls back in three hours with the money, to be delivered to the White House before six that night; Robert Kennedy had raised $1,900,000 with the help of General Clay; Castro''s demand for $2,900,000 "only a few days before the Christmas Eve deadline"; not Nolan and Williams''s calls, the flights, the hour or Katzenbach); [[w.odonnell-johnny-we-hardly-knew]], 311. To check: Richard Cardinal Cushing, recorded interview by Jean Stein, n.d., 3, Stein Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 537 n.16). See [[cal.1962-12-23.cuba]]. Names: Castro, Robert Kennedy, Katzenbach, Clay, Cushing. Check: the day; Guthman: "It was Sunday" (Dec. 23), the money due at 3 p.m. "the next afternoon."'
+    follows:
+      - cal.1962-12-24.cuba-6
+    c: Kennedy calls Cardinal Cushing, who pledges $1 million, and General Clay, who raises the other $1,925,000 and signs a personal note for it.{3} At the President's suggestion, Kennedy asks Cushing for a million before the day is over; by Cushing's account he calls back that afternoon, within three hours, the money to be at the White House before six.{4} Cushing is a sponsor of the Families Committee, Clay head of its fund-raising.{5}
+    n: '[[w.guthman-we-band-of-brothers]], 136; [[w.schlesinger-robert-kennedy-and-his]], 537 (Robert Kennedy turns to Cushing, who raises $1 million in a few hours from Latin American friends; Clay raises the rest on his personal note; not the flights, the hour, the figure $1,925,000 or the calls of Nolan and Williams); [[w.odonnell-johnny-we-hardly-knew]], 311–12 (Cushing''s account: Robert Kennedy telephones him, at the President''s suggestion, to ask for a million dollars before the day is over, to get the prisoners out before Christmas; he calls back in three hours with the money, to be delivered to the White House before six that night; Robert Kennedy had raised $1,900,000 with the help of General Clay; not Nolan and Williams''s calls, the flights, the hour or Katzenbach); [[w.odonnell-johnny-we-hardly-knew]], 311. The order: after [[cal.1962-12-24.cuba-6]], [[w.guthman-we-band-of-brothers]], 136 ("Bob immediately made two phone calls"). To check: Richard Cardinal Cushing, recorded interview by Jean Stein, n.d., 3, Stein Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 537 n.16). See [[cal.1962-12-23.cuba]]. Names: Robert Kennedy, Clay, Cushing. Check: the hour of the calls to Cushing and Clay.'
     src:
-      c: 29f05872
+      c: 53d2a8d8
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 537: ?'
         - 'w.odonnell-johnny-we-hardly-knew 311–12: ?'
         - 'w.odonnell-johnny-we-hardly-knew 311: 4'
-        - 'w.guthman-we-band-of-brothers 136: 1, 2, 3, 5'
-    tags: [name:castro-fidel, name:kennedy-robert-f, name:katzenbach-nicholas, name:clay-lucius-d, name:cushing-richard-g]
+        - 'w.guthman-we-band-of-brothers 136: 3, 5'
+    tags: [name:kennedy-robert-f, name:clay-lucius-d, name:cushing-richard-g]
     variants:
-      - unit: '1'
-        witness: w.odonnell-johnny-we-hardly-knew
-        reads: Castro demands "another $2,900,000 in cash" "at the last minute, only a few days before the Christmas Eve deadline," the prisoners released only after Clay's note is signed
-        at: 311–12
       - unit: '3'
         witness: w.odonnell-johnny-we-hardly-knew
         reads: Cushing promises the million at the White House "before six o'clock that night"; General Clay, in the Attorney General's office "the next morning," signs a note for $2,900,000; the prisoners are released "that afternoon" and flown to Miami
@@ -4144,6 +4152,18 @@ entries:
     n: '[[w.guthman-we-band-of-brothers]], 136 ("shortly before the 3 p.m. deadline"). The order: after [[cal.1962-12-24.cuba-2]], [[w.guthman-we-band-of-brothers]], 136 (Castro''s demand and the calls to Cushing and Clay come first). See [[cal.1962-12-24.cuba-2]]. Names: Donovan, Castro.'
     tags: [name:donovan-james-b, name:castro-fidel]
     time_zone: America/Havana
+  - id: cal.1962-12-24.cuba-6
+    when: Dec. 24
+    date: '1962-12-24'
+    time: 1962-12-24T10:00Z
+    place:
+      - miami
+      - hickory-hill
+    thread: cuba
+    c: 'At 5 a.m. Nolan and Williams, in Miami from Havana, call Robert Kennedy at Hickory Hill and Katzenbach: Castro is adamant, no cash, no prisoners. Kennedy asks whether they are in a stronger position a second after the money is handed over than a second before. Told Castro is dug in, he sets about raising it by 3 p.m.'
+    n: '[[w.thomas-robert-kennedy]], 237 (5 a.m. on Dec. 24, Nolan to Kennedy at Hickory Hill; Castro adamant, no cash, no prisoners; "a second after ... or ... before"); [[w.guthman-we-band-of-brothers]], 136 (Nolan, who was in Havana, and Williams fly to Miami and explain it to Kennedy and Katzenbach "in an early-morning phone call"; the money by 3 p.m.). The hour is Thomas''s. Check: whether Williams and Katzenbach were on the call at 5 a.m.: Thomas names Nolan and Kennedy only. Split under R25b. See [[cal.1962-12-23.cuba-2]]. Names: Robert Kennedy, Katzenbach.'
+    tags: [name:kennedy-robert-f, name:katzenbach-nicholas, ok:fields-time]
+    time_zone: America/New_York
   - id: cal.1962-12-25.missile-crisis
     when: Dec. 25
     date: '1962-12-25'
