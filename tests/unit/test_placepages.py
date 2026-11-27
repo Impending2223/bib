@@ -208,3 +208,49 @@ def test_pages_plan_family():
     ps = threads.plan_parts("laos", [(datetime.date(1961, 1, 1), 10), (datetime.date(1962, 1, 1), 10)], 10,
                             page="places-laos")
     assert [p["page"] for p in ps] == ["places-laos-1961", "places-laos-1962"]
+
+
+# ---------------------------------------------------------------- the dateline and "Places:" (STYLE 6, 7)
+
+def test_places_line(series, cal, register):
+    pp.gather(series)
+    ent = next(e for _, e in cal.entries() if "when" in e and e.get("place") == "peking")
+    got = pp.line(ent, series)
+    assert got.startswith('Places: <a href="places-prc.html">China</a>')
+    assert '<a href="places-peking.html">Peking</a>' in got and got.endswith(".")
+    assert pp.line(E(id="cal.nowhere"), series) == ""             # an entry it does not know: none
+    assert pp.line(ent, None) == "" or pp.line(ent, None) == got   # no series, no build: none (or the build's)
+
+
+def test_places_line_new_york_state(series, cal, monkeypatch):
+    """A State named as a city of the same line is: "New York State", beside the city's "New York"."""
+    pp.reset()
+    monkeypatch.setattr(pp, "CITY_MIN", 1)
+    assert ("city", "nyc") in pp.gather(series)
+    ent = next(e for _, e in cal.entries() if "when" in e and e.get("place") in ("nyc", "new-york"))
+    got = pp.line(ent, series)
+    assert '<a href="places-new-york-state.html">New York State</a>' in got
+    assert '<a href="places-nyc.html">New York</a>' in got
+    pp.reset()
+
+
+def test_into_note():
+    assert pp.into_note("A, 3. Names: <a>X</a>.", "Places: P.") == "A, 3. Places: P. Names: <a>X</a>."
+    assert pp.into_note("A, 3.", "Places: P.") == "A, 3. Places: P."
+    assert pp.into_note("", "Places: P.") == "Places: P."
+    assert pp.into_note("A.", "") == "A."
+
+
+def test_dateline_links_its_place(series, monkeypatch):
+    from bib import daybook, dateline
+    pp.reset()
+    monkeypatch.setattr(daybook, "SERIES", series)
+    timed = {"id": "x", "when": "Apr. 17", "date": "1961-04-17", "time": "1961-04-17T15:30Z"}
+    h = dateline.html_(dict(timed, place="washington"))
+    assert '<a href="places-washington.html">Washington</a> · 10:30 a.m.' in h
+    h = dateline.html_(dict(timed, time_zone="America/New_York"))  # the clock's city: no place of record, no link
+    assert "<a " not in h and "Washington · 10:30 a.m." in h
+    h = dateline.html_(dict(timed, place="selma"))                 # a place with no page of its own
+    assert "<a " not in h
+    assert "closest('.dl a')" in dateline.SCRIPT                   # a tap follows the link
+    pp.reset()

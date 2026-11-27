@@ -518,11 +518,6 @@ ops:
       time_zone: Asia/Shanghai
     unset:
     - time_band
-- cite:
-    id: cal.1960-05-16.china-leadership-7
-    item: '[[w.yang-shangkun-riji]], I, 508 (May 16, 1960; 9 to 12:30 at night, Yang at Mao''s talk with Zhou and Chen; then Zhang Yan and Luo Qingchang report to him, to 2:30; the range runs from the end
-      of the talk, 12:30 a.m. of the 17th)'
-    'on': time
 - edit:
     base: 6e3e5dfe
     id: cal.1960-05-16.china-leadership-7
@@ -534,14 +529,16 @@ ops:
       time_zone: Asia/Shanghai
     unset:
     - time_band
+- cite:
+    id: cal.1960-05-16.china-leadership-7
+    item: '[[w.yang-shangkun-riji]], I, 508 (May 16, 1960; 9 to 12:30 at night, Yang at Mao''s talk with Zhou and Chen; then Zhang Yan and Luo Qingchang report to him, to 2:30; the range runs from the end
+      of the talk, 12:30 a.m. of the 17th)'
+    'on': time
 - follows:
     add:
     - cal.1960-05-16.china-leadership
     basis: '[[w.yang-shangkun-riji]], I, 508 (the talk with Mao, Zhou and Chen "晚9时到12时半", then the report "到2时半")'
     id: cal.1960-05-16.china-leadership-7
-- check:
-    id: cal.1960-05-21.china-leadership-7
-    text: 'Check: the hour: the diary prints the call after the talks with Kim Il Sung, which ended at midnight, and gives it no hour of its own ([[w.yang-shangkun-riji]], I, 510).'
 - edit:
     base: f3d2e134
     id: cal.1960-05-21.china-leadership-7
@@ -549,6 +546,9 @@ ops:
     - time_range
     - time_band
     - time_zone
+- check:
+    id: cal.1960-05-21.china-leadership-7
+    text: 'Check: the hour: the diary prints the call after the talks with Kim Il Sung, which ended at midnight, and gives it no hour of its own ([[w.yang-shangkun-riji]], I, 510).'
 - edit:
     base: 48bfac3b
     id: cal.1960-05-25.china-leadership-8
