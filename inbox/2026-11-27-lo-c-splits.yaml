@@ -43,7 +43,7 @@ ops:
       time_zone: America/New_York
       range_basis: record
       c: By Schlesinger's account, Blair sounds Stevenson out that night, who prefers the UN.
-      n: '[[w.schlesinger-thousand-days-1965]], 139; [[w.schlesinger-journals]], 94–97 (the journal of Dec. 1: Kennedy: "I think I''ll call [Blair] tonight"; not the sounding-out nor Stevenson''s preference for the UN). Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1960-12-01.transition-and-staff-2]]. Names: Schlesinger, Blair, Stevenson.'
+      n: '[[w.schlesinger-thousand-days-1965]], 139; [[w.schlesinger-journals]], 97 (the journal of Dec. 1, as Schlesinger leaves: "I suppose that Bill Blair is the man to call about this ... I think I''ll call him tonight"; not the sounding-out nor Stevenson''s answer). Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1960-12-01.transition-and-staff-2]]. Names: Schlesinger, Blair, Stevenson.'
       tags:
       - name:schlesinger-arthur-m-jr
       - name:blair-william-m-jr
@@ -52,12 +52,13 @@ ops:
         c: b8fd5e1e
         rows:
         - 'w.schlesinger-thousand-days-1965 139: all'
-        - 'w.schlesinger-journals 94–97: ?'
+        - 'w.schlesinger-journals 97: ?'
 - add:
     entry:
       id: cal.1960-12-01.transition-and-staff-cabinet-5
       when: Dec. 1
       date: '1960-12-01'
+      place: washington
       thread: transition-and-staff-cabinet
       follows:
       - cal.1960-12-01.transition-and-staff-2
@@ -67,27 +68,29 @@ ops:
       time_band: workday midday
       time_zone: America/New_York
       range_basis: record
-      c: Lovett to lunch with the President-elect, by Schlesinger's journal.
-      n: '[[w.schlesinger-journals]], 94–97 (the journal of Dec. 1: Evelyn Lincoln''s appointment for noon in the Senate office, Georgetown after, Lovett to lunch); [[w.schlesinger-thousand-days-1965]], 129–31. Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1960-12-01.transition-and-staff-2]]. Names: Lovett, Schlesinger.'
+      c: Georgetown. Lovett to lunch with the President-elect, by Schlesinger's journal.
+      n: '[[w.schlesinger-journals]], 95 (the journal of Dec. 1: the drive from the Senate office to Georgetown, a drink at the house; "In due course Bob Lovett came in for lunch"); [[w.schlesinger-thousand-days-1965]], 129–31. Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1960-12-01.transition-and-staff-2]]. The order: after [[cal.1960-12-01.transition-and-staff-2]], the journal''s account (95: Schlesinger''s drink at the house, then Lovett "in due course"). Names: Lovett, Schlesinger.'
       tags:
       - name:lovett-robert-a
       - name:schlesinger-arthur-m-jr
       src:
-        c: a7e9bb25
+        c: 482b967d
         rows:
-        - 'w.schlesinger-journals 94–97: ?'
+        - 'w.schlesinger-journals 95: all'
         - 'w.schlesinger-thousand-days-1965 129–31: all'
 - add:
     entry:
       id: cal.1962-01-18.china-seven-thousand
       when: Jan. 18–22
       date: '1962-01-18'
+      time: 1962-01-18T07:00Z
       place: peking
+      time_zone: Asia/Shanghai
       thread: china-seven-thousand
       also:
       - china-zhou
       c: Zhou Enlai sits again with the drafting committee Jan. 18, 19, 20 and 22, and revises the draft himself, Jan. 19–22.
-      n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 17–22, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 155 (the committee of twenty-one, its members, eight days of sessions from Jan. 17, Mao aloof). Made public: 1996. To check: [[w.schram-mao-tse-tung-unrehearsed]], 159 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.77). See [[cal.1962-01-17.china-leadership]]. Names: Zhou Enlai.'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 17–22, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 155 (the committee of twenty-one, its members, eight days of sessions from Jan. 17, Mao aloof); [[w.yang-shangkun-riji]], II, 114 (the drafting committee Jan. 18, 3 to 7 p.m.; Jan. 19, 3 to 7:30 p.m., Zhou among the speakers; Jan. 20, 3 to 7 p.m., the second draft revised together). The words: 由3时开到7时 (II, 114). The time is the first day''s. Made public: 1996. To check: [[w.schram-mao-tse-tung-unrehearsed]], 159 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.77). See [[cal.1962-01-17.china-leadership]]. Names: Zhou Enlai.'
       tags:
       - polity:prc
       - name:zhou-enlai
@@ -98,6 +101,7 @@ ops:
         - 'w.zhou-enlai-nianpu-1949 II, 452: all'
         - 'w.macfarquhar-origins-of-the-cultural III, 155: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 155 n.77: all'
+        - 'w.yang-shangkun-riji II, 114: ?'
 - add:
     entry:
       id: cal.1965-02-23.vietnam-diplomacy-2
@@ -110,7 +114,7 @@ ops:
       follows:
       - cal.1965-02-23.vietnam-diplomacy
       c: By Zhou's account to the Romanian leaders, Mar. 25, the Soviet Union, after de Gaulle, makes contact with the British government on peace talks on Vietnam.
-      n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou: ''on 23 February of this year''. "[Record of the Second Meeting between Premier Zhou and President Ben Bella](https://digitalarchive.umd.edu/document/165405)" (Mar. 31, 1965), PRC FMA 203-00651-02, 55–85, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou''s account: "contacted the French government on 23 February"; the Soviet ambassador to France later told the Chinese ambassador that the French attitude was Moscow''s, for unconditional cease-fire talks). The record gives no place or hour. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). See [[cal.1965-02-23.vietnam-diplomacy]]. The order: after [[cal.1965-02-23.vietnam-diplomacy]], the contact with de Gaulle ("after him"). Names: Zhou Enlai. Check: the day; the transcript gives none ("after him").'
+      n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou: ''on 23 February of this year''. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). See [[cal.1965-02-23.vietnam-diplomacy]]. The order: after [[cal.1965-02-23.vietnam-diplomacy]], the contact with de Gaulle ("after him"). Names: Zhou Enlai. Check: the day; the transcript gives none ("after him").'
       tags:
       - polity:ussr
       - polity:uk
@@ -131,7 +135,7 @@ ops:
       follows:
       - cal.1966-03-26.china-leadership-4
       c: Rawalpindi. Liu Shaoqi calls on President Ayub Khan at the presidency and talks, Chen Yi present.
-      n: '[[w.chen-yi-nianpu]], 1140 (Mar. 26, 1966; Liu calls on Ayub Khan at the presidency and talks, Chen Yi present); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634–635 (Mar. 26–31, 1966; Rawalpindi, Mar. 26 and 27); [[w.zhonghua-renmin-gongheguo-waijiao]], 91 (Mar. 26–31, 1966; Ayub Khan''s talks with Liu; no days given). See [[cal.1966-03-26.china-leadership-4]]. The order: after [[cal.1966-03-26.china-leadership-4]], the arrival at Rawalpindi in the morning ([[w.chen-yi-nianpu]], 1140). Names: Liu Shaoqi, Ayub Khan, Chen Yi.'
+      n: '[[w.chen-yi-nianpu]], 1140 (Mar. 26, 1966; Liu calls on Ayub Khan at the presidency and talks, Chen Yi present); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634 (Mar. 26, 1966: talks with Ayub Khan; Mar. 27, the talks go on); [[w.zhonghua-renmin-gongheguo-waijiao]], 91 (Mar. 26–31, 1966; Ayub Khan''s talks with Liu; no days given). See [[cal.1966-03-26.china-leadership-4]]. The order: after [[cal.1966-03-26.china-leadership-4]], the arrival at Rawalpindi in the morning ([[w.chen-yi-nianpu]], 1140). Names: Liu Shaoqi, Ayub Khan, Chen Yi.'
       tags:
       - polity:prc
       - polity:pakistan
@@ -157,7 +161,7 @@ ops:
       time_zone: Asia/Karachi
       range_basis: record
       c: 'Islamabad. Ayub Khan''s welcome banquet for Liu Shaoqi; Liu: China resolutely opposes aggressors, supports all peoples who oppose aggression and will help their struggle as far as it can; the struggle of the Asian and African peoples against imperialism and aggression and for national independence will certainly win in the end. The border settled, friendship growing, different systems no bar under the Five Principles.'
-      n: '[[w.chen-yi-nianpu]], 1140 (Mar. 26, 1966; evening, Ayub Khan''s banquet at Islamabad); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634–635 (Mar. 26–31, 1966; Islamabad, Mar. 28); [[w.zhonghua-renmin-gongheguo-waijiao]], 91 (Mar. 26–31, 1966; Liu at Ayub''s welcome banquet: the border settled, friendship growing, different systems no bar under the Five Principles; no days given). See [[cal.1966-03-26.china-leadership-4]]. The order: after [[cal.1966-03-26.china-liu-2]], the talks (the banquet in the evening, [[w.chen-yi-nianpu]], 1140). Names: Liu Shaoqi, Ayub Khan. Check: the speech''s words, from the nianpu''s account of the banquet; the day of the banquet against the nianpu''s Islamabad on Mar. 28.'
+      n: '[[w.chen-yi-nianpu]], 1140 (Mar. 26, 1966; evening, Ayub Khan''s banquet at Islamabad); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634 (Mar. 26, 1966: at Ayub Khan''s welcome banquet Liu''s words, as the line has them); [[w.zhonghua-renmin-gongheguo-waijiao]], 91 (Mar. 26–31, 1966; Liu at Ayub''s welcome banquet: the border settled, friendship growing, different systems no bar under the Five Principles; no days given). See [[cal.1966-03-26.china-leadership-4]]. The order: after [[cal.1966-03-26.china-liu-2]], the talks (the banquet in the evening, [[w.chen-yi-nianpu]], 1140). Names: Liu Shaoqi, Ayub Khan. Check: the place; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 634, names none for the banquet and has Liu see Islamabad, the capital being built, on Mar. 28.'
       tags:
       - polity:prc
       - polity:pakistan
@@ -174,7 +178,7 @@ ops:
       follows:
       - cal.1966-04-25.vietnam-congress-foreign-relations
       c: Fulbright, held by his speech in New York, a prior engagement, declines Johnson's invitation to Houston, with profuse thanks, "terribly disappointed."
-      n: '[[w.woods-j-william-fulbright-vietnam]], 132 ("in late April"); [[w.gibbons-u-s-government-and]], IV, 312–13; [[w.dallek-flawed-giant]], 370. See [[cal.1966-04-25.vietnam-congress-foreign-relations]]. The order: after [[cal.1966-04-25.vietnam-congress-foreign-relations]], the invitation it answers. Names: Fulbright, Johnson. Check: the day of the reply.'
+      n: '[[w.woods-j-william-fulbright-vietnam]], 132 ("in late April"; the speech in New York; the thanks); [[w.gibbons-u-s-government-and]], IV, 312–13 (to speak in New York; "terribly disappointed"); [[w.dallek-flawed-giant]], 370 (a prior engagement). See [[cal.1966-04-25.vietnam-congress-foreign-relations]]. The order: after [[cal.1966-04-25.vietnam-congress-foreign-relations]], the invitation it answers. Names: Fulbright, Johnson. Check: the day of the reply.'
       tags:
       - name:fulbright-j-william
       - name:johnson-lyndon-b
@@ -189,7 +193,7 @@ ops:
       also:
       - vietnam-program-5
       c: 'The residence: Johnson polls McNamara and the Chiefs before the photographers, "a meeting of the minds."{1} By Westmoreland''s account Johnson tells him after the meeting that he has chosen the smaller package, cut almost in half: just over 47,000 men, under a ceiling of 525,000.{2}'
-      n: '[[w.branch-at-canaans-edge]], 629–30; [[w.drea-mcnamara-clifford-and-the-2011]], 141 (July 13, Johnson with McNamara, Wheeler and Westmoreland for an increase); [[w.westmoreland-soldier-reports]], 230 (the next day''s news conference: "we have reached a meeting of the minds"); [[w.westmoreland-soldier-reports]], 230. To check: "Generals Agree with President on Build-up Issue," [*New York Times*, July 14, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/14/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 630). See [[cal.1967-07-12.vietnam-force-levels]]. Names: McNamara, Johnson, Westmoreland. Check: Westmoreland has himself, after his mother''s funeral at Columbia on July 12, with the National Security Council in the Cabinet Room, and Johnson deciding then for the lesser of his two packages, cut to just over 47,000 more men under a ceiling of 525,000 (230); whether this meeting.'
+      n: '[[w.branch-at-canaans-edge]], 629–30; [[w.drea-mcnamara-clifford-and-the-2011]], 141 (July 13, Johnson with McNamara, Wheeler and Westmoreland for an increase); [[w.westmoreland-soldier-reports]], 230 (the next day''s news conference: "we have reached a meeting of the minds"). To check: "Generals Agree with President on Build-up Issue," [*New York Times*, July 14, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/14/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 630). See [[cal.1967-07-12.vietnam-force-levels]]. Names: McNamara, Johnson, Westmoreland. Check: Westmoreland has himself, after his mother''s funeral at Columbia on July 12, with the National Security Council in the Cabinet Room, and Johnson deciding then for the lesser of his two packages, cut to just over 47,000 more men under a ceiling of 525,000 (230); whether this meeting.'
       tags:
       - name:mcnamara-robert-s
       - name:johnson-lyndon-b
@@ -211,7 +215,7 @@ ops:
       follows:
       - cal.1967-07-12.vietnam-force-levels
       c: 'McNamara, to the press afterward: "some more U.S. military personnel will be required. I am not sure how many."'
-      n: 'FRUS 1964–68, V, doc. [238](https://history.state.gov/historicaldocuments/frus1964-68v05/d238) (the source note: McNamara held a press conference afterward). [[w.gibbons-u-s-government-and]], IV, 733. To check: [*New York Times*, July 13, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/13/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 733 n.66). See [[cal.1967-07-12.vietnam-force-levels]]. The order: after [[cal.1967-07-12.vietnam-force-levels]], the meeting (FRUS, doc. 238, the source note: "afterward"). Names: McNamara.'
+      n: 'FRUS 1964–68, V, doc. [238](https://history.state.gov/historicaldocuments/frus1964-68v05/d238) (the source note: McNamara held a press conference afterward). [[w.gibbons-u-s-government-and]], IV, 733. To check: [*New York Times*, July 13, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/13/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 733 n.66); [[w.current-documents-1967]], 942–44 (cited in the source note of FRUS 1964–68, V, doc. 238). See [[cal.1967-07-12.vietnam-force-levels]]. The order: after [[cal.1967-07-12.vietnam-force-levels]], the meeting (FRUS, doc. 238, the source note: "afterward"). Names: McNamara.'
       tags:
       - name:mcnamara-robert-s
       src:
@@ -240,21 +244,25 @@ ops:
       id: cal.1961-04-20.cuba-7
       when: Apr. 20
       date: '1961-04-20'
+      time: 1961-04-20T16:45Z
+      time_approx: true
       place: washington
+      time_zone: America/New_York
       thread: cuba
       also:
       - vietnam
       follows:
       - cal.1961-04-20.cuba-2
-      c: The Oval Office, half an hour, after the Cabinet, with Johnson, McNamara and Robert Kennedy, who turns on Bowles;{1} "an almost frantic reaction for an action program."{2}
-      n: '[FRUS 1961–63, X, doc. 158](https://history.state.gov/historicaldocuments/frus1961-63v10/d158) (Bowles''s notes, written in May; the appointment book: the Oval Office). [[w.jones-bay-of-pigs]], 133–34 (the Oval Office); [[w.thomas-robert-kennedy]], 122 (Robert Kennedy jabs his finger into Bowles''s chest: he had been all for the invasion). Made public: FRUS 1961–63, X (1997) (Bowles''s notes). See [[cal.1961-04-20.cuba-2]]. The order: after [[cal.1961-04-20.cuba-2]], the Cabinet ("Then the Oval Office", FRUS, X, doc. 158). Names: Bowles, Johnson, McNamara, Robert Kennedy.'
+      c: 'The President''s office, almost half an hour, after the Cabinet: Kennedy with Bowles, Johnson, McNamara and Robert Kennedy, who turns on Bowles;{1} "an almost frantic reaction for an action program."{2}'
+      n: '[FRUS 1961–63, X, doc. 158](https://history.state.gov/historicaldocuments/frus1961-63v10/d158) (Bowles''s notes, written in May: after three-quarters of an hour of the Cabinet the President goes to his office; the meeting there almost a half hour; the appointment book: the Cabinet from 11 a.m.). [[w.jones-bay-of-pigs]], 133–34 (the Oval Office); [[w.thomas-robert-kennedy]], 122 (Robert Kennedy jabs his finger into Bowles''s chest: he had been all for the invasion). Made public: FRUS 1961–63, X (1997) (Bowles''s notes). The time: about 11:45 a.m., three-quarters of an hour into the Cabinet of 11 a.m. See [[cal.1961-04-20.cuba-2]]. The order: after [[cal.1961-04-20.cuba-2]], the Cabinet (FRUS, X, doc. 158: "after three-quarters of an hour the President got up and walked toward his office"). Names: Kennedy, Bowles, Johnson, McNamara, Robert Kennedy.'
       tags:
+      - name:kennedy-john-f
       - name:bowles-chester
       - name:johnson-lyndon-b
       - name:mcnamara-robert-s
       - name:kennedy-robert-f
       src:
-        c: 6266e241
+        c: 8bfb52ee
         rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d158: 1, 2'
         - 'w.jones-bay-of-pigs 133–34: 1, 2'
@@ -298,10 +306,11 @@ ops:
       at: after 1968-06-14
       thread: elections-1968-humphrey
       c: 'A few days after Moyers''s radio interview of June 14, Mondale: for Humphrey as the most liberal of the three.'
-      n: '[[w.chester-american-melodrama]], 154. See [[cal.1968-06-14.elections-1968-3]]. Names: Mondale, Humphrey. Check: the day.'
+      n: '[[w.chester-american-melodrama]], 154. See [[cal.1968-06-14.elections-1968-3]]. Names: Mondale, Moyers, Humphrey. Check: the day.'
       tags:
       - name:mondale-walter-f
       - name:humphrey-hubert-h
+      - name:moyers-bill
 - edit:
     id: cal.1960-04-13.china-leadership-3
     base: aa3ff4e4
@@ -341,13 +350,13 @@ ops:
     - name:lovett-robert-a
 - edit:
     id: cal.1962-01-17.china-leadership
-    base: 9d8d477e
+    base: eaba0c36
     set:
       when: Jan. 17
-      c: 'Zhou Enlai joins the drafting committee the Center forms to discuss and revise the report Liu Shaoqi is to give the enlarged Central Work Conference;{1} Jan. 17, the Huairen Tang''s back hall, 3 to 6:30 p.m.: Liu Shaoqi, Deng Xiaoping, Chen Boda, Li Fuchun, Bo Yibo, Li Jingquan, Tao Zhu and Song Renqiong speak first.{3} Chen Yun is at the first meeting; the members include Liu, Zhou, Deng Xiaoping, Chen Yun, Li Fuchun, Li Xiannian and Bo Yibo.{4} Zhou, after Peng Zhen: seek the causes in ourselves; the Chairman saw the problems early; listen to the "boatman."{5} Peng Zhen attends.{6} Ke Qingshi asks whether the Twelve-Year Agricultural Program still stands;{7} says 300 million tons of grain is not possible but 250 million is, and that East China alone could produce 200 million by 1967; asks whether Britain is still to be overtaken in fifteen years and whether to go all out.{8} Liu Shaoqi, Zhou Enlai and others reply that the Program was not properly researched and its grain targets not scientific;{9} Deng Xiaoping, that the higher the figures, the harder to reach them.{10}'
-      n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 17–22, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 155 (the committee of twenty-one, its members, eight days of sessions from Jan. 17, Mao aloof); [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 (the redrafting committee for Liu''s written report meets eight days to prepare the second draft); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 545 (Jan. 17–24, 1962; Liu presides at eight meetings of the report drafting committee, which revises the report on the views of the conference''s groups); [[w.yang-jisheng-tiandi-fanfu]], I, 66–67 (Zhou in the drafting committee, after Peng Zhen: seek the causes in ourselves; the errors to be stressed as breaches of Mao Zedong Thought; the Chairman saw the problems early; "listen to the helmsman"); [[w.peng-zhen-nianpu-1902]], IV, 168 (Jan. 17–24, 1962; Peng Zhen at the drafting committee revising Liu''s report); [[w.chen-yun-nianpu-xiuding]], III, 120 (Jan. 17: Chen Yun at the first meeting of the drafting committee, called by Liu Shaoqi; its nineteen members Liu, Zhou, Deng, Chen Yun, Li Fuchun, Li Xiannian, Bo Yibo and others); [[w.macfarquhar-origins-of-the-cultural]], III, 155–56; [[w.yang-shangkun-riji]], II, 114 (Jan. 17, 1962; the drafting committee 起草委员会, 3 to 6:30 p.m., the back hall of Huairen Hall 怀仁堂; the first speakers; the words: 下午3时到6时半); [[w.deng-xiaoping-nianpu-1904]], III, 1684 (Jan. 17, 1962; Deng at the drafting committee, Liu presiding); [[w.chen-yun-nianpu-xiuding]], III, 120; [[w.yang-jisheng-tiandi-fanfu]], I, 66–67; [[w.peng-zhen-nianpu-1902]], IV, 168. Made public: 1996; 1997. The later sittings and Zhou''s revising of the draft are their own entry. Check: [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 has the redrafting committee meet for eight days, Jan. 17 to 24. Check: Chen Yun''s chronology has nineteen members of the drafting committee (III, 120); [[w.peng-zhen-nianpu-1902]], IV, 168, [[w.yang-jisheng-tiandi-fanfu]], I, 66 and MacFarquhar (III, 155) twenty-one. To check: [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.75, n.78a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.76, n.78b, n.81; III, 156 n.82a); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 110 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 67 n.59). Names: Zhou Enlai, Liu Shaoqi, Chen Yun, Deng Xiaoping, Li Fuchun, Li Xiannian, Bo Yibo, Peng Zhen, Chen Boda, Li Jingquan, Tao Zhu, Song Renqiong, Ke Qingshi. Check: the day of the replies.'
+      c: 'Zhou Enlai joins the drafting committee the Center forms to discuss and revise the report Liu Shaoqi is to give the enlarged Central Work Conference;{1} Jan. 17, the Huairen Tang''s back hall, 3 to 6:30 p.m.: Liu Shaoqi, Deng Xiaoping, Chen Boda, Li Fuchun, Bo Yibo, Li Jingquan, Tao Zhu, Wang Renzhong and others speak first.{3} Chen Yun is at the first meeting; the members include Liu, Zhou, Deng Xiaoping, Chen Yun, Li Fuchun, Li Xiannian and Bo Yibo.{4} Zhou, after Peng Zhen: seek the causes in ourselves; the Chairman saw the problems early; listen to the "boatman."{5} Peng Zhen attends.{6} Ke Qingshi asks whether the Twelve-Year Agricultural Program still stands;{7} says 300 million tons of grain is not possible but 250 million is, and that East China alone could produce 200 million by 1967; asks whether Britain is still to be overtaken in fifteen years and whether to go all out.{8} Liu Shaoqi, Zhou Enlai and others reply that the Program was not properly researched and its grain targets not scientific;{9} Deng Xiaoping, that the higher the figures, the harder to reach them.{10}'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 17–22, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 155 (the committee of twenty-one, its members, eight days of sessions from Jan. 17, Mao aloof); [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 (the redrafting committee for Liu''s written report meets eight days to prepare the second draft); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 545 (Jan. 17–24, 1962; Liu presides at eight meetings of the report drafting committee, which revises the report on the views of the conference''s groups); [[w.yang-jisheng-tiandi-fanfu]], I, 66–67 (Zhou in the drafting committee, after Peng Zhen: seek the causes in ourselves; the errors to be stressed as breaches of Mao Zedong Thought; the Chairman saw the problems early; "listen to the helmsman"); [[w.peng-zhen-nianpu-1902]], IV, 168 (Jan. 17–24, 1962; Peng Zhen at the drafting committee revising Liu''s report); [[w.chen-yun-nianpu-xiuding]], III, 120 (Jan. 17: Chen Yun at the first meeting of the drafting committee, called by Liu Shaoqi; its nineteen members Liu, Zhou, Deng, Chen Yun, Li Fuchun, Li Xiannian, Bo Yibo and others); [[w.macfarquhar-origins-of-the-cultural]], III, 155–56; [[w.yang-shangkun-riji]], II, 114 (Jan. 17, 1962; the drafting committee 起草委员会, 3 to 6:30 p.m., the back hall of Huairen Hall 怀仁堂; the first speakers; the words: 下午3时到6时半); [[w.deng-xiaoping-nianpu-1904]], III, 1684 (Jan. 17, 1962; Deng at the drafting committee, Liu presiding). The first speakers as the diary has them (II, 114: 任重, Wang Renzhong); the line had Song Renqiong. Made public: 1996; 1997. The later sittings and Zhou''s revising of the draft are their own entry. Check: [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 has the redrafting committee meet for eight days, Jan. 17 to 24. Check: Chen Yun''s chronology has nineteen members of the drafting committee (III, 120); [[w.peng-zhen-nianpu-1902]], IV, 168, [[w.yang-jisheng-tiandi-fanfu]], I, 66 and MacFarquhar (III, 155) twenty-one. To check: [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.75, n.78a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.76, n.78b, n.81; III, 156 n.82a); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 110 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 67 n.59). Names: Zhou Enlai, Liu Shaoqi, Chen Yun, Deng Xiaoping, Li Fuchun, Li Xiannian, Bo Yibo, Peng Zhen, Chen Boda, Li Jingquan, Tao Zhu, Wang Renzhong, Ke Qingshi. Check: the day of the replies.'
       src:
-        c: f3a6699b
+        c: 59ad37cf
         rows:
         - 'w.zhou-enlai-nianpu-1949 II, 452: ?'
         - 'w.macfarquhar-origins-of-the-cultural III, 155: ?'
@@ -373,7 +382,7 @@ ops:
     kind: correct
 - edit:
     id: cal.1965-02-23.vietnam-diplomacy
-    base: 9df970a9
+    base: 93715bfa
     set:
       c: By Zhou's account to the Romanian leaders, Mar. 25, and to Ben Bella, Mar. 31, the Soviet Union, against the DRV's opposition and with China's answer not yet given, makes contact with de Gaulle on peace talks on Vietnam.
       n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou: ''on 23 February of this year''. "[Record of the Second Meeting between Premier Zhou and President Ben Bella](https://digitalarchive.umd.edu/document/165405)" (Mar. 31, 1965), PRC FMA 203-00651-02, 55–85, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou''s account: "contacted the French government on 23 February"; the Soviet ambassador to France later told the Chinese ambassador that the French attitude was Moscow''s, for unconditional cease-fire talks). The record gives no place or hour. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). Names: de Gaulle, Zhou Enlai, Ben Bella. The approach to the British government is its own entry. Check: a Soviet or French record of the contact. Check: when the Chinese embassy in Paris learned of it. Check: the year the Archive posted the document.'
@@ -383,7 +392,9 @@ ops:
 - tag:
     id: cal.1965-02-23.vietnam-diplomacy
     remove:
-    - polity:uk
+    - vis:only:ussr+fr+uk
+    add:
+    - vis:only:ussr+fr
 - edit:
     id: cal.1966-03-26.china-leadership-4
     base: 324cc607
@@ -406,38 +417,36 @@ ops:
     - name:bhutto-zulfikar-ali
 - edit:
     id: cal.1966-04-25.vietnam-congress-foreign-relations
-    base: ec6d48c3
+    base: 683c883f
     set:
-      c: Johnson invites Fulbright and his wife to fly to Houston with him and Lady Bird Johnson, on his overnight trip to political fund-raisers, a Democratic fund-raising dinner.{1}
-      n: '[[w.woods-j-william-fulbright-vietnam]], 132 ("in late April"); [[w.gibbons-u-s-government-and]], IV, 312–13; [[w.dallek-flawed-giant]], 370. To check: Lee Williams to Fulbright, Apr. 25, 1966 (cited by [[w.woods-j-william-fulbright-vietnam]], 132 n.23). Names: Johnson, Fulbright, Lady Bird Johnson. Check: the day; [[w.gibbons-u-s-government-and]], IV, 312–13 and [[w.dallek-flawed-giant]], 370 tell the same invitation with no day of its own, and are entered Apr. 26 and 27; Johnson''s Daily Diary for the Houston trip would settle it. Fulbright''s refusal is its own entry.'
+      c: Johnson invites Fulbright and his wife to fly to Houston with him and Lady Bird Johnson.{1} His overnight trip to political fund-raisers;{3} a Democratic fund-raising dinner.{4}
+      n: '[[w.woods-j-william-fulbright-vietnam]], 132 ("in late April"); [[w.gibbons-u-s-government-and]], IV, 312–13; [[w.dallek-flawed-giant]], 370. Fulbright''s refusal is its own entry. To check: Lee Williams to Fulbright, Apr. 25, 1966 (cited by [[w.woods-j-william-fulbright-vietnam]], 132 n.23). Names: Johnson, Fulbright, Lady Bird Johnson. Check: the day; [[w.gibbons-u-s-government-and]], IV, 312–13 and [[w.dallek-flawed-giant]], 370 tell the same invitation with no day of its own, and are entered Apr. 26 and 27; Johnson''s Daily Diary for the Houston trip would settle it.'
       src:
-        c: 7e540bd1
+        c: 9ed89bfe
         rows:
         - 'w.woods-j-william-fulbright-vietnam 132: 1'
         - 'via x.1966-04-25.lee-williams-to-fulbright: 1'
-        - 'w.gibbons-u-s-government-and IV, 312–13: 1'
-        - 'w.dallek-flawed-giant 370: 1'
+        - 'w.gibbons-u-s-government-and IV, 312–13: 1, 3'
+        - 'w.dallek-flawed-giant 370: 1, 4'
     kind: correct
     settles:
     - 'Check: the day of the reply.'
 - edit:
     id: cal.1966-05-06.china-leadership-2
-    base: 0c1c96df
+    base: 7a7adfa4
     set:
-      c: 'Peking 北京.{1} Zhang Chunqiao 张春桥 to the enlarged Politburo meeting 政治局扩大会议: against Lu Dingyi, Zhou Yang, Lin Mohan and Shao Quanlin, and above all Peng Zhen and the Peking committee over Yao Wenyuan''s 姚文元 article.{2} Close to eighty present. Zhang, after Kang Sheng: more than 10,000 readers'' letters and manuscripts have come in on Yao Wenyuan''s article, from every province but Tibet 西藏.{3}'
-      n: '[[w.macfarquhar-origins-of-the-cultural]], III, 459 ("the afternoon of 6 May"); [[w.macfarquhar-maos-last-revolution]], 37–38 (Zhang briefs the session on Yao Wenyuan''s article: over 10,000 readers'' letters came in; no day); [[w.yang-jisheng-tiandi-fanfu]], I, 158–159 (on Yang''s order of the first four days Zhang Chunqiao speaks after Kang Sheng, on the Yao Wenyuan article and the "two-line struggle" on the cultural front; against Lu Dingyi and Zhou Yang not given; the day not given); [[w.peng-zhen-nianpu-1902]], IV, 484 (May 6, afternoon, and May 7, morning, 1966; Zhang Chunqiao on the struggle since 1962, aimed at Peng Zhen, Lu Dingyi, Zhou Yang and others); [[w.pu-weihua-zalan-jiu-shijie]], 61–62 (Zhang Chunqiao, as Bu quotes him: the Outline bound our hands without a sound and turned the movement right; Yao Wenyuan''s and Guan Feng''s articles on the crux held back; "scholar-tyrant" meant not Yao or the Shanghai committee but Mao, "arbitrary" Mao''s linking of the play with Lushan; the day not given, May 1966); [[w.pu-weihua-zalan-jiu-shijie]], 77–79 (78: Zhang Chunqiao''s speech of May 6, 1966; six questions: after the Tenth Plenum, the April 1963 conference under Lu Dingyi against "writing the thirteen years", Zhou Yang''s and Lin Mohan''s speeches printed, Shao Quanlin against the "theory that subject decides"; Lin Mohan at Shanghai in the spring of 1965 saying the play would be very hard to criticize; Yao''s article and the blockade in Peking; Peng Zhen''s first visit to Shanghai, Dec. 26, 1965, his second, Feb. 12; Xu Liqun''s call; Peng''s call to Cao Diqiu late Apr. 1 and the Shanghai Secretariat of Apr. 2); [[w.macfarquhar-maos-last-revolution]], 37; [[w.yang-jisheng-tiandi-fanfu]], I, 158–59 (the order of the speakers). Made public: 1988 ([[w.nianyi-da-dongluande-niandai]]); [[w.pu-weihua-zalan-jiu-shijie]] (2008). To check: [[w.nianyi-da-dongluande-niandai]], 10–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 459 n.158a). See [[cal.1966-05-05.china-leadership-3]], which holds Kang Sheng''s eight hours of May 5 and 6. Names: Zhang Chunqiao, Lu Dingyi, Peng Zhen, Yao Wenyuan, Zhou Yang, Lin Mohan, Kang Sheng. Check: the day; [[w.peng-zhen-nianpu-1902]], IV, 484 puts Zhang''s speech on May 6, afternoon, and on May 7, morning.'
+      c: 'Peking 北京.{1} Zhang Chunqiao 张春桥 to the enlarged Politburo meeting 政治局扩大会议: against Lu Dingyi, Zhou Yang, Lin Mohan and Shao Quanlin, and above all Peng Zhen and the Peking committee over Yao Wenyuan''s 姚文元 article.{2} Close to eighty present. Zhang, after Kang Sheng: more than 10,000 readers'' letters have come in on Yao Wenyuan''s article.{3} Letters and manuscripts from every province but Tibet 西藏.{4}'
+      n: '[[w.macfarquhar-origins-of-the-cultural]], III, 459 ("the afternoon of 6 May"); [[w.macfarquhar-maos-last-revolution]], 37–38 (Zhang briefs the session on Yao Wenyuan''s article: over 10,000 readers'' letters came in; no day); [[w.yang-jisheng-tiandi-fanfu]], I, 158–159 (on Yang''s order of the first four days Zhang Chunqiao speaks after Kang Sheng, on the Yao Wenyuan article and the "two-line struggle" on the cultural front; against Lu Dingyi and Zhou Yang not given; the day not given); [[w.peng-zhen-nianpu-1902]], IV, 484 (May 6, afternoon, and May 7, morning, 1966; Zhang Chunqiao on the struggle since 1962, aimed at Peng Zhen, Lu Dingyi, Zhou Yang and others); [[w.pu-weihua-zalan-jiu-shijie]], 61–62 (Zhang Chunqiao, as Bu quotes him: the Outline bound our hands without a sound and turned the movement right; Yao Wenyuan''s and Guan Feng''s articles on the crux held back; "scholar-tyrant" meant not Yao or the Shanghai committee but Mao, "arbitrary" Mao''s linking of the play with Lushan; the day not given, May 1966); [[w.pu-weihua-zalan-jiu-shijie]], 77–79 (78: Zhang Chunqiao''s speech of May 6, 1966; six questions: after the Tenth Plenum, the April 1963 conference under Lu Dingyi against "writing the thirteen years", Zhou Yang''s and Lin Mohan''s speeches printed, Shao Quanlin against the "theory that subject decides"; Lin Mohan at Shanghai in the spring of 1965 saying the play would be very hard to criticize; Yao''s article and the blockade in Peking; Peng Zhen''s first visit to Shanghai, Dec. 26, 1965, his second, Feb. 12; Xu Liqun''s call; Peng''s call to Cao Diqiu late Apr. 1 and the Shanghai Secretariat of Apr. 2). Made public: 1988 ([[w.nianyi-da-dongluande-niandai]]); [[w.pu-weihua-zalan-jiu-shijie]] (2008). To check: [[w.nianyi-da-dongluande-niandai]], 10–12 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 459 n.158a). See [[cal.1966-05-05.china-leadership-3]], which holds Kang Sheng''s eight hours of May 5 and 6. Names: Zhang Chunqiao, Lu Dingyi, Peng Zhen, Yao Wenyuan, Zhou Yang, Lin Mohan, Kang Sheng. Check: the day; [[w.peng-zhen-nianpu-1902]], IV, 484 puts Zhang''s speech on May 6, afternoon, and on May 7, morning.'
       src:
-        c: 33a82f1e
+        c: e2263745
         rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 459: 1, 2'
         - 'via w.macfarquhar-origins-of-the-cultural III, 459 n.158a: 1, 2'
-        - 'w.macfarquhar-maos-last-revolution 37–38: 2'
-        - 'w.yang-jisheng-tiandi-fanfu I, 158–159: ?'
+        - 'w.macfarquhar-maos-last-revolution 37–38: 2, 3'
+        - 'w.yang-jisheng-tiandi-fanfu I, 158–159: 3'
         - 'w.peng-zhen-nianpu-1902 IV, 484: ?'
         - 'w.pu-weihua-zalan-jiu-shijie 61–62: ?'
-        - 'w.pu-weihua-zalan-jiu-shijie 77–79: 1, 2, 3'
-        - 'w.macfarquhar-maos-last-revolution 37: 3'
-        - 'w.yang-jisheng-tiandi-fanfu I, 158–59: 3'
+        - 'w.pu-weihua-zalan-jiu-shijie 77–79: 1, 2, 4'
     kind: correct
 - edit:
     id: cal.1967-05-09.vietnam-air-war-2
@@ -459,21 +468,16 @@ ops:
     id: cal.1967-05-09.vietnam-air-war-2
     remove:
     - name:helms-richard
-- add-words:
+- cite:
     id: cal.1967-05-09.vietnam-air-war
-    after: end
-    words: The same day State's experts, Helms backing them, for restraint.
-    item: '[[w.drea-mcnamara-clifford-and-the-2011]], 208'
-- check:
-    id: cal.1967-05-09.vietnam-air-war
-    text: 'Check: what State''s experts proposed; p. 208 cut short.'
+    item: '[[w.drea-mcnamara-clifford-and-the-2011]], 208 (the same day State''s experts, Helms backing them, for restraint)'
 - edit:
     id: cal.1967-07-12.vietnam-force-levels
-    base: f63a171c
+    base: dec02737
     set:
       when: July 12
       c: 'The Cabinet Room, 1:05–2:38 p.m. McNamara, back from Vietnam, reports: "There is not a military stalemate"; Wheeler: "There is no military stalemate" and "There are no great military problems in sight"; the Chiefs'' request trimmed by 100,000.{1}'
-      n: 'FRUS 1964–68, V, doc. [238](https://history.state.gov/historicaldocuments/frus1964-68v05/d238). [[w.branch-at-canaans-edge]], 629–30; [[w.drea-mcnamara-clifford-and-the-2011]], 141 (McNamara back, ambivalent); [[w.dallek-flawed-giant]], 470–71 (McNamara back July 11, Johnson: "Are we going to be able to win this goddamned war?"; the White House meeting of July 12: McNamara''s recollection of the optimistic briefings in Saigon; Wheeler, "an unbroken series of military successes," "no great military problems in sight," the absence of a stalemate stressed; Katzenbach; not the press statement, the hours, the room, the 100,000 or July 13); [[w.gibbons-u-s-government-and]], IV, 731; [[w.mcnamara-in-retrospect]], ch. 10 at n.9 (Johnson: "Are we going to be able to win this goddamned war?"); [[w.mann-grand-delusion]], 547 (McNamara and Wheeler to Johnson); [[w.berman-lyndon-johnsons-war]], 55 (McNamara: "there is not a military stalemate"); [[w.clifford-counsel-to-the-president-2]], 447 (McNamara: "there is no military stalemate"; Clifford asks whether the war can be won; McNamara: "if we follow the same program we will win the war"; Johnson writes it down); [[w.westmoreland-soldier-reports]], 230 (the July 13 choice of package, on its own entry). The July 13 scene at the residence with Westmoreland''s account, and McNamara''s words to the press, are their own entries. To check: Tom Johnson''s notes of the meeting of 2:50 p.m., LBJ Library; Taylor''s memorandum for the record, Taylor Papers, National Defense University; [*New York Times*, July 13, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/13/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 731 n.63, 733 n.66); Meeting notes, Cabinet Room, 1:05-2:38 p.m., July 12, 1967, "Literally Eyes Only," Tom Johnson meeting notes, Box 1, LBJ (cited by [[w.branch-at-canaans-edge]], 628); "Joint Chiefs Back Troop Rise Asked by Westmoreland," [*New York Times*, July 3, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/03/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 628). See [[cal.1967-07-07.vietnam]]. Names: McNamara, Wheeler, Johnson, Westmoreland. Check: Wheeler''s words: "There is no stalemate" in the line as first written, "There is no military stalemate" in FRUS.'
+      n: 'FRUS 1964–68, V, doc. [238](https://history.state.gov/historicaldocuments/frus1964-68v05/d238). [[w.branch-at-canaans-edge]], 629–30; [[w.drea-mcnamara-clifford-and-the-2011]], 141 (McNamara back, ambivalent); [[w.dallek-flawed-giant]], 470–71 (McNamara back July 11, Johnson: "Are we going to be able to win this goddamned war?"; the White House meeting of July 12: McNamara''s recollection of the optimistic briefings in Saigon; Wheeler, "an unbroken series of military successes," "no great military problems in sight," the absence of a stalemate stressed; Katzenbach; not the press statement, the hours, the room, the 100,000 or July 13); [[w.gibbons-u-s-government-and]], IV, 731; [[w.mcnamara-in-retrospect]], ch. 10 at n.9 (Johnson: "Are we going to be able to win this goddamned war?"); [[w.mann-grand-delusion]], 547 (McNamara and Wheeler to Johnson); [[w.berman-lyndon-johnsons-war]], 55 (McNamara: "there is not a military stalemate"); [[w.clifford-counsel-to-the-president-2]], 447 (McNamara: "there is no military stalemate"; Clifford asks whether the war can be won; McNamara: "if we follow the same program we will win the war"; Johnson writes it down); [[w.westmoreland-soldier-reports]], 230 (the July 13 choice of package, on its own entry). Wheeler''s words are FRUS''s (doc. 238); the line as first written had "There is no stalemate." The July 13 scene at the residence with Westmoreland''s account, and McNamara''s words to the press, are their own entries. To check: Tom Johnson''s notes of the meeting of 2:50 p.m., LBJ Library; Taylor''s memorandum for the record, Taylor Papers, National Defense University; [*New York Times*, July 13, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/13/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 731 n.63, 733 n.66); Meeting notes, Cabinet Room, 1:05-2:38 p.m., July 12, 1967, "Literally Eyes Only," Tom Johnson meeting notes, Box 1, LBJ (cited by [[w.branch-at-canaans-edge]], 628); "Joint Chiefs Back Troop Rise Asked by Westmoreland," [*New York Times*, July 3, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/03/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 628). See [[cal.1967-07-07.vietnam]]. Names: McNamara, Wheeler, Johnson, Westmoreland.'
       src:
         c: 3d64ac75
         rows:
@@ -498,11 +502,16 @@ ops:
     - 'Check: Westmoreland has himself, after his mother''s funeral at Columbia on July 12, with the National Security Council in the Cabinet Room, and Johnson deciding then for the lesser of his two packages, cut to just over 47,000 more men under a ceiling of 525,000 (230); whether this meeting.'
 - edit:
     id: cal.1968-06-13.governors-nd
-    base: 2727a186
+    base: b0cf9c3f
     set:
       when: June 13
       c: 'Fargo. North Dakota''s Republican convention endorses Edward Doherty, a newspaper publisher of New Rockford, N.D., for governor over four others, Richard Elkin, the State''s Nixon chairman, among them; McCarney, not seeking it, to run in the Sept. 3 primary. Young, Andrews and Kleppe endorsed. Its platform statement: the Great Society a "Grim Society of riots and assassinations."{1} Eight delegates, at least six for Nixon.{2}'
       n: '[[w.cq-weekly-report]], June 21, 1968, 1548. Clayburgh national committeeman, succeeding Rolland Meidinger; Katherine Burgum committeewoman, succeeding Marian Bertsch (1548). Andrews: interest rates the highest since the Civil War, wheat the lowest since 1942 (1548). [[w.cq-weekly-report]], July 26, 1968, 1986. Rockefeller''s address of June 15 is its own entry. Names: Doherty, McCarney, Young, Andrews, Kleppe.'
+      src:
+        c: d5e54f00
+        rows:
+        - 'w.cq-weekly-report June 21, 1968, 1548: 1'
+        - 'w.cq-weekly-report July 26, 1968, 1986: 2'
     kind: correct
 - tag:
     id: cal.1968-06-13.governors-nd
@@ -678,7 +687,7 @@ ops:
 - add-words:
     id: cal.1967-05-30.china-leadership-4
     after: end
-    words: The luncheon is at the Diaoyutai guesthouse.
+    words: At the Diaoyutai guesthouse.
     item: '[[w.zhou-enlai-waijiao-huodong]], 512 (May 30, 1967; Diaoyutai guesthouse)'
 - follows:
     id: cal.1967-05-30.china-leadership-4
@@ -720,11 +729,6 @@ ops:
     id: cal.1968-03-31.vietnam-205000
     remove:
     - name:johnson-lyndon-b
-- add-words:
-    id: cal.1968-03-31.vietnam-205000-3
-    after: 'McPherson: "I''m very sorry."'
-    words: 'About five, Johnson: "Well, I think it''s best."'
-    item: '[[w.mcpherson-political-education]], 438–39'
 - edit:
     id: cal.1968-03-31.vietnam-205000-3
     base: 5cc44b71
@@ -732,6 +736,15 @@ ops:
       time: 1968-03-31T22:00Z
       time_approx: true
       time_zone: America/New_York
+      c: 'Johnson to McPherson by telephone, before the address: "Do you think it is a good speech?"; "Do you think Hanoi will talk?"; "I''m going to have a little ending of my own to add to yours." McPherson: "I''m very sorry."{1} About five, Johnson: "Well, I think it''s best."{2} Johnson: "so long, pardner."{3}'
+      n: '[[w.berman-lyndon-johnsons-war]], 200; [[w.branch-at-canaans-edge]], 748 ("So long, podner"); [[w.mcpherson-political-education]], 438–39 (about five: "Well, I think it''s best. So long, podner."). To check: [[w.oberdorfer-tet]], 317 (cited by [[w.berman-lyndon-johnsons-war]], 200 n.18). See [[cal.1968-03-31.elections-1968]]. Names: Johnson, McPherson.'
+      src:
+        c: 6f26d8f7
+        rows:
+        - 'w.berman-lyndon-johnsons-war 200: 1, 3'
+        - 'w.branch-at-canaans-edge 748: ?'
+        - 'via x.1988.mcpherson-harry-a-political-education-1988: 1, 3'
+        - 'w.mcpherson-political-education 438–39: 2, time'
     unset:
     - time_range
 - edit:
@@ -750,7 +763,7 @@ ops:
     base: 0781dd95
     set:
       c: 'Johnson, on Miller''s request of Apr. 5: "a full-speed go-ahead."{2}'
-      n: '[[w.dallek-flawed-giant]], 545; [[w.califano-triumph-and-tragedy-of]], 290 (Miller to Califano; "a full-speed go-ahead").  To check: Califano to Johnson, Apr. 7, 1968, WHCF: Aides: Califano, LBJ Library; Rockefeller''s oral history, LBJ Library (cited by [[w.dallek-flawed-giant]], 545). See [[cal.1968-03-21.elections-1968]], [[cal.1968-04-05.elections-1968]]. The request is its own entry, dated Apr. 5 by Califano, 290. Names: Miller, Rockefeller, Johnson.'
+      n: '[[w.dallek-flawed-giant]], 545; [[w.califano-triumph-and-tragedy-of]], 290 (Miller to Califano; "a full-speed go-ahead"). To check: Califano to Johnson, Apr. 7, 1968, WHCF: Aides: Califano, LBJ Library; Rockefeller''s oral history, LBJ Library (cited by [[w.dallek-flawed-giant]], 545). See [[cal.1968-03-21.elections-1968]], [[cal.1968-04-05.elections-1968]]. The request is its own entry, dated Apr. 5 by Califano, 290. Names: Miller, Johnson.'
       src:
         c: 878188e1
         rows:
@@ -760,6 +773,10 @@ ops:
     kind: correct
     settles:
     - 'Check: Califano dates Miller''s request Apr. 5 (290).'
+- tag:
+    id: cal.1968-04-07.elections-1968
+    remove:
+    - name:rockefeller-nelson
 - edit:
     id: cal.1968-06-14.elections-1968-3
     base: e518c9cc
