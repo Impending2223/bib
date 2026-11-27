@@ -82,6 +82,9 @@ def audit(series, paths):
             refused.append(f"{name}: does not load ({err})")
             continue
         seen = collections.Counter()
+        from .notemerge import ITEM, card
+        moved = {card(m.group(0)) for op in d.get("ops") or [] for k, b in op.items() if k == "add"
+                 for m in re.finditer(ITEM, str(((b or {}).get("entry") or {}).get("n") or ""))}
         for op in d.get("ops") or []:
             (kind, body), = op.items()
             if kind in ("edit", "delete"):
@@ -98,7 +101,8 @@ def audit(series, paths):
                     lost = drops(series.get(eid)[2].get("n") or "", st.get("n"),
                                  dated=bool(re.match(r"^\d{4}-\d\d-\d\d$", str(st.get("date") or ""))),
                                  settles=store.as_list(body.get("settles")))
-                    if lost:
+                    lost = [x for x in lost if not (x.endswith(" (read)") and x[:-7] in moved)]   # a split: the
+                    if lost:                                   # work moves to an entry the same patch adds (Nov. 27, 2026)
                         refused.append(f"{name}: edit {eid} would drop what the note now holds: {'; '.join(lost)}"
                                        " (a Check the edit answers or rewords is listed in the edit's `settles:`)")
                 if kind == "edit":
