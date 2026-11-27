@@ -1518,3 +1518,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 7:49 pm PT.** (With two clippings of *Keesing's*: an item ending "(Bulgarian Legation Press Office, London - Soviet Embassy Press Department, London - Times - Le Monde - Neue Zürcher Zeitung - New York Times) (Prev. rep. ...)", and one ending "(Le Monde - Le Figaro)".) "Sorry, what I said was not quite true. It *does* cite its sources, (perhaps?) under each section. It just cites them in a manner entirely unhelpful to someone trying to run them to ground. One of the attached images, for example, is the entirety of Keesing's sourcing for nine(?) pages of small-print type on French politics."
 
 **Nov. 26, 2026, about 7:51 pm PT.** "Commentary struck? What did the commentary say?"
+
+**Nov. 26, 2026, about 7:55 pm PT.** "Could we tell the readers and auditors that subsequent (non-contemporary) commentary, analysis, and matter goes in as dated and attributes \"gloss\"? We have the \"gloss\" section, right? That's what it's for. My own gloss follows others'."
