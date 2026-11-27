@@ -1,0 +1,74 @@
+# Leftovers lo-d05: October 1960, what the books and records settled
+
+The items of `notes/leftovers/lo-d05.tsv` (68), one line each. Patch: `inbox/2026-11-27-lo-d05.yaml` (6 new entries, 56 other ops; `patch-check` 0 errors; the 12 warnings are the usual "one event?" flags on the new entries, each to be kept at the merge). Read: the owner's copy of *Freedom of Communications*, Part 1 (text layer, printed page = PDF page less 17), White, *Making of the President 1960* (printed = PDF less 16), Wofford (less 12), Goodwin (less 12), Nixon, *Six Crises* (page images, less 22), Yang's diary I (page images, plus 6) and O'Donnell (243–44). Each copy was deleted after. The *Times* (timesmachine) and the Commission and JFK Library pages could not be reached. A "tonight" or "this morning" sets a part of the day (`time_range` from the band, `time_band`, `time_zone`) and does not give an hour.
+
+Counts: done 56, waiting 12.
+
+- `cal.1960-10-01.elections-1960` (day: last day of rest against Chicago and Minneapolis stops of the same day): Waits. White (321) and O'Donnell (243–44) put the five-hour planning meeting at Hyannis Port on Oct. 1, a Saturday; the FoC volume prints Kennedy at Chicago and Minneapolis on Oct. 1 (415–29) and at St. Paul on Oct. 2. No record read settles which date is wrong; the entry keeps its Check.
+- `cal.1960-10-02.soviet-union` (day: drafting committee's opening dated Oct. 1 in China entries, Oct. 2 in soviet-union): Done. Yang's diary (I, 558–559, read on the page image) has the first session Oct. 1, 1 to 3 p.m., in St. George Hall; the entry's `when` and `date` go to Oct. 1 (`kind: correct`), its two Checks settled. The opening is also `cal.1960-10-01.china-leadership-9`; the merger should look at combining.
+- `cal.1960-10-03.elections-1960-kennedy-11` (order: no order among Harrisburg and Venice stops): Waits. Harrisburg and Venice: the volume prints both between the Marion airport and Springfield (FoC 465–69) and neither text shows which came first; the day schedule is in the *Times* of Oct. 3–4, which this host does not reach (timesmachine refused).
+- `cal.1960-10-03.elections-1960-kennedy-12` (hour: tonight): Done. Hour set: at Marion Kennedy says "we are going to Springfield because we are on statewide television at 9 o'clock" (FoC 465) and at the Armory "tonight" (469); 9 p.m. Central, approximate.
+- `cal.1960-10-03.farm-2` (order: no order among Harrisburg and Venice stops: needs a day schedule): Waits. Harrisburg and Venice: the volume prints both between the Marion airport and Springfield (FoC 465–69) and neither text shows which came first; the day schedule is in the *Times* of Oct. 3–4, which this host does not reach (timesmachine refused).
+- `cal.1960-10-04.elections-1960-kennedy-2` (hour: "telecast ""tonight"""): Done. Evening, from "we are coming tonight" (FoC 478).
+- `cal.1960-10-04.elections-1960-kennedy-3` (hour: "Coliseum ""tonight"""): Done. Evening, from "I come here tonight" (FoC 492).
+- `cal.1960-10-05.elections-1960-kennedy-6` (hour: "Jefferson Square ""tonight"""): Done. Evening, from "proud to be in this city tonight" (FoC 500).
+- `cal.1960-10-06.cuba` (hour: "dinner ""tonight"""): Done. Evening, from "I want to talk with you tonight" (FoC 510).
+- `cal.1960-10-07.elections-1960` (hour: debate hours from the broadcast record): Done, with a Check. Hour set from Wikipedia's page on the 1960 debates (7:30 to 8:30 p.m. EDT on Oct. 7 and 13; 10 to 11 p.m. on Oct. 21); the APP pages give no hour and the CPD and JFK Library pages were not reachable. The broadcast record itself is not read; the note says so.
+- `cal.1960-10-07.elections-1960-2` (hour: debate hours from the broadcast record): Waits. The act (the studio heat; the limousines in the alley) falls before the broadcast and the only record, Thomas 106, was not read (no copy fetched); no hour is set.
+- `cal.1960-10-07.elections-1960-kennedy-3` (hour: tonight): Done. Evening, from "resent us here tonight" (FoC 517); "I said tonight" (FoC 519).
+- `cal.1960-10-09.elections-1960-kennedy-3` (hour: tonight): Done. Evening, from "I stand tonight in this city of Salem" (FoC 537).
+- `cal.1960-10-10.cities-and-housing` (hour: "conference ""tonight"""): Done. Evening, from "speak tonight" (FoC 551).
+- `cal.1960-10-12.economy` (order: Biltmore speech, Council of Women and Mineola unordered): Waits. The Biltmore speech, the Council of Women and Mineola have no hour or "this morning" in their texts (FoC 557–79); the release of Sept. 24 (358) plans only the luncheon and the 4 p.m. Harlem rally. The schedules are in the *Times*, not reachable.
+- `cal.1960-10-12.elections-1960` (split: Lodge's pledge / Nixon's answer): Waits. Nixon, Six Crises, 350 (read on the page image), has Lodge's pledge in Harlem on Oct. 12 and Nixon's reply "when questioned" with no day; Gifford, 85, cites the *Times* of Oct. 13, p. 1, which is not reachable. A split needs that day.
+- `cal.1960-10-12.elections-1960-2` (split: conference speech / Harlem rally): Done. Split: the Hotel Theresa rally is the new `cal.1960-10-12.elections-1960-kennedy-4`, after the conference speech by Kennedy's "we just concluded a conference" (FoC 581); the rally takes 4 p.m. from the release of Sept. 24 (358), a plan, with a Check. The old entry is reworded to the conference speech and its claim map narrowed.
+- `cal.1960-10-12.elections-1960-3` (hour: "dinner text ""tonight"""): Done. Evening, from "I want to talk with you tonight" (FoC 571).
+- `cal.1960-10-13.elections-1960` (hour: debate hours from the broadcast record): Done, with a Check. Hour set from Wikipedia's page on the 1960 debates (7:30 to 8:30 p.m. EDT on Oct. 7 and 13; 10 to 11 p.m. on Oct. 21); the APP pages give no hour and the CPD and JFK Library pages were not reachable. The broadcast record itself is not read; the note says so.
+- `cal.1960-10-14.elections-1960-kennedy-11` (hour: tonight): Done. Evening, from "I am going to quote him tonight" (FoC 591).
+- `cal.1960-10-14.elections-1960-kennedy-3` (hour: this morning): Done. Morning, from "I am doing the work this morning" (FoC 962).
+- `cal.1960-10-15.elections-1960-kennedy` (hour: "breakfast ""this morning"""): Done. Pre-work morning, from "breakfast" (FoC 594); "here this morning" (FoC 594).
+- `cal.1960-10-15.elections-1960-kennedy-3` (hour: this morning): Done. Morning, from "Yesterday, in fact this morning, I read in the newspaper" (FoC 595).
+- `cal.1960-10-15.elections-1960-kennedy-4` (hour: this morning): Done. Morning, from "I am delighted to come here this morning" (FoC 599).
+- `cal.1960-10-16.elections-1960-kennedy` (split: Meet the Press briefing / program / flight to Ohio): Done. Split into the afternoon briefing and drafting (the old entry, "All Sunday afternoon", White 324), the *Meet the Press* program (new -7, "scheduled for six o'clock", White 325; approximate, with a Check) and the flight to Ohio (new -8, "that evening", White 325). The order against the Silver Spring rally is not shown and no link is made.
+- `cal.1960-10-16.elections-1960-kennedy-4` (hour: "gymnasium and crowd outside ""tonight"""): Done. Evening, from "holding this rally tonight" (FoC 615).
+- `cal.1960-10-16.elections-1960-kennedy-5` (hour: "gymnasium and crowd outside ""tonight"""): Done. Evening, from "coming here tonight" (FoC 619).
+- `cal.1960-10-17.elections-1960-4` (split: New England / Buffalo): Done. Split: southern New England stays (Nixon, Six Crises, 351, read on the page image); the Buffalo War Memorial rally is the new `cal.1960-10-17.elections-1960-nixon` ("this rally tonight in Buffalo," APP). Its order against the Polish Union Hall entry is a Check.
+- `cal.1960-10-17.elections-1960-kennedy` (split: Goodwin's draft at Middletown / night flight): Done. Split: Middletown stays; the night flight to Miami is the new -9, after the Columbus Capitol steps ("I leave Ohio tonight and I go to Miami," FoC 643; White 325).
+- `cal.1960-10-17.elections-1960-kennedy-7` (hour: tonight): Done. Evening, from "I stand tonight" (FoC 641).
+- `cal.1960-10-18.elections-1960-3` (split: Legion speech: Goodwin's draft from 8:30 a.m. is preparation of the speech (entry by R18)): Done. Under R25b and R18 the drafting is its own entry (new `cal.1960-10-18.elections-1960-kennedy-6`, Goodwin's last draft from 8:30, White 325–26); the Legion entry keeps the speech and the toll gate and follows the drafting.
+- `cal.1960-10-18.elections-1960-kennedy-2` (hour: this morning): Done. Morning, from "coming out here this morning" (FoC 645).
+- `cal.1960-10-18.elections-1960-kennedy-3` (hour: this morning): Waits. The Band Shell text has "talk this morning" of the day's news (FoC 647) but no word that fixes the speech's part of the day.
+- `cal.1960-10-18.latin-america` (hour: tonight): Done, with a Check. Kennedy says "tonight" (FoC 657) and the evening is set; White, 326, has the speech "that afternoon."
+- `cal.1960-10-20.elections-1960-kennedy-2` (hour: "Brooklyn stops ""tonight"""): Done. Evening, from "the sample we took tonight" at the Clancy dinner (FoC 672); Martin's store says "tonight" itself (669).
+- `cal.1960-10-20.elections-1960-kennedy-3` (hour: "Brooklyn stops ""tonight"""): Done. Evening, from "the sample we took tonight" at the Clancy dinner (FoC 672).
+- `cal.1960-10-20.elections-1960-kennedy-4` (hour: "Brooklyn stops ""tonight"""): Done. Evening, from "the sample we took tonight" at the Clancy dinner (FoC 672).
+- `cal.1960-10-20.elections-1960-kennedy-5` (hour: "Brooklyn stops ""tonight"""): Done. Evening, from "the sample we took tonight" at the Clancy dinner (FoC 672).
+- `cal.1960-10-20.elections-1960-kennedy-6` (hour: "Brooklyn stops ""tonight"""): Done. Evening, from "the sample we took tonight" at the Clancy dinner (FoC 672).
+- `cal.1960-10-21.elections-1960` (hour: debate hours from the broadcast record): Done, with a Check. Hour set from Wikipedia's page on the 1960 debates (7:30 to 8:30 p.m. EDT on Oct. 7 and 13; 10 to 11 p.m. on Oct. 21); the APP pages give no hour and the CPD and JFK Library pages were not reachable. The broadcast record itself is not read; the note says so.
+- `cal.1960-10-21.elections-1960-debates` (hour: debate hours from the broadcast record): Waits. The act (the studio heat; the limousines in the alley) falls before the broadcast and the only record, Thomas 106, was not read (no copy fetched); no hour is set.
+- `cal.1960-10-21.elections-1960-kennedy` (hour: tonight): Done. Evening, from "come here tonight" (FoC 687).
+- `cal.1960-10-22.elections-1960-kennedy-6` (hour: "Kansas City stops ""tonight"""): Done. Evening, from "to Green Bay, Wis., tonight" (FoC 699); "who we were with tonight" (FoC 701).
+- `cal.1960-10-22.elections-1960-kennedy-7` (order: Grand View against the Auditorium): Waits. Neither Grand View's text nor the Auditorium's gives the order of the two (FoC 702–05); the schedule is not reachable.
+- `cal.1960-10-22.elections-1960-kennedy-8` (hour: "Kansas City stops ""tonight"""): Done. Evening, from "who came 700 miles to be with us tonight" (FoC 704).
+- `cal.1960-10-23.elections-1960-kennedy-2` (hour: this morning): Done. Morning, from "I come here this morning" (FoC 707).
+- `cal.1960-10-24.elections-1960-kennedy` (hour: rallies at 1 a.m. and 9 a.m.): Done. "Rallies at 1 o'clock in the morning and 9 o'clock in the morning" (FoC 727): the Coronado rally set at 9 a.m. Central, approximate; a Check names the choice between the two rallies.
+- `cal.1960-10-24.elections-1960-kennedy-5` (hour: evening): Done. Evening, from "tonight and ask your help" (FoC 741).
+- `cal.1960-10-24.elections-1960-kennedy-6` (hour: evening): Done. Evening, from "I want to talk with you this evening" (FoC 741).
+- `cal.1960-10-25.elections-1960-kennedy-3` (hour: this morning): Done. Morning, from "coming this morning" (FoC 745).
+- `cal.1960-10-25.king` (split: King entry running Oct. 25 to 27): Waits. The line holds five acts over three days with a claim map of some twenty source rows; a split needs each source's pages re-read to say which new entry each row bears. Not done in this batch.
+- `cal.1960-10-26.elections-1960-kennedy-4` (hour: tonight): Done. Evening, from "I stand here tonight" (FoC 763).
+- `cal.1960-10-26.elections-1960-kennedy-5` (hour: tonight): Done. Evening, from "I come here tonight" (FoC 765).
+- `cal.1960-10-27.elections-1960-kennedy-5` (hour: tonight): Done. NYU: "We now go to Brooklyn" (FoC 777), and the Brooklyn stops say "tonight" (779): evening.
+- `cal.1960-10-27.elections-1960-kennedy-6` (hour: "Brooklyn stops ""tonight"""): Done. Evening, from "I stand here tonight" (FoC 779).
+- `cal.1960-10-27.elections-1960-kennedy-7` (hour: "Brooklyn stops ""tonight"""): Done. Evening, from "I am delighted to be here tonight" (FoC 779).
+- `cal.1960-10-27.elections-1960-kennedy-8` (hour: "Brooklyn stops ""tonight"""): Done. Evening, from "we have them all here tonight" (FoC 780); "now tonight" (FoC 782).
+- `cal.1960-10-27.press-and-broadcasting` (order: Brinkley's call to Wofford against Robert Kennedy's call): Done. Wofford, 21 (read): Brinkley's call "late in the afternoon of October 27," Robert Kennedy's call "not long afterwards"; a `follows` op puts `cal.1960-10-27.robert-kennedy` after the Brinkley entry.
+- `cal.1960-10-28.elections-1960-kennedy` (hour: this morning): Done. Morning, from "their hospitality this morning" (FoC 785).
+- `cal.1960-10-28.elections-1960-kennedy-5` (hour: tonight): Done. Evening, from "I stand here tonight" (FoC 796).
+- `cal.1960-10-28.elections-1960-kennedy-6` (hour: tonight): Done. Evening, from "I come here tonight" (FoC 796).
+- `cal.1960-10-29.elections-1960-kennedy-8` (hour: tonight): Done. Evening, from "Tonight I speak" (FoC 817).
+- `cal.1960-10-31.elections-1960-kennedy-5` (hour: "luncheon ""tonight"""): Waits. The heading says dinner and the text says "this luncheon" and "here today" (FoC 831); no record read settles which.
+- `cal.1960-10-31.elections-1960-kennedy-6` (hour: tonight): Done. Evening, from "Tonight, 7 days" (FoC 833).
+- `cal.1960-10-31.elections-1960-kennedy-7` (hour: tonight): Done. Evening, from "Tonight I want to tell you" (FoC 835).
+- `cal.1960-10.elections-1960-kennedy` (day: month-dated entry; place it on its day): Done. The entry already carries Oct. 22; Goodwin, 125–26 (read), has the statement the night of Oct. 20, Nixon's answer "the next day" and the Caroline "the next night," Oct. 22, the night flight from Kansas City to Green Bay (FoC 699). The Check is settled and the night band set. The id stays.
+- `cal.1960.china-leadership-12` (day: dated Oct. 20; id out of pattern): Done, nothing to change. The date is Oct. 20; an id is never renamed (CLAUDE.md).
+- `cal.1960-10-26.elections-1960-kennedy-7` (order: Fulbright's afternoon news conference against Hagerty's statement): Waits. The *Times* of Oct. 27, p. 29, is not reachable (timesmachine refused).

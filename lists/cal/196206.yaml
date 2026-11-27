@@ -1368,8 +1368,8 @@ entries:
     date: '1962-06-07'
     place: yuxi
     thread: china-agriculture
-    c: Yuxi 玉溪, Yunnan 云南. Zhu De 朱德 arrives and inspects the county's Dongfeng reservoir 玉溪县东风水库.
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Names: Zhu De.'
+    c: Yuxi 玉溪, Yunnan 云南. Zhu De 朱德 arrives.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842 (June 7, 1962; 抵玉溪县). The inspection of the Dongfeng reservoir is entered on its own. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
   - id: cal.1962-06-07.china-leadership-11
     when: June 7
@@ -1391,6 +1391,16 @@ entries:
     c: Yuxi 玉溪. Zhu De 朱德 inspects the Yuxi cigarette works 玉溪卷烟厂.{1} He hopes they will go on using their natural advantages to make more famous brands and more wealth for the state.{2}
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Made public: 2016. The order: after [[cal.1962-06-07.china-leadership-11]], the printed order alone ([[w.zhu-de-nianpu-xinbian]], III, 1842). Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc@2]
+  - id: cal.1962-06-07.china-agriculture
+    when: June 7
+    date: '1962-06-07'
+    place: yuxi
+    thread: china-agriculture
+    follows:
+      - cal.1962-06-07.china-leadership-10
+    c: Yuxi 玉溪. Zhu De 朱德 inspects the county's Dongfeng reservoir 玉溪县东风水库.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842 (June 7, 1962; 抵玉溪县。视察玉溪县东风水库). Split from [[cal.1962-06-07.china-leadership-10]] under R25b and R17. The order: after [[cal.1962-06-07.china-leadership-10]], the nianpu''s 抵 first ([[w.zhu-de-nianpu-xinbian]], III, 1842). See [[cal.1962-06-07.china-leadership-10]]. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1962-06-08.soviet-union-space
     when: June 8
     date: '1962-06-08'
@@ -1500,7 +1510,7 @@ entries:
     place: hangzhou
     thread: china-mao
     c: 'Hangzhou, afternoon.{1} Mao hears Yang Chengwu and Xu Shiyou on the possibility that Chiang Kai-shek''s forces venture against the southeast coast, on the preparations, and on the Politburo''s enlarged meeting of June 6. He agrees wholly with the dispositions of the army, navy and air force: the enemy at most 150,000;{2} eight divisions into Fujian, one more for eastern Zhejiang; the general reserve not yet to move; the arms industry to be built up on this occasion, and the research on advanced weapons to go on.{3}'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, June 8, 1962; [[w.mao-zedong-zhuan]], V, ch. 70 n.15 (June 8, afternoon, at Hangzhou: Mao hears Yang Chengwu and Xu Shiyou on Chiang Kai-shek''s possible venture against the southeast coast and the Politburo discussion of June 6; he is satisfied, agrees with the Center''s and the military commission''s measures, and puts the enemy at 150,000 at most). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). Check: the *Mao zedong zhuan* puts the hearing June 8, afternoon, in its text, and dates the record of Mao''s instructions June 3, 1962 (V, ch. 70 n.15). To check: Record of Mao Zedong''s 毛泽东 instructions on hearing Yang Chengwu 杨成武 and Xu Shiyou 许世友, dated June 3, 1962 (指示记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.15). Names: Mao Zedong, Xu Shiyou, Yang Chengwu, Chiang Kai-shek.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, June 8, 1962; [[w.mao-zedong-zhuan]], V, ch. 70 n.15 (June 8, afternoon, at Hangzhou: Mao hears Yang Chengwu and Xu Shiyou on Chiang Kai-shek''s possible venture against the southeast coast and the Politburo discussion of June 6; he is satisfied, agrees with the Center''s and the military commission''s measures, and puts the enemy at 150,000 at most). The words: 下午 (the Mao nianpu, V, June 8, 1962). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). Check: the *Mao zedong zhuan* puts the hearing June 8, afternoon, in its text, and dates the record of Mao''s instructions June 3, 1962 (V, ch. 70 n.15). To check: Record of Mao Zedong''s 毛泽东 instructions on hearing Yang Chengwu 杨成武 and Xu Shiyou 许世友, dated June 3, 1962 (指示记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 70 n.15). Names: Mao Zedong, Xu Shiyou, Yang Chengwu, Chiang Kai-shek.'
     src:
       c: a7bcad82
       rows:
@@ -1508,6 +1518,11 @@ entries:
         - 'w.mao-zedong-zhuan V, ch. 70 n.15: 2'
         - 'via w.mao-zedong-zhuan V, ch.70 n.15: 2'
     tags: [polity:prc, polity:roc, name:mao-zedong, name:xu-shiyou, vis:only:prc, name:chiang-kai-shek, name:yang-chengwu]
+    time_range:
+      - 1962-06-08T04:00Z
+      - 1962-06-08T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-08.china-leadership-2
     when: June 8
     date: '1962-06-08'
@@ -1652,9 +1667,9 @@ entries:
     date: '1962-06-08'
     place: tonghai
     thread: china-leadership
-    c: Tonghai 通海, Yunnan 云南. Zhu De 朱德 arrives.{1} He hears the heads of the Tonghai county committee 中共通海县委 on their work.{2}
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc@2]
+    c: Tonghai 通海, Yunnan 云南. Zhu De 朱德 arrives.{1}
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842 (June 8, 1962; 抵通海县). What he does there is entered on its own. Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1962-06-08.china-leadership-12
     when: June 8
     date: '1962-06-08'
@@ -1662,9 +1677,10 @@ entries:
     thread: china-leadership
     follows:
       - cal.1962-06-08.china-leadership-11
-    c: Jianshui 建水 (once Lin'an 临安), Yunnan 云南. Zhu De 朱德 arrives.{1} He hears the heads of the Jianshui county committee 中共建水县委 on their work.{2}
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Made public: 2016. The order: Zhu De reached Tonghai and then Jianshui that day, on the road from Yuxi, where he was on June 7, to Jianshui, from which he set out for Gejiu on June 9 ([[w.zhu-de-nianpu-xinbian]], III, 1842). Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc@2]
+      - cal.1962-06-08.china-leadership-14
+    c: Jianshui 建水 (once Lin'an 临安), Yunnan 云南. Zhu De 朱德 arrives.{1}
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842 (June 8, 1962; 抵建水（旧称临安）县). What he does there is entered on its own. Made public: 2016. The order: Zhu De reached Tonghai and then Jianshui that day, on the road from Yuxi, where he was on June 7, to Jianshui, from which he set out for Gejiu on June 9 ([[w.zhu-de-nianpu-xinbian]], III, 1842). The order: after [[cal.1962-06-08.china-leadership-14]], the route, Tonghai and then Jianshui ([[w.zhu-de-nianpu-xinbian]], III, 1842). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1962-06-08.china-leadership-13
     when: June 8
     date: '1962-06-08'
@@ -1676,6 +1692,26 @@ entries:
     c: Jianshui 建水. Zhu De 朱德 visits the Chaoyang Gate tower 朝阳门城楼 in the town's center, over six hundred years old.{1} He talks with the staff of the county cultural center 县文化馆 on judging, collecting and protecting relics.{2}
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Made public: 2016. The order: the tower is at Jianshui, which Zhu De reached from Tonghai that day ([[w.zhu-de-nianpu-xinbian]], III, 1842). The order: after [[cal.1962-06-08.china-leadership-12]], the printed order alone ([[w.zhu-de-nianpu-xinbian]], III, 1842). Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc@2]
+  - id: cal.1962-06-08.china-leadership-14
+    when: June 8
+    date: '1962-06-08'
+    place: tonghai
+    thread: china-leadership
+    follows:
+      - cal.1962-06-08.china-leadership-11
+    c: Tonghai 通海. Zhu De 朱德 hears the heads of the Tonghai county committee 中共通海县委 on their work.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842 (June 8, 1962; 抵通海县。听取中共通海县委负责人汇报工作). Split from [[cal.1962-06-08.china-leadership-11]] under R25b and R17. The order: after [[cal.1962-06-08.china-leadership-11]], the nianpu''s arrival first ([[w.zhu-de-nianpu-xinbian]], III, 1842). Made public: 2016. See [[cal.1962-06-08.china-leadership-11]]. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1962-06-08.china-leadership-15
+    when: June 8
+    date: '1962-06-08'
+    place: jianshui
+    thread: china-leadership
+    follows:
+      - cal.1962-06-08.china-leadership-12
+    c: Jianshui 建水. Zhu De 朱德 hears the heads of the Jianshui county committee 中共建水县委 on their work.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842 (June 8, 1962; 抵建水（旧称临安）县。听取中共建水县委负责人汇报工作). Split from [[cal.1962-06-08.china-leadership-12]] under R25b and R17. The order: after [[cal.1962-06-08.china-leadership-12]], the nianpu''s arrival first ([[w.zhu-de-nianpu-xinbian]], III, 1842). Made public: 2016. See [[cal.1962-06-08.china-leadership-12]]. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
   - id: cal.1962-06-09.china-leadership
     when: June 9
     date: '1962-06-09'
@@ -1716,9 +1752,9 @@ entries:
     thread: china-retreat-1962
     follows:
       - cal.1962-06-09.china-leadership-4
-    c: 'Gejiu 个旧, Yunnan 云南. Zhu De 朱德 arrives.{1} He hears the heads of the Honghe Hani and Yi Autonomous Prefecture committee 中共红河哈尼族彝族自治州委 on their work. Told that the dependents'' grain is the chief difficulty, he says: much waste land, water and grass here, for herds; told the farms have over 200,000 people, the Hekou 河口 rubber farm alone 10,000: they are to grow their own grain; small industry and primary teachers sent down to the teams, all to set to work, standing on their own feet, the conditions good.{2}'
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc@2]
+    c: Gejiu 个旧, Yunnan 云南. Zhu De 朱德 arrives.{1}
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842 (June 9, 1962; 抵个旧市). What he does there is entered on its own. Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
   - id: cal.1962-06-09.china-leadership-4
     when: June 9
     date: '1962-06-09'
@@ -1729,6 +1765,16 @@ entries:
     c: Zhu De 朱德, on the way from Jianshui 建水 to Gejiu 个旧, visits the Swallow Cave 燕子洞 and writes a poem on it.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1842–1843. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1962-06-09.china-retreat-1962
+    when: June 9
+    date: '1962-06-09'
+    place: gejiu
+    thread: china-retreat-1962
+    follows:
+      - cal.1962-06-09.china-leadership-3
+    c: 'Gejiu 个旧. Zhu De 朱德 hears the heads of the Honghe Hani and Yi Autonomous Prefecture committee 中共红河哈尼族彝族自治州委 on their work. Told that the dependents'' grain is the chief difficulty, he says: much waste land, water and grass here, for herds; told the farms have over 200,000 people, the Hekou 河口 rubber farm alone 10,000: they are to grow their own grain; small industry and primary teachers sent down to the teams, all to set to work, standing on their own feet, the conditions good.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1842 (June 9, 1962; 抵个旧市。听取中共红河哈尼族彝族自治州委负责人工作汇报). Split from [[cal.1962-06-09.china-leadership-3]] under R25b and R17. The order: after [[cal.1962-06-09.china-leadership-3]], the nianpu''s arrival first ([[w.zhu-de-nianpu-xinbian]], III, 1842). Made public: 2016. See [[cal.1962-06-09.china-leadership-3]]. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
   - id: cal.1962-06-10.opinion-5
     when: June 10
     date: '1962-06-10'
@@ -1979,16 +2025,21 @@ entries:
     cut_from:
       '2': '1'
       '3': '1'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, June 11, 1962; [[w.macfarquhar-origins-of-the-cultural]], III, 272 (Mao''s input into the preparation of a public statement on the need for national alertness); [[w.jianguo-yilai-mao-zedong]], XVI, 298–300 (June 11, 1962; part one of the item, Mao''s insertion in the Xinhua dispatch, printed from his revised copy, his words in Song type; the volume gives no place). Made public: 2013. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 10, 101–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.65b). See [[cal.1962-06-10.china-leadership]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, June 11, 1962; [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.65 (Mao''s input into the preparation of a public statement on the need for national alertness); [[w.jianguo-yilai-mao-zedong]], XVI, 298–300 (June 11, 1962; part one of the item, Mao''s insertion in the Xinhua dispatch, printed from his revised copy, his words in Song type; the volume gives no place). The words: 晚上 (the Mao nianpu, V, June 11, 1962). MacFarquhar''s text at 272 has only the Nationalist war fever and the leaders'' panic; its note 65 gives Mao''s part. Made public: 2013. To check: [[w.zedong-jianguo-yilai-mao-zedong]], 10, 101–3 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 272 n.65b). See [[cal.1962-06-10.china-leadership]]. Names: Mao Zedong.'
     src:
       c: '85078168'
       rows:
         - 'w.zedong-mao-zedong-nianpu V, June 11, 1962: 2, 3'
-        - 'w.macfarquhar-origins-of-the-cultural III, 272: ?'
+        - 'w.macfarquhar-origins-of-the-cultural III, 272 n.65: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 272 n.65b: 3'
         - 'via w.jianguo-yilai-mao-zedong XVI, 299 n.2: 3'
         - 'w.jianguo-yilai-mao-zedong XVI, 298–300: 3, date'
     tags: [polity:prc, polity:roc, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1962-06-11T11:00Z
+      - 1962-06-11T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-11.china-leadership-2
     when: June 11
     date: '1962-06-11'
@@ -2082,9 +2133,20 @@ entries:
     place: kaiyuan-yunnan
     thread: china-economy
     also: [china-agriculture]
-    c: Kaiyuan 开远, Yunnan 云南. Zhu De 朱德 arrives and inspects the chemical fertilizer works the local garrison runs.{1} He hears its report.{2}
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1843. Made public: 2016. Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc@2]
+    c: Kaiyuan 开远, Yunnan 云南. Zhu De 朱德 arrives.{1}
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1843 (June 11, 1962; 抵开远县). What he does there is entered on its own. Made public: 2016. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+  - id: cal.1962-06-11.china-economy
+    when: June 11
+    date: '1962-06-11'
+    place: kaiyuan-yunnan
+    thread: china-economy
+    also: [china-agriculture]
+    follows:
+      - cal.1962-06-11.china-leadership-9
+    c: Kaiyuan 开远. Zhu De 朱德 inspects the chemical fertilizer works the local garrison runs and hears its report.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1843 (June 11, 1962; 视察当地驻军办的化肥厂并听取汇报). Split from [[cal.1962-06-11.china-leadership-9]] under R25b and R17. The order: after [[cal.1962-06-11.china-leadership-9]], the nianpu''s arrival first ([[w.zhu-de-nianpu-xinbian]], III, 1843). Made public: 2016. See [[cal.1962-06-11.china-leadership-9]]. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
   - id: cal.1962-06-12.opinion-5
     when: June 12
     date: '1962-06-12'
@@ -2263,9 +2325,19 @@ entries:
     thread: china-leadership
     follows:
       - cal.1962-06-12.china-leadership-8
-    c: Yiliang 宜良, Yunnan 云南. Zhu De 朱德 arrives.{1} He hears the heads of the Yiliang county committee 中共宜良县委.{2}
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1843. Made public: 2016. The order: Zhu De heard the Mile county committee 途经弥勒县时, passing through Mile on the way to Yiliang ([[w.zhu-de-nianpu-xinbian]], III, 1843). Names: Zhu De.'
-    tags: [polity:prc, name:zhu-de, vis:only:prc@2]
+    c: Yiliang 宜良, Yunnan 云南. Zhu De 朱德 arrives.{1}
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1843 (June 12, 1962; 抵宜良县). What he does there is entered on its own. Made public: 2016. The order: Zhu De heard the Mile county committee 途经弥勒县时, passing through Mile on the way to Yiliang ([[w.zhu-de-nianpu-xinbian]], III, 1843). Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de]
+  - id: cal.1962-06-12.china-leadership-10
+    when: June 12
+    date: '1962-06-12'
+    place: yiliang
+    thread: china-leadership
+    follows:
+      - cal.1962-06-12.china-leadership-9
+    c: Yiliang 宜良. Zhu De 朱德 hears the heads of the Yiliang county committee 中共宜良县委.
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1843 (June 12, 1962; 抵宜良县。听取中共宜良县委负责人汇报). Split from [[cal.1962-06-12.china-leadership-9]] under R25b and R17. The order: after [[cal.1962-06-12.china-leadership-9]], the nianpu''s arrival first ([[w.zhu-de-nianpu-xinbian]], III, 1843). Made public: 2016. See [[cal.1962-06-12.china-leadership-9]]. Names: Zhu De.'
+    tags: [polity:prc, name:zhu-de, vis:only:prc]
   - id: cal.1962-06-13.opinion-5
     when: June 13
     date: '1962-06-13'
@@ -2713,8 +2785,8 @@ entries:
     date: '1962-06-15'
     place: tieling
     thread: china-zhou
-    c: 'Zhou Enlai at Tieling county, to investigate. At Digong brigade, Pingdingbao commune, he asks the members of their living and production, hears the difficulties, says they are temporary and he will carry the poor and lower-middle peasants'' wishes to the Center and Mao. He weeds with them, visits the old and children, and climbs Longshou hill with Deng Yingchao, recalling his schooldays there. During the stay at Shenyang (undated), to his household staff: no fish, eggs or meat; leaders must not be exceptions when the masses are in difficulty.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 483 (June 15, 1962). Continues 484. Made public: 1997. Names: Zhou Enlai, Deng Yingchao, Mao Zedong.'
+    c: Zhou Enlai at Tieling county, to investigate. At Digong brigade, Pingdingbao commune, he asks the members of their living and production, hears the difficulties, says they are temporary and he will carry the poor and lower-middle peasants' wishes to the Center and Mao. He weeds with them, visits the old and children, and climbs Longshou hill with Deng Yingchao, recalling his schooldays there.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 483 (June 15, 1962). Continues 484. The nianpu''s clause on the household staff (484: 在沈阳期间), with no day of its own, is entered on its own. Made public: 1997. Names: Zhou Enlai, Deng Yingchao, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc, name:deng-yingchao]
   - id: cal.1962-06-15.china-leadership-2
     when: June 15
@@ -2845,6 +2917,14 @@ entries:
       - 1962-06-15T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-15.china-zhou
+    when: By June 15
+    date: '1962-06-15'
+    place: shenyang
+    thread: china-zhou
+    c: 'Shenyang. During his stay, Zhou Enlai tells the staff who manage his household: no fish, eggs or meat; leaders must not be exceptions when the masses are in difficulty.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 484 (June 15, 1962; 在沈阳期间，对管生活的有关人员交待). Split from [[cal.1962-06-15.china-leadership]] under R15a: the nianpu prints the clause after the day''s items, with no day of its own; the same page has him leave Shenyang for Changchun that night. Made public: 1997. See [[cal.1962-06-15.china-leadership]]. Names: Zhou Enlai. Check: the day.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-06-16.defense
     when: June 16
     date: '1962-06-16'
@@ -3074,8 +3154,8 @@ entries:
     also: [china-economy]
     follows:
       - cal.1962-06-17.china-leadership
-    c: 'Zhou Enlai, on a report on building two railway bridges, the Tanglin and Changlin lines: agrees to add forestry capital investment of 2.01 million yuan for the two, the Ministry of Railways to build them and the materials to come from the railway and forestry ministries, any shortfall from the Economic Commission. That afternoon he goes to Harbin.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 484 (June 17, 1962). Made public: 1997. The order: after [[cal.1962-06-17.china-leadership]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 484). Names: Zhou Enlai.'
+    c: 'Zhou Enlai, on a report on building two railway bridges, the Tanglin and Changlin lines: agrees to add forestry capital investment of 2.01 million yuan for the two, the Ministry of Railways to build them and the materials to come from the railway and forestry ministries, any shortfall from the Economic Commission.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 484 (June 17, 1962; the approval on the report on the Tanglin and Changlin lines'' bridges). The departure for Harbin that afternoon is entered on its own. Made public: 1997. The order: after [[cal.1962-06-17.china-leadership]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 484). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-06-17.china-leadership-4
     when: June 17
@@ -3145,6 +3225,22 @@ entries:
       - 1962-06-17T11:00Z
       - 1962-06-17T14:00Z
     time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-17.china-zhou
+    when: June 17
+    date: '1962-06-17'
+    place: changchun
+    thread: china-zhou
+    also: [china-economy]
+    follows:
+      - cal.1962-06-17.china-leadership-2
+    c: Zhou Enlai leaves Changchun for Harbin.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 484 (June 17, 1962; 当天下午，赴哈尔滨). The words: 当天下午 (II, 484). Split from [[cal.1962-06-17.china-leadership-2]] under R25b. The order: after [[cal.1962-06-17.china-leadership-2]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 484). See [[cal.1962-06-17.china-leadership-2]]. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1962-06-17T04:00Z
+      - 1962-06-17T10:00Z
+    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1962-06-18.governors-me
     when: June 18
@@ -3430,8 +3526,8 @@ entries:
     also: [china-economy]
     follows:
       - cal.1962-06-19.china-leadership
-    c: Zhou Enlai at the Harbin power plant; evening, to Fularji, outside Qiqihar, known for heavy machinery.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 485 (June 19, 1962). Made public: 1997. The order: after [[cal.1962-06-19.china-leadership]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 485). Names: Zhou Enlai.'
+    c: Zhou Enlai at the Harbin power plant.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 485 (June 19, 1962; 参观哈尔滨发电厂). The evening departure for Fularji is entered on its own. Made public: 1997. The order: after [[cal.1962-06-19.china-leadership]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 485). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-06-19.china-leadership-3
     when: June 19
@@ -3501,6 +3597,22 @@ entries:
       - 1962-06-18T22:00Z
       - 1962-06-19T04:00Z
     time_band: morning
+    time_zone: Asia/Shanghai
+  - id: cal.1962-06-19.china-zhou
+    when: June 19
+    date: '1962-06-19'
+    place: harbin
+    thread: china-zhou
+    also: [china-economy]
+    follows:
+      - cal.1962-06-19.china-leadership-2
+    c: Zhou Enlai leaves Harbin for Fularji, outside Qiqihar, known for heavy machinery.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 485 (June 19, 1962; 晚，赴以重型机器制造业著名的齐齐哈尔市市郊富拉尔基). The words: 晚 (II, 485). Split from [[cal.1962-06-19.china-leadership-2]] under R25b. The order: after [[cal.1962-06-19.china-leadership-2]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 485). See [[cal.1962-06-19.china-leadership-2]]. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1962-06-19T11:00Z
+      - 1962-06-19T14:00Z
+    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1962-06-20.middle-east
     when: June 20–22
@@ -3591,9 +3703,14 @@ entries:
     thread: china-zhou
     follows:
       - cal.1962-06-20.china-leadership
-    c: 'Zhou Enlai, evening, hears Yu Qiuli and Kang Shi''en on the Daqing oilfield campaign; late at night, urged to rest: the older, the more work to do.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 485 (June 20, 1962). Made public: 1997. The order: after [[cal.1962-06-20.china-leadership]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 485). Names: Zhou Enlai, Yu Qiuli, Kang Shi''en.'
+    c: Zhou Enlai, evening, hears Yu Qiuli and Kang Shi'en on the Daqing oilfield campaign.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 485 (June 20, 1962). The words: 晚 (II, 485). The remark to the staff late that night is entered on its own. Made public: 1997. The order: after [[cal.1962-06-20.china-leadership]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 485). Names: Zhou Enlai, Yu Qiuli, Kang Shi''en.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:kang-shien, name:yu-qiuli]
+    time_range:
+      - 1962-06-20T11:00Z
+      - 1962-06-20T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-20.china
     when: June 20
     date: '1962-06-20'
@@ -3705,6 +3822,20 @@ entries:
     c: 'Zhu De 朱德 to the Center 中共中央 and Mao Zedong 毛泽东, a report on his inspection of Sichuan 四川 and Yunnan 云南 with proposals: most of Yunnan''s handicraft and supply cooperatives restored and output rising, but prices of the handicraft cooperatives'' goods made from materials they buy themselves held so tight they lose money, to be let rise to cover costs with a small profit; the village population eating commodity grain to be cut, the market towns'' craftsmen and the communes'' service units firmly streamlined to strengthen farming, those kept fed by the teams, not on state-sold grain; the policy allowing members to keep one or more draft animals not carried out, horses, mules, cattle and donkeys much fewer; the "horse caravans" 马帮 of Yunnan and Sichuan still needed for years, they and their inns to be run by the basic cooperatives or the teams, farming in season and hauling out of it; below the county, communes larger, teams smaller: since the Sixty Articles 六十条 the communes and brigades made smaller and the full-time and subsidized cadres more, a commune to a township or larger, under the county, no district above it, to free cadres for the base; Yunnan the country''s base for nonferrous metals, over a million tons proved, tin the most, output to be raised, not cut; Yunnan''s hills, forests, warmth, rain and water works promise much for opening waste land, over ten million mu by estimate (perhaps tens of millions in fact), a good place to settle those sent down and open the hills.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1843–1845. Made public: 2016. Names: Zhu De, Mao Zedong.'
     tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc]
+  - id: cal.1962-06-20.china-zhou
+    when: June 20
+    date: '1962-06-20'
+    thread: china-zhou
+    follows:
+      - cal.1962-06-20.china-leadership-2
+    c: 'Zhou Enlai, urged by the staff to rest: the older, the more work to do.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 485 (June 20, 1962; 深夜，工作人员劝他休息时). The words: 深夜 (II, 485). Split from [[cal.1962-06-20.china-leadership-2]] under R25b. The order: after [[cal.1962-06-20.china-leadership-2]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 485). Made public: 1997. See [[cal.1962-06-20.china-leadership-2]]. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1962-06-20T14:00Z
+      - 1962-06-20T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-21.program
     when: June 21
     date: '1962-06-21'
@@ -4120,12 +4251,12 @@ entries:
   - id: cal.1962-06-23.china-leadership-3
     when: June 23
     date: '1962-06-23'
-    thread: china-zhou-foreign
-    also: [china-agriculture, china-foreign]
+    thread: china-zhou
+    also: [china-agriculture]
     follows:
       - cal.1962-06-23.china-leadership
-    c: 'Zhou Enlai at the orchard nursery of the Yanbian Agricultural College: keep joining teaching with productive labor, raise more apple and pear seedlings fit for the place, plant the gullies and hills; the school farm to serve as a model. At the home of a Korean member of Xinfeng brigade, Changbai commune, asks about land, people, rice, livestock, grain and fuel. Night train to Jilin, arrives deep in the night; to avoid disturbing the town, gets off at dawn.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 23, 1962). Made public: 1997. The order: after [[cal.1962-06-23.china-leadership]], [[w.zhou-enlai-nianpu-1949]], II, 486–87 (the talk "on the way to" the Yanbian Agricultural College, 在去延边农学院视察的路上, and then the college''s orchard nursery; the prefectural committee printed between goes against those words and is left unplaced). Names: Zhou Enlai.'
+    c: 'Zhou Enlai at the orchard nursery of the Yanbian Agricultural College: keep joining teaching with productive labor, raise more apple and pear seedlings fit for the place, plant the gullies and hills; the school farm to serve as a model.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 23, 1962; 在延边农学院的果树苗圃). The visit to a Korean household and the night train to Jilin are entered on their own. Made public: 1997. The order: after [[cal.1962-06-23.china-leadership]], [[w.zhou-enlai-nianpu-1949]], II, 486–87 (the talk "on the way to" the Yanbian Agricultural College, 在去延边农学院视察的路上, and then the college''s orchard nursery; the prefectural committee printed between goes against those words and is left unplaced). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-06-23.china
     when: June 23
@@ -4247,6 +4378,30 @@ entries:
       - 1962-06-23T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-06-23.china-zhou
+    when: June 23
+    date: '1962-06-23'
+    thread: china-zhou
+    also: [china-agriculture]
+    follows:
+      - cal.1962-06-23.china-leadership-3
+    c: At the home of a Korean member of Xinfeng brigade, Changbai commune, Zhou Enlai asks about land, people, rice, livestock, grain and fuel.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 23, 1962; 到长白公社新丰大队朝鲜族社员家中，了解队里的土地、人口、水稻、饲养和粮食、燃料等情况). Split from [[cal.1962-06-23.china-leadership-3]] under R25b. The order: after [[cal.1962-06-23.china-leadership-3]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 487). Made public: 1997. See [[cal.1962-06-23.china-leadership-3]]. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1962-06-23.china-zhou-2
+    when: June 23
+    date: '1962-06-23'
+    thread: china-zhou
+    follows:
+      - cal.1962-06-23.china-zhou
+    c: Zhou Enlai takes the night train to Jilin.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 23, 1962; 晚，乘火车去吉林市。到达市区时已是深夜，为了不影响市里的干部和群众，决定于黎明时下车: he reaches the city deep in the night and gets off at dawn, June 24). The words: 晚 (II, 487). Split from [[cal.1962-06-23.china-leadership-3]] under R25b. The order: after [[cal.1962-06-23.china-zhou]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 487). Made public: 1997. See [[cal.1962-06-23.china-leadership-3]]. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1962-06-23T11:00Z
+      - 1962-06-23T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-24.china-leadership
     when: June 24
     date: '1962-06-24'
@@ -4267,9 +4422,14 @@ entries:
     date: '1962-06-24'
     thread: china-zhou
     also: [china-economy]
-    c: Zhou Enlai at the Fengman power plant at first light; then the Jilin chemical fertilizer plant and the calcium carbide plant.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 24, 1962). Made public: 1997. Names: Zhou Enlai.'
+    c: Zhou Enlai at the Fengman power plant in the early morning.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 24, 1962; the nianpu prints the visit under June 23: 次日清晨，直接坐车去丰满发电厂视察, after the train''s arrival at dawn). The words: 清晨 (II, 487). The visit to the Jilin plants is entered on its own. The nianpu''s "first light" (黎明) is the train''s stop; the visit is 清晨. Made public: 1997. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1962-06-23T21:00Z
+      - 1962-06-24T00:00Z
+    time_band: early morning
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-24.china-leadership-3
     when: June 24
     date: '1962-06-24'
@@ -4371,6 +4531,16 @@ entries:
         - 'w.jian-zhou-enlai 465: all'
         - 'w.chen-yun-nianpu-xiuding III, 135: ?'
     tags: [polity:prc, vis:only:prc, name:chen-yun]
+  - id: cal.1962-06-24.china-zhou
+    when: June 24
+    date: '1962-06-24'
+    thread: china-zhou
+    also: [china-economy]
+    follows:
+      - cal.1962-06-24.china-leadership-2
+    c: Zhou Enlai visits the Jilin chemical fertilizer plant and the calcium carbide plant.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 24, 1962; 参观吉林化肥厂和电石厂). Split from [[cal.1962-06-24.china-leadership-2]] under R25b. The order: after [[cal.1962-06-24.china-leadership-2]], the nianpu''s 次日清晨 visit to Fengman, then the day''s dated item ([[w.zhou-enlai-nianpu-1949]], II, 487). Made public: 1997. See [[cal.1962-06-24.china-leadership-2]]. Names: Zhou Enlai.'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
   - id: cal.1962-06-25.court
     when: June 25
     date: '1962-06-25'
@@ -4543,7 +4713,7 @@ entries:
     place: peking
     thread: china-zhou
     c: Zhou Enlai back in Peking from the Northeast.{1}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 26, 1962); [[w.yang-shangkun-riji]], II, 189 (June 26, 1962; Zhou back, telephones Yang Shangkun). Made public: 1997. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 26, 1962); [[w.yang-shangkun-riji]], II, 189 (June 26, 1962; Zhou back, telephones Yang Shangkun). Made public: 1997. Check: the hour of the return; Yang''s diary (II, 189) has, after "上午办公" (the morning''s work), "恩来同志已回京，来电话": Zhou back in Peking and telephoning, the hour of the call not given; the nianpu (II, 487) gives none. Names: Zhou Enlai.'
     src:
       c: 566c1ce5
       rows:
@@ -5004,12 +5174,16 @@ entries:
     date: '1962-06-28'
     thread: china-center
     c: Kong Yuan 孔原 with Yang Shangkun 杨尚昆.
-    n: '[[w.yang-shangkun-riji]], II, 190 (June 28, 1962). The words: 晚间办公，到2时，孔原同志来谈话 (II, 190). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 190 (June 28, 1962). The words: 晚间办公，到2时，孔原同志来谈话 (II, 190). The range is the evening to 2 a.m.; the diary gives no hour for the talk. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Kong Yuan, Yang Shangkun. Check: whether Kong Yuan came during the evening''s work or at 2 a.m., when it ended.'
     src:
       c: 7096bff4
       rows:
         - 'w.yang-shangkun-riji II, 190: all'
     tags: [polity:prc, vis:only:prc, name:kong-yuan, name:yang-shangkun]
+    time_range:
+      - 1962-06-28T11:00Z
+      - 1962-06-28T18:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1962-06-29.latin-america
     when: June 29–July 1
     date: '1962-06-29'

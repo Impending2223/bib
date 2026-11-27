@@ -173,33 +173,22 @@ entries:
   - id: cal.1963-05-01.china-leadership-6
     when: May 1
     date: '1963-05-01'
-    time: 1963-05-01T04:00Z
+    time: 1963-05-01T05:00Z
+    time_approx: true
     place:
       - kunming
       - phnom-penh
     thread: china-foreign
-    c: At noon Liu Shaoqi, with Chen Yi and others, leaves Kunming for a friendly visit to Cambodia;{1} Sihanouk welcomes them at Phnom Penh.{2} In the afternoon Liu calls on the King at the royal palace, sees the permanent exhibition on the achievements of the Sangkum Reastr Niyum, and tours Phnom Penh.{3}
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575–576 (May 1, 1963); [[w.yang-shangkun-riji]], II, 275 (May 1, 1963; Liu Shaoqi''s party reaches Phnom Penh at noon, safely); [[w.chen-yi-nianpu]], 964 (May 1, 1963; Chen Yi with Liu and Wang Guangmei leaves Kunming for Cambodia and reaches Phnom Penh 金边; 5 p.m., with them in the throne hall of the royal palace calls on the Queen and Sihanouk, Cambodia''s head of state). Names: Liu Shaoqi, Chen Yi, Sihanouk.'
+    c: Liu Shaoqi, with Chen Yi and others, leaves Kunming for a friendly visit to Cambodia;{1} about noon they reach Phnom Penh, where Sihanouk welcomes them.{2}
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 575–576 (May 1, 1963); [[w.yang-shangkun-riji]], II, 275 (May 1, 1963; Liu Shaoqi''s party reaches Phnom Penh at noon, safely); [[w.chen-yi-nianpu]], 964 (May 1, 1963; Chen Yi with Liu and Wang Guangmei leaves Kunming for Cambodia, in the morning after the May Day rally, and reaches Phnom Penh 金边). The hour is the arrival''s: Yang''s diary has the party in Phnom Penh at midday, May 1, which the Liu nianpu''s "noon" for the departure (中午, II, 575–576) cannot be, and Chen Yi''s nianpu has the departure in the morning, after the May Day rally at Kunming (964). Names: Liu Shaoqi, Chen Yi, Sihanouk.'
     src:
-      c: e2ed8d7b
+      c: 9d7133a6
       rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 575–576: ?'
         - 'w.yang-shangkun-riji II, 275: 2'
         - 'w.chen-yi-nianpu 964: ?'
     tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:chen-yi, name:norodom-sihanouk]
-    variants:
-      - unit: '1'
-        witness: w.yang-shangkun-riji
-        reads: 'Yang Shangkun''s diary: Liu Shaoqi''s party reached Phnom Penh at midday (已于今日午间到达金边), not left Kunming at noon'
-        at: II, 275, May 1, 1963
-      - unit: '1'
-        witness: w.chen-yi-nianpu
-        reads: Liu Shaoqi, Chen Yi and the party leave Kunming in the morning (上午)
-        at: '964'
-      - unit: '3'
-        witness: w.chen-yi-nianpu
-        reads: The permanent exhibition on the Sangkum's achievements is seen at Siem Reap on May 2, with the Angkor ruins
-        at: '964'
+    time_zone: Asia/Phnom_Penh
   - id: cal.1963-05-01.china-leadership-7
     when: May 1
     date: '1963-05-01'
@@ -244,6 +233,32 @@ entries:
     c: Xi'an 西安. Zhu De 朱德 hears Wang Lin 王林, alternate secretary of the Center's Northwest Bureau 中共中央西北局, and Zhao Shouyi 赵守一, a secretary of the Shaanxi committee's Secretariat 中共陕西省委书记处.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1874. Made public: 2016. Names: Zhu De, Wang Lin, Zhao Shouyi.'
     tags: [polity:prc, name:zhu-de, vis:only:prc, name:wang-lin, name:zhao-shouyi]
+  - id: cal.1963-05-01.china-liu
+    when: May 1
+    date: '1963-05-01'
+    time: 1963-05-01T10:00Z
+    place: phnom-penh
+    thread: china-liu
+    also: [china-foreign]
+    follows:
+      - cal.1963-05-01.china-leadership-6
+    c: Phnom Penh 金边, the royal palace, 5 p.m. Liu Shaoqi and Wang Guangmei, Chen Yi with them, call in the throne hall on the Queen and on Sihanouk, the head of state.{2} Liu then sees the permanent exhibition on the achievements of the Sangkum Reastr Niyum and tours Phnom Penh.{3}
+    cut_from:
+      '2': '1'
+      '3': '1'
+    n: '[[w.chen-yi-nianpu]], 964 (May 1, 1963; 下午5时, the throne hall 王位厅 of the royal palace: Chen Yi with Liu and Wang Guangmei calls on the Queen and the head of state, Prince Norodom Sihanouk); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 576 (May 1, 1963, afternoon: Liu calls on the Queen 王后 at the royal palace, sees the permanent exhibition on the People''s Socialist Community''s achievements and tours Phnom Penh). The time is the call''s. The order: after [[cal.1963-05-01.china-leadership-6]], [[w.chen-yi-nianpu]], 964 (the arrival at Phnom Penh, then 下午5时). Split under R25b. See [[cal.1963-05-01.china-leadership-6]]. Names: Liu Shaoqi, Wang Guangmei, Chen Yi, Sihanouk.'
+    src:
+      c: f04b2e12
+      rows:
+        - 'w.chen-yi-nianpu 964: ?'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 576: ?'
+    tags: [polity:prc, polity:cambodia, name:liu-shaoqi, name:wang-guangmei, name:chen-yi, name:norodom-sihanouk]
+    time_zone: Asia/Phnom_Penh
+    variants:
+      - unit: '3'
+        witness: w.chen-yi-nianpu
+        reads: the permanent exhibition on the Sangkum's achievements seen at Siem Reap on May 2, with the Angkor ruins
+        at: '964'
   - id: cal.1963-05-02.alabama
     when: May 2
     date: '1963-05-02'
@@ -460,10 +475,10 @@ entries:
       - hangzhou
     thread: china-foreign
     also: [soviet-union]
-    c: Peking to Hangzhou.{1} Deng Xiaoping, Peng Zhen, Lu Dingyi and Kang Sheng, with Wu Lengxi, Yao Zhen and Fan Ruoyu, leave in the morning for the enlarged Standing Committee Mao has called at Hangzhou.{2} The weather puts them down at Nanjing for a short stay. At Hangzhou, where the day's heat is 34 degrees, they lodge at the new Xiling Hotel with the regional bureaus' secretaries and Tan Zhenlin, Li Fuchun, Bo Yibo and Liao Luyan; Chen Boda, there before them, is in a villa by the West Lake.{3}
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 561–562 ("on the morning of May 2, after May Day"; the first modern hotel in Hangzhou; Liu Shaoqi, abroad on a state visit, not at the meeting); [[w.peng-zhen-nianpu-1902]], IV, 261 (May 2, 1963; Peng Zhen to Hangzhou for Mao''s small meeting on socialist education in the villages). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Kang Sheng, Tan Zhenlin, Li Fuchun, Bo Yibo, Chen Boda, Mao Zedong, Wu Lengxi, Yao Zhen, Fan Ruoyu, Liao Luyan.'
+    c: Peking to Hangzhou.{1} By Wu Lengxi's account Deng Xiaoping, Peng Zhen, Lu Dingyi and Kang Sheng, with Wu, Yao Zhen and Fan Ruoyu, leave in the morning for the enlarged Standing Committee Mao has called at Hangzhou.{2} The weather puts them down at Nanjing for a short stay. At Hangzhou, where the day's heat is 34 degrees, they lodge at the new Xiling Hotel with the regional bureaus' secretaries and Tan Zhenlin, Li Fuchun, Bo Yibo and Liao Luyan; Chen Boda, there before them, is in a villa by the West Lake.{3}
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 561–562 ("on the morning of May 2, after May Day"; the first modern hotel in Hangzhou; Liu Shaoqi, abroad on a state visit, not at the meeting); [[w.peng-zhen-nianpu-1902]], IV, 261 (May 2, 1963; Peng Zhen to Hangzhou for Mao''s small meeting on socialist education in the villages). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Kang Sheng, Tan Zhenlin, Li Fuchun, Bo Yibo, Chen Boda, Mao Zedong, Wu Lengxi, Yao Zhen, Fan Ruoyu, Liao Luyan. Check: Wu''s days cannot stand as he has them: Yang''s diary and Deng''s nianpu have Deng, Kang Sheng and Wu Xiuquan at Pyongyang May 2–4, Deng back in Peking May 4, at Zhou Enlai''s meeting there May 8, and on the train to Hangzhou only on May 10 ([[w.yang-shangkun-riji]], II, 275–277; [[w.deng-xiaoping-nianpu-1904]], III, 1756–1757), and the Mao nianpu has Mao at Shanghai May 3 to 5 and at Hangzhou from May 6 ([[w.zedong-mao-zedong-nianpu]], V). Wu''s own days of the Hangzhou meetings are not settled by a record. Peng Zhen''s nianpu has Peng Zhen at Hangzhou May 2 to 12 (IV, 261), and Yang''s diary of May 2 has him telephone, asking three secretaries to Hangzhou (II, 275). Yang''s diary has Deng and Kang Sheng''s party go to Hangzhou by train on May 10 at 3:30 p.m., the weather being bad (II, 277), and Deng''s nianpu has him at Mao''s meetings there from that day (III, 1757).'
     src:
-      c: 4a5ab039
+      c: 30b307f7
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 561–562: 1, 2, 3'
         - 'w.peng-zhen-nianpu-1902 IV, 261: ?'
@@ -490,10 +505,10 @@ entries:
     also: [soviet-union]
     follows:
       - cal.1963-05-02.china-leadership-5
-    c: Hangzhou, Liuzhuang, evening. Mao holds the Standing Committee on the day the drafters arrive, with Peng Zhen, Chen Boda, Kang Sheng and Wu Lengxi present. Asked about the two drafts on the general line, Deng Xiaoping says neither is ripe and each needs large revision; Hangzhou has many views on Peking's and Peking on Hangzhou's. Mao has Deng gather both sides to exchange them, he himself staying out and sending his secretary Lin Ke to listen.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 562–563 ("the evening of the day we arrived"; Mao''s residence the Liuzhuang; the enlarged Standing Committee''s two subjects, home ("the four clean-ups," socialist education, a decision drafted almost wholly by Mao''s dictation and put in order by Chen Boda, the later "Former Ten Points") and abroad (the two drafts); the regional secretaries joined the first; Mao then gave himself to the "Former Ten Points"); [[w.peng-zhen-nianpu-1902]], IV, 261 (May 2–12, 1963; Peng Zhen at Hangzhou at Mao''s small meeting on rural socialist education; before it the Center had forwarded the report on Xiyang county''s cadres in labor (Mar. 20) and the North China Bureau''s on poor and lower-middle peasants'' organizations (Apr. 9), and printed the Baoding prefectural committee''s report on the "four clean-ups" (Apr. 4); Mao names Peng Zhen to draft the first paper on the movement). Made public: 1999. See [[cal.1963-05-02.china-leadership-5]]. Names: Mao Zedong, Peng Zhen, Chen Boda, Kang Sheng, Deng Xiaoping, Wu Lengxi, Lin Ke. Check: the Mao chronology has Mao at Shanghai the afternoon of May 3 ([[cal.1963-05-03.china-leadership]]).'
+    c: Hangzhou, Liuzhuang, evening. By Wu Lengxi's account Mao holds the Standing Committee on the day the drafters arrive, with Peng Zhen, Chen Boda, Kang Sheng and Wu Lengxi present. Asked about the two drafts on the general line, Deng Xiaoping says neither is ripe and each needs large revision; Hangzhou has many views on Peking's and Peking on Hangzhou's. Mao has Deng gather both sides to exchange them, he himself staying out and sending his secretary Lin Ke to listen.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 562–563 ("the evening of the day we arrived"; Mao''s residence the Liuzhuang; the enlarged Standing Committee''s two subjects, home ("the four clean-ups," socialist education, a decision drafted almost wholly by Mao''s dictation and put in order by Chen Boda, the later "Former Ten Points") and abroad (the two drafts); the regional secretaries joined the first; Mao then gave himself to the "Former Ten Points"); [[w.peng-zhen-nianpu-1902]], IV, 261 (May 2–12, 1963; Peng Zhen at Hangzhou at Mao''s small meeting on rural socialist education; before it the Center had forwarded the report on Xiyang county''s cadres in labor (Mar. 20) and the North China Bureau''s on poor and lower-middle peasants'' organizations (Apr. 9), and printed the Baoding prefectural committee''s report on the "four clean-ups" (Apr. 4); Mao names Peng Zhen to draft the first paper on the movement). Made public: 1999. See [[cal.1963-05-02.china-leadership-5]]. Names: Mao Zedong, Peng Zhen, Chen Boda, Kang Sheng, Deng Xiaoping, Wu Lengxi, Lin Ke. Check: Wu''s day of the Standing Committee (the afternoon of May 3 is Mao''s at Shanghai, [[cal.1963-05-03.china-leadership]]) and his days cannot stand as he has them: Yang''s diary and Deng''s nianpu have Deng, Kang Sheng and Wu Xiuquan at Pyongyang May 2–4, Deng back in Peking May 4, at Zhou Enlai''s meeting there May 8, and on the train to Hangzhou only on May 10 ([[w.yang-shangkun-riji]], II, 275–277; [[w.deng-xiaoping-nianpu-1904]], III, 1756–1757), and the Mao nianpu has Mao at Shanghai May 3 to 5 and at Hangzhou from May 6 ([[w.zedong-mao-zedong-nianpu]], V). Wu''s own days of the Hangzhou meetings are not settled by a record.'
     src:
-      c: 82950f9e
+      c: 279f2f69
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 562–563: all'
         - 'w.peng-zhen-nianpu-1902 IV, 261: ?'
@@ -734,13 +749,19 @@ entries:
     date: '1963-05-03'
     thread: civil-rights-the-executive
     also: [alabama-birmingham, king]
-    c: 'Burke Marshall to King by telephone, in the morning and again after the hoses: the demonstrations to be suspended, the Negroes'' rock-throwing having added to the violence. King refuses. Gaston has told Marshall of the girl hosed down the street.'
-    n: '[[w.branch-parting-the-waters]], 762. Check: Branch gives no source for the calls. See [[cal.1963-05-03.alabama-birmingham]]. Names: Burke Marshall, Martin Luther King.'
+    c: 'Burke Marshall to King by telephone, in the morning: the demonstrations to be suspended.'
+    n: '[[w.branch-parting-the-waters]], 762. Check: Branch gives no source for the calls. The second call, after the hoses, is an act of its own (Branch, 762: "called again more urgently"). See [[cal.1963-05-03.alabama-birmingham]]. Names: Burke Marshall, Martin Luther King.'
     src:
-      c: 9218a798
+      c: d689a3a4
       rows:
         - 'w.branch-parting-the-waters 762: all'
     tags: [name:marshall-burke, name:king-martin-luther-jr]
+    time_range:
+      - 1963-05-03T12:00Z
+      - 1963-05-03T18:00Z
+    time_band: morning
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1963-05-03.alabama-birmingham-4
     when: May 3
     date: '1963-05-03'
@@ -837,6 +858,12 @@ entries:
         - 'w.zedong-mao-zedong-nianpu V, May 3, 1963: 1, 2, 3, 4'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 281–282: 2, 4'
     tags: [polity:prc, polity:guinea, name:mao-zedong, name:ke-qingshi, vis:only:prc+guinea, name:ye-jizhuang]
+    time_range:
+      - 1963-05-03T04:00Z
+      - 1963-05-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1963-05-03.china-leadership-2
     when: May 3
     date: '1963-05-03'
@@ -858,10 +885,10 @@ entries:
     place: hangzhou
     thread: china-polemic
     also: [soviet-union]
-    c: 'Hangzhou, the eighth floor of the Xiling Hotel, west end.{1} Deng Xiaoping, three mornings, May 3 to 5, chairs the exchange of views on the Peking and Hangzhou drafts: Peng Zhen, Lu Dingyi, Chen Boda and Kang Sheng, the drafters Wu Lengxi, Yao Zhen, Fan Ruoyu and Wang Li, and Kang Sheng''s secretary, Li Xin;{2} Lin Ke sits the three days and takes both sides'' views to Mao. Wu opens: Peking''s drafters find Chen''s draft short on practice and on the Soviet views, long on general principle, a textbook; Chen answers that Mao asked it to begin from contradictions. Lu Dingyi faults both; Deng and Peng Zhen fault Peking''s draft and ask that Chen''s be tied closer to the open polemic.{3}'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 563–565 (the meeting "at first cold," Wu speaking first; Chen Boda, "who held himself high," displeased at the manner of discussion, in which the drafters call out and answer at once; Deng: all views may be said, anyone''s may be refuted; Peking''s draft strong on the real situation and the actual contradictions, short on theory; Deng asks Lin Ke, as the sessions end, whether he has told Mao all; Lin Ke has, and Mao will talk after the meeting). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng, Mao Zedong, Wu Lengxi, Yao Zhen, Fan Ruoyu, Wang Li, Li Xin, Lin Ke.'
+    c: 'Hangzhou, the eighth floor of the Xiling Hotel, west end.{1} By Wu Lengxi''s account Deng Xiaoping, three mornings, May 3 to 5, chairs the exchange of views on the Peking and Hangzhou drafts: Peng Zhen, Lu Dingyi, Chen Boda and Kang Sheng, the drafters Wu Lengxi, Yao Zhen, Fan Ruoyu and Wang Li, and Kang Sheng''s secretary, Li Xin;{2} Lin Ke sits the three days and takes both sides'' views to Mao. Wu opens: Peking''s drafters find Chen''s draft short on practice and on the Soviet views, long on general principle, a textbook; Chen answers that Mao asked it to begin from contradictions. Lu Dingyi faults both; Deng and Peng Zhen fault Peking''s draft and ask that Chen''s be tied closer to the open polemic.{3}'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 563–565 (the meeting "at first cold," Wu speaking first; Chen Boda, "who held himself high," displeased at the manner of discussion, in which the drafters call out and answer at once; Deng: all views may be said, anyone''s may be refuted; Peking''s draft strong on the real situation and the actual contradictions, short on theory; Deng asks Lin Ke, as the sessions end, whether he has told Mao all; Lin Ke has, and Mao will talk after the meeting). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng, Mao Zedong, Wu Lengxi, Yao Zhen, Fan Ruoyu, Wang Li, Li Xin, Lin Ke. Check: Wu''s days cannot stand as he has them: Yang''s diary and Deng''s nianpu have Deng, Kang Sheng and Wu Xiuquan at Pyongyang May 2–4, Deng back in Peking May 4, at Zhou Enlai''s meeting there May 8, and on the train to Hangzhou only on May 10 ([[w.yang-shangkun-riji]], II, 275–277; [[w.deng-xiaoping-nianpu-1904]], III, 1756–1757), and the Mao nianpu has Mao at Shanghai May 3 to 5 and at Hangzhou from May 6 ([[w.zedong-mao-zedong-nianpu]], V). Wu''s own days of the Hangzhou meetings are not settled by a record.'
     src:
-      c: 32a79287
+      c: 5278e1f9
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 563–565: 1, 2, 3'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:mao-zedong, vis:only:prc, name:fan-ruoyu, name:li-xin, name:lin-ke, name:wang-li, name:wu-lengxi, name:yao-zhen]
@@ -943,6 +970,17 @@ entries:
     c: Luoyang 洛阳, Henan 河南省. Zhu De 朱德 arrives.{1} He hears the heads of the Luoyang prefectural committee 中共洛阳地委 and city committee 洛阳市委.{2}
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1875. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc@2]
+  - id: cal.1963-05-03.civil-rights-the-executive-3
+    when: May 3
+    date: '1963-05-03'
+    thread: civil-rights-the-executive
+    also: [alabama-birmingham, king]
+    follows:
+      - cal.1963-05-03.civil-rights-the-executive-2
+      - cal.1963-05-03.alabama-birmingham
+    c: 'Burke Marshall calls King again, more urgently, after the hoses: the demonstrations must stop now, the Negroes'' rock-throwing having added to the violence. King refuses. Gaston has told Marshall of the girl hosed down the street.'
+    n: '[[w.branch-parting-the-waters]], 762 ("called again more urgently"; Marshall "having caught an earful from A. G. Gaston"). Check: Branch gives no source for the calls, and no hour for the second. The order: after [[cal.1963-05-03.civil-rights-the-executive-2]], [[w.branch-parting-the-waters]], 762 (the call "that morning," then "again"). Split under R25b. See [[cal.1963-05-03.civil-rights-the-executive-2]]; [[cal.1963-05-03.alabama-birmingham]]. Names: Burke Marshall, Martin Luther King.'
+    tags: [name:marshall-burke, name:king-martin-luther-jr]
   - id: cal.1963-05-04.elections-1964
     when: May 4
     date: '1963-05-04'
@@ -1287,10 +1325,10 @@ entries:
     place: hangzhou
     thread: china-polemic
     also: [soviet-union, china-mao-foreign]
-    c: Hangzhou, Liuzhuang. Mao holds the Standing Committee on the Peking and Hangzhou drafts, Zhou Enlai and Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng and Wu Lengxi present, Liu Shaoqi abroad. He asks Wu his age (44) and says the young men are right. The reply is to set out the Party's view of the general line, as a proposal to the CPSU and the parties, in theory and with bearing on practice, from the contradictions of the age; Chen Boda to revise it and take it to Peking to work with the writers; to stay in the Standing Committee until ripe, then to ask the Korean, Vietnamese, New Zealand, Japanese and Indonesian parties; the paper the CCP's own proposal, not a common paper of the left parties.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 565–567 (the Liuzhuang on a peninsula of the West Lake; Mao: "Chen Boda, you too count as an old man, beaten by the young"; the reply to be an answer to the CPSU''s letter of Mar. 30 and a proposal; it to be taken to Peking, Zhou Enlai and Deng Xiaoping agreeing; Mao: the CCP''s alone, to avoid the name of sectarianism; Wu and Yao Zhen at first to stay to help Chen, but Chen, not satisfied, had them sent back to Peking). Made public: 1999. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng, Liu Shaoqi, Wu Lengxi. Check: Zhou Enlai at Hangzhou May 5: Zhou''s chronology has him at Xihuating, Peking, that day ([[cal.1963-05-05.china-leadership-2]]) and at the Secretariat May 6 ([[cal.1963-05-06.china-leadership]]).'
+    c: Hangzhou, Liuzhuang. By Wu Lengxi's account Mao holds the Standing Committee on the Peking and Hangzhou drafts, Zhou Enlai and Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng and Wu Lengxi present, Liu Shaoqi abroad. He asks Wu his age (44) and says the young men are right. The reply is to set out the Party's view of the general line, as a proposal to the CPSU and the parties, in theory and with bearing on practice, from the contradictions of the age; Chen Boda to revise it and take it to Peking to work with the writers; to stay in the Standing Committee until ripe, then to ask the Korean, Vietnamese, New Zealand, Japanese and Indonesian parties; the paper the CCP's own proposal, not a common paper of the left parties.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 565–567 (the Liuzhuang on a peninsula of the West Lake; Mao: "Chen Boda, you too count as an old man, beaten by the young"; the reply to be an answer to the CPSU''s letter of Mar. 30 and a proposal; it to be taken to Peking, Zhou Enlai and Deng Xiaoping agreeing; Mao: the CCP''s alone, to avoid the name of sectarianism; Wu and Yao Zhen at first to stay to help Chen, but Chen, not satisfied, had them sent back to Peking). Made public: 1999. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen Boda, Kang Sheng, Liu Shaoqi, Wu Lengxi. Check: Zhou Enlai at Hangzhou May 5: Zhou''s chronology has him at Xihuating, Peking, that day ([[cal.1963-05-05.china-leadership-2]]) and at the Secretariat May 6 ([[cal.1963-05-06.china-leadership]]). Check: Wu''s day, May 5, and his company (Zhou Enlai and Deng Xiaoping with Mao at Hangzhou) cannot stand as he has them: Yang''s diary and Deng''s nianpu have Deng, Kang Sheng and Wu Xiuquan at Pyongyang May 2–4, Deng back in Peking May 4, at Zhou Enlai''s meeting there May 8, and on the train to Hangzhou only on May 10 ([[w.yang-shangkun-riji]], II, 275–277; [[w.deng-xiaoping-nianpu-1904]], III, 1756–1757), and the Mao nianpu has Mao at Shanghai May 3 to 5 and at Hangzhou from May 6 ([[w.zedong-mao-zedong-nianpu]], V). Wu''s own days of the Hangzhou meetings are not settled by a record. The Mao nianpu has Mao at Shanghai that evening, meeting the Korean legal and the Malian cultural delegations; it has Zhou Enlai and Deng Xiaoping at part of Mao''s meetings at Hangzhou of May 7 to 11, and Mao talking with Zhou there the evening of May 10 and the afternoon of May 11 ([[w.zedong-mao-zedong-nianpu]], V, May 7–11, 10 and 11, 1963).'
     src:
-      c: 4042d5ce
+      c: c592e130
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 565–567: all'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:lu-dingyi, name:chen-boda, name:kang-sheng, name:liu-shaoqi, vis:only:prc, name:wu-lengxi]
@@ -1639,8 +1677,8 @@ entries:
     time: 1963-05-06T05:00Z
     place: hue
     thread: vietnam
-    c: Huế. 1 p.m., May 6. The province chief of Thừa Thiên, also mayor of Huế, comes to the Từ Đàm pagoda with a "request" from Ngô Đình Cẩn that the organizers of the Buddha's birthday observance keep it quiet. That night the Buddhist leaders of the South meet at Từ Đàm and agree on a plan.
-    n: '[[w.lich-su-khang-chien-chong-my]], III, 305–06. Names: Ngô Đình Cẩn. Check: the history''s account; the American record of the days not matched.'
+    c: Huế. 1 p.m., May 6. The province chief of Thừa Thiên, also mayor of Huế, comes to the Từ Đàm pagoda with a "request" from Ngô Đình Cẩn that the organizers of the Buddha's birthday observance tell all Buddhists not to fly the Buddhist flag that day.
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 305–06. The request, by the page, quoting Thích Trí Quang: that the committee of the rites tell the Buddhists "đừng treo cờ Phật" (not to fly the Buddhist flag) on the day; the line had "keep it quiet" (III, 305–06). To check: Thích Trí Quang, "Cuộc vận động của Phật giáo Việt Nam," *Hải triều âm*, no. 2, Apr. 30, 1964 (cited by [[w.lich-su-khang-chien-chong-my]], III, 306 n.1). Names: Ngô Đình Cẩn. Check: the history''s account; the American record of the days not matched.'
     tags: [name:ngo-dinh-can, polity:rvn, ok:fields-time]
     time_zone: Asia/Ho_Chi_Minh
   - id: cal.1963-05-06.china-leadership-6
@@ -1670,6 +1708,22 @@ entries:
     c: Zhu De 朱德, with Zhou Enlai 周恩来, Dong Biwu 董必武 and Deng Xiaoping 邓小平, receives the minorities' visiting groups 少数民族参观团 of Guangxi 广西, Ningxia 宁夏, Gansu 甘肃, Hunan 湖南, Guangdong 广东, Jilin 吉林, Liaoning 辽宁, Heilongjiang 黑龙江, Qinghai 青海, Inner Mongolia 内蒙古, Xinjiang 新疆 and other places, come to Peking 北京 for May Day, the students' visiting groups, the year's graduates of the Central Nationalities Institute 中央民族学院 and the trainees of the national supply and marketing cooperatives course 全国供销合作社培训班.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1875. Names: Zhu De, Zhou Enlai, Dong Biwu, Deng Xiaoping.'
     tags: [polity:prc, ok:fields-place, name:zhu-de, name:zhou-enlai, name:dong-biwu, name:deng-xiaoping]
+  - id: cal.1963-05-06.vietnam-2
+    when: May 6
+    date: '1963-05-06'
+    place: hue
+    thread: vietnam
+    follows:
+      - cal.1963-05-06.vietnam
+    c: 'Huế, the night of May 6. The Buddhist leaders of the South meet at the Từ Đàm pagoda and agree on a plan against the Diệm government: to answer the ban on the Buddhist flag by telling all levels not to hold the Buddha''s birthday rites, a way of protest.'
+    n: '[[w.lich-su-khang-chien-chong-my]], III, 306 ("Đêm ngày 6-5-1963"). Check: the history''s account; the American record of the days not matched. The order: after [[cal.1963-05-06.vietnam]], [[w.lich-su-khang-chien-chong-my]], III, 305–06 (the request at 13 giờ, then the night''s meeting). Split under R25b. See [[cal.1963-05-06.vietnam]]. Names: Ngô Đình Diệm.'
+    tags: [name:ngo-dinh-diem, polity:rvn]
+    time_range:
+      - 1963-05-06T14:00Z
+      - 1963-05-06T16:00Z
+    time_band: night
+    time_zone: Asia/Ho_Chi_Minh
+    range_basis: record
   - id: cal.1963-05-07.mayors-baltimore
     when: May 7
     date: '1963-05-07'
@@ -1692,40 +1746,43 @@ entries:
     date: '1963-05-07'
     place: birmingham
     thread: alabama-birmingham
-    c: Birmingham.{1} The jails full;{2} Wallace sends state troopers.{3}
-    n: '[[w.mann-walls-of-jericho]], 349 (twenty-five hundred into Kelly Ingram Park and downtown; Shuttlesworth hosed; the negotiations that night); [[w.branch-parting-the-waters]], 775–80. Check: Branch, 775–80: decoy lines from the Sixteenth Street Baptist Church at noon, six hundred pickets downtown, then Walker''s "general charge," Bevel''s "freedom dash"; more than three thousand in the business district, no arrests, the jails full; Walker''s false fire alarms and dog whistles; by three a riot of rocks and hoses at the park; a monitor gun pins Shuttlesworth to the church wall, hospitalized; Connor: "I wish they had carried him away in a hearse"; King that night, Wallace''s troopers moving in "that very hour.". To check: *Birmingham News*, May 7, 1963, at 1; [*New York Times*, May 8, 1963](https://timesmachine.nytimes.com/timesmachine/1963/05/08/issue.html), at 1, 28, 29 (cited by [[w.garrow-bearing-the-cross]], 254 n.27). Check: the record. [[w.garrow-bearing-the-cross]], 253–55 (the jails full; not the troopers). See [[cal.1963-05-02.alabama]]. Names: Wallace.'
+    c: Birmingham.{1} The jails full.{2}
+    n: '[[w.mann-walls-of-jericho]], 349 (twenty-five hundred into Kelly Ingram Park and downtown; Shuttlesworth hosed; the negotiations that night); [[w.branch-parting-the-waters]], 775–80. Check: Branch, 775–80: decoy lines from the Sixteenth Street Baptist Church at noon, six hundred pickets downtown, then Walker''s "general charge," Bevel''s "freedom dash"; more than three thousand in the business district, no arrests, the jails full; Walker''s false fire alarms and dog whistles; by three a riot of rocks and hoses at the park; a monitor gun pins Shuttlesworth to the church wall, hospitalized; Connor: "I wish they had carried him away in a hearse". To check: *Birmingham News*, May 7, 1963, at 1; [*New York Times*, May 8, 1963](https://timesmachine.nytimes.com/timesmachine/1963/05/08/issue.html), at 1, 28, 29 (cited by [[w.garrow-bearing-the-cross]], 254 n.27). Check: the record. [[w.garrow-bearing-the-cross]], 253–55 (the jails full; not the troopers). See [[cal.1963-05-02.alabama]].'
     src:
-      c: ee9c1b72
+      c: f06a0363
       rows:
         - 'w.garrow-bearing-the-cross 253–55: 1, 2'
         - 'via w.garrow-bearing-the-cross 254 n.27a: 1, 2'
         - 'w.mann-walls-of-jericho 349: 1'
-        - 'w.branch-parting-the-waters 775-80: 1, 2, 3'
-        - 'via w.branch-parting-the-waters 776 n.1a: 1, 2, 3'
+        - 'w.branch-parting-the-waters 775-80: 1, 2'
+        - 'via w.branch-parting-the-waters 776 n.1a: 1, 2'
         - 'via w.branch-parting-the-waters 776 n.1b: 1'
         - 'via w.branch-parting-the-waters 776 n.2: 1'
         - 'via w.branch-parting-the-waters 779 n.3: 1'
         - 'via w.branch-parting-the-waters 779 n.4: 1'
-    tags: [name:wallace-george-c]
+    time_range:
+      - 1963-05-07T18:00Z
+      - 1963-05-08T00:00Z
+    time_band: afternoon
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1963-05-07.civil-rights-the-executive
     when: May 7
     date: '1963-05-07'
     place: birmingham
     thread: civil-rights-the-executive
     also: [alabama-birmingham]
-    c: 'Birmingham.{1} The Senior Citizens Committee, some eighty, called by Smyer: Sheriff Bailey, the police at the breaking point;{2} Marshall, for a negotiated peace.{3} They authorize the merchants'' negotiators, two or three dissenting.{4} That night Smyer, Vann and two merchants with Pitts, Shores and Andrew Young, Marshall present: the stores desegregated, jobs upgraded, a biracial committee;{5} the release of the jailed unsettled.{6}'
-    n: '[[w.garrow-bearing-the-cross]], 253–55; [[w.branch-parting-the-waters]], 775–81; [[w.young-easy-burden]], 243–45 (the message from Morgan and Vann, the night of Tuesday, May 7; the night''s negotiation; the terms). Check: Branch, 775–80: seventy of the "big mules" at the Chamber of Commerce before noon; an old ex-governor, the industrial committee''s chairman, for martial law under Wallace; Burke Marshall against it, the "root of the demonstrations" a denial of constitutional rights; recessed for lunch amid the demonstrators, reassembled in the afternoon; "only a handful of dissenting votes"; the white committee led by the board chairman of Royal Crown Cola negotiates with Shores, Gaston and President L. H. Pitts of Miles College, then at midnight with King at the Drews'' house, Smyer leading a prayer; Boutwell''s assistant, Billy Hamilton, drops out. Check: Branch, 781: the night''s talks at the Drews'' credited to Andrew Young: the dressing rooms desegregated at once, the lunch counters at sixty days or with the schools, whichever first; by 4 a.m. "at least a blueprint for a settlement.". Check: Young, 243–44, has the night''s meeting at John and Deanie Drew''s house: King, Walker and Young with Charles Morgan and David Vann for the Committee of One Hundred, Shuttlesworth in the hospital. To check: "Outline of Negotiations," n.d., David Vann Papers, Birmingham Public Library Archives; Kennedy White House Tape #88-6, May 21, 1963 (Robert Kennedy''s account), Kennedy Library; *Birmingham News*, May 7, 1963, at 1; [*New York Times*, May 8, 1963](https://timesmachine.nytimes.com/timesmachine/1963/05/08/issue.html), at 1, 28, 29 (cited by [[w.garrow-bearing-the-cross]], 254 n.27); Thad Holt, "Memorandum . . .," May 10, 1963, Birmingham Public Library Archives; Allison et al. to Moore, May 8 and 9, 1963 (on May 7), Eugene "Bull" Connor Papers, Birmingham Public Library Archives (cited by [[w.garrow-bearing-the-cross]], 255 n.28). See [[cal.1963-04-03.alabama]]. Names: Marshall, Shores, Young.'
+    c: 'Birmingham.{1} The Senior Citizens Committee, some eighty, called by Smyer: Sheriff Bailey, the police at the breaking point;{2} Marshall, for a negotiated peace.{3} They authorize the merchants'' negotiators, two or three dissenting.{4}'
+    n: '[[w.garrow-bearing-the-cross]], 253–55; [[w.branch-parting-the-waters]], 775–81. Check: Branch, 775–80: seventy of the "big mules" at the Chamber of Commerce before noon; an old ex-governor, the industrial committee''s chairman, for martial law under Wallace; Burke Marshall against it, the "root of the demonstrations" a denial of constitutional rights; recessed for lunch amid the demonstrators, reassembled in the afternoon; "only a handful of dissenting votes". To check: *Birmingham News*, May 7, 1963, at 1; [*New York Times*, May 8, 1963](https://timesmachine.nytimes.com/timesmachine/1963/05/08/issue.html), at 1, 28, 29 (cited by [[w.garrow-bearing-the-cross]], 254 n.27); Allison et al. to Moore, May 8 and 9, 1963 (on May 7), Eugene "Bull" Connor Papers, Birmingham Public Library Archives (cited by [[w.garrow-bearing-the-cross]], 255 n.28). See [[cal.1963-04-03.alabama]]. Names: Marshall.'
     src:
-      c: 8a6aa8cc
+      c: 2d11df18
       rows:
-        - 'w.garrow-bearing-the-cross 253–55: 1, 2, 3, 4, 5, 6'
-        - 'via w.garrow-bearing-the-cross 254 n.27b: 2, 3, 4, 5, 6'
+        - 'w.garrow-bearing-the-cross 253–55: 1, 2, 3, 4'
+        - 'via w.garrow-bearing-the-cross 254 n.27b: 2, 3, 4'
         - 'via w.garrow-bearing-the-cross 254 n.27c: 2, 3, 4'
         - 'via w.garrow-bearing-the-cross 254 n.27a: 2, 3, 4'
-        - 'via w.garrow-bearing-the-cross 254 n.27d: 1, 2, 3, 4, 5, 6'
-        - 'via w.garrow-bearing-the-cross 255 n.28a: 5, 6'
-        - 'via w.garrow-bearing-the-cross 255 n.28b: 5, 6'
-        - 'w.branch-parting-the-waters 775-81: 1, 2, 3, 4, 5, 6'
+        - 'via w.garrow-bearing-the-cross 254 n.27d: 1, 2, 3, 4'
+        - 'w.branch-parting-the-waters 775-81: 1, 2, 3, 4'
         - 'via w.branch-parting-the-waters 775 n.2a: 1, 2'
         - 'via w.branch-parting-the-waters 775 n.4a: 1, 2'
         - 'via w.branch-parting-the-waters 775 n.4b: 1, 2'
@@ -1733,8 +1790,7 @@ entries:
         - 'via w.branch-parting-the-waters 780 n.2a: 2'
         - 'via w.branch-parting-the-waters 780 n.3: 3'
         - 'via w.branch-parting-the-waters 781 n.1a: 2'
-        - 'w.young-easy-burden 243–45: 5'
-    tags: [name:marshall-burke, name:shores-arthur-d, name:young-andrew-j-jr, state:al, city:birmingham]
+    tags: [name:marshall-burke, state:al, city:birmingham]
     time_range:
       - 1963-05-07T14:00Z
       - 1963-05-07T23:00Z
@@ -2011,6 +2067,22 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 262: all'
     tags: [polity:prc, name:peng-zhen, name:li-jingquan, name:ke-qingshi, name:tao-zhu, vis:only:prc, name:hu-yaobang, name:jiang-hua, name:li-xuefeng, name:liu-lantao, name:song-renqiong]
+  - id: cal.1963-05-07.civil-rights-the-executive-4
+    when: May 7
+    date: '1963-05-07'
+    place: birmingham
+    thread: civil-rights-the-executive
+    also: [alabama-birmingham]
+    follows:
+      - cal.1963-05-07.civil-rights-the-executive
+    c: 'Birmingham, the night. Smyer, Vann and two merchants with Pitts, Shores and Andrew Young, Marshall present: the stores desegregated, jobs upgraded, a biracial committee; the release of the jailed unsettled.'
+    n: '[[w.garrow-bearing-the-cross]], 253–55; [[w.branch-parting-the-waters]], 780–81 (the white committee negotiates with Shores, Gaston and Pitts after Marshall''s call to the President at eight; at midnight at the Drews'' house with King, Smyer leading a prayer; by 4 a.m. "a blueprint"); [[w.young-easy-burden]], 243–45 (the message from Morgan and Vann, the night of Tuesday, May 7; the night''s negotiation; the terms). Check: Branch, 781, credits the night''s talks to Andrew Young: the dressing rooms desegregated at once, the lunch counters at sixty days or with the schools, whichever first. Check: Young, 243–44, has the meeting at John and Deanie Drew''s house: King, Walker and Young with Charles Morgan and David Vann for the Committee of One Hundred, Shuttlesworth in the hospital. To check: "Outline of Negotiations," n.d., David Vann Papers, Birmingham Public Library Archives; Kennedy White House Tape #88-6, May 21, 1963 (Robert Kennedy''s account), Kennedy Library; Thad Holt, "Memorandum . . .," May 10, 1963, Birmingham Public Library Archives. The order: after [[cal.1963-05-07.civil-rights-the-executive]], [[w.branch-parting-the-waters]], 780 (the Senior Citizens'' vote, Marshall''s call at eight, then the negotiation). Split under R25b. See [[cal.1963-05-07.civil-rights-the-executive]]. Names: Shores, Young, Marshall.'
+    tags: [name:marshall-burke, name:shores-arthur-d, name:young-andrew-j-jr, state:al, city:birmingham]
+    time_range:
+      - 1963-05-08T02:00Z
+      - 1963-05-08T10:00Z
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1963-05-08.vietnam
     when: May 8
     date: '1963-05-08'
@@ -2998,7 +3070,7 @@ entries:
     thread: press-and-broadcasting
     also: [alabama-birmingham]
     c: 'The *Atlanta Journal* on King "and his flamboyant policy of inciting riot in the name of justice ... the time has come for him to hit the road and pass the hat once more."{1} The *Birmingham News*: "Negroes End Desegregation Campaign: Not Able to Get Charges Dropped."{2}'
-    n: '[[w.branch-parting-the-waters]], 791–92. To check: *Atlanta Journal*, May 10, 1963, at 26; *Birmingham News*, May 10, 2, May 11, 1963, 2 (cited by [[w.branch-parting-the-waters]], 792 n.1). See [[cal.1963-05-10.alabama]]. Names: Martin Luther King.'
+    n: '[[w.branch-parting-the-waters]], 791–92. The *Journal*''s day is May 10: Branch''s note gives "AJ, May 10, 1963, p. 26" for the editorial (792). Check: the day of the *News*''s headline: the note gives its hostile reactions at "BN, May 10, p. 2, and May 11, 1963, p. 2." To check: *Atlanta Journal*, May 10, 1963, at 26; *Birmingham News*, May 10, 2, May 11, 1963, 2 (cited by [[w.branch-parting-the-waters]], 792 n.1). See [[cal.1963-05-10.alabama]]. Names: Martin Luther King.'
     src:
       c: 1e4fe611
       rows:
@@ -3172,48 +3244,38 @@ entries:
     n: '[[w.miller-misalliance]], 258 ("mostly overlooked in the United States"; Nhu answers it in his interview of May 12, "two days earlier," by Miller''s account). Check: the day, two days before the *Washington Post* of May 12.'
     tags: [ok:fields-place, polity:us]
   - id: cal.1963-05-11.alabama
-    when: May 11–13
+    when: May 11
     date: '1963-05-11'
+    time: 1963-05-12T04:45Z
+    time_approx: true
+    place: birmingham
     thread: alabama-birmingham
     also: [robert-kennedy]
     follows:
       - cal.1963-05-11.alabama-birmingham-2
       - cal.1963-05-11.alabama-birmingham
-    c: 'Bombs at the house of King''s brother and at the Gaston Motel, the night of the 11th.{1} Rioting till morning.{2} May 12, on television: troops trained in riot control to bases near Birmingham;{3} the Alabama Guard readied for federal service.{4} May 13: telegram to Wallace, 10 U.S.C. § 333.{5}'
-    n: '[Kennedy, Robert Kennedy, Katzenbach, Marshall, McNamara and others, May 12](https://prde.upress.virginia.edu/conversations/4006291), JFK Meeting Tape 86.2 (PRDE only). Radio and Television Remarks Following Renewal of Racial Strife in Birmingham, [1963 Pub. Papers 397](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=455) (May 12, 1963). Telegram to Governor Wallace of Alabama, [1963 Pub. Papers 398](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=456) (May 13, 1963). *Alabama v. United States*, [373 U.S. 545](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/usrep373545/usrep373545.pdf) (1963) (Wallace''s suit against the troops refused, May 27). [[w.garrow-bearing-the-cross]], 259–61 (not the telegram); [[w.sorensen-kennedy]], 491 (May 12: the troops; the statement at 9 p.m.); [[w.mann-walls-of-jericho]], 350–51 (the bombings; the rioting); [[w.branch-parting-the-waters]], 793–800; [[w.thomas-robert-kennedy]], 243 (the next night, dynamite at the house of King''s brother and the motel; fires); [[w.white-making-of-the-president-1965]], 170 (the bombing of the home of King''s brother and of a Negro motel; the rioting; battle units moved into position, never used); [[w.young-easy-burden]], 249–50; [[w.caro-passage-of-power]], 257 (Sunday, May 12, after the bombs at the house of King''s brother and at the motel, Kennedy back from Camp David for crisis meetings; the Second Infantry Division and the 82nd Airborne on alert; the papers drawn to federalize the Alabama Guard at a moment''s notice; not the day of the bombs, nor the television); [[w.purdum-idea-whose-time-has-2014]], 32–33 (the bombs of the night of May 11 at A. D. King''s house and the Gaston Motel; the riots; Wallace''s deputies; the President''s television statement, just before nine on May 12, Army units near Birmingham alerted and the Alabama Guard to be federalized if necessary; not the night through, nor the telegram of May 13). After [[cal.1963-05-11.alabama-birmingham-2|the commanders at the park]] and [[cal.1963-05-11.alabama-birmingham|the Klan rally]]: the park "nearly empty" by the time the Riverside reporters came back from the rally, and the first bomb "at about 10:45 p.m." ([[w.branch-parting-the-waters]], 793). Check: Branch, 793–800: the first bomb at A. D. King''s parsonage about 10:45 p.m., the second blowing out the front; the Gaston Motel just before midnight, four hurt; the riots near both; Lingo''s 250 troopers and irregulars charge at the motel, Chief Moore protesting; by dawn six businesses, several houses and an apartment building burned, nearly seventy to the hospital; at the White House Sunday, Robert Kennedy: "sticking bayonets in people"; Marshall to King from the Oval Office: "if there are no other incidents he thinks he can control his people"; three thousand troops moved in Operation Oak Tree; the statement at 8:48 p.m., "The Birmingham agreement was and is a fair and just accord.". To check: [[w.rosenberg-kennedy-johnson-and-the]] ("Protest in Birmingham"); Watkins to Moore, May 15, 1963 (on May 10); Whitehouse to Moore, May 13, 1963 (on May 11), Eugene "Bull" Connor Papers, Birmingham Public Library Archives; *Birmingham News*, May 12, 1963, at 1; [*New York Times*, May 12, 1963](https://timesmachine.nytimes.com/timesmachine/1963/05/12/issue.html), at 1; SAC Birmingham to Director, "Unsubs, Bombing of Gaston Motel . . .," May 24, 1963, FBI file 157-881-NR (cited by [[w.garrow-bearing-the-cross]], 260 n.33); [Jack Rosenthal], "Some Sketchy Notes on Birmingham," May 12, 1963, Victor Navasky Papers, Kennedy Library; *New York Times*, [May 13 at 1, 24, 25](https://timesmachine.nytimes.com/timesmachine/1963/05/13/issue.html) and [May 14, 1963, at 1, 26, 27](https://timesmachine.nytimes.com/timesmachine/1963/05/14/issue.html); Donald R. Coppock, "Birmingham Detail," May 29, 1963, Civil Rights Division FOIA (DOJ microfilm, reel 120) (cited by [[w.garrow-bearing-the-cross]], 261 n.34). See [[cal.1963-04-03.alabama]]. Names: Wallace, Robert F. Kennedy, McNamara, Katzenbach, Marshall, Martin Luther King.'
+    c: Bombs at the house of King's brother and at the Gaston Motel, the night of the 11th.{1} Rioting till morning.{2}
+    n: '[[w.garrow-bearing-the-cross]], 259–61 (the bombings and the rioting); [[w.mann-walls-of-jericho]], 350–51 (the bombings; the rioting); [[w.branch-parting-the-waters]], 793–96; [[w.thomas-robert-kennedy]], 243 (the next night, dynamite at the house of King''s brother and the motel; fires); [[w.white-making-of-the-president-1965]], 170 (the bombing of the home of King''s brother and of a Negro motel; the rioting); [[w.young-easy-burden]], 249–50; [[w.purdum-idea-whose-time-has-2014]], 32–33 (the bombs of the night of May 11 at A. D. King''s house and the Gaston Motel; the riots; Wallace''s deputies). After [[cal.1963-05-11.alabama-birmingham-2|the commanders at the park]] and [[cal.1963-05-11.alabama-birmingham|the Klan rally]]: the park "nearly empty" by the time the Riverside reporters came back from the rally, and the first bomb "at about 10:45 p.m." ([[w.branch-parting-the-waters]], 793). Check: Branch, 793–96: the first bomb at A. D. King''s parsonage about 10:45 p.m., the second blowing out the front; the Gaston Motel just before midnight, four hurt; the riots near both; Lingo''s 250 troopers and irregulars charge at the motel, Chief Moore protesting; by dawn six businesses, several houses and an apartment building burned, nearly seventy to the hospital. To check: [[w.rosenberg-kennedy-johnson-and-the]] ("Protest in Birmingham"); Watkins to Moore, May 15, 1963 (on May 10); Whitehouse to Moore, May 13, 1963 (on May 11), Eugene "Bull" Connor Papers, Birmingham Public Library Archives; *Birmingham News*, May 12, 1963, at 1; [*New York Times*, May 12, 1963](https://timesmachine.nytimes.com/timesmachine/1963/05/12/issue.html), at 1; SAC Birmingham to Director, "Unsubs, Bombing of Gaston Motel . . .," May 24, 1963, FBI file 157-881-NR (cited by [[w.garrow-bearing-the-cross]], 260 n.33); [Jack Rosenthal], "Some Sketchy Notes on Birmingham," May 12, 1963, Victor Navasky Papers, Kennedy Library; *New York Times*, [May 13 at 1, 24, 25](https://timesmachine.nytimes.com/timesmachine/1963/05/13/issue.html) and [May 14, 1963, at 1, 26, 27](https://timesmachine.nytimes.com/timesmachine/1963/05/14/issue.html); Donald R. Coppock, "Birmingham Detail," May 29, 1963, Civil Rights Division FOIA (DOJ microfilm, reel 120) (cited by [[w.garrow-bearing-the-cross]], 261 n.34). See [[cal.1963-04-03.alabama]]. Names: Martin Luther King.'
     src:
-      c: 07ac86a7
+      c: 61860cc0
       rows:
-        - 'https://prde.upress.virginia.edu/conversations/4006291: 1, 2, 3, 4, 5'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=455: 1, 2, 3, 4, 5'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=456: 1, 2, 3, 4, 5'
-        - 'https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/usrep373545/usrep373545.pdf: 1, 2, 3, 4, 5'
-        - 'w.garrow-bearing-the-cross 259–61: 1, 2, 3, 4'
+        - 'w.garrow-bearing-the-cross 259–61: 1, 2'
         - 'via w.garrow-bearing-the-cross 260 n.33a: 1, 2'
         - 'via w.garrow-bearing-the-cross 260 n.33b: 1, 2'
         - 'via w.garrow-bearing-the-cross 260 n.33c: 1'
-        - 'via w.garrow-bearing-the-cross 261 n.34a: 3, 4'
-        - 'via w.garrow-bearing-the-cross 261 n.34b: 3, 4'
-        - 'via w.garrow-bearing-the-cross 261 n.34c: 3, 4'
-        - 'via w.garrow-bearing-the-cross 261 n.34d: 3, 4'
-        - 'via w.garrow-bearing-the-cross 261 n.34e: 3, 4'
-        - 'w.sorensen-kennedy 491: 3'
         - 'w.mann-walls-of-jericho 350–51: ?'
-        - 'w.branch-parting-the-waters 793-800: 1, 2, 3, 4, 5'
+        - 'w.branch-parting-the-waters 793-96: 1, 2'
         - 'via w.branch-parting-the-waters 793 n.2: 1'
         - 'via w.branch-parting-the-waters 794 n.3b: 1, 2'
         - 'via w.branch-parting-the-waters 795 n.1a: 2'
         - 'via w.branch-parting-the-waters 795 n.1b: 2'
         - 'via w.branch-parting-the-waters 796 n.2a: 2'
-        - 'via w.branch-parting-the-waters 797 n.1: 3, 4'
-        - 'via w.branch-parting-the-waters 800 n.1: 3'
-        - 'via w.branch-parting-the-waters 800 n.2: 3'
         - 'w.thomas-robert-kennedy 243: 1, 2'
-        - 'w.white-making-of-the-president-1965 170: 1, 2, 3'
+        - 'w.white-making-of-the-president-1965 170: 1, 2'
         - 'w.young-easy-burden 249–50: 1'
-        - 'w.caro-passage-of-power 257: 1, 4'
-        - 'w.purdum-idea-whose-time-has-2014 32–33: 1, 4'
-    tags: [name:kennedy-john-f, name:wallace-george-c, name:mcnamara-robert-s, name:marshall-burke, name:kennedy-robert-f, name:katzenbach-nicholas, name:king-martin-luther-jr]
+        - 'w.purdum-idea-whose-time-has-2014 32–33: 1'
+    tags: [name:king-martin-luther-jr, state:al, city:birmingham]
+    time_zone: America/Chicago
   - id: cal.1963-05-11.alabama-birmingham
     when: May 11
     date: '1963-05-11'
@@ -3517,12 +3579,18 @@ entries:
     place: atlanta
     thread: alabama-birmingham
     c: 'Atlanta, Sunday morning. King, by telephone, to Young, home for the cooling-off period: the motel and A. D. King''s house bombed; back to Birmingham, lest the agreement be lost to retaliation.'
-    n: '[[w.young-easy-burden]], 249. Young''s account. See [[cal.1963-05-11.alabama]]. Names: Martin Luther King, Young.'
+    n: '[[w.young-easy-burden]], 249. Young''s account. Check: Branch has A. D. King telephone his Atlanta relatives that night of the bombing and hold the phone up so that Martin hears the singing ([[w.branch-parting-the-waters]], 794); Young has King''s call come the next morning, as he dressed for church (249). See [[cal.1963-05-11.alabama]]. Names: Martin Luther King, Young.'
     src:
       c: be2d8526
       rows:
         - 'w.young-easy-burden 249: all'
     tags: [name:king-martin-luther-jr, name:young-andrew-j-jr]
+    time_range:
+      - 1963-05-12T11:00Z
+      - 1963-05-12T17:00Z
+    time_band: morning
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-05-12.china-leadership
     when: May 12
     date: '1963-05-12'
@@ -3615,6 +3683,25 @@ entries:
       - 1963-05-12T15:00Z
     time_band: evening
     time_zone: Asia/Bangkok
+  - id: cal.1963-05-12.civil-rights-the-executive-2
+    when: May 12
+    date: '1963-05-12'
+    time: 1963-05-13T01:00Z
+    place: washington
+    thread: civil-rights-the-executive
+    also: [alabama-birmingham, robert-kennedy]
+    follows:
+      - cal.1963-05-12.civil-rights-the-executive
+    c: From his office, on radio and television, the President says the Government will do what must be done to keep order in Birmingham; the agreement a fair and just accord, not to be sabotaged by extremists on either side. Marshall to go back to Birmingham that evening; McNamara to alert units trained in riot control and send selected units to bases near Birmingham; the steps to call the Alabama Guard into Federal service to be taken now.
+    n: 'Radio and Television Remarks Following Renewal of Racial Strife in Birmingham, [1963 Pub. Papers 397](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=455) (May 12, 1963; the note: broadcast from the President''s office at 9 p.m.). [Kennedy, Robert Kennedy, Katzenbach, Marshall, McNamara and others, May 12](https://prde.upress.virginia.edu/conversations/4006291), JFK Meeting Tape 86.2 (PRDE only). [[w.sorensen-kennedy]], 491 (May 12: the troops; the statement at 9 p.m.); [[w.caro-passage-of-power]], 257 (Sunday, May 12, Kennedy back from Camp David for crisis meetings; the Second Infantry Division and the 82nd Airborne on alert; the papers drawn to federalize the Alabama Guard); [[w.branch-parting-the-waters]], 796–800 (the Sunday meetings; Marshall''s call to King from the Oval Office; three thousand troops moved in Operation Oak Tree; the statement drafted in the Cabinet Room); [[w.white-making-of-the-president-1965]], 170 (battle units moved into position, never used); [[w.purdum-idea-whose-time-has-2014]], 32–33 (the statement, just before nine on May 12, Army units near Birmingham alerted and the Alabama Guard to be federalized if necessary). Check: the hour: the Papers'' note has the broadcast at 9 p.m.; Branch has the President step out at 8:48 p.m. (800). Split under R17. The order: after [[cal.1963-05-12.civil-rights-the-executive]], [[w.branch-parting-the-waters]], 800 (the Sunday''s meetings, then the statement drafted in the Cabinet Room and read at 8:48 p.m.). See [[cal.1963-05-11.alabama]]; [[cal.1963-05-12.civil-rights-the-executive]]. Names: Kennedy, McNamara, Marshall.'
+    tags: [name:kennedy-john-f, name:mcnamara-robert-s, name:marshall-burke, state:al, city:birmingham]
+    time_zone: America/New_York
+    variants:
+      - field: time
+        value: '20:48'
+        witness: w.branch-parting-the-waters
+        reads: the President steps out at 8:48 p.m. to face the reporters and the live broadcast
+        at: '800'
   - id: cal.1963-05-13.alabama-birmingham
     when: May 13
     date: '1963-05-13'
@@ -3748,6 +3835,15 @@ entries:
     c: 'Zhu De 朱德 to Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Zhou Enlai 周恩来 and Deng Xiaoping 邓小平, by letter, on his inspection of Sichuan 四川, Shaanxi 陕西, Henan 河南 and other provinces: in Sichuan, water first, lifting water to the hill terraces by power and machine pumps, the root of sure and higher harvests; the spring crops to be early ripening (broad beans, peas, barley, rape), less wheat, so the rice is planted in time; cash crops and the collectives and the members'' household sidelines far below their old level, and the village crafts, to be restored, the hills'' many lines (bamboo, wood, palm, silk, tea, tung oil, mountain goods, herbs) above all; they lag because goods go unbought, prices are low and short-haul carrying is blocked; sidelines, short-haul transport and livelier rural fairs 集市贸易 to go together, the cooperatives to buy more; Sichuan''s wooden-boat transport by the teams and cooperatives to be restored.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1875–1876. Made public: 2016. Names: Zhu De, Mao Zedong, Liu Shaoqi, Zhou Enlai, Deng Xiaoping.'
     tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
+  - id: cal.1963-05-13.alabama-birmingham-3
+    when: May 13
+    date: '1963-05-13'
+    place: washington
+    thread: alabama-birmingham
+    also: [civil-rights-the-executive]
+    c: 'Telegram to Governor Wallace, in answer to his telegram of May 12: Federal troops would be sent into Birmingham, if necessary, under 10 U.S.C. § 333; the Congress leaves to the President the necessity, the means and the adequacy of the State''s protection; no final action taken yet.'
+    n: 'Telegram to Governor Wallace of Alabama, [1963 Pub. Papers 398](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=456) (May 13, 1963; the note: Wallace''s telegram was not released). *Alabama v. United States*, [373 U.S. 545](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/usrep373545/usrep373545.pdf) (1963) (Wallace''s suit against the troops refused, May 27). Split under R17. See [[cal.1963-05-11.alabama]]; [[cal.1963-05-12.civil-rights-the-executive-2]]. Names: Wallace, Kennedy.'
+    tags: [name:kennedy-john-f, name:wallace-george-c, state:al]
   - id: cal.1963-05-14.railroads
     when: May 14
     date: '1963-05-14'
@@ -5038,13 +5134,13 @@ entries:
     time_zone: America/New_York
     range_basis: kind
   - id: cal.1963-05-20.program
-    when: May 20–21
+    when: May 20
     date: '1963-05-20'
     time: 1963-05-20T16:30Z
     place: washington
     thread: farm
-    c: Feed Grain Act signed, [77 Stat. 44](https://www.govinfo.gov/content/pkg/STATUTE-77/pdf/STATUTE-77-Pg44.pdf). Senate had passed it [45–35](https://voteview.com/rollcall/RS0880060), May 16. May 21, wheat referendum. Growers reject the certificate plan, two-thirds being needed. Check the vote.
-    n: 'Remarks Upon Signing the Feed Grain Bill, [1963 Pub. Papers 414](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=472) (May 20, 1963). Statement by the President on the Results of the Wheat Referendum, [1963 Pub. Papers 418](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476) (May 22, 1963). The time is the first day''s. To check: [[w.hadwiger-pressures-and-protests]]. See [[cal.1963-04-25.program]]; [[cal.1962-09-27.program]]. Names: Freeman.'
+    c: Feed Grain Act signed, [77 Stat. 44](https://www.govinfo.gov/content/pkg/STATUTE-77/pdf/STATUTE-77-Pg44.pdf). Senate had passed it [45–35](https://voteview.com/rollcall/RS0880060), May 16.
+    n: 'Remarks Upon Signing the Feed Grain Bill, [1963 Pub. Papers 414](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=472) (May 20, 1963). The hour is the signing''s: the Papers'' note has the President speak at 12:30 p.m. in the Fish Room (415). See [[cal.1963-04-25.program]]; [[cal.1962-09-27.program]]. Names: Freeman.'
     tags: [name:kennedy-john-f, name:freeman-orville-l]
     short: the Feed Grain Act of 1963
   - id: cal.1963-05-20.goldwater
@@ -5470,6 +5566,12 @@ entries:
       - 1963-05-21T22:28Z
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1963-05-21.farm
+    when: May 21
+    date: '1963-05-21'
+    thread: farm
+    c: Wheat referendum. The growers reject the certificate plan, two-thirds being needed.
+    n: 'Statement by the President on the Results of the Wheat Referendum, [1963 Pub. Papers 418](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476) (May 22, 1963; "Yesterday": the wheat farmers voted for the right to produce without limits, for whatever the market will pay, rather than for higher prices and limited production). Check the vote: the statement gives no count and the two-thirds is not in it. To check: [[w.hadwiger-pressures-and-protests]]. Split under R17. See [[cal.1963-05-20.program]]; [[cal.1963-04-25.program]].'
   - id: cal.1963-05-22.africa
     when: May 22–25
     date: '1963-05-22'
@@ -5487,11 +5589,10 @@ entries:
     thread: vietnam-force-levels
     also: [civil-rights-bill, testing]
     c: 'News conference, on Nhu''s "too many American troops": troops would go home the day after Saigon asked.{1} "We are hopeful that the situation in South Viet-Nam would permit some withdrawal in any case by the end of the year, but we can''t possibly make that judgment at the present time."{2} "A long, hard struggle to go."{3} On civil rights: "we are considering whether any additional proposals will be made to the Congress. And the final decision should be made in the next few days";{4} a legal remedy, so that the aggrieved need not "take to the streets."{5} Other things might "provide a legal outlet for a desire for a remedy other than having to engage in demonstrations"; "We hope to see if we can develop a legal remedy."{6} On the test ban: the Soviet position on the number of inspections unchanged.{7} Asked where the genie is: "neither in nor out right now."{8}'
-    n: 'The President''s News Conference of May 22, 1963, [1963 Pub. Papers 418](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476). [[w.selverstone-kennedy-withdrawal]], 128; [[w.mann-walls-of-jericho]], 353 (on civil rights); [[w.sorensen-kennedy]], 657; [[w.reeves-president-kennedy]], 496; [[w.schlesinger-robert-kennedy-and-his]], 717 (his press conference "in May 1963": "We would withdraw the troops . . . any time the government of South Vietnam would suggest it" (n.80: Public Papers, 1963, 421); not Nhu''s words, the withdrawal by the end of the year or civil rights). [[w.sundquist-politics-and-policy]], 260 (civil rights); [[w.chang-friends-and-enemies]], 239 (no Soviet interest in a ban, their position unchanged for five months). See [[cal.1963-05-12.vietnam]]. Names: Kennedy, Ngô Đình Nhu. Check: the "genie" Chang gives as Kennedy''s words of May 22 is Kennedy''s of May 8 ([1963 Pub. Papers 377–78](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=435)) and the questioner''s on May 22.'
+    n: 'The President''s News Conference of May 22, 1963, [1963 Pub. Papers 418](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476) (the note, 424: held in the State Department Auditorium at 4 o''clock). [[w.selverstone-kennedy-withdrawal]], 128; [[w.mann-walls-of-jericho]], 353 (on civil rights); [[w.sorensen-kennedy]], 657; [[w.reeves-president-kennedy]], 496; [[w.schlesinger-robert-kennedy-and-his]], 717 (his press conference "in May 1963": "We would withdraw the troops . . . any time the government of South Vietnam would suggest it" (n.80: Public Papers, 1963, 421); not Nhu''s words, the withdrawal by the end of the year or civil rights). [[w.sundquist-politics-and-policy]], 260 (civil rights); [[w.chang-friends-and-enemies]], 239 (no Soviet interest in a ban, their position unchanged for five months). See [[cal.1963-05-12.vietnam]]. Names: Kennedy, Ngô Đình Nhu. Check: the "genie" Chang gives as Kennedy''s words of May 22 is Kennedy''s of May 8 ([1963 Pub. Papers 377–78](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=435)) and the questioner''s on May 22.'
     src:
       c: 2e27bc56
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476: 1, 2, 3, 4, 5, 6, 7, 8'
         - 'w.selverstone-kennedy-withdrawal 128: 2, 3'
         - 'via w.selverstone-kennedy-withdrawal 128 n.41: 2, 3'
         - 'w.sundquist-politics-and-policy 260: 4, 5'
@@ -5501,6 +5602,7 @@ entries:
         - 'w.reeves-president-kennedy 496: 1, 2'
         - 'w.schlesinger-robert-kennedy-and-his 717: ?'
         - 'w.chang-friends-and-enemies 239: 7'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476: time'
     tags: [name:kennedy-john-f, name:ngo-dinh-nhu, polity:us]
     aliases: [cal.1963-05-22.testing]
   - id: cal.1963-05-22.school-aid
@@ -5779,6 +5881,12 @@ entries:
         - 'w.yang-shangkun-riji II, 281: 1'
         - 'w.deng-xiaoping-nianpu-1904 III, 1758: 1'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    time_range:
+      - 1963-05-22T22:00Z
+      - 1963-05-23T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1963-05-23.china-leadership-5
     when: May 23
     date: '1963-05-23'
@@ -5835,7 +5943,7 @@ entries:
     follows:
       - cal.1963-05-24.desegregation-public-places
     c: Robert Kennedy meets James Baldwin and a dozen others Baldwin brought, at the Kennedy apartment in New York.{1} Three hours.{2}
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 330–35; [[w.garrow-bearing-the-cross]], 268 (the meeting); [[w.branch-pillar-of-fire]], 89; [[w.navasky-kennedy-justice]], 113–14 (the meeting, May 24; who came; Smith, Clark and Marshall''s accounts; the FBI''s dossiers after); [[w.branch-parting-the-waters]], 809–12; [[w.thomas-robert-kennedy]], 244 (May 24, the Kennedy apartment on Central Park South; Jerome Smith, Hansberry, Kenneth Clark); [[w.wofford-of-kennedys-and-kings]], 171–72 (May 24, New York, Robert Kennedy and the group Baldwin assembled, nearly three hours; Kennedy angry and shaken; not the apartment or the number); [[w.schlesinger-journals]], 191–93 (Robert Kennedy''s account to Schlesinger on the Monday after, in the journal of June 2, of the meeting with Baldwin on Friday (the day not named): about a dozen Negroes, mostly writers and performers, at the Kennedy apartment, "nearly three hours," not three; Jerome Smith''s opening; Lena Horne; Belafonte and the lawyer for King afterward); [[w.risen-bill-of-the-century]], 50–52 (Baldwin''s group at his father''s apartment, 24 Central Park West, ten guests named, not "a dozen"; three hours; the Virginia talk of May 23 before it); [[w.purdum-idea-whose-time-has-2014]], 75–78 (the meeting, Friday evening, May 24, in a Kennedy family apartment on Central Park South, after the talk at Hickory Hill on Thursday; the guests named; "two hours, perhaps three"; not "a dozen"). After [[cal.1963-05-24.desegregation-public-places|the chain-store owners]]: "He had just been at an office in midtown" with them when he came to the apartment ([[w.thomas-robert-kennedy]], 244). Check: Branch, 809–12: Gregory had suggested Baldwin; Joseph Kennedy''s apartment near the Plaza; Robert Kennedy with Marshall and Guthman, come from Harry Wachtel''s chain-store owners; among the guests Kenneth Clark, Belafonte, Lena Horne, Lorraine Hansberry, Clarence Jones, and Jerome Smith of CORE: "I''m close to the moment where I''m ready to take up a gun"; Hansberry leads the walkout. Check: Thomas has the guests walk out after two hours (244). To check: [[w.guthman-we-band-of-brothers]]; [[w.baldwin-fire-next-time]]; the list of those present at the Baldwin meeting, Burke Marshall Papers, box 8, JFK Library (cited by [[w.branch-parting-the-waters]], 809 n.2). See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Robert F. Kennedy, James Baldwin.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 330–35; [[w.garrow-bearing-the-cross]], 268 (the meeting); [[w.branch-pillar-of-fire]], 89; [[w.navasky-kennedy-justice]], 113–14 (the meeting, May 24; who came; Smith, Clark and Marshall''s accounts; the FBI''s dossiers after); [[w.branch-parting-the-waters]], 809–12; [[w.thomas-robert-kennedy]], 244 (May 24, the Kennedy apartment on Central Park South; Jerome Smith, Hansberry, Kenneth Clark); [[w.wofford-of-kennedys-and-kings]], 171–72 (May 24, New York, Robert Kennedy and the group Baldwin assembled, nearly three hours; Kennedy angry and shaken; not the apartment or the number); [[w.schlesinger-journals]], 191–93 (Robert Kennedy''s account to Schlesinger on the Monday after, in the journal of June 2, of the meeting with Baldwin on Friday (the day not named): about a dozen Negroes, mostly writers and performers, at the Kennedy apartment, "nearly three hours," not three; Jerome Smith''s opening; Lena Horne; Belafonte and the lawyer for King afterward); [[w.risen-bill-of-the-century]], 50–52 (Baldwin''s group at his father''s apartment, 24 Central Park West, ten guests named, not "a dozen"; three hours; the Virginia talk of May 23 before it); [[w.purdum-idea-whose-time-has-2014]], 75–78 (the meeting, Friday evening, May 24, in a Kennedy family apartment on Central Park South, after the talk at Hickory Hill on Thursday; the guests named; "two hours, perhaps three"; not "a dozen"); [[w.purdum-idea-whose-time-has-2014]], 75 ("that Friday evening"). After [[cal.1963-05-24.desegregation-public-places|the chain-store owners]]: "He had just been at an office in midtown" with them when he came to the apartment ([[w.thomas-robert-kennedy]], 244). Check: Branch, 809–12: Gregory had suggested Baldwin; Joseph Kennedy''s apartment near the Plaza; Robert Kennedy with Marshall and Guthman, come from Harry Wachtel''s chain-store owners; among the guests Kenneth Clark, Belafonte, Lena Horne, Lorraine Hansberry, Clarence Jones, and Jerome Smith of CORE: "I''m close to the moment where I''m ready to take up a gun"; Hansberry leads the walkout. Check: Thomas has the guests walk out after two hours (244). To check: [[w.guthman-we-band-of-brothers]]; [[w.baldwin-fire-next-time]]; the list of those present at the Baldwin meeting, Burke Marshall Papers, box 8, JFK Library (cited by [[w.branch-parting-the-waters]], 809 n.2). See [[cal.1961-03-06.civil-rights-the-executive]]. Names: Robert F. Kennedy, James Baldwin.'
     src:
       c: 6237a557
       rows:
@@ -5861,13 +5969,14 @@ entries:
         - 'w.schlesinger-journals 191–93: 1'
         - 'w.risen-bill-of-the-century 50–52: 2'
         - 'w.purdum-idea-whose-time-has-2014 75–78: ?'
+        - 'w.purdum-idea-whose-time-has-2014 75: time'
     tags: [name:kennedy-robert-f, name:baldwin-james]
     time_range:
-      - 1963-05-24T13:00Z
-      - 1963-05-24T21:00Z
-    time_band: workday daytime
+      - 1963-05-24T23:00Z
+      - 1963-05-25T02:00Z
+    time_band: evening
     time_zone: America/New_York
-    range_basis: kind
+    range_basis: record
   - id: cal.1963-05-24.opinion
     when: May 24
     date: '1963-05-24'
@@ -6651,13 +6760,14 @@ entries:
   - id: cal.1963-05-28.mississippi
     when: May 28
     date: '1963-05-28'
+    time: 1963-05-28T17:15Z
     place: jackson
     thread: mississippi
     also: [desegregation-public-places, students]
     follows:
       - cal.1963-05-28.mississippi-2
     c: Jackson.{1} Tougaloo students sit in at Woolworth's lunch counter;{2} a crowd beats them for three hours, police outside.{3} The Jackson movement, Evers and the NAACP at its head, begins its marches.{4}
-    n: '[[w.dittmer-local-people]], 160–63 (161–63: the sit-in at 11:15, the mob, the police outside; the marches from May 29); [[w.branch-pillar-of-fire]], 101; [[w.branch-parting-the-waters]], 814 (the sit-in); [[w.reeves-president-kennedy]], 501. After [[cal.1963-05-28.mississippi-2|the Mayor''s word and its disowning]]: "Under the sting of this disappointment, pressure for direct action broke loose that same day" ([[w.branch-parting-the-waters]], 814). Check: Branch, 814: four Tougaloo students and a white professor; three hours; ketchup, mustard, sugar, spray paint; Benny Oliver, an ex-policeman, kicks Memphis Norman''s face bloody, the photograph on the *New York Times*''s front page next morning; that night at the Pearl Street A.M.E. Church, Evers announces the NAACP''s "massive offensive.". To check: [[w.payne-ive-got-the-light]]; [[w.moody-coming-of-age-in]]; [[w.salter-jackson-mississippi]]; [[w.obrien-we-shall-not-be]]; *Newsweek*, June 10, 1963, at 28–29; *Memphis Commercial Appeal*, May 29, 1963 (cited by [[w.dittmer-local-people]], 162 n.47). See [[cal.1962-10-01.mississippi]]. Check: Dittmer, 162, gives two hours. Names: Evers.'
+    n: '[[w.dittmer-local-people]], 160–63 (161–63: the sit-in at 11:15, the mob, the police outside; the marches from May 29); [[w.branch-pillar-of-fire]], 101; [[w.branch-parting-the-waters]], 814 (the sit-in); [[w.reeves-president-kennedy]], 501; [[w.dittmer-local-people]], 161 ("At 11:15 on a hot and muggy Mississippi morning"). After [[cal.1963-05-28.mississippi-2|the Mayor''s word and its disowning]]: "Under the sting of this disappointment, pressure for direct action broke loose that same day" ([[w.branch-parting-the-waters]], 814). Check: Branch, 814: four Tougaloo students and a white professor; three hours; ketchup, mustard, sugar, spray paint; Benny Oliver, an ex-policeman, kicks Memphis Norman''s face bloody, the photograph on the *New York Times*''s front page next morning; that night at the Pearl Street A.M.E. Church, Evers announces the NAACP''s "massive offensive.". To check: [[w.payne-ive-got-the-light]]; [[w.moody-coming-of-age-in]]; [[w.salter-jackson-mississippi]]; [[w.obrien-we-shall-not-be]]; *Newsweek*, June 10, 1963, at 28–29; *Memphis Commercial Appeal*, May 29, 1963 (cited by [[w.dittmer-local-people]], 162 n.47). See [[cal.1962-10-01.mississippi]]. Check: Dittmer, 162, gives two hours. Names: Evers.'
     src:
       c: 5a09f1a9
       rows:
@@ -6669,8 +6779,10 @@ entries:
         - 'via w.branch-parting-the-waters 814 n.4: 1, 2'
         - 'via w.branch-parting-the-waters 814 n.5: 2'
         - 'w.reeves-president-kennedy 501: 1, 2, 3'
+        - 'w.dittmer-local-people 161: time'
     tags: [name:evers-medgar]
     short: the Jackson movement
+    time_zone: America/Chicago
   - id: cal.1963-05-28.opinion-5
     when: May 28
     date: '1963-05-28'
@@ -6801,26 +6913,6 @@ entries:
     c: 'Zhou Enlai hears Bo Yibo on the "three-anti" struggle (against bureaucracy, decentralism and waste) among the leading cadres of the industry and transport ministries; on the bulletin of the five-antis in those ministries he writes: the center of leading the three-anti bath is politics, thought and style of work, not small things and details slipped over.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 556 (May 28, 1963). Made public: 1997. Names: Zhou Enlai, Bo Yibo.'
     tags: [polity:prc, name:zhou-enlai, name:bo-yibo, vis:only:prc]
-  - id: cal.1963-05-28.china-leadership-2
-    when: May 28
-    date: '1963-05-28'
-    place:
-      - peking
-      - wuhan
-    thread: china-liu
-    also: [soviet-union, china-foreign]
-    c: Peking to Wuhan.{1} Liu Shaoqi flies with Kim Il Sung to Wuhan, where they lodge at the Baihua Hotel, Buildings 1 and 2, by the East Lake.{2} Deng Xiaoping takes the drafters in another plane; they lodge in Buildings 3 and 4. Mao is at the Hubin villa, rebuilt in 1959 as a tall stone house joined to an indoor swimming pool.{3}
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 569 ("on the 28th"; the Hubin villa (湖滨别墅)). Made public: 1999. See [[cal.1963-05-26.china-leadership-2]]. Names: Liu Shaoqi, Kim Il Sung, Deng Xiaoping, Mao Zedong. Check: Liu Shaoqi''s chronology has Liu fly to Wuhan May 29 (patch b15b-liu-1963-69, a cite on [[cal.1963-05-29.china-leadership]]).'
-    src:
-      c: e69e7e0a
-      rows:
-        - 'w.lengxi-shinian-lunzhan-1956-1966 569: 1, 2, 3'
-    tags: [polity:prc, name:liu-shaoqi, name:kim-il-sung, name:deng-xiaoping, name:mao-zedong, vis:only:prc+dprk]
-    variants:
-      - unit: '2'
-        witness: w.yang-shangkun-riji
-        reads: 'Yang Shangkun''s diary: Kim Il Sung and his party fly from Peking''s western suburbs'' airport to Hankou on May 29, taking off at 9 a.m. and landing before noon; on May 28 Yang arranges the special plane for the next day'
-        at: II, 282–283, May 29, 1963
   - id: cal.1963-05-28.china-leadership-3
     when: May 28
     date: '1963-05-28'
@@ -7137,6 +7229,26 @@ entries:
         - 'w.friedman-shadow-cold-war 98: all'
         - 'via x.1963-05-29.prc-ambassador-moscow-mfa-may-29-1963: ?'
     tags: [polity:prc, vis:only:prc, name:castro-fidel, name:khrushchev-nikita-s]
+  - id: cal.1963-05-28.china-leadership-2
+    when: May 29
+    date: '1963-05-29'
+    place:
+      - peking
+      - wuhan
+    thread: china-liu
+    also: [soviet-union, china-foreign]
+    c: Peking to Wuhan.{1} Liu Shaoqi flies with Kim Il Sung to Wuhan, where they lodge at the Baihua Hotel, Buildings 1 and 2, by the East Lake.{2} Deng Xiaoping takes the drafters in another plane; they lodge in Buildings 3 and 4. Mao is at the Hubin villa, rebuilt in 1959 as a tall stone house joined to an indoor swimming pool.{3}
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 569 ("on the 28th"; the Hubin villa (湖滨别墅)). Made public: 1999. Check: the day: Wu has "the 28th" (569); the flight is May 29 by Yang''s diary (Kim Il Sung''s party, 9 a.m. from Peking, II, 282–283), Deng''s nianpu (III, 1759) and the Liu nianpu (see [[cal.1963-05-29.china-leadership]]). This entry may duplicate [[cal.1963-05-29.china-leadership]] and [[cal.1963-05-29.china-leadership-8]] in part. See [[cal.1963-05-26.china-leadership-2]]. Names: Liu Shaoqi, Kim Il Sung, Deng Xiaoping, Mao Zedong. Check: Liu Shaoqi''s chronology has Liu fly to Wuhan May 29 (patch b15b-liu-1963-69, a cite on [[cal.1963-05-29.china-leadership]]).'
+    src:
+      c: e69e7e0a
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 569: 1, 2, 3'
+    tags: [polity:prc, name:liu-shaoqi, name:kim-il-sung, name:deng-xiaoping, name:mao-zedong, vis:only:prc+dprk]
+    variants:
+      - unit: '2'
+        witness: w.yang-shangkun-riji
+        reads: 'Yang Shangkun''s diary: Kim Il Sung and his party fly from Peking''s western suburbs'' airport to Hankou on May 29, taking off at 9 a.m. and landing before noon; on May 28 Yang arranges the special plane for the next day'
+        at: II, 282–283, May 29, 1963
   - id: cal.1963-05-30.civil-rights-the-executive
     when: May 30
     date: '1963-05-30'
@@ -8039,13 +8151,13 @@ entries:
     date: '1963-05-31'
     thread: china-foreign
     also: [korea-leadership, vietnam-hanoi]
-    c: Yang Shangkun 杨尚昆, Peking 北京, on the telephone with Hankou 汉口. At noon Kim Il Sung 金日成 safely in Pyongyang 平壤; the southern guests cannot fly in.
-    n: '[[w.yang-shangkun-riji]], II, 283 (May 31, 1963). The words: 中午金已安抵平壤。南边客人飞不过来 (II, 283). See [[cal.1963-05-31.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Kim Il Sung.'
+    c: Yang Shangkun 杨尚昆, Peking 北京, on the telephone with Hankou 汉口. The southern guests cannot fly in.
+    n: '[[w.yang-shangkun-riji]], II, 283 (May 31, 1963). The words: 与汉口通话 ... 南边客人飞不过来 (II, 283). See [[cal.1963-05-31.china-leadership-2]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
     src:
-      c: 418e3458
+      c: e70bd1b2
       rows:
         - 'w.yang-shangkun-riji II, 283: all'
-    tags: [polity:prc, name:kim-il-sung, vis:only:prc, name:yang-shangkun]
+    tags: [polity:prc, vis:only:prc, name:yang-shangkun]
     time_range:
       - 1963-05-30T22:00Z
       - 1963-05-31T04:00Z
@@ -8208,3 +8320,20 @@ entries:
       rows:
         - 'w.teiwes-tragedy-of-lin-biao 199: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1963-05-31.china-foreign
+    when: May 31
+    date: '1963-05-31'
+    place: pyongyang
+    thread: china-foreign
+    also: [korea-leadership]
+    follows:
+      - cal.1963-05-31.china-leadership-2
+    c: Kim Il Sung 金日成, flying home from Hankou 汉口, is at noon safely in Pyongyang 平壤, by Yang Shangkun's 杨尚昆 diary.
+    n: '[[w.yang-shangkun-riji]], II, 283 (May 31, 1963; 中午金已安抵平壤; the day before, May 30, 金日成等一行定明天回国). The words: 中午金已安抵平壤 (II, 283). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Check: the hour: the diary puts the sentence among the morning''s, after the call with Hankou, and has Kim arrived "at noon" (已). Split under R25b. See [[cal.1963-05-31.china-leadership-3]]; [[cal.1963-05-31.china-leadership-2]]. Names: Kim Il Sung, Yang Shangkun.'
+    tags: [polity:prc, name:kim-il-sung, vis:only:prc+dprk, name:yang-shangkun]
+    time_range:
+      - 1963-05-31T04:00Z
+      - 1963-05-31T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+    range_basis: record

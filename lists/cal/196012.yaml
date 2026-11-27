@@ -7,16 +7,16 @@ entries:
     when: Dec. 1
     date: '1960-12-01'
     thread: transition-and-staff-cabinet
-    c: The cabinet named, the first of it.{1} Kennedy names Ribicoff Secretary of Health, Education, and Welfare;{2} Williams Assistant Secretary of State for African Affairs.{3}
-    n: 'The hearing: *Nominations of Murat W. Williams, George W. Ball, Roger W. Jones, and G. Mennen Williams: Hearing Before the S. Comm. on Foreign Relations*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg64718)), 2 (Williams, Jan. 24). [[w.schlesinger-thousand-days-1965]], 129–31 (Williams announced that morning; Ribicoff and Hodges decided); [[w.wofford-of-kennedys-and-kings]], 85, 89 (Williams named before Rusk, passed over for HEW, which Ribicoff would carry better through Congress; Ribicoff had refused the Attorney Generalship, by Robert Kennedy''s oral history); [[w.schlesinger-robert-kennedy-and-his]], 227 (Ribicoff to HEW, having been offered Justice first; the day not given). To check: [[w.schoenbaum-waging-war-and-peace]] (on Rusk); [[w.shapley-promise-and-power]] (on McNamara); [[w.halberstam-best-and-the-brightest]]; [[w.bowles-promises-to-keep]]. See [[cal.1960-11-09.transition-and-staff]]. Names: Kennedy, Ribicoff, Williams.'
+    c: The cabinet named, the first of it.{1} Kennedy names Ribicoff Secretary of Health, Education, and Welfare.{2}
+    n: '[[w.schlesinger-thousand-days-1965]], 129–31 (Williams announced that morning; Ribicoff and Hodges decided); [[w.wofford-of-kennedys-and-kings]], 85, 89 (Williams named before Rusk, passed over for HEW, which Ribicoff would carry better through Congress; Ribicoff had refused the Attorney Generalship, by Robert Kennedy''s oral history); [[w.schlesinger-robert-kennedy-and-his]], 227 (Ribicoff to HEW, having been offered Justice first; the day not given). Split under R25b: the naming of Williams, announced "that morning" of the day Schlesinger saw Kennedy, Dec. 1 ([[w.schlesinger-thousand-days-1965]], 129–30), is [[cal.1960-12-01.transition-and-staff-cabinet-5]], with the Foreign Relations hearing. To check: [[w.schoenbaum-waging-war-and-peace]] (on Rusk); [[w.shapley-promise-and-power]] (on McNamara); [[w.halberstam-best-and-the-brightest]]; [[w.bowles-promises-to-keep]]. See [[cal.1960-11-09.transition-and-staff]]. Names: Kennedy, Ribicoff. Check: the day of Ribicoff''s naming; Schlesinger has him only decided by Dec. 1 (130).'
     src:
-      c: 220adee2
+      c: 4a2ead03
       rows:
-        - 'w.schlesinger-thousand-days-1965 130: 2, 3'
-        - 'w.wofford-of-kennedys-and-kings 85, 89: 2, 3'
+        - 'w.schlesinger-thousand-days-1965 130: 2'
+        - 'w.wofford-of-kennedys-and-kings 85, 89: 2'
         - 'w.schlesinger-robert-kennedy-and-his 227: 2'
         - 'via w.schlesinger-robert-kennedy-and-his 227 n.15: 2'
-    tags: [name:kennedy-john-f, name:ribicoff-abraham, name:williams-g-mennen]
+    tags: [name:kennedy-john-f, name:ribicoff-abraham]
     short: the cabinet named
     time_range:
       - 1960-12-01T14:00Z
@@ -345,6 +345,18 @@ entries:
     time_band: night
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1960-12-01.transition-and-staff-cabinet-5
+    when: Dec. 1
+    date: '1960-12-01'
+    thread: transition-and-staff-cabinet
+    c: Kennedy names Williams Assistant Secretary of State for African Affairs, that morning.
+    n: 'The hearing: *Nominations of Murat W. Williams, George W. Ball, Roger W. Jones, and G. Mennen Williams: Hearing Before the S. Comm. on Foreign Relations*, 87th Cong. (1961) ([online](https://www.govinfo.gov/app/details/CHRG-87shrg64718)), 2 (Williams, Jan. 24). [[w.schlesinger-thousand-days-1965]], 129–30 (Kennedy to Schlesinger, whom he saw in Washington on Dec. 1: "He had announced Williams''s appointment as Assistant Secretary of State for Africa that morning"; Williams passed over for Health, Education, and Welfare); [[w.wofford-of-kennedys-and-kings]], 85 (Williams "picked and announced as Assistant Secretary of State for Africa even before Rusk was chosen"; passed over for HEW; not the day). The hour: "that morning" (130). See [[cal.1960-12-01.transition-and-staff]], which holds the day''s bibliography. Names: Kennedy, Williams.'
+    tags: [name:kennedy-john-f, name:williams-g-mennen]
+    time_range:
+      - 1960-12-01T11:00Z
+      - 1960-12-01T17:00Z
+    time_band: morning
+    time_zone: America/New_York
   - id: cal.1960-12-02.laos
     when: Dec. 2
     date: '1960-12-02'
@@ -757,12 +769,15 @@ entries:
     place: peking
     thread: vietnam-diplomacy
     also: [china-leadership]
+    follows:
+      - cal.1960-12-03.china-leadership-7
     c: Peking, afternoon. Lê Duẩn and Nguyễn Chí Thanh meet members of the Chinese Central Committee.
-    n: '[[w.guan-vietnamese-communists-relations-with]], 170. To check: NCNA, 3 December 1960, SWB/FE/507/A3/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 170 n.74a). Names: Lê Duẩn, Nguyễn Chí Thanh.'
+    n: '[[w.guan-vietnamese-communists-relations-with]], 170. The order: after [[cal.1960-12-03.china-leadership-7]], [[w.guan-vietnamese-communists-relations-with]], 170 (Lê Duẩn and Nguyễn Chí Thanh of Hồ''s delegation, back in Peking that day; their meeting told apart from the welcome, its own report, n.75). To check: NCNA, 3 December 1960, SWB/FE/507/A3/1 (cited by [[w.guan-vietnamese-communists-relations-with]], 170 n.74a); NCNA, 3 December 1960, SWB/FE/507/A3/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 170 n.75). Names: Lê Duẩn, Nguyễn Chí Thanh.'
     src:
       c: cd5621ad
       rows:
         - 'via x.1960-12-03.ncna-fe-507-a3-1: ?'
+        - 'via x.1960-12-03.ncna-fe-507-a3-2: all'
     tags: [polity:drv, polity:prc, name:le-duan, name:nguyen-chi-thanh]
     time_range:
       - 1960-12-03T04:00Z
@@ -1868,16 +1883,16 @@ entries:
     also: [soviet-union, china-zhou-foreign, china-foreign]
     follows:
       - cal.1960-12-09.soviet-union
-    c: Mao, Zhou Enlai, Zhu De, Chen Yun and Deng Xiaoping meet Liu Shaoqi at the airport, back from the conference and a tour of the Soviet Union by way of Irkutsk.{1} That evening, the Yinian Tang, Liu reports to Mao's meeting.{2}
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 9, 1960. [[w.zhou-enlai-nianpu-1949]], II, 378, Dec. 9, 1960 (Zhou at the airport and Mao''s meeting). [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 9, 1960; 下午); [[w.lengxi-shinian-lunzhan-1956-1966]], 438 (Liu left Irkutsk by air in the afternoon and reached Peking very late; Mao, the Standing Committee, the whole Politburo, the NPC Standing Committee''s chairman and vice-chairmen and the heads of the democratic parties were at the airport); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 9, 1960; Liu back in Peking; Mao, Zhu De, Zhou Enlai and others meet him at the airport; that day Mao convenes a meeting and hears Liu''s report on his visit to the USSR and the Moscow conference); [[w.deng-xiaoping-nianpu-1904]], III, 1604 (Dec. 9, 1960; afternoon; Deng, with Mao, Zhou, Zhu De and Chen Yun, meets Liu at the airport; evening (晚), Deng at Mao''s meeting hearing Liu on the conference of the eighty-one parties and his visit to the Soviet Union); [[w.mao-zedong-zhuan]], V, ch. 66 (Dec. 9: Liu Shaoqi back at Peking; Mao, Zhu De, Zhou Enlai and others meet him at the airport). [[w.chen-yi-nianpu]], 847 (Dec. 9, 1960, 6:40 p.m.; Chen Yi at the airport to welcome Liu Shaoqi and the Party and government delegation back from the Soviet Union); [[w.peng-zhen-nianpu-1902]], IV, 83 (Dec. 9, 1960, afternoon; Peng Zhen, with Mao, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Li Fuchun and others, at the capital airport to meet Liu Shaoqi''s delegation, Li Jingquan, Lu Dingyi, Yang Shangkun and Liu Ningyi on the same plane); [[w.zhu-de-nianpu-xinbian]], III, 1789 (Dec. 9, 1960; Zhu De 朱德, with Mao Zedong 毛泽东, Zhou Enlai 周恩来, Chen Yun 陈云, Deng Xiaoping 邓小平 and others, at the airport to welcome Liu Shaoqi''s 刘少奇 delegation back from the October celebrations, the conference of the parties and the visit to the Soviet Union); [[w.chen-yun-nianpu-xiuding]], III, 58 (afternoon: Chen Yun with Mao, Zhou Enlai, Zhu De and others at the airport to meet Liu Shaoqi''s delegation back from the October Revolution''s forty-third anniversary and the meeting of the eighty-one parties). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Liu Shaoqi.'
+    c: Mao, Zhou Enlai, Zhu De, Chen Yun and Deng Xiaoping meet Liu Shaoqi at the airport, back from the conference and a tour of the Soviet Union by way of Irkutsk.{1}
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 9, 1960. [[w.zhou-enlai-nianpu-1949]], II, 378, Dec. 9, 1960 (Zhou at the airport and Mao''s meeting). [[w.zhou-enlai-waijiao-huodong]], 295 (Dec. 9, 1960; 下午); [[w.lengxi-shinian-lunzhan-1956-1966]], 438 (Liu left Irkutsk by air in the afternoon and reached Peking very late; Mao, the Standing Committee, the whole Politburo, the NPC Standing Committee''s chairman and vice-chairmen and the heads of the democratic parties were at the airport); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 499 (Dec. 9, 1960; Liu back in Peking; Mao, Zhu De, Zhou Enlai and others meet him at the airport; that day Mao convenes a meeting and hears Liu''s report on his visit to the USSR and the Moscow conference); [[w.deng-xiaoping-nianpu-1904]], III, 1604 (Dec. 9, 1960; afternoon; Deng, with Mao, Zhou, Zhu De and Chen Yun, meets Liu at the airport; evening (晚), Deng at Mao''s meeting hearing Liu on the conference of the eighty-one parties and his visit to the Soviet Union); [[w.mao-zedong-zhuan]], V, ch. 66 (Dec. 9: Liu Shaoqi back at Peking; Mao, Zhu De, Zhou Enlai and others meet him at the airport). [[w.chen-yi-nianpu]], 847 (Dec. 9, 1960, 6:40 p.m.; Chen Yi at the airport to welcome Liu Shaoqi and the Party and government delegation back from the Soviet Union); [[w.peng-zhen-nianpu-1902]], IV, 83 (Dec. 9, 1960, afternoon; Peng Zhen, with Mao, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Li Fuchun and others, at the capital airport to meet Liu Shaoqi''s delegation, Li Jingquan, Lu Dingyi, Yang Shangkun and Liu Ningyi on the same plane); [[w.zhu-de-nianpu-xinbian]], III, 1789 (Dec. 9, 1960; Zhu De 朱德, with Mao Zedong 毛泽东, Zhou Enlai 周恩来, Chen Yun 陈云, Deng Xiaoping 邓小平 and others, at the airport to welcome Liu Shaoqi''s 刘少奇 delegation back from the October celebrations, the conference of the parties and the visit to the Soviet Union); [[w.chen-yun-nianpu-xiuding]], III, 58 (afternoon: Chen Yun with Mao, Zhou Enlai, Zhu De and others at the airport to meet Liu Shaoqi''s delegation back from the October Revolution''s forty-third anniversary and the meeting of the eighty-one parties). Liu''s report that evening, at Mao''s meeting, is [[cal.1960-12-09.china-leadership-11]] ([[w.zhou-enlai-nianpu-1949]], II, 378). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Zhu De, Chen Yun, Deng Xiaoping, Liu Shaoqi.'
     src:
-      c: 5536e625
+      c: 65f0152c
       rows:
-        - 'w.zedong-mao-zedong-nianpu IV, Dec. 9, 1960: 1, 2'
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 9, 1960: 1'
         - 'w.zhou-enlai-nianpu-1949 II, 378, Dec. 9, 1960: 1'
         - 'w.zhou-enlai-waijiao-huodong 295: 1'
         - 'w.lengxi-shinian-lunzhan-1956-1966 438: 1'
-        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: 1, 2'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: 1'
         - 'w.deng-xiaoping-nianpu-1904 III, 1604: ?'
         - 'w.mao-zedong-zhuan V, ch. 66: ?'
         - 'w.chen-yi-nianpu 847: ?'
@@ -2036,13 +2051,16 @@ entries:
     follows:
       - cal.1960-12-09.china-leadership
     c: The Yinian Tang 颐年堂, Zhongnanhai 中南海, Peking. Peng Zhen 彭真 at Mao Zedong's 毛泽东 meeting hearing Liu Shaoqi 刘少奇 on the 81 parties' meeting and the visit to the Soviet Union.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 83; [[w.zhu-de-nianpu-xinbian]], III, 1789 (Dec. 9, 1960, evening; Zhu De 朱德 at the meeting Mao Zedong 毛泽东 calls, hearing Liu Shaoqi 刘少奇 on the visit and the conference; Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Chen Yi and others there); [[w.chen-yun-nianpu-xiuding]], III, 58 (evening: Chen Yun with Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping and others at the meeting Mao calls to hear Liu on the Moscow meeting and the visit). The words: 晚 (IV, 83). Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi.'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 83; [[w.zhu-de-nianpu-xinbian]], III, 1789 (Dec. 9, 1960, evening; Zhu De 朱德 at the meeting Mao Zedong 毛泽东 calls, hearing Liu Shaoqi 刘少奇 on the visit and the conference; Zhou Enlai, Chen Yun, Deng Xiaoping, Peng Zhen, Li Fuchun, Chen Yi and others there); [[w.chen-yun-nianpu-xiuding]], III, 58 (evening: Chen Yun with Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping and others at the meeting Mao calls to hear Liu on the Moscow meeting and the visit); [[w.zedong-mao-zedong-nianpu]], IV, Dec. 9, 1960 (晚上, the Yinian Tang: Liu reports on the conference and the visit; Peng Zhen among those present). The words: 晚 (IV, 83). [[w.zhou-enlai-nianpu-1949]], II, 378 (Dec. 9, 1960: after the airport, "到毛泽东处开会。会上刘少奇谈赴苏情况"; the meeting and Liu''s report, not Peng Zhen''s presence); [[w.deng-xiaoping-nianpu-1904]], III, 1604 (Dec. 9, 1960: 晚, Deng at the meeting Mao calls, hearing Liu on the conference of the eighty-one parties and the visit to the Soviet Union; not Peng Zhen''s presence). Made public: 2012. Names: Peng Zhen, Mao Zedong, Liu Shaoqi.'
     src:
       c: d1b8b581
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 83: all'
         - 'w.zhu-de-nianpu-xinbian III, 1789: ?'
         - 'w.chen-yun-nianpu-xiuding III, 58: ?'
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 9, 1960: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 378: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1604: ?'
     tags: [polity:prc, name:peng-zhen, name:mao-zedong, name:liu-shaoqi, vis:only:prc]
     time_range:
       - 1960-12-09T11:00Z
@@ -4000,7 +4018,7 @@ entries:
     date: '1960-12-20'
     thread: china-twelve-articles
     c: 'The Hubei 湖北 committee''s work team enters Tonghaikou 通海口 commune, Mianyang 沔陽 county, for the rectification: as at land reform it relies on the poor peasants, "strikes roots and links up," and forms poor peasants'' congresses and groups to fight the "five winds."'
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 82; [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 127–28 (the Hubei committee''s report of Jan. 25, 1961: the work team enters the village Dec. 20; "strike roots and link up"; the poor peasants'' representative congresses and groups against the five winds). Made public: 2016. To check: the Center''s forwarding of the Hubei committee''s summary report on the second stage of rectification at Tonghaikou, Zhongfa [61] 80 (printed "196 年 1 月 31 日") (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 82 n.105).'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 82; [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 127–28 (the Hubei committee''s report of Jan. 25, 1961: the work team enters the village Dec. 20; "strike roots and link up"; the poor peasants'' representative congresses and groups against the five winds). The Center forwarded the report on Jan. 31, 1961, to the county and regiment level, the volume printing no number (XIV, 126); [[w.yang-jisheng-tiandi-fanfu]], I, 82 n.105, gives it as Zhongfa [61] 80. Made public: 1997 ([[w.jianguo-yilai-zhongyao-wenxian]], XIV).'
     src:
       c: 929b3494
       rows:
@@ -5634,22 +5652,22 @@ entries:
     place: peking
     thread: china-famine
     also: [china-mao, china-economy, china-twelve-articles]
-    c: 'The Yinian Tang. Song Renqiong and Li Xuefeng report the Northeast and North China groups.{1} Mao 毛泽东 hears the third report of the Central Work Conference''s 中央工作会议 groups on the villages.{6} Mao: raise the grain purchase price only, not the sale price, a gap of a billion yuan a year, to end the unequal exchange with the peasants; repayment for what was levelled and transferred, in kind, "even to bankruptcy": "Marxists must never expropriate the laborers."{7} Grain is to rise in price, which he had refused in Oct. 1959. Levelling and transfers 一平二调 are to be repaid to the last, counties and communes going bankrupt if need be.{9} Building can only go step by step, perhaps half a century.{8} The Center bears blame for the communist wind 共产风, not the provinces alone;{2} some faults are two or three fingers, not one 一个指头;{3} the year''s disaster is in part man-made 人祸.{4} Chen Yun 陈云: 1961 will be no better than 1960; rest the people and the animals, and import grain.{5} His words: "eating first, construction second"; someone adds "the market second, construction third," and Mao sums it up so.{12} Peng Zhen attends.{10} Deng Xiaoping asks Chen Yun what poultry and eggs will earn abroad in 1961.{11}'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 30, 1960. [[w.deng-xiaoping-nianpu-1904]], III, 1608 (Dec. 30, 1960; afternoon; Deng at Mao''s meeting hearing Song Renqiong and Li Xuefeng on the Northeast and North China groups (footnote 1: then first secretaries of the Northeast and North China bureaus); Deng asks Chen Yun what poultry and eggs will earn abroad in 1961); [[w.peng-zhen-nianpu-1902]], IV, 88 (Dec. 30, 1960, afternoon, the Yinian Tang; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries, hearing Song Renqiong (the page''s note: first secretary of the Northeast Bureau) and Li Xuefeng (first secretary of the North China Bureau) on the Northeast and North China groups); [[w.chen-yun-nianpu-xiuding]], III, 61–62 (afternoon: Chen Yun at Mao''s meeting in Zhongnanhai hearing the Northeast and North China groups; on Mao''s word to live the rich days as poor ones, Chen Yun: next year no better than this; three things: be ready in mind and work; men and beasts to rest this winter for the spring ploughing; import as much grain as can be had, "eating first, construction second"; Mao sums up: eating first, the market second, construction third); [[w.peng-zhen-nianpu-1902]], IV, 88; [[w.deng-xiaoping-nianpu-1904]], III, 1608; [[w.chen-yun-nianpu-xiuding]], III, 61–62. [[w.mao-zedong-zhuan]], V, ch. 67 n.5; [[w.yang-jisheng-mubei]], II, 806–807 n.62 (Mao''s insertion of Dec. 30 at the Central Work Conference''s report meeting: it was the Center''s own thinking that was confused, with the Zhengzhou and Shanghai papers against the winds and the great drives for steel, county and commune industry, transport and culture raising them again; the "man-made disaster" 人禍 is not the enemy''s but our own; this year''s levelling is worse than 1958''s, a whole year, not four or five months; industry above the county has drawn 50 million laborers, 24 million in 1957, 44 million in 1958, 6 million more in 1959–60, 26 million over 1957); [[w.jian-zhou-enlai]], 457 (the work conference, Dec. 30: Mao endorses Chen Yun''s proposal to import grain and gives Zhou and Chen the details). Made public: 2013; [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Mao Zedong 毛泽东, interjections at the report meeting of the Central Work Conference 中央工作会议汇报会, Dec. 30, 1960 (record 插话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.5); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage; The chairman''s comments during reports by leaders of various central bureaus, December 30, 1960 (cited by [[w.jian-zhou-enlai]], 457 n.65a); [[w.jin-chongji-chen-yun-zhuan]], 1224, 1226 (cited by [[w.jian-zhou-enlai]], 457 n.65b); [[w.chen-yun-nianpu-1905]], III, 51–52 (cited by [[w.jian-zhou-enlai]], 457 n.65c). See [[cal.1960-12-27.china-leadership]]. Names: Mao Zedong, Song Renqiong, Li Xuefeng, Chen Yun, Peng Zhen, Deng Xiaoping.'
+    c: 'The Yinian Tang. Song Renqiong and Li Xuefeng report the Northeast and North China groups.{1} Mao 毛泽东 hears the third report of the Central Work Conference''s 中央工作会议 groups on the villages.{6} Mao: raise the grain purchase price only, not the sale price, a gap of a billion yuan a year, to end the unequal exchange with the peasants; repayment for what was levelled and transferred, in kind, "even to bankruptcy": "Marxists must never expropriate the laborers."{7} Grain is to rise in price, which he had refused in Oct. 1959. Levelling and transfers 一平二调 are to be repaid to the last, counties and communes going bankrupt if need be.{9} Building can only go step by step, perhaps half a century.{8} The Center bears blame for the communist wind 共产风, not the provinces alone;{2} some faults are two or three fingers, not one 一个指头;{3} the year''s disaster is in part man-made 人祸.{4} Chen Yun 陈云: 1961 will be no better than 1960; rest the people and the animals, and import grain.{5} His words: "eating first, construction second"; someone adds "the market second, construction third," and Mao sums it up so.{12} Peng Zhen attends.{10} Deng Xiaoping asks Chen Yun what poultry and eggs will earn abroad in 1961.{11} By Jian''s account, Mao tells Chen Yun he endorses his proposal to import grain, and leaves the details to Zhou Enlai and Chen.{13}'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 30, 1960. [[w.deng-xiaoping-nianpu-1904]], III, 1608 (Dec. 30, 1960; afternoon; Deng at Mao''s meeting hearing Song Renqiong and Li Xuefeng on the Northeast and North China groups (footnote 1: then first secretaries of the Northeast and North China bureaus); Deng asks Chen Yun what poultry and eggs will earn abroad in 1961); [[w.peng-zhen-nianpu-1902]], IV, 88 (Dec. 30, 1960, afternoon, the Yinian Tang; Peng Zhen at Mao''s meeting of the Standing Committee and the regional bureaus'' first and second secretaries, hearing Song Renqiong (the page''s note: first secretary of the Northeast Bureau) and Li Xuefeng (first secretary of the North China Bureau) on the Northeast and North China groups); [[w.chen-yun-nianpu-xiuding]], III, 61–62 (afternoon: Chen Yun at Mao''s meeting in Zhongnanhai hearing the Northeast and North China groups; on Mao''s word to live the rich days as poor ones, Chen Yun: next year no better than this; three things: be ready in mind and work; men and beasts to rest this winter for the spring ploughing; import as much grain as can be had, "eating first, construction second"; Mao sums up: eating first, the market second, construction third); [[w.peng-zhen-nianpu-1902]], IV, 88; [[w.deng-xiaoping-nianpu-1904]], III, 1608; [[w.chen-yun-nianpu-xiuding]], III, 61–62; [[w.jian-zhou-enlai]], 457. [[w.mao-zedong-zhuan]], V, ch. 67 n.5; [[w.yang-jisheng-mubei]], II, 806–807 n.62 (Mao''s insertion of Dec. 30 at the Central Work Conference''s report meeting: it was the Center''s own thinking that was confused, with the Zhengzhou and Shanghai papers against the winds and the great drives for steel, county and commune industry, transport and culture raising them again; the "man-made disaster" 人禍 is not the enemy''s but our own; this year''s levelling is worse than 1958''s, a whole year, not four or five months; industry above the county has drawn 50 million laborers, 24 million in 1957, 44 million in 1958, 6 million more in 1959–60, 26 million over 1957); [[w.jian-zhou-enlai]], 457 (the work conference, Dec. 30: Mao endorses Chen Yun''s proposal to import grain and gives Zhou and Chen the details). Made public: 2013; [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: Mao Zedong 毛泽东, interjections at the report meeting of the Central Work Conference 中央工作会议汇报会, Dec. 30, 1960 (record 插话记录) (cited by [[w.mao-zedong-zhuan]], V, ch. 67 n.5); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage; The chairman''s comments during reports by leaders of various central bureaus, December 30, 1960 (cited by [[w.jian-zhou-enlai]], 457 n.65a); [[w.jin-chongji-chen-yun-zhuan]], 1224, 1226 (cited by [[w.jian-zhou-enlai]], 457 n.65b); [[w.chen-yun-nianpu-1905]], III, 51–52 (cited by [[w.jian-zhou-enlai]], 457 n.65c). See [[cal.1960-12-27.china-leadership]]. Names: Mao Zedong, Song Renqiong, Li Xuefeng, Chen Yun, Peng Zhen, Deng Xiaoping, Zhou Enlai.'
     src:
-      c: 4ffc5ddd
+      c: 0b69604f
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Dec. 30, 1960: 1, 7'
         - 'w.mao-zedong-zhuan V, ch. 67: 6, 9, 8, 2, 3, 4, 5'
         - 'via w.mao-zedong-zhuan V, ch.67 n.5: 6, 9, 8, 2, 3, 4, 5'
         - 'w.yang-jisheng-mubei II, 806–807 n.62: 2, 4'
         - 'via w.yang-jisheng-mubei II, 807 n.62: 2, 4'
-        - 'w.jian-zhou-enlai 457: ?'
         - 'via x.1960-12-30.mao-comments-reports-central-bureaus: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 88: 10'
         - 'w.deng-xiaoping-nianpu-1904 III, 1608: 11'
         - 'w.chen-yun-nianpu-xiuding III, 61–62: 12'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:li-xuefeng, name:song-renqiong, name:chen-yun, name:peng-zhen, name:deng-xiaoping]
+        - 'w.jian-zhou-enlai 457: 13'
+    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:li-xuefeng, name:song-renqiong, name:chen-yun, name:peng-zhen, name:deng-xiaoping, name:zhou-enlai]
     aliases: [cal.1960-12-30.china-leadership-6]
     time_range:
       - 1960-12-30T04:00Z
@@ -5666,7 +5684,7 @@ entries:
     thread: china-famine
     also: [trade, farm, china-zhou]
     c: 'Zhou Enlai leaves Peking for Burma, Chen Yi and his wife, Luo Ruiqing and his wife with him.{1} Before boarding he agrees with Chen Yun and Ye Jizhuang on importing grain: 1.5 million tons. He reaches Wuhan that day.{2}'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 382 (Dec. 30, 1960); [[w.zhou-enlai-waijiao-huodong]], 298 (Dec. 30, 1960; 上午, 乘专机离开北京); [[w.chen-yi-nianpu]], 851 (Dec. 30, 1960, morning; Chen Yi leaves Peking with Zhou Enlai for Burma''s thirteenth independence anniversary, the exchange of the boundary treaty''s ratifications and a friendly visit); [[w.jian-zhou-enlai]], 457 (at the airport, learning of Mao''s decision, Zhou meets Chen Yun and Ye Jizhuang: 1.5 million tons to be imported at once); [[w.peng-zhen-nianpu-1902]], IV, 88 (Dec. 30, 1960, morning; Peng Zhen at the airport to see Zhou off with the friendship delegation to Burma); [[w.zhu-de-nianpu-xinbian]], III, 1790 (Dec. 30, 1960; Zhu De 朱德, with Dong Biwu 董必武, Chen Yun 陈云, Deng Xiaoping 邓小平 and others, at the airport to see off Zhou Enlai 周恩来 and his delegation to Burma); [[w.chen-yun-nianpu-xiuding]], III, 62 (Chen Yun with Zhu De and others at the airport to see Zhou Enlai''s friendship delegation off to Burma; there with Zhou and Ye Jizhuang settles the grain to be imported at 1.5 million tons). Made public: 1993. To check: [[w.chen-yun-nianpu-1905]], III, 55 (cited by [[w.jian-zhou-enlai]], 457 n.66a); [[w.bujinde-sinian]], 254 (Lei Renmin, "Recalling the Premier''s Care and Instruction of Foreign Trade Work") (cited by [[w.jian-zhou-enlai]], 457 n.66b). Names: Zhou Enlai, Chen Yi, Chen Yun, Luo Ruiqing, Ye Jizhuang.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 382 (Dec. 30, 1960); [[w.zhou-enlai-waijiao-huodong]], 298 (Dec. 30, 1960; 上午, 乘专机离开北京); [[w.chen-yi-nianpu]], 851 (Dec. 30, 1960, morning; Chen Yi leaves Peking with Zhou Enlai for Burma''s thirteenth independence anniversary, the exchange of the boundary treaty''s ratifications and a friendly visit); [[w.jian-zhou-enlai]], 457 (at the airport, learning of Mao''s decision, Zhou meets Chen Yun and Ye Jizhuang: 1.5 million tons to be imported at once); [[w.peng-zhen-nianpu-1902]], IV, 88 (Dec. 30, 1960, morning; Peng Zhen at the airport to see Zhou off with the friendship delegation to Burma); [[w.zhu-de-nianpu-xinbian]], III, 1790 (Dec. 30, 1960; Zhu De 朱德, with Dong Biwu 董必武, Chen Yun 陈云, Deng Xiaoping 邓小平 and others, at the airport to see off Zhou Enlai 周恩来 and his delegation to Burma); [[w.chen-yun-nianpu-xiuding]], III, 62 (Chen Yun with Zhu De and others at the airport to see Zhou Enlai''s friendship delegation off to Burma; there with Zhou and Ye Jizhuang settles the grain to be imported at 1.5 million tons). Made public: 1993. Check: the order; Jian has Mao endorse the import at the work conference first and Zhou, at the airport, learn of it ([[w.jian-zhou-enlai]], 457); the airport is the morning here and Mao''s report meeting the afternoon ([[cal.1960-12-30.china-leadership]]). To check: [[w.chen-yun-nianpu-1905]], III, 55 (cited by [[w.jian-zhou-enlai]], 457 n.66a); [[w.bujinde-sinian]], 254 (Lei Renmin, "Recalling the Premier''s Care and Instruction of Foreign Trade Work") (cited by [[w.jian-zhou-enlai]], 457 n.66b). Names: Zhou Enlai, Chen Yi, Chen Yun, Luo Ruiqing, Ye Jizhuang.'
     src:
       c: ae9de6e0
       rows:

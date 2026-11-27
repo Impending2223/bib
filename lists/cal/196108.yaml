@@ -1590,13 +1590,18 @@ entries:
     thread: china-mao-foreign
     also: [cuba, china-foreign]
     c: 'Morning. Mao, on a request of Aug. 3 from Liu Ningyi of the International Liaison Department, to Xu Yefu to arrange: he can see the Cuban major Sánchez, director of the artillery school, in Peking since July 31; if Sánchez can put off his return two or three days, on the 15th or 16th, the place to be told later.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 84–85 (Aug. 9, 1961). Made public: 2023. To check: Liu Ningyi''s request of Aug. 3, 1961 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 84 n.1). Names: Mao Zedong, Liu Ningyi, Xu Yefu. Check: whether the meeting was held. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVI, 84–85 (Aug. 9, 1961). The words: 九日早 (XVI, 84). Made public: 2023. To check: Liu Ningyi''s request of Aug. 3, 1961 (cited at [[w.jianguo-yilai-mao-zedong]], XVI, 84 n.1). Names: Mao Zedong, Liu Ningyi, Xu Yefu. Check: whether the meeting was held. Check: the first edition, [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996), may have printed it before 2023.'
     src:
       c: 7c422f04
       rows:
         - 'w.jianguo-yilai-mao-zedong XVI, 84–85: all'
         - 'via x.1961-08-03.liu-ningyi-request-for-mao-to-receive-major-sanchez: all'
     tags: [polity:prc, name:mao-zedong, polity:cuba, vis:only:prc, name:liu-ningyi, name:xu-yefu]
+    time_range:
+      - 1961-08-08T22:00Z
+      - 1961-08-09T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-09.china-leadership-3
     when: Aug. 9
     date: '1961-08-09'
@@ -2082,7 +2087,7 @@ entries:
     follows:
       - cal.1961-08-12.china-leadership-11
     c: Peking.{1} Zhou Enlai meets Phạm Văn Đồng and talks of the Laos question.{2}
-    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 12, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 201 (Aug. 12–21, 1961; Phạm Văn Đồng, after visiting Korea, the Soviet Union and other countries, continues his visit in China; Zhou meets him on the Laotian question); [[w.guan-vietnamese-communists-relations-with]], 200. Made public: 1993. Check: the place; the activities chronology (318) names none, and Zhou''s chronology (II, 427) has him back in Peking only on Aug. 13. Names: Zhou Enlai, Phạm Văn Đồng.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 12, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 201 (Aug. 12–21, 1961; Phạm Văn Đồng, after visiting Korea, the Soviet Union and other countries, continues his visit in China; Zhou meets him on the Laotian question); [[w.guan-vietnamese-communists-relations-with]], 200. Made public: 1993. Names: Zhou Enlai, Phạm Văn Đồng. Check: the place and the day; the activities chronology (318) gives Aug. 12 and no place; Zhou''s chronology (II, 426–27) has him leave for Beidaihe Aug. 6, at the National Defense Industry Commission and with Li Xiannian on Aug. 12, and back in Peking "the next day" (次日，返回北京); the Chen Yi chronology (885) has Phạm Văn Đồng met at the Peking airport the afternoon of Aug. 12; the activities chronology (319) next has Zhou with him at Diaoyutai, Building 10, Aug. 15, 11:30 a.m.'
     src:
       c: 66b1d4e4
       rows:
@@ -2276,8 +2281,13 @@ entries:
     thread: china-foreign
     also: [china-united-front]
     c: 'Late at night Zhou Enlai receives Cheng Siyuan, on Li Zongren''s return and related matters: America''s difficulties at home and abroad; Cheng to tell Li that China does not expect him back at once; if he wishes to send someone first to look, that is agreed; he hopes Li stays detached, holds to national integrity and need not hurry for near gain, being careful of his later years, when the people will forgive him. He asks of Kuomintang military and political men in Hong Kong and Hong Kong''s economy; Japanese militarism''s revival a hidden danger, Japan''s course worth notice.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 427 (Aug. 13, 1961). Made public: 1997. Names: Zhou Enlai, Cheng Siyuan, Li Zongren.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 427 (Aug. 13, 1961). The words: 深夜 (II, 427). Made public: 1997. Names: Zhou Enlai, Cheng Siyuan, Li Zongren.'
     tags: [polity:prc, polity:roc, name:zhou-enlai, vis:only:prc, name:cheng-siyuan, name:li-zongren]
+    time_range:
+      - 1961-08-13T14:00Z
+      - 1961-08-13T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-13.china-leadership-2
     when: Aug. 13
     date: '1961-08-13'
@@ -2285,8 +2295,10 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [latin-america, china-foreign]
+    follows:
+      - cal.1961-08-13.china-foreign
     c: Peking, the Great Hall of the People, Fujian Hall.{1} Zhou Enlai, with Dong Biwu, Vice Chairman, meets João Goulart, Vice President of Brazil.{2}
-    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 13, 1961; 晚6时); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 201–202 (Aug. 13–23, 1961; Goulart leads the Brazilian trade delegation on its visit; Mao, Liu, Dong Biwu, Soong Ching Ling and Zhou each receive him); [[w.chen-yi-nianpu]], 885 (Aug. 13, 1961; Chen Yi at the airport to welcome João Goulart, 2:25 p.m., and present when Dong Biwu meets him that afternoon); [[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 13, 1961, afternoon; Zhu De 朱德, with Zhou Enlai 周恩来, Chen Yi 陈毅, Li Xiannian 李先念 and others, attends Dong Biwu 董必武 in meeting Goulart 古拉特, Vice President of Brazil). See [[cal.1961-08-15.china-leadership]]. Names: Zhou Enlai, Dong Biwu, Goulart.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 13, 1961; 晚6时); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 201–202 (Aug. 13–23, 1961; Goulart leads the Brazilian trade delegation on its visit; Mao, Liu, Dong Biwu, Soong Ching Ling and Zhou each receive him); [[w.chen-yi-nianpu]], 885 (Aug. 13, 1961; Chen Yi at the airport to welcome João Goulart, 2:25 p.m., and present when Dong Biwu meets him that afternoon); [[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 13, 1961, afternoon; Zhu De 朱德, with Zhou Enlai 周恩来, Chen Yi 陈毅, Li Xiannian 李先念 and others, attends Dong Biwu 董必武 in meeting Goulart 古拉特, Vice President of Brazil). The order: after [[cal.1961-08-13.china-foreign]], [[w.chen-yi-nianpu]], 885 (下午2时25分 at the airport; then Dong Biwu meets Goulart that afternoon, Chen Yi present). See [[cal.1961-08-15.china-leadership]]. Names: Zhou Enlai, Dong Biwu, Goulart.'
     src:
       c: d1728d2c
       rows:
@@ -2435,6 +2447,17 @@ entries:
     c: 'Li Xiannian 李先念 passes to Wang Renzhong 王任重 and Tao Zhu 陶铸 two papers on grain from Chen Yun''s 陈云 inquiry in his home district, with a comment: worth reading; without strong measures on grain we shall not get through, and to rely on imports is very dangerous; the villages, the worst-stricken apart, are better than last year; town and country must both be minded, some districts lean too far to the villages, and the towns must cut their population heavily.'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 103–104. Made public: 2015. Names: Li Xiannian, Chen Yun, Tao Zhu, Wang Renzhong.'
     tags: [polity:prc, name:li-xiannian, name:chen-yun, name:tao-zhu, vis:only:prc, name:wang-renzhong]
+  - id: cal.1961-08-13.china-foreign
+    when: Aug. 13
+    date: '1961-08-13'
+    time: 1961-08-13T06:25Z
+    place: peking
+    thread: china-foreign
+    also: [latin-america]
+    c: Peking, the airport. Chen Yi 陈毅 welcomes João Goulart, Vice President of Brazil, who arrives to visit China.
+    n: '[[w.chen-yi-nianpu]], 885 (Aug. 13, 1961; 下午2时25分, at the airport to welcome 若奥·贝尔希奥·古拉特, Vice President of Brazil, to visit China). The words: 下午2时25分 (885). Names: Chen Yi, Goulart.'
+    tags: [polity:prc, polity:brazil, name:chen-yi, name:goulart-joao]
+    time_zone: Asia/Shanghai
   - id: cal.1961-08-14.berlin-and-vienna
     when: Aug. 14
     date: '1961-08-14'
@@ -2557,7 +2580,7 @@ entries:
     thread: china-famine
     also: [africa, china-zhou-foreign, china-foreign]
     c: 'Zhou Enlai, Aug. 14–19, receives Kwame Nkrumah, President of Ghana.{1} On the 14th with Liu Shaoqi: Sun Yat-sen found the thorough road only by working with the Communists; the Congolese people will win.{2} On the 15th he returns the call and tells of the communes and the grain shortage.{3} Aug. 16–18 with Nkrumah to Hangzhou and Shanghai; on the flight home he advises farming and light industry alongside heavy.{4}'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 427 (Aug. 14, 1961); [[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 14, 1961; 上午, 机场; 下午, 会谈, with Liu Shaoqi); [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 下午, Diaoyutai; returns the call, with Liu Shaoqi); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 537 (Aug. 14–18, 1961; Aug. 14 Liu, with Zhou Enlai, Dong Biwu and Zhu De, talks with Kwame Nkrumah, president of Ghana and head of government: his visit is a contribution to China-Ghana friendship; China fully supports the African peoples'' struggle and will help as it can, though its own economy and culture are backward, perhaps more in ten years; Aug. 15 he goes on talking, and explains the people''s communes and ownership: three levels of management committees elected by members, the team the production unit, the brigade the basic accounting unit, and two kinds of ownership, by the whole people and by the collective, with a small personal share; Aug. 18 he attends the signing of the joint communiqué and friendship treaty and signs the communiqué); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 14–19, 1961; Nkrumah, President and head of government, visits on invitation; Liu and Zhou hold talks with him); [[w.chen-yi-nianpu]], 885 (Aug. 14, 1961, afternoon; Chen Yi at Liu Shaoqi''s meeting with Nkrumah and at their talks); [[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 14, 1961; Zhu De 朱德, with Dong Biwu 董必武, Zhou Enlai 周恩来, Li Xiannian 李先念, Nie Rongzhen 聂荣臻 and others, attends Liu Shaoqi 刘少奇 in talks with Nkrumah 恩克鲁玛). Made public: 1993. The time is the first day''s. Names: Zhou Enlai, Nkrumah, Liu Shaoqi, Sun Yat-sen.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 427 (Aug. 14, 1961); [[w.zhou-enlai-waijiao-huodong]], 318 (Aug. 14, 1961; 上午, 机场; 下午, 会谈, with Liu Shaoqi); [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 15, 1961; 下午, Diaoyutai; returns the call, with Liu Shaoqi); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 537 (Aug. 14–18, 1961; Aug. 14 Liu, with Zhou Enlai, Dong Biwu and Zhu De, talks with Kwame Nkrumah, president of Ghana and head of government: his visit is a contribution to China-Ghana friendship; China fully supports the African peoples'' struggle and will help as it can, though its own economy and culture are backward, perhaps more in ten years; Aug. 15 he goes on talking, and explains the people''s communes and ownership: three levels of management committees elected by members, the team the production unit, the brigade the basic accounting unit, and two kinds of ownership, by the whole people and by the collective, with a small personal share; Aug. 18 he attends the signing of the joint communiqué and friendship treaty and signs the communiqué); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 14–19, 1961; Nkrumah, President and head of government, visits on invitation; Liu and Zhou hold talks with him); [[w.chen-yi-nianpu]], 885 (Aug. 14, 1961, afternoon; Chen Yi at Liu Shaoqi''s meeting with Nkrumah and at their talks); [[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 14, 1961; Zhu De 朱德, with Dong Biwu 董必武, Zhou Enlai 周恩来, Li Xiannian 李先念, Nie Rongzhen 聂荣臻 and others, attends Liu Shaoqi 刘少奇 in talks with Nkrumah 恩克鲁玛). Made public: 1993. The time is the first day''s. Check: the hour of the welcome at the airport: the activities chronology (318) has Zhou there 上午 (the range set), the Chen Yi chronology (885) has Chen Yi there 中午 ([[cal.1961-08-14.china-leadership-12]]); Zhu De''s nianpu (III, 1811) gives no hour. Names: Zhou Enlai, Nkrumah, Liu Shaoqi, Sun Yat-sen.'
     src:
       c: 15f0807e
       rows:
@@ -2713,7 +2736,7 @@ entries:
     thread: china-foreign
     also: [africa]
     c: Chen Yi 陈毅 at the airport to welcome Kwame Nkrumah, President of Ghana, and his party.
-    n: '[[w.chen-yi-nianpu]], 885; [[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 14, 1961; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来 and others, at the airport to welcome Nkrumah 恩克鲁玛, President of Ghana). The words: 中午 (885). Names: Chen Yi, Nkrumah.'
+    n: '[[w.chen-yi-nianpu]], 885; [[w.zhu-de-nianpu-xinbian]], III, 1811 (Aug. 14, 1961; Zhu De 朱德, with Liu Shaoqi 刘少奇, Dong Biwu 董必武, Zhou Enlai 周恩来 and others, at the airport to welcome Nkrumah 恩克鲁玛, President of Ghana). The words: 中午 (885). Check: the hour: the activities chronology (318) has Zhou at the airport 上午 ([[cal.1961-08-14.china-leadership-2]]); the Chen Yi chronology (885) has 中午 (the range set); Zhu De''s nianpu (III, 1811) gives no hour. Names: Chen Yi, Nkrumah.'
     tags: [polity:prc, polity:ghana, name:chen-yi, name:nkrumah-kwame]
     time_range:
       - 1961-08-14T04:00Z
@@ -3094,12 +3117,12 @@ entries:
     place: hangzhou
     thread: china-mao-foreign
     also: [africa, china-foreign]
-    c: 'Hangzhou, the Wang Villa.{1} Mao receives Kwame Nkrumah, President of Ghana, at dinner;{2} Zhou Enlai present;{3} at 11:30 p.m. he returns the call. Nkrumah: in visiting the socialist states he casts Ghana''s lot with socialism. Mao: China''s experience for reference only; do not copy, as China once did.{4}'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 16, 1961. [[w.zhou-enlai-nianpu-1949]], II, 428, Aug. 16, 1961 (Zhou present at Mao''s reception of Nkrumah). [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 下午5时30分, 杭州, 陪同毛泽东主席会见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 14–19, 1961; Mao receives Nkrumah, the day not given here). Made public: 1993. Names: Mao Zedong, Nkrumah, Zhou Enlai, Zhou Jianren.'
+    c: 'Hangzhou, the Wang Villa.{1} Mao receives Kwame Nkrumah, President of Ghana, at dinner;{2} Zhou Enlai present;{3} Zhou Jianren 周建人, Governor of Zhejiang, also present.{5} Mao: the oppressed peoples of Asia, Africa and Latin America to unite to overthrow imperialism.{6}'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 16, 1961. [[w.zhou-enlai-nianpu-1949]], II, 428, Aug. 16, 1961 (Zhou present at Mao''s reception of Nkrumah). [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 下午5时30分, 杭州, 陪同毛泽东主席会见并宴请); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 14–19, 1961; Mao receives Nkrumah, the day not given here). Mao''s return call at 11:30 that night (the Mao nianpu, V, Aug. 16, 1961: 当晚十一时半), with Nkrumah''s and Mao''s words, is entered on its own. Made public: 1993. Names: Mao Zedong, Nkrumah, Zhou Enlai, Zhou Jianren.'
     src:
-      c: d7612b81
+      c: dee949ae
       rows:
-        - 'w.zedong-mao-zedong-nianpu V, Aug. 16, 1961: 1, 2, 3, 4'
+        - 'w.zedong-mao-zedong-nianpu V, Aug. 16, 1961: 1, 2, 3, 5, 6'
         - 'w.zhou-enlai-nianpu-1949 II, 428, Aug. 16, 1961: 3'
         - 'w.zhou-enlai-waijiao-huodong 319: 1'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 202: 2'
@@ -3167,22 +3190,20 @@ entries:
   - id: cal.1961-08-16.china-leadership-6
     when: Aug. 16
     date: '1961-08-16'
+    time: 1961-08-16T15:30Z
     place: hangzhou
     thread: china-zhou-foreign
     also: [africa, china-foreign]
     follows:
       - cal.1961-08-16.china-leadership
-    c: Hangzhou, the Hangzhou Hotel. Zhou Enlai accompanies Mao Zedong in returning Nkrumah's call.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 晚上). See [[cal.1961-08-16.china-leadership]]. Names: Zhou Enlai, Mao Zedong, Nkrumah.'
+    c: 'Hangzhou, the Hangzhou Hotel. Zhou Enlai accompanies Mao Zedong in returning Nkrumah''s call.{1} Nkrumah: in visiting the socialist states he casts Ghana''s lot with socialism.{2} Mao: China''s experience for reference only; do not copy, as China once did.{3}'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 16, 1961; 晚上); [[w.zedong-mao-zedong-nianpu]], V, Aug. 16, 1961 (当晚十一时半, Mao to the Hangzhou Hotel to return the call, Zhou Enlai and others with him; the words of Nkrumah and Mao). The words: 当晚十一时半 (Mao nianpu, V, Aug. 16, 1961). See [[cal.1961-08-16.china-leadership]]. Names: Zhou Enlai, Mao Zedong, Nkrumah.'
     src:
-      c: bfd39913
+      c: 4f23f7e1
       rows:
-        - 'w.zhou-enlai-waijiao-huodong 319: all'
+        - 'w.zhou-enlai-waijiao-huodong 319: 1'
+        - 'w.zedong-mao-zedong-nianpu V, Aug. 16, 1961: 1, 2, 3'
     tags: [polity:prc, polity:ghana, name:zhou-enlai, name:mao-zedong, name:nkrumah-kwame]
-    time_range:
-      - 1961-08-16T11:00Z
-      - 1961-08-16T14:00Z
-    time_band: evening
     time_zone: Asia/Shanghai
   - id: cal.1961-08-16.china-leadership-7
     when: Aug. 16
@@ -3780,14 +3801,14 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [africa, china-foreign]
-    c: Zhou Enlai back in Peking;{1} visits Soong Ching-ling and goes with her to meet Nkrumah.{2}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 18, 1961); [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 18, 1961; 中午, 陪同恩克鲁玛总统从上海飞北京). Names: Zhou Enlai, Nkrumah, Song Qingling.'
+    c: Zhou Enlai back in Peking, with Nkrumah, from Shanghai at noon.{1}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 18, 1961); [[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 18, 1961; 中午, 陪同恩克鲁玛总统从上海飞北京). The visit to Soong Ching-ling after the return is entered on its own (the nianpu, II, 428); the activities chronology (319) gives the noon flight with Nkrumah. Names: Zhou Enlai, Nkrumah.'
     src:
-      c: 2c910a81
+      c: 57f0a88d
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 428: ?'
         - 'w.zhou-enlai-waijiao-huodong 319: 1'
-    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame, name:song-qingling]
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:nkrumah-kwame]
     time_range:
       - 1961-08-18T04:00Z
       - 1961-08-18T06:00Z
@@ -3799,8 +3820,10 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [africa, china-foreign]
+    follows:
+      - cal.1961-08-18.china-leadership-2
     c: Peking.{1} Zhou Enlai and Nkrumah sign the China–Ghana treaty of friendship.{2}
-    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 18, 1961; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 14–19, 1961; the two governments sign the treaty of friendship, and the agreements on economic and technical cooperation, on trade and payments, and on cultural cooperation); [[w.peng-zhen-nianpu-1902]], IV, 148 (Aug. 18, 1961, afternoon; Peng Zhen at the signing of the joint communiqué by Liu Shaoqi and President Kwame Nkrumah and of the treaty of friendship by Zhou and Nkrumah, and of the agreements on economic and technical cooperation, trade and payments, and cultural cooperation); [[w.friedman-shadow-cold-war]], 94 (the Chinese aid agreements with Mali and Ghana of 1961 specify that the credits not be drawn on until mid-1962); [[w.zhu-de-nianpu-xinbian]], III, 1812 (Aug. 18, 1961; Zhu De 朱德 at the signing of the joint communique of the Chairman of the People''s Republic and the President of Ghana and of the Treaty of Friendship between China and Ghana 《中华人民共和国和加纳共和国友好条约》). To check: [[w.larkin-china-and-africa-1949]], 54 (cited by [[w.friedman-shadow-cold-war]], 94 n.156). Names: Zhou Enlai, Nkrumah.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 319 (Aug. 18, 1961; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 202 (Aug. 14–19, 1961; the two governments sign the treaty of friendship, and the agreements on economic and technical cooperation, on trade and payments, and on cultural cooperation); [[w.peng-zhen-nianpu-1902]], IV, 148 (Aug. 18, 1961, afternoon; Peng Zhen at the signing of the joint communiqué by Liu Shaoqi and President Kwame Nkrumah and of the treaty of friendship by Zhou and Nkrumah, and of the agreements on economic and technical cooperation, trade and payments, and cultural cooperation); [[w.friedman-shadow-cold-war]], 94 (the Chinese aid agreements with Mali and Ghana of 1961 specify that the credits not be drawn on until mid-1962); [[w.zhu-de-nianpu-xinbian]], III, 1812 (Aug. 18, 1961; Zhu De 朱德 at the signing of the joint communique of the Chairman of the People''s Republic and the President of Ghana and of the Treaty of Friendship between China and Ghana 《中华人民共和国和加纳共和国友好条约》). The order: after [[cal.1961-08-18.china-leadership-2]], [[w.zhou-enlai-waijiao-huodong]], 319 (中午, the flight from Shanghai with Nkrumah; then 下午, the signing). To check: [[w.larkin-china-and-africa-1949]], 54 (cited by [[w.friedman-shadow-cold-war]], 94 n.156). Names: Zhou Enlai, Nkrumah.'
     src:
       c: 19faec32
       rows:
@@ -3986,6 +4009,17 @@ entries:
         witness: w.goodwin-remembering-america
         reads: the talk the night after the drive to Montevideo, "the next day" after the signing
         at: 196–97
+  - id: cal.1961-08-18.china-zhou-foreign
+    when: Aug. 18
+    date: '1961-08-18'
+    place: peking
+    thread: china-zhou-foreign
+    also: [africa, china-foreign]
+    follows:
+      - cal.1961-08-18.china-leadership-2
+    c: Peking. Zhou Enlai visits Soong Ching-ling 宋庆龄 and goes with her to meet Nkrumah.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 428 (Aug. 18, 1961; 返回北京, then 看望宋庆龄，并陪同她会见恩克鲁玛). Split from [[cal.1961-08-18.china-leadership-2]] under R25b and R17. The order: after [[cal.1961-08-18.china-leadership-2]], the visit in Peking after the flight back to it (the nianpu, II, 428: 返回北京, then 看望宋庆龄). See [[cal.1961-08-18.china-leadership-2]]. Names: Zhou Enlai, Song Qingling, Nkrumah.'
+    tags: [polity:prc, polity:ghana, name:zhou-enlai, name:song-qingling, name:nkrumah-kwame]
   - id: cal.1961-08-19.berlin-and-vienna
     when: Aug. 19–20
     date: '1961-08-19'
@@ -5887,52 +5921,39 @@ entries:
   - id: cal.1961-08-30.berlin-and-vienna
     when: Aug. 30
     date: '1961-08-30'
+    time: 1961-08-30T20:10Z
+    place: washington
     thread: berlin-and-vienna
     part_of: cal.1961-08-30.press-and-broadcasting
-    c: Clay named the President's personal representative in Berlin.{1} The Soviet Union announces it will resume nuclear testing.{2}
-    n: '[1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630), at 573. White House Statement on Soviet Resumption of Nuclear Weapons Tests, [1961 Pub. Papers 580](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638). [FRUS 1961–63, VII, doc. 58](https://history.state.gov/historicaldocuments/frus1961-63v07/d58). The first test: [[cal.1961-09-01.testing]]. [[w.reeves-president-kennedy]], 223; [[w.shesol-mutual-contempt]], 74 (Clay''s condition: never to work with Robert Kennedy); [[w.fursenko-khrushchevs-cold-war]], 385 (the end of the moratorium announced; the tests at Semipalatinsk two days later); [[w.sorensen-kennedy]], 594–95 (Clay''s return as the President''s emissary); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 159 (Clay effective Sept. 15; Lemnitzer and McNamara had recommended him as chief of mission); [[w.sorensen-kennedy]], 293 (Aug. 30, the Soviet Union announces it will end the moratorium on testing); [[w.macfarquhar-origins-of-the-cultural]], III, 122 (the Soviet announcement of Aug. 30). To check: [[w.khrushchev-khrushchev-remembers-1974]], 271–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 122 n.14a); [[w.documents-on-international-affairs]], 339–74, 455–65 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 122 n.14b); [[w.survey-of-international-affairs]], 246–63 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 122 n.14c). See [[cal.1961-08-19.berlin-and-vienna]]. Names: Clay.'
+    c: Clay named the President's personal representative in Berlin.{1}
+    n: '[1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630), at 573 (Aug. 30, 1961; the third announcement). The words: 4:10 o''clock (580, the note). [[w.reeves-president-kennedy]], 223; [[w.shesol-mutual-contempt]], 74 (Clay''s condition: never to work with Robert Kennedy); [[w.sorensen-kennedy]], 594–95 (Clay''s return as the President''s emissary); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 159 (Clay effective Sept. 15; Lemnitzer and McNamara had recommended him as chief of mission). The Soviet announcement (a TASS broadcast, 7 p.m. EDT) came after the news conference and is entered on its own; the conference''s fifteenth question asks of "the Soviet reaction to our latest proposals" (572–80) and shows no announcement known. See [[cal.1961-08-19.berlin-and-vienna]]. Names: Clay.'
     src:
-      c: 8008019c
+      c: a2c3f1d2
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630: 1, 2'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638: 1, 2'
-        - 'https://history.state.gov/historicaldocuments/frus1961-63v07/d58: 1, 2'
-        - 'w.reeves-president-kennedy 223: 1, 2'
-        - 'via w.reeves-president-kennedy 223 n.the-bastards: 2'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630: 1'
+        - 'w.reeves-president-kennedy 223: 1'
         - 'w.shesol-mutual-contempt 74: 1'
-        - 'w.fursenko-khrushchevs-cold-war 385: 2'
         - 'w.sorensen-kennedy 594–95: 1'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 159: 1'
-        - 'w.sorensen-kennedy 293: 2'
-        - 'w.macfarquhar-origins-of-the-cultural III, 122: ?'
-        - 'via w.macfarquhar-origins-of-the-cultural III, 122 n.14a: 2'
-        - 'via w.macfarquhar-origins-of-the-cultural III, 122 n.14b: 2'
-        - 'via w.macfarquhar-origins-of-the-cultural III, 122 n.14c: 2'
     tags: [name:kennedy-john-f, name:clay-lucius-d]
-    time_range:
-      - 1961-08-30T13:00Z
-      - 1961-08-30T21:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1961-08-30.testing
     when: Aug. 30
     date: '1961-08-30'
+    time: 1961-08-31T01:00Z
+    time_approx: true
     place: washington
     thread: testing
     follows:
-      - cal.1961-08-30.berlin-and-vienna
+      - cal.1961-08-30.testing-3
     c: 'White House statement that night on the Soviet resumption: a hazard to every human being; the pretext, "the very crisis which they themselves have created" over Germany and Berlin.'
-    n: 'White House Statement on Soviet Resumption of Nuclear Weapons Tests, [1961 Pub. Papers 580](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638) (Aug. 30, 1961). [[w.sorensen-kennedy]], 619–20. That night, after the Soviet announcement: [[w.sorensen-kennedy]], 619–20. See [[cal.1961-08-30.berlin-and-vienna]]. Names: Kennedy.'
+    n: 'White House Statement on Soviet Resumption of Nuclear Weapons Tests, [1961 Pub. Papers 580](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638) (Aug. 30, 1961). [[w.sorensen-kennedy]], 619–20. [FRUS 1961–63, VII, doc. 58](https://history.state.gov/historicaldocuments/frus1961-63v07/d58) (the White House released the statement at approximately 9 p.m.). That night, after the Soviet announcement: [[w.sorensen-kennedy]], 619–20. The order: after [[cal.1961-08-30.testing-3]], [[w.sorensen-kennedy]], 619–20 (Kennedy handed the news; then "On that same night of August 30, a White House statement"). See [[cal.1961-08-30.berlin-and-vienna]]. Names: Kennedy.'
     src:
       c: 7e80e9e3
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638: all'
         - 'w.sorensen-kennedy 619–20: all'
     tags: [name:kennedy-john-f]
-    time_range:
-      - 1961-08-30T22:00Z
-      - 1961-08-31T07:00Z
     time_zone: America/New_York
   - id: cal.1961-08-30.congress
     when: Aug. 30
@@ -6128,6 +6149,43 @@ entries:
       rows:
         - 'via x.1961-08-30.fo-159947-df-2231-397-a: ?'
     tags: [polity:uk, vis:only:uk, ok:fields-place]
+  - id: cal.1961-08-30.testing-2
+    when: Aug. 30
+    date: '1961-08-30'
+    time: 1961-08-30T23:00Z
+    place: moscow
+    thread: testing
+    also: [berlin-and-vienna, soviet-union]
+    c: The Soviet Union announces over TASS that it will end its moratorium and resume nuclear testing.
+    n: '[FRUS 1961–63, VII, doc. 58](https://history.state.gov/historicaldocuments/frus1961-63v07/d58) (editorial note: a TASS broadcast at 7 p.m. EDT, Aug. 30, 1961, that the Soviet Union is resuming atomic testing; the U.S. Government had prior knowledge through intelligence channels, and the White House statement followed at approximately 9 p.m.). White House Statement on Soviet Resumption of Nuclear Weapons Tests, [1961 Pub. Papers 580](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=638) (Aug. 30, 1961). [[w.reeves-president-kennedy]], 223 (Khrushchev "had just announced," by an AP bulletin handed Kennedy); [[w.fursenko-khrushchevs-cold-war]], 385 (the end of the moratorium announced; the tests at Semipalatinsk two days later); [[w.sorensen-kennedy]], 293 (Aug. 30, the Soviet Union announces it will end the moratorium on testing); [[w.macfarquhar-origins-of-the-cultural]], III, 122 (the Soviet announcement of Aug. 30). To check: [[w.khrushchev-khrushchev-remembers-1974]], 271–96 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 122 n.14a); [[w.documents-on-international-affairs]], 339–74, 455–65 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 122 n.14b); [[w.survey-of-international-affairs]], 246–63 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 122 n.14c). Split from [[cal.1961-08-30.berlin-and-vienna]] under R17: the broadcast, at 7 p.m., came after the news conference of 4:10 p.m. The words: 7 p.m. EDT (FRUS VII, doc. 58). Names: Khrushchev.'
+    tags: [polity:ussr]
+    time_zone: America/New_York
+  - id: cal.1961-08-30.testing-3
+    when: Aug. 30
+    date: '1961-08-30'
+    place: washington
+    thread: testing
+    also: [soviet-union]
+    follows:
+      - cal.1961-08-30.testing-2
+    c: 'The White House. Kennedy, with Robert Kennedy, is handed an AP bulletin: Khrushchev has announced the resumption of tests. Kennedy: "Fucked again." Robert Kennedy: he wants to "get off the planet." By Reeves''s account.'
+    n: '[[w.reeves-president-kennedy]], 223 ("Back at the White House that day"); [[w.sorensen-kennedy]], 619 (shortly after his return to the White House from the news conference "that afternoon," Kennedy is handed the news; "His first reaction is unprintable"). To check: [[w.halberstam-best-and-the-brightest]], 84 (cited by [[w.reeves-president-kennedy]], 223 n."Fucked again"). The order: after [[cal.1961-08-30.testing-2]], Reeves''s "had just announced" (223) and Sorensen''s "the Soviets had announced" (619). Names: Kennedy, Robert Kennedy. Check: the hour; Sorensen''s "that afternoon" against the TASS broadcast at 7 p.m. EDT, of which Washington had word beforehand through intelligence (FRUS VII, doc. 58).'
+    tags: [name:kennedy-john-f, name:kennedy-robert-f, ok:fields-time]
+  - id: cal.1961-08-30.testing-4
+    when: Aug. 30
+    date: '1961-08-30'
+    thread: testing
+    also: [soviet-union]
+    follows:
+      - cal.1961-08-30.testing-3
+    c: 'Kennedy, handed a CIA telex on seismic evidence of an above-ground thermonuclear explosion in Siberia: "The bastards. That fucking liar." By Reeves''s account.'
+    n: '[[w.reeves-president-kennedy]], 223 ("later that same day"). To check: Stephen Smith, interview by Reeves (cited by [[w.reeves-president-kennedy]], 223 n.the-bastards). The order: after [[cal.1961-08-30.testing-3]], Reeves''s "later that same day" (223). Names: Kennedy. Check: the day; the first explosion of the Soviet series was on Sept. 1.'
+    src:
+      c: 6fb261b2
+      rows:
+        - 'w.reeves-president-kennedy 223: all'
+        - 'via w.reeves-president-kennedy 223 n.the-bastards: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-08-31.rules
     when: Aug. 31
     date: '1961-08-31'

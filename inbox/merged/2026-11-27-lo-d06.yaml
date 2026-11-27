@@ -1,0 +1,1037 @@
+patch: 2026-11-27-lo-d06
+by: lo-d06 reader (Sonnet), leftovers batch lo-d06; audited (Opus), Nov. 27, 2026 (notes/leftovers/lo-d06-audit.md)
+ops:
+- add:
+    entry:
+      id: cal.1960-11-07.elections-1960-nixon
+      when: Nov. 7
+      date: '1960-11-07'
+      time: 1960-11-08T03:30Z
+      time_approx: true
+      time_zone: America/Chicago
+      place: chicago
+      thread: elections-1960-nixon
+      follows:
+      - cal.1960-11-07.elections-1960-6
+      c: 'Chicago. The election-eve telecast, on the air at 9:30 p.m. Central: Eisenhower speaks first from Washington, then Lodge from Boston, then Nixon, who asks all to vote with
+        "America first" in mind. Over at ten.'
+      n: 'Radio and Television Remarks on Election Eve, [1960–61 Pub. Papers 852](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=904) (Nov. 7, 1960).
+        [[w.nixon-six-crises]], 373–74 (by Nixon''s account: "scheduled to go on the air at 9:30 Central Time"; Eisenhower from Washington, then Lodge from Boston; Nixon''s closing;
+        "The program was over at ten"); [[w.white-making-of-the-president]], 312 (the "three-way half-hour hookup between Nixon, Eisenhower and Lodge," repeated over ABC and NBC from
+        11:30 to midnight; its hour a variant). The hour: 9:30 p.m. Central, the schedule (373). The order: after [[cal.1960-11-07.elections-1960-6]], Nixon at the studio before the
+        broadcast (373). See [[cal.1960-11-07.elections-1960]], which holds the day''s bibliography. Names: Nixon, Eisenhower, Lodge. Check: whether the President''s remarks (Pub. Papers
+        852) are his part of the half hour with Nixon and Lodge.'
+      tags:
+      - name:nixon-richard-m
+      - name:eisenhower-dwight-d
+      - name:lodge-henry-cabot
+      - city:chicago
+- add:
+    entry:
+      id: cal.1960-11-07.elections-1960-nixon-2
+      when: Nov. 7
+      date: '1960-11-07'
+      time: 1960-11-07T23:30Z
+      time_zone: America/New_York
+      thread: elections-1960-nixon
+      follows:
+      - cal.1960-11-07.elections-1960
+      c: After the telethon, Dewey on television for Nixon, fifteen minutes from 6:30 p.m. Eastern, at an estimated $35,000 to $40,000.
+      n: '[[w.white-making-of-the-president]], 312 ("Nixon was followed at 6:30 (EST) for fifteen minutes by Governor Thomas E. Dewey, at an estimated cost of $35,000 to $40,000"). The
+        hour: "6:30 (EST)" (312). See [[cal.1960-11-07.elections-1960]], which holds the day''s bibliography. Names: Dewey, Nixon.'
+      tags:
+      - name:dewey-thomas-e
+      - name:nixon-richard-m
+- variant:
+    id: cal.1960-11-07.elections-1960-nixon
+    field: time
+    value: 1960-11-08T04:00Z
+    witness: w.white-making-of-the-president
+    reads: the "three-way half-hour hookup between Nixon, Eisenhower and Lodge at eleven in the evening"
+    at: '312'
+- add:
+    entry:
+      id: cal.1960-11-07.elections-1960-kennedy-8
+      when: Nov. 7
+      date: '1960-11-07'
+      place: burlington
+      thread: elections-1960-kennedy
+      follows:
+      - cal.1960-11-07.elections-1960-kennedy-4
+      c: Burlington, Vt. Kennedy's stop between Hartford and Manchester, N.H.
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 249 (the Monday route: "Springfield, Hartford, Burlington in Vermont, Manchester in New Hampshire," then Boston); [[w.white-making-of-the-president]],
+        341 n.7 (the forty-eight-hour schedule: Hartford, Burlington, Manchester), 344 (the day "through Hartford through Burlington through Manchester through Boston"). [[w.communications-freedom-of-communications-part]]
+        prints no remarks at Burlington. The order: after [[cal.1960-11-07.elections-1960-kennedy-4]] and before [[cal.1960-11-07.elections-1960-5]], the route in both books. Check:
+        the hour and what Kennedy said. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - state:vt
+      - city:burlington
+- add:
+    entry:
+      id: cal.1960-11-07.elections-1960-kennedy-9
+      when: Nov. 7
+      date: '1960-11-07'
+      place: manchester
+      thread: elections-1960-kennedy
+      follows:
+      - cal.1960-11-07.elections-1960-5
+      time_range:
+      - 1960-11-08T00:00Z
+      - 1960-11-08T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      c: 'Manchester, N.H., a television program. Kennedy with Gov. Hodges of North Carolina; his three sisters read him the questions: "I thought tonight I might try to answer eight
+        or nine of the leading" questions.'
+      n: 'Television Program of Senator John F. Kennedy, Manchester, NH, [APP](https://www.presidency.ucsb.edu/documents/television-program-senator-john-f-kennedy-manchester-nh) (Nov.
+        7, 1960). [[w.communications-freedom-of-communications-part]], 941–50 (Hodges thanked "for being with us tonight in New Hampshire," 941; "I thought tonight I might try to answer
+        eight or nine"; his three sisters "with me tonight" to read the questions, 942). The hour: "tonight" (941). The order: after [[cal.1960-11-07.elections-1960-5]], the printed
+        order alone ([[w.communications-freedom-of-communications-part]], 938–41). See [[cal.1960-11-07.elections-1960-5]], which holds the day''s bibliography. Names: Kennedy, Hodges.'
+      tags:
+      - name:kennedy-john-f
+      - name:hodges-luther-h
+      - state:nh
+- add:
+    entry:
+      id: cal.1960-11-07.elections-1960-kennedy-10
+      when: Nov. 7
+      date: '1960-11-07'
+      place: boston
+      thread: elections-1960-kennedy
+      follows:
+      - cal.1960-11-07.elections-1960-kennedy-9
+      time_range:
+      - 1960-11-08T00:00Z
+      - 1960-11-08T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      c: 'Boston, the Boston Garden. Kennedy with Pat Lynch, McCormack, Joe Ward and the State ticket, his sisters Patricia Lawford and Eunice Shriver and Teddy''s wife: "I am delighted
+        to be back home in Boston"; he asks help "tonight." Not a committee, not a protege: "a Democratic candidate."'
+      n: 'Speech of Senator John F. Kennedy, Boston Garden, Boston, MA, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-boston-garden-boston-ma) (Nov. 7,
+        1960). [[w.communications-freedom-of-communications-part]], 950–53 (950: "my two sisters and sister-in-law," Patricia Lawford, Eunice Shriver and "The wife of my brother, Teddy");
+        [[w.white-making-of-the-president]], 342–44 (Boston "late on the eve of election"; the procession behind schedule for Faneuil Hall at eleven; the Garden, then "he proceeded to
+        Faneuil Hall"); [[w.obrien-no-final-victories]], 94 (the drive from the airport through the crowd; "the night before the election"). The hour: "tonight" ([[w.communications-freedom-of-communications-part]],
+        950); the Garden before Faneuil Hall at eleven (White, 343–44). The order: after [[cal.1960-11-07.elections-1960-kennedy-9]], the printed order alone ([[w.communications-freedom-of-communications-part]],
+        941–50); before [[cal.1960-11-07.elections-1960-kennedy-7]], White, 343–44. See [[cal.1960-11-07.elections-1960-5]], which holds the day''s bibliography. Names: Kennedy, McCormack,
+        Eunice Shriver.'
+      tags:
+      - name:kennedy-john-f
+      - name:mccormack-john-w
+      - name:shriver-eunice-kennedy
+      - state:ma
+      - city:boston
+- add:
+    entry:
+      id: cal.1960-11-09.elections-1960-chicago
+      when: Nov. 9
+      date: '1960-11-09'
+      time: 1960-11-09T08:00Z
+      time_approx: true
+      time_zone: America/New_York
+      place:
+      - chicago
+      - hyannis-port
+      thread: elections-1960-chicago
+      c: 'Chicago to Hyannis Port, after midnight. Daley to O''Donnell, at three in the morning by O''Donnell''s account: "We''re trying to hold back our returns. Every time we announce
+        two hundred more votes for Kennedy in Chicago, they come up out of nowhere downstate with another three hundred votes for Nixon."'
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 252 ("At three o''clock in the morning" the outcome rests on four States; "Mayor Daley telephoned me from Chicago"; O''Donnell''s and
+        Powers''s account); [[w.cohen-american-pharaoh]], 265 (Daley "later called" O''Donnell). The hour: "three o''clock in the morning" (252), at Hyannis Port, on O''Donnell''s clock:
+        Nov. 9. See [[cal.1960-11-08.elections-1960-chicago]]. Names: Daley, O''Donnell.'
+      tags:
+      - state:il
+      - city:chicago
+      - name:daley-richard-j
+      - name:odonnell-kenneth-p
+- add:
+    entry:
+      id: cal.1960-12-01.transition-and-staff-cabinet-5
+      when: Dec. 1
+      date: '1960-12-01'
+      time_range:
+      - 1960-12-01T11:00Z
+      - 1960-12-01T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+      thread: transition-and-staff-cabinet
+      c: Kennedy names Williams Assistant Secretary of State for African Affairs, that morning.
+      n: 'The hearing: *Nominations of Murat W. Williams, George W. Ball, Roger W. Jones, and G. Mennen Williams: Hearing Before the S. Comm. on Foreign Relations*, 87th Cong. (1961)
+        ([online](https://www.govinfo.gov/app/details/CHRG-87shrg64718)), 2 (Williams, Jan. 24). [[w.schlesinger-thousand-days-1965]], 129–30 (Kennedy to Schlesinger, whom he saw in
+        Washington on Dec. 1: "He had announced Williams''s appointment as Assistant Secretary of State for Africa that morning"; Williams passed over for Health, Education, and Welfare);
+        [[w.wofford-of-kennedys-and-kings]], 85 (Williams "picked and announced as Assistant Secretary of State for Africa even before Rusk was chosen"; passed over for HEW; not the
+        day). The hour: "that morning" (130). See [[cal.1960-12-01.transition-and-staff]], which holds the day''s bibliography. Names: Kennedy, Williams.'
+      tags:
+      - name:kennedy-john-f
+      - name:williams-g-mennen
+- add:
+    entry:
+      id: cal.1961-01-09.transition-and-staff-2
+      when: Jan. 9
+      date: '1961-01-09'
+      time: 1961-01-09T19:20Z
+      time_approx: true
+      time_zone: America/New_York
+      place: cambridge-ma
+      thread: transition-and-staff
+      c: Cambridge, Schlesinger's house. Bundy settles his post as Special Assistant for National Security Affairs; Chayes takes the Legal Adviser's; Wiesner on science adviser; the
+        tax task force reports. Seaborg offered the AEC by telephone. Schlesinger to the White House, unannounced till Bowles is confirmed. Kennedy is at the house from about 2:20 to
+        shortly after 5, about 300 people in the cold outside; after Schlesinger, 2:30 to 3:30, Surrey's tax task force, Chayes, Bundy, Stratton and Wiesner see him.
+      n: '[[w.schlesinger-thousand-days-1965]], 162 ("After luncheon he set up headquarters in my house on Irving Street"; Bundy to complete the arrangements for Special Assistant for
+        National Security Affairs; Chayes agrees to be Legal Adviser; Wiesner on Science Adviser; the tax task force reports; "In the middle of the afternoon" Bundy gets Seaborg on the
+        telephone and Kennedy offers him the AEC; Schlesinger asked to the White House, nothing said "until Chester Bowles is confirmed"); [[w.schlesinger-journals]], 102 (109 Irving
+        Street, "in the afternoon": JFK''s "arrival at about 2:20 and his departure shortly after 5," about 300 people; with Schlesinger "from about 2:30 to 3:30," then the tax task
+        force under Surrey, Chayes, Bundy, Stratton and Wiesner; Bundy''s idea of Seaborg for the AEC, telephoned from the house); [[w.odonnell-johnny-we-hardly-knew]], 274 (the meeting
+        with Bundy and Wiesner; Schlesinger signed, "We''ll keep your appointment quiet until after the Senate confirms Chester Bowles"). The hour: arrival "about 2:20" (Journals, 102).
+        The order: after [[cal.1961-01-09.transition-and-staff]], [[w.schlesinger-thousand-days-1965]], 162 ("After luncheon"). See [[cal.1961-01-09.transition-and-staff]], which holds
+        the day''s bibliography. Names: Kennedy, Bundy, Chayes, Wiesner, Seaborg, Schlesinger, Bowles, Surrey.'
+      tags:
+      - name:kennedy-john-f
+      - name:bundy-mcgeorge
+      - name:chayes-abram
+      - name:wiesner-jerome-b
+      - name:seaborg-glenn-t
+      - name:schlesinger-arthur-m-jr
+      - name:bowles-chester
+      - name:surrey-stanley-s
+      - state:ma
+      follows:
+      - cal.1961-01-09.transition-and-staff
+- add:
+    entry:
+      id: cal.1961-02-17.china-center
+      when: Feb. 17
+      date: '1961-02-17'
+      place: peking
+      thread: china-center
+      follows:
+      - cal.1961-02-17.china-leadership-5
+      time_range:
+      - 1961-02-17T14:00Z
+      - 1961-02-17T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      c: Peking 北京. Peng Zhen 彭真 late at night to Liu Shaoqi's 刘少奇, into the next morning.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 104. The words: 深夜至次日凌晨 (IV, 104). The time is the first part of the night. See [[cal.1961-02-17.china-leadership-5]]. Made public: 2012. Names:
+        Peng Zhen, Liu Shaoqi.'
+      tags:
+      - name:peng-zhen
+      - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1961-02-26.china-leadership-8
+      when: Feb. 26
+      date: '1961-02-26'
+      place: chengdu
+      thread: china-leadership
+      time_range:
+      - 1961-02-26T04:00Z
+      - 1961-02-26T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      c: 'Chengdu 成都. Yang Shangkun 杨尚昆 with Li Bozhao 李伯钊 to the Qingyang Gong 青羊宫 and the Erxian''an 二仙庵, in the afternoon: she had not been.'
+      n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 26, 1961). The words: 下午同伯钊一起去青羊宫、二仙庵游，因她未去过 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-02-23.china-leadership-3]].
+        Names: Yang Shangkun, Li Bozhao.'
+      tags:
+      - name:yang-shangkun
+      - name:li-bozhao
+- edit:
+    id: cal.1960-11-01.elections-1960-kennedy-6
+    base: 0131394e
+    set:
+      n: 'Speech of Senator John F. Kennedy, East Los Angeles College Stadium, Los Angeles, CA, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-east-los-angeles-college-stadium-los-angeles-ca)
+        (Nov. 1, 1960). [[w.communications-freedom-of-communications-part]], 850–53. The hour: "tonight" ([[w.communications-freedom-of-communications-part]], 850). Names: Kennedy, Stevenson,
+        Engle, Truman, Brown.'
+      time_range:
+      - 1960-11-02T03:00Z
+      - 1960-11-02T06:00Z
+      time_band: evening
+      time_zone: America/Los_Angeles
+- edit:
+    id: cal.1960-11-03.elections-1960-kennedy-2
+    base: 5c970d33
+    set:
+      n: 'Remarks of Senator John F. Kennedy, Westward Ho Hotel Democratic Breakfast, Phoenix, AZ, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-westward-ho-hotel-democratic-breakfast-phoenix-az)
+        (Nov. 3, 1960). [[w.communications-freedom-of-communications-part]], 867–68. The hour: Kennedy "delighted to be here at 3 o''clock in the morning or at 9 o''clock in the morning,"
+        the breakfast the second ([[w.communications-freedom-of-communications-part]], 867). Names: Kennedy, Goldwater, Rockefeller, Udall.'
+      time: 1960-11-03T16:00Z
+      time_approx: true
+      time_zone: America/Phoenix
+- edit:
+    id: cal.1960-11-03.elections-1960-kennedy-3
+    base: 2547f0e8
+    set:
+      n: 'Remarks of Senator John F. Kennedy, Street Rally, Phoenix, AZ, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-street-rally-phoenix-az) (Nov.
+        3, 1960). [[w.communications-freedom-of-communications-part]], 868–71. The hour: "this morning" ([[w.communications-freedom-of-communications-part]], 868). Names: Kennedy, Nixon,
+        Udall, Hayden.'
+      time_range:
+      - 1960-11-03T13:00Z
+      - 1960-11-03T19:00Z
+      time_band: morning
+      time_zone: America/Phoenix
+- edit:
+    id: cal.1960-11-03.elections-1960-kennedy-6
+    base: 3456b3b7
+    set:
+      n: 'Remarks of Senator John F. Kennedy, Airport Rally, Amarillo, TX, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-airport-rally-amarillo-tx) (Nov.
+        3, 1960). [[w.communications-freedom-of-communications-part]], 875–78 (Johnson''s remarks, 875–76; Kennedy''s, 876–78). The hour: Johnson, "this afternoon" ([[w.communications-freedom-of-communications-part]],
+        875). Names: Kennedy, Johnson, Yarborough, Anderson, Edmondson, Nixon, Rogers, Ikard.'
+      time_range:
+      - 1960-11-03T18:00Z
+      - 1960-11-04T00:00Z
+      time_band: afternoon
+      time_zone: America/Chicago
+- edit:
+    id: cal.1960-11-03.elections-1960-kennedy-8
+    base: a4b04102
+    set:
+      n: 'Excerpts of Remarks by Senator John F. Kennedy, Oklahoma City, OK, Redding Shopping Center, [APP](https://www.presidency.ucsb.edu/documents/excerpts-remarks-senator-john-f-kennedy-oklahoma-city-ok-redding-shopping-center)
+        (Nov. 3, 1960). [[w.communications-freedom-of-communications-part]], 881–83. The hour: "tonight" ([[w.communications-freedom-of-communications-part]], 882). Names: Kennedy, Nixon.'
+      time_range:
+      - 1960-11-04T01:00Z
+      - 1960-11-04T04:00Z
+      time_band: evening
+      time_zone: America/Chicago
+- edit:
+    id: cal.1960-11-03.elections-1960-kennedy-9
+    base: 0fc41c63
+    set:
+      n: 'Speech of Senator John F. Kennedy, Municipal Auditorium, Oklahoma City, OK, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-municipal-auditorium-oklahoma-city-ok)
+        (Nov. 3, 1960). [[w.communications-freedom-of-communications-part]], 883–87. The order: after [[cal.1960-11-03.elections-1960-kennedy-8]], the printed order alone ([[w.communications-freedom-of-communications-part]],
+        881–83). The hour: "tonight" ([[w.communications-freedom-of-communications-part]], 886–87). Names: Kennedy, Edmondson, Kerr, Nixon, Jarman.'
+      time_range:
+      - 1960-11-04T01:00Z
+      - 1960-11-04T04:00Z
+      time_band: evening
+      time_zone: America/Chicago
+- edit:
+    id: cal.1960-11-05.elections-1960-kennedy-6
+    base: 425a8038
+    set:
+      n: 'Remarks of Senator John F. Kennedy, Wantagh and Sunrise Avenues, Nassau County, NY, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-wantagh-and-sunrise-avenues-nassau-county-ny)
+        (Nov. 5, 1960). [[w.communications-freedom-of-communications-part]], 905. The hour: "a Saturday afternoon" ([[w.communications-freedom-of-communications-part]], 905). Names:
+        Kennedy.'
+      time_range:
+      - 1960-11-05T17:00Z
+      - 1960-11-05T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+- edit:
+    id: cal.1960-11-05.elections-1960-kennedy
+    base: 1e7cac1e
+    kind: reword
+    set:
+      c: New York, Saturday.{1} Kennedy's motorcade lost, by Goodwin's account, driving round the Bronx all afternoon looking for crowds.{2} Kennedy, sure of New York and wanting to
+        be in California, blames DeSapio, Prendergast, O'Donnell and the driver.{3}
+      src:
+        c: 5ea5f79f
+        rows:
+        - 'w.kallina-kennedy-v-nixon 159: 1, 2, 3'
+        - 'w.goodwin-remembering-america 127–29: 2'
+- check:
+    id: cal.1960-11-05.elections-1960-kennedy
+    text: 'Check: the afternoon; Goodwin has O''Donnell tell him at the Biltmore, near 6 p.m., "we spent the whole afternoon riding around the Bronx" ([[w.goodwin-remembering-america]],
+      127–28); [[w.communications-freedom-of-communications-part]] has the Bronx stops before the Queens luncheon (899–902), a Queens rally at "2:15 in the afternoon" (904) and Nassau
+      County "on a Saturday afternoon" (905); O''Donnell has the Long Island suburbs last before the Biltmore ([[w.odonnell-johnny-we-hardly-knew]], 246).'
+- variant:
+    id: cal.1960-11-05.elections-1960-kennedy
+    'on': Kennedy's motorcade lost, by Goodwin's account, driving round the Bronx all afternoon looking for crowds.
+    witness: w.communications-freedom-of-communications-part
+    reads: Kennedy in Queens at "2:15 in the afternoon" and in Nassau County "on a Saturday afternoon"
+    at: 904–05
+- edit:
+    id: cal.1960-11-05.elections-1960-2
+    base: 5d0d6745
+    set:
+      c: 'New York, midnight, outside the Coliseum, in the rain. Kennedy''s turn on "Nixon Day in New York," at Stevenson''s suggestion: the elephants in the circus, each with the tail
+        of the one before;{1} "Dick grabbed that tail in 1952 and 1956"; Nixon stands where McKinley, Taft, Harding, Coolidge, Landon and Dewey stood.{2}'
+      n: '[[w.white-making-of-the-president]], 329 (heard by White, "at midnight in New York on November 5th to a street-corner audience in the rain"); [[w.communications-freedom-of-communications-part]],
+        908–09 (outside the Coliseum, New York, Nov. 5, in rain, with Johnson, Mrs. Johnson and their daughters: the circus elephants, "Dick grabbed that tail in 1952 and 1956"; "Dick
+        Nixon stands where McKinley stood and Taft," Harding, Coolidge, Landon, Dewey; "I understand that Tom Dewey has just joined Dick Nixon out on the coast"; Waterbury "at 1 in the
+        morning" to come; not midnight, "Nixon Day" or Stevenson''s suggestion). The place: the words White quotes, the elephants, "Dick grabbed that tail in 1952 and 1956," and "I stand
+        tonight where Woodrow Wilson stood," are those of the remarks outside the Coliseum ([[w.communications-freedom-of-communications-part]], 908–09), not of the 90th Street rally,
+        whose elephants run otherwise (906–07). See [[cal.1960-10-31.elections-1960]]. Names: Kennedy, Stevenson, Nixon. Check: the hour; White has Kennedy back in New England, at the
+        Bridgeport airport, at "12:30 in the morning" of Nov. 6 ([[w.white-making-of-the-president]], 338), and Goodwin the Coliseum speech some two hours after 6 p.m. ([[w.goodwin-remembering-america]],
+        127–29).'
+      src:
+        c: cd7b07e5
+        rows:
+        - 'w.white-making-of-the-president 329: 1, 2'
+        - 'w.communications-freedom-of-communications-part 908–09: 2'
+    kind: correct
+    settles:
+    - 'Check: the place'
+- add-words:
+    id: cal.1960-11-05.elections-1960-2
+    after: end
+    words: Johnson, Mrs. Johnson and their daughters with him.
+    item: '[[w.communications-freedom-of-communications-part]], 908'
+- names:
+    id: cal.1960-11-05.elections-1960-2
+    add:
+    - Johnson
+    tags:
+    - name:johnson-lyndon-b
+- follows:
+    id: cal.1960-11-05.elections-1960-2
+    add:
+    - cal.1960-11-05.elections-1960-kennedy-11
+    basis: '[[w.white-making-of-the-president]], 329 ("at midnight"), against the Coliseum speech some two hours after 6 p.m. ([[w.goodwin-remembering-america]], 127–29)'
+- follows:
+    id: cal.1960-11-05.elections-1960-kennedy-8
+    add:
+    - cal.1960-11-05.elections-1960-2
+    - cal.1960-11-05.elections-1960-kennedy-9
+    basis: '[[w.communications-freedom-of-communications-part]], 906–07 (at 90th Street, "We will now move on to Waterbury, Conn.," the last stop in New York; the Waterbury rally put
+      "at 2 in the morning," against "at 1 in the morning" outside the Coliseum, 908)'
+- edit:
+    id: cal.1960-11-06.elections-1960-kennedy-5
+    base: 90566a54
+    set:
+      n: 'Remarks of Senator John F. Kennedy, Teaneck Armory, Teterboro, NJ[*], [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-teaneck-armory-teterboro-nj)
+        (Nov. 6, 1960). [[w.communications-freedom-of-communications-part]], 923–26. The hour: "tonight" ([[w.communications-freedom-of-communications-part]], 923). Names: Kennedy.'
+      time_range:
+      - 1960-11-07T00:00Z
+      - 1960-11-07T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+- edit:
+    id: cal.1960-11-06.elections-1960-kennedy-6
+    base: 9f4320f4
+    set:
+      n: 'Remarks of Senator John F. Kennedy, Journal Square, Jersey City, NJ, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-journal-square-jersey-city-nj)
+        (Nov. 6, 1960). [[w.communications-freedom-of-communications-part]], 926–27. The order: after [[cal.1960-11-06.elections-1960-kennedy-5]], the printed order alone ([[w.communications-freedom-of-communications-part]],
+        923–26). The hour: "tonight" ([[w.communications-freedom-of-communications-part]], 926). Names: Kennedy.'
+      time_range:
+      - 1960-11-07T00:00Z
+      - 1960-11-07T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+- edit:
+    id: cal.1960-11-06.elections-1960-kennedy-7
+    base: 2a958a5d
+    set:
+      n: 'Remarks of Senator John F. Kennedy, City Park, Lewiston, Maine, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-city-park-lewiston-maine) (Nov.
+        6, 1960). [[w.communications-freedom-of-communications-part]], 927–29. The day and the hour: after Sunday''s stops, the last Jersey City, Kennedy flies "at night to Lewiston,
+        Maine, arriving there at one-thirty," and "Later that night" on to Providence ([[w.odonnell-johnny-we-hardly-knew]], 248): 1:30 a.m., Monday, Nov. 7; the volume and APP head
+        the remarks Nov. 6. Names: Kennedy, Muskie, Nixon.'
+      time: 1960-11-07T06:30Z
+      time_approx: true
+      time_zone: America/New_York
+      when: Nov. 7
+      date: '1960-11-07'
+    kind: correct
+- variant:
+    id: cal.1960-11-06.elections-1960-kennedy-7
+    field: date
+    value: '1960-11-06'
+    witness: w.communications-freedom-of-communications-part
+    reads: the remarks headed "City Park, Lewiston, Maine, November 6, 1960"
+    at: '927'
+- follows:
+    id: cal.1960-11-06.elections-1960-kennedy-7
+    remove:
+    - cal.1960-11-06.elections-1960-kennedy-6
+    why: 'a link across two days is none: the entry is dated Nov. 7, 1:30 a.m., by [[w.odonnell-johnny-we-hardly-knew]], 248'
+- follows:
+    id: cal.1960-11-07.elections-1960-kennedy
+    add:
+    - cal.1960-11-06.elections-1960-kennedy-7
+    basis: '[[w.odonnell-johnny-we-hardly-knew]], 248 ("Later that night we flew to Providence"); [[w.communications-freedom-of-communications-part]], 927 ("as we leave now for Lewiston,
+      Maine, and Providence")'
+- edit:
+    id: cal.1960-11-07.elections-1960
+    base: 5efd2398
+    set:
+      c: 'Election eve.{1} Nixon''s four-hour telethon on ABC, from Detroit.{2} Asked of the sit-ins: their objective he supports; their methods a legal question, better met by the Attorney
+        General''s talks with the owners.{5}'
+      n: 'Remarks of Vice President Richard M. Nixon, National Telethon, ABC Network, Southfield, MI, [APP](https://www.presidency.ucsb.edu/documents/remarks-vice-president-richard-m-nixon-national-telethon-abc-network-southfield-mi)
+        (Nov. 7, 1960). [[w.kallina-kennedy-v-nixon]], 165; [[w.nixon-rn]], 221–22 (the one telethon, the day before the election; the telecast with Eisenhower and Lodge); [[w.white-making-of-the-president]],
+        311–13 (the telethon from Detroit, "On Monday afternoon," the costs as estimated; Dewey at 6:30; the half-hour of the three at eleven). [[w.nixon-six-crises]], 371–74 (the telethon
+        from WXYZ-TV, Detroit, "four-hour afternoon," Lodge from Boston by split screen; the election-eve telecast from Chicago, Eisenhower from Washington, Lodge from Boston). [[w.gifford-center-cannot-hold]],
+        161 (the sit-ins). The hours: the telethon, "a four-hour afternoon" show, ended "At six, Eastern Time" ([[w.nixon-six-crises]], 372). Split under R25b: Dewey''s quarter hour
+        at 6:30 Eastern is [[cal.1960-11-07.elections-1960-nixon-2]]; the Chicago telecast, with the President''s remarks, [[cal.1960-11-07.elections-1960-nixon]]; the scene at the studio,
+        [[cal.1960-11-07.elections-1960-6]], comes between. To check: *Washington Post*, Nov. 8, 1960 (cited by [[w.kallina-kennedy-v-nixon]], 165 n.22); The Speeches of Vice President
+        Richard M. Nixon, Presidential Campaign of 1960 (1961), 1193, U.S. Government Printing Office, printed (cited by [[w.gifford-center-cannot-hold]], 161 n.66). See [[cal.1960-08-17.elections-1960-2]].
+        Names: Nixon, Lodge.'
+      time_range:
+      - 1960-11-07T19:00Z
+      - 1960-11-07T23:00Z
+      time_zone: America/New_York
+      tags:
+      - name:nixon-richard-m
+      - name:lodge-henry-cabot
+      src:
+        c: 8b32e1a8
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/remarks-vice-president-richard-m-nixon-national-telethon-abc-network-southfield-mi: 2, 5'
+        - 'w.kallina-kennedy-v-nixon 165: 1, 2'
+        - 'via w.kallina-kennedy-v-nixon 165 n.22: 1, 2'
+        - 'w.gifford-center-cannot-hold 161: 5'
+        - 'via w.gifford-center-cannot-hold 161 n.66b: 5'
+        - 'w.nixon-rn 221–22: 1, 2'
+        - 'w.nixon-six-crises 371–74: 2'
+        - 'w.white-making-of-the-president 311–13: 2'
+    kind: correct
+    settles:
+    - 'Check: whether the President''s remarks are his part of the half hour'
+- add-words:
+    id: cal.1960-11-07.elections-1960
+    after: Nixon's four-hour telethon on ABC, from Detroit.
+    words: Lodge takes part from Boston, by split screen.
+    item: '[[w.nixon-six-crises]], 372'
+- edit:
+    id: cal.1960-11-07.elections-1960-6
+    base: f24dcfae
+    set:
+      n: '[[w.nixon-six-crises]], 373 (by Nixon''s account). The hours: Nixon reaches the studio "only an hour before" the telecast at 9:30 Central, and "only fifteen minutes remained
+        before air-time" when he comes back in from the rally ([[w.nixon-six-crises]], 373). See [[cal.1960-11-07.elections-1960]]. Names: Rockefeller, Nixon.'
+      time_range:
+      - 1960-11-08T02:30Z
+      - 1960-11-08T03:15Z
+      time_zone: America/Chicago
+- follows:
+    id: cal.1960-11-07.elections-1960-6
+    add:
+    - cal.1960-11-07.elections-1960
+    basis: '[[w.nixon-six-crises]], 372–73 (the telethon ends at six, Eastern; then the flight to Chicago and the studio)'
+- follows:
+    id: cal.1960-11-07.elections-1960-4
+    remove:
+    - cal.1960-11-07.elections-1960-6
+    why: 'the telecast comes between: [[w.nixon-six-crises]], 373–74'
+- follows:
+    id: cal.1960-11-07.elections-1960-4
+    add:
+    - cal.1960-11-07.elections-1960-nixon
+    basis: '[[w.nixon-six-crises]], 374 ("The program was over at ten and we left immediately for the airport")'
+- edit:
+    id: cal.1960-11-07.elections-1960-5
+    base: 56da3bb2
+    set:
+      c: 'Kennedy''s election eve.{1} Manchester, N.H., with his three sisters: "I believe that there is a publisher who has less regard for the truth than William Loeb but I can''t
+        think of his name."{2}'
+      n: 'Speech of Senator John F. Kennedy, Boston, MA, Faneuil Hall, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-boston-ma-faneuil-hall) (Nov. 7,
+        1960). Speech of Senator John F. Kennedy, Boston Garden, Boston, MA, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-boston-garden-boston-ma) (Nov.
+        7, 1960). Television Program of Senator John F. Kennedy, Manchester, NH, [APP](https://www.presidency.ucsb.edu/documents/television-program-senator-john-f-kennedy-manchester-nh)
+        (Nov. 7, 1960). Remarks of Senator John F. Kennedy, Park, Manchester, NH, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-park-manchester-nh) (Nov.
+        7, 1960). [[w.sorensen-kennedy]], 210; [[w.white-making-of-the-president]], 341–44 (the New England day; the Boston Garden; Faneuil Hall at eleven, Nielsen 17.7); [[w.communications-freedom-of-communications-part]],
+        938–41 (the remarks at the park, Manchester, N.H., with his three sisters Jean Smith, Eunice Shriver and Patricia Lawford; 939: "there is a publisher who has less regard for
+        the truth than William Loeb, but I can''t think of his name"); [[w.communications-freedom-of-communications-part]], 941–50 (the television program, Manchester, N.H., with Gov.
+        Hodges of North Carolina: his three sisters read him the questions; the report does not say nationwide); [[w.communications-freedom-of-communications-part]], 950–53 (the speech
+        at the Boston Garden); [[w.communications-freedom-of-communications-part]], 953–58 (Faneuil Hall, "Eleven o''clock, election eve": the program of Citizens for Kennedy-Johnson,
+        Johnson from Austin, Tex.; 956 Mrs. Kennedy at Hyannis Port: "The doctor wouldn''t let me leave Hyannis Port tonight"; 957, messages "recorded on film" shown; 958, "live from
+        Austin, Tex., Hyannis Port, and Faneuil Hall"); [[w.obrien-no-final-victories]], 94 (Boston the night before the election: hours from the airport to the hotel to the Garden through
+        the crowd, the car so dented it is scrapped; the Garden''s "explosion" of shouting; not Manchester or Faneuil Hall). Split under R25b and R17: the program''s own announcement
+        (APP, Faneuil Hall) gives the telecast from Faneuil Hall its own hour ("Eleven o''clock, election eve"); it is an entry of its own, the day''s last. The hour: the remarks are
+        of "the night before election" ([[w.communications-freedom-of-communications-part]], 938). Split under R25b and R17: Burlington, between Hartford and Manchester, is [[cal.1960-11-07.elections-1960-kennedy-8]];
+        the television program is [[cal.1960-11-07.elections-1960-kennedy-9]]; the Boston Garden, [[cal.1960-11-07.elections-1960-kennedy-10]]. See [[cal.1960-11-07.elections-1960]].
+        Names: Kennedy, Loeb.'
+      time_range:
+      - 1960-11-08T00:00Z
+      - 1960-11-08T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      src:
+        c: da8531c7
+        rows:
+        - 'w.sorensen-kennedy 210: 1, 2'
+        - 'w.white-making-of-the-president 341–44: 1'
+        - 'w.communications-freedom-of-communications-part 938–41: 2'
+        - 'https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-park-manchester-nh: 2'
+        - 'w.communications-freedom-of-communications-part 941–50: ?'
+        - 'w.obrien-no-final-victories 94: ?'
+      place: manchester
+      tags:
+      - name:kennedy-john-f
+      - name:loeb-henry
+      - state:nh
+    kind: correct
+- follows:
+    id: cal.1960-11-07.elections-1960-5
+    add:
+    - cal.1960-11-07.elections-1960-kennedy-8
+    basis: '[[w.odonnell-johnny-we-hardly-knew]], 249 (Hartford, Burlington, Manchester, Boston, in that order)'
+- follows:
+    id: cal.1960-11-07.elections-1960-5
+    remove:
+    - cal.1960-11-07.elections-1960-kennedy-4
+    why: '[[w.odonnell-johnny-we-hardly-knew]], 249: Burlington stands between Hartford and Manchester; the link now runs through [[cal.1960-11-07.elections-1960-kennedy-8]]'
+- follows:
+    id: cal.1960-11-07.elections-1960-kennedy-7
+    add:
+    - cal.1960-11-07.elections-1960-kennedy-10
+    basis: '[[w.white-making-of-the-president]], 343–44 (the Garden speech; "Then he proceeded to Faneuil Hall")'
+- follows:
+    id: cal.1960-11-07.elections-1960-kennedy-7
+    remove:
+    - cal.1960-11-07.elections-1960-5
+    why: '[[w.white-making-of-the-president]], 343–44 and [[w.odonnell-johnny-we-hardly-knew]], 249: the Boston Garden comes between Manchester and Faneuil Hall'
+- edit:
+    id: cal.1960-11-08.elections-1960-chicago
+    base: 992c68ef
+    set:
+      c: 'Chicago, election night.{1} Robert Kennedy''s calls to Daley, by White''s account: Daley says not to worry, he knows which of his precincts are out and which of theirs, and
+        it will be all right.{2}'
+      n: '[[w.cohen-american-pharaoh]], 265 (Daley to Robert Kennedy "around 1:00 a.m.," Cohen writes, naming White); [[w.white-making-of-the-president]], 23 (Robert Kennedy "took or
+        made" the calls, "calls to Dick Daley in Chicago," who said not to worry; no hour: the "about one a.m." on that page is Eisenhower''s wire); [[w.odonnell-johnny-we-hardly-knew]],
+        252 (Daley''s call to O''Donnell after three in the morning: "We''re trying to hold back our returns. Every time we announce two hundred more votes for Kennedy in Chicago, they
+        come up out of nowhere downstate with another three hundred votes for Nixon"). Turnout in Chicago 89.3 percent (Cohen, 264–65). The hour: none; White, whom Cohen cites, gives
+        the calls none (23), and the time field set from Cohen''s "around 1:00 a.m." is taken out, Cohen''s reading a variant. Split under R25b: Daley''s call to O''Donnell, three in
+        the morning of Nov. 9, is [[cal.1960-11-09.elections-1960-chicago]]. Names: Daley, Robert Kennedy. Check: the hour of Daley''s calls to Robert Kennedy; Cohen''s "around 1:00
+        a.m." is not on White''s page.'
+      src:
+        c: f55d1f94
+        rows:
+        - 'w.cohen-american-pharaoh 265: 1, 2'
+        - 'w.white-making-of-the-president 23: 2'
+      place:
+      - chicago
+      - hyannis-port
+      tags:
+      - state:il
+      - city:chicago
+      - name:daley-richard-j
+      - name:kennedy-robert-f
+    kind: correct
+    settles:
+    - 'To check: [[w.white-making-of-the-president]].'
+    unset:
+    - time
+    - time_approx
+- edit:
+    id: cal.1960-11-08.elections-1960-count-13
+    base: 212c287a
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 251 (O''Donnell''s and Powers''s account); [[w.obrien-no-final-victories]], 96 (Johnson calls; Kennedy breaks the tension: "Well, I see
+        you lost Ohio and I won Texas"; Kennedy''s retort, the other side of the call; not the house, the ranch, Texas safe, or Johnson''s words). The hour: Kennedy returns to Robert
+        Kennedy''s house "after ten o''clock," and the call follows ([[w.odonnell-johnny-we-hardly-knew]], 251). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Johnson,
+        Kennedy, Robert Kennedy, O''Donnell.'
+      time_range:
+      - 1960-11-09T03:00Z
+      - 1960-11-09T05:00Z
+      time_band: night
+      time_zone: America/New_York
+- edit:
+    id: cal.1960-11-08.elections-1960-count-16
+    base: '94416640'
+    set:
+      n: '[[w.obrien-no-final-victories]], 95. The hour: "during the afternoon" ([[w.obrien-no-final-victories]], 95). Names: Kennedy, Dungan, Napolitan.'
+      time_range:
+      - 1960-11-08T17:00Z
+      - 1960-11-08T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+- variant:
+    id: cal.1960-11-08.elections-1960-count-16
+    field: time
+    value: 1960-11-09T00:30Z
+    witness: w.odonnell-johnny-we-hardly-knew
+    reads: Kennedy "made his first appearance in Bobby's house ... around seven-thirty in the evening," the house filled with telephones and returns
+    at: '251'
+- edit:
+    id: cal.1960-11-05.china-leadership-4
+    base: 110622ae
+    set:
+      time_range:
+      - 1960-11-05T16:00Z
+      - 1960-11-05T19:00Z
+      time_band: evening
+      time_zone: Europe/Moscow
+- follows:
+    id: cal.1960-11-05.china-leadership-4
+    add:
+    - cal.1960-11-05.china-leadership-5
+    basis: '[[w.yang-shangkun-riji]], I, 587 (the evening talk with Shcherbakov, then "去大使馆," the meeting over, back to bed; the diary''s order alone, with Deng''s evening, [[w.deng-xiaoping-nianpu-1904]],
+      III, 1592)'
+- edit:
+    id: cal.1960-11-16.china-leadership-4
+    base: e37f7e43
+    kind: correct
+    settles:
+    - 'Check: who took the call'
+    - 'Check: the hour and clock'
+    set:
+      c: 'Peking to Moscow, by telephone, after Mao''s meeting on the delegation''s telegram. Zhou Enlai calls Deng Xiaoping at the Chinese embassy at Moscow.{1} He asks how the delegation
+        lives, then says one thing: it has been discussed, the Center agrees with your view.{2} Nothing more, the Soviets listening.{3}'
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Nov. 16, 1960 (the evening meeting in the Huairen Tang''s lounge on the delegation''s telegram of Nov. 15, 11 p.m., Moscow; "会后，周恩来即打电话给邓小平，转告中央常委的意见");
+        [[w.lengxi-shinian-lunzhan-1956-1966]], 387 ("the next morning"; whose clock not stated; the call to Yang Shangkun, the delegation''s life asked after, "已商量过，同意你们的意见," the Soviets
+        listening); [[w.yang-shangkun-riji]], I, 607 (Nov. 16, 1960; at the embassy after the session Deng reports his call with Zhou: the Standing Committee agrees with the delegation''s
+        request of the day before, to plan for the worst, the delegation to decide; the Politburo to meet the next day); [[w.deng-xiaoping-nianpu-1904]], III, 1598–1599 (Nov. 16, 1960;
+        Deng and Zhou Enlai by telephone on the line for signing; Zhou: the Standing Committee agrees with the delegation''s request of the 15th, the worst to be prepared for, the delegation
+        to decide); [[w.peng-zhen-nianpu-1902]], IV, 75 (Nov. 16, 1960; the delegation receives Zhou''s reply (a cable, so the page): the Standing Committee agrees with the delegation''s
+        request of the day before, all to be planned for the worst, the delegation to decide with full powers; the Politburo to meet the next day). The hour and the caller''s end: the
+        Mao nianpu has Zhou telephone Deng "after the meeting," which it puts in the evening at Peking; Yang''s diary has Deng report the call at the embassy after the day''s session;
+        Deng''s nianpu has Deng on the line: not the morning, nor Yang Shangkun, as Wu has it (variants). The order against Deng''s two evening talks at the embassy ([[cal.1960-11-16.china-leadership-7]],
+        [[cal.1960-11-16.china-leadership-8]]) is left open: Deng''s nianpu prints the call after them (III, 1598–99), Yang''s diary has it reported at the dinner after the session (I,
+        607). Made public: 1999. See [[cal.1960-11-15.china-leadership-4]]. Names: Zhou Enlai, Deng Xiaoping.'
+      tags:
+      - polity:prc
+      - name:zhou-enlai
+      - vis:only:prc
+      - name:deng-xiaoping
+      src:
+        c: 35155f86
+        rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Nov. 16, 1960: 1'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 387: 2, 3'
+        - 'w.yang-shangkun-riji I, 607: 1, 2'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1598–1599: 1, 2'
+        - 'w.peng-zhen-nianpu-1902 IV, 75: ?'
+    unset:
+    - time_range
+    - time_band
+    - time_zone
+- variant:
+    id: cal.1960-11-16.china-leadership-4
+    'on': Peking to Moscow, by telephone, after Mao's meeting on the delegation's telegram.
+    witness: w.lengxi-shinian-lunzhan-1956-1966
+    reads: '"第二天上午" (the next morning), after the delegation''s telegram of the night of the 15th'
+    at: '387'
+- variant:
+    id: cal.1960-11-16.china-leadership-4
+    'on': Zhou Enlai calls Deng Xiaoping at the Chinese embassy at Moscow.
+    witness: w.lengxi-shinian-lunzhan-1956-1966
+    reads: Zhou calls the embassy for Yang Shangkun, who has waited there for the Center's cable
+    at: '387'
+- follows:
+    id: cal.1960-11-16.china-leadership-4
+    add:
+    - cal.1960-11-16.china-leadership
+- edit:
+    id: cal.1960-11-16.china-leadership
+    base: b738db24
+    set:
+      time_range:
+      - 1960-11-16T11:00Z
+      - 1960-11-16T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- variant:
+    id: cal.1960-11-23.soviet-union
+    'on': No one asks the floor; the chair rises.
+    witness: w.yang-shangkun-riji
+    reads: the chair declares the speeches over; Yang says the Chinese want to speak, not today; Khrushchev proposes the next day and Deng agrees at once
+    at: I, 625
+- follows:
+    id: cal.1960-12-03.vietnam-diplomacy
+    add:
+    - cal.1960-12-03.china-leadership-7
+    basis: '[[w.guan-vietnamese-communists-relations-with]], 170 (Lê Duẩn and Nguyễn Chí Thanh of Hồ''s delegation, back in Peking that day; their meeting told apart from the welcome,
+      its own report, n.75)'
+- to-check:
+    id: cal.1960-12-03.vietnam-diplomacy
+    add:
+    - NCNA, 3 December 1960, SWB/FE/507/A3/2 (cited by [[w.guan-vietnamese-communists-relations-with]], 170 n.75)
+- src:
+    id: cal.1960-12-03.vietnam-diplomacy
+    rows:
+    - 'via x.1960-12-03.ncna-fe-507-a3-2: all'
+- edit:
+    id: cal.1960-12-01.transition-and-staff
+    base: 1d461871
+    set:
+      c: The cabinet named, the first of it.{1} Kennedy names Ribicoff Secretary of Health, Education, and Welfare.{2}
+      n: '[[w.schlesinger-thousand-days-1965]], 129–31 (Williams announced that morning; Ribicoff and Hodges decided); [[w.wofford-of-kennedys-and-kings]], 85, 89 (Williams named before
+        Rusk, passed over for HEW, which Ribicoff would carry better through Congress; Ribicoff had refused the Attorney Generalship, by Robert Kennedy''s oral history); [[w.schlesinger-robert-kennedy-and-his]],
+        227 (Ribicoff to HEW, having been offered Justice first; the day not given). Split under R25b: the naming of Williams, announced "that morning" of the day Schlesinger saw Kennedy,
+        Dec. 1 ([[w.schlesinger-thousand-days-1965]], 129–30), is [[cal.1960-12-01.transition-and-staff-cabinet-5]], with the Foreign Relations hearing. To check: [[w.schoenbaum-waging-war-and-peace]]
+        (on Rusk); [[w.shapley-promise-and-power]] (on McNamara); [[w.halberstam-best-and-the-brightest]]; [[w.bowles-promises-to-keep]]. See [[cal.1960-11-09.transition-and-staff]].
+        Names: Kennedy, Ribicoff. Check: the day of Ribicoff''s naming; Schlesinger has him only decided by Dec. 1 (130).'
+      src:
+        c: 4a2ead03
+        rows:
+        - 'w.schlesinger-thousand-days-1965 130: 2'
+        - 'w.wofford-of-kennedys-and-kings 85, 89: 2'
+        - 'w.schlesinger-robert-kennedy-and-his 227: 2'
+        - 'via w.schlesinger-robert-kennedy-and-his 227 n.15: 2'
+      tags:
+      - name:kennedy-john-f
+      - name:ribicoff-abraham
+    kind: correct
+- edit:
+    id: cal.1960-12-09.china-leadership
+    base: 1a206395
+    set:
+      c: Mao, Zhou Enlai, Zhu De, Chen Yun and Deng Xiaoping meet Liu Shaoqi at the airport, back from the conference and a tour of the Soviet Union by way of Irkutsk.{1}
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 9, 1960. [[w.zhou-enlai-nianpu-1949]], II, 378, Dec. 9, 1960 (Zhou at the airport and Mao''s meeting). [[w.zhou-enlai-waijiao-huodong]],
+        295 (Dec. 9, 1960; 下午); [[w.lengxi-shinian-lunzhan-1956-1966]], 438 (Liu left Irkutsk by air in the afternoon and reached Peking very late; Mao, the Standing Committee, the whole
+        Politburo, the NPC Standing Committee''s chairman and vice-chairmen and the heads of the democratic parties were at the airport); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II,
+        499 (Dec. 9, 1960; Liu back in Peking; Mao, Zhu De, Zhou Enlai and others meet him at the airport; that day Mao convenes a meeting and hears Liu''s report on his visit to the
+        USSR and the Moscow conference); [[w.deng-xiaoping-nianpu-1904]], III, 1604 (Dec. 9, 1960; afternoon; Deng, with Mao, Zhou, Zhu De and Chen Yun, meets Liu at the airport; evening
+        (晚), Deng at Mao''s meeting hearing Liu on the conference of the eighty-one parties and his visit to the Soviet Union); [[w.mao-zedong-zhuan]], V, ch. 66 (Dec. 9: Liu Shaoqi
+        back at Peking; Mao, Zhu De, Zhou Enlai and others meet him at the airport). [[w.chen-yi-nianpu]], 847 (Dec. 9, 1960, 6:40 p.m.; Chen Yi at the airport to welcome Liu Shaoqi
+        and the Party and government delegation back from the Soviet Union); [[w.peng-zhen-nianpu-1902]], IV, 83 (Dec. 9, 1960, afternoon; Peng Zhen, with Mao, Zhou Enlai, Zhu De, Chen
+        Yun, Deng Xiaoping, Li Fuchun and others, at the capital airport to meet Liu Shaoqi''s delegation, Li Jingquan, Lu Dingyi, Yang Shangkun and Liu Ningyi on the same plane); [[w.zhu-de-nianpu-xinbian]],
+        III, 1789 (Dec. 9, 1960; Zhu De 朱德, with Mao Zedong 毛泽东, Zhou Enlai 周恩来, Chen Yun 陈云, Deng Xiaoping 邓小平 and others, at the airport to welcome Liu Shaoqi''s 刘少奇 delegation back
+        from the October celebrations, the conference of the parties and the visit to the Soviet Union); [[w.chen-yun-nianpu-xiuding]], III, 58 (afternoon: Chen Yun with Mao, Zhou Enlai,
+        Zhu De and others at the airport to meet Liu Shaoqi''s delegation back from the October Revolution''s forty-third anniversary and the meeting of the eighty-one parties). Liu''s
+        report that evening, at Mao''s meeting, is [[cal.1960-12-09.china-leadership-11]] ([[w.zhou-enlai-nianpu-1949]], II, 378). Made public: 1993. Names: Mao Zedong, Zhou Enlai, Zhu
+        De, Chen Yun, Deng Xiaoping, Liu Shaoqi.'
+      src:
+        c: 65f0152c
+        rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Dec. 9, 1960: 1'
+        - 'w.zhou-enlai-nianpu-1949 II, 378, Dec. 9, 1960: 1'
+        - 'w.zhou-enlai-waijiao-huodong 295: 1'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 438: 1'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 499: 1'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1604: ?'
+        - 'w.mao-zedong-zhuan V, ch. 66: ?'
+        - 'w.chen-yi-nianpu 847: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 83: ?'
+        - 'w.zhu-de-nianpu-xinbian III, 1789: ?'
+        - 'w.chen-yun-nianpu-xiuding III, 58: ?'
+    kind: correct
+- cite:
+    id: cal.1960-12-09.china-leadership-11
+    item: '[[w.zedong-mao-zedong-nianpu]], IV, Dec. 9, 1960 (晚上, the Yinian Tang: Liu reports on the conference and the visit; Peng Zhen among those present)'
+- cite:
+    id: cal.1960-12-09.china-leadership-11
+    item: '[[w.zhou-enlai-nianpu-1949]], II, 378 (Dec. 9, 1960: after the airport, "到毛泽东处开会。会上刘少奇谈赴苏情况"; the meeting and Liu''s report, not Peng Zhen''s presence)'
+- cite:
+    id: cal.1960-12-09.china-leadership-11
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1604 (Dec. 9, 1960: 晚, Deng at the meeting Mao calls, hearing Liu on the conference of the eighty-one parties and the visit to the Soviet
+      Union; not Peng Zhen''s presence)'
+- edit:
+    id: cal.1960-12-20.china-leadership-4
+    base: 18b3fc33
+    set:
+      n: '[[w.yang-jisheng-tiandi-fanfu]], I, 82; [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 127–28 (the Hubei committee''s report of Jan. 25, 1961: the work team enters the village
+        Dec. 20; "strike roots and link up"; the poor peasants'' representative congresses and groups against the five winds). The Center forwarded the report on Jan. 31, 1961, to the
+        county and regiment level, the volume printing no number (XIV, 126); [[w.yang-jisheng-tiandi-fanfu]], I, 82 n.105, gives it as Zhongfa [61] 80. Made public: 1997 ([[w.jianguo-yilai-zhongyao-wenxian]],
+        XIV).'
+    settles:
+    - 'To check: the Center''s forwarding of the Hubei committee''s summary report'
+- edit:
+    id: cal.1961-01-03.republican-party-congress
+    base: 767cdf06
+    set:
+      n: '[[w.wolff-minutes-of-the-senate]], 867–71 (the elections, 868–69; Morton, 870; Dirksen, 871). The hour: the conference "called to order at 10:12 a.m." ([[w.wolff-minutes-of-the-senate]],
+        867). See [[cal.1961-01.republican-party-congress]]. Names: Saltonstall, Young, Bridges, Dirksen, Kuchel, Boggs, Miller, Morton.'
+      time: 1961-01-03T15:12Z
+      time_zone: America/New_York
+- follows:
+    id: cal.1961-01-03.rules
+    add:
+    - cal.1961-01-03.republican-party-congress
+    basis: '[[w.wolff-minutes-of-the-senate]], 867, 871 (the Republican conference called to order at 10:12 a.m., adjourned at 11:45 a.m.; the Senate sat from noon, by the Daily Digest
+      cited here)'
+- edit:
+    id: cal.1961-01-09.transition-and-staff
+    base: 2ed54554
+    set:
+      c: The President-elect to the Massachusetts Legislature and the Harvard Overseers.{2} The address is his "Farewell to Massachusetts," drafted by Sorensen.{5}
+      n: '[[w.schlesinger-thousand-days-1965]], 162 (Kennedy "came to Cambridge to address the Massachusetts Legislature and attend a meeting of the Harvard Board of Overseers," then,
+        "After luncheon," to Schlesinger''s house); [[w.odonnell-johnny-we-hardly-knew]], 274 (the Massachusetts legislature, the Harvard Overseers, then the meeting at Schlesinger''s
+        house); [[w.sorensen-kennedy]], 233–34 (the legislature; the Overseers); [[w.sorensen-counselor]], 219–20 (Kennedy''s "Farewell to Massachusetts," delivered Jan. 9, drafted by
+        Sorensen at the height of the transition; the "city upon a hill" from Winthrop and questions on integrity borrowed from Roosevelt; Kennedy''s parents thought it should have been
+        kept for the inaugural; not Cambridge, the Overseers or the other business of the day); [[w.schlesinger-journals]], 102 (the afternoon at 109 Irving Street, arrival about 2:20,
+        departure "shortly after 5"; not the Legislature or the Overseers); [[w.sorensen-counselor]], 219. Split under R25b: the afternoon at Schlesinger''s house is [[cal.1961-01-09.transition-and-staff-2]];
+        no page read gives an hour for the address or the Overseers ([[w.odonnell-johnny-we-hardly-knew]], 274; [[w.schlesinger-thousand-days-1965]], 162, has them before "luncheon").
+        See [[cal.1960-11-09.transition-and-staff]]. Names: Kennedy, Sorensen. Check: the address''s text.'
+      src:
+        c: 45c76fe3
+        rows:
+        - 'w.schlesinger-thousand-days-1965 162: 2'
+        - 'w.sorensen-kennedy 233–34: 2'
+        - 'w.odonnell-johnny-we-hardly-knew 274: 2'
+        - 'w.sorensen-counselor 219–20: ?'
+        - 'w.sorensen-counselor 219: 5'
+      tags:
+      - name:kennedy-john-f
+      - name:sorensen-theodore-c
+      - state:ma
+    kind: correct
+- edit:
+    id: cal.1961-01-19.laos
+    base: 9a89172f
+    set:
+      n: 'FRUS 1961–63, XXIV, docs. [7](https://history.state.gov/historicaldocuments/frus1961-63v24/d7) (Kennedy''s notes, dictated), [8](https://history.state.gov/historicaldocuments/frus1961-63v24/d8)
+        (Persons), [9](https://history.state.gov/historicaldocuments/frus1961-63v24/d9) (Herter), [11](https://history.state.gov/historicaldocuments/frus1961-63v24/d11) (McNamara''s,
+        Jan. 24: "If Laos is lost ... we will lose all of Southeast Asia"); X, doc. [22](https://history.state.gov/historicaldocuments/frus1961-63v10/d22) (Clifford''s and McNamara''s
+        memoranda, on Cuba). [[w.gibbons-u-s-government-and]], II, 9 (the meeting, Laos at the top of the agenda; Laos the "key to the whole area," by Clifford''s memorandum); [[w.kaplan-mcnamara-ascendancy-1961-1965]],
+        174, 231 (Laos, by McNamara''s account; the training in Guatemala); [[w.marolda-united-states-navy-and]], 98 (Eisenhower on Laos); [[w.schulimson-joint-chiefs-of-staff]], 29
+        (the meeting; Laos the key); [[w.clifford-counsel-to-the-president-2]], 342–45 (the meeting with the secretaries in the Cabinet Room; Laos, Herter for intervening alone if need
+        be, a division in twelve to seventeen days by Gates; Cuba, "to the utmost," the training in Guatemala; China, by Clifford''s account); [[w.fursenko-one-hell-of-a]], 77–78 ("To
+        the utmost"); [[w.jones-bay-of-pigs]], 44 (Eisenhower''s recommendation to speed the training); [[w.rusk-as-i-saw-it-1990]], 428 (the meeting; Eisenhower''s advice, by Rusk''s
+        account); [[w.sorensen-kennedy]], 231, 640 (the meeting; Laos); [[w.fursenko-khrushchevs-cold-war]], 336–37 ("It is the cork in the bottle"); [[w.mcnamara-in-retrospect]], ch.
+        2 at nn.5–9 (the meeting, its emphasis on Laos; the accounts: Clifford''s memorandum, Eisenhower "willing, ''as a last desperate hope, to intervene unilaterally''"; McNamara''s,
+        "President Eisenhower advised against unilateral action by the United States in connection with Laos"). [[w.schlesinger-thousand-days-1965]], 163–64; [[w.moyar-triumph-forsaken]],
+        125–26 (the meeting; Herter on SEATO and Laos); [[w.poole-joint-chiefs-of-staff]], 124; [[w.reeves-president-kennedy]], 29–33 (the meeting; Laos the "cork in the bottle"; "To
+        the utmost"); [[w.wofford-of-kennedys-and-kings]], 98 (Eisenhower to Kennedy the day before the inauguration: Laos "the key to all Southeast Asia"; Cuba, "helping train anti-Castro
+        forces in Guatemala," aid the guerrillas "to the utmost," the effort "continued and accelerated"); [[w.ball-past-has-another-pattern]], 361 (Eisenhower tells Kennedy "just before
+        the inauguration" that Laos is the key to Southeast Asia, "unbelievable pressure" on Thailand, Cambodia and South Vietnam; "as a last desperate hope, to intervene unilaterally,"
+        n.2; not the day or the place); [[w.schlesinger-robert-kennedy-and-his]], 702 (Eisenhower''s pre-inaugural briefing of Kennedy: he ignored Vietnam and called Laos the "present
+        key to the entire area"; by Clark Clifford''s record of the meeting, he would be willing "to intervene unilaterally" if others could not be persuaded to act; not the Cuba talk,
+        those present or the day); [[w.mann-grand-delusion]], 228–29 (the meeting of Jan. 19: Herter, the outgoing Secretary of State, argues the United States duty-bound to intervene
+        if Laos asks under SEATO, "the cork in the bottle"; Eisenhower "felt we should intervene," by Kennedy''s record that day; Clifford, present, recalls Eisenhower willing "as a
+        last desperate hope, to intervene unilaterally"; not the order of the meeting or the Cuba talk); [[w.odonnell-johnny-we-hardly-knew]], 275–76 (the morning briefing at the White
+        House with Eisenhower and the outgoing secretaries; Cuba, Berlin, Africa, the balance of payments and Laos in the Cabinet Room; Eisenhower "urged him to keep on supporting this
+        plan to overthrow Castro" and talked mostly of Laos, American combat troops possibly alone there; not the two alone; the date printed "January 19, 1960" is an error for 1961);
+        [[w.guan-vietnamese-communists-relations-with]], 164, 177 (by Eisenhower, some sign that the Soviet Union was concerned at the Communist pressure in Laos and Southeast Asia from
+        China and North Vietnam; Laos the key to all Southeast Asia, its fall to bring South Vietnam, Cambodia, Thailand and Burma after it; Vietnam less critical). The time is the first
+        act''s: Kennedy "visited E. this morning at 9:00 o''clock," the two alone (FRUS 1961–63, XXIV, doc. 7); the Cabinet Room meeting began "at approximately 9:45 a.m." (docs. 7,
+        8). Check: Rusk names those with Eisenhower as Kennedy, McNamara, Clifford and himself and gives two pieces of advice: no recognition of Communist China; troops into Laos, "with
+        others if possible, alone if necessary" (428; also 283). To check: [[w.greenstein-what-did-eisenhower-tell]] (compares the five accounts); Clifford to Kennedy, memorandum of
+        the conference of Jan. 19, 1961, on Laos, *U.S.–Vietnam Relations*, bk. 10, 1360–64 (cited by [[w.schulimson-joint-chiefs-of-staff]], 29 n.147); Clifford''s memorandum for Johnson
+        (1969), *Pentagon Papers*, Gravel ed., II, 635–37, and Clifford to Kennedy, Jan. 24, 1961, POF, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 9 n.19); [[w.united-states-vietnam-relations]],
+        1360–1364 (memorandum of the Eisenhower–Kennedy conference of Jan. 19, 1961, on Laos) (cited by [[w.guan-vietnamese-communists-relations-with]], 164 n.45); [[w.pentagon-papers]],
+        II, 635–637 (Gravel ed.) (cited by [[w.guan-vietnamese-communists-relations-with]], 177 n.112b). Check: the Taylor report, [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231),
+        578–79 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174 n.8), read: it gives no account of Jan. 19; its "continuation and accentuation" of the CIA''s activities is the
+        President''s authorization of Jan. 28. See [[cal.1961-01-02.laos]]. Names: Eisenhower, Herter, Gates, Persons, Chiang Kai-shek, McNamara, Castro.'
+      time: 1961-01-19T14:00Z
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1961-01-20.robert-kennedy
+    base: da432c2f
+    set:
+      n: '[[w.thomas-robert-kennedy]], 110–11 (by Bartlett''s account). The hour: "At dinner on January 20" ([[w.thomas-robert-kennedy]], 110). Names: Kennedy, Robert Kennedy.'
+      time_range:
+      - 1961-01-21T00:00Z
+      - 1961-01-21T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+- edit:
+    id: cal.1961-01-21.transition-and-staff-2
+    base: 8dfd64cd
+    set:
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 283 (O''Donnell''s and Powers''s account). The hour: "that Saturday morning" ([[w.odonnell-johnny-we-hardly-knew]], 283). Names: Truman,
+        Kennedy.'
+      time_range:
+      - 1961-01-21T11:00Z
+      - 1961-01-21T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+- edit:
+    id: cal.1961-01-24.rules
+    base: '36695021'
+    set:
+      n: '[[w.obrien-no-final-victories]], 105–06. The hour: "that afternoon" ([[w.obrien-no-final-victories]], 105). See [[cal.1961-01.rules]]. Names: Kennedy, Rayburn, O''Brien.'
+      time_range:
+      - 1961-01-24T17:00Z
+      - 1961-01-24T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+- edit:
+    id: cal.1961-01.rules
+    base: 5383e413
+    set:
+      n: '[[w.obrien-no-final-victories]], 105 (Tuesday, Jan. 24, the first of the weekly breakfasts of the Democratic leaders of the House and Senate; Rayburn''s words as the entry
+        has them). [[w.reeves-president-kennedy]], 55 ("during those first days in office"; no day). The hour: "That morning" ([[w.obrien-no-final-victories]], 105). See [[cal.1961-01-24.congress]].
+        Names: Rayburn, Kennedy.'
+      time_zone: America/New_York
+      time_range:
+      - 1961-01-24T11:00Z
+      - 1961-01-24T17:00Z
+      time_band: morning
+- follows:
+    id: cal.1961-01.rules
+    add:
+    - cal.1961-01-24.congress
+- edit:
+    id: cal.1961-02-05.china-leadership
+    base: 9a967e98
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 5, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 40 (Tian Jiaying''s report). The words: 晚上 ([[w.zedong-mao-zedong-nianpu]],
+        IV, Feb. 5, 1961). Made public: 2013. Check: MacFarquhar has Tian report to Mao on Feb. 6, in Hangzhou, and Mao give seven heads on the rural situation. To check: [[w.bian-mao-zedong-he-tade]],
+        45 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.8a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 913–14 (cited by [[w.macfarquhar-origins-of-the-cultural]],
+        III, 40 n.8b). Names: Tian Jiaying, Mao Zedong, Jiang Hua.'
+      time_range:
+      - 1961-02-05T11:00Z
+      - 1961-02-05T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1961-02-19.china-leadership
+    base: 21f15823
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 19, 1961. The words: 晚上 ([[w.zedong-mao-zedong-nianpu]], IV, Feb. 19, 1961). Made public: 2013. Names: Chen Boda, Mao Zedong.'
+      time_range:
+      - 1961-02-19T11:00Z
+      - 1961-02-19T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1961-02-08.china-leadership-10
+    base: da7a5b40
+    set:
+      n: '[[w.zhu-de-nianpu-xinbian]], III, 1796 (printed under Feb. 9, after that day''s items: "昨日到闽西地区视察," "the day before," and the poem "that day," 是日). Made public: 2016. Names:
+        Zhu De, Mao Zedong, Wang Ming. Check: the day: the nianpu''s 昨日 makes it Feb. 8, the day it has Zhu De at the Gutian reservoir''s power station (III, 1795); on Feb. 9 he is at
+        Fuzhou (1796).'
+    settles:
+    - 'Check: the day: the *Zhu De nianpu* prints this trip'
+- variant:
+    id: cal.1961-02-08.civil-rights-the-executive
+    field: date
+    value: '1961-02-07'
+    witness: w.wofford-of-kennedys-and-kings
+    reads: Kennedy meets the Civil Rights Commissioners on February 7, 1961
+    at: '130'
+- variant:
+    id: cal.1961-02-08.civil-rights-the-executive
+    field: date
+    value: '1961-02-07'
+    witness: w.branch-parting-the-waters
+    reads: '"On February 7 ... Kennedy received John Hannah and Father Theodore Hesburgh"'
+    at: '398'
+- edit:
+    id: cal.1961-02-17.china-leadership-5
+    base: 3c8b7fd8
+    set:
+      c: Peking 北京. Peng Zhen 彭真 to Zhou Enlai's 周恩来, in the evening.
+      n: '[[w.peng-zhen-nianpu-1902]], IV, 104. The words: 晚 (IV, 104). Split under R25b: the visit to Liu Shaoqi''s, late at night into the next morning, is [[cal.1961-02-17.china-center]].
+        Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
+      time_range:
+      - 1961-02-17T11:00Z
+      - 1961-02-17T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      src:
+        c: 68ee2a3a
+        rows:
+        - 'w.peng-zhen-nianpu-1902 IV, 104: all'
+    kind: correct
+- edit:
+    id: cal.1961-02-28.china-leadership-8
+    base: a46232c1
+    set:
+      n: '[[w.westad-introduction]], 27 (27 n.92: the record of Feb. 28, 1961, the words at its p. 70); [[w.chen-yun-nianpu-xiuding]], III, 76 (the nianpu''s note: the Ambassador hands
+        Liu Shaoqi Khrushchev''s letter that afternoon). The hour: "afternoon" (下午), by the nianpu''s note on the Ambassador handing Liu Khrushchev''s letter that day ([[w.chen-yun-nianpu-xiuding]],
+        III, 76 n.1). Made public: 1998. To check: Record of conversation, Chervonenko–Liu Shaoqi, Feb. 28, 1961, AVPRF, f. 0100, op. 54, pa. 466, d. 7, pp. 67–72 (cited by [[w.westad-introduction]],
+        27 n.92). See [[cal.1961-02-27.china-leadership]]. Names: Liu Shaoqi, Chervonenko.'
+      time_range:
+      - 1961-02-28T04:00Z
+      - 1961-02-28T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- check:
+    id: cal.1960-12-30.china-leadership-2
+    text: 'Check: the order; Jian has Mao endorse the import at the work conference first and Zhou, at the airport, learn of it ([[w.jian-zhou-enlai]], 457); the airport is the morning
+      here and Mao''s report meeting the afternoon ([[cal.1960-12-30.china-leadership]]).'
+- add-words:
+    id: cal.1960-12-30.china-leadership
+    after: end
+    words: By Jian's account, Mao tells Chen Yun he endorses his proposal to import grain, and leaves the details to Zhou Enlai and Chen.
+    item: '[[w.jian-zhou-enlai]], 457'
+- names:
+    id: cal.1960-12-30.china-leadership
+    add:
+    - Zhou Enlai
+    tags:
+    - name:zhou-enlai
+- add-words:
+    id: cal.1961-02-28.china-leadership-8
+    after: end
+    words: Chervonenko hands Liu Khrushchev's letter offering China grain and sugar on loan.
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 76 n.1'
+- follows:
+    id: cal.1960-11-07.elections-1960-kennedy-6
+    add:
+    - cal.1960-11-07.elections-1960
+- follows:
+    id: cal.1960-11-16.china-leadership
+    add:
+    - cal.1960-11-16.china-leadership-2
+    basis: the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 370)

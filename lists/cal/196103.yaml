@@ -40,16 +40,21 @@ entries:
   - id: cal.1961-03-01.africa
     when: Mar. 1
     date: '1961-03-01'
+    time: 1961-03-01T15:00Z
+    place: washington
     thread: africa
-    c: 'Williams, Assistant Secretary for African Affairs, on a tour of Africa, in Kenya: what the Africans want for themselves the United States wants for them;{1} the press reports it "Africa for the Africans" (Check the date). Kennedy, asked at his news conference: "I do not know who else Africa should be for."{2}'
-    n: 'The President''s News Conference, [1961 Pub. Papers 135](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=193) (Mar. 1, 1961). [[w.sorensen-kennedy]], 538–39 (the slogan; Kennedy''s comment). To check: [[w.noer-soapy]]; [[w.mahoney-jfk]]; [[w.muehlenbeck-betting-on-the-africans]]; [[w.borstelmann-cold-war-and-the]]. Names: Williams.'
+    follows:
+      - cal.1961-03-01.africa-2
+    c: 'Kennedy, asked at his news conference about Williams''s "Africa for Africans": "I do not know who else Africa should be for."{2}'
+    n: 'The President''s News Conference, [1961 Pub. Papers 135](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=193) (Mar. 1, 1961; held at 10 a.m. in the State Department Auditorium, the question at 138–39). [[w.sorensen-kennedy]], 538–39 (the slogan; Kennedy''s comment). To check: [[w.noer-soapy]]; [[w.mahoney-jfk]]; [[w.muehlenbeck-betting-on-the-africans]]; [[w.borstelmann-cold-war-and-the]]. Split under R25b: Williams''s own statement, with the press''s phrase, is [[cal.1961-03-01.africa-2]]. Names: Williams.'
     src:
-      c: c5300b9f
+      c: e58ceb33
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=193: 1, 2'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=193: 2'
         - 'w.sorensen-kennedy 538–39: 2'
     tags: [name:williams-g-mennen, name:kennedy-john-f]
     short: Williams's "Africa for the Africans"
+    time_zone: America/New_York
   - id: cal.1961-03-01.vietnam
     when: Mar. 1
     date: '1961-03-01'
@@ -300,6 +305,13 @@ entries:
     c: 'The Center 中共中央 forwards the experience of rectification at Tanzhou 坦洲 commune, Zhongshan 中山 county, Guangdong 广东, with the Central-South Bureau''s 中南局 comment of Feb. 9 to the Guangdong, Hunan, Hubei, Henan and Guangxi committees, "A fairly successful experience" 《一个比较成功的经验》: for the communes of the first and second class a fuller and healthier experience, a guiding document. The rectification to go deep, not in haste; with the spring ploughing begun, production first, rectification in the slack. Sent down to the county and regiment level.'
     n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 188–214 (the Center''s comment, Mar. 1, the bureau''s comment, Feb. 9, and the commune''s experience; printed from the Central Committee''s document). Made public: 1997. See [[cal.1961-01-31.china-leadership-8]], [[cal.1961-02-09.china-leadership-8]]; the comment as Liu Shaoqi drafted it, [[cal.1961-02-26.china-leadership-3]].'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-03-01.africa-2
+    when: By Mar. 1
+    date: '1961-03-01'
+    thread: africa
+    c: 'Williams, Assistant Secretary for African Affairs, on a tour of Africa, in Kenya: what the Africans want for themselves the United States wants for them; the press reports it "Africa for the Africans."'
+    n: 'The President''s News Conference, [1961 Pub. Papers 135](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=193) (Mar. 1, 1961; the question at 138–39, "including the one of ''Africa for Africans''", dates the statement by the report: on or before Mar. 1). [[w.sorensen-kennedy]], 538–39 (Williams "endorsed the slogan"; not the place or the day). Split under R25b: Kennedy''s answer at his news conference is [[cal.1961-03-01.africa]]. See [[cal.1961-03-01.africa]]. Names: Williams. Check: the day and the place; neither the Papers nor Sorensen gives them.'
+    tags: [name:williams-g-mennen]
   - id: cal.1961-03-02.testing
     when: Mar. 2
     date: '1961-03-02'
@@ -569,10 +581,10 @@ entries:
     date: '1961-03-03'
     thread: china-zhou
     also: [economy]
-    c: Zhou Enlai with Deng Xiaoping, Peng Zhen, Li Xiannian, Chen Yi, Luo Ruiqing, Kang Sheng and Yang Shangkun on what they saw on tour; that evening at the enlarged Standing Committee Liu Shaoqi calls, which hears Deng and others on it and discusses imports and exports.{1}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 3, 1961); [[w.yang-shangkun-riji]], I, 659 (Mar. 3, 1961; the meeting at the Premier''s, 4 to 6:30 p.m.; the evening at Liu Shaoqi''s, Deng Xiaoping on what the party saw, and the Soviet offer on credit of 1 million tons of wheat and 500,000 tons of Cuban sugar re-exported; Zhou Enlai, Peng Zhen and Deng to fly to Mao at Guangzhou next day); [[w.deng-xiaoping-nianpu-1904]], III, 1619 (Mar. 3, 1961; 4 p.m., at Zhou''s, Zhou on his tour; evening, at Liu Shaoqi''s enlarged Standing Committee, Deng reports his tour; the Soviet offer of a million tons of grain on credit and half a million tons of Cuban sugar re-exported); [[w.peng-zhen-nianpu-1902]], IV, 109 (Mar. 3, 1961, afternoon; Peng Zhen, with Deng Xiaoping and others, hears Zhou on his tour). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping, Peng Zhen, Li Xiannian, Chen Yi, Luo Ruiqing, Kang Sheng, Yang Shangkun.'
+    c: Zhou Enlai with Deng Xiaoping, Peng Zhen, Li Xiannian, Chen Yi, Luo Ruiqing, Kang Sheng and Yang Shangkun on what they saw on tour, at the Premier's, 4 to 6:30 p.m.{1}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 3, 1961); [[w.yang-shangkun-riji]], I, 659 (Mar. 3, 1961; 4时去周总理处开会，6时半结束: the meeting at the Premier''s, 4 to 6:30 p.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1619 (Mar. 3, 1961; 4 p.m., at Zhou''s, Zhou on his tour); [[w.peng-zhen-nianpu-1902]], IV, 109 (Mar. 3, 1961, afternoon; Peng Zhen, with Deng Xiaoping and others, hears Zhou on his tour). The hour: 4 to 6:30 p.m. (Yang, I, 659). Made public: 1997. Split under R25b: the evening session of the enlarged Standing Committee at Liu Shaoqi''s is [[cal.1961-03-03.china-leadership-4]]. Names: Zhou Enlai, Deng Xiaoping, Peng Zhen, Li Xiannian, Chen Yi, Luo Ruiqing, Kang Sheng, Yang Shangkun.'
     src:
-      c: 020fc6e2
+      c: 7ed588bc
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 396: ?'
         - 'w.yang-shangkun-riji I, 659: 1'
@@ -580,10 +592,10 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 109: ?'
     tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, name:peng-zhen, name:li-xiannian, name:chen-yi, name:luo-ruiqing, name:kang-sheng, vis:only:prc, name:yang-shangkun]
     time_range:
-      - 1961-03-03T04:00Z
-      - 1961-03-03T10:00Z
-    time_band: afternoon
+      - 1961-03-03T08:00Z
+      - 1961-03-03T10:30Z
     time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1961-03-03.china-leadership-2
     when: Mar. 3
     date: '1961-03-03'
@@ -624,14 +636,17 @@ entries:
     place: peking
     thread: china-liu
     also: [soviet-union]
-    c: 'Peking 北京. Peng Zhen 彭真 at the enlarged Politburo Standing Committee, Liu Shaoqi 刘少奇 presiding: Deng Xiaoping 邓小平 on his tour; the Soviet offer of a million tons of grain on loan and 500,000 tons of Cuban sugar in transit.'
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 109; [[w.chen-yun-nianpu-xiuding]], III, 76 (evening: Chen Yun at the enlarged Standing Committee hearing Deng Xiaoping and others on their tours and on foreign trade). The words: 晚 (IV, 109). Made public: 2012. Names: Peng Zhen, Liu Shaoqi, Deng Xiaoping.'
+    c: 'Peking 北京. Peng Zhen 彭真 at the enlarged Politburo Standing Committee, Liu Shaoqi 刘少奇 presiding: Deng Xiaoping 邓小平 on his tour; the Soviet offer of a million tons of grain on loan and 500,000 tons of Cuban sugar in transit.{1} Zhou Enlai there; imports and exports discussed.{2}'
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 109; [[w.chen-yun-nianpu-xiuding]], III, 76 (evening: Chen Yun at the enlarged Standing Committee hearing Deng Xiaoping and others on their tours and on foreign trade); [[w.yang-shangkun-riji]], I, 659 (Mar. 3, 1961; 晚间在少奇同志处开会: the evening at Liu Shaoqi''s, Deng Xiaoping on what the party saw, and the Soviet offer on credit of 1 million tons of wheat and 500,000 tons of Cuban sugar re-exported; Zhou Enlai, Peng Zhen and Deng to fly to Mao at Guangzhou next day); [[w.deng-xiaoping-nianpu-1904]], III, 1619 (Mar. 3, 1961; evening, at Liu Shaoqi''s enlarged Standing Committee, Deng reports his tour; the Soviet offer of a million tons of grain on credit and half a million tons of Cuban sugar re-exported; not the hour); [[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 3, 1961; 晚，出席刘少奇召开的中共中央政治局常委扩大会议，听取邓小平等汇报外出视察的情况，并讨论进出口问题). The words: 晚 (IV, 109). Made public: 2012. Names: Peng Zhen, Liu Shaoqi, Deng Xiaoping, Zhou Enlai.'
     src:
-      c: 9faca18c
+      c: 68f89c33
       rows:
-        - 'w.peng-zhen-nianpu-1902 IV, 109: all'
+        - 'w.peng-zhen-nianpu-1902 IV, 109: 1'
         - 'w.chen-yun-nianpu-xiuding III, 76: ?'
-    tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
+        - 'w.yang-shangkun-riji I, 659: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1619: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 396: 2'
+    tags: [polity:prc, name:peng-zhen, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc, name:zhou-enlai]
     time_range:
       - 1961-03-03T11:00Z
       - 1961-03-03T14:00Z
@@ -750,25 +765,20 @@ entries:
   - id: cal.1961-03-04.china-leadership-2
     when: Mar. 4
     date: '1961-03-04'
-    time: 1961-03-04T06:00Z
+    time: 1961-03-04T02:00Z
     place: canton
     thread: china-zhou
-    c: Zhou Enlai flies to Guangzhou at 2 p.m.{1}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 4, 1961); [[w.deng-xiaoping-nianpu-1904]], III, 1619 (Mar. 4, 1961; Deng, Zhou and Peng Zhen fly to Guangzhou to report to Mao); [[w.peng-zhen-nianpu-1902]], IV, 109 (Mar. 4, 1961; Peng Zhen and Deng Xiaoping fly to Guangzhou with Zhou to report to Mao at the Xiaodao guesthouse (the nianpu: in the morning)). Made public: 1997. Names: Zhou Enlai.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
-    variants:
-      - unit: '1'
-        witness: w.yang-shangkun-riji
-        reads: 'Zhou Enlai, Deng Xiaoping and Peng Zhen fly to Canton at 10 (10 时周、邓、彭飞广州; note 2: the three)'
-        at: I, 659
-      - unit: '1'
-        witness: w.deng-xiaoping-nianpu-1904
-        reads: the morning (上午), with Deng and Peng Zhen
-        at: III, 1619
-      - unit: '1'
-        witness: w.peng-zhen-nianpu-1902
-        reads: Peng Zhen, Zhou Enlai and Deng Xiaoping fly to Canton together in the morning ("上午，和周恩来、邓小平乘飞机去广州")
-        at: IV, 109
+    c: Zhou Enlai flies to Guangzhou at 10 a.m., landing at 2 p.m.{1} Deng Xiaoping and Peng Zhen go with him.{2}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 396 (Mar. 4, 1961; 下午二时飞抵广州: lands at Guangzhou at 2 p.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1619 (Mar. 4, 1961; Deng, Zhou and Peng Zhen fly to Guangzhou to report to Mao); [[w.peng-zhen-nianpu-1902]], IV, 109 (Mar. 4, 1961; Peng Zhen and Deng Xiaoping fly to Guangzhou with Zhou to report to Mao at the Xiaodao guesthouse (the nianpu: in the morning)); [[w.yang-shangkun-riji]], I, 659 (Mar. 4, 1961; 10时周、邓、彭飞广州; note 2: the three; the hour); [[w.yang-shangkun-riji]], I, 659 (note 2: 周, 邓, 彭: Zhou, Deng, Peng Zhen). The hour: Yang''s diary has the flight at 10 a.m. ([[w.yang-shangkun-riji]], I, 659: 10时周、邓、彭飞广州; note 2: Zhou, Deng, Peng), and the Deng and Peng Zhen nianpus the morning; the nianpu''s 2 p.m. is the landing. Made public: 1997. Names: Zhou Enlai, Deng Xiaoping, Peng Zhen.'
+    src:
+      c: 3cb83450
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 396: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1619: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 109: ?'
+        - 'w.yang-shangkun-riji I, 659: 2, time'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:deng-xiaoping, name:peng-zhen]
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-04.china-leadership-3
     when: Mar. 4
     date: '1961-03-04'
@@ -967,19 +977,19 @@ entries:
     date: '1961-03-06'
     place: washington
     thread: economy
-    c: 'Heller before the Joint Economic Committee: a gap between actual and potential output, and 4 percent unemployment as the goal.{1} Next day Martin tells the committee much of the unemployment is structural.{2} Patman presses Martin by letter, Mar. 30.{3}'
-    n: '[[w.heller-american-economy-in-1961]], [on FRASER](https://fraser.stlouisfed.org/title/9814/item/717990) (K–J Adm. II.K). Hearings and the committee''s report (K–J Cong. II.J.3). [[w.stein-fiscal-revolution-in-america]], 388–89, 396–98 (Heller''s testimony); [[w.sundquist-politics-and-policy]], 57–58 (Martin the next day). To check: [[w.okun-potential-gnp-its-measurement]] (for the arithmetic); Joint Economic Committee, *January 1961 Economic Report of the President and the Economic Situation and Outlook: Hearings*, 87th Cong., 1st sess. (1961), 321–29, 331, 364–65 (cited by [[w.stein-fiscal-revolution-in-america]], 389 n.8, 396 n.18, 398 n.24, for Heller). Names: Heller, Martin, Patman.'
+    c: 'Heller before the Joint Economic Committee: a gap between actual and potential output, and 4 percent unemployment as the goal.{1}'
+    n: '[[w.heller-american-economy-in-1961]], [on FRASER](https://fraser.stlouisfed.org/title/9814/item/717990) (K–J Adm. II.K). Hearings and the committee''s report (K–J Cong. II.J.3). [[w.stein-fiscal-revolution-in-america]], 388–89, 396–98 (Heller''s testimony); [[w.sundquist-politics-and-policy]], 57–58 (the Council''s statement the day before Martin''s). To check: [[w.okun-potential-gnp-its-measurement]] (for the arithmetic); Joint Economic Committee, *January 1961 Economic Report of the President and the Economic Situation and Outlook: Hearings*, 87th Cong., 1st sess. (1961), 321–29, 331, 364–65 (cited by [[w.stein-fiscal-revolution-in-america]], 389 n.8, 396 n.18, 398 n.24, for Heller). Split under R17: Martin''s testimony of Mar. 7 is [[cal.1961-03-07.economy]]; Patman''s letter of Mar. 30, [[cal.1961-03-30.economy]]. Names: Heller.'
     src:
-      c: c615f70f
+      c: 3f881a40
       rows:
-        - 'https://fraser.stlouisfed.org/title/9814/item/717990: 1, 2, 3'
+        - 'https://fraser.stlouisfed.org/title/9814/item/717990: 1'
         - 'w.stein-fiscal-revolution-in-america 389: 1'
         - 'w.stein-fiscal-revolution-in-america 396–98: 1'
         - 'via w.stein-fiscal-revolution-in-america 389 n.8: 1'
         - 'via w.stein-fiscal-revolution-in-america 396 n.18: 1'
         - 'via w.stein-fiscal-revolution-in-america 398 n.24: 1'
-        - 'w.sundquist-politics-and-policy 57–58: 2'
-    tags: [name:heller-walter-w, name:martin-william-mcchesney-jr, name:patman-wright]
+        - 'w.sundquist-politics-and-policy 57–58: ?'
+    tags: [name:heller-walter-w]
     short: Heller's gap
     time_range:
       - 1961-03-06T14:00Z
@@ -1383,10 +1393,10 @@ entries:
     when: Mar. 7
     date: '1961-03-07'
     thread: china-agriculture
-    c: After two inspections of Dushan commune, Zeng Xisheng orders the experiment popularized ("guaranteeing production according to teams, fixing production according to the field, assigning responsibility to the individual"); the same day he leaves for the Guangzhou central work conference.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 211. Made public: 1997. To check: [[w.kunchi-60-niandai-zeng-xisheng]], 57–58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 211 n.15a); [[w.jin-1949-1989-niande-zhongguo]], 484 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 211 n.15b); [[w.nongye-jitihua-zhongyao-wenjian]], 501 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 211 n.15c). Names: Zeng Xisheng.'
+    c: After two inspections of Dushan commune, Zeng Xisheng orders the experiment popularized ("guaranteeing production according to teams, fixing production according to the field, assigning responsibility to the individual").
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 211. Made public: 1997. Split under R17: his leaving for the Guangzhou central work conference the same day is [[cal.1961-03-07.china-leadership-9]]. To check: [[w.kunchi-60-niandai-zeng-xisheng]], 57–58 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 211 n.15a); [[w.jin-1949-1989-niande-zhongguo]], 484 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 211 n.15b); [[w.nongye-jitihua-zhongyao-wenjian]], 501 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 211 n.15c). Names: Zeng Xisheng.'
     src:
-      c: da257a64
+      c: 4762b4ea
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 211: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 211 n.15a: all'
@@ -1490,6 +1500,24 @@ entries:
     c: Pathet Lao and North Vietnamese forces take Xala Phukhun, an important road junction north of Vientiane, helped by the continuing Soviet airlift.
     n: '[[w.guan-vietnamese-communists-relations-with]], 177.'
     tags: [polity:pathet-lao, polity:drv, ok:fields-place]
+  - id: cal.1961-03-07.economy
+    when: Mar. 7
+    date: '1961-03-07'
+    place: washington
+    thread: economy
+    c: Martin tells the Joint Economic Committee much of the unemployment is structural, the day after the Council's statement.
+    n: '[[w.sundquist-politics-and-policy]], 57–58 (Martin to the committee the day after the Council''s statement; the hearings of Mar. 6 and 7, 58 n.2; Martin: actions that "go to the core of the particular problem"; Proxmire prints the two statements in the Record, Mar. 9). To check: Joint Economic Committee, *January 1961 Economic Report of the President and the Economic Situation and Outlook: Hearings*, 87th Cong., 1st sess. (1961), 464, 470 (cited by [[w.sundquist-politics-and-policy]], 58 n.2, for Martin). Split under R17: Patman''s letter of Mar. 30 is [[cal.1961-03-30.economy]]. See [[cal.1961-03-06.economy]]; [[cal.1961-03-09.economy]]. Names: Martin.'
+    tags: [name:martin-william-mcchesney-jr]
+  - id: cal.1961-03-07.china-leadership-9
+    when: Mar. 7
+    date: '1961-03-07'
+    thread: china-sixty-articles
+    also: [china-agriculture]
+    follows:
+      - cal.1961-03-07.china-leadership-3
+    c: Zeng Xisheng leaves for the Guangzhou 广州 central work conference.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 211 ("The same day, he went to Canton to attend the central work conference"; n.15). Made public: 1997. The order: after [[cal.1961-03-07.china-leadership-3]], the printed order alone ([[w.macfarquhar-origins-of-the-cultural]], III, 211). Split under R17: his order popularizing the experiment is [[cal.1961-03-07.china-leadership-3]]. See [[cal.1961-03-07.china-leadership-3]]. Names: Zeng Xisheng.'
+    tags: [polity:prc, vis:only:prc, name:zeng-xisheng, ok:fields-place]
   - id: cal.1961-03-08.africa
     when: Mar. 8
     date: '1961-03-08'
@@ -2125,10 +2153,10 @@ entries:
     date: '1961-03-10'
     place: washington
     thread: foreign-aid
-    c: Porter Hardy, his subcommittee refused the records of aid to Peru under Eisenhower's order, leaves a letter of complaint at the White House. Before he reaches home, Kennedy has called him.
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 380. See [[cal.1960-12-23.foreign-aid]]. Names: Hardy, Kennedy. Check: the record (the Record; Hardy''s subcommittee).'
+    c: Porter Hardy, his subcommittee refused the records of aid to Peru under Eisenhower's order, leaves a letter of complaint at the White House.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 380. See [[cal.1960-12-23.foreign-aid]]. Split under R17: Kennedy''s call is [[cal.1961-03-10.foreign-aid-2]]. Names: Hardy. Check: the record (the Record; Hardy''s subcommittee).'
     src:
-      c: 8014d4ae
+      c: a404dcf2
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 380: all'
     tags: [name:hardy-porter-jr, name:kennedy-john-f]
@@ -2365,6 +2393,16 @@ entries:
       - 1961-03-10T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-10.foreign-aid-2
+    when: Mar. 10
+    date: '1961-03-10'
+    place: washington
+    thread: foreign-aid
+    follows:
+      - cal.1961-03-10.foreign-aid
+    c: Kennedy telephones Hardy before Hardy reaches home, after the letter of complaint left at the White House.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 380 ("Before he reached home, the new President had called him"). The order: after [[cal.1961-03-10.foreign-aid]], Schlesinger''s words (380). See [[cal.1961-03-10.foreign-aid]]. Names: Kennedy, Hardy.'
+    tags: [name:kennedy-john-f, name:hardy-porter-jr]
   - id: cal.1961-03-11.cuba
     when: Mar. 11
     date: '1961-03-11'
@@ -2740,10 +2778,10 @@ entries:
     when: Mar. 13
     date: '1961-03-13'
     thread: foreign-aid
-    c: Rusk promises Hardy the documents on aid to Peru. At the next hearing the State Department's witnesses bring a letter of Rusk's forbidding them to testify; the Legal Adviser withdraws it and sends the documents.
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 380. See [[cal.1961-03-10.foreign-aid]]. Names: Rusk, Hardy. Check: the days of the hearing and of the withdrawal.'
+    c: Rusk promises Hardy the documents on aid to Peru.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 380. See [[cal.1961-03-10.foreign-aid]]. Split under R17: the hearing that followed, with Rusk''s letter and its withdrawal, is [[cal.1961-03-13.foreign-aid-2]]. Names: Rusk, Hardy.'
     src:
-      c: fe27e95b
+      c: 3d4e89bd
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 380: all'
     tags: [name:rusk-dean, name:hardy-porter-jr]
@@ -3065,10 +3103,10 @@ entries:
     when: Mar. 14
     date: '1961-03-14'
     thread: cuba
-    c: 'Morning: the CIA''s planners give the Joint Chiefs'' working group five alternatives; by evening the group has cut them to three and evaluated each. Mar. 15, 10 a.m., its twenty-minute briefing to the Chiefs.'
-    n: '[[w.poole-joint-chiefs-of-staff]], 111.'
+    c: 'Morning: the CIA''s planners give the Joint Chiefs'' working group five alternatives; by evening the group has cut them to three and evaluated each.'
+    n: '[[w.poole-joint-chiefs-of-staff]], 111. Split under R17: the briefing to the Chiefs, Mar. 15, 10 a.m., is [[cal.1961-03-15.cuba-4]].'
     src:
-      c: 136f6ae9
+      c: a3708734
       rows:
         - 'w.poole-joint-chiefs-of-staff 111: all'
     time_range:
@@ -3300,8 +3338,10 @@ entries:
     place: washington
     thread: cuba
     also: [defense]
+    follows:
+      - cal.1961-03-15.cuba-4
     c: The Joint Chiefs to McNamara on the CIA's three concepts. Trinidad by night, without air strikes and an airborne landing, now doubtful; the northeast coast, an airborne company at "evening nautical twilight," "least likely"; Zapata, by the Bay of Pigs, "has all the prerequisites necessary to successfully establish the Cuban Voluntary Task Force," though isolated.
-    n: '[FRUS 1961–63, X: Cuba, 1961–1962, doc. 62](https://history.state.gov/historicaldocuments/frus1961-63v10/d62). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 179; [[w.poole-joint-chiefs-of-staff]], 111–12, 117 (the twenty-minute briefing; the Chiefs'' "preference for Zapata," by the Study Group). See [[cal.1961-03-15.cuba]]. Names: McNamara.'
+    n: '[FRUS 1961–63, X: Cuba, 1961–1962, doc. 62](https://history.state.gov/historicaldocuments/frus1961-63v10/d62). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 179; [[w.poole-joint-chiefs-of-staff]], 111–12, 117 (the twenty-minute briefing; the Chiefs'' "preference for Zapata," by the Study Group). The order: after [[cal.1961-03-15.cuba-4]], [[w.poole-joint-chiefs-of-staff]], 111 ("The Chiefs immediately approved those evaluations and sent them to Secretary McNamara"). See [[cal.1961-03-15.cuba]]. Names: McNamara.'
     src:
       c: c4c18890
       rows:
@@ -3555,14 +3595,24 @@ entries:
     c: 'The Center 中共中央 forwards, and agrees with, the Propaganda Department''s 中央宣传部 report of Feb. 23, "On some problems in the propaganda of Mao Zedong Thought and of the leader''s revolutionary deeds" 《关于毛泽东思想和领袖革命事迹宣传中一些问题的检查报告》: Mao Zedong Thought vulgarized, a table-tennis player''s and a doctor''s methods put down to it; untrue stories of the leader printed; too many trifles of his life. Sent down to the county and regiment level.'
     n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 217–220 (the Center''s comment, Mar. 15, and the report, Feb. 23; printed from the Central Committee''s document). Made public: 1997. See [[cal.1961-02-23.china-leadership-9]].'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03-15.cuba-4
+    when: Mar. 15
+    date: '1961-03-15'
+    time: 1961-03-15T15:00Z
+    place: washington
+    thread: cuba
+    also: [defense]
+    c: The Joint Chiefs' working group, at 10 a.m., briefs the Chiefs on its evaluation of the three alternatives, twenty minutes.
+    n: '[[w.poole-joint-chiefs-of-staff]], 111 ("at 1000"; "a twenty-minute briefing"). Split under R17: the working group''s day of Mar. 14 is [[cal.1961-03-14.cuba]]. See [[cal.1961-03-14.cuba]]; [[cal.1961-03-15.cuba-3]].'
+    time_zone: America/New_York
   - id: cal.1961-03-16.middle-east
     when: Mar. 16
     date: '1961-03-16'
     thread: middle-east
-    c: 'Radio Mecca: Saud has ordered the American ambassador told that the Dhahran airfield agreement will not be renewed when it expires in April 1962.{1} Announced while State and Defense drafted a joint statement with the Saudis. The State Department''s background release the same evening.{2}'
-    n: 'FRUS 1961–63, XVII, doc. [24](https://history.state.gov/historicaldocuments/frus1961-63v17/d24). [[w.poole-joint-chiefs-of-staff]], 242 (the lease not to be renewed). To check: [[w.hart-saudi-arabia-and-the]]; [[w.bronson-thicker-than-oil]]; [[w.vitalis-americas-kingdom]]. Names: Saud ibn Abd al-Aziz Al Saud.'
+    c: 'Radio Mecca: Saud has ordered the American ambassador told that the Dhahran airfield agreement will not be renewed when it expires in April 1962.{1} Announced while State and Defense drafted a joint statement with the Saudis.{2}'
+    n: 'FRUS 1961–63, XVII, doc. [24](https://history.state.gov/historicaldocuments/frus1961-63v17/d24) (Battle to Dungan, Mar. 21, 1961: Radio Mecca''s announcement of Mar. 16, after three days of talks with the Ambassador; State and Defense then drafting a joint statement). [[w.poole-joint-chiefs-of-staff]], 242 (the lease not to be renewed). To check: [[w.hart-saudi-arabia-and-the]]; [[w.bronson-thicker-than-oil]]; [[w.vitalis-americas-kingdom]]. Split under R17: the State Department''s release that evening is [[cal.1961-03-16.middle-east-2]]; the Saudi Ambassador''s call of Mar. 18, [[cal.1961-03-18.middle-east]]. Names: Saud ibn Abd al-Aziz Al Saud.'
     src:
-      c: 6896b9c1
+      c: a520b9c7
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v17/d24: 1, 2'
         - 'w.poole-joint-chiefs-of-staff 242: 1'
@@ -3781,6 +3831,21 @@ entries:
     c: Eastern Nam Bộ. The zone's Battalion 800 attacks the military subsector of Hiếu Liêm, Mar. 16; Mar. 17 it marches along the Đồng Nai and attacks the Lạc An post and threatens others, as the people rise against their local officers.
     n: '[[w.lich-su-khang-chien-chong-my]], III, 140.'
     tags: [polity:drv]
+  - id: cal.1961-03-16.middle-east-2
+    when: Mar. 16
+    date: '1961-03-16'
+    place: washington
+    thread: middle-east
+    follows:
+      - cal.1961-03-16.middle-east
+    c: The State Department issues a background press release in the evening, to soften the effect of the Saudi announcement of non-renewal of the Dhahran agreement.
+    n: 'FRUS 1961–63, XVII, doc. [24](https://history.state.gov/historicaldocuments/frus1961-63v17/d24) (Battle to Dungan, Mar. 21, 1961: the Department "immediately issued a background press release in the evening of March 16"; a copy enclosed). The order: after [[cal.1961-03-16.middle-east]], "immediately" (doc. 24). Split under R17: the Radio Mecca announcement is [[cal.1961-03-16.middle-east]]. See [[cal.1961-03-16.middle-east]]; [[cal.1961-03-18.middle-east]].'
+    time_range:
+      - 1961-03-17T00:00Z
+      - 1961-03-17T03:00Z
+    time_band: evening
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1961-03-17.economy
     when: Mar. 17
     date: '1961-03-17'
@@ -4109,6 +4174,20 @@ entries:
         - 'w.peng-zhen-nianpu-1902 IV, 113: all'
     tags: [polity:prc, name:peng-zhen, name:tao-zhu, name:li-jingquan, name:ke-qingshi, name:mao-zedong, vis:only:prc, name:li-xuefeng, name:liu-lantao, name:song-renqiong]
     time_zone: Asia/Shanghai
+  - id: cal.1961-03-18.middle-east
+    when: Mar. 18
+    date: '1961-03-18'
+    place: washington
+    thread: middle-east
+    c: 'The Saudi Arabian Ambassador, at his request, calls on the Under Secretary of State in the afternoon with an urgent message from King Saud: the rapid action was needed to quiet his opponents at home and abroad; the strong relations are not affected. The Under Secretary: regrettable that the announcement came so abruptly, which precluded a joint statement; the United States hopes the close relations will continue.'
+    n: 'FRUS 1961–63, XVII, doc. [24](https://history.state.gov/historicaldocuments/frus1961-63v17/d24) (Battle to Dungan, Mar. 21, 1961: "on the afternoon of March 18"). See [[cal.1961-03-16.middle-east]]. Names: Saud ibn Abd al-Aziz Al Saud.'
+    tags: [name:saud-ibn-abd-al-aziz-al-saud]
+    time_range:
+      - 1961-03-18T17:00Z
+      - 1961-03-18T23:00Z
+    time_band: afternoon
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1961-03-19.robert-kennedy
     when: Mar. 19
     date: '1961-03-19'
@@ -5317,12 +5396,11 @@ entries:
     thread: jobs-and-wages
     follows:
       - cal.1961-03-24.jobs-and-wages
-    c: 'House adopts the weaker Ayres–Kitchin minimum wage substitute, [216–203](https://voteview.com/rollcall/RH0870014), then passes the bill, [341–78](https://voteview.com/rollcall/RH0870016).{1} The administration''s first floor defeat;{2} restored in conference.{3} Same day: temporary extended unemployment compensation signed.{4}'
-    n: 'CQ Almanac 1961. [75 Stat. 8](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg8.pdf) (1961). [[w.sorensen-kennedy]], 342, 356 (the minimum wage bill lost by one vote; restored); [[w.albert-little-giant-1990]], 247–48 (Albert leads the debate for the leadership''s version of the bill; "we lost to Kitchin-Ayres, 186 to 185," not the roll call on the substitute, 216–203, or any roll call of the day; restored in conference; not the passage, the day or "first"); [[w.obrien-no-final-victories]], 125 (the House loses "by a vote of 186 to 185," Albert''s count, not one of the day''s roll calls; Kennedy, told by O''Brien: "One vote! I can''t believe it!"; the conference''s two-step increase, $1.15, then $1.25 in two years; not the roll calls, "first" or the day). See [[cal.1961-02-02.program]]. Names: Goldberg, Powell, Kitchin, Ayres.'
+    c: House adopts the weaker Ayres–Kitchin minimum wage substitute, [216–203](https://voteview.com/rollcall/RH0870014), then passes the bill, [341–78](https://voteview.com/rollcall/RH0870016).{1} The administration's first floor defeat;{2} restored in conference.{3}
+    n: 'CQ Almanac 1961. [[w.sorensen-kennedy]], 342, 356 (the minimum wage bill lost by one vote; restored); [[w.albert-little-giant-1990]], 247–48 (Albert leads the debate for the leadership''s version of the bill; "we lost to Kitchin-Ayres, 186 to 185," not the roll call on the substitute, 216–203, or any roll call of the day; restored in conference; not the passage, the day or "first"); [[w.obrien-no-final-victories]], 125 (the House loses "by a vote of 186 to 185," Albert''s count, not one of the day''s roll calls; Kennedy, told by O''Brien: "One vote! I can''t believe it!"; the conference''s two-step increase, $1.15, then $1.25 in two years; not the roll calls, "first" or the day). Split under R17: the unemployment compensation act signed that day is [[cal.1961-03-24.jobs-and-wages-2]]. See [[cal.1961-02-02.program]]. Names: Goldberg, Powell, Kitchin, Ayres.'
     src:
-      c: 11ac39e3
+      c: a2991ad5
       rows:
-        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg8.pdf: 1, 2, 3, 4'
         - 'https://voteview.com/rollcall/RH0870014: 1'
         - 'https://voteview.com/rollcall/RH0870016: 1'
         - 'w.sorensen-kennedy 342, 356: 1, 2, 3'
@@ -5535,6 +5613,14 @@ entries:
     c: Zhu De 朱德 leaves Guangzhou 广州 for an inspection of Henan 河南省.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1801. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1961-03-24.jobs-and-wages-2
+    when: Mar. 24
+    date: '1961-03-24'
+    place: washington
+    thread: jobs-and-wages
+    c: 'Temporary Extended Unemployment Compensation Act of 1961, [75 Stat. 8](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg8.pdf), signed: some 700,000 jobless workers, their State benefits exhausted, to be helped at once; another 2.5 million within a year.'
+    n: 'Statement by the President Upon Signing the Temporary Extended Unemployment Compensation Act, [1961 Pub. Papers 220](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=278) (Mar. 24, 1961; "which I have just signed into law"; Public Law 87-6). [75 Stat. 8](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg8.pdf) (1961). Split under R17: the House''s votes of the day are [[cal.1961-03-24.program]]. See [[cal.1961-03-24.program]]; [[cal.1961-03-24.jobs-and-wages]].'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-03-25.soviet-union
     when: Mar. 25
     date: '1961-03-25'
@@ -5571,22 +5657,23 @@ entries:
     place: peking
     thread: china-zhou
     also: [china-organization]
-    c: Zhou Enlai back in Peking;{1} at the Zhongshan Park hall pays respects to Chen Geng 陈赓 (died Mar. 16 at Shanghai) and takes part in the public memorial.{2}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 25, 1961); [[w.yang-shangkun-riji]], I, 666 (Mar. 25, 1961; Zhou, Deng Xiaoping and Peng Zhen back from Hankou by air that morning); [[w.yang-shangkun-riji]], I, 667 (Mar. 25, 1961; the public memorial 公祭 for Chen Geng at the Zhongshan Tang 中山堂, 3 p.m.; Yang Shangkun and Li Bozhao there, Yang with the coffin to Babaoshan 八宝山, home at 5); [[w.chen-yi-nianpu]], 862 (Mar. 25, 1961, afternoon; Chen Yi at the capital''s public memorial for Chen Geng, the Zhongshan Hall of Zhongshan Park); [[w.peng-zhen-nianpu-1902]], IV, 114 (Mar. 25, 1961, afternoon; Peng Zhen, with Zhou Enlai, Lin Biao, Deng Xiaoping and others, at the public memorial for Chen Geng in Zhongshan Park (the page''s note: Chen Geng, 1903–1961, member of the Central Committee and the Military Commission and Vice-Minister of National Defense; died at Shanghai Mar. 16)). The entry read "Chen Guang"; the diary and its editors'' note name him Chen Geng 陈赓 ([[w.yang-shangkun-riji]], I, 664 and n.1). Names: Zhou Enlai, Chen Geng.'
+    c: Zhou Enlai back in Peking.{1} Deng Xiaoping and Peng Zhen come with him, from Hankou by air, in the morning.{2}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 25, 1961; 回到北京); [[w.yang-shangkun-riji]], I, 666 (Mar. 25, 1961; Zhou, Deng Xiaoping and Peng Zhen back from Hankou by air that morning: 上午…由汉口乘飞机回京); [[w.yang-shangkun-riji]], I, 667 (Mar. 25, 1961; the public memorial, 3 p.m.: not the return); [[w.chen-yi-nianpu]], 862 (Mar. 25, 1961, afternoon; the memorial: not the return); [[w.peng-zhen-nianpu-1902]], IV, 114 (Mar. 25, 1961, afternoon; the memorial: not the return); [[w.yang-shangkun-riji]], I, 666 (周, 邓, 彭 by the editors'' note 3). The hour: that morning (上午, Yang, I, 666). Made public: 1997. Split under R25b: the public memorial for Chen Geng at 3 p.m. is [[cal.1961-03-25.china-leadership-9]]. Names: Zhou Enlai, Deng Xiaoping, Peng Zhen.'
     src:
-      c: 34b57ece
+      c: 5bbc0997
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 399: ?'
-        - 'w.yang-shangkun-riji I, 666: 1'
-        - 'w.yang-shangkun-riji I, 667: 2'
+        - 'w.yang-shangkun-riji I, 667: ?'
         - 'w.chen-yi-nianpu 862: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 114: ?'
-    tags: [polity:prc, name:zhou-enlai, name:chen-geng]
+        - 'w.yang-shangkun-riji I, 666: 1, 2'
+    tags: [polity:prc, name:zhou-enlai, name:chen-geng, name:deng-xiaoping, name:peng-zhen]
     time_range:
+      - 1961-03-24T22:00Z
       - 1961-03-25T04:00Z
-      - 1961-03-25T06:00Z
-    time_band: workday midday
+    time_band: morning
     time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1961-03-25.china-leadership-3
     when: Mar. 25
     date: '1961-03-25'
@@ -5679,6 +5766,20 @@ entries:
     c: 'The Party groups of the State Planning Commission 国家计划委员会 and the State Economic Commission 国家经济委员会 report to the Center 中共中央 on saving coal: in the Leap coal output rose nearly 100 million tons a year; production and supply strained since.'
     n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 229–233. Made public: 1997.'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-03-25.china-leadership-9
+    when: Mar. 25
+    date: '1961-03-25'
+    time: 1961-03-25T07:00Z
+    time_approx: true
+    place: peking
+    thread: china-zhou
+    also: [china-organization]
+    follows:
+      - cal.1961-03-25.china-leadership-2
+    c: At the Zhongshan Park hall 中山堂 Zhou Enlai pays respects to Chen Geng 陈赓 (died Mar. 16 at Shanghai) and takes part in the public memorial 公祭.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 399 (Mar. 25, 1961; 前往设在中山公园的灵堂吊唁…并参加公祭); [[w.yang-shangkun-riji]], I, 667 (Mar. 25, 1961; the public memorial 公祭 for Chen Geng at the Zhongshan Tang 中山堂, 下午3时, 3 p.m.; Yang Shangkun and Li Bozhao there, Yang with the coffin to Babaoshan 八宝山, home at 5); [[w.chen-yi-nianpu]], 862 (Mar. 25, 1961, afternoon; Chen Yi at the capital''s public memorial for Chen Geng, the Zhongshan Hall of Zhongshan Park); [[w.peng-zhen-nianpu-1902]], IV, 114 (Mar. 25, 1961, afternoon; Peng Zhen, with Zhou Enlai, Lin Biao, Deng Xiaoping and others, at the public memorial for Chen Geng in Zhongshan Park (the page''s note: Chen Geng, 1903–1961, member of the Central Committee and the Military Commission and Vice-Minister of National Defense; died at Shanghai Mar. 16)). The hour: 3 p.m., when Yang goes to the hall (I, 667); the other nianpus have the afternoon. The entry read "Chen Guang"; the diary and its editors'' note name him Chen Geng 陈赓 ([[w.yang-shangkun-riji]], I, 664 and n.1). Made public: 1997. The order: after [[cal.1961-03-25.china-leadership-2]], Zhou''s return that morning (Yang, I, 666). Split under R25b: the return is [[cal.1961-03-25.china-leadership-2]]. See [[cal.1961-03-25.china-leadership-2]]. Names: Zhou Enlai, Chen Geng.'
+    tags: [polity:prc, name:zhou-enlai, name:chen-geng]
+    time_zone: Asia/Shanghai
   - id: cal.1961-03-26.laos
     when: Mar. 26
     date: '1961-03-26'
@@ -6890,6 +6991,13 @@ entries:
     c: Shanghai 上海. Chen Yun 陈云 has a medical examination; the doctors find his heart somewhat worse than before and tell him to work still less than in the past three months.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 80. Made public: 2015. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun, vis:only:prc]
+  - id: cal.1961-03-30.economy
+    when: Mar. 30
+    date: '1961-03-30'
+    thread: economy
+    c: Patman presses Martin by letter.
+    n: 'Split under R17 from [[cal.1961-03-06.economy]], whose line had it; no source read bears it (the FRASER page cited with it there is Heller''s statement of Mar. 6). See [[cal.1961-03-07.economy]]. Names: Patman, Martin. Check: the letter, its day and its matter: no source read.'
+    tags: [name:patman-wright, name:martin-william-mcchesney-jr]
   - id: cal.1961-03-31.opinion
     when: Mar. 31
     date: '1961-03-31'
@@ -6901,8 +7009,8 @@ entries:
     when: Mar. 31
     date: '1961-03-31'
     thread: cuba
-    c: Sugar Act extended to June 30, 1962, [75 Stat. 40](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg40.pdf), the President to fix Cuba's quota. Kennedy fixes it for 1961 at zero.
-    n: '[Proclamation 3401](https://www.presidency.ucsb.edu/documents/proclamation-3401-determination-cuban-sugar-quota-supplement-the-quota-established). See [[cal.1960-12-16.cuba]]. Names: Kennedy.'
+    c: Sugar Act extended to June 30, 1962, [75 Stat. 40](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg40.pdf), the President to fix Cuba's quota.
+    n: 'Split under R17: the proclamation fixing the quota, Mar. 31, is [[cal.1961-03-31.cuba-3]]. See [[cal.1960-12-16.cuba]]. Names: Kennedy.'
     tags: [name:kennedy-john-f]
     time_range:
       - 1961-03-31T14:00Z
@@ -7972,3 +8080,22 @@ entries:
     c: The Zhangjiakou 张家口 prefectural committee approves a trial of the "big contract" in distribution at Guoleizhuang 郭磊庄 brigade, Guoleizhuang commune, Huai'an 怀安 county.
     n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 709 n.5 (the committee''s report of Aug. 25, 1961). Made public: 1997. The report: [[cal.1961-08-25.china-leadership-8]].'
     tags: [polity:prc, vis:only:prc, ok:fields-place]
+  - id: cal.1961-03-13.foreign-aid-2
+    when: Mar., after the 13th
+    date: 1961-03
+    at: after 1961-03-13
+    place: washington
+    thread: foreign-aid
+    c: At the next hearing the State Department's witnesses bring a letter of Rusk's forbidding them to testify. The Legal Adviser withdraws it, asking Hardy to "treat it as though it had not been sent," and sends the documents.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 380 ("At the next hearing"; Hardy complains again to Kennedy; the documents transmitted; the hearing''s day not given). To check: Clark Mollenhoff, *Washington Cover-Up* (1962), 179–85 (cited by [[w.schlesinger-robert-kennedy-and-his]], 380 n.50). Split under R17: Rusk''s promise of Mar. 13 is [[cal.1961-03-13.foreign-aid]]. See [[cal.1961-03-13.foreign-aid]]. Names: Rusk, Hardy. Check: the days of the hearing and of the withdrawal: after Mar. 13; Schlesinger gives neither.'
+    tags: [name:rusk-dean, name:hardy-porter-jr]
+  - id: cal.1961-03-31.cuba-3
+    when: Mar. 31
+    date: '1961-03-31'
+    place: washington
+    thread: cuba
+    follows:
+      - cal.1961-03-31.cuba
+    c: Kennedy fixes Cuba's sugar quota for 1961 at zero, by Proclamation 3401.
+    n: '[Proclamation 3401](https://www.presidency.ucsb.edu/documents/proclamation-3401-determination-cuban-sugar-quota-supplement-the-quota-established) (Mar. 31, 1961; under the Sugar Act as amended by "the act of March 31, 1961"; the quota for calendar 1961 "shall be zero"; the delegation to the Secretary of Agriculture continued). The order: after [[cal.1961-03-31.cuba]], the proclamation''s recital of "the act of March 31, 1961". Split under R17: the Sugar Act''s extension is [[cal.1961-03-31.cuba]]. See [[cal.1960-12-16.cuba]]; [[cal.1961-03-31.cuba]]. Names: Kennedy.'
+    tags: [name:kennedy-john-f]

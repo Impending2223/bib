@@ -83,9 +83,9 @@ entries:
     when: Nov. 1
     date: '1962-11-01'
     thread: missile-crisis-settlement
-    c: 'Stevenson complains to Schlesinger: his report to the State Department of Wednesday night on U Thant''s conversations with Castro was in the newspapers by Thursday afternoon. Schlesinger tells Kennedy late in the afternoon; Kennedy learns from Manning that the report went out in 100 copies and the papers had it within two hours, and directs him to send each recipient a note, signed by Rusk, on the harm done. White House staff are now to report to Salinger each day the newsmen they have talked with. By Schlesinger''s journal.'
-    n: '[[w.schlesinger-journals]], 178. Made public: [[w.schlesinger-journals]] (2007). Names: Stevenson, Schlesinger, Thant, Castro, Kennedy, Manning, Rusk, Salinger.'
-    tags: [name:stevenson-adlai-e, name:schlesinger-arthur-m-jr, name:u-thant, name:castro-fidel, name:kennedy-john-f, name:manning-robert-j, name:rusk-dean, name:salinger-pierre]
+    c: 'Stevenson complains to Schlesinger: his report to the State Department of Wednesday night on U Thant''s conversations with Castro was in the newspapers by Thursday afternoon, to the embarrassment of Stevenson and U Thant.'
+    n: '[[w.schlesinger-journals]], 178 (Stevenson''s complaint, under Nov. 1). Made public: [[w.schlesinger-journals]] (2007). Names: Stevenson, Schlesinger, Thant, Castro.'
+    tags: [name:stevenson-adlai-e, name:schlesinger-arthur-m-jr, name:u-thant, name:castro-fidel]
   - id: cal.1962-11-01.china-leadership
     when: Nov. 1
     date: '1962-11-01'
@@ -183,6 +183,22 @@ entries:
       - 1962-11-01T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1962-11-01.missile-crisis-settlement-2
+    when: Nov. 1
+    date: '1962-11-01'
+    place: washington
+    thread: missile-crisis-settlement
+    follows:
+      - cal.1962-11-01.missile-crisis-settlement
+    c: Schlesinger reports Stevenson's complaint to Kennedy late in the afternoon. Kennedy, irritated, calls Manning and learns that the report went out in 100 copies and the papers had it within two hours; he directs Manning to send each recipient a note, signed by Rusk, on the harm the leak did. White House staff are now to report to Salinger each day the newsmen they have talked with.
+    n: '[[w.schlesinger-journals]], 178 ("late in the afternoon"). Made public: [[w.schlesinger-journals]] (2007). See [[cal.1962-11-01.missile-crisis-settlement]]. Names: Schlesinger, Kennedy, Manning, Rusk, Salinger.'
+    tags: [name:schlesinger-arthur-m-jr, name:kennedy-john-f, name:manning-robert-j, name:rusk-dean, name:salinger-pierre]
+    time_range:
+      - 1962-11-01T17:00Z
+      - 1962-11-01T23:00Z
+    time_band: afternoon
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1962-11-02.missile-crisis
     when: Nov. 2
     date: '1962-11-02'
@@ -713,11 +729,18 @@ entries:
   - id: cal.1962-11-05.china-leadership
     when: Nov. 5
     date: '1962-11-05'
+    place: peking
     thread: china-mao-foreign
     also: [china-foreign]
     c: Evening. Mao receives a Venezuelan Communist Party delegation on military study; Liu Ningyi present. Tells of China's armed struggle; advises them to study Cuba's experience, nearer and newer, and Algeria's; Chinese experience is a reference, not to be copied. "The future is bright, the road winding."
     n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 5, 1962. Made public: 2013. Names: Mao Zedong, Liu Ningyi.'
     tags: [polity:prc, name:mao-zedong, vis:only:prc, name:liu-ningyi]
+    time_range:
+      - 1962-11-05T11:00Z
+      - 1962-11-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1962-11-05.china-leadership-2
     when: Nov. 5–8
     date: '1962-11-05'
@@ -2330,17 +2353,15 @@ entries:
     date: '1962-11-09'
     thread: missile-crisis-settlement
     also: [robert-kennedy]
-    c: 'At his home, Robert Kennedy to Bolshakov, by Dobrynin''s report, as his "personal opinion": the Il-28s to go "as soon as possible," no date named, or to be flown only by Soviet pilots.{1} An hour later, after telling the President at the dinner for Gavin, he calls to take it back: "the rapid removal of the Il-28s from Cuba."{2}'
-    n: '[[w.fursenko-one-hell-of-a]], 299–300; [[w.fursenko-khrushchevs-cold-war]], 499. An hour before his call from the dinner for Gavin, in the evening: [[w.fursenko-one-hell-of-a]], 300. To check: Dobrynin to the Foreign Ministry, Nov. 9, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 300 n.45, n.47); Robert Kennedy''s desk diary, 1962, JFK Library (cited by [[w.fursenko-one-hell-of-a]], 300 n.46, the dinner). See [[cal.1962-11-06.missile-crisis]]. Names: Robert Kennedy, Bolshakov, Dobrynin, Gavin.'
+    c: 'At his home, Robert Kennedy to Bolshakov, by Dobrynin''s report, as his "personal opinion": the Il-28s to go "as soon as possible," no date named, or to be flown only by Soviet pilots.{1}'
+    n: '[[w.fursenko-one-hell-of-a]], 299–300; [[w.fursenko-khrushchevs-cold-war]], 499 ("Before dressing for a formal dinner on November 9," at his home). To check: Dobrynin to the Foreign Ministry, Nov. 9, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 300 n.45). See [[cal.1962-11-06.missile-crisis]]. Names: Robert Kennedy, Bolshakov, Dobrynin.'
     src:
-      c: ef5d159e
+      c: 32782b75
       rows:
-        - 'w.fursenko-one-hell-of-a 299–300: 1, 2'
+        - 'w.fursenko-one-hell-of-a 299–300: 1'
         - 'via w.fursenko-one-hell-of-a 300 n.45: 1'
-        - 'via w.fursenko-one-hell-of-a 300 n.46: 2'
-        - 'via w.fursenko-one-hell-of-a 300 n.47: 2'
-        - 'w.fursenko-khrushchevs-cold-war 499: 1, 2'
-    tags: [name:kennedy-robert-f, name:bolshakov-georgi, name:dobrynin-anatoly, name:gavin-james-m]
+        - 'w.fursenko-khrushchevs-cold-war 499: 1'
+    tags: [name:kennedy-robert-f, name:bolshakov-georgi, name:dobrynin-anatoly]
     time_range:
       - 1962-11-09T22:00Z
       - 1962-11-10T03:00Z
@@ -2537,6 +2558,40 @@ entries:
     c: Peking 北京. Zhu De 朱德 inspects the Peking jade works 北京玉器厂.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1854. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1962-11-09.missile-crisis-settlement-2
+    when: Nov. 9
+    date: '1962-11-09'
+    place: washington
+    thread: missile-crisis-settlement
+    also: [robert-kennedy]
+    follows:
+      - cal.1962-11-09.missile-crisis
+    c: The White House, the dinner and dance for General Gavin. Early in the dinner Robert Kennedy reports to the President on his talk with Bolshakov; the President tells him to stop hinting at a deal that leaves the Il-28s in Cuba.
+    n: '[[w.fursenko-one-hell-of-a]], 300 ("At some point early in the dinner"). To check: Robert Kennedy''s desk diary, 1962, JFK Library (cited by [[w.fursenko-one-hell-of-a]], 300 n.46). See [[cal.1962-11-09.missile-crisis]]. Names: Robert Kennedy, Kennedy, Gavin, Bolshakov.'
+    tags: [name:kennedy-robert-f, name:kennedy-john-f, name:gavin-james-m, name:bolshakov-georgi]
+    time_range:
+      - 1962-11-10T00:00Z
+      - 1962-11-10T03:00Z
+    time_band: evening
+    time_zone: America/New_York
+    range_basis: record
+  - id: cal.1962-11-09.missile-crisis-settlement
+    when: Nov. 9
+    date: '1962-11-09'
+    place: washington
+    thread: missile-crisis-settlement
+    also: [robert-kennedy]
+    follows:
+      - cal.1962-11-09.missile-crisis-settlement-2
+    c: 'Robert Kennedy telephones Bolshakov to take it back: his words were a "private opinion"; for the President a settlement requires "the rapid removal of the Il-28s from Cuba."{2}'
+    n: '[[w.fursenko-one-hell-of-a]], 300 ("an hour later"); [[w.fursenko-khrushchevs-cold-war]], 499 ("An hour after their brief meeting"). The order: after [[cal.1962-11-09.missile-crisis-settlement-2]], [[w.fursenko-one-hell-of-a]], 300. To check: Dobrynin to the Foreign Ministry, Nov. 9, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 300 n.47). See [[cal.1962-11-09.missile-crisis]]. Names: Robert Kennedy, Bolshakov.'
+    src:
+      c: 0247bde4
+      rows:
+        - 'w.fursenko-one-hell-of-a 300: 2'
+        - 'via w.fursenko-one-hell-of-a 300 n.47: 2'
+        - 'w.fursenko-khrushchevs-cold-war 499: 2'
+    tags: [name:kennedy-robert-f, name:bolshakov-georgi]
   - id: cal.1962-11-10.middle-east-yemen
     when: Nov. 10
     date: '1962-11-10'
@@ -3338,14 +3393,19 @@ entries:
     date: '1962-11-15'
     thread: missile-crisis-anadyr
     also: [cuba, soviet-union]
-    c: 'Castro at an antiaircraft battery outside Havana: from Saturday or Sunday the order to fire again on American warplanes; twenty to thirty low-level flights a day over Cuba. That night with Mikoyan, told of the talks with Robert Kennedy on the Il-28s, he tells of his order and his letter to U Thant. Mikoyan: "Why did you not tell me about this letter before sending it to U Thant?" Castro will not reverse the order.'
-    n: '[[w.fursenko-one-hell-of-a]], 304–5. To check: Mikoyan to Khrushchev, Nov. 17, 1962, f. 3, op. 65, d. 911, 100–103, 126–35, APRF (cited by [[w.fursenko-one-hell-of-a]], 304–5 n.61–68). See [[cal.1962-11-16.soviet-union]]. Names: Castro, Mikoyan, Robert Kennedy, U Thant.'
+    c: 'Castro at an antiaircraft battery outside Havana, a few hours before his appointment with Mikoyan: from Saturday or Sunday the order to fire again on American warplanes; twenty to thirty low-level flights a day over Cuba.'
+    n: '[[w.fursenko-one-hell-of-a]], 304 ("A few hours before his appointment with Mikoyan"). To check: Mikoyan to Khrushchev, Nov. 18, 1962, f. 3, op. 65, d. 911, 181–83, APRF; Burris to Johnson, "Low-Level Reconnaissance Mission over Cuba," Dec. 4, 1962, CMC/NSA (cited by [[w.fursenko-one-hell-of-a]], 304 n.63). See [[cal.1962-11-16.soviet-union]]. Names: Castro, Mikoyan.'
     src:
-      c: df0280a4
+      c: 688a9a80
       rows:
-        - 'w.fursenko-one-hell-of-a 304–5: all'
-        - 'via w.fursenko-one-hell-of-a 305 n.66: all'
-    tags: [name:castro-fidel, name:mikoyan-anastas, name:kennedy-robert-f, name:u-thant]
+        - 'w.fursenko-one-hell-of-a 304: all'
+    tags: [name:castro-fidel, name:mikoyan-anastas]
+    time_range:
+      - 1962-11-15T17:00Z
+      - 1962-11-15T23:00Z
+    time_band: afternoon
+    time_zone: America/Havana
+    range_basis: record
   - id: cal.1962-11-15.missile-crisis-4
     when: Nov. 15
     date: '1962-11-15'
@@ -3534,6 +3594,25 @@ entries:
     c: Peking 北京. Zhu De 朱德 presides at the sixty-eighth session of the Second National People's Congress Standing Committee 第二届全国人大常委会, which approves the Sino-Korean Treaty of Commerce and Navigation 《中华人民共和国和朝鲜民主主义人民共和国通商航海条约》 and hears Wang Xinyuan 王新元, Vice-Minister of Light Industry 轻工业部, on light industry's output.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1854. See [[cal.1962-11-15.china-leadership-10]] (Peng Zhen at the sessions). Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1962-11-15.missile-crisis-anadyr
+    when: Nov. 15
+    date: '1962-11-15'
+    time: 1962-11-16T00:55Z
+    time_approx: true
+    place: havana
+    thread: missile-crisis-anadyr
+    also: [cuba, soviet-union]
+    follows:
+      - cal.1962-11-15.missile-crisis-3
+    c: 'That night, at dinner at the Soviet embassy, Castro with Mikoyan, who tells him of the talks with Robert Kennedy on the Il-28s. Castro tells of his order and his letter to U Thant. Mikoyan: "Why did you not tell me about this letter before sending it to U Thant?" Castro will not reverse the order.'
+    n: '[[w.fursenko-one-hell-of-a]], 304–5 ("A few minutes before 8 P.M., Castro arrived for dinner at the Soviet embassy"; Mikoyan''s account to Khrushchev). To check: Mikoyan to Khrushchev, Nov. 17, 1962, f. 3, op. 65, d. 911, 126–35, APRF (cited by [[w.fursenko-one-hell-of-a]], 305 n.65). See [[cal.1962-11-15.missile-crisis-3]]; [[cal.1962-11-16.soviet-union]]. Names: Castro, Mikoyan, Robert Kennedy, U Thant.'
+    src:
+      c: b58cb835
+      rows:
+        - 'w.fursenko-one-hell-of-a 304–5: all'
+        - 'via w.fursenko-one-hell-of-a 305 n.66: all'
+    tags: [name:castro-fidel, name:mikoyan-anastas, name:kennedy-robert-f, name:u-thant]
+    time_zone: America/Havana
   - id: cal.1962-11-16.economy
     when: Nov. 16
     date: '1962-11-16'
@@ -4111,20 +4190,23 @@ entries:
   - id: cal.1962-11-19.china
     when: Nov. 19
     date: '1962-11-19'
+    time: 1962-11-19T08:30Z
     place: peking
     thread: china
     also: [south-asia]
     follows:
       - cal.1962-11-19.south-asia
-    c: Zhongnanhai.{1} Mao Zedong twice calls Zhou Enlai and others to meetings at his residence.{2}
-    n: '[[w.mao-zedong-zhuan]], V, ch. 71; [[w.jian-zhou-enlai]], 482 (Nov. 18: Zhou "rushed to Mao''s residence half an hour" after Mao''s note, and told him this was something new). [[w.zhou-enlai-nianpu-1949]], II, 513 (Nov. 19, 1962: Zhou Enlai goes twice to Mao''s for meetings, and talks with Foreign Ministry people between); [[w.mao-zedong-zhuan]], V, ch. 71 (Nov. 19: Mao twice calls Zhou Enlai and others to meetings at his residence at Zhongnanhai; Zhou and Chen Yi then receive the Indian chargé Banerjee). Made public: Check (2011 at the latest). Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 71), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.zhou-enlai-nianpu-1949]], cited here, prints it. To check: [[w.zedong-mao-zedong-nianpu]], V, 169. Names: Mao Zedong, Zhou Enlai. Check: the day (Chen: Nov. 18).'
+    c: Zhongnanhai.{1} At 4:30 p.m. Mao Zedong calls Zhou Enlai and others to Juxiang Shuwu 菊香书屋 to study how to promote peace talks with India, the second meeting of the day; Zhou comes half an hour after Mao's note and tells him this is something new.{2}
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 19, 1962 (下午四时, Mao''s note; 四时半，在中南海菊香书屋召集周恩来等开会，研究促进中印和平谈判问题: at 4:30 p.m., a meeting at Juxiang Shuwu on promoting Sino-Indian peace talks; after it Zhou Enlai and Chen Yi see India''s chargé). [[w.jian-zhou-enlai]], 482 (Nov. 18: Zhou "rushed to Mao''s residence half an hour later," and told him this was something new); [[w.zhou-enlai-nianpu-1949]], II, 513 (Nov. 19, 1962: after two meetings at Mao''s and a talk with the Foreign Ministry''s people, Zhou and Chen Yi receive Banerjee); [[w.mao-zedong-zhuan]], V, ch. 71 (Nov. 19: Mao twice calls Zhou Enlai and others to meetings at his residence at Zhongnanhai; Zhou and Chen Yi then receive the Indian chargé Banerjee). Made public: Check (2011 at the latest). Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 71), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.zhou-enlai-nianpu-1949]], cited here, prints it. The hour: 4:30 p.m. (the Mao nianpu, Nov. 19); the Wengao dates the note 4 p.m. on Nov. 19 ([[w.jianguo-yilai-mao-zedong]], XVI, 435); Jian, 482, puts the note and the visit on Nov. 18 ([[cal.1962-11-19.south-asia]]). Names: Mao Zedong, Zhou Enlai. Check: the day (Chen: Nov. 18).'
     src:
-      c: dfd25ed9
+      c: 2efc0f12
       rows:
-        - 'w.jian-zhou-enlai 482: ?'
-        - 'w.zhou-enlai-nianpu-1949 II, 513: ?'
+        - 'w.zedong-mao-zedong-nianpu V, Nov. 19, 1962: 2'
+        - 'w.jian-zhou-enlai 482: 2'
+        - 'w.zhou-enlai-nianpu-1949 II, 513: 2'
         - 'w.mao-zedong-zhuan V, ch. 71: 2'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1962-11-19.south-asia
     when: Nov. 19
     date: '1962-11-19'
@@ -4278,13 +4360,28 @@ entries:
       - 1962-11-19T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1962-11-19.china-3
+    when: Nov. 19
+    date: '1962-11-19'
+    place: peking
+    thread: china
+    also: [south-asia]
+    c: Zhongnanhai, Juxiang Shuwu 菊香书屋, morning. Mao Zedong calls Zhou Enlai and others to a meeting, the first of two that day.
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Nov. 19, 1962 (上午，在中南海菊香书屋召集周恩来等开会: in the morning, at Juxiang Shuwu). [[w.zhou-enlai-nianpu-1949]], II, 513 (Nov. 19, 1962: "两次到毛泽东处开会", twice to Mao''s for meetings); [[w.mao-zedong-zhuan]], V, ch. 71 (Mao twice calls Zhou Enlai and others to meetings at his residence). Made public: Check (2011 at the latest). See [[cal.1962-11-19.china]]. Names: Mao Zedong, Zhou Enlai.'
+    tags: [name:mao-zedong, name:zhou-enlai, polity:prc]
+    time_range:
+      - 1962-11-18T22:00Z
+      - 1962-11-19T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1962-11-20.missile-crisis-2
     when: Nov. 20
     date: '1962-11-20'
     place: moscow
     thread: missile-crisis-settlement
     c: 'Khrushchev: the IL-28s out within a month, with the Soviet personnel who serve them.{1}'
-    n: 'FRUS 1961–63, VI, doc. [79](https://history.state.gov/historicaldocuments/frus1961-63v06/d79). [[w.schlesinger-robert-kennedy-and-his]], 526–27 (the letter, handed by Dobrynin to Robert Kennedy that morning); [[w.sorensen-kennedy]], 721; [[w.fursenko-khrushchevs-cold-war]], 503 (Dobrynin to Robert Kennedy: the Il-28s out within thirty days); [[w.taylor-swords-and-plowshares]], 277 (Khrushchev yields Nov. 20, the IL-28s out within thirty days; the last checked off Dec. 6). [[w.fursenko-one-hell-of-a]], 309–10 (delivered by Bolshakov, Nov. 20). See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
+    n: 'FRUS 1961–63, VI, doc. [79](https://history.state.gov/historicaldocuments/frus1961-63v06/d79). [[w.schlesinger-robert-kennedy-and-his]], 526–27 (the letter, handed by Dobrynin to Robert Kennedy that morning); [[w.sorensen-kennedy]], 721; [[w.fursenko-khrushchevs-cold-war]], 503 (Dobrynin to Robert Kennedy: the Il-28s out within thirty days); [[w.taylor-swords-and-plowshares]], 277 (Khrushchev yields Nov. 20, the IL-28s out within thirty days; the last checked off Dec. 6). [[w.fursenko-one-hell-of-a]], 309–10 (delivered by Bolshakov, Nov. 20). Check: the hour. FRUS VI, doc. 79 gives the day alone, Moscow, Nov. 20; the range is the Moscow workday of the writing. Schlesinger, 526–27, has Dobrynin hand the letter to Robert Kennedy at his office in the morning in Washington; Fursenko and Naftali, 309–10, have Bolshakov deliver it to the President. See [[cal.1962-10-16.missile-crisis]]. Made public: *Problems of Communism*, special ed., Spring 1992. Names: Khrushchev.'
     src:
       c: 898f4844
       rows:
@@ -4652,6 +4749,33 @@ entries:
     n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 834 (question 7). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). The order: after the housing order, which the conference took up at 831–32 (1962 Pub. Papers). See [[cal.1962-11-20.missile-crisis]]. Names: Collins, Kennedy.'
     tags: [name:kennedy-john-f, name:collins-leroy]
     time_zone: America/New_York
+  - id: cal.1962-11-20.missile-crisis-settlement
+    when: Nov. 20
+    date: '1962-11-20'
+    place: washington
+    thread: missile-crisis-settlement
+    also: [robert-kennedy]
+    follows:
+      - cal.1962-11-20.missile-crisis-2
+    c: 'Morning. Dobrynin brings Robert Kennedy, at his office, Khrushchev''s letter agreeing to take out the Il-28s in thirty days: "I have a birthday present for you."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 526 (the morning of Nov. 20, his thirty-seventh birthday). Check: Fursenko and Naftali have Bolshakov deliver the message to the President on Nov. 20 ([[w.fursenko-one-hell-of-a]], 309). See [[cal.1962-11-20.missile-crisis-2]]. Names: Dobrynin, Robert Kennedy.'
+    tags: [name:dobrynin-anatoly, name:kennedy-robert-f]
+    time_range:
+      - 1962-11-20T11:00Z
+      - 1962-11-20T17:00Z
+    time_band: morning
+    time_zone: America/New_York
+    range_basis: record
+  - id: cal.1962-11-20.governors-mn-recount
+    when: Nov. 20
+    date: '1962-11-20'
+    time: 1962-11-20T16:00Z
+    place: st-paul
+    thread: governors-mn-recount
+    c: Minnesota's State Canvassing Board meets at 10 a.m. in the Secretary of State's office; Hennepin County's report not yet in, it adjourns.
+    n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface. See [[cal.1962-11-06.governors-mn]].'
+    tags: [state:mn]
+    time_zone: America/Chicago
   - id: cal.1962-11-21.space
     when: Nov. 21
     date: '1962-11-21'
@@ -4703,7 +4827,7 @@ entries:
     also: [soviet-union]
     part_of: cal.1962-11-21.soviet-union-leadership-2
     c: 'The Presidium, on the Pathet Lao''s request for arms: Khrushchev ends the Soviet airlift. "What is most important now is peace"; "If they want a war, it will be their own affair."'
-    n: '[[w.fursenko-one-hell-of-a]], 323; [[w.fursenko-khrushchevs-cold-war]], 504–05 ("We will not do it!"; "Peace has been made without winners and losers"; "We did everything we could"); [[w.prezidium-tsk-kpss-1954]], I, 646 (Protocol 68, item II). Check: the protocol (I, 646) and its note (I, 1115 n.2) give the ambassador''s instructions and the coalition government''s request for economic aid, not a Pathet Lao request for arms. Names: Khrushchev.'
+    n: '[[w.fursenko-one-hell-of-a]], 323; [[w.fursenko-khrushchevs-cold-war]], 504–05 ("We will not do it!"; "Peace has been made without winners and losers"; "We did everything we could"); [[w.prezidium-tsk-kpss-1954]], I, 646 (Protocol 68, item II, Nov. 21, 1962, Malin''s notes, "On instructions to the Soviet ambassador in Laos," Khrushchev: "Не будем делать: летать, поставлять секретным порядком оружие" (we will not fly or supply arms secretly); "Главное мир. Мир заключен без побежденных и победителей"; "Если хотите вести войну это ваше внутреннее дело"; the Pathet Lao "shows no flexibility"). Check: the protocol (I, 646) and its note (I, 1115 n.2) give the ambassador''s instructions and the coalition government''s request for economic aid, not a Pathet Lao request for arms. Names: Khrushchev.'
     src:
       c: 153f0f72
       rows:
@@ -5221,6 +5345,14 @@ entries:
     c: 'Ye Jianying 叶剑英 speaks to the army''s conference on military training work 全军军训工作会议, on three questions: why training on a large scale is needed now; the contradiction between training and production; joining training to scientific research.'
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 897. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
+  - id: cal.1962-11-23.governors-mn-recount
+    when: Nov. 23
+    date: '1962-11-23'
+    place: minnesota
+    thread: governors-mn-recount
+    c: The Canvassing Board meets again and signs and files its final report on every office it canvassed except Governor.
+    n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface. See [[cal.1962-11-20.governors-mn-recount]].'
+    tags: [state:mn]
   - id: cal.1962-11-24.defense
     when: Nov. 24
     date: '1962-11-24'
@@ -5351,10 +5483,10 @@ entries:
     place: budapest
     thread: china-polemic
     also: [soviet-union, comecon]
-    c: 'Budapest, the final day of the Hungarian congress. In the morning an official asks whether the Chinese delegation will speak at the closing reception that night. As no directive has come from Beijing, Wu Xiuquan promises a reply in the afternoon. A telegram arrives in the lunch interval, with instructions to use the reception to rebut critics on three points: that the worsening of relations between the CPSU and the CCP and the Albanians is attributable to Moscow, that the anti-China chorus is directed by the CPSU, and that party congresses should promote unity, not split. It includes an official Chinese statement to be read out.'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 319–20. Made public: 1991. To check: [[w.xiuquan-huiyi-yu-huainian]], 349–52 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 320 n.119). Check: the hour of the telegram; the calendar''s entry for the Peking meeting on the delegation''s cable ([[cal.1962-11.china-leadership]]) is dated after Nov. 21. Names: Wu Xiuquan.'
+    c: Budapest, the final day of the Hungarian congress. In the morning an official asks whether the Chinese delegation will speak at the closing reception that night. As no directive has come from Beijing, Wu Xiuquan promises a reply in the afternoon.
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 319–20. Made public: 1991. To check: [[w.xiuquan-huiyi-yu-huainian]], 349–52 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 320 n.119). Names: Wu Xiuquan.'
     src:
-      c: '42211643'
+      c: 782da299
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 319–20: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 320 n.119: all'
@@ -5407,6 +5539,23 @@ entries:
       - 1962-11-24T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1962-11-24.china-polemic
+    when: Nov. 24
+    date: '1962-11-24'
+    place: budapest
+    thread: china-polemic
+    also: [soviet-union, comecon]
+    follows:
+      - cal.1962-11-24.china-leadership
+    c: 'Budapest. A telegram arrives in the lunch interval, with instructions to use the closing reception to rebut critics on three points: that the worsening of relations between the CPSU and the CCP and the Albanians is attributable to Moscow, that the anti-China chorus is directed by the CPSU, and that party congresses should promote unity, not split. It includes an official Chinese statement to be read out.'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 319–20 ("a telegram arrived in the lunch interval"). Made public: 1991. To check: [[w.xiuquan-huiyi-yu-huainian]], 349–52 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 320 n.119). Check: the hour of the telegram, and the day it was sent from Peking; the calendar''s entry for the Peking meeting on the delegation''s cable ([[cal.1962-11.china-leadership]]) is dated after Nov. 21. See [[cal.1962-11-24.china-leadership]]. Names: Wu Xiuquan.'
+    tags: [polity:prc, polity:hungary, vis:only:prc, name:wu-xiuquan]
+    time_range:
+      - 1962-11-24T11:00Z
+      - 1962-11-24T13:00Z
+    time_band: workday midday
+    time_zone: Europe/Budapest
+    range_basis: record
   - id: cal.1962-11-25.school-aid
     when: Nov. 25
     date: '1962-11-25'
@@ -5504,17 +5653,13 @@ entries:
   - id: cal.1962-11-26.governors-mn-recount
     when: Nov. 26
     date: '1962-11-26'
+    time: 1962-11-26T20:00Z
     place: minnesota
     thread: governors-mn-recount
     c: Minnesota's State Canvassing Board deadlocks on the amended returns.
-    n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface. See [[cal.1962-11-06.governors-mn]].'
+    n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface ("on November 26, 1962 at 2:00 P.M."). See [[cal.1962-11-06.governors-mn]].'
     tags: [state:mn]
-    time_range:
-      - 1962-11-26T15:00Z
-      - 1962-11-26T23:00Z
-    time_band: workday daytime
     time_zone: America/Chicago
-    range_basis: kind
   - id: cal.1962-11-26.vietnam
     when: Nov. 26
     date: '1962-11-26'
@@ -5555,7 +5700,7 @@ entries:
     thread: elections-1964
     also: [republican-party]
     c: 'Philadelphia, the Army-Navy game. Kennedy, beside Gilpatric, who has known the Rockefeller brothers since childhood, questions him about Nelson Rockefeller: the family, their homes, the foundations, his private life.'
-    n: '[[w.reeves-president-kennedy]], 435. To check: Roswell Gilpatric, interview by Reeves; Gilpatric oral history, 93–94, JFK Library (cited by [[w.reeves-president-kennedy]], 435). Names: Kennedy, Gilpatric, Nelson Rockefeller.'
+    n: '[[w.reeves-president-kennedy]], 435. Check: the day. Reeves, 435, has the game on Nov. 26, 1962, a Monday; the Army–Navy game is played on a Saturday. The records to read: the President''s Appointment Book (Kennedy Library) and the press of the game''s day; Gilpatric''s oral history, 93–94, which Reeves cites (435 n.), is not on hand. To check: Roswell Gilpatric, interview by Reeves; Gilpatric oral history, 93–94, JFK Library (cited by [[w.reeves-president-kennedy]], 435). Names: Kennedy, Gilpatric, Nelson Rockefeller.'
     src:
       c: 5f04c043
       rows:
@@ -5823,12 +5968,12 @@ entries:
     time_zone: America/New_York
     range_basis: kind
   - id: cal.1962-11-28.governors-mn-recount
-    when: Nov. 28–29
+    when: Nov. 28
     date: '1962-11-28'
     place: minnesota
     thread: governors-mn-recount
-    c: 'Ordered by the Minnesota Supreme Court, Nov. 28, to count the amended returns, the Canvassing Board declares Andersen elected, Nov. 29: Andersen 619,722, Rolvaag 619,580.'
-    n: '*Rolvaag v. Donovan*, [264 Minn. 257](https://static.case.law/minn/264/case-pdfs/0257-01.pdf), 119 N.W.2d 1 (1962) (the order of Nov. 28; opinion filed Dec. 11). [*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf). See [[cal.1962-11-06.governors-mn]]. Names: Andersen, Rolvaag.'
+    c: The Minnesota Supreme Court, hearing the petitions of Andersen and Rolvaag on Nov. 28, orders the State Canvassing Board to reassemble and count the amended returns of ten counties.
+    n: '*Rolvaag v. Donovan*, [264 Minn. 257](https://static.case.law/minn/264/case-pdfs/0257-01.pdf), 119 N.W.2d 1 (1962) (heard Nov. 28; the order "made and filed" the same sitting, day not stated in the opinion; opinion filed Dec. 11). Check: the day of the order: the opinion has the hearing on Nov. 28 and the order made and filed with no day; the Board''s declaration of Nov. 29 calls it "the order of the Supreme Court dated November 29, 1962" ([*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf)). See [[cal.1962-11-06.governors-mn]]. Names: Andersen, Rolvaag.'
     tags: [state:mn, name:andersen-elmer-l, name:rolvaag-karl-f]
   - id: cal.1962-11-28.states-and-cities
     when: Nov. 28
@@ -6179,6 +6324,14 @@ entries:
         - 'w.yang-shangkun-riji II, 228: all'
     tags: [polity:prc, vis:only:prc, name:wang-dongxing, name:yang-shangkun]
     time_zone: Asia/Shanghai
+  - id: cal.1962-11-29.governors-mn-recount
+    when: Nov. 29
+    date: '1962-11-29'
+    place: minnesota
+    thread: governors-mn-recount
+    c: 'The State Canvassing Board, in final session pursuant to the Supreme Court''s order, counts the amended returns from ten counties and declares Andersen elected Governor: Andersen 619,722, Rolvaag 619,580, Braatz 7,234.'
+    n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf) (Preface; the declaration of Nov. 29, 1962, signed by all five members). *Rolvaag v. Donovan*, [264 Minn. 257](https://static.case.law/minn/264/case-pdfs/0257-01.pdf), 119 N.W.2d 1 (1962) (the order). See [[cal.1962-11-06.governors-mn]]; [[cal.1962-11-28.governors-mn-recount]]. Names: Andersen, Rolvaag.'
+    tags: [state:mn, name:andersen-elmer-l, name:rolvaag-karl-f]
   - id: cal.1962-11-30.governors-nm
     when: Nov. 30
     date: '1962-11-30'

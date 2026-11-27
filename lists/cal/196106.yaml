@@ -401,9 +401,18 @@ entries:
     follows:
       - cal.1961-06-03.berlin-and-vienna-4
       - cal.1961-06-03.berlin-and-vienna
-    c: 'Vienna, the luncheon, Kennedy to Khrushchev, who is wearing the Lenin peace medal: "I hope you get to keep it."'
+    c: 'Vienna, the luncheon, Kennedy to Khrushchev, who is wearing the Lenin peace medal: "I hope you get to keep it."{1}'
     n: '[[w.odonnell-johnny-we-hardly-knew]], 335 (O''Donnell''s and Powers''s account). After [[cal.1961-06-03.berlin-and-vienna|the first talk]]: the leaders talk for an hour in the embassy and then come in to lunch ([[w.salinger-with-kennedy]], 177–78; [[w.odonnell-johnny-we-hardly-knew]], 333–35). Names: Kennedy, Khrushchev.'
+    src:
+      c: b79d3938
+      rows:
+        - 'w.odonnell-johnny-we-hardly-knew 335: ?'
     tags: [name:kennedy-john-f, name:khrushchev-nikita-s, polity:ussr]
+    variants:
+      - unit: '1'
+        witness: w.salinger-with-kennedy
+        reads: 'Khrushchev "proudly told him it was the Lenin Peace Medal"; Kennedy: "I hope you do nothing to make them take it away from you"'
+        at: '178'
   - id: cal.1961-06-03.berlin-and-vienna-4
     when: June 3
     date: '1961-06-03'
@@ -412,7 +421,17 @@ entries:
     also: [press-and-broadcasting]
     c: 'Vienna, the morning of Salinger''s arrival. Kharlamov, Khrushchev''s spokesman, and Salinger agree through interpreters on handling the joint communiqués. Kharlamov has met Mrs. Jarvis of NBC on her plan for a debate on American television; Salinger wants it shown in the Soviet Union too. Kharlamov will speak to Adzhubei in Moscow: "I think it can be arranged." By Salinger''s account.'
     n: '[[w.salinger-with-kennedy]], 176–77. Names: Kharlamov, Khrushchev, Salinger, Adzhubei.'
+    src:
+      c: 80146d04
+      rows:
+        - 'w.salinger-with-kennedy 176–77: time'
     tags: [name:salinger-pierre, name:kharlamov-mikhail-a, name:khrushchev-nikita-s, name:adzhubei-aleksei]
+    time_range:
+      - 1961-06-03T05:00Z
+      - 1961-06-03T11:00Z
+    time_band: morning
+    time_zone: Europe/Vienna
+    range_basis: record
   - id: cal.1961-06-03.berlin-and-vienna-5
     when: June 3
     date: '1961-06-03'
@@ -1697,13 +1716,14 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [europe-and-the-alliance-federal-republic, japan, china-foreign, comecon]
-    c: 'Zhou Enlai receives the East German Ambassador, Johann Hegen, on the foreign policy of the Kennedy administration and the revival of West German and Japanese militarism: China''s policy is to strengthen the unity and force of the socialist camp, hold position, use imperialist contradictions flexibly, and firmly support Asian and African national independence movements and every anti-imperialist and peace force.{1}'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 415 (June 9, 1961); [[w.zhou-enlai-waijiao-huodong]], 313 (June 9, 1961; 晚11时, 中南海西花厅, 新任驻华大使). Made public: 1993. Names: Zhou Enlai.'
+    c: 'Zhou Enlai receives the East German Ambassador, Josef Hegen 约瑟夫·黑根, on the foreign policy of the Kennedy administration and the revival of West German and Japanese militarism: China''s policy is to strengthen the unity and force of the socialist camp, hold position, use imperialist contradictions flexibly, and firmly support Asian and African national independence movements and every anti-imperialist and peace force.{1}'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 415 (June 9, 1961); [[w.zhou-enlai-waijiao-huodong]], 313 (June 9, 1961; 晚11时, 中南海西花厅, 新任驻华大使); [[w.chen-yi-nianpu]], 869 (Apr. 29, 1961; 德意志民主共和国新任驻中国特命全权大使约瑟夫·黑根拜会陈毅: the new Ambassador''s full name; not the talk with Zhou). The name: the nianpu prints 约·黑根 (II, 415) and the Waijiao huodong 黑根 (313); the Ambassador is the new one who called on Chen Yi Apr. 29 as 约瑟夫·黑根 ([[w.chen-yi-nianpu]], 869; [[cal.1961-04-29.china-leadership-9]]). Made public: 1993. Names: Zhou Enlai.'
     src:
-      c: 35f55612
+      c: a779cf7d
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 415: ?'
         - 'w.zhou-enlai-waijiao-huodong 313: 1'
+        - 'w.chen-yi-nianpu 869: ?'
     tags: [polity:prc, polity:gdr, name:zhou-enlai, vis:only:prc+gdr]
     time_zone: Asia/Shanghai
   - id: cal.1961-06-09.china-leadership-3
@@ -2467,21 +2487,23 @@ entries:
   - id: cal.1961-06-13.china-leadership
     when: June 13
     date: '1961-06-13'
+    time: 1961-06-13T10:20Z
     place: peking
     thread: china-mao-foreign
     also: [indonesia, china-foreign]
     c: 'The Qinzheng Hall, evening.{1} Mao receives Sukarno, President of Indonesia;{2} Liu Shaoqi and Zhou Enlai present.{3} While Chiang''s man is in the United Nations, China stays out: eleven years waited, eleven more no matter. One step only: Taiwan returned, China in; its system may stay for its people to settle; one seat, not two like the Ukraine''s.{4}'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 13, 1961; [[w.zhou-enlai-waijiao-huodong]], 313 (June 13, 1961; 晚6时20分, the Qinzheng Hall); [[w.lengxi-shinian-lunzhan-1956-1966]], 453 (Sukarno invited in June); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 526 (June 13, 1961; Liu, with Dong Biwu, Zhu De and Zhou Enlai, talks with Sukarno; June 14 he attends the capital''s mass welcome rally for Sukarno and the exchange of the instruments of ratification of the China–Indonesia friendship treaty, and receives from Sukarno the Order of the Republic of Indonesia, first class); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 198 (June 13–15, 1961; President Sukarno visits on invitation; Mao receives him, Liu and Zhou talk with him on matters of common interest and the main international questions); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 375–377 (the record of the talk with Sukarno printed in part as "China can have only one representative in the United Nations" 《中国在联合国只能有一个代表》, from [[w.mao-zedong-waijiao-wenxuan]]: while Chiang Kai-shek''s representative is in the United Nations China will not enter; "we have waited eleven years"; Sukarno gives the two views abroad, China and Taiwan in as one, or China in first and Chiang''s man expelled after; the note on West Irian). Made public: 1993. Names: Mao Zedong, Sukarno, Liu Shaoqi, Zhou Enlai, Chiang Kai-shek.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 13, 1961; [[w.zhou-enlai-waijiao-huodong]], 313 (June 13, 1961; 下午6时20分, the Qinzheng Hall); [[w.lengxi-shinian-lunzhan-1956-1966]], 453 (Sukarno invited in June); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 526 (June 13, 1961; Liu, with Dong Biwu, Zhu De and Zhou Enlai, talks with Sukarno; June 14 he attends the capital''s mass welcome rally for Sukarno and the exchange of the instruments of ratification of the China–Indonesia friendship treaty, and receives from Sukarno the Order of the Republic of Indonesia, first class); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 198 (June 13–15, 1961; President Sukarno visits on invitation; Mao receives him, Liu and Zhou talk with him on matters of common interest and the main international questions); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 375–377 (the record of the talk with Sukarno printed in part as "China can have only one representative in the United Nations" 《中国在联合国只能有一个代表》, from [[w.mao-zedong-waijiao-wenxuan]]: while Chiang Kai-shek''s representative is in the United Nations China will not enter; "we have waited eleven years"; Sukarno gives the two views abroad, China and Taiwan in as one, or China in first and Chiang''s man expelled after; the note on West Irian). Made public: 1993. Names: Mao Zedong, Sukarno, Liu Shaoqi, Zhou Enlai, Chiang Kai-shek.'
     src:
       c: e1c78d6e
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 13, 1961: 1, 2, 3, 4'
-        - 'w.zhou-enlai-waijiao-huodong 313: 1, 2, 3'
         - 'w.lengxi-shinian-lunzhan-1956-1966 453: 2'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 526: 2'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 198: 2'
         - 'w.jianguo-yilai-zhongyao-wenxian XIV, 375–377: ?'
+        - 'w.zhou-enlai-waijiao-huodong 313: 1, 2, 3, time'
     tags: [polity:prc, polity:indonesia, name:mao-zedong, name:sukarno, name:liu-shaoqi, name:zhou-enlai, name:chiang-kai-shek, vis:only:prc+indonesia]
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-13.china-leadership-2
     when: June 13
     date: '1961-06-13'
@@ -2756,16 +2778,16 @@ entries:
   - id: cal.1961-06-15.berlin-and-vienna
     when: June 15
     date: '1961-06-15'
+    place: moscow
     thread: berlin-and-vienna
-    c: Khrushchev repeats the deadline on Soviet television.{1} Tower sworn in.{2}
-    n: '[107 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt8/pdf/GPO-CRECB-1961-pt8-5-2.pdf#page=29) (1961). [[w.fursenko-khrushchevs-cold-war]], 365 (on television a week later, the treaty by the year''s end); [[w.reeves-president-kennedy]], 181 (Khrushchev on Soviet television, June 15). See [[cal.1961-06-03.berlin-and-vienna]]. Names: Khrushchev, Tower. Check: the page.'
+    c: Khrushchev repeats the deadline on Soviet television.{1}
+    n: '[[w.fursenko-khrushchevs-cold-war]], 365 (on television a week later, the treaty by the year''s end); [[w.reeves-president-kennedy]], 181 (Khrushchev on Soviet television, June 15, "already June 16 in Washington"). See [[cal.1961-06-03.berlin-and-vienna]]. Split under R17: Tower''s swearing-in is [[cal.1961-06-15.congress]], 107 Cong. Rec. 10522. Names: Khrushchev.'
     src:
-      c: 2dbac46c
+      c: 40f67a22
       rows:
-        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt8/pdf/GPO-CRECB-1961-pt8-5-2.pdf#page=29: 1, 2'
         - 'w.fursenko-khrushchevs-cold-war 365: 1'
         - 'w.reeves-president-kennedy 181: 1'
-    tags: [name:khrushchev-nikita-s, name:tower-john-g]
+    tags: [name:khrushchev-nikita-s]
   - id: cal.1961-06-15.state-and-city-finance-nc
     when: June 15
     date: '1961-06-15'
@@ -3105,6 +3127,18 @@ entries:
     c: 'Chen Yun 陈云, by letter to Li Fuchun 李富春: cotton will not grow for five years, and people will be angry at a few feet of cloth coupons a year (towels and socks included); he proposes a "clothing small group" 穿衣问题小组 under a vice-chairman of the Planning Commission 国家计委 to study coke-oven by-products, North Korea''s 北朝鲜 vinylon process, a kapron 卡普隆 works of 5,000 tons a year in two years (two pairs of socks a townsman) and more viscose fiber.'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 93–94. Made public: 2005 ([[w.chen-yun-wenji]], where the nianpu says it is printed). To check: [[w.chen-yun-wenji]], III. Names: Chen Yun, Li Fuchun.'
     tags: [polity:prc, name:chen-yun, name:li-fuchun, vis:only:prc]
+  - id: cal.1961-06-15.congress
+    when: June 15
+    date: '1961-06-15'
+    time: 1961-06-15T16:00Z
+    time_approx: true
+    place: washington
+    thread: congress
+    also: [states-and-cities]
+    c: Tower, Senator-elect from Texas, is sworn in by the Vice President, escorted by Yarborough.
+    n: '[107 Cong. Rec. 10522](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt8/pdf/GPO-CRECB-1961-pt8-5-2.pdf#page=29) (1961); Mansfield on the day: the swearing-in at 12 o''clock noon, 107 Cong. Rec. 10495. Split under R17: Khrushchev''s television speech of the day is [[cal.1961-06-15.berlin-and-vienna]]. See [[cal.1961-05-27.states-and-cities]]. Names: Tower.'
+    tags: [name:tower-john-g, name:johnson-lyndon-b]
+    time_zone: America/New_York
   - id: cal.1961-06-16.cuba
     when: June 16
     date: '1961-06-16'
@@ -3326,6 +3360,39 @@ entries:
     c: Peking 北京. Zhu De 朱德 meets Shiga Yoshio 志贺义雄, member of the Japanese Communist Party's Politburo 日本共产党中央政治局 and of the House of Representatives, and the Party's Diet members' delegation he leads.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1809. Names: Zhu De, Shiga Yoshio.'
     tags: [polity:prc, polity:japan, name:zhu-de, name:shiga-yoshio]
+  - id: cal.1961-06-18.china-leadership-4
+    when: June 16
+    date: '1961-06-16'
+    thread: china-famine
+    follows:
+      - cal.1961-06-16.china-leadership-2
+    c: The Center issues an urgent instruction on verifying the urban population and the grain supply 《關於核實城市人口和糧食供應的緊急指示》, the same day as the nine measures to cut the town population 《關於減少城鎮人口和壓縮城鎮糧食銷量的九條辦法》.{1}
+    n: '[[w.yang-jisheng-mubei]], II, 832; [[w.dikotter-maos-great-famine]], 238 n.37 (the order of June 18, 1961 to send back 20 million from the cities: 10 million before the end of the year, saving 2 million tonnes of grain; the rest in 1962, stragglers by 1963); [[w.yang-jisheng-tiandi-fanfu]], I, 369 (the same day as the nine measures; the localities carry them out, and great numbers of townspeople go back to the villages); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 416–418 (the urgent directive, dated June 16, printed in full: from now to the end of July, a month and a half, a full count of the people and grain supply of the towns, chiefly the 183 large and medium cities; one ration a person, rations by labor and age, collective households first). Made public: 1997 ([[w.jianguo-yilai-zhongyao-wenxian]], XIV, 416–418). The day: the Center''s text is dated June 16 (一九六一年六月十六日, [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 416), the day on which the nine measures were approved by the Center (一九六一年六月十六日经中央批准, XIV, 412; [[cal.1961-06-16.china-leadership-2]]); Yang Jisheng and Dikötter give June 18. The order: after [[cal.1961-06-16.china-leadership-2]], the directive''s opening words, which carry out the nine measures (XIV, 416). [[w.macfarquhar-origins-of-the-cultural]], III, 32 (the nine-point plan "issued on 16 June"; not the directive). Check: the day of issue: the directive''s text is dated June 16 (XIV, 416); Yang Jisheng has the Center send out (發出) both papers June 18 ([[w.yang-jisheng-mubei]], II, 832; [[w.yang-jisheng-tiandi-fanfu]], I, 369), and Dikötter the order on June 18 (238); the text''s date and the day of its sending may differ.'
+    src:
+      c: c7a3a538
+      rows:
+        - 'w.yang-jisheng-mubei II, 832: 1'
+        - 'via w.yang-jisheng-mubei II, 832 n.t2: 1'
+        - 'w.dikotter-maos-great-famine 238 n.37: ?'
+        - 'w.yang-jisheng-tiandi-fanfu I, 369: ?'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 416–418: 1'
+    tags: [polity:prc, vis:only:prc]
+    variants:
+      - field: date
+        value: '1961-06-18'
+        witness: w.yang-jisheng-mubei
+        reads: the urgent instruction issued June 18, 1961, with the nine measures
+        at: II, 832
+      - field: date
+        value: '1961-06-18'
+        witness: w.dikotter-maos-great-famine
+        reads: the order to send 20 million back from the cities, "on 18 June 1961"
+        at: 238 n.37
+      - field: date
+        value: '1961-06-18'
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: the nine measures and the urgent instruction issued the same day, June 18, 1961
+        at: I, 369
   - id: cal.1961-06-17.robert-kennedy
     when: June 17
     date: '1961-06-17'
@@ -3568,26 +3635,6 @@ entries:
       - 1961-06-18T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
-  - id: cal.1961-06-18.china-leadership-4
-    when: June 18
-    date: '1961-06-18'
-    thread: china-famine
-    c: The Center issues an urgent instruction on verifying the urban population and the grain supply 《關於核實城市人口和糧食供應的緊急指示》, the same day as the nine measures to cut the town population 《關於減少城鎮人口和壓縮城鎮糧食銷量的九條辦法》.{1}
-    n: '[[w.yang-jisheng-mubei]], II, 832; [[w.dikotter-maos-great-famine]], 238 n.37 (the order of June 18, 1961 to send back 20 million from the cities: 10 million before the end of the year, saving 2 million tonnes of grain; the rest in 1962, stragglers by 1963); [[w.yang-jisheng-tiandi-fanfu]], I, 369 (the same day as the nine measures; the localities carry them out, and great numbers of townspeople go back to the villages); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 416–418 (the urgent directive, dated June 16, printed in full: from now to the end of July, a month and a half, a full count of the people and grain supply of the towns, chiefly the 183 large and medium cities; one ration a person, rations by labor and age, collective households first). Made public: 1997 ([[w.jianguo-yilai-zhongyao-wenxian]], XIV, 416–418). Check: the book dates both papers June 18; the calendar''s nine-point plan is June 16 (see [[cal.1961-06-16.china-leadership-2]]).'
-    src:
-      c: c7a3a538
-      rows:
-        - 'w.yang-jisheng-mubei II, 832: 1'
-        - 'via w.yang-jisheng-mubei II, 832 n.t2: 1'
-        - 'w.dikotter-maos-great-famine 238 n.37: ?'
-        - 'w.yang-jisheng-tiandi-fanfu I, 369: ?'
-        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 416–418: 1'
-    tags: [polity:prc, vis:only:prc]
-    variants:
-      - unit: '1'
-        witness: w.jianguo-yilai-zhongyao-wenxian
-        reads: June 16 (一九六一年六月十六日), the urgent directive's own date
-        at: XIV, 416
   - id: cal.1961-06-19.court
     when: June 19
     date: '1961-06-19'
@@ -4617,8 +4664,18 @@ entries:
     follows:
       - cal.1961-06-24.soviet-union-2
     c: 'Falls Church, Salinger''s home, night. Barbecue for Adzhubei, Kharlamov, Bolshakov and Sagatelyan of Tass, with Murrow, Merriman Smith and Tubby; they watch the debate together. Five minutes after it ends Kennedy telephones from the White House: "You and Salisbury were great," and "I thought you won hands down." By Salinger''s account.'
-    n: '[[w.salinger-with-kennedy]], 186. Check: the day (see [[cal.1961-06-24.soviet-union]]). Names: Salinger, Kennedy, Adzhubei, Kharlamov, Bolshakov, Murrow, Tubby, Salisbury.'
+    n: '[[w.salinger-with-kennedy]], 186. The day: the party followed the debate of [[cal.1961-06-24.soviet-union]] "that night" (186), and "the next day, a Sunday" was the cruise on the Potomac (186), so the party was Saturday, June 24 ([[cal.1961-06-25.soviet-union]]). The hour: the debate was broadcast "late in the evening" (184) and Kennedy telephoned five minutes after it ended (186). Names: Salinger, Kennedy, Adzhubei, Kharlamov, Bolshakov, Murrow, Tubby, Salisbury.'
+    src:
+      c: 5312fb13
+      rows:
+        - 'w.salinger-with-kennedy 186: time'
     tags: [name:salinger-pierre, name:kennedy-john-f, name:adzhubei-aleksei, name:bolshakov-georgi, name:murrow-edward-r, name:kharlamov-mikhail-a, name:tubby-roger-w, name:salisbury-harrison-e]
+    time_range:
+      - 1961-06-25T02:00Z
+      - 1961-06-25T04:00Z
+    time_band: night
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1961-06-24.korea-leadership
     when: June 24
     date: '1961-06-24'
@@ -4823,6 +4880,32 @@ entries:
         - 'w.macfarquhar-origins-of-the-cultural III, 32–33: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 33 n.59: all'
     tags: [polity:prc, name:li-fuchun, vis:only:prc]
+  - id: cal.1961-06-26.laos
+    when: June 25
+    date: '1961-06-25'
+    place: geneva
+    thread: laos
+    c: 'Geneva, late in the evening of the 25th. Harriman to Souvanna: a strong control commission to keep the cease-fire; then ample economic aid for an effective coalition.'
+    n: 'FRUS 1961–63, XXIV, doc. [122](https://history.state.gov/historicaldocuments/frus1961-63v24/d122) (Harriman''s Confe 287, Geneva, June 26, 10 p.m.: the talk "last night"; n.1: Confe 278 puts the meeting "late in the evening of June 25," Souvanna leaving "the next morning" for Paris; Harriman on strong ICC controls for several years and on economic help). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 248 (Harriman to Souvanna; Kaplan''s place, Paris, and day, June 26, are not the cable''s). The day and the place: Harriman''s own report. Names: Harriman, Souvanna Phouma.'
+    src:
+      c: 1f991bd7
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v24/d122: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 248: ?'
+        - 'via x.1961-06-26.conle-287-geneva-to-state-june-26: all'
+    tags: [name:harriman-w-averell, name:souvanna-phouma]
+    time_range:
+      - 1961-06-25T21:00Z
+      - 1961-06-25T23:00Z
+    time_band: night
+    time_zone: Europe/Zurich
+    range_basis: record
+    variants:
+      - field: date
+        value: '1961-06-26'
+        witness: w.kaplan-mcnamara-ascendancy-1961-1965
+        reads: Harriman to Souvanna at Paris, June 26
+        at: '248'
   - id: cal.1961-06-26.transition-and-staff
     when: June 26
     date: '1961-06-26'
@@ -4908,26 +4991,6 @@ entries:
       - 1961-06-26T21:00Z
     time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
-  - id: cal.1961-06-26.laos
-    when: June 26
-    date: '1961-06-26'
-    place: paris
-    thread: laos
-    also: [europe-and-the-alliance-france]
-    c: 'Paris. Harriman to Souvanna: a strong control commission to keep the cease-fire; then ample economic aid for an effective coalition.'
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 248. Check: the place and the day. Harriman''s own report, Confe 287 from Geneva, June 26, 10 p.m. ([FRUS 1961–63, XXIV, doc. 122](https://history.state.gov/historicaldocuments/frus1961-63v24/d122), and its n.1), puts the talk at Geneva, late in the evening of June 25, Souvanna leaving for Paris the next morning. To check: Conle 287, Geneva to State, June 26, 1961, FRUS 1961–63, XXIV, 261–63 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 248 n.75). Names: Harriman, Souvanna Phouma.'
-    src:
-      c: 664521db
-      rows:
-        - 'w.kaplan-mcnamara-ascendancy-1961-1965 248: all'
-        - 'via x.1961-06-26.conle-287-geneva-to-state-june-26: all'
-    tags: [name:harriman-w-averell, name:souvanna-phouma]
-    time_range:
-      - 1961-06-26T08:00Z
-      - 1961-06-26T16:00Z
-    time_band: workday daytime
-    time_zone: Europe/Paris
     range_basis: kind
   - id: cal.1961-06-26.laos-2
     when: June 26
@@ -5774,10 +5837,9 @@ entries:
     when: June 30
     date: '1961-06-30'
     thread: cities-and-housing
-    also: [welfare]
-    c: Housing Act of 1961, [75 Stat. 149](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg149.pdf), and Social Security Amendments of 1961, [75 Stat. 131](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg131.pdf), signed. Moderate-income housing, urban renewal, open space; earlier retirement for men at sixty-two. LeMay becomes Air Force Chief of Staff.
-    n: 'Statutes (K–J Cong. II.J.2). To check: [[w.gelfand-nation-of-cities]]; [[w.pritchett-robert-clifton-weaver-and]]. Names: Weaver, Sparkman, LeMay.'
-    tags: [name:lemay-curtis-e, name:kennedy-john-f, name:weaver-robert-c, name:sparkman-john]
+    c: Housing Act of 1961, [75 Stat. 149](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg149.pdf), signed. Moderate-income housing, urban renewal, open space.
+    n: 'Remarks Upon Signing the Housing Act, [1961 Pub. Papers 488](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=546) (June 30, 1961; S. 1922; Public Law 87-70). Statutes (K–J Cong. II.J.2). To check: [[w.gelfand-nation-of-cities]]; [[w.pritchett-robert-clifton-weaver-and]]. Split under R17: the Social Security Amendments signed that day are [[cal.1961-06-30.program-2]]; LeMay''s swearing-in is [[cal.1961-06-30.defense]]. Names: Weaver, Sparkman.'
+    tags: [name:kennedy-john-f, name:weaver-robert-c, name:sparkman-john]
     short: the Housing Act of 1961
     time_range:
       - 1961-06-30T13:00Z
@@ -6118,14 +6180,18 @@ entries:
   - id: cal.1961-06-30.defense
     when: June 30
     date: '1961-06-30'
+    time: 1961-06-30T19:15Z
+    place: washington
     thread: defense
-    c: White retires as Air Force Chief of Staff; LeMay, the Vice Chief, succeeds him.
-    n: '[[w.poole-joint-chiefs-of-staff]], 3. Names: White, LeMay.'
+    c: White retires as Air Force Chief of Staff; LeMay, the Vice Chief, succeeds him.{1} LeMay sworn in at the White House, in the Rose Garden, Kennedy speaking.{2}
+    n: 'Remarks at the Swearing In of General Curtis LeMay as Chief of Staff, U.S. Air Force, [1961 Pub. Papers 489](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=547) (June 30, 1961; the President spoke at 3:15 p.m. in the Rose Garden). [[w.poole-joint-chiefs-of-staff]], 3. Names: White, LeMay, Kennedy.'
     src:
-      c: e7902a12
+      c: a7340e43
       rows:
-        - 'w.poole-joint-chiefs-of-staff 3: all'
-    tags: [name:white-thomas-d, name:lemay-curtis-e]
+        - 'w.poole-joint-chiefs-of-staff 3: 1'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=547: 2'
+    tags: [name:white-thomas-d, name:lemay-curtis-e, name:kennedy-john-f]
+    time_zone: America/New_York
   - id: cal.1961-06.europe-and-the-alliance
     when: June
     date: 1961-06
@@ -6653,3 +6719,11 @@ entries:
     c: The Party groups of the State Science Commission 国家科委 and the Academy of Sciences 中国科学院 draw up the "Fourteen opinions on the present work of the natural science research organs (draft)" 《关于自然科学研究机构当前工作的十四条意见（草案）》.
     n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIV, 546–570 (sent with Nie Rongzhen''s report of June 20). Made public: 1997. Sent on: [[cal.1961-07-19.china-leadership]].'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1961-06-30.program-2
+    when: June 30
+    date: '1961-06-30'
+    place: washington
+    thread: welfare
+    c: Social Security Amendments of 1961, [75 Stat. 131](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg131.pdf), signed. Earlier retirement for men at sixty-two.
+    n: 'Statement by the President Upon Signing the Social Security Amendments of 1961, [1961 Pub. Papers 488](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=546) (June 30, 1961; "I have signed into law"; Public Law 87-64). Split under R17: the Housing Act of the day is [[cal.1961-06-30.program]]. See [[cal.1961-06-30.program]].'
+    tags: [name:kennedy-john-f]

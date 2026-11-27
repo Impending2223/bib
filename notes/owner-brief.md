@@ -1546,3 +1546,9 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 9:48 pm PT.** "What does the full queue look like now? What's in the Soviet and Sino-Soviet batches now? How big are they? Where might we put them?"
 
 **Nov. 26, 2026, about 10:07 pm PT.** "I adopt your recommendations in re: the queue. Have we ever done an inventory of uncited FRUS documents? It might make sense to conduct a volume-by-volume survey to see what we're missing, particularly in threads we've already read related literatures on (e.g., VN, the PRC, Cuba)."
+
+**Nov. 26, 2026, about 11:11 pm PT.** "I've moved the Kallina."
+
+**Nov. 26, 2026, about 11:15 pm PT.** (With a PDF: NARA record 178-10002-10352, Rockefeller Commission, Belin to the file, "Interview with Colonel Sheffield Edwards", Apr. 9, 1975, 11 pp.) "Is this the Sheffield Edwards item?"
+
+**Nov. 26, 2026, about 11:27 pm PT.** (With a zip, NARA record 157-10002-10048.) "Is this the Sheffield Edwards item?"
