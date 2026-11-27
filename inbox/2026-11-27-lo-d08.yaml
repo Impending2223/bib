@@ -237,7 +237,8 @@ ops:
 - follows:
     id: cal.1961-08-30.testing
     add:
-    - cal.1961-08-30.testing-2
+    - cal.1961-08-30.testing-3
+    basis: '[[w.sorensen-kennedy]], 619–20 (Kennedy handed the news; then "On that same night of August 30, a White House statement")'
 - follows:
     id: cal.1961-08-30.testing
     remove:
@@ -696,7 +697,10 @@ ops:
         - 'w.deng-xiaoping-nianpu-1904 III, 1696: ?'
         - 'w.mao-zedong-zhuan V, ch. 69: 1'
       place: peking
+      thread: china-zhou
     kind: correct
+    unset:
+    - also
 - tag:
     id: cal.1962-03-18.china-leadership
     remove:
@@ -747,17 +751,6 @@ ops:
     id: cal.1962-03-21.china-leadership
     item: '[[w.yang-shangkun-riji]], II, 135 (Mar. 21, 1962; the Supreme State Conference in the Qinzheng Hall, 3 to 6:30 p.m. (下午3时到6时半), Liu Shaoqi presiding, over 160 present; the sitting''s hours, Zhou''s speech not named)'
     'on': time
-- add-words:
-    id: cal.1962-03-21.china-leadership
-    after: end
-    words: The Qinzheng Hall 勤政殿, Liu Shaoqi presiding; over 160 present.
-    item: '[[w.yang-shangkun-riji]], II, 135 (Mar. 21, 1962)'
-- names:
-    id: cal.1962-03-21.china-leadership
-    add:
-    - Liu Shaoqi
-    tags:
-    - name:liu-shaoqi
 - edit:
     id: cal.1962-03-28.china-leadership
     base: fc882066
@@ -957,6 +950,11 @@ ops:
       - polity:prc
       - name:zhu-de
       - vis:only:prc
+- follows:
+    id: cal.1962-06-08.china-leadership-12
+    add:
+    - cal.1962-06-08.china-leadership-14
+    basis: the route, Tonghai and then Jianshui ([[w.zhu-de-nianpu-xinbian]], III, 1842)
 - edit:
     id: cal.1962-06-09.china-leadership-3
     base: '70231376'
@@ -1180,6 +1178,9 @@ ops:
     set:
       c: 'Zhou Enlai at the orchard nursery of the Yanbian Agricultural College: keep joining teaching with productive labor, raise more apple and pear seedlings fit for the place, plant the gullies and hills; the school farm to serve as a model.'
       n: '[[w.zhou-enlai-nianpu-1949]], II, 487 (June 23, 1962; 在延边农学院的果树苗圃). The visit to a Korean household and the night train to Jilin are entered on their own. Made public: 1997. The order: after [[cal.1962-06-23.china-leadership]], [[w.zhou-enlai-nianpu-1949]], II, 486–87 (the talk "on the way to" the Yanbian Agricultural College, 在去延边农学院视察的路上, and then the college''s orchard nursery; the prefectural committee printed between goes against those words and is left unplaced). Names: Zhou Enlai.'
+      thread: china-zhou
+      also:
+      - china-agriculture
     kind: correct
 - add:
     entry:
