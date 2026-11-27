@@ -5855,42 +5855,15 @@ entries:
     follows:
       - cal.1960-09-15.elections-1960-kennedy-7
     c: 'Harrisburg, Pa., Zembo Mosque Temple. Kennedy''s statewide television speech: Cuba, with Havana''s Ambassador, and unemployment, one in 14 seeking a job.{1} On Cuba: Communism "8 minutes by jet from the coast of Florida."{2}'
-    n: '[[w.communications-freedom-of-communications-part]], 249–252; [[w.communications-freedom-of-communications-part]], 250. The hour: "I am delighted to be here in Pennsylvania tonight" ([[w.communications-freedom-of-communications-part]], 249): the evening. Names: Kennedy.'
+    n: '[[w.communications-freedom-of-communications-part]], 249–252; [[w.communications-freedom-of-communications-part]], 250; [[w.nixon-six-crises]], 351 (the day; Nixon''s wording, "eight jet minutes from the coast of Florida"). The hour: "I am delighted to be here in Pennsylvania tonight" ([[w.communications-freedom-of-communications-part]], 249): the evening. Names: Kennedy.'
     src:
       c: fba0c969
       rows:
         - 'w.communications-freedom-of-communications-part 249–252: 1'
         - 'w.communications-freedom-of-communications-part 250: 2'
+        - 'w.nixon-six-crises 351: 2'
     tags: [name:kennedy-john-f, state:pa]
     aliases: [cal.1960-09-15.cuba]
-    conflict:
-      - field: c
-        ours: 'Harrisburg, Pa., Zembo Mosque Temple. Kennedy''s statewide television speech: Cuba, with Havana''s Ambassador, and unemployment, one in 14 seeking a job. On Cuba: Communism "8 minutes by jet from the coast of Florida."'
-        theirs: Harrisburg, Pa. Kennedy lays to the administration Communism "8 minutes by jet from the coast of Florida."
-        base: null
-        from: 'combine: combined cal.1960-09-15.cuba'
-      - field: thread
-        ours: elections-1960-kennedy
-        theirs: cuba
-        base: null
-        from: 'combine: combined cal.1960-09-15.cuba'
-      - field: n
-        ours: '[[w.communications-freedom-of-communications-part]], 249–252; [[w.communications-freedom-of-communications-part]], 250. The hour: "I am delighted to be here in Pennsylvania tonight" ([[w.communications-freedom-of-communications-part]], 249): the evening. Names: Kennedy.'
-        theirs: '[[w.nixon-six-crises]], 351 (the fifteenth; Nixon''s wording, "eight jet minutes from the coast of Florida"). [[w.communications-freedom-of-communications-part]], 250 (Kennedy at the Zembo Mosque Temple, Harrisburg, Sept. 15: "8 minutes by jet from the coast of Florida"). The same speech as [[cal.1960-09-15.elections-1960-kennedy-8]]. Names: Kennedy.'
-        base: null
-        from: 'combine: combined cal.1960-09-15.cuba'
-      - field: src
-        ours:
-          c: fba0c969
-          rows:
-            - 'w.communications-freedom-of-communications-part 249–252: 1'
-            - 'w.communications-freedom-of-communications-part 250: 2'
-        theirs:
-          c: 2cca117a
-          rows:
-            - 'w.nixon-six-crises 351: all'
-        base: null
-        from: 'combine: combined cal.1960-09-15.cuba'
     time_band: evening
     time_range:
       - 1960-09-15T23:00Z

@@ -1,6 +1,11 @@
 patch: 2026-11-27-lo-d05
 by: Claude (Sonnet), leftovers batch lo-d05
 ops:
+- place-key:
+    key: reidsville-ga
+    name: Reidsville, Ga.
+    zone: America/New_York
+    st: GA
 - add:
     entry:
       id: cal.1960-10-12.elections-1960-kennedy-4
@@ -13,19 +18,24 @@ ops:
       thread: elections-1960-kennedy
       follows:
       - cal.1960-10-12.elections-1960-2
-      c: 'New York, the Hotel Theresa in Harlem, the new frontiers and freedom rally. Kennedy, after Powell: "Here in New York today we just concluded a conference on constitutional
-        rights"; the Republican candidate talks of human rights in the North and States rights in the South.'
+      c: 'New York, the Hotel Theresa in Harlem, the new frontiers and freedom rally, with Mrs. Roosevelt, Lehman, Mayor Wagner, Harriman and Williams. Kennedy, after Powell: "Here in
+        New York today we just concluded a conference on constitutional rights"; the Republican candidate talks of human rights in the North and States rights in the South.'
       n: '[Excerpts of Remarks of Senator John F. Kennedy, Public Rally, Hotel Theresa, New York, NY](https://www.presidency.ucsb.edu/documents/excerpts-remarks-senator-john-f-kennedy-public-rally-hotel-theresa-new-york-ny)
         (Oct. 12, 1960). [[w.communications-freedom-of-communications-part]], 580–83 (excerpts of his remarks at the rally: "I am happy to come to this hotel, a little late"; the conference
-        "just concluded," 581; Nixon and rights, 582). [[w.kallina-kennedy-v-nixon]], 147; [[w.wofford-of-kennedys-and-kings]], 63–64 (the rally before the Theresa). The hour: the rally
-        "will begin in Harlem" at 4 p.m., in the release of Sept. 24 ([[w.communications-freedom-of-communications-part]], 358), a plan; Kennedy at the rally: "a little late" (580).
-        The order: after [[cal.1960-10-12.elections-1960-2]], Kennedy''s words at the rally, "we just concluded a conference on constitutional rights" ([[w.communications-freedom-of-communications-part]],
-        581). Split under R17: the conference speech is [[cal.1960-10-12.elections-1960-2]]. Check: the hour is the release''s plan. Names: Kennedy, Powell, Nixon.'
+        "just concluded," 581; Nixon and rights, 582). [[w.kallina-kennedy-v-nixon]], 147; [[w.wofford-of-kennedys-and-kings]], 63–64 (the rally in front of the Theresa Hotel, the end
+        planned for the conference, 63). The hour: the rally "will begin in Harlem" at 4 p.m., in the release of Sept. 24 ([[w.communications-freedom-of-communications-part]], 358),
+        a plan; Kennedy at the rally: "a little late" (580). The order: after [[cal.1960-10-12.elections-1960-2]], Kennedy''s words at the rally, "we just concluded a conference on constitutional
+        rights" ([[w.communications-freedom-of-communications-part]], 581). See [[cal.1960-10-12.elections-1960-2]]. Check: the hour is the release''s plan. Names: Roosevelt, Wagner,
+        Harriman, Williams, Kennedy, Powell, Nixon.'
       tags:
       - name:kennedy-john-f
       - name:powell-adam-clayton-jr
       - name:nixon-richard-m
       - city:nyc
+      - name:roosevelt-eleanor
+      - name:wagner-robert-f-jr
+      - name:harriman-w-averell
+      - name:williams-g-mennen
 - add:
     entry:
       id: cal.1960-10-16.elections-1960-kennedy-7
@@ -37,13 +47,18 @@ ops:
       thread: elections-1960-kennedy
       follows:
       - cal.1960-10-16.elections-1960-kennedy
-      c: Kennedy on *Meet the Press*, scheduled for six o'clock.
-      n: '[[w.white-making-of-the-president]], 325 ("scheduled for six o''clock"); [[w.communications-freedom-of-communications-part]], 615, 642 (Kennedy at Silver Spring, Oct. 16: "as
-        I told Meet the Press"; at Columbus, Oct. 17: "When I was on ''Meet the Press'' last night"; not the hour). The hour: "scheduled for six o''clock" ([[w.white-making-of-the-president]],
-        325), the schedule. The order: after [[cal.1960-10-16.elections-1960-kennedy]], Goodwin''s briefing for the program ([[w.white-making-of-the-president]], 325). Split under R25b:
-        [[cal.1960-10-16.elections-1960-kennedy]]. To check: the program''s transcript. Names: Kennedy. Check: the hour is White''s schedule, not the broadcast''s.'
+      c: Washington. Kennedy on *Meet the Press*, scheduled for six o'clock. Ned Brooks moderating; Elie Abel, John Chancellor, Edward Folliard and Lawrence Spivak on the panel; Spivak
+        opens on Quemoy and Matsu.
+      n: '[[w.white-making-of-the-president]], 324–25 ("All Sunday afternoon, October 16th, in Washington, D.C."; "scheduled for six o''clock"). [[w.freedom-of-communications-part]],
+        244–51 (the transcript: NBC-TV and radio, Sunday, Oct. 16; Brooks, the panel, Spivak''s first question; not the hour). [[w.communications-freedom-of-communications-part]], 615,
+        644 (Kennedy at Silver Spring, Oct. 16: "as I told Meet the Press"; at Columbus, Oct. 17: "When I was on ''Meet the Press'' last night"; not the hour). The hour: "scheduled for
+        six o''clock" ([[w.white-making-of-the-president]], 325), the schedule. The order: after [[cal.1960-10-16.elections-1960-kennedy]], Goodwin''s briefing for the program ([[w.white-making-of-the-president]],
+        325). See [[cal.1960-10-16.elections-1960-kennedy]]. Names: Kennedy, Chancellor, Spivak. Check: the hour is White''s schedule, not the broadcast''s.'
       tags:
       - name:kennedy-john-f
+      - name:chancellor-john
+      - name:spivak-lawrence
+      place: washington
 - add:
     entry:
       id: cal.1960-10-16.elections-1960-kennedy-8
@@ -57,12 +72,13 @@ ops:
       place: washington
       thread: elections-1960-kennedy
       follows:
-      - cal.1960-10-16.elections-1960-kennedy-7
+      - cal.1960-10-16.elections-1960-kennedy-4
       c: The campaign's planes fly from Washington to Ohio; Goodwin and Sorensen join them.
-      n: '[[w.white-making-of-the-president]], 325 ("immediately ''Meet The Press'' was over," "flying off from Washington to Ohio that evening"); [[w.communications-freedom-of-communications-part]],
-        615 (Kennedy at Silver Spring: "tonight we go to the State of Ohio"). The hour: "that evening" ([[w.white-making-of-the-president]], 325): the evening. The order: after [[cal.1960-10-16.elections-1960-kennedy-7]],
-        [[w.white-making-of-the-president]], 325 ("immediately ''Meet The Press'' was over"). The order against the Silver Spring rally ([[cal.1960-10-16.elections-1960-kennedy-4]]):
-        not shown. Split under R25b: [[cal.1960-10-16.elections-1960-kennedy]]. Names: Goodwin, Sorensen, Kennedy.'
+      n: '[[w.white-making-of-the-president]], 325 ("immediately ''Meet The Press'' was over," Goodwin and Sorensen join the planes "flying off from Washington to Ohio that evening");
+        [[w.communications-freedom-of-communications-part]], 615 (Kennedy at Silver Spring: "tonight we go to the State of Ohio"). The hour: "that evening" ([[w.white-making-of-the-president]],
+        325): the evening. The order: after [[cal.1960-10-16.elections-1960-kennedy-4]], Kennedy at the rally: "tonight we go to the State of Ohio" ([[w.communications-freedom-of-communications-part]],
+        615). The order against the crowd outside the school ([[cal.1960-10-16.elections-1960-kennedy-5]]): neither text gives it (615–21). See [[cal.1960-10-16.elections-1960-kennedy]].
+        Names: Goodwin, Sorensen, Kennedy.'
       tags:
       - name:goodwin-richard-n
       - name:sorensen-theodore-c
@@ -84,10 +100,9 @@ ops:
       follows:
       - cal.1960-10-17.elections-1960-kennedy-7
       c: The night flight from Columbus, Ohio, to Miami. Kennedy reads Goodwin's Latin American draft and revises it; Goodwin and Sorensen go over Sorensen's national-defense draft.
-        The party reaches the airport motel in Miami at two in the morning.
-      n: '[[w.white-making-of-the-president]], 325 ("the night flight to the south"; "at two in the morning"). The hour: "night flight" ([[w.white-making-of-the-president]], 325): the
-        night. The order: after [[cal.1960-10-17.elections-1960-kennedy-7]], Kennedy at Columbus: "I leave Ohio tonight and I go to Miami" ([[w.communications-freedom-of-communications-part]],
-        643). Split under R25b: [[cal.1960-10-17.elections-1960-kennedy]]. See [[cal.1960-10-17.elections-1960-kennedy]]. Names: Kennedy, Goodwin, Sorensen.'
+      n: '[[w.white-making-of-the-president]], 325 ("the night flight to the south"). The hour: "night flight" ([[w.white-making-of-the-president]], 325): the night. The order: after
+        [[cal.1960-10-17.elections-1960-kennedy-7]], Kennedy at Columbus: "I leave Ohio tonight and I go to Miami" ([[w.communications-freedom-of-communications-part]], 644). See [[cal.1960-10-17.elections-1960-kennedy]].
+        Names: Kennedy, Goodwin, Sorensen.'
       tags:
       - name:kennedy-john-f
       - name:goodwin-richard-n
@@ -106,15 +121,78 @@ ops:
       thread: elections-1960-nixon
       c: Buffalo, N.Y., the War Memorial Auditorium, a rally. Nixon on the Eisenhower record and on Kennedy's statements on Quemoy and Matsu.
       n: '[Partial Transcript of Remarks of the Vice President at War Memorial Auditorium, Buffalo, NY](https://www.presidency.ucsb.edu/documents/partial-transcript-remarks-the-vice-president-war-memorial-auditorium-buffalo-ny)
-        (Oct. 17, 1960). The hour: "this rally tonight in Buffalo" (the transcript): the evening. Split under R17: New England is [[cal.1960-10-17.elections-1960-4]]. See [[cal.1960-10-17.elections-1960-4]].
-        Names: Nixon, Kennedy. Check: the Polish Union Hall entry, [[cal.1960-10-17.elections-1960-6]], is the same night; the order of the two.'
+        (Oct. 17, 1960). The hour: "this rally tonight in Buffalo" (the transcript): the evening. The order: after [[cal.1960-10-17.elections-1960-4]], Nixon at Buffalo: "as I said earlier
+        today in Hartford, Conn." (the transcript). See [[cal.1960-10-17.elections-1960-4]]. Names: Nixon, Kennedy. Check: the Polish Union Hall entry, [[cal.1960-10-17.elections-1960-6]],
+        is the same night; the order of the two.'
       tags:
       - name:nixon-richard-m
       - name:kennedy-john-f
       - city:buffalo
+      follows:
+      - cal.1960-10-17.elections-1960-4
 - add:
     entry:
       id: cal.1960-10-18.elections-1960-kennedy-6
+      when: Oct. 18
+      date: '1960-10-18'
+      time_zone: America/New_York
+      place: miami
+      thread: elections-1960-kennedy
+      also:
+      - defense
+      c: Miami, the airport motel. Sorensen, with a secretary, drafts the national-defense speech until five; Goodwin, woken after three hours' sleep, works on the draft until eight.
+      n: '[[w.white-making-of-the-president]], 325 ("Sorensen labored with a secretary until five a.m."; Goodwin "worked on that draft until eight"). The hour: "until five a.m." ([[w.white-making-of-the-president]],
+        325): before dawn. The time is the first act''s. The order: after [[cal.1960-10-18.elections-1960-kennedy-9]], [[w.white-making-of-the-president]], 325 (the arrival at two; "they
+        decided to work in shifts"). See [[cal.1960-10-18.elections-1960-3]]. Names: Sorensen, Goodwin.'
+      tags:
+      - name:sorensen-theodore-c
+      - name:goodwin-richard-n
+      - city:miami
+      time_band: predawn
+      time_range:
+      - 1960-10-18T04:00Z
+      - 1960-10-18T10:00Z
+      follows:
+      - cal.1960-10-18.elections-1960-kennedy-9
+- add:
+    entry:
+      id: cal.1960-10-18.elections-1960-kennedy-9
+      when: Oct. 18
+      date: '1960-10-18'
+      time: 1960-10-18T06:00Z
+      time_zone: America/New_York
+      place: miami
+      thread: elections-1960-kennedy
+      c: Miami, the airport motel, two in the morning. The campaign arrives from Columbus; Kennedy sleeps five hours.
+      n: '[[w.white-making-of-the-president]], 325 ("at two in the morning, where the candidate slept for five hours"). The hour: "at two in the morning" ([[w.white-making-of-the-president]],
+        325). See [[cal.1960-10-18.elections-1960-3]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - city:miami
+- add:
+    entry:
+      id: cal.1960-10-18.elections-1960-kennedy-7
+      when: Oct. 18
+      date: '1960-10-18'
+      time: 1960-10-18T12:00Z
+      time_zone: America/New_York
+      place: miami
+      thread: elections-1960-kennedy
+      also:
+      - defense
+      follows:
+      - cal.1960-10-18.elections-1960-kennedy-6
+      c: 'Miami. At eight Goodwin wakes Kennedy with the draft of the national-defense speech. Kennedy wants substantial changes: the cold war''s nonmilitary side as well as the military.'
+      n: '[[w.white-making-of-the-president]], 325 ("until eight, when he woke the Senator to present it to him"; "nonmilitary aspects of the cold war as well as the purely military").
+        The hour: "until eight" ([[w.white-making-of-the-president]], 325). The order: after [[cal.1960-10-18.elections-1960-kennedy-6]], [[w.white-making-of-the-president]], 325. See
+        [[cal.1960-10-18.elections-1960-3]]. Names: Goodwin, Kennedy.'
+      tags:
+      - name:goodwin-richard-n
+      - name:kennedy-john-f
+      - city:miami
+- add:
+    entry:
+      id: cal.1960-10-18.elections-1960-kennedy-8
       when: Oct. 18
       date: '1960-10-18'
       time: 1960-10-18T12:30Z
@@ -123,16 +201,244 @@ ops:
       thread: elections-1960-kennedy
       also:
       - defense
-      c: Miami. Sorensen's draft of the national-defense speech, finished at five, goes to Goodwin, who works on it until eight and gives it to Kennedy; he asks that the cold war's nonmilitary
-        side be added. Goodwin begins the last draft at 8:30 and sends the sheets to the mimeograph as he writes.
-      n: '[[w.white-making-of-the-president]], 325–26 ("Sorensen labored with a secretary until five a.m."; "At 8:30 Goodwin began the last draft"). The hour: "At 8:30" ([[w.white-making-of-the-president]],
-        325), the last draft''s start. Split under R25b and R18: the speech is [[cal.1960-10-18.elections-1960-3]]. See [[cal.1960-10-18.elections-1960-3]]. Names: Sorensen, Goodwin,
-        Kennedy.'
+      follows:
+      - cal.1960-10-18.elections-1960-kennedy-7
+      c: Miami. At 8:30 Goodwin begins the last draft of the national-defense speech, sending the sheets to the mimeograph as he writes; the secretaries pack for the plane that leaves
+        Miami at two.
+      n: '[[w.white-making-of-the-president]], 325 ("At 8:30 Goodwin began the last draft, pushing his sheets to the mimeograph machine as he wrote"). The hour: "At 8:30" ([[w.white-making-of-the-president]],
+        325). The order: after [[cal.1960-10-18.elections-1960-kennedy-7]], [[w.white-making-of-the-president]], 325 ("But now the Senator wanted substantial changes"). See [[cal.1960-10-18.elections-1960-3]].
+        Names: Goodwin.'
       tags:
-      - name:sorensen-theodore-c
       - name:goodwin-richard-n
-      - name:kennedy-john-f
       - city:miami
+- add:
+    entry:
+      id: cal.1960-10-12.elections-1960-nixon
+      when: Oct. 12–13
+      date: '1960-10-12'
+      place: los-angeles
+      thread: elections-1960-nixon
+      also:
+      - civil-rights-the-executive
+      follows:
+      - cal.1960-10-12.elections-1960
+      c: 'Los Angeles. Nixon, questioned on Lodge''s pledge: no pledges made for the Cabinet; he will choose it on qualification alone, "without regard to race or creed or color."'
+      n: '[[w.nixon-six-crises]], 350 (Nixon''s account: "When I was questioned about this"; not the day or the place); [[w.gifford-center-cannot-hold]], 85 (Nixon "attempted to reel
+        in" Lodge, the best men "without regard for" race, creed or color, before Lodge modified his statement "the next day" in Virginia and North Carolina; the *Chicago Daily Defender*:
+        "While Lodge made his pledge in Harlem, Nixon was in Los Angeles"), 161. To check: [*New York Times*, Oct. 13](https://timesmachine.nytimes.com/timesmachine/1960/10/13/issue.html)
+        and [Oct. 14, 1960](https://timesmachine.nytimes.com/timesmachine/1960/10/14/issue.html), at 1 (cited by [[w.gifford-center-cannot-hold]], 85 n.98); *Chicago Daily Defender*,
+        Oct. 20, 1960, at 12 (cited by [[w.gifford-center-cannot-hold]], 85 n.99). See [[cal.1960-10-12.elections-1960]]. Names: Nixon, Lodge. Check: the day; Gifford puts the answer
+        before Lodge''s statement of Oct. 13 in Virginia and North Carolina, the *Defender* while Lodge spoke in Harlem, Oct. 12.'
+      tags:
+      - name:nixon-richard-m
+      - name:lodge-henry-cabot
+      - city:los-angeles
+- add:
+    entry:
+      id: cal.1960-10-26.king
+      when: Oct. 26
+      date: '1960-10-26'
+      time_range:
+      - 1960-10-26T07:30Z
+      - 1960-10-26T08:30Z
+      time_zone: America/New_York
+      place: reidsville-ga
+      thread: king
+      also:
+      - elections-1960-king
+      c: Before dawn. King, woken in his cell in the DeKalb County jail, is put in handcuffs and leg chains and driven some two hundred miles to the state prison at Reidsville, Ga. At
+        dawn he telephones Coretta King.
+      n: '[[w.wofford-of-kennedys-and-kings]], 18 ("In the middle of the night"; "two hundred miles"; "When dawn came" at Reidsville, his call to his wife); [[w.schlesinger-robert-kennedy-and-his]],
+        216 (awakened "at four-thirty one morning," handcuffs and leg chains, taken from the county jail to a penitentiary in rural Georgia; not the day or Reidsville); [[w.mann-walls-of-jericho]],
+        284 (woken "at about 3:30 a.m."; handcuffs and leg irons; "two-hundred-mile trip" to Reidsville; the night after Coretta King''s call to Wofford); [[w.white-making-of-the-president]],
+        322 ("whisked away secretly to the State Penitentiary"; Reidsville); [[w.thomas-robert-kennedy]], 101 ("in the early-morning darkness," in chains, to a state prison). The hour:
+        "at four-thirty one morning" ([[w.schlesinger-robert-kennedy-and-his]], 216); "at about 3:30 a.m." ([[w.mann-walls-of-jericho]], 284). Check: the hour; Schlesinger gives four-thirty,
+        Mann about 3:30. Check: the day; Wofford and Mann put the drive in the night before Kennedy''s call to Mrs. King (18; 284), Thomas "A few days" after the sentence (101). See
+        [[cal.1960-10-25.king]]. Names: Martin Luther King, Coretta Scott King.'
+      tags:
+      - name:king-martin-luther-jr
+      - name:king-coretta-scott
+      - state:ga
+- add:
+    entry:
+      id: cal.1960-10-26.elections-1960-king
+      when: Oct. 26
+      date: '1960-10-26'
+      time_band: morning
+      time_range:
+      - 1960-10-26T11:00Z
+      - 1960-10-26T17:00Z
+      time_zone: America/Chicago
+      place: des-plaines
+      thread: elections-1960-king
+      also:
+      - king
+      follows:
+      - cal.1960-10-26.king
+      c: 'Des Plaines, Ill., the O''Hare Inn, morning. Shriver, urged by Wofford, waits until the others have left Kennedy''s room and proposes he telephone Coretta King. Kennedy calls
+        her: "If there is anything I can do to help, please feel free to call on me," by her account.'
+      n: '[Statement by Senator John F. Kennedy on Telephone Call To Mrs. Martin Luther King, at Impromptu Press Conference, New York, NY](https://www.presidency.ucsb.edu/documents/statement-senator-john-f-kennedy-telephone-call-mrs-martin-luther-king-impromptu-press)
+        (Oct. 26, 1960) (Kennedy: he telephoned her; her account of his words). [[w.white-making-of-the-president]], 322 ("Early Wednesday morning," Wofford reaches Shriver; Shriver
+        reaches Kennedy at O''Hare Inn as he prepares to leave for Michigan; the call from his room); [[w.wofford-of-kennedys-and-kings]], 18–19 (Shriver: "Jack doesn''t leave O''Hare
+        for another forty minutes"; he waits until Sorensen, Salinger and O''Donnell are out of the room; Coretta King''s account of the words); [[w.mann-walls-of-jericho]], 284 (Shriver
+        places the call; Kennedy speaks "for no more than three minutes"; the words); [[w.schlesinger-robert-kennedy-and-his]], 216–18 (Kennedy in "a motel in the Chicago airport"; to
+        Salinger, arriving at Detroit, "I talked to Mrs. King this morning"); [[w.thomas-robert-kennedy]], 101 (Shriver pleads with Kennedy "In an airport lounge at Chicago''s O''Hare
+        Airport"); [[w.sorensen-kennedy]], 188, 215–16 (the call, opposed at first by "almost all his advisers"; not the day); [[w.goodwin-remembering-america]], 121–22 (Shriver, waiting
+        outside, speaks to Kennedy alone; Kennedy promises to "do all I can"); [[w.sorensen-counselor]], 272 (after "an intensive hotel room debate among his advisors"); [[w.gifford-center-cannot-hold]],
+        86 ("a much-publicized call"; not the day or the place); [[w.kallina-kennedy-v-nixon]], 153. The hour: "Early Wednesday morning" ([[w.white-making-of-the-president]], 322); "this
+        morning" (Kennedy to Salinger, [[w.schlesinger-robert-kennedy-and-his]], 217). The order: after [[cal.1960-10-26.king]], [[w.wofford-of-kennedys-and-kings]], 18 (Shriver tells
+        Kennedy of King''s "middle-of-the-night ride"). Check: Goodwin puts the call "The morning after King''s imprisonment," at his brother''s suggestion by telephone, as Kennedy began
+        to prepare for the fourth debate (Oct. 21), O''Donnell and the political advisers against (121). Check: Kallina, 153, has the call Shriver''s and Louis Martin''s idea, Shriver
+        placing it. See [[cal.1960-10-25.king]]. Names: Shriver, Wofford, Kennedy, Coretta Scott King.'
+      gloss:
+        title: Commentary
+        text:
+        - 'Sorensen (2008): he was among those arguing against the call; "I was wrong, both morally and politically" ([[w.sorensen-counselor]], 272).'
+      tags:
+      - name:shriver-r-sargent
+      - name:wofford-harris
+      - name:kennedy-john-f
+      - name:king-coretta-scott
+      - state:il
+- add:
+    entry:
+      id: cal.1960-10-26.elections-1960-king-2
+      when: Oct. 26
+      date: '1960-10-26'
+      time_band: night
+      time_range:
+      - 1960-10-27T02:00Z
+      - 1960-10-27T04:00Z
+      time_zone: America/New_York
+      place: nyc
+      thread: elections-1960-king
+      also:
+      - king
+      follows:
+      - cal.1960-10-26.elections-1960-king
+      c: 'New York, late at night, on landing. Kennedy to reporters: he telephoned Mrs. King; "She is a friend of mine and I was concerned about the situation." Of King''s imprisonment,
+        he may issue a statement later.'
+      n: '[Statement by Senator John F. Kennedy on Telephone Call To Mrs. Martin Luther King, at Impromptu Press Conference, New York, NY](https://www.presidency.ucsb.edu/documents/statement-senator-john-f-kennedy-telephone-call-mrs-martin-luther-king-impromptu-press)
+        (Oct. 26, 1960) (from the *New York Post*). [[w.wofford-of-kennedys-and-kings]], 20 ("Late that night when the Senator landed in New York, a newsman asked him"; "publicly he
+        confirmed the call"; not the statement promised). The hour: "Late that night" ([[w.wofford-of-kennedys-and-kings]], 20). See [[cal.1960-10-26.elections-1960-king]]. Names: Kennedy,
+        Coretta Scott King, Martin Luther King.'
+      tags:
+      - name:kennedy-john-f
+      - name:king-coretta-scott
+      - name:king-martin-luther-jr
+      - city:nyc
+- add:
+    entry:
+      id: cal.1960-10-26.elections-1960-king-3
+      when: Oct. 26
+      date: '1960-10-26'
+      thread: elections-1960-king
+      also:
+      - sit-ins
+      c: 'Kennedy to the Student Non-Violent Coordinating Committee of Atlanta, by telegram: "best wishes."'
+      n: '[Statement by Senator John F. Kennedy on Telephone Call To Mrs. Martin Luther King, at Impromptu Press Conference, New York, NY](https://www.presidency.ucsb.edu/documents/statement-senator-john-f-kennedy-telephone-call-mrs-martin-luther-king-impromptu-press)
+        (Oct. 26, 1960) (the editors'' note: the telegram, Oct. 26). See [[cal.1960-10-26.elections-1960-king]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - city:atlanta
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-10-26.elections-1960-king-4
+      when: Oct. 26
+      date: '1960-10-26'
+      place: atlanta
+      thread: elections-1960-king
+      also:
+      - king
+      follows:
+      - cal.1960-10-26.elections-1960-king
+      c: 'Atlanta, Morris Abram''s law office. King''s father and Coretta King tell Abram of Kennedy''s call. The father: if Kennedy has the courage to wipe the tears from Coretta''s
+        eyes, he will vote for him, whatever his religion. Abram to urge him to say so in public. By Abram''s account to Wofford.'
+      n: '[[w.wofford-of-kennedys-and-kings]], 19 (Abram to Wofford, "Soon afterwards": "Kennedy''s done it, he''s touched the heartstrings"; the elder King and Coretta King "had just
+        come to his law office"; Abram to urge the elder King to make his conversion public). See [[cal.1960-10-26.elections-1960-king]]. Names: Martin Luther King Sr., Coretta Scott
+        King, Abram, Kennedy, Wofford.'
+      tags:
+      - name:king-martin-luther-sr
+      - name:king-coretta-scott
+      - name:abram-morris-b
+      - name:kennedy-john-f
+      - name:wofford-harris
+      - state:ga
+      - city:atlanta
+- add:
+    entry:
+      id: cal.1960-10-26.robert-kennedy-2
+      when: Oct. 26
+      date: '1960-10-26'
+      time_band: afternoon
+      time_range:
+      - 1960-10-26T16:00Z
+      - 1960-10-26T22:00Z
+      time_zone: America/New_York
+      place: washington
+      thread: robert-kennedy
+      also:
+      - elections-1960-king
+      - king
+      follows:
+      - cal.1960-10-26.robert-kennedy
+      c: Washington. Seigenthaler drives Robert Kennedy to the airport for New York. Robert Kennedy wonders whether to call the judge himself and draw the fire from his brother; Seigenthaler,
+        who has heard all day from Southern politicians about the call to Mrs. King, urges him to stay out of it, and he agrees.
+      n: '[[w.thomas-robert-kennedy]], 101–02 ("early that afternoon"; a "lightning rod"; "Bobby wearily agreed"); [[w.schlesinger-robert-kennedy-and-his]], 216–18 (he wonders whether
+        to call the judge and protest; Seigenthaler thinks it a poor idea; "scheduled to speak in New York that afternoon"). The hour: "early that afternoon" ([[w.thomas-robert-kennedy]],
+        101). The order: after [[cal.1960-10-26.robert-kennedy]], [[w.thomas-robert-kennedy]], 101 (from headquarters, Seigenthaler drives him to the airport). See [[cal.1960-10-25.king]].
+        Names: Seigenthaler, Robert Kennedy.'
+      tags:
+      - name:seigenthaler-john
+      - name:kennedy-robert-f
+- add:
+    entry:
+      id: cal.1960-10-27.robert-kennedy-2
+      when: Oct. 27
+      date: '1960-10-27'
+      time_band: morning
+      time_range:
+      - 1960-10-27T10:00Z
+      - 1960-10-27T16:00Z
+      time_zone: America/New_York
+      place: nyc
+      thread: robert-kennedy
+      also:
+      - king
+      - elections-1960-king
+      c: Robert Kennedy, from New York, telephones Judge Oscar Mitchell in Georgia for King's release on bail.
+      n: '[[w.white-making-of-the-president]], 323 ("the next morning telephoned a plea for King''s release from New York to the Georgian judge"); [[w.wofford-of-kennedys-and-kings]],
+        21–22 (before Brinkley''s call "late in the afternoon of October 27"; "It just burned me all the way up here on the plane"; the release "Not long after Bob''s call"); [[w.schlesinger-robert-kennedy-and-his]],
+        216–18 (by telephone on reaching New York; "I made it clear to him that it was not a political call"); [[w.thomas-robert-kennedy]], 102–03 (from New York, "probably" from a telephone
+        booth); [[w.mann-walls-of-jericho]], 285 ("By day''s end," the day of the call to Mrs. King); [[w.sorensen-kennedy]], 188, 216 (an "indignant protest to the judge"; not the day);
+        [[w.nixon-six-crises]], 362 (Robert Kennedy "wasted no time in calling the judge"; not the day); [[w.kallina-kennedy-v-nixon]], 154. The hour: "the next morning" ([[w.white-making-of-the-president]],
+        323). Check: the day; Schlesinger (217) and Thomas (101–03) have the call on the afternoon of Oct. 26, on his arrival in New York; Mann has it "By day''s end" of Oct. 26 (285).
+        Check: Thomas, from Vandiver''s account, has Robert Kennedy call Mitchell at his brother''s instruction, through Vandiver (102–03); Robert Kennedy''s own account of 1964, at
+        Vandiver''s suggestion (103 n.). Check: by Kallina''s account, after Vandiver''s (154), Kennedy first called Vandiver, who arranged through Robert Russell and George Stewart
+        that Mitchell would free King on Robert Kennedy''s call. See [[cal.1960-10-25.king]]. Names: Robert Kennedy, Oscar Mitchell, Martin Luther King.'
+      tags:
+      - name:kennedy-robert-f
+      - name:mitchell-oscar
+      - name:king-martin-luther-jr
+      - city:nyc
+- add:
+    entry:
+      id: cal.1960-10-24.elections-1960-kennedy-7
+      when: Oct. 24
+      date: '1960-10-24'
+      time: 1960-10-24T06:00Z
+      time_approx: true
+      time_zone: America/Chicago
+      place: rockford
+      thread: elections-1960-kennedy
+      c: Rockford, Ill., a rally at one in the morning, by Kennedy's words at the Coronado Theater rally later in the day.
+      n: '[[w.communications-freedom-of-communications-part]], 727 (Kennedy at the Coronado Theater: "only in Rockford do we have rallies at 1 o''clock in the morning and 9 o''clock
+        in the morning"). The hour: "1 o''clock in the morning" ([[w.communications-freedom-of-communications-part]], 727). See [[cal.1960-10-24.elections-1960-kennedy]]. Names: Kennedy.
+        Check: which of the two rallies the speech names is the Coronado Theater''s.'
+      tags:
+      - name:kennedy-john-f
+      - state:il
 - edit:
     id: cal.1960-10-04.elections-1960-kennedy-2
     base: 17c22965
@@ -278,7 +584,7 @@ ops:
     set:
       n: '[Remarks of Senator John F. Kennedy, New Castle, PA](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-new-castle-pa) (Oct. 15, 1960). [[w.communications-freedom-of-communications-part]],
         596–599. The order: after [[cal.1960-10-15.elections-1960-kennedy-2]], the printed order alone ([[w.communications-freedom-of-communications-part]], 594–96). The hour: "Yesterday,
-        in fact this morning, I read in the newspaper" ([[w.communications-freedom-of-communications-part]], 595): the morning. Names: Kennedy, Lawrence, Clark, Frank Clark, Nixon. Check:
+        in fact this morning, I read in the newspaper" ([[w.communications-freedom-of-communications-part]], 596): the morning. Names: Kennedy, Lawrence, Clark, Frank Clark, Nixon. Check:
         the hour; the words give the morning of the newspaper reading, and New Castle comes before Beaver Falls, "this morning" ([[w.communications-freedom-of-communications-part]],
         599).'
       time_band: morning
@@ -329,7 +635,7 @@ ops:
     set:
       n: '[Remarks of Senator John F. Kennedy, Capitol Steps, Columbus, Ohio](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-capitol-steps-columbus-ohio) (Oct.
         17, 1960). [[w.communications-freedom-of-communications-part]], 642–645. The order: after [[cal.1960-10-17.elections-1960-kennedy-6]], the printed order alone ([[w.communications-freedom-of-communications-part]],
-        639–42). The hour: "I stand tonight" ([[w.communications-freedom-of-communications-part]], 641): the evening. Names: Kennedy, DiSalle.'
+        639–42). The hour: "I stand tonight" ([[w.communications-freedom-of-communications-part]], 642): the evening. Names: Kennedy, DiSalle.'
       time_band: evening
       time_range:
       - 1960-10-17T23:00Z
@@ -355,9 +661,9 @@ ops:
         (Oct. 18, 1960). [[w.white-making-of-the-president]], 325–26; [[w.communications-freedom-of-communications-part]], 654–59 (Hillsborough County Courthouse, Tampa, Oct. 18; Roosevelt''s
         address to the nations of Latin America quoted; not the draft or its revision); [[w.goodwin-remembering-america]], 109 (the Alianza para Progreso "first proclaimed" at Tampa
         on Oct. 18, the phrase coined for San Antonio, Sept. 12, 108–9; not the courthouse or the draft from Middletown). The order: after [[cal.1960-10-18.elections-1960-3]], the printed
-        order alone ([[w.communications-freedom-of-communications-part]], 649–54). The hour: "I come to Florida tonight" ([[w.communications-freedom-of-communications-part]], 657): the
+        order alone ([[w.communications-freedom-of-communications-part]], 649–54). The hour: "I come to Florida tonight" ([[w.communications-freedom-of-communications-part]], 658): the
         evening. See [[cal.1960-10-18.elections-1960-3]]. Names: Kennedy, Goodwin. Check: the hour; White has Kennedy delivering the Tampa speech "that afternoon" ([[w.white-making-of-the-president]],
-        326), against his own "tonight" (657).'
+        326), against his own "tonight" (658).'
       time_band: evening
       time_range:
       - 1960-10-18T23:00Z
@@ -440,8 +746,8 @@ ops:
     base: b796bdc4
     set:
       n: 'Remarks of Senator John F. Kennedy, Shaunee Mission East High School, Kansas City, KS, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-shaunee-mission-east-high-school-kansas-city-ks)
-        (Oct. 22, 1960). [[w.communications-freedom-of-communications-part]], 699–702. The hour: "to Green Bay, Wis., tonight" ([[w.communications-freedom-of-communications-part]], 699);
-        "who we were with tonight" ([[w.communications-freedom-of-communications-part]], 701): the evening. Names: Kennedy.'
+        (Oct. 22, 1960). [[w.communications-freedom-of-communications-part]], 699–702. The hour: "to Green Bay, Wis., tonight" ([[w.communications-freedom-of-communications-part]], 700);
+        "who we were with tonight" ([[w.communications-freedom-of-communications-part]], 702); "I spoke this afternoon in Wichita" (700): the evening. Names: Kennedy.'
       time_band: evening
       time_range:
       - 1960-10-23T00:00Z
@@ -464,7 +770,7 @@ ops:
     base: 902046f9
     set:
       n: 'Remarks of Senator John F. Kennedy, Green Bay, WI, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-green-bay-wi) (Oct. 23, 1960). [[w.communications-freedom-of-communications-part]],
-        708–11. The hour: "I come here this morning" ([[w.communications-freedom-of-communications-part]], 707): the morning. Names: Kennedy, Nelson, Reynolds, Nixon, Nash.'
+        708–11. The hour: "I come here this morning" ([[w.communications-freedom-of-communications-part]], 708): the morning. Names: Kennedy, Nelson, Reynolds, Nixon, Nash.'
       time_band: morning
       time_range:
       - 1960-10-23T11:00Z
@@ -512,7 +818,7 @@ ops:
     set:
       n: 'Remarks of Senator John F. Kennedy, Keyworth Stadium, Hamtramck, MI, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-keyworth-stadium-hamtramck-mi)
         (Oct. 26, 1960). [[w.communications-freedom-of-communications-part]], 763–65. The order: after [[cal.1960-10-26.elections-1960-kennedy-3]], the printed order alone ([[w.communications-freedom-of-communications-part]],
-        762–63). The hour: "I stand here tonight" ([[w.communications-freedom-of-communications-part]], 763): the evening. Names: Kennedy, Machrowicz, Swainson.'
+        762–63). The hour: "I stand here tonight" ([[w.communications-freedom-of-communications-part]], 764): the evening. Names: Kennedy, Machrowicz, Swainson.'
       time_band: evening
       time_range:
       - 1960-10-27T00:00Z
@@ -607,7 +913,7 @@ ops:
     set:
       n: 'Speech of Senator John F. Kennedy, Valley Forge Country Club, Valley Forge, PA, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-valley-forge-country-club-valley-forge-pa)
         (Oct. 29, 1960). [[w.communications-freedom-of-communications-part]], 818–21. The order: after [[cal.1960-10-29.elections-1960-kennedy-7]], the printed order alone ([[w.communications-freedom-of-communications-part]],
-        816–18). The hour: "Tonight I speak" ([[w.communications-freedom-of-communications-part]], 817): the evening. Names: Kennedy, Lawrence.'
+        816–18). The hour: "Tonight I speak" ([[w.communications-freedom-of-communications-part]], 818): the evening. Names: Kennedy, Lawrence.'
       time_band: evening
       time_range:
       - 1960-10-29T23:00Z
@@ -632,7 +938,7 @@ ops:
       n: 'Speech by Senator John F. Kennedy, Convention Hall, Philadelphia, PA, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-convention-hall-philadelphia-pa)
         (Oct. 31, 1960). [[w.communications-freedom-of-communications-part]], 835–40 (the text prepared for delivery, 835–38, and the remarks as given, 838–40). The order: after [[cal.1960-10-31.elections-1960-kennedy-6]],
         the printed order alone ([[w.communications-freedom-of-communications-part]], 833–35). The hour: "Tonight I want to tell you" ([[w.communications-freedom-of-communications-part]],
-        835): the evening. Names: Kennedy, Nixon.'
+        836): the evening. Names: Kennedy, Nixon.'
       time_band: evening
       time_range:
       - 1960-11-01T00:00Z
@@ -643,7 +949,7 @@ ops:
     base: 1d637291
     set:
       n: 'Remarks of Senator John F. Kennedy, New York University, Washington Square, New York, NY, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-new-york-university-washington-square-new-york-ny)
-        (Oct. 27, 1960). [[w.communications-freedom-of-communications-part]], 776–79. The hour: "We now go to Brooklyn" ([[w.communications-freedom-of-communications-part]], 777), where
+        (Oct. 27, 1960). [[w.communications-freedom-of-communications-part]], 776–79. The hour: "We now go to Brooklyn" ([[w.communications-freedom-of-communications-part]], 778), where
         the stops that follow say "tonight" (779): the evening. Names: Kennedy, Nixon.'
       time_band: evening
       time_range:
@@ -685,8 +991,9 @@ ops:
         190 (Quemoy and Matsu in the second debate; Nixon attacks Kennedy''s argument that they are "not strategically defensible"; not the quotations); [[w.chang-friends-and-enemies]],
         217 (in the televised debates Kennedy questions the value of the small islands to Taiwan''s defense, Nixon defends the Eisenhower record of 1958; neither presses it). [[w.nixon-six-crises]],
         343–46 (the NBC studios, Washington; Kennedy''s words on Quemoy and Matsu; Nixon''s answer). Check: Gifford, 190, calls the second debate the one devoted to foreign policy; the
-        entry has questions on any subject (the fourth debate, Oct. 21, foreign policy only). The hour: 7:30 to 8:30 p.m. EDT ([Wikipedia, 1960 United States presidential debates](https://en.wikipedia.org/wiki/1960_United_States_presidential_debates)).
-        See [[cal.1960-09-26.elections-1960]]. Names: Kennedy, Nixon, Frank McGee. Check: the hour against the broadcast record; the network log and the Commission''s papers not read.'
+        entry has questions on any subject (the fourth debate, Oct. 21, foreign policy only). The hour: NBC radio, Oct. 6: the debate "Tomorrow night," carried "from 7:30 to 8:30 p.m.,
+        New York time" ([[w.freedom-of-communications-part]], 145–46); McGee: the candidates "devote the full hour" (146). See [[cal.1960-09-26.elections-1960]]. Names: Kennedy, Nixon,
+        Frank McGee.'
       time_range:
       - 1960-10-07T23:30Z
       - 1960-10-08T00:30Z
@@ -701,9 +1008,9 @@ ops:
         15, 1960). [[w.kallina-kennedy-v-nixon]], 126–27 (Quemoy and Matsu the chief subject); [[w.nixon-rn]], 220 (Nixon in Los Angeles, Kennedy in New York; Quemoy and Matsu); [[w.sorensen-kennedy]],
         202, 204–05 (the third debate; Quemoy and Matsu); [[w.white-making-of-the-president]], 290, 292, 294–95, 299 (the second, third and fourth debates; Schwerin''s and Gallup''s
         scores, 293–94); [[w.gifford-center-cannot-hold]], 190 (the third debate: Kennedy begins to hedge on Quemoy and Matsu, Nixon presses his position for their defense; not "trigger-happy");
-        [[w.chang-friends-and-enemies]], 217 (the debates, Kennedy on the islands'' value; no debate named). [[w.nixon-six-crises]], 346–48 (the same). The hour: 7:30 to 8:30 p.m. EDT
-        ([Wikipedia, 1960 United States presidential debates](https://en.wikipedia.org/wiki/1960_United_States_presidential_debates)). See [[cal.1960-09-26.elections-1960]]. Names: Kennedy,
-        Nixon, Shadel. Check: the hour against the broadcast record; the network log and the Commission''s papers not read.'
+        [[w.chang-friends-and-enemies]], 217 (the debates, Kennedy on the islands'' value; no debate named). [[w.nixon-six-crises]], 346–48 (the same). The hour: NBC radio, Oct. 6: the
+        third meeting "next Thursday evening," carried "from 7:30 to 8:30 p.m., New York time" ([[w.freedom-of-communications-part]], 145–46). See [[cal.1960-09-26.elections-1960]].
+        Names: Kennedy, Nixon, Shadel.'
       time_range:
       - 1960-10-13T23:30Z
       - 1960-10-14T00:30Z
@@ -717,13 +1024,10 @@ ops:
         290, 292, 294–95, 299 (the second, third and fourth debates; Schwerin''s and Gallup''s scores, 293–94); [[w.wofford-of-kennedys-and-kings]], 64 (Oct. 21, the fourth television
         debate, Nixon chastises Kennedy for suggesting an illegal intervention in Cuba; not the words, the place or the network); [[w.gifford-center-cannot-hold]], 190 (Nixon calls Kennedy''s
         hard-line proposal on Cuba "dangerously irresponsible"; not the debate, the day or the moderator). [[w.nixon-six-crises]], 351, 353, 355 (Oct. 21, New York; foreign policy the
-        only subject; Nixon''s words on Cuba). The hour: 10 to 11 p.m. EDT ([Wikipedia, 1960 United States presidential debates](https://en.wikipedia.org/wiki/1960_United_States_presidential_debates)).
-        See [[cal.1960-09-26.elections-1960]]; Kennedy''s statement, [[cal.1960-10-20.cuba]]. Names: Kennedy, Nixon, Castro, Howe. Check: the hour against the broadcast record; the network
-        log and the Commission''s papers not read.'
-      time_range:
-      - 1960-10-22T02:00Z
-      - 1960-10-22T03:00Z
+        only subject; Nixon''s words on Cuba). The hour: NBC radio, Oct. 20: the fourth debate "Tomorrow night," broadcast "beginning at 10 p.m., eastern time" ([[w.freedom-of-communications-part]],
+        259). See [[cal.1960-09-26.elections-1960]]; Kennedy''s statement, [[cal.1960-10-20.cuba]]. Names: Kennedy, Nixon, Castro, Howe.'
       time_zone: America/New_York
+      time: 1960-10-22T02:00Z
 - edit:
     id: cal.1960-10-12.elections-1960-2
     base: c9ee07e7
@@ -734,9 +1038,10 @@ ops:
         and large scale"; the rally before the Theresa; not "his longest"); [[w.communications-freedom-of-communications-part]], 575–78 (Kennedy''s speech to the National Conference
         on Constitutional Rights and American Freedom, Park-Sheraton Hotel, Oct. 12; not that it ended the conference or was his longest on civil rights); [[w.branch-parting-the-waters]],
         341, 344 (the conference''s name; Kennedy''s speech). Check: Wofford has Humphrey open the two-day conference in New York Oct. 11, more than 400 from forty-two States (63). To
-        check: [[w.sorensen-kennedy]], 183 (cited by [[w.branch-parting-the-waters]], 344 n.2). Split under R17: the rally at the Hotel Theresa is [[cal.1960-10-12.elections-1960-kennedy-4]].
+        check: [[w.sorensen-kennedy]], 183 (cited by [[w.branch-parting-the-waters]], 344 n.2). The hour: the conference''s report to be made to Kennedy "at a luncheon in the Park-Sheraton
+        on October 12," in the release of Sept. 24 ([[w.communications-freedom-of-communications-part]], 358), a plan. Split under R17: the rally at the Hotel Theresa is [[cal.1960-10-12.elections-1960-kennedy-4]].
         See [[cal.1960-08-02.elections-1960]]. Names: Kennedy. Check: Kallina gives mid-October, a two-day conference (147); the day is the speech''s. Check: Branch, 344, has the two-day
-        conference open in Harlem on Oct. 11.'
+        conference open in Harlem on Oct. 11. Check: the hour is the release''s plan.'
       src:
         c: 3a1487ac
         rows:
@@ -749,6 +1054,11 @@ ops:
         - 'via w.branch-parting-the-waters 344 n.2b: 2'
         - 'w.wofford-of-kennedys-and-kings 63–64: 1'
         - 'w.communications-freedom-of-communications-part 575–78: 1'
+      time_band: workday midday
+      time_zone: America/New_York
+      time_range:
+      - 1960-10-12T16:00Z
+      - 1960-10-12T18:00Z
     kind: reword
 - edit:
     id: cal.1960-10-16.elections-1960-kennedy
@@ -776,8 +1086,8 @@ ops:
     set:
       c: Middletown, Ohio, the Manchester Hotel. Goodwin, with the campaign's portable library, drafts the Latin American speech for Tampa; Sorensen, at Columbus, has begun the national-defense
         speech from the Cox office's material.
-      n: '[[w.white-making-of-the-president]], 325. White puts Kennedy''s reading and revising of the draft on the night flight to Miami ([[w.white-making-of-the-president]], 325). Split
-        under R25b: the night flight is [[cal.1960-10-17.elections-1960-kennedy-9]]. See [[cal.1960-10-16.elections-1960-kennedy]]. Names: Goodwin, Sorensen, Kennedy.'
+      n: '[[w.white-making-of-the-president]], 325. Goodwin works at Middletown until he must leave "at 4:30" for the airport at Columbus (325). Split under R25b: the night flight is
+        [[cal.1960-10-17.elections-1960-kennedy-9]]. See [[cal.1960-10-16.elections-1960-kennedy]]. Names: Goodwin, Sorensen, Kennedy.'
       src:
         c: e58074ae
         rows:
@@ -808,11 +1118,11 @@ ops:
       c: Miami Beach, the American Legion's convention.{1} Kennedy on national defense; Goodwin's last draft is handed to him at a toll gate on the causeway forty-five minutes before
         he gives it.{2}
       n: 'Speech of Senator John F. Kennedy, American Legion Convention, Miami Beach, FL, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-american-legion-convention-miami-beach-fl)
-        (Oct. 18, 1960). [[w.white-making-of-the-president]], 325–26 (the toll gate; the drafting through the night is [[cal.1960-10-18.elections-1960-kennedy-6]]); [[w.communications-freedom-of-communications-part]],
-        649–54 (the speech to the American Legion convention, Miami Beach, Oct. 18, on the "erosion of American power" and the military balance; not the nonmilitary side of the cold
-        war added that morning, nor the draft). The order: after [[cal.1960-10-18.elections-1960-kennedy-3]], the printed order alone ([[w.communications-freedom-of-communications-part]],
-        647–49). White has Goodwin begin the last draft at 8:30, before the speech ([[w.white-making-of-the-president]], 325). Split under R25b and R18 (the preparation of a speech is
-        an entry): the drafting is [[cal.1960-10-18.elections-1960-kennedy-6]]. See [[cal.1960-10-01.elections-1960]]. Names: Kennedy, Goodwin.'
+        (Oct. 18, 1960). [[w.white-making-of-the-president]], 325–26 (the toll gate); [[w.communications-freedom-of-communications-part]], 649–54 (the speech to the American Legion convention,
+        Miami Beach, Oct. 18, on the "erosion of American power" and the military balance; not the nonmilitary side of the cold war added that morning, nor the draft). The order: after
+        [[cal.1960-10-18.elections-1960-kennedy-3]], the printed order alone ([[w.communications-freedom-of-communications-part]], 647–49). Split under R25b and R18 (the preparation
+        of a speech is an entry): the drafting through the night is [[cal.1960-10-18.elections-1960-kennedy-6]], Kennedy''s changes at eight [[cal.1960-10-18.elections-1960-kennedy-7]],
+        the last draft from 8:30 [[cal.1960-10-18.elections-1960-kennedy-8]]. See [[cal.1960-10-01.elections-1960]]. Names: Kennedy, Goodwin.'
       src:
         c: f7206fac
         rows:
@@ -823,23 +1133,21 @@ ops:
 - follows:
     id: cal.1960-10-18.elections-1960-3
     add:
-    - cal.1960-10-18.elections-1960-kennedy-6
-    basis: the drafting of the speech, [[w.white-making-of-the-president]], 325–26 ("forty-five minutes before he was to adopt it")
+    - cal.1960-10-18.elections-1960-kennedy-8
+    basis: '[[w.white-making-of-the-president]], 325–26 (Goodwin, the last draft finished, intercepts the caravan at the toll gate "forty-five minutes before he was to adopt it")'
 - edit:
     id: cal.1960-10.elections-1960-kennedy
     base: 5c4d5b79
     set:
       n: '[[w.goodwin-remembering-america]], 126 (Goodwin''s account: "There was no other reproach"). See [[cal.1960-10-20.cuba]]. Names: Kennedy, Goodwin, Sorensen. The day: the statement
         is of Oct. 20 ([[cal.1960-10-20.cuba]]); Goodwin has Nixon''s answer "the next day," Oct. 21, and the Caroline "the next night" ([[w.goodwin-remembering-america]], 125–26), Oct.
-        22; that night Kennedy flies from Kansas City to Green Bay ("to Green Bay, Wis., tonight," [[w.communications-freedom-of-communications-part]], 699). The hour: "night" (126).'
+        22; that night Kennedy flies from Kansas City to Green Bay ("to Green Bay, Wis., tonight," [[w.communications-freedom-of-communications-part]], 700). The hour: "night" (126).
+        Check: the day; "The next night" (126).'
       time_band: night
       time_range:
       - 1960-10-23T03:00Z
       - 1960-10-23T05:00Z
       time_zone: America/Chicago
-    kind: correct
-    settles:
-    - 'Check: the day; "The next night" (126).'
 - follows:
     id: cal.1960-10-27.robert-kennedy
     add:
@@ -857,11 +1165,217 @@ ops:
         cult of personality, the Twentieth and Twenty-first Congresses; the draft much amended; no agreement on banishing world war, factions and the two congresses, left to the November
         meeting of eighty-one parties); [[w.lengxi-shinian-lunzhan-1956-1966]], 367; [[w.deng-xiaoping-nianpu-1904]], III, 1580. Made public: 1999. The day: Yang''s diary has the committee''s
         first session Oct. 1, 1 to 3 p.m., in the Kremlin''s St. George Hall, then two days for study and the general debate from Oct. 4 ([[w.yang-shangkun-riji]], I, 558–559); the Deng
-        nianpu (III, 1580) has Oct. 1 too. The committee opens Oct. 1, not Oct. 2 ([[w.lengxi-shinian-lunzhan-1956-1966]], 365–367: "from Oct. 2"). Its opening session is also [[cal.1960-10-01.china-leadership-9]].
-        Names: Chen Boda, Wu Lengxi, Deng Xiaoping. Check: the account is the Chinese delegation''s.'
+        nianpu (III, 1580) has Oct. 1 too. The hour: 下午1时 ([[w.yang-shangkun-riji]], I, 558); 下午一时 ([[w.deng-xiaoping-nianpu-1904]], III, 1580). The time is the first day''s. Its opening
+        session is also [[cal.1960-10-01.china-leadership-9]]. Names: Chen Boda, Wu Lengxi, Deng Xiaoping. Check: the account is the Chinese delegation''s. Check: Wu Lengxi has the committee
+        "from Oct. 2" (365–367).'
       when: Oct. 1
       date: '1960-10-01'
+      time: 1960-10-01T10:00Z
+      time_zone: Europe/Moscow
     kind: correct
     settles:
     - 'Check: the Deng nianpu (III, 1580) dates'
     - 'Check: the day: Yang''s diary'
+- edit:
+    id: cal.1960-10-12.elections-1960
+    base: 231ef6e4
+    set:
+      c: Lodge, in East Harlem, promises a Negro in a Nixon cabinet.{1}
+      n: '[[w.kallina-kennedy-v-nixon]], 133 (the pledge; no date or place); [[w.white-making-of-the-president]], 297 (Lodge''s East Harlem pledge, to the Nixon staff''s anger). [[w.gifford-center-cannot-hold]],
+        85, 161 (Oct. 12, Harlem). [[w.nixon-six-crises]], 350–51 (Lodge in Harlem, Oct. 12, a Negro in the cabinet "offered as a pledge"). No primary record found. To check: [[w.nichter-last-brahmin]];
+        [[w.lodge-as-it-was]]; John Reagan McCrary to Eisenhower, Oct. 11, 1960, Eisenhower Library; *Newsweek*, Sept. 19, 1960, at 39; *New York Times*, [Oct. 6](https://timesmachine.nytimes.com/timesmachine/1960/10/06/issue.html)
+        and [Oct. 10, 1960](https://timesmachine.nytimes.com/timesmachine/1960/10/10/issue.html); Tom Wicker OHI, June 16, 1970, LBJ Library (cited by [[w.kallina-kennedy-v-nixon]],
+        133 n.43); [*New York Times*, Oct. 13, 1960](https://timesmachine.nytimes.com/timesmachine/1960/10/13/issue.html), at 1 (cited by [[w.gifford-center-cannot-hold]], 85 n.98).
+        Split under R17: Nixon''s answer is an entry of its own. Names: Lodge, Nixon. Check: Kallina''s note cites the *New York Times* of Oct. 6 and 10, 1960, for Lodge''s campaign
+        (242 n.43). Check: Gifford gives Harlem, not East Harlem; so does Nixon (*Six Crises*, 350).'
+      src:
+        c: 917e637c
+        rows:
+        - 'w.kallina-kennedy-v-nixon 133: 1'
+        - 'via w.kallina-kennedy-v-nixon 133 n.43a: 1'
+        - 'via w.kallina-kennedy-v-nixon 133 n.43b: 1'
+        - 'via w.kallina-kennedy-v-nixon 133 n.43c: 1'
+        - 'via w.kallina-kennedy-v-nixon 133 n.43d: 1'
+        - 'via w.kallina-kennedy-v-nixon 133 n.43e: 1'
+        - 'w.gifford-center-cannot-hold 85: 1'
+        - 'w.gifford-center-cannot-hold 161: 1'
+        - 'via w.gifford-center-cannot-hold 85 n.98a: 1'
+        - 'w.nixon-six-crises 350–51: 1'
+        - 'w.white-making-of-the-president 297: 1'
+    kind: correct
+- edit:
+    id: cal.1960-10-25.king
+    base: ec84990e
+    set:
+      when: Oct. 25
+      also:
+      - elections-1960-king
+      c: 'Judge Oscar Mitchell of DeKalb County revokes King''s probation on a May traffic charge: four months at hard labor.{1} Bail refused; Coretta King in tears at the sentencing.{2}'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 216 (the DeKalb County judge; four months of hard labor for violating probation on a minor traffic transgression of six months before);
+        [[w.white-making-of-the-president]], 321–22 (all the other sit-ins released "On the following Monday"; King held and "sentenced on a technicality to four months'' hard labor");
+        [[w.mann-walls-of-jericho]], 283 (four months in prison; "A segregationist judge in Atlanta"); [[w.thomas-robert-kennedy]], 101 ("a local judge"; four months'' hard labor); [[w.gifford-center-cannot-hold]],
+        86 (a four-month sentence for violating a suspended sentence for driving in Georgia with an Alabama license; not the judge or the day); [[w.goodwin-remembering-america]], 121
+        (four months at hard labor); [[w.sorensen-counselor]], 271 ("a Georgia judge," four months "for a traffic technicality"; not the day); [[w.wofford-of-kennedys-and-kings]], 16
+        (the De Kalb County judge; the judge refused to let him out on bail; Coretta King cried at the sentencing). [[w.kallina-kennedy-v-nixon]], 153. Check: Wofford has the judge announce
+        six months, "later reduced to four" (16). Check: the day. Kallina, 153, has Mitchell sentence King on Monday, Oct. 24; Nixon gives Oct. 26 (*Six Crises*, 362); Goodwin has King
+        "Taken immediately to court" after his arrest of Oct. 19 (121). Split under R17: the line held the move to Reidsville, the two Kennedys'' calls, the release and King''s father''s
+        word, each now an entry of its own pointing here. See [[cal.1960-10-19.king]]. Names: Martin Luther King, Oscar Mitchell, Coretta Scott King.'
+      src:
+        c: b9a6d80e
+        rows:
+        - 'w.schlesinger-robert-kennedy-and-his 216: 1'
+        - 'w.white-making-of-the-president 321–22: 1'
+        - 'w.mann-walls-of-jericho 283: 1'
+        - 'w.thomas-robert-kennedy 101: 1'
+        - 'w.gifford-center-cannot-hold 86: 1'
+        - 'w.goodwin-remembering-america 121: 1'
+        - 'w.sorensen-counselor 271: 1'
+        - 'w.wofford-of-kennedys-and-kings 16: 1, 2'
+        - 'w.kallina-kennedy-v-nixon 153: 1'
+      tags:
+      - name:king-martin-luther-jr
+      - name:mitchell-oscar
+      - name:king-coretta-scott
+    kind: correct
+- edit:
+    id: cal.1960-10-22.elections-1960-kennedy-5
+    base: 1c42fe03
+    set:
+      n: 'Remarks of Senator John F. Kennedy, Lawrence Stadium, Wichita, KS, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-lawrence-stadium-wichita-ks)
+        (Oct. 22, 1960). [[w.communications-freedom-of-communications-part]], 697–99. The hour: Kennedy at Shawnee Mission that evening, "I spoke this afternoon in Wichita" ([[w.communications-freedom-of-communications-part]],
+        700): the afternoon. Names: Kennedy, Docking, Nixon, Benson.'
+      time_band: afternoon
+      time_range:
+      - 1960-10-22T17:00Z
+      - 1960-10-22T23:00Z
+      time_zone: America/Chicago
+- edit:
+    id: cal.1960-10-31.elections-1960-kennedy-5
+    base: 60814c87
+    set:
+      n: 'Remarks of Senator John F. Kennedy, Bonds for Israel Dinner, Philadelphia, PA, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-bonds-for-israel-dinner-philadelphia-pa)
+        (Oct. 31, 1960). [[w.communications-freedom-of-communications-part]], 831–33. The order: after [[cal.1960-10-31.elections-1960-kennedy-4]], the printed order alone ([[w.communications-freedom-of-communications-part]],
+        831). The hour: "a pleasure to come to this luncheon"; "your efforts here today" ([[w.communications-freedom-of-communications-part]], 831): midday. Names: Kennedy, Dilworth,
+        Green. Check: the hour; the heading has a dinner (831), the speech a luncheon.'
+      time_band: workday midday
+      time_range:
+      - 1960-10-31T17:00Z
+      - 1960-10-31T19:00Z
+      time_zone: America/New_York
+- follows:
+    id: cal.1960-10-07.elections-1960-2
+    add:
+    - cal.1960-10-07.elections-1960
+    basis: '[[w.thomas-robert-kennedy]], 106 ("During the next debate in Washington")'
+- follows:
+    id: cal.1960-10-16.elections-1960-kennedy-4
+    add:
+    - cal.1960-10-16.elections-1960-kennedy-7
+    basis: 'Kennedy at the rally: "as I told Meet the Press" ([[w.communications-freedom-of-communications-part]], 615)'
+- follows:
+    id: cal.1960-10-24.elections-1960-kennedy
+    add:
+    - cal.1960-10-24.elections-1960-kennedy-7
+    basis: 'Kennedy at the Coronado Theater: "rallies at 1 o''clock in the morning and 9 o''clock in the morning" ([[w.communications-freedom-of-communications-part]], 727)'
+- follows:
+    id: cal.1960-10-26.robert-kennedy
+    add:
+    - cal.1960-10-26.elections-1960-king
+- follows:
+    id: cal.1960-10-27.press-and-broadcasting
+    add:
+    - cal.1960-10-27.robert-kennedy-2
+- follows:
+    id: cal.1960-10-27.king
+    add:
+    - cal.1960-10-27.robert-kennedy-2
+    basis: '[[w.wofford-of-kennedys-and-kings]], 22 ("Not long after Bob''s call")'
+- cite:
+    id: cal.1960-10-27.king
+    item: '[[w.wofford-of-kennedys-and-kings]], 22 (the release on $2,000 bond; "I am deeply indebted to Senator Kennedy"; not the endorsement)'
+- cite:
+    id: cal.1960-10-27.king
+    item: '[[w.white-making-of-the-president]], 323 (released on bail Thursday; not the bond or the words)'
+- cite:
+    id: cal.1960-10-27.king
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 218 ("The next day King was released"; he "declined to endorse Kennedy"; not the bond)'
+- cite:
+    id: cal.1960-10-27.king
+    item: '[[w.thomas-robert-kennedy]], 102 (the judge releases King after Robert Kennedy''s call; not the bond or the words)'
+- cite:
+    id: cal.1960-10-27.king
+    item: '[[w.gifford-center-cannot-hold]], 86 (release on bail; not the day)'
+- cite:
+    id: cal.1960-10-27.king
+    item: '[[w.kallina-kennedy-v-nixon]], 153'
+- cite:
+    id: cal.1960-10-28.king
+    item: '[[w.gifford-center-cannot-hold]], 86–87 (at a thanksgiving service at Ebenezer, the elder King''s statement; not King''s words)'
+- cite:
+    id: cal.1960-10-28.king
+    item: '[[w.white-making-of-the-president]], 323 (the elder King''s "suitcase of votes"; not the day or the place)'
+- cite:
+    id: cal.1960-10-28.king
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 218 (the father''s words, as "I''ll take a Catholic or the Devil himself"; not the day or the place)'
+- cite:
+    id: cal.1960-10-28.king
+    item: '[[w.thomas-robert-kennedy]], 102 (the elder King "openly shifted his endorsement"; not the day or the words)'
+- cite:
+    id: cal.1960-10-28.king
+    item: '[[w.goodwin-remembering-america]], 122 (the father announces he will vote for a Catholic; not the day or the place)'
+- cite:
+    id: cal.1960-10-28.king
+    item: '[[w.kallina-kennedy-v-nixon]], 155'
+- add-words:
+    id: cal.1960-10-28.king
+    after: end
+    words: 'Abernathy after him: "take off your Nixon buttons."'
+    item: '[[w.gifford-center-cannot-hold]], 87'
+- names:
+    id: cal.1960-10-28.king
+    add:
+    - Abernathy
+    tags:
+    - name:abernathy-ralph-david
+- check:
+    id: cal.1960-10-28.king
+    text: 'Check: Gifford has the elder King make the pledge to Wofford "earlier that day" (86).'
+- src:
+    id: cal.1960-10-28.king
+    row: via w.kallina-kennedy-v-nixon 155 n.53
+- src:
+    id: cal.1960-10-26.elections-1960-king
+    row: via w.schlesinger-robert-kennedy-and-his 218 n.110a
+- src:
+    id: cal.1960-10-26.elections-1960-king
+    row: via w.schlesinger-robert-kennedy-and-his 218 n.110b
+- src:
+    id: cal.1960-10-26.elections-1960-king
+    row: via w.schlesinger-robert-kennedy-and-his 218 n.110c
+- src:
+    id: cal.1960-10-26.elections-1960-king
+    row: via w.schlesinger-robert-kennedy-and-his 218 n.110d
+- src:
+    id: cal.1960-10-26.elections-1960-king
+    row: via w.schlesinger-robert-kennedy-and-his 218 n.110e
+- src:
+    id: cal.1960-10-27.robert-kennedy-2
+    row: via w.schlesinger-robert-kennedy-and-his 218 n.110a
+- src:
+    id: cal.1960-10-27.robert-kennedy-2
+    row: via w.schlesinger-robert-kennedy-and-his 218 n.110b
+- src:
+    id: cal.1960-10-27.robert-kennedy-2
+    row: via w.schlesinger-robert-kennedy-and-his 218 n.110c
+- src:
+    id: cal.1960-10-27.robert-kennedy-2
+    row: via w.schlesinger-robert-kennedy-and-his 218 n.110d
+- src:
+    id: cal.1960-10-27.robert-kennedy-2
+    row: via w.schlesinger-robert-kennedy-and-his 218 n.110e
+- src:
+    id: cal.1960-10-27.robert-kennedy-2
+    row: via w.kallina-kennedy-v-nixon 154 n.52a
+- src:
+    id: cal.1960-10-27.robert-kennedy-2
+    row: via w.kallina-kennedy-v-nixon 154 n.52b
