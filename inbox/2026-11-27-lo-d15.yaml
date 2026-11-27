@@ -1,0 +1,1339 @@
+patch: 2026-11-27-lo-d15
+by: Claude (Sonnet), leftovers batch lo-d15, Nov. 27, 2026
+ops:
+- edit:
+    id: cal.1965-03-02.school-aid
+    base: d96a096b
+    kind: correct
+    set:
+      c: Powell's Education and Labor Committee approves the $1.3 billion education bill, 23–8, no construction money.{1}
+      n: '[[w.zelizer-fierce-urgency-of-now]], 180; [[w.bernstein-guns-or-butter]], 196 (all 21 Democrats, Green among them, and Reid and Bell). The vote of Mar. 2 is dated by [[w.zelizer-fierce-urgency-of-now]],
+        180, and [[w.bernstein-guns-or-butter]], 196. See [[cal.1965-02-05.school-aid]]. Names: Powell.'
+      src:
+        c: 4e3209dc
+        rows:
+        - 'w.zelizer-fierce-urgency-of-now 180: 1'
+        - 'w.bernstein-guns-or-butter 196: 1'
+      tags:
+      - name:powell-adam-clayton-jr
+- add:
+    entry:
+      id: cal.1965-03-02.school-aid-3
+      when: Mar. 2
+      date: '1965-03-02'
+      place: washington
+      thread: school-aid
+      c: 'Cater to Johnson, by memorandum: the National Education Association counts at least 242 House members committed to the education bill.'
+      n: '[[w.zelizer-fierce-urgency-of-now]], 181 (the NEA''s legislative committee: at least 242 positive commitments in the House as of Mar. 2). To check: Douglass Cater to Johnson, Mar. 2,
+        1965, Office Files of Bill Moyers, box 1, LBJ Library (cited by [[w.zelizer-fierce-urgency-of-now]], 181 n.37). See [[cal.1965-03-02.school-aid]]; the NEA''s count, 242 to 68: [[cal.1965-03-02.school-aid-2]].
+        Names: Cater.'
+      tags:
+      - name:cater-s-douglass
+- edit:
+    id: cal.1965-03-05.civil-rights-organizations
+    base: 7d0f3b22
+    kind: correct
+    set:
+      c: 'Atlanta, Frazier''s café. SNCC''s executive committee meets from before 10 p.m. Friday, on King''s march from Selma.{1} Silas Norman, the Selma project''s director: SNCC should lend
+        walkie-talkies for the road, cooking utensils and medical help;{2} Forman and others: a course of SNCC''s own. The committee votes to put its dissent in a letter to King; Norman and Ivanhoe
+        Donaldson draft it that night.{3}'
+      n: '[[w.branch-at-canaans-edge]], 29–31. The time: the committee "convened before ten o''clock Friday night" (29). The time is the first night''s; the Friday meeting is dated by Branch,
+        29. To check: Minutes, SNCC executive committee meeting, Mar. 5, 1965, SNCC Papers, King Library and Archives (cited by [[w.branch-at-canaans-edge]], 29–31). See [[cal.1965-03-07.voting-rights]].
+        Names: Forman, Martin Luther King.'
+      src:
+        c: c9bcc09d
+        rows:
+        - 'w.branch-at-canaans-edge 29–31: 1, 2, 3'
+        - 'via w.branch-at-canaans-edge 29 n.basement-of-fraziers: 1'
+      tags:
+      - name:forman-james
+      - name:king-martin-luther-jr
+- add-words:
+    id: cal.1965-03-06.civil-rights-organizations
+    after: Atlanta, Frazier's café.
+    words: 'The debate on the letter to King runs through Saturday: Bond for a bare notice of where SNCC will and will not cooperate; Cox and Forman for its dissent set out; Lewis, almost alone,
+      for the march: "If these people want to march, I''m going to march with them."'
+    item: '[[w.branch-at-canaans-edge]], 40–41 (Saturday night; Frazier''s)'
+- names:
+    id: cal.1965-03-06.civil-rights-organizations
+    add:
+    - Bond
+    - Forman
+    tags:
+    - name:bond-julian
+    - name:forman-james
+- edit:
+    id: cal.1965-03-10.voting-rights-selma-3
+    base: 2c8a8f10
+    kind: correct
+    set:
+      when: Mar. 10
+      c: Montgomery. Some 700 students of Tuskegee Institute at the capitol with a petition for the vote;{1} Wallace will not see them. Some 200, with Forman and SNCC's workers, sit down and stay
+        the night.{2}
+      n: '[[w.branch-at-canaans-edge]], 85–86 (Wednesday, Mar. 10: the students and the night at the capitol are Wednesday''s, 85–86). To check: WATS report, Montgomery, Mar. 10, 1965, SNCC Papers,
+        reel 15 (cited by [[w.branch-at-canaans-edge]], 86). See [[cal.1965-03-10.voting-rights-selma-2]]. Names: Wallace, Forman.'
+      src:
+        c: 82eaa331
+        rows:
+        - 'w.branch-at-canaans-edge 85–86: 1, 2'
+        - 'via w.branch-at-canaans-edge 86 n.clashes-with-the: 1'
+- add:
+    entry:
+      id: cal.1965-03-11.voting-rights-selma-6
+      when: Mar. 11
+      date: '1965-03-11'
+      place: montgomery
+      thread: voting-rights-selma
+      also:
+      - alabama
+      - civil-rights-organizations
+      - students
+      c: Montgomery, Dexter Avenue Baptist Church. Bevel, from Selma, against Forman's demonstrations. Forman leads four of SNCC's staff and a student back toward the capitol; the police jail
+        them, then Bevel, and club some two hundred back into the church.
+      n: '[[w.branch-at-canaans-edge]], 88 (Thursday; Willie Ricks over the SNCC WATS line to Atlanta: "Bevel and Forman almost came to blows in the church"). To check: WATS report, Montgomery,
+        Mar. 11, 1965, SNCC Papers, reel 15 (cited by [[w.branch-at-canaans-edge]], 88). See [[cal.1965-03-10.voting-rights-selma-3]]. Names: Forman.'
+      tags:
+      - name:forman-james
+      - city:montgomery
+- edit:
+    id: cal.1965-03-11.civil-rights-the-executive-2
+    base: 0afd1849
+    kind: correct
+    set:
+      c: 'Katzenbach to the press, at Johnson''s bidding: Alabama''s officers used "totally unreasonable force" on Mar. 7;{1} "I have no question that federal law was violated. We are going to
+        bring charges against those whom we can identify as violators."{2}'
+      n: '[[w.branch-at-canaans-edge]], 89. After [[cal.1965-03-11.voting-rights-2|the call of 10:35 a.m.]]: Branch has the press conference "initiated and scripted by Johnson," and the note cites
+        that call for it (89 and its note). To check: [Johnson and Katzenbach, 10:35 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-nicholas-katzenbach-march-11-1965),
+        Conversation WH6503-06-7059 (Miller Center); *New York Times*, [Mar. 12 at 1](https://timesmachine.nytimes.com/timesmachine/1965/03/12/issue.html) and [Mar. 13, 1965, at 12](https://timesmachine.nytimes.com/timesmachine/1965/03/13/issue.html)
+        (cited by [[w.branch-at-canaans-edge]], 89). See [[cal.1965-03-07.voting-rights]]. The press conference is Branch''s (89), the Attorney General''s judgment "just rendered" before the evening
+        reception. Names: Katzenbach, Johnson.'
+      src:
+        c: 6e94e3c3
+        rows:
+        - 'w.branch-at-canaans-edge 89: 1, 2'
+        - 'via w.branch-at-canaans-edge 89 n.initiated-and-scripted: 1'
+        - 'via w.branch-at-canaans-edge 89 n.totally-unreasonable-force: 1, 2'
+- add:
+    entry:
+      id: cal.1965-03-11.civil-rights-the-executive-4
+      when: Mar. 11
+      date: '1965-03-11'
+      place: washington
+      thread: civil-rights-the-executive
+      also:
+      - voting-rights-selma
+      follows:
+      - cal.1965-03-11.civil-rights-the-executive-2
+      c: 'The White House, the East Room, the evening. Johnson, to some fifty members of Congress at the tenth briefing on Vietnam, on Selma: "The ghost of Lincoln is moving up and down the corridors
+        rather regularly these days." He has Katzenbach explain his statement to the press; Representative John Bell Williams of Mississippi attacks it.'
+      n: '[[w.branch-at-canaans-edge]], 88–89 (fifty-odd members due for the tenth briefing reception on Vietnam; the East Room; "The ghost of Lincoln," 89). The order: after [[cal.1965-03-11.civil-rights-the-executive-2]],
+        Branch, 89 (the Attorney General explains "the judgment he had just rendered at a press conference"). The range is the evening: Branch has Reeb''s death noted to Johnson, "6:55 p.m., Alabama
+        time," during the briefing. See [[cal.1965-03-07.voting-rights]]. Names: Johnson, Katzenbach.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:katzenbach-nicholas
+      time_range:
+      - 1965-03-12T00:00Z
+      - 1965-03-12T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+- edit:
+    id: cal.1965-03-13.voting-rights
+    base: 136fefd1
+    kind: correct
+    set:
+      c: 'Wallace at the White House, on his telegram of the night before.{1} Johnson asks him to declare for universal suffrage, to permit peaceful assembly, and to call a biracial meeting.{2}
+        Seymore Trammell with Wallace; Katzenbach, Valenti and Goodwin with Johnson. Johnson, joking that Wallace and King "have something in common," keeps him two hours: "You can''t stop a fever
+        by putting an icepack on your head." He shows him a newspaper picture of a trooper kicking a Negro demonstrator.{6}'
+      n: 'The President''s News Conference, [1965 Pub. Papers 274](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=350) (Mar. 13, 1965) (what he told the press he
+        asked of Wallace). [President''s Daily Diary, Mar. 13, 1965](https://catalog.archives.gov/id/192452), images 1, 2, 3 (LBJ Library; National Archives Catalog). [[w.garrow-bearing-the-cross]],
+        407–08; [[w.dallek-flawed-giant]], 216–17; [[w.branch-at-canaans-edge]], 94–98; [[w.mann-walls-of-jericho]], 456–58 (the meeting); [[w.kotz-judgment-days]], 304 (just before noon, Saturday,
+        Mar. 13; "something in common" with King); [[w.kotz-judgment-days]], 304–06 (just before noon, with Seymore Trammell; two hours; "You can''t stop a fever by putting an icepack on your
+        head"; "Don''t you shit me, George Wallace"; "George Wallace—He Hated"; Katzenbach, Valenti and Goodwin with Johnson); [[w.bernstein-guns-or-butter]], 231 (three hours in the Oval Office;
+        Burke Marshall: "He really had Wallace impressed"); [[w.kotz-judgment-days]], 304–06. Check: Bernstein, 231, has three hours in the Oval Office; Kotz, 305, two. To check: [[w.carter-politics-of-rage-1995]].
+        (Mar. 12 or 13, 1965), Diary Backup, LBJ Library; Katzenbach to Johnson, Mar. 13, 1965, Diary Backup, LBJ Library; Talking Points, n.d. (Mar. 12 or 13, 1965), Diary Backup, LBJ Library
+        (cited by [[w.dallek-flawed-giant]], 216). See [[cal.1965-03-07.voting-rights]]. The meeting is dated by [[w.kotz-judgment-days]], 304 ("just before noon"); the news conference by Kotz,
+        306 (3:45 p.m.). Names: Wallace, Katzenbach, Valenti, Goodwin, Martin Luther King. Check: Mann, 456, gives "Saturday, March 12."'
+      src:
+        c: 50147d42
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=350: 1, 2'
+        - 'https://catalog.archives.gov/id/192452: 1'
+        - 'w.garrow-bearing-the-cross 407–08: 1, 2'
+        - 'w.dallek-flawed-giant 216: 1'
+        - 'w.dallek-flawed-giant 217: 2'
+        - 'via w.dallek-flawed-giant 216 n.91a: 1'
+        - 'via w.dallek-flawed-giant 216 n.91b: 1, 2'
+        - 'via w.dallek-flawed-giant 216 n.91c: 1, 2'
+        - 'via w.dallek-flawed-giant 216 n.91d: 2'
+        - 'via w.dallek-flawed-giant 216 n.91e: 2'
+        - 'via w.dallek-flawed-giant 216 n.91f: 2'
+        - 'via w.garrow-bearing-the-cross 408 n.49a: 1'
+        - 'via w.garrow-bearing-the-cross 408 n.49b: 1, 2'
+        - 'w.branch-at-canaans-edge 94–98: 1, 2'
+        - 'w.mann-walls-of-jericho 456–58: 1, 2'
+        - 'w.kotz-judgment-days 304: ?'
+        - 'w.kotz-judgment-days 304–06: 1, 2, 6'
+        - 'w.bernstein-guns-or-butter 231: 1, 2'
+        - 'via x.1965-03-13.lee-white-to-johnson-mar-13: 1, 2'
+        - 'via x.undated.burke-marshall-oral-history-lbj: 1'
+- add:
+    entry:
+      id: cal.1965-03-13.voting-rights-selma-4
+      when: Mar. 13
+      date: '1965-03-13'
+      place: washington
+      thread: voting-rights-selma
+      also:
+      - alabama
+      follows:
+      - cal.1965-03-13.voting-rights
+      time: 1965-03-13T20:45Z
+      time_zone: America/New_York
+      c: 'The Rose Garden, 3:45 p.m. Johnson''s news conference after the meeting with Wallace: "What happened in Selma was an American tragedy";{1} the voting bill to go to Congress Monday;{2}
+        if State officials will not register citizens, federal officials will.{3} He tells of urging Wallace to declare for universal suffrage, to assure peaceful assembly and to appoint a biracial
+        commission.{4}'
+      n: 'The President''s News Conference, [1965 Pub. Papers 274](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=350) (Mar. 13, 1965). [[w.kotz-judgment-days]],
+        306–07 ("At 3:45 p.m. the president walked into the Rose Garden"; the bill to Congress Monday, Mar. 15; citizens registered by federal officials where State officials refuse); [[w.bernstein-guns-or-butter]],
+        231 (at the news conference, "We are not in agreement on a good many things"); [[w.mann-walls-of-jericho]], 456–58 (the Rose Garden; the bill to go to Congress). The order: after [[cal.1965-03-13.voting-rights]],
+        the meeting with Wallace, which the news conference reports ([[w.kotz-judgment-days]], 306: after "just before noon"). See [[cal.1965-03-07.voting-rights]]. Names: Wallace, Johnson.'
+      tags:
+      - name:wallace-george-c
+      - name:johnson-lyndon-b
+- edit:
+    id: cal.1965-03-15.voting-rights-selma-2
+    base: 1b766139
+    set:
+      n: '[[w.branch-at-canaans-edge]], 104–08; [[w.kotz-judgment-days]], 307–08, 312 (King kept in Alabama by Reeb''s memorial service; he watches the address with Lewis at the Jacksons'', in
+        tears); [[w.bernstein-guns-or-butter]], 231 (after a battle led by Collins and Baker; King preaches). To check: Mobile LHM, Mar. 19, 1965, FBI file 44-12831-693; *Washington Post*, Mar.
+        16, 1965, at 1 (cited by [[w.branch-at-canaans-edge]], 108). The service was set for two o''clock (Branch, 105): the time is that. See [[cal.1965-03-14.voting-rights]]. Names: Reeb, Reuther,
+        Martin Luther King, Frank Johnson, Iakovos.'
+- add:
+    entry:
+      id: cal.1965-03-15.voting-rights-selma-4
+      when: Mar. 15
+      date: '1965-03-15'
+      thread: voting-rights-selma
+      also:
+      - king
+      c: Judge Thomas of Mobile orders Clark to permit a limited march to the courthouse.
+      n: '[[w.branch-at-canaans-edge]], 108 (Clark receives the news outside Brown Chapel; "U.S. District Judge Daniel Thomas of Mobile had ordered Clark to permit a limited march to the courthouse").
+        The hour of the order itself is not given; the memorial service''s end, when Abernathy announces it, is the latest. Check: the hour of the order. See [[cal.1965-03-15.voting-rights-selma-2]].
+        Names: Daniel Thomas, Clark.'
+      tags:
+      - name:thomas-daniel-h
+      - name:clark-james-g-jr
+      - state:al
+      - city:selma
+      - ok:fields-place
+- edit:
+    id: cal.1965-03-15.voting-rights-selma-3
+    base: 627d8c49
+    kind: correct
+    set:
+      c: Selma. Abernathy announces the order to Brown Chapel as King finishes, four minutes after Baker takes down the barricades on Sylvan Street. Some 3,500 march at 5:08 p.m., a twenty-minute
+        memorial on the courthouse steps.
+      n: '[[w.branch-at-canaans-edge]], 107–08 (108: the march "at 5:08 p.m."; Judge Thomas''s order, announced by Abernathy four minutes after Baker takes down the barricades; the twenty-minute
+        ceremony on the steps). [[w.bernstein-guns-or-butter]], 231 (after a battle led by Collins and Baker). To check: Mobile LHM, Mar. 19, 1965, FBI file 44-12831-693; *Washington Post*, Mar.
+        16, 1965, at 1 (cited by [[w.branch-at-canaans-edge]], 108). It follows the memorial service: the order is announced as King finishes (108). See [[cal.1965-03-15.voting-rights-selma-2]].
+        The order is Judge Thomas''s, as Branch gives it (108). Names: Daniel Thomas, Clark, Abernathy, Baker, Martin Luther King. Check: Bernstein, 231, gives a crowd of 2,000 on the courthouse
+        steps.'
+      follows:
+      - cal.1965-03-15.voting-rights-selma-2
+      - cal.1965-03-15.voting-rights-selma-4
+- edit:
+    id: cal.1965-03-17.voting-rights
+    base: ecfecc2d
+    kind: correct
+    settles:
+    - 'Check: Bernstein, 237, gives the vote to instruct the committee as 63 to 13.'
+    set:
+      c: The voting bill sent to Congress. Celler introduces it, H.R. 6400.{1} Where a literacy or like test was used and fewer than half of those of voting age were registered on Nov. 1, 1964,
+        or voted that November, tests suspended and federal examiners to list voters.{3}
+      n: 'Letter to the President of the Senate Proposing Legislation To Eliminate Barriers to the Right To Vote, [1965 Pub. Papers 292](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=368)
+        (Mar. 17, 1965). [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-8-2.pdf) (1965); [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf)
+        (1965) (the bill, 5402–03). Voting Rights Act of 1965 (K–J Cong. II.J.2). [[w.kotz-judgment-days]], 317 (Celler''s subcommittee, Mar. 17); [[w.bernstein-guns-or-butter]], 236–37 (sections
+        2–9). The bill''s introduction in the House is the Record''s of Mar. 17. To check: [[w.katzenbach-some-of-it-was]]. See [[cal.1965-03-15.voting-rights]]. Names: Celler. Check: the pages.'
+      src:
+        c: 80ec35c7
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=368: 1, 3'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-8-2.pdf: 1, 3'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf: 3'
+        - 'w.kotz-judgment-days 317: 1'
+        - 'w.bernstein-guns-or-butter 236–37: 1, 3'
+      tags:
+      - name:johnson-lyndon-b
+      - name:celler-emanuel
+      - bill:voting-rights-1965
+- add:
+    entry:
+      id: cal.1965-03-18.voting-rights-3
+      when: Mar. 18
+      date: '1965-03-18'
+      place: washington
+      thread: voting-rights
+      also:
+      - congress
+      c: Mansfield, for himself, Dirksen and 64 others, introduces the voting bill in the Senate, S. 1564.
+      n: '[111 Cong. Rec. 5402–03](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf) (1965) (Mar. 18, 1965) (the bill, S. 1564). [[w.kotz-judgment-days]],
+        317 (sixty-six sponsors). See [[cal.1965-03-17.voting-rights]]. Names: Mansfield, Dirksen.'
+      tags:
+      - name:mansfield-mike
+      - name:dirksen-everett
+      - bill:voting-rights-1965
+- add:
+    entry:
+      id: cal.1965-03-18.voting-rights-4
+      when: Mar. 18
+      date: '1965-03-18'
+      place: washington
+      thread: voting-rights
+      also:
+      - congress
+      follows:
+      - cal.1965-03-18.voting-rights-3
+      c: 'The Senate sends the bill to Judiciary with orders to report by Apr. 9, [67–13](https://voteview.com/rollcall/RS0890032). Stennis: the two weeks "a pitiful thing"; Eastland: "opposed
+        to every word and every line in the bill."'
+      n: '[111 Cong. Rec. 5388–90](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf#page=3) (1965) (Mar. 18, 1965) (Mansfield''s motion for himself and Dirksen;
+        Eastland; Stennis). [[w.branch-at-canaans-edge]], 124 (the Senate''s instruction); [[w.mann-walls-of-jericho]], 467 (the referral; Stennis and Eastland); [[w.kotz-judgment-days]], 317
+        (to be reported by Apr. 9; the Judiciary Committee to report by Apr. 9, twelve Southerners and Margaret Chase Smith against; Mansfield: no Easter recess unless it passes by Apr. 15); [[w.bernstein-guns-or-butter]],
+        236–37 (Eastland: a deadline "unheard of"). The order: after [[cal.1965-03-18.voting-rights-3]], the Record''s (the bill read twice, then the motion). Check: Bernstein, 237, gives the
+        vote to instruct the committee as 63 to 13. See [[cal.1965-03-17.voting-rights]]. Names: Stennis, Eastland, Mansfield, Dirksen.'
+      tags:
+      - name:stennis-john-c
+      - name:eastland-james-o
+      - name:mansfield-mike
+      - name:dirksen-everett
+      - bill:voting-rights-1965
+- edit:
+    id: cal.1965-03-21.alabama-birmingham
+    base: 38f4fafe
+    set:
+      n: '[[w.branch-at-canaans-edge]], 140, 145. The time: the first box found at "early Sunday mass" (140). To check: [*New York Times*, Mar. 22, 1965](https://timesmachine.nytimes.com/timesmachine/1965/03/22/issue.html),
+        at 1, 27 (cited by [[w.branch-at-canaans-edge]], 140, 145). See [[cal.1963-09-15.alabama]].'
+- add:
+    entry:
+      id: cal.1965-03-21.alabama-birmingham-3
+      when: Mar. 21
+      date: '1965-03-21'
+      place:
+      - washington
+      - lbj-ranch
+      thread: alabama-birmingham
+      also:
+      - voting-rights-selma
+      time: 1965-03-22T03:45Z
+      time_zone: America/New_York
+      follows:
+      - cal.1965-03-21.alabama-birmingham
+      c: 'Moyers to Johnson, at the LBJ Ranch, by memorandum, 10:45 p.m.: Army demolition teams have disarmed four large bombs at Negro sites in Birmingham.'
+      n: '[[w.branch-at-canaans-edge]], 145 ("Before midnight, Bill Moyers notified President Johnson from the White House"; the memorandum, 10:45 p.m., March 21, 1965, "Bombing Devices Found
+        in Birmingham," in the notes). The time: 10:45 p.m. Washington''s clock. See [[cal.1965-03-21.alabama-birmingham]]. Names: Moyers, Johnson.'
+      tags:
+      - name:moyers-bill
+      - name:johnson-lyndon-b
+      - state:al
+      - city:birmingham
+- add:
+    entry:
+      id: cal.1965-03-22.alabama-birmingham-2
+      when: Mar. 22
+      date: '1965-03-22'
+      thread: alabama-birmingham
+      also:
+      - voting-rights-selma
+      place: birmingham
+      c: Two more bombs turn up in Birmingham.
+      n: '[[w.branch-at-canaans-edge]], 145 ("Two more turned up Monday"). To check: Moyers to LBJ, "Bombing Devices Found in Birmingham," 10:45 p.m., Mar. 21, 1965, WH Confidential, box 56, LBJ
+        Library (cited by [[w.branch-at-canaans-edge]], 145). Check: the place; Branch does not say where. See [[cal.1965-03-21.alabama-birmingham]].'
+      tags:
+      - state:al
+      - city:birmingham
+- edit:
+    id: cal.1965-03-21.voting-rights
+    base: 3240c5ed
+    kind: correct
+    settles:
+    - 'Check: Kotz gives more than thirty thousand on Mar. 25 (323).'
+    - 'Check: Branch gives some three thousand leaving Selma (142),'
+    set:
+      when: Mar. 21
+      c: 'Selma to Montgomery, the first day.{1} King leads some 3,200 out of Selma under the federalized Guard, Army troops, marshals, and the FBI;{2} 300 a day through Lowndes County.{3} Cager
+        Lee, Jimmie Lee Jackson''s grandfather, in the first row beside King; 1,800 of the Alabama Guard along, Army helicopters overhead; Ramsey Clark, for the President, by radio with the FBI
+        agents and the marshals. Judge Johnson''s order: 3,200 on the four-lane stretches, 300 a day through Lowndes County. The first day, seven miles, the three hundred sleeping on David Hall''s
+        farm.{7} Rabbi Abraham Heschel marches beside King: "I felt like I was praying with my feet."{8}'
+      n: '*Williams v. Wallace*, [240 F. Supp. 100](https://static.case.law/f-supp/240/case-pdfs/0100-01.pdf), 108–09 (M.D. Ala. 1965) (the plan). Check the counts. [[w.garrow-bearing-the-cross]],
+        410–13; [[w.branch-at-canaans-edge]], 140–70 (not the counts at Selma and at the Capitol); [[w.mann-walls-of-jericho]], 467–68 (the march out of Selma under the federal troops; the Capitol);
+        [[w.branch-pillar-of-fire]], 611 (Heschel on the march beside King: "I felt like I was praying with my feet"); [[w.zelizer-fierce-urgency-of-now]], 215; [[w.kotz-judgment-days]], 320–22
+        (3,200; Cager Lee, Jimmie Lee Jackson''s grandfather, in the first row; 1,800 Guardsmen, Army helicopters, Ramsey Clark by radio; 300 a day on the two-lane stretch through Lowndes County;
+        seven miles the first day, the night at David Hall''s farm); [[w.bernstein-guns-or-butter]], 233–34 (the Army''s counts; 25,000 at the capitol); [[w.young-easy-burden]], 362–66; [[w.wofford-of-kennedys-and-kings]],
+        186–89 (the Guard federalized and regular troops under the President''s order; the march past the bridge; the 300 for Lowndes County; not the count); [[w.kotz-judgment-days]], 320–22;
+        [[w.branch-pillar-of-fire]], 611. Check: Bernstein, 233, gives the Army''s count of 392 marchers leaving Selma, some 45 white. Check: Young, 363, counts thirty-five hundred at the start.
+        To check: Int. Susannah Heschel, Nov. 15, 1990; Int. Sylvia Heschel, Feb. 4, 1991 (cited by [[w.branch-pillar-of-fire]], 611). See [[cal.1965-03-07.voting-rights]]; [[cal.1965-03-20.alabama]].
+        Check: Branch gives some three thousand leaving Selma (142) and 308 through Lowndes County by the FBI''s count (146). The first day''s march is dated by [[w.kotz-judgment-days]], 320–22;
+        the later days and Mar. 25 are in their own entries. Names: King, Ramsey Clark, Jimmie Lee Jackson.'
+      src:
+        c: 7350bcbe
+        rows:
+        - 'https://static.case.law/f-supp/240/case-pdfs/0100-01.pdf: 1, 2, 3'
+        - 'w.garrow-bearing-the-cross 410–13: 1, 2, 3'
+        - 'via w.garrow-bearing-the-cross 410 n.52: 1, 2'
+        - 'w.branch-at-canaans-edge 140–70: 1, 3'
+        - 'via w.branch-at-canaans-edge 146 n.fbi-agents-counted: 3'
+        - 'w.mann-walls-of-jericho 467–68: 1, 2'
+        - 'via w.branch-pillar-of-fire 611 n.i-felt-like-i.a: 2'
+        - 'via w.branch-pillar-of-fire 611 n.i-felt-like-i.b: 2'
+        - 'w.zelizer-fierce-urgency-of-now 215: 1'
+        - 'w.bernstein-guns-or-butter 233–34: 1'
+        - 'via x.1965-03-22.califano-to-mcnamara-et-al-reports-nos-1-14: 1'
+        - 'w.young-easy-burden 362–66: 1, 2'
+        - 'w.wofford-of-kennedys-and-kings 186–89: 1, 3'
+        - 'w.kotz-judgment-days 320–22: 1, 2, 3, 7'
+        - 'w.branch-pillar-of-fire 611: 2, 8'
+- add-words:
+    id: cal.1965-03-25.voting-rights-selma
+    after: end
+    words: 'The FBI counts some 12,000 leaving St. Jude, more joining along the last miles. King: "How long? Not long."'
+    item: '[[w.branch-at-canaans-edge]], 161 (the FBI''s head count of some 12,000 at the starting point; more join along the last four miles)'
+- cite:
+    id: cal.1965-03-25.voting-rights-selma
+    item: '[[w.garrow-bearing-the-cross]], 410–13 (King: "How long? Not long.")'
+    'on': 'King: "How long? Not long."'
+- edit:
+    id: cal.1965-03-24.school-aid-4
+    base: 4e4e8362
+    kind: correct
+    set:
+      c: Celebrezze counts 248 for H.R. 2362, O'Brien 229.{1}
+      n: '[[w.bernstein-guns-or-butter]], 197 (March 23, Celebrezze 200 to 18; "On the next day he reported 248, and O''Brien, always cautious, turned up 229"). The counts are dated Mar. 24 by
+        Bernstein, 197. See [[cal.1965-03-24.school-aid]]. Names: Celebrezze, O''Brien.'
+      src:
+        c: 1e7f7549
+        rows:
+        - 'w.bernstein-guns-or-butter 197: all'
+- add:
+    entry:
+      id: cal.1965-03-24.school-aid-5
+      when: Mar. 24
+      date: '1965-03-24'
+      place: washington
+      thread: school-aid
+      follows:
+      - cal.1965-03-24.school-aid
+      c: 'O''Brien, on the first day of the House debate: "It''s been hell today."'
+      n: '[[w.bernstein-guns-or-butter]], 197 ("Of March 24, O''Brien reported, ''It''s been hell today.''"). The order: after [[cal.1965-03-24.school-aid]], the debate the report is on ([[w.bernstein-guns-or-butter]],
+        197). Check: whom O''Brien reported to; Bernstein does not say. See [[cal.1965-03-24.school-aid-4]]. Names: O''Brien.'
+      tags:
+      - name:obrien-lawrence-f
+- edit:
+    id: cal.1965-03-22.china-leadership-3
+    base: 4b0e186a
+    kind: correct
+    set:
+      c: Zhou signs in Beijing, as honorary president of the Chinese People's Institute of Foreign Affairs, with its president Zhang Xiruo 张奚若, the joint statement of the People's Republic of
+        China and the Palestine Liberation Organization.{1}
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 720 (Mar. 22, 1965); [[w.zhonghua-renmin-gongheguo-waijiao]], 13 (Mar. 22, 1965; the joint statement, signed Mar. 22 by the Chinese People''s Institute
+        of Foreign Affairs and the PLO: a PLO office at Beijing; China to support, politically and otherwise, the Palestinian Arabs'' struggle to return home). The Zhou nianpu (II, 720) has the
+        statement signed the day after the talks with Shukairy of Mar. 21, in the names of the Institute''s honorary president, Zhou, and its president, Zhang Xiruo; in the talks Zhou calls it
+        a "semi-official" communiqué, and says he has never before signed a paper as the Institute''s honorary president. Names: Zhou Enlai, Shukairy.'
+      src:
+        c: 66c68932
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 720: 1'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 13: all'
+- check:
+    id: cal.1965-03-22.china-leadership-4
+    text: 'Check: the day: [[w.chen-yi-nianpu]], 1090, has Chen Yi leave Peking on Mar. 19 (3月19日 离开北京，前往阿富汗等国访问), and Yang''s diary (II, 525) has him reach Yan''an that afternoon; [[w.zhou-enlai-nianpu-1949]],
+      II, 719–20, has no seeing-off on Mar. 19 or Mar. 22; the Waijiao huodong (442) alone has it on the morning of Mar. 22, the morning Zhou himself took a special plane for Bucharest.'
+- edit:
+    id: cal.1965-03-23.china-leadership
+    base: cd305865
+    kind: correct
+    set:
+      c: Zhou, a short stop at Karachi airport in the morning, reaches Bucharest at 5 p.m.; Ceaușescu 齐奥塞斯库, Maurer 毛雷尔 and other Party and state leaders meet him at the airport.{1}
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 720 (Mar. 23, 1965; 上午，在巴基斯坦卡拉奇机场作短暂停留; 下午，飞抵布加勒斯特). [[w.zhou-enlai-waijiao-huodong]], 442 (Mar. 23, 1965; 下午5时，到达布加勒斯特, met at the airport by Ceaușescu
+        (齐奥塞斯库), Maurer (毛雷尔) and other Party and state leaders). The time: 5 p.m., Bucharest''s clock, the book not saying whose. The arrival is dated by the Waijiao huodong (442). Names: Zhou
+        Enlai, Ceaușescu, Maurer.'
+      place:
+      - karachi
+      - bucharest
+      time: 1965-03-23T15:00Z
+      time_zone: Europe/Bucharest
+      tags:
+      - name:zhou-enlai
+      - name:ceausescu-nicolae
+      - name:maurer-ion-gheorghe
+      - polity:prc
+      - polity:romania
+      src:
+        c: acf7af69
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 720: 1'
+        - 'w.zhou-enlai-waijiao-huodong 442: 1'
+- add:
+    entry:
+      id: cal.1965-03-23.china-foreign
+      when: Mar. 23
+      date: '1965-03-23'
+      place: bucharest
+      thread: china-foreign
+      also:
+      - comecon
+      follows:
+      - cal.1965-03-23.china-leadership-2
+      time: 1965-03-23T18:30Z
+      time_zone: Europe/Bucharest
+      c: Bucharest, the Republic Palace 共和国宫. Zhou, at 8:30 p.m., lays a wreath before Gheorghiu-Dej's body and, with Xie Fuzhi 谢富治, Zhang Hanfu 章汉夫, Zhao Yimin 赵毅敏, Liu Fang 刘放 and Luo Qingchang
+        罗青长, keeps vigil beside it.
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 720 (Mar. 23, 1965; 晚，...在共和国宫乔治乌—德治灵前献花圈，并和谢富治、章汉夫、赵毅敏、刘放、罗青长在遗体两旁守灵). [[w.zhou-enlai-waijiao-huodong]], 442 (Mar. 23, 1965; 晚8时30分，前往国家宫乔治乌—德治同志灵前献花圈;
+        the book''s State Palace, the nianpu''s Republic Palace). The time: 8:30 p.m., Bucharest''s clock, the book not saying whose. The order: after [[cal.1965-03-23.china-leadership-2]], the
+        condolence call at 8 p.m. (the Waijiao huodong, 442: 晚8时, then 晚8时30分). See [[cal.1965-03-23.china-leadership]]. Names: Zhou Enlai, Xie Fuzhi, Zhang Hanfu, Zhao Yimin, Liu Fang, Luo Qingchang,
+        Gheorghiu-Dej.'
+      tags:
+      - name:zhou-enlai
+      - name:xie-fuzhi
+      - name:gheorghiu-dej-gheorghe
+      - name:liu-fang
+      - name:luo-qingchang
+      - name:zhang-hanfu
+      - name:zhao-yimin
+      - polity:prc
+      - polity:romania
+- edit:
+    id: cal.1965-04-18.china-leadership
+    base: 8dd15781
+    set:
+      time_range:
+      - 1965-04-17T23:00Z
+      - 1965-04-18T05:00Z
+      time_band: morning
+      time_zone: Asia/Jakarta
+      range_basis: record
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 725 (Apr. 18, 1965); [[w.zhou-enlai-waijiao-huodong]], 447 (Apr. 18, 1965; morning, the Bung Karno stadium (雅加达朋加诺体育场), Jakarta); [[w.chen-yi-nianpu]],
+        1097 (Apr. 18, 1965; Chen Yi at the ceremony in the Bung Karno 朋加诺 stadium). The range is the morning, 上午, Jakarta''s clock (447). Names: Zhou Enlai, Kim Il Sung, Phạm Văn Đồng, Sihanouk.'
+- edit:
+    id: cal.1965-04-21.china-leadership
+    base: 6cc8bd93
+    set:
+      time_range:
+      - 1965-04-20T23:00Z
+      - 1965-04-21T05:00Z
+      time_band: morning
+      time_zone: Asia/Jakarta
+      range_basis: record
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 726 (Apr. 21, 1965); [[w.zhou-enlai-waijiao-huodong]], 448 (Apr. 21, 1965; morning, by helicopter with Sukarno to Bandung, warmly welcomed; the buildings
+        where the conference met ten years before). The range is the morning, 上午, Jakarta''s clock (448). Names: Zhou Enlai, Sukarno.'
+- edit:
+    id: cal.1965-04-29.china-leadership
+    base: 81f8f5f4
+    set:
+      time: 1965-04-29T04:00Z
+      time_approx: true
+      time_zone: Asia/Shanghai
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 727 (Apr. 29, 1965); [[w.zhou-enlai-waijiao-huodong]], 450 (Apr. 29, 1965; noon; flight with Mrs. Touré to Beijing; Liu Shaoqi, Wang Guangmei and Deng
+        Yingchao and others meet them at the airport). The time is the arrival''s: 中午, noon, Peking''s clock, the first act (450); the hospital visit has no hour. Names: Zhou Enlai, Chen Yi.'
+- edit:
+    id: cal.1965-05-07.china-leadership-7
+    base: 2feb636a
+    set:
+      time_range:
+      - 1965-05-07T14:00Z
+      - 1965-05-07T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      range_basis: record
+      n: '[[w.yang-shangkun-riji]], II, 596 (May 7, 1965). The words: 经王敏清针灸后，牙疼已轻了 (II, 596). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). The range is the late evening: the diary''s
+        sentence on the acupuncture follows "12时才睡" and 晚间, no hour of its own (II, 596). Names: Wang Minqing, Yang Shangkun.'
+- edit:
+    id: cal.1965-05-13.china-leadership-2
+    base: 560d968e
+    set:
+      time_range:
+      - 1965-05-12T22:00Z
+      - 1965-05-13T11:00Z
+      time_band: daytime
+      time_zone: Asia/Shanghai
+      range_basis: record
+      n: '[[w.yang-shangkun-riji]], II, 603 (May 13, 1965). The words: 今天王宽才结婚，早饭后看了一下，完全采取新形式，是牛角村的第一次 (II, 603). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). The range is the day:
+        after breakfast and the afternoon hour, the two acts the diary gives (II, 603). Names: Wang Kuancai, Yang Shangkun, An Yumi.'
+- add:
+    entry:
+      id: cal.1965-05-14.china-bomb
+      when: May 14
+      date: '1965-05-14'
+      thread: china-bomb
+      also:
+      - testing
+      time: 1965-05-14T02:00Z
+      time_zone: Asia/Shanghai
+      c: China explodes its second atomic bomb, at 10 a.m.
+      n: '[[w.yang-shangkun-riji]], II, 604 (May 14, 1965; 今天上午10时，我国又爆炸了第二枚原子弹). The time: 10 a.m., as the diary writes it at Xi''an, Peking''s clock. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).
+        Check: the place; the page does not give it. See [[cal.1965-05-12.china-leadership-5]].'
+      tags:
+      - polity:prc
+- follows:
+    id: cal.1965-05-14.china
+    add:
+    - cal.1965-05-14.china-bomb
+    basis: the test, 10 a.m., and the communiqué on its success ([[w.yang-shangkun-riji]], II, 604; [[w.zhonghua-renmin-gongheguo-waijiao]], 28)
+- check:
+    id: cal.1965-05-14.china
+    text: 'Check: the day: the Waijiao dashiji (28) has Xinhua issue the communiqué on May 14, the day of the test; the editors of the manuscript note of May 12 (XVIII, 53 n.1) have Xinhua print
+      it May 15 (the variant above); Yang''s diary (II, 604) dates the explosion, 10 a.m., May 14, and names no communiqué.'
+- edit:
+    id: cal.1965-05-30.china-leadership-6
+    base: 6b78a830
+    kind: correct
+    set:
+      n: '[[w.yang-shangkun-riji]], II, 627–28 (May 30, 1965; the day''s heading and journey, 627; the arrival and the Ningwozhuang, 628). The words: 3点半到达兰州，郭坦同志等来接。下榻在省委招待所"宁卧庄" (II, 628). The
+        page is 628, where the arrival, the guesthouse and the hill are printed; 627 has the heading and the morning. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun,
+        Hu Qiang, Guo Tan, Pei Mengfei, Wang Shitai, Gao Jianjun.'
+      src:
+        c: 9f0ae904
+        rows:
+        - 'w.yang-shangkun-riji II, 627–28: all'
+- edit:
+    id: cal.1965-05-30.china-leadership-7
+    base: b7831a88
+    kind: correct
+    set:
+      n: '[[w.yang-shangkun-riji]], II, 627–28 (May 30, 1965; the heading and journey, 627; the afternoon at Baita, 628). The words: 稍事休息之后，即与世泰同志一起去黄河北岸的白塔山，俯视了兰州全景，7时才回 (II, 628). The page is
+        628, where the arrival, the guesthouse and the hill are printed; 627 has the heading and the morning. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang
+        Shitai.'
+      src:
+        c: 54bd5e11
+        rows:
+        - 'w.yang-shangkun-riji II, 627–28: all'
+- edit:
+    id: cal.1965-06-02.china-leadership-3
+    base: d480b4ff
+    set:
+      time: 1965-06-02T03:00Z
+      time_zone: Asia/Karachi
+- check:
+    id: cal.1965-06-02.china-leadership-3
+    text: 'Check: the book does not say whose clock; taken as local.'
+- edit:
+    id: cal.1965-06-20.china-leadership
+    base: aa93fd32
+    set:
+      time: 1965-06-20T08:00Z
+      time_zone: Africa/Cairo
+- check:
+    id: cal.1965-06-20.china-leadership
+    text: 'Check: the book does not say whose clock; taken as local.'
+- edit:
+    id: cal.1965-06-22.china-leadership-2
+    base: 7b8eb430
+    set:
+      time: 1965-06-22T07:30Z
+      time_zone: Africa/Cairo
+- check:
+    id: cal.1965-06-22.china-leadership-2
+    text: 'Check: the book does not say whose clock; taken as local.'
+- edit:
+    id: cal.1965-06-24.china-leadership
+    base: 0eef7e28
+    set:
+      time: 1965-06-24T15:00Z
+      time_zone: Africa/Cairo
+- check:
+    id: cal.1965-06-24.china-leadership
+    text: 'Check: the book does not say whose clock; taken as local.'
+- edit:
+    id: cal.1965-06-26.china-leadership-3
+    base: 6d245e53
+    set:
+      time: 1965-06-26T20:00Z
+      time_zone: Africa/Cairo
+- check:
+    id: cal.1965-06-26.china-leadership-3
+    text: 'Check: the book does not say whose clock; taken as local.'
+- edit:
+    id: cal.1965-06-27.china-leadership
+    base: 10ec0c7b
+    set:
+      time: 1965-06-27T08:30Z
+      time_zone: Africa/Cairo
+- check:
+    id: cal.1965-06-27.china-leadership
+    text: 'Check: the book does not say whose clock; taken as local.'
+- edit:
+    id: cal.1965-06-30.china-leadership
+    base: 916c9e42
+    set:
+      time: 1965-06-30T08:00Z
+      time_zone: Africa/Cairo
+- check:
+    id: cal.1965-06-30.china-leadership
+    text: 'Check: the book does not say whose clock; taken as local.'
+- edit:
+    id: cal.1965-06-06.china-leadership-3
+    base: fcfb6187
+    set:
+      time_range:
+      - 1965-06-06T03:00Z
+      - 1965-06-06T16:00Z
+      time_band: daytime
+      time_zone: Africa/Dar_es_Salaam
+      range_basis: record
+      n: '[[w.zhou-enlai-waijiao-huodong]], 461 (June 6, 1965; Zanzibar; the book''s order puts it after the rally; the day''s visit: the arrival 上午, the return to Dar es Salaam 下午, and at 5 p.m.
+        there the third talks with Nyerere, 461). The order: after [[cal.1965-06-06.china-leadership-2]], the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 461). Names: Zhou Enlai, Karume.
+        Check: the hour of the banquet: the page gives none; it falls between the morning arrival and the afternoon flight.'
+- add:
+    entry:
+      id: cal.1965-06-19.china-leadership-14
+      when: June 19
+      date: '1965-06-19'
+      thread: china-leadership
+      also:
+      - china-foreign
+      time_range:
+      - 1965-06-19T11:00Z
+      - 1965-06-19T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      c: 'Yang Shangkun 杨尚昆 goes in the evening to see the football match between the Cuban youth team 古巴青年队 and the Bayi 八一 team: Bayi wins, 3 to 1.'
+      n: '[[w.yang-shangkun-riji]], II, 634 (June 19, 1965; 晚间去看古巴青年队与八一队的足球赛，3:1，八一胜). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Check: the place; the page does not name the ground.
+        See [[cal.1965-06-19.china-leadership-7]]. Names: Yang Shangkun.'
+      follows:
+      - cal.1965-06-19.china-leadership-7
+      tags:
+      - polity:prc
+      - polity:cuba
+      - vis:only:prc
+      - name:yang-shangkun
+- add:
+    entry:
+      id: cal.1965-06-23.china-foreign
+      when: June 23
+      date: '1965-06-23'
+      place: algiers
+      thread: china-foreign
+      also:
+      - africa
+      time_range:
+      - 1965-06-23T06:00Z
+      - 1965-06-23T12:00Z
+      time_band: morning
+      time_zone: Africa/Algiers
+      range_basis: record
+      c: Algiers 阿尔及尔. Chen Yi 陈毅 meets Subandrio 苏班德里约 of Indonesia.
+      n: '[[w.chen-yi-nianpu]], 1104 (June 23, 1965; 上午，在阿尔及尔会见苏班德里约博士). The range is the morning, 上午. See [[cal.1965-06-23.china-leadership-9]]. Names: Chen Yi, Subandrio.'
+      tags:
+      - polity:prc
+      - polity:indonesia
+      - polity:algeria
+      - name:chen-yi
+      - name:subandrio
+- add:
+    entry:
+      id: cal.1965-06-23.china-foreign-2
+      when: June 23
+      date: '1965-06-23'
+      place: algiers
+      thread: china-foreign
+      also:
+      - africa
+      follows:
+      - cal.1965-06-23.china-leadership-9
+      time_range:
+      - 1965-06-23T19:00Z
+      - 1965-06-23T22:00Z
+      time_band: evening
+      time_zone: Africa/Algiers
+      range_basis: record
+      c: Algiers 阿尔及尔. Boumedienne 布迈丁, the Algerian leader, receives Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1104 (June 23, 1965; 晚上，阿尔及利亚领导人胡阿里·布迈丁接见陈毅). The range is the evening, 晚上. The order: after [[cal.1965-06-23.china-leadership-9]], the afternoon''s meeting with
+        Syria''s foreign minister (1104: 下午, then 晚上). See [[cal.1965-06-19.africa]]. Names: Chen Yi, Boumediene.'
+      tags:
+      - polity:prc
+      - polity:algeria
+      - name:chen-yi
+      - name:boumediene-houari
+- to-check:
+    id: cal.1965-07-02.vietnam-july-decision
+    add: William Bundy, MS History of the Vietnam War, chap. 27, pp. 1–14, Papers of William P. Bundy, LBJ Library (cited by [[w.dallek-flawed-giant]], 272 n.97)
+- edit:
+    id: cal.1965-07-08.transition-and-staff
+    base: '46441491'
+    kind: correct
+    set:
+      c: 'Valenti to Califano, by telephone: Reedy resigning today, Moyers to be press secretary, Califano to take Moyers''s place: the legislative program, domestic crises.{1} McNamara: he has
+        the President''s word Califano will coordinate economic policy.{2}'
+      n: '[[w.califano-triumph-and-tragedy-of]], 18–19; [[w.bernstein-guns-or-butter]], 318 (Moyers named press secretary; Califano to handle domestic programs; his long talk with McNamara on
+        the job); [[w.schlesinger-robert-kennedy-and-his]], 741 (Reedy "left in July 1965"; no day). Check: Bernstein, 318, has Moyers tell Califano. The call is dated July 8 by [[w.califano-triumph-and-tragedy-of]],
+        18 ("on July 8, 1965"). Names: Valenti, Califano, Reedy, Moyers, McNamara.'
+      src:
+        c: 20f846fc
+        rows:
+        - 'w.califano-triumph-and-tragedy-of 18–19: 1, 2'
+        - 'w.bernstein-guns-or-butter 318: 1'
+        - 'via w.bernstein-guns-or-butter 318 n.1a: 1'
+        - 'w.schlesinger-robert-kennedy-and-his 741: ?'
+      tags:
+      - name:valenti-jack
+      - name:califano-joseph-a-jr
+      - name:reedy-george-e
+      - name:moyers-bill
+      - name:mcnamara-robert-s
+- add:
+    entry:
+      id: cal.1965-07-08.transition-and-staff-2
+      when: July 8
+      date: '1965-07-08'
+      place: washington
+      thread: transition-and-staff
+      follows:
+      - cal.1965-07-08.transition-and-staff
+      time_range:
+      - 1965-07-08T23:00Z
+      - 1965-07-09T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      c: The White House mess, that evening. Johnson's dinner for the chairmen of the 1964 task forces, to which Moyers calls Califano that afternoon; Califano is introduced as of his staff.
+      n: '[[w.califano-triumph-and-tragedy-of]], 18–19 ("Late that afternoon, Moyers called"; the dinner at the mess; Johnson "introduced me as a member of his staff"). The order: after [[cal.1965-07-08.transition-and-staff]],
+        the day''s call from Valenti (Califano, 18–19: the dinner is that afternoon''s invitation). See [[cal.1965-07-08.transition-and-staff]]. Names: Johnson, Califano, Moyers.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:califano-joseph-a-jr
+      - name:moyers-bill
+- edit:
+    id: cal.1965-07-08.vietnam-july-decision
+    base: a00895c8
+    kind: correct
+    settles:
+    - 'Check: Dallek, 272, names Clifford among the panel; FRUS, doc. 55, does not.'
+    set:
+      c: 'The Vietnam panel, Bradley, Gilpatric, Kistiakowsky, Larson and McCloy, meets at the State Department from 11 a.m. with Rusk, McNamara, Thompson and William Bundy: the stakes "very high
+        indeed," Larson excepted;{1} all but Larson for putting in the forces needed.{2} A plenary after lunch. Larson for a move in the UN or serious negotiations, the rest not; Hoffman, in the
+        plenary, with him; Acheson and Dean vehement against, Dean: no time to "turn over our Far East policy to the UN."{3}'
+      n: '[FRUS 1964–68, III, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v03/d55) (the panel''s highlights: Bradley, Gilpatric, Kistiakowsky, Larson and McCloy; its n.1:
+        the panels met separately on the morning of July 8 and jointly after lunch). [[w.mcnamara-in-retrospect]], ch. 7 at nn.46–47 (the morning subpanel, Bradley, Gilpatric, Kistiakowsky, Larson
+        and McCloy, with Rusk, Thompson, William Bundy and McNamara, all but Larson for "whatever" forces were needed; Hoffman for negotiations; McCloy: "We are about to get our noses bloodied
+        but you''ve got to do it"). Check: Dallek, 272, names Clifford among the panel of former officials; FRUS, doc. 55, does not. The morning panel and the plenary are dated by FRUS, doc. 55
+        n.1. See [[cal.1965-07-01.vietnam]]. Names: Acheson, Bradley, Gilpatric, McCloy, Rusk, McNamara, William Bundy, Kistiakowsky, Larson, Thompson, Hoffman, Dean.'
+      src:
+        c: bcb62c90
+        rows:
+        - 'w.mcnamara-in-retrospect ch. 7 at nn.46–47: 1, 2'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d55: 1'
+      tags:
+      - name:acheson-dean-g
+      - name:bradley-omar-n
+      - name:gilpatric-roswell-l
+      - name:mccloy-john-j
+      - name:rusk-dean
+      - name:mcnamara-robert-s
+      - name:bundy-william
+      - name:kistiakowsky-george-b
+      - name:larson-arthur
+      - name:thompson-llewellyn-e
+      - name:hoffman-paul-g
+      - name:dean-arthur-h
+- add:
+    entry:
+      id: cal.1965-07-08.vietnam-july-decision-4
+      when: July 8
+      date: '1965-07-08'
+      place: washington
+      thread: vietnam-july-decision
+      follows:
+      - cal.1965-07-08.vietnam-july-decision
+      time: 1965-07-08T22:15Z
+      time_zone: America/New_York
+      c: The White House, 6:15 p.m. Johnson receives Acheson, Dean, Lovett, Cowles, Bradley and McCloy, of the panels of former officials, and their recommendations.{1} No choice but to put in
+        the forces needed and explain it to the country.{2} Johnson laments;{3} by William Bundy's account, Acheson tells him to press on.{4}
+      n: '[FRUS 1964–68, III, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v03/d55) (n.1: "President Johnson met in the White House at 6:15 p.m. on July 8 with Dean Acheson,
+        Arthur Dean, and Robert Lovett of the Europe panel; John Cowles of the Latin America panel; and General Bradley and McCloy of the Vietnam panel," from William Bundy''s manuscript history,
+        chap. 27, p. 15). [[w.dallek-flawed-giant]], 272–73 (the panel''s advice; Johnson''s lament; Acheson: no choice but to press on); [[w.barrett-uncertain-warriors]], 39–40 (the Wise Men
+        with Johnson: his long complaint; Acheson to Truman, July 10: Johnson "had no choice except to press on"). The order: after [[cal.1965-07-08.vietnam-july-decision]], the panels'' meetings
+        of the day (FRUS, doc. 55 n.1). To check: William Bundy''s manuscript history, chap. 27, 15–21, LBJ Library (cited by [[w.dallek-flawed-giant]], 273). See [[cal.1965-07-01.vietnam]]. Names:
+        Acheson, Dean, Lovett, Bradley, McCloy, William Bundy, Johnson.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:acheson-dean-g
+      - name:dean-arthur-h
+      - name:lovett-robert-a
+      - name:bradley-omar-n
+      - name:mccloy-john-j
+      - name:bundy-william
+- edit:
+    id: cal.1965-07-10.economy
+    base: '10008239'
+    set:
+      time_range:
+      - 1965-07-10T23:00Z
+      - 1965-07-11T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      n: '[[w.department-of-state-bulletin]], [Aug. 2, 1965, 209–14](https://archive.org/details/departmentofstat531965unit/page/209/mode/1up). [[w.gavin-gold-dollars-and-power]], 126–27. The
+        range is the evening: the address says "I am privileged to tell you this evening" ([[w.department-of-state-bulletin]], Aug. 2, 1965, 209–14). See [[cal.1965-06-16.economy]]. Names: Fowler,
+        Johnson.'
+- edit:
+    id: cal.1965-07-18.press-and-broadcasting-2
+    base: eca6d3a1
+    kind: correct
+    set:
+      c: 'Secretary Connor on Meet the Press: by Mrs. Johnson''s account, assured, his homework done, a little humor. The Johnsons watch at Camp David.'
+      n: '[[w.johnson-white-house-diary]], 303 (Mrs. Johnson''s account: "Lyndon and I watched Secretary John Connor on Meet the Press"; "assured, had done his homework, had just a little nuance
+        of humor"). Names: Connor, Johnson, Lady Bird Johnson.'
+- add:
+    entry:
+      id: cal.1965-07-18.press-and-broadcasting-3
+      when: July 18
+      date: '1965-07-18'
+      place: camp-david
+      thread: press-and-broadcasting
+      follows:
+      - cal.1965-07-18.press-and-broadcasting-2
+      c: Johnson picks up the telephone and tells Connor so, as soon as the broadcast ends.
+      n: '[[w.johnson-white-house-diary]], 303 (Mrs. Johnson''s account: "Lyndon picked up the phone and told him so, as soon as he finished"). The order: after [[cal.1965-07-18.press-and-broadcasting-2]],
+        the broadcast (303). See [[cal.1965-07-18.press-and-broadcasting-2]]. Names: Johnson, Connor, Lady Bird Johnson.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:connor-john-t
+      - name:johnson-lady-bird
+- edit:
+    id: cal.1965-07-20.vietnam-july-decision
+    base: 194f7947
+    set:
+      time_range:
+      - 1965-07-20T01:00Z
+      - 1965-07-20T09:00Z
+      time_zone: Asia/Ho_Chi_Minh
+      n: '[FRUS 1964–68, III: Vietnam, June–December 1965, doc. 66](https://history.state.gov/historicaldocuments/frus1964-68v03/d66). [[w.gibbons-u-s-government-and]], IV, 43. The range is Saigon''s
+        workday, the memorandum''s dateline giving the place and the day but no hour (FRUS, doc. 66). Made public: FRUS 1964–68, III (1996). See [[cal.1965-07-07.vietnam-force-levels-2]]; [[cal.1965-07-20.vietnam]].
+        Names: Lodge, Johnson, McNamara.'
+- edit:
+    id: cal.1965-04-11.elections-1968-johnson
+    base: e042800b
+    set:
+      time_range:
+      - 1965-04-12T01:00Z
+      - 1965-04-12T04:00Z
+      time_band: evening
+      time_zone: America/Chicago
+      range_basis: record
+      n: '[[w.johnson-white-house-diary]], 259–60 (Mrs. Johnson''s account). The range is the evening: the boat is on the Llano River "turning scarlet with sunset" (259). Made public: 1970. Names:
+        Albert, McCarthy, Johnson, Lady Bird Johnson.'
+- check:
+    id: cal.1964-11-01.vietnam
+    text: 'Check: Gibbons, II, 364, has six of the B-57s demolished by Viet Cong mortars on Nov. 1, five Americans killed and seventy-six wounded; 363 has 27 of the 30 destroyed or damaged, from
+      the Pentagon Papers.'
+- edit:
+    id: cal.1965-07-23.vietnam-july-decision
+    base: 788b1327
+    kind: correct
+    set:
+      c: Clifford to Ball, by telephone, before Ball goes with Rusk to the White House for another meeting; Ball will call him as soon as he is back.{1}
+      n: '[[w.clifford-counsel-to-the-president-2]], 416 (Friday, July 23: "I called George ... He was going with Rusk to the White House for another meeting and would call me as soon as he got
+        back"). The call is dated Friday, July 23, by Clifford (416). See [[cal.1965-07-21.vietnam]]. Names: Clifford, Ball, Rusk.'
+      src:
+        c: 843cf1ab
+        rows:
+        - 'w.clifford-counsel-to-the-president-2 416: all'
+      tags:
+      - name:ball-george-w
+      - name:clifford-clark
+      - name:rusk-dean
+- add:
+    entry:
+      id: cal.1965-07-23.vietnam-july-decision-3
+      when: July 23
+      date: '1965-07-23'
+      thread: vietnam-july-decision
+      follows:
+      - cal.1965-07-23.vietnam-july-decision
+      c: 'Moyers to Clifford, by telephone, after the meeting: Johnson has all but decided for McNamara and Westmoreland; it would take a miraculous effort to change his course.'
+      n: '[[w.clifford-counsel-to-the-president-2]], 416 (Moyers, "another participant in the meeting": Johnson "had virtually made up his mind to support McNamara and Westmoreland"). The order:
+        after [[cal.1965-07-23.vietnam-july-decision]], the call before the meeting (416). See [[cal.1965-07-23.vietnam-july-decision]]. Names: Moyers, McNamara, Westmoreland, Johnson.'
+      tags:
+      - name:moyers-bill
+      - name:clifford-clark
+      - name:mcnamara-robert-s
+      - name:westmoreland-william
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1965-07-23.vietnam-july-decision-4
+      when: July 23
+      date: '1965-07-23'
+      thread: vietnam-july-decision
+      follows:
+      - cal.1965-07-23.vietnam-july-decision-3
+      c: 'Ball to Clifford, by telephone, after his meeting with Rusk, McNamara, Wheeler, Moyers and McGeorge Bundy: Clifford''s talk with Johnson the evening before had a "salutary effect." Clifford,
+        less hopeful, tells him Johnson has virtually decided; Ball: Clifford is the only one with a chance to stem the rush; Clifford will have "a very hard and long talk" with the President.'
+      n: '[[w.clifford-counsel-to-the-president-2]], 416–17 (Ball "called again after the meeting"; the meeting "a much smaller group—Rusk, McNamara, Wheeler, Moyers, and McGeorge Bundy"). The
+        order: after [[cal.1965-07-23.vietnam-july-decision-3]], Clifford''s "I had just finished talking on the telephone to another source" (416). See [[cal.1965-07-23.vietnam-july-decision]].
+        Names: Ball, Clifford, Rusk, McNamara, Wheeler, Moyers, McGeorge Bundy, Johnson.'
+      tags:
+      - name:ball-george-w
+      - name:clifford-clark
+      - name:rusk-dean
+      - name:mcnamara-robert-s
+      - name:wheeler-earle
+      - name:moyers-bill
+      - name:bundy-mcgeorge
+      - name:johnson-lyndon-b
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1965-07-23.vietnam-july-decision-5
+      when: July 23
+      date: '1965-07-23'
+      thread: vietnam-july-decision
+      place: washington
+      follows:
+      - cal.1965-07-23.vietnam-july-decision-4
+      time: 1965-07-23T22:55Z
+      time_approx: true
+      time_zone: America/New_York
+      c: 'Johnson, just before 7 p.m., telephones Clifford to ask him and his wife to Camp David on Saturday: the McNamaras and a few others will be there, a chance to talk privately about Vietnam.'
+      n: '[[w.clifford-counsel-to-the-president-2]], 417 ("Just before 7 p.m., the President called to invite Marny and me to come to Camp David on Saturday"). The time: just before 7 p.m., the
+        clock not named. See [[cal.1965-07-23.vietnam-july-decision]]. Names: Johnson, Clifford, McNamara.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:clifford-clark
+      - name:mcnamara-robert-s
+- edit:
+    id: cal.1965-07-23.vietnam-july-decision-2
+    base: 1cd6658e
+    kind: correct
+    set:
+      c: McNamara's three ways to carry out his program, one with neither a national emergency nor a reserve call-up.{1}
+      n: '[[w.califano-triumph-and-tragedy-of]], 38–39; [[w.drea-mcnamara-clifford-and-the-2011]], 44 (Plans I, II and III; Johnson takes III). To check: McNamara''s Plans I, II and III, dated
+        July 23, July 23 and "7/24/65—Rev #1," LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 38 n.16). The three ways are dated by Califano, 38 ("The next day, McNamara suggested
+        three ways"), and Drea, 44. Names: McNamara.'
+      src:
+        c: add75a1c
+        rows:
+        - 'w.califano-triumph-and-tragedy-of 38–39: 1'
+        - 'via w.califano-triumph-and-tragedy-of 38 n.16: 1'
+        - 'w.drea-mcnamara-clifford-and-the-2011 44: 1'
+      tags:
+      - name:mcnamara-robert-s
+- add:
+    entry:
+      id: cal.1965-07-23.vietnam-july-decision-6
+      when: July 23
+      date: '1965-07-23'
+      thread: vietnam-july-decision
+      place: washington
+      follows:
+      - cal.1965-07-23.vietnam-july-decision-2
+      c: The Cabinet Room. Johnson with McNamara, Rusk, Ball, Wheeler, Bundy, Moyers and Busby, Busby to draft the announcement.
+      n: '[[w.califano-triumph-and-tragedy-of]], 38 ("the President again huddled in the Cabinet Room with McNamara, Rusk, Ball, Wheeler, McGeorge Bundy, Bill Moyers, and ... Horace Busby, who
+        would help draft the presidential announcement"); [[w.drea-mcnamara-clifford-and-the-2011]], 44 (Plans I, II and III; Johnson takes III). To check: Califano 38 n.17. The order: after [[cal.1965-07-23.vietnam-july-decision-2]],
+        the three ways (Califano, 38). See [[cal.1965-07-23.vietnam-july-decision-2]]. Names: Johnson, McNamara, Rusk, Ball, Wheeler, Bundy, Moyers, Busby.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:mcnamara-robert-s
+      - name:rusk-dean
+      - name:ball-george-w
+      - name:wheeler-earle
+      - name:bundy-mcgeorge
+      - name:moyers-bill
+      - name:busby-horace
+- add:
+    entry:
+      id: cal.1965-07-23.vietnam-july-decision-7
+      when: July 23
+      date: '1965-07-23'
+      thread: vietnam-july-decision
+      place: washington
+      follows:
+      - cal.1965-07-23.vietnam-july-decision-6
+      time_range:
+      - 1965-07-23T16:00Z
+      - 1965-07-23T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: record
+      c: Johnson, later that afternoon, meets Rusk alone.
+      n: '[[w.califano-triumph-and-tragedy-of]], 38 ("Later that afternoon, Johnson met privately with Dean Rusk"; the note on Rusk''s habit of speaking his mind to the President alone). The order:
+        after [[cal.1965-07-23.vietnam-july-decision-6]], "later that afternoon" (38). Names: Johnson, Rusk.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:rusk-dean
+- add:
+    entry:
+      id: cal.1965-07-23.vietnam-july-decision-8
+      when: July 23
+      date: '1965-07-23'
+      thread: vietnam-july-decision
+      place: washington
+      follows:
+      - cal.1965-07-23.vietnam-july-decision-7
+      time_range:
+      - 1965-07-23T21:00Z
+      - 1965-07-23T23:00Z
+      time_band: after-workday daytime
+      time_zone: America/New_York
+      range_basis: record
+      c: Johnson, early that evening, talks to John Chancellor, NBC News's White House correspondent, about becoming head of the Voice of America.
+      n: '[[w.califano-triumph-and-tragedy-of]], 38 ("Early that evening, Johnson talked to John Chancellor ... about becoming head of the Voice of America"). The order: after [[cal.1965-07-23.vietnam-july-decision-7]]
+        ("later that afternoon"; "early that evening," 38). Names: Johnson, Chancellor.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:chancellor-john
+- add:
+    entry:
+      id: cal.1965-07-23.vietnam-july-decision-9
+      when: July 23
+      date: '1965-07-23'
+      thread: vietnam-july-decision
+      place: washington
+      follows:
+      - cal.1965-07-23.vietnam-july-decision-8
+      time_range:
+      - 1965-07-23T21:00Z
+      - 1965-07-23T23:00Z
+      time_band: after-workday daytime
+      time_zone: America/New_York
+      range_basis: record
+      c: Johnson, early that evening, talks to Fulbright, chairman of the Senate Foreign Relations Committee, about the situation in Vietnam.
+      n: '[[w.califano-triumph-and-tragedy-of]], 38 ("and to Senate Foreign Relations Committee Chairman William Fulbright (D-Ark.) about the situation in Vietnam"). The order: after [[cal.1965-07-23.vietnam-july-decision-8]],
+        the printed order alone ([[w.califano-triumph-and-tragedy-of]], 38). Names: Johnson, Fulbright.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:fulbright-j-william
+- add:
+    entry:
+      id: cal.1965-07-23.vietnam-july-decision-10
+      when: July 23
+      date: '1965-07-23'
+      thread: vietnam-july-decision
+      place:
+      - washington
+      - camp-david
+      follows:
+      - cal.1965-07-23.vietnam-july-decision-9
+      c: Johnson, having asked for all two thousand letters on Vietnam in the latest weekly mail summary, goes by helicopter to Camp David for the weekend; Busby joins him there.
+      n: '[[w.califano-triumph-and-tragedy-of]], 38–39 ("Later he asked for all two thousand letters on Vietnam ... and helicoptered to Camp David for the weekend"; "Busby joined him there").
+        The order: after [[cal.1965-07-23.vietnam-july-decision-9]], "Later" (38). Names: Johnson, Busby.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:busby-horace
+- edit:
+    id: cal.1965-07-26.vietnam-july-decision
+    base: 7da56e05
+    kind: correct
+    set:
+      c: 'After Goldberg''s swearing-in, the Cabinet Room: Rusk, Ball, McNamara, Wheeler, Bundy, Raborn and Helms, Lodge, Goldberg, Clifford, Humphrey. How to explain the escalation to the public,
+        Congress and the world.{1} By Califano''s account.{3}'
+      n: '[FRUS 1964–68, III, doc. 87](https://history.state.gov/historicaldocuments/frus1964-68v03/d87) (notes of the meeting, Cabinet Room, July 26, 1965, 12:30–3:15 p.m.; its n.1: Bundy''s
+        agenda for the meeting held a plan for Congressional consultation and a public announcement of the build-up). [[w.califano-triumph-and-tragedy-of]], 40; [[w.clifford-counsel-to-the-president-2]],
+        421 (Monday, July 26, the meetings from shortly after noon to 7 p.m., the public and Congressional aspects of the announcement among their subjects; Clifford repeats his case; not the
+        Cabinet Room, the swearing-in, the members or the hour). To check: Bundy to Johnson, July 26, 1965, 11:30 a.m., with "Agenda. Meeting at 12:00, Monday, July 26, 1965," LBJ Library (cited
+        by [[w.califano-triumph-and-tragedy-of]], 40 n.24). The night''s calls to the Situation Room are Califano''s, 40 (1:00, 3:30 and 7:35 a.m.), dated July 27 there. Names: Rusk, Ball, McNamara,
+        Wheeler, Bundy, Raborn, Helms, Lodge, Goldberg, Clifford, Humphrey, Johnson.'
+      src:
+        c: e98d6bb2
+        rows:
+        - 'w.califano-triumph-and-tragedy-of 40: 1, 3'
+        - 'via w.califano-triumph-and-tragedy-of 40 n.24: 1'
+        - 'w.clifford-counsel-to-the-president-2 421: ?'
+- add:
+    entry:
+      id: cal.1965-07-27.vietnam-july-decision-4
+      when: July 27
+      date: '1965-07-27'
+      thread: vietnam-july-decision
+      place: washington
+      also: &id001
+      - vietnam-air-war
+      time: 1965-07-27T05:00Z
+      time_zone: America/New_York
+      c: Johnson telephones the White House Situation Room at 1:00 a.m. about the bombing raids on a surface-to-air missile site near Hanoi and a power plant a hundred miles south of the North
+        Vietnamese capital.
+      n: '[[w.califano-triumph-and-tragedy-of]], 40 ("Three times he called the White House situation room ... at 1:00, 3:30 and 7:35 a.m."; the raids on the SAM site and the power plant). The
+        time: 1:00 a.m., Washington''s clock. See [[cal.1965-07-26.vietnam-july-decision]]. Names: Johnson.'
+      tags:
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1965-07-27.vietnam-july-decision-5
+      when: July 27
+      date: '1965-07-27'
+      thread: vietnam-july-decision
+      place: washington
+      also: *id001
+      follows:
+      - cal.1965-07-27.vietnam-july-decision-4
+      time: 1965-07-27T07:30Z
+      time_zone: America/New_York
+      c: Johnson telephones the Situation Room again, at 3:30 a.m., on the same raids.
+      n: '[[w.califano-triumph-and-tragedy-of]], 40 ("Three times he called the White House situation room ... at 1:00, 3:30 and 7:35 a.m."; the raids on the SAM site and the power plant). The
+        time: 3:30 a.m., Washington''s clock. The order: after [[cal.1965-07-27.vietnam-july-decision-4]], the printed order alone ([[w.califano-triumph-and-tragedy-of]], 40). See [[cal.1965-07-26.vietnam-july-decision]].
+        Names: Johnson.'
+      tags:
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1965-07-27.vietnam-july-decision-6
+      when: July 27
+      date: '1965-07-27'
+      thread: vietnam-july-decision
+      place: washington
+      also: *id001
+      follows:
+      - cal.1965-07-27.vietnam-july-decision-5
+      time: 1965-07-27T11:35Z
+      time_zone: America/New_York
+      c: Johnson telephones the Situation Room again, at 7:35 a.m., on the same raids.
+      n: '[[w.califano-triumph-and-tragedy-of]], 40 ("Three times he called the White House situation room ... at 1:00, 3:30 and 7:35 a.m."; the raids on the SAM site and the power plant). The
+        time: 7:35 a.m., Washington''s clock. The order: after [[cal.1965-07-27.vietnam-july-decision-5]], the printed order alone ([[w.califano-triumph-and-tragedy-of]], 40). See [[cal.1965-07-26.vietnam-july-decision]].
+        Names: Johnson.'
+      tags:
+      - name:johnson-lyndon-b
+- edit:
+    id: cal.1965-07-27.vietnam-humphrey
+    base: 864c2d17
+    kind: correct
+    set:
+      c: 'Minneapolis, the Governors'' Conference, that evening. Humphrey''s speech, cleared at State and the White House: an appeal to patriotism, the suffering ahead.{1} A call from the White
+        House, and the offending lines are cut.{2}'
+      n: '[[w.gibbons-u-s-government-and]], III, 431 (from Evans and Novak). Check: Solberg puts the governors'' conference speech at Detroit (282), his note "Humphrey Detroit speech, July 26,
+        1965," and Johnson''s "Hubert better damn sight not use it" July 26 (the White House Daily Diary). To check: [[w.evans-lyndon-b-johnson]], 551 (cited by [[w.gibbons-u-s-government-and]],
+        III, 431 n.131). See [[cal.1965-07-27.vietnam]]. Names: Humphrey.'
+      src:
+        c: cc699141
+        rows:
+        - 'w.gibbons-u-s-government-and III, 431: all'
+        - 'w.gibbons-u-s-government-and III, 431 n: all'
+      tags:
+      - name:humphrey-hubert-h
+- add:
+    entry:
+      id: cal.1965-07-27.vietnam-humphrey-3
+      when: July 27
+      date: '1965-07-27'
+      place: washington
+      thread: vietnam-humphrey
+      follows:
+      - cal.1965-07-27.vietnam-july-decision-3
+      time_range:
+      - 1965-07-27T22:30Z
+      - 1965-07-28T00:30Z
+      time_zone: America/New_York
+      range_basis: record
+      c: 'The meeting with the congressional leaders. Johnson, reading from a wire service''s advance report of the speech Humphrey is to make that night, rebukes him: by Evans and Novak''s account,
+        a cutting rebuke, a moment or two.'
+      n: '[[w.gibbons-u-s-government-and]], III, 431 ("During the meeting with the congressional leaders ... reading to the group from a wire service statement"; the rebuke, from Evans and Novak).
+        The range: the meeting began at 6:30 p.m. (FRUS 1964–68, III, doc. 94), and the President''s meeting with Rusk and others began at 8:30 p.m. "immediately after" it (431). The order: after
+        [[cal.1965-07-27.vietnam-july-decision-3]], the meeting it was made at. To check: [[w.evans-lyndon-b-johnson]], 551 (cited by [[w.gibbons-u-s-government-and]], III, 431 n.131). See [[cal.1965-07-27.vietnam-humphrey]].
+        Names: Johnson, Humphrey.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:humphrey-hubert-h
+- follows:
+    id: cal.1965-07-27.vietnam-humphrey
+    add:
+    - cal.1965-07-27.vietnam-humphrey-3
+    basis: '[[w.gibbons-u-s-government-and]], III, 431 (the rebuke at the meeting; "Meanwhile, Humphrey was taking a telephone call from the White House. When he went before the Governors, the
+      offending language had been deleted")'
+- edit:
+    id: cal.1965-07-28.defense
+    base: 953bf11a
+    kind: correct
+    set:
+      time: 1965-07-28T15:05Z
+      time_zone: America/New_York
+      n: 'Remarks at the Department of Defense Cost Reduction Awards Ceremony, [1965 Pub. Papers 790](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=264) (July
+        28, 1965). The time: the Papers'' note, "11:05 a.m." on the concourse of the Pentagon (790). Names: Johnson.'
+      src:
+        c: 77b41d1c
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=264: 1'
+      tags:
+      - name:johnson-lyndon-b
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1965-04-28.latin-america
+    base: b87f9323
+    set:
+      n: '[FRUS 1964–68, XXXII, doc. 32](https://history.state.gov/historicaldocuments/frus1964-68v32/d32) (Critic 5, Apr. 28, 2040Z: the Country Team, "time has come to land the Marines"). Statement
+        by the President Upon Ordering Troops Into the Dominican Republic, [1965 Pub. Papers 461](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=537) (Apr. 28,
+        1965). [FRUS 1964–68, XXXII, doc. 28](https://history.state.gov/historicaldocuments/frus1964-68v32/d28); [doc. 29](https://history.state.gov/historicaldocuments/frus1964-68v32/d29); [doc.
+        34](https://history.state.gov/historicaldocuments/frus1964-68v32/d34); [doc. 35](https://history.state.gov/historicaldocuments/frus1964-68v32/d35); [doc. 36](https://history.state.gov/historicaldocuments/frus1964-68v32/d36);
+        [doc. 38](https://history.state.gov/historicaldocuments/frus1964-68v32/d38). [[w.drea-mcnamara-clifford-and-the-2011]], 294 (Bennett''s cables and his request for Marines; the meeting
+        with the leaders; the address at 8:40 p.m.; Bennett''s later cables); [[w.poole-joint-chiefs-of-staff-2012]], 139 (Bennett''s request; the leaders; the address; Bennett''s cable that night);
+        [[w.johnson-vantage-point]], 194–97; [[w.dallek-flawed-giant]], 263–64 (not Bennett''s cable that night); [[w.poole-joint-chiefs-of-staff-2012]], 139 (Bennett''s cable urging Marines ashore
+        at once; that evening the Joint Chiefs'' order, on Johnson''s decision); [[w.ball-past-has-another-pattern]], 328 (Wednesday, April 28: the government radio announces a new junta under
+        Colonel Benoit, who asks Bennett for twelve hundred marines; Bennett first demurs; then his "critic" message, "American lives are in danger," "the time has come," reaches Johnson in the
+        retreat off the Oval Office with Rusk, McNamara, Bundy, Moyers and Ball, talking of Vietnam; four hundred marines ashore within hours; not the 8:40 p.m. statement). [[w.rusk-as-i-saw-it-1990]],
+        371 (the embassy told; Bennett''s request; the leaders). To check: [[w.lowenthal-dominican-intervention]]; [[w.gleijeses-dominican-crisis]]; [[w.mcpherson-yankee-no]]; [[w.rabe-killing-zone]];
+        [[w.martin-overtaken-by-events]]; [[w.reaching-for-glory]]; Santo Domingo to State, msg 1132, Apr. 28, 1965, SecDef Subject Decimal files, Acc 70A-1266 (cited by [[w.drea-mcnamara-clifford-and-the-2011]],
+        294 n.13); President''s Daily Diary, Apr. 28, 1965, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 294 n.14). The telegram that reports the police chief (doc. 34) is
+        stamped 2302Z, 7:02 p.m. in Washington: the report''s hour, not the act''s. See [[cal.1965-04-24.latin-america]]. Check: Rusk, with Johnson, McNamara and Bundy when Bennett''s cable came,
+        has Johnson order five hundred Marines ashore that day and sixteen hundred more the next ([[w.rusk-as-i-saw-it-1990]], 371).'
+- edit:
+    id: cal.1965-05-01.latin-america-dominican-republic
+    base: 1446b426
+    set:
+      n: '[[w.poole-joint-chiefs-of-staff-2012]], 141–42. See [[cal.1965-04-29.latin-america-dominican-republic-2]]. Names: Palmer.'
+- edit:
+    id: cal.1965-05-02.latin-america-dominican-republic-2
+    base: 11a5f7af
+    kind: correct
+    set:
+      c: Vance puts the field commanders' courses of action to the President's advisers; Wheeler for the second, a corridor linking the Marines and the paratroops.{1}
+      n: '[[w.drea-mcnamara-clifford-and-the-2011]], 303–04. The meeting is dated 2 May by Drea, 304. To check: the talking paper for the Chairman, "Alternative Courses of Action in the Dominican
+        Republic," May 2, 1965, SecDef Subject Decimal files, Acc 70A-1265 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 303 n.49). See [[cal.1965-05-02.latin-america]]. Names: Vance, Wheeler.'
+      src:
+        c: '22689310'
+        rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 303–04: 1'
+        - 'via x.1965-05-02.talking-paper-cjcs-alternative-courses: 1'
+      tags:
+      - name:vance-cyrus
+      - name:wheeler-earle
+- add:
+    entry:
+      id: cal.1965-05-02.latin-america-dominican-republic-6
+      when: May 2
+      date: '1965-05-02'
+      thread: latin-america-dominican-republic
+      place: washington
+      follows:
+      - cal.1965-05-02.latin-america-dominican-republic-2
+      time: 1965-05-03T00:55Z
+      time_approx: true
+      time_zone: America/New_York
+      c: 'Johnson approves the corridor: a few minutes before 9 p.m. he tells Bennett by telephone to go ahead with the cordon, the advance not before midnight; McNamara, by Drea''s reading, for
+        waiting out a Sunday.'
+      n: '[[w.drea-mcnamara-clifford-and-the-2011]], 304 (Johnson "approved the plan late on 2 May, subject to the caveat that the advance not begin before midnight"; "A few minutes before 9:00
+        p.m. the president told Bennett by phone to go ahead with the cordon operation"; the caveat "apparently reflected McNamara''s counsel"). The time: a few minutes before 9 p.m., Washington''s
+        clock, Drea not saying whose. The order: after [[cal.1965-05-02.latin-america-dominican-republic-2]], the meeting at which Vance put the courses (Drea, 304: "approved ... late on 2 May").
+        See [[cal.1965-05-02.latin-america-dominican-republic-2]]. Names: Johnson, McNamara.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:mcnamara-robert-s
+- add:
+    entry:
+      id: cal.1965-05-02.latin-america-dominican-republic-7
+      when: May 2
+      date: '1965-05-02'
+      thread: latin-america-dominican-republic
+      place: washington
+      follows:
+      - cal.1965-05-02.latin-america-dominican-republic-6
+      time: 1965-05-03T03:00Z
+      time_approx: true
+      time_zone: America/New_York
+      c: 'The Joint Chiefs'' order to Palmer, about two hours after Johnson''s word: begin the cordon "any time after midnight 2/3 May."'
+      n: '[[w.drea-mcnamara-clifford-and-the-2011]], 304 ("The formal JCS order, transmitted about two hours later, directed Palmer to start the operation ''any time after midnight 2/3 May''").
+        The time: about two hours after the call a few minutes before 9 p.m., Washington''s clock, Drea not saying whose. The order: after [[cal.1965-05-02.latin-america-dominican-republic-6]]
+        (Drea, 304: "about two hours later"). To check: JCS 1251 to CINCLANT, May 2, 1965 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 304 n.51). See [[cal.1965-05-02.latin-america-dominican-republic-2]].
+        Names: Palmer.'
+      tags:
+      - name:palmer-bruce-jr

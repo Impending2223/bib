@@ -4,8 +4,8 @@ ops:
 - add-words:
     id: cal.1964-09-20.china-leadership
     after: end
-    words: At Jinan 济南, on Mao's special train, in the early morning.
-    item: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 20, 1964 (晨，到达济南。在专列上会见由阿尔及利亚国民经济部部长、民族解放阵线政治局委员布马扎率领的阿尔及利亚政府经济代表团; 下午，离开济南)'
+    words: At Jinan 济南, on Mao's special train, the morning of his arrival.
+    item: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 20, 1964 (晨，到达济南。在专列上会见……阿尔及利亚政府经济代表团; 下午，离开济南)'
 - edit:
     id: cal.1964-09-20.china-leadership
     base: a1d1be75
@@ -13,9 +13,11 @@ ops:
       place: jinan
       time_range:
       - 1964-09-19T21:00Z
-      - 1964-09-20T00:00Z
-      time_band: early morning
+      - 1964-09-20T04:00Z
       time_zone: Asia/Shanghai
+- check:
+    id: cal.1964-09-20.china-leadership
+    text: 'Check: the hour: the nianpu has Mao reach Jinan 晨 and meet the delegation on the train, and leave 下午; the range runs from 5 a.m. to noon.'
 - edit:
     id: cal.1964-09-21.vietnam-tonkin
     base: d9a574e8
@@ -28,14 +30,16 @@ ops:
     - range_basis
 - check:
     id: cal.1964-09-21.vietnam-tonkin
-    text: 'Check: the day: the message''s date-time group, 210025Z, is 00:25 GMT Sept. 21, which is 2:25 p.m. Sept. 20 in Honolulu and 8:25 p.m. Sept. 20 in Washington; the entry takes
-      the group''s day.'
+    text: 'Check: the day: Marolda has Sharp respond "on 21 September" (460), the day of the date-time group 210025Z (460 n.57), which is 00:25 GMT Sept. 21: 2:25 p.m. Sept. 20 at Honolulu, 8:25 p.m. Sept. 20 in Washington; where Sharp sent it from is not given.'
+- cite:
+    id: cal.1964-09-21.vietnam-tonkin
+    item: '[[w.marolda-united-states-navy-and]], 460 n.57 (msg, CP 210025Z Sep 1964: the date-time group)'
+    'on': time
 - edit:
     id: cal.1964-09-27.china-leadership
     base: 972f8b2b
     set:
-      n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 27, 1964 (晚上，在人民大会堂会见柬埔寨国家元首西哈努克亲王和夫人; 刘少奇和夫人王光美、董必武…在座). [[w.zhou-enlai-waijiao-huodong]], 416 (Sept. 28, 1964; 晚6时; Zhou with Mao,
-        the Great Hall of the People). Made public: 1993. Names: Mao Zedong, Norodom Sihanouk, Liu Shaoqi, Dong Biwu, Zhou Enlai, Wang Guangmei.'
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 27, 1964 (晚上，在人民大会堂会见柬埔寨国家元首西哈努克亲王和夫人; 刘少奇和夫人王光美、董必武…在座). [[w.zhou-enlai-waijiao-huodong]], 416 (Sept. 28, 1964; 晚6时; Zhou with Mao, the Great Hall of the People). Made public: 1993. Names: Mao Zedong, Norodom Sihanouk, Liu Shaoqi, Dong Biwu, Zhou Enlai, Wang Guangmei.'
       time_range:
       - 1964-09-27T11:00Z
       - 1964-09-27T14:00Z
@@ -57,37 +61,38 @@ ops:
         - 'w.bernstein-guns-or-butter 403–05: 1'
         - 'w.perlstein-before-the-storm 448–49: 1, 2'
         c: f6e99082
-      n: 'Free Speech Movement, [*Chronicle of the Free Speech Controversy*](https://www.fsm-a.org/stacks/FSM_chronofcontrov.html) (leaflet). [[w.branch-pillar-of-fire]], 503, 505 (Thursday
-        morning, Oct. 1; the noon rally; the car trapped "all afternoon and through the night," 503; "all Thursday night" the throngs, 505); [[w.bernstein-guns-or-butter]], 403–05 (Savio''s
-        three demands; the pack-in); [[w.perlstein-before-the-storm]], 448–49 (the United Front of nineteen groups, right to left, YAF and the Young Republicans among them; Weinberg''s
-        arrest; Savio on the car''s roof). The time: the police car surrounded from "12:30 PM Thursday" (the leaflet). The time is the first day''s. To check: [[w.rorabaugh-berkeley-at-war]];
-        [[w.cohen-freedoms-orator]]; [[w.gitlin-sixties]]; [[w.berkeley-in-the-sixties]]; Heirich, The Beginning, pp. 98–119 (cited by [[w.branch-pillar-of-fire]], 503); Viorst, Fire
-        in the Streets, pp. 290–91 (cited by [[w.branch-pillar-of-fire]], 503); Heirich, The Beginning, pp. 129–44 (cited by [[w.branch-pillar-of-fire]], 505); Viorst, Fire in the Streets,
-        pp. 29108 (cited by [[w.branch-pillar-of-fire]], 505). See [[cal.1962-06-11.students]]. Names: Savio, Weinberg.'
+      n: 'Free Speech Movement, [*Chronicle of the Free Speech Controversy*](https://www.fsm-a.org/stacks/FSM_chronofcontrov.html) (leaflet). [[w.branch-pillar-of-fire]], 503, 505 (Thursday morning, Oct. 1; the noon rally; the car trapped "all afternoon and through the night," 503; "all Thursday night" the throngs, 505); [[w.bernstein-guns-or-butter]], 403–05 (Savio''s three demands; the pack-in); [[w.perlstein-before-the-storm]], 448–49 (the United Front of nineteen groups, right to left, YAF and the Young Republicans among them; Weinberg''s arrest; Savio on the car''s roof). The time: the police car surrounded from "12:30 PM Thursday" (the leaflet). The time is the first day''s. To check: [[w.rorabaugh-berkeley-at-war]]; [[w.cohen-freedoms-orator]]; [[w.gitlin-sixties]]; [[w.berkeley-in-the-sixties]]; Heirich, The Beginning, pp. 98–119 (cited by [[w.branch-pillar-of-fire]], 503); Viorst, Fire in the Streets, pp. 290–91 (cited by [[w.branch-pillar-of-fire]], 503); Heirich, The Beginning, pp. 129–44 (cited by [[w.branch-pillar-of-fire]], 505); Viorst, Fire in the Streets, pp. 29108 (cited by [[w.branch-pillar-of-fire]], 505). See [[cal.1962-06-11.students]]. Names: Savio, Weinberg.'
 - cite:
     id: cal.1964-10-02.students
-    item: '[[w.branch-pillar-of-fire]], 505 (Kerr signs the six-point truce at 7:20 p.m.; Savio, ten minutes later: "go home"; Weinberg freed after thirty-two hours; some four thousand
-      disperse)'
-    'on': time
+    item: '[[w.branch-pillar-of-fire]], 505 (Kerr signs a six-point truce agreement; Weinberg under the car thirty-two hours; not the eight representatives)'
 - check:
     id: cal.1964-10-02.students
     text: 'Check: Branch (505) also has the truce signed at 7:20 p.m.'
+- variant:
+    id: cal.1964-10-02.students
+    field: time
+    value: '19:20'
+    witness: w.branch-pillar-of-fire
+    reads: Clark Kerr signed a six-point truce agreement at 7:20 p.m.
+    at: '505'
+- add-words:
+    id: cal.1964-10-02.students
+    after: end
+    words: Savio, from the car, asks them to "rise quietly and with dignity, and go home"; Weinberg submits to arrest; some four thousand disperse.
+    item: '[[w.branch-pillar-of-fire]], 505'
 - cite:
     id: cal.1964-10-02.students-2
-    item: '[[w.branch-pillar-of-fire]], 505 ("Late Friday," the Highway Patrol raises police strength to five hundred)'
+    item: '[[w.branch-pillar-of-fire]], 505 ("Late Friday," the Highway Patrol''s reinforcements raise police strength to five hundred; not the hour or the 3,000)'
+    'on': Five hundred police arrive on the campus;
 - edit:
     id: cal.1964-10-12.soviet-union
     base: 5fdb9c1c
     kind: correct
     set:
       c: Gagra.{1} Khrushchev, with Mikoyan, sees the launch of the world's first three-man spacecraft.{2}
-      n: '[[w.fursenko-khrushchevs-cold-war]], 535 (Khrushchev takes Mikoyan to Gagra, Oct. 12, to see the launch of the three-man mission); [[w.khrushchev-dva-tsveta-vremeni]], II,
-        434–36 (VI, doc. 31, Khrushchev''s and Mikoyan''s radio talk with Komarov, Feoktistov and Yegorov in orbit, Oct. 12). Check: the work calls the spacecraft *Vostok 3*. To check:
-        Trevelyan to FO, Oct. 16, 1964, FO 371/177665; Hohler, Oct. 21, 1964, FO 371/177665, National Archives (UK); "How They Removed Khrushchev," interview with Semichastny, *Argumenti
-        i Facti*, May 1989, 5 (cited by [[w.fursenko-khrushchevs-cold-war]], 535 n.13, n.14, 536 n.18). The launch is of Oct. 12, 1964 (Fursenko, 535). See [[cal.1964-10-08.soviet-union]].
-        Names: Khrushchev, Mikoyan.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 535 (Khrushchev takes Mikoyan to Gagra, Oct. 12, to see the launch of the three-man mission); [[w.khrushchev-dva-tsveta-vremeni]], II, 434–36 (VI, doc. 31, Khrushchev''s and Mikoyan''s radio talk with Komarov, Feoktistov and Yegorov in orbit, Oct. 12). Check: the work calls the spacecraft *Vostok 3*. To check: Trevelyan to FO, Oct. 16, 1964, FO 371/177665, National Archives (UK) (cited by [[w.fursenko-khrushchevs-cold-war]], 535 n.13). See [[cal.1964-10-08.soviet-union]]. Names: Khrushchev, Mikoyan.'
       src:
-        c: eceb965a
+        c: 606a230c
         rows:
         - 'w.fursenko-khrushchevs-cold-war 535: 1, 2'
         - 'via x.2006.kcw-p535-36-1964-10-12: 1, 2'
@@ -102,17 +107,14 @@ ops:
       id: cal.1964-10-12.soviet-union-2
       when: Oct. 12
       date: '1964-10-12'
-      place: gagra
+      place: pitsunda
       thread: soviet-union
       also:
       - europe-and-the-alliance-france
       follows:
       - cal.1964-10-12.soviet-union-leadership
-      c: 'Khrushchev, at Gagra, has word sent to Palewski, de Gaulle''s envoy, that the lunch of Oct. 13 is off: he must return to Moscow early for the cosmonauts'' reception, and can
-        see him only briefly at 9:30 a.m.'
-      n: '[[w.fursenko-khrushchevs-cold-war]], 535–36 (after Brezhnev''s call he "decided he had to return"; word to Palewski "on the evening of October 12"; the excuse; the meeting
-        at 9:30 a.m.). The order: after [[cal.1964-10-12.soviet-union-leadership]], Brezhnev''s call and Khrushchev''s decision to return ([[w.fursenko-khrushchevs-cold-war]], 536).
-        See [[cal.1964-10-12.soviet-union]]; [[cal.1964-10-13.soviet-union]]. Names: Khrushchev, Palewski, de Gaulle.'
+      c: 'Khrushchev has word sent to Palewski, de Gaulle''s envoy, that the lunch of Oct. 13 is off: he must return to Moscow early for the cosmonauts'' reception, and can see him only briefly at 9:30 a.m.'
+      n: '[[w.fursenko-khrushchevs-cold-war]], 535–36 (after Brezhnev''s call to Pitsunda he "decided he had to return"; word to Palewski "on the evening of October 12"; the excuse; the meeting at 9:30 a.m.). The place: Brezhnev''s call reached him at Pitsunda (535). The order: after [[cal.1964-10-12.soviet-union-leadership]], Brezhnev''s call and Khrushchev''s decision to return ([[w.fursenko-khrushchevs-cold-war]], 535–36). To check: "How They Removed Khrushchev," interview with Semichastny, *Argumenti i Facti*, May 1989, 5; Hohler, British Embassy in Moscow, Oct. 21, 1964, FO 371/177665, National Archives (UK) (cited by [[w.fursenko-khrushchevs-cold-war]], 536 n.18). See [[cal.1964-10-12.soviet-union]]. Names: Khrushchev, Palewski, de Gaulle.'
       tags:
       - name:khrushchev-nikita-s
       - name:palewski-gaston
@@ -122,9 +124,12 @@ ops:
       - 1964-10-12T19:00Z
       time_band: evening
       time_zone: Europe/Moscow
+- to-check:
+    id: cal.1964-10-12.soviet-union-leadership
+    add: '"How They Removed Khrushchev," interview with Semichastny, *Argumenti i Facti*, May 1989, 5 (cited by [[w.fursenko-khrushchevs-cold-war]], 535 n.14)'
 - cite:
     id: cal.1964-10-14.china-leadership-2
-    item: '[[w.schattenberg-brezhnev]], 173 (the Central Committee''s plenum opens at 6 p.m. Moscow time, Oct. 14: 11 p.m. in Peking; Suslov reads the Presidium''s decision)'
+    item: '[[w.schattenberg-brezhnev]], 173 (the plenum opens at 6 p.m. Moscow, Oct. 14, 11 p.m. at Peking: the range''s start; not the call)'
     'on': time
 - edit:
     id: cal.1964-10-14.china-leadership-2
@@ -138,29 +143,24 @@ ops:
     - time_band
 - check:
     id: cal.1964-10-14.china-leadership-2
-    text: 'Check: the hour: the range runs from 11 p.m. Peking, when the plenum that removed Khrushchev opened (Schattenberg, 173), to the small hours; Wu has the General Office tell
-      the whole Politburo "early next morning" (830).'
+    text: 'Check: the hour: the range runs from 11 p.m. Peking, when the plenum that removed Khrushchev opened (Schattenberg, 173), to the small hours; Wu has the General Office tell the whole Politburo "early next morning" (830).'
 - edit:
     id: cal.1964-10-14.elections-1964-5
     base: 3ee790cb
     kind: correct
     set:
-      c: 'Clifford and Fortas, from Moyers''s office at the White House, tell Johnson of Jenkins by telephone, about 4 p.m., as he is about to call on Jacqueline Kennedy: "Oh, no, not
-        Walter."'
+      c: 'Fortas and Clifford, from Moyers''s office at the White House, tell Johnson of Jenkins by telephone, 3:56 p.m., as he is about to call on Jacqueline Kennedy: "Oh, no, not Walter."'
       place:
       - washington
       - nyc
-      n: '[[w.clifford-counsel-to-the-president-2]], 401 (Fortas and Clifford, calling from Moyers''s office, reach the President by telephone about 4 p.m.; "Oh, no, not Walter," is
-        all he can say; frantic calls that afternoon before he agrees to let Fortas go to the hospital for the resignation); [[w.white-making-of-the-president-1965]], 369 (not at 4 p.m.:
-        "early evening," when the President arrives at the Waldorf, Clifford, "speaking from the White House," gives him "the full story"). Check: the hour: Clifford about 4 p.m., White
-        early evening on Johnson''s arrival at the Waldorf. See [[cal.1964-10-14.elections-1964]]. Names: Johnson, Clifford, Fortas, Moyers, Jacqueline Kennedy.'
+      n: '[Johnson and Fortas, 3:56 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-abe-fortas-october-14-1964), Conversation WH6410-08-5876 (Miller Center: "Fortas tells LBJ that Walter Jenkins has been hospitalized ...; Fortas'' and Clifford''s efforts to suppress news stories of arrest"). [[w.clifford-counsel-to-the-president-2]], 401 (Fortas and Clifford, calling from Moyers''s office, reach the President by telephone "at about 4 p.m."; "Oh, no, not Walter," is all he can say; frantic calls that afternoon before he agrees to let Fortas go to the hospital for the resignation); [[w.perlstein-before-the-storm]], 489 ("at four that afternoon, they gave Lyndon Johnson the news"). The hour and the place: the recording, Miller Center and PRDE, the President at the Waldorf-Astoria, New York. Check: White has Clifford give him "the full story" only "early evening," on his arrival at the Waldorf (369); the recording of 3:56 p.m. is placed at the Waldorf. See [[cal.1964-10-14.elections-1964]]. Names: Johnson, Clifford, Fortas, Moyers, Jacqueline Kennedy.'
       src:
-        c: 29bfee11
+        c: c1d9f4cc
         rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-abe-fortas-october-14-1964: all'
         - 'w.clifford-counsel-to-the-president-2 401: all'
-        - 'w.white-making-of-the-president-1965 369: ?'
-      time: 1964-10-14T20:00Z
-      time_approx: true
+        - 'w.perlstein-before-the-storm 489: all'
+      time: 1964-10-14T19:56Z
       time_zone: America/New_York
     unset:
     - time_range
@@ -181,9 +181,7 @@ ops:
       follows:
       - cal.1964-10-14.elections-1964-5
       c: New York. Johnson, before the Smith dinner, calls on Jacqueline Kennedy.
-      n: '[[w.white-making-of-the-president-1965]], 369 (the President "went first to visit Mrs. Jacqueline Kennedy, then on to a few quick and perfunctory remarks" at the dinner). The
-        order: after [[cal.1964-10-14.elections-1964-5]], the call that told him (White, 369), and before [[cal.1964-10-14.elections-1964-7]]. See [[cal.1964-10-14.elections-1964]].
-        Names: Johnson, Jacqueline Kennedy.'
+      n: '[[w.white-making-of-the-president-1965]], 369 (the President "went first to visit Mrs. Jacqueline Kennedy, then on to a few quick and perfunctory remarks" at the dinner); [[w.clifford-counsel-to-the-president-2]], 401 (at the 4 p.m. call he was "about to call on Jackie Kennedy prior to giving a major speech that evening"). The order: after [[cal.1964-10-14.elections-1964-5]], the call ([[w.clifford-counsel-to-the-president-2]], 401: "about to call on"). See [[cal.1964-10-14.elections-1964]]. Names: Johnson, Jacqueline Kennedy.'
       tags:
       - name:johnson-lyndon-b
       - name:kennedy-jacqueline
@@ -199,33 +197,28 @@ ops:
       thread: elections-1964
       follows:
       - cal.1964-10-14.elections-1964-6
-      c: New York, the Waldorf-Astoria. Johnson speaks briefly at the Alfred E. Smith Memorial Foundation's dinner, Cardinal Spellman's, as the story of Jenkins moves on the wires.
-      n: 'Remarks in New York City at the Annual Dinner of the Alfred E. Smith Memorial Foundation, [1963–64 Pub. Papers 1329](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=569)
-        (Oct. 14, 1964) ("at this late hour"). [[w.white-making-of-the-president-1965]], 369 ("As he spoke, the full story began to spread on the wires"; by then Fortas had been commissioned
-        and the resignation obtained); [[w.perlstein-before-the-storm]], 490 (at 9 p.m. the diners await the evening''s final speaker, who is in his suite). The order: after [[cal.1964-10-14.elections-1964-6]],
-        the call on Mrs. Kennedy ([[w.white-making-of-the-president-1965]], 369: "went first to visit"). The range is the evening of a dinner, no hour given by the Papers. Check: the
-        hour: Perlstein has the speaker still in his suite after 9 p.m. See [[cal.1964-10-14.elections-1964]]. Names: Johnson, Spellman.'
+      c: New York, the Waldorf-Astoria, 11:20 p.m. Johnson speaks briefly at the Alfred E. Smith Memorial Foundation's dinner, Cardinal Spellman's, as the story of Jenkins moves on the wires.
+      n: 'Remarks in New York City at the Annual Dinner of the Alfred E. Smith Memorial Foundation, [1963–64 Pub. Papers 1329](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=569) (Oct. 14, 1964) (the President spoke at 11:20 p.m.; "at this late hour"). [[w.white-making-of-the-president-1965]], 369 ("As he spoke, the full story began to spread on the wires"); [[w.perlstein-before-the-storm]], 490 (at 9 p.m. the diners await the evening''s final speaker, still in his suite). The order: after [[cal.1964-10-14.elections-1964-6]], the call on Mrs. Kennedy ([[w.white-making-of-the-president-1965]], 369: "went first to visit"). See [[cal.1964-10-14.elections-1964]]. Names: Johnson, Spellman.'
       tags:
       - name:johnson-lyndon-b
       - name:spellman-francis
       - city:nyc
       - state:ny
-      time_range:
-      - 1964-10-14T23:00Z
-      - 1964-10-15T02:00Z
-      time_band: evening
       time_zone: America/New_York
-      range_basis: kind
+      time: 1964-10-15T03:20Z
+- follows:
+    id: cal.1964-10-14.elections-1964
+    add:
+    - cal.1964-10-14.elections-1964-5
+    basis: '[[w.clifford-counsel-to-the-president-2]], 401 (after the call, "a series of frantic telephone calls" that afternoon before he agreed to let Fortas go)'
 - check:
     id: cal.1964-10-14.republican-party
-    text: 'Check: the hour: Clifford (401) puts Burch''s statement at 6 p.m. and on both wires shortly after; Perlstein (490) has the Republican National Committee''s release at 8:02
-      p.m.; Branch (517) puts it on the United Press wire at 8:09 p.m.; White (368) has United Press move the story at 8:25 p.m.; Califano (19) has the story out when McNamara calls
-      him about 7 p.m. No record reached (the *Times* of Oct. 15, the wire logs) settles it.'
+    text: 'Check: the hour: Clifford (401) puts Burch''s statement at 6 p.m., on both wires shortly after; Perlstein (490) has the Republican National Committee''s release at 8:02 p.m.; Branch (517) has Burch''s "early evening statement" put the story on the United Press wire at 8:09 p.m.; White (368) has United Press move the story at 8:25 p.m.; Califano (19) gives no hour for it. No record read (the *Times* of Oct. 15, the wire logs) settles it.'
 - edit:
     id: cal.1964-10-16.china-leadership-6
     base: 7f5c7a8e
     set:
-      n: '[[w.zhou-enlai-nianpu-1949]], II, 677 (Oct. 16, 1964; 夜，约文艺界有关人士谈话，倡议把大型音乐歌舞《东方红》拍成电影，并就电影拍摄的有关问题提出了意见). Made public: 1997. Names: Zhou Enlai.'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 677 (Oct. 16, 1964; 夜，约文艺界有关人士谈话，倡议把……《东方红》拍成电影). Made public: 1997. Names: Zhou Enlai.'
       time_range:
       - 1964-10-16T14:00Z
       - 1964-10-16T16:00Z
@@ -235,7 +228,11 @@ ops:
     id: cal.1964-10-27.elections-1964-3
     base: 945cb4a2
     set:
-      n: '[[w.white-making-of-the-president-1965]], 372–73. The time is White''s, nine. Names: Johnson.'
+      n: '[[w.white-making-of-the-president-1965]], 372. The time is White''s, nine. Names: Johnson.'
+      src:
+        rows:
+        - 'w.white-making-of-the-president-1965 372: 1'
+        c: f3a21b37
 - add:
     entry:
       id: cal.1964-10-06.elections-1964-johnson
@@ -245,8 +242,7 @@ ops:
       also:
       - civil-rights-bill
       c: South Carolina. Klansmen burn a cross on the lawn of the governor's executive mansion, Governor Donald Russell's, to protest his welcoming Mrs. Johnson to the State.
-      n: '[[w.kotz-judgment-days]], 223 (the "Lady Bird Special," four days, forty-seven speeches in six southern States; the report gives no day for the stop). Check: the day. See [[cal.1964-10-06.elections-1964]].
-        Names: Lady Bird Johnson.'
+      n: '[[w.kotz-judgment-days]], 223 (the "Lady Bird Special," four days, forty-seven speeches in six southern States; no day for the stop). Check: the day. To check: [[w.carpenter-ruffles-and-flourishes]], 143–71 (cited by [[w.kotz-judgment-days]], 223 n.82). See [[cal.1964-10-06.elections-1964]]. Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
       - state:sc
@@ -259,8 +255,7 @@ ops:
       also:
       - civil-rights-bill
       c: Columbia, S.C. An unruly crowd tries to drown out Mrs. Johnson's speech with catcalls.
-      n: '[[w.kotz-judgment-days]], 223 (the "Lady Bird Special," four days, forty-seven speeches in six southern States; the report gives no day for the stop). Check: the day. See [[cal.1964-10-06.elections-1964]].
-        Names: Lady Bird Johnson.'
+      n: '[[w.kotz-judgment-days]], 223 (the "Lady Bird Special," four days, forty-seven speeches in six southern States; no day for the stop); [[w.young-two-suns-of-the]], 185 (at Columbia "angry, jeering crowds disrupted" her speech). Check: the day. To check: [[w.carpenter-ruffles-and-flourishes]], 143–71 (cited by [[w.kotz-judgment-days]], 223 n.82). See [[cal.1964-10-06.elections-1964]]. Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
       - state:sc
@@ -273,10 +268,8 @@ ops:
       thread: elections-1964-johnson
       also:
       - civil-rights-bill
-      c: 'Charleston, S.C. A mob chants against Johnson: "Johnson is a Communist. Johnson is a nigger lover." Mrs. Johnson: "You are entitled to yours. But right now, I am entitled to
-        mine."'
-      n: '[[w.kotz-judgment-days]], 223 (the "Lady Bird Special," four days, forty-seven speeches in six southern States; the report gives no day for the stop). Check: the day. See [[cal.1964-10-06.elections-1964]].
-        Names: Lady Bird Johnson.'
+      c: 'Charleston, S.C. A mob chants against Johnson: "Johnson is a Communist. Johnson is a nigger lover." Mrs. Johnson: "You are entitled to yours. But right now, I am entitled to mine."'
+      n: '[[w.kotz-judgment-days]], 223 (the "Lady Bird Special," four days, forty-seven speeches in six southern States; no day for the stop). Check: the day. To check: [[w.carpenter-ruffles-and-flourishes]], 143–71 (cited by [[w.kotz-judgment-days]], 223 n.82). See [[cal.1964-10-06.elections-1964]]. Names: Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
       - state:sc
@@ -286,17 +279,12 @@ ops:
     base: 706edafd
     kind: correct
     set:
-      c: 'Chicago, the Chicago Stadium.{1} The organization''s torchlight parade, three thousand torches.{2} Johnson, 8:37 p.m.: Daley "one of the greatest political leaders in all the
-        world."{3}'
-      n: 'Remarks at the Chicago Stadium, [1963–64 Pub. Papers 1545](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=785) (Oct. 30, 1964) (the President
-        spoke at 8:37 p.m.; "a political parade and a political rally"). [[w.cohen-american-pharaoh]], 323 (the machine''s torchlight parade for Johnson "on the eve of the election,"
-        three thousand torches at ten-foot intervals; Johnson enters the Stadium to "Happy Days Are Here Again"). The Papers date the speech Oct. 30; Cohen''s "eve of the election" is
-        loose. Check: whether the parade is of the same night as the rally. Check: Cohen has the words "Mayor Daley ... is the greatest politician in the country"; the Papers print "one
-        of the greatest political leaders in all the world." Names: Johnson, Daley.'
+      c: 'Chicago, the Chicago Stadium.{1} The organization''s torchlight parade, three thousand torches.{2} Johnson, 8:37 p.m.: Daley "one of the greatest political leaders in all the world."{3}'
+      n: 'Remarks at the Chicago Stadium, [1963–64 Pub. Papers 1545](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=785) (Oct. 30, 1964) (the President spoke at 8:37 p.m.; "Nobody in this world can put on a political parade and a political rally like that great executive Dick Daley"). [[w.cohen-american-pharaoh]], 323 (the machine''s torchlight parade for Johnson "on the eve of the election," three thousand torches at ten-foot intervals; Johnson enters the Stadium to "Happy Days Are Here Again"). The Papers date the speech Oct. 30, the Friday before the election; Cohen''s "eve of the election" is loose. Check: Cohen has the words "Mayor Daley ... is the greatest politician in the country"; the Papers print "one of the greatest political leaders in all the world." Names: Johnson, Daley.'
       src:
-        c: 8f6375ff
+        c: b01cc194
         rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=785: 1, 3'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=785: 1, 2, 3'
         - 'w.cohen-american-pharaoh 323: 1, 2'
       date: '1964-10-30'
       when: Oct. 30
@@ -312,11 +300,9 @@ ops:
     kind: correct
     set:
       c: Robert Kennedy elected Senator from New York over Keating, 3,823,749 to 3,104,056, 53.5 percent.{1}
-      n: '[*Statistics of the Presidential and Congressional Election of November 3, 1964*](https://clerk.house.gov/member_info/electionInfo/1964election.pdf) (Clerk of the House, 1965).
-        [[w.schlesinger-robert-kennedy-and-his]], 675 (the election; the margin, 719,693); [[w.thomas-robert-kennedy]], 301 (won by 700,000). To check: [[w.shesol-mutual-contempt]].
-        See [[cal.1964-08-25.elections-1964]]; [[cal.1964-11-03.elections-1964-2]]. Names: Robert Kennedy, Keating.'
+      n: '[*Statistics of the Presidential and Congressional Election of November 3, 1964*](https://clerk.house.gov/member_info/electionInfo/1964election.pdf) (Clerk of the House, 1965). [[w.schlesinger-robert-kennedy-and-his]], 675 (the election; the margin, 719,693); [[w.thomas-robert-kennedy]], 301 (won by 700,000). To check: [[w.shesol-mutual-contempt]]. See [[cal.1964-08-25.elections-1964]]; [[cal.1964-11-03.elections-1964-2]]. Names: Robert Kennedy, Keating.'
       src:
-        c: 363e082e
+        c: 3bb6388e
         rows:
         - 'https://clerk.house.gov/member_info/electionInfo/1964election.pdf: 1'
         - 'w.schlesinger-robert-kennedy-and-his 675: 1'
@@ -352,12 +338,7 @@ ops:
       follows:
       - cal.1964-11-03.elections-1964-new-york
       c: 'Johnson and Kennedy by telephone, 11:55 p.m.: Kennedy thanks him for his help; Johnson: nothing will divide them.'
-      n: '[Johnson and Robert Kennedy, 11:55 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-november-4-1964), Conversation WH6411-02-6142
-        (Miller Center). [President''s Daily Diary, Nov. 3, 1964](https://catalog.archives.gov/id/192447), image 5 (LBJ Library; National Archives Catalog). [[w.thomas-robert-kennedy]],
-        301 (the "late-night phone call": "Listen, I guess I pulled you through up here"). The hour Austin''s: PRDE places the call at Austin. The order: after [[cal.1964-11-03.elections-1964-new-york]],
-        Kennedy''s victory statement, which Johnson watched on television ([[w.thomas-robert-kennedy]], 301). Check: Thomas, 301, has Kennedy say on the call, "Listen, I guess I pulled
-        you through up here"; the line, from the recording, has him thank Johnson for his help. Check: the Daily Diary gives a call from Kennedy at 11:52 p.m. (image 5). To check: [[w.shesol-mutual-contempt]].
-        Made public: the recordings, opened by the LBJ Library. Check the year. See [[cal.1964-11-03.robert-kennedy]]. Names: Robert Kennedy, Johnson.'
+      n: '[Johnson and Robert Kennedy, 11:55 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-november-4-1964), Conversation WH6411-02-6142 (Miller Center). [President''s Daily Diary, Nov. 3, 1964](https://catalog.archives.gov/id/192447), image 5 (LBJ Library; National Archives Catalog). [[w.thomas-robert-kennedy]], 301 (the "late-night phone call": "Listen, I guess I pulled you through up here"). The hour Austin''s: PRDE places the call at Austin. The order: after [[cal.1964-11-03.elections-1964-new-york]], Kennedy''s victory statement, which Johnson watched on television ([[w.thomas-robert-kennedy]], 301). Check: Thomas, 301, has Kennedy say on the call, "Listen, I guess I pulled you through up here"; the line, from the recording, has him thank Johnson for his help. Check: the Daily Diary gives a call from Kennedy at 11:52 p.m. (image 5). To check: [[w.shesol-mutual-contempt]]. Made public: the recordings, opened by the LBJ Library. Check the year. See [[cal.1964-11-03.robert-kennedy]]. Names: Robert Kennedy, Johnson.'
       tags:
       - name:kennedy-robert-f
       - name:johnson-lyndon-b
@@ -366,10 +347,7 @@ ops:
     base: 93eaf7bc
     kind: correct
     set:
-      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 862 ("the night of Nov. 7"); [[w.jian-zhou-enlai]], 512 (that evening Zhou checks the words with the interpreters and cables the Center,
-        "the highest urgency"). Made public: 1999. To check: [[w.yan-mingfu-huiyilu]], 868 (cited by [[w.jian-zhou-enlai]], 512 n.78). Names: Zhou Enlai, Malinovsky. The range: after
-        the Kremlin reception, held in the evening of Nov. 7 at Moscow, which is past midnight at Peking, and before the Standing Committee''s meeting of Nov. 8, 上午 ([[w.lengxi-shinian-lunzhan-1956-1966]],
-        862: 11月7日夜，中央就收到了代表团发来的急电; 11月8日上午，毛主席在颐年堂召开政治局常委会).'
+      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 862 ("the night of Nov. 7"); [[w.jian-zhou-enlai]], 512 (that evening Zhou checks the words with the interpreters and cables the Center, "the highest urgency"). Made public: 1999. To check: [[w.yan-mingfu-huiyilu]], 868 (cited by [[w.jian-zhou-enlai]], 512 n.78). The range: after the start of the Kremlin reception, held the evening of Nov. 7 at Moscow (晚上, [[w.lengxi-shinian-lunzhan-1956-1966]], 860), past midnight at Peking, and before the Standing Committee''s meeting of Nov. 8, 上午 (862: 11月7日夜，中央就收到了代表团发来的急电; 11月8日上午 ... 召开政治局常委会). Names: Zhou Enlai, Malinovsky.'
       time_range:
       - 1964-11-07T16:00Z
       - 1964-11-08T00:00Z
@@ -382,14 +360,10 @@ ops:
     base: 893b2fe5
     kind: correct
     set:
-      c: Zhou, with He Long 贺龙, leads the delegation home in the evening;{2} on the way to the airport Kosygin proposes a top-level Sino-Soviet meeting of parties and states;{3} Zhou
-        will tell the Central Committee.{4}
-      n: '[[w.zhou-enlai-nianpu-1949]], II, 688 (Nov. 13, 1964; with He Long leads the Party and government delegation home; Kosygin proposes in the car the highest-level meeting of
-        the two parties and two states, Zhou to tell the Central Committee); [[w.zhou-enlai-waijiao-huodong]], 429 (Nov. 13, 1964; 晚上, 率中国党政代表团乘中国专机回国; 苏联部长会议主席柯西金到机场送行); [[w.lengxi-shinian-lunzhan-1956-1966]],
-        878–879 (the delegation left Moscow the evening of Nov. 13; on the way to the airport Kosygin told Zhou the new leaders do differ from Khrushchev, "else why drive him out," but
-        would not say how: "do you believe we can carry to the end the heavy load he left us?", as Zhou told Mao on Nov. 14 of "last night"). Names: Zhou Enlai, Kosygin, He Long.'
+      c: Zhou, with He Long 贺龙, leads the delegation home in the evening;{2} on the way to the airport Kosygin proposes a top-level Sino-Soviet meeting of parties and states;{3} Zhou will tell the Central Committee.{4}
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 688 (Nov. 13, 1964; with He Long leads the Party and government delegation home; Kosygin proposes in the car the highest-level meeting of the two parties and two states, Zhou to tell the Central Committee); [[w.zhou-enlai-waijiao-huodong]], 429 (Nov. 13, 1964; after the meeting with the Soviet leaders, 晚上, 率中国党政代表团乘中国专机回国; 柯西金到机场送行); [[w.lengxi-shinian-lunzhan-1956-1966]], 878–879 (the delegation left Moscow the evening of Nov. 13; on the way to the airport Kosygin told Zhou the new leaders do differ from Khrushchev, "else why drive him out," but would not say how: "do you believe we can carry to the end the heavy load he left us?", as Zhou told Mao on Nov. 14 of "last night"). Names: Zhou Enlai, Kosygin, He Long.'
       src:
-        c: 53dc2db2
+        c: dbf79fdb
         rows:
         - 'w.zhou-enlai-nianpu-1949 II, 688: ?'
         - 'w.zhou-enlai-waijiao-huodong 429: 2'
@@ -399,6 +373,11 @@ ops:
       - 1964-11-13T19:00Z
       time_band: evening
       time_zone: Europe/Moscow
+      thread: china-polemic
+      also:
+      - soviet-union
+      - china-zhou-foreign
+      - china-foreign
 - add:
     entry:
       id: cal.1964-11-13.china-zhou-foreign
@@ -407,10 +386,10 @@ ops:
       place: moscow
       thread: china-zhou-foreign
       also:
+      - china-bomb
       - china-foreign
       c: Moscow 莫斯科. Zhou Enlai 周恩来 receives the staff of the Chinese embassy 中国驻苏联大使馆, the Chinese students in Moscow and the Chinese at the Dubna joint nuclear institute 杜布纳联合原子核研究所.
-      n: '[[w.zhou-enlai-nianpu-1949]], II, 687 (Nov. 13, 1964; 在中国驻苏联大使馆接见使馆的全体人员、中国在莫斯科的留学生和杜布纳联合原子核研究所的中国工作人员). Made public: 1997. See [[cal.1964-11-13.china-leadership]]. Names:
-        Zhou Enlai.'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 687 (Nov. 13, 1964; 在中国驻苏联大使馆接见使馆的全体人员、中国在莫斯科的留学生和杜布纳联合原子核研究所的中国工作人员). Made public: 1997. See [[cal.1964-11-13.china-leadership]]. Names: Zhou Enlai.'
       tags:
       - name:zhou-enlai
       - polity:prc
@@ -426,11 +405,7 @@ ops:
     kind: correct
     set:
       c: Oslo. Olav V receives King and Coretta King at the Royal Palace.
-      n: '[[w.branch-pillar-of-fire]], 540 (King flew from London to Oslo Dec. 8; the King "sent for him and Coretta the next afternoon, and received them in private audience at the
-        Royal Palace"). To check: "Schedule for Oslo Trip," A/KP12f67 (cited by [[w.branch-pillar-of-fire]], 540); Coretta King, My Life with Martin Luther King, Jr. (1969), 24–25 (cited
-        by [[w.branch-pillar-of-fire]], 540); Int. Harry Wachtel, Oct. 27, 1983 (cited by [[w.branch-pillar-of-fire]], 540); Int. Marian Logan, April 24, 1984 (cited by [[w.branch-pillar-of-fire]],
-        540); [[w.garrow-bearing-the-cross]], 366 (cited by [[w.branch-pillar-of-fire]], 540); [[w.young-easy-burden]], 320 (cited by [[w.branch-pillar-of-fire]], 540); See [[cal.1964-12-10.voting-rights]].
-        Names: King, Coretta King.'
+      n: '[[w.branch-pillar-of-fire]], 540 (King flew from London to Oslo Dec. 8; the King "sent for him and Coretta the next afternoon, and received them in private audience at the Royal Palace"). To check: "Schedule for Oslo Trip," A/KP12f67 (cited by [[w.branch-pillar-of-fire]], 540); Coretta King, My Life with Martin Luther King, Jr. (1969), 24–25 (cited by [[w.branch-pillar-of-fire]], 540); Int. Harry Wachtel, Oct. 27, 1983 (cited by [[w.branch-pillar-of-fire]], 540); Int. Marian Logan, April 24, 1984 (cited by [[w.branch-pillar-of-fire]], 540); [[w.garrow-bearing-the-cross]], 366 (cited by [[w.branch-pillar-of-fire]], 540); [[w.young-easy-burden]], 320 (cited by [[w.branch-pillar-of-fire]], 540); See [[cal.1964-12-10.voting-rights]]. Names: King, Coretta King.'
       src:
         c: ef413eaa
         rows:
@@ -459,11 +434,8 @@ ops:
       thread: king
       follows:
       - cal.1964-12-09.king
-      c: Oslo, the U.S. embassy's dinner in honor of King, that evening. Rustin asks Robert Porter, the CIA official among the hosts, where to find Norwegian girls; Porter reports Rustin
-        "erratic, utterly cynical, and a born showman."
-      n: '[[w.branch-pillar-of-fire]], 540 ("That evening, at a U.S. embassy dinner in honor of King"; Rustin''s question; Porter''s report to Washington). To check: Porter cited in
-        FBI HQ LHM dated Feb. 4, 1965, and Legat London to Director, Feb. 4, 1965, FR-NR (cited by [[w.branch-pillar-of-fire]], 540). The order: after [[cal.1964-12-09.king]], the audience
-        "the next afternoon"; the dinner "That evening" ([[w.branch-pillar-of-fire]], 540). See [[cal.1964-12-09.king]]. Names: King, Rustin.'
+      c: Oslo, the U.S. embassy's dinner in honor of King, that evening. Rustin seeks out Robert Porter, the CIA official among the hosts, on Oslo's night life; Porter reports Rustin "erratic, utterly cynical, and a born showman."
+      n: '[[w.branch-pillar-of-fire]], 540 ("That evening, at a U.S. embassy dinner in honor of King"; Rustin and Porter; Porter''s report to Washington). To check: Porter cited in FBI HQ LHM dated Feb. 4, 1965, and Legat London to Director, Feb. 4, 1965, FR-NR (cited by [[w.branch-pillar-of-fire]], 540). The order: after [[cal.1964-12-09.king]], the audience "the next afternoon"; the dinner "That evening" ([[w.branch-pillar-of-fire]], 540). See [[cal.1964-12-09.king]]. Names: Rustin, King.'
       tags:
       - name:king-martin-luther-jr
       - name:rustin-bayard
@@ -477,12 +449,8 @@ ops:
     base: 09d766c0
     kind: correct
     set:
-      c: 'New York, the Williams Institutional Church, Sunday afternoon. Hamer tells of the Winona jail; Malcolm X: "If his language is with a shotgun, get a shotgun"; for an American
-        Mau Mau.'
-      n: '[[w.branch-pillar-of-fire]], 547–48 ("THAT SUNDAY AFTERNOON, December 20"; the church rally; the Mau Mau). To check: [[w.mills-this-little-light-of]], 140–44 (cited by [[w.branch-pillar-of-fire]],
-        547); [[w.malcolm-x-speaks]], 105–36 (cited by [[w.branch-pillar-of-fire]], 547); Malcolm X speech at the Williams Institutional Church, New York, Dec. 20, 1964, Audiotape C-185,
-        SCRBC (cited by [[w.branch-pillar-of-fire]], 547); [[w.malcolm-x-speaks]], 134 (cited by [[w.branch-pillar-of-fire]], 548); [*New York Times*, Dec. 21, 1964](https://timesmachine.nytimes.com/timesmachine/1964/12/21/issue.html),
-        at 20 (cited by [[w.branch-pillar-of-fire]], 548). Names: Hamer, Malcolm X.'
+      c: 'New York, the Williams Institutional Church, Sunday afternoon. Hamer tells of the Winona jail; Malcolm X: "If his language is with a shotgun, get a shotgun"; for an American Mau Mau.'
+      n: '[[w.branch-pillar-of-fire]], 547–48 ("THAT SUNDAY AFTERNOON, December 20"; the church rally; the Mau Mau). To check: [[w.mills-this-little-light-of]], 140–44 (cited by [[w.branch-pillar-of-fire]], 547); [[w.malcolm-x-speaks]], 105–36 (cited by [[w.branch-pillar-of-fire]], 547); Malcolm X speech at the Williams Institutional Church, New York, Dec. 20, 1964, Audiotape C-185, SCRBC (cited by [[w.branch-pillar-of-fire]], 547); [[w.malcolm-x-speaks]], 134 (cited by [[w.branch-pillar-of-fire]], 548); [*New York Times*, Dec. 21, 1964](https://timesmachine.nytimes.com/timesmachine/1964/12/21/issue.html), at 20 (cited by [[w.branch-pillar-of-fire]], 548). Names: Hamer, Malcolm X.'
       src:
         c: f9b6281f
         rows:
@@ -500,10 +468,8 @@ ops:
       - mississippi
       follows:
       - cal.1964-12-20.black-nationalism
-      c: 'New York, the Audubon Ballroom, Harlem, that night. Malcolm X presents Fannie Lou Hamer and the SNCC Freedom Singers at his rally, and tells the Mau Mau story: of three hundred
-        followers, fifty will kill for freedom.'
-      n: '[[w.branch-pillar-of-fire]], 548 ("Malcolm presented Hamer and the Freedom Singers to his own rally that night at the Audubon Ballroom in Harlem"). The order: after [[cal.1964-12-20.black-nationalism]],
-        the church rally of that afternoon ([[w.branch-pillar-of-fire]], 547–48: "that night"). See [[cal.1964-12-20.black-nationalism]]. Names: Malcolm X, Hamer.'
+      c: 'New York, the Audubon Ballroom, Harlem, that night. Malcolm X presents Fannie Lou Hamer and the SNCC Freedom Singers at his rally; the Mau Mau story: a leader asks three hundred followers who will kill for freedom, and orders the fifty who step forward to kill the other 250 first. Malcolm: "I go for that."'
+      n: '[[w.branch-pillar-of-fire]], 548 ("Malcolm presented Hamer and the Freedom Singers to his own rally that night at the Audubon Ballroom in Harlem"). The order: after [[cal.1964-12-20.black-nationalism]], the church rally of that afternoon ([[w.branch-pillar-of-fire]], 547–48: "that night"). See [[cal.1964-12-20.black-nationalism]]. Names: Malcolm X, Hamer.'
       tags:
       - name:malcolm-x
       - name:hamer-fannie-lou
@@ -514,23 +480,19 @@ ops:
       - 1964-12-21T05:00Z
       time_band: night
       time_zone: America/New_York
+      gloss:
+        title: Commentary
+        text:
+        - 'Branch (1998): the story "almost certainly apocryphal" ([[w.branch-pillar-of-fire]], 548).'
 - edit:
     id: cal.1964-12-20.vietnam
     base: 141075af
     kind: correct
     set:
       c: Saigon.{1} Khánh and the young generals, Kỳ and Thiệu among them, dissolve the High National Council and arrest some of its members.{2}
-      n: 'FRUS 1964–68, I, docs. [451](https://history.state.gov/historicaldocuments/frus1964-68v01/d451) (Taylor, Dec. 20, 5 p.m.: Khánh and ten Young Turks tell Hương of the action
-        at 2 a.m.; the press conference set for 9), [453](https://history.state.gov/historicaldocuments/frus1964-68v01/d453), [454](https://history.state.gov/historicaldocuments/frus1964-68v01/d454).
-        [[w.gibbons-u-s-government-and]], II, 381–82 (the Armed Forces Council of Dec. 20; not the High National Council''s dissolution or the arrests); [[w.kaplan-mcnamara-ascendancy-1961-1965]],
-        528 (the High National Council abolished); [[w.moyar-triumph-forsaken]], 343–46; [[w.macv-command-history-1964]], 193 (the council dissolved, in the chronology); [[w.westmoreland-soldier-reports]],
-        94 (the council dissolved in the night). [[w.ball-past-has-another-pattern]], 389; [[w.branch-pillar-of-fire]], 545; [[w.taylor-swords-and-plowshares]], 329–31 (the night of
-        Dec. 19–20); [[w.logevall-choosing-war]], 292–93 (Khánh and the "Young Turks," Dec. 20: some three dozen officers and civilians arrested, the High National Council abolished;
-        not Kỳ or Thiệu by name); [[w.lich-su-khang-chien-chong-my]], III, 320 n.1 (Dec. 20, 1964: Khánh, Kỳ and Thiệu make a partial coup). To check: [[w.shaplen-lost-revolution]];
-        [[w.ahern-cia-and-the-generals]]; [[w.topmiller-lotus-unleashed]]; [[w.lam-history-of-south-vietnam-2021]]; [[w.ky-twenty-years-and-twenty]]; [[w.ky-buddhas-child]]; [[w.pentagon-papers]],
-        II, 345–48 (cited by [[w.branch-pillar-of-fire]], 545). See [[cal.1964-11-01.vietnam]]. Names: Nguyễn Khánh, Nguyễn Cao Kỳ, Nguyễn Văn Thiệu, Taylor.'
+      n: 'FRUS 1964–68, I, docs. [451](https://history.state.gov/historicaldocuments/frus1964-68v01/d451) (Taylor, Dec. 20, 5 p.m.: Khánh and ten Young Turks tell Hương of the action at 2 a.m.; n.2, the Military Council met late on Dec. 19 and decided to dissolve the High National Council; the press conference set for 9), [453](https://history.state.gov/historicaldocuments/frus1964-68v01/d453), [454](https://history.state.gov/historicaldocuments/frus1964-68v01/d454). [[w.gibbons-u-s-government-and]], II, 381–82 (the Armed Forces Council of Dec. 20; not the High National Council''s dissolution or the arrests); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 528 (the High National Council abolished); [[w.moyar-triumph-forsaken]], 343–46; [[w.macv-command-history-1964]], 193 (the council dissolved, in the chronology); [[w.westmoreland-soldier-reports]], 94 (the council dissolved in the night). [[w.ball-past-has-another-pattern]], 389; [[w.branch-pillar-of-fire]], 545; [[w.taylor-swords-and-plowshares]], 329 (the night of Dec. 19–20); [[w.logevall-choosing-war]], 292–93 (Khánh and the "Young Turks," Dec. 20: some three dozen officers and civilians arrested, the High National Council abolished; not Kỳ or Thiệu by name); [[w.lich-su-khang-chien-chong-my]], III, 320 n.1 (Dec. 20, 1964: Khánh, Kỳ and Thiệu make a partial coup). To check: [[w.shaplen-lost-revolution]]; [[w.ahern-cia-and-the-generals]]; [[w.topmiller-lotus-unleashed]]; [[w.lam-history-of-south-vietnam-2021]]; [[w.ky-twenty-years-and-twenty]]; [[w.ky-buddhas-child]]. The range: from the Military Council''s meeting "late on December 19" (doc. 451 n.2) through the night; the events "began in the middle of the night of 19–20 December" (doc. 453). Check: the day; the council decided late Dec. 19. See [[cal.1964-11-01.vietnam]]. Names: Nguyễn Khánh, Nguyễn Cao Kỳ, Nguyễn Văn Thiệu.'
       src:
-        c: 146cfe17
+        c: e9ef53b5
         rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d451: 1, 2'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 528: 1, 2'
@@ -541,13 +503,12 @@ ops:
         - 'w.macv-command-history-1964 193: ?'
         - 'w.westmoreland-soldier-reports 94: 1, 2'
         - 'w.branch-pillar-of-fire 545: 2'
-        - 'w.taylor-swords-and-plowshares 329–31: 2'
+        - 'w.taylor-swords-and-plowshares 329: 2'
         - 'w.logevall-choosing-war 292–93: 2'
         - 'w.lich-su-khang-chien-chong-my III, 320 n.1: 2'
       time_range:
-      - 1964-12-19T16:00Z
+      - 1964-12-19T14:00Z
       - 1964-12-19T22:00Z
-      time_band: predawn
       time_zone: Asia/Ho_Chi_Minh
 - tag:
     id: cal.1964-12-20.vietnam
@@ -562,24 +523,19 @@ ops:
       thread: vietnam-saigon
       follows:
       - cal.1964-12-20.vietnam
-      c: 'Saigon, the embassy, the morning. Taylor, with Alexis Johnson and Generals Throckmorton, Moore and Rowland, reproves Kỳ, Thiệu, Thi and Cang for the arrests and the dissolution
-        of the High National Council: the Americans are "tired of coups."'
-      n: 'Taylor to the Department, Saigon, Dec. 20, 5 p.m., [FRUS 1964–68, I, doc. 451](https://history.state.gov/historicaldocuments/frus1964-68v01/d451) ("immediately upon our return
-        from seeing Huong" that morning, the meeting with Ky, Thieu, Thi and Cang; "very forcefully expressed my disappointment"). [[w.branch-pillar-of-fire]], 545 ("I told you all clearly
-        at General Westmoreland''s dinner that we Americans were tired of coups"). [[w.westmoreland-soldier-reports]], 94 (Taylor to Thiệu, Thi, Kỳ and Cang: "Do you understand English?");
-        [[w.mcnamara-in-retrospect]], ch. 6 at nn.18–19 (Taylor to the generals: "You people have broken a lot of dishes, and now we have to see how we can straighten out this mess");
-        [[w.taylor-swords-and-plowshares]], 329–31 (Thiệu, Kỳ, Thi and Cang sent to Taylor, his "rude tirade"); [[w.gibbons-u-s-government-and]], II, 381–82 (Taylor''s rebuke); [[w.logevall-choosing-war]],
-        292–93 (Taylor hauls four of the generals into the embassy). The order: after [[cal.1964-12-20.vietnam]], the action of the night (FRUS, doc. 451: the generals had acted at 2
-        a.m.). See [[cal.1964-12-21.vietnam-saigon]]. Names: Taylor, Nguyễn Cao Kỳ, Nguyễn Văn Thiệu.'
+      c: 'Saigon, the embassy, 12:09 to 1:25 p.m. Taylor, with U. Alexis Johnson and Generals Throckmorton, Moore and Rowland, reproves Kỳ, Thiệu, Thi and Cang for the arrests and the dissolution of the High National Council: the Americans "tired of coups."'
+      n: 'Taylor to the Department, Saigon, Dec. 20, 5 p.m., [FRUS 1964–68, I, doc. 451](https://history.state.gov/historicaldocuments/frus1964-68v01/d451) ("Immediately upon our return from seeing Huong," the meeting with Kỳ, Thiệu, Thi and Cang, Generals Throckmorton, Moore and Rowland with them; "very forcefully expressed my disappointment"; n.4, the meeting "from 12:09 to 1:25"). [[w.gibbons-u-s-government-and]], II, 381–82 (Taylor, with U. Alexis Johnson, calls the "Young Turks" together; the mission''s record of the opening: "we Americans were tired of coups"); [[w.branch-pillar-of-fire]], 545 ("I told you all clearly at General Westmoreland''s dinner that we Americans were tired of coups"); [[w.westmoreland-soldier-reports]], 94 (Taylor and Alexis Johnson to Thiệu, Thi, Kỳ and Cang: "Do you understand English?"); [[w.taylor-swords-and-plowshares]], 329–30 (Thiệu, Kỳ, Thi and Cang sent to Taylor and Johnson; his "rude tirade," as they later called it); [[w.logevall-choosing-war]], 293 (Taylor hauls four of the generals into the embassy: "Now you have made a real mess"); [[w.mcnamara-in-retrospect]], ch. 6 at nn.18–19 ("You people have broken a lot of dishes, and now we have to see how we can straighten out this mess"). To check: [[w.pentagon-papers]], II, 345–48 (cited by [[w.branch-pillar-of-fire]], 545); Saigon to State, the meeting with the generals, [[w.pentagon-papers]], II, 346 (cited by [[w.gibbons-u-s-government-and]], II, 381 n.106). The order: after [[cal.1964-12-20.vietnam]], the action of the night (doc. 451: the generals had told Hương at 2 a.m.). See [[cal.1964-12-20.vietnam]]. Names: Taylor, U. Alexis Johnson, Throckmorton, Nguyễn Cao Kỳ, Nguyễn Văn Thiệu, Nguyễn Chánh Thi.'
       tags:
       - name:taylor-maxwell
+      - name:johnson-u-alexis
+      - name:throckmorton-john-l
       - name:nguyen-cao-ky
       - name:nguyen-van-thieu
+      - name:nguyen-chanh-thi
       - place:saigon
       time_range:
-      - 1964-12-19T22:00Z
-      - 1964-12-20T04:00Z
-      time_band: morning
+      - 1964-12-20T04:09Z
+      - 1964-12-20T05:25Z
       time_zone: Asia/Ho_Chi_Minh
 - edit:
     id: cal.1964-12-23.china-leadership-2
@@ -587,19 +543,25 @@ ops:
     kind: correct
     set:
       c: Peking. Zhou Enlai watches the Cuban National Ballet's performance.
-      n: '[[w.zhou-enlai-waijiao-huodong]], 431 (Dec. 23, 1964; 晚上，观看古巴国家芭蕾舞团的演出，并和陈毅副总理同古巴朋友共进晚餐); [[w.peng-zhen-nianpu-1902]], IV, 381 (Dec. 23, 1964; Peng Zhen, with Mao, Liu Shaoqi,
-        Zhou Enlai, Deng Xiaoping and others, sees the Cuban National Ballet and receives its director and artistic director and the heads of the Cuban government trade delegation and
-        lawyers'' delegation); [[w.chen-yi-nianpu]], 1075 (Dec. 23, 1964, evening; Chen Yi with Mao, Liu Shaoqi, Zhou, Deng Xiaoping and Peng Zhen at the performance). Names: Zhou Enlai.'
+      n: '[[w.zhou-enlai-waijiao-huodong]], 431 (Dec. 23, 1964; 晚上，观看古巴国家芭蕾舞团的演出，并和陈毅副总理同古巴朋友共进晚餐); [[w.peng-zhen-nianpu-1902]], IV, 381 (Dec. 23, 1964; Peng Zhen, with Mao, Liu Shaoqi, Zhou Enlai, Deng Xiaoping and others, sees the Cuban National Ballet and receives its director and artistic director and the heads of the Cuban government trade delegation and lawyers'' delegation); [[w.chen-yi-nianpu]], 1075 (Dec. 23, 1964, evening; Chen Yi with Mao, Liu Shaoqi, Zhou, Deng Xiaoping and Peng Zhen at the performance). Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping, Peng Zhen, Chen Yi.'
       src:
         c: 04f173c3
         rows:
         - 'w.zhou-enlai-waijiao-huodong 431: all'
         - 'w.peng-zhen-nianpu-1902 IV, 381: ?'
         - 'w.chen-yi-nianpu 1075: ?'
-- tag:
+- add-words:
     id: cal.1964-12-23.china-leadership-2
-    remove:
-    - name:chen-yi
+    after: end
+    words: With Mao Zedong 毛泽东, Liu Shaoqi 刘少奇, Deng Xiaoping 邓小平, Peng Zhen 彭真 and Chen Yi 陈毅.
+    item: '[[w.chen-yi-nianpu]], 1075'
+- names:
+    id: cal.1964-12-23.china-leadership-2
+    tags:
+    - name:mao-zedong
+    - name:liu-shaoqi
+    - name:deng-xiaoping
+    - name:peng-zhen
 - add:
     entry:
       id: cal.1964-12-23.china-zhou-foreign
@@ -613,8 +575,7 @@ ops:
       follows:
       - cal.1964-12-23.china-leadership-2
       c: Peking 北京. Zhou Enlai 周恩来, with Chen Yi 陈毅, dines with the Cuban friends 古巴朋友 after the performance.
-      n: '[[w.chen-yi-nianpu]], 1075 (Dec. 23, 1964; 晚上; 随后和周恩来等同古巴朋友共进晚餐); [[w.zhou-enlai-waijiao-huodong]], 431 (Dec. 23, 1964; 晚上，观看古巴国家芭蕾舞团的演出，并和陈毅副总理同古巴朋友共进晚餐). The order: after
-        [[cal.1964-12-23.china-leadership-2]], the performance: "随后" ([[w.chen-yi-nianpu]], 1075). Names: Zhou Enlai, Chen Yi.'
+      n: '[[w.chen-yi-nianpu]], 1075 (Dec. 23, 1964; 晚上; 随后和周恩来等同古巴朋友共进晚餐); [[w.zhou-enlai-waijiao-huodong]], 431 (Dec. 23, 1964; 晚上，观看古巴国家芭蕾舞团的演出，并和陈毅副总理同古巴朋友共进晚餐). The order: after [[cal.1964-12-23.china-leadership-2]], the performance: "随后" ([[w.chen-yi-nianpu]], 1075). Names: Zhou Enlai, Chen Yi.'
       tags:
       - polity:prc
       - polity:cuba
@@ -625,16 +586,18 @@ ops:
       - 1964-12-23T14:00Z
       time_band: evening
       time_zone: Asia/Shanghai
+- follows:
+    id: cal.1964-12-23.china-leadership-5
+    add:
+    - cal.1964-12-23.china-zhou-foreign
+    basis: the printed order alone ([[w.chen-yi-nianpu]], 1075)
 - edit:
     id: cal.1964-12-29.china-leadership-4
     base: 3a55a55b
     kind: correct
     set:
-      c: 'Mao to Zhou Enlai 周恩来, at 6 p.m., on the third summary of the government work report Zhou sent Dec. 27: part one read and revised, words that might frighten foreigners needlessly
-        changed ("world first-rate scientists" made "first-rate scientists"); the rest tonight.'
-      n: '[[w.jianguo-yilai-mao-zedong]], XVII, 489–490 (Dec. 29, 1964; the first note, on Zhou''s letter of Dec. 27, dated 下午六时; "其余部分，今晚阅后送上"). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]],
-        the first open printing). To check: Zhou Enlai, Government Work Report, third summary, sent to Mao with a letter of Dec. 27, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII,
-        490 n.1). Names: Mao Zedong, Zhou Enlai. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
+      c: 'Mao to Zhou Enlai 周恩来, at 6 p.m., on the third summary of the government work report Zhou sent Dec. 27: part one read and revised, words that might frighten foreigners needlessly changed ("world first-rate scientists" made "first-rate scientists"); the rest tonight.'
+      n: '[[w.jianguo-yilai-mao-zedong]], XVII, 489–490 (Dec. 29, 1964; the first note, on Zhou''s letter of Dec. 27, dated 下午六时; "其余部分，今晚阅后送上"). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Zhou Enlai, Government Work Report, third summary, sent to Mao with a letter of Dec. 27, 1964 (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 490 n.1). Names: Mao Zedong, Zhou Enlai. Check: whether the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) printed it, and in which volume.'
       src:
         c: 9cea92bb
         rows:
@@ -649,8 +612,7 @@ ops:
       follows:
       - cal.1964-12-29.china-leadership-4
       c: 'Mao to Zhou Enlai 周恩来, at 9:30 p.m., on the last two parts of the third summary of the government work report: read, no comment; they may be issued.'
-      n: '[[w.jianguo-yilai-mao-zedong]], XVII, 489–490 (Dec. 29, 1964; the second note, on the last two parts, dated 下午九时半: "后两部分，已看过，无意见，可照发"; n.1: the report appears in the *Renmin
-        ribao* Dec. 31). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). See [[cal.1964-12-29.china-leadership-4]]. Names: Mao Zedong, Zhou Enlai.'
+      n: '[[w.jianguo-yilai-mao-zedong]], XVII, 489–490 (Dec. 29, 1964; the second note, on the last two parts, dated 下午九时半: "后两部分，已看过，无意见，可照发"; n.1: the report appears in the *Renmin ribao* Dec. 31). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). See [[cal.1964-12-29.china-leadership-4]]. Names: Mao Zedong, Zhou Enlai.'
       tags:
       - polity:prc
       - name:mao-zedong
@@ -662,31 +624,14 @@ ops:
     id: cal.1965-01-04.program
     base: e09d587f
     set:
-      n: 'Annual Message to the Congress on the State of the Union, [1965 Pub. Papers 1](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=77) (Jan. 4, 1965).
-        [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf) (1965). [[w.johnson-vantage-point]], 214 (hospital care); [[w.dallek-flawed-giant]],
-        193–94; [[w.califano-triumph-and-tragedy-of]], 154 ("the explosion in world population and the growing scarcity in world resources"); [[w.branch-pillar-of-fire]], 556; [[w.zelizer-fierce-urgency-of-now]],
-        184 (the day''s call for health care for the aged); [[w.kotz-judgment-days]], 260 (the program: education, disease, the city, rivers and air, "every remaining obstacle to the
-        right and the opportunity to vote"); [[w.bernstein-guns-or-butter]], 309 ("As pledged in our 1960 and 1964 Democratic platforms, I will propose to Congress changes in the Taft-Hartley
-        Act, including Section 14(b)"); [[w.johnson-white-house-diary]], 214–15 (the message "at 9 o''clock tonight", the first at night since FDR''s days; about fifty minutes, twenty-seven
-        bursts of applause; the accent on education, medical research and the beauty of America; not the figures); [[w.goodwin-remembering-america]], 364–65 (Goodwin drafts the address
-        at the turn of the year: a call to a Great Society; 132 words on Vietnam, "help against the communist aggression"; seen without comment by State, Defense and Bundy; the celebration
-        at the F Street Club afterward; the "Pedernales peroration"; not the measures or "We will not break it now"). [[w.sundquist-politics-and-policy]], 271 (the vote). To check: [*New
-        York Times*, Jan. 5, 1965](https://timesmachine.nytimes.com/timesmachine/1965/01/05/issue.html), at 16 (cited by [[w.branch-pillar-of-fire]], 556); Dave Waters to LBJ, Jan. 13,
-        1965, Box 367, WHCEF-PR, LBJ (cited by [[w.branch-pillar-of-fire]], 556). After Moyers''s briefing before it: [[cal.1965-01-04.voting-rights-2]]. See [[cal.1964-01-08.program]];
-        [[cal.1964-05-22.program]]. Check: the page.'
+      n: 'Annual Message to the Congress on the State of the Union, [1965 Pub. Papers 1](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=77) (Jan. 4, 1965). [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf) (1965). [[w.johnson-vantage-point]], 214 (hospital care); [[w.dallek-flawed-giant]], 193–94; [[w.califano-triumph-and-tragedy-of]], 154 ("the explosion in world population and the growing scarcity in world resources"); [[w.branch-pillar-of-fire]], 556; [[w.zelizer-fierce-urgency-of-now]], 184 (the day''s call for health care for the aged); [[w.kotz-judgment-days]], 260 (the program: education, disease, the city, rivers and air, "every remaining obstacle to the right and the opportunity to vote"); [[w.bernstein-guns-or-butter]], 309 ("As pledged in our 1960 and 1964 Democratic platforms, I will propose to Congress changes in the Taft-Hartley Act, including Section 14(b)"); [[w.johnson-white-house-diary]], 214–15 (the message "at 9 o''clock tonight", the first at night since FDR''s days; about fifty minutes, twenty-seven bursts of applause; the accent on education, medical research and the beauty of America; not the figures); [[w.goodwin-remembering-america]], 364–65 (Goodwin drafts the address at the turn of the year: a call to a Great Society; 132 words on Vietnam, "help against the communist aggression"; seen without comment by State, Defense and Bundy; the celebration at the F Street Club afterward; the "Pedernales peroration"; not the measures or "We will not break it now"). [[w.sundquist-politics-and-policy]], 271 (the vote). To check: [*New York Times*, Jan. 5, 1965](https://timesmachine.nytimes.com/timesmachine/1965/01/05/issue.html), at 16 (cited by [[w.branch-pillar-of-fire]], 556); Dave Waters to LBJ, Jan. 13, 1965, Box 367, WHCEF-PR, LBJ (cited by [[w.branch-pillar-of-fire]], 556). After Moyers''s briefing before it: [[cal.1965-01-04.voting-rights-2]]. See [[cal.1964-01-08.program]]; [[cal.1964-05-22.program]]. Check: the page.'
       time: 1965-01-05T02:00Z
       time_zone: America/New_York
 - edit:
     id: cal.1965-01-09.china-leadership
     base: f0399a89
     set:
-      n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 9, 1965 (下午，在人民大会堂一一八厅会见斯诺，乔冠华、龚澎在座). Snow published an account at the time (Check where and when); the nianpu''s fuller words made
-        public: 2013. [[w.zhonghua-renmin-gongheguo-waijiao]], 2 (Jan. 9, 1965; Snow; world contradictions, South Viet Nam, the U.N. seat, nuclear war; the war not carried out); [[w.macfarquhar-origins-of-the-cultural]],
-        III, 371 (Mao to Edgar Snow, Jan. 9, 1965: he believes Rusk that the United States will not invade the North; the Americans might leave South Vietnam in a few years; Snow''s
-        account appears, condensed, in the New Republic of Feb. 27); [[w.macfarquhar-origins-of-the-cultural]], III, 417 (Mao tells Snow Khrushchev probably fell for having no cult of
-        personality); [[w.dikotter-cultural-revolution]], 42 n.1 (a meal in the Great Hall; the message on Vietnam: no troops across the border as long as the United States does not
-        attack China; the interview never published in China). To check: [[w.snow-long-revolution]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 371 n.151a). Names: Mao
-        Zedong, Qiao Guanhua, Edgar Snow, Gong Peng, Khrushchev.'
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 9, 1965 (下午，在人民大会堂一一八厅会见斯诺，乔冠华、龚澎在座). Snow published an account at the time (Check where and when); the nianpu''s fuller words made public: 2013. [[w.zhonghua-renmin-gongheguo-waijiao]], 2 (Jan. 9, 1965; Snow; world contradictions, South Viet Nam, the U.N. seat, nuclear war; the war not carried out); [[w.macfarquhar-origins-of-the-cultural]], III, 371 (Mao to Edgar Snow, Jan. 9, 1965: he believes Rusk that the United States will not invade the North; the Americans might leave South Vietnam in a few years; Snow''s account appears, condensed, in the New Republic of Feb. 27); [[w.macfarquhar-origins-of-the-cultural]], III, 417 (Mao tells Snow Khrushchev probably fell for having no cult of personality); [[w.dikotter-cultural-revolution]], 42 n.1 (a meal in the Great Hall; the message on Vietnam: no troops across the border as long as the United States does not attack China; the interview never published in China). To check: [[w.snow-long-revolution]] (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 371 n.151a). Names: Mao Zedong, Qiao Guanhua, Edgar Snow, Gong Peng, Khrushchev.'
       time_range:
       - 1965-01-09T04:00Z
       - 1965-01-09T10:00Z
@@ -697,9 +642,7 @@ ops:
     base: 64b2b477
     kind: correct
     set:
-      n: '[[w.johnson-white-house-diary]], 217–19 (Mrs. Johnson''s account: "This evening," the arrival and the Yellow Room, 217; the hats and the toasts, 218–19: "Evidently Lyndon had
-        had a preview of his toast"). See [[cal.1965-01-12.japan-and-korea]]. To check: The President''s Toast at a Dinner in Honor of Prime Minister Sato, [1965 Pub. Papers 36](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=112)
-        (Jan. 12, 1965). Names: Satō, Johnson, Lady Bird Johnson.'
+      n: '[[w.johnson-white-house-diary]], 217–19 (Mrs. Johnson''s account: "This evening," the arrival and the Yellow Room, 217; the hats and the toasts, 218–19: "Evidently Lyndon had had a preview of his toast"). See [[cal.1965-01-12.japan-and-korea]]. To check: The President''s Toast at a Dinner in Honor of Prime Minister Sato, [1965 Pub. Papers 36](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=112) (Jan. 12, 1965). Names: Satō, Johnson, Lady Bird Johnson.'
       time_range:
       - 1965-01-13T00:00Z
       - 1965-01-13T03:00Z
@@ -709,17 +652,16 @@ ops:
     id: cal.1965-01-20.transition-and-staff-3
     base: ff2a653a
     set:
-      n: '[[w.johnson-white-house-diary]], 224 (Mrs. Johnson''s account: "at a quarter of 9 was ready to leave with Lyndon and Luci for the Interfaith Prayer Service"). The time is the
-        leaving''s; the page gives no hour for the service. Names: Johnson, Lady Bird Johnson.'
-      time: 1965-01-20T13:45Z
-      time_approx: true
+      n: '[[w.johnson-white-house-diary]], 224 (Mrs. Johnson''s account: "at a quarter of 9 was ready to leave with Lyndon and Luci for the Interfaith Prayer Service"). The range: from the leaving at a quarter of 9 to the end of the morning; the page gives no hour for the service. Names: Johnson, Lady Bird Johnson.'
       time_zone: America/New_York
+      time_range:
+      - 1965-01-20T13:45Z
+      - 1965-01-20T17:00Z
 - edit:
     id: cal.1965-01-21.transition-and-staff-2
     base: 99f0670c
     set:
-      n: '[[w.johnson-white-house-diary]], 231 (Mrs. Johnson''s account: "to join us for dinner"; no hour given). See [[cal.1965-01-21.program]]. Made public: 1970. Names: Humphrey,
-        Thornberry, Johnson, Lady Bird Johnson.'
+      n: '[[w.johnson-white-house-diary]], 231 (Mrs. Johnson''s account: "to join us for dinner"; no hour given). See [[cal.1965-01-21.program]]. Made public: 1970. Names: Humphrey, Thornberry, Johnson, Lady Bird Johnson.'
       place: washington
       time_range:
       - 1965-01-22T00:00Z
@@ -733,8 +675,7 @@ ops:
     kind: correct
     set:
       c: Niujiao 牛角, about 4 a.m. Yang Shangkun 杨尚昆 breaks into a sweat in bed.
-      n: '[[w.yang-shangkun-riji]], II, 501 (Jan. 22, 1965). The words: 11时睡。23号上午4时许在被子里出了一阵汗 (II, 501). The diary prints it under Jan. 22, after "11时睡"; its own words, 23号上午4时许, put
-        the act on Jan. 23 (II, 501). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+      n: '[[w.yang-shangkun-riji]], II, 501 (Jan. 22, 1965). The words: 11时睡。23号上午4时许在被子里出了一阵汗 (II, 501). The diary prints it under Jan. 22, after "11时睡"; its own words, 23号上午4时许, put the act on Jan. 23 (II, 501). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
       src:
         c: 31392d01
         rows:
@@ -745,15 +686,7 @@ ops:
     id: cal.1965-01-23.china-leadership
     base: 3ed4f7b1
     set:
-      n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 23 and 24, 1965 (Jan. 23: 下午，主持召开中共中央政治局常委扩大会议，听取余秋里汇报; Jan. 24: 下午，继续主持). The time is the first day''s. [[w.zhou-enlai-nianpu-1949]],
-        II, 703 (Jan. 23, 1965: the enlarged Standing Committee called on Zhou''s advice to hear Yu Qiuli''s oral report and discuss the revolution in planning); [[w.macfarquhar-origins-of-the-cultural]],
-        III, 426–27 (the officials of the third front''s National Economic Supreme Command to take over the Planning Commission''s role as the "small planning commission," answering
-        to Zhou); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Jan. 23 and 24, 1965; afternoons, 下午; Deng at the enlarged Politburo Standing Committee meetings Mao presides over, which
-        hear Yu Qiuli on some ideas for the long-range plan). Made public: 1997. Check: the day of the decision; the book has Mao decide it "at this point," before Jan. 14, and his comment
-        of Jan. 21 on a report of Li Fuchun''s names the small planning commission (III, 426–27 n.149). To check: [[w.lieberthal-policy-making-in-china]], 189–90 (cited by [[w.macfarquhar-origins-of-the-cultural]],
-        III, 427 n.149a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1205–11 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 427 n.149b); Mao Zedong, comment of Jan. 21,
-        1965, on Li Fuchun''s report, in [[w.zedong-jianguo-yilai-mao-zedong]], 11, 316–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 427 n.149c). Names: Mao Zedong, Yu
-        Qiuli, Gu Mu.'
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Jan. 23 and 24, 1965 (Jan. 23: 下午，主持召开中共中央政治局常委扩大会议，听取余秋里汇报; Jan. 24: 下午，继续主持). The time is the first day''s. [[w.zhou-enlai-nianpu-1949]], II, 703 (Jan. 23, 1965: the enlarged Standing Committee called on Zhou''s advice to hear Yu Qiuli''s oral report and discuss the revolution in planning); [[w.macfarquhar-origins-of-the-cultural]], III, 426–27 (the officials of the third front''s National Economic Supreme Command to take over the Planning Commission''s role as the "small planning commission," answering to Zhou); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Jan. 23 and 24, 1965; afternoons, 下午; Deng at the enlarged Politburo Standing Committee meetings Mao presides over, which hear Yu Qiuli on some ideas for the long-range plan). Made public: 1997. Check: the day of the decision; the book has Mao decide it "at this point," before Jan. 14, and his comment of Jan. 21 on a report of Li Fuchun''s names the small planning commission (III, 426–27 n.149). To check: [[w.lieberthal-policy-making-in-china]], 189–90 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 427 n.149a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1205–11 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 427 n.149b); Mao Zedong, comment of Jan. 21, 1965, on Li Fuchun''s report, in [[w.zedong-jianguo-yilai-mao-zedong]], 11, 316–17 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 427 n.149c). Names: Mao Zedong, Yu Qiuli, Gu Mu.'
       time_range:
       - 1965-01-23T04:00Z
       - 1965-01-23T10:00Z
@@ -763,23 +696,29 @@ ops:
     id: cal.1965-01-25.voting-rights-selma
     base: d7ce64e0
     set:
-      n: '[[w.branch-pillar-of-fire]], 566 ("By Monday morning, January 25, when Martin Luther King led 250 people down Alabama Avenue to the courthouse"; Annie Lee Cooper); [[w.kotz-judgment-days]],
-        263 (some 250; Annie Lee Cooper); [[w.bernstein-guns-or-butter]], 220 (Annie Lee Cooper; the Times''s picture the next morning; Wallace sends Lingo). Check: the record. Check:
-        Branch gives 250 marching, Annie Lee Cooper the woman (566). To check: SAC, Mobile, to Director, Jan. 25, 1965, FDCA-265 (cited by [[w.branch-pillar-of-fire]], 566); *Jet*, Feb.
-        11, 1965, at 6–9 (cited by [[w.branch-pillar-of-fire]], 566). See [[cal.1965-01-02.voting-rights]]. Names: King, Thomas, Clark.'
+      n: '[[w.branch-pillar-of-fire]], 566 ("By Monday morning, January 25, when Martin Luther King led 250 people down Alabama Avenue to the courthouse"; Annie Lee Cooper); [[w.kotz-judgment-days]], 263 (some 250; Annie Lee Cooper); [[w.bernstein-guns-or-butter]], 220 (Annie Lee Cooper; the Times''s picture the next morning; Wallace sends Lingo). Check: the record. Check: Branch gives 250 marching, Annie Lee Cooper the woman (566). To check: SAC, Mobile, to Director, Jan. 25, 1965, FDCA-265 (cited by [[w.branch-pillar-of-fire]], 566); *Jet*, Feb. 11, 1965, at 6–9 (cited by [[w.branch-pillar-of-fire]], 566). See [[cal.1965-01-02.voting-rights]]. Names: King, Thomas, Clark.'
       time_range:
       - 1965-01-25T12:00Z
       - 1965-01-25T18:00Z
       time_band: morning
       time_zone: America/Chicago
+- add-words:
+    id: cal.1965-01-25.voting-rights-selma
+    after: King leads a line to the courthouse.
+    words: Some 250, down Alabama Avenue, the morning.
+    item: '[[w.branch-pillar-of-fire]], 566'
+- add-words:
+    id: cal.1965-01-25.voting-rights-selma
+    after: Clark arrests those beyond, and clubs a woman in the line who struck him.
+    words: The woman, Annie Lee Cooper.
+    item: '[[w.branch-pillar-of-fire]], 566'
 - edit:
     id: cal.1965-01-27.transition-and-staff
     base: 158c0ef2
     kind: correct
     set:
       c: Johnson decides to name the Acting Attorney General, Katzenbach, Attorney General, and Ramsey Clark Deputy Attorney General.
-      n: '[[w.johnson-white-house-diary]], 232 (Mrs. Johnson''s account: "the other decision" of the day: to name Katzenbach Attorney General and Clark Deputy). Made public: 1970. See
-        [[cal.1965-01-28.transition-and-staff]]. Names: Katzenbach, Clark, Johnson, Lady Bird Johnson.'
+      n: '[[w.johnson-white-house-diary]], 232 (Mrs. Johnson''s account: "the other decision" of the day: to name Katzenbach Attorney General and Clark Deputy). Made public: 1970. See [[cal.1965-01-28.transition-and-staff]]. Names: Katzenbach, Clark, Johnson, Lady Bird Johnson.'
 - add:
     entry:
       id: cal.1965-01-27.transition-and-staff-2
@@ -789,10 +728,8 @@ ops:
       thread: transition-and-staff
       follows:
       - cal.1965-01-27.transition-and-staff
-      c: Johnson calls Katzenbach, who comes with his wife a little past 7 to the family quarters; he and Johnson talk of making Washington a law-abiding city.
-      n: '[[w.johnson-white-house-diary]], 232–33 (Mrs. Johnson''s account: Lyndon "called him and asked him to bring his wife and come over for a talk, and they arrived a little past
-        7"; the West Hall; "the imperative need to make Washington a law-abiding city"). Made public: 1970. The order: after [[cal.1965-01-27.transition-and-staff]], the decision to
-        name him, on which the call asked him to come ([[w.johnson-white-house-diary]], 232). See [[cal.1965-01-28.transition-and-staff]]. Names: Katzenbach, Johnson, Lady Bird Johnson.'
+      c: The White House, the family quarters, a little past 7. Katzenbach and his wife, called by Johnson, come for a talk in the West Hall; he and Johnson discuss making Washington a law-abiding city.
+      n: '[[w.johnson-white-house-diary]], 232–33 (Mrs. Johnson''s account: Lyndon "called him and asked him to bring his wife and come over for a talk, and they arrived a little past 7"; the West Hall; "the imperative need to make Washington a law-abiding city"). Made public: 1970. The order: after [[cal.1965-01-27.transition-and-staff]], the decision to name him, on which the call asked him to come ([[w.johnson-white-house-diary]], 232). See [[cal.1965-01-28.transition-and-staff]]. Names: Katzenbach, Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
       - name:johnson-lyndon-b
@@ -800,13 +737,56 @@ ops:
       time: 1965-01-28T00:00Z
       time_approx: true
       time_zone: America/New_York
+- cite:
+    id: cal.1965-01-27.vietnam-2
+    item: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 529 (the memorandum: "can lead only to disastrous defeat"; the two alternatives; Rusk disagrees)'
+- cite:
+    id: cal.1965-01-27.vietnam-2
+    item: '[[w.cosmas-joint-chiefs-of-staff-2012]], 207 (the "short but explosive memorandum" of Jan. 27; "can lead only to disastrous defeat"; the two alternatives)'
+- cite:
+    id: cal.1965-01-27.vietnam-2
+    item: '[[w.bird-color-of-truth]], 304 (Bundy''s draft for the meeting; "our current policy can lead only to disastrous defeat"; the two alternatives; Rusk)'
+- src:
+    id: cal.1965-01-27.vietnam-2
+    rows:
+    - 'via w.kaplan-mcnamara-ascendancy-1961-1965 529 n.138: 1, 2'
+    - 'via w.cosmas-joint-chiefs-of-staff-2012 207 n.16: 1, 2'
+    - 'via w.bird-color-of-truth 304 n.8a: 1, 2'
+- to-check:
+    id: cal.1965-01-27.vietnam-2
+    add: '[[w.goldstein-lessons-in-disaster]]; [[w.kahin-intervention]] (cited by [[w.bird-color-of-truth]], 304 n.8b); [[w.gardner-pay-any-price]] (cited by [[w.bird-color-of-truth]], 304 n.8c)'
+- cite:
+    id: cal.1965-01-27.vietnam-3
+    item: '[[w.moyar-triumph-forsaken]], 352 (Johnson resolves on the 27th: "We will move strongly")'
+- variant:
+    id: cal.1965-01-27.vietnam-3
+    'on': 'Johnson, by Bundy''s notes: "Stable government or no stable government, we''ll do what we have to do.... We will move strongly. Khanh is our boy."'
+    witness: w.moyar-triumph-forsaken
+    reads: '"Stable government or no stable government, we''ll do what we ought to do"'
+    at: '352'
+- add:
+    entry:
+      id: cal.1965-01-27.vietnam-5
+      when: Jan. 27
+      date: '1965-01-27'
+      place: washington
+      time: 1965-01-28T02:46Z
+      time_zone: America/New_York
+      thread: vietnam
+      also:
+      - vietnam-saigon
+      c: 'Johnson to Taylor, 9:46 p.m.: once the dependents are out, the United States "will spare no effort and no sacrifice" to turn back the Communists in Vietnam; McGeorge Bundy to come to Saigon, arriving Feb. 2, if Taylor concurs; Lodge perhaps with him, to talk with the Buddhist leaders; a visit by Taylor to Washington would set off speculation.'
+      n: 'Johnson to Taylor, [FRUS 1964–68, II, doc. 44](https://history.state.gov/historicaldocuments/frus1964-68v02/d44) (Washington, Jan. 27, 1965, 9:46 p.m.; drafted in the White House, approved by McGeorge Bundy). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 529 (rather than have Taylor return to Washington, the President sends Bundy to survey the scene); [[w.moyar-triumph-forsaken]], 352 (Johnson dispatches Bundy to Vietnam). See [[cal.1965-01-27.vietnam-3]]. Names: Johnson, Taylor, McGeorge Bundy, Lodge.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:taylor-maxwell
+      - name:bundy-mcgeorge
+      - name:lodge-henry-cabot
 - edit:
     id: cal.1965-02-04.republican-party-congress
     base: f0523460
     set:
-      n: '[[w.johnson-white-house-diary]], 237 (Mrs. Johnson, who left them and returned: "In the late afternoon Lyndon had a guest—Senator Dirksen"; "Nearly two hours later" she found
-        them in the same postures). The range: late afternoon, four to seven. Made public: 1970. To check: the President''s Daily Diary, Feb. 4, 1965. Names: Dirksen, Eisenhower, Johnson,
-        Lady Bird Johnson.'
+      n: '[[w.johnson-white-house-diary]], 237 (Mrs. Johnson, who left them and returned: "In the late afternoon Lyndon had a guest—Senator Dirksen"; "Nearly two hours later" she found them in the same postures). The range: late afternoon, four to seven. Made public: 1970. To check: the President''s Daily Diary, Feb. 4, 1965. Names: Dirksen, Eisenhower, Johnson, Lady Bird Johnson.'
       time_range:
       - 1965-02-04T21:00Z
       - 1965-02-05T00:00Z
@@ -816,33 +796,19 @@ ops:
     base: 95f8dd40
     kind: correct
     set:
-      n: '"[Record of the Fifth Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin (1)](https://digitalarchive.umd.edu/document/165487)" (Feb. 10, 1965), PRC FMA 109-03957-06,
-        121–135, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou to Kosygin, 3:20 p.m.: at "our mass meeting this morning" Liu Ningyi spoke of the United States letting the
-        South Vietnamese army invade the North for the first time, giving the DRV the right to strike back; not the number or the leaders present). [[w.zhou-enlai-waijiao-huodong]],
-        435 (Feb. 10, 1965; Beijing; the time not given); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (the rally of Feb. 10, Mao and the leaders on Tiananmen; the number, see the variant);
-        [[w.macfarquhar-origins-of-the-cultural]], III, 371 (Mao and his senior colleagues at the anti-American rally of 1,500,000 in Beijing, Feb. 10); [[w.yang-shangkun-riji]], II,
-        508 (Feb. 9, 1965; Tiananmen 天安门, 10 a.m. to before noon: the anti-American demonstration, Yang with Mao and the Standing Committee; Peng Zhen 彭真, Liu Ningyi 刘宁一, Hoàng Bắc 黄北,
-        the DRV embassy''s chargé (the editors'' note), and the South Vietnamese representative speak; Zhou not named; the words: 上午10时，随主席等常委同志，去天安门参加反美示威，12时前结束); [[w.deng-xiaoping-nianpu-1904]],
-        III, 1845 (Feb. 10, 1965; morning, 上午; Deng with Mao, Liu Shaoqi, Zhou Enlai and others at the rally of 1.5 million of the capital''s people in Tiananmen Square against American
-        armed aggression against the DRV); [[w.peng-zhen-nianpu-1902]], IV, 396 (Feb. 10, 1965; Tiananmen Square; Peng Zhen presides at the meeting of 1.5 million supporting the Vietnamese
-        people against U.S. armed aggression, Mao, Liu Shaoqi, Zhou Enlai, Deng Xiaoping and others there, and speaks: China cannot ignore the U.S. bombing and strafing of the DRV''s
-        towns and villages; the whole people to strengthen preparations on every front to support Vietnam and beat back U.S. war provocations); [[w.chen-yi-nianpu]], 1084 (Feb. 10, 1965,
-        morning, Tiananmen Square; Chen Yi with Mao, Liu Shaoqi and the other leaders). The day: Feb. 10. Zhou, talking with Kosygin on Feb. 10, speaks of "our mass meeting this morning"
-        and "yesterday, on the 9th" (Wilson Center, doc. 165487, the fifth contact); the demonstration Yang puts on Feb. 9 (II, 508) is a variant. Names: Zhou Enlai, Mao Zedong, Liu
-        Shaoqi, Deng Xiaoping.'
+      n: '"[Record of the Fifth Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin (1)](https://digitalarchive.umd.edu/document/165487)" (Feb. 10, 1965), PRC FMA 109-03957-06, 121–135, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou to Kosygin, 3:20 p.m.: at "our mass meeting this morning" Liu Ningyi spoke of the United States letting the South Vietnamese army invade the North for the first time, giving the DRV the right to strike back; not the number or the leaders present). [[w.zhou-enlai-waijiao-huodong]], 435 (Feb. 10, 1965; Beijing; the time not given); [[w.lengxi-shinian-lunzhan-1956-1966]], 913 (the rally of Feb. 10, Mao and the leaders on Tiananmen; the number, see the variant); [[w.macfarquhar-origins-of-the-cultural]], III, 371 (Mao and his senior colleagues at the anti-American rally of 1,500,000 in Beijing, Feb. 10); [[w.yang-shangkun-riji]], II, 508 (Feb. 9, 1965; Tiananmen 天安门, 10 a.m. to before noon: the anti-American demonstration, Yang with Mao and the Standing Committee; Peng Zhen 彭真, Liu Ningyi 刘宁一, Hoàng Bắc 黄北, the DRV embassy''s chargé (the editors'' note), and the South Vietnamese representative speak; Zhou not named; the words: 上午10时，随主席等常委同志，去天安门参加反美示威，12时前结束); [[w.deng-xiaoping-nianpu-1904]], III, 1845 (Feb. 10, 1965; morning, 上午; Deng with Mao, Liu Shaoqi, Zhou Enlai and others at the rally of 1.5 million of the capital''s people in Tiananmen Square against American armed aggression against the DRV); [[w.peng-zhen-nianpu-1902]], IV, 396 (Feb. 10, 1965; Tiananmen Square; Peng Zhen presides at the meeting of 1.5 million supporting the Vietnamese people against U.S. armed aggression, Mao, Liu Shaoqi, Zhou Enlai, Deng Xiaoping and others there, and speaks: China cannot ignore the U.S. bombing and strafing of the DRV''s towns and villages; the whole people to strengthen preparations on every front to support Vietnam and beat back U.S. war provocations); [[w.chen-yi-nianpu]], 1084 (Feb. 10, 1965, morning, Tiananmen Square; Chen Yi with Mao, Liu Shaoqi and the other leaders). The day: Feb. 10. Zhou, talking with Kosygin on Feb. 10, speaks of "our mass meeting this morning" and "yesterday, on the 9th" (Wilson Center, doc. 165487, the fifth contact); the demonstration Yang puts on Feb. 9 (II, 508) is a variant; the same day''s entry in Yang has Kosygin back from Vietnam "today," which the record (3:20 p.m., "Arriving from Vietnam"), the Waijiao (435) and the Chen Yi nianpu (1084) put on Feb. 10. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
 - primary:
     id: cal.1965-02-19.vietnam-2
-    text: Bundy's memorandum for the meeting, [FRUS 1964–68, II, doc. 143](https://history.state.gov/historicaldocuments/frus1964-68v02/d143) ("Your meeting with Couve de Murville at
-      11:30 this morning")
+    text: 'Bundy''s memorandum for the meeting, [FRUS 1964–68, II, doc. 143](https://history.state.gov/historicaldocuments/frus1964-68v02/d143) ("Your meeting with Couve de Murville at 11:30 this morning"); Remarks at the Swearing In of John A. Gronouski as Postmaster General, [1965 Pub. Papers 209](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=285) (Feb. 19, 1965) (the note: the President spoke at 12:45 p.m.; Couve "had met with the President just prior to the swearing-in ceremony")'
     'on': time
 - edit:
     id: cal.1965-02-19.vietnam-2
     base: 872e3be3
     set:
-      time: 1965-02-19T16:30Z
-      time_approx: true
       time_zone: America/New_York
+      time_range:
+      - 1965-02-19T16:30Z
+      - 1965-02-19T17:45Z
     unset:
-    - time_range
     - time_band
     - range_basis
