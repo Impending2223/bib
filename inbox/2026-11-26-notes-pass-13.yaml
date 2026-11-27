@@ -42,6 +42,40 @@ ops:
       time_band: evening
       time_zone: America/New_York
       range_basis: record
+- edit:
+    id: cal.1964-07-31.robert-kennedy
+    base: 24995c5e
+    set:
+      c: 'Lunch in the Mansion, four hours, with three reporters, of the *New York Times*, the *Herald Tribune* and the *Washington Post*: Johnson acts out his meeting with Robert Kennedy of July 29.{1}'
+      n: '[[w.dallek-flawed-giant]], 142; [[w.young-two-suns-of-the]], 127 (the reporters; Kennedy''s anger; Johnson''s denial); [[w.schlesinger-robert-kennedy-and-his]], 662 (the three reporters; the mimicry; Kennedy''s protest and Johnson''s denial, by Kennedy''s memorandum); [[w.shesol-mutual-contempt]], 209–10 (Wicker, Kiker and Folliard; Johnson''s mimicry; Folliard''s account); [[w.bernstein-guns-or-butter]], 135–36 (three correspondents, four hours; Kennedy''s Adam''s apple "going up and down like a Yo-Yo"); [[w.bernstein-guns-or-butter]], 136 (Kennedy to Johnson by telephone; Johnson to check his "schedule"; Kennedy''s friends release his version); [[w.clifford-counsel-to-the-president-2]], 397 (Johnson tells three correspondents of the meeting, off the record, and mimics Kennedy''s "gulp"; Kennedy, told within hours, protests by telephone and calls him a liar; Johnson says he had told no one; not the Mansion, the four hours, the papers or a later meeting). Check: Bernstein, 135, dates the luncheon July 30. Check: Clifford, 397, has Johnson tell the correspondents "the next afternoon" after the meeting of July 29, July 30, and Kennedy protest by telephone. To check: Robert Kennedy, memorandum dictated Aug. 4–6, 1964, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 662 n.84). See [[cal.1964-07-29.robert-kennedy]]. Names: Johnson, Robert Kennedy. Kennedy''s charge of a breach of confidence, days later, is an entry of its own.'
+      src:
+        c: 8d7eba67
+        rows:
+        - 'w.dallek-flawed-giant 142: 1'
+        - 'w.young-two-suns-of-the 127: 1'
+        - 'w.schlesinger-robert-kennedy-and-his 662: 1'
+        - 'via w.schlesinger-robert-kennedy-and-his 662 n.84: ?'
+        - 'w.shesol-mutual-contempt 209–10: 1'
+        - 'w.bernstein-guns-or-butter 135–36: 1'
+        - 'w.bernstein-guns-or-butter 136: ?'
+        - 'w.clifford-counsel-to-the-president-2 397: ?'
+    kind: correct
+- edit:
+    id: cal.1964-07.civil-rights-bill
+    base: f2882d28
+    set:
+      c: 'After the signing, Russell: "As long as it is there, it must be obeyed."{1}'
+      n: '[[w.branch-pillar-of-fire]], 388; [[w.risen-bill-of-the-century]], 246 & n.20 (Russell: "it becomes our duty as good citizens to learn to live with it as long as it is there"; Ellender: "the laws enacted by the Congress must be respected"; Talmadge and Fulbright likewise; by n.20, Ellender''s radio address recorded July 4, Fulbright''s release of July 8; not Russell''s words in the entry). Check: the days. To check: [[w.stern-calculating-visions]], 185 (cited by [[w.branch-pillar-of-fire]], 388); *Congressional Quarterly Weekly Report*, July 10, 1964, 1454; *Reporter*, Aug. 13, 1964, 44; Fulbright, press release, July 8, 1964; Ellender, radio address recorded July 4, 1964, box 110, part 1, Leadership Conference on Civil Rights Records, Library of Congress (cited by [[w.risen-bill-of-the-century]], 246 nn.19–20). See [[cal.1964-07-02.civil-rights-bill]]. Names: Russell. Ellender''s words are his radio address recorded July 4 (Risen, 246 n.20), entered on that day.'
+      src:
+        c: 65841cd6
+        rows:
+        - 'w.branch-pillar-of-fire 388: 1'
+        - 'w.risen-bill-of-the-century 246 & n.20: ?'
+    kind: correct
+- tag:
+    id: cal.1964-07.civil-rights-bill
+    remove:
+    - name:ellender-allen-j
 - add-words:
     id: cal.1964-03-16.poverty
     after: end
@@ -856,3 +890,13 @@ ops:
       - name:rowe-james-h-jr
       follows:
       - cal.1964-08-25.elections-1964-3
+- add:
+    entry:
+      id: cal.1964-07-04.civil-rights-bill-2
+      when: July 4
+      date: '1964-07-04'
+      thread: civil-rights-bill
+      c: 'Ellender, in a radio address recorded for his constituents: he cannot agree with those who advocate "flagrant and perhaps violent opposition" to any statute; until it is changed, repealed or declared unconstitutional, "the laws enacted by the Congress must be respected."'
+      n: '[[w.risen-bill-of-the-century]], 246, 246 n.20 (recorded July 4). To check: [[w.branch-pillar-of-fire]], 388; Ellender, text of radio address recorded July 4, 1964, box 110, part 1, Leadership Conference on Civil Rights Records, Library of Congress (cited by [[w.risen-bill-of-the-century]], 246 n.20). See [[cal.1964-07-02.civil-rights-bill]]. Names: Ellender.'
+      tags:
+      - name:ellender-allen-j

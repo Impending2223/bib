@@ -1,6 +1,22 @@
 patch: notes-pass-10
 by: 'Claude (reader; the notes pass, batch 10: R33a, building on the entry from its cites); audited by Claude (Opus), Nov. 27, 2026 (notes/notes-pass/audit-10.md)'
 ops:
+- edit:
+    id: cal.1961-03-13.latin-america
+    base: 6c2b104f
+    set:
+      time: 1961-03-13T23:00Z
+      time_zone: America/New_York
+- edit:
+    id: cal.1960-06-04.china-leadership-3
+    base: 0ddc0f20
+    set:
+      time_range:
+      - 1960-06-04T04:00Z
+      - 1960-06-04T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
 - add-words:
     id: cal.1960-02-04.cuba
     after: end
@@ -259,22 +275,6 @@ ops:
     - name:liu-shaoqi
     - name:zhu-de
     - name:peng-zhen
-- edit:
-    id: cal.1961-03-13.latin-america
-    base: 6c2b104f
-    set:
-      time: 1961-03-13T23:00Z
-      time_zone: America/New_York
-- edit:
-    id: cal.1960-06-04.china-leadership-3
-    base: 0ddc0f20
-    set:
-      time_range:
-      - 1960-06-04T04:00Z
-      - 1960-06-04T10:00Z
-      time_band: afternoon
-      time_zone: Asia/Shanghai
-      range_basis: record
 - add:
     entry:
       id: cal.1960-10-18.cuba-3
