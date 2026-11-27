@@ -145,7 +145,8 @@ ops:
     base: 8654bb85
     set:
       c: Clay named the President's personal representative in Berlin.{1}
-      n: '[1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630), at 573. [[w.reeves-president-kennedy]], 223; [[w.shesol-mutual-contempt]], 74 (Clay''s condition: never to work with Robert Kennedy); [[w.sorensen-kennedy]], 594–95 (Clay''s return as the President''s emissary); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 159 (Clay effective Sept. 15; Lemnitzer and McNamara had recommended him as chief of mission). Split under R17: the Soviet announcement (a TASS broadcast, 7 p.m. EDT) came after the conference and is [[cal.1961-08-30.testing-2]]; the conference''s fifteenth question asks of "the Soviet reaction to our latest proposals" (572–80) and shows no announcement known. See [[cal.1961-08-19.berlin-and-vienna]]. Names: Clay.'
+      n: '[1961 Pub. Papers 572](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=630), at 573. [[w.reeves-president-kennedy]], 223; [[w.shesol-mutual-contempt]], 74 (Clay''s condition: never to work with Robert Kennedy); [[w.sorensen-kennedy]], 594–95 (Clay''s return as the President''s emissary); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 159 (Clay effective Sept. 15; Lemnitzer and McNamara had recommended him as chief of mission). For the Soviet announcement, [[cal.1961-08-30.testing-2]]: [[w.fursenko-khrushchevs-cold-war]], 385 (the end of the moratorium announced; the tests at Semipalatinsk two days later); [[w.macfarquhar-origins-of-the-cultural]], III, 122 (the Soviet announcement of Aug. 30). Split under R17: the Soviet announcement (a TASS broadcast, 7 p.m. EDT) came after the conference and is [[cal.1961-08-30.testing-2]]; the conference''s fifteenth question asks of "the Soviet reaction to our latest proposals" (572–80) and shows no announcement
+        known. See [[cal.1961-08-19.berlin-and-vienna]]. Names: Clay.'
       src:
         c: a2c3f1d2
         rows:
@@ -171,15 +172,6 @@ ops:
         III, 122 n.14a); [[w.documents-on-international-affairs]], 339–74, 455–65 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 122 n.14b); [[w.survey-of-international-affairs]], 246–63 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 122 n.14c). Split from [[cal.1961-08-30.berlin-and-vienna]] under R17: the broadcast, at 7 p.m., came after the news conference of 4:10 p.m. See [[cal.1961-08-30.berlin-and-vienna]]; [[cal.1961-08-30.testing]]; [[cal.1961-09-01.testing]]. Names: Khrushchev.'
       tags:
       - polity:ussr
-- follows:
-    id: cal.1961-08-30.testing
-    add:
-    - cal.1961-08-30.testing-2
-- follows:
-    id: cal.1961-08-30.testing
-    remove:
-    - cal.1961-08-30.berlin-and-vienna
-    why: the statement answers the Soviet announcement, which is now its own entry ([[cal.1961-08-30.testing-2]]), not the conference's Clay entry; the Public Papers (580) and FRUS VII, doc. 58 give the statement 'that night' after the 7 p.m. broadcast
 - edit:
     id: cal.1961-08-30.testing
     base: bd85a66b
@@ -190,6 +182,15 @@ ops:
       time_zone: America/New_York
     unset:
     - time_range
+- follows:
+    id: cal.1961-08-30.testing
+    add:
+    - cal.1961-08-30.testing-2
+- follows:
+    id: cal.1961-08-30.testing
+    remove:
+    - cal.1961-08-30.berlin-and-vienna
+    why: the statement answers the Soviet announcement, which is now its own entry ([[cal.1961-08-30.testing-2]]), not the conference's Clay entry; the Public Papers (580) and FRUS VII, doc. 58 give the statement 'that night' after the 7 p.m. broadcast
 - add:
     entry:
       id: cal.1961-08-13.china-foreign
@@ -306,6 +307,8 @@ ops:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=120: all'
         - 'w.sorensen-kennedy 481: all'
     kind: correct
+    settles:
+    - 'Check: the news conference (1962 Pub. Papers 60, at 60–63) has Kennedy on Weaver only'
 - tag:
     id: cal.1962-01-24.program
     remove:
@@ -357,7 +360,7 @@ ops:
     base: cd6acb9f
     set:
       c: Zhou Enlai flies from Guangzhou to Peking.{1}
-      n: '[[w.zhou-enlai-nianpu-1949]], II, 462 (Mar. 3, 1962; 由广州乘飞机返回北京). Split under R17: the afternoon meeting in the Xilou is [[cal.1962-03-03.china-leadership-4]], which Yang''s diary (II, 130) gives, with Zhou''s report on the Guangzhou staffing conference; the evening with Liu Shaoqi is [[cal.1962-03-03.china-zhou]]. Made public: 1997. Names: Zhou Enlai.'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 462 (Mar. 3, 1962; 由广州乘飞机返回北京). Split under R17: the afternoon meeting in the Xilou is [[cal.1962-03-03.china-leadership-4]]; the evening with Liu Shaoqi is [[cal.1962-03-03.china-zhou]]. For the Xilou meeting, [[cal.1962-03-03.china-leadership-4]]: [[w.yang-shangkun-riji]], II, 130 (Mar. 3, 1962; the Xilou, 3:30 to 6:30 p.m., Liu Shaoqi presiding; Zhou Enlai on the Guangzhou Military Region''s staffing conference). Made public: 1997. Names: Zhou Enlai.'
       src:
         c: d7843563
         rows:
@@ -531,6 +534,7 @@ ops:
       n: 'Special Message to the Congress on Protecting the Consumer Interest, [1962 Pub. Papers 235](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=295) (Mar. 15, 1962; the note: earlier in the morning, in the Fish Room at the White House, the President read a brief summary of the message for the video-tape and newsreel cameras). Split from [[cal.1962-03-15.program]] under R17. See [[cal.1962-03-15.program]].'
       tags:
       - name:kennedy-john-f
+      - ok:fields-time
 - edit:
     id: cal.1962-03-16.china-leadership
     base: 4b0e6c3d
@@ -583,7 +587,8 @@ ops:
     base: a1690eec
     set:
       c: Zhou Enlai back in Peking from Wuhan.{1}
-      n: '[[w.zhou-enlai-nianpu-1949]], II, 464 (Mar. 18, 1962); [[w.yang-shangkun-riji]], II, 134 (Mar. 18, 1962; Liu Shaoqi, Deng Xiaoping and Zhou Enlai fly back from Hankou at noon). The words: 中午刘、邓、周由汉口飞回 (II, 134); [[w.deng-xiaoping-nianpu-1904]], III, 1696 (Mar. 18, 1962; Deng, Liu and Zhou back in Peking). Split under R25b: the Center''s instruction forwarding the speeches is [[cal.1962-03-18.china-retreat-1962]]. The time is the flight''s, at noon. Made public: 1997. Names: Zhou Enlai.'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 464 (Mar. 18, 1962); [[w.yang-shangkun-riji]], II, 134 (Mar. 18, 1962; Liu Shaoqi, Deng Xiaoping and Zhou Enlai fly back from Hankou at noon). The words: 中午刘、邓、周由汉口飞回 (II, 134); [[w.deng-xiaoping-nianpu-1904]], III, 1696 (Mar. 18, 1962; Deng, Liu and Zhou back in Peking). Split under R25b: the Center''s instruction forwarding the speeches is [[cal.1962-03-18.china-retreat-1962]]. For the instruction, [[cal.1962-03-18.china-retreat-1962]]: [[w.macfarquhar-origins-of-the-cultural]], III, 193 (Chen Yun''s speech ordered distributed to cadres, Mar. 18); [[w.mao-zedong-zhuan]], V, ch. 69 n.28 (Mar. 18: the Center issues the instruction forwarding Chen Yun''s speeches: the next ten years in two stages, the first recovery with some development, the second development with some recovery; Chen Yun, Li Fuchun and Li Xiannian to convey it to the Party groups of the ministries). [[w.peng-zhen-nianpu-1902]], IV, 179 (Mar. 18, 1962; the papers issued after Liu,
+        Zhou and Deng reported to Mao at Wuhan on the 16th; Mao agrees that the three speeches go to the province and army level and that Chen Yun head the group); [[w.chen-yun-nianpu-xiuding]], III, 131 (the Center''s directive forwarding the speeches of Chen Yun and others 《关于批发陈云等同志讲话的指示》: the next ten years in two stages, adjustment (chiefly recovery, some growth), then growth; that the first is chiefly recovery not to be said outside, in or out of the Party, but called the adjustment stage. The provinces ask to relay the speeches more widely; Chen Yun''s above all help all see the whole and face the difficulties).. The time is the flight''s, at noon. Made public: 1997. Names: Zhou Enlai.'
       time_range:
       - 1962-03-18T04:00Z
       - 1962-03-18T06:00Z
@@ -635,10 +640,6 @@ ops:
         - 'w.mao-zedong-zhuan V, ch. 69 n.20: 3, date'
         - 'w.yang-jisheng-mubei II, 1116: 3, date'
         - 'w.yang-jisheng-tiandi-fanfu I, 69: 3, date'
-- cite:
-    id: cal.1962-03-21.china-leadership
-    item: '[[w.yang-shangkun-riji]], II, 135 (Mar. 21, 1962; the Supreme State Conference in the Qinzheng Hall, 3:30 to 6:30 p.m. (下午3时半到6时半), Liu Shaoqi presiding, over 160 present; the sitting''s hours, Zhou''s speech not named)'
-    'on': time
 - edit:
     id: cal.1962-03-21.china-leadership
     base: b7d47f0c
@@ -647,6 +648,10 @@ ops:
       - 1962-03-21T07:30Z
       - 1962-03-21T10:30Z
       time_zone: Asia/Shanghai
+- cite:
+    id: cal.1962-03-21.china-leadership
+    item: '[[w.yang-shangkun-riji]], II, 135 (Mar. 21, 1962; the Supreme State Conference in the Qinzheng Hall, 3:30 to 6:30 p.m. (下午3时半到6时半), Liu Shaoqi presiding, over 160 present; the sitting''s hours, Zhou''s speech not named)'
+    'on': time
 - edit:
     id: cal.1962-03-28.china-leadership
     base: fc882066

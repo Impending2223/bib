@@ -1,0 +1,324 @@
+patch: 2026-11-27-lo-d09
+by: Claude (Sonnet), leftovers batch lo-d09, Nov. 27, 2026
+ops:
+- edit:
+    id: cal.1962-07-02.defense
+    base: b4ec6f13
+    set:
+      c: 'Hershey, Pa., the Governors'' Conference, at the President''s urging. McNamara on the reserve reorganization: "far from diminishing the role of the reservist, it
+        will give him a new and even more important part"; an hour and a half with the governors'' National Guard committee.'
+      n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 112. Split under R17: the governors'' vote of July 3 is [[cal.1962-07-03.defense]]. Names: McNamara.'
+    kind: correct
+- add:
+    entry:
+      id: cal.1962-07-03.defense
+      when: July 3
+      date: '1962-07-03'
+      place: hershey
+      thread: defense
+      also:
+      - governors
+      c: 'Hershey, Pa., the Governors'' Conference. By voice vote, no dissent, the governors adopt a resolution against the reserve reorganization plan: the National Guard
+        to keep 400,000; McNamara to restudy it; no action in any State until the Guard''s advisory committee has gone over the details.'
+      n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 112 ("The next day, by voice vote without dissent"). To check: the resolution, 108 Cong. Rec. A5968 (Aug. 3, 1962) (cited
+        by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 112 n.64). Split under R17: McNamara''s address of July 2 is [[cal.1962-07-02.defense]]. See [[cal.1962-07-02.defense]].
+        Names: McNamara.'
+      tags:
+      - name:mcnamara-robert-s
+- edit:
+    id: cal.1962-07-14.georgia-albany
+    base: 9f9b4a5f
+    set:
+      c: 'Mayor Kelley: the Justice Department "collaborating and conspiring with the leaders of the Albany Movement ... to violate existing ordinances of the City of Albany."{1}
+        The *Herald*: "City Will Not Back Down on Negro Issue."{4}'
+      n: '[[w.branch-parting-the-waters]], 607 (Kelley''s words; the *Herald*''s headline). To check: *Albany Herald*, July 14 at 1 and July 15, 1962, at 1; [*New York Times*,
+        July 15, 1962](https://timesmachine.nytimes.com/timesmachine/1962/07/15/issue.html), at 28 (cited by [[w.branch-parting-the-waters]], 607 nn.2, 4). Check: the day of
+        Kelley''s statement: Branch cites the papers of July 15 for it (607). Split under R17: the Department''s denial is [[cal.1962-07-15.georgia-albany]]. See [[cal.1962-07-12.georgia-albany]].'
+      src:
+        c: 5874a875
+        rows:
+        - 'w.branch-parting-the-waters 607: 1, 4'
+        - 'via w.branch-parting-the-waters 607 n.3a: 1'
+        - 'via w.branch-parting-the-waters 607 n.3b: 1'
+      tags:
+      - state:ga
+      - city:albany-ga
+    kind: correct
+    settles:
+    - 'Check: the day of Kelley''s statement.'
+- add:
+    entry:
+      id: cal.1962-07-15.georgia-albany
+      when: By July 15
+      date: '1962-07-15'
+      thread: georgia-albany
+      also:
+      - civil-rights-the-executive
+      c: The Justice Department denies Mayor Kelley's charge of collaborating with the Albany Movement. Katzenbach writes Kelley.
+      n: '[[w.branch-parting-the-waters]], 607 ("a flurry of denials from the Justice Department"; Katzenbach to Kelley, July 14, 1962, Albany city records, is cited at that
+        page for the Justice Department''s exchanges, 607 n.; Branch gives no day for the denials). To check: Katzenbach to Kelley, July 14, 1962, Albany city records (cited
+        by [[w.branch-parting-the-waters]], 607). Check: the day and the form of the denial: whether Katzenbach''s letter of July 14 is it. Split under R17: Kelley''s charge
+        is [[cal.1962-07-14.georgia-albany]]. See [[cal.1962-07-14.georgia-albany]]. Names: Katzenbach.'
+      tags:
+      - name:katzenbach-nicholas
+      - state:ga
+      - city:albany-ga
+- edit:
+    id: cal.1962-07-18.china-leadership
+    base: 05225d9c
+    set:
+      c: 'Afternoon.{1} Mao to Yang Shangkun: whether to take the collective road or the individual one; and his dissatisfaction with the State Planning Commission and the
+        Ministry of Commerce; "against dispersionism" again.{2} Yang''s diary that day: "I think the situation grave!! deeply uneasy."{3}'
+      n: '[[w.zedong-mao-zedong-nianpu]], V, July 18, 1962; [[w.yang-shangkun-riji]], II, 195–196 (July 18, 1962; at the swimming pool, to 6:30 p.m.; at 9 p.m. Yang tells Zhou
+        Enlai Mao''s points); [[w.mao-zedong-zhuan]], V, ch. 70 nn.29, 30 (July 18, afternoon, at the pool: Mao to Yang Shangkun: the collective road or the individual one,
+        and against dispersionism, the Planning Commission and the Ministry of Commerce; Yang''s diary: "the situation grave" (II, 196)). [[w.jian-zhou-enlai]], 468 (July 18:
+        Mao to Yang Shangkun on collective or private farming; unhappy with the Planning Commission and the Commerce Ministry under Zhou); [[w.chen-yun-nianpu-xiuding]], III,
+        136 (Mao to Yang Shangkun: the collective road or the individual economy? Yang''s diary: "I feel the matter is very grave!! Most uneasy!"). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]]
+        (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 70). Check: the year made public: the diary''s day ([[w.yang-shangkun-riji]], II, 195–196)
+        stands, by the 2017 edition''s front matter, in its first edition, [[w.shangkun-yang-shangkun-riji-2]] (2001), not seen. Split under R17: the evening, when Yang sends
+        for Zhou Enlai to tell him Mao''s points, is [[cal.1962-07-18.china-leadership-6]] (Yang, II, 195: after supper he rests until 9, then asks Zhou to come; [[w.jian-zhou-enlai]],
+        468: at 9:00 p.m. that evening Yang relays "the chairman''s points"). Names: Mao Zedong, Zhou Enlai, Yang Shangkun.'
+    kind: correct
+- edit:
+    id: cal.1962-07-19.china-leadership
+    base: ceac8b54
+    set:
+      time_range:
+      - 1962-07-19T08:00Z
+      - 1962-07-19T10:00Z
+      time_zone: Asia/Shanghai
+      range_basis: record
+- cite:
+    id: cal.1962-07-19.china-leadership
+    item: '[[w.yang-shangkun-riji]], II, 196 (July 19, 1962; 下午3时听了无锡工作组的汇报，约1小时，主席处电话告去游泳池开会 ... 6时结束会议: the Wuxi team heard from 3 p.m. for about an hour, then the call to
+      the pool; the meeting ended at 6 p.m.; the start, about 4 p.m., is inferred)'
+    'on': time
+- edit:
+    id: cal.1962-07-18.middle-east
+    base: ba6f1104
+    set:
+      c: Iran. The Shah accepts Amini's resignation and his Cabinet's and names Alam Prime Minister. The Embassy attributes Amini's fall to his failure to bring the operating
+        budget's deficit down to manageable size; the deficit is at least $110–120 million.
+      n: 'FRUS 1961–63, XVIII, doc. [8](https://history.state.gov/historicaldocuments/frus1961-63v18/d8) and n.1 (July 19; "On July 18, the Shah of Iran accepted the resignation
+        of Amini and his Cabinet and appointed Asadollah Alam"; Embassy Tehran telegram 78, July 18; the deficit). The resignation and the naming are one act in the record.
+        Split under R17: State''s statement on aid is [[cal.1962-07-18.middle-east-2]]; Komer''s memorandum of July 18 is [[cal.1962-07-18.middle-east-3]]; Komer to Bundy of
+        July 19 is [[cal.1962-07-19.middle-east]]. See [[cal.1961-05-04.middle-east]]. Names: Amini, Alam, Pahlavi.'
+      tags:
+      - name:amini-ali
+      - name:alam-assadollah
+      - name:pahlavi-mohammed-reza
+    kind: correct
+- add:
+    entry:
+      id: cal.1962-07-18.middle-east-2
+      when: July 18
+      date: '1962-07-18'
+      place: washington
+      thread: middle-east
+      c: 'State''s press statement, after reports that Amini blames the lack of US support for his fall: the United States gave $67.3 million in grants and loans under Amini
+        and committed $20 million more for a development loan.'
+      n: 'FRUS 1961–63, XVIII, doc. [8](https://history.state.gov/historicaldocuments/frus1961-63v18/d8) n.1 (Department of State telegram 50 to Tehran, July 18, which records
+        the statement). Split under R17: the resignation is [[cal.1962-07-18.middle-east]]. See [[cal.1962-07-18.middle-east]]. Names: Amini. Check: the hour of the statement.'
+      tags:
+      - name:amini-ali
+- add:
+    entry:
+      id: cal.1962-07-18.middle-east-3
+      when: July 18
+      date: '1962-07-18'
+      place: washington
+      thread: middle-east
+      c: 'Komer to Kennedy: base policy on saving Amini, the only good Prime Minister Iran has had in years; Amini''s charges of too little US aid are wild; tell the Iranians
+        to cover the budget gap with oil revenues and deficit financing, no new money until the budget is pared. The Shah''s refusal to back cuts in the military and civil
+        budgets is the real cause. Sent to Bundy with a note: $87.3 million given or pledged to Amini, against a four-year average of $59.4 million.'
+      n: 'FRUS 1961–63, XVIII, doc. [5](https://history.state.gov/historicaldocuments/frus1961-63v18/d5) (July 18, 1962; "No indication has been found that the memorandum was
+        forwarded to President Kennedy"). See [[cal.1962-07-18.middle-east]]. Names: Komer, Amini, Pahlavi, Bundy, Kennedy.'
+      tags:
+      - name:komer-robert-w
+      - name:amini-ali
+      - name:pahlavi-mohammed-reza
+      - name:bundy-mcgeorge
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1962-07-19.middle-east
+      when: July 19
+      date: '1962-07-19'
+      place: washington
+      thread: middle-east
+      c: 'Komer to Bundy: "We have lost Amini," at least temporarily. The Alam cabinet, tantamount to direct rule by the Shah, will be even less able to cut the deficit of
+        at least $110–120 million. Holmes and State: let the Iranians come to us first. Komer and Gaud: tell them again to cover the gap themselves; the Shah to cut the military
+        budget back to last year''s level. Komer asks whether Kennedy will say so.'
+      n: 'FRUS 1961–63, XVIII, doc. [8](https://history.state.gov/historicaldocuments/frus1961-63v18/d8) (July 19, 1962). Split under R17: the resignation is [[cal.1962-07-18.middle-east]].
+        See [[cal.1962-07-18.middle-east]]. Names: Komer, Bundy, Amini, Alam, Pahlavi, Kennedy, Holmes, Gaud.'
+      tags:
+      - name:komer-robert-w
+      - name:bundy-mcgeorge
+      - name:amini-ali
+      - name:alam-assadollah
+      - name:pahlavi-mohammed-reza
+      - name:kennedy-john-f
+- edit:
+    id: cal.1962-07-20.economy
+    base: d72baf4d
+    set:
+      c: Giscard d'Estaing with Kennedy, 10 a.m.; no record of the conversation found. Giscard says afterward that he told the President the French gold purchase was to raise
+        the gold ratio of France's reserves from 65 to 70 percent and that Kennedy understood it as a contribution to stabilizing the US balance of payments.{1}
+      n: 'FRUS 1961–63, XIII, doc. [258](https://history.state.gov/historicaldocuments/frus1961-63v13/d258) n.1 (Giscard "talked with the President at 10 a.m." by the President''s
+        Appointment Book, Kennedy Library; "no other record of the conversation has been found") and text (Giscard to Ball that evening, of "their talk this morning"). [[w.gavin-gold-dollars-and-power]],
+        78–80 (not reread). To check: Ball to Kennedy, "Visit of French Finance Minister," July 18, 1962, National Security Files, Kennedy Library; memorandum of conversation
+        (luncheon), July 21, 1962 (cited by [[w.gavin-gold-dollars-and-power]], 78 n.70, 79 n.71). Split under R17: Giscard''s meeting with Ball at State, 6 p.m., is [[cal.1962-07-20.economy-3]].
+        Names: Giscard d''Estaing, Kennedy.'
+      time_zone: America/New_York
+      src:
+        c: f5c194ed
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v13/d258: 1'
+        - 'w.gavin-gold-dollars-and-power 78–80: 1'
+        - 'via w.gavin-gold-dollars-and-power 78 n.70: 1'
+        - 'via w.gavin-gold-dollars-and-power 79 n.71b: 1'
+      tags:
+      - name:giscard-destaing-valery
+      - name:kennedy-john-f
+    kind: correct
+- add:
+    entry:
+      id: cal.1962-07-20.economy-3
+      when: July 20
+      date: '1962-07-20'
+      time_range:
+      - 1962-07-20T22:00Z
+      - 1962-07-20T22:50Z
+      time_zone: America/New_York
+      range_basis: record
+      place: washington
+      thread: economy
+      also:
+      - europe-and-the-alliance-france
+      follows:
+      - cal.1962-07-20.economy
+      c: 'Giscard d''Estaing with Acting Secretary Ball at State, 6 to 6:50 p.m. Giscard: no unilateral change in the dollar''s parity; a secret approach among the United States,
+        Britain, France, Germany and Italy under cover of the OECD, the creditors to abstain from buying gold and to hold their dollars for a time. Ball: minimum gold reserves,
+        and a ratio of gold to dollars above them.'
+      n: 'FRUS 1961–63, XIII, doc. [258](https://history.state.gov/historicaldocuments/frus1961-63v13/d258) (memorandum of conversation, Washington, July 20, 1962, 6–6:50 p.m.).
+        [[w.gavin-gold-dollars-and-power]], 78–80 (not reread). Split under R25b: Giscard''s talk with Kennedy at 10 a.m. is [[cal.1962-07-20.economy]]. See [[cal.1962-07-20.economy]].
+        Names: Giscard d''Estaing, Ball.'
+      tags:
+      - name:giscard-destaing-valery
+      - name:ball-george-w
+- variant:
+    id: cal.1962-07-20.albany
+    field: date
+    value: '1962-07-21'
+    witness: w.garrow-bearing-the-cross
+    reads: '"Early Saturday morning, Judge Elliott issued a temporary restraining order" (Saturday was July 21), hearing set for July 30'
+    at: '206'
+- variant:
+    id: cal.1962-07-20.albany
+    field: date
+    value: '1962-07-21'
+    witness: w.branch-parting-the-waters
+    reads: the marshals serve the order the morning of the Saturday set for the march (July 21)
+    at: '609'
+- check:
+    id: cal.1962-07-20.albany
+    text: 'Check: Young, 179, has the injunction "granted on July 20" by Elliott; Garrow, 206, early Saturday, July 21; Branch, 609, served that Saturday morning. The order''s
+      own date and hour are in the court record (the city''s petition, *City of Albany v. Anderson*, M.D. Ga., July 1962), not reached.'
+- check:
+    id: cal.1962-07-21.china-2
+    text: 'Check: what Weekend Reading (2) holds. Chang, 252 n.48, lists it, with the 1961 items, behind his sentence that in 1962 Kennedy received reports that the Chinese
+      thought the United States not necessarily wedded to hostility (252); he does not say which item holds which report, or that this one does.'
+- check:
+    id: cal.1962-07-23.china-leadership
+    text: 'Check: the day of the telegram: the Mao nianpu (V, July 22 entry: "on the 23rd" Zhou drafts it, Mao approves it that evening) and the Zhou nianpu (II, 490: drafted
+      July 23) give July 23; Jian (478) has Zhou send it July 22, and Chen Yi, who met Menon on the afternoon of July 22 and again the morning of July 23 ([[w.chen-yi-nianpu]],
+      926), does not mention it. The entry stays on July 23.'
+- edit:
+    id: cal.1962-07-22.china-leadership-4
+    base: 857e6145
+    set:
+      when: July 22
+      c: Geneva. Chen Yi seeks out Krishna Menon, India's chief delegate to the Laos conference, for informal discussions on the border.
+      time_range:
+      - 1962-07-22T11:00Z
+      - 1962-07-22T17:00Z
+      time_band: afternoon
+      time_zone: Europe/Zurich
+      range_basis: record
+      n: '[[w.macfarquhar-origins-of-the-cultural]], III, 301; [[w.chen-yi-nianpu]], 926 (Chen Yi meets Menon the afternoon of July 22, and again the morning of July 23); [[w.jian-zhou-enlai]],
+        478 (Chen, having met Menon that day, asks him to meet again next day; the next morning some agreement on resuming talks, a joint statement prepared, not issued, Menon
+        unable to reach Delhi). Made public: 1968. To check: [[w.brecher-india-and-world-politics]], 170 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 301 n.29a);
+        [[w.maxwell-indias-china-war]], 267 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 301 n.29b); [[w.bo-1962]], 185–6 (cited by [[w.macfarquhar-origins-of-the-cultural]],
+        III, 301 n.29d); [[w.gopal-jawaharlal-nehru]], 213 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 301 n.30); [[w.chen-yun-nianpu-1905]], II, 926 (so printed)
+        (cited by [[w.jian-zhou-enlai]], 478 n.63a); [[w.zedong-mao-zedong-nianpu]], V, 117 (cited by [[w.jian-zhou-enlai]], 478 n.63b); [[w.zhou-enlai-nianpu-1949]], II, 490
+        (cited by [[w.jian-zhou-enlai]], 478 n.63c); [[w.li-lianqing-da-waijiaojia-zhou-enlai]], IV, 316 (cited by [[w.jian-zhou-enlai]], 478 n.63d); [[w.whiting-chinese-calculus-of-deterrence]],
+        264 n.19 (cited by [[w.jian-zhou-enlai]], 478 n.64b); Arthur Lall''s review of Maxwell''s *India''s China War*, *The Asian Student*, November 27, 1971 (as Whiting quotes
+        it) (cited by [[w.jian-zhou-enlai]], 478 n.64c). Split under R17: the second meeting, the morning of July 23, with the joint statement that was not issued, is [[cal.1962-07-23.china-india-war]].
+        The hour: afternoon ([[w.chen-yi-nianpu]], 926: 7月22日 下午，会见 ... 梅农). Names: Chen Yi, Menon. Check: the days; Chen and Menon met July 22 and 23 by the Chen Yi chronology,
+        at Chen''s request by Menon''s account.'
+    kind: correct
+- add:
+    entry:
+      id: cal.1962-07-23.china-india-war
+      when: July 23
+      date: '1962-07-23'
+      place: geneva
+      thread: china-india-war
+      also:
+      - south-asia
+      time_range:
+      - 1962-07-23T05:00Z
+      - 1962-07-23T11:00Z
+      time_band: morning
+      time_zone: Europe/Zurich
+      range_basis: record
+      c: Geneva 日内瓦. Chen Yi 陈毅 meets Krishna Menon again, in the morning. They appear to agree on resuming border talks and begin a joint statement; Menon cannot reach New
+        Delhi, for "technical reasons," and it is not issued.
+      n: '[[w.chen-yi-nianpu]], 926 (July 23, 1962: 上午，再次会见 ... 梅农: the morning, again meets Menon); [[w.jian-zhou-enlai]], 478 (Chen invites Menon to meet "the next day";
+        "the next morning" they "clearly reached some form of agreement" and begin a joint statement; Menon unable to contact New Delhi). Split under R17: the first meeting
+        is [[cal.1962-07-22.china-leadership-4]]. See [[cal.1962-07-22.china-leadership-4]]; [[cal.1962-07-23.china-leadership]]. Names: Chen Yi, Menon. Check: the year made
+        public.'
+      tags:
+      - polity:prc
+      - polity:india
+      - vis:only:prc+india
+      - name:chen-yi
+      - name:menon-v-k-krishna
+- add:
+    entry:
+      id: cal.1962-07-21.china-center
+      when: July 21
+      date: '1962-07-21'
+      place: peking
+      thread: china-center
+      time_range:
+      - 1962-07-21T11:00Z
+      - 1962-07-21T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      c: Yang Shangkun 杨尚昆 goes to the hospital in the evening to see Li Bozhao 李伯钊 and talks with her an hour; at the office afterward until 2 a.m.
+      n: '[[w.yang-shangkun-riji]], II, 197 (July 21, 1962). The words: 晚间去医院看伯钊，谈了1小时，回家后办公到2时睡 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1962-07-20.china-leadership-4]].
+        Names: Yang Shangkun, Li Bozhao.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:li-bozhao
+      - name:yang-shangkun
+- add:
+    entry:
+      id: cal.1962-07-22.china-center
+      when: July 22
+      date: '1962-07-22'
+      place: peking
+      thread: china-center
+      time: 1962-07-22T08:30Z
+      time_zone: Asia/Shanghai
+      c: Yang Shangkun 杨尚昆 with Niuniu 妞妞 at Peking Hospital 北京医院 to see Li Bozhao 李伯钊, 4:30 p.m.; they sit in the garden an hour and a half and he is home before 6.
+      n: '[[w.yang-shangkun-riji]], II, 197 (July 22, 1962). The words: 4时半同妞妞一起去北京医院看伯钊，在花园中坐了1小时半，6时前回家 (II, 197). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).
+        See [[cal.1962-07-21.china-center]]. Names: Yang Shangkun, Li Bozhao.'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:li-bozhao
+      - name:yang-shangkun
