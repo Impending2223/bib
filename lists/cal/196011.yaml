@@ -261,18 +261,21 @@ entries:
     date: '1960-11-02'
     place: san-francisco
     thread: peace-corps
-    also: [elections-1960]
+    also: [elections-1960, elections-1960-kennedy]
     follows:
+      - cal.1960-11-02.elections-1960-2
       - cal.1960-11-02.elections-1960-kennedy-4
-    c: Kennedy at the Cow Palace, San Francisco, proposes "a peace corps of talented young men and women," three years abroad, "as an alternative or as a supplement to peacetime selective service."{1}
-    n: '[Speech of Senator John F. Kennedy, Cow Palace, San Francisco, CA](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-cow-palace-san-francisco-ca). [[w.wofford-of-kennedys-and-kings]], 249 (the Cow Palace, six days before the election; the Michigan students'' response cited; the petitions at Toledo after); [[w.communications-freedom-of-communications-part]], 862–66 (the speech at the Cow Palace; 865: "a peace corps of talented young men and women, willing and able to serve their country in this fashion for 3 years as an alternative or as a supplement to peacetime selective service"). See [[cal.1960-10-14.peace-corps]]. Names: Kennedy.'
+    c: 'Kennedy at the Cow Palace, San Francisco, proposes "a peace corps of talented young men and women," three years abroad, "as an alternative or as a supplement to peacetime selective service."{1} The night of Eisenhower''s ride through New York with Rockefeller, Lodge and Nixon, he says: "While we meet tonight ... the rescue squad has been completing its operation in the city of New York. ... We have all seen these circus elephants complete with tusks, ivory in their head and thick skins, who move around the circus ring and grab the tail of the elephant ahead of them. ... Dick Nixon grabbed that tail in 1952 and 1956, but this year he faces the American people alone. ... President Eisenhower is not running. Mr. Nixon is."{2}'
+    n: '[Speech of Senator John F. Kennedy, Cow Palace, San Francisco, CA](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-cow-palace-san-francisco-ca). [[w.wofford-of-kennedys-and-kings]], 249 (the Cow Palace, six days before the election; the Michigan students'' response cited; the petitions at Toledo after); [[w.communications-freedom-of-communications-part]], 862–66 (the speech at the Cow Palace; 865: "a peace corps of talented young men and women, willing and able to serve their country in this fashion for 3 years as an alternative or as a supplement to peacetime selective service"); [[w.goodwin-remembering-america]], 123 (Goodwin''s account of the rejoinder; the rejoinder repeated "at nearly every campaign stop"). The text at APP, of Nov. 2, holds both passages and reads "ivory in their head" (Goodwin, 123: "on"). See [[cal.1960-10-14.peace-corps]], [[cal.1960-11-02.elections-1960-2]]. Names: Kennedy, Eisenhower, Rockefeller, Lodge, Nixon.'
     src:
-      c: a49d9dc0
+      c: 6be427d3
       rows:
-        - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-cow-palace-san-francisco-ca: 1'
+        - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-cow-palace-san-francisco-ca: 1, 2'
         - 'w.wofford-of-kennedys-and-kings 249: 1'
         - 'w.communications-freedom-of-communications-part 862–66: 1'
-    tags: [name:kennedy-john-f]
+        - 'w.goodwin-remembering-america 123: 2'
+    tags: [name:kennedy-john-f, name:eisenhower-dwight-d, name:rockefeller-nelson, name:lodge-henry-cabot, name:nixon-richard-m, state:ca, ok:fields-time]
+    aliases: [cal.1960-11-02.elections-1960-kennedy-5]
     short: the Cow Palace
   - id: cal.1960-11-02.elections-1960
     when: Nov. 2
@@ -403,17 +406,6 @@ entries:
     c: 'Oakland, Calif., Defremery Park. Kennedy with Gov. Brown, Cohelan and George P. Miller: Nixon is coming "on Saturday," after South Carolina on Thursday; 90 percent of Republicans against the 25-cent minimum wage in the thirties, 90 percent against $1.25 in 1960.'
     n: 'Remarks of Senator John F. Kennedy, Defremery Park, Oakland, CA, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-defremery-park-oakland-ca) (Nov. 2, 1960). [[w.communications-freedom-of-communications-part]], 860–62. Names: Kennedy, Nixon, Brown, Cohelan, Miller.'
     tags: [name:kennedy-john-f, name:nixon-richard-m, name:brown-edmund-g, name:cohelan-jeffery, name:miller-george-p, state:ca, city:oakland]
-  - id: cal.1960-11-02.elections-1960-kennedy-5
-    when: Nov. 2
-    date: '1960-11-02'
-    place: california
-    thread: elections-1960-kennedy
-    follows:
-      - cal.1960-11-02.elections-1960-2
-      - cal.1960-11-02.elections-1960-kennedy-4
-    c: 'California, the night of Eisenhower''s ride through New York with Rockefeller, Lodge and Nixon. Kennedy: "While we meet tonight ... the rescue squad has been completing its operation in the city of New York. ... We have all seen these circus elephants complete with tusks, ivory on their head and thick skins, who move around the circus ring and grab the tail of the elephant ahead of them. ... Dick Nixon grabbed that tail in 1952 and 1956, but this year he faces the American people alone. ... President Eisenhower is not running. Mr. Nixon is."'
-    n: '[[w.goodwin-remembering-america]], 123 (Goodwin''s account; the place in California not given; the rejoinder repeated "at nearly every campaign stop"). See [[cal.1960-11-02.elections-1960-2]]. Names: Kennedy, Eisenhower, Rockefeller, Lodge, Nixon. Check: the day; "tonight," the day of the ride in New York.'
-    tags: [name:kennedy-john-f, name:eisenhower-dwight-d, name:rockefeller-nelson, name:lodge-henry-cabot, name:nixon-richard-m, state:ca]
   - id: cal.1960-11-02.china-leadership
     when: Nov. 2
     date: '1960-11-02'
@@ -2255,16 +2247,16 @@ entries:
     also: [china-leadership]
     follows:
       - cal.1960-11-07.soviet-union
-    c: Moscow. In the afternoon, after the parade, Andropov, head of the Central Committee's liaison department, brings the Chinese delegation the CPSU's letter in answer to the Reply (the letter dated Nov. 5). He says the letter is one thing, the conference another.{1} Suslov had told Deng after the celebrations that the answer was coming and had some pepper. The letter defends the CPSU and denies it said what the Reply says; attacks China, Mao and Liu; charges China with setting parties against one another, in the cases of Albania, Poland, Hungary, and the Australian and American parties; and presses hardest on Albania.{2}
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 373–374 ("that afternoon", after the parade; dated Nov. 5 at 377, 380 and 446); [[w.yang-shangkun-riji]], I, 589–590 (Nov. 7, 1960; Andropov gives it to Liu Xiao after the march; over 100 pages, 91 in Chinese, some 80,000 characters; the delegation reads twenty pages at Liu Shaoqi''s at 2 p.m. before the reception); [[w.deng-xiaoping-nianpu-1904]], III, 1593 (Nov. 7, 1960; the CPSU''s answer of Nov. 5 to the Chinese Reply of Sept. 10, handed by Andropov to Liu Xiao that morning; Deng at Liu''s delegation meeting that afternoon to read it); [[w.peng-zhen-nianpu-1902]], IV, 70–71 (Nov. 7, 1960; the CPSU''s answer of Nov. 5 to the Reply of Sept. 10, over 80,000 characters, 91 pages in Chinese, handed by Andropov to Liu Xiao after the parade; Andropov: let it not be tied to the meeting (the 81 parties'', so the page''s note), "the meeting is the meeting, the answer is the answer"; that afternoon Liu Shaoqi has the delegation read it). Made public: 1999. See [[cal.1960-11-07.soviet-union]]. Names: Andropov, Suslov, Deng Xiaoping, Mao Zedong, Liu Shaoqi. Check: the account is the Chinese delegation''s; Wu says the letter was "distributed" to the parties before the conference (374), and has Liu say it was issued on Nov. 5 (446).'
+    c: 'Moscow. In the afternoon, after the parade, Andropov, head of the Central Committee''s liaison department, brings the Chinese delegation the CPSU''s letter in answer to the Reply (the letter dated Nov. 5). He says the letter is one thing, the conference another.{1} Suslov had told Deng after the celebrations that the answer was coming and had some pepper. The letter defends the CPSU and denies it said what the Reply says; attacks China, Mao and Liu; charges China with setting parties against one another, in the cases of Albania, Poland, Hungary, and the Australian and American parties; and presses hardest on Albania.{2} The letter runs over 80,000 characters, 91 pages in Chinese. Andropov gives it to Liu Xiao and hopes it is not tied to the meeting: "the meeting is the meeting, the answer is the answer." Liu Shaoqi has the delegation read it.{3}'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 373–374 ("that afternoon", after the parade; dated Nov. 5 at 377, 380 and 446); [[w.yang-shangkun-riji]], I, 589–590 (Nov. 7, 1960; Andropov gives it to Liu Xiao after the march; over 100 pages, 91 in Chinese, some 80,000 characters; the delegation reads twenty pages at Liu Shaoqi''s at 2 p.m. before the reception); [[w.deng-xiaoping-nianpu-1904]], III, 1593 (Nov. 7, 1960; the CPSU''s answer of Nov. 5 to the Chinese Reply of Sept. 10, handed by Andropov to Liu Xiao that morning; Deng at Liu''s delegation meeting that afternoon to read it); [[w.peng-zhen-nianpu-1902]], IV, 70–71 (Nov. 7, 1960; the CPSU''s answer of Nov. 5 to the Reply of Sept. 10, over 80,000 characters, 91 pages in Chinese, handed by Andropov to Liu Xiao after the parade; Andropov: let it not be tied to the meeting (the 81 parties'', so the page''s note), "the meeting is the meeting, the answer is the answer"; that afternoon Liu Shaoqi has the delegation read it); [[w.peng-zhen-nianpu-1902]], IV, 70–71. Made public: 1999. Check: Peng Zhen nianpu (IV, 71) has Andropov give the letter to Liu Xiao after the morning ceremony ended, the delegation reading it in the afternoon; Deng nianpu (III, 1593) has it handed that morning. See [[cal.1960-11-07.soviet-union]]. Names: Andropov, Suslov, Deng Xiaoping, Mao Zedong, Liu Shaoqi, Liu Xiao. Check: the account is the Chinese delegation''s; Wu says the letter was "distributed" to the parties before the conference (374), and has Liu say it was issued on Nov. 5 (446).'
     src:
-      c: ad7f36b4
+      c: a5d375f1
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 373–374: 1, 2'
         - 'w.yang-shangkun-riji I, 589–590: 1'
         - 'w.deng-xiaoping-nianpu-1904 III, 1593: ?'
-        - 'w.peng-zhen-nianpu-1902 IV, 70–71: ?'
-    tags: [polity:prc, name:andropov-yuriy-vladimirovich, name:suslov-mikhail-a, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, vis:only:prc+ussr]
+        - 'w.peng-zhen-nianpu-1902 IV, 70–71: 3'
+    tags: [polity:prc, name:andropov-yuriy-vladimirovich, name:suslov-mikhail-a, name:deng-xiaoping, name:mao-zedong, name:liu-shaoqi, vis:only:prc+ussr, name:liu-xiao]
     time_range:
       - 1960-11-07T09:00Z
       - 1960-11-07T15:00Z
@@ -3847,24 +3839,21 @@ entries:
   - id: cal.1960-11-09.soviet-union-2
     when: Nov. 9
     date: '1960-11-09'
+    time: 1960-11-09T14:00Z
     place: moscow
     thread: soviet-union
     also: [china-leadership]
-    c: 'Moscow, the Chinese delegation''s quarters, the afternoon before the conference. Suslov, Kozlov and Mikoyan call;{1} Deng Xiaoping and Peng Zhen receive them.{2} Khrushchev''s speech tomorrow, they say, will stress unity, friendly in tone, leave out the Sino-Soviet quarrel, keep to the draft statement and Soviet home matters; the CPSU does not want an argument at the conference, will look ahead, regards its letter as settled and unconnected with the meeting, and wants better relations with Albania. Mikoyan: after the conference the Soviets will take up trade, aid and experts with China;{3} the oil stop, of which the Presidium did not know, will be lifted soon; experts can stay if China stops giving them papers against the CPSU''s Central Committee. Deng: China came for unity and for agreement on Marxist-Leninist ground; the letter of Nov. 5 poisoned the air and the CPSU began it, so China must answer at the conference. China will stay friendly with no Soviet aid and no experts, and build on its own strength.{4}'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 376–377 ("that afternoon", the day before the opening); [[w.yang-shangkun-riji]], I, 592 (Nov. 9, 1960; 5 p.m., at Liu Shaoqi''s lodging, the whole delegation present; Suslov, Kozlov, Mikoyan, Ponomarev and Andropov; Mikoyan: the 1,300 lorries and the oil refused by the departments, to be settled; experts can be sent again, 38 still in China; Liu, Deng and Peng: the letter of Nov. 5 has changed the case, an answer at the meeting seems unavoidable; three hours, by the diary''s count); [[w.deng-xiaoping-nianpu-1904]], III, 1595 (Nov. 9, 1960; afternoon, at Liu Shaoqi''s, the whole delegation; to Suslov and Kozlov, come to urge unity and no dispute at the meeting, Deng: the answer of Nov. 5, over a hundred pages in Russian, wrecks unity; the argument is yours; we must answer at the meeting); [[w.mao-zedong-zhuan]], V, ch. 66 n.52 (Nov. 9, Suslov and the others call on the Chinese delegation: Khrushchev''s speech to stress unity; the disagreements may be taken up later (Yang Shangkun''s diary, 583-586)). [[w.peng-zhen-nianpu-1902]], IV, 72 (Nov. 9, 1960, 5 p.m., at Liu Shaoqi''s lodging; Suslov, Kozlov, Mikoyan, Ponomarev and Andropov: sent by their Central Committee to say the meeting is to remove differences; Khrushchev''s speech constructive, without polemic, not touching the Reply; the differences to be discussed later; Mikoyan: aid will go on, experts may be sent again, trade requests refused by "the departments" can be settled; Liu Shaoqi, Deng Xiaoping and Peng Zhen in turn: they came to speak for unity, the hundred-page answer has destroyed it, the talk of unity untrue; an answer at the meeting unavoidable, the quarrel theirs). Made public: 1999. See [[cal.1960-11-07.soviet-union-2]]. Names: Suslov, Kozlov, Mikoyan, Deng Xiaoping, Peng Zhen. Check: the account is the Chinese delegation''s.'
+    c: 'Moscow, the Chinese delegation''s quarters, the afternoon before the conference. Suslov, Kozlov and Mikoyan call;{1} Deng Xiaoping and Peng Zhen receive them.{2} Khrushchev''s speech tomorrow, they say, will stress unity, friendly in tone, leave out the Sino-Soviet quarrel, keep to the draft statement and Soviet home matters; the CPSU does not want an argument at the conference, will look ahead, regards its letter as settled and unconnected with the meeting, and wants better relations with Albania. Mikoyan: after the conference the Soviets will take up trade, aid and experts with China;{3} the oil stop, of which the Presidium did not know, will be lifted soon; experts can stay if China stops giving them papers against the CPSU''s Central Committee. Deng: China came for unity and for agreement on Marxist-Leninist ground; the letter of Nov. 5 poisoned the air and the CPSU began it, so China must answer at the conference. China will stay friendly with no Soviet aid and no experts, and build on its own strength.{4} Ponomarev and Andropov come too, at 5 p.m., to Liu Shaoqi''s lodging; Liu, Deng and Peng answer in turn, the quarrel is theirs.{5} Mikoyan: the 1,300 lorries and part of the oil, refused by the departments, are to be settled; experts can be sent again, 38 still in China.{6}'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 376–377 ("that afternoon", the day before the opening); [[w.yang-shangkun-riji]], I, 592 (Nov. 9, 1960; 5 p.m., at Liu Shaoqi''s lodging, the whole delegation present; Suslov, Kozlov, Mikoyan, Ponomarev and Andropov; Mikoyan: the 1,300 lorries and the oil refused by the departments, to be settled; experts can be sent again, 38 still in China; Liu, Deng and Peng: the letter of Nov. 5 has changed the case, an answer at the meeting seems unavoidable; three hours, by the diary''s count); [[w.deng-xiaoping-nianpu-1904]], III, 1595 (Nov. 9, 1960; afternoon, at Liu Shaoqi''s, the whole delegation; to Suslov and Kozlov, come to urge unity and no dispute at the meeting, Deng: the answer of Nov. 5, over a hundred pages in Russian, wrecks unity; the argument is yours; we must answer at the meeting); [[w.mao-zedong-zhuan]], V, ch. 66 n.52 (Nov. 9, Suslov and the others call on the Chinese delegation: Khrushchev''s speech to stress unity; the disagreements may be taken up later (Yang Shangkun''s diary, 583-586)). [[w.peng-zhen-nianpu-1902]], IV, 72 (Nov. 9, 1960, 5 p.m., at Liu Shaoqi''s lodging; Suslov, Kozlov, Mikoyan, Ponomarev and Andropov: sent by their Central Committee to say the meeting is to remove differences; Khrushchev''s speech constructive, without polemic, not touching the Reply; the differences to be discussed later; Mikoyan: aid will go on, experts may be sent again, trade requests refused by "the departments" can be settled; Liu Shaoqi, Deng Xiaoping and Peng Zhen in turn: they came to speak for unity, the hundred-page answer has destroyed it, the talk of unity untrue; an answer at the meeting unavoidable, the quarrel theirs); [[w.peng-zhen-nianpu-1902]], IV, 72; [[w.yang-shangkun-riji]], I, 592. Made public: 1999. See [[cal.1960-11-07.soviet-union-2]]. Names: Suslov, Kozlov, Mikoyan, Deng Xiaoping, Peng Zhen, Ponomarev, Andropov, Liu Shaoqi. Check: the account is the Chinese delegation''s.'
     src:
-      c: cb2c9ae1
+      c: 97b76275
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 376–377: 1, 2, 3, 4'
-        - 'w.yang-shangkun-riji I, 592: 1, 3'
         - 'w.deng-xiaoping-nianpu-1904 III, 1595: ?'
         - 'w.mao-zedong-zhuan V, ch. 66 n.52: 2'
-        - 'w.peng-zhen-nianpu-1902 IV, 72: ?'
-    tags: [polity:prc, name:suslov-mikhail-a, name:kozlov-frol-r, name:mikoyan-anastas, name:deng-xiaoping, name:peng-zhen, vis:only:prc+ussr]
-    time_range:
-      - 1960-11-09T09:00Z
-      - 1960-11-09T15:00Z
-    time_band: afternoon
+        - 'w.peng-zhen-nianpu-1902 IV, 72: 5'
+        - 'w.yang-shangkun-riji I, 592: 1, 3, 6'
+    tags: [polity:prc, name:suslov-mikhail-a, name:kozlov-frol-r, name:mikoyan-anastas, name:deng-xiaoping, name:peng-zhen, vis:only:prc+ussr, name:ponomarev-boris-n, name:andropov-yuriy-vladimirovich, name:liu-shaoqi]
     time_zone: Europe/Moscow
     variants:
       - unit: '2'
@@ -4353,8 +4342,13 @@ entries:
     when: Nov. 10
     date: '1960-11-10'
     thread: china-organization
-    c: 'The Center''s five-man group on cutting cadres and arranging labor 中央精简干部和安排劳动力五人小组, a report on the central organs'' sending down ten thousand cadres to the basic levels 《关于中央一级机关抽调万名干部下放基层情况的报告》: by Nov. 9 10,176 named, 7.33 percent of the central organs'' 138,000-odd cadres; 1,673 Party cadres of grade 17 and above, 9.95 percent.'
-    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 697–701 (printed with Mao''s comment of Nov. 15, 1960; printed from the Center''s document). Made public: 1996.'
+    c: 'The Center''s five-man group on cutting cadres and arranging labor 中央精简干部和安排劳动力五人小组, a report on the central organs'' sending down ten thousand cadres to the basic levels 《关于中央一级机关抽调万名干部下放基层情况的报告》: by Nov. 9 10,176 named, 7.33 percent of the central organs'' 138,000-odd cadres; 1,673 Party cadres of grade 17 and above, 9.95 percent.{1} Those sent down to stay three years as a rule.{2}'
+    n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 697–701 (printed with Mao''s comment of Nov. 15, 1960; printed from the Center''s document); [[w.jianguo-yilai-mao-zedong]], XV, 399 n.1. Made public: 1996.'
+    src:
+      c: 1e3a18c0
+      rows:
+        - 'w.jianguo-yilai-zhongyao-wenxian XIII, 697–701: ?'
+        - 'w.jianguo-yilai-mao-zedong XV, 399 n.1: 2'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1960-11-11.vietnam
     when: Nov. 11–12
@@ -5203,16 +5197,16 @@ entries:
     also: [china-leadership]
     follows:
       - cal.1960-11-14.soviet-union
-    c: 'Moscow, St. George''s Hall, afternoon, the hall full, the whole CPSU Presidium there.{1} Deng Xiaoping speaks for China, a dozen matters, much that of the Reply of Sept. 10.{2} The differences were first raised by the CPSU; it brought them into an international meeting and sprang the surprise attack on China at Bucharest; carried an ideological quarrel into relations of states, tore up every agreement and contract and withdrew every Soviet expert; and first made the differences known to the world. Khrushchev''s "division of labor" and "equal consultation" are false: he wants all to follow his baton and strikes at those who do not. On Poland in 1956 the Soviets prepared to move troops; China opposed it and helped bring the two parties to terms; on Hungary, China, with Liu at Moscow, urged the Soviets not to leave the Hungarian people, and they, after refusing, sent troops back the next day. Both times China helped the Soviets, and Khrushchev bears it a grudge: he says China lectured him, and gnashes at Zhou Enlai''s lessons in Moscow in January 1957. China cannot "check watches" with him. Khrushchev loves the enemy: he lauded Eisenhower around Camp David, and in September 1955 told Adenauer China''s numbers meant a "yellow peril." More could be said, not today. By Mao''s order before the delegation left, not all the shot is fired: the Korean War, the joint fleet, the long-wave station, Soviet air forces in China are held back.{3}'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 381–384 ("the afternoon of the 14th"; "silent" hall); [[w.yang-shangkun-riji]], I, 600 (Nov. 14, 1960; after Kim Il, four hours from the text, a twenty-minute break after the third part; the hall still; the Soviet Presidium and Secretariat all there, their faces darkening; the session closed at 3:30 p.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1596–1597 (Nov. 14, 1960; Deng''s first speech, at the fourth plenary, four hours, the hall silent: the world, war and peace, revolution, revisionism and dogmatism, the differences, unity and aid; the attacks on Mao''s views answered; comradely criticism not against unity; consultation to agreement the basic rule; no party to impose, play father, meddle or split; the differences from the Soviets'' breach of equality and consultation; their essence the 1957 Declaration; still partial); [[w.peng-zhen-nianpu-1902]], IV, 74 (Nov. 14, 1960; Peng Zhen at the fourth plenary; after the Korean party, Deng speaks four hours in five parts: the differences started by the CPSU, the surprise attack, ideology carried into state relations, the experts withdrawn, agreements torn up, the quarrel made public first; Khrushchev''s praise of Eisenhower, the "yellow peril" to Adenauer; "division of labor" and "equal consultation" untrue, "setting watches" his baton; the hall silent, tense). Made public: 1999. See [[cal.1960-11-10.soviet-union]]. Names: Deng Xiaoping, Khrushchev, Zhou Enlai, Liu Shaoqi, Mao Zedong. Check: the account is Wu''s summary of the speech.'
+    c: 'Moscow, St. George''s Hall, afternoon, the hall full, the whole CPSU Presidium there.{1} Deng Xiaoping speaks for China, a dozen matters, much that of the Reply of Sept. 10.{2} The differences were first raised by the CPSU; it brought them into an international meeting and sprang the surprise attack on China at Bucharest; carried an ideological quarrel into relations of states, tore up every agreement and contract and withdrew every Soviet expert; and first made the differences known to the world. Khrushchev''s "division of labor" and "equal consultation" are false: he wants all to follow his baton and strikes at those who do not. On Poland in 1956 the Soviets prepared to move troops; China opposed it and helped bring the two parties to terms; on Hungary, China, with Liu at Moscow, urged the Soviets not to leave the Hungarian people, and they, after refusing, sent troops back the next day. Both times China helped the Soviets, and Khrushchev bears it a grudge: he says China lectured him, and gnashes at Zhou Enlai''s lessons in Moscow in January 1957. China cannot "check watches" with him. Khrushchev loves the enemy: he lauded Eisenhower around Camp David, and in September 1955 told Adenauer China''s numbers meant a "yellow peril." More could be said, not today. By Mao''s order before the delegation left, not all the shot is fired: the Korean War, the joint fleet, the long-wave station, Soviet air forces in China are held back.{3} Peng Zhen is at the plenary.{4} Kim Il of the Korean party speaks first, forty minutes. Deng reads from the text, a twenty-minute break after the third part; the Soviet Presidium''s faces darken. The session breaks up at 3:30 p.m.{5}'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 381–384 ("the afternoon of the 14th"; "silent" hall); [[w.yang-shangkun-riji]], I, 600 (Nov. 14, 1960; after Kim Il, four hours from the text, a twenty-minute break after the third part; the hall still; the Soviet Presidium and Secretariat all there, their faces darkening; the session closed at 3:30 p.m.); [[w.deng-xiaoping-nianpu-1904]], III, 1596–1597 (Nov. 14, 1960; Deng''s first speech, at the fourth plenary, four hours, the hall silent: the world, war and peace, revolution, revisionism and dogmatism, the differences, unity and aid; the attacks on Mao''s views answered; comradely criticism not against unity; consultation to agreement the basic rule; no party to impose, play father, meddle or split; the differences from the Soviets'' breach of equality and consultation; their essence the 1957 Declaration; still partial); [[w.peng-zhen-nianpu-1902]], IV, 74 (Nov. 14, 1960; Peng Zhen at the fourth plenary; after the Korean party, Deng speaks four hours in five parts: the differences started by the CPSU, the surprise attack, ideology carried into state relations, the experts withdrawn, agreements torn up, the quarrel made public first; Khrushchev''s praise of Eisenhower, the "yellow peril" to Adenauer; "division of labor" and "equal consultation" untrue, "setting watches" his baton; the hall silent, tense); [[w.peng-zhen-nianpu-1902]], IV, 74; [[w.yang-shangkun-riji]], I, 600. Made public: 1999. Check: the session''s hour and Kim Il''s length: Yang (I, 600) has it open at 10 a.m., Kim Il forty minutes, Deng four hours, the day ending at 3:30 p.m.; Wu (381) has Deng speak in the afternoon after Kim Il''s whole morning; Peng Zhen nianpu (IV, 74) puts the plenary in the morning. See [[cal.1960-11-10.soviet-union]]. Names: Deng Xiaoping, Khrushchev, Zhou Enlai, Liu Shaoqi, Mao Zedong, Peng Zhen. Check: the account is Wu''s summary of the speech.'
     src:
-      c: 58025b3c
+      c: 5730077b
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 381–384: 1, 2, 3'
-        - 'w.yang-shangkun-riji I, 600: 2'
         - 'w.deng-xiaoping-nianpu-1904 III, 1596–1597: ?'
-        - 'w.peng-zhen-nianpu-1902 IV, 74: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, name:zhou-enlai, name:liu-shaoqi, name:mao-zedong, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+        - 'w.peng-zhen-nianpu-1902 IV, 74: 4'
+        - 'w.yang-shangkun-riji I, 600: 2, 5'
+    tags: [polity:prc, name:deng-xiaoping, name:khrushchev-nikita-s, name:zhou-enlai, name:liu-shaoqi, name:mao-zedong, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia, name:peng-zhen]
     time_range:
       - 1960-11-14T09:00Z
       - 1960-11-14T15:00Z
@@ -5405,10 +5399,10 @@ entries:
     when: Nov. 15
     date: '1960-11-15'
     thread: china-mao
-    c: 'Mao to Zhou Enlai, on the report of ten thousand central cadres sent down: amid the "fine situation," a time to speak at length of the bad third of the country: bad men in power, beatings and deaths, grain down, hunger, the democratic revolution unfinished, feudal forces at work.{1}'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Nov. 15, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 398–400 (Nov. 15, 1960; Mao''s comment to Zhou Enlai, the morning of Nov. 15 (十五日晨), on the report of Nov. 10 of the Center''s five-man group: 10,176 cadres of the central organs to be sent down, 7.33 percent, for three years as a rule; those who go must have the will not to fear hardship, else they must not go; Zhou to decide; printed from the manuscript); [[w.macfarquhar-origins-of-the-cultural]], III, 403 (in November 1960 Mao lays the poor conditions of a third of the countryside to bad elements); [[w.yang-jisheng-mubei]], II, 834–835 (Nov. 10, the five-man group''s report on drawing ten thousand cadres from the central organs; Nov. 15, Mao''s comment on it, and his note on the same report to Zhou: for a time speak at length of the bad third of the country; bad men in power, beating and killing, grain down, hunger, the democratic revolution not complete, feudal forces); [[w.mao-zedong-zhuan]], V, ch. 66 n.62 (Nov. 15, Mao''s letter to Zhou Enlai on the ten thousand cadres, with the notes on the report: one third of the country bad, to be told; five months to turn it; the harvest of 1961). [[w.yang-jisheng-mubei]], II, 1138 n.59 (Mao''s comment of Nov. 15, 1960 on the report on sending ten thousand cadres down: for a stretch to speak at length of the bad third of the places, with bad men in power, beatings and deaths, grain down, hunger, the democratic revolution not finished and feudal forces rampant); [[w.yang-jisheng-tiandi-fanfu]], I, 82 ("a time to speak much of the bad situation in a third of the places: bad men in power, beatings and deaths, grain down, hunger, the democratic revolution not finished, the feudal forces at work"); [[w.jianguo-yilai-zhongyao-wenxian]], XIII, 695–701 (Mao''s comment in full, Nov. 15, 1960, under the title "In five months turn round the situation of a third of the country and win a great harvest in 1961" 一定要在五个月内把三分之一地区的形势都转变过来争取一九六一年的农业大丰收, with the five-man group''s report of Nov. 10: 10,176 cadres to go down, 7.33 percent of the central organs'' 138,000-odd; printed from the Center''s document). Made public: 1996 ([[w.jianguo-yilai-zhongyao-wenxian]], XIII, 695–701). Check: Mao''s second comment on the report, under ''speak at length of the situation'' (XV, 398–399): the fine situation in two-thirds of the country, a bad one in a third; within five months the whole to be turned around, for a great harvest in 1961; it is not in `c`. Check: Li Jian''s account, as Yang Jisheng gives it, has Mao write the comment "in the investigation report" on Nov. 15 (I, 74); Yang''s own text puts it on the Nov. 10 report on sending down the central cadres (II, 834), which [[w.jianguo-yilai-mao-zedong]], XV, 398–400, also gives. Check: Made public: [[w.jin-1949-1989-niande-zhongguo]], 534–6 (1989), named here, may print Mao''s comment earlier than 1996. To check: [[w.jin-1949-1989-niande-zhongguo]], 534–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 403 n.26); Mao Zedong 毛泽东, letter to Zhou Enlai 周恩来 and notes on the report on sending 10,000 cadres of the central organs down (manuscript 手稿), Nov. 15, 1960 (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.62); [[w.zedong-jianguo-yilai-mao-zedong]], IX, 349 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 82 n.104). Names: Mao Zedong, Zhou Enlai, Li Fuchun, Xiao Hua.'
+    c: 'Mao to Zhou Enlai, on the report of ten thousand central cadres sent down: amid the "fine situation," a time to speak at length of the bad third of the country: bad men in power, beatings and deaths, grain down, hunger, the democratic revolution unfinished, feudal forces at work.{1} Mao adds that those who go need the will not to fear hardship, else they must not go; two-thirds of the country is fine, a third bad, to be turned round within five months for a great harvest in 1961.{2}'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Nov. 15, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 398–400 (Nov. 15, 1960; Mao''s comment to Zhou Enlai, the morning of Nov. 15 (十五日晨), on the report of Nov. 10 of the Center''s five-man group: 10,176 cadres of the central organs to be sent down, 7.33 percent, for three years as a rule; those who go must have the will not to fear hardship, else they must not go; Zhou to decide; printed from the manuscript); [[w.macfarquhar-origins-of-the-cultural]], III, 403 (in November 1960 Mao lays the poor conditions of a third of the countryside to bad elements); [[w.yang-jisheng-mubei]], II, 834–835 (Nov. 10, the five-man group''s report on drawing ten thousand cadres from the central organs; Nov. 15, Mao''s comment on it, and his note on the same report to Zhou: for a time speak at length of the bad third of the country; bad men in power, beating and killing, grain down, hunger, the democratic revolution not complete, feudal forces); [[w.mao-zedong-zhuan]], V, ch. 66 n.62 (Nov. 15, Mao''s letter to Zhou Enlai on the ten thousand cadres, with the notes on the report: one third of the country bad, to be told; five months to turn it; the harvest of 1961). [[w.yang-jisheng-mubei]], II, 1138 n.59 (Mao''s comment of Nov. 15, 1960 on the report on sending ten thousand cadres down: for a stretch to speak at length of the bad third of the places, with bad men in power, beatings and deaths, grain down, hunger, the democratic revolution not finished and feudal forces rampant); [[w.yang-jisheng-tiandi-fanfu]], I, 82 ("a time to speak much of the bad situation in a third of the places: bad men in power, beatings and deaths, grain down, hunger, the democratic revolution not finished, the feudal forces at work"); [[w.jianguo-yilai-zhongyao-wenxian]], XIII, 695–701 (Mao''s comment in full, Nov. 15, 1960, under the title "In five months turn round the situation of a third of the country and win a great harvest in 1961" 一定要在五个月内把三分之一地区的形势都转变过来争取一九六一年的农业大丰收, with the five-man group''s report of Nov. 10: 10,176 cadres to go down, 7.33 percent of the central organs'' 138,000-odd; printed from the Center''s document); [[w.jianguo-yilai-mao-zedong]], XV, 398–399. Made public: 1996 ([[w.jianguo-yilai-zhongyao-wenxian]], XIII, 695–701). Check: Mao''s second comment on the report, under ''speak at length of the situation'' (XV, 398–399): the fine situation in two-thirds of the country, a bad one in a third; within five months the whole to be turned around, for a great harvest in 1961; it is not in `c`. Check: Li Jian''s account, as Yang Jisheng gives it, has Mao write the comment "in the investigation report" on Nov. 15 (I, 74); Yang''s own text puts it on the Nov. 10 report on sending down the central cadres (II, 834), which [[w.jianguo-yilai-mao-zedong]], XV, 398–400, also gives. Check: Made public: [[w.jin-1949-1989-niande-zhongguo]], 534–6 (1989), named here, may print Mao''s comment earlier than 1996. To check: [[w.jin-1949-1989-niande-zhongguo]], 534–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 403 n.26); Mao Zedong 毛泽东, letter to Zhou Enlai 周恩来 and notes on the report on sending 10,000 cadres of the central organs down (manuscript 手稿), Nov. 15, 1960 (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.62); [[w.zedong-jianguo-yilai-mao-zedong]], IX, 349 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 82 n.104). Names: Mao Zedong, Zhou Enlai, Li Fuchun, Xiao Hua.'
     src:
-      c: e847a0f7
+      c: a2241c7b
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, Nov. 15, 1960: 1'
         - 'w.jianguo-yilai-mao-zedong XV, 398–400: 1'
@@ -5421,6 +5415,7 @@ entries:
         - 'w.yang-jisheng-mubei II, 1138 n.59: 1'
         - 'w.yang-jisheng-tiandi-fanfu I, 82: ?'
         - 'w.jianguo-yilai-zhongyao-wenxian XIII, 695–701: ?'
+        - 'w.jianguo-yilai-mao-zedong XV, 398–399: 2'
     tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:li-fuchun, vis:only:prc, name:xiao-hua]
   - id: cal.1960-11-15.china-leadership-2
     when: Nov. 15
@@ -5648,10 +5643,10 @@ entries:
     date: '1960-11-16'
     place: augusta-ga
     thread: economy
-    c: Eisenhower's directive on the balance of payments, issued at Augusta.{1} Fewer dependents abroad, of the services' half million;{2} less buying abroad;{3} aid loans and grants to pay for American goods.{4} The gold stock $18.1 billion, Nov. 9.{5}
-    n: 'The President''s News Conference at Augusta, Georgia, [1960–61 Pub. Papers 861](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=913). FRUS 1958–60, IV, docs. [57](https://history.state.gov/historicaldocuments/frus1958-60v04/d57) (Anderson on gold, Nov. 9), [58](https://history.state.gov/historicaldocuments/frus1958-60v04/d58), [59](https://history.state.gov/historicaldocuments/frus1958-60v04/d59) (the directive; its text in [[w.current-documents-1960]], 786–792). [[w.gavin-gold-dollars-and-power]], 48–49 (the meeting of Nov. 9; the decision at Augusta, Nov. 15); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 449 (the order of Nov. 16, at Anderson''s insistence: fewer civilian employees and dependents abroad); [[w.watson-into-the-missile-age]], 749 (the directive released Nov. 16: the number of military and civilian dependents abroad to be reduced to "not more than 200,000 at any one time," by 15,000 a month from Jan. 1, 1961; procurement abroad to be cut by "a very substantial amount"; the military dependents estimated at 500,000; not Augusta, aid loans or the gold stock). To check: [[w.zimmermann-money-and-security]]; [[w.kunz-butter-and-guns]]. Names: Eisenhower.'
+    c: Eisenhower's directive on the balance of payments, issued at Augusta.{1} Dependents abroad, military and civilian, to be held to 200,000 at most, cut by 15,000 a month from Jan. 1, 1961; planned foreign procurement for 1961 cut by "a very substantial amount."{6} Fewer dependents abroad, of the services' half million;{2} less buying abroad;{3} aid loans and grants to pay for American goods.{4} The gold stock $18.1 billion, Nov. 9.{5}
+    n: 'The President''s News Conference at Augusta, Georgia, [1960–61 Pub. Papers 861](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=913). FRUS 1958–60, IV, docs. [57](https://history.state.gov/historicaldocuments/frus1958-60v04/d57) (Anderson on gold, Nov. 9), [58](https://history.state.gov/historicaldocuments/frus1958-60v04/d58), [59](https://history.state.gov/historicaldocuments/frus1958-60v04/d59) (the directive; its text in [[w.current-documents-1960]], 786–792). [[w.gavin-gold-dollars-and-power]], 48–49 (the meeting of Nov. 9; the decision at Augusta, Nov. 15); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 449 (the order of Nov. 16, at Anderson''s insistence: fewer civilian employees and dependents abroad); [[w.watson-into-the-missile-age]], 749 (the directive released Nov. 16: the number of military and civilian dependents abroad to be reduced to "not more than 200,000 at any one time," by 15,000 a month from Jan. 1, 1961; procurement abroad to be cut by "a very substantial amount"; the military dependents estimated at 500,000; not Augusta, aid loans or the gold stock); [[w.watson-into-the-missile-age]], 749. To check: [[w.zimmermann-money-and-security]]; [[w.kunz-butter-and-guns]]. Names: Eisenhower.'
     src:
-      c: ff24252b
+      c: 3b1fe0a7
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=913: 1, 2, 3, 4, 5'
         - 'https://history.state.gov/historicaldocuments/frus1958-60v04/d57: 1, 2, 3, 4, 5'
@@ -5661,7 +5656,7 @@ entries:
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 449: 1, 2'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 449 n.5a: 1, 2'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 449 n.5b: 1, 2'
-        - 'w.watson-into-the-missile-age 749: 2, 3'
+        - 'w.watson-into-the-missile-age 749: 6, 2, 3'
     tags: [name:eisenhower-dwight-d]
     short: the balance-of-payments directive
     time_range:
@@ -6281,14 +6276,14 @@ entries:
     place: moscow
     thread: china-foreign
     also: [soviet-union]
-    c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The conference, ten speakers: Gheorghiu-Dej 乔治乌-德治, the Belgian, the Paraguayan, the Turk, the Guatemalan; in the afternoon the Jordanian, Tsedenbal 泽登巴尔 (against China and Albania, China''s aid to Mongolia not mentioned), Wilcox 威尔科克斯 (New Zealand, against no one), Reimann 雷曼 (West Germany), the Sudanese. Yang Shangkun 杨尚昆 at the afternoon only, the morning spent on sending out the papers.'
-    n: '[[w.yang-shangkun-riji]], I, 610–612 (Nov. 18, 1960); [[w.peng-zhen-nianpu-1902]], IV, 75–76 (Nov. 18, 1960, all day; Peng Zhen at the eighth plenary, ten speakers (morning Romania, Belgium, Paraguay, Turkey, Guatemala; afternoon Jordan, Iran, New Zealand, West Germany, Sudan); Wilcox of New Zealand: Khrushchev''s "no arms, no armies, no war" spreads illusions; peaceful transition in the capitalist centers doubtful; "factional activity" better left out, China not warlike; differences to be settled by consultation). The words: 上午……下午到会 (I, 610). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gheorghiu-Dej, Tsedenbal, Wilcox, Reimann, Yang Shangkun.'
+    c: 'Moscow 莫斯科, the Kremlin 克里姆林宫. The conference, ten speakers: Gheorghiu-Dej 乔治乌-德治, the Belgian, the Paraguayan, the Turk, the Guatemalan; in the afternoon the Jordanian, Tsedenbal 泽登巴尔 (against China and Albania, China''s aid to Mongolia not mentioned), Wilcox 威尔科克斯 (New Zealand, against no one), Reimann 雷曼 (West Germany), the Sudanese. Yang Shangkun 杨尚昆 at the afternoon only, the morning spent on sending out the papers.{1} Wilcox: Khrushchev''s "no arms, no armies, no war" spreads illusions; peaceful transition in the capitalist centers is doubtful; "factional activity" is better left out; China is not warlike; differences to be settled by consultation. Peng Zhen attends.{2}'
+    n: '[[w.yang-shangkun-riji]], I, 610–612 (Nov. 18, 1960); [[w.peng-zhen-nianpu-1902]], IV, 75–76 (Nov. 18, 1960, all day; Peng Zhen at the eighth plenary, ten speakers (morning Romania, Belgium, Paraguay, Turkey, Guatemala; afternoon Jordan, Mongolia, New Zealand, West Germany, Sudan); Wilcox of New Zealand: Khrushchev''s "no arms, no armies, no war" spreads illusions; peaceful transition in the capitalist centers doubtful; "factional activity" better left out, China not warlike; differences to be settled by consultation); [[w.peng-zhen-nianpu-1902]], IV, 75–76. The words: 上午……下午到会 (I, 610). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gheorghiu-Dej, Tsedenbal, Wilcox, Reimann, Yang Shangkun, Peng Zhen.'
     src:
-      c: ba5745da
+      c: 8595c43f
       rows:
-        - 'w.yang-shangkun-riji I, 610–612: all'
-        - 'w.peng-zhen-nianpu-1902 IV, 75–76: ?'
-    tags: [polity:prc, name:gheorghiu-dej-gheorghe, vis:only:prc+ussr, name:tsedenbal, name:yang-shangkun]
+        - 'w.yang-shangkun-riji I, 610–612: 1'
+        - 'w.peng-zhen-nianpu-1902 IV, 75–76: 2'
+    tags: [polity:prc, name:gheorghiu-dej-gheorghe, vis:only:prc+ussr, name:tsedenbal, name:yang-shangkun, name:peng-zhen]
     time_range:
       - 1960-11-18T03:00Z
       - 1960-11-18T16:00Z
@@ -6888,15 +6883,16 @@ entries:
     place: moscow
     thread: soviet-union
     also: [china-leadership, comecon]
-    c: 'Moscow. The conference resumes after the recess of the 20th.{1} The Hungarian delegation tables a draft resolution on relations among parties, to be adopted at the conference, kept internal: six points, chief that international meetings decide by majority, and that two parties unable to settle a difference ask a third to arbitrate, and failing that put it to the international meeting by majority vote. A charter in effect.{2}'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 389–390 ("on the 21st"); [[w.yang-shangkun-riji]], I, 618–621 (Nov. 21, 1960; Monje (Bolivia), Ba Thein Tin (Burma: fully against the Soviet view), the Costa Rican, the Malayan, Ghosh (India: against China on the border, for striking the factional passage); afternoon the Thai, the Ecuadorian, the Algerian; the session to 2:45 p.m.); [[w.peng-zhen-nianpu-1902]], IV, 77 (Nov. 21, 1960, all day; Peng Zhen at the tenth plenary; Bolivia, Burma, Costa Rica, Malaya, India, Thailand, Ecuador, Algeria; Thakin Than Tun of Burma: the "three noes" possible only after socialism wins the world; the Twentieth Congress''s peaceful transition split the Burmese party in armed struggle, its leaders defecting, its guerrillas deserting; the Burmese, Thai and Malayan parties wrote to the CPSU in 1957; "group factions" and "national communism" to go). Made public: 1999. See [[cal.1960-11-14.soviet-union-2]]. Check: the account is the Chinese delegation''s; Wu says the CPSU planned it.'
+    c: 'Moscow. The conference resumes after the recess of the 20th.{1} The Hungarian delegation tables a draft resolution on relations among parties, to be adopted at the conference, kept internal: six points, chief that international meetings decide by majority, and that two parties unable to settle a difference ask a third to arbitrate, and failing that put it to the international meeting by majority vote. A charter in effect.{2} Eight parties speak: Bolivia, Burma, Costa Rica, Malaya, India, Thailand, Ecuador, Algeria. Ba Thein Tin, Burma''s general secretary, disagrees wholly with the CPSU: the "three noes" are possible only after socialism wins the world; when the Twentieth Congress put forward peaceful transition, the party''s revisionists called for giving up armed struggle, and leaders defected and guerrillas deserted; "group factions" must not go into the resolution, and "national communism" must go. Peng Zhen attends.{3} Monje of Bolivia argues against China: the Twentieth and Twenty-first Congresses cannot be struck; the minority should follow the majority. Ghosh of India, though he blames China on the border, still holds that the passage on factional activity should be struck.{4}'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 389–390 ("on the 21st"); [[w.yang-shangkun-riji]], I, 618–621 (Nov. 21, 1960; Monje (Bolivia), Ba Thein Tin (Burma: fully against the Soviet view), the Costa Rican, the Malayan, Ghosh (India: against China on the border, for striking the factional passage); afternoon the Thai, the Ecuadorian, the Algerian; the session to 2:45 p.m.); [[w.peng-zhen-nianpu-1902]], IV, 77 (Nov. 21, 1960, all day; Peng Zhen at the tenth plenary; Bolivia, Burma, Costa Rica, Malaya, India, Thailand, Ecuador, Algeria; Ba Thein Tin of Burma, its general secretary: the "three noes" possible only after socialism wins the world; the Twentieth Congress''s peaceful transition split the Burmese party in armed struggle, its leaders defecting, its guerrillas deserting; the Burmese, Thai and Malayan parties wrote to the CPSU in 1957; "group factions" and "national communism" to go); [[w.peng-zhen-nianpu-1902]], IV, 77; [[w.yang-shangkun-riji]], I, 619. Made public: 1999. See [[cal.1960-11-14.soviet-union-2]]. Check: the account is the Chinese delegation''s; Wu says the CPSU planned it. Names: Peng Zhen, Ba Thein Tin, Ghosh.'
     src:
-      c: 6da548a2
+      c: 4f93e933
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 389–390: 1, 2'
         - 'w.yang-shangkun-riji I, 618–621: 1'
-        - 'w.peng-zhen-nianpu-1902 IV, 77: ?'
-    tags: [polity:prc, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia]
+        - 'w.peng-zhen-nianpu-1902 IV, 77: 3'
+        - 'w.yang-shangkun-riji I, 619: 4'
+    tags: [polity:prc, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia, name:peng-zhen, name:thakin-ba-thein-tin, name:ghosh]
   - id: cal.1960-11-21.china-leadership-4
     when: Nov. 21
     date: '1960-11-21'
@@ -7072,17 +7068,17 @@ entries:
     date: '1960-11-22'
     place: moscow
     thread: soviet-union
-    also: [china-leadership]
-    c: 'Moscow.{1} The first round of speeches ends with the morning session.{2} From Nov. 10 to 22, the 13th and 20th recess days, 77 parties spoke, by Wu''s count: 51, Khrushchev among them, wholly on Khrushchev''s side; 15 between; 11, China''s among them, mostly against his views. The chair announces that Khrushchev will speak tomorrow.{3} Morning: Hakamada Satomi of Japan, the Dominican Republic, Ceylon, Sharkey of Australia, Nicaragua, Haiti.{4} Hakamada: what is not agreed stays out of the paper, differences are not to be carried abroad or into the mass organizations, no standing committee yet.{5} In the afternoon the Réunion, Peruvian and Martinique delegates speak; the chair closes the general debate and the Chinese at once ask to speak a second time.{6} Peng Zhen attends the eleventh plenary all day.{7}'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 388, 390 ("the morning of the 22nd"; the count at 388); [[w.yang-shangkun-riji]], I, 622–623 (Nov. 22, 1960; Hakamada (Japan), the Dominican, the Ceylonese, Sharkey, the Nicaraguan, the Haitian; afternoon the Réunion, Peruvian and Martinique delegates; the general debate closed); [[w.peng-zhen-nianpu-1902]], IV, 77 (Nov. 22, 1960, all day; Peng Zhen at the eleventh plenary; Japan, the Dominican Republic, Ceylon, Australia, Nicaragua, Haiti, Peru; Hakamada Satomi of Japan: what is not agreed to stay out of the paper, differences not to be carried abroad or into the mass organizations, no standing committee yet; when the speeches end in the afternoon the chair closes the general debate, Khrushchev to speak the next morning; the Chinese at once ask to speak a second time); [[w.yang-shangkun-riji]], I, 622; [[w.peng-zhen-nianpu-1902]], IV, 77; [[w.yang-shangkun-riji]], I, 622–623. Made public: 1999. Check: the Yang Shangkun diary and the Peng Zhen chronology have speakers into the afternoon, the general debate closed then ([[w.yang-shangkun-riji]], I, 622–623; [[w.peng-zhen-nianpu-1902]], IV, 77). See [[cal.1960-11-21.soviet-union]]. Names: Khrushchev, Hakamada, Sharkey, Peng Zhen. Check: the count is the Chinese delegation''s (388: 51 parties, the CPSU among them; "the 50" that followed Khrushchev).'
+    also: [china-leadership, china-foreign]
+    c: 'Moscow 莫斯科, the Kremlin 克里姆林宫.{1} The first round of speeches ends with the morning session.{2} From Nov. 10 to 22, the 13th and 20th recess days, 77 parties spoke, by Wu''s count: 51, Khrushchev among them, wholly on Khrushchev''s side; 15 between; 11, China''s among them, mostly against his views. The chair announces that Khrushchev will speak tomorrow.{3} Morning: Hakamada Satomi of Japan, the Dominican Republic, Ceylon, Sharkey of Australia, Nicaragua, Haiti.{4} Hakamada: what is not agreed stays out of the paper, differences are not to be carried abroad or into the mass organizations, no standing committee yet.{5} In the afternoon the Réunion, Peruvian and Martinique delegates speak; the chair closes the general debate and the Chinese at once ask to speak a second time.{6} Peng Zhen attends the eleventh plenary all day.{7} Yang Shangkun 杨尚昆 puts the Chinese delegation down for the second speech.{8}'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 388, 390 ("the morning of the 22nd"; the count at 388); [[w.yang-shangkun-riji]], I, 622–623 (Nov. 22, 1960; Hakamada (Japan), the Dominican, the Ceylonese, Sharkey, the Nicaraguan, the Haitian; afternoon the Réunion, Peruvian and Martinique delegates; the general debate closed; at 623 Yang, as the debate closes, puts the Chinese delegation down for a second speech); [[w.peng-zhen-nianpu-1902]], IV, 77 (Nov. 22, 1960, all day; Peng Zhen at the eleventh plenary; Japan, the Dominican Republic, Ceylon, Australia, Nicaragua, Haiti, Peru; Hakamada Satomi of Japan: what is not agreed to stay out of the paper, differences not to be carried abroad or into the mass organizations, no standing committee yet; when the speeches end in the afternoon the chair closes the general debate, Khrushchev to speak the next morning; the Chinese at once ask to speak a second time). Made public: 1999; the diary, 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1960-11-21.soviet-union]]. Names: Khrushchev, Hakamada, Sharkey, Peng Zhen, Yang Shangkun. Check: the Yang Shangkun diary and the Peng Zhen chronology have speakers into the afternoon, the general debate closed then ([[w.yang-shangkun-riji]], I, 622–623; [[w.peng-zhen-nianpu-1902]], IV, 77). Check: the count is the Chinese delegation''s (388: 51 parties, the CPSU among them; "the 50" that followed Khrushchev).'
     src:
-      c: e3c9d790
+      c: cefed4b8
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 388, 390: 1, 2, 3'
-        - 'w.yang-shangkun-riji I, 622: 4'
-        - 'w.yang-shangkun-riji I, 622–623: 1, 2, 6'
+        - 'w.yang-shangkun-riji I, 622–623: 1, 2, 4, 6, 8'
         - 'w.peng-zhen-nianpu-1902 IV, 77: 5, 7'
-    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia, name:hakamada-satomi, name:sharkey, name:peng-zhen]
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia, name:hakamada-satomi, name:sharkey, name:peng-zhen, name:yang-shangkun, ok:fields-time]
+    aliases: [cal.1960-11-22.china-leadership-6]
     variants:
       - unit: '2'
         witness: w.peng-zhen-nianpu-1902
@@ -7104,21 +7100,6 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 390–392: all'
     tags: [polity:prc, name:khrushchev-nikita-s, name:deng-xiaoping, vis:only:prc]
-  - id: cal.1960-11-22.china-leadership-6
-    when: Nov. 22
-    date: '1960-11-22'
-    place: moscow
-    thread: china-foreign
-    also: [soviet-union]
-    follows:
-      - cal.1960-11-22.soviet-union
-    c: Moscow 莫斯科, the Kremlin 克里姆林宫. Yang Shangkun 杨尚昆, as the general debate closes, at once puts down the Chinese delegation for a second speech; Khrushchev to speak the next morning.
-    n: '[[w.yang-shangkun-riji]], I, 623 (Nov. 22, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
-    src:
-      c: 569352b8
-      rows:
-        - 'w.yang-shangkun-riji I, 623: all'
-    tags: [polity:prc, vis:only:prc+ussr, name:yang-shangkun]
   - id: cal.1960-11-22.china-leadership-7
     when: Nov. 22
     date: '1960-11-22'
@@ -7690,10 +7671,10 @@ entries:
     place: moscow
     thread: china-moscow-1960
     also: [soviet-union, vietnam-hanoi]
-    c: 'Moscow, the Chinese embassy, afternoon to night. The delegation weighs the last stage. Holding firm through the second round, it judges, has shaken the delegations: the left heartened, the center, among them the capitalist countries'' parties and some ruling ones, alarmed at a split of two great parties, Khrushchev''s followers afraid to bear a break. Hồ Chí Minh tells the Chinese he will lead a delegation to both parties to urge a compromise. Decisions: keep the resolve not to fear a break; all the "nails" and the unnamed attacks out, or no signature; none for a majority-rule resolution even if the nails go. Signing is form; the draft otherwise an anti-Chinese text, for history to judge. A break would mean the CPSU''s anti-China course, Soviet and East European aid cut, party ties cut, a diplomatic blockade and state relations ended, isolation in international bodies, separate courses on imperialism, national liberation and the workers'' movement: none enough to bend China. Six open questions: father-and-son or equal parties; majority rule or consultation to agreement; what factional activity is and who does it; what national communism is and who; whether the Twentieth and Twenty-first Congresses are affirmed; the cult of personality. The delegation cables Peking deep at night for what it may yield and when sign or not.'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 397–400 ("the afternoon to the evening of the 25th"; the cable "deep at night" of the 25th). Made public: 1999. See [[cal.1960-11-25.soviet-union]]. Names: Hồ Chí Minh.'
+    c: 'Moscow, the Chinese embassy, afternoon to night. The delegation weighs the last stage. Holding firm through the second round, it judges, has shaken the delegations: the left heartened, the center, among them the capitalist countries'' parties and some ruling ones, alarmed at a split of two great parties, Khrushchev''s followers afraid to bear a break. Hồ Chí Minh tells the Chinese he will lead a delegation to both parties to urge a compromise. Decisions: keep the resolve not to fear a break; all the "nails" and the unnamed attacks out, or no signature; none for a majority-rule resolution even if the nails go. Signing is form; the draft otherwise an anti-Chinese text, for history to judge. A break would mean the CPSU''s anti-China course, Soviet and East European aid cut, party ties cut, a diplomatic blockade and state relations ended, isolation in international bodies, separate courses on imperialism, national liberation and the workers'' movement: none enough to bend China. Six open questions: father-and-son or equal parties; majority rule or consultation to agreement; what factional activity is and who does it; what national communism is and who; whether the Twentieth and Twenty-first Congresses are affirmed; the cult of personality.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 397–400 ("the afternoon to the evening of the 25th"). Made public: 1999. See [[cal.1960-11-25.soviet-union]]. The delegation''s cable deep at night is its own entry. Names: Hồ Chí Minh.'
     src:
-      c: c019af1e
+      c: e3dafea4
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 397–400: all'
     tags: [polity:prc, name:ho-chi-minh, vis:only:prc]
@@ -7775,13 +7756,22 @@ entries:
     place: moscow
     thread: china-foreign
     also: [soviet-union]
-    c: Moscow 莫斯科. The Chinese delegation cables the Center 中共中央 again for instructions on signing the draft statement.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1600 (Nov. 25, 1960). Made public: 2009 (the nianpu). See [[cal.1960-11-24.china-leadership-3]].'
+    follows:
+      - cal.1960-11-25.china-leadership
+    c: Moscow 莫斯科. The Chinese delegation cables the Center 中共中央 again for instructions on signing the draft statement.{1} It asks deep at night what it may yield and when to sign or not.{2}
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1600 (Nov. 25, 1960); [[w.lengxi-shinian-lunzhan-1956-1966]], 397–400 ("deep at night" of the 25th). Made public: 2009 (the nianpu). The order: after [[cal.1960-11-25.china-leadership]], [[w.lengxi-shinian-lunzhan-1956-1966]], 397–400 ("the afternoon to the evening of the 25th"; the cable "deep at night"). See [[cal.1960-11-24.china-leadership-3]].'
     src:
-      c: d1441d42
+      c: b638a693
       rows:
-        - 'w.deng-xiaoping-nianpu-1904 III, 1600: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1600: 1'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 397–400: 2'
     tags: [polity:prc, vis:only:prc]
+    time_range:
+      - 1960-11-25T19:00Z
+      - 1960-11-25T21:00Z
+    time_band: night
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1960-11-25.china-leadership-7
     when: Nov. 25
     date: '1960-11-25'
@@ -7874,16 +7864,16 @@ entries:
     place: moscow
     thread: soviet-union
     also: [china-leadership]
-    c: 'Moscow, the Chinese delegation''s quarters.{1} Khrushchev sends Mikoyan and Kozlov;{2} Deng Xiaoping and Peng Zhen talk with them.{3} Their points: the Twentieth Congress must go in; the wording against factional activity may be considered, a slight give; whether there is an internal resolution on the Hungarian proposal depends on China''s attitude;{4} if the conference ends well the Sino-Soviet differences end, look ahead, make unity; and the Chinese delegation is asked to tour the USSR after the conference, Liu''s visit as head of state widened to the whole party and government delegation. Deng: the conference is in substance an anti-China conference the CPSU set going, to China''s deep regret and wrath; the CPSU still holds its wrong line, and China urges it not to go to the end but to look further and put the large matter first; only with all the nails out of the draft, no resolution against China and no majority-rule resolution will China sign. Mikoyan and Kozlov cannot accept, will report to the Presidium.{5}'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 401–402 ("the 26th"; Wu''s bracketed asides, that the wording point was "a slight loosening" and that the Hungarian point was a threat, are his); [[w.yang-shangkun-riji]], I, 628–630 (Nov. 26, 1960; 4 to 7 p.m., at Liu''s lodging; the invitation to a state visit renewed; Liu: the meeting run in the spirit of the Nov. 5 letter; with "national communism," the factional passage, the Twentieth and Twenty-first Congresses and an internal resolution the Chinese will not sign); [[w.deng-xiaoping-nianpu-1904]], III, 1601 (Nov. 26, 1960; afternoon, at Liu Shaoqi''s lodging; Deng, with Liu and Peng Zhen, with Mikoyan and Kozlov; Liu: if the statement must contain "national communism", the Twentieth Congress and factional activity, with an internal resolution censuring the Chinese, the delegation cannot sign); [[w.peng-zhen-nianpu-1902]], IV, 79–80 (Nov. 26, 1960, 4 p.m., at Liu Shaoqi''s lodging; Peng Zhen, with Liu, Deng Xiaoping and Yang Shangkun, talks with Mikoyan and Kozlov; the invitation to visit after the meeting stands; Liu: the visit depends on the result; the letter of Nov. 5 handed round, the siege inside and outside the meeting, a wrong line now at the edge; with "national communism," "group factional activity," the two Congresses and an internal resolution condemning China, no signature; the Soviets: "national communism" may go or be rewritten, "factional activity" rewritten or an internal decision, but leaving out the Twentieth Congress would mean its condemnation; three hours). Made public: 1999. See [[cal.1960-11-26.soviet-union]]. Names: Mikoyan, Kozlov, Deng Xiaoping, Peng Zhen, Liu Shaoqi. Check: the account is the Chinese delegation''s.'
+    c: 'Moscow, the Chinese delegation''s quarters.{1} Khrushchev sends Mikoyan and Kozlov;{2} Deng Xiaoping and Peng Zhen talk with them.{3} Their points: the Twentieth Congress must go in; the wording against factional activity may be considered, a slight give; whether there is an internal resolution on the Hungarian proposal depends on China''s attitude;{4} if the conference ends well the Sino-Soviet differences end, look ahead, make unity; and the Chinese delegation is asked to tour the USSR after the conference, Liu''s visit as head of state widened to the whole party and government delegation. Deng: the conference is in substance an anti-China conference the CPSU set going, to China''s deep regret and wrath; the CPSU still holds its wrong line, and China urges it not to go to the end but to look further and put the large matter first; only with all the nails out of the draft, no resolution against China and no majority-rule resolution will China sign. Mikoyan and Kozlov cannot accept, will report to the Presidium.{5} Liu Shaoqi and Yang Shangkun are there. Liu: the visit depends on the meeting''s result; since the Nov. 5 letter the meeting runs on a wrong line and has come to the edge. The talk runs three hours.{6}'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 401–402 ("the 26th"; Wu''s bracketed asides, that the wording point was "a slight loosening" and that the Hungarian point was a threat, are his); [[w.yang-shangkun-riji]], I, 628–630 (Nov. 26, 1960; 4 to 7 p.m., at Liu''s lodging; the invitation to a state visit renewed; Liu: the meeting run in the spirit of the Nov. 5 letter; with "national communism," the factional passage, the Twentieth and Twenty-first Congresses and an internal resolution the Chinese will not sign); [[w.deng-xiaoping-nianpu-1904]], III, 1601 (Nov. 26, 1960; afternoon, at Liu Shaoqi''s lodging; Deng, with Liu and Peng Zhen, with Mikoyan and Kozlov; Liu: if the statement must contain "national communism", the Twentieth Congress and factional activity, with an internal resolution censuring the Chinese, the delegation cannot sign); [[w.peng-zhen-nianpu-1902]], IV, 79–80 (Nov. 26, 1960, 4 p.m., at Liu Shaoqi''s lodging; Peng Zhen, with Liu, Deng Xiaoping and Yang Shangkun, talks with Mikoyan and Kozlov; the invitation to visit after the meeting stands; Liu: the visit depends on the result; the letter of Nov. 5 handed round, the siege inside and outside the meeting, a wrong line now at the edge; with "national communism," "group factional activity," the two Congresses and an internal resolution condemning China, no signature; the Soviets: "national communism" may go or be rewritten, "factional activity" rewritten or an internal decision, but leaving out the Twentieth Congress would mean its condemnation; three hours); [[w.peng-zhen-nianpu-1902]], IV, 79–80. Made public: 1999. See [[cal.1960-11-26.soviet-union]]. Names: Mikoyan, Kozlov, Deng Xiaoping, Peng Zhen, Liu Shaoqi, Yang Shangkun. Check: the account is the Chinese delegation''s.'
     src:
-      c: fb1ace3e
+      c: a707a852
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 401–402: 1, 2, 3, 4, 5'
         - 'w.yang-shangkun-riji I, 628–630: 2, 4'
         - 'w.deng-xiaoping-nianpu-1904 III, 1601: ?'
-        - 'w.peng-zhen-nianpu-1902 IV, 79–80: ?'
-    tags: [polity:prc, name:mikoyan-anastas, name:kozlov-frol-r, name:deng-xiaoping, name:peng-zhen, name:liu-shaoqi, vis:only:prc+ussr]
+        - 'w.peng-zhen-nianpu-1902 IV, 79–80: 6'
+    tags: [polity:prc, name:mikoyan-anastas, name:kozlov-frol-r, name:deng-xiaoping, name:peng-zhen, name:liu-shaoqi, vis:only:prc+ussr, name:yang-shangkun]
     variants:
       - unit: '3'
         witness: w.yang-shangkun-riji
@@ -8618,7 +8608,7 @@ entries:
     follows:
       - cal.1960-11-29.soviet-union-2
     c: Moscow 莫斯科, the Chinese Embassy. Deng Xiaoping 邓小平 tells Hysni Kapo 卡博 of the Sino-Soviet talks.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1601–1602 (Nov. 29, 1960). The words: 晚 (III, 1601). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Hysni Kapo.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1601–1602 (Nov. 29, 1960). The words: 晚 (III, 1601). Made public: 2009 (the nianpu). Check: whether Deng''s telling Kapo is one of the briefings of [[cal.1960-11-29.soviet-union-4]]. Names: Deng Xiaoping, Hysni Kapo.'
     src:
       c: 67e1dadb
       rows:

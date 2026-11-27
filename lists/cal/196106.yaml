@@ -499,6 +499,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVI, 57–59: all'
         - 'w.deng-xiaoping-nianpu-1904 III, 1643: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, vis:only:prc, name:qi-benyu]
+    time_zone: Asia/Shanghai
   - id: cal.1961-06-03.china-leadership-5
     when: June 3
     date: '1961-06-03'
@@ -2442,8 +2443,10 @@ entries:
     time: 1961-06-13T21:00Z
     place: washington
     thread: cuba-bay-of-pigs
+    follows:
+      - cal.1961-06-13.cuba
     c: 'The Taylor group with the President, 5 p.m. Taylor on the recommendations; Kennedy taken with the Strategic Resources Board for the cold war. Burke: an assistant President, a staff that grows, passive resistance in State and Defense.'
-    n: '[FRUS 1961–63, X, doc. 229](https://history.state.gov/historicaldocuments/frus1961-63v10/d229) (Burke''s memorandum). Made public: FRUS 1961–63, X (1997). See [[cal.1961-06-13.cuba]]. Names: Taylor, Kennedy, Burke.'
+    n: '[FRUS 1961–63, X, doc. 229](https://history.state.gov/historicaldocuments/frus1961-63v10/d229) (Burke''s memorandum). Made public: FRUS 1961–63, X (1997). The order: after [[cal.1961-06-13.cuba]], Taylor to Kennedy, June 13: "We are now prepared to make our final report to you orally," its n.3 pointing to the 5 p.m. meeting ([FRUS 1961–63, X, doc. 230](https://history.state.gov/historicaldocuments/frus1961-63v10/d230)). See [[cal.1961-06-13.cuba]]. Names: Taylor, Kennedy, Burke.'
     src:
       c: cf6b1fb5
       rows:
@@ -4327,28 +4330,19 @@ entries:
     when: June 22
     date: '1961-06-22'
     thread: china-mao
-    c: 'Mao Zedong 毛泽东, on Xi Zhongxun''s 习仲勋 report of June 19 on streamlining the central organs: "Comrade Xiaoping: this is very good; send it to the regional bureaus and the provincial, city and regional committees, to be carried out firmly."'
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1646 (June 22, 1961). Made public: 2009 (the nianpu). Names: Mao Zedong, Deng Xiaoping, Xi Zhongxun.'
+    c: 'Mao Zedong 毛泽东, on the report of June 19 by Xi Zhongxun 习仲勋, Secretary-General of the State Council, on streamlining the central organs;{1} the central bureaucracy, 240,000, cut by a third.{4} To Deng: "Comrade Xiaoping: this is very good; send it to the regional bureaus and the provincial, city and regional committees, to be carried out firmly."{2} He urges a further 40,000, to a half.{3}'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1646 (June 22, 1961); [[w.macfarquhar-origins-of-the-cultural]], III, 36; [[w.jianguo-yilai-mao-zedong]], XVI, 69–70 (June 22, 1961; the comment to Deng Xiaoping; Xi''s report of June 19, 240,000 staff in central organs, 80,000 cut). Made public: 1997. To check: [[w.macfarquhar-origins-of-the-cultural]], II, 335 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 36 n.73); [[w.mao-zedong-shuxin-xuanji]], 583–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 36 n.74). Names: Mao Zedong, Deng Xiaoping, Xi Zhongxun.'
     src:
-      c: cbf16194
+      c: e4e10f4d
       rows:
-        - 'w.deng-xiaoping-nianpu-1904 III, 1646: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1646: 1, 2'
+        - 'w.macfarquhar-origins-of-the-cultural III, 36: 1, 4, 2, 3'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 36 n.73: 1, 4'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 36 n.74: 1, 4, 2, 3'
+        - 'w.jianguo-yilai-mao-zedong XVI, 69–70: 1, 4, 2, 3'
+        - 'via x.1961-06-19.xi-zhongxun-report-on-streamlining-central-organs: 1, 4'
     tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc, name:xi-zhongxun]
-  - id: cal.1961-06.china-leadership-2
-    when: June 22
-    date: '1961-06-22'
-    thread: china-mao
-    c: Mao commends Xi Zhongxun, Secretary-General of the State Council, on his report that the central bureaucracy, 240,000, has been cut by a third;{1} he urges a further 40,000, to a half, and that the report go to the provinces.{2}
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 36; [[w.jianguo-yilai-mao-zedong]], XVI, 69–70 (June 22, 1961; the comment to Deng Xiaoping; Xi''s report of June 19, 240,000 staff in central organs, 80,000 cut). Made public: 1997. To check: [[w.macfarquhar-origins-of-the-cultural]], II, 335 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 36 n.73); [[w.mao-zedong-shuxin-xuanji]], 583–84 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 36 n.74). Names: Mao Zedong, Xi Zhongxun. Check: the day.'
-    src:
-      c: 317774e5
-      rows:
-        - 'w.macfarquhar-origins-of-the-cultural III, 36: 1, 2'
-        - 'via w.macfarquhar-origins-of-the-cultural III, 36 n.73: 1'
-        - 'via w.macfarquhar-origins-of-the-cultural III, 36 n.74: 1, 2'
-        - 'w.jianguo-yilai-mao-zedong XVI, 69–70: 1, 2'
-        - 'via x.1961-06-19.xi-zhongxun-report-on-streamlining-central-organs: 1'
-    tags: [polity:prc, name:mao-zedong, vis:only:prc, name:xi-zhongxun]
+    aliases: [cal.1961-06.china-leadership-2]
   - id: cal.1961-06-22.china-leadership-4
     when: June 22
     date: '1961-06-22'

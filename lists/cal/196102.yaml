@@ -122,13 +122,12 @@ entries:
     date: '1961-02-01'
     place: washington
     thread: congo
-    c: Rusk to Kennedy, "Suggested New United States Policy on the Congo."{1} A new UN mandate to bring the Congo's armed forces under control, by force if need be;{2} a middle-of-the-road government under Ileo, failing that one taking in Lumumba's followers but not Lumumba;{3} a larger UN hand in its administration.{4} Rusk sums it up at the NSC that day; Kennedy approves it after.{5}
-    n: '[FRUS 1961–63, XX, doc. 17](https://history.state.gov/historicaldocuments/frus1961-63v20/d17); [doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v20/d18) (the NSC; the approval). [[w.rusk-as-i-saw-it-1990]], 277; [[w.poole-joint-chiefs-of-staff]], 257. Names: Rusk, Kennedy, Ileo, Lumumba.'
+    c: Rusk to Kennedy, "Suggested New United States Policy on the Congo."{1} A new UN mandate to bring the Congo's armed forces under control, by force if need be;{2} a middle-of-the-road government under Ileo, failing that one taking in Lumumba's followers but not Lumumba;{3} a larger UN hand in its administration.{4}
+    n: '[FRUS 1961–63, XX, doc. 17](https://history.state.gov/historicaldocuments/frus1961-63v20/d17). The NSC meeting and the approval, which the editorial note of FRUS 1961–63, XX, doc. 18, dates Feb. 1, are entered on their own. [[w.rusk-as-i-saw-it-1990]], 277; [[w.poole-joint-chiefs-of-staff]], 257. Names: Rusk, Kennedy, Ileo, Lumumba.'
     src:
-      c: 130df690
+      c: 597444fb
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d17: 1, 2, 3, 4'
-        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d18: 5'
         - 'w.rusk-as-i-saw-it-1990 277: 1, 2, 3, 4'
         - 'via x.1984.rusk-interviews-with-richard-rusk: 1, 2, 3, 4'
         - 'w.poole-joint-chiefs-of-staff 257: 1, 3'
@@ -414,6 +413,39 @@ entries:
     c: Chen Yun 陈云 presides at a working meeting of the State Council's Finance and Trade Office 国务院财贸办公室 on the making and sharing of yarn and cloth.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 72. Made public: 2015. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun, vis:only:prc]
+  - id: cal.1961-02-01.congo-2
+    when: Feb. 1
+    date: '1961-02-01'
+    place: washington
+    thread: congo
+    follows:
+      - cal.1961-02-01.congo
+    c: 'The NSC, 475th meeting. Dulles, briefing: no recent dramatic developments in the Congo. Rusk summarizes the new policy proposals sent to Kennedy that day.'
+    n: '[FRUS 1961–63, XX, doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v20/d18) (editorial note: Lemnitzer''s handwritten notes of the meeting; NSC Action No. 2397–d). See [[cal.1961-02-01.congo]]. Names: Dulles, Rusk, Kennedy.'
+    tags: [name:dulles-allen-w, name:rusk-dean, name:kennedy-john-f]
+  - id: cal.1961-02-01.congo-3
+    when: Feb. 1
+    date: '1961-02-01'
+    place: washington
+    thread: congo
+    follows:
+      - cal.1961-02-01.congo-2
+    c: Kennedy reviews and approves the State Department's new Congo policy.
+    n: '[FRUS 1961–63, XX, doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v20/d18) (editorial note: "subsequently reviewed and approved"); [doc. 19](https://history.state.gov/historicaldocuments/frus1961-63v20/d19) (the Department''s telegram to New Delhi, Feb. 2, 11:07 p.m.: "approved by President yesterday"). See [[cal.1961-02-01.congo]]. Names: Kennedy.'
+    tags: [name:kennedy-john-f]
+  - id: cal.1961-02-01.economy-2
+    when: Feb. 1
+    date: '1961-02-01'
+    time: 1961-02-01T21:00Z
+    place: washington
+    thread: economy
+    also: [soviet-union, congo, defense]
+    follows:
+      - cal.1961-02-01.economy
+    c: 'News conference, the second, State Department auditorium, 4 p.m. Announced: the ban on dependents'' travel abroad to be lifted; five pilot food-stamp areas; faster Veterans Administration insurance dividends, over $250 million; a lower FHA maximum interest. Asked about Khrushchev and the U.N., the RB-47 fliers, a tax cut (not now), the Congo.'
+    n: 'The President''s News Conference of February 1, 1961, [1961 Pub. Papers 30](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=88) (Feb. 1, 1961). Names: Kennedy, Khrushchev.'
+    tags: [name:kennedy-john-f, name:khrushchev-nikita-s]
+    time_zone: America/New_York
   - id: cal.1961-02-02.program
     when: Feb. 2
     date: '1961-02-02'
@@ -1604,15 +1636,16 @@ entries:
     when: Feb. 7
     date: '1961-02-07'
     thread: china-propaganda
-    c: 'The Center 中共中央 forwards, to be followed, the Culture and Education Small Group''s report on culture and education for 1961 and after, approved by the Secretariat: rural students over 16 not above 2 per cent of the rural labor force; primary education by differences between town and country; quality the first task in higher education.{1}'
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 103–104; [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 168–179 (the Center 中共中央 forwards the Central Culture and Education Small Group''s 中央文教小组 report "On the arrangement of culture and education work in 1961 and for a period to come" 《关于一九六一年和今后一个时期文化教育工作安排的报告》 on Feb. 7, 1961, to be followed: rural students over sixteen held to about 2 percent of the rural labor force for three to five years, 172; quality first in higher education, 173; enrolment for 1961, higher schools 250,000, 90,000 fewer than in 1960; printed from the Central Committee''s document). Made public: 1997. To check: [[w.zhonghua-renmin-gongheguo-jiaoyu]], 285, 288–89 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 103 n.80a); [[w.zhongguo-jiaoyu-nianjian-1949]], 93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 103 n.80b).'
+    c: 'The Center 中共中央 forwards, to be followed, the Culture and Education Small Group''s report on culture and education for 1961 and after, approved by the Secretariat: rural students over 16 not above 2 per cent of the rural labor force; primary education by differences between town and country; quality the first task in higher education.{1} Enrolment for 1961: higher schools 250,000, 94,000 fewer than in 1960; secondary specialist schools 500,000, 110,000 fewer; ordinary middle schools 3,350,000, 990,000 fewer.{2}'
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 103–104; [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 168–179 (the Center 中共中央 forwards the Central Culture and Education Small Group''s 中央文教小组 report "On the arrangement of culture and education work in 1961 and for a period to come" 《关于一九六一年和今后一个时期文化教育工作安排的报告》 on Feb. 7, 1961, to be followed: rural students over sixteen held to about 2 percent of the rural labor force for three to five years, 172; quality first in higher education, 173; enrolment for 1961, higher schools 250,000, 94,000 fewer than in 1960; printed from the Central Committee''s document); [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 176. Made public: 1997. To check: [[w.zhonghua-renmin-gongheguo-jiaoyu]], 285, 288–89 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 103 n.80a); [[w.zhongguo-jiaoyu-nianjian-1949]], 93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 103 n.80b).'
     src:
-      c: 95c0335f
+      c: 7563412a
       rows:
         - 'w.macfarquhar-origins-of-the-cultural III, 103–104: 1'
         - 'via w.macfarquhar-origins-of-the-cultural III, 103 n.80a: 1'
         - 'via w.macfarquhar-origins-of-the-cultural III, 103 n.80b: 1'
         - 'w.jianguo-yilai-zhongyao-wenxian XIV, 168–179: ?'
+        - 'w.jianguo-yilai-zhongyao-wenxian XIV, 176: 2'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1961-02-08.cuba
     when: Feb. 8
@@ -1634,13 +1667,13 @@ entries:
         - 'via w.jones-bay-of-pigs 52 n.19c: 5'
         - 'w.bissell-reflections-of-a-cold 165–66: 1, 3'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 178: 1, 2, 3, 4'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d39: time'
     tags: [name:bissell-richard-m-jr, name:kennedy-john-f, name:rusk-dean, name:berle-adolf-a, name:bundy-mcgeorge]
     time_range:
-      - 1961-02-08T14:00Z
-      - 1961-02-08T22:00Z
-    time_band: workday daytime
+      - 1961-02-08T17:00Z
+      - 1961-02-08T23:00Z
+    time_band: afternoon
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1961-02-08.defense
     when: Feb. 8
     date: '1961-02-08'
@@ -2957,14 +2990,20 @@ entries:
     date: '1961-02-14'
     thread: china-zhou
     also: [economy, china-economy]
-    c: Zhou Enlai at the Secretariat on the supply plan for coal in February and March; on the 6th he had called the vice-premiers and departments on it.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 14, 1961); [[w.peng-zhen-nianpu-1902]], IV, 102–103 (Feb. 14, 1961, afternoon; the 238th meeting, Peng Zhen presiding, Zhou attending; coal for February and March: if 500,000 tons a day in late February, allot nine-tenths of it; the Datong mines supplied, attendance only 70 percent; drive, cutting and tunneling together, supply, allotment at nine-tenths; warnings to the metallurgy, railway and machinery ministries; Zhou on the grain shortage in the provinces; Tan Zhenlin to draft a paper on squeezing grain from the non-working and light workers for the workers, no hope in imported grain). Made public: 1997. Names: Zhou Enlai.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    c: 'Zhou Enlai at the Secretariat on the supply plan for coal in February and March; on the 6th he had called the vice-premiers and departments on it.{1} The 238th meeting, Peng Zhen presiding. Peng: if output reaches 500,000 tons a day in late February, allot nine-tenths; the Datong mines are supplied, attendance only 70 percent; warnings to the metallurgy, railway and machinery ministries. Zhou reports the grain shortage in the provinces; Tan Zhenlin to draft a paper to squeeze grain for workers from the non-working and light workers; no hope to be put in imported grain.{2}'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 391 (Feb. 14, 1961); [[w.peng-zhen-nianpu-1902]], IV, 102–103 (Feb. 14, 1961, afternoon; the 238th meeting, Peng Zhen presiding, Zhou attending; coal for February and March: if 500,000 tons a day in late February, allot nine-tenths of it; the Datong mines supplied, attendance only 70 percent; drive, cutting and tunneling together, supply, allotment at nine-tenths; warnings to the metallurgy, railway and machinery ministries; Zhou on the grain shortage in the provinces; Tan Zhenlin to draft a paper on squeezing grain from the non-working and light workers for the workers, no hope in imported grain); [[w.peng-zhen-nianpu-1902]], IV, 102–103. Made public: 1997. Names: Zhou Enlai, Peng Zhen, Tan Zhenlin.'
+    src:
+      c: ac9d5fcd
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 391: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 102–103: 2'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:peng-zhen, name:tan-zhenlin]
     time_range:
       - 1961-02-14T04:00Z
       - 1961-02-14T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1961-02-14.china-leadership-2
     when: Feb. 14
     date: '1961-02-14'
@@ -4402,16 +4441,16 @@ entries:
     also: [farm, trade, china-zhou, china-economy]
     follows:
       - cal.1961-02-22.china-leadership-2
-    c: 'At the enlarged Standing Committee that evening Zhou Enlai reports the Planning Commission''s Party group on the 1961 capital construction plan and speaks on grain: the question is the estimate of disaster, which has been too low since last year, so recovery is not quick;{1} this year''s grain imports to rise from 4 million tons to 5 million. Chen Yun speaks on moving workers back to the villages and on the market.{2}'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 393 (Feb. 22, 1961); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 507 (Feb. 22, 1961; Liu presides at the enlarged Standing Committee meeting on the national economic plan, and hears Zhou Enlai on the 1961 capital construction arrangements and the 1961 grain situation); [[w.peng-zhen-nianpu-1902]], IV, 107 (Feb. 22, 1961, 10 p.m. to 1 a.m.; Peng Zhen at the enlarged Standing Committee, Liu Shaoqi presiding, on the economic plan, hearing Zhou on the 1961 capital construction plan and the grain situation); [[w.chen-yun-nianpu-xiuding]], III, 75 (evening: Chen Yun at the Standing Committee Liu Shaoqi chairs, hearing the Planning Commission''s Party group on the 1961 capital construction plan; he says the factories have 20 percent more workers than they need, and five million sent home would add much farm labor; purchasing power exceeds goods by 10 billion yuan: more goods, less spending, more high-priced sweets, high-priced restaurants and yarn, price rises kept narrow so as not to hurt bank savings; townspeople hold 2.5 billion yuan in savings, commune members 1.5 billion, the rest in their pockets; goods to the villages before the towns, to buy farm produce). Made public: 1996. The order: after [[cal.1961-02-22.china-leadership-2]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 392–93). Names: Zhou Enlai, Chen Yun.'
+    c: 'At the enlarged Standing Committee that evening Zhou Enlai reports the Planning Commission''s Party group on the 1961 capital construction plan and speaks on grain: the question is the estimate of disaster, which has been too low since last year, so recovery is not quick;{1} this year''s grain imports to rise from 4 million tons to 5 million. Chen Yun speaks on moving workers back to the villages and on the market.{2} Liu Shaoqi presides, 10 p.m. to 1 a.m.; Peng Zhen attends.{3} Chen Yun: the factories have 20 percent more workers than they need, and five million sent home would add much farm labor; purchasing power exceeds goods by 10 billion yuan: more goods, less spending, more high-priced sweets, restaurants and yarn, price rises kept narrow so as not to hurt bank savings. Townspeople hold 2.5 billion yuan in savings, commune members 1.5 billion, the rest in their pockets. Goods to the villages before the towns, to buy farm produce.{4}'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 393 (Feb. 22, 1961); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 507 (Feb. 22, 1961; Liu presides at the enlarged Standing Committee meeting on the national economic plan, and hears Zhou Enlai on the 1961 capital construction arrangements and the 1961 grain situation); [[w.peng-zhen-nianpu-1902]], IV, 107 (Feb. 22, 1961, 10 p.m. to 1 a.m.; Peng Zhen at the enlarged Standing Committee, Liu Shaoqi presiding, on the economic plan, hearing Zhou on the 1961 capital construction plan and the grain situation); [[w.chen-yun-nianpu-xiuding]], III, 75 (evening: Chen Yun at the Standing Committee Liu Shaoqi chairs, hearing the Planning Commission''s Party group on the 1961 capital construction plan; he says the factories have 20 percent more workers than they need, and five million sent home would add much farm labor; purchasing power exceeds goods by 10 billion yuan: more goods, less spending, more high-priced sweets, high-priced restaurants and yarn, price rises kept narrow so as not to hurt bank savings; townspeople hold 2.5 billion yuan in savings, commune members 1.5 billion, the rest in their pockets; goods to the villages before the towns, to buy farm produce); [[w.peng-zhen-nianpu-1902]], IV, 107; [[w.chen-yun-nianpu-xiuding]], III, 75. Made public: 1996. The order: after [[cal.1961-02-22.china-leadership-2]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 392–93). Names: Zhou Enlai, Chen Yun, Liu Shaoqi, Peng Zhen.'
     src:
-      c: f1748298
+      c: e2a5de68
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 393: ?'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 507: 1'
-        - 'w.peng-zhen-nianpu-1902 IV, 107: ?'
-        - 'w.chen-yun-nianpu-xiuding III, 75: ?'
-    tags: [polity:prc, name:zhou-enlai, name:chen-yun, vis:only:prc]
+        - 'w.peng-zhen-nianpu-1902 IV, 107: 3'
+        - 'w.chen-yun-nianpu-xiuding III, 75: 4'
+    tags: [polity:prc, name:zhou-enlai, name:chen-yun, vis:only:prc, name:liu-shaoqi, name:peng-zhen]
     time_zone: Asia/Shanghai
   - id: cal.1961-02-22.china-leadership-4
     when: Feb. 22

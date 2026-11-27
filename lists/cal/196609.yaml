@@ -172,6 +172,7 @@ entries:
         - 'w.jianguo-yilai-mao-zedong XVIII, 346–347: 2'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 346 n.1: 1, 2'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc, vis:only:prc, name:saifudin, name:tan-qilong, name:wang-enmao]
+    time_zone: Asia/Shanghai
   - id: cal.1966-09-01.china-leadership-3
     when: Sept. 1
     date: '1966-09-01'
@@ -809,42 +810,50 @@ entries:
   - id: cal.1966-09-05.elections-1966
     when: Sept. 5
     date: '1966-09-05'
+    time: 1966-09-05T21:08Z
     place: dayton
     thread: elections-1966
     also: [vietnam-support]
     follows:
       - cal.1966-09-05.health
     c: Dayton, Ohio, the Montgomery County Fair Grounds, a week after racial unrest that called out the Guard. Governor Rhodes, Congressman Rodney Love and Senator Frank Lausche with Johnson. He speaks on youth and public service; a banner, "Thou Shalt Not Kill," about thirty-five in the group, scuffling, police link arms.
-    n: '[[w.johnson-white-house-diary]], 420 (Lady Bird Johnson''s account). To check: the Public Papers, remarks at Dayton, Sept. 5, 1966. Names: Johnson, Rhodes, Lausche.'
+    n: 'Remarks in Dayton at the Montgomery County Fair, [1966 Pub. Papers 967](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=341) (Sept. 5, 1966) (the hour in its note, local time: 5:08 p.m.). [[w.johnson-white-house-diary]], 420 (Lady Bird Johnson''s account). Names: Johnson, Rhodes, Lausche.'
     tags: [name:johnson-lyndon-b, name:rhodes-james-a, name:lausche-frank-j, state:oh, city:dayton]
+    time_zone: America/New_York
   - id: cal.1966-09-05.elections-1966-2
     when: Sept. 5
     date: '1966-09-05'
+    time: 1966-09-06T00:40Z
     place: lancaster
     thread: elections-1966
     follows:
       - cal.1966-09-05.elections-1966
     c: 'Lancaster, Ohio, Fairfield County Fair Grounds. Johnson, two hours late, stops fourteen times on the way from Columbus, speaking on a bull horn; twenty-six school bands; the Congressman''s wife, Mrs. Walter Moeller. A newsman: "If crossroads Ohio were his meat, Lancaster was the President''s triumph."'
-    n: '[[w.johnson-white-house-diary]], 420–21 (Lady Bird Johnson''s account). Names: Johnson.'
+    n: 'Remarks at the Fairfield County Fairgrounds, Lancaster, Ohio, [1966 Pub. Papers 973](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=347) (Sept. 5, 1966) (the hour in its note, local time: 8:40 p.m.). [[w.johnson-white-house-diary]], 420–21 (Lady Bird Johnson''s account). Names: Johnson.'
     tags: [name:johnson-lyndon-b, state:oh, city:lancaster]
+    time_zone: America/New_York
   - id: cal.1966-09-05.health
     when: Sept. 5
     date: '1966-09-05'
+    time: 1966-09-05T19:35Z
     place: battle-creek
     thread: health
     follows:
       - cal.1966-09-05.vietnam-support
     c: 'Battle Creek, Mich. Johnson at the Battle Creek Sanitarium''s centennial: the health achievements of the Administration and the hope of giving the world the medical knowledge accumulated; praise of the freshman Congressman Paul Todd, no plea to elect him. Sixty-five thousand estimated along the way.'
-    n: '[[w.johnson-white-house-diary]], 419–20 (Lady Bird Johnson''s account). To check: the Public Papers, remarks at Battle Creek, Sept. 5, 1966. Names: Johnson.'
+    n: 'Remarks at the Battle Creek Sanitarium, Battle Creek, Michigan, [1966 Pub. Papers 961](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=335) (Sept. 5, 1966) (the hour in its note, local time: 2:35 p.m.). [[w.johnson-white-house-diary]], 419–20 (Lady Bird Johnson''s account). Names: Johnson.'
     tags: [name:johnson-lyndon-b, state:mi, city:battle-creek]
+    time_zone: America/Detroit
   - id: cal.1966-09-05.vietnam-support
     when: Sept. 5
     date: '1966-09-05'
+    time: 1966-09-05T16:40Z
     place: detroit
     thread: vietnam-support
     c: 'Detroit, Cobo Hall, Labor Day, some five thousand. Governor Romney meets Johnson at the airport. A heckler: "Let''s settle the war in Vietnam!" Johnson, off his text: "If anyone will show me the time schedule when aggression and infiltration and ''might makes right'' will be halted, then I, as President of this country, will lay on the table the schedule for the withdrawal of all of our forces from Vietnam." The hall rises. No parade; "almost no blue shirts."'
-    n: '[[w.johnson-white-house-diary]], 418–19 (Lady Bird Johnson''s account). To check: the Public Papers, Labor Day remarks at Detroit, Sept. 5, 1966. Names: Johnson, Romney.'
+    n: 'Remarks at an AFL-CIO Rally in Detroit, [1966 Pub. Papers 954](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=328) (Sept. 5, 1966) (the hour in its note, local time: 11:40 a.m.). [[w.johnson-white-house-diary]], 418–19 (Lady Bird Johnson''s account). Names: Johnson, Romney.'
     tags: [name:johnson-lyndon-b, name:romney-george-w, state:mi, city:detroit]
+    time_zone: America/Detroit
   - id: cal.1966-09-05.china-leadership
     when: Sept. 5
     date: '1966-09-05'
@@ -2569,6 +2578,7 @@ entries:
     c: Moscow. Brezhnev receives Tsedenbal, First Secretary of the Mongolian party, at 10 a.m., Andropov present.
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 146 (Sept. 13). Names: Brezhnev, Tsedenbal.'
     tags: [name:brezhnev-leonid, polity:ussr, polity:mongolia, name:tsedenbal]
+    time_zone: Europe/Moscow
   - id: cal.1966-09-13.china-leadership
     when: Sept. 13
     date: '1966-09-13'
@@ -3942,31 +3952,37 @@ entries:
   - id: cal.1966-09-21.conservation
     when: Sept. 21
     date: '1966-09-21'
+    time: 1966-09-21T19:58Z
     place: monterey
     thread: conservation
     c: 'Monterey, Cal., Colton Hall. Mrs. Johnson with Governor Brown, Senator Fred Farr and the Mayor, Minnie Coyle: "conservation, beautification, call it what you will, is more than just one tree, or one historic building, or one scenic highway. It is a frame of reference, a way of life." She plants a chestnut seedling carried from the East.'
-    n: '[[w.johnson-white-house-diary]], 423–25 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Edmund Brown.'
+    n: '[Mrs. Lyndon B. Johnson, Daily Diary, Sept. 21, 1966](https://catalog.archives.gov/id/142677443), image 1 (LBJ Library; National Archives Catalog) (Colton Hall at 12:58 p.m. for the welcoming ceremonies and her speech, Mayor Coyle, Governor Brown and Fred Farr on the platform; the chestnut seedling planted at 1:35). [[w.johnson-white-house-diary]], 423–25 (Lady Bird Johnson''s account; her arrival at Monterey "a little after noon"). Names: Lady Bird Johnson, Edmund Brown.'
     tags: [name:johnson-lady-bird, name:brown-edmund-g, state:ca, city:monterey]
+    time_zone: America/Los_Angeles
   - id: cal.1966-09-21.conservation-2
     when: Sept. 21
     date: '1966-09-21'
+    time: 1966-09-21T21:40Z
     place: big-sur
     thread: conservation
     follows:
       - cal.1966-09-21.conservation
     c: Hurricane Point, Big Sur, Cal. Mrs. Johnson dedicates the Big Sur Scenic Highway; Governor Brown, Senator Farr, Nathaniel Owings and she speak; a plaque with Robinson Jeffers's lines. Liz Carpenter holds the photographers back.
-    n: '[[w.johnson-white-house-diary]], 425 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Edmund Brown, Liz Carpenter.'
+    n: '[Mrs. Lyndon B. Johnson, Daily Diary, Sept. 21, 1966](https://catalog.archives.gov/id/142677443), image 1 (LBJ Library; National Archives Catalog) (Hurricane Point at 2:40 p.m. for the dedication of the highway, Owings, Farr and Brown there; the ribbon on the plaque; she leaves at 3). [[w.johnson-white-house-diary]], 425 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Edmund Brown, Liz Carpenter.'
     tags: [name:johnson-lady-bird, name:brown-edmund-g, name:carpenter-liz, state:ca]
+    time_zone: America/Los_Angeles
   - id: cal.1966-09-21.conservation-3
     when: Sept. 21
     date: '1966-09-21'
+    time: 1966-09-22T02:00Z
     place: san-simeon
     thread: conservation
     follows:
       - cal.1966-09-21.conservation-2
     c: 'San Simeon, Cal., Hearst Castle, now a State park. Mrs. Johnson and Governor Brown and Mrs. Brown receive three or four hundred guests at the Neptune Pool: conservationists, museum directors, college presidents, Pulitzer winners, movie stars, businessmen, Hearsts; a barbecue; Danny Kaye master of ceremonies, gibes at Udall.'
-    n: '[[w.johnson-white-house-diary]], 426–27 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Edmund Brown, Udall.'
+    n: '[Mrs. Lyndon B. Johnson, Daily Diary, Sept. 21, 1966](https://catalog.archives.gov/id/142677443), image 2 (LBJ Library; National Archives Catalog) (at Hearst Castle from 5:38 p.m.; at 7, the reception, water ballet and entertainment, Danny Kaye). [[w.johnson-white-house-diary]], 426–27 (Lady Bird Johnson''s account; the evening at the Neptune Pool begins "A little after 7"). Names: Lady Bird Johnson, Edmund Brown, Udall.'
     tags: [name:johnson-lady-bird, name:brown-edmund-g, name:udall-stewart-l, state:ca]
+    time_zone: America/Los_Angeles
   - id: cal.1966-09-21.china-leadership
     when: Sept. 21
     date: '1966-09-21'
@@ -4331,13 +4347,6 @@ entries:
     c: Zhou Enlai, revising the Notice on social policy questions, adds that the Cultural Revolution Group should first send reporters of the newspapers and other staff to the places concerned and to important cities to inquire and collect material; and that after National Day the liaison meetings sessions on principle will take the questions one by one, by urgency and readiness.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 63 (Sept. 14, 1966; "九月二十三日"). Made public: 2020. See [[cal.1966-09-14.china-leadership-5]]. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
-  - id: cal.1966-09-23.china-leadership-4
-    when: Sept. 23
-    date: '1966-09-23'
-    thread: china-economy
-    c: The Center sends out Li Xiannian's report on policy questions in finance, trade and handicrafts, as Zhou Enlai's liaison meeting discussed it on Sept. 16.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 63–64 (under Sept. 16, 1966). Made public: 2020. See [[cal.1966-09-16.china-leadership-2]]. Names: Zhou Enlai, Li Xiannian.'
-    tags: [name:zhou-enlai, name:li-xiannian, polity:prc, vis:only:prc]
   - id: cal.1966-09-23.china-leadership-2
     when: Sept. 23
     date: '1966-09-23'
@@ -4489,13 +4498,15 @@ entries:
     date: '1966-09-24'
     thread: china-red-guards
     also: [china-economy]
-    c: 'The Center 中共中央 forwards the report of the State Council''s Finance and Trade Office 国务院财贸办公室 and the State Economic Commission 国家经济委员会 on some policy questions of finance, trade and handicrafts, approving demands the Red Guards made in the four olds 破四旧: joint state-private enterprises to become state enterprises; the capitalists'' fixed interest abolished altogether; cooperative shops to become state shops by conditions and steps; lipstick, rouge, perfume and other dear cosmetics no longer sold at home.'
-    n: '[[w.pu-weihua-zalan-jiu-shijie]], 253, 253 n.105. Made public: 2008. Printed for internal circulation: [[w.wenhua-dageming-yanjiu-ziliao]], I, 126–127 (1988). To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 126–127 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 253 n.105).'
+    c: 'The Center 中共中央 forwards the report of the State Council''s Finance and Trade Office 国务院财贸办公室 and the State Economic Commission 国家经济委员会 on some policy questions of finance, trade and handicrafts, approving demands the Red Guards made in the four olds 破四旧: joint state-private enterprises to become state enterprises; the capitalists'' fixed interest abolished altogether; cooperative shops to become state shops by conditions and steps; lipstick, rouge, perfume and other dear cosmetics no longer sold at home.{1} The report is Li Xiannian''s; Zhou Enlai''s liaison meeting discussed it on Sept. 16.{2}'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 253, 253 n.105; [[w.zhou-enlai-nianpu-1949-2020]], III, 63–64 (under Sept. 16, 1966; the Center sends the report out Sept. 23). Made public: 2008; 2020 (the Zhou nianpu). Printed for internal circulation: [[w.wenhua-dageming-yanjiu-ziliao]], I, 126–127 (1988). To check: [[w.wenhua-dageming-yanjiu-ziliao]], I, 126–127 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 253 n.105). See [[cal.1966-09-16.china-leadership-2]]. Names: Zhou Enlai, Li Xiannian. Check: the day; [[w.zhou-enlai-nianpu-1949-2020]], III, 63–64 has the Center send the report out Sept. 23.'
     src:
-      c: 462886cb
+      c: 67e8cd73
       rows:
-        - 'w.pu-weihua-zalan-jiu-shijie 253: all'
-    tags: [polity:prc, vis:only:prc]
+        - 'w.pu-weihua-zalan-jiu-shijie 253: 1'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 63–64: 2'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:li-xiannian]
+    aliases: [cal.1966-09-23.china-leadership-4]
   - id: cal.1966-09-25.opinion
     when: Sept. 25
     date: '1966-09-25'

@@ -3539,14 +3539,17 @@ entries:
     date: '1962-11-16'
     time: 1962-11-16T15:08Z
     thread: economy
-    c: 'Meeting on the economy and the tax program for 1963, recorded: Kennedy with Dillon, Fowler, Bell, Wirtz, Heller, Gordon, Gudeman, Schultze, Samuelson, Solow, Tobin and Ackley. Bell: a case "of the kind that Mills is after" can be made "at the expense of deferring a number of things that really are needed."'
+    c: 'Meeting on the economy and the tax program for 1963, recorded: Kennedy with Dillon, Fowler, Bell, Wirtz, Heller, Gordon, Gudeman, Schultze, Samuelson, Solow, Tobin and Ackley.{2} Bell: a case "of the kind that Mills is after" can be made "at the expense of deferring a number of things that really are needed."{3}'
+    cut_from:
+      '2': '1'
+      '3': '1'
     n: '[Meeting on the Economy, 10:08 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-economy), Tape 58 (Miller Center). [[w.zelizer-taxing-america]], 196. Check: Bell''s words are as Zelizer gives them (196), from the Kennedy Library''s transcript; the recording (Miller Center, Tape 58) was not heard in the audit of Nov. 25, 2026, and its catalogue page gives only the title and the day. See [[cal.1962-08-13.economy]]. Names: Kennedy, Dillon, Fowler, Bell, Wirtz, Heller, Gordon, Gudeman, Schultze, Samuelson, Tobin, Ackley, Mills.'
     src:
       c: 7a3b9498
       rows:
-        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-economy: all'
-        - 'w.zelizer-taxing-america 196: all'
-        - 'via w.zelizer-taxing-america 196 n.66: all'
+        - 'w.zelizer-taxing-america 196: 2, 3'
+        - 'via w.zelizer-taxing-america 196 n.66: 2, 3'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-economy: 2'
     tags: [name:kennedy-john-f, name:dillon-c-douglas, name:fowler-henry-h, name:bell-david-e, name:wirtz-w-willard, name:heller-walter-w, name:gordon-kermit, name:gudeman-edward, name:schultze-charles-l, name:samuelson-paul-a, name:tobin-james, name:ackley-gardner, name:mills-wilbur-d]
   - id: cal.1962-11-16.soviet-union
     when: Nov. 16
@@ -4304,17 +4307,16 @@ entries:
     thread: missile-crisis
     also: [press-and-broadcasting]
     part_of: cal.1962-11-20.press-and-broadcasting-2
-    c: 'Quarantine lifted.{1} Asked of Collins, of the National Association of Broadcasters, charging State and Defense with news suppression in the Cuban crisis: "I have no apologies";{2} the news "dribbled out" before the response was settled and the allies consulted would have been "a great mistake and possibly a disaster." One newspaper learned details the Sunday and did not print them.{3}'
-    n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 830 (the quarantine), 834 (Collins). [[w.fursenko-one-hell-of-a]], 310 (the quarantine); [[w.fursenko-khrushchevs-cold-war]], 503 (the quarantine); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 217 (the quarantine lifted at once). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). After [[cal.1962-11-20.missile-crisis-3|Robert Kennedy''s talk with Dobrynin]], four hours before. After [[cal.1962-11-20.missile-crisis-2]], four hours before the press conference (the sources above). See [[cal.1962-05-24.missile-crisis]], [[cal.1962-10-22.missile-crisis]]. Names: Collins, Kennedy.'
+    c: Quarantine lifted.{1}
+    n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 830 (the quarantine). [[w.fursenko-one-hell-of-a]], 310 (the quarantine); [[w.fursenko-khrushchevs-cold-war]], 503 (the quarantine); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 217 (the quarantine lifted at once). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). The answer on Collins (question 7, 1962 Pub. Papers 834) is entered on its own. After [[cal.1962-11-20.missile-crisis-3|Robert Kennedy''s talk with Dobrynin]], four hours before. After [[cal.1962-11-20.missile-crisis-2]], four hours before the press conference (the sources above). See [[cal.1962-05-24.missile-crisis]], [[cal.1962-10-22.missile-crisis]].'
     src:
-      c: dff4be46
+      c: 172080b3
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890: 1, 2, 3'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890: 1'
         - 'w.fursenko-one-hell-of-a 310: 1'
         - 'w.fursenko-khrushchevs-cold-war 503: 1'
-        - 'w.sorensen-kennedy 321–22: 2'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 217: 1'
-    tags: [name:kennedy-john-f, name:collins-leroy]
+    tags: [name:kennedy-john-f]
     aliases: [cal.1962-11-20.press-and-broadcasting]
   - id: cal.1962-11-20.civil-rights-the-executive
     when: Nov. 20
@@ -4634,6 +4636,20 @@ entries:
     c: Peking 北京. Zhu De 朱德 presides at the sixty-ninth session of the Second National People's Congress Standing Committee 第二届全国人大常委会, which approves the rules for the people's congress and people's council of the Lijiang Naxi Autonomous County 丽江纳西族自治县, Yunnan 云南省.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1854. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de]
+  - id: cal.1962-11-20.missile-crisis-4
+    when: Nov. 20
+    date: '1962-11-20'
+    time: 1962-11-20T23:00Z
+    place: washington
+    thread: missile-crisis
+    also: [press-and-broadcasting]
+    follows:
+      - cal.1962-11-20.civil-rights-the-executive
+    part_of: cal.1962-11-20.press-and-broadcasting-2
+    c: 'Asked, at the news conference, of Collins, of the National Association of Broadcasters, charging State and Defense with news suppression in the Cuban crisis: "I have no apologies";{2} the news "dribbled out" before the response was settled and the allies consulted would have been "a great mistake and possibly a disaster." One newspaper learned details the Sunday and did not print them.{3}'
+    n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 834 (question 7). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). The order: after the housing order, which the conference took up at 831–32 (1962 Pub. Papers). See [[cal.1962-11-20.missile-crisis]]. Names: Collins, Kennedy.'
+    tags: [name:kennedy-john-f, name:collins-leroy]
+    time_zone: America/New_York
   - id: cal.1962-11-21.space
     when: Nov. 21
     date: '1962-11-21'

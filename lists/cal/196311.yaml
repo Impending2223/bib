@@ -4636,30 +4636,27 @@ entries:
   - id: cal.1963-11-21.elections-1964-3
     when: Nov. 21, Thursday night
     date: '1963-11-21'
+    place: texas
     thread: elections-1964
-    also: [assassination]
-    c: 'The night before Dallas, by Robert Kennedy''s later account.{1} Kennedy to his wife: Johnson "incapable of telling the truth."{2} Kennedy then thinking, by the same account, of McNamara for the nomination of 1968.{3}'
-    n: '[[w.robert-kennedy-in-his]], 26, 46 (to Schlesinger, Feb. 27, 1965, and to Martin, Feb. 29, 1964). See [[cal.1963-11-21.assassination]]. Names: John F. Kennedy, Jacqueline Kennedy, Johnson, McNamara, Robert Kennedy.'
+    also: [assassination, democratic-party]
+    c: 'The night before Dallas, by Robert Kennedy''s later account.{1} Kennedy to his wife: Johnson "incapable of telling the truth";{2} probably on Texas politics, by Jacqueline Kennedy''s account to Robert Kennedy.{4} Kennedy then thinking, by the same account, of McNamara for the nomination of 1968.{3}'
+    n: '[[w.robert-kennedy-in-his]], 26, 46 (to Schlesinger, Feb. 27, 1965, and to Martin, Feb. 29, 1964); [[w.schlesinger-robert-kennedy-and-his]], 626 (Schlesinger has it from Robert Kennedy, told by Jacqueline Kennedy "then or later"). To check: Robert Kennedy, interview by John Bartlow Martin, Feb. 29, 1964, 30, JFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 626 n.32). See [[cal.1963-11-21.assassination]]. Names: John F. Kennedy, Jacqueline Kennedy, Johnson, McNamara, Robert Kennedy.'
     src:
-      c: 289a4353
+      c: 879850ef
       rows:
         - 'w.robert-kennedy-in-his 26, 46: 1, 2, 3'
         - 'via x.1965-02-27.rfk-recorded-interview-by-the-author: 2'
         - 'via x.1964-02-29.rfk-oral-history-martin-mclean: 1, 2, 3'
+        - 'w.schlesinger-robert-kennedy-and-his 626: 2, 4'
+        - 'via w.schlesinger-robert-kennedy-and-his 626 n.32: 2, 4'
     tags: [name:kennedy-john-f, name:kennedy-jacqueline, name:johnson-lyndon-b, name:mcnamara-robert-s, name:kennedy-robert-f]
-  - id: cal.1963-11-21.democratic-party
-    when: Nov. 21
-    date: '1963-11-21'
-    place: texas
-    thread: democratic-party
-    c: 'Texas, Thursday night. Kennedy on Johnson, probably on Texas politics: he is "incapable of telling the truth." By Jacqueline Kennedy''s account to Robert Kennedy.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 626. Check: Schlesinger has it from Robert Kennedy, told by Jacqueline Kennedy "then or later". To check: Robert Kennedy, interview by John Bartlow Martin, Feb. 29, 1964, 30, JFK Oral History Program (cited by [[w.schlesinger-robert-kennedy-and-his]], 626 n.32). Names: Kennedy, Johnson, Jacqueline Kennedy, Robert Kennedy.'
-    src:
-      c: 442e7f91
-      rows:
-        - 'w.schlesinger-robert-kennedy-and-his 626: all'
-        - 'via w.schlesinger-robert-kennedy-and-his 626 n.32: all'
-    tags: [name:kennedy-john-f, name:johnson-lyndon-b, name:kennedy-jacqueline, name:kennedy-robert-f]
+    aliases: [cal.1963-11-21.democratic-party]
+    time_range:
+      - 1963-11-22T04:00Z
+      - 1963-11-22T06:00Z
+    time_band: night
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1963-11-21.democratic-party-2
     when: Nov. 21
     date: '1963-11-21'

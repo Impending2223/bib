@@ -455,7 +455,7 @@ entries:
     date: '1967-05-02'
     thread: vietnam-congress-mansfield
     c: Johnson at breakfast with Morse and Mansfield, on Vietnam and the United Nations.
-    n: '[[w.barrett-uncertain-warriors]], 221 n.26. To check: NSF, Name file, Mansfield, box 6, LBJ Library (cited by [[w.barrett-uncertain-warriors]], 221 n.26c). Names: Johnson, Morse, Mansfield.'
+    n: '[[w.barrett-uncertain-warriors]], 221 n.26. Check: the day. [FRUS 1964–68, V, doc. 152](https://history.state.gov/historicaldocuments/frus1964-68v05/d152), n.3 (to Rostow''s memorandum of Apr. 30) has Johnson take up the United Nations approach at a breakfast on May 1 with Mansfield, Morse, Rusk, Katzenbach, Goldberg and Califano, and again on May 3; none on May 2. To check: NSF, Name file, Mansfield, box 6, LBJ Library (cited by [[w.barrett-uncertain-warriors]], 221 n.26c). Names: Johnson, Morse, Mansfield.'
     src:
       c: f84d7d5d
       rows:
@@ -1453,7 +1453,7 @@ entries:
     place: washington
     thread: vietnam-air-war
     c: 'William Bundy, "Bombing Strategy Options for the Rest of 1967," his views and, he says, Katzenbach''s and Helms''s: concentrate on the lines of communication in the "funnel" south of 20 degrees, at least as effective as the present program, saving American lives, and the option likeliest to move the North.'
-    n: '[FRUS 1964–68, V, doc. 170](https://history.state.gov/historicaldocuments/frus1964-68v05/d170). [[w.gibbons-u-s-government-and]], IV, 633. Made public: FRUS 1964–68, V (2002). To check: [[w.pentagon-papers]], IV, 165–68 (cited by [[w.gibbons-u-s-government-and]], IV, 633 n.73). See [[cal.1967-05-06.vietnam]]. Names: William Bundy, Katzenbach, Helms.'
+    n: '[FRUS 1964–68, V, doc. 170](https://history.state.gov/historicaldocuments/frus1964-68v05/d170). [[w.gibbons-u-s-government-and]], IV, 633; [[w.drea-mcnamara-clifford-and-the-2011]], 208 (the same day State''s experts, Helms backing them, for restraint). Made public: FRUS 1964–68, V (2002). To check: [[w.pentagon-papers]], IV, 165–68 (cited by [[w.gibbons-u-s-government-and]], IV, 633 n.73). See [[cal.1967-05-06.vietnam]]. Names: William Bundy, Katzenbach, Helms.'
     src:
       c: db72eec3
       rows:
@@ -1461,6 +1461,7 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 633: all'
         - 'w.gibbons-u-s-government-and IV, 633 n: all'
         - 'via x.1967-05-09.william-bundy-bombing-strategy-options-for: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 208: ?'
     tags: [name:bundy-william, name:katzenbach-nicholas, name:helms-richard]
     time_range:
       - 1967-05-09T13:00Z
@@ -1473,15 +1474,17 @@ entries:
     date: '1967-05-09'
     place: washington
     thread: vietnam-air-war
-    c: 'McNamara and Vance to Johnson, "Proposed Bombing Program Against North Vietnam," the draft memorandum McNaughton''s office prepared May 5: concentrate on the lines of communication south of 20 degrees; north of it, with one power plant still to be struck, "all worthwhile fixed targets except the ports," in Wheeler''s words, have been hit; the ports not to be struck or mined.'
-    n: '[FRUS 1964–68, V, doc. 169](https://history.state.gov/historicaldocuments/frus1964-68v05/d169). [[w.gibbons-u-s-government-and]], IV, 631, 634. Made public: FRUS 1964–68, V (2002). See [[cal.1967-05-06.vietnam]]. Names: McNamara, Vance, McNaughton, Wheeler.'
+    c: 'McNamara and Vance to Johnson, "Proposed Bombing Program Against North Vietnam," the draft memorandum McNaughton''s office prepared May 5: concentrate on the lines of communication south of 20 degrees; north of it, with one power plant still to be struck, "all worthwhile fixed targets except the ports," in Wheeler''s words, have been hit; the ports not to be struck or mined.{1}'
+    n: '[FRUS 1964–68, V, doc. 169](https://history.state.gov/historicaldocuments/frus1964-68v05/d169). [[w.gibbons-u-s-government-and]], IV, 631, 634; [[w.drea-mcnamara-clifford-and-the-2011]], 208. Made public: FRUS 1964–68, V (2002). See [[cal.1967-05-06.vietnam]]. State''s experts'' restraint that day is on the entry of Bundy''s memorandum. Names: McNamara, Vance, McNaughton, Wheeler.'
     src:
       c: fe95a72a
       rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d169: all'
-        - 'w.gibbons-u-s-government-and IV, 631, 634: all'
-        - 'via x.1967-05-09.mcnamara-and-vance-to-johnson-proposed: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d169: 1'
+        - 'w.gibbons-u-s-government-and IV, 631, 634: 1'
+        - 'via x.1967-05-09.mcnamara-and-vance-to-johnson-proposed: 1'
+        - 'w.drea-mcnamara-clifford-and-the-2011 208: 1'
     tags: [name:mcnamara-robert-s, name:vance-cyrus, name:mcnaughton-john-t, name:wheeler-earle]
+    aliases: [cal.1967-05-09.vietnam-air-war-4]
     time_range:
       - 1967-05-09T13:00Z
       - 1967-05-09T21:00Z
@@ -1503,23 +1506,6 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 634: all'
         - 'via x.1967-05-09.rostow-to-johnson-may-9-1967: all'
     tags: [name:rostow-walt-w, name:johnson-lyndon-b, name:katzenbach-nicholas, name:vance-cyrus, name:bundy-william]
-  - id: cal.1967-05-09.vietnam-air-war-4
-    when: May 9
-    date: '1967-05-09'
-    thread: vietnam-air-war
-    c: McNamara and Vance propose bombing only south of the 20th parallel once the Hanoi power plant is taken out. The same day State's experts, Helms backing them, for restraint.
-    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 208. Check: what State''s experts proposed; p. 208 cut short. Names: McNamara, Vance, Helms.'
-    src:
-      c: 38e77397
-      rows:
-        - 'w.drea-mcnamara-clifford-and-the-2011 208: all'
-    tags: [name:mcnamara-robert-s, name:vance-cyrus, name:helms-richard]
-    time_range:
-      - 1967-05-09T13:00Z
-      - 1967-05-09T21:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
   - id: cal.1967-05-09.democratic-party
     when: May 9
     date: '1967-05-09'
@@ -4430,7 +4416,7 @@ entries:
     place: washington
     thread: middle-east-six-day-war
     c: 'Rusk with Foreign Relations, a long session on the Middle East.{1} Johnson determined to avoid a clash with the Soviet Union and to see the crisis settled in peace.{2} By Rusk''s account to the British the next day: all agree the United States cannot stay out and the Arabs cannot drive Israel into the sea; any action multilateral, the United Nations used to the full.{3}'
-    n: '[113 Cong. Rec. 13,788](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-8-1.pdf#page=104) (1967) (Clark, Senate, May 24, 1967: "yesterday ... after a long session in the Foreign Relations Committee of the Senate with Secretary of State Dean Rusk"). [FRUS 1964–68, XIX, doc. 53](https://history.state.gov/historicaldocuments/frus1964-68v19/d53) (Rusk to Thomson, May 24). [[w.woods-j-william-fulbright-vietnam]], 151 (Rusk to Fulbright and the other leaders; Johnson''s aim); [[w.gibbons-u-s-government-and]], IV, 680 (in executive session, at Fulbright''s request for a hearing; the Middle East dominates). Check: Woods has the leaders called to the State Department. To check: Fulbright to Irma Jennings, May 22, 1967, Fulbright Papers (SPF), series 48:18, box 52:2, University of Arkansas (cited by [[w.woods-j-william-fulbright-vietnam]], 151 n.3). See [[cal.1967-05-22.middle-east]]. Names: Rusk, Johnson, Clark, Fulbright.'
+    n: '[113 Cong. Rec. 13,788](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-8-1.pdf#page=104) (1967) (Clark, Senate, May 24, 1967: "yesterday ... after a long session in the Foreign Relations Committee of the Senate with Secretary of State Dean Rusk"). The session was in the morning: Lausche and Clark in the Senate that day, "this morning" ([113 Cong. Rec. 13,480–81](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-7-1.pdf#page=23) (1967)); Morse, May 24, "yesterday morning" (13,789). [Daily Digest, D249](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=247) (the committee''s executive meeting with Rusk; no hour). [FRUS 1964–68, XIX, doc. 53](https://history.state.gov/historicaldocuments/frus1964-68v19/d53) (Rusk to Thomson, May 24). [[w.woods-j-william-fulbright-vietnam]], 151 (Rusk to Fulbright and the other leaders; Johnson''s aim); [[w.gibbons-u-s-government-and]], IV, 680 (in executive session, at Fulbright''s request for a hearing; the Middle East dominates). Check: Woods has the leaders called to the State Department. To check: Fulbright to Irma Jennings, May 22, 1967, Fulbright Papers (SPF), series 48:18, box 52:2, University of Arkansas (cited by [[w.woods-j-william-fulbright-vietnam]], 151 n.3). See [[cal.1967-05-22.middle-east]]. Names: Rusk, Johnson, Clark, Fulbright.'
     src:
       c: d3bc77c8
       rows:
@@ -4445,11 +4431,11 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 680: 1'
     tags: [name:rusk-dean, name:johnson-lyndon-b, name:clark-joseph-s, name:fulbright-j-william]
     time_range:
-      - 1967-05-23T13:00Z
-      - 1967-05-23T21:00Z
-    time_band: workday daytime
+      - 1967-05-23T10:00Z
+      - 1967-05-23T16:00Z
+    time_band: morning
     time_zone: America/New_York
-    range_basis: kind
+    range_basis: record
   - id: cal.1967-05-23.war-opposition
     when: May 23
     date: '1967-05-23'
@@ -4566,6 +4552,22 @@ entries:
     c: 'Ye Jianying 叶剑英 presides at the Military Commission''s 军委 seventieth standing meeting: troops to be sent into Sichuan 四川; the leading group of the General Staff''s Third Department 总参三部 to be changed.'
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 965. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, name:ye-jianying, vis:only:prc, ok:fields-place]
+  - id: cal.1967-05-23.middle-east-six-day-war-3
+    when: May 23
+    date: '1967-05-23'
+    place: washington
+    thread: middle-east-six-day-war
+    also: [congress]
+    follows:
+      - cal.1967-05-23.middle-east-six-day-war
+    c: 'The Senate on the Middle East crisis. Mansfield, Kuchel joining: the Security Council to be convened forthwith; Britain and France to help. Lausche: no unilateral action; the United Nations to act. Javits: the commitments of the Tripartite Declaration of 1950 and of four Presidents. Symington: grave doubts about acting alone again. Clark, after the morning''s session with Rusk: everyone to "cool it"; the United Nations first; Russia the key.'
+    n: '[113 Cong. Rec. 13,459](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-7-1.pdf#page=2), [13,480–81](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-7-1.pdf#page=23) (1967) (Senate, May 23, 1967). The Senate sat from noon to 5:21 p.m.: [Daily Digest, D249](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=247). To check: 113 Cong. Rec. 13,482–83 (Morse), 13,487 (Stennis), 13,533, 13,536, 13,543–46, 13,557–58 (1967) (the day''s other speeches on the Middle East). See [[cal.1967-05-23.middle-east-six-day-war]]. Names: Mansfield, Kuchel, Lausche, Javits, Symington, Clark, Rusk.'
+    tags: [name:mansfield-mike, name:kuchel-thomas-h, name:lausche-frank-j, name:javits-jacob-k, name:symington-william-s, name:clark-joseph-s, name:rusk-dean]
+    time_range:
+      - 1967-05-23T16:00Z
+      - 1967-05-23T21:21Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1967-05-24.school-aid
     when: May 24
     date: '1967-05-24'
@@ -4573,7 +4575,7 @@ entries:
     thread: school-aid
     also: [republican-party-congress]
     c: 'The House passes the Elementary and Secondary Education Amendments, H.R. 7819, [294–122](https://voteview.com/rollcall/RH0900061);{1} recommittal lost, [180–236](https://voteview.com/rollcall/RH0900060).{2} Amendments carried: Title I''s money by the national average expenditure per pupil, [222–194](https://voteview.com/rollcall/RH0900058);{3} Title III''s supplementary centers through the State departments of education, not to the localities direct, [230–185](https://voteview.com/rollcall/RH0900059).{4} Quie''s amendment, the House Republicans'' effort to move the act''s control from the Office of Education to the States, rejected by tellers, 168–197.{5}'
-    n: '[113 Cong. Rec. 13,845](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-8-2.pdf#page=39) (1967) (May 24, 1967) (Quie''s amendment). [[w.hess-republican-establishment]], 28 (Quie''s amendment); [[w.graham-uncertain-triumph]], 152–53 (Title III to the States, 230 to 185: Republicans 154–26, Northern Democrats 8–139, Southern Democrats 68–20; the Quie substitute by tellers, 168 to 197; passage, a majority of Republicans for). See [[cal.1965-01-12.school-aid]]. Names: Quie.'
+    n: '[113 Cong. Rec. 13,845](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-8-2.pdf#page=39) (1967) (May 24, 1967) (Quie''s amendment). The House sat from noon ([113 Cong. Rec. 13,807](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-8-2.pdf#page=1)) to 1:49 a.m., May 25 ([13,960](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt10/pdf/GPO-CRECB-1967-pt10-8-2.pdf#page=154)); the Daily Digest prints 1:49 p.m. ([D252](https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt29/pdf/GPO-CRECB-1967-pt29-1.pdf#page=250)). Hays, before the last votes: "it is nearly 11 o''clock" (13,881); the passage at 13,899. [[w.hess-republican-establishment]], 28 (Quie''s amendment); [[w.graham-uncertain-triumph]], 152–53 (Title III to the States, 230 to 185: Republicans 154–26, Northern Democrats 8–139, Southern Democrats 68–20; the Quie substitute by tellers, 168 to 197; passage, a majority of Republicans for). See [[cal.1965-01-12.school-aid]]. Names: Quie.'
     src:
       c: 46bd8ad5
       rows:
@@ -4587,11 +4589,10 @@ entries:
     tags: [name:quie-albert-h]
     short: the Elementary and Secondary Education Amendments, bilingual education
     time_range:
-      - 1967-05-24T18:00Z
-      - 1967-05-24T21:00Z
-    time_band: workday afternoon
+      - 1967-05-24T16:00Z
+      - 1967-05-25T05:49Z
     time_zone: America/New_York
-    range_basis: kind
+    range_basis: record
   - id: cal.1967-05-24.vietnam-program-5
     when: May 24
     date: '1967-05-24'
@@ -5841,10 +5842,10 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [south-asia, china-foreign]
-    c: Zhou receives and gives a luncheon at the Diaoyutai guesthouse for Pakistan's defense minister, an admiral.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (May 30, 1967; morning; Diaoyutai guesthouse). The book names him 阿夫扎尔. Names: Zhou Enlai.'
+    c: Zhou receives Pakistan's defense minister, an admiral.
+    n: '[[w.zhou-enlai-waijiao-huodong]], 512 (May 30, 1967; morning; Diaoyutai guesthouse). The book names him 阿夫扎尔. The luncheon at the Diaoyutai guesthouse is its own entry. Names: Zhou Enlai.'
     src:
-      c: d6878388
+      c: d142f3fe
       rows:
         - 'w.zhou-enlai-waijiao-huodong 512: all'
     tags: [polity:prc, name:zhou-enlai]
@@ -5869,10 +5870,18 @@ entries:
   - id: cal.1967-05-30.china-leadership-4
     when: May 30
     date: '1967-05-30'
+    place: peking
     thread: china-zhou-foreign
     also: [south-asia, china-foreign]
-    c: Zhou Enlai 周恩来 gives an informal dinner for Vice-Admiral Afzal Rahman Khan 阿夫扎尔·拉赫曼·汗 and Yusuf 优素福, Chen Yi 陈毅 present.
-    n: '[[w.chen-yi-nianpu]], 1191. The words: 中午 (1191). Names: Chen Yi, Zhou Enlai.'
+    follows:
+      - cal.1967-05-30.china-leadership-3
+    c: Zhou Enlai 周恩来 gives an informal dinner for Vice-Admiral Afzal Rahman Khan 阿夫扎尔·拉赫曼·汗 and Yusuf 优素福, Chen Yi 陈毅 present.{1} At the Diaoyutai guesthouse.{2}
+    n: '[[w.chen-yi-nianpu]], 1191; [[w.zhou-enlai-waijiao-huodong]], 512 (May 30, 1967; Diaoyutai guesthouse). The words: 中午 (1191). The order: after [[cal.1967-05-30.china-leadership-3]], [[w.zhou-enlai-waijiao-huodong]], 512 (the reception in the morning) and [[w.chen-yi-nianpu]], 1191 (中午, the luncheon). Names: Chen Yi, Zhou Enlai.'
+    src:
+      c: adfc6195
+      rows:
+        - 'w.chen-yi-nianpu 1191: 1'
+        - 'w.zhou-enlai-waijiao-huodong 512: 2'
     tags: [polity:prc, polity:pakistan, name:chen-yi, name:zhou-enlai, ok:fields-place]
     time_range:
       - 1967-05-30T04:00Z

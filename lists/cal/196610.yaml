@@ -2811,6 +2811,22 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 491: all'
     tags: [polity:prc]
+  - id: cal.1966-10-15.vietnam-asian-trip-2
+    when: Oct. 15
+    date: '1966-10-15'
+    place: washington
+    thread: vietnam-asian-trip
+    also: [vietnam]
+    follows:
+      - cal.1966-10-15.vietnam
+    c: 'The 565th meeting of the National Security Council, 2:40 to 3:30 p.m., on the Manila Conference. Johnson has McNamara, Wheeler and Katzenbach report on their visit to Vietnam: McNamara, the military situation better than he expected, pacification less than he hoped, "longer than we have thought"; Katzenbach, 55 of 65 schoolrooms built in one area destroyed within the year. Rusk on the conference: the heads of the countries contributing to the war; Moyers: friendship, not policy gains. Johnson: no backgrounding on Manila unless Moyers clears it; the conference "will probably accomplish little."'
+    n: '[FRUS 1964–68, IV, doc. 272](https://history.state.gov/historicaldocuments/frus1964-68v04/d272) (summary notes, Bromley Smith, 2:40–3:30 p.m.; its n.2: the President''s office meeting began at 2:10 p.m.). See [[cal.1966-10-15.vietnam]]. Names: Johnson, McNamara, Wheeler, Katzenbach, Rusk, Moyers.'
+    tags: [name:johnson-lyndon-b, name:mcnamara-robert-s, name:wheeler-earle, name:rusk-dean, name:moyers-bill]
+    time_range:
+      - 1966-10-15T18:40Z
+      - 1966-10-15T19:30Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1966-10-16.opinion
     when: Oct. 16
     date: '1966-10-16'
@@ -3046,27 +3062,26 @@ entries:
       - 1966-10-17T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
-  - id: cal.1966-10-17.china-leadership-3
-    when: Oct. 17
-    date: '1966-10-17'
-    place: peking
-    thread: china-red-guards
-    c: Peking Normal University 北京師範大學. Li Wenbo 李文博, a physics student, puts up the poster "The commune is no longer a state in the old sense" 〈公社已經不是原來意義的國家了〉.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 476. To check: Li Wenbo 李文博, poster, Oct. 17, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 476 n.31b).'
-    src:
-      c: bbc6b17e
-      rows:
-        - 'w.yang-jisheng-tiandi-fanfu I, 476: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 476 n.31b: all'
-    tags: [polity:prc]
   - id: cal.1966-10-17.china
     when: Oct. 17
     date: '1966-10-17'
     place: peking
     thread: china-red-guards
-    c: 'Peking Normal University 北京師範大學. Li Wenbo 李文博, a student of its physics department, puts up the poster "The commune is long since no longer a state in the old sense" 〈公社早已不是原來意義上的國家了〉: the socialist system to be thoroughly renewed, the proletarian dictatorship thoroughly improved; the present system "a bourgeois state without a bourgeoisie"; the Cultural Revolution''s aim the principles of the Paris Commune.'
-    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 958–959. To check: Song Yongyi 宋永毅 et al., *Zhongguo wenhua dageming wenku* 《中國文化大革命文庫》 (2nd ed., 2006), the heterodox documents (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 959 n.9; Yang notes that the collection''s text lacks "thoroughly" 徹底, which he recalls).'
+    c: 'Peking Normal University 北京師範大學. Li Wenbo 李文博, a student of its physics department, puts up the poster "The commune is long since no longer a state in the old sense" 〈公社早已不是原來意義上的國家了〉.{1} The poster: the socialist system to be thoroughly renewed, the proletarian dictatorship thoroughly improved; the present system "a bourgeois state without a bourgeoisie"; the Cultural Revolution''s aim the principles of the Paris Commune.{2}'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 958–959; [[w.yang-jisheng-tiandi-fanfu]], I, 476 (the poster''s title "The commune is no longer a state in the old sense" 〈公社已經不是原來意義的國家了〉). To check: Li Wenbo 李文博, poster, Oct. 17, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 476 n.31b); [[w.song-yongyi-zhongguo-wenhua-dageming-wenku]] (2nd ed., 2006), the heterodox documents (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 959 n.9; Yang notes that the collection''s text lacks "thoroughly" 徹底, which he recalls).'
+    src:
+      c: cfde3dba
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu II, 958–959: 1, 2'
+        - 'w.yang-jisheng-tiandi-fanfu I, 476: 1'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 476 n.31b: 1'
     tags: [polity:prc]
+    aliases: [cal.1966-10-17.china-leadership-3]
+    variants:
+      - unit: '1'
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: the poster's title "The commune is no longer a state in the old sense" 〈公社已經不是原來意義的國家了〉
+        at: I, 476
   - id: cal.1966-10-17.china-leadership-4
     when: Oct. 17
     date: '1966-10-17'
@@ -4207,8 +4222,10 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [south-asia, china-foreign]
+    follows:
+      - cal.1966-10-24.china-leadership-4
     c: Zhou and Chen Yi receive and give a luncheon for Pakistan's foreign minister Pirzada in the Great Hall of the People.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 24, 1966; noon, Great Hall of the People); [[w.chen-yi-nianpu]], 1170 (Oct. 24, 1966, noon (12), the Great Hall of the People). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 24, 1966; noon, Great Hall of the People); [[w.chen-yi-nianpu]], 1170 (Oct. 24, 1966, noon (12), the Great Hall of the People). The order: after [[cal.1966-10-24.china-leadership-4]], -4 is the reception (a morning range), -6 the luncheon at noon ([[w.zhou-enlai-waijiao-huodong]], Oct. 24, 1966). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 61fae52f
       rows:

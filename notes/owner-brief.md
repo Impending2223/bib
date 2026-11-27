@@ -1502,3 +1502,23 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 2:20 pm PT.** "Sorry, I understood the Soviet and Sino-Soviet batches as an inventory and suggested reading list, not as a reading batch until approved. Didn't I ask for a full inventory of the works on the Drive, and a suggested breakdown of the unread items into reading batches? I thought that was what that task was."
 
 **Nov. 26, 2026, about 2:37 pm PT.** "Cultural visitors should stay in. (Ping-pong diplomacy, right? The 1998 Takhti Cup? The 'dialogue of civilizations'? Or am I overreading isolated episodes here?)"
+
+**Nov. 26, 2026, about 6:11 pm PT.** "The FBI Liuzzo files should be in the civil rights batch, right? More broadly, the government documents should go with their subject matter, not an arbitrary batch of their own, no? Shouldn't the apportionment and reapportionment works be taken out of the civil rights batch? They don't have much to do with each other, do they? And shouldn't we standardize "doing" a batch in sequence, rather than in parallel, to reduce the burden on the reconciling agent? Have you put a second set of eyes on this proposal?"
+
+**Nov. 26, 2026, about 7:28 pm PT.** "What does the full queue look like? What questions are left for me from the inventory batch?"
+
+**Nov. 26, 2026, about 7:35 pm PT.** "Check to see whether the oral history page/finding-aid items help sort the JFK and RFK oral histories into batches."
+
+**Nov. 26, 2026, about 7:38 pm PT.** (With a screenshot of the file's cover: *World Military Expenditures and Arms Trade 1963-1973*, U.S. Arms Control and Disarmament Agency.) "hathi-wmeat-1963-73 was the name you told me to give the file in the procurement request lol"
+
+**Nov. 26, 2026, about 7:40 pm PT.** "I thought the names you suggested were goofy but then I said to myself, \"you know, Claude probably knows what titles would be easiest for him to work with.\" guess not!"
+
+**Nov. 26, 2026, about 7:44 pm PT.** "Are you sure about the Keesing's? It doesn't give any authority besides its own name for (any of?) the material it prints, and I had never heard the name \"Keesing's\" before you suggested it to me."
+
+**Nov. 26, 2026, about 7:49 pm PT.** (With two clippings of *Keesing's*: an item ending "(Bulgarian Legation Press Office, London - Soviet Embassy Press Department, London - Times - Le Monde - Neue Zürcher Zeitung - New York Times) (Prev. rep. ...)", and one ending "(Le Monde - Le Figaro)".) "Sorry, what I said was not quite true. It *does* cite its sources, (perhaps?) under each section. It just cites them in a manner entirely unhelpful to someone trying to run them to ground. One of the attached images, for example, is the entirety of Keesing's sourcing for nine(?) pages of small-print type on French politics."
+
+**Nov. 26, 2026, about 7:51 pm PT.** "Commentary struck? What did the commentary say?"
+
+**Nov. 26, 2026, about 7:55 pm PT.** "Could we tell the readers and auditors that subsequent (non-contemporary) commentary, analysis, and matter goes in as dated and attributes \"gloss\"? We have the \"gloss\" section, right? That's what it's for. My own gloss follows others'."
+
+**Nov. 26, 2026, about 7:59 pm PT.** "Did the Drive inventory catch Taubman's Khrushchev?"

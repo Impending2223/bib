@@ -2001,7 +2001,7 @@ entries:
     follows:
       - cal.1962-07-11.china-leadership-8
     c: Zhou Enlai with responsible persons on the tension on the Sino-Indian border from India's continued "forward policy"; the same day he goes to Mao's to report on it.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 489 (July 11, 1962); [[w.mao-zedong-zhuan]], V, ch. 70 (July 11: Zhou Enlai hears the reports on the border again, and reports to Mao). [[w.jian-zhou-enlai]], 477 (that evening Zhou''s meeting of military and diplomatic officials, past midnight). Made public: 1997. To check: [[w.zishen-yang-chengwu-nianpu-chronological]], 366 (cited by [[w.jian-zhou-enlai]], 477 n.55b). The order: the report of the helicopters and the new post came first; Zhou called the meeting that evening on what it showed ([[w.jian-zhou-enlai]], 477). Names: Zhou Enlai, Mao Zedong.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 489 (July 11, 1962); [[w.mao-zedong-zhuan]], V, ch. 70 (July 11: Zhou Enlai hears the reports on the border again, and reports to Mao). [[w.jian-zhou-enlai]], 477 (that evening Zhou''s meeting of military and diplomatic officials, past midnight). Made public: 1997. Check: the report to Mao is the midnight report of [[cal.1962-07-12.china-leadership]], which [[w.zedong-mao-zedong-nianpu]], V, puts on July 12; [[w.zhou-enlai-nianpu-1949]], II, 489 puts it on July 11. To check: [[w.zishen-yang-chengwu-nianpu-chronological]], 366 (cited by [[w.jian-zhou-enlai]], 477 n.55b). The order: the report of the helicopters and the new post came first; Zhou called the meeting that evening on what it showed ([[w.jian-zhou-enlai]], 477). Names: Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1962-07-11.china-leadership-3
     when: July 11–13
@@ -3438,18 +3438,6 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1717: all'
     tags: [polity:prc, name:deng-xiaoping, name:li-fuchun, name:zhou-enlai, vis:only:prc, name:gu-mu]
-  - id: cal.1962-07-18.china-leadership-4
-    when: July 18
-    date: '1962-07-18'
-    thread: china-retreat-1962
-    also: [china-tenth-plenum]
-    c: The Center sends an urgent notice, "On not advertising household contracting 包产到户 in the newspapers and other questions" 《关于不要在报纸上宣传“包产到户”等问题的通知》.
-    n: '[[w.mao-zedong-zhuan]], V, ch. 70. Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. Check: the notice''s text and its full title; the book names it only.'
-    src:
-      c: 5930768d
-      rows:
-        - 'w.mao-zedong-zhuan V, ch. 70: all'
-    tags: [polity:prc, vis:only:prc]
   - id: cal.1962-07-18.china-leadership-6
     when: July 18
     date: '1962-07-18'
@@ -3654,14 +3642,16 @@ entries:
     also: [farm, press-and-broadcasting, china-tenth-plenum]
     follows:
       - cal.1962-07-19.china-leadership
-    c: Deng Xiaoping 邓小平 signs and issues the Center's 中共中央 notice that the press not promote "output fixed by household" 包产到户 and related questions.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1717 (July 19, 1962); [[w.peng-zhen-nianpu-1902]], IV, 206 (July 19, 1962; the Center''s urgent notice not to advertise "output by household" and the like in the press). Made public: 2009 (the nianpu). The order: after [[cal.1962-07-19.china-leadership]], the printed order alone ([[w.deng-xiaoping-nianpu-1904]], III, 1717). Names: Deng Xiaoping.'
+    c: 'Deng Xiaoping 邓小平 signs and issues the Center''s 中共中央 notice that the press not promote "output fixed by household" 包产到户 and related questions.{1} Its title: "On not advertising household contracting 包产到户 in the newspapers and other questions" 《关于不要在报纸上宣传“包产到户”等问题的通知》.{2}'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1717 (July 19, 1962); [[w.peng-zhen-nianpu-1902]], IV, 206 (July 19, 1962; the Center''s urgent notice not to advertise "output by household" and the like in the press); [[w.mao-zedong-zhuan]], V, ch. 70 (the notice''s title; the notice sent July 18). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]]); its signer, 2009 (the Deng nianpu). To check: [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition (2003), for the same passage. The order: after [[cal.1962-07-19.china-leadership]], the printed order alone ([[w.deng-xiaoping-nianpu-1904]], III, 1717). Names: Deng Xiaoping. Check: the day; [[w.mao-zedong-zhuan]], V, ch. 70 has the Center''s urgent notice sent July 18. Check: the notice''s text; the book names its title only.'
     src:
-      c: 99bdf749
+      c: e2b482ba
       rows:
-        - 'w.deng-xiaoping-nianpu-1904 III, 1717: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1717: 1'
         - 'w.peng-zhen-nianpu-1902 IV, 206: ?'
+        - 'w.mao-zedong-zhuan V, ch. 70: 2'
     tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
+    aliases: [cal.1962-07-18.china-leadership-4]
   - id: cal.1962-07-19.china-leadership-11
     when: July 19
     date: '1962-07-19'

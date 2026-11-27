@@ -1527,17 +1527,18 @@ entries:
     date: '1964-04-07'
     place: wisconsin
     thread: elections-1964-primaries
-    c: 'Wisconsin primary.{1} Republican: Byrnes over unpledged delegates, 299,612 to 816, 99.7 percent.{2} Democratic: Reynolds over Wallace, 522,405 to 266,136, 66.2 percent.{3}'
-    n: 'CQ Guide 6th (2010) 406. [[w.young-two-suns-of-the]], 117 (Wallace''s vote); [[w.bernstein-guns-or-butter]], 137 (Wallace 34 percent); [[w.risen-bill-of-the-century]], 197 (Wisconsin, Apr. 7: Wallace a third of the Democratic vote, 266,000; Reynolds had said even 100,000 would be a disaster; the party spins it as Republicans crossing over). [[w.white-suite-3505]], 304–05 (Byrnes the favorite son, Goldwater kept out by agreement, Byrnes and Laird keeping Rockefeller out). To check: [[w.carter-politics-of-rage-1995]]; [[w.lesher-george-wallace]]. See [[cal.1964-03-10.elections-1964]]. Names: Wallace, John Reynolds, Byrnes. Check: Young, 117, has Wallace claim 264,000.'
+    c: 'Wisconsin primary.{1} Republican: Byrnes over unpledged delegates, 299,612 to 816, 99.7 percent.{2} Democratic: Reynolds over Wallace, 522,405 to 266,136, 66.2 percent.{3} By agreement Goldwater stays out of the Republican primary: Byrnes runs as a favorite son, and he and Laird prevail on Rockefeller to stay out, White says.{4}'
+    n: 'CQ Guide 6th (2010) 406. [[w.young-two-suns-of-the]], 117 (Wallace''s vote); [[w.bernstein-guns-or-butter]], 137 (Wallace 34 percent); [[w.risen-bill-of-the-century]], 197 (Wisconsin, Apr. 7: Wallace a third of the Democratic vote, 266,000; Reynolds had said even 100,000 would be a disaster; the party spins it as Republicans crossing over); [[w.white-suite-3505]], 305. [[w.white-suite-3505]], 304–05 (Byrnes the favorite son, Goldwater kept out by agreement, Byrnes and Laird keeping Rockefeller out). To check: [[w.carter-politics-of-rage-1995]]; [[w.lesher-george-wallace]]. See [[cal.1964-03-10.elections-1964]]. Names: Wallace, John Reynolds, Byrnes, Goldwater, Rockefeller, Laird. Check: Young, 117, has Wallace claim 264,000.'
     src:
-      c: ae8ded69
+      c: b839b3b8
       rows:
         - '"CQ Guide 6th (2010)": 1, 2, 3'
         - 'w.young-two-suns-of-the 117: 3'
         - 'w.white-suite-3505 304–05: 1'
         - 'w.bernstein-guns-or-butter 137: 3'
         - 'w.risen-bill-of-the-century 197: ?'
-    tags: [primary:1964-04-07, name:wallace-george-c, name:byrnes-john-w, name:reynolds-john-w-jr]
+        - 'w.white-suite-3505 305: 4'
+    tags: [primary:1964-04-07, name:wallace-george-c, name:byrnes-john-w, name:reynolds-john-w-jr, name:goldwater-barry-m, name:rockefeller-nelson, name:laird-melvin-r, ok:note-substance]
     time_range:
       - 1964-04-08T02:00Z
       - 1964-04-08T08:00Z
@@ -2169,6 +2170,14 @@ entries:
         - 'w.friedman-shadow-cold-war 110: all'
         - 'via x.1964-04-08.scscaa-presidium-session-april-8-1964: ?'
     tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1964-04-08.elections-1964-primaries
+    when: Apr. 8
+    date: '1964-04-08'
+    thread: elections-1964-primaries
+    also: [democratic-party]
+    c: 'The national Democratic party, after Wallace''s third of the Wisconsin vote, some 266,000: Republicans crossed over to skew the result.'
+    n: '[[w.risen-bill-of-the-century]], 197 ("immediately"). Check: the day. See [[cal.1964-04-07.elections-1964]]. Names: Wallace.'
+    tags: [name:wallace-george-c]
   - id: cal.1964-04-09.railroads
     when: Apr. 9
     date: '1964-04-09'
@@ -3558,16 +3567,17 @@ entries:
     place: illinois
     thread: elections-1964-primaries
     also: [goldwater]
-    c: 'Illinois primary.{1} Republican: Goldwater over Smith, 512,840 to 209,521, 62.0 percent.{2} Democratic: Johnson (write-in) over Wallace (write-in), 82,027 to 3,761, 91.6 percent.{3}'
-    n: '[*Official Vote of the State of Illinois Cast at the General Election, November 3, 1964 ... General Primary, April 14, 1964*, 161](https://archive.org/details/officialvoteof1964illi/page/n166). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 305–06 (the preference vote; nearly forty of the forty-eight district delegates for Goldwater); [[w.goldberg-barry-goldwater]], 188, 188 n.47 (Goldwater 63 percent, Smith 20; with the write-ins, Goldwater''s share 49 percent); [[w.novak-agony-of-the-g]], 362–64 (the official canvass: Goldwater 512,840, Smith 209,521, Lodge 68,122, Nixon 30,313, Wallace 2,203, Rockefeller 2,048, Scranton 1,842; Goldwater 49.1 percent of the Republican vote cast; at least thirty-three of the forty-eight delegates his). See [[cal.1964-03-10.elections-1964]]. Names: Goldwater, Wallace, Johnson, Smith. Check: White, 305–06, gives Goldwater nearly 509,000, Smith more than 209,000.'
+    c: 'Illinois primary.{1} Republican: Goldwater over Smith, 512,840 to 209,521, 62.0 percent.{2} Democratic: Johnson (write-in) over Wallace (write-in), 82,027 to 3,761, 91.6 percent.{3} Write-ins on the Republican side: Lodge 68,122, Nixon 30,313, Rockefeller 2,048, Scranton 1,842. By Novak''s count from the canvass, Goldwater''s vote is about 49.1 percent of the Republican vote in the primary. Of the forty-eight delegates elected, at least thirty-three are committed to him.{4}'
+    n: '[*Official Vote of the State of Illinois Cast at the General Election, November 3, 1964 ... General Primary, April 14, 1964*, 161](https://archive.org/details/officialvoteof1964illi/page/n166). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 305–06 (the preference vote; nearly forty of the forty-eight district delegates for Goldwater); [[w.goldberg-barry-goldwater]], 188, 188 n.47 (Goldwater 63 percent, Smith 20; with the write-ins, Goldwater''s share 49 percent); [[w.novak-agony-of-the-g]], 362–64 (the official canvass: Goldwater 512,840, Smith 209,521, Lodge 68,122, Nixon 30,313, Wallace 2,203, Rockefeller 2,048, Scranton 1,842; Goldwater 49.1 percent of the Republican vote cast; at least thirty-three of the forty-eight delegates his); [[w.novak-agony-of-the-g]], 363–64. See [[cal.1964-03-10.elections-1964]]. Names: Goldwater, Wallace, Johnson, Smith, Lodge, Nixon, Rockefeller, Scranton. Check: White, 305–06, gives Goldwater nearly 509,000, Smith more than 209,000.'
     src:
-      c: 996f0b7a
+      c: fac00041
       rows:
         - 'https://archive.org/details/officialvoteof1964illi/page/n166: 1, 2, 3'
         - 'w.white-suite-3505 305–06: 1'
         - 'w.goldberg-barry-goldwater 188, 188 n.47: 1'
         - 'w.novak-agony-of-the-g 362–64: 1, 2'
-    tags: [primary:1964-04-14, name:wallace-george-c, name:johnson-lyndon-b, name:smith-margaret-chase, name:goldwater-barry-m]
+        - 'w.novak-agony-of-the-g 363–64: 4'
+    tags: [primary:1964-04-14, name:wallace-george-c, name:johnson-lyndon-b, name:smith-margaret-chase, name:goldwater-barry-m, name:lodge-henry-cabot, name:nixon-richard-m, name:rockefeller-nelson, name:scranton-william-w, ok:note-substance]
     time_range:
       - 1964-04-15T00:00Z
       - 1964-04-15T08:00Z
@@ -3759,15 +3769,17 @@ entries:
     place: changsha
     thread: china-mao-foreign
     also: [soviet-union, china-foreign]
-    c: 'Mao, Changsha: approves the first, longer draft of the telegram for Khrushchev''s 70th birthday, adds the last line, and meets with Deng Xiaoping, Kang Sheng, Tao Zhu, Wang Renzhong, Zhang Pinghua and Wu Lengxi at 5 p.m.{1}'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 13 and 14, 1964 (Apr. 14; 5 p.m.). [[w.lengxi-shinian-lunzhan-1956-1966]], 747–749, 752 (Mao chose the first, longer draft, putting "dear comrade" at its head and adding at its end that imperialism and reaction may tremble before the two peoples'' unity; the text settled at Changsha, "already Apr. 14", and sent to Peking for Liu Shaoqi and Zhou Enlai, who agreed; Mao''s markup of Apr. 14 shown at 749; through Deng he told Zhou that no anti-revisionist article be printed for a week after the telegram, 748); [[w.deng-xiaoping-nianpu-1904]], III, 1809 (Apr. 14, 1964; afternoon, 下午; Deng hears Mao''s changes to the draft telegram of congratulation to Khrushchev; the Renmin ribao prints the telegram Apr. 17). Made public: 1999. See [[cal.1964-04-13.china-leadership]], [[cal.1964-04-12.china-leadership-6]]. Names: Mao Zedong, Deng Xiaoping, Kang Sheng, Tao Zhu, Khrushchev, Wang Renzhong, Zhang Pinghua, Wu Lengxi. Check: Wu (747–748) has Mao''s meeting on the two drafts the afternoon after the morning''s redrafting, the 13th by his count, and the text settled "already Apr. 14".'
+    c: 'Mao, Changsha: approves the first, longer draft of the telegram for Khrushchev''s 70th birthday, adds the last line, and meets with Deng Xiaoping, Kang Sheng, Tao Zhu, Wang Renzhong, Zhang Pinghua and Wu Lengxi at 5 p.m.{1} Deng has the text wired to Peking before supper for Liu Shaoqi and Zhou Enlai to review; Zhou later telephones that both agree.{2} Mao has Deng tell Zhou that no anti-revisionist article is to be printed for a week after the telegram.{3}'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 13 and 14, 1964 (Apr. 14; 5 p.m.). [[w.lengxi-shinian-lunzhan-1956-1966]], 747–749, 752 (Mao chose the first, longer draft, putting "dear comrade" at its head and adding at its end that imperialism and reaction may tremble before the two peoples'' unity; the text settled at Changsha, "already Apr. 14", and sent to Peking for Liu Shaoqi and Zhou Enlai, who agreed; Mao''s markup of Apr. 14 shown at 749; through Deng he told Zhou that no anti-revisionist article be printed for a week after the telegram, 748); [[w.deng-xiaoping-nianpu-1904]], III, 1809 (Apr. 14, 1964; afternoon, 下午; Deng hears Mao''s changes to the draft telegram of congratulation to Khrushchev; the Renmin ribao prints the telegram Apr. 17); [[w.lengxi-shinian-lunzhan-1956-1966]], 748, 752; [[w.lengxi-shinian-lunzhan-1956-1966]], 748. Made public: 1999. See [[cal.1964-04-13.china-leadership]], [[cal.1964-04-12.china-leadership-6]]. Names: Mao Zedong, Deng Xiaoping, Kang Sheng, Tao Zhu, Khrushchev, Wang Renzhong, Zhang Pinghua, Wu Lengxi, Liu Shaoqi, Zhou Enlai. Check: Wu (747–748) has Mao''s meeting on the two drafts the afternoon after the morning''s redrafting, the 13th by his count, and the text settled "already Apr. 14".'
     src:
-      c: 941663c4
+      c: ef40df3f
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Apr. 13 and 14, 1964: 1'
         - 'w.lengxi-shinian-lunzhan-1956-1966 747–749, 752: 1'
         - 'w.deng-xiaoping-nianpu-1904 III, 1809: ?'
-    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:kang-sheng, name:tao-zhu, name:khrushchev-nikita-s, vis:only:prc, name:wang-renzhong, name:wu-lengxi, name:zhang-pinghua]
+        - 'w.lengxi-shinian-lunzhan-1956-1966 748, 752: 2'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 748: 3'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:kang-sheng, name:tao-zhu, name:khrushchev-nikita-s, vis:only:prc, name:wang-renzhong, name:wu-lengxi, name:zhang-pinghua, name:liu-shaoqi, name:zhou-enlai, ok:note-substance]
     time_zone: Asia/Shanghai
   - id: cal.1964-04-14.china
     when: Apr. 14
@@ -5620,10 +5632,10 @@ entries:
     date: '1964-04-21'
     place: washington
     thread: civil-rights-bill
-    c: 'Thirty-seven days into the filibuster, Talmadge calls up his amendment: a jury trial in every criminal contempt case arising under the bill.{1}'
-    n: '[110 Cong. Rec. 8649–50](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-1-2.pdf#page=61) (1964) (Apr. 21, 1964). [[w.mann-walls-of-jericho]], 415; [[w.bernstein-guns-or-butter]], 70; [[w.whalen-longest-debate]], 166–67 (Talmadge: "a sacred privilege of personal liberty"); [[w.risen-bill-of-the-century]], 208–09, 212 (Talmadge asks that his amendment be read and made the pending business: a jury trial for anyone charged with violating a court decree under the antidiscrimination titles, 209; "all criminal contempt cases," 212; the Magna Carta; Risen''s day Apr. 20; not the thirty-seven days); [[w.purdum-idea-whose-time-has-2014]], 266–67 (Talmadge''s amendment, a jury in all criminal contempt cases under the bill, called up as the pending business; asked whether he would press a vote that day, no; Robertson: "a considerable elucidation"; Russell on the floor, "the time of Chaucer" (the note: 110 Cong. Rec. 8650, 8666); the 1957 Act''s nonjury trials in voting cases, $300 or forty-five days; the House bill''s retention of that for Titles I and II). The Senate sat from noon to 10:03 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=1), [D178](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=176). Check: Risen, 208–09, has Dirksen offer his statute-of-limitations amendment and Talmadge call up his jury trial amendment "a few minutes" after on Apr. 20; his note 58 gives the Record of Apr. 21, 8613–66. See [[cal.1964-03-30.civil-rights-bill]]. Names: Talmadge.'
+    c: 'Thirty-seven days into the filibuster, Talmadge calls up his amendment: a jury trial in every criminal contempt case arising under the bill.{1} Talmadge: the right of trial by jury "a sacred privilege of personal liberty."{2} Asked whether he will press for a vote that day, Talmadge says no; Robertson: the Senate can look forward to "a considerable elucidation."{3}'
+    n: '[110 Cong. Rec. 8649–50](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-1-2.pdf#page=61) (1964) (Apr. 21, 1964). [[w.mann-walls-of-jericho]], 415; [[w.bernstein-guns-or-butter]], 70; [[w.whalen-longest-debate]], 166–67 (Talmadge: "a sacred privilege of personal liberty"); [[w.risen-bill-of-the-century]], 208–09, 212 (Talmadge asks that his amendment be read and made the pending business: a jury trial for anyone charged with violating a court decree under the antidiscrimination titles, 209; "all criminal contempt cases," 212; the Magna Carta; Risen''s day Apr. 20; not the thirty-seven days); [[w.purdum-idea-whose-time-has-2014]], 266–67 (Talmadge''s amendment, a jury in all criminal contempt cases under the bill, called up as the pending business; asked whether he would press a vote that day, no; Robertson: "a considerable elucidation"; Russell on the floor, "the time of Chaucer" (the note: 110 Cong. Rec. 8650, 8666); the 1957 Act''s nonjury trials in voting cases, $300 or forty-five days; the House bill''s retention of that for Titles I and II); [[w.whalen-longest-debate]], 167; [[w.purdum-idea-whose-time-has-2014]], 266. The Senate sat from noon to 10:03 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=1), [D178](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=176). Check: Risen, 208–09, has Dirksen offer his statute-of-limitations amendment and Talmadge call up his jury trial amendment "a few minutes" after on Apr. 20; his note 58 gives the Record of Apr. 21, 8613–66. Check: Purdum, 266, has the Senate pass its previous thirty-seven-day record for a civil rights filibuster that day; Whalen, 166, has the Southerners near "the 37-day record" on Apr. 20. See [[cal.1964-03-30.civil-rights-bill]]. Names: Talmadge, Robertson.'
     src:
-      c: 8f3ee7c7
+      c: a325d5ca
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-1-2.pdf#page=61: 1'
         - 'w.mann-walls-of-jericho 415: 1'
@@ -5632,7 +5644,9 @@ entries:
         - 'via x.1964-04-21.congressional-record-8613: 1'
         - 'w.risen-bill-of-the-century 208–09, 212: ?'
         - 'w.purdum-idea-whose-time-has-2014 266–67: 1'
-    tags: [name:talmadge-herman-e]
+        - 'w.whalen-longest-debate 167: 2'
+        - 'w.purdum-idea-whose-time-has-2014 266: 3'
+    tags: [name:talmadge-herman-e, name:robertson-absalom-w, ok:note-substance]
     time_range:
       - 1964-04-21T17:00Z
       - 1964-04-22T03:03Z
@@ -6478,13 +6492,15 @@ entries:
     date: '1964-04-24'
     place: nevada
     thread: elections-1964-state-conventions
-    c: 'Nevada''s Republican convention: all six delegates for Goldwater, Lieutenant Governor Laxalt among those who rounded them up.'
-    n: '[[w.white-suite-3505]], 314. Names: Goldwater, Laxalt.'
+    c: Nevada's Republican State convention names an all-Goldwater slate, three men and three women;{1} Lieutenant Governor Laxalt among those who rounded up the six delegates.{2}
+    n: '[[w.white-suite-3505]], 314; [[w.novak-agony-of-the-g]], 348. Names: Goldwater, Laxalt.'
     src:
-      c: ea9bba45
+      c: c0455f59
       rows:
-        - 'w.white-suite-3505 314: all'
+        - 'w.white-suite-3505 314: 1, 2'
+        - 'w.novak-agony-of-the-g 348: 1'
     tags: [name:goldwater-barry-m, name:laxalt-paul, state:nv]
+    aliases: [cal.1964-04-25.elections-1964-state-conventions]
   - id: cal.1964-04-24.civil-rights-bill
     when: Apr. 24
     date: '1964-04-24'
@@ -6669,18 +6685,6 @@ entries:
       c: a1ca0888
       rows:
         - 'w.macv-command-history-1964 190: all'
-  - id: cal.1964-04-25.elections-1964-state-conventions
-    when: Apr. 25
-    date: '1964-04-25'
-    place: nevada
-    thread: elections-1964-state-conventions
-    c: 'Nevada''s Republican State convention: an all-Goldwater slate, three men and three women.'
-    n: '[[w.novak-agony-of-the-g]], 348. Names: Goldwater.'
-    src:
-      c: 5efe1440
-      rows:
-        - 'w.novak-agony-of-the-g 348: all'
-    tags: [name:goldwater-barry-m, state:nv]
   - id: cal.1964-04-25.laos
     when: Apr. 25
     date: '1964-04-25'
@@ -7197,22 +7201,6 @@ entries:
       - 1964-04-27T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
-  - id: cal.1964-04-27.china-leadership-7
-    when: Apr. 27
-    date: '1964-04-27'
-    thread: china-leadership
-    c: Deng Xiaoping 邓小平 watches the modern Peking 北京 opera *Reeds and Sparks* 《芦荡火种》 of the Peking Opera Troupe of Peking.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1810 (Apr. 27, 1964). The words: 晚 (III, 1810). Made public: 2009 (the nianpu). Names: Deng Xiaoping.'
-    src:
-      c: cb472ff6
-      rows:
-        - 'w.deng-xiaoping-nianpu-1904 III, 1810: all'
-    tags: [polity:prc, name:deng-xiaoping, vis:only:prc]
-    time_range:
-      - 1964-04-27T11:00Z
-      - 1964-04-27T14:00Z
-    time_band: evening
-    time_zone: Asia/Shanghai
   - id: cal.1964-04-27.china-leadership-8
     when: Apr. 27
     date: '1964-04-27'
@@ -7230,10 +7218,17 @@ entries:
     when: Apr. 27
     date: '1964-04-27'
     thread: china-opera
-    also: [china-liu, china-zhou, china-army]
+    also: [china-liu, china-zhou, china-army, china-leadership]
     c: Chen Yi 陈毅, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Zhu De 朱德, Deng Xiaoping 邓小平, Dong Biwu 董必武, Lu Dingyi 陆定一, Deng Zihui 邓子恢, Nie Rongzhen 聂荣臻 and Zhang Zhizhong 张治中, Vice-Chairman of the National Defense Council, sees the Peking Opera Troupe's 北京京剧团 modern opera *Ludang huozhong* 《芦荡火种》, adapted from the Shanghai opera of the same name.
-    n: '[[w.chen-yi-nianpu]], 1023; [[w.zhu-de-nianpu-xinbian]], III, 1907 (Apr. 27, 1964; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Dong Biwu 董必武, Chen Yi 陈毅, Lu Dingyi 陆定一, Deng Zihui 邓子恢, Nie Rongzhen 聂荣臻 and others, sees the Peking Opera Company 北京京剧团 in the modern Peking opera *Sparks amid the Reeds* 《芦荡火种》, adapted from the Shanghai opera of that name). The words: 晚上 (1023). Names: Chen Yi, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Dong Biwu, Lu Dingyi, Nie Rongzhen, Deng Zihui, Zhang Zhizhong.'
-    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:dong-biwu, name:lu-dingyi, name:nie-rongzhen, ok:fields-place, name:deng-zihui, name:zhang-zhizhong]
+    n: '[[w.chen-yi-nianpu]], 1023; [[w.deng-xiaoping-nianpu-1904]], III, 1810 (Apr. 27, 1964; Deng at the opera); [[w.zhu-de-nianpu-xinbian]], III, 1907 (Apr. 27, 1964; Zhu De 朱德, with Liu Shaoqi 刘少奇, Zhou Enlai 周恩来, Deng Xiaoping 邓小平, Dong Biwu 董必武, Chen Yi 陈毅, Lu Dingyi 陆定一, Deng Zihui 邓子恢, Nie Rongzhen 聂荣臻 and others, sees the Peking Opera Company 北京京剧团 in the modern Peking opera *Sparks amid the Reeds* 《芦荡火种》, adapted from the Shanghai opera of that name). The words: 晚上 (1023); 晚 (III, 1810). Made public: 1995 ([[w.chen-yi-nianpu]]). Names: Chen Yi, Liu Shaoqi, Zhou Enlai, Zhu De, Deng Xiaoping, Dong Biwu, Lu Dingyi, Nie Rongzhen, Deng Zihui, Zhang Zhizhong.'
+    src:
+      c: bbeca5c0
+      rows:
+        - 'w.chen-yi-nianpu 1023: all'
+        - 'w.zhu-de-nianpu-xinbian III, 1907: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1810: ?'
+    tags: [polity:prc, name:chen-yi, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:deng-xiaoping, name:dong-biwu, name:lu-dingyi, name:nie-rongzhen, ok:fields-place, name:deng-zihui, name:zhang-zhizhong, vis:only:prc]
+    aliases: [cal.1964-04-27.china-leadership-7]
     time_range:
       - 1964-04-27T11:00Z
       - 1964-04-27T14:00Z
@@ -7246,15 +7241,16 @@ entries:
       - massachusetts
       - pennsylvania
     thread: elections-1964-primaries
-    c: 'Primaries in Massachusetts and Pennsylvania.{1} Republican: Lodge (write-in) in Massachusetts; Scranton (write-in) in Pennsylvania.{2} Democratic: Johnson (write-in) in Massachusetts and Pennsylvania.{3}'
-    n: 'Mass. *Election Statistics* 1964 (P.D. 43), [47](https://archive.org/details/electionstatisti1964mass/page/n52) (Democratic), [151](https://archive.org/details/electionstatisti1964mass/page/n156) (Republican). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 314–15 (five Goldwater delegates in Massachusetts, two in Pennsylvania; Goldwater over 32,000 write-ins there, Scranton 58 percent); [[w.novak-agony-of-the-g]], 364–66 (Massachusetts: Lodge 64,000, Goldwater 8,000, Nixon 5,000, Rockefeller 2,000; Pennsylvania: Scranton 220,000, Lodge 80,000, Nixon 37,000, Goldwater 32,000, Rockefeller 7,000; Truax''s million stickers; three Goldwater men of sixty-four delegates, Hugus beaten). See [[cal.1964-03-10.elections-1964]]. Names: Lodge, Johnson, Scranton.'
+    c: 'Primaries in Massachusetts and Pennsylvania.{1} Republican: Lodge (write-in) in Massachusetts; Scranton (write-in) in Pennsylvania.{2} Democratic: Johnson (write-in) in Massachusetts and Pennsylvania.{3} Write-ins in Massachusetts: Lodge 64,000, Goldwater 8,000, Nixon 5,000, Rockefeller 2,000. In Pennsylvania: Scranton 220,000, Lodge 80,000, Nixon 37,000, Goldwater 32,000, Rockefeller 7,000; Goldwater men take three of sixty-four delegates.{4} Scranton has 58 percent of the Pennsylvania write-in vote, White says.{5}'
+    n: 'Mass. *Election Statistics* 1964 (P.D. 43), [47](https://archive.org/details/electionstatisti1964mass/page/n52) (Democratic), [151](https://archive.org/details/electionstatisti1964mass/page/n156) (Republican). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 314–15 (five Goldwater delegates in Massachusetts, two in Pennsylvania; Goldwater over 32,000 write-ins there, Scranton 58 percent); [[w.novak-agony-of-the-g]], 364–66 (Massachusetts: Lodge 64,000, Goldwater 8,000, Nixon 5,000, Rockefeller 2,000; Pennsylvania: Scranton 220,000, Lodge 80,000, Nixon 37,000, Goldwater 32,000, Rockefeller 7,000; Truax''s million stickers; three Goldwater men of sixty-four delegates, Hugus beaten); [[w.novak-agony-of-the-g]], 364–66; [[w.white-suite-3505]], 315. See [[cal.1964-03-10.elections-1964]]. Names: Lodge, Johnson, Scranton, Goldwater, Rockefeller, Nixon.'
     src:
-      c: cf79368d
+      c: 048fecb5
       rows:
         - 'https://archive.org/details/electionstatisti1964mass/page/n52: 1, 2, 3'
         - 'w.white-suite-3505 314–15: 1'
-        - 'w.novak-agony-of-the-g 364–66: 1, 2'
-    tags: [primary:1964-04-28, name:lodge-henry-cabot, name:johnson-lyndon-b, name:scranton-william-w]
+        - 'w.novak-agony-of-the-g 364–66: 1, 2, 4'
+        - 'w.white-suite-3505 315: 5'
+    tags: [primary:1964-04-28, name:lodge-henry-cabot, name:johnson-lyndon-b, name:scranton-william-w, name:goldwater-barry-m, name:rockefeller-nelson, name:nixon-richard-m, ok:note-substance]
     time_range:
       - 1964-04-29T00:00Z
       - 1964-04-29T07:00Z
@@ -7281,20 +7277,21 @@ entries:
     place: washington
     thread: civil-rights-bill
     also: [civil-rights-organizations]
-    c: National Interreligious Convocation on Civil Rights at Georgetown University, some sixty-five hundred, called at Humphrey's suggestion.{1} The clergy lobby the Congress the days after.{2}
-    n: '[[w.mann-walls-of-jericho]], 398, 412; [[w.white-making-of-the-president-1965]], 177 (the gymnasium of Georgetown University); [[w.kotz-judgment-days]], 144; [[w.bernstein-guns-or-butter]], 69 (McDonough Gymnasium and Gaston Hall; Humphrey, Kuchel, Javits, Keating and Archbishop Shehan among the speakers); [[w.whalen-longest-debate]], 165, 170–71 (the plans laid with Humphrey, Mar. 17; 5,000 church leaders; Blake''s speech); [[w.debenedetti-american-ordeal]], 92 (late April, five thousand clergy for the bill); [[w.risen-bill-of-the-century]], 211 (that evening, McDonough Hall; Humphrey, Kuchel, Javits and Keating; a choir; Bishop Smith, Archbishop Shehan, Rabbi Miller, Blake; Blake''s speech next day''s headlines; not Humphrey''s suggestion or the lobbying after); [[w.purdum-idea-whose-time-has-2014]], 268 (the interfaith convocation at Georgetown on Tuesday, Apr. 28, five thousand religious leaders by Purdum; the clergy on the Hill after; not the sixty-five hundred nor Humphrey''s suggestion). Check: Bernstein, 69, gives 5,000 church leaders. Check: Whalen, 170, also gives 5,000. Check: DeBenedetti, 92, gives five thousand clergy. Check: Purdum, 268, gives five thousand religious leaders, as Bernstein, Whalen and DeBenedetti do. See [[cal.1964-03-06.civil-rights-bill]]. Names: Humphrey.'
+    c: National Interreligious Convocation on Civil Rights at Georgetown University, some sixty-five hundred, called at Humphrey's suggestion.{1} The clergy lobby the Congress the days after.{2} That evening Humphrey, Kuchel, Javits and Keating speak, with Archbishop Shehan, Rabbi Miller and Eugene Carson Blake, in McDonough Gymnasium, the crowd overflowing into Gaston Hall.{3}
+    n: '[[w.mann-walls-of-jericho]], 398, 412; [[w.white-making-of-the-president-1965]], 177 (the gymnasium of Georgetown University); [[w.kotz-judgment-days]], 144; [[w.bernstein-guns-or-butter]], 69 (McDonough Gymnasium and Gaston Hall; Humphrey, Kuchel, Javits, Keating and Archbishop Shehan among the speakers); [[w.whalen-longest-debate]], 165, 170–71 (the plans laid with Humphrey, Mar. 17; 5,000 church leaders; Blake''s speech); [[w.debenedetti-american-ordeal]], 92 (late April, five thousand clergy for the bill); [[w.risen-bill-of-the-century]], 211 (that evening, McDonough Hall; Humphrey, Kuchel, Javits and Keating; a choir; Bishop Smith, Archbishop Shehan, Rabbi Miller, Blake; Blake''s speech next day''s headlines; not Humphrey''s suggestion or the lobbying after); [[w.purdum-idea-whose-time-has-2014]], 268 (the interfaith convocation at Georgetown on Tuesday, Apr. 28, five thousand religious leaders by Purdum; the clergy on the Hill after; not the sixty-five hundred nor Humphrey''s suggestion); [[w.bernstein-guns-or-butter]], 69. Check: Bernstein, 69, gives 5,000 church leaders. Check: Whalen, 170, also gives 5,000. Check: DeBenedetti, 92, gives five thousand clergy. Check: Purdum, 268, gives five thousand religious leaders, as Bernstein, Whalen and DeBenedetti do. See [[cal.1964-03-06.civil-rights-bill]]. Names: Humphrey, Kuchel, Javits, Keating.'
     src:
-      c: b57469ce
+      c: 5be58a82
       rows:
         - 'w.mann-walls-of-jericho 412: 1, 2'
         - 'w.white-making-of-the-president-1965 177: ?'
         - 'w.kotz-judgment-days 144: 1'
-        - 'w.bernstein-guns-or-butter 69: 1'
         - 'w.whalen-longest-debate 165, 170–71: 1'
         - 'via x.1964-04-29.new-york-times: 1'
         - 'w.debenedetti-american-ordeal 92: 1'
         - 'w.risen-bill-of-the-century 211: ?'
         - 'w.purdum-idea-whose-time-has-2014 268: ?'
+        - 'w.bernstein-guns-or-butter 69: 1, 3'
+    tags: [name:kuchel-thomas-h, name:javits-jacob-k, name:keating-kenneth-b, ok:note-substance]
     variants:
       - unit: '1'
         witness: w.risen-bill-of-the-century
@@ -7304,6 +7301,12 @@ entries:
         witness: w.purdum-idea-whose-time-has-2014
         reads: five thousand religious leaders at the interfaith convocation at Georgetown on Tuesday, Apr. 28
         at: '268'
+    time_range:
+      - 1964-04-28T23:00Z
+      - 1964-04-29T02:00Z
+    time_band: evening
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1964-04-28.civil-rights-bill-2
     when: Apr. 28
     date: '1964-04-28'
@@ -8987,3 +8990,12 @@ entries:
       rows:
         - 'w.teiwes-tragedy-of-lin-biao 200: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-04.elections-1964-primaries-3
+    when: Apr., before the 7th
+    date: 1964-04
+    at: before 1964-04-07
+    place: wisconsin
+    thread: elections-1964-primaries
+    c: 'Governor Reynolds of Wisconsin, before the primary: even 100,000 votes for Wallace would be a disaster.'
+    n: '[[w.risen-bill-of-the-century]], 197. Check: the day. Names: John Reynolds, Wallace.'
+    tags: [name:reynolds-john-w-jr, name:wallace-george-c]

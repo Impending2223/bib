@@ -8,6 +8,8 @@ The recipes below are the ones the Opus auditors used on the night of Nov. 24, 2
 
 The owner's Drive holds a copy of nearly every work the series cites: the books, the chronologies, the diaries, the documentary collections, the scans in Chinese. Take it that the work you need is there, find it (section 2), and read it. A work's notes are in the same copy as its pages, at the back or at the foot of the page; reading a note is reading that copy. A row is never left unread because the book is thought to be elsewhere, or because reading it would take time: no batch has a time limit (R0). Only where the search of section 2 finds no copy at all does a row wait, and then the note says where you looked. For the rows of the "page and note" batches, `notes/via-read/copies.tsv` gives each work's file on the Drive (the inventory of Nov. 25 and the book-check files); the official histories of the Joint Chiefs of Staff and the Office of the Secretary of Defense that it does not find on the Drive are read in their DTIC copies on archive.org (jcs.mil refuses this machine). The list was made by matching titles; where a file it names is not the work, search the inventory and say so.
 
+A file whose name gives no title (`hathi-wmeat-1963-73.pdf`, `nhhc-ship-force-levels.pdf`) is most often one the series asked the owner to fetch under that name: look its name up in the `save_as:` lines of `notes/procurement.yaml`, which give its title and why it was wanted, before taking it for unknown (the owner, Nov. 26, 2026, on a file an inventory called unnamed: "hathi-wmeat-1963-73 was the name you told me to give the file in the procurement request").
+
 ## 1. Work in a directory of your own
 
 The scratchpad is shared by every agent of the session. Make a directory with a name nobody else will pick, and keep everything in it.
@@ -44,6 +46,8 @@ pdfinfo book.pdf     # the real page count; ignore the page count `file` prints
 ```
 
 Do not use the Drive connector's own tools to fetch a book. `download_file_content` refuses a file over 10 MB. `read_file_content` returns only the text of about the first 170 pages, and nothing of a scan.
+
+If `file` says "HTML document" and the page's title is "Google Drive - Quota exceeded", the file is shared but Google has stopped downloads from this machine for a time (Nov. 26, 2026, about 3:15 p.m. PT, after a day of heavy reading and an inventory that asked the end of some 1,800 PDFs for their page counts: every file refused, a small one too; the quota is not per file). A task that only lists or counts files uses the connector's listing and the sizes it gives, and never fetches a file to count its pages. Do not retry in a loop and do not cite the pages. Read the parts of your batch that need no Drive copy (records online, the series' own texts), list the entries that wait on the Drive with the work each needs, and report. The quota lifts within a day. To spend less of it: fetch each work once, read it for every entry of your batch that cites it, and only then delete it.
 
 If `file` says "HTML document", the file is not shared by link and curl got a sign-in page. Then, and only then, the file cannot be fetched. Say so in your report, with the file's name and id, so the owner can move it into the shared folder. Do not cite its pages.
 

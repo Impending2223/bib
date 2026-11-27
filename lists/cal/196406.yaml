@@ -1287,17 +1287,17 @@ entries:
     date: '1964-06-05'
     place: washington-state
     thread: elections-1964-state-conventions
-    c: 'Washington''s Republican State convention: 21 of its 24 delegates pledged to Goldwater, 3 uncommitted.{1}'
-    n: '"21 Delegates Pledge Him Their Votes," [*News Tribune*, June 6, 1964](https://www.newspapers.com/image/734677376) (Tacoma). The figures: [Wikipedia, "1964 Republican Party presidential primaries"](https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries), its table of the primaries and conventions, read Oct. 22, 2026. [[w.white-suite-3505]], 354 (22 of the 24); [[w.white-making-of-the-president-1965]], 133–34, 137 (Luke Williams''s organization; 65 percent of the 5,500 precincts by the end of 1963; 22 of 24 in the *Times*''s headline of June 7); [[w.novak-agony-of-the-g]], 352–53 (King County''s caucus 62 percent for Goldwater, Nixon 17, Lodge 10, Rockefeller 9; Spokane, sixteen hundred of seventeen hundred). Check: Theodore White, 134, gives the State convention June 11–13; the *Times* of Sunday, June 7, 22 of 24 (137). Check: Novak, 353, has the State convention "scheduled for June 13.". See [[cal.1964-02-29.elections-1964-state-conventions]]. Names: Goldwater. Check: the paper (newspapers.com, by subscription; not read here). Check: White, 354, has Washington''s convention the weekend of June 13, 22 of 24 for Goldwater.'
+    c: 'Washington''s Republican State convention: 21 of its 24 delegates pledged to Goldwater, 3 uncommitted.{1} The delegates are the work of Luke Williams and his "amateurs," who had swamped their Liberal opponents in the precincts for more than a year, White says.{2}'
+    n: '"21 Delegates Pledge Him Their Votes," [*News Tribune*, June 6, 1964](https://www.newspapers.com/image/734677376) (Tacoma). The figures: [Wikipedia, "1964 Republican Party presidential primaries"](https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries), its table of the primaries and conventions, read Oct. 22, 2026. [[w.white-suite-3505]], 354 (22 of the 24); [[w.white-making-of-the-president-1965]], 133–34, 137 (Luke Williams''s organization; 65 percent of the 5,500 precincts by the end of 1963; 22 of 24 in the *Times*''s headline of June 7); [[w.novak-agony-of-the-g]], 352–53 (King County''s caucus 62 percent for Goldwater, Nixon 17, Lodge 10, Rockefeller 9; Spokane, sixteen hundred of seventeen hundred); [[w.white-suite-3505]], 354. Check: Theodore White, 134, gives the State convention June 11–13; the *Times* of Sunday, June 7, 22 of 24 (137). Check: Novak, 353, has the State convention "scheduled for June 13.". See [[cal.1964-02-29.elections-1964-state-conventions]]. Names: Goldwater. Check: the paper (newspapers.com, by subscription; not read here). Check: White, 354, has Washington''s convention the weekend of June 13, 22 of 24 for Goldwater.'
     src:
-      c: d896227e
+      c: e4f10f57
       rows:
         - 'https://www.newspapers.com/image/734677376: 1'
         - 'https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries: 1'
-        - 'w.white-suite-3505 354: 1'
         - 'w.white-making-of-the-president-1965 133–34, 137: ?'
         - 'w.novak-agony-of-the-g 352–53: 1'
-    tags: [state:wa, name:goldwater-barry-m]
+        - 'w.white-suite-3505 354: 1, 2'
+    tags: [state:wa, name:goldwater-barry-m, ok:note-substance]
     short: Washington
   - id: cal.1964-06-05.civil-rights-the-executive
     when: June 5
@@ -1728,6 +1728,14 @@ entries:
       - 1964-06-05T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-06-05.goldwater
+    when: June 5
+    date: '1964-06-05'
+    thread: goldwater
+    also: [states-and-cities]
+    c: Fannin arranges with Rhodes, the host governor, Goldwater's invitation to the Governors' Conference at Cleveland; Goldwater, unwilling, is persuaded by his aides once it is announced.
+    n: '[[w.novak-agony-of-the-g]], 433 n.11. See [[cal.1964-06-07.states-and-cities-us]]. Names: Fannin, Rhodes, Goldwater.'
+    tags: [name:fannin-paul-j, name:rhodes-james-a, name:goldwater-barry-m, ok:fields-place]
   - id: cal.1964-06-06.laos
     when: June 6–7
     date: '1964-06-06'
@@ -2141,16 +2149,17 @@ entries:
     place: cleveland
     thread: states-and-cities
     also: [civil-rights-bill, elections-1964]
-    c: 'Governors'' Conference at Cleveland.{1} Eisenhower speaks, June 8. June 9: civil rights in three workshops, on education, employment and public accommodations, reported to the full conference without a vote. Scranton, Rockefeller and Romney there;{2} the Senate''s cloture vote on the civil rights bill June 10, the last day.{3}'
-    n: '[*Proceedings of the Governors'' Conference, 1964*, 6, 49–69](https://www.nga.org/wp-content/uploads/2021/03/1964NGAAnnualMeeting.pdf#page=22). [[w.kabaservice-rule-and-ruin]], 98 (the conference, June 7–10; the cloture vote, June 10); [[w.novak-agony-of-the-g]], 432–33 & n.11 (Goldwater at the Monday banquet, with Eisenhower, Rockefeller and Scranton; Fannin had arranged his invitation with Rhodes, June 5); [[w.hess-republican-establishment]], 31–32 (the Governors'' Conference at Cleveland, 1964: "an attempted power play by the Governors to block the nomination of Goldwater" collapses "in a tragicomedy of conflicting ambitions, inept communication and bad politics"; no day, no speakers). To check: [[w.white-making-of-the-president-1965]]. See [[cal.1963-07-21.states-and-cities-us]]. Names: Eisenhower, Scranton, Rockefeller, Romney.'
+    c: 'Governors'' Conference at Cleveland.{1} Eisenhower speaks, June 8. June 9: civil rights in three workshops, on education, employment and public accommodations, reported to the full conference without a vote. Scranton, Rockefeller and Romney there;{2} the Senate''s cloture vote on the civil rights bill June 10, the last day.{3} Goldwater comes for Eisenhower''s speech at the Monday-night banquet and rejects Scranton''s suggestion that he face the governors Tuesday morning.{4}'
+    n: '[*Proceedings of the Governors'' Conference, 1964*, 6, 49–69](https://www.nga.org/wp-content/uploads/2021/03/1964NGAAnnualMeeting.pdf#page=22). [[w.kabaservice-rule-and-ruin]], 98 (the conference, June 7–10; the cloture vote, June 10); [[w.novak-agony-of-the-g]], 432–33 & n.11 (Goldwater at the Monday banquet, with Eisenhower, Rockefeller and Scranton; Fannin had arranged his invitation with Rhodes, June 5); [[w.hess-republican-establishment]], 31–32 (the Governors'' Conference at Cleveland, 1964: "an attempted power play by the Governors to block the nomination of Goldwater" collapses "in a tragicomedy of conflicting ambitions, inept communication and bad politics"; no day, no speakers); [[w.novak-agony-of-the-g]], 432–33. To check: [[w.white-making-of-the-president-1965]]. See [[cal.1963-07-21.states-and-cities-us]]. Names: Eisenhower, Scranton, Rockefeller, Romney, Goldwater.'
     src:
-      c: 55ec2362
+      c: 90cf5327
       rows:
         - 'https://www.nga.org/wp-content/uploads/2021/03/1964NGAAnnualMeeting.pdf#page=22: 1, 2, 3'
         - 'w.kabaservice-rule-and-ruin 98: 1, 3'
         - 'w.novak-agony-of-the-g 432–33 & n.11: ?'
         - 'w.hess-republican-establishment 31–32: 1'
-    tags: [name:eisenhower-dwight-d, name:scranton-william-w, name:rockefeller-nelson, name:romney-george-w]
+        - 'w.novak-agony-of-the-g 432–33: 4'
+    tags: [name:eisenhower-dwight-d, name:scranton-william-w, name:rockefeller-nelson, name:romney-george-w, name:goldwater-barry-m, ok:note-substance]
     short: the Governors' Conference
   - id: cal.1964-06-07.republican-party
     when: June 7
@@ -2158,18 +2167,18 @@ entries:
     place: cleveland
     thread: republican-party
     also: [elections-1964]
-    c: 'Cleveland, the Sheraton.{1} Fifteen Republican governors at breakfast, the Governors'' Conference opening.{2} Romney: summon Goldwater to clarify his positions.{3} Hatfield: "George, you''re six months too late";{4} to Scranton, for Romney, "eleventh-hour warriors."{5}'
-    n: '[[w.perlstein-before-the-storm]], 357; [[w.white-suite-3505]], 364–65 (the breakfast, by governors'' accounts to White; Hatfield''s words); [[w.white-making-of-the-president-1965]], 146–47 (the Chieftain Room; Romney''s draft, dictated at dawn; Rockefeller applauds; Scranton in at half past ten, out early); [[w.novak-agony-of-the-g]], 425–27 (Romney''s crusade; Fannin; Hatfield: "George, the war''s over"; Rockefeller silent; Scranton for asking Goldwater to explain his views on Tuesday). [[w.kabaservice-rule-and-ruin]], 98 (Romney to fight for a progressive platform; Hatfield resigned to Goldwater''s nomination; no one but Rockefeller ready to challenge Goldwater, by the Ripon Society''s report). See [[cal.1964-06-07.states-and-cities-us]]. Names: Romney, Goldwater, Hatfield, Scranton.'
+    c: 'Cleveland, the Sheraton.{1} Fifteen Republican governors at breakfast, the Governors'' Conference opening.{2} Romney: summon Goldwater to clarify his positions.{3} Hatfield: "George, you''re six months too late";{4} to Scranton, for Romney, "eleventh-hour warriors."{5} Fannin objects to asking the probable nominee to submit to cross-examination. Novak has Hatfield tell Romney "the war''s over"; Rockefeller sits silent.{6}'
+    n: '[[w.perlstein-before-the-storm]], 357; [[w.white-suite-3505]], 364–65 (the breakfast, by governors'' accounts to White; Hatfield''s words); [[w.white-making-of-the-president-1965]], 146–47 (the Chieftain Room; Romney''s draft, dictated at dawn; Rockefeller applauds; Scranton in at half past ten, out early); [[w.novak-agony-of-the-g]], 425–27 (Romney''s crusade; Fannin; Hatfield: "George, the war''s over"; Rockefeller silent; Scranton for asking Goldwater to explain his views on Tuesday); [[w.novak-agony-of-the-g]], 425–27. [[w.kabaservice-rule-and-ruin]], 98 (Romney to fight for a progressive platform; Hatfield resigned to Goldwater''s nomination; no one but Rockefeller ready to challenge Goldwater, by the Ripon Society''s report). See [[cal.1964-06-07.states-and-cities-us]]. Names: Romney, Goldwater, Hatfield, Scranton, Fannin, Rockefeller.'
     src:
-      c: caa504bf
+      c: 7aae7f4a
       rows:
         - 'w.perlstein-before-the-storm 357: 1, 2, 3, 4, 5'
         - 'via w.perlstein-before-the-storm 357 n.1: 1, 2, 3, 4, 5'
         - 'w.kabaservice-rule-and-ruin 98: 3, 4'
         - 'w.white-suite-3505 364–65: 1'
         - 'w.white-making-of-the-president-1965 146–47: 1, 2, 3'
-        - 'w.novak-agony-of-the-g 425–27: ?'
-    tags: [name:romney-george-w, name:goldwater-barry-m, name:hatfield-mark-o, name:scranton-william-w, city:cleveland]
+        - 'w.novak-agony-of-the-g 425–27: 6'
+    tags: [name:romney-george-w, name:goldwater-barry-m, name:hatfield-mark-o, name:scranton-william-w, city:cleveland, name:fannin-paul-j, name:rockefeller-nelson, ok:note-substance]
     short: the governors at Cleveland
     time_range:
       - 1964-06-07T10:00Z
@@ -4014,30 +4023,30 @@ entries:
     date: '1964-06-11'
     thread: robert-kennedy
     also: [vietnam]
-    c: 'Robert Kennedy to Johnson: "if you wished me to go to Viet Nam in any capacity I would be glad to do so."{1} Johnson by telephone that evening thanks him and asks his help in choosing an ambassador;{2} June 12, Kennedy proposes Terry Sanford.{3} May 28, he had urged a group on Vietnam like the ExComm.{4}'
-    n: '[Johnson and Robert Kennedy, 6:11 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-and-office-conversation-june-11), Tape WH6406.06, Citation #3699 (Miller Center); [June 12, 7:26 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-june-12-1964), Tape WH6406.08, Citation #3731 (Miller Center); [May 28, 11:45 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-may-28-1964), Tape WH6405.11, Citations #3539 and #3540 (Miller Center). Kennedy to Johnson, June 11, 1964, LBJ Library (Check the file). [[w.schlesinger-robert-kennedy-and-his]], 728 (the letter, undated, filed June 11); [[w.gibbons-u-s-government-and]], II, 276 n.164 (the note of June 11, from Schlesinger); [[w.branch-pillar-of-fire]], 321, 337; [[w.clifford-counsel-to-the-president-2]], 395 (Robert Kennedy at Clifford''s office late that afternoon: the letter sent, not a political ploy; Johnson''s refusal after talking with Rusk, McNamara and Clifford); [[w.shesol-mutual-contempt]], 198–99 (the letter; Kennedy at Clifford''s office that afternoon; Johnson''s answer by telephone that evening); [[w.shesol-mutual-contempt]], 262 (May 28, Kennedy for a group on Vietnam: "Being quite frank about it"); [[w.thomas-robert-kennedy]], 293 (early June; Johnson touched, fearing an independent agent); [[w.taking-charge]], 405–6; [[w.taking-charge]], 374–75. Made public: the recordings, opened by the LBJ Library. Check the year. Check: [[w.taking-charge]], 405 n.4, quotes the letter "I would be glad to go.". To check: [[w.taking-charge-2001]]. Names: Robert Kennedy, Johnson, Sanford.'
+    c: 'Robert Kennedy to Johnson: "if you wished me to go to Viet Nam in any capacity I would be glad to do so."{1}'
+    n: '[Johnson and Robert Kennedy, 6:11 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-and-office-conversation-june-11), Tape WH6406.06, Citation #3699 (Miller Center); [June 12, 7:26 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-june-12-1964), Tape WH6406.08, Citation #3731 (Miller Center); [May 28, 11:45 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-may-28-1964), Tape WH6405.11, Citations #3539 and #3540 (Miller Center). Kennedy to Johnson, June 11, 1964, LBJ Library (Check the file). [[w.schlesinger-robert-kennedy-and-his]], 728 (the letter, undated, filed June 11); [[w.gibbons-u-s-government-and]], II, 276 n.164 (the note of June 11, from Schlesinger); [[w.branch-pillar-of-fire]], 321, 337; [[w.clifford-counsel-to-the-president-2]], 395 (Robert Kennedy at Clifford''s office late that afternoon: the letter sent, not a political ploy; Johnson''s refusal after talking with Rusk, McNamara and Clifford); [[w.shesol-mutual-contempt]], 198–99 (the letter; Kennedy at Clifford''s office that afternoon; Johnson''s answer by telephone that evening); [[w.shesol-mutual-contempt]], 262 (May 28, Kennedy for a group on Vietnam: "Being quite frank about it"); [[w.thomas-robert-kennedy]], 293 (early June; Johnson touched, fearing an independent agent); [[w.taking-charge]], 405–6; [[w.taking-charge]], 374–75. Made public: the recordings, opened by the LBJ Library. Check the year. Check: [[w.taking-charge]], 405 n.4, quotes the letter "I would be glad to go.". To check: [[w.taking-charge-2001]]. Names: Robert Kennedy, Johnson, Sanford. Johnson''s call of that evening, Kennedy''s of June 12 and their call of May 28 are entries of their own, as is Kennedy''s visit to Clifford''s office that afternoon.'
     src:
-      c: adaa34b0
+      c: 1bcbeae3
       rows:
-        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-and-office-conversation-june-11: 1, 2, 3, 4'
-        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-june-12-1964: 1, 2, 3, 4'
-        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-may-28-1964: 1, 2, 3, 4'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-and-office-conversation-june-11: 1'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-june-12-1964: 1'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-may-28-1964: 1'
         - 'w.schlesinger-robert-kennedy-and-his 728: 1'
         - 'via w.schlesinger-robert-kennedy-and-his 728 n.18: 1'
         - 'w.gibbons-u-s-government-and II, 276 n.164: 1'
-        - 'w.branch-pillar-of-fire 321, 337: 1, 2'
-        - 'via w.branch-pillar-of-fire 321 n.is-obviously-the-most: 1, 2'
-        - 'via w.branch-pillar-of-fire 337 n.the-nicest-thing: 1, 2'
+        - 'w.branch-pillar-of-fire 321, 337: 1'
+        - 'via w.branch-pillar-of-fire 321 n.is-obviously-the-most: 1'
+        - 'via w.branch-pillar-of-fire 337 n.the-nicest-thing: 1'
         - 'w.clifford-counsel-to-the-president-2 395: 1'
-        - 'w.shesol-mutual-contempt 198–99: 1, 2'
-        - 'w.shesol-mutual-contempt 262: 4'
+        - 'w.shesol-mutual-contempt 198–99: 1'
+        - 'w.shesol-mutual-contempt 262: ?'
         - 'w.thomas-robert-kennedy 293: 1'
-        - 'w.taking-charge 405–6: 1, 2'
-        - 'via x.1964-06-11.johnson-robert-kennedy-telephone-1811: 1, 2'
+        - 'w.taking-charge 405–6: 1'
+        - 'via x.1964-06-11.johnson-robert-kennedy-telephone-1811: 1'
         - 'via x.1964-06-11.kennedy-to-johnson-offer-to-go-to-vietnam: 1'
-        - 'w.taking-charge 374–75: 4'
-        - 'via x.1964-05-28.johnson-robert-kennedy-telephone-1145: 4'
-    tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:sanford-terry]
+        - 'w.taking-charge 374–75: ?'
+        - 'via x.1964-05-28.johnson-robert-kennedy-telephone-1145: ?'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:sanford-terry, ok:note-substance]
     time_range:
       - 1964-06-11T13:00Z
       - 1964-06-11T21:00Z
@@ -4363,10 +4372,10 @@ entries:
     place: peking
     thread: china-polemic
     also: [soviet-union, china-four-cleanups, china-mao-foreign]
-    c: 'Mao presides over a plenary session of the Central Work Conference, Hall of the People, Room 118, afternoon;{1} Liu Shaoqi reports on the struggle against modern revisionism.{2} Liu: if the Soviet Union went revisionist in 40 years and Lenin''s party was transformed, will China''s?{3} Mao: it will if no attention is paid; and may anyhow; it would be a matter of months, years, decades, then a turn back. Prepare now for the day.{4} Mass movements against it, the five-antis and four-cleans;{5} theory and the arts. Do not arrest, expel or kill at random.{6} "The sky may darken."{7}'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, June 11, 1964; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 593 (June 11, 1964; Liu reports at the Central Work Conference on the struggle against modern revisionism: the development of the international situation since the conference of last September, the present line of that struggle and how to guard against revisionism and the restoration of capitalism at home; mass movements, "four clean-ups" and "five-antis," are to be launched regularly across the country to prevent revisionism); [[w.yang-shangkun-riji]], II, 383 (June 11, 1964; 4:10 to 7 p.m.; Yang there; the room not named); [[w.deng-xiaoping-nianpu-1904]], III, 1815–1816 (June 11, 1964; afternoon, 下午; Deng at the plenary of the Central Work Conference Mao presides over, which hears Liu Shaoqi''s report on the struggle against modern revisionism); [[w.mao-zedong-zhuan]], VI, ch. 73 (June 11 Liu reports on the struggle against modern revisionism at the Central Work Conference; Mao''s short speech after it: much cannot be foreseen; the sky may darken, but with faith (n.3)). [[w.jian-zhou-enlai]], 490 (Liu on fighting revisionism; could China turn revisionist? Mao: "It is possible"); [[w.peng-zhen-nianpu-1902]], IV, 337 (June 11, 1964, afternoon; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Liu Shaoqi''s report on the struggle against revisionism); [[w.zhu-de-nianpu-xinbian]], III, 1910 (June 11, 1964; Zhu De 朱德 at the plenary session, which hears Liu Shaoqi 刘少奇 on the struggle against modern revisionism; the report: mass movements, "four clean-ups" 四清 and "five-antis" 五反, to be waged regularly across the country, so as to prevent revisionism). Made public: 1996. To check: Central Work Conference 中央工作会议, record 记录, June 11, 1964 (Liu Shaoqi''s report; Mao''s remarks) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.3). Names: Mao Zedong, Liu Shaoqi.'
+    c: 'Mao presides over a plenary session of the Central Work Conference, Hall of the People, Room 118, afternoon;{1} Liu Shaoqi reports on the struggle against modern revisionism.{2} Liu: if the Soviet Union went revisionist in 40 years and Lenin''s party was transformed, will China''s?{3} Mao: it will if no attention is paid; and may anyhow; it would be a matter of months, years, decades, then a turn back. Prepare now for the day.{4} Mass movements against it, the five-antis and four-cleans;{5} theory and the arts. Do not arrest, expel or kill at random.{6} "The sky may darken."{7} Zhu De attends.{8} Peng Zhen attends.{9} Deng Xiaoping attends.{10}'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, June 11, 1964; [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 593 (June 11, 1964; Liu reports at the Central Work Conference on the struggle against modern revisionism: the development of the international situation since the conference of last September, the present line of that struggle and how to guard against revisionism and the restoration of capitalism at home; mass movements, "four clean-ups" and "five-antis," are to be launched regularly across the country to prevent revisionism); [[w.yang-shangkun-riji]], II, 383 (June 11, 1964; 4:10 to 7 p.m.; Yang there; the room not named); [[w.deng-xiaoping-nianpu-1904]], III, 1815–1816 (June 11, 1964; afternoon, 下午; Deng at the plenary of the Central Work Conference Mao presides over, which hears Liu Shaoqi''s report on the struggle against modern revisionism); [[w.mao-zedong-zhuan]], VI, ch. 73 (June 11 Liu reports on the struggle against modern revisionism at the Central Work Conference; Mao''s short speech after it: much cannot be foreseen; the sky may darken, but with faith (n.3)). [[w.jian-zhou-enlai]], 490 (Liu on fighting revisionism; could China turn revisionist? Mao: "It is possible"); [[w.peng-zhen-nianpu-1902]], IV, 337 (June 11, 1964, afternoon; Peng Zhen at the work conference''s plenary, Mao presiding, hearing Liu Shaoqi''s report on the struggle against revisionism); [[w.zhu-de-nianpu-xinbian]], III, 1910 (June 11, 1964; Zhu De 朱德 at the plenary session, which hears Liu Shaoqi 刘少奇 on the struggle against modern revisionism; the report: mass movements, "four clean-ups" 四清 and "five-antis" 五反, to be waged regularly across the country, so as to prevent revisionism); [[w.zhu-de-nianpu-xinbian]], III, 1910; [[w.peng-zhen-nianpu-1902]], IV, 337; [[w.deng-xiaoping-nianpu-1904]], III, 1815–16. Made public: 1996. To check: Central Work Conference 中央工作会议, record 记录, June 11, 1964 (Liu Shaoqi''s report; Mao''s remarks) (cited by [[w.mao-zedong-zhuan]], VI, ch. 73 n.3). Names: Mao Zedong, Liu Shaoqi, Zhu De, Peng Zhen, Deng Xiaoping.'
     src:
-      c: 46212b0c
+      c: d6a9830b
       rows:
         - 'w.zedong-mao-zedong-nianpu V, June 11, 1964: 1, 2, 3, 4, 5, 6, 7'
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 593: 2, 3, 5'
@@ -4375,9 +4384,10 @@ entries:
         - 'w.mao-zedong-zhuan VI, ch. 73: 2, 7'
         - 'via w.mao-zedong-zhuan VI, ch.73 n.3: 2, 7'
         - 'w.jian-zhou-enlai 490: ?'
-        - 'w.peng-zhen-nianpu-1902 IV, 337: ?'
-        - 'w.zhu-de-nianpu-xinbian III, 1910: ?'
-    tags: [name:mao-zedong, name:liu-shaoqi, polity:prc, vis:only:prc]
+        - 'w.zhu-de-nianpu-xinbian III, 1910: 8'
+        - 'w.peng-zhen-nianpu-1902 IV, 337: 9'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1815–16: 10'
+    tags: [name:mao-zedong, name:liu-shaoqi, polity:prc, vis:only:prc, name:zhu-de, name:peng-zhen, name:deng-xiaoping, ok:note-substance]
     time_range:
       - 1964-06-11T04:00Z
       - 1964-06-11T10:00Z
@@ -4556,15 +4566,44 @@ entries:
       - 1964-06-11T06:00Z
       - 1964-06-11T09:30Z
     range_basis: record
+  - id: cal.1964-06-11.robert-kennedy-3
+    when: June 11
+    date: '1964-06-11'
+    place: washington
+    thread: robert-kennedy
+    also: [vietnam]
+    follows:
+      - cal.1964-06-11.robert-kennedy
+    c: Late afternoon, Clark Clifford's law office. Robert Kennedy tells Clifford he has just sent Johnson a letter offering to take Lodge's place in Saigon, Vietnam "obviously the most important problem facing the United States"; it is not a political ploy.
+    n: '[[w.clifford-counsel-to-the-president-2]], 395 ("the late afternoon of June 11"); [[w.shesol-mutual-contempt]], 198–99. See [[cal.1964-06-11.robert-kennedy]]. Names: Robert Kennedy, Clifford, Lodge.'
+    tags: [name:kennedy-robert-f, name:clifford-clark, name:lodge-henry-cabot]
+    time_range:
+      - 1964-06-11T16:00Z
+      - 1964-06-11T22:00Z
+    time_band: afternoon
+    time_zone: America/New_York
+    range_basis: record
+  - id: cal.1964-06-11.robert-kennedy-4
+    when: June 11
+    date: '1964-06-11'
+    time: 1964-06-11T22:11Z
+    thread: robert-kennedy
+    also: [vietnam]
+    follows:
+      - cal.1964-06-11.robert-kennedy
+    c: 'Johnson to Robert Kennedy by telephone, 6:11 p.m.: his note "the nicest thing that happened to me since I''ve been here"; he cannot "think of letting you do that," but Kennedy must help him find the man, and soon. By Clifford''s account Johnson turned the offer down after talking with Rusk, McNamara and Clifford, for Kennedy''s safety in the war zone.'
+    n: '[Johnson and Robert Kennedy, 6:11 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-and-office-conversation-june-11), Tape WH6406.06, Citation #3699 (Miller Center). [[w.taking-charge]], 405–6; [[w.shesol-mutual-contempt]], 199 ("on the evening of June 11"); [[w.clifford-counsel-to-the-president-2]], 395 (the grounds; Clifford''s account). Made public: the recordings, opened by the LBJ Library. Check the year. See [[cal.1964-06-11.robert-kennedy]]. Names: Johnson, Robert Kennedy, Rusk, McNamara, Clifford.'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:rusk-dean, name:mcnamara-robert-s, name:clifford-clark]
+    time_zone: America/New_York
   - id: cal.1964-06-12.elections-1964
     when: June 12
     date: '1964-06-12'
     place: baltimore
     thread: elections-1964-scranton
-    c: Scranton announces for the Republican nomination, at the Maryland Republican convention in Baltimore.{1} Rockefeller withdraws for him, June 15.{2} Check the date.{3}
-    n: '[[w.perlstein-before-the-storm]], 359–61 (the decision, June 11; the announcement); [[w.young-two-suns-of-the]], 95–96 (the decision, June 11; his letter to Goldwater the next day; the Maryland convention; Rockefeller for Scranton, June 15); [[w.white-suite-3505]], 354–55, 368 (the announcement at Baltimore; the decision, June 11, at Indiantown Gap); [[w.white-making-of-the-president-1965]], 156–57 (John Hay Whitney''s plane; the AP''s count that weekend, 604 for Goldwater; Rockefeller''s organization to Scranton within two days); [[w.goldberg-barry-goldwater]], 198 (before the Maryland delegation: "I have come here to offer our party a real choice. I reject the echo we have thus far been handed—the echo of fear and reaction"); [[w.bernstein-guns-or-butter]], 129 (Rockefeller withdraws for Scranton "three days later"); [[w.novak-agony-of-the-g]], 437–38 ("a convention, not a coronation"; "I have come to offer our party a choice"; Goldwater men booing in the balcony). [[w.kabaservice-rule-and-ruin]], 107 & n.44, 109 (the decision at Indiantown Gap, June 11; the announcement the next day, at the Maryland convention; Rockefeller out and for Scranton, June 15, his research staff and organization lent). Check: Goldberg, 198, gives June 11. To check: [[w.wolf-william-warren-scranton]]. See [[cal.1964-06-02.elections-1964]]. Names: Scranton, Rockefeller. Check: Perlstein, 361, has Rockefeller give Scranton his organization and keep his delegates. Check: Young, 96, puts Scranton before a national television audience June 28 and Rockefeller''s endorsement "four days after" the announcement.'
+    c: 'Scranton announces for the Republican nomination, at the Maryland Republican convention in Baltimore.{1} Rockefeller withdraws for him, June 15.{2} Check the date.{3} He flies in John Hay Whitney''s plane.{4} Scranton: he offers "a real choice" and rejects "the echo" of "fear and reaction."{5}'
+    n: '[[w.perlstein-before-the-storm]], 359–61 (the decision, June 11; the announcement); [[w.young-two-suns-of-the]], 95–96 (the decision, June 11; his letter to Goldwater the next day; the Maryland convention; Rockefeller for Scranton, June 15); [[w.white-suite-3505]], 354–55, 368 (the announcement at Baltimore; the decision, June 11, at Indiantown Gap); [[w.white-making-of-the-president-1965]], 156–57 (John Hay Whitney''s plane; the AP''s count that weekend, 604 for Goldwater; Rockefeller''s organization to Scranton within two days); [[w.goldberg-barry-goldwater]], 198 (before the Maryland delegation: "I have come here to offer our party a real choice. I reject the echo we have thus far been handed—the echo of fear and reaction"); [[w.bernstein-guns-or-butter]], 129 (Rockefeller withdraws for Scranton "three days later"); [[w.novak-agony-of-the-g]], 437–38 ("a convention, not a coronation"; "I have come to offer our party a choice"; Goldwater men booing in the balcony); [[w.white-making-of-the-president-1965]], 156; [[w.goldberg-barry-goldwater]], 198. [[w.kabaservice-rule-and-ruin]], 107 & n.44, 109 (the decision at Indiantown Gap, June 11; the announcement the next day, at the Maryland convention; Rockefeller out and for Scranton, June 15, his research staff and organization lent). Check: Goldberg, 198, gives June 11. To check: [[w.wolf-william-warren-scranton]]. See [[cal.1964-06-02.elections-1964]]. Names: Scranton, Rockefeller, Whitney. Check: Perlstein, 361, has Rockefeller give Scranton his organization and keep his delegates. Check: Young, 96, puts Scranton before a national television audience June 28 and Rockefeller''s endorsement "four days after" the announcement.'
     src:
-      c: 15f4c52c
+      c: 694d6c38
       rows:
         - 'w.perlstein-before-the-storm 359–61: 1, 2'
         - 'via w.perlstein-before-the-storm 359 n.2: 1'
@@ -4575,11 +4614,12 @@ entries:
         - 'via w.kabaservice-rule-and-ruin 109 n.50: 2'
         - 'w.white-suite-3505 354–55: 1'
         - 'w.white-making-of-the-president-1965 156–57: 1, 2'
-        - 'w.goldberg-barry-goldwater 198: ?'
         - 'via w.goldberg-barry-goldwater 198 n.115: 1, 2, 3'
         - 'w.bernstein-guns-or-butter 129: 1, 2'
         - 'w.novak-agony-of-the-g 437–38: ?'
-    tags: [name:scranton-william-w, name:rockefeller-nelson]
+        - 'w.white-making-of-the-president-1965 156: 4'
+        - 'w.goldberg-barry-goldwater 198: 5'
+    tags: [name:scranton-william-w, name:rockefeller-nelson, name:whitney-john-h, ok:note-substance]
   - id: cal.1964-06-12.africa
     when: June 12
     date: '1964-06-12'
@@ -4892,6 +4932,16 @@ entries:
     c: Peking 北京. Zhu De 朱德 attends the 120th meeting of the NPC Standing Committee 全国人大常委会, which hears Lai Yali 赖亚力, the Ambassador to Mali 中国驻马里大使, on Mali.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1910. Names: Zhu De.'
     tags: [polity:prc, polity:mali, name:zhu-de]
+  - id: cal.1964-06-12.robert-kennedy
+    when: June 12
+    date: '1964-06-12'
+    time: 1964-06-12T23:26Z
+    thread: robert-kennedy
+    also: [vietnam]
+    c: 'Robert Kennedy to Johnson by telephone, 7:26 p.m.: he proposes Terry Sanford for Saigon.'
+    n: '[Johnson and Robert Kennedy, June 12, 7:26 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-june-12-1964), Tape WH6406.08, Citation #3731 (Miller Center; the recording not heard here: the line as [[cal.1964-06-11.robert-kennedy]] held it). Made public: the recordings, opened by the LBJ Library. Check the year. See [[cal.1964-06-11.robert-kennedy]]. Names: Robert Kennedy, Johnson, Sanford.'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:sanford-terry, ok:fields-place]
+    time_zone: America/New_York
   - id: cal.1964-06-13.desegregation-public-places
     when: June 13
     date: '1964-06-13'
@@ -5113,6 +5163,14 @@ entries:
       - 1964-06-13T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-06-13.goldwater
+    when: June 13–14
+    date: '1964-06-13'
+    thread: goldwater
+    also: [elections-1964-scranton]
+    c: The Associated Press counts 604 sure delegates for Goldwater, the weekend of Scranton's announcement.
+    n: '[[w.white-making-of-the-president-1965]], 157. Check: the day. See [[cal.1964-06-12.elections-1964]]. Names: Goldwater.'
+    tags: [name:goldwater-barry-m, ok:fields-place]
   - id: cal.1964-06-14.mississippi
     when: June 14–20
     date: '1964-06-14'
@@ -5182,7 +5240,7 @@ entries:
     follows:
       - cal.1964-06-14.vietnam-2
     c: The Mansion, the family dining room, noon. Johnson, Clifford and Valenti. Johnson asks Clifford his choice for Saigon, then lays out Taylor, Ball and Gilpatric with Valenti's points of the morning, stressing Taylor and the confidence he would inspire. Clifford agrees. Johnson mentions that Kennedy has volunteered; Clifford says nothing to that. By Valenti's account.
-    n: '[[w.valenti-very-human-president]], 142–43 (Valenti''s account). See [[cal.1964-06-14.vietnam]]. Names: Johnson, Clifford, Valenti, Taylor, Ball, Gilpatric, Robert Kennedy.'
+    n: '[[w.valenti-very-human-president]], 142–43 (Valenti''s account). Check: Lady Bird Johnson has a lunch the same day, after church, with the Hodgeses and Udalls ([[cal.1964-06-14.succession]]); Valenti''s is a noon meal in the family dining room with Clifford; two lunches, not one. See [[cal.1964-06-14.vietnam]]. Names: Johnson, Clifford, Valenti, Taylor, Ball, Gilpatric, Robert Kennedy.'
     tags: [name:johnson-lyndon-b, name:clifford-clark, name:valenti-jack, name:taylor-maxwell, name:ball-george-w, name:gilpatric-roswell-l, name:kennedy-robert-f]
   - id: cal.1964-06-14.china-leadership-2
     when: June 14
@@ -6616,15 +6674,15 @@ entries:
     date: '1964-06-18'
     place: washington
     thread: civil-rights-bill
-    c: 'Russell''s last minutes on the bill: "Until we were gagged, we made no secret of the fact."{1} To Edward Kennedy, presiding, of the time charged: "I express the hope that those who are keeping the time will apply the same rules to others."{2}'
-    n: '[[w.whalen-longest-debate]], 211–12; [[w.risen-bill-of-the-century]], 235 (June 18, Kennedy presiding: "The time of the senator from Georgia has expired"; Russell''s postmortem; Kennedy: Humphrey was charged nine minutes; not Russell''s words in A); [[w.purdum-idea-whose-time-has-2014]], 307–08 (Thursday, June 18: Russell, nineteen of his sixty minutes left, "the moving finger is writing the final act of the longest debate and the greatest tragedy"; Edward Kennedy, presiding: "The time of the Senator from Georgia has expired"; Russell, tears in his eyes: "I express the hope that those who are keeping the time will apply the same rules to others"; Kuchel for the Republican leadership, "an American achievement"). The Senate sat from noon to 7:51 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=1), [D284](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=282). To check: 110 Cong. Rec. 14275–336 (June 18, 1964) (cited by [[w.whalen-longest-debate]], 271). Names: Russell, Edward Kennedy.'
+    c: 'Russell''s last minutes on the bill: "Until we were gagged, we made no secret of the fact."{1} To Edward Kennedy, presiding, of the time charged: "I express the hope that those who are keeping the time will apply the same rules to others."{2} Russell, with nineteen of his sixty minutes left: "the moving finger is writing the final act of the longest debate." Kuchel, for the Republican leadership: the bill "will be an American achievement."{3} Russell asks whether Humphrey was given extra time on June 17; Kennedy: he was charged nine minutes.{4}'
+    n: '[[w.whalen-longest-debate]], 211–12; [[w.risen-bill-of-the-century]], 235 (June 18, Kennedy presiding: "The time of the senator from Georgia has expired"; Russell''s postmortem; Kennedy: Humphrey was charged nine minutes; not Russell''s words in A); [[w.purdum-idea-whose-time-has-2014]], 307–08 (Thursday, June 18: Russell, nineteen of his sixty minutes left, "the moving finger is writing the final act of the longest debate and the greatest tragedy"; Edward Kennedy, presiding: "The time of the Senator from Georgia has expired"; Russell, tears in his eyes: "I express the hope that those who are keeping the time will apply the same rules to others"; Kuchel for the Republican leadership, "an American achievement"); [[w.purdum-idea-whose-time-has-2014]], 307–08; [[w.risen-bill-of-the-century]], 235. The Senate sat from noon to 7:51 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=1), [D284](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=282). To check: 110 Cong. Rec. 14275–336 (June 18, 1964) (cited by [[w.whalen-longest-debate]], 271). Names: Russell, Edward Kennedy, Humphrey, Kuchel.'
     src:
-      c: 2a7690f7
+      c: 5b2fdc90
       rows:
         - 'w.whalen-longest-debate 211–12: 1, 2'
-        - 'w.risen-bill-of-the-century 235: 2'
-        - 'w.purdum-idea-whose-time-has-2014 307–08: 1, 2'
-    tags: [name:russell-richard-b, name:kennedy-edward-m]
+        - 'w.purdum-idea-whose-time-has-2014 307–08: 1, 2, 3'
+        - 'w.risen-bill-of-the-century 235: 2, 4'
+    tags: [name:russell-richard-b, name:kennedy-edward-m, name:humphrey-hubert-h, name:kuchel-thomas-h, ok:note-substance]
     time_range:
       - 1964-06-18T16:00Z
       - 1964-06-18T23:51Z
@@ -7036,16 +7094,16 @@ entries:
     thread: civil-rights-bill
     follows:
       - cal.1964-06-19.civil-rights-bill
-    c: 'After the vote, Humphrey on the Capitols east front steps to the cheers of a crowd.{1} An hour later several thousand still round the Senate wing; three hours later several hundred see him off.{2} Humphrey: "Never in my 15 years in the Senate ... had there been anything like it."{3}'
-    n: '[[w.whalen-longest-debate]], 216; [[w.risen-bill-of-the-century]], 237 (Humphrey on the east steps, "Freedom!"; to Reston: "a wonderful sense of relief and quiet joy"; dinner with Stewart, then to Minneapolis); [[w.purdum-idea-whose-time-has-2014]], 311 (hours after the vote, Humphrey and Stewart leaving by the East Front, hundreds still waiting and cheering; "Never in my fifteen years in the Senate ..." (Humphrey, in Whalen, 216)). To check: *Minneapolis Morning Tribune*, June 20, 1964; [[w.humphrey-beyond-civil-rights]], 97 (cited by [[w.whalen-longest-debate]], 271). See [[cal.1964-06-19.civil-rights-bill]]. Names: Humphrey.'
+    c: 'After the vote, Humphrey on the Capitols east front steps to the cheers of a crowd.{1} An hour later several thousand still round the Senate wing; three hours later several hundred see him off.{2} Humphrey: "Never in my 15 years in the Senate ... had there been anything like it."{3} He tells Reston of "a wonderful sense of relief and quiet joy."{4}'
+    n: '[[w.whalen-longest-debate]], 216; [[w.risen-bill-of-the-century]], 237 (Humphrey on the east steps, "Freedom!"; to Reston: "a wonderful sense of relief and quiet joy"; dinner with Stewart, then to Minneapolis); [[w.purdum-idea-whose-time-has-2014]], 311 (hours after the vote, Humphrey and Stewart leaving by the East Front, hundreds still waiting and cheering; "Never in my fifteen years in the Senate ..." (Humphrey, in Whalen, 216)); [[w.risen-bill-of-the-century]], 237. To check: *Minneapolis Morning Tribune*, June 20, 1964; [[w.humphrey-beyond-civil-rights]], 97 (cited by [[w.whalen-longest-debate]], 271). See [[cal.1964-06-19.civil-rights-bill]]. Names: Humphrey, Reston.'
     src:
-      c: 54194f80
+      c: 36ef4ff7
       rows:
         - 'w.whalen-longest-debate 216: 1, 2, 3'
         - 'via x.1964-06-20.minneapolis-morning-tribune: 1'
-        - 'w.risen-bill-of-the-century 237: 1'
         - 'w.purdum-idea-whose-time-has-2014 311: 3'
-    tags: [name:humphrey-hubert-h]
+        - 'w.risen-bill-of-the-century 237: 1, 4'
+    tags: [name:humphrey-hubert-h, name:reston-james, ok:note-substance]
   - id: cal.1964-06-19.civil-rights-bill-6
     when: June 19
     date: '1964-06-19'
@@ -11278,3 +11336,12 @@ entries:
     c: Johnson sends four doctors from Walter Reed Army Hospital to the Cooley Dickinson Hospital in Northampton, Mass., to help treat Edward Kennedy.
     n: '[[w.purdum-idea-whose-time-has-2014]], 313 (by July 2: Johnson "had sent" them). See [[cal.1964-06-19.congress]]. Names: Johnson, Edward M. Kennedy. Check: the day.'
     tags: [name:johnson-lyndon-b, name:kennedy-edward-m, state:ma, ok:fields-place]
+  - id: cal.1964-06.robert-kennedy-3
+    when: June, after the 11th
+    date: 1964-06
+    at: after 1964-06-11
+    thread: robert-kennedy
+    also: [vietnam]
+    c: 'Johnson to Valenti, of Robert Kennedy''s offer to go to Saigon: "I would be accusing myself for the rest of my life if something happened to him out there."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 728; [[w.shesol-mutual-contempt]], 199. Check: the day. See [[cal.1964-06-11.robert-kennedy]]. Names: Johnson, Valenti, Robert Kennedy.'
+    tags: [name:johnson-lyndon-b, name:valenti-jack, name:kennedy-robert-f, ok:fields-place]

@@ -1,0 +1,92 @@
+# Leftovers lo-b: what was done, Nov. 27, 2026
+
+The patch is `inbox/2026-11-27-lo-b.yaml`. One line an item.
+
+- `cal.1963-12-17.succession-2` (1963-12, cite): Done: the Miller Center page (conversation with George Ball, Dec. 17, 1963) lists Bunker's appointment as Ambassador to the OAS beside the press reaction to the UN speech; the line has a sentence for it (`add-words`). The tape itself not heard.
+- `cal.1963-12-28.europe-and-the-alliance` (1963-12, hour): Waiting: doc. 253 (3:15 p.m.) is a later part of the talks and does not give the hour of the first act (the arrival at Bergstrom); no record in hand gives it, so no `time` is set.
+- `cal.1964-03-18.elections-1964-primaries` (1964-03, day): Waiting: the day rests on Salinger, *With Kennedy*, 345–49 and 125, and Kennedy's "Thursday", copies on the Drive (quota spent); the four entries stay at Mar. 18 with their Check.
+- `cal.1964-03-18.elections-1964-primaries-2` (1964-03, day): Waiting: the day rests on Salinger, *With Kennedy*, 345–49 and 125, and Kennedy's "Thursday", copies on the Drive (quota spent); the four entries stay at Mar. 18 with their Check.
+- `cal.1964-03-18.elections-1964-primaries-3` (1964-03, day): Waiting: the day rests on Salinger, *With Kennedy*, 345–49 and 125, and Kennedy's "Thursday", copies on the Drive (quota spent); the four entries stay at Mar. 18 with their Check.
+- `cal.1964-03-18.elections-1964-primaries-4` (1964-03, day): Waiting: the day rests on Salinger, *With Kennedy*, 345–49 and 125, and Kennedy's "Thursday", copies on the Drive (quota spent); the four entries stay at Mar. 18 with their Check.
+- `cal.1964-05-07.civil-rights-bill-3` (1964-05, split): Waiting: the split needs the Miller Center pages for the 4:05 p.m. Kennedy call and the 5:30 p.m. Humphrey call and the books' pages (Purdum 280–82, Risen 217, Drive); not done.
+- `cal.1964-05-13.civil-rights-bill-3` (1964-05, split): Waiting: same, the morning Humphrey call and Robert Kennedy's 4:05 p.m. call need the Miller Center listing and Zelizer 122–23, Risen 217 (Drive).
+- `cal.1964-05-22.program` (1964-05, hour): Waiting: the Papers' notes for the Ann Arbor items (1963–64 Pub. Papers 702, 704) give no hour; the Daily Diary of May 22 is images at catalog.archives.gov/id/192439 that cannot be read here.
+- `cal.1964-06-14.vietnam-3` (1964-06, duplicate): Done, kept: not a duplicate. Valenti's noon lunch with Clifford (Valenti 142–43) and Mrs. Johnson's lunch after church with the Hodgeses and Udalls (`cal.1964-06-14.succession`) are two meals; a Check says so.
+- `cal.1964-06-19.civil-rights-bill-2` (1964-06, cite): No change: WH6406.11 and WH6503.03 pages on the Miller Center are audio only, no transcript; the rows stay as the audit left them.
+- `cal.1964-07-26.elections-1964-3` (1964-07, hour): Waiting: the diary (185) gives no hour for the walk "after church"; nothing in hand dates it more closely.
+- `cal.1964-08-06.civil-rights-the-executive-2` (1964-08, split): Waiting: needs the tape (WH6408) and Branch 437–38 for what the line may say of the arrests; the Check on the arrests stands.
+- `cal.1964-09-08.vietnam-2` (1964-09, day): Done: a Check added: FRUS 1964–68, I, doc. 343 n.3 dates the Chiefs' views (CM–124–64) Sept. 9 and the meeting (11 a.m., Sept. 9) took up the paper of Sept. 8. The date is not changed: McNamara's account is the only cite for Sept. 8.
+- `cal.1964-11-03.vietnam` (1964-11, map-row): Done: doc. 403 narrowed from parts 1–5 to 1, 2, 3 (it stops at the working group's drafts of Nov. 17; read in `sources/frus-text/1964-11`).
+- `cal.1964-12-01.king` (1964-12, map-row): Done: the Church report (Book III, 163–68) narrowed from parts 1–4 to 1, 2.
+- `cal.1964-12-22.defense` (1964-12, cite): Done: a Check says doc. 71 gives some time to ships, the Marine reserves and the Army's equipment, and that "Hardly any time on general purpose forces" is Poole's judgment (doc. 71 read in `sources/frus-text/1964-12`).
+- `cal.1965-02-07.vietnam` (1965-02, map-row): Done: doc. 76 (NSC meeting, Feb. 6, 7:45–9 p.m.) narrowed from all nine parts to 1, 5, 6, 7, 8: it has the meeting, the four targets, the South Vietnamese strike on one, the dependents; not the casualties, Bundy and Taylor's recommendation, Humphrey or the rest.
+- `cal.1965-02-11.vietnam-congress-3` (1965-02, hour): Done: range noon to 1:03 p.m., `range_basis: record`, with the Daily Digest D51 cite the Javits entry holds.
+- `cal.1965-03-06.vietnam-congress` (1965-03, cite): Done, no change: read both Miller Center pages (7026, 7027). Summaries only, audio, no transcript; 7026 has "pessimism about air war", 7027 "dismay over Vietnam". The line stands.
+- `cal.1965-03-06.vietnam-congress` (1965-03, cite): No change: audio only on the Miller Center, no transcript.
+- `cal.1965-06-17.space-2` (1965-06, hour): Waiting: the audit quotes the Presidency Project's note (11:45 a.m., Rose Garden); the page does not load here and the Papers' own note (p. 666) has no hour. Set when the page is read.
+- `cal.1965-06-24.republican-party-congress` (1965-06, day): Done: `when` set to "By June 24" (R15a), as the audit directs; the Check stands. The *Times* of June 25 itself not readable here (R56).
+- `cal.1965-07-02.vietnam-july-decision` (1965-07, cite): Waiting: William Bundy's manuscript is not held (FRUS prints one page).
+- `cal.1965-07-07.vietnam-july-decision` (1965-07, hour): Done: `time` 11:52 p.m. EDT (03:52Z, July 8) from FRUS 1964–68, III, doc. 54 (DEF 5319), the kind range removed, place set.
+- `cal.1965-07-21.vietnam-july-decision-2` (1965-07, cite): Done: FRUS 1964–68, III, doc. 75 is Busby's memorandum of July 21, 10 p.m., "Impressions, Vietnam Discussion", from the Busby Office Files, Vietnam, Box 3; made the primary record, the hour set (02:00Z July 22), place set; the To check on the Busby box is settled. The Check on [[cal.1965-07-21.vietnam-support]] (the Vietnam Reference File paper) stays.
+- `cal.1965-07-26.vietnam-july-decision` (1965-07, hour): Done: range 12:30 to 3:15 p.m. EDT, `range_basis: record`; FRUS 1964–68, III, doc. 87 cited first (its n.1: Cabinet Room, Bundy's agenda with Congressional consultation and the announcement).
+- `cal.1965-07-28.defense` (1965-07, hour): Waiting: the Papers' note for item 387 (p. 790) gives no hour; the 11:05 a.m. needs the Daily Diary. The kind range stays.
+- `cal.1965-07-28.defense` (1965-07, split): Done: the car talk (Califano 47) is its own entry (`cal.1965-07-28.defense-2`); the Pentagon ceremony keeps the line's first part.
+- `cal.1965-08-20.king-2` (1965-08, day): Done: `when` set to "By Aug. 20" (R15a); the Check stands.
+- `cal.1965-09-15.latin-america` (1965-09, map-row): Done: the rows for the speech (23855–57, `#page=21` and `#page=22`, and the bare file) now name parts 1, 2, 6, 7; part 3 (the House vote of Sept. 20) stays with its own rows.
+- `cal.1965-12-04.war-opposition` (1965-12, day): Done: FRUS 1964–68, III, doc. 215 n.3 has the National Council of Churches general board release its statement Dec. 3 at Madison, Wis.; date and `when` corrected (`kind: correct`); the Check on the text stays, the note saying the FRUS note gives no words on a cease-fire.
+- `cal.1965-12-14.india-and-china` (1965-12, split): Done: the joint statement (1965 Pub. Papers 1156, read; Dec. 15) is its own entry; the arrival keeps part 1. Ids: the new entry is `cal.1965-12-15.india-and-china-kashmir`.
+- `cal.1965-12-20.europe-and-the-alliance` (1965-12, split): Done: the joint statement (1965 Pub. Papers 1165, read) is its own Dec. 21 entry; the toasts (1161, 10:05 p.m.) moved to the dinner entry (-2), which now has its hour.
+- `cal.1965-12-27.vietnam-pause-2` (1965-12, hour): Done: `time` 11:05 a.m. EST from FRUS 1964–68, III, doc. 245 (Bundy's CAP 65917, Washington), place set.
+- `cal.1965-12-28.vietnam-pause-2` (1965-12, duplicate): Kept: telegram 1805 is its own timed act (R25b); `cal.1965-12-28.vietnam` names it only among the day's messages (docs. 255, 256, 257, 261). No combine; the merger may overrule.
+- `cal.1965-12-28.vietnam-pause-2` (1965-12, hour): Done: `time` 3:45 a.m. EST from doc. 255, kind range removed; the terms (deferral several days, public preparation for January, no response expected) added from the telegram, settling the Check "its terms".
+- `cal.1966-02-18.vietnam-humphrey-2` (1966-02, day): Waiting: the *Times* of Feb. 18–19 cannot be read here; the entry already spans Feb. 17–18 with the Check, and nothing read moves it.
+- `cal.1966-02-21.vietnam-congress-4` (1966-02, day): Done: a Check says Helms's memorandum of Feb. 22 (FRUS 1964–68, IV, doc. 82) has Moyers describe the dinner with Fulbright on "Monday evening" (Feb. 21), so the memorandum may be Feb. 22. Date unchanged.
+- `cal.1966-03-01.vietnam-congress-3` (1966-03, cite): Done: Nelson's pages corrected to 4377–79 (debate) and 4408 (the bill), by the audit's reading of the Record (`kind: correct`); the Check settled. Not re-read at govinfo here.
+- `cal.1966-06-02.vietnam-air-war-2` (1966-06, duplicate): Kept: Bruce's telegram 5768 of June 2 (Wilson's words of Feb. 8, FRUS doc. 156 n.3) is a different act from `cal.1966-06-02.vietnam-air-war`; merger to take `keep`.
+- `cal.1966-07-23.vietnam-support` (1966-07, hour): Done: `time` 10:50 a.m. EDT from the Papers' note (1966 Pub. Papers 758).
+- `new` (1966-07, missing): Waiting: the plans in doc. 156 (June 14: Johnson away about July 4) are plans, not acts; the Daily Diary for the week is images, not readable here.
+- `new` (1966-07, missing): Waiting: Pompidou's London visit, July 6–8, needs Hansard or the British press; not reached.
+- `new` (1966-07, missing): Waiting: Wilson's Moscow visit, July 9–10, same.
+- `new` (1966-07, missing): Done: new entry `cal.1966-07-23.program` (Louisville airport, 8:10 p.m., 1966 Pub. Papers 776).
+- `new` (1966-07, missing): Done: new entry `cal.1966-07-23.crime-and-hijacking` (statement on the first report of the D.C. crime commission, 1966 Pub. Papers 784).
+- `new` (1966-07, missing): Done: new entry `cal.1966-07-23.program-2` (the Lake Barkley grant statement, 778).
+- `cal.1966-09-05.elections-1966` (1966-09, hour): Done: `time` from the Papers' notes (Detroit 11:40 a.m., Battle Creek 2:35, Dayton 5:08, Lancaster 8:40 p.m.), on Eastern daylight time as the notes run; the Papers cited first, the To check dropped.
+- `cal.1966-09-05.elections-1966-2` (1966-09, hour): Done: `time` from the Papers' notes (Detroit 11:40 a.m., Battle Creek 2:35, Dayton 5:08, Lancaster 8:40 p.m.), on Eastern daylight time as the notes run; the Papers cited first, the To check dropped.
+- `cal.1966-09-05.health` (1966-09, hour): Done: `time` from the Papers' notes (Detroit 11:40 a.m., Battle Creek 2:35, Dayton 5:08, Lancaster 8:40 p.m.), on Eastern daylight time as the notes run; the Papers cited first, the To check dropped.
+- `cal.1966-09-05.vietnam-support` (1966-09, hour): Done: `time` from the Papers' notes (Detroit 11:40 a.m., Battle Creek 2:35, Dayton 5:08, Lancaster 8:40 p.m.), on Eastern daylight time as the notes run; the Papers cited first, the To check dropped.
+- `cal.1966-09-21.conservation` (1966-09, hour): Done: `time` noon, `time_approx`, from the diary's "a little after noon" (423), as the audit read it; the diary page itself (Drive) not opened here.
+- `cal.1966-09-21.conservation-3` (1966-09, hour): Done: `time` 7 p.m., `time_approx`, from "A little after 7" (426–27), as the audit read it; the diary page not opened here.
+- `cal.1966-10-15.vietnam` (1966-10, hour): Done already: the entry carries `time` 2:10 p.m. (18:10Z); no change.
+- `new` (1966-10, missing): Done: new entry `cal.1966-10-15.vietnam-asian-trip-2` (the 565th NSC meeting, 2:40–3:30 p.m., FRUS 1964–68, IV, doc. 272).
+- `cal.1967-03-04.robert-kennedy-3` (1967-03, day): Waiting: Thomas 336 (Mar. 3) is a Drive copy; the column's date (Mar. 7 on FRUS) needs both read.
+- `cal.1967-03-20.vietnam` (1967-03, map-row): Done: doc. 115 narrowed from parts 1–9 to 1, 2, 6 (the notes name Kỳ as Prime Minister, not on a Directorate; no constitution adopted Mar. 18, no joint statement).
+- `cal.1967-03-20.vietnam-guam` (1967-03, cite): Done: the Papers searched. Andersen: Johnson spoke to its men, General Crumm named, Mar. 21 at 5:16 p.m., on leaving (1967 Pub. Papers 388); on Mar. 20 the arrival remarks are at the civil airport (375). A Check on the day added, the Papers item as To check; the date is not changed.
+- `new` (1967-03, missing): Done: four Mar. 9 entries: the AEC budget amendment statement, Reorganization Plan 2 (Tariff Commission), the UN report, the marine resources report (1967 Pub. Papers 293–99); the investment credit message is `cal.1967-03-09.economy`.
+- `new` (1967-03, missing): Done: new entry `cal.1967-03-09.vietnam-support` (Medal of Honor to Specialist 6 Lawrence Joel, 12:50 p.m., 1967 Pub. Papers 299).
+- `new` (1967-03, missing): Done: Mar. 18 luncheon remarks (2:13 p.m., 372) and the dinner toast (9:33 p.m., 374); no other item of the day is without an entry.
+- `cal.1967-04-25.vietnam` (1967-04, cite): Waiting: the Daily Diary images (NARA Catalog) cannot be read here.
+- `cal.1967-05-02.vietnam-congress-mansfield` (1967-05, day): Done: a Check, with FRUS 1964–68, V, doc. 152 n. (Rostow, Apr. 30: the breakfast with Mansfield and Morse May 1); the date unchanged until Barrett's box is read.
+- `cal.1967-05-23.middle-east-six-day-war` (1967-05, hour): Waiting: needs the Record page (113 Cong. Rec. 13,788) and the Daily Digest for the hour of Rusk's meeting; the govinfo volumes were not read.
+- `cal.1967-05-24.school-aid` (1967-05, hour): Waiting: needs the Record and Digest D252; not read.
+- `new` (1967-05, missing): Waiting: the Senators' Middle East speeches of May 23 need the Record (113 Cong. Rec. 13,788 and the day's pages); not read.
+- `cal.1967-06-23.soviet-union` (1967-06, cite): Waiting: the Daily Diary images cannot be read here.
+- `cal.1967-09-18.defense` (1967-09, cite): Waiting: *Bulletin of the Atomic Scientists*, Dec. 1967, not fetched.
+- `cal.1967-10-12.vietnam` (1967-10, cite): Waiting: *Department of State Bulletin*, Oct. 30, 1967, not in hand.
+- `cal.1968-01-05.vietnam-congress-2` (1968-01, cite): Waiting: the full head wants TimesMachine (R56).
+- `cal.1968-02-08.europe-and-the-alliance` (1968-02, hour): Done: talks entry `time` 11:30 a.m., `time_approx` (the conference "supposed to last from 11:30", diary 629), the Toasts moved to the dinner entry, which has the evening band and the Papers (209) first.
+- `cal.1968-02-27.vietnam` (1968-02, variant): Waiting: the 107,000 and 108,000 figures need pages of Berman and Clifford (Drive); the Check stands.
+- `new` (1968-02, missing): Done: new entry `cal.1968-02-12.vietnam-205000-2` (McNamara's 8:29 a.m. call, FRUS 1964–68, VI, doc. 69).
+- `cal.1968-03-06.vietnam` (1968-03, hour): Done: range 6:30 to 9:25 p.m. EST, `range_basis: record`, from Johnson's own words to Russell, FRUS 1964–68, VI, doc. 111, cited with doc. 109.
+- `cal.1968-03-10.vietnam` (1968-03, cite): Waiting: TimesMachine not readable (R56).
+- `cal.1968-03-12.king-poor-peoples-2` (1968-03, to-check): Done: the To check on Church Book III, 174 dropped; the entry already cites and quotes it.
+- `cal.1968-03-21.middle-east` (1968-03, map-row): Done: doc. 119 narrowed from parts 1, 2 to 1 (the crossing at 5:30 a.m. toward Karameh; no Jordanian army, no dead).
+- `cal.1968-03-25.vietnam` (1968-03, cite): Waiting: to be checked after the merge of the time-splits patch.
+- `cal.1968-04-05.king` (1968-04, cite): Waiting: the Daily Diary images cannot be read here.
+- `cal.1968-04-05.king` (1968-04, map-row): Waiting: the diary row is tied to part 1, which also holds the quotation; a narrower cut inside part 1 is wanted (R34), not made.
+- `cal.1968-04-07.vietnam` (1968-04, hour): Waiting: the 4:16 p.m. is in Daily Diary image 5, not readable here.
+- `cal.1968-04-11.vietnam-paris` (1968-04, split): Done: Johnson's call with Harriman (11:46 a.m., doc. 191, Miller Center WH6804-01-12917) is its own entry `cal.1968-04-11.vietnam-paris-3`; the Hanoi line keeps docs. 190, 195, 197. The breakfast with Bunker not entered: no record read.
+- `cal.1968-06-05.assassination-15` (1968-06, hour): Done: a variant of `time` (Witcover 289 reads the bulletin 5:30 p.m. against the entry's 5 p.m. "as of").
+- `cal.1968-07-11.defense` (1968-07, split): Waiting: needs the military construction report in the Record for each chamber's act; not read.
+- `cal.1968-07-19.crime-and-hijacking-guns-2` (1968-07, hour): Waiting: needs the Record and Digests of July 23–24 for the sittings; not read.
+- `cal.1968-07-19.crime-and-hijacking-guns-4` (1968-07, hour): Waiting: same.
+- `cal.1968-08-20.soviet-union-czechoslovakia-3` (1968-08, to-check): Done: a Check: the notes (FRUS 1964–68, XVII, doc. 81) end with Humphrey's "need to show caution"; Clifford, 561–62, has him say nothing.

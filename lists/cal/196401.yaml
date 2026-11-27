@@ -3020,15 +3020,19 @@ entries:
     time: 1964-01-10T16:25Z
     place: washington
     thread: latin-america-panama
-    c: 'Johnson to Russell by telephone, 11:25 a.m., "off the record," on Panama.{1} Russell: tell them the Zone is United States property, the incident "most regrettable," no interruption by "any subversive group"; "a little lick to Castro"; it "started with a bunch of schoolboys."{2}'
-    n: '[Johnson and Richard Russell, 11:25 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-january-10-1964), Conversation WH6401-10-1303 (Miller Center). [[w.taking-charge]], 155–156. Names: Johnson, Russell, Castro.'
+    also: [goldwater, defense]
+    c: 'Johnson to Russell by telephone, 11:25 a.m., "off the record," on Panama.{1} Russell: tell them the Zone is United States property, the incident "most regrettable," no interruption by "any subversive group"; "a little lick to Castro"; it "started with a bunch of schoolboys."{2} On Goldwater''s charge and McNamara''s answer, Russell: "I think both of ''em went to extremes on it." No Minuteman ever fired with a warhead in it; "no man can take an absolutely categorical oath that he knows that it will deliver."{3}'
+    n: '[Johnson and Richard Russell, 11:25 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-january-10-1964), Conversation WH6401-10-1303 (Miller Center). [[w.taking-charge]], 155–156; [[w.perlstein-before-the-storm]], 271. To check: the recording, WH6401-10-1303 (Miller Center; not heard) (cited by [[w.perlstein-before-the-storm]], 271 n.1, as LBJT 6401.10/26). See [[cal.1964-01-09.defense]]. Names: Johnson, Russell, Castro, Goldwater, McNamara. Check: the words of the Goldwater and Minuteman passage are Perlstein''s.'
     src:
-      c: 8313dabd
+      c: ee4081fb
       rows:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-january-10-1964: 1'
         - 'w.taking-charge 155–156: 1, 2'
         - 'via x.1964-01-10.johnson-richard-russell-telephone-1125: 1, 2'
-    tags: [name:johnson-lyndon-b, name:russell-richard-b, name:castro-fidel]
+        - 'w.perlstein-before-the-storm 271: 3'
+        - 'via w.perlstein-before-the-storm 271 n.1: 3'
+    tags: [name:johnson-lyndon-b, name:russell-richard-b, name:castro-fidel, name:goldwater-barry-m, name:mcnamara-robert-s]
+    aliases: [cal.1964-01-10.defense]
   - id: cal.1964-01-10.baker
     when: Jan. 10
     date: '1964-01-10'
@@ -3044,20 +3048,6 @@ entries:
         - 'w.taking-charge 158–161: 1, 2'
         - 'via x.1964-01-10.johnson-george-smathers-telephone-2101: 1, 2'
     tags: [name:johnson-lyndon-b, name:smathers-george-a, name:baker-robert-g, name:reynolds-don-b, name:curtis-carl-t, name:scott-hugh-d-jr, name:jenkins-walter-w, name:russell-richard-b]
-  - id: cal.1964-01-10.defense
-    when: Jan. 10
-    date: '1964-01-10'
-    time: 1964-01-10T16:25Z
-    thread: defense
-    also: [goldwater]
-    c: 'Russell to Johnson by telephone, 11:25 a.m., on Goldwater''s charge and McNamara''s answer: "I think both of ''em went to extremes on it." No Minuteman ever fired with a warhead in it; "no man can take an absolutely categorical oath that he knows that it will deliver."'
-    n: '[[w.perlstein-before-the-storm]], 271. To check: [Russell and Johnson, 11:25 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-january-10-1964), Conversation WH6401-10-1303 (Miller Center; not heard) (cited by [[w.perlstein-before-the-storm]], 271 n.1, as LBJT 6401.10/26). Check: the words Perlstein''s. See [[cal.1964-01-09.defense]]. Names: Russell, Johnson, Goldwater, McNamara.'
-    src:
-      c: 25e5cdac
-      rows:
-        - 'w.perlstein-before-the-storm 271: all'
-        - 'via w.perlstein-before-the-storm 271 n.1: all'
-    tags: [name:russell-richard-b, name:johnson-lyndon-b, name:goldwater-barry-m, name:mcnamara-robert-s]
   - id: cal.1964-01-10.white-house
     when: Jan. 10
     date: '1964-01-10'
@@ -4640,34 +4630,24 @@ entries:
         - 'w.taking-charge 163–164: 1, 2'
         - 'via x.1964-01-16.johnson-richard-russell-telephone-1615: 1, 2'
     tags: [name:johnson-lyndon-b, name:russell-richard-b, name:byrd-harry-f, name:gore-albert-sr]
-  - id: cal.1964-01-16.confirmations
-    when: Jan. 16
-    date: '1964-01-16'
-    time: 1964-01-16T21:20Z
-    place: washington
-    thread: confirmations
-    c: 'Johnson to McClellan by telephone, 4:20 p.m.: Carl Rowan, Ambassador to Finland, to be Director of the USIA;{1} told beforehand so as not to embarrass him.{2}'
-    n: '[Johnson and John McClellan, 4:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mcclellan-january-16-1964), Conversation WH6401-15-1386 (Miller Center). [[w.taking-charge]], 165. Names: Johnson, McClellan, Rowan.'
-    src:
-      c: 090c2c45
-      rows:
-        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mcclellan-january-16-1964: 1'
-        - 'w.taking-charge 165: 1, 2'
-        - 'via x.1964-01-16.johnson-john-mcclellan-telephone-1620: 1, 2'
-    tags: [name:johnson-lyndon-b, name:mcclellan-john-l, name:rowan-carl-t]
   - id: cal.1964-01-16.transition-and-staff
     when: Jan. 16
     date: '1964-01-16'
     time: 1964-01-16T21:20Z
+    place: washington
     thread: transition-and-staff
-    c: 'Johnson to McClellan by telephone, 4:20 p.m., on Rowan''s appointment to the USIA, its money in McClellan''s appropriations subcommittee: "I don''t want you to cut his guts out ''cause he''s a Nigra."'
-    n: '[[w.kotz-judgment-days]], 95. To check: [Johnson and McClellan, 4:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mcclellan-january-16-1964), Tape WH6401.15, PNO 6 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 95 n.28). Check: Kotz tells it after the call to Russell of Jan. 20; the tape is of Jan. 16. See [[cal.1964-01-20.transition-and-staff]]. Names: Johnson, McClellan, Rowan.'
+    c: 'Johnson to McClellan by telephone, 4:20 p.m.: Carl Rowan, Ambassador to Finland, to be Director of the USIA;{1} told beforehand so as not to embarrass him.{2} On Rowan''s appointment, its money in McClellan''s appropriations subcommittee: "I don''t want you to cut his guts out ''cause he''s a Nigra."{3}'
+    n: '[Johnson and John McClellan, 4:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mcclellan-january-16-1964), Conversation WH6401-15-1386 (Miller Center; Tape WH6401.15, PNO 6, not heard, cited by [[w.kotz-judgment-days]], 95 n.28). [[w.kotz-judgment-days]], 95; [[w.taking-charge]], 165. Check: Kotz tells it after the call to Russell of Jan. 20; the tape is of Jan. 16. See [[cal.1964-01-20.transition-and-staff]]. Names: Johnson, McClellan, Rowan.'
     src:
-      c: cc42a9d7
+      c: d3309fad
       rows:
-        - 'w.kotz-judgment-days 95: all'
-        - 'via w.kotz-judgment-days 95 n.28: all'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mcclellan-january-16-1964: 1'
+        - 'w.kotz-judgment-days 95: 1, 3'
+        - 'via w.kotz-judgment-days 95 n.28: 1, 3'
+        - 'w.taking-charge 165: 1, 2'
+        - 'via x.1964-01-16.johnson-john-mcclellan-telephone-1620: 1, 2'
     tags: [name:johnson-lyndon-b, name:mcclellan-john-l, name:rowan-carl-t]
+    aliases: [cal.1964-01-16.confirmations]
   - id: cal.1964-01-16.congress
     when: Jan. 16
     date: '1964-01-16'
