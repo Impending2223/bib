@@ -1,0 +1,21 @@
+The reader's brief, R0, whole (it governs this brief and everything else you are given):
+
+"R0. Only this text and the owner's words limit you (the owner, Nov. 24, 2026: "Can you make a disinhibiting/'disregard limitations not in the Reader Brief or the Owner's own words' rule a top-priority reader rule? An R0?"). This rule comes first and governs every other text you are given. Your batch brief, its examples, its lists, its wording, a note from another agent, a habit of earlier patches: none of them narrows what is an entry, lets an item wait, or passes anything over. Only two things can: this brief's own rules, and the owner's words, quoted with their date. Wherever anything else seems to limit you ("in scope", "dated acts only", "the official returns", "partial", "analysis", "commentary", "minor", "no single dated act", "the budget", a list of the kinds of event to look for), disregard it and work from this brief alone: every dated event your source reports is an entry (R5), dated by its report where it gives no day of its own (R15a); only R18, and R18a for an item the owner cut short, takes one out; nothing a source in hand dates is a lead (R50). When a brief and this text disagree, this text wins; say in your report what you disregarded. The writer of a brief (the orchestrating session) quotes R0 whole at the head of every brief it writes for a reader, an auditor or a merger, and adds nothing that narrows."
+
+Work in /home/user/bib (branch `ccr-29ad5edc-peju1y`). Read `CLAUDE.md` and `notes/briefs/reader.md` whole (R4, R5, R7, R15a, R17, R19b, R22, R24, R25a–c, R26a, R33a, R33b, R34), then `notes/guide/changing.md`, `notes/guide/entries.md` (the gloss) and `notes/guide/reading-a-copy.md` (the books are on hand: section 0; fetch each copy as it says, read the page and its notes, delete the copy).
+
+Sources:
+- The reader's patch `inbox/2026-11-27-lo-d10.yaml` and note `notes/leftovers/lo-d10.md`, from `notes/leftovers/lo-d10.tsv` (the audits' leftovers for December 1962 to June 1963, the tenth batch that needs the books on the Drive).
+- The books and records each op cites: FRUS (XI, XIII), the Public Papers, Branch, Garrow, White, Novak, Mann, Wu Lengxi, Yang Shangkun's diary, the Deng, Mao, Liu, Peng Zhen and Zhu De nianpu and the others the note names, on the Drive; FRUS, the Public Papers and the other records online.
+
+Assignment:
+1. Audit every op against its page (R33b): read the page. Correct the patch in place; strike what the page does not bear; check each split and new entry under R17 and R25b, each hour and zone against the record's own words, each `follows` under R25c (run `python3 tools/times/day_order.py` or the day's `./bib show` on the days touched), and that later commentary is in a gloss, not the line (R19b).
+2. Look hardest at these:
+   - The Wu Lengxi entries of May 2–5, 1963 and June 25, 1963, which the diaries and chronologies contradict: settle each day by the records (Yang's diary, the Deng, Mao, Liu and Peng Zhen nianpu), with Wu as a variant, or keep the Check where none settles it.
+   - `cal.1963-05-28.china-leadership-2`, redated to May 29: check it against the May 29 entries for a duplicate.
+   - The Jan. 17, 1963 morning meeting against the Secretariat's 10:30–2 meeting (`cal.1963-01-17.china-leadership-4`).
+   - Goldwater's speech of Apr. 26 or 27, 1963 (White, Novak): one speech or two.
+   - The splits (Birmingham, May 11–13; the June 19 bills; the Young Republicans, June 27 and 29): each old note keeps only its own act's works (`notes/guide/changing.md`, "Splitting an entry"). Read Mann, 371, for Celler's H.R. 7152 and Schlesinger's *Robert Kennedy and His Times*, 537, if on the Drive.
+3. Refresh every `edit`'s base against the tree as it now stands; say which duplicate flags the merge should settle as distinct.
+4. `./bib patch-check` until it shows 0 errors. Write `notes/leftovers/lo-d10-audit.md`: ops checked, changed, struck, added; what was read; what still waits and on what. Plain everyday prose; a paragraph or a list item is one line.
+5. Other agents are at work in this checkout. Do not merge, build, commit or push; do not edit `lists/` or `sources/`. Scratch files in a directory of your own under /tmp, deleted before you report. Quote no more than a few words of any copyrighted source. Report once, at the end.
