@@ -51,7 +51,7 @@ Every batch is read by readers one after another (ruling 63): reader 1 works fro
 
 | Batch | Subject | Works | Files | Pages in the files | Pages to read | Readers | Queue | Proposed Nov. 25 only | Neither |
 |---|---|---|---|---|---|---|---|---|---|
-| K1 | Keesing's Contemporary Archives, 1963-64 (a chronology, read first) | 1 | 1 | 1,476 | 1,476 | 10 | 0 | 0 | 1 |
+| K1 | Keesing's Contemporary Archives, 1963-64 (a weekly digest of the press, read by date, with P1) | 1 | 1 | 1,476 | 1,476 | 10 | 0 | 0 | 1 |
 | A1 | Soviet leadership and the Kremlin | 15 | 24 | 20,517 | 20,023 | 228 | 3 | 6 | 6 |
 | A2 | The Sino-Soviet split | 13 | 13 | 5,175 | 4,942 | 72 | 2 | 4 | 7 |
 | A3 | China: leaders, lives, memoirs and Mao | 36 | 56 | 31,012 | 30,164 | 365 | 12 | 0 | 24 |
@@ -158,9 +158,9 @@ This section is the recut of Nov. 27. The moves of the mend that followed are in
 
 The order in every batch follows one rule. The record and the chronologies come before the books that rest on them (stage 1 and stage 2). Histories and studies come next, earliest publication first, so a later book can be read against an earlier one. Lives, memoirs and diaries come last, because they are the most partial. Series that run by year (the Posture statements, the Current Documents, the Senate Foreign Relations volumes, the CQ issues, the Newsweek issues) go in date order. A reader who finds that a book cited the day before is better read earlier should say so in the audit and the order be changed; the order is a default.
 
-### K1. Keesing's Contemporary Archives, 1963-64 (a chronology, read first)
+### K1. Keesing's Contemporary Archives, 1963-64 (a weekly digest of the press, read by date, with P1)
 
-- 1 work, 1 file, 1,476 pages in the files (1,476 to read), 10 readers. Keesing's Contemporary Archives for 1963 and 1964, a world chronology. A chronology is read before the books that rest on it, so this batch goes first, before every subject batch that holds 1963 or 1964 entries. It would add 1963 to 1964; every thread with entries of those years.
+- 1 work, 1 file, 1,476 pages in the files (1,476 to read), 10 readers. Keesing's Contemporary Archives for 1963 and 1964: a British weekly digest of world events, compiled from the press, broadcasts and official statements, which names no source for most of what it prints (the owner, Nov. 26). It is not an authority the calendar's books rest on, and it is not read first (ruling 64). It is read by date with the press (P1), after the subject batches. An entry it gives cites it as a newspaper is cited (R26a), with the record it reports (the communiqué, the speech, the statement) behind "To check:". It would add 1963 to 1964; every thread with entries of those years.
 - Stage 1, chronologies and reference, readers 1 to 10: KEESING'S Contemporary archives: Vol: 14: (1 to 10).
 
 ### A1. Soviet leadership and the Kremlin
@@ -395,7 +395,7 @@ Of the 444 unread works in the batches (not read, or cited only from other works
 The calendar's weight is lopsided. China has 27,834 of its 59,038 entries and Vietnam 7,720, the 1968 elections 1,512, the Soviet Union 1,164. Europe and the alliance has 373, the Middle East 374, Africa 253, Korea and Japan about 300, South Asia 157. The order below puts what the owner already queued first, then the chronology, then the subjects the calendar covers least, then the large subjects the calendar covers already. Within a step, batches run at the same time only where their entries do not overlap; where they do, they are joined by arrows and run one after the other. Within every batch, readers go one after another.
 
 1. Queue items 12, 13, 17, 18, 20 and 21, which name Drive works, in the owner's order. Item 14 (Batch 17) was read on Nov. 20 and is done; this plan drops it. This plan changes none of the others. Where a queue item names a work now in a recut batch (item 18: the King and FBI group, now in U4 and U5), the queue item keeps it and the batch drops it when the item has read it.
-2. K1, Keesing's for 1963 to 1964: a chronology, read before the batches that hold entries of those years.
+2. (K1, Keesing's, moved to step 10 with the press: ruling 64.)
 3. A1, then A2: the Soviet leadership, then the Sino-Soviet split. The thinnest large thread, and the works the Nov. 25 inventory already described (its Runs A and B). They go one after the other because both date the Moscow and Peking decisions of 1960 to 1964.
 4. After A1 and A2: W1 → W2 → W3 → W5, one after another (Britain, France, Berlin and Germany, Africa). Britain and France both treat de Gaulle's veto of 1963 and 1967 and NATO in 1966; Berlin and Germany treat the Franco-German treaty of 1963; Africa has Algeria. W5 and W7 wait for A2 because A2's Shadow Cold War and Collateral Damage treat the Sino-Soviet contest in Asia and Africa, as W7's books on North Korea do. Beside that chain, each alone: W4 (Cuba; it follows A1, whose Presidium papers date the missile crisis), W6 (the Middle East), W7 (Korea, Japan and South Asia). Britain waits on the owner's word on whether it is a covered nation; the default taken is yes.
 5. U4 → E1 → J1 → U3: the American books the calendar names behind To check many times and has never read (The Warren Court and American Politics 67; Democratic Representation 42; The Civil Rights Era 36; To Redeem the Soul of America 32; Protest at Selma 28; Black Ballots 27). U4 first because it carries the record of the civil rights bill; E1 and J1 then read the apportionment and Court material against it; U3 last because the CQ issues cover all three. These four overlap, so they run one after the other.
@@ -403,7 +403,7 @@ The calendar's weight is lopsided. China has 27,834 of its 59,038 entries and Vi
 7. U2 → U8 → U9, one after another: the Republicans and the campaigns of 1960, 1964 and 1968, then the Democrats and the contest of 1968, then the cities and States (Pat Brown's races against Nixon and Reagan are treated in both U9 and U2). Beside that chain: U5 (after U4, whose FBI King files it shares) and U6 (the economy).
 8. A6 → A3 → A4 → A5, then A8: China and Czechoslovakia. Queue item 12 comes first; these are the rest. They are the largest batches by pages, and China is already the calendar's biggest thread. A6 goes first (chronologies, then the record), A3 next, then A4 and A5 one after the other (the Third Front books of A5 cover 1964 to 1970, the years of A4), then A8, after A1.
 9. V1 → V2 → V3: Vietnam, already the second-largest thread, after the above, one after another. V3's Gibbons and Logevall treat Washington's part in the Saigon coups of 1963 to 1965, which V1's Saigon memoirs also date, and V2's histories treat the same decisions.
-10. P1, then O1: the periodicals and the press, and the oral histories, which the hand-off keeps on file.
+10. P1 and K1 (Keesing's, by date), then O1: the periodicals and the press, and the oral histories, which the hand-off keeps on file.
 
 Each batch would be briefed as the owner's rules direct: R0 first, the first pass on Sonnet, the audit on Opus, a book-check file for each work. Any batch the owner does not approve stays unread.
 
