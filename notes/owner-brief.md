@@ -1536,3 +1536,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 9:36 pm PT.** "Should we switch U.S. states to a three-letter/postal abbreviation or something like? Or require a US- prefix? You're the coder and orchestrator of our small army of agents, so don't take my question as a \"push\" here. What would minimize error at least cost? (I know that's two optimization conditions rather than one, but...)"
 
 **Nov. 26, 2026, about 9:39 pm PT.** "I'm cool with it for Germany, if not the other three, since \"FRG\"/\"GDR\" read awkwardly to me while apparently \"BRD\" is both taboo and unmemorable. The West gets the DE. The East gets DDR."
+
+**Nov. 26, 2026, about 9:43 pm PT.** "The preview looks great!"
