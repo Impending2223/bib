@@ -9,12 +9,16 @@ ops:
     - 'Check: Fursenko and Naftali have Eisenhower call it'
     set:
       c: 'Khrushchev to the Supreme Soviet: the armed forces cut by 1.2 million men, to 2,423,000.{1} Rockets to replace the air force; bomber production stopped.{2}'
-      n: '[FRUS 1958–60, X, pt. 1, doc. 140](https://history.state.gov/historicaldocuments/frus1958-60v10p1/d140) (NSC, Jan. 14). [[w.current-digest-of-the-soviet-press]], Feb. 10, 1960, 3–16, 23, for the text. [[w.fursenko-khrushchevs-cold-war]], 252–53 (the cut, 1.2 million). Dulles''s report to the NSC that morning (FRUS 1958–60, X, pt. 1, doc. 140) is entered on its own. To check: [[w.taubman-khrushchev]]; [[w.zubok-failed-empire]]. Names: Khrushchev, Dulles.'
+      n: '[FRUS 1958–60, X, pt. 1, doc. 140](https://history.state.gov/historicaldocuments/frus1958-60v10p1/d140) (NSC, Jan. 14). [[w.current-digest-of-the-soviet-press]], Feb. 10, 1960, 3–16, 23, for the text. [[w.fursenko-khrushchevs-cold-war]], 252–53 (the cut, 1.2 million). Dulles''s report to the NSC that morning (FRUS 1958–60, X, pt. 1, doc. 140) is entered on its own. To check: [[w.taubman-khrushchev]]; [[w.zubok-failed-empire]]. Names: Khrushchev.'
       src:
         c: 64ad50ce
         rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v10p1/d140: 1, 2'
         - 'w.fursenko-khrushchevs-cold-war 252–53: 1'
+- tag:
+    id: cal.1960-01-14.soviet-union
+    remove:
+    - name:dulles-allen-w
 - add:
     entry:
       id: cal.1960-01-14.soviet-union-2
@@ -26,10 +30,8 @@ ops:
       - defense
       follows:
       - cal.1960-01-14.soviet-union
-      time: 1960-01-14T14:00Z
-      time_zone: America/New_York
       c: 'Dulles reports Khrushchev''s speech to the NSC, 432d meeting: forces to 2,423,000; the air force to be replaced by rockets; bomber production stopped; Kirichenko demoted. Eisenhower: not at first glance a very tough speech.'
-      n: '[FRUS 1958–60, X, pt. 1, doc. 140](https://history.state.gov/historicaldocuments/frus1958-60v10p1/d140) (NSC, Jan. 14). [[w.fursenko-khrushchevs-cold-war]], 252 (Dulles at the NSC that day). Check: Fursenko and Naftali have Eisenhower call it "[a] very tough speech" against Dulles (252, citing the NSC record, n.37); the record gives Dulles the words, the President the view that it "did not appear at first glance to be a very tough speech" (FRUS 1958–60, X, pt. 1, doc. 140). See [[cal.1960-01-14.soviet-union]]. Names: Dulles, Eisenhower, Khrushchev.'
+      n: '[FRUS 1958–60, X, pt. 1, doc. 140](https://history.state.gov/historicaldocuments/frus1958-60v10p1/d140) (NSC, Jan. 14). Dulles says his briefing, prepared the night before, "had to be modified this morning in the light of the latest news" (doc. 140); the record gives no hour for the meeting. [[w.fursenko-khrushchevs-cold-war]], 252 (Dulles at the NSC that day). Check: Fursenko and Naftali have Eisenhower call it "[a] very tough speech" against Dulles (252, citing the NSC record, n.37); the record gives Dulles the words, the President the view that it "did not appear at first glance to be a very tough speech" (FRUS 1958–60, X, pt. 1, doc. 140). See [[cal.1960-01-14.soviet-union]]. Names: Dulles, Eisenhower, Khrushchev.'
       tags:
       - name:dulles-allen-w
       - name:eisenhower-dwight-d
@@ -39,11 +41,11 @@ ops:
     base: e835f6c3
     kind: correct
     set:
-      n: 'Joint Statement Following Discussions With Prime Minister Kishi of Japan, [1960–61 Pub. Papers 113](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=165); Remarks at the Signing, [1960–61 Pub. Papers 113](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=165) (Jan. 19, 1960). FRUS 1958–60, XVIII, docs. [132](https://history.state.gov/historicaldocuments/frus1958-60v18/d132)–[146](https://history.state.gov/historicaldocuments/frus1958-60v18/d146). After [[cal.1960-01-19.soviet-union|the morning''s talk]]: the joint statement has the two confer "prior to the formal signing," and the note to the remarks puts the ceremony in the East Room after the luncheon, which began at 2:06 p.m. (1960–61 Pub. Papers 112–13). The status of forces agreement signed the same day, [11 U.S.T. 1652](https://tile.loc.gov/storage-services/service/ll/lltreaties//lltreaties-11-2/lltreaties-11-2.pdf#page=360). The announcement of Jan. 20 that Eisenhower would visit Japan (1960–61 Pub. Papers 113, note) is entered on its own. To check: [[w.packard-protest-in-tokyo]]; [[w.kapur-japan-at-the-crossroads]]; [[w.schaller-altered-states]]; [[w.lafeber-clash]]; [[w.eisenhower-white-house-years]]. Names: Eisenhower, Herter, Kishi.'
+      n: 'Joint Statement Following Discussions With Prime Minister Kishi of Japan, [1960–61 Pub. Papers 113](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=165); Remarks at the Signing, [1960–61 Pub. Papers 113](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=165) (Jan. 19, 1960). FRUS 1958–60, XVIII, docs. [132](https://history.state.gov/historicaldocuments/frus1958-60v18/d132)–[146](https://history.state.gov/historicaldocuments/frus1958-60v18/d146). After [[cal.1960-01-19.soviet-union|the morning''s talk]]: the joint statement has the two confer "prior to the formal signing," and the note to the remarks puts the ceremony in the East Room after the luncheon, which began at 2:06 p.m. (1960–61 Pub. Papers 112–13); the joint statement has Kishi confer with Herter "later" (114), and those talks began at 3:30 p.m. (FRUS 1958–60, XVIII, doc. 139). The status of forces agreement signed the same day, [11 U.S.T. 1652](https://tile.loc.gov/storage-services/service/ll/lltreaties//lltreaties-11-2/lltreaties-11-2.pdf#page=360). The announcement of Jan. 20 that Eisenhower would visit Japan (1960–61 Pub. Papers 113, note) is entered on its own. To check: [[w.packard-protest-in-tokyo]]; [[w.kapur-japan-at-the-crossroads]]; [[w.schaller-altered-states]]; [[w.lafeber-clash]]; [[w.eisenhower-white-house-years]]. Names: Eisenhower, Herter, Kishi.'
       c: Treaty of Mutual Cooperation and Security with Japan signed at the White House, Herter and Kishi among the signers, [11 U.S.T. 1632](https://tile.loc.gov/storage-services/service/ll/lltreaties//lltreaties-11-2/lltreaties-11-2.pdf#page=340), [373 U.N.T.S. 179](https://treaties.un.org/doc/Publication/UNTS/Volume%20373/v373.pdf#page=195). For the treaty of 1951; ten years; prior consultation on major changes in American forces in Japan.
       time_range:
       - 1960-01-19T19:06Z
-      - 1960-01-19T22:00Z
+      - 1960-01-19T20:30Z
     unset:
     - range_basis
     - time_band
@@ -54,8 +56,6 @@ ops:
       date: '1960-01-19'
       place: washington
       thread: japan-and-korea-treaty
-      also:
-      - soviet-union
       follows:
       - cal.1960-01-19.soviet-union
       time: 1960-01-19T19:06Z
@@ -89,6 +89,11 @@ ops:
       - name:herter-christian-a
       - name:fujiyama-aiichiro
       - name:macarthur-douglas-ii
+- follows:
+    id: cal.1960-01-19.japan-and-korea-treaty-2
+    add:
+    - cal.1960-01-19.japan-and-korea
+    basis: 'the joint statement: "Later the Prime Minister and his party conferred with the Secretary of State" (1960–61 Pub. Papers 114)'
 - add:
     entry:
       id: cal.1960-01-20.japan-and-korea-treaty
@@ -97,7 +102,7 @@ ops:
       place: washington
       thread: japan-and-korea-treaty
       c: 'White House: Kishi has invited Eisenhower to visit Japan for the centennial; Eisenhower accepts and will go about June 20.'
-      n: 'Remarks at the Signing, note, [1960–61 Pub. Papers 113](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=165) (the announcement of "the following day," Jan. 20, 1960). FRUS 1958–60, XVIII, [doc. 134](https://history.state.gov/historicaldocuments/frus1958-60v18/d134) has Eisenhower tell Kishi on Jan. 19 that he accepts. See [[cal.1960-01-19.japan-and-korea]]. Names: Eisenhower, Kishi.'
+      n: 'Remarks at the Signing, note, [1960–61 Pub. Papers 113](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=165) (the announcement of "the following day," Jan. 20, 1960). FRUS 1958–60, XVIII, [doc. 134](https://history.state.gov/historicaldocuments/frus1958-60v18/d134) has Eisenhower tell Kishi on Jan. 19 that he accepts. To check: the press release, [[w.department-of-state-bulletin]], Feb. 8, 1960, 181 (cited by FRUS 1958–60, XVIII, doc. 134 n.1). See [[cal.1960-01-19.japan-and-korea]]. Names: Eisenhower, Kishi.'
       tags:
       - name:eisenhower-dwight-d
       - name:kishi-nobusuke
@@ -127,6 +132,11 @@ ops:
     - 'Check: the Cuba Study Group''s Memorandum No. 1'
     set:
       n: '[[w.jones-bay-of-pigs]], 19–20. Check: the Cuba Study Group''s Memorandum No. 1 ([FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), read through) has none of these. To check: Kirkpatrick''s survey (cited by [[w.jones-bay-of-pigs]], 20 n.25). See [[cal.1960-03-17.cuba]]. Check: the day.'
+      src:
+        c: e50935e1
+        rows:
+        - 'w.jones-bay-of-pigs 19–20: all'
+        - 'via w.jones-bay-of-pigs 20 n.25e: all'
 - edit:
     id: cal.1960-06-15.japan-and-korea
     base: 0e31b139
@@ -134,13 +144,18 @@ ops:
     set:
       when: June 15
       c: Tokyo. Zengakuren students force their way into the Diet's grounds; a woman student, Kanba Michiko, killed, some 600 hurt.
-      n: 'FRUS 1958–60, XVIII, docs. [181](https://history.state.gov/historicaldocuments/frus1958-60v18/d181) (MacArthur: "last night''s bloody riot") and [183](https://history.state.gov/historicaldocuments/frus1958-60v18/d183) (one death and some 600 injured). The request and Eisenhower''s answer of June 16 are entered on their own (FRUS 1958–60, XVIII, docs. 182, 184; 1960–61 Pub. Papers 495). [[w.watson-into-the-missile-age]], 639 (Kishi "forced to ask Eisenhower to postpone a scheduled visit to Japan"; no day; not the students, the dead or Manila). See [[cal.1960-01-19.japan-and-korea]]. Names: Kishi, Eisenhower, Kanba.'
+      n: 'FRUS 1958–60, XVIII, docs. [181](https://history.state.gov/historicaldocuments/frus1958-60v18/d181) (MacArthur: "last night''s bloody riot") and [183](https://history.state.gov/historicaldocuments/frus1958-60v18/d183) (one death and some 600 injured). The request and Eisenhower''s answer of June 16 are entered on their own (FRUS 1958–60, XVIII, docs. 182, 184; 1960–61 Pub. Papers 495). [[w.watson-into-the-missile-age]], 639 (Kishi "forced to ask Eisenhower to postpone a scheduled visit to Japan"; no day; not the students, the dead or Manila). See [[cal.1960-01-19.japan-and-korea]]. Names: Kanba. Check: the student''s name; the telegrams give one death, no name.'
       src:
         c: 7aac81a7
         rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v18/d181: all'
         - 'https://history.state.gov/historicaldocuments/frus1958-60v18/d183: all'
         - 'w.watson-into-the-missile-age 639: ?'
+- tag:
+    id: cal.1960-06-15.japan-and-korea
+    remove:
+    - name:kishi-nobusuke
+    - name:eisenhower-dwight-d
 - add:
     entry:
       id: cal.1960-06-16.japan-and-korea-treaty
@@ -152,7 +167,7 @@ ops:
       time_approx: true
       time_zone: Asia/Tokyo
       c: Kishi's special cabinet meeting decides to ask that Eisenhower's visit be postponed; Fujiyama telephones MacArthur. Kishi will announce it to the Japanese people at 5:30 p.m.
-      n: '[FRUS 1958–60, XVIII, doc. 182](https://history.state.gov/historicaldocuments/frus1958-60v18/d182) (MacArthur from Tokyo, June 16, 1960, 5 p.m.: the meeting "has just decided"). See [[cal.1960-06-15.japan-and-korea]]. Names: Kishi, Fujiyama, MacArthur, Eisenhower.'
+      n: '[FRUS 1958–60, XVIII, doc. 182](https://history.state.gov/historicaldocuments/frus1958-60v18/d182) (MacArthur from Tokyo, June 16, 1960, 5 p.m.: the meeting "has just decided"). [[w.watson-into-the-missile-age]], 639 (Kishi "forced to ask Eisenhower to postpone a scheduled visit to Japan"; no day). See [[cal.1960-06-15.japan-and-korea]]. Names: Kishi, Fujiyama, MacArthur, Eisenhower.'
       tags:
       - name:kishi-nobusuke
       - name:fujiyama-aiichiro
@@ -257,7 +272,7 @@ ops:
     kind: correct
     set:
       c: 'Sugar Act extended a year, [74 Stat. 330](https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-Pg330-2.pdf), the President given Cuba''s quota to fix.{1} Eisenhower signs and proclaims the cut: 700,000 short tons, the rest of Cuba''s 1960 quota but 39,752.{2}'
-      n: 'Statement by the President Upon Signing Bill and Proclamation Relating to the Cuban Sugar Quota, [1960–61 Pub. Papers 562](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=614); [Proclamation 3355](https://www.presidency.ucsb.edu/documents/proclamation-3355-determination-cuban-sugar-quota), [25 Fed. Reg. 6414](https://www.govinfo.gov/app/details/FR-1960-07-08). Senate, July 2: the President''s resolution, [84–0](https://voteview.com/rollcall/RS0860384); July 3, the conference report, [32–24](https://voteview.com/rollcall/RS0860387). FRUS 1958–60, VI, docs. [543](https://history.state.gov/historicaldocuments/frus1958-60v06/d543), [544](https://history.state.gov/historicaldocuments/frus1958-60v06/d544) (the meeting with the President, July 6). [[w.fursenko-one-hell-of-a]], 50 (the cut); [[w.paterson-contesting-castro]], 258 (the quota suspended in July). Havana''s Law 851 of the same day is entered on its own (the *Times* of July 6, 1960, at 1, 3). To check: [[w.rabe-eisenhower-and-latin-america]]; [[w.morley-imperial-state-and-revolution]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.leogrande-back-channel-to-cuba]]. Names: Eisenhower, Castro, Dorticós. Check: Fursenko and Naftali have Congress cut the rest of the quota from 744,000 to 44,000 short tons, July 3 (50), citing FRUS 1958–60, VI, doc. 544.'
+      n: 'Statement by the President Upon Signing Bill and Proclamation Relating to the Cuban Sugar Quota, [1960–61 Pub. Papers 562](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=614); [Proclamation 3355](https://www.presidency.ucsb.edu/documents/proclamation-3355-determination-cuban-sugar-quota), [25 Fed. Reg. 6414](https://www.govinfo.gov/app/details/FR-1960-07-08). Senate, July 2: the President''s resolution, [84–0](https://voteview.com/rollcall/RS0860384); July 3, the conference report, [32–24](https://voteview.com/rollcall/RS0860387). FRUS 1958–60, VI, docs. [543](https://history.state.gov/historicaldocuments/frus1958-60v06/d543), [544](https://history.state.gov/historicaldocuments/frus1958-60v06/d544) (the meeting with the President, July 6). [[w.fursenko-one-hell-of-a]], 50 (the cut); [[w.paterson-contesting-castro]], 258 (the quota suspended in July). Havana''s Law 851 of the same day is entered on its own (the *Times* of July 6, 1960, at 1, 3). To check: [[w.rabe-eisenhower-and-latin-america]]; [[w.morley-imperial-state-and-revolution]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.leogrande-back-channel-to-cuba]]. Names: Eisenhower. Check: Fursenko and Naftali have Congress cut the rest of the quota from 744,000 to 44,000 short tons, July 3 (50), citing FRUS 1958–60, VI, doc. 544.'
       src:
         c: a3cd560a
         rows:
@@ -270,6 +285,11 @@ ops:
         - 'w.fursenko-one-hell-of-a 50: 2'
         - 'via w.fursenko-one-hell-of-a 50 n.59: 2'
         - 'w.paterson-contesting-castro 258: 2'
+- tag:
+    id: cal.1960-07-06.cuba-2
+    remove:
+    - name:castro-fidel
+    - name:dorticos-torrado-osvaldo
 - add:
     entry:
       id: cal.1960-07-06.cuba
@@ -375,6 +395,15 @@ ops:
       tags:
       - name:kennedy-john-f
       - name:khrushchev-nikita-s
+- follows:
+    id: cal.1961-02-01.economy-2
+    add:
+    - cal.1961-02-01.economy
+- follows:
+    id: cal.1961-06-13.cuba-2
+    add:
+    - cal.1961-06-13.cuba
+    basis: 'Taylor to Kennedy, June 13: "We are now prepared to make our final report to you orally," its n.3 pointing to the 5 p.m. meeting ([FRUS 1961–63, X, doc. 230](https://history.state.gov/historicaldocuments/frus1961-63v10/d230))'
 - edit:
     id: cal.1961-02-08.cuba
     base: 70b25bef
@@ -406,13 +435,42 @@ ops:
 - edit:
     id: cal.1961-04-20.cuba
     base: 57a79de0
+    kind: correct
     set:
       time_range:
       - 1961-04-20T17:00Z
       - 1961-04-20T23:00Z
       time_band: afternoon
       time_zone: America/New_York
-      n: 'Address Before the American Society of Newspaper Editors, [1961 Pub. Papers 304](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=362) (Apr. 20, 1961). The news conference of Apr. 21 calls the statement on Cuba "yesterday afternoon" ([1961 Pub. Papers 307](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365), item 1). [[w.logsdon-decision-to-go-to]] prints the memo; [[w.marolda-united-states-navy-and]], 100 (the address). [[w.schlesinger-thousand-days-1965]], 286–88 (the address); [[w.sorensen-kennedy]], 308, 629 (the address to the editors); [[w.sorensen-kennedy]], 629–30; [[w.sorensen-kennedy]], 525; [[w.goodwin-remembering-america]], 180 ("the day after the invasion collapsed," "the most truculent statement of his administration": "our restraint is not inexhaustible"; "we do not intend to be lectured on intervention by those whose character was stamped for all time on the bloody streets of Budapest"; not the editors or the space question). [[w.jones-bay-of-pigs]], 132. See [[cal.1961-04-12.space]]. Names: Johnson.'
+      c: 'Address to the newspaper editors: the lessons of Cuba, and no retreat.{1}'
+      n: 'Address Before the American Society of Newspaper Editors, [1961 Pub. Papers 304](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=362) (Apr. 20, 1961). The news conference of Apr. 21 calls the statement on Cuba "yesterday afternoon" ([1961 Pub. Papers 307](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365), item 1). [[w.marolda-united-states-navy-and]], 100 (the address). [[w.schlesinger-thousand-days-1965]], 286–88 (the address); [[w.sorensen-kennedy]], 308, 629 (the address to the editors); [[w.sorensen-kennedy]], 629–30; [[w.goodwin-remembering-america]], 180 ("the day after the invasion collapsed," "the most truculent statement of his administration": "our restraint is not inexhaustible"; "we do not intend to be lectured on intervention by those whose character was stamped for all time on the bloody streets of Budapest"; not the editors). [[w.jones-bay-of-pigs]], 132. Kennedy''s question to Johnson on space, the same day, is entered on its own (Sorensen, 525).'
+      src:
+        c: fa96faf0
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=362: 1'
+        - 'w.marolda-united-states-navy-and 100: 1'
+        - 'w.schlesinger-thousand-days-1965 287–88: 1'
+        - 'w.jones-bay-of-pigs 132: 1'
+        - 'via w.jones-bay-of-pigs 132 n.2a: 1'
+        - 'w.sorensen-kennedy 308, 629: 1'
+        - 'w.sorensen-kennedy 629–30: 1'
+        - 'w.goodwin-remembering-america 180: ?'
+- tag:
+    id: cal.1961-04-20.cuba
+    remove:
+    - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1961-04-20.space
+      when: Apr. 20
+      date: '1961-04-20'
+      place: washington
+      thread: space
+      c: Kennedy asks Johnson, as chairman of the Space Council, whether there is a space program the United States can win.
+      n: '[[w.sorensen-kennedy]], 525. To check: [[w.logsdon-decision-to-go-to]] (prints the memorandum). See [[cal.1961-04-12.space]]. Names: Kennedy, Johnson.'
+      tags:
+      - name:kennedy-john-f
+      - name:johnson-lyndon-b
 - src:
     id: cal.1961-04-20.cuba
     rows:
@@ -423,16 +481,14 @@ ops:
     kind: correct
     settles:
     - 'Check: *Six Crises*''s introduction (xi)'
-    - 'Check: *Six Crises*, 406 n.12, puts it in May.'
-    - 'Check: Reeves puts the talk'
     set:
-      n: '[[w.schlesinger-thousand-days-1965]], 336–37 (Nixon''s account, as Schlesinger quotes it); [[w.nixon-rn]], 233–35; [[w.nixon-six-crises]], xi (the visit, in April, Nixon''s first to Kennedy since the inauguration; Kennedy on a public man''s writing a book); [[w.sorensen-kennedy]], 308 (Thursday morning, Kennedy planning talks with every Republican leader, to guard national unity); [[w.wofford-of-kennedys-and-kings]], 352 (Thursday, Apr. 20, Kennedy asks Nixon to the White House: "What would you do now in Cuba?" Nixon: "I would find proper legal cover, and I would go in"; Kennedy fears Khrushchev will move on Berlin; not Laos). [[w.reeves-president-kennedy]], 99–100 (Nixon for going in). [[w.nixon-six-crises]], 406 n.12 (Kennedy asks Nixon to the White House after the Cuban defeat). Made public: Nixon, *Reader''s Digest*, Nov. 1964. To check: Richard M. Nixon, "Cuba, Castro and John F. Kennedy," *Reader''s Digest*, Nov. 1964 (cited by [[w.schlesinger-thousand-days-1965]], 337 n.). After [[cal.1961-04-20.cuba|the address]]: the news conference of Apr. 21 has the statement on Cuba "yesterday afternoon" and the talk with Nixon "last night" ([1961 Pub. Papers 307](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365), items 1, 5). See [[cal.1961-03-29.cuba]]. The Papers settle the day and the part of it: Kennedy, Apr. 21, "last night," the Vice President "came to the White House at my invitation"; so Apr. 20, at night. *Six Crises*, 406 n.12, puts it in May; Reeves (99) puts the talk the afternoon of Apr. 19, with the Revolutionary Council; *Six Crises*, xi, April. Names: Nixon, Kennedy.'
+      n: '[[w.schlesinger-thousand-days-1965]], 336–37 (Nixon''s account, as Schlesinger quotes it); [[w.nixon-rn]], 233–35; [[w.nixon-six-crises]], xi (the visit, in April, Nixon''s first to Kennedy since the inauguration; Kennedy on a public man''s writing a book); [[w.sorensen-kennedy]], 308 (Thursday morning, Kennedy planning talks with every Republican leader, to guard national unity); [[w.wofford-of-kennedys-and-kings]], 352 (Thursday, Apr. 20, Kennedy asks Nixon to the White House: "What would you do now in Cuba?" Nixon: "I would find proper legal cover, and I would go in"; Kennedy fears Khrushchev will move on Berlin; not Laos). [[w.reeves-president-kennedy]], 99–100 (Nixon for going in). [[w.nixon-six-crises]], 406 n.12 (Kennedy asks Nixon to the White House after the Cuban defeat). Made public: Nixon, *Reader''s Digest*, Nov. 1964. To check: Richard M. Nixon, "Cuba, Castro and John F. Kennedy," *Reader''s Digest*, Nov. 1964 (cited by [[w.schlesinger-thousand-days-1965]], 337 n.). After [[cal.1961-04-20.cuba|the address]]: the news conference of Apr. 21 has the statement on Cuba "yesterday afternoon" and the talk with Nixon "last night" ([1961 Pub. Papers 307](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365), items 1, 5). The Papers settle the day and the part of it: Kennedy, Apr. 21, "last night," the Vice President "came to the White House at my invitation"; so Apr. 20, the evening or the night; *Six Crises*, xi, has April. See [[cal.1961-03-29.cuba]]. Names: Nixon, Kennedy. Check: *Six Crises*, 406 n.12, puts it in May. Check: Reeves puts the talk the afternoon of the meeting with the Revolutionary Council, Apr. 19 (99).'
       time_range:
-      - 1961-04-21T03:00Z
+      - 1961-04-20T23:00Z
       - 1961-04-21T05:00Z
-      time_band: night
     unset:
     - range_basis
+    - time_band
 - src:
     id: cal.1961-04-20.cuba-bay-of-pigs
     rows:
@@ -452,8 +508,8 @@ ops:
     base: 0a4121b0
     kind: correct
     set:
-      c: 'Cable to Dearborn, the consul general at Ciudad Trujillo, revised by Goodwin, with the President''s words: the United States "as matter of general policy cannot condone assassination. This last principal is overriding." The machine guns the dissidents ask for not to be passed.{1}'
-      n: '[S. Rep. No. 94-465, 212–213 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=223); [[w.schlesinger-robert-kennedy-and-his]], 491. [[w.reeves-president-kennedy]], 141; [[w.sen-church-alleged-assassination-plots]], 212–13 (the cable of May 29, revised by Goodwin: "we must not run risk of U.S. association with political assassination, since U.S. as matter of general policy cannot condone assassination. This last principal is overriding and must prevail in doubtful situation," the italicized words inserted at the President''s direction by Goodwin''s testimony; the machine guns not to be transferred). The report prints "principal," not "principle" (S. Rep. No. 94-465, 213). Made public: the Church Committee''s interim report, Nov. 20, 1975. Names: Goodwin, Kennedy.'
+      c: 'Cable to Dearborn, the consul general at Ciudad Trujillo, revised by Goodwin: the United States "as matter of general policy cannot condone assassination," the words put in at the President''s direction; "This last principal is overriding." The machine guns the dissidents ask for not to be passed.{1}'
+      n: '[S. Rep. No. 94-465, 212–213 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=223); [[w.schlesinger-robert-kennedy-and-his]], 491. [[w.reeves-president-kennedy]], 141; [[w.sen-church-alleged-assassination-plots]], 212–13 (the cable of May 29, revised by Goodwin: "we must not run risk of U.S. association with political assassination, since U.S. as matter of general policy cannot condone assassination. This last principal is overriding and must prevail in doubtful situation," the italicized words inserted at the President''s direction by Goodwin''s testimony; the machine guns not to be transferred). The report prints "principal," not "principle," and its italics, the words put in at the President''s direction, end at "assassination" (S. Rep. No. 94-465, 213). Made public: the Church Committee''s interim report, Nov. 20, 1975. Names: Goodwin, Kennedy.'
 - src:
     id: cal.1961-08-31.berlin-and-vienna
     rows:
@@ -487,7 +543,7 @@ ops:
     kind: correct
     set:
       c: Quarantine lifted.{1}
-      n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 830 (the quarantine), 834 (Collins). [[w.fursenko-one-hell-of-a]], 310 (the quarantine); [[w.fursenko-khrushchevs-cold-war]], 503 (the quarantine); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 217 (the quarantine lifted at once). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). The answer on Collins (question 7, 1962 Pub. Papers 834) is entered on its own. After [[cal.1962-11-20.missile-crisis-3|Robert Kennedy''s talk with Dobrynin]], four hours before. After [[cal.1962-11-20.missile-crisis-2]], four hours before the press conference (the sources above). See [[cal.1962-05-24.missile-crisis]], [[cal.1962-10-22.missile-crisis]]. Names: Collins, Kennedy.'
+      n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 830 (the quarantine). [[w.fursenko-one-hell-of-a]], 310 (the quarantine); [[w.fursenko-khrushchevs-cold-war]], 503 (the quarantine); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 217 (the quarantine lifted at once). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). The answer on Collins (question 7, 1962 Pub. Papers 834) is entered on its own. After [[cal.1962-11-20.missile-crisis-3|Robert Kennedy''s talk with Dobrynin]], four hours before. After [[cal.1962-11-20.missile-crisis-2]], four hours before the press conference (the sources above). See [[cal.1962-05-24.missile-crisis]], [[cal.1962-10-22.missile-crisis]].'
       src:
         c: 172080b3
         rows:
@@ -495,6 +551,10 @@ ops:
         - 'w.fursenko-one-hell-of-a 310: 1'
         - 'w.fursenko-khrushchevs-cold-war 503: 1'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 217: 1'
+- tag:
+    id: cal.1962-11-20.missile-crisis
+    remove:
+    - name:collins-leroy
 - add:
     entry:
       id: cal.1962-11-20.missile-crisis-4
@@ -502,6 +562,7 @@ ops:
       date: '1962-11-20'
       place: washington
       thread: missile-crisis
+      part_of: cal.1962-11-20.press-and-broadcasting-2
       also:
       - press-and-broadcasting
       follows:
@@ -516,15 +577,45 @@ ops:
 - edit:
     id: cal.1963-05-21.alabama-birmingham
     base: d177e4f4
+    kind: correct
     set:
-      n: 'The Senate sat from noon to 6:28 p.m.: [Daily Digest, D219](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=217). [109 Cong. Rec. 9115](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=51) (1963) (Stennis); [109 Cong. Rec. 9140](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=76) (1963) (Morse) (May 21, 1963). [[w.mann-walls-of-jericho]], 350–51. The Record (9115) reads "this direct assault upon and threat to"; Mann, 351, drops "assault upon and." See [[cal.1963-04-03.alabama]]. Names: Stennis, Morse.'
+      c: 'Stennis in the Senate: "None of us should be content to sit idly by in the face of this direct assault upon and threat to historic constitutional principles"; Alabama''s authorities functioned "fully and effectively."{1}'
+      n: 'The Senate sat from noon to 6:28 p.m.: [Daily Digest, D219](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=217). [109 Cong. Rec. 9115](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=51) (1963) (May 21, 1963). Morse, later the same day, puts Stennis''s speech "earlier this afternoon" ([109 Cong. Rec. 9140](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=76)); Morse''s answer is entered on its own. [[w.mann-walls-of-jericho]], 350–51. The Record (9115) reads "this direct assault upon and threat to"; Mann, 351, drops "assault upon and." See [[cal.1963-04-03.alabama]]. Names: Stennis.'
       src:
         c: 5bc74020
         rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=51: 1'
-        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=76: 2'
-        - 'w.mann-walls-of-jericho 350–51: 1, 2'
-        - 'via w.mann-walls-of-jericho 351 n.segregationists-loudly-decried-perceived-violations: 1, 2'
+        - 'w.mann-walls-of-jericho 350–51: 1'
+        - 'via w.mann-walls-of-jericho 351 n.segregationists-loudly-decried-perceived-violations: 1'
+      time_range:
+      - 1963-05-21T16:00Z
+      - 1963-05-21T22:00Z
+      time_band: afternoon
+- tag:
+    id: cal.1963-05-21.alabama-birmingham
+    remove:
+    - name:morse-wayne
+- add:
+    entry:
+      id: cal.1963-05-21.alabama-birmingham-2
+      when: May 21
+      date: '1963-05-21'
+      place: washington
+      thread: alabama-birmingham
+      also:
+      - congress
+      follows:
+      - cal.1963-05-21.alabama-birmingham
+      time_range:
+      - 1963-05-21T16:00Z
+      - 1963-05-21T22:28Z
+      time_zone: America/New_York
+      range_basis: record
+      c: 'Morse in the Senate, answering Stennis: he "need only turn the pages of Life magazine of last week for pictorial proof"; "no place in America for inhumanity to man."'
+      n: '[109 Cong. Rec. 9140](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=76) (1963) (May 21, 1963; Stennis''s speech "earlier this afternoon"). [[w.mann-walls-of-jericho]], 350–51. The Senate sat from noon to 6:28 p.m.: [Daily Digest, D219](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=217). See [[cal.1963-05-21.alabama-birmingham]]. Names: Morse, Stennis.'
+      tags:
+      - name:morse-wayne
+      - name:stennis-john-c
 - edit:
     id: cal.1963-09-24.testing
     base: d0b9453d
@@ -612,7 +703,11 @@ ops:
     kind: correct
     set:
       c: McNamara proposes meeting Lodge and Harkins in Hawaii instead; Kennedy will have him see it on the spot.
-      n: '[[w.mcnamara-in-retrospect]], ch. 3 at n.26 (McNamara''s proposal; Bundy to Rusk: "the President thinks you have to look at it to see it"). Kennedy''s telegram to Lodge of 4:52 p.m. (FRUS 1961–63, IV, doc. 128) is entered on its own. See [[cal.1963-09-18.vietnam-2]]. Names: McNamara, Lodge, Harkins, Kennedy, Ngô Đình Diệm.'
+      n: '[[w.mcnamara-in-retrospect]], ch. 3 at n.26 (McNamara''s proposal; Bundy to Rusk: "the President thinks you have to look at it to see it"). Kennedy''s telegram to Lodge of 4:52 p.m. (FRUS 1961–63, IV, doc. 128) is entered on its own. See [[cal.1963-09-18.vietnam-2]]. Names: McNamara, Lodge, Harkins, Kennedy.'
+- tag:
+    id: cal.1963-09-18.vietnam-3
+    remove:
+    - name:ngo-dinh-diem
 - add:
     entry:
       id: cal.1963-09-18.vietnam-5
@@ -625,7 +720,7 @@ ops:
       time: 1963-09-18T20:52Z
       time_zone: America/New_York
       c: 'Kennedy to Lodge, Deptel 431, 4:52 p.m., answering Embtel 536: "my need for this visit is very great indeed"; McNamara will want to speak "some home truths" to Diệm.'
-      n: '[Deptel 431, the President to Lodge, Sept. 18, 1963, FRUS 1961–63, IV, doc. 128](https://history.state.gov/historicaldocuments/frus1961-63v04/d128) ("I appreciate your prompt comment"; Washington, 4:52 p.m.). Check: the line this replaces had "some hard truths"; doc. 128 reads "home truths." See [[cal.1963-09-18.vietnam-3]]. Names: Kennedy, Lodge, McNamara, Ngô Đình Diệm.'
+      n: '[Deptel 431, the President to Lodge, Sept. 18, 1963, FRUS 1961–63, IV, doc. 128](https://history.state.gov/historicaldocuments/frus1961-63v04/d128) ("I appreciate your prompt comment"; Washington, 4:52 p.m.). The telegram reads "home truths," where the line it was split from had "hard truths." See [[cal.1963-09-18.vietnam-3]]. Names: Kennedy, Lodge, McNamara, Ngô Đình Diệm.'
       tags:
       - name:kennedy-john-f
       - name:lodge-henry-cabot
