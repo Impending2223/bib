@@ -1,6 +1,15 @@
 patch: notes-pass-10r
 by: 'Claude (reader; the notes pass, batch 10r: R33a, building on the entry from its cites); audited by Claude (Opus), Nov. 27, 2026 (notes/notes-pass/audit-10.md)'
 ops:
+- edit:
+    id: cal.1969-12-05.soviet-union-leadership
+    base: bf9a42fc
+    kind: correct
+    set:
+      c: 'Moscow. Brezhnev with Ceaușescu. His notes of Ceaușescu: the irritants in the relations of the parties and the countries to be removed, on both sides; no agreement for 1970 on coke; military equipment, aircraft among it, not delivered in 1969, and cooperation between aircraft plants; an agreement for 1971–75 and a meeting of the two governments'' delegations.'
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 433–34 (№ 97, Brezhnev''s notes of Ceaușescu''s statement, Dec. 5), 451–52 nn.270–274 (the editors: Ceaușescu on relations of the RCP and CPSU, coke, the shortfall in the 1965–70 supply agreement, military cooperation, the 1971–75 agreement). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 376 (the secretaries'' record, Dec. 5: Brezhnev, with Kosygin, Podgorny and Katushev, receives Ceaușescu''s delegation in the new hall of the Central Committee, 11 to 11:45, and sees it off). The notes of № 98 (I, 434), "О положении в партии" (on the situation in the party), are of Brezhnev''s talk with Husák that day, by the editors (I, 434 n.a; 452 n.275), and are entered with it. Made public: 2016. To check: the Romanian record. Names: Ceaușescu, Brezhnev.'
+      time: 1969-12-05T08:00Z
+      time_zone: Europe/Moscow
 - add-words:
     id: cal.1969-10-02.soviet-union-leadership
     after: end
@@ -691,6 +700,9 @@ ops:
 - edit:
     id: cal.1960-04-22.china-leadership-4
     base: 480ae357
+    unset:
+    - time_range
+    - time_band
     set:
       time: 1960-04-22T07:00Z
       time_zone: Asia/Shanghai
@@ -713,6 +725,9 @@ ops:
 - edit:
     id: cal.1960-11-09.soviet-union-2
     base: e76b9092
+    unset:
+    - time_range
+    - time_band
     set:
       time: 1960-11-09T14:00Z
       time_zone: Europe/Moscow
@@ -739,6 +754,9 @@ ops:
 - edit:
     id: cal.1961-01-13.china-leadership
     base: ddd20c9b
+    unset:
+    - time_range
+    - time_band
     set:
       time: 1961-01-13T03:00Z
       time_zone: Asia/Shanghai
@@ -775,6 +793,9 @@ ops:
 - edit:
     id: cal.1961-03-07.china-leadership-2
     base: 15bf0be4
+    unset:
+    - time_range
+    - time_band
     set:
       time: 1961-03-07T07:00Z
       time_zone: Asia/Shanghai
@@ -812,15 +833,6 @@ ops:
     kind: correct
     set:
       n: '[[w.macfarquhar-origins-of-the-cultural]], III, 103–104; [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 168–179 (the Center 中共中央 forwards the Central Culture and Education Small Group''s 中央文教小组 report "On the arrangement of culture and education work in 1961 and for a period to come" 《关于一九六一年和今后一个时期文化教育工作安排的报告》 on Feb. 7, 1961, to be followed: rural students over sixteen held to about 2 percent of the rural labor force for three to five years, 172; quality first in higher education, 173; enrolment for 1961, higher schools 250,000, 94,000 fewer than in 1960; printed from the Central Committee''s document). Made public: 1997. To check: [[w.zhonghua-renmin-gongheguo-jiaoyu]], 285, 288–89 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 103 n.80a); [[w.zhongguo-jiaoyu-nianjian-1949]], 93 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 103 n.80b).'
-- edit:
-    id: cal.1969-12-05.soviet-union-leadership
-    base: bf9a42fc
-    kind: correct
-    set:
-      c: 'Moscow. Brezhnev with Ceaușescu. His notes of Ceaușescu: the irritants in the relations of the parties and the countries to be removed, on both sides; no agreement for 1970 on coke; military equipment, aircraft among it, not delivered in 1969, and cooperation between aircraft plants; an agreement for 1971–75 and a meeting of the two governments'' delegations.'
-      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 433–34 (№ 97, Brezhnev''s notes of Ceaușescu''s statement, Dec. 5), 451–52 nn.270–274 (the editors: Ceaușescu on relations of the RCP and CPSU, coke, the shortfall in the 1965–70 supply agreement, military cooperation, the 1971–75 agreement). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 376 (the secretaries'' record, Dec. 5: Brezhnev, with Kosygin, Podgorny and Katushev, receives Ceaușescu''s delegation in the new hall of the Central Committee, 11 to 11:45, and sees it off). The notes of № 98 (I, 434), "О положении в партии" (on the situation in the party), are of Brezhnev''s talk with Husák that day, by the editors (I, 434 n.a; 452 n.275), and are entered with it. Made public: 2016. To check: the Romanian record. Names: Ceaușescu, Brezhnev.'
-      time: 1969-12-05T08:00Z
-      time_zone: Europe/Moscow
 - check:
     id: cal.1969-10-17.china-leadership
     text: 'Check: the part of the day: [[w.zhou-enlai-nianpu-1949-2020]], III, 322, has the talks "that evening" (当晚), and [[w.chen-yi-nianpu]], 1213, the display in the evening; [[w.liu-jixian-ye-jianying-nianpu]], II, 985, and [[w.zhu-de-nianpu-xinbian]], III, 1970, put the display in the afternoon.'

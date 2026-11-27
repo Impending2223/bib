@@ -4334,18 +4334,18 @@ entries:
     place: bonn
     thread: vietnam-diplomacy
     also: [war-opposition]
-    c: 'Bonn, at the luncheon after Adenauer''s funeral, by Rostow''s note: Erlander "desperately anxious" to explain to Johnson why Sweden''s laws let the Russell Tribunal meet there. Johnson sends Rostow in the night to find him and hear him out.'
-    n: '[President''s Daily Diary, Apr. 25, 1967](https://catalog.archives.gov/id/192467), images 2, 3 (LBJ Library; National Archives Catalog; the luncheon at the Villa Hammerschmidt; Rostow''s note: the Prime Minister of Sweden "desperately anxious" to explain "why they are accepting a Bertrand Russell ... investigation in Sweden due to their complex laws"; Rostow sent "in the middle of the night"; image 3, Rostow''s list of those at the luncheon, Erlander among them). [[w.gibbons-u-s-government-and]], IV, 701. Check: the Diary (images 2, 4) has the luncheon at the Villa Hammerschmidt between the memorial service at the Bundestag (10 a.m.; Johnson leaves at 11:04 a.m.) and the Requiem Mass at Cologne Cathedral (2 p.m.), not after the funeral. Names: Erlander, Johnson, Rostow, Adenauer.'
+    c: 'Bonn, at the luncheon after Adenauer''s funeral, by Rostow''s note: Erlander "desperately anxious" to explain to Johnson why Sweden''s laws let the Russell Tribunal meet there.'
+    n: '[President''s Daily Diary, Apr. 25, 1967](https://catalog.archives.gov/id/192467), images 2, 3 (LBJ Library; National Archives Catalog; the luncheon at the Villa Hammerschmidt; Rostow''s note: the Prime Minister of Sweden "desperately anxious" to explain "why they are accepting a Bertrand Russell ... investigation in Sweden due to their complex laws"; Rostow sent "in the middle of the night"; image 3, Rostow''s list of those at the luncheon, Erlander among them). [[w.gibbons-u-s-government-and]], IV, 701. The Diary (image 2) has the night errand as a separate act of the day, entered on its own. Check: the Diary (images 2, 4) has the luncheon at the Villa Hammerschmidt between the memorial service at the Bundestag (10 a.m.; Johnson leaves at 11:04 a.m.) and the Requiem Mass at Cologne Cathedral (2 p.m.), not after the funeral. Names: Erlander, Johnson, Rostow, Adenauer.'
     src:
-      c: df897c23
+      c: 642c0d5f
       rows:
         - 'w.gibbons-u-s-government-and IV, 701: all'
         - 'via w.gibbons-u-s-government-and IV, 701 n.88: all'
         - 'https://catalog.archives.gov/id/192467: all'
     tags: [name:erlander-tage, name:johnson-lyndon-b, name:rostow-walt-w, name:adenauer-konrad]
     time_range:
-      - 1967-04-25T10:00Z
-      - 1967-04-25T15:00Z
+      - 1967-04-25T10:04Z
+      - 1967-04-25T13:00Z
     time_zone: Europe/Berlin
     range_basis: record
   - id: cal.1967-04-25.vietnam-2
@@ -4430,6 +4430,27 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 152: all'
     tags: [polity:prc, polity:drv]
+  - id: cal.1967-04-25.vietnam-diplomacy
+    when: Apr. 25
+    date: '1967-04-25'
+    place: bonn
+    thread: vietnam-diplomacy
+    also: [war-opposition]
+    follows:
+      - cal.1967-04-25.vietnam
+    c: Johnson sends Rostow, in the middle of the night, to find Erlander and hear him out.
+    n: '[President''s Daily Diary, Apr. 25, 1967](https://catalog.archives.gov/id/192467), image 2 (LBJ Library; National Archives Catalog) (Rostow''s note: the President "later this day dispatched Rostow in the middle of the night to find the PM of Sweden"). [[w.gibbons-u-s-government-and]], IV, 701. See [[cal.1967-04-25.vietnam]]. Names: Johnson, Rostow, Erlander.'
+    tags: [name:johnson-lyndon-b, name:rostow-walt-w, name:erlander-tage]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-04-25.vietnam
+        from: 2026-11-27-lo-b
+    time_range:
+      - 1967-04-25T21:00Z
+      - 1967-04-25T23:00Z
+    time_band: night
+    time_zone: Europe/Berlin
   - id: cal.1967-04-26.opinion
     when: Apr. 26
     date: '1967-04-26'

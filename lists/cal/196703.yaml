@@ -1766,6 +1766,54 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 407: all'
     tags: [polity:prc]
+  - id: cal.1967-03-09.vietnam-support
+    when: Mar. 9
+    date: '1967-03-09'
+    time: 1967-03-09T17:50Z
+    place: washington
+    thread: vietnam-support
+    c: 'The South Lawn. Johnson awards the Medal of Honor to Specialist 6 Lawrence Joel, an Army medical aide, for his action in Biên Hòa province: wounded twice, he crawled for more than twelve hours under fire to bring others to safety.'
+    n: 'Remarks Upon Awarding the Medal of Honor to Specialist 6 Lawrence Joel, USA, [1967 Pub. Papers 299](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=367) (Mar. 9, 1967) (the hour in its note: 12:50 p.m.). Names: Johnson.'
+    tags: [name:johnson-lyndon-b, city:washington]
+    time_zone: America/New_York
+  - id: cal.1967-03-09.economy-2
+    when: Mar. 9
+    date: '1967-03-09'
+    thread: economy
+    c: 'Statement: Johnson sends the Congress a fiscal 1968 budget amendment cutting $14.9 million from the Atomic Energy Commission, which ends development of the heavy-water-moderated, organic-cooled power reactor but keeps research on heavy water reactors.'
+    n: 'Statement by the President on a Budget Amendment Reducing Funds Proposed for the Atomic Energy Commission, [1967 Pub. Papers 293](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=361) (Mar. 9, 1967). Names: Johnson.'
+    tags: [name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-03-09.economy
+        from: 2026-11-27-lo-b
+  - id: cal.1967-03-09.program
+    when: Mar. 9
+    date: '1967-03-09'
+    thread: program
+    c: 'Special message: Reorganization Plan 2 of 1967 moves the Tariff Commission''s routine executive and administrative functions to its Chairman.'
+    n: 'Special Message to the Congress Transmitting Reorganization Plan 2 of 1967: United States Tariff Commission, [1967 Pub. Papers 294](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=362) (Mar. 9, 1967). Names: Johnson.'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1967-03-09.united-nations
+    when: Mar. 9
+    date: '1967-03-09'
+    thread: united-nations
+    c: Message to the Congress transmitting the twentieth annual report on United States participation in the United Nations, for calendar 1965. Johnson recalls Stevenson's death in London, July 14, 1965, and Goldberg's coming from the Supreme Court to succeed him.
+    n: 'Message to the Congress Transmitting 20th Annual Report on U.S. Participation in the United Nations, [1967 Pub. Papers 295](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=363) (Mar. 9, 1967). Names: Johnson, Stevenson, Goldberg.'
+    tags: [name:johnson-lyndon-b, name:stevenson-adlai-e, name:goldberg-arthur-j, ok:fields-place]
+  - id: cal.1967-03-09.program-2
+    when: Mar. 9
+    date: '1967-03-09'
+    thread: program
+    c: 'Message to the Congress transmitting the first report on marine resources and engineering development, on the Federal Government''s marine science: the sea''s food, pollution of shores and bays, weather and storm forecasting, the ocean floor.'
+    n: 'Message to the Congress Transmitting First Report on Marine Resources and Engineering Development, [1967 Pub. Papers 298](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=366) (Mar. 9, 1967). Names: Johnson.'
+    tags: [name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-03-09.program
+        from: 2026-11-27-lo-b
   - id: cal.1967-03-10.soviet-union-alliluyeva
     when: Mar. 10
     date: '1967-03-10'
@@ -3694,6 +3742,43 @@ entries:
     n: '[[w.macv-command-history-1967]], 388 (Phase I "concluded at midnight on 17 March"; "Phase II was initiated at 180001H March," the operation shifting to the eastern portion of War Zone C); [[w.cosmas-joint-chiefs-of-staff]], 33–34 (the second phase "began on 18 March," in the eastern portion of War Zone C). The hour is MACV''s, Saigon''s clock (H). See [[cal.1967-03-10.vietnam-operations]].'
     tags: [province:tay-ninh, place:war-zone-c]
     time_zone: Asia/Ho_Chi_Minh
+  - id: cal.1967-03-18.states-and-cities-3
+    when: Mar. 18
+    date: '1967-03-18'
+    time: 1967-03-18T19:13Z
+    place: washington
+    thread: states-and-cities
+    c: 'The State Dining Room, the Governors'' luncheon. Johnson, after 36 years in Washington: no period comparable; the crises of 1967 are "born of responsibility, not of disaster." Federal and State cooperation has never been higher, but "our theory has not caught up with our practice."'
+    n: 'Remarks at the Governors'' Luncheon, [1967 Pub. Papers 372](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=440) (Mar. 18, 1967) (the hour in its note: 2:13 p.m.). See [[cal.1967-03-18.states-and-cities-us]]. Names: Johnson.'
+    tags: [name:johnson-lyndon-b, city:washington]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-03-18.states-and-cities-us
+          - cal.1967-03-18.states-and-cities
+          - cal.1967-03-18.states-and-cities-2
+        from: 2026-11-27-lo-b
+    time_zone: America/New_York
+  - id: cal.1967-03-18.states-and-cities-4
+    when: Mar. 18
+    date: '1967-03-18'
+    time: 1967-03-19T02:33Z
+    place: washington
+    thread: states-and-cities
+    follows:
+      - cal.1967-03-18.states-and-cities-2
+    c: 'The State Dining Room, the dinner for the Governors. Johnson''s toast: the Vietnam conflict "still stretches across our land tonight"; he leaves shortly for Guam to review the course with the commanders and the Vietnamese leaders. Andrew Jackson''s toast, "Our Federal Union, it must be preserved"; his own: "May we build on its past to lift the quality of its life in the future."'
+    n: 'The President''s Toast at a Dinner for the Governors, [1967 Pub. Papers 374](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=442) (Mar. 18, 1967) (the hour in its note: 9:33 p.m.). See [[cal.1967-03-18.states-and-cities-2]]. Names: Johnson.'
+    tags: [name:johnson-lyndon-b, city:washington]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1967-03-18.states-and-cities-us
+          - cal.1967-03-18.states-and-cities
+          - cal.1967-03-18.states-and-cities-2
+          - cal.1967-03-18.states-and-cities-3
+        from: 2026-11-27-lo-b
+    time_zone: America/New_York
   - id: cal.1967-03-19.opinion
     when: Mar. 19
     date: '1967-03-19'
@@ -3820,7 +3905,7 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=447: 1, 2, 3, 4, 5, 6, 7, 8, 9'
         - 'https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=449: 1, 2, 3, 4, 5, 6, 7, 8, 9'
         - 'https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=450: 1, 2, 3, 4, 5, 6, 7, 8, 9'
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d115: 1, 2, 3, 4, 5, 6, 7, 8, 9'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d115: 1, 2, 6'
         - 'w.johnson-vantage-point 259–60: 1, 2, 4, 6, 7'
         - 'w.cosmas-joint-chiefs-of-staff 104: 1, 2, 4'
         - 'via w.cosmas-joint-chiefs-of-staff 104 n.2a: 1, 2, 4'
@@ -4089,7 +4174,7 @@ entries:
     thread: vietnam-guam
     also: [vietnam-air-war]
     c: 'Guam, Andersen Air Force Base, in the rain: Johnson addresses the airmen, Maj. Gen. William Crumm of the 3d Strategic Air Division holding an umbrella over him. The conference''s first business.'
-    n: '[[w.westmoreland-soldier-reports]], 213 ("the first order of business"). To check: the Public Papers. See [[cal.1967-03-20.vietnam]]. Names: Johnson.'
+    n: '[[w.westmoreland-soldier-reports]], 213 ("the first order of business"). Check: the day. The Papers have Johnson speak to the men of Andersen Air Force Base, General Crumm named, on Mar. 21, 5:16 p.m., on leaving Guam ([1967 Pub. Papers 388](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=456)); on Mar. 20 the remarks on arrival are at Guam International Airport (375). To check: the Public Papers. See [[cal.1967-03-20.vietnam]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
   - id: cal.1967-03-20.vietnam-guam-2
     when: Mar. 20–21
