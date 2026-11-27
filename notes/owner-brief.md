@@ -1514,3 +1514,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 7:40 pm PT.** "I thought the names you suggested were goofy but then I said to myself, \"you know, Claude probably knows what titles would be easiest for him to work with.\" guess not!"
 
 **Nov. 26, 2026, about 7:44 pm PT.** "Are you sure about the Keesing's? It doesn't give any authority besides its own name for (any of?) the material it prints, and I had never heard the name \"Keesing's\" before you suggested it to me."
+
+**Nov. 26, 2026, about 7:49 pm PT.** (With two clippings of *Keesing's*: an item ending "(Bulgarian Legation Press Office, London - Soviet Embassy Press Department, London - Times - Le Monde - Neue Zürcher Zeitung - New York Times) (Prev. rep. ...)", and one ending "(Le Monde - Le Figaro)".) "Sorry, what I said was not quite true. It *does* cite its sources, (perhaps?) under each section. It just cites them in a manner entirely unhelpful to someone trying to run them to ground. One of the attached images, for example, is the entirety of Keesing's sourcing for nine(?) pages of small-print type on French politics."
