@@ -99,16 +99,18 @@ entries:
   - id: cal.1969-12-05.soviet-union-leadership
     when: Dec. 5
     date: '1969-12-05'
+    time: 1969-12-05T08:00Z
     place: moscow
     thread: soviet-union-leadership
     also: [comecon]
-    c: 'Moscow. Brezhnev with Ceaușescu. His notes of Ceaușescu: the irritants in the relations of the parties and the countries to be removed, on both sides; no agreement for 1970 on coke; military equipment, aircraft among it, not delivered in 1969, and cooperation between aircraft plants; an agreement for 1971–75 and a meeting of the two governments'' delegations; the Romanian party''s fight with the right.'
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 433–34 (№№ 97–98, Brezhnev''s notes of Ceaușescu''s statement and "О положении в партии" (on the situation in the party), Dec. 5), 452 nn.270–275 (the editors: Ceaușescu on relations of the RCP and CPSU, coke, the shortfall in the 1965–70 supply agreement, military cooperation, the 1971–75 agreement). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 376 (the secretaries'' record, Dec. 5: Brezhnev, with Kosygin, Podgorny and Katushev, receives Ceaușescu''s delegation in the new hall of the Central Committee, 11 to 11:45, and sees it off). Made public: 2016. To check: the Romanian record. Names: Ceaușescu, Brezhnev.'
+    c: 'Moscow. Brezhnev with Ceaușescu. His notes of Ceaușescu: the irritants in the relations of the parties and the countries to be removed, on both sides; no agreement for 1970 on coke; military equipment, aircraft among it, not delivered in 1969, and cooperation between aircraft plants; an agreement for 1971–75 and a meeting of the two governments'' delegations.{1} Kosygin, Podgorny and Katushev sit with Brezhnev, in the Central Committee''s new hall, 11 to 11:45.{2}'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 433–34 (№ 97, Brezhnev''s notes of Ceaușescu''s statement, Dec. 5), 451–52 nn.270–274 (the editors: Ceaușescu on relations of the RCP and CPSU, coke, the shortfall in the 1965–70 supply agreement, military cooperation, the 1971–75 agreement). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 376 (the secretaries'' record, Dec. 5: Brezhnev, with Kosygin, Podgorny and Katushev, receives Ceaușescu''s delegation in the new hall of the Central Committee, 11 to 11:45, and sees it off); [[w.brezhnev-rabochie-i-dnevnikovye]], II, 376. The notes of № 98 (I, 434), "О положении в партии" (on the situation in the party), are of Brezhnev''s talk with Husák that day, by the editors (I, 434 n.a; 452 n.275), and are entered with it. Made public: 2016. To check: the Romanian record. Names: Ceaușescu, Brezhnev, Kosygin, Podgorny, Katushev.'
     src:
-      c: db0e8dee
+      c: 2fffbf50
       rows:
-        - 'w.brezhnev-rabochie-i-dnevnikovye II, 376: ?'
-    tags: [polity:ussr, polity:romania, name:brezhnev-leonid, name:ceausescu-nicolae, vis:only:ussr+romania]
+        - 'w.brezhnev-rabochie-i-dnevnikovye II, 376: 2'
+    tags: [polity:ussr, polity:romania, name:brezhnev-leonid, name:ceausescu-nicolae, vis:only:ussr+romania, name:kosygin-aleksei, name:podgorny-nikolai-v, name:katushev-konstantin-f]
+    time_zone: Europe/Moscow
   - id: cal.1969-12-05.china-leadership
     when: Dec. 5
     date: '1969-12-05'
@@ -117,6 +119,39 @@ entries:
     c: 'Zhou Enlai, on the report that secret materials at a plant in the defense research system have been stolen again and again, writes Huang Yongsheng and Wang Bingzhang: "the case being so serious, may the move be stopped for now, this cleaning of ranks and the case done within the year, then the war-preparation move made?"'
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 330 (Dec. 5, 1969). Made public: 2020. Names: Zhou Enlai, Huang Yongsheng, Wang Bingzhang.'
     tags: [polity:prc, name:zhou-enlai, name:huang-yongsheng, vis:only:prc, name:wang-bingzhang]
+  - id: cal.1969-12-05.soviet-union-leadership-2
+    when: Dec. 5
+    date: '1969-12-05'
+    time: 1969-12-05T14:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [soviet-union-czechoslovakia]
+    c: 'Moscow. Brezhnev receives Husák at 5 p.m.; the talk runs four and a half hours. His notes: on the situation in the party, the fight with the right, frequent changes of cadres in the lower organizations.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 376 (the secretaries'' record, Dec. 5: "В 17 ... принял т. Гусака Г.Н. Беседа продолжалась 4,5 ч."). [[w.brezhnev-rabochie-i-dnevnikovye]], I, 434 (№ 98, Dec. 5, "О положении в партии"; 434 n.a and 452 n.275, the editors: the notes are of the talk with Husák after the meeting of the socialist countries'' leaders, Dec. 3–4). Made public: 2016. See [[cal.1969-12-03.soviet-union-leadership]]. Names: Brezhnev, Husák.'
+    tags: [name:brezhnev-leonid, name:husak-gustav, polity:ussr, polity:czechoslovakia, vis:only:ussr+czechoslovakia]
+    time_zone: Europe/Moscow
+  - id: cal.1969-12-05.soviet-union-leadership-3
+    when: Dec. 5
+    date: '1969-12-05'
+    time: 1969-12-05T06:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Vnukovo-2, 9 a.m. Brezhnev sees off the Bulgarian party-government delegation under Zhivkov.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 376 (the secretaries'' record, Dec. 5). Made public: 2016. See [[cal.1969-12-03.soviet-union-leadership]]. Names: Brezhnev, Zhivkov.'
+    tags: [name:brezhnev-leonid, name:zhivkov-todor, polity:ussr, polity:bulgaria]
+    time_zone: Europe/Moscow
+  - id: cal.1969-12-05.soviet-union-leadership-4
+    when: Dec. 5
+    date: '1969-12-05'
+    time: 1969-12-05T07:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Vnukovo-2, 10 a.m. Brezhnev sees off the GDR party-government delegation under Ulbricht.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 376 (the secretaries'' record, Dec. 5). Made public: 2016. See [[cal.1969-12-03.soviet-union-leadership]]. Names: Brezhnev, Ulbricht.'
+    tags: [name:brezhnev-leonid, name:ulbricht-walter, polity:ussr, polity:gdr]
+    time_zone: Europe/Moscow
   - id: cal.1969-12-06.china-leadership
     when: Dec. 6
     date: '1969-12-06'

@@ -571,15 +571,15 @@ entries:
     time: 1960-08-03T07:30Z
     place: beidaihe
     thread: china-shanghai-1960
-    c: Beidaihe 北戴河. The Secretariat 书记处 on several documents, 3:30 to 7 p.m.
-    n: '[[w.yang-shangkun-riji]], I, 532 (Aug. 3, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1569 (Aug. 3, 1960; afternoon; Deng presides; the draft directive on the whole Party taking up agriculture and grain adopted in the main; Zhou attends); [[w.peng-zhen-nianpu-1902]], IV, 49 (Aug. 3, 1960; the 199th meeting; Peng Zhen there, Zhou Enlai attending; the draft directive "Everyone in the Party to farm, to farm grain" adopted in the main). The words: 下午3时半至7时 (I, 532). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).'
+    c: Beidaihe 北戴河. The Secretariat 书记处 on several documents, 3:30 to 7 p.m.{1} It adopts in the main the draft directive on the whole Party taking hold of agriculture and grain. Zhou Enlai attends; Peng Zhen is there.{2} Deng Xiaoping presides.{3}
+    n: '[[w.yang-shangkun-riji]], I, 532 (Aug. 3, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1569 (Aug. 3, 1960; afternoon; Deng presides; the draft directive on the whole Party taking up agriculture and grain adopted in the main; Zhou attends); [[w.peng-zhen-nianpu-1902]], IV, 49 (Aug. 3, 1960; the 199th meeting; Peng Zhen there, Zhou Enlai attending; the draft directive "Everyone in the Party to farm, to farm grain" adopted in the main); [[w.peng-zhen-nianpu-1902]], IV, 49; [[w.deng-xiaoping-nianpu-1904]], III, 1569. The words: 下午3时半至7时 (I, 532). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Peng Zhen, Deng Xiaoping.'
     src:
-      c: 652bf01d
+      c: 5e16bad5
       rows:
-        - 'w.yang-shangkun-riji I, 532: all'
-        - 'w.deng-xiaoping-nianpu-1904 III, 1569: ?'
-        - 'w.peng-zhen-nianpu-1902 IV, 49: ?'
-    tags: [polity:prc, vis:only:prc]
+        - 'w.yang-shangkun-riji I, 532: 1'
+        - 'w.peng-zhen-nianpu-1902 IV, 49: 2'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1569: 3'
+    tags: [polity:prc, vis:only:prc, name:zhou-enlai, name:peng-zhen, name:deng-xiaoping]
     time_zone: Asia/Shanghai
   - id: cal.1960-08-03.china-leadership-5
     when: Aug. 3
@@ -2502,7 +2502,7 @@ entries:
     place: hyde-park-ny
     thread: elections-1960-kennedy
     c: Hyde Park, N.Y. Kennedy calls on Mrs. Roosevelt and has her support.{1} Powers goes with him. She makes no demand for Stevenson and tells him to choose his Cabinet without preelection promises; a granddaughter of hers was killed in a fall from a horse the day before, and she keeps the appointment.{2}
-    n: '[[w.sorensen-kennedy]], 170 (between the convention and Labor Day); [[w.communications-freedom-of-communications-part]], 18 (Kennedy at Hyde Park, Aug. 14, the memorial program for the Social Security Act''s twenty-fifth anniversary: "I am grateful to you, Mrs. Roosevelt, for allowing me" there; the place and a day; not a call on her or her support); [[w.odonnell-johnny-we-hardly-knew]], 227–28 (the Sunday visit to Mrs. Roosevelt''s cottage, Powers with him; she made no demand for Stevenson and told him to choose his Cabinet "without making any preelection promises"; a granddaughter killed in a fall from a horse the day before, the visit kept); [[w.odonnell-johnny-we-hardly-knew]], 227–28. Names: Kennedy, Eleanor Roosevelt, Powers, Stevenson. Check: the day; Kennedy spoke at Hyde Park on Aug. 14, the Social Security Act''s twenty-fifth anniversary ([Speech, Hyde Park, NY](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-memorial-program-25th-anniversary-signing-social-security), APP, not read).'
+    n: '[[w.sorensen-kennedy]], 170 (between the convention and Labor Day); [[w.communications-freedom-of-communications-part]], 18 (Kennedy at Hyde Park, Aug. 14, the memorial program for the Social Security Act''s twenty-fifth anniversary: "I am grateful to you, Mrs. Roosevelt, for allowing me" there; the place and a day; not a call on her or her support); [[w.odonnell-johnny-we-hardly-knew]], 227–28 (the Sunday visit to Mrs. Roosevelt''s cottage, Powers with him; she made no demand for Stevenson and told him to choose his Cabinet "without making any preelection promises"; a granddaughter killed in a fall from a horse the day before, the visit kept); [[w.odonnell-johnny-we-hardly-knew]], 227–28. Check: the day: the APP text of the Hyde Park speech (read) has Kennedy there Aug. 14, a Sunday, thanking Mrs. Roosevelt; O''Donnell (227–28) has the visit on a Sunday. The speech is [[cal.1960-08-14.medicare]]. Names: Kennedy, Eleanor Roosevelt, Powers, Stevenson. Check: the day; Kennedy spoke at Hyde Park on Aug. 14, the Social Security Act''s twenty-fifth anniversary ([Speech, Hyde Park, NY](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-memorial-program-25th-anniversary-signing-social-security), APP, not read).'
     src:
       c: 502918b2
       rows:
@@ -3479,14 +3479,20 @@ entries:
     date: '1960-08-18'
     thread: china-zhou
     also: [farm, china-agriculture]
-    c: Zhou Enlai at the Secretariat, which discusses the great floods in eastern Liaoning and western Jilin in early August.
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 18, 1960); [[w.peng-zhen-nianpu-1902]], IV, 51–52 (Aug. 18, 1960, morning; the 203rd meeting, Peng Zhen presiding, Zhou attending; drought on 650 million mu this spring and the great floods of early August in eastern Liaoning and western Jilin; agriculture first, capital projects stopped as planned, grain shipped on time, rations arranged to next summer''s harvest; Shanxi, Hebei, Shandong and Henan to report within a fortnight; Bo Yibo, Wang Heshou, Yao Yilin and others sitting in). Made public: 1997. Names: Zhou Enlai.'
-    tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    c: Zhou Enlai at the Secretariat, which discusses the great floods in eastern Liaoning and western Jilin in early August.{1} The 203rd meeting, Peng Zhen presiding. Drought has hit 650 million mu this spring. Agriculture first; capital projects stopped as planned; grain shipped on time; rations arranged to next summer's harvest; Shanxi, Hebei, Shandong and Henan to report within a fortnight. Bo Yibo, Wang Heshou, Yao Yilin and others sit in.{2}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 341 (Aug. 18, 1960); [[w.peng-zhen-nianpu-1902]], IV, 51–52 (Aug. 18, 1960, morning; the 203rd meeting, Peng Zhen presiding, Zhou attending; drought on 650 million mu this spring and the great floods of early August in eastern Liaoning and western Jilin; agriculture first, capital projects stopped as planned, grain shipped on time, rations arranged to next summer''s harvest; Shanxi, Hebei, Shandong and Henan to report within a fortnight; Bo Yibo, Wang Heshou, Yao Yilin and others sitting in); [[w.peng-zhen-nianpu-1902]], IV, 51–52. Made public: 1997. Names: Zhou Enlai, Peng Zhen, Bo Yibo, Wang Heshou, Yao Yilin.'
+    src:
+      c: 7f5ff170
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 341: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 51–52: 2'
+    tags: [polity:prc, name:zhou-enlai, vis:only:prc, name:peng-zhen, name:bo-yibo, name:wang-heshou, name:yao-yilin]
     time_range:
       - 1960-08-17T22:00Z
       - 1960-08-18T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1960-08-18.china-leadership-2
     when: Aug. 18
     date: '1960-08-18'
