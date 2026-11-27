@@ -9,7 +9,7 @@ Nothing is stored: no entry is re-read or re-threaded for them.
 
 STYLE
  1. Which places have a page. A nation: each polity of sources/polities.yaml that is no organization (`org`) and
-    stands for itself (FOLD: the National Liberation Front is the DRV's, by the register's own `folded:`; the Pathet
+    stands for itself (FOLD: the National Liberation Front's entries go on both North and South Vietnam's pages, the owner, Nov. 26, 2026; the Pathet
     Lao, a polity of its own in the register, is Laos's here, since its acts are in Laos), with an entry. A State:
     each gazetteer row `kind: state` (the fifty), with an entry. A province: each provincial unit of the PRC as of
     1966 on the map of China (sources/china/units.json: the provinces, autonomous regions and the two
@@ -60,7 +60,7 @@ from . import store
 PREFIX = "t-"                    # the anchors of a thread's page (threads STYLE 3): the place pages are thread pages
 PAGE = "places-"
 CITY_MIN = 50                    # a city with this many entries or more has a page (ruling 66)
-FOLD = {"nlf": "drv", "pathet-lao": "laos"}      # a polity that is another's on its page (STYLE 1)
+FOLD = {"nlf": ("drv", "rvn"), "pathet-lao": ("laos",)}   # a polity on others' pages (STYLE 1)
 KINDS = [("nation", "Nations"), ("state", "States"), ("province", "Provinces of China, 1966"), ("city", "Cities")]
 _C = {}
 
@@ -84,7 +84,8 @@ def _cal(series):
 
 
 def _fold(p):
-    return FOLD.get(p, p)
+    """The pages a polity's entries go on: its own, or those FOLD names."""
+    return FOLD.get(p, (p,))
 
 
 def nations():
@@ -131,7 +132,7 @@ def _row_polities(row):
     """A gazetteer row's nations: its `in`, folded; a U.S. place (`st`) the United States's."""
     if row.get("st"):
         return ["us"]
-    return [_fold(str(p)) for p in store.as_list(row.get("in")) if p and p != "?"]
+    return [q for p in store.as_list(row.get("in")) if p and p != "?" for q in _fold(str(p))]
 
 
 def tag_row(tag):
@@ -181,7 +182,7 @@ def where(series, lst, e):
             tagged["province"].add(k)
     date = vis.iso(e.get("date")) or "1960-01-01"
     addr = vis.address(lst, e, None, date)[0]
-    tagged["nation"] = {_fold(p) for p in addr if not vis.is_org(p)}
+    tagged["nation"] = {q for p in addr if not vis.is_org(p) for q in _fold(p)}
     return {"there": there, "tagged": tagged}
 
 

@@ -1538,3 +1538,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 9:39 pm PT.** "I'm cool with it for Germany, if not the other three, since \"FRG\"/\"GDR\" read awkwardly to me while apparently \"BRD\" is both taboo and unmemorable. The West gets the DE. The East gets DDR."
 
 **Nov. 26, 2026, about 9:43 pm PT.** "The preview looks great!"
+
+**Nov. 26, 2026, about 9:45 pm PT.** "The NLF's entries should go on both North and South Vietnam's pages, unfortunately."

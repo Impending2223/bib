@@ -83,7 +83,7 @@ def test_nation_about_by_people_tags_and_thread(series, cal, register):
 
 
 def test_folded_polities(series, cal, register):
-    assert W(series, cal, E(tags=["polity:nlf"]))["tagged"]["nation"] == {"drv"}
+    assert W(series, cal, E(tags=["polity:nlf"]))["tagged"]["nation"] == {"drv", "rvn"}   # both Vietnams (the owner, Nov. 26, 2026)
     assert W(series, cal, E(tags=["name:souphanouvong"]))["tagged"]["nation"] == {"laos"}
     assert set(pp.nations()) == {"us", "prc", "laos", "drv", "congo-brazzaville"}
     assert pp.nations()["prc"] == "China" and pp.nations()["congo-brazzaville"] == "Congo (Brazzaville)"
