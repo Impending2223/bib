@@ -1,0 +1,808 @@
+patch: notes-pass-11cr
+by: 'Claude (reader; the notes pass, batch 11cr: R33a, building on the entry from its cites); audited by Claude (Opus), Nov. 27, 2026 (notes/notes-pass/audit-11.md)'
+ops:
+# the part of the day, from the record (R25a): Ball, The Past Has Another Pattern, 290 ("The next morning, Wednesday, October 17"); Salinger, With Kennedy, 250 (it was dark when Air Force One landed at Chicago; the calls came as he reached his suite)
+- edit:
+    id: cal.1962-10-17.missile-crisis-2
+    base: 07438d4d
+    set:
+      time_range:
+      - 1962-10-17T10:00Z
+      - 1962-10-17T16:00Z
+      time_band: morning
+      time_zone: America/New_York
+- edit:
+    id: cal.1962-10-19.missile-crisis-warnings
+    base: 7d34f805
+    set:
+      time_range:
+      - 1962-10-20T00:00Z
+      - 1962-10-20T03:00Z
+      time_band: evening
+      time_zone: America/Chicago
+# cal.1961-12-05.africa: Schlesinger, RFK, 560
+- add-words:
+    id: cal.1961-12-05.africa
+    after: end
+    words: Robert Kennedy sits along the wall with the staff.
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 560'
+- add-words:
+    id: cal.1961-12-05.africa
+    after: end
+    words: 'Kennedy: Dillon and the Attorney General seem opposed; the Attorney General has not spoken, but he can feel the hot breath of his opinion.'
+    text: '[FRUS 1961–63, XXI, doc. 240](https://history.state.gov/historicaldocuments/frus1961-63v21/d240)'
+- variant:
+    id: cal.1961-12-05.africa
+    on: 'Kennedy: Dillon and the Attorney General seem opposed; … his opinion.'
+    witness: w.schlesinger-robert-kennedy-and-his
+    reads: '"The Attorney General has not yet spoken but I can feel the cold wind of his disapproval on the back of my neck."'
+    at: '560'
+# cal.1962-04-04.vietnam: Schlesinger, RFK, 709
+- add-words:
+    id: cal.1962-04-04.vietnam
+    after: end
+    words: 'By Schlesinger, Galbraith offers "phased withdrawal" as part of a larger deal with the Soviet Union, which might get Hanoi to call off the Viet Cong. Lemnitzer, the Chairman of the Joint Chiefs, denounces Galbraith for wishing the United States "to seek disengagement from what is now a well-known commitment" in Southeast Asia.'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 709'
+- names:
+    id: cal.1962-04-04.vietnam
+    add:
+    - Lemnitzer
+    tags:
+    - name:lemnitzer-lyman-l
+# cal.1962-05-01.vietnam: Schlesinger, RFK, 709
+- names:
+    id: cal.1962-05-01.vietnam
+    add:
+    - Higgins
+    tags:
+    - name:higgins-marguerite
+# cal.1961-04-20.cuba-bay-of-pigs: Wofford, 352; Schlesinger, Thousand Days, 337
+- add-words:
+    id: cal.1961-04-20.cuba-bay-of-pigs
+    after: end
+    words: 'Kennedy asks, "What would you do now in Cuba?" Nixon: "I would find proper legal cover, and I would go in." Kennedy: if the United States moves on Cuba, Khrushchev may move on Berlin.'
+    item: '[[w.wofford-of-kennedys-and-kings]], 352'
+- add-words:
+    id: cal.1961-04-20.cuba-bay-of-pigs
+    after: end
+    words: 'Kennedy, by Nixon again: no move in Laos, 5,000 miles away, if none in Cuba, 90 miles away.'
+    item: '[[w.schlesinger-thousand-days-1965]], 337'
+- names:
+    id: cal.1961-04-20.cuba-bay-of-pigs
+    add:
+    - Khrushchev
+    tags:
+    - name:khrushchev-nikita-s
+# cal.1961-04-21.cuba-bay-of-pigs-3: Goodwin, Remembering America, 181
+- add-words:
+    id: cal.1961-04-21.cuba-bay-of-pigs-3
+    after: end
+    words: 'By Goodwin''s notes, Kennedy opens: "The happiest people in government today are the ones who can say they didn''t know anything about it." He will make a short opening statement and take no more questions on Cuba. He wants the blame kept from the CIA after James Reston''s story in the *New York Times* that the operation was not properly staffed and had no NSC meeting; the story to be leaked that the Joint Chiefs studied and approved it. He could fire Allen Dulles, but Dulles helps keep the Republicans off his back. If "we just sit tight for about three weeks, things will cool off."'
+    item: '[[w.goodwin-remembering-america]], 181'
+- names:
+    id: cal.1961-04-21.cuba-bay-of-pigs-3
+    add:
+    - Reston
+    - Dulles
+    tags:
+    - name:reston-james
+    - name:dulles-allen-w
+- edit:
+    id: cal.1961-08-17.latin-america
+    base: '70433734'
+    kind: correct
+    settles:
+    - 'Check: the day.'
+    - 'Check: Fursenko and Naftali put the Argentines'' cornering of Goodwin at a birthday party for a Brazilian delegate on Aug. 16 ([[w.fursenko-one-hell-of-a]], 142, citing Goodwin''s memorandum of Aug. 22).'
+    set:
+      c: The Charter of Punta del Este signed.{1}
+      n: '[FRUS vol. 12](https://history.state.gov/historicaldocuments/frus1961-63v12). [[w.goodwin-remembering-america]], 196–202 (196: on the last day the ministers but Guevara sign; Guevara''s speech; Dillon''s reply). The talk of Goodwin and Guevara is its own entry, [[cal.1961-08-18.latin-america]], dated by Goodwin''s memorandum of Aug. 22 (FRUS 1961–63, X, doc. 257); [[w.schlesinger-robert-kennedy-and-his]], 542, and [[w.fursenko-one-hell-of-a]], 142, are cited there for it. See [[cal.1961-08-05.latin-america]]. Names: Guevara.'
+      tags:
+      - name:guevara-ernesto
+    unset:
+    - src
+# cal.1961-08-17.latin-america: Goodwin, Remembering America, 196-202
+- add-words:
+    id: cal.1961-08-17.latin-america
+    after: The Charter of Punta del Este signed.
+    words: 'Guevara, who does not sign, calls the Alliance "an instrument of economic imperialism" doomed to failure; Dillon replies that the United States will never recognize the permanence of the Cuban regime.'
+    item: '[[w.goodwin-remembering-america]], 196'
+- names:
+    id: cal.1961-08-17.latin-america
+    add:
+    - Dillon
+    tags:
+    - name:dillon-c-douglas
+# cal.1962-10-17.missile-crisis-2: Thomas, 215; Ball, 291
+- add-words:
+    id: cal.1962-10-17.missile-crisis-2
+    after: end
+    words: 'Acheson, who joins the group, urges an immediate strike without warning. Robert Kennedy passes Sorensen a note: "I now know how Tojo felt when he was planning Pearl Harbor."'
+    item: '[[w.thomas-robert-kennedy]], 215'
+- add-words:
+    id: cal.1962-10-17.missile-crisis-2
+    after: end
+    words: 'By Ball, Acheson answers that the Monroe Doctrine, the President''s word to Congress and the resolution of Oct. 3 gave warning, so a strike is no surprise attack.'
+    item: '[[w.ball-past-has-another-pattern]], 291'
+- names:
+    id: cal.1962-10-17.missile-crisis-2
+    add:
+    - Acheson
+    - Sorensen
+    tags:
+    - name:acheson-dean-g
+    - name:sorensen-theodore-c
+# cal.1962-09-27.mississippi: Navasky, 209-17 (the Department's transcripts)
+- add-words:
+    id: cal.1962-09-27.mississippi
+    after: end
+    words: 'At 2:50 p.m. Robert Kennedy proposes that the head marshal draw his gun and the rest keep their hands on their holsters, the state police to keep order. Barnett: "Isn''t it possible to have them all pull their guns?" Lieutenant Governor Johnson, on the line, says all must draw.'
+    item: '[[w.navasky-kennedy-justice]], 209–10'
+- add-words:
+    id: cal.1962-09-27.mississippi
+    after: end
+    words: 'At 3:50 p.m. Barnett asks that it wait until Saturday; Johnson cannot rule out shooting; Robert Kennedy: Meredith "won''t come." At 4:20 p.m. Barnett again promises no violence, the marshals due about five: "You understand we have had no agreement." Robert Kennedy: "That''s correct."'
+    item: '[[w.navasky-kennedy-justice]], 211–15'
+- add-words:
+    id: cal.1962-09-27.mississippi
+    after: end
+    words: 'At 5:35 p.m. Barnett will not guarantee order once Meredith is in; Robert Kennedy says he had better call it off, then takes the word of the Governor and the Lieutenant Governor that order will be kept as far as humanly possible. At 6:35 p.m. Barnett, nervous, reports several thousand people in cars and trucks at Oxford; Robert Kennedy: "I''ll send them back." Meredith''s party, seventy miles from Oxford, is turned around.'
+    item: '[[w.navasky-kennedy-justice]], 209, 215–17'
+- names:
+    id: cal.1962-09-27.mississippi
+    add:
+    - Paul Johnson
+    - Meredith
+    tags:
+    - name:johnson-paul-b-jr
+    - name:meredith-james-h
+# cal.1962-09-29.mississippi-ole-miss: Schlesinger, Journals, 168-71; Thomas, 198
+- add-words:
+    id: cal.1962-09-29.mississippi-ole-miss
+    after: end
+    words: 'In the President''s office Robert Kennedy, with O''Donnell and Burke Marshall present, bids the President "Go get him Johnny boy." In the first call the President tells Barnett he must carry out the law and wants his help; Barnett proposes that Tom Watkins come to Washington; the President: the Court''s order gives Barnett until Tuesday.'
+    item: '[[w.schlesinger-journals]], 168–69'
+- add-words:
+    id: cal.1962-09-29.mississippi-ole-miss
+    after: end
+    words: 'After it the President says Barnett thanked him for his help on the poultry problem, and tells Robert Kennedy, "You''ve been fighting a sofa pillow all week."'
+    item: '[[w.schlesinger-journals]], 169'
+- add-words:
+    id: cal.1962-09-29.mississippi-ole-miss
+    after: end
+    words: 'In the second call the President asks Barnett for positive assurances that he will keep order and prevent a mob; Barnett, by the President''s report: "Just tell ''em to cool off and you can sneak him in."'
+    item: '[[w.schlesinger-journals]], 171'
+- check:
+    id: cal.1962-09-29.mississippi-ole-miss
+    text: 'Check: Thomas, 198, has "soft pillow"; Schlesinger''s *Journals*, 169, "sofa pillow."'
+- names:
+    id: cal.1962-09-29.mississippi-ole-miss
+    add:
+    - Robert Kennedy
+    - O'Donnell
+    - Burke Marshall
+    tags:
+    - name:kennedy-robert-f
+    - name:odonnell-kenneth-p
+    - name:marshall-burke
+# cal.1961-07-13.berlin-and-vienna: Kaplan, 153
+- add-words:
+    id: cal.1961-07-13.berlin-and-vienna
+    after: end
+    words: 'McNamara: a declaration of national emergency is not immediately needed and can wait until the situation requires it.'
+    item: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 153'
+- names:
+    id: cal.1961-07-13.berlin-and-vienna
+    add:
+    - McNamara
+    tags:
+    - name:mcnamara-robert-s
+# cal.1961-10-21.defense: Fursenko and Naftali, 409-10; Kaplan, 162
+- add-words:
+    id: cal.1961-10-21.defense
+    after: end
+    words: 'McNamara was to have given the speech; a scheduling conflict, and his deputy gives it at Kennedy''s wish.'
+    item: '[[w.fursenko-khrushchevs-cold-war]], 409'
+- add-words:
+    id: cal.1961-10-21.defense
+    after: end
+    words: 'Gilpatric: the nation has "a nuclear retaliatory force of such lethal power" that an enemy move bringing it into play would be self-destruction; the delivery vehicles number in the tens of thousands, with more than one warhead each.'
+    item: '[[w.fursenko-khrushchevs-cold-war]], 409–10'
+- add-words:
+    id: cal.1961-10-21.defense
+    after: end
+    words: 'He is confident Moscow will not "provoke a major nuclear conflict."'
+    item: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 162'
+- names:
+    id: cal.1961-10-21.defense
+    add:
+    - Kennedy
+    - McNamara
+    tags:
+    - name:kennedy-john-f
+    - name:mcnamara-robert-s
+# cal.1961-08-19.berlin-and-vienna: Fursenko and Naftali, 384
+- add-words:
+    id: cal.1961-08-19.berlin-and-vienna
+    after: end
+    words: 'The convoy is 1,600 troops.'
+    item: '[[w.fursenko-khrushchevs-cold-war]], 384'
+# cal.1962-05-06.laos: Fursenko and Naftali, 431-32; Lich su, III, 133
+- add-words:
+    id: cal.1962-05-06.laos
+    after: end
+    words: 'Phoumi had put six thousand men in a basin; once the Vietnamese and Pathet Lao force surrounds it, he and his generals flee, and American advisers rate the garrison''s effectiveness "nil." The retreat is "far outdistancing any pursuit."'
+    item: '[[w.fursenko-khrushchevs-cold-war]], 431–32'
+# cal.1961-08-19.berlin-and-vienna: Bernstein, 10; Robert Kennedy in His Own Words, 276
+- add-words:
+    id: cal.1961-08-19.berlin-and-vienna
+    after: end
+    words: 'Johnson speaks to a crowd of at least 380,000, pledging American support for the city.'
+    item: '[[w.bernstein-guns-or-butter]], 10'
+- add-words:
+    id: cal.1961-08-29.laos
+    after: end
+    words: 'U. Alexis Johnson: an expanded SEATO Plan 5 would go by stages, beginning with a cease-fire along the May 3 line, and would not start without assurances of help from Asian allies. Taylor: the 30,000-odd troop estimate is the initial cost, not the final bill. Rusk: 40,000 troops in Laos would almost all have to be supplied by the United States.'
+    text: '[FRUS 1961–63, XXIV, doc. 172](https://history.state.gov/historicaldocuments/frus1961-63v24/d172)'
+- add-words:
+    id: cal.1961-08-29.laos
+    after: end
+    words: 'By McNamara''s memoir, Rusk''s plan is some 30,000 combat troops from the treaty''s signatories, and McNamara argues that with six divisions, about 90,000 men, going to Europe, war in Southeast Asia too is inconceivable short of total mobilization.'
+    item: '[[w.mcnamara-in-retrospect]], ch. 2 at n.10'
+- names:
+    id: cal.1961-08-29.laos
+    add:
+    - U. Alexis Johnson
+    - Taylor
+    tags:
+    - name:johnson-u-alexis
+    - name:taylor-maxwell
+# cal.1961-10-18.vietnam: Selverstone, 38
+- add-words:
+    id: cal.1961-10-18.vietnam
+    after: end
+    words: 'The flood destroys over 200,000 homes and leaves 500,000 people hungry.'
+    item: '[[w.selverstone-kennedy-withdrawal]], 38'
+# cal.1961-11-03.vietnam: Preston, 92-93
+- add-words:
+    id: cal.1961-11-03.vietnam
+    after: end
+    words: 'The covering letter, written mostly by Rostow, asks whether the party attacked and its friends are to be denied the right to strike the source of aggression; the report urges that the United States declare its intention to attack the source of guerrilla aggression in North Vietnam and put a price on Hanoi.'
+    item: '[[w.preston-war-council]], 92–93'
+# cal.1961-10-18.vietnam: Ang Cheng Guan, 205
+- add-words:
+    id: cal.1961-10-18.vietnam
+    after: end
+    words: 'The mission, headed by a general and a White House aide, has no senior State Department representative; it stays Oct. 18–24.'
+    item: '[[w.guan-vietnamese-communists-relations-with]], 205'
+# cal.1962-04-08.cuba: Guthman, We Band of Brothers, 130
+- add-words:
+    id: cal.1962-04-08.cuba
+    after: 'Bay of Pigs prisoners sentenced: thirty years, or $62 million.'
+    words: 'Castro says the ransom has risen from $28 million to $62 million; the most seriously wounded may go, $2.9 million to be paid for them later.'
+    item: '[[w.guthman-we-band-of-brothers]], 130'
+- names:
+    id: cal.1962-04-08.cuba
+    add:
+    - Castro
+    tags:
+    - name:castro-fidel
+# cal.1961-07-18.school-aid: Graham, 22; Sundquist, 192; McPherson, 195-96
+- add-words:
+    id: cal.1961-07-18.school-aid
+    after: end
+    words: 'Smith and Colmer, with Delaney and the five Republicans, hold the public school bill, the NDEA bill and the college bill.'
+    item: '[[w.graham-uncertain-triumph]], 22'
+- add-words:
+    id: cal.1961-07-18.school-aid
+    after: end
+    words: 'Delaney calls the NDEA bill''s private-school loans "just a little bit of a sop" for the Catholics and demands a nondiscriminatory grant bill.'
+    item: '[[w.sundquist-politics-and-policy]], 192'
+- names:
+    id: cal.1961-07-18.school-aid
+    add:
+    - Colmer
+    tags:
+    - name:colmer-william-m
+# cal.1962-06-10.soviet-union-leadership: Prezidium TsK KPSS, I, 568, 1102 nn.1-2
+- add-words:
+    id: cal.1962-06-10.soviet-union-leadership
+    after: end
+    words: 'Kozlov, Mikoyan, Ilyichev and Khrushchev speak in the item on Novocherkassk.'
+    item: '[[w.prezidium-tsk-kpss-1954]], I, 568'
+- names:
+    id: cal.1962-06-10.soviet-union-leadership
+    add:
+    - Mikoyan
+    - Ilyichev
+    - Khrushchev
+    tags:
+    - name:mikoyan-anastas
+    - name:ilyichev
+    - name:khrushchev-nikita-s
+# cal.1962-10-19.missile-crisis-warnings: Salinger, With Kennedy, 250-51
+- add-words:
+    id: cal.1962-10-19.missile-crisis-warnings
+    after: end
+    words: 'Richard Phillips, of the State Department''s Public Affairs Bureau, had called Salinger with the Allen and Scott story, and Kent called within the minute.'
+    item: '[[w.salinger-with-kennedy]], 250–51'
+- add-words:
+    id: cal.1962-10-19.missile-crisis-warnings
+    after: end
+    words: 'By Salinger, Kennedy tells O''Donnell to have McNamara "straighten out Allen and Scott."'
+    item: '[[w.salinger-with-kennedy]], 251'
+# cal.1962-10-19.missile-crisis-warnings-2: Salinger, 251; O'Donnell and Powers, 363
+- add-words:
+    id: cal.1962-10-19.missile-crisis-warnings-2
+    after: end
+    words: 'Salinger: "You''re going to have to cut me in pretty quick." O''Donnell advises him to stay away from the reporters that night.'
+    item: '[[w.salinger-with-kennedy]], 251'
+- add-words:
+    id: cal.1962-10-19.missile-crisis-warnings-2
+    after: end
+    words: 'By O''Donnell, Dave Powers keeps him company in the suite.'
+    item: '[[w.odonnell-johnny-we-hardly-knew]], 363'
+- check:
+    id: cal.1962-10-19.missile-crisis-warnings-2
+    text: 'Check: Salinger, 251, finds O''Donnell alone in the suite; O''Donnell and Powers, 363, have Powers with him.'
+- names:
+    id: cal.1962-10-19.missile-crisis-warnings-2
+    add:
+    - Powers
+    tags:
+    - name:powers-david-f
+# cal.1961-12-05.africa: FRUS XXI, doc. 240 (the rest of the meeting)
+- add-words:
+    id: cal.1961-12-05.africa
+    after: end
+    words: 'Rusk would enlist Macmillan in turning Nkrumah to a reasonable course. McCone reads the intelligence estimates as showing that Nkrumah still means to keep his independence from Soviet domination, and finds business opinion on the project not unfavorable. Kennedy reads out the letter of June 29; Ball reminds him it was made warmer at his own direction.'
+    text: '[FRUS 1961–63, XXI, doc. 240](https://history.state.gov/historicaldocuments/frus1961-63v21/d240)'
+- names:
+    id: cal.1961-12-05.africa
+    add:
+    - McCone
+    - Macmillan
+    - Ball
+    tags:
+    - name:mccone-john-a
+    - name:macmillan-harold
+    - name:ball-george-w
+- place:
+    id: cal.1961-12-05.africa
+    at: washington
+    basis: n
+    note: 'FRUS XXI, doc. 240, Washington, Dec. 5, 1961'
+- place:
+    id: cal.1962-09-29.mississippi-ole-miss
+    at: washington
+    basis: n
+    note: 'the President''s end of the calls: his office, Schlesinger, Journals, 168; Barnett''s end not given'
+# cal.1961-11-03.vietnam: McNamara, In Retrospect, ch. 2 at n.11
+- add-words:
+    id: cal.1961-11-03.vietnam
+    after: end
+    words: 'The report speaks of a "transition from advice to partnership."'
+    item: '[[w.mcnamara-in-retrospect]], ch. 2 at n.11'
+# cal.1962-09-27.mississippi: the Department's transcript against Thomas
+- check:
+    id: cal.1962-09-27.mississippi
+    text: 'Check: Thomas, 198, has Barnett say "we have no agreement"; the Department''s transcript has "we have had no agreement" (Navasky, 215).'
+
+# cal.1962-04-08.cuba: Schlesinger, Robert Kennedy and His Times, 470
+- add-words:
+    id: cal.1962-04-08.cuba
+    after: 'Sixty wounded freed on credit, Apr. 14.'
+    words: 'The sixty reach Miami exactly one year after the brigade left Nicaragua for the Bay of Pigs.'
+    item: '[[w.schlesinger-robert-kennedy-and-his]], 470'
+# read and left: the note's parentheticals hold only the source's own wording of a quotation the line has in another form, the name of an author, or another act (ok:note-substance, R33b)
+- names:
+    id: cal.1961-08-29.laos
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1961-10-18.vietnam
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1961-10-21.defense
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1961-12-05.africa
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1962-02-22.soviet-union
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1962-04-08.cuba
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1962-05-01.vietnam
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1962-05-06.laos
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1962-09-27.mississippi
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1962-09-29.mississippi-ole-miss
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1962-10-17.missile-crisis-2
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1962-10-19.missile-crisis-warnings
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1961-04-20.cuba-bay-of-pigs
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1961-04-21.cuba-bay-of-pigs-3
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1961-07-13.berlin-and-vienna
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1961-08-17.latin-america
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1961-11-03.vietnam
+    tags:
+    - ok:note-substance
+- add:
+    entry:
+      id: cal.1961-08-22.latin-america
+      when: Aug. 22
+      date: '1961-08-22'
+      place: washington
+      thread: latin-america
+      also: [cuba]
+      c: Goodwin to Kennedy, a memorandum of his talk with Guevara at Montevideo, from his notes; Larretta had called him the next morning to say Guevara thought the talk profitable.
+      n: '[FRUS 1961–63, X, doc. 257](https://history.state.gov/historicaldocuments/frus1961-63v10/d257). [[w.goodwin-remembering-america]], 202–203 (the memorandum, from the notes made that morning, sent to the President''s advisers at the White House, State and the Pentagon). See [[cal.1961-08-18.latin-america]]. Names: Goodwin, Kennedy, Guevara.'
+      tags:
+      - ok:fields-time
+      - name:goodwin-richard-n
+      - name:kennedy-john-f
+      - name:guevara-ernesto
+- add:
+    entry:
+      id: cal.1961-08-22.latin-america-2
+      when: Aug. 22
+      date: '1961-08-22'
+      place: washington
+      thread: latin-america
+      also: [cuba]
+      c: 'A White House statement: the Goodwin–Guevara talk at Punta del Este a casual cocktail-party conversation, Goodwin only listening.'
+      n: '[FRUS 1961–63, X, doc. 257](https://history.state.gov/historicaldocuments/frus1961-63v10/d257), n.2 (the editors). See [[cal.1961-08-18.latin-america]]. Names: Goodwin, Guevara.'
+      tags:
+      - name:goodwin-richard-n
+      - name:guevara-ernesto
+- add:
+    entry:
+      id: cal.1961-08-23.latin-america
+      when: Aug. 23
+      date: '1961-08-23'
+      place: washington
+      thread: latin-america
+      also: [cuba]
+      c: State, circular telegram 312 to all Latin American posts, summarizes the White House statement on the Goodwin–Guevara talk; the posts may assure their governments of no change in policy toward Cuba.
+      n: '[FRUS 1961–63, X, doc. 257](https://history.state.gov/historicaldocuments/frus1961-63v10/d257), n.2 (the editors). See [[cal.1961-08-22.latin-america-2]]. Names: Goodwin, Guevara.'
+      tags:
+      - name:goodwin-richard-n
+      - name:guevara-ernesto
+# --- the audit (notes/notes-pass/audit-11.md): splits, fields, variants, the gloss, and the dated acts the pages report ---
+- add:
+    entry:
+      id: cal.1961-08-18.latin-america
+      when: Aug. 18
+      date: '1961-08-18'
+      time: 1961-08-18T05:00Z
+      time_approx: true
+      time_zone: America/Montevideo
+      place: montevideo
+      thread: latin-america
+      also: [cuba]
+      c: 'Montevideo, a birthday party for the Brazilian delegate to the Free Trade Association, about 2 a.m. Guevara asks to speak with Goodwin; they talk in a sitting room, an Argentine and a Brazilian interpreting, for almost three hours, to about 6 a.m. Goodwin: no authority to negotiate, he will listen and report. Guevara thanks the United States for the invasion. His terms: no return of the expropriated factories and banks, but payment in trade; no political alliance with the East; free elections after the revolution is institutionalized, a one-party system; no attack on Guantanamo; the revolution''s activity "in other countries" open to discussion; an interim modus vivendi. In return the United States to stop efforts to overthrow the government by force and lift the embargo. Begin, he proposes, with subordinate issues, such as the hijacking of airplanes.'
+      n: 'Goodwin to Kennedy, Aug. 22, [FRUS 1961–63, X, doc. 257](https://history.state.gov/historicaldocuments/frus1961-63v10/d257) ("The conversation took place the evening of August 17 at 2 A.M."; "On Thursday we arrived in Montevideo"). [[w.goodwin-remembering-america]], 196–202 (Goodwin''s account: the drive to Montevideo the day after the signing; Guevara at the party "at the early Latin hour of 2 a.m."; Juan de Onis sent out; almost three hours; almost 6 a.m.). [[w.schlesinger-robert-kennedy-and-his]], 542 (the talk); [[w.fursenko-one-hell-of-a]], 142 (the talk). Check: Fursenko and Naftali put the Argentines'' cornering of Goodwin at a birthday party for a Brazilian delegate on Aug. 16 ([[w.fursenko-one-hell-of-a]], 142, citing Goodwin''s memorandum of Aug. 22). Check: the day; Goodwin''s memoir has the drive to Montevideo "the next day" after the signing and the talk that night, Aug. 18–19, the memorandum the night of Thursday, Aug. 17. See [[cal.1961-08-17.latin-america]]. Names: Goodwin, Guevara.'
+      tags:
+      - name:goodwin-richard-n
+      - name:guevara-ernesto
+      variants:
+      - field: date
+        value: '1961-08-19'
+        witness: w.goodwin-remembering-america
+        reads: the talk the night after the drive to Montevideo, "the next day" after the signing
+        at: 196–97
+- edit:
+    id: cal.1962-05-01.vietnam
+    base: 6e6a1dcd
+    kind: correct
+    settles:
+    - 'Check: the speech''s day and place: Selverstone gives Apr. 30, the Economic Club of Detroit (69).'
+    set:
+      c: 'Marguerite Higgins, in the *Herald Tribune*, reads Ball''s speech of Apr. 30 as a commitment now "irrevocable."{2} Kennedy asks how it was cleared;{3} Bundy to Kennedy: "a tone and content that we would not have cleared."{4}'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 709 ("A few days later" than Lemnitzer''s reply, Ball''s speech: Higgins leads her *Herald Tribune* story, "The American commitment, moreover, is now irrevocable"; Kennedy asks Bundy how it had slipped by; Bundy: "a tone and content that we would not have cleared"; no day or place). [[w.selverstone-kennedy-withdrawal]], 69–70 (the Herald Tribune''s reading; Kennedy disturbed). Selverstone, 69, dates the speech Apr. 30, at the Economic Club of Detroit: [[cal.1962-04-30.vietnam]]. To check: Ball to McGeorge Bundy, May 1, 1962; Bundy to Kennedy, May 1, 1962, JFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 709 n.42). Names: Higgins, Ball, John F. Kennedy, Bundy.'
+      src:
+        rows:
+        - 'w.schlesinger-robert-kennedy-and-his 709: 2, 3, 4'
+        - 'via w.schlesinger-robert-kennedy-and-his 709 n.42: 3'
+        - 'w.selverstone-kennedy-withdrawal 69–70: 2, 3'
+        - 'via w.selverstone-kennedy-withdrawal 70 n.85: 3'
+- add:
+    entry:
+      id: cal.1962-04-30.vietnam
+      when: Apr. 30
+      date: '1962-04-30'
+      place: detroit
+      thread: vietnam
+      c: 'Detroit, the Economic Club. Ball on Vietnam: the war one the United States "must stay with until it is concluded," perhaps as long as the eight years of the Malayan emergency; the possible fall of the South "a loss of tragic significance to the security of free world interests in the whole of Asia and the South Pacific."'
+      n: '[[w.selverstone-kennedy-withdrawal]], 69–70 (the day and place; "we must stay with until it is concluded"); [[w.schlesinger-robert-kennedy-and-his]], 709 ("a loss of tragic significance ..."). See [[cal.1962-05-01.vietnam]]. Names: Ball.'
+      tags:
+      - name:ball-george-w
+- edit:
+    id: cal.1961-07-18.school-aid
+    base: ec8ecba2
+    set:
+      time_range:
+      - 1961-07-18T16:00Z
+      - 1961-07-18T22:00Z
+      time_band: afternoon
+      range_basis: record
+- edit:
+    id: cal.1961-08-19.berlin-and-vienna
+    base: '07775184'
+    set:
+      gloss:
+        title: Commentary
+        text:
+        - 'Robert Kennedy (1988): the troops got through "a Saturday or a Sunday," the President "very relieved" when they did ([[w.robert-kennedy-in-his]], 276).'
+- follows:
+    id: cal.1961-04-20.cuba-bay-of-pigs
+    add:
+    - cal.1961-04-20.laos
+    basis: '[[w.schlesinger-thousand-days-1965]], 336 ("Later that day", after the advisers in Laos are made a MAAG)'
+- variant:
+    id: cal.1962-10-17.missile-crisis-2
+    on: 'By Ball''s account … the Tojo of the 1960s."'
+    witness: w.thomas-robert-kennedy
+    reads: '"My brother is not going to be the Tojo of the ''60s," on Wednesday, in exchanges with Acheson'
+    at: '215'
+- add:
+    entry:
+      id: cal.1960.european-community
+      when: '1960'
+      date: '1960'
+      thread: european-community
+      also: [europe-and-the-alliance]
+      c: 'Macmillan to Eisenhower: should France and Germany unite Western Europe, "Britain, in the long run, had no choice but to lead a peripheral alliance against them." By Ball''s account.'
+      n: '[[w.ball-past-has-another-pattern]], 209 (Ball''s account, the year only). Check: the day. See [[cal.1961-05.european-community]]. Names: Macmillan, Eisenhower.'
+      tags:
+      - name:macmillan-harold
+      - name:eisenhower-dwight-d
+- add:
+    entry:
+      id: cal.1961-05-24.freedom-rides-4
+      when: By May 24
+      date: '1961-05-24'
+      thread: freedom-rides
+      also: [robert-kennedy, mississippi]
+      c: 'Robert Kennedy and Senator Eastland: Eastland promises there will be no violence, and says the riders will be arrested as soon as they reach Jackson; Kennedy, his concern that they not be beaten, concurs. By Kennedy''s later account.'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 299 (Kennedy''s account, quoted; before the riders reach Jackson, the day not given). Check: the day. See [[cal.1961-05-24.freedom-rides]]. Names: Robert Kennedy, Eastland.'
+      tags:
+      - name:kennedy-robert-f
+      - name:eastland-james-o
+- add:
+    entry:
+      id: cal.1961-05-24.freedom-rides-5
+      when: May 24
+      date: '1961-05-24'
+      thread: freedom-rides
+      follows:
+      - cal.1961-05-24.freedom-rides
+      c: 'Farmer to a reporter, on Robert Kennedy''s call for a cooling-off period: "We had been cooling off for 100 years. If we got any cooler we''d be in a deep freeze."'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 299 (the day not given). Check: the day. See [[cal.1961-05-24.freedom-rides]]. Names: Farmer, Robert Kennedy.'
+      tags:
+      - name:farmer-james
+      - name:kennedy-robert-f
+- add:
+    entry:
+      id: cal.1961-07-13.intelligence
+      when: July 13
+      date: '1961-07-13'
+      place: washington
+      thread: intelligence
+      also: [berlin-and-vienna]
+      c: Allen Dulles tells Kennedy that for some months the CIA and the British have jointly run an agent with insight into the Kremlin's thinking, Oleg Penkovsky, a colonel of the GRU.
+      n: '[[w.fursenko-khrushchevs-cold-war]], 370. See [[cal.1961-06-25.intelligence]]. Names: Dulles, Kennedy.'
+      tags:
+      - name:dulles-allen-w
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1961-10-19.africa
+      when: Oct. 19–31
+      date: '1961-10-19'
+      thread: africa
+      c: Clarence Randall in Ghana on the Volta dam, Oct. 19–31.
+      n: '[[w.ball-past-has-another-pattern]], 186 (Ball''s account). See [[cal.1961-10-18.africa]]. Names: Randall.'
+      tags:
+      - name:randall-clarence-b
+- add:
+    entry:
+      id: cal.1961-12-15.africa
+      when: Dec. 15
+      date: '1961-12-15'
+      thread: africa
+      c: Friday. Randall leaves for Ghana again, to impress on Nkrumah the conditions of American help to the Volta dam. By Ball's account.
+      n: '[[w.ball-past-has-another-pattern]], 187. See [[cal.1961-12-05.africa]]. Names: Randall, Nkrumah.'
+      tags:
+      - name:randall-clarence-b
+      - name:nkrumah-kwame
+- add:
+    entry:
+      id: cal.1961-12-16.africa
+      when: Dec. 16
+      date: '1961-12-16'
+      thread: africa
+      c: Saturday. Kennedy announces his decision to go ahead with the Volta dam, the congressional bases touched. By Ball's account.
+      n: '[[w.ball-past-has-another-pattern]], 187. To check: the announcement in the Public Papers. See [[cal.1961-12-05.africa]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1962-04-10.cuba-4
+      when: Apr. 10
+      date: '1962-04-10'
+      place: havana
+      thread: cuba
+      c: Havana. The Cuban Families Committee, led by Alvaro Sanchez Jr., arrives with pledges of $28 million in agricultural products for the Bay of Pigs prisoners; Castro holds to his $62 million.
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 470 ("Two days later" than the sentence of Apr. 8). See [[cal.1962-04-08.cuba]]. Names: Castro.'
+      tags:
+      - name:castro-fidel
+- add:
+    entry:
+      id: cal.1962-04-14.cuba
+      when: Apr. 14
+      date: '1962-04-14'
+      thread: cuba
+      also: [robert-kennedy]
+      c: 'Sanchez of the Cuban Families Committee calls Robert Kennedy after the sixty prisoners reach Miami. Kennedy: "I saw you on TV ... I watched everything." The government cannot pay the ransom; he advises the exiles to form a fund-raising committee.'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 470. Check: the day; the page has the call after the sixty arrive, Apr. 14 ([[w.guthman-we-band-of-brothers]], 130). See [[cal.1962-04-08.cuba]]. Names: Robert Kennedy.'
+      tags:
+      - ok:fields-place
+      - name:kennedy-robert-f
+- add:
+    entry:
+      id: cal.1962-09-29.mississippi-ole-miss-5
+      when: Sept. 29
+      date: '1962-09-29'
+      place: washington
+      thread: mississippi-ole-miss
+      also: [robert-kennedy]
+      follows:
+      - cal.1962-09-29.mississippi-ole-miss
+      time_range:
+      - 1962-09-29T18:00Z
+      - 1962-09-29T18:50Z
+      time_zone: America/New_York
+      range_basis: record
+      c: 'The President''s office, between his calls to Barnett. Robert Kennedy calls Watkins: will the Governor obey the court, or bar Meredith in person; will he keep order? Unless Watkins brings concrete proposals, no use his coming to Washington. Watkins: the situation very explosive.'
+      n: '[[w.schlesinger-journals]], 169–70 (Schlesinger''s notes, taken at the time; between the first and second calls of the afternoon). See [[cal.1962-09-29.mississippi-ole-miss]]. Names: Robert Kennedy, Barnett, Meredith.'
+      tags:
+      - name:kennedy-robert-f
+      - name:barnett-ross-r
+      - name:meredith-james-h
+- add:
+    entry:
+      id: cal.1962-10-19.elections-1962-2
+      when: Oct. 19
+      date: '1962-10-19'
+      place: cleveland
+      thread: elections-1962
+      c: Cleveland. Kennedy speaks on domestic issues to a huge crowd in the public square, in front of the Sheraton Hotel.
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 362; [[w.salinger-with-kennedy]], 250. To check: the remarks in the Public Papers. See [[cal.1962-10-19.missile-crisis-8]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1962-10-19.elections-1962-3
+      when: Oct. 19
+      date: '1962-10-19'
+      place: springfield
+      thread: elections-1962
+      follows:
+      - cal.1962-10-19.elections-1962-2
+      c: Springfield, Ill. Kennedy lays a wreath at Lincoln's tomb and speaks to a large crowd at the Illinois Fairground Coliseum, Yates, Governor Kerner and Senator Douglas beside him.
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 362–63 ("Then we flew to Springfield"); [[w.salinger-with-kennedy]], 250. To check: the remarks in the Public Papers. Names: Kennedy, Yates, Kerner, Douglas.'
+      tags:
+      - name:kennedy-john-f
+      - name:yates-sidney-r
+      - name:kerner-otto
+      - name:douglas-paul-h
+- add:
+    entry:
+      id: cal.1962-10-19.elections-1962
+      when: Oct. 19
+      date: '1962-10-19'
+      place: chicago
+      thread: elections-1962
+      follows:
+      - cal.1962-10-19.missile-crisis-warnings
+      c: Chicago, McCormick Place. Kennedy, with Mayor Daley and John Bailey, the national chairman, at a $100-a-plate Democratic dinner for Sid Yates.
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 363 (after Salinger''s report, "before going off"); [[w.salinger-with-kennedy]], 251. Names: Kennedy, Daley, Yates.'
+      tags:
+      - name:kennedy-john-f
+      - name:daley-richard-j
+      - name:yates-sidney-r
+- add:
+    entry:
+      id: cal.1962-10-19.missile-crisis-warnings-4
+      when: Oct. 19
+      date: '1962-10-19'
+      time_range:
+      - 1962-10-20T00:00Z
+      - 1962-10-20T03:00Z
+      time_band: evening
+      time_zone: America/Chicago
+      range_basis: record
+      place: chicago
+      thread: missile-crisis-warnings
+      follows:
+      - cal.1962-10-19.elections-1962
+      c: Chicago, the Sheraton-Blackstone, while Kennedy is at the dinner. O'Donnell talks with Robert Kennedy, Rusk and Bundy by telephone. By O'Donnell's account.
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 364. Names: O''Donnell, Robert Kennedy, Rusk, Bundy.'
+      tags:
+      - name:odonnell-kenneth-p
+      - name:kennedy-robert-f
+      - name:rusk-dean
+      - name:bundy-mcgeorge
+- add:
+    entry:
+      id: cal.1962-10-19.missile-crisis-warnings-5
+      when: Oct. 19
+      date: '1962-10-19'
+      time: 1962-10-20T03:30Z
+      time_approx: true
+      time_zone: America/Chicago
+      place: chicago
+      thread: missile-crisis-warnings
+      follows:
+      - cal.1962-10-19.elections-1962
+      c: The Sheraton-Blackstone, about 10:30 p.m. Kennedy, back from the dinner, calls Robert Kennedy and agrees to return in the morning; O'Donnell to have Dr. Burkley on hand to diagnose a cold. By O'Donnell's account.
+      n: '[[w.odonnell-johnny-we-hardly-knew]], 364. See [[cal.1962-10-20.missile-crisis]]. Names: Kennedy, Robert Kennedy, O''Donnell, Burkley.'
+      tags:
+      - name:kennedy-john-f
+      - name:kennedy-robert-f
+      - name:odonnell-kenneth-p
+      - name:burkley-george-g
+# the Westad parentheticals settled (the audit): the Soviet records of Mar. 1 and Apr. 9 are those entries' acts
+- add-words:
+    id: cal.1962-03-01.china-leadership-3
+    after: end
+    words: 'By the Soviet record, Deng and Yang, reserved and nervous at first, expect a document of another kind; Deng: on Albania the larger party should take the initiative. About an hour and a half. At parting, Deng: "Your letter calls for solidarity and that is good."'
+    item: '[[w.brothers-in-arms]], 374–375'
+- variant:
+    id: cal.1962-03-01.china-leadership-3
+    on: 'He hands over … nothing proposed.'
+    witness: w.brothers-in-arms
+    reads: 'the CPSU Central Committee''s letter to the fraternal parties on relations with Albania (the editor''s note 27)'
+    at: '375'
+- add-words:
+    id: cal.1962-04-09.china-leadership-3
+    after: end
+    words: By the Soviet record, in the Central Committee's building, the Chinese having named Deng after four days' silence on Chervonenko's request of Apr. 5; Chervonenko tells of the CPSU's March plenum; Deng, not reading the long letter out, says the two parties must close ranks and settle their problems in unity.
+    item: '[[w.brothers-in-arms]], 375'

@@ -1,0 +1,1237 @@
+patch: lo-d01
+by: Claude (Sonnet), leftovers batch lo-d01, Nov. 27, 2026; audited by Claude (Opus), Nov. 27, 2026 (notes/leftovers/lo-d01-audit.md)
+ops:
+- edit:
+    id: cal.1960-01-06.china-leadership
+    base: b457ff35
+    set:
+      time_range:
+      - 1960-01-06T04:00Z
+      - 1960-01-06T06:00Z
+      time_zone: Asia/Shanghai
+      range_basis: record
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 6, 1960. [[w.yang-shangkun-riji]], I, 468 (Jan. 6, 1960; Mao at the club, noon to 2 p.m., the Standing Committee on the meeting''s agenda; to open the next day); [[w.deng-xiaoping-nianpu-1904]], III, 1525 (Jan. 6, 1960; Deng attends, at noon); [[w.zhu-de-nianpu-xinbian]], III, 1760 (Jan. 6, 1960, afternoon; Zhu De 朱德 at the meeting of the Politburo Standing Committee 中共中央政治局常委 at Shanghai 上海). The hour: noon to 2 p.m., by the diary (I, 468); the Mao nianpu and the Zhu De nianpu have the afternoon, the Deng nianpu noon. Made public: 2013. Check: Made public: the diary printed the day in 2001 ([[w.shangkun-yang-shangkun-riji-2]]; reprinted [[w.yang-shangkun-riji]], I, 468), before the year the note gives. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Yang Shangkun, Ke Qingshi, Li Jingquan, Tao Zhu, Wang Renzhong, Ouyang Qin, Lin Tie, Zhang Zhongliang.'
+    unset:
+    - time_band
+- edit:
+    id: cal.1960-01-07.china-leadership
+    base: 69e2e92b
+    set:
+      time: 1960-01-07T03:30Z
+      time_zone: Asia/Shanghai
+- src:
+    id: cal.1960-01-07.china-leadership
+    row: w.yang-shangkun-riji I, 468
+    on: time
+- variant:
+    id: cal.1960-01-07.china-leadership
+    field: time
+    value:
+    - 1960-01-07T04:00Z
+    - 1960-01-07T10:00Z
+    witness: w.zedong-mao-zedong-nianpu
+    reads: 下午 (the afternoon), Mao presiding and speaking, the Jinjiang Hotel's small hall
+    at: IV, Jan. 7, 1960
+- edit:
+    id: cal.1960-01-09.china-leadership
+    base: 80ffd49d
+    set:
+      time_range:
+      - 1960-01-09T08:00Z
+      - 1960-01-09T11:30Z
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1960-01-17.china-leadership
+    base: c2f34d0b
+    set:
+      time: 1960-01-17T08:00Z
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1960-01-18.china-leadership-11
+    base: 6718ed44
+    set:
+      time_range:
+      - 1960-01-18T11:00Z
+      - 1960-01-18T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+- add-words:
+    id: cal.1960-01-18.china-leadership-11
+    after: end
+    words: He arrives in the evening and stays at Liu Zhuang 刘庄; Chen Boda, Hu Sheng, Deng Liqun and Tian Jiaying with him.
+    item: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 18, 1960'
+- src:
+    id: cal.1960-01-18.china-leadership-11
+    row: w.zedong-mao-zedong-nianpu IV, Jan. 18, 1960
+    on: time
+- names:
+    id: cal.1960-01-18.china-leadership-11
+    add:
+    - Chen Boda
+    - Hu Sheng
+    - Deng Liqun
+    - Tian Jiaying
+    tags:
+    - name:chen-boda
+    - name:hu-sheng
+    - name:deng-liqun
+    - name:tian-jiaying
+- edit:
+    id: cal.1960-01-22.china-leadership
+    base: f669d041
+    set:
+      time_range:
+      - 1960-01-22T12:00Z
+      - 1960-01-22T16:00Z
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1960-01-23.china-leadership
+    base: 3655867e
+    kind: correct
+    set:
+      c: Zhou Enlai flies to Hangzhou.
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 281 (Jan. 22, 1960; the flight the next day). The nianpu has the flight, then the talk with Mao, in one sentence (II, 281); the talk is its own entry. Made public: 1997. Names: Zhou Enlai.'
+- tag:
+    id: cal.1960-01-23.china-leadership
+    remove:
+    - name:mao-zedong
+- add:
+    entry:
+      id: cal.1960-01-23.china-zhou
+      when: Jan. 23
+      date: '1960-01-23'
+      place: hangzhou
+      thread: china-zhou
+      also:
+      - china-mao
+      c: Hangzhou 杭州, Liu Zhuang 刘庄, afternoon. Zhou Enlai, come from Peking for instructions, talks with Mao 毛泽东. He reports the meeting of the Politburo Standing Committee that Liu Shaoqi called at Diaoyutai 钓鱼台 the evening before, on China and Burma and other matters.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 23, 1960. [[w.zhou-enlai-nianpu-1949]], II, 281 (Jan. 22, 1960; the talk with Mao after the flight; no hour). Made public: 1997. See [[cal.1960-01-22.china-leadership]]. Names: Zhou Enlai, Mao Zedong, Liu Shaoqi.'
+      time_range:
+      - 1960-01-23T04:00Z
+      - 1960-01-23T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:zhou-enlai
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - vis:only:prc
+- follows:
+    id: cal.1960-01-23.china-zhou
+    add:
+    - cal.1960-01-23.china-leadership
+    basis: '[[w.zhou-enlai-nianpu-1949]], II, 281 ("于次日飞抵杭州，与毛泽东谈话": the flight, then the talk)'
+- edit:
+    id: cal.1960-01-23.democratic-party
+    base: e2774b5f
+    set:
+      time_range:
+      - 1960-01-24T00:00Z
+      - 1960-01-24T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+- add:
+    entry:
+      id: cal.1960-01-23.democratic-party-2
+      when: Jan. 23
+      date: '1960-01-23'
+      place: washington
+      thread: democratic-party
+      c: Washington, the Congressional Hotel, morning. The board of Americans for Democratic Action meets; Schlesinger attends.
+      n: '[[w.schlesinger-journals]], 65 (Jan. 23, 1960: he went to the hotel "to attend the ADA board meeting in the morning"). Made public: [[w.schlesinger-journals]] (2007). Names: Schlesinger.'
+      time_range:
+      - 1960-01-23T11:00Z
+      - 1960-01-23T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:schlesinger-arthur-m-jr
+      - city:washington
+- follows:
+    id: cal.1960-01-23.elections-1960-nomination
+    add:
+    - cal.1960-01-23.democratic-party-2
+    basis: 'the journal''s order alone, the board meeting "in the morning" written first, then "At the hotel I ran into Hubert Humphrey" ([[w.schlesinger-journals]], 65)'
+- edit:
+    id: cal.1960-01-24.china-leadership
+    base: b37fa046
+    set:
+      time: 1960-01-23T18:00Z
+      time_zone: Asia/Shanghai
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 24, 1960. [[w.jianguo-yilai-mao-zedong]], XV, 27 (Jan. 24, 1960, 2 a.m.). The hour: 2 a.m., by the date line of the manuscript ("一月二十四日上午二时", [[w.jianguo-yilai-mao-zedong]], XV, 27); the Mao nianpu has "晨". Made public: 2013. To check: Chinese Foreign Ministry, note to the Indian Embassy in China, Dec. 26, 1959, restating the facts of the boundary and proposing settlement by negotiation (cited by [[w.jianguo-yilai-mao-zedong]], XV, 27 n.2a). Names: Mao Zedong, Zhou Enlai.'
+- edit:
+    id: cal.1960-01-24.china-leadership-7
+    base: 04aeb555
+    settles:
+    - 'Check: whether on Yang Shangkun'
+    set:
+      time: 1960-01-24T02:00Z
+      time_zone: Asia/Shanghai
+      n: '[[w.deng-xiaoping-nianpu-1904]], III, 1527 (Jan. 24, 1960); [[w.peng-zhen-nianpu-1902]], IV, 3 (Jan. 24, 1960); [[w.yang-shangkun-riji]], I, 473 (Jan. 24, 1960; the train at 10 a.m.). The words: 上午……二十六日上午 (III, 1527). The hour: 10 a.m., the special train''s, by Yang Shangkun''s diary (I, 473), the Peng Zhen nianpu putting Deng and Yang on the one train (IV, 3). The time is the first day''s. Made public: 2009 (the nianpu). See [[cal.1960-01-24.china-leadership-6]]. Names: Deng Xiaoping.'
+    unset:
+    - time_range
+    - time_band
+- add-words:
+    id: cal.1960-01-24.china-leadership-7
+    after: end
+    words: On the special train with Peng Zhen, Li Fuchun, Liu Lantao, Yang Shangkun, Hu Qiaomu and others.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 3 (Jan. 24, 1960)'
+- src:
+    id: cal.1960-01-24.china-leadership-7
+    row: w.yang-shangkun-riji I, 473
+    on: time
+- names:
+    id: cal.1960-01-24.china-leadership-7
+    add:
+    - Peng Zhen
+    - Li Fuchun
+    - Liu Lantao
+    - Yang Shangkun
+    - Hu Qiaomu
+    tags:
+    - name:peng-zhen
+    - name:li-fuchun
+    - name:liu-lantao
+    - name:yang-shangkun
+    - name:hu-qiaomu
+- edit:
+    id: cal.1960-01-25.china-leadership
+    base: 392e05a4
+    kind: correct
+    set:
+      when: Jan. 25
+      c: 'Zhou Enlai talks with Ne Win on the boundary.{1} Proposals: the northern undefined sector by the watershed, except Pianma, Gulang, Gangfang and the Dulong valley, then surveyed and marked; the three areas returned to China, their size for a joint commission; the Namwan leased area left to Burma in exchange for the Panghung and Panlao tribes'' lands west of the 1941 line to China; a boundary treaty and a friendship treaty to be drafted by the commission.{2}'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 281–82 (Jan. 25, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 25, 1960; 上午10时15分, 中南海武成殿); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 26, 1960; 上午10时, 中南海武成殿: the second talk, its own entry); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 131 (Jan. 24–28, 1960; Ne Win''s visit on invitation; Zhou''s talks on the matters of common concern, the friendship and boundary questions); [[w.chen-yi-nianpu]], 802 (Jan. 26, 1960, morning; Chen Yi at the second talk). The second talk, Jan. 26, is [[cal.1960-01-26.china-zhou-foreign]], which the nianpu (II, 282) and the Waijiao huodong (270) give a day of its own. Made public: 1993. Names: Zhou Enlai, Ne Win.'
+      src:
+        c: d3908a96
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 281–82: 1, 2'
+        - 'w.zhou-enlai-waijiao-huodong 270: 1, time'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 131: 1'
+        - 'w.chen-yi-nianpu 802: ?'
+- add:
+    entry:
+      id: cal.1960-01-26.china-zhou-foreign
+      when: Jan. 26
+      date: '1960-01-26'
+      place: peking
+      thread: china-zhou-foreign
+      also:
+      - china-foreign
+      c: Peking, Wucheng Hall 武成殿, Zhongnanhai 中南海, 10 a.m. Zhou Enlai's second talk with Ne Win. The exchange of notes to be rewritten as an agreement, drafted by officials of both sides from the record of the talks and Ne Win's amendments; the friendship treaty to be drafted by men each side names. Chen Yi takes part.
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 282 (Jan. 26, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 26, 1960; 上午10时, 中南海武成殿); [[w.chen-yi-nianpu]], 802 (Jan. 26, 1960, morning; Chen Yi at the talks of Zhou Enlai and Ne Win). Made public: 1993. See [[cal.1960-01-25.china-leadership]]. Names: Zhou Enlai, Ne Win, Chen Yi.'
+      time: 1960-01-26T02:00Z
+      time_zone: Asia/Shanghai
+      tags:
+      - polity:prc
+      - name:zhou-enlai
+      - name:ne-win
+      - name:chen-yi
+      - polity:burma
+      - vis:only:prc+burma
+- edit:
+    id: cal.1960-01-28.china-leadership-7
+    base: 19da9e81
+    settles:
+    - 'Check: the day:'
+    set:
+      n: '[[w.peng-dehuai-nianpu]], 758. Made public: 1998. Names: Peng Zhen, Peng Dehuai, Yang Shangkun. Check: the day: the nianpu writes the call "春节期间" (during the Spring Festival) under Jan. 28, the lunar New Year (758); but Yang Shangkun''s diary has him leave Peking on Jan. 24, at Guangzhou on Jan. 28 ([[cal.1960-01-28.china-leadership-5]]) and still travelling in Guangdong, Hubei, Henan and Anhui on Feb. 21 ([[w.yang-shangkun-riji]], I, 473–81), and the Peng Zhen nianpu has Peng Zhen leave with him on Jan. 24 and back in Peking on Feb. 27 ([[w.peng-zhen-nianpu-1902]], IV, 3–4); neither records the call in their days in Peking before Jan. 24 (I, 472–73; IV, 3). The call is not Jan. 28, nor in the festival''s days, for both men; no record read gives its day.'
+- edit:
+    id: cal.1960-01-30.china-leadership
+    base: 5d3bf61e
+    kind: correct
+    set:
+      c: 'Zhou Enlai with Chen Yi again to the Soviet Ambassador: the Soviet Central Committee''s leaning to India in the Sino-Indian boundary dispute is wrong; the Sino-Soviet difference is one finger of ten and should not hurt the two parties'' unity.'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 286 (Jan. 30, 1960). The nianpu puts the meeting at Liu Shaoqi''s on the afternoon before this talk (II, 286): [[cal.1960-01-29.china-liu]]. Made public: 1997. Names: Zhou Enlai, Chen Yi, Chervonenko.'
+- tag:
+    id: cal.1960-01-30.china-leadership
+    remove:
+    - name:liu-shaoqi
+- add:
+    entry:
+      id: cal.1960-01-29.china-liu
+      when: Jan. 29
+      date: '1960-01-29'
+      place: peking
+      thread: china-liu
+      also:
+      - china-zhou
+      c: Peking, afternoon. Zhou Enlai at a meeting at Liu Shaoqi's.
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 286 (Jan. 30, 1960: "这次谈话的前一日下午，曾到刘少奇处开会"). Made public: 1997. Check: the matter of the meeting, which the nianpu does not give; whether it is the hearing on Peking''s city plan the same afternoon ([[cal.1960-01-29.china-leadership-2]]). See [[cal.1960-01-30.china-leadership]]. Names: Zhou Enlai, Liu Shaoqi.'
+      time_range:
+      - 1960-01-29T04:00Z
+      - 1960-01-29T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:zhou-enlai
+      - name:liu-shaoqi
+      - vis:only:prc
+- edit:
+    id: cal.1960-01-31.china-leadership-2
+    base: 7c3be4f3
+    kind: correct
+    set:
+      c: Zhou Enlai reaches Guangzhou.
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 286 (Jan. 31, 1960; "飞抵广州", the evening''s talk with Mao an act of its own). Made public: 1997. The order: after [[cal.1960-01-31.china-leadership]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 286). Names: Zhou Enlai.'
+- tag:
+    id: cal.1960-01-31.china-leadership-2
+    remove:
+    - name:mao-zedong
+- add:
+    entry:
+      id: cal.1960-01-31.china-zhou
+      when: Jan. 31
+      date: '1960-01-31'
+      place: canton
+      thread: china-zhou
+      also:
+      - china-mao
+      c: Guangzhou 广州, evening. Zhou Enlai sees Mao 毛泽东.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 31, 1960. [[w.zhou-enlai-nianpu-1949]], II, 286 (Jan. 31, 1960; "晚"). Made public: 1997. See [[cal.1960-01-31.china-leadership-2]]. Names: Zhou Enlai, Mao Zedong.'
+      time_range:
+      - 1960-01-31T11:00Z
+      - 1960-01-31T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:zhou-enlai
+      - name:mao-zedong
+      - vis:only:prc
+- follows:
+    id: cal.1960-01-31.china-zhou
+    add:
+    - cal.1960-01-31.china-leadership-2
+    basis: '[[w.zhou-enlai-nianpu-1949]], II, 286 (the arrival, then "晚")'
+- add:
+    entry:
+      id: cal.1960-01-08.china-shanghai-1960
+      when: Jan. 8
+      date: '1960-01-08'
+      place: shanghai
+      thread: china-shanghai-1960
+      also: &id001
+      - china-mao
+      c: Shanghai 上海, the Culture Club 文化俱乐部, afternoon. Mao 毛泽东 calls a meeting of Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan and Tao Zhu.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 8, 1960. Made public: 2013. See [[cal.1960-01-06.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
+      time_range:
+      - 1960-01-08T04:00Z
+      - 1960-01-08T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:zhu-de
+      - name:lin-biao
+      - name:deng-xiaoping
+      - name:peng-zhen
+      - name:ke-qingshi
+      - name:li-jingquan
+      - name:tao-zhu
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-09.china-shanghai-1960
+      when: Jan. 9
+      date: '1960-01-09'
+      thread: china-shanghai-1960
+      also: *id001
+      c: 'Mao 毛泽东, on the Propaganda Department''s *Xuanjiao dongtai* 《宣教动态》, 1960, no. 1, of Jan. 5: print for the comrades, chiefly its third and fourth pieces: the Polish professor *Mingzi* 明兹 on China''s leap as a new phenomenon in economics; a Japanese journal''s article by "Shanxia Longsan" 山下龙三 on theoretical questions of the people''s communes.'
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 9, 1960. Made public: 2013. See [[cal.1960-01-07.china-leadership]]. Names: Mao Zedong.'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-10.china-shanghai-1960
+      when: Jan. 10
+      date: '1960-01-10'
+      place: shanghai
+      thread: china-shanghai-1960
+      also: *id001
+      c: Shanghai 上海, the Culture Club 文化俱乐部, evening. Mao 毛泽东 talks with Lu Dingyi, Kang Sheng, Chen Boda, Hu Sheng, Deng Liqun, Tian Jiaying and Xue Muqiao.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 10, 1960. Made public: 2013. See [[cal.1960-01-08.china-shanghai-1960]]. Names: Mao Zedong, Lu Dingyi, Kang Sheng, Chen Boda, Hu Sheng, Deng Liqun, Tian Jiaying, Xue Muqiao.'
+      time_range:
+      - 1960-01-10T11:00Z
+      - 1960-01-10T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:lu-dingyi
+      - name:kang-sheng
+      - name:chen-boda
+      - name:hu-sheng
+      - name:deng-liqun
+      - name:tian-jiaying
+      - name:xue-muqiao
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-10.china-shanghai-1960-2
+      when: Jan. 10
+      date: '1960-01-10'
+      place: shanghai
+      thread: china-shanghai-1960
+      also: *id001
+      c: Shanghai 上海, the Culture Club 文化俱乐部, evening. Afterwards Mao 毛泽东 calls a meeting of Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan and Tao Zhu.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 10, 1960. Made public: 2013. See [[cal.1960-01-10.china-shanghai-1960]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
+      time_range:
+      - 1960-01-10T11:00Z
+      - 1960-01-10T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:zhu-de
+      - name:lin-biao
+      - name:deng-xiaoping
+      - name:peng-zhen
+      - name:ke-qingshi
+      - name:li-jingquan
+      - name:tao-zhu
+      - vis:only:prc
+- follows:
+    id: cal.1960-01-10.china-shanghai-1960-2
+    add:
+    - cal.1960-01-10.china-shanghai-1960
+    basis: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 10, 1960 ("后又", afterwards)'
+- add:
+    entry:
+      id: cal.1960-01-11.china-shanghai-1960
+      when: Jan. 11
+      date: '1960-01-11'
+      place: shanghai
+      thread: china-shanghai-1960
+      also: *id001
+      c: Shanghai 上海, the Culture Club 文化俱乐部, evening. Mao 毛泽东 holds a meeting; Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan and Tao Zhu attend.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 11, 1960. Made public: 2013. See [[cal.1960-01-10.china-shanghai-1960-2]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
+      time_range:
+      - 1960-01-11T11:00Z
+      - 1960-01-11T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:zhu-de
+      - name:lin-biao
+      - name:deng-xiaoping
+      - name:peng-zhen
+      - name:ke-qingshi
+      - name:li-jingquan
+      - name:tao-zhu
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-12.china-shanghai-1960
+      when: Jan. 12
+      date: '1960-01-12'
+      place: shanghai
+      thread: china-shanghai-1960
+      also: *id001
+      c: Shanghai 上海, the Culture Club 文化俱乐部, evening. Mao 毛泽东 holds a meeting to hear the report on the groups' discussion at the enlarged Politburo; Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan and Tao Zhu attend.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 12, 1960. Made public: 2013. See [[cal.1960-01-11.china-shanghai-1960]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Ke Qingshi, Li Jingquan, Tao Zhu.'
+      time_range:
+      - 1960-01-12T11:00Z
+      - 1960-01-12T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:zhu-de
+      - name:lin-biao
+      - name:deng-xiaoping
+      - name:peng-zhen
+      - name:ke-qingshi
+      - name:li-jingquan
+      - name:tao-zhu
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-13.china-shanghai-1960
+      when: Jan. 13
+      date: '1960-01-13'
+      place: shanghai
+      thread: china-shanghai-1960
+      also: *id001
+      c: Shanghai 上海, the Culture Club 文化俱乐部, evening. Mao 毛泽东 holds a meeting; Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Lu Dingyi, Kang Sheng, Ke Qingshi, Li Jingquan and Tao Zhu attend.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 13, 1960. Made public: 2013. See [[cal.1960-01-12.china-shanghai-1960]]. Names: Mao Zedong, Liu Shaoqi, Zhou Enlai, Zhu De, Lin Biao, Deng Xiaoping, Peng Zhen, Lu Dingyi, Kang Sheng, Ke Qingshi, Li Jingquan, Tao Zhu.'
+      time_range:
+      - 1960-01-13T11:00Z
+      - 1960-01-13T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:zhu-de
+      - name:lin-biao
+      - name:deng-xiaoping
+      - name:peng-zhen
+      - name:ke-qingshi
+      - name:li-jingquan
+      - name:tao-zhu
+      - name:lu-dingyi
+      - name:kang-sheng
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-13.china-shanghai-1960-2
+      when: Jan. 13
+      date: '1960-01-13'
+      thread: china-shanghai-1960
+      also: *id001
+      c: 'Mao 毛泽东, on the Economics Institute''s material on *Mingzi* 明兹 and the article by "Shanxia Longsan" 山下龙三, sent him by Kang Sheng: print for the comrades'' reference. *Mingzi*, six weeks in China from late April 1959 and fourteen communes seen: the communes of world significance, a great leap setting off years of high growth.'
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 9, 1960 (the item of Jan. 9, which gives the day, Jan. 13, and the material). Made public: 2013. See [[cal.1960-01-09.china-shanghai-1960]]. Names: Mao Zedong, Kang Sheng.'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:kang-sheng
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-14.china-shanghai-1960
+      when: Jan. 14
+      date: '1960-01-14'
+      place: shanghai
+      thread: china-shanghai-1960
+      also: *id001
+      c: Shanghai 上海, the Culture Club 文化俱乐部, evening. Mao 毛泽东 calls Chen Yi, Nie Rongzhen, Li Fuchun, Lu Dingyi, Chen Boda, Kang Sheng and Wang Heshou to a meeting.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 14, 1960. Made public: 2013. See [[cal.1960-01-13.china-shanghai-1960]]. Names: Mao Zedong, Chen Yi, Nie Rongzhen, Li Fuchun, Lu Dingyi, Chen Boda, Kang Sheng, Wang Heshou.'
+      time_range:
+      - 1960-01-14T11:00Z
+      - 1960-01-14T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:chen-yi
+      - name:nie-rongzhen
+      - name:li-fuchun
+      - name:lu-dingyi
+      - name:chen-boda
+      - name:kang-sheng
+      - name:wang-heshou
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-14.china-shanghai-1960-2
+      when: Jan. 14
+      date: '1960-01-14'
+      thread: china-shanghai-1960
+      also:
+      - china-mao
+      - china-famine
+      c: 'Mao 毛泽东, on Li Xiannian''s report of Jan. 13 on arranging the villages'' livelihood and the patriotic cotton-selling campaign: print for the comrades. The report: grain distribution settled in some 70 percent of the communes'' basic accounting units, begun but not carried through in 20, hardly arranged in 10; by some provinces'' reports 10, 15 to 20 percent of the units actually short of grain.'
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 14, 1960. Made public: 2013. Names: Mao Zedong, Li Xiannian.'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:li-xiannian
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-15.china-shanghai-1960
+      when: Jan. 15
+      date: '1960-01-15'
+      place: shanghai
+      thread: china-shanghai-1960
+      also: *id001
+      c: Shanghai 上海, the Culture Club 文化俱乐部, evening. Mao 毛泽东 calls Peng Zhen, Li Xiannian, Tan Zhenlin, Bo Yibo, Zhao Erlu, Yu Qiuli, He Changgong 何长工, Peng Tao, Zhang Linzhi and Lü Zhengcao 吕正操 to a meeting.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 15, 1960. Made public: 2013. See [[cal.1960-01-14.china-shanghai-1960]]. Names: Mao Zedong, Peng Zhen, Li Xiannian, Tan Zhenlin, Bo Yibo, Zhao Erlu, Yu Qiuli, Peng Tao, Zhang Linzhi, Lü Zhengcao.'
+      time_range:
+      - 1960-01-15T11:00Z
+      - 1960-01-15T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:peng-zhen
+      - name:li-xiannian
+      - name:tan-zhenlin
+      - name:bo-yibo
+      - name:zhao-erlu
+      - name:yu-qiuli
+      - name:peng-tao
+      - name:zhang-linzhi
+      - name:lu-zhengcao
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-15.china-shanghai-1960-2
+      when: Jan. 15
+      date: '1960-01-15'
+      place: shanghai
+      thread: china-shanghai-1960
+      also: *id001
+      c: Shanghai 上海, the Culture Club 文化俱乐部, evening. After the meeting Mao 毛泽东 talks with Chen Boda, Kang Sheng, Hu Qiaomu and Tian Jiaying.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 15, 1960. Made public: 2013. See [[cal.1960-01-15.china-shanghai-1960]]. Names: Mao Zedong, Chen Boda, Kang Sheng, Hu Qiaomu, Tian Jiaying.'
+      time_range:
+      - 1960-01-15T11:00Z
+      - 1960-01-15T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:chen-boda
+      - name:kang-sheng
+      - name:hu-qiaomu
+      - name:tian-jiaying
+      - vis:only:prc
+- follows:
+    id: cal.1960-01-15.china-shanghai-1960-2
+    add:
+    - cal.1960-01-15.china-shanghai-1960
+    basis: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 15, 1960 ("会后", after the meeting)'
+- add:
+    entry:
+      id: cal.1960-01-17.china-mao
+      when: Jan. 17
+      date: '1960-01-17'
+      place: shanghai
+      thread: china-mao
+      c: Shanghai 上海, noon. Mao 毛泽东 lunches with Soong Ching Ling 宋庆龄, at her invitation.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 17, 1960. The words: 中午 (IV, Jan. 17, 1960). Made public: 2013. Check: whether the same occasion as [[cal.1960-01-17.china-leadership-7]], the banquet given by Soong Ching Ling at which the Zhu De nianpu (III, 1761) has Zhu De, Liu Shaoqi and Deng Xiaoping, with no hour. Names: Mao Zedong, Song Qingling.'
+      time_range:
+      - 1960-01-17T04:00Z
+      - 1960-01-17T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:song-qingling
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-19.china-mao
+      when: Jan. 19
+      date: '1960-01-19'
+      place: hangzhou
+      thread: china-mao
+      c: Hangzhou 杭州, Dingjiashan 丁家山 at Liu Zhuang 刘庄, afternoon. Mao 毛泽东 talks with Chen Boda, Hu Sheng, Deng Liqun and Tian Jiaying.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 19, 1960. Made public: 2013. See [[cal.1960-01-18.china-leadership-11]]. Names: Mao Zedong, Chen Boda, Hu Sheng, Deng Liqun, Tian Jiaying.'
+      time_range:
+      - 1960-01-19T04:00Z
+      - 1960-01-19T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:chen-boda
+      - name:hu-sheng
+      - name:deng-liqun
+      - name:tian-jiaying
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-20.china-mao
+      when: Jan. 20
+      date: '1960-01-20'
+      place: hangzhou
+      thread: china-mao
+      c: 'Hangzhou 杭州, the Nanping swimming pool 南屏游泳池, morning. Mao 毛泽东 talks with Chen Boda, Hu Sheng, Deng Liqun and Tian Jiaying: no reading of the Soviet *Textbook of Political Economy* during the days at Hangzhou; it will go on at Guangzhou.'
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 20, 1960. Made public: 2013. See [[cal.1960-01-19.china-mao]]. Names: Mao Zedong, Chen Boda, Hu Sheng, Deng Liqun, Tian Jiaying.'
+      time_range:
+      - 1960-01-19T22:00Z
+      - 1960-01-20T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:chen-boda
+      - name:hu-sheng
+      - name:deng-liqun
+      - name:tian-jiaying
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-24.china-mao
+      when: Jan. 24
+      date: '1960-01-24'
+      place: hangzhou
+      thread: china-mao
+      c: Hangzhou 杭州, afternoon. Mao 毛泽东 leaves by special train for Guangzhou 广州; Chen Boda, Hu Sheng, Deng Liqun and Tian Jiaying go with him.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 24, 1960. Made public: 2013. See [[cal.1960-01-24.china-leadership]]. Names: Mao Zedong, Chen Boda, Hu Sheng, Deng Liqun, Tian Jiaying.'
+      time_range:
+      - 1960-01-24T04:00Z
+      - 1960-01-24T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:chen-boda
+      - name:hu-sheng
+      - name:deng-liqun
+      - name:tian-jiaying
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-25.china-mao-2
+      when: Jan. 25
+      date: '1960-01-25'
+      place: xiangtang
+      thread: china-mao
+      c: Xiangtang 向塘, Nanchang 南昌, early morning. Mao's 毛泽东 special train arrives.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 25, 1960. The words: 晨 (IV, Jan. 25, 1960). Made public: 2013. See [[cal.1960-01-24.china-mao]]. Names: Mao Zedong.'
+      time_range:
+      - 1960-01-24T21:00Z
+      - 1960-01-25T00:00Z
+      time_band: early morning
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-25.china-mao
+      when: Jan. 25
+      date: '1960-01-25'
+      place: xiangtang
+      thread: china-mao
+      c: On the special train at Xiangtang 向塘, Nanchang 南昌, 2 p.m. Mao 毛泽东 talks with Fang Zhichun 方志纯, secretary of the Jiangxi committee's secretariat and vice-governor, and Wang Zhuochao 王卓超, vice-governor.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 25, 1960 (and its note 7: the two men''s posts). Made public: 2013. See [[cal.1960-01-25.china-mao-2]]. Names: Mao Zedong, Fang Zhichun, Wang Zhuochao.'
+      time: 1960-01-25T06:00Z
+      time_zone: Asia/Shanghai
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:fang-zhichun
+      - name:wang-zhuochao
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-26.china-mao-3
+      when: Jan. 26
+      date: '1960-01-26'
+      place: hengyang
+      thread: china-mao
+      c: Hengyang 衡阳, early morning. Mao's 毛泽东 special train arrives.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 26, 1960. The words: 晨 (IV, Jan. 26, 1960). Made public: 2013. See [[cal.1960-01-25.china-mao]]. Names: Mao Zedong.'
+      time_range:
+      - 1960-01-25T21:00Z
+      - 1960-01-26T00:00Z
+      time_band: early morning
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-26.china-mao
+      when: Jan. 26
+      date: '1960-01-26'
+      place: hengyang
+      thread: china-mao
+      c: On the special train at Hengyang 衡阳. Mao 毛泽东 talks with Zhang Pinghua 张平化, first secretary of the Hunan committee.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 26, 1960 (and its note 8: Zhang''s post). Made public: 2013. See [[cal.1960-01-26.china-mao-3]]. Names: Mao Zedong, Zhang Pinghua.'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:zhang-pinghua
+      - vis:only:prc
+- follows:
+    id: cal.1960-01-26.china-mao
+    add:
+    - cal.1960-01-26.china-mao-3
+    basis: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 26, 1960 ("晨，到达衡阳。在专列上同张平化谈话": the arrival, then the talk on the train)'
+- add:
+    entry:
+      id: cal.1960-01-26.china-mao-2
+      when: Jan. 26
+      date: '1960-01-26'
+      place: hengyang
+      thread: china-mao
+      also:
+      - china-agriculture
+      c: 'On the special train at Hengyang 衡阳, afternoon. Mao 毛泽东 talks with Ning Sheng 宁生, secretary of the prefectural committee, Yang Xingzhou 杨兴洲, secretary of the city committee, the secretary of the party committee of Depot 445 and others. Ning reports on Yingpi commune 英陂公社, Hengyang county: seven households run family pig teams, one young couple with three children raising 207 pigs. Mao: the method is good, quick, yields many pigs; to be spread.'
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 26, 1960. Made public: 2013. See [[cal.1960-01-26.china-mao]]. Names: Mao Zedong.'
+      time_range:
+      - 1960-01-26T04:00Z
+      - 1960-01-26T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - vis:only:prc
+- follows:
+    id: cal.1960-01-26.china-mao-2
+    add:
+    - cal.1960-01-26.china-mao
+    basis: 'the printed order alone ([[w.zedong-mao-zedong-nianpu]], IV, Jan. 26, 1960), the talk with Zhang Pinghua written after the morning''s arrival and before "下午"'
+- edit:
+    id: cal.1960-01-27.china-leadership-6
+    base: 6aa026c2
+    set:
+      time_range:
+      - 1960-01-26T21:00Z
+      - 1960-01-27T00:00Z
+      time_band: early morning
+      time_zone: Asia/Shanghai
+      range_basis: record
+- add-words:
+    id: cal.1960-01-27.china-leadership-6
+    after: end
+    words: He arrives in the early morning and stays at the Xiaodao guesthouse 小岛招待所.
+    item: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 27, 1960'
+- src:
+    id: cal.1960-01-27.china-leadership-6
+    row: w.zedong-mao-zedong-nianpu IV, Jan. 27, 1960
+    on: time
+- add:
+    entry:
+      id: cal.1960-01-27.china-mao
+      when: Jan. 27
+      date: '1960-01-27'
+      place: canton
+      thread: china-mao
+      c: Guangzhou 广州, afternoon. Mao 毛泽东 talks with Lin Biao.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 27, 1960. Made public: 2013. See [[cal.1960-01-27.china-leadership-6]]. Names: Mao Zedong, Lin Biao.'
+      time_range:
+      - 1960-01-27T04:00Z
+      - 1960-01-27T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:lin-biao
+      - vis:only:prc
+- add:
+    entry:
+      id: cal.1960-01-27.china-mao-2
+      when: Jan. 27
+      date: '1960-01-27'
+      place: canton
+      thread: china-mao
+      c: Guangzhou 广州. Mao 毛泽东 talks with Li Xiannian.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 27, 1960. Made public: 2013. See [[cal.1960-01-27.china-mao]]. Names: Mao Zedong, Li Xiannian.'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:li-xiannian
+      - vis:only:prc
+- follows:
+    id: cal.1960-01-27.china-mao-2
+    add:
+    - cal.1960-01-27.china-mao
+    basis: '[[w.zedong-mao-zedong-nianpu]], IV, Jan. 27, 1960 ("后同李先念谈话", afterwards)'
+- add:
+    entry:
+      id: cal.1966-02-12.women
+      when: Feb. 12
+      date: '1966-02-12'
+      place: montgomery
+      thread: women
+      also:
+      - alabama
+      - press-and-broadcasting
+      c: 'Montgomery, Ala. The *Montgomery Advertiser*, in a survey of local leaders on the ruling in *White v. Crook* that women may sit on Alabama juries: a League of Women Voters president, her first reaction laughter; the head of a Republican ladies'' club, women can learn to serve; a district attorney, the language in court may be rough.'
+      n: '[[w.branch-at-canaans-edge]], 437–38; 889 (the note: the League president''s words, *Montgomery Advertiser*, Feb. 12, 1966). To check: *Montgomery Advertiser*, Feb. 12, 1966 (cited by [[w.branch-at-canaans-edge]], 889). Check: the day of the club head''s and the attorney''s words, which the note does not date. See [[cal.1966-02-07.alabama]]. Names: none.'
+      tags:
+      - polity:us
+      - state:alabama
+      - city:montgomery
+- add:
+    entry:
+      id: cal.1966-02.women
+      when: Feb., after the 7th
+      date: '1966-02'
+      at: after 1966-02-07
+      thread: women
+      also:
+      - alabama
+      - press-and-broadcasting
+      c: 'The *Montgomery Advertiser* on *White v. Crook*: could Alabama adopt the limits on women jurors practiced elsewhere? "Can pregnant women be exempted from jury service?"'
+      n: '[[w.branch-at-canaans-edge]], 438. Check: the day; Branch gives none and no note. To check: *Montgomery Advertiser*, February 1966 (cited by [[w.branch-at-canaans-edge]], 438). See [[cal.1966-02-07.alabama]]. Names: none.'
+      tags:
+      - polity:us
+      - state:alabama
+      - city:montgomery
+      - ok:fields-place
+- edit:
+    id: cal.1960-03-02.china-leadership-2
+    base: 6dc6cec8
+    kind: correct
+    set:
+      c: Mao, 3 a.m., orders his confidential secretary Gao Zhi to print nine copies of the Guangdong committee's directive of Feb. 25 for Zhou Enlai, Li Fuchun, Kang Sheng, Hu Qiaomu and the five first secretaries studying at Conghua, to be discussed on the afternoon of Mar. 3 and spread in the provinces. The directive names five problems in the communes.
+      time: 1960-03-01T19:00Z
+      time_zone: Asia/Shanghai
+      n: '[[w.jianguo-yilai-mao-zedong]], XV, 49–54 (Mar. 2, 1960, 3 a.m.; notes at 51–54). The hour: the manuscript''s date line, "三月二日上午三时" (XV, 49); the second act the same page gives, at 6 a.m., is an entry of its own. Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). To check: Guangdong Provincial Committee, directive of Feb. 25, 1960 on some problems in current people''s commune work, sent to the Guangzhou and Hainan committees and all prefectural, municipal and county committees and to the Center and Mao (cited by [[w.jianguo-yilai-mao-zedong]], XV, 52 n.2a). See [[cal.1960-03-01.china-leadership-2]]. Names: Mao Zedong, Zhou Enlai, Li Fuchun, Kang Sheng, Gao Zhi, Hu Qiaomu.'
+    unset:
+    - time_range
+- add:
+    entry:
+      id: cal.1960-03-02.china-mao
+      when: Mar. 2
+      date: '1960-03-02'
+      thread: china-mao
+      c: Mao, 6 a.m., having revised his Mar. 1 letter to Liu Shaoqi and Deng Xiaoping into the draft instruction forwarding the Guangdong committee's directive, has nine copies printed for the comrades, to be discussed the afternoon of the 3rd.
+      n: '[[w.jianguo-yilai-mao-zedong]], XV, 49 (Mar. 2, 1960, 6 a.m.); 51 (the note: the letter of Mar. 1 revised into the draft, ordered printed at 6 a.m.). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). See [[cal.1960-03-02.china-leadership-2]]. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping.'
+      time: 1960-03-01T22:00Z
+      time_zone: Asia/Shanghai
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:deng-xiaoping
+      - vis:only:prc
+- follows:
+    id: cal.1960-03-02.china-mao
+    add:
+    - cal.1960-03-02.china-leadership-3
+    basis: '[[w.jianguo-yilai-mao-zedong]], XV, 49, 55 (6 a.m. after 4 a.m.)'
+- add:
+    entry:
+      id: cal.1960-03-02.china-mao-2
+      when: Mar. 2
+      date: '1960-03-02'
+      place: canton
+      thread: china-mao
+      also:
+      - china-propaganda
+      c: Guangzhou 广州, Jijingkeng 鸡颈坑, 5 to 9 p.m. Mao 毛泽东 reads the manuscript of the fourth volume of his *Selected Works* 《毛泽东选集》, Kang Sheng, Hu Qiaomu and Tian Jiaying taking part.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 2, 1960. Made public: 2013. See [[cal.1960-01-27.china-leadership-6]]. Names: Mao Zedong, Kang Sheng, Hu Qiaomu, Tian Jiaying.'
+      time_range:
+      - 1960-03-02T09:00Z
+      - 1960-03-02T13:00Z
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:kang-sheng
+      - name:hu-qiaomu
+      - name:tian-jiaying
+      - vis:only:prc
+- edit:
+    id: cal.1960-03-03.china-leadership-6
+    base: 6cbc4a6c
+    set:
+      n: '[[w.jianguo-yilai-mao-zedong]], XV, 58–59 (Mar. 3, 1960, 4 a.m.; notes at 59–61); [[w.mao-zedong-zhuan]], V, ch. 66 n.3 (Mar. 3, the Jilin report forwarded; every province, municipality and region to sum up its experience on the technical revolution and report). The meeting: Mao''s notes plan it for the afternoon ("今日下午", XV, 58; "三日下午", XV, 55); Zhou Enlai had proposed "三日下午或晚上" and went to Mao''s "三日晚" ([[w.zhou-enlai-nianpu-1949]], II, 291); the Mao nianpu has it that evening ([[cal.1960-03-03.china-leadership]]). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], V, ch. 66); the text in full, 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Printed for internal circulation: [[w.zedong-jianguo-yilai-mao-zedong]], vol. 9 (1996). Check: the comrades at the afternoon meeting, by note 2 (XV, 60), are twenty-five (Zhou Enlai, Li Fuchun, Kang Sheng, Hu Qiaomu, Tao Zhu, the five Central-South first secretaries, ministers and others). To check: Jilin Provincial Committee, report of Feb. 26, 1960 to Mao and the Center on the movement for technical innovation and technical revolution (cited by [[w.jianguo-yilai-mao-zedong]], XV, 59 n.1a); Mao Zedong 毛泽东, comment drafted for the Center 中共中央 forwarding the Jilin Provincial Committee''s report on the technical innovation and technical revolution movement (manuscript 手稿), Mar. 3, 1960 (cited by [[w.mao-zedong-zhuan]], V, ch. 66 n.3). Names: Mao Zedong.'
+- edit:
+    id: cal.1960-03-06.china-leadership
+    base: 430f1047
+    kind: correct
+    set:
+      c: Zhou Enlai back in Peking.{1}
+      src:
+        c: ff13c8ac
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 292: 1'
+        - 'w.yang-shangkun-riji I, 486: 1'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 292 (Mar. 6, 1960); [[w.yang-shangkun-riji]], I, 486 (Mar. 6, 1960; Zhou back; a meeting at Liu Shaoqi''s at 8 p.m.). The nianpu gives the return, then in an item of its own the night''s move to Diaoyutai and, later, the talk with He Qian (II, 292): each an entry of its own. Made public: 1997. Names: Zhou Enlai.'
+- add:
+    entry:
+      id: cal.1960-03-06.china-zhou
+      when: Mar. 6
+      date: '1960-03-06'
+      place: peking
+      thread: china-zhou
+      c: Peking. Zhou Enlai, finding that his staff had repaired his house in his absence, leaves that evening to stay at Diaoyutai 钓鱼台, and asks for the old furniture and curtains back.
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 292 (Mar. 6, 1960; "当晚"). Made public: 1997. See [[cal.1960-03-06.china-leadership]]. Names: Zhou Enlai.'
+      time_range:
+      - 1960-03-06T11:00Z
+      - 1960-03-06T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:zhou-enlai
+      - vis:only:prc
+- follows:
+    id: cal.1960-03-06.china-zhou
+    add:
+    - cal.1960-03-06.china-leadership
+    basis: '[[w.zhou-enlai-nianpu-1949]], II, 292 (the return, then "当晚")'
+- add:
+    entry:
+      id: cal.1960-03.china-zhou
+      when: Mar., after the 6th
+      date: '1960-03'
+      at: after 1960-03-06
+      place: peking
+      thread: china-zhou
+      c: 'Peking. Zhou Enlai to He Qian 何谦, who runs his household and guard: a house may be repaired but not too well; he returns when the old furnishings are back.'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 292 (Mar. 6, 1960; "后来", with the note on He Qian). Made public: 1997. Check: the day; the nianpu has it "later" than the night of Mar. 6. See [[cal.1960-03-06.china-zhou]]. Names: Zhou Enlai.'
+      tags:
+      - polity:prc
+      - name:zhou-enlai
+      - vis:only:prc
+- edit:
+    id: cal.1960-03-07.china-leadership
+    base: cee70081
+    set:
+      time_range:
+      - 1960-03-07T11:30Z
+      - 1960-03-07T16:30Z
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1960-03-07.china-leadership-5
+    base: a5fb73a1
+    set:
+      n: '[[w.yang-shangkun-riji]], I, 486 (Mar. 7, 1960). The words: 7时半到12时半，主席接见大使; 接见完毕后……回留园已经早上2时了 (I, 486). The range: from the audience''s end, 12:30 a.m. Mar. 8, to the return at 2 a.m. The day: Mar. 7, the diary''s day (I, 486); the hours fall after midnight, Mar. 8. See [[cal.1960-03-07.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Mao Zedong.'
+- edit:
+    id: cal.1960-03-11.china-leadership
+    base: cf9a1b13
+    kind: correct
+    set:
+      c: Zhou Enlai with Chen Yi, Zhang Hanfu, Zhang Yan and Pan Zili on the talks with Koirala, Prime Minister of Nepal, who came on Mar. 10.{1}
+      src:
+        c: 905dabf0
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 293: 1'
+        - 'w.yang-shangkun-riji I, 487: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1532: ?'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 293 (Mar. 11, 1960); [[w.yang-shangkun-riji]], I, 487 (Mar. 11, 1960; the afternoon; the Secretariat reads and discusses together the draft of Li Fuchun''s report to the National People''s Congress: the Secretariat''s own entry); [[w.deng-xiaoping-nianpu-1904]], III, 1532 (Mar. 11, 1960; afternoon; Deng presides at the Secretariat on the draft of Li Fuchun''s report on the 1960 plan for the National People''s Congress; Zhou attends: the Secretariat''s own entry). The afternoon Secretariat, which the nianpu gives after the talk (II, 293), is [[cal.1960-03-11.china-leadership-6]]. Made public: 1997. Check: the day Koirala came: the nianpu has him come to China "三月十日" (II, 293), while Zhou and Chen Yi welcome him at the airport the afternoon of Mar. 11 ([[cal.1960-03-11.china-leadership-2]]). Names: Zhou Enlai, Chen Yi, Koirala, Zhang Hanfu, Zhang Yan, Pan Zili.'
+- cite:
+    id: cal.1960-03-11.china-leadership-6
+    item: '[[w.zhou-enlai-nianpu-1949]], II, 293 (Mar. 11, 1960; "下午", Zhou attends)'
+- cite:
+    id: cal.1960-03-11.china-leadership-6
+    item: '[[w.yang-shangkun-riji]], I, 487 (Mar. 11, 1960; the afternoon; the Secretariat reads and discusses together the draft of Li Fuchun''s report to the National People''s Congress)'
+- add-words:
+    id: cal.1960-03-11.china-leadership-6
+    after: end
+    words: Deng Xiaoping presides.
+    item: '[[w.deng-xiaoping-nianpu-1904]], III, 1532'
+- names:
+    id: cal.1960-03-11.china-leadership-6
+    add:
+    - Deng Xiaoping
+    tags:
+    - name:deng-xiaoping
+- edit:
+    id: cal.1960-03-11.china-leadership-5
+    base: a6822663
+    set:
+      time_range:
+      - 1960-03-11T15:00Z
+      - 1960-03-11T16:30Z
+      time_zone: Asia/Shanghai
+      range_basis: record
+    unset:
+    - time_band
+- add-words:
+    id: cal.1960-03-11.china-leadership-5
+    after: end
+    words: Zhou Enlai and Peng Zhen there; 11 p.m. to 12:30 a.m.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 8 (Mar. 11, 1960, 11 p.m. to 12:30 a.m. on the 12th; Peng Zhen, with Zhou Enlai, Deng Xiaoping and others, at Liu Shaoqi''s meeting on the boundary talks with the Prime Minister of Nepal)'
+- src:
+    id: cal.1960-03-11.china-leadership-5
+    row: w.peng-zhen-nianpu-1902 IV, 8
+    on: time
+- names:
+    id: cal.1960-03-11.china-leadership-5
+    add:
+    - Zhou Enlai
+    - Peng Zhen
+    tags:
+    - name:zhou-enlai
+    - name:peng-zhen
+- variant:
+    id: cal.1960-03-15.china-leadership-5
+    field: time
+    value:
+    - 1960-03-15T11:00Z
+    - 1960-03-15T14:00Z
+    witness: w.chen-yi-nianpu
+    reads: evening (晚上), the cocktail party at the Cultural Palace of Nationalities
+    at: '807'
+- add:
+    entry:
+      id: cal.1960-03-18.china-mao-foreign
+      when: Mar. 18
+      date: '1960-03-18'
+      place: hangzhou
+      thread: china-mao-foreign
+      also:
+      - south-asia
+      - china-zhou-foreign
+      c: Hangzhou 杭州, early morning. Mao 毛泽东 with Zhou Enlai and Chen Yi on Nepal.
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 18, 1960. The words: 晨 (IV, Mar. 18, 1960). Made public: 2013. Names: Mao Zedong, Zhou Enlai, Chen Yi.'
+      time_range:
+      - 1960-03-17T21:00Z
+      - 1960-03-18T00:00Z
+      time_band: early morning
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - polity:nepal
+      - name:mao-zedong
+      - name:zhou-enlai
+      - name:chen-yi
+      - vis:only:prc
+- edit:
+    id: cal.1960-03-18.china-leadership
+    base: 06bb9b92
+    kind: correct
+    set:
+      c: Hangzhou, the Hangzhou Hotel, evening.{1} Mao receives B. P. Koirala, Prime Minister of Nepal.{2} China wants not an inch of Nepal's land, or India's; the boundary to be marked, with a strip on both sides unpatrolled and no regular troops; a treaty of friendship and nonaggression like Burma's if Nepal wishes; self-reliance first.{3}
+      src:
+        c: '19372896'
+        rows:
+        - 'w.zedong-mao-zedong-nianpu IV, Mar. 18, 1960: 1, 2, 3'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 134–135: 2'
+      n: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 18, 1960. [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 134–135 (Mar. 11–24, 1960; Mao and Liu receive Koirala, the day not given). The nianpu gives the morning''s talk with Zhou Enlai and Chen Yi on Nepal as an item of its own: [[cal.1960-03-18.china-mao-foreign]]. Made public: 2001. Check: the book gives Mao''s words to Koirala, with no day: China is in no hurry to enter the U.N. (it can wait ten years, then ten more); that China invaded India is untrue, a year''s quarrel with India being among friends, and the one real quarrel in the world is with the United States, which holds Taiwan and calls China an "aggressor"; the entry''s talk at Hangzhou may be where. Names: Mao Zedong, Koirala.'
+- tag:
+    id: cal.1960-03-18.china-leadership
+    remove:
+    - name:zhou-enlai
+    - name:chen-yi
+- edit:
+    id: cal.1960-03-18.china-leadership-2
+    base: 4adfe249
+    kind: correct
+    set:
+      c: Zhou Enlai back in Peking.{1}
+      src:
+        c: ff13c8ac
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 295: 1'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 481: ?'
+        - 'w.yang-shangkun-riji I, 489: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 9: ?'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 295 (Mar. 16, 1960: "十八日回到北京"); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 481 (Mar. 18, 1960; the Politburo meeting, its own entry); [[w.yang-shangkun-riji]], I, 489 (Mar. 18, 1960; the Politburo meeting, 7 to 11 p.m., its own entry); [[w.peng-zhen-nianpu-1902]], IV, 9 (Mar. 18, 1960; the Politburo meeting, its own entry). The nianpu has Zhou back in Peking and at the Politburo meeting Liu presides (II, 295); the meeting is [[cal.1960-03-18.china-liu]]. Made public: 1997. Names: Zhou Enlai.'
+- tag:
+    id: cal.1960-03-18.china-leadership-2
+    remove:
+    - name:liu-shaoqi
+- follows:
+    id: cal.1960-03-18.china-leadership-2
+    add:
+    - cal.1960-03-18.china-mao-foreign
+    basis: '[[w.zedong-mao-zedong-nianpu]], IV, Mar. 18, 1960 (Zhou with Mao at Hangzhou "晨"); [[w.zhou-enlai-nianpu-1949]], II, 295 ("十八日回到北京")'
+- add:
+    entry:
+      id: cal.1960-03-18.china-liu
+      when: Mar. 18
+      date: '1960-03-18'
+      place: peking
+      thread: china-liu
+      also:
+      - china-zhou-foreign
+      - china-economy
+      c: 'Peking, 7 to 11 p.m. The Politburo meets, Liu Shaoqi presiding: the Sino-Nepalese boundary, the preparations for the second session of the Second National People''s Congress and its two reports, six documents sent by Mao. It passes the report on the 1960 plan, the plan''s outline and the report on the 1959 accounts and 1960 budget draft. Zhou Enlai, Peng Zhen and Yang Shangkun attend.'
+      n: '[[w.yang-shangkun-riji]], I, 489 (Mar. 18, 1960; 7 to 11 p.m.); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 481 (Mar. 18, 1960; Liu presides; the Politburo discusses and passes the report on the draft 1960 plan, the draft plan''s outline and the report on the 1959 accounts and the 1960 budget draft, for the Congress''s second session); [[w.zhou-enlai-nianpu-1949]], II, 295 (Mar. 16, 1960; Zhou back in Peking on the 18th, attends the Politburo meeting Liu presides, on foreign affairs and the Congress); [[w.peng-zhen-nianpu-1902]], IV, 9 (Mar. 18, 1960; the Politburo passes the three reports for the Congress). Made public: 1996. See [[cal.1960-03-18.china-leadership-2]]. Names: Liu Shaoqi, Zhou Enlai, Peng Zhen, Yang Shangkun.'
+      time_range:
+      - 1960-03-18T11:00Z
+      - 1960-03-18T15:00Z
+      time_zone: Asia/Shanghai
+      range_basis: record
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:peng-zhen
+      - name:yang-shangkun
+      - vis:only:prc
+- follows:
+    id: cal.1960-03-18.china-liu
+    add:
+    - cal.1960-03-18.china-leadership-3
+    basis: '[[w.yang-shangkun-riji]], I, 489 (the match in the afternoon, the Politburo 7 to 11 p.m.)'
+- edit:
+    id: cal.1960-03-18.china-leadership-3
+    base: 698c2832
+    set:
+      time_range:
+      - 1960-03-18T04:00Z
+      - 1960-03-18T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+- follows:
+    id: cal.1960-03-18.china-leadership-3
+    add:
+    - cal.1960-03-18.china-leadership-2
+    basis: 'Zhou at Hangzhou with Mao "晨" ([[w.zedong-mao-zedong-nianpu]], IV, Mar. 18, 1960) and at the match in Peking in the afternoon ([[w.yang-shangkun-riji]], I, 489): the return comes between'
+- edit:
+    id: cal.1960-03-20.china-leadership-7
+    base: c88b20d1
+    settles:
+    - 'Check: the hour:'
+    set:
+      time: 1960-03-20T16:30Z
+      time_zone: Asia/Shanghai
+      n: '[[w.yang-shangkun-riji]], I, 490 (Mar. 20, 1960). The words: 晚12时半高智电话 (I, 490). The hour: 12:30 a.m. by the clock, Mar. 21, after the meeting at Liu Shaoqi''s that ended at midnight (I, 490); the diary''s day is Mar. 20, and its Mar. 21 entry has Mao''s office notify "last night" ("昨晚", I, 490). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Gao Zhi, Yang Shangkun.'
+    unset:
+    - time_range
+    - time_band
+- check:
+    id: cal.1960-03-24.china-leadership-6
+    text: 'Check: the hour of the call: the diary writes it at the head of the day, before the morning''s work, and says the Standing Committee had gone by 9 ("9时他们已走了", I, 491); it gives no hour for the call.'
+- edit:
+    id: cal.1960-03-26.china-leadership-5
+    base: 7d3b5871
+    set:
+      time_range:
+      - 1960-03-26T04:00Z
+      - 1960-03-26T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      range_basis: record
+      n: '[[w.yang-shangkun-riji]], I, 492 (Mar. 26, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1536 (Mar. 26, 1960; noon; Deng back to Peking by train). The words: 中午，乘火车返回北京 (III, 1536). The hour: noon, by the Deng nianpu; the diary has Deng and the others back by the afternoon (I, 492). See [[cal.1960-03-24.china-leadership]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Deng Xiaoping, Mao Zedong, Yang Shangkun.'
+- edit:
+    id: cal.1960-03-29.china-leadership-3
+    base: e0eb1b82
+    set:
+      time: 1960-03-29T02:00Z
+      time_zone: Asia/Shanghai
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 299 (Mar. 29, 1960); [[w.yang-shangkun-riji]], I, 493 (Mar. 29, 1960; the plenary opens at 10 a.m.); [[w.chen-yi-nianpu]], 808 (Mar. 29–Apr. 11, 1960; Chen Yi attends the CPPCC National Committee''s second session); [[w.peng-zhen-nianpu-1902]], IV, 11 (Mar. 29, 1960, morning; Peng Zhen at the opening of the Political Consultative Conference''s second session). The time is the first day''s. Names: Zhou Enlai.'
