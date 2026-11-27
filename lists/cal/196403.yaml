@@ -98,16 +98,17 @@ entries:
     follows:
       - cal.1964-03-01.china-leadership-9
     c: Zhou Enlai 周恩来, just back at Kunming 昆明, telephones Yang Shangkun 杨尚昆; Kong Yuan 孔原, Huang Zhen 黄镇 and Tong Xiaopeng 童小鹏 speak with him too.
-    n: '[[w.yang-shangkun-riji]], II, 356 (Mar. 1, 1964). The words: 上午恩来同志等一行，10时到达昆明，他与我通了电话，孔、黄、童也通了话 (II, 356). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Zhou Enlai, Yang Shangkun, Kong Yuan, Huang Zhen, Tong Xiaopeng.'
+    n: '[[w.yang-shangkun-riji]], II, 356 (Mar. 1, 1964); [[w.chen-yi-nianpu]], 1018 (Mar. 1, 1964; 上午9时25分, the arrival at Kunming by air from Colombo by way of Burma); [[w.zhou-enlai-waijiao-huodong]], 398 (Mar. 1, 1964; 上午9时25分, 乘专机回到昆明). The words: 上午恩来同志等一行，10时到达昆明，他与我通了电话，孔、黄、童也通了话 (II, 356). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Check: the arrival at Kunming, and so the hour of the call: the Chen Yi nianpu (1018) and the dashiji (398) have the arrival at 9:25 a.m., Yang (II, 356) at 10; the range runs from 9:25 to noon. Names: Zhou Enlai, Yang Shangkun, Kong Yuan, Huang Zhen, Tong Xiaopeng.'
     src:
       c: e1c804e3
       rows:
-        - 'w.yang-shangkun-riji II, 356: all'
+        - 'w.yang-shangkun-riji II, 356: time'
+        - 'w.chen-yi-nianpu 1018: time'
+        - 'w.zhou-enlai-waijiao-huodong 398: time'
     tags: [polity:prc, name:zhou-enlai, name:huang-zhen, vis:only:prc, name:kong-yuan, name:tong-xiaopeng, name:yang-shangkun]
     time_range:
-      - 1964-02-29T22:00Z
+      - 1964-03-01T01:25Z
       - 1964-03-01T04:00Z
-    time_band: morning
     time_zone: Asia/Shanghai
   - id: cal.1964-03-01.china-leadership-6
     when: Mar. 1
@@ -1329,12 +1330,16 @@ entries:
     src:
       c: 6b724049
       rows:
-        - 'w.zedong-mao-zedong-nianpu V, Mar. 5, 1964: 1, 2'
         - 'w.lengxi-shinian-lunzhan-1956-1966 695–697: 1'
         - 'w.deng-xiaoping-nianpu-1904 III, 1803: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 696–697: 3'
         - 'w.peng-zhen-nianpu-1902 IV, 322: 4'
+        - 'w.zedong-mao-zedong-nianpu V, Mar. 5, 1964: 1, 2, time'
     tags: [name:mao-zedong, name:kim-il-sung, name:liu-shaoqi, name:khrushchev-nikita-s, polity:dprk, polity:prc, polity:romania, vis:only:prc+dprk, name:deng-xiaoping, name:peng-zhen]
+    time_range:
+      - 1964-03-05T09:00Z
+      - 1964-03-05T14:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1964-03-05.china-leadership-2
     when: Mar. 5
     date: '1964-03-05'
@@ -1721,11 +1726,16 @@ entries:
     src:
       c: e63ceaa8
       rows:
-        - 'w.zedong-mao-zedong-nianpu V, Mar. 6 and 7, 1964: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 704: 1'
         - 'w.deng-xiaoping-nianpu-1904 III, 1803: 1'
         - 'w.peng-zhen-nianpu-1902 IV, 322–323: ?'
+        - 'w.zedong-mao-zedong-nianpu V, Mar. 6 and 7, 1964: time'
     tags: [name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, name:kang-sheng, polity:prc, vis:only:prc]
+    time_range:
+      - 1964-03-06T11:00Z
+      - 1964-03-06T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-03-06.china-leadership-2
     when: Mar. 6
     date: '1964-03-06'
@@ -1968,6 +1978,7 @@ entries:
   - id: cal.1964-03-07.civil-rights-bill
     when: Mar. 7
     date: '1964-03-07'
+    time: 1964-03-07T20:30Z
     place: washington
     thread: civil-rights-bill
     c: 'News conference, two days before the motion to take up the bill. Asked how long the filibuster might last, Johnson: the leadership can best assess it; he would not estimate; senators on both sides to have "adequate opportunity" to speak, and then the majority "an opportunity to work its will."'
@@ -1976,7 +1987,9 @@ entries:
       c: dff0c65f
       rows:
         - 'w.risen-bill-of-the-century 183: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=422: time'
     tags: [name:johnson-lyndon-b]
+    time_zone: America/New_York
   - id: cal.1964-03-07.china-leadership
     when: Mar. 7
     date: '1964-03-07'
@@ -2647,11 +2660,16 @@ entries:
     src:
       c: e893db21
       rows:
-        - 'w.zedong-mao-zedong-nianpu V, Mar. 9, 1964: 1, 2'
         - 'w.lengxi-shinian-lunzhan-1956-1966 709: 1'
         - 'w.deng-xiaoping-nianpu-1904 III, 1803: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 323: ?'
+        - 'w.zedong-mao-zedong-nianpu V, Mar. 9, 1964: time'
     tags: [name:mao-zedong, name:peng-zhen, name:liu-shaoqi, name:deng-xiaoping, name:kang-sheng, polity:prc, polity:romania, vis:only:prc]
+    time_range:
+      - 1964-03-09T11:00Z
+      - 1964-03-09T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-03-09.china-leadership-2
     when: Mar. 9
     date: '1964-03-09'
@@ -4276,17 +4294,22 @@ entries:
     src:
       c: 612440c2
       rows:
-        - 'w.zedong-mao-zedong-nianpu V, Mar. 16, 1964: 1, 2, 3'
         - 'w.lengxi-shinian-lunzhan-1956-1966 727–733: 2, 3'
         - 'w.deng-xiaoping-nianpu-1904 III, 1805: 2'
         - 'w.lengxi-shinian-lunzhan-1956-1966 727: 4'
         - 'w.lengxi-shinian-lunzhan-1956-1966 729, 731–732: 5'
+        - 'w.zedong-mao-zedong-nianpu V, Mar. 16, 1964: 1, 2, 3, time'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc, vis:only:prc, name:peng-zhen, name:chen-yi, name:khrushchev-nikita-s]
     variants:
       - unit: '1'
         witness: w.lengxi-shinian-lunzhan-1956-1966
         reads: the Standing Committee met in the west hall of the Yinian Tang (颐年堂西厅) on Mar. 16
         at: '727'
+    time_range:
+      - 1964-03-16T04:00Z
+      - 1964-03-16T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1964-03-16.china-leadership-2
     when: Mar. 16
     date: '1964-03-16'
@@ -4851,43 +4874,6 @@ entries:
         - 'w.taking-charge 291 & n.3: 1, 2'
         - 'via x.1964-03-18.johnson-lady-bird-johnson-telephone-1935: 1, 2'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird]
-  - id: cal.1964-03-18.elections-1964-primaries
-    when: Mar. 18
-    date: '1964-03-18'
-    place: washington
-    thread: elections-1964-primaries
-    c: 'Washington, the Sans Souci, at lunch with Bob Six and Harding Lawrence of Continental Air Lines. The California lawyer telephones: Salinger is "entirely eligible" to run. Salinger: "All right, I''m running." By Salinger''s account.'
-    n: '[[w.salinger-with-kennedy]], 345–46. Check: the day ("the next day" after Mar. 17; the calendar has the resignation Mar. 19). See [[cal.1964-03-17.elections-1964-primaries-2]]. Names: Salinger.'
-    tags: [name:salinger-pierre]
-  - id: cal.1964-03-18.elections-1964-primaries-4
-    when: Mar. 18
-    date: '1964-03-18'
-    place: washington
-    thread: elections-1964-primaries
-    follows:
-      - cal.1964-03-18.elections-1964-primaries
-    c: 'The Sans Souci, leaving. Salinger to O''Donnell, lunching with his wife: "You said I didn''t have the guts. I just want you to know that I''m on my way to the President''s office to resign." By Salinger''s account.'
-    n: '[[w.salinger-with-kennedy]], 346. Check: the day. See [[cal.1964-03-18.elections-1964-primaries]]. Names: Salinger, O''Donnell.'
-    tags: [name:salinger-pierre, name:odonnell-kenneth-p]
-  - id: cal.1964-03-18.elections-1964-primaries-2
-    when: Mar. 18
-    date: '1964-03-18'
-    thread: elections-1964-primaries
-    follows:
-      - cal.1964-03-18.elections-1964-primaries-4
-    c: 'Justice Goldberg, telephoned by Salinger, is aghast: a Virginia voter can hardly run for the Senate from California. A half hour later, after a clerk looks into it, he calls back: Salinger is eligible, but if the case reaches the Supreme Court Goldberg must disqualify himself. By Salinger''s account.'
-    n: '[[w.salinger-with-kennedy]], 346. After [[cal.1964-03-18.elections-1964-primaries-4|his leaving the Sans Souci]]: back at the White House, waiting to see Johnson (346). Check: the day. Names: Salinger, Goldberg.'
-    tags: [name:salinger-pierre, name:goldberg-arthur-j]
-  - id: cal.1964-03-18.elections-1964-primaries-3
-    when: Mar. 18
-    date: '1964-03-18'
-    place: washington
-    thread: elections-1964-primaries
-    follows:
-      - cal.1964-03-18.elections-1964-primaries-2
-    c: 'Salinger''s last call from the White House, to Governor Brown, who has come out for Cranston. Brown is dead set against him: too late, and a primary fight drains Democratic money. Salinger asks him only to say he favors Cranston; Brown: "If I''m for somebody, I''m not going to stand on the sidelines." By Salinger''s account.'
-    n: '[[w.salinger-with-kennedy]], 348. After [[cal.1964-03-18.elections-1964-primaries-2|the call to Goldberg]], in Salinger''s sequence: Goldberg while he waited to see Johnson (346); Brown his last call, made as he cleared his desk after the resignation and the briefing (348). Check: the day. Names: Salinger, Brown, Cranston.'
-    tags: [name:salinger-pierre, name:brown-edmund-g, name:cranston-alan]
   - id: cal.1964-03-18.china-leadership
     when: Mar. 18
     date: '1964-03-18'
@@ -5044,7 +5030,7 @@ entries:
     thread: transition-and-staff
     also: [elections-1964]
     c: Salinger, told at lunch that he may run for the Senate in California, resigns as Press Secretary that afternoon, effective at once;{1} the filing closes Mar. 20.{2} Salinger gives Johnson his letter of resignation at 5 p.m. and is handed Johnson's letter accepting it. Asked the California filing fee, Salinger says $450; Johnson, hearing $250, gives him $250 in cash, by Salinger's account.{3}
-    n: '[[w.caro-passage-of-power]], 592–94; [[w.robert-kennedy-in-his]], 413 (Salinger''s call to Robert Kennedy on the Thursday; the filing on Friday); [[w.white-making-of-the-president-1965]], 246 (Salinger''s decision; Moyers arranges the time with the President; Johnson counts out $450, the filing fee, in cash); [[w.johnson-white-house-diary]], 96 (Salinger tells Johnson in his office about 3 p.m. that he will resign to run for the Senate in California, and then tells the press; the diary has no lunch); [[w.salinger-with-kennedy]], 345–47 (the lawyer''s call at lunch; Salinger tells Jenkins and Moyers; Johnson sees him at 3:30; the letter of resignation at 5 and Johnson''s letter accepting it; Reedy named at once; Johnson gives him a filing fee in cash, Salinger saying $450 and Johnson hearing $250); [[w.salinger-with-kennedy]], 346–47. Check: Robert Kennedy has Salinger call him on Thursday "to resign the next day" ([[w.robert-kennedy-in-his]], 413). Check: White, 246, has Moyers arrange the time and Johnson count out $450 in cash. To check: *Washington Evening Star*, Mar. 20, 1964; *Newsweek*, Mar. 30, 1964 (cited by [[w.caro-passage-of-power]], 592–93). Check: the White House''s announcement. Names: Salinger, Johnson. The time is the letter''s, 5 p.m. by Salinger (346); Johnson saw him at 3:30, an entry of its own.'
+    n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson: the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.caro-passage-of-power]], 592–94; [[w.robert-kennedy-in-his]], 413 (Salinger''s call to Robert Kennedy on the Thursday; the filing on Friday); [[w.white-making-of-the-president-1965]], 246 (Salinger''s decision; Moyers arranges the time with the President; Johnson counts out $450, the filing fee, in cash); [[w.johnson-white-house-diary]], 96 (Salinger tells Johnson in his office about 3 p.m. that he will resign to run for the Senate in California, and then tells the press; the diary has no lunch); [[w.salinger-with-kennedy]], 345–47 (the lawyer''s call at lunch; Salinger tells Jenkins and Moyers; Johnson sees him at 3:30; the letter of resignation at 5 and Johnson''s letter accepting it; Reedy named at once; Johnson gives him a filing fee in cash, Salinger saying $450 and Johnson hearing $250); [[w.salinger-with-kennedy]], 346–47. Check: Robert Kennedy has Salinger call him on Thursday "to resign the next day" ([[w.robert-kennedy-in-his]], 413). Check: White, 246, has Moyers arrange the time and Johnson count out $450 in cash. To check: *Washington Evening Star*, Mar. 20, 1964; *Newsweek*, Mar. 30, 1964 (cited by [[w.caro-passage-of-power]], 592–93). Check: the White House''s announcement. Names: Salinger, Johnson. The time is the letter''s, 5 p.m. by Salinger (346); Johnson saw him at 3:30, an entry of its own.'
     src:
       c: e02bfb1f
       rows:
@@ -5057,6 +5043,7 @@ entries:
         - 'w.johnson-white-house-diary 96: ?'
         - 'w.salinger-with-kennedy 345–47: ?'
         - 'w.salinger-with-kennedy 346–47: 3'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488: date'
     tags: [name:salinger-pierre, name:johnson-lyndon-b, ok:note-substance]
     time_zone: America/New_York
     variants:
@@ -5211,7 +5198,7 @@ entries:
     place: newark
     thread: transition-and-staff
     c: 'Hatcher, the associate press secretary, reached by telephone at Newark Airport: "Announce my resignation at the same time you announce yours. I''m going back to California with you." By Salinger''s account.'
-    n: '[[w.salinger-with-kennedy]], 346. Check: the day (Salinger''s resignation, by his sequence the day after Mar. 17). See [[cal.1964-03-19.transition-and-staff]]. Names: Hatcher, Salinger.'
+    n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson: the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 346. See [[cal.1964-03-19.transition-and-staff]]. Names: Hatcher, Salinger.'
     tags: [name:hatcher-andrew-t, name:salinger-pierre]
   - id: cal.1964-03-19.goldwater
     when: Mar. 19
@@ -5222,7 +5209,7 @@ entries:
     follows:
       - cal.1964-03-19.transition-and-staff
     c: 'Los Angeles, Goldwater''s press conference. Told by Tom Wicker of the *New York Times* that Salinger has resigned to run for the Senate: "I think Pierre would make a good senator." By Salinger''s account.'
-    n: '[[w.salinger-with-kennedy]], 348. Check: the day (the day of Salinger''s resignation). See [[cal.1964-03-19.transition-and-staff]]. Names: Goldwater, Wicker, Salinger.'
+    n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson: the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 348. See [[cal.1964-03-19.transition-and-staff]]. Names: Goldwater, Wicker, Salinger.'
     tags: [name:goldwater-barry-m, name:wicker-tom, name:salinger-pierre, city:los-angeles, state:ca]
   - id: cal.1964-03-19.press-and-broadcasting
     when: Mar. 19
@@ -5236,19 +5223,6 @@ entries:
       - 1964-03-19T21:00Z
       - 1964-03-19T23:00Z
     time_zone: America/New_York
-  - id: cal.1964-03-19.elections-1964-primaries
-    when: Mar. 19
-    date: '1964-03-19'
-    place: san-francisco
-    thread: elections-1964-primaries
-    also: [elections-1964]
-    c: San Francisco, the Fairmont, after a 4 a.m. arrival. With Don Bradley and his brother Herbert, Salinger in ten hours gets the sixty-five signatures on his nominating petition and $25,000 in loans from five friends, not refundable if the court rules him out. Goldstein and Kopp are to argue his eligibility without fee; 7,000 posters are ordered. By Salinger's account.
-    n: '[[w.salinger-with-kennedy]], 348–49. Check: the day (the filing deadline in the book is Mar. 19). Names: Salinger.'
-    tags: [name:salinger-pierre, city:san-francisco, state:ca]
-    time_range:
-      - 1964-03-19T12:00Z
-      - 1964-03-19T22:00Z
-    time_zone: America/Los_Angeles
   - id: cal.1964-03-19.china-leadership
     when: Mar. 19
     date: '1964-03-19'
@@ -5368,10 +5342,74 @@ entries:
     time: 1964-03-19T20:30Z
     place: washington
     thread: transition-and-staff
+    follows:
+      - cal.1964-03-18.elections-1964-primaries-2
     c: 'The White House, 3:30 p.m. Johnson sees Salinger, Moyers having arranged the time: Salinger will resign to run for the Senate in California. Johnson: "Remember, I did the same thing myself once"; he tells him to draft a letter of resignation and will write one accepting it.'
-    n: '[[w.salinger-with-kennedy]], 346 (Salinger''s account: "The President sent for me at 3:30 P.M."); [[w.white-making-of-the-president-1965]], 246 (Moyers arranges the time). Check: the hour against Mrs. Johnson''s diary, 96, not read here. See [[cal.1964-03-19.transition-and-staff]]. Names: Johnson, Salinger, Moyers.'
+    n: '[[w.salinger-with-kennedy]], 346 (Salinger''s account: "The President sent for me at 3:30 P.M."); [[w.white-making-of-the-president-1965]], 246 (Moyers arranges the time). Check: the hour against Mrs. Johnson''s diary, 96, not read here. The order: after [[cal.1964-03-18.elections-1964-primaries-2]], [[w.salinger-with-kennedy]], 346 (the call to Goldberg while he waits to see Johnson, Goldberg''s second call a half hour later; "The President sent for me at 3:30 P.M."). Check: Johnson, at his news conference of Mar. 21, puts Salinger''s word to him "about 4 o''clock," then "5 or 5:30" (1963–64 Pub. Papers 408). See [[cal.1964-03-19.transition-and-staff]]. Names: Johnson, Salinger, Moyers.'
     tags: [name:johnson-lyndon-b, name:salinger-pierre, name:moyers-bill]
     time_zone: America/New_York
+  - id: cal.1964-03-19.press-and-broadcasting-2
+    when: Mar. 19
+    date: '1964-03-19'
+    time: 1964-03-19T23:00Z
+    time_approx: true
+    place: washington
+    thread: press-and-broadcasting
+    follows:
+      - cal.1964-03-19.transition-and-staff
+    c: 'Salinger''s last press briefing, put off from 4 to 6 p.m.: he says only that he is resigning at once to return to California and will announce an important decision the next day. The briefing impersonal; afterward correspondents come into his office one by one to wish him luck. By Salinger''s account.'
+    n: '[[w.salinger-with-kennedy]], 346–48 (the briefing "postponed" from 4 to 6 p.m., 346; his words to the press, 347; the correspondents one by one, 347–48). The hour is the postponed schedule''s. See [[cal.1964-03-19.transition-and-staff]]. Names: Salinger.'
+    tags: [name:salinger-pierre]
+    time_zone: America/New_York
+  - id: cal.1964-03-19.elections-1964-primaries-2
+    when: Mar. 19
+    date: '1964-03-19'
+    time: 1964-03-20T03:00Z
+    place: washington
+    thread: elections-1964-primaries
+    c: Washington National Airport, 10 p.m. Salinger, his family seeing him off, boards a plane for San Francisco; the one newspaperman there Zygmunt Broniarek of the Polish *Trybuna Ludu*. By Salinger's account.
+    n: '[[w.salinger-with-kennedy]], 348–49. See [[cal.1964-03-19.transition-and-staff]]. Names: Salinger.'
+    tags: [name:salinger-pierre]
+    time_zone: America/New_York
+  - id: cal.1964-03-18.elections-1964-primaries
+    when: Mar. 19
+    date: '1964-03-19'
+    place: washington
+    thread: elections-1964-primaries
+    c: 'Washington, the Sans Souci, at lunch with Bob Six and Harding Lawrence of Continental Air Lines. The California lawyer telephones: Salinger is "entirely eligible" to run. Salinger: "All right, I''m running." By Salinger''s account.'
+    n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson: the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 345–46. The Papers date the resignation Mar. 19, the day of the lunch; Salinger has the lunch "the next day" after Mar. 17 (345). See [[cal.1964-03-17.elections-1964-primaries-2]]. Names: Salinger.'
+    tags: [name:salinger-pierre]
+  - id: cal.1964-03-18.elections-1964-primaries-4
+    when: Mar. 19
+    date: '1964-03-19'
+    place: washington
+    thread: elections-1964-primaries
+    follows:
+      - cal.1964-03-18.elections-1964-primaries
+    c: 'The Sans Souci, leaving. Salinger to O''Donnell, lunching with his wife: "You said I didn''t have the guts. I just want you to know that I''m on my way to the President''s office to resign." By Salinger''s account.'
+    n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson: the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 346. The Papers date the resignation Mar. 19, the day of the lunch. See [[cal.1964-03-18.elections-1964-primaries]]. Names: Salinger, O''Donnell.'
+    tags: [name:salinger-pierre, name:odonnell-kenneth-p]
+  - id: cal.1964-03-18.elections-1964-primaries-2
+    when: Mar. 19
+    date: '1964-03-19'
+    thread: elections-1964-primaries
+    follows:
+      - cal.1964-03-18.elections-1964-primaries-4
+    c: 'Justice Goldberg, telephoned by Salinger, is aghast: a Virginia voter can hardly run for the Senate from California. A half hour later, after a clerk looks into it, he calls back: Salinger is eligible, but if the case reaches the Supreme Court Goldberg must disqualify himself. By Salinger''s account.'
+    n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson: the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 346. The Papers date the resignation Mar. 19, the day of the call. After [[cal.1964-03-18.elections-1964-primaries-4|his leaving the Sans Souci]]: back at the White House, waiting to see Johnson (346). Names: Salinger, Goldberg.'
+    tags: [name:salinger-pierre, name:goldberg-arthur-j]
+  - id: cal.1964-03-18.elections-1964-primaries-3
+    when: Mar. 19
+    date: '1964-03-19'
+    place: washington
+    thread: elections-1964-primaries
+    follows:
+      - cal.1964-03-18.elections-1964-primaries-2
+      - cal.1964-03-19.transition-and-staff-2
+      - cal.1964-03-19.press-and-broadcasting-2
+    c: 'Salinger''s last call from the White House, to Governor Brown, who has come out for Cranston. Brown is dead set against him: too late, and a primary fight drains Democratic money. Salinger asks him only to say he favors Cranston; Brown: "If I''m for somebody, I''m not going to stand on the sidelines." By Salinger''s account.'
+    n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson: the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 348. The Papers date the resignation Mar. 19, the day of the call. After [[cal.1964-03-18.elections-1964-primaries-2|the call to Goldberg]], in Salinger''s sequence: Goldberg while he waited to see Johnson (346); Brown his last call, made as he cleared his desk after the resignation and the briefing (348). The order: after [[cal.1964-03-19.transition-and-staff-2]] and [[cal.1964-03-19.press-and-broadcasting-2]], [[w.salinger-with-kennedy]], 347–48 (Reedy, the filing fee, the briefing, then "forty-five minutes" to clean out his desk and the last call). Names: Salinger, Brown, Cranston.'
+    tags: [name:salinger-pierre, name:brown-edmund-g, name:cranston-alan]
   - id: cal.1964-03-20.africa-wheelus
     when: Mar. 20
     date: '1964-03-20'
@@ -5718,6 +5756,19 @@ entries:
       - 1964-03-20T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1964-03-19.elections-1964-primaries
+    when: Mar. 20
+    date: '1964-03-20'
+    place: san-francisco
+    thread: elections-1964-primaries
+    also: [elections-1964]
+    c: San Francisco, the Fairmont, after a 4 a.m. arrival. With Don Bradley and his brother Herbert, Salinger in ten hours gets the sixty-five signatures on his nominating petition and $25,000 in loans from five friends, not refundable if the court rules him out. Goldstein and Kopp are to argue his eligibility without fee; 7,000 posters are ordered. By Salinger's account.
+    n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson: the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 348–49. Salinger leaves for California "tonight", the night of the resignation (346), and lands at 4 a.m. (348): Mar. 20. See [[cal.1964-03-19.elections-1964-primaries-2]]. Names: Salinger. Check: the filing deadline: Mar. 19 in the book (345); its own hours, "twenty-two hours" from 7 p.m. California time (348), make it Mar. 20.'
+    tags: [name:salinger-pierre, city:san-francisco, state:ca]
+    time_range:
+      - 1964-03-20T12:00Z
+      - 1964-03-20T22:00Z
+    time_zone: America/Los_Angeles
   - id: cal.1964-03-21.elections-1964-state-conventions
     when: Mar. 21
     date: '1964-03-21'
@@ -6480,8 +6531,16 @@ entries:
     place: huntsville
     thread: space
     c: 'Huntsville, Ala. Mrs. Johnson, with Carpenter and twenty-five or thirty of the press, lands at the Marshall Space Flight Center; Webb, Von Braun and Representative Robert Jones meet her. Her speech to about 300: she comes because Johnson wrote the Space Act in 1958, because women hold 20 percent of the payroll, and because the space program takes the South into the future. "The South has hitched its wagon to the stars."'
-    n: '[[w.johnson-white-house-diary]], 98–99 (Lady Bird Johnson''s account). Names: Lady Bird Johnson, Johnson, Webb, Von Braun, Carpenter.'
+    n: '[[w.johnson-white-house-diary]], 98–99 (Lady Bird Johnson''s account). Check: the clock of "a little past 9": Mrs. Johnson left Washington at 7 and does not say whether the hour is Washington''s or Huntsville''s (Central); the range holds both readings. Names: Lady Bird Johnson, Johnson, Webb, Von Braun, Carpenter.'
+    src:
+      c: 2e2f128e
+      rows:
+        - 'w.johnson-white-house-diary 98–99: time'
     tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:webb-james-e, name:von-braun-wernher, name:carpenter-liz]
+    time_range:
+      - 1964-03-24T14:05Z
+      - 1964-03-24T15:20Z
+    time_zone: America/Chicago
   - id: cal.1964-03-24.space-3
     when: Mar. 24
     date: '1964-03-24'
@@ -6517,8 +6576,13 @@ entries:
     src:
       c: 396c7910
       rows:
-        - 'w.risen-bill-of-the-century 188: all'
+        - 'w.risen-bill-of-the-century 188: time'
     tags: [name:russell-richard-b]
+    time_range:
+      - 1964-03-24T11:00Z
+      - 1964-03-24T17:00Z
+    time_band: morning
+    time_zone: America/New_York
   - id: cal.1964-03-24.china-leadership
     when: Mar. 24
     date: '1964-03-24'
@@ -6752,8 +6816,12 @@ entries:
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 629: ?'
         - 'w.zhou-enlai-waijiao-huodong 399: 1'
-        - 'w.yang-shangkun-riji II, 363: ?'
+        - 'w.yang-shangkun-riji II, 363: time'
     tags: [name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:peng-zhen, polity:prc, polity:japan, vis:only:prc+japan]
+    time_range:
+      - 1964-03-25T07:30Z
+      - 1964-03-25T10:30Z
+    time_zone: Asia/Shanghai
   - id: cal.1964-03-25.china-leadership-3
     when: Mar. 25
     date: '1964-03-25'
