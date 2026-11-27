@@ -24,7 +24,7 @@ ops:
       c: 'Presque Isle, Maine, the airport rally: "I am delighted to start on this campaign, on this first day, in this county."{2}'
       n: 'Remarks of Senator John F. Kennedy, Presque Isle, Maine, Airport Rally, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-presque-isle-maine-airport-rally)
         (Sept. 2, 1960). [[w.white-making-of-the-president]], 251–52 (Friday evening in Maine; not Presque Isle by name); [[w.communications-freedom-of-communications-part]], 80–81 (Presque Isle,
-        the airport rally, "on this first day"). The hour: "Friday afternoon I campaigned in Aroostook County, Maine" (Kennedy at Palmer, Sept. 3, [[w.communications-freedom-of-communications-part]],
+        the airport rally, "on this first day"). The hour: "yesterday afternoon I campaigned in Aroostook County, Maine" (Kennedy at Palmer, Sept. 3, [[w.communications-freedom-of-communications-part]],
         100). Split under R17: the take-off from Baltimore is [[cal.1960-09-02.elections-1960-kennedy-5]]. The order: after [[cal.1960-09-02.elections-1960-kennedy-4]], Manchester, which a reporter
         at the Portland press conference places "this morning" ([[w.communications-freedom-of-communications-part]], 90), against Presque Isle "Friday afternoon" (100); the printed order ([[w.communications-freedom-of-communications-part]],
         78–80) agrees. See [[cal.1960-07.elections-1960-4]]. Names: Kennedy.'
@@ -84,12 +84,9 @@ ops:
     base: '54334912'
     set:
       n: 'Speech of Senator John F. Kennedy, Fairgrounds, Palmer, Alaska, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-fairgrounds-palmer-alaska) (Sept. 3, 1960).
-        [[w.communications-freedom-of-communications-part]], 100–01. The hour: "I find myself tonight in one of the youngest cities of this country" ([[w.communications-freedom-of-communications-part]],
-        100). See [[cal.1960-09-03.elections-1960-kennedy-2]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy.'
-      time_band: evening
-      time_range:
-      - 1960-09-04T05:00Z
-      - 1960-09-04T08:00Z
+        [[w.communications-freedom-of-communications-part]], 100–01. The hour: "It is now 11:30 in Washington," and "I find myself tonight in one of the youngest cities of this country" ([[w.communications-freedom-of-communications-part]],
+        100): 11:30 p.m. at Washington, 5:30 p.m. at Palmer. See [[cal.1960-09-03.elections-1960-kennedy-2]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy.'
+      time: 1960-09-04T03:30Z
       time_zone: America/Anchorage
 - edit:
     id: cal.1960-09-03.elections-1960-kennedy-5
@@ -97,25 +94,23 @@ ops:
     set:
       n: 'Speech of Senator John F. Kennedy, the Edgewater, Anchorage, AK, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-the-edgewater-anchorage-ak) (Sept. 3, 1960).
         [[w.communications-freedom-of-communications-part]], 101–05. The hour: "it is now 4 o''clock in the morning for those of us living on eastern time"; Bartlett: "we started out about 9 o''clock
-        in the morning from Baltimore" ([[w.communications-freedom-of-communications-part]], 101). See [[cal.1960-09-03.elections-1960-kennedy-4]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy,
+        in the morning from Baltimore" ([[w.communications-freedom-of-communications-part]], 101): 4 a.m. at Washington, about 10 p.m. at Anchorage. See [[cal.1960-09-03.elections-1960-kennedy-4]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy,
         Bartlett, Gruening.'
-      time_band: night
-      time_range:
-      - 1960-09-04T08:00Z
-      - 1960-09-04T10:00Z
+      time: 1960-09-04T08:00Z
+      time_approx: true
       time_zone: America/Anchorage
 - edit:
     id: cal.1960-09-05.latin-america
     base: 7861c572
     set:
-      c: 'The OAS Committee of 21, convened at Bogotá Sept. 5. Dillon, Sept. 6, offers an inter-American program for social development: land, housing, schools, health.{1} Dillon speaks at the
+      c: 'Bogotá, the OAS Committee of 21. Dillon offers an inter-American program for social development: land, housing, schools, health.{1} Dillon speaks at the
         first plenary session of the meeting, the third in eighteen months of the OAS''s economic policy-making body; Julio César Turbay Ayala, Colombia''s Foreign Minister, presides. The program
         is "broad new social development"; a $500,000,000 fund "a first step."{2}'
       n: 'Juan de Onís, "U.S. Tells Latins of Plan to Widen Development Aid," [*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html), at 1, 5 (not
         the Committee of 21 by name, nor land, housing, schools and health as such). FRUS 1958–60, V, microfiche supp., docs. [ETA–48](https://history.state.gov/historicaldocuments/frus1958-60v05mSupp/eta_d48),
         [ETA–49](https://history.state.gov/historicaldocuments/frus1958-60v05mSupp/eta_d49) (instructions, Sept. 2). Dillon''s statement: [[w.department-of-state-bulletin]], [Oct. 3, 1960, 533](https://archive.org/details/departmentofstat4360unit/page/533/mode/1up)
         (the Committee convened Sept. 5–13; Dillon''s statement "on September 6," press release 513, dated Sept. 6). To check: [[w.rabe-eisenhower-and-latin-america]]; [[w.taffet-foreign-aid-as-foreign]];
-        [[w.levinson-alliance-that-lost-its]]; [[w.rabe-most-dangerous-area-in]]. Names: Dillon, Turbay Ayala.'
+        [[w.levinson-alliance-that-lost-its]]; [[w.rabe-most-dangerous-area-in]]. See [[cal.1960-09-05.latin-america-3]]. Names: Dillon, Turbay Ayala.'
       when: Sept. 6
       date: '1960-09-06'
     kind: correct
@@ -220,14 +215,16 @@ ops:
       thread: elections-1960-kennedy
       follows:
       - cal.1960-09-13.elections-1960-kennedy-4
-      c: 'Texarkana, Ark.-Tex., the fairgrounds. Kennedy, at the fair at Congressman Patman''s invitation: "I come to this State on this occasion as the Democratic standard bearer." Boston, Tex.,
-        and Boston, Mass., "only a few inches apart"; Lincoln, 1860: "we see the storm coming."'
+      c: 'Texarkana, Ark.-Tex., the fairgrounds, with Patman and Rayburn. Kennedy, at the fair at Patman''s invitation: "I come to this State on this occasion as the Democratic standard bearer." Boston,
+        Tex., and Boston, Mass., "only a few inches apart"; of a President''s letter of a hundred years before: "we see the storm coming."'
       n: '[[w.communications-freedom-of-communications-part]], 226–27 (Kennedy: "Yesterday I was shown the Alamo"; the text follows the Dallas speech and precedes the note on the St. Louis airport).
-        The order: after [[cal.1960-09-13.elections-1960-kennedy-4]], the printed order alone ([[w.communications-freedom-of-communications-part]], 223–26). See [[cal.1960-09-13.elections-1960-kennedy-4]].
-        Names: Kennedy, Patman.'
+        The order: after [[cal.1960-09-13.elections-1960-kennedy-4]], the printed order alone ([[w.communications-freedom-of-communications-part]], 223–26). See [[cal.1960-09.elections-1960-6]],
+        [[cal.1960-09-13.elections-1960-kennedy-4]]. Names: Kennedy, Patman, Rayburn. Check: whether [[cal.1960-09.elections-1960-6]] (Woods: the Arkansas delegation turns out for Kennedy, McClellan
+        in the lead; its note cites this page) is this appearance.'
       tags:
       - name:kennedy-john-f
       - name:patman-wright
+      - name:rayburn-sam
       - state:ar
       - state:tx
       - city:texarkana
@@ -243,8 +240,7 @@ ops:
     id: cal.1960-09-14.labor
     base: 5db9d6ea
     set:
-      n: '[[w.communications-freedom-of-communications-part]], 227–230. The hour: "this morning" (Kennedy, [[w.communications-freedom-of-communications-part]], 228); Nixon''s appearance at the
-        same convention was set for 8:15 the next morning ([[w.nixon-six-crises]], 331). Names: Kennedy.'
+      n: '[[w.communications-freedom-of-communications-part]], 227–230. The hour: "this morning" (Kennedy, [[w.communications-freedom-of-communications-part]], 228). Names: Kennedy.'
       time_band: morning
       time_range:
       - 1960-09-14T11:00Z
@@ -274,7 +270,7 @@ ops:
         (Sept. 14, 1960). [[w.nixon-six-crises]], 331 ("a noontime stop at Grand Forks"); [[w.white-making-of-the-president]], 273–74 (Grand Forks to Peoria, Wednesday). Split under R17: Peoria
         is [[cal.1960-09-14.elections-1960-nixon]] (the rally) and [[cal.1960-09-14.elections-1960-nixon-2]] (the press conference); St. Louis, [[cal.1960-09-14.elections-1960-nixon-3]] (the airport)
         and [[cal.1960-09-14.elections-1960-nixon-4]] (the hotel); the fever of Sept. 15 is [[cal.1960-09-15.elections-1960-nixon]]. See [[cal.1960-09-13.elections-1960]]. Names: Nixon. Check:
-        the hour; Nixon has a "noontime stop," while the speech itself and a reporter at Peoria say "this afternoon."'
+        the hour; Nixon has a "noontime stop," while the speaker who introduces him at the field house (APP) and a reporter at Peoria say "this afternoon."'
       src:
         c: a9a8c164
         rows:
@@ -386,6 +382,7 @@ ops:
       n: '[[w.communications-freedom-of-communications-part]], 242–243. The hour: "a turnout for a Democratic candidate at 8 o''clock in the morning" ([[w.communications-freedom-of-communications-part]],
         242). Names: Kennedy.'
       time: 1960-09-15T12:00Z
+      time_approx: true
       time_zone: America/New_York
 - edit:
     id: cal.1960-09-15.elections-1960-kennedy-2
@@ -430,37 +427,36 @@ ops:
       time_zone: Europe/Moscow
 - check:
     id: cal.1960-09-20.farm
-    text: 'Check: the place and the day; Kennedy spoke at the Sheraton Park, Washington, on Sept. 20 and at Sioux City on the evening of Sept. 21 ([[w.communications-freedom-of-communications-part]],
-      295, 308), and Goodwin has him bring the draft "the next night" before the 3 a.m. call (119), so the suite scene is a night or two before the contest; Goodwin names no place.'
-- edit:
-    id: cal.1960-09-07.elections-1960-kennedy-6
-    base: bd2d9fbb
-    set:
-      n: 'Claude Sitton, "Peale Is Criticized," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html) (seven States; not Gore or the Governors).
-        "Kennedy Faces Southern Battle Over Religion, Brother Reports," [*New York Times*, Sept. 8, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html). The planning session
-        met Sept. 8: [[cal.1960-09-08.elections-1960-kennedy-11]]. Names: Robert Kennedy, Kennedy, Hodges, Vandiver, Gore.'
+    text: 'Check: the place and the day; Goodwin names no place. Kennedy spoke at the Sheraton Park, Washington, on Sept. 20 and at Sioux City late on Sept. 21 ([[w.communications-freedom-of-communications-part]],
+      295, 308). Goodwin''s "less than forty-eight hours" (118) and his draft brought "the next night," before the 3 a.m. call (119), put the scene on the night of Sept. 20; his windows on Nebraska fit Sioux
+      City, Sept. 21.'
 - edit:
     id: cal.1960-09-21.elections-1960-kennedy-5
     base: d2604830
     set:
-      n: '[[w.communications-freedom-of-communications-part]], 308–311. The hour: "tonight" ([[w.communications-freedom-of-communications-part]], 308–09): the evening. Check: Kennedy at the Sioux
-        City breakfast the next morning says one must be ready "to speak at 11 o''clock at night or 8 in the morning" (314). Names: Kennedy, Nixon.'
-      time_band: evening
-      time_range:
-      - 1960-09-22T00:00Z
-      - 1960-09-22T03:00Z
+      n: '[[w.communications-freedom-of-communications-part]], 308–311. The hour: "tonight," after a speaker of "2 hours and 45 minutes" (308); and Kennedy at the Sioux City breakfast the next
+        morning: "you have to be prepared to speak at 11 o''clock at night or 8 in the morning" (314): about 11 p.m. Names: Kennedy, Nixon.'
+      time: 1960-09-22T04:00Z
+      time_approx: true
       time_zone: America/Chicago
 - edit:
     id: cal.1960-09-22.elections-1960-kennedy
     base: 696630fe
     set:
-      c: 'Sioux City, Iowa, the breakfast. Kennedy on Africa: "Why should we suddenly offer 300 scholarships to the Congo when we have not offered nearly that number to all of Africa?"'
       n: '[[w.communications-freedom-of-communications-part]], 314–316. The hour: "you have to be prepared to speak at 11 o''clock at night or 8 in the morning ... coming to this breakfast" ([[w.communications-freedom-of-communications-part]],
         314); about 8 a.m. Names: Kennedy.'
       time: 1960-09-22T13:00Z
       time_approx: true
       time_zone: America/Chicago
-    kind: reword
+- add-words:
+    id: cal.1960-09-22.elections-1960-kennedy
+    after: Sioux City, Iowa.
+    words: A breakfast, with Governor Loveless.
+    item: '[[w.communications-freedom-of-communications-part]], 314'
+- names:
+    id: cal.1960-09-22.elections-1960-kennedy
+    add: [Loveless]
+    tags: [name:loveless-herschel-c]
 - edit:
     id: cal.1960-09-22.farm-5
     base: '10458204'
@@ -546,18 +542,18 @@ ops:
     id: cal.1960-09-26.elections-1960-4
     base: d3ff19c3
     set:
-      c: Chicago, the Pick-Congress.{1} Nixon, arrived late Sunday, speaks to the Carpenters at 11 a.m.{2}
+      c: Chicago, the Pick-Congress, his hotel.{1} Nixon, arrived late Sunday, speaks to the Carpenters at the Hotel Morrison at 11 a.m.{2}
       n: 'Speech by the Vice President Before the United Brotherhood of Carpenters & Joiners, Hotel Morrison, Chicago, IL, [APP](https://www.presidency.ucsb.edu/documents/speech-the-vice-president-before-the-united-brotherhood-carpenters-joiners-hotel-morrison)
         (Sept. 26, 1960). [[w.white-making-of-the-president]], 285–86; [[w.nixon-rn]], 218–19 (the carpenters'' convention, a speech in the morning); [[w.nixon-six-crises]], 337 (the eleven o''clock
         speech to the Carpenters'' convention, his second campaign speech to a union). The hour: "an eleven o''clock appearance" ([[w.nixon-six-crises]], 337). Split under R17: the afternoon is
-        [[cal.1960-09-26.elections-1960-nixon]]; the drive to the studio, [[cal.1960-09-26.elections-1960-nixon-2]]. The debate: [[cal.1960-09-26.elections-1960]]. See [[cal.1960-09-25.elections-1960-3]].
+        [[cal.1960-09-26.elections-1960-nixon]]; the drive to the studio, [[cal.1960-09-26.elections-1960-nixon-2]]. The hotel of the speech: APP''s title. The debate: [[cal.1960-09-26.elections-1960]]. See [[cal.1960-09-25.elections-1960-3]].
         Names: Nixon.'
       time: 1960-09-26T16:00Z
       time_zone: America/Chicago
       tags:
       - name:nixon-richard-m
       src:
-        c: 3aeb3164
+        c: c0cd01fc
         rows:
         - 'w.white-making-of-the-president 285–86: 1, 2'
         - 'w.nixon-rn 218–19: 2'
@@ -576,12 +572,13 @@ ops:
       thread: elections-1960-nixon
       follows:
       - cal.1960-09-26.elections-1960-4
-      c: Chicago, the Pick-Congress. Nixon, back from the Carpenters at 12:30, is out of reach of his television advisers; he sees one visitor for five minutes in his suite and takes one long
-        telephone call. Lodge, by report, urges him to erase the "assassin image."
+      c: Chicago, the Pick-Congress. Nixon, back from the Carpenters at 12:30, is out of reach of his television advisers, Mrs. Nixon with him; he sees one visitor for five minutes in his suite and
+        takes one long telephone call. Lodge, by report, urges him to erase the "assassin image."
       n: '[[w.white-making-of-the-president]], 285 ("When Nixon returned to his hotel from the Brotherhood appearance at 12:30"; "one visitor for five minutes that afternoon"; Lodge "reportedly").
-        The hour: "at 12:30" and "that afternoon" ([[w.white-making-of-the-president]], 285). See [[cal.1960-09-26.elections-1960-4]]. Names: Nixon, Lodge.'
+        The hour: "at 12:30" and "that afternoon" ([[w.white-making-of-the-president]], 285). See [[cal.1960-09-26.elections-1960-4]]. Names: Nixon, Pat Nixon, Lodge.'
       tags:
       - name:nixon-richard-m
+      - name:nixon-pat
       - name:lodge-henry-cabot
       - state:il
       - city:chicago
@@ -607,11 +604,7 @@ ops:
       - name:nixon-richard-m
       - state:il
       - city:chicago
-      time_band: evening
-      time_range:
-      - 1960-09-27T00:00Z
-      - 1960-09-27T03:00Z
-      time_zone: America/Chicago
+      - ok:fields-time
 - follows:
     id: cal.1960-09-26.labor
     add:
@@ -677,3 +670,70 @@ ops:
       - name:khrushchev-nikita-s
       time: 1960-09-30T14:10Z
       time_zone: America/New_York
+- add-words:
+    id: cal.1960-09-14.elections-1960
+    after: New York.
+    words: 'The Commodore Hotel. Kennedy accepts the Liberal Party''s nomination, before Niebuhr, Stevenson and Meany.'
+    item: '[[w.communications-freedom-of-communications-part]], 238–39'
+- names:
+    id: cal.1960-09-14.elections-1960
+    add: [Stevenson, Meany]
+    tags: [name:stevenson-adlai-e, name:meany-george]
+- edit:
+    id: cal.1960-09-15.elections-1960-kennedy-8
+    base: 80ac53d8
+    set:
+      n: '[[w.communications-freedom-of-communications-part]], 249–252. The hour: "I am delighted to be here in Pennsylvania tonight" ([[w.communications-freedom-of-communications-part]],
+        249): the evening. Names: Kennedy.'
+      time_band: evening
+      time_range:
+      - 1960-09-15T23:00Z
+      - 1960-09-16T02:00Z
+      time_zone: America/New_York
+- add-words:
+    id: cal.1960-09-15.elections-1960-kennedy-8
+    after: end
+    words: 'On Cuba: Communism "8 minutes by jet from the coast of Florida."'
+    item: '[[w.communications-freedom-of-communications-part]], 250'
+- follows:
+    id: cal.1960-09-26.elections-1960
+    add:
+    - cal.1960-09-26.elections-1960-nixon-2
+    basis: '[[w.white-making-of-the-president]], 285–86 (the drive to the studio; Nixon enters it "about an hour before air time")'
+- add:
+    entry:
+      id: cal.1960-08-30.latin-america
+      when: Aug. 30
+      date: '1960-08-30'
+      place: washington
+      thread: latin-america
+      c: 'Washington. The State Department announces that Under Secretary Dillon will head the U.S. delegation to the third meeting of the OAS Committee of 21, at Bogotá.'
+      n: '[[w.department-of-state-bulletin]], [Oct. 3, 1960, 540–41](https://archive.org/details/departmentofstat4360unit/page/540/mode/1up) (press release 501, Aug. 30; the delegation listed, 541).
+        Names: Dillon.'
+      tags:
+      - name:dillon-c-douglas
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1960-09-03.latin-america
+      when: Sept. 3
+      date: '1960-09-03'
+      place: bogota
+      thread: latin-america
+      c: 'Bogotá. Dillon''s arrival statement for the Committee of 21: Colombia''s stand at the foreign ministers'' meeting in Costa Rica; Eisenhower has asked Congress for more money for social
+        progress; "social progress will be accelerated throughout the hemisphere."'
+      n: '[[w.department-of-state-bulletin]], [Oct. 3, 1960, 540](https://archive.org/details/departmentofstat4360unit/page/540/mode/1up) (press release 511, Sept. 3). See [[cal.1960-08-30.latin-america]].
+        Names: Dillon, Eisenhower.'
+      tags:
+      - name:dillon-c-douglas
+      - name:eisenhower-dwight-d
+- add:
+    entry:
+      id: cal.1960-09-05.latin-america-3
+      when: Sept. 5
+      date: '1960-09-05'
+      place: bogota
+      thread: latin-america
+      c: Bogotá. The third meeting of the OAS Committee of 21 convenes; it sits to Sept. 13.
+      n: '[[w.department-of-state-bulletin]], [Oct. 3, 1960, 533](https://archive.org/details/departmentofstat4360unit/page/533/mode/1up) (the Committee "convened at Bogota, Colombia, September
+        5-13"). See [[cal.1960-09-03.latin-america]].'
