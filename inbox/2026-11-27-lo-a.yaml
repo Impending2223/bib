@@ -223,3 +223,428 @@ ops:
     id: cal.1960-06-30.medicare
     text: '[106 Cong. Rec. 15,064](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-7-1.pdf#page=20) (1960) (Senate, June 30, 1960; S. 3784, "the administration proposal" at 15,064, the bill listed at 15,063; the introduction, not the fees).'
     'on': Saltonstall introduces what he calls the administration bill, Flemming's plan, with fees on a sliding scale, $24 to $204 a year by income.
+- place:
+    id: cal.1960-07-01.cuba-3
+    at: havana
+    basis: n
+- place:
+    id: cal.1960-07-05.democratic-party-4
+    at: los-angeles
+    basis: n
+- place:
+    id: cal.1960-07-05.democratic-party-5
+    at: los-angeles
+    basis: n
+- place-key:
+    key: villach
+    name: Villach
+    zone: Europe/Vienna
+    in: austria
+- place:
+    id: cal.1960-07-05.soviet-union-3
+    at: villach
+    basis: n
+- edit:
+    id: cal.1960-07-05.south-asia-3
+    base: 47c05296
+    kind: correct
+    set:
+      c: India's Government alerts Army and territorial units to take over essential services should 2,200,000 central Government employees strike as called for Monday, July 11.
+      n: '"India on Strike Alert," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 8. The Cabinet''s two meetings of the week before, in the same item, are entered at [[cal.1960-06-27.south-asia]]. Check: the day.'
+- edit:
+    id: cal.1960-07-06.cuba-2
+    base: 1f47bc9e
+    kind: correct
+    set:
+      c: 'Sugar Act extended a year, [74 Stat. 330](https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-Pg330-2.pdf), the President given Cuba''s quota to fix.{1} Eisenhower signs and proclaims the cut: 700,000 short tons, the rest of Cuba''s 1960 quota but 39,752.{2}'
+      n: 'Statement by the President Upon Signing Bill and Proclamation Relating to the Cuban Sugar Quota, [1960–61 Pub. Papers 562](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=614); [Proclamation 3355](https://www.presidency.ucsb.edu/documents/proclamation-3355-determination-cuban-sugar-quota), [25 Fed. Reg. 6414](https://www.govinfo.gov/app/details/FR-1960-07-08). Senate, July 2: the President''s resolution, [84–0](https://voteview.com/rollcall/RS0860384); July 3, the conference report, [32–24](https://voteview.com/rollcall/RS0860387). FRUS 1958–60, VI, docs. [543](https://history.state.gov/historicaldocuments/frus1958-60v06/d543), [544](https://history.state.gov/historicaldocuments/frus1958-60v06/d544) (the meeting with the President, July 6). [[w.fursenko-one-hell-of-a]], 50 (the cut); [[w.paterson-contesting-castro]], 258 (the quota suspended in July). Havana''s Law 851 of the same day is entered on its own (the *Times* of July 6, 1960, at 1, 3). To check: [[w.rabe-eisenhower-and-latin-america]]; [[w.morley-imperial-state-and-revolution]]; [[w.schoultz-that-infernal-little-cuban]]; [[w.leogrande-back-channel-to-cuba]]. Names: Eisenhower, Castro, Dorticós. Check: Fursenko and Naftali have Congress cut the rest of the quota from 744,000 to 44,000 short tons, July 3 (50), citing FRUS 1958–60, VI, doc. 544.'
+      src:
+        c: a3cd560a
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=614: 1, 2'
+        - 'https://www.presidency.ucsb.edu/documents/proclamation-3355-determination-cuban-sugar-quota: 1, 2'
+        - 'https://voteview.com/rollcall/RS0860384: 1, 2'
+        - 'https://voteview.com/rollcall/RS0860387: 1, 2'
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v06/d543: 1, 2'
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-Pg330-2.pdf: 1'
+        - 'w.fursenko-one-hell-of-a 50: 2'
+        - 'via w.fursenko-one-hell-of-a 50 n.59: 2'
+        - 'w.paterson-contesting-castro 258: 2'
+- add:
+    entry:
+      id: cal.1960-07-06.cuba
+      when: July 6
+      date: '1960-07-06'
+      place: havana
+      thread: cuba
+      c: 'Havana''s Law 851: American property may be nationalized. The eight-article law, the Council of Ministers'', lets Castro and Dorticós nationalize American property by resolution, paying in thirty-year bonds at no more than 2 percent, the interest due only if the United States buys at least 3,000,000 tons of Cuban sugar a year at 5.75 cents a pound or more.'
+      n: 'Tad Szulc, "Ex-Cuban Premier Quits Regime and Asks Asylum," [*New York Times*, July 6, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/06/issue.html), at 1, 3. See [[cal.1960-07-06.cuba-2]]. Names: Castro, Dorticós.'
+      tags:
+      - name:castro-fidel
+      - name:dorticos-torrado-osvaldo
+- edit:
+    id: cal.1960-08-06.cuba
+    base: 92c509f4
+    set:
+      n: 'FRUS 1958–60, VI, docs. [570](https://history.state.gov/historicaldocuments/frus1958-60v06/d570) (Bonsal, Aug. 2), [571](https://history.state.gov/historicaldocuments/frus1958-60v06/d571) (the Mexican offer of good offices, Aug. 3). Check the counts. To check: [[w.morley-imperial-state-and-revolution]]. See [[cal.1960-07-06.cuba]]. Names: Castro.'
+- edit:
+    id: cal.1960-10-24.cuba
+    base: 89cf1706
+    set:
+      n: 'Check: the record. See [[cal.1960-07-06.cuba]]. Names: Castro.'
+- edit:
+    id: cal.1961-01-03.congress
+    base: 082d7629
+    set:
+      time: 1961-01-03T14:45Z
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- src:
+    id: cal.1961-01-03.congress
+    rows:
+    - 'w.ritchie-minutes-of-the-senate 577–81: time'
+- follows:
+    id: cal.1961-01-03.rules
+    add:
+    - cal.1961-01-03.congress
+    basis: '[[w.ritchie-minutes-of-the-senate]], 577 (the Democratic Conference at 9:45 a.m.), and 107 Cong. Rec. 1 (the Senate called to order at noon)'
+- edit:
+    id: cal.1961-01-10.cuba
+    base: d558d789
+    set:
+      n: 'Paul Kennedy, "U.S. Helps Train an Anti-Castro Force at Secret Guatemalan Air-Ground Base," [*New York Times*, Jan. 10, 1961](https://timesmachine.nytimes.com/timesmachine/1961/01/10/issue.html), at 1. [[w.jones-bay-of-pigs]], 43. To check: [[w.wyden-bay-of-pigs]]; [[w.bay-of-pigs-invasion-playa-giron-chronology]]; Merchant to Herter, Jan. 10, 1961, [FRUS 1961–63, X, doc. 15](https://history.state.gov/historicaldocuments/frus1961-63v10/d15) (cited by [[w.jones-bay-of-pigs]], 43 n.31). See [[cal.1960-10-30.cuba]].'
+- edit:
+    id: cal.1961-02-01.congo
+    base: c31fca30
+    kind: correct
+    set:
+      c: Rusk to Kennedy, "Suggested New United States Policy on the Congo."{1} A new UN mandate to bring the Congo's armed forces under control, by force if need be;{2} a middle-of-the-road government under Ileo, failing that one taking in Lumumba's followers but not Lumumba;{3} a larger UN hand in its administration.{4}
+      n: '[FRUS 1961–63, XX, doc. 17](https://history.state.gov/historicaldocuments/frus1961-63v20/d17). The NSC meeting and the approval, which the editorial note of FRUS 1961–63, XX, doc. 18, dates Feb. 1, are entered on their own. [[w.rusk-as-i-saw-it-1990]], 277; [[w.poole-joint-chiefs-of-staff]], 257. Names: Rusk, Kennedy, Ileo, Lumumba.'
+      src:
+        c: 597444fb
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d17: 1, 2, 3, 4'
+        - 'w.rusk-as-i-saw-it-1990 277: 1, 2, 3, 4'
+        - 'via x.1984.rusk-interviews-with-richard-rusk: 1, 2, 3, 4'
+        - 'w.poole-joint-chiefs-of-staff 257: 1, 3'
+- add:
+    entry:
+      id: cal.1961-02-01.congo-2
+      when: Feb. 1
+      date: '1961-02-01'
+      place: washington
+      thread: congo
+      follows:
+      - cal.1961-02-01.congo
+      c: 'The NSC, 475th meeting. Dulles, briefing: no recent dramatic developments in the Congo. Rusk summarizes the new policy proposals sent to Kennedy that day.'
+      n: '[FRUS 1961–63, XX, doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v20/d18) (editorial note: Lemnitzer''s handwritten notes of the meeting; NSC Action No. 2397–d). See [[cal.1961-02-01.congo]]. Names: Dulles, Rusk, Kennedy.'
+      tags:
+      - name:dulles-allen-w
+      - name:rusk-dean
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1961-02-01.congo-3
+      when: Feb. 1
+      date: '1961-02-01'
+      place: washington
+      thread: congo
+      follows:
+      - cal.1961-02-01.congo-2
+      c: Kennedy reviews and approves the State Department's new Congo policy.
+      n: '[FRUS 1961–63, XX, doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v20/d18) (editorial note: "subsequently reviewed and approved"); [doc. 19](https://history.state.gov/historicaldocuments/frus1961-63v20/d19) (the Department''s telegram to New Delhi, Feb. 2, 11:07 p.m.: "approved by President yesterday"). See [[cal.1961-02-01.congo]]. Names: Kennedy.'
+      tags:
+      - name:kennedy-john-f
+- add:
+    entry:
+      id: cal.1961-02-01.economy-2
+      when: Feb. 1
+      date: '1961-02-01'
+      place: washington
+      thread: economy
+      also:
+      - soviet-union
+      - congo
+      - defense
+      time: 1961-02-01T21:00Z
+      time_zone: America/New_York
+      c: 'News conference, the second, State Department auditorium, 4 p.m. Announced: the ban on dependents'' travel abroad to be lifted; five pilot food-stamp areas; faster Veterans Administration insurance dividends, over $250 million; a lower FHA maximum interest. Asked about Khrushchev and the U.N., the RB-47 fliers, a tax cut (not now), the Congo.'
+      n: 'The President''s News Conference of February 1, 1961, [1961 Pub. Papers 30](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=88) (Feb. 1, 1961). Names: Kennedy, Khrushchev.'
+      tags:
+      - name:kennedy-john-f
+      - name:khrushchev-nikita-s
+- edit:
+    id: cal.1961-02-08.cuba
+    base: 70b25bef
+    set:
+      time_range:
+      - 1961-02-08T17:00Z
+      - 1961-02-08T23:00Z
+      time_band: afternoon
+    unset:
+    - range_basis
+- src:
+    id: cal.1961-02-08.cuba
+    rows:
+    - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d39: time'
+- edit:
+    id: cal.1961-04-13.berlin-and-vienna
+    base: 9d6e4780
+    set:
+      time: 1961-04-13T22:00Z
+      n: 'Joint Statement and Remarks Following Discussions With Chancellor Adenauer of Germany, [1961 Pub. Papers 265](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=323) (Apr. 13, 1961; the note: the President spoke at 5 p.m. to newsmen outside the West Lobby). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 146 (the pledge to West Berlin). See [[cal.1961-04-13.european-community]]. Names: Kennedy, Adenauer.'
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- src:
+    id: cal.1961-04-13.berlin-and-vienna
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=323: time'
+- edit:
+    id: cal.1961-04-20.cuba
+    base: 57a79de0
+    set:
+      time_range:
+      - 1961-04-20T17:00Z
+      - 1961-04-20T23:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      n: 'Address Before the American Society of Newspaper Editors, [1961 Pub. Papers 304](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=362) (Apr. 20, 1961). The news conference of Apr. 21 calls the statement on Cuba "yesterday afternoon" ([1961 Pub. Papers 307](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365), item 1). [[w.logsdon-decision-to-go-to]] prints the memo; [[w.marolda-united-states-navy-and]], 100 (the address). [[w.schlesinger-thousand-days-1965]], 286–88 (the address); [[w.sorensen-kennedy]], 308, 629 (the address to the editors); [[w.sorensen-kennedy]], 629–30; [[w.sorensen-kennedy]], 525; [[w.goodwin-remembering-america]], 180 ("the day after the invasion collapsed," "the most truculent statement of his administration": "our restraint is not inexhaustible"; "we do not intend to be lectured on intervention by those whose character was stamped for all time on the bloody streets of Budapest"; not the editors or the space question). [[w.jones-bay-of-pigs]], 132. See [[cal.1961-04-12.space]]. Names: Johnson.'
+- src:
+    id: cal.1961-04-20.cuba
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365: time'
+- edit:
+    id: cal.1961-04-20.cuba-bay-of-pigs
+    base: 6189e45e
+    kind: correct
+    settles:
+    - 'Check: *Six Crises*''s introduction (xi)'
+    - 'Check: *Six Crises*, 406 n.12, puts it in May.'
+    - 'Check: Reeves puts the talk'
+    set:
+      n: '[[w.schlesinger-thousand-days-1965]], 336–37 (Nixon''s account, as Schlesinger quotes it); [[w.nixon-rn]], 233–35; [[w.nixon-six-crises]], xi (the visit, in April, Nixon''s first to Kennedy since the inauguration; Kennedy on a public man''s writing a book); [[w.sorensen-kennedy]], 308 (Thursday morning, Kennedy planning talks with every Republican leader, to guard national unity); [[w.wofford-of-kennedys-and-kings]], 352 (Thursday, Apr. 20, Kennedy asks Nixon to the White House: "What would you do now in Cuba?" Nixon: "I would find proper legal cover, and I would go in"; Kennedy fears Khrushchev will move on Berlin; not Laos). [[w.reeves-president-kennedy]], 99–100 (Nixon for going in). [[w.nixon-six-crises]], 406 n.12 (Kennedy asks Nixon to the White House after the Cuban defeat). Made public: Nixon, *Reader''s Digest*, Nov. 1964. To check: Richard M. Nixon, "Cuba, Castro and John F. Kennedy," *Reader''s Digest*, Nov. 1964 (cited by [[w.schlesinger-thousand-days-1965]], 337 n.). After [[cal.1961-04-20.cuba|the address]]: the news conference of Apr. 21 has the statement on Cuba "yesterday afternoon" and the talk with Nixon "last night" ([1961 Pub. Papers 307](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365), items 1, 5). See [[cal.1961-03-29.cuba]]. The Papers settle the day and the part of it: Kennedy, Apr. 21, "last night," the Vice President "came to the White House at my invitation"; so Apr. 20, at night. *Six Crises*, 406 n.12, puts it in May; Reeves (99) puts the talk the afternoon of Apr. 19, with the Revolutionary Council; *Six Crises*, xi, April. Names: Nixon, Kennedy.'
+      time_range:
+      - 1961-04-21T03:00Z
+      - 1961-04-21T05:00Z
+      time_band: night
+    unset:
+    - range_basis
+- src:
+    id: cal.1961-04-20.cuba-bay-of-pigs
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365: time'
+- edit:
+    id: cal.1961-04-29.vietnam
+    base: 851adb28
+    set:
+      time: 1961-04-29T15:00Z
+      time_zone: America/New_York
+- src:
+    id: cal.1961-04-29.vietnam
+    rows:
+    - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d40: time'
+- edit:
+    id: cal.1961-05-29.latin-america
+    base: 0a4121b0
+    kind: correct
+    set:
+      c: 'Cable to Dearborn, the consul general at Ciudad Trujillo, revised by Goodwin, with the President''s words: the United States "as matter of general policy cannot condone assassination. This last principal is overriding." The machine guns the dissidents ask for not to be passed.{1}'
+      n: '[S. Rep. No. 94-465, 212–213 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=223); [[w.schlesinger-robert-kennedy-and-his]], 491. [[w.reeves-president-kennedy]], 141; [[w.sen-church-alleged-assassination-plots]], 212–13 (the cable of May 29, revised by Goodwin: "we must not run risk of U.S. association with political assassination, since U.S. as matter of general policy cannot condone assassination. This last principal is overriding and must prevail in doubtful situation," the italicized words inserted at the President''s direction by Goodwin''s testimony; the machine guns not to be transferred). The report prints "principal," not "principle" (S. Rep. No. 94-465, 213). Made public: the Church Committee''s interim report, Nov. 20, 1975. Names: Goodwin, Kennedy.'
+- src:
+    id: cal.1961-08-31.berlin-and-vienna
+    rows:
+    - 'https://history.state.gov/historicaldocuments/frus1961-63v14/d135: time'
+- edit:
+    id: cal.1962-02-27.transition-and-staff
+    base: d8120634
+    set:
+      n: '[S. Rep. No. 94-465, 129–30 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=140) (K–J Adm. II.H.3): the friend unnamed; the White House telephone logs, 70 contacts with her, from the end of 1960 to mid-1962. [[w.schlesinger-robert-kennedy-and-his]], 494–95 (Hoover''s memorandum, the Giancana tie); [[w.branch-parting-the-waters]], 566–68 (the memorandum''s matter; the copy to O''Donnell, 568); [[w.thomas-robert-kennedy]], 166–67 (Hoover''s two memoranda of Feb. 27, to O''Donnell and to Robert Kennedy); [[w.reeves-president-kennedy]], 288 (the identical memoranda to Robert Kennedy and O''Donnell: Campbell "a regular companion" of Giancana and Roselli). Check: Branch, 566–67, gives the investigation as one of the Las Vegas wiretap on Phyllis McGuire, Maheu''s and Giancana''s, and the memorandum as counting some seventy calls by Campbell to the White House; Rosselli unnamed. To check: [[w.gage-g-man]]. See [[cal.1961-05-22.robert-kennedy]]. Made public: the Church Committee''s interim report, Nov. 20, 1975, without her name; her name in the press, Dec. 1975. Check the date. Names: Hoover, Campbell, Giancana, Robert Kennedy, O''Donnell, Lincoln, Rosselli.'
+- edit:
+    id: cal.1962-03-20.soviet-union-space
+    base: 79a68d52
+    set:
+      n: 'FRUS 1961–63, VI, doc. [43](https://history.state.gov/historicaldocuments/frus1961-63v06/d43). The letter is dated Moscow, Mar. 20; Kennedy has "received this morning" the reply at the start of his news conference of Mar. 21 (The President''s News Conference of March 21, 1962, [1962 Pub. Papers 254](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=314)). See [[cal.1962-03-07.soviet-union]]. Names: Khrushchev.'
+- edit:
+    id: cal.1962-03.king
+    base: 6635faa5
+    set:
+      n: '[S. Rep. No. 94-755, Book III, 88 (1976)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=91) (K–J Adm. II.H.3): the adviser is "Adviser A," Levison not named; the microphone installed Mar. 16, the wiretap Mar. 20, authorized by the Attorney General on Hoover''s memorandum of Mar. 6 (n.34, run on to 89). [[w.schlesinger-robert-kennedy-and-his]], 355; [[w.branch-parting-the-waters]], 568–69; [[w.kotz-judgment-days]], 72; [[w.thomas-robert-kennedy]], 170 (Robert Kennedy signs off on the wiretap). Check: Branch, 568–69 & n.2, gives the microphones authorized by Hoover Mar. 2, planted by agents who broke into the office the night of Mar. 15, the receivers turned on at 10:10 a.m. Mar. 16, the wiretap hooked up the afternoon of Mar. 20 (citing SAC New York to Director, airtels, Mar. 16, 20, 1962, FBI file 100-392452, serials 146, 147). Check: Thomas puts the authorization in February 1962, a few days after Hoover told Robert Kennedy of Exner (250, citing Branch, 568). Check: the report''s note (Book III, 88 n.34, run on to 89) has the microphone "approved only at the FBI division level" (Bland to Sullivan, Mar. 2, 1962) and the wiretap authorized by the Attorney General; it does not say he was not told of the microphone. Made public: S. Rep. No. 94-755, Book III (1976). See [[cal.1962-01-08.king]]. Names: Hoover, Robert Kennedy, Levison.'
+- src:
+    id: cal.1962-08-06.economy
+    row: https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-wilbur-mills-tax-cut-proposal
+    'on': Kennedy and Mills on a tax cut, recorded.
+- src:
+    id: cal.1962-11-16.economy
+    row: https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-economy
+    'on': 'Meeting on the economy and the tax program for 1963, recorded: Kennedy with Dillon, Fowler, Bell, Wirtz, Heller, Gordon, Gudeman, Schultze, Samuelson, Solow, Tobin and Ackley.'
+- edit:
+    id: cal.1962-11-20.missile-crisis
+    base: 82a914db
+    kind: correct
+    set:
+      c: Quarantine lifted.{1}
+      n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 830 (the quarantine), 834 (Collins). [[w.fursenko-one-hell-of-a]], 310 (the quarantine); [[w.fursenko-khrushchevs-cold-war]], 503 (the quarantine); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 217 (the quarantine lifted at once). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). The answer on Collins (question 7, 1962 Pub. Papers 834) is entered on its own. After [[cal.1962-11-20.missile-crisis-3|Robert Kennedy''s talk with Dobrynin]], four hours before. After [[cal.1962-11-20.missile-crisis-2]], four hours before the press conference (the sources above). See [[cal.1962-05-24.missile-crisis]], [[cal.1962-10-22.missile-crisis]]. Names: Collins, Kennedy.'
+      src:
+        c: 172080b3
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890: 1'
+        - 'w.fursenko-one-hell-of-a 310: 1'
+        - 'w.fursenko-khrushchevs-cold-war 503: 1'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 217: 1'
+- add:
+    entry:
+      id: cal.1962-11-20.missile-crisis-4
+      when: Nov. 20
+      date: '1962-11-20'
+      place: washington
+      thread: missile-crisis
+      also:
+      - press-and-broadcasting
+      follows:
+      - cal.1962-11-20.civil-rights-the-executive
+      time: 1962-11-20T23:00Z
+      time_zone: America/New_York
+      c: 'Asked, at the news conference, of Collins, of the National Association of Broadcasters, charging State and Defense with news suppression in the Cuban crisis: "I have no apologies";{2} the news "dribbled out" before the response was settled and the allies consulted would have been "a great mistake and possibly a disaster." One newspaper learned details the Sunday and did not print them.{3}'
+      n: '[1962 Pub. Papers 830](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=890), at 834 (question 7). [[w.sorensen-kennedy]], 321–22 (the answer on Collins). The order: after the housing order, which the conference took up at 831–32 (1962 Pub. Papers). See [[cal.1962-11-20.missile-crisis]]. Names: Collins, Kennedy.'
+      tags:
+      - name:kennedy-john-f
+      - name:collins-leroy
+- edit:
+    id: cal.1963-05-21.alabama-birmingham
+    base: d177e4f4
+    set:
+      n: 'The Senate sat from noon to 6:28 p.m.: [Daily Digest, D219](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=217). [109 Cong. Rec. 9115](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=51) (1963) (Stennis); [109 Cong. Rec. 9140](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=76) (1963) (Morse) (May 21, 1963). [[w.mann-walls-of-jericho]], 350–51. The Record (9115) reads "this direct assault upon and threat to"; Mann, 351, drops "assault upon and." See [[cal.1963-04-03.alabama]]. Names: Stennis, Morse.'
+      src:
+        c: 5bc74020
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=51: 1'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=76: 2'
+        - 'w.mann-walls-of-jericho 350–51: 1, 2'
+        - 'via w.mann-walls-of-jericho 351 n.segregationists-loudly-decried-perceived-violations: 1, 2'
+- edit:
+    id: cal.1963-09-24.testing
+    base: d0b9453d
+    settles:
+    - 'Check: the page.'
+    set:
+      n: 'The Senate sat from 10 a.m. (its order of Sept. 18 that it "convene at 10 a.m." that day) to 4:52 p.m.: [Daily Digest, D448](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=446), [D456](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=454). [109 Cong. Rec. 17,832](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-1.pdf#page=12) (1963) (Sept. 24; the roll call on the amended resolution of ratification, 80 to 19). Statement by the President Following the Senate Vote on the Nuclear Test Ban Treaty, [1963 Pub. Papers 704](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=762) (Sept. 24, 1963). [FRUS 1961–63, VII, doc. 366](https://history.state.gov/historicaldocuments/frus1961-63v07/d366). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 354 (the vote); [[w.goldberg-barry-goldwater]], 175 (80–19, late September; Goldwater''s amendments defeated); [[w.sorensen-kennedy]], 739–40 (eleven Democrats, all Southerners but Lausche, and eight Republicans, all west of the Missouri but Mrs. Smith; Goldwater''s Cuba condition; "a welcome culmination"); [[w.poole-joint-chiefs-of-staff]], 105; [[w.taylor-swords-and-plowshares]], 287; [[w.debenedetti-american-ordeal]], 63 (the Senate''s consent). To check: [[w.terchek-making-of-the-test]]. See [[cal.1963-06-10.testing]]. Names: Russell, Stennis, Thurmond, Goldwater, Smith.'
+      src:
+        c: 2ef7c8ad
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt13/pdf/GPO-CRECB-1963-pt13-8-1.pdf#page=12: 1, 2'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=762: 1'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v07/d366: 1'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 354: 1'
+        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 354 n.112: 1'
+        - 'w.goldberg-barry-goldwater 175: 1'
+        - 'w.sorensen-kennedy 739–40: 1, 2'
+        - 'w.poole-joint-chiefs-of-staff 105: 1'
+        - 'w.taylor-swords-and-plowshares 287: 1'
+        - 'w.debenedetti-american-ordeal 63: 1'
+- edit:
+    id: cal.1963-06-27.europe-and-the-alliance-kennedy-in-3
+    base: fcc80942
+    set:
+      time: 1963-06-27T10:30Z
+      time_zone: Europe/Dublin
+- src:
+    id: cal.1963-06-27.europe-and-the-alliance-kennedy-in-3
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=589: time'
+- edit:
+    id: cal.1963-06-28.europe-and-the-alliance-kennedy-in
+    base: 4862d1dc
+    set:
+      time: 1963-06-28T09:15Z
+      time_zone: Europe/Dublin
+- src:
+    id: cal.1963-06-28.europe-and-the-alliance-kennedy-in
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=591: time'
+- edit:
+    id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-6
+    base: fa197d75
+    set:
+      time: 1963-06-28T16:00Z
+      time_zone: Europe/Dublin
+- src:
+    id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-6
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=597: time'
+- edit:
+    id: cal.1963-06-29.europe-and-the-alliance-kennedy-in
+    base: 9afc325d
+    set:
+      time: 1963-06-29T11:00Z
+      time_zone: Europe/Dublin
+- src:
+    id: cal.1963-06-29.europe-and-the-alliance-kennedy-in
+    rows:
+    - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=598: time'
+- add:
+    entry:
+      id: cal.1963-06-26.europe-and-the-alliance-kennedy-in-3
+      when: June 26
+      date: '1963-06-26'
+      place: dublin
+      thread: europe-and-the-alliance-kennedy-in-europe
+      follows:
+      - cal.1963-06-26.europe-and-the-alliance-kennedy-in
+      time: 1963-06-26T19:00Z
+      time_zone: Europe/Dublin
+      c: 'Dublin Airport, 8 p.m. Kennedy to de Valera: eight of his grandparents left these shores; "all of them who visit Ireland come home"; de Valera "an old and valued friend of my father."'
+      n: 'Remarks Upon Arrival at Dublin Airport, [1963 Pub. Papers 531](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=589) (June 26, 1963; the note: spoken at 8 p.m.). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-2]]. Names: Kennedy, de Valera.'
+      tags:
+      - name:kennedy-john-f
+      - name:de-valera-eamon
+- follows:
+    id: cal.1963-06-26.europe-and-the-alliance-kennedy-in-2
+    add:
+    - cal.1963-06-26.europe-and-the-alliance-kennedy-in-3
+    basis: the airport remarks at 8 p.m. (1963 Pub. Papers 531, note)
+- edit:
+    id: cal.1963-09-18.vietnam-3
+    base: 115dc699
+    kind: correct
+    set:
+      c: McNamara proposes meeting Lodge and Harkins in Hawaii instead; Kennedy will have him see it on the spot.
+      n: '[[w.mcnamara-in-retrospect]], ch. 3 at n.26 (McNamara''s proposal; Bundy to Rusk: "the President thinks you have to look at it to see it"). Kennedy''s telegram to Lodge of 4:52 p.m. (FRUS 1961–63, IV, doc. 128) is entered on its own. See [[cal.1963-09-18.vietnam-2]]. Names: McNamara, Lodge, Harkins, Kennedy, Ngô Đình Diệm.'
+- add:
+    entry:
+      id: cal.1963-09-18.vietnam-4
+      when: Sept. 18
+      date: '1963-09-18'
+      place: washington
+      thread: vietnam
+      follows:
+      - cal.1963-09-18.vietnam-2
+      time: 1963-09-18T20:52Z
+      time_zone: America/New_York
+      c: 'Kennedy to Lodge, Deptel 431, 4:52 p.m., answering Embtel 536: "my need for this visit is very great indeed"; McNamara will want to speak "some home truths" to Diệm.'
+      n: '[Deptel 431, the President to Lodge, Sept. 18, 1963, FRUS 1961–63, IV, doc. 128](https://history.state.gov/historicaldocuments/frus1961-63v04/d128) ("I appreciate your prompt comment"; Washington, 4:52 p.m.). Check: the line this replaces had "some hard truths"; doc. 128 reads "home truths." See [[cal.1963-09-18.vietnam-3]]. Names: Kennedy, Lodge, McNamara, Ngô Đình Diệm.'
+      tags:
+      - name:kennedy-john-f
+      - name:lodge-henry-cabot
+      - name:mcnamara-robert-s
+      - name:ngo-dinh-diem
+- primary:
+    id: cal.1963-10-29.civil-rights-bill-2
+    text: '[Lyndon B. Johnson, John F. Kennedy, Carl B. Albert, Leslie C. Arends, Emanuel Celler, Charles A. Halleck and others, 9:30 a.m.](https://prde.upress.virginia.edu/conversations/4006303), JFK Meeting Tape 118.2 (PRDE only).'
+    'on': time
+- edit:
+    id: cal.1963-10-29.civil-rights-bill-2
+    base: aeb5da4a
+    set:
+      time: 1963-10-29T14:30Z
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- src:
+    id: cal.1963-10-29.civil-rights-bill-2
+    rows:
+    - 'w.purdum-idea-whose-time-has-2014 142–43: time'
