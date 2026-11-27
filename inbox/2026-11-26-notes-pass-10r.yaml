@@ -186,15 +186,13 @@ ops:
 - add-words:
     id: cal.1960-11-14.soviet-union-2
     after: end
-    words: Kim Il of the Korean party has spoken all morning; Deng follows, in five parts, four hours. Peng Zhen is at the plenary.
-    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 381'
+    words: Peng Zhen is at the plenary, on the first line with Deng.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 74'
 - names:
     id: cal.1960-11-14.soviet-union-2
     add:
-    - Kim Il
     - Peng Zhen
     tags:
-    - name:kim-il
     - name:peng-zhen
 - add-words:
     id: cal.1960-11-18.china-leadership-3
@@ -223,7 +221,7 @@ ops:
 - add-words:
     id: cal.1960-11-26.soviet-union-2
     after: end
-    words: 'Liu Shaoqi and Yang Shangkun are there. Liu: the visit depends on the meeting''s result; since the Nov. 5 letter the meeting stands at the edge of a wrong line. The talk runs three hours.'
+    words: 'Liu Shaoqi and Yang Shangkun are there. Liu: the visit depends on the meeting''s result; since the Nov. 5 letter the meeting runs on a wrong line and has come to the edge. The talk runs three hours.'
     item: '[[w.peng-zhen-nianpu-1902]], IV, 79–80'
 - names:
     id: cal.1960-11-26.soviet-union-2
@@ -336,3 +334,40 @@ ops:
     - Peng Zhen
     tags:
     - name:peng-zhen
+- add-words:
+    id: cal.1960-04-22.china-leadership-4
+    after: end
+    words: The meeting opens at 3; Lu's report ends at 4:15, warmly received; a concert follows, 5 to 6. Yang Shangkun and Li Bozhao are there from 2.
+    item: '[[w.yang-shangkun-riji]], I, 501'
+- names:
+    id: cal.1960-04-22.china-leadership-4
+    add:
+    - Yang Shangkun
+    - Li Bozhao
+    tags:
+    - name:yang-shangkun
+    - name:li-bozhao
+- check:
+    id: cal.1960-10-02.soviet-union
+    text: 'Check: Yang''s diary (I, 558–559) has the committee''s first session Oct. 1, 1 to 3 p.m., in St. George''s Hall: Suslov''s welcome, the French delegate first, the Soviet draft the basis, two days for study, the general debate from Oct. 4, a secretariat, the Soviets in the chair.'
+- add-words:
+    id: cal.1960-11-09.soviet-union-2
+    after: end
+    words: 'Mikoyan: the 1,300 lorries and part of the oil, refused by the departments, are to be settled; experts can be sent again, 38 still in China.'
+    item: '[[w.yang-shangkun-riji]], I, 592'
+- add-words:
+    id: cal.1960-11-14.soviet-union-2
+    after: end
+    words: Kim Il of the Korean party speaks first, forty minutes. Deng reads from the text, a twenty-minute break after the third part; the Soviet Presidium's faces darken. The session breaks up at 3:30 p.m.
+    item: '[[w.yang-shangkun-riji]], I, 600'
+- check:
+    id: cal.1960-11-14.soviet-union-2
+    text: 'Check: the session''s hour and Kim Il''s length: Yang (I, 600) has it open at 10 a.m., Kim Il forty minutes, Deng four hours, the day ending at 3:30 p.m.; Wu (381) has Deng speak in the afternoon after Kim Il''s whole morning; Peng Zhen nianpu (IV, 74) puts the plenary in the morning.'
+- add-words:
+    id: cal.1960-11-21.soviet-union
+    after: end
+    words: 'Monje of Bolivia argues against China: the Twentieth and Twenty-first Congresses cannot be struck; the minority should follow the majority. Ghosh of India, though he blames China on the border, still holds that the passage on factional activity should be struck.'
+    item: '[[w.yang-shangkun-riji]], I, 619'
+- check:
+    id: cal.1961-03-07.china-leadership-2
+    text: 'Check: Yang (I, 660–661) has Mao''s points as a two-year plan and an eight-year plan; Deng nianpu (III, 1620–21) and Peng Zhen nianpu (IV, 110) a seven-year plan.'
