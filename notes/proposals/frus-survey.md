@@ -11,7 +11,7 @@ No such inventory has been made. But every FRUS document of the span is already 
 Of 26,968 FRUS documents from January 1960 to January 1969, the calendar's entries cite 3,518, about one in eight. The volumes the calendar leans on most are the Vietnam volumes of 1964 to 1968 (a third to a half cited) and the Cuba volume of 1961 to 1962 (42 percent). The volumes on China, Laos, Cuba after 1962, and the microfiche supplements are hardly touched:
 
 - **Vietnam:** 3,887 documents in eleven volumes (1961–63, I–IV; 1964–68, I–VII), 1,248 cited, 2,570 not.
-- **China:** 1958–60, XIX, 3 of 49 cited; 1964–68, XXX, 19 of 347. (1961–63, XXII, is in the table under its title, Northeast Asia.)
+- **China:** 1958–60, XIX, 3 of 49 cited; 1961–63, XXII (Northeast Asia: China, Korea and Japan), 64 of 383; 1964–68, XXX, 19 of 347.
 - **Cuba:** 1958–60, VI, 56 of 213; 1961–63, X, 185 of 443; XI (the missile crisis), 75 of 390; the microfiche supplement to X–XII, 0 of 746; 1964–68, XXXII, 44 of 441.
 - **Laos:** 1958–60, XVI, 24 of 226; 1961–63, XXIV, 53 of 491; 1964–68, XXVIII, 25 of 401.
 
