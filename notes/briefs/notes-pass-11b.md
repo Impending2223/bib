@@ -14,6 +14,8 @@ The books are on hand (`notes/guide/reading-a-copy.md`, section 0): every work y
 
 Read each entry's line and note straight from `lists/cal/*.yaml` with a short script (`./bib show` is slow for many ids). Fetch one work at a time, read its pages for every entry that cites it, then delete it before the next.
 
+Fetch each work once, read it for every entry that cites it, then delete it before the next; if Google answers "Quota exceeded" again, stop fetching and report what still waits.
+
 Assignment: for each of the 22 entries, apply R33a from the brief's text. Write the patch `inbox/2026-11-26-notes-pass-11b.yaml` (`add-words`, `names`, `cite ... on:`, `edit` with `kind:` where R22 calls for one, and the field ops R25a calls for); `./bib patch-check` it until it shows 0 errors. Write `notes/notes-pass/batch-11b.md`: one line an entry, saying what you did or why the entry stays as it is (an entry read and left takes the tag `ok:note-substance`, by a `names` op with `tags`), and which pages you read. Plain everyday prose; a paragraph or a list item is one line (never hard-wrap Markdown).
 
 Other readers have the other batches and other agents are at work in this checkout. Do not merge, do not run `./bib build`, do not edit files under `lists/`, and do not commit or push: leave your two files in place and report. `./bib check` takes about five minutes. Quote no more than a few words of any copyrighted source.
