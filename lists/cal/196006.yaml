@@ -259,16 +259,16 @@ entries:
     time: 1960-06-02T02:00Z
     place: peking
     thread: china-center
-    c: Peking 北京. The capital's public memorial for Lin Boqu 林伯渠; Deng Xiaoping 邓小平 gives the eulogy for the Central Committee.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1554 (June 2, 1960); [[w.chen-yi-nianpu]], 820 (June 2, 1960, 10 a.m.; Chen Yi at the public memorial for Lin Boqu, the Working People''s Cultural Palace); [[w.peng-zhen-nianpu-1902]], IV, 31 (June 2, 1960; Peng Zhen at the capital''s memorial of 10,000 for Lin Boqu); [[w.zhu-de-nianpu-xinbian]], III, 1777 (June 2, 1960, morning; Zhu De 朱德 at the capital''s public memorial for Lin Boqu 林伯渠). See [[cal.1960-06-01.china-leadership]]. Names: Deng Xiaoping, Lin Boqu.'
+    c: Peking 北京. The capital's public memorial for Lin Boqu 林伯渠; Deng Xiaoping 邓小平 gives the eulogy for the Central Committee.{1} Peng Zhen attends, among 10,000 of the capital's people.{2}
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1554 (June 2, 1960); [[w.chen-yi-nianpu]], 820 (June 2, 1960, 10 a.m.; Chen Yi at the public memorial for Lin Boqu, the Working People''s Cultural Palace); [[w.peng-zhen-nianpu-1902]], IV, 31 (June 2, 1960; Peng Zhen at the capital''s memorial of 10,000 for Lin Boqu); [[w.zhu-de-nianpu-xinbian]], III, 1777 (June 2, 1960, morning; Zhu De 朱德 at the capital''s public memorial for Lin Boqu 林伯渠); [[w.peng-zhen-nianpu-1902]], IV, 31. See [[cal.1960-06-01.china-leadership]]. Names: Deng Xiaoping, Lin Boqu, Peng Zhen.'
     src:
-      c: 10bc364d
+      c: 08d8d89d
       rows:
-        - 'w.deng-xiaoping-nianpu-1904 III, 1554: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1554: 1'
         - 'w.chen-yi-nianpu 820: ?'
-        - 'w.peng-zhen-nianpu-1902 IV, 31: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1777: ?'
-    tags: [polity:prc, name:deng-xiaoping, name:lin-boqu]
+        - 'w.peng-zhen-nianpu-1902 IV, 31: 2'
+    tags: [polity:prc, name:deng-xiaoping, name:lin-boqu, name:peng-zhen]
     time_zone: Asia/Shanghai
   - id: cal.1960-06-02.china-leadership-5
     when: June 2
@@ -522,20 +522,22 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [soviet-union, china-foreign, comecon]
-    c: Peking, the Great Hall of the People.{1} Zhou Enlai attends the mass meeting of the capital's people in welcome of Lleshi.{2}
-    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 4, 1960; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 146 (June 2–22, 1960; the capital''s welcome rally at the Great Hall for Lleshi''s delegation, Liu Shaoqi, Zhu De and Zhou attending; Peng Zhen, the mayor, speaks: the socialist camp keeps to a policy of peace, states of different systems to coexist, disputes to be settled by negotiation, not force; peace won chiefly by the peoples'' struggle, no illusions about imperialism; the day not given); [[w.peng-zhen-nianpu-1902]], IV, 32–33 (June 4, 1960, afternoon; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Zhu De and others, at the rally of more than 10,000 in the Great Hall of the People welcoming Lleshi and the Albanian guests; his speech: American imperialism, having wrecked the summit, talks of "peace efforts" and of more talks with the Soviet Union while making tension everywhere and arming madly). Names: Zhou Enlai.'
+    c: Peking, the Great Hall of the People.{1} Zhou Enlai attends the mass meeting of the capital's people in welcome of Lleshi.{2} Liu Shaoqi, Zhu De and Peng Zhen attend, with more than 10,000 people; Peng Zhen speaks.{3}
+    n: '[[w.zhou-enlai-waijiao-huodong]], 283 (June 4, 1960; 下午); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 146 (June 2–22, 1960; the capital''s welcome rally at the Great Hall for Lleshi''s delegation, Liu Shaoqi, Zhu De and Zhou attending; Peng Zhen, the mayor, speaks: the socialist camp keeps to a policy of peace, states of different systems to coexist, disputes to be settled by negotiation, not force; peace won chiefly by the peoples'' struggle, no illusions about imperialism; the day not given); [[w.peng-zhen-nianpu-1902]], IV, 32–33 (June 4, 1960, afternoon; Peng Zhen, with Liu Shaoqi, Zhou Enlai, Zhu De and others, at the rally of more than 10,000 in the Great Hall of the People welcoming Lleshi and the Albanian guests; his speech: American imperialism, having wrecked the summit, talks of "peace efforts" and of more talks with the Soviet Union while making tension everywhere and arming madly); [[w.peng-zhen-nianpu-1902]], IV, 32. Names: Zhou Enlai, Liu Shaoqi, Zhu De, Peng Zhen.'
     src:
-      c: e658786b
+      c: 6a456699
       rows:
         - 'w.zhou-enlai-waijiao-huodong 283: 1, 2'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 146: 2'
         - 'w.peng-zhen-nianpu-1902 IV, 32–33: ?'
-    tags: [polity:prc, polity:albania, name:zhou-enlai]
+        - 'w.peng-zhen-nianpu-1902 IV, 32: 3'
+    tags: [polity:prc, polity:albania, name:zhou-enlai, name:liu-shaoqi, name:zhu-de, name:peng-zhen]
     time_range:
       - 1960-06-04T04:00Z
       - 1960-06-04T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1960-06-04.china-leadership-4
     when: June 4
     date: '1960-06-04'
