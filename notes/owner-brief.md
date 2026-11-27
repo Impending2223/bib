@@ -1504,3 +1504,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 2:37 pm PT.** "Cultural visitors should stay in. (Ping-pong diplomacy, right? The 1998 Takhti Cup? The 'dialogue of civilizations'? Or am I overreading isolated episodes here?)"
 
 **Nov. 26, 2026, about 6:11 pm PT.** "The FBI Liuzzo files should be in the civil rights batch, right? More broadly, the government documents should go with their subject matter, not an arbitrary batch of their own, no? Shouldn't the apportionment and reapportionment works be taken out of the civil rights batch? They don't have much to do with each other, do they? And shouldn't we standardize "doing" a batch in sequence, rather than in parallel, to reduce the burden on the reconciling agent? Have you put a second set of eyes on this proposal?"
+
+**Nov. 26, 2026, about 7:28 pm PT.** "What does the full queue look like? What questions are left for me from the inventory batch?"
