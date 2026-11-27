@@ -199,6 +199,7 @@ ops:
       - polity:prc
       - vis:only:prc
       - name:yang-shangkun
+      - name:li-bozhao
       - ok:fields-time
 - edit:
     id: cal.1963-04-12.china-leadership-3
@@ -310,8 +311,8 @@ ops:
         - 'w.branch-parting-the-waters 751: 1'
         - 'via w.branch-parting-the-waters 751 n.4: 1'
       time_range:
-      - 1963-04-25T03:00Z
-      - 1963-04-25T11:00Z
+      - 1963-04-25T15:00Z
+      - 1963-04-25T23:00Z
       time_band: workday daytime
       time_zone: America/Chicago
       range_basis: kind
@@ -326,8 +327,8 @@ ops:
       follows:
       - cal.1963-04-25.alabama-birmingham
       time_range:
-      - 1963-04-25T13:00Z
-      - 1963-04-25T16:00Z
+      - 1963-04-26T01:00Z
+      - 1963-04-26T04:00Z
       time_band: evening
       time_zone: America/Chicago
       range_basis: record
@@ -433,15 +434,16 @@ ops:
       follows:
       - cal.1963-04-25.china-foreign
       c: Rangoon 仰光, the Chinese embassy 中国大使馆. Liu Shaoqi, Wang Guangmei and Zhang Qian 张茜, with Chen Yi 陈毅, receive the embassy's staff.
-      n: '[[w.chen-yi-nianpu]], 964 (Apr. 25, 1963; Chen Yi with Liu, Wang Guangmei and Zhang Qian receives the embassy staff; the item stands after the afternoon''s call and before the farewell
-        banquet). The order: after [[cal.1963-04-25.china-foreign]], the printed order alone ([[w.chen-yi-nianpu]], 964). Split under R25b. See [[cal.1963-04-25.china-leadership-5]]. Names: Liu
-        Shaoqi, Wang Guangmei, Zhang Qian, Chen Yi.'
+      n: '[[w.chen-yi-nianpu]], 964 (Apr. 25, 1963; Chen Yi with Liu, Wang Guangmei and Zhang Qian receives the embassy staff; the item stands after the call on the Foreign Minister and before
+        the farewell banquet). The order: after [[cal.1963-04-25.china-foreign]], the printed order alone ([[w.chen-yi-nianpu]], 964). Split under R25b. See [[cal.1963-04-25.china-leadership-5]].
+        Names: Liu Shaoqi, Wang Guangmei, Zhang Qian, Chen Yi.'
       tags:
       - polity:prc
       - polity:burma
       - name:liu-shaoqi
       - name:wang-guangmei
       - name:chen-yi
+      - name:zhang-qian
 - add:
     entry:
       id: cal.1963-04-25.china-liu-3
@@ -538,18 +540,19 @@ ops:
       c: Peking to Hangzhou.{1} By Wu Lengxi's account Deng Xiaoping, Peng Zhen, Lu Dingyi and Kang Sheng, with Wu, Yao Zhen and Fan Ruoyu, leave in the morning for the enlarged Standing Committee
         Mao has called at Hangzhou.{2} The weather puts them down at Nanjing for a short stay. At Hangzhou, where the day's heat is 34 degrees, they lodge at the new Xiling Hotel with the regional
         bureaus' secretaries and Tan Zhenlin, Li Fuchun, Bo Yibo and Liao Luyan; Chen Boda, there before them, is in a villa by the West Lake.{3}
+      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 561–562 ("on the morning of May 2, after May Day"; the first modern hotel in Hangzhou; Liu Shaoqi, abroad on a state visit, not at the meeting);
+        [[w.peng-zhen-nianpu-1902]], IV, 261 (May 2, 1963; Peng Zhen to Hangzhou for Mao''s small meeting on socialist education in the villages). Made public: 1999. Names: Deng Xiaoping, Peng
+        Zhen, Lu Dingyi, Kang Sheng, Tan Zhenlin, Li Fuchun, Bo Yibo, Chen Boda, Mao Zedong, Wu Lengxi, Yao Zhen, Fan Ruoyu, Liao Luyan. Check: Wu''s days cannot stand as he has them: Yang''s
+        diary and Deng''s nianpu have Deng, Kang Sheng and Wu Xiuquan at Pyongyang May 2–4, Deng back in Peking May 4, at Zhou Enlai''s meeting there May 8, and on the train to Hangzhou only on
+        May 10 ([[w.yang-shangkun-riji]], II, 275–277; [[w.deng-xiaoping-nianpu-1904]], III, 1756–1757), and the Mao nianpu has Mao at Shanghai May 3 to 5 and at Hangzhou from May 6 ([[w.zedong-mao-zedong-nianpu]],
+        V). Wu''s own days of the Hangzhou meetings are not settled by a record. Peng Zhen''s nianpu has Peng Zhen go to Hangzhou May 2 (IV, 261), and Yang''s diary of May 2 has him telephone,
+        asking three secretaries to Hangzhou (II, 275).'
       src:
         c: 30b307f7
         rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 561–562: 1, 2, 3'
         - 'w.peng-zhen-nianpu-1902 IV, 261: ?'
-    kind: reword
-- check:
-    id: cal.1963-05-02.china-leadership-5
-    text: 'Check: Wu''s days cannot stand as he has them: Yang''s diary and Deng''s nianpu have Deng, Kang Sheng and Wu Xiuquan at Pyongyang May 2–4, Deng back in Peking May 4, at Zhou Enlai''s
-      meeting there May 8, and on the train to Hangzhou only on May 10 ([[w.yang-shangkun-riji]], II, 275–277; [[w.deng-xiaoping-nianpu-1904]], III, 1756–1757), and the Mao nianpu has Mao at Shanghai
-      May 3 to 5 and at Hangzhou from May 6 ([[w.zedong-mao-zedong-nianpu]], V). Wu''s own days of the Hangzhou meetings are not settled by a record. Peng Zhen''s nianpu has Peng Zhen go to Hangzhou
-      May 2 (IV, 261), and Yang''s diary of May 2 has him telephone, asking three secretaries to Hangzhou (II, 275).'
+    kind: correct
 - edit:
     id: cal.1963-05-02.china-leadership-6
     base: 944d7e57
@@ -572,7 +575,7 @@ ops:
         rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 562–563: all'
         - 'w.peng-zhen-nianpu-1902 IV, 261: ?'
-    kind: reword
+    kind: correct
     settles:
     - 'Check: the Mao chronology has Mao at Shanghai the afternoon of May 3'
 - edit:
@@ -583,16 +586,18 @@ ops:
         drafts: Peng Zhen, Lu Dingyi, Chen Boda and Kang Sheng, the drafters Wu Lengxi, Yao Zhen, Fan Ruoyu and Wang Li, and Kang Sheng''s secretary, Li Xin;{2} Lin Ke sits the three days and
         takes both sides'' views to Mao. Wu opens: Peking''s drafters find Chen''s draft short on practice and on the Soviet views, long on general principle, a textbook; Chen answers that Mao
         asked it to begin from contradictions. Lu Dingyi faults both; Deng and Peng Zhen fault Peking''s draft and ask that Chen''s be tied closer to the open polemic.{3}'
+      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 563–565 (the meeting "at first cold," Wu speaking first; Chen Boda, "who held himself high," displeased at the manner of discussion, in which
+        the drafters call out and answer at once; Deng: all views may be said, anyone''s may be refuted; Peking''s draft strong on the real situation and the actual contradictions, short on theory;
+        Deng asks Lin Ke, as the sessions end, whether he has told Mao all; Lin Ke has, and Mao will talk after the meeting). Made public: 1999. Names: Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen
+        Boda, Kang Sheng, Mao Zedong, Wu Lengxi, Yao Zhen, Fan Ruoyu, Wang Li, Li Xin, Lin Ke. Check: Wu''s days cannot stand as he has them: Yang''s diary and Deng''s nianpu have Deng, Kang Sheng
+        and Wu Xiuquan at Pyongyang May 2–4, Deng back in Peking May 4, at Zhou Enlai''s meeting there May 8, and on the train to Hangzhou only on May 10 ([[w.yang-shangkun-riji]], II, 275–277;
+        [[w.deng-xiaoping-nianpu-1904]], III, 1756–1757), and the Mao nianpu has Mao at Shanghai May 3 to 5 and at Hangzhou from May 6 ([[w.zedong-mao-zedong-nianpu]], V). Wu''s own days of the
+        Hangzhou meetings are not settled by a record.'
       src:
         c: 5278e1f9
         rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 563–565: 1, 2, 3'
-    kind: reword
-- check:
-    id: cal.1963-05-03.china-leadership-4
-    text: 'Check: Wu''s days cannot stand as he has them: Yang''s diary and Deng''s nianpu have Deng, Kang Sheng and Wu Xiuquan at Pyongyang May 2–4, Deng back in Peking May 4, at Zhou Enlai''s
-      meeting there May 8, and on the train to Hangzhou only on May 10 ([[w.yang-shangkun-riji]], II, 275–277; [[w.deng-xiaoping-nianpu-1904]], III, 1756–1757), and the Mao nianpu has Mao at Shanghai
-      May 3 to 5 and at Hangzhou from May 6 ([[w.zedong-mao-zedong-nianpu]], V). Wu''s own days of the Hangzhou meetings are not settled by a record.'
+    kind: correct
 - edit:
     id: cal.1963-05-05.china-leadership-5
     base: 04c747ca
@@ -601,17 +606,19 @@ ops:
         and Wu Lengxi present, Liu Shaoqi abroad. He asks Wu his age (44) and says the young men are right. The reply is to set out the Party's view of the general line, as a proposal to the CPSU
         and the parties, in theory and with bearing on practice, from the contradictions of the age; Chen Boda to revise it and take it to Peking to work with the writers; to stay in the Standing
         Committee until ripe, then to ask the Korean, Vietnamese, New Zealand, Japanese and Indonesian parties; the paper the CCP's own proposal, not a common paper of the left parties.
+      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 565–567 (the Liuzhuang on a peninsula of the West Lake; Mao: "Chen Boda, you too count as an old man, beaten by the young"; the reply to be an
+        answer to the CPSU''s letter of Mar. 30 and a proposal; it to be taken to Peking, Zhou Enlai and Deng Xiaoping agreeing; Mao: the CCP''s alone, to avoid the name of sectarianism; Wu and
+        Yao Zhen at first to stay to help Chen, but Chen, not satisfied, had them sent back to Peking). Made public: 1999. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Lu Dingyi, Chen
+        Boda, Kang Sheng, Liu Shaoqi, Wu Lengxi. Check: Zhou Enlai at Hangzhou May 5: Zhou''s chronology has him at Xihuating, Peking, that day ([[cal.1963-05-05.china-leadership-2]]) and at the
+        Secretariat May 6 ([[cal.1963-05-06.china-leadership]]). Check: Wu''s day, May 5, and his company (Zhou Enlai and Deng Xiaoping with Mao at Hangzhou) cannot stand as he has them: Yang''s
+        diary and Deng''s nianpu have Deng, Kang Sheng and Wu Xiuquan at Pyongyang May 2–4, Deng back in Peking May 4, at Zhou Enlai''s meeting there May 8, and on the train to Hangzhou only on
+        May 10 ([[w.yang-shangkun-riji]], II, 275–277; [[w.deng-xiaoping-nianpu-1904]], III, 1756–1757), and the Mao nianpu has Mao at Shanghai May 3 to 5 and at Hangzhou from May 6 ([[w.zedong-mao-zedong-nianpu]],
+        V). Wu''s own days of the Hangzhou meetings are not settled by a record. The Mao nianpu has Mao at Shanghai that evening, meeting the Korean legal and the Malian cultural delegations.'
       src:
         c: c592e130
         rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 565–567: all'
-    kind: reword
-- check:
-    id: cal.1963-05-05.china-leadership-5
-    text: 'Check: Wu''s day, May 5, and his company (Zhou Enlai and Deng Xiaoping with Mao at Hangzhou) cannot stand as he has them: Yang''s diary and Deng''s nianpu have Deng, Kang Sheng and
-      Wu Xiuquan at Pyongyang May 2–4, Deng back in Peking May 4, at Zhou Enlai''s meeting there May 8, and on the train to Hangzhou only on May 10 ([[w.yang-shangkun-riji]], II, 275–277; [[w.deng-xiaoping-nianpu-1904]],
-      III, 1756–1757), and the Mao nianpu has Mao at Shanghai May 3 to 5 and at Hangzhou from May 6 ([[w.zedong-mao-zedong-nianpu]], V). Wu''s own days of the Hangzhou meetings are not settled
-      by a record. The Mao nianpu has Mao at Shanghai that evening, meeting the Korean legal and the Malian cultural delegations.'
+    kind: correct
 - edit:
     id: cal.1963-05-03.china-leadership
     base: f3d5a756
@@ -634,8 +641,8 @@ ops:
         rows:
         - 'w.branch-parting-the-waters 762: all'
       time_range:
-      - 1963-05-03T00:00Z
-      - 1963-05-03T06:00Z
+      - 1963-05-03T12:00Z
+      - 1963-05-03T18:00Z
       time_band: morning
       time_zone: America/Chicago
       range_basis: record
@@ -715,12 +722,14 @@ ops:
         - 'via w.branch-parting-the-waters 779 n.3: 1'
         - 'via w.branch-parting-the-waters 779 n.4: 1'
       time_range:
-      - 1963-05-07T06:00Z
-      - 1963-05-07T12:00Z
+      - 1963-05-07T18:00Z
+      - 1963-05-08T00:00Z
       time_band: afternoon
       time_zone: America/Chicago
       range_basis: record
     kind: correct
+    settles:
+    - 'Check: Branch, 775–80: decoy lines from the Sixteenth Street'
 - add:
     entry:
       id: cal.1963-05-07.alabama-birmingham-4
@@ -733,8 +742,8 @@ ops:
       follows:
       - cal.1963-05-07.alabama-birmingham
       time_range:
-      - 1963-05-07T13:00Z
-      - 1963-05-07T16:00Z
+      - 1963-05-08T01:00Z
+      - 1963-05-08T04:00Z
       time_band: evening
       time_zone: America/Chicago
       range_basis: record
@@ -784,6 +793,7 @@ ops:
     settles:
     - 'Check: Branch, 781'
     - 'Check: Young, 243–44'
+    - 'Check: Branch, 775–80: seventy of the "big mules" at the Cha'
 - add:
     entry:
       id: cal.1963-05-07.civil-rights-the-executive-4
@@ -796,8 +806,8 @@ ops:
       follows:
       - cal.1963-05-07.civil-rights-the-executive
       time_range:
-      - 1963-05-07T14:00Z
-      - 1963-05-07T22:00Z
+      - 1963-05-08T02:00Z
+      - 1963-05-08T10:00Z
       time_zone: America/Chicago
       range_basis: record
       c: 'Birmingham, the night. Smyer, Vann and two merchants with Pitts, Shores and Andrew Young, Marshall present: the stores desegregated, jobs upgraded, a biracial committee; the release
@@ -828,21 +838,20 @@ ops:
     base: 25f86a40
     set:
       c: Bombs at the house of King's brother and at the Gaston Motel, the night of the 11th.{1} Rioting till morning.{2}
-      n: '[[w.garrow-bearing-the-cross]], 259–61 (the bombings and the rioting, and the troops); [[w.mann-walls-of-jericho]], 350–51 (the bombings; the rioting); [[w.branch-parting-the-waters]],
-        793–96; [[w.thomas-robert-kennedy]], 243 (the next night, dynamite at the house of King''s brother and the motel; fires); [[w.white-making-of-the-president-1965]], 170 (the bombing of
-        the home of King''s brother and of a Negro motel; the rioting; battle units moved into position, never used); [[w.young-easy-burden]], 249–50; [[w.purdum-idea-whose-time-has-2014]], 32–33
-        (the bombs of the night of May 11 at A. D. King''s house and the Gaston Motel; the riots; Wallace''s deputies; the President''s television statement, just before nine on May 12, Army units
-        near Birmingham alerted and the Alabama Guard to be federalized if necessary; not the night through, nor the telegram of May 13). After [[cal.1963-05-11.alabama-birmingham-2|the commanders
-        at the park]] and [[cal.1963-05-11.alabama-birmingham|the Klan rally]]: the park "nearly empty" by the time the Riverside reporters came back from the rally, and the first bomb "at about
-        10:45 p.m." ([[w.branch-parting-the-waters]], 793). Check: Branch, 793–96: the first bomb at A. D. King''s parsonage about 10:45 p.m., the second blowing out the front; the Gaston Motel
-        just before midnight, four hurt; the riots near both; Lingo''s 250 troopers and irregulars charge at the motel, Chief Moore protesting; by dawn six businesses, several houses and an apartment
-        building burned, nearly seventy to the hospital. To check: [[w.rosenberg-kennedy-johnson-and-the]] ("Protest in Birmingham"); Watkins to Moore, May 15, 1963 (on May 10); Whitehouse to
-        Moore, May 13, 1963 (on May 11), Eugene "Bull" Connor Papers, Birmingham Public Library Archives; *Birmingham News*, May 12, 1963, at 1; [*New York Times*, May 12, 1963](https://timesmachine.nytimes.com/timesmachine/1963/05/12/issue.html),
-        at 1; SAC Birmingham to Director, "Unsubs, Bombing of Gaston Motel . . .," May 24, 1963, FBI file 157-881-NR (cited by [[w.garrow-bearing-the-cross]], 260 n.33); [Jack Rosenthal], "Some
-        Sketchy Notes on Birmingham," May 12, 1963, Victor Navasky Papers, Kennedy Library; *New York Times*, [May 13 at 1, 24, 25](https://timesmachine.nytimes.com/timesmachine/1963/05/13/issue.html)
-        and [May 14, 1963, at 1, 26, 27](https://timesmachine.nytimes.com/timesmachine/1963/05/14/issue.html); Donald R. Coppock, "Birmingham Detail," May 29, 1963, Civil Rights Division FOIA
-        (DOJ microfilm, reel 120) (cited by [[w.garrow-bearing-the-cross]], 261 n.34). See [[cal.1963-04-03.alabama]]. Split under R17: the President''s statement of May 12 is [[cal.1963-05-12.civil-rights-the-executive-2]];
-        the telegram to Wallace of May 13 is [[cal.1963-05-13.alabama-birmingham-3]]. Names: Martin Luther King.'
+      n: '[[w.garrow-bearing-the-cross]], 259–61 (the bombings and the rioting); [[w.mann-walls-of-jericho]], 350–51 (the bombings; the rioting); [[w.branch-parting-the-waters]], 793–96; [[w.thomas-robert-kennedy]],
+        243 (the next night, dynamite at the house of King''s brother and the motel; fires); [[w.white-making-of-the-president-1965]], 170 (the bombing of the home of King''s brother and of a
+        Negro motel; the rioting); [[w.young-easy-burden]], 249–50; [[w.purdum-idea-whose-time-has-2014]], 32–33 (the bombs of the night of May 11 at A. D. King''s house and the Gaston Motel;
+        the riots; Wallace''s deputies). After [[cal.1963-05-11.alabama-birmingham-2|the commanders at the park]] and [[cal.1963-05-11.alabama-birmingham|the Klan rally]]: the park "nearly empty"
+        by the time the Riverside reporters came back from the rally, and the first bomb "at about 10:45 p.m." ([[w.branch-parting-the-waters]], 793). Check: Branch, 793–96: the first bomb at
+        A. D. King''s parsonage about 10:45 p.m., the second blowing out the front; the Gaston Motel just before midnight, four hurt; the riots near both; Lingo''s 250 troopers and irregulars
+        charge at the motel, Chief Moore protesting; by dawn six businesses, several houses and an apartment building burned, nearly seventy to the hospital. To check: [[w.rosenberg-kennedy-johnson-and-the]]
+        ("Protest in Birmingham"); Watkins to Moore, May 15, 1963 (on May 10); Whitehouse to Moore, May 13, 1963 (on May 11), Eugene "Bull" Connor Papers, Birmingham Public Library Archives; *Birmingham
+        News*, May 12, 1963, at 1; [*New York Times*, May 12, 1963](https://timesmachine.nytimes.com/timesmachine/1963/05/12/issue.html), at 1; SAC Birmingham to Director, "Unsubs, Bombing of
+        Gaston Motel . . .," May 24, 1963, FBI file 157-881-NR (cited by [[w.garrow-bearing-the-cross]], 260 n.33); [Jack Rosenthal], "Some Sketchy Notes on Birmingham," May 12, 1963, Victor Navasky
+        Papers, Kennedy Library; *New York Times*, [May 13 at 1, 24, 25](https://timesmachine.nytimes.com/timesmachine/1963/05/13/issue.html) and [May 14, 1963, at 1, 26, 27](https://timesmachine.nytimes.com/timesmachine/1963/05/14/issue.html);
+        Donald R. Coppock, "Birmingham Detail," May 29, 1963, Civil Rights Division FOIA (DOJ microfilm, reel 120) (cited by [[w.garrow-bearing-the-cross]], 261 n.34). See [[cal.1963-04-03.alabama]].
+        Split under R17: the President''s statement of May 12 is [[cal.1963-05-12.civil-rights-the-executive-2]]; the telegram to Wallace of May 13 is [[cal.1963-05-13.alabama-birmingham-3]].
+        Names: Martin Luther King.'
       tags:
       - name:king-martin-luther-jr
       - state:al
@@ -866,11 +875,13 @@ ops:
         - 'w.young-easy-burden 249–50: 1'
         - 'w.purdum-idea-whose-time-has-2014 32–33: 1'
       when: May 11
-      time: 1963-05-11T16:45Z
+      time: 1963-05-12T04:45Z
       time_approx: true
       time_zone: America/Chicago
       place: birmingham
     kind: correct
+    settles:
+    - 'Check: Branch, 793–800: the first bomb at A. D. King''s parso'
 - add:
     entry:
       id: cal.1963-05-12.civil-rights-the-executive-2
@@ -881,7 +892,7 @@ ops:
       also:
       - alabama-birmingham
       - robert-kennedy
-      time: 1963-05-12T17:00Z
+      time: 1963-05-13T01:00Z
       time_zone: America/New_York
       c: From his office, on radio and television, the President says the Government will do what must be done to keep order in Birmingham; the agreement a fair and just accord, not to be sabotaged
         by extremists on either side. Marshall to go back to Birmingham that evening; McNamara to alert units trained in riot control and send selected units to bases near Birmingham; the steps
@@ -890,10 +901,10 @@ ops:
         (May 12, 1963; the note: broadcast from the President''s office at 9 p.m.). [Kennedy, Robert Kennedy, Katzenbach, Marshall, McNamara and others, May 12](https://prde.upress.virginia.edu/conversations/4006291),
         JFK Meeting Tape 86.2 (PRDE only). [[w.sorensen-kennedy]], 491 (May 12: the troops; the statement at 9 p.m.); [[w.caro-passage-of-power]], 257 (Sunday, May 12, Kennedy back from Camp David
         for crisis meetings; the Second Infantry Division and the 82nd Airborne on alert; the papers drawn to federalize the Alabama Guard); [[w.branch-parting-the-waters]], 796–800 (the Sunday
-        meetings; Marshall''s call to King from the Oval Office; three thousand troops moved in Operation Oak Tree; the statement drafted in the Cabinet Room); [[w.purdum-idea-whose-time-has-2014]],
-        32–33 (the statement, just before nine on May 12, Army units near Birmingham alerted and the Alabama Guard to be federalized if necessary). Check: the hour: the Papers'' note has the broadcast
-        at 9 p.m.; Branch has the President step out at 8:48 p.m. (800). Split under R17. See [[cal.1963-05-11.alabama]]; [[cal.1963-05-12.civil-rights-the-executive]]. Names: Kennedy, McNamara,
-        Marshall.'
+        meetings; Marshall''s call to King from the Oval Office; three thousand troops moved in Operation Oak Tree; the statement drafted in the Cabinet Room); [[w.white-making-of-the-president-1965]],
+        170 (battle units moved into position, never used); [[w.purdum-idea-whose-time-has-2014]], 32–33 (the statement, just before nine on May 12, Army units near Birmingham alerted and the
+        Alabama Guard to be federalized if necessary). Check: the hour: the Papers'' note has the broadcast at 9 p.m.; Branch has the President step out at 8:48 p.m. (800). Split under R17. See
+        [[cal.1963-05-11.alabama]]; [[cal.1963-05-12.civil-rights-the-executive]]. Names: Kennedy, McNamara, Marshall.'
       tags:
       - name:kennedy-john-f
       - name:mcnamara-robert-s
@@ -916,7 +927,7 @@ ops:
       thread: alabama-birmingham
       also:
       - civil-rights-the-executive
-      c: 'Telegram to Governor Wallace, in answer to his of the night before: Federal troops would be sent into Birmingham, if necessary, under 10 U.S.C. § 333; the Congress leaves to the President
+      c: 'Telegram to Governor Wallace, in answer to his telegram of May 12: Federal troops would be sent into Birmingham, if necessary, under 10 U.S.C. § 333; the Congress leaves to the President
         the necessity, the means and the adequacy of the State''s protection; no final action taken yet.'
       n: 'Telegram to Governor Wallace of Alabama, [1963 Pub. Papers 398](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=456) (May 13, 1963; the note: Wallace''s
         telegram was not released). *Alabama v. United States*, [373 U.S. 545](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/usrep373545/usrep373545.pdf) (1963) (Wallace''s suit
@@ -930,8 +941,8 @@ ops:
     base: 0ab9c39b
     set:
       time_range:
-      - 1963-05-12T01:00Z
-      - 1963-05-12T07:00Z
+      - 1963-05-12T11:00Z
+      - 1963-05-12T17:00Z
       time_band: morning
       time_zone: America/New_York
       range_basis: record
@@ -963,10 +974,19 @@ ops:
         See [[cal.1963-05-20.program]]; [[cal.1963-04-25.program]]. Names: Kennedy.'
       tags:
       - name:kennedy-john-f
-- cite:
+- edit:
     id: cal.1963-05-22.vietnam-force-levels
-    item: 'The President''s News Conference of May 22, 1963, [1963 Pub. Papers 418](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476) (the note: held in the State
-      Department Auditorium at 4 o''clock)'
+    base: b3fa5d4c
+    set:
+      n: 'The President''s News Conference of May 22, 1963, [1963 Pub. Papers 418](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476) (the note: held in the State
+        Department Auditorium at 4 o''clock). [[w.selverstone-kennedy-withdrawal]], 128; [[w.mann-walls-of-jericho]], 353 (on civil rights); [[w.sorensen-kennedy]], 657; [[w.reeves-president-kennedy]],
+        496; [[w.schlesinger-robert-kennedy-and-his]], 717 (his press conference "in May 1963": "We would withdraw the troops . . . any time the government of South Vietnam would suggest it" (n.80:
+        Public Papers, 1963, 421); not Nhu''s words, the withdrawal by the end of the year or civil rights). [[w.sundquist-politics-and-policy]], 260 (civil rights); [[w.chang-friends-and-enemies]],
+        239 (no Soviet interest in a ban, their position unchanged for five months). See [[cal.1963-05-12.vietnam]]. Names: Kennedy, Ngô Đình Nhu. Check: the "genie" Chang gives as Kennedy''s
+        words of May 22 is Kennedy''s of May 8 ([1963 Pub. Papers 377–78](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=435)) and the questioner''s on May 22.'
+- src:
+    id: cal.1963-05-22.vietnam-force-levels
+    row: https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=476
     'on': time
 - edit:
     id: cal.1963-05-23.china-leadership-4
@@ -983,8 +1003,8 @@ ops:
     base: 59e3c22f
     set:
       time_range:
-      - 1963-05-24T15:00Z
-      - 1963-05-24T18:00Z
+      - 1963-05-24T23:00Z
+      - 1963-05-25T02:00Z
       time_band: evening
       time_zone: America/New_York
       range_basis: record
@@ -996,7 +1016,7 @@ ops:
     id: cal.1963-05-28.mississippi
     base: b47122fd
     set:
-      time: 1963-05-28T05:15Z
+      time: 1963-05-28T17:15Z
       time_zone: America/Chicago
 - cite:
     id: cal.1963-05-28.mississippi
@@ -1074,8 +1094,8 @@ ops:
         - 'w.risen-bill-of-the-century 69: 2, 4'
         - 'w.purdum-idea-whose-time-has-2014 63: ?'
       time_range:
-      - 1963-06-12T08:00Z
-      - 1963-06-12T20:00Z
+      - 1963-06-12T16:00Z
+      - 1963-06-13T04:00Z
       time_zone: America/New_York
       range_basis: record
     kind: correct
@@ -1153,8 +1173,8 @@ ops:
       also:
       - republican-party-congress
       time_range:
-      - 1963-06-19T08:00Z
-      - 1963-06-19T10:45Z
+      - 1963-06-19T16:00Z
+      - 1963-06-19T18:45Z
       time_zone: America/New_York
       range_basis: record
       c: In the Senate Mansfield introduces S. 1731, the whole program of the message, thirty-seven Democrats and nine Republicans sponsoring; with Magnuson, S. 1732, public accommodations alone.
@@ -1184,8 +1204,8 @@ ops:
       - cal.1963-06-19.civil-rights-bill
       - cal.1963-06-19.republican-party-congress
       time_range:
-      - 1963-06-19T10:45Z
-      - 1963-06-19T15:09Z
+      - 1963-06-19T18:45Z
+      - 1963-06-19T23:09Z
       time_zone: America/New_York
       range_basis: record
       c: Mansfield, for himself and Dirksen, sends to the desk S. 1750, the whole program but public accommodations, after the President's message is read in the Senate. Dirksen asks that it lie
@@ -1250,8 +1270,8 @@ ops:
       - goldwater
       - conservative-movement
       time_range:
-      - 1963-06-27T12:00Z
-      - 1963-06-27T15:00Z
+      - 1963-06-28T02:00Z
+      - 1963-06-28T05:00Z
       time_band: evening
       time_zone: America/Los_Angeles
       range_basis: record
@@ -1273,7 +1293,7 @@ ops:
       also:
       - goldwater
       - conservative-movement
-      time: 1963-06-28T22:15Z
+      time: 1963-06-29T12:15Z
       time_approx: true
       time_zone: America/Los_Angeles
       c: Near dawn, Nadasdy, the outgoing chairman, declares Lukens, White's candidate, elected by two votes. The convention adjourns at 5:15 a.m.
