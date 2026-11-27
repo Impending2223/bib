@@ -138,6 +138,7 @@ ops:
       - name:schlesinger-arthur-m-jr
       - name:nixon-richard-m
       - city:washington
+      - ok:fields-time
 - follows:
     id: cal.1960-01-23.democratic-party-3
     add:
@@ -170,6 +171,13 @@ ops:
       when: Jan. 25
       c: 'Zhou Enlai talks with Ne Win on the boundary.{1} Proposals: the northern undefined sector by the watershed, except Pianma, Gulang, Gangfang and the Dulong valley, then surveyed and marked; the three areas returned to China, their size for a joint commission; the Namwan leased area left to Burma in exchange for the Panghung and Panlao tribes'' lands west of the 1941 line to China; a boundary treaty and a friendship treaty to be drafted by the commission.{2}'
       n: '[[w.zhou-enlai-nianpu-1949]], II, 281–82 (Jan. 25–26, 1960); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 25, 1960; 上午10时15分, 中南海武成殿); [[w.zhou-enlai-waijiao-huodong]], 270 (Jan. 26, 1960; 上午10时, 中南海武成殿); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 131 (Jan. 24–28, 1960; Ne Win''s visit on invitation; Zhou''s talks on the matters of common concern, the friendship and boundary questions); [[w.chen-yi-nianpu]], 802 (Jan. 26, 1960, morning; Chen Yi takes part in the talks between Zhou Enlai and Ne Win). Made public: 1993. The second talk, Jan. 26, is [[cal.1960-01-26.china-zhou-foreign]]. Names: Zhou Enlai, Ne Win.'
+      src:
+        c: d3908a96
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 281–82: ?'
+        - 'w.zhou-enlai-waijiao-huodong 270: 1'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 131: 1'
+        - 'w.chen-yi-nianpu 802: ?'
 - add:
     entry:
       id: cal.1960-01-26.china-zhou-foreign
@@ -641,6 +649,7 @@ ops:
       - name:mao-zedong
       - name:zhang-pinghua
       - vis:only:prc
+      - ok:fields-time
 - add:
     entry:
       id: cal.1960-01-26.china-mao-2
@@ -718,7 +727,12 @@ ops:
     base: 430f1047
     kind: correct
     set:
-      c: Zhou Enlai back in Peking.{1} Finds that his staff had repaired his house in his absence.
+      c: Zhou Enlai back in Peking.{1} Finds that his staff had repaired his house in his absence.{2}
+      src:
+        c: 29fcaad8
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 292: ?'
+        - 'w.yang-shangkun-riji I, 486: 1'
       n: '[[w.zhou-enlai-nianpu-1949]], II, 292 (Mar. 6, 1960); [[w.yang-shangkun-riji]], I, 486 (Mar. 6, 1960; Zhou back; a meeting at Liu Shaoqi''s at 8 p.m.). The nianpu''s second item of the day, that evening, is [[cal.1960-03-06.china-zhou]]. Made public: 1997. Names: Zhou Enlai.'
 - add:
     entry:
@@ -764,6 +778,12 @@ ops:
     kind: correct
     set:
       c: Zhou Enlai with Chen Yi, Zhang Hanfu, Zhang Yan and Pan Zili on the talks with Koirala, Prime Minister of Nepal, invited to visit from Mar. 10; he arrives on the 11th.{1}
+      src:
+        c: 9db985d3
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 293: ?'
+        - 'w.yang-shangkun-riji I, 487: ?'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1532: ?'
       n: '[[w.zhou-enlai-nianpu-1949]], II, 293 (Mar. 11, 1960); [[w.yang-shangkun-riji]], I, 487 (Mar. 11, 1960; the afternoon; the Secretariat reads and discusses together the draft of Li Fuchun''s report to the National People''s Congress); [[w.deng-xiaoping-nianpu-1904]], III, 1532 (Mar. 11, 1960; afternoon; Deng presides at the Secretariat on the draft of Li Fuchun''s report on the 1960 plan for the National People''s Congress; Zhou attends). The words: 应邀于三月十日来华访问 (II, 293), the date of the invitation; the airport welcome is Mar. 11 ([[cal.1960-03-11.china-leadership-2]]; [[w.zhou-enlai-waijiao-huodong]], 271). The afternoon Secretariat is [[cal.1960-03-11.china-leadership-6]]. Made public: 1997. Names: Zhou Enlai, Chen Yi, Koirala, Zhang Hanfu, Zhang Yan, Pan Zili.'
 - cite:
     id: cal.1960-03-11.china-leadership-6
@@ -795,6 +815,13 @@ ops:
     kind: correct
     set:
       c: Zhou Enlai back in Peking.{1}
+      src:
+        c: ff13c8ac
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 295: ?'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 481: ?'
+        - 'w.yang-shangkun-riji I, 489: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 9: ?'
       n: '[[w.zhou-enlai-nianpu-1949]], II, 295 (Mar. 18, 1960); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 481 (Mar. 18, 1960; Liu presides; the Politburo discusses and passes the reports and drafts for the Congress''s second session: the report on the draft 1960 plan, the draft plan''s outline, the report on the 1959 accounts and 1960 budget draft); [[w.yang-shangkun-riji]], I, 489 (Mar. 18, 1960; 7 to 11 p.m.; the Sino-Nepalese boundary, the preparations for the Congress and its two reports, six documents Mao had sent); [[w.peng-zhen-nianpu-1902]], IV, 9 (Mar. 18, 1960; Peng Zhen at the Politburo meeting, which adopts for the NPC the report on the 1960 plan, the plan''s summary and the report on the 1959 final accounts and the 1960 budget). The Politburo meeting, 7 to 11 p.m., is [[cal.1960-03-18.china-liu]]. The return is before the match: Zhou was at Hangzhou with Mao that morning ([[cal.1960-03-18.china-leadership]]) and watched the match in Peking ([[cal.1960-03-18.china-leadership-3]]). Made public: 1996. Names: Zhou Enlai, Liu Shaoqi.'
 - add:
     entry:

@@ -87,6 +87,7 @@ ops:
       c: 'Saigon. Taylor, Rostow and Cottrell, with Nolting, call on Ngô Đình Diệm. Taylor asks why his view of American or SEATO forces has changed; Diệm: because of Laos. He asks for tactical aviation, helicopter companies, coastal patrol forces and logistic support; by Nolting''s report he seems to want a bilateral defense treaty and plans for the use of American forces, perhaps combat forces. The emergency decree, he says, goes to the National Assembly for approval within thirty days; security and the floods both prompted it.'
       n: '[FRUS 1961–63, I, doc. 174](https://history.state.gov/historicaldocuments/frus1961-63v01/d174) (Nolting, telegram 508, Saigon, Oct. 18, noon). [[w.preston-war-council]], 91 (Nolting: Diệm "seemed to be talking about combat forces"). See [[cal.1961-10-18.vietnam]]. Names: Taylor, Rostow, Cottrell, Nolting, Ngô Đình Diệm.'
       tags:
+      - ok:fields-time
       - name:taylor-maxwell
       - name:rostow-walt-w
       - name:cottrell-sterling-j
@@ -164,11 +165,6 @@ ops:
       tags:
       - name:kennedy-john-f
 # cal.1962-04-04.vietnam: FRUS II, doc. 141 dates the memorandum at Washington, Galbraith in the United States: the line corrected by the audit (R22), and the reader's Check settled
-- add-words:
-    id: cal.1962-04-04.vietnam
-    after: Kennedy sends it to McNamara;
-    words: Forrestal sends it to McNamara for the Defense Department's comments on Apr. 7;
-    text: '[FRUS 1961–63, II, doc. 141](https://history.state.gov/historicaldocuments/frus1961-63v02/d141)'
 - edit:
     id: cal.1962-04-04.vietnam
     base: d0e9c8d4
@@ -182,6 +178,11 @@ ops:
     - time_band
     - time_zone
     - range_basis
+- add-words:
+    id: cal.1962-04-04.vietnam
+    after: Kennedy sends it to McNamara;
+    words: Forrestal sends it to McNamara for the Defense Department's comments on Apr. 7;
+    text: '[FRUS 1961–63, II, doc. 141](https://history.state.gov/historicaldocuments/frus1961-63v02/d141)'
 - names:
     id: cal.1962-04-04.vietnam
     add:
@@ -259,43 +260,3 @@ ops:
     tags:
     - name:lansdale-edward-g
     - name:harvey-william-k
-- add:
-    entry:
-      id: cal.1961-08-22.latin-america
-      when: Aug. 22
-      date: '1961-08-22'
-      place: washington
-      thread: latin-america
-      also: [cuba]
-      c: Goodwin to Kennedy, a memorandum of his talk with Guevara at Montevideo, from his notes; Larretta had called him the next morning to say Guevara thought the talk profitable.
-      n: '[FRUS 1961–63, X, doc. 257](https://history.state.gov/historicaldocuments/frus1961-63v10/d257). [[w.goodwin-remembering-america]], 202–203 (the memorandum, from the notes made that morning, sent to the President''s advisers at the White House, State and the Pentagon). See [[cal.1961-08-18.latin-america]]. Names: Goodwin, Kennedy, Guevara.'
-      tags:
-      - name:goodwin-richard-n
-      - name:kennedy-john-f
-      - name:guevara-ernesto
-- add:
-    entry:
-      id: cal.1961-08-22.latin-america-2
-      when: Aug. 22
-      date: '1961-08-22'
-      place: washington
-      thread: latin-america
-      also: [cuba]
-      c: 'A White House statement: the Goodwin–Guevara talk at Punta del Este a casual cocktail-party conversation, Goodwin only listening.'
-      n: '[FRUS 1961–63, X, doc. 257](https://history.state.gov/historicaldocuments/frus1961-63v10/d257), n.2 (the editors). See [[cal.1961-08-18.latin-america]]. Names: Goodwin, Guevara.'
-      tags:
-      - name:goodwin-richard-n
-      - name:guevara-ernesto
-- add:
-    entry:
-      id: cal.1961-08-23.latin-america
-      when: Aug. 23
-      date: '1961-08-23'
-      place: washington
-      thread: latin-america
-      also: [cuba]
-      c: State, circular telegram 312 to all Latin American posts, summarizes the White House statement on the Goodwin–Guevara talk; the posts may assure their governments of no change in policy toward Cuba.
-      n: '[FRUS 1961–63, X, doc. 257](https://history.state.gov/historicaldocuments/frus1961-63v10/d257), n.2 (the editors). See [[cal.1961-08-22.latin-america-2]]. Names: Goodwin, Guevara.'
-      tags:
-      - name:goodwin-richard-n
-      - name:guevara-ernesto
