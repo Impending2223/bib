@@ -26,7 +26,7 @@ ops:
         (Sept. 2, 1960). [[w.white-making-of-the-president]], 251–52 (Friday evening in Maine; not Presque Isle by name); [[w.communications-freedom-of-communications-part]], 80–81 (Presque Isle,
         the airport rally, "on this first day"). The hour: "yesterday afternoon I campaigned in Aroostook County, Maine" (Kennedy at Palmer, Sept. 3, [[w.communications-freedom-of-communications-part]],
         100). Split under R17: the take-off from Baltimore is [[cal.1960-09-02.elections-1960-kennedy-5]]. The order: after [[cal.1960-09-02.elections-1960-kennedy-4]], Manchester, which a reporter
-        at the Portland press conference places "this morning" ([[w.communications-freedom-of-communications-part]], 90), against Presque Isle "Friday afternoon" (100); the printed order ([[w.communications-freedom-of-communications-part]],
+        at the Portland press conference places "this morning" ([[w.communications-freedom-of-communications-part]], 90), against Presque Isle "yesterday afternoon" in Kennedy''s words at Palmer the next day (100); the printed order ([[w.communications-freedom-of-communications-part]],
         78–80) agrees. See [[cal.1960-07.elections-1960-4]]. Names: Kennedy.'
       time_band: afternoon
       time_range:
@@ -34,7 +34,7 @@ ops:
       - 1960-09-02T22:00Z
       time_zone: America/New_York
       src:
-        c: dc388c5c
+        c: 9d395918
         rows:
         - 'https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-presque-isle-maine-airport-rally: 2'
         - 'w.communications-freedom-of-communications-part 80–81: 2'
@@ -272,7 +272,7 @@ ops:
         and [[cal.1960-09-14.elections-1960-nixon-4]] (the hotel); the fever of Sept. 15 is [[cal.1960-09-15.elections-1960-nixon]]. See [[cal.1960-09-13.elections-1960]]. Names: Nixon. Check:
         the hour; Nixon has a "noontime stop," while the speaker who introduces him at the field house (APP) and a reporter at Peoria say "this afternoon."'
       src:
-        c: a9a8c164
+        c: c79274b7
         rows:
         - 'https://www.presidency.ucsb.edu/documents/remarks-vice-president-richard-m-nixon-university-north-dakota-field-house-grand-forks-nd: 1'
         - 'w.nixon-six-crises 331: 1'
@@ -553,7 +553,7 @@ ops:
       tags:
       - name:nixon-richard-m
       src:
-        c: c0cd01fc
+        c: 77a80381
         rows:
         - 'w.white-making-of-the-president 285–86: 1, 2'
         - 'w.nixon-rn 218–19: 2'
@@ -673,7 +673,7 @@ ops:
 - add-words:
     id: cal.1960-09-14.elections-1960
     after: New York.
-    words: 'The Commodore Hotel. Kennedy accepts the Liberal Party''s nomination, before Niebuhr, Stevenson and Meany.'
+    words: 'The Commodore Hotel: Kennedy accepts the Liberal Party''s nomination; Niebuhr, Stevenson and Meany present.'
     item: '[[w.communications-freedom-of-communications-part]], 238–39'
 - names:
     id: cal.1960-09-14.elections-1960
@@ -735,5 +735,13 @@ ops:
       place: bogota
       thread: latin-america
       c: Bogotá. The third meeting of the OAS Committee of 21 convenes; it sits to Sept. 13.
-      n: '[[w.department-of-state-bulletin]], [Oct. 3, 1960, 533](https://archive.org/details/departmentofstat4360unit/page/533/mode/1up) (the Committee "convened at Bogota, Colombia, September
-        5-13"). See [[cal.1960-09-03.latin-america]].'
+      n: '[[w.department-of-state-bulletin]], [Oct. 3, 1960, 533](https://archive.org/details/departmentofstat4360unit/page/533/mode/1up) (the Committee convened at Bogotá Sept. 5–13). See [[cal.1960-09-03.latin-america]].'
+- follows:
+    id: cal.1960-09-15.elections-1960
+    add:
+    - cal.1960-09-15.elections-1960-nixon
+- follows:
+    id: cal.1960-09-26.elections-1960
+    add:
+    - cal.1960-09-26.labor
+    basis: '[[w.communications-freedom-of-communications-part]], 363 (Kennedy to the Carpenters: "This has been billed tonight as a great debate")'
