@@ -181,6 +181,21 @@ def polities():
     return _cache["pol"]
 
 
+class held:
+    """`with vis.held():` the register (and the registry, once read) taken as read for what the block does, as
+    entry_claims holds them for its pass, not checked for a change at every call; a nested block keeps the outer
+    one's state."""
+
+    def __enter__(self):
+        self.was = _cache.get("frozen")
+        polities()
+        _cache["frozen"] = True
+
+    def __exit__(self, *a):
+        _cache["frozen"] = self.was
+        return False
+
+
 def is_org(pid):
     return bool((polities()["polities"].get(pid) or {}).get("org"))
 

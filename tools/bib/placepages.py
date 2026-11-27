@@ -556,3 +556,298 @@ def into_note(note_html, places_html):
     if at >= 0:
         return note_html[:at] + places_html + " " + note_html[at:]
     return note_html + (" " if note_html else "") + places_html
+
+
+# ---------------------------------------------------------------- the place tags held to the entry (STYLE 8, 9)
+
+TAG_RULES = {"polity": "polity-tag", "state": "state-tag", "city": "city-tag"}     # check's warnings, ok:<rule>
+# The words a line writes for a nation, beyond its register name, key and code (STYLE 8): its adjective where the
+# name does not give it, its capital and the names the calendar's sources use. A support for a tag, never a tag.
+NATION_WORDS = {
+    "us": ["American", "U.S.", "USA", "United States", "Washington"],
+    "ussr": ["Soviet", "Russian", "Russia", "Moscow", "Kremlin"],
+    "prc": ["Chinese", "Peking", "Beijing", "Sino"],
+    "uk": ["Britain", "British", "English", "England", "London", "Scottish"],
+    "frg": ["West German", "German", "Bonn", "Federal Republic"], "gdr": ["East German", "German", "DDR", "Pankow"],
+    "fr": ["French", "Paris"],
+    "drv": ["North Vietnam", "Hanoi", "Vietnam", "Vietnamese"], "rvn": ["South Vietnam", "Saigon", "Vietnam", "Vietnamese"],
+    "nlf": ["Front", "Viet Cong", "Liberation"], "pathet-lao": ["Neo Lao"],
+    "roc": ["Taiwan", "Formosa", "Nationalist", "Kuomintang", "Chiang", "Taipei", "GRC"],
+    "rok": ["South Korea", "Korea", "Korean", "Seoul"], "dprk": ["Korea", "Korean", "Pyongyang"],
+    "uar": ["Egypt", "Egyptian", "Cairo", "Nasser", "Syria", "Syrian"],
+    "laos": ["Lao", "Laotian", "Vientiane"], "cambodia": ["Khmer", "Sihanouk", "Phnom Penh"], "thailand": ["Thai"],
+    "cuba": ["Castro", "Havana"], "indonesia": ["Sukarno", "Djakarta", "Jakarta"], "japan": ["Tokyo"], "india": ["Delhi"],
+    "netherlands": ["Dutch", "Holland", "Hague"], "switzerland": ["Swiss", "Geneva", "Bern"],
+    "philippines": ["Filipino", "Philippine", "Manila"], "el-salvador": ["Salvadoran"], "norway": ["Norwegian"],
+    "denmark": ["Danish", "Dane"], "finland": ["Finnish", "Finn"], "poland": ["Polish", "Pole", "Warsaw"],
+    "ireland": ["Irish"], "greece": ["Greek"], "turkey": ["Turkish", "Turk"], "cyprus": ["Cypriot"],
+    "sweden": ["Swedish", "Swede"], "portugal": ["Portuguese"], "iceland": ["Icelandic"],
+    "vatican": ["Pope", "Holy See", "Paul VI", "John XXIII"], "saudi-arabia": ["Saudi"],
+    "yugoslavia": ["Yugoslav", "Tito", "Belgrade"], "czechoslovakia": ["Czechoslovak", "Czech", "Slovak", "Prague"],
+    "afghanistan": ["Afghan"], "congo": ["Congolese", "Leopoldville", "Léopoldville", "Kinshasa"],
+    "congo-brazzaville": ["Brazzaville"], "ivory-coast": ["Ivorian"], "upper-volta": ["Voltaic"],
+    "western-samoa": ["Samoan"], "south-yemen": ["Aden", "Southern Yemen"], "dominican-republic": ["Dominican"],
+    "central-african-republic": ["Central African"], "malaysia": ["Malaya", "Malayan"], "tanzania": ["Tanganyika", "Zanzibar"],
+}
+SUFFIX = r"(?:|e|n|an|ian|nian|ean|ese|lese|i|ish|ic|s|ns|ans|ians)(?:'s|’s)?"   # Cuban, Ghanaian, Nepalese, Iraqi
+STATE_WORDS = {"CA": ["Calif."], "KS": ["Kans."], "NE": ["Nebr."], "OR": ["Ore.", "Oreg."], "NM": ["N.Mex.", "N. Mex."],
+               "ND": ["N.Dak."], "SD": ["S.Dak."], "WV": ["W.Va."], "TX": ["Texan"]}   # beside the Bluebook's
+_WORD = r"(?<![^\W\d_])(?:{})(?![^\W\d_])"
+
+
+def _alts(forms):
+    """A pattern's alternatives, the longest first: a form of capitals or with a stop as written ("UK", "U.S."),
+    any other in any case, with a suffix."""
+    out = []
+    for f in forms:
+        if f.isupper() or "." in f:
+            out.append(re.escape(f))
+        else:
+            out.append(f"(?i:{re.escape(f)}{SUFFIX})")
+    return "|".join(sorted(set(out), key=len, reverse=True))
+
+
+def nation_words(pid):
+    """The pattern of the words a line writes for a polity (STYLE 8): its register name, its name without its gloss,
+    its key's words and its code (of five letters or fewer), each with an adjective's suffix and, past four letters,
+    without its last vowel (Bulgaria, Bulgarian); and NATION_WORDS."""
+    from . import vis
+    reg = vis.polities()["polities"]
+    key = ("words", pid, id(reg))
+    if key not in _C:
+        v = reg.get(pid) or {}
+        forms = set(NATION_WORDS.get(pid, []))
+        name = str(v.get("name") or pid)
+        for f in {name, short_name(name), re.sub(r"\s*\(.*\)", "", name), pid.replace("-", " ")}:
+            f = f.strip()
+            if len(f) < 3:
+                continue
+            forms.add(f.lower())
+            if f[-1] in "aeiouy" and len(f) >= 5:
+                forms.add(f[:-1].lower())
+        if v.get("tag") and len(str(v["tag"])) <= 5:
+            forms.add(str(v["tag"]).upper())
+        _C[key] = re.compile(_WORD.format(_alts(forms)))
+    return _C[key]
+
+
+def state_words(code):
+    """The pattern of the words a line writes for a State (STYLE 8): its name, its Bluebook abbreviation (congress.py)
+    and STATE_WORDS."""
+    from . import congress
+    key = ("state-words", code)
+    if key not in _C:
+        forms = [congress.STATE.get(code, code).lower(), congress.BLUEBOOK.get(code, code)] + STATE_WORDS.get(code, [])
+        _C[key] = re.compile(_WORD.format(_alts(forms)))
+    return _C[key]
+
+
+def tag_name(tag):
+    """What a place tag names (STYLE 9): a polity's name in the register, a State's name (its postal code), a city's or
+    place's in the gazetteer, a province's on the map of China or of Indochina; None for a tag that names nothing."""
+    from . import congress, vis, vnmap
+    ns, _, k = str(tag).partition(":")
+    if ns == "polity":
+        v = vis.polities()["polities"].get(k)
+        return str(v.get("name") or k) + (" (an organization)" if v.get("org") else "") if isinstance(v, dict) else None
+    if ns == "state":
+        c = k.upper()
+        return ("District of Columbia" if c == "DC" else congress.STATE.get(c)) if k == k.lower() else None
+    if ns in ("city", "place"):
+        r = tag_row(tag)
+        if r is not None:
+            from . import places
+            return places.name_on(r, None)
+        if ns == "place":
+            p = vnmap.gazetteer().get(k)
+            return vnmap.shown(p) if p else None
+        return None
+    if ns == "province":
+        if k in provinces():
+            return provinces()[k]
+        u = vnmap.units().get(k)
+        return u.get("name") if u else None
+    return None
+
+
+def tag_errors(e):
+    """[message] for an entry's place tags that name nothing (STYLE 8): a `state:` tag not a postal code of the
+    States or D.C. (tools/bib/sources.py, STATES), in lower case; a `polity:` tag not in sources/polities.yaml (where
+    the tree has the register)."""
+    import difflib
+    from . import sources, vis
+    out = []
+    reg = vis.polities()["polities"]
+    st_keys = None
+    for g in store.as_list(e.get("tags")):
+        ns, _, k = str(g).partition(":")
+        if ns == "state":
+            if k.upper() in sources.STATES and k == k.lower():
+                continue
+            if st_keys is None:
+                st_keys = {str(r["key"]): c for c, r in states().items()}
+                from . import congress
+                st_keys.update({store.fold(n).lower().replace(" ", "-"): c for c, n in congress.STATE.items()})
+            fix = k.lower() if k.upper() in sources.STATES else (st_keys.get(k.lower()) or "").lower()
+            out.append(f"{g}: not a State's postal code in lower case (state:al, state:dc)"
+                       + (f"; write state:{fix}" if fix else ""))
+        elif ns == "polity" and reg and k not in reg:
+            by_tag = {str((v or {}).get("tag") or "").lower(): p for p, v in reg.items()}
+            near = by_tag.get(k.lower()) or next(iter(difflib.get_close_matches(k, list(reg), n=1, cutoff=0.75)), None)
+            out.append(f"{g}: no such polity in sources/polities.yaml"
+                       + (f" (polity:{near}, {tag_name('polity:' + near)}?)" if near else "; add its row there first"))
+    return out
+
+
+def _nations_of_row(r):
+    return set(_row_polities(r)) | {str(p) for p in store.as_list(r.get("in")) if p and p != "?"}
+
+
+def support(lst, e, named=True):
+    """What an entry's place, people, threads, other tags and line give it (STYLE 8): {"nations": polities (folded
+    both ways: the NLF's are North and South Vietnam's), "states": postal codes in lower case, from its place, its
+    threads (a thread whose name is a State's, or a subthread of one) and its city and place tags, "named": the
+    gazetteer keys its line names, "named_states": their States}. named=False leaves out the places its line names
+    (fields.place_hits, the dearest part: tag_findings asks for it only where the rest does not do)."""
+    from . import fields, places, vis
+    tags = [str(g) for g in store.as_list(e.get("tags"))]
+    date = vis.iso(e.get("date")) or "1960-01-01"
+    nations, sts = set(), set()
+    for r in [places.get(k) for k in places.keys(e)]:
+        if r is not None:
+            nations |= _nations_of_row(r)
+            if r.get("st"):
+                sts.add(str(r["st"]).lower())
+    for g in tags:
+        ns, _, k = g.partition(":")
+        if ns == "name":
+            p = vis.person_polity(k, date)
+            if p:
+                nations.add(p)
+        elif ns in ("city", "place"):
+            r = tag_row(g)
+            if r is not None:
+                nations |= _nations_of_row(r)
+                if r.get("st"):
+                    sts.add(str(r["st"]).lower())
+            else:
+                nations |= set(vis.place_polities(g))
+        elif ns == "state":
+            nations.add("us")
+        elif ns == "province":
+            nations |= {"prc"} if k in provinces() else set(vis.place_polities(g))
+        elif ns == "vis":
+            m = vis.RULE_RX.match(g)
+            if m:
+                nations |= set(m.group(2).split("+"))
+    for slug in [e.get("thread")] + store.as_list(e.get("also")):
+        if not slug:
+            continue
+        nations |= set(vis.thread_polities(lst, slug))
+        sts |= {c for s in (lst.thread_line(slug) if lst is not None else [slug]) for c in [_state_thread(s)] if c}
+    named = [places.get(k) for _, _, k in fields.place_hits(e)] if named else []
+    named = [r for r in named if r is not None]
+    for r in named:
+        nations |= _nations_of_row(r)
+    nations |= {q for p in list(nations) for q in _fold(p)}
+    return {"nations": nations, "states": sts, "named": {r["key"] for r in named},
+            "named_states": {str(r["st"]).lower() for r in named if r.get("st")}}
+
+
+def _state_thread(slug):
+    """The postal code (lower case) of the State a thread's slug names (alabama, south-carolina), or None."""
+    if "state-slugs" not in _C:
+        from . import congress
+        m = {str(r["key"]): c.lower() for c, r in states().items()}
+        m.update({store.fold(n).lower().replace(" ", "-"): c.lower() for c, n in congress.STATE.items()})
+        _C["state-slugs"] = m
+    return _C["state-slugs"].get(str(slug))
+
+
+def _line(e):
+    from .markup import plain
+    return " ".join(plain(str(x)) for x in [e.get("c")] + store.as_list(e.get("c2")) + store.as_list(e.get("c3")) if x)
+
+
+def _placed(r):
+    """Where a row is, for a message: "in Alabama" for a State, else "at Atlanta, in Georgia"."""
+    from . import places
+    if r.get("kind") == "state":
+        return f"in {places.name_on(r, None)}"
+    return f"at {places.name_on(r, None)}, in {_where_words(r)}"
+
+
+def _where_words(r):
+    if r.get("st"):
+        c = str(r["st"]).upper()
+        return "the District of Columbia" if c == "DC" else (tag_name(f"state:{c.lower()}") or c)
+    ns = [n for n in _nations_of_row(r)]
+    return in_words({"name": short_name(tag_name(f"polity:{ns[0]}") or ns[0]), "kind": "nation"}) if ns else "no State"
+
+
+def tag_findings(lst, e):
+    """[(rule, message)]: an entry's place tags that nothing else in it supports (STYLE 8): a `polity:` tag (no
+    organization's) none of whose nations its place, its people, its threads, its other tags or its line give; a
+    `state:` tag on an entry placed outside that State, which no thread, city tag or word of its line ties to it; a
+    `city:` tag on an entry placed only in other cities of another State or nation, whose line does not name it."""
+    from . import places, vis
+    tags = [str(g) for g in store.as_list(e.get("tags"))]
+    if not any(g.partition(":")[0] in TAG_RULES for g in tags):
+        return []
+    with vis.held():
+        return _tag_findings(lst, e, tags, vis.polities()["polities"], places)
+
+
+def _supported(ns, k, sup, text, rows):
+    if ns == "polity":
+        return bool(set(_fold(k)) & sup["nations"]) or k in sup["nations"] or bool(nation_words(k).search(text))
+    if ns == "state":
+        return k in sup["states"] or k in sup["named_states"] or k.upper() not in _state_codes() or \
+            bool(state_words(k.upper()).search(text))
+    r = tag_row(f"{ns}:{k}")
+    if r is None or r["key"] in sup["named"] or any(x["key"] == r["key"] for x in rows):
+        return True
+    cst = str(r.get("st") or "").lower()
+    return any((str(x.get("st") or "").lower() == cst) if cst else bool(_nations_of_row(x) & _nations_of_row(r))
+               for x in rows)
+
+
+def _tag_findings(lst, e, tags, reg, places):
+    rows = [r for r in (places.get(k) for k in places.keys(e)) if r is not None]
+    sup, text, out = None, None, []
+    for g in tags:
+        ns, _, k = g.partition(":")
+        if ns not in TAG_RULES or f"ok:{TAG_RULES[ns]}" in tags:
+            continue
+        if ns == "polity" and (k not in reg or (reg.get(k) or {}).get("org")):
+            continue                              # an unknown polity is an error (tag_errors); an organization no nation
+        if ns != "polity" and not rows:
+            continue                              # an entry the record does not place: nothing to set against the tag
+        if sup is None:
+            sup, text = support(lst, e, named=False), _line(e)
+        if _supported(ns, k, sup, text, rows):
+            continue
+        if not sup.get("full"):                   # the places the line names, only now (support's dearest part)
+            sup = dict(support(lst, e), full=True)
+            if _supported(ns, k, sup, text, rows):
+                continue
+        name = tag_name(g)
+        if ns == "polity":
+            out.append(("polity-tag", f"{g} ({name}): nothing in the entry gives it (its place, its people's nations, "
+                        "its threads, its other tags, a nation its line names): the code meant? (tag ok:polity-tag if "
+                        "it is right)"))
+        elif ns == "state":
+            where = "; ".join(_placed(r) for r in rows)
+            out.append(("state-tag", f"{g} ({name}): the entry is placed {where}, and no thread, city tag or word "
+                        f"of its line ties it to {name} (tag ok:state-tag if it is right)"))
+        else:
+            r = tag_row(g)
+            where = "; ".join(_placed(x) for x in rows)
+            out.append(("city-tag", f"{g} ({name}, in {_where_words(r)}): the entry is placed {where}, and its line "
+                        f"does not name {name} (tag ok:city-tag if it is right)"))
+    return out
+
+
+def _state_codes():
+    from . import sources
+    return sources.STATES

@@ -106,8 +106,15 @@ def entry_problems(series, lst, sec, e, idx=None, threads=None):
     is_thread = lst.kind == "calendar" and eid.startswith(f"{lst.key}.thread.")
     if not is_thread and not e.get("c") and not (e.get("s") and (e.get("r") or e.get("n"))):
         out.append((ERROR, "needs a 'c' line (or, for a person, 's' with 'r' or 'n')", "general"))
+    # place tags that name nothing: a State's postal code, a polity of the register (placepages.py, STYLE 8)
+    from . import placepages
+    for msg in placepages.tag_errors(e):
+        out.append((ERROR, msg, "place-tags"))
     if lst.kind != "calendar" or is_thread:
         return out
+    # place tags nothing else in the entry supports (placepages.py, STYLE 8): warnings, ok:<rule> where right
+    for rule, msg in placepages.tag_findings(lst, e):
+        out.append((WARN, msg, rule))
     for f in ("when", "date", "thread"):
         if not e.get(f):
             out.append((ERROR, f"calendar entry needs '{f}'", "general"))
