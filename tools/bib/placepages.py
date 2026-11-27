@@ -46,7 +46,8 @@ STYLE
     SCRIPT). The clock's city, given where the entry has no place, is not linked: it is not a place of record.
  7. "Places:" (the same ruling): in every calendar entry's citation block, just before "Names:" (else at its end), a
     sentence written by the build, never stored: the nations, States, provinces and cities with a page that the
-    entry took place in or concerns (STYLE 2), in that order, each linked to its page as the names are.
+    entry took place in or concerns (STYLE 2), in that order (the index's: the nations as the register lists them, the
+    others by name), each linked to its page as the names are.
 """
 import datetime
 import html
@@ -533,12 +534,11 @@ def line(e, series=None):
     w = (_C.get("each") or {}).get(e["id"])
     if w is None:
         return ""
-    out = []
-    for kind, _ in KINDS:
-        for slug in sorted(w["there"][kind] | w["tagged"][kind]):
-            pl = got.get((kind, slug))
-            if pl:
-                out.append(pl)
+    if _C.get("pos_of") is not got:
+        _C.update(pos_of=got, pos={k: i for i, k in enumerate(got)})
+    pos = _C["pos"]                     # the index's order: the nations as the register lists them, the rest by name
+    keys = [(kind, slug) for kind, _ in KINDS for slug in w["there"][kind] | w["tagged"][kind] if (kind, slug) in pos]
+    out = [got[k] for k in sorted(keys, key=pos.get)]
     if not out:
         return ""
     cities = {pl["name"] for pl in out if pl["kind"] == "city"}
