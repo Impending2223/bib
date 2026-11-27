@@ -1,6 +1,25 @@
 patch: notes-pass-11cr
 by: 'Claude (reader; the notes pass, batch 11cr: R33a, building on the entry from its cites)'
 ops:
+# the part of the day, from the record (R25a): Ball, The Past Has Another Pattern, 290 ("The next morning, Wednesday, October 17"); Salinger, With Kennedy, 250 (it was dark when Air Force One landed at Chicago; the calls came as he reached his suite)
+- edit:
+    id: cal.1962-10-17.missile-crisis-2
+    base: 07438d4d
+    set:
+      time_range:
+      - 1962-10-17T10:00Z
+      - 1962-10-17T16:00Z
+      time_band: morning
+      time_zone: America/New_York
+- edit:
+    id: cal.1962-10-19.missile-crisis-warnings
+    base: 7d34f805
+    set:
+      time_range:
+      - 1962-10-20T00:00Z
+      - 1962-10-20T03:00Z
+      time_band: evening
+      time_zone: America/Chicago
 # cal.1961-05-24.freedom-rides: Schlesinger, Robert Kennedy and His Times, 299
 - add-words:
     id: cal.1961-05-24.freedom-rides
@@ -130,17 +149,17 @@ ops:
 - add-words:
     id: cal.1962-09-27.mississippi
     after: end
-    words: 'At 2:50 p.m. Kennedy proposes that the head marshal draw his gun and the rest keep their hands on their holsters, the state police to keep order. Barnett: "Isn''t it possible to have them all pull their guns?" Lieutenant Governor Johnson, on the line, says all must draw.'
+    words: 'At 2:50 p.m. Robert Kennedy proposes that the head marshal draw his gun and the rest keep their hands on their holsters, the state police to keep order. Barnett: "Isn''t it possible to have them all pull their guns?" Lieutenant Governor Johnson, on the line, says all must draw.'
     item: '[[w.navasky-kennedy-justice]], 209–10'
 - add-words:
     id: cal.1962-09-27.mississippi
     after: end
-    words: 'At 3:50 p.m. Barnett asks that it wait until Saturday; Johnson cannot rule out shooting; Kennedy: Meredith "won''t come." At 4:20 p.m. Barnett again promises no violence, the marshals due about five: "You understand we have had no agreement." Kennedy: "That''s correct."'
+    words: 'At 3:50 p.m. Barnett asks that it wait until Saturday; Johnson cannot rule out shooting; Robert Kennedy: Meredith "won''t come." At 4:20 p.m. Barnett again promises no violence, the marshals due about five: "You understand we have had no agreement." Robert Kennedy: "That''s correct."'
     item: '[[w.navasky-kennedy-justice]], 211–15'
 - add-words:
     id: cal.1962-09-27.mississippi
     after: end
-    words: 'At 5:35 p.m. Barnett will not guarantee order once Meredith is in; Kennedy says he had better call it off. At 6:35 p.m. Barnett, nervous, reports several thousand people in cars and trucks at Oxford; Kennedy: "I''ll send them back." Meredith''s party, seventy miles from Oxford, is turned around.'
+    words: 'At 5:35 p.m. Barnett will not guarantee order once Meredith is in; Robert Kennedy says he had better call it off. At 6:35 p.m. Barnett, nervous, reports several thousand people in cars and trucks at Oxford; Robert Kennedy: "I''ll send them back." Meredith''s party, seventy miles from Oxford, is turned around.'
     item: '[[w.navasky-kennedy-justice]], 209, 215–17'
 - names:
     id: cal.1962-09-27.mississippi
@@ -154,7 +173,7 @@ ops:
 - add-words:
     id: cal.1962-09-29.mississippi-ole-miss
     after: end
-    words: 'In the President''s office Robert Kennedy, with O''Donnell and Burke Marshall present, bids him "Go get him Johnny boy." In the first call Kennedy tells Barnett he must carry out the law and wants his help; Barnett proposes that Tom Watkins come to Washington; Kennedy: the Court''s order gives Barnett until Tuesday.'
+    words: 'In the President''s office Robert Kennedy, with O''Donnell and Burke Marshall present, bids the President "Go get him Johnny boy." In the first call the President tells Barnett he must carry out the law and wants his help; Barnett proposes that Tom Watkins come to Washington; the President: the Court''s order gives Barnett until Tuesday.'
     item: '[[w.schlesinger-journals]], 168–69'
 - add-words:
     id: cal.1962-09-29.mississippi-ole-miss
@@ -164,7 +183,7 @@ ops:
 - add-words:
     id: cal.1962-09-29.mississippi-ole-miss
     after: end
-    words: 'In the second call Kennedy asks Barnett for positive assurances that he will keep order and prevent a mob; Barnett, by the President''s report: "Just tell ''em to cool off and you can sneak him in."'
+    words: 'In the second call the President asks Barnett for positive assurances that he will keep order and prevent a mob; Barnett, by the President''s report: "Just tell ''em to cool off and you can sneak him in."'
     item: '[[w.schlesinger-journals]], 171'
 - check:
     id: cal.1962-09-29.mississippi-ole-miss
@@ -309,3 +328,112 @@ ops:
     - Castro
     tags:
     - name:castro-fidel
+# cal.1961-07-18.school-aid: Graham, 22; Sundquist, 192; McPherson, 195-96
+- add-words:
+    id: cal.1961-07-18.school-aid
+    after: end
+    words: 'Smith and Colmer, with Delaney and the five Republicans, hold the public school bill, the NDEA bill and the college bill.'
+    item: '[[w.graham-uncertain-triumph]], 22'
+- add-words:
+    id: cal.1961-07-18.school-aid
+    after: end
+    words: 'Delaney calls the NDEA bill''s private-school loans "just a little bit of a sop" for the Catholics and demands a nondiscriminatory grant bill.'
+    item: '[[w.sundquist-politics-and-policy]], 192'
+- add-words:
+    id: cal.1961-07-18.school-aid
+    after: end
+    words: 'The bishops oppose the school bill for giving no relief to parochial schools; Cardinal Spellman "would not have it."'
+    item: '[[w.mcpherson-political-education]], 195–96'
+- names:
+    id: cal.1961-07-18.school-aid
+    add:
+    - Colmer
+    - Spellman
+    tags:
+    - name:colmer-william-m
+    - name:spellman-francis
+# cal.1962-06-10.soviet-union-leadership: Prezidium TsK KPSS, I, 568, 1102 nn.1-2
+- add-words:
+    id: cal.1962-06-10.soviet-union-leadership
+    after: end
+    words: 'Kozlov, Mikoyan, Ilyichev and Khrushchev speak in the item on Novocherkassk.'
+    item: '[[w.prezidium-tsk-kpss-1954]], I, 568'
+- add-words:
+    id: cal.1962-06-10.soviet-union-leadership
+    after: end
+    words: 'The editors: after the price rises of June 1, unrest began in Novocherkassk on June 1–2; troops fired on the demonstrators, about 23 dead.'
+    item: '[[w.prezidium-tsk-kpss-1954]], I, 1102 nn.1–2'
+- names:
+    id: cal.1962-06-10.soviet-union-leadership
+    add:
+    - Mikoyan
+    - Ilyichev
+    - Khrushchev
+    tags:
+    - name:mikoyan-anastas
+    - name:ilyichev
+    - name:khrushchev-nikita-s
+# cal.1962-10-19.missile-crisis-warnings: Salinger, With Kennedy, 250-51
+- add-words:
+    id: cal.1962-10-19.missile-crisis-warnings
+    after: end
+    words: 'Richard Phillips, of the State Department''s Public Affairs Bureau, had called Salinger with the Allen and Scott story, and Kent called within the minute.'
+    item: '[[w.salinger-with-kennedy]], 250–51'
+- add-words:
+    id: cal.1962-10-19.missile-crisis-warnings
+    after: end
+    words: 'By Salinger, Kennedy tells O''Donnell to have McNamara "straighten out Allen and Scott."'
+    item: '[[w.salinger-with-kennedy]], 251'
+# cal.1962-10-19.missile-crisis-warnings-2: Salinger, 251; O'Donnell and Powers, 363
+- add-words:
+    id: cal.1962-10-19.missile-crisis-warnings-2
+    after: end
+    words: 'It is a Democratic dinner at $100 a plate, for Sid Yates; Kennedy goes with Mayor Daley and John Bailey, the national chairman.'
+    item: '[[w.odonnell-johnny-we-hardly-knew]], 363'
+- add-words:
+    id: cal.1962-10-19.missile-crisis-warnings-2
+    after: end
+    words: 'Salinger: he is "flying blind with the press." O''Donnell advises him to stay away from the reporters that night.'
+    item: '[[w.salinger-with-kennedy]], 251'
+- add-words:
+    id: cal.1962-10-19.missile-crisis-warnings-2
+    after: end
+    words: 'By O''Donnell, Dave Powers keeps him company in the suite.'
+    item: '[[w.odonnell-johnny-we-hardly-knew]], 363'
+- check:
+    id: cal.1962-10-19.missile-crisis-warnings-2
+    text: 'Check: Salinger, 251, finds O''Donnell alone in the suite; O''Donnell and Powers, 363, have Powers with him.'
+- names:
+    id: cal.1962-10-19.missile-crisis-warnings-2
+    add:
+    - Powers
+    - Daley
+    tags:
+    - name:powers-david-f
+    - name:daley-richard-j
+# cal.1961-12-05.africa: FRUS XXI, doc. 240 (the rest of the meeting)
+- add-words:
+    id: cal.1961-12-05.africa
+    after: end
+    words: 'Rusk would enlist Macmillan in turning Nkrumah to a reasonable course. McCone reads the intelligence estimates as showing that Nkrumah still means to keep his independence from Soviet domination, and finds business opinion on the project not unfavorable. Kennedy reads out the letter of June 29; Ball reminds him it was made warmer at his own direction.'
+    text: '[FRUS 1961–63, XXI, doc. 240](https://history.state.gov/historicaldocuments/frus1961-63v21/d240)'
+- names:
+    id: cal.1961-12-05.africa
+    add:
+    - McCone
+    - Macmillan
+    - Ball
+    tags:
+    - name:mccone-john-a
+    - name:macmillan-harold
+    - name:ball-george-w
+- place:
+    id: cal.1961-12-05.africa
+    at: washington
+    basis: n
+    note: 'FRUS XXI, doc. 240, Washington, Dec. 5, 1961'
+- place:
+    id: cal.1962-09-29.mississippi-ole-miss
+    at: washington
+    basis: n
+    note: 'the President''s end of the calls: his office, Schlesinger, Journals, 168; Barnett''s end not given'
