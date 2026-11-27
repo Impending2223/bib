@@ -379,6 +379,7 @@ The order in every batch follows one rule. The record and the chronologies come 
 ### O1. Oral histories (JFK and RFK libraries)
 
 - 840 transcripts, 29,780 pages, 232 readers. Oral histories (JFK and RFK libraries) would add 1960 to 1968; all threads with a Kennedy or Johnson side. The hand-off keeps them on file, not queued.
+- Sorted by subject on Nov. 26 (the owner's question; `notes/proposals/oral-histories-sort.md` and `.tsv`, sorted on Sonnet from the finding aids' scope of each interview and checked on Opus): 814 of the 836 interviews go to the batch of their chief subject and are read as a last stage of that batch, after its books; U8's 268 are read in three parts by campaign (1960 and before; 1964 to 1967; 1968, after U2). The 22 whose scope names no batch's subject stay here, read last. The order below is the first plan's, kept for those 22.
 - Stage 1, the JFK Library, 587 transcripts in the order of the interviewee's name, then the interview number; stage 2, the RFK Library, 253 in the same order. A reader takes about 150 pages, a few transcripts of one interviewee together. The first reader of each library should say whether the transcripts are better read by interviewee's subject, and the order be changed.
 
 ## What the queue holds and what it does not
