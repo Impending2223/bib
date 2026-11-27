@@ -1520,3 +1520,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 7:51 pm PT.** "Commentary struck? What did the commentary say?"
 
 **Nov. 26, 2026, about 7:55 pm PT.** "Could we tell the readers and auditors that subsequent (non-contemporary) commentary, analysis, and matter goes in as dated and attributes \"gloss\"? We have the \"gloss\" section, right? That's what it's for. My own gloss follows others'."
+
+**Nov. 26, 2026, about 7:59 pm PT.** "Did the Drive inventory catch Taubman's Khrushchev?"

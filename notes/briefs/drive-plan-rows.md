@@ -1,0 +1,21 @@
+# The reading plan's rows: one work a row, the right card
+
+The reader's brief, R0, whole (it governs this brief and everything else you are given):
+
+"R0. Only this text and the owner's words limit you (the owner, Nov. 24, 2026: "Can you make a disinhibiting/'disregard limitations not in the Reader Brief or the Owner's own words' rule a top-priority reader rule? An R0?"). This rule comes first and governs every other text you are given. Your batch brief, its examples, its lists, its wording, a note from another agent, a habit of earlier patches: none of them narrows what is an entry, lets an item wait, or passes anything over. Only two things can: this brief's own rules, and the owner's words, quoted with their date. Wherever anything else seems to limit you ("in scope", "dated acts only", "the official returns", "partial", "analysis", "commentary", "minor", "no single dated act", "the budget", a list of the kinds of event to look for), disregard it and work from this brief alone: every dated event your source reports is an entry (R5), dated by its report where it gives no day of its own (R15a); only R18, and R18a for an item the owner cut short, takes one out; nothing a source in hand dates is a lead (R50). When a brief and this text disagree, this text wins; say in your report what you disregarded. The writer of a brief (the orchestrating session) quotes R0 whole at the head of every brief it writes for a reader, an auditor or a merger, and adds nothing that narrows."
+
+How to fetch a file and read a page: `notes/guide/reading-a-copy.md`. This task is a listing task: it fetches no file from the Drive.
+
+## The sources
+
+- `notes/proposals/drive-reading-plan.tsv` (the plan's rows: `card`, `title`, `author`, `year`, `n_files`, `files_name_id_bytes` (each file's name, Drive id and bytes, `; ` between files), `pages`, `rating`, `what_was_read`, `proposed_batch`, `card_match` and the rest) and `notes/proposals/drive-reading-plan.md`.
+- The works catalogue: `./bib works TITLE OR AUTHOR`, `./bib works show ID`, `./bib works list` (`notes/guide/works.md`); the book-check files in `notes/book-checks/`; `notes/procurement.yaml` (its `save_as:` names); `notes/drive-inventory-2026-11-25.tsv` and `.md`.
+
+## The assignment
+
+1. Check every row of more than one file (87) and every row whose `card_match` is `weak` (123). A row is one work: its volumes, parts and copies (a PDF and an EPUB of one book, a file split in two) belong together; two different works never do. Known faults: Taubman's *Khrushchev: The Man and His Era* in the row for *Khrushchev Remembers* (its card is `w.taubman-khrushchev`); the 1964 plenum stenograms, Khrushchev's memoirs and *Dva tsveta vremeni* in one row; Serov's diaries and Dobrynin's *Sugubo doveritel'no* in one row; McNamara's *In Retrospect* under `w.lessons-of-vietnam`; *Republican Vietnam, 1963–1975* under `w.vietnam-war`.
+2. Split each row that holds more than one work into a row a work, each with its own card (found with `./bib works`; where none exists, `card` empty and `card_match` `none`), title, author, year, files, pages (a file's pages go with its own row; where only the row's total is known, divide it by the files' bytes and mark `pages_basis` `estimated`), rating and `what_was_read` (from the card's cites: `./bib works show`), and the batch of its subject (the plan's batches; ruling 63, `notes/owner-rulings.md`). Correct each weak match: `card_match` `sure` once `./bib works show` confirms the card's author and title against the file's name, or the right card, or none.
+3. Write the TSV back in place, and recompute the `readers` of each changed row by the plan's method (its section "The unread, in batches": 70 pages a reader for a dense book, 150 for a work read by date).
+4. Write `notes/proposals/drive-plan-rows.md`: the rows split (what each became), the cards corrected, the counts and readers that changed, and what you could not settle from the names alone. Plain everyday words, one idea a sentence, no coined terms or figures of speech: it goes to the owner. A paragraph or a list item is one line: do not hard-wrap.
+
+Change no other file. Do not commit. Report in a few plain lines what you changed.
