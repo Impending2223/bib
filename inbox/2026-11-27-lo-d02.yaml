@@ -342,6 +342,7 @@ ops:
 - variant:
     at: '139'
     id: cal.1960-04-26.china-zhou-foreign-3
+    'on': 'Zhou Enlai calls on Prince Himalaya, 4:30 p.m.;'
     reads: Zhou and Chen Yi call on the King of Nepal, Himalaya Bir Bikram Shah Deva (国王喜马拉雅), the day not given
     witness: w.zhonghua-renmin-gongheguo-waijiao-2001
 - edit:
@@ -625,11 +626,6 @@ ops:
         rows:
         - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 487: ?'
         - 'w.peng-zhen-nianpu-1902 IV, 31: ?'
-- follows:
-    add:
-    - cal.1960-06-07.china-mao-foreign
-    basis: '[[w.zedong-mao-zedong-nianpu]], IV, June 7, 1960 (the report "下午四时", the audience "下午五时半")'
-    id: cal.1960-06-07.china-leadership
 - edit:
     base: 052480a2
     id: cal.1960-06-07.china-leadership
@@ -646,6 +642,11 @@ ops:
         - 'w.zedong-mao-zedong-nianpu IV, June 7, 1960: 1, 2, 3'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 146: 2'
         - 'w.yang-shangkun-riji I, 516: 1'
+- follows:
+    add:
+    - cal.1960-06-07.china-mao-foreign
+    basis: '[[w.zedong-mao-zedong-nianpu]], IV, June 7, 1960 (the report "下午四时", the audience "下午五时半")'
+    id: cal.1960-06-07.china-leadership
 - edit:
     base: 696718e6
     id: cal.1960-06-16.soviet-union

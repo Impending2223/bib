@@ -337,8 +337,13 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     else:
         if fn_html:
             parts.append(fn_html)
-        if n:
-            parts.append(f'<span class="n">{text_html(n, "n")}</span>')
+        where = ""
+        if lst.kind == "calendar":          # "Places:", before "Names:" (tools/bib/placepages.py, STYLE 7)
+            from . import placepages
+            where = placepages.line(e)
+        if n or where:
+            parts.append(f'<span class="n">{placepages.into_note(text_html(n, "n") if n else "", where)}</span>'
+                         if where else f'<span class="n">{text_html(n, "n")}</span>')
     if rubric is not None and lst.kind == "calendar" and e.get("thread"):   # the Names pages too (lives.py, STYLE 9)
         prog = program_html(series, lst, e, year, text_html)
         if prog:

@@ -39,6 +39,14 @@ STYLE
  5. The index: threads.html, after the threads, a section "Places" (h2#places): the nations, the States, the
     provinces, the cities, each a list in the threads' own markup (ol.e.thx), by name, each with its count and, for a
     split page, its parts by span.
+ 6. The dateline (the owner, Nov. 26, 2026, 9:19 p.m.; ruling 67): a place in an entry's dateline that has a page of
+    its own links to it, in the one style of the calendar's links within the site (templates/list.html, the rule for
+    `:where(main) a`: the text's own colour, a faint solid underline, darker on hover). No new style; the dateline is
+    no longer than it was. A tap on the link follows it, though the rubric beside it is cut short (dateline.py,
+    SCRIPT). The clock's city, given where the entry has no place, is not linked: it is not a place of record.
+ 7. "Places:" (the same ruling): in every calendar entry's citation block, just before "Names:" (else at its end), a
+    sentence written by the build, never stored: the nations, States, provinces and cities with a page that the
+    entry took place in or concerns (STYLE 2), in that order, each linked to its page as the names are.
 """
 import datetime
 import html
@@ -190,11 +198,11 @@ def gather(series):
         return got
     N, S, P = nations(), states(), provinces()
     names = {"nation": N, "state": {c: r["name"] for c, r in S.items()}, "province": P}
-    acc = {}
+    acc, each = {}, {}
     for _, e in lst.entries():
         if "when" not in e:
             continue
-        w = where(series, lst, e)
+        w = each[e["id"]] = where(series, lst, e)
         for kind, _ in KINDS:
             for slug in w["there"][kind] | w["tagged"][kind]:
                 a = acc.setdefault((kind, slug), [[], set()])
@@ -221,7 +229,7 @@ def gather(series):
     got = dict(sorted(got.items(), key=lambda kv: ([k for k, _ in KINDS].index(kv[0][0]),
                                                    order.get(kv[0][1], 0) if kv[0][0] == "nation" else 0,
                                                    store.fold(kv[1]["name"]).lower())))
-    _C.update(key=key, got=got)
+    _C.update(key=key, got=got, each=each)
     return got
 
 
@@ -451,3 +459,99 @@ def index_section(series):
             out.append(f'<h3 id="places-{kind}" data-short="{esc(head)}" data-crumb="{esc(head)}">{esc(head)}</h3>')
             out.append('<ol class="e thx">' + "".join(rows) + "</ol>")
     return out
+
+
+# ---------------------------------------------------------------- in every entry: the dateline and "Places:" (STYLE 6, 7)
+
+def _series(series=None):
+    """The series the place pages are gathered from: the one given, else the build's (daybook.SERIES), else None."""
+    if series is not None:
+        return series
+    from . import daybook
+    return daybook.SERIES
+
+
+def _by_page(series):
+    """{(kind, slug): place} for the places with a page, and {gazetteer key: place} for those a gazetteer row names: a
+    city by its key, a State by its row, a province by its row as a whole."""
+    got = gather(series)
+    if _C.get("bykey_of") is not got:
+        rows = {}
+        for (kind, slug), pl in got.items():
+            if kind == "city":
+                rows[slug] = pl
+            elif kind == "state":
+                rows[str(states()[slug]["key"])] = pl
+        for k, p in _province_rows().items():
+            if ("province", p) in got:
+                rows.setdefault(k, got[("province", p)])
+        _C.update(bykey_of=got, bykey=rows)
+    return got, _C["bykey"]
+
+
+def _province_rows():
+    from . import cnmap
+    return {k: p["unit"] for k, p in cnmap.gazetteer().items() if p.get("area") and p.get("unit")}
+
+
+def dateline_link(e, place, series=None):
+    """STYLE 6: the page of the place a dateline names (dateline.py, STYLE 3), or None: the entry's first `place:`
+    where that place itself has a page (a city, a State, a province named whole); else its `city:` or `state:` tag's,
+    where the dateline names that. A clock's city (Washington for the eastern zone) is no place of record: no link."""
+    from . import places
+    series = _series(series)
+    if series is None or not place:
+        return None
+    got, rows = _by_page(series)
+    r = places.first(e)
+    if r is not None:
+        pl = rows.get(str(r["key"]))
+        return pl["page"] if pl and places.name_on(r, e.get("date")) == place else None
+    for g in e.get("tags") or []:
+        ns, _, k = str(g).partition(":")
+        if ns == "city":
+            r = places.get(k)
+            pl = rows.get(str(r["key"])) if r else None
+        elif ns == "state":
+            c = {c.lower(): c for c in states()}.get(k)
+            pl = got.get(("state", c)) if c else None
+        else:
+            continue
+        if pl and pl["name"] == place:
+            return pl["page"]
+    return None
+
+
+def line(e, series=None):
+    """STYLE 7: the "Places:" sentence of an entry's citation block, as HTML, or "": the places with a page the entry
+    took place in or concerns (its nations, States, provinces, cities, in that order), each linked to its page. A State
+    named as a city of the line is (New York, Washington) is written "New York State"."""
+    series = _series(series)
+    if series is None or "when" not in e:
+        return ""
+    got = gather(series)
+    w = (_C.get("each") or {}).get(e["id"])
+    if w is None:
+        return ""
+    out = []
+    for kind, _ in KINDS:
+        for slug in sorted(w["there"][kind] | w["tagged"][kind]):
+            pl = got.get((kind, slug))
+            if pl:
+                out.append(pl)
+    if not out:
+        return ""
+    cities = {pl["name"] for pl in out if pl["kind"] == "city"}
+    names = [f"{pl['name']} State" if pl["kind"] == "state" and pl["name"] in cities else pl["name"] for pl in out]
+    return "Places: " + ", ".join(f'<a href="{pl["page"]}.html">{esc(n)}</a>' for pl, n in zip(out, names)) + "."
+
+
+def into_note(note_html, places_html):
+    """The "Places:" sentence set into a citation block's last line (its HTML): just before "Names:", else at its
+    end."""
+    if not places_html:
+        return note_html
+    at = note_html.rfind("Names: ")
+    if at >= 0:
+        return note_html[:at] + places_html + " " + note_html[at:]
+    return note_html + (" " if note_html else "") + places_html
