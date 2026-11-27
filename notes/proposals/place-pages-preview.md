@@ -53,7 +53,7 @@ The pages are 1.8 MB (Laos), 1.3 MB (Alabama), 0.9 MB (Shaanxi) and 2.3 MB (Chic
 
 The code makes 248 pages: 119 nations, 50 States, 28 provinces and 51 cities. The cities are the places of the gazetteer with 50 entries or more. Some of these are not cities: Beidaihe, Lushan, the LBJ Ranch, Hyannis Port. They are kept because the rule is the gazetteer's, not a list.
 
-The choices made along the way are in ruling 67 (`notes/owner-rulings.md`). In short: the Pathet Lao's entries go to the Laos page; the Front's to North Vietnam's; Washington, D.C., is a city, not a State; Peking and Shanghai each have one page, the province's.
+The choices made along the way are in ruling 68 (`notes/owner-rulings.md`). In short: the Pathet Lao's entries go to the Laos page; the Front's to North Vietnam's; Washington, D.C., is a city, not a State; Peking and Shanghai each have one page, the province's.
 
 ## Every change from the thread page's style and layout
 

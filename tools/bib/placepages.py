@@ -90,8 +90,19 @@ def nations():
 
 
 def short_name(name):
-    """A polity's name without its gloss: "China (the People's Republic)" -> "China"."""
-    return re.sub(r"\s*\(.*\)\s*$", "", str(name)).strip() or str(name)
+    """A polity's name without its gloss: "China (the People's Republic)" -> "China"; a parenthesis that tells one
+    from another kept ("Congo (Brazzaville)", "United Arab Republic (Egypt)")."""
+    return re.sub(r"\s*\(the .*\)\s*$", "", str(name)).strip() or str(name)
+
+
+THE = re.compile(r"^(United |Soviet |Republic |Democratic |German |Dominican |Central African |Congo\b|Netherlands$|"
+                 r"Philippines$|Ivory Coast$|Vatican$)")
+
+
+def in_words(pl):
+    """A place's name as it reads after "in" or "about": "the United States", "the Congo"; "Laos", "Alabama"."""
+    n = pl["name"]
+    return f"the {n}" if pl["kind"] == "nation" and THE.match(n) else n
 
 
 def states():
@@ -127,8 +138,9 @@ def where(series, lst, e):
     from . import cnmap, places, vis
     there = {k: set() for k, _ in KINDS}
     tagged = {k: set() for k, _ in KINDS}
-    ST = {c.lower(): c for c in states()}
-    st_keys = {str(r["key"]): c for c, r in states().items()}
+    codes = states()
+    ST = {c.lower(): c for c in codes}
+    st_keys = {str(r["key"]): c for c, r in codes.items()}
     prov = provinces()
     G = cnmap.gazetteer()
     for k in places.keys(e):
@@ -136,7 +148,7 @@ def where(series, lst, e):
         if r is None:
             continue
         there["nation"] |= set(_row_polities(r))
-        if r.get("st"):
+        if str(r.get("st") or "").upper() in codes:
             there["state"].add(str(r["st"]).upper())
         p = G.get(r["key"])
         if p and p.get("unit") in prov:
@@ -154,7 +166,7 @@ def where(series, lst, e):
             r = tag_row(g)
             if r is not None:
                 tagged["city"].add(r["key"])
-                if r.get("st"):
+                if str(r.get("st") or "").upper() in codes:
                     tagged["state"].add(str(r["st"]).upper())
         elif ns == "province" and k in prov:
             tagged["province"].add(k)
@@ -235,7 +247,9 @@ def parts(page):
     .cache: STYLE 4), else None: [{page, from, label}]."""
     from . import pages
     slug = page[len(PAGE):]
-    ps = (pages.conf().get("places") or {}).get(slug) or pages.planned("places").get(slug)
+    if "planned" not in _C:                      # read once a run
+        _C["planned"] = pages.planned("places")
+    ps = (pages.conf().get("places") or {}).get(slug) or _C["planned"].get(slug)
     return [dict(p) for p in ps] if ps else None
 
 
@@ -243,7 +257,7 @@ def _mark(pl):
     """A nation's rubric's mark (STYLE 2): "In Laos" where the entry took place there, else "About Laos"."""
     if pl["kind"] != "nation":
         return None
-    there, name = pl["there"], esc(pl["name"])
+    there, name = pl["there"], esc(in_words(pl))
     return lambda e: f"In {name}" if e["id"] in there else f"About {name}"
 
 
@@ -275,7 +289,7 @@ def figure(series, pl, ents, lo, hi):
 
 def _what(pl, n, whole, n_there):
     """The head's line (STYLE 3): what the page holds and why."""
-    name, k = esc(pl["name"]), pl["kind"]
+    name, k = esc(in_words(pl)), pl["kind"]
     here = "" if whole else " here"
     if k == "nation":
         why = (f"those that took place in {name}, marked <i>In {name}</i>, and those that concern it by its people, "
@@ -434,6 +448,6 @@ def index_section(series):
             rows.append(f'<li id="pl-{esc(pl["page"][len(PAGE):])}"><span class="s"><a href="{pl["page"]}.html">'
                         f'{esc(pl["name"])}</a></span><span class="n">{_n(len(pl["ents"]))}{more}.</span></li>')
         if rows:
-            out.append(f'<h3 id="places-{kind}" data-short="{esc(head)}">{esc(head)}</h3>')
+            out.append(f'<h3 id="places-{kind}" data-short="{esc(head)}" data-crumb="{esc(head)}">{esc(head)}</h3>')
             out.append('<ol class="e thx">' + "".join(rows) + "</ol>")
     return out
