@@ -3,6 +3,7 @@ that no calendar entry cites, sorted by what the calendar already holds on its d
 but its heading and its date.
 
     python3 tools/daybook/frus_survey.py      writes notes/proposals/frus-survey.tsv and prints the counts by volume
+                                              (a Markdown table: not cited, (a), (a) by persons, (b), (c))
 
 What is read: the daybook's FRUS rows (daybook/<YYYY-MM>.yaml: key, date, until, author, title, placed); the head of
 each document in sources/frus-text/ (its number and title, and the lists of persons under PARTICIPANTS, PRESENT, TO,
@@ -430,8 +431,9 @@ def main():
         ids = " ".join(i + (f" [{', '.join(sh)}]" if sh else "") for i, sh in hits)
         title = re.sub(r"\s+", " ", doc.get("title") or "")
         rows.append([doc["key"], vol, num, doc["date"], title, s, by, ids])
-        c = counts.setdefault((doc["volkey"], vol, doc.get("vol") or ""), {"a": 0, "b": 0, "c": 0})
+        c = counts.setdefault((doc["volkey"], vol, doc.get("vol") or ""), {"a": 0, "ap": 0, "b": 0, "c": 0})
         c[s] += 1
+        c["ap"] += by == "persons"
 
     missing = sorted({d["volkey"] for d in docs} - set(THREADS))
     if missing:
@@ -441,14 +443,16 @@ def main():
         fh.write("key\tvolume\tnumber\tdate\theading\tsort\tby\tentries\n")
         for r in rows:
             fh.write("\t".join(str(x).replace("\t", " ") for x in r) + "\n")
-    tot = {"a": 0, "b": 0, "c": 0}
-    print("| Volume | Title | (a) | (b) | (c) |")
-    print("|---|---|---:|---:|---:|")
+    tot = {"a": 0, "ap": 0, "b": 0, "c": 0}
+    print("| Volume | Title | Not cited | (a) | (a) by persons | (b) | (c) |")
+    print("|---|---|---:|---:|---:|---:|---:|")
     for (vk, vol, title), c in sorted(counts.items(), key=lambda kv: _order(kv[0][0])):
-        print(f"| {vol} | {title} | {c['a']:,} | {c['b']:,} | {c['c']:,} |")
+        n = c["a"] + c["b"] + c["c"]
+        print(f"| {vol} | {title} | {n:,} | {c['a']:,} | {c['ap']:,} | {c['b']:,} | {c['c']:,} |")
         for k in tot:
             tot[k] += c[k]
-    print(f"| All | | {tot['a']:,} | {tot['b']:,} | {tot['c']:,} |")
+    n = tot["a"] + tot["b"] + tot["c"]
+    print(f"| All | | {n:,} | {tot['a']:,} | {tot['ap']:,} | {tot['b']:,} | {tot['c']:,} |")
     print(len(rows), "documents not cited;", out, file=sys.stderr)
 
 
