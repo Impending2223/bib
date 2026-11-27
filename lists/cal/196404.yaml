@@ -1527,17 +1527,18 @@ entries:
     date: '1964-04-07'
     place: wisconsin
     thread: elections-1964-primaries
-    c: 'Wisconsin primary.{1} Republican: Byrnes over unpledged delegates, 299,612 to 816, 99.7 percent.{2} Democratic: Reynolds over Wallace, 522,405 to 266,136, 66.2 percent.{3}'
-    n: 'CQ Guide 6th (2010) 406. [[w.young-two-suns-of-the]], 117 (Wallace''s vote); [[w.bernstein-guns-or-butter]], 137 (Wallace 34 percent); [[w.risen-bill-of-the-century]], 197 (Wisconsin, Apr. 7: Wallace a third of the Democratic vote, 266,000; Reynolds had said even 100,000 would be a disaster; the party spins it as Republicans crossing over). [[w.white-suite-3505]], 304–05 (Byrnes the favorite son, Goldwater kept out by agreement, Byrnes and Laird keeping Rockefeller out). To check: [[w.carter-politics-of-rage-1995]]; [[w.lesher-george-wallace]]. See [[cal.1964-03-10.elections-1964]]. Names: Wallace, John Reynolds, Byrnes. Check: Young, 117, has Wallace claim 264,000.'
+    c: 'Wisconsin primary.{1} Republican: Byrnes over unpledged delegates, 299,612 to 816, 99.7 percent.{2} Democratic: Reynolds over Wallace, 522,405 to 266,136, 66.2 percent.{3} By agreement Goldwater stays out of the Republican primary: Byrnes runs as a favorite son, and he and Laird prevail on Rockefeller to stay out, White says.{4}'
+    n: 'CQ Guide 6th (2010) 406. [[w.young-two-suns-of-the]], 117 (Wallace''s vote); [[w.bernstein-guns-or-butter]], 137 (Wallace 34 percent); [[w.risen-bill-of-the-century]], 197 (Wisconsin, Apr. 7: Wallace a third of the Democratic vote, 266,000; Reynolds had said even 100,000 would be a disaster; the party spins it as Republicans crossing over); [[w.white-suite-3505]], 305. [[w.white-suite-3505]], 304–05 (Byrnes the favorite son, Goldwater kept out by agreement, Byrnes and Laird keeping Rockefeller out). To check: [[w.carter-politics-of-rage-1995]]; [[w.lesher-george-wallace]]. See [[cal.1964-03-10.elections-1964]]. Names: Wallace, John Reynolds, Byrnes, Goldwater, Rockefeller, Laird. Check: Young, 117, has Wallace claim 264,000.'
     src:
-      c: ae8ded69
+      c: b839b3b8
       rows:
         - '"CQ Guide 6th (2010)": 1, 2, 3'
         - 'w.young-two-suns-of-the 117: 3'
         - 'w.white-suite-3505 304–05: 1'
         - 'w.bernstein-guns-or-butter 137: 3'
         - 'w.risen-bill-of-the-century 197: ?'
-    tags: [primary:1964-04-07, name:wallace-george-c, name:byrnes-john-w, name:reynolds-john-w-jr]
+        - 'w.white-suite-3505 305: 4'
+    tags: [primary:1964-04-07, name:wallace-george-c, name:byrnes-john-w, name:reynolds-john-w-jr, name:goldwater-barry-m, name:rockefeller-nelson, name:laird-melvin-r, ok:note-substance]
     time_range:
       - 1964-04-08T02:00Z
       - 1964-04-08T08:00Z
@@ -2169,6 +2170,14 @@ entries:
         - 'w.friedman-shadow-cold-war 110: all'
         - 'via x.1964-04-08.scscaa-presidium-session-april-8-1964: ?'
     tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1964-04-08.elections-1964-primaries
+    when: Apr. 8
+    date: '1964-04-08'
+    thread: elections-1964-primaries
+    also: [democratic-party]
+    c: 'The national Democratic party, after Wallace''s third of the Wisconsin vote, some 266,000: Republicans crossed over to skew the result.'
+    n: '[[w.risen-bill-of-the-century]], 197 ("immediately"). Check: the day. See [[cal.1964-04-07.elections-1964]]. Names: Wallace.'
+    tags: [name:wallace-george-c]
   - id: cal.1964-04-09.railroads
     when: Apr. 9
     date: '1964-04-09'
@@ -3558,16 +3567,17 @@ entries:
     place: illinois
     thread: elections-1964-primaries
     also: [goldwater]
-    c: 'Illinois primary.{1} Republican: Goldwater over Smith, 512,840 to 209,521, 62.0 percent.{2} Democratic: Johnson (write-in) over Wallace (write-in), 82,027 to 3,761, 91.6 percent.{3}'
-    n: '[*Official Vote of the State of Illinois Cast at the General Election, November 3, 1964 ... General Primary, April 14, 1964*, 161](https://archive.org/details/officialvoteof1964illi/page/n166). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 305–06 (the preference vote; nearly forty of the forty-eight district delegates for Goldwater); [[w.goldberg-barry-goldwater]], 188, 188 n.47 (Goldwater 63 percent, Smith 20; with the write-ins, Goldwater''s share 49 percent); [[w.novak-agony-of-the-g]], 362–64 (the official canvass: Goldwater 512,840, Smith 209,521, Lodge 68,122, Nixon 30,313, Wallace 2,203, Rockefeller 2,048, Scranton 1,842; Goldwater 49.1 percent of the Republican vote cast; at least thirty-three of the forty-eight delegates his). See [[cal.1964-03-10.elections-1964]]. Names: Goldwater, Wallace, Johnson, Smith. Check: White, 305–06, gives Goldwater nearly 509,000, Smith more than 209,000.'
+    c: 'Illinois primary.{1} Republican: Goldwater over Smith, 512,840 to 209,521, 62.0 percent.{2} Democratic: Johnson (write-in) over Wallace (write-in), 82,027 to 3,761, 91.6 percent.{3} Write-ins on the Republican side: Lodge 68,122, Nixon 30,313, Rockefeller 2,048, Scranton 1,842. By Novak''s count from the canvass, Goldwater''s vote is about 49.1 percent of the Republican vote in the primary. Of the forty-eight delegates elected, at least thirty-three are committed to him.{4}'
+    n: '[*Official Vote of the State of Illinois Cast at the General Election, November 3, 1964 ... General Primary, April 14, 1964*, 161](https://archive.org/details/officialvoteof1964illi/page/n166). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 305–06 (the preference vote; nearly forty of the forty-eight district delegates for Goldwater); [[w.goldberg-barry-goldwater]], 188, 188 n.47 (Goldwater 63 percent, Smith 20; with the write-ins, Goldwater''s share 49 percent); [[w.novak-agony-of-the-g]], 362–64 (the official canvass: Goldwater 512,840, Smith 209,521, Lodge 68,122, Nixon 30,313, Wallace 2,203, Rockefeller 2,048, Scranton 1,842; Goldwater 49.1 percent of the Republican vote cast; at least thirty-three of the forty-eight delegates his); [[w.novak-agony-of-the-g]], 363–64. See [[cal.1964-03-10.elections-1964]]. Names: Goldwater, Wallace, Johnson, Smith, Lodge, Nixon, Rockefeller, Scranton. Check: White, 305–06, gives Goldwater nearly 509,000, Smith more than 209,000.'
     src:
-      c: 996f0b7a
+      c: fac00041
       rows:
         - 'https://archive.org/details/officialvoteof1964illi/page/n166: 1, 2, 3'
         - 'w.white-suite-3505 305–06: 1'
         - 'w.goldberg-barry-goldwater 188, 188 n.47: 1'
         - 'w.novak-agony-of-the-g 362–64: 1, 2'
-    tags: [primary:1964-04-14, name:wallace-george-c, name:johnson-lyndon-b, name:smith-margaret-chase, name:goldwater-barry-m]
+        - 'w.novak-agony-of-the-g 363–64: 4'
+    tags: [primary:1964-04-14, name:wallace-george-c, name:johnson-lyndon-b, name:smith-margaret-chase, name:goldwater-barry-m, name:lodge-henry-cabot, name:nixon-richard-m, name:rockefeller-nelson, name:scranton-william-w, ok:note-substance]
     time_range:
       - 1964-04-15T00:00Z
       - 1964-04-15T08:00Z
@@ -5620,10 +5630,10 @@ entries:
     date: '1964-04-21'
     place: washington
     thread: civil-rights-bill
-    c: 'Thirty-seven days into the filibuster, Talmadge calls up his amendment: a jury trial in every criminal contempt case arising under the bill.{1}'
-    n: '[110 Cong. Rec. 8649–50](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-1-2.pdf#page=61) (1964) (Apr. 21, 1964). [[w.mann-walls-of-jericho]], 415; [[w.bernstein-guns-or-butter]], 70; [[w.whalen-longest-debate]], 166–67 (Talmadge: "a sacred privilege of personal liberty"); [[w.risen-bill-of-the-century]], 208–09, 212 (Talmadge asks that his amendment be read and made the pending business: a jury trial for anyone charged with violating a court decree under the antidiscrimination titles, 209; "all criminal contempt cases," 212; the Magna Carta; Risen''s day Apr. 20; not the thirty-seven days); [[w.purdum-idea-whose-time-has-2014]], 266–67 (Talmadge''s amendment, a jury in all criminal contempt cases under the bill, called up as the pending business; asked whether he would press a vote that day, no; Robertson: "a considerable elucidation"; Russell on the floor, "the time of Chaucer" (the note: 110 Cong. Rec. 8650, 8666); the 1957 Act''s nonjury trials in voting cases, $300 or forty-five days; the House bill''s retention of that for Titles I and II). The Senate sat from noon to 10:03 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=1), [D178](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=176). Check: Risen, 208–09, has Dirksen offer his statute-of-limitations amendment and Talmadge call up his jury trial amendment "a few minutes" after on Apr. 20; his note 58 gives the Record of Apr. 21, 8613–66. See [[cal.1964-03-30.civil-rights-bill]]. Names: Talmadge.'
+    c: 'Thirty-seven days into the filibuster, Talmadge calls up his amendment: a jury trial in every criminal contempt case arising under the bill.{1} Talmadge: the right of trial by jury "a sacred privilege of personal liberty."{2} Asked whether he will press for a vote that day, Talmadge says no; Robertson: the Senate can look forward to "a considerable elucidation."{3}'
+    n: '[110 Cong. Rec. 8649–50](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-1-2.pdf#page=61) (1964) (Apr. 21, 1964). [[w.mann-walls-of-jericho]], 415; [[w.bernstein-guns-or-butter]], 70; [[w.whalen-longest-debate]], 166–67 (Talmadge: "a sacred privilege of personal liberty"); [[w.risen-bill-of-the-century]], 208–09, 212 (Talmadge asks that his amendment be read and made the pending business: a jury trial for anyone charged with violating a court decree under the antidiscrimination titles, 209; "all criminal contempt cases," 212; the Magna Carta; Risen''s day Apr. 20; not the thirty-seven days); [[w.purdum-idea-whose-time-has-2014]], 266–67 (Talmadge''s amendment, a jury in all criminal contempt cases under the bill, called up as the pending business; asked whether he would press a vote that day, no; Robertson: "a considerable elucidation"; Russell on the floor, "the time of Chaucer" (the note: 110 Cong. Rec. 8650, 8666); the 1957 Act''s nonjury trials in voting cases, $300 or forty-five days; the House bill''s retention of that for Titles I and II); [[w.whalen-longest-debate]], 167; [[w.purdum-idea-whose-time-has-2014]], 266. The Senate sat from noon to 10:03 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=1), [D178](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=176). Check: Risen, 208–09, has Dirksen offer his statute-of-limitations amendment and Talmadge call up his jury trial amendment "a few minutes" after on Apr. 20; his note 58 gives the Record of Apr. 21, 8613–66. Check: Purdum, 266, has the Senate pass its previous thirty-seven-day record for a civil rights filibuster that day; Whalen, 166, has the Southerners near "the 37-day record" on Apr. 20. See [[cal.1964-03-30.civil-rights-bill]]. Names: Talmadge, Robertson.'
     src:
-      c: 8f3ee7c7
+      c: a325d5ca
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt7/pdf/GPO-CRECB-1964-pt7-1-2.pdf#page=61: 1'
         - 'w.mann-walls-of-jericho 415: 1'
@@ -5632,7 +5642,9 @@ entries:
         - 'via x.1964-04-21.congressional-record-8613: 1'
         - 'w.risen-bill-of-the-century 208–09, 212: ?'
         - 'w.purdum-idea-whose-time-has-2014 266–67: 1'
-    tags: [name:talmadge-herman-e]
+        - 'w.whalen-longest-debate 167: 2'
+        - 'w.purdum-idea-whose-time-has-2014 266: 3'
+    tags: [name:talmadge-herman-e, name:robertson-absalom-w, ok:note-substance]
     time_range:
       - 1964-04-21T17:00Z
       - 1964-04-22T03:03Z
@@ -7227,15 +7239,16 @@ entries:
       - massachusetts
       - pennsylvania
     thread: elections-1964-primaries
-    c: 'Primaries in Massachusetts and Pennsylvania.{1} Republican: Lodge (write-in) in Massachusetts; Scranton (write-in) in Pennsylvania.{2} Democratic: Johnson (write-in) in Massachusetts and Pennsylvania.{3}'
-    n: 'Mass. *Election Statistics* 1964 (P.D. 43), [47](https://archive.org/details/electionstatisti1964mass/page/n52) (Democratic), [151](https://archive.org/details/electionstatisti1964mass/page/n156) (Republican). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 314–15 (five Goldwater delegates in Massachusetts, two in Pennsylvania; Goldwater over 32,000 write-ins there, Scranton 58 percent); [[w.novak-agony-of-the-g]], 364–66 (Massachusetts: Lodge 64,000, Goldwater 8,000, Nixon 5,000, Rockefeller 2,000; Pennsylvania: Scranton 220,000, Lodge 80,000, Nixon 37,000, Goldwater 32,000, Rockefeller 7,000; Truax''s million stickers; three Goldwater men of sixty-four delegates, Hugus beaten). See [[cal.1964-03-10.elections-1964]]. Names: Lodge, Johnson, Scranton.'
+    c: 'Primaries in Massachusetts and Pennsylvania.{1} Republican: Lodge (write-in) in Massachusetts; Scranton (write-in) in Pennsylvania.{2} Democratic: Johnson (write-in) in Massachusetts and Pennsylvania.{3} Write-ins in Massachusetts: Lodge 64,000, Goldwater 8,000, Nixon 5,000, Rockefeller 2,000. In Pennsylvania: Scranton 220,000, Lodge 80,000, Nixon 37,000, Goldwater 32,000, Rockefeller 7,000; Goldwater men take three of sixty-four delegates.{4} Scranton has 58 percent of the Pennsylvania write-in vote, White says.{5}'
+    n: 'Mass. *Election Statistics* 1964 (P.D. 43), [47](https://archive.org/details/electionstatisti1964mass/page/n52) (Democratic), [151](https://archive.org/details/electionstatisti1964mass/page/n156) (Republican). CQ Guide 6th (2010) 406. [[w.white-suite-3505]], 314–15 (five Goldwater delegates in Massachusetts, two in Pennsylvania; Goldwater over 32,000 write-ins there, Scranton 58 percent); [[w.novak-agony-of-the-g]], 364–66 (Massachusetts: Lodge 64,000, Goldwater 8,000, Nixon 5,000, Rockefeller 2,000; Pennsylvania: Scranton 220,000, Lodge 80,000, Nixon 37,000, Goldwater 32,000, Rockefeller 7,000; Truax''s million stickers; three Goldwater men of sixty-four delegates, Hugus beaten); [[w.novak-agony-of-the-g]], 364–66; [[w.white-suite-3505]], 315. See [[cal.1964-03-10.elections-1964]]. Names: Lodge, Johnson, Scranton, Goldwater, Rockefeller, Nixon.'
     src:
-      c: cf79368d
+      c: 048fecb5
       rows:
         - 'https://archive.org/details/electionstatisti1964mass/page/n52: 1, 2, 3'
         - 'w.white-suite-3505 314–15: 1'
-        - 'w.novak-agony-of-the-g 364–66: 1, 2'
-    tags: [primary:1964-04-28, name:lodge-henry-cabot, name:johnson-lyndon-b, name:scranton-william-w]
+        - 'w.novak-agony-of-the-g 364–66: 1, 2, 4'
+        - 'w.white-suite-3505 315: 5'
+    tags: [primary:1964-04-28, name:lodge-henry-cabot, name:johnson-lyndon-b, name:scranton-william-w, name:goldwater-barry-m, name:rockefeller-nelson, name:nixon-richard-m, ok:note-substance]
     time_range:
       - 1964-04-29T00:00Z
       - 1964-04-29T07:00Z
@@ -7262,20 +7275,21 @@ entries:
     place: washington
     thread: civil-rights-bill
     also: [civil-rights-organizations]
-    c: National Interreligious Convocation on Civil Rights at Georgetown University, some sixty-five hundred, called at Humphrey's suggestion.{1} The clergy lobby the Congress the days after.{2}
-    n: '[[w.mann-walls-of-jericho]], 398, 412; [[w.white-making-of-the-president-1965]], 177 (the gymnasium of Georgetown University); [[w.kotz-judgment-days]], 144; [[w.bernstein-guns-or-butter]], 69 (McDonough Gymnasium and Gaston Hall; Humphrey, Kuchel, Javits, Keating and Archbishop Shehan among the speakers); [[w.whalen-longest-debate]], 165, 170–71 (the plans laid with Humphrey, Mar. 17; 5,000 church leaders; Blake''s speech); [[w.debenedetti-american-ordeal]], 92 (late April, five thousand clergy for the bill); [[w.risen-bill-of-the-century]], 211 (that evening, McDonough Hall; Humphrey, Kuchel, Javits and Keating; a choir; Bishop Smith, Archbishop Shehan, Rabbi Miller, Blake; Blake''s speech next day''s headlines; not Humphrey''s suggestion or the lobbying after); [[w.purdum-idea-whose-time-has-2014]], 268 (the interfaith convocation at Georgetown on Tuesday, Apr. 28, five thousand religious leaders by Purdum; the clergy on the Hill after; not the sixty-five hundred nor Humphrey''s suggestion). Check: Bernstein, 69, gives 5,000 church leaders. Check: Whalen, 170, also gives 5,000. Check: DeBenedetti, 92, gives five thousand clergy. Check: Purdum, 268, gives five thousand religious leaders, as Bernstein, Whalen and DeBenedetti do. See [[cal.1964-03-06.civil-rights-bill]]. Names: Humphrey.'
+    c: National Interreligious Convocation on Civil Rights at Georgetown University, some sixty-five hundred, called at Humphrey's suggestion.{1} The clergy lobby the Congress the days after.{2} That evening Humphrey, Kuchel, Javits and Keating speak, with Archbishop Shehan, Rabbi Miller and Eugene Carson Blake, in McDonough Gymnasium, the crowd overflowing into Gaston Hall.{3}
+    n: '[[w.mann-walls-of-jericho]], 398, 412; [[w.white-making-of-the-president-1965]], 177 (the gymnasium of Georgetown University); [[w.kotz-judgment-days]], 144; [[w.bernstein-guns-or-butter]], 69 (McDonough Gymnasium and Gaston Hall; Humphrey, Kuchel, Javits, Keating and Archbishop Shehan among the speakers); [[w.whalen-longest-debate]], 165, 170–71 (the plans laid with Humphrey, Mar. 17; 5,000 church leaders; Blake''s speech); [[w.debenedetti-american-ordeal]], 92 (late April, five thousand clergy for the bill); [[w.risen-bill-of-the-century]], 211 (that evening, McDonough Hall; Humphrey, Kuchel, Javits and Keating; a choir; Bishop Smith, Archbishop Shehan, Rabbi Miller, Blake; Blake''s speech next day''s headlines; not Humphrey''s suggestion or the lobbying after); [[w.purdum-idea-whose-time-has-2014]], 268 (the interfaith convocation at Georgetown on Tuesday, Apr. 28, five thousand religious leaders by Purdum; the clergy on the Hill after; not the sixty-five hundred nor Humphrey''s suggestion); [[w.bernstein-guns-or-butter]], 69. Check: Bernstein, 69, gives 5,000 church leaders. Check: Whalen, 170, also gives 5,000. Check: DeBenedetti, 92, gives five thousand clergy. Check: Purdum, 268, gives five thousand religious leaders, as Bernstein, Whalen and DeBenedetti do. See [[cal.1964-03-06.civil-rights-bill]]. Names: Humphrey, Kuchel, Javits, Keating.'
     src:
-      c: b57469ce
+      c: 5be58a82
       rows:
         - 'w.mann-walls-of-jericho 412: 1, 2'
         - 'w.white-making-of-the-president-1965 177: ?'
         - 'w.kotz-judgment-days 144: 1'
-        - 'w.bernstein-guns-or-butter 69: 1'
         - 'w.whalen-longest-debate 165, 170–71: 1'
         - 'via x.1964-04-29.new-york-times: 1'
         - 'w.debenedetti-american-ordeal 92: 1'
         - 'w.risen-bill-of-the-century 211: ?'
         - 'w.purdum-idea-whose-time-has-2014 268: ?'
+        - 'w.bernstein-guns-or-butter 69: 1, 3'
+    tags: [name:kuchel-thomas-h, name:javits-jacob-k, name:keating-kenneth-b, ok:note-substance]
     variants:
       - unit: '1'
         witness: w.risen-bill-of-the-century
@@ -7285,6 +7299,12 @@ entries:
         witness: w.purdum-idea-whose-time-has-2014
         reads: five thousand religious leaders at the interfaith convocation at Georgetown on Tuesday, Apr. 28
         at: '268'
+    time_range:
+      - 1964-04-28T23:00Z
+      - 1964-04-29T02:00Z
+    time_band: evening
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1964-04-28.civil-rights-bill-2
     when: Apr. 28
     date: '1964-04-28'
@@ -8968,3 +8988,21 @@ entries:
       rows:
         - 'w.teiwes-tragedy-of-lin-biao 200: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1964-04.elections-1964-primaries-3
+    when: Apr., before the 7th
+    date: 1964-04
+    at: before 1964-04-07
+    place: wisconsin
+    thread: elections-1964-primaries
+    c: 'Governor Reynolds of Wisconsin, before the primary: even 100,000 votes for Wallace would be a disaster.'
+    n: '[[w.risen-bill-of-the-century]], 197. Check: the day. Names: John Reynolds, Wallace.'
+    tags: [name:reynolds-john-w-jr, name:wallace-george-c]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-04.elections-1964
+          - cal.1964-04.elections-1964-2
+          - cal.1964-04.elections-1964-3
+          - cal.1964-04.elections-1964-primaries
+          - cal.1964-04.elections-1964-primaries-2
+        from: notes-pass-13

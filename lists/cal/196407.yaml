@@ -1662,6 +1662,18 @@ entries:
     c: Shenyang 沈阳. Zhu De 朱德 inspects plant no. 101 一〇一厂.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1912. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1964-07-04.civil-rights-bill-2
+    when: July 4
+    date: '1964-07-04'
+    thread: civil-rights-bill
+    c: 'Ellender, in a radio address recorded for his constituents: he cannot agree with those who advocate "flagrant and perhaps violent opposition" to any statute; until it is changed, repealed or declared unconstitutional, "the laws enacted by the Congress must be respected."'
+    n: '[[w.risen-bill-of-the-century]], 246, 246 n.20 (recorded July 4). To check: [[w.branch-pillar-of-fire]], 388; Ellender, text of radio address recorded July 4, 1964, box 110, part 1, Leadership Conference on Civil Rights Records, Library of Congress (cited by [[w.risen-bill-of-the-century]], 246 n.20). See [[cal.1964-07-02.civil-rights-bill]]. Names: Ellender.'
+    tags: [name:ellender-allen-j]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-07-04.civil-rights-bill
+        from: notes-pass-13
   - id: cal.1964-07-05.voting-rights-selma
     when: July 5
     date: '1964-07-05'
@@ -2690,6 +2702,13 @@ entries:
     c: Zhu De 朱德 reaches the city of Jilin 吉林市.{1} He hears the heads of the Jilin city committee 中共吉林市委.{2}
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1912. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc@2]
+  - id: cal.1964-07-08.civil-rights-bill
+    when: July 8
+    date: '1964-07-08'
+    thread: civil-rights-bill
+    c: 'Fulbright, in a press release on the Civil Rights Act: "Differences of opinion—no matter how deeply felt—must be subordinated to law and resolved in accord with it."'
+    n: '[[w.risen-bill-of-the-century]], 246, 246 n.20 (the release of July 8). To check: Fulbright, press release, July 8, 1964, box 110, part 1, Leadership Conference on Civil Rights Records, Library of Congress (cited by [[w.risen-bill-of-the-century]], 246 n.20). See [[cal.1964-07.civil-rights-bill]]. Names: Fulbright.'
+    tags: [name:fulbright-j-william]
   - id: cal.1964-07-09.cities-and-housing
     when: July 9
     date: '1964-07-09'
@@ -2767,7 +2786,7 @@ entries:
         - 'w.novak-agony-of-the-g 448: 1'
         - 'w.goldberg-barry-goldwater 200: ?'
         - 'via w.goldberg-barry-goldwater 200 n.127: 1'
-    tags: [name:rhodes-james-a, name:goldwater-barry-m, state:oh]
+    tags: [name:rhodes-james-a, name:goldwater-barry-m, state:oh, ok:note-substance]
     time_range:
       - 1964-07-09T13:00Z
       - 1964-07-09T22:00Z
@@ -3930,6 +3949,18 @@ entries:
       - 1964-07-12T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
+  - id: cal.1964-07-12.elections-1964-san-francisco
+    when: July 12
+    date: '1964-07-12'
+    thread: elections-1964-san-francisco
+    c: 'Kitchel counts Scranton out on the eve of the convention: "The Scranton mine caved in. Flooding at one end of the shaft, it was now burning at the other."'
+    n: '[[w.goldberg-barry-goldwater]], 200. Check: the day ("on the eve of the San Francisco convention"). See [[cal.1964-07-09.elections-1964]]. Names: Kitchel, Scranton.'
+    tags: [name:kitchel-denison, name:scranton-william-w, ok:fields-place]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-07-12.elections-1964
+        from: notes-pass-13
   - id: cal.1964-07-13.elections-1964
     when: July 13
     date: '1964-07-13'
@@ -4947,6 +4978,26 @@ entries:
     c: 'Jingpo Lake 镜泊湖. Zhu De 朱德 inspects a timber transport station 林木运输站 and a hydroelectric station, and, with Dong Biwu 董必武 and others, boats on the lake. He writes the poem "Touring the Jingpo Lake" 《游镜泊湖》: the hills green, the woods thick, the forestry bureau sending timber fast, the fish farm raising fine carp; the natural setting put to diligent use, new works rising to flow on for ages.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1913. Names: Zhu De, Dong Biwu.'
     tags: [polity:prc, name:zhu-de, name:dong-biwu]
+  - id: cal.1964-07-15.elections-1964-johnson-2
+    when: July 15
+    date: '1964-07-15'
+    place: washington
+    thread: elections-1964-johnson
+    also: [elections-1964-vice-presidency]
+    c: 'Galbraith, summoned to Washington by Johnson, three hours with him that evening, by Schlesinger''s journal, from Galbraith. Johnson goes through some eighteen vice-presidential possibilities and narrows them to six: Humphrey, Kennedy, McNamara, Stevenson, McCarthy, Shriver; McNamara with great admiration, Humphrey with warmth. He complains of the coldness of the Kennedy people.'
+    n: '[[w.schlesinger-journals]], 228–29 ("three hours with him that evening and another hour the next morning"; the journal of July 23). Check: the journal does not say at which of the two meetings Johnson went through the list. See [[cal.1964-07-16.elections-1964-johnson]]. Names: Galbraith, Johnson, Humphrey, Robert Kennedy, McNamara, Stevenson, McCarthy, Shriver.'
+    tags: [name:galbraith-john-kenneth, name:johnson-lyndon-b, name:humphrey-hubert-h, name:kennedy-robert-f, name:mcnamara-robert-s, name:stevenson-adlai-e, name:mccarthy-eugene-j, name:shriver-r-sargent]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-07-15.elections-1964-johnson
+        from: notes-pass-13
+    time_range:
+      - 1964-07-15T23:00Z
+      - 1964-07-16T02:00Z
+    time_band: evening
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1964-07-16.elections-1964
     when: July 16
     date: '1964-07-16'
@@ -5196,14 +5247,15 @@ entries:
     time: 1964-07-16T13:00Z
     place: washington
     thread: elections-1964-johnson
-    c: The White House, 9 a.m. Galbraith to breakfast with Johnson and Mrs. Johnson, two hours. He says he is first a friend of the Kennedy family but understands Johnson; friendly toward Humphrey. Johnson asks him to help with any Congressmen he can to pass the poverty bill; Galbraith willing, Mrs. Johnson believes, to write campaign material and speeches.
-    n: '[[w.johnson-white-house-diary]], 178 (Lady Bird Johnson''s account); [[w.schlesinger-journals]], 228–29 (Galbraith "summoned to Washington by LBJ" on July 15, "three hours with him that evening and another hour the next morning"; Johnson went through eighteen vice presidential possibilities, narrowed to six: Humphrey, Kennedy, McNamara, Stevenson, McCarthy, Shriver; he complained of the Kennedy people''s coldness; the page has no breakfast, Mrs. Johnson, the poverty bill or Humphrey''s friendliness). Check: the length: [[w.schlesinger-journals]], 228, has Galbraith three hours with Johnson on the evening of July 15 and "another hour the next morning," not two hours at breakfast. Names: Galbraith, Johnson, Lady Bird Johnson, Humphrey.'
+    c: 'The White House, 9 a.m. Galbraith to breakfast with Johnson and Mrs. Johnson, two hours. He says he is first a friend of the Kennedy family but understands Johnson; friendly toward Humphrey. Johnson asks him to help with any Congressmen he can to pass the poverty bill; Galbraith willing, Mrs. Johnson believes, to write campaign material and speeches.{1} Schlesinger''s journal, from Galbraith: another hour with Johnson this morning, after three hours the evening before.{2}'
+    n: '[[w.johnson-white-house-diary]], 178 (Lady Bird Johnson''s account); [[w.schlesinger-journals]], 228–29 (Galbraith "summoned to Washington by LBJ" on July 15, "three hours with him that evening and another hour the next morning"; Johnson went through eighteen vice presidential possibilities, narrowed to six: Humphrey, Kennedy, McNamara, Stevenson, McCarthy, Shriver; he complained of the Kennedy people''s coldness; the page has no breakfast, Mrs. Johnson, the poverty bill or Humphrey''s friendliness); [[w.schlesinger-journals]], 228. Check: the length: [[w.schlesinger-journals]], 228, has Galbraith three hours with Johnson on the evening of July 15 and "another hour the next morning," not two hours at breakfast. Names: Galbraith, Johnson, Lady Bird Johnson, Humphrey.'
     src:
-      c: 2763845e
+      c: 92cc7ee1
       rows:
         - 'w.johnson-white-house-diary 178: ?'
         - 'w.schlesinger-journals 228–29: ?'
-    tags: [name:galbraith-john-kenneth, name:johnson-lyndon-b, name:johnson-lady-bird, name:humphrey-hubert-h]
+        - 'w.schlesinger-journals 228: 2'
+    tags: [name:galbraith-john-kenneth, name:johnson-lyndon-b, name:johnson-lady-bird, name:humphrey-hubert-h, ok:note-substance]
   - id: cal.1964-07-16.program
     when: July 16
     date: '1964-07-16'
@@ -8373,15 +8425,15 @@ entries:
     date: '1964-07-26'
     thread: vietnam-congress
     also: [elections-1964]
-    c: 'Fulbright at dinner with Johnson, the evening.{1} Khánh in serious trouble; more American force may be needed; Johnson will soon ask the resolution Ball has been discussing. If the mission changes, fresh authority from Congress.{2} The "soft on communism" issue to be taken from Goldwater.{3} Fulbright: "I didn''t suspect that he was misleading us."{4}'
-    n: '[[w.woods-fulbright]], 348; [[w.johnson-white-house-diary]], 185–86 (the evening dinner at the Fulbrights'', the Johnsons with the Restons, the Dillons and Russell; Reston, back from the Republican convention: "Just one thing. Work like Hell"; Mrs. Johnson with Fulbright on his *Old Myths and New Realities*, De Gaulle, China, consular and student exchanges with the Iron Curtain countries; no talk of Vietnam reported). To check: J. William Fulbright, interview by Charles Morrissey, "Modern Congress in American History," Library of Congress, 22 (cited by [[w.woods-fulbright]], 348 n.22); [[w.berman-william-fulbright-and-the]], 22 (cited by [[w.woods-fulbright]], 348 n.21). Names: Fulbright, Johnson, Khánh, Ball, Goldwater.'
+    c: 'Fulbright at dinner with Johnson, the evening.{1} Khánh in serious trouble; more American force may be needed; Johnson will soon ask the resolution Ball has been discussing. If the mission changes, fresh authority from Congress.{2} The "soft on communism" issue to be taken from Goldwater.{3} Fulbright: "I didn''t suspect that he was misleading us."{4} Lady Bird Johnson''s diary: the Restons, Phyllis and Douglas Dillon and Russell are at the Fulbrights''. Reston, back from the Republican convention, sums it up: "Just one thing. Work like Hell." She and Fulbright talk of his *Old Myths and New Realities*, De Gaulle, China and exchanges with the Iron Curtain countries.{5}'
+    n: '[[w.woods-fulbright]], 348; [[w.johnson-white-house-diary]], 185–86 (the evening dinner at the Fulbrights'', the Johnsons with the Restons, the Dillons and Russell; Reston, back from the Republican convention: "Just one thing. Work like Hell"; Mrs. Johnson with Fulbright on his *Old Myths and New Realities*, De Gaulle, China, consular and student exchanges with the Iron Curtain countries; no talk of Vietnam reported); [[w.johnson-white-house-diary]], 185–86. To check: J. William Fulbright, interview by Charles Morrissey, "Modern Congress in American History," Library of Congress, 22 (cited by [[w.woods-fulbright]], 348 n.22); [[w.berman-william-fulbright-and-the]], 22 (cited by [[w.woods-fulbright]], 348 n.21). Names: Fulbright, Johnson, Khánh, Ball, Goldwater, Reston, Dillon, Russell, De Gaulle, Lady Bird Johnson.'
     src:
-      c: 9bea6727
+      c: 2f83a67b
       rows:
         - 'w.woods-fulbright 348: 1, 2, 3, 4'
         - 'via x.undated.morrissey-interview-fulbright: 3'
-        - 'w.johnson-white-house-diary 185–86: 1'
-    tags: [name:fulbright-j-william, name:johnson-lyndon-b, name:nguyen-khanh, name:ball-george-w, name:goldwater-barry-m]
+        - 'w.johnson-white-house-diary 185–86: 1, 5'
+    tags: [name:fulbright-j-william, name:johnson-lyndon-b, name:nguyen-khanh, name:ball-george-w, name:goldwater-barry-m, name:reston-james, name:dillon-c-douglas, name:russell-richard-b, name:de-gaulle-charles, name:johnson-lady-bird, ok:note-substance]
     time_range:
       - 1964-07-26T21:00Z
       - 1964-07-27T04:00Z
@@ -9914,20 +9966,20 @@ entries:
     place: washington
     thread: robert-kennedy
     also: [elections-1964]
-    c: 'Lunch in the Mansion, four hours, with three reporters, of the *New York Times*, the *Herald Tribune* and the *Washington Post*: Johnson acts out his meeting with Robert Kennedy of July 29.{1} At their next meeting Kennedy charges a breach of confidence; Johnson denies talking to the reporters.{2}'
-    n: '[[w.dallek-flawed-giant]], 142; [[w.young-two-suns-of-the]], 127 (the reporters; Kennedy''s anger; Johnson''s denial); [[w.schlesinger-robert-kennedy-and-his]], 662 (the three reporters; the mimicry; Kennedy''s protest and Johnson''s denial, by Kennedy''s memorandum); [[w.shesol-mutual-contempt]], 209–10 (Wicker, Kiker and Folliard; Johnson''s mimicry; Folliard''s account); [[w.bernstein-guns-or-butter]], 135–36 (three correspondents, four hours; Kennedy''s Adam''s apple "going up and down like a Yo-Yo"); [[w.bernstein-guns-or-butter]], 136 (Kennedy to Johnson by telephone; Johnson to check his "schedule"; Kennedy''s friends release his version); [[w.clifford-counsel-to-the-president-2]], 397 (Johnson tells three correspondents of the meeting, off the record, and mimics Kennedy''s "gulp"; Kennedy, told within hours, protests by telephone and calls him a liar; Johnson says he had told no one; not the Mansion, the four hours, the papers or a later meeting). Check: Bernstein, 135, dates the luncheon July 30. Check: Clifford, 397, has Johnson tell the correspondents "the next afternoon" after the meeting of July 29, July 30, and Kennedy protest by telephone. To check: Robert Kennedy, memorandum dictated Aug. 4–6, 1964, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 662 n.84). See [[cal.1964-07-29.robert-kennedy]]. Names: Johnson, Robert Kennedy.'
+    c: 'Lunch in the Mansion, four hours, with three reporters, of the *New York Times*, the *Herald Tribune* and the *Washington Post*: Johnson acts out his meeting with Robert Kennedy of July 29.{1} The reporters are Wicker, Douglas Kiker and Edward Folliard. Johnson says Kennedy''s Adam''s apple "bounded up and down like a yo-yo," gulps at them, mimics his voice, and runs down the possible running mates and how each would hurt him.{2}'
+    n: '[[w.dallek-flawed-giant]], 142; [[w.young-two-suns-of-the]], 127 (the reporters; Kennedy''s anger; Johnson''s denial); [[w.schlesinger-robert-kennedy-and-his]], 662 (the three reporters; the mimicry; Kennedy''s protest and Johnson''s denial, by Kennedy''s memorandum); [[w.shesol-mutual-contempt]], 209–10 (Wicker, Kiker and Folliard; Johnson''s mimicry; Folliard''s account); [[w.bernstein-guns-or-butter]], 135–36 (three correspondents, four hours; Kennedy''s Adam''s apple "going up and down like a Yo-Yo"); [[w.bernstein-guns-or-butter]], 136 (Kennedy to Johnson by telephone; Johnson to check his "schedule"; Kennedy''s friends release his version); [[w.clifford-counsel-to-the-president-2]], 397 (Johnson tells three correspondents of the meeting, off the record, and mimics Kennedy''s "gulp"; Kennedy, told within hours, protests by telephone and calls him a liar; Johnson says he had told no one; not the Mansion, the four hours, the papers or a later meeting); [[w.shesol-mutual-contempt]], 209–10. Check: Bernstein, 135, dates the luncheon July 30. Check: Clifford, 397, has Johnson tell the correspondents "the next afternoon" after the meeting of July 29, July 30, and Kennedy protest by telephone. To check: Robert Kennedy, memorandum dictated Aug. 4–6, 1964, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 662 n.84). See [[cal.1964-07-29.robert-kennedy]]. Names: Johnson, Robert Kennedy, Wicker, Folliard. Kennedy''s charge of a breach of confidence, days later, is an entry of its own.'
     src:
-      c: 9c530165
+      c: 4997dd67
       rows:
-        - 'w.dallek-flawed-giant 142: 1, 2'
-        - 'w.young-two-suns-of-the 127: 1, 2'
-        - 'w.schlesinger-robert-kennedy-and-his 662: 1, 2'
-        - 'via w.schlesinger-robert-kennedy-and-his 662 n.84: 2'
-        - 'w.shesol-mutual-contempt 209–10: 1'
-        - 'w.bernstein-guns-or-butter 135–36: 1, 2'
-        - 'w.bernstein-guns-or-butter 136: 2'
+        - 'w.dallek-flawed-giant 142: 1'
+        - 'w.young-two-suns-of-the 127: 1'
+        - 'w.schlesinger-robert-kennedy-and-his 662: 1'
+        - 'via w.schlesinger-robert-kennedy-and-his 662 n.84: ?'
+        - 'w.bernstein-guns-or-butter 135–36: 1'
+        - 'w.bernstein-guns-or-butter 136: ?'
         - 'w.clifford-counsel-to-the-president-2 397: ?'
-    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
+        - 'w.shesol-mutual-contempt 209–10: 1, 2'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:wicker-tom, name:folliard, ok:note-substance]
     time_range:
       - 1964-07-31T15:00Z
       - 1964-07-31T20:00Z
@@ -10166,14 +10218,15 @@ entries:
     date: 1964-07
     at: after 1964-07-02
     thread: civil-rights-bill
-    c: 'After the signing, Russell: "As long as it is there, it must be obeyed."{1} Ellender: "the laws enacted by Congress must be respected."{2}'
-    n: '[[w.branch-pillar-of-fire]], 388; [[w.risen-bill-of-the-century]], 246 & n.20 (Russell: "it becomes our duty as good citizens to learn to live with it as long as it is there"; Ellender: "the laws enacted by the Congress must be respected"; Talmadge and Fulbright likewise; by n.20, Ellender''s radio address recorded July 4, Fulbright''s release of July 8; not Russell''s words in the entry). Check: the days. To check: [[w.stern-calculating-visions]], 185 (cited by [[w.branch-pillar-of-fire]], 388); *Congressional Quarterly Weekly Report*, July 10, 1964, 1454; *Reporter*, Aug. 13, 1964, 44; Fulbright, press release, July 8, 1964; Ellender, radio address recorded July 4, 1964, box 110, part 1, Leadership Conference on Civil Rights Records, Library of Congress (cited by [[w.risen-bill-of-the-century]], 246 nn.19–20). See [[cal.1964-07-02.civil-rights-bill]]. Names: Russell, Ellender.'
+    c: 'After the signing, Russell: "As long as it is there, it must be obeyed."{1} Russell, by Risen: it "becomes our duty as good citizens to learn to live with it."{2}'
+    n: '[[w.branch-pillar-of-fire]], 388; [[w.risen-bill-of-the-century]], 246 & n.20 (Russell: "it becomes our duty as good citizens to learn to live with it as long as it is there"; Ellender: "the laws enacted by the Congress must be respected"; Talmadge and Fulbright likewise; by n.20, Ellender''s radio address recorded July 4, Fulbright''s release of July 8; not Russell''s words in the entry); [[w.risen-bill-of-the-century]], 246. Check: the days. To check: [[w.stern-calculating-visions]], 185 (cited by [[w.branch-pillar-of-fire]], 388); *Congressional Quarterly Weekly Report*, July 10, 1964, 1454; *Reporter*, Aug. 13, 1964, 44; Fulbright, press release, July 8, 1964; Ellender, radio address recorded July 4, 1964, box 110, part 1, Leadership Conference on Civil Rights Records, Library of Congress (cited by [[w.risen-bill-of-the-century]], 246 nn.19–20). See [[cal.1964-07-02.civil-rights-bill]]. Names: Russell. Ellender''s words are his radio address recorded July 4 (Risen, 246 n.20), entered on that day.'
     src:
-      c: ca8860df
+      c: 793b5350
       rows:
-        - 'w.branch-pillar-of-fire 388: 1, 2'
-        - 'w.risen-bill-of-the-century 246 & n.20: 2'
-    tags: [name:russell-richard-b, name:ellender-allen-j]
+        - 'w.branch-pillar-of-fire 388: 1'
+        - 'w.risen-bill-of-the-century 246 & n.20: ?'
+        - 'w.risen-bill-of-the-century 246: 2'
+    tags: [name:russell-richard-b, ok:note-substance]
   - id: cal.1964-07.king
     when: July
     date: 1964-07
@@ -11059,3 +11112,16 @@ entries:
       rows:
         - 'w.teiwes-tragedy-of-lin-biao 201: all'
     tags: [polity:prc, name:mao-zedong, name:luo-ruiqing, vis:only:prc]
+  - id: cal.1964-07.civil-rights-bill-2
+    when: July, by the 10th
+    date: 1964-07
+    at: before 1964-07-10
+    thread: civil-rights-bill
+    c: 'Talmadge to Georgians on the Civil Rights Act: "there is no alternative but compliance."'
+    n: '[[w.risen-bill-of-the-century]], 246 (by n.20, *Congressional Quarterly Weekly Report*, July 10, 1964). Check: the day. To check: *Congressional Quarterly Weekly Report*, July 10, 1964, 1454 (cited by [[w.risen-bill-of-the-century]], 246 n.20). See [[cal.1964-07.civil-rights-bill]]. Names: Talmadge.'
+    tags: [name:talmadge-herman-e]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1964-07.civil-rights-bill
+        from: notes-pass-13
