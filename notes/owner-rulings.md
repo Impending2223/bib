@@ -725,3 +725,9 @@ Question: the owner said on Nov. 25 that it seems absurd to exclude the famine f
 - Taken as the approval the queue file asked for (its questions 1 and 2): the reading plan (`notes/proposals/drive-reading-plan.md` and `.tsv`, as revised the same evening: the rows one work each, the oral histories read with their subjects (ruling 65), Keesing's read by date with the press (ruling 64)) is approved, its batches appended after item 23, in the plan's suggested order. Queue items 12, 13, 17, 18, 20 and 21 keep their places and read the Drive works they name; a plan batch drops a work such an item has read. Each batch runs as rulings 63 directs: in sequence, the first reading on Sonnet, the audit on Opus.
 - The plan's other open points keep their defaults: Britain a covered nation; a card made for each of the 142 uncarded works by its batch's first reader; the 47 Batch 4 books taken as unread; the reading rates of 70 and 150 pages; the Zhou Enlai nianpu's edition settled by its first reader.
 - To overrule: any batch, its order, or its place in the queue.
+
+## 70. The Soviet and Sino-Soviet batches placed earlier (Nov. 26, 2026, about 9:48 p.m.)
+
+- The owner's words: "What's in the Soviet and Sino-Soviet batches now? How big are they? Where might we put them?"
+- Default taken (`notes/proposals/queue-2026-11-26.md`): plan batch A2 (the Sino-Soviet split, 72 readers) right after queue item 12, the China reading order, which holds part of the same scholarship; the first stage of A1 (the Soviet record, 61 readers) right after item 13, the DRV page cites; A1's histories and memoirs (154 readers) at the head of the plan's batches, after item 23.
+- To overrule: A1 whole after item 13, or both back at the head of the plan's batches.
