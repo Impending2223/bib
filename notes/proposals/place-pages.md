@@ -80,3 +80,12 @@ The owner asked whether the calendar writes "Taiwan" so often and "ROC" so seldo
 - The State Department's own papers, in the FRUS texts we hold, write "GRC" (the Government of the Republic of China) 2,952 times against "Taiwan" 1,427 and "Formosa" 231. The calendar's lines say "GRC" not once, because so few of its entries yet come from those papers.
 
 So counting the calendar's own words is not a fair test where coverage is lopsided, and the rule of 9:27 p.m. should not lean on it for the divided states. A better rule for them: **each half of a divided state keeps the short form of its own name, both halves alike**: `frg` and `gdr`, `rok` and `dprk`, `rvn` and `drv`, `roc` and `prc`. The standard's codes would make one half "the" country (`de`, `kr`, `vn`, `cn`, with `dd`, `kp`, `vd` and `tw` for the other); the series takes no side between them, and its sources on each side name their own state. These are the codes the register already has, so the rename leaves them as they are. Every other state takes the standard's code by the rule of 9:27 p.m.
+
+## The States' tags (the owner's question of 9:36 p.m.: least error at least cost)
+
+Keep `state:` with the two-letter postal codes, as now (`state:il`). Add no prefix and use no other form.
+
+- **The postal codes are the one set every reader already knows.** Any other form (a `us-` prefix, three letters) is something new to learn, and 5,251 tags and the code that reads them would change.
+- **A prefix would catch only one mistake.** With `state:us-la`, a reader who wrote `state:la` would be refused. But the likelier mistakes write a code that is valid and wrong: `polity:la` meant for Louisiana, or, after the rename, `polity:ch` (Switzerland) meant for China, `polity:at` (Austria) for Australia, `polity:ci` (the Ivory Coast). No form of the codes stops those, because each is a real code.
+- **What does stop them, at little cost, is one check over every kind of tag.** `check` compares each place tag with the rest of the entry: a nation's tag with the entry's place, its people's nations and its thread's nations (the register already has all three); a State's tag with a place in that State or a thread of that State. A tag nothing in the entry supports draws a warning, whatever its form. And `patch-check` prints each place tag a patch adds with its name ("`polity:ch`: Switzerland"), so the auditor sees what a code means without looking it up.
+- So: the States as they are; the check and the printed names, built with the place pages; the nations' codes as ruled.
