@@ -401,8 +401,9 @@ entries:
     thread: rules
     follows:
       - cal.1961-01-03.congress
+      - cal.1961-01-03.republican-party-congress
     c: 87th Congress convenes. Senate 65 D–35 R, Hickey (D) appointed in Wyoming for Keith Thomson (R), elected and dead in December; House 263–174. Rayburn Speaker;{1} Mansfield and Humphrey lead the Senate Democrats, Dirksen and Kuchel the Republicans;{2} Halleck the House Republicans.{3}
-    n: '[107 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt1/pdf/GPO-CRECB-1961-pt1-1-1.pdf) (1961). [House roll call 1](https://voteview.com/rollcall/RH0870001). [[w.mann-walls-of-jericho]], 295 (Humphrey whip, with Johnson''s help). The Senate sat from noon to 2:44 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=1), [D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=2). The House sat from noon to 2:30 p.m.: [Daily Digest, D5](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=3), [D6](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=4). The order: after [[cal.1961-01-03.congress]], [[w.ritchie-minutes-of-the-senate]], 577 (the Democratic Conference at 9:45 a.m.), and 107 Cong. Rec. 1 (the Senate called to order at noon). To check: [[w.hardeman-rayburn]]. See [[cal.1961-01-03.congress]] (the Democrats'' conference). Names: Hickey, Thomson, Rayburn, Mansfield, Humphrey, Dirksen, Kuchel, Halleck. Check: the page.'
+    n: '[107 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt1/pdf/GPO-CRECB-1961-pt1-1-1.pdf) (1961). [House roll call 1](https://voteview.com/rollcall/RH0870001). [[w.mann-walls-of-jericho]], 295 (Humphrey whip, with Johnson''s help). The Senate sat from noon to 2:44 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=1), [D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=2). The House sat from noon to 2:30 p.m.: [Daily Digest, D5](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=3), [D6](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=4). The order: after [[cal.1961-01-03.congress]], [[w.ritchie-minutes-of-the-senate]], 577 (the Democratic Conference at 9:45 a.m.), and 107 Cong. Rec. 1 (the Senate called to order at noon). The order: after [[cal.1961-01-03.republican-party-congress]], [[w.wolff-minutes-of-the-senate]], 867, 871 (the Republican conference called to order at 10:12 a.m., adjourned at 11:45 a.m.; the Senate sat from noon, by the Daily Digest cited here). To check: [[w.hardeman-rayburn]]. See [[cal.1961-01-03.congress]] (the Democrats'' conference). Names: Hickey, Thomson, Rayburn, Mansfield, Humphrey, Dirksen, Kuchel, Halleck. Check: the page.'
     src:
       c: 92cd7e2f
       rows:
@@ -503,11 +504,13 @@ entries:
   - id: cal.1961-01-03.republican-party-congress
     when: Jan. 3
     date: '1961-01-03'
+    time: 1961-01-03T15:12Z
     place: washington
     thread: republican-party-congress
     c: 'Senate Republican conference organizes the 87th Congress, thirty-three present: Saltonstall chairman, Young secretary, Bridges Policy Committee chairman, Dirksen floor leader, Kuchel whip, each by unanimous ballot; Boggs and Miller introduced. Morton: research on the Cabinet nominees, the Policy Committee the focal point. Dirksen: no course of blind opposition, but modify where necessary.'
-    n: '[[w.wolff-minutes-of-the-senate]], 867–71 (the elections, 868–69; Morton, 870; Dirksen, 871). See [[cal.1961-01.republican-party-congress]]. Names: Saltonstall, Young, Bridges, Dirksen, Kuchel, Boggs, Miller, Morton.'
+    n: '[[w.wolff-minutes-of-the-senate]], 867–71 (the elections, 868–69; Morton, 870; Dirksen, 871). The hour: the conference "called to order at 10:12 a.m." ([[w.wolff-minutes-of-the-senate]], 867). See [[cal.1961-01.republican-party-congress]]. Names: Saltonstall, Young, Bridges, Dirksen, Kuchel, Boggs, Miller, Morton.'
     tags: [name:saltonstall-leverett, name:young-milton-r, name:bridges-henry-s, name:dirksen-everett, name:kuchel-thomas-h, name:morton-thruston-b, name:boggs-james-c, name:miller-jack-r]
+    time_zone: America/New_York
   - id: cal.1961-01-03.vietnam-hanoi
     when: Jan. 3
     date: '1961-01-03'
@@ -2495,18 +2498,17 @@ entries:
     date: '1961-01-09'
     place: massachusetts
     thread: transition-and-staff
-    c: 'Cambridge.{1} The President-elect to the Massachusetts Legislature and the Harvard Overseers.{2} At Schlesinger''s house: Bundy settles his post as Special Assistant for National Security Affairs; Chayes takes the Legal Adviser''s; Wiesner on science adviser; the tax task force reports. Seaborg offered the AEC by telephone. Schlesinger to the White House, unannounced till Bowles is confirmed.{3} Kennedy is at the house from about 2:20 to shortly after 5, about 300 people in the cold outside; after Schlesinger, 2:30 to 3:30, Surrey''s tax task force, Chayes, Bundy, Stratton and Wiesner see him.{4} The address is his "Farewell to Massachusetts," drafted by Sorensen.{5}'
-    n: '[[w.schlesinger-thousand-days-1965]], 162; [[w.odonnell-johnny-we-hardly-knew]], 274–75 (the Massachusetts legislature, the Harvard Overseers; at Schlesinger''s house in Cambridge with Bundy and Wiesner; Schlesinger signed that day, "We''ll keep your appointment quiet until after the Senate confirms Chester Bowles"; not Chayes, Seaborg or the tax task force); [[w.schlesinger-journals]], 102 (Kennedy''s visit to 109 Irving Street on Jan. 9, Secret Service and police around the house, about 300 people in the cold, arriving about 2:20 and leaving shortly before 5; Schlesinger with him 2:30 to 3:30, then Surrey''s tax task force, Chayes, Bundy, Stratton and Wiesner; Bundy proposes Seaborg for the AEC and, after talking with Kennedy, calls him from the house; the page does not say he offered it, nor mention the Legislature, the Overseers or Bundy''s post; Schlesinger''s appointment as Special Assistant is a footnote); [[w.sorensen-counselor]], 219–20 (Kennedy''s "Farewell to Massachusetts," delivered Jan. 9, drafted by Sorensen at the height of the transition; the "city upon a hill" from Winthrop and questions on integrity borrowed from Roosevelt; Kennedy''s parents thought it should have been kept for the inaugural; not Cambridge, the Overseers or the other business of the day); [[w.schlesinger-journals]], 102; [[w.sorensen-counselor]], 219. [[w.sorensen-kennedy]], 233–34 (the legislature; the Overseers). See [[cal.1960-11-09.transition-and-staff]]. Names: Kennedy, Bundy, Chayes, Wiesner, Seaborg, Schlesinger, Bowles, Surrey, Sorensen. Check: the address''s text.'
+    c: The President-elect to the Massachusetts Legislature and the Harvard Overseers.{2} The address is his "Farewell to Massachusetts," drafted by Sorensen.{5}
+    n: '[[w.schlesinger-thousand-days-1965]], 162 (Kennedy "came to Cambridge to address the Massachusetts Legislature and attend a meeting of the Harvard Board of Overseers," then, "After luncheon," to Schlesinger''s house); [[w.odonnell-johnny-we-hardly-knew]], 274 (the Massachusetts legislature, the Harvard Overseers, then the meeting at Schlesinger''s house); [[w.sorensen-kennedy]], 233–34 (the legislature; the Overseers); [[w.sorensen-counselor]], 219–20 (Kennedy''s "Farewell to Massachusetts," delivered Jan. 9, drafted by Sorensen at the height of the transition; the "city upon a hill" from Winthrop and questions on integrity borrowed from Roosevelt; Kennedy''s parents thought it should have been kept for the inaugural; not Cambridge, the Overseers or the other business of the day); [[w.schlesinger-journals]], 102 (the afternoon at 109 Irving Street, arrival about 2:20, departure "shortly after 5"; not the Legislature or the Overseers); [[w.sorensen-counselor]], 219. Split under R25b: the afternoon at Schlesinger''s house is [[cal.1961-01-09.transition-and-staff-2]]; no page read gives an hour for the address or the Overseers ([[w.odonnell-johnny-we-hardly-knew]], 274; [[w.schlesinger-thousand-days-1965]], 162, has them before "luncheon"). See [[cal.1960-11-09.transition-and-staff]]. Names: Kennedy, Sorensen. Check: the address''s text.'
     src:
-      c: c985657b
+      c: 45c76fe3
       rows:
-        - 'w.schlesinger-thousand-days-1965 162: 1, 2, 3'
+        - 'w.schlesinger-thousand-days-1965 162: 2'
         - 'w.sorensen-kennedy 233–34: 2'
-        - 'w.odonnell-johnny-we-hardly-knew 274–75: ?'
+        - 'w.odonnell-johnny-we-hardly-knew 274: 2'
         - 'w.sorensen-counselor 219–20: ?'
-        - 'w.schlesinger-journals 102: 1, 4'
         - 'w.sorensen-counselor 219: 5'
-    tags: [name:kennedy-john-f, name:bundy-mcgeorge, name:chayes-abram, name:wiesner-jerome-b, name:seaborg-glenn-t, name:schlesinger-arthur-m-jr, name:bowles-chester, name:surrey-stanley-s, name:sorensen-theodore-c]
+    tags: [name:kennedy-john-f, name:sorensen-theodore-c, state:ma]
   - id: cal.1961-01-09.laos
     when: Jan. 9
     date: '1961-01-09'
@@ -2770,6 +2772,19 @@ entries:
     c: 'Chen Yun 陈云 directs the drafting of the Grain Price Small Group''s 中共中央粮价问题小组 report to Mao Zedong 毛泽东 and the Center 中共中央: grain purchase prices to rise 20 percent on average from this year (a billion yuan more for the peasants), of the 2.5 billion yuan of compensation only 1.5 billion paid in cash this year and a billion in People''s Bank 中国人民银行 promissory notes next year; with other farm prices up 25 percent on 26 to 30 billion yuan of sales, the peasants to gain 6.5 to 7 billion; oil, meat, poultry and eggs this year, cotton, tobacco, hemp, tea, sugar, timber and bamboo next; grain sale prices and wages unchanged for a year or two, the sale price in town below the purchase price in the country; state accumulation down over a billion this year, two billion next; townspeople to pay about 2 billion yuan more (6.5 percent of their purchasing power); of 9.5 billion yuan of currency out, institutions hold about 4 billion, townspeople 2.8 billion (21 yuan a head), peasants 2.7 billion (5 yuan a head); a gap of about 3 billion between purchasing power and goods, to be met with 1.5 billion more goods (150,000 tons more of rolled steel and 10 million dollars of light-industry materials).'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 65–67; [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 60–66 (the report, "On raising the purchase price of grain" 《关于提高粮食收购价格问题的报告》, Jan. 9, 1961, to the Chairman and the Center, printed in full with the Center''s comment of Jan. 15). See [[cal.1960-10.china-leadership-3]]. Made public: 1997 ([[w.jianguo-yilai-zhongyao-wenxian]], XIV, 60–66). Names: Chen Yun, Mao Zedong.'
     tags: [polity:prc, name:chen-yun, vis:only:prc, name:mao-zedong]
+  - id: cal.1961-01-09.transition-and-staff-2
+    when: Jan. 9
+    date: '1961-01-09'
+    time: 1961-01-09T19:20Z
+    time_approx: true
+    place: cambridge-ma
+    thread: transition-and-staff
+    follows:
+      - cal.1961-01-09.transition-and-staff
+    c: Cambridge, Schlesinger's house. Bundy settles his post as Special Assistant for National Security Affairs; Chayes takes the Legal Adviser's; Wiesner on science adviser; the tax task force reports. Seaborg offered the AEC by telephone. Schlesinger to the White House, unannounced till Bowles is confirmed. Kennedy is at the house from about 2:20 to shortly after 5, about 300 people in the cold outside; after Schlesinger, 2:30 to 3:30, Surrey's tax task force, Chayes, Bundy, Stratton and Wiesner see him.
+    n: '[[w.schlesinger-thousand-days-1965]], 162 ("After luncheon he set up headquarters in my house on Irving Street"; Bundy to complete the arrangements for Special Assistant for National Security Affairs; Chayes agrees to be Legal Adviser; Wiesner on Science Adviser; the tax task force reports; "In the middle of the afternoon" Bundy gets Seaborg on the telephone and Kennedy offers him the AEC; Schlesinger asked to the White House, nothing said "until Chester Bowles is confirmed"); [[w.schlesinger-journals]], 102 (109 Irving Street, "in the afternoon": JFK''s "arrival at about 2:20 and his departure shortly after 5," about 300 people; with Schlesinger "from about 2:30 to 3:30," then the tax task force under Surrey, Chayes, Bundy, Stratton and Wiesner; Bundy''s idea of Seaborg for the AEC, telephoned from the house); [[w.odonnell-johnny-we-hardly-knew]], 274 (the meeting with Bundy and Wiesner; Schlesinger signed, "We''ll keep your appointment quiet until after the Senate confirms Chester Bowles"). The hour: arrival "about 2:20" (Journals, 102). The order: after [[cal.1961-01-09.transition-and-staff]], [[w.schlesinger-thousand-days-1965]], 162 ("After luncheon"). See [[cal.1961-01-09.transition-and-staff]], which holds the day''s bibliography. Names: Kennedy, Bundy, Chayes, Wiesner, Seaborg, Schlesinger, Bowles, Surrey.'
+    tags: [name:kennedy-john-f, name:bundy-mcgeorge, name:chayes-abram, name:wiesner-jerome-b, name:seaborg-glenn-t, name:schlesinger-arthur-m-jr, name:bowles-chester, name:surrey-stanley-s, state:ma]
+    time_zone: America/New_York
   - id: cal.1961-01-10.legislatures
     when: Jan. 10
     date: '1961-01-10'
@@ -4843,11 +4858,12 @@ entries:
   - id: cal.1961-01-19.laos
     when: Jan. 19
     date: '1961-01-19'
+    time: 1961-01-19T14:00Z
     place: washington
     thread: laos
     also: [cuba-bay-of-pigs]
     c: 'Eisenhower–Kennedy transition meeting, the two alone, then with the outgoing and incoming secretaries.{1} Laos called the key to Southeast Asia;{2} accounts of what Eisenhower advised conflict.{3} Cuba: help the anti-Castro guerrillas "to the utmost";{4} the training in Guatemala continued and accelerated.{5} By Kennedy''s notes, the two from 9 a.m.;{6} at 9:45, in the Cabinet Room, the six Cabinet members.{7} Herter: intervene if the Laotian government invokes SEATO;{8} Laos "the cork in the bottle," Thailand, the Philippines and Chiang Kai-shek to follow;{9} Eisenhower too for intervention;{10} Gates: forces for one front, not two.{11} By Persons''s record, Eisenhower: unilateral action very bad, the United States "tagged" as interventionists; SEATO far better than a coalition with the Communists.{12} By McNamara''s memorandum, Eisenhower: in the long run the United States cannot allow Castro''s government to continue.{13}'
-    n: 'FRUS 1961–63, XXIV, docs. [7](https://history.state.gov/historicaldocuments/frus1961-63v24/d7) (Kennedy''s notes, dictated), [8](https://history.state.gov/historicaldocuments/frus1961-63v24/d8) (Persons), [9](https://history.state.gov/historicaldocuments/frus1961-63v24/d9) (Herter), [11](https://history.state.gov/historicaldocuments/frus1961-63v24/d11) (McNamara''s, Jan. 24: "If Laos is lost ... we will lose all of Southeast Asia"); X, doc. [22](https://history.state.gov/historicaldocuments/frus1961-63v10/d22) (Clifford''s and McNamara''s memoranda, on Cuba). [[w.gibbons-u-s-government-and]], II, 9 (the meeting, Laos at the top of the agenda; Laos the "key to the whole area," by Clifford''s memorandum); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174, 231 (Laos, by McNamara''s account; the training in Guatemala); [[w.marolda-united-states-navy-and]], 98 (Eisenhower on Laos); [[w.schulimson-joint-chiefs-of-staff]], 29 (the meeting; Laos the key); [[w.clifford-counsel-to-the-president-2]], 342–45 (the meeting with the secretaries in the Cabinet Room; Laos, Herter for intervening alone if need be, a division in twelve to seventeen days by Gates; Cuba, "to the utmost," the training in Guatemala; China, by Clifford''s account); [[w.fursenko-one-hell-of-a]], 77–78 ("To the utmost"); [[w.jones-bay-of-pigs]], 44 (Eisenhower''s recommendation to speed the training); [[w.rusk-as-i-saw-it-1990]], 428 (the meeting; Eisenhower''s advice, by Rusk''s account); [[w.sorensen-kennedy]], 231, 640 (the meeting; Laos); [[w.fursenko-khrushchevs-cold-war]], 336–37 ("It is the cork in the bottle"); [[w.mcnamara-in-retrospect]], ch. 2 at nn.5–9 (the meeting, its emphasis on Laos; the accounts: Clifford''s memorandum, Eisenhower "willing, ''as a last desperate hope, to intervene unilaterally''"; McNamara''s, "President Eisenhower advised against unilateral action by the United States in connection with Laos"). [[w.schlesinger-thousand-days-1965]], 163–64; [[w.moyar-triumph-forsaken]], 125–26 (the meeting; Herter on SEATO and Laos); [[w.poole-joint-chiefs-of-staff]], 124; [[w.reeves-president-kennedy]], 29–33 (the meeting; Laos the "cork in the bottle"; "To the utmost"); [[w.wofford-of-kennedys-and-kings]], 98 (Eisenhower to Kennedy the day before the inauguration: Laos "the key to all Southeast Asia"; Cuba, "helping train anti-Castro forces in Guatemala," aid the guerrillas "to the utmost," the effort "continued and accelerated"); [[w.ball-past-has-another-pattern]], 361 (Eisenhower tells Kennedy "just before the inauguration" that Laos is the key to Southeast Asia, "unbelievable pressure" on Thailand, Cambodia and South Vietnam; "as a last desperate hope, to intervene unilaterally," n.2; not the day or the place); [[w.schlesinger-robert-kennedy-and-his]], 702 (Eisenhower''s pre-inaugural briefing of Kennedy: he ignored Vietnam and called Laos the "present key to the entire area"; by Clark Clifford''s record of the meeting, he would be willing "to intervene unilaterally" if others could not be persuaded to act; not the Cuba talk, those present or the day); [[w.mann-grand-delusion]], 228–29 (the meeting of Jan. 19: Herter, the outgoing Secretary of State, argues the United States duty-bound to intervene if Laos asks under SEATO, "the cork in the bottle"; Eisenhower "felt we should intervene," by Kennedy''s record that day; Clifford, present, recalls Eisenhower willing "as a last desperate hope, to intervene unilaterally"; not the order of the meeting or the Cuba talk); [[w.odonnell-johnny-we-hardly-knew]], 275–76 (the morning briefing at the White House with Eisenhower and the outgoing secretaries; Cuba, Berlin, Africa, the balance of payments and Laos in the Cabinet Room; Eisenhower "urged him to keep on supporting this plan to overthrow Castro" and talked mostly of Laos, American combat troops possibly alone there; not the two alone; the date printed "January 19, 1960" is an error for 1961); [[w.guan-vietnamese-communists-relations-with]], 164, 177 (by Eisenhower, some sign that the Soviet Union was concerned at the Communist pressure in Laos and Southeast Asia from China and North Vietnam; Laos the key to all Southeast Asia, its fall to bring South Vietnam, Cambodia, Thailand and Burma after it; Vietnam less critical). Check: Rusk names those with Eisenhower as Kennedy, McNamara, Clifford and himself and gives two pieces of advice: no recognition of Communist China; troops into Laos, "with others if possible, alone if necessary" (428; also 283). To check: [[w.greenstein-what-did-eisenhower-tell]] (compares the five accounts); Clifford to Kennedy, memorandum of the conference of Jan. 19, 1961, on Laos, *U.S.–Vietnam Relations*, bk. 10, 1360–64 (cited by [[w.schulimson-joint-chiefs-of-staff]], 29 n.147); Clifford''s memorandum for Johnson (1969), *Pentagon Papers*, Gravel ed., II, 635–37, and Clifford to Kennedy, Jan. 24, 1961, POF, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 9 n.19); [[w.united-states-vietnam-relations]], 1360–1364 (memorandum of the Eisenhower–Kennedy conference of Jan. 19, 1961, on Laos) (cited by [[w.guan-vietnamese-communists-relations-with]], 164 n.45); [[w.pentagon-papers]], II, 635–637 (Gravel ed.) (cited by [[w.guan-vietnamese-communists-relations-with]], 177 n.112b). Check: the Taylor report, [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), 578–79 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174 n.8), read: it gives no account of Jan. 19; its "continuation and accentuation" of the CIA''s activities is the President''s authorization of Jan. 28. See [[cal.1961-01-02.laos]]. Names: Eisenhower, Herter, Gates, Persons, Chiang Kai-shek, McNamara, Castro.'
+    n: 'FRUS 1961–63, XXIV, docs. [7](https://history.state.gov/historicaldocuments/frus1961-63v24/d7) (Kennedy''s notes, dictated), [8](https://history.state.gov/historicaldocuments/frus1961-63v24/d8) (Persons), [9](https://history.state.gov/historicaldocuments/frus1961-63v24/d9) (Herter), [11](https://history.state.gov/historicaldocuments/frus1961-63v24/d11) (McNamara''s, Jan. 24: "If Laos is lost ... we will lose all of Southeast Asia"); X, doc. [22](https://history.state.gov/historicaldocuments/frus1961-63v10/d22) (Clifford''s and McNamara''s memoranda, on Cuba). [[w.gibbons-u-s-government-and]], II, 9 (the meeting, Laos at the top of the agenda; Laos the "key to the whole area," by Clifford''s memorandum); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174, 231 (Laos, by McNamara''s account; the training in Guatemala); [[w.marolda-united-states-navy-and]], 98 (Eisenhower on Laos); [[w.schulimson-joint-chiefs-of-staff]], 29 (the meeting; Laos the key); [[w.clifford-counsel-to-the-president-2]], 342–45 (the meeting with the secretaries in the Cabinet Room; Laos, Herter for intervening alone if need be, a division in twelve to seventeen days by Gates; Cuba, "to the utmost," the training in Guatemala; China, by Clifford''s account); [[w.fursenko-one-hell-of-a]], 77–78 ("To the utmost"); [[w.jones-bay-of-pigs]], 44 (Eisenhower''s recommendation to speed the training); [[w.rusk-as-i-saw-it-1990]], 428 (the meeting; Eisenhower''s advice, by Rusk''s account); [[w.sorensen-kennedy]], 231, 640 (the meeting; Laos); [[w.fursenko-khrushchevs-cold-war]], 336–37 ("It is the cork in the bottle"); [[w.mcnamara-in-retrospect]], ch. 2 at nn.5–9 (the meeting, its emphasis on Laos; the accounts: Clifford''s memorandum, Eisenhower "willing, ''as a last desperate hope, to intervene unilaterally''"; McNamara''s, "President Eisenhower advised against unilateral action by the United States in connection with Laos"). [[w.schlesinger-thousand-days-1965]], 163–64; [[w.moyar-triumph-forsaken]], 125–26 (the meeting; Herter on SEATO and Laos); [[w.poole-joint-chiefs-of-staff]], 124; [[w.reeves-president-kennedy]], 29–33 (the meeting; Laos the "cork in the bottle"; "To the utmost"); [[w.wofford-of-kennedys-and-kings]], 98 (Eisenhower to Kennedy the day before the inauguration: Laos "the key to all Southeast Asia"; Cuba, "helping train anti-Castro forces in Guatemala," aid the guerrillas "to the utmost," the effort "continued and accelerated"); [[w.ball-past-has-another-pattern]], 361 (Eisenhower tells Kennedy "just before the inauguration" that Laos is the key to Southeast Asia, "unbelievable pressure" on Thailand, Cambodia and South Vietnam; "as a last desperate hope, to intervene unilaterally," n.2; not the day or the place); [[w.schlesinger-robert-kennedy-and-his]], 702 (Eisenhower''s pre-inaugural briefing of Kennedy: he ignored Vietnam and called Laos the "present key to the entire area"; by Clark Clifford''s record of the meeting, he would be willing "to intervene unilaterally" if others could not be persuaded to act; not the Cuba talk, those present or the day); [[w.mann-grand-delusion]], 228–29 (the meeting of Jan. 19: Herter, the outgoing Secretary of State, argues the United States duty-bound to intervene if Laos asks under SEATO, "the cork in the bottle"; Eisenhower "felt we should intervene," by Kennedy''s record that day; Clifford, present, recalls Eisenhower willing "as a last desperate hope, to intervene unilaterally"; not the order of the meeting or the Cuba talk); [[w.odonnell-johnny-we-hardly-knew]], 275–76 (the morning briefing at the White House with Eisenhower and the outgoing secretaries; Cuba, Berlin, Africa, the balance of payments and Laos in the Cabinet Room; Eisenhower "urged him to keep on supporting this plan to overthrow Castro" and talked mostly of Laos, American combat troops possibly alone there; not the two alone; the date printed "January 19, 1960" is an error for 1961); [[w.guan-vietnamese-communists-relations-with]], 164, 177 (by Eisenhower, some sign that the Soviet Union was concerned at the Communist pressure in Laos and Southeast Asia from China and North Vietnam; Laos the key to all Southeast Asia, its fall to bring South Vietnam, Cambodia, Thailand and Burma after it; Vietnam less critical). The time is the first act''s: Kennedy "visited E. this morning at 9:00 o''clock," the two alone (FRUS 1961–63, XXIV, doc. 7); the Cabinet Room meeting began "at approximately 9:45 a.m." (docs. 7, 8). Check: Rusk names those with Eisenhower as Kennedy, McNamara, Clifford and himself and gives two pieces of advice: no recognition of Communist China; troops into Laos, "with others if possible, alone if necessary" (428; also 283). To check: [[w.greenstein-what-did-eisenhower-tell]] (compares the five accounts); Clifford to Kennedy, memorandum of the conference of Jan. 19, 1961, on Laos, *U.S.–Vietnam Relations*, bk. 10, 1360–64 (cited by [[w.schulimson-joint-chiefs-of-staff]], 29 n.147); Clifford''s memorandum for Johnson (1969), *Pentagon Papers*, Gravel ed., II, 635–37, and Clifford to Kennedy, Jan. 24, 1961, POF, Kennedy Library (cited by [[w.gibbons-u-s-government-and]], II, 9 n.19); [[w.united-states-vietnam-relations]], 1360–1364 (memorandum of the Eisenhower–Kennedy conference of Jan. 19, 1961, on Laos) (cited by [[w.guan-vietnamese-communists-relations-with]], 164 n.45); [[w.pentagon-papers]], II, 635–637 (Gravel ed.) (cited by [[w.guan-vietnamese-communists-relations-with]], 177 n.112b). Check: the Taylor report, [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), 578–79 (cited by [[w.kaplan-mcnamara-ascendancy-1961-1965]], 174 n.8), read: it gives no account of Jan. 19; its "continuation and accentuation" of the CIA''s activities is the President''s authorization of Jan. 28. See [[cal.1961-01-02.laos]]. Names: Eisenhower, Herter, Gates, Persons, Chiang Kai-shek, McNamara, Castro.'
     src:
       c: 68f98795
       rows:
@@ -4895,12 +4911,7 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v24/d9: 1, 2'
     tags: [name:eisenhower-dwight-d, name:kennedy-john-f, name:herter-christian-a, name:persons-wilton-b, name:gates-thomas-s-jr, name:chiang-kai-shek, name:castro-fidel]
     short: Eisenhower's warning at the transition
-    time_range:
-      - 1961-01-19T14:00Z
-      - 1961-01-19T22:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1961-01-19.civil-rights-the-executive
     when: Jan. 19–20
     date: '1961-01-19'
@@ -5215,13 +5226,18 @@ entries:
     follows:
       - cal.1961-01-20.transition-and-staff
     c: 'Inauguration night, at dinner with friends. The President: "I don''t know why people are so mad at me for making Bobby Attorney General. I just wanted to give him some legal experience before he practiced." Afterward Robert Kennedy, fists clenched: "Jack, you shouldn''t have said that about me." The President: "you''ve got to make fun of yourself in politics." Robert Kennedy: "You were making fun of me."'
-    n: '[[w.thomas-robert-kennedy]], 110–11 (by Bartlett''s account). Names: Kennedy, Robert Kennedy.'
+    n: '[[w.thomas-robert-kennedy]], 110–11 (by Bartlett''s account). The hour: "At dinner on January 20" ([[w.thomas-robert-kennedy]], 110). Names: Kennedy, Robert Kennedy.'
     src:
       c: 560257b8
       rows:
         - 'w.thomas-robert-kennedy 110–11: all'
         - 'via x.undated.charles-bartlett-interview-thomas: all'
     tags: [name:kennedy-john-f, name:kennedy-robert-f, name:bartlett-charles]
+    time_range:
+      - 1961-01-21T00:00Z
+      - 1961-01-21T03:00Z
+    time_band: evening
+    time_zone: America/New_York
   - id: cal.1961-01-20.soviet-union-leadership
     when: Jan. 20
     date: '1961-01-20'
@@ -5599,8 +5615,13 @@ entries:
     place: washington
     thread: transition-and-staff
     c: 'The White House, Saturday morning. Truman, the first visitor of Kennedy''s presidency, calls on him, his first visit since leaving the house eight years before. Truman to the photographers in the West Wing lobby: Kennedy would be a President who would allow them "the one more picture" they always ask; "I heard the other fellow wouldn''t stand for it."'
-    n: '[[w.odonnell-johnny-we-hardly-knew]], 283 (O''Donnell''s and Powers''s account). Names: Truman, Kennedy.'
+    n: '[[w.odonnell-johnny-we-hardly-knew]], 283 (O''Donnell''s and Powers''s account). The hour: "that Saturday morning" ([[w.odonnell-johnny-we-hardly-knew]], 283). Names: Truman, Kennedy.'
     tags: [name:truman-harry-s, name:kennedy-john-f]
+    time_range:
+      - 1961-01-21T11:00Z
+      - 1961-01-21T17:00Z
+    time_band: morning
+    time_zone: America/New_York
   - id: cal.1961-01-21.press-and-broadcasting
     when: Jan. 21
     date: '1961-01-21'
@@ -6343,24 +6364,36 @@ entries:
       - cal.1961-01-24.congress
       - cal.1961-01.rules
     c: 'The White House, the afternoon after the leaders'' breakfast. Kennedy has Rayburn back and asks him to put off the Rules Committee vote from Jan. 25 to Jan. 31. Rayburn, reluctant, agrees. Kennedy to O''Brien: "We can''t lose this one, Larry. The ball game is over if we do." By O''Brien''s account.'
-    n: '[[w.obrien-no-final-victories]], 105–06. See [[cal.1961-01.rules]]. Names: Kennedy, Rayburn, O''Brien.'
+    n: '[[w.obrien-no-final-victories]], 105–06. The hour: "that afternoon" ([[w.obrien-no-final-victories]], 105). See [[cal.1961-01.rules]]. Names: Kennedy, Rayburn, O''Brien.'
     src:
       c: fd7907be
       rows:
         - 'w.obrien-no-final-victories 105–06: all'
     tags: [name:kennedy-john-f, name:rayburn-sam, name:obrien-lawrence-f]
+    time_range:
+      - 1961-01-24T17:00Z
+      - 1961-01-24T23:00Z
+    time_band: afternoon
+    time_zone: America/New_York
   - id: cal.1961-01.rules
     when: Jan. 24
     date: '1961-01-24'
     thread: rules
+    follows:
+      - cal.1961-01-24.congress
     c: 'At the first weekly breakfast of the leaders, Rayburn to Kennedy: "Mr. President, I don''t believe we have the votes to expand the Rules Committee."'
-    n: '[[w.obrien-no-final-victories]], 105 (Tuesday, Jan. 24, the first of the weekly breakfasts of the Democratic leaders of the House and Senate; Rayburn''s words as the entry has them). [[w.reeves-president-kennedy]], 55 ("during those first days in office"; no day). See [[cal.1961-01-24.congress]]. Names: Rayburn, Kennedy.'
+    n: '[[w.obrien-no-final-victories]], 105 (Tuesday, Jan. 24, the first of the weekly breakfasts of the Democratic leaders of the House and Senate; Rayburn''s words as the entry has them). [[w.reeves-president-kennedy]], 55 ("during those first days in office"; no day). The hour: "That morning" ([[w.obrien-no-final-victories]], 105). See [[cal.1961-01-24.congress]]. Names: Rayburn, Kennedy.'
     src:
       c: d99eed53
       rows:
         - 'w.obrien-no-final-victories 105: all'
         - 'w.reeves-president-kennedy 55: ?'
     tags: [name:rayburn-sam, name:kennedy-john-f]
+    time_zone: America/New_York
+    time_range:
+      - 1961-01-24T11:00Z
+      - 1961-01-24T17:00Z
+    time_band: morning
   - id: cal.1961-01-24.china-leadership
     when: Jan. 24
     date: '1961-01-24'

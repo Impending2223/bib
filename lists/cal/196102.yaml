@@ -1085,7 +1085,7 @@ entries:
     place: hangzhou
     thread: china-sixty-articles
     c: 'Hangzhou, evening. Tian Jiaying reports to Mao his inquiry at the Hehe brigade, Weitang commune, Jiaxing county, Zhejiang: rice down from over 400 jin a mu to 291, chiefly the "five winds";{1} the brigade too big, eleven teams; the members against the mess halls.{2}'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 5, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 40 (Tian Jiaying''s report). Made public: 2013. Check: MacFarquhar has Tian report to Mao on Feb. 6, in Hangzhou, and Mao give seven heads on the rural situation. To check: [[w.bian-mao-zedong-he-tade]], 45 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.8a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 913–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.8b). Names: Tian Jiaying, Mao Zedong, Jiang Hua.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 5, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 40 (Tian Jiaying''s report). The words: 晚上 ([[w.zedong-mao-zedong-nianpu]], IV, Feb. 5, 1961). Made public: 2013. Check: MacFarquhar has Tian report to Mao on Feb. 6, in Hangzhou, and Mao give seven heads on the rural situation. To check: [[w.bian-mao-zedong-he-tade]], 45 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.8a); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 913–14 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 40 n.8b). Names: Tian Jiaying, Mao Zedong, Jiang Hua.'
     src:
       c: 7cad5734
       rows:
@@ -1094,6 +1094,11 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 40 n.8a: 1'
         - 'via w.macfarquhar-origins-of-the-cultural III, 40 n.8b: 1'
     tags: [polity:prc, name:mao-zedong, vis:only:prc, name:jiang-hua, name:tian-jiaying]
+    time_range:
+      - 1961-02-05T11:00Z
+      - 1961-02-05T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-05.china-leadership-2
     when: Feb. 5
     date: '1961-02-05'
@@ -1715,6 +1720,17 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - field: date
+        value: '1961-02-07'
+        witness: w.wofford-of-kennedys-and-kings
+        reads: Kennedy meets the Civil Rights Commissioners on February 7, 1961
+        at: '130'
+      - field: date
+        value: '1961-02-07'
+        witness: w.branch-parting-the-waters
+        reads: '"On February 7 ... Kennedy received John Hannah and Father Theodore Hesburgh"'
+        at: '398'
   - id: cal.1961-02-08.transition-and-staff
     when: Feb. 8
     date: '1961-02-08'
@@ -1925,7 +1941,7 @@ entries:
     date: '1961-02-08'
     thread: china-leadership
     c: 'Zhu De 朱德 inspects western Fujian 闽西.{1} Passing the Wuyi Mountains 武夷山, he recalls the Red Army''s 红军 attack on Ganzhou 赣州 in the spring of 1932: Wang Ming''s 王明 "left" opportunism pressed the wrong line of attacking central cities, and Ganzhou was not taken; Mao Zedong 毛泽东 proposed pushing into the Fujian–Zhejiang–Jiangxi region toward Zhejiang, was not heeded, and the forces were scattered, until Mao took Zhangzhou 漳州.{2} The same day he writes the poem "Thoughts on passing western Fujian" 《经闽西感怀》.{3}'
-    n: '[[w.zhu-de-nianpu-xinbian]], III, 1796. Made public: 2016. Names: Zhu De, Mao Zedong, Wang Ming. Check: the day: the *Zhu De nianpu* prints this trip under Feb. 9, 1961, after that day''s items, as "the day before" (昨日), when it has Zhu De at the Gutian reservoir.'
+    n: '[[w.zhu-de-nianpu-xinbian]], III, 1796 (printed under Feb. 9, after that day''s items: "昨日到闽西地区视察," "the day before," and the poem "that day," 是日). Made public: 2016. Names: Zhu De, Mao Zedong, Wang Ming. Check: the day: the nianpu''s 昨日 makes it Feb. 8, the day it has Zhu De at the Gutian reservoir''s power station (III, 1795); on Feb. 9 he is at Fuzhou (1796).'
     tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong, vis:only:prc@2, name:wang-ming]
   - id: cal.1961-02-08.china-leadership-11
     when: Feb. 8
@@ -3645,13 +3661,28 @@ entries:
     date: '1961-02-17'
     place: peking
     thread: china-center
-    c: Peking 北京. Peng Zhen 彭真 to Zhou Enlai's 周恩来, then late at night to Liu Shaoqi's 刘少奇, into the next morning.
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 104. The time is the visit to Liu''s; the visit to Zhou''s that evening. The words: 晚……深夜至次日凌晨 (IV, 104). Made public: 2012. Names: Peng Zhen, Zhou Enlai, Liu Shaoqi.'
+    c: Peking 北京. Peng Zhen 彭真 to Zhou Enlai's 周恩来, in the evening.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 104. The words: 晚 (IV, 104). Split under R25b: the visit to Liu Shaoqi''s, late at night into the next morning, is [[cal.1961-02-17.china-center]]. Made public: 2012. Names: Peng Zhen, Zhou Enlai.'
     src:
-      c: 4265db98
+      c: 68ee2a3a
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 104: all'
     tags: [polity:prc, name:peng-zhen, name:zhou-enlai, name:liu-shaoqi, vis:only:prc]
+    time_range:
+      - 1961-02-17T11:00Z
+      - 1961-02-17T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1961-02-17.china-center
+    when: Feb. 17
+    date: '1961-02-17'
+    place: peking
+    thread: china-center
+    follows:
+      - cal.1961-02-17.china-leadership-5
+    c: Peking 北京. Peng Zhen 彭真 late at night to Liu Shaoqi's 刘少奇, into the next morning.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 104. The words: 深夜至次日凌晨 (IV, 104). The time is the first part of the night. See [[cal.1961-02-17.china-leadership-5]]. Made public: 2012. Names: Peng Zhen, Liu Shaoqi.'
+    tags: [name:peng-zhen, name:liu-shaoqi]
     time_range:
       - 1961-02-17T14:00Z
       - 1961-02-17T16:00Z
@@ -3813,8 +3844,13 @@ entries:
     place: canton
     thread: china-sixty-articles
     c: 'Guangzhou, evening. Chen Boda reports his inquiry and gives Mao the "Notes of an inquiry at some production teams of Guangdong''s communes": the small teams to be called production teams, the accounting units brigades; rich and poor villages forced together to be parted; levelling among teams and members now the question.'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 19, 1961. Made public: 2013. Names: Chen Boda, Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Feb. 19, 1961. The words: 晚上 ([[w.zedong-mao-zedong-nianpu]], IV, Feb. 19, 1961). Made public: 2013. Names: Chen Boda, Mao Zedong.'
     tags: [polity:prc, name:chen-boda, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1961-02-19T11:00Z
+      - 1961-02-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-19.china-leadership-2
     when: Feb. 19
     date: '1961-02-19'
@@ -5235,6 +5271,19 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 107–108: all'
     tags: [polity:prc, name:peng-zhen, vis:only:prc]
+  - id: cal.1961-02-26.china-leadership-8
+    when: Feb. 26
+    date: '1961-02-26'
+    place: chengdu
+    thread: china-leadership
+    c: 'Chengdu 成都. Yang Shangkun 杨尚昆 with Li Bozhao 李伯钊 to the Qingyang Gong 青羊宫 and the Erxian''an 二仙庵, in the afternoon: she had not been.'
+    n: '[[w.yang-shangkun-riji]], I, 657 (Feb. 26, 1961). The words: 下午同伯钊一起去青羊宫、二仙庵游，因她未去过 (I, 657). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). See [[cal.1961-02-23.china-leadership-3]]. Names: Yang Shangkun, Li Bozhao.'
+    tags: [name:yang-shangkun, name:li-bozhao]
+    time_range:
+      - 1961-02-26T04:00Z
+      - 1961-02-26T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-27.robert-kennedy
     when: Feb. 27
     date: '1961-02-27'
@@ -6306,15 +6355,21 @@ entries:
     date: '1961-02-28'
     thread: china-liu
     also: [soviet-union]
-    c: 'Liu Shaoqi to Chervonenko: the Soviet aid "a manifestation of real support for China."'
-    n: '[[w.westad-introduction]], 27 (27 n.92: the record of Feb. 28, 1961, the words at its p. 70); [[w.chen-yun-nianpu-xiuding]], III, 76 (the nianpu''s note: the Ambassador hands Liu Shaoqi Khrushchev''s letter that afternoon). Made public: 1998. To check: Record of conversation, Chervonenko–Liu Shaoqi, Feb. 28, 1961, AVPRF, f. 0100, op. 54, pa. 466, d. 7, pp. 67–72 (cited by [[w.westad-introduction]], 27 n.92). See [[cal.1961-02-27.china-leadership]]. Names: Liu Shaoqi, Chervonenko.'
+    c: 'Liu Shaoqi to Chervonenko: the Soviet aid "a manifestation of real support for China."{1} Chervonenko hands Liu Khrushchev''s letter offering China grain and sugar on loan.{2}'
+    n: '[[w.westad-introduction]], 27 (27 n.92: the record of Feb. 28, 1961, the words at its p. 70); [[w.chen-yun-nianpu-xiuding]], III, 76 (the nianpu''s note: the Ambassador hands Liu Shaoqi Khrushchev''s letter that afternoon); [[w.chen-yun-nianpu-xiuding]], III, 76 n.1. The hour: "afternoon" (下午), by the nianpu''s note on the Ambassador handing Liu Khrushchev''s letter that day ([[w.chen-yun-nianpu-xiuding]], III, 76 n.1). Made public: 1998. To check: Record of conversation, Chervonenko–Liu Shaoqi, Feb. 28, 1961, AVPRF, f. 0100, op. 54, pa. 466, d. 7, pp. 67–72 (cited by [[w.westad-introduction]], 27 n.92). See [[cal.1961-02-27.china-leadership]]. Names: Liu Shaoqi, Chervonenko.'
     src:
-      c: 573b7bcc
+      c: 4b78a787
       rows:
-        - 'w.westad-introduction 27: all'
-        - 'via x.1961-02-28.chervonenko-liu-shaoqi-record-avprf: all'
+        - 'w.westad-introduction 27: 1'
+        - 'via x.1961-02-28.chervonenko-liu-shaoqi-record-avprf: 1'
         - 'w.chen-yun-nianpu-xiuding III, 76: ?'
+        - 'w.chen-yun-nianpu-xiuding III, 76 n.1: 2'
     tags: [polity:prc, polity:ussr, vis:only:prc+ussr, name:liu-shaoqi, name:chervonenko-stepan-v]
+    time_range:
+      - 1961-02-28T04:00Z
+      - 1961-02-28T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
   - id: cal.1961-02-28.china-leadership-7
     when: Feb. 28
     date: '1961-02-28'
