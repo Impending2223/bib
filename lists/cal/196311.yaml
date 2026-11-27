@@ -283,15 +283,8 @@ entries:
     date: '1963-11-01'
     place: saigon
     thread: vietnam-saigon
-    follows:
-      - cal.1963-11-01.vietnam-saigon-8
     c: Saigon, shortly before nightfall. An air assault on the Presidential Guard's barracks.
-    n: '[[w.sen-church-alleged-assassination-plots]], 223 (Conein''s After-Action Report, 17–18). Made public: the Church Committee''s interim report, Nov. 20, 1975. The order: after [[cal.1963-11-01.vietnam-saigon-8]], [[w.sen-church-alleged-assassination-plots]], 223 (Minh''s second offer "half an hour later"; then "Shortly before nightfall" the assault). To check: Conein After-Action Report, Nov. 1, 1963, 17–18 (cited by [[w.sen-church-alleged-assassination-plots]], 223). See [[cal.1963-11-01.vietnam-saigon-8]].'
-    time_range:
-      - 1963-11-01T09:00Z
-      - 1963-11-01T11:00Z
-    time_band: after-workday daytime
-    time_zone: Asia/Ho_Chi_Minh
+    n: '[[w.sen-church-alleged-assassination-plots]], 223 (Conein''s After-Action Report, 17–18). Made public: the Church Committee''s interim report, Nov. 20, 1975. To check: Conein After-Action Report, Nov. 1, 1963, 17–18 (cited by [[w.sen-church-alleged-assassination-plots]], 223). See [[cal.1963-11-01.vietnam-saigon-8]].'
   - id: cal.1963-11-01.china-leadership
     when: Nov. 1
     date: '1963-11-01'
@@ -3078,21 +3071,13 @@ entries:
     place: pittsburgh
     thread: goldwater
     also: [elections-1964]
-    follows:
-      - cal.1963-11-15.goldwater-4
-    c: 'Pittsburgh, the Penn-Sheraton, the Harvard Business School''s alumni. Goldwater: "Millions of new jobs are lost in the limbo of investments not made, risks not taken, enterprise not dared."'
-    n: '[[w.white-suite-3505]], 240 (the dinner speech; the question on his delay was put at a press conference beforehand). The order: after [[cal.1963-11-15.goldwater-4]], [[w.white-suite-3505]], 240 (the press conference "beforehand"). Names: Goldwater.'
+    c: 'Pittsburgh, the Penn-Sheraton, the Harvard Business School''s alumni. Goldwater: "Millions of new jobs are lost in the limbo of investments not made, risks not taken, enterprise not dared." Asked why he delays announcing: "Why rush? I''m doing all right."'
+    n: '[[w.white-suite-3505]], 240. Names: Goldwater.'
     src:
-      c: bd4c33aa
+      c: d2df6ff8
       rows:
         - 'w.white-suite-3505 240: all'
     tags: [name:goldwater-barry-m, state:pa, city:pittsburgh]
-    time_range:
-      - 1963-11-16T00:00Z
-      - 1963-11-16T03:00Z
-    time_band: evening
-    time_zone: America/New_York
-    range_basis: kind
   - id: cal.1963-11-15.goldwater-2
     when: Nov. 15
     date: '1963-11-15'
@@ -3268,15 +3253,6 @@ entries:
       - 1963-11-15T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
-  - id: cal.1963-11-15.goldwater-4
-    when: Nov. 15
-    date: '1963-11-15'
-    place: pittsburgh
-    thread: goldwater
-    also: [elections-1964]
-    c: 'Pittsburgh, the Penn-Sheraton, a press conference before the dinner. Goldwater, asked why he delays announcing his candidacy: "Why rush? I''m doing all right."'
-    n: '[[w.white-suite-3505]], 240 (the press conference "beforehand"; the dinner speech before the area Harvard Business School alumni association, "just two days after" the Citizens group was announced on Nov. 13). See [[cal.1963-11-15.goldwater]]. Names: Goldwater.'
-    tags: [name:goldwater-barry-m, state:pa, city:pittsburgh]
   - id: cal.1963-11-16.elections-1964
     when: Nov. 16
     date: '1963-11-16'
@@ -3428,29 +3404,6 @@ entries:
       - 1963-11-16T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
-  - id: cal.1963-11-16.white-house
-    when: Nov. 16
-    date: '1963-11-16'
-    place: palm-beach
-    thread: white-house
-    follows:
-      - cal.1963-11-16.defense
-    c: Palm Beach, his father's house. Kennedy, on the patio beside the pool, watches the Navy–Duke football game on television with Dave Powers and Torby Macdonald; he takes Navy and gives them ten points, and when Navy wins, 38–25, he demands his payoff on the spot.
-    n: '[[w.odonnell-johnny-we-hardly-knew]], 441 (Saturday; "then on the patio beside the pool" after the morning''s Polaris firing). The order: after [[cal.1963-11-16.defense]], [[w.odonnell-johnny-we-hardly-knew]], 441. Names: Kennedy, Powers, Macdonald.'
-    tags: [name:kennedy-john-f, name:macdonald-torbert-h, ok:fields-time, name:powers-david-f]
-  - id: cal.1963-11-16.white-house-2
-    when: Nov. 16
-    date: '1963-11-16'
-    place: palm-beach
-    thread: white-house
-    c: Palm Beach. After dinner Kennedy sings "September Song," better than usual.
-    n: '[[w.odonnell-johnny-we-hardly-knew]], 441 ("That night, after dinner"). Names: Kennedy.'
-    tags: [name:kennedy-john-f]
-    time_range:
-      - 1963-11-17T00:00Z
-      - 1963-11-17T03:00Z
-    time_band: evening
-    time_zone: America/New_York
   - id: cal.1963-11-17.civil-rights-the-executive
     when: Nov. 17
     date: '1963-11-17'
@@ -3535,27 +3488,6 @@ entries:
     n: '[[w.chen-yi-nianpu]], 995; [[w.peng-zhen-nianpu-1902]], IV, 300 (Nov. 17–Dec. 4, 1963, morning; Peng Zhen at the fourth session of the third CPPCC national committee (to Dec. 4); on the 17th, in the morning, at its opening). The words: 上午10时 (995). Names: Chen Yi.'
     tags: [polity:prc, name:chen-yi]
     time_zone: Asia/Shanghai
-  - id: cal.1963-11-17.white-house
-    when: Nov. 17
-    date: '1963-11-17'
-    place: palm-beach
-    thread: white-house
-    c: Palm Beach. Kennedy spends Sunday in the pool and on the patio; he picks the Chicago Bears over the Green Bay Packers and wins another bet.
-    n: '[[w.odonnell-johnny-we-hardly-knew]], 441 (Sunday). Names: Kennedy.'
-    tags: [name:kennedy-john-f]
-  - id: cal.1963-11-17.white-house-2
-    when: Nov. 17
-    date: '1963-11-17'
-    place: palm-beach
-    thread: white-house
-    c: Palm Beach. A showing of the film *Tom Jones*, that night.
-    n: '[[w.odonnell-johnny-we-hardly-knew]], 441 ("That night there was a showing of a movie, Tom Jones"). Names: Kennedy.'
-    tags: [name:kennedy-john-f]
-    time_range:
-      - 1963-11-18T00:00Z
-      - 1963-11-18T03:00Z
-    time_band: evening
-    time_zone: America/New_York
   - id: cal.1963-11-18.middle-east
     when: Nov. 18
     date: '1963-11-18'
@@ -4986,7 +4918,7 @@ entries:
       - cal.1963-11-22.succession-20
       - cal.1963-11-22.succession-25
     c: 'Johnson sworn in aboard Air Force One at Love Field, 2:38 p.m., by Judge Sarah Hughes, Mrs.{1} Kennedy beside him.{2} At Andrews, Md.: "I will do my best. That is all I can do."{3} O''Brien hands the judge a book from the President''s bedside table, taken for a Bible; it is a Catholic missal.{4}'
-    n: 'Remarks Upon Arrival at Andrews Air Force Base, [1963–64 Pub. Papers 1](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=85) (Nov. 22, 1963). [President''s Daily Diary, Nov. 22, 1963](https://catalog.archives.gov/id/192430), images 7, 9 (LBJ Library; National Archives Catalog). [[w.johnson-vantage-point]], 14–17 (the oath, Hughes, Mrs. Kennedy beside him; the words at Andrews); [[w.dallek-flawed-giant]], 49–50 (the oath aboard Air Force One, Mrs. Kennedy beside him); [[w.shesol-mutual-contempt]], 115 (Katzenbach: "Anybody" can swear him in, Sarah Hughes likely; Robert Kennedy tells Johnson so); [[w.bernstein-guns-or-butter]], 15–17 (all but the time; the plane off at 2:41 p.m., at Andrews at 5:59); [[w.young-two-suns-of-the]], 47–48 (the oath aboard Air Force One at Love Field, by Judge Hughes; Mrs. Kennedy at the swearing in, by Valenti''s account); [[w.whalen-longest-debate]], 71 (the words at Andrews, "I will do my best ... That is all I can do. I ask for your help--and God''s"; also the oath in the plane at Love Field, 98 minutes after Kennedy died, not the hour or the judge); [[w.johnson-white-house-diary]], 5–6, 7 (the oath at Mrs. Kennedy''s side, Mrs. Johnson beside him, Judge Hughes before him; the brief statement at Andrews; not the time, the words of the oath or of the statement: "Only about four sentences"); [[w.valenti-very-human-president]], 47–48 (the oath: Katzenbach''s wording read back, Judge Hughes, Mrs. Kennedy "at the left side of LBJ"; the hour given as "2:40 CST"); [[w.valenti-very-human-president]], 56 (Andrews, "precisely 6:10 p.m. Eastern Standard Time": "I will do my best. That is all I can do. I ask for your help—and God''s"); [[w.obrien-no-final-victories]], 163–64 (Judge Hughes arrives and is handed a typed sheet with the oath; Johnson asks O''Brien whether Mrs. Kennedy would join him; she comes and stands with the Johnsons; O''Brien hands the judge a book in a white box from the President''s bedside table, a Catholic missal, not a Bible; not the hour or Andrews); [[w.obrien-no-final-victories]], 164. [[w.caro-passage-of-power]], 329–36, 356, 365. Shesol, 115, has Judge Hughes arrive at 3:38 p.m., no zone given; read as Eastern time, it is 2:38 p.m. Central, the Public Papers'' hour; and Johnson''s hand on "John Kennedy''s Bible." Check: O''Brien, 164, has a Catholic missal. To check: [[w.manchester-death-of-a-president]]; [[w.holland-kennedy-assassination-tapes]]; [[w.gillon-kennedy-assassination-24-hours]]; [[w.taking-charge-2001]]; [[w.presidential-recordings-2005]]; Hughes''s account as told to Michael Drury, Special Files, Assassination, LBJ Library (cited by [[w.caro-passage-of-power]], 335); Kenneth P. O''Donnell OH, LBJ Library (cited by [[w.dallek-flawed-giant]], 50). Names: Johnson, Jacqueline Kennedy, Hughes, O''Brien. Check: the Daily Diary gives the oath at 2:40 p.m. (image 9); so does Johnson, "approximately 2:40 p.m. Central Standard Time" (15); the Public Papers'' note to item 1, 2:38.'
+    n: 'Remarks Upon Arrival at Andrews Air Force Base, [1963–64 Pub. Papers 1](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=85) (Nov. 22, 1963). [President''s Daily Diary, Nov. 22, 1963](https://catalog.archives.gov/id/192430), images 7, 9 (LBJ Library; National Archives Catalog). [[w.johnson-vantage-point]], 14–17 (the oath, Hughes, Mrs. Kennedy beside him; the words at Andrews); [[w.dallek-flawed-giant]], 49–50 (the oath aboard Air Force One, Mrs. Kennedy beside him); [[w.shesol-mutual-contempt]], 115 (Katzenbach: "Anybody" can swear him in, Sarah Hughes likely; Robert Kennedy tells Johnson so); [[w.bernstein-guns-or-butter]], 15–17 (all but the time; the plane off at 2:41 p.m., at Andrews at 5:59); [[w.young-two-suns-of-the]], 47–48 (the oath aboard Air Force One at Love Field, by Judge Hughes; Mrs. Kennedy at the swearing in, by Valenti''s account); [[w.whalen-longest-debate]], 71 (the words at Andrews, "I will do my best ... That is all I can do. I ask for your help--and God''s"; also the oath in the plane at Love Field, 98 minutes after Kennedy died, not the hour or the judge); [[w.johnson-white-house-diary]], 5–6, 7 (the oath at Mrs. Kennedy''s side, Mrs. Johnson beside him, Judge Hughes before him; the brief statement at Andrews; not the time, the words of the oath or of the statement: "Only about four sentences"); [[w.valenti-very-human-president]], 47–48 (the oath: Katzenbach''s wording read back, Judge Hughes, Mrs. Kennedy "at the left side of LBJ"; the hour given as "2:40 CST"); [[w.valenti-very-human-president]], 56 (Andrews, "precisely 6:10 p.m. Eastern Standard Time": "I will do my best. That is all I can do. I ask for your help—and God''s"); [[w.obrien-no-final-victories]], 163–64 (Judge Hughes arrives and is handed a typed sheet with the oath; Johnson asks O''Brien whether Mrs. Kennedy would join him; she comes and stands with the Johnsons; O''Brien hands the judge a book in a white box from the President''s bedside table, a Catholic missal, not a Bible; not the hour or Andrews); [[w.obrien-no-final-victories]], 164. [[w.caro-passage-of-power]], 329–36, 356, 365. Check: Shesol, 115, has Judge Hughes arrive at 3:38 p.m. and Johnson''s hand on John Kennedy''s Bible; O''Brien, 164, a Catholic missal. To check: [[w.manchester-death-of-a-president]]; [[w.holland-kennedy-assassination-tapes]]; [[w.gillon-kennedy-assassination-24-hours]]; [[w.taking-charge-2001]]; [[w.presidential-recordings-2005]]; Hughes''s account as told to Michael Drury, Special Files, Assassination, LBJ Library (cited by [[w.caro-passage-of-power]], 335); Kenneth P. O''Donnell OH, LBJ Library (cited by [[w.dallek-flawed-giant]], 50). Names: Johnson, Jacqueline Kennedy, Hughes, O''Brien. Check: the Daily Diary gives the oath at 2:40 p.m. (image 9); so does Johnson, "approximately 2:40 p.m. Central Standard Time" (15); the Public Papers'' note to item 1, 2:38.'
     src:
       c: 60fa942e
       rows:
@@ -5342,18 +5274,18 @@ entries:
         - 'via w.preston-war-council 134 n.14a: 1, 2'
     tags: [name:bundy-mcgeorge, name:ngo-dinh-nhu]
   - id: cal.1963-11-22.press-and-broadcasting
-    when: Nov. 22
+    when: Nov. 22–25
     date: '1963-11-22'
     thread: press-and-broadcasting
     also: [assassination]
     follows:
       - cal.1963-11-22.assassination
-    c: Television, the three networks' coverage pooled; in half an hour all commercial programs are off the air. By 2:15 p.m., within twenty-five minutes of the first report, the audience doubled; at Johnson's arrival at Andrews, Md., 70 percent of New York's sets on.
-    n: '[[w.white-making-of-the-president-1965]], 12–13 ("In half an hour all commercial programs had been wiped from the air"; the Nielsen figures for the New York area, Friday, in the footnote, 13). The coverage from the shooting: [[w.white-making-of-the-president-1965]], 13. See [[cal.1963-11-22.assassination]].'
+    c: Television through the four days, the three networks' coverage pooled. By 2:15 p.m. Friday the audience doubled; at Johnson's arrival at Andrews, Md., 70 percent of New York's sets on. By late Saturday 1,500 network men, 44 mobile cameras, 33 taping machines at Washington. Sunday, the Rotunda, 85 percent of television homes; Monday, the funeral, 93 percent, the highest in television's history.
+    n: '[[w.white-making-of-the-president-1965]], 13. The coverage from the shooting: [[w.white-making-of-the-president-1965]], 13. See [[cal.1963-11-22.assassination]].'
     src:
-      c: 7b4cdd19
+      c: 3d670abf
       rows:
-        - 'w.white-making-of-the-president-1965 12–13: all'
+        - 'w.white-making-of-the-president-1965 13: all'
     tags: [ok:fields-time]
   - id: cal.1963-11-22.succession-4
     when: Nov. 22
@@ -5362,10 +5294,10 @@ entries:
     also: [labor]
     follows:
       - cal.1963-11-22.succession-2
-    c: Johnson, leaving the Executive Office Building for home, sets Reedy to list the labor leaders he must speak to in the next few days.
-    n: '[[w.white-making-of-the-president-1965]], 45 ("On his way home from the Executive Office Building"). After the leaders'' meeting at the Executive Office Building. See [[cal.1963-11-22.succession]]. Names: Johnson, Reedy.'
+    c: Johnson, leaving the Executive Office Building for home, sets Reedy to list the labor leaders he must speak to in the next few days. That evening he telephones Funston of the New York Stock Exchange to thank him for closing the Big Board.
+    n: '[[w.white-making-of-the-president-1965]], 45. After the leaders'' meeting at the Executive Office Building. See [[cal.1963-11-22.succession]]. Names: Johnson, Reedy.'
     src:
-      c: f4659445
+      c: a54121a8
       rows:
         - 'w.white-making-of-the-president-1965 45: all'
     tags: [name:johnson-lyndon-b, name:reedy-george-e]
@@ -5908,10 +5840,8 @@ entries:
     date: '1963-11-22'
     place: washington
     thread: succession
-    follows:
-      - cal.1963-11-22.succession-4
     c: 'The Elms.{1} Johnson, in his chair in the library, raises his glass of orange juice to a photograph of Rayburn: "I salute you, Mr. Sam, and how I wish you were here now, when I need you."{2}'
-    n: '[[w.bernstein-guns-or-butter]], 18; [[w.valenti-very-human-president]], 7 (the Elms library; Johnson sprawled in the "massive black chair," his orange juice; the picture of Rayburn on the wall). The order: after [[cal.1963-11-22.succession-4]], the entries'' own words (Johnson leaves the Executive Office Building for home; the toast at the Elms) and [[w.white-making-of-the-president-1965]], 45 ("On his way home from the Executive Office Building"). See [[cal.1963-11-22.civil-rights-bill]]. Names: Johnson, Rayburn.'
+    n: '[[w.bernstein-guns-or-butter]], 18; [[w.valenti-very-human-president]], 7 (the Elms library; Johnson sprawled in the "massive black chair," his orange juice; the picture of Rayburn on the wall). See [[cal.1963-11-22.civil-rights-bill]]. Names: Johnson, Rayburn.'
     src:
       c: 9f619e82
       rows:
@@ -6153,7 +6083,7 @@ entries:
       - unit: '2'
         witness: w.obrien-no-final-victories
         reads: 'O''Brien: on the Friday morning, on the sidewalk below the Hotel Texas where the motorcade waits, he persuades Yarborough to ride with Johnson, then tells Johnson at the hotel door "Yarborough''s going to ride with you"; Kennedy had told him in the suite to "throw Yarborough into the car with Lyndon"'
-        at: 156–57
+        at: '156'
   - id: cal.1963-11-22.white-house
     when: Nov. 22
     date: '1963-11-22'
@@ -6515,19 +6445,6 @@ entries:
         - 'w.friedman-shadow-cold-war 115–116: all'
         - 'via x.1963-11-22.prc-embassy-guinea-mfa-november-22-1963: ?'
     tags: [polity:prc, vis:only:prc]
-  - id: cal.1963-11-22.succession-32
-    when: Nov. 22
-    date: '1963-11-22'
-    thread: succession
-    also: [economy]
-    c: Johnson, that evening, telephones Keith Funston of the New York Stock Exchange to thank him for closing the Big Board.
-    n: '[[w.white-making-of-the-president-1965]], 45 ("that evening he had telephoned Keith Funston of the New York Stock Exchange to thank him for closing the Big Board"). See [[cal.1963-11-22.succession-4]]. Names: Johnson.'
-    tags: [name:johnson-lyndon-b, ok:fields-place]
-    time_range:
-      - 1963-11-23T00:00Z
-      - 1963-11-23T03:00Z
-    time_band: evening
-    time_zone: America/New_York
   - id: cal.1963-11-23.succession
     when: Nov. 23
     date: '1963-11-23'
@@ -7259,18 +7176,6 @@ entries:
     c: Chen Yun 陈云 goes from Shanghai 上海 to Guangzhou 广州.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 142. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun]
-  - id: cal.1963-11-23.press-and-broadcasting-2
-    when: Nov. 23
-    date: '1963-11-23'
-    thread: press-and-broadcasting
-    also: [assassination]
-    c: 'Television, Saturday: almost half of all sets in America stay on the full twelve hours, eleven in the morning to eleven at night, by Nielsen''s New York sample. By late Saturday over 1,500 men of the three networks, 44 mobile cameras and 33 taping machines are at Washington for the pooled coverage.'
-    n: '[[w.white-making-of-the-president-1965]], 13 (the text, and the Nielsen figures in the footnote). See [[cal.1963-11-22.press-and-broadcasting]].'
-    tags: [ok:fields-time, ok:fields-place]
-    time_range:
-      - 1963-11-23T16:00Z
-      - 1963-11-24T04:00Z
-    time_zone: America/New_York
   - id: cal.1963-11-24.assassination
     when: Nov. 24
     date: '1963-11-24'
@@ -7627,13 +7532,6 @@ entries:
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1892. The words: 晚十时，出席中共中央政治局常委会议 (1892). Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc]
     time_zone: Asia/Shanghai
-  - id: cal.1963-11-24.press-and-broadcasting
-    when: Nov. 24
-    date: '1963-11-24'
-    thread: press-and-broadcasting
-    also: [assassination]
-    c: 'Television, Sunday, the ceremonies in the Capitol Rotunda: 85 percent of all television homes in America watch, by Nielsen''s count.'
-    n: '[[w.white-making-of-the-president-1965]], 13 (the footnote). See [[cal.1963-11-22.press-and-broadcasting]].'
   - id: cal.1963-11-25.assassination
     when: Nov. 25
     date: '1963-11-25'
@@ -8068,14 +7966,6 @@ entries:
       - 1963-11-25T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
-  - id: cal.1963-11-25.press-and-broadcasting
-    when: Nov. 25
-    date: '1963-11-25'
-    thread: press-and-broadcasting
-    also: [assassination]
-    c: 'Television, Monday, the funeral and burial: 93 percent of all television sets in America, the highest total in television''s history, White writes, to more than 100 million people. Pope Paul VI''s benediction is carried live from Rome; the ceremonies go by Telstar to twenty-two foreign lands, Russia and Japan among them.'
-    n: '[[w.white-making-of-the-president-1965]], 13 (the footnote). See [[cal.1963-11-22.press-and-broadcasting]]. Names: Paul VI.'
-    tags: [name:paul-vi, ok:fields-place]
   - id: cal.1963-11-26.vietnam
     when: Nov. 26
     date: '1963-11-26'

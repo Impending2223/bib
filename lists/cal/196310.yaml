@@ -765,14 +765,15 @@ entries:
     when: Oct. 3
     date: '1963-10-03'
     thread: china-zhou-foreign
-    also: [china-foreign, africa]
-    c: Zhou Enlai approves Fang Yi's request report on a loan to Algeria.{1}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 584 (Oct. 3, 1963). Continues 585. Made public: 1997. Names: Zhou Enlai, Fang Yi.'
+    also: [south-asia, soviet-union, china-foreign, china-nuclear-diplomacy]
+    c: Zhou Enlai approves Fang Yi's request report on a loan to Algeria.{1} The same day, at the dinner of Pakistan's Ambassador, Raza, for the visiting Pakistani party for National Day, he says the chief task now is to expose the three-power treaty's deceit of the world's peoples;{2} when Raza says all agree it was Zhou who led the Bandung Conference and guided its course at the critical hours, he says no, it was everyone's merit, one man cannot do it, one must move all together.{3}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 584 (Oct. 3, 1963); [[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 3, 1963; 晚7时30分; the Pakistani Ambassador''s dinner at his residence). Continues 585. Made public: 1993. Names: Zhou Enlai, Fang Yi.'
     src:
-      c: 969d19b8
+      c: 354021f2
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 584: ?'
-    tags: [polity:prc, polity:algeria, name:zhou-enlai, name:fang-yi, vis:only:prc+algeria]
+        - 'w.zhou-enlai-waijiao-huodong 373: 2'
+    tags: [polity:prc, polity:pakistan, polity:algeria, name:zhou-enlai, vis:only:prc+pakistan+algeria, name:fang-yi]
   - id: cal.1963-10-03.china-leadership-4
     when: Oct. 3
     date: '1963-10-03'
@@ -849,17 +850,6 @@ entries:
       - 1963-10-02T22:00Z
       - 1963-10-03T04:00Z
     time_band: morning
-    time_zone: Asia/Shanghai
-  - id: cal.1963-10-03.china-zhou-foreign
-    when: Oct. 3
-    date: '1963-10-03'
-    time: 1963-10-03T11:30Z
-    place: peking
-    thread: china-zhou-foreign
-    also: [south-asia, soviet-union, china-foreign, china-nuclear-diplomacy]
-    c: Peking 北京. At the dinner of Pakistan's Ambassador, Raza 罗查, at his residence, for the visiting Pakistani party for National Day, Zhou Enlai says the chief task now is to expose the three-power treaty's deceit of the world's peoples. When Raza says all agree it was Zhou who led the Bandung Conference and guided its course at the critical hours, he says no, it was everyone's merit, one man cannot do it, one must move all together.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 373 (Oct. 3, 1963; 晚7时30分, the dinner at Raza''s residence 其官邸 for the Pakistani National Day observation party 国庆观礼团); [[w.zhou-enlai-nianpu-1949]], II, 585 (Oct. 3, 1963; at the dinner Zhou says the chief task now is to expose the three-power treaty''s deceit of the world''s peoples; to Raza''s words on Bandung, no, it was everyone''s merit). Made public: 1993. See [[cal.1963-10-03.china-leadership-3]]. Names: Zhou Enlai, Raza.'
-    tags: [polity:prc, polity:pakistan, name:zhou-enlai, name:raza-nawabzada-agha-mohammad, vis:only:prc+pakistan]
     time_zone: Asia/Shanghai
   - id: cal.1963-10-04.opinion
     when: Oct. 4
@@ -1955,13 +1945,7 @@ entries:
     thread: defense
     also: [congress]
     c: The House adopts the conference report on the Defense appropriation, H.R. 7179, 336 to 3, slightly more than $47.22 billion; the Senate adopts it the same day, clearing it for the President. About $2.1 billion under the request.
-    n: 'Daily Digest, [109 Cong. Rec. D483](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=481) (Senate), [D484](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=482) (House: 336 yeas to 3 nays) (Oct. 8, 1963). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 140 (the amount and the cut). The day and the count: Oct. 8, 336 to 3, by the Digest (D483–84: the House adjourned at 2:54 p.m., the Senate recessed at 6:51 p.m.); Kaplan, 140, has Oct. 3 and 335 to 3. Check: the Senate''s vote: the Digest gives no count (109 Cong. Rec. 18961–64).'
-    variants:
-      - field: date
-        value: '1963-10-03'
-        witness: w.kaplan-mcnamara-ascendancy-1961-1965
-        reads: the day Oct. 3 and the House vote 335 to 3
-        at: '140'
+    n: 'Daily Digest, [109 Cong. Rec. D483](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=481) (Senate), [D484](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=482) (House: 336 yeas to 3 nays) (Oct. 8, 1963). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 140 (the amount and the cut). Check: Kaplan, 140, has the day Oct. 3 and the House vote 335 to 3; the Digest has Oct. 8, 336 to 3. Check: the Senate''s vote by voice.'
   - id: cal.1963-10-08.china-leadership
     when: Oct. 8
     date: '1963-10-08'
@@ -1980,11 +1964,13 @@ entries:
   - id: cal.1963-10-08.china-leadership-3
     when: Oct. 8
     date: '1963-10-08'
-    place: shanghai
+    place:
+      - shanghai
+      - kunming
     thread: china-foreign
     also: [africa]
-    c: Chen Yi 陈毅 leaves Shanghai 上海 with the Algerian delegation in the morning.
-    n: '[[w.chen-yi-nianpu]], 990. The words: 上午 (990). Names: Chen Yi.'
+    c: Chen Yi 陈毅 leaves Shanghai 上海 with the Algerian delegation in the morning and reaches Kunming 昆明 at 1:30 p.m.
+    n: '[[w.chen-yi-nianpu]], 990. The words: 上午……于下午1时30分到达昆明 (990). Names: Chen Yi.'
     tags: [polity:prc, polity:algeria, name:chen-yi]
     time_range:
       - 1963-10-07T22:00Z
@@ -2043,19 +2029,6 @@ entries:
     c: 'Zhu De 朱德 meets the delegation of the South West Africa National Union 西南非洲民族联盟 under its chairman, *Kezhangjiji* 科章吉济, and says: the world situation favors the fight against imperialism 帝国主义; if all Africa''s 非洲 peoples unite, they can settle Africa''s questions; revolution rests chiefly on oneself and on the masses; it cannot win at one stroke; fear no defeat, but sum up its lessons and fight again.'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1884–1885. Names: Zhu De.'
     tags: [polity:prc, ok:fields-place, name:zhu-de]
-  - id: cal.1963-10-08.china-foreign
-    when: Oct. 8
-    date: '1963-10-08'
-    time: 1963-10-08T05:30Z
-    place: kunming
-    thread: china-foreign
-    also: [africa]
-    follows:
-      - cal.1963-10-08.china-leadership-3
-    c: Kunming 昆明. Chen Yi 陈毅 arrives with the Algerian delegation at 1:30 p.m.
-    n: '[[w.chen-yi-nianpu]], 990 (Oct. 8, 1963). The words: 于下午1时30分到达昆明 (990). See [[cal.1963-10-08.china-leadership-3]]. Names: Chen Yi.'
-    tags: [polity:prc, polity:algeria, name:chen-yi]
-    time_zone: Asia/Shanghai
   - id: cal.1963-10-09.trade
     when: Oct. 9
     date: '1963-10-09'
@@ -2583,14 +2556,14 @@ entries:
     date: '1963-10-10'
     place: peking
     thread: china-political-legal
-    c: Peking 北京. Peng Zhen 彭真 at the joint session of the NPC Standing Committee's 104th session and the CPPCC Standing Committee's fortieth, which set the fourth session of the second NPC and the fourth of the third CPPCC together in mid-November, with joint tours of deputies and members; he reports on farm and industrial output and the drought in the south and floods in the north.{1} Zhu De 朱德 presides at the 104th session.{2}
-    n: '[[w.peng-zhen-nianpu-1902]], IV, 294; [[w.zhu-de-nianpu-xinbian]], III, 1885 (Oct. 10, 1963; Zhu De 朱德 presides at the hundred-and-fourth session of the Second National People''s Congress Standing Committee 第二届全国人大常委会第一百零四次会议, which decides that the Second NPC''s Fourth Session meet at Peking in mid-November 1963); [[w.zhu-de-nianpu-xinbian]], III, 1885. The words: 上午 (IV, 294). See [[cal.1963-10-08.china-leadership-2]]. Names: Peng Zhen, Zhu De.'
+    c: Peking 北京. Peng Zhen 彭真 at the joint session of the NPC Standing Committee's 104th session and the CPPCC Standing Committee's fortieth, which set the fourth session of the second NPC and the fourth of the third CPPCC together in mid-November, with joint tours of deputies and members; he reports on farm and industrial output and the drought in the south and floods in the north.
+    n: '[[w.peng-zhen-nianpu-1902]], IV, 294; [[w.zhu-de-nianpu-xinbian]], III, 1885 (Oct. 10, 1963; Zhu De 朱德 presides at the hundred-and-fourth session of the Second National People''s Congress Standing Committee 第二届全国人大常委会第一百零四次会议, which decides that the Second NPC''s Fourth Session meet at Peking in mid-November 1963). The words: 上午 (IV, 294). See [[cal.1963-10-08.china-leadership-2]]. Names: Peng Zhen.'
     src:
-      c: ea46f6ac
+      c: e4ddebd4
       rows:
-        - 'w.peng-zhen-nianpu-1902 IV, 294: 1'
-        - 'w.zhu-de-nianpu-xinbian III, 1885: 2'
-    tags: [polity:prc, name:peng-zhen, name:zhu-de]
+        - 'w.peng-zhen-nianpu-1902 IV, 294: all'
+        - 'w.zhu-de-nianpu-xinbian III, 1885: ?'
+    tags: [polity:prc, name:peng-zhen]
     time_range:
       - 1963-10-09T22:00Z
       - 1963-10-10T04:00Z
@@ -2861,41 +2834,6 @@ entries:
     n: '[FRUS 1961–63, XV, doc. 226](https://history.state.gov/historicaldocuments/frus1961-63v15/d226) (Kohler to the Department, Oct. 12, 3 a.m.: "10:30 pm local time"). See [[cal.1963-10-10.berlin-and-vienna]]. Names: Zorin, Kohler.'
     tags: [name:zorin-valerian, name:kohler-foy-d]
     time_zone: Europe/Moscow
-  - id: cal.1963-10-11.berlin-and-vienna-5
-    when: Oct. 11
-    date: '1963-10-11'
-    time: 1963-10-11T18:31Z
-    place:
-      - washington
-      - moscow
-    thread: berlin-and-vienna
-    also: [soviet-union]
-    c: 'Rusk to Kohler, 2:31 p.m., by telegram 1160, eyes only: puzzled by the timing and motive of the Soviet holdup of the convoy. He lists four possibilities: a coming crisis, the months of détente a huge deception; a split in the Moscow regime; Khrushchev, beset, showing force at small risk; Soviet military in Germany out to make trouble. He asks Kohler to report any sign.'
-    n: '[FRUS 1961–63, XV, doc. 222](https://history.state.gov/historicaldocuments/frus1961-63v15/d222) (Oct. 11, 2:31 p.m.; drafted by Thompson, approved by Rusk; Top Secret, Immediate). See [[cal.1963-10-10.berlin-and-vienna]]. Names: Rusk, Kohler, Thompson.'
-    tags: [name:rusk-dean, name:kohler-foy-d, name:thompson-llewellyn-e]
-    time_zone: America/New_York
-  - id: cal.1963-10-11.berlin-and-vienna-6
-    when: Oct. 11
-    date: '1963-10-11'
-    time: 1963-10-11T21:30Z
-    place: washington
-    thread: berlin-and-vienna
-    also: [soviet-union, defense]
-    c: 'Kennedy with Rusk, McNamara, Thompson, Tyler, Nitze, Manning and Bundy, 5:30 p.m.: Tyler sums up Kohler''s talk with Zorin, who left the impression that Moscow is not out to change convoy procedures, and the French consent to assemble the Free Style forces. The Russians count sixty-six men in the held convoy, the Americans thirty. Kennedy has Thompson ask Dobrynin to have Zorin tell the Soviet commander to meet General Baker on dismounting; no convoys meanwhile in the disputed size; the Free Style forces to begin assembling the next day.'
-    n: '[FRUS 1961–63, XV, doc. 224](https://history.state.gov/historicaldocuments/frus1961-63v15/d224) (Memorandum of conference with President Kennedy, Oct. 11, 5:30 p.m.; no drafter shown; "General Clay (JCS)" among those present; the tripartite note; the 3 p.m. meeting of the Ambassadorial Group). See [[cal.1963-10-10.berlin-and-vienna]]. Names: Kennedy, Rusk, McNamara, Thompson, Tyler, Nitze, Bundy.'
-    tags: [name:kennedy-john-f, name:rusk-dean, name:mcnamara-robert-s, name:thompson-llewellyn-e, name:tyler-william-r, name:nitze-paul, name:bundy-mcgeorge]
-    time_zone: America/New_York
-  - id: cal.1963-10-11.berlin-and-vienna-7
-    when: Oct. 11
-    date: '1963-10-11'
-    time: 1963-10-11T23:00Z
-    place: washington
-    thread: berlin-and-vienna
-    also: [soviet-union]
-    c: 'Thompson calls in Dobrynin, 7 p.m.: Kohler''s talks with Smirnovsky and Zorin; the American right of access, no duty to notify or dismount; the practice at the checkpoints. General Clay telephones a list of convoys since May 1: only two held, and briefly. Dobrynin, at first reluctant, agrees to send Zorin a message; he and Gromyko are upset at the incident and the attention of the press.'
-    n: '[FRUS 1961–63, XV, doc. 225](https://history.state.gov/historicaldocuments/frus1961-63v15/d225) (Memorandum of conversation, Oct. 11; drafted by Thompson; "at 7:00 p.m."). See [[cal.1963-10-10.berlin-and-vienna]]. Names: Thompson, Dobrynin, Gromyko, Zorin.'
-    tags: [name:thompson-llewellyn-e, name:dobrynin-anatoly, name:gromyko-andrei, name:zorin-valerian]
-    time_zone: America/New_York
   - id: cal.1963-10-12.elections-1964
     when: Oct. 12
     date: '1963-10-12'
@@ -2991,17 +2929,6 @@ entries:
     c: Peking 北京, the Capital Airport 首都机场. Zhu De 朱德 welcomes Adam Sapi Mkwawa 亚当·萨皮·姆克瓦瓦, Speaker of Tanganyika's National Assembly 坦噶尼喀国民议会, and his party.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1885. Names: Zhu De.'
     tags: [polity:prc, polity:tanzania, name:zhu-de]
-  - id: cal.1963-10-12.berlin-and-vienna
-    when: Oct. 12
-    date: '1963-10-12'
-    place:
-      - cincinnati
-      - nyc
-    thread: berlin-and-vienna
-    also: [soviet-union]
-    c: 'Gromyko, in New York, telephones Rusk, at the Hebrew Union College in Cincinnati: the Soviet Union does not mean to change the autobahn procedures, it wants no incident on Berlin, and the incident is not to cut across what Gromyko told the President. He asks Rusk to see whether the American military tried to change the procedures. Rusk holds that the Soviet military did, and that Thompson''s talk with Dobrynin may clear it up. On a General Assembly resolution on bombs in orbit, Rusk says Stelle and Foster will be in New York from Monday.'
-    n: '[FRUS 1961–63, XV, doc. 227](https://history.state.gov/historicaldocuments/frus1961-63v15/d227) (Memorandum of telephone conversation, Oct. 12; drafted by Rusk on Oct. 14; Rusk in Cincinnati, Gromyko in New York). Check: the hour of the call. See [[cal.1963-10-10.berlin-and-vienna]]. Names: Gromyko, Rusk, Thompson, Dobrynin, Foster.'
-    tags: [name:gromyko-andrei, name:rusk-dean, name:thompson-llewellyn-e, name:dobrynin-anatoly, name:foster-william-c]
   - id: cal.1963-10-13.opinion
     when: Oct. 13
     date: '1963-10-13'
@@ -4003,13 +3930,8 @@ entries:
     thread: china-zhou
     also: [china-propaganda]
     c: 'Zhou Enlai at the evening party for the fortieth anniversary of *Chinese Youth* and its exhibition: the magazine should "face the countryside and the city," give the young knowledge of science, production, philosophy and class struggle, and speak of the world situation; short literary pieces, new revolutionary songs, cartoons; short articles, simple, lively, easy to understand.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 588 (Oct. 18, 1963). The words: 晚 (II, 588). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 588 (Oct. 18, 1963). Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai]
-    time_range:
-      - 1963-10-18T11:00Z
-      - 1963-10-18T14:00Z
-    time_band: evening
-    time_zone: Asia/Shanghai
   - id: cal.1963-10-18.china
     when: Oct. 18
     date: '1963-10-18'
@@ -6557,10 +6479,10 @@ entries:
     thread: civil-rights-bill
     follows:
       - cal.1963-10-29.civil-rights-bill-2
-    c: 'House Judiciary Committee approves the civil rights bill: the Celler–McCulloch substitute, agreed with the Justice Department and Halleck, in place of the subcommittee''s broader bill.{1} Part III dropped;{2} an equal employment commission added.{3} Kennedy: "comprehensive and fair."{4} Check the vote.{5} Celler calls the committee to order at 10:45; the Moore motion fails 15 to 19, Willis of Louisiana voting against it. Foley reads the 56-page substitute to 11:52 a.m.; Rodino moves to close debate, and the vote is taken as the noon bell rings: the previous question carries 20 to 12, the substitute is adopted 20 to 14, and the final vote to report is set for that afternoon.{6}'
-    n: 'Statement by the President Following Action on the Civil Rights Bill by the House Committee on the Judiciary, [1963 Pub. Papers 820](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=878) (Oct. 29, 1963). [[w.reeves-president-kennedy]], 628–31 (the committee''s vote); [[w.sorensen-kennedy]], 500–01; [[w.sundquist-politics-and-policy]], 264–65 (the compromise in place of the subcommittee''s bill, beaten 19–15; the equal employment title); [[w.mann-walls-of-jericho]], 373–74 (the subcommittee''s bill set aside, the bipartisan bill reported); [[w.zelizer-fierce-urgency-of-now]], 59–60 (the subcommittee''s bill beaten 19–15; the substitute 23–11); [[w.whalen-longest-debate]], 47, 58, 64–66 (the substitute in place of the subcommittee''s bill; Title III''s suits cut back; Title VII''s commission to go to court; "a comprehensive and fair bill"); [[w.humphrey-education-of-a-public-1976]], 273 (McCulloch''s compromise, an equal employment commission enforcing through the courts); [[w.obrien-no-final-victories]], 143, 146 (the House Judiciary Committee''s approval in late October; Kennedy''s personal intervention; Halleck and McCulloch the key Republicans; not the vote of 20 to 12 or the day); [[w.risen-bill-of-the-century]], 131–33 (the compromise''s terms, the FEPC to sue in court, 131; the committee called to order at 10:45; the Moore motion lost 15–19; Foley''s reading to 11:52 a.m.; Rodino''s motion; the vote; not Title III''s going); [[w.hr-rep-88-914]], 1–18 (the committee''s substitute, amendment No. 1, Titles I–X, 1–16; the title, amendment No. 2, 16; against the subcommittee''s eleven titles, the Community Relations Service title dropped and the rest kept, amended, 17–18); [[w.civil-rights-rules-hearings-hr-7152]], 39–88 (the substitute as printed in the reported bill, after the bill as introduced, 2–39); [[w.purdum-idea-whose-time-has-2014]], 141, 143–44 (the 56-page substitute, with the FEPC; Kennedy''s statement, "comprehensive and fair"; the vote, 20 to 14 at the noon bell, after Moore''s motion beaten 19–15 (ten Democrats, Willis the tenth, and nine Republicans)); [[w.risen-bill-of-the-century]], 133. The votes: 20–12 is Rodino''s motion for the previous question and 20–14 the substitute, [[w.whalen-longest-debate]], 65–66 (Moore''s motion beaten, ten Democrats and nine Republicans against; Cramer''s appeal lost 22–11; the final vote to report set for that afternoon, no count given); Purdum, 143–44, and Risen, 133, give 20–14 for the substitute at the noon bell. Check: Sundquist, 265, has a broadened Part III in the compromise, the Attorney General to intervene in any civil rights suit brought by private parties. Check: Mann, 374, from CQ''s Almanac, gives 23–11. Check: Zelizer, 59, also gives 23–11, from the *Times* of Oct. 30 (60 n.62). Check: [[w.hr-rep-88-914]], 16–17, has the substitute keep the Attorney General''s suits title, amended (suits on public facilities, intervention in equal protection suits), and drop the Community Relations Service title; not Part III dropped. To check: [[w.rosenberg-kennedy-johnson-and-the]] ("The Bill Moves Forward"); [[w.loevy-to-end-all-segregation]]; [[w.scheele-charlie-halleck]]; Nicholas Katzenbach, oral history, 159–69, Kennedy Library (cited by [[w.reeves-president-kennedy]], 629); Charles Halleck, oral history, 9–14, Kennedy Library (cited by [[w.reeves-president-kennedy]], 630); H. Comm. on the Judiciary, 88th Cong., H.R. 7152 (Comm. Print No. 2, Oct. 30, 1963) (the full committee''s substitute as printed; cited by Katzenbach, Dec. 2, 1963, in *Civil Rights*, Pt. IV, 2772). See [[cal.1963-06-11.civil-rights-bill]]. Names: Celler, McCulloch, Halleck, Willis, Rodino.'
+    c: 'House Judiciary Committee approves the civil rights bill, 20–12: the Celler–McCulloch substitute, agreed with the Justice Department and Halleck, in place of the subcommittee''s broader bill.{1} Part III dropped;{2} an equal employment commission added.{3} Kennedy: "comprehensive and fair."{4} Check the vote.{5} Celler calls the committee to order at 10:45; the Moore motion fails 15 to 19, Willis of Louisiana voting against it. Foley reads the 56-page substitute to 11:52 a.m.; Rodino moves to close debate, and the vote is taken as the noon bell rings.{6}'
+    n: 'Statement by the President Following Action on the Civil Rights Bill by the House Committee on the Judiciary, [1963 Pub. Papers 820](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=878) (Oct. 29, 1963). [[w.reeves-president-kennedy]], 628–31 (the committee''s vote); [[w.sorensen-kennedy]], 500–01; [[w.sundquist-politics-and-policy]], 264–65 (the compromise in place of the subcommittee''s bill, beaten 19–15; the equal employment title); [[w.mann-walls-of-jericho]], 373–74 (the subcommittee''s bill set aside, the bipartisan bill reported); [[w.zelizer-fierce-urgency-of-now]], 59–60 (the subcommittee''s bill beaten 19–15; the substitute 23–11); [[w.whalen-longest-debate]], 47, 58, 64–66 (the substitute in place of the subcommittee''s bill; Title III''s suits cut back; Title VII''s commission to go to court; "a comprehensive and fair bill"); [[w.humphrey-education-of-a-public-1976]], 273 (McCulloch''s compromise, an equal employment commission enforcing through the courts); [[w.obrien-no-final-victories]], 143, 146 (the House Judiciary Committee''s approval in late October; Kennedy''s personal intervention; Halleck and McCulloch the key Republicans; not the vote of 20 to 12 or the day); [[w.risen-bill-of-the-century]], 131–33 (the compromise''s terms, the FEPC to sue in court, 131; the committee called to order at 10:45; the Moore motion lost 15–19; Foley''s reading to 11:52 a.m.; Rodino''s motion; the vote; not Title III''s going); [[w.hr-rep-88-914]], 1–18 (the committee''s substitute, amendment No. 1, Titles I–X, 1–16; the title, amendment No. 2, 16; against the subcommittee''s eleven titles, the Community Relations Service title dropped and the rest kept, amended, 17–18); [[w.civil-rights-rules-hearings-hr-7152]], 39–88 (the substitute as printed in the reported bill, after the bill as introduced, 2–39); [[w.purdum-idea-whose-time-has-2014]], 141, 143–44 (the 56-page substitute, with the FEPC; Kennedy''s statement, "comprehensive and fair"; the vote, 20 to 14 at the noon bell, after Moore''s motion beaten 19–15 (ten Democrats, Willis the tenth, and nine Republicans)); [[w.risen-bill-of-the-century]], 133. Check: Sundquist, 265, has a broadened Part III in the compromise, the Attorney General to intervene in any civil rights suit brought by private parties. Check: Mann, 374, from CQ''s Almanac, gives 23–11. Check: Zelizer, 59, also gives 23–11, from the *Times* of Oct. 30 (60 n.62). Check: Whalen, 64–66, has Moore''s motion beaten, ten Democrats and nine Republicans against; Cramer''s appeal lost 22–11; the previous question 20–12; the substitute adopted 20–14 at the noon bell; the vote to report that afternoon, no count given. Check: [[w.hr-rep-88-914]], 16–17, has the substitute keep the Attorney General''s suits title, amended (suits on public facilities, intervention in equal protection suits), and drop the Community Relations Service title; not Part III dropped. To check: [[w.rosenberg-kennedy-johnson-and-the]] ("The Bill Moves Forward"); [[w.loevy-to-end-all-segregation]]; [[w.scheele-charlie-halleck]]; Nicholas Katzenbach, oral history, 159–69, Kennedy Library (cited by [[w.reeves-president-kennedy]], 629); Charles Halleck, oral history, 9–14, Kennedy Library (cited by [[w.reeves-president-kennedy]], 630); H. Comm. on the Judiciary, 88th Cong., H.R. 7152 (Comm. Print No. 2, Oct. 30, 1963) (the full committee''s substitute as printed; cited by Katzenbach, Dec. 2, 1963, in *Civil Rights*, Pt. IV, 2772). See [[cal.1963-06-11.civil-rights-bill]]. Names: Celler, McCulloch, Halleck, Willis, Rodino.'
     src:
-      c: 8b982b2d
+      c: 3024ac5f
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=878: 1, 2, 3, 4, 5'
         - 'w.reeves-president-kennedy 628–31: 1'
@@ -6571,21 +6493,25 @@ entries:
         - 'w.mann-walls-of-jericho 373–74: ?'
         - 'via w.mann-walls-of-jericho 374 n.lengthy-negotiations: 1'
         - 'w.zelizer-fierce-urgency-of-now 59–60: ?'
+        - 'w.whalen-longest-debate 47, 58, 64–66: 1, 2, 3, 4'
         - 'via x.1963-10-29.judiciary-committee-minutes: 1, 2, 3, 4'
         - 'w.humphrey-education-of-a-public-1976 273: 3'
         - 'w.obrien-no-final-victories 143, 146: ?'
         - 'w.risen-bill-of-the-century 131–33: 3'
         - 'w.hr-rep-88-914 1–18: ?'
         - 'w.civil-rights-rules-hearings-hr-7152 39–88: ?'
+        - 'w.purdum-idea-whose-time-has-2014 141, 143–44: 3, 4'
         - 'w.risen-bill-of-the-century 133: 6'
-        - 'w.whalen-longest-debate 47, 58, 64–66: 1, 2, 3, 4, 6'
-        - 'w.purdum-idea-whose-time-has-2014 141, 143–44: 3, 4, 6'
     tags: [name:celler-emanuel, name:mcculloch-william-m, name:halleck-charles-a, name:kennedy-john-f, name:willis-edwin-e, name:rodino-peter-w-jr]
     variants:
-      - unit: '6'
+      - unit: '1'
         witness: w.zelizer-fierce-urgency-of-now
         reads: the substitute "passed 23 to 11"
         at: 59; 60 n.62
+      - unit: '1'
+        witness: w.risen-bill-of-the-century
+        reads: 20 to 14
+        at: '133'
     time_zone: America/New_York
   - id: cal.1963-10-29.robert-kennedy
     when: Oct. 29
@@ -7893,16 +7819,10 @@ entries:
   - id: cal.1963-10-31.china-leadership
     when: Oct. 31
     date: '1963-10-31'
-    place: hangzhou
     thread: china-mao-foreign
     c: Hangzhou, morning. Mao reads Zhou Enlai's telephoned record of the points he will make in the talks to establish relations with France, and decides to call Liu Shaoqi, Zhou, Deng Xiaoping and Chen Yi to Shanghai on Nov. 1; Peng Zhen to stay in Peking.
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 31, 1963. The words: 晨 (V, Oct. 31, 1963). [[w.zhou-enlai-nianpu-1949]], II, 592 (Oct. 31, 1963: Zhou Enlai telephones Mao in Shanghai with his report of the talks with Faure on establishing relations with France; Mao has Liu, Zhou, Deng and Chen Yi fly to Shanghai Nov. 1 to talk it over and means to take up socialist education in the villages there). Made public: 1997. Check: the place: the Zhou nianpu has Zhou telephone Mao "in Shanghai" (II, 592); the Mao nianpu has Mao reach Hangzhou Oct. 29 and Shanghai Nov. 1 (V, Oct. 29, Nov. 1, 1963). To check: Zhou''s record of Oct. 30–31. Names: Mao Zedong, Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Chen Yi, Peng Zhen.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Oct. 31, 1963. [[w.zhou-enlai-nianpu-1949]], II, 592 (Oct. 31, 1963: Zhou Enlai telephones Mao in Shanghai with his report of the talks with Faure on establishing relations with France; Mao has Liu, Zhou, Deng and Chen Yi fly to Shanghai Nov. 1 to talk it over and means to take up socialist education in the villages there). Made public: 1997. To check: Zhou''s record of Oct. 30–31. Names: Mao Zedong, Zhou Enlai, Liu Shaoqi, Deng Xiaoping, Chen Yi, Peng Zhen.'
     tags: [polity:prc, polity:fr, name:mao-zedong, name:zhou-enlai, name:liu-shaoqi, name:deng-xiaoping, name:chen-yi, name:peng-zhen, vis:only:prc]
-    time_range:
-      - 1963-10-30T21:00Z
-      - 1963-10-31T00:00Z
-    time_band: early morning
-    time_zone: Asia/Shanghai
   - id: cal.1963-10-31.china-leadership-2
     when: Oct. 31
     date: '1963-10-31'
