@@ -583,6 +583,17 @@ ops:
         - 'w.chen-yi-nianpu 818: ?'
       time: 1960-05-27T04:25Z
       time_zone: Asia/Ulaanbaatar
+- add-words:
+    after: Zhou Enlai reaches Ulan Bator, 11:25 a.m., on a friendly visit to Mongolia at its invitation.
+    id: cal.1960-05-27.china-leadership-2
+    item: '[[w.zhou-enlai-waijiao-huodong]], 281 (May 27, 1960; 泽登巴尔主席到机场欢迎)'
+    words: Tsedenbal meets him at the airport.
+- names:
+    add:
+    - Tsedenbal
+    id: cal.1960-05-27.china-leadership-2
+    tags:
+    - name:tsedenbal
 - edit:
     base: b72a74c5
     id: cal.1960-05-28.china-leadership
@@ -689,4 +700,9 @@ ops:
     add:
     - cal.1960-06-08.elections-1960
     id: cal.1960-06-08.elections-1960-rockefeller
+- follows:
+    add:
+    - cal.1960-04-26.china-zhou-foreign-3
+    basis: the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 276–277)
+    id: cal.1960-04-26.china-leadership-6
 patch: lo-d02
