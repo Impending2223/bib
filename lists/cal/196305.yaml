@@ -5277,21 +5277,21 @@ entries:
     place: washington
     thread: alabama-birmingham
     also: [congress]
-    c: 'Stennis in the Senate: "None of us should be content to sit idly by in the face of this direct assault upon and threat to historic constitutional principles"; Alabama''s authorities functioned "fully and effectively."{1} Morse, later that day: Stennis "need only turn the pages of Life magazine of last week for pictorial proof"; "no place in America for inhumanity to man."{2}'
-    n: 'The Senate sat from noon to 6:28 p.m.: [Daily Digest, D219](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=217). [109 Cong. Rec. 9115](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=51) (1963) (Stennis); [109 Cong. Rec. 9139–40](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=75) (1963) (Morse) (May 21, 1963). [[w.mann-walls-of-jericho]], 350–51. The Record (9115) reads "this direct assault upon and threat to"; Mann, 351, drops "assault upon and." See [[cal.1963-04-03.alabama]]. Names: Stennis, Morse.'
+    c: 'Stennis in the Senate: "None of us should be content to sit idly by in the face of this direct assault upon and threat to historic constitutional principles"; Alabama''s authorities functioned "fully and effectively."{1}'
+    n: 'The Senate sat from noon to 6:28 p.m.: [Daily Digest, D219](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=217). [109 Cong. Rec. 9115](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=51) (1963) (May 21, 1963). Morse, later the same day, puts Stennis''s speech "earlier this afternoon" ([109 Cong. Rec. 9140](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=76)); Morse''s answer is entered on its own. [[w.mann-walls-of-jericho]], 350–51. The Record (9115) reads "this direct assault upon and threat to"; Mann, 351, drops "assault upon and." See [[cal.1963-04-03.alabama]]. Names: Stennis.'
     src:
       c: 5bc74020
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=51: 1'
-        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=75: 2'
-        - 'w.mann-walls-of-jericho 350–51: 1, 2'
-        - 'via w.mann-walls-of-jericho 351 n.segregationists-loudly-decried-perceived-violations: 1, 2'
-    tags: [name:stennis-john-c, name:morse-wayne]
+        - 'w.mann-walls-of-jericho 350–51: 1'
+        - 'via w.mann-walls-of-jericho 351 n.segregationists-loudly-decried-perceived-violations: 1'
+    tags: [name:stennis-john-c]
     time_range:
       - 1963-05-21T16:00Z
-      - 1963-05-21T22:28Z
+      - 1963-05-21T22:00Z
     time_zone: America/New_York
     range_basis: record
+    time_band: afternoon
   - id: cal.1963-05-21.civil-rights-the-executive
     when: May 21
     date: '1963-05-21'
@@ -5443,6 +5443,27 @@ entries:
       - 1963-05-21T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1963-05-21.alabama-birmingham-2
+    when: May 21
+    date: '1963-05-21'
+    place: washington
+    thread: alabama-birmingham
+    also: [congress]
+    follows:
+      - cal.1963-05-21.alabama-birmingham
+    c: 'Morse in the Senate, answering Stennis: he "need only turn the pages of Life magazine of last week for pictorial proof"; "no place in America for inhumanity to man."'
+    n: '[109 Cong. Rec. 9140](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt7/pdf/GPO-CRECB-1963-pt7-6-1.pdf#page=76) (1963) (May 21, 1963; Stennis''s speech "earlier this afternoon"). [[w.mann-walls-of-jericho]], 350–51. The Senate sat from noon to 6:28 p.m.: [Daily Digest, D219](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt21/pdf/GPO-CRECB-1963-pt21-1.pdf#page=217). See [[cal.1963-05-21.alabama-birmingham]]. Names: Morse, Stennis.'
+    tags: [name:morse-wayne, name:stennis-john-c]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-05-21.alabama-birmingham
+        from: lo-a
+    time_range:
+      - 1963-05-21T16:00Z
+      - 1963-05-21T22:28Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1963-05-22.africa
     when: May 22–25
     date: '1963-05-22'

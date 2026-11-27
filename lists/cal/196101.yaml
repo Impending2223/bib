@@ -399,8 +399,10 @@ entries:
     date: '1961-01-03'
     place: washington
     thread: rules
+    follows:
+      - cal.1961-01-03.congress
     c: 87th Congress convenes. Senate 65 D–35 R, Hickey (D) appointed in Wyoming for Keith Thomson (R), elected and dead in December; House 263–174. Rayburn Speaker;{1} Mansfield and Humphrey lead the Senate Democrats, Dirksen and Kuchel the Republicans;{2} Halleck the House Republicans.{3}
-    n: '[107 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt1/pdf/GPO-CRECB-1961-pt1-1-1.pdf) (1961). [House roll call 1](https://voteview.com/rollcall/RH0870001). [[w.mann-walls-of-jericho]], 295 (Humphrey whip, with Johnson''s help). The Senate sat from noon to 2:44 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=1), [D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=2). The House sat from noon to 2:30 p.m.: [Daily Digest, D5](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=3), [D6](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=4). To check: [[w.hardeman-rayburn]]. See [[cal.1961-01-03.congress]] (the Democrats'' conference). Names: Hickey, Thomson, Rayburn, Mansfield, Humphrey, Dirksen, Kuchel, Halleck. Check: the page.'
+    n: '[107 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt1/pdf/GPO-CRECB-1961-pt1-1-1.pdf) (1961). [House roll call 1](https://voteview.com/rollcall/RH0870001). [[w.mann-walls-of-jericho]], 295 (Humphrey whip, with Johnson''s help). The Senate sat from noon to 2:44 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=1), [D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=2). The House sat from noon to 2:30 p.m.: [Daily Digest, D5](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=3), [D6](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt18/pdf/GPO-CRECB-1961-pt18-1.pdf#page=4). The order: after [[cal.1961-01-03.congress]], [[w.ritchie-minutes-of-the-senate]], 577 (the Democratic Conference at 9:45 a.m.), and 107 Cong. Rec. 1 (the Senate called to order at noon). To check: [[w.hardeman-rayburn]]. See [[cal.1961-01-03.congress]] (the Democrats'' conference). Names: Hickey, Thomson, Rayburn, Mansfield, Humphrey, Dirksen, Kuchel, Halleck. Check: the page.'
     src:
       c: 92cd7e2f
       rows:
@@ -448,6 +450,7 @@ entries:
   - id: cal.1961-01-03.congress
     when: Jan. 3
     date: '1961-01-03'
+    time: 1961-01-03T14:45Z
     place: washington
     thread: congress
     also: [democratic-party]
@@ -470,14 +473,10 @@ entries:
         - 'via w.bernstein-guns-or-butter 8 n.3b: 1, 2, 4'
         - 'w.mcpherson-political-education 184: 2, 3'
         - 'w.ritchie-minutes-of-the-senate 577–81: 1'
+        - 'w.ritchie-minutes-of-the-senate 577–81: time'
     tags: [name:mansfield-mike, name:johnson-lyndon-b, name:gore-albert-sr]
     short: Mansfield majority leader
-    time_range:
-      - 1961-01-03T14:00Z
-      - 1961-01-03T22:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
     variants:
       - unit: '4'
         witness: w.ritchie-minutes-of-the-senate
@@ -2790,7 +2789,7 @@ entries:
     place: nyc
     thread: cuba-bay-of-pigs
     c: '*New York Times*, front page, Paul Kennedy: "U.S. Helps Train an Anti-Castro Force at Secret Guatemalan Air-Ground Base."{1}'
-    n: '[*New York Times*, Jan. 10, 1961](https://timesmachine.nytimes.com/timesmachine/1961/01/10/issue.html). [[w.jones-bay-of-pigs]], 43. To check: [[w.wyden-bay-of-pigs]]; [[w.bay-of-pigs-invasion-playa-giron-chronology]]; Merchant to Herter, Jan. 10, 1961, [FRUS 1961–63, X, doc. 15](https://history.state.gov/historicaldocuments/frus1961-63v10/d15) (cited by [[w.jones-bay-of-pigs]], 43 n.31). See [[cal.1960-10-30.cuba]].'
+    n: 'Paul Kennedy, "U.S. Helps Train an Anti-Castro Force at Secret Guatemalan Air-Ground Base," [*New York Times*, Jan. 10, 1961](https://timesmachine.nytimes.com/timesmachine/1961/01/10/issue.html), at 1. [[w.jones-bay-of-pigs]], 43. To check: [[w.wyden-bay-of-pigs]]; [[w.bay-of-pigs-invasion-playa-giron-chronology]]; Merchant to Herter, Jan. 10, 1961, [FRUS 1961–63, X, doc. 15](https://history.state.gov/historicaldocuments/frus1961-63v10/d15) (cited by [[w.jones-bay-of-pigs]], 43 n.31). See [[cal.1960-10-30.cuba]].'
     src:
       c: da995425
       rows:

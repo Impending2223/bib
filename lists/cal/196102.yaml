@@ -122,13 +122,12 @@ entries:
     date: '1961-02-01'
     place: washington
     thread: congo
-    c: Rusk to Kennedy, "Suggested New United States Policy on the Congo."{1} A new UN mandate to bring the Congo's armed forces under control, by force if need be;{2} a middle-of-the-road government under Ileo, failing that one taking in Lumumba's followers but not Lumumba;{3} a larger UN hand in its administration.{4} Rusk sums it up at the NSC that day; Kennedy approves it after.{5}
-    n: '[FRUS 1961–63, XX, doc. 17](https://history.state.gov/historicaldocuments/frus1961-63v20/d17); [doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v20/d18) (the NSC; the approval). [[w.rusk-as-i-saw-it-1990]], 277; [[w.poole-joint-chiefs-of-staff]], 257. Names: Rusk, Kennedy, Ileo, Lumumba.'
+    c: Rusk to Kennedy, "Suggested New United States Policy on the Congo."{1} A new UN mandate to bring the Congo's armed forces under control, by force if need be;{2} a middle-of-the-road government under Ileo, failing that one taking in Lumumba's followers but not Lumumba;{3} a larger UN hand in its administration.{4}
+    n: '[FRUS 1961–63, XX, doc. 17](https://history.state.gov/historicaldocuments/frus1961-63v20/d17). The NSC meeting and the approval, which the editorial note of FRUS 1961–63, XX, doc. 18, dates Feb. 1, are entered on their own. [[w.rusk-as-i-saw-it-1990]], 277; [[w.poole-joint-chiefs-of-staff]], 257. Names: Rusk, Kennedy, Ileo, Lumumba.'
     src:
-      c: 130df690
+      c: 597444fb
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d17: 1, 2, 3, 4'
-        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d18: 5'
         - 'w.rusk-as-i-saw-it-1990 277: 1, 2, 3, 4'
         - 'via x.1984.rusk-interviews-with-richard-rusk: 1, 2, 3, 4'
         - 'w.poole-joint-chiefs-of-staff 257: 1, 3'
@@ -414,6 +413,55 @@ entries:
     c: Chen Yun 陈云 presides at a working meeting of the State Council's Finance and Trade Office 国务院财贸办公室 on the making and sharing of yarn and cloth.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 72. Made public: 2015. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun, vis:only:prc]
+  - id: cal.1961-02-01.congo-2
+    when: Feb. 1
+    date: '1961-02-01'
+    place: washington
+    thread: congo
+    follows:
+      - cal.1961-02-01.congo
+    c: 'The NSC, 475th meeting. Dulles, briefing: no recent dramatic developments in the Congo. Rusk summarizes the new policy proposals sent to Kennedy that day.'
+    n: '[FRUS 1961–63, XX, doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v20/d18) (editorial note: Lemnitzer''s handwritten notes of the meeting; NSC Action No. 2397–d). See [[cal.1961-02-01.congo]]. Names: Dulles, Rusk, Kennedy.'
+    tags: [name:dulles-allen-w, name:rusk-dean, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-02-01.congo
+        from: lo-a
+  - id: cal.1961-02-01.congo-3
+    when: Feb. 1
+    date: '1961-02-01'
+    place: washington
+    thread: congo
+    follows:
+      - cal.1961-02-01.congo-2
+    c: Kennedy reviews and approves the State Department's new Congo policy.
+    n: '[FRUS 1961–63, XX, doc. 18](https://history.state.gov/historicaldocuments/frus1961-63v20/d18) (editorial note: "subsequently reviewed and approved"); [doc. 19](https://history.state.gov/historicaldocuments/frus1961-63v20/d19) (the Department''s telegram to New Delhi, Feb. 2, 11:07 p.m.: "approved by President yesterday"). See [[cal.1961-02-01.congo]]. Names: Kennedy.'
+    tags: [name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-02-01.congo
+          - cal.1961-02-01.congo-2
+        from: lo-a
+  - id: cal.1961-02-01.economy-2
+    when: Feb. 1
+    date: '1961-02-01'
+    time: 1961-02-01T21:00Z
+    place: washington
+    thread: economy
+    also: [soviet-union, congo, defense]
+    follows:
+      - cal.1961-02-01.economy
+    c: 'News conference, the second, State Department auditorium, 4 p.m. Announced: the ban on dependents'' travel abroad to be lifted; five pilot food-stamp areas; faster Veterans Administration insurance dividends, over $250 million; a lower FHA maximum interest. Asked about Khrushchev and the U.N., the RB-47 fliers, a tax cut (not now), the Congo.'
+    n: 'The President''s News Conference of February 1, 1961, [1961 Pub. Papers 30](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=88) (Feb. 1, 1961). Names: Kennedy, Khrushchev.'
+    tags: [name:kennedy-john-f, name:khrushchev-nikita-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-02-01.economy
+        from: lo-a
+    time_zone: America/New_York
   - id: cal.1961-02-02.program
     when: Feb. 2
     date: '1961-02-02'
@@ -1634,13 +1682,13 @@ entries:
         - 'via w.jones-bay-of-pigs 52 n.19c: 5'
         - 'w.bissell-reflections-of-a-cold 165–66: 1, 3'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 178: 1, 2, 3, 4'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d39: time'
     tags: [name:bissell-richard-m-jr, name:kennedy-john-f, name:rusk-dean, name:berle-adolf-a, name:bundy-mcgeorge]
     time_range:
-      - 1961-02-08T14:00Z
-      - 1961-02-08T22:00Z
-    time_band: workday daytime
+      - 1961-02-08T17:00Z
+      - 1961-02-08T23:00Z
+    time_band: afternoon
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1961-02-08.defense
     when: Feb. 8
     date: '1961-02-08'

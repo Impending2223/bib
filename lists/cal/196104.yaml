@@ -3316,25 +3316,22 @@ entries:
   - id: cal.1961-04-13.berlin-and-vienna
     when: Apr. 13
     date: '1961-04-13'
+    time: 1961-04-13T22:00Z
     place: washington
     thread: berlin-and-vienna
     also: [europe-and-the-alliance]
     follows:
       - cal.1961-04-13.european-community
     c: 'Kennedy and Adenauer''s joint statement, after two days'' talks: only self-determination a just solution for Germany including Berlin; their pledge renewed to preserve the freedom of West Berlin pending reunification;{1} NATO the keystone of the common defense.{2}'
-    n: 'Joint Statement and Remarks Following Discussions With Chancellor Adenauer of Germany, [1961 Pub. Papers 265](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=323) (Apr. 13, 1961). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 146 (the pledge to West Berlin). See [[cal.1961-04-13.european-community]]. Names: Kennedy, Adenauer.'
+    n: 'Joint Statement and Remarks Following Discussions With Chancellor Adenauer of Germany, [1961 Pub. Papers 265](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=323) (Apr. 13, 1961; the note: the President spoke at 5 p.m. to newsmen outside the West Lobby). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 146 (the pledge to West Berlin). See [[cal.1961-04-13.european-community]]. Names: Kennedy, Adenauer.'
     src:
       c: 731c4f03
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=323: 1, 2'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 146: 1'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=323: time'
     tags: [name:kennedy-john-f, name:adenauer-konrad]
-    time_range:
-      - 1961-04-13T14:00Z
-      - 1961-04-13T22:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1961-04-13.cuba-6
     when: Apr. 13
     date: '1961-04-13'
@@ -6135,21 +6132,26 @@ entries:
     follows:
       - cal.1961-04-20.cuba-2
       - cal.1961-04-20.cuba-bay-of-pigs-2
-    c: 'Address to the newspaper editors: the lessons of Cuba, and no retreat.{1} Same day Kennedy asks Johnson, as Space Council chairman, whether there is a space program the United States can win.{2}'
-    n: 'Address Before the American Society of Newspaper Editors, [1961 Pub. Papers 304](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=362) (Apr. 20, 1961). [[w.logsdon-decision-to-go-to]] prints the memo; [[w.marolda-united-states-navy-and]], 100 (the address). [[w.schlesinger-thousand-days-1965]], 286–88 (the address); [[w.sorensen-kennedy]], 308, 629 (the address to the editors); [[w.sorensen-kennedy]], 629–30; [[w.sorensen-kennedy]], 525; [[w.goodwin-remembering-america]], 180 ("the day after the invasion collapsed," "the most truculent statement of his administration": "our restraint is not inexhaustible"; "we do not intend to be lectured on intervention by those whose character was stamped for all time on the bloody streets of Budapest"; not the editors or the space question). [[w.jones-bay-of-pigs]], 132. See [[cal.1961-04-12.space]]. Names: Johnson.'
+    c: 'Address to the newspaper editors: the lessons of Cuba, and no retreat.{1}'
+    n: 'Address Before the American Society of Newspaper Editors, [1961 Pub. Papers 304](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=362) (Apr. 20, 1961). The news conference of Apr. 21 calls the statement on Cuba "yesterday afternoon" ([1961 Pub. Papers 307](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365), item 1). [[w.marolda-united-states-navy-and]], 100 (the address). [[w.schlesinger-thousand-days-1965]], 286–88 (the address); [[w.sorensen-kennedy]], 308, 629 (the address to the editors); [[w.sorensen-kennedy]], 629–30; [[w.goodwin-remembering-america]], 180 ("the day after the invasion collapsed," "the most truculent statement of his administration": "our restraint is not inexhaustible"; "we do not intend to be lectured on intervention by those whose character was stamped for all time on the bloody streets of Budapest"; not the editors). [[w.jones-bay-of-pigs]], 132. Kennedy''s question to Johnson on space, the same day, is entered on its own (Sorensen, 525).'
     src:
       c: fa96faf0
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=362: 1, 2'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=362: 1'
         - 'w.marolda-united-states-navy-and 100: 1'
         - 'w.schlesinger-thousand-days-1965 287–88: 1'
         - 'w.jones-bay-of-pigs 132: 1'
         - 'via w.jones-bay-of-pigs 132 n.2a: 1'
         - 'w.sorensen-kennedy 308, 629: 1'
         - 'w.sorensen-kennedy 629–30: 1'
-        - 'w.sorensen-kennedy 525: 2'
         - 'w.goodwin-remembering-america 180: ?'
-    tags: [name:kennedy-john-f, name:johnson-lyndon-b]
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365: time'
+    tags: [name:kennedy-john-f]
+    time_range:
+      - 1961-04-20T17:00Z
+      - 1961-04-20T23:00Z
+    time_band: afternoon
+    time_zone: America/New_York
   - id: cal.1961-04-20.europe-and-the-alliance
     when: Apr. 20–24
     date: '1961-04-20'
@@ -6222,7 +6224,7 @@ entries:
     follows:
       - cal.1961-04-20.cuba
     c: 'Nixon with Kennedy: an invasion of Cuba;{1} "a commitment of American air power" to Laos. Kennedy, by Nixon''s recollection: "I just don''t think we ought to get involved in Laos, particularly where we might find ourselves fighting millions of Chinese troops in the jungles."{2}'
-    n: '[[w.schlesinger-thousand-days-1965]], 336–37 (Nixon''s account, as Schlesinger quotes it); [[w.nixon-rn]], 233–35; [[w.nixon-six-crises]], xi (the visit, in April, Nixon''s first to Kennedy since the inauguration; Kennedy on a public man''s writing a book); [[w.sorensen-kennedy]], 308 (Thursday morning, Kennedy planning talks with every Republican leader, to guard national unity); [[w.wofford-of-kennedys-and-kings]], 352 (Thursday, Apr. 20, Kennedy asks Nixon to the White House: "What would you do now in Cuba?" Nixon: "I would find proper legal cover, and I would go in"; Kennedy fears Khrushchev will move on Berlin; not Laos). [[w.reeves-president-kennedy]], 99–100 (Nixon for going in). [[w.nixon-six-crises]], 406 n.12 (Kennedy asks Nixon to the White House after the Cuban defeat). Made public: Nixon, *Reader''s Digest*, Nov. 1964. Check: *Six Crises*''s introduction (xi) puts the visit in April, the first since the inauguration. To check: Richard M. Nixon, "Cuba, Castro and John F. Kennedy," *Reader''s Digest*, Nov. 1964 (cited by [[w.schlesinger-thousand-days-1965]], 337 n.). After [[cal.1961-04-20.cuba|the address]]: the news conference of Apr. 21 has the statement on Cuba "yesterday afternoon" and the talk with Nixon "last night" ([1961 Pub. Papers 307](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365), items 1, 5). See [[cal.1961-03-29.cuba]]. Names: Nixon, Kennedy. Check: *Six Crises*, 406 n.12, puts it in May. Check: Reeves puts the talk the afternoon of the meeting with the Revolutionary Council, Apr. 19 (99).'
+    n: '[[w.schlesinger-thousand-days-1965]], 336–37 (Nixon''s account, as Schlesinger quotes it); [[w.nixon-rn]], 233–35; [[w.nixon-six-crises]], xi (the visit, in April, Nixon''s first to Kennedy since the inauguration; Kennedy on a public man''s writing a book); [[w.sorensen-kennedy]], 308 (Thursday morning, Kennedy planning talks with every Republican leader, to guard national unity); [[w.wofford-of-kennedys-and-kings]], 352 (Thursday, Apr. 20, Kennedy asks Nixon to the White House: "What would you do now in Cuba?" Nixon: "I would find proper legal cover, and I would go in"; Kennedy fears Khrushchev will move on Berlin; not Laos). [[w.reeves-president-kennedy]], 99–100 (Nixon for going in). [[w.nixon-six-crises]], 406 n.12 (Kennedy asks Nixon to the White House after the Cuban defeat). Made public: Nixon, *Reader''s Digest*, Nov. 1964. To check: Richard M. Nixon, "Cuba, Castro and John F. Kennedy," *Reader''s Digest*, Nov. 1964 (cited by [[w.schlesinger-thousand-days-1965]], 337 n.). After [[cal.1961-04-20.cuba|the address]]: the news conference of Apr. 21 has the statement on Cuba "yesterday afternoon" and the talk with Nixon "last night" ([1961 Pub. Papers 307](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365), items 1, 5). The Papers settle the day and the part of it: Kennedy, Apr. 21, "last night," the Vice President "came to the White House at my invitation"; so Apr. 20, the evening or the night; *Six Crises*, xi, has April. See [[cal.1961-03-29.cuba]]. Names: Nixon, Kennedy. Check: *Six Crises*, 406 n.12, puts it in May. Check: Reeves puts the talk the afternoon of the meeting with the Revolutionary Council, Apr. 19 (99).'
     src:
       c: ff526232
       rows:
@@ -6235,13 +6237,12 @@ entries:
         - 'w.nixon-six-crises xi: 1'
         - 'w.sorensen-kennedy 308: 1'
         - 'w.wofford-of-kennedys-and-kings 352: ?'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365: time'
     tags: [name:nixon-richard-m, name:kennedy-john-f]
     time_range:
-      - 1961-04-20T14:00Z
-      - 1961-04-20T22:00Z
-    time_band: workday daytime
+      - 1961-04-20T23:00Z
+      - 1961-04-21T05:00Z
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1961-04-20.republican-party
     when: Apr. 20
     date: '1961-04-20'
@@ -6686,6 +6687,19 @@ entries:
     time_band: afternoon
     time_zone: America/New_York
     range_basis: record
+  - id: cal.1961-04-20.space
+    when: Apr. 20
+    date: '1961-04-20'
+    place: washington
+    thread: space
+    c: Kennedy asks Johnson, as chairman of the Space Council, whether there is a space program the United States can win.
+    n: '[[w.sorensen-kennedy]], 525. To check: [[w.logsdon-decision-to-go-to]] (prints the memorandum). See [[cal.1961-04-12.space]]. Names: Kennedy, Johnson.'
+    tags: [name:kennedy-john-f, name:johnson-lyndon-b]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1961-04-20.cuba
+        from: lo-a
   - id: cal.1961-04-21.cuba
     when: Apr. 21
     date: '1961-04-21'
@@ -9343,6 +9357,7 @@ entries:
   - id: cal.1961-04-29.vietnam
     when: Apr. 29
     date: '1961-04-29'
+    time: 1961-04-29T15:00Z
     thread: vietnam
     c: 'The National Security Council, on Vietnam.{1} Kennedy lists the reasons for a stand there: a more unified nation, a million refugees from the North, a larger and better-trained army, access to the sea, no border with China. Working paper: "Program of Action to Prevent Communist Domination of South Vietnam," twenty-three pages, by Gilpatric and Lansdale;{2} their recommendations put to the President that day.{3}'
     n: '[FRUS 1961–63, I, doc. 40](https://history.state.gov/historicaldocuments/frus1961-63v01/d40) (editorial note: the NSC, 10 a.m., on the Program of Action; paragraphs 3a–3e approved; NSC Action No. 2416). [[w.reeves-president-kennedy]], 116–17; [[w.selverstone-kennedy-withdrawal]], 24 (the NSC, Apr. 29, reviews Gilpatric''s draft recommendations; Kennedy authorizes 78 Army communications men, some 40 CIA, 100 more MAAG); [[w.lich-su-khang-chien-chong-my]], III, 13 (Apr. 29, the NSC meets and sets the policy, measures and steps). Check: that the meeting was the NSC; the day. See [[cal.1961-04-29.laos]], [[cal.1961-05-11.vietnam]]. Names: Gilpatric, Lansdale, Kennedy.'
@@ -9353,7 +9368,9 @@ entries:
         - 'w.selverstone-kennedy-withdrawal 24: 1, 3'
         - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d40: 1, 3'
         - 'w.lich-su-khang-chien-chong-my III, 13: 1'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d40: time'
     tags: [name:kennedy-john-f, name:gilpatric-roswell-l, name:lansdale-edward-g]
+    time_zone: America/New_York
   - id: cal.1961-04-29.china-leadership
     when: Apr. 29–May 1
     date: '1961-04-29'

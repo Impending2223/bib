@@ -6402,8 +6402,9 @@ entries:
     thread: europe-and-the-alliance-kennedy-in-europe
     follows:
       - cal.1963-06-26.europe-and-the-alliance-kennedy-in
+      - cal.1963-06-26.europe-and-the-alliance-kennedy-in-3
     c: 'Dublin, the arrival. Men hold small children above their heads along O''Connell Street, women scream "Bless you!" At the Embassy in Phoenix Park Kennedy asks Powers, "What did you think of it?" Powers: "If you ran over here, you''d beat De Valera in his own precinct."'
-    n: 'Remarks Upon Arrival at Dublin Airport, [1963 Pub. Papers 531](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=589) (June 26, 1963). [[w.odonnell-johnny-we-hardly-knew]], 412 (O''Donnell''s and Powers''s account). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy, Powers.'
+    n: 'Remarks Upon Arrival at Dublin Airport, [1963 Pub. Papers 531](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=589) (June 26, 1963). [[w.odonnell-johnny-we-hardly-knew]], 412 (O''Donnell''s and Powers''s account). The order: after [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-3]], the airport remarks at 8 p.m. (1963 Pub. Papers 531, note). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy, Powers.'
     tags: [name:kennedy-john-f, name:powers-david-f, name:de-valera-eamon]
   - id: cal.1963-06-26.berlin-and-vienna-5
     when: June 26
@@ -6602,6 +6603,25 @@ entries:
       - 1963-06-26T10:00Z
     time_band: afternoon
     range_basis: record
+  - id: cal.1963-06-26.europe-and-the-alliance-kennedy-in-3
+    when: June 26
+    date: '1963-06-26'
+    time: 1963-06-26T19:00Z
+    place: dublin
+    thread: europe-and-the-alliance-kennedy-in-europe
+    follows:
+      - cal.1963-06-26.europe-and-the-alliance-kennedy-in
+    c: 'Dublin Airport, 8 p.m. Kennedy to de Valera: eight of his grandparents left these shores; "all of them who visit Ireland come home"; de Valera "an old and valued friend of my father."'
+    n: 'Remarks Upon Arrival at Dublin Airport, [1963 Pub. Papers 531](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=589) (June 26, 1963; the note: spoken at 8 p.m.). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-2]]. Names: Kennedy, de Valera.'
+    tags: [name:kennedy-john-f, name:de-valera-eamon]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe
+          - cal.1963-06-26.europe-and-the-alliance-kennedy-in
+          - cal.1963-06-26.europe-and-the-alliance-kennedy-in-2
+        from: lo-a
+    time_zone: Europe/Dublin
   - id: cal.1963-06-27.vietnam
     when: June 27
     date: '1963-06-27'
@@ -6724,13 +6744,21 @@ entries:
   - id: cal.1963-06-27.europe-and-the-alliance-kennedy-in-3
     when: June 27
     date: '1963-06-27'
+    time: 1963-06-27T10:30Z
     place: new-ross
     thread: europe-and-the-alliance-kennedy-in-europe
     follows:
       - cal.1963-06-27.europe-and-the-alliance-kennedy-in-2
     c: 'New Ross, the riverside docks where his great-grandfather took ship. Schoolchildren spell out FAILTE on the park grass; others sing "The Boys of Wexford," and Kennedy asks for another verse, sings with them and pockets the card of the words. Of his great-grandfather: "he carried nothing with him except two things, a strong religious faith and a strong desire for liberty."'
     n: 'Remarks on the Quay at New Ross, [1963 Pub. Papers 531](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=589) (June 27, 1963). [[w.odonnell-johnny-we-hardly-knew]], 413 (O''Donnell''s and Powers''s account). After [[cal.1963-06-27.europe-and-the-alliance-kennedy-in-2|the talk with Lemass]]: "After the President had a talk with Sean Lemass," the helicopters to New Ross ([[w.odonnell-johnny-we-hardly-knew]], 413). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy.'
+    src:
+      c: 402e695f
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=589: all'
+        - 'w.odonnell-johnny-we-hardly-knew 413: ?'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=589: time'
     tags: [name:kennedy-john-f]
+    time_zone: Europe/Dublin
   - id: cal.1963-06-27.europe-and-the-alliance-kennedy-in-4
     when: June 27
     date: '1963-06-27'
@@ -6846,11 +6874,19 @@ entries:
   - id: cal.1963-06-28.europe-and-the-alliance-kennedy-in
     when: June 28
     date: '1963-06-28'
+    time: 1963-06-28T09:15Z
     place: cork
     thread: europe-and-the-alliance-kennedy-in-europe
     c: 'Cork, City Hall. The Lord Mayor, Sean Casey, confers the freedom of the city on Kennedy before a crowd of more than one hundred thousand. Kennedy presents Powers, who sits with seven local first cousins, and Monsignor Michael O''Mahoney, "the pastor of a poor, humble flock in Palm Beach, Florida." A sign in the crowd: "Don''t worry, Jack. The Iron Curtain will rust in peace."'
     n: 'Remarks at the City Hall in Cork, [1963 Pub. Papers 533](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=591) (June 28, 1963). [[w.odonnell-johnny-we-hardly-knew]], 415 (O''Donnell''s and Powers''s account). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy, Powers.'
+    src:
+      c: 2bfac0f0
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=591: all'
+        - 'w.odonnell-johnny-we-hardly-knew 415: ?'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=591: time'
     tags: [name:kennedy-john-f, name:powers-david-f]
+    time_zone: Europe/Dublin
   - id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-2
     when: June 28
     date: '1963-06-28'
@@ -6884,13 +6920,21 @@ entries:
   - id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-6
     when: June 28
     date: '1963-06-28'
+    time: 1963-06-28T16:00Z
     place: dublin
     thread: europe-and-the-alliance-kennedy-in-europe
     follows:
       - cal.1963-06-28.europe-and-the-alliance-kennedy-in-5
     c: 'Dublin Castle, St. Patrick''s Hall. Kennedy invested a freeman of the city; de Valera robes him for the National University''s doctor of laws, then the Earl of Rosse, Vice-Chancellor, gives him Trinity''s degree. In thanks: "if they ever have a game of Gaelic football or hurling, I shall cheer for Trinity and pray for National."'
     n: 'Remarks at a Civic and Academic Reception in St. Patrick''s Hall, Dublin Castle, [1963 Pub. Papers 539](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=597) (June 28, 1963). [[w.odonnell-johnny-we-hardly-knew]], 417–18 (O''Donnell''s and Powers''s account). After [[cal.1963-06-28.europe-and-the-alliance-kennedy-in-5|leaving the Dail]]: "The President then hurried to Dublin Castle" ([[w.odonnell-johnny-we-hardly-knew]], 417). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy.'
+    src:
+      c: 66af59d5
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=597: all'
+        - 'w.odonnell-johnny-we-hardly-knew 417–18: ?'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=597: time'
     tags: [name:kennedy-john-f, name:de-valera-eamon]
+    time_zone: Europe/Dublin
   - id: cal.1963-06-28.europe-and-the-alliance-kennedy-in-7
     when: June 28
     date: '1963-06-28'
@@ -7051,13 +7095,21 @@ entries:
   - id: cal.1963-06-29.europe-and-the-alliance-kennedy-in
     when: June 29
     date: '1963-06-29'
+    time: 1963-06-29T11:00Z
     place: galway
     thread: europe-and-the-alliance-kennedy-in-europe
     follows:
       - cal.1963-06-29.europe-and-the-alliance-kennedy-in-2
     c: 'Galway, Eyre Square. A crowd of more than eighty thousand; the bells of Saint Nicholas Church ring "The Star-Spangled Banner." Kennedy: "How many of you have relatives in America whom you''d admit to? Nearly everybody in Boston comes from Galway and they''re not shy about it, at all."'
     n: 'Remarks at Eyre Square in Galway, [1963 Pub. Papers 540](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=598) (June 29, 1963). [[w.odonnell-johnny-we-hardly-knew]], 420 (O''Donnell''s and Powers''s account). See [[cal.1963-06-26.europe-and-the-alliance-kennedy-in-europe]]. Names: Kennedy.'
+    src:
+      c: d00cdea5
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=598: all'
+        - 'w.odonnell-johnny-we-hardly-knew 420: ?'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=598: time'
     tags: [name:kennedy-john-f]
+    time_zone: Europe/Dublin
   - id: cal.1963-06-29.europe-and-the-alliance-kennedy-in-2
     when: June 29
     date: '1963-06-29'

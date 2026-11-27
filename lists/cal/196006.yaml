@@ -2367,18 +2367,19 @@ entries:
     n: 'Thomas F. Brady, "Algerians Balk at French Terms for Peace Talks," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 14; "Algerians'' Communique," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 15. Names: de Gaulle.'
     tags: [name:de-gaulle-charles]
   - id: cal.1960-06-15.japan-and-korea
-    when: June 15–16
+    when: June 15
     date: '1960-06-15'
     place: tokyo
     thread: japan-and-korea-treaty
-    c: 'Tokyo. Zengakuren students force their way into the Diet''s grounds; a woman student, Kanba Michiko, killed, some 600 hurt. June 16: Kishi''s cabinet asks that the President''s visit be put off. Eisenhower, in Manila, agrees.'
-    n: 'FRUS 1958–60, XVIII, docs. [181](https://history.state.gov/historicaldocuments/frus1958-60v18/d181), [182](https://history.state.gov/historicaldocuments/frus1958-60v18/d182), [183](https://history.state.gov/historicaldocuments/frus1958-60v18/d183), [184](https://history.state.gov/historicaldocuments/frus1958-60v18/d184) (Eisenhower to Kishi). [[w.watson-into-the-missile-age]], 639 (Kishi "forced to ask Eisenhower to postpone a scheduled visit to Japan"; no day; not the students, the dead or Manila). See [[cal.1960-01-19.japan-and-korea]]. Names: Kishi, Eisenhower, Kanba.'
+    c: Tokyo. Zengakuren students force their way into the Diet's grounds; a woman student, Kanba Michiko, killed, some 600 hurt.
+    n: 'FRUS 1958–60, XVIII, docs. [181](https://history.state.gov/historicaldocuments/frus1958-60v18/d181) (MacArthur: "last night''s bloody riot") and [183](https://history.state.gov/historicaldocuments/frus1958-60v18/d183) (one death and some 600 injured). The request and Eisenhower''s answer of June 16 are entered on their own (FRUS 1958–60, XVIII, docs. 182, 184; 1960–61 Pub. Papers 495). [[w.watson-into-the-missile-age]], 639 (Kishi "forced to ask Eisenhower to postpone a scheduled visit to Japan"; no day; not the students, the dead or Manila). See [[cal.1960-01-19.japan-and-korea]]. Names: Kanba. Check: the student''s name; the telegrams give one death, no name.'
     src:
-      c: '35483590'
+      c: 7aac81a7
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v18/d181: all'
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v18/d183: all'
         - 'w.watson-into-the-missile-age 639: ?'
-    tags: [name:kishi-nobusuke, name:eisenhower-dwight-d, name:kanba-michiko]
+    tags: [name:kanba-michiko]
     short: the riots, the visit cancelled
   - id: cal.1960-06-15.china-leadership
     when: June 15
@@ -2768,6 +2769,54 @@ entries:
       rows:
         - 'via x.1960-06-16.vina-fe-362-a2-2: ?'
     tags: [polity:drv]
+  - id: cal.1960-06-16.japan-and-korea-treaty
+    when: June 16
+    date: '1960-06-16'
+    time: 1960-06-16T08:00Z
+    time_approx: true
+    place: tokyo
+    thread: japan-and-korea-treaty
+    c: Kishi's special cabinet meeting decides to ask that Eisenhower's visit be postponed; Fujiyama telephones MacArthur. Kishi will announce it to the Japanese people at 5:30 p.m.
+    n: '[FRUS 1958–60, XVIII, doc. 182](https://history.state.gov/historicaldocuments/frus1958-60v18/d182) (MacArthur from Tokyo, June 16, 1960, 5 p.m.: the meeting "has just decided"). [[w.watson-into-the-missile-age]], 639 (Kishi "forced to ask Eisenhower to postpone a scheduled visit to Japan"; no day). See [[cal.1960-06-15.japan-and-korea]]. Names: Kishi, Fujiyama, MacArthur, Eisenhower.'
+    tags: [name:kishi-nobusuke, name:fujiyama-aiichiro, name:macarthur-douglas-ii, name:eisenhower-dwight-d]
+    time_zone: Asia/Tokyo
+  - id: cal.1960-06-16.japan-and-korea-treaty-2
+    when: June 16
+    date: '1960-06-16'
+    time: 1960-06-16T09:03Z
+    time_approx: true
+    place: manila
+    thread: japan-and-korea-treaty
+    follows:
+      - cal.1960-06-16.japan-and-korea-treaty
+    c: 'Eisenhower, at the Luneta in Manila, learns during the parade of Japan''s request. White House release: he accepts and will not visit Japan at the scheduled time; regrets that "a small organized minority" prevented it.'
+    n: 'Remarks at a Civic Reception at the Luneta in Manila, note, [1960–61 Pub. Papers 495](https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=547) (June 16, 1960; the speech at 5:03 p.m.). See [[cal.1960-06-15.japan-and-korea]]. Names: Eisenhower.'
+    tags: [name:eisenhower-dwight-d]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-06-16.japan-and-korea-treaty
+        from: lo-a
+    time_zone: Asia/Manila
+  - id: cal.1960-06-16.japan-and-korea-treaty-3
+    when: June 16
+    date: '1960-06-16'
+    time: 1960-06-16T12:00Z
+    time_approx: true
+    place: manila
+    thread: japan-and-korea-treaty
+    follows:
+      - cal.1960-06-16.japan-and-korea-treaty
+    c: 'Eisenhower to Kishi, by message from Manila: he understands, accepts that the visit would now be untimely, concurs in the prompt release of the decision.'
+    n: '[FRUS 1958–60, XVIII, doc. 184](https://history.state.gov/historicaldocuments/frus1958-60v18/d184) (Manila, June 16, 1960, 8 p.m.: the message sent for delivery). See [[cal.1960-06-15.japan-and-korea]]; doc. 185 (delivered the morning of June 17). Names: Eisenhower, Kishi.'
+    tags: [name:eisenhower-dwight-d, name:kishi-nobusuke]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-06-16.japan-and-korea-treaty
+          - cal.1960-06-16.japan-and-korea-treaty-2
+        from: lo-a
+    time_zone: Asia/Manila
   - id: cal.1960-06-17.elections-1960-rockefeller
     when: June 17
     date: '1960-06-17'
@@ -4836,7 +4885,7 @@ entries:
     place: washington
     thread: economy-debt-limit
     c: Senate adopts the conference report on H.R. 12381, [61–32](https://voteview.com/rollcall/RS0860375).
-    n: '[106 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-5-1.pdf) (1960). The Senate sat from noon to 8:05 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D408](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=406). See [[cal.1960-06-08.economy-debt-limit]]. Check: the page.'
+    n: '[106 Cong. Rec. 14,700–11](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-5-1.pdf#page=44) (1960) (Senate, June 28, 1960; the conference report taken up at 14,700, the roll call, 61 to 32, at 14,711). The Senate sat from noon to 8:05 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D408](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=406). See [[cal.1960-06-08.economy-debt-limit]].'
     time_range:
       - 1960-06-28T16:00Z
       - 1960-06-29T00:05Z
@@ -4846,8 +4895,10 @@ entries:
     date: '1960-06-28'
     place: washington
     thread: soviet-union-u2
+    follows:
+      - cal.1960-06-28.economy-debt-limit
     c: 'Fulbright submits Foreign Relations'' report, "Events Relating to the Summit Conference" (S. Rept. 1761), approved June 23, 14 to 1.{1} To the Senate: the U-2 and its handling "the immediate cause of the collapse"; "we forced Khrushchev to wreck the conference by our own ineptness."{2} George Washington and the cherry tree.{3}'
-    n: '[106 Cong. Rec. 14,734–37](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-5-1.pdf#page=78) (1960) (Senate, June 28, 1960). [[w.woods-fulbright]], 252 (the speech). The Senate sat from noon to 8:05 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D408](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=406). See [[cal.1960-05-27.soviet-union]]. Names: Fulbright, Khrushchev.'
+    n: '[106 Cong. Rec. 14,734–37](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-5-1.pdf#page=78) (1960) (Senate, June 28, 1960). [[w.woods-fulbright]], 252 (the speech). The Senate sat from noon to 8:05 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D408](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=406). The order: after [[cal.1960-06-28.economy-debt-limit]], 106 Cong. Rec. 14,711 (the conference report adopted), 14,734 (Fulbright''s report). See [[cal.1960-05-27.soviet-union]]. Names: Fulbright, Khrushchev.'
     src:
       c: 37d5b0b2
       rows:
@@ -5268,13 +5319,16 @@ entries:
     date: '1960-06-30'
     place: washington
     thread: jobs-and-wages
+    follows:
+      - cal.1960-06-30.congress
     c: 'House passes a minimum wage bill, H.R. 12677, [341–72](https://voteview.com/rollcall/RH0860163), after taking Kitchin''s narrower substitute, [211–203](https://voteview.com/rollcall/RH0860162): $1.15 an hour for those covered;{1} interstate retail chains brought in at $1, without overtime.{2}'
-    n: 'The House sat from noon to 8:14 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=2), [D422](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=420). Names: Kitchin.'
+    n: '[106 Cong. Rec. 15,226](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-7-2.pdf#page=65) (1960) (House, June 30, 1960; the roll call on passage, 341 to 72). The House sat from noon to 8:14 p.m.: [Daily Digest, D4](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=2), [D422](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=420). The order: after [[cal.1960-06-30.congress]], 106 Cong. Rec. 15,187–88 (Smith on the rule), 15,226 (the passage). Names: Kitchin.'
     src:
       c: be7d7ba8
       rows:
         - 'https://voteview.com/rollcall/RH0860163: 1'
         - 'https://voteview.com/rollcall/RH0860162: 1'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-7-2.pdf#page=65: 1'
     tags: [name:kitchin-alvin-p]
     time_range:
       - 1960-06-30T16:00Z
@@ -5464,12 +5518,12 @@ entries:
     date: 1960-06
     thread: cuba-bay-of-pigs
     c: Safe houses in Miami; paramilitary training in Coral Gables under the cover of a job placement company; training begun in Panama.
-    n: '[[w.jones-bay-of-pigs]], 19–20. Check: the Cuba Study Group''s Memorandum No. 1 (FRUS 1961–63, X, doc. 231) has none of these. To check: the Narrative of the Anti-Castro Cuban Operation Zapata, June 13, 1961, [FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), and Kirkpatrick''s survey (cited by [[w.jones-bay-of-pigs]], 20 n.25). See [[cal.1960-03-17.cuba]]. Check: the day.'
+    n: '[[w.jones-bay-of-pigs]], 19–20. Check: the Cuba Study Group''s Memorandum No. 1 ([FRUS 1961–63, X, doc. 231](https://history.state.gov/historicaldocuments/frus1961-63v10/d231), read through) has none of these. To check: Kirkpatrick''s survey (cited by [[w.jones-bay-of-pigs]], 20 n.25). See [[cal.1960-03-17.cuba]]. Check: the day.'
     src:
       c: e50935e1
       rows:
         - 'w.jones-bay-of-pigs 19–20: all'
-        - 'via w.jones-bay-of-pigs 20 n.25a: all'
+        - 'via w.jones-bay-of-pigs 20 n.25e: all'
   - id: cal.1960-06-30.medicare
     when: June 30
     date: '1960-06-30'
@@ -5477,12 +5531,13 @@ entries:
     thread: medicare
     also: [republican-party-congress]
     c: Saltonstall introduces what he calls the administration bill, Flemming's plan, with fees on a sliding scale, $24 to $204 a year by income.{1} Not introduced in the House.{2}
-    n: '[[w.sundquist-politics-and-policy]], 304 n.48, 305 (the House, 305). The Senate sat from noon to 10:54 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D420](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=418). See [[cal.1960-05-04.medicare]]. Names: Saltonstall, Flemming.'
+    n: '[106 Cong. Rec. 15,064](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-7-1.pdf#page=20) (1960) (Senate, June 30, 1960; S. 3784, "the administration proposal" at 15,064, the bill listed at 15,063; the introduction, not the fees). [[w.sundquist-politics-and-policy]], 304 n.48, 305 (the House, 305). The Senate sat from noon to 10:54 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=1), [D420](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt16/pdf/GPO-CRECB-1960-pt16-1.pdf#page=418). See [[cal.1960-05-04.medicare]]. Names: Saltonstall, Flemming.'
     src:
       c: 323adb22
       rows:
         - 'w.sundquist-politics-and-policy 304 n.48: 1'
         - 'w.sundquist-politics-and-policy 305: 2'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-7-1.pdf#page=20: 1'
     tags: [name:saltonstall-leverett, name:flemming-arthur-s]
     time_range:
       - 1960-06-30T16:00Z
@@ -6208,7 +6263,7 @@ entries:
     thread: congress
     also: [rules]
     c: Howard W. Smith, chairman of House Rules, in a House speech, defends the committee against its critics, stung by Gerald T. Flynn's complaint that voters are "sick and tired" of it.
-    n: 'John D. Morris, "Drive On to Curb House Rules Unit," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 22. To check: 106 Cong. Rec. (1960). Names: Smith.'
+    n: 'John D. Morris, "Drive On to Curb House Rules Unit," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 22. [106 Cong. Rec. 15,187–88](https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt11/pdf/GPO-CRECB-1960-pt11-7-2.pdf#page=26) (1960) (House, June 30, 1960; Smith on the rule for the minimum wage bill, "sick and tired" at 15,188). Names: Smith.'
     tags: [name:smith-howard-w]
   - id: cal.1960-06.africa-2
     when: June
