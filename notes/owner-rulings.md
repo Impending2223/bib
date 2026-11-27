@@ -718,3 +718,10 @@ Question: the owner said on Nov. 25 that it seems absurd to exclude the famine f
 - Where it applies: every place page, on every build.
 - To overrule: change `FOLD`, `CITY_MIN` or `where()` in `tools/bib/placepages.py`; or ask for the mark on every page.
 - Approved (the owner, Nov. 26, 2026, about 9:43 p.m., of the preview of four place pages: "The preview looks great!"): rulings 66 to 68 stand as previewed; the place pages go to the site with the next PR. The preview folder (`notes/proposals/place-preview/`) is not published.
+
+## 69. The reading plan approved, its batches at the end of the queue (Nov. 26, 2026, about 9:46 pm)
+
+- The owner's words: "Do I need to do anything to approve appending a revised reader batch list to the end of the queue? Where did we leave that?"
+- Taken as the approval the queue file asked for (its questions 1 and 2): the reading plan (`notes/proposals/drive-reading-plan.md` and `.tsv`, as revised the same evening: the rows one work each, the oral histories read with their subjects (ruling 65), Keesing's read by date with the press (ruling 64)) is approved, its batches appended after item 23, in the plan's suggested order. Queue items 12, 13, 17, 18, 20 and 21 keep their places and read the Drive works they name; a plan batch drops a work such an item has read. Each batch runs as rulings 63 directs: in sequence, the first reading on Sonnet, the audit on Opus.
+- The plan's other open points keep their defaults: Britain a covered nation; a card made for each of the 142 uncarded works by its batch's first reader; the 47 Batch 4 books taken as unread; the reading rates of 70 and 150 pages; the Zhou Enlai nianpu's edition settled by its first reader.
+- To overrule: any batch, its order, or its place in the queue.

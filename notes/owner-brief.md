@@ -1540,3 +1540,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 9:43 pm PT.** "The preview looks great!"
 
 **Nov. 26, 2026, about 9:45 pm PT.** "The NLF's entries should go on both North and South Vietnam's pages, unfortunately."
+
+**Nov. 26, 2026, about 9:45 pm PT.** "Do I need to do anything to approve appending a revised reader batch list to the end of the queue? Where did we leave that?"
