@@ -61,3 +61,11 @@ The two- and three-letter scheme does not rule out conflicts. Within the nations
 4. **Our own short names.** The bodies and movements that are not states (`un`, `nato`, `oas`, `eec`, `oecd`, `imf`, `nlf`, `pathet-lao`) and the exceptions already in use (`uk`, which the standard reserves for the United Kingdom though its code is `gb`) are checked against the standard's list, so that none of them is a state's code.
 
 The script writes its findings to a note for you before the rename runs. Where a finding needs a ruling, the default taken is the one above, recorded as ruling 67 is.
+
+## The rule for the codes, after the owner's question of 9:27 p.m. ("Given your point on the Vietnams, is "DD" still better than "DDR"?")
+
+No. By the reasoning I gave for the Vietnams, `dd` loses. The rule should be: the standard's code, except where a reader would misread it, or where the series already writes a short name readers know. `dd` was never given to another country, so it would not be misread, but no reader knows it. The calendar's own lines write "GDR" 148 times and "DDR" 4 times, and the tags already say `gdr`.
+
+So the default is `gdr`, the form the calendar writes. `ddr` is as good if you prefer the German form; the two are not the same as any other code. The same rule gives `drv` and `rvn` (the calendar writes "DRV" 523 times), `ussr` ("USSR" 163), `prc` ("PRC" 308), `dprk` ("DPRK" 152) and `uar` ("UAR" 280), and keeps `uk`. Where the calendar writes no short name, the standard's code: `de` for the Federal Republic (the calendar writes "West Germany", never "FRG"), `kr` for the Republic of Korea, `tw` or `roc` for Taiwan to be ruled (the calendar writes "Taiwan" 301 times and "ROC" once), `fr`, `in`, `jp`, `id` and the rest.
+
+The script before the rename will count, for every state, how often the calendar writes each candidate short name, and apply this rule. It lists the result for you before anything changes.
