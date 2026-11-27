@@ -731,3 +731,9 @@ Question: the owner said on Nov. 25 that it seems absurd to exclude the famine f
 - The owner's words: "What's in the Soviet and Sino-Soviet batches now? How big are they? Where might we put them?"
 - Default taken (`notes/proposals/queue-2026-11-26.md`): plan batch A2 (the Sino-Soviet split, 72 readers) right after queue item 12, the China reading order, which holds part of the same scholarship; the first stage of A1 (the Soviet record, 61 readers) right after item 13, the DRV page cites; A1's histories and memoirs (154 readers) at the head of the plan's batches, after item 23.
 - To overrule: A1 whole after item 13, or both back at the head of the plan's batches.
+
+## 71. FRUS: the uncited documents surveyed, volume by volume (Nov. 26, 2026, about 10:07 p.m.)
+
+- The owner's words: "I adopt your recommendations in re: the queue. Have we ever done an inventory of uncited FRUS documents? It might make sense to conduct a volume-by-volume survey to see what we're missing, particularly in threads we've already read related literatures on (e.g., VN, the PRC, Cuba)." The first sentence confirms ruling 70.
+- Default taken (`notes/proposals/frus-survey.md`): a sorting script now (each uncited document matched against the calendar's entries of its days by person and thread: entry lacking its record, likely missing entry, routine), its note to the owner; then the reading, volume by volume, Sonnet then Opus, in sequence: Vietnam, China, Cuba and Laos right after queue item 13a; every other volume with its subject's batch of the reading plan, before that batch's books.
+- To overrule: another order, or the reading of only the matched documents (the record cited where the entry lacks it).
