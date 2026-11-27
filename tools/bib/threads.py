@@ -41,8 +41,6 @@ STYLE
  7. threads.html, the index: every thread with a page, in the thread index's order (th.yaml), by its full name
     ("Defense: McNamara to Clifford"), linked to its page; its statement for the whole span (its topic and its stations,
     as the calendar's pages give it: the owner, Nov. 23, 2026); its count (STYLE 9), a split thread's parts by span.
-    After the threads, the section "Places": a page a nation, State, province and city (placepages.py, STYLE 5; ruling
-    66, Nov. 26, 2026).
  8. Links in: each thread's entry in cal.html's list ("All entries", linked; a split thread's parts by span:
     index_link; not on the calendar's own pages, the owner, Nov. 23, 2026), the bar's 糸, the reader's drawer and
     home page.
@@ -250,11 +248,10 @@ def _end(kind, d):
     return nxt - datetime.timedelta(days=1)
 
 
-def plan_parts(slug, sizes, target, start=None, page=None):
+def plan_parts(slug, sizes, target, start=None):
     """[{page, from, label}]: the thread's entries [(date, bytes)] in parts within target (STYLE 6): a year a unit, a
     year over in quarters, a quarter over in months; units in a row packed while they fit. start: the first part's
-    `from` (a part planned again keeps its own). page: the page the parts are of, where not the thread's (a place's:
-    placepages.py, STYLE 4)."""
+    `from` (a part planned again keeps its own)."""
     by = {}
     for d, n in sizes:
         by.setdefault(unit_start("y", d), []).append((d, n))
@@ -283,7 +280,7 @@ def plan_parts(slug, sizes, target, start=None, page=None):
     out = []
     for i, p in enumerate(packs):
         frm = (start or p["lo"].isoformat()) if i == 0 else p["lo"].isoformat()
-        out.append({"page": f"{page or page_of(slug)}-{unit_code(p['kind'], p['lo'])}", "from": str(frm),
+        out.append({"page": f"{page_of(slug)}-{unit_code(p['kind'], p['lo'])}", "from": str(frm),
                     "label": label(p["lo"], p["hi"])})
     return out
 
@@ -357,9 +354,8 @@ def _rewrite(body, own):
     return HREF.sub(sub, body)
 
 
-def _days(series, lst, rows_by_place, text_html, thread_name, mark=None):
-    """The entries place by place, under the year's and the month's headings (STYLE 4). mark: an entry's words at the
-    head of its rubric, before its threads, or None (a place's page: placepages.py, STYLE 2)."""
+def _days(series, lst, rows_by_place, text_html, thread_name):
+    """The entries place by place, under the year's and the month's headings (STYLE 4)."""
     import calendar as C
     from . import build, daybook
     out, cur_y, cur_m, seen_ix = [], None, None, {}
@@ -367,11 +363,7 @@ def _days(series, lst, rows_by_place, text_html, thread_name, mark=None):
     def li(e, sub):
         hit = series.get(e["id"])
         sec = hit[1] if hit else None
-        rub = daybook.rubric(lst, e, thread_name)
-        m = mark(e) if mark else ""
-        if m:
-            rub = rub.replace('<span class="s rub">', f'<span class="s rub">{m} · ', 1)
-        h = build.entry_html(series, lst, sec, e, text_html, "", "", rub)
+        h = build.entry_html(series, lst, sec, e, text_html, "", "", daybook.rubric(lst, e, thread_name))
         h = h.replace(f'<li id="{esc(e["id"])}"', f'<li id="{PREFIX}{esc(e["id"])}"', 1)
         return daybook.sub_li(h) if sub else h
 
@@ -442,11 +434,11 @@ def store_plain(t):
     return plain(str(t))
 
 
-def _wrap(series, template, title, main, scripts="", src="threads"):
+def _wrap(series, template, title, main, scripts=""):
     from . import build, daybook, permalink, vispage
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", esc(title)).replace("{{main}}", vispage.fill("\n".join(main)))
-    pg = pg.replace("<head>", "<head>\n" + build.source_note(series, f"lists/cal/ ({src})"), 1)
+    pg = pg.replace("<head>", "<head>\n" + build.source_note(series, "lists/cal/ (threads)"), 1)
     pg = daybook.inject(pg)                  # the day's style, the footnotes', the dateline's
     pg = permalink.inject(pg)                # the permalink mark's style
     pg = vispage.inject(pg)                  # the visibility panel's assets
@@ -531,13 +523,9 @@ def index_page(series, template, lst):
             "date. A thread's subthreads are named at the head of its page, each with a page of its own. In the "
             "thread index's order. The threads in the calendar: "
             f'<a href="{esc(lst.key)}.html#th">the calendar\'s index</a>.</p>',
-            f'<p class="logic">{len(rows):,} threads. After them, <a href="#places">the places</a>.</p>',
+            f'<p class="logic">{len(rows):,} threads.</p>',
             '<ol class="e thx">' + "".join(rows) + "</ol>"]
-    from . import placepages                         # the section "Places" (placepages.py, STYLE 5)
-    places = placepages.index_section(series)
-    if not places:
-        main[2] = f'<p class="logic">{len(rows):,} threads.</p>'
-    return _wrap(series, template, "Threads", main + places)
+    return _wrap(series, template, "Threads", main)
 
 
 def pages_(series, linker, template, only=None):

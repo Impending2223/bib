@@ -337,13 +337,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     else:
         if fn_html:
             parts.append(fn_html)
-        where = ""
-        if lst.kind == "calendar":          # "Places:", before "Names:" (tools/bib/placepages.py, STYLE 7)
-            from . import placepages
-            where = placepages.line(e)
-        if n or where:
-            parts.append(f'<span class="n">{placepages.into_note(text_html(n, "n") if n else "", where)}</span>'
-                         if where else f'<span class="n">{text_html(n, "n")}</span>')
+        if n:
+            parts.append(f'<span class="n">{text_html(n, "n")}</span>')
     if rubric is not None and lst.kind == "calendar" and e.get("thread"):   # the Names pages too (lives.py, STYLE 9)
         prog = program_html(series, lst, e, year, text_html)
         if prog:
@@ -1387,7 +1382,7 @@ def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
     PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "china", "maps", "indicators",
-             "ebooks", "feeds", "threads", "places")
+             "ebooks", "feeds", "threads")
     for l in series.lists.values():       # the calendar's later parts are built with its first
         if which and l.kind == "calendar" and calsplit.cfg(l) and which in [p["page"] for p in calsplit.cfg(l)]:
             which = l.key
@@ -1554,18 +1549,10 @@ def run(series, which=None):
             path = os.path.join(OUT, name)
             smart.write(path, routed(page))
             written.append(path)
-    if which in (None, "threads", "places") and cal is not None:   # a page a thread (tools/bib/threads.py), a page
-        from . import placepages, threads                           # a place (tools/bib/placepages.py)
+    if which in (None, "threads") and cal is not None:   # a page a thread (tools/bib/threads.py)
+        from . import threads
         linker = linker or Linker(series)
-        tpl = os.path.join(TEMPLATES, "list.html")
-        if which in (None, "places"):        # first, so that the threads' index lists the parts the build divided
-            for name, page in placepages.pages_(series, linker, tpl):
-                path = os.path.join(OUT, name)
-                smart.write(path, routed(page))
-                written.append(path)
-        got = threads.pages_(series, linker, tpl) if which != "places" else [
-            (f"{threads.INDEX}.html", threads.index_page(series, tpl, cal))]   # the index alone: its "Places"
-        for name, page in got:
+        for name, page in threads.pages_(series, linker, os.path.join(TEMPLATES, "list.html")):
             path = os.path.join(OUT, name)
             smart.write(path, routed(page))
             written.append(path)

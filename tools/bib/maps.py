@@ -170,13 +170,12 @@ def data(d):
 
 # ---------------------------------------------------------------- a figure away from its map's page
 
-def figure(series, m, lo, hi, th=None, here=None, ids=None):
-    """The map m for the span lo to hi (dates), a thread's entries alone with `th`, or these entries alone with `ids`
-    (a place's page: placepages.py, STYLE 3): '' where the span holds no placed entry. here: the prefix of the page's
-    own anchors for the entries it holds ('' in the reader, 't-' on a thread's page), so that a list's link stays on
-    the page where it can; None on a calendar page."""
+def figure(series, m, lo, hi, th=None, here=None):
+    """The map m for the span lo to hi (dates), a thread's entries alone with `th`: '' where the span holds no placed
+    entry. here: the prefix of the page's own anchors for the entries it holds ('' in the reader, 't-' on a thread's
+    page), so that a list's link stays on the page where it can; None on a calendar page."""
     E = entries(series, m)
-    rows = [r for r in E["rows"] if (th is None or th in r["k"]) and (ids is None or r["_id"] in ids)]
+    rows = [r for r in E["rows"] if th is None or th in r["k"]]
     inn = within(rows, lo, hi)
     if not inn:
         return ""
@@ -184,8 +183,6 @@ def figure(series, m, lo, hi, th=None, here=None, ids=None):
     d = dict(m.DATA, eu={y: E["files"][y] for y in ys}, ys=ys, sp=[lo.isoformat(), hi.isoformat()], gz=m.PAGE)
     if th:
         d["th"] = th
-    if ids is not None:                  # the client shows these alone (vnmap.js, refresh)
-        d["ids"] = [r["_id"] for r in rows]
     if here is not None:
         d["here"] = here
     at = f"#y{lo.year}" if lo.year == hi.year else ""
