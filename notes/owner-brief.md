@@ -1552,3 +1552,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 11:15 pm PT.** (With a PDF: NARA record 178-10002-10352, Rockefeller Commission, Belin to the file, "Interview with Colonel Sheffield Edwards", Apr. 9, 1975, 11 pp.) "Is this the Sheffield Edwards item?"
 
 **Nov. 26, 2026, about 11:27 pm PT.** (With a zip, NARA record 157-10002-10048.) "Is this the Sheffield Edwards item?"
+
+**Nov. 27, 2026, about 11:18 am PT (Friday; marked "Immediate.", an exception to the pause).** "Immediate. Claude, the Chinese provinces named in the entries don't seem to be getting \"Place: province\" tags. Is that intended?"

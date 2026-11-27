@@ -254,3 +254,17 @@ def test_dateline_links_its_place(series, monkeypatch):
     assert "<a " not in h
     assert "closest('.dl a')" in dateline.SCRIPT                   # a tap follows the link
     pp.reset()
+
+
+def test_a_line_that_names_a_province_is_about_it(register, monkeypatch):
+    """The owner, Nov. 27, 2026: the Chinese provinces the entries name had no "Places:" link. A line that names a
+    province, in Pinyin or in characters, puts the entry on its page; Peking and Shanghai go by place only."""
+    units = dict(UNITS, hebei={"id": "hebei", "name": "Hebei", "c": "prc", "made_of": ["河北省"]},
+                 shanxi={"id": "shanxi", "name": "Shanxi", "c": "prc", "made_of": ["山西省"]},
+                 peking={"id": "peking", "name": "Peking", "c": "prc", "made_of": ["北京市"]})
+    monkeypatch.setattr(cnmap, "units", lambda: units)
+    assert pp.named_provinces("Mao in Hebei inspects the communes") == {"hebei"}
+    assert pp.named_provinces("the 河北 committee") == {"hebei"}
+    assert pp.named_provinces("Shaanxi and Shanxi") == {"shaanxi", "shanxi"}
+    assert pp.named_provinces("the Peking meeting") == set()
+    assert pp.named_provinces("Hebeian troops") == set()

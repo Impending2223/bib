@@ -24,7 +24,9 @@ STYLE
     a State's: those that took place in it (a `place:` row whose `st` is the State's) and those tagged for it: its
     `state:` tag (its postal code, or its gazetteer key), or the `city:` or `place:` tag of a place in it.
     a province's: those that took place in it (a `place:` key the map of China puts in the province: cnmap.placed's
-    points and units) and those tagged `province:<the unit>`.
+    points and units), those tagged `province:<the unit>`, and those whose line (`c`) names it, in Pinyin or in
+    characters (named_provinces; the owner, Nov. 27, 2026: the provinces the entries name had no "Places:" link; the
+    municipalities, Peking and Shanghai, by place only, since a line's "Peking" is the city).
     a city's: those whose `place:` is the city (a key or an alias of its row) or that carry its `city:` or `place:`
     tag.
  3. The page is a thread's page (threads.py): the same template and styles, the same day headings, year and month
@@ -160,6 +162,38 @@ def tag_row(tag):
     return places.get(k) if ns in ("city", "place") and k else None
 
 
+NAMED_SKIP = {"peking", "shanghai"}       # municipalities: a line's "Peking" is the city, its place's business
+
+
+def _province_patterns():
+    """[(unit id, compiled pattern)]: each PRC province's and region's name of 1966 as the calendar writes it (the
+    map's name, in Pinyin) and in characters (its `made_of` name less 省 or 自治区), the municipalities left out."""
+    from . import cnmap
+    out = []
+    for u in cnmap.units().values():
+        if u.get("c") != "prc" or u["id"] in NAMED_SKIP:
+            continue
+        names = [u["name"]] + [re.sub(r"(省|维吾尔自治区|回族自治区|壮族自治区|自治区)$", "", str(m))
+                                for m in (u.get("made_of") or [])]
+        alts = "|".join(re.escape(n) for n in names if n)
+        out.append((u["id"], re.compile(rf"(?<![A-Za-z])(?:{alts})(?![A-Za-z])")))
+    return out
+
+
+_PATS = None
+
+
+def named_provinces(text):
+    """The PRC provinces and regions a line names (STYLE 2): an entry that names Hebei is about Hebei, wherever it
+    took place."""
+    global _PATS
+    from . import cnmap
+    key = tuple(sorted(cnmap.units()))
+    if _PATS is None or _PATS[0] != key:                # the map's units, read once while they stay the same
+        _PATS = (key, _province_patterns())
+    return {pid for pid, pat in _PATS[1] if pat.search(text)}
+
+
 def where(series, lst, e):
     """What an entry is in (STYLE 2): {"there": {kind: set of slugs}, "tagged": {kind: set of slugs}}, kind one of
     nation, state, province, city; a nation's "tagged" its concern by the register."""
@@ -198,6 +232,7 @@ def where(series, lst, e):
                     tagged["state"].add(str(r["st"]).upper())
         elif ns == "province" and k in prov:
             tagged["province"].add(k)
+    tagged["province"] |= named_provinces(e.get("c") or "")      # the line names it (the owner, Nov. 27, 2026)
     date = vis.iso(e.get("date")) or "1960-01-01"
     addr = vis.address(lst, e, None, date)[0]
     tagged["nation"] = {q for p in addr if not vis.is_org(p) for q in _fold(p)}

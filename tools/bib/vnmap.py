@@ -483,12 +483,14 @@ def problems(series):
     out = []
     G, U = gazetteer(), units()
     lst = series.lists.get("cal")
+    from . import placepages
+    cn_units = set(placepages.provinces())       # `province:` names a PRC province of 1966 as well (placepages STYLE 2)
     if lst:
         for sec, e in lst.entries():
             for t in e.get("tags") or []:
                 if t.startswith("place:") and t[6:] not in G:
                     out.append((e["id"], f"{t}: no such place in sources/vn-provinces-1966/places.json"))
-                elif t.startswith("province:") and t[9:] not in U:
+                elif t.startswith("province:") and t[9:] not in U and t[9:] not in cn_units:   # a PRC province too
                     out.append((e["id"], f"{t}: no such 1966 unit in sources/vn-provinces-1966/provinces1966.geojson"))
     # the map's files: there, under the size limits, the vendored library whole
     total = 0
