@@ -387,15 +387,19 @@ entries:
     thread: elections-1960-kennedy
     follows:
       - cal.1960-09-02.elections-1960-kennedy-4
-    c: 'Kennedy, free of the Senate, opens his campaign by chartered jet from Friendship Airport, Baltimore, Friday afternoon.{1} Presque Isle, Maine, the airport rally: "I am delighted to start on this campaign, on this first day, in this county."{2}'
-    n: 'Remarks of Senator John F. Kennedy, Presque Isle, Maine, Airport Rally, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-presque-isle-maine-airport-rally) (Sept. 2, 1960). [[w.white-making-of-the-president]], 251–52 (the jet from Baltimore, Friday afternoon; Maine that evening; not Presque Isle by name); [[w.communications-freedom-of-communications-part]], 80–81 (Presque Isle, the airport rally, "on this first day"; not the jet or Baltimore). The order: after [[cal.1960-09-02.elections-1960-kennedy-4]], the printed order ([[w.communications-freedom-of-communications-part]], 78–80), and the Portland press conference, which asks about "your speech at Manchester this morning" (the same volume, 90). See [[cal.1960-07.elections-1960-4]]. Names: Kennedy. Check: the order of the Sept. 2 stops; [[w.communications-freedom-of-communications-part]] has Kennedy at Manchester, N.H., "it is proper to start here in New Hampshire" (79), at Presque Isle "on this first day" (80–81), and at Portland, Maine, in the evening: "We have traveled from Presque Isle, and we are going to speak tonight and go to Washington" (83).'
+    c: 'Presque Isle, Maine, the airport rally: "I am delighted to start on this campaign, on this first day, in this county."{2}'
+    n: 'Remarks of Senator John F. Kennedy, Presque Isle, Maine, Airport Rally, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-presque-isle-maine-airport-rally) (Sept. 2, 1960). [[w.white-making-of-the-president]], 251–52 (Friday evening in Maine; not Presque Isle by name); [[w.communications-freedom-of-communications-part]], 80–81 (Presque Isle, the airport rally, "on this first day"). The hour: "yesterday afternoon I campaigned in Aroostook County, Maine" (Kennedy at Palmer, Sept. 3, [[w.communications-freedom-of-communications-part]], 100). Split under R17: the take-off from Baltimore is [[cal.1960-09-02.elections-1960-kennedy-5]]. The order: after [[cal.1960-09-02.elections-1960-kennedy-4]], Manchester, which a reporter at the Portland press conference places "this morning" ([[w.communications-freedom-of-communications-part]], 90), against Presque Isle "yesterday afternoon" in Kennedy''s words at Palmer the next day (100); the printed order ([[w.communications-freedom-of-communications-part]], 78–80) agrees. See [[cal.1960-07.elections-1960-4]]. Names: Kennedy.'
     src:
-      c: 764d4f37
+      c: 9d395918
       rows:
         - 'https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-presque-isle-maine-airport-rally: 2'
-        - 'w.white-making-of-the-president 251–52: 1'
         - 'w.communications-freedom-of-communications-part 80–81: 2'
     tags: [name:kennedy-john-f, state:me, city:presque-isle]
+    time_band: afternoon
+    time_range:
+      - 1960-09-02T16:00Z
+      - 1960-09-02T22:00Z
+    time_zone: America/New_York
   - id: cal.1960-09-02.cuba
     when: Sept. 2, 8
     date: '1960-09-02'
@@ -467,8 +471,13 @@ entries:
     follows:
       - cal.1960-09-02.elections-1960-kennedy-2
     c: 'Portland, Maine, WGAN-TV. Kennedy''s press conference: his chances in Maine, the Passamaquoddy project, the Republican record on the minimum wage conference, and Khrushchev''s visit to the U.N.'
-    n: '[[w.communications-freedom-of-communications-part]], 83–91. The order: after [[cal.1960-09-02.elections-1960-kennedy-2]], the printed order alone ([[w.communications-freedom-of-communications-part]], 82–83). Names: Kennedy, Khrushchev.'
+    n: '[[w.communications-freedom-of-communications-part]], 83–91. The order: after [[cal.1960-09-02.elections-1960-kennedy-2]], the printed order alone ([[w.communications-freedom-of-communications-part]], 82–83). The hour: "Good evening, ladies and gentlemen" ([[w.communications-freedom-of-communications-part]], 83). Names: Kennedy, Khrushchev.'
     tags: [name:kennedy-john-f, name:khrushchev-nikita-s, state:me]
+    time_band: evening
+    time_range:
+      - 1960-09-02T23:00Z
+      - 1960-09-03T02:00Z
+    time_zone: America/New_York
   - id: cal.1960-09-02.elections-1960-kennedy-2
     when: Sept. 2
     date: '1960-09-02'
@@ -492,26 +501,38 @@ entries:
     follows:
       - cal.1960-09-02.elections-1960-kennedy
     c: Portland, Maine, Portland Stadium, the evening. Kennedy, on "the opening day of a long campaign," names Coffin, Oliver, Cormier and Donovan. To Anchorage the next day, back Sunday night, then Detroit.
-    n: 'Speech of Senator John F. Kennedy, Portland, Maine, Portland Stadium, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-portland-maine-portland-stadium) (Sept. 2, 1960). [[w.communications-freedom-of-communications-part]], 91–95. See [[cal.1960-09-02.elections-1960-kennedy]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy, Coffin.'
+    n: 'Speech of Senator John F. Kennedy, Portland, Maine, Portland Stadium, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-portland-maine-portland-stadium) (Sept. 2, 1960). [[w.communications-freedom-of-communications-part]], 91–95. The hour: "tonight" (Kennedy at the press conference, [[w.communications-freedom-of-communications-part]], 83): the evening. See [[cal.1960-09-02.elections-1960-kennedy]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy, Coffin.'
     src:
       c: 59c514ae
       rows:
         - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-portland-maine-portland-stadium: all'
         - 'w.communications-freedom-of-communications-part 91–95: ?'
     tags: [name:kennedy-john-f, name:coffin-frank-m, state:me, city:portland-me]
+    time_band: evening
+    time_range:
+      - 1960-09-02T23:00Z
+      - 1960-09-03T02:00Z
+    time_zone: America/New_York
   - id: cal.1960-09-02.elections-1960-kennedy-4
     when: Sept. 2
     date: '1960-09-02'
     place: manchester
     thread: elections-1960-kennedy
+    follows:
+      - cal.1960-09-02.elections-1960-kennedy-5
     c: 'Manchester, N.H., the airport rally. Kennedy: "This is really the beginning of this campaign." New Hampshire and Vermont the only New England States not yet in the Democratic column, "and they are going Democratic in November."'
-    n: 'Remarks of Senator John F. Kennedy, Manchester, NH, Airport Rally, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-manchester-nh-airport-rally) (Sept. 2, 1960). [[w.communications-freedom-of-communications-part]], 78–79. See [[cal.1960-09-02.elections-1960]], which holds the Check on the order of the day''s stops. Names: Kennedy.'
+    n: 'Remarks of Senator John F. Kennedy, Manchester, NH, Airport Rally, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-manchester-nh-airport-rally) (Sept. 2, 1960). [[w.communications-freedom-of-communications-part]], 78–79. The hour: "this morning," a reporter at the Portland press conference ([[w.communications-freedom-of-communications-part]], 90). The order: after [[cal.1960-09-02.elections-1960-kennedy-5]], the take-off from Baltimore that opens the day ([[w.white-making-of-the-president]], 251). See [[cal.1960-09-02.elections-1960]]. Names: Kennedy.'
     src:
       c: 2585df64
       rows:
         - 'https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-manchester-nh-airport-rally: all'
         - 'w.communications-freedom-of-communications-part 78–79: ?'
     tags: [name:kennedy-john-f, state:nh, city:manchester-nh]
+    time_band: morning
+    time_range:
+      - 1960-09-02T10:00Z
+      - 1960-09-02T16:00Z
+    time_zone: America/New_York
   - id: cal.1960-09-02.china-leadership
     when: Sept. 2
     date: '1960-09-02'
@@ -652,6 +673,14 @@ entries:
     c: 'Washington. The Democratic campaign organization begins quietly distributing, to party workers across the country and to voters who write in, a memorandum on Kennedy''s position on church and state: answers to the questions "frequently asked by fair-minded persons," from Kennedy''s speeches, among them his acceptance speech at Los Angeles, magazine articles and interviews, with the Constitution and the congressional oath. It takes up the separation of church and state, an Ambassador to the Vatican, aid to parochial schools, birth control, the Poling dinner, the Roman Catholic Church''s position and the Knights of Columbus oath. Nothing new on his position.'
     n: 'John W. Finney, "Democrats Issue Paper on Religion," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 14; "Text of Democratic Memorandum on Religion as Election Issue," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 15 (the text; the Democratic National Committee its circulator). Names: Kennedy.'
     tags: [name:kennedy-john-f]
+  - id: cal.1960-09-02.elections-1960-kennedy-5
+    when: Sept. 2
+    date: '1960-09-02'
+    place: baltimore
+    thread: elections-1960-kennedy
+    c: Baltimore, Friendship Airport. Kennedy, free of the Senate, takes off by chartered jet to open his campaign.
+    n: '[[w.white-making-of-the-president]], 251 (the take-off "on Friday afternoon, September 2nd"; Maine that evening). Split under R17: the Presque Isle airport rally is [[cal.1960-09-02.elections-1960]]. See [[cal.1960-09-02.elections-1960]]. Names: Kennedy. Check: the hour; White has the take-off Friday afternoon, but a reporter at the Portland press conference asks about the speech at Manchester "this morning" ([[w.communications-freedom-of-communications-part]], 90).'
+    tags: [name:kennedy-john-f, state:md, city:baltimore, ok:fields-time]
   - id: cal.1960-09-03.elections-1960
     when: Sept. 3
     date: '1960-09-03'
@@ -705,33 +734,38 @@ entries:
   - id: cal.1960-09-03.elections-1960-kennedy-4
     when: Sept. 3
     date: '1960-09-03'
+    time: 1960-09-04T03:30Z
     place: palmer
     thread: elections-1960-kennedy
     follows:
       - cal.1960-09-03.elections-1960-kennedy-2
     c: 'Palmer, Alaska, the fairgrounds, Saturday evening. Kennedy, "the first candidate for the Presidency to actively campaign in the State of Alaska": "I have come, I figure, about 3,000 miles per electoral vote."'
-    n: 'Speech of Senator John F. Kennedy, Fairgrounds, Palmer, Alaska, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-fairgrounds-palmer-alaska) (Sept. 3, 1960). [[w.communications-freedom-of-communications-part]], 100–01. See [[cal.1960-09-03.elections-1960-kennedy-2]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy.'
+    n: 'Speech of Senator John F. Kennedy, Fairgrounds, Palmer, Alaska, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-fairgrounds-palmer-alaska) (Sept. 3, 1960). [[w.communications-freedom-of-communications-part]], 100–01. The hour: "It is now 11:30 in Washington," and "I find myself tonight in one of the youngest cities of this country" ([[w.communications-freedom-of-communications-part]], 100): 11:30 p.m. at Washington, 5:30 p.m. at Palmer. See [[cal.1960-09-03.elections-1960-kennedy-2]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy.'
     src:
       c: d48a9a3e
       rows:
         - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-fairgrounds-palmer-alaska: all'
         - 'w.communications-freedom-of-communications-part 100–01: ?'
     tags: [name:kennedy-john-f, state:ak, city:palmer]
+    time_zone: America/Anchorage
   - id: cal.1960-09-03.elections-1960-kennedy-5
     when: Sept. 3
     date: '1960-09-03'
+    time: 1960-09-04T08:00Z
+    time_approx: true
     place: anchorage
     thread: elections-1960-kennedy
     follows:
       - cal.1960-09-03.elections-1960-kennedy-4
     c: 'Anchorage, Alaska, the Edgewater, late Saturday night: "4 o''clock in the morning for those of us living on eastern time." Kennedy keeps his word to the Alaska caucus to campaign there; the "new frontier" is "a state of mind." He greets Senators Bartlett and Gruening and Congressman Rivers.'
-    n: 'Speech of Senator John F. Kennedy, the Edgewater, Anchorage, AK, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-the-edgewater-anchorage-ak) (Sept. 3, 1960). [[w.communications-freedom-of-communications-part]], 101–05. See [[cal.1960-09-03.elections-1960-kennedy-4]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy, Bartlett, Gruening.'
+    n: 'Speech of Senator John F. Kennedy, the Edgewater, Anchorage, AK, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-the-edgewater-anchorage-ak) (Sept. 3, 1960). [[w.communications-freedom-of-communications-part]], 101–05. The hour: "it is now 4 o''clock in the morning for those of us living on eastern time"; Bartlett: "we started out about 9 o''clock in the morning from Baltimore" ([[w.communications-freedom-of-communications-part]], 101): 4 a.m. at Washington, about 10 p.m. at Anchorage. See [[cal.1960-09-03.elections-1960-kennedy-4]], [[cal.1960-09-02.elections-1960]]. Names: Kennedy, Bartlett, Gruening.'
     src:
       c: 69bcbfb1
       rows:
         - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-the-edgewater-anchorage-ak: all'
         - 'w.communications-freedom-of-communications-part 101–05: ?'
     tags: [name:kennedy-john-f, name:bartlett-edward-l, name:gruening-ernest, state:ak, city:anchorage]
+    time_zone: America/Anchorage
   - id: cal.1960-09-03.china-leadership
     when: Sept. 3
     date: '1960-09-03'
@@ -852,6 +886,14 @@ entries:
     c: Birmingham. Judge Grooms upholds the service of seven civil suits totaling $3,100,000 against the *New York Times*, over its articles of April on race relations in Birmingham.
     n: '"Times Will Appeal Ruling in Alabama," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the day.'
     tags: [state:al, city:birmingham, ok:name-untagged]
+  - id: cal.1960-09-03.latin-america
+    when: Sept. 3
+    date: '1960-09-03'
+    place: bogota
+    thread: latin-america
+    c: 'Bogotá. Dillon''s arrival statement for the Committee of 21: Colombia''s stand at the foreign ministers'' meeting in Costa Rica; Eisenhower has asked Congress for more money for social progress; "social progress will be accelerated throughout the hemisphere."'
+    n: '[[w.department-of-state-bulletin]], [Oct. 3, 1960, 540](https://archive.org/details/departmentofstat4360unit/page/540/mode/1up) (press release 511, Sept. 3). See [[cal.1960-08-30.latin-america]]. Names: Dillon, Eisenhower.'
+    tags: [name:dillon-c-douglas, name:eisenhower-dwight-d]
   - id: cal.1960-09-04.cuba
     when: Sept. 4
     date: '1960-09-04'
@@ -1042,21 +1084,6 @@ entries:
         - 'https://timesmachine.nytimes.com/timesmachine/1960/09/08/issue.html: ?'
         - 'https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html: 1'
     tags: [name:kasavubu-joseph, name:lumumba-patrice, name:ileo-joseph]
-  - id: cal.1960-09-05.latin-america
-    when: Sept. 5–6
-    date: '1960-09-05'
-    place: bogota
-    thread: latin-america
-    c: 'The OAS Committee of 21 at Bogotá. Dillon, Sept. 6, offers an inter-American program for social development: land, housing, schools, health.{1} Dillon speaks at the first plenary session of the meeting, the third in eighteen months of the OAS''s economic policy-making body; Julio César Turbay Ayala, Colombia''s Foreign Minister, presides. The program is "broad new social development"; a $500,000,000 fund "a first step."{2}'
-    n: 'Juan de Onís, "U.S. Tells Latins of Plan to Widen Development Aid," [*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html), at 1, 5 (not the Committee of 21 by name, nor land, housing, schools and health as such). FRUS 1958–60, V, microfiche supp., docs. [ETA–48](https://history.state.gov/historicaldocuments/frus1958-60v05mSupp/eta_d48), [ETA–49](https://history.state.gov/historicaldocuments/frus1958-60v05mSupp/eta_d49) (instructions, Sept. 2). Dillon''s statement: [[w.department-of-state-bulletin]], [Oct. 3, 1960, 533](https://archive.org/details/departmentofstat4360unit/page/533/mode/1up). To check: [[w.rabe-eisenhower-and-latin-america]]; [[w.taffet-foreign-aid-as-foreign]]; [[w.levinson-alliance-that-lost-its]]; [[w.rabe-most-dangerous-area-in]]. Names: Dillon, Turbay Ayala.'
-    src:
-      c: eff31bc8
-      rows:
-        - 'https://history.state.gov/historicaldocuments/frus1958-60v05mSupp/eta_d48: 1'
-        - 'https://archive.org/details/departmentofstat4360unit/page/533/mode/1up: 1'
-        - 'https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html: 2'
-    tags: [name:dillon-c-douglas, name:turbay-ayala-julio-cesar]
-    short: the Act of Bogotá
   - id: cal.1960-09-05.elections-1960
     when: Sept. 5
     date: '1960-09-05'
@@ -1417,6 +1444,13 @@ entries:
     c: 'De Gaulle, at his news conference, on NATO: integration was arranged ten years ago; "Everything is commanded by Americans, and it is the Americans who dispose of utilization of the principal arms, that is to say, atomic." He proposes to undo integration and return to an alliance of national forces, and asks a French voice in the use of the nuclear weapons NATO wishes to store on French soil.'
     n: 'Dana Adams Schmidt, "Revision of NATO Rejected by U.S.," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html). Check: the place and the words, from a later report. Names: de Gaulle.'
     tags: [name:de-gaulle-charles, polity:fr, polity:nato, ok:fields-place]
+  - id: cal.1960-09-05.latin-america-3
+    when: Sept. 5
+    date: '1960-09-05'
+    place: bogota
+    thread: latin-america
+    c: Bogotá. The third meeting of the OAS Committee of 21 convenes; it sits to Sept. 13.
+    n: '[[w.department-of-state-bulletin]], [Oct. 3, 1960, 533](https://archive.org/details/departmentofstat4360unit/page/533/mode/1up) (the Committee convened at Bogotá Sept. 5–13). See [[cal.1960-09-03.latin-america]].'
   - id: cal.1960-09-06.elections-1960
     when: Sept. 6
     date: '1960-09-06'
@@ -1643,6 +1677,8 @@ entries:
     date: '1960-09-06'
     place: bogota
     thread: latin-america
+    follows:
+      - cal.1960-09-05.latin-america
     c: 'Bogotá, the first plenary session of the inter-American economic meeting. Oscar Pino Salas of Cuba, after Dillon''s statement, which won loud applause from the other delegates: it is "nothing more than a ratification of the basic position of North American imperialism toward Latin America."'
     n: 'Juan de Onís, "U.S. Tells Latins of Plan to Widen Development Aid," [*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html), at 1, 5. See [[cal.1960-09-05.latin-america]]. Names: Dillon.'
     tags: [name:dillon-c-douglas]
@@ -1892,6 +1928,21 @@ entries:
     c: 'The Fifth Circuit affirms Judge Connally''s Houston order, the school board''s appeal heard at once: *Houston Independent School District v. Ross*, 282 F.2d 95.'
     n: '*Ross v. Dyer*, [312 F.2d 191](https://static.case.law/f2d/312/case-pdfs/0191-01.pdf), 193 (5th Cir. 1962) (the appeal and the affirmance, Sept. 6, 1960). To check: *Houston Independent School District v. Ross*, 282 F.2d 95 (5th Cir. 1960). See [[cal.1960-08-12.desegregation-schools]]. Names: Ben C. Connally.'
     tags: [state:tx, city:houston, name:connally-ben-c, ok:fields-place]
+  - id: cal.1960-09-05.latin-america
+    when: Sept. 6
+    date: '1960-09-06'
+    place: bogota
+    thread: latin-america
+    c: 'Bogotá, the OAS Committee of 21. Dillon offers an inter-American program for social development: land, housing, schools, health.{1} Dillon speaks at the first plenary session of the meeting, the third in eighteen months of the OAS''s economic policy-making body; Julio César Turbay Ayala, Colombia''s Foreign Minister, presides. The program is "broad new social development"; a $500,000,000 fund "a first step."{2}'
+    n: 'Juan de Onís, "U.S. Tells Latins of Plan to Widen Development Aid," [*New York Times*, Sept. 7, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html), at 1, 5 (not the Committee of 21 by name, nor land, housing, schools and health as such). FRUS 1958–60, V, microfiche supp., docs. [ETA–48](https://history.state.gov/historicaldocuments/frus1958-60v05mSupp/eta_d48), [ETA–49](https://history.state.gov/historicaldocuments/frus1958-60v05mSupp/eta_d49) (instructions, Sept. 2). Dillon''s statement: [[w.department-of-state-bulletin]], [Oct. 3, 1960, 533](https://archive.org/details/departmentofstat4360unit/page/533/mode/1up) (the Committee convened Sept. 5–13; Dillon''s statement "on September 6," press release 513, dated Sept. 6). To check: [[w.rabe-eisenhower-and-latin-america]]; [[w.taffet-foreign-aid-as-foreign]]; [[w.levinson-alliance-that-lost-its]]; [[w.rabe-most-dangerous-area-in]]. See [[cal.1960-09-05.latin-america-3]]. Names: Dillon, Turbay Ayala.'
+    src:
+      c: 7e455115
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1958-60v05mSupp/eta_d48: 1'
+        - 'https://archive.org/details/departmentofstat4360unit/page/533/mode/1up: 1'
+        - 'https://timesmachine.nytimes.com/timesmachine/1960/09/07/issue.html: 2'
+    tags: [name:dillon-c-douglas, name:turbay-ayala-julio-cesar]
+    short: the Act of Bogotá
   - id: cal.1960-09-07.congo
     when: Sept. 7
     date: '1960-09-07'
@@ -2778,17 +2829,19 @@ entries:
   - id: cal.1960-09-08.elections-1960-kennedy-10
     when: Sept. 8
     date: '1960-09-08'
+    time: 1960-09-08T15:45Z
     place: dunsmuir
     thread: elections-1960-kennedy
-    c: 'Dunsmuir, Calif., from the rear platform of his train, at six in the morning, with Governor Brown.{1} Kennedy: "We start this campaign in this State this morning"; he will be "all over it in the next few days" and come back in October.{2}'
-    n: 'Rear Platform Remarks of Senator John F. Kennedy, Dunsmuir, CA, [APP](https://www.presidency.ucsb.edu/documents/rear-platform-remarks-senator-john-f-kennedy-dunsmuir-ca) (Sept. 8, 1960). [[w.white-making-of-the-president]], 256 (the train from Portland the evening before; the crowd risen at six; not Brown or the words); [[w.communications-freedom-of-communications-part]], 163. Check: the hour: the *Times*, Sept. 9, 1960, at 1, 16, has Kennedy''s speech-making day begin at 8:45 a.m. at Dunsmuir, against six in the morning in the line. See [[cal.1960-09-02.elections-1960]]. Names: Kennedy, Brown.'
+    c: 'Dunsmuir, Calif., from the rear platform of his train, at 8:45 a.m., with Governor Brown.{1} Kennedy: "We start this campaign in this State this morning"; he will be "all over it in the next few days" and come back in October.{2}'
+    n: 'Rear Platform Remarks of Senator John F. Kennedy, Dunsmuir, CA, [APP](https://www.presidency.ucsb.edu/documents/rear-platform-remarks-senator-john-f-kennedy-dunsmuir-ca) (Sept. 8, 1960). [[w.white-making-of-the-president]], 256 (the train from Portland the evening before; the crowd risen at six; not Brown or the words); [[w.communications-freedom-of-communications-part]], 163. W. H. Lawrence, "Kennedy Reverts to Old-Fashioned Whistle-Stop Tour in California," [*New York Times*, Sept. 9, 1960](https://timesmachine.nytimes.com/timesmachine/1960/09/09/issue.html), at 1, 16 (the speech-making day "began at 8:45 A. M. in Dunsmuir"). The hour: the *Times*; White''s six in the morning is when the little knot of people "had risen" ([[w.white-making-of-the-president]], 256), not the speech. See [[cal.1960-09-02.elections-1960]]. Names: Kennedy, Brown.'
     src:
-      c: 7a5857d8
+      c: a0e3b83a
       rows:
         - 'https://www.presidency.ucsb.edu/documents/rear-platform-remarks-senator-john-f-kennedy-dunsmuir-ca: 2'
         - 'w.white-making-of-the-president 256: 1'
         - 'w.communications-freedom-of-communications-part 163: 2'
     tags: [name:kennedy-john-f, name:brown-edmund-g, state:ca, city:dunsmuir]
+    time_zone: America/Los_Angeles
   - id: cal.1960-09-08.elections-1960-kennedy-8
     when: Sept. 8
     date: '1960-09-08'
@@ -3676,18 +3729,24 @@ entries:
   - id: cal.1960-09-09.elections-1960-religion
     when: Sept. 9
     date: '1960-09-09'
+    place: burbank
     thread: elections-1960-religion
     also: [elections-1960-kennedy]
     follows:
       - cal.1960-09-09.elections-1960-kennedy-9
     c: 'Los Angeles, the afternoon. Kennedy''s press conference, a tense exchange of questions on religion, ended by one on the expected child: "How do you know it''s going to be a boy?" Kennedy: "My wife told me." On the stump since Eugene, Ore., two days before, his wife''s absence explained by her pregnancy.'
-    n: 'Press Conference of Senator John F. Kennedy, Lockheed Air Terminal, Burbank, CA, [APP](https://www.presidency.ucsb.edu/documents/press-conference-senator-john-f-kennedy-lockheed-air-terminal-burbank-ca) (Sept. 9, 1960). [[w.white-making-of-the-president]], 255–56; [[w.communications-freedom-of-communications-part]], 182–87 (Kennedy''s press conference at the Lockheed Air Terminal, Burbank, Sept. 9; the questions on Peale and religion, 183–84; the expected child, 185; not the hour). Check: whether White''s press conference "that afternoon in Los Angeles" is APP''s at the Burbank air terminal (not read). Check: the words and the order; [[w.communications-freedom-of-communications-part]], 185 prints Kennedy: "She told me. You would have to ask her.", and further questions after it, on the draft, Governor Brown''s forecast and Nixon (185–87). See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+    n: 'Press Conference of Senator John F. Kennedy, Lockheed Air Terminal, Burbank, CA, [APP](https://www.presidency.ucsb.edu/documents/press-conference-senator-john-f-kennedy-lockheed-air-terminal-burbank-ca) (Sept. 9, 1960). [[w.white-making-of-the-president]], 255–56; [[w.communications-freedom-of-communications-part]], 182–87 (Kennedy''s press conference at the Lockheed Air Terminal, Burbank, Sept. 9; the questions on Peale and religion, 183–84; the expected child, 185; not the hour). The hour: "that afternoon in Los Angeles," the press-conference question on the expected child and the answer "My wife told me" ([[w.white-making-of-the-president]], 256), the exchange at [[w.communications-freedom-of-communications-part]], 185. Check: the words and the order; [[w.communications-freedom-of-communications-part]], 185 prints Kennedy: "She told me. You would have to ask her.", and further questions after it, on the draft, Governor Brown''s forecast and Nixon (185–87). See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
     src:
       c: 0d36272e
       rows:
         - 'w.white-making-of-the-president 255–56: all'
         - 'w.communications-freedom-of-communications-part 182–87: ?'
     tags: [name:kennedy-john-f]
+    time_band: afternoon
+    time_range:
+      - 1960-09-09T19:00Z
+      - 1960-09-10T01:00Z
+    time_zone: America/Los_Angeles
   - id: cal.1960-09-09.elections-1960-kennedy
     when: Sept. 9
     date: '1960-09-09'
@@ -3756,7 +3815,7 @@ entries:
     follows:
       - cal.1960-09-09.elections-1960-kennedy-2
     c: Turlock, Calif., rear platform. "If I am elected this country is going back to work again."
-    n: '[[w.communications-freedom-of-communications-part]], 182. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+    n: '[[w.communications-freedom-of-communications-part]], 182. The order: after [[cal.1960-09-09.elections-1960-kennedy-2]], Modesto, by the route and by the Congressman named: McFall, whom Kennedy names at Stockton ([[w.communications-freedom-of-communications-part]], 175) and Turlock (182), not Sisk, named at Merced and Fresno (177, 178); the volume prints Turlock after Tulare (180), out of place. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
     tags: [name:kennedy-john-f, state:ca]
   - id: cal.1960-09-09.elections-1960-kennedy-8
     when: Sept. 9
@@ -3765,8 +3824,9 @@ entries:
     thread: elections-1960-kennedy
     follows:
       - cal.1960-09-09.elections-1960-kennedy-9
+      - cal.1960-09-09.elections-1960-religion
     c: 'Burbank, Calif., Lockheed Air Terminal. Kennedy: "I was nominated in the city of Los Angeles and you cannot possibly stop now."'
-    n: '[[w.communications-freedom-of-communications-part]], 187–188. See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
+    n: '[[w.communications-freedom-of-communications-part]], 187–188. The order: after [[cal.1960-09-09.elections-1960-religion]], the printed order alone ([[w.communications-freedom-of-communications-part]], 182, 187). See [[cal.1960-09-08.elections-1960-kennedy-10]]. Names: Kennedy.'
     tags: [name:kennedy-john-f, state:ca]
   - id: cal.1960-09-09.elections-1960-kennedy-9
     when: Sept. 9
@@ -3814,7 +3874,7 @@ entries:
     follows:
       - cal.1960-09-09.elections-1960-kennedy-11
     c: 'Los Angeles, the Shrine Auditorium, the evening.{1} Kennedy leaves his text on civil rights for an extemporaneous speech: "I have come 3,000 miles and I am not chasing butterflies. I am here asking for your support."{2}'
-    n: 'Speech of Senator John F. Kennedy, Shrine Auditorium, Los Angeles, CA, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-shrine-auditorium-los-angeles-ca) (Sept. 9, 1960). [[w.white-making-of-the-president]], 257–58; [[w.communications-freedom-of-communications-part]], 189–90 (the Shrine Auditorium, 189; the words at 190; not leaving his text). See [[cal.1960-09-08.elections-1960-kennedy-10]], [[cal.1960-09-09.elections-1960-kennedy-11]]. Names: Kennedy. Check: the words; [[w.communications-freedom-of-communications-part]], 190 prints "I have come 3,000 miles and I am not chasing butterflies.". [[w.white-making-of-the-president]], 257, has "I have come here three thousand miles and I am not chasing butterflies."'
+    n: 'Speech of Senator John F. Kennedy, Shrine Auditorium, Los Angeles, CA, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-shrine-auditorium-los-angeles-ca) (Sept. 9, 1960). [[w.white-making-of-the-president]], 257–58; [[w.communications-freedom-of-communications-part]], 189–90 (the Shrine Auditorium, 189; the words at 190; not leaving his text). The hour: "We will speak here tonight" (Kennedy at the Burbank press conference, [[w.communications-freedom-of-communications-part]], 183): the evening. See [[cal.1960-09-08.elections-1960-kennedy-10]], [[cal.1960-09-09.elections-1960-kennedy-11]]. Names: Kennedy. Check: the words; [[w.communications-freedom-of-communications-part]], 190 prints "I have come 3,000 miles and I am not chasing butterflies.". [[w.white-making-of-the-president]], 257, has "I have come here three thousand miles and I am not chasing butterflies."'
     src:
       c: 03683326
       rows:
@@ -3823,6 +3883,11 @@ entries:
         - 'via w.white-making-of-the-president 258 n.4: 2'
         - 'w.communications-freedom-of-communications-part 189–90: 2'
     tags: [name:kennedy-john-f, state:ca, city:los-angeles]
+    time_band: evening
+    time_range:
+      - 1960-09-10T02:00Z
+      - 1960-09-10T05:00Z
+    time_zone: America/Los_Angeles
   - id: cal.1960-09-09.china-leadership
     when: Sept. 9
     date: '1960-09-09'
@@ -4314,8 +4379,13 @@ entries:
     follows:
       - cal.1960-09-11.elections-1960-kennedy-2
     c: 'El Paso, Tex., the airport, late at night, more than twenty thousand at the plane, to the amazement of Rayburn, who is with them. Johnson boards with newspaper clippings of what a Kennedy advance man, whom the authors call "Pete Reynolds," told El Paso reporters: "Kennedy is more popular down here than Johnson, and he needs us in Texas more than we need him." Kennedy hands the clippings to O''Donnell, who tells the man to take the next plane out. Johnson talks of him to O''Donnell until five in the morning; at breakfast: "I was too busy thinking about that feller you brought down here from Boston."'
-    n: '[[w.odonnell-johnny-we-hardly-knew]], 230–31 (O''Donnell''s and Powers''s account). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Johnson, Kennedy, O''Donnell, Rayburn. "Pete Reynolds" is not the man''s name, the authors say (230).'
+    n: '[[w.odonnell-johnny-we-hardly-knew]], 230–31 (O''Donnell''s and Powers''s account). The hour: Kennedy the next morning at the Cortez Hotel breakfast: "the reception last night at the airport" ([[w.communications-freedom-of-communications-part]], 197); the line''s "late at night" is the book''s. "Pete Reynolds" is not the man''s name, the authors say (230). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Johnson, Kennedy, O''Donnell, Rayburn.'
     tags: [name:johnson-lyndon-b, name:kennedy-john-f, name:odonnell-kenneth-p, name:rayburn-sam, state:tx]
+    time_band: night
+    time_range:
+      - 1960-09-12T05:00Z
+      - 1960-09-12T07:00Z
+    time_zone: America/Denver
   - id: cal.1960-09-11.china-leadership
     when: Sept. 11–12
     date: '1960-09-11'
@@ -4584,8 +4654,13 @@ entries:
     thread: elections-1960-kennedy
     also: [latin-america]
     c: 'El Paso, Tex., breakfast at the Cortez Hotel, after Johnson''s speech. Kennedy: the Administration "almost ignored Latin America" until the last six months.'
-    n: '[[w.communications-freedom-of-communications-part]], 197–198. See [[cal.1960-09-12.elections-1960]]. Names: Kennedy, Johnson.'
+    n: '[[w.communications-freedom-of-communications-part]], 197–198. The hour: "the breakfast this morning" ([[w.communications-freedom-of-communications-part]], 197). See [[cal.1960-09-12.elections-1960]]. Names: Kennedy, Johnson.'
     tags: [name:kennedy-john-f, name:johnson-lyndon-b, state:tx]
+    time_band: morning
+    time_range:
+      - 1960-09-12T13:00Z
+      - 1960-09-12T19:00Z
+    time_zone: America/Denver
   - id: cal.1960-09-12.elections-1960-kennedy-2
     when: Sept. 12
     date: '1960-09-12'
@@ -5031,9 +5106,9 @@ entries:
     place: st-louis
     thread: elections-1960-kennedy
     follows:
-      - cal.1960-09-13.elections-1960-kennedy-4
+      - cal.1960-09-13.elections-1960-kennedy-8
     c: St. Louis, the airport. Kennedy speaks briefly.
-    n: '[[w.communications-freedom-of-communications-part]], 227 (the report''s note; the remarks unavailable). Names: Kennedy.'
+    n: '[[w.communications-freedom-of-communications-part]], 227 (the report''s note; the remarks unavailable). The order: after [[cal.1960-09-13.elections-1960-kennedy-8]], the printed order alone ([[w.communications-freedom-of-communications-part]], 226–27). Names: Kennedy.'
     tags: [name:kennedy-john-f, state:mo, city:st-louis]
   - id: cal.1960-09-13.china-leadership
     when: Sept. 13
@@ -5236,6 +5311,16 @@ entries:
     c: Zhu De 朱德 presides at the twenty-ninth session of the Standing Committee of the Second National People's Congress 第二届全国人大常委会. It names Zhou Enlai 周恩来 plenipotentiary to sign the Treaty of Friendship with the Republic of Guinea, approves the Treaty of Friendship and Mutual Non-Aggression with the Kingdom of Afghanistan, and sets up the Third Ministry of Machine Building 第三机械工业部.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1782. Names: Zhu De, Zhou Enlai.'
     tags: [polity:prc, polity:guinea, polity:afghanistan, name:zhu-de, name:zhou-enlai]
+  - id: cal.1960-09-13.elections-1960-kennedy-8
+    when: Sept. 13
+    date: '1960-09-13'
+    place: texarkana
+    thread: elections-1960-kennedy
+    follows:
+      - cal.1960-09-13.elections-1960-kennedy-4
+    c: 'Texarkana, Ark.-Tex., the fairgrounds, with Patman and Rayburn. Kennedy, at the fair at Patman''s invitation: "I come to this State on this occasion as the Democratic standard bearer." Boston, Tex., and Boston, Mass., "only a few inches apart"; of a President''s letter of a hundred years before: "we see the storm coming."'
+    n: '[[w.communications-freedom-of-communications-part]], 226–27 (Kennedy: "Yesterday I was shown the Alamo"; the text follows the Dallas speech and precedes the note on the St. Louis airport). The order: after [[cal.1960-09-13.elections-1960-kennedy-4]], the printed order alone ([[w.communications-freedom-of-communications-part]], 223–26). See [[cal.1960-09.elections-1960-6]], [[cal.1960-09-13.elections-1960-kennedy-4]]. Names: Kennedy, Patman, Rayburn. Check: whether [[cal.1960-09.elections-1960-6]] (Woods: the Arkansas delegation turns out for Kennedy, McClellan in the lead; its note cites this page) is this appearance.'
+    tags: [name:kennedy-john-f, name:patman-wright, name:rayburn-sam, state:ar, state:tx, city:texarkana]
   - id: cal.1960-09-14.congo
     when: Sept. 14
     date: '1960-09-14'
@@ -5264,15 +5349,21 @@ entries:
     thread: elections-1960-kennedy
     follows:
       - cal.1960-09-14.elections-1960-kennedy-2
-    c: New York.{1} Kennedy's speech to the Liberal Party, Schlesinger's hand in it.{2}
-    n: '[[w.schlesinger-thousand-days-1965]], 70, by Schlesinger''s account; [[w.communications-freedom-of-communications-part]], 238–41 (Kennedy''s speech accepting the Liberal Party''s nomination, Commodore Hotel, New York; not Schlesinger''s hand in it); [[w.schlesinger-journals]], 89 (the Liberal Party banquet of Sept. 14: both Kennedy and Stevenson asked Schlesinger for their speeches that night and he wrote both, "a fact I have carefully kept secret"; Stevenson''s speech "a great success in the evening, but so was Kennedy''s"). The order: after [[cal.1960-09-14.elections-1960-kennedy-2]], the printed order alone ([[w.communications-freedom-of-communications-part]], 235–38). To check: Speech of Senator John F. Kennedy, Commodore Hotel, New York, NY, Acceptance of Party Nomination, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-commodore-hotel-new-york-ny-acceptance-party-nomination). See [[cal.1960-07-15.elections-1960]]. Names: Kennedy, Schlesinger.'
+    c: 'New York.{1} The Commodore Hotel: Kennedy accepts the Liberal Party''s nomination; Niebuhr, Stevenson and Meany present.{3} Kennedy''s speech to the Liberal Party, Schlesinger''s hand in it.{2}'
+    n: '[[w.schlesinger-thousand-days-1965]], 70, by Schlesinger''s account; [[w.communications-freedom-of-communications-part]], 238–41 (Kennedy''s speech accepting the Liberal Party''s nomination, Commodore Hotel, New York; not Schlesinger''s hand in it); [[w.schlesinger-journals]], 89 (the Liberal Party banquet of Sept. 14: both Kennedy and Stevenson asked Schlesinger for their speeches that night and he wrote both, "a fact I have carefully kept secret"; Stevenson''s speech "a great success in the evening, but so was Kennedy''s"); [[w.communications-freedom-of-communications-part]], 238–39. The order: after [[cal.1960-09-14.elections-1960-kennedy-2]], the printed order alone ([[w.communications-freedom-of-communications-part]], 235–38). The hour: "tonight" (Kennedy at the Commodore Hotel, [[w.communications-freedom-of-communications-part]], 239, 241): the evening. To check: Speech of Senator John F. Kennedy, Commodore Hotel, New York, NY, Acceptance of Party Nomination, [APP](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-commodore-hotel-new-york-ny-acceptance-party-nomination). See [[cal.1960-07-15.elections-1960]]. Names: Kennedy, Schlesinger, Stevenson, Meany.'
     src:
-      c: 756a4b1d
+      c: 3901947e
       rows:
         - 'w.schlesinger-thousand-days-1965 70: 1, 2'
         - 'w.communications-freedom-of-communications-part 238–41: 1'
         - 'w.schlesinger-journals 89: 2'
-    tags: [name:kennedy-john-f, name:schlesinger-arthur-m-jr]
+        - 'w.communications-freedom-of-communications-part 238–39: 3'
+    tags: [name:kennedy-john-f, name:schlesinger-arthur-m-jr, name:stevenson-adlai-e, name:meany-george]
+    time_band: evening
+    time_range:
+      - 1960-09-14T23:00Z
+      - 1960-09-15T02:00Z
+    time_zone: America/New_York
   - id: cal.1960-09-14.opinion
     when: Sept. 14
     date: '1960-09-14'
@@ -5310,15 +5401,14 @@ entries:
     date: '1960-09-14'
     place: grand-forks-nd
     thread: elections-1960-nixon
-    c: Grand Forks, N.D., at noon;{1} a cold caught on the flight to Peoria, Ill., and a rally at Bradley University's field house.{2} St. Louis after eleven, 5,000 at the airport;{3} work on the Machinists speech.{4} At 3:30 a.m. a fever over 103, by Dr. Lungren's reading.{5}
-    n: 'Remarks of Vice President Richard M. Nixon, University of North Dakota Field House, Grand Forks, ND, [APP](https://www.presidency.ucsb.edu/documents/remarks-vice-president-richard-m-nixon-university-north-dakota-field-house-grand-forks-nd); Press Conference of Vice President Richard M. Nixon, WMBD-TV Studios, Peoria, IL, [APP](https://www.presidency.ucsb.edu/documents/press-conference-vice-president-richard-m-nixon-wmbd-tv-studios-peoria-il) (Sept. 14, 1960). [[w.nixon-six-crises]], 331 (the stops; the fever). [[w.white-making-of-the-president]], 273–74 (the cold; the work on the labor speech to three). See [[cal.1960-09-13.elections-1960]]. Names: Nixon. Check: White gives a cold, Nixon a fever, probably flu.'
+    c: Grand Forks, N.D., at noon.{1}
+    n: 'Remarks of Vice President Richard M. Nixon, University of North Dakota Field House, Grand Forks, ND, [APP](https://www.presidency.ucsb.edu/documents/remarks-vice-president-richard-m-nixon-university-north-dakota-field-house-grand-forks-nd) (Sept. 14, 1960). [[w.nixon-six-crises]], 331 ("a noontime stop at Grand Forks"); [[w.white-making-of-the-president]], 273–74 (Grand Forks to Peoria, Wednesday). Split under R17: Peoria is [[cal.1960-09-14.elections-1960-nixon]] (the rally) and [[cal.1960-09-14.elections-1960-nixon-2]] (the press conference); St. Louis, [[cal.1960-09-14.elections-1960-nixon-3]] (the airport) and [[cal.1960-09-14.elections-1960-nixon-4]] (the hotel); the fever of Sept. 15 is [[cal.1960-09-15.elections-1960-nixon]]. See [[cal.1960-09-13.elections-1960]]. Names: Nixon. Check: the hour; Nixon has a "noontime stop," while the speaker who introduces him at the field house (APP) and a reporter at Peoria say "this afternoon."'
     src:
-      c: 2d66762b
+      c: c79274b7
       rows:
         - 'https://www.presidency.ucsb.edu/documents/remarks-vice-president-richard-m-nixon-university-north-dakota-field-house-grand-forks-nd: 1'
-        - 'https://www.presidency.ucsb.edu/documents/press-conference-vice-president-richard-m-nixon-wmbd-tv-studios-peoria-il: 1'
-        - 'w.nixon-six-crises 331: 1, 2, 4'
-        - 'w.white-making-of-the-president 273–74: 1, 2, 3'
+        - 'w.nixon-six-crises 331: 1'
+        - 'w.white-making-of-the-president 273–74: 1'
     tags: [name:nixon-richard-m]
     time_range:
       - 1960-09-14T17:00Z
@@ -5331,8 +5421,13 @@ entries:
     thread: labor
     also: [elections-1960-kennedy]
     c: 'St. Louis, Kiel Auditorium, the morning. Kennedy to the Machinists'' convention: the two parties'' records; the minimum wage and medical care for the aged.'
-    n: '[[w.communications-freedom-of-communications-part]], 227–230. Names: Kennedy.'
+    n: '[[w.communications-freedom-of-communications-part]], 227–230. The hour: "this morning" (Kennedy, [[w.communications-freedom-of-communications-part]], 228). Names: Kennedy.'
     tags: [name:kennedy-john-f, state:mo, city:st-louis]
+    time_band: morning
+    time_range:
+      - 1960-09-14T11:00Z
+      - 1960-09-14T17:00Z
+    time_zone: America/Chicago
   - id: cal.1960-09-14.elections-1960-kennedy
     when: Sept. 14
     date: '1960-09-14'
@@ -5580,12 +5675,87 @@ entries:
     c: 'The Center 中共中央 forwards and agrees with Xi Zhongxun''s 习仲勋 report of Sept. 3 on the organs and staff of the Center''s departments and their streamlining 《关于中央各部门机构编制情况和精简意见的报告》: organs to be cut and staff reduced in every department.'
     n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 571–580 (the comment, 571; the report, 572–580, a passage left out by the editors, n.1; printed from the Center''s document). Made public: 1996. See [[cal.1960-09-03.china-leadership-7]]. Names: Xi Zhongxun.'
     tags: [polity:prc, vis:only:prc, name:xi-zhongxun]
+  - id: cal.1960-09-14.elections-1960-nixon
+    when: Sept. 14
+    date: '1960-09-14'
+    place: peoria
+    thread: elections-1960-nixon
+    follows:
+      - cal.1960-09-14.elections-1960-3
+    c: Peoria, Ill., the Bradley University field house. Nixon speaks at an evening rally, with a cold caught on the flight from Grand Forks.
+    n: '[[w.nixon-six-crises]], 331 ("an evening rally at the Bradley University Field House in Peoria"); [[w.white-making-of-the-president]], 273–74 (the cold caught on the flight from Grand Forks to Peoria). The hour: "evening" ([[w.nixon-six-crises]], 331). See [[cal.1960-09-14.elections-1960-3]]. Names: Nixon.'
+    tags: [name:nixon-richard-m, state:il, city:peoria]
+    time_band: evening
+    time_range:
+      - 1960-09-15T00:00Z
+      - 1960-09-15T03:00Z
+    time_zone: America/Chicago
+  - id: cal.1960-09-14.elections-1960-nixon-2
+    when: Sept. 14
+    date: '1960-09-14'
+    place: peoria
+    thread: elections-1960-nixon
+    follows:
+      - cal.1960-09-14.elections-1960-3
+    c: 'Peoria, the WMBD-TV studios. Nixon''s press conference. On space: if the Soviet Union launches a man first, "we''re not going to get downhearted." Asked about his remark at Grand Forks that more may be paid to get the surpluses off the farmers'' back: his first farm speech, at Guthrie Center, Iowa, will deal with the surplus; a time should be set to deal with it.'
+    n: 'Press Conference of Vice President Richard M. Nixon, WMBD-TV Studios, Peoria, IL, [APP](https://www.presidency.ucsb.edu/documents/press-conference-vice-president-richard-m-nixon-wmbd-tv-studios-peoria-il) (Sept. 14, 1960). See [[cal.1960-09-14.elections-1960-3]]. Names: Nixon.'
+    tags: [name:nixon-richard-m, state:il, city:peoria]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-14.elections-1960-2
+          - cal.1960-09-14.elections-1960-3
+          - cal.1960-09-14.elections-1960-nixon
+        from: 2026-11-27-lo-d04
+  - id: cal.1960-09-14.elections-1960-nixon-3
+    when: Sept. 14
+    date: '1960-09-14'
+    time: 1960-09-15T04:00Z
+    time_approx: true
+    place: st-louis
+    thread: elections-1960-nixon
+    follows:
+      - cal.1960-09-14.elections-1960-nixon
+      - cal.1960-09-14.elections-1960-nixon-2
+    c: St. Louis, the airport. Nixon, from Peoria, is greeted by more than 5,000, after eleven at night.
+    n: '[[w.nixon-six-crises]], 331 ("past eleven when we arrived"; "an enthusiastic airport crowd of over 5000"). The hour: "past eleven" ([[w.nixon-six-crises]], 331); the time is approximate. The order: after [[cal.1960-09-14.elections-1960-nixon]] and [[cal.1960-09-14.elections-1960-nixon-2]], the flight from Peoria ([[w.nixon-six-crises]], 331). See [[cal.1960-09-14.elections-1960-3]]. Names: Nixon. Check: White has Nixon leave Peoria at eleven at night and reach St. Louis "shortly after midnight" ([[w.white-making-of-the-president]], 274).'
+    tags: [name:nixon-richard-m, state:mo, city:st-louis]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-14.elections-1960-2
+          - cal.1960-09-14.elections-1960-3
+          - cal.1960-09-14.elections-1960-nixon
+          - cal.1960-09-14.elections-1960-nixon-2
+        from: 2026-11-27-lo-d04
+    time_zone: America/Chicago
+  - id: cal.1960-09-14.elections-1960-nixon-4
+    when: Sept. 14
+    date: '1960-09-14'
+    place: st-louis
+    thread: elections-1960-nixon
+    follows:
+      - cal.1960-09-14.elections-1960-nixon-3
+    c: St. Louis, the hotel. Nixon works on the Machinists speech for an hour, by his account.
+    n: '[[w.nixon-six-crises]], 331 ("I still had an hour''s work to do at the hotel on a major speech"). The order: after [[cal.1960-09-14.elections-1960-nixon-3]], the drive into the city from the airport ([[w.nixon-six-crises]], 331). See [[cal.1960-09-14.elections-1960-3]]. Names: Nixon. Check: White has him work in the hotel room until three in the morning ([[w.white-making-of-the-president]], 274).'
+    tags: [name:nixon-richard-m, state:mo, city:st-louis]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-14.elections-1960-2
+          - cal.1960-09-14.elections-1960-3
+          - cal.1960-09-14.elections-1960-nixon
+          - cal.1960-09-14.elections-1960-nixon-2
+          - cal.1960-09-14.elections-1960-nixon-3
+        from: 2026-11-27-lo-d04
   - id: cal.1960-09-15.elections-1960
     when: Sept. 15
     date: '1960-09-15'
     place: st-louis
     thread: elections-1960-nixon
     also: [jobs-and-wages]
+    follows:
+      - cal.1960-09-15.elections-1960-nixon
     c: 'St. Louis, Kiel Auditorium.{1} Nixon to the convention of the International Association of Machinists, his first campaign speech to a union.{2} He quotes Kennedy at Detroit on Labor Day, "what the American labor movement wants for America is what I want for America," and refuses the line: a President''s obligation "to be President of all the people and not to set one group against another."{3}'
     n: 'Speech of Vice President Richard M. Nixon, Grand Lodge Convention, International Association of Machinists, Kiel Auditorium, St. Louis, MO, [APP](https://www.presidency.ucsb.edu/documents/speech-vice-president-richard-m-nixon-grand-lodge-convention-international-association) (Sept. 15, 1960). [[w.nixon-six-crises]], 331–32; [[w.white-making-of-the-president]], 273–74 (St. Louis, the Machinists, after three hours'' sleep; then Atlantic City, Roanoke, Omaha). See [[cal.1960-09-05.elections-1960]]. Names: Nixon, Kennedy.'
     src:
@@ -5599,12 +5769,13 @@ entries:
   - id: cal.1960-09-15.cuba
     when: Sept. 15
     date: '1960-09-15'
+    place: harrisburg
     thread: cuba
     also: [elections-1960]
-    c: Kennedy lays to the administration Communism "eight jet minutes from the coast of Florida."
-    n: '[[w.nixon-six-crises]], 351. Check: the place and the text; Nixon gives the day alone. Names: Kennedy.'
+    c: Harrisburg, Pa. Kennedy lays to the administration Communism "8 minutes by jet from the coast of Florida."
+    n: '[[w.nixon-six-crises]], 351 (the fifteenth; Nixon''s wording, "eight jet minutes from the coast of Florida"). [[w.communications-freedom-of-communications-part]], 250 (Kennedy at the Zembo Mosque Temple, Harrisburg, Sept. 15: "8 minutes by jet from the coast of Florida"). The same speech as [[cal.1960-09-15.elections-1960-kennedy-8]]. Names: Kennedy.'
     src:
-      c: ba11f4e7
+      c: 2cca117a
       rows:
         - 'w.nixon-six-crises 351: all'
     tags: [name:kennedy-john-f]
@@ -5641,21 +5812,26 @@ entries:
   - id: cal.1960-09-15.elections-1960-kennedy
     when: Sept. 15
     date: '1960-09-15'
+    time: 1960-09-15T12:00Z
+    time_approx: true
     place: jersey-city
     thread: elections-1960-kennedy
     c: 'Jersey City, N.J., the Armory. Kennedy on substandard housing and the aged without medical care; Lincoln, 1860: "if He has a place and a part for us, I believe that we are ready."'
-    n: '[[w.communications-freedom-of-communications-part]], 242–243. Names: Kennedy.'
+    n: '[[w.communications-freedom-of-communications-part]], 242–243. The hour: "a turnout for a Democratic candidate at 8 o''clock in the morning" ([[w.communications-freedom-of-communications-part]], 242). Names: Kennedy.'
     tags: [name:kennedy-john-f, state:nj]
+    time_zone: America/New_York
   - id: cal.1960-09-15.elections-1960-kennedy-2
     when: Sept. 15
     date: '1960-09-15'
+    time: 1960-09-15T14:00Z
     place: paramus
     thread: elections-1960-kennedy
     follows:
       - cal.1960-09-15.elections-1960-kennedy
     c: 'Paramus, N.J., Bergen Mall. Kennedy, after ten days from Maine to Alaska: the Republicans say "we never had it so good," "and I say we can do better."'
-    n: '[[w.communications-freedom-of-communications-part]], 243–244. Names: Kennedy.'
+    n: '[[w.communications-freedom-of-communications-part]], 243–244. The hour: "a rally at 10 o''clock in the morning" ([[w.communications-freedom-of-communications-part]], 243). Names: Kennedy.'
     tags: [name:kennedy-john-f, state:nj]
+    time_zone: America/New_York
   - id: cal.1960-09-15.elections-1960-kennedy-3
     when: Sept. 15
     date: '1960-09-15'
@@ -5715,9 +5891,19 @@ entries:
     also: [cuba]
     follows:
       - cal.1960-09-15.elections-1960-kennedy-7
-    c: 'Harrisburg, Pa., Zembo Mosque Temple. Kennedy''s statewide television speech: Cuba, with Havana''s Ambassador, and unemployment, one in 14 seeking a job.'
-    n: '[[w.communications-freedom-of-communications-part]], 249–252. Names: Kennedy.'
+    c: 'Harrisburg, Pa., Zembo Mosque Temple. Kennedy''s statewide television speech: Cuba, with Havana''s Ambassador, and unemployment, one in 14 seeking a job.{1} On Cuba: Communism "8 minutes by jet from the coast of Florida."{2}'
+    n: '[[w.communications-freedom-of-communications-part]], 249–252; [[w.communications-freedom-of-communications-part]], 250. The hour: "I am delighted to be here in Pennsylvania tonight" ([[w.communications-freedom-of-communications-part]], 249): the evening. Names: Kennedy.'
+    src:
+      c: fba0c969
+      rows:
+        - 'w.communications-freedom-of-communications-part 249–252: 1'
+        - 'w.communications-freedom-of-communications-part 250: 2'
     tags: [name:kennedy-john-f, state:pa]
+    time_band: evening
+    time_range:
+      - 1960-09-15T23:00Z
+      - 1960-09-16T02:00Z
+    time_zone: America/New_York
   - id: cal.1960-09-15.intelligence
     when: Sept. 15
     date: '1960-09-15'
@@ -5750,7 +5936,7 @@ entries:
     thread: soviet-union
     also: [china-leadership]
     c: 'Peking, for Moscow.{1} The Chinese delegation to the party talks leaves in two planes, for safety: Deng Xiaoping and Lu Dingyi in one, Peng Zhen and the rest in the other.{2} Deng''s lands at Moscow that day. Peng''s, held by weather at Sverdlovsk, goes on by train and reaches Moscow Sept. 16.{3}'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 357–358 (Deng head, Peng Zhen deputy; some dozens, with heads of the Liaison Department and the Foreign Ministry and a company of writers; Wu stays in Peking by Mao''s order); [[w.yang-shangkun-riji]], I, 544–547 (Sept. 15, 1960; Sept. 15, the first group, Kang Sheng, Chen Boda, Liao Chengzhi and others, 23 in all, seen off by Yang; Sept. 16, Yang by Tu-104 from Peking at 9:10 a.m., by Irkutsk and Omsk, at Moscow at 3:30 p.m. Moscow time); [[w.deng-xiaoping-nianpu-1904]], III, 1574 (Sept. 16, 1960; morning; Deng and Peng Zhen lead the delegation out of Peking, and are at Moscow that evening; members Chen Boda, Kang Sheng, Yang Shangkun, Hu Qiaomu, Liao Chengzhi, Wu Xiuquan, Liu Xiao; Chen and Kang and others had left on the 15th); [[w.peng-zhen-nianpu-1902]], IV, 58 (Sept. 16, 1960, 9 a.m.; Peng Zhen, with Deng Xiaoping, Yang Shangkun, Hu Qiaomu, Wu Xiuquan and others, flies to Moscow, Chervonenko with them; Chen Boda, Kang Sheng, Liao Chengzhi and others gone ahead the morning of the 15th, Liu Xiao already in Moscow). Made public: 1999. See [[cal.1960-09-13.china-leadership]]. Names: Deng Xiaoping, Lu Dingyi, Peng Zhen.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 357–358 (Deng head, Peng Zhen deputy; some dozens, with heads of the Liaison Department and the Foreign Ministry and a company of writers; Wu stays in Peking by Mao''s order); [[w.yang-shangkun-riji]], I, 544–547 (Sept. 15, 1960; Sept. 15, the first group, Kang Sheng, Chen Boda, Liao Chengzhi and others, 23 in all, seen off by Yang; Sept. 16, Yang by Tu-104 from Peking at 9:10 a.m., by Irkutsk and Omsk, at Moscow at 3:30 p.m. Moscow time); [[w.deng-xiaoping-nianpu-1904]], III, 1574 (Sept. 16, 1960; morning; Deng and Peng Zhen lead the delegation out of Peking, and are at Moscow that evening; members Chen Boda, Kang Sheng, Yang Shangkun, Hu Qiaomu, Liao Chengzhi, Wu Xiuquan, Liu Xiao; Chen and Kang and others had left on the 15th); [[w.peng-zhen-nianpu-1902]], IV, 58 (Sept. 16, 1960, 9 a.m.; Peng Zhen, with Deng Xiaoping, Yang Shangkun, Hu Qiaomu, Wu Xiuquan and others, flies to Moscow, Chervonenko with them; Chen Boda, Kang Sheng, Liao Chengzhi and others gone ahead the morning of the 15th, Liu Xiao already in Moscow). Made public: 1999. Check: "that day" for Deng''s landing; Yang Shangkun''s diary, I, 544 (Sept. 15: "tomorrow''s flight to Moscow"; Sept. 16, 9 a.m., the Tu-104) and the Deng nianpu, III, 1574 (Deng and Peng Zhen leave Peking the morning of Sept. 16 and reach Moscow that evening; Chen Boda and Kang Sheng leave on the 15th) put the arrival on Sept. 16. See [[cal.1960-09-13.china-leadership]]. Names: Deng Xiaoping, Lu Dingyi, Peng Zhen.'
     src:
       c: b1649612
       rows:
@@ -5804,11 +5990,12 @@ entries:
     thread: china-foreign
     also: [soviet-union]
     c: Peking 北京, the Xiannongtan 先农坛 stadium. Yang Shangkun 杨尚昆, Deng Xiaoping 邓小平 and Peng Zhen 彭真 on the next day's flight to Moscow 莫斯科, 5 p.m.
-    n: '[[w.yang-shangkun-riji]], I, 544 (Sept. 15, 1960). The words: 5时去先农坛看足球赛 (I, 544). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Peng Zhen.'
+    n: '[[w.yang-shangkun-riji]], I, 544 (Sept. 15, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1574 (the flight of the next day, Sept. 16: Deng and Peng Zhen leave Peking that morning). The words: 5时去先农坛看足球赛 (I, 544). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Deng Xiaoping, Peng Zhen.'
     src:
       c: '66619838'
       rows:
         - 'w.yang-shangkun-riji I, 544: all'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1574: ?'
     tags: [polity:prc, name:deng-xiaoping, name:peng-zhen, vis:only:prc, name:yang-shangkun]
     time_zone: Asia/Shanghai
   - id: cal.1960-09-15.china-leadership-5
@@ -5819,6 +6006,23 @@ entries:
     c: 'Tianjin 天津. Chen Yun 陈云 has an electrocardiogram at the Tianjin hospital 天津医院: the blood supply to his heart much improved, near normal. From now on he works four half-days a week, as a rule.'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 43. Made public: 2015. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun, vis:only:prc]
+  - id: cal.1960-09-15.elections-1960-nixon
+    when: Sept. 15
+    date: '1960-09-15'
+    time: 1960-09-15T08:30Z
+    time_approx: true
+    place: st-louis
+    thread: elections-1960-nixon
+    c: St. Louis, the hotel, about 3:30 a.m. Nixon wakes with a raging fever. Dr. John C. Lungren, who travels with him, finds a temperature over 103, probably a flu virus. Nixon tells him the Machinists' convention, set for 8:15 that morning, is the one meeting he must attend.
+    n: '[[w.nixon-six-crises]], 331 ("at about three-thirty in the morning"; "a temperature of over 103, caused probably by a flu virus"; the Machinists'' convention "scheduled for 8:15 that morning"). The hour: "about three-thirty in the morning" ([[w.nixon-six-crises]], 331). See [[cal.1960-09-14.elections-1960-3]]. Names: Nixon. Check: White gives a cold, Nixon a fever, probably flu; White has Nixon, at three, unable to sleep, calling an aide, and a fever only at Roanoke that evening ([[w.white-making-of-the-president]], 274).'
+    tags: [name:nixon-richard-m, state:mo, city:st-louis]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-15.elections-1960
+          - cal.1960-09-15.elections-1960-2
+        from: 2026-11-27-lo-d04
+    time_zone: America/Chicago
   - id: cal.1960-09-16.japan-and-korea
     when: Sept. 16
     date: '1960-09-16'
@@ -6199,13 +6403,14 @@ entries:
   - id: cal.1960-09-17.soviet-union
     when: Sept. 17
     date: '1960-09-17'
+    time: 1960-09-17T10:00Z
     place: moscow
     thread: soviet-union
     also: [china-leadership]
     follows:
       - cal.1960-09-17.china-leadership-6
     c: 'Moscow. The talks of the CPSU and the CCP open.{1} Suslov leads the Soviet side, with Kozlov, Andropov and Pospelov;{2} for China Deng Xiaoping, Peng Zhen, Lu Dingyi and Kang Sheng.{3} Suslov speaks first: the CPSU wants the differences gone; on a first reading of the Reply they have grown; the Reply is full of anti-Marxist-Leninist views, the gravest attack on the CPSU since Trotsky in the twenties; he answers it at length.{4} Deng: the CPSU''s notice was grave and the Reply answers it, as it answers the withdrawal of the experts and the tearing up of contracts;{5} the CPSU has made no self-criticism.{6} At the close he asks where the Soviets mean to take the ideological differences.{7}'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 358–360 (the first day; Suslov spoke first); [[w.yang-shangkun-riji]], I, 545, 547–548 (Sept. 17, 1960; from 1 p.m. Moscow time in the Kremlin; Deng''s greeting to Khrushchev and the Soviet Central Committee; Suslov; then Deng: nearly seventy Soviet articles attacking China since Bucharest, the experts withdrawn, *Su-Zhong youhao* 苏中友好 stopped, embassy staff recalled, border incidents: where do the Soviets mean to take the relations; the Soviets adjourn to Monday); [[w.deng-xiaoping-nianpu-1904]], III, 1575–1576 (Sept. 17, 1960; 1 to 2:30 p.m., the Kremlin; Deng: the delegation come for unity; after Suslov: the CPSU has carried the disputes on principle into state relations, sixty or seventy articles since Bucharest, the friendship journals stopped, the experts all withdrawn, a Chinese Embassy officer''s recall demanded, border incidents; where do the CPSU and the Soviet government mean to take the two parties and countries?); [[w.peng-zhen-nianpu-1902]], IV, 59–60 (Sept. 17–22, 1960; Peng Zhen at the talks; Sept. 17, 1 p.m., they open: Suslov: the Reply shows "no wish to ease," regrettable and dangerous; Deng: nearly seventy Soviet articles in two months since Bucharest, the experts withdrawn, the magazine *Druzhba* stopped (the page''s note: the Chinese weekly in the Soviet Union, stopped at the Soviet counsellor''s request of July 6, 1960), border incidents; where is this leading? The Soviet side adjourns, Sunday the 18th a rest). Made public: 1999. See [[cal.1960-09-15.soviet-union]]. Names: Suslov, Kozlov, Andropov, Deng Xiaoping, Peng Zhen, Lu Dingyi, Kang Sheng, Pospelov, Trotsky. Check: the account is the Chinese delegation''s.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 358–360 (the first day; Suslov spoke first); [[w.yang-shangkun-riji]], I, 545, 547–548 (Sept. 17, 1960; from 1 p.m. Moscow time in the Kremlin; Deng''s greeting to Khrushchev and the Soviet Central Committee; Suslov; then Deng: nearly seventy Soviet articles attacking China since Bucharest, the experts withdrawn, *Su-Zhong youhao* 苏中友好 stopped, embassy staff recalled, border incidents: where do the Soviets mean to take the relations; the Soviets adjourn to Monday); [[w.deng-xiaoping-nianpu-1904]], III, 1575–1576 (Sept. 17, 1960; 1 to 2:30 p.m., the Kremlin; Deng: the delegation come for unity; after Suslov: the CPSU has carried the disputes on principle into state relations, sixty or seventy articles since Bucharest, the friendship journals stopped, the experts all withdrawn, a Chinese Embassy officer''s recall demanded, border incidents; where do the CPSU and the Soviet government mean to take the two parties and countries?); [[w.peng-zhen-nianpu-1902]], IV, 59–60 (Sept. 17–22, 1960; Peng Zhen at the talks; Sept. 17, 1 p.m., they open: Suslov: the Reply shows "no wish to ease," regrettable and dangerous; Deng: nearly seventy Soviet articles in two months since Bucharest, the experts withdrawn, the magazine *Druzhba* stopped (the page''s note: the Chinese weekly in the Soviet Union, stopped at the Soviet counsellor''s request of July 6, 1960), border incidents; where is this leading? The Soviet side adjourns, Sunday the 18th a rest). The hour: 1 p.m. Moscow time; Andropov: "the talks begin this afternoon at 1" ([[w.yang-shangkun-riji]], I, 547); 1 to 2:30 p.m. ([[w.deng-xiaoping-nianpu-1904]], III, 1575). Made public: 1999. See [[cal.1960-09-15.soviet-union]]. Names: Suslov, Kozlov, Andropov, Deng Xiaoping, Peng Zhen, Lu Dingyi, Kang Sheng, Pospelov, Trotsky. Check: the account is the Chinese delegation''s.'
     src:
       c: 8c0a2dcc
       rows:
@@ -6219,6 +6424,7 @@ entries:
         witness: w.yang-shangkun-riji
         reads: 'the delegation: Deng Xiaoping (head), Peng Zhen (deputy), Chen Boda, Kang Sheng, Hu Qiaomu, Liao Chengzhi, Wu Xiuquan, Liu Xiao and Yang Shangkun, nine, Wang Jiaxiang ill; the Soviet side Suslov (head), Kozlov, Kuusinen, Pospelov, Ponomarev, Andropov, Grishin, Ilyichev, Konstantinov and Chervonenko, ten'
         at: I, 545, 547–548, Sept. 17, 1960
+    time_zone: Europe/Moscow
   - id: cal.1960-09-17.china-leadership-2
     when: Sept. 17–22
     date: '1960-09-17'
@@ -6726,7 +6932,7 @@ entries:
     thread: farm
     also: [elections-1960-kennedy]
     c: 'A hotel suite, the windows on Nebraska, late evening. Kennedy to Goodwin, on the farm speech for the South Dakota Plowing Contest, less than forty-eight hours off: "Get some of Nixon''s quotes on agriculture and compare them to what Benson said, show the similarities." Then: "Give them the whole thing from our position on parity to Food for Peace. They may get a little bored listening, but not as much as I will saying it."'
-    n: '[[w.goodwin-remembering-america]], 118–19 (Goodwin''s account). Names: Kennedy, Goodwin, Nixon, Benson. Check: the day; "less than forty-eight hours" before the contest (118), which the calendar has Sept. 22; the calendar has Kennedy at Washington on Sept. 20 ([[cal.1960-09-20.elections-1960-kennedy]]).'
+    n: '[[w.goodwin-remembering-america]], 118–19 (Goodwin''s account). Check: the place and the day; Goodwin names no place. Kennedy spoke at the Sheraton Park, Washington, on Sept. 20 and at Sioux City late on Sept. 21 ([[w.communications-freedom-of-communications-part]], 295, 308). Goodwin''s "less than forty-eight hours" (118) and his draft brought "the next night," before the 3 a.m. call (119), put the scene on the night of Sept. 20; his windows on Nebraska fit Sioux City, Sept. 21. Names: Kennedy, Goodwin, Nixon, Benson. Check: the day; "less than forty-eight hours" before the contest (118), which the calendar has Sept. 22; the calendar has Kennedy at Washington on Sept. 20 ([[cal.1960-09-20.elections-1960-kennedy]]).'
     tags: [name:kennedy-john-f, name:goodwin-richard-n, name:nixon-richard-m, name:benson-ezra-taft]
   - id: cal.1960-09-20.china-leadership
     when: Sept. 20
@@ -7023,14 +7229,17 @@ entries:
   - id: cal.1960-09-21.elections-1960-kennedy-5
     when: Sept. 21
     date: '1960-09-21'
+    time: 1960-09-22T04:00Z
+    time_approx: true
     place: sioux-city
     thread: elections-1960-kennedy
     also: [farm]
     follows:
       - cal.1960-09-21.elections-1960-kennedy-4
     c: Sioux City, Iowa, Municipal Auditorium, the evening. Kennedy on the farm and the small businessman; on medical care, 44 Democrats and one Republican in the August session.
-    n: '[[w.communications-freedom-of-communications-part]], 308–311. Names: Kennedy, Nixon.'
+    n: '[[w.communications-freedom-of-communications-part]], 308–311. The hour: "tonight," after a speaker of "2 hours and 45 minutes" (308); and Kennedy at the Sioux City breakfast the next morning: "you have to be prepared to speak at 11 o''clock at night or 8 in the morning" (314): about 11 p.m. Names: Kennedy, Nixon.'
     tags: [name:kennedy-john-f, name:nixon-richard-m, state:ia]
+    time_zone: America/Chicago
   - id: cal.1960-09-21.africa
     when: Sept. 21
     date: '1960-09-21'
@@ -7237,12 +7446,23 @@ entries:
   - id: cal.1960-09-22.elections-1960-kennedy
     when: Sept. 22
     date: '1960-09-22'
+    time: 1960-09-22T13:00Z
+    time_approx: true
     place: sioux-city
     thread: elections-1960-kennedy
     also: [africa]
-    c: 'Sioux City, Iowa. Kennedy on Africa: "Why should we suddenly offer 300 scholarships to the Congo when we have not offered nearly that number to all of Africa?"'
-    n: '[[w.communications-freedom-of-communications-part]], 314–316. Names: Kennedy.'
-    tags: [name:kennedy-john-f, state:ia]
+    c: 'Sioux City, Iowa.{2} A breakfast, with Governor Loveless.{4} Kennedy on Africa: "Why should we suddenly offer 300 scholarships to the Congo when we have not offered nearly that number to all of Africa?"{3}'
+    cut_from:
+      '2': '1'
+      '3': '1'
+    n: '[[w.communications-freedom-of-communications-part]], 314–316; [[w.communications-freedom-of-communications-part]], 314. The hour: "you have to be prepared to speak at 11 o''clock at night or 8 in the morning ... coming to this breakfast" ([[w.communications-freedom-of-communications-part]], 314); about 8 a.m. Names: Kennedy, Loveless.'
+    src:
+      c: 1a728260
+      rows:
+        - 'w.communications-freedom-of-communications-part 314–316: 2, 3'
+        - 'w.communications-freedom-of-communications-part 314: 4'
+    tags: [name:kennedy-john-f, state:ia, name:loveless-herschel-c]
+    time_zone: America/Chicago
   - id: cal.1960-09-22.farm
     when: Sept. 22
     date: '1960-09-22'
@@ -7331,9 +7551,14 @@ entries:
     also: [elections-1960-kennedy]
     follows:
       - cal.1960-09-22.farm-4
-    c: 'Shortly after dawn, the Plowing Contest hours away. Goodwin reads Kennedy''s farm speech to Humphrey by telephone: "Wonderful, Dick ... it''s just what I would have said myself." The program memos had been prepared by Humphrey''s staff. At breakfast, to Kennedy: "It''s okay with Hubert."'
-    n: '[[w.goodwin-remembering-america]], 119 (Goodwin''s account). See [[cal.1960-09-22.farm-4]]. Names: Goodwin, Humphrey, Kennedy.'
+    c: 'Shortly after dawn, the Plowing Contest hours away. Goodwin reads Kennedy''s farm speech to Humphrey by telephone: "Wonderful, Dick ... it''s just what I would have said myself." The program memos had been prepared by Humphrey''s staff.'
+    n: '[[w.goodwin-remembering-america]], 119 (Goodwin''s account: "Shortly after dawn, the plowing contest only hours away"). The hour: "shortly after dawn" (119). Split under R17: Goodwin''s word to Kennedy at breakfast is [[cal.1960-09-22.farm-6]]. See [[cal.1960-09-22.farm-4]]. Names: Goodwin, Humphrey, Kennedy.'
     tags: [name:goodwin-richard-n, name:humphrey-hubert-h, name:kennedy-john-f]
+    time_band: early morning
+    time_range:
+      - 1960-09-22T10:00Z
+      - 1960-09-22T13:00Z
+    time_zone: America/Chicago
   - id: cal.1960-09-22.soviet-union-2
     when: Sept. 22
     date: '1960-09-22'
@@ -7410,20 +7635,49 @@ entries:
       rows:
         - 'w.teiwes-tragedy-of-lin-biao 189: all'
     tags: [polity:prc, name:lin-biao, vis:only:prc]
+  - id: cal.1960-09-22.farm-6
+    when: Sept. 22
+    date: '1960-09-22'
+    thread: farm
+    also: [elections-1960-kennedy]
+    follows:
+      - cal.1960-09-22.farm-5
+    c: 'At breakfast, Goodwin to Kennedy: "It''s okay with Hubert." Kennedy grunts, takes the farm speech and puts it in his coat pocket.'
+    n: '[[w.goodwin-remembering-america]], 119 (Goodwin''s account). The hour: "at breakfast" (119). See [[cal.1960-09-22.farm-5]]. Names: Goodwin, Humphrey, Kennedy. Check: the place; Goodwin names none, and Kennedy spoke at a breakfast at Sioux City that morning ([[w.communications-freedom-of-communications-part]], 314).'
+    tags: [name:goodwin-richard-n, name:humphrey-hubert-h, name:kennedy-john-f]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-22.farm
+          - cal.1960-09-22.farm-2
+          - cal.1960-09-22.farm-3
+          - cal.1960-09-22.farm-4
+          - cal.1960-09-22.farm-5
+        from: 2026-11-27-lo-d04
+    time_band: morning
+    time_range:
+      - 1960-09-22T11:00Z
+      - 1960-09-22T17:00Z
+    time_zone: America/Chicago
   - id: cal.1960-09-23.soviet-union
     when: Sept. 23
     date: '1960-09-23'
     place: nyc
     thread: soviet-union-un
     also: [congo]
-    c: 'Khrushchev to the Assembly: abolish the Secretary-General for a three-man executive, West, East and neutral; a declaration ending colonial rule. Wadsworth answers that afternoon.'
-    n: 'FRUS 1958–60, II, docs. [183](https://history.state.gov/historicaldocuments/frus1958-60v02/d183), [185](https://history.state.gov/historicaldocuments/frus1958-60v02/d185). [[w.fursenko-khrushchevs-cold-war]], 318 (the troika; "one-sided"). See [[cal.1960-09-19.soviet-union]]. Names: Khrushchev, Wadsworth.'
+    c: 'Khrushchev to the Assembly, the morning: abolish the Secretary-General for a three-man executive, West, East and neutral; a declaration ending colonial rule.'
+    n: 'FRUS 1958–60, II, doc. [183](https://history.state.gov/historicaldocuments/frus1958-60v02/d183). [[w.fursenko-khrushchevs-cold-war]], 318 (the troika; "one-sided"). The hour: "the morning" (the editorial note, doc. [185](https://history.state.gov/historicaldocuments/frus1958-60v02/d185): Wadsworth answered "the speech which Chairman Khrushchev had made before the General Assembly that morning"). Split under R17: Wadsworth''s answer that afternoon is [[cal.1960-09-23.soviet-union-un]]. See [[cal.1960-09-19.soviet-union]]. Names: Khrushchev.'
     src:
-      c: c33fa37b
+      c: a44bdf05
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1958-60v02/d183: all'
         - 'w.fursenko-khrushchevs-cold-war 318: all'
-    tags: [name:khrushchev-nikita-s, name:wadsworth-james-j]
+    tags: [name:khrushchev-nikita-s]
+    time_band: morning
+    time_range:
+      - 1960-09-23T10:00Z
+      - 1960-09-23T16:00Z
+    time_zone: America/New_York
   - id: cal.1960-09-23.elections-1960
     when: Sept. 23
     date: '1960-09-23'
@@ -7665,6 +7919,27 @@ entries:
     c: 'The Center''s directive on cutting the sale of edible oil and strengthening its purchase 《中共中央关于压缩食油销量和加强油脂收购的指示》: after grave natural disasters and less peanut sown, oil output about 3.8 billion jin, over 20 percent below last year; over 400 million jin drawn from the working stocks in two years, which on Sept. 10 stood at 670 million jin, the lowest since unified purchase and sale; sales in town and country to be cut hard.'
     n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 585–588 (printed from the Center''s document). Made public: 1996.'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-09-23.soviet-union-un
+    when: Sept. 23
+    date: '1960-09-23'
+    place: nyc
+    thread: soviet-union-un
+    also: [congo]
+    follows:
+      - cal.1960-09-23.soviet-union
+    c: 'New York, the General Assembly. Wadsworth, "on behalf of and with the authorization of the Secretary of State," answers Khrushchev on the RB-47, disarmament and colonialism, and on the Secretary-General: the Soviet Union, having sought to crush Trygve Lie, now attempts to crush the office itself, "what we cannot control we will destroy"; the United Nations "must face this crisis head on."'
+    n: 'FRUS 1958–60, II, doc. [185](https://history.state.gov/historicaldocuments/frus1958-60v02/d185) (the editorial note: "On the afternoon of September 23"; U.N. doc. A/PV.870). The hour: "the afternoon of September 23" (doc. 185). See [[cal.1960-09-23.soviet-union]]. Names: Wadsworth, Khrushchev.'
+    tags: [name:wadsworth-james-j, name:khrushchev-nikita-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-23.soviet-union
+        from: 2026-11-27-lo-d04
+    time_band: afternoon
+    time_range:
+      - 1960-09-23T16:00Z
+      - 1960-09-23T22:00Z
+    time_zone: America/New_York
   - id: cal.1960-09-24.elections-1960
     when: Sept. 24
     date: '1960-09-24'
@@ -8184,8 +8459,10 @@ entries:
     follows:
       - cal.1960-09-26.elections-1960-4
       - cal.1960-09-26.elections-1960-debates-5
+      - cal.1960-09-26.elections-1960-nixon-2
+      - cal.1960-09-26.labor
     c: First of four Kennedy–Nixon debates.{1} Chicago, at WBBM (CBS);{2} Howard K. Smith moderating;{3} domestic policy.{4} Opening statements of eight minutes, questions from four reporters.{5} Section 315's equal-time rule suspended for the two nominees by joint resolution, Aug. 24.{6}
-    n: '[Presidential Debate in Chicago](https://www.presidency.ucsb.edu/documents/presidential-debate-chicago) (Sept. 26, 1960). The joint resolution: Pub. L. 86-677, [74 Stat. 554](https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-Pg554-3.pdf). [[w.kallina-kennedy-v-nixon]], 121–25 (the debate; Smith moderating; domestic policy); [[w.nixon-rn]], 217–19 (the first debate, at Chicago; domestic policy); [[w.nixon-six-crises]], 324, 336–40 (Chicago; Smith moderating; domestic issues, by the campaign''s choice; Kennedy''s opening statement, eight minutes; questions from a press panel); [[w.sorensen-kennedy]], 197–200 (the format; Chicago; domestic policy); [[w.white-making-of-the-president]], 283–90 (the four debates arranged by mid-September; the preparations; WBBM; the lighting and "Lazy Shave"; Lodge''s call to Nixon; radio and television audiences); [[w.graham-uncertain-triumph]], 8–9 (Warren of MBS to Nixon on teachers'' salaries; Nixon: "we want our education to be free of federal control"; Kennedy on the vote of February); [[w.wofford-of-kennedys-and-kings]], 62 (Wofford takes facts to Chicago for the first debate; Kennedy in the debate on the Negro baby born today, with half the chance of finishing high school, a life expectancy seven years shorter and about one-seventh the chance of earning $10,000; Nixon "dodged the whole subject of civil rights"; not the format). Nixon''s day before the debate: [[w.white-making-of-the-president]], 285–86. To check: [[w.druckman-power-of-television-images]] (the radio and television audiences); [[w.great-debates]]; [[w.schroeder-presidential-debates]]; [[w.watson-expanding-vista]]; [[w.donaldson-first-modern-campaign]]; [[w.rorabaugh-real-making-of-the]]; [[w.matthews-kennedy-and-nixon]]; The Reminiscences of Edward Folliard, Sept. 7, 1967, Columbia University Oral History Collection; The Reminiscences of Howard K. Smith, Jan. 19, 1967, Columbia University Oral History Collection (cited by [[w.kallina-kennedy-v-nixon]], 122 n.13). Names: Kennedy, Nixon, Howard K. Smith.'
+    n: '[Presidential Debate in Chicago](https://www.presidency.ucsb.edu/documents/presidential-debate-chicago) (Sept. 26, 1960). The joint resolution: Pub. L. 86-677, [74 Stat. 554](https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-Pg554-3.pdf). [[w.kallina-kennedy-v-nixon]], 121–25 (the debate; Smith moderating; domestic policy); [[w.nixon-rn]], 217–19 (the first debate, at Chicago; domestic policy); [[w.nixon-six-crises]], 324, 336–40 (Chicago; Smith moderating; domestic issues, by the campaign''s choice; Kennedy''s opening statement, eight minutes; questions from a press panel); [[w.sorensen-kennedy]], 197–200 (the format; Chicago; domestic policy); [[w.white-making-of-the-president]], 283–90 (the four debates arranged by mid-September; the preparations; WBBM; the lighting and "Lazy Shave"; Lodge''s call to Nixon; radio and television audiences); [[w.graham-uncertain-triumph]], 8–9 (Warren of MBS to Nixon on teachers'' salaries; Nixon: "we want our education to be free of federal control"; Kennedy on the vote of February); [[w.wofford-of-kennedys-and-kings]], 62 (Wofford takes facts to Chicago for the first debate; Kennedy in the debate on the Negro baby born today, with half the chance of finishing high school, a life expectancy seven years shorter and about one-seventh the chance of earning $10,000; Nixon "dodged the whole subject of civil rights"; not the format). Nixon''s day before the debate: [[w.white-making-of-the-president]], 285–86. The order: after [[cal.1960-09-26.elections-1960-nixon-2]], [[w.white-making-of-the-president]], 285–86 (the drive to the studio; Nixon enters it "about an hour before air time"). The order: after [[cal.1960-09-26.labor]], [[w.communications-freedom-of-communications-part]], 363 (Kennedy to the Carpenters: "This has been billed tonight as a great debate"). To check: [[w.druckman-power-of-television-images]] (the radio and television audiences); [[w.great-debates]]; [[w.schroeder-presidential-debates]]; [[w.watson-expanding-vista]]; [[w.donaldson-first-modern-campaign]]; [[w.rorabaugh-real-making-of-the]]; [[w.matthews-kennedy-and-nixon]]; The Reminiscences of Edward Folliard, Sept. 7, 1967, Columbia University Oral History Collection; The Reminiscences of Howard K. Smith, Jan. 19, 1967, Columbia University Oral History Collection (cited by [[w.kallina-kennedy-v-nixon]], 122 n.13). Names: Kennedy, Nixon, Howard K. Smith.'
     src:
       c: bcf861d6
       rows:
@@ -8252,22 +8529,19 @@ entries:
   - id: cal.1960-09-26.elections-1960-4
     when: Sept. 26
     date: '1960-09-26'
+    time: 1960-09-26T16:00Z
     place: chicago
     thread: elections-1960-nixon
-    c: 'Chicago, the Pick-Congress.{1} Nixon, arrived late Sunday, speaks to the Carpenters in the morning;{2} from 12:30 he sees one visitor, his wife with him, his television advisers unable to reach him. Lodge, by report, telephones: erase the "assassin image." An adviser briefs him in the car to WBBM: come out swinging. At the studio he strikes his knee on the car door.{3}'
-    n: 'Speech by the Vice President Before the United Brotherhood of Carpenters & Joiners, Hotel Morrison, Chicago, IL, [APP](https://www.presidency.ucsb.edu/documents/speech-the-vice-president-before-the-united-brotherhood-carpenters-joiners-hotel-morrison) (Sept. 26, 1960). [[w.white-making-of-the-president]], 285–86; [[w.nixon-rn]], 218–19 (the carpenters'' convention, a speech in the morning); [[w.nixon-six-crises]], 337 (the eleven o''clock speech to the Carpenters'' convention, his second campaign speech to a union). The debate: [[cal.1960-09-26.elections-1960]]. See [[cal.1960-09-25.elections-1960-3]]. Names: Nixon, Lodge.'
+    c: Chicago, the Pick-Congress, his hotel.{1} Nixon, arrived late Sunday, speaks to the Carpenters at the Hotel Morrison at 11 a.m.{2}
+    n: 'Speech by the Vice President Before the United Brotherhood of Carpenters & Joiners, Hotel Morrison, Chicago, IL, [APP](https://www.presidency.ucsb.edu/documents/speech-the-vice-president-before-the-united-brotherhood-carpenters-joiners-hotel-morrison) (Sept. 26, 1960). [[w.white-making-of-the-president]], 285–86; [[w.nixon-rn]], 218–19 (the carpenters'' convention, a speech in the morning); [[w.nixon-six-crises]], 337 (the eleven o''clock speech to the Carpenters'' convention, his second campaign speech to a union). The hour: "an eleven o''clock appearance" ([[w.nixon-six-crises]], 337). Split under R17: the afternoon is [[cal.1960-09-26.elections-1960-nixon]]; the drive to the studio, [[cal.1960-09-26.elections-1960-nixon-2]]. The hotel of the speech: APP''s title. The debate: [[cal.1960-09-26.elections-1960]]. See [[cal.1960-09-25.elections-1960-3]]. Names: Nixon.'
     src:
-      c: 5d8df02d
+      c: 77a80381
       rows:
-        - 'w.white-making-of-the-president 285–86: 1, 2, 3'
+        - 'w.white-making-of-the-president 285–86: 1, 2'
         - 'w.nixon-rn 218–19: 2'
         - 'https://www.presidency.ucsb.edu/documents/speech-the-vice-president-before-the-united-brotherhood-carpenters-joiners-hotel-morrison: 2'
         - 'w.nixon-six-crises 337: 2'
-    tags: [name:nixon-richard-m, name:lodge-henry-cabot]
-    time_range:
-      - 1960-09-26T11:00Z
-      - 1960-09-26T17:00Z
-    time_band: morning
+    tags: [name:nixon-richard-m]
     time_zone: America/Chicago
   - id: cal.1960-09-26.elections-1960-5
     when: Sept. 26
@@ -8313,8 +8587,10 @@ entries:
     place: chicago
     thread: labor
     also: [elections-1960-kennedy]
+    follows:
+      - cal.1960-09-26.elections-1960-4
     c: 'Chicago, the Carpenters'' special convention. Kennedy takes up Nixon''s charge that Democratic promises would take money out of people''s pockets: "I would just as soon join the issue."'
-    n: '[[w.communications-freedom-of-communications-part]], 363–366. Names: Kennedy, Nixon.'
+    n: '[[w.communications-freedom-of-communications-part]], 363–366. The order: after [[cal.1960-09-26.elections-1960-4]], [[w.communications-freedom-of-communications-part]], 363 ("This morning you heard from the Vice President"). Names: Kennedy, Nixon.'
     tags: [name:kennedy-john-f, name:nixon-richard-m, state:il, city:chicago]
   - id: cal.1960-09-26.elections-1960-debates-2
     when: Sept. 26
@@ -8540,6 +8816,44 @@ entries:
     c: The Center 中共中央 forwards the State Planning Commission and Labor Ministry Party groups' 国家计委党组、劳动部党组 report on the present arrangement of labor and workers' wages 《关于当前劳动力安排和职工工资问题的报告》, its measures correct, and calls for a mass campaign to save labor on every front.
     n: '[[w.jianguo-yilai-zhongyao-wenxian]], XIII, 589–607 (printed from the Center''s document). Made public: 1996. Check: the directive is dated Sept. 26, 1960 in [[w.jianguo-yilai-zhongyao-wenxian]], XIII, 589; Zhou Enlai sends its draft to Liu Shaoqi for issue on Sept. 27 by [[w.zhou-enlai-nianpu-1949]], II, 351. See [[cal.1960-09-11.china-leadership-10]].'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1960-09-26.elections-1960-nixon
+    when: Sept. 26
+    date: '1960-09-26'
+    place: chicago
+    thread: elections-1960-nixon
+    follows:
+      - cal.1960-09-26.elections-1960-4
+    c: Chicago, the Pick-Congress. Nixon, back from the Carpenters at 12:30, is out of reach of his television advisers, Mrs. Nixon with him; he sees one visitor for five minutes in his suite and takes one long telephone call. Lodge, by report, urges him to erase the "assassin image."
+    n: '[[w.white-making-of-the-president]], 285 ("When Nixon returned to his hotel from the Brotherhood appearance at 12:30"; "one visitor for five minutes that afternoon"; Lodge "reportedly"). The hour: "at 12:30" and "that afternoon" ([[w.white-making-of-the-president]], 285). See [[cal.1960-09-26.elections-1960-4]]. Names: Nixon, Pat Nixon, Lodge.'
+    tags: [name:nixon-richard-m, name:nixon-pat, name:lodge-henry-cabot, state:il, city:chicago]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-26.elections-1960-4
+          - cal.1960-09-26.elections-1960-5
+        from: 2026-11-27-lo-d04
+    time_band: afternoon
+    time_range:
+      - 1960-09-26T17:00Z
+      - 1960-09-26T23:00Z
+    time_zone: America/Chicago
+  - id: cal.1960-09-26.elections-1960-nixon-2
+    when: Sept. 26
+    date: '1960-09-26'
+    place: chicago
+    thread: elections-1960-nixon
+    follows:
+      - cal.1960-09-26.elections-1960-nixon
+    c: 'Chicago, the drive to the WBBM studio. Nixon rides with one television adviser, who briefs him in the ten minutes: come out swinging. Nixon wonders whether it came from the adviser or from Stanton, who, he says, "only wanted a good show." At the studio he strikes his knee on the car door.'
+    n: '[[w.white-making-of-the-president]], 285–86 (the ten-minute drive; the knee struck "again"). The hour: before the debate; Nixon entered the studio "about an hour before air time" ([[w.white-making-of-the-president]], 286). See [[cal.1960-09-26.elections-1960-4]]. Names: Nixon.'
+    tags: [name:nixon-richard-m, state:il, city:chicago, ok:fields-time]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-26.elections-1960-4
+          - cal.1960-09-26.elections-1960-5
+          - cal.1960-09-26.elections-1960-nixon
+        from: 2026-11-27-lo-d04
   - id: cal.1960-09-27.japan-and-korea
     when: Sept. 27
     date: '1960-09-27'
@@ -9164,9 +9478,9 @@ entries:
     date: '1960-09-29'
     place: nyc
     thread: soviet-union-un
-    c: Nkrumah, Nehru, Nasser, Sukarno and Tito, by letter, ask Eisenhower and Khrushchev to meet. Khrushchev shouts down Macmillan's speech.
-    n: 'FRUS 1958–60, II, docs. [197](https://history.state.gov/historicaldocuments/frus1958-60v02/d197) (the letter), [198](https://history.state.gov/historicaldocuments/frus1958-60v02/d198). [[w.macmillan-pointing-the-way-1959]], 275–79. See [[cal.1960-09-19.soviet-union]]. Names: Nkrumah, Nehru, Nasser, Sukarno, Tito, Eisenhower, Khrushchev, Macmillan.'
-    tags: [name:nkrumah-kwame, name:nehru-jawaharlal, name:nasser-gamal-abdel, name:sukarno, name:tito-josip-broz, name:eisenhower-dwight-d, name:khrushchev-nikita-s, name:macmillan-harold]
+    c: Nkrumah, Nehru, Nasser, Sukarno and Tito, by letter, ask Eisenhower and Khrushchev to meet.
+    n: 'FRUS 1958–60, II, doc. [197](https://history.state.gov/historicaldocuments/frus1958-60v02/d197) (the letter, New York, Sept. 29, with the draft resolution). [[w.macmillan-pointing-the-way-1959]], 275–79 (Macmillan''s speech; see [[cal.1960-09-29.soviet-union-un]]). Split under R17: Macmillan''s speech is [[cal.1960-09-29.soviet-union-un]]; the letter''s handing to Wadsworth, Sept. 30, [[cal.1960-09-30.soviet-union-un]]. See [[cal.1960-09-19.soviet-union]]. Names: Nkrumah, Nehru, Nasser, Sukarno, Tito, Eisenhower, Khrushchev.'
+    tags: [name:nkrumah-kwame, name:nehru-jawaharlal, name:nasser-gamal-abdel, name:sukarno, name:tito-josip-broz, name:eisenhower-dwight-d, name:khrushchev-nikita-s]
   - id: cal.1960-09-29.cuba
     when: Sept. 29
     date: '1960-09-29'
@@ -9269,8 +9583,13 @@ entries:
     follows:
       - cal.1960-09-29.elections-1960-kennedy-3
     c: 'Amsterdam, N.Y., at lunch, with Wagner and Harriman. Kennedy: "I believe in $1.25 minimum wage"; federal action where unemployment is high.'
-    n: '[[w.communications-freedom-of-communications-part]], 406–408. Names: Kennedy, Wagner, Harriman.'
+    n: '[[w.communications-freedom-of-communications-part]], 406–408. The hour: "during your lunch hour" ([[w.communications-freedom-of-communications-part]], 406). Names: Kennedy, Wagner, Harriman.'
     tags: [name:kennedy-john-f, name:wagner-robert-f-jr, name:harriman-w-averell, state:ny]
+    time_band: workday midday
+    time_range:
+      - 1960-09-29T16:00Z
+      - 1960-09-29T18:00Z
+    time_zone: America/New_York
   - id: cal.1960-09-29.elections-1960-kennedy-5
     when: Sept. 29
     date: '1960-09-29'
@@ -9498,6 +9817,24 @@ entries:
     c: 'Chen Yun 陈云 attends the Secretariat 中共中央书记处 and reports on the farms and the famine of Hebei 河北 and Shandong 山东: industry, now with a base, must do more for agriculture; a million rubber-tired handcarts would give Hebei 750 million jin more grain, 600,000 horsepower of pumps would give Shandong 1.2 billion; the sharp question how much grain can be drawn from the villages for the towns: too much and the peasants go short, too little and the towns'' supply fails; grain and labor kept in the villages and sent to the towns stand in a proportion, and past it there is trouble.'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 43. Made public: 2015. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun, vis:only:prc]
+  - id: cal.1960-09-29.soviet-union-un
+    when: Sept. 29
+    date: '1960-09-29'
+    place: nyc
+    thread: soviet-union-un
+    c: New York, the General Assembly. Macmillan speaks; Khrushchev twice shouts rebuttals from the floor, the second interrupting him until the Assembly's President, Boland, restores order.
+    n: 'FRUS 1958–60, II, doc. [198](https://history.state.gov/historicaldocuments/frus1958-60v02/d198) (the editorial note: "the morning of September 29"; U.N. doc. A/PV.877). [[w.macmillan-pointing-the-way-1959]], 275–79. The hour: "the morning of September 29" (doc. 198). See [[cal.1960-09-29.soviet-union]]. Names: Macmillan, Khrushchev.'
+    tags: [name:macmillan-harold, name:khrushchev-nikita-s]
+    conflict:
+      - kind: duplicate
+        of:
+          - cal.1960-09-29.soviet-union
+        from: 2026-11-27-lo-d04
+    time_band: morning
+    time_range:
+      - 1960-09-29T10:00Z
+      - 1960-09-29T16:00Z
+    time_zone: America/New_York
   - id: cal.1960-09-30.berlin-and-vienna
     when: Sept. 30
     date: '1960-09-30'
@@ -10349,3 +10686,13 @@ entries:
     c: Houston. The school authorities admit twelve Negroes to formerly all-white elementary schools; others are refused under the brother-sister rule.
     n: '*Ross v. Dyer*, [312 F.2d 191](https://static.case.law/f2d/312/case-pdfs/0191-01.pdf), 193 (5th Cir. 1962). See [[cal.1960-08-15.desegregation-schools]].'
     tags: [state:tx, city:houston]
+  - id: cal.1960-09-30.soviet-union-un
+    when: Sept. 30
+    date: '1960-09-30'
+    time: 1960-09-30T14:10Z
+    place: nyc
+    thread: soviet-union-un
+    c: New York. The Yugoslav Ambassador hands the five leaders' letter and draft resolution to Wadsworth, 10:10 a.m.; Khrushchev is to have a copy.
+    n: 'FRUS 1958–60, II, doc. [197](https://history.state.gov/historicaldocuments/frus1958-60v02/d197), n. 1 (Stoessel to Goodpaster, Sept. 30: the Yugoslav Ambassador handed the letter to Wadsworth at 10:10 a.m.; a copy to Khrushchev; the text soon to the press). See [[cal.1960-09-29.soviet-union]]. Names: Wadsworth, Khrushchev.'
+    tags: [name:wadsworth-james-j, name:khrushchev-nikita-s]
+    time_zone: America/New_York
