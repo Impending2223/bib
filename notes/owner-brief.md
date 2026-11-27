@@ -1524,3 +1524,25 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 7:59 pm PT.** "Did the Drive inventory catch Taubman's Khrushchev?"
 
 **Nov. 26, 2026, about 8:50 pm PT.** "Are you sure we shouldn't have threads for Chinese provinces, the several States of the United States, certain municipalities (New York, Chicago, Beijing, Shanghai), and the sovereign nations of the world? The China thread pass warned me against them (perhaps only because they were an ineffective way of dividing the China batch?), but, as it is, it's hard to follow any given national thread anywhere outside the United States and China, and hard to follow any subnational or local thread anywhere."
+
+**Nov. 26, 2026, about 9:19 pm PT.** "That does sound far better than a reading pass. We should give a dashed/dotted (whatever we settled on for the Works cross-reference) underline to covered units in the dateline. (And extend the dateline? Or give covered national amd subnational units a cross-referenced spot somewhere in the citation block? Probably the latter, right? Just before \"Names:\"?) Speaking of tags: Why are we using verbose, fully-spelled-out names for nations and national subdivisions, rather than some two- or three-letter standard, with additions and variants for entities within our span? Would the readers have a hard time remembering \"polity:fr,\" \"polity:de,\" (for the Federal Republic, \"polity:ddr\" for the orphaned, childless Democratic Republic) or the like?"
+
+**Nov. 26, 2026, about 9:24 pm PT.** "I like your proposal re the two- and three-letter tags. Do we expect any conflicts? Should we check for possible conflicts ahead of time? Or does your two/three setup exclude any possibility of a conflict?"
+
+**Nov. 26, 2026, about 9:27 pm PT.** "Given your point on the Vietnams, is \"DD\" still better than \"DDR\"?"
+
+**Nov. 26, 2026, about 9:32 pm PT.** "Is there reason to think our calendar writes \"Taiwan\" as often as it does and \"ROC\" as infrequently as it does because our coverage of the PRC is thick, our coverage of US-ROC relations is thin, our coverage of the ROC itself is nonexistent, and cross-strait relations in our span were thin to non-existent? Or would the latter two say \"Taiwan\" too?"
+
+**Nov. 26, 2026, about 9:36 pm PT.** "Should we switch U.S. states to a three-letter/postal abbreviation or something like? Or require a US- prefix? You're the coder and orchestrator of our small army of agents, so don't take my question as a \"push\" here. What would minimize error at least cost? (I know that's two optimization conditions rather than one, but...)"
+
+**Nov. 26, 2026, about 9:39 pm PT.** "I'm cool with it for Germany, if not the other three, since \"FRG\"/\"GDR\" read awkwardly to me while apparently \"BRD\" is both taboo and unmemorable. The West gets the DE. The East gets DDR."
+
+**Nov. 26, 2026, about 9:43 pm PT.** "The preview looks great!"
+
+**Nov. 26, 2026, about 9:45 pm PT.** "The NLF's entries should go on both North and South Vietnam's pages, unfortunately."
+
+**Nov. 26, 2026, about 9:45 pm PT.** "Do I need to do anything to approve appending a revised reader batch list to the end of the queue? Where did we leave that?"
+
+**Nov. 26, 2026, about 9:48 pm PT.** "What does the full queue look like now? What's in the Soviet and Sino-Soviet batches now? How big are they? Where might we put them?"
+
+**Nov. 26, 2026, about 10:07 pm PT.** "I adopt your recommendations in re: the queue. Have we ever done an inventory of uncited FRUS documents? It might make sense to conduct a volume-by-volume survey to see what we're missing, particularly in threads we've already read related literatures on (e.g., VN, the PRC, Cuba)."

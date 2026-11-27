@@ -53,6 +53,12 @@ STYLE
 14. A person `c` names without his `name:` tag, on each calendar entry the patch adds or edits, as the dry run leaves
     it: check's [name-untagged] (tools/bib/nametags.py), a warning; on an edited entry only what the edit brings
     (a finding the entry had before is the tree's). Fixed by the `names` op, or silenced by `ok:name-untagged`.
+15. The place tags (`polity:`, `state:`, `city:`, `province:`, `place:`) of each entry the patch adds or touches, as
+    the dry run leaves it: a tag that names nothing is check's error (placepages.tag_errors, by check.entry_problems:
+    8); a tag nothing else in the entry supports, check's [polity-tag], [state-tag] or [city-tag] (placepages.py,
+    STYLE 8), a warning, where the patch brings it; and each place tag the patch adds is printed with what it names
+    ("tag    cal.1961-04-29.x: polity:ch: Switzerland"; placepages.tag_name), so the auditor reads the code's
+    meaning. Not counted as a warning.
 """
 import collections
 import os
@@ -60,7 +66,9 @@ import os
 from . import store
 
 
-def check(series, path, legacy=False):
+def check(series, path, legacy=False, tags=None):
+    """(errors, warnings) for the patch at path; `tags`, a list, is given the place tags the patch adds, each with
+    its name (STYLE 15)."""
     from . import addops, claims, ledger, merge, patchaudit, witnesses
     from . import check as chk
     errors, warnings = [], []
@@ -206,6 +214,7 @@ def check(series, path, legacy=False):
     nbefore = name_tags(lst)                              # STYLE 13: the calendar's name tags, and who the series
     kbefore = person_keys(series) if people_ops(ops, lst) else None   # held where the patch may change it (Part III)
     ubefore = untagged_before(series, ops, lst)          # STYLE 14: the edited entries as they stood
+    pbefore = place_tags(series, touched, lst)           # STYLE 15: the place tags and their findings, before
     rep = merge.Report()
     merge.apply_patch(series, d, name, rep, dry=True)
     addops.join_clean(series, name, save=False)          # as the rolling merge will join them
@@ -223,6 +232,10 @@ def check(series, path, legacy=False):
     errors += [f"{w}: {m} [day-order]" for w, m in sorted(set(dayorder.problems(series)) - dbefore)]
     errors += name_tag_errors(series, lst, nbefore, kbefore)  # STYLE 13
     warnings += untagged_warnings(series, ops, lst, ubefore)  # STYLE 14
+    pw, pn = place_tag_lines(series, touched, lst, pbefore)   # STYLE 15
+    warnings += pw
+    if tags is not None:
+        tags += pn
     for l in rep.lines:
         if l.startswith("error"):
             msg = l.split(None, 1)[1]
@@ -235,6 +248,38 @@ def check(series, path, legacy=False):
     errors.extend(fe)
     warnings.extend(fw)
     return errors, warnings
+
+
+PLACE_NS = ("polity", "state", "city", "province", "place")
+
+
+def place_tags(series, ids, lst):
+    """STYLE 15: {id: (its place tags, its place-tag findings)} for the calendar entries ids name, as they stand."""
+    from . import placepages
+    out = {}
+    for eid in ids:
+        hit = series.get(eid) if lst is not None else None
+        if hit and hit[0] is lst:
+            e = hit[2]
+            out[eid] = ([str(t) for t in store.as_list(e.get("tags")) if str(t).partition(":")[0] in PLACE_NS],
+                        set(placepages.tag_findings(lst, e)))
+    return out
+
+
+def place_tag_lines(series, ids, lst, before):
+    """STYLE 15: (warnings, names): each place-tag finding the patch brings to an entry it adds or changes (one the
+    entry had before is the tree's), and each place tag it adds, with what it names ("polity:ch: Switzerland")."""
+    from . import placepages
+    after = place_tags(series, ids, lst)
+    warns, names = [], []
+    for eid, (tags, found) in after.items():
+        old_tags, old_found = before.get(eid, ([], set()))
+        warns += [f"{eid}: {m} [{r}]" for r, m in sorted(found - old_found)]
+        for t in tags:
+            if t not in old_tags:
+                n = placepages.tag_name(t)
+                names.append(f"{eid}: {t}: {n if n else 'names nothing'}")
+    return warns, names
 
 
 def name_tags(lst):
@@ -410,7 +455,8 @@ def subentry_problems(series, ops):
 
 
 def report(series, path, legacy=False):
-    errors, warnings = check(series, path, legacy)
+    tags = []
+    errors, warnings = check(series, path, legacy, tags)
     out = [f"== {os.path.basename(path)}: {len(errors)} errors, {len(warnings)} warnings"]
-    out += ["  error  " + x for x in errors] + ["  warn   " + x for x in warnings]
+    out += ["  error  " + x for x in errors] + ["  warn   " + x for x in warnings] + ["  tag    " + x for x in tags]
     return "\n".join(out), bool(errors)

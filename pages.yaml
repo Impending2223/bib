@@ -2,7 +2,8 @@
 # budget: bytes a page may hold, its HTML alone; budgets: a family's own; fill: a split packs its parts to this share
 # of the budget; exempt: reported, never split. The rest is the plan, written by `./bib pages --plan` (by hand only to
 # set a split aside): names, a letter in surname ranges; works, a page a letter; executive and congress, their top
-# sections in parts; threads, a thread's page in parts by date; retired, the pages a split replaced, each forwarding
+# sections in parts; threads, a thread's page in parts by date; places, a place's the same; retired, the pages a
+# split replaced, each forwarding
 # its old links. The calendar's parts are in
 # lists/cal/list.yaml (`split:`, `retired_parts`).
 budget: 5000000
@@ -504,6 +505,13 @@ threads:
   - page: threads-china-army-1967
     from: '1967-01-01'
     label: 1967–1970
+  china-economy:
+  - page: threads-china-economy-1960
+    from: '1960-01-01'
+    label: 1960–1963
+  - page: threads-china-economy-1964
+    from: '1964-01-01'
+    label: 1964–1970
   china-foreign:
   - page: threads-china-foreign-1960Q1
     from: '1960-01-01'
@@ -694,6 +702,398 @@ threads:
   - page: threads-vietnam-hanoi-1969
     from: '1969-01-01'
     label: 1969–1970
+places:
+  drv:
+  - from: '1960-01-01'
+    label: 1960–1962
+    page: places-drv-1960
+  - from: '1963-01-01'
+    label: 1963–1964
+    page: places-drv-1963
+  - from: '1965-01-01'
+    label: 1965–1966
+    page: places-drv-1965
+  - from: '1967-01-01'
+    label: 1967–1970
+    page: places-drv-1967
+  peking:
+  - from: '1960-01-01'
+    label: '1960'
+    page: places-peking-1960
+  - from: '1961-01-01'
+    label: '1961'
+    page: places-peking-1961
+  - from: '1962-01-01'
+    label: '1962'
+    page: places-peking-1962
+  - from: '1963-01-01'
+    label: Jan.–Sept. 1963
+    page: places-peking-1963Q1
+  - from: '1963-10-01'
+    label: Oct. 1963–June 1964
+    page: places-peking-1963Q4
+  - from: '1964-07-01'
+    label: July 1964–June 1965
+    page: places-peking-1964Q3
+  - from: '1965-07-01'
+    label: July 1965–Mar. 1966
+    page: places-peking-1965Q3
+  - from: '1966-04-01'
+    label: Apr.–Sept. 1966
+    page: places-peking-1966Q2
+  - from: '1966-10-01'
+    label: Oct. 1966–Dec. 1967
+    page: places-peking-1966Q4
+  - from: '1968-01-01'
+    label: 1968–1970
+    page: places-peking-1968
+  prc:
+  - from: '1960-01-01'
+    label: Jan.–Feb. 1960
+    page: places-prc-1960-01
+  - from: '1960-03-01'
+    label: Mar. 1960
+    page: places-prc-1960-03
+  - from: '1960-04-01'
+    label: Apr. 1960
+    page: places-prc-1960-04
+  - from: '1960-05-01'
+    label: May 1960
+    page: places-prc-1960-05
+  - from: '1960-06-01'
+    label: June–July 1960
+    page: places-prc-1960-06
+  - from: '1960-08-01'
+    label: Aug.–Sept. 1960
+    page: places-prc-1960-08
+  - from: '1960-10-01'
+    label: Oct. 1960
+    page: places-prc-1960-10
+  - from: '1960-11-01'
+    label: Nov. 1960
+    page: places-prc-1960-11
+  - from: '1960-12-01'
+    label: Dec. 1960
+    page: places-prc-1960-12
+  - from: '1961-01-01'
+    label: Jan. 1961
+    page: places-prc-1961-01
+  - from: '1961-02-01'
+    label: Feb.–Mar. 1961
+    page: places-prc-1961-02
+  - from: '1961-04-01'
+    label: Apr. 1961
+    page: places-prc-1961-04
+  - from: '1961-05-01'
+    label: May–June 1961
+    page: places-prc-1961-05
+  - from: '1961-07-01'
+    label: July–Aug. 1961
+    page: places-prc-1961-07
+  - from: '1961-09-01'
+    label: Sept.–Oct. 1961
+    page: places-prc-1961-09
+  - from: '1961-11-01'
+    label: Nov.–Dec. 1961
+    page: places-prc-1961-11
+  - from: '1962-01-01'
+    label: Jan.–Feb. 1962
+    page: places-prc-1962-01
+  - from: '1962-03-01'
+    label: Mar.–Apr. 1962
+    page: places-prc-1962-03
+  - from: '1962-05-01'
+    label: May–June 1962
+    page: places-prc-1962-05
+  - from: '1962-07-01'
+    label: July–Aug. 1962
+    page: places-prc-1962-07
+  - from: '1962-09-01'
+    label: Sept.–Oct. 1962
+    page: places-prc-1962-09
+  - from: '1962-11-01'
+    label: Nov.–Dec. 1962
+    page: places-prc-1962-11
+  - from: '1963-01-01'
+    label: Jan.–Feb. 1963
+    page: places-prc-1963-01
+  - from: '1963-03-01'
+    label: Mar.–Apr. 1963
+    page: places-prc-1963-03
+  - from: '1963-05-01'
+    label: May–June 1963
+    page: places-prc-1963-05
+  - from: '1963-07-01'
+    label: July–Aug. 1963
+    page: places-prc-1963-07
+  - from: '1963-09-01'
+    label: Sept.–Oct. 1963
+    page: places-prc-1963-09
+  - from: '1963-11-01'
+    label: Nov.–Dec. 1963
+    page: places-prc-1963-11
+  - from: '1964-01-01'
+    label: Jan. 1964
+    page: places-prc-1964-01
+  - from: '1964-02-01'
+    label: Feb.–Mar. 1964
+    page: places-prc-1964-02
+  - from: '1964-04-01'
+    label: Apr.–May 1964
+    page: places-prc-1964-04
+  - from: '1964-06-01'
+    label: June–July 1964
+    page: places-prc-1964-06
+  - from: '1964-08-01'
+    label: Aug.–Sept. 1964
+    page: places-prc-1964-08
+  - from: '1964-10-01'
+    label: Oct. 1964
+    page: places-prc-1964-10
+  - from: '1964-11-01'
+    label: Nov.–Dec. 1964
+    page: places-prc-1964-11
+  - from: '1965-01-01'
+    label: Jan.–Feb. 1965
+    page: places-prc-1965-01
+  - from: '1965-03-01'
+    label: Mar. 1965
+    page: places-prc-1965-03
+  - from: '1965-04-01'
+    label: Apr.–May 1965
+    page: places-prc-1965-04
+  - from: '1965-06-01'
+    label: June–July 1965
+    page: places-prc-1965-06
+  - from: '1965-08-01'
+    label: Aug.–Sept. 1965
+    page: places-prc-1965-08
+  - from: '1965-10-01'
+    label: Oct.–Nov. 1965
+    page: places-prc-1965-10
+  - from: '1965-12-01'
+    label: Dec. 1965–Jan. 1966
+    page: places-prc-1965-12
+  - from: '1966-02-01'
+    label: Feb.–Mar. 1966
+    page: places-prc-1966-02
+  - from: '1966-04-01'
+    label: Apr.–May 1966
+    page: places-prc-1966-04
+  - from: '1966-06-01'
+    label: June 1966
+    page: places-prc-1966-06
+  - from: '1966-07-01'
+    label: July 1966
+    page: places-prc-1966-07
+  - from: '1966-08-01'
+    label: Aug. 1966
+    page: places-prc-1966-08
+  - from: '1966-09-01'
+    label: Sept.–Oct. 1966
+    page: places-prc-1966-09
+  - from: '1966-11-01'
+    label: Nov.–Dec. 1966
+    page: places-prc-1966-11
+  - from: '1967-01-01'
+    label: Jan. 1967
+    page: places-prc-1967-01
+  - from: '1967-02-01'
+    label: Feb.–Mar. 1967
+    page: places-prc-1967-02
+  - from: '1967-04-01'
+    label: Apr.–June 1967
+    page: places-prc-1967Q2
+  - from: '1967-07-01'
+    label: July–Aug. 1967
+    page: places-prc-1967-07
+  - from: '1967-09-01'
+    label: Sept.–Dec. 1967
+    page: places-prc-1967-09
+  - from: '1968-01-01'
+    label: Jan.–Mar. 1968
+    page: places-prc-1968Q1
+  - from: '1968-04-01'
+    label: Apr.–June 1968
+    page: places-prc-1968Q2
+  - from: '1968-07-01'
+    label: July–Sept. 1968
+    page: places-prc-1968Q3
+  - from: '1968-10-01'
+    label: Oct.–Dec. 1968
+    page: places-prc-1968Q4
+  - from: '1969-01-01'
+    label: Jan.–Mar. 1969
+    page: places-prc-1969Q1
+  - from: '1969-04-01'
+    label: Apr.–Sept. 1969
+    page: places-prc-1969Q2
+  - from: '1969-10-01'
+    label: Oct. 1969–Dec. 1970
+    page: places-prc-1969Q4
+  rvn:
+  - from: '1960-01-01'
+    label: 1960–1964
+    page: places-rvn-1960
+  - from: '1965-01-01'
+    label: 1965–1966
+    page: places-rvn-1965
+  - from: '1967-01-01'
+    label: 1967–1969
+    page: places-rvn-1967
+  us:
+  - from: '1960-01-01'
+    label: Jan.–June 1960
+    page: places-us-1960Q1
+  - from: '1960-07-01'
+    label: July–Aug. 1960
+    page: places-us-1960-07
+  - from: '1960-09-01'
+    label: Sept. 1960
+    page: places-us-1960-09
+  - from: '1960-10-01'
+    label: Oct.–Dec. 1960
+    page: places-us-1960Q4
+  - from: '1961-01-01'
+    label: Jan.–Mar. 1961
+    page: places-us-1961Q1
+  - from: '1961-04-01'
+    label: Apr.–June 1961
+    page: places-us-1961Q2
+  - from: '1961-07-01'
+    label: July–Dec. 1961
+    page: places-us-1961Q3
+  - from: '1962-01-01'
+    label: Jan.–June 1962
+    page: places-us-1962Q1
+  - from: '1962-07-01'
+    label: July–Sept. 1962
+    page: places-us-1962Q3
+  - from: '1962-10-01'
+    label: Oct.–Dec. 1962
+    page: places-us-1962Q4
+  - from: '1963-01-01'
+    label: Jan.–Mar. 1963
+    page: places-us-1963Q1
+  - from: '1963-04-01'
+    label: Apr.–June 1963
+    page: places-us-1963Q2
+  - from: '1963-07-01'
+    label: July–Sept. 1963
+    page: places-us-1963Q3
+  - from: '1963-10-01'
+    label: Oct.–Nov. 1963
+    page: places-us-1963-10
+  - from: '1963-12-01'
+    label: Dec. 1963
+    page: places-us-1963-12
+  - from: '1964-01-01'
+    label: Jan.–Mar. 1964
+    page: places-us-1964Q1
+  - from: '1964-04-01'
+    label: Apr.–May 1964
+    page: places-us-1964-04
+  - from: '1964-06-01'
+    label: June–July 1964
+    page: places-us-1964-06
+  - from: '1964-08-01'
+    label: Aug.–Sept. 1964
+    page: places-us-1964-08
+  - from: '1964-10-01'
+    label: Oct. 1964–Jan. 1965
+    page: places-us-1964Q4
+  - from: '1965-02-01'
+    label: Feb.–Mar. 1965
+    page: places-us-1965-02
+  - from: '1965-04-01'
+    label: Apr.–June 1965
+    page: places-us-1965Q2
+  - from: '1965-07-01'
+    label: July–Sept. 1965
+    page: places-us-1965Q3
+  - from: '1965-10-01'
+    label: Oct.–Dec. 1965
+    page: places-us-1965Q4
+  - from: '1966-01-01'
+    label: Jan.–Mar. 1966
+    page: places-us-1966Q1
+  - from: '1966-04-01'
+    label: Apr.–June 1966
+    page: places-us-1966Q2
+  - from: '1966-07-01'
+    label: July–Sept. 1966
+    page: places-us-1966Q3
+  - from: '1966-10-01'
+    label: Oct.–Dec. 1966
+    page: places-us-1966Q4
+  - from: '1967-01-01'
+    label: Jan.–Mar. 1967
+    page: places-us-1967Q1
+  - from: '1967-04-01'
+    label: Apr.–June 1967
+    page: places-us-1967Q2
+  - from: '1967-07-01'
+    label: July–Sept. 1967
+    page: places-us-1967Q3
+  - from: '1967-10-01'
+    label: Oct.–Dec. 1967
+    page: places-us-1967Q4
+  - from: '1968-01-01'
+    label: Jan.–Feb. 1968
+    page: places-us-1968-01
+  - from: '1968-03-01'
+    label: Mar. 1968
+    page: places-us-1968-03
+  - from: '1968-04-01'
+    label: Apr.–May 1968
+    page: places-us-1968-04
+  - from: '1968-06-01'
+    label: June–July 1968
+    page: places-us-1968-06
+  - from: '1968-08-01'
+    label: Aug.–Sept. 1968
+    page: places-us-1968-08
+  - from: '1968-10-01'
+    label: Oct. 1968–Dec. 1976
+    page: places-us-1968Q4
+  ussr:
+  - from: '1960-01-01'
+    label: '1960'
+    page: places-ussr-1960
+  - from: '1961-01-01'
+    label: 1961–1962
+    page: places-ussr-1961
+  - from: '1963-01-01'
+    label: 1963–1965
+    page: places-ussr-1963
+  - from: '1966-01-01'
+    label: 1966–1970
+    page: places-ussr-1966
+  washington:
+  - from: '1960-01-01'
+    label: 1960–1961
+    page: places-washington-1960
+  - from: '1962-01-01'
+    label: '1962'
+    page: places-washington-1962
+  - from: '1963-01-01'
+    label: '1963'
+    page: places-washington-1963
+  - from: '1964-01-01'
+    label: '1964'
+    page: places-washington-1964
+  - from: '1965-01-01'
+    label: '1965'
+    page: places-washington-1965
+  - from: '1966-01-01'
+    label: '1966'
+    page: places-washington-1966
+  - from: '1967-01-01'
+    label: '1967'
+    page: places-washington-1967
+  - from: '1968-01-01'
+    label: 1968–1972
+    page: places-washington-1968
 retired:
 - names-ba-blanch
 - names-blanck-buckleyo

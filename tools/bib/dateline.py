@@ -27,6 +27,8 @@ STYLE
  4. Washington when the day differs: where the local day is not Washington's, "(Mar. 10, 11 p.m. Wash.)", not on
     the line but in its `title` (shown on hover or a long press), with the range's end: the title is the dateline in
     full ("Peking · 10–11 a.m. (Mar. 10, 9 p.m. Wash.)"), given only where it says more than the line.
+ 5. The place's page: a place in the line that has a page of its own (a city, a State, a province) links to it, in
+    the site's one style for its own links (placepages.py, STYLE 6); a tap on it follows it, never opening the rubric.
 """
 import datetime
 import html
@@ -224,7 +226,14 @@ def html_(e):
     if not s:
         return ""
     title = f' title="{html.escape(whole)}"' if whole != s else ""
-    return f'<span class="dl"{title}>{html.escape(s)}</span>'
+    inner = html.escape(s)
+    place = s.split(" · ", 1)[0] if " · " in s else None
+    if place:                           # the place's page, where it has one (placepages.py, STYLE 6)
+        from . import placepages
+        href = placepages.dateline_link(e, place)
+        if href:
+            inner = f'<a href="{href}.html">{html.escape(place)}</a>' + html.escape(s[len(place):])
+    return f'<span class="dl"{title}>{inner}</span>'
 
 
 STYLE = """<style id="dlstyle">
@@ -245,7 +254,7 @@ SCRIPT = """<script>
     if(r.classList.contains('open'))return; var s=r.firstElementChild;
     r.classList.toggle('clip', s.scrollWidth>s.clientWidth+1);});}
   document.addEventListener('click',function(ev){var r=ev.target.closest&&ev.target.closest('.rubrow.clip');
-    if(!r||r.classList.contains('open'))return; ev.preventDefault(); r.classList.add('open'); r.classList.remove('clip');},true);
+    if(!r||r.classList.contains('open')||ev.target.closest('.dl a'))return; ev.preventDefault(); r.classList.add('open'); r.classList.remove('clip');},true);
   window.addEventListener('resize',mark); window.addEventListener('load',mark);
   if(document.fonts&&document.fonts.ready)document.fonts.ready.then(mark);
   document.addEventListener('toggle',mark,true); setTimeout(mark,0);

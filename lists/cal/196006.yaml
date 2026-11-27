@@ -1082,10 +1082,11 @@ entries:
     also: [china-foreign, comecon]
     follows:
       - cal.1960-06-07.china-leadership-3
-    c: Hangzhou.{1} Mao receives the Albanian parliamentary delegation under Haxhi Lleshi, chairman of the Presidium of the People's Assembly (Xi Zhongxun and Ji Pengfei report their talks first);{2} Saifuddin and Yang Shangkun present. The Japanese–American alliance aimed at China and the Soviet Union; America would isolate China and cannot; at most a tenth of the world against it.{3}
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 7, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 146 (June 2–22, 1960; the Albanian delegation visits on invitation; Mao receives it at Hangzhou); [[w.yang-shangkun-riji]], I, 516 (June 7, 1960; 5 to 7 p.m.; Yang with Mao). Made public: 2001. Names: Mao Zedong, Haxhi Lleshi, Xi Zhongxun, Ji Pengfei, Saifuddin, Yang Shangkun.'
+      - cal.1960-06-07.china-mao-foreign
+    c: Hangzhou.{1} Mao receives the Albanian parliamentary delegation under Haxhi Lleshi, chairman of the Presidium of the People's Assembly;{2} Xi Zhongxun, Saifuddin, Yang Shangkun and Ji Pengfei present. The Japanese–American alliance aimed at China and the Soviet Union; America would isolate China and cannot; at most a tenth of the world against it.{3}
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 7, 1960; [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 146 (June 2–22, 1960; the Albanian delegation visits on invitation; Mao receives it at Hangzhou); [[w.yang-shangkun-riji]], I, 516 (June 7, 1960; 5 to 7 p.m.; Yang with Mao). Made public: 2001. The Mao nianpu has Xi Zhongxun, Saifuddin, Yang Shangkun and Ji Pengfei present at the audience (习仲勋、赛福鼎、杨尚昆、姬鹏飞等在座); the earlier report of Xi and Ji is [[cal.1960-06-07.china-mao-foreign]]. The order: after [[cal.1960-06-07.china-mao-foreign]], [[w.zedong-mao-zedong-nianpu]], IV, June 7, 1960 (the report "下午四时", the audience "下午五时半"). Names: Mao Zedong, Haxhi Lleshi, Xi Zhongxun, Ji Pengfei, Saifuddin, Yang Shangkun.'
     src:
-      c: fe4b5059
+      c: b5f086a5
       rows:
         - 'w.zedong-mao-zedong-nianpu IV, June 7, 1960: 1, 2, 3'
         - 'w.zhonghua-renmin-gongheguo-waijiao-2001 146: 2'
@@ -1202,6 +1203,17 @@ entries:
     c: Chen Yun 陈云 goes from Hangzhou 杭州 to Shanghai 上海.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 38. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun]
+  - id: cal.1960-06-07.china-mao-foreign
+    when: June 7
+    date: '1960-06-07'
+    time: 1960-06-07T08:00Z
+    place: hangzhou
+    thread: china-mao-foreign
+    also: [china-foreign, comecon]
+    c: Hangzhou, the Hangzhou Hotel 杭州饭店, 4 p.m. Mao hears Xi Zhongxun and Ji Pengfei on their talks with the Albanian parliamentary delegation.
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, June 7, 1960. The words: 下午四时 (IV, June 7, 1960). Made public: 2013. See [[cal.1960-06-07.china-leadership]]. Names: Mao Zedong, Xi Zhongxun, Ji Pengfei.'
+    tags: [polity:prc, name:mao-zedong, name:xi-zhongxun, name:ji-pengfei, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-08.elections-1960
     when: June 8
     date: '1960-06-08'
@@ -1470,6 +1482,16 @@ entries:
     also: [latin-america, jewish-diaspora]
     c: Argentina, by note to Israel, demands Eichmann's return and the punishment of those responsible for the violation of Argentine law.
     n: '"Argentina Asked to End Nazi Case," [*New York Times*, July 5, 1960](https://timesmachine.nytimes.com/timesmachine/1960/07/05/issue.html), at 8.'
+  - id: cal.1960-06-08.elections-1960-rockefeller
+    when: June 8–9
+    date: '1960-06-08'
+    thread: elections-1960-rockefeller
+    also: [republican-party]
+    follows:
+      - cal.1960-06-08.elections-1960
+    c: 'Eisenhower, on Rockefeller''s statement: "I see the fine hand of Emmet in this."'
+    n: '[[w.smith-on-his-own-terms]], 341 (Eisenhower "muttered" it; Smith tells it after Nixon''s remark that Rockefeller deserved "a good swift kick" and before Rockefeller''s telephone call to the White House of June 9). Alan Levy, "Today''s Writing: Art or Séance?," [*The Tech* (MIT), Apr. 25, 1962](http://tech.mit.edu/V82/PDF/V82-N11.pdf) (Eisenhower "remarked" it when Rockefeller "fired off a pre-convention blast at Nixon and the Eisenhower Administration"; Smith''s source, 341 n.). Made public: *The Tech* (MIT), Apr. 25, 1962, the earliest printing found. See [[cal.1960-06-08.elections-1960]]. Check: the day, June 8 or 9, and to whom he said it; neither Smith nor Levy gives either. Names: Eisenhower, Rockefeller, Emmet Hughes.'
+    tags: [name:eisenhower-dwight-d, name:rockefeller-nelson, name:hughes-emmet-john]
   - id: cal.1960-06-09.economy
     when: June 9
     date: '1960-06-09'
@@ -2675,26 +2697,11 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1559: ?'
         - 'w.chen-yun-nianpu-xiuding III, 39: ?'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:zhou-enlai, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:he-long, name:nie-rongzhen, name:luo-ruiqing, name:eisenhower-dwight-d, vis:only:prc]
-  - id: cal.1960-06-16.soviet-union
-    when: June 16
-    date: '1960-06-16'
-    place: moscow
-    thread: soviet-union
-    also: [china-leadership]
-    c: Moscow.{1} Peng Zhen's delegation, left Peking that day, meets Kozlov of the Presidium for eight hours of argument.{2} Kozlov faults the three Lenin articles and the Peking trade-union meeting, in theory and in organization, a typed document of some twenty pages in hand; asked how the Bucharest meeting is to go, he says it will be settled there. The delegation cables that it is not a good sign.{3} Liu Xiao is there. Kozlov wants "the mutual relations of the two parties" discussed and faults the Chinese line on the epoch, war and peace, coexistence, peaceful transition, relations between parties, domestic policy, the "hundred flowers," the economy and India. Peng answers point by point; at the end he says the two parties should and can unite and should exchange views often.{4}
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 279–280; [[w.brothers-in-arms]], 363 (Chen Yi to Chervonenko, Aug. 4, 1960: Peng Zhen''s talks with Kozlov at Moscow brought no unity); [[w.peng-zhen-nianpu-1902]], IV, 35–36 (June 17, 1960, 3 to 11:20 p.m. Moscow time, at the CPSU Central Committee''s building; Peng Zhen''s delegation with Kozlov and other Presidium members, Liu Xiao there; the Soviet side wants "the mutual relations of the two parties" discussed and faults the Chinese line on the epoch, war and peace, coexistence, peaceful transition, relations between parties, domestic policy, the "hundred flowers," the economy and India; Peng answers point by point; over eight hours; Peng at the end: the two parties should and can unite, and should exchange views often); [[w.peng-zhen-nianpu-1902]], IV, 35–36. Made public: 1998 ([[w.brothers-in-arms]], 363, Chen Yi''s account in the Soviet record of Aug. 4, 1960). Check: the Deng nianpu''s footnote (III, 1565 n.1) dates the Moscow talks of Peng Zhen''s delegation with Kozlov June 17, 1960. Check: [[w.friedman-shadow-cold-war]], 52 n.105 (Kozlov''s report to the July plenum), has a Soviet delegation led by Kozlov, Kuusinen, Ponomarev and Andropov ask the Chinese delegation of Peng Zhen and Kang Sheng, at a meeting before the Romanian congress, "Are you looking for allies for yourselves in a struggle against the CPSU?"; it puts that meeting "at the beginning of July.". Check: the Peng Zhen chronology puts the talks June 17, 3 to 11:20 p.m. Moscow time, at the CPSU Central Committee''s building ([[w.peng-zhen-nianpu-1902]], IV, 35); so does the Deng chronology''s note (III, 1565 n.1). See [[cal.1960-06-12.china-leadership]]. Names: Peng Zhen, Kozlov, Liu Xiao. Check: Wu gives the first day only, "June 16" for the departure; the 8 hours as the delegation cabled them.'
-    src:
-      c: 7bd76eac
-      rows:
-        - 'w.lengxi-shinian-lunzhan-1956-1966 279–280: 1, 2, 3'
-        - 'w.brothers-in-arms 363: ?'
-        - 'w.peng-zhen-nianpu-1902 IV, 35–36: 4'
-    tags: [polity:prc, name:peng-zhen, name:kozlov-frol-r, vis:only:prc+ussr, name:liu-xiao, ok:note-substance]
-    variants:
-      - unit: '2'
-        witness: w.peng-zhen-nianpu-1902
-        reads: the talks with Kozlov and the other Presidium members on June 17, 1960, from 3 p.m. to 11:20 p.m., Moscow time, at the CPSU Central Committee's building, Ambassador Liu Xiao present; the delegation reached Moscow June 16
-        at: IV, 35
+    range_basis: record
+    time_range:
+      - 1960-06-16T11:00Z
+      - 1960-06-16T12:30Z
+    time_zone: Asia/Shanghai
   - id: cal.1960-06-16.china-leadership-2
     when: June 16
     date: '1960-06-16'
@@ -2933,6 +2940,26 @@ entries:
     c: Ye Jianying 叶剑英 speaks at the Academy of Military Science's 军事科学院 mobilization meeting against bureaucratism 反对官僚主义动员大会 and calls on all its staff to join the movement.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 880. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
+  - id: cal.1960-06-16.soviet-union
+    when: June 17
+    date: '1960-06-17'
+    place: moscow
+    thread: soviet-union
+    also: [china-leadership]
+    c: Moscow.{1} Peng Zhen's delegation, arrived from Peking the day before, meets Kozlov of the Presidium for eight hours of argument.{2} Kozlov faults the three Lenin articles and the Peking trade-union meeting, in theory and in organization, a typed document of some twenty pages in hand; asked how the Bucharest meeting is to go, he says it will be settled there. The delegation cables that it is not a good sign.{3} Liu Xiao is there. Kozlov wants "the mutual relations of the two parties" discussed and faults the Chinese line on the epoch, war and peace, coexistence, peaceful transition, relations between parties, domestic policy, the "hundred flowers," the economy and India. Peng answers point by point; at the end he says the two parties should and can unite and should exchange views often.{4}
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 279–280; [[w.brothers-in-arms]], 363 (Chen Yi to Chervonenko, Aug. 4, 1960: Peng Zhen''s talks with Kozlov at Moscow brought no unity); [[w.peng-zhen-nianpu-1902]], IV, 35–36 (June 17, 1960, 3 to 11:20 p.m. Moscow time, at the CPSU Central Committee''s building; Peng Zhen''s delegation with Kozlov and other Presidium members, Liu Xiao there; the Soviet side wants "the mutual relations of the two parties" discussed and faults the Chinese line on the epoch, war and peace, coexistence, peaceful transition, relations between parties, domestic policy, the "hundred flowers," the economy and India; Peng answers point by point; over eight hours; Peng at the end: the two parties should and can unite, and should exchange views often); [[w.deng-xiaoping-nianpu-1904]], III, 1565 n.1 (the talks of June 17, 1960). The day: the Peng Zhen nianpu dates the talks June 17 (IV, 35), with the delegation leaving Peking and reaching Moscow June 16; Wu has the delegation reach Moscow June 16 and meet Kozlov "the next day" (279). Made public: 1998 ([[w.brothers-in-arms]], 363, Chen Yi''s account in the Soviet record of Aug. 4, 1960). Check: [[w.friedman-shadow-cold-war]], 52 n.105 (Kozlov''s report to the July plenum), has a Soviet delegation led by Kozlov, Kuusinen, Ponomarev and Andropov ask the Chinese delegation of Peng Zhen and Kang Sheng, at a meeting before the Romanian congress, "Are you looking for allies for yourselves in a struggle against the CPSU?"; it puts that meeting "at the beginning of July.". See [[cal.1960-06-12.china-leadership]]. Names: Peng Zhen, Kozlov, Liu Xiao.'
+    src:
+      c: f6317a49
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 279–280: 1, 2, 3'
+        - 'w.brothers-in-arms 363: ?'
+        - 'w.peng-zhen-nianpu-1902 IV, 35–36: 4'
+    tags: [polity:prc, name:peng-zhen, name:kozlov-frol-r, vis:only:prc+ussr, name:liu-xiao, ok:note-substance]
+    range_basis: record
+    time_range:
+      - 1960-06-17T12:00Z
+      - 1960-06-17T20:20Z
+    time_zone: Europe/Moscow
   - id: cal.1960-06-18.japan-and-korea-far-east
     when: June 18–19
     date: '1960-06-18'

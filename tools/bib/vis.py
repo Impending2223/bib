@@ -181,6 +181,21 @@ def polities():
     return _cache["pol"]
 
 
+class held:
+    """`with vis.held():` the register (and the registry, once read) taken as read for what the block does, as
+    entry_claims holds them for its pass, not checked for a change at every call; a nested block keeps the outer
+    one's state."""
+
+    def __enter__(self):
+        self.was = _cache.get("frozen")
+        polities()
+        _cache["frozen"] = True
+
+    def __exit__(self, *a):
+        _cache["frozen"] = self.was
+        return False
+
+
 def is_org(pid):
     return bool((polities()["polities"].get(pid) or {}).get("org"))
 
@@ -226,9 +241,14 @@ def person_private(key, date):
 
 
 def place_polities(tag):
-    """A place tag's polities: its own row, else its namespace's (`state:*`), else []."""
+    """A place tag's polities: its own row; for a city, its gazetteer row's nation; else its namespace's (`state:*`); else []."""
     P = polities()["places"]
     v = P.get(tag)
+    if v is None and tag.startswith("city:"):          # a city: its gazetteer row's nation (the owner's place pages,
+        from . import places                           # Nov. 26, 2026: `city:*` alone made Berlin and Manila American)
+        row = places.get(tag[5:])
+        if row is not None:
+            v = ["us"] if row.get("st") else [x for x in store.as_list(row.get("in")) if x]
     if v is None and ":" in tag:
         v = P.get(tag.split(":", 1)[0] + ":*")
     if isinstance(v, dict):
