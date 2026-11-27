@@ -18,17 +18,20 @@ STYLE
     its heading (R18, notes/briefs/reader.md): "transmitting", "covering", "enclosing", "with attached", "letter of
     transmittal". Judged before any match.
  3. The document's persons: those its sources list as named in it or as its sender (sources/frus-names), kept only
-    where the heading writes one of the person's surnames, whole and capitalized (the title, the author, the lists of
-    persons in the head). The sitting President (Eisenhower to Jan. 20, 1961; Kennedy to Nov. 22, 1963; then
-    Johnson) is never taken by his bare surname ('(Johnson)' is U. Alexis Johnson): he is a person of the document
-    where the heading says "the President" (not "the President's", "the President of"; not "Vice President") or
-    "President Kennedy" and the like.
+    where the heading writes one of the person's surnames, whole and capitalized: the title, the lists of persons in
+    the head under PARTICIPANTS, PRESENT, TO, FROM and the like (PERSON_LISTS; a list with no such label over it is
+    the body's), and the daybook's author, but not for a telegram from the Department of State, whose author is the
+    Secretary or the Acting Secretary who signed it, not its sender. The sitting President (Eisenhower to Jan. 20,
+    1961; Kennedy to Nov. 22, 1963; then Johnson) is never taken by his bare surname ('(Johnson)' is U. Alexis
+    Johnson): he is a person of the document where the heading says "the President" (not "the President's", "the
+    President of"; not "Vice President") or "President Kennedy" and the like.
  4. The days: the document's date, the day before and the day after; a document dated over a range (`until`) of a
     week or less, its range and a day either side. A calendar entry falls on them where its own days (its date to the
     last day its `when` gives: tools/bib/daybook.py, end_of) meet them. Month-dated entries never do.
- 5. Sort (a), by persons: an entry of those days tags (`name:`) one of the document's persons, other than the sitting
-    President. The President alone counts only where the entry is also in the volume's threads (STYLE 6): he is
-    tagged on all his own acts, most of them on other matters.
+ 5. Sort (a), by persons: an entry of those days tags (`name:`) one of the document's persons, and either falls in a
+    thread the volume belongs to (STYLE 6) or tags two of them. The sitting President never counts alone: he is
+    tagged on all his own acts, most of them on other matters. (Tried first without the thread or the second person,
+    Nov. 27, 2026: a document matched every entry of its days that tagged Rusk or McNamara.)
  6. Sort (a), by thread: where no entry matches by persons and the heading names none of the persons, an entry of
     those days whose thread or `also` falls in a thread the volume belongs to (THREADS; a subthread counts as its
     top thread). A document whose heading names persons, none of them in an entry of those days, is not matched by
@@ -36,8 +39,8 @@ STYLE
  7. Sort (b): the rest, the likely missing entries.
  8. THREADS was made by hand from each volume's title in the daybook (`vol`), against the threads' names in
     lists/cal/th.yaml, and where a country has no thread of its own, the thread its entries are filed under (./bib
-    find, Nov. 27, 2026: Thailand's under Laos, Cambodia's under Vietnam, Burma's, Taiwan's and Mongolia's under
-    China's, Eastern Europe's under the Soviet Union's). A volume of several subjects takes each subject's thread.
+    find, Nov. 27, 2026: Thailand's under Laos, Cambodia's under Vietnam, Burma's and Taiwan's under China, Poland's
+    and Yugoslavia's under the Soviet Union). A volume of several subjects takes each subject's thread.
  9. The table: one row a document, tab-separated, with a header row: key, volume (as FRUS is cited: "FRUS 1961–63,
     II"), number, date, heading (the daybook's title), sort (a, b, c), by (persons, thread, or the routine reason),
     entries (the matched ids, space-separated; by persons, the persons' keys after them in brackets).
@@ -240,13 +243,16 @@ def names_president(head, surname):
 
 
 def has_form(head_words, form_words):
-    """A surname, as its words, stands whole in the heading, its first word capitalized."""
+    """A surname, as its words, stands whole in the heading, each word the form capitalizes capitalized there too
+    ('de Gaulle' in 'General de Gaulle'; not 'Wood' in 'wood')."""
     n = len(form_words)
     if not n:
         return False
     low = [w.lower() for w in form_words]
+    caps = [w[:1].isupper() for w in form_words]
     for i in range(len(head_words) - n + 1):
-        if head_words[i][:1].isupper() and [w.lower() for w in head_words[i:i + n]] == low:
+        got = head_words[i:i + n]
+        if [w.lower() for w in got] == low and all(w[:1].isupper() for w, c in zip(got, caps) if c):
             return True
     return False
 
@@ -254,8 +260,8 @@ def has_form(head_words, form_words):
 def heading_persons(head, candidates, day):
     """STYLE 3: of the document's persons ({key: [surname, ...]}), those the heading names; the sitting President
     only by "the President" or "President <his surname>"."""
-    hw = words(head)
     pkey, psur = president_on(day)
+    hw = words(re.sub(r"\bPresident " + psur + r"\b", "President", head))   # his surname is not another's
     got = set()
     for k, surs in candidates.items():
         if k == pkey:
@@ -282,7 +288,8 @@ def meets(a, b, x, y):
 
 def sort_doc(doc, persons, entries, vol_threads, president=None):
     """STYLE 2, 5-7: (sort, by, [(entry id, [shared persons])]). doc: {title, placed}; persons: the heading's persons;
-    entries: [{id, names, roots}] of the document's days; vol_threads: the volume's threads (top threads)."""
+    entries: [{id, names, roots}] of the document's days; vol_threads: the volume's threads (top threads); president:
+    the sitting President's key."""
     why = routine(doc.get("title"), doc.get("placed"))
     if why:
         return "c", why, []
