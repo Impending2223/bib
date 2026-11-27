@@ -1,14 +1,14 @@
 # The place pages: a preview of four
 
-Nov. 27, 2026. For the owner. This follows `notes/proposals/place-pages.md` and ruling 66.
+Nov. 27, 2026. For the owner. This follows `notes/proposals/place-pages.md` and rulings 66 and 67.
 
 ## Where to look
 
-The four pages are in `notes/proposals/place-preview/`: `places-laos.html`, `places-alabama.html`, `places-shaanxi.html` and `places-chicago.html`. The threads' index with its new section "Places" is beside them, as `threads.html` (go to the end, or to `threads.html#places`).
+The four pages are in `notes/proposals/place-preview/`: `places-laos.html`, `places-alabama.html`, `places-shaanxi.html` and `places-chicago.html`. The threads' index with its new section "Places" is beside them, as `threads.html` (go to the end, or to `threads.html#places`). One part of the calendar, April to June 1961, is there too, as `cal1961Q2.html`, to show the dateline's links and the "Places:" line on the calendar's own page.
 
 Open the folder through a small web server, as the guide for the maps says (`npx http-server notes/proposals/place-preview`). Opened straight from the disk, the pages read, but the maps do not draw.
 
-The folder holds what the pages need to show: their styles, their scripts, and the map data for Laos and Shaanxi. It leaves out the map's relief and climate layers, which are large (about 55 MB). Those two boxes do nothing in the preview. The folder is 16 MB.
+The folder holds what the pages need to show: their styles, their scripts, and the map data for Laos and Shaanxi. It leaves out the map's relief and climate layers, which are large (about 55 MB). Those two boxes do nothing in the preview. The folder is 23 MB.
 
 Links from the preview to pages outside it (the calendar, the threads, the other places) do not work in the folder. They will on the site.
 
@@ -28,7 +28,7 @@ Each page lists its entries in the calendar's order, under the same year, month 
 ### Alabama: 386 entries
 
 - 306 took place in Alabama: Birmingham, Montgomery, Selma, Tuscaloosa and the rest.
-- 77 carry the tag `state:al` but took place elsewhere or have no place (a hearing in Washington on Alabama, a ruling of the Supreme Court).
+- 77 carry the tag `state:al` but took place elsewhere or have no place (the Supreme Court in Washington on Alabama's cases, for one).
 - 3 carry the tag of a city in Alabama but not the State's own tag.
 - The page has no map, since neither map covers the United States.
 
@@ -47,7 +47,19 @@ Each page lists its entries in the calendar's order, under the same year, month 
 
 ### Sizes
 
-The pages are 1.8 MB (Laos), 1.3 MB (Alabama), 0.9 MB (Shaanxi) and 2.3 MB (Chicago). All are under the 5 MB budget, so none of the four is in parts. A larger page (China, the United States, Peking, Washington) is cut into parts by date, as a large thread's page is. The tests check that on a small budget.
+The pages are 1.9 MB (Laos), 1.4 MB (Alabama), 1.0 MB (Shaanxi) and 2.4 MB (Chicago). All are under the 5 MB budget, so none of the four is in parts. A larger page (China, the United States, Peking, Washington) is cut into parts by date, as a large thread's page is. The tests check that on a small budget.
+
+## The dateline and the "Places:" line (ruling 67)
+
+Both are on every calendar entry the build writes, wherever it is shown: the calendar, the reader, the thread pages, the place pages and the Names pages. The preview shows them on the four place pages and on `cal1961Q2.html`.
+
+- **The dateline.** Where the place in an entry's dateline has a page of its own, the place's name links to it ("Hanoi · 9:48 p.m.", Hanoi linked). The link uses the site's one style for its own links: the text keeps the dateline's grey, with a faint solid underline that darkens on hover. The dateline is no longer than before.
+- Only a place of record is linked: the entry's `place:`, or, where it has none, the city or State the dateline names from its tags. Where an entry has no place, the dateline shows the city of its clock (Washington, Moscow, Vientiane). That city is a guess from the time zone, so it is not linked.
+- A place without a page is not linked. Vientiane has 43 entries, under the 50 a city needs, so "Vientiane" stays plain.
+- The dateline only appears on an entry with a time. An entry with no time has no dateline and so no link there; its places are still in its "Places:" line.
+- **The "Places:" line.** In the citation block, just before "Names:", the build writes "Places:" and the nations, States, provinces and cities with a page that the entry took place in or concerns, each linked to its page like the names. Example: "Places: Democratic Republic of Vietnam, Soviet Union, Moscow. Names: Pushkin, Hồ Chí Minh." The nations come first, in the register's order, then the States, the provinces and the cities, each by name. Where an entry has no "Names:", the line ends the block.
+- The line is not stored in the entry. It is written fresh on every build, so it follows the entries' places and tags as they change.
+- Where a State and a city of the same name are both on the line, the State is written "New York State" or "Washington State", so the two can be told apart.
 
 ## The whole set
 
@@ -65,6 +77,11 @@ The pages use the thread page's own code for the entries, the headings, the part
 4. The map at the head shows only the page's own entries. A thread's map picks its entries by thread; a place's page has no thread, so the page hands the map the list of its entries. This took three lines in the map's script (`tools/bib/vnmap.js`). The figure, its controls and its look are the same.
 5. The threads' index ends with a new section, "Places", under its own heading. It has four smaller headings (Nations; States; Provinces of China, 1966; Cities). Each list uses the index's own list markup. A place has no statement, so its line is its name and its count only.
 6. The page's title in the browser is "Places: Laos", in the pattern of "Threads: Laos". The address is `places-laos.html`; a State's is by its name, `places-new-york-state.html`.
+
+These changes reach every page that shows a calendar entry, not only the place pages:
+
+7. The dateline's place is a link where it has a page. No new style: it takes the site's rule for its own links. One line of the dateline's script changed. Before, a tap anywhere on a cut-short line above an entry opened the line in full. Now a tap on the place's link follows the link instead. Without that change, the first tap on the link would only open the line.
+8. The citation block gains the sentence "Places: ..." before "Names:". It is in the block's own type, and its links are in the same style as the names. No new style.
 
 ## What needs fixing in the data (not done here)
 

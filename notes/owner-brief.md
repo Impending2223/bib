@@ -1530,3 +1530,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 9:24 pm PT.** "I like your proposal re the two- and three-letter tags. Do we expect any conflicts? Should we check for possible conflicts ahead of time? Or does your two/three setup exclude any possibility of a conflict?"
 
 **Nov. 26, 2026, about 9:27 pm PT.** "Given your point on the Vietnams, is \"DD\" still better than \"DDR\"?"
+
+**Nov. 26, 2026, about 9:32 pm PT.** "Is there reason to think our calendar writes \"Taiwan\" as often as it does and \"ROC\" as infrequently as it does because our coverage of the PRC is thick, our coverage of US-ROC relations is thin, our coverage of the ROC itself is nonexistent, and cross-strait relations in our span were thin to non-existent? Or would the latter two say \"Taiwan\" too?"

@@ -69,3 +69,14 @@ No. By the reasoning I gave for the Vietnams, `dd` loses. The rule should be: th
 So the default is `gdr`, the form the calendar writes. `ddr` is as good if you prefer the German form; the two are not the same as any other code. The same rule gives `drv` and `rvn` (the calendar writes "DRV" 523 times), `ussr` ("USSR" 163), `prc` ("PRC" 308), `dprk` ("DPRK" 152) and `uar` ("UAR" 280), and keeps `uk`. Where the calendar writes no short name, the standard's code: `de` for the Federal Republic (the calendar writes "West Germany", never "FRG"), `kr` for the Republic of Korea, `tw` or `roc` for Taiwan to be ruled (the calendar writes "Taiwan" 301 times and "ROC" once), `fr`, `in`, `jp`, `id` and the rest.
 
 The script before the rename will count, for every state, how often the calendar writes each candidate short name, and apply this rule. It lists the result for you before anything changes.
+
+## Taiwan, and the divided states (the owner's question of 9:32 p.m.)
+
+The owner asked whether the calendar writes "Taiwan" so often and "ROC" so seldom because of where its coverage is thick and thin. It does.
+
+- Of the 150 calendar lines that say "Taiwan", 133 are in the China threads. They come from the PRC's own books (the chronologies, the *wengao*), which write 台湾, and we translate it. "Kuomintang" (81 lines) and "Chiang Kai-shek" (73 of 77) are the same: China threads, PRC sources.
+- The American side is thin, and it writes otherwise: "Formosa" (12 of its 14 lines are outside the China threads, most of them the 1960 campaign's quarrel over Quemoy and Matsu), "Nationalist", "the Republic of China".
+- The ROC's own side is nearly absent: 73 entries carry its tag, 3 are placed in Taipei, and we have read no record of its government. That record would say 中華民國, the Republic of China, or 自由中國, Free China.
+- The State Department's own papers, in the FRUS texts we hold, write "GRC" (the Government of the Republic of China) 2,952 times against "Taiwan" 1,427 and "Formosa" 231. The calendar's lines say "GRC" not once, because so few of its entries yet come from those papers.
+
+So counting the calendar's own words is not a fair test where coverage is lopsided, and the rule of 9:27 p.m. should not lean on it for the divided states. A better rule for them: **each half of a divided state keeps the short form of its own name, both halves alike**: `frg` and `gdr`, `rok` and `dprk`, `rvn` and `drv`, `roc` and `prc`. The standard's codes would make one half "the" country (`de`, `kr`, `vn`, `cn`, with `dd`, `kp`, `vd` and `tw` for the other); the series takes no side between them, and its sources on each side name their own state. These are the codes the register already has, so the rename leaves them as they are. Every other state takes the standard's code by the rule of 9:27 p.m.
