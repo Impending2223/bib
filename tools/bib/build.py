@@ -1382,7 +1382,7 @@ def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
     PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "china", "maps", "indicators",
-             "ebooks", "feeds", "threads")
+             "ebooks", "feeds", "threads", "places")
     for l in series.lists.values():       # the calendar's later parts are built with its first
         if which and l.kind == "calendar" and calsplit.cfg(l) and which in [p["page"] for p in calsplit.cfg(l)]:
             which = l.key
@@ -1549,10 +1549,18 @@ def run(series, which=None):
             path = os.path.join(OUT, name)
             smart.write(path, routed(page))
             written.append(path)
-    if which in (None, "threads") and cal is not None:   # a page a thread (tools/bib/threads.py)
-        from . import threads
+    if which in (None, "threads", "places") and cal is not None:   # a page a thread (tools/bib/threads.py), a page
+        from . import placepages, threads                           # a place (tools/bib/placepages.py)
         linker = linker or Linker(series)
-        for name, page in threads.pages_(series, linker, os.path.join(TEMPLATES, "list.html")):
+        tpl = os.path.join(TEMPLATES, "list.html")
+        if which in (None, "places"):        # first, so that the threads' index lists the parts the build divided
+            for name, page in placepages.pages_(series, linker, tpl):
+                path = os.path.join(OUT, name)
+                smart.write(path, routed(page))
+                written.append(path)
+        got = threads.pages_(series, linker, tpl) if which != "places" else [
+            (f"{threads.INDEX}.html", threads.index_page(series, tpl, cal))]   # the index alone: its "Places"
+        for name, page in got:
             path = os.path.join(OUT, name)
             smart.write(path, routed(page))
             written.append(path)
