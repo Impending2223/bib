@@ -55,55 +55,6 @@ ops:
         - 'w.schlesinger-journals 97: ?'
 - add:
     entry:
-      id: cal.1960-12-01.transition-and-staff-cabinet-5
-      when: Dec. 1
-      date: '1960-12-01'
-      place: washington
-      thread: transition-and-staff-cabinet
-      follows:
-      - cal.1960-12-01.transition-and-staff-2
-      time_range:
-      - 1960-12-01T17:00Z
-      - 1960-12-01T19:00Z
-      time_band: workday midday
-      time_zone: America/New_York
-      range_basis: record
-      c: Georgetown. Lovett to lunch with the President-elect, by Schlesinger's journal.
-      n: '[[w.schlesinger-journals]], 95 (the journal of Dec. 1: the drive from the Senate office to Georgetown, a drink at the house; "In due course Bob Lovett came in for lunch"); [[w.schlesinger-thousand-days-1965]], 129–31. Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1960-12-01.transition-and-staff-2]]. The order: after [[cal.1960-12-01.transition-and-staff-2]], the journal''s account (95: Schlesinger''s drink at the house, then Lovett "in due course"). Names: Lovett, Schlesinger.'
-      tags:
-      - name:lovett-robert-a
-      - name:schlesinger-arthur-m-jr
-      src:
-        c: 482b967d
-        rows:
-        - 'w.schlesinger-journals 95: all'
-        - 'w.schlesinger-thousand-days-1965 129–31: all'
-- add:
-    entry:
-      id: cal.1962-01-18.china-seven-thousand
-      when: Jan. 18–22
-      date: '1962-01-18'
-      time: 1962-01-18T07:00Z
-      place: peking
-      time_zone: Asia/Shanghai
-      thread: china-seven-thousand
-      also:
-      - china-zhou
-      c: Zhou Enlai sits again with the drafting committee Jan. 18, 19, 20 and 22, and revises the draft himself, Jan. 19–22.
-      n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 17–22, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 155 (the committee of twenty-one, its members, eight days of sessions from Jan. 17, Mao aloof); [[w.yang-shangkun-riji]], II, 114 (the drafting committee Jan. 18, 3 to 7 p.m.; Jan. 19, 3 to 7:30 p.m., Zhou among the speakers; Jan. 20, 3 to 7 p.m., the second draft revised together). The words: 由3时开到7时 (II, 114). The time is the first day''s. Made public: 1996. To check: [[w.schram-mao-tse-tung-unrehearsed]], 159 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.77). See [[cal.1962-01-17.china-leadership]]. Names: Zhou Enlai.'
-      tags:
-      - polity:prc
-      - name:zhou-enlai
-      - vis:only:prc
-      src:
-        c: 9554a716
-        rows:
-        - 'w.zhou-enlai-nianpu-1949 II, 452: all'
-        - 'w.macfarquhar-origins-of-the-cultural III, 155: ?'
-        - 'via w.macfarquhar-origins-of-the-cultural III, 155 n.77: all'
-        - 'w.yang-shangkun-riji II, 114: ?'
-- add:
-    entry:
       id: cal.1965-02-23.vietnam-diplomacy-2
       when: Feb. 23
       date: '1965-02-23'
@@ -183,28 +134,6 @@ ops:
       - name:fulbright-j-william
       - name:johnson-lyndon-b
       - ok:fields-place
-- add:
-    entry:
-      id: cal.1967-07-13.vietnam-force-levels
-      when: July 13
-      date: '1967-07-13'
-      place: washington
-      thread: vietnam-force-levels
-      also:
-      - vietnam-program-5
-      c: 'The residence: Johnson polls McNamara and the Chiefs before the photographers, "a meeting of the minds."{1} By Westmoreland''s account Johnson tells him after the meeting that he has chosen the smaller package, cut almost in half: just over 47,000 men, under a ceiling of 525,000.{2}'
-      n: '[[w.branch-at-canaans-edge]], 629–30; [[w.drea-mcnamara-clifford-and-the-2011]], 141 (July 13, Johnson with McNamara, Wheeler and Westmoreland for an increase); [[w.westmoreland-soldier-reports]], 230 (the next day''s news conference: "we have reached a meeting of the minds"). To check: "Generals Agree with President on Build-up Issue," [*New York Times*, July 14, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/14/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 630). See [[cal.1967-07-12.vietnam-force-levels]]. Names: McNamara, Johnson, Westmoreland. Check: Westmoreland has himself, after his mother''s funeral at Columbia on July 12, with the National Security Council in the Cabinet Room, and Johnson deciding then for the lesser of his two packages, cut to just over 47,000 more men under a ceiling of 525,000 (230); whether this meeting.'
-      tags:
-      - name:mcnamara-robert-s
-      - name:johnson-lyndon-b
-      - name:westmoreland-william
-      src:
-        c: 13fd0862
-        rows:
-        - 'w.branch-at-canaans-edge 629–30: 1'
-        - 'via x.1967-07-14.generals-agree-with-president-on-build: 1'
-        - 'w.drea-mcnamara-clifford-and-the-2011 141: ?'
-        - 'w.westmoreland-soldier-reports 230: 1, 2'
 - add:
     entry:
       id: cal.1967-07-12.vietnam-force-levels-2
@@ -333,7 +262,7 @@ ops:
     base: 15bab034
     set:
       c: Schlesinger with the President-elect at noon, his Senate office, then Georgetown, by Schlesinger's account.{1} Hodges and Ribicoff settled; Udall and Goldberg nearly.{2} Fulbright the likeliest for State. Kennedy asks after Stevenson for Attorney General;{3} Schlesinger names Harriman to Kennedy for Secretary of State;{6} Kennedy dismisses him as "old hat," by Schlesinger's journal.{7}
-      n: '[[w.schlesinger-thousand-days-1965]], 129–31, 135, 139; [[w.schlesinger-journals]], 94–97 (the journal of Dec. 1: Evelyn Lincoln''s appointment for noon in the Senate office, Georgetown after; Kennedy''s talk of Freeman, Goldberg and Udall, Fulbright ("I judge ... Bill is currently ahead for State"), then "What about Adlai for Attorney General?"; not Hodges or Ribicoff; at 95, after Schlesinger''s pitch for Youngman at Treasury, "What about Averell?" and Kennedy "something to the general effect that he was too old hat"; the page does not say for which post); [[w.schlesinger-robert-kennedy-and-his]], 224. Made public: [[w.schlesinger-thousand-days-1965]] (1965). To check: Schlesinger, journal, Dec. 1, 1960, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 224 n.7). See [[cal.1960-12-01.transition-and-staff]]. Blair''s sounding-out of Stevenson that night and Lovett''s lunch are their own entries. Names: Schlesinger, Kennedy, Hodges, Ribicoff, Udall, Goldberg, Fulbright, Stevenson, Harriman.'
+      n: '[[w.schlesinger-thousand-days-1965]], 129–31, 135, 139; [[w.schlesinger-journals]], 94–97 (the journal of Dec. 1: Evelyn Lincoln''s appointment for noon in the Senate office, Georgetown after; Kennedy''s talk of Freeman, Goldberg and Udall, Fulbright ("I judge ... Bill is currently ahead for State"), then "What about Adlai for Attorney General?"; not Hodges or Ribicoff; at 95, after Schlesinger''s pitch for Youngman at Treasury, "What about Averell?" and Kennedy "something to the general effect that he was too old hat"; the page does not say for which post); [[w.schlesinger-robert-kennedy-and-his]], 224. Made public: [[w.schlesinger-thousand-days-1965]] (1965). To check: Schlesinger, journal, Dec. 1, 1960, Schlesinger Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 224 n.7). See [[cal.1960-12-01.transition-and-staff]]. Blair''s sounding-out of Stevenson that night is its own entry; Lovett''s lunch is on [[cal.1960-12-01.transition-and-staff-cabinet]]. Names: Schlesinger, Kennedy, Hodges, Ribicoff, Udall, Goldberg, Fulbright, Stevenson, Harriman.'
       src:
         c: b6eef81f
         rows:
@@ -354,7 +283,7 @@ ops:
     set:
       when: Jan. 17
       c: 'Zhou Enlai joins the drafting committee the Center forms to discuss and revise the report Liu Shaoqi is to give the enlarged Central Work Conference;{1} Jan. 17, the Huairen Tang''s back hall, 3 to 6:30 p.m.: Liu Shaoqi, Deng Xiaoping, Chen Boda, Li Fuchun, Bo Yibo, Li Jingquan, Tao Zhu, Wang Renzhong and others speak first.{3} Chen Yun is at the first meeting; the members include Liu, Zhou, Deng Xiaoping, Chen Yun, Li Fuchun, Li Xiannian and Bo Yibo.{4} Zhou, after Peng Zhen: seek the causes in ourselves; the Chairman saw the problems early; listen to the "boatman."{5} Peng Zhen attends.{6} Ke Qingshi asks whether the Twelve-Year Agricultural Program still stands;{7} says 300 million tons of grain is not possible but 250 million is, and that East China alone could produce 200 million by 1967; asks whether Britain is still to be overtaken in fifteen years and whether to go all out.{8} Liu Shaoqi, Zhou Enlai and others reply that the Program was not properly researched and its grain targets not scientific;{9} Deng Xiaoping, that the higher the figures, the harder to reach them.{10}'
-      n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 17–22, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 155 (the committee of twenty-one, its members, eight days of sessions from Jan. 17, Mao aloof); [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 (the redrafting committee for Liu''s written report meets eight days to prepare the second draft); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 545 (Jan. 17–24, 1962; Liu presides at eight meetings of the report drafting committee, which revises the report on the views of the conference''s groups); [[w.yang-jisheng-tiandi-fanfu]], I, 66–67 (Zhou in the drafting committee, after Peng Zhen: seek the causes in ourselves; the errors to be stressed as breaches of Mao Zedong Thought; the Chairman saw the problems early; "listen to the helmsman"); [[w.peng-zhen-nianpu-1902]], IV, 168 (Jan. 17–24, 1962; Peng Zhen at the drafting committee revising Liu''s report); [[w.chen-yun-nianpu-xiuding]], III, 120 (Jan. 17: Chen Yun at the first meeting of the drafting committee, called by Liu Shaoqi; its nineteen members Liu, Zhou, Deng, Chen Yun, Li Fuchun, Li Xiannian, Bo Yibo and others); [[w.macfarquhar-origins-of-the-cultural]], III, 155–56; [[w.yang-shangkun-riji]], II, 114 (Jan. 17, 1962; the drafting committee 起草委员会, 3 to 6:30 p.m., the back hall of Huairen Hall 怀仁堂; the first speakers; the words: 下午3时到6时半); [[w.deng-xiaoping-nianpu-1904]], III, 1684 (Jan. 17, 1962; Deng at the drafting committee, Liu presiding). The first speakers as the diary has them (II, 114: 任重, Wang Renzhong); the line had Song Renqiong. Made public: 1996; 1997. The later sittings and Zhou''s revising of the draft are their own entry. Check: [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 has the redrafting committee meet for eight days, Jan. 17 to 24. Check: Chen Yun''s chronology has nineteen members of the drafting committee (III, 120); [[w.peng-zhen-nianpu-1902]], IV, 168, [[w.yang-jisheng-tiandi-fanfu]], I, 66 and MacFarquhar (III, 155) twenty-one. To check: [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.75, n.78a); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.76, n.78b, n.81; III, 156 n.82a); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 110 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 67 n.59). Names: Zhou Enlai, Liu Shaoqi, Chen Yun, Deng Xiaoping, Li Fuchun, Li Xiannian, Bo Yibo, Peng Zhen, Chen Boda, Li Jingquan, Tao Zhu, Wang Renzhong, Ke Qingshi. Check: the day of the replies.'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 17–22, 1962); [[w.macfarquhar-origins-of-the-cultural]], III, 155 (the committee of twenty-one, its members, eight days of sessions from Jan. 17, Mao aloof); [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 (the redrafting committee for Liu''s written report meets eight days to prepare the second draft); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 545 (Jan. 17–24, 1962; Liu presides at eight meetings of the report drafting committee, which revises the report on the views of the conference''s groups); [[w.yang-jisheng-tiandi-fanfu]], I, 66–67 (Zhou in the drafting committee, after Peng Zhen: seek the causes in ourselves; the errors to be stressed as breaches of Mao Zedong Thought; the Chairman saw the problems early; "listen to the helmsman"); [[w.peng-zhen-nianpu-1902]], IV, 168 (Jan. 17–24, 1962; Peng Zhen at the drafting committee revising Liu''s report); [[w.chen-yun-nianpu-xiuding]], III, 120 (Jan. 17: Chen Yun at the first meeting of the drafting committee, called by Liu Shaoqi; its nineteen members Liu, Zhou, Deng, Chen Yun, Li Fuchun, Li Xiannian, Bo Yibo and others); [[w.macfarquhar-origins-of-the-cultural]], III, 155–56; [[w.yang-shangkun-riji]], II, 114 (Jan. 17, 1962; the drafting committee 起草委员会, 3 to 6:30 p.m., the back hall of Huairen Hall 怀仁堂; the first speakers; the words: 下午3时到6时半); [[w.deng-xiaoping-nianpu-1904]], III, 1684 (Jan. 17, 1962; Deng at the drafting committee, Liu presiding). The first speakers as the diary has them (II, 114: 任重, Wang Renzhong); the line had Song Renqiong. Made public: 1996; 1997. The later sittings, Jan. 18 to 22, and Zhou''s revising of the draft have entries of their own. Check: [[w.macfarquhar-origins-of-the-cultural]], III, 144, 149 has the redrafting committee meet for eight days, Jan. 17 to 24. Check: Chen Yun''s chronology has nineteen members of the drafting committee (III, 120); [[w.peng-zhen-nianpu-1902]], IV, 168, [[w.yang-jisheng-tiandi-fanfu]], I, 66 and MacFarquhar (III, 155) twenty-one. To check: [[w.xiangqian-qiqian-ren-dahui-shimo]], 28 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.75, n.78a); [[w.schram-mao-tse-tung-unrehearsed]], 159 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.77); [[w.wenzao-guanyu-qiqian-ren-dahuide]], 2 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 155 n.76, n.78b, n.81; III, 156 n.82a); [[w.tianrong-guanyu-yijiuliuer-nian-qiqian]], 6–10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-a); [[w.jin-1949-1989-niande-zhongguo]], 399–413 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-b); [[w.yibo-ruogan-zhongda-juece-yu-1991-93]], 2, 1017, 1019–20 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 144 n.sources-e); [[w.zhang-suhua-bianju-qiqian-ren-dahui-shimo]], 110 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 67 n.59). Names: Zhou Enlai, Liu Shaoqi, Chen Yun, Deng Xiaoping, Li Fuchun, Li Xiannian, Bo Yibo, Peng Zhen, Chen Boda, Li Jingquan, Tao Zhu, Wang Renzhong, Ke Qingshi. Check: the day of the replies.'
       src:
         c: 59ad37cf
         rows:
@@ -362,6 +291,7 @@ ops:
         - 'w.macfarquhar-origins-of-the-cultural III, 155: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 155 n.75: 1'
         - 'via w.macfarquhar-origins-of-the-cultural III, 155 n.76: 1'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 155 n.77: ?'
         - 'w.macfarquhar-origins-of-the-cultural III, 144, 149: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 144 n.sources-a: 1'
         - 'via w.macfarquhar-origins-of-the-cultural III, 144 n.sources-b: 1'
@@ -477,7 +407,7 @@ ops:
     set:
       when: July 12
       c: 'The Cabinet Room, 1:05–2:38 p.m. McNamara, back from Vietnam, reports: "There is not a military stalemate"; Wheeler: "There is no military stalemate" and "There are no great military problems in sight"; the Chiefs'' request trimmed by 100,000.{1}'
-      n: 'FRUS 1964–68, V, doc. [238](https://history.state.gov/historicaldocuments/frus1964-68v05/d238). [[w.branch-at-canaans-edge]], 629–30; [[w.drea-mcnamara-clifford-and-the-2011]], 141 (McNamara back, ambivalent); [[w.dallek-flawed-giant]], 470–71 (McNamara back July 11, Johnson: "Are we going to be able to win this goddamned war?"; the White House meeting of July 12: McNamara''s recollection of the optimistic briefings in Saigon; Wheeler, "an unbroken series of military successes," "no great military problems in sight," the absence of a stalemate stressed; Katzenbach; not the press statement, the hours, the room, the 100,000 or July 13); [[w.gibbons-u-s-government-and]], IV, 731; [[w.mcnamara-in-retrospect]], ch. 10 at n.9 (Johnson: "Are we going to be able to win this goddamned war?"); [[w.mann-grand-delusion]], 547 (McNamara and Wheeler to Johnson); [[w.berman-lyndon-johnsons-war]], 55 (McNamara: "there is not a military stalemate"); [[w.clifford-counsel-to-the-president-2]], 447 (McNamara: "there is no military stalemate"; Clifford asks whether the war can be won; McNamara: "if we follow the same program we will win the war"; Johnson writes it down); [[w.westmoreland-soldier-reports]], 230 (the July 13 choice of package, on its own entry). Wheeler''s words are FRUS''s (doc. 238); the line as first written had "There is no stalemate." The July 13 scene at the residence with Westmoreland''s account, and McNamara''s words to the press, are their own entries. To check: Tom Johnson''s notes of the meeting of 2:50 p.m., LBJ Library; Taylor''s memorandum for the record, Taylor Papers, National Defense University; [*New York Times*, July 13, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/13/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 731 n.63, 733 n.66); Meeting notes, Cabinet Room, 1:05-2:38 p.m., July 12, 1967, "Literally Eyes Only," Tom Johnson meeting notes, Box 1, LBJ (cited by [[w.branch-at-canaans-edge]], 628); "Joint Chiefs Back Troop Rise Asked by Westmoreland," [*New York Times*, July 3, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/03/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 628). See [[cal.1967-07-07.vietnam]]. Names: McNamara, Wheeler, Johnson, Westmoreland.'
+      n: 'FRUS 1964–68, V, doc. [238](https://history.state.gov/historicaldocuments/frus1964-68v05/d238). [[w.branch-at-canaans-edge]], 629–30; [[w.drea-mcnamara-clifford-and-the-2011]], 141 (McNamara back, ambivalent); [[w.dallek-flawed-giant]], 470–71 (McNamara back July 11, Johnson: "Are we going to be able to win this goddamned war?"; the White House meeting of July 12: McNamara''s recollection of the optimistic briefings in Saigon; Wheeler, "an unbroken series of military successes," "no great military problems in sight," the absence of a stalemate stressed; Katzenbach; not the press statement, the hours, the room, the 100,000 or July 13); [[w.gibbons-u-s-government-and]], IV, 731; [[w.mcnamara-in-retrospect]], ch. 10 at n.9 (Johnson: "Are we going to be able to win this goddamned war?"); [[w.mann-grand-delusion]], 547 (McNamara and Wheeler to Johnson); [[w.berman-lyndon-johnsons-war]], 55 (McNamara: "there is not a military stalemate"); [[w.clifford-counsel-to-the-president-2]], 447 (McNamara: "there is no military stalemate"; Clifford asks whether the war can be won; McNamara: "if we follow the same program we will win the war"; Johnson writes it down); [[w.westmoreland-soldier-reports]], 230 (the July 13 choice of package, on its own entry). Wheeler''s words are FRUS''s (doc. 238); the line as first written had "There is no stalemate." The July 13 scene at the residence and Westmoreland''s account go to the entries of July 13; McNamara''s words to the press are their own entry. To check: Tom Johnson''s notes of the meeting of 2:50 p.m., LBJ Library; Taylor''s memorandum for the record, Taylor Papers, National Defense University; [*New York Times*, July 13, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/13/issue.html) (cited by [[w.gibbons-u-s-government-and]], IV, 731 n.63, 733 n.66); Meeting notes, Cabinet Room, 1:05-2:38 p.m., July 12, 1967, "Literally Eyes Only," Tom Johnson meeting notes, Box 1, LBJ (cited by [[w.branch-at-canaans-edge]], 628); "Joint Chiefs Back Troop Rise Asked by Westmoreland," [*New York Times*, July 3, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/03/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 628). See [[cal.1967-07-07.vietnam]]. Names: McNamara, Wheeler, Johnson, Westmoreland.'
       src:
         c: 3d64ac75
         rows:
@@ -782,7 +712,7 @@ ops:
     base: e518c9cc
     set:
       c: Moyers, Newsday's publisher, on a New York radio station, on Humphrey and the Administration.{1}
-      n: '[[w.chester-american-melodrama]], 154. To check: Bill Moyers, interview on a New York radio station, June 14, 1968 (cited by [[w.chester-american-melodrama]], 154). The remark by telephone to reporters is on [[cal.1968-06-16.elections-1968-2]]; Mondale''s statement is its own entry. Names: Moyers, Humphrey.'
+      n: '[[w.chester-american-melodrama]], 154. To check: Bill Moyers, interview on a New York radio station, June 14, 1968 (cited by [[w.chester-american-melodrama]], 154). The remark by telephone to reporters goes to the entry of June 16; Mondale''s statement is its own entry. Names: Moyers, Humphrey.'
       src:
         c: cf66dfba
         rows:
@@ -807,3 +737,89 @@ ops:
 - check:
     id: cal.1968-06-16.elections-1968-2
     text: 'Check: the day of the remark by telephone to reporters; Chester (154) gives no day, and the line of June 16 (CQ) has it in the same words.'
+- cite:
+    id: cal.1962-01-18.china-leadership-2
+    item: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 18, 1962: Zhou at the drafting committee again)'
+- add-words:
+    id: cal.1962-01-19.china-leadership
+    after: end
+    words: Zhou Enlai attends.
+    item: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 19, 1962)'
+- names:
+    id: cal.1962-01-19.china-leadership
+    add:
+    - Zhou Enlai
+    tags:
+    - name:zhou-enlai
+- add-words:
+    id: cal.1962-01-20.china-leadership-4
+    after: end
+    words: Zhou Enlai attends.
+    item: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 20, 1962)'
+- names:
+    id: cal.1962-01-20.china-leadership-4
+    add:
+    - Zhou Enlai
+    tags:
+    - name:zhou-enlai
+- add-words:
+    id: cal.1962-01-22.china-leadership-3
+    after: end
+    words: Zhou Enlai attends.
+    item: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 22, 1962)'
+- names:
+    id: cal.1962-01-22.china-leadership-3
+    add:
+    - Zhou Enlai
+    tags:
+    - name:zhou-enlai
+- add-words:
+    id: cal.1962-01-20.china-leadership
+    after: end
+    words: Part of his revising of the draft, Jan. 19–22.
+    item: '[[w.zhou-enlai-nianpu-1949]], II, 452 (Jan. 19–22, 1962)'
+- add-words:
+    id: cal.1960-12-01.transition-and-staff-cabinet
+    after: end
+    words: Lovett to lunch at Georgetown, by Schlesinger's journal.
+    item: '[[w.schlesinger-journals]], 95 (the journal of Dec. 1: the drive from the Senate office to Georgetown, a drink at the house; "In due course Bob Lovett came in for lunch")'
+- cite:
+    id: cal.1960-12-01.transition-and-staff-cabinet
+    item: '[[w.schlesinger-thousand-days-1965]], 129–31'
+    'on': Lovett to lunch at Georgetown, by Schlesinger's journal.
+- names:
+    id: cal.1960-12-01.transition-and-staff-cabinet
+    add:
+    - Schlesinger
+    tags:
+    - name:schlesinger-arthur-m-jr
+- edit:
+    id: cal.1960-12-01.transition-and-staff-cabinet
+    base: 9f51f62e
+    set:
+      place: washington
+      time_range:
+      - 1960-12-01T17:00Z
+      - 1960-12-01T19:00Z
+      time_band: workday midday
+      range_basis: record
+- add-words:
+    id: cal.1967-07-13.vietnam-program-5
+    after: end
+    words: 'In the residence, before the photographers, Johnson polls McNamara and the Chiefs: "a meeting of the minds."'
+    item: '[[w.branch-at-canaans-edge]], 629–30'
+- cite:
+    id: cal.1967-07-13.vietnam-program-5
+    item: '[[w.drea-mcnamara-clifford-and-the-2011]], 141 (July 13, Johnson with McNamara, Wheeler and Westmoreland for an increase)'
+- to-check:
+    id: cal.1967-07-13.vietnam-program-5
+    add:
+    - '"Generals Agree with President on Build-up Issue," [*New York Times*, July 14, 1967](https://timesmachine.nytimes.com/timesmachine/1967/07/14/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 630)'
+- add-words:
+    id: cal.1967-07-13.vietnam-program-5-2
+    after: end
+    words: 'By Westmoreland''s account Johnson tells him after the meeting that he has chosen the smaller package, cut almost in half: just over 47,000 men, under a ceiling of 525,000.'
+    item: '[[w.westmoreland-soldier-reports]], 230'
+- check:
+    id: cal.1967-07-13.vietnam-program-5-2
+    text: 'Check: Westmoreland has himself, after his mother''s funeral at Columbia on July 12, with the National Security Council in the Cabinet Room, and Johnson deciding then for the lesser of his two packages, cut to just over 47,000 more men under a ceiling of 525,000 (230); whether this meeting.'
