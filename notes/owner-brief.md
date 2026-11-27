@@ -1510,3 +1510,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 26, 2026, about 7:35 pm PT.** "Check to see whether the oral history page/finding-aid items help sort the JFK and RFK oral histories into batches."
 
 **Nov. 26, 2026, about 7:38 pm PT.** (With a screenshot of the file's cover: *World Military Expenditures and Arms Trade 1963-1973*, U.S. Arms Control and Disarmament Agency.) "hathi-wmeat-1963-73 was the name you told me to give the file in the procurement request lol"
+
+**Nov. 26, 2026, about 7:40 pm PT.** "I thought the names you suggested were goofy but then I said to myself, \"you know, Claude probably knows what titles would be easiest for him to work with.\" guess not!"
