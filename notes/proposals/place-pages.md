@@ -36,3 +36,17 @@ From these alone, without reading anything, 126 nations, every State and 51 citi
 ## What you see first
 
 A preview of four pages, Laos, Alabama, Shaanxi and Chicago, before the rest are built and before anything reaches the site.
+
+## The dateline and the citation block (the owner, Nov. 26, 9:19 p.m.)
+
+- **The dateline.** A place in an entry's dateline that has a page of its own (a nation, a State, a province, a city) links to that page. The calendar's cross-references, to the Works and to the Names, use one style: the text in its own color with a faint solid underline, darker on hover (`templates/list.html`, the rule for links inside the page; `a.nm` for names). It is not dotted or dashed. The place links take the same rule, so the dateline needs no new style. The dateline itself is not lengthened.
+- **The citation block.** A line "Places:" just before "Names:", naming the nations, States, provinces and cities the entry happened in or concerns, each linked to its page, in the same style as the names. It is written by the build from the entry's place, tags and the register, not stored in the entry, so no reader writes it and it cannot go stale.
+- Both are added to the preview.
+
+## The tags' codes (the owner's question of 9:19 p.m.)
+
+- **What we have.** The six nations the visibility work began with have short codes (`us`, `ussr`, `prc`, `fr`, `frg`, `uk`), as do a few more (`drv`, `rvn`, `dprk`, `rok`, `roc`, `gdr`, `uar`, `nz`). The other 110 or so have their names spelled out (`polity:indonesia`, `polity:czechoslovakia`, `polity:central-african-republic`), because they were made from the names when the list was seeded. The States use the postal codes (`state:il`). Cities and Vietnam's provinces use spelled-out names.
+- **Recommendation.** Use ISO 3166-1's two-letter codes, in lower case, as the standard stood in its first edition of 1974, the last year of the span. That edition still has the states of the time, among them the two Germanys, the Soviet Union, Czechoslovakia, Yugoslavia and both Vietnams; each code is to be confirmed against the standard's text when the change is made. Our own additions, of three letters, for the states that were gone before 1974 (the United Arab Republic of Egypt and Syria, Tanganyika, Zanzibar, the Federation of Rhodesia and Nyasaland, the Mali Federation) and for the movements and bodies that are not states (the National Liberation Front, the Pathet Lao, the UN, NATO and the rest keep their present short names). The standard's code for the German Democratic Republic is `dd`, not `ddr`; I would keep the standard's code.
+- **Would readers find them hard?** No. `./bib check` refuses a tag that is not in the list, `sources/polities.yaml` gives each code its name, and patch-check can accept an old spelled-out tag and turn it into the code, so nobody has to remember the list.
+- **Cities and Vietnam's provinces** keep their spelled-out names: there is no short standard for them that a reader would know.
+- **When.** After the place pages are in, as one change made by a script (the tags, the register and the code that names the six), the old names kept as aliases so old links and patches still work. Ruling 67.
