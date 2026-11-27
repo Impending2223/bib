@@ -1,3 +1,4 @@
+patch: 2026-11-27-lo-d03
 by: test
 ops:
 - add:
@@ -216,6 +217,7 @@ ops:
     id: cal.1960-07-04.elections-1960-2
     base: df755196
     settles:
+    - 'Check: the words: the *Times* has no "today."'
     - 'Check: the day: [[w.salinger-with-kennedy]], 40, puts'
     - 'Check: the *Times* dates it July 4.'
     set:
