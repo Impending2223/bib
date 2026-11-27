@@ -2687,29 +2687,6 @@ entries:
     c: Zhou Enlai with Jiao Hongyan and others on industry; and with Yao Zhongming on the survey of the Sino-Burmese border.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 11, 1961). Made public: 1997. Names: Zhou Enlai, Yao Zhongming.'
     tags: [polity:prc, polity:burma, name:zhou-enlai, vis:only:prc, name:yao-zhongming]
-  - id: cal.1961-04-11.china-leadership-3
-    when: Apr. 11
-    date: '1961-04-11'
-    thread: china-zhou-foreign
-    also: [space, soviet-union, china-foreign]
-    c: 'Zhou Enlai cables Khrushchev on learning the Soviet Union has launched the first manned spaceship, Vostok, which returned safely: an achievement opening a new epoch of man''s climb to other bodies and turning man''s lovely fancy of space flight into fact.{1}'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 11, 1961); [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 191 (Apr. 12, 1961; Zhou''s cable to Khrushchev, chairman of the Soviet Council of Ministers, warmly congratulating the Soviet Union on the successful launch of the manned spaceship). Names: Zhou Enlai, Khrushchev.'
-    src:
-      c: d008b8d8
-      rows:
-        - 'w.zhou-enlai-nianpu-1949 II, 404: ?'
-        - 'w.zhou-enlai-waijiao-huodong 307: 1'
-        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 191: 1'
-    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:khrushchev-nikita-s]
-    variants:
-      - unit: '1'
-        witness: w.zhou-enlai-waijiao-huodong
-        reads: Apr. 12; the entry has Apr. 11
-        at: '307'
-      - unit: '1'
-        witness: w.zhonghua-renmin-gongheguo-waijiao-2001
-        reads: the cable of Apr. 12, not Apr. 11
-        at: '191'
   - id: cal.1961-04-11.china-leadership-4
     when: Apr. 11
     date: '1961-04-11'
@@ -2992,13 +2969,12 @@ entries:
   - id: cal.1961-04-12.china-leadership-2
     when: Apr. 12
     date: '1961-04-12'
-    time: 1961-04-12T05:00Z
     thread: china-zhou-foreign
     also: [laos, china-foreign]
     follows:
       - cal.1961-04-12.china-leadership-12
     c: 'Zhou Enlai''s talk with U Nu, comparing news of Laos: if America fights a local war there it will be more the wrong time, place and war than Korea;{1} if it does not interfere Laos can be settled; peace in Laos has hope.{2}'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 12, 1961); [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961; 下午1时, 昆明西部安宁温泉, 便宴); [[w.macfarquhar-origins-of-the-cultural]], III, 49 (Zhou goes to Yunnan to talk further with U Nu); [[w.chen-yi-nianpu]], 867 (Apr. 12, 1961, afternoon, the Anning hot springs; Chen Yi and Zhou Enlai talk with U Nu after Zhou''s dinner). Made public: 1993. To check: [[w.en-zhou-zongli-shengping-dashiji]], 421 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.65a); [[w.womende-zhou-zongli]], 111, 471, 468 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.65b). Names: Zhou Enlai, U Nu.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (Apr. 12, 1961); [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961; 下午1时, 昆明西部安宁温泉, 便宴); [[w.macfarquhar-origins-of-the-cultural]], III, 49 (Zhou goes to Yunnan to talk further with U Nu); [[w.chen-yi-nianpu]], 867 (Apr. 12, 1961, afternoon, the Anning hot springs; Chen Yi and Zhou Enlai talk with U Nu after Zhou''s dinner). The hour: after the 1 p.m. informal dinner at Anning ([[cal.1961-04-12.china-leadership-12]]); the talk at Anning and on the way to Kunming (中途, [[w.zhou-enlai-waijiao-huodong]], 307). Made public: 1993. To check: [[w.en-zhou-zongli-shengping-dashiji]], 421 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.65a); [[w.womende-zhou-zongli]], 111, 471, 468 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 49 n.65b). Names: Zhou Enlai, U Nu.'
     src:
       c: ecc19412
       rows:
@@ -3010,6 +2986,11 @@ entries:
         - 'w.chen-yi-nianpu 867: ?'
     tags: [polity:prc, polity:burma, name:zhou-enlai, name:u-nu, vis:only:prc+burma]
     time_zone: Asia/Shanghai
+    time_range:
+      - 1961-04-12T05:00Z
+      - 1961-04-12T10:00Z
+    time_band: afternoon
+    range_basis: record
   - id: cal.1961-04-12.china-leadership-4
     when: Apr. 12
     date: '1961-04-12'
@@ -3141,16 +3122,18 @@ entries:
   - id: cal.1961-04-12.china-leadership-12
     when: Apr. 12
     date: '1961-04-12'
+    time: 1961-04-12T05:00Z
     place: anning
     thread: china-zhou-foreign
     also: [china-foreign]
     c: Anning hot springs 安宁温泉, 40 kilometers from Kunming 昆明. Chen Yi 陈毅 arrives with U Nu and his wife from Chuxiong 楚雄; at Zhou Enlai's 周恩来 informal dinner of welcome.
-    n: '[[w.chen-yi-nianpu]], 867. See [[cal.1961-04-08.china-leadership-9]]; [[cal.1961-04-12.china-leadership-2]]. The words: 下午 (867). Names: Chen Yi, U Nu, Zhou Enlai.'
+    n: '[[w.chen-yi-nianpu]], 867; [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961; 下午1时, 昆明西部安宁温泉: Zhou receives U Nu "and gives an informal dinner"; the hour). See [[cal.1961-04-08.china-leadership-9]]; [[cal.1961-04-12.china-leadership-2]]. The words: 下午 (867). Names: Chen Yi, U Nu, Zhou Enlai.'
+    src:
+      c: 8964200d
+      rows:
+        - 'w.chen-yi-nianpu 867: all'
+        - 'w.zhou-enlai-waijiao-huodong 307: time'
     tags: [polity:prc, polity:burma, name:chen-yi, name:u-nu, name:zhou-enlai]
-    time_range:
-      - 1961-04-12T04:00Z
-      - 1961-04-12T10:00Z
-    time_band: afternoon
     time_zone: Asia/Shanghai
   - id: cal.1961-04-12.china-leadership-11
     when: Apr. 12
@@ -3172,6 +3155,28 @@ entries:
     c: Chengdu 成都. Zhu De 朱德 hears Xu Mengxia 许梦侠, a secretary of the Sichuan committee's Secretariat 中共四川省委书记处, and the heads of the Sichuan federation of handicraft producers' cooperatives 四川省手工业生产合作社联社 on farming and handicrafts.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1802. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1961-04-11.china-leadership-3
+    when: Apr. 12
+    date: '1961-04-12'
+    thread: china-zhou-foreign
+    also: [space, soviet-union, china-foreign]
+    follows:
+      - cal.1961-04-12.space
+    c: 'Zhou Enlai cables Khrushchev on learning the Soviet Union has launched the first manned spaceship, Vostok, which returned safely: an achievement opening a new epoch of man''s climb to other bodies and turning man''s lovely fancy of space flight into fact.{1}'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 404 (printed among the items after Apr. 11, 1961, with the talk with U Nu that the other works date Apr. 12); [[w.zhou-enlai-waijiao-huodong]], 307 (Apr. 12, 1961); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 191 (Apr. 12, 1961; Zhou''s cable to Khrushchev, chairman of the Soviet Council of Ministers, warmly congratulating the Soviet Union on the successful launch of the manned spaceship). The day: the *Waijiao huodong dashiji* dates the cable Apr. 12 (307), as does the 2001 history (191); the flight of the Soviet manned spaceship is Apr. 12 in [[cal.1961-04-12.space]]; the nianpu''s Apr. 11 is the heading of a run of items that runs on to the talk with U Nu of Apr. 12 (II, 404). Names: Zhou Enlai, Khrushchev.'
+    src:
+      c: d008b8d8
+      rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 404: ?'
+        - 'w.zhou-enlai-waijiao-huodong 307: 1'
+        - 'w.zhonghua-renmin-gongheguo-waijiao-2001 191: 1'
+    tags: [polity:prc, polity:ussr, name:zhou-enlai, name:khrushchev-nikita-s]
+    variants:
+      - field: date
+        value: '1961-04-11'
+        witness: w.zhou-enlai-nianpu-1949
+        reads: the cable printed as an item (△) under the heading of Apr. 11, after the arrival at Kunming
+        at: II, 404
   - id: cal.1961-04-13.european-community
     when: Apr. 13
     date: '1961-04-13'
@@ -3881,7 +3886,7 @@ entries:
     follows:
       - cal.1961-04-15.cuba
     c: 'The UN''s Political Committee, called early.{1} Roa charges the United States with aggression; Zorin: Cuba has friends ready to come to its aid.{2} Stevenson denies it, cites the press conference of Apr. 12: the raids by defectors from Cuba''s air force, landed in Florida.{3}'
-    n: '[FRUS 1961–63, X, doc. 104](https://history.state.gov/historicaldocuments/frus1961-63v10/d104); U.N. doc. A/C.1/SR.1149. [[w.jones-bay-of-pigs]], 80–82; [[w.rusk-as-i-saw-it-1990]], 215 (the report of the defections, passed to Stevenson by Rusk, by Rusk''s account); [[w.sorensen-kennedy]], 300 (Stevenson''s denials); [[w.salinger-with-kennedy]], 147 (Stevenson to the UN: "these pilots and certain other crew members have apparently defected from Castro''s tyranny"; not the committee, Roa, Zorin or the press conference cited). After the dawn strikes: [[w.jones-bay-of-pigs]], 80–82. See [[cal.1961-04-15.cuba]]. Names: Roa, Zorin, Stevenson.'
+    n: '[FRUS 1961–63, X, doc. 104](https://history.state.gov/historicaldocuments/frus1961-63v10/d104); U.N. doc. A/C.1/SR.1149. [[w.jones-bay-of-pigs]], 80–82; [[w.rusk-as-i-saw-it-1990]], 215 (the report of the defections, passed to Stevenson by Rusk, by Rusk''s account); [[w.sorensen-kennedy]], 300 (Stevenson''s denials); [[w.salinger-with-kennedy]], 147 (Stevenson to the UN: "these pilots and certain other crew members have apparently defected from Castro''s tyranny"; not the committee, Roa, Zorin or the press conference cited); [[w.schlesinger-journals]], 111 (Saturday afternoon: Stevenson''s speech in the United Nations, the pilots "not defectors"; the hour). After the dawn strikes: [[w.jones-bay-of-pigs]], 80–82. See [[cal.1961-04-15.cuba]]. Names: Roa, Zorin, Stevenson.'
     src:
       c: 3878dd1c
       rows:
@@ -3893,13 +3898,14 @@ entries:
         - 'w.sorensen-kennedy 300: 3'
         - 'via x.1984.rusk-interviews-with-richard-rusk: 3'
         - 'w.salinger-with-kennedy 147: ?'
+        - 'w.schlesinger-journals 111: time'
     tags: [name:roa-y-garcia-raul, name:zorin-valerian, name:stevenson-adlai-e]
     time_range:
-      - 1961-04-15T14:00Z
-      - 1961-04-15T22:00Z
-    time_band: workday daytime
+      - 1961-04-15T17:00Z
+      - 1961-04-15T23:00Z
+    time_band: afternoon
     time_zone: America/New_York
-    range_basis: kind
+    range_basis: record
   - id: cal.1961-04-15.cuba-bay-of-pigs
     when: Apr. 15–17
     date: '1961-04-15'
@@ -5328,24 +5334,6 @@ entries:
         - 'w.gifford-center-cannot-hold 89: all'
         - 'via w.gifford-center-cannot-hold 89 n.111: all'
     tags: [name:morrow-e-frederic, name:nixon-richard-m]
-  - id: cal.1961-04-18.cuba-bay-of-pigs-2
-    when: Apr. 18
-    date: '1961-04-18'
-    place: washington
-    thread: cuba-bay-of-pigs
-    c: 'The White House, Tuesday night, the news of the brigade''s failure and capture confirmed.{1} Kennedy, with little to say to anybody, walks out of his office into the Rose Garden and stays alone almost an hour. O''Donnell to Salinger, watching: "He must be the loneliest man in the world tonight."{2}'
-    n: '[[w.odonnell-johnny-we-hardly-knew]], 307 (O''Donnell''s and Powers''s account); [[w.salinger-with-kennedy]], 148–49 (after the night meeting Kennedy breaks off and walks the south grounds alone while O''Donnell and Salinger watch from a window; not the words). Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, O''Donnell, Salinger. Check: the day (the book has "Tuesday night," Apr. 18; the brigade''s surrender was Apr. 19).'
-    src:
-      c: d0ca7105
-      rows:
-        - 'w.odonnell-johnny-we-hardly-knew 307: ?'
-        - 'w.salinger-with-kennedy 148–49: ?'
-    tags: [name:kennedy-john-f, name:odonnell-kenneth-p, name:salinger-pierre, polity:cuba]
-    variants:
-      - unit: '1'
-        witness: w.salinger-with-kennedy
-        reads: 'Salinger: after the Cabinet Room conference, which "didn''t end until 4 A.M.," he and O''Donnell watched him for "the next forty-five minutes" walk "around the south grounds"'
-        at: 148–49
   - id: cal.1961-04-18.cuba-bay-of-pigs-3
     when: Apr. 18
     date: '1961-04-18'
@@ -6124,6 +6112,32 @@ entries:
       rows:
         - 'via x.1961-05-08.fo-159931-df-2231-69-fo-minutes: ?'
     tags: [polity:ussr, polity:uk, name:gromyko-andrei, vis:only:ussr+uk, ok:fields-place]
+  - id: cal.1961-04-18.cuba-bay-of-pigs-2
+    when: Apr. 19
+    date: '1961-04-19'
+    place: washington
+    thread: cuba-bay-of-pigs
+    follows:
+      - cal.1961-04-19.cuba
+    c: 'The White House, early Wednesday, after the night''s conference on Cuba.{1} Kennedy, with little to say to anybody, walks out of his office into the Rose Garden and stays alone almost an hour. O''Donnell to Salinger, watching: "He must be the loneliest man in the world tonight."{2}'
+    n: '[[w.odonnell-johnny-we-hardly-knew]], 307 (O''Donnell''s and Powers''s account: "the following Tuesday night, when the confirmed news of the complete failure of the invasion and the capture of the greatly outnumbered rebels reached the White House"; the walk, "almost an hour"); [[w.salinger-with-kennedy]], 148–49 (after the Cabinet Room conference, which "didn''t end until 4 a.m.," Kennedy breaks off and walks the south grounds alone while O''Donnell and Salinger watch from a window; not the words). The day: both put the walk on the night of the conference, which Salinger starts when Kennedy leaves the congressional reception "at midnight" (148) and [[cal.1961-04-19.cuba]] starts at 11:58 p.m.; so the walk fell on Apr. 19, the day of the brigade''s surrender ([[cal.1961-04-19.cuba-2]]). The order: after [[cal.1961-04-19.cuba]], the conference''s end (Salinger, 148). The hour: after the conference, which breaks up about 2:00 by Schlesinger''s journal ([[w.schlesinger-journals]], 113–14) and at 4 a.m. by Salinger. Made public: [[w.odonnell-johnny-we-hardly-knew]] (1972). Names: Kennedy, O''Donnell, Salinger.'
+    src:
+      c: 349f1eb8
+      rows:
+        - 'w.odonnell-johnny-we-hardly-knew 307: ?'
+        - 'w.salinger-with-kennedy 148–49: ?'
+    tags: [name:kennedy-john-f, name:odonnell-kenneth-p, name:salinger-pierre, polity:cuba]
+    time_range:
+      - 1961-04-19T07:00Z
+      - 1961-04-19T09:45Z
+    time_zone: America/New_York
+    range_basis: record
+    variants:
+      - field: date
+        value: '1961-04-18'
+        witness: w.odonnell-johnny-we-hardly-knew
+        reads: Tuesday night, when the confirmed news of the complete failure of the invasion and the capture of the rebels reached the White House
+        at: '307'
   - id: cal.1961-04-20.cuba
     when: Apr. 20
     date: '1961-04-20'
@@ -6253,7 +6267,7 @@ entries:
     thread: republican-party
     also: [cuba-bay-of-pigs]
     c: 'Capitol Hill, the morning, by Nixon''s account. Nixon with the Republican leaders: the crisis too serious for partisanship; all to stand behind the President until it is over.'
-    n: '[[w.nixon-rn]], 233. See [[cal.1961-04-19.cuba-bay-of-pigs]]. Names: Nixon.'
+    n: '[[w.nixon-rn]], 233. The day: [1961 Pub. Papers 307](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=365) (the news conference of Apr. 21: Kennedy''s talk with Nixon "last night," the evening of Apr. 20, after Nixon''s morning on the Hill, [[w.nixon-rn]], 233; not the morning, the leaders or the words). See [[cal.1961-04-19.cuba-bay-of-pigs]]. Names: Nixon.'
     src:
       c: a56adebf
       rows:
@@ -7913,22 +7927,23 @@ entries:
     place: hangzhou
     thread: china-sixty-articles
     also: [china-mao]
-    c: 'Hangzhou, 9 a.m.{1} Mao to Deng Xiaoping: a notice calling a work conference at Peking May 15 (the drafting committee of the Sixty Articles May 9), to finish Guangzhou''s work: the members'' and cadres'' views, the Sixty Articles revised, the "five winds";{2} meanwhile ten to fifteen days'' inquiry into mess halls, grain, supply, hills and forests, draught animals, repayment, handicrafts, supply cooperatives.{3} Settled that evening with Zhou Enlai, Deng and Tian Jiaying.{4}'
-    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 25, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 61 (the topics Mao sent Deng Xiaoping, circulated to the provinces the day he received them); [[w.jianguo-yilai-mao-zedong]], XVI, 13–15 (Apr. 25, 1961; the letter to Deng Xiaoping: the dates, the tasks, the topics for inquiry; written at 9 a.m., Mao asking Deng to draft the notice with Tian Jiaying, settle it that evening and send it by telegram next day); [[w.deng-xiaoping-nianpu-1904]], III, 1633–1634 (Apr. 25, 1961; Deng reads Mao''s letter of that morning; footnote 2: the work conference sat in Peking May 21–June 12; evening (晚), Deng, Zhou and Tian Jiaying at Mao''s lodging on the draft notice; the Zhejiang inquiry team to spend ten days at Shengxian on the villages'' problems); [[w.mao-zedong-zhuan]], V, ch. 68 n.8 (Apr. 25: Mao has Deng Xiaoping and Tian Jiaying draft the notice calling a Central Work Conference in Peking in May, to finish Guangzhou''s task; the notice goes out that evening; the topics for inquiry listed). [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 317 n.1 (the Center''s notice of Apr. 25 calling the work conference for mid-May, quoted: the mess halls, grain, the supply system, the hills and woods, fuel hills for the peasants, "three guarantees and one reward", draught animals and tools to brigade or team, rectification and restitution in the first- and second-class counties, communes and brigades, handicrafts and the supply and marketing cooperatives, to be studied at points for ten to fifteen days). Made public: 2013. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.mao-zedong-shuxin-xuanji]], 578–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 465–72, 482–85, 488, 494–503, 507–11 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124b); [[w.bian-mao-zedong-he-tade]], 50–53 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124c); Mao Zedong 毛泽东, letter to Deng Xiaoping 邓小平 on the notice convening a Central Work Conference (manuscript 手稿), Apr. 25, 1961; in [[w.mao-zedong-wenji]], VIII, 268–269 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.8). Names: Mao Zedong, Deng Xiaoping, Zhou Enlai, Tian Jiaying.'
+    c: 'Hangzhou, 9 a.m.{1} Mao to Deng Xiaoping: a notice calling a work conference at Peking May 15 (the drafting committee of the Sixty Articles May 9), to finish Guangzhou''s work: the members'' and cadres'' views, the Sixty Articles revised, the "five winds";{2} meanwhile ten to fifteen days'' inquiry into mess halls, grain, supply, hills and forests, draught animals, repayment, handicrafts, supply cooperatives.{3}'
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 25, 1961. [[w.macfarquhar-origins-of-the-cultural]], III, 61 (the topics Mao sent Deng Xiaoping, circulated to the provinces the day he received them); [[w.jianguo-yilai-mao-zedong]], XVI, 13–15 (Apr. 25, 1961; the letter to Deng Xiaoping: the dates, the tasks, the topics for inquiry; written at 9 a.m., Mao asking Deng to draft the notice with Tian Jiaying, settle it that evening and send it by telegram next day); [[w.deng-xiaoping-nianpu-1904]], III, 1633–1634 (Apr. 25, 1961; Deng reads Mao''s letter of that morning; footnote 2: the work conference sat in Peking May 21–June 12); [[w.mao-zedong-zhuan]], V, ch. 68 n.8 (Apr. 25: Mao has Deng Xiaoping and Tian Jiaying draft the notice calling a Central Work Conference in Peking in May, to finish Guangzhou''s task; the notice goes out that evening; the topics for inquiry listed). [[w.jianguo-yilai-zhongyao-wenxian]], XIV, 317 n.1 (the Center''s notice of Apr. 25 calling the work conference for mid-May, quoted: the mess halls, grain, the supply system, the hills and woods, fuel hills for the peasants, "three guarantees and one reward", draught animals and tools to brigade or team, rectification and restitution in the first- and second-class counties, communes and brigades, handicrafts and the supply and marketing cooperatives, to be studied at points for ten to fifteen days). Made public: 2013. Split under R25b: the evening meeting at Liu Zhuang is [[cal.1961-04-25.china-leadership-11]]. Check: Made public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], V, ch. 68), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier than the year given; earlier still if [[w.macfarquhar-origins-of-the-cultural]], cited here, prints it. To check: [[w.mao-zedong-shuxin-xuanji]], 578–82 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124a); [[w.zedong-jianguo-yilai-mao-zedong]], 9, 465–72, 482–85, 488, 494–503, 507–11 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124b); [[w.bian-mao-zedong-he-tade]], 50–53 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 61 n.124c); Mao Zedong 毛泽东, letter to Deng Xiaoping 邓小平 on the notice convening a Central Work Conference (manuscript 手稿), Apr. 25, 1961; in [[w.mao-zedong-wenji]], VIII, 268–269 (cited by [[w.mao-zedong-zhuan]], V, ch. 68 n.8). Names: Mao Zedong, Deng Xiaoping.'
     src:
-      c: 5f6314b4
+      c: cc12f939
       rows:
-        - 'w.zedong-mao-zedong-nianpu IV, Apr. 25, 1961: 1, 2, 3, 4'
+        - 'w.zedong-mao-zedong-nianpu IV, Apr. 25, 1961: 1, 2, 3'
         - 'w.macfarquhar-origins-of-the-cultural III, 61: ?'
         - 'via w.macfarquhar-origins-of-the-cultural III, 61 n.124a: 2, 3'
         - 'via w.macfarquhar-origins-of-the-cultural III, 61 n.124b: 2, 3'
         - 'via w.macfarquhar-origins-of-the-cultural III, 61 n.124c: 2, 3'
         - 'w.jianguo-yilai-mao-zedong XVI, 13–15: 2, 3'
-        - 'w.deng-xiaoping-nianpu-1904 III, 1633–1634: 4'
         - 'w.mao-zedong-zhuan V, ch. 68 n.8: 2'
         - 'via w.mao-zedong-zhuan V, ch.68 n.8: 2'
         - 'w.jianguo-yilai-zhongyao-wenxian XIV, 317 n.1: ?'
-    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, name:zhou-enlai, vis:only:prc, name:tian-jiaying]
+        - 'w.deng-xiaoping-nianpu-1904 III, 1633–1634: ?'
+    tags: [polity:prc, name:mao-zedong, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-25.china-leadership-2
     when: Apr. 25
     date: '1961-04-25'
@@ -8106,6 +8121,23 @@ entries:
     c: 'Peking 北京. Chen Yun 陈云 sees the Shanghai Pingtan Troupe 上海评弹团 perform.{1} He receives Wu Zongxi 吴宗锡 and the young storytellers of *Qingchun zhi ge* 《青春之歌》, Shi Wenlei 石文磊 and Zhao Kaisheng 赵开生 among them: a ballad needs flesh as well as bones, and jokes; the audience wants the good to come through; a revolutionary story ends in victory, as history did; Yang Zirong 杨子荣 of *Lin hai xue yuan* 《林海雪原》 really died but the novel lets him live, and the ballad may invent too; a piece takes not three years to revise but ten; a general who wins has lost battles.{2}'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 84–85. Made public: 1997 ([[w.chen-yun-tongzhi-guanyu-1997]], where the nianpu says it is printed). To check: [[w.chen-yun-tongzhi-guanyu-1997]]; [[w.chen-yun-tongzhi-guanyu]] (the 1983 first edition, which may print it earlier). Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun, vis:only:prc@2]
+  - id: cal.1961-04-25.china-leadership-11
+    when: Apr. 25
+    date: '1961-04-25'
+    place: hangzhou
+    thread: china-sixty-articles
+    also: [china-mao]
+    follows:
+      - cal.1961-04-25.china-leadership-8
+    c: Hangzhou 杭州, Liu Zhuang 刘庄, evening. Mao with Zhou Enlai, Deng Xiaoping and Tian Jiaying on the draft notice calling the May work conference; the Zhejiang inquiry team to spend ten days at Shengxian 嵊县 on the questions in Mao's letter.
+    n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 25, 1961 (晚上，在杭州刘庄召集周恩来、邓小平、田家英等开会，讨论五月中央工作会议通知稿，还决定浙江调查组在嵊县…进行调查，时间定为十天). [[w.deng-xiaoping-nianpu-1904]], III, 1633–1634 (Apr. 25, 1961; evening (晚), Deng, Zhou and Tian Jiaying at Mao''s lodging on the draft notice; the Zhejiang inquiry team to spend ten days at Shengxian on the villages'' problems). [[w.jianguo-yilai-mao-zedong]], XVI, 13–15 (Mao''s letter of 9 a.m. asks Deng to draft the notice with Tian Jiaying and to settle it "that evening"). The hour: the evening (晚上, Mao nianpu). Made public: 2013. Split under R25b: Mao''s letter of 9 a.m. is [[cal.1961-04-25.china-leadership]]. The order: after [[cal.1961-04-25.china-leadership-8]], [[w.deng-xiaoping-nianpu-1904]], III, 1633–1634 (the draft written at Mao''s bidding; 晚, the draft notice discussed at Mao''s). See [[cal.1961-04-25.china-leadership]]. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Tian Jiaying.'
+    tags: [polity:prc, name:mao-zedong, name:zhou-enlai, name:deng-xiaoping, name:tian-jiaying, vis:only:prc]
+    time_range:
+      - 1961-04-25T11:00Z
+      - 1961-04-25T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1961-04-26.laos
     when: Apr. 26
     date: '1961-04-26'
