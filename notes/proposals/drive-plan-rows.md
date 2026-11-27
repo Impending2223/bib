@@ -78,3 +78,84 @@ Ratings changed on these rows: 21 (to "cited only" and "read in part"), 38 (the 
 - Rows marked "sure" whose file is another edition or a translation of the card's book: rows 240 (Chen Yun zhuan, 2005 on the card, 2015 in the file), 266, 292, 529 and 205 (the file calls Merle Miller's book an "oral autobiography"), and row 510 (the English translation of *Wannian Zhou Enlai*).
 - The years of three new rows (Serov, Friedly and Gallen, Pike's pamphlet) are my estimates, not from the file names. The titles of the five NSA rows are taken from the old row's title. The papers' own titles were not read.
 - The "pages cited" figures from the notes register were not recomputed for the split rows.
+
+## The audit
+
+Nov. 27, 2026. I checked the work above against the file names, the cards (`./bib works show` and the catalogue files), the book-check files and the TSV as it stood before the check. I changed the TSV again in place and brought `notes/proposals/drive-reading-plan.md` into line with it. I opened the first pages of two files on the Drive, by a ranged request of each, because their names did not settle which work they were. Nothing in this audit turned on what is an entry, so R0 did not come into play and I disregarded nothing.
+
+### What was wrong with the check
+
+- The check said it confirmed each weak match. It did not. Its script set every weak row it had not handled by hand to "sure" without a look: 98 rows. I checked each of the 98 against its card and its file name. 92 hold. Six were wrong, and they are corrected below (Chen Yun zhuan, the Liu Shaoqi nianpu, the party-history teaching volumes, The Private Life of Chairman Mao, Wannian Zhou Enlai and the Deng Xiaoping nianpu).
+- The check put the new rows in each batch by the old position of the row they came from. The plan orders each stage by year of publication. I put every changed batch back in that order and numbered its readers again.
+- The check split the five NSA papers into five rows. The plan keeps a set of documents from one release in one row, as it does for the Romanian, Russian and Foreign Ministry files. I put the five papers back in one row. U5 goes from 191 readers back to 187.
+
+### Rows I split
+
+I used one rule throughout. Where the catalogue gives each volume, part or edition its own card, each gets its own row, as Crossman's three volumes already had. Where a volume, an edition in another language, or an enlarged edition has no card, it gets a row of its own with no card. Copies of one book, and reprints of one text, stay together.
+
+- de Gaulle, *Lettres, notes et carnets*: six rows, tomes 8 to 13, each with its card. The PDF copies of tomes 8 and 9 stay with their EPUBs. W2 goes from 6 works to 11 and from 132 readers to 134.
+- *Freedom of Communications*: two rows. Part 1 (Kennedy's speeches) has the card and the file its book-check names, 997 pages. The file named only "Freedom_of_Communications.pdf" is part 2, Nixon's speeches; its first pages say so. Parts 2 to 4 are one row with no card, 3,018 pages. U2 gains one reader.
+- *America Votes*: five rows, nos. 5 to 9, each with its card. E1 goes from 5 works to 9 and from 43 readers to 44.
+- The House Judiciary Subcommittee No. 5 hearings of 1963: three rows. Parts 1 and 2 each have a card; part 3 has none.
+- The party-history teaching materials: vols. 23 and 24 keep their card and stay in A6. Vols. 25 and 27 are Wang Nianyi's *"Wenhua dageming" yanjiu ziliao* (1988), which has its own card, `w.wenhua-dageming-yanjiu-ziliao`. They move to A4, the Cultural Revolution.
+- Wang Xian'gen's book: two rows. The edition of 1992, *Zhongguo mimi da fabing*, has its own card; the edition of 1990 keeps the other.
+- *Nongye jitihua zhongyao wenjian huibian*: two rows. The card is for vol. 2 only; vol. 1 has none.
+- *Lịch sử Quân đội Nhân dân Việt Nam*: two rows. The card is for vol. II only; vol. I has none.
+- *The Private Life of Chairman Mao*: two rows. The English book keeps the card; the Chinese edition has none.
+- The Liu Shaoqi nianpu (row 211 of the check): two rows. Vol. 2 of the 1996 edition has the card and was read for 1960 to 1969. The two volumes of the 2018 enlarged edition have no card and run 1898 to 1949; the book-check says so.
+- The PRC diplomatic chronology: two rows. Vol. 2 (two copies) and vol. 3 each have their own card.
+- The Deng Xiaoping nianpu: two rows. One file was the nianpu of 1975 to 1997, a different work; its cover says so. It has no card.
+
+### Cards I corrected
+
+- *Jianguo yilai Mao Zedong wengao*: the files are the 2023 edition, so the card is `w.jianguo-yilai-mao-zedong`, not the card of the first edition.
+- *Chen Yun zhuan*: the files are the 2015 edition, so the card is `w.jin-chongji-chen-yun-zhuan`.
+- *Liu Shaoqi zhuan*: the file is the 1998 edition, so the card is `w.liu-shaoqi-zhuan`. It is now "read in part".
+- *Wannian Zhou Enlai*: the card was on the English translation. It now sits on the row of the Chinese book. The translation has no card and is "not read".
+- The 1990 printing of the Tian Jiaying book: it now has the card of the first edition, `w.bian-mao-zedong-he-tade`.
+- *Mao Zedong sixiang wansui* of July 1966: the card was for a printing of 1960 to 1967 texts, which cannot be this one. It now has no card.
+- The Cultural Revolution compilation in A4: the file is the Peking Automobile Company's *cankao ziliao* of November 1966, as the hand-off says. The card was for the chemical industry bureau's *ziliao*, another book. It now has no card.
+- Solomon: the file is the enlarged edition, 1945 to 1981 (1982). The card is the first edition, 1945 to 1976. The row now has no card and keeps "cited only from other works".
+- The Presidential Recordings: the match is now "sure". All three files are volumes of the Johnson series. May and Naftali are that series' general editors.
+- Two wrong cards outside the rows I was asked to check, found by comparing card titles with file names: the file under Wyden's *Bay of Pigs* is Kornbluh's *Bay of Pigs Declassified*, and the file under Kaiser's *1968 in America* is David Hoeh's book on the New Hampshire primary. Neither has a card now.
+
+No row is "weak" now. 516 rows are "sure" and 24 have no card.
+
+### The counts and readers now
+
+The TSV has 1,572 rows (1,556 after the check, 1,534 before it). The files are still 2,118. The works are 675, and 159 of them have no card. Pages in the files are 443,980, as before the check. Pages to read are 429,291. Readers are 5,102 (5,093 after the check, 5,097 in the plan before it).
+
+| Batch | Works before | After the check | Now | Readers before | After the check | Now |
+|---|---|---|---|---|---|---|
+| A1 | 15 | 19 | 19 | 228 | 215 | 215 |
+| A3 | 36 | 40 | 41 | 365 | 368 | 369 |
+| A4 | 25 | 25 | 26 | 160 | 160 | 165 |
+| A5 | 15 | 15 | 16 | 155 | 149 | 150 |
+| A6 | 24 | 24 | 25 | 205 | 205 | 201 |
+| V1 | 33 | 34 | 35 | 210 | 211 | 211 |
+| V3 | 30 | 29 | 29 | 200 | 192 | 192 |
+| U1 | 50 | 51 | 51 | 399 | 400 | 400 |
+| U2 | 57 | 57 | 58 | 449 | 449 | 450 |
+| U3 | 57 | 58 | 58 | 171 | 171 | 171 |
+| U4 | 62 | 68 | 70 | 463 | 469 | 475 |
+| U5 | 24 | 29 | 25 | 187 | 191 | 187 |
+| U8 | 25 | 26 | 26 | 145 | 151 | 151 |
+| U9 | 10 | 9 | 9 | 69 | 63 | 63 |
+| E1 | 5 | 5 | 9 | 43 | 43 | 44 |
+| D1 | 18 | 19 | 19 | 89 | 97 | 97 |
+| W2 | 6 | 6 | 11 | 132 | 132 | 134 |
+
+V2, U6 and W4 keep their works and readers, but a title, the order or the pages to read inside them changed. In the plan I changed the batch table, its total, the sections of these 20 batches (their counts, works and reader numbers) and the counts at the head (the works, the rows, the works without a card, and the two tables of ratings). In the changed sections a work is now named by its title in the TSV, so a few files the plan named by their file name (the stockpile fact sheet and the ship force levels in D1, the Senate print on nominations in U8) now show their titles. I changed nothing else in the plan. So three places still give the old figures: the section on the queue (its counts of unread works), and the totals of 5,097 readers in "What I could not identify or settle" and in "What this revision changed".
+
+### Defaults the owner may overrule
+
+- The 2018 volumes of the Liu Shaoqi nianpu run 1898 to 1949, and the Deng Xiaoping nianpu of 1975 to 1997 starts after the calendar's span. Each keeps the rating its old row had, "read through (for the calendar span)", and stays out of the batches, because neither holds a page of the span. If the owner wants them read, they go to A3.
+- An edition in another language, or an enlarged edition, is a row of its own. Reprints of one text stay together.
+
+### What I could not settle
+
+- Bo Yibo's *Ruogan zhongda juece*: the file of vol. 1 is dated 2011. The row's card is the first edition (1991–93), and the catalogue also has the revised edition of 1997. The name does not say which text the file is.
+- Wu Lengxi's *Shinian lunzhan*: one card, two files, one marked "2版" (second edition). The names do not say whether the texts differ. The row is read through, so no batch changes.
+- Dikötter's *Mao's Great Famine* (one file says 2010; the card cites the paperback of 2017) and Li Rui's *Da Yuejin qin li ji* (files of 1999, card of 1996) are kept as reprints of one text.
+- The pages of every split row are shares of the old row's total, by file size, except where the TSV says "counted". The pages cited are shared out by the number of pinned cites. Real counts will differ.
+- The years of the Hoeh, Kornbluh, Solomon and Gao Wenqian translation rows are from what I know of the books, not from the files. The TSV marks them as estimates.
