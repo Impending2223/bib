@@ -129,3 +129,43 @@ A "row" below is one line of the TSV. "Stage" is the plan's step within a batch 
 - The JFK Library count of 587 and the RFK Library count of 253 agree with the TSV.
 - The line of queue items that reach unread works (line 614) agrees with the TSV.
 - The ratings of works carded and cited by their card are sound in my sample: all 20 of "read through" and "cited only" bore out, and nine of ten "read in part".
+
+## After the mend
+
+Checked Nov. 27, 2026, against the plan and TSV as mended (commit 755595c7). I read the whole .md and checked its numbers against the TSV's 1,534 rows. I read no source and fetched nothing.
+
+### Each fault, mended or not
+
+- Fault 1, the broken file: mended. Each section is there once, in the order the review gave, with no loose lines and no line hard-wrapped. "577" is left only in the sentence that says it was wrong.
+- Fault 2, works already read: mended. The ten Batch 17 rows, Kaplan's OSD volume, "Betrayers of the Trust" and the two Martin and Mitchell papers are "read through" and in no batch. S. Rep. No. 94-465, H. Rep. No. 88-914, the HUAC print and the 60th-anniversary book are "read in part", each with its card and a remainder. A8 is three works on Czechoslovakia. Step 1 of the order drops item 14.
+- Fault 3, works read in part in no batch: mended. Every row rated "read in part" is now in a batch; the only rows left out are the 43 rated "read through" and one *Times* day folder, which belongs to the *Times* reading under way. The thirteen works that rested on "Made public" mentions are "cited only from other works". The remainders are estimates and the plan says so.
+- The nine 1968 *CQ* issues: the mend departs from me and rates them "read through". I accept it. Each has a book-check that reads the issue whole (the two rows dated July 26, 1968 are the issue's two parts, one book-check).
+- Fault 4, rows holding more than one work: mended. Eig, the Johnson tapes (now in U1's stage 1), vanden Heuvel and Gwirtzman, Boomhower (U8), Hilty, Cosman and Huckshorn, Huang Zheng's second book and Crossman's three volumes are rows of their own. The Ross row, whose book is not on the Drive, is gone.
+- Fault 5, copies counted twice: mended. No row now counts a file twice.
+- Fault 6, cards not matched: mended. The cards I named are in the `card` column, and the works named behind To check are "cited only". Buttinger and Cosman have no mention and stay "not read", which is right.
+- Fault 7, documents by kind: mended in the main. The 23 papers are five rows by subject (Tonkin in V3, the *Liberty* in W6, the *Pueblo* in W7, the Martin and Mitchell papers read, five NSA papers in U5). The Senate Foreign Relations volumes are in V3. Keesing's is its own batch, K1, read first. The nomination print is in U8, read from its first page. Two are left; see "Still wrong" below.
+- F1: the mend departs from me and keeps the five Current Documents volumes whole, read by date. I accept it. It is one of the two choices I gave, and the F1 section says it is a default and how to split it.
+- Fault 8, works in the wrong batch: mended. The books on Washington's decisions are in V3, the books on the Vietnamese sides in V1, *Rockefeller of New York* in U9, the 1968 Democratic contest in U8, Galbraith in W7, *Origins* in A5, Zhang's second book and the Bulletin in A2, and A6 says it holds Taiwan's works.
+- *"Sanjiacun" chenyuan*: the mend departs from me and puts it in A4. I accept it: the case of the Three-Family Village opened the Cultural Revolution.
+- Fault 9, order within a batch: mended in the main. In every batch the stages run in order and the years rise within each stage. The chronology of Đoàn Thêm is in stage 1, the *wansui* in the record, Serov's diaries with the diaries at 150 pages a reader, and about 70 lives and memoirs in the last stage. Some years taken from memory are wrong; see below.
+- Fault 10, batches side by side: mended in the main. The order now chains W1, W2, W3 and W5; puts W3 and W4 after A1; runs U1 before H1, D1 and F1; chains U2, U8 and U9; chains A4 and A5; and chains V1, V2 and V3. One overlap is left; see below.
+- Fault 11, small TSV faults: mended. Only the five Britain works carry the Britain-run tag. Crossman is three rows.
+- Fault 12, the numbers: mended. The list of unread works that no queue item reaches counts works only and adds to 333, as its paragraph says. Issues and transcripts are packed by pages. The two time stamps of ruling 63 and the hand-off's item 14 are named as open, not changed.
+
+### The new numbers, checked against the TSV
+
+- The batch table agrees with the TSV in every cell: works, files, pages in the files (`pages_whole`), pages to read (`pages`), queue, proposed and neither. The totals are 1,490 works, 1,695 files, 443,980 and 429,202 pages, 89, 46 and 1,355.
+- The 5,097 readers are right as positions: the last reader number of each batch adds to 5,097, and the reader numbers run without gaps.
+- The unread works: 444, of which 73 are reached by a queue item, 38 only by a proposal of Nov. 25, and 333 by neither. The 333 by batch agree with the plan's list. The list of queue items and their counts agrees.
+- The 25 unread works most often named behind To check agree with the TSV. The 25th place is a tie at 17 (Dirksen, Payne and Lesher); the list names only Dirksen.
+- The ratings table agrees with the TSV: rows 43, 165, 282 and 1,044; works 28, 165, 240 and 204; files and pages as printed.
+- 637 works, 142 of them with no card: both agree with the TSV.
+
+### Still wrong, or newly wrong
+
+- The TSV's `readers` column does not hold the packed counts. Each of the 840 transcripts, the 36 *CQ* issues and the five *Newsweek* issues still shows 1 reader, so the column adds to 5,728, not 5,097. The difference (631) is the packing: O1 840 against 232, U3's issues 36 against 14, P1's issues 5 against 4. What it should be: give these rows their share, or say in the plan that the column counts rows and the reader numbers count readers.
+- The plan says the pages fell by 9,310 when each copy was counted once. Over the whole TSV the pages fell by 9,709 (475,547 before, 465,838 in `pages_whole` now). The other 399 pages are not explained.
+- Some years taken from memory are wrong, and they move works in the order. *Hubert: The Triumph and Tragedy of the Humphrey I Knew* is Edgar Berman's book of 1979, not 2020; it is last in U8's lives and should come after Eisele (1972). Bui Diem's *In the Jaws of History* is of 1987, not 1999. Shu Guang Zhang's *Beijing's Economic Statecraft during the Cold War* is of 2014, as far as I know, not 2021. The file name of *Zhongguo gongchandang zhongda shishi kaozheng* says 2001, not the 2007 given. Rafalko's *MH/CHAOS* is of 2011, not 2008, and Goudsouzian's *The Men and the Moment* of 2019, not 2017. Each is marked `estimate` in `year_basis`, so a reader can mend them; the order within the stage changes for Berman and Bui Diem.
+- P1 still holds two government documents by kind. *Freedom of Communications* (S. Rep. No. 87-994) is the Senate's print of the candidates' speeches and the debates of 1960. Its subject is the 1960 campaign, so it belongs in U2's record (queue item 20 already reads its parts 2 to 4). The *Department of State Bulletin* of 1968 is the same kind of record as the Current Documents and is read the same way, by date. It belongs in F1.
+- One overlap is left in the order. Step 4 starts "after A1", so W5 and W7 may run while A2 runs. W7's *Pyongyang Between Peking and Moscow* and Szalontai treat the Sino-Soviet contest over North Korea, and A2's *Shadow Cold War* and *Collateral Damage* treat the same contest in Asia and Africa. W7, and W5 if *Shadow Cold War* is read for Africa, should follow A2.
+- A few lives remain in the stage of histories: Zeiler's life of Rusk and vanden Heuvel and Gwirtzman's *On His Own* (U1). Jacobs's *Cold War Mandarin*, a history of the American alliance with Diem, is in V1's lives. These are small and do not change the batches.
