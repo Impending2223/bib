@@ -1237,6 +1237,31 @@ entries:
       rows:
         - 'w.gibbons-u-s-government-and IV, 98: all'
         - 'via x.1965-12-06.washington-post-dec-6-1965: all'
+    aliases: [cal.1965-12-06.opinion-2]
+    conflict:
+      - field: c
+        ours: 'The Harris Survey: "The overwhelming majority of the American people—71 percent—are prepared to continue the fighting in Vietnam until the United States can negotiate a settlement on its own terms."'
+        theirs: 'A poll: 71 percent agree on the need to hold the line and keep fighting.'
+        base: null
+        from: 'combine: combined cal.1965-12-06.opinion-2'
+      - field: n
+        ours: '[[w.gibbons-u-s-government-and]], IV, 98. To check: *Washington Post*, Dec. 6, 1965 (cited by [[w.gibbons-u-s-government-and]], IV, 98 n.63).'
+        theirs: '[[w.debenedetti-american-ordeal]], 137.'
+        base: null
+        from: 'combine: combined cal.1965-12-06.opinion-2'
+      - field: src
+        ours:
+          c: 37632b72
+          rows:
+            - 'w.gibbons-u-s-government-and IV, 98: all'
+            - 'via x.1965-12-06.washington-post-dec-6-1965: all'
+        theirs:
+          c: a45d535a
+          rows:
+            - 'w.debenedetti-american-ordeal 137: all'
+            - 'via w.debenedetti-american-ordeal 137 n.157: all'
+        base: null
+        from: 'combine: combined cal.1965-12-06.opinion-2'
   - id: cal.1965-12-06.vietnam-pause-3
     when: Dec. 6
     date: '1965-12-06'
@@ -1273,17 +1298,6 @@ entries:
     time_band: workday daytime
     time_zone: America/Chicago
     range_basis: kind
-  - id: cal.1965-12-06.opinion-2
-    when: Dec. 6
-    date: '1965-12-06'
-    thread: opinion
-    c: 'A poll: 71 percent agree on the need to hold the line and keep fighting.'
-    n: '[[w.debenedetti-american-ordeal]], 137.'
-    src:
-      c: a45d535a
-      rows:
-        - 'w.debenedetti-american-ordeal 137: all'
-        - 'via w.debenedetti-american-ordeal 137 n.157: all'
   - id: cal.1965-12-06.king-2
     when: Dec. 6–7
     date: '1965-12-06'
@@ -3897,33 +3911,12 @@ entries:
     n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 97–98 (Dec. 20–22). The words: выехал в Завидово в 11⁰⁰ (II, 97). The time is the first day''s. Names: Brezhnev, Kekkonen, Podgorny.'
     tags: [name:brezhnev-leonid, name:podgorny-nikolai-v, name:kekkonen-urho, polity:ussr, polity:finland]
     time_zone: Europe/Moscow
-  - id: cal.1965-12-20.china-leadership
-    when: Dec. 20
-    date: '1965-12-20'
-    place: peking
-    thread: china-zhou-foreign
-    also: [vietnam-hanoi, vietnam, china-foreign]
-    c: 'Zhou, at the reception given by Trần Văn Thanh, head of the Front''s permanent mission in China, for its fifth anniversary: the American "unconditional negotiation" is conditional, that the people of the South lay down arms, stop resisting, and the North give up its countrymen; the U.S., deep in the Vietnam swamp, plots new widening, perhaps to all Indochina and China. The Chinese people are long prepared; if it insists on widening, on another contest with them, they will answer and see it through.{1}'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 20, 1965); [[w.77-conversations-between-chinese]], [90 n.139](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88) (the editors'' note 139 to doc. 17: Zhou to Trần Văn Thanh, head of the NLF''s resident delegation in Beijing, Dec. 20, 1965: the American ''unconditional negotiation'' is conditional; the U.S. may widen the war to all Indochina or China; the Chinese people are prepared and will fight to the end). [[w.chen-yi-nianpu]], 1134–1135 (Dec. 20, 1965, evening, the Peking Hotel; Chen Yi at the reception of Trần Văn Thành 陈文成, head of the Front''s permanent mission). Check: the form of the Front name. Names: Zhou Enlai, Trần Văn Thanh.'
-    src:
-      c: 34f24629
-      rows:
-        - 'w.zhou-enlai-nianpu-1949 II, 769: ?'
-        - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88: 1'
-        - 'via x.1965-12-20.zhou-enlai-to-tran-van-thanh: 1'
-        - 'w.chen-yi-nianpu 1134–1135: ?'
-    tags: [name:zhou-enlai, polity:prc, polity:nlf, name:tran-van-thanh]
-    time_range:
-      - 1965-12-20T11:00Z
-      - 1965-12-20T14:00Z
-    time_band: evening
-    time_zone: Asia/Shanghai
   - id: cal.1965-12-20.china-leadership-2
     when: Dec. 20
     date: '1965-12-20'
     place: peking
     thread: china-zhou-foreign
-    also: [vietnam-hanoi, china-foreign]
+    also: [vietnam-hanoi, china-foreign, vietnam]
     c: 'Zhou, at the reception given at the Beijing Hotel by Trần Văn Thành, head of the National Liberation Front of South Vietnam''s permanent mission, for the Front''s fifth anniversary: the United States, deep in the mire of aggression in Vietnam, is plotting a new widening of the war, possibly to all Indochina and China. The Chinese people have long been prepared, and if the U.S. goes on and wants another trial of strength with them, they will take it up and see it through.{1}'
     n: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 20, 1965; evening; Beijing Hotel); [[w.zhonghua-renmin-gongheguo-waijiao]], 75 (Dec. 20, 1965; Zhou at the Front''s mission''s reception for the Front''s fifth anniversary: full support for the DRV''s four points and the Front''s five-point statement; if the U.S. goes on widening the war, China will meet it to the end); [[w.77-conversations-between-chinese]], [90 n.139](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88) (the editors'' note 139 to doc. 17: Zhou to Trần Văn Thanh, Dec. 20, 1965, the same words). The book names the head of the mission 陈文成. [[w.peng-zhen-nianpu-1902]], IV, 455 (Dec. 20, 1965, evening; Peng Zhen at the reception of Trần Văn Thanh 陈文成, head of the Front''s mission, for its fifth anniversary). Names: Zhou Enlai, Trần Văn Thanh.'
     src:
@@ -3934,7 +3927,48 @@ entries:
         - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88: 1'
         - 'via x.1965-12-20.zhou-enlai-to-tran-van-thanh: 1'
         - 'w.peng-zhen-nianpu-1902 IV, 455: ?'
-    tags: [polity:prc, name:zhou-enlai, name:tran-van-thanh]
+    tags: [polity:prc, name:zhou-enlai, name:tran-van-thanh, polity:nlf]
+    aliases: [cal.1965-12-20.china-leadership]
+    conflict:
+      - field: c
+        ours: 'Zhou, at the reception given at the Beijing Hotel by Trần Văn Thành, head of the National Liberation Front of South Vietnam''s permanent mission, for the Front''s fifth anniversary: the United States, deep in the mire of aggression in Vietnam, is plotting a new widening of the war, possibly to all Indochina and China. The Chinese people have long been prepared, and if the U.S. goes on and wants another trial of strength with them, they will take it up and see it through.'
+        theirs: 'Zhou, at the reception given by Trần Văn Thanh, head of the Front''s permanent mission in China, for its fifth anniversary: the American "unconditional negotiation" is conditional, that the people of the South lay down arms, stop resisting, and the North give up its countrymen; the U.S., deep in the Vietnam swamp, plots new widening, perhaps to all Indochina and China. The Chinese people are long prepared; if it insists on widening, on another contest with them, they will answer and see it through.'
+        base: null
+        from: 'combine: combined cal.1965-12-20.china-leadership'
+      - field: cuts
+        ours:
+          -
+            - 473
+            - '1'
+        theirs:
+          -
+            - 502
+            - '1'
+        base: null
+        from: 'combine: combined cal.1965-12-20.china-leadership'
+      - field: n
+        ours: '[[w.zhou-enlai-waijiao-huodong]], 487 (Dec. 20, 1965; evening; Beijing Hotel); [[w.zhonghua-renmin-gongheguo-waijiao]], 75 (Dec. 20, 1965; Zhou at the Front''s mission''s reception for the Front''s fifth anniversary: full support for the DRV''s four points and the Front''s five-point statement; if the U.S. goes on widening the war, China will meet it to the end); [[w.77-conversations-between-chinese]], [90 n.139](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88) (the editors'' note 139 to doc. 17: Zhou to Trần Văn Thanh, Dec. 20, 1965, the same words). The book names the head of the mission 陈文成. [[w.peng-zhen-nianpu-1902]], IV, 455 (Dec. 20, 1965, evening; Peng Zhen at the reception of Trần Văn Thanh 陈文成, head of the Front''s mission, for its fifth anniversary). Names: Zhou Enlai, Trần Văn Thanh.'
+        theirs: '[[w.zhou-enlai-nianpu-1949]], II, 769 (Dec. 20, 1965); [[w.77-conversations-between-chinese]], [90 n.139](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88) (the editors'' note 139 to doc. 17: Zhou to Trần Văn Thanh, head of the NLF''s resident delegation in Beijing, Dec. 20, 1965: the American ''unconditional negotiation'' is conditional; the U.S. may widen the war to all Indochina or China; the Chinese people are prepared and will fight to the end). [[w.chen-yi-nianpu]], 1134–1135 (Dec. 20, 1965, evening, the Peking Hotel; Chen Yi at the reception of Trần Văn Thành 陈文成, head of the Front''s permanent mission). Check: the form of the Front name. Names: Zhou Enlai, Trần Văn Thanh.'
+        base: null
+        from: 'combine: combined cal.1965-12-20.china-leadership'
+      - field: src
+        ours:
+          c: 8a991bde
+          rows:
+            - 'w.zhou-enlai-waijiao-huodong 487: 1'
+            - 'w.zhonghua-renmin-gongheguo-waijiao 75: 1'
+            - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88: 1'
+            - 'via x.1965-12-20.zhou-enlai-to-tran-van-thanh: 1'
+            - 'w.peng-zhen-nianpu-1902 IV, 455: ?'
+        theirs:
+          c: 34f24629
+          rows:
+            - 'w.zhou-enlai-nianpu-1949 II, 769: ?'
+            - 'https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=88: 1'
+            - 'via x.1965-12-20.zhou-enlai-to-tran-van-thanh: 1'
+            - 'w.chen-yi-nianpu 1134–1135: ?'
+        base: null
+        from: 'combine: combined cal.1965-12-20.china-leadership'
     time_range:
       - 1965-12-20T11:00Z
       - 1965-12-20T14:00Z

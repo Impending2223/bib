@@ -1355,14 +1355,6 @@ entries:
         - 'via w.jianguo-yilai-mao-zedong XVIII, 461 n.1b: 1'
         - 'w.liu-jixian-ye-jianying-nianpu II, 958: ?'
     tags: [name:mao-zedong, name:lin-biao, name:zhou-enlai, name:ye-jianying, name:nie-rongzhen, name:xu-xiangqian, polity:prc, vis:only:prc, name:wang-qimei, name:zhang-guohua, name:zhou-renshan]
-  - id: cal.1967-02-07.china-leadership-2
-    when: Feb. 7
-    date: '1967-02-07'
-    thread: china-seizures
-    also: [china-mao-cr]
-    c: 'Mao approves the Center''s telegram to the embassies and consulates: staff to form no fighting bodies; those formed to become Cultural Revolution study groups under the embassy Party committee, none to meddle with its authority.'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 7, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 120–121 (Feb. 7, 1967; Zhou reviews and revises the Foreign Affairs Office draft instruction on the Cultural Revolution in embassies and consulates, stressing that fighting groups already formed become study groups under the Party committee, with a right to criticize and suggest, none to supervise, and none to meddle directly with the committees authority). Made public: 2013. Names: Mao Zedong.'
-    tags: [name:mao-zedong, polity:prc, vis:only:prc]
   - id: cal.1967-02-07.china-leadership-4
     when: Feb. 7–8
     date: '1967-02-07'
@@ -1398,6 +1390,18 @@ entries:
     c: Mao Zedong 毛泽东, sent it by Zhou Enlai 周恩来, signs Chen Yi's 陈毅 cable forbidding the "four bigs" in the missions abroad, the foreign affairs system's "Feb. 7 directive."
     n: '[[w.chen-yi-nianpu]], 1183. See [[cal.1967-02-06.china-leadership-9]]. Made public: 1995. Names: Chen Yi, Zhou Enlai, Mao Zedong.'
     tags: [polity:prc, name:chen-yi, name:mao-zedong, name:zhou-enlai, ok:fields-place, vis:only:prc]
+    aliases: [cal.1967-02-07.china-leadership-2]
+    conflict:
+      - field: c
+        ours: Mao Zedong 毛泽东, sent it by Zhou Enlai 周恩来, signs Chen Yi's 陈毅 cable forbidding the "four bigs" in the missions abroad, the foreign affairs system's "Feb. 7 directive."
+        theirs: 'Mao approves the Center''s telegram to the embassies and consulates: staff to form no fighting bodies; those formed to become Cultural Revolution study groups under the embassy Party committee, none to meddle with its authority.'
+        base: null
+        from: 'combine: combined cal.1967-02-07.china-leadership-2'
+      - field: n
+        ours: '[[w.chen-yi-nianpu]], 1183. See [[cal.1967-02-06.china-leadership-9]]. Made public: 1995. Names: Chen Yi, Zhou Enlai, Mao Zedong.'
+        theirs: '[[w.zedong-mao-zedong-nianpu]], VI, Feb. 7, 1967. [[w.zhou-enlai-nianpu-1949-2020]], III, 120–121 (Feb. 7, 1967; Zhou reviews and revises the Foreign Affairs Office draft instruction on the Cultural Revolution in embassies and consulates, stressing that fighting groups already formed become study groups under the Party committee, with a right to criticize and suggest, none to supervise, and none to meddle directly with the committees authority). Made public: 2013. Names: Mao Zedong.'
+        base: null
+        from: 'combine: combined cal.1967-02-07.china-leadership-2'
   - id: cal.1967-02-07.africa
     when: Feb. 7
     date: '1967-02-07'

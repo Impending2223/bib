@@ -1150,7 +1150,7 @@ entries:
     date: '1961-04-05'
     thread: laos
     c: The Royal Laotian Army, American "technicians" with it, drops paratroops from C-47s and lands infantry by helicopter north of Muong Kasi, on the crossroads between Vientiane and Luang Prabang;{1} the second phase of the offensive fails. The same day Felt reports Task Force 116, on heightened alert since Mar. 22, able to land in Laos within 48 hours of "the order to execute."{2}
-    n: '[[w.schulimson-joint-chiefs-of-staff]], 67; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 240 (Phoumi''s offensive of Apr. 5 to retake the highways to the Plain of Jars, collapsed within a week). Names: Felt.'
+    n: '[[w.schulimson-joint-chiefs-of-staff]], 67; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 240 (Phoumi''s offensive of Apr. 5 to retake the highways to the Plain of Jars, collapsed within a week). Check: whether Phoumi''s offensive of this day, [[cal.1961-04-05.laos-2]], is the same operation. Names: Felt.'
     src:
       c: c1b72c17
       rows:
@@ -5962,7 +5962,29 @@ entries:
     also: [farm, china-zhou]
     c: 'Zhou Enlai to Mao, by letter: in his talks at Wuhan, Nanning, Yunnan and Chengdu on village rectification and the Sixty Articles, "three guarantees and one reward" and "30–70" came up; the Guangzhou conference did not settle distribution by output; distribution by labor grade or work points is not liked by the masses. He sends Sichuan''s meeting bulletin and two reports from Nanchong.'
     n: '[[w.zhou-enlai-nianpu-1949]], II, 405 (Apr. 19, 1961). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+    src:
+      c: b9759f07
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 66: all'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 66 n.152: all'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+    aliases: [cal.1961-04-19.china-leadership-2]
+    conflict:
+      - field: c
+        ours: 'Zhou Enlai to Mao, by letter: in his talks at Wuhan, Nanning, Yunnan and Chengdu on village rectification and the Sixty Articles, "three guarantees and one reward" and "30–70" came up; the Guangzhou conference did not settle distribution by output; distribution by labor grade or work points is not liked by the masses. He sends Sichuan''s meeting bulletin and two reports from Nanchong.'
+        theirs: Zhou Enlai writes to Mao on early findings from various parts of the country after the Guangzhou discussions.
+        base: null
+        from: 'combine: combined cal.1961-04-19.china-leadership-2'
+      - field: thread
+        ours: china-sixty-articles
+        theirs: china-zhou
+        base: null
+        from: 'combine: combined cal.1961-04-19.china-leadership-2'
+      - field: n
+        ours: '[[w.zhou-enlai-nianpu-1949]], II, 405 (Apr. 19, 1961). Made public: 1997. Names: Zhou Enlai, Mao Zedong.'
+        theirs: '[[w.macfarquhar-origins-of-the-cultural]], III, 66. Made public: 1997. To check: [[w.zhou-enlai-shuxin-xuanji]], 571 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 66 n.152). Names: Zhou Enlai, Mao Zedong.'
+        base: null
+        from: 'combine: combined cal.1961-04-19.china-leadership-2'
   - id: cal.1961-04-19.china-leadership-4
     when: Apr. 19
     date: '1961-04-19'
@@ -6012,18 +6034,6 @@ entries:
         - 'w.zhou-enlai-waijiao-huodong 308: all'
     tags: [polity:prc, polity:ussr, name:zhou-enlai, vis:only:prc+ussr, name:sudarikov]
     time_zone: Asia/Shanghai
-  - id: cal.1961-04-19.china-leadership-2
-    when: Apr. 19
-    date: '1961-04-19'
-    thread: china-zhou
-    c: Zhou Enlai writes to Mao on early findings from various parts of the country after the Guangzhou discussions.
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 66. Made public: 1997. To check: [[w.zhou-enlai-shuxin-xuanji]], 571 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 66 n.152). Names: Zhou Enlai, Mao Zedong.'
-    src:
-      c: b9759f07
-      rows:
-        - 'w.macfarquhar-origins-of-the-cultural III, 66: all'
-        - 'via w.macfarquhar-origins-of-the-cultural III, 66 n.152: all'
-    tags: [polity:prc, name:zhou-enlai, name:mao-zedong, vis:only:prc]
   - id: cal.1961-04-19.china-leadership-7
     when: Apr. 19
     date: '1961-04-19'
@@ -8911,6 +8921,7 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 49 n.64d: all'
         - 'via w.macfarquhar-origins-of-the-cultural III, 49 n.64e: all'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1961-04-28.china-leadership-2
     when: Apr. 28
     date: '1961-04-28'

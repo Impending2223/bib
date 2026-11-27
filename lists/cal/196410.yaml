@@ -3876,11 +3876,11 @@ entries:
     date: '1964-10-14'
     place: peking
     thread: china-polemic
-    also: [soviet-union]
+    also: [soviet-union, china-foreign]
     follows:
       - cal.1964-10-14.soviet-union-leadership
     c: 'Peking, late at night.{1} Soviet ambassador Chervonenko telephones the Central Committee''s General Office asking an urgent meeting with Chinese leaders; Yang Shangkun asks Liu Shaoqi, who sends Wu Xiuquan, who receives him in his home.{2} Chervonenko, on the CPSU Central Committee''s instruction: that day the Central Committee relieved Khrushchev;{3} Brezhnev first secretary, Kosygin chairman of the Council of Ministers; Mikoyan remains chairman of the Supreme Soviet''s Presidium.{4}'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 829–830 ("the late night of Oct. 14"; Liu''s choice of Wu Xiuquan; Yang Shangkun reported at once to Mao, Liu, Zhou and Deng; the General Office told the whole Politburo early next morning; the Soviet announcement, Oct. 16, 831); [[w.macfarquhar-origins-of-the-cultural]], III, 364 (the Russians inform the Chinese of Khrushchev''s removal beforehand, through their ambassador); [[w.mao-zedong-zhuan]], V, ch. 71 (the night of Oct. 14 the Soviet ambassador gives the Central Committee notice of the CPSU plenum''s and the Supreme Soviet Presidium''s decisions removing Khrushchev). [[w.khoo-collateral-damage]], 17 (the night of Oct. 14; Chervonenko calls the Central Committee''s General Office; Yang Shangkun, so Khoo, has Wu Xiuquan meet him; Chervonenko: a triumvirate of Brezhnev, Kosygin and Podgorny has taken over from Khrushchev). Made public: 1999. To check: [[w.khrushchev-1964-stenogrammy]] (a Soviet record of the call, if any); [[w.xiuquan-huiyi-yu-huainian]], 375–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 364 n.101a). Names: Chervonenko, Liu Shaoqi, Khrushchev, Brezhnev, Kosygin, Mikoyan, Yang Shangkun, Wu Xiuquan.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 829–830 ("the late night of Oct. 14"; Liu''s choice of Wu Xiuquan; Yang Shangkun reported at once to Mao, Liu, Zhou and Deng; the General Office told the whole Politburo early next morning; the Soviet announcement, Oct. 16, 831); [[w.macfarquhar-origins-of-the-cultural]], III, 364 (the Russians inform the Chinese of Khrushchev''s removal beforehand, through their ambassador); [[w.mao-zedong-zhuan]], V, ch. 71 (the night of Oct. 14 the Soviet ambassador gives the Central Committee notice of the CPSU plenum''s and the Supreme Soviet Presidium''s decisions removing Khrushchev). [[w.khoo-collateral-damage]], 17 (the night of Oct. 14; Chervonenko calls the Central Committee''s General Office; Yang Shangkun, so Khoo, has Wu Xiuquan meet him; Chervonenko: a triumvirate of Brezhnev, Kosygin and Podgorny has taken over from Khrushchev). Made public: 1999. Check: the day; [[w.jian-zhou-enlai]], 510 has the call "late that night" on Oct. 15. To check: [[w.khrushchev-1964-stenogrammy]] (a Soviet record of the call, if any); [[w.xiuquan-huiyi-yu-huainian]], 375–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 364 n.101a). Names: Chervonenko, Liu Shaoqi, Khrushchev, Brezhnev, Kosygin, Mikoyan, Yang Shangkun, Wu Xiuquan.'
     src:
       c: e737b75c
       rows:
@@ -3889,7 +3889,73 @@ entries:
         - 'via w.macfarquhar-origins-of-the-cultural III, 364 n.101a: 2, 3'
         - 'w.mao-zedong-zhuan V, ch. 71: 1, 3'
         - 'w.khoo-collateral-damage 17: ?'
-    tags: [polity:prc, polity:ussr, name:liu-shaoqi, name:khrushchev-nikita-s, name:brezhnev-leonid, name:kosygin-aleksei, name:mikoyan-anastas, name:chervonenko-stepan-v, vis:only:prc+ussr, name:wu-xiuquan, name:yang-shangkun]
+    tags: [polity:prc, polity:ussr, name:liu-shaoqi, name:khrushchev-nikita-s, name:brezhnev-leonid, name:kosygin-aleksei, name:mikoyan-anastas, name:chervonenko-stepan-v, vis:only:prc+ussr, name:wu-xiuquan, name:yang-shangkun, name:mao-zedong]
+    aliases: [cal.1964-10-15.china-leadership-8]
+    conflict:
+      - field: c
+        ours: 'Peking, late at night. Soviet ambassador Chervonenko telephones the Central Committee''s General Office asking an urgent meeting with Chinese leaders; Yang Shangkun asks Liu Shaoqi, who sends Wu Xiuquan, who receives him in his home. Chervonenko, on the CPSU Central Committee''s instruction: that day the Central Committee relieved Khrushchev; Brezhnev first secretary, Kosygin chairman of the Council of Ministers; Mikoyan remains chairman of the Supreme Soviet''s Presidium.'
+        theirs: Peking, late at night. Chervonenko, the Soviet Ambassador, urgently asks to see Mao, and tells Wu Xiuquan, deputy head of the Central Liaison Department, that Khrushchev has resigned.
+        base: null
+        from: 'combine: combined cal.1964-10-15.china-leadership-8'
+      - field: when
+        ours: Oct. 14
+        theirs: Oct. 15
+        base: null
+        from: 'combine: combined cal.1964-10-15.china-leadership-8'
+      - field: date
+        ours: '1964-10-14'
+        theirs: '1964-10-15'
+        base: null
+        from: 'combine: combined cal.1964-10-15.china-leadership-8'
+      - field: thread
+        ours: china-polemic
+        theirs: china-mao-foreign
+        base: null
+        from: 'combine: combined cal.1964-10-15.china-leadership-8'
+      - field: cuts
+        ours:
+          -
+            - 22
+            - '1'
+          -
+            - 232
+            - '2'
+          -
+            - 342
+            - '3'
+          -
+            - 474
+            - '4'
+        theirs:
+          -
+            - 22
+            - '1'
+          -
+            - 183
+            - '2'
+        base: null
+        from: 'combine: combined cal.1964-10-15.china-leadership-8'
+      - field: n
+        ours: '[[w.lengxi-shinian-lunzhan-1956-1966]], 829–830 ("the late night of Oct. 14"; Liu''s choice of Wu Xiuquan; Yang Shangkun reported at once to Mao, Liu, Zhou and Deng; the General Office told the whole Politburo early next morning; the Soviet announcement, Oct. 16, 831); [[w.macfarquhar-origins-of-the-cultural]], III, 364 (the Russians inform the Chinese of Khrushchev''s removal beforehand, through their ambassador); [[w.mao-zedong-zhuan]], V, ch. 71 (the night of Oct. 14 the Soviet ambassador gives the Central Committee notice of the CPSU plenum''s and the Supreme Soviet Presidium''s decisions removing Khrushchev). [[w.khoo-collateral-damage]], 17 (the night of Oct. 14; Chervonenko calls the Central Committee''s General Office; Yang Shangkun, so Khoo, has Wu Xiuquan meet him; Chervonenko: a triumvirate of Brezhnev, Kosygin and Podgorny has taken over from Khrushchev). Made public: 1999. Check: the day; [[w.jian-zhou-enlai]], 510 has the call "late that night" on Oct. 15. To check: [[w.khrushchev-1964-stenogrammy]] (a Soviet record of the call, if any); [[w.xiuquan-huiyi-yu-huainian]], 375–6 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 364 n.101a). Names: Chervonenko, Liu Shaoqi, Khrushchev, Brezhnev, Kosygin, Mikoyan, Yang Shangkun, Wu Xiuquan.'
+        theirs: '[[w.jian-zhou-enlai]], 510; [[w.khoo-collateral-damage]], 17 (dated the night of Oct. 14; Wu Xiuquan meets the ambassador). The words: "Late that night" (510). Made public: 2015. To check: [[w.yan-mingfu-huiyilu]], II, 859 (cited by [[w.jian-zhou-enlai]], 510 n.64); [[w.xiuquan-huiyi-yu-huainian]], 374–376 (cited by [[w.khoo-collateral-damage]], 17 n.21). Names: Chervonenko, Mao Zedong, Khrushchev, Wu Xiuquan.'
+        base: null
+        from: 'combine: combined cal.1964-10-15.china-leadership-8'
+      - field: src
+        ours:
+          c: e737b75c
+          rows:
+            - 'w.lengxi-shinian-lunzhan-1956-1966 829–830: 1, 2, 3, 4'
+            - 'w.macfarquhar-origins-of-the-cultural III, 364: 2, 3'
+            - 'via w.macfarquhar-origins-of-the-cultural III, 364 n.101a: 2, 3'
+            - 'w.mao-zedong-zhuan V, ch. 71: 1, 3'
+            - 'w.khoo-collateral-damage 17: ?'
+        theirs:
+          c: 8ac58d3b
+          rows:
+            - 'w.jian-zhou-enlai 510: 1, 2'
+            - 'w.khoo-collateral-damage 17: ?'
+        base: null
+        from: 'combine: combined cal.1964-10-15.china-leadership-8'
     time_range:
       - 1964-10-14T14:00Z
       - 1964-10-14T16:00Z
@@ -4110,30 +4176,6 @@ entries:
       - 1964-10-15T10:00Z
     time_band: afternoon
     time_zone: Asia/Shanghai
-  - id: cal.1964-10-15.china-leadership-8
-    when: Oct. 15
-    date: '1964-10-15'
-    place: peking
-    thread: china-mao-foreign
-    also: [soviet-union, china-foreign]
-    c: Peking, late at night.{1} Chervonenko, the Soviet Ambassador, urgently asks to see Mao, and tells Wu Xiuquan, deputy head of the Central Liaison Department, that Khrushchev has resigned.{2}
-    n: '[[w.jian-zhou-enlai]], 510; [[w.khoo-collateral-damage]], 17 (dated the night of Oct. 14; Wu Xiuquan meets the ambassador). The words: "Late that night" (510). Made public: 2015. To check: [[w.yan-mingfu-huiyilu]], II, 859 (cited by [[w.jian-zhou-enlai]], 510 n.64); [[w.xiuquan-huiyi-yu-huainian]], 374–376 (cited by [[w.khoo-collateral-damage]], 17 n.21). Names: Chervonenko, Mao Zedong, Khrushchev, Wu Xiuquan.'
-    src:
-      c: 8ac58d3b
-      rows:
-        - 'w.jian-zhou-enlai 510: 1, 2'
-        - 'w.khoo-collateral-damage 17: ?'
-    tags: [polity:prc, vis:only:prc+ussr, name:chervonenko-stepan-v, name:mao-zedong, name:khrushchev-nikita-s, name:wu-xiuquan]
-    time_range:
-      - 1964-10-15T14:00Z
-      - 1964-10-15T16:00Z
-    time_band: night
-    time_zone: Asia/Shanghai
-    variants:
-      - unit: '1'
-        witness: w.khoo-collateral-damage
-        reads: the night of Oct. 14
-        at: '17'
   - id: cal.1964-10-15.china-leadership-9
     when: Oct. 15
     date: '1964-10-15'
@@ -4142,7 +4184,7 @@ entries:
     follows:
       - cal.1964-10-15.china-leadership-8
     c: 'Zhou Enlai, on Khrushchev''s fall: a "very good thing"; he reports it at once to Mao and the other leaders and proposes a meeting to study it immediately.'
-    n: '[[w.jian-zhou-enlai]], 510. Made public: Check (2024 at the latest; the year of [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, not given). To check: [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, 275 (cited by [[w.jian-zhou-enlai]], 510 n.65). See [[cal.1964-10-15.china-leadership-8]]. Names: Zhou Enlai, Mao Zedong, Khrushchev.'
+    n: '[[w.jian-zhou-enlai]], 510. Made public: Check (2024 at the latest; the year of [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, not given). To check: [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, 275 (cited by [[w.jian-zhou-enlai]], 510 n.65). See [[cal.1964-10-14.china-leadership-2]]. Names: Zhou Enlai, Mao Zedong, Khrushchev.'
     src:
       c: 42f90a46
       rows:

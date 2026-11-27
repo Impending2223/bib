@@ -2618,6 +2618,32 @@ entries:
         - 'via w.gibbons-u-s-government-and IV, 104 n.80: 1'
         - 'via w.gibbons-u-s-government-and IV, 104 n.81: 3'
     tags: [name:mcnamara-robert-s]
+    aliases: [cal.1965-11-10.vietnam-force-levels]
+    conflict:
+      - field: c
+        ours: 'The Joint Chiefs to McNamara, JCSM-811-65, "Future Operations and Force Deployments with Respect to the War in Vietnam": Phase I "designed to stop losing the war," Phase II "the phase needed to start winning it." 113,000 more men for Vietnam, 26,000 more elsewhere in the Western Pacific. "An immediate sharp blow" at the North''s oil and electric power, then heavier bombing, Hanoi and Haiphong included, and the harbors mined. American forces to find, fix and destroy; most of the South Vietnamese to pacification.'
+        theirs: 'The Joint Chiefs restate the aims of their August plan: a broader, generally unrestricted bombing of the North, a selective reserve call-up, and 113,000 more men as Phase II.'
+        base: null
+        from: 'combine: combined cal.1965-11-10.vietnam-force-levels'
+      - field: n
+        ours: '[[w.gibbons-u-s-government-and]], IV, 103–104. To check: JCSM-811-65, "Future Operations and Force Deployments with Respect to the War in Vietnam," Nov. 10, 1965, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 103 n.79); JCSM-811-65, Nov. 10, 1965, C-16, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 104 n.80); JCSM-810-65, "Air Operations Against the North Vietnam POL System," Nov. 10, 1965, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 104 n.81). See [[cal.1965-08-27.vietnam]]. Names: McNamara.'
+        theirs: '[[w.drea-mcnamara-clifford-and-the-2011]], 118. See [[cal.1965-08-27.vietnam]].'
+        base: null
+        from: 'combine: combined cal.1965-11-10.vietnam-force-levels'
+      - field: src
+        ours:
+          c: fe81272f
+          rows:
+            - 'w.gibbons-u-s-government-and IV, 103–104: 1, 2, 3, 4, 5'
+            - 'via w.gibbons-u-s-government-and IV, 103 n.79: 1, 2, 4'
+            - 'via w.gibbons-u-s-government-and IV, 104 n.80: 1'
+            - 'via w.gibbons-u-s-government-and IV, 104 n.81: 3'
+        theirs:
+          c: 544f1539
+          rows:
+            - 'w.drea-mcnamara-clifford-and-the-2011 118: all'
+        base: null
+        from: 'combine: combined cal.1965-11-10.vietnam-force-levels'
     time_range:
       - 1965-11-10T14:00Z
       - 1965-11-10T22:00Z
@@ -2751,22 +2777,6 @@ entries:
         - 'w.drea-mcnamara-clifford-and-the-2011 69: 1, 2'
     tags: [name:mcnamara-robert-s]
     aliases: [cal.1965-11-10.vietnam-air-war-3]
-    time_range:
-      - 1965-11-10T14:00Z
-      - 1965-11-10T22:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
-  - id: cal.1965-11-10.vietnam-force-levels
-    when: Nov. 10
-    date: '1965-11-10'
-    thread: vietnam-force-levels
-    c: 'The Joint Chiefs restate the aims of their August plan: a broader, generally unrestricted bombing of the North, a selective reserve call-up, and 113,000 more men as Phase II.'
-    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 118. See [[cal.1965-08-27.vietnam]].'
-    src:
-      c: 544f1539
-      rows:
-        - 'w.drea-mcnamara-clifford-and-the-2011 118: all'
     time_range:
       - 1965-11-10T14:00Z
       - 1965-11-10T22:00Z
@@ -5041,6 +5051,31 @@ entries:
       rows:
         - 'w.gallup-poll III, 1971–72: 1, 2, 3'
         - 'w.gibbons-u-s-government-and IV, 98: 2'
+    aliases: [cal.1965-11-21.opinion-2]
+    conflict:
+      - field: c
+        ours: 'Gallup, Oct. 29–Nov. 2: a candidate for Congress for sending many more men to Vietnam: more inclined 46 percent, less 31. For a compromise peace: more 66, less 20. Should have become involved, 64; not, 21. How the war will end: stalemate like Korea 30; American victory 29; long conflict 10; world war 4.'
+        theirs: 'A poll: 30 percent expect a stalemate like Korea, 29 an American victory; a Communist victory or withdrawal too few to register.'
+        base: null
+        from: 'combine: combined cal.1965-11-21.opinion-2'
+      - field: n
+        ours: '[[w.gallup-poll]], III, 1971–72; [[w.gibbons-u-s-government-and]], IV, 98.'
+        theirs: '[[w.debenedetti-american-ordeal]], 138.'
+        base: null
+        from: 'combine: combined cal.1965-11-21.opinion-2'
+      - field: src
+        ours:
+          c: a996bf6e
+          rows:
+            - 'w.gallup-poll III, 1971–72: 1, 2, 3'
+            - 'w.gibbons-u-s-government-and IV, 98: 2'
+        theirs:
+          c: 35f840c0
+          rows:
+            - 'w.debenedetti-american-ordeal 138: all'
+            - 'via w.debenedetti-american-ordeal 138 n.160: all'
+        base: null
+        from: 'combine: combined cal.1965-11-21.opinion-2'
   - id: cal.1965-11-21.vietnam-order-of-battle
     when: Nov. 21
     date: '1965-11-21'
@@ -5104,17 +5139,6 @@ entries:
     time_band: workday daytime
     time_zone: Asia/Ho_Chi_Minh
     range_basis: kind
-  - id: cal.1965-11-21.opinion-2
-    when: Nov. 21
-    date: '1965-11-21'
-    thread: opinion
-    c: 'A poll: 30 percent expect a stalemate like Korea, 29 an American victory; a Communist victory or withdrawal too few to register.'
-    n: '[[w.debenedetti-american-ordeal]], 138.'
-    src:
-      c: 35f840c0
-      rows:
-        - 'w.debenedetti-american-ordeal 138: all'
-        - 'via w.debenedetti-american-ordeal 138 n.160: all'
   - id: cal.1965-11-21.china-leadership
     when: Nov. 21
     date: '1965-11-21'

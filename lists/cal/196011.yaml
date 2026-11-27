@@ -272,7 +272,37 @@ entries:
         - 'https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-cow-palace-san-francisco-ca: 1'
         - 'w.wofford-of-kennedys-and-kings 249: 1'
         - 'w.communications-freedom-of-communications-part 862–66: 1'
-    tags: [name:kennedy-john-f]
+    tags: [name:kennedy-john-f, name:eisenhower-dwight-d, name:rockefeller-nelson, name:lodge-henry-cabot, name:nixon-richard-m, state:ca]
+    aliases: [cal.1960-11-02.elections-1960-kennedy-5]
+    conflict:
+      - field: c
+        ours: Kennedy at the Cow Palace, San Francisco, proposes "a peace corps of talented young men and women," three years abroad, "as an alternative or as a supplement to peacetime selective service."
+        theirs: 'California, the night of Eisenhower''s ride through New York with Rockefeller, Lodge and Nixon. Kennedy: "While we meet tonight ... the rescue squad has been completing its operation in the city of New York. ... We have all seen these circus elephants complete with tusks, ivory on their head and thick skins, who move around the circus ring and grab the tail of the elephant ahead of them. ... Dick Nixon grabbed that tail in 1952 and 1956, but this year he faces the American people alone. ... President Eisenhower is not running. Mr. Nixon is."'
+        base: null
+        from: 'combine: combined cal.1960-11-02.elections-1960-kennedy-5'
+      - field: place
+        ours: san-francisco
+        theirs: california
+        base: null
+        from: 'combine: combined cal.1960-11-02.elections-1960-kennedy-5'
+      - field: thread
+        ours: peace-corps
+        theirs: elections-1960-kennedy
+        base: null
+        from: 'combine: combined cal.1960-11-02.elections-1960-kennedy-5'
+      - field: follows
+        ours:
+          - cal.1960-11-02.elections-1960-kennedy-4
+        theirs:
+          - cal.1960-11-02.elections-1960-2
+          - cal.1960-11-02.elections-1960-kennedy-4
+        base: null
+        from: 'combine: combined cal.1960-11-02.elections-1960-kennedy-5'
+      - field: n
+        ours: '[Speech of Senator John F. Kennedy, Cow Palace, San Francisco, CA](https://www.presidency.ucsb.edu/documents/speech-senator-john-f-kennedy-cow-palace-san-francisco-ca). [[w.wofford-of-kennedys-and-kings]], 249 (the Cow Palace, six days before the election; the Michigan students'' response cited; the petitions at Toledo after); [[w.communications-freedom-of-communications-part]], 862–66 (the speech at the Cow Palace; 865: "a peace corps of talented young men and women, willing and able to serve their country in this fashion for 3 years as an alternative or as a supplement to peacetime selective service"). See [[cal.1960-10-14.peace-corps]]. Names: Kennedy.'
+        theirs: '[[w.goodwin-remembering-america]], 123 (Goodwin''s account; the place in California not given; the rejoinder repeated "at nearly every campaign stop"). See [[cal.1960-11-02.elections-1960-2]]. Names: Kennedy, Eisenhower, Rockefeller, Lodge, Nixon. Check: the day; "tonight," the day of the ride in New York.'
+        base: null
+        from: 'combine: combined cal.1960-11-02.elections-1960-kennedy-5'
     short: the Cow Palace
   - id: cal.1960-11-02.elections-1960
     when: Nov. 2
@@ -403,17 +433,6 @@ entries:
     c: 'Oakland, Calif., Defremery Park. Kennedy with Gov. Brown, Cohelan and George P. Miller: Nixon is coming "on Saturday," after South Carolina on Thursday; 90 percent of Republicans against the 25-cent minimum wage in the thirties, 90 percent against $1.25 in 1960.'
     n: 'Remarks of Senator John F. Kennedy, Defremery Park, Oakland, CA, [APP](https://www.presidency.ucsb.edu/documents/remarks-senator-john-f-kennedy-defremery-park-oakland-ca) (Nov. 2, 1960). [[w.communications-freedom-of-communications-part]], 860–62. Names: Kennedy, Nixon, Brown, Cohelan, Miller.'
     tags: [name:kennedy-john-f, name:nixon-richard-m, name:brown-edmund-g, name:cohelan-jeffery, name:miller-george-p, state:ca, city:oakland]
-  - id: cal.1960-11-02.elections-1960-kennedy-5
-    when: Nov. 2
-    date: '1960-11-02'
-    place: california
-    thread: elections-1960-kennedy
-    follows:
-      - cal.1960-11-02.elections-1960-2
-      - cal.1960-11-02.elections-1960-kennedy-4
-    c: 'California, the night of Eisenhower''s ride through New York with Rockefeller, Lodge and Nixon. Kennedy: "While we meet tonight ... the rescue squad has been completing its operation in the city of New York. ... We have all seen these circus elephants complete with tusks, ivory on their head and thick skins, who move around the circus ring and grab the tail of the elephant ahead of them. ... Dick Nixon grabbed that tail in 1952 and 1956, but this year he faces the American people alone. ... President Eisenhower is not running. Mr. Nixon is."'
-    n: '[[w.goodwin-remembering-america]], 123 (Goodwin''s account; the place in California not given; the rejoinder repeated "at nearly every campaign stop"). See [[cal.1960-11-02.elections-1960-2]]. Names: Kennedy, Eisenhower, Rockefeller, Lodge, Nixon. Check: the day; "tonight," the day of the ride in New York.'
-    tags: [name:kennedy-john-f, name:eisenhower-dwight-d, name:rockefeller-nelson, name:lodge-henry-cabot, name:nixon-richard-m, state:ca]
   - id: cal.1960-11-02.china-leadership
     when: Nov. 2
     date: '1960-11-02'
@@ -7072,7 +7091,9 @@ entries:
     date: '1960-11-22'
     place: moscow
     thread: soviet-union
-    also: [china-leadership]
+    also: [china-leadership, soviet-union]
+    follows:
+      - cal.1960-11-22.soviet-union
     c: 'Moscow.{1} The first round of speeches ends with the morning session.{2} From Nov. 10 to 22, the 13th and 20th recess days, 77 parties spoke, by Wu''s count: 51, Khrushchev among them, wholly on Khrushchev''s side; 15 between; 11, China''s among them, mostly against his views. The chair announces that Khrushchev will speak tomorrow.{3} Morning: Hakamada Satomi of Japan, the Dominican Republic, Ceylon, Sharkey of Australia, Nicaragua, Haiti.{4} Hakamada: what is not agreed stays out of the paper, differences are not to be carried abroad or into the mass organizations, no standing committee yet.{5} In the afternoon the Réunion, Peruvian and Martinique delegates speak; the chair closes the general debate and the Chinese at once ask to speak a second time.{6} Peng Zhen attends the eleventh plenary all day.{7}'
     n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 388, 390 ("the morning of the 22nd"; the count at 388); [[w.yang-shangkun-riji]], I, 622–623 (Nov. 22, 1960; Hakamada (Japan), the Dominican, the Ceylonese, Sharkey, the Nicaraguan, the Haitian; afternoon the Réunion, Peruvian and Martinique delegates; the general debate closed); [[w.peng-zhen-nianpu-1902]], IV, 77 (Nov. 22, 1960, all day; Peng Zhen at the eleventh plenary; Japan, the Dominican Republic, Ceylon, Australia, Nicaragua, Haiti, Peru; Hakamada Satomi of Japan: what is not agreed to stay out of the paper, differences not to be carried abroad or into the mass organizations, no standing committee yet; when the speeches end in the afternoon the chair closes the general debate, Khrushchev to speak the next morning; the Chinese at once ask to speak a second time); [[w.yang-shangkun-riji]], I, 622; [[w.peng-zhen-nianpu-1902]], IV, 77; [[w.yang-shangkun-riji]], I, 622–623. Made public: 1999. Check: the Yang Shangkun diary and the Peng Zhen chronology have speakers into the afternoon, the general debate closed then ([[w.yang-shangkun-riji]], I, 622–623; [[w.peng-zhen-nianpu-1902]], IV, 77). See [[cal.1960-11-21.soviet-union]]. Names: Khrushchev, Hakamada, Sharkey, Peng Zhen. Check: the count is the Chinese delegation''s (388: 51 parties, the CPSU among them; "the 50" that followed Khrushchev).'
     src:
@@ -7082,7 +7103,38 @@ entries:
         - 'w.yang-shangkun-riji I, 622: 4'
         - 'w.yang-shangkun-riji I, 622–623: 1, 2, 6'
         - 'w.peng-zhen-nianpu-1902 IV, 77: 5, 7'
-    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia, name:hakamada-satomi, name:sharkey, name:peng-zhen]
+    tags: [polity:prc, name:khrushchev-nikita-s, vis:only:prc+ussr+albania+bulgaria+czechoslovakia+gdr+hungary+poland+romania+dprk+drv+mongolia+indonesia, name:hakamada-satomi, name:sharkey, name:peng-zhen, vis:only:prc+ussr, name:yang-shangkun]
+    aliases: [cal.1960-11-22.china-leadership-6]
+    conflict:
+      - field: c
+        ours: 'Moscow. The first round of speeches ends with the morning session. From Nov. 10 to 22, the 13th and 20th recess days, 77 parties spoke, by Wu''s count: 51, Khrushchev among them, wholly on Khrushchev''s side; 15 between; 11, China''s among them, mostly against his views. The chair announces that Khrushchev will speak tomorrow. Morning: Hakamada Satomi of Japan, the Dominican Republic, Ceylon, Sharkey of Australia, Nicaragua, Haiti. Hakamada: what is not agreed stays out of the paper, differences are not to be carried abroad or into the mass organizations, no standing committee yet. In the afternoon the Réunion, Peruvian and Martinique delegates speak; the chair closes the general debate and the Chinese at once ask to speak a second time. Peng Zhen attends the eleventh plenary all day.'
+        theirs: Moscow 莫斯科, the Kremlin 克里姆林宫. Yang Shangkun 杨尚昆, as the general debate closes, at once puts down the Chinese delegation for a second speech; Khrushchev to speak the next morning.
+        base: null
+        from: 'combine: combined cal.1960-11-22.china-leadership-6'
+      - field: thread
+        ours: soviet-union
+        theirs: china-foreign
+        base: null
+        from: 'combine: combined cal.1960-11-22.china-leadership-6'
+      - field: n
+        ours: '[[w.lengxi-shinian-lunzhan-1956-1966]], 388, 390 ("the morning of the 22nd"; the count at 388); [[w.yang-shangkun-riji]], I, 622–623 (Nov. 22, 1960; Hakamada (Japan), the Dominican, the Ceylonese, Sharkey, the Nicaraguan, the Haitian; afternoon the Réunion, Peruvian and Martinique delegates; the general debate closed); [[w.peng-zhen-nianpu-1902]], IV, 77 (Nov. 22, 1960, all day; Peng Zhen at the eleventh plenary; Japan, the Dominican Republic, Ceylon, Australia, Nicaragua, Haiti, Peru; Hakamada Satomi of Japan: what is not agreed to stay out of the paper, differences not to be carried abroad or into the mass organizations, no standing committee yet; when the speeches end in the afternoon the chair closes the general debate, Khrushchev to speak the next morning; the Chinese at once ask to speak a second time); [[w.yang-shangkun-riji]], I, 622; [[w.peng-zhen-nianpu-1902]], IV, 77; [[w.yang-shangkun-riji]], I, 622–623. Made public: 1999. Check: the Yang Shangkun diary and the Peng Zhen chronology have speakers into the afternoon, the general debate closed then ([[w.yang-shangkun-riji]], I, 622–623; [[w.peng-zhen-nianpu-1902]], IV, 77). See [[cal.1960-11-21.soviet-union]]. Names: Khrushchev, Hakamada, Sharkey, Peng Zhen. Check: the count is the Chinese delegation''s (388: 51 parties, the CPSU among them; "the 50" that followed Khrushchev).'
+        theirs: '[[w.yang-shangkun-riji]], I, 623 (Nov. 22, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
+        base: null
+        from: 'combine: combined cal.1960-11-22.china-leadership-6'
+      - field: src
+        ours:
+          c: e3c9d790
+          rows:
+            - 'w.lengxi-shinian-lunzhan-1956-1966 388, 390: 1, 2, 3'
+            - 'w.yang-shangkun-riji I, 622: 4'
+            - 'w.yang-shangkun-riji I, 622–623: 1, 2, 6'
+            - 'w.peng-zhen-nianpu-1902 IV, 77: 5, 7'
+        theirs:
+          c: 569352b8
+          rows:
+            - 'w.yang-shangkun-riji I, 623: all'
+        base: null
+        from: 'combine: combined cal.1960-11-22.china-leadership-6'
     variants:
       - unit: '2'
         witness: w.peng-zhen-nianpu-1902
@@ -7104,21 +7156,6 @@ entries:
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 390–392: all'
     tags: [polity:prc, name:khrushchev-nikita-s, name:deng-xiaoping, vis:only:prc]
-  - id: cal.1960-11-22.china-leadership-6
-    when: Nov. 22
-    date: '1960-11-22'
-    place: moscow
-    thread: china-foreign
-    also: [soviet-union]
-    follows:
-      - cal.1960-11-22.soviet-union
-    c: Moscow 莫斯科, the Kremlin 克里姆林宫. Yang Shangkun 杨尚昆, as the general debate closes, at once puts down the Chinese delegation for a second speech; Khrushchev to speak the next morning.
-    n: '[[w.yang-shangkun-riji]], I, 623 (Nov. 22, 1960). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun.'
-    src:
-      c: 569352b8
-      rows:
-        - 'w.yang-shangkun-riji I, 623: all'
-    tags: [polity:prc, vis:only:prc+ussr, name:yang-shangkun]
   - id: cal.1960-11-22.china-leadership-7
     when: Nov. 22
     date: '1960-11-22'
@@ -8618,7 +8655,7 @@ entries:
     follows:
       - cal.1960-11-29.soviet-union-2
     c: Moscow 莫斯科, the Chinese Embassy. Deng Xiaoping 邓小平 tells Hysni Kapo 卡博 of the Sino-Soviet talks.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1601–1602 (Nov. 29, 1960). The words: 晚 (III, 1601). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Hysni Kapo.'
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1601–1602 (Nov. 29, 1960). The words: 晚 (III, 1601). Made public: 2009 (the nianpu). Check: whether Deng''s telling Kapo is one of the briefings of [[cal.1960-11-29.soviet-union-4]]. Names: Deng Xiaoping, Hysni Kapo.'
     src:
       c: 67e1dadb
       rows:

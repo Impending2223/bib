@@ -144,14 +144,6 @@ entries:
     c: Zhou Enlai, on repeated cases in Peking of crowds, children above all, shouting abuse at Soviet and other foreigners, asks Peng Zhen to have the Peking Party committee call every level for education on Sino-Soviet friendship, above all that the fight against the revisionist leading group must never be against the Soviet people. Most are children, but a trace of unhealthy national feeling shows and must be guarded against, lest bad men use it. He asks Chen Yi to have the Foreign Affairs Office draft a Central Committee notice for the whole country.
     n: '[[w.zhou-enlai-nianpu-1949]], II, 583 (Oct. 1, 1963). Made public: 1997. Names: Zhou Enlai, Peng Zhen, Chen Yi.'
     tags: [polity:prc, name:zhou-enlai, name:peng-zhen, name:chen-yi, vis:only:prc]
-  - id: cal.1963-10-01.china-leadership-3
-    when: Oct. 1
-    date: '1963-10-01'
-    thread: china-zhou-foreign
-    also: [soviet-union, china-foreign]
-    c: 'Zhou Enlai "differs," on the International Liaison Department''s report that proposes to sort the greetings of fraternal parties on National Day into left, center and right: few fraternal parties will send greetings and few of those would curse China in public, though some might hint; to sort them so closely hands a handle to others; better print all, or all in extract, in the order received, and let readers judge, with no leaning. Deng Xiaoping to the Department: do it as the Premier says.'
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 583 (Oct. 1, 1963). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
-    tags: [polity:prc, name:zhou-enlai, name:deng-xiaoping, vis:only:prc]
   - id: cal.1963-10-01.china-leadership-4
     when: Oct. 1
     date: '1963-10-01'
@@ -242,7 +234,7 @@ entries:
     when: Oct. 1
     date: '1963-10-01'
     thread: china-foreign
-    also: [soviet-union]
+    also: [soviet-union, china-foreign]
     c: 'Deng Xiaoping 邓小平 reads the International Liaison Department''s report on handling the greetings and letters sent by fraternal parties for National Day by sorting them into left, center and right. Comment: handle it as the Premier''s opinion. Zhou Enlai 周恩来: not many parties will send greetings; of those that do, few will abuse China in the open, and any such would be oblique; having greeted China, they should not be sorted so clearly, which gives a handle; better print all, or the essentials of all, in the order received, leaving readers to judge.'
     n: '[[w.deng-xiaoping-nianpu-1904]], III, 1775 (Oct. 1, 1963). The words: 批示 (III, 1775). Deng: 即照总理意见办理 (III, 1775). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Zhou Enlai.'
     src:
@@ -250,6 +242,23 @@ entries:
       rows:
         - 'w.deng-xiaoping-nianpu-1904 III, 1775: all'
     tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, vis:only:prc]
+    aliases: [cal.1963-10-01.china-leadership-3]
+    conflict:
+      - field: c
+        ours: 'Deng Xiaoping 邓小平 reads the International Liaison Department''s report on handling the greetings and letters sent by fraternal parties for National Day by sorting them into left, center and right. Comment: handle it as the Premier''s opinion. Zhou Enlai 周恩来: not many parties will send greetings; of those that do, few will abuse China in the open, and any such would be oblique; having greeted China, they should not be sorted so clearly, which gives a handle; better print all, or the essentials of all, in the order received, leaving readers to judge.'
+        theirs: 'Zhou Enlai "differs," on the International Liaison Department''s report that proposes to sort the greetings of fraternal parties on National Day into left, center and right: few fraternal parties will send greetings and few of those would curse China in public, though some might hint; to sort them so closely hands a handle to others; better print all, or all in extract, in the order received, and let readers judge, with no leaning. Deng Xiaoping to the Department: do it as the Premier says.'
+        base: null
+        from: 'combine: combined cal.1963-10-01.china-leadership-3'
+      - field: thread
+        ours: china-foreign
+        theirs: china-zhou-foreign
+        base: null
+        from: 'combine: combined cal.1963-10-01.china-leadership-3'
+      - field: n
+        ours: '[[w.deng-xiaoping-nianpu-1904]], III, 1775 (Oct. 1, 1963). The words: 批示 (III, 1775). Deng: 即照总理意见办理 (III, 1775). Made public: 2009 (the nianpu). Names: Deng Xiaoping, Zhou Enlai.'
+        theirs: '[[w.zhou-enlai-nianpu-1949]], II, 583 (Oct. 1, 1963). Made public: 1997. Names: Zhou Enlai, Deng Xiaoping.'
+        base: null
+        from: 'combine: combined cal.1963-10-01.china-leadership-3'
   - id: cal.1963-10-01.china-leadership-11
     when: Oct. 1
     date: '1963-10-01'
@@ -3416,6 +3425,35 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 625: all'
         - 'via w.schlesinger-robert-kennedy-and-his 625 n.27: all'
     tags: [name:johnson-lyndon-b, name:ngo-dinh-diem]
+    aliases: [cal.1963-10-16.transition-and-staff]
+    conflict:
+      - field: c
+        ours: 'Johnson lunches at the New York Post with Dorothy Schiff, Wechsler and Lash, an aide recording. On the Diệm regime''s decline: like Washington, a President with a "very strong" brother. By Wechsler, "an extremely bitter thrust."'
+        theirs: 'Johnson to reporters, comparing the country''s leadership to South Vietnam''s: a president with a "very strong" brother.'
+        base: null
+        from: 'combine: combined cal.1963-10-16.transition-and-staff'
+      - field: thread
+        ours: democratic-party
+        theirs: transition-and-staff
+        base: null
+        from: 'combine: combined cal.1963-10-16.transition-and-staff'
+      - field: n
+        ours: '[[w.schlesinger-robert-kennedy-and-his]], 625. To check: memoranda by James Wechsler and Joseph P. Lash, Nov. 27, 1963, Wechsler Papers; Dorothy Schiff''s, in Jeffrey Potter, *Men, Money and Magic* (1976), 280–81 (cited by [[w.schlesinger-robert-kennedy-and-his]], 625 n.27). Names: Johnson, Diệm.'
+        theirs: '[[w.shesol-mutual-contempt]], 107. To check: [[w.schlesinger-robert-kennedy-and-his]], 671 (cited by [[w.shesol-mutual-contempt]], 107). Names: Johnson.'
+        base: null
+        from: 'combine: combined cal.1963-10-16.transition-and-staff'
+      - field: src
+        ours:
+          c: db29b522
+          rows:
+            - 'w.schlesinger-robert-kennedy-and-his 625: all'
+            - 'via w.schlesinger-robert-kennedy-and-his 625 n.27: all'
+        theirs:
+          c: baacd9e2
+          rows:
+            - 'w.shesol-mutual-contempt 107: all'
+        base: null
+        from: 'combine: combined cal.1963-10-16.transition-and-staff'
     time_range:
       - 1963-10-16T15:00Z
       - 1963-10-16T20:00Z
@@ -3440,24 +3478,6 @@ entries:
       - 1963-10-16T21:12Z
     time_zone: America/New_York
     range_basis: record
-  - id: cal.1963-10-16.transition-and-staff
-    when: Oct. 16
-    date: '1963-10-16'
-    thread: transition-and-staff
-    also: [vietnam]
-    c: 'Johnson to reporters, comparing the country''s leadership to South Vietnam''s: a president with a "very strong" brother.'
-    n: '[[w.shesol-mutual-contempt]], 107. To check: [[w.schlesinger-robert-kennedy-and-his]], 671 (cited by [[w.shesol-mutual-contempt]], 107). Names: Johnson.'
-    src:
-      c: baacd9e2
-      rows:
-        - 'w.shesol-mutual-contempt 107: all'
-    tags: [name:johnson-lyndon-b]
-    time_range:
-      - 1963-10-16T13:00Z
-      - 1963-10-16T21:00Z
-    time_band: workday daytime
-    time_zone: America/New_York
-    range_basis: kind
   - id: cal.1963-10-16.vietnam
     when: Oct. 16
     date: '1963-10-16'

@@ -4838,7 +4838,7 @@ entries:
     date: '1965-05-19'
     thread: vietnam-air-war
     c: Rolling Thunder 15. American bombers hit a barracks north of the 20th parallel, the first strike above it.
-    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 366. Check: the day. [[w.drea-mcnamara-clifford-and-the-2011]], 61, has Rolling Thunder strike north of the 20th parallel for the first time on May 22 ([[cal.1965-05-22.vietnam-air-war-2]]); the tree, on [[w.staaveren-gradual-failure]], 137, has the first such strike called off for weather May 20 and flown May 22; Cosmas''s own note (366 n.16) cites the NMCC OPSUM of May 22. To check: NMCC OPSUM, May 22, 1965 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 366 n.16). See [[cal.1965-03-02.vietnam]].'
+    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 366. Check: the day. [[w.drea-mcnamara-clifford-and-the-2011]], 61, has Rolling Thunder strike north of the 20th parallel for the first time on May 22 ([[cal.1965-05-22.vietnam-air-war]]); the tree, on [[w.staaveren-gradual-failure]], 137, has the first such strike called off for weather May 20 and flown May 22; Cosmas''s own note (366 n.16) cites the NMCC OPSUM of May 22. To check: NMCC OPSUM, May 22, 1965 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 366 n.16). See [[cal.1965-03-02.vietnam]].'
     src:
       c: 4f6d3891
       rows:
@@ -5384,16 +5384,31 @@ entries:
         - 'w.staaveren-gradual-failure 137: all'
         - 'via x.1922-05-21.new-york-times-may-21-22-and: ?'
         - 'via x.1965-06-03.hq-usaf-rpt-stat-sum-of-air: ?'
-  - id: cal.1965-05-22.vietnam-air-war-2
-    when: May 22
-    date: '1965-05-22'
-    thread: vietnam-air-war
-    c: Rolling Thunder pilots strike north of the 20th parallel for the first time.
-    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 61.'
-    src:
-      c: 24bf7af7
-      rows:
-        - 'w.drea-mcnamara-clifford-and-the-2011 61: all'
+    aliases: [cal.1965-05-22.vietnam-air-war-2]
+    conflict:
+      - field: c
+        ours: 'Forty F-105s on the Quang Soui barracks, 55 to 60 miles from Hanoi: some twenty of 71 buildings hit; the rest of the area struck the same day, 27 buildings demolished, 48 damaged; the Phu Qui ammunition depot again. VNAF A-1Es scatter some 400,000 leaflets over Ron and Ba Den. VNAF A-1Es and F-105s on the barracks at Phu Le and Vu San, May 21 and 22.'
+        theirs: Rolling Thunder pilots strike north of the 20th parallel for the first time.
+        base: null
+        from: 'combine: combined cal.1965-05-22.vietnam-air-war-2'
+      - field: n
+        ours: '[[w.staaveren-gradual-failure]], 137. To check: Hq USAF rpt, Stat Sum of Air Ops, SEA, Vol VI, 14 May–3 Jun 65, pp 3-1 to 3–11, 3–14 to 3–47; *New York Times*, May 21, 22, and 23, 65 (cited by [[w.staaveren-gradual-failure]], 137 n.16). See [[cal.1965-05-20.vietnam-air-war]].'
+        theirs: '[[w.drea-mcnamara-clifford-and-the-2011]], 61.'
+        base: null
+        from: 'combine: combined cal.1965-05-22.vietnam-air-war-2'
+      - field: src
+        ours:
+          c: 52ae07e8
+          rows:
+            - 'w.staaveren-gradual-failure 137: all'
+            - 'via x.1922-05-21.new-york-times-may-21-22-and: ?'
+            - 'via x.1965-06-03.hq-usaf-rpt-stat-sum-of-air: ?'
+        theirs:
+          c: 24bf7af7
+          rows:
+            - 'w.drea-mcnamara-clifford-and-the-2011 61: all'
+        base: null
+        from: 'combine: combined cal.1965-05-22.vietnam-air-war-2'
   - id: cal.1965-05-22.desegregation-schools
     when: May 22
     date: '1965-05-22'

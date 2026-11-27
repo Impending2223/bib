@@ -835,6 +835,7 @@ entries:
         - 'via w.preston-war-council 171 n.33b: 2'
         - 'via w.preston-war-council 172 n.35a: 2'
     tags: [name:bundy-mcgeorge, name:cooper-chester-l, name:mcnaughton-john-t, name:unger-leonard, name:goodpaster-andrew-j, name:mccone-john-a, place:saigon]
+    time_zone: Asia/Ho_Chi_Minh
   - id: cal.1965-02-04.vietnam-2
     when: Feb. 4
     date: '1965-02-04'
@@ -921,6 +922,7 @@ entries:
         - 'w.bernstein-guns-or-butter 221: 2'
         - 'w.young-easy-burden 350–51: 1'
     tags: [name:malcolm-x, name:shuttlesworth-fred, name:king-coretta-scott]
+    time_zone: America/Chicago
   - id: cal.1965-02-04.king
     when: Feb. 4
     date: '1965-02-04'
@@ -2331,7 +2333,7 @@ entries:
     date: '1965-02-08'
     thread: vietnam-force-levels
     c: Johnson orders Hawk air defense missiles to South Vietnam.{1}
-    n: '"[Record of the Fifth Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin (1)](https://digitalarchive.umd.edu/document/165487)" (Feb. 10, 1965), PRC FMA 109-03957-06, 121–135, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou to Kosygin, Feb. 10: the United States "transported Hawk ground-to-air rockets to Da Nang on the 8th"; Kosygin says Moscow had cabled him of it; the shipment, not Johnson''s order). [[w.macv-command-history-1965]], 478. Names: Johnson. Check: MACV''s chronology, 478, dates the order evacuating American dependents Feb. 8 too (in the calendar Feb. 7).'
+    n: '"[Record of the Fifth Contact between Premier Zhou and Vice Premier Chen Yi and Kosygin (1)](https://digitalarchive.umd.edu/document/165487)" (Feb. 10, 1965), PRC FMA 109-03957-06, 121–135, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou to Kosygin, Feb. 10: the United States "transported Hawk ground-to-air rockets to Da Nang on the 8th"; Kosygin says Moscow had cabled him of it; the shipment, not Johnson''s order). [[w.macv-command-history-1965]], 478. Check: the Hawk order; [[cal.1965-02-07.vietnam]] has it on Feb. 7. Names: Johnson. Check: MACV''s chronology, 478, dates the order evacuating American dependents Feb. 8 too (in the calendar Feb. 7).'
     src:
       c: 4e4fd390
       rows:
@@ -2502,13 +2504,42 @@ entries:
     place: da-nang
     thread: vietnam-force-levels
     c: The first battery of the Marine light antiaircraft missile battalion, flown in from Okinawa with its headquarters, operational at Đà Nẵng. The rest of the battalion alerted; the 173d Airborne Brigade alerted to fly in from Okinawa; the Special Landing Force off Cap St. Jacques.
-    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 214. To check: CINCPAC to JCS, 070750Z Feb 65 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 214 n.40). See [[cal.1965-02-08.vietnam-force-levels-2]].'
+    n: '[[w.cosmas-joint-chiefs-of-staff-2012]], 214. Check: the day; [[w.macv-command-history-1965]], 478 has the first elements of the battalion operational Feb. 9. To check: CINCPAC to JCS, 070750Z Feb 65 (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 214 n.40). See [[cal.1965-02-08.vietnam-force-levels-2]].'
     src:
       c: f3115f9c
       rows:
         - 'w.cosmas-joint-chiefs-of-staff-2012 214: all'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 214 n.40: all'
     tags: [place:da-nang]
+    aliases: [cal.1965-02-09.vietnam-force-levels]
+    conflict:
+      - field: c
+        ours: The first battery of the Marine light antiaircraft missile battalion, flown in from Okinawa with its headquarters, operational at Đà Nẵng. The rest of the battalion alerted; the 173d Airborne Brigade alerted to fly in from Okinawa; the Special Landing Force off Cap St. Jacques.
+        theirs: Đà Nẵng. The first elements of the Marines' 1st Light Antiaircraft Missile Battalion operational.
+        base: null
+        from: 'combine: combined cal.1965-02-09.vietnam-force-levels'
+      - field: when
+        ours: Feb. 8
+        theirs: Feb. 9
+        base: null
+        from: 'combine: combined cal.1965-02-09.vietnam-force-levels'
+      - field: date
+        ours: '1965-02-08'
+        theirs: '1965-02-09'
+        base: null
+        from: 'combine: combined cal.1965-02-09.vietnam-force-levels'
+      - field: src
+        ours:
+          c: f3115f9c
+          rows:
+            - 'w.cosmas-joint-chiefs-of-staff-2012 214: all'
+            - 'via w.cosmas-joint-chiefs-of-staff-2012 214 n.40: all'
+        theirs:
+          c: 41d0e902
+          rows:
+            - 'w.macv-command-history-1965 478: all'
+        base: null
+        from: 'combine: combined cal.1965-02-09.vietnam-force-levels'
   - id: cal.1965-02-08.vietnam-air-war
     when: Feb. 8
     date: '1965-02-08'
@@ -2804,18 +2835,6 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
-  - id: cal.1965-02-09.vietnam-force-levels
-    when: Feb. 9
-    date: '1965-02-09'
-    place: da-nang
-    thread: vietnam-force-levels
-    c: Đà Nẵng. The first elements of the Marines' 1st Light Antiaircraft Missile Battalion operational.
-    n: '[[w.macv-command-history-1965]], 478.'
-    src:
-      c: 41d0e902
-      rows:
-        - 'w.macv-command-history-1965 478: all'
-    tags: [place:da-nang]
   - id: cal.1965-02-09.vietnam-saigon
     when: Feb. 9
     date: '1965-02-09'
@@ -7695,22 +7714,31 @@ entries:
       - 1965-02-23T16:00Z
     time_band: night
     time_zone: Asia/Ho_Chi_Minh
-  - id: cal.1965-02-23.soviet-union
-    when: Feb. 23
-    date: '1965-02-23'
-    thread: soviet-union
-    also: [vietnam-diplomacy]
-    c: The Soviet Union contacts the French government on negotiations on Vietnam, without waiting for China's reply or heeding Hanoi's opposition, as Zhou tells Ben Bella on Mar. 31.
-    n: '"[Record of the Second Meeting between Premier Zhou and President Ben Bella](https://digitalarchive.umd.edu/document/165405)" (Mar. 31, 1965), PRC FMA 203-00651-02, 55–85, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou''s account: "contacted the French government on 23 February"; the Soviet ambassador to France later told the Chinese ambassador that the French attitude was Moscow''s, for unconditional cease-fire talks). The record gives no place or hour. Names: Zhou Enlai, Ben Bella. Check: when the Chinese embassy in Paris learned of it. Check: the year the Archive posted the document.'
-    tags: [polity:ussr, polity:fr, name:zhou-enlai, name:ben-bella-ahmed, vis:only:ussr+fr, vis:from:prc:1965-03-31, vis:from:algeria:1965-03-31, ok:fields-place]
   - id: cal.1965-02-23.vietnam-diplomacy
     when: Feb. 23
     date: '1965-02-23'
     thread: vietnam-diplomacy
-    also: [soviet-union, europe-and-the-alliance-france]
+    also: [soviet-union, europe-and-the-alliance-france, vietnam-diplomacy]
     c: By Zhou's account to the Romanian leaders, Mar. 25, the Soviet Union, against the DRV's opposition and with China's answer not yet given, makes contact with de Gaulle on peace talks on Vietnam, and after him with the British government.
     n: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou: ''on 23 February of this year''. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). Names: de Gaulle, Zhou Enlai. Check: a Soviet or French record of the contact, and the day of the British approach.'
-    tags: [polity:ussr, polity:fr, polity:uk, name:de-gaulle-charles, name:zhou-enlai, vis:only:ussr+fr+uk, vis:from:romania:1965-03-25]
+    tags: [polity:ussr, polity:fr, polity:uk, name:de-gaulle-charles, name:zhou-enlai, vis:only:ussr+fr+uk, vis:from:romania:1965-03-25, name:ben-bella-ahmed, vis:only:ussr+fr, vis:from:prc:1965-03-31, vis:from:algeria:1965-03-31, ok:fields-place]
+    aliases: [cal.1965-02-23.soviet-union]
+    conflict:
+      - field: c
+        ours: By Zhou's account to the Romanian leaders, Mar. 25, the Soviet Union, against the DRV's opposition and with China's answer not yet given, makes contact with de Gaulle on peace talks on Vietnam, and after him with the British government.
+        theirs: The Soviet Union contacts the French government on negotiations on Vietnam, without waiting for China's reply or heeding Hanoi's opposition, as Zhou tells Ben Bella on Mar. 31.
+        base: null
+        from: 'combine: combined cal.1965-02-23.soviet-union'
+      - field: thread
+        ours: vietnam-diplomacy
+        theirs: soviet-union
+        base: null
+        from: 'combine: combined cal.1965-02-23.soviet-union'
+      - field: n
+        ours: '"[Transcript of Conversations Between the Romanian Delegation Led by First Secretary of the C.C. of the R.W.P., Nicolae Ceausescu, and the Chinese Delegation, Led by Premier of the Council of State of the Chinese P.R., Zhou Enlai](https://digitalarchive.umd.edu/document/122552)" (Mar. 25, 1965), Document 252 in Romulus Ioan Budura, Politica independenţă a României şi relaţiile Româno-Chineze, 1954–1975: Documente, Bucharest, The National Archives, 2008 and Relaţiile Româno-Chineze, 1880–1974: Documente, Bucharest, Romanian Foreign Ministry and The National Archives, 2005, p. 690–714; ANR, fond C.C. al P.C.R. – Secţia Cancelarie, dosar nr. 39/1965, f. 53–86, Wilson Center Digital Archive. Zhou: ''on 23 February of this year''. Made public: 2005 ([[w.relatiile-romano-chineze-1880]], Document 252, 690–714). Names: de Gaulle, Zhou Enlai. Check: a Soviet or French record of the contact, and the day of the British approach.'
+        theirs: '"[Record of the Second Meeting between Premier Zhou and President Ben Bella](https://digitalarchive.umd.edu/document/165405)" (Mar. 31, 1965), PRC FMA 203-00651-02, 55–85, trans. Stephen Mercado, Wilson Center Digital Archive (Zhou''s account: "contacted the French government on 23 February"; the Soviet ambassador to France later told the Chinese ambassador that the French attitude was Moscow''s, for unconditional cease-fire talks). The record gives no place or hour. Names: Zhou Enlai, Ben Bella. Check: when the Chinese embassy in Paris learned of it. Check: the year the Archive posted the document.'
+        base: null
+        from: 'combine: combined cal.1965-02-23.soviet-union'
   - id: cal.1965-02-23.china-leadership-10
     when: Feb. 23
     date: '1965-02-23'
@@ -8339,6 +8367,7 @@ entries:
         - 'via w.branch-pillar-of-fire 599 n.be-prepared-to-walk: 1, 2, 3'
         - 'w.kotz-judgment-days 276–77: 1, 3'
     tags: [name:jackson-jimmie-lee]
+    time_zone: America/Chicago
   - id: cal.1965-02-26.black-nationalism
     when: Feb. 26
     date: '1965-02-26'

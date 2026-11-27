@@ -2012,34 +2012,14 @@ entries:
     c: 'Diaoyutai, evening. Mao to Li Fuchun, Li Xiannian, Bo Yibo and the ministers: farm labor everywhere by Hebei''s rule of thirds (water works, side lines, the fields); 80 million on water works too many, Henan too much; water conservancy an eight- or ten-year plan, "not three winters."'
     n: '[[w.zedong-mao-zedong-nianpu]], IV, Apr. 13, 1960. Made public: 2013. Names: Mao Zedong, Li Fuchun, Li Xiannian, Bo Yibo.'
     tags: [polity:prc, name:mao-zedong, name:li-fuchun, name:li-xiannian, name:bo-yibo, vis:only:prc]
-  - id: cal.1960-04-13.china-leadership-2
-    when: Apr. 13
-    date: '1960-04-13'
-    place: kunming
-    thread: china-zhou-foreign
-    also: [south-asia, china-foreign]
-    c: Zhou Enlai, on the invitation of the governments of Burma, India and Nepal, leaves on a friendly visit, Chen Yi with him;{1} Kunming in the afternoon.{2}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 303 (Apr. 13, 1960); [[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 13, 1960; 上午, 乘专机; 下午, 抵达昆明); [[w.chen-yi-nianpu]], 809 (Apr. 13, 1960, afternoon (下午); Chen Yi reaches Kunming). Names: Zhou Enlai, Chen Yi.'
-    src:
-      c: 5478f777
-      rows:
-        - 'w.zhou-enlai-nianpu-1949 II, 303: ?'
-        - 'w.zhou-enlai-waijiao-huodong 273: 1'
-        - 'w.chen-yi-nianpu 809: ?'
-    tags: [polity:prc, name:zhou-enlai, name:chen-yi]
-    time_range:
-      - 1960-04-12T22:00Z
-      - 1960-04-13T04:00Z
-    time_band: morning
-    time_zone: Asia/Shanghai
   - id: cal.1960-04-13.china-leadership-3
     when: Apr. 13
     date: '1960-04-13'
     place: peking
     thread: china-zhou-foreign
-    also: [south-asia]
+    also: [south-asia, china-foreign]
     c: Peking. Zhou Enlai leaves by special plane for Burma, India and Nepal, Chen Yi, Vice Premier and Foreign Minister, with him.{1} Soong Ching Ling and Dong Biwu, Vice Chairmen, Zhu De, Chen Yun, Lin Biao and Deng Xiaoping see him off at the airport.{2}
-    n: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 13, 1960; 上午, 机场); [[w.yang-shangkun-riji]], I, 498 (Apr. 13, 1960; Yang at the capital airport to see Zhou and his party off); [[w.chen-yi-nianpu]], 809 (Apr. 13, 1960, morning; Chen Yi leaves Peking with Zhou Enlai for Burma, India and Nepal); [[w.peng-zhen-nianpu-1902]], IV, 18 (Apr. 13, 1960, morning; Peng Zhen, with Song Qingling, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping and others, at the airport to see Zhou off to Burma, India and Nepal); [[w.zhu-de-nianpu-xinbian]], III, 1772 (Apr. 13, 1960; Zhu De 朱德, with Soong Ching Ling 宋庆龄, Dong Biwu 董必武, Chen Yun 陈云, Lin Biao 林彪, Deng Xiaoping 邓小平 and others, at the airport to see Zhou Enlai off to Burma, India and Nepal); [[w.chen-yun-nianpu-xiuding]], III, 34 (Chen Yun at the airport with Zhu De, Soong Ching Ling, Dong Biwu, Lin Biao, Deng Xiaoping and others to see Zhou Enlai off). See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai, Chen Yi, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Song Qingling.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 13, 1960; 上午, 机场); [[w.yang-shangkun-riji]], I, 498 (Apr. 13, 1960; Yang at the capital airport to see Zhou and his party off); [[w.chen-yi-nianpu]], 809 (Apr. 13, 1960, morning; Chen Yi leaves Peking with Zhou Enlai for Burma, India and Nepal); [[w.peng-zhen-nianpu-1902]], IV, 18 (Apr. 13, 1960, morning; Peng Zhen, with Song Qingling, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping and others, at the airport to see Zhou off to Burma, India and Nepal); [[w.zhu-de-nianpu-xinbian]], III, 1772 (Apr. 13, 1960; Zhu De 朱德, with Soong Ching Ling 宋庆龄, Dong Biwu 董必武, Chen Yun 陈云, Lin Biao 林彪, Deng Xiaoping 邓小平 and others, at the airport to see Zhou Enlai off to Burma, India and Nepal); [[w.chen-yun-nianpu-xiuding]], III, 34 (Chen Yun at the airport with Zhu De, Soong Ching Ling, Dong Biwu, Lin Biao, Deng Xiaoping and others to see Zhou Enlai off). See [[cal.1960-04-13.china-leadership-3]]. Names: Zhou Enlai, Chen Yi, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Song Qingling.'
     src:
       c: 1d7e3794
       rows:
@@ -2050,6 +2030,58 @@ entries:
         - 'w.zhu-de-nianpu-xinbian III, 1772: ?'
         - 'w.chen-yun-nianpu-xiuding III, 34: ?'
     tags: [polity:prc, polity:burma, polity:india, polity:nepal, name:zhou-enlai, name:chen-yi, name:dong-biwu, name:zhu-de, name:chen-yun, name:lin-biao, name:deng-xiaoping, name:song-qingling]
+    aliases: [cal.1960-04-13.china-leadership-2]
+    conflict:
+      - field: c
+        ours: Peking. Zhou Enlai leaves by special plane for Burma, India and Nepal, Chen Yi, Vice Premier and Foreign Minister, with him. Soong Ching Ling and Dong Biwu, Vice Chairmen, Zhu De, Chen Yun, Lin Biao and Deng Xiaoping see him off at the airport.
+        theirs: Zhou Enlai, on the invitation of the governments of Burma, India and Nepal, leaves on a friendly visit, Chen Yi with him; Kunming in the afternoon.
+        base: null
+        from: 'combine: combined cal.1960-04-13.china-leadership-2'
+      - field: place
+        ours: peking
+        theirs: kunming
+        base: null
+        from: 'combine: combined cal.1960-04-13.china-leadership-2'
+      - field: cuts
+        ours:
+          -
+            - 124
+            - '1'
+          -
+            - 244
+            - '2'
+        theirs:
+          -
+            - 121
+            - '1'
+          -
+            - 147
+            - '2'
+        base: null
+        from: 'combine: combined cal.1960-04-13.china-leadership-2'
+      - field: n
+        ours: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 13, 1960; 上午, 机场); [[w.yang-shangkun-riji]], I, 498 (Apr. 13, 1960; Yang at the capital airport to see Zhou and his party off); [[w.chen-yi-nianpu]], 809 (Apr. 13, 1960, morning; Chen Yi leaves Peking with Zhou Enlai for Burma, India and Nepal); [[w.peng-zhen-nianpu-1902]], IV, 18 (Apr. 13, 1960, morning; Peng Zhen, with Song Qingling, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping and others, at the airport to see Zhou off to Burma, India and Nepal); [[w.zhu-de-nianpu-xinbian]], III, 1772 (Apr. 13, 1960; Zhu De 朱德, with Soong Ching Ling 宋庆龄, Dong Biwu 董必武, Chen Yun 陈云, Lin Biao 林彪, Deng Xiaoping 邓小平 and others, at the airport to see Zhou Enlai off to Burma, India and Nepal); [[w.chen-yun-nianpu-xiuding]], III, 34 (Chen Yun at the airport with Zhu De, Soong Ching Ling, Dong Biwu, Lin Biao, Deng Xiaoping and others to see Zhou Enlai off). See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai, Chen Yi, Dong Biwu, Zhu De, Chen Yun, Lin Biao, Deng Xiaoping, Song Qingling.'
+        theirs: '[[w.zhou-enlai-nianpu-1949]], II, 303 (Apr. 13, 1960); [[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 13, 1960; 上午, 乘专机; 下午, 抵达昆明); [[w.chen-yi-nianpu]], 809 (Apr. 13, 1960, afternoon (下午); Chen Yi reaches Kunming). Names: Zhou Enlai, Chen Yi.'
+        base: null
+        from: 'combine: combined cal.1960-04-13.china-leadership-2'
+      - field: src
+        ours:
+          c: 1d7e3794
+          rows:
+            - 'w.zhou-enlai-waijiao-huodong 273: 1, 2'
+            - 'w.yang-shangkun-riji I, 498: 1'
+            - 'w.chen-yi-nianpu 809: ?'
+            - 'w.peng-zhen-nianpu-1902 IV, 18: ?'
+            - 'w.zhu-de-nianpu-xinbian III, 1772: ?'
+            - 'w.chen-yun-nianpu-xiuding III, 34: ?'
+        theirs:
+          c: 5478f777
+          rows:
+            - 'w.zhou-enlai-nianpu-1949 II, 303: ?'
+            - 'w.zhou-enlai-waijiao-huodong 273: 1'
+            - 'w.chen-yi-nianpu 809: ?'
+        base: null
+        from: 'combine: combined cal.1960-04-13.china-leadership-2'
     time_range:
       - 1960-04-12T22:00Z
       - 1960-04-13T04:00Z
@@ -2232,7 +2264,7 @@ entries:
     thread: china-foreign
     also: [south-asia]
     c: Chen Yi 陈毅 leaves Kunming 昆明 with Zhou Enlai 周恩来 for Burma.
-    n: '[[w.chen-yi-nianpu]], 809. See [[cal.1960-04-13.china-leadership-2]]. The words: 上午 (809). Names: Chen Yi, Zhou Enlai. Check: Zhou Enlai''s chronology has Zhou at Kunming on the 14th, receiving the Yunnan cadres ([[cal.1960-04-14.china-leadership]]), and reaching Rangoon from Kunming on the 15th.'
+    n: '[[w.chen-yi-nianpu]], 809. See [[cal.1960-04-13.china-leadership-3]]. The words: 上午 (809). Names: Chen Yi, Zhou Enlai. Check: Zhou Enlai''s chronology has Zhou at Kunming on the 14th, receiving the Yunnan cadres ([[cal.1960-04-14.china-leadership]]), and reaching Rangoon from Kunming on the 15th.'
     tags: [polity:prc, name:chen-yi, name:zhou-enlai]
     time_range:
       - 1960-04-13T22:00Z
@@ -2355,7 +2387,7 @@ entries:
     thread: china-zhou-foreign
     also: [china-foreign]
     c: Rangoon. Zhou Enlai arrives from Kunming and is welcomed at the airport by U Nu, Prime Minister of Burma, and Ne Win, the Defense Forces' Chief of Staff.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 15, 1960; 上午); [[w.chen-yi-nianpu]], 809 (Apr. 15, 1960, morning; Chen Yi reaches Rangoon); [[w.guan-vietnamese-communists-relations-with]], 141–142 (Zhou''s tour: Burma, Apr. 15–19; to settle the boundaries and conclude treaties of friendship and nonaggression). To check: BBC, Summary of World Broadcasts (Far East), April 1960, SWB/FE/310/A3/1 to SWB/FE/325/A3/1-3 (Zhou Enlai''s tour of Burma, India and Nepal) (cited by [[w.guan-vietnamese-communists-relations-with]], 142 n.37). See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai, U Nu, Ne Win.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 15, 1960; 上午); [[w.chen-yi-nianpu]], 809 (Apr. 15, 1960, morning; Chen Yi reaches Rangoon); [[w.guan-vietnamese-communists-relations-with]], 141–142 (Zhou''s tour: Burma, Apr. 15–19; to settle the boundaries and conclude treaties of friendship and nonaggression). To check: BBC, Summary of World Broadcasts (Far East), April 1960, SWB/FE/310/A3/1 to SWB/FE/325/A3/1-3 (Zhou Enlai''s tour of Burma, India and Nepal) (cited by [[w.guan-vietnamese-communists-relations-with]], 142 n.37). See [[cal.1960-04-13.china-leadership-3]]. Names: Zhou Enlai, U Nu, Ne Win.'
     src:
       c: b65bc6af
       rows:
@@ -2375,7 +2407,7 @@ entries:
     place: rangoon
     thread: china-zhou-foreign
     c: Rangoon. Zhou Enlai dines with Ne Win and his wife.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 15, 1960; 晚上); [[w.chen-yi-nianpu]], 809 (Apr. 15, 1960, evening; Chen Yi, Zhou Enlai and Zhang Hanfu dine with Ne Win and his wife at the guesthouse). Made public: 1993. See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai, Ne Win.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 15, 1960; 晚上); [[w.chen-yi-nianpu]], 809 (Apr. 15, 1960, evening; Chen Yi, Zhou Enlai and Zhang Hanfu dine with Ne Win and his wife at the guesthouse). Made public: 1993. See [[cal.1960-04-13.china-leadership-3]]. Names: Zhou Enlai, Ne Win.'
     src:
       c: 577a483f
       rows:
@@ -2742,7 +2774,7 @@ entries:
     thread: china-zhou-foreign
     also: [china-foreign]
     c: Rangoon, Zhou Enlai's guesthouse. Zhou Enlai meets U Kyaw Nyein, deputy chairman of the Stable Anti-Fascist People's Freedom League.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 17, 1960; 上午, 宾馆); [[w.chen-yi-nianpu]], 810 (Apr. 17, 1960, morning; Chen Yi there when U Kyaw Nyein, vice-chairman of the Stable AFPFL, calls on Zhou Enlai at the guesthouse). Made public: 1993. See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai, Kyaw Nyein.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 17, 1960; 上午, 宾馆); [[w.chen-yi-nianpu]], 810 (Apr. 17, 1960, morning; Chen Yi there when U Kyaw Nyein, vice-chairman of the Stable AFPFL, calls on Zhou Enlai at the guesthouse). Made public: 1993. See [[cal.1960-04-13.china-leadership-3]]. Names: Zhou Enlai, Kyaw Nyein.'
     src:
       c: 7ef20c10
       rows:
@@ -2761,7 +2793,7 @@ entries:
     thread: china-zhou-foreign
     also: [china-foreign]
     c: Rangoon. Zhou Enlai gives a luncheon for U Nu, Ne Win, the Burmese ministers, senior officers and public figures.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 17, 1960; 午宴); [[w.chen-yi-nianpu]], 810 (Apr. 17, 1960, 12:30 p.m.; Chen Yi at Zhou Enlai''s luncheon). See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai, U Nu, Ne Win.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 273 (Apr. 17, 1960; 午宴); [[w.chen-yi-nianpu]], 810 (Apr. 17, 1960, 12:30 p.m.; Chen Yi at Zhou Enlai''s luncheon). See [[cal.1960-04-13.china-leadership-3]]. Names: Zhou Enlai, U Nu, Ne Win.'
     src:
       c: 0620fa09
       rows:
@@ -2780,7 +2812,7 @@ entries:
     thread: china-zhou-foreign
     also: [china-foreign]
     c: Rangoon. Zhou Enlai attends the reception given by the Chinese Ambassador, Li Yimin, for his visit; U Nu and Ne Win attend.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 274 (Apr. 17, 1960; 晚上); [[w.chen-yi-nianpu]], 810 (Apr. 17, 1960, evening; Chen Yi at Li Yimin''s reception). See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai, U Nu, Ne Win.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 274 (Apr. 17, 1960; 晚上); [[w.chen-yi-nianpu]], 810 (Apr. 17, 1960, evening; Chen Yi at Li Yimin''s reception). See [[cal.1960-04-13.china-leadership-3]]. Names: Zhou Enlai, U Nu, Ne Win.'
     src:
       c: 9a4d24eb
       rows:
@@ -2883,7 +2915,7 @@ entries:
     thread: china-zhou-foreign
     also: [china-foreign]
     c: Rangoon. Zhou Enlai attends the luncheon given by Ne Win and his wife.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 274 (Apr. 18, 1960; 午宴); [[w.chen-yi-nianpu]], 810 (Apr. 18, 1960, noon; Ne Win''s luncheon for Zhou Enlai and Chen Yi). See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai, Ne Win.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 274 (Apr. 18, 1960; 午宴); [[w.chen-yi-nianpu]], 810 (Apr. 18, 1960, noon; Ne Win''s luncheon for Zhou Enlai and Chen Yi). See [[cal.1960-04-13.china-leadership-3]]. Names: Zhou Enlai, Ne Win.'
     src:
       c: 8a3bd3f4
       rows:
@@ -2902,7 +2934,7 @@ entries:
     thread: china-zhou-foreign
     also: [china-foreign]
     c: Rangoon. Zhou Enlai attends the welcoming banquet given by Win Maung, President of Burma.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 274 (Apr. 18, 1960; 晚上); [[w.chen-yi-nianpu]], 810 (Apr. 18, 1960, evening; Chen Yi at President Win Maung''s banquet). See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 274 (Apr. 18, 1960; 晚上); [[w.chen-yi-nianpu]], 810 (Apr. 18, 1960, evening; Chen Yi at President Win Maung''s banquet). See [[cal.1960-04-13.china-leadership-3]]. Names: Zhou Enlai.'
     src:
       c: 8e77c90a
       rows:
@@ -3185,7 +3217,7 @@ entries:
     thread: china-zhou-foreign
     also: [south-asia, china-foreign]
     c: Rangoon. Zhou Enlai ends the visit to Burma and flies to Delhi; U Nu and Ne Win see him off at the airport.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 274 (Apr. 19, 1960; 上午); [[w.chen-yi-nianpu]], 810 (Apr. 19, 1960, morning; Chen Yi leaves Rangoon with Zhou Enlai for India). See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai, U Nu, Ne Win.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 274 (Apr. 19, 1960; 上午); [[w.chen-yi-nianpu]], 810 (Apr. 19, 1960, morning; Chen Yi leaves Rangoon with Zhou Enlai for India). See [[cal.1960-04-13.china-leadership-3]]. Names: Zhou Enlai, U Nu, Ne Win.'
     src:
       c: 07339378
       rows:
@@ -3205,7 +3237,7 @@ entries:
     thread: china-zhou-foreign
     also: [south-asia]
     c: Calcutta. Zhou Enlai arrives, is met at the airport by P. C. Sen, West Bengal's Minister of Food Supply and Refugees, and lunches in the city.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 274 (Apr. 19, 1960; 中午12时30分). See [[cal.1960-04-13.china-leadership-2]]. Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 274 (Apr. 19, 1960; 中午12时30分). See [[cal.1960-04-13.china-leadership-3]]. Names: Zhou Enlai.'
     src:
       c: d8084ab6
       rows:
@@ -4653,7 +4685,7 @@ entries:
     thread: china-foreign
     also: [cuba]
     c: Peking 北京, Yangfengjiadao 养蜂夹道. Yang Shangkun 杨尚昆 with Blas Roca 罗加, 3 to 7:30 p.m.; a banquet at 6:30.
-    n: '[[w.yang-shangkun-riji]], I, 502 (Apr. 25, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1544 (Apr. 25–26, 1960; Deng holds talks with Roca the afternoon of the 25th: Cuba''s political situation and China''s aid). The words: 下午3时起到7时半……6时半宴会 (I, 502). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Blas Roca.'
+    n: '[[w.yang-shangkun-riji]], I, 502 (Apr. 25, 1960); [[w.deng-xiaoping-nianpu-1904]], III, 1544 (Apr. 25–26, 1960; Deng holds talks with Roca the afternoon of the 25th: Cuba''s political situation and China''s aid). The words: 下午3时起到7时半……6时半宴会 (I, 502). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Check: whether the 6:30 banquet is Zhu De''s, [[cal.1960-04-25.china-leadership-13]], which [[w.zhu-de-nianpu-xinbian]], III, 1773 and [[w.peng-zhen-nianpu-1902]], IV, 21–22 put in the evening of the 25th. Names: Yang Shangkun, Blas Roca.'
     src:
       c: a6e58a43
       rows:

@@ -3046,19 +3046,6 @@ entries:
       - 1966-10-17T16:00Z
     time_band: night
     time_zone: Asia/Shanghai
-  - id: cal.1966-10-17.china-leadership-3
-    when: Oct. 17
-    date: '1966-10-17'
-    place: peking
-    thread: china-red-guards
-    c: Peking Normal University 北京師範大學. Li Wenbo 李文博, a physics student, puts up the poster "The commune is no longer a state in the old sense" 〈公社已經不是原來意義的國家了〉.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 476. To check: Li Wenbo 李文博, poster, Oct. 17, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 476 n.31b).'
-    src:
-      c: bbc6b17e
-      rows:
-        - 'w.yang-jisheng-tiandi-fanfu I, 476: all'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 476 n.31b: all'
-    tags: [polity:prc]
   - id: cal.1966-10-17.china
     when: Oct. 17
     date: '1966-10-17'
@@ -3066,7 +3053,24 @@ entries:
     thread: china-red-guards
     c: 'Peking Normal University 北京師範大學. Li Wenbo 李文博, a student of its physics department, puts up the poster "The commune is long since no longer a state in the old sense" 〈公社早已不是原來意義上的國家了〉: the socialist system to be thoroughly renewed, the proletarian dictatorship thoroughly improved; the present system "a bourgeois state without a bourgeoisie"; the Cultural Revolution''s aim the principles of the Paris Commune.'
     n: '[[w.yang-jisheng-tiandi-fanfu]], II, 958–959. To check: Song Yongyi 宋永毅 et al., *Zhongguo wenhua dageming wenku* 《中國文化大革命文庫》 (2nd ed., 2006), the heterodox documents (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 959 n.9; Yang notes that the collection''s text lacks "thoroughly" 徹底, which he recalls).'
+    src:
+      c: bbc6b17e
+      rows:
+        - 'w.yang-jisheng-tiandi-fanfu I, 476: all'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 476 n.31b: all'
     tags: [polity:prc]
+    aliases: [cal.1966-10-17.china-leadership-3]
+    conflict:
+      - field: c
+        ours: 'Peking Normal University 北京師範大學. Li Wenbo 李文博, a student of its physics department, puts up the poster "The commune is long since no longer a state in the old sense" 〈公社早已不是原來意義上的國家了〉: the socialist system to be thoroughly renewed, the proletarian dictatorship thoroughly improved; the present system "a bourgeois state without a bourgeoisie"; the Cultural Revolution''s aim the principles of the Paris Commune.'
+        theirs: Peking Normal University 北京師範大學. Li Wenbo 李文博, a physics student, puts up the poster "The commune is no longer a state in the old sense" 〈公社已經不是原來意義的國家了〉.
+        base: null
+        from: 'combine: combined cal.1966-10-17.china-leadership-3'
+      - field: n
+        ours: '[[w.yang-jisheng-tiandi-fanfu]], II, 958–959. To check: Song Yongyi 宋永毅 et al., *Zhongguo wenhua dageming wenku* 《中國文化大革命文庫》 (2nd ed., 2006), the heterodox documents (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 959 n.9; Yang notes that the collection''s text lacks "thoroughly" 徹底, which he recalls).'
+        theirs: '[[w.yang-jisheng-tiandi-fanfu]], I, 476. To check: Li Wenbo 李文博, poster, Oct. 17, 1966 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 476 n.31b).'
+        base: null
+        from: 'combine: combined cal.1966-10-17.china-leadership-3'
   - id: cal.1966-10-17.china-leadership-4
     when: Oct. 17
     date: '1966-10-17'
@@ -4207,8 +4211,10 @@ entries:
     place: peking
     thread: china-zhou-foreign
     also: [south-asia, china-foreign]
+    follows:
+      - cal.1966-10-24.china-leadership-4
     c: Zhou and Chen Yi receive and give a luncheon for Pakistan's foreign minister Pirzada in the Great Hall of the People.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 24, 1966; noon, Great Hall of the People); [[w.chen-yi-nianpu]], 1170 (Oct. 24, 1966, noon (12), the Great Hall of the People). Names: Zhou Enlai, Chen Yi.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 506 (Oct. 24, 1966; noon, Great Hall of the People); [[w.chen-yi-nianpu]], 1170 (Oct. 24, 1966, noon (12), the Great Hall of the People). The order: after [[cal.1966-10-24.china-leadership-4]], -4 is the reception (a morning range), -6 the luncheon at noon ([[w.zhou-enlai-waijiao-huodong]], Oct. 24, 1966). Names: Zhou Enlai, Chen Yi.'
     src:
       c: 61fae52f
       rows:

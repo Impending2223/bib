@@ -1148,6 +1148,39 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 152: all'
     tags: [polity:prc, vis:only:prc]
+    aliases: [cal.1966-06-04.china-leadership-6]
+    conflict:
+      - field: c
+        ours: The new Peking committee 北京新市委 begins to send work groups into some schools.
+        theirs: Peking. The new Peking committee 北京新市委 sends work groups into the schools.
+        base: null
+        from: 'combine: combined cal.1966-06-04.china-leadership-6'
+      - field: when
+        ours: June 3–4
+        theirs: June 4
+        base: null
+        from: 'combine: combined cal.1966-06-04.china-leadership-6'
+      - field: date
+        ours: '1966-06-03'
+        theirs: '1966-06-04'
+        base: null
+        from: 'combine: combined cal.1966-06-04.china-leadership-6'
+      - field: n
+        ours: '[[w.pu-weihua-zalan-jiu-shijie]], 152. Made public: 2008. See [[cal.1966-06-03.china-leadership-2]].'
+        theirs: '[[w.yang-jisheng-tiandi-fanfu]], II, 1143.'
+        base: null
+        from: 'combine: combined cal.1966-06-04.china-leadership-6'
+      - field: src
+        ours:
+          c: 9ca9f07f
+          rows:
+            - 'w.pu-weihua-zalan-jiu-shijie 152: all'
+        theirs:
+          c: '36520029'
+          rows:
+            - 'w.yang-jisheng-tiandi-fanfu II, 1143: all'
+        base: null
+        from: 'combine: combined cal.1966-06-04.china-leadership-6'
   - id: cal.1966-06-04.africa
     when: June 4–9
     date: '1966-06-04'
@@ -1287,18 +1320,6 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 191: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 191 n.5: all'
     tags: [polity:prc, name:liu-shaoqi]
-  - id: cal.1966-06-04.china-leadership-6
-    when: June 4
-    date: '1966-06-04'
-    place: peking
-    thread: china-may-sixteenth
-    c: Peking. The new Peking committee 北京新市委 sends work groups into the schools.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1143.'
-    src:
-      c: '36520029'
-      rows:
-        - 'w.yang-jisheng-tiandi-fanfu II, 1143: all'
-    tags: [polity:prc]
   - id: cal.1966-06-04.china-leadership-7
     when: June 4
     date: '1966-06-04'

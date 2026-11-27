@@ -3020,6 +3020,7 @@ entries:
     time: 1964-01-10T16:25Z
     place: washington
     thread: latin-america-panama
+    also: [goldwater]
     c: 'Johnson to Russell by telephone, 11:25 a.m., "off the record," on Panama.{1} Russell: tell them the Zone is United States property, the incident "most regrettable," no interruption by "any subversive group"; "a little lick to Castro"; it "started with a bunch of schoolboys."{2}'
     n: '[Johnson and Richard Russell, 11:25 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-january-10-1964), Conversation WH6401-10-1303 (Miller Center). [[w.taking-charge]], 155–156. Names: Johnson, Russell, Castro.'
     src:
@@ -3028,7 +3029,38 @@ entries:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-january-10-1964: 1'
         - 'w.taking-charge 155–156: 1, 2'
         - 'via x.1964-01-10.johnson-richard-russell-telephone-1125: 1, 2'
-    tags: [name:johnson-lyndon-b, name:russell-richard-b, name:castro-fidel]
+    tags: [name:johnson-lyndon-b, name:russell-richard-b, name:castro-fidel, name:goldwater-barry-m, name:mcnamara-robert-s]
+    aliases: [cal.1964-01-10.defense]
+    conflict:
+      - field: c
+        ours: 'Johnson to Russell by telephone, 11:25 a.m., "off the record," on Panama. Russell: tell them the Zone is United States property, the incident "most regrettable," no interruption by "any subversive group"; "a little lick to Castro"; it "started with a bunch of schoolboys."'
+        theirs: 'Russell to Johnson by telephone, 11:25 a.m., on Goldwater''s charge and McNamara''s answer: "I think both of ''em went to extremes on it." No Minuteman ever fired with a warhead in it; "no man can take an absolutely categorical oath that he knows that it will deliver."'
+        base: null
+        from: 'combine: combined cal.1964-01-10.defense'
+      - field: thread
+        ours: latin-america-panama
+        theirs: defense
+        base: null
+        from: 'combine: combined cal.1964-01-10.defense'
+      - field: n
+        ours: '[Johnson and Richard Russell, 11:25 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-january-10-1964), Conversation WH6401-10-1303 (Miller Center). [[w.taking-charge]], 155–156. Names: Johnson, Russell, Castro.'
+        theirs: '[[w.perlstein-before-the-storm]], 271. To check: [Russell and Johnson, 11:25 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-january-10-1964), Conversation WH6401-10-1303 (Miller Center; not heard) (cited by [[w.perlstein-before-the-storm]], 271 n.1, as LBJT 6401.10/26). Check: the words Perlstein''s. See [[cal.1964-01-09.defense]]. Names: Russell, Johnson, Goldwater, McNamara.'
+        base: null
+        from: 'combine: combined cal.1964-01-10.defense'
+      - field: src
+        ours:
+          c: 8313dabd
+          rows:
+            - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-january-10-1964: 1'
+            - 'w.taking-charge 155–156: 1, 2'
+            - 'via x.1964-01-10.johnson-richard-russell-telephone-1125: 1, 2'
+        theirs:
+          c: 25e5cdac
+          rows:
+            - 'w.perlstein-before-the-storm 271: all'
+            - 'via w.perlstein-before-the-storm 271 n.1: all'
+        base: null
+        from: 'combine: combined cal.1964-01-10.defense'
   - id: cal.1964-01-10.baker
     when: Jan. 10
     date: '1964-01-10'
@@ -3044,20 +3076,6 @@ entries:
         - 'w.taking-charge 158–161: 1, 2'
         - 'via x.1964-01-10.johnson-george-smathers-telephone-2101: 1, 2'
     tags: [name:johnson-lyndon-b, name:smathers-george-a, name:baker-robert-g, name:reynolds-don-b, name:curtis-carl-t, name:scott-hugh-d-jr, name:jenkins-walter-w, name:russell-richard-b]
-  - id: cal.1964-01-10.defense
-    when: Jan. 10
-    date: '1964-01-10'
-    time: 1964-01-10T16:25Z
-    thread: defense
-    also: [goldwater]
-    c: 'Russell to Johnson by telephone, 11:25 a.m., on Goldwater''s charge and McNamara''s answer: "I think both of ''em went to extremes on it." No Minuteman ever fired with a warhead in it; "no man can take an absolutely categorical oath that he knows that it will deliver."'
-    n: '[[w.perlstein-before-the-storm]], 271. To check: [Russell and Johnson, 11:25 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-january-10-1964), Conversation WH6401-10-1303 (Miller Center; not heard) (cited by [[w.perlstein-before-the-storm]], 271 n.1, as LBJT 6401.10/26). Check: the words Perlstein''s. See [[cal.1964-01-09.defense]]. Names: Russell, Johnson, Goldwater, McNamara.'
-    src:
-      c: 25e5cdac
-      rows:
-        - 'w.perlstein-before-the-storm 271: all'
-        - 'via w.perlstein-before-the-storm 271 n.1: all'
-    tags: [name:russell-richard-b, name:johnson-lyndon-b, name:goldwater-barry-m, name:mcnamara-robert-s]
   - id: cal.1964-01-10.white-house
     when: Jan. 10
     date: '1964-01-10'
