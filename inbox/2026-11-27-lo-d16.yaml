@@ -498,6 +498,7 @@ ops:
       - name:kekkonen-urho
       - polity:ussr
       - polity:finland
+      - ok:polity-tag
 - add:
     entry:
       id: cal.1965-12-22.soviet-union-leadership-2
@@ -514,6 +515,7 @@ ops:
       - name:kekkonen-urho
       - polity:ussr
       - polity:finland
+      - ok:polity-tag
 - add:
     entry:
       id: cal.1965-11-25.china-leadership-12
@@ -532,6 +534,7 @@ ops:
       - polity:prc
       - vis:only:prc
       - name:yang-shangkun
+      - ok:polity-tag
 - add:
     entry:
       id: cal.1965-11-30.economy
@@ -576,7 +579,7 @@ ops:
     base: 1e12b4b3
     set:
       c: Simkin, the federal mediator, on his own suggests to each side a settlement above the guideposts. By Califano's account.
-      n: '[[w.califano-triumph-and-tragedy-of]], 89 (Simkin, "on his own initiative," suggests to each of the parties a settlement in excess of the wage guideposts). Names: Simkin, Califano.'
+      n: '[[w.califano-triumph-and-tragedy-of]], 89 (Simkin, "on his own initiative," suggests to each of the parties a settlement in excess of the wage guideposts; the wire and the call that follow are separate acts in the same account). Names: Simkin, Califano.'
       tags:
       - name:simkin-william-e
       - name:califano-joseph-a-jr
@@ -584,13 +587,13 @@ ops:
         c: 23bd24cf
         rows:
         - 'w.califano-triumph-and-tragedy-of 89: all'
-    kind: reword
+    kind: correct
 - edit:
     id: cal.1965-08-30.steel
     base: 23d0944f
     set:
       c: 'Steel.{1} With the Steelworkers'' contract to run out Sept. 1 (Check), Johnson brings Abel of the union and Cooper of United States Steel to the White House with Wirtz and Connor: a shutdown put off eight days, the bargaining moved to Washington.{2} In the Cabinet Room at 1 p.m., before photographers, Johnson asks for "a noninflationary settlement," tells them to remember "our boys in Vietnam," and sends them to Room 275 of the Executive Office Building, his suite as Vice President.{5} Aug. 26, he had telephoned both.{4}'
-      n: 'Televised Statement by the President Announcing Postponement of a Shutdown in the Steel Industry, [1965 Pub. Papers 952](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=426) (Aug. 30, 1965); The President''s News Conference, [1965 Pub. Papers 934](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=408) (Aug. 26, 1965). [[w.dallek-flawed-giant]], 305 (both sides at the White House; the shutdown put off eight days); [[w.califano-triumph-and-tragedy-of]], 90–91 (the breakfast at 8 with Morse, Collins, Simkin; the parties at 1 p.m., "our boys in Vietnam"; Room 275 of the Executive Office Building; the back channel through Goldberg and Clifford; Eisenhower; the eight days'' postponement; Abel alone with Johnson); [[w.bernstein-guns-or-butter]], 361 (the ultimatum; the deadline put off eight days); [[w.califano-triumph-and-tragedy-of]], 90. To check: [[w.sheahan-wage-price-guideposts]]; handwritten notes of the meeting of Aug. 30, 1965, Diary Backup, LBJ Library (cited by [[w.dallek-flawed-giant]], 305). See [[cal.1963-04-11.steel]]. Names: Johnson, Abel, R. Conrad Cooper, Wirtz, Connor.'
+      n: 'Televised Statement by the President Announcing Postponement of a Shutdown in the Steel Industry, [1965 Pub. Papers 952](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=426) (Aug. 30, 1965); The President''s News Conference, [1965 Pub. Papers 934](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=408) (Aug. 26, 1965). [[w.dallek-flawed-giant]], 305 (both sides at the White House; the shutdown put off eight days); [[w.califano-triumph-and-tragedy-of]], 90–91 (the breakfast at 8 with Morse, Collins, Simkin; the parties at 1 p.m., "our boys in Vietnam"; Room 275 of the Executive Office Building; the back channel through Goldberg and Clifford; Eisenhower; the eight days'' postponement; Abel alone with Johnson); [[w.bernstein-guns-or-butter]], 361 (the ultimatum; the deadline put off eight days); [[w.califano-triumph-and-tragedy-of]], 90. To check: [[w.sheahan-wage-price-guideposts]]; handwritten notes of the meeting of Aug. 30, 1965, Diary Backup, LBJ Library (cited by [[w.dallek-flawed-giant]], 305). See [[cal.1963-04-11.steel]]. Califano, 91, and the Public Papers'' note to 952 give the announcement its own hour, 9 p.m. Names: Johnson, Abel, R. Conrad Cooper, Wirtz, Connor.'
       src:
         c: 092d3b75
         rows:
@@ -602,7 +605,7 @@ ops:
         - 'via w.califano-triumph-and-tragedy-of 90 n.15: 2'
         - 'w.bernstein-guns-or-butter 361: ?'
         - 'w.califano-triumph-and-tragedy-of 90: 5'
-    kind: reword
+    kind: correct
 - follows:
     id: cal.1965-08-30.steel-4
     add:
@@ -620,17 +623,16 @@ ops:
     base: 8f923f4d
     set:
       c: Home rule for the District. A discharge petition to bring the District charter bill, H.R. 4644, out of McMillan's District Committee reaches 218 names, a majority of the House.{1} The Senate had passed its bill, S. 1118, July 22, [63–29](https://voteview.com/rollcall/RS0890172).{3}
-      n: 'Letter to the Chairman, House Committee on the District of Columbia, [1965 Pub. Papers 971](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=445) (Sept. 4, 1965). [[w.califano-triumph-and-tragedy-of]], 229 (favors for signers; "a birthday present"); [[w.bernstein-guns-or-butter]], 313 (169 Northern Democrats, 23 Southern, 26 Republicans; the Senate''s vote July 22); [[w.johnson-white-house-diary]], 316 (the week''s "near victory for Home Rule": a House vote "assured," Sept. 27, the bill held for years in the District Committee; not the petition, the broadcast or the Senate). To check: [[w.jaffe-dream-city]]; [[w.asch-chocolate-city]]. Names: McMillan, Johnson.'
+      n: 'Letter to the Chairman, House Committee on the District of Columbia, [1965 Pub. Papers 971](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=445) (Sept. 4, 1965). [[w.califano-triumph-and-tragedy-of]], 229 (favors for signers; "a birthday present"); [[w.bernstein-guns-or-butter]], 313 (169 Northern Democrats, 23 Southern, 26 Republicans; the Senate''s vote July 22); [[w.johnson-white-house-diary]], 316 (the week''s "near victory for Home Rule": a House vote "assured," Sept. 27, the bill held for years in the District Committee; not the petition, the broadcast or the Senate). To check: [[w.jaffe-dream-city]]; [[w.asch-chocolate-city]]. Califano, 229, gives the Usher''s call its own hour, 7:45 a.m., and the Public Papers'' note to 966 the broadcast its own, 2 p.m. Names: McMillan, Johnson.'
       src:
         c: dabd0a20
         rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=440: 1'
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=445: 1, 3'
         - 'w.califano-triumph-and-tragedy-of 229: ?'
         - 'https://voteview.com/rollcall/RS0890172: 3'
         - 'w.bernstein-guns-or-butter 313: 1, 3'
         - 'w.johnson-white-house-diary 316: ?'
-    kind: reword
+    kind: correct
 - follows:
     id: cal.1965-09-03.states-and-cities
     add:
@@ -640,6 +642,10 @@ ops:
     id: cal.1965-09-04.china-leadership-2
     base: a69147f7
     set:
+      src:
+        c: 7117b92c
+        rows:
+        - 'w.chen-yi-nianpu 1117: all'
       c: Chen Yi, on his way abroad, arrives at Karachi.
       n: '[[w.chen-yi-nianpu]], 1117 (Sept. 4, 1965, 上午, on the way to Mali and other countries, Chen Yi reaches Karachi in Pakistan). The words: 上午 (1117). Names: Chen Yi.'
     kind: reword
@@ -649,12 +655,12 @@ ops:
     set:
       when: Sept. 5
       c: Chen Yi arrives at Damascus on a visit to Syria.
-      n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 49 (Sept. 5–6, 1965); [[w.chen-yi-nianpu]], 1118 (Sept. 5, 1965, 上午, Chen Yi reaches Damascus). The words: 上午 (1118). Names: Chen Yi.'
+      n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 49 (Sept. 5–6, 1965); [[w.chen-yi-nianpu]], 1118 (Sept. 5, 1965, 上午, Chen Yi reaches Damascus; the call at noon and the talks in the evening are items of their own). The words: 上午 (1118). Names: Chen Yi.'
       tags:
       - polity:prc
       - polity:syria
       - name:chen-yi
-    kind: reword
+    kind: correct
 - follows:
     id: cal.1965-09-05.china-leadership-11
     add:
@@ -701,13 +707,13 @@ ops:
     base: 8e571457
     set:
       c: 'The Ranch, about 4 a.m. Johnson has "awful pains in his stomach"; he will not have Dr. Burkley called till dawn. Burkley thinks it kidney stones; an electrocardiogram. Johnson''s feeling: "as long as we really knew nothing, we should say nothing"; Mrs. Johnson goes on to Jackson Hole.'
-      n: '[[w.johnson-white-house-diary]], 316–17 (Mrs. Johnson''s account). Made public: 1970. Names: Burkley, Johnson, Lady Bird Johnson.'
+      n: '[[w.johnson-white-house-diary]], 316–17 (Mrs. Johnson''s account; the telephone call is in the middle of the dinner at Jackson Hole, 318). Made public: 1970. Names: Burkley, Johnson, Lady Bird Johnson.'
       tags:
       - name:johnson-lady-bird
       - name:johnson-lyndon-b
       - name:burkley-george-g
       - state:tx
-    kind: reword
+    kind: correct
 - check:
     id: cal.1965-09-10.china-leadership-3
     text: 'Check: the day; the Waijiao dashiji has Chen Yi speak at the reception on the 10th ([[w.zhonghua-renmin-gongheguo-waijiao]], 51), the Chen Yi nianpu on the evening of Sept. 12 ([[w.chen-yi-nianpu]], 1120); the nianpu has the 10th for Keita''s reception of him and the talks with Koné.'
@@ -754,16 +760,16 @@ ops:
     set:
       when: Oct. 5
       c: Moscow. Brezhnev takes part in the negotiations with Modibo Keita, President of Mali and Secretary General of its party.
-      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 73 (Oct. 5). Names: Brezhnev, Keita.'
-    kind: reword
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 73 (Oct. 5; the workbook gives each day''s items separately, Oct. 4 to 7, II, 73–74). Names: Brezhnev, Keita.'
+    kind: correct
 - edit:
     id: cal.1965-12-20.soviet-union-leadership
     base: 9cbf47c1
     set:
       when: Dec. 20
       c: Moscow. Kekkonen, President of Finland. Brezhnev and Podgorny take him to Zavidovo Dec. 20.
-      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 97 (Dec. 20). The words: выехал в Завидово в 11⁰⁰ (II, 97). Names: Brezhnev, Kekkonen, Podgorny.'
-    kind: reword
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 97 (Dec. 20; the workbook gives each day''s items separately, Dec. 20 to 22, II, 97–98). The words: выехал в Завидово в 11⁰⁰ (II, 97). Names: Brezhnev, Kekkonen, Podgorny.'
+    kind: correct
 - follows:
     id: cal.1965-11-06.china-leadership
     add:
