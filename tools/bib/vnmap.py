@@ -333,7 +333,7 @@ def country_names(ids, day=PIN_DAY):
     P = vis.polities()["polities"]
     out = {}
     for i in sorted(ids):
-        p = P.get(PIN_POLITY.get(i, i))
+        p = P.get(vis.canon(PIN_POLITY.get(i, i)))      # a borders' file's key that is a polity's old id (ruling 67)
         if not p or p.get("org"):
             continue
         if p.get("until") and str(p["until"]) <= day and P.get(p.get("then")):

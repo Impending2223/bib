@@ -253,7 +253,8 @@ def problems(series):
     rows, edges, where = load()
     errors, warns = [], []
     from . import vis
-    pols = set(vis.polities()["polities"]) if os.path.exists(vis.POL) else None   # `local:` (R27)
+    pols = (set(vis.polities()["polities"]) | set(vis.aliases())) if os.path.exists(vis.POL) else None  # `local:` (R27);
+                                                                               # an old id too (ruling 67)
     for at, msg in where.get("_bad", []):
         errors.append((at, msg))
     for d in where.get("_dup", []):
