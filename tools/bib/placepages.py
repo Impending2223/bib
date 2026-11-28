@@ -75,6 +75,11 @@ STYLE
     in Washington or at a convention about a State or a city the line names.
  9. What a place tag names (tag_name), for `./bib patch-check` (patchcheck.py, STYLE 15): a polity's register name, a
     State's name, a city's or place's gazetteer name, a province's on either map.
+10. A nation's old id (ruling 67: the nations' tags moved to ISO 3166-1's codes of 1974, the old names kept as
+    aliases, sources/polities.yaml `aliases`; tools/places/recode.py made the change): read as its polity wherever a
+    tag or a row names it (vis.canon; a patch's `polity:cuba` is `polity:cu`), its words still support its tag
+    (nation_words), a city that bears it is still the nation's (Singapore: STYLE 1), and its page's old address
+    (`places-cuba.html`) is a page that forwards to the new one (`places-cu.html`), the anchor kept (moved).
 """
 import datetime
 import html
@@ -111,7 +116,9 @@ def _cal(series):
 
 
 def _fold(p):
-    """The pages a polity's entries go on: its own, or those FOLD names."""
+    """The pages a polity's entries go on: its own, or those FOLD names (an old id read as its polity's: ruling 67)."""
+    from . import vis
+    p = vis.canon(p)
     return FOLD.get(p, (p,))
 
 
@@ -260,7 +267,7 @@ def gather(series):
     key = id(series)
     if _C.get("key") == key:
         return _C["got"]
-    from . import chron, places
+    from . import chron, places, vis
     lst = _cal(series)
     got = {}
     if lst is None:
@@ -278,7 +285,7 @@ def gather(series):
                 a[0].append(e)
                 if slug in w["there"][kind]:
                     a[1].add(e["id"])
-    taken = set(N) | set(P)
+    taken = set(N) | set(P) | {a for a, p in vis.aliases().items() if p in N}   # Singapore by its old id too
     for (kind, slug), (ents, there) in acc.items():
         if kind == "city":
             r = places.get(slug)
@@ -492,6 +499,30 @@ def pages_(series, linker, template, only=None, save=True):
             ps = parts(pl["page"]) or pl.get("planned") or [{"from": "", "page": pl["page"]}]
             yield f"{old}.html", pages.stub("Places", pl["page"], {}, old).replace(
                 pages.forward_script({}, old), threads.forward(ps, old))
+    taken = {p["page"] for p in got.values()} | live
+    for old, pl in moved(got).items():               # a nation's page under its old id (STYLE 10)
+        if old in taken or (only and pl["page"][len(PAGE):] not in only):
+            continue
+        ps = parts(pl["page"]) or pl.get("planned") or [{"from": "", "page": pl["page"]}]
+        lead = MOVED_LEAD.format(page=pl["page"], name=esc(pl["name"]))
+        yield f"{old}.html", pages.stub("Places", pl["page"], {}, old, lead=lead).replace(
+            pages.forward_script({}, old), threads.forward(ps, old))
+
+
+MOVED_LEAD = ('The page of {name} is now at <a href="{page}.html">{page}.html</a>, under the nation\'s code. This '
+              'address forwards to it.')
+
+
+def moved(got):
+    """{old page: place}: each nation's page under each of its polity's old ids (sources/polities.yaml `aliases`;
+    ruling 67), so that a link to `places-cuba.html` goes on to `places-cu.html`, its anchor kept."""
+    from . import vis
+    out = {}
+    for a, p in vis.aliases().items():
+        pl = got.get(("nation", p))
+        if pl:
+            out[page_of(a)] = pl
+    return out
 
 
 def retired_of(got, old):
@@ -712,26 +743,34 @@ def _alts(forms):
     return "|".join(sorted(set(out), key=len, reverse=True))
 
 
+WRITTEN_CODES = {"US", "UK", "FR", "NZ"}   # the two-letter codes the register had before ruling 67, read as words
+
+
 def nation_words(pid):
     """The pattern of the words a line writes for a polity (STYLE 8): its register name, its name without its gloss,
-    its key's words and its code (of five letters or fewer), each with an adjective's suffix and, past four letters,
-    without its last vowel (Bulgaria, Bulgarian); and NATION_WORDS."""
+    its key's and its old ids' words (ruling 67: `cu`, once `cuba`) and its code and old codes (of three to five
+    letters, or WRITTEN_CODES: a new two-letter code, IN, IS, NO, IT, is a common word in capitals), each with an
+    adjective's suffix and, past four letters, without its last vowel (Bulgaria, Bulgarian); and NATION_WORDS."""
     from . import vis
     reg = vis.polities()["polities"]
+    pid = vis.canon(pid)
     key = ("words", pid, id(reg))
     if key not in _C:
         v = reg.get(pid) or {}
+        old = [a for a, p in vis.aliases().items() if p == pid]
         forms = set(NATION_WORDS.get(pid, []))
         name = str(v.get("name") or pid)
-        for f in {name, short_name(name), re.sub(r"\s*\(.*\)", "", name), pid.replace("-", " ")}:
+        for f in {name, short_name(name), re.sub(r"\s*\(.*\)", "", name), pid.replace("-", " ")} | \
+                {a.replace("-", " ") for a in old}:
             f = f.strip()
             if len(f) < 3:
                 continue
             forms.add(f.lower())
             if f[-1] in "aeiouy" and len(f) >= 5:
                 forms.add(f[:-1].lower())
-        if v.get("tag") and len(str(v["tag"])) <= 5:
-            forms.add(str(v["tag"]).upper())
+        for code in [str(v.get("tag") or "")] + [a.upper() for a in old]:
+            if 3 <= len(code) <= 5 or code in WRITTEN_CODES:
+                forms.add(code.upper())
         _C[key] = re.compile(_WORD.format(_alts(forms)))
     return _C[key]
 
@@ -753,6 +792,7 @@ def tag_name(tag):
     from . import congress, vis, vnmap
     ns, _, k = str(tag).partition(":")
     if ns == "polity":
+        k = vis.canon(k)                         # an old id names its polity (ruling 67)
         v = vis.polities()["polities"].get(k)
         return str(v.get("name") or k) + (" (an organization)" if v.get("org") else "") if isinstance(v, dict) else None
     if ns == "state":
@@ -796,7 +836,7 @@ def tag_errors(e):
             fix = k.lower() if k.upper() in sources.STATES else (st_keys.get(k.lower()) or "").lower()
             out.append(f"{g}: not a State's postal code in lower case (state:al; state:dc for D.C.)"
                        + (f"; write state:{fix}" if fix else ""))
-        elif ns == "polity" and reg and k not in reg:
+        elif ns == "polity" and reg and vis.canon(k) not in reg:
             by_tag = {str((v or {}).get("tag") or "").lower(): p for p, v in reg.items()}
             near = by_tag.get(k.lower()) or next(iter(difflib.get_close_matches(k, list(reg), n=1, cutoff=0.75)), None)
             out.append(f"{g}: no such polity in sources/polities.yaml"
@@ -805,7 +845,8 @@ def tag_errors(e):
 
 
 def _nations_of_row(r):
-    return set(_row_polities(r)) | {str(p) for p in store.as_list(r.get("in")) if p and p != "?"}
+    from . import vis
+    return set(_row_polities(r)) | {vis.canon(p) for p in store.as_list(r.get("in")) if p and p != "?"}
 
 
 def support(lst, e, named=True):
@@ -844,7 +885,7 @@ def support(lst, e, named=True):
         elif ns == "vis":
             m = vis.RULE_RX.match(g)
             if m:
-                nations |= set(m.group(2).split("+"))
+                nations |= {vis.canon(p) for p in m.group(2).split("+")}
     for slug in [e.get("thread")] + store.as_list(e.get("also")):
         if not slug:
             continue
@@ -920,10 +961,13 @@ def _supported(ns, k, sup, text, rows):
 def _tag_findings(lst, e, tags, reg, places):
     rows = [r for r in (places.get(k) for k in places.keys(e)) if r is not None]
     sup, text, out = None, None, []
+    from . import vis
     for g in tags:
         ns, _, k = g.partition(":")
         if ns not in TAG_RULES or f"ok:{TAG_RULES[ns]}" in tags:
             continue
+        if ns == "polity":
+            k = vis.canon(k)                      # an old id is its polity's (ruling 67)
         if ns == "polity" and (k not in reg or (reg.get(k) or {}).get("org")):
             continue                              # an unknown polity is an error (tag_errors); an organization no nation
         if ns != "polity" and not rows:

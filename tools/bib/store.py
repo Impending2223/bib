@@ -302,9 +302,21 @@ def as_list(v):
     return v if isinstance(v, list) else [v]
 
 
-def normalize_entry(e, marks=False):
+def polity_canon():
+    """A function: a tag -> the tag in the polity register's own ids (vis.tag_canon: `polity:frg` -> `polity:de`, ruling
+    67), or None where the register has no old ids to read (sources/polities.yaml's `aliases`; a tree without it)."""
+    try:
+        from . import vis
+        return vis.tag_canon()
+    except Exception:                       # the register unreadable here (bad YAML): the tags as they are; check and
+        return None                         # the visibility pass say why
+
+
+def normalize_entry(e, marks=False, canon=False):
     """Coerce hand-edited values into the canonical shape and order. `marks`: the entry is in its stored form, on its
-    way to the file, and a calendar line's cut marks stay in it (tools/bib/cuts.py, STYLE 5)."""
+    way to the file, and a calendar line's cut marks stay in it (tools/bib/cuts.py, STYLE 5). A place tag or a `vis:`
+    ruling that names a polity by an old id is written with its new one (polity_canon; `canon`: that function, given
+    by a caller that normalizes many entries at once, or None for none)."""
     if "date" in e and isinstance(e["date"], (datetime.date, datetime.datetime)):
         e["date"] = e["date"].isoformat()
     if "date" in e and isinstance(e["date"], int) and not isinstance(e["date"], bool):
@@ -314,6 +326,10 @@ def normalize_entry(e, marks=False):
             e[k] = [str(x) for x in as_list(e[k])]
             if not e[k]:
                 del e[k]
+    if e.get("tags") and any(t.startswith(("polity:", "vis:")) for t in e["tags"]):
+        f = polity_canon() if canon is False else canon
+        if f is not None:
+            e["tags"] = list(dict.fromkeys(f(t) for t in e["tags"]))
     for k in ("c", "work"):
         if isinstance(e.get(k), list) and len(e[k]) == 1:
             e[k] = e[k][0]
@@ -446,6 +462,7 @@ class Series:
         self.root = root
         self.data = load_yaml(os.path.join(root, "series.yaml"))
         self.lists = {}
+        canon = polity_canon()         # the polity register's old ids, read once for the whole load (ruling 67)
         for meta in self.data["lists"]:
             key = meta["key"]
             path = os.path.join(root, "lists", key, "list.yaml")
@@ -456,7 +473,7 @@ class Series:
                 if s.file:
                     fp = os.path.join(root, "lists", key, s.file)
                     doc = load_yaml(fp) or {}
-                    s.entries = [normalize_entry(e) for e in (doc.get("entries") or [])]
+                    s.entries = [normalize_entry(e, canon=canon) for e in (doc.get("entries") or [])]
                     # the file as loaded (its digest, its parse): save_section merges a change made on disk meanwhile
                     s._disk = _PARSED.get(fp)
             self.lists[key] = lst

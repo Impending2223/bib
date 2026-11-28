@@ -184,6 +184,8 @@ def register_problems(series):
     from . import cjk
     pf = os.path.join(store.ROOT, "sources", "polities.yaml")
     pols = ((store.load_yaml(pf) or {}).get("polities") or {}) if os.path.exists(pf) else {}
+    pols = set(pols) | {str(a) for v in pols.values() if isinstance(v, dict)      # an old id too (ruling 67)
+                        for a in store.as_list(v.get("aliases"))}
     shown = {}
     for k, r in rows.items():
         if not isinstance(r, dict) or not isinstance(r.get("name"), str) or not r["name"].strip():
