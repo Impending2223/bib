@@ -500,16 +500,18 @@ ops:
     - Rostow
     - Katzenbach
     - Clifford
-- add-words:
+- edit:
     id: cal.1968-04-04.democratic-party
-    after: end
-    words: Humphrey, at the head table, is handed a note that King has been shot and a second that he has died; he writes a brief eulogy, delivers it, and announces that the dinner is over.
-    item: '[[w.humphrey-education-of-a-public-1976]], 361–62'
-- add-words:
-    id: cal.1968-04-04.democratic-party
-    after: end
-    words: The Johnsons were to attend, she in evening dress; Johnson cancels his plans for the evening and postpones the trip to Hawaii.
-    item: '[[w.johnson-white-house-diary]], 647–48 (Apr. 4: "a Democratic Fund Raising Dinner this evening"; the Johnsons were to go, she in evening dress; "the Democratic Dinner, which was already in progress" when word came; Johnson "canceled my plans for the evening"; the diary says nothing of Humphrey or his eulogy)'
+    base: 0d203e30
+    set:
+      c: Washington, the Democratic congressional campaign committees' fund-raising dinner, in progress when word comes that King has been shot.{1} Humphrey, at the head table, is handed a note that King has been shot and a second that he has died; he writes a brief eulogy, delivers it, and announces that the dinner is over.{2} The Johnsons were to attend, she in evening dress; Johnson cancels his plans for the evening and postpones the trip to Hawaii.{3}
+      src:
+        c: a2e5a100
+        rows:
+        - 'https://catalog.archives.gov/id/192476: ?'
+        - 'w.humphrey-education-of-a-public-1976 361–62: 1, 2'
+        - 'w.solberg-hubert-humphrey 326: 1'
+        - 'w.johnson-white-house-diary 647–48: 1, 3'
 - names:
     id: cal.1968-04-04.democratic-party
     tags:
@@ -552,11 +554,9 @@ ops:
     id: cal.1968-04-10.transition-and-staff
     tags:
     - 'name:kennedy-robert-f'
-    - 'name:krim-arthur-b'
     - 'ok:note-substance'
     add:
-    - Kennedy
-    - Krim
+    - Robert Kennedy
 - add-words:
     id: cal.1968-04-11.open-housing
     after: end
@@ -567,3 +567,62 @@ ops:
     tags:
     - 'ok:note-substance'
     add: []
+- add-words:
+    id: cal.1968-04-18.elections-1968-2
+    after: end
+    words: 'Lindsay, after reading an advance copy: "another Emmet Hughes peroration." Hugh Morrow: the biggest bomb since Hiroshima.'
+    item: '[[w.smith-on-his-own-terms]], 528 (Lindsay on the advance text: "another Emmet Hughes peroration"; Morrow: the biggest bomb since Hiroshima)'
+- names:
+    id: cal.1968-04-18.elections-1968-2
+    tags:
+    - 'name:lindsay-john-v'
+    - 'name:hughes-emmet-john'
+    - 'ok:note-substance'
+    add:
+    - Lindsay
+    - Hughes
+- add-words:
+    id: cal.1968-04-23.elections-1968
+    after: end
+    words: 'Write-ins for Humphrey or Johnson: 73,263. The 130 convention votes are spread among 160 delegates, 52 named by the state committee, whose bosses are for Johnson.'
+    item: '[[w.chester-american-melodrama]], 153–54 (McCarthy 428,259; Kennedy 65,430 write-ins; Humphrey or Johnson 73,263; the delegation, Humphrey''s 135 of 160 seats)'
+- names:
+    id: cal.1968-04-23.elections-1968
+    tags:
+    - 'name:humphrey-hubert-h'
+    - 'name:johnson-lyndon-b'
+    - 'ok:note-substance'
+    add:
+    - Humphrey
+    - Johnson
+- names:
+    id: cal.1968-04-26.robert-kennedy
+    tags:
+    - 'ok:note-substance'
+    add: []
+- add-words:
+    id: cal.1968-05-28.robert-kennedy-campaign-primaries-2
+    after: end
+    words: 'Before takeoff, shortly before 8:30, Dick Dougherty of the Los Angeles Times meets Kennedy on the stairway: "Bad news, Bob." Kennedy: "Oh. That''s too bad." He goes back into the plane.'
+    item: '[[w.witcover-85-days]], 220–21 (Oregon''s primary day in the Santa Barbara–Ventura area; a CBS sampling of 400 key precincts late in the day; shortly before 8:30, at the plane''s stairway, Dougherty of the *Los Angeles Times*: "Bad news, Bob"; Kennedy: "Oh. That''s too bad." On the flight back to Oregon, to a reporter: "I''ve lost. I''m not one of those who think that coming in second or third is winning"; Humphrey, not McCarthy, the big gainer; "I think what he [McCarthy] wanted most was to knock me off. I guess he may hate me that much"; "They will use Oregon as an excuse for not supporting me"; Dutton writes the telegram of congratulation to McCarthy, at Kennedy''s insistence; not Goodwin, the silence or "We frightened them")'
+- add-words:
+    id: cal.1968-05-28.robert-kennedy-campaign-primaries-2
+    after: end
+    words: 'On the flight, collar open, he tells a reporter: "I''ve lost. I''m not one of those who think that coming in second or third is winning." Humphrey, not McCarthy, was the big gainer; of McCarthy: "I guess he may hate me that much." "They will use Oregon as an excuse for not supporting me."'
+    item: '[[w.witcover-85-days]], 220–21 (Oregon''s primary day in the Santa Barbara–Ventura area; a CBS sampling of 400 key precincts late in the day; shortly before 8:30, at the plane''s stairway, Dougherty of the *Los Angeles Times*: "Bad news, Bob"; Kennedy: "Oh. That''s too bad." On the flight back to Oregon, to a reporter: "I''ve lost. I''m not one of those who think that coming in second or third is winning"; Humphrey, not McCarthy, the big gainer; "I think what he [McCarthy] wanted most was to knock me off. I guess he may hate me that much"; "They will use Oregon as an excuse for not supporting me"; Dutton writes the telegram of congratulation to McCarthy, at Kennedy''s insistence; not Goodwin, the silence or "We frightened them")'
+- add-words:
+    id: cal.1968-05-28.robert-kennedy-campaign-primaries-2
+    after: end
+    words: Dutton writes out a telegram of congratulation to McCarthy; Kennedy had insisted on it.
+    item: '[[w.witcover-85-days]], 220–21 (Oregon''s primary day in the Santa Barbara–Ventura area; a CBS sampling of 400 key precincts late in the day; shortly before 8:30, at the plane''s stairway, Dougherty of the *Los Angeles Times*: "Bad news, Bob"; Kennedy: "Oh. That''s too bad." On the flight back to Oregon, to a reporter: "I''ve lost. I''m not one of those who think that coming in second or third is winning"; Humphrey, not McCarthy, the big gainer; "I think what he [McCarthy] wanted most was to knock me off. I guess he may hate me that much"; "They will use Oregon as an excuse for not supporting me"; Dutton writes the telegram of congratulation to McCarthy, at Kennedy''s insistence; not Goodwin, the silence or "We frightened them")'
+- names:
+    id: cal.1968-05-28.robert-kennedy-campaign-primaries-2
+    tags:
+    - 'name:humphrey-hubert-h'
+    - 'name:dutton-frederick-g'
+    - 'name:mccarthy-eugene-j'
+    - 'ok:note-substance'
+    add:
+    - Humphrey
+    - Dutton
+    - McCarthy

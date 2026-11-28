@@ -91,7 +91,7 @@ ops:
     id: cal.1960-08-25.congo
     after: end
     words: 'Present: Merchant, Gray, Irwin, Dulles. Parrott outlines three lines of the campaign against Lumumba; Dulles replies he will proceed as vigorously as the situation permits or requires.'
-    item: '[FRUS 1964–68, XXIII, doc. 12](https://history.state.gov/historicaldocuments/frus1964-68v23/d12)'
+    text: '[FRUS 1964–68, XXIII, doc. 12](https://history.state.gov/historicaldocuments/frus1964-68v23/d12)'
 - names:
     id: cal.1960-08-25.congo
     add:
@@ -145,11 +145,20 @@ ops:
     add: []
     tags:
     - ok:note-substance
-- add-words:
+- edit:
     id: cal.1963-06-25.republican-party
-    after: A session of twenty-two hours.
-    words: 'The chairmanship: Lukens, Goldwater''s candidate, is declared elected over McDevitt.'
-    item: '[[w.kabaservice-rule-and-ruin]], 65; [[w.white-suite-3505]], 171'
+    base: '84117949'
+    set:
+      c: 'San Francisco, the Young Republican National Federation''s convention.{1} A session of twenty-two hours.{3} Its platform: the federal income tax abolished, the United States out of the United Nations, a "Court of the Union" over the Supreme Court, segregation kept.{6} The chairmanship: Lukens, Goldwater''s candidate, is declared elected over McDevitt.{7}'
+    kind: reword
+- cite:
+    id: cal.1963-06-25.republican-party
+    item: '[[w.kabaservice-rule-and-ruin]], 65'
+    'on': 'The chairmanship: Lukens, Goldwater''s candidate, is declared elected over McDevitt.'
+- cite:
+    id: cal.1963-06-25.republican-party
+    item: '[[w.white-suite-3505]], 171'
+    'on': 'The chairmanship: Lukens, Goldwater''s candidate, is declared elected over McDevitt.'
 - names:
     id: cal.1963-06-25.republican-party
     add:
@@ -211,7 +220,7 @@ ops:
     id: cal.1967-05-23.middle-east-six-day-war
     after: end
     words: Rusk gives the account to George Thomson, the British Minister of State, at the State Department, May 24, 11 to 11:40 a.m.
-    item: '[FRUS 1964–68, XIX, doc. 53](https://history.state.gov/historicaldocuments/frus1964-68v19/d53)'
+    text: '[FRUS 1964–68, XIX, doc. 53](https://history.state.gov/historicaldocuments/frus1964-68v19/d53)'
 - names:
     id: cal.1967-05-23.middle-east-six-day-war
     add:
@@ -237,12 +246,12 @@ ops:
     id: cal.1963-06-19.civil-rights-bill-3
     after: end
     words: S. 1731 goes to the Judiciary Committee, S. 1732 to Commerce. Mansfield says a third bill, with Dirksen and without the public accommodations title, will follow that afternoon.
-    item: '[109 Cong. Rec. 11,076–77 (1963)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt8/pdf/GPO-CRECB-1963-pt8-13-1.pdf#page=3)'
+    text: '[109 Cong. Rec. 11,076–77 (1963)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt8/pdf/GPO-CRECB-1963-pt8-13-1.pdf#page=3)'
 - add-words:
     id: cal.1963-06-19.civil-rights-bill-3
     after: end
     words: 'Dirksen, answering, goes through the eight titles of "the package bill" and says he could not accept the public accommodations title as first drafted: unenforceable, he thinks, and an invasion of private right.'
-    item: '[109 Cong. Rec. 11,077 (1963)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt8/pdf/GPO-CRECB-1963-pt8-13-1.pdf#page=3)'
+    text: '[109 Cong. Rec. 11,077 (1963)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt8/pdf/GPO-CRECB-1963-pt8-13-1.pdf#page=3)'
 - names:
     id: cal.1963-06-19.civil-rights-bill-3
     add:
@@ -258,7 +267,7 @@ ops:
     id: cal.1964-05-21.vietnam-congress
     after: end
     words: 'Stafford (R-Vt.), May 18: time to decide "whether we want to win, or get out in Vietnam." Shriver (R-Kan.) and Alger (R-Tex.), May 19: a "no win" policy; money alone cannot win a war.'
-    item: '[110 Cong. Rec. 11116, 11397–98, 11402–03](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt9/pdf/GPO-CRECB-1964-pt9-1-2.pdf#page=72) (1964)'
+    text: '[110 Cong. Rec. 11116, 11397–98, 11402–03](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt9/pdf/GPO-CRECB-1964-pt9-1-2.pdf#page=72) (1964)'
 - names:
     id: cal.1964-05-21.vietnam-congress
     add:
@@ -345,7 +354,11 @@ ops:
     id: cal.1965-02-17.vietnam-4
     after: end
     words: Thomas L. Hughes, of State's Bureau of Intelligence and Research, drafted it on the flight back from Georgia, Feb. 15. Moyers says Humphrey gave him a copy that he passed to Johnson.
-    item: '[[w.gibbons-u-s-government-and]], III, 92; [FRUS 1964–68, II, doc. 134](https://history.state.gov/historicaldocuments/frus1964-68v02/d134) (source note)'
+    item: '[[w.gibbons-u-s-government-and]], III, 92'
+- primary:
+    id: cal.1965-02-17.vietnam-4
+    text: '[FRUS 1964–68, II, doc. 134](https://history.state.gov/historicaldocuments/frus1964-68v02/d134) (source note)'
+    'on': Thomas L. Hughes, of State's Bureau of Intelligence and Research, drafted it on the flight back from Georgia, Feb. 15. Moyers says Humphrey gave him a copy that he passed to Johnson.
 - names:
     id: cal.1965-02-17.vietnam-4
     add:
@@ -363,12 +376,20 @@ ops:
     id: cal.1965-02-18.voting-rights
     after: the street lights go out, and state troopers and local police beat the marchers back.
     words: C. T. Vivian, out of jail that day, has called the march. Police Chief T. O. Harris declares an unlawful assembly; Colonel Al Lingo and fifty troopers wade in with nightsticks.
-    item: '[[w.kotz-judgment-days]], 275; [[w.bernstein-guns-or-butter]], 221–22'
+    item: '[[w.kotz-judgment-days]], 275'
+- cite:
+    id: cal.1965-02-18.voting-rights
+    item: '[[w.bernstein-guns-or-butter]], 221–22'
+    'on': C. T. Vivian, out of jail that day, has called the march. Police Chief T. O. Harris declares an unlawful assembly; Colonel Al Lingo and fifty troopers wade in with nightsticks.
 - add-words:
     id: cal.1965-02-18.voting-rights
     after: end
     words: 'Pete Fisher of UPI is clubbed and Richard Valeriani of NBC takes six stitches. Sheriff Jim Clark, among the troopers in sports clothes with a nightstick, asked why: "Things got a little too quiet for me over in Selma tonight."'
-    item: '[[w.kotz-judgment-days]], 276; [[w.bernstein-guns-or-butter]], 222'
+    item: '[[w.kotz-judgment-days]], 276'
+- cite:
+    id: cal.1965-02-18.voting-rights
+    item: '[[w.bernstein-guns-or-butter]], 222'
+    'on': 'Pete Fisher of UPI is clubbed and Richard Valeriani of NBC takes six stitches. Sheriff Jim Clark, among the troopers in sports clothes with a nightstick, asked why: "Things got a little too quiet for me over in Selma tonight."'
 - names:
     id: cal.1965-02-18.voting-rights
     add:
@@ -386,7 +407,11 @@ ops:
     id: cal.1965-02-19.vietnam
     after: end
     words: Styling themselves the "force to protect the nation," they surround Khánh's headquarters and take the radio station, the post office and Tân Sơn Nhứt airport, Phát's tanks blocking the runways; Khánh flies to Vũng Tàu.
-    item: '[[w.lich-su-khang-chien-chong-my]], III, 395; [[w.westmoreland-soldier-reports]], 96'
+    item: '[[w.lich-su-khang-chien-chong-my]], III, 395'
+- cite:
+    id: cal.1965-02-19.vietnam
+    item: '[[w.westmoreland-soldier-reports]], 96'
+    'on': Styling themselves the "force to protect the nation," they surround Khánh's headquarters and take the radio station, the post office and Tân Sơn Nhứt airport, Phát's tanks blocking the runways; Khánh flies to Vũng Tàu.
 - add-words:
     id: cal.1965-02-19.vietnam
     after: end
@@ -411,7 +436,7 @@ ops:
     id: cal.1965-03-08.voting-rights
     after: end
     words: 'He calls it "the Alabama tragedy": the events will hurt the country more than losing two battles in Vietnam; "I abhor this brutality which so smears the good name of one of the fairest sections of our land."'
-    item: '[111 Cong. Rec. 4335 (1965)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-2-1.pdf#page=64)'
+    text: '[111 Cong. Rec. 4335 (1965)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-2-1.pdf#page=64)'
 - add-words:
     id: cal.1965-03-08.voting-rights
     after: end
@@ -495,9 +520,13 @@ ops:
     - ok:note-substance
 - add-words:
     id: cal.1965-04-17.students
-    after: '"We must name that system."'
+    after: end
     words: 'Robert Moses, as Robert Parris, to the crowd at the Monument: "Use Mississippi not as a moral lightning rod, but if you use it at all, use it as your looking glass." I. F. Stone also speaks.'
-    item: '[[w.branch-pillar-of-fire]], 611; [[w.bernstein-guns-or-butter]], 381'
+    item: '[[w.branch-pillar-of-fire]], 611'
+- cite:
+    id: cal.1965-04-17.students
+    item: '[[w.bernstein-guns-or-butter]], 381'
+    'on': 'Robert Moses, as Robert Parris, to the crowd at the Monument: "Use Mississippi not as a moral lightning rod, but if you use it at all, use it as your looking glass." I. F. Stone also speaks.'
 - add-words:
     id: cal.1965-04-17.students
     after: end
@@ -541,7 +570,7 @@ ops:
     id: cal.1965-04-28.latin-america
     after: end
     words: 'Ambassador Bennett''s Critic 5, 2040Z: Police Chief Despradel can no longer continue; Benoit of the junta has formally asked for U.S. troops; the Country Team is unanimous that "time has come to land the Marines. American lives are in danger." Bennett recommends an immediate landing, a beachhead near the Hotel Embajador centered on the polo field, and a detachment for the embassy grounds.'
-    item: '[FRUS 1964–68, XXXII, doc. 32](https://history.state.gov/historicaldocuments/frus1964-68v32/d32)'
+    text: '[FRUS 1964–68, XXXII, doc. 32](https://history.state.gov/historicaldocuments/frus1964-68v32/d32)'
 - names:
     id: cal.1965-04-28.latin-america
     add:
@@ -590,8 +619,13 @@ ops:
 - add-words:
     id: cal.1965-06-27.vietnam-operations
     after: end
-    words: Over 25 Viet Cong killed; 200 tons of food and supplies destroyed and some 50 tons of rice recovered for distribution by South Vietnamese authorities. By MACV's history, the first time in over a year that friendly forces have entered the base area.
+    words: Over 25 Viet Cong are killed, 200 tons of food and supplies destroyed and some 50 tons of rice recovered for distribution by South Vietnamese authorities.
     item: '[[w.macv-command-history-1965]], 166–67'
+- add-words:
+    id: cal.1965-06-27.vietnam-operations
+    after: end
+    words: By MACV's history, it is the first time in over a year that friendly forces have entered the base area.
+    item: '[[w.macv-command-history-1965]], 166'
 - names:
     id: cal.1965-06-27.vietnam-operations
     add: []
@@ -642,7 +676,11 @@ ops:
     id: cal.1965-07-25.vietnam
     after: end
     words: 'At five, at Aspen Lodge: Johnson with McNamara, Clifford and Goldberg, Valenti taking notes. Johnson raises taking Vietnam to the United Nations; Clifford dismisses it, and urges that Vietnam be underplayed until January: "I hate this war. I do not believe we can win."'
-    item: '[[w.clifford-counsel-to-the-president-2]], 418–20; [[w.califano-triumph-and-tragedy-of]], 39'
+    item: '[[w.clifford-counsel-to-the-president-2]], 418–20'
+- cite:
+    id: cal.1965-07-25.vietnam
+    item: '[[w.califano-triumph-and-tragedy-of]], 39'
+    'on': 'At five, at Aspen Lodge: Johnson with McNamara, Clifford and Goldberg, Valenti taking notes. Johnson raises taking Vietnam to the United Nations; Clifford dismisses it, and urges that Vietnam be underplayed until January: "I hate this war. I do not believe we can win."'
 - names:
     id: cal.1965-07-25.vietnam
     add:
@@ -683,7 +721,11 @@ ops:
     id: cal.1965-07-30.medicare
     after: end
     words: 'Truman, who proposed national health insurance in 1948: "I am glad to have lived this long and to witness today the signing of the Medicare bill." Johnson, to Truman: "perhaps you alone can fully know just how grateful I am for this day." He hands Truman a pen and an application form, the first enrollment; more than 19 million are eligible.'
-    item: '[[w.kotz-judgment-days]], 332–33; [[w.califano-triumph-and-tragedy-of]], 51'
+    item: '[[w.kotz-judgment-days]], 332–33'
+- cite:
+    id: cal.1965-07-30.medicare
+    item: '[[w.califano-triumph-and-tragedy-of]], 51'
+    'on': 'Truman, who proposed national health insurance in 1948: "I am glad to have lived this long and to witness today the signing of the Medicare bill." Johnson, to Truman: "perhaps you alone can fully know just how grateful I am for this day." He hands Truman a pen and an application form, the first enrollment; more than 19 million are eligible.'
 - names:
     id: cal.1965-07-30.medicare
     add: []
@@ -713,7 +755,11 @@ ops:
     id: cal.1965-08-18.civil-disorders-watts
     after: end
     words: 'Andrew Young is with him. He talks with Otis Chandler, publisher of the *Los Angeles Times*. To Rustin that night: "I worked to get these people the right to eat hamburgers, and now I''ve got to do something ... to help them get the money to buy it."'
-    item: '[[w.kotz-judgment-days]], 342–43; [[w.bernstein-guns-or-butter]], 389'
+    item: '[[w.kotz-judgment-days]], 342–43'
+- cite:
+    id: cal.1965-08-18.civil-disorders-watts
+    item: '[[w.bernstein-guns-or-butter]], 389'
+    'on': 'Andrew Young is with him. He talks with Otis Chandler, publisher of the *Los Angeles Times*. To Rustin that night: "I worked to get these people the right to eat hamburgers, and now I''ve got to do something ... to help them get the money to buy it."'
 - names:
     id: cal.1965-08-18.civil-disorders-watts
     add:
@@ -877,7 +923,7 @@ ops:
     id: cal.1965-12-02.vietnam-pause
     after: end
     words: 'Bundy writes after an hour that afternoon with Moyers and Califano. The decisions fall in four groups: proof of the effort for peace, "a solid base for the chosen level of later military action," consensus on the budget, and balancing Westmoreland''s effort by action on the political, social and economic front. On a bombing pause, Califano and Moyers would keep it very brief; Bundy shares McNamara''s feeling for three to four weeks, hard-nosed, since the bombing will probably have to be intensified in 1966.'
-    item: '[FRUS 1964–68, III, doc. 213](https://history.state.gov/historicaldocuments/frus1964-68v03/d213)'
+    text: '[FRUS 1964–68, III, doc. 213](https://history.state.gov/historicaldocuments/frus1964-68v03/d213)'
 - names:
     id: cal.1965-12-02.vietnam-pause
     add:
@@ -888,6 +934,143 @@ ops:
     - name:califano-joseph-a-jr
 - names:
     id: cal.1965-12-02.vietnam-pause
+    add: []
+    tags:
+    - ok:note-substance
+- add-words:
+    id: cal.1965-12-15.vietnam
+    after: end
+    words: 'Ninety Air Force aircraft, twenty-three F-105s on the strike; the weather forces all but seven to jettison their bombs, and the rest drop fourteen 3,000-pound bombs on a corner of the plant and 304 rockets on a nearby antiaircraft site. One F-105 is downed, five damaged. McNamara: "I would not characterize it as retaliatory, but I think it is appropriate to the increased terror activity." Post-strike data show most of the plant unhit.'
+    item: '[[w.staaveren-gradual-failure]], 203–04'
+- names:
+    id: cal.1965-12-15.vietnam
+    add:
+    - McNamara
+    tags:
+    - name:mcnamara-robert-s
+- names:
+    id: cal.1965-12-15.vietnam
+    add: []
+    tags:
+    - ok:note-substance
+- add-words:
+    id: cal.1965-12-17.economy
+    after: Ackley leans the same way.
+    words: 'Johnson had asked whether a budget of $115 billion or $110 billion would need a tax increase; Ackley, Dec. 17: $115 billion would require a "significant tax increase," $110 billion would "probably call for one."'
+    item: '[[w.bernstein-guns-or-butter]], 365'
+- add-words:
+    id: cal.1965-12-17.economy
+    after: end
+    words: His memorandum of that day asks for "a significant tax increase ... to prevent an intolerable degree of inflationary pressure."
+    item: '[[w.graham-uncertain-triumph]], 251 n.11'
+- names:
+    id: cal.1965-12-17.economy
+    add: []
+    tags:
+    - ok:note-substance
+- names:
+    id: cal.1965-12-29.vietnam-pause
+    add: []
+    tags:
+    - ok:note-substance
+- add-words:
+    id: cal.1965-12.china-leadership-3
+    after: end
+    words: 'Peng tells Zhang: Wu Han 吴晗 was a leftist in the democratic revolution and in the anti-rightist struggle, and since Yao Wenyuan''s article has written a self-examination for publication; Deng Tuo 邓拓 is a leftist, and his article as Xiang Yangsheng was discussed by the Peking municipal Secretariat.'
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 456'
+- add-words:
+    id: cal.1965-12.china-leadership-3
+    after: end
+    words: 'Told that the Shanghai committee published Yao''s article on Mao''s instruction, Peng gives no view; Yao''s article too, he says, must be "divided in two" (一分为二); the Shanghai papers should have put the *Beijing Daily*''s note first, not the *Liberation Army Daily*''s. Of Deng Tuo''s Xiang Yangsheng article: "I told him to write it that way."'
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 119'
+- names:
+    id: cal.1965-12.china-leadership-3
+    add:
+    - Wu Han
+    - Deng Tuo
+    tags:
+    - name:wu-han
+    - name:deng-tuo
+- names:
+    id: cal.1965-12.china-leadership-3
+    add: []
+    tags:
+    - ok:note-substance
+- add-words:
+    id: cal.1965.china-leadership-5
+    after: end
+    words: 'The 1962 errors, which he calls "so-called right errors": his estimate that grain output would need eight years to recover to 360 billion jin, and his proposal to several Standing Committee members to redivide the fields to households.'
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 150'
+- add-words:
+    id: cal.1965.china-leadership-5
+    after: end
+    words: 'With it a report on his illness: he eats normally and weighs 54 kilograms, walks 6,500 meters a day, but the dizziness is not gone, he cannot ride in cars or trains, and he feels the cold. Mao, after reading, sends it to the Standing Committee''s members.'
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 150'
+- names:
+    id: cal.1965.china-leadership-5
+    add: []
+    tags:
+    - ok:note-substance
+- add-words:
+    id: cal.1966-01-06.china-leadership
+    after: end
+    words: The draft came with a letter of Jan. 3 from Kang Sheng 康生 and Wu Lengxi 吴冷西; the reply says the editorial exposed the "united action" as a swindle and raised a series of major questions of principle. Mao writes at 11 a.m.
+    item: '[[w.jianguo-yilai-mao-zedong]], XVIII, 199'
+- names:
+    id: cal.1966-01-06.china-leadership
+    add:
+    - Kang Sheng
+    - Wu Lengxi
+    tags:
+    - name:kang-sheng
+    - name:wu-lengxi
+- edit:
+    id: cal.1966-01-06.china-leadership
+    base: f7f0e983
+    set:
+      time: 1966-01-06T03:00Z
+      time_zone: Asia/Shanghai
+- names:
+    id: cal.1966-01-06.china-leadership
+    add: []
+    tags:
+    - ok:note-substance
+- add-words:
+    id: cal.1966-01-26.open-housing
+    after: end
+    words: He is to live there several days a week. King vows "the unconditional surrender of forces dedicated to the creation and maintenance of slums"; "Our work will be aimed at Washington," for an open housing law and larger antipoverty appropriations.
+    item: '[[w.kotz-judgment-days]], 363'
+- add-words:
+    id: cal.1966-01-26.open-housing
+    after: end
+    words: Rent $90 a month, a cold apartment; when the landlord learned who the tenant was, repairmen came to fix it up.
+    item: '[[w.bernstein-guns-or-butter]], 397'
+- check:
+    id: cal.1966-01-26.open-housing
+    text: 'Check: Young, 387, has the rent about $150 a month, with leased furniture, and the flat hardly used by King.'
+- names:
+    id: cal.1966-01-26.open-housing
+    add: []
+    tags:
+    - ok:note-substance
+- add-words:
+    id: cal.1966-02-12.china-leadership-2
+    after: end
+    words: 'It goes out over Deng Xiaoping''s 邓小平 signature as a Central Committee document, with the Center''s preface: "The Center agrees to the Cultural Revolution Five-Man Group''s outline report on the current academic discussion."'
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 123'
+- add-words:
+    id: cal.1966-02-12.china-leadership-2
+    after: end
+    words: It goes to the regional bureaus, the Party committees of the provinces, cities and autonomous regions, the central departments, the Party groups of State organs and the General Political Department, "to be carried out accordingly"; its content is to be relayed to those directing and doing academic work and discussed, with Mao's speech of March 1957 to the propaganda conference as the study document.
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 469'
+- names:
+    id: cal.1966-02-12.china-leadership-2
+    add:
+    - Deng Xiaoping
+    tags:
+    - name:deng-xiaoping
+- names:
+    id: cal.1966-02-12.china-leadership-2
     add: []
     tags:
     - ok:note-substance
