@@ -3244,11 +3244,26 @@ entries:
   - id: cal.1967-07-19.china-leadership
     when: July 19
     date: '1967-07-19'
+    place: peking
     thread: china-wuhan
     also: [china-zhou-cr]
     c: Zhou Enlai, in the evening, talks with the Hunan leaders and then receives the delegates of Hunan's two factions to settle the Changsha railway problem.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 167 (July 19, 1967). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-07-19T11:00Z
+      - 1967-07-19T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+    range_basis: record
+    variants:
+      - field: time
+        value:
+          - 1967-07-18T16:00Z
+          - 1967-07-18T22:00Z
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: Zhou, back in Peking late on July 18, receives the people come from Hunan before dawn on the 19th (19日淩晨) to settle the stoppage of the Hunan railway
+        at: '534'
   - id: cal.1967-07-19.china
     when: July 19
     date: '1967-07-19'
@@ -3650,6 +3665,12 @@ entries:
         - 'via w.yang-jisheng-tiandi-fanfu I, 535 n.t1: ?'
         - 'w.jian-zhou-enlai 576: ?'
     tags: [name:zhou-enlai, name:lin-biao, name:wu-faxian, polity:prc, vis:only:prc, name:chen-zaidao]
+    time_range:
+      - 1967-07-20T04:00Z
+      - 1967-07-20T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-07-20.china-leadership-3
     when: July 20–24
     date: '1967-07-20'
@@ -3665,6 +3686,12 @@ entries:
     c: Night. People sent by Qi Benyu and others, as "revolutionary masses," press Liu Shaoqi to write an examination; he refuses.
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 657 (July 20, 1967). Made public: 1996. See [[cal.1967-07-20.china-leadership-3]]. Names: Liu Shaoqi, Qi Benyu.'
     tags: [polity:prc, name:liu-shaoqi, vis:only:prc, name:qi-benyu]
+    time_range:
+      - 1967-07-20T14:00Z
+      - 1967-07-20T16:00Z
+    time_band: night
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-07-20.china-leadership-5
     when: July 20
     date: '1967-07-20'
@@ -3702,7 +3729,7 @@ entries:
     follows:
       - cal.1967-07-20.china-leadership
     c: Wuhan Military Region headquarters. Wang Li is beaten and his leg broken.
-    n: '[[w.macfarquhar-maos-last-revolution]], 212; [[w.yang-jisheng-tiandi-fanfu]], I, 532 (Wang Li is dragged into the Region''s compound between rows of men with wicker helmets and spears, beaten, his watch and pen taken; Zhong Hanhua kowtows to the crowd from the platform: Wang Li is Chairman Mao''s man; in the morning, in room 46 of Building No. 2, the division''s men and the Million Heroes question him on the "four points" and push him to the terrace of Building No. 4 to make a new statement, Niu Huailong calling for quiet "to record"); [[w.dikotter-cultural-revolution]], 150–151 n.5 (in the early hours of July 20 they drag Wang Li to the military headquarters, where a crowd beats him, tears out clumps of his hair and breaks his ankle). To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49a); [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 253–254 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 532 n.40); Yu Yan 餘言, 〈也說「七二零事件」中的「8201」〉 (2005) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 532 n.41). See [[cal.1967-07-20.china-leadership]]. Names: Wang Li.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 212; [[w.yang-jisheng-tiandi-fanfu]], I, 532 (Wang Li is dragged into the Region''s compound between rows of men with wicker helmets and spears, beaten, his watch and pen taken; Zhong Hanhua kowtows to the crowd from the platform: Wang Li is Chairman Mao''s man; in the morning, in room 46 of Building No. 2, the division''s men and the Million Heroes question him on the "four points" and push him to the terrace of Building No. 4 to make a new statement, Niu Huailong calling for quiet "to record"); [[w.dikotter-cultural-revolution]], 150–151 n.5 (in the early hours of July 20 they drag Wang Li to the military headquarters, where a crowd beats him, tears out clumps of his hair and breaks his ankle). Check: the hour. Yang (I, 531–32) has the troops burst into the guesthouse at 5:10 a.m., Wang Li carried off to a truck after Chen Zaidao is beaten about 6, then beaten at the Region''s compound and questioned that morning; Dikötter (150) has the beating "in the early hours of 20 July.". To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49a); [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 253–254 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 532 n.40); Yu Yan 餘言, 〈也說「七二零事件」中的「8201」〉 (2005) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 532 n.41). See [[cal.1967-07-20.china-leadership]]. Names: Wang Li.'
     src:
       c: 9e10f360
       rows:
@@ -3712,10 +3739,19 @@ entries:
         - 'w.dikotter-cultural-revolution 150–151 n.5: ?'
     tags: [polity:prc, name:wang-li]
     time_range:
-      - 1967-07-19T16:00Z
       - 1967-07-19T22:00Z
-    time_band: predawn
+      - 1967-07-20T04:00Z
+    time_band: morning
     time_zone: Asia/Shanghai
+    range_basis: record
+    variants:
+      - field: time
+        value:
+          - 1967-07-19T16:00Z
+          - 1967-07-19T22:00Z
+        witness: w.dikotter-cultural-revolution
+        reads: in the early hours of July 20 they drag Wang Li to the military headquarters, where a crowd beats him
+        at: '150'
   - id: cal.1967-07-20.china-leadership-8
     when: July 20
     date: '1967-07-20'
@@ -4161,6 +4197,12 @@ entries:
     c: Lin Biao presides over a full meeting of the Cultural Revolution Group, which names the Wuhan "July 20 incident" a "counter-revolutionary riot."
     n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967; [[w.zhou-enlai-nianpu-1949-2020]], III, 168 (July 22, 1967; Zhou at the full meeting of the Cultural Revolution Group under Lin Biao, who calls the July 20 incident a "counter-revolutionary riot"); [[w.macfarquhar-maos-last-revolution]], 212 (that evening, with Zhou and the Group, Lin Biao hears Xie Fuzhi''s report; the incident is called a "counterrevolutionary revolt"); [[w.teiwes-tragedy-of-lin-biao]], 84 (Lin chairs the meeting of all the Cultural Revolution Group''s members that hears Xie Fuzhi on Wuhan, calls it a "counterrevolutionary riot," and at once recalls Chen Zaidao and Zhong Hanhua to Peking); [[w.dikotter-cultural-revolution]], 150–151 n.5 (Lin Biao at once denounces the Wuhan incident as a "counter-revolutionary revolt"). After [[cal.1967-07-22.china-leadership-7|the landing]]: "At 4:55 p.m." Xie and Wang land; "That evening Lin Biao chaired a meeting" to hear Xie''s report ([[w.macfarquhar-maos-last-revolution]], 212). Made public: 1994. To check: [[w.li-insiders-account-of-the]], 72 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.50); [[w.wen-feng-shentanxia-de-lin-biao]], 149–151, 154 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.56a); [[w.yunsheng-maojiawan-jishi]], 126–129 (cited by [[w.teiwes-tragedy-of-lin-biao]], 84 n.56b). Names: Lin Biao.'
     tags: [name:lin-biao, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-07-22T11:00Z
+      - 1967-07-22T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-07-22.china-leadership-3
     when: July 22
     date: '1967-07-22'
@@ -4194,8 +4236,8 @@ entries:
     also: [china-zhou-cr, china-army]
     follows:
       - cal.1967-07-22.china-leadership-6
-    c: Zhou Enlai calls Ye Ming, Kong Qingde, Li Zuopeng and Liu Feng at the Wangjiadun airfield, Wuhan, and has Kong Qingde run the Wuhan Military Region for the time. The Wuhan air force is under double leadership and is to follow the Region's command, not take stands at will. Chen Zaidao and Zhong Hanhua are to take a stand quickly and win the initiative. In the afternoon he flies back to Peking.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 168 (July 22, 1967); [[w.macfarquhar-maos-last-revolution]], 212 (at the city airport Zhou hands command of the Region to Kong Qingde and Ye Ming, to work from the 29th Division''s headquarters). After [[cal.1967-07-22.china-leadership-6|Shanpo]]: Zhou sees Wang Li and Xie Fuzhi off at Shanpo, "then rushed to the city airport," where he hands Kong Qingde and Ye Ming the Region ([[w.macfarquhar-maos-last-revolution]], 212). Made public: 1994. To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49a). Names: Zhou Enlai, Ye Ming, Kong Qingde, Li Zuopeng, Liu Feng, Chen Zaidao, Zhong Hanhua.'
+    c: Zhou Enlai calls Ye Ming, Kong Qingde, Li Zuopeng and Liu Feng at the Wangjiadun airfield, Wuhan, and has Kong Qingde run the Wuhan Military Region for the time. The Wuhan air force is under double leadership and is to follow the Region's command, not take stands at will. Chen Zaidao and Zhong Hanhua are to take a stand quickly and win the initiative.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 168 (July 22, 1967); [[w.macfarquhar-maos-last-revolution]], 212 (at the city airport Zhou hands command of the Region to Kong Qingde and Ye Ming, to work from the 29th Division''s headquarters). After [[cal.1967-07-22.china-leadership-6|Shanpo]]: Zhou sees Wang Li and Xie Fuzhi off at Shanpo, "then rushed to the city airport," where he hands Kong Qingde and Ye Ming the Region ([[w.macfarquhar-maos-last-revolution]], 212). Made public: 1994. To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49a). The nianpu (III, 168, read on the page image) has his flight back to Peking that afternoon, an act of its own. Names: Zhou Enlai, Ye Ming, Kong Qingde, Li Zuopeng, Liu Feng, Chen Zaidao, Zhong Hanhua.'
     tags: [name:zhou-enlai, name:li-zuopeng, polity:prc, vis:only:prc, name:chen-zaidao, name:kong-qingde, name:liu-feng, name:ye-ming, name:zhong-hanhua]
   - id: cal.1967-07-22.china-leadership-5
     when: July 22
@@ -4212,12 +4254,15 @@ entries:
     date: '1967-07-22'
     place: wuhan
     thread: china-wuhan
-    c: Shanpo air base, before dawn. Wang Li and Xie Fuzhi are brought there and seen off by Zhou Enlai, who then hurries to the city airport.
+    c: Shanpo air base, before dawn.{2} Wang Li and Xie Fuzhi are brought there and seen off by Zhou Enlai, who then hurries to the city airport.{3}
+    cut_from:
+      '2': '1'
+      '3': '1'
     n: '[[w.macfarquhar-maos-last-revolution]], 212 ("In the early hours of July 22"); [[w.yang-jisheng-tiandi-fanfu]], I, 537 (late on the 21st Zhou has Li Zuopeng and Liu Feng bring Wang Li to the Shanpo airfield and holds a meeting there on steadying Wuhan, troop moves among them; at 3 a.m. of the 22nd Li, Wang and Liu drive there; Zhou and Xie Fuzhi come with the Eighth Company; Zhou, unshaven: "where is Wang Li?"; he embraces him: "support Comrade Wang Li!" (by Wang Li, in tears)); [[w.dikotter-cultural-revolution]], 150–151 n.5 (Li Zuopeng already in Wuhan to protect Mao, reinforced by airborne divisions; Xie Fuzhi and Wang Li rescued in a rebel operation and smuggled out two days later). Made public: 1994. To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49a); *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 596 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.57). See [[cal.1967-07-22.china-leadership-4]]. Names: Xie Fuzhi, Zhou Enlai, Wang Li.'
     src:
       c: 653781b5
       rows:
-        - 'w.macfarquhar-maos-last-revolution 212: all'
+        - 'w.macfarquhar-maos-last-revolution 212: 2, 3'
         - 'w.yang-jisheng-tiandi-fanfu I, 537: ?'
         - 'w.dikotter-cultural-revolution 150–151 n.5: ?'
     tags: [polity:prc, name:xie-fuzhi, name:zhou-enlai, vis:only:prc, name:wang-li]
@@ -4226,6 +4271,11 @@ entries:
       - 1967-07-21T22:00Z
     time_band: predawn
     time_zone: Asia/Shanghai
+    variants:
+      - unit: '3'
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: Zhou greets Wang Li at Shanpo at 3 a.m. and embraces him; in the afternoon of the 22nd he puts Wang Li and Xie Fuzhi on their plane
+        at: '537'
   - id: cal.1967-07-22.china-leadership-7
     when: July 22
     date: '1967-07-22'
@@ -4233,9 +4283,9 @@ entries:
     place: peking
     thread: china-wuhan
     follows:
-      - cal.1967-07-22.china-leadership-4
+      - cal.1967-07-22.china-wuhan
     c: Peking airport, 4:55 p.m. Xie Fuzhi and Wang Li land, met by Zhou Enlai, Chen Boda, Kang Sheng and Jiang Qing. Zhou has had their plane circle so that his own lands first.
-    n: '[[w.macfarquhar-maos-last-revolution]], 212; [[w.yang-jisheng-tiandi-fanfu]], I, 537 (Zhou sees Wang Li and Xie Fuzhi off in the afternoon and flies with Li Zuopeng in another plane; he has theirs circle so that he lands first at the western suburb airport; by Chen Zaidao Lin Biao and Jiang Qing had the plane circle for show; over 10,000 welcome Wang Li (Li Zuopeng), a few thousand (Wang Guangyu); Zhou and Jiang Qing hold him up as he limps through the crowd in an ill-fitting air force uniform). After [[cal.1967-07-22.china-leadership-4|Zhou at the Wangjiadun airfield]]: Zhou flies back to Peking in the afternoon ([[w.zhou-enlai-nianpu-1949-2020]], III, 168), his plane taking off after theirs, and has theirs circle so that he lands first and meets them ([[w.yang-jisheng-tiandi-fanfu]], I, 537). To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49a); "Quarterly Chronicle and Documentation," China Quarterly, no. 32 (October–December 1967), 185 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49b); Chen Zaidao 陳再道, 〈武漢7·20事件始末〉, in [[w.wenhua-dageming-yanjiu-ziliao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.58); *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 596 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.59a); [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 255 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.59b); Wang Guangyu 王廣宇, 〈「7·20」事件後中央文革小組的幾件事〉, *Jiyi* 《記憶》, no. 16 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.59c, n.60). Names: Xie Fuzhi, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Wang Li.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 212; [[w.yang-jisheng-tiandi-fanfu]], I, 537 (Zhou sees Wang Li and Xie Fuzhi off in the afternoon and flies with Li Zuopeng in another plane; he has theirs circle so that he lands first at the western suburb airport; by Chen Zaidao Lin Biao and Jiang Qing had the plane circle for show; over 10,000 welcome Wang Li (Li Zuopeng), a few thousand (Wang Guangyu); Zhou and Jiang Qing hold him up as he limps through the crowd in an ill-fitting air force uniform). After [[cal.1967-07-22.china-leadership-4|Zhou at the Wangjiadun airfield]]: Zhou flies back to Peking in the afternoon ([[w.zhou-enlai-nianpu-1949-2020]], III, 168), his plane taking off after theirs, and has theirs circle so that he lands first and meets them ([[w.yang-jisheng-tiandi-fanfu]], I, 537). The order: after [[cal.1967-07-22.china-wuhan]], [[w.yang-jisheng-tiandi-fanfu]], I, 537 (Zhou''s plane takes off after theirs, then has theirs circle over Peking). To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49a); "Quarterly Chronicle and Documentation," China Quarterly, no. 32 (October–December 1967), 185 (cited by [[w.macfarquhar-maos-last-revolution]], 212 n.49b); Chen Zaidao 陳再道, 〈武漢7·20事件始末〉, in [[w.wenhua-dageming-yanjiu-ziliao]] (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.58); *Li Zuopeng huiyilu* 《李作鵬回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2011), 596 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.59a); [[w.li-wang-li-fansi-lu]], the Beixing ed. as Yang cites it (2011, 2nd ed.), 下, 255 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.59b); Wang Guangyu 王廣宇, 〈「7·20」事件後中央文革小組的幾件事〉, *Jiyi* 《記憶》, no. 16 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 537 n.59c, n.60). Names: Xie Fuzhi, Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Wang Li.'
     src:
       c: 9300c0a4
       rows:
@@ -4312,6 +4362,23 @@ entries:
     n: '[[w.zedong-mao-zedong-nianpu]], VI, July 22, 1967 (下午一时三十分和二时四十分, two talks, their words given once). The time is the first talk''s. Made public: 2013. See [[cal.1967-07-22.china-leadership]]. Names: Mao Zedong.'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1967-07-22.china-wuhan
+    when: July 22
+    date: '1967-07-22'
+    place: wuhan
+    thread: china-wuhan
+    also: [china-zhou-cr]
+    follows:
+      - cal.1967-07-22.china-leadership-4
+    c: In the afternoon Zhou Enlai flies back to Peking from Wuhan with Li Zuopeng, by Yang Jisheng's account taking off after the plane carrying Wang Li and Xie Fuzhi.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 168 (July 22, 1967: 下午，飞回北京, "in the afternoon, flies back to Peking," read on the page image); [[w.yang-jisheng-tiandi-fanfu]], I, 537 (the afternoon of the 22nd: Zhou puts Wang Li and Xie Fuzhi on their plane; his and Li Zuopeng''s plane takes off later; over Peking he has theirs circle so that he lands first); [[w.macfarquhar-maos-last-revolution]], 212 (Zhou has Xie and Wang''s plane circle so that his own lands first). Made public: 2020. See [[cal.1967-07-22.china-leadership-4]]. The order: after [[cal.1967-07-22.china-leadership-4]], the meeting at the Wangjiadun airfield, the nianpu, III, 168 ("下午," after it). Names: Zhou Enlai, Li Zuopeng, Wang Li, Xie Fuzhi.'
+    tags: [name:zhou-enlai, name:wang-li, name:xie-fuzhi, name:li-zuopeng, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-07-22T04:00Z
+      - 1967-07-22T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-07-23.civil-disorders
     when: July 23
     date: '1967-07-23'

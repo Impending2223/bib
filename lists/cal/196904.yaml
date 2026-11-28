@@ -785,14 +785,19 @@ entries:
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1968. Made public: 2016. See [[cal.1969-04-01.china-leadership]]. Names: Zhu De, Mao Zedong.'
     tags: [polity:prc, name:zhu-de, name:mao-zedong, vis:only:prc]
   - id: cal.1969-04-22.soviet-union-leadership
-    when: Apr. 22–26
+    when: Apr. 22
     date: '1969-04-22'
     place: moscow
     thread: soviet-union-leadership
     also: [comecon]
-    c: Moscow. The Council for Mutual Economic Assistance's session, Brezhnev heading the Soviet delegation. He meets the delegations of Czechoslovakia, Romania, Poland, Bulgaria and the GDR at Vnukovo, Apr. 22, and the heads of the delegations of Bulgaria, Czechoslovakia, the GDR, Hungary, Mongolia, Poland and Romania at the reception house Apr. 23, 9 a.m., and opens the session at 10; the session to Apr. 26; a reception Apr. 26, 2 to 4.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332–333 (Apr. 22–26). Names: Brezhnev.'
-    tags: [name:brezhnev-leonid, polity:ussr, polity:czechoslovakia, polity:hungary, polity:bulgaria, polity:mongolia]
+    c: Moscow, Vnukovo-2. Brezhnev meets in turn the delegations of Czechoslovakia, Romania, Poland, Bulgaria and the GDR arriving for the Council for Mutual Economic Assistance's session, 8:15 a.m. to 1:30 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 22, 8:15 to 13:30, Vnukovo-2; read on the page image). The page image gives 13:30, where the text layer drops the minutes. The meeting of the delegation heads, the session, the reception and the leave-takings, which the record times apart, are entries of their own. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, polity:czechoslovakia, polity:bulgaria, polity:romania, polity:poland, polity:gdr]
+    time_range:
+      - 1969-04-22T05:15Z
+      - 1969-04-22T10:30Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1969-04-22.china-leadership
     when: Apr. 22
     date: '1969-04-22'
@@ -830,6 +835,19 @@ entries:
     c: Peking 北京. Zhu De's 朱德 "My written self-criticism" 《我的书面检讨》 is printed and circulated as a bulletin of the Ninth Congress 中共九大.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1968–1969. Made public: 2016. See [[cal.1969-04-21.china-leadership-2]]. Names: Zhu De.'
     tags: [polity:prc, name:zhu-de, vis:only:prc]
+  - id: cal.1969-04-22.soviet-union-leadership-2
+    when: Apr. 22
+    date: '1969-04-22'
+    place: moscow
+    thread: soviet-union-leadership
+    c: Moscow, the Kremlin Palace of Congresses. Brezhnev at the ceremonial meeting and concert for the ninety-ninth anniversary of Lenin's birth, 5 to 9 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 22, 17:00 to 21:00, the Kremlin Palace of Congresses; read on the page image). Made public: 2016. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, vis:only:ussr]
+    time_range:
+      - 1969-04-22T14:00Z
+      - 1969-04-22T18:00Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1969-04-23.china-leadership
     when: Apr. 23
     date: '1969-04-23'
@@ -868,17 +886,44 @@ entries:
       - 1969-04-23T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1969-04-23.soviet-union-leadership
+    when: Apr. 23
+    date: '1969-04-23'
+    time: 1969-04-23T06:30Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Moscow, the House of Receptions. Brezhnev meets the heads of the delegations of Bulgaria, Hungary, Poland, the GDR, Romania, Czechoslovakia and Mongolia, in Moscow for the Council's session, 9:30 a.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 23, 9:30, the House of Receptions; read on the page image). See [[cal.1969-04-22.soviet-union-leadership]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, polity:bulgaria, polity:hungary, polity:poland, polity:gdr, polity:romania, polity:czechoslovakia, polity:mongolia]
+    time_zone: Europe/Moscow
+  - id: cal.1969-04-23.soviet-union-leadership-2
+    when: Apr. 23–25
+    date: '1969-04-23'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    follows:
+      - cal.1969-04-23.soviet-union-leadership
+    c: Moscow. The Council for Mutual Economic Assistance's session. Brezhnev opens it at 10 a.m. Apr. 23 with an introductory word and heads the Soviet delegation; it sits Apr. 23, 24 and 25.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 23, 10:00, the opening, the work 10 to 18 with a break 14 to 16; Apr. 24, 9:40 to 14:40, he takes part; Apr. 25, 9:30 to 17:00, at the mansion on the Lenin Hills; read on the page image). The time is the first day''s. See [[cal.1969-04-22.soviet-union-leadership]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr]
+    time_range:
+      - 1969-04-23T07:00Z
+      - 1969-04-23T15:00Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1969-04-24.soviet-union-leadership
     when: Apr. 24
     date: '1969-04-24'
     place: moscow
     thread: soviet-union-leadership
     also: [soviet-union-czechoslovakia, comecon]
-    c: 'Moscow. Brezhnev with Husák, the Czechoslovak party''s new First Secretary, in Moscow for the Council''s session: Apr. 22, with Černík, Kosygin and Podgorny; Apr. 24, in Brezhnev''s office, 6 to 11 p.m.'
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 22, 24). Names: Brezhnev, Husák, Černík. Check: Husák became First Secretary of the Czechoslovak party Apr. 17; the record names no one else present.'
+    c: 'Moscow. Brezhnev with Husák, the Czechoslovak party''s new First Secretary, in Moscow for the Council''s session: Apr. 22, with Černík, Kosygin and Podgorny; Apr. 24, in Brezhnev''s office, 6:45 to 11 p.m.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 22, 24; read on the page image). The page image gives 18:45 for Apr. 24, where the text layer drops the minutes. Names: Brezhnev, Husák, Černík. Check: Husák became First Secretary of the Czechoslovak party Apr. 17; the record names no one else present.'
     tags: [name:brezhnev-leonid, name:husak-gustav, polity:ussr, polity:czechoslovakia, name:kosygin-aleksei, name:podgorny-nikolai-v, name:cernik]
     time_range:
-      - 1969-04-24T15:00Z
+      - 1969-04-24T15:45Z
       - 1969-04-24T20:00Z
     time_zone: Europe/Moscow
   - id: cal.1969-04-24.china-leadership
@@ -1045,12 +1090,12 @@ entries:
     place: moscow
     thread: soviet-union-leadership
     also: [comecon]
-    c: Moscow. Brezhnev receives Ceaușescu, head of the Romanian delegation to the Council's session, 8 to 10 p.m.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 25). Names: Brezhnev, Ceaușescu.'
-    tags: [name:brezhnev-leonid, name:ceausescu-nicolae, polity:ussr, polity:romania]
+    c: Moscow. Brezhnev receives Ceaușescu, head of the Romanian delegation to the Council's session, 8 to 10:30 p.m., Kosygin and Maurer taking part.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 25, 20:00 to 22:30; read on the page image). The page image gives 22:30, where the entry had 10 p.m. Names: Brezhnev, Ceaușescu, Kosygin, Maurer.'
+    tags: [name:brezhnev-leonid, name:ceausescu-nicolae, polity:ussr, polity:romania, name:kosygin-aleksei, name:maurer-ion-gheorghe]
     time_range:
       - 1969-04-25T17:00Z
-      - 1969-04-25T19:00Z
+      - 1969-04-25T19:30Z
     time_zone: Europe/Moscow
   - id: cal.1969-04-25.china-leadership
     when: Apr. 25
@@ -1092,6 +1137,21 @@ entries:
     c: Peng Dehuai 彭德怀 reads the Ninth Congress's 九大 press communique 新闻公报 and the presidium list, pointing at the names in the paper, and studies closely the map of the Ussuri 乌苏里江 on the Sino-Soviet border 中苏边界. He sleeps only thirty minutes, weeping, his eyes wide, tossing and sighing.
     n: '[[w.peng-dehuai-nianpu]], 824. Made public: 1998. Names: Peng Dehuai.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai, ok:fields-time]
+  - id: cal.1969-04-25.soviet-union-leadership-2
+    when: Apr. 25
+    date: '1969-04-25'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Moscow. Brezhnev, with members of the Politburo, secretaries of the Central Committee and guests from the Council's session, visits an exhibition of radio electronics at a Moscow research institute, in the daytime.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 25, "Днем"; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr]
+    time_range:
+      - 1969-04-25T03:00Z
+      - 1969-04-25T16:00Z
+    time_band: daytime
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1969-04-26.china-leadership
     when: Apr. 26
     date: '1969-04-26'
@@ -1216,6 +1276,50 @@ entries:
     c: Peng Dehuai 彭德怀 takes out the communique on the Ninth Congress's 九大 first item of business and reads it; reads the closing communique 闭幕公报 and the list of the Central Committee 中央委员; goes over the people voting in the photographs with a magnifying glass; looks at the picture of Mao Zedong 毛泽东, points at it and nods.
     n: '[[w.peng-dehuai-nianpu]], 824. Made public: 1998. Names: Peng Dehuai, Mao Zedong.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai, name:mao-zedong]
+  - id: cal.1969-04-26.soviet-union-leadership-3
+    when: Apr. 26
+    date: '1969-04-26'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Moscow. The Council's session sits its last, 10:30 a.m. to 1 p.m., Brezhnev taking part; it ends with the signing of the documents adopted.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 333 (Apr. 26, 10:30 to 13:00; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr]
+    time_range:
+      - 1969-04-26T07:30Z
+      - 1969-04-26T10:00Z
+    time_zone: Europe/Moscow
+    range_basis: record
+  - id: cal.1969-04-26.soviet-union-leadership
+    when: Apr. 26
+    date: '1969-04-26'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Moscow, the Kremlin Palace of Congresses. Brezhnev and the Soviet delegation at the reception for the delegations of the socialist countries at the Council's session, 2 to 4 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 333 (Apr. 26, 14:00 to 16:00, the Kremlin Palace of Congresses; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr]
+    time_range:
+      - 1969-04-26T11:00Z
+      - 1969-04-26T13:00Z
+    time_zone: Europe/Moscow
+    range_basis: record
+  - id: cal.1969-04-26.soviet-union-leadership-2
+    when: Apr. 26
+    date: '1969-04-26'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    follows:
+      - cal.1969-04-26.soviet-union-leadership
+    c: Moscow, Vnukovo-2. Brezhnev sees off the delegations of Poland, Romania, the GDR and Czechoslovakia, 5 to 6:30 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 333 (Apr. 26, 17:00 to 18:30, Vnukovo-2; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, polity:poland, polity:romania, polity:gdr, polity:czechoslovakia]
+    time_range:
+      - 1969-04-26T14:00Z
+      - 1969-04-26T15:30Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1969-04-27.china-leadership
     when: Apr. 27
     date: '1969-04-27'
@@ -1307,6 +1411,30 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu II, 729: all'
         - 'via w.yang-jisheng-tiandi-fanfu II, 729 n.34: all'
     tags: [polity:prc, vis:only:prc, name:mao-zedong, name:lin-biao, name:zhou-enlai, name:kang-sheng, name:huang-yongsheng, ok:fields-place]
+  - id: cal.1969-04-27.soviet-union-leadership
+    when: Apr. 27
+    date: '1969-04-27'
+    time: 1969-04-27T07:40Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Moscow, Vnukovo-2. Brezhnev sees off the Bulgarian delegation, 10:40 a.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 333 (Apr. 27, 10:40, Vnukovo-2; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, polity:bulgaria]
+    time_zone: Europe/Moscow
+  - id: cal.1969-04-27.soviet-union-leadership-2
+    when: Apr. 27
+    date: '1969-04-27'
+    time: 1969-04-27T08:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    follows:
+      - cal.1969-04-27.soviet-union-leadership
+    c: Moscow, Vnukovo-2. Brezhnev sees off the Hungarian delegation, 11 a.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 333 (Apr. 27, 11:00, Vnukovo-2; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, polity:hungary]
+    time_zone: Europe/Moscow
   - id: cal.1969-04-28.soviet-union-leadership
     when: Apr. 28
     date: '1969-04-28'

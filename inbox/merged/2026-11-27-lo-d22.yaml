@@ -1,0 +1,1222 @@
+patch: 2026-11-27-lo-d22
+by: Claude (Sonnet), leftovers batch lo-d22, Nov. 28, 2026; audited by Claude (Opus), Nov. 28, 2026
+ops:
+- edit:
+    id: cal.1968-07-03.soviet-union-leadership
+    base: a569c147
+    set:
+      time_range:
+      - 1968-07-03T18:30Z
+      - 1968-07-03T21:20Z
+      time_zone: Europe/Moscow
+      range_basis: record
+- edit:
+    id: cal.1968-07-03.soviet-union-leadership-2
+    base: 3f920d35
+    kind: correct
+    set:
+      when: July 3
+      c: Moscow. Brezhnev negotiates in the Kremlin with the Hungarian party and government delegation led by Kádár, 9:30 to 11:50, Kosygin, Podgorny, Voronov, Demichev, Katushev, Lesechko, Gromyko and Titov taking part.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 3, 9:30 to 11:50, in the Kremlin; read on the page image). The page image gives 9:30 to 11:50, where the text layer drops the minutes. The rally, the dinner and the leave-taking of July 4, which the record times apart, are entries of their own. Names: Brezhnev, Kádár, Kosygin, Podgorny, Voronov, Demichev, Katushev, Lesechko, Gromyko, Titov.'
+      time_range:
+      - 1968-07-03T06:30Z
+      - 1968-07-03T08:50Z
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-07-03.soviet-union-leadership-3
+      when: July 3
+      date: '1968-07-03'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - soviet-union-czechoslovakia
+      - comecon
+      follows:
+      - cal.1968-07-03.soviet-union-leadership-2
+      c: Moscow, the Kremlin Palace of Congresses. Brezhnev speaks at the Hungarian–Soviet friendship rally, 12 to 2:30.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 3, 12:00 to 14:30, the Kremlin Palace of Congresses; read on the page image). See [[cal.1968-07-03.soviet-union-leadership-2]]. Names: Brezhnev.'
+      time_range:
+      - 1968-07-03T09:00Z
+      - 1968-07-03T11:30Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - polity:hungary
+- add:
+    entry:
+      id: cal.1968-07-03.soviet-union-leadership-4
+      when: July 3
+      date: '1968-07-03'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - soviet-union-czechoslovakia
+      - comecon
+      follows:
+      - cal.1968-07-03.soviet-union-leadership-3
+      c: Moscow, the House of Receptions. Dinner for the Hungarian party and government delegation, 5 to 9:20 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 3, 17:00 to 21:20, the House of Receptions; read on the page image). See [[cal.1968-07-03.soviet-union-leadership-2]]. Names: none.'
+      time_range:
+      - 1968-07-03T14:00Z
+      - 1968-07-03T18:20Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - polity:ussr
+      - polity:hungary
+- add:
+    entry:
+      id: cal.1968-07-04.soviet-union-leadership-3
+      when: July 4
+      date: '1968-07-04'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - soviet-union-czechoslovakia
+      - comecon
+      c: Moscow, the airport. Brezhnev, with Podgorny and Kosygin, sees the Hungarian party and government delegation under Kádár off, in the morning.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 4, "Утром"; read on the page image). See [[cal.1968-07-03.soviet-union-leadership-2]]. Names: Brezhnev, Podgorny, Kosygin, Kádár.'
+      time_range:
+      - 1968-07-04T03:00Z
+      - 1968-07-04T09:00Z
+      time_band: morning
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - name:podgorny-nikolai-v
+      - name:kosygin-aleksei
+      - name:kadar-janos
+      - polity:ussr
+      - polity:hungary
+- edit:
+    id: cal.1968-07-23.crime-and-hijacking-guns
+    base: e2da4982
+    kind: correct
+    set:
+      c: The House on the gun bill, H.R. 17735, in committee of the whole. McClory's amendment, federal licensing of gun owners, refused by teller vote, 84–179.
+      n: '[114 Cong. Rec. 22,763](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=20) (1968) (July 23, 1968) (a division first, 59–102; then tellers, McClory and Sikes, 84–179). [[w.cq-weekly-report]], July 26, 1968, 1939. The Record gives Horton''s amendment its own place (22,779–80), after Dingell''s and MacGregor''s; it is an entry of its own. Check: the hour within the sitting; the House sat from 11 a.m. ([114 Cong. Rec. 22,744](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=1) (1968)) to 7:40 p.m. ([22,832](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=89)). Names: McClory.'
+      tags:
+      - name:mcclory-robert
+      time_range:
+      - 1968-07-23T15:00Z
+      - 1968-07-23T23:40Z
+      range_basis: record
+    unset:
+    - time_band
+- add:
+    entry:
+      id: cal.1968-07-23.crime-and-hijacking-guns-2
+      when: July 23
+      date: '1968-07-23'
+      place: washington
+      thread: crime-and-hijacking-guns
+      follows:
+      - cal.1968-07-19.crime-and-hijacking-guns-4
+      c: The House on the gun bill, H.R. 17735, in committee of the whole. Horton's amendment, no importation of surplus military firearms, adopted by teller vote, 65–62; the tellers Horton and Dingell. Dingell against.
+      n: '[114 Cong. Rec. 22,779–80](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=36) (1968) (July 23, 1968) (the amendment offered, 22,779; a division, 43–43; the tellers Horton and Dingell, 65–62, 22,780). [[w.cq-weekly-report]], July 26, 1968, 1941. The order: after MacGregor''s amendments (22,773–77), by the Record''s pages. Check: the hour within the sitting; the House sat from 11 a.m. ([114 Cong. Rec. 22,744](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=1) (1968)) to 7:40 p.m. ([22,832](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=89)). See [[cal.1968-07-23.crime-and-hijacking-guns]]. Names: Horton, Dingell.'
+      time_range:
+      - 1968-07-23T15:00Z
+      - 1968-07-23T23:40Z
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:horton-frank-j
+      - name:dingell-john-d
+- follows:
+    id: cal.1968-07-19.crime-and-hijacking-guns-2
+    add:
+    - cal.1968-07-23.crime-and-hijacking-guns
+    basis: '[114 Cong. Rec. 22,763 and 22,765](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=20) (Dingell''s amendment offered next after McClory''s was rejected)'
+- edit:
+    id: cal.1968-07-15.conservation-4
+    base: 70d2e738
+    kind: correct
+    settles:
+    - 'Check: CQ prints 295–104.'
+    set:
+      c: 'The House passes H.R. 5117, the first stage of the Palmetto Bend reclamation project in Texas, [295–104](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt16/pdf/GPO-CRECB-1968-pt16-4-2.pdf#page=103): a dam on the Navidad, $34,077,000. Aspinall: no appropriation for it "this year or next year or until the fiscal situation clears up."'
+      n: '[114 Cong. Rec. 21,425](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt16/pdf/GPO-CRECB-1968-pt16-4-2.pdf#page=103) (1968) (July 15, 1968) (the motion to suspend the rules and pass; roll call no. 257, yeas 295, nays 104, not voting 33). [[w.cq-weekly-report]], Aug. 2, 1968, 2039. The Record''s tally settles the count: CQ prints 295–104, as the Record; the Daily Digest (D350) 294–104; the entry had 296–103, Voteview''s. The House sat from noon to 11:11 p.m.: [Daily Digest, D351](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=349). Order: after [[cal.1968-07-15.conservation-3|the rivers and harbors bill]], in the House''s order of business, by the Record''s pages: rivers and harbors, 21369–86; Palmetto Bend, 21423–26 ([Daily Digest, D350](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=348)); roll calls 381 and 385. Names: Aspinall.'
+- primary:
+    id: cal.1968-07-25.students
+    text: '[114 Cong. Rec. 23,372–73](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-2-2.pdf#page=52) (1968) (July 25, 1968) (the amendment, roll call no. 280, yeas 260, nays 146; the bill, roll call no. 281, yeas 389, nays 15; the Daily Digest, D382, prints the amendment''s vote 259–147)'
+    on: The House passes … in campus disorders, [260–146](https://voteview.com/rollcall/RH0900399).
+- edit:
+    id: cal.1968-07-26.cities-and-housing
+    base: 59ec943e
+    settles:
+    - 'Check: CQ''s story prints the vote 227–135'
+    set:
+      n: '[114 Cong. Rec. 23,691](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-3-2.pdf#page=94) (1968) (July 26, 1968) (roll call no. 287, yeas 228, nays 135, not voting 69). [[w.cq-weekly-report]], Aug. 2, 1968, 2031, 2044, 2090. The Record''s tally settles the count: CQ''s story prints 227–135 (2031) and 226–135 (2044), its vote chart 228–135 (2090); the Daily Digest (D386), 226–135. Order: after [[cal.1968-07-26.farm|the cotton bill]], in the House''s order of business, by the Record''s pages: cotton, 23598 ([Daily Digest, D385](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=383)); housing, 23636–92 ([Daily Digest, D386](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=384)). See [[cal.1968-07-10.cities-and-housing]].'
+- edit:
+    id: cal.1968-07-26.transportation
+    base: d2b122f8
+    kind: correct
+    settles:
+    - 'Check: CQ prints 166–167.'
+    set:
+      c: 'The House on the highway bill''s conference report, S. 3418: Stratton''s motion to recommit, to strike the $25 million for beautification, refused, [166–168](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-3-2.pdf#page=116); the report adopted by voice vote.'
+      n: '[114 Cong. Rec. 23,712–13](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-3-2.pdf#page=115) (1968) (July 26, 1968) (the motion to recommit; roll call no. 288, yeas 166, nays 168, not voting 98, 23,713). [[w.cq-weekly-report]], Aug. 2, 1968, 2053, 2090. The Record''s tally settles the count: CQ and the Daily Digest (D386) print 166–167; the entry had 165–169, Voteview''s. Order: after [[cal.1968-07-26.cities-and-housing|the housing report]], in the House''s order of business, by the Record''s pages: housing, 23636–92; highways, 23692–713 ([Daily Digest, D386](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=384)); roll calls 405 and 406. Names: Stratton.'
+- edit:
+    id: cal.1968-07-30.vietnam-paris
+    base: 620e4bb7
+    kind: correct
+    set:
+      src:
+        c: 1078301a
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d314: 1'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dean-rusk-july-30-1968: 1'
+      place: washington
+      time: 1968-07-30T13:57Z
+      time_zone: America/New_York
+      tags:
+      - name:johnson-lyndon-b
+      - name:rusk-dean
+      - name:clifford-clark
+      c: 'Johnson to Rusk by telephone, on the Paris cable: Clifford "kind of expressing the viewpoint that''s contained in the cable"; "we''re not going to stop the bombing until they agree to stop some."{1}'
+      n: 'FRUS 1964–68, VI, doc. [314](https://history.state.gov/historicaldocuments/frus1964-68v06/d314) (Washington, July 30, 1968, 9:57 a.m.). [Johnson and Rusk, 9:57 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dean-rusk-july-30-1968), Conversation WH6807-02-13219 (Miller Center). Made public: FRUS 1964–68, VI (2002). FRUS, doc. 316, gives the meeting with the foreign policy advisers its own hours (1 to 2:05 p.m.); it is an entry of its own. See [[cal.1968-07-29.vietnam]]. Names: Johnson, Rusk, Clifford.'
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- add:
+    entry:
+      id: cal.1968-07-30.vietnam-paris-4
+      when: July 30
+      date: '1968-07-30'
+      place: washington
+      thread: vietnam-paris
+      follows:
+      - cal.1968-07-30.vietnam-paris
+      c: 'Johnson with Rusk, Clifford, Taylor, Wheeler and Helms, 1 to 2:05 p.m.: he asks Taylor for a report on "this new wave of demands to stop the bombing." Wheeler: a full halt would let 30 percent more troops and supplies reach the South; the Joint Chiefs oppose it.'
+      n: 'FRUS 1964–68, VI, doc. [316](https://history.state.gov/historicaldocuments/frus1964-68v06/d316) (Notes of Meeting, Washington, July 30, 1968, 1–2:05 p.m.). [[w.clifford-counsel-to-the-president-2]], 567–68 (the lunch: Johnson to Rusk on his news conference, "You missed a lot of opportunities"; to Clifford, on his remark that the concentrated bombing had "in some respects produced more dividends," "Lay off that line. It''s a damned lie"). Made public: FRUS 1964–68, VI (2002). See [[cal.1968-07-30.vietnam-paris]]. Names: Johnson, Rusk, Clifford, Taylor, Wheeler, Helms.'
+      time_range:
+      - 1968-07-30T17:00Z
+      - 1968-07-30T18:05Z
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:johnson-lyndon-b
+      - name:rusk-dean
+      - name:clifford-clark
+      - name:taylor-maxwell
+      - name:wheeler-earle
+      - name:helms-richard
+- edit:
+    id: cal.1968-07-30.vietnam-air-war-2
+    base: c33cfb4d
+    set:
+      n: '[[w.drea-mcnamara-clifford-and-the-2011]], 229. Order: after [[cal.1968-07-30.vietnam-paris-4|the lunch]], where Johnson asked for it (FRUS 1964–68, VI, doc. [316](https://history.state.gov/historicaldocuments/frus1964-68v06/d316), 1 to 2:05 p.m.); Taylor''s memorandum is of July 30: FRUS 1964–68, VI, doc. [319](https://history.state.gov/historicaldocuments/frus1964-68v06/d319) n.2. Check: the report''s findings; the sentence runs over p. 230. Names: Taylor, Johnson.'
+- follows:
+    id: cal.1968-07-30.vietnam-air-war-2
+    remove:
+    - cal.1968-07-30.vietnam-paris
+    why: the lunch at which Johnson asked Taylor for the report is now cal.1968-07-30.vietnam-paris-4 (FRUS 1964–68, VI, doc. 316); the telephone call with Rusk was at 9:57 a.m.
+- follows:
+    id: cal.1968-07-30.vietnam-air-war-2
+    add:
+    - cal.1968-07-30.vietnam-paris-4
+- follows:
+    id: cal.1968-07-30.vietnam-paris-2
+    remove:
+    - cal.1968-07-30.vietnam-paris
+    why: Rusk's worry in Clifford's car came after the Tuesday lunch, now cal.1968-07-30.vietnam-paris-4 (Clifford, 568)
+- follows:
+    id: cal.1968-07-30.vietnam-paris-2
+    add:
+    - cal.1968-07-30.vietnam-paris-4
+- edit:
+    id: cal.1968-08-03.elections-1968-miami
+    base: c0c02845
+    kind: correct
+    set:
+      src:
+        c: 00a872c8
+        rows:
+        - 'w.chester-american-melodrama 454–55: 1, 2'
+      tags:
+      - name:hall-leonard-w
+      - name:rockefeller-nelson
+      c: 'Miami Beach.{1} The *New York Times*, from Leonard Hall, Rockefeller''s floor manager: "Rockefeller Aides Fear Reagan Is Gaining Rapidly," up to 300 votes for Reagan on the first ballot.{2}'
+      n: '[[w.chester-american-melodrama]], 454–55 (Saturday, Aug. 3). Chester, 449, puts Reagan''s television interview after his return "by Saturday night"; it is an entry of its own. Names: Hall, Rockefeller.'
+- add:
+    entry:
+      id: cal.1968-08-03.elections-1968-miami-7
+      when: Aug. 3
+      date: '1968-08-03'
+      place: miami-beach
+      thread: elections-1968-miami
+      also:
+      - republican-party
+      c: 'Miami Beach. Reagan, back on the beach by Saturday night, on television: "It''s very difficult to disagree with most of the things that Mr. Wallace is saying." He adds that he must disagree with Wallace nonetheless.'
+      n: '[[w.chester-american-melodrama]], 449. To check: Reagan, television interview, Miami Beach, Aug. 3, 1968 (cited by [[w.chester-american-melodrama]], 449). Check: the day and the hour of the interview; Chester has Reagan back "by Saturday night" and the interview after it. See [[cal.1968-08-03.elections-1968-miami]]. Names: Reagan, Wallace.'
+      tags:
+      - name:reagan-ronald
+      - name:wallace-george-c
+      - ok:fields-time
+- src:
+    id: cal.1968-08-03.elections-1968-miami-7
+    row: via x.1968-08-03.reagan-television-interview-miami-beach-aug-3-19
+    on: Miami Beach. Reagan, back on the beach … with Wallace nonetheless.
+- edit:
+    id: cal.1968-08-06.elections-1968-miami
+    base: bdffc054
+    kind: correct
+    settles:
+    - 'Check: CQ''s chronology has the platform adopted at 12:22 a.m.'
+    set:
+      when: Aug. 7
+      date: '1968-08-07'
+      time: 1968-08-07T04:22Z
+      time_zone: America/New_York
+      n: '[Republican Party Platform of 1968](https://www.presidency.ucsb.edu/documents/republican-party-platform-1968) (Aug. 5, 1968). [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the third session, Aug. 6, [239](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/239/mode/1up) (the report adopted by voice vote; one "no" heard). [[w.cq-weekly-report]], Aug. 9, 1968, 2095, 2097, 2140 (adopted by voice vote, without debate; Dirksen''s committee). The chronology dates the adoption 12:22 a.m., Aug. 7 ([[w.cq-weekly-report]], Aug. 9, 1968, 2140: Romney at the podium 12:08, the Platform adopted by voice vote 12:22, adjournment moved 12:24), and the Proceedings place it after Romney''s remarks and the ruling on the North Carolina delegate (236–39) and close the session at 12:25 a.m. ([267](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/267/mode/1up)); CQ''s summary dates it by the session, Aug. 6 (2095, 2097), its analysis Aug. 7 (2099), its text "adopted ... on Aug. 6" (2126). See [[cal.1968-08-05.elections-1968]]. Names: Dirksen.'
+- follows:
+    id: cal.1968-08-06.elections-1968-miami
+    remove:
+    - cal.1968-08-06.elections-1968-miami-17
+    why: the adoption is dated Aug. 7, 12:22 a.m. (CQ, Aug. 9, 1968, 2140; the Proceedings, 267), and a link runs within one day
+- follows:
+    id: cal.1968-08-06.elections-1968-miami
+    add:
+    - cal.1968-08-07.elections-1968-miami-11
+    basis: the Proceedings, 239 (the Chair rules the Delegate from North Carolina out after the second, then puts the question), and CQ, Aug. 9, 1968, 2097
+- follows:
+    id: cal.1968-08-07.elections-1968-miami-10
+    remove:
+    - cal.1968-08-07.elections-1968-miami
+    why: the adjournment came two minutes after the platform's adoption, as its own line says (CQ, Aug. 9, 1968, 2140); the adoption, now dated Aug. 7, 12:22 a.m., is cal.1968-08-06.elections-1968-miami
+- follows:
+    id: cal.1968-08-07.elections-1968-miami-10
+    add:
+    - cal.1968-08-06.elections-1968-miami
+- edit:
+    id: cal.1968-08-07.elections-1968-miami
+    base: 3608c332
+    kind: correct
+    set:
+      place: miami-beach
+      time: 1968-08-07T04:08Z
+      time_zone: America/New_York
+      tags:
+      - name:romney-george-w
+      c: 'After midnight, before the vote on the platform. Romney will not offer his amendment on the "excessive collective bargaining power" of unions and employers: a floor fight "could prove divisive."'
+      n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2097, 2140 (Romney at the podium 12:08 a.m.). [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), [236–38](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/236/mode/1up) (Romney''s remarks: a floor battle "could prove divisive"). The hour is CQ''s chronology''s (2140). Hood''s attempt to be recognized, ruled out before the vote, and his word to reporters later that day are entries of their own. Names: Romney.'
+    unset:
+    - time_range
+- add:
+    entry:
+      id: cal.1968-08-07.elections-1968-miami-11
+      when: Aug. 7
+      date: '1968-08-07'
+      place: miami-beach
+      thread: elections-1968-miami
+      follows:
+      - cal.1968-08-07.elections-1968-miami
+      c: 'After midnight, while Dirksen''s motion to adopt the platform is seconded, Robert T. Hood Jr., a North Carolina delegate, seeking recognition, is ruled out of order by Ford: he "has lost his opportunity" to offer an amendment.'
+      n: '[*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), [239](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/239/mode/1up) (Dirksen: no amendment needed; the Delegate from North Carolina, not on his feet before the second, "has lost his opportunity"). [[w.cq-weekly-report]], Aug. 9, 1968, 2097 (Hood ruled out during the seconds of Dirksen''s motion; the platform approved as he strode to the podium). The hour: after Romney at the podium, 12:08 a.m., and before the adoption, 12:22 ([[w.cq-weekly-report]], Aug. 9, 1968, 2140). See [[cal.1968-08-07.elections-1968-miami]]. Names: Ford.'
+      time_range:
+      - 1968-08-07T04:08Z
+      - 1968-08-07T04:22Z
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:ford-gerald-r
+      - state:nc
+- add:
+    entry:
+      id: cal.1968-08-07.elections-1968-miami-12
+      when: Aug. 7
+      date: '1968-08-07'
+      thread: elections-1968-miami
+      also:
+      - vietnam
+      follows:
+      - cal.1968-08-07.elections-1968-miami-11
+      c: 'Hood to reporters: his being ruled out a "misunderstanding by Ford and others"; he wanted to propose a stiffer plank on Vietnam; he is not angry with Ford.'
+      n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2097 ("Hood Aug. 7 told reporters"). See [[cal.1968-08-07.elections-1968-miami-11]]. Names: Ford.'
+      tags:
+      - name:ford-gerald-r
+      - state:nc
+- add:
+    entry:
+      id: cal.1968-08-09.elections-1968-miami
+      when: By Aug. 9
+      date: '1968-08-09'
+      thread: elections-1968-miami
+      c: 'Ford to newsmen: Hood''s bid for recognition at the platform''s adoption "came too late."'
+      n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2097 ("Ford later told newsmen"). Check: the day; CQ has it after the session of Aug. 6–7. See [[cal.1968-08-07.elections-1968-miami-11]]. Names: Ford.'
+      tags:
+      - name:ford-gerald-r
+      - state:nc
+- edit:
+    id: cal.1968-08-07.elections-1968-miami-9
+    base: 21b14874
+    settles:
+    - 'Check: the hour, by White''s "about eleven."'
+    set:
+      place: miami
+      time: 1968-08-08T03:00Z
+      time_approx: true
+      time_zone: America/New_York
+      n: '[[w.white-making-of-the-president-1969]], 250 (the drive "At about eleven"; Wednesday evening, after the nominations began). The hour: White''s "about eleven" follows Agnew''s speech nominating Nixon (10:14 p.m.) and precedes the roll call, begun at 1:18 a.m. Aug. 8 ([[w.cq-weekly-report]], Aug. 9, 1968, 2140). See [[cal.1968-08-07.elections-1968-miami-6]]. Names: Nixon.'
+- edit:
+    id: cal.1968-08-08.elections-1968-miami
+    base: 8b98a63f
+    kind: correct
+    settles:
+    - 'Check: the Proceedings has Morton nominating Agnew'
+    - 'Check: Nixon gives Agnew 1,128 votes'
+    set:
+      src:
+        c: e57abb6f
+        rows:
+        - 'w.nixon-rn 311–14: 2'
+        - 'w.cq-weekly-report Aug. 9, 1968, 2096–97, 2141: 2'
+        - 'w.chester-american-melodrama 490, 493: 1, 2'
+        - 'w.kabaservice-rule-and-ruin 244–45: 2'
+      c: Miami Beach.{1} Nixon names Agnew.{2}
+      tags:
+      - name:nixon-richard-m
+      - name:agnew-spiro-t
+      - state:fl
+      n: '[[w.nixon-rn]], 311–14 (Agnew chosen); [[w.cq-weekly-report]], Aug. 9, 1968, 2096–97, 2141 (Nixon''s call to Agnew, 12:29 p.m.; Agnew named, 12:39 p.m.); [[w.chester-american-melodrama]], 490, 493 (Agnew named, 12:40 p.m.); [[w.kabaservice-rule-and-ruin]], 244–45 (Agnew''s choice); [[w.bernstein-guns-or-butter]], 508 (Ball: "a fourth-rate political hack"). Order: the choice named after the night''s and the morning''s meetings (White, 250–53). To check: [[w.witcover-white-knight]]; [[w.coffey-spiro-agnew-and-the]]. The Proceedings (409–31) and CQ''s chronology (2141) give the nomination, the seconding, the roll call and the acceptance their own hours or places, and the Miller Center Johnson''s call (4:09 p.m.); each is an entry of its own. See [[cal.1968-08-07.elections-1968]]. Names: Nixon, Agnew.'
+- add:
+    entry:
+      id: cal.1968-08-08.elections-1968-miami-17
+      when: Aug. 8
+      date: '1968-08-08'
+      place:
+      - lbj-ranch
+      - miami-beach
+      thread: elections-1968-miami
+      follows:
+      - cal.1968-08-08.elections-1968-miami
+      c: 'Johnson to Nixon by telephone, 4:09 p.m.: congratulates him on the nomination and offers a briefing on Vietnam; Rusk and Vance to brief him at the ranch.'
+      n: '[Johnson and Nixon, 4:09 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-nixon-august-8-1968), Conversation WH6808-01-13304 (Miller Center: "LBJ congratulates Nixon on receiving Republican presidential nomination, offers him briefing on Vietnam"; the travel arrangements for the briefing at the ranch by Rusk and Vance). Check: the Daily Diary''s place for Johnson (the Presidential Recordings Digital Edition has the Lewis Ranch) and its clock. See [[cal.1968-08-08.elections-1968-miami]]. Names: Johnson, Nixon, Rusk, Vance.'
+      time: 1968-08-08T21:09Z
+      time_zone: America/Chicago
+      tags:
+      - name:johnson-lyndon-b
+      - name:nixon-richard-m
+      - name:rusk-dean
+      - name:vance-cyrus
+- add:
+    entry:
+      id: cal.1968-08-08.elections-1968-miami-18
+      when: Aug. 8
+      date: '1968-08-08'
+      place: miami-beach
+      thread: elections-1968-miami
+      follows:
+      - cal.1968-08-08.elections-1968-miami-14
+      c: Rogers C. B. Morton of Maryland nominates Agnew for Vice President, presented by his brother, Senator Thruston Morton; Maryland recognized 8:28 p.m.
+      n: '[*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the fifth session, [409](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/409/mode/1up)–[411](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/411/mode/1up) (Thruston Morton presents Rogers Morton, who places Agnew''s name in nomination); [[w.cq-weekly-report]], Aug. 9, 1968, 2141 (8:28 p.m., Maryland recognized to nominate Nixon''s choice). The order: after Rockefeller''s address, 8:14 p.m. (2141; the Proceedings, 401–09). See [[cal.1968-08-08.elections-1968-miami]]. Names: Rogers Morton, Thruston Morton, Agnew.'
+      time: 1968-08-09T00:28Z
+      time_zone: America/New_York
+      tags:
+      - name:morton-rogers-c-b
+      - name:morton-thruston-b
+      - name:agnew-spiro-t
+- edit:
+    id: cal.1968-08-08.elections-1968-miami-8
+    base: 3d80eced
+    kind: correct
+    set:
+      c: Lindsay refuses to let his name be put in nomination for Vice President.
+      time_range:
+      - 1968-08-08T23:34Z
+      - 1968-08-09T00:28Z
+      time_zone: America/New_York
+      range_basis: record
+      place: miami-beach
+      tags:
+      - name:lindsay-john-v
+      n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2097 (when the fifth session opened Aug. 8, a last-minute attempt to persuade Lindsay to allow his name to be placed in nomination; he was to second Agnew and refused; then the call of the states began). The hour: the session was called to order 7:34 p.m., and Maryland was recognized 8:28 ([[w.cq-weekly-report]], Aug. 9, 1968, 2141). The Proceedings give Lindsay''s seconding its own place ([411](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/411/mode/1up)); it is an entry of its own. Names: Lindsay.'
+- add:
+    entry:
+      id: cal.1968-08-08.elections-1968-miami-19
+      when: Aug. 8
+      date: '1968-08-08'
+      place: miami-beach
+      thread: elections-1968-miami
+      follows:
+      - cal.1968-08-08.elections-1968-miami-18
+      - cal.1968-08-08.elections-1968-miami-8
+      c: 'Lindsay seconds Agnew''s nomination for Vice President, to cries of "We want Lindsay"; Tower and Percy second after him.'
+      n: '[*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the fifth session, [411](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/411/mode/1up)–[414](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/414/mode/1up) (the Chair recognizes him after Morton''s speech); [[w.kabaservice-rule-and-ruin]], 244–45 (Lindsay''s speech). See [[cal.1968-08-08.elections-1968-miami-8]]. Names: Lindsay, Agnew, Tower, Percy.'
+      tags:
+      - name:lindsay-john-v
+      - name:agnew-spiro-t
+      - name:tower-john-g
+      - name:percy-charles-h
+- add:
+    entry:
+      id: cal.1968-08-08.elections-1968-miami-15
+      when: Aug. 8
+      date: '1968-08-08'
+      place: miami-beach
+      thread: elections-1968-miami
+      follows:
+      - cal.1968-08-08.elections-1968-miami-19
+      c: 'The roll call for Vice President: Agnew nominated, 1,119, over Romney, put up by delegates against him, 186.'
+      n: '[*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the fifth session, the roll call [420–431](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/420/mode/1up). [[w.cq-weekly-report]], Aug. 9, 1968, 2096–97, 2137, 2141 (Nevada''s chairman nominates Romney; the roll call begun 9:42 p.m.; Romney moves at 10:05 that Agnew''s nomination be unanimous, declared 10:07); [[w.cq-weekly-report]], Aug. 16, 1968, 2190 (the ballot for Vice President by State: Agnew 1,119, Romney 186, 28 others and not voting). [[w.nixon-rn]], 311–14 (the challenge in Romney''s name); [[w.chester-american-melodrama]], 490, 493 (the revolt at the evening session). Check: Nixon gives Agnew 1,128 votes (314). The time is the roll call''s, 9:42 to 10:07 p.m. See [[cal.1968-08-08.elections-1968-miami]]. Names: Agnew, Romney.'
+      time_range:
+      - 1968-08-09T01:42Z
+      - 1968-08-09T02:07Z
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:agnew-spiro-t
+      - name:romney-george-w
+      - state:fl
+      - rollcall:1968-R-vp
+      - ok:result-form
+- add:
+    entry:
+      id: cal.1968-08-08.elections-1968-miami-16
+      when: Aug. 8
+      date: '1968-08-08'
+      place: miami-beach
+      thread: elections-1968-miami
+      follows:
+      - cal.1968-08-08.elections-1968-miami-9
+      c: 'Nixon''s acceptance: the voice of "the forgotten Americans—the non-shouters; the non-demonstrators."'
+      n: '[Address Accepting the Presidential Nomination at the Republican National Convention in Miami Beach, Florida](https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-republican-national-convention-miami) (Aug. 8, 1968). [[w.cq-weekly-report]], Aug. 9, 1968, 2137, 2141 (Ford introduces Nixon 10:48 p.m.; the speech begun 10:53, forty minutes, interrupted by applause 47 times; its text); [[w.white-making-of-the-president-1969]], 254–56 (the acceptance); [[w.zelizer-fierce-urgency-of-now]], 306 (the acceptance: "The long dark night for America is about to end"; the "forgotten Americans"; Agnew chosen); [[w.goldberg-barry-goldwater]], 253 (Nixon praises Goldwater''s "forgotten Americans—the non shouters, the non demonstrators"; Goldberg gives no day). The time is the speech''s, 10:53 to about 11:33 p.m. See [[cal.1968-08-08.elections-1968-miami]]. Names: Nixon.'
+      time_range:
+      - 1968-08-09T02:53Z
+      - 1968-08-09T03:33Z
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:nixon-richard-m
+- edit:
+    id: cal.1968-08-13.soviet-union-leadership-2
+    base: 2223d308
+    set:
+      time_range:
+      - 1968-08-13T16:00Z
+      - 1968-08-13T19:00Z
+      time_band: evening
+      time_zone: Europe/Moscow
+      range_basis: record
+      n: '[[w.schattenberg-brezhnev]], 279–80 (n.124–32: "the evening of 13 August," Brezhnev in the Crimea); [[w.khoo-collateral-damage]], 47 (Brezhnev and Dubček by telephone, Aug. 13: Dubček admits the Aug. 3 stipulations unlikely to be kept). The evening is taken on Brezhnev''s clock, Moscow time. To check: telephone conversation of Brezhnev and Dubček, Aug. 13, 1968, in S. Karner et al. eds., *Prager Frühling* (2008), II, doc. 57, 329–43 (cited by [[w.schattenberg-brezhnev]], 279–80 nn.125, 127–32); [[w.ouimet-rise-and-fall-of]], 31–32 (cited by [[w.khoo-collateral-damage]], 47 n.15). Names: Brezhnev, Dubček. Check: the places; Schattenberg has Brezhnev in the Crimea, and names no place for Dubček.'
+- edit:
+    id: cal.1968-08-17.china-leadership
+    base: 0f9468fc
+    set:
+      place: peking
+      time_range:
+      - 1968-08-17T11:00Z
+      - 1968-08-17T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      n: '[[w.zedong-mao-zedong-nianpu]], VI, Aug. 17, 1968 (晚上, "evening"; read in the EPUB for 1968). [[w.mao-zedong-zhuan]], VI, ch. 77 n.25 (Aug. 17, the commander of the Peking Garrison, Wen Yucheng 温玉成, explains to Mao why workers'' propaganda teams are sent: the Peking students do not fear the army, only the workers, for they have felt out the army''s bottom, a policy of ''five nots''; the army has no way with the students, the workers are tougher; the book names no one else present and gives no hour, n.25). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 77). To check: Wen Yucheng 温玉成, report to Mao Zedong 毛泽东 (汇报记录), Aug. 17, 1968 (cited by [[w.mao-zedong-zhuan]], VI, ch. 77 n.25). Names: Mao Zedong, Lin Biao, Huang Yongsheng, Wu Faxian, Wen Yucheng.'
+- edit:
+    id: cal.1968-08-22.elections-1968-chicago-3
+    base: 57b33986
+    kind: correct
+    set:
+      c: 'Chicago. The Credentials Committee''s sixth session of public hearings, 9:12 a.m. to 1:45 p.m.: Wisconsin, then North Carolina. From 3:08 to 6:20 p.m., North Carolina again and part of the Tennessee delegation.'
+      time_range:
+      - 1968-08-22T14:12Z
+      - 1968-08-22T23:20Z
+      time_zone: America/Chicago
+      range_basis: record
+      n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2292 (9:12 a.m., the session called to order; 9:15, Wisconsin; 10:39, North Carolina; 1:45 p.m., adjourned; 3:08, North Carolina and part of the Tennessee delegation; adjourned 6:20 p.m.). The executive session that night, 8:30 p.m. to 1:15 a.m., is an entry of its own (2292). See [[cal.1968-08-19.elections-1968-chicago-5]].'
+    unset:
+    - time_band
+- add:
+    entry:
+      id: cal.1968-08-22.elections-1968-chicago-credentials
+      when: Aug. 22–23
+      date: '1968-08-22'
+      place: chicago
+      thread: elections-1968-chicago-credentials
+      follows:
+      - cal.1968-08-22.elections-1968-chicago-3
+      c: Chicago. The Credentials Committee in executive session, 8:30 p.m. to 1:15 a.m. Aug. 23.
+      n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2292 (the Committee "met again in executive session at 8:30 p.m., finally adjourning at 1:15 a.m. Aug. 23"; Chicago, C.D.T.). See [[cal.1968-08-22.elections-1968-chicago-3]].'
+      time_range:
+      - 1968-08-23T01:30Z
+      - 1968-08-23T06:15Z
+      time_zone: America/Chicago
+      range_basis: record
+      tags:
+      - state:il
+      - city:chicago
+- variant:
+    id: cal.1968-08-26.elections-1968-chicago
+    field: date
+    value: '1968-08-27'
+    witness: w.humphrey-education-of-a-public-1976
+    reads: The next morning, I got a phone call from ... Marvin Watson
+    at: '389'
+- check:
+    id: cal.1968-08-26.elections-1968-chicago
+    text: 'Check: the Miller Center''s summary of Johnson and Watson, Aug. 26, 10:39 a.m., lists the Vietnam plank among its matters; Solberg (353) puts Watson''s word to Humphrey on Monday, after breakfast and three hours more with Murphy.'
+- edit:
+    id: cal.1968-08-26.elections-1968-chicago-21
+    base: 6275cb83
+    set:
+      time: 1968-08-27T00:53Z
+      time_zone: America/Chicago
+      n: '[[w.cohen-american-pharaoh]], 473. The hour: the convention called to order 7:31 p.m., Daley''s welcome 7:53 ([[w.cq-weekly-report]], Aug. 30, 1968, 2293). Names: Daley.'
+- edit:
+    id: cal.1968-08-28.elections-1968-chicago-17
+    base: '98527137'
+    set:
+      place: chicago
+      time: 1968-08-29T01:02Z
+      time_zone: America/Chicago
+      n: 'Message to the Democratic National Convention Prior to the Nomination of a Presidential Candidate, [1968–69 Pub. Papers 917](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=227) (Aug. 28, 1968). [[w.califano-triumph-and-tragedy-of]], 322; [[w.longley-lbjs-1968]], 225 (Johnson''s message). The hour: Albert read the telegrams from Johnson and Edward Kennedy at 8:02 p.m., before the roll call for nominations (8:11) ([[w.cq-weekly-report]], Aug. 30, 1968, 2338). See [[cal.1968-08-28.elections-1968]]. Names: Albert, Johnson.'
+- edit:
+    id: cal.1968-08-29.elections-1968
+    base: 59367b56
+    kind: correct
+    set:
+      src:
+        c: fca027f2
+        rows:
+        - 'w.cq-weekly-report Aug. 30, 1968, 2284, 2338, 2340: 1, 2, 3'
+        - 'w.nixon-rn 317: 2'
+      c: Chicago.{1} Muskie nominated for Vice President, Humphrey's choice, 1,942½;{2} Bond, nominated, too young to serve, 48½.{3}
+      time_range:
+      - 1968-08-30T02:22Z
+      - 1968-08-30T02:54Z
+      time_zone: America/Chicago
+      range_basis: record
+      tags:
+      - name:muskie-edmund-s
+      - name:humphrey-hubert-h
+      - name:bond-julian
+      - name:daley-richard-j
+      n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2284, 2338, 2340 (Harris of Oklahoma nominates Muskie, 8:29 p.m.; Bond nominated 9:10 and withdraws, below the constitutional age; the roll call begun 9:22 p.m.; Muskie''s majority 9:39, when Ohio voted; Daley moves the acclamation 9:54, carried). Check: CQ gives Muskie 1,944½ before he was declared the nominee by acclamation on Daley''s motion, 9:54 p.m.; the majority his at 9:39 when Ohio voted ([[w.cq-weekly-report]], Aug. 30, 1968, 2284, 2338). Check: the vote''s record; the Proceedings are not found (not on archive.org), and the figures stand from the entry''s earlier cite, now out of the note. [[w.nixon-rn]], 317 (Muskie, Humphrey''s choice). Order: the nomination after Humphrey named Muskie. To check: [[w.lippman-muskie]]; [[w.muskie-journeys]]. CQ''s chronology (2338) and the Miller Center give Humphrey''s acceptance, Johnson''s calls and the choice of the running mate their own hours; each is an entry of its own. See [[cal.1968-08-28.elections-1968]]. Names: Muskie, Humphrey, Bond, Daley.'
+- add:
+    entry:
+      id: cal.1968-08-29.elections-1968-chicago-16
+      when: Aug. 29
+      date: '1968-08-29'
+      place: chicago
+      thread: elections-1968-chicago
+      follows:
+      - cal.1968-08-29.elections-1968-chicago-10
+      - cal.1968-08-29.elections-1968-2
+      c: 'Chicago. Humphrey''s acceptance: "neither mob violence nor police brutality have any place in America." In it he turns to Johnson: "Thank you, Mr. President"; boos are heard in the hall.'
+      n: '[Address Accepting the Presidential Nomination at the Democratic National Convention in Chicago](https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-democratic-national-convention-chicago-2) (Aug. 29, 1968). [[w.cq-weekly-report]], Aug. 30, 1968, 2338 (Humphrey began his acceptance speech 10:32 p.m.; the convention adjourned sine die 12:10 a.m., Aug. 30); [[w.humphrey-education-of-a-public-1976]], 393–95 (the acceptance, dictated that afternoon); [[w.solberg-hubert-humphrey]], 370 ("Thank you, Mr. President"); [[w.white-making-of-the-president-1969]], 305–7 (the acceptance: St. Francis; "and Lyndon Johnson ... Thank you, Mr. President"; "neither mob violence nor police brutality"); [[w.albert-little-giant-1990]], 305 (Humphrey''s acceptance in prime time, his opening sentence at 9:00 p.m., "eastern standard time"; not the words or Johnson''s calls). The order: after Muskie''s acceptance, 10:09 ([[cal.1968-08-29.elections-1968-chicago-10]]), and after O''Brien''s plan, "before the acceptance speech" ([[cal.1968-08-29.elections-1968-2]]). See [[cal.1968-08-29.elections-1968]]. Names: Humphrey, Johnson.'
+      time: 1968-08-30T03:32Z
+      time_zone: America/Chicago
+      tags:
+      - name:humphrey-hubert-h
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1968-08-29.elections-1968-chicago-15
+      when: Aug. 29
+      date: '1968-08-29'
+      place: chicago
+      thread: elections-1968-chicago
+      c: Humphrey's short list is Muskie, Harris, Hughes of New Jersey and Shriver. Johnson, whom he calls four times, says "It's your decision" but prefers Terry Sanford, naming also Carl Sanders and Hughes; Watson proposes Inouye. Rowe advises against Muskie; O'Brien and Daley are for him. The announcement slips from noon to 4:30. Humphrey asks Harris to nominate Muskie.
+      n: '[[w.humphrey-education-of-a-public-1976]], 390–91 (Muskie chosen that morning over Hughes, Sanford and Harris; Johnson for Sanford, Sanders or Hughes); [[w.solberg-hubert-humphrey]], 366–69 (Muskie chosen; four calls with Johnson); [[w.bernstein-guns-or-butter]], 515 (O''Brien for Muskie). The four calls with Johnson are entries of their own, at 10:41 and 11:45 a.m. and 2:31 and 4:16 p.m. by the Miller Center''s clock, the ranch''s. See [[cal.1968-08-29.elections-1968]]; [[cal.1968-08-29.elections-1968-chicago-7]]. Names: Humphrey, Muskie, Harris, Hughes, Shriver, Johnson, Sanford, Sanders, Watson, Inouye, Rowe, O''Brien, Daley.'
+      time_range:
+      - 1968-08-29T14:00Z
+      - 1968-08-29T22:00Z
+      time_band: workday daytime
+      time_zone: America/Chicago
+      range_basis: kind
+      tags:
+      - name:muskie-edmund-s
+      - name:humphrey-hubert-h
+      - name:daley-richard-j
+      - name:johnson-lyndon-b
+      - name:harris-fred-r
+      - name:hughes-richard-j
+      - name:shriver-r-sargent
+      - name:sanford-terry
+      - name:sanders-carl-e
+      - name:watson-w-marvin
+      - name:inouye-daniel-k
+      - name:rowe-james-h-jr
+      - name:obrien-lawrence-f
+- add:
+    entry:
+      id: cal.1968-08-29.elections-1968-chicago-19
+      when: Aug. 29
+      date: '1968-08-29'
+      place:
+      - lbj-ranch
+      - chicago
+      thread: elections-1968-chicago
+      c: 'Humphrey and Johnson by telephone, 10:41 a.m.: Humphrey asks his advice on the Vice Presidency; Johnson praises him as Vice President, stresses loyalty and regrets not having appointed his own men. The names: Muskie, Boggs, Inouye, Sanford, Harris.'
+      n: '[Johnson and Humphrey, 10:41 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-august-29-1968), Conversation WH6808-04-13330 (Miller Center: "HHH asks advice on VP nomination; LBJ praises HHH as VP, emphasizes need for loyalty and his regret about not appointing his own men"). Check: the clock of the Miller Center''s hour (the ranch''s, taken as Central). See [[cal.1968-08-29.elections-1968-chicago-15]]. Names: Humphrey, Johnson, Muskie, Boggs, Inouye, Sanford, Harris.'
+      time: 1968-08-29T15:41Z
+      time_zone: America/Chicago
+      tags:
+      - name:humphrey-hubert-h
+      - name:johnson-lyndon-b
+      - name:muskie-edmund-s
+      - name:boggs-hale
+      - name:inouye-daniel-k
+      - name:sanford-terry
+      - name:harris-fred-r
+- add:
+    entry:
+      id: cal.1968-08-29.elections-1968-chicago-20
+      when: Aug. 29
+      date: '1968-08-29'
+      place:
+      - lbj-ranch
+      - chicago
+      thread: elections-1968-chicago
+      c: 'Johnson to Humphrey by telephone, 11:45 a.m.: the FBI''s checks on the possible nominees; loyalty; his top choices weighed, Muskie, Harris, Inouye, Sanford, Sanders; his concerns about the Kennedys and about O''Brien as chairman of the national committee.'
+      n: '[Johnson and Humphrey, 11:45 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-august-29-1968-1), Conversation WH6808-04-13337 (Miller Center: "LBJ reports on FBI checks on possible VP nominees, emphasizes need for loyalty, evaluates his top choices"). Check: the clock of the Miller Center''s hour (the ranch''s, taken as Central). See [[cal.1968-08-29.elections-1968-chicago-15]]. Names: Johnson, Humphrey, Muskie, Harris, Inouye, Sanford, Sanders, O''Brien.'
+      time: 1968-08-29T16:45Z
+      time_zone: America/Chicago
+      tags:
+      - name:johnson-lyndon-b
+      - name:humphrey-hubert-h
+      - name:muskie-edmund-s
+      - name:harris-fred-r
+      - name:inouye-daniel-k
+      - name:sanford-terry
+      - name:sanders-carl-e
+      - name:obrien-lawrence-f
+- add:
+    entry:
+      id: cal.1968-08-29.elections-1968-chicago-21
+      when: Aug. 29
+      date: '1968-08-29'
+      place:
+      - lbj-ranch
+      - chicago
+      thread: elections-1968-chicago
+      c: Johnson and Humphrey by telephone, 2:31 p.m., on the choice of the nominee for Vice President.
+      n: '[Johnson and Humphrey, 2:31 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-august-29-1968-2), Conversations WH6808-04-13338 and [13339](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-august-29-1968-3) (Miller Center: "Discussion of selection of Democratic Party VP nominee"). Check: the clock of the Miller Center''s hour (the ranch''s, taken as Central). See [[cal.1968-08-29.elections-1968-chicago-15]]. Names: Johnson, Humphrey.'
+      time: 1968-08-29T19:31Z
+      time_zone: America/Chicago
+      tags:
+      - name:johnson-lyndon-b
+      - name:humphrey-hubert-h
+- add:
+    entry:
+      id: cal.1968-08-29.elections-1968-chicago-22
+      when: Aug. 29
+      date: '1968-08-29'
+      place:
+      - lbj-ranch
+      - chicago
+      thread: elections-1968-chicago
+      c: 'Humphrey to Johnson by telephone, 4:16 p.m.: he has chosen Muskie. Johnson will not come to the convention that night, for it would not help Humphrey, but will do what he can for the campaign.'
+      n: '[Johnson and Humphrey, 4:16 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-hubert-humphrey-august-29-1968-4), Conversation WH6808-05-13341 (Miller Center: "HHH says he has chosen Edmund Muskie as VP nominee; LBJ says he will not come to convention tonight because it will not help HHH"). Check: the clock of the Miller Center''s hour (the ranch''s, taken as Central). See [[cal.1968-08-29.elections-1968-chicago-15]]. Names: Humphrey, Johnson, Muskie.'
+      time: 1968-08-29T21:16Z
+      time_zone: America/Chicago
+      tags:
+      - name:humphrey-hubert-h
+      - name:johnson-lyndon-b
+      - name:muskie-edmund-s
+- add:
+    entry:
+      id: cal.1968-08-29.elections-1968-chicago-17
+      when: Aug. 29
+      date: '1968-08-29'
+      place:
+      - lbj-ranch
+      - chicago
+      thread: elections-1968-chicago
+      c: 'Johnson to Muskie by telephone, 7:19 p.m.: congratulates him, thanks him for his work on the platform, offers his support and help; Lady Bird Johnson also.'
+      n: '[Johnson and Muskie, 7:19 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-edmund-muskie-and-lady-bird-johnson-august-29), Conversation WH6808-05-13343 (Miller Center). Check: the clock of the Miller Center''s hour (the ranch''s, taken as Central). See [[cal.1968-08-29.elections-1968]]. Names: Johnson, Lady Bird Johnson, Muskie.'
+      time: 1968-08-30T00:19Z
+      time_zone: America/Chicago
+      tags:
+      - name:johnson-lyndon-b
+      - name:johnson-lady-bird
+      - name:muskie-edmund-s
+- add:
+    entry:
+      id: cal.1968-08-29.elections-1968-chicago-18
+      when: Aug. 29
+      date: '1968-08-29'
+      place:
+      - lbj-ranch
+      - chicago
+      thread: elections-1968-chicago
+      c: 'Johnson to Daley by telephone, 7:31 p.m.: praises his work at the convention; Daley is sorry Johnson did not attend. Johnson denounces the press''s coverage of the rioting and the convention.'
+      n: '[Johnson and Daley, 7:31 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-daley-august-29-1968), Conversation WH6808-05-13344 (Miller Center). Check: the clock of the Miller Center''s hour (the ranch''s, taken as Central). See [[cal.1968-08-29.elections-1968]]. Names: Johnson, Daley.'
+      time: 1968-08-30T00:31Z
+      time_zone: America/Chicago
+      follows:
+      - cal.1968-08-29.elections-1968-chicago-17
+      tags:
+      - name:johnson-lyndon-b
+      - name:daley-richard-j
+- edit:
+    id: cal.1968-12-16.soviet-union-leadership
+    base: aeeaefa4
+    kind: correct
+    set:
+      when: Dec. 17
+      date: '1968-12-17'
+      time_range:
+      - 1968-12-17T14:00Z
+      - 1968-12-17T17:30Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      c: Moscow. Brezhnev, heading the Soviet party delegation, Kosygin, Podgorny and Katushev, negotiates with the Bulgarian party delegation under Zhivkov in the Politburo's new meeting hall, 5 to 8:30 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 305 (Dec. 17, 17:00 to 20:30, the Politburo''s new meeting hall; read on the page image). The secretaries'' record puts the arrival and the talks on Dec. 17 and the leave-taking on Dec. 18 (the page''s headings, 305); Dec. 16 holds the composers'' congress and no Bulgarian business. The arrival (4:15 p.m.) and the leave-taking (Dec. 18, 9 a.m.) are entries of their own. Names: Brezhnev, Zhivkov, Kosygin, Podgorny, Katushev.'
+- add:
+    entry:
+      id: cal.1968-12-17.soviet-union-leadership
+      when: Dec. 17
+      date: '1968-12-17'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      c: Moscow, Vnukovo-2. Brezhnev, with Podgorny and Kosygin, meets the Bulgarian party delegation under Zhivkov, 4:15 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 305 (Dec. 17, 16:15, Vnukovo-2; read on the page image). See [[cal.1968-12-16.soviet-union-leadership]]. Names: Brezhnev, Podgorny, Kosygin, Zhivkov.'
+      time: 1968-12-17T13:15Z
+      time_zone: Europe/Moscow
+      tags:
+      - name:brezhnev-leonid
+      - name:zhivkov-todor
+      - polity:ussr
+      - polity:bulgaria
+      - name:podgorny-nikolai-v
+      - name:kosygin-aleksei
+- add:
+    entry:
+      id: cal.1968-12-18.soviet-union-leadership
+      when: Dec. 18
+      date: '1968-12-18'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      c: Moscow, Vnukovo-2. Brezhnev sees the Bulgarian delegation under Zhivkov off, 9 a.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 305 (Dec. 18, 9:00, Vnukovo-2; read on the page image). See [[cal.1968-12-16.soviet-union-leadership]]. Names: Brezhnev, Zhivkov.'
+      time: 1968-12-18T06:00Z
+      time_zone: Europe/Moscow
+      tags:
+      - name:brezhnev-leonid
+      - name:zhivkov-todor
+      - polity:ussr
+      - polity:bulgaria
+- edit:
+    id: cal.1969-04-22.soviet-union-leadership
+    base: c874df5a
+    kind: correct
+    set:
+      when: Apr. 22
+      time_range:
+      - 1969-04-22T05:15Z
+      - 1969-04-22T10:30Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - polity:czechoslovakia
+      - polity:romania
+      - polity:poland
+      - polity:bulgaria
+      - polity:gdr
+      c: Moscow, Vnukovo-2. Brezhnev meets in turn the delegations of Czechoslovakia, Romania, Poland, Bulgaria and the GDR arriving for the Council for Mutual Economic Assistance's session, 8:15 a.m. to 1:30 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 22, 8:15 to 13:30, Vnukovo-2; read on the page image). The page image gives 13:30, where the text layer drops the minutes. The meeting of the delegation heads, the session, the reception and the leave-takings, which the record times apart, are entries of their own. Names: Brezhnev.'
+- add:
+    entry:
+      id: cal.1969-04-22.soviet-union-leadership-2
+      when: Apr. 22
+      date: '1969-04-22'
+      place: moscow
+      thread: soviet-union-leadership
+      c: Moscow, the Kremlin Palace of Congresses. Brezhnev at the ceremonial meeting and concert for the ninety-ninth anniversary of Lenin's birth, 5 to 9 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 22, 17:00 to 21:00, the Kremlin Palace of Congresses; read on the page image). Made public: 2016. Names: Brezhnev.'
+      time_range:
+      - 1969-04-22T14:00Z
+      - 1969-04-22T18:00Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - vis:only:ussr
+- add:
+    entry:
+      id: cal.1969-04-23.soviet-union-leadership
+      when: Apr. 23
+      date: '1969-04-23'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      c: Moscow, the House of Receptions. Brezhnev meets the heads of the delegations of Bulgaria, Hungary, Poland, the GDR, Romania, Czechoslovakia and Mongolia, in Moscow for the Council's session, 9:30 a.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 23, 9:30, the House of Receptions; read on the page image). See [[cal.1969-04-22.soviet-union-leadership]]. Names: Brezhnev.'
+      time: 1969-04-23T06:30Z
+      time_zone: Europe/Moscow
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - polity:bulgaria
+      - polity:hungary
+      - polity:poland
+      - polity:gdr
+      - polity:romania
+      - polity:czechoslovakia
+      - polity:mongolia
+- add:
+    entry:
+      id: cal.1969-04-23.soviet-union-leadership-2
+      when: Apr. 23–25
+      date: '1969-04-23'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      follows:
+      - cal.1969-04-23.soviet-union-leadership
+      c: Moscow. The Council for Mutual Economic Assistance's session. Brezhnev opens it at 10 a.m. Apr. 23 with an introductory word and heads the Soviet delegation; it sits Apr. 23, 24 and 25.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 23, 10:00, the opening, the work 10 to 18 with a break 14 to 16; Apr. 24, 9:40 to 14:40, he takes part; Apr. 25, 9:30 to 17:00, at the mansion on the Lenin Hills; read on the page image). The time is the first day''s. See [[cal.1969-04-22.soviet-union-leadership]]. Names: Brezhnev.'
+      time_range:
+      - 1969-04-23T07:00Z
+      - 1969-04-23T15:00Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1969-04-25.soviet-union-leadership-2
+      when: Apr. 25
+      date: '1969-04-25'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      c: Moscow. Brezhnev, with members of the Politburo, secretaries of the Central Committee and guests from the Council's session, visits an exhibition of radio electronics at a Moscow research institute, in the daytime.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 25, "Днем"; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+      time_range:
+      - 1969-04-25T03:00Z
+      - 1969-04-25T16:00Z
+      time_band: daytime
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1969-04-26.soviet-union-leadership-3
+      when: Apr. 26
+      date: '1969-04-26'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      c: Moscow. The Council's session sits its last, 10:30 a.m. to 1 p.m., Brezhnev taking part; it ends with the signing of the documents adopted.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 333 (Apr. 26, 10:30 to 13:00; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+      time_range:
+      - 1969-04-26T07:30Z
+      - 1969-04-26T10:00Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1969-04-26.soviet-union-leadership
+      when: Apr. 26
+      date: '1969-04-26'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      c: Moscow, the Kremlin Palace of Congresses. Brezhnev and the Soviet delegation at the reception for the delegations of the socialist countries at the Council's session, 2 to 4 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 333 (Apr. 26, 14:00 to 16:00, the Kremlin Palace of Congresses; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+      time_range:
+      - 1969-04-26T11:00Z
+      - 1969-04-26T13:00Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1969-04-26.soviet-union-leadership-2
+      when: Apr. 26
+      date: '1969-04-26'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      follows:
+      - cal.1969-04-26.soviet-union-leadership
+      c: Moscow, Vnukovo-2. Brezhnev sees off the delegations of Poland, Romania, the GDR and Czechoslovakia, 5 to 6:30 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 333 (Apr. 26, 17:00 to 18:30, Vnukovo-2; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+      time_range:
+      - 1969-04-26T14:00Z
+      - 1969-04-26T15:30Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - polity:poland
+      - polity:romania
+      - polity:gdr
+      - polity:czechoslovakia
+- add:
+    entry:
+      id: cal.1969-04-27.soviet-union-leadership
+      when: Apr. 27
+      date: '1969-04-27'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      c: Moscow, Vnukovo-2. Brezhnev sees off the Bulgarian delegation, 10:40 a.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 333 (Apr. 27, 10:40, Vnukovo-2; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+      time: 1969-04-27T07:40Z
+      time_zone: Europe/Moscow
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - polity:bulgaria
+- add:
+    entry:
+      id: cal.1969-04-27.soviet-union-leadership-2
+      when: Apr. 27
+      date: '1969-04-27'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      follows:
+      - cal.1969-04-27.soviet-union-leadership
+      c: Moscow, Vnukovo-2. Brezhnev sees off the Hungarian delegation, 11 a.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 333 (Apr. 27, 11:00, Vnukovo-2; read on the page image). See [[cal.1969-04-23.soviet-union-leadership-2]]. Names: Brezhnev.'
+      time: 1969-04-27T08:00Z
+      time_zone: Europe/Moscow
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - polity:hungary
+- edit:
+    id: cal.1969-04-24.soviet-union-leadership
+    base: 6dc63e4a
+    kind: correct
+    set:
+      c: 'Moscow. Brezhnev with Husák, the Czechoslovak party''s new First Secretary, in Moscow for the Council''s session: Apr. 22, with Černík, Kosygin and Podgorny; Apr. 24, in Brezhnev''s office, 6:45 to 11 p.m.'
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 22, 24; read on the page image). The page image gives 18:45 for Apr. 24, where the text layer drops the minutes. Names: Brezhnev, Husák, Černík. Check: Husák became First Secretary of the Czechoslovak party Apr. 17; the record names no one else present.'
+      time_range:
+      - 1969-04-24T15:45Z
+      - 1969-04-24T20:00Z
+- edit:
+    id: cal.1969-04-25.soviet-union-leadership
+    base: 64c8ec08
+    kind: correct
+    set:
+      c: Moscow. Brezhnev receives Ceaușescu, head of the Romanian delegation to the Council's session, 8 to 10:30 p.m., Kosygin and Maurer taking part.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 332 (Apr. 25, 20:00 to 22:30; read on the page image). The page image gives 22:30, where the entry had 10 p.m. Names: Brezhnev, Ceaușescu, Kosygin, Maurer.'
+      time_range:
+      - 1969-04-25T17:00Z
+      - 1969-04-25T19:30Z
+      tags:
+      - name:brezhnev-leonid
+      - name:ceausescu-nicolae
+      - name:kosygin-aleksei
+      - name:maurer-ion-gheorghe
+      - polity:ussr
+      - polity:romania
+- edit:
+    id: cal.1969-06-03.soviet-union-leadership
+    base: 138dbf0e
+    kind: correct
+    set:
+      when: June 3
+      time_range:
+      - 1969-06-03T14:30Z
+      - 1969-06-03T19:20Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - polity:poland
+      - polity:czechoslovakia
+      - polity:gdr
+      - polity:hungary
+      - polity:bulgaria
+      - polity:mongolia
+      c: Moscow, Vnukovo-2. Before the International Meeting. Brezhnev, with other leaders, meets in turn the delegations of the Hungarian, Polish, Bulgarian, Mongolian, East German and Czechoslovak parties arriving, 5:30 to 10:20 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 3, 17:30 to 22:20, Vnukovo-2; read on the page image at 200 dpi). Made public: 2016. The record gives the talks of June 4 10 to 1:20 and Ceaușescu''s arrival 1:55, where the entry had 10 to 1 and 1. The meeting of the Soviet delegation (June 3), the talks with the heads of delegations (June 4, morning and evening), Ceaușescu''s arrival and the Politburo''s session, which the record times apart, are entries of their own. Names: Brezhnev.'
+- add:
+    entry:
+      id: cal.1969-06-03.soviet-union-leadership-2
+      when: June 3
+      date: '1969-06-03'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      c: 'Moscow. Before the International Meeting. Brezhnev holds a meeting of the CPSU delegation: Podgorny, Kosygin, Kirilenko, Suslov, Katushev, Ponomarev and Rusakov, 10:30 a.m. to 1:15 p.m.'
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 3, 10:30 to 13:15; read on the page image at 200 dpi). Made public: 2016. See [[cal.1969-06-03.soviet-union-leadership]]. Names: Brezhnev, Podgorny, Kosygin, Kirilenko, Suslov, Katushev, Ponomarev, Rusakov.'
+      time_range:
+      - 1969-06-03T07:30Z
+      - 1969-06-03T10:15Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - name:podgorny-nikolai-v
+      - name:kosygin-aleksei
+      - name:kirilenko-andrei-p
+      - name:suslov-mikhail-a
+      - name:katushev-konstantin-f
+      - name:ponomarev-boris-n
+      - name:rusakov
+      - vis:only:ussr
+- add:
+    entry:
+      id: cal.1969-06-04.soviet-union-leadership
+      when: June 4
+      date: '1969-06-04'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      c: Moscow. Before the International Meeting. Brezhnev negotiates with the heads of the Hungarian, Polish, Bulgarian, Mongolian, East German and Czechoslovak delegations, 10 a.m. to 1:20 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 4, 10:00 to 13:20; read on the page image at 200 dpi). Made public: 2016. See [[cal.1969-06-03.soviet-union-leadership]]. Names: Brezhnev.'
+      time_range:
+      - 1969-06-04T07:00Z
+      - 1969-06-04T10:20Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - polity:hungary
+      - polity:poland
+      - polity:bulgaria
+      - polity:mongolia
+      - polity:gdr
+      - polity:czechoslovakia
+      - vis:only:ussr+bulgaria+czechoslovakia+gdr+hungary+mongolia+poland+romania
+- add:
+    entry:
+      id: cal.1969-06-04.soviet-union-leadership-2
+      when: June 4
+      date: '1969-06-04'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      follows:
+      - cal.1969-06-04.soviet-union-leadership
+      c: Moscow, Vnukovo-2. Brezhnev, with Podgorny, meets the Romanian party delegation under Ceaușescu, arriving for the International Meeting, 1:55 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 4, from 13:55, Vnukovo-2; read on the page image at 200 dpi). Made public: 2016. See [[cal.1969-06-03.soviet-union-leadership]]. Names: Brezhnev, Podgorny, Ceaușescu.'
+      time: 1969-06-04T10:55Z
+      time_zone: Europe/Moscow
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - name:podgorny-nikolai-v
+      - name:ceausescu-nicolae
+      - polity:romania
+      - vis:only:ussr+romania
+- add:
+    entry:
+      id: cal.1969-06-04.soviet-union-leadership-3
+      when: June 4
+      date: '1969-06-04'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      follows:
+      - cal.1969-06-04.soviet-union-leadership-2
+      c: 'Moscow, his office in the Central Committee. Brezhnev presides over the Politburo, 6:20 to 7:45 p.m.: Podgorny, Kosygin, Mazurov, Polyansky, Pelshe, Shelepin, Voronov, Andropov, Ustinov, Demichev, Katushev, Kapitonov, Kulakov, Rusakov, Chernenko and Aleksandrov taking part.'
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 4, 18:20 to 19:45, in his office; read on the page image at 200 dpi). Made public: 2016. See [[cal.1969-06-03.soviet-union-leadership]]. Names: Brezhnev, Podgorny, Kosygin, Mazurov, Polyansky, Pelshe, Shelepin, Voronov, Andropov, Ustinov, Demichev, Katushev, Kapitonov, Kulakov, Rusakov, Chernenko.'
+      time_range:
+      - 1969-06-04T15:20Z
+      - 1969-06-04T16:45Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - name:podgorny-nikolai-v
+      - name:kosygin-aleksei
+      - name:mazurov-kirill-t
+      - name:polyansky-dmitri-s
+      - name:pelshe-arvid-y
+      - name:shelepin-aleksandr-n
+      - name:voronov-gennady-i
+      - name:andropov-yuriy-vladimirovich
+      - name:ustinov-dmitriy-f
+      - name:demichev-pyotr-n
+      - name:katushev-konstantin-f
+      - name:kapitonov
+      - name:kulakov
+      - name:rusakov
+      - name:chernenko-konstantin-u
+      - vis:only:ussr
+- add:
+    entry:
+      id: cal.1969-06-04.soviet-union-leadership-4
+      when: June 4
+      date: '1969-06-04'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - comecon
+      follows:
+      - cal.1969-06-04.soviet-union-leadership-3
+      c: Moscow, the Lenin Hills. Before the International Meeting. Brezhnev negotiates with the leaders of the fraternal parties arrived for it, 8 to 10 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 4, 20:00 to 22:00, "на Ленгорах"; read on the page image at 200 dpi). Made public: 2016. See [[cal.1969-06-03.soviet-union-leadership]]. Names: Brezhnev.'
+      time_range:
+      - 1969-06-04T17:00Z
+      - 1969-06-04T19:00Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - vis:only:ussr+bulgaria+czechoslovakia+gdr+hungary+mongolia+poland+romania
+- add:
+    entry:
+      id: cal.1968-10-01.vietnam-paris
+      when: Oct. 1
+      date: '1968-10-01'
+      place: paris
+      thread: vietnam-paris
+      also:
+      - elections-1968
+      c: Harriman's spokesman, checking with him before briefing the press in Paris, reports that Harriman found nothing in Humphrey's Salt Lake City speech that could upset the negotiations.
+      n: '[[w.chester-american-melodrama]], 649 (the spokesman, after the speech; no day). Check: the day; Chester gives none, and the speech was broadcast Sept. 30. See [[cal.1968-09-30.elections-1968]]. Names: Harriman, Humphrey.'
+      tags:
+      - name:harriman-w-averell
+      - name:humphrey-hubert-h
+- add:
+    entry:
+      id: cal.1969-03.china-ninth-congress
+      when: Mar., after the 15th
+      date: 1969-03
+      at: after 1969-03-15
+      thread: china-ninth-congress
+      c: Mao announces that the country should be on standby to "fight a great war, an early war, and even a nuclear war," after the clash on Zhenbao (Damansky) Island of Mar. 15 and before the Ninth Congress, by Dikötter's account.
+      n: '[[w.dikotter-cultural-revolution]], 207 (after the battle of Mar. 15, "as soon as the confrontation was over"; the Ninth Congress opened two weeks later). Check: the day and the occasion; Dikötter''s page gives neither, and his note (348 n.3) cites Mao''s speech at the First Plenum of the Ninth Central Committee, Apr. 28, 1969. To check: "Mao Zedong''s Speech at the First Plenary Session of the CCP''s Ninth Central Committee," Apr. 28, 1969, Wilson Center Digital Archive (cited by [[w.dikotter-cultural-revolution]], 348 n.3). See [[cal.1969-03-15.china-leadership]]. Names: Mao Zedong.'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - vis:only:prc
+- check:
+    id: cal.1968-10-20.china-leadership
+    text: 'Check: the day of Lin Biao''s speech: the Zhou chronology (III, 259: 林彪在二十日的全会上, "at the plenum of the 20th") and the Ye chronology (II, 978) have Oct. 20; MacFarquhar (274) has the four-hour keynote on Oct. 26; the Mao chronology (VI, Oct. 13–31, 1968) gives no day for it.'

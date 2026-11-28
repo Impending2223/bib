@@ -1,0 +1,926 @@
+patch: 2026-11-27-lo-d17
+by: Claude (Sonnet), leftovers batch lo-d17, Nov. 28, 2026; audited by Claude (Opus), Nov. 28, 2026
+ops:
+- edit:
+    id: cal.1966-03-01.vietnam
+    base: 4cfd8133
+    kind: correct
+    set:
+      c: 'The war''s supplemental authorization.{1} The Senate tables Morse''s amendment to repeal the Southeast Asia resolution of Aug. 1964, [92–5](https://voteview.com/rollcall/RS0890270):
+        Morse, Gruening, Fulbright, McCarthy, Young of Ohio the five.{2} Gruening''s, to keep draftees from Southeast Asia''s combat areas without Congress''s consent, tabled [94–2](https://voteview.com/rollcall/RS0890271).{3}
+        The authorization, $4.8 billion for aircraft, missiles, and construction, passes, [93–2](https://voteview.com/rollcall/RS0890272).{4}'
+      n: 'The vote to table: [112 Cong. Rec. 4404](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt4/pdf/GPO-CRECB-1966-pt4-2-1.pdf#page=82) (1966) (Senate, Mar. 1, 1966). [[w.mann-grand-delusion]],
+        504–05 (Johnson to Mansfield; the votes); [[w.branch-at-canaans-edge]], 451; [[w.woods-fulbright]], 410 ($4.8 billion; two weeks before the Senate, thirty-five Senators speaking
+        against the war or its tactics). [[w.rusk-as-i-saw-it-1990]], 501, 546 (only five against tabling). The Senate sat from noon to 6:33 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1),
+        [D74](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=72). Check: the pages of the other votes. [FRUS 1964–68, IV, doc. 87](https://history.state.gov/historicaldocuments/frus1964-68v04/d87)
+        (Johnson to Mansfield by telephone, 9:42 a.m.: the motion to table must not "imply any dilution" of the resolution). [[w.gibbons-u-s-government-and]], IV, 251–59. Check: Branch
+        dates the vote Mar. 2. After the debate on Morse''s amendment (the Record) and Ball''s lunch with the four Senators, before the vote by Gibbons''s account. After [[cal.1966-03-01.vietnam-congress|Fulbright''s
+        speech]] too: the Record prints it at 4379–84 and the vote to table at 4403–04. To check: [[w.berman-william-fulbright-and-the]]; [[w.evans-lyndon-b-johnson]], 597 (cited by
+        [[w.branch-at-canaans-edge]], 451). See [[cal.1966-01-19.vietnam]]; [[cal.1966-02-04.vietnam]]. Split under R25b and R17: the Record prints the House''s vote (4474, Roll No.
+        26) apart from the Senate''s; it is now an entry. Names: Morse, Gruening, Fulbright, McCarthy, Young.'
+      src:
+        c: 868da31d
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt4/pdf/GPO-CRECB-1966-pt4-2-1.pdf#page=82: 1, 2, 3, 4'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d87: 1, 2, 3, 4'
+        - 'w.gibbons-u-s-government-and IV, 251–59: 1, 2, 3, 4'
+        - 'via w.gibbons-u-s-government-and IV, 258 n.126: 2'
+        - 'https://voteview.com/rollcall/RS0890270: 2'
+        - 'https://voteview.com/rollcall/RS0890271: 3'
+        - 'https://voteview.com/rollcall/RS0890272: 4'
+        - 'w.mann-grand-delusion 504–05: 2, 4'
+        - 'via w.mann-grand-delusion 505 n.22: 2'
+        - 'w.rusk-as-i-saw-it-1990 501: 2'
+        - 'w.rusk-as-i-saw-it-1990 546: 2'
+        - 'via x.1984.rusk-interviews-with-richard-rusk: 2'
+        - 'w.branch-at-canaans-edge 451: 2'
+        - 'w.woods-fulbright 410: ?'
+- follows:
+    id: cal.1966-03-01.vietnam
+    remove:
+    - cal.1966-03-01.vietnam-congress-4
+    why: the link rested on the House's vote, now its own entry; Cohelan's statement is the House's, and the line holds only the Senate's votes
+- add:
+    entry:
+      id: cal.1966-03-01.vietnam-supplemental
+      when: Mar. 1
+      date: '1966-03-01'
+      place: washington
+      thread: vietnam-supplemental
+      also:
+      - congress
+      - defense
+      follows:
+      - cal.1966-03-01.vietnam-congress-4
+      c: House. The war's supplemental authorization passes, [393–4](https://voteview.com/rollcall/RH0890216).
+      n: '[112 Cong. Rec. 4474](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt4/pdf/GPO-CRECB-1966-pt4-2-2.pdf#page=61) (1966) (Roll No. 26: yeas 393, nays 4, present 1, not voting
+        35; H.R. 12889). See [[cal.1966-03-01.vietnam]]. After [[cal.1966-03-01.vietnam-congress-4|Cohelan''s statement]] (4431).'
+- edit:
+    id: cal.1966-03-12.china-leadership-2
+    base: d6062565
+    kind: correct
+    set:
+      c: 'Zhou Enlai writes Liu Shaoqi, Peng Zhen, Chen Yi, Li Xiannian and Kang Sheng: he goes this noon to Tianjin for the North China Bureau meeting on five questions (war preparation,
+        the small Third Front, drought, passing the grain test, study of Mao''s works), about five days; he plans a month of investigation and study in Hebei and Peking. He leaves arrangements
+        on foreign affairs, defence, the Military Commission, the Secretariat and the State Council, and reports to Mao.'
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 20 (Mar. 12, 1966); [[w.peng-zhen-nianpu-1902]], IV, 473 (Mar. 12, 1966; Zhou''s letter to Liu Shaoqi, Peng Zhen, Chen Yi, Li Xiannian
+        and Kang Sheng: to Tianjin at noon for the North China Bureau''s meeting, five days, on war readiness, the small third front, drought, grain and Mao''s works, then a month''s
+        inquiry in Hebei and Peking; while Liu, Chen Yi and others are abroad, foreign and defense work in Peng Zhen''s charge; "when I am needed in Peking, let Comrade Peng Zhen telephone
+        me"). Made public: 2012 ([[w.peng-zhen-nianpu-1902]]). Split under R25b and R17: the nianpu (III, 20) gives the departure its own hour, 十二时半; it is now an entry. Names: Zhou
+        Enlai, Liu Shaoqi, Peng Zhen, Chen Yi, Li Xiannian, Kang Sheng, Mao Zedong.'
+- add:
+    entry:
+      id: cal.1966-03-12.china-zhou
+      when: Mar. 12
+      date: '1966-03-12'
+      place: peking
+      thread: china-zhou
+      follows:
+      - cal.1966-03-12.china-leadership-2
+      c: Zhou Enlai leaves for Tianjin at 12:30, for the North China Bureau's meeting.
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 20 (Mar. 12, 1966; 十二时半，去天津). Made public: 2020. See [[cal.1966-03-12.china-leadership-2]]. Names: Zhou Enlai.'
+      time: 1966-03-12T04:30Z
+      time_zone: Asia/Shanghai
+      tags:
+      - name:zhou-enlai
+      - polity:prc
+      - vis:only:prc
+- follows:
+    id: cal.1966-03-12.china-leadership-3
+    add:
+    - cal.1966-03-12.china-zhou
+- edit:
+    id: cal.1966-03-18.china-leadership
+    base: 0ee1154b
+    kind: correct
+    settles:
+    - 'Check: the Peng Zhen chronology, IV, 473, gives no part of the day'
+    set:
+      c: 'Hangzhou. Mao presides over the enlarged Standing Committee meeting and speaks.{1} On the Party''s past: it has lived through many dangers; its heirs must change as well as
+        inherit.{2} On the academic criticism: a batch, Jian Bozan, Hou Wailu and others, should be brought down, and that is not too many;{3} the Party has many hesitaters.{4} Mao Zedong
+        Thought as "highest and liveliest," "peak": not to be said.{5} The 23rd Congress: not to go, no greetings telegram, simply tell them; Nov. 7 greetings stay; the mass bodies (women''s,
+        youth, student, trade-union federations, peace congress) case by case.{6} To Wu Lengxi at the close: the *Renmin ribao* printed muck, promoted ghost plays and praised Hai Rui;{7}
+        learn from it.{8} Mao does not read the *Renmin ribao*, as Chiang Kai-shek did not read his *Zhongyang ribao*: nothing in it; its editors print a third or a quarter Marxism;
+        Wu Lengxi half a Marxist; no paper is without errors.{10}'
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Mar. 18, 1966. [[w.lengxi-shinian-lunzhan-1956-1966]], 937–939 (the afternoon of Mar. 18, at the Liu villa on the southwest shore of West
+        Lake; Liu and Zhou present, Deng away; Peng Zhen, Kang Sheng, Chen Boda and Wu sitting in; the bureaus'' secretaries not at this session; Mao: going to the 23rd Congress would
+        put China among the middle parties; no greetings telegram, only a notice; Albania, Korea and Vietnam may be told; the Nov. 7 greetings as before; the mass organizations case
+        by case; Peng Zhen to have the Liaison Department tell the Soviet ambassador; the last Standing Committee Wu attended); [[w.macfarquhar-origins-of-the-cultural]], III, 456 (Mao
+        calls the *People''s Daily* semi-Marxist); [[w.mao-zedong-zhuan]], VI, ch. 74 nn.28–31 (Mar. 18: on ''highest and liveliest'' in speaking of Mao Zedong Thought, ''don''t put
+        it that way'', and no ''peak'', n.28; and, n.29, that a batch more should be brought down, Jian Bozan 翦伯赞, Hou Wailu 侯外庐 and the like, ''not too many''; at a small meeting during
+        the Hangzhou meeting, the day not given, Mao reproaches the *Renmin ribao* for much muck, for backing ghost plays and for praising Hai Rui, and Wu Lengxi 吴冷西, its head, as half
+        a Marxist, n.31; Wang Renzhong''s diary has him on Cao Cao 曹操 and Sima Yi 司马懿, who decided on the moment, n.30). [[w.peng-zhen-nianpu-1902]], IV, 473 (Mar. 17–20, 1966; the 18th''s
+        session; Peng Zhen there; Mao: not "highest and most living" Mao Zedong Thought, nor "the summit"; he said at the end of the work conference last autumn that some in Peking would
+        rebel, then rebel, would the whole army follow?; on academic criticism: Jian Bozan, Hou Wailu 侯外庐 and their like better overthrown, bourgeois, the emperors-and-ministers school);
+        [[w.jian-zhou-enlai]], 534 (Mao rejects the leaders'' decision: the Soviets meet amid great troubles at home and abroad; "We should not go there. We should not leave them with
+        any illusions. There is no need for us to even send them a congratulatory telegram. We only need to tell them that we are not coming"; not the day); [[w.pu-weihua-zalan-jiu-shijie]],
+        65 (at a small meeting, the day not given: the *Renmin ribao* printed much muck, promoted ghost plays and praised Hai Rui; like Chiang Kai-shek with his *Zhongyang ribao*, Mao
+        does not read it, nothing in it; its *Xueshu yanjiu* was his idea; Wu Lengxi half a Marxist; its editors print only a third or a quarter Marxism; no paper is without errors;
+        to learn from them, correct them); [[w.peng-zhen-nianpu-1902]], IV, 475 (Mar. 18, 1966: 上午, Peng at the enlarged Standing Committee meeting; 下午, a talk with Chen Boda; 晚, a meeting
+        at Mao''s); [[w.liu-jixian-ye-jianying-nianpu]], II, 935 (Mar. 18–20, 1966; Mao''s enlarged Politburo Standing Committee at Hangzhou 杭州: the academic and educational worlds "in
+        fact held by the bourgeoisie and petty bourgeoisie"; planning powers to go down, the Center to manage the general, not the particular); [[w.pu-weihua-zalan-jiu-shijie]], 65.
+        Made public: 1997 ([[w.macfarquhar-origins-of-the-cultural]]). The Peng Zhen chronology gives the enlarged meeting the morning (IV, 475); Wu Lengxi (937) dates the Liu villa
+        session to the afternoon, and that session is its own entry. Check: Wu Lengxi (937–39) puts Mao''s words on the 23rd Congress at that afternoon session; the Mao nianpu gives
+        them under the day''s meeting. To check: Mao Zedong 毛泽东, speech at the enlarged meeting of the Politburo Standing Committee 中共中央政治局常委扩大会议 (record 讲话记录), Mar. 18, 1966 (cited
+        by [[w.mao-zedong-zhuan]], VI, ch. 74 n.28); Mao Zedong 毛泽东, interjections at the Hangzhou meeting 杭州会议 (record 插话记录), Mar. 18, 19 and 20 (the note prints 1965) (cited by [[w.mao-zedong-zhuan]],
+        VI, ch. 74 n.29); [[w.lengxi-yi-mao-zhuxi-remembering]], 152 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.31); [[w.yan-mingfu-huiyilu]], II, 885–887 (cited by [[w.jian-zhou-enlai]],
+        534 n.68c). Split under R25b and R17: Wu Lengxi (937) dates the Liu villa session of the 18th to the afternoon; it is now an entry. Names: Mao Zedong, Wu Lengxi, Jian Bozan,
+        Hou Wailu, Peng Zhen, Kang Sheng, Chen Boda, Chiang Kai-shek.'
+      src:
+        c: 8e9a7490
+        rows:
+        - 'w.zedong-mao-zedong-nianpu V, Mar. 18, 1966: 1, 2, 3, 4, 5, 6, 7, 8'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 937–939: 1, 6'
+        - 'w.macfarquhar-origins-of-the-cultural III, 456: 7'
+        - 'w.mao-zedong-zhuan VI, ch. 74 nn.28–31: 3, 5'
+        - 'via w.mao-zedong-zhuan VI, ch.74 n.28: 5'
+        - 'via w.mao-zedong-zhuan VI, ch.74 n.29: 3'
+        - 'w.peng-zhen-nianpu-1902 IV, 473: 3, 5'
+        - 'w.jian-zhou-enlai 534: ?'
+        - 'w.liu-jixian-ye-jianying-nianpu II, 935: ?'
+        - 'w.pu-weihua-zalan-jiu-shijie 65: 8, 10'
+        - 'w.peng-zhen-nianpu-1902 IV, 475: 1'
+      time_range:
+      - 1966-03-17T22:00Z
+      - 1966-03-18T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      range_basis: record
+- add:
+    entry:
+      id: cal.1966-03-18.china-hai-rui
+      when: Mar. 18
+      date: '1966-03-18'
+      place: hangzhou
+      thread: china-hai-rui
+      also:
+      - soviet-union
+      - china-mao-foreign
+      follows:
+      - cal.1966-03-18.china-leadership
+      c: 'Hangzhou, the Liu villa on the southwest shore of West Lake. Mao holds a Standing Committee meeting in the afternoon: Liu Shaoqi and Zhou Enlai there, Deng away; Peng Zhen,
+        Kang Sheng, Chen Boda and Wu Lengxi sitting in; the bureaus'' secretaries not at this session. All agree with Mao; Peng Zhen explains that the second telephone report to him
+        was only another idea for his reference, the Standing Committee in Peking having no settled view. Decided: the Party sends no delegation to the 23rd Congress; Peng Zhen to have
+        the Liaison Department tell the Soviet embassy.'
+      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 937–939 (3月18日下午, 刘庄别墅; Liu and Zhou at the meeting, Deng away on inspection; Peng Zhen, Kang Sheng, Chen Boda and Wu sitting in; the
+        bureaus'' secretaries not at it; at the small session all agree with Mao; Peng Zhen explains that the second telephone report was another idea for the Chairman''s reference;
+        the decision: no delegation, Peng Zhen to have the Liaison Department tell the Soviet embassy). Made public: 1999. Check: the part of the day. The Peng Zhen chronology has Peng
+        talk with Chen Boda in the afternoon and go to a meeting at Mao''s in the evening ([[w.peng-zhen-nianpu-1902]], IV, 475). See [[cal.1966-03-18.china-leadership]]. Names: Mao
+        Zedong, Liu Shaoqi, Zhou Enlai, Peng Zhen, Kang Sheng, Chen Boda, Wu Lengxi.'
+      tags:
+      - name:mao-zedong
+      - name:liu-shaoqi
+      - name:zhou-enlai
+      - name:peng-zhen
+      - name:kang-sheng
+      - name:chen-boda
+      - name:wu-lengxi
+      - polity:prc
+      - vis:only:prc
+      time_range:
+      - 1966-03-18T04:00Z
+      - 1966-03-18T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1966-03-20.china-leadership-2
+    base: 5c027454
+    kind: correct
+    set:
+      c: Zhou Enlai goes to Shanghai.
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 22 (Mar. 20, 1966). Made public: 2020. After [[cal.1966-03-20.china-leadership|the morning session at Hangzhou]]: Zhou at the meeting
+        Mar. 18–20, then to Shanghai on the 20th (III, 22); the session of the 20th in the morning ([[w.peng-zhen-nianpu-1902]], IV, 475). Split under R25b and R17: the nianpu (III,
+        22) puts the flight back in the night, 当夜; it is now an entry. Names: Zhou Enlai.'
+- add:
+    entry:
+      id: cal.1966-03-20.china-zhou
+      when: Mar. 20
+      date: '1966-03-20'
+      place: shanghai
+      thread: china-zhou
+      follows:
+      - cal.1966-03-20.china-leadership-2
+      c: Zhou Enlai flies back to Peking from Shanghai that night.
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 22 (Mar. 20, 1966; 当夜飞回北京). Made public: 2020. See [[cal.1966-03-20.china-leadership-2]]. Names: Zhou Enlai.'
+      tags:
+      - name:zhou-enlai
+      - polity:prc
+      - vis:only:prc
+      time_range:
+      - 1966-03-20T14:00Z
+      - 1966-03-20T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      range_basis: record
+- check:
+    id: cal.1966-03-22.china-leadership-4
+    text: 'Check: the day. The Liu nianpu (II, 634, read) has Liu leave Peking Mar. 22 for Urumqi and hear the Xinjiang committee''s report there Mar. 24; the Chen Yi nianpu (1139, read)
+      has Chen Yi go with Liu and Wang Guangmei from Peking Mar. 25, reaching Urumqi that day; the Zhou Enlai waijiao huodong (491, read) has Zhou at the airport Mar. 25 seeing Liu and
+      Wang Guangmei off for Pakistan and Afghanistan.'
+- edit:
+    id: cal.1966-03-31.china-leadership
+    base: 2059d7a3
+    set:
+      src:
+        c: b6ec3145
+        rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 23–24: ?'
+        - 'w.macfarquhar-maos-last-revolution 32: 1'
+        - 'w.mao-zedong-zhuan VI, ch. 74: 1'
+        - 'w.peng-zhen-nianpu-1902 IV, 477: ?'
+        - 'w.jian-zhou-enlai 537: ?'
+        - 'w.pu-weihua-zalan-jiu-shijie 68: 1'
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 23–24 (Mar. 31, 1966; the item begins at the foot of p. 23 and ends at the top of p. 24); [[w.macfarquhar-maos-last-revolution]], 32
+        (Kang Sheng tells Peng Zhen and Zhou of Mao''s three talks, Mar. 28–30); [[w.mao-zedong-zhuan]], VI, ch. 74 (Kang Sheng, back in Peking Mar. 31, tells Zhou Enlai, Peng Zhen and
+        other Center leaders in detail what Mao said in several talks). [[w.peng-zhen-nianpu-1902]], IV, 477 (Mar. 31, 1966; Peng Zhen, with Zhou and others, hears Kang Sheng relay Mao''s
+        three talks at Shanghai, Mar. 28–30, with Kang, Zhang Chunqiao, Jiang Qing and others); [[w.jian-zhou-enlai]], 537 (Kang, back in Peking Mar. 31, at once conveys Mao''s opinions
+        to Zhou and Peng Zhen); [[w.pu-weihua-zalan-jiu-shijie]], 68 (Kang Sheng, back in Peking, relays the Shanghai talks to Zhou Enlai and Peng Zhen). Made public: 2006. Check: Made
+        public: the *Mao Zedong zhuan* prints the act in its 2011 text ([[w.mao-zedong-zhuan]], VI, ch. 74), by its postscript first in 2003 ([[w.xianzhi-mao-zedong-zhuan-1949]]), earlier
+        than the year given; earlier still if the 1997 edition of the Zhou chronology ([[w.zhou-enlai-nianpu-1949]]), cited here, prints it. To check: [[w.wenhua-dageming-yanjiu-ziliao]],
+        I, 10–11 (cited by [[w.macfarquhar-maos-last-revolution]], 32 n.3). See [[cal.1966-03-28.china-leadership-2]]. Names: Zhou Enlai, Peng Zhen, Kang Sheng, Mao Zedong, Jiang Qing,
+        Zhang Chunqiao.'
+- edit:
+    id: cal.1966-03-31.china-leadership-2
+    base: 3f9f248f
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 24 (Mar. 31, 1966, the item after; no hour given); [[w.pu-weihua-zalan-jiu-shijie]], 68 (the second strong Xingtai earthquake, stronger
+        than that of Mar. 8; Zhou, having heard Kang Sheng, flies at once to the quake zone). Made public: 2008 ([[w.pu-weihua-zalan-jiu-shijie]]). Names: Zhou Enlai.'
+      time_range:
+      - 1966-03-31T11:00Z
+      - 1966-03-31T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1966-04-04.china-leadership-4
+    base: f892565c
+    kind: correct
+    set:
+      c: Liu Shaoqi leaves Hotan for Afghanistan and reaches Kabul;{1} King Mohammed Zahir Shah and the Queen welcome him.{2}
+      n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 4, 1966); [[w.macfarquhar-origins-of-the-cultural]], III, 456 (Liu flies to Afghanistan); [[w.chen-yi-nianpu]], 1142
+        (Apr. 4, 1966, morning, Chen Yi goes with Liu and his wife from Hotan to Kabul). Split under R25b and R17: the Chen Yi nianpu (1142) gives the wreath the afternoon and the banquet
+        the evening; each is now an entry. Names: Liu Shaoqi, Zahir Shah.'
+- src:
+    id: cal.1966-04-04.china-leadership-4
+    row: w.shaoqi-liu-shaoqi-nianpu-chronology II, 635
+    'on': Liu Shaoqi leaves Hotan for Afghanistan and reaches Kabul;
+- src:
+    id: cal.1966-04-04.china-leadership-4
+    row: w.shaoqi-liu-shaoqi-nianpu-chronology II, 635
+    'on': King Mohammed Zahir Shah and the Queen welcome him.
+- src:
+    id: cal.1966-04-04.china-leadership-4
+    row: w.chen-yi-nianpu 1142
+    'on': Liu Shaoqi leaves Hotan for Afghanistan and reaches Kabul;
+- add:
+    entry:
+      id: cal.1966-04-04.china-liu
+      when: Apr. 4
+      date: '1966-04-04'
+      place: kabul
+      thread: china-liu
+      also:
+      - china-foreign
+      follows:
+      - cal.1966-04-04.china-leadership-11
+      c: Liu Shaoqi lays a wreath at the tomb of King Mohammed Nadir Shah.
+      n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 4, 1966); [[w.chen-yi-nianpu]], 1142 (Apr. 4, 1966; in the afternoon, Chen Yi present at Liu''s wreath at the tomb
+        of Nadir Shah 穆罕默德·纳迪尔·沙阿). Made public: 1996. See [[cal.1966-04-04.china-leadership-4]]. The order: after [[cal.1966-04-04.china-leadership-11]], the printed order alone ([[w.chen-yi-nianpu]],
+        1142). Names: Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:liu-shaoqi
+      time_range:
+      - 1966-04-04T07:30Z
+      - 1966-04-04T13:30Z
+      time_band: afternoon
+      time_zone: Asia/Kabul
+      range_basis: record
+- add:
+    entry:
+      id: cal.1966-04-04.china-liu-2
+      when: Apr. 4
+      date: '1966-04-04'
+      place: kabul
+      thread: china-liu
+      also:
+      - china-foreign
+      follows:
+      - cal.1966-04-04.china-liu
+      c: 'Liu Shaoqi at the state banquet the King gives him and his wife, evening: China has always held to developing relations with all countries on the five principles of peaceful
+        coexistence; it will not let others treat it with great-power chauvinism, and does not allow itself to treat others so.'
+      n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 4, 1966); [[w.chen-yi-nianpu]], 1142 (Apr. 4, 1966; in the evening, Chen Yi at the state banquet given by the King
+        and Queen for Liu and his wife, and the reception after it in the hall of the Dilkusha palace). Made public: 1996. See [[cal.1966-04-04.china-leadership-4]]. Names: Liu Shaoqi,
+        Zahir Shah.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:liu-shaoqi
+      - name:zahir-shah-mohammed
+      time_range:
+      - 1966-04-04T14:30Z
+      - 1966-04-04T17:30Z
+      time_band: evening
+      time_zone: Asia/Kabul
+      range_basis: record
+- edit:
+    id: cal.1966-04-04.vietnam-struggle-3
+    base: 44ad97a6
+    set:
+      n: '[FRUS 1964–68, IV, doc. 112](https://history.state.gov/historicaldocuments/frus1964-68v04/d112) (Valenti''s notes). [[w.gibbons-u-s-government-and]], IV, 279–81; [[w.dallek-flawed-giant]],
+        360 (the meeting two days later: Johnson "rather have someone we can control... than a communist takeover"; Taylor against "a Tri Quang government"; "Ky is gone, the last gasp.
+        ... Let''s get a government we can appoint and support"; not the hours or who was present); [[w.valenti-very-human-president]], 248 (Valenti''s memorandum of 10:20 p.m. after
+        "tonight''s meeting on Vietnam"; no hour or names). Made public: FRUS 1964–68, IV (1998). Names: Johnson, Humphrey, Rusk, McNamara, Rostow, Taylor, William Bundy, Fortas, Westmoreland,
+        Nguyễn Cao Kỳ.'
+- edit:
+    id: cal.1966-04-06.vietnam
+    base: 5a20662c
+    kind: correct
+    set:
+      src:
+        c: fe75e10b
+        rows:
+        - 'w.gibbons-u-s-government-and IV, 283–84: 1'
+        - 'via w.gibbons-u-s-government-and IV, 283 n.53: 1'
+        - 'w.valenti-very-human-president 249: ?'
+      c: 'Johnson with Humphrey, Rusk, McNamara, Rostow, William Bundy and others, fifty minutes, on Đà Nẵng. McNamara: the Struggle Movement may be too strong to throw off; "I don''t
+        want to go to war against them."{1}'
+      n: '[[w.gibbons-u-s-government-and]], IV, 283–84 (the meeting, by Valenti''s notes); [[w.valenti-very-human-president]], 249 (Valenti''s note of 6:30 p.m. "about the meeting at
+        5:00 today"; no names or length). To check: Valenti''s notes of the meeting, Apr. 6, 1966 (LBJ Library, Meeting Notes File). See [[cal.1966-03-10.vietnam]]. Split under R25b
+        and R17: telegram 3001 (FRUS, IV, doc. 116) gives the cable its own hour, 7:15 p.m.; it is now an entry. Names: Johnson, Humphrey, Rusk, McNamara, Rostow, William Bundy.'
+      time_range:
+      - 1966-04-06T22:20Z
+      - 1966-04-06T23:10Z
+      time_zone: America/New_York
+      range_basis: record
+      place: washington
+    unset:
+    - time_band
+- tag:
+    id: cal.1966-04-06.vietnam
+    remove:
+    - name:lodge-henry-cabot
+- cite:
+    id: cal.1966-04-06.vietnam
+    item: '[[w.gibbons-u-s-government-and]], IV, 283 (5:20 to 6:10 p.m.)'
+    'on': time
+- add:
+    entry:
+      id: cal.1966-04-06.vietnam-struggle-4
+      when: Apr. 6
+      date: '1966-04-06'
+      place:
+      - washington
+      - saigon
+      thread: vietnam-struggle
+      follows:
+      - cal.1966-04-06.vietnam
+      c: 'Rusk to Lodge, telegram 3001: Saigon is right to seek an over-all political solution first; no American push for a showdown at Đà Nẵng.'
+      n: '[FRUS 1964–68, IV, doc. 116](https://history.state.gov/historicaldocuments/frus1964-68v04/d116) (Washington, Apr. 6, 1966, 7:15 p.m.). [[w.gibbons-u-s-government-and]], IV,
+        284 (Bundy''s draft, apparently approved by the President). Made public: FRUS 1964–68, IV (1998). See [[cal.1966-04-06.vietnam]]. Names: Rusk, Lodge.'
+      time: 1966-04-07T00:15Z
+      time_zone: America/New_York
+      tags:
+      - name:rusk-dean
+      - name:lodge-henry-cabot
+- edit:
+    id: cal.1966-04-07.china-leadership-2
+    base: 9b46780f
+    kind: correct
+    set:
+      c: Liu Shaoqi visits the Afghan national museum.
+      n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 7, 1966); [[w.chen-yi-nianpu]], 1142 (Apr. 7, 1966; Chen Yi with Liu at the national museum). Split under R25b and
+        R17: the Chen Yi nianpu (1142) puts the rally in the afternoon; it is now an entry. Names: Liu Shaoqi.'
+- add:
+    entry:
+      id: cal.1966-04-07.china-liu
+      when: Apr. 7
+      date: '1966-04-07'
+      place: kabul
+      thread: china-liu
+      also:
+      - china-foreign
+      follows:
+      - cal.1966-04-07.china-leadership-5
+      c: Liu Shaoqi speaks at the welcome meeting of the people of Kabul, in the Ghazi stadium.
+      n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 7, 1966; the rally and his speech); [[w.chen-yi-nianpu]], 1142 (Apr. 7, 1966; in the afternoon, Chen Yi at the Kabul
+        citizens'' rally in the Ghazi stadium 加齐体育场 welcoming Liu and his wife). Made public: 1996. See [[cal.1966-04-07.china-leadership-2]]. The order: after [[cal.1966-04-07.china-leadership-5]],
+        the printed order alone ([[w.chen-yi-nianpu]], 1142). Names: Liu Shaoqi.'
+      tags:
+      - polity:prc
+      - polity:afghanistan
+      - name:liu-shaoqi
+      time_range:
+      - 1966-04-07T07:30Z
+      - 1966-04-07T13:30Z
+      time_band: afternoon
+      time_zone: Asia/Kabul
+      range_basis: record
+- edit:
+    id: cal.1966-04-14.china-leadership-2
+    base: 596cf089
+    kind: correct
+    set:
+      c: 'Mao revises, again and again to month''s end, the Center''s notice withdrawing the Five-Man Group''s Outline, from drafts of Zhou Enlai, Deng Xiaoping and Peng Zhen.{1} The
+        text becomes the May 16 Circular.{3} The drafting group is Chen Boda head, with Kang Sheng, Jiang Qing, Zhang Chunqiao, Wang Li, Guan Feng, Qi Benyu, Wu Lengxi, Yin Da, Mu Xin
+        and Chen Yading; each draft goes to Hangzhou, is revised by Mao and sent back, seven times from Apr. 14 to the month''s end.{4} His first note that morning, to Zhou, Deng, Peng
+        Zhen and Kang Sheng: "some revisions, please consider."{5}'
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 14, 17–30, 1966 (the entry "4月14日、17日至月底"). [[w.jianguo-yilai-mao-zedong]], XVIII, 246–253 (Apr. 14, 1966; Mao''s notes of the morning
+        of Apr. 14: to Zhou Enlai, Deng Xiaoping, Peng Zhen and Kang Sheng, "some revisions, please consider"; at 9 a.m., to Zhou, Deng and Peng 彭真, their letter of Apr. 12 with its
+        enclosure received, Kang and Chen and the drafting group to go to Shanghai, then to him the night of the 16th or the morning of the 17th, the three to come on the 16th, whether
+        the Center bureaus send men theirs to decide; his insertions, items 5–11 (on no equality between proletariat and bourgeoisie; the bourgeois representatives in Party, government
+        and army, some trusted and groomed as successors "like Khrushchev," sleeping beside us); note 1: the notice adopted May 16 by the enlarged Politburo, printed in *Renmin ribao*
+        May 17, 1967; note 2: Deng then with Mao at Hangzhou); [[w.macfarquhar-origins-of-the-cultural]], III, 458 (Mao revises the condemnation seven times; it goes out as the May 16
+        notification); [[w.mao-zedong-zhuan]], VI, ch. 74 (the notice drafted by Chen Boda is sent Apr. 14 to Mao at Hangzhou; Mao revises it three times, on the 14th and 17th, and makes
+        small changes in the draft on the 27th; the passages he adds; it becomes the Circular of May 16). [[w.peng-zhen-nianpu-1902]], IV, 481 (Apr. 14, 1966, morning; Mao makes "some
+        changes" in Chen Boda''s draft of the 12th, "to Enlai, Xiaoping, Peng Zhen and Kang Sheng" to weigh); [[w.pu-weihua-zalan-jiu-shijie]], 69 (Mao, not content with a technical
+        notice, wants a political one; Kang Sheng, Chen Boda and the drafting group to go to Shanghai and draft it with Jiang Qing and Zhang Chunqiao; the group, Chen Boda its head,
+        Kang Sheng, Jiang Qing, Zhang Chunqiao, Wang Li, Guan Feng, Qi Benyu, Wu Lengxi, Yin Da, Mu Xin and Chen Yading; each draft sent to Hangzhou, revised by Mao and sent back, seven
+        times from Apr. 14 to the month''s end); [[w.pu-weihua-zalan-jiu-shijie]], 69; [[w.jianguo-yilai-mao-zedong]], XVIII, 246–47. Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]).
+        To check: Central Committee, draft notice withdrawing the Five-Man Group''s Outline (draft of Apr. 12, 1966), sent from Peking by Zhou Enlai, Deng Xiaoping and Peng Zhen with
+        their letter of Apr. 12 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 252 n.2); [[w.jin-1949-1989-niande-zhongguo]], 623–5 (cited by [[w.macfarquhar-origins-of-the-cultural]],
+        III, 458 n.154). See [[cal.1966-02-12.china-leadership-2]]. Split under R25b and R17: the Mao nianpu (V, Apr. 14) gives the note to Jiang Qing its own hour, 8:30 a.m.; it is
+        now an entry, and the letter of 9 a.m. is another. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Jiang Qing, Kang Sheng, Chen Boda, Zhang Chunqiao, Wang Li, Guan Feng,
+        Qi Benyu, Wu Lengxi, Yin Da, Mu Xin, Chen Yading.'
+      src:
+        c: 1c7d9c45
+        rows:
+        - 'w.zedong-mao-zedong-nianpu V, Apr. 14, 17–30, 1966: ?'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 246–253: 1'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 251 n.1a: 1, 3'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 252 n.1b: 1, 3'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 252 n.2: 1, 3'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 253 n.6: 1, 3'
+        - 'w.macfarquhar-origins-of-the-cultural III, 458: 1, 3'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 458 n.154: 1, 3'
+        - 'w.mao-zedong-zhuan VI, ch. 74: 3'
+        - 'w.peng-zhen-nianpu-1902 IV, 481: ?'
+        - 'w.pu-weihua-zalan-jiu-shijie 69: 4'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 246–47: 5'
+- add:
+    entry:
+      id: cal.1966-04-14.china-may-sixteenth
+      when: Apr. 14
+      date: '1966-04-14'
+      place: hangzhou
+      thread: china-may-sixteenth
+      also:
+      - china-mao-cr
+      follows:
+      - cal.1966-04-14.china-leadership-2
+      c: 'Mao 毛泽东, at 8:30 a.m., writes from Hangzhou 杭州 to Jiang Qing 江青: two copies of the Peking draft sent for her changes; Kang Sheng 康生 and Chen Boda 陈伯达 to go to Shanghai that
+        day or the next to discuss it with her, then to report to him on the night of the 16th.'
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 14, 1966 (上午八时半批示); [[w.jianguo-yilai-mao-zedong]], XVIII, 246–253 (at 8:30 a.m., sending two copies of the Peking draft for changes,
+        Kang Sheng and Chen Boda to go to Shanghai that day or the next to discuss it and report to him on the night of the 16th). Made public: 2013. See [[cal.1966-04-14.china-leadership-2]].
+        The order: after [[cal.1966-04-14.china-leadership-2]], the printed order alone ([[w.zedong-mao-zedong-nianpu]], V, Apr. 14, 1966). Names: Mao Zedong, Jiang Qing, Kang Sheng,
+        Chen Boda.'
+      time: 1966-04-14T00:30Z
+      time_zone: Asia/Shanghai
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:mao-zedong
+      - name:jiang-qing
+      - name:kang-sheng
+      - name:chen-boda
+- add:
+    entry:
+      id: cal.1966-04-16.china-may-sixteenth
+      when: Apr. 16
+      date: '1966-04-16'
+      thread: china-may-sixteenth
+      also:
+      - china-zhou-cr
+      follows:
+      - cal.1966-04-16.china-leadership-7
+      c: Deng Xiaoping 邓小平 talks with Zhou Enlai 周恩来, 6 p.m.
+      n: '[[w.deng-xiaoping-nianpu-1904]], III, 1909 (Apr. 16, 1966; 下午六时, 同周恩来谈话; after the flight to Shanghai and on to Hangzhou, the place of the talk not given). Made public: 2009.
+        See [[cal.1966-04-16.china-leadership-3]]. Names: Deng Xiaoping, Zhou Enlai.'
+      time: 1966-04-16T10:00Z
+      time_zone: Asia/Shanghai
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:deng-xiaoping
+      - name:zhou-enlai
+- edit:
+    id: cal.1966-04-19.china-leadership
+    base: '62679183'
+    kind: correct
+    set:
+      when: Apr. 16
+      date: '1966-04-16'
+      n: '[[w.macfarquhar-maos-last-revolution]], 33–34; [[w.yang-jisheng-tiandi-fanfu]], I, 126 (at Hangzhou Peng asks Mao''s secretary Xu Yefu 徐業夫 for a meeting of twenty minutes;
+        Mao will not see him; the day not given); [[w.peng-zhen-nianpu-1902]], IV, 482 (Apr. 16, 1966; on reaching Hangzhou Peng Zhen asks, through Mao''s secretary Xu Yefu 徐业夫, to see
+        Mao for only twenty minutes; no reply); [[w.pu-weihua-zalan-jiu-shijie]], 70 (Peng asks Mao''s secretary Xu Yefu for a meeting, "only twenty minutes"; Mao takes no notice; the
+        day not given). Made public: 2006. The Peng Zhen chronology dates the request Apr. 16, on his reaching Hangzhou ([[w.peng-zhen-nianpu-1902]], IV, 482, read: the item of Apr.
+        16 that records his arrival with Zhou, Deng and the bureau heads); MacFarquhar''s Apr. 19 (33) is the day he gives for Mao''s calling the meeting, which the Mao nianpu (V) and
+        the Deng nianpu (III, 1909) date Apr. 16. To check: [[w.huang-factionalism-in-chinese-communist]], 279–280 (cited by [[w.macfarquhar-maos-last-revolution]], 34 n.6a); [[w.huang-factionalism-in-chinese-communist]],
+        86, 129, 143–146 (cited by [[w.macfarquhar-maos-last-revolution]], 34 n.6b); Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首「文革」》 (Zhonggong dangshi
+        chubanshe 中共黨史出版社), 594–596 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 126 n.47). Names: Peng Zhen, Mao Zedong.'
+      variants:
+      - field: date
+        value: '1966-04-19'
+        witness: w.macfarquhar-maos-last-revolution
+        reads: Mao calls the enlarged meeting Apr. 19, and Peng asks "upon arrival"
+        at: 33–34
+- edit:
+    id: cal.1966-05-04.china-leadership
+    base: 60fb1847
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], V, May 4, 1966; [[w.zhou-enlai-nianpu-1949-2020]], III, 29–30 (May 4–26, 1966; Zhou attends from the 16th; the Circular of May 16 and Lin Biao''s
+        speech of May 18); [[w.macfarquhar-maos-last-revolution]], 36–37 (close to eighty present); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 637–638 (May 4–26, 1966; Liu presides
+        at the enlarged Politburo meeting; before it Mao, in turn, had criticized the errors of Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun and drawn up the Central Committee''s
+        notice meant to launch the Cultural Revolution, later called the "May 16 Notification"; during the meeting Mao is not in Peking, and Kang Sheng reports to him; by Mao''s view
+        the meeting stops and revokes the posts of Peng, Luo, Lu and Yang and adopts the Notification, which announces the withdrawal of the February Outline and of the former Cultural
+        Revolution Group of Five); [[w.macfarquhar-origins-of-the-cultural]], III, 458–59 (eighty present, all working in the capital; Mao in Hangzhou; Liu Shaoqi presides); [[w.deng-xiaoping-nianpu-1904]],
+        III, 1912–1913 (May 4–26, 1966; the Politburo''s enlarged meeting is held at Peking, Liu Shaoqi presiding, following Mao''s plan made at the Hangzhou meeting of April; Kang Sheng,
+        Chen Boda, Zhang Chunqiao 张春桥 and others first ''introduce the situation'' and expose and criticize the ''errors'' of Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun; on
+        the 16th it adopts the Notice of the Central Committee, revised by Mao, later called the ''May 16 Notice''; the nianpu: Deng and Zhou, accompanying foreign guests on tours outside
+        Peking, did not attend the meeting''s early sessions); [[w.mao-zedong-zhuan]], VI, ch. 74 (May 4–26 at Peking the Politburo meets in enlarged session under Liu Shaoqi to criticize
+        Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun; on May 23 it stops their posts in the Secretariat and removes Peng and Lu from the others). [[w.yang-jisheng-tiandi-fanfu]],
+        I, 158 (May 4–26, 23 days, in Peking; 76 attend: the Politburo''s members and alternates, department heads, and the document-drafting group''s eight, Zhang Chunqiao 張春橋, Guan
+        Feng 關鋒, Qi Benyu 戚本禹 and others; Liu presides, Mao, far away, does not attend); [[w.peng-zhen-nianpu-1902]], IV, 484 (May 4–26, 1966; the enlarged Politburo at Peking under
+        Liu Shaoqi, Mao at Hangzhou, Kang Sheng reporting to him; in a very abnormal air it criticizes Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun; the first plenary session
+        under Liu on the afternoon of the 11th); [[w.jian-zhou-enlai]], 540 (enlarged Politburo meetings chaired by Liu; Mao absent but in control); [[w.teiwes-tragedy-of-lin-biao]],
+        61 (by May 6 Peng Zhen''s and Lu Dingyi''s opposition to the revolutionary line in culture exposed, and Peng, Lu, Luo Ruiqing and Yang Shangkun labelled anti-Party, anti-socialist,
+        anti-Mao Zedong Thought; in its early stages Kang Sheng, Zhang Chunqiao and Chen Boda convey Mao''s opinions); [[w.chen-yi-nianpu]], 1147 (May 4–26, 1966; Chen Yi at the enlarged
+        meeting of the Politburo at Peking, which on May 16 adopts the Central Committee''s Notice (the May 16 Notice 《五·一六通知》)); [[w.pu-weihua-zalan-jiu-shijie]], 74 (May 4 to 26, Peking;
+        Mao away, the meeting run on the Hangzhou meeting''s plan and his directions on its agenda and papers; to give the Cultural Revolution legal standing; Liu Shaoqi presiding, Kang
+        Sheng reporting to Mao; Politburo members and alternates, heads of departments and the drafting group, the regional and provincial heads hardly any; the first three days a briefing
+        forum, chiefly Kang Sheng, Zhang Chunqiao and Chen Boda); [[w.liu-jixian-ye-jianying-nianpu]], II, 937 (May 4–26, 1966; Ye Jianying 叶剑英 at the enlarged Politburo in Peking 北京);
+        [[w.chen-yun-nianpu-xiuding]], III, 152–153 (May 4–26, Liu Shaoqi presiding: Kang Sheng relays Mao''s views on criticizing Peng Zhen and Lu Dingyi and dissolving the Propaganda
+        Department and the Peking committee; Peng Zhen, Luo Ruiqing, Lu Dingyi and Yang Shangkun wrongly denounced; the Standing Committee sets up a special committee on their "anti-Party
+        clique"; Zhu De criticized for doubting that Mao''s thought is the summit of Marxism-Leninism; on the last day Liu Shaoqi criticizes himself; the meeting marks the Cultural Revolution''s
+        launch; Chen Yun absent, ill); [[w.zhu-de-nianpu-xinbian]], III, 1952–1953 (May 4–26, 1966; Zhu De 朱德 at the enlarged Politburo meeting 中共中央政治局扩大会议 in Peking 北京, which wrongly
+        criticizes the so-called "anti-Party group of Peng Zhen 彭真, Luo Ruiqing 罗瑞卿, Lu Dingyi 陆定一 and Yang Shangkun 杨尚昆"; on Mao Zedong''s 毛泽东 advice it suspends Peng Zhen, Luo Ruiqing
+        and Lu Dingyi as secretaries of the Secretariat 中共中央书记处, removes Peng Zhen as first secretary of the Peking committee and mayor and Lu Dingyi as head of the Propaganda Department
+        中宣部, suspends Yang Shangkun as alternate secretary, dissolves the Five-Man Group 文化革命五人小组 and sets up the Cultural Revolution Group 文化革命小组 (later the Central Cultural Revolution
+        Group 中央文革小组) under the Politburo Standing Committee 中央政治局常委); [[w.peng-dehuai-nianpu]], 795 (May 4–26, 1966: the enlarged Politburo meeting at Peking 北京; its explanation of
+        the decision of the enlarged meeting, May 24, touching Peng Dehuai 彭德怀: the "Peng Dehuai anti-Party clique" exposed and criticized early in 1960); [[w.yang-jisheng-tiandi-fanfu]],
+        I, 159 (the whole meeting chaired in turn by Liu, Zhou and Ye Jianying; the first four days'' briefings by Kang Sheng, Zhang Chunqiao and Xiao Hua, Chen Boda speaking after Zhang);
+        [[w.chen-yi-nianpu]], 1147; [[w.zhou-enlai-nianpu-1949-2020]], III, 30. Made public: 1988 ([[w.nianyi-da-dongluande-niandai]]). To check: the Politburo meeting''s minutes and
+        reports of May 4–26, 1966 (not printed in the nianpu); note 29 gives the rehabilitations (Peng, Feb. 17, 1979; Luo, May 20, 1980; Lu, June 8, 1979; Yang, Oct. 23, 1980); [[w.wenhua-dageming-yanjiu-ziliao]],
+        I, 25 (cited by [[w.macfarquhar-maos-last-revolution]], 36 n.18); [[w.nianyi-da-dongluande-niandai]], 10 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 459 n.157).
+        Names: Liu Shaoqi, Mao Zedong, Peng Zhen, Luo Ruiqing, Lu Dingyi, Yang Shangkun, Zhang Chunqiao, Zhou Enlai, Ye Jianying, Kang Sheng, Chen Boda, Zhu De, Deng Xiaoping, Chen Yun,
+        Guan Feng, Qi Benyu, Chen Yi.'
+- edit:
+    id: cal.1966-05-05.china-leadership-2
+    base: 11f16cf0
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 30 (May 5, 1966); [[w.zhou-enlai-waijiao-huodong]], 493 (May 5–7, 1966; May 5, noon, by special plane from Harbin to Shanghai with the
+        delegation; May 6, morning, with Deng Xiaoping, the Shanghai industrial exhibition, the Yongxin seamless steel tube plant and the Shanghai Children''s Palace; afternoon, the
+        rally of more than 10,000 workers; evening, the banquet given by Cao Diqiu, secretary of the Shanghai Party committee and mayor; May 7, morning, the airport farewell as the delegation
+        leaves for Hangzhou). Made public: 1993. The time is the first day''s: the flight from Harbin, 中午 (493). See [[cal.1966-05-05.china-leadership]]. Names: Zhou Enlai, Shehu.'
+      place: harbin
+      time_range:
+      - 1966-05-05T04:00Z
+      - 1966-05-05T06:00Z
+      time_band: workday midday
+      time_zone: Asia/Shanghai
+      range_basis: record
+- add-words:
+    id: cal.1966-05-06.china-leadership
+    after: Lu Dingyi is recalled to Peking and put under house arrest.
+    words: Wang Dongxing telephones him in the south and tells him to attend the enlarged Politburo meeting.
+    item: '[[w.yang-jisheng-tiandi-fanfu]], I, 147–148 (in the south since Mar. 6, Lu Dingyi is rung up on May 6 by Wang Dongxing 汪東興 and told to attend the enlarged Politburo meeting;
+      the house arrest is not given)'
+- names:
+    id: cal.1966-05-06.china-leadership
+    add:
+    - Wang Dongxing
+    tags:
+    - name:wang-dongxing
+- check:
+    id: cal.1966-05-06.china-leadership
+    text: 'Check: the day of the recall and the house arrest. Yang Jisheng (I, 147–48, read) has Wang Dongxing''s call on May 6 and Lu''s
+      flight from Hefei to Peking on May 8 (see [[cal.1966-05-08.china-leadership-2]]), and does not give a house arrest; MacFarquhar (35, read) has Lu recalled to Peking on May 6 and
+      at once put under house arrest.'
+- edit:
+    id: cal.1966-05-10.china-leadership-2
+    base: 8b7228dd
+    set:
+      time_range:
+      - 1966-05-10T14:00Z
+      - 1966-05-11T16:00Z
+      time_zone: Asia/Shanghai
+      range_basis: record
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 30 (under May 10–11, 1966; 两晚彻夜未眠, the two nights). Made public: 2020. See [[cal.1966-05-10.china-leadership]]. Names: Zhou Enlai.'
+- edit:
+    id: cal.1966-05-15.vietnam-struggle
+    base: f714893a
+    set:
+      time: 1966-05-15T09:39Z
+      time_zone: America/New_York
+      n: '[[w.gibbons-u-s-government-and]], IV, 316 (the cable received at State at 5:39 a.m., Washington time, Sunday, May 15). On Kỳ''s move: [[cal.1966-05-15.vietnam]]. To check:
+        Saigon to Washington 4610, May 15, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 316 n.6). See [[cal.1966-05-15.vietnam]].
+        Names: Thích Trí Quang, Johnson, Nguyễn Văn Thiệu, Nguyễn Cao Kỳ.'
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- edit:
+    id: cal.1966-05-15.vietnam-struggle-4
+    base: 1983c68c
+    set:
+      n: '[[w.gibbons-u-s-government-and]], IV, 317–18 (Porter''s cable "that morning (Sunday, May 15)"; the hour of the meeting not given). On Kỳ''s move: [[cal.1966-05-15.vietnam]].
+        To check: Saigon to Washington 4612, May 15, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 317 n.10). Names: Walt, Nguyễn
+        Cao Kỳ, Porter.'
+- edit:
+    id: cal.1966-05-20.soviet-union-leadership
+    base: c7e0e265
+    kind: correct
+    set:
+      c: Vladivostok. Brezhnev's unofficial meeting with Kim Il Sung, at Kim's request, May 20–22 by one note of the editors, May 20–21 by another.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 171 n.12 (the editors: the Politburo, May 4, agrees to Kim Il Sung''s request for an unofficial meeting at Vladivostok; the talks
+        May 20–22), 181 n.147 (May 20–21), 167 (№ 40, Kim in December: after the meeting with Brezhnev he reported to his Politburo). [[w.brezhnev-rabochie-i-dnevnikovye]], II, 126 (Brezhnev
+        at Vladivostok, May 19–22; the talks not named). Made public: 2016. To check: the records of the talks. Split under R25b and R17: the workbook (II, 126) gives the trip its own
+        hours; it is now an entry, and prints the return at 18:27, not 6:20. Names: Brezhnev, Kim Il Sung.'
+- add:
+    entry:
+      id: cal.1966-05-17.soviet-union-leadership-2
+      when: May 17
+      date: '1966-05-17'
+      place: moscow
+      c: Brezhnev at the Komsomol congress, 10 to 12.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 126 (May 17, 1966). Made public: 2016. Names: Brezhnev.'
+      time_range:
+      - 1966-05-17T07:00Z
+      - 1966-05-17T09:00Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      thread: soviet-union-leadership
+      tags: &id001
+      - name:brezhnev-leonid
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1966-05-17.soviet-union-leadership
+      when: May 17
+      date: '1966-05-17'
+      place:
+      - moscow
+      - irkutsk
+      thread: soviet-union-leadership
+      also:
+      - korea
+      c: Brezhnev leaves Moscow for Irkutsk at 12:46, on his way to Vladivostok, and lands at Irkutsk at 19:00.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 126 (May 17, 1966; the hours as the workbook prints them, no zone named). Made public: 2016. See [[cal.1966-05-20.soviet-union-leadership]].
+        Names: Brezhnev.'
+      time: 1966-05-17T09:46Z
+      time_zone: Europe/Moscow
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1966-05-18.soviet-union-leadership
+      when: May 18
+      date: '1966-05-18'
+      place: vladivostok
+      also:
+      - korea
+      c: Brezhnev reaches Vladivostok by air, 9:30.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 126 (May 18, 1966). Made public: 2016. See [[cal.1966-05-17.soviet-union-leadership]]. Check: the clock. The workbook names no zone;
+        its 19:00 at Irkutsk, six hours after the 12:46 departure from Moscow, reads as Moscow''s, and its 9:30 is taken so. Names: Brezhnev.'
+      time: 1966-05-18T06:30Z
+      time_zone: Europe/Moscow
+      thread: soviet-union-leadership
+      tags: *id001
+- add:
+    entry:
+      id: cal.1966-05-23.soviet-union-leadership
+      when: May 23
+      date: '1966-05-23'
+      place:
+      - vladivostok
+      - moscow
+      c: Brezhnev returns to Moscow from Vladivostok, 18:27.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 126 (May 23, 1966; 18:27, read on the image). Made public: 2016. See [[cal.1966-05-17.soviet-union-leadership]]. Names: Brezhnev.'
+      time: 1966-05-23T15:27Z
+      time_zone: Europe/Moscow
+      thread: soviet-union-leadership
+      tags: *id001
+- edit:
+    id: cal.1966-03-29.soviet-union-leadership-2
+    base: 9906b9eb
+    kind: correct
+    set:
+      c: Moscow.{1} The Twenty-third Party Congress, Mar. 29 to Apr. 8, Brezhnev attending its sittings.{2}
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 116–18 (Mar. 29–Apr. 8); [[w.schattenberg-brezhnev]], 176–78, 205–09 (Brezhnev''s report: stability of cadres, the Presidium renamed
+        the Politburo, the eighth five-year plan; only the leadership''s three to speak); [[w.khoo-collateral-damage]], 34 (the congress, Mar. 29 to Apr. 8, boycotted by the Chinese);
+        [[w.friedman-shadow-cold-war]], 148 (Brezhnev at the congress: "The principle of peaceful coexistence is not applicable to the relations between oppressors and oppressed, between
+        colonizers and the victims of the colonial yoke"); [[w.friedman-shadow-cold-war]], 168 (a DRV delegation attends the congress). To check: RGANI, f. 1, op. 5, d. 1, l. 193–97,
+        227–33, 249 (Brezhnev''s report, Mar. 29, 1966) (cited by [[w.schattenberg-brezhnev]], 176 nn.42–44, 209 n.40); S. Bulygin, "Mir i Natsional''noe Osvobozhdenie," Aziia i Afrika
+        Segodnia 8 (1966), 3 (cited by [[w.friedman-shadow-cold-war]], 148 n.1). Split under R25b and R17: the workbook (II, 118) gives the editorial commission of Apr. 7 and the last
+        sitting of Apr. 8, 12 to 13:10, their own hours; each is now an entry. Names: Brezhnev. Check: The record gives attendance only; the report and speeches are not in it.'
+- add:
+    entry:
+      id: cal.1966-04-07.soviet-union-leadership
+      when: Apr. 7
+      date: '1966-04-07'
+      place: moscow
+      thread: soviet-union-leadership
+      c: Brezhnev is present at the Twenty-third Party Congress's editorial commission, from 9:15.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 118 (Apr. 7, 1966). Made public: 2016. See [[cal.1966-03-29.soviet-union-leadership-2]]. Names: Brezhnev.'
+      time: 1966-04-07T06:15Z
+      time_zone: Europe/Moscow
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1966-04-08.soviet-union-leadership-2
+      when: Apr. 8
+      date: '1966-04-08'
+      place: moscow
+      thread: soviet-union-leadership
+      c: The Twenty-third Party Congress's last sitting, 12 to 1:10 p.m., Brezhnev taking part.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 118 (Apr. 8, 1966). Made public: 2016. See [[cal.1966-03-29.soviet-union-leadership-2]]. Names: Brezhnev.'
+      time: 1966-04-08T09:00Z
+      time_zone: Europe/Moscow
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      follows:
+      - cal.1966-04-08.soviet-union-leadership
+- edit:
+    id: cal.1966-06-07.mississippi-meredith
+    base: '20243140'
+    set:
+      n: '[[w.garrow-bearing-the-cross]], 475–78; [[w.branch-at-canaans-edge]], 476–78 (twenty-one marchers; troopers shove them from the pavement; the night rally at Centenary Methodist,
+        Memphis, McKissick and Evers; the Lorraine Motel debate; Wilkins: "Dr. King, I''m really sorry for you"); [[w.kotz-judgment-days]], 360 (McKissick, Carmichael, Evers, Wilkins
+        and Young; King: "We are going to put President Johnson on the spot"); [[w.young-easy-burden]], 394. To check: [Manifesto of the James Meredith March for Freedom in Mississippi](https://okra.stanford.edu/link/document660608-001),
+        June 7–8, 1966; King, [Address at Meredith March rally](https://okra.stanford.edu/link/document660607-002), June 7 (King Papers Project); *Memphis Commercial Appeal*, June 8,
+        1966, at 1; *Washington Post*, June 8, 1966, at A1; [*New York Times*, June 8, 1966](https://timesmachine.nytimes.com/timesmachine/1966/06/08/issue.html), at 1 (cited by [[w.garrow-bearing-the-cross]],
+        475 n.1); Wilkins to Convention Delegates, July 5, 1966, NAACP Papers, III-B-374, Library of Congress (cited by [[w.garrow-bearing-the-cross]], 477 n.2); *Washington Post*, June
+        8, 1966, at A1, 12; [*New York Times*, June 9, 1966](https://timesmachine.nytimes.com/timesmachine/1966/06/09/issue.html), at 1, 32; *Memphis Commercial Appeal*, June 9, 1966,
+        at 1; James Draper to Roger Wilkins et al., "Memphis," June 8, 1966, Community Relations Service FOIA (cited by [[w.garrow-bearing-the-cross]], 478 n.3); Int. James Lawson, Nov.
+        14, 1983 (Branch) (cited by [[w.branch-at-canaans-edge]], 476); Sellers, River (cited by [[w.branch-at-canaans-edge]], 477); p161 (cited by [[w.branch-at-canaans-edge]], 477);
+        "Troopers Shove Group Resuming Meredith March," [*New York Times*, June 8, 1966](https://timesmachine.nytimes.com/timesmachine/1966/06/08/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]],
+        477); [[w.carmichael-ready-for-revolution]], 503 (cited by [[w.branch-at-canaans-edge]], 477); [*New York Times*, June 8, 1966](https://timesmachine.nytimes.com/timesmachine/1966/06/08/issue.html),
+        at 1 (cited by [[w.branch-at-canaans-edge]], 477); *Jet*, June 23, 1966, at 16–20 (cited by [[w.branch-at-canaans-edge]], 477); Lewis, *King* (1978), 319–20 (cited by [[w.branch-at-canaans-edge]],
+        477); King speech at Meredith rally, June 7, 1966, A/KS (cited by [[w.branch-at-canaans-edge]], 477); [[w.dittmer-local-people]], 392–93 (cited by [[w.branch-at-canaans-edge]],
+        477); Viorst, *Fire in the Streets* (1979), 371–73 (cited by [[w.branch-at-canaans-edge]], 477); Stokely Carmichael and James Forman Tape 229, conversation, A/F (cited by [[w.branch-at-canaans-edge]],
+        477); [[w.wilkins-standing-fast]], 315–16 (cited by [[w.branch-at-canaans-edge]], 477); [[w.carson-in-struggle]], 207–8 (cited by [[w.branch-at-canaans-edge]], 477); Morgan,
+        *One Man, One Voice* (1979), 71–74 (cited by [[w.branch-at-canaans-edge]], 478). See [[cal.1966-06-06.mississippi]]. Names: King, McKissick, Carmichael, Wilkins, Young, Meredith.'
+      src:
+        c: ce8b6153
+        rows:
+        - 'w.garrow-bearing-the-cross 475–78: 1, 2'
+        - 'via w.garrow-bearing-the-cross 475 n.1: 1'
+        - 'via w.garrow-bearing-the-cross 477 n.2a: 1'
+        - 'via w.garrow-bearing-the-cross 477 n.2b: 2'
+        - 'via w.garrow-bearing-the-cross 477 n.2c: 2'
+        - 'via w.garrow-bearing-the-cross 478 n.3a: 2'
+        - 'via w.garrow-bearing-the-cross 478 n.3b: 2'
+        - 'via w.garrow-bearing-the-cross 478 n.3c: 2'
+        - 'w.branch-at-canaans-edge 476–78: 1, 2'
+        - 'via x.1983-11-14.int-james-lawson-nov-14-1983: 1, 2'
+        - 'via x.undated.sellers-river: 1, 2'
+        - 'via x.undated.p161: 1, 2'
+        - 'via x.1966-06-08.troopers-shove-group-resuming-meredith-march: 1, 2'
+        - 'via x.1966-06-08.new-york-times-june-8-1966: 1, 2'
+        - 'via x.1966-06-23.jet-june-23-1966-pp-16: 1, 2'
+        - 'via x.1978.lewis-david-l-king-a-critical: 1, 2'
+        - 'via x.1966-06-07.king-speech-at-meredith-rally-june: 1, 2'
+        - 'via x.1979.viorst-fire-in-the-streets: 1, 2'
+        - 'via x.undated.stokely-carmichael-and-james-forman-tape: 1, 2'
+        - 'via x.1979.morgan-charles-jr-one-man-one: 1, 2'
+        - 'w.kotz-judgment-days 360: 1'
+        - 'w.young-easy-burden 394: 1'
+- check:
+    id: cal.1966-06-08.china-leadership-8
+    text: 'Check: the number of students. Yang Jisheng (I, 235, read) has over 3,000 students of other middle schools; Pu Weihua (149, read) has over three hundred, from the Haidian
+      and city middle schools it names.'
+- edit:
+    id: cal.1966-06-10.china-leadership-2
+    base: d5d2038d
+    set:
+      n: '[[w.zedong-mao-zedong-nianpu]], V, June 10, 1966 (晚上, at Hangzhou, the enlarged Standing Committee meeting; 不一定派工作组; on the timing of work groups the nianpu has Mao again under
+        June 12, afternoon); [[w.deng-xiaoping-nianpu-1904]], III, 1918–1919 (June 10–22, 1966; Deng at the enlarged Politburo Standing Committee meeting Mao holds, which studies questions
+        of the ''cultural revolution'' but gives no concrete view on how to carry on the movement; on work teams Mao says they need not be sent, let go, do not fear disorder, let it
+        be a free-for-all and send them once the situation is clear; Deng and Liu Shaoqi ask Mao to return to Peking to preside over the work, and Mao entrusts Liu and Deng to deal with
+        the movement''s questions as occasion allows); [[w.mao-zedong-zhuan]], VI, ch. 74 n.47 (the book has Mao calling the heads of the great regions to Hangzhou for this talk: hands
+        off, no fear of disorder, the poster has lit the fire, the left active and the right resisting but not prevailing, a wide blow first and sorting later, a left core to be built
+        in the movement regardless of rank or name; no work teams necessarily; the diary of Wang Renzhong, June 11, n.47; evening not given). [[w.yang-jisheng-tiandi-fanfu]], I, 197,
+        186 (June 10 6月10日, at the Hangzhou enlarged Standing Committee meeting, Mao: on the cultural revolution let go, do not fear disorder, work groups not necessarily to be sent
+        (I, 197); the fuller words, the Peking University poster that lit the fire and the activists to rely on, the page also sets at the meeting the leaders flew to on June 9 (I, 186));
+        [[w.jian-zhou-enlai]], 545–546 (Mao: no fear of chaos, mobilize the masses all out; work teams probably not needed "until the dust has settled"; Liu asks him again to return
+        to Peking, and he says "no"; not the day); [[w.pu-weihua-zalan-jiu-shijie]], 255, 255 n.111 (Mao at the enlarged Standing Committee at Hangzhou: students from all over the country
+        who want to come to Peking should be allowed, free of charge; "let them make a racket in Peking" (Wang Nianyi, 77)). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003),
+        by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 74). The order: after [[cal.1966-06-10.china-leadership]], the printed order alone ([[w.zedong-mao-zedong-nianpu]],
+        V, June 10, 1966). To check: Wang Renzhong 王任重, diary 日记, June 11, 1966 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.47); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 641
+        (cited by [[w.jian-zhou-enlai]], 546 n.5b). Names: Mao Zedong.'
+      time_range:
+      - 1966-06-10T11:00Z
+      - 1966-06-10T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1966-06-12.china-leadership
+    base: 97fd040d
+    set:
+      time_range:
+      - 1966-06-12T04:00Z
+      - 1966-06-12T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+- src:
+    id: cal.1966-06-14.vietnam-air-war
+    row: w.gibbons-u-s-government-and IV, 370
+    'on': '"not ... an air assault on civilian centers."'
+- edit:
+    id: cal.1966-06-16.china-leadership
+    base: fcfdf326
+    kind: correct
+    set:
+      c: 'Mao, Changsha, late at night, on the Foreign Ministry''s plan for Zhou Enlai''s party and government delegation to Romania (talks on the international situation, Sino-Soviet
+        relations, Sino-Romanian relations): "agreed in principle; Liu and Deng to settle it."{1} He had agreed by telephone, June 6, to the trip of a week from June 16.{2}'
+      n: '[[w.zedong-mao-zedong-nianpu]], V, June 6 and June 16, 1966 (the entries of those dates); [[w.zhou-enlai-nianpu-1949-2020]], III, 37 (June 16–24, 1966; the delegation to Romania);
+        [[w.jianguo-yilai-mao-zedong]], XVIII, 275 (June 16, 1966; Mao''s note, 11 p.m. June 16, "Proposed to agree; Liu and Deng to settle it," on the Foreign Ministry''s report of
+        that day with the plan of activities and talks); [[w.jian-zhou-enlai]], 546 (back in Peking Zhou prepares the twice-postponed visit to Romania and Albania, glad to be away; Mao
+        approves his plan). Made public: 2013. To check: Foreign Ministry, report of June 16, 1966 on the activities and talks of Zhou Enlai''s party and government delegation to Romania
+        (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 275 n.1). The Mao nianpu (V, June 16) gives the note on the Romanian trip at 11 p.m., at Changsha; the talk on the train at Nanchang
+        is its own entry, already in the calendar. Names: Mao Zedong, Zhou Enlai, Liu Shaoqi, Deng Xiaoping.'
+      time: 1966-06-16T15:00Z
+      time_zone: Asia/Shanghai
+- follows:
+    id: cal.1966-06-16.china-leadership
+    add:
+    - cal.1966-06-15.china-leadership-2
+    basis: the Mao nianpu's order, the train through Nanchang before the arrival at Changsha ([[w.zedong-mao-zedong-nianpu]], V, June 16, 1966)
+- edit:
+    id: cal.1966-06-15.china-leadership-2
+    base: 1c7377d5
+    kind: correct
+    set:
+      when: June 16
+      date: '1966-06-16'
+      n: '[[w.zedong-mao-zedong-nianpu]], V, June 16, 1966 (the train passing Nanchang, 专列途经南昌; the talk with the Jiangxi leaders); [[w.mao-zedong-zhuan]], VI, ch. 74 (after the departure
+        from Hangzhou of June 15 and before the arrival at Changsha of June 16; the leaders not named; n.49). The Mao nianpu dates the talk June 16, the departure from Hangzhou June
+        15. Made public: 1993 ([[w.wo-yu-mao-zedong]], 41, cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.49). To check: Recollection of Mao Zedong''s 毛泽东 reception of the Jiangxi leaders
+        on his train at Nanchang 南昌, June 1966, in [[w.wo-yu-mao-zedong]], 41 (cited by [[w.mao-zedong-zhuan]], VI, ch. 74 n.49); [[w.xianzhi-mao-zedong-zhuan-1949]], the first edition
+        (2003), for the same passage. See [[cal.1966-06-15.china-leadership]]. Names: Mao Zedong.'
+- follows:
+    id: cal.1966-06-15.china-leadership-2
+    remove:
+    - cal.1966-06-15.china-leadership
+    why: the entry is now of June 16, and the departure from Hangzhou it followed is of June 15 (Mao nianpu, V)
+- edit:
+    id: cal.1966-06-18.china-leadership-6
+    base: 0cc03f26
+    set:
+      time_range:
+      - 1966-06-18T14:00Z
+      - 1966-06-18T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1966-06-20.china-leadership-6
+    base: ca9a0936
+    set:
+      time_range:
+      - 1966-06-20T04:00Z
+      - 1966-06-20T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1966-06-24.china-leadership-4
+    base: 1d9364af
+    set:
+      time: 1966-06-24T16:00Z
+      time_zone: Europe/Tirane
+- add:
+    entry:
+      id: cal.1966-06-24.china-zhou-foreign
+      when: June 24
+      date: '1966-06-24'
+      place: tirana
+      thread: china-zhou-foreign
+      also:
+      - china-foreign
+      - comecon
+      c: Zhou Enlai arrives at Tirana at 10 a.m., welcomed by Enver Hoxha, Haxhi Lleshi and Shehu.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 498 (June 24, 1966; 上午10时, welcomed by Hoxha, Lleshi, the chairman of the presidium of the People''s Assembly, and Shehu, chairman of the
+        Council of Ministers). Made public: 1993. See [[cal.1966-06-24.china-leadership]]. Names: Zhou Enlai, Hoxha, Lleshi, Shehu.'
+      time: 1966-06-24T09:00Z
+      time_zone: Europe/Tirane
+      tags:
+      - name:zhou-enlai
+      - polity:prc
+      - vis:only:prc+albania
+      - name:enver-hoxha
+      - name:haxhi-lleshi
+      - name:mehmet-shehu
+- follows:
+    id: cal.1966-06-24.china-leadership-2
+    add:
+    - cal.1966-06-24.china-zhou-foreign
+    basis: the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 498)

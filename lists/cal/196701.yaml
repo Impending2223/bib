@@ -1435,9 +1435,9 @@ entries:
     also: [china-zhou-cr]
     follows:
       - cal.1967-01-06.china-leadership-15
-    c: Zhou Enlai, told that Tsinghua's "Jinggangshan" Red Guards under Kuai Dafu have tricked Wang Guangmei out of Zhongnanhai, sends his secretary Sun Yue to Tsinghua to get her back and telephones Kuai to release her.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 106–107 (Jan. 6, 7, 1967); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 653 (Jan. 6, 1967; the book says Tsinghua rebels falsely claim Liu Shaoqi''s daughter has been crippled in a car accident, trick Wang Guangmei out of Zhongnanhai, detain her and struggle against her; she is later released after Zhou Enlai intervenes); [[w.yang-jisheng-tiandi-fanfu]], II, 692 (Zhou''s four points by telephone to Kuai Dafu: she may make self-criticism, not to be beaten or insulted, to go back after; Sun Yue fetches her). Made public: 1996. Names: Zhou Enlai, Wang Guangmei, Kuai Dafu, Sun Yue.'
-    tags: [name:zhou-enlai, polity:prc, vis:only:prc, name:kuai-dafu, name:sun-yue, name:wang-guangmei]
+    c: Zhou Enlai, told that Tsinghua's "Jinggangshan" Red Guards under Kuai Dafu have tricked Wang Guangmei out of Zhongnanhai, telephones Kuai to release her.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 106–107 (Jan. 6, 7, 1967); [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 653 (Jan. 6, 1967; the book says Tsinghua rebels falsely claim Liu Shaoqi''s daughter has been crippled in a car accident, trick Wang Guangmei out of Zhongnanhai, detain her and struggle against her; she is later released after Zhou Enlai intervenes); [[w.yang-jisheng-tiandi-fanfu]], II, 692 (Zhou''s four points by telephone to Kuai Dafu: she may make self-criticism, not to be beaten or insulted, to go back after). Made public: 1996. Split under R25b and R17: Yang Jisheng (II, 692, read) has Zhou''s call to Kuai Dafu before Wang Guangmei''s evening at Tsinghua ([[cal.1967-01-06.china-leadership-16]]) and Sun Yue''s errand after it; the errand is now an entry. Names: Zhou Enlai, Wang Guangmei, Kuai Dafu.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc, name:kuai-dafu, name:wang-guangmei]
   - id: cal.1967-01-06.china-leadership-5
     when: Jan. 6
     date: '1967-01-06'
@@ -1564,12 +1564,13 @@ entries:
     when: Jan. 6
     date: '1967-01-06'
     thread: china-seizures
-    c: Xu Jingxian tells the television camera crews that if the rally gets out of hand and there is violence they are to turn their lenses elsewhere and not air images that would leave a bad impression with foreign viewers such as diplomats and sailors on shore leave.
-    n: '[[w.macfarquhar-maos-last-revolution]], 165. Made public: 2004. To check: [[w.zhenzhi-zhongguo-dianshi-dashiji-1955]], 178–179 (cited by [[w.macfarquhar-maos-last-revolution]], 165 n.56a); [[w.jingxian-shinian-yimeng]], 35 (cited by [[w.macfarquhar-maos-last-revolution]], 165 n.56b). Check: the hour; before the rally.'
+    c: Xu Jingxian tells the television camera crews that if the rally gets out of hand and there is violence they are to turn their lenses elsewhere and not air images that would leave a bad impression with foreign viewers such as diplomats and sailors on shore leave.{1} By Xu Jingxian's account.{2}
+    n: '[[w.macfarquhar-maos-last-revolution]], 165; [[w.macfarquhar-maos-last-revolution]], 165 n.56. Made public: 2004. To check: [[w.zhenzhi-zhongguo-dianshi-dashiji-1955]], 178–179 (cited by [[w.macfarquhar-maos-last-revolution]], 165 n.56a); [[w.jingxian-shinian-yimeng]], 35 (cited by [[w.macfarquhar-maos-last-revolution]], 165 n.56b). Check: the hour; before the rally.'
     src:
-      c: 2a588b25
+      c: 3caea66b
       rows:
-        - 'w.macfarquhar-maos-last-revolution 165: all'
+        - 'w.macfarquhar-maos-last-revolution 165: 1'
+        - 'w.macfarquhar-maos-last-revolution 165 n.56: 2'
     tags: [polity:prc, vis:only:prc]
   - id: cal.1967-01-06.china-leadership-14
     when: Jan. 6
@@ -1636,6 +1637,17 @@ entries:
     c: 'Peng Dehuai 彭德怀 to Yao Wenyuan 姚文元, by letter: the Red Guards want him to state his view of the passage of the article of the 3rd on the Right opportunist anti-Party group that styled itself Hai Rui; if such propaganda does good, let it go on; if it is to keep more to the facts, he can supply some material. He writes out how he came to write to Mao at Lushan 庐山, and what the letter said.'
     n: '[[w.peng-dehuai-nianpu]], 802. Made public: 1998. Names: Peng Dehuai, Yao Wenyuan, Mao Zedong.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai, name:yao-wenyuan, name:mao-zedong]
+  - id: cal.1967-01-06.china-seizures
+    when: Jan. 6
+    date: '1967-01-06'
+    place: peking
+    thread: china-seizures
+    also: [china-zhou-cr]
+    follows:
+      - cal.1967-01-06.china-leadership-16
+    c: Zhou Enlai's secretary Sun Yue takes Wang Guangmei back from Tsinghua after her self-criticism on the gymnasium's balcony.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 692 (Zhou sends the secretary Sun Yue, 孫岳, who takes her back after the evening at the West Field); [[w.zhou-enlai-nianpu-1949-2020]], III, 106 (Jan. 6, 1967; 得知 ... 蒯大富 ... 骗出中南海后，立即派秘书孙岳赶至清华大学要回王光美，并打电话催蒯大富放人). Made public: 2020. Check: the nianpu puts Zhou''s sending of Sun Yue at once on learning of it, with the call to Kuai; Yang has Sun Yue fetch her after the evening. See [[cal.1967-01-06.china-leadership-4]]. The order: after [[cal.1967-01-06.china-leadership-16]], Yang Jisheng, II, 692. Names: Sun Yue, Zhou Enlai, Wang Guangmei.'
+    tags: [name:sun-yue, name:zhou-enlai, name:wang-guangmei, polity:prc, vis:only:prc, ok:fields-time]
   - id: cal.1967-01-07.elections-1968
     when: Jan. 7–8
     date: '1967-01-07'
@@ -2508,14 +2520,13 @@ entries:
     when: Jan. 10
     date: '1967-01-10'
     thread: transition-and-staff
-    c: 'The State of the Union.{1} By Johnson''s order, carried out by Califano, Humphrey has no advance word of its contents and no copy until after the press''s briefing. Humphrey to a White House aide: "If I could only find a way to convince this man of my loyalty."{2} To Johnson: "This message was the most impressive of any of the State of the Union messages."{3}'
-    n: '[[w.solberg-hubert-humphrey]], 302–03. Check: the days of the confidence and the letter. To check: Douglas Kiker, *Atlantic Monthly*, June 1967; Humphrey to Johnson, WHCF, Exec FG 440, Box 348, LBJ Library (cited by [[w.solberg-hubert-humphrey]], 303, its note). Names: Johnson, Califano, Humphrey.'
+    c: By Johnson's order, carried out by Califano, Humphrey has no advance word of the State of the Union's contents and no copy until after the press's briefing.{2}
+    n: '[[w.solberg-hubert-humphrey]], 302–03 (Johnson''s order, carried out by Califano; no copy until after the White House press was briefed). To check: Douglas Kiker, *Atlantic Monthly*, June 1967 (cited by [[w.solberg-hubert-humphrey]], 303, its note). See [[cal.1967-01-10.program]]. Split under R17: Solberg (303) gives Humphrey''s remark to an aide and his letter to Johnson no day; each is now an entry of January. Names: Johnson, Califano, Humphrey.'
     src:
-      c: d3c7bc38
+      c: 53b4bf55
       rows:
-        - 'w.solberg-hubert-humphrey 302–03: 1, 2, 3'
+        - 'w.solberg-hubert-humphrey 302–03: 2'
         - 'via w.solberg-hubert-humphrey 303 n.kiker: 2'
-        - 'via w.solberg-hubert-humphrey 303 n.most-impressive: 3'
     tags: [name:johnson-lyndon-b, name:califano-joseph-a-jr, name:humphrey-hubert-h]
   - id: cal.1967-01-10.congress-2
     when: Jan. 10
@@ -3661,15 +3672,15 @@ entries:
     time_zone: America/New_York
     range_basis: kind
   - id: cal.1967-01-16.transition-and-staff
-    when: Jan. 16–18
+    when: Jan. 16
     date: '1967-01-16'
     time: 1967-01-16T16:36Z
     place: washington
     thread: transition-and-staff
     also: [transportation]
-    c: Cabinet. Jan. 16, Boyd sworn in the East Room as the first Secretary of Transportation. Jan. 18, Connor's resignation as Secretary of Commerce accepted, from Jan. 31; Trowbridge, Assistant Secretary, to act.
-    n: 'Remarks at the Swearing In of Alan S. Boyd as Secretary of the New Department of Transportation, [1967 Pub. Papers 15](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=83) (Jan. 16, 1967); Letter Accepting Resignation of John T. Connor as Secretary of Commerce, [1967 Pub. Papers 28](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=96) (Jan. 18, 1967). The time is the first day''s. To check: [[w.davis-department-of-transportation]]. See [[cal.1966-11-06.transportation]]. Names: Boyd, Connor, Trowbridge.'
-    tags: [name:johnson-lyndon-b, name:boyd-alan-s, name:connor-john-t, name:trowbridge-alexander-b]
+    c: Cabinet. Boyd sworn in the East Room as the first Secretary of Transportation.
+    n: 'Remarks at the Swearing In of Alan S. Boyd as Secretary of the New Department of Transportation, [1967 Pub. Papers 15](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=83) (Jan. 16, 1967). To check: [[w.davis-department-of-transportation]]. See [[cal.1966-11-06.transportation]]. Split under R17: the Papers'' letter accepting Connor''s resignation (28) is of Jan. 18; it is now an entry. Names: Boyd.'
+    tags: [name:johnson-lyndon-b, name:boyd-alan-s]
     short: Boyd at Transportation
   - id: cal.1967-01-16.alabama-al
     when: Jan. 16
@@ -4426,6 +4437,14 @@ entries:
     c: 'Wukesong 五棵松, Peking 北京. The Red Guards wake Peng Dehuai 彭德怀 in his bed: write out your "military club" 军事俱乐部. He strikes the table: there is none, though they cut off his head.'
     n: '[[w.peng-dehuai-nianpu]], 802. Made public: 1998. Names: Peng Dehuai.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai]
+  - id: cal.1967-01-18.transition-and-staff
+    when: Jan. 18
+    date: '1967-01-18'
+    place: washington
+    thread: transition-and-staff
+    c: Johnson accepts John T. Connor's resignation as Secretary of Commerce, from Jan. 31. Trowbridge, Assistant Secretary, to act.
+    n: 'Letter Accepting Resignation of John T. Connor as Secretary of Commerce, [1967 Pub. Papers 28](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=96) (Jan. 18, 1967) (Connor''s letter of resignation, released with it, in the Weekly Compilation, vol. 3, 62). See [[cal.1967-01-16.transition-and-staff]]. Check: Trowbridge''s acting; the Papers'' letter does not name him. Names: Connor, Trowbridge.'
+    tags: [name:johnson-lyndon-b, name:connor-john-t, name:trowbridge-alexander-b]
   - id: cal.1967-01-19.vietnam-congress
     when: Jan. 19
     date: '1967-01-19'
@@ -5117,18 +5136,19 @@ entries:
   - id: cal.1967-01-22.laos
     when: Jan. 22–23
     date: '1967-01-22'
-    time: 1967-01-21T20:00Z
+    time: 1967-01-22T20:00Z
     time_approx: true
     place: nong-khang
     thread: laos
-    c: Two North Vietnamese battalions attack Nong Khang, Lima Site 52, fifteen miles north of Samneua, about 3 a.m., hand to hand; they break off at dawn when Laotian T-28s and American A-1s arrive.
-    n: '[[w.anthony-war-in-northern-laos]], 216. The time is the first day''s. To check: JANAF Attaches Laos to DIA, 4-67, 280610Z Jan. 67 (cited by [[w.anthony-war-in-northern-laos]], 216 n.95a); DIA to AIG 7010, 310210Z Jan. 67 (cited by [[w.anthony-war-in-northern-laos]], 216 n.95b).'
+    c: Two North Vietnamese battalions attack Nong Khang, Lima Site 52, fifteen miles north of Samneua, about 3 a.m., hand to hand; they break off at dawn when Laotian T-28s and American A-1s arrive.{1} By ten they have withdrawn, leaving sixty-five dead.{2}
+    n: '[[w.anthony-war-in-northern-laos]], 216. The time is the morning of Jan. 23: Anthony (216) puts the attack "on the night of January 22/23," the barrage "around three in the morning." To check: JANAF Attaches Laos to DIA, 4-67, 280610Z Jan. 67 (cited by [[w.anthony-war-in-northern-laos]], 216 n.95a); DIA to AIG 7010, 310210Z Jan. 67 (cited by [[w.anthony-war-in-northern-laos]], 216 n.95b).'
     src:
-      c: 77a72d12
+      c: d404d862
       rows:
-        - 'w.anthony-war-in-northern-laos 216: all'
-        - 'via w.anthony-war-in-northern-laos 216 n.95a: all'
-        - 'via w.anthony-war-in-northern-laos 216 n.95b: all'
+        - 'via w.anthony-war-in-northern-laos 216 n.95a: 1'
+        - 'via w.anthony-war-in-northern-laos 216 n.95b: 1'
+        - 'w.anthony-war-in-northern-laos 216: 1, 2'
+    time_zone: Asia/Vientiane
   - id: cal.1967-01-22.war-opposition
     when: Jan. 22
     date: '1967-01-22'
@@ -6636,14 +6656,16 @@ entries:
         - 'via x.1967-01-28.westmoreland-notes-history-file-jan-28: all'
     tags: [name:westmoreland-william]
   - id: cal.1967-01-28.soviet-union-leadership
-    when: Jan. 28–31
+    when: Jan. 28
     date: '1967-01-28'
+    time: 1967-01-28T07:00Z
     place: moscow
     thread: soviet-union-leadership
     also: [comecon]
-    c: Moscow, Zavidovo. Tito and the Yugoslav delegation. Brezhnev meets Tito at the Kiev station Jan. 28 with Podgorny, Grechko and others; negotiates with him at Zavidovo Jan. 29; sees him off from the Kiev station Jan. 31, 6:22 p.m.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 171 (Jan. 28–31). Names: Brezhnev, Tito, Podgorny, Grechko.'
-    tags: [name:brezhnev-leonid, name:tito-josip-broz, name:podgorny-nikolai-v, name:grechko-andrei-a, polity:ussr, polity:yugoslavia]
+    c: Moscow. Brezhnev meets Tito and the Yugoslav delegation at the Kiev station, with Kosygin, Mazurov, Andropov, Gromyko, Grechko and others.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 171 (Jan. 28, 10:00, read on the page image; the workbook names Kosygin, Mazurov, Andropov, Gromyko and Grechko at the station, and not Podgorny). Split under R25b and R17: the workbook gives the Kremlin breakfast, the departure for Zavidovo, the talks, the return, the breakfast of Jan. 31 and the leave-taking each its own hour or day; each is now an entry. Made public: 2016. Names: Brezhnev, Tito, Kosygin, Mazurov, Andropov, Gromyko, Grechko.'
+    tags: [name:brezhnev-leonid, name:tito-josip-broz, name:grechko-andrei-a, polity:ussr, polity:yugoslavia, name:kosygin-aleksei, name:mazurov-kirill-t, name:andropov-yuriy-vladimirovich, name:gromyko-andrei]
+    time_zone: Europe/Moscow
   - id: cal.1967-01-28.china-leadership
     when: Jan. 28
     date: '1967-01-28'
@@ -6785,6 +6807,35 @@ entries:
         - 'w.friedman-shadow-cold-war 168: all'
         - 'via x.1967-01-28.southeast-asia-department-mfa-question-vietnamese-presentations-connection: ?'
     tags: [polity:ussr, vis:only:ussr]
+  - id: cal.1967-01-28.soviet-union-leadership-2
+    when: Jan. 28
+    date: '1967-01-28'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    follows:
+      - cal.1967-01-28.soviet-union-leadership
+    c: Brezhnev and others at the comradely breakfast in Tito's honor at the Residence in the Kremlin, 11:30 to 12:30.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 171 (Jan. 28, 11:30–12:30, read on the page image). Made public: 2016. See [[cal.1967-01-28.soviet-union-leadership]]. Names: Brezhnev, Tito.'
+    tags: [name:brezhnev-leonid, name:tito-josip-broz, polity:ussr, polity:yugoslavia]
+    time_range:
+      - 1967-01-28T08:30Z
+      - 1967-01-28T09:30Z
+    time_zone: Europe/Moscow
+    range_basis: record
+  - id: cal.1967-01-28.soviet-union-leadership-3
+    when: Jan. 28
+    date: '1967-01-28'
+    time: 1967-01-28T09:40Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    follows:
+      - cal.1967-01-28.soviet-union-leadership-2
+    c: Brezhnev and Tito leave for Zavidovo, 12:40.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 171 (Jan. 28, 12:40, read on the page image). Made public: 2016. See [[cal.1967-01-28.soviet-union-leadership]]. Names: Brezhnev, Tito.'
+    tags: [name:brezhnev-leonid, name:tito-josip-broz, polity:ussr, polity:yugoslavia]
+    time_zone: Europe/Moscow
   - id: cal.1967-01-29.baker
     when: Jan. 29
     date: '1967-01-29'
@@ -6942,6 +6993,15 @@ entries:
         - 'w.yang-jisheng-tiandi-fanfu I, 502: all'
         - 'via w.yang-jisheng-tiandi-fanfu I, 502 n.48: all'
     tags: [polity:prc, name:liu-shaoqi, name:deng-xiaoping, name:wei-guoqing]
+  - id: cal.1967-01-29.soviet-union-leadership
+    when: Jan. 29
+    date: '1967-01-29'
+    place: zavidovo
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Brezhnev at Zavidovo negotiates with Tito.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 171 (Jan. 29, read on the page image). Made public: 2016. See [[cal.1967-01-28.soviet-union-leadership]]. Names: Brezhnev, Tito.'
+    tags: [name:brezhnev-leonid, name:tito-josip-broz, polity:ussr, polity:yugoslavia]
   - id: cal.1967-01-30.conservation
     when: Jan. 30
     date: '1967-01-30'
@@ -7173,6 +7233,17 @@ entries:
     c: 'Wukesong 五棵松, Peking 北京. Peng Dehuai 彭德怀, in a note on reading Mao''s 毛泽东 works: a Communist should report things as they are, yet those who do so faithfully are often struck down, and the flatterers and pretenders rewarded.'
     n: '[[w.peng-dehuai-nianpu]], 802. Made public: 1998. Names: Peng Dehuai, Mao Zedong.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai, name:mao-zedong]
+  - id: cal.1967-01-30.soviet-union-leadership
+    when: Jan. 30
+    date: '1967-01-30'
+    time: 1967-01-30T16:20Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Brezhnev returns from Zavidovo to Moscow, 7:20 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 171 (Jan. 30, 19:20, read on the page image). Made public: 2016. See [[cal.1967-01-28.soviet-union-leadership]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr]
+    time_zone: Europe/Moscow
   - id: cal.1967-01-31.opinion
     when: Jan. 31
     date: '1967-01-31'
@@ -10722,3 +10793,53 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 238: all'
     tags: [polity:prc]
+  - id: cal.1967-01.transition-and-staff-3
+    when: Jan.
+    date: 1967-01
+    thread: transition-and-staff
+    c: 'Humphrey, to a White House aide: "If I could only find a way to convince this man of my loyalty."'
+    n: '[[w.solberg-hubert-humphrey]], 303 (the aide not named; no day). Check: the day. To check: Douglas Kiker, *Atlantic Monthly*, June 1967 (cited by [[w.solberg-hubert-humphrey]], 303, its note, for this remark). See [[cal.1967-01-10.transition-and-staff]]. Names: Humphrey.'
+    tags: [name:humphrey-hubert-h]
+  - id: cal.1967-01.transition-and-staff-4
+    when: Jan., after the 10th
+    date: 1967-01
+    at: after 1967-01-10
+    thread: transition-and-staff
+    c: 'Humphrey to Johnson, by letter, on the State of the Union message: "the most impressive of any of the State of the Union messages."'
+    n: '[[w.solberg-hubert-humphrey]], 303 (the people like its frankness and candor; no day). Check: the day. To check: Humphrey to Johnson, WHCF CF, Exec FG 440, Box 348, LBJ Library (cited by [[w.solberg-hubert-humphrey]], 303, its note). See [[cal.1967-01-10.transition-and-staff]]; [[cal.1967-01-10.program]]. Names: Humphrey, Johnson.'
+    tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
+  - id: cal.1967-01-31.soviet-union-leadership
+    when: Jan. 31
+    date: '1967-01-31'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Brezhnev, with the members and candidate members of the Politburo, at the breakfast in Tito's honor, 1 to 4 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 171 (Jan. 31, 13:00–16:00, read on the page image). Made public: 2016. See [[cal.1967-01-28.soviet-union-leadership]]. Names: Brezhnev, Tito.'
+    tags: [name:brezhnev-leonid, name:tito-josip-broz, polity:ussr, polity:yugoslavia]
+    time_range:
+      - 1967-01-31T10:00Z
+      - 1967-01-31T13:00Z
+    time_zone: Europe/Moscow
+    range_basis: record
+  - id: cal.1967-01-31.soviet-union-leadership-2
+    when: Jan. 31
+    date: '1967-01-31'
+    time: 1967-01-31T15:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    follows:
+      - cal.1967-01-31.soviet-union-leadership
+    c: Brezhnev sees Tito off at the Kiev station, 6 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 171 (Jan. 31, 18:00, read on the page image). Made public: 2016. See [[cal.1967-01-28.soviet-union-leadership]]. Names: Brezhnev, Tito.'
+    tags: [name:brezhnev-leonid, name:tito-josip-broz, polity:ussr, polity:yugoslavia]
+    time_zone: Europe/Moscow
+  - id: cal.1967.cuba
+    when: 1967, before May
+    date: '1967'
+    at: before 1967-05
+    thread: cuba
+    c: The CIA Inspector General, Earman, interviews Edwards on the plots against Castro, for the Inspector General's report on the plots.
+    n: 'Edwards, testimony, May 30, 1975, Church Committee, 7–8, 11 (Schwarz: the effort in 1967 to find the facts, in connection with a newspaper column; the interview; Edwards "told them the truth"; Edwards names Earman; he accepts the report''s account of his briefing of Dulles) (NARA JFK record 157-10002-10048). Check: the day. See [[cal.1967-03.cuba]]. Names: Earman, Edwards, Castro.'
+    tags: [name:edwards-sheffield, name:earman-j-s, name:castro-fidel]

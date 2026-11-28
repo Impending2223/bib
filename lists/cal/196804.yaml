@@ -569,18 +569,24 @@ entries:
     time_zone: America/Chicago
     range_basis: kind
   - id: cal.1968-04-02.robert-kennedy
-    when: Apr. 2
+    when: Apr. 2, night
     date: '1968-04-02'
     thread: robert-kennedy-campaign
     also: [elections-1968]
-    c: 'Robert Kennedy: "I''ve got every establishment in America against me."{1}'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 872. [[w.chester-american-melodrama]], 143, 145 (to a reporter on his plane, the night of Humphrey''s dinner at the Waldorf, Tuesday). Check: the occasion. Names: Robert Kennedy.'
+    c: 'Robert Kennedy: "I''ve got every establishment in America against me."{1} On his plane, to a reporter, the night Humphrey dines at the Waldorf.{2}'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 872 ("on April 2"; its note 71 cites Chester, 145). [[w.chester-american-melodrama]], 143, 145 (to a reporter in his plane the night Humphrey dined at the Waldorf, "On Tuesday evening," 143); [[w.solberg-hubert-humphrey]], 326 (the remark, on the plane, the night of the Waldorf dinner). Check: the day: Chester, 143, 145, has Humphrey fly to the Waldorf "On Tuesday evening," Apr. 2, after "a brief chat with the President," and Kennedy flew back from Philadelphia with reporters that night ([[cal.1968-04-02.robert-kennedy-campaign-primaries-2]]); Solberg, 325–26, has Humphrey fly to New York "That night" after his meeting with Johnson, which the Daily Diary puts on Apr. 3, immediately after Kennedy''s ([FRUS 1964–68, VI, doc. 176](https://history.state.gov/historicaldocuments/frus1964-68v06/d176), n. 8). Names: Robert Kennedy, Humphrey.'
     src:
-      c: fc15f5e1
+      c: 3f74ab23
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 872: 1'
-        - 'w.chester-american-melodrama 143, 145: 1'
-    tags: [name:kennedy-robert-f]
+        - 'w.chester-american-melodrama 143, 145: 1, 2'
+    tags: [name:kennedy-robert-f, name:humphrey-hubert-h]
+    time_range:
+      - 1968-04-03T03:00Z
+      - 1968-04-03T05:00Z
+    time_band: night
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1968-04-02.robert-kennedy-2
     when: Apr. 2
     date: '1968-04-02'
@@ -1149,7 +1155,7 @@ entries:
     place: nyc
     thread: elections-1968
     c: 'New York, the Waldorf, after Gardner Cowles''s dinner for *Look*''s advertisers. Upstairs, then at Andreas''s rooms in the Towers: the Cowles brothers, Henry Ford II, Weinberg and John Loeb, all urging Humphrey to run. A Citizens for Humphrey committee formed that night, Loeb and Connor at its head, Weinberg vice chairman.'
-    n: '[[w.solberg-hubert-humphrey]], 326; [[w.chester-american-melodrama]], 143 (Gardner Cowles''s dinner for *Look*''s advertisers at the Waldorf-Astoria; upstairs, the Cowles brothers, Henry Ford II and Weinberg, on running and its money). Check: Chester has the dinner Tuesday evening, Apr. 2 (143). Names: Gardner Cowles, Ford, Humphrey, Connor.'
+    n: '[[w.solberg-hubert-humphrey]], 326; [[w.chester-american-melodrama]], 143 (Gardner Cowles''s dinner for *Look*''s advertisers at the Waldorf-Astoria; upstairs, the Cowles brothers, Henry Ford II and Weinberg, on running and its money). Check: Chester has the dinner Tuesday evening, Apr. 2 (143). Check: the day: Solberg, 325–26, has Humphrey fly to New York "That night" after his meeting with Johnson, which the Daily Diary puts on Apr. 3, immediately after Robert Kennedy''s ([FRUS 1964–68, VI, doc. 176](https://history.state.gov/historicaldocuments/frus1964-68v06/d176), n. 8); Chester, 143, has him go "On Tuesday evening, after a brief chat with the President," and Kennedy''s remark on his plane the same night (145), and Kennedy flew back from Philadelphia with reporters on the night of Apr. 2 ([[cal.1968-04-02.robert-kennedy-campaign-primaries-2]]). Names: Gardner Cowles, Ford, Humphrey, Connor.'
     src:
       c: ba4f15ec
       rows:
@@ -1343,12 +1349,15 @@ entries:
   - id: cal.1968-04-03.robert-kennedy-campaign-2
     when: Apr. 3
     date: '1968-04-03'
+    time: 1968-04-04T00:00Z
+    time_approx: true
     thread: robert-kennedy-campaign
     follows:
       - cal.1968-04-03.robert-kennedy
     c: 'Ethel Kennedy telephones Schlesinger about seven in the evening and puts Robert Kennedy on, after his meeting with Johnson. Schlesinger: pace the campaign, do not exhaust himself in the first weeks; Kennedy: "I know the limits of my strength very well." He agrees on some sober, careful speeches and wants particularly one on how to avoid future Vietnams. By Schlesinger''s journal.'
-    n: '[[w.schlesinger-journals]], 286 (his account of the meeting is cited under [[cal.1968-04-03.robert-kennedy]]). Names: Kennedy, Johnson, Schlesinger.'
+    n: '[[w.schlesinger-journals]], 286 (his account of the meeting is cited under [[cal.1968-04-03.robert-kennedy]]). The hour: "Ethel called about 7 this evening" (286). Names: Kennedy, Johnson, Schlesinger.'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:schlesinger-arthur-m-jr]
+    time_zone: America/New_York
   - id: cal.1968-04-03.vietnam-hanoi
     when: Apr. 3
     date: '1968-04-03'
@@ -1457,6 +1466,7 @@ entries:
     follows:
       - cal.1968-04-04.king
       - cal.1968-04-04.elections-1968
+      - cal.1968-04-04.elections-1968-5
     c: 'Indianapolis.{1} Robert Kennedy, from a flatbed truck at a rally in a Negro neighborhood, tells the crowd that King has been killed: "For those of you who are black and are tempted to be filled with hatred and distrust at the injustice of such an act, against all white people, I can only say that I feel in my own heart the same kind of feeling. I had a member of my family killed, but he was killed by a white man."{2}'
     n: '[*New York Times*, Apr. 5, 1968](https://timesmachine.nytimes.com/timesmachine/1968/04/05/issue.html). [[w.schlesinger-robert-kennedy-and-his]], 873–75; [[w.palermo-in-his-own-right]], 179–81 (the news at Muncie; the rally at the Broadway Center basketball court, about a thousand; the words, from Guthman and Allen''s text); [[w.thomas-robert-kennedy]], 366–67 (Apple tells him on the plane; Indianapolis; his words); [[w.shesol-mutual-contempt]], 447 (against the pleas of his advisers and the police; "to tame the savageness of man and to make gentle the life of this world"); [[w.zelizer-fierce-urgency-of-now]], 296; [[w.wofford-of-kennedys-and-kings]], 201–02 (Indianapolis, from the back of a truck, to a large group of blacks; Kennedy tells them King has been murdered; "I had a member of my family killed"; "bitterness ... hatred ... revenge"; the meeting arranged by John Lewis; not the full wording); [[w.witcover-85-days]], 139–42 (about 1,000, 70 percent Negro, at a platform in the Negro wards; Kennedy "grim-faced," extemporaneous; the quotation "For those of you who are black and are tempted ..."; not the flatbed truck); [[w.purdum-idea-whose-time-has-2014]], 333–34 (Indianapolis: Kennedy learning of King''s death as he is about to speak at the rally in a black neighborhood, against the police''s warnings; "What we need in the United States is not division ... but love and wisdom and compassion toward one another"; "to tame the savageness of man and make gentle the life of this world"; Purdum has the crowd breaking up quietly). Order: after the shooting, the news given the crowd. After King''s shooting at 6:01 p.m., Memphis: [[cal.1968-04-04.king]]. To check: [[w.clarke-last-campaign]]; Guthman and Allen, *RFK: Collected Speeches*, 355–58 (cited by [[w.palermo-in-his-own-right]], 181 n.91). See [[cal.1968-03-14.robert-kennedy]]. Names: Kennedy, King.'
     src:
@@ -1507,25 +1517,19 @@ entries:
     place: muncie
     thread: elections-1968
     also: [robert-kennedy-campaign]
-    c: Muncie, Ind., the afternoon.{1} Robert Kennedy speaks; asked by a young Negro whether his belief in white people's good faith toward minorities is justified, he says he thinks it is.{2} Boarding the plane for Indianapolis, he hears from Salinger that King has been shot.{3}
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 874; [[w.witcover-85-days]], 139–40 (Notre Dame and Ball State, Muncie, the afternoon; on racial conflict "Most people in America want to do the decent thing"; not C). To check: John J. Lindsay, oral history interview by Jean Stein, Sept. 6, 1968, 10, Stein Papers; Walter Sheridan to Schlesinger, Oct. 17, 1977 (cited by [[w.schlesinger-robert-kennedy-and-his]], 874 n.79). See [[cal.1968-04-04.robert-kennedy]]. Names: Robert Kennedy, Salinger, King.'
+    c: Muncie, Ind., the afternoon.{1} Robert Kennedy speaks; asked by a young Negro whether his belief in white people's good faith toward minorities is justified, he says he thinks it is.{2}
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 874; [[w.witcover-85-days]], 139 (the rallies at Notre Dame and Ball State; at Ball State, on racial conflict, "Most people in America want to do the decent thing"; not the hour or the young man''s question). See [[cal.1968-04-04.robert-kennedy]]. Names: Robert Kennedy.'
     src:
-      c: 48eacbac
+      c: 15f229f5
       rows:
-        - 'w.schlesinger-robert-kennedy-and-his 874: 1, 2, 3'
-        - 'via w.schlesinger-robert-kennedy-and-his 874 n.79: 2'
-        - 'w.witcover-85-days 139–40: ?'
-    tags: [name:kennedy-robert-f, name:salinger-pierre, name:king-martin-luther-jr]
+        - 'w.schlesinger-robert-kennedy-and-his 874: 1, 2'
+        - 'w.witcover-85-days 139: ?'
+    tags: [name:kennedy-robert-f]
     time_range:
       - 1968-04-04T17:00Z
       - 1968-04-04T23:00Z
     time_band: afternoon
     time_zone: America/Indiana/Indianapolis
-    variants:
-      - unit: '3'
-        witness: w.witcover-85-days
-        reads: 'Witcover: as the plane left Muncie in early evening, "a reporter who had just called his office rushed up the aisle and told him" that King had been shot; Dutton learned of his death at Weir Cook Airport.'
-        at: '139'
   - id: cal.1968-04-04.elections-1968-2
     when: Apr. 4
     date: '1968-04-04'
@@ -1560,17 +1564,17 @@ entries:
     thread: democratic-party
     also: [king]
     follows:
-      - cal.1968-04-04.king
       - cal.1968-04-04.elections-1968-3
-    c: Washington, the Democratic congressional campaign committees' fund-raising dinner.{1} Word that King has been shot, then that he is dead; Humphrey gives a brief eulogy and ends the dinner. By Humphrey's account.{2}
-    n: '[[w.humphrey-education-of-a-public-1976]], 361–62; [[w.solberg-hubert-humphrey]], 326 (Pittsburgh''s AFL-CIO first; then the dinner); [[w.johnson-white-house-diary]], 647–48 (Apr. 4: "a Democratic Fund Raising Dinner this evening"; the Johnsons were to go, she in evening dress; "the Democratic Dinner, which was already in progress" when word came; Johnson "canceled my plans for the evening"; the diary says nothing of Humphrey or his eulogy, and does not date the dinner other than "this evening"). Order: the dinner told of the shooting, by Humphrey''s account. See [[cal.1968-04-04.king]]. Names: Humphrey, Martin Luther King. Check: Humphrey puts the dinner on the Tuesday of that week (361).'
+    c: Washington, the Democratic congressional campaign committees' fund-raising dinner, in progress when word comes that King has been shot.{1}
+    n: '[President''s Daily Diary, Apr. 4, 1968](https://catalog.archives.gov/id/192476), image 12 (LBJ Library; National Archives Catalog) (Mrs. Johnson to have dinner on the table at 8:15 p.m. "so they could eat before going to the Congressional dinner"; 8:20 p.m., word from the Justice Department that King is dead, and the President "decided not to go to Congressional Fund Raising Dinner"; not the dinner itself). [[w.humphrey-education-of-a-public-1976]], 361–62; [[w.solberg-hubert-humphrey]], 326 (Pittsburgh''s AFL-CIO first; then the dinner); [[w.johnson-white-house-diary]], 647–48 (Apr. 4: "a Democratic Fund Raising Dinner this evening"; the Johnsons were to go, she in evening dress; "the Democratic Dinner, which was already in progress" when word came; Johnson "canceled my plans for the evening"; the diary says nothing of Humphrey or his eulogy). See [[cal.1968-04-04.king]]. The day: Humphrey, 361, has "Tuesday night"; the Daily Diary, image 12, has the Congressional dinner the evening of Apr. 4, Mrs. Johnson''s diary, 647–48, dates its entry Thursday, Apr. 4, and the dinner "this evening," and Califano, 273–74, has Johnson cancel his appearance at it the evening of King''s death: Humphrey''s Tuesday is a slip. Names: Martin Luther King.'
     src:
-      c: 53c9069d
+      c: 4e0df455
       rows:
-        - 'w.humphrey-education-of-a-public-1976 361–62: 1, 2'
+        - 'https://catalog.archives.gov/id/192476: ?'
+        - 'w.humphrey-education-of-a-public-1976 361–62: 1'
         - 'w.solberg-hubert-humphrey 326: 1'
         - 'w.johnson-white-house-diary 647–48: ?'
-    tags: [name:humphrey-hubert-h, name:king-martin-luther-jr]
+    tags: [name:king-martin-luther-jr]
     time_range:
       - 1968-04-04T22:00Z
       - 1968-04-05T05:00Z
@@ -1653,20 +1657,20 @@ entries:
     date: '1968-04-04'
     place: memphis
     thread: king-memphis
-    c: 'Memphis, the federal district court, *City of Memphis v. King*, Judge Bailey Brown.{1} Holloman, director of fire and police: King cannot control a march. Lawson: "There will be no sticks in any march."{2} Young on nonviolence.{3} About 5 p.m., Eskridge to King: the judge will let SCLC lead the march on Monday, its route, no weapons, narrow ranks.{4}'
-    n: '[[w.branch-at-canaans-edge]], 759–64; [[w.young-easy-burden]], 463–64 (Young''s testimony, more than an hour, on the training and the philosophy of nonviolence; the hearing over about 4 p.m.). Check: Young, 463–64, has himself back at the Lorraine near 5 p.m. telling King what passed in court. To check: the transcript of the hearing, *City of Memphis v. King*, No. C-68-80 (W.D. Tenn. Apr. 4, 1968), Holloman''s testimony, 81–84, 94–95, Young''s, 192, 205 (cited by [[w.branch-at-canaans-edge]], 759–62); [[w.beifuss-at-the-river-i]], 272, 284–85 (cited by [[w.branch-at-canaans-edge]], 759); Testimony of Frank C. Holloman in City of Memphis v. Martin Luther King, Jr. et al., U.S. District Court for the Western District of Tennessee, Case No. C-68-80, April 4, 1968, p. 58, transcript courtesy of Charles F. Newman (cited by [[w.branch-at-canaans-edge]], 759); Remarks of the court and testimony of ChiefJ.C. MacDonald, in ibid., pp. 81–84, 94–95 (cited by [[w.branch-at-canaans-edge]], 759); Frank, *An American Death* (1972), 72 (cited by [[w.branch-at-canaans-edge]], 759); Testimony of James Lawson in City ofMemphis v. Martin Luther King, Jr. et al., U.S. District Court for the Western District of Tennessee, Case No. C-68-80, April 4, 1968, pp. 146, 166, transcript courtesy of Charles F Newman (cited by [[w.branch-at-canaans-edge]], 760); Testimony of Andrew Young in City ofMemphis v. Martin Luther King, Jr. et al., U.S. District Court for the Western District of Tennessee, Case No. C-68-80, April 4, 1968, pp. 168–207, transcript courtesy of Charles F. Newman (cited by [[w.branch-at-canaans-edge]], 762); [[w.young-easy-burden]], 463–64 (cited by [[w.branch-at-canaans-edge]], 764); Blackside, Inc., Eyes on the Prize I]—America at the Racial Crossroads, 1965 to 1985, Vol. IV, "The Promised Land (1967–68)" (cited by [[w.branch-at-canaans-edge]], 764); Citizen King, a Roja Production for The American Experience, PBS, 2004 (cited by [[w.branch-at-canaans-edge]], 764); [[w.garrow-bearing-the-cross]], 622–23 (cited by [[w.branch-at-canaans-edge]], 764); [[w.posner-killing-the-dream]], 23–24 (cited by [[w.branch-at-canaans-edge]], 764); Kotz, Judgment, pests (cited by [[w.branch-at-canaans-edge]], 764). See [[cal.1968-04-03.king]]. Names: Lawson, Young, King.'
+    c: 'Memphis, the federal district court, *City of Memphis v. King*, Judge Bailey Brown.{1} Holloman, director of fire and police: King cannot control a march. Lawson: "There will be no sticks in any march."{2} Young on nonviolence.{3}'
+    n: '[[w.branch-at-canaans-edge]], 759–63; [[w.young-easy-burden]], 463–64 (Young''s testimony, more than an hour, on the training and the philosophy of nonviolence; the hearing over about 4 p.m.). To check: the transcript of the hearing, *City of Memphis v. King*, No. C-68-80 (W.D. Tenn. Apr. 4, 1968), Holloman''s testimony, 81–84, 94–95, Young''s, 192, 205 (cited by [[w.branch-at-canaans-edge]], 759–62); [[w.beifuss-at-the-river-i]], 272, 284–85 (cited by [[w.branch-at-canaans-edge]], 759); Testimony of Frank C. Holloman in City of Memphis v. Martin Luther King, Jr. et al., U.S. District Court for the Western District of Tennessee, Case No. C-68-80, April 4, 1968, p. 58, transcript courtesy of Charles F. Newman (cited by [[w.branch-at-canaans-edge]], 759); Remarks of the court and testimony of ChiefJ.C. MacDonald, in ibid., pp. 81–84, 94–95 (cited by [[w.branch-at-canaans-edge]], 759); Frank, *An American Death* (1972), 72 (cited by [[w.branch-at-canaans-edge]], 759); Testimony of James Lawson in City ofMemphis v. Martin Luther King, Jr. et al., U.S. District Court for the Western District of Tennessee, Case No. C-68-80, April 4, 1968, pp. 146, 166, transcript courtesy of Charles F Newman (cited by [[w.branch-at-canaans-edge]], 760); Testimony of Andrew Young in City ofMemphis v. Martin Luther King, Jr. et al., U.S. District Court for the Western District of Tennessee, Case No. C-68-80, April 4, 1968, pp. 168–207, transcript courtesy of Charles F. Newman (cited by [[w.branch-at-canaans-edge]], 762); [[w.young-easy-burden]], 463–64 (cited by [[w.branch-at-canaans-edge]], 764); Blackside, Inc., Eyes on the Prize I]—America at the Racial Crossroads, 1965 to 1985, Vol. IV, "The Promised Land (1967–68)" (cited by [[w.branch-at-canaans-edge]], 764); Citizen King, a Roja Production for The American Experience, PBS, 2004 (cited by [[w.branch-at-canaans-edge]], 764); [[w.garrow-bearing-the-cross]], 622–23 (cited by [[w.branch-at-canaans-edge]], 764); [[w.posner-killing-the-dream]], 23–24 (cited by [[w.branch-at-canaans-edge]], 764); Kotz, Judgment, pests (cited by [[w.branch-at-canaans-edge]], 764). See [[cal.1968-04-03.king]]. Names: Lawson, Young, King.'
     src:
-      c: d0878fb4
+      c: 385a9dff
       rows:
-        - 'w.branch-at-canaans-edge 759–64: 1, 2, 3, 4'
-        - 'via x.1968-04-04.testimony-of-frank-c-holloman-in: 1, 2, 3, 4'
-        - 'via x.undated.remarks-of-the-court-and-testimony: 1, 2, 3, 4'
-        - 'via x.1972.frank-gerold-an-american-death-1972: 1, 2, 3, 4'
-        - 'via x.1968-04-04.testimony-of-james-lawson-in-city: 1, 2, 3, 4'
-        - 'via x.1968-04-04.testimony-of-andrew-young-in-city: 1, 2, 3, 4'
-        - 'via x.1965.blackside-inc-eyes-on-the-prize-4: 1, 2, 3, 4'
-        - 'via x.2004.citizen-king-a-roja-production-for: 1, 2, 3, 4'
-        - 'via x.undated.kotz-judgment-pests: 1, 2, 3, 4'
+        - 'w.branch-at-canaans-edge 759–63: 1, 2, 3'
+        - 'via x.1968-04-04.testimony-of-frank-c-holloman-in: 1, 2, 3'
+        - 'via x.undated.remarks-of-the-court-and-testimony: 1, 2, 3'
+        - 'via x.1972.frank-gerold-an-american-death-1972: 1, 2, 3'
+        - 'via x.1968-04-04.testimony-of-james-lawson-in-city: 1, 2, 3'
+        - 'via x.1968-04-04.testimony-of-andrew-young-in-city: 1, 2, 3'
+        - 'via x.1965.blackside-inc-eyes-on-the-prize-4: 1, 2, 3'
+        - 'via x.2004.citizen-king-a-roja-production-for: 1, 2, 3'
+        - 'via x.undated.kotz-judgment-pests: 1, 2, 3'
         - 'w.young-easy-burden 463–64: 1, 3'
     tags: [name:lawson-james-m-jr, name:young-andrew-j-jr, name:king-martin-luther-jr, state:tn, city:memphis]
     time_range:
@@ -1921,6 +1925,71 @@ entries:
     c: Chen Yi 陈毅 receives Miyazaki Seimin 宫崎世民, chairman of the board of the Japan–China Friendship Association (Orthodox), and Shimada Masao 岛田政雄, head of its organization committee.
     n: '[[w.chen-yi-nianpu]], 1202. Names: Chen Yi.'
     tags: [polity:prc, polity:japan, name:chen-yi, ok:fields-place]
+  - id: cal.1968-04-04.democratic-party-2
+    when: Apr. 4
+    date: '1968-04-04'
+    place: washington
+    thread: democratic-party
+    also: [king]
+    follows:
+      - cal.1968-04-04.democratic-party
+      - cal.1968-04-04.king
+    c: Humphrey, at the head table, is handed a note that King has been shot; the dinner goes on; a second note that he is dead, he writes a brief eulogy, delivers it, and announces the dinner over. By Humphrey's account.
+    n: '[[w.humphrey-education-of-a-public-1976]], 361–62; [[w.solberg-hubert-humphrey]], 326 (told of the shooting at a fund-raising dinner that evening); [[w.califano-triumph-and-tragedy-of]], 274 (Johnson, in the Oval Office, has Califano call the Vice President and the congressional leaders to say a prayer for King and close the dinner down; not Humphrey''s notes or eulogy). See [[cal.1968-04-04.democratic-party]]. The order: after [[cal.1968-04-04.democratic-party]], the dinner already in progress ([[w.johnson-white-house-diary]], 648); after [[cal.1968-04-04.king]], Humphrey, 361–62 (the notes of the shooting and the death). Names: Humphrey, Martin Luther King.'
+    tags: [name:humphrey-hubert-h, name:king-martin-luther-jr]
+    time_range:
+      - 1968-04-05T00:00Z
+      - 1968-04-05T03:00Z
+    time_band: evening
+    time_zone: America/New_York
+    range_basis: record
+  - id: cal.1968-04-04.king-memphis-3
+    when: Apr. 4
+    date: '1968-04-04'
+    place: memphis
+    thread: king-memphis
+    follows:
+      - cal.1968-04-04.king-memphis-2
+    c: 'Memphis, the Lorraine Motel, Room 201, after Young''s return from court about 5 p.m. Eskridge, in from a lawyers'' conference with Judge Brown, to King: the judge will let SCLC lead the march on Monday, its route prescribed, no weapons, narrow ranks.'
+    n: '[[w.branch-at-canaans-edge]], 764 ("About five o''clock," Young back from court to the bull session in Room 201; Eskridge walked in from the lawyers'' conference with Judge Brown as the motel television turned to the network news; Officer Richmond logs King''s walk upstairs at 5:40). [[w.young-easy-burden]], 463–64 (Young back at the Lorraine "almost five," telling King what passed in court; not Eskridge). The hour: after Young''s return "About five o''clock" and before King''s walk upstairs at 5:40 (Branch, 764). See [[cal.1968-04-04.king-memphis]]. The order: after [[cal.1968-04-04.king-memphis-2]], [[w.branch-at-canaans-edge]], 761, 764 (King''s afternoon in Room 201, "hearing nothing all day from Andrew Young"; Young''s return about five). Names: Young, Martin Luther King.'
+    tags: [name:young-andrew-j-jr, name:king-martin-luther-jr, state:tn, city:memphis]
+    time_zone: America/Chicago
+    time_range:
+      - 1968-04-04T23:00Z
+      - 1968-04-04T23:40Z
+    range_basis: record
+  - id: cal.1968-04-04.elections-1968-5
+    when: Apr. 4, evening
+    date: '1968-04-04'
+    place: muncie
+    thread: elections-1968
+    also: [robert-kennedy-campaign]
+    follows:
+      - cal.1968-04-04.elections-1968
+      - cal.1968-04-04.king
+    c: Muncie.{2} Boarding the plane for Indianapolis, Robert Kennedy hears from Salinger that King has been shot.{3} By Schlesinger's account.{4}
+    cut_from:
+      '2': '1'
+      '3': '1'
+      '4': '1'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 874 (as they boarded the plane for Indianapolis Salinger telephoned that King had been shot). [[w.witcover-85-days]], 139 (as the chartered plane was leaving Muncie in early evening a reporter who had just called his office told him; not Salinger''s call). The hour: "early evening" (Witcover, 139), after the shooting at 7:01 p.m. Eastern. To check: John J. Lindsay, oral history interview by Jean Stein, Sept. 6, 1968, 10, Stein Papers; Walter Sheridan to Schlesinger, Oct. 17, 1977 (cited by [[w.schlesinger-robert-kennedy-and-his]], 874 n.79). See [[cal.1968-04-04.elections-1968]]. The order: after [[cal.1968-04-04.elections-1968]], Schlesinger, 874 ("A few moments later, as they boarded the plane"); after [[cal.1968-04-04.king]], the shooting. Names: Robert Kennedy, Salinger, King.'
+    src:
+      c: e86552cd
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 874: ?'
+        - 'w.witcover-85-days 139: ?'
+    tags: [name:kennedy-robert-f, name:salinger-pierre, name:king-martin-luther-jr, state:in, city:muncie]
+    time_range:
+      - 1968-04-05T00:00Z
+      - 1968-04-05T03:00Z
+    time_band: evening
+    time_zone: America/Indiana/Indianapolis
+    range_basis: record
+    variants:
+      - unit: '3'
+        witness: w.witcover-85-days
+        reads: 'Witcover: as the plane left Muncie in early evening, "a reporter who had just called his office rushed up the aisle and told him" that King had been shot; Dutton learned of his death at Weir Cook Airport.'
+        at: '139'
   - id: cal.1968-04-05.civil-disorders
     when: Apr. 5
     date: '1968-04-05'
@@ -2871,6 +2940,57 @@ entries:
     c: From Apr. 8 to May 31 Peng Dehuai 彭德怀 is interrogated twenty-eight times, chiefly on his visit to the Soviet Union 苏联. He writes his confession 交代 every day, about ten hours; often sleepless all night, in tears.
     n: '[[w.peng-dehuai-nianpu]], 818. Made public: 1998. Names: Peng Dehuai.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai]
+  - id: cal.1968-04-09.elections-1968
+    when: Apr. 8, night
+    date: '1968-04-08'
+    time: 1968-04-09T03:30Z
+    time_approx: true
+    place: atlanta
+    thread: elections-1968
+    also: [robert-kennedy-campaign]
+    c: 'Atlanta, before leaving.{1} Robert Kennedy with Negro entertainers; each says what he is doing for the movement. Cosby: "This is a lot of shit! I''m going to leave." Kennedy says little. By Julian Bond''s account.{2}'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 878; [[w.witcover-85-days]], 146 (the night before the funeral, a hotel suite in Atlanta, about 10:30 p.m.: Cosby, Sammy Davis Jr., Nancy Wilson, Belafonte, Poitier, Alan King, Gazzara; Kennedy "sat in a corner and listened"; not the words or Bond). The day and the hour: Witcover, 146 (read), about 10:30 p.m. the night before the funeral, "about ninety minutes" after the 9 p.m. meeting ([[cal.1968-04-08.robert-kennedy-campaign-decision]]), the meeting with King''s associates after it; Thomas, 368, has the abuse from civil rights leaders and celebrities "the night before" too; the funeral was Apr. 9. To check: [[w.stein-american-journey]], 260–61 (cited by [[w.schlesinger-robert-kennedy-and-his]], 878 n.11). See [[cal.1968-04-09.robert-kennedy]]. Names: Robert Kennedy, Bond.'
+    src:
+      c: 6b9a8b6d
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 878: 1, 2'
+        - 'w.witcover-85-days 146: ?'
+    tags: [name:kennedy-robert-f, name:bond-julian]
+    variants:
+      - unit: '1'
+        witness: w.witcover-85-days
+        reads: 'Witcover: the entertainers met Kennedy about 10:30 p.m. the night before the funeral (Apr. 8), in his hotel suite, after the Lear jet flight from Washington.'
+        at: '146'
+    time_zone: America/New_York
+  - id: cal.1968-04-09.robert-kennedy
+    when: Apr. 8–9, night
+    date: '1968-04-08'
+    place: atlanta
+    thread: robert-kennedy-campaign
+    also: [king]
+    follows:
+      - cal.1968-04-09.elections-1968
+    c: 'Atlanta, before leaving.{1} Robert Kennedy with King''s associates, Young, Abernathy, Hosea Williams, Bevel.{2} Bevel demands his program for racial justice; Kennedy: he has come to pay tribute, not to talk politics. By Young''s account.{3}'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 878–79; [[w.thomas-robert-kennedy]], 368 (hours of abuse from civil rights leaders and celebrities, Kennedy silent); [[w.young-easy-burden]], 486 (Earl Graves''s arrangement; Robert Kennedy with SCLC''s senior staff and Daddy King: "Those of us who are left must carry on."); [[w.witcover-85-days]], 146 (the third group, Abernathy, Young and other SCLC leaders, talked on until nearly 3 a.m., the night before the funeral; not Bevel or Williams or the words). Check: Young, 486, puts the meeting "as we were preparing for Martin''s funeral," Daddy King, Dorothy Cotton, Bevel, James Orange, Hosea Williams, Fred Bennett, T. Y. Rogers, Bernard Lafayette, C. T. Vivian, Bernard Lee, Jesse Jackson and Randolph Blackwell there. The order: after [[cal.1968-04-09.elections-1968]], [[w.witcover-85-days]], 146 ("Finally, a third group"). To check: Andrew Young, oral history interview by Jean Stein, Sept. 9, 1968, 12–13, Stein Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 879 n.13); [[w.stein-american-journey]], 259–60 (cited by [[w.schlesinger-robert-kennedy-and-his]], 879 n.12). The day and the hour: the night before the funeral (Witcover, 146, read: after the entertainers, "until nearly 3 o''clock"; Thomas, 368; Young, 486), from after the entertainers'' meeting of about 10:30 p.m. until nearly 3 a.m., the night of Apr. 8–9; the funeral was Apr. 9 (Schlesinger''s Apr. 7, 879, is not the day). See [[cal.1968-04-09.king]]. Names: Robert Kennedy, Andrew Young, Abernathy, Williams.'
+    src:
+      c: f12a9182
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 878–79: 1, 2, 3'
+        - 'via w.schlesinger-robert-kennedy-and-his 879 n.13: 1, 2, 3'
+        - 'w.thomas-robert-kennedy 368: 2'
+        - 'w.young-easy-burden 486: 1, 2'
+        - 'w.witcover-85-days 146: ?'
+    tags: [name:kennedy-robert-f, name:young-andrew-j-jr, name:abernathy-ralph-david, state:ga, city:atlanta, name:williams-hosea]
+    variants:
+      - unit: '1'
+        witness: w.witcover-85-days
+        reads: 'Witcover: the SCLC leaders came in the night before the funeral (Apr. 8) and "talked on until nearly 3 o''clock."'
+        at: '146'
+    time_range:
+      - 1968-04-09T03:30Z
+      - 1968-04-09T08:00Z
+    range_basis: record
+    time_zone: America/New_York
   - id: cal.1968-04-09.vietnam-paris
     when: Apr. 9
     date: '1968-04-09'
@@ -2977,47 +3097,6 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
-  - id: cal.1968-04-09.robert-kennedy
-    when: Apr. 9
-    date: '1968-04-09'
-    place: atlanta
-    thread: robert-kennedy-campaign
-    also: [king]
-    c: 'Atlanta, before leaving.{1} Robert Kennedy with King''s associates, Young, Abernathy, Hosea Williams, Bevel.{2} Bevel demands his program for racial justice; Kennedy: he has come to pay tribute, not to talk politics. By Young''s account.{3}'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 878–79; [[w.thomas-robert-kennedy]], 368 (hours of abuse from civil rights leaders and celebrities, Kennedy silent); [[w.young-easy-burden]], 486 (Earl Graves''s arrangement; Robert Kennedy with SCLC''s senior staff and Daddy King: "Those of us who are left must carry on."); [[w.witcover-85-days]], 146 (the third group, Abernathy, Young and other SCLC leaders, talked on until nearly 3 a.m., the night before the funeral; not Bevel or Williams or the words). Check: Thomas puts the abuse the night before the funeral (368). Check: Young, 486, puts the meeting "as we were preparing for Martin''s funeral," Daddy King, Dorothy Cotton, Bevel, James Orange, Hosea Williams, Fred Bennett, T. Y. Rogers, Bernard Lafayette, C. T. Vivian, Bernard Lee, Jesse Jackson and Randolph Blackwell there. To check: Andrew Young, oral history interview by Jean Stein, Sept. 9, 1968, 12–13, Stein Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 879 n.13); [[w.stein-american-journey]], 259–60 (cited by [[w.schlesinger-robert-kennedy-and-his]], 879 n.12). Check: the day (Schlesinger dates the funeral Apr. 7). See [[cal.1968-04-09.king]]. Names: Robert Kennedy, Andrew Young, Abernathy, Williams.'
-    src:
-      c: f12a9182
-      rows:
-        - 'w.schlesinger-robert-kennedy-and-his 878–79: 1, 2, 3'
-        - 'via w.schlesinger-robert-kennedy-and-his 879 n.13: 1, 2, 3'
-        - 'w.thomas-robert-kennedy 368: 2'
-        - 'w.young-easy-burden 486: 1, 2'
-        - 'w.witcover-85-days 146: ?'
-    tags: [name:kennedy-robert-f, name:young-andrew-j-jr, name:abernathy-ralph-david, state:ga, city:atlanta, name:williams-hosea]
-    variants:
-      - unit: '1'
-        witness: w.witcover-85-days
-        reads: 'Witcover: the SCLC leaders came in the night before the funeral (Apr. 8) and "talked on until nearly 3 o''clock."'
-        at: '146'
-  - id: cal.1968-04-09.elections-1968
-    when: Apr. 9
-    date: '1968-04-09'
-    place: atlanta
-    thread: elections-1968
-    also: [robert-kennedy-campaign]
-    c: 'Atlanta, before leaving.{1} Robert Kennedy with Negro entertainers; each says what he is doing for the movement. Cosby: "This is a lot of shit! I''m going to leave." Kennedy says little. By Julian Bond''s account.{2}'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 878; [[w.witcover-85-days]], 146 (the night before the funeral, a hotel suite in Atlanta, about 10:30 p.m.: Cosby, Sammy Davis Jr., Nancy Wilson, Belafonte, Poitier, Alan King, Gazzara; Kennedy "sat in a corner and listened"; not the words or Bond). Check: the day; Witcover (145–46) puts this meeting about 10:30 p.m. the night before the funeral, after the 9 p.m. meeting ([[cal.1968-04-08.robert-kennedy-campaign-decision]]), and the meeting with King''s associates after it, until nearly 3 a.m. To check: [[w.stein-american-journey]], 260–61 (cited by [[w.schlesinger-robert-kennedy-and-his]], 878 n.11). See [[cal.1968-04-09.robert-kennedy]]. Names: Robert Kennedy, Bond.'
-    src:
-      c: 6b9a8b6d
-      rows:
-        - 'w.schlesinger-robert-kennedy-and-his 878: 1, 2'
-        - 'w.witcover-85-days 146: ?'
-    tags: [name:kennedy-robert-f, name:bond-julian]
-    variants:
-      - unit: '1'
-        witness: w.witcover-85-days
-        reads: 'Witcover: the entertainers met Kennedy about 10:30 p.m. the night before the funeral (Apr. 8), in his hotel suite, after the Lear jet flight from Washington.'
-        at: '146'
   - id: cal.1968-04-09.robert-kennedy-2
     when: Apr. 9
     date: '1968-04-09'
@@ -4924,7 +5003,7 @@ entries:
     thread: elections-1968-republican-nomination
     also: [republican-party]
     c: Evening.{1} The Johnsons at dinner alone with Nelson and Happy Rockefeller, brought in secretly through Larry Temple's office. Johnson will be neutral among the Democrats and urges Rockefeller to seek the Republican nomination;{2} Rockefeller announces Apr. 30.{3}
-    n: '[[w.califano-triumph-and-tragedy-of]], 290 (Happy Rockefeller and Mrs. Johnson to Califano later); [[w.smith-on-his-own-terms]], 528 (smuggled into the White House; Johnson "could not sleep at night if Nixon was president"; "Let me talk to Happy"); [[w.dallek-flawed-giant]], 545 ("toward the end of April" the Rockefellers at dinner at the White House; Johnson urges him to declare for the Republican nomination and will never campaign against him; Apr. 30, Rockefeller declares; not the day, the secrecy or Johnson''s neutrality). Names: Johnson, Lady Bird Johnson, Rockefeller, Temple.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 290 (Happy Rockefeller and Mrs. Johnson to Califano later); [[w.smith-on-his-own-terms]], 528 (smuggled into the White House; Johnson "could not sleep at night if Nixon was president"; "Let me talk to Happy"); [[w.dallek-flawed-giant]], 545 ("toward the end of April" the Rockefellers at dinner at the White House; Johnson urges him to declare for the Republican nomination and will never campaign against him; Apr. 30, Rockefeller declares; not the day, the secrecy or Johnson''s neutrality). Check: the day: Califano, 290, has the Johnsons dine with the Rockefellers at the White House on "Tuesday evening, April 23," his note citing the Daily Diary of that day (376, n.4); White, 232, has the Draft Rockefeller leaders meet at Whitney''s office on Apr. 23 and "That night" Emmet Hughes and J. Irwin Miller dine with Nelson and Happy Rockefeller, no place given; Mrs. Johnson''s diary (read, Apr. 4–30) has no entry for the 23rd; Dallek has "toward the end of April." The Daily Diary for Apr. 23 is not in the National Archives Catalog and discoverlbj.org refuses this host. To check: President''s Daily Diary, Apr. 23, 1968, LBJ Library; Larry Temple, oral history interview, June 26, 1970, tape 3, 15–16, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 290 n.4). Names: Johnson, Lady Bird Johnson, Rockefeller, Temple.'
     src:
       c: 0ea07d1c
       rows:

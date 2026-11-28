@@ -577,11 +577,14 @@ entries:
   - id: cal.1966-08-02.middle-east
     when: Aug. 2
     date: '1966-08-02'
+    time: 1966-08-02T23:55Z
+    time_approx: true
     place: washington
     thread: middle-east
     c: The White House. State Dinner for President Zalman Shazar of Israel and Mrs. Shazar, 190 guests; the Johnsons, a few minutes late, meet them on the front Portico just before 8; Rudolf Serkin plays.
-    n: '[[w.johnson-white-house-diary]], 402–04 (Lady Bird Johnson''s account). To check: the Public Papers, the toasts, Aug. 2, 1966. Names: Johnson, Lady Bird Johnson, Shazar.'
+    n: '[[w.johnson-white-house-diary]], 402–04 (Lady Bird Johnson''s account). The hour (403–04): at twenty minutes of 8 she telephones his office for him, to meet President Shazar on the front Portico in ten minutes; they come down a few minutes late, as the limousine drives up. To check: the Public Papers, the toasts, Aug. 2, 1966. Names: Johnson, Lady Bird Johnson, Shazar.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:shazar-zalman]
+    time_zone: America/New_York
   - id: cal.1966-08-02.china-leadership
     when: Aug. 2
     date: '1966-08-02'
@@ -987,9 +990,15 @@ entries:
     place: peking
     thread: china-red-guards
     also: [china-mao-cr]
-    c: 'Plenum, afternoon. Mao to Liu Lantao: withdraw the work groups; set up committees, congresses and groups of revolutionary teachers, students and staff to run it themselves, the Marxist-Leninist way. To Song Renqiong: put aside airs; be ordinary people; the masses are pleased.'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 3, 1966. [[w.pu-weihua-zalan-jiu-shijie]], 190 (the afternoon plenary in the East Hall of the Great Hall, Zhou Enlai presiding; Liu Lantao, Song Renqiong, Li Jingquan and Wei Wenbo, of four regional bureaus, speak; after Liu Lantao Mao: without breaking the work groups you cannot set up the congresses and committees of revolutionary teachers and students; sending work groups to suppress students is an anti-Marxist idea). Made public: 2013. Names: Mao Zedong, Liu Lantao, Song Renqiong.'
-    tags: [name:mao-zedong, polity:prc, vis:only:prc, name:liu-lantao, name:song-renqiong]
+    c: 'Plenum, afternoon. Mao to Liu Lantao: withdraw the work groups; set up committees, congresses and groups of revolutionary teachers, students and staff to run it themselves, the Marxist-Leninist way.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 3, 1966. [[w.pu-weihua-zalan-jiu-shijie]], 190 (the afternoon plenary in the East Hall of the Great Hall, Zhou Enlai presiding; Liu Lantao, Song Renqiong, Li Jingquan and Wei Wenbo, of four regional bureaus, speak; after Liu Lantao Mao: without breaking the work groups you cannot set up the congresses and committees of revolutionary teachers and students; sending work groups to suppress students is an anti-Marxist idea). Pu has Mao speak after Liu Lantao''s speech, the first of the four. Made public: 2013. Names: Mao Zedong, Liu Lantao.'
+    tags: [name:mao-zedong, polity:prc, vis:only:prc, name:liu-lantao]
+    time_range:
+      - 1966-08-03T04:00Z
+      - 1966-08-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1966-08-03.china-leadership-2
     when: Aug. 3
     date: '1966-08-03'
@@ -1139,8 +1148,10 @@ entries:
     place: peking
     thread: china-red-guards
     also: [china-zhou-cr]
+    follows:
+      - cal.1966-08-03.china-leadership
     c: Peking 北京. Song Renqiong 宋任穷, at the plenary session in the East Hall of the Great Hall of the People 人民大会堂东大厅, Zhou Enlai 周恩来 presiding, says he still has many misgivings about letting the students make revolution so.
-    n: '[[w.pu-weihua-zalan-jiu-shijie]], 190. Made public: 2008. Names: Zhou Enlai, Song Renqiong.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 190. Made public: 2008. The order: after [[cal.1966-08-03.china-leadership]], [[w.pu-weihua-zalan-jiu-shijie]], 190 (the four speak in turn, Liu Lantao first, Song second; Mao''s remark "after Liu Lantao''s speech"). Names: Zhou Enlai, Song Renqiong.'
     src:
       c: 5e9944fe
       rows:
@@ -1203,6 +1214,23 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 209 n.34: all'
     tags: [polity:prc]
+  - id: cal.1966-08-03.china-red-guards
+    when: Aug. 3
+    date: '1966-08-03'
+    place: peking
+    thread: china-red-guards
+    also: [china-mao-cr]
+    follows:
+      - cal.1966-08-03.china-leadership-12
+    c: 'Plenum, afternoon. Mao to Song Renqiong, as Song speaks of the attitude to the masses: put aside airs; be ordinary people; the masses are pleased.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 3, 1966 (在宋任穷发言谈到对群众的态度时). Made public: 2013. See [[cal.1966-08-03.china-leadership]]. After [[cal.1966-08-03.china-leadership-12|Song''s misgivings]]: the nianpu has the remark in his speech. Names: Mao Zedong, Song Renqiong.'
+    tags: [name:mao-zedong, name:song-renqiong, polity:prc, vis:only:prc]
+    time_range:
+      - 1966-08-03T04:00Z
+      - 1966-08-03T10:00Z
+    time_band: afternoon
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1966-08-04.jobs-and-wages
     when: Aug. 4
     date: '1966-08-04'
@@ -1333,7 +1361,7 @@ entries:
     follows:
       - cal.1966-08-04.open-housing-2
     c: 'Chicago, New Friendship Baptist, 1,700, on live radio.{1} King: he will lead the next day''s march, "My place is in Gage Park."{2} Daley''s Negro alderman has met King and Raby for the first time.{3}'
-    n: '[[w.branch-at-canaans-edge]], 509; [[w.ralph-northern-protest]], 122; [[w.ralph-northern-protest]], 143; [[w.anderson-confronting-the-color-line]], 226–27 (King and Raby three hours with the Negro leaders of the Democratic organization); [[w.cohen-american-pharaoh]], 394–95 (the meeting of Daley''s Negro aldermen and legislators with King and Raby, three hours, Despres there; Metcalfe''s arm round King). After [[cal.1966-08-04.open-housing-2|the meeting at the YMCA]]: the meeting Thursday morning (Ralph, 143), the mass meeting Thursday night (Branch, 509). Check: Ralph gives two thousand at New Friendship (122). Check: Anderson: a dozen aldermen and State representatives, for open housing legislation, more bank loans to Negroes, building standards and racial head counts, against replacing the absentee precinct captains; Jackson''s announcement that King would lead the weekend''s march (226–27). Check: Cohen and Taylor do not date the meeting (394–95). To check: [[w.garrow-bearing-the-cross]], 499 (cited by [[w.branch-at-canaans-edge]], 509); Speech excerpts, "MLK Rally with Mahalia Jackson," Aug. 4, 1966, A/KS (cited by [[w.branch-at-canaans-edge]], 509); Urban Affairs Weekly Report, Aug. 7, 1966, AFSC papers, 1966 CRD Housing Program, box 4, AFSC Archives (cited by [[w.ralph-northern-protest]], 122 n.88). See [[cal.1966-07-31.open-housing]]. Names: King, Raby, Daley.'
+    n: '[[w.branch-at-canaans-edge]], 509; [[w.ralph-northern-protest]], 122; [[w.ralph-northern-protest]], 143; [[w.anderson-confronting-the-color-line]], 226–27 (King and Raby three hours with the Negro leaders of the Democratic organization); [[w.cohen-american-pharaoh]], 394–95 (the meeting of Daley''s Negro aldermen and legislators with King and Raby, three hours, Despres there; Metcalfe''s arm round King). After [[cal.1966-08-04.open-housing-2|the meeting at the YMCA]]: the meeting Thursday morning (Ralph, 144), the mass meeting Thursday night (Branch, 509). The words: "Thursday night," "tonight" (Branch, 509). Check: Ralph gives two thousand at New Friendship (122). Check: Anderson: a dozen aldermen and State representatives, for open housing legislation, more bank loans to Negroes, building standards and racial head counts, against replacing the absentee precinct captains; Jackson''s announcement that King would lead the weekend''s march (226–27). Check: Cohen and Taylor do not date the meeting (394–95). To check: [[w.garrow-bearing-the-cross]], 499 (cited by [[w.branch-at-canaans-edge]], 509); Speech excerpts, "MLK Rally with Mahalia Jackson," Aug. 4, 1966, A/KS (cited by [[w.branch-at-canaans-edge]], 509); Urban Affairs Weekly Report, Aug. 7, 1966, AFSC papers, 1966 CRD Housing Program, box 4, AFSC Archives (cited by [[w.ralph-northern-protest]], 122 n.88). See [[cal.1966-07-31.open-housing]]. Names: King, Raby, Daley.'
     src:
       c: 6709b272
       rows:
@@ -1345,6 +1373,12 @@ entries:
         - 'w.anderson-confronting-the-color-line 226–27: 3'
         - 'w.cohen-american-pharaoh 394–95: 3'
     tags: [name:king-martin-luther-jr, name:raby-albert, name:daley-richard-j, state:il, city:chicago]
+    time_range:
+      - 1966-08-05T03:00Z
+      - 1966-08-05T05:00Z
+    time_band: night
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1966-08-04.vietnam-air-war
     when: Aug. 4
     date: '1966-08-04'
@@ -1372,7 +1406,7 @@ entries:
     thread: open-housing
     also: [mayors]
     c: 'Chicago, the Washington Park YMCA, three hours. King and Raby with elected officials, most of them Negro, Metcalfe at the head of Daley''s six aldermen;{1} Chew charges the movement with freezing out politicians who back it.{2} The aldermen endorse open housing and nondiscriminatory mortgages; not Raby''s call for precinct captains to live in their precincts.{3} King: "nonviolence needs some victories."{4}'
-    n: '[[w.ralph-northern-protest]], 143–44; [[w.anderson-confronting-the-color-line]], 226–27; [[w.cohen-american-pharaoh]], 394–95 (three hours, Despres there; Metcalfe''s arm round King). To check: Woodlawn Booster, Aug. 11, 1966; Chicago''s American, Aug. 10, 1966, 1, 10; New Crusader, Aug. 6, 1966, 1, 3 (cited by [[w.ralph-northern-protest]], 143 n.39). Names: King, Raby.'
+    n: '[[w.ralph-northern-protest]], 143–44; [[w.anderson-confronting-the-color-line]], 226–27; [[w.cohen-american-pharaoh]], 394–95 (three hours, Despres there; Metcalfe''s arm round King). The words: "Thursday morning, August 4," "this three-hour meeting" (Ralph, 144). To check: Woodlawn Booster, Aug. 11, 1966; Chicago''s American, Aug. 10, 1966, 1, 10; New Crusader, Aug. 6, 1966, 1, 3 (cited by [[w.ralph-northern-protest]], 143 n.39). Names: King, Raby.'
     src:
       c: 8205359e
       rows:
@@ -1381,11 +1415,11 @@ entries:
         - 'w.cohen-american-pharaoh 394–95: 1, 2, 3, 4'
     tags: [state:il, city:chicago, name:king-martin-luther-jr, name:raby-albert]
     time_range:
-      - 1966-08-04T14:00Z
-      - 1966-08-04T22:00Z
-    time_band: workday daytime
+      - 1966-08-04T11:00Z
+      - 1966-08-04T17:00Z
+    time_band: morning
     time_zone: America/Chicago
-    range_basis: kind
+    range_basis: record
   - id: cal.1966-08-04.open-housing-3
     when: Aug. 4
     date: '1966-08-04'
@@ -2184,7 +2218,7 @@ entries:
     thread: china-red-guards
     also: [china-mao-cr]
     c: Mao has his secretary tell Lin Biao, resting at Dalian, to attend the plenum.{1} Lin flies to Peking that night and goes straight to the Great Hall.{2}
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 6, 1966. [[w.macfarquhar-maos-last-revolution]], 91 (Mao orders Lin Biao, resting in Dalian during the first week of the plenum, to fly to Peking); [[w.mao-zedong-zhuan]], VI, ch. 74 (Lin Biao, resting at Dalian 大连, had telegraphed leave of absence before the plenum; Mao told him to come to Peking, and he joined the plenum midway on Aug. 6). [[w.yang-jisheng-tiandi-fanfu]], I, 224 (Aug. 4 Mao has his secretary telephone Lin Biao, resting at Dalian 大連, and Lin answers that evening that he supports Mao but cannot attend for his health; Aug. 5 Mao tells him by telephone the contents of the poster; Aug. 6 in the morning Xu Yefu telephones that Lin must come); [[w.jian-zhou-enlai]], 550 (Lin, on vacation at Dalian, rushes back to Peking Aug. 6 on Mao''s orders); [[w.teiwes-tragedy-of-lin-biao]], 63–64 (Lin on sick leave at Dalian from at least early July, with no intention of attending the plenum; only after writing his poster of Aug. 5 does Mao summon him, sending Wu Faxian and a plane to Dalian; Lin unhappy at the capital''s heat); [[w.pu-weihua-zalan-jiu-shijie]], 193 (the evening of Aug. 6, on the eve of the poster''s printing for the plenum, by Xu Yefu; Lin comes by special plane with Wu Faxian). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 74). To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 444 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.16); [[w.weixun-wo-suo-zhidaode-ye]], 218 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.17). Names: Mao Zedong, Lin Biao.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 6, 1966. [[w.macfarquhar-maos-last-revolution]], 91 (Mao orders Lin Biao, resting in Dalian during the first week of the plenum, to fly to Peking); [[w.mao-zedong-zhuan]], VI, ch. 74 (Lin Biao, resting at Dalian 大连, had telegraphed leave of absence before the plenum; Mao told him to come to Peking, and he joined the plenum midway on Aug. 6). [[w.yang-jisheng-tiandi-fanfu]], I, 224 (Aug. 4 Mao has his secretary telephone Lin Biao, resting at Dalian 大連, and Lin answers that evening that he supports Mao but cannot attend for his health; Aug. 5 Mao tells him by telephone the contents of the poster; Aug. 6 in the morning Xu Yefu telephones that Lin must come); [[w.jian-zhou-enlai]], 550 (Lin, on vacation at Dalian, rushes back to Peking Aug. 6 on Mao''s orders); [[w.teiwes-tragedy-of-lin-biao]], 63–64 (Lin on sick leave at Dalian from at least early July, with no intention of attending the plenum; only after writing his poster of Aug. 5 does Mao summon him, sending Wu Faxian and a plane to Dalian; Lin unhappy at the capital''s heat); [[w.pu-weihua-zalan-jiu-shijie]], 193 (the evening of Aug. 6, on the eve of the poster''s printing for the plenum, by Xu Yefu; Lin comes by special plane with Wu Faxian). Made public: [[w.xianzhi-mao-zedong-zhuan-1949]] (2003), by the text of the second edition ([[w.mao-zedong-zhuan]], VI, ch. 74). Check: the day and hour of Lin''s coming: the Mao nianpu (V, Aug. 6, read) has him fly back "that evening" (当晚) of Aug. 6; Wu Faxian, by Yang (I, 224, read), the landing at 10:30 a.m. Aug. 8, after Zhou''s word on the evening of Aug. 7. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xinshiji chubanshe 新世紀出版社, Hong Kong, 2011), 444 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.16); [[w.weixun-wo-suo-zhidaode-ye]], 218 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.17); *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008, 3rd ed.), 594–595 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.18a). Names: Mao Zedong, Lin Biao.'
     src:
       c: 9a93a57e
       rows:
@@ -2200,7 +2234,7 @@ entries:
     variants:
       - unit: '2'
         witness: w.yang-jisheng-tiandi-fanfu
-        reads: Aug. 7 evening Zhou tells Wu Faxian to send a plane to Dalian next day; Lin and Ye Qun 葉群 land at the western-suburb airport at 10:30 a.m. on Aug. 8 (Wu Faxian; the Mao chronology has Lin back on the evening of Aug. 8, straight to the Great Hall)
+        reads: 'Aug. 7 evening Zhou tells Wu Faxian to send a plane to Dalian next day; Lin and Ye Qun 葉群 land at the western-suburb airport at 10:30 a.m. on Aug. 8 (Wu Faxian''s account, as Yang gives it; Yang''s note 18 says the Mao chronology has Lin back on the evening of Aug. 8, which the text of the chronology read here does not: it has the evening of Aug. 6)'
         at: I, 224
   - id: cal.1966-08-06.china-leadership-3
     when: Aug. 6
@@ -2911,7 +2945,7 @@ entries:
     thread: china-red-guards
     also: [china-zhou-cr]
     c: The plane with Lin Biao 林彪 and Ye Qun 葉群 lands at the western-suburb airport at 10:30 a.m. Zhou Enlai 周恩來, already there, has it stop at the north end of the runway, short of the apron, and boards to meet Lin, Wang Dongxing 汪東興 coming up with him on Mao's behalf; they talk in the cabin more than half an hour.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 224. The words: 上午10點半 (I, 224). Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008, 3rd ed.), 594–595 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.18a); [[w.zedong-mao-zedong-nianpu]], V, 609 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.18b). Names: Lin Biao, Ye Qun, Zhou Enlai, Mao Zedong. Check: the day and hour; the Mao chronology (V, 609) has Lin back on the evening of Aug. 8.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 224. The words: 上午10點半 (I, 224). Made public: 2008. To check: *Wu Faxian huiyilu* 《吳法憲回憶錄》 (Beixing chubanshe 北星出版社, Hong Kong, 2008, 3rd ed.), 594–595 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.18a); [[w.zedong-mao-zedong-nianpu]], V, 609 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 224 n.18b). Names: Lin Biao, Ye Qun, Zhou Enlai, Mao Zedong. Check: the day and hour; Yang''s note (I, 224 n.18) gives the Mao chronology (V, 609) as having Lin back on the evening of Aug. 8, but the chronology as read (V, Aug. 6) has him fly back the evening of Aug. 6 ([[cal.1966-08-06.china-leadership-2]]).'
     src:
       c: 23fdcb6f
       rows:
@@ -3259,6 +3293,12 @@ entries:
         - 'w.anderson-confronting-the-color-line 230: all'
         - 'via x.1966-08-09.agenda-committee-minutes: all'
     tags: [name:raby-albert, state:il, city:chicago]
+    time_range:
+      - 1966-08-10T03:00Z
+      - 1966-08-10T05:00Z
+    time_band: night
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1966-08-09.china-leadership
     when: Aug. 9
     date: '1966-08-09'
@@ -4585,6 +4625,7 @@ entries:
   - id: cal.1966-08-15.china-leadership-2
     when: Aug. 15
     date: '1966-08-15'
+    time: 1966-08-15T14:00Z
     thread: china-mao
     c: 'Mao reads Chen Boda''s and Kang Sheng''s report that Li Xuefeng be relieved of the Peking first secretaryship and Wu De take it: Li to stay in name, Wu De to run the work; Lin Biao to preside over a meeting of Lin, Zhou, Tao Zhu, Liu Shaoqi, Deng Xiaoping and Li Xuefeng on it.{1}'
     n: '[[w.zedong-mao-zedong-nianpu]], V, Aug. 15, 1966. [[w.jianguo-yilai-mao-zedong]], XVIII, 316–317 (Aug. 15, 1966; Mao''s note, 10 p.m. Aug. 15, on Chen Boda''s and Kang Sheng''s report of that day; printed from the manuscript). Made public: 2013. To check: Chen Boda and Kang Sheng, report to Mao Zedong of Aug. 15, 1966 proposing that Li Xuefeng give up the Peking first secretaryship to Wu De (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 316 n.1). Names: Mao Zedong, Chen Boda, Kang Sheng, Li Xuefeng, Wu De, Lin Biao, Zhou Enlai, Tao Zhu, Liu Shaoqi, Deng Xiaoping.'
@@ -4592,9 +4633,10 @@ entries:
       c: 8e8e3cda
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Aug. 15, 1966: 1'
-        - 'w.jianguo-yilai-mao-zedong XVIII, 316–317: 1'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 316 n.1: 1'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 316–317: time'
     tags: [name:mao-zedong, name:chen-boda, name:kang-sheng, name:lin-biao, name:zhou-enlai, name:tao-zhu, name:liu-shaoqi, name:deng-xiaoping, polity:prc, vis:only:prc, name:li-xuefeng, name:wu-de]
+    time_zone: Asia/Shanghai
   - id: cal.1966-08-15.vietnam-hanoi
     when: Aug. 15
     date: '1966-08-15'
@@ -5381,14 +5423,13 @@ entries:
   - id: cal.1966-08-18.china-leadership-11
     when: Aug. 18
     date: '1966-08-18'
-    time: 1966-08-17T23:30Z
     place: peking
     thread: china-red-guards
     also: [china-zhou-cr]
     follows:
       - cal.1966-08-18.china-leadership-6
     c: 'Zhou Enlai 周恩来, speaking at the Peking rally of a million, quotes Mao: "Revolution depends on oneself" 革命要靠自己.'
-    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 323 (Aug. 18, 1966; the Wengao prints the words as Mao''s of 1966, from *Renmin ribao*, Aug. 19, 1966; note 1); [[w.yang-jisheng-tiandi-fanfu]], I, 240 (the celebration opens at 7:30 a.m. 早晨7：30; Mao and Lin Biao come out to the marble balustrade and wave to the million with their little red books; Lin speaks: "the supreme commander of this great proletarian cultural revolution is our Chairman Mao, the commander in chief"; Zhou Enlai also speaks to encourage the Red Guards; hundreds of thousands of Red Guards of the middle schools wait on East Chang''an Avenue and file past the rostrum); [[w.pu-weihua-zalan-jiu-shijie]], 256, 256 n.113 (Zhou at the first reception: a warm welcome to the students and staff come from all over the country; the Peking students and those from elsewhere to learn from and help each other and exchange revolutionary experience; the capital''s students the hosts). After [[cal.1966-08-18.china-leadership-6|Lin Biao''s speech]], in the sequence of [[w.mao-zedong-zhuan]], VI, ch. 75. Names: Zhou Enlai, Mao Zedong. Check: the day of Mao''s words; the Wengao dates them 1966.'
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 323 (Aug. 18, 1966; the Wengao prints the words as Mao''s of 1966, from *Renmin ribao*, Aug. 19, 1966; note 1); [[w.yang-jisheng-tiandi-fanfu]], I, 240 (the celebration opens at 7:30 a.m. 早晨7：30; Mao and Lin Biao come out to the marble balustrade and wave to the million with their little red books; Lin speaks: "the supreme commander of this great proletarian cultural revolution is our Chairman Mao, the commander in chief"; Zhou Enlai also speaks to encourage the Red Guards; hundreds of thousands of Red Guards of the middle schools wait on East Chang''an Avenue and file past the rostrum); [[w.pu-weihua-zalan-jiu-shijie]], 256, 256 n.113 (Zhou at the first reception: a warm welcome to the students and staff come from all over the country; the Peking students and those from elsewhere to learn from and help each other and exchange revolutionary experience; the capital''s students the hosts). The 7:30 a.m. is the rally''s opening (Yang, I, 240, read); Lin Biao and Zhou speak after it, and Zhou''s speech has no hour of its own. After [[cal.1966-08-18.china-leadership-6|Lin Biao''s speech]], in the sequence of [[w.mao-zedong-zhuan]], VI, ch. 75. Names: Zhou Enlai, Mao Zedong. Check: the day of Mao''s words; the Wengao dates them 1966.'
     src:
       c: bc89e6f8
       rows:
@@ -5397,6 +5438,11 @@ entries:
         - 'w.pu-weihua-zalan-jiu-shijie 256, 256 n.113: ?'
     tags: [polity:prc, name:zhou-enlai, name:mao-zedong]
     time_zone: Asia/Shanghai
+    time_range:
+      - 1966-08-17T22:00Z
+      - 1966-08-18T04:00Z
+    time_band: morning
+    range_basis: record
   - id: cal.1966-08-18.china-leadership-12
     when: Aug. 18
     date: '1966-08-18'
@@ -5638,15 +5684,23 @@ entries:
     time: 1966-08-20T00:14Z
     place: ellenville
     thread: health
-    also: [school-aid]
-    c: 'Ellenville, N.Y. Johnson dedicates the community hospital, telling the school bill''s story: B''nai B''rith''s award and its denunciation, the Cardinals, "our Billy": "before the sun went down that night we had the Cardinals and we had the Rabbis."'
-    n: 'Remarks at the Dedication of the Ellenville Community Hospital, Ellenville, New York, [1966 Pub. Papers 849](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=223) (Aug. 19, 1966). [[w.mcpherson-political-education]], 328–29. Names: Johnson.'
+    also: [school-aid, robert-kennedy, elections-1966]
+    c: 'Ellenville, N.Y., in the Catskills; Johnson and Robert Kennedy together.{1} Johnson dedicates the community hospital.{4} He names Kennedy, "a young man for whom I have the deepest respect";{5} shrieks of "Bobby!"{6} Kennedy joined him that afternoon, after the Senate passed the demonstration cities bill.{7} He presents the New York congressmen.{8} He tells the school bill''s story: B''nai B''rith''s award and its denunciation, the Cardinals, "our Billy": "before the sun went down that night we had the Cardinals and we had the Rabbis."{9} The *Christian Science Monitor*''s headline, Aug. 22: "New Yorkers Applaud Johnson, Squeal at Kennedy."{3}'
+    cut_from:
+      '5': '2'
+      '6': '2'
+      '8': '2'
+    n: 'Remarks at the Dedication of the Ellenville Community Hospital, Ellenville, New York, [1966 Pub. Papers 849](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=223) (Aug. 19, 1966). [[w.mcpherson-political-education]], 328–29; [[w.shesol-mutual-contempt]], 346; [[w.thomas-robert-kennedy]], 327. The Public Papers date the remarks, with Kennedy named, Aug. 19; Shesol and Thomas have Aug. 21, the day of the Campobello visit. Shesol''s notes (531–32, to 345–46) date the *Monitor*''s story Aug. 22, so it is not "the next day" of Aug. 19. The order is the Papers'' (849–50): Shesol has the congressmen introduced first, then Kennedy (346). The words: "spoke at 8:14 p.m." (856). To check: Richard L. Strout, "New Yorkers Applaud Johnson, Squeal at Kennedy," *Christian Science Monitor*, Aug. 22, 1966; "Welcome to the Vineyard," *Newsweek*, Oct. 24, 1966, at 38; "On the Campaign Trail with Robert Kennedy," *U.S. News & World Report*, Nov. 7, 1966, at 40 (cited by [[w.shesol-mutual-contempt]], 345, 346); *New York Times*, Nov. 14, 1966 (cited by [[w.thomas-robert-kennedy]], 327). Names: Johnson, Robert Kennedy. Check: Thomas gives the headline "Crowds Applaud LBJ, Squeal at Kennedy" (327).'
     src:
-      c: 85ee41fc
+      c: 3755ae9d
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=223: all'
-        - 'w.mcpherson-political-education 328–29: all'
-    tags: [name:johnson-lyndon-b, state:ny]
+        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=223: 1, 4, 5, 7, 8, 9, time, place'
+        - 'w.mcpherson-political-education 328–29: 4, 9'
+        - 'w.shesol-mutual-contempt 346: 1, 5, 6, 8, 3'
+        - 'via x.1966-08-22.strout-new-yorkers-applaud-johnson: 1, 5, 6, 8, 3'
+        - 'w.thomas-robert-kennedy 327: 1, 3'
+    tags: [name:johnson-lyndon-b, state:ny, name:kennedy-robert-f]
+    aliases: [cal.1966-08-21.elections-1966]
   - id: cal.1966-08-19.open-housing
     when: Aug. 19
     date: '1966-08-19'
@@ -5739,7 +5793,7 @@ entries:
     place: washington
     thread: cities-and-housing
     c: 'Senate, the demonstration cities bill: Tower''s amendment adopted, no State to have more than 15 percent of the planning money.'
-    n: '[[w.bernstein-guns-or-butter]], 466. The Senate sat from noon to 3:36 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D445](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=443). Check: the day; Bernstein''s text has Tower''s motions Aug. 9, the Senate''s passage of the bill [[cal.1966-08-19.cities-and-housing]]. Names: Tower.'
+    n: 'Daily Digest, Aug. 19, 1966, [D444](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=442): the Senate adopts two modified Tower amendments raising the limit on grants to any one State from 12½ to 15 percent (sections 105 and 205), and rejects another of his, to make the bill essentially a planning bill, 27 to 53. [[w.bernstein-guns-or-butter]], 466 (the 15 percent amendment, undated). The Digest settles the day: Bernstein''s "August 9" for Tower''s motions (466) is not it. The Senate sat from noon to 3:36 p.m.: [Daily Digest, D3](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=1), [D445](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt23/pdf/GPO-CRECB-1966-pt23-1.pdf#page=443). See [[cal.1966-08-19.cities-and-housing]]. Names: Tower.'
     src:
       c: 53e8b050
       rows:
@@ -6070,6 +6124,7 @@ entries:
   - id: cal.1966-08-20.program
     when: Aug. 20
     date: '1966-08-20'
+    time: 1966-08-21T00:00Z
     place: portland-me
     thread: program
     follows:
@@ -6077,6 +6132,7 @@ entries:
     c: Portland, Me. At the State Pier at 8, an hour and a half late, Johnson boards the USS Northampton and invites all the Senators and Governors of the day aboard for dinner; Mrs. Johnson and James Symington send the invitations and seat two long tables; lobster.
     n: '[[w.johnson-white-house-diary]], 414 (Lady Bird Johnson''s account). After [[cal.1966-08-20.economy|Lewiston]], in Lady Bird Johnson''s sequence (414). Names: Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, state:me, city:portland-me]
+    time_zone: America/New_York
   - id: cal.1966-08-20.vietnam-support
     when: Aug. 20
     date: '1966-08-20'
@@ -6288,21 +6344,6 @@ entries:
         - 'via w.anderson-confronting-the-color-line 258 n.15: 1, 3, 4'
         - 'w.cohen-american-pharaoh 416: 1, 3, 4, 5'
     tags: [name:king-martin-luther-jr, state:il, city:chicago]
-  - id: cal.1966-08-21.elections-1966
-    when: Aug. 21
-    date: '1966-08-21'
-    place: new-york-state
-    thread: elections-1966
-    also: [robert-kennedy]
-    c: 'The Catskills, Johnson and Robert Kennedy together.{1} Johnson''s speech; he introduces congressmen, then "a young man for whom I have the deepest respect": shrieks of "Bobby!"{2} The *Christian Science Monitor*''s headline the next day: "New Yorkers Applaud Johnson, Squeal at Kennedy."{3}'
-    n: '[[w.shesol-mutual-contempt]], 346; [[w.thomas-robert-kennedy]], 327 (Kennedy tours New York with Johnson, Aug. 21; the *Monitor*: "Crowds Applaud LBJ, Squeal at Kennedy"). Check: the place. Check: Thomas gives the headline "Crowds Applaud LBJ, Squeal at Kennedy" (327); his note cites the *Times* of Nov. 14, 1966 (462). To check: *Christian Science Monitor*, Aug. 22, 1966; *Newsweek*, Oct. 24, 1966; *U.S. News & World Report*, Nov. 7, 1966, at 40 (cited by [[w.shesol-mutual-contempt]], 345, 346). Names: Johnson, Robert Kennedy.'
-    src:
-      c: a8eb65f4
-      rows:
-        - 'w.shesol-mutual-contempt 346: 1, 2, 3'
-        - 'via x.1966-08-22.strout-new-yorkers-applaud-johnson: 1, 2, 3'
-        - 'w.thomas-robert-kennedy 327: 1, 3'
-    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, state:ny]
   - id: cal.1966-08-21.china-leadership
     when: Aug. 21
     date: '1966-08-21'
@@ -7985,17 +8026,26 @@ entries:
     date: '1966-08-25'
     thread: china-red-guards
     also: [china-army]
-    c: In the foreign affairs bureau of the General Staff 總參外事局 a wall poster is put up against Yang Chengwu 楊成武; Wang Shangrong 王尚榮 and Lei Yingfu 雷英夫, old subordinates of He Long 賀龍, sign it, and some of He Long's office staff join. It is suspected that He Long is behind it, to seize the General Staff.
+    c: In the foreign affairs bureau of the General Staff 總參外事局 a wall poster is put up against Yang Chengwu 楊成武;{2} Wang Shangrong 王尚榮 and Lei Yingfu 雷英夫, old subordinates of He Long 賀龍, sign it, and some of He Long's office staff join.{3} It is suspected that He Long is behind it, to seize the General Staff.{4}
+    cut_from:
+      '2': '1'
+      '3': '1'
+      '4': '1'
     n: '[[w.yang-jisheng-tiandi-fanfu]], I, 164; [[w.yang-jisheng-tiandi-fanfu]], II, 1043 (the operations department backs the foreign affairs bureau''s poster; Wang Shangrong and Lei Yingfu of the General Staff felled first, then Chen Heqiao, Fan Zhexiang, Wang Shanfu, Wang Shaonan and Liu Qingming persecuted; the review of the 1980s: a plot of Lin Biao and the "gang of four" against He Long); [[w.teiwes-tragedy-of-lin-biao]], 34–35 (by late August a poster "Bombard Yang Chengwu" at the General Staff''s offices, by Wang Shangrong and Lei Yingfu, of He Long''s old Second Red Army, head and deputy head of the Warfare Department; the staff of He''s office support it; Ye Qun takes it for an attack on Lin, and Maojiawan begins gathering evidence against He); [[w.pu-weihua-zalan-jiu-shijie]], 124 (the foreign affairs bureau''s poster "Great good news" 〈特大喜訊〉, naming Yang Chengwu and the deputy chief of staff for foreign affairs; then Liu Qingming 劉清明, commandant of the Surveying and Mapping Academy, and others; He Long''s office staff, "Bombard the General Staff office''s Party committee"; the operations department, "Bombard Yang Chengwu," Wang Shangrong and Lei Yingfu signing first). Made public: [[w.yunsheng-maojiawan-jishi]], 33 (1988, without the authors'' names; marking not seen). Printed for internal circulation: [[w.zhonggong-dangshi-jiaoxue-cankao]], XXVI, 89 (1986). Circulated in China: contemporary Red Guard materials from which Teiwes and Sun identify the names Zhang Yunsheng deletes (the poster "Bombard Yang Chengwu" and its authors), unspecified (a wall poster; cited by [[w.teiwes-tragedy-of-lin-biao]], 35 n.69b). To check: [[w.yunsheng-maojiawan-jishi]], 33 (cited by [[w.teiwes-tragedy-of-lin-biao]], 35 n.69a); contemporary Red Guard materials from which Teiwes and Sun identify the names Zhang Yunsheng deletes (the poster "Bombard Yang Chengwu" and its authors), unspecified (cited by [[w.teiwes-tragedy-of-lin-biao]], 35 n.69b); [[w.zhonggong-dangshi-jiaoxue-cankao]], XXVI, 89 (cited by [[w.teiwes-tragedy-of-lin-biao]], 35 n.69c). Names: He Long, Yang Chengwu, Lei Yingfu. Check: 内部发行 or a like marking in [[w.yunsheng-maojiawan-jishi]] (copyright page not seen; its catalogue record, CiNii NCID BN07990879, notes none).'
     src:
       c: 05aec755
       rows:
-        - 'w.yang-jisheng-tiandi-fanfu I, 164: all'
+        - 'w.yang-jisheng-tiandi-fanfu I, 164: 2, 3, 4'
         - 'w.yang-jisheng-tiandi-fanfu II, 1043: ?'
         - 'w.teiwes-tragedy-of-lin-biao 34–35: ?'
         - 'via x.undated.red-guard-materials-naming-poster-authors: ?'
         - 'w.pu-weihua-zalan-jiu-shijie 124: ?'
     tags: [polity:prc, vis:only:prc, name:he-long, ok:fields-place, name:lei-yingfu, name:yang-chengwu]
+    variants:
+      - unit: '3'
+        witness: w.pu-weihua-zalan-jiu-shijie
+        reads: the bureau's poster, "Great Good News" 〈特大喜訊〉, names Yang Chengwu and the deputy chief of staff for foreign affairs; Wang Shangrong and Lei Yingfu sign first the operations department's, "Bombard Yang Chengwu" 〈炮轟楊成武〉, after the bureau's march that afternoon; He Long's office staff post their own
+        at: '124'
   - id: cal.1966-08-25.china-leadership-4
     when: Aug. 25
     date: '1966-08-25'
@@ -8300,6 +8350,17 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 259: all'
     tags: [polity:prc]
+  - id: cal.1966-08-25.china-red-guards
+    when: Aug. 25
+    date: '1966-08-25'
+    place: peking
+    thread: china-red-guards
+    also: [china-army]
+    follows:
+      - cal.1966-08-25.china-leadership-3
+    c: In the operations department of the General Staff 總參作戰部 a wall poster, "Bombard Yang Chengwu" 炮轟楊成武, is put up, backing the foreign affairs bureau's; the department's head Wang Shangrong 王尚榮 and deputy head Lei Yingfu 雷英夫 sign first.
+    n: '[[w.yang-jisheng-tiandi-fanfu]], II, 1043 (the operations department''s poster of Aug. 25, 1966, backing the foreign affairs bureau''s, from the General Staff''s summary of 1979, n.36); [[w.pu-weihua-zalan-jiu-shijie]], 124 (after the foreign affairs bureau''s poster and its march, the operations department''s, 〈炮轟楊成武〉, Wang Shangrong and Lei Yingfu first to sign; no day); [[w.teiwes-tragedy-of-lin-biao]], 34–35 (by late August a poster "Bombard Yang Chengwu" at the General Staff''s offices, by Wang Shangrong and Lei Yingfu, of He Long''s old Second Red Army, head and deputy head of the Warfare Department; the staff of He''s office support it; Ye Qun takes it for an attack on Lin). Made public: [[w.yunsheng-maojiawan-jishi]], 33 (1988, the title as "Bombard XXX," without the authors'' names; marking not seen). Printed for internal circulation: [[w.zhonggong-dangshi-jiaoxue-cankao]], XXVI, 89. To check: Zhonggong zongcanmoubu weiyuanhui 中共總參謀部委員會, *Zongcan jiguan "sancha sanzheng" yundong zongjie* 《總參機關「三查三整」運動總結》, Jan. 15, 1979 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 1043 n.36); Chen Hong 陳虹, 〈總參「八·二五」事件〉, *Dangshi bolan* 《黨史博覽》, 1999, no. 9, 21–22 (cited by [[w.pu-weihua-zalan-jiu-shijie]], 124 n.65); [[w.yunsheng-maojiawan-jishi]], 33 (cited by [[w.teiwes-tragedy-of-lin-biao]], 35 n.69a); [[w.zhonggong-dangshi-jiaoxue-cankao]], XXVI, 89 (cited by [[w.teiwes-tragedy-of-lin-biao]], 35 n.69c). See [[cal.1966-08-25.china-leadership-3]]. The order: after [[cal.1966-08-25.china-leadership-3]], [[w.yang-jisheng-tiandi-fanfu]], II, 1043 (the operations department''s poster backs the bureau''s). Names: Yang Chengwu, Lei Yingfu.'
+    tags: [polity:prc, vis:only:prc, name:yang-chengwu, name:lei-yingfu]
   - id: cal.1966-08-26.open-housing
     when: Aug. 26
     date: '1966-08-26'
@@ -8307,12 +8368,11 @@ entries:
     thread: open-housing
     also: [king, states-and-cities]
     c: 'Chicago.{1} The summit, from Aug. 17: Daley and the city, the Real Estate Board, the Housing Authority, churches, business, and labor with the Freedom Movement;{2} Aug. 26, an agreement at the Palmer House.{3} The Commission on Human Relations to enforce the city''s fair-housing ordinance;{4} the Real Estate Board to drop its opposition to open occupancy (Check the terms);{5} public housing scattered and low; mortgages without regard to race.{6} The marches suspended, the one into Cicero called off.{7} King: "the first step in a 1,000-mile journey."{8}'
-    n: '[Report of the subcommittee to the summit meeting on fair housing](https://www.crmvet.org/docs/66chiagm.htm) (Aug. 26, 1966); King, [Statement on Open Housing Made at the Palmer House](https://okra.stanford.edu/link/document660826-000) (King Papers Project). [[w.garrow-bearing-the-cross]], 503–07, 518–24; [[w.branch-at-canaans-edge]], 521–22 (the Walnut Room; Ayers''s report; a goal of one percent Negro occupancy in the seventy-five neighborhoods, left out of the text; Cody: "We are like a little United Nations"; Daley: "we can amend our injunction"; the ten points passed unanimously); [[w.kotz-judgment-days]], 367; [[w.bernstein-guns-or-butter]], 398–99 (King: "the first step in a thousand-mile journey"); [[w.young-easy-burden]], 414–16; [[w.ralph-northern-protest]], 168–71; [[w.anderson-confronting-the-color-line]], 262–66 (the Palmer House; Ayers''s report; Daley: "we can amend our injunction"); [[w.anderson-confronting-the-color-line]], 441–45 (the subcommittee''s report, App. II); [[w.cohen-american-pharaoh]], 417–21. Check: the subcommittee''s report has the Real Estate Board "withdraw all opposition to the philosophy of open occupancy legislation at the state level," if the legislation applies to owners as well as brokers. To check: [[w.chicago-1966]] (which prints the agreement; Check); Chicago Real Estate Board, "Statement . . .," Aug. 17, 1966; Chicago Freedom Movement, "To Achieve Justice . . .," Aug. 17, 1966, Garrow''s files (McKnight); John McKnight, "The Summit Negotiations, Chicago, August 17, 1966–August 26, 1966," unpublished, 1966, 1–14, John McKnight Files, Evanston (cited by [[w.garrow-bearing-the-cross]], 503 n.34); *Chicago Daily News*, Aug. 26 at 1 and Aug. 27, 1966, at 1 (cited by [[w.garrow-bearing-the-cross]], 521 n.41); [*New York Times*, Aug. 27, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/27/issue.html), at 1; *Chicago Tribune*, Aug. 27, 1966, at 1 (cited by [[w.garrow-bearing-the-cross]], 523 n.43); John McKnight, "The Summit Negotiations, Chicago, August 17—August 26, 1966," in Garrow, ed., Chicago 1966, pp. 136–45 (cited by [[w.branch-at-canaans-edge]], 521); Garrow, *Chicago 1966* (1989), 137 (cited by [[w.branch-at-canaans-edge]], 521); "Rights Aides Set Goal in Chicago/ Seek 1% Negro Occupancy in 75 Areas by April 30," [*New York Times*, Aug. 28, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/28/issue.html), at 50 (cited by [[w.branch-at-canaans-edge]], 521); "Housing Pact Set, Dr. King Calls off Chicago Marches/ He Hails 10-Point Program and ''Defers'' Rights Rally by 3,000 in Cicero/ Realty Men Back Plan/ But Several Negro Groups Dissent and Map Protest by 300 Tomorrow," [*New York Times*, Aug. 27, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/27/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 522); Thomas G. Ayers, "The ''Summit Agreement, " in Garrow, ed., Chicago 1966, pp. 147–54. ol VADLEY MOMENTS (cited by [[w.branch-at-canaans-edge]], 522); *Chicago Daily News*, 29 August 1966; *Chicago Sun-Times*, 25 August 1966; "Report of the Subcommittee," p. 11 (cited by [[w.anderson-confronting-the-color-line]], 262 n.28). See [[cal.1966-07-10.open-housing]]. Names: King, Daley.'
+    n: '[Report of the subcommittee to the summit meeting on fair housing](https://www.crmvet.org/docs/66chiagm.htm) (Aug. 26, 1966); King, [Statement on Open Housing Made at the Palmer House](https://okra.stanford.edu/link/document660826-000) (King Papers Project). [[w.garrow-bearing-the-cross]], 503–07, 518–24; [[w.branch-at-canaans-edge]], 521–22 (the Walnut Room; Ayers''s report; a goal of one percent Negro occupancy in the seventy-five neighborhoods, left out of the text; Cody: "We are like a little United Nations"; Daley: "we can amend our injunction"; the ten points passed unanimously); [[w.kotz-judgment-days]], 367; [[w.bernstein-guns-or-butter]], 398–99 (King: "the first step in a thousand-mile journey"); [[w.young-easy-burden]], 414–16; [[w.ralph-northern-protest]], 168–71; [[w.anderson-confronting-the-color-line]], 262–66 (the Palmer House; Ayers''s report; Daley: "we can amend our injunction"); [[w.anderson-confronting-the-color-line]], 441–45 (the subcommittee''s report, App. II); [[w.cohen-american-pharaoh]], 417–21. Check: the subcommittee''s report has the Real Estate Board "withdraw all opposition to the philosophy of open occupancy legislation at the state level," if the legislation applies to owners as well as brokers. To check: King, Statement on Open Housing Made at the Palmer House, Aug. 26, 1966 (the text; King Papers Project); [[w.chicago-1966]] (which prints the agreement; Check); Chicago Real Estate Board, "Statement . . .," Aug. 17, 1966; Chicago Freedom Movement, "To Achieve Justice . . .," Aug. 17, 1966, Garrow''s files (McKnight); John McKnight, "The Summit Negotiations, Chicago, August 17, 1966–August 26, 1966," unpublished, 1966, 1–14, John McKnight Files, Evanston (cited by [[w.garrow-bearing-the-cross]], 503 n.34); *Chicago Daily News*, Aug. 26 at 1 and Aug. 27, 1966, at 1 (cited by [[w.garrow-bearing-the-cross]], 521 n.41); [*New York Times*, Aug. 27, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/27/issue.html), at 1; *Chicago Tribune*, Aug. 27, 1966, at 1 (cited by [[w.garrow-bearing-the-cross]], 523 n.43); John McKnight, "The Summit Negotiations, Chicago, August 17—August 26, 1966," in Garrow, ed., Chicago 1966, pp. 136–45 (cited by [[w.branch-at-canaans-edge]], 521); Garrow, *Chicago 1966* (1989), 137 (cited by [[w.branch-at-canaans-edge]], 521); "Rights Aides Set Goal in Chicago/ Seek 1% Negro Occupancy in 75 Areas by April 30," [*New York Times*, Aug. 28, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/28/issue.html), at 50 (cited by [[w.branch-at-canaans-edge]], 521); "Housing Pact Set, Dr. King Calls off Chicago Marches/ He Hails 10-Point Program and ''Defers'' Rights Rally by 3,000 in Cicero/ Realty Men Back Plan/ But Several Negro Groups Dissent and Map Protest by 300 Tomorrow," [*New York Times*, Aug. 27, 1966](https://timesmachine.nytimes.com/timesmachine/1966/08/27/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]], 522); Thomas G. Ayers, "The ''Summit Agreement,''" in Garrow, ed., *Chicago 1966*, pp. 147–54 (cited by [[w.branch-at-canaans-edge]], 522); *Chicago Daily News*, 29 August 1966; *Chicago Sun-Times*, 25 August 1966; "Report of the Subcommittee," p. 11 (cited by [[w.anderson-confronting-the-color-line]], 262 n.28). See [[cal.1966-07-10.open-housing]]. Names: King, Daley.'
     src:
       c: 8992f5e8
       rows:
         - 'https://www.crmvet.org/docs/66chiagm.htm: 1, 2, 3, 4, 5, 6, 7, 8'
-        - 'https://okra.stanford.edu/link/document660826-000: 1, 2, 3, 4, 5, 6, 7, 8'
         - 'w.garrow-bearing-the-cross 503–07, 518–24: 1, 2, 3, 4, 5, 6, 7, 8'
         - 'via w.garrow-bearing-the-cross 503 n.34a: 2'
         - 'via w.garrow-bearing-the-cross 503 n.34b: 2'
@@ -8336,6 +8396,8 @@ entries:
         - 'w.cohen-american-pharaoh 417–21: 1, 2, 3, 4, 5, 6, 7'
         - 'via w.cohen-american-pharaoh 418 n.29: 1, 2, 3'
         - 'via w.cohen-american-pharaoh 420 n.31: 7'
+        - 'https://www.crmvet.org/docs/66chiagm.htm: 4, 5, 6'
+        - 'https://okra.stanford.edu/link/document660826-000: date'
     tags: [name:king-martin-luther-jr, name:daley-richard-j, state:il, city:chicago]
     short: Chicago's summit agreement
     time_range:
@@ -10874,7 +10936,7 @@ entries:
     thread: china-red-guards
     also: [china-organization]
     c: Daxinzhuang People's Commune, Daxing county.{1} At a meeting of brigade cadres the commune head and the secretary of the commune Youth League committee, relaying what they say is the latest "spirit" from on high, picked up at a nearby labor reform camp, call for the immediate extermination of "landlord and rich peasant elements" and all their kin, to preempt a massacre by "class enemies."{2}
-    n: '[[w.macfarquhar-maos-last-revolution]], 128–129; [[w.yang-jisheng-tiandi-fanfu]], II, 665 (evening of Aug. 29: Gao Fuxing 高福興, the commune head, and Hu Defu 胡德福, secretary of its Youth League committee, with the backing of Zhang of the county police, hold a secret meeting of the main cadres of the commune''s 17 brigades; the "nine-man group" (with Li Ziyong 李自永 and Li Guanqing 李冠清, deputy secretaries) sets the plan; Hu: one action at 10:30 p.m. on the 31st, each brigade to choose "the worst" or "a clean sweep"; an oath of secrecy; He Yunxi 賀雲喜, the commune secretary, of landlord origin, held by the group). Made public: 2006. To check: Sun Yancheng 孫言誠, 〈「血統論」和大興「八三一事件」〉, *Yanhuang chunqiu* 《炎黃春秋》, 2012, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 663 n.2a); Yu Luowen 遇羅文, 〈北京大興文革屠殺調查〉 (web, May 4, 2010) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 663 n.2b). See [[cal.1966-08-26.china-leadership-6]]. Check: the book gives no source for the account (128–130); Yu Luowen''s investigation of 2003 (131 n.59) may print it first.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 128–129; [[w.yang-jisheng-tiandi-fanfu]], II, 665 (evening of Aug. 29: Gao Fuxing 高福興, the commune head, and Hu Defu 胡德福, secretary of its Youth League committee, with the backing of Zhang of the county police, hold a secret meeting of the main cadres of the commune''s 17 brigades; the "nine-man group" (with Li Ziyong 李自永 and Li Guanqing 李冠清, deputy secretaries) sets the plan; Hu: one action at 10:30 p.m. on the 31st, each brigade to choose "the worst" or "a clean sweep"; an oath of secrecy; He Yunxi 賀雲喜, the commune secretary, of landlord origin, held by the group). Made public: 2006. Check: the day, read at both pages: MacFarquhar (128–29) has the meeting of brigade cadres Aug. 31; Yang (II, 665) a secret meeting of the commune''s main cadres the evening of Aug. 29, the killing set for 10:30 p.m. on the 31st, so the two may be two meetings; neither gives a record of the day. To check: Sun Yancheng 孫言誠, 〈「血統論」和大興「八三一事件」〉, *Yanhuang chunqiu* 《炎黃春秋》, 2012, no. 2 (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 663 n.2a); Yu Luowen 遇羅文, 〈北京大興文革屠殺調查〉 (web, May 4, 2010) (cited by [[w.yang-jisheng-tiandi-fanfu]], II, 663 n.2b). See [[cal.1966-08-26.china-leadership-6]]. Check: the book gives no source for the account (128–130); Yu Luowen''s investigation of 2003 (131 n.59) may print it first.'
     src:
       c: 061e88c7
       rows:

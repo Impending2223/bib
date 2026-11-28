@@ -47,10 +47,11 @@ STYLE
     no longer than it was. A tap on the link follows it, though the rubric beside it is cut short (dateline.py,
     SCRIPT). The clock's city, given where the entry has no place, is not linked: it is not a place of record.
  7. "Places:" (the same ruling): in every calendar entry's citation block, just before "Names:" (else at its end), a
-    sentence written by the build, never stored: the nations, States, provinces and cities with a page that the
-    entry took place in or concerns (STYLE 2), in that order (the index's: the nations as the register lists them, the
-    others by name), each linked to its page as the names are. Some go by a short name there, their pages keeping the
-    full one (LINE_NAME; the owner, Nov. 27, 2026): South Vietnam, North Vietnam, South Korea, North Korea, and D.C.
+    sentence written by the build, never stored: the cities, provinces, States and nations with a page that the
+    entry took place in or concerns (STYLE 2), in that order, the smallest first (the owner, Nov. 27, 2026: "New York
+    City, New York, United States"; each tier by name, the nations as the register lists them), each linked to its
+    page as the names are. A city that bears a State's name in the line is "New York City". Some go by a short name
+    there, their pages keeping the full one (LINE_NAME; the owner, Nov. 27, 2026): South Vietnam, North Vietnam, South Korea, North Korea, and D.C.
     for Washington, which the line sorts among the States, the federal district being of their rank (LINE_AS; the
     owner, the same day: "Shouldn't it be 'D.C., Washington' by the logic of the alphabetical sort?"). A place of the
     United Kingdom is listed by its part, the gazetteer row's `part` (Great Britain,
@@ -592,8 +593,10 @@ def dateline_link(e, place, series=None):
 
 def line(e, series=None):
     """STYLE 7: the "Places:" sentence of an entry's citation block, as HTML, or "": the places with a page the entry
-    took place in or concerns (its nations, States, provinces, cities, in that order), each linked to its page. A State
-    named as a city of the line is (New York, Washington) is written "New York State"."""
+    took place in or concerns (its cities, provinces, States, nations, in that order: "New York City, New York, United
+    States"), each linked to its page. A city named as a State of the line is written "New York City" (the owner,
+    Nov. 27, 2026: "could we change the settlement of the 'New York, New York' question from 'New York State, New
+    York' to 'New York, New York City'? ... could we reverse the default sort of the tiers?")."""
     series = _series(series)
     if series is None or "when" not in e:
         return ""
@@ -605,17 +608,18 @@ def line(e, series=None):
         _C.update(pos_of=got, pos={k: i for i, k in enumerate(got)})
     pos = _C["pos"]                     # the index's order: the nations as the register lists them, the rest by name
     keys = [(kind, slug) for kind, _ in KINDS for slug in w["there"][kind] | w["tagged"][kind] if (kind, slug) in pos]
-    out = [got[k] for k in sorted(keys, key=lambda k: _line_order(k, got[k], pos))]
+    here = {("nation", s) for s in w["there"]["nation"]}              # the nations it took place in, before the others
+    out = [got[k] for k in sorted(keys, key=lambda k: _line_order(k, got[k], pos, k in here))]
     if not out:
         return ""
     shown = [(pl, LINE_NAME.get((pl["kind"], pl["slug"]), pl["name"])) for pl in out]
-    cities = {n for pl, n in shown if pl["kind"] == "city"}         # beside D.C., the State is "Washington" (Nov. 27)
+    states = {n for pl, n in shown if pl["kind"] == "state"}        # beside the State of New York, "New York City"
     uk = _uk_parts(e)
     if uk:                              # the United Kingdom by its parts (the owner, Nov. 27, 2026)
         listed = {n for _, n in shown}
         shown = [x for pl, n in shown for x in ([(pl, p) for p in uk if p not in listed]
                                                 if (pl["kind"], pl["slug"]) == ("nation", "uk") else [(pl, n)])]
-    names = [(pl, f"{n} State" if pl["kind"] == "state" and n in cities else n) for pl, n in shown]
+    names = [(pl, f"{n} City" if pl["kind"] == "city" and n in states else n) for pl, n in shown]
     return "Places: " + ", ".join(f'<a href="{pl["page"]}.html">{esc(n)}</a>' for pl, n in names) + (
         "" if names[-1][1].endswith(".") else ".")
 
@@ -623,13 +627,15 @@ def line(e, series=None):
 LINE_AS = {("city", "washington"): "state"}   # the federal district goes with the States (the owner, Nov. 27, 2026)
 
 
-def _line_order(key, pl, pos):
-    """The line's order: the nations as the register lists them; then the States (D.C. among them, LINE_AS), the
-    provinces and the cities, each kind by the name the line writes."""
+def _line_order(key, pl, pos, here=False):
+    """The line's order, the tiers from the smallest (the owner, Nov. 27, 2026): the cities, the provinces, the States
+    (D.C. among them, LINE_AS), each by the name the line writes; then the nations, those the entry took place in
+    first ("London, Great Britain, China"), each group as the register lists them."""
     kind = LINE_AS.get(key, key[0])
+    tier = len(KINDS) - 1 - [k for k, _ in KINDS].index(kind)
     if kind == "nation":
-        return (0, pos[key], "")
-    return ([k for k, _ in KINDS].index(kind), 0, store.fold(LINE_NAME.get(key, pl["name"])).lower())
+        return (tier, (not here, pos[key]), "")
+    return (tier, 0, store.fold(LINE_NAME.get(key, pl["name"])).lower())
 
 
 def _uk_parts(e):

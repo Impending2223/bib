@@ -2657,13 +2657,19 @@ entries:
     n: '[[w.johnson-white-house-diary]], 624 (Lady Bird Johnson''s account). Mrs. Johnson calls Brown "the Chairman of the Commission." To check: the Public Papers for the remarks, if any. Names: Johnson, Warren, Tom Clark, Brown, Ramsey Clark, Ervin.'
     tags: [name:johnson-lyndon-b, name:warren-earl, name:clark-tom-c, name:brown-edmund-g, name:clark-ramsey, name:ervin-sam-j-jr, city:washington]
   - id: cal.1968-01-18.china-leadership
-    when: Jan. 18–19
+    when: Jan. 18
     date: '1968-01-18'
     thread: china-class-ranks
     also: [china-zhou-cr]
-    c: Zhou Enlai, before dawn on Jan. 18, receives in turn the Jiangsu army representatives, the Zhejiang "Red Rebel" delegates and Hunan's cadres; before dawn on the 19th he talks with the members of the Hunan preparatory group.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 210 (Jan. 18, 1968). Made public: 2020. Names: Zhou Enlai.'
+    c: Zhou Enlai, before dawn on Jan. 18, receives in turn the Jiangsu army representatives, the Zhejiang "Red Storm" delegates and Hunan's cadres.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 210 (Jan. 18, 1968: 凌晨, before dawn; the Zhejiang faction 红暴, "Red Storm"; read on the page image). Made public: 2020. The nianpu (III, 210) has the talk with the Hunan preparatory group on the next day, before dawn, and names the Zhejiang faction 红暴. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+    time_range:
+      - 1968-01-17T16:00Z
+      - 1968-01-17T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1968-01-18.china-leadership-2
     when: Jan. 18
     date: '1968-01-18'
@@ -2762,31 +2768,28 @@ entries:
     also: [elections-1968]
     follows:
       - cal.1968-01-19.defense
-    c: 'New York, the day Johnson names Clifford for McNamara. Robert Kennedy, in the car to Westchester County with Newfield and Ronnie Eldridge: "He might just as well have appointed Attila the Hun!"{1} Before he would run, Johnson shown psychotic, or the Senate''s doves asking him, or "one more politician of the national stature of Unruh."{2} At dinner with Stephen Smith and Carter Burden, to Smith: "I think I''m going to cost you a lot of money this year!"{3}'
-    n: '[[w.chester-american-melodrama]], 107–8; [[w.shesol-mutual-contempt]], 412 ("He might just as well have appointed Attila the Hun!"); [[w.schlesinger-robert-kennedy-and-his]], 838 ("if one more politician, on the level of Unruh, asks me to run, I''ll do it"; none of the Senate doves wants it). See [[cal.1968-01-19.defense]]. Names: Robert Kennedy, Clifford, McNamara, Unruh, Stephen Smith, Johnson, Newfield.'
+    c: 'New York, the day Johnson names Clifford for McNamara. Robert Kennedy, in the car to Westchester County with Newfield and Ronnie Eldridge: "He might just as well have appointed Attila the Hun!"{1} Before he would run, Johnson shown psychotic, or the Senate''s doves asking him, or "one more politician of the national stature of Unruh."{2}'
+    n: '[[w.chester-american-melodrama]], 107–8; [[w.shesol-mutual-contempt]], 412 ("He might just as well have appointed Attila the Hun!"); [[w.schlesinger-robert-kennedy-and-his]], 838 ("if one more politician, on the level of Unruh, asks me to run, I''ll do it"; none of the Senate doves wants it). See [[cal.1968-01-19.defense]]. Chester (108) and Schlesinger (838) have the dinner after the cocktail party, that night. Names: Robert Kennedy, Clifford, McNamara, Unruh, Johnson, Newfield.'
     src:
-      c: 1472d9ed
       rows:
-        - 'w.chester-american-melodrama 107–8: 1, 2, 3'
+        - 'w.chester-american-melodrama 107–8: 1, 2'
         - 'w.shesol-mutual-contempt 412: ?'
         - 'w.schlesinger-robert-kennedy-and-his 838: 2'
-    tags: [name:kennedy-robert-f, name:clifford-clark, name:mcnamara-robert-s, name:unruh-jesse-m, name:smith-stephen-e, name:johnson-lyndon-b, name:newfield-jack]
+    tags: [name:kennedy-robert-f, name:clifford-clark, name:mcnamara-robert-s, name:unruh-jesse-m, name:johnson-lyndon-b, name:newfield-jack]
     variants:
       - unit: '2'
         witness: w.schlesinger-robert-kennedy-and-his
-        reads: if one more politician, on the level of Unruh, asks me to run, I'll do it
-        at: '838'
-      - unit: '3'
-        witness: w.schlesinger-robert-kennedy-and-his
-        reads: He warned Jean Smith and Patricia Lawford at dinner, "This is going to cost you a lot of money."
+        reads: 'afterward, after the cocktail party, Kennedy said: "if one more politician, on the level of Unruh, asks me to run, I''ll do it"'
         at: '838'
   - id: cal.1968-01-19.robert-kennedy-campaign-2
     when: Jan. 19
     date: '1968-01-19'
     place: nyc
     thread: robert-kennedy-campaign-decision
+    follows:
+      - cal.1968-01-19.robert-kennedy-campaign-3
     c: 'New York, a cocktail party, the evening.{1} Melina Mercouri to Robert Kennedy: "You don''t want to be the man of whom history will say, ''He waited too long!''"{2}'
-    n: '[[w.chester-american-melodrama]], 107–8; [[w.thomas-robert-kennedy]], 355, 468 (within forty-eight hours of Lippmann; whether he wanted to be the senator who waited for a safer day); [[w.schlesinger-robert-kennedy-and-his]], 838 (Mercouri at the cocktail party, after a political day in Westchester: the senator who waited for a safer day). Check: Thomas''s note puts the New York Film Critics Awards and Mercouri before the early hours of Jan. 19 (468). See [[cal.1968-01-19.robert-kennedy-campaign-3]]. Names: Mercouri, Robert Kennedy.'
+    n: '[[w.chester-american-melodrama]], 107–8; [[w.thomas-robert-kennedy]], 355, 468 (within forty-eight hours of Lippmann; whether he wanted to be the senator who waited for a safer day); [[w.schlesinger-robert-kennedy-and-his]], 838 (Mercouri at the cocktail party, after a political day in Westchester: the senator who waited for a safer day). Check: Thomas''s note puts the New York Film Critics Awards and Mercouri before the early hours of Jan. 19 (468). The order: after [[cal.1968-01-19.robert-kennedy-campaign-3]], [[w.chester-american-melodrama]], 107–8 (the day in Westchester, then "That same evening" the cocktail party); [[w.schlesinger-robert-kennedy-and-his]], 838 (the political day in Westchester, then the party "Returning to the city"). See [[cal.1968-01-19.robert-kennedy-campaign-3]]. Names: Mercouri, Robert Kennedy.'
     src:
       c: c16e976f
       rows:
@@ -2880,6 +2883,49 @@ entries:
     n: '[[w.peng-dehuai-nianpu]], 816. The words: 晚7点 (7 p.m.); 11点 (11) (816). Made public: 1998. Names: Peng Dehuai.'
     tags: [polity:prc, vis:only:prc, name:peng-dehuai]
     time_zone: Asia/Shanghai
+  - id: cal.1968-01-19.china-class-ranks
+    when: Jan. 19
+    date: '1968-01-19'
+    thread: china-class-ranks
+    also: [china-zhou-cr]
+    c: Before dawn, Zhou Enlai talks with the members of the Hunan preparatory group.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 210 (under Jan. 18, 1968: 次日凌晨, "the next day before dawn," read on the page image). Made public: 2020. See [[cal.1968-01-18.china-leadership]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1968-01-18T16:00Z
+      - 1968-01-18T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
+    range_basis: record
+  - id: cal.1968-01-19.robert-kennedy-campaign-decision-2
+    when: Jan. 19
+    date: '1968-01-19'
+    place: nyc
+    thread: robert-kennedy-campaign-decision
+    follows:
+      - cal.1968-01-19.robert-kennedy-campaign-2
+    c: 'Dinner in New York with Stephen Smith and Carter Burden.{2} Robert Kennedy, to Smith: "I think I''m going to cost you a lot of money this year!"{3}'
+    cut_from:
+      '2': '1'
+      '3': '1'
+    n: '[[w.chester-american-melodrama]], 108 ("that night in New York, January 19," at dinner with Smith and Burden); [[w.schlesinger-robert-kennedy-and-his]], 838 (the warning at dinner, to Jean Smith and Patricia Lawford, "This is going to cost you a lot of money"). See [[cal.1968-01-19.robert-kennedy-campaign-3]]. The order: after [[cal.1968-01-19.robert-kennedy-campaign-2]], the cocktail party, Chester et al., 108 ("That same evening," then "that night"), and Schlesinger, 838 ("Afterward ... at dinner"). Names: Robert Kennedy, Stephen Smith.'
+    src:
+      c: ca674f88
+      rows:
+        - 'w.chester-american-melodrama 108: ?'
+        - 'w.schlesinger-robert-kennedy-and-his 838: ?'
+    tags: [name:kennedy-robert-f, name:smith-stephen-e]
+    time_range:
+      - 1968-01-20T03:00Z
+      - 1968-01-20T05:00Z
+    time_band: night
+    time_zone: America/New_York
+    range_basis: record
+    variants:
+      - unit: '2'
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: he warned Jean Smith and Patricia Lawford at dinner, "This is going to cost you a lot of money"
+        at: '838'
   - id: cal.1968-01-20.vietnam-tet
     when: Jan. 20
     date: '1968-01-20'
@@ -3873,6 +3919,20 @@ entries:
       - unit: '1'
         witness: w.drea-mcnamara-clifford-and-the-2011
         reads: 28 Air Force and Navy reserve units, amounting to 14,787 men and 372 aircraft
+        at: '489'
+      - field: time
+        value:
+          - 1968-01-25T11:00Z
+          - 1968-01-25T17:00Z
+        witness: w.johnson-white-house-diary
+        reads: Mrs. Johnson has the news "sometime in the morning" that the President had called up the Air Force and Navy reservists
+        at: '625'
+      - field: time
+        value:
+          - 1968-01-26T00:00Z
+          - 1968-01-26T03:00Z
+        witness: w.drea-mcnamara-clifford-and-the-2011
+        reads: at the final meeting of Jan. 25, "that evening," the President approves the mobilization of 28 Air Force and Navy reserve units, 14,787 men and 372 aircraft
         at: '489'
   - id: cal.1968-01-25.defense-clifford
     when: Jan. 25
@@ -7236,9 +7296,15 @@ entries:
     thread: vietnam-tet
     also: [vietnam-hanoi]
     c: The American embassy, Saigon. Seventeen men of Commando Squad 11, Ngô Thành Vân commanding, drive to the gate in a car with B40 fire to cover them, kill two American military police at the gate, blow the wall, take most of the ground floor and go up to the second and third floors, searching for Ambassador Bunker, whom the embassy guards had taken out in an armored car. Twenty minutes in, a police patrol is stopped at the gate; at 7 a.m. a platoon of military police gets through it; helicopters try to land troops on the roof, the first beaten off before light; at 2 p.m. men of the 101st Airborne land on the roof; the squad fights to its last round, all killed, wounded or captured; reinforcement does not arrive. Held over six hours. Westmoreland at the embassy at 9 a.m.
-    n: '[[w.lich-su-khang-chien-chong-my]], V, 86–87. See [[cal.1968-01-31.vietnam-tet-5]]. Names: Westmoreland, Bunker. Check: whether the squad entered the chancery building, which the American record read does not have, and whose clock gives 2:30.'
+    n: '[[w.lich-su-khang-chien-chong-my]], V, 86–87. Check: the American clock. Wirtz (229, from MACV J-2''s Daily Journal, 229 n.8) has the wall breached at 0247, the defense nearly out of ammunition at 0636 and the compound secured by 0900; the MACV history (1968, II, 899) gives the assault no hour, a helicopter driven off at 0500, the landing on the roof at 0810 and the grounds secured by 0900. To check: [[w.oberdorfer-tet]]; [[w.braestrup-big-story]]. See [[cal.1968-01-31.vietnam-tet-5]]. Names: Westmoreland, Bunker. Check: whether the squad entered the chancery building, which the American record read does not have, and whose clock gives 2:30.'
     tags: [polity:drv, polity:us, name:westmoreland-william, name:bunker-ellsworth]
     time_zone: Asia/Ho_Chi_Minh
+    variants:
+      - field: time
+        value: 1968-01-30T18:47Z
+        witness: w.wirtz-tet-offensive
+        reads: at 0247 elements of the C-10 Sapper Battalion breach the wall of the U.S. embassy (from MACV J-2's journal)
+        at: '229'
   - id: cal.1968-01-31.vietnam-tet-12
     when: Jan. 31
     date: '1968-01-31'

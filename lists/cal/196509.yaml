@@ -743,13 +743,14 @@ entries:
     place: washington
     thread: states-and-cities
     also: [congress]
-    c: 'Home rule for the District. A discharge petition to bring the District charter bill, H.R. 4644, out of McMillan''s District Committee reaches 218 names, a majority of the House.{1} Johnson on television: "we near victory in the final battle of the American Revolution."{2} The Senate had passed its bill, S. 1118, July 22, [63–29](https://voteview.com/rollcall/RS0890172).{3}'
-    n: 'Televised Statement by the President Concerning the Signing of the D.C. Home Rule Petition by a Majority of House Members, [1965 Pub. Papers 966](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=440) (Sept. 3, 1965); Letter to the Chairman, House Committee on the District of Columbia, [1965 Pub. Papers 971](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=445) (Sept. 4, 1965). [[w.califano-triumph-and-tragedy-of]], 229 (favors for signers; "a birthday present"; Shipley''s secretary to the Usher''s Office at 7:45 a.m.: the last signature); [[w.bernstein-guns-or-butter]], 313 (169 Northern Democrats, 23 Southern, 26 Republicans; the Senate''s vote July 22); [[w.johnson-white-house-diary]], 316 (the week''s "near victory for Home Rule": a House vote "assured," Sept. 27, the bill held for years in the District Committee; not the petition, the broadcast or the Senate). To check: [[w.jaffe-dream-city]]; [[w.asch-chocolate-city]]. Names: McMillan, Johnson.'
+    follows:
+      - cal.1965-09-03.states-and-cities-3
+    c: Home rule for the District. A discharge petition to bring the District charter bill, H.R. 4644, out of McMillan's District Committee reaches 218 names, a majority of the House.{1} The Senate had passed its bill, S. 1118, July 22, [63–29](https://voteview.com/rollcall/RS0890172).{3}
+    n: 'Letter to the Chairman, House Committee on the District of Columbia, [1965 Pub. Papers 971](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=445) (Sept. 4, 1965). [[w.califano-triumph-and-tragedy-of]], 229 (favors for signers; "a birthday present"); [[w.bernstein-guns-or-butter]], 313 (169 Northern Democrats, 23 Southern, 26 Republicans; the Senate''s vote July 22); [[w.johnson-white-house-diary]], 316 (the week''s "near victory for Home Rule": a House vote "assured," Sept. 27, the bill held for years in the District Committee; not the petition, the broadcast or the Senate). The order: after [[cal.1965-09-03.states-and-cities-3]], [[w.califano-triumph-and-tragedy-of]], 229 (the call at 7:45 a.m. that Shipley was flying in to sign, then the petition''s majority). To check: [[w.jaffe-dream-city]]; [[w.asch-chocolate-city]]. Califano, 229, gives the Usher''s call its own hour, 7:45 a.m., and the Public Papers'' note to 966 the broadcast its own, 2 p.m. Names: McMillan, Johnson.'
     src:
-      c: 07d1ef35
+      c: dabd0a20
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=440: 1, 2, 3'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=445: 1, 2, 3'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=445: 1, 3'
         - 'w.califano-triumph-and-tragedy-of 229: ?'
         - 'https://voteview.com/rollcall/RS0890172: 3'
         - 'w.bernstein-guns-or-butter 313: 1, 3'
@@ -899,6 +900,50 @@ entries:
         - 'w.yang-shangkun-riji II, 667: all'
     tags: [polity:prc, vis:only:prc, name:deng-diantao, name:wang-dongxing, name:yang-shangkun]
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-03.states-and-cities-3
+    when: Sept. 3
+    date: '1965-09-03'
+    time: 1965-09-03T11:45Z
+    place: washington
+    thread: states-and-cities
+    also: [congress]
+    c: 'With the discharge petition one name short of a majority, Illinois Representative George Shipley''s secretary telephones the White House Usher''s Office, 7:45 a.m.: he is flying in from his district to sign. The usher tells Johnson.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 229 ("one vote short, at 7:45 a.m. on September 3, 1965"; Shipley "flying in from his district to sign the discharge petition"; the usher "notified the President"). The words: 7:45 a.m. (229). To check: White House Usher memo to LBJ, Sept. 3, 1965, 7:45 a.m., LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 229 n.2). See [[cal.1965-09-03.states-and-cities]]. Names: Johnson.'
+    tags: [name:johnson-lyndon-b, state:dc, city:washington]
+    time_zone: America/New_York
+  - id: cal.1965-09-03.states-and-cities-4
+    when: Sept. 3
+    date: '1965-09-03'
+    time: 1965-09-03T18:00Z
+    place: washington
+    thread: states-and-cities
+    also: [congress]
+    follows:
+      - cal.1965-09-03.states-and-cities
+    c: 'White House Theater, 2 p.m. Johnson on television, on the petition a majority of the House has signed: "we near victory in the final battle of the American Revolution."'
+    n: 'Televised Statement by the President Concerning the Signing of the D.C. Home Rule Petition by a Majority of House Members, [1965 Pub. Papers 966](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=440) (Sept. 3, 1965). The words: 2 p.m. (Pub. Papers 966 note: "spoke at 2 p.m. in the White House Theater"). The order: after [[cal.1965-09-03.states-and-cities]], the statement itself ("A majority ... has signed a petition"). See [[cal.1965-09-03.states-and-cities]]. Names: Johnson.'
+    tags: [name:johnson-lyndon-b, state:dc, city:washington]
+    time_zone: America/New_York
+  - id: cal.1965-09-03.steel-2
+    when: Sept. 3
+    date: '1965-09-03'
+    place: lbj-ranch
+    thread: steel
+    follows:
+      - cal.1965-09-03.steel
+    c: 'The Ranch. Lady Bird Johnson, told by Johnson to turn on her television, watches him announce the settlement; she telephones him, and he puts Cooper and Abel on: her thanks for their hours of work.'
+    n: '[[w.johnson-white-house-diary]], 315 (Mrs. Johnson''s account: "About 4 I got word from him to turn on my TV"; her call; Cooper and Abel). The words: About 4 (315), the word from Johnson, the Ranch''s clock; the broadcast was at 6:30 p.m. Washington time. Made public: 1970. The order: after [[cal.1965-09-03.steel]], the line''s own words (she watches the announcement). See [[cal.1965-09-03.steel]]. Names: Lady Bird Johnson, Johnson, Abel, R. Conrad Cooper.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:abel-i-w, name:cooper-r-conrad, state:tx, ok:fields-time]
+  - id: cal.1965-09-03.steel-3
+    when: Sept. 3
+    date: '1965-09-03'
+    place: lbj-ranch
+    thread: steel
+    follows:
+      - cal.1965-09-03.steel-2
+    c: Johnson flies to the Ranch after the settlement, saying he will leave by 7; on his arrival by helicopter, a dinner of fried fish with Mrs. Johnson. By her account.
+    n: '[[w.johnson-white-house-diary]], 315 ("He said he would leave by 7 o''clock for Texas"; "When the helicopter set down"; the dinner). Made public: 1970. The order: after [[cal.1965-09-03.steel-2]], [[w.johnson-white-house-diary]], 315 (on her call he says he will leave by 7). See [[cal.1965-09-03.steel]]. Names: Johnson, Lady Bird Johnson.'
+    tags: [name:johnson-lyndon-b, name:johnson-lady-bird, state:tx, ok:fields-time]
   - id: cal.1965-09-04.alabama
     when: Sept. 4
     date: '1965-09-04'
@@ -951,13 +996,13 @@ entries:
     place: karachi
     thread: china-foreign
     also: [south-asia]
-    c: 'Chen Yi, on his way abroad, arrives at Karachi. At a press conference he says China fully sympathizes with and supports the Kashmiri people''s just struggle against India''s brutal rule, strongly condemns India''s breaking of the cease-fire line and widening of the conflict, and firmly supports Pakistan''s just counteraction. The Kashmir question should be settled by the Kashmiris'' wishes, by the pledge India and Pakistan gave them. On Vietnam: the "Vietnam question" is the U.S. aggression; any mediation that does not weigh right and wrong serves the U.S.'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 48–49 (Sept. 4, 1965); [[w.chen-yi-nianpu]], 1117–1118 (Sept. 4, 1965, morning, Chen Yi reaches Karachi on the way to Mali and other countries; the press conference in the evening). Names: Chen Yi.'
+    c: Chen Yi, on his way abroad, arrives at Karachi.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 48 (Sept. 4, 1965, the arrival at Karachi on the way abroad); [[w.chen-yi-nianpu]], 1117 (Sept. 4, 1965, 上午, on the way to Mali and other countries, Chen Yi reaches Karachi in Pakistan). The words: 上午 (1117). Names: Chen Yi.'
     src:
-      c: 7959496e
+      c: 7117b92c
       rows:
-        - 'w.zhonghua-renmin-gongheguo-waijiao 48–49: all'
-        - 'w.chen-yi-nianpu 1117–1118: ?'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 48: all'
+        - 'w.chen-yi-nianpu 1117: all'
     tags: [polity:prc, polity:pakistan, polity:india, name:chen-yi]
     time_range:
       - 1965-09-04T01:00Z
@@ -1052,6 +1097,22 @@ entries:
     c: Bangchui Island 棒槌岛, Dalian 大连. Ye Jianying 叶剑英 writes the poem "Rereading Chairman Mao's *On Protracted War*" 《重读毛主席〈论持久战〉》, for the twentieth anniversary of the victory over Japan.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 931. Names: Ye Jianying, Mao Zedong.'
     tags: [polity:prc, name:ye-jianying, name:mao-zedong]
+  - id: cal.1965-09-04.china-foreign
+    when: Sept. 4
+    date: '1965-09-04'
+    place: karachi
+    thread: china-foreign
+    also: [south-asia]
+    follows:
+      - cal.1965-09-04.china-leadership-8
+    c: 'Karachi 卡拉奇. At a press conference Chen Yi says China fully sympathizes with and supports the Kashmiri people''s just struggle against India''s brutal rule, strongly condemns India''s breaking of the cease-fire line and widening of the conflict, and firmly supports Pakistan''s just counteraction. The Kashmir question should be settled by the Kashmiris'' wishes, by the pledge India and Pakistan gave them. On Vietnam: the "Vietnam question" is the U.S. aggression; any mediation that does not weigh right and wrong serves the U.S.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 48–49 (Sept. 4, 1965); [[w.chen-yi-nianpu]], 1117–1118 (Sept. 4, 1965, 晚上, the press conference, after the Chinese ambassador''s banquet; the Vietnam passage runs onto 1118). The words: 晚上 (1117). The order: after [[cal.1965-09-04.china-leadership-8]], the printed order alone ([[w.chen-yi-nianpu]], 1117). See [[cal.1965-09-04.china-leadership-2]]. Names: Chen Yi.'
+    tags: [polity:prc, polity:pakistan, polity:india, name:chen-yi]
+    time_band: evening
+    time_range:
+      - 1965-09-04T14:00Z
+      - 1965-09-04T17:00Z
+    time_zone: Asia/Karachi
   - id: cal.1965-09-05.vietnam-air-war
     when: Sept. 5
     date: '1965-09-05'
@@ -1065,21 +1126,21 @@ entries:
         - 'w.staaveren-gradual-failure 173: all'
         - 'via x.1965-09-16.pacaf-di-rpt-effects-of-air-ops: ?'
   - id: cal.1965-09-05.china-leadership
-    when: Sept. 5–6
+    when: Sept. 5
     date: '1965-09-05'
     place: damascus
     thread: china-foreign
     also: [middle-east]
     follows:
       - cal.1965-09-05.china-leadership-6
-    c: Chen Yi visits Syria. He calls on the chairman of the Presidential Council, Amin al-Hafiz, and holds talks with its vice-chairman, Nur al-Din al-Atasi, the Arab Baath Socialist Party's secretary-general, Munif al-Razzaz, and Foreign Minister Hasan Murawid.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 49 (Sept. 5–6, 1965); [[w.chen-yi-nianpu]], 1118 (Sept. 5, 1965, morning, Chen Yi reaches Damascus; at noon calls on Amin al-Hafiz 阿明·哈菲兹 at the presidential palace; in the evening the talks with Nur al-Din al-Atasi 努尔丁·阿塔西, Munif al-Razzaz 穆尼夫·拉泽兹 and Hassan Muraywid 哈桑·穆拉维德; Sept. 6, evening, the talks with al-Atasi go on). The time is the first day''s. Names: Chen Yi, Nur al-Din al-Atasi, Amin al-Hafiz, Hasan Murawid.'
+    c: Chen Yi arrives at Damascus on a visit to Syria.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 49 (Sept. 5–6, 1965); [[w.chen-yi-nianpu]], 1118 (Sept. 5, 1965, 上午, Chen Yi reaches Damascus; the call at noon and the talks in the evening are items of their own). The words: 上午 (1118). Names: Chen Yi.'
     src:
-      c: 63a5a901
+      c: fac4a1d2
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 49: all'
         - 'w.chen-yi-nianpu 1118: ?'
-    tags: [polity:prc, polity:syria, name:chen-yi, name:al-atasi-nur-al-din, name:amin-al-hafiz, name:hasan-murawid]
+    tags: [polity:prc, polity:syria, name:chen-yi]
     time_range:
       - 1965-09-05T03:00Z
       - 1965-09-05T09:00Z
@@ -1182,8 +1243,10 @@ entries:
     place: damascus
     thread: china-foreign
     also: [middle-east]
+    follows:
+      - cal.1965-09-05.china-foreign
     c: 'Damascus 大马士革. Chen Yi 陈毅 answers Syrian journalists: China and Syria will work together for a second Asian–African conference held and held well; it should support the peoples of Vietnam, the Congo (Léopoldville), the Dominican Republic and Palestine; its chief aim is to oppose American imperialism''s aggression.'
-    n: '[[w.chen-yi-nianpu]], 1118. The words: 中午 (1118). Names: Chen Yi.'
+    n: '[[w.chen-yi-nianpu]], 1118. The words: 中午 (1118). The order: after [[cal.1965-09-05.china-foreign]], [[w.chen-yi-nianpu]], 1118 (the call at noon, then the answer to the journalists), the printed order alone. Names: Chen Yi.'
     tags: [polity:prc, polity:syria, name:chen-yi]
     time_range:
       - 1965-09-05T09:00Z
@@ -1209,8 +1272,9 @@ entries:
     also: [middle-east]
     follows:
       - cal.1965-09-05.china-leadership-10
+      - cal.1965-09-05.china-foreign-2
     c: Damascus 大马士革. Amin al-Hafiz 阿明·哈菲兹 gives a banquet at the presidential palace for Chen Yi 陈毅 and his party.
-    n: '[[w.chen-yi-nianpu]], 1118. The words: 晚上 (1118). The order: after [[cal.1965-09-05.china-leadership-10]], the printed order alone ([[w.chen-yi-nianpu]], 1118). Names: Chen Yi, Amin al-Hafiz.'
+    n: '[[w.chen-yi-nianpu]], 1118. The words: 晚上 (1118). The order: after [[cal.1965-09-05.china-leadership-10]], the printed order alone ([[w.chen-yi-nianpu]], 1118). The order: after [[cal.1965-09-05.china-foreign-2]], [[w.chen-yi-nianpu]], 1118 (the evening talks, then the banquet), the printed order alone. Names: Chen Yi, Amin al-Hafiz.'
     tags: [polity:prc, polity:syria, name:chen-yi, name:amin-al-hafiz]
     time_range:
       - 1965-09-05T16:00Z
@@ -1225,6 +1289,38 @@ entries:
     c: 'Peking 北京. Chen Yun 陈云, by letter to Deng Xiaoping 邓小平: a low fever for forty-one days since late July; till it is understood he cannot go to see Chairman Mao 毛主席; he eats a quarter less, has lost 3 kilograms and cannot walk.'
     n: '[[w.chen-yun-nianpu-xiuding]], III, 150. Made public: 2015. Names: Chen Yun, Deng Xiaoping, Mao Zedong.'
     tags: [polity:prc, name:chen-yun, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
+  - id: cal.1965-09-05.china-foreign
+    when: Sept. 5
+    date: '1965-09-05'
+    place: damascus
+    thread: china-foreign
+    also: [middle-east]
+    follows:
+      - cal.1965-09-05.china-leadership-8
+    c: Damascus 大马士革. At noon, at the presidential palace, Chen Yi calls on Amin al-Hafiz 阿明·哈菲兹, chairman of the Presidential Council.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 49 (Sept. 5–6, 1965); [[w.chen-yi-nianpu]], 1118 (Sept. 5, 1965, 中午, calls on Amin al-Hafiz 阿明·哈菲兹 at the presidential palace). The words: 中午 (1118). The order: after [[cal.1965-09-05.china-leadership-8]], [[w.chen-yi-nianpu]], 1118 (in 在这以前, before this, Nur al-Din al-Atasi and Muraywid had called on him at the hotel). See [[cal.1965-09-05.china-leadership]]. Names: Chen Yi, Amin al-Hafiz.'
+    tags: [polity:prc, polity:syria, name:chen-yi, name:amin-al-hafiz]
+    time_band: workday midday
+    time_range:
+      - 1965-09-05T09:00Z
+      - 1965-09-05T11:00Z
+    time_zone: Asia/Damascus
+  - id: cal.1965-09-05.china-foreign-2
+    when: Sept. 5–6
+    date: '1965-09-05'
+    place: damascus
+    thread: china-foreign
+    also: [middle-east]
+    follows:
+      - cal.1965-09-05.china-leadership-10
+    c: Damascus 大马士革. Chen Yi holds talks with Nur al-Din al-Atasi, vice-chairman of the Presidential Council, Munif al-Razzaz, the Arab Baath Socialist Party's secretary-general, and Foreign Minister Hasan Murawid. The talks with al-Atasi go on Sept. 6.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 49 (Sept. 5–6, 1965); [[w.chen-yi-nianpu]], 1118 (Sept. 5, 1965, 晚上, the talks with al-Atasi 努尔丁·阿塔西, al-Razzaz 穆尼夫·拉泽兹 and Muraywid 哈桑·穆拉维德), 1119 (Sept. 6, 晚上, 同努尔丁·阿塔西继续举行会谈). The words: 晚上 (1118). The time is the first day''s. The order: after [[cal.1965-09-05.china-leadership-10]], the printed order alone ([[w.chen-yi-nianpu]], 1118). See [[cal.1965-09-05.china-leadership]]. Names: Chen Yi, Nur al-Din al-Atasi, Hasan Murawid.'
+    tags: [polity:prc, polity:syria, name:chen-yi, name:al-atasi-nur-al-din, name:hasan-murawid]
+    time_band: evening
+    time_range:
+      - 1965-09-05T16:00Z
+      - 1965-09-05T19:00Z
+    time_zone: Asia/Damascus
   - id: cal.1965-09-06.foreign-aid
     when: Sept. 6
     date: '1965-09-06'
@@ -1476,16 +1572,18 @@ entries:
     time_approx: true
     place: lbj-ranch
     thread: succession
-    c: 'The Ranch, about 4 a.m. Johnson has "awful pains in his stomach"; he will not have Dr. Burkley called till dawn. Burkley thinks it kidney stones; an electrocardiogram. Johnson''s feeling: "as long as we really knew nothing, we should say nothing"; Mrs. Johnson goes on to Jackson Hole. In the evening he telephones her there: Dr. Hurst with him, X-rays, it sounds like gallstones; he will keep his appointments but make no more, and no statement yet; more tests next day.'
-    n: '[[w.johnson-white-house-diary]], 316–19 (Mrs. Johnson''s account). Made public: 1970. Names: Burkley, Hurst, Johnson, Lady Bird Johnson.'
-    tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:burkley-george-g, state:tx, name:hurst-e-h]
+    c: 'The Ranch, about 4 a.m. Johnson has "awful pains in his stomach"; he will not have Dr. Burkley called till dawn. Burkley thinks it kidney stones; an electrocardiogram. Johnson''s feeling: "as long as we really knew nothing, we should say nothing"; Mrs. Johnson goes on to Jackson Hole, Johnson to rest and return to Washington in the afternoon.'
+    n: '[[w.johnson-white-house-diary]], 316–17 (Mrs. Johnson''s account). Made public: 1970. Names: Burkley, Johnson, Lady Bird Johnson.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:burkley-george-g, state:tx]
   - id: cal.1965-09-07.conservation
     when: Sept. 7
     date: '1965-09-07'
     place: jackson-hole
     thread: conservation
+    follows:
+      - cal.1965-09-07.conservation-2
     c: Jackson Hole, Wyo. The American Forestry Association's dinner, about five hundred; Senator Clinton Anderson receives its Distinguished Service Award. Laurance Rockefeller introduces Lady Bird Johnson; she speaks, then shakes hands with the guests at the door.
-    n: '[[w.johnson-white-house-diary]], 318–20 (Mrs. Johnson''s account). See [[cal.1965-09-07.succession]]. Names: Anderson, Rockefeller, Johnson.'
+    n: '[[w.johnson-white-house-diary]], 318–20 (Mrs. Johnson''s account). The order: after [[cal.1965-09-07.conservation-2]], [[w.johnson-white-house-diary]], 317–18 (the landing about 2:30, three hours at the cabin, then the Lodge and the dinner). See [[cal.1965-09-07.succession]]. Names: Anderson, Rockefeller, Johnson.'
     tags: [name:johnson-lady-bird, name:anderson-clinton-p, name:rockefeller-laurance-s, state:wy]
   - id: cal.1965-09-07.soviet-union-leadership
     when: Sept. 7
@@ -1554,21 +1652,26 @@ entries:
         - 'w.zhonghua-renmin-gongheguo-waijiao 49: all'
     tags: [polity:prc, polity:india, polity:pakistan]
   - id: cal.1965-09-07.china-leadership-3
-    when: Sept. 7–9
+    when: Sept. 7
     date: '1965-09-07'
     place: algiers
     thread: china-foreign
     also: [africa]
     follows:
       - cal.1965-09-07.china-leadership-10
-    c: Chen Yi visits Algeria. He calls on Boumedienne, chairman of the Revolutionary Council and prime minister, and holds talks with Foreign Minister Abdelaziz Bouteflika.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 49–50 (Sept. 7–9, 1965); [[w.chen-yi-nianpu]], 1119 (Sept. 7, 1965, morning, Chen Yi leaves Damascus and reaches Algiers; in the afternoon talks with Abdelaziz Bouteflika 阿卜杜勒·阿齐兹·布特弗利卡; Sept. 8, evening, calls on Houari Boumedienne, chairman of the Revolutionary Council and Prime Minister). Names: Chen Yi, Boumedienne, Bouteflika.'
+    c: Chen Yi arrives at Algiers from Damascus on a visit to Algeria.
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 49–50 (Sept. 7–9, 1965; the visit, the call on Boumedienne and the talks with Bouteflika); [[w.chen-yi-nianpu]], 1119 (Sept. 7, 1965, 上午, Chen Yi leaves Damascus and reaches Algiers). The words: 上午 (1119). Names: Chen Yi.'
     src:
-      c: a3add6e0
+      c: d7f94da8
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 49–50: all'
         - 'w.chen-yi-nianpu 1119: ?'
-    tags: [polity:prc, polity:algeria, name:chen-yi, name:boumediene-houari, name:bouteflika-abdel-aziz]
+    tags: [polity:prc, polity:algeria, name:chen-yi]
+    time_band: morning
+    time_range:
+      - 1965-09-07T06:00Z
+      - 1965-09-07T12:00Z
+    time_zone: Africa/Algiers
   - id: cal.1965-09-07.china-leadership-4
     when: Sept. 7
     date: '1965-09-07'
@@ -1653,8 +1756,13 @@ entries:
     thread: china-foreign
     also: [middle-east]
     c: Leaving Damascus 大马士革, Chen Yi 陈毅 cables Hassan Muraywid 哈桑·穆拉维德 his thanks for the Syrian government's hospitality.
-    n: '[[w.chen-yi-nianpu]], 1119. Names: Chen Yi.'
+    n: '[[w.chen-yi-nianpu]], 1119. The words: 上午 (1119), the morning of the departure from Damascus. Names: Chen Yi.'
     tags: [polity:prc, polity:syria, name:chen-yi]
+    time_band: morning
+    time_range:
+      - 1965-09-07T03:00Z
+      - 1965-09-07T09:00Z
+    time_zone: Asia/Damascus
   - id: cal.1965-09-07.china-leadership-10
     when: Sept. 7
     date: '1965-09-07'
@@ -1663,8 +1771,13 @@ entries:
     follows:
       - cal.1965-09-07.china-leadership-9
     c: Flying over Lebanon, the UAR and Tunisia, Chen Yi 陈毅 cables his greetings to their Foreign Ministers, George Hakim, Mahmoud Riad and Habib Bourguiba Jr., and through them his respects to Lebanon's Prime Minister Karami 卡拉米, the UAR's President Nasser and Prime Minister Sabri 萨布里 and Tunisia's President Bourguiba.
-    n: '[[w.chen-yi-nianpu]], 1119. Names: Chen Yi, Hakim, Riad, Bourguiba Jr., Nasser, Bourguiba.'
+    n: '[[w.chen-yi-nianpu]], 1119. The words: 上午 (1119), the morning of the flight from Damascus to Algiers, 途中, on the way; the zone is Damascus''s, where the flight began. Names: Chen Yi, Hakim, Riad, Bourguiba Jr., Nasser, Bourguiba.'
     tags: [polity:prc, polity:lebanon, polity:uar, polity:tunisia, name:chen-yi, name:hakim-george-bey, name:riad-mahmoud, name:bourguiba-habib-jr, name:nasser-gamal-abdel, name:bourguiba-habib-ben-ali, ok:fields-place]
+    time_band: morning
+    time_range:
+      - 1965-09-07T03:00Z
+      - 1965-09-07T09:00Z
+    time_zone: Asia/Damascus
   - id: cal.1965-09-07.china-leadership-11
     when: Sept. 7
     date: '1965-09-07'
@@ -1706,6 +1819,46 @@ entries:
       - 1965-09-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-07.succession-2
+    when: Sept. 7
+    date: '1965-09-07'
+    place: jackson-hole
+    thread: succession
+    follows:
+      - cal.1965-09-07.conservation
+    c: 'Jackson Hole, Wyo., in the middle of the American Forestry Association''s dinner. Johnson telephones Mrs. Johnson: Dr. Hurst with him, X-rays, it sounds like gallstones; he will keep his appointments but make no more, and no statement yet; Dr. Cain to come to the White House, more tests next day.'
+    n: '[[w.johnson-white-house-diary]], 318 (Mrs. Johnson''s account: "In the middle of the dinner" she is called to the telephone). The words: In the middle of the dinner (318); the evening is the dinner''s, Jackson Hole''s clock. Made public: 1970. The order: after [[cal.1965-09-07.conservation]], the line''s own words (in the middle of the dinner). See [[cal.1965-09-07.succession]]. Names: Johnson, Lady Bird Johnson, Hurst.'
+    tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:hurst-e-h, state:wy]
+    time_band: evening
+    time_range:
+      - 1965-09-08T01:00Z
+      - 1965-09-08T04:00Z
+    time_zone: America/Denver
+  - id: cal.1965-09-07.china-foreign
+    when: Sept. 7
+    date: '1965-09-07'
+    place: algiers
+    thread: china-foreign
+    also: [africa]
+    c: Algiers 阿尔及尔. Chen Yi holds talks with Foreign Minister Abdelaziz Bouteflika 阿卜杜勒·阿齐兹·布特弗利卡.
+    n: '[[w.chen-yi-nianpu]], 1119 (Sept. 7, 1965, 下午, the talks with Bouteflika); [[w.zhonghua-renmin-gongheguo-waijiao]], 50 (the talks with Bouteflika; no day). The words: 下午 (1119). See [[cal.1965-09-07.china-leadership-3]]. Names: Chen Yi, Bouteflika.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:bouteflika-abdel-aziz]
+    time_band: afternoon
+    time_range:
+      - 1965-09-07T12:00Z
+      - 1965-09-07T18:00Z
+    time_zone: Africa/Algiers
+  - id: cal.1965-09-07.conservation-2
+    when: Sept. 7
+    date: '1965-09-07'
+    time: 1965-09-07T20:30Z
+    time_approx: true
+    place: jackson-hole
+    thread: conservation
+    c: Jackson Hole, Wyo., about 2:30. Lady Bird Johnson lands at Jackson Airport, by way of Kansas City with the press plane, Lynda Bird with her; Governor Clifford Hansen, Representative Teno Roncalio and Laurance and Mary Rockefeller meet her.
+    n: '[[w.johnson-white-house-diary]], 317 (Mrs. Johnson''s account: Kansas City, the press plane; "about 2:30 we came in for a beautiful landing at Jackson Airport"; Hansen, Roncalio, the Rockefellers). The words: about 2:30 (317), Jackson Hole''s clock. Made public: 1970. Names: Lady Bird Johnson, Hansen, Roncalio, Rockefeller.'
+    tags: [name:johnson-lady-bird, name:hansen-clifford-p, name:rockefeller-laurance-s, state:wy, name:roncalio-teno]
+    time_zone: America/Denver
   - id: cal.1965-09-08.jobs-and-wages-ca
     when: Sept. 8
     date: '1965-09-08'
@@ -1902,6 +2055,20 @@ entries:
     c: Zhu De 朱德 meets Pierre Pasquini 皮埃尔·帕斯基尼, vice-president of the French National Assembly 法国国民议会, and the deputies' delegation he leads.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1938. Names: Zhu De.'
     tags: [polity:prc, polity:fr, name:zhu-de]
+  - id: cal.1965-09-08.china-foreign
+    when: Sept. 8
+    date: '1965-09-08'
+    place: algiers
+    thread: china-foreign
+    also: [africa]
+    c: Algiers 阿尔及尔. Chen Yi calls on Houari Boumedienne 胡阿里·布迈丁, chairman of the Revolutionary Council and prime minister.
+    n: '[[w.chen-yi-nianpu]], 1119 (Sept. 8, 1965, 晚上, the call on Boumedienne); [[w.zhonghua-renmin-gongheguo-waijiao]], 50 (the call; no day). The words: 晚上 (1119). See [[cal.1965-09-07.china-leadership-3]]. Names: Chen Yi, Boumedienne.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:boumediene-houari]
+    time_band: evening
+    time_range:
+      - 1965-09-08T19:00Z
+      - 1965-09-08T22:00Z
+    time_zone: Africa/Algiers
   - id: cal.1965-09-09.cities-and-housing
     when: Sept. 9
     date: '1965-09-09'
@@ -2078,8 +2245,9 @@ entries:
     also: [africa]
     follows:
       - cal.1965-09-09.china-leadership-8
+      - cal.1965-09-09.china-foreign
     c: Chen Yi begins a visit to Mali, to Sept. 15.
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 51–52 (Sept. 9–15, 1965; the visit; Modibo Keita receives him; talks with Jean-Marie Koné, minister of state for planning and economic coordination, whom the chronology calls acting president; no days given); [[w.chen-yi-nianpu]], 1120 (Sept. 9, 1965, Chen Yi reaches Bamako and speaks to the press in the airport''s reception room, greeting Mali''s government and people and praising Mali''s achievements and the friendship; Sept. 10, morning, Modibo Keita 莫迪博·凯塔 receives him; afternoon, the talks with Jean-Marie Koné 让-马里·科奈, the acting President and Minister of State for planning and economic coordination). Names: Chen Yi. Check: Koné''s name, from the Chinese 让-马里·科奈.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 51–52 (Sept. 9–15, 1965; the visit; Modibo Keita receives him; talks with Jean-Marie Koné, minister of state for planning and economic coordination, whom the chronology calls acting president; no days given); [[w.chen-yi-nianpu]], 1120 (Sept. 9, 1965, Chen Yi reaches Bamako and speaks to the press in the airport''s reception room, greeting Mali''s government and people and praising Mali''s achievements and the friendship; Sept. 10, morning, Modibo Keita 莫迪博·凯塔 receives him; afternoon, the talks with Jean-Marie Koné 让-马里·科奈, the acting President and Minister of State for planning and economic coordination). The order: after [[cal.1965-09-09.china-foreign]], [[w.chen-yi-nianpu]], 1120 (the cable 离开阿尔及利亚时, on leaving Algeria, then the arrival at Bamako). Names: Chen Yi. Check: Koné''s name, from the Chinese 让-马里·科奈.'
     src:
       c: 85999f3e
       rows:
@@ -2164,6 +2332,22 @@ entries:
       - 1965-09-09T12:00Z
     time_band: morning
     time_zone: Africa/Algiers
+  - id: cal.1965-09-09.china-foreign
+    when: Sept. 9
+    date: '1965-09-09'
+    place: algiers
+    thread: china-foreign
+    also: [africa]
+    follows:
+      - cal.1965-09-09.china-leadership-8
+    c: Leaving Algeria, Chen Yi 陈毅 cables Foreign Minister Abdelaziz Bouteflika 阿卜杜勒·阿齐兹·布特弗利卡 his thanks for the warm hospitality.
+    n: '[[w.chen-yi-nianpu]], 1120 (Sept. 9, 1965, 离开阿尔及利亚时, on leaving Algeria). The time is the departure''s, 上午 (1119). The order: after [[cal.1965-09-09.china-leadership-8]], [[w.chen-yi-nianpu]], 1120 (离开阿尔及利亚时, on leaving). See [[cal.1965-09-09.china-leadership-3]]. Names: Chen Yi, Bouteflika.'
+    tags: [polity:prc, polity:algeria, name:chen-yi, name:bouteflika-abdel-aziz]
+    time_band: morning
+    time_range:
+      - 1965-09-09T06:00Z
+      - 1965-09-09T12:00Z
+    time_zone: Africa/Algiers
   - id: cal.1965-09-10.economy
     when: Sept. 10
     date: '1965-09-10'
@@ -2215,7 +2399,7 @@ entries:
     follows:
       - cal.1965-09-10.war-opposition
     c: 'Dodd, by press statement, on King''s proposals at the UN: King''s "intemperate alignment with the forces of appeasement"; he has "absolutely no competence to speak about complex matters of foreign policy";{1} "nothing short of arrogance" to "undermine the policies of the President."{2}'
-    n: '[[w.branch-at-canaans-edge]], 329; [[w.kotz-judgment-days]], 352 (the words; the Logan Act). Check: Kotz dates Dodd''s words "a day later," Sept. 11 (352). On King''s proposals at the UN: [[cal.1965-09-10.war-opposition]]. To check: Dodd, "Dr. Martin Luther King''s Activities in Connection with U.S. Foreign Policy," statement, reprinted 111 Cong. Rec. 23,908 (Sept. 15, 1965) (cited by [[w.branch-at-canaans-edge]], 329). See [[cal.1965-09-10.war-opposition]]. Check: the day; Branch gives Friday, Sept. 10, after the Senate had adjourned; Garrow, Sept. 11 ([[cal.1965-09-12.war-opposition]]). Names: Dodd, Martin Luther King.'
+    n: 'Dodd, "Dr. Martin Luther King''s Activities in Connection with U.S. Foreign Policy," statement, reprinted [111 Cong. Rec. 23,908](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt18/pdf/GPO-CRECB-1965-pt18-2-1.pdf#page=74) (1965) ("a statement I issued last week"; the Record prints "intemperate alinement"). [[w.branch-at-canaans-edge]], 329; [[w.kotz-judgment-days]], 352 (the words; the Logan Act). Check: Kotz dates Dodd''s words "a day later," Sept. 11 (352). On King''s proposals at the UN: [[cal.1965-09-10.war-opposition]]. See [[cal.1965-09-10.war-opposition]]. Check: the day; Branch gives Friday, Sept. 10, after the Senate had adjourned; Garrow, Sept. 11 ([[cal.1965-09-12.war-opposition]]); the Record, Sept. 15, "last week". Names: Dodd, Martin Luther King.'
     src:
       c: 293a76b5
       rows:
@@ -2229,6 +2413,12 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - field: date
+        value: '1965-09-11'
+        witness: w.garrow-bearing-the-cross
+        reads: '"the next day" after King''s meeting with Goldberg on Sept. 10, Dodd blasted King; Kotz, 352, "A day later"'
+        at: '445'
   - id: cal.1965-09-10.vietnam
     when: Sept. 10
     date: '1965-09-10'
@@ -2411,7 +2601,7 @@ entries:
     thread: china-foreign
     also: [africa]
     c: 'Chen Yi, at his reception at Bamako: the new Afro-Asian states meet difficulties in building;{1} by self-reliance, holding their economic lifelines, drawing out their people''s initiative, developing their own resources, helping one another and resisting imperialism''s demands, they can overcome them and beat the plots of imperialism and old and new colonialism.{2}'
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 51–52 (Sept. 10, 1965); [[w.chen-yi-nianpu]], 1120 (Sept. 12, 1965, evening; Chen Yi gives the reception and speaks on the principles of building the new Asian and African states; China–Mali relations rest on mutual respect for sovereignty, non-interference and equality and mutual benefit). See [[cal.1965-09-09.china-leadership-3]]. Names: Chen Yi.'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 51–52 (Sept. 10, 1965); [[w.chen-yi-nianpu]], 1120 (Sept. 12, 1965, evening; Chen Yi gives the reception and speaks on the principles of building the new Asian and African states; China–Mali relations rest on mutual respect for sovereignty, non-interference and equality and mutual benefit). Check: the day; the Waijiao dashiji has Chen Yi speak at the reception on the 10th ([[w.zhonghua-renmin-gongheguo-waijiao]], 51), the Chen Yi nianpu on the evening of Sept. 12 ([[w.chen-yi-nianpu]], 1120); the nianpu has the 10th for Keita''s reception of him and the talks with Koné. See [[cal.1965-09-09.china-leadership-3]]. Names: Chen Yi.'
     src:
       c: f396b7c4
       rows:
@@ -2504,6 +2694,34 @@ entries:
     c: 'Peng Zhen 彭真 tells Qiao Mingfu 乔明甫, deputy head of the Organization Department 中共中央组织部, that he will talk with Peng Dehuai 彭德怀 the next day, with Qiao and Jia Zhen 贾震 present. Jia Zhen tells Peng to go with him to the Great Hall of the People 人民大会堂 next day: someone of the Center will talk with him.'
     n: '[[w.peng-dehuai-nianpu]], 786. Made public: 1998. Names: Peng Zhen, Peng Dehuai, Qiao Mingfu.'
     tags: [polity:prc, vis:only:prc, name:peng-zhen, name:peng-dehuai, ok:fields-place, name:qiao-mingfu]
+  - id: cal.1965-09-10.china-foreign
+    when: Sept. 10
+    date: '1965-09-10'
+    place: bamako
+    thread: china-foreign
+    also: [africa]
+    c: Bamako 巴马科. Modibo Keita 莫迪博·凯塔, Mali's President, receives Chen Yi.
+    n: '[[w.chen-yi-nianpu]], 1120 (Sept. 10, 1965, 上午, Keita receives Chen Yi); [[w.zhonghua-renmin-gongheguo-waijiao]], 51 (Keita receives him; no day). The words: 上午 (1120). See [[cal.1965-09-09.china-leadership-3]]. Names: Keita, Chen Yi.'
+    tags: [polity:prc, polity:mali, name:chen-yi, name:keita-modibo]
+    time_band: morning
+    time_range:
+      - 1965-09-10T06:00Z
+      - 1965-09-10T12:00Z
+    time_zone: Africa/Bamako
+  - id: cal.1965-09-10.china-foreign-2
+    when: Sept. 10
+    date: '1965-09-10'
+    place: bamako
+    thread: china-foreign
+    also: [africa]
+    c: Bamako 巴马科. Chen Yi holds talks with Jean-Marie Koné 让-马里·科奈, Mali's acting President and Minister of State for planning and economic coordination.
+    n: '[[w.chen-yi-nianpu]], 1120 (Sept. 10, 1965, 下午, the talks with Koné); [[w.zhonghua-renmin-gongheguo-waijiao]], 51 (the talks with Koné; no day). The words: 下午 (1120). See [[cal.1965-09-09.china-leadership-3]]. Names: Chen Yi. Check: Koné''s name, from the Chinese 让-马里·科奈.'
+    tags: [polity:prc, polity:mali, name:chen-yi]
+    time_band: afternoon
+    time_range:
+      - 1965-09-10T12:00Z
+      - 1965-09-10T18:00Z
+    time_zone: Africa/Bamako
   - id: cal.1965-09-11.vietnam
     when: Sept. 11
     date: '1965-09-11'
@@ -2802,7 +3020,7 @@ entries:
     thread: war-opposition
     also: [king]
     c: 'King on a conference call with Levison, Wachtel, Clarence Jones, Cleveland Robinson and Andrew Young, after Dodd''s attack of Sept. 11: Johnson put Dodd up to it; he lacks the strength to fight this and civil rights both. He drops the letters to the war''s leaders and steps back from the peace issue, for now; his advisors agree.{1} The FBI''s taps overhear.{2}'
-    n: '[[w.garrow-bearing-the-cross]], 445–46; [[w.branch-at-canaans-edge]], 329–31. To check: FBI files 100-111180-9-695A (New York) and 100-442529-1446, Sept. 12, 1965; FBI file 100-106670-NR, Sept. 13, 1965 (cited by [[w.garrow-bearing-the-cross]], 446 n.16); wiretap transcript, King conference call with Levison, Young, Clarence Jones, Wachtel, Cleveland Robinson, Wyatt Tee Walker and Fauntroy, Sept. 12, 1965, FBI file 100-111180-9-695a (cited by [[w.branch-at-canaans-edge]], 329). Check: the day. See [[cal.1965-09-10.war-opposition]]. Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]], 627). Check: Branch gives Sunday, Sept. 12, and the decision on the letters announced Oct. 5 (329, 331). Names: King, Levison, Young, Johnson, Dodd, Wachtel.'
+    n: '[[w.garrow-bearing-the-cross]], 445–46; [[w.branch-at-canaans-edge]], 329–31. Check: the day of Dodd''s attack; this line has Sept. 11 ([[w.garrow-bearing-the-cross]], 445, "the next day"; [[w.kotz-judgment-days]], 352, "A day later"), [[cal.1965-09-10.war-opposition-2]] Friday, Sept. 10, after the Senate had adjourned ([[w.branch-at-canaans-edge]], 329); the Congressional Record''s reprint of Sept. 15 calls it "a statement I issued last week" (111 Cong. Rec. 23,908). To check: FBI files 100-111180-9-695A (New York) and 100-442529-1446, Sept. 12, 1965; FBI file 100-106670-NR, Sept. 13, 1965 (cited by [[w.garrow-bearing-the-cross]], 446 n.16); wiretap transcript, King conference call with Levison, Young, Clarence Jones, Wachtel, Cleveland Robinson, Wyatt Tee Walker and Fauntroy, Sept. 12, 1965, FBI file 100-111180-9-695a (cited by [[w.branch-at-canaans-edge]], 329). Check: the day. See [[cal.1965-09-10.war-opposition]]. Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]], 627). Check: Branch gives Sunday, Sept. 12, and the decision on the letters announced Oct. 5 (329, 331). Names: King, Levison, Young, Johnson, Dodd, Wachtel.'
     src:
       c: fa52cd11
       rows:
@@ -3747,7 +3965,7 @@ entries:
     thread: china-mao
     also: [china-economy]
     c: 'Mao presides over the Politburo Standing Committee, Juxiang Shuwu, morning, on the coming Central Work Conference: five items.{1} The 1966 plan, the long-term plan not settled; two grain and price policies (purchases fixed for two three-year periods, 20 billion yuan to adjust prices in the Third Plan); Party building (young members, the grass roots, younger cadres; a Party congress in two years, with a younger 40-odd-year-old group added to the Central Committee); the four-cleans; the situation, against revisionism, last.{2}'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 15, 1965. [[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 15, 1965: Zhou goes to Mao''s to meet on the coming Central Work Conference); [[w.deng-xiaoping-nianpu-1904]], III, 1875 (Sept. 15, 1965; morning, 上午; Deng at the Politburo Standing Committee meeting Mao presides over, on questions of the Central Work Conference about to open); [[w.zhu-de-nianpu-xinbian]], III, 1939 (Sept. 15, 1965; Zhu De 朱德 at the meeting at Mao Zedong''s 毛泽东 on the coming Central Work Conference 中共中央工作会议). Made public: 1997. See [[cal.1965-09-03.china]]. Names: Mao Zedong.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 15, 1965. [[w.zhou-enlai-nianpu-1949]], II, 755 (Sept. 15, 1965: Zhou goes to Mao''s to meet on the coming Central Work Conference); [[w.deng-xiaoping-nianpu-1904]], III, 1875 (Sept. 15, 1965; morning, 上午; Deng at the Politburo Standing Committee meeting Mao presides over, on questions of the Central Work Conference about to open); [[w.zhu-de-nianpu-xinbian]], III, 1939 (Sept. 15, 1965; Zhu De 朱德 at the meeting at Mao Zedong''s 毛泽东 on the coming Central Work Conference 中共中央工作会议). Made public: 1997. See [[cal.1965-09-03.china]]. The words: 上午 ([[w.deng-xiaoping-nianpu-1904]], III, 1875); the line has "morning." Names: Mao Zedong.'
     src:
       c: f2c64c4b
       rows:
@@ -3756,6 +3974,11 @@ entries:
         - 'w.deng-xiaoping-nianpu-1904 III, 1875: ?'
         - 'w.zhu-de-nianpu-xinbian III, 1939: ?'
     tags: [name:mao-zedong, polity:prc, vis:only:prc]
+    time_band: morning
+    time_range:
+      - 1965-09-14T22:00Z
+      - 1965-09-15T04:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1965-09-15.china-leadership-2
     when: Sept. 15
     date: '1965-09-15'
@@ -4868,7 +5091,7 @@ entries:
     place: nyc
     thread: india-and-china-kashmir
     c: 'Security Council, Goldberg presiding, Sept. 20: Resolution 211, a cease-fire by Sept. 22. India accepts.'
-    n: '[S.C. Res. 211](https://undocs.org/S/RES/211(1965)) (Sept. 20, 1965). Statement by the President on the Cease-Fire Agreements by India and Pakistan, [1965 Pub. Papers 1010](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=484) (Sept. 22, 1965). FRUS 1964–68, XXV, docs. [213](https://history.state.gov/historicaldocuments/frus1964-68v25/d213), [222](https://history.state.gov/historicaldocuments/frus1964-68v25/d222), [223](https://history.state.gov/historicaldocuments/frus1964-68v25/d223). Split under R25b and R17: FRUS XXV, doc. 222, gives Pakistan''s acceptance its own day and hour ("as the 3:00 AM UN deadline was reached"), doc. 223 the cease-fire''s taking effect its own ("at 6:00 PM last evening"), and the Public Papers'' note (1010) Johnson''s statement its own (11:30 a.m.); each is an entry of Sept. 22. See [[cal.1965-09-01.india-and-china]]. Names: Goldberg.'
+    n: '[S.C. Res. 211](https://undocs.org/S/RES/211(1965)) (Sept. 20, 1965). FRUS 1964–68, XXV, doc. [213](https://history.state.gov/historicaldocuments/frus1964-68v25/d213). Check: India''s acceptance; FRUS 1964–68, XXV, doc. 213 is Johnson and Goldberg''s call of Sept. 18 (Goldberg on "the Indian acceptance of the cease-fire proposal"), and doc. 222 has India accept before the deadline of Sept. 22, asking a new time; the day of India''s acceptance of Resolution 211 not read. See [[cal.1965-09-01.india-and-china]]. Names: Goldberg.'
     src:
       rows: []
       c: 69f646ca
@@ -6043,14 +6266,13 @@ entries:
     place: chongqing
     thread: china-zhou-foreign
     also: [china-foreign]
-    c: Zhou flies to Chongqing to meet Sihanouk, calls on him the same day.{1} Orders the offices to enlarge and rebuild Chongqing airport, unfit for use, and shorten the road from it to town.{2}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 24, 1965); [[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 24, 1965; by special trip from Peking to Chongqing to welcome Sihanouk, and calling on him there in the afternoon); [[w.chen-yi-nianpu]], 1123 (Sept. 24, 1965, afternoon; Chen Yi goes with Zhou to call on Sihanouk). Made public: 1993. Names: Zhou Enlai, Sihanouk.'
+    c: Zhou flies to Chongqing to meet Sihanouk.{1}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 24, 1965); [[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 24, 1965; by special trip from Peking to Chongqing to welcome Sihanouk). Made public: 1993. Names: Zhou Enlai, Sihanouk.'
     src:
-      c: 2d9b7faa
+      c: 31c1fe1f
       rows:
-        - 'w.zhou-enlai-nianpu-1949 II, 757: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 757: 1'
         - 'w.zhou-enlai-waijiao-huodong 478: 1'
-        - 'w.chen-yi-nianpu 1123: ?'
     tags: [name:zhou-enlai, name:norodom-sihanouk, polity:prc, polity:cambodia, vis:only:prc+cambodia]
   - id: cal.1965-09-24.china-leadership-3
     when: Sept. 24
@@ -6059,8 +6281,9 @@ entries:
     thread: china-zhou
     follows:
       - cal.1965-09-24.china-leadership-2
+      - cal.1965-09-24.china-leadership-12
     c: Zhou goes with Sihanouk to watch a friendly football match between Chinese and Cambodian teams at Chongqing.
-    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 24, 1965; afternoon; Chongqing). The order: after [[cal.1965-09-24.china-leadership-2]], the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 478). Names: Zhou Enlai, Norodom Sihanouk.'
+    n: '[[w.zhou-enlai-waijiao-huodong]], 478 (Sept. 24, 1965; afternoon; Chongqing). The order: after [[cal.1965-09-24.china-leadership-2]], the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 478). The order: after [[cal.1965-09-24.china-leadership-12]], the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 478: the call, then the match, both 下午). Names: Zhou Enlai, Norodom Sihanouk.'
     src:
       c: ca0993e4
       rows:
@@ -6212,6 +6435,33 @@ entries:
       - 1965-09-24T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1965-09-24.china-leadership-12
+    when: Sept. 24
+    date: '1965-09-24'
+    place: chongqing
+    thread: china-zhou-foreign
+    also: [china-leadership]
+    follows:
+      - cal.1965-09-24.china-leadership-2
+    c: Chongqing 重庆. Zhou, with Chen Yi, calls on Sihanouk at his residence.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 24, 1965; "当日又亲往其住地拜会," the same day calls on him at his residence); [[w.zhou-enlai-waijiao-huodong]], 478 (calling on him there in the afternoon); [[w.chen-yi-nianpu]], 1123 (Sept. 24, 1965, 下午, "随同周恩来拜会西哈努克亲王"; the morning, Chen Yi had arrived with Sihanouk from Chengdu). The words: 下午 (1123). Made public: 1993. The order: after [[cal.1965-09-24.china-leadership-2]], [[w.zhou-enlai-nianpu-1949]], 757 ("当日又", the same day). See [[cal.1965-09-24.china-leadership-2]]. Names: Zhou Enlai, Chen Yi, Sihanouk.'
+    tags: [name:zhou-enlai, name:chen-yi, name:norodom-sihanouk, polity:prc, polity:cambodia, vis:only:prc+cambodia]
+    time_band: afternoon
+    time_range:
+      - 1965-09-24T04:00Z
+      - 1965-09-24T10:00Z
+    time_zone: Asia/Shanghai
+  - id: cal.1965-09-24.china-leadership-13
+    when: Sept. 24
+    date: '1965-09-24'
+    place: chongqing
+    thread: china-zhou
+    also: [china-leadership]
+    follows:
+      - cal.1965-09-24.china-leadership-12
+    c: Zhou, told that Chongqing airport does not meet requirements, orders the departments concerned to enlarge and rebuild it and to shorten the road from the airport to town.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 757 (Sept. 24, 1965; the airport "不符合使用要求"). Made public: 1993. The order: after [[cal.1965-09-24.china-leadership-12]], the printed order alone ([[w.zhou-enlai-nianpu-1949]], II, 757; no hour given). See [[cal.1965-09-24.china-leadership-2]]. Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1965-09-25.vietnam-force-levels
     when: Sept. 25
     date: '1965-09-25'

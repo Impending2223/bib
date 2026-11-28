@@ -25,14 +25,19 @@ entries:
         - 'w.macfarquhar-maos-last-revolution 315: 1'
     tags: [polity:prc, name:zhou-enlai, name:chen-yi, name:ye-jianying, name:xu-xiangqian, name:nie-rongzhen, name:mao-zedong, vis:only:prc, name:xiong-xianghui, name:yao-guang]
   - id: cal.1969-06-03.soviet-union-leadership
-    when: June 3–4
+    when: June 3
     date: '1969-06-03'
     place: moscow
     thread: soviet-union-leadership
     also: [comecon]
-    c: Moscow. Before the International Meeting. Brezhnev meets at Vnukovo, June 3, the delegations of the Hungarian, Polish, Bulgarian, Mongolian, East German and Czechoslovak parties; June 4, he negotiates with their leaders, 10 to 1 and 8 to 10 p.m., and at 1, with Podgorny, meets Ceaușescu's Romanian delegation.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 3–4). Made public: 2016. Names: Brezhnev, Podgorny, Ceaușescu.'
-    tags: [name:brezhnev-leonid, name:podgorny-nikolai-v, name:ceausescu-nicolae, polity:ussr, polity:romania, polity:poland, polity:czechoslovakia, polity:gdr, polity:hungary, polity:bulgaria, polity:mongolia, vis:only:ussr+bulgaria+czechoslovakia+gdr+hungary+mongolia+poland+romania]
+    c: Moscow, Vnukovo-2. Before the International Meeting. Brezhnev, with other leaders, meets in turn the delegations of the Hungarian, Polish, Bulgarian, Mongolian, East German and Czechoslovak parties arriving, 5:30 to 10:20 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 3, 17:30 to 22:20, Vnukovo-2; read on the page image at 200 dpi). Made public: 2016. The record gives the talks of June 4 10 to 1:20 and Ceaușescu''s arrival 1:55, where the entry had 10 to 1 and 1. The meeting of the Soviet delegation (June 3), the talks with the heads of delegations (June 4, morning and evening), Ceaușescu''s arrival and the Politburo''s session, which the record times apart, are entries of their own. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, polity:poland, polity:czechoslovakia, polity:gdr, polity:hungary, polity:bulgaria, polity:mongolia]
+    time_range:
+      - 1969-06-03T14:30Z
+      - 1969-06-03T19:20Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1969-06-03.china-leadership
     when: June 3
     date: '1969-06-03'
@@ -90,6 +95,20 @@ entries:
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 215: all'
     tags: [polity:prc, polity:romania]
+  - id: cal.1969-06-03.soviet-union-leadership-2
+    when: June 3
+    date: '1969-06-03'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: 'Moscow. Before the International Meeting. Brezhnev holds a meeting of the CPSU delegation: Podgorny, Kosygin, Kirilenko, Suslov, Katushev, Ponomarev and Rusakov, 10:30 a.m. to 1:15 p.m.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 3, 10:30 to 13:15; read on the page image at 200 dpi). Made public: 2016. See [[cal.1969-06-03.soviet-union-leadership]]. Names: Brezhnev, Podgorny, Kosygin, Kirilenko, Suslov, Katushev, Ponomarev, Rusakov.'
+    tags: [name:brezhnev-leonid, polity:ussr, name:podgorny-nikolai-v, name:kosygin-aleksei, name:kirilenko-andrei-p, name:suslov-mikhail-a, name:katushev-konstantin-f, name:ponomarev-boris-n, name:rusakov, vis:only:ussr]
+    time_range:
+      - 1969-06-03T07:30Z
+      - 1969-06-03T10:15Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1969-06-04.china-leadership
     when: June 4
     date: '1969-06-04'
@@ -110,6 +129,65 @@ entries:
     c: Zhou Enlai meets the heads of the 68th Army to go over their self-criticism report. On July 30, receiving the members of the Xuzhou-Haizhou study class run by the Center, he says the report is good, its direction right, severe on themselves, self-critical, a high posture.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 297 (June 4, 1969). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1969-06-04.soviet-union-leadership
+    when: June 4
+    date: '1969-06-04'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Moscow. Before the International Meeting. Brezhnev negotiates with the heads of the Hungarian, Polish, Bulgarian, Mongolian, East German and Czechoslovak delegations, 10 a.m. to 1:20 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 4, 10:00 to 13:20; read on the page image at 200 dpi). Made public: 2016. See [[cal.1969-06-03.soviet-union-leadership]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, polity:hungary, polity:poland, polity:bulgaria, polity:mongolia, polity:gdr, polity:czechoslovakia, vis:only:ussr+bulgaria+czechoslovakia+gdr+hungary+mongolia+poland+romania]
+    time_range:
+      - 1969-06-04T07:00Z
+      - 1969-06-04T10:20Z
+    time_zone: Europe/Moscow
+    range_basis: record
+  - id: cal.1969-06-04.soviet-union-leadership-2
+    when: June 4
+    date: '1969-06-04'
+    time: 1969-06-04T10:55Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    follows:
+      - cal.1969-06-04.soviet-union-leadership
+    c: Moscow, Vnukovo-2. Brezhnev, with Podgorny, meets the Romanian party delegation under Ceaușescu, arriving for the International Meeting, 1:55 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 4, from 13:55, Vnukovo-2; read on the page image at 200 dpi). Made public: 2016. See [[cal.1969-06-03.soviet-union-leadership]]. Names: Brezhnev, Podgorny, Ceaușescu.'
+    tags: [name:brezhnev-leonid, polity:ussr, name:podgorny-nikolai-v, name:ceausescu-nicolae, polity:romania, vis:only:ussr+romania]
+    time_zone: Europe/Moscow
+  - id: cal.1969-06-04.soviet-union-leadership-3
+    when: June 4
+    date: '1969-06-04'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    follows:
+      - cal.1969-06-04.soviet-union-leadership-2
+    c: 'Moscow, his office in the Central Committee. Brezhnev presides over the Politburo, 6:20 to 7:45 p.m.: Podgorny, Kosygin, Mazurov, Polyansky, Pelshe, Shelepin, Voronov, Andropov, Ustinov, Demichev, Katushev, Kapitonov, Kulakov, Rusakov, Chernenko and Aleksandrov taking part.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 4, 18:20 to 19:45, in his office; read on the page image at 200 dpi). Made public: 2016. See [[cal.1969-06-03.soviet-union-leadership]]. Names: Brezhnev, Podgorny, Kosygin, Mazurov, Polyansky, Pelshe, Shelepin, Voronov, Andropov, Ustinov, Demichev, Katushev, Kapitonov, Kulakov, Rusakov, Chernenko.'
+    tags: [name:brezhnev-leonid, polity:ussr, name:podgorny-nikolai-v, name:kosygin-aleksei, name:mazurov-kirill-t, name:polyansky-dmitri-s, name:pelshe-arvid-y, name:shelepin-aleksandr-n, name:voronov-gennady-i, name:andropov-yuriy-vladimirovich, name:ustinov-dmitriy-f, name:demichev-pyotr-n, name:katushev-konstantin-f, name:kapitonov, name:kulakov, name:rusakov, name:chernenko-konstantin-u, vis:only:ussr]
+    time_range:
+      - 1969-06-04T15:20Z
+      - 1969-06-04T16:45Z
+    time_zone: Europe/Moscow
+    range_basis: record
+  - id: cal.1969-06-04.soviet-union-leadership-4
+    when: June 4
+    date: '1969-06-04'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    follows:
+      - cal.1969-06-04.soviet-union-leadership-3
+    c: Moscow, the Lenin Hills. Before the International Meeting. Brezhnev negotiates with the leaders of the fraternal parties arrived for it, 8 to 10 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 341 (June 4, 20:00 to 22:00, "на Ленгорах"; read on the page image at 200 dpi). Made public: 2016. See [[cal.1969-06-03.soviet-union-leadership]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, vis:only:ussr+bulgaria+czechoslovakia+gdr+hungary+mongolia+poland+romania]
+    time_range:
+      - 1969-06-04T17:00Z
+      - 1969-06-04T19:00Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1969-06-05.soviet-union-leadership
     when: June 5–7
     date: '1969-06-05'
