@@ -512,9 +512,7 @@ def op_tag(series, body, source, report, touched):
     if not hit:
         return
     lst, sec, cur = hit
-    canon = store.polity_canon() or str           # a tag removed by a polity's old id is its new one's (ruling 67)
-    remove = {canon(t) for t in body.get("remove") or []}
-    tags = [t for t in cur.get("tags", []) if canon(t) not in remove]
+    tags = [t for t in cur.get("tags", []) if t not in (body.get("remove") or [])]
     tags += [t for t in body.get("add") or [] if t not in tags]
     new = dict(cur)
     if tags:

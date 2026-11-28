@@ -632,17 +632,8 @@ index</a>.</p></noscript>
 """
 
 
-def stub(title, to, amap, me, lead=None):
-    """A retired page: a line to its index, and the script that forwards its links. lead: the line itself (HTML), where
-    the page did not split but moved (a nation's page under its old id: placepages, STYLE 10)."""
-    t = _stub(title, to, amap, me)
-    if not lead:
-        return t
-    i = t.index("<body><p>") + len("<body><p>")
-    return t[:i] + lead + t[t.index("</p>", i):]
-
-
-def _stub(title, to, amap, me):
+def stub(title, to, amap, me):
+    """A retired page: a line to its index, and the script that forwards its links."""
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>

@@ -1592,5 +1592,3 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 27, 2026, about 10:48 pm PT (Friday, after the pause).** "Shouldn't \"the LBJ Ranch\" dateline read \"LBJ Ranch\"?" (Done for every dateline: ruling 74.)
 
 **Nov. 27, 2026, about 11:00 pm PT (Friday, after the pause), with a picture of `cal.1963-12-25.press-and-broadcasting`.** "What's the parsing issue in the citation block here?" (The note's sentence splitter cut the To check at its ellipsis inside the quoted title; fixed in tools/bib/notemerge.py, 106 notes mended.)
-
-**Nov. 28, 2026, about 10:15 am PT (Saturday).** "Did you default to \"no thread for American Indian affairs\"? Do you need my approval for that?" (Answered: no approval needed; the default reversed, the thread made, its entries to a reader; ruling 75 amended.)

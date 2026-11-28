@@ -170,12 +170,11 @@ def place_pages(series, places=(), units=(), countries=()):
     a city's, a province's, a nation's), each "places-<slug>.html"; {} without a series."""
     if series is None or calendar(series) is None:
         return {}
-    from . import placepages, vis
+    from . import placepages
     got, rows = placepages._by_page(series)
-    nat = {k: ("nation", vis.canon(k)) for k in countries}        # a map's own key that is a polity's old id (ruling 67)
     out = {"p": {k: rows[k]["page"] + ".html" for k in sorted(places) if k in rows},
            "u": {k: got[("province", k)]["page"] + ".html" for k in sorted(units) if ("province", k) in got},
-           "c": {k: got[nat[k]]["page"] + ".html" for k in sorted(countries) if nat[k] in got}}
+           "c": {k: got[("nation", k)]["page"] + ".html" for k in sorted(countries) if ("nation", k) in got}}
     return {k: v for k, v in out.items() if v}
 
 

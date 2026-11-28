@@ -139,7 +139,6 @@ def cmd_find(series, a):
     terms = [store.fold(t) for t in a.terms]
     lists = [resolve_list(series, a.list)] if a.list else list(series.lists.values())
     n = 0
-    canon_q = None
     for l in lists:
         for s, e in l.entries():
             if a.section and a.section not in (s.code, s.id, (s.file or "").rsplit(".", 1)[0]):
@@ -152,11 +151,8 @@ def cmd_find(series, a):
             if a.until and (not d or d[:len(a.until)] > a.until):
                 continue
             if a.tag:
-                if canon_q is None:                       # a polity asked for by its old id (ruling 67)
-                    f = store.polity_canon() or str
-                    canon_q = [f(t) for t in a.tag]
                 tags = all_tags(series, l, s, e)
-                if not all(any(t == x or t.endswith(":") and x.startswith(t) for x in tags) for t in canon_q):
+                if not all(any(t == x or t.endswith(":") and x.startswith(t) for x in tags) for t in a.tag):
                     continue
             if terms:
                 hay = store.fold(" ".join([e["id"]] + [plain(x) for x in [e.get("s"), e.get("r"), e.get("n"), e.get("when")] + store.as_list(e.get("c")) if x]))

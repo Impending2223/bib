@@ -124,9 +124,6 @@ def add_row(body, save=True):
     error or None."""
     global GEN
     row = {k: body[k] for k in ("key", "name", "names", "zone", "st", "in", "kind", "aliases") if body.get(k) not in (None, "")}
-    if "in" in row:                         # a polity by its old id is written with its new one (ruling 67)
-        from . import vis
-        row["in"] = [vis.canon(p) for p in row["in"]] if isinstance(row["in"], list) else vis.canon(row["in"])
     errs = row_problems(row)
     if errs:
         return "; ".join(errs)

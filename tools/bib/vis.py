@@ -156,36 +156,20 @@ def _mtime(p):
 
 def registry():
     """The provenance registry (sources/provenance.yaml), read once a run: {series: [...], frus_volumes, frus_parties,
-    publishers, works}. A polity it names by an old id (a series' `polity`, a document's parties, a publisher's or a
-    work's country) is read as the register's own (aliases; ruling 67)."""
+    publishers, works}."""
     if _cache.get("frozen") and "prov" in _cache:
         return _cache["prov"]
-    k = ("prov", _mtime(PROV), _mtime(POL))
+    k = ("prov", _mtime(PROV))
     if _cache.get("prov_key") != k:
         d = (store.load_yaml(PROV) if os.path.exists(PROV) else None) or {}
         for key in ("series", "frus_volumes", "frus_parties", "publishers", "works"):
             d.setdefault(key, [] if key == "series" else {})
-        A = aliases()
-        if A:
-            c = lambda x: A.get(x, x) if isinstance(x, str) else x
-            for s in d["series"] or []:
-                if isinstance(s, dict) and "polity" in s:
-                    s["polity"] = c(s["polity"])
-                if isinstance(s, dict) and s.get("privity"):
-                    s["privity"] = [c(x) for x in store.as_list(s["privity"])]
-            d["frus_parties"] = {kk: [c(x) for x in store.as_list(v)] for kk, v in (d["frus_parties"] or {}).items()}
-            d["publishers"] = {kk: c(v) for kk, v in (d["publishers"] or {}).items()}
-            for row in (d["works"] or {}).values():
-                if isinstance(row, dict) and "country" in row:
-                    row["country"] = c(row["country"])
         _cache.update(prov_key=k, prov=d)
     return _cache["prov"]
 
 
 def polities():
-    """sources/polities.yaml: {polities, names, places, threads}. A row's `aliases` are its old ids (ruling 67: the
-    nations' tags moved to ISO 3166-1's codes of 1974, the old names kept): a value of the register's own that names
-    a polity by one (a person's, a place's, a thread's polities; `folded`, `then`) is read as the polity's id."""
+    """sources/polities.yaml: {polities, names, places, threads}."""
     if _cache.get("frozen") and "pol" in _cache:
         return _cache["pol"]
     k = ("pol", _mtime(POL))
@@ -193,97 +177,8 @@ def polities():
         d = (store.load_yaml(POL) if os.path.exists(POL) else None) or {}
         for key in ("polities", "names", "places", "threads"):
             d.setdefault(key, {})
-        A = _alias_map(d)
-        if A:
-            _canon_register(d, A)
-        _cache.update(pol_key=k, pol=d, alias_src=d, alias=A)
+        _cache.update(pol_key=k, pol=d)
     return _cache["pol"]
-
-
-def _alias_map(d):
-    """{old id: polity id} from the register's rows' `aliases` (an alias that is itself a row's id is not one)."""
-    P = d.get("polities") or {}
-    out = {}
-    for k, v in P.items():
-        for a in store.as_list((v or {}).get("aliases") if isinstance(v, dict) else None):
-            if a is not None and str(a) not in P:
-                out[str(a)] = str(k)
-    return out
-
-
-def _canon_register(d, A):
-    """The register's values in its own ids (polities): an old id, where a row still writes one, read as the new."""
-    c = lambda x: A.get(x, x) if isinstance(x, str) else x
-    for v in d["polities"].values():
-        if isinstance(v, dict):
-            for f in ("folded", "then"):
-                if f in v:
-                    v[f] = c(v[f])
-
-    def pols(v):
-        if isinstance(v, dict):
-            if "polities" in v:
-                v["polities"] = [c(x) for x in store.as_list(v["polities"])]
-            return v
-        return [c(x) for x in store.as_list(v)] if isinstance(v, list) else c(v)
-    for sec in ("places", "threads"):
-        d[sec] = {kk: pols(v) for kk, v in (d[sec] or {}).items()}
-    for kk, v in (d["names"] or {}).items():
-        if isinstance(v, str):
-            d["names"][kk] = c(v)
-        elif isinstance(v, dict) and "polity" in v:
-            v["polity"] = c(v["polity"])
-        elif isinstance(v, list):
-            for r in v:
-                if isinstance(r, dict) and "polity" in r:
-                    r["polity"] = c(r["polity"])
-
-
-def aliases():
-    """{old id: polity id}: the register's `aliases` (ruling 67), {} where it has none. Read wherever a tag or a row
-    names a polity, so that a tag or a patch written with an old id (`polity:frg`) means the polity (`polity:de`)."""
-    P = polities()
-    if _cache.get("alias_src") is not P:          # a register handed in whole (a test's) is read for its aliases too
-        _cache.update(alias_src=P, alias=_alias_map(P))
-    return _cache["alias"]
-
-
-def canon(pid):
-    """A polity id as the register now writes it: an old id (an alias) -> its polity's id; anything else as it is."""
-    if pid is None:
-        return None
-    s = str(pid)
-    return aliases().get(s, s)
-
-
-def tag_canon():
-    """A function: a tag -> the same tag in the register's own ids (`polity:frg` -> `polity:de`, `vis:only:ussr+frg@A`
-    -> `vis:only:ussr+de@A`, `vis:from:frg:1962-02-10` -> `vis:from:de:1962-02-10`), any other tag as it is; None
-    where the register has no aliases (nothing to change). store.normalize_entry reads every entry's tags through
-    it, on loading and on merging, so an old id never reaches a reader, and the file holds the new one once saved."""
-    A = aliases()
-    if not A:
-        return None
-
-    def f(t):
-        t = str(t)
-        if t.startswith("polity:"):
-            k = t[7:]
-            return "polity:" + A[k] if k in A else t
-        if t.startswith("vis:"):
-            m = RULE_RX.match(t)
-            if m and any(p in A for p in m.group(2).split("+")):
-                kind, ps, day, us = m.groups()
-                return (f"vis:{kind}:" + "+".join(A.get(p, p) for p in ps.split("+")) + (f":{day}" if day else "")
-                        + (f"@{us}" if us else ""))
-        return t
-    return f
-
-
-def canon_tag(tag):
-    """One tag in the register's own ids (tag_canon)."""
-    f = tag_canon()
-    return f(tag) if f else str(tag)
 
 
 class held:
@@ -302,12 +197,12 @@ class held:
 
 
 def is_org(pid):
-    return bool((polities()["polities"].get(canon(pid)) or {}).get("org"))
+    return bool((polities()["polities"].get(pid) or {}).get("org"))
 
 
 def tag_code(pid):
-    p = polities()["polities"].get(canon(pid)) or {}
-    return p.get("tag") or str(canon(pid)).upper()
+    p = polities()["polities"].get(pid) or {}
+    return p.get("tag") or str(pid).upper()
 
 
 def order_key(pid):
@@ -353,7 +248,7 @@ def place_polities(tag):
         from . import places                           # Nov. 26, 2026: `city:*` alone made Berlin and Manila American)
         row = places.get(tag[5:])
         if row is not None:
-            v = ["us"] if row.get("st") else [canon(x) for x in store.as_list(row.get("in")) if x]
+            v = ["us"] if row.get("st") else [x for x in store.as_list(row.get("in")) if x]
     if v is None and ":" in tag:
         v = P.get(tag.split(":", 1)[0] + ":*")
     if isinstance(v, dict):
@@ -541,7 +436,7 @@ def from_card(series, cid, event, addressed):
     privity = set()
     if kind in PRIVY_KINDS:
         for a in store.as_list(row.get("agent")):
-            p = person_polity(a, event) if not canon(a) in polities()["polities"] else canon(a)
+            p = person_polity(a, event) if not str(a) in polities()["polities"] else a
             if p and not is_org(p) and not person_private(str(a), event):
                 privity.add(p)
     basis = "works"
@@ -616,10 +511,10 @@ def from_witness(series, wid, event, addressed):
     if k in ("memoir", "scholarship", "diary", "oral history", "document series") and public is None:
         public = "?"
     if w.get("circulated"):         # `circulated: prc`: briefly available then suppressed, or a small-batch printing
-        return W(wid, k, canon(w["circulated"]), None, privity, "witnesses")   # (R27 revised, the owner, Nov. 21, 2026):
+        return W(wid, k, str(w["circulated"]), None, privity, "witnesses")   # (R27 revised, the owner, Nov. 21, 2026):
                                     # not publication anywhere; the record dates the act, nothing more
     if w.get("local"):              # `local: prc`, a Red Guard printing (R27): public from its date there only
-        out = W(wid, k, canon(w["local"]), d, privity, "witnesses")
+        out = W(wid, k, str(w["local"]), d, privity, "witnesses")
         out["local"] = True
         return out
     return W(wid, k, pub, public, privity if k != "official" else privity, "witnesses")
@@ -737,8 +632,6 @@ def unit_ties(tags, text):
         if not parts:
             continue
         cands = {parts[0], parts[-1]} if ns == "name" else {" ".join(parts)}
-        if ns == "polity":                      # a nation's old id too (ruling 67): "cuba" ties where `cu` cannot
-            cands |= {a.replace("-", " ") for a, p in aliases().items() if p == canon(k)}
         if any(len(c) >= 3 and f" {c} " in t for c in cands):
             out.append(g)
     return out
@@ -760,7 +653,7 @@ def tag_polities(tags, date):
             addr += ps
             terr += ps
         elif ns == "polity" and k and not is_org(k):
-            addr.append(canon(k))
+            addr.append(k)
     u = lambda xs: sorted(set(xs), key=order_key)
     return u(addr), u(terr), u(agency)
 
@@ -835,7 +728,7 @@ def rulings(e):
         units = _units(us, e) if us else None
         if us and units is None:
             continue
-        out.append({"kind": kind, "pols": {canon(p) for p in pols.split("+")}, "date": day, "units": units})
+        out.append({"kind": kind, "pols": set(pols.split("+")), "date": day, "units": units})
     return out
 
 
@@ -1132,7 +1025,7 @@ def ruling_problems(e, cls):
         if not m or (m.group(1) == "from") != bool(m.group(3)) or (m.group(4) and _units(m.group(4), e) is None):
             out.append(f"{t}: not a ruling (vis.py STYLE 8)")
             continue
-        bad = sorted(p for p in m.group(2).split("+") if canon(p) not in pols)
+        bad = sorted(p for p in m.group(2).split("+") if p not in pols)
         if bad:
             out.append(f"{t}: no such polity {', '.join(bad)} (sources/polities.yaml)")
         us = _units(m.group(4), e) if m.group(4) else set()
