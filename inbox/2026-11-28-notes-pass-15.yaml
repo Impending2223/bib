@@ -1,6 +1,155 @@
 patch: 2026-11-28-notes-pass-15
-by: Claude (Sonnet), notes pass 15, Nov. 28, 2026
+by: Claude (Sonnet), notes pass 15, Nov. 28, 2026; audited and corrected by Claude (Opus), Nov. 28, 2026 (notes/notes-pass/audit-15.md)
 ops:
+- edit:
+    id: cal.1966-07-02.china-leadership-3
+    base: 94c4b4c9
+    set:
+      time_range:
+      - 1966-07-02T04:00Z
+      - 1966-07-02T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1966-07-25.china-leadership
+    base: 248df5b3
+    set:
+      time_range:
+      - 1966-07-24T22:00Z
+      - 1966-07-25T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1966-08-02.china-leadership-2
+    base: 4aa12e17
+    set:
+      time_range:
+      - 1966-08-02T11:00Z
+      - 1966-08-02T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1966-08-05.open-housing
+    base: bdaabf8e
+    set:
+      time: 1966-08-05T22:00Z
+      time_zone: America/Chicago
+- edit:
+    id: cal.1966-08-31.china-leadership-6
+    base: 2e02db32
+    set:
+      time: 1966-08-31T14:30Z
+      time_approx: true
+      time_zone: Asia/Shanghai
+    unset:
+    - time_range
+    - time_band
+- edit:
+    id: cal.1966-10-18.china-leadership
+    base: 963ba4f0
+    set:
+      time_range:
+      - 1966-10-18T04:00Z
+      - 1966-10-18T07:00Z
+      time_zone: Asia/Shanghai
+      range_basis: record
+    unset:
+    - time_band
+- edit:
+    id: cal.1967-01-01.china-leadership-2
+    base: 078cd54e
+    set:
+      time: 1966-12-31T19:00Z
+      time_approx: true
+      time_zone: Asia/Shanghai
+- edit:
+    id: cal.1966-05.china-leadership-5
+    base: 3779db78
+    set:
+      gloss:
+        title: Commentary
+        text:
+        - 'Yang Jisheng (2016): the verdict that made Ulanhu head of an anti-Party clique of "national splitting" was Liu Shaoqi''s and Deng Xiaoping''s; whether it was Mao''s decision awaits the records
+          ([[w.yang-jisheng-tiandi-fanfu]], II, 620).'
+- edit:
+    id: cal.1966-06-12.china-leadership
+    base: ac92b136
+    set:
+      gloss:
+        title: Commentary
+        text:
+        - 'Li Dazhang (Oct. 22, 1968), at the Twelfth Plenum''s fourth group: at the Hangzhou meeting of June 12 he heard Mao''s instruction on the colleges'' work groups, not to send them, to send few,
+          to send late ([[w.pu-weihua-zalan-jiu-shijie]], 154 n.100).'
+        - 'Jiang Weiqing (1996), in his memoir: the Center relayed the points of Mao''s talks of June 10 and 12 with Liu Shaoqi, Deng Xiaoping and others: the schools to seize power, the universities first;
+          a blow at 5 percent not few; naming in the papers to be careful, but no province or city may name nobody; no haste to send work groups, a "free-for-all" for some months ([[w.pu-weihua-zalan-jiu-shijie]],
+          154 n.100).'
+        - 'Pu Weihua (2008): the talk is unpublished; its gist is known from later accounts ([[w.pu-weihua-zalan-jiu-shijie]], 154 n.100).'
+- edit:
+    id: cal.1966-07.china-leadership-8
+    base: f5ec9a70
+    set:
+      gloss:
+        title: Commentary
+        text:
+        - 'Dikötter (2016): the visit "a direct snub" to Wang Guangmei, who had condemned Kuai Dafu as a "rightist" ([[w.dikotter-cultural-revolution]], 67).'
+- edit:
+    id: cal.1966-08-05.china-leadership-4
+    base: cbdeb30e
+    set:
+      gloss:
+        title: Commentary
+        text:
+        - 'Pu Weihua (2008): the sentence struck on Aug. 5 was Mao''s signal that Liu Shaoqi was to be removed, and Wang Li, then of the Cultural Revolution Group, noticed it ([[w.pu-weihua-zalan-jiu-shijie]],
+          201).'
+- edit:
+    id: cal.1966-08-25.china-leadership-3
+    base: 59cec628
+    set:
+      gloss:
+        title: Commentary
+        text:
+        - 'The General Staff''s Party committee (Jan. 15, 1979), summing up its "three checks and three rectifications," as Yang Jisheng gives it: the "Aug. 25 counterrevolutionary incident" was a plot
+          of Lin Biao and the "gang of four" to strike down He Long; the General Staff''s chief, Yang Chengwu, carried out Lin''s "black instruction" ([[w.yang-jisheng-tiandi-fanfu]], II, 1043).'
+- edit:
+    id: cal.1966-11-29.china-leadership
+    base: ebd011bd
+    set:
+      gloss:
+        title: Commentary
+        text:
+        - 'Teiwes and Sun (1996): He Long''s absence "undoubtedly the result of" Jiang Qing''s protest at his part in the first rally, not of anything Lin Biao did ([[w.teiwes-tragedy-of-lin-biao]], 36).'
+- edit:
+    id: cal.1966-12-04.china-leadership
+    base: a1b892a2
+    set:
+      gloss:
+        title: Commentary
+        text:
+        - 'Wang Nianyi (1988), as Teiwes and Sun give him: Lin''s summing-up of Dec. 6 "obviously not merely an individual opinion" but Mao''s intention, and in substance "passive and perfunctory" ([[w.teiwes-tragedy-of-lin-biao]],
+          69).'
+- edit:
+    id: cal.1966.china-leadership-90
+    base: dd740d42
+    set:
+      gloss:
+        title: Commentary
+        text:
+        - 'Li Xuefeng, writing in his last years, as his daughter Li Danlin printed it (2002) and Pu Weihua gives it: the North China meeting ran from May 23 to July 20; the Bureau kept reporting to the
+          Center, and "two leading comrades of the Center" together talked one by one with Ulanhu and Lin Tie, under criticism, pointing to their "problems" and criticizing their "errors"; the Bureau answers
+          for the meeting''s errors ([[w.pu-weihua-zalan-jiu-shijie]], 105, 106 n.33).'
+- place:
+    id: cal.1966-09-30.china-leadership
+    at: peking
+    basis: n
+- place:
+    id: cal.1967-01-01.china-leadership-2
+    at:
+    - peking
+    - shanghai
+    basis: c
 - add-words:
     id: cal.1966-02-20.china-leadership-3
     after: end
@@ -16,23 +165,12 @@ ops:
 - add-words:
     id: cal.1966-03-17.china-leadership-2
     after: end
-    words: The summary was drafted early in February at Shanghai by Jiang Qing with men of the General Political Department, then rewritten by Zhang Chunqiao and Chen Boda. Lin Biao writes to the Commission's
-      Standing Committee for its views.
-    item: '[[w.peng-zhen-nianpu-1902]], IV, 474'
-- names:
-    id: cal.1966-03-17.china-leadership-2
-    add:
-    - Zhang Chunqiao
-    - Chen Boda
-    tags:
-    - name:zhang-chunqiao
-    - name:chen-boda
-- add-words:
-    id: cal.1966-03-17.china-leadership-2
-    after: end
     words: 'On the second draft Mao makes ten or so small changes: cuts "everyone agreed it was a short training course"; the army''s "leading role" in the cultural revolution becomes "an important role";
       one "Chairman Mao" becomes "the Party Center"; cuts a line on holding high the great red banner of Mao Zedong Thought; adds a last line, the record for the leading comrades'' reference only.'
     item: '[[w.pu-weihua-zalan-jiu-shijie]], 46'
+- cite:
+    id: cal.1966-03-22.china-leadership-5
+    item: '[[w.peng-zhen-nianpu-1902]], IV, 474'
 - add-words:
     id: cal.1966-03-31.transition-and-staff
     after: Bundy had left Feb. 28, Komer acting since.
@@ -76,22 +214,8 @@ ops:
 - add-words:
     id: cal.1966-04-16.china-leadership-8
     after: end
-    words: The new comment is nearly three times as long; it stresses that the summary went through three revisions by Mao himself. Jiang Qing, shown it, has Zhang Chunqiao, Liu and Chen go over it; nothing
-      changes. Liu hands it to Zhou at Shanghai Apr. 30.
-    item: '[[w.pu-weihua-zalan-jiu-shijie]], 48–49'
-- names:
-    id: cal.1966-04-16.china-leadership-8
-    add:
-    - Jiang Qing
-    - Zhang Chunqiao
-    tags:
-    - name:jiang-qing
-    - name:zhang-chunqiao
-- add-words:
-    id: cal.1966-04-27.soviet-union-leadership
-    after: end
-    words: By the editors' count the quake brought down 28 to 36 thousand buildings and left over 300,000 people homeless; the Politburo set up the commission Apr. 26.
-    item: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 170 n.3'
+    words: The new note is nearly three times as long.
+    item: '[[w.pu-weihua-zalan-jiu-shijie]], 49'
 - add-words:
     id: cal.1966-05-03.elections-1966
     after: In Dallas County, Ala., Sheriff Clark loses the nomination to Wilson Baker, public safety director of Selma, Ala.
@@ -104,24 +228,15 @@ ops:
     tags:
     - name:doar-john
 - add-words:
-    id: cal.1966-05-03.elections-1966
-    after: end
-    words: 'King, in Birmingham: "white Alabamians are desperately grasping for a way to return to the old days of white supremacy." Carmichael, primary night: the Lowndes County blacks will take power
-      and rule; "Nonviolence is irrelevant."'
-    item: '[[w.branch-at-canaans-edge]], 464'
-- names:
-    id: cal.1966-05-03.elections-1966
-    add:
-    - King
-    - Carmichael
-    tags:
-    - name:king-martin-luther-jr
-    - name:carmichael-stokely
-- add-words:
     id: cal.1966-05-07.china-leadership
     after: 'Mao to Lin Biao, on the General Logistics Department''s report of May 6 on army farming (4 to 5 billion catties of grain in three to five years): a very good plan.'
-    words: The report is Qiu Huizuo's Logistics Department's, which Lin passed to Mao for approval; the grain would be a year's rations for some 7 or 8 million men.
+    words: The report is Qiu Huizuo's Logistics Department's, which Lin passed to Mao for approval.
     item: '[[w.teiwes-tragedy-of-lin-biao]], 60'
+- add-words:
+    id: cal.1966-05-07.china-leadership
+    after: The report is Qiu Huizuo's Logistics Department's, which Lin passed to Mao for approval.
+    words: The grain would be a year's rations for some 7 or 8 million men.
+    item: '[[w.pu-weihua-zalan-jiu-shijie]], 106'
 - names:
     id: cal.1966-05-07.china-leadership
     add:
@@ -155,9 +270,8 @@ ops:
 - add-words:
     id: cal.1966-05-28.china-leadership
     after: end
-    words: The group stands under the Politburo Standing Committee. Four more members, from North China, the Northeast, the Northwest and the Southwest, are to be named later; the bureaus then propose Guo
-      Yingqiu, Zheng Jiqiao, Yang Zhilin and Liu Wenzhen, who attend some meetings, but the Center issues no notice confirming them.
-    item: '[[w.pu-weihua-zalan-jiu-shijie]], 117 & n.51'
+    words: The group stands under the Politburo Standing Committee. Four more members, from North China, the Northeast, the Northwest and the Southwest, are to be named later.
+    item: '[[w.pu-weihua-zalan-jiu-shijie]], 117'
 - names:
     id: cal.1966-05-28.china-leadership
     add:
@@ -178,24 +292,21 @@ ops:
 - add-words:
     id: cal.1966-05.china-leadership-5
     after: end
-    words: The North China Bureau meeting opens May 21 at the Qianmen Hotel, Peking, with 146 Inner Mongolia leaders of the Party, government and army. It makes Ulanhu a "three-anti element," with the error
-      of national splitting. By Yang Jisheng the verdict is Liu Shaoqi's and Deng Xiaoping's; whether Mao decided it awaits records.
+    words: At the North China Bureau's meeting at the Qianmen Hotel, Peking, opened May 21, with 146 Inner Mongolia leaders of the Party, government and army, Ulanhu is made a "three-anti element," with
+      the error of national splitting.
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 620'
 - names:
     id: cal.1966-05.china-leadership-5
     add:
     - Ulanhu
-    - Liu Shaoqi
-    - Deng Xiaoping
     tags:
     - name:ulanhu
-    - name:liu-shaoqi
-    - name:deng-xiaoping
 - add-words:
     id: cal.1966-05.china-leadership-5
     after: end
-    words: 'The meeting, chaired by Li Xuefeng, has the Inner Mongolia group concentrate its fire on Ulanhu. Its ground: the Center''s 1935 "Declaration to the people of Inner Mongolia," reprinted in the
-      1964 Four Cleanups, now called "national splitting" and betraying the Party and the country. Someone asks why he did not treat the Inner Mongolian People''s Revolutionary Party as a reactionary party.'
+    words: 'The meeting, chaired by Li Xuefeng, has the Inner Mongolia group concentrate its fire on Ulanhu. Its ground: the 1935 "Declaration to the people of Inner Mongolia," issued in Mao''s name and
+      reprinted in the 1964 Four Cleanups, now called "national splitting" and betraying the Party and the country. Someone asks why he did not treat the Inner Mongolian People''s Revolutionary Party as
+      a reactionary party.'
     item: '[[w.pu-weihua-zalan-jiu-shijie]], 103'
 - names:
     id: cal.1966-05.china-leadership-5
@@ -203,26 +314,22 @@ ops:
     - Li Xuefeng
     tags:
     - name:li-xuefeng
+- variant:
+    id: cal.1966-05.china-leadership-5
+    'on': At the North China Bureau's meeting at the Qianmen Hotel, Peking, opened May 21, with 146 Inner Mongolia leaders of the Party, government and army, Ulanhu is made a "three-anti element," with
+      the error of national splitting.
+    witness: w.pu-weihua-zalan-jiu-shijie
+    reads: 143 come from Inner Mongolia to the meeting (146 in the Inner Mongolia gazetteer, 103 n.30)
+    at: '103'
 - add-words:
     id: cal.1966-06-06.mississippi
     after: end
-    words: 'Norvell fires three times with a 16-gauge shotgun and surrenders, still smoking his pipe; the DeSoto County sheriff says he appears intoxicated. The AP''s bulletin of Meredith''s death, 6:33
-      p.m., is corrected at 7:08. Johnson, within the hour, from his ranch in Texas: "an awful act of violence." Katzenbach holds an evening press conference on federal prosecution under the Voting Rights
-      Act. CORE is the first to vow to take up the march.'
+    words: Norvell fires three times with a 16-gauge automatic shotgun and surrenders, still smoking his pipe; the DeSoto County sheriff says he appears intoxicated.
     item: '[[w.branch-at-canaans-edge]], 475–76'
-- names:
-    id: cal.1966-06-06.mississippi
-    add:
-    - Johnson
-    - Katzenbach
-    tags:
-    - name:johnson-lyndon-b
-    - name:katzenbach-nicholas
 - add-words:
     id: cal.1966-06-12.china-leadership
     after: end
-    words: 'The talk is unpublished; later accounts give its gist. Jiang Weiqing''s memoir has the Center pass on the points of Mao''s talks of June 10 and 12 with Liu Shaoqi, Deng Xiaoping and others,
-      among them: naming in the papers to be careful, but no province or city may name nobody. Li Dazhang, in 1968, recalls hearing Mao at Hangzhou on the 12th: send none, send few, send late.'
+    words: Liu Shaoqi, Deng Xiaoping and other leaders of the Center are with him, by Jiang Weiqing's account.
     item: '[[w.pu-weihua-zalan-jiu-shijie]], 154 n.100'
 - names:
     id: cal.1966-06-12.china-leadership
@@ -232,11 +339,17 @@ ops:
     tags:
     - name:liu-shaoqi
     - name:deng-xiaoping
+- names:
+    id: cal.1966-06-12.china-leadership
+    add:
+    - Jiang Weiqing
+    tags:
+    - name:jiang-weiqing
 - add-words:
     id: cal.1966-06-21.mississippi
     after: end
-    words: 'At the courthouse King says: "I believe in my heart that the murderers are somewhere around me at this moment." Some 25 white men surge over the television men and into the line; police step
-      in only after half a dozen Negroes fight back. That night riders fire into the Negro neighborhood.'
+    words: 'At the courthouse King says: "I believe in my heart that the murderers are somewhere around me at this moment." On the way back, as the *New York Times*''s Roy Reed saw it, some 25 white men
+      surge over the television men and into the line; the police step in only after half a dozen Negroes fight back.'
     item: '[[w.branch-at-canaans-edge]], 487–88'
 - add-words:
     id: cal.1966-06-21.mississippi
@@ -282,13 +395,17 @@ ops:
     after: end
     words: Dikötter lists the charges as "using production to replace class struggle," ethnic splittism, "an independent kingdom," revisionism and "opposing Chairman Mao."
     item: '[[w.dikotter-cultural-revolution]], 190 n.16'
+- names:
+    id: cal.1966-07-02.china-leadership-3
+    add:
+    - Li Weihan
+    tags:
+    - name:li-weihan
 - add-words:
     id: cal.1966-07-12.open-housing
     after: end
-    words: 'King and Mahalia Jackson get six battered youths freed at the 12th District station; at Shiloh Baptist King preaches against riots and halfhearted reform. Daley, who had called it "juvenile
-      incidents," asks for the Guard, blaming King''s staff; King, Raby and Archbishop Cody go to City Hall, and Daley agrees to ten portable pools and sprayers on the hydrants. Four thousand Guardsmen
-      arrive late July 15. The two dead: a pregnant girl of fourteen and a man of twenty-eight, shot in the back.'
-    item: '[[w.branch-at-canaans-edge]], 502–4'
+    words: 'The two dead: a pregnant girl of fourteen and a man of twenty-eight, shot in the back.'
+    item: '[[w.branch-at-canaans-edge]], 503'
 - names:
     id: cal.1966-07-12.open-housing
     add:
@@ -302,12 +419,18 @@ ops:
     item: '[[w.kotz-judgment-days]], 365'
 - check:
     id: cal.1966-07-12.open-housing
-    text: 'Check: Branch gives eighty seriously hurt and some five hundred arrested, the Guard''s arrival late Friday, July 15, and $2 million in property damage (504).'
+    text: 'Check: Branch gives two dead, eighty seriously hurt, six police officers wounded by gunfire among them, some five hundred arrested and $2 million in property damage (504).'
+- variant:
+    id: cal.1966-07-12.open-housing
+    'on': more than 30 hurt;
+    witness: w.branch-at-canaans-edge
+    reads: eighty serious injuries, six police officers wounded by gunfire among them
+    at: '504'
 - add-words:
     id: cal.1966-07-20.vietnam-air-war
     after: end
-    words: Westmoreland, with his staff, devises it and asks Momyer, the new Seventh Air Force commander, for a plan; Momyer's staff briefs him July 19. The area is the southernmost sector of North Vietnam's
-      Route Package I, from the DMZ some thirty miles north to the Dai Giang River.
+    words: Westmoreland, with his staff, devises it and asks Momyer, the new Seventh Air Force commander, for a plan. The area is the southernmost sector of North Vietnam's Route Package I, from the DMZ
+      some thirty miles north to the Dai Giang River.
     item: '[[w.staaveren-u-s-air-force]], 152–53'
 - names:
     id: cal.1966-07-20.vietnam-air-war
@@ -317,12 +440,6 @@ ops:
     tags:
     - name:momyer-william-w
     - name:westmoreland-william
-- add-words:
-    id: cal.1966-07-20.vietnam-air-war
-    after: end
-    words: By Nov. 30, air analysts count 72 trucks destroyed and 61 damaged, 1,208 structures and 624, 85 watercraft and 132, 22 gun positions and 92; 139 troops killed by air, 339 roads cut, 1,414 secondary
-      explosions.
-    item: '[[w.staaveren-u-s-air-force]], 158'
 - add-words:
     id: cal.1966-07-23.china-leadership
     after: end
@@ -339,9 +456,23 @@ ops:
 - add-words:
     id: cal.1966-07-25.china-leadership
     after: end
-    words: 'The Center''s regional bureau first secretaries, in Peking for the plenum''s preparatory meeting, join. Mao: no surrounding of newspaper offices, provincial committees or the State Council,
-      and no coming to the Center; leaders must go down. His first four days in Peking he leaned toward keeping Zhang Chengxian, then did not approve. Told the work groups are mostly good, some from the
-      army: "can you?" -- he cannot either. Told that four or five of the seven who put up the first poster now do not back Nie Yuanzi: split if it splits; this is politics, she fired the first shot.'
+    words: The secretaries of the Center's regional bureaus, in Peking for the plenum's preparatory meeting, join.
+    item: '[[w.pu-weihua-zalan-jiu-shijie]], 176'
+- add-words:
+    id: cal.1966-07-25.china-leadership
+    after: The secretaries of the Center's regional bureaus, in Peking for the plenum's preparatory meeting, join.
+    words: 'Mao: forbidding the masses to besiege newspaper offices, provincial committees or the State Council, or to come to the Center, obstructs their revolution. Leaders busy every day with routine
+      who do not go down have no first-hand knowledge and cannot lead the movement.'
+    item: '[[w.pu-weihua-zalan-jiu-shijie]], 176'
+- cite:
+    id: cal.1966-07-25.china-leadership
+    item: '[[w.zhou-enlai-nianpu-1949-2020]], III, 41'
+    'on': 'Mao: forbidding the masses … cannot lead the movement.'
+- add-words:
+    id: cal.1966-07-25.china-leadership
+    after: Leaders busy every day with routine who do not go down have no first-hand knowledge and cannot lead the movement.
+    words: 'His first four days back in Peking he leaned toward keeping Zhang Chengxian, then did not approve. Told the work groups are mostly good, some from the army: "can you?"; he cannot either. Told
+      that four or five of the seven who put up the first poster no longer back Nie Yuanzi: let it split; this is politics, she fired the first shot.'
     item: '[[w.pu-weihua-zalan-jiu-shijie]], 176–77'
 - names:
     id: cal.1966-07-25.china-leadership
@@ -354,7 +485,7 @@ ops:
 - add-words:
     id: cal.1966-07-26.china-leadership
     after: The enlarged Politburo meeting decides to withdraw the work groups.
-    words: Tao Zhu conveys the substance of Mao's talks of the two days before. The Cultural Revolution Group drafts the withdrawal decision the next day, and Mao revises it himself.
+    words: Tao Zhu conveys the substance of Mao's talks of the two days before.
     item: '[[w.pu-weihua-zalan-jiu-shijie]], 178'
 - names:
     id: cal.1966-07-26.china-leadership
@@ -376,6 +507,12 @@ ops:
     tags:
     - name:zhou-enlai
     - name:lin-biao
+- variant:
+    id: cal.1966-07-27.china-leadership-8
+    'on': Deng Xiaoping 邓小平 drafts the Peking 北京 municipal committee's "Decision on withdrawing the work teams from all the colleges" 《关于撤销各大专学校工作组的决定》.
+    witness: w.pu-weihua-zalan-jiu-shijie
+    reads: the Cultural Revolution Group drafts the decision the day after the meeting of July 26, and Mao revises it himself
+    at: '178'
 - add-words:
     id: cal.1966-07-29.china-leadership
     after: end
@@ -429,22 +566,8 @@ ops:
 - add-words:
     id: cal.1966-07-31.jobs-and-wages-airlines
     after: end
-    words: The parties had reached the agreement the evening of July 29, just "within the general framework" of the Morse board's report. Johnson, at Camp David, has Califano call union and political leaders
-      in the West to urge approval while machinists in the East vote to reject it; the calls fail and the members overwhelmingly reject the contract.
-    item: '[[w.califano-triumph-and-tragedy-of]], 145–46'
-- names:
-    id: cal.1966-07-31.jobs-and-wages-airlines
-    add:
-    - Johnson
-    - Califano
-    tags:
-    - name:johnson-lyndon-b
-    - name:califano-joseph-a-jr
-- add-words:
-    id: cal.1966-07-31.jobs-and-wages-airlines
-    after: end
-    words: 'Lady Bird Johnson: the settlement, celebrated on Friday, came unglued Sunday.'
-    item: '[[w.johnson-white-house-diary]], 400'
+    words: The members reject it overwhelmingly.
+    item: '[[w.califano-triumph-and-tragedy-of]], 146'
 - add-words:
     id: cal.1966-07.china-leadership-8
     after: end
@@ -453,16 +576,14 @@ ops:
 - add-words:
     id: cal.1966-07.china-leadership-8
     after: end
-    words: By Dikötter it is Chen Boda who sends the two members of the Group; the visit is a direct snub to Wang Guangmei, who had condemned Kuai as a rightist.
+    words: By Dikötter it is Chen Boda who sends the two.
     item: '[[w.dikotter-cultural-revolution]], 67'
 - names:
     id: cal.1966-07.china-leadership-8
     add:
     - Chen Boda
-    - Wang Guangmei
     tags:
     - name:chen-boda
-    - name:wang-guangmei
 - variant:
     id: cal.1966-07.china-leadership-8
     field: date
@@ -473,8 +594,7 @@ ops:
 - add-words:
     id: cal.1966-08-02.china-leadership
     after: end
-    words: 'The afternoon plenary is in the East Hall of the Great Hall, Liu presiding; Li Xuefeng, Bo Yibo and Zhou speak in turn. Li Xuefeng makes a self-criticism: Peking made a serious error of direction
-      in a little over a month, a right opportunist line ruled by fear of the masses and of revolution.'
+    words: The afternoon plenary is in the East Hall of the Great Hall, Liu Shaoqi presiding; Li Xuefeng and Bo Yibo speak before Zhou.
     item: '[[w.pu-weihua-zalan-jiu-shijie]], 189'
 - names:
     id: cal.1966-08-02.china-leadership
@@ -492,12 +612,16 @@ ops:
     words: 'Zhou calls the political line the center of it all: whether to dare to struggle against revisionism and the capitalist roaders by mobilizing the masses. He urges the determination to rebel by
       joining the masses; it may bring Peking into disorder for a time, but fear is not compatible with Mao''s thought.'
     item: '[[w.jian-zhou-enlai]], 549'
+- follows:
+    id: cal.1966-08-02.china-leadership
+    add:
+    - cal.1966-08-02.china-leadership-12
+    basis: '[[w.pu-weihua-zalan-jiu-shijie]], 189 (李雪峰、薄一波、周恩來等先後發言)'
 - add-words:
     id: cal.1966-08-02.china-leadership-2
     after: end
-    words: 'At midnight on Aug. 1 he had told the Peking first secretary, Li Xuefeng, that he wanted to look into a school where the work team had been withdrawn. He comes escorted by cadres including Li
-      Xuefeng and Qi Benyu, who notes what he says. It is the first of three evenings, Aug. 2, 3 and 4: Liu tries to find what the work team did wrong and to make sense of the struggle at the college between
-      the "Revolution Corps" and the "August 1 Corps."'
+    words: He comes that evening, after last-minute arrangements, escorted by cadres including Li Xuefeng and Qi Benyu, who notes what he says. He tries to find what the work team did wrong and to make
+      sense of the struggle at the college between the "Revolution Corps" and the "August 1 Corps."
     item: '[[w.macfarquhar-maos-last-revolution]], 88'
 - names:
     id: cal.1966-08-02.china-leadership-2
@@ -510,7 +634,7 @@ ops:
 - add-words:
     id: cal.1966-08-03.open-housing
     after: end
-    words: The amendment, in its final form, exempts 60 percent of the nation's housing stock. Celler, for the bill's liberals, says the all-or-nothing approach "produces nothing except a slogan."
+    words: 'The amendment, in its final form, exempts 60 percent of the nation''s housing stock. Celler: "the all-or-nothing approach produces nothing except a slogan."'
     item: '[[w.zelizer-fierce-urgency-of-now]], 244'
 - names:
     id: cal.1966-08-03.open-housing
@@ -521,7 +645,7 @@ ops:
 - add-words:
     id: cal.1966-08-05.china-leadership-4
     after: end
-    words: 'His notes to Kang Sheng: Aug. 5, revised well, he strikes only one sentence, on p. 5; Aug. 9, afternoon, some changes for Kang to weigh, the rest agreed; Aug. 11, it may be printed so.'
+    words: 'His note to Kang Sheng, Aug. 5: revised well; he has struck only one sentence, on p. 5.'
     item: '[[w.jianguo-yilai-mao-zedong]], XVIII, 307'
 - names:
     id: cal.1966-08-05.china-leadership-4
@@ -530,17 +654,18 @@ ops:
     tags:
     - name:kang-sheng
 - add-words:
-    id: cal.1966-08-05.china-leadership-4
+    id: cal.1966-08-12.china-leadership
     after: end
-    words: Pu Weihua reads the struck sentence as a signal that Mao means to remove Liu Shaoqi; Wang Li, of the Cultural Revolution Group, notices it. The plenum adopts the communiqué on Aug. 12 by a show
-      of hands, Kang Sheng reading it out and explaining it.
+    words: The communiqué is adopted by a show of hands, all those attending voting, as Lin Biao announces; Kang Sheng reads it out and explains it.
     item: '[[w.pu-weihua-zalan-jiu-shijie]], 201'
 - names:
-    id: cal.1966-08-05.china-leadership-4
+    id: cal.1966-08-12.china-leadership
     add:
-    - Wang Li
+    - Kang Sheng
+    - Lin Biao
     tags:
-    - name:wang-li
+    - name:kang-sheng
+    - name:lin-biao
 - add-words:
     id: cal.1966-08-05.open-housing
     after: end
@@ -549,39 +674,30 @@ ops:
     item: '[[w.branch-at-canaans-edge]], 509–11'
 - check:
     id: cal.1966-08-05.open-housing
-    text: 'Check: Branch has King say at night, outside New Friendship Baptist, "I have never in my life seen such hate," and "Not in Mississippi or Alabama" (511).'
+    text: 'Check: Branch has King say that night, leaving New Friendship Baptist, to the news cameras: "I have never in my life seen such hate. Not in Mississippi or Alabama" (511).'
+- check:
+    id: cal.1966-08-05.open-housing
+    text: 'Check: the time is King''s arrival at Marquette Park, five o''clock (Branch, 510); the words of his that close the line are of that night (511), and the two acts are to be split.'
+- variant:
+    id: cal.1966-08-05.open-housing
+    'on': 'King: "I have seen many demonstrations in the south but I have never seen anything so hostile and so hateful as I''ve seen here today."'
+    witness: w.branch-at-canaans-edge
+    reads: 'that night, leaving New Friendship Baptist, to the news cameras: "I have never in my life seen such hate. Not in Mississippi or Alabama. This is a terrible thing."'
+    at: '511'
 - add-words:
     id: cal.1966-08-06.china-leadership-4
     after: end
     words: It is handed out at the debate meeting at the Tianqiao Theatre. Kang Sheng and Jiang Qing back it on the spot; Kang calls such appeals Mao Zedong Thought, Marxism-Leninism, dialectical materialism,
-      the thought of one dividing into two. It is printed for the plenum then sitting. Soon after, Jiang Qing and others attack it as a plot of Wang Renzhong's to suppress the masses, and the printed copies
-      are recalled.
+      the thought of one dividing into two.
     item: '[[w.pu-weihua-zalan-jiu-shijie]], 217–18'
 - names:
     id: cal.1966-08-06.china-leadership-4
     add:
     - Kang Sheng
     - Jiang Qing
-    - Wang Renzhong
     tags:
     - name:kang-sheng
     - name:jiang-qing
-    - name:wang-renzhong
-- add-words:
-    id: cal.1966-08-07.china-leadership-5
-    after: end
-    words: The plenum then turns to exposing and criticizing Liu Shaoqi; Zhu De and Chen Yun are criticized too, in lesser degree.
-    item: '[[w.zhu-de-nianpu-xinbian]], III, 1956'
-- names:
-    id: cal.1966-08-07.china-leadership-5
-    add:
-    - Liu Shaoqi
-    - Zhu De
-    - Chen Yun
-    tags:
-    - name:liu-shaoqi
-    - name:zhu-de
-    - name:chen-yun
 - add-words:
     id: cal.1966-08-07.china-leadership-5
     after: end
@@ -593,6 +709,12 @@ ops:
     - Deng Xiaoping
     tags:
     - name:deng-xiaoping
+- names:
+    id: cal.1966-08-07.china-leadership-5
+    add:
+    - Liu Shaoqi
+    tags:
+    - name:liu-shaoqi
 - add-words:
     id: cal.1966-08-23.china-leadership-9
     after: end
@@ -608,25 +730,6 @@ ops:
     - name:zhou-enlai
     - name:deng-xiaoping
 - add-words:
-    id: cal.1966-08-25.china-leadership-3
-    after: end
-    words: Ye Qun takes the affair as an attack on Lin Biao; efforts to gather evidence against He Long begin at Maojiawan.
-    item: '[[w.teiwes-tragedy-of-lin-biao]], 34–35'
-- names:
-    id: cal.1966-08-25.china-leadership-3
-    add:
-    - Lin Biao
-    - Ye Qun
-    tags:
-    - name:lin-biao
-    - name:ye-qun
-- add-words:
-    id: cal.1966-08-25.china-leadership-3
-    after: end
-    words: The review of the late 1970s calls the "Aug. 25 counterrevolutionary incident" a plot of Lin Biao and the "gang of four" to strike down He Long; it names Yang Chengwu as having carried out Lin's
-      black instruction.
-    item: '[[w.yang-jisheng-tiandi-fanfu]], II, 1043'
-- add-words:
     id: cal.1966-08-27.china-leadership
     after: end
     words: The delegation is led by the daughter of Wang Dongxing.
@@ -640,8 +743,8 @@ ops:
 - add-words:
     id: cal.1966-08-27.china-leadership
     after: end
-    words: 'Pu Weihua has Zhou, at a meeting of the capital''s Red Guard delegates on Aug. 27, answer a Peking middle school''s request that police wear army uniform: easily done, he will settle it with
-      Xie Fuzhi, and the change is made Sept. 1.'
+    words: 'Pu Weihua has Zhou, at a meeting of the capital''s Red Guard delegates on Aug. 27, answer the No. 15 Middle School''s request that the police wear the army''s uniform: easily done; he will settle
+      it with Xie Fuzhi, and it will change on Sept. 1.'
     item: '[[w.pu-weihua-zalan-jiu-shijie]], 235'
 - names:
     id: cal.1966-08-27.china-leadership
@@ -652,10 +755,9 @@ ops:
 - add-words:
     id: cal.1966-08-31.china-leadership-6
     after: end
-    words: 'Yang Jisheng: Daxinzhuang is led by a nine-man group under the commune head, Gao Fuxing, and the commune youth league secretary, Hu Defu. At a secret meeting on the night of Aug. 29 the main
-      cadres of 17 brigades fix joint action for 10:30 p.m. on the 31st. That night nine brigades kill, four at once; Gao comes to the scene, faults Hongsheng for killing only 2 and praises Liming for 56
-      dead of 11 households. The commune''s toll that night is 110. The corpses go into a deep well, later partly moved to a reed pond. Most of the county''s killing is on the 31st, so it is called the
-      Aug. 31 incident.'
+    words: 'Yang Jisheng: Daxinzhuang is led by a nine-man group under the commune head, Gao Fuxing, and the commune Youth League secretary, Hu Defu. That night, at the hour Hu had set, 10:30 p.m., nine
+      brigades kill, four at once; Gao comes to the scene, faults Hongsheng for killing only 2 and praises Liming for 56 dead of 11 households. The commune''s toll that night is 110. The dead are pushed
+      into a deep well. Most of the county''s killing is on the 31st, so it is called the Aug. 31 incident.'
     item: '[[w.yang-jisheng-tiandi-fanfu]], II, 664–65'
 - add-words:
     id: cal.1966-09-04.china-leadership
@@ -691,19 +793,19 @@ ops:
 - add-words:
     id: cal.1966-09-06.georgia
     after: end
-    words: 'A thousand officers and tear gas restore order by midnight; sixteen are hospitalized and seventy-five jailed. Carmichael had summoned protesters to the scene over radio station WAOK; the first
-      two arrested are SNCC''s Bill Ware and Robert Walton, for inviting bystanders to broadcast accounts of the shooting from a sound truck. Eugene Patterson, editor of the Atlanta Constitution: "SNCC
-      was in charge."'
+    words: A thousand officers and tear gas restore order by midnight; sixteen are hospitalized and seventy-five jailed. Carmichael had summoned protesters to the scene over radio station WAOK; the first
+      two arrested are SNCC's Bill Ware and Robert Walton, for inviting bystanders to broadcast accounts of the shooting from a sound truck.
     item: '[[w.branch-at-canaans-edge]], 525–26'
 - add-words:
     id: cal.1966-09-11.vietnam
     after: end
-    words: 'Dallek: the turnout of 80 percent heartens Johnson; one U.S. senator calls the results "a shattering blow to the Viet Cong."'
+    words: 'Dallek: the turnout of 80 percent heartens Johnson.'
     item: '[[w.dallek-flawed-giant]], 380'
 - add-words:
     id: cal.1966-09-11.vietnam
     after: end
-    words: 'Westmoreland: some five and a quarter million registered, about two thirds of those eligible, and almost 81 percent of them voted; foreign observers who roamed freely found few irregularities.'
+    words: 'Westmoreland: some five and a quarter million registered, about two thirds of those eligible, and almost 81 percent of them voted; the *New York Times*, as he quotes it, reports that foreign
+      observers who roamed freely found few irregularities.'
     item: '[[w.westmoreland-soldier-reports]], 188'
 - add-words:
     id: cal.1966-09-25.china-leadership-5
@@ -721,13 +823,13 @@ ops:
 - add-words:
     id: cal.1966-09-25.china-leadership-5
     after: end
-    words: A convent primary school that foreigners ran for years, which no one dared touch, is another of the old hard problems the little generals swept away; a man who for ten years cursed the Party
-      and Mao daily, and whom no one dared touch, is beaten to death.
+    words: Of the Red Guards' sweep he cites a convent primary school foreigners had run for years, which no one dared touch, swept away; and a man who for more than ten years cursed the Party and Mao daily,
+      whom no one dared touch, beaten to death by the little generals.
     item: '[[w.pu-weihua-zalan-jiu-shijie]], 251'
 - add-words:
     id: cal.1966-09-30.china-leadership
     after: end
-    words: 'This is Wang Li''s later account, as the *Mao Zedong zhuan* gives it: the *Hongqi* editorial is changed to Mao''s wording. Zhou Enlai was not at Mao''s side when he fixed it and did not know.'
+    words: By Wang Li's account (an interview of 1983), Zhou Enlai is not at Mao's side when he fixes the wording, and does not know.
     item: '[[w.mao-zedong-zhuan]], VI, ch. 75 n.14'
 - names:
     id: cal.1966-09-30.china-leadership
@@ -740,9 +842,8 @@ ops:
 - add-words:
     id: cal.1966-09.china-leadership-6
     after: end
-    words: MacFarquhar dates the four days of hearings Sept. 17–20. Wang Renzhong calls them as deputy director of the Cultural Revolution Group; the Capital 3rd HQ helps organize them, and some twenty
-      representatives of the "minority faction" attend, Kuai Dafu and Tan Houlan among them. They tell of their sufferings since the movement began and say what should be done next. The detailed minutes
-      go to Mao.
+    words: Wang Renzhong calls them as deputy director of the Cultural Revolution Group; the Capital 3rd HQ helps organize them, and some twenty representatives of the "minority faction" attend, Kuai Dafu
+      and Tan Houlan among them. They tell of their sufferings since the movement began and say what should be done next. The detailed minutes go to Mao.
     item: '[[w.macfarquhar-maos-last-revolution]], 134–35'
 - names:
     id: cal.1966-09.china-leadership-6
@@ -757,9 +858,8 @@ ops:
 - add-words:
     id: cal.1966-10-10.vietnam
     after: end
-    words: Westmoreland, asked by McNamara what troops he wants for 1967, is told to ask for what he needs; McNamara will fit the request to availability and to economic and political reality. He asks for
-      an increase of about 30 percent, to about 500,000 men, and a reserve of a corps, three divisions, kept in the United States.
-    item: '[[w.westmoreland-soldier-reports]], 193–94'
+    words: McNamara asks Westmoreland what troops he wants for 1967 and tells him to ask for what he needs; McNamara will fit the request to availability and to economic and political reality.
+    item: '[[w.westmoreland-soldier-reports]], 193'
 - names:
     id: cal.1966-10-10.vietnam
     add:
@@ -769,23 +869,32 @@ ops:
 - add-words:
     id: cal.1966-10-18.china-leadership
     after: end
-    words: Ye Jianying and Zhu De are among those with him; it ends about 3 p.m. The night before, at Zhou's meeting of the reception command, with Xie Fuzhi, Yang Chengwu and Zhou Rongxin, the plan is
-      set.
+    words: Ye Jianying is with him; it ends about 3 p.m.
     item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 946'
+- add-words:
+    id: cal.1966-10-18.china-leadership
+    after: Ye Jianying is with him; it ends about 3 p.m.
+    words: Zhu De is there.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1958'
+- add-words:
+    id: cal.1966-10-18.china-leadership
+    after: Zhu De is there.
+    words: Chen Yun rides in one car with Zhu De, Dong Biwu and Li Fuchun.
+    item: '[[w.chen-yun-nianpu-xiuding]], III, 158'
 - names:
     id: cal.1966-10-18.china-leadership
     add:
     - Ye Jianying
     - Zhu De
-    - Xie Fuzhi
-    - Yang Chengwu
-    - Zhou Rongxin
+    - Chen Yun
+    - Dong Biwu
+    - Li Fuchun
     tags:
     - name:ye-jianying
     - name:zhu-de
-    - name:xie-fuzhi
-    - name:yang-chengwu
-    - name:zhou-rongxin
+    - name:chen-yun
+    - name:dong-biwu
+    - name:li-fuchun
 - add-words:
     id: cal.1966-10-18.china-leadership
     after: end
@@ -830,7 +939,7 @@ ops:
     after: end
     words: The evening begins at the Dillons' dinner; Kennedy arrives from campaigning, the last stop Connecticut, about 10:30, Goodwin a few moments before. They leave about midnight for Clarke's. There
       the talk turns to Manchester's book, then the autopsy photographs, then the Warren report.
-    item: '[[w.schlesinger-journals]], 253'
+    item: '[[w.schlesinger-journals]], 253–54'
 - names:
     id: cal.1966-10-30.robert-kennedy
     add:
@@ -842,26 +951,26 @@ ops:
 - add-words:
     id: cal.1966-11-08.elections-1966
     after: Reagan over Brown in California, 3,742,913 to 2,749,174, 57.6 percent.
-    words: 'A record 79 percent of the registered vote; Reagan wins by 993,739 of 6.5 million, carrying all but three of 58 counties. Brown: "the people want separation of the races."'
-    item: '[[w.branch-at-canaans-edge]], 549–50'
+    words: A record 79 percent of the registered vote; Reagan wins by 993,739 of 6.5 million, carrying all but three of 58 counties.
+    item: '[[w.branch-at-canaans-edge]], 549'
 - add-words:
     id: cal.1966-11-08.elections-1966
     after: end
     words: 'In the cities: Romney cuts his Detroit deficit from 207,834 votes in 1962 to 68,382; Brown''s margin in Los Angeles falls from 157,076 to 54,243.'
     item: '[[w.hess-republican-establishment]], 5'
-- add-words:
-    id: cal.1966-11-08.elections-1966
-    after: end
-    words: 'About four in the morning Nixon telephones John Sears, left at the hotel suite to take the late returns, for the last of them and says: "We''ll kick their toes off in 1968."'
-    item: '[[w.white-making-of-the-president-1969]], 52'
-- names:
-    id: cal.1966-11-08.elections-1966
-    add:
-    - Nixon
-    - Sears
-    tags:
-    - name:nixon-richard-m
-    - name:sears-john-p
+- variant:
+    id: cal.1966-11-09.republican-party-3
+    field: time
+    value: 1966-11-09T09:00Z
+    witness: w.white-making-of-the-president-1969
+    reads: 'about four in the morning, home by way of El Morocco at three, Nixon telephones John Sears, left at the hotel suite, for the last returns: "We''ll kick their toes off in 1968."'
+    at: '52'
+- cite:
+    id: cal.1966-11-09.republican-party-3
+    item: '[[w.white-making-of-the-president-1969]], 52 (Nixon calls for the returns in the small hours)'
+- check:
+    id: cal.1966-11-09.republican-party-3
+    text: 'Check: White (52) has Nixon telephone John Sears at the hotel suite about four in the morning, home after a stop at El Morocco at three: "We''ll kick their toes off in 1968."'
 - names:
     id: cal.1966-11-08.poverty
     add: []
@@ -870,8 +979,18 @@ ops:
 - add-words:
     id: cal.1966-11-10.china-leadership
     after: end
-    words: Chen Yi, with Lin Biao and Zhou Enlai and others, is on the Tiananmen tower with Mao, Nov. 10 at 10 a.m. and Nov. 11 at 3 p.m.; Ye Jianying and Zhu De attend as well.
+    words: Chen Yi, with Lin Biao, Zhou Enlai and others, is on the Tiananmen tower with Mao.
     item: '[[w.chen-yi-nianpu]], 1173'
+- add-words:
+    id: cal.1966-11-10.china-leadership
+    after: Chen Yi, with Lin Biao, Zhou Enlai and others, is on the Tiananmen tower with Mao.
+    words: Ye Jianying is with Mao both days.
+    item: '[[w.liu-jixian-ye-jianying-nianpu]], II, 948'
+- add-words:
+    id: cal.1966-11-10.china-leadership
+    after: Ye Jianying is with Mao both days.
+    words: Zhu De is there both days.
+    item: '[[w.zhu-de-nianpu-xinbian]], III, 1958'
 - names:
     id: cal.1966-11-10.china-leadership
     add:
@@ -890,12 +1009,17 @@ ops:
     words: 'The Nov. 10 review, with the Red Guards riding past the tower, needs over 6,000 trucks: a thousand each drawn overnight from the sea, land and air forces and from the Shenyang, Peking and Jinan
       military regions.'
     item: '[[w.yang-jisheng-tiandi-fanfu]], I, 243'
+- variant:
+    id: cal.1966-11-10.china-leadership
+    'on': Nov. 11 from 2:30 p.m., in an open car along Chang'an Avenue.
+    witness: w.chen-yi-nianpu
+    reads: Nov. 11 at 3 p.m. (11日下午3時)
+    at: '1173'
 - add-words:
     id: cal.1966-11-17.china-leadership-2
     after: end
     words: The meetings are the national planning conference and the industry-and-communications conference. Before them Zhou has Yu Qiuli press their preparation, to fix the 1967 plan early and well, and
-      has Gu Mu form a team on carrying out "grasp revolution, promote production." On Nov. 19 Zhou speaks at the meeting Gu Mu chairs, urging the delegates to take the attitude, "if I do not enter the
-      bitter sea, who will," to use the trend, stand forward and protect the Party and the country. Gu Mu drafts the fifteen articles from the meeting's views and Zhou's talks.
+      has Gu Mu form a team on carrying out "grasp revolution, promote production." Gu Mu drafts the fifteen articles from the meeting's views and Zhou's talks.
     item: '[[w.zhou-enlai-nianpu-1949-2020]], III, 90'
 - names:
     id: cal.1966-11-17.china-leadership-2
@@ -935,30 +1059,25 @@ ops:
 - add-words:
     id: cal.1966-11-29.china-leadership
     after: end
-    words: 'Teiwes: He Long, who had spoken at the first rally two weeks before, does not appear at this one, undoubtedly because of Jiang Qing''s protest at his part in the first.'
+    words: He Long, who spoke at the first rally, does not appear.
     item: '[[w.teiwes-tragedy-of-lin-biao]], 36'
 - names:
     id: cal.1966-11-29.china-leadership
     add:
     - He Long
-    - Jiang Qing
     tags:
     - name:he-long
-    - name:jiang-qing
 - add-words:
     id: cal.1966-12-04.china-leadership
     after: end
-    words: 'Teiwes: Wang Li also attacks Tao Zhu for using production to suppress revolution, and Tao is forced to make a self-criticism. Lin''s summing-up of Dec. 6 endorses the radical position and attacks
-      the revisionist bourgeois line on industry and communications; Wang Nianyi, he adds, holds that it reflected Mao''s intention, not only Lin''s own opinion.'
+    words: Wang Li also attacks Tao Zhu for using production to suppress revolution, and Tao is forced to make a self-criticism.
     item: '[[w.teiwes-tragedy-of-lin-biao]], 69'
 - names:
     id: cal.1966-12-04.china-leadership
     add:
     - Tao Zhu
-    - Mao Zedong
     tags:
     - name:tao-zhu
-    - name:mao-zedong
 - add-words:
     id: cal.1966-12-15.china-leadership-4
     after: end
@@ -983,31 +1102,6 @@ ops:
     tags:
     - name:tan-zhenlin
 - add-words:
-    id: cal.1966-12-16.assassination
-    after: end
-    words: NBC's David Brinkley calls it "the biggest publishing story since the New Testament." Manchester agrees to cut his opening chapter, on Kennedy's earlier trip to Texas and the deer on Johnson's
-      ranch; otherwise he defends the manuscript.
-    item: '[[w.branch-at-canaans-edge]], 568'
-- names:
-    id: cal.1966-12-16.assassination
-    add:
-    - Brinkley
-    tags:
-    - name:brinkley-david
-- add-words:
-    id: cal.1966-12-16.assassination
-    after: end
-    words: 'Frank Mankiewicz to Robert Kennedy: "My God, I think that''s a terrible mistake." Kennedy: yes, but nothing can be done about it.'
-    item: '[[w.schlesinger-robert-kennedy-and-his]], 762'
-- names:
-    id: cal.1966-12-16.assassination
-    add:
-    - Mankiewicz
-    - Robert Kennedy
-    tags:
-    - name:mankiewicz-frank
-    - name:kennedy-robert-f
-- add-words:
     id: cal.1966-12-27.china-leadership
     after: end
     words: It is the meeting Mao ordered to settle the fate of Wang Renzhong, whom Tao Zhu has tried to shield. Instead the Group's leaders turn on Tao Zhu; none of his Politburo colleagues defends him,
@@ -1021,21 +1115,6 @@ ops:
     tags:
     - name:wang-renzhong
     - name:li-fuchun
-- add-words:
-    id: cal.1966.china-leadership-90
-    after: end
-    words: Li Xuefeng, in his later years, writes that the North China Bureau meeting ran from May 23 to July 20; the Bureau kept reporting to the Center, and two leading comrades of the Center together
-      talked one by one with Ulanhu and Lin Tie, the two under criticism, pointing to "problems" and criticizing "errors." The Hebei provincial committee's enlarged meeting, June 24 to July 15, criticizes
-      Lin Tie, with others; the Center approves his removal on Aug. 16.
-    item: '[[w.pu-weihua-zalan-jiu-shijie]], 104–105'
-- names:
-    id: cal.1966.china-leadership-90
-    add:
-    - Li Xuefeng
-    - Ulanhu
-    tags:
-    - name:li-xuefeng
-    - name:ulanhu
 - add-words:
     id: cal.1967-01-01.china-leadership
     after: end
@@ -1065,8 +1144,7 @@ ops:
 - add-words:
     id: cal.1967-01-03.china-leadership-3
     after: end
-    words: The rebels are students of more than forty military academies, come to Peking angered by the displeasure Jiang Qing and Guan Feng showed at the old marshals' speeches of Nov. 13 and 29. In early
-      January they set up a "preparatory office to criticize the bourgeois reactionary line" and call the Jan. 5 meeting, naming Chen Yi and Ye Jianying to attend "to receive education."
+    words: The rebels are students of more than forty military academies, come to Peking angered by the displeasure Jiang Qing and Guan Feng showed at the old marshals' speeches of Nov. 13 and 29.
     item: '[[w.chen-yi-nianpu]], 1180'
 - names:
     id: cal.1967-01-03.china-leadership-3
@@ -1076,3 +1154,562 @@ ops:
     tags:
     - name:jiang-qing
     - name:guan-feng
+- add-words:
+    id: cal.1966-10.vietnam-force-levels
+    after: end
+    words: By Westmoreland's account, some 30 percent more, to level off at about 500,000 men, and a reserve of a corps, three divisions, kept in the United States for Vietnam.
+    item: '[[w.westmoreland-soldier-reports]], 194'
+- add-words:
+    id: cal.1966-07-15.open-housing-2
+    after: 'King with Daley: sprayers on the hydrants, the parks and pools opened, an advisory committee on the police.'
+    words: 'Raby and Archbishop Cody come with King; Daley: "We know that you did nothing to cause the disorders." Ten portable pools; the hydrants refitted with spray nozzles.'
+    item: '[[w.branch-at-canaans-edge]], 504'
+- names:
+    id: cal.1966-07-15.open-housing-2
+    add:
+    - Raby
+    tags:
+    - name:raby-albert
+- variant:
+    id: cal.1966-07-15.open-housing-2
+    'on': That evening 1,500 guardsmen on the West Side.
+    witness: w.branch-at-canaans-edge
+    reads: four thousand National Guard troops roll in to restore order late Friday, July 15
+    at: '504'
+- add-words:
+    id: cal.1966-08-02.open-housing
+    after: end
+    words: James Bevel leads it; 140 police hold off a thousand whites, by Kotz.
+    item: '[[w.kotz-judgment-days]], 366–67'
+- cite:
+    id: cal.1966-12-26.china-leadership
+    item: '[[w.jian-zhou-enlai]], 557–58'
+    'on': Mao's seventy-third birthday.
+- variant:
+    id: cal.1966-12-26.china-leadership
+    'on': By MacFarquhar's account he toasts "the unfolding of nationwide all-round civil war!"
+    witness: w.jian-zhou-enlai
+    reads: 'standing, glass high: "Cheers to the victory of the full-scale civil war in the whole country next year!"'
+    at: '558'
+- variant:
+    id: cal.1966-12-26.china-leadership
+    'on': By MacFarquhar's account he toasts "the unfolding of nationwide all-round civil war!"
+    witness: w.macfarquhar-maos-last-revolution
+    reads: by Wang Li's account Mao toasted the unfolding of a "nationwide, all-round class struggle" (Wang Li, Xianchang lishi, 100–110)
+    at: 155 n.1
+- follows:
+    id: cal.1966-07-15.open-housing-2
+    add:
+    - cal.1966-07-15.civil-disorders
+    basis: '[[w.branch-at-canaans-edge]], 504 ("within hours")'
+- add:
+    entry:
+      id: cal.1966-04-26.soviet-union
+      when: Apr. 26
+      date: '1966-04-26'
+      place: tashkent
+      thread: soviet-union
+      c: 'Tashkent. An earthquake wrecks the center of the city: by the count of the editors of Brezhnev''s notes, 28 to 36 thousand dwellings and public buildings destroyed, 8 dead (9 by other figures),
+        several hundred hurt, over 78,000 families, more than 300,000 people, homeless.'
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 170 n.3.'
+      tags:
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1966-04-26.soviet-union-leadership
+      when: Apr. 26
+      date: '1966-04-26'
+      place: moscow
+      thread: soviet-union-leadership
+      follows:
+      - cal.1966-04-26.soviet-union
+      c: The Politburo sets up a government commission on the Tashkent earthquake, I. T. Novikov chairman.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 170 n.3. See [[cal.1966-04-26.soviet-union]].'
+      tags:
+      - polity:ussr
+- add:
+    entry:
+      id: cal.1966-04-26.soviet-union-leadership-2
+      when: Apr. 26
+      date: '1966-04-26'
+      place: tashkent
+      thread: soviet-union-leadership
+      follows:
+      - cal.1966-04-26.soviet-union
+      c: Brezhnev and Kosygin fly to Tashkent the day of the earthquake.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], I, 170 n.3. See [[cal.1966-04-26.soviet-union]]. Names: Brezhnev, Kosygin.'
+      tags:
+      - polity:ussr
+      - name:brezhnev-leonid
+      - name:kosygin-aleksei
+- add:
+    entry:
+      id: cal.1966-05-03.king
+      when: May 3
+      date: '1966-05-03'
+      place: birmingham
+      thread: king
+      also:
+      - elections-1966
+      - alabama
+      follows:
+      - cal.1966-05-03.elections-1966
+      c: 'Birmingham, Ala., the Thomas Jefferson Hotel. King, on the primary: "white Alabamians are desperately grasping for a way to return to the old days of white supremacy."'
+      n: '[[w.branch-at-canaans-edge]], 464. See [[cal.1966-05-03.elections-1966]]. Names: King.'
+      tags:
+      - name:king-martin-luther-jr
+      - state:al
+      - city:birmingham
+- add:
+    entry:
+      id: cal.1966-05-03.alabama-2
+      when: May 3
+      date: '1966-05-03'
+      thread: alabama
+      also:
+      - elections-1966
+      - civil-rights-organizations
+      time_range:
+      - 1966-05-04T03:00Z
+      - 1966-05-04T05:00Z
+      time_band: night
+      time_zone: America/Chicago
+      range_basis: record
+      c: 'Carmichael, on primary night: "We''re going to take power in Lowndes County and rule"; "Nonviolence is irrelevant ... we''re building a force to take power."'
+      n: '[[w.branch-at-canaans-edge]], 464 ("on primary night"). See [[cal.1966-05-03.alabama]]. Names: Carmichael.'
+      tags:
+      - name:carmichael-stokely
+      - state:al
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-06.china-may-sixteenth
+      when: June, early
+      date: 1966-06
+      at: before 1966-06-11
+      thread: china-may-sixteenth
+      c: 'Soon after the Center''s notice of May 28 the bureaus propose the four regional members of the Central Cultural Revolution Group: for North China Guo Yingqiu 郭影秋, for the Northeast Zheng Jiqiao
+        鄭季翹, for the Northwest Yang Zhilin 楊植霖, for the Southwest Liu Wenzhen 劉文珍. They attend some of its meetings, but the Center issues no notice confirming them.'
+      n: '[[w.pu-weihua-zalan-jiu-shijie]], 117 n.51 (此後不久). Made public: 2008. See [[cal.1966-05-28.china-leadership]]. Names: Yang Zhilin. Check: the month; Pu gives "soon after."'
+      tags:
+      - polity:prc
+      - name:yang-zhilin
+- add:
+    entry:
+      id: cal.1966-06-06.mississippi-meredith
+      when: June 6
+      date: '1966-06-06'
+      thread: mississippi-meredith
+      follows:
+      - cal.1966-06-06.mississippi
+      c: An Associated Press bulletin reports Meredith dead at 6:33 p.m., in time for many evening broadcasts; a correction at 7:08 p.m. says he is in surgery.
+      n: '[[w.branch-at-canaans-edge]], 476. See [[cal.1966-06-06.mississippi]]. Names: Meredith. Check: whose clock the 6:33 and the 7:08 are; Branch does not say.'
+      tags:
+      - name:meredith-james-h
+      - ok:fields-time
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-06-06.mississippi-meredith-2
+      when: June 6
+      date: '1966-06-06'
+      thread: mississippi-meredith
+      follows:
+      - cal.1966-06-06.mississippi
+      c: 'Johnson, from his ranch in Texas, within the hour: "an awful act of violence."'
+      n: '[[w.branch-at-canaans-edge]], 476. See [[cal.1966-06-06.mississippi]]. To check: the statement in the Public Papers, 1966. Names: Johnson.'
+      place: lbj-ranch
+      tags:
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1966-06-06.mississippi-meredith-3
+      when: June 6
+      date: '1966-06-06'
+      thread: mississippi-meredith
+      follows:
+      - cal.1966-06-06.mississippi
+      c: 'Katzenbach, at an evening press conference, on the chances of a federal prosecution under the Voting Rights Act, FBI agents having been at the scene: "James Meredith is not only a friend, but
+        also a brave man."'
+      n: '[[w.branch-at-canaans-edge]], 476. See [[cal.1966-06-06.mississippi]]. Names: Katzenbach, Meredith.'
+      place: washington
+      time_range:
+      - 1966-06-06T23:00Z
+      - 1966-06-07T02:00Z
+      time_band: evening
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:katzenbach-nicholas
+      - name:meredith-james-h
+- add:
+    entry:
+      id: cal.1966-06-06.mississippi-meredith-4
+      when: June 6
+      date: '1966-06-06'
+      thread: mississippi-meredith
+      follows:
+      - cal.1966-06-06.mississippi
+      c: CORE, that night, the first civil rights organization to vow publicly to take up the "March Against Fear" at the spot of the ambush on Highway 51.
+      n: '[[w.branch-at-canaans-edge]], 476. See [[cal.1966-06-06.mississippi]].'
+      also:
+      - civil-rights-organizations
+      tags:
+      - ok:fields-time
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-06-21.mississippi-meredith-2
+      when: June 21
+      date: '1966-06-21'
+      place: philadelphia-ms
+      thread: mississippi-meredith
+      follows:
+      - cal.1966-06-21.mississippi
+      time_range:
+      - 1966-06-22T04:00Z
+      - 1966-06-22T06:00Z
+      time_band: night
+      time_zone: Etc/GMT+6
+      range_basis: record
+      c: Philadelphia, Miss., that night. Cars of armed whites fire into the Negro neighborhood, one wave narrowly missing an FBI agent posted near the mass meeting at Mt. Nebo Baptist Church; a shot from
+        one house wounds a passing vigilante.
+      n: '[[w.branch-at-canaans-edge]], 488 ("That night"). See [[cal.1966-06-21.mississippi]].'
+      tags: []
+- add:
+    entry:
+      id: cal.1966-06-24.china-may-sixteenth
+      when: June 24–July 15
+      date: '1966-06-24'
+      thread: china-may-sixteenth
+      c: 'The North China Bureau holds an enlarged meeting of the Hebei committee''s Standing Committee, with the province''s prefecture, city and county Party heads, to July 15: the first secretary, Lin
+        Tie 林鐵, the alternate secretary Pei Yangshan 裴仰山, the standing member Hu Kaiming 胡開明 and others charged as "anti-Party, anti-socialist, anti-Mao Zedong Thought," a "revisionist clique."'
+      n: '[[w.pu-weihua-zalan-jiu-shijie]], 105. Made public: 2008. See [[cal.1966.china-leadership-90]]. Names: Lin Tie, Hu Kaiming.'
+      tags:
+      - polity:prc
+      - name:lin-tie
+      - name:hu-kaiming
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-07-12.open-housing-2
+      when: July 12
+      date: '1966-07-12'
+      place: chicago
+      thread: open-housing
+      also:
+      - civil-disorders
+      - king
+      follows:
+      - cal.1966-07-12.open-housing
+      c: 'Chicago, the hydrant riot. King, on the gang leaders'' terms, goes with Mahalia Jackson to the 12th District police station and has six battered youths released; at Shiloh Baptist Church they
+        tell of police brutality and no playgrounds or pools, and King preaches against riots and halfhearted reform: "I need some victories."'
+      n: '[[w.branch-at-canaans-edge]], 502–3. See [[cal.1966-07-12.open-housing]]. Names: King.'
+      tags:
+      - name:king-martin-luther-jr
+      - city:chicago
+      - state:il
+- add:
+    entry:
+      id: cal.1966-07-15.civil-disorders
+      when: July 15
+      date: '1966-07-15'
+      place: chicago
+      thread: civil-disorders
+      also:
+      - open-housing
+      c: 'Chicago. Daley, who had called the rioting "juvenile incidents," asks publicly for the National Guard, saying outsiders have incited it beyond his control, and blames King''s staff; at the same
+        press conference Rev. J. H. Jackson: "Some other forces are using these young people."'
+      n: '[[w.branch-at-canaans-edge]], 503–4. See [[cal.1966-07-12.open-housing]]. Names: Daley, King.'
+      tags:
+      - name:daley-richard-j
+      - name:king-martin-luther-jr
+      - city:chicago
+      - state:il
+- add:
+    entry:
+      id: cal.1966-07-19.vietnam-air-war
+      when: July 19
+      date: '1966-07-19'
+      thread: vietnam-air-war
+      also:
+      - laos
+      c: The Seventh Air Force staff briefs Westmoreland on its plan for Tally Ho, drawn at his request by Momyer, the new commander.
+      n: '[[w.staaveren-u-s-air-force]], 152. See [[cal.1966-07-20.vietnam-air-war]]. Names: Westmoreland, Momyer.'
+      tags:
+      - name:westmoreland-william
+      - name:momyer-william-w
+- add:
+    entry:
+      id: cal.1966-07-30.jobs-and-wages-airlines
+      when: July 30
+      date: '1966-07-30'
+      place: camp-david
+      thread: jobs-and-wages-airlines
+      time: 1966-07-30T19:00Z
+      time_approx: true
+      time_zone: America/New_York
+      c: 'Califano to Johnson, at Camp David, by telephone, shortly after 3 p.m.: the machinists'' union is "playing games," not urging its members to approve the contract.'
+      n: '[[w.califano-triumph-and-tragedy-of]], 145. See [[cal.1966-07-29.jobs-and-wages-airlines]]. Names: Califano, Johnson.'
+      tags:
+      - name:califano-joseph-a-jr
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1966-07-31.jobs-and-wages-airlines-2
+      when: July 31
+      date: '1966-07-31'
+      place: camp-david
+      thread: jobs-and-wages-airlines
+      time: 1966-07-31T11:20Z
+      time_zone: America/New_York
+      c: Johnson, at Camp David, wakes Califano by telephone at 7:20 a.m. to discuss the ratification vote.
+      n: '[[w.califano-triumph-and-tragedy-of]], 145. See [[cal.1966-07-29.jobs-and-wages-airlines]]. Names: Johnson, Califano.'
+      tags:
+      - name:califano-joseph-a-jr
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1966-07-31.jobs-and-wages-airlines-3
+      when: July 31
+      date: '1966-07-31'
+      place: camp-david
+      thread: jobs-and-wages-airlines
+      time: 1966-07-31T13:15Z
+      time_zone: America/New_York
+      c: 9:15 a.m. Califano tells Johnson there is serious trouble in the vote; Johnson asks him up to Camp David.
+      n: '[[w.califano-triumph-and-tragedy-of]], 145. See [[cal.1966-07-29.jobs-and-wages-airlines]]. Names: Califano, Johnson.'
+      tags:
+      - name:califano-joseph-a-jr
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1966-07-31.jobs-and-wages-airlines-4
+      when: July 31
+      date: '1966-07-31'
+      place: camp-david
+      thread: jobs-and-wages-airlines
+      time_range:
+      - 1966-07-31T17:00Z
+      - 1966-07-31T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: record
+      c: Camp David, after 1 p.m., at the pool. As reports come in that machinists in the East are voting to reject the settlement, Johnson has Califano telephone union and political leaders in the West,
+        two to three hours earlier, to urge them to have the members approve it. The calls fail.
+      n: '[[w.califano-triumph-and-tragedy-of]], 145–46. See [[cal.1966-07-29.jobs-and-wages-airlines]]. Names: Johnson, Califano.'
+      tags:
+      - name:califano-joseph-a-jr
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1966-08-09.china-mao-foreign
+      when: Aug. 9
+      date: '1966-08-09'
+      thread: china-mao-foreign
+      also:
+      - china-foreign
+      time_range:
+      - 1966-08-09T04:00Z
+      - 1966-08-09T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+      c: 'Mao to Kang Sheng, the afternoon, on the plenum communiqué''s next draft: some changes, for Kang to weigh; the rest agreed.'
+      n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 307 (八月九日下午). Made public: 1998. See [[cal.1966-08-05.china-leadership-4]]. Names: Mao Zedong, Kang Sheng.'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:kang-sheng
+- add:
+    entry:
+      id: cal.1966-08-11.china-mao-foreign
+      when: Aug. 11
+      date: '1966-08-11'
+      thread: china-mao-foreign
+      also:
+      - china-foreign
+      c: 'Mao to Kang Sheng, on the plenum communiqué: it may be printed so.'
+      n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 307–8. Made public: 1998. See [[cal.1966-08-05.china-leadership-4]]. Names: Mao Zedong, Kang Sheng.'
+      tags:
+      - polity:prc
+      - name:mao-zedong
+      - name:kang-sheng
+- add:
+    entry:
+      id: cal.1966-08.china-red-guards
+      when: Aug., after the 6th
+      date: 1966-08
+      at: after 1966-08-06
+      thread: china-red-guards
+      c: The Red Guards' "Urgent Appeal" against beating people is printed for the Eleventh Plenum.
+      n: '[[w.pu-weihua-zalan-jiu-shijie]], 218. Made public: 2008. See [[cal.1966-08-06.china-leadership-4]]. Check: the day; Pu gives none.'
+      tags:
+      - polity:prc
+- add:
+    entry:
+      id: cal.1966-08.china-red-guards-2
+      when: Aug., after the 6th
+      date: 1966-08
+      at: after 1966-08-06
+      thread: china-red-guards
+      c: Jiang Qing and others attack the "Urgent Appeal" as a plot of Wang Renzhong's to suppress the masses, and give formal notice recalling the copies printed.
+      n: '[[w.pu-weihua-zalan-jiu-shijie]], 218 (時隔不久). Made public: 2008. See [[cal.1966-08-06.china-leadership-4]]. Names: Jiang Qing, Wang Renzhong. Check: the day; Pu: "not long after."'
+      tags:
+      - polity:prc
+      - name:jiang-qing
+      - name:wang-renzhong
+- add:
+    entry:
+      id: cal.1966-08-07.china-red-guards
+      when: Aug. 7–12
+      date: '1966-08-07'
+      place: peking
+      thread: china-red-guards
+      also:
+      - china-liu
+      follows:
+      - cal.1966-08-07.china-leadership-5
+      c: After Mao's poster is handed out the plenum turns to exposing and criticizing Liu Shaoqi; Zhu De, Chen Yun and others are criticized in lesser degree.
+      n: '[[w.zhu-de-nianpu-xinbian]], III, 1956 (此后). Made public: 2006. See [[cal.1966-08-07.china-leadership-5]]. Names: Liu Shaoqi, Zhu De, Chen Yun.'
+      tags:
+      - polity:prc
+      - name:liu-shaoqi
+      - name:zhu-de
+      - name:chen-yun
+- add:
+    entry:
+      id: cal.1966-08.china-army
+      when: Aug., late, after the 25th
+      date: 1966-08
+      at: after 1966-08-25
+      thread: china-army
+      also:
+      - china-red-guards
+      c: Ye Qun takes the General Staff poster against Yang Chengwu, backed by He Long's office staff, for an attack on Lin Biao; from then Maojiawan, Lin's residence, begins gathering evidence against
+        He Long.
+      n: '[[w.teiwes-tragedy-of-lin-biao]], 34–35. Made public: 1996. See [[cal.1966-08-25.china-leadership-3]]. Names: Ye Qun, Yang Chengwu, He Long, Lin Biao. Check: the day; Teiwes gives none.'
+      tags:
+      - polity:prc
+      - name:ye-qun
+      - name:yang-chengwu
+      - name:he-long
+      - name:lin-biao
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-09.georgia
+      when: Sept., after the 6th
+      date: 1966-09
+      at: after 1966-09-06
+      place: atlanta
+      thread: georgia
+      also:
+      - civil-disorders
+      - civil-rights-organizations
+      c: 'Atlanta. Eugene Patterson, editor of the *Atlanta Constitution*, writes of the Summerhill riot: "Demagogues had hold of them; SNCC was in charge."'
+      n: '[[w.branch-at-canaans-edge]], 526. See [[cal.1966-09-06.georgia]]. Check: the day; Branch gives none.'
+      tags:
+      - city:atlanta
+- add:
+    entry:
+      id: cal.1966-09.vietnam-elections
+      when: Sept., after the 11th
+      date: 1966-09
+      at: after 1966-09-11
+      thread: vietnam-elections
+      c: A U.S. senator calls South Vietnam's election results "a shattering blow to the Viet Cong."
+      n: '[[w.dallek-flawed-giant]], 380. See [[cal.1966-09-11.vietnam]]. Check: the senator, whom Dallek does not name, and the day.'
+      tags: []
+- add:
+    entry:
+      id: cal.1966-10-18.china-red-guards
+      when: Oct. 18
+      date: '1966-10-18'
+      place: peking
+      thread: china-red-guards
+      follows:
+      - cal.1966-10-18.china-leadership
+      c: Chen Yun, in one car with Zhu De, Dong Biwu and Li Fuchun at Mao's fifth reception, asks Zhu De about Kang Keqing's being taken out by Red Guards to be paraded, and urges him to go out as little
+        as he can.
+      n: '[[w.chen-yun-nianpu-xiuding]], III, 158. Made public: 2015. See [[cal.1966-10-18.china-leadership]]. Names: Chen Yun, Zhu De, Dong Biwu, Li Fuchun, Kang Keqing.'
+      tags:
+      - polity:prc
+      - name:chen-yun
+      - name:zhu-de
+      - name:dong-biwu
+      - name:li-fuchun
+      - name:kang-keqing
+- add:
+    entry:
+      id: cal.1966-11.elections-1966-3
+      when: Nov., after the 8th
+      date: 1966-11
+      at: after 1966-11-08
+      place: california
+      thread: elections-1966
+      c: 'Brown, beaten in California, grumbles that Reagan won with 5 percent of the black vote and a quarter of the Hispanic: "Whether we like it or not, the people want separation of the races."'
+      n: '[[w.branch-at-canaans-edge]], 550. See [[cal.1966-11-08.elections-1966]]. Names: Brown, Reagan. Check: the day; Branch gives none.'
+      tags:
+      - name:brown-edmund-g
+      - name:reagan-ronald
+      - state:ca
+- add:
+    entry:
+      id: cal.1966-12.assassination-2
+      when: Dec.
+      date: 1966-12
+      thread: assassination
+      c: David Brinkley, NBC's anchor, calls the Manchester affair "the biggest publishing story since the New Testament."
+      n: '[[w.branch-at-canaans-edge]], 568. See [[cal.1966-12-16.assassination]]. Names: Brinkley, Manchester. Check: the day; Branch gives none.'
+      tags:
+      - name:brinkley-david
+      - name:manchester-william
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-12.assassination-3
+      when: Dec.
+      date: 1966-12
+      thread: assassination
+      c: Manchester agrees to remove his opening chapter, on President Kennedy's earlier trip to Texas and the deer Johnson had him kill on his ranch; otherwise he defends his manuscript.
+      n: '[[w.branch-at-canaans-edge]], 568. See [[cal.1966-12-16.assassination]]. Names: Manchester, John F. Kennedy, Johnson. Check: the day; Branch gives none.'
+      tags:
+      - name:manchester-william
+      - name:kennedy-john-f
+      - name:johnson-lyndon-b
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1966-12.robert-kennedy-8
+      when: Dec., after the 16th
+      date: 1966-12
+      at: after 1966-12-16
+      thread: robert-kennedy
+      also:
+      - assassination
+      c: 'Frank Mankiewicz to Robert Kennedy, of Jacqueline Kennedy''s suit: "My God, I think that''s a terrible mistake." Kennedy: yes, a terrible mistake, but nothing can be done about it.'
+      n: '[[w.schlesinger-robert-kennedy-and-his]], 762. See [[cal.1966-12-16.assassination]]. Names: Mankiewicz, Robert Kennedy, Jacqueline Kennedy. Check: the day; Schlesinger gives none.'
+      tags:
+      - name:mankiewicz-frank
+      - name:kennedy-robert-f
+      - name:kennedy-jacqueline
+- add:
+    entry:
+      id: cal.1967-01.china-seizures
+      when: Jan., early, before the 3rd
+      date: 1967-01
+      at: before 1967-01-03
+      place: peking
+      thread: china-seizures
+      also:
+      - china-army
+      c: Students of more than forty military academies come to Peking, angered at Jiang Qing's and Guan Feng's displeasure with the old marshals' speeches of Nov. 13 and 29, form a "preparatory office
+        to criticize the bourgeois reactionary line" and set a rally for Jan. 5, naming Chen Yi and Ye Jianying to attend "to receive education."
+      n: '[[w.chen-yi-nianpu]], 1180 (1月初). Made public: 1995. Names: Jiang Qing, Guan Feng, Chen Yi, Ye Jianying. Check: the day; the nianpu gives "early January."'
+      tags:
+      - polity:prc
+      - name:jiang-qing
+      - name:guan-feng
+      - name:chen-yi
+      - name:ye-jianying
