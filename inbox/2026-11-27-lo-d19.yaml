@@ -43,6 +43,7 @@ ops:
       - name:wang-guangmei
       - polity:prc
       - vis:only:prc
+      - ok:fields-time
 - add:
     entry:
       id: cal.1967-01.transition-and-staff-3
@@ -194,8 +195,6 @@ ops:
       thread: soviet-union-leadership
       also:
       - comecon
-      follows:
-      - cal.1967-05-09.soviet-union-leadership
       c: Brezhnev and Todor Zhivkov sign the new treaty of friendship, cooperation and mutual assistance between the Soviet Union and Bulgaria, and a Soviet–Bulgarian communiqué, in
         the Central Committee building, 12:40 Moscow time.
       n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 189 (May 12, 12:40, Moscow time, read on the page image). Made public: 2016. To check: the text of the treaty and the communiqué.
@@ -311,6 +310,7 @@ ops:
         in the leading organs above the army level, issued Feb. 11); [[w.liu-jixian-ye-jianying-nianpu]], II, 959 (Feb. 11, 1967; the Several Provisions, approved by Mao, issued). Made
         public: 1988. To check: Military Affairs Commission regulations, Feb. 11, 1967, in [[w.wenhua-dageming-yanjiu-ziliao]], I, 290–291 (cited by [[w.macfarquhar-maos-last-revolution]],
         201 n.14). See [[cal.1967-02-11.china-leadership]]. Names: Mao Zedong, Lin Biao, Zhou Enlai.'
+      place: peking
       tags:
       - name:mao-zedong
       - name:lin-biao
@@ -502,6 +502,7 @@ ops:
       tags:
       - name:king-martin-luther-jr
       - name:young-andrew-j-jr
+      - ok:fields-place
 - add:
     entry:
       id: cal.1967-04-02.king
@@ -540,6 +541,8 @@ ops:
       - name:helms-richard
       - name:rostow-eugene
       - name:rostow-walt-w
+      - ok:fields-time
+      - ok:fields-place
 - edit:
     id: cal.1966-11-01.vietnam-asian-trip
     base: 9e5e7e03
@@ -655,6 +658,11 @@ ops:
       n: '[[w.solberg-hubert-humphrey]], 302–03 (Johnson''s order, carried out by Califano; no copy until after the White House press was briefed). To check: Douglas Kiker, *Atlantic
         Monthly*, June 1967 (cited by [[w.solberg-hubert-humphrey]], 303, its note). See [[cal.1967-01-10.program]]. Split under R17: Solberg (303) gives Humphrey''s remark to an aide
         and his letter to Johnson no day; each is now an entry of January. Names: Johnson, Califano, Humphrey.'
+      src:
+        c: 53b4bf55
+        rows:
+        - 'w.solberg-hubert-humphrey 302–03: 2'
+        - 'via w.solberg-hubert-humphrey 303 n.kiker: 2'
 - edit:
     id: cal.1967-01-16.transition-and-staff
     base: f3155c57
@@ -706,7 +714,7 @@ ops:
 - edit:
     id: cal.1967-02-09.china-leadership
     base: 82b57088
-    kind: reword
+    kind: correct
     set:
       c: 'Mao reads and revises the Military Commission''s draft rule that the army, supporting the proletarian left''s seizures of power, is not to fire at will: some changes; much
         support now goes to the right, not the left, and they are on the defensive; several instructions to be written from the experience, quickly.{1}'
@@ -946,3 +954,8 @@ ops:
     add:
     - cal.1967-05-19.vietnam-air-war-2
     basis: Gibbons, IV, 650 ("earlier that day"; "After the meeting and before the meeting with the President")
+- add-words:
+    id: cal.1967-01-06.china-leadership-13
+    after: end
+    words: By Xu Jingxian's account.
+    item: '[[w.macfarquhar-maos-last-revolution]], 165 n.56'
