@@ -1,0 +1,1045 @@
+patch: 2026-11-27-lo-d20
+by: Claude (Sonnet), leftovers batch lo-d20, Nov. 28, 2026; audited by Claude (Opus), Nov. 28, 2026
+ops:
+- edit:
+    id: cal.1967-06-06.middle-east
+    base: a7d2889a
+    kind: correct
+    set:
+      c: 'The Security Council, unanimous, Resolution 233: a cease-fire.{1}'
+      n: 'Security Council Resolution [233 (1967)](https://undocs.org/S/RES/233(1967)). See [[cal.1967-06-05.middle-east]]. The oil embargo: [[cal.1967-06-06.oil]]. Split under R25b and R17: FRUS XXXIV,
+        doc. 233, gives Radio Cairo''s charge its own hour, 7:40 a.m.; it, the closing of the canal and the breaks in relations are entries of their own, with their sources (Drea, 443, and his list of the
+        breaks, there). The Papers'' note (598) gives Johnson''s statement its own hour, 8 p.m.'
+      src:
+        rows:
+        - 'https://undocs.org/S/RES/233(1967): 1'
+    settles:
+    - 'Check: Drea lists Algeria'
+    unset:
+    - tags
+- add:
+    entry:
+      id: cal.1967-06-06.middle-east-six-day-war-6
+      when: June 6
+      date: '1967-06-06'
+      place: washington
+      thread: middle-east-six-day-war
+      follows:
+      - cal.1967-06-06.middle-east
+      time: 1967-06-07T00:00Z
+      time_zone: America/New_York
+      c: 'Johnson, reading a statement in the White House Theater, 8 p.m.: the Security Council''s cease-fire vote "opens a very hopeful path away from danger in the Middle East"; a cease-fire the necessary
+        "first step" toward "settled peace."'
+      n: 'Statement by the President on the United Nations Security Council''s Cease-Fire Vote in the Middle East Situation, [1967 Pub. Papers 598](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=666)
+        (June 6, 1967) (the Papers'' note: read by the President at 8 p.m. in the White House Theater). [[w.dallek-flawed-giant]], 430–31 (the evening of June 6, Johnson announces support of "a simple cease-fire"
+        as a necessary first step toward a "settled peace"). See [[cal.1967-06-06.middle-east]]. The order: after [[cal.1967-06-06.middle-east]], the vote it welcomes. Names: Johnson.'
+      tags:
+      - name:johnson-lyndon-b
+- edit:
+    id: cal.1967-06-09.middle-east
+    base: c7e3b77e
+    kind: correct
+    set:
+      c: June 9, Israel attacks Syria on the Golan Heights.{1}
+      n: 'FRUS 1964–68, XIX, docs. [243](https://history.state.gov/historicaldocuments/frus1964-68v19/d243), [244](https://history.state.gov/historicaldocuments/frus1964-68v19/d244), [246](https://history.state.gov/historicaldocuments/frus1964-68v19/d246),
+        [247](https://history.state.gov/historicaldocuments/frus1964-68v19/d247), [252](https://history.state.gov/historicaldocuments/frus1964-68v19/d252), [255](https://history.state.gov/historicaldocuments/frus1964-68v19/d255).
+        [[w.dobrynin-in-confidence]], 165–66 (the hot line, the fleet, the break, the cease-fire; not the words quoted, nor the men with Johnson); [[w.dallek-flawed-giant]], 431 (Syria agrees to halt June
+        9, Israel fights on, to June 10; Johnson orders the Sixth Fleet east; Israel agrees to a cease-fire on all fronts; not the hot-line text or the others at the table). Made public: Helms''s account
+        of the morning of June 10, in Saunders''s memorandum of Oct. 22, 1968, FRUS 1964–68, XIX (2004). See [[cal.1967-06-05.middle-east]]. Split under R25b and R17: FRUS XIX, doc. 243, gives Kosygin''s
+        message on the hot line its own hour, 8:48 a.m., June 10 (already an entry of June 10); the Soviet break with Israel, the cease-fire on the Syrian front and Resolution 236 are now entries of their
+        own. FRUS XIX, doc. 223, has the UAR''s acceptance by the end of June 8, and doc. 236, note 2, Nasser''s address of June 9 and his withdrawal the next day. Check: FRUS XIX, doc. 223 (June 8, 9:53
+        p.m.), has the artillery and air bombardment of the Syrian positions on the heights begun June 8.'
+      when: June 9
+    unset:
+    - tags
+- add:
+    entry:
+      id: cal.1967-06-08.middle-east-six-day-war-2
+      when: June 8
+      date: '1967-06-08'
+      place: nyc
+      thread: middle-east-six-day-war
+      c: 'Egypt accepts the cease-fire, provided Israel does too: the UAR government notifies the Secretary-General, U Thant, by the end of the day.'
+      n: '[FRUS 1964–68, XIX, doc. 223](https://history.state.gov/historicaldocuments/frus1964-68v19/d223) (circular telegram, June 8, 9:53 p.m.: "By end of day UAR Government notified SYG Thant it accepts
+        cease-fire provided Israel does too"; Israel had already signified it would). Check: the hour; the older line has the night of June 8. See [[cal.1967-06-09.middle-east]]. Names: U Thant.'
+      tags:
+      - name:u-thant
+      - ok:fields-time
+- add:
+    entry:
+      id: cal.1967-06-09.middle-east-six-day-war-3
+      when: June 9
+      date: '1967-06-09'
+      place: cairo
+      thread: middle-east-six-day-war
+      c: Nasser announces his resignation in a radio and television address.
+      n: '[FRUS 1964–68, XIX, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236), note 2 (the address of June 9). To check: *American Foreign Policy: Current Documents, 1967*,
+        520–23 (the text of the address; cited by FRUS 1964–68, XIX, doc. 236, note 2). Check: the hour of the address. See [[cal.1967-06-09.middle-east]]. Names: Nasser.'
+      tags:
+      - name:nasser-gamal-abdel
+- add:
+    entry:
+      id: cal.1967-06-09.middle-east-six-day-war-4
+      when: June 9
+      date: '1967-06-09'
+      place: washington
+      thread: middle-east-six-day-war
+      follows:
+      - cal.1967-06-09.middle-east-six-day-war-3
+      time: 1967-06-09T20:58Z
+      time_zone: America/New_York
+      c: 'Battle to Rusk by telephone, 4:58 p.m.: he does not think Nasser is "out of the scene" yet.'
+      n: '[FRUS 1964–68, XIX, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236), note 2. To check: Battle and Rusk, telephone, June 9, 1967, 4:58 p.m., RG 59, Rusk Files: Lot
+        72 D 192, Telephone Calls (cited by FRUS 1964–68, XIX, doc. 236, note 2). Made public: FRUS 1964–68, XIX (2004). See [[cal.1967-06-09.middle-east-six-day-war-3]]. The order: after [[cal.1967-06-09.middle-east-six-day-war-3]],
+        the resignation the call is on. Names: Battle, Rusk.'
+      tags:
+      - name:battle-lucius-d
+      - name:rusk-dean
+- add:
+    entry:
+      id: cal.1967-06-10.middle-east-six-day-war-3
+      when: June 10
+      date: '1967-06-10'
+      place: cairo
+      thread: middle-east-six-day-war
+      c: Nasser withdraws his resignation, after mass demonstrations in Cairo.
+      n: '[FRUS 1964–68, XIX, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236), note 2 ("the following day after massive demonstrations in Cairo"). Check: the hour. See [[cal.1967-06-09.middle-east-six-day-war-3]].
+        Names: Nasser.'
+      tags:
+      - name:nasser-gamal-abdel
+- edit:
+    id: cal.1967-06-09.middle-east-six-day-war-2
+    base: acbe0e53
+    set:
+      n: '[Notes of a Meeting of the Special Committee, June 9, 1967, 6:30 p.m., FRUS 1964–68, XIX: Arab-Israeli Crisis and War, 1967, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236)
+        (Saunders''s notes; the President present 6:53 to 7:53 p.m., by the Daily Diary; note 8: "Israel: leaves stuff in pipeline"). [[w.drea-mcnamara-clifford-and-the-2011]], 446. See [[cal.1967-06-07.middle-east-six-day-war-4]].'
+      time: 1967-06-09T22:30Z
+      time_zone: America/New_York
+      place: washington
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- add-words:
+    id: cal.1967-06-09.middle-east-six-day-war-2
+    after: end
+    words: 'The committee meets at 6:30 p.m., Johnson in and out from 6:53 to 7:53. Rusk: not to proceed on the basis that Nasser is out. Clifford on the *Liberty*: handle it as if the Arabs or the Soviets
+      had done it, and punish the Israelis responsible; Johnson, by the note-taker, "subscribed 100%." McGeorge Bundy: stop everything to Lebanon, Jordan and the countries that broke relations; "Help them
+      come apart." Johnson on Eshkol: "I had a firm commitment from Eshkol & he blew it."'
+    text: FRUS 1964–68, XIX, doc. [236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236)
+- names:
+    id: cal.1967-06-09.middle-east-six-day-war-2
+    add:
+    - Johnson
+    - Rusk
+    - Clifford
+    - McGeorge Bundy
+    - Eshkol
+    tags:
+    - name:johnson-lyndon-b
+    - name:rusk-dean
+    - name:clifford-clark
+    - name:bundy-mcgeorge
+    - name:eshkol-levi
+- edit:
+    id: cal.1967-07-19.china-leadership
+    base: 666e24e7
+    set:
+      place: peking
+      time_range:
+      - 1967-07-19T11:00Z
+      - 1967-07-19T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+- variant:
+    id: cal.1967-07-19.china-leadership
+    field: time
+    value:
+    - 1967-07-18T16:00Z
+    - 1967-07-18T22:00Z
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Zhou, back in Peking late on July 18, receives the people come from Hunan before dawn on the 19th (19日淩晨) to settle the stoppage of the Hunan railway
+    at: '534'
+- edit:
+    id: cal.1967-07-20.china-leadership-2
+    base: 07c702cd
+    set:
+      time_range:
+      - 1967-07-20T04:00Z
+      - 1967-07-20T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-07-20.china-leadership-4
+    base: b092c3df
+    set:
+      time_range:
+      - 1967-07-20T14:00Z
+      - 1967-07-20T16:00Z
+      time_band: night
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-07-20.china-leadership-7
+    base: d7dc9ae7
+    set:
+      time_range:
+      - 1967-07-19T22:00Z
+      - 1967-07-20T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+      range_basis: record
+- check:
+    id: cal.1967-07-20.china-leadership-7
+    text: 'Check: the hour. Yang (I, 531–32) has the troops burst into the guesthouse at 5:10 a.m., Wang Li carried off to a truck after Chen Zaidao is beaten about 6, then beaten at the Region''s compound
+      and questioned that morning; Dikötter (150) has the beating "in the early hours of 20 July."'
+- variant:
+    id: cal.1967-07-20.china-leadership-7
+    field: time
+    value:
+    - 1967-07-19T16:00Z
+    - 1967-07-19T22:00Z
+    witness: w.dikotter-cultural-revolution
+    reads: in the early hours of July 20 they drag Wang Li to the military headquarters, where a crowd beats him
+    at: '150'
+- edit:
+    id: cal.1967-07-22.china-leadership-2
+    base: 1c20751f
+    set:
+      time_range:
+      - 1967-07-22T11:00Z
+      - 1967-07-22T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+- edit:
+    id: cal.1967-07-22.china-leadership-4
+    base: 5cb312bb
+    kind: correct
+    set:
+      c: Zhou Enlai calls Ye Ming, Kong Qingde, Li Zuopeng and Liu Feng at the Wangjiadun airfield, Wuhan, and has Kong Qingde run the Wuhan Military Region for the time. The Wuhan air force is under double
+        leadership and is to follow the Region's command, not take stands at will. Chen Zaidao and Zhong Hanhua are to take a stand quickly and win the initiative.
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 168 (July 22, 1967); [[w.macfarquhar-maos-last-revolution]], 212 (at the city airport Zhou hands command of the Region to Kong Qingde and Ye Ming, to work
+        from the 29th Division''s headquarters). After [[cal.1967-07-22.china-leadership-6|Shanpo]]: Zhou sees Wang Li and Xie Fuzhi off at Shanpo, "then rushed to the city airport," where he hands Kong
+        Qingde and Ye Ming the Region ([[w.macfarquhar-maos-last-revolution]], 212). Made public: 1994. To check: [[w.li-insiders-account-of-the]], 73 (cited by [[w.macfarquhar-maos-last-revolution]], 212
+        n.49a). The nianpu (III, 168, read on the page image) has his flight back to Peking that afternoon, an act of its own. Names: Zhou Enlai, Ye Ming, Kong Qingde, Li Zuopeng, Liu Feng, Chen Zaidao,
+        Zhong Hanhua.'
+- add:
+    entry:
+      id: cal.1967-07-22.china-wuhan
+      when: July 22
+      date: '1967-07-22'
+      thread: china-wuhan
+      also:
+      - china-zhou-cr
+      follows:
+      - cal.1967-07-22.china-leadership-4
+      time_range:
+      - 1967-07-22T04:00Z
+      - 1967-07-22T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+      range_basis: record
+      c: In the afternoon Zhou Enlai flies back to Peking from Wuhan with Li Zuopeng, by Yang Jisheng's account taking off after the plane carrying Wang Li and Xie Fuzhi.
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 168 (July 22, 1967: 下午，飞回北京, "in the afternoon, flies back to Peking," read on the page image); [[w.yang-jisheng-tiandi-fanfu]], I, 537 (the afternoon of
+        the 22nd: Zhou puts Wang Li and Xie Fuzhi on their plane; his and Li Zuopeng''s plane takes off later; over Peking he has theirs circle so that he lands first); [[w.macfarquhar-maos-last-revolution]],
+        212 (Zhou has Xie and Wang''s plane circle so that his own lands first). Made public: 2020. See [[cal.1967-07-22.china-leadership-4]]. The order: after [[cal.1967-07-22.china-leadership-4]], the
+        meeting at the Wangjiadun airfield, the nianpu, III, 168 ("下午," after it). Names: Zhou Enlai, Li Zuopeng, Wang Li, Xie Fuzhi.'
+      tags:
+      - name:zhou-enlai
+      - name:wang-li
+      - name:xie-fuzhi
+      - name:li-zuopeng
+      - polity:prc
+      - vis:only:prc
+      place: wuhan
+- follows:
+    id: cal.1967-07-22.china-leadership-7
+    add:
+    - cal.1967-07-22.china-wuhan
+    basis: '[[w.yang-jisheng-tiandi-fanfu]], I, 537 (Zhou''s plane takes off after theirs, then has theirs circle over Peking)'
+- follows:
+    id: cal.1967-07-22.china-leadership-7
+    remove:
+    - cal.1967-07-22.china-leadership-4
+    why: the landing comes directly after Zhou's flight back, [[cal.1967-07-22.china-wuhan]], which follows the meeting at the airfield (Yang Jisheng, I, 537; the nianpu, III, 168)
+- variant:
+    id: cal.1967-07-22.china-leadership-6
+    'on': Wang Li and Xie Fuzhi are brought there and seen off by Zhou Enlai, who then hurries to the city airport.
+    witness: w.yang-jisheng-tiandi-fanfu
+    reads: Zhou greets Wang Li at Shanpo at 3 a.m. and embraces him; in the afternoon of the 22nd he puts Wang Li and Xie Fuzhi on their plane
+    at: '537'
+- add-words:
+    id: cal.1967-08-14.china-leadership-5
+    after: end
+    words: He attends the signing of the agreement on Chinese economic aid to Mali.
+    item: '[[w.zhou-enlai-waijiao-huodong]], 515'
+- edit:
+    id: cal.1967-08-16.vietnam-support
+    base: 7cd720e9
+    kind: correct
+    set:
+      c: 'East Room, 1:18 p.m.: Johnson presents the Vietnam Civilian Service Awards to six civilians of the USIA, State and AID, Francis Savage posthumously. Lady Bird Johnson and Henry Cabot Lodge, the
+        former Ambassador, are on the stage. By Mrs. Johnson''s account the recipients, AID workers and members of a church group, worked in Saigon hospitals and schools.'
+      n: 'Remarks Upon Presenting the Vietnam Civilian Service Awards, [1967 Pub. Papers 779](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=171) (Aug. 16, 1967) (the Papers''
+        note: spoken at 1:18 p.m. in the East Room; awards to Scotton, Kim, O''Neill, James, Shepley and Savage, the last posthumous). [[w.johnson-white-house-diary]], 559. The Papers give 1:18 p.m. and
+        the six names; Mrs. Johnson''s diary has "early" and a small group with a church group among it. Names: Johnson, Lady Bird Johnson, Lodge.'
+      time: 1967-08-16T17:18Z
+      time_zone: America/New_York
+      tags:
+      - name:johnson-lyndon-b
+      - name:johnson-lady-bird
+      - name:lodge-henry-cabot
+- edit:
+    id: cal.1967-08-21.press-and-broadcasting
+    base: 3f3d2b11
+    kind: correct
+    set:
+      n: '[[w.califano-triumph-and-tragedy-of]], 172; [[w.graham-uncertain-triumph]], 174–75. Check: Graham, 174, has Cater persuade Johnson to approve the leak (Cater to Johnson, July 12, 1967, 257 n.31).
+        To check: Califano to Johnson, July 24, 1967, 11 a.m., Califano''s papers (cited by [[w.califano-triumph-and-tragedy-of]], 172 n.13); [*New York Times*, Aug. 21, 1967](https://timesmachine.nytimes.com/timesmachine/1967/08/21/issue.html)
+        (cited by [[w.graham-uncertain-triumph]], 175 n.33). Califano (172) has Cater''s scolding that morning, after the story. Names: Califano, Johnson.'
+      c: 'Marjorie Hunter in the *New York Times*, the second lead on the front page: the Friday task force''s secret report on education, the programs to stay concentrated on poor urban and rural children.{1}
+        Califano had leaked it through an intermediary at Johnson''s order.{2}'
+      tags:
+      - name:califano-joseph-a-jr
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1967-08-21.press-and-broadcasting-3
+      when: Aug. 21
+      date: '1967-08-21'
+      place: washington
+      thread: press-and-broadcasting
+      also:
+      - school-aid
+      follows:
+      - cal.1967-08-21.press-and-broadcasting
+      time_range:
+      - 1967-08-21T10:00Z
+      - 1967-08-21T16:00Z
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+      c: 'Johnson chews out Cater, his aide on education, for the leak. Cater, nearly trembling, comes to Califano''s office to find who did it; Califano: "I did."'
+      n: '[[w.califano-triumph-and-tragedy-of]], 172 (that morning Cater, "reduced almost to trembling" by the President''s chewing out, comes to his office to find who leaked it; "I did"). See [[cal.1967-08-21.press-and-broadcasting]].
+        The order: after [[cal.1967-08-21.press-and-broadcasting]], the story the leak produced, Califano, 172. Names: Johnson, Cater, Califano.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:cater-s-douglass
+      - name:califano-joseph-a-jr
+- add:
+    entry:
+      id: cal.1967-08-21.press-and-broadcasting-4
+      when: Aug. 21
+      date: '1967-08-21'
+      place: washington
+      thread: press-and-broadcasting
+      also:
+      - school-aid
+      follows:
+      - cal.1967-08-21.press-and-broadcasting-3
+      time_range:
+      - 1967-08-21T10:00Z
+      - 1967-08-21T16:00Z
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+      c: Califano shows Johnson the *Times* story on the education task force he had wanted out. Johnson grunts yes and never mentions it again.
+      n: '[[w.califano-triumph-and-tragedy-of]], 172 ("Later that morning"). To check: President''s Daily Diary, Aug. 21, 1967 (cited by [[w.califano-triumph-and-tragedy-of]], 172 n.14). See [[cal.1967-08-21.press-and-broadcasting]].
+        The order: after [[cal.1967-08-21.press-and-broadcasting-3]], Cater at Califano''s office, Califano, 172 ("Later that morning"). Names: Califano, Johnson.'
+      tags:
+      - name:califano-joseph-a-jr
+      - name:johnson-lyndon-b
+- edit:
+    id: cal.1967-08-23.states-and-cities
+    base: 52384d7c
+    kind: correct
+    set:
+      c: Johnson's deputy mayor, Thomas Fletcher of San Diego, found by the FBI at a traffic light in Rapid City, S.D., at about 11 a.m., flown by jet fighter from Ellsworth Air Force Base.
+      n: '[[w.califano-triumph-and-tragedy-of]], 235 (at about eleven that morning, at a traffic light in Rapid City, an FBI agent tells him to call the White House; Califano on the telephone: he is needed
+        that evening; the FBI has his suit pressed and drives him to Ellsworth, where a jet fighter takes him to Andrews). To check: President''s Daily Diary, Aug. 24, 1967 (cited by [[w.califano-triumph-and-tragedy-of]],
+        235 n.17, n.19); Daily Guide, Aug. 24, 1967 (cited by [[w.califano-triumph-and-tragedy-of]], 235 n.18). Califano (235) has him in his office by 7:15 that evening and the night in the mansion, acts
+        of their own. Names: Johnson. Check: the day. Califano''s text runs from Monday, Aug. 21, to "the next day" and "the next morning," Aug. 23, but his notes cite the President''s Daily Diary of Aug.
+        24 for the morning and the bedroom (235 n.17, n.19) and the Daily Guide of Aug. 24 for 7:15 p.m. (235 n.18); his "a week later, on September 6" would make it Aug. 30. Check: whose clock "about eleven"
+        is, Washington''s or Rapid City''s.'
+      time: 1967-08-23T17:00Z
+      time_approx: true
+      time_zone: America/Denver
+      place: rapid-city
+      tags:
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1967-08-23.states-and-cities-3
+      when: Aug. 23
+      date: '1967-08-23'
+      place: washington
+      thread: states-and-cities
+      time_range:
+      - 1967-08-23T10:00Z
+      - 1967-08-23T16:00Z
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+      c: The morning. Johnson tells Califano that Thomas Fletcher, once city manager of San Diego, is his choice for deputy mayor of the District; he wants to talk with him that evening.
+      n: '[[w.califano-triumph-and-tragedy-of]], 235 ("The next morning," after the evening of the *Post*''s bulldog edition). To check: President''s Daily Diary, Aug. 24, 1967 (cited by [[w.califano-triumph-and-tragedy-of]],
+        235 n.17, n.19); Daily Guide, Aug. 24, 1967 (cited by [[w.califano-triumph-and-tragedy-of]], 235 n.18). See [[cal.1967-08-22.states-and-cities]]. Names: Johnson, Califano. Check: the day. Califano''s
+        text runs from Monday, Aug. 21, to "the next day" and "the next morning," Aug. 23, but his notes cite the President''s Daily Diary of Aug. 24 for the morning and the bedroom (235 n.17, n.19) and
+        the Daily Guide of Aug. 24 for 7:15 p.m. (235 n.18); his "a week later, on September 6" would make it Aug. 30.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:califano-joseph-a-jr
+      - city:dc
+- follows:
+    id: cal.1967-08-23.states-and-cities
+    add:
+    - cal.1967-08-23.states-and-cities-3
+    basis: '[[w.califano-triumph-and-tragedy-of]], 235 (Johnson names Fletcher "The next morning"; Califano then has him found, "At about eleven that morning")'
+- add:
+    entry:
+      id: cal.1967-08-23.states-and-cities-2
+      when: Aug. 23
+      date: '1967-08-23'
+      place: washington
+      thread: states-and-cities
+      follows:
+      - cal.1967-08-23.states-and-cities
+      time: 1967-08-24T00:15Z
+      time_zone: America/New_York
+      c: Fletcher is in Califano's office by 7:15 p.m. and goes with him to the Oval Office. Johnson, taken with him, gives him a bedroom on the mansion's third floor.
+      n: '[[w.califano-triumph-and-tragedy-of]], 235 (in Califano''s office by 7:15 that evening; the Oval Office; the bedroom on the third floor of the mansion). To check: President''s Daily Diary, Aug.
+        24, 1967 (cited by [[w.califano-triumph-and-tragedy-of]], 235 n.17, n.19); Daily Guide, Aug. 24, 1967 (cited by [[w.califano-triumph-and-tragedy-of]], 235 n.18). See [[cal.1967-08-23.states-and-cities]].
+        The order: after [[cal.1967-08-23.states-and-cities]], the flight to Washington, Califano, 235. Names: Johnson, Califano. Check: the day. Califano''s text runs from Monday, Aug. 21, to "the next
+        day" and "the next morning," Aug. 23, but his notes cite the President''s Daily Diary of Aug. 24 for the morning and the bedroom (235 n.17, n.19) and the Daily Guide of Aug. 24 for 7:15 p.m. (235
+        n.18); his "a week later, on September 6" would make it Aug. 30.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:califano-joseph-a-jr
+      - city:dc
+- add:
+    entry:
+      id: cal.1967-08-24.states-and-cities-2
+      when: Aug. 24
+      date: '1967-08-24'
+      place: washington
+      thread: states-and-cities
+      time_range:
+      - 1967-08-24T10:00Z
+      - 1967-08-24T16:00Z
+      time_band: morning
+      time_zone: America/New_York
+      range_basis: record
+      c: The morning. An Air Force jet flies Fletcher back to Rapid City, S.D., to his family, twenty-two hours after he left them.
+      n: '[[w.califano-triumph-and-tragedy-of]], 235 ("The next morning"). See [[cal.1967-08-23.states-and-cities]]. Check: the day, a day after [[cal.1967-08-23.states-and-cities]], whose day is in doubt
+        (Califano''s notes cite the President''s Daily Diary of Aug. 24 for the day before).'
+      tags: []
+- edit:
+    id: cal.1967-08-26.china-leadership
+    base: ccd363ab
+    kind: correct
+    set:
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 178–179 (Aug. 26, 1967; 中午, at noon, Yang back in Peking reports Mao''s decision to Zhou, read on the page image); [[w.macfarquhar-maos-last-revolution]],
+        230 (by noon Yang is back in Peking, briefing Zhou); [[w.yang-jisheng-tiandi-fanfu]], I, 545 (Yang flies back at noon and reports Mao''s decision to Zhou alone); [[w.jian-zhou-enlai]], 583 (around
+        noon Yang conveys Mao''s decision "word by word"). Made public: 2020. See [[cal.1967-08-25.china-leadership-2]]. To check: the Chronology''s date for Mao''s marking of Wang Li''s speech; [[w.zishen-zhanjiang-yu-tongshuai]],
+        373–376 (cited by [[w.macfarquhar-maos-last-revolution]], 230 n.36); [[w.zhou-enlai-nianpu-1949]], III, 183 (cited by [[w.jian-zhou-enlai]], 583 n.71a); [[w.zishen-yang-chengwu-nianpu-chronological]],
+        455–456 (cited by [[w.jian-zhou-enlai]], 583 n.71b). The nianpu (III, 179) and Yang (I, 545) have the meeting that followed and the isolation of Wang Li and Guan Feng after it, acts of their own.
+        Names: Zhou Enlai, Yang Chengwu, Mao Zedong, Wang Li, Guan Feng, Qi Benyu.'
+      c: Zhou Enlai, told at noon by Yang Chengwu, back from Shanghai, of Mao's decision that Wang Li, Guan Feng and Qi Benyu are wreckers of the Cultural Revolution and that the Premier is to handle them.{1}
+      src:
+        rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 178–179: 1'
+        - 'w.macfarquhar-maos-last-revolution 230: 1'
+        - 'w.yang-jisheng-tiandi-fanfu I, 545: 1'
+        - 'w.jian-zhou-enlai 583: 1'
+      tags:
+      - name:zhou-enlai
+      - name:mao-zedong
+      - polity:prc
+      - vis:only:prc
+      - name:guan-feng
+      - name:qi-benyu
+      - name:wang-li
+      - name:yang-chengwu
+- add:
+    entry:
+      id: cal.1967-08-26.china-wuhan
+      when: Aug. 26
+      date: '1967-08-26'
+      place: peking
+      thread: china-wuhan
+      also:
+      - china-zhou-cr
+      follows:
+      - cal.1967-08-26.china-leadership
+      time_range:
+      - 1967-08-26T11:00Z
+      - 1967-08-26T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+      range_basis: record
+      c: 'Zhou Enlai, at the Diaoyutai, chairs the Center''s small briefing meeting, Chen Boda, Kang Sheng and Jiang Qing attending: "today''s meeting relays an important decision of Chairman Mao." He reads
+        out Yang Chengwu''s record of Mao''s instruction word for word. Wang Li and Guan Feng are then put under isolation and examination.'
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 179 (Aug. 26, 1967: after Yang''s noon report, 之后, the 中央小碰头会, Chen Boda, Kang Sheng, Jiang Qing and others; Mao''s instruction conveyed; 随后, then, Wang
+        Li and Guan Feng isolated for examination; read on the page image); [[w.yang-jisheng-tiandi-fanfu]], I, 545 (晚上, in the evening, at the Diaoyutai; the words quoted; Yang''s record read word for
+        word; then the isolation); [[w.jian-zhou-enlai]], 583 (that evening Zhou reads Mao''s instructions, sentence by sentence, to Jiang Qing, Chen Boda, Kang Sheng and the other Group members; Wang and
+        Guan promptly arrested); [[w.mao-zedong-zhuan]], VI, ch. 76 n.68 (that night at the Diaoyutai Zhou chairs a small meeting of the Center''s leaders, Chen Boda, Kang Sheng, Jiang Qing and others attending,
+        and reads out Mao''s instruction word by word; Wang Li and Guan Feng are then isolated); [[w.jianguo-yilai-mao-zedong]], XIX, 440 n.14 (the editors: in Aug. 1967 the Center decided to suspend Wang
+        Li and Guan Feng from their posts for investigation; no day); [[w.liu-jixian-ye-jianying-nianpu]], II, 970 (Aug. 26, 1967; on Mao''s instruction Wang Li 王力 and Guan Feng 关锋 put in isolation for
+        examination 隔离审查). Made public: 2020. To check: Central Committee, decision of Aug. 1967 to suspend Wang Li and Guan Feng for investigation (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 440 n.14a);
+        Yang Chengwu 杨成武, account of Mao''s decision on Wang Li, Guan Feng and Qi Benyu, Aug. 1967, in [[w.zhang-zishen-yang-chengwu-jiangjun-fangtanlu]], 43–45 (cited by [[w.mao-zedong-zhuan]], VI, ch.
+        76 n.68); [[w.zhou-enlai-zhuan-1949]], 1928 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 545 n.78); Yan Changgui 閻長貴, 〈戚本禹、閻長貴說「文革」〉, *Wangshi* 《往事》, no. 119 (Mar. 29, 2013) (cited by [[w.yang-jisheng-tiandi-fanfu]],
+        I, 545 n.79); Han Suyin 韓素音, *Zhou Enlai he ta de shiji* 《周恩來和他的世紀》 (Zhongyang wenxian chubanshe, 1992), 472 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 545 n.80). See [[cal.1967-08-26.china-leadership]].
+        The order: after [[cal.1967-08-26.china-leadership]], Zhou told at noon, the nianpu, III, 179 ("之后"), and Yang Jisheng, I, 545. Names: Zhou Enlai, Chen Boda, Kang Sheng, Jiang Qing, Yang Chengwu,
+        Mao Zedong, Wang Li, Guan Feng.'
+      tags:
+      - name:zhou-enlai
+      - name:chen-boda
+      - name:kang-sheng
+      - name:jiang-qing
+      - name:yang-chengwu
+      - name:mao-zedong
+      - name:wang-li
+      - name:guan-feng
+      - polity:prc
+      - vis:only:prc
+      gloss:
+        title: Commentary
+        text:
+        - 'Yan Changgui (2013), then Jiang Qing''s secretary, as Yang Jisheng quotes him: Jiang Qing wept when Zhou left, her heart "very heavy" at the isolation of Wang Li and Guan Feng ([[w.yang-jisheng-tiandi-fanfu]],
+          I, 545).'
+        - 'Yang Jisheng (2016): the fall of Wang, Guan and Qi the result of Zhou''s pressing; he quotes Han Suyin (1992), that Zhou purged the three from the Group ([[w.yang-jisheng-tiandi-fanfu]], I, 545).'
+- edit:
+    id: cal.1967-08-31.elections-1968-2
+    base: 9307c5a6
+    kind: correct
+    set:
+      c: Bloomfield Hills, Mich., the governor's residence, the morning. Romney's review of the whole campaign with Leonard Hall and his staff, running late.
+      n: '[[w.white-making-of-the-president-1969]], 58 ("Thursday morning"; the meeting "ran late," Cross racing Hall to the Detroit airport). White (58–59) has the State Fair and then the taping after
+        the review, acts of their own. Names: Romney, Leonard Hall.'
+- add:
+    entry:
+      id: cal.1967-08-31.elections-1968-3
+      when: Aug. 31
+      date: '1967-08-31'
+      thread: elections-1968
+      follows:
+      - cal.1967-08-31.elections-1968-2
+      c: Michigan State Fair, outside Detroit. A grandchild with Romney goes missing; he stays until state troopers find the child on a Ferris wheel.
+      n: '[[w.white-making-of-the-president-1969]], 58–59. See [[cal.1967-08-31.elections-1968-2]]. The order: after [[cal.1967-08-31.elections-1968-2]], the review that ran late, White, 58–59. Names: Romney.'
+      tags:
+      - name:romney-george-w
+      - state:mi
+      - ok:fields-place
+- add:
+    entry:
+      id: cal.1967-08-31.elections-1968-4
+      when: Aug. 31
+      date: '1967-08-31'
+      place: detroit
+      thread: elections-1968
+      follows:
+      - cal.1967-08-31.elections-1968-3
+      c: 'Detroit. Romney, late from the State Fair, tapes the first of Lou Gordon''s new television question-and-answer programs. Asked on Vietnam: on his return from Vietnam he had "the greatest brainwashing
+        that anybody can get."'
+      n: '[[w.white-making-of-the-president-1969]], 58–59 (the taping set for the day, the program to open after Labor Day; the answer, a few minutes into the session). See [[cal.1967-08-31.elections-1968-2]].
+        The order: after [[cal.1967-08-31.elections-1968-3]], White, 59 ("very late for the scheduled taping"). Names: Romney.'
+      tags:
+      - name:romney-george-w
+      - state:mi
+- edit:
+    id: cal.1967-11-22.middle-east
+    base: 081ccc5b
+    set:
+      src:
+        rows:
+        - 'https://undocs.org/S/RES/242(1967): 3, 4, 5'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d534: 1, 2, 3, 4, 5, 6'
+        - 'w.drea-mcnamara-clifford-and-the-2011 450: 3, 4, 5'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 450 n.90b: 3, 4, 5'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 450 n.90c: 3, 4, 5'
+        - 'w.rusk-as-i-saw-it-1990 388–89: 3'
+        - 'via x.1984.rusk-interviews-with-richard-rusk: 3'
+        - 'w.dobrynin-in-confidence 166–67: 1, 3'
+        - 'w.dallek-flawed-giant 431–32: 4'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d541: 3'
+        c: '90065410'
+- src:
+    id: cal.1967-11-22.middle-east
+    row: https://undocs.org/S/RES/242(1967)
+    'on': freedom of navigation; a just settlement of the refugee problem; a Special Representative.
+- edit:
+    id: cal.1968-01-18.china-leadership
+    base: 3cb322f5
+    kind: correct
+    set:
+      when: Jan. 18
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 210 (Jan. 18, 1968: 凌晨, before dawn; the Zhejiang faction 红暴, "Red Storm"; read on the page image). Made public: 2020. The nianpu (III, 210) has the talk
+        with the Hunan preparatory group on the next day, before dawn, and names the Zhejiang faction 红暴. Names: Zhou Enlai.'
+      c: Zhou Enlai, before dawn on Jan. 18, receives in turn the Jiangsu army representatives, the Zhejiang "Red Storm" delegates and Hunan's cadres.
+      time_range:
+      - 1968-01-17T16:00Z
+      - 1968-01-17T22:00Z
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-01-19.china-class-ranks
+      when: Jan. 19
+      date: '1968-01-19'
+      thread: china-class-ranks
+      also:
+      - china-zhou-cr
+      time_range:
+      - 1968-01-18T16:00Z
+      - 1968-01-18T22:00Z
+      time_band: predawn
+      time_zone: Asia/Shanghai
+      range_basis: record
+      c: Before dawn, Zhou Enlai talks with the members of the Hunan preparatory group.
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 210 (under Jan. 18, 1968: 次日凌晨, "the next day before dawn," read on the page image). Made public: 2020. See [[cal.1968-01-18.china-leadership]]. Names:
+        Zhou Enlai.'
+      tags:
+      - name:zhou-enlai
+      - polity:prc
+      - vis:only:prc
+- edit:
+    id: cal.1968-01-19.robert-kennedy-campaign-3
+    base: ed7e5225
+    kind: correct
+    set:
+      c: 'New York, the day Johnson names Clifford for McNamara. Robert Kennedy, in the car to Westchester County with Newfield and Ronnie Eldridge: "He might just as well have appointed Attila the Hun!"{1}
+        Before he would run, Johnson shown psychotic, or the Senate''s doves asking him, or "one more politician of the national stature of Unruh."{2}'
+      n: '[[w.chester-american-melodrama]], 107–8; [[w.shesol-mutual-contempt]], 412 ("He might just as well have appointed Attila the Hun!"); [[w.schlesinger-robert-kennedy-and-his]], 838 ("if one more
+        politician, on the level of Unruh, asks me to run, I''ll do it"; none of the Senate doves wants it). See [[cal.1968-01-19.defense]]. Chester (108) and Schlesinger (838) have the dinner after the
+        cocktail party, that night. Names: Robert Kennedy, Clifford, McNamara, Unruh, Johnson, Newfield.'
+      tags:
+      - name:kennedy-robert-f
+      - name:clifford-clark
+      - name:mcnamara-robert-s
+      - name:unruh-jesse-m
+      - name:johnson-lyndon-b
+      - name:newfield-jack
+      variants:
+      - unit: '2'
+        witness: w.schlesinger-robert-kennedy-and-his
+        reads: 'afterward, after the cocktail party, Kennedy said: "if one more politician, on the level of Unruh, asks me to run, I''ll do it"'
+        at: '838'
+      src:
+        rows:
+        - 'w.chester-american-melodrama 107–8: 1, 2'
+        - 'w.shesol-mutual-contempt 412: ?'
+        - 'w.schlesinger-robert-kennedy-and-his 838: 2'
+- add:
+    entry:
+      id: cal.1968-01-19.robert-kennedy-campaign-decision-2
+      when: Jan. 19
+      date: '1968-01-19'
+      place: nyc
+      thread: robert-kennedy-campaign-decision
+      follows:
+      - cal.1968-01-19.robert-kennedy-campaign-2
+      time_range:
+      - 1968-01-20T03:00Z
+      - 1968-01-20T05:00Z
+      time_band: night
+      time_zone: America/New_York
+      range_basis: record
+      c: 'Dinner in New York with Stephen Smith and Carter Burden. Robert Kennedy, to Smith: "I think I''m going to cost you a lot of money this year!"'
+      n: '[[w.chester-american-melodrama]], 108 ("that night in New York, January 19," at dinner with Smith and Burden); [[w.schlesinger-robert-kennedy-and-his]], 838 (the warning at dinner, to Jean Smith
+        and Patricia Lawford, "This is going to cost you a lot of money"). See [[cal.1968-01-19.robert-kennedy-campaign-3]]. The order: after [[cal.1968-01-19.robert-kennedy-campaign-2]], the cocktail party,
+        Chester et al., 108 ("That same evening," then "that night"), and Schlesinger, 838 ("Afterward ... at dinner"). Names: Robert Kennedy, Stephen Smith.'
+      tags:
+      - name:kennedy-robert-f
+      - name:smith-stephen-e
+- variant:
+    id: cal.1968-01-19.robert-kennedy-campaign-decision-2
+    'on': Dinner in New York with Stephen Smith and Carter Burden.
+    witness: w.schlesinger-robert-kennedy-and-his
+    reads: he warned Jean Smith and Patricia Lawford at dinner, "This is going to cost you a lot of money"
+    at: '838'
+- follows:
+    id: cal.1968-01-19.robert-kennedy-campaign-2
+    add:
+    - cal.1968-01-19.robert-kennedy-campaign-3
+    basis: '[[w.chester-american-melodrama]], 107–8 (the day in Westchester, then "That same evening" the cocktail party); [[w.schlesinger-robert-kennedy-and-his]], 838 (the political day in Westchester,
+      then the party "Returning to the city")'
+- variant:
+    id: cal.1968-01-25.japan-and-korea
+    field: time
+    value:
+    - 1968-01-25T11:00Z
+    - 1968-01-25T17:00Z
+    witness: w.johnson-white-house-diary
+    reads: Mrs. Johnson has the news "sometime in the morning" that the President had called up the Air Force and Navy reservists
+    at: '625'
+- variant:
+    id: cal.1968-01-25.japan-and-korea
+    field: time
+    value:
+    - 1968-01-26T00:00Z
+    - 1968-01-26T03:00Z
+    witness: w.drea-mcnamara-clifford-and-the-2011
+    reads: at the final meeting of Jan. 25, "that evening," the President approves the mobilization of 28 Air Force and Navy reserve units, 14,787 men and 372 aircraft
+    at: '489'
+- variant:
+    id: cal.1968-01-31.vietnam-tet-11
+    field: time
+    value: 1968-01-30T18:47Z
+    witness: w.wirtz-tet-offensive
+    reads: at 0247 elements of the C-10 Sapper Battalion breach the wall of the U.S. embassy (from MACV J-2's journal)
+    at: '229'
+- check:
+    id: cal.1968-01-31.vietnam-tet-11
+    text: 'Check: the American clock. Wirtz (229, from MACV J-2''s Daily Journal, 229 n.8) has the wall breached at 0247, the defense nearly out of ammunition at 0636 and the compound secured by 0900; the
+      MACV history (1968, II, 899) gives the assault no hour, a helicopter driven off at 0500, the landing on the roof at 0810 and the grounds secured by 0900.'
+- to-check:
+    id: cal.1968-01-31.vietnam-tet-11
+    add: '[[w.oberdorfer-tet]]; [[w.braestrup-big-story]]'
+- edit:
+    id: cal.1968-02-07.china-leadership-2
+    base: 5b2fae93
+    kind: correct
+    settles:
+    - 'Check: "after the meeting with Mao"'
+    set:
+      c: 'Zhou Enlai, in his talk with Hồ Chí Minh the day Mao meets him: at this stage of the war in Vietnam, might one to three field corps be organized, each of 30,000 to 40,000 men, striving to destroy
+        whole units of four or five thousand in each battle; they should fight far from home, in this war zone or another. Against isolated enemy, approach by tunnel and fight at night and close, so that
+        aircraft and artillery lose their effect; tunnels dug at three or four points to carry troops and ammunition; some force also to hit the enemy''s reinforcements.{1}'
+      n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 213 (Feb. 7, 1968); [[w.77-conversations-between-chinese]], [120–121](https://www.wilsoncenter.org/sites/default/files/media/documents/publication/ACFB39.pdf#page=118)
+        (doc. 30; Beijing, Feb. 7, 1968, no hour: Zhou to Hồ Chí Minh on one to three field corps of 30,000–40,000, battles to destroy 4,000–5,000 of the enemy in whole units, tunnels and underground galleries
+        in three or four directions, night and close fighting, reserves for reinforcements; 121 n.191, the context of Khe Sanh, from Jan. 21, and the Tet offensive, from Jan. 31). Made public: 1998. Check:
+        the Vietnamese record. The nianpu (III, 213, read on the page image) has Zhou accompany Mao to meet Hồ Chí Minh and "the same day" (同日) make his proposal in talking with him; it does not put the
+        talk after the meeting, and the Wilson Center text (doc. 30) gives no hour. See [[cal.1968-02-07.china-leadership]]. Names: Zhou Enlai, Hồ Chí Minh, Mao Zedong.'
+- edit:
+    id: cal.1968-02-07.vietnam-khe-sanh-2
+    base: c0ddf844
+    set:
+      time_range:
+      - 1968-02-06T22:00Z
+      - 1968-02-07T04:00Z
+      time_band: morning
+      time_zone: Asia/Ho_Chi_Minh
+      range_basis: record
+- edit:
+    id: cal.1968-02-09.vietnam
+    base: 661ead67
+    kind: correct
+    settles:
+    - 'Check: Barrett, 115, gives Wheeler''s cable as Feb. 8.'
+    - 'Check: Longley dates Wheeler''s message Feb. 8'
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+    set:
+      c: 'Westmoreland to Wheeler and Sharp, MAC 1858: the enemy''s plan in three phases;{3} he "would welcome reinforcements at any time they can be made available."{4}'
+      n: 'FRUS 1964–68, VI, doc. [63](https://history.state.gov/historicaldocuments/frus1964-68v06/d63) (Saigon, "February 9, 1968, 1633Z"). [[w.westmoreland-soldier-reports]], 350–51 (Westmoreland: the
+        82d Airborne and half a Marine division, "a six-month loan"; the enemy''s three phases); [[w.drea-mcnamara-clifford-and-the-2011]], 182 (Westmoreland''s assessment of Feb. 9: reinforcements welcome
+        at any time); 182 n.41 (msg MAC 1858 Westmoreland to Wheeler, 9 Feb 68). Made public: the Pentagon Papers (1971); FRUS 1964–68, VI (2002). See [[cal.1968-01-30.vietnam]]; [[cal.1968-02-08.vietnam-tet-4]].
+        The document is Westmoreland''s MAC 1858, answering Wheeler''s JCS 1590 (090021Z) and Sharp''s cable of 090359Z; FRUS VI, doc. 63, notes 1 and 2, dates Wheeler''s JCS 1529 Feb. 7 and JCS 1590 Feb.
+        9. The day is the cable''s date-time group''s, 091633Z, as FRUS prints it: 1633Z is 11:33 a.m. Feb. 9 in Washington, 12:33 a.m. Feb. 10 in Saigon. Names: Wheeler, Westmoreland, Sharp. Check: the
+        day by Saigon''s clock, Feb. 10.'
+      time: 1968-02-09T16:33Z
+      time_zone: Asia/Ho_Chi_Minh
+      place: saigon
+      src:
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d63: 3, 4'
+        - 'w.westmoreland-soldier-reports 350–51: 3, 4'
+        - 'w.drea-mcnamara-clifford-and-the-2011 182: 4'
+        - 'via x.1968-02-09.westmoreland-to-wheeler-mac-01849-feb: 3'
+- add:
+    entry:
+      id: cal.1968-02-07.vietnam-tet-3
+      when: Feb. 7
+      date: '1968-02-07'
+      place: washington
+      thread: vietnam-tet
+      c: 'Wheeler to Westmoreland, JCS 1529: the enemy''s build-up at Khe Sanh may be meant to draw his troops north and expose the South; the 82d Airborne and half a Marine division could be sent. "If
+        you need more troops, ask for them."'
+      n: 'FRUS 1964–68, VI, doc. [63](https://history.state.gov/historicaldocuments/frus1964-68v06/d63), note 1 (JCS 1529, Feb. 7). [[w.westmoreland-soldier-reports]], 350–51 (the cable quoted, no day);
+        [[w.barrett-uncertain-warriors]], 115 (Feb. 8: "if you need more troops ask for them"); [[w.drea-mcnamara-clifford-and-the-2011]], 182 (Feb. 8, the first of two cables: MACV needs reinforcements);
+        181 n.35 (msg JCS 1529 Wheeler to Westmoreland, 8 Feb 68). To check: Wheeler to Westmoreland, JCS 1529, Westmoreland Eyes Only message files, Feb. 1968, CMH (cited by [[w.drea-mcnamara-clifford-and-the-2011]],
+        181 n.35); [[w.schandler-unmaking-of-a-president]], 92, 95 (cited by [[w.barrett-uncertain-warriors]], 115 n.20). Made public: FRUS 1964–68, VI (2002). Check: the day: FRUS''s note has Feb. 7; Drea
+        (182; 181 n.35) and Barrett (115) have Feb. 8. Names: Wheeler, Westmoreland.'
+      tags:
+      - name:wheeler-earle
+      - name:westmoreland-william
+- add:
+    entry:
+      id: cal.1968-02-08.vietnam-tet-4
+      when: Feb. 8
+      date: '1968-02-08'
+      place: washington
+      thread: vietnam-tet
+      time: 1968-02-09T00:21Z
+      time_zone: America/New_York
+      c: 'Wheeler to Westmoreland, JCS 1590, 7:21 p.m.: he is not trying to sell more forces, which he cannot guarantee, but "the critical phase of the war is upon us"; Westmoreland should not "refrain
+        from asking for what you believe is required." By Clifford''s account he asks that further messages on troops go by the back channel.'
+      n: 'FRUS 1964–68, VI, doc. [63](https://history.state.gov/historicaldocuments/frus1964-68v06/d63), note 2 (JCS 1590, "February 9"), and the document''s reference line, "JCS 01590, DTG 090021Z." [[w.drea-mcnamara-clifford-and-the-2011]],
+        182 (the same day as Bunker''s cable of Feb. 8, the second of Wheeler''s two cables urges Westmoreland to ask for more troops); 181 n.35 (msg JCS 1590 Wheeler to Westmoreland, 8 Feb 68); [[w.longley-lbjs-1968]],
+        62 (Feb. 8, the words quoted); [[w.westmoreland-soldier-reports]], 351 (the words quoted, no day); [[w.clifford-counsel-to-the-president-2]], 476–77 (after a meeting Clifford dates Feb. 8, the words
+        quoted; further messages on troops by the back channel). Made public: the Pentagon Papers (1971); FRUS 1964–68, VI (2002). The day is Washington''s: 090021Z, the date-time group, is 7:21 p.m. Feb.
+        8 there; FRUS''s note 2, and Drea''s notes 37 and 39 (182), give Feb. 9, the Zulu day. Check: Clifford''s note (477 n.12) gives the words to JCS 01589 of Feb. 9. See [[cal.1968-02-07.vietnam-tet-3]].
+        Names: Wheeler, Westmoreland.'
+      tags:
+      - name:wheeler-earle
+      - name:westmoreland-william
+- edit:
+    id: cal.1968-02-12.vietnam-205000
+    base: 4ccb77db
+    kind: correct
+    set:
+      c: 'The Joint Chiefs, answering McNamara''s request of Feb. 9, JCSM 91–68: defer reinforcements to Vietnam until reserves are called up, but ready the 82d Airborne and most of a Marine division; mobilize
+        reservists to replace the units sent and rebuild the strategic reserve.'
+      n: '[[w.drea-mcnamara-clifford-and-the-2011]], 183. [FRUS 1964–68, VI, doc. 70](https://history.state.gov/historicaldocuments/frus1964-68v06/d70), note 4 (JCSM 91–68, Feb. 12: defer the deployment
+        until the reserves are called up; the 82d Airborne and the 6/9 Marine division to prepare). To check: JCSM-91-68 for SecDef, 12 Feb 68, w/annex A, Pentagon Papers Backup, Acc 75-062 (cited by [[w.drea-mcnamara-clifford-and-the-2011]],
+        183 n.44). The call-up figures are JCSM 96–68''s, of Feb. 13 (FRUS 1964–68, VI, doc. 74, note 2), and JCSM-99-68''s, of Feb. 15 (Drea, 183, the starred note). See [[cal.1968-02-12.vietnam-tet]].
+        Names: McNamara.'
+- edit:
+    id: cal.1968-02-13.vietnam-205000-4
+    base: c5cc1cb0
+    kind: correct
+    set:
+      when: Feb. 13
+      c: 'J-5''s report on the mobilization the emergency reinforcement requires, approved by the Joint Chiefs the day they get it and sent to McNamara, JCSM-96-68: two Army infantry brigades, a Marine
+        regiment, a Marine aircraft group, two Navy construction battalions, 46,300 reservists at once, 137,000 more readied.'
+      n: '[FRUS 1964–68, VI, doc. 74](https://history.state.gov/historicaldocuments/frus1964-68v06/d74), note 2 (JCSM 96–68, sent to McNamara Feb. 13: 46,000 to be called up at once, 137,000 more readied).
+        [[w.cosmas-joint-chiefs-of-staff]], 157. To check: JCS 2472/231, 13 Feb 68, JMF 911/374 (5 Feb 68) (cited by [[w.cosmas-joint-chiefs-of-staff]], 157 n.23); JCSM-96-68 to SecDef, 13 Feb 68, JMF 911/374
+        (5 Feb 68) (cited by [[w.cosmas-joint-chiefs-of-staff]], 157 n.23); JCSM-96-68 for SecDef, 13 Feb 68, SecDef Sensitive files, Acc 91-0017 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 183
+        n.44); *The Pentagon Papers: The Senator Gravel Edition*, 542–546 (the text; cited by FRUS 1964–68, VI, doc. 74, note 2). Cosmas (157) has the Chiefs'' second paper, JCSM-99-68 of Feb. 15, an act
+        of its own. Names: McNamara. Check: Drea (183 and n.44) has JCSM-96-68 at 44,000 at once and 138,000 more, the Chiefs favoring them at the luncheon of Feb. 13, and gives 46,300 and 137,000 to JCSM-99-68
+        of Feb. 15; FRUS VI, doc. 74, has Wheeler say at the luncheon that the Chiefs have no call-up recommendation yet and are working on it that day.'
+      tags:
+      - name:mcnamara-robert-s
+      src:
+        c: fa849320
+        rows:
+        - 'w.cosmas-joint-chiefs-of-staff 157: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d74: all'
+        - 'via x.1968-02-13.jcs-2472-231-13-feb-68: all'
+        - 'via x.1968-02-13.jcsm-96-68-to-secdef-13-feb: all'
+- variant:
+    id: cal.1968-02-13.vietnam-205000-4
+    'on': 'J-5''s report on the mobilization the emergency reinforcement requires, approved by the Joint Chiefs the day they get it and sent to McNamara, JCSM-96-68: two Army infantry brigades, a Marine
+      regiment, a Marine aircraft group, two Navy construction battalions, 46,300 reservists at once, 137,000 more readied.'
+    witness: w.drea-mcnamara-clifford-and-the-2011
+    reads: the Joint Chiefs favored an immediate call-up of 44,000 reservists to support the roughly 10,000 emergency reinforcements and permission to mobilize another 138,000 (at the luncheon of Feb. 13;
+      JCSM-96-68, 183 n.44)
+    at: '183'
+- follows:
+    id: cal.1968-02-13.vietnam-205000-4
+    add:
+    - cal.1968-02-13.vietnam-205000-2
+    basis: '[FRUS 1964–68, VI, doc. 74](https://history.state.gov/historicaldocuments/frus1964-68v06/d74) (Wheeler at the luncheon: "The Joint Chiefs are working on that today"; note 2, JCSM 96–68 sent
+      that day)'
+- add:
+    entry:
+      id: cal.1968-02-15.vietnam-205000
+      when: Feb. 15
+      date: '1968-02-15'
+      place: washington
+      thread: vietnam-205000
+      c: 'The Joint Chiefs, JCSM-99-68: more troops to Vietnam only when Westmoreland asks for them, but no delay in calling up reserve units: 46,300 at once, 137,000 on standby, with authority to call
+        individual reservists and extend terms of service, and the money for it.'
+      n: '[[w.cosmas-joint-chiefs-of-staff]], 157 (Feb. 15: reinforcements deferred until Westmoreland asks; no delay in mobilizing reserve units; 46,300 at once; individual reservists, extended service,
+        financial authorization); [[w.drea-mcnamara-clifford-and-the-2011]], 183 (the starred note: JCSM-99-68, 15 Feb 68, 46,300 immediate recalls and 137,000 to standby). To check: JCS 2472/234, 14 Feb
+        68, JMF 911/384 (13 Feb 68) (cited by [[w.cosmas-joint-chiefs-of-staff]], 157 n.24); JCSM-99-68 to SecDef, 15 Feb 68, JMF 911/384 (13 Feb 68) (cited by [[w.cosmas-joint-chiefs-of-staff]], 157 n.24).
+        See [[cal.1968-02-13.vietnam-205000-4]]. Names: Westmoreland.'
+      src:
+        rows:
+        - 'w.cosmas-joint-chiefs-of-staff 157: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 183: all'
+        - 'via x.1968-02-14.jcs-2472-234-14-feb-68: all'
+        - 'via x.1968-02-15.jcsm-99-68-to-secdef-15-feb: all'
+      tags:
+      - name:westmoreland-william
+- edit:
+    id: cal.1968-02-12.vietnam-tet
+    base: fdb061dd
+    kind: correct
+    set:
+      n: 'FRUS 1964–68, VI, docs. [68](https://history.state.gov/historicaldocuments/frus1964-68v06/d68), [70](https://history.state.gov/historicaldocuments/frus1964-68v06/d70). [[w.drea-mcnamara-clifford-and-the-2011]],
+        183 (Westmoreland''s cable; the lunch, some 10,000 men approved; the Chiefs for deferring and a call-up); [[w.westmoreland-soldier-reports]], 352 (the request, quoted; the White House meeting that
+        day, by Wheeler''s report: "you are not expressing a firm demand"; Westmoreland: "not because I fear defeat"); [[w.califano-triumph-and-tragedy-of]], 259 (Westmoreland "desperately need[ed]" reinforcements;
+        10,500 ordered; Wheeler sent the next day); [[w.branch-at-canaans-edge]], 693–94 ("a new ball game"; the six battalions); [[w.berman-lyndon-johnsons-war]], 164–66 ("a new ball game"; "I need these
+        525,000 troops now"; six battalions, 10,500; Wheeler: Westmoreland "does not know how sacrosanct" the 525,000; the Chiefs against, Johnson for sending them); [[w.taylor-swords-and-plowshares]],
+        385 (Westmoreland''s request of Feb. 12: an airborne brigade and a Marine regiment); [[w.barrett-uncertain-warriors]], 116 (Westmoreland''s "firm request for troops," 10,000 more at once; Feb. 12,
+        unanimous advice to send them; Johnson approved them "for the period of the emergency only"). [[w.longley-lbjs-1968]], 64 (the meeting). Made public: the Pentagon Papers (1971); FRUS 1964–68, VI
+        (2002). [[w.clifford-counsel-to-the-president-2]], 478 (Westmoreland''s "firm request"; the lunch, all for more troops, Clifford silent). To check: JCSM-91-68 to McNamara, Feb. 12, 1968, Pentagon
+        Papers Backup, Acc 75-062 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 183 n.44); [[w.karnow-vietnam]], 562–64 (cited by [[w.branch-at-canaans-edge]], 693); FRUS, *Vol. 6* (n.d.), 153, footnotes
+        1–3 (cited by [[w.branch-at-canaans-edge]], 693); "U.S. rushes 10,500 to Meet Threat of Vietnam Foe," [*New York Times*, Feb. 14, 1968](https://timesmachine.nytimes.com/timesmachine/1968/02/14/issue.html),
+        at 1 (cited by [[w.branch-at-canaans-edge]], 694). See [[cal.1968-01-30.vietnam]]. FRUS VI, doc. 70, has the meeting of the advisers that decided on the troops, Feb. 12, 1:45 to 3:08 p.m. Names:
+        Westmoreland, Johnson.'
+      c: 'Westmoreland: the enemy''s third phase, to take Quảng Trị and Thừa Thiên, begun;{1} he asks for reinforcements now.{2} He asks that a Marine regiment package and a brigade package of the 82d Airborne
+        go at once: "I need these 525,000 troops now," the ceiling promised for 1969.{5}'
+      src:
+        rows:
+        - 'w.drea-mcnamara-clifford-and-the-2011 183: 2'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 183 n.42a: 2'
+        - 'w.longley-lbjs-1968 64: 2'
+        - 'via w.longley-lbjs-1968 64 n.30: 2'
+        - 'w.clifford-counsel-to-the-president-2 478: 2'
+        - 'via w.clifford-counsel-to-the-president-2 478 n.14: 2'
+        - 'w.westmoreland-soldier-reports 352: 1, 2'
+        - 'w.califano-triumph-and-tragedy-of 259: ?'
+        - 'w.branch-at-canaans-edge 693–94: ?'
+        - 'via x.undated.frus-vol-6: 1, 2'
+        - 'via x.1968-02-12.westmoreland-to-wheeler-msg-mac-1975: 1, 2'
+        - 'via x.1968-02-12.notes-of-meeting-feb-12-1968: 1, 2'
+        - 'via x.1968-02-14.u-s-rushes-10-500-to: 1, 2'
+        - 'via x.1968-02-12.westmoreland-to-wheeler-msg-mac-1975: 1, 2'
+        - 'w.berman-lyndon-johnsons-war 164–66: ?'
+        - 'w.taylor-swords-and-plowshares 385: 1, 2'
+        - 'w.barrett-uncertain-warriors 116: 2'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d68: 1, 2, 5'
+- add-words:
+    id: cal.1968-02-12.vietnam-tet-2
+    after: end
+    words: 'Wheeler: with the deployment the Joint Chiefs want a reserve call-up, two Army National Guard brigades, about 30,000 men; Chapman, the 4th Marine Division, one regimental landing team now. Johnson
+      has Wheeler and McNamara agree on whom to call.'
+    text: FRUS 1964–68, VI, doc. [70](https://history.state.gov/historicaldocuments/frus1964-68v06/d70)
+- variant:
+    id: cal.1968-02-13.vietnam-205000-5
+    'on': All there by Feb. 21.
+    witness: w.macv-command-history-1968
+    reads: the Joint Chiefs direct the 27th Marine regimental landing team "to arrive no later than 26 February" (247) and the 82d's brigade "to close in-country no later than 26 February 1968," closing
+      "on schedule" (245)
+    at: 245, 247
+- variant:
+    id: cal.1968-02-13.vietnam-205000-3
+    'on': The Joint Chiefs direct the 27th Marine Regimental Landing Team flown to Vietnam from California, 5,200 men, to arrive at Đà Nẵng by Feb. 26; the 3d Brigade, 82d Airborne, from Fort Bragg, N.C.,
+      by the same day, closing in I Corps on schedule.
+    witness: w.drea-mcnamara-clifford-and-the-2011
+    reads: all of the designated troops reached Vietnam by 21 February
+    at: '183'
+- edit:
+    id: cal.1968-02-20.vietnam
+    base: 9a03c760
+    kind: correct
+    set:
+      c: 'The Senate Foreign Relations Committee, in closed session, on the Gulf of Tonkin attacks of August 1964: McNamara and Wheeler before Fulbright''s committee.{1} McNamara: the second attack, Aug.
+        4, took place.{2} McNamara: the suggestion that the government induced the incident "monstrous."{4} Fulbright: "I regret it more than anything I have ever done in my life, that I was the vehicle
+        which took that resolution to the floor." Morse: "a confused bungle."{5}'
+      n: 'Daily Digest, [114 Cong. Rec. D52](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=50). *The Gulf of Tonkin, the 1964 Incidents: Hearing Before the Senate
+        Committee on Foreign Relations*, 90th Cong., 2d Sess. (1968). [[w.mann-grand-delusion]], 578–80; [[w.cq-weekly-report]], Mar. 1, 1968, 384. [[w.mcnamara-in-retrospect]], ch. 5 at n.18 (Fulbright:
+        "I never meant to leave the impression that I thought you were deliberating trying to deceive us"; Mansfield, Pell and Symington the same). [[w.woods-j-william-fulbright-vietnam]], 168–69 (the closed
+        session, seven and a half hours; Herrick''s cables of Aug. 3 and 4, 1964, read by Fulbright; McNamara''s 21-page statement to the press after, "monstrous"); [[w.woods-fulbright]], 477–78 (seven
+        and a half hours; Herrick''s cables; McNamara''s twenty-one pages to the press, "monstrous"); [[w.zaroulis-who-spoke-up]], 154 (Feb. 20: McNamara before Fulbright''s committee; "highly classified
+        and unimpeachable intelligence" confirms the attacks of Aug. 2 and 4, 1964; the ships on "an intelligence gathering mission"; the testimony released four days later). Check: Woods''s note (169 n.33)
+        gives the hearing as of Feb. 21. Check: Woods dates the hearing Feb. 20 (477) and cites the transcript as of Feb. 21 (477 n.36). To check: [[w.moise-tonkin-gulf-and-the]]; [[w.goulden-truth-is-the-first]];
+        *The Gulf of Tonkin, The 1964 Incidents*, Hearing before the Senate Committee on Foreign Relations, 90th Cong., 2d Sess. (Feb. 20, 1968) (cited by [[w.mann-grand-delusion]], 580 n.29). See [[cal.1964-08-04.vietnam]].
+        FRUS VI, doc. 79, has the testimony made public on Feb. 24. Check: FRUS VI, doc. 79, has McNamara release a statement on his testimony, without the committee''s approval, on Feb. 21 (citing the
+        *New York Times* of that day); Woods (169, 477–78) has the twenty-one pages to the press after the session, with "monstrous." Names: McNamara, Wheeler, Fulbright, Morse.'
+      src:
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=50: 1'
+        - 'w.mann-grand-delusion 578–80: 1, 2, 4, 5'
+        - 'via w.mann-grand-delusion 580 n.29: 1, 2, 4, 5'
+        - 'w.cq-weekly-report Mar. 1, 1968, 384: 1, 2, 4'
+        - 'w.mcnamara-in-retrospect ch. 5 at n.18: 1'
+        - 'via x.1968-02-20.the-gulf-of-tonkin-the-1964: 1'
+        - 'w.woods-j-william-fulbright-vietnam 168–69: 1, 2, 4'
+        - 'via x.1968-02-20.the-gulf-of-tonkin-the-1964: 1, 2, 4'
+        - 'via x.1968-02-25.finney-mcnamara-destroyers-nyt: 1, 2, 4'
+        - 'via x.1968-02-21.fulbright-hints-northwest-arkansas-times: 1, 2, 4'
+        - 'w.woods-fulbright 477–78: 1, 2, 4'
+        - 'w.zaroulis-who-spoke-up 154: ?'
+- add:
+    entry:
+      id: cal.1968-02-21.vietnam-congress-3
+      when: Feb. 21
+      date: '1968-02-21'
+      place: washington
+      thread: vietnam-congress
+      also:
+      - vietnam
+      c: The Senate Foreign Relations Committee, in executive session, agrees to send the Defense Department the transcript of its Feb. 20 hearing with McNamara on the Tonkin Gulf incidents, for editing
+        "so that it may ultimately be released to the public."
+      n: 'Daily Digest, [114 Cong. Rec. D56](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=54) (Feb. 21, 1968). See [[cal.1968-02-20.vietnam]]. Names: McNamara.'
+      tags:
+      - name:mcnamara-robert-s
+- add:
+    entry:
+      id: cal.1968-02-21.vietnam-congress-4
+      when: Feb. 21
+      date: '1968-02-21'
+      place: washington
+      thread: vietnam-congress
+      also:
+      - vietnam
+      time: 1968-02-21T13:29Z
+      time_zone: America/New_York
+      c: 'Johnson and McNamara by telephone, 8:29 a.m., on the Tonkin Gulf hearing and Gore''s criticism. McNamara: Gore is "just intemperate"; he and Fulbright "want to prove that they were misled."'
+      n: '[FRUS 1964–68, VI, doc. 79](https://history.state.gov/historicaldocuments/frus1964-68v06/d79) (editorial note: the recordings of Feb. 21, 8:29 and 8:52 a.m., Tape F68.03, PNO 4 and 5, quoted).
+        Made public: FRUS 1964–68, VI (2002). To check: [Conversation with Robert McNamara, Feb. 21, 1968, 8:52 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-february-21-1968),
+        Conversation WH6802-03-12728 (Miller Center). The time is the first conversation''s. See [[cal.1968-02-20.vietnam]]. Names: Johnson, McNamara, Gore, Fulbright. Check: the day: FRUS''s note has the
+        two discuss the matter "earlier, on February 19," and cites the recordings of Feb. 21. Check: the hour: FRUS names conversations of 8:29 and 8:52 a.m.; the Miller Center lists the one of 8:52.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:mcnamara-robert-s
+      - name:gore-albert-sr
+      - name:fulbright-j-william
+- add:
+    entry:
+      id: cal.1968-02-24.vietnam-2
+      when: Feb. 24
+      date: '1968-02-24'
+      place: washington
+      thread: vietnam
+      c: McNamara's testimony of Feb. 20 on the Tonkin Gulf attacks is made public, edited by the Defense Department.
+      n: '[FRUS 1964–68, VI, doc. 79](https://history.state.gov/historicaldocuments/frus1964-68v06/d79) (editorial note: the testimony "made public on February 24"). Daily Digest, [114 Cong. Rec. D56](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=54)
+        (Feb. 21: the committee sends the transcript of Feb. 20 to the Defense Department for editing). See [[cal.1968-02-21.vietnam-congress-3]]. Names: McNamara.'
+      tags:
+      - name:mcnamara-robert-s
+- edit:
+    id: cal.1968-02-26.open-housing
+    base: fea6dd66
+    kind: correct
+    set:
+      c: Senate, H.R. 2516.{1} Feb. 26, cloture refused again, [56–36](https://voteview.com/rollcall/RS0900320).{2} Dirksen, after talks with the Justice Department and the bill's managers, offers a substitute
+        with fair housing in it, a single-family house sold or rented by its owner without a broker exempted.{3}
+      n: '[[w.cq-weekly-report]], Mar. 1, 1968, 377 (the votes; the exemption). [[w.kotz-judgment-days]], 390 (Dirksen, fearing his party blamed for unrest, changes his mind). The Senate sat from noon to
+        3:37 p.m.: [Daily Digest, D59](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=57). See [[cal.1968-02-06.open-housing]]. The Digest of Feb. 28 (D65) has
+        the tabling of the Mondale amendment and the cloture motion on Dirksen''s substitute that day, an act of its own. Names: Dirksen.'
+      src:
+        rows:
+        - 'https://voteview.com/rollcall/RS0900320: 2'
+        - 'w.cq-weekly-report Mar. 1, 1968, 377: 1, 2, 3'
+        - 'w.kotz-judgment-days 390: 2, 3'
+      when: Feb. 26
+      tags:
+      - name:dirksen-everett
+- check:
+    id: cal.1968-02-26.open-housing
+    text: 'Check: the day Dirksen offered his substitute (No. 554). The Digest of Feb. 28 has it pending; the Digest of Feb. 26 has the modified Mondale amendment pending at adjournment (D59).'
+- add:
+    entry:
+      id: cal.1968-02-28.open-housing-2
+      when: Feb. 28
+      date: '1968-02-28'
+      place: washington
+      thread: open-housing
+      c: Senate, H.R. 2516. On Mondale's motion, for Brooke and himself, the modified Mondale amendment, No. 524, tabled, [83–5](https://voteview.com/rollcall/RS0900321). Dirksen then files a cloture motion
+        on his pending amendment No. 554, a substitute with a title on fair housing.
+      n: 'Daily Digest, [114 Cong. Rec. D65](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=63) (83 yeas, 5 nays; the cloture motion filed after the vote; the
+        Senate to meet at 10 a.m. Friday, Mar. 1; adjourned at 6:18 p.m.). [[w.cq-weekly-report]], Mar. 1, 1968, 377 (the votes). See [[cal.1968-02-26.open-housing]]. Names: Mondale, Brooke, Dirksen.'
+      tags:
+      - name:dirksen-everett
+      - name:mondale-walter-f
+      - name:brooke-edward-w
+      - ok:fields-time
+- variant:
+    id: cal.1968-02-27.vietnam
+    field: date
+    value: '1968-02-28'
+    witness: w.drea-mcnamara-clifford-and-the-2011
+    reads: returning to Washington on the 28th, Wheeler informs the president that "the outcome is not at all clear"
+    at: '184'
+- check:
+    id: cal.1968-02-27.vietnam
+    text: 'Check: the day of Wheeler''s report to Johnson. FRUS VI, doc. 90, dates his memorandum Feb. 27, and doc. 89, note 3, has Johnson, at the ranch, to hear Wheeler at breakfast Feb. 28; Drea, 184,
+      has Wheeler return on the 28th and tell the President then.'

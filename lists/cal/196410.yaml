@@ -4018,6 +4018,35 @@ entries:
     n: 'Remarks in New York City at the Annual Dinner of the Alfred E. Smith Memorial Foundation, [1963–64 Pub. Papers 1329](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=569) (Oct. 14, 1964) (the President spoke at 11:20 p.m.; "at this late hour"). [[w.white-making-of-the-president-1965]], 369 ("As he spoke, the full story began to spread on the wires"); [[w.perlstein-before-the-storm]], 490 (at 9 p.m. the diners await the evening''s final speaker, still in his suite). The order: after [[cal.1964-10-14.elections-1964-6]], the call on Mrs. Kennedy ([[w.white-making-of-the-president-1965]], 369: "went first to visit"). See [[cal.1964-10-14.elections-1964]]. Names: Johnson, Spellman.'
     tags: [name:johnson-lyndon-b, name:spellman-francis, city:nyc, state:ny]
     time_zone: America/New_York
+  - id: cal.1964-10-14.elections-1964-jenkins-2
+    when: Oct. 14
+    date: '1964-10-14'
+    place: nyc
+    thread: elections-1964-jenkins
+    also: [elections-1964]
+    follows:
+      - cal.1964-10-14.republican-party
+    c: New York. Reedy confirms to reporters that Jenkins has been hospitalized for "extreme fatigue." By Branch's account.
+    n: '[[w.branch-pillar-of-fire]], 517 (Reedy "soon" after the story reaches the wire at 8:09 p.m., tearful; hospitalized for "extreme fatigue"). The order: after [[cal.1964-10-14.republican-party]], [[w.branch-pillar-of-fire]], 517 (the wire at 8:09 p.m., then Reedy "soon"). The time: the evening, "soon" after the wires 8:09 p.m. (517). Check: the hour. See [[cal.1964-10-14.elections-1964]]. Names: Reedy, Jenkins.'
+    tags: [name:reedy-george-e, name:jenkins-walter-w, city:nyc, state:ny]
+    time_zone: America/New_York
+    time_range:
+      - 1964-10-14T23:00Z
+      - 1964-10-15T02:00Z
+    time_band: evening
+    range_basis: record
+  - id: cal.1964-10-14.elections-1964-jenkins-3
+    when: Oct. 14
+    date: '1964-10-14'
+    time: 1964-10-15T02:15Z
+    thread: elections-1964-jenkins
+    also: [elections-1964]
+    follows:
+      - cal.1964-10-14.elections-1964-jenkins-2
+    c: The White House announces, 10:15 p.m., that Jenkins has resigned.
+    n: '[[w.branch-pillar-of-fire]], 517 ("at 10:15 there was a follow-up announcement that Jenkins had resigned"). The words: 10:15 (517), taken as Eastern time, the clock of Branch''s account of the evening in New York. The order: after [[cal.1964-10-14.elections-1964-jenkins-2]], [[w.branch-pillar-of-fire]], 517 (the hospitalization announced, "and at 10:15" the follow-up). Check: who made the announcement, and where. See [[cal.1964-10-14.elections-1964]]. Names: Jenkins.'
+    tags: [name:jenkins-walter-w]
+    time_zone: America/New_York
   - id: cal.1964-10-15.soviet-union
     when: Oct. 15
     date: '1964-10-15'

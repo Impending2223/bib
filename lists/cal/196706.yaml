@@ -916,15 +916,11 @@ entries:
     when: June 6
     date: '1967-06-06'
     thread: middle-east-six-day-war
-    c: 'The Security Council, unanimous, Resolution 233: a cease-fire. Johnson: "a first step" toward peace.{1}'
-    n: 'Security Council Resolution [233 (1967)](https://undocs.org/S/RES/233(1967)). Statement by the President on the United Nations Security Council''s Cease-Fire Vote in the Middle East Situation, [1967 Pub. Papers 598](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=666) (June 6, 1967). [FRUS 1964–68, XXXIV, doc. 233](https://history.state.gov/historicaldocuments/frus1964-68v34/d233) (Radio Cairo). [[w.drea-mcnamara-clifford-and-the-2011]], 443 (Radio Cairo; the breaks in relations); [[w.dallek-flawed-giant]], 430–31 (the evening of June 6, Johnson announces support of "a simple cease-fire" as a necessary first step toward a "settled peace"; the Council not insisting on a pullback; not Resolution 233 or the other units). To check: [[w.yergin-prize]]; Cairo to State, msgs 8586 and 8597, June 6, 1967, Cable files, OSD Historical Office (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 443 n.62). See [[cal.1967-06-05.middle-east]]. The oil embargo: [[cal.1967-06-06.oil]]. Split under R25b and R17: FRUS XXXIV, doc. 233, gives Radio Cairo''s charge its own hour, 7:40 a.m.; it, the closing of the canal and the breaks in relations are now entries. Names: Johnson. Check: Drea lists Algeria, Egypt, Iraq, Mauritania, Syria, Sudan and Yemen (443 n.).'
+    c: 'The Security Council, unanimous, Resolution 233: a cease-fire.{1}'
+    n: 'Security Council Resolution [233 (1967)](https://undocs.org/S/RES/233(1967)). See [[cal.1967-06-05.middle-east]]. The oil embargo: [[cal.1967-06-06.oil]]. Split under R25b and R17: FRUS XXXIV, doc. 233, gives Radio Cairo''s charge its own hour, 7:40 a.m.; it, the closing of the canal and the breaks in relations are entries of their own, with their sources (Drea, 443, and his list of the breaks, there). The Papers'' note (598) gives Johnson''s statement its own hour, 8 p.m.'
     src:
       rows:
         - 'https://undocs.org/S/RES/233(1967): 1'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=666: 1'
-        - 'w.dallek-flawed-giant 430–31: ?'
-      c: 5111be94
-    tags: [name:johnson-lyndon-b]
     short: the cease-fire resolutions
   - id: cal.1967-06-06.oil
     when: June 6
@@ -1148,6 +1144,18 @@ entries:
     thread: middle-east-six-day-war
     c: Egypt, Syria, Iraq, Algeria, Sudan and Yemen break relations with the United States, June 6–7 (Check the list).
     n: '[[w.drea-mcnamara-clifford-and-the-2011]], 443 (the breaks, "from Mauritania to Iraq"; no day). To check: Cairo to State, msgs 8586 and 8597, June 6, 1967, Cable files, OSD Historical Office (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 443 n.62). Check: Drea lists Algeria, Egypt, Iraq, Mauritania, Syria, Sudan and Yemen (443 n.). Check: the days, which rest on the line this entry was split from. See [[cal.1967-06-06.middle-east]].'
+  - id: cal.1967-06-06.middle-east-six-day-war-6
+    when: June 6
+    date: '1967-06-06'
+    time: 1967-06-07T00:00Z
+    place: washington
+    thread: middle-east-six-day-war
+    follows:
+      - cal.1967-06-06.middle-east
+    c: 'Johnson, reading a statement in the White House Theater, 8 p.m.: the Security Council''s cease-fire vote "opens a very hopeful path away from danger in the Middle East"; a cease-fire the necessary "first step" toward "settled peace."'
+    n: 'Statement by the President on the United Nations Security Council''s Cease-Fire Vote in the Middle East Situation, [1967 Pub. Papers 598](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=666) (June 6, 1967) (the Papers'' note: read by the President at 8 p.m. in the White House Theater). [[w.dallek-flawed-giant]], 430–31 (the evening of June 6, Johnson announces support of "a simple cease-fire" as a necessary first step toward a "settled peace"). See [[cal.1967-06-06.middle-east]]. The order: after [[cal.1967-06-06.middle-east]], the vote it welcomes. Names: Johnson.'
+    tags: [name:johnson-lyndon-b]
+    time_zone: America/New_York
   - id: cal.1967-06-07.middle-east
     when: June 7
     date: '1967-06-07'
@@ -1472,17 +1480,24 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu I, 522, 525: all'
     tags: [polity:prc]
+  - id: cal.1967-06-08.middle-east-six-day-war-2
+    when: June 8
+    date: '1967-06-08'
+    place: nyc
+    thread: middle-east-six-day-war
+    c: 'Egypt accepts the cease-fire, provided Israel does too: the UAR government notifies the Secretary-General, U Thant, by the end of the day.'
+    n: '[FRUS 1964–68, XIX, doc. 223](https://history.state.gov/historicaldocuments/frus1964-68v19/d223) (circular telegram, June 8, 9:53 p.m.: "By end of day UAR Government notified SYG Thant it accepts cease-fire provided Israel does too"; Israel had already signified it would). Check: the hour; the older line has the night of June 8. See [[cal.1967-06-09.middle-east]]. Names: U Thant.'
+    tags: [name:u-thant, ok:fields-time]
   - id: cal.1967-06-09.middle-east
-    when: June 9–10
+    when: June 9
     date: '1967-06-09'
     thread: middle-east-six-day-war
-    c: Egypt accepts the cease-fire the night of June 8. June 9, Israel attacks Syria on the Golan Heights; Nasser resigns, and withdraws the resignation June 10.{1}
-    n: 'FRUS 1964–68, XIX, docs. [243](https://history.state.gov/historicaldocuments/frus1964-68v19/d243), [244](https://history.state.gov/historicaldocuments/frus1964-68v19/d244), [246](https://history.state.gov/historicaldocuments/frus1964-68v19/d246), [247](https://history.state.gov/historicaldocuments/frus1964-68v19/d247), [252](https://history.state.gov/historicaldocuments/frus1964-68v19/d252), [255](https://history.state.gov/historicaldocuments/frus1964-68v19/d255). [[w.dobrynin-in-confidence]], 165–66 (the hot line, the fleet, the break, the cease-fire; not the words quoted, nor the men with Johnson); [[w.dallek-flawed-giant]], 431 (Syria agrees to halt June 9, Israel fights on, to June 10; Johnson orders the Sixth Fleet east; Israel agrees to a cease-fire on all fronts; not the hot-line text or the others at the table). Made public: Helms''s account of the morning of June 10, in Saunders''s memorandum of Oct. 22, 1968, FRUS 1964–68, XIX (2004). See [[cal.1967-06-05.middle-east]]. Split under R25b and R17: FRUS XIX, doc. 243, gives Kosygin''s message on the hot line its own hour, 8:48 a.m., June 10 (already an entry of June 10); the Soviet break with Israel, the cease-fire on the Syrian front and Resolution 236 are now entries of their own. Names: Nasser.'
+    c: June 9, Israel attacks Syria on the Golan Heights.{1}
+    n: 'FRUS 1964–68, XIX, docs. [243](https://history.state.gov/historicaldocuments/frus1964-68v19/d243), [244](https://history.state.gov/historicaldocuments/frus1964-68v19/d244), [246](https://history.state.gov/historicaldocuments/frus1964-68v19/d246), [247](https://history.state.gov/historicaldocuments/frus1964-68v19/d247), [252](https://history.state.gov/historicaldocuments/frus1964-68v19/d252), [255](https://history.state.gov/historicaldocuments/frus1964-68v19/d255). [[w.dobrynin-in-confidence]], 165–66 (the hot line, the fleet, the break, the cease-fire; not the words quoted, nor the men with Johnson); [[w.dallek-flawed-giant]], 431 (Syria agrees to halt June 9, Israel fights on, to June 10; Johnson orders the Sixth Fleet east; Israel agrees to a cease-fire on all fronts; not the hot-line text or the others at the table). Made public: Helms''s account of the morning of June 10, in Saunders''s memorandum of Oct. 22, 1968, FRUS 1964–68, XIX (2004). See [[cal.1967-06-05.middle-east]]. Split under R25b and R17: FRUS XIX, doc. 243, gives Kosygin''s message on the hot line its own hour, 8:48 a.m., June 10 (already an entry of June 10); the Soviet break with Israel, the cease-fire on the Syrian front and Resolution 236 are now entries of their own. FRUS XIX, doc. 223, has the UAR''s acceptance by the end of June 8, and doc. 236, note 2, Nasser''s address of June 9 and his withdrawal the next day. Check: FRUS XIX, doc. 223 (June 8, 9:53 p.m.), has the artillery and air bombardment of the Syrian positions on the heights begun June 8.'
     src:
       rows:
         - 'w.dallek-flawed-giant 431: ?'
-      c: 29cb1238
-    tags: [name:nasser-gamal-abdel]
+      c: 6a3f5dcb
     short: the Golan
   - id: cal.1967-06-09.desegregation-schools-boston
     when: June 9
@@ -1558,19 +1573,18 @@ entries:
   - id: cal.1967-06-09.middle-east-six-day-war-2
     when: June 9
     date: '1967-06-09'
+    time: 1967-06-09T22:30Z
+    place: washington
     thread: middle-east-six-day-war
-    c: 'The Special Committee: shipments already in the pipeline to Saudi Arabia and Israel to go on. The White House extends the embargo to Jordan and Lebanon.'
-    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 446. To check: [Notes of the Special Committee, June 9, 1967, FRUS 1964–68, XIX: Arab-Israeli Crisis and War, 1967, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236), not read. See [[cal.1967-06-07.middle-east-six-day-war-4]].'
+    c: 'The Special Committee: shipments already in the pipeline to Saudi Arabia and Israel to go on. The White House extends the embargo to Jordan and Lebanon.{1} The committee meets at 6:30 p.m., Johnson in and out from 6:53 to 7:53. Rusk: not to proceed on the basis that Nasser is out. Clifford on the *Liberty*: handle it as if the Arabs or the Soviets had done it, and punish the Israelis responsible; Johnson, by the note-taker, "subscribed 100%." McGeorge Bundy: stop everything to Lebanon, Jordan and the countries that broke relations; "Help them come apart." Johnson on Eshkol: "I had a firm commitment from Eshkol & he blew it."{2}'
+    n: '[Notes of a Meeting of the Special Committee, June 9, 1967, 6:30 p.m., FRUS 1964–68, XIX: Arab-Israeli Crisis and War, 1967, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236) (Saunders''s notes; the President present 6:53 to 7:53 p.m., by the Daily Diary; note 8: "Israel: leaves stuff in pipeline"). [[w.drea-mcnamara-clifford-and-the-2011]], 446. See [[cal.1967-06-07.middle-east-six-day-war-4]]. Names: Johnson, Rusk, Clifford, McGeorge Bundy, Eshkol.'
     src:
-      c: e97f55b2
+      c: d3885f71
       rows:
-        - 'w.drea-mcnamara-clifford-and-the-2011 446: all'
-    time_range:
-      - 1967-06-09T13:00Z
-      - 1967-06-09T21:00Z
-    time_band: workday daytime
+        - 'w.drea-mcnamara-clifford-and-the-2011 446: 1'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v19/d236: 2'
+    tags: [name:johnson-lyndon-b, name:rusk-dean, name:clifford-clark, name:bundy-mcgeorge, name:eshkol-levi]
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1967-06-09.school-aid
     when: June 9
     date: '1967-06-09'
@@ -1679,6 +1693,26 @@ entries:
       - 1967-06-09T04:00Z
     time_band: morning
     time_zone: Asia/Shanghai
+  - id: cal.1967-06-09.middle-east-six-day-war-3
+    when: June 9
+    date: '1967-06-09'
+    place: cairo
+    thread: middle-east-six-day-war
+    c: Nasser announces his resignation in a radio and television address.
+    n: '[FRUS 1964–68, XIX, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236), note 2 (the address of June 9). To check: *American Foreign Policy: Current Documents, 1967*, 520–23 (the text of the address; cited by FRUS 1964–68, XIX, doc. 236, note 2). Check: the hour of the address. See [[cal.1967-06-09.middle-east]]. Names: Nasser.'
+    tags: [name:nasser-gamal-abdel]
+  - id: cal.1967-06-09.middle-east-six-day-war-4
+    when: June 9
+    date: '1967-06-09'
+    time: 1967-06-09T20:58Z
+    place: washington
+    thread: middle-east-six-day-war
+    follows:
+      - cal.1967-06-09.middle-east-six-day-war-3
+    c: 'Battle to Rusk by telephone, 4:58 p.m.: he does not think Nasser is "out of the scene" yet.'
+    n: '[FRUS 1964–68, XIX, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236), note 2. To check: Battle and Rusk, telephone, June 9, 1967, 4:58 p.m., RG 59, Rusk Files: Lot 72 D 192, Telephone Calls (cited by FRUS 1964–68, XIX, doc. 236, note 2). Made public: FRUS 1964–68, XIX (2004). See [[cal.1967-06-09.middle-east-six-day-war-3]]. The order: after [[cal.1967-06-09.middle-east-six-day-war-3]], the resignation the call is on. Names: Battle, Rusk.'
+    tags: [name:battle-lucius-d, name:rusk-dean]
+    time_zone: America/New_York
   - id: cal.1967-06-10.oil
     when: June 10
     date: '1967-06-10'
@@ -1830,6 +1864,14 @@ entries:
     time_band: evening
     time_zone: Asia/Jerusalem
     range_basis: record
+  - id: cal.1967-06-10.middle-east-six-day-war-3
+    when: June 10
+    date: '1967-06-10'
+    place: cairo
+    thread: middle-east-six-day-war
+    c: Nasser withdraws his resignation, after mass demonstrations in Cairo.
+    n: '[FRUS 1964–68, XIX, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236), note 2 ("the following day after massive demonstrations in Cairo"). Check: the hour. See [[cal.1967-06-09.middle-east-six-day-war-3]]. Names: Nasser.'
+    tags: [name:nasser-gamal-abdel]
   - id: cal.1967-06-11.civil-disorders
     when: June 11
     date: '1967-06-11'
