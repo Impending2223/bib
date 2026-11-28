@@ -394,8 +394,8 @@ def test_country_names(register):
     name, a borders' file's own key mapped to the register's, a country the register lacks left to the file, an
     organization not a country."""
     assert vnmap.country_names(["rvn", "drv", "china", "prc", "roc", "laos", "vietnam"]) == {
-        "rvn": "Republic of Vietnam", "drv": "Democratic Republic of Vietnam", "china": "People's Republic of China",
-        "prc": "People's Republic of China", "roc": "Republic of China", "laos": "Laos"}
+        "rvn": "Republic of Vietnam", "drv": "Democratic Republic of Vietnam", "china": "China",
+        "prc": "China", "roc": "Republic of China", "laos": "Laos"}
     assert vnmap.country_names(["un"]) == {}
     assert vnmap.country_names(["drv"], "1977-01-01") == {"drv": "Socialist Republic of Vietnam"}
 

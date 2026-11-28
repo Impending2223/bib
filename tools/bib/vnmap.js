@@ -115,10 +115,10 @@ export function countyOf(line) {
    zero line, which stands where the figures cross it (a winter below freezing). The figure as shown (show), the
    month's in full for a pointer's title and a screen reader (full). */
 const INITIAL = 'JFMAMJJASOND';
-export function bars(v, show, full, label) {
+export function bars(v, show, full, label, col) {
   const lo = Math.min(0, ...v), hi = Math.max(0, ...v), r = hi - lo || 1, z = -lo / r * 100;
   const pc = (x) => +x.toFixed(2) + '%';
-  return '<div class="vnm-bars" role="img" style="--z:' + pc(100 - z) + '" aria-label="' + esc(label + ': ' + v.map((x, i) => MONTHS[i] + ' ' + full(x)).join(', ')) + '">' +
+  return '<div class="vnm-bars" role="img" style="--z:' + pc(100 - z) + (col ? ';--bar:var(--' + col + ')' : '') + '" aria-label="' + esc(label + ': ' + v.map((x, i) => MONTHS[i] + ' ' + full(x)).join(', ')) + '">' +
     v.map((x, i) => '<span title="' + esc(MONTHS[i] + ' ' + full(x)) + '">' + show(x) + '<i><i style="bottom:' + pc(x < 0 ? z + x / r * 100 : z) +
       ';height:' + pc(Math.abs(x) / r * 100) + '"></i></i><span class="m">' + INITIAL[i] + '</span></span>').join('') + '</div>';
 }
@@ -809,7 +809,7 @@ class Figure {
       for (const x of A.features) if (x.properties.k === 'lab' && x.properties.l === 'country') names[x.properties.id] = x.properties.name;
       const cid = unit ? unit.properties.c : land && land.properties.id;
       const cname = cid ? (pin.names || {})[cid] || names[cid] || (land || unit).properties.name : null;
-      const zh = (t) => (t ? ' <span class="m" lang="zh">' + esc(t) + '</span>' : '');
+      const zh = (t) => (t ? ' <span lang="zh">' + esc(t) + '</span>' : '');   // the Roman's shade (the owner, Nov. 27)
       const tiers = [], items = [];             // each tier [html, characters]
       if (f.counties && unit) {
         const c = wait('counties') ? null : within(ll, R.counties, (q) => q.k === 'county')[0];
@@ -912,11 +912,11 @@ class Figure {
           const q = c.properties, mo = (pre) => MONTHS.map((_, i) => +q[pre + (i + 1)]);
           const p = mo('p'), year = p.reduce((a, x) => a + x, 0);
           line('Precipitation: <span class="m">the year, ' + Math.round(year).toLocaleString('en-US') + ' mm.</span>' +
-            bars(p, (x) => Math.round(x).toLocaleString('en-US'), (x) => x.toLocaleString('en-US') + ' mm', 'Precipitation'));
+            bars(p, (x) => Math.round(x).toLocaleString('en-US'), (x) => x.toLocaleString('en-US') + ' mm', 'Precipitation', 'vriv'));
           if (q.t1 != null) {
             const t = mo('t'), mean = t.reduce((a, x) => a + x, 0) / 12;
             line('Temperature: <span class="m">the year\'s mean, ' + minus(mean.toFixed(1)) + ' °C.</span>' +
-              bars(t, (x) => minus(Math.round(x) || 0), (x) => minus(x) + ' °C', 'Temperature'));
+              bars(t, (x) => minus(Math.round(x) || 0), (x) => minus(x) + ' °C', 'Temperature', 'vctr'));
           }
         }
       }

@@ -326,8 +326,9 @@ PIN_POLITY = {"china": "prc"}   # a borders' file's country that is a register's
 
 def country_names(ids, day=PIN_DAY):
     """{country: name} for the pin's place line (STYLE 9): the register's name (sources/polities.yaml) on that day, a
-    polity's successor after its `until`; a register's gloss of a republic read as the name ("China (the People's
-    Republic)" -> "People's Republic of China"). A country the register does not hold keeps its file's name."""
+    polity's successor after its `until`; without the register's gloss ("China (the People's Republic)" -> "China":
+    the owner, Nov. 27, 2026: "Could we say 'China' rather than the People's Republic? (The DRV/RVN is a one-off.)").
+    A country the register does not hold keeps its file's name."""
     from . import vis
     P = vis.polities()["polities"]
     out = {}
@@ -337,9 +338,8 @@ def country_names(ids, day=PIN_DAY):
             continue
         if p.get("until") and str(p["until"]) <= day and P.get(p.get("then")):
             p = P[p["then"]]
-        n = str(p["name"])
-        m = re.match(r"^(.*) \(the (.*Republic)\)$", n)
-        out[i] = f"{m.group(2)} of {m.group(1)}" if m else n
+        from . import placepages
+        out[i] = placepages.short_name(p["name"])   # "China", not the People's Republic (the owner, Nov. 27, 2026)
     return out
 
 
