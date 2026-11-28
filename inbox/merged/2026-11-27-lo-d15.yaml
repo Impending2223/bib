@@ -346,7 +346,6 @@ ops:
       tags:
       - name:mansfield-mike
       - name:dirksen-everett
-      - bill:voting-rights-1965
 - add:
     entry:
       id: cal.1965-03-18.voting-rights-4
@@ -371,7 +370,6 @@ ops:
       - name:eastland-james-o
       - name:mansfield-mike
       - name:dirksen-everett
-      - bill:voting-rights-1965
 - edit:
     id: cal.1965-03-21.alabama-birmingham
     base: 38f4fafe
@@ -1149,8 +1147,8 @@ ops:
         Albert, McCarthy, Johnson, Lady Bird Johnson.'
 - check:
     id: cal.1964-11-01.vietnam
-    text: 'Check: Gibbons, II, 364, has six of the B-57s demolished by Viet Cong mortars on Nov. 1, five Americans killed and seventy-six wounded; 363 has 27 of the 30 destroyed or damaged, from
-      the Pentagon Papers.'
+    text: 'Check: Gibbons, II, 363, from the Pentagon Papers, has five Americans killed, 76 wounded and 27 of the 30 B-57s destroyed or damaged; the passage of Hoopes it quotes (364) has six
+      of the aircraft demolished by Viet Cong mortars, five Americans killed and seventy-six wounded.'
 - edit:
     id: cal.1965-07-23.vietnam-july-decision
     base: 788b1327
@@ -1173,6 +1171,7 @@ ops:
       when: July 23
       date: '1965-07-23'
       thread: vietnam-july-decision
+      place: washington
       follows:
       - cal.1965-07-23.vietnam-july-decision-6
       c: 'Moyers to Clifford, by telephone, after the meeting: Johnson has all but decided for McNamara and Westmoreland; it would take a miraculous effort to change his course.'
@@ -1191,6 +1190,7 @@ ops:
       when: July 23
       date: '1965-07-23'
       thread: vietnam-july-decision
+      place: washington
       follows:
       - cal.1965-07-23.vietnam-july-decision-3
       c: 'Ball to Clifford, by telephone, after his meeting with Rusk, McNamara, Wheeler, Moyers and McGeorge Bundy: Clifford''s talk with Johnson the evening before had a "salutary effect." Clifford,
@@ -1254,11 +1254,14 @@ ops:
       follows:
       - cal.1965-07-23.vietnam-july-decision-2
       - cal.1965-07-23.vietnam-july-decision
-      c: The Cabinet Room. Johnson with McNamara, Rusk, Ball, Wheeler, Bundy, Moyers and Busby, Busby to draft the announcement.
+      c: The Cabinet Room. Johnson with McNamara, Rusk, Ball, Wheeler, Bundy, Moyers and Busby, Busby to draft the announcement. McNamara lays out his three plans; Johnson, by Drea's
+        account, opts for the third, with no reserve call-up.
       n: '[[w.califano-triumph-and-tragedy-of]], 38 ("the President again huddled in the Cabinet Room with McNamara, Rusk, Ball, Wheeler, McGeorge Bundy, Bill Moyers, and ... Horace Busby, who
-        would help draft the presidential announcement"); [[w.clifford-counsel-to-the-president-2]], 416 (Ball "going with Rusk to the White House for another meeting," the group Rusk, McNamara,
+        would help draft the presidential announcement"); [[w.drea-mcnamara-clifford-and-the-2011]], 44 (the lengthy session at the White House with the same men; McNamara lays out Plans I, II
+        and III; Johnson opts for III; not the Cabinet Room); [[w.clifford-counsel-to-the-president-2]], 416 (Ball "going with Rusk to the White House for another meeting," the group Rusk, McNamara,
         Wheeler, Moyers and McGeorge Bundy). The order: after [[cal.1965-07-23.vietnam-july-decision-2]], the three ways (Califano, 38), and [[cal.1965-07-23.vietnam-july-decision]],
-        Clifford''s call to Ball before it (Clifford, 416). To check: President''s Daily Diary, July 23, 1965, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 38 n.17). See [[cal.1965-07-23.vietnam-july-decision-2]]. Names: Johnson, McNamara, Rusk, Ball, Wheeler, Bundy, Moyers, Busby.'
+        Clifford''s call to Ball before it (Clifford, 416). Check: Califano, 38, has the three ways put the same day, before the meeting; Drea, 44, has them laid out at it. To check: President''s Daily Diary,
+        July 23, 1965, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 38 n.17). See [[cal.1965-07-23.vietnam-july-decision-2]]. Names: Johnson, McNamara, Rusk, Ball, Wheeler, Bundy, Moyers, Busby.'
       tags:
       - name:johnson-lyndon-b
       - name:mcnamara-robert-s
@@ -1575,3 +1578,27 @@ ops:
         Names: Palmer.'
       tags:
       - name:palmer-bruce-jr
+- check:
+    id: cal.1965-05-02.latin-america-dominican-republic-4
+    text: 'Check: Drea, 304, has the Joint Chiefs alert Palmer "shortly after 2:00 p.m." to be ready at daybreak on May 3 ([[w.drea-mcnamara-clifford-and-the-2011]], 304).'
+- follows:
+    id: cal.1965-06-02.china-leadership-5
+    remove:
+    - cal.1965-06-02.china-leadership-3
+    why: the Waijiao huodong (459) prints the meeting after the talks with Ayub Khan at 9:30 a.m., now their own entry, [[cal.1965-06-02.china-leadership-15]]
+- follows:
+    id: cal.1965-06-02.china-leadership-5
+    add:
+    - cal.1965-06-02.china-leadership-15
+    basis: the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 459)
+- add-words:
+    id: cal.1965-04-18.china-leadership
+    after: end
+    words: Chen Yi 陈毅 there too.
+    item: '[[w.chen-yi-nianpu]], 1097'
+- names:
+    id: cal.1965-04-18.china-leadership
+    add:
+    - Chen Yi
+    tags:
+    - name:chen-yi

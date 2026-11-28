@@ -71,12 +71,19 @@ STYLE
     a tap elsewhere moves it; a tap on the pin, or the panel's ×, takes it away. A drag, a pinch or a double tap drops
     nothing. The panel: the pin's latitude and longitude to three decimals (about 100 m); the gazetteer's nearest place,
     its distance, its entries in the span, its page where it has one (PIN, `pages`) and its gazetteer row; then a line
-    for each layer the map has, read at the pin from the layer's own file (the country, the unit, the county; the
-    elevation and the sea's depth; the contours either side; the nearest river within 20 km; the lake; the climate;
-    the rain and the temperature, month by month; the population, 1960 and 1970; the nearest city with its figure),
-    or saying that it holds nothing there. A layer's file not fetched yet is fetched when the pin first needs it (the
-    elevation and the climate a tile each). The manifest's `pin` holds what the files do not: the contours' levels,
-    every climate class with its colour (the legend leaves out the rarest), and the pages (pin_data).
+    for each layer the map has, read at the pin from the layer's own file, or saying that it holds nothing there. A
+    layer's file not fetched yet is fetched when the pin first needs it (the elevation and the climate a tile each).
+    The lines, as the owner asked on Nov. 27, 2026 (notes/proposals/map-pin-2.md): the place in one line, "[County],
+    [Prefecture], [Province], [Country].", no kind, no date and no label, each Chinese tier in pinyin and characters,
+    none in a heavier type; then, after the full stop, short items (the RVN's corps zone, "Southeast region.", "Today's
+    province.", a disputed area, a word on a county's lines where they are a guess); the country by the register's
+    name on the day of the units drawn (country_names, PIN_DAY); the elevation, the point alone (no band, no contour
+    line); the sea's depth; the nearest river within 20 km ("nearest, unnamed"); the lake; "Climate"; "Precipitation"
+    and "Temperature" each as twelve bars the panel's width (.vnm-bars; CRU CL 2.0's figures are precipitation, snow
+    counted as its water), each month's figure over its bar, whole, the exact figure in the bar's title; "Population
+    density", the persons a km² after each class; the nearest city with its figure. The manifest's `pin` holds what the
+    files do not (pin_data): every climate class with its colour (the legend leaves out the rarest), the countries'
+    names, the units' names in characters, the prefectures' pinyin (tools/cnmap/prefectures.json) and the pages.
 """
 import hashlib
 import json
@@ -313,16 +320,49 @@ def client():
     return _C["client"]
 
 
-def pin_data(d, series, places, units=()):
-    """The manifest's `pin` (STYLE 9), for a map whose files are in d: the contours' levels (m), every climate class
-    with its colour, and the pages the panel links (maps.place_pages): the map's places (gazetteer keys), its units and
-    its countries (the borders' file's) that have a page of their own."""
+PIN_DAY = "1966-12-31"     # the units the maps draw are of 1966: a country is named as the register names it that day
+PIN_POLITY = {"china": "prc"}   # a borders' file's country that is a register's polity under another key
+
+
+def country_names(ids, day=PIN_DAY):
+    """{country: name} for the pin's place line (STYLE 9): the register's name (sources/polities.yaml) on that day, a
+    polity's successor after its `until`; a register's gloss of a republic read as the name ("China (the People's
+    Republic)" -> "People's Republic of China"). A country the register does not hold keeps its file's name."""
+    from . import vis
+    P = vis.polities()["polities"]
     out = {}
-    cp = os.path.join(d, FILES["contours"])
-    if os.path.exists(cp):
-        fs = json.load(open(cp, encoding="utf-8")).get("features") or []
-        out["contours"] = sorted({float(f["properties"]["elev_m"]) for f in fs if "elev_m" in (f.get("properties") or {})})
-        out["contours"] = [int(x) if x == int(x) else x for x in out["contours"]]
+    for i in sorted(ids):
+        p = P.get(PIN_POLITY.get(i, i))
+        if not p or p.get("org"):
+            continue
+        if p.get("until") and str(p["until"]) <= day and P.get(p.get("then")):
+            p = P[p["then"]]
+        n = str(p["name"])
+        m = re.match(r"^(.*) \(the (.*Republic)\)$", n)
+        out[i] = f"{m.group(2)} of {m.group(1)}" if m else n
+    return out
+
+
+def unit_zh(d):
+    """{unit: its name in characters} from the units' file in d (the map of China's units.json: `made_of`, a province's
+    own name first, 河北省 before 天津市); {} where the file or the characters are missing."""
+    p = os.path.join(d, "units.json")
+    if not os.path.exists(p):
+        return {}
+    out = {}
+    for u in json.load(open(p, encoding="utf-8")).get("units") or []:
+        han = [m for m in u.get("made_of") or [] if re.search(r"[\u4e00-\u9fff]", m)]
+        if han:
+            out[u["id"]] = next((m for m in han if re.search(r"(省|自治区)$", m)), han[0])
+    return out
+
+
+def pin_data(d, series, places, units=(), pref=None):
+    """The manifest's `pin` (STYLE 9), for a map whose files are in d: every climate class with its colour, the
+    countries' names (country_names), the units' names in characters (unit_zh), the prefectures' names in pinyin
+    (pref: the map of China's, tools/cnmap/prefs.py), and the pages the panel links (maps.place_pages): the map's
+    places (gazetteer keys), its units and its countries (the borders' file's) that have a page of their own."""
+    out = {}
     kp = os.path.join(d, "koppen.json")
     if os.path.exists(kp):
         out["koppen"] = [{k: c[k] for k in ("code", "name", "color")} for c in json.load(open(kp, encoding="utf-8"))["classes"]]
@@ -335,6 +375,13 @@ def pin_data(d, series, places, units=()):
                 countries.add(q["id"])
             if q.get("c"):
                 countries.add(q["c"])
+    if countries:
+        out["names"] = country_names(countries)
+    zh = unit_zh(d)
+    if zh:
+        out["zh"] = zh
+    if pref:
+        out["pref"] = pref
     from . import maps
     pages = maps.place_pages(series, places, units, countries)
     if pages:

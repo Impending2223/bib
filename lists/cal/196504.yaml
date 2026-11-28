@@ -3368,8 +3368,14 @@ entries:
     follows:
       - cal.1965-04-11.intelligence
     c: 'On the boat at the lake, Johnson tells Carl Albert and Senator McCarthy he is going to be a teacher, come back to the Hill Country and live. Mrs. Johnson: he is more and more enthusiastic about it.'
-    n: '[[w.johnson-white-house-diary]], 259–60 (Mrs. Johnson''s account). Made public: 1970. Names: Albert, McCarthy, Johnson, Lady Bird Johnson.'
+    n: '[[w.johnson-white-house-diary]], 259–60 (Mrs. Johnson''s account). The range is the evening: the boat is on the Llano River "turning scarlet with sunset" (259). Made public: 1970. Names: Albert, McCarthy, Johnson, Lady Bird Johnson.'
     tags: [name:johnson-lady-bird, name:johnson-lyndon-b, name:albert-carl, name:mccarthy-eugene-j, state:tx]
+    time_range:
+      - 1965-04-12T01:00Z
+      - 1965-04-12T04:00Z
+    time_band: evening
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1965-04-11.china-leadership
     when: Apr. 11
     date: '1965-04-11'
@@ -5273,15 +5279,21 @@ entries:
     place: jakarta
     thread: china-afro-asian
     also: [indonesia, africa, china-zhou-foreign]
-    c: Zhou, with Kim Il Sung, Phạm Văn Đồng, Sihanouk and chief delegates of thirty-six states, attends the ceremony at Senayan stadium, Jakarta, for the tenth anniversary of Bandung.{1}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 725 (Apr. 18, 1965); [[w.zhou-enlai-waijiao-huodong]], 447 (Apr. 18, 1965; morning, the Bung Karno stadium (雅加达朋加诺体育场), Jakarta); [[w.chen-yi-nianpu]], 1097 (Apr. 18, 1965; Chen Yi at the ceremony in the Bung Karno 朋加诺 stadium). Names: Zhou Enlai, Kim Il Sung, Phạm Văn Đồng, Sihanouk.'
+    c: Zhou, with Kim Il Sung, Phạm Văn Đồng, Sihanouk and chief delegates of thirty-six states, attends the ceremony at Senayan stadium, Jakarta, for the tenth anniversary of Bandung.{1} Chen Yi 陈毅 there too.{2}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 725 (Apr. 18, 1965); [[w.zhou-enlai-waijiao-huodong]], 447 (Apr. 18, 1965; morning, the Bung Karno stadium (雅加达朋加诺体育场), Jakarta); [[w.chen-yi-nianpu]], 1097 (Apr. 18, 1965; Chen Yi at the ceremony in the Bung Karno 朋加诺 stadium); [[w.chen-yi-nianpu]], 1097. The range is the morning, 上午, Jakarta''s clock (447). Names: Zhou Enlai, Kim Il Sung, Phạm Văn Đồng, Sihanouk, Chen Yi.'
     src:
-      c: 86d7ed29
+      c: 6cd0421c
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 725: ?'
         - 'w.zhou-enlai-waijiao-huodong 447: 1'
-        - 'w.chen-yi-nianpu 1097: ?'
-    tags: [name:zhou-enlai, name:kim-il-sung, name:pham-van-dong, name:norodom-sihanouk, polity:prc, polity:indonesia]
+        - 'w.chen-yi-nianpu 1097: 2'
+    tags: [name:zhou-enlai, name:kim-il-sung, name:pham-van-dong, name:norodom-sihanouk, polity:prc, polity:indonesia, name:chen-yi]
+    time_range:
+      - 1965-04-17T23:00Z
+      - 1965-04-18T05:00Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+    range_basis: record
   - id: cal.1965-04-18.china-leadership-2
     when: Apr. 18
     date: '1965-04-18'
@@ -6223,13 +6235,19 @@ entries:
     thread: china-afro-asian
     also: [indonesia, china-zhou-foreign]
     c: Zhou, with Sukarno, goes to Bandung and tours the buildings where the conference met ten years before.{1}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 726 (Apr. 21, 1965); [[w.zhou-enlai-waijiao-huodong]], 448 (Apr. 21, 1965; morning, by helicopter with Sukarno to Bandung, warmly welcomed; the buildings where the conference met ten years before). Names: Zhou Enlai, Sukarno.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 726 (Apr. 21, 1965); [[w.zhou-enlai-waijiao-huodong]], 448 (Apr. 21, 1965; morning, by helicopter with Sukarno to Bandung, warmly welcomed; the buildings where the conference met ten years before). The range is the morning, 上午, Jakarta''s clock (448). Names: Zhou Enlai, Sukarno.'
     src:
       c: f219b0ac
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 726: ?'
         - 'w.zhou-enlai-waijiao-huodong 448: 1'
     tags: [name:zhou-enlai, name:sukarno, polity:prc, polity:indonesia]
+    time_range:
+      - 1965-04-20T23:00Z
+      - 1965-04-21T05:00Z
+    time_band: morning
+    time_zone: Asia/Jakarta
+    range_basis: record
   - id: cal.1965-04-21.china-leadership-2
     when: Apr. 21
     date: '1965-04-21'
@@ -7798,7 +7816,7 @@ entries:
     date: '1965-04-28'
     thread: latin-america-dominican-republic
     c: Santo Domingo.{1} The junta's officers tell the embassy they can no longer protect Americans.{2}
-    n: '[FRUS 1964–68, XXXII, doc. 32](https://history.state.gov/historicaldocuments/frus1964-68v32/d32) (Critic 5, Apr. 28, 2040Z: the Country Team, "time has come to land the Marines"). Statement by the President Upon Ordering Troops Into the Dominican Republic, [1965 Pub. Papers 461](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=537) (Apr. 28, 1965). [FRUS 1964–68, XXXII, doc. 28](https://history.state.gov/historicaldocuments/frus1964-68v32/d28); [doc. 29](https://history.state.gov/historicaldocuments/frus1964-68v32/d29); [doc. 34](https://history.state.gov/historicaldocuments/frus1964-68v32/d34); [doc. 35](https://history.state.gov/historicaldocuments/frus1964-68v32/d35); [doc. 36](https://history.state.gov/historicaldocuments/frus1964-68v32/d36); [doc. 38](https://history.state.gov/historicaldocuments/frus1964-68v32/d38). [[w.drea-mcnamara-clifford-and-the-2011]], 294 (Bennett''s cables and his request for Marines; the meeting with the leaders; the address at 8:40 p.m.; Bennett''s later cables); [[w.poole-joint-chiefs-of-staff-2012]], 139 (Bennett''s request; the leaders; the address; Bennett''s cable that night); [[w.johnson-vantage-point]], 194–97; [[w.dallek-flawed-giant]], 263–64 (not Bennett''s cable that night); [[w.poole-joint-chiefs-of-staff-2012]], 139 (Bennett''s cable urging Marines ashore at once; that evening the Joint Chiefs'' order, on Johnson''s decision); [[w.ball-past-has-another-pattern]], 328 (Wednesday, April 28: the government radio announces a new junta under Colonel Benoit, who asks Bennett for twelve hundred marines; Bennett first demurs; then his "critic" message, "American lives are in danger," "the time has come," reaches Johnson in the retreat off the Oval Office with Rusk, McNamara, Bundy, Moyers and Ball, talking of Vietnam; four hundred marines ashore within hours; not the 8:40 p.m. statement). [[w.rusk-as-i-saw-it-1990]], 371 (the embassy told; Bennett''s request; the leaders). To check: [[w.lowenthal-dominican-intervention]]; [[w.gleijeses-dominican-crisis]]; [[w.mcpherson-yankee-no]]; [[w.rabe-killing-zone]]; [[w.martin-overtaken-by-events]]; [[w.reaching-for-glory]]; Santo Domingo to State, msg 1132, Apr. 28, 1965, SecDef Subject Decimal files, Acc 70A-1266 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 294 n.13); President''s Daily Diary, Apr. 28, 1965, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 294 n.14). Split under R25b and R17: FRUS XXXII, docs. 28, 29 and 32, give Benoit''s telephoned request, the junta''s written request and Bennett''s recommendation to land the Marines their own hours (1900Z, 2015Z, 2040Z); the Public Papers'' note (461) gives Johnson''s address its own hour (8:40 p.m.), and FRUS XXXII, doc. 36, Bennett''s recommendation of armed intervention its own (2327Z); each is an entry of its own. The telegram that reports the police chief (doc. 34) is stamped 2302Z, 7:02 p.m. in Washington: the report''s hour, not the act''s. See [[cal.1965-04-24.latin-america]]. Check: Rusk, with Johnson, McNamara and Bundy when Bennett''s cable came, has Johnson order five hundred Marines ashore that day and sixteen hundred more the next ([[w.rusk-as-i-saw-it-1990]], 371).'
+    n: '[FRUS 1964–68, XXXII, doc. 32](https://history.state.gov/historicaldocuments/frus1964-68v32/d32) (Critic 5, Apr. 28, 2040Z: the Country Team, "time has come to land the Marines"). Statement by the President Upon Ordering Troops Into the Dominican Republic, [1965 Pub. Papers 461](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=537) (Apr. 28, 1965). [FRUS 1964–68, XXXII, doc. 28](https://history.state.gov/historicaldocuments/frus1964-68v32/d28); [doc. 29](https://history.state.gov/historicaldocuments/frus1964-68v32/d29); [doc. 34](https://history.state.gov/historicaldocuments/frus1964-68v32/d34); [doc. 35](https://history.state.gov/historicaldocuments/frus1964-68v32/d35); [doc. 36](https://history.state.gov/historicaldocuments/frus1964-68v32/d36); [doc. 38](https://history.state.gov/historicaldocuments/frus1964-68v32/d38). [[w.drea-mcnamara-clifford-and-the-2011]], 294 (Bennett''s cables and his request for Marines; the meeting with the leaders; the address at 8:40 p.m.; Bennett''s later cables); [[w.poole-joint-chiefs-of-staff-2012]], 139 (Bennett''s request; the leaders; the address; Bennett''s cable that night); [[w.johnson-vantage-point]], 194–97; [[w.dallek-flawed-giant]], 263–64 (not Bennett''s cable that night); [[w.poole-joint-chiefs-of-staff-2012]], 139 (Bennett''s cable urging Marines ashore at once; that evening the Joint Chiefs'' order, on Johnson''s decision); [[w.ball-past-has-another-pattern]], 328 (Wednesday, April 28: the government radio announces a new junta under Colonel Benoit, who asks Bennett for twelve hundred marines; Bennett first demurs; then his "critic" message, "American lives are in danger," "the time has come," reaches Johnson in the retreat off the Oval Office with Rusk, McNamara, Bundy, Moyers and Ball, talking of Vietnam; four hundred marines ashore within hours; not the 8:40 p.m. statement). [[w.rusk-as-i-saw-it-1990]], 371 (the embassy told; Bennett''s request; the leaders). To check: [[w.lowenthal-dominican-intervention]]; [[w.gleijeses-dominican-crisis]]; [[w.mcpherson-yankee-no]]; [[w.rabe-killing-zone]]; [[w.martin-overtaken-by-events]]; [[w.reaching-for-glory]]; Santo Domingo to State, msg 1132, Apr. 28, 1965, SecDef Subject Decimal files, Acc 70A-1266 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 294 n.13); President''s Daily Diary, Apr. 28, 1965, LBJ Library (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 294 n.14). The telegram that reports the police chief (doc. 34) is stamped 2302Z, 7:02 p.m. in Washington: the report''s hour, not the act''s. See [[cal.1965-04-24.latin-america]]. Check: Rusk, with Johnson, McNamara and Bundy when Bennett''s cable came, has Johnson order five hundred Marines ashore that day and sixteen hundred more the next ([[w.rusk-as-i-saw-it-1990]], 371).'
     src:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d32: 2'
@@ -8306,16 +8324,19 @@ entries:
   - id: cal.1965-04-29.china-leadership
     when: Apr. 29
     date: '1965-04-29'
+    time: 1965-04-29T04:00Z
+    time_approx: true
     place: peking
     thread: china-zhou-foreign
-    c: Zhou reaches Beijing with Mrs. Touré by the same plane;{1} visits Chen Yi in hospital, treated for hypertension.{2}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 727 (Apr. 29, 1965); [[w.zhou-enlai-waijiao-huodong]], 450 (Apr. 29, 1965; noon; flight with Mrs. Touré to Beijing; Liu Shaoqi, Wang Guangmei and Deng Yingchao and others meet them at the airport). Names: Zhou Enlai, Chen Yi.'
+    c: Zhou reaches Beijing with Mrs. Touré by the same plane, at noon; Liu Shaoqi 刘少奇, Wang Guangmei 王光美, Deng Yingchao 邓颖超 and others meet them at the airport.{1}
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 727 (Apr. 29, 1965; not the hour or those at the airport); [[w.zhou-enlai-waijiao-huodong]], 450 (Apr. 29, 1965). The time: 中午, noon, Peking''s clock (450). The arrival is dated by the Waijiao huodong (450) and the nianpu (727). Names: Zhou Enlai, Liu Shaoqi, Wang Guangmei, Deng Yingchao.'
     src:
-      c: 747adc20
+      c: 5dba2a0b
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 727: ?'
         - 'w.zhou-enlai-waijiao-huodong 450: 1'
-    tags: [name:zhou-enlai, name:chen-yi, polity:prc]
+    tags: [name:zhou-enlai, polity:prc, name:liu-shaoqi, name:wang-guangmei, name:deng-yingchao]
+    time_zone: Asia/Shanghai
   - id: cal.1965-04-29.china-leadership-2
     when: Apr. 29–May 2
     date: '1965-04-29'
@@ -8551,6 +8572,16 @@ entries:
     c: 'Ye Jianying 叶剑英 talks with the staff of the army''s exhibition of training equipment 全军军训器材展览会: keep it going, to meet its visitors'' wishes.'
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 928–929. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, ok:fields-place, name:ye-jianying, vis:only:prc]
+  - id: cal.1965-04-29.china-leadership-17
+    when: Apr. 29
+    date: '1965-04-29'
+    place: peking
+    thread: china-zhou-foreign
+    follows:
+      - cal.1965-04-29.china-leadership
+    c: Zhou visits Chen Yi 陈毅 in hospital, treated for hypertension.
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 727 (Apr. 29, 1965; 当日，到医院看望因患高血压住院治疗的陈毅). The order: after [[cal.1965-04-29.china-leadership]], the nianpu (727: the arrival, then "当日"), Zhou reaching Peking only at noon. See [[cal.1965-04-29.china-leadership]]. Names: Zhou Enlai, Chen Yi.'
+    tags: [name:zhou-enlai, name:chen-yi, polity:prc]
   - id: cal.1965-04-30.latin-america
     when: Apr. 30
     date: '1965-04-30'

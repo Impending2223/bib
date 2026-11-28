@@ -101,6 +101,28 @@ export function nearest(p, feats) {       // the nearest point feature and its d
   return [best, d];
 }
 export const within = (p, fc, keep) => ((fc && fc.features) || []).filter((f) => (!keep || keep(f.properties || {})) && inside(p, f.geometry));
+/* a county's line (tools/cnmap/base.py): "zh · kind, end of 1964 · province[, prefecture] · how it is drawn[ · a guess]",
+   or "zh · a later unit (about 1994), shown as it is: why". The panel keeps its characters, its prefecture, and a
+   word on its lines only where they are less sure than the rest: a guess, a city at its later size, a later unit. */
+export function countyOf(line) {
+  const s = String(line || '').split(' · ');
+  if (/^a later unit/.test(s[1] || '')) return {zh: s[0], pref: '', note: 'Name and lines of a later year.'};
+  const how = s.slice(3).join(' · ');
+  return {zh: s[0], pref: ((s[2] || '').split(', ')[1] || '').trim(),
+    note: /a guess/.test(how) ? 'The county here is a guess.' : /^the later city, larger/.test(how) ? "Drawn at the city's later, larger size." : ''};
+}
+/* twelve months' bars (STYLE 9): each month's figure over its bar, the month's initial under it; the bars from the
+   zero line, which stands where the figures cross it (a winter below freezing). The figure as shown (show), the
+   month's in full for a pointer's title and a screen reader (full). */
+const INITIAL = 'JFMAMJJASOND';
+export function bars(v, show, full, label) {
+  const lo = Math.min(0, ...v), hi = Math.max(0, ...v), r = hi - lo || 1, z = -lo / r * 100;
+  const pc = (x) => +x.toFixed(2) + '%';
+  return '<div class="vnm-bars" role="img" style="--z:' + pc(100 - z) + '" aria-label="' + esc(label + ': ' + v.map((x, i) => MONTHS[i] + ' ' + full(x)).join(', ')) + '">' +
+    v.map((x, i) => '<span title="' + esc(MONTHS[i] + ' ' + full(x)) + '">' + show(x) + '<i><i style="bottom:' + pc(x < 0 ? z + x / r * 100 : z) +
+      ';height:' + pc(Math.abs(x) / r * 100) + '"></i></i><span class="m">' + INITIAL[i] + '</span></span>').join('') + '</div>';
+}
+const minus = (t) => String(t).replace('-', '−');
 /* the rivers' sizes (sources/indochina/README.md, "Rivers"): HydroRIVERS's by mean flow, SWORD's by width */
 const FLOW = ['5,000 m³/s and over', '1,000–5,000 m³/s', '300–1,000 m³/s', '100–300 m³/s', '30–100 m³/s', '10–30 m³/s', 'under 10 m³/s'];
 const WIDTH = ['900 m wide and over', '400–900 m wide', '200–400 m wide', '100–200 m wide', '50–100 m wide', 'under 50 m wide'];
@@ -774,9 +796,10 @@ class Figure {
         (n ? entries(n) + ' placed there' : 'No entry placed there') + (this.yearNow() === 'all' ? '' : ' in these dates') + '.</span>' +
         (this.D.gz != null ? ' <a class="m" href="' + esc(this.D.gz) + '#pl-' + esc(q.id) + '">In the gazetteer</a>' : ''));
     }
-    // the borders' file: the country, the unit, the disputed area
+    // the borders' file and the counties: "[County], [Prefecture], [Province], [Country]." and the unit's items after
+    // it, in the register's and the site's names, no kind and no date (the owner, Nov. 27, 2026)
     let sea = null;
-    if (wait('admin')) line('Country and province: ' + wait('admin'));
+    if (wait('admin')) line(wait('admin'));
     else {
       const A = R.admin, here = within(ll, A, (q) => ['land', 'unit', 'disp'].includes(q.k));
       const unit = here.find((x) => x.properties.k === 'unit'), land = here.find((x) => x.properties.k === 'land');
@@ -785,23 +808,38 @@ class Figure {
       const names = {};
       for (const x of A.features) if (x.properties.k === 'lab' && x.properties.l === 'country') names[x.properties.id] = x.properties.name;
       const cid = unit ? unit.properties.c : land && land.properties.id;
-      if (sea) line('Country: none; at sea.');
-      else if (cid) line('Country: ' + link(names[cid] || (land || unit).properties.name, (pages.c || {})[cid]) + '.');
-      if (disp) line('<b>' + esc(disp.properties.name) + '</b> <span class="m">a disputed area</span>');
+      const cname = cid ? (pin.names || {})[cid] || names[cid] || (land || unit).properties.name : null;
+      const zh = (t) => (t ? ' <span class="m" lang="zh">' + esc(t) + '</span>' : '');
+      const tiers = [], items = [];             // each tier [html, characters]
+      if (f.counties && unit) {
+        const c = wait('counties') ? null : within(ll, R.counties, (q) => q.k === 'county')[0];
+        if (wait('counties')) tiers.push(['…', null]);
+        else if (c) {
+          const k = countyOf(c.properties.line), py = (pin.pref || {})[k.pref];
+          tiers.push([esc(c.properties.name) + zh(k.zh), k.zh]);
+          if (py) tiers.push([esc(py) + zh(k.pref), k.pref]);
+          if (k.note) items.push(k.note);
+        }
+      }
       if (unit) {
-        const u = unit.properties, inU = (M.opt || {}).unit ? this.atv[u.id] || [] : [];
-        line('<b>' + link(u.name, (pages.u || {})[u.id]) + '</b> <span class="m">' + esc(this.unitLine(u)) + '</span>' +
-          (inU.length ? '<details><summary>' + entries(inU.length) + ' placed in it as a whole</summary>' + this.rows(inU) + '</details>' : ''));
-      } else if (!sea) line('Province: <span class="m">none drawn here.</span>');
-    }
-    if (f.counties) {
-      if (wait('counties')) line('County: ' + wait('counties'));
+        const u = unit.properties, uz = (pin.zh || {})[u.id];
+        const nm = cname ? u.name.replace(' (' + cname + ')', '') : u.name;
+        if (nm !== cname) tiers.push([link(nm, (pages.u || {})[u.id]) + zh(uz), uz]);
+        items.push(...this.unitItems(u));
+      }
+      // a tier named as the one above it is that one (a city that is its own prefecture or municipality)
+      const shown = tiers.filter((t, i) => !t[1] || !tiers.slice(i + 1).some((x) => x[1] === t[1]));
+      if (sea) line('At sea.');
       else {
-        const c = within(ll, R.counties, (q) => q.k === 'county')[0];
-        line(c ? '<b>' + esc(c.properties.name) + '</b> <span class="m">' + esc(c.properties.line) + '</span>' : 'County: <span class="m">none drawn here.</span>');
+        const head = shown.map((t) => t[0]).concat(cid ? [link(cname, (pages.c || {})[cid]) +
+          (unit && unit.properties.name === cname && unit.properties.c === cid && unit.properties.kind && !(pin.names || {})[cid] ? ', ' + esc(unit.properties.kind) : '')] : []);
+        if (disp) items.unshift(esc(disp.properties.name) + ', disputed.');
+        const inU = unit && (M.opt || {}).unit ? this.atv[unit.properties.id] || [] : [];
+        line((head.length ? head.join(', ') + '.' : '') + (items.length ? ' ' + items.join(' ') : '') +
+          (inU.length ? '<details><summary>' + entries(inU.length) + ' placed in it as a whole</summary>' + this.rows(inU) + '</details>' : ''));
       }
     }
-    // the elevation's tiles, the sea's depth, the contours either side
+    // the elevation's tiles, and the sea's depth
     let elev = null;
     if (f.dem) {
       const v = R.dem;
@@ -810,9 +848,7 @@ class Figure {
       else {
         const e = v[0] * 256 + v[1] + v[2] / 256 - 32768;
         elev = Math.abs(e + 1) < 0.01 ? null : Math.round(e);   // the sea is -1 m in the tiles; land may lie below 0
-        const band = elev == null ? null : (M.hypso || []).filter((h) => h.from <= elev).pop();
-        line(elev == null ? 'Elevation: <span class="m">the sea.</span>' : 'Elevation: about ' + elev.toLocaleString('en-US') + ' m' +
-          (band ? ' <span class="m">(' + esc(band.label) + ')</span>' : '') + '.');
+        line(elev == null ? 'Elevation: <span class="m">the sea.</span>' : 'Elevation: about ' + elev.toLocaleString('en-US') + ' m.');
       }
     }
     if (f.bathy && (sea || (R.dem && elev == null))) {
@@ -822,12 +858,6 @@ class Figure {
         const D = (M.depths || []).find((x) => +x.from === b);
         line('Depth of the sea: ' + (D ? esc(D.label) : M.depths && M.depths.length ? 'under ' + M.depths[0].from + ' m' : 'no reading') + '.');
       }
-    }
-    if (f.contours && f.dem && pin.contours && pin.contours.length) {   // read from the elevation: the lines are its
-      const C = pin.contours, lo = C.filter((c) => c <= elev).pop(), hi = C.find((c) => c > elev);
-      const m = (c) => c.toLocaleString('en-US') + ' m';
-      line('Contours: ' + (wait('dem') || (elev == null ? '<span class="m">none here.</span>' : (lo == null ? 'below the ' + m(hi) + ' line' :
-        hi == null ? 'above the ' + m(lo) + ' line' : 'between the ' + m(lo) + ' and ' + m(hi) + ' lines') + '.')));
     }
     // the rivers and lakes
     if (f.rivers) {
@@ -844,7 +874,7 @@ class Figure {
         else {
           const nm = best.name_vi || best.name, sz = +best.size, sw = best.source === 'SWORD';
           const size = (sw ? WIDTH : FLOW)[sz - 1];
-          line('Rivers: the nearest, ' + (nm ? esc(nm) + (best.name_vi && best.name && best.name !== nm ? ' (' + esc(best.name) + ')' : '') : 'one with no name in the file') +
+          line('Rivers: nearest, ' + (nm ? esc(nm) + (best.name_vi && best.name && best.name !== nm ? ' (' + esc(best.name) + ')' : '') : 'unnamed') +
             ', ' + showKm(bd) + '. <span class="m">' + (size ? (sw ? 'A channel ' : 'A mean flow of ') + size + ' (' + esc(best.source) + ').' : '') + '</span>');
         }
       }
@@ -855,7 +885,7 @@ class Figure {
           if (!k) line('Lakes: <span class="m">none here.</span>');
           else {
             const q = k.properties, dam = q.dam_year ? ', dam of ' + q.dam_year : '';
-            line('Lakes: ' + (q.name ? esc(q.name) : 'one with no name in the file') + ' <span class="m">(' + esc(q.type || 'lake') + dam + ', ' +
+            line('Lakes: ' + (q.name ? esc(q.name) : 'unnamed') + ' <span class="m">(' + esc(q.type || 'lake') + dam + ', ' +
               Math.round(+q.area_km2).toLocaleString('en-US') + ' km²)</span>.');
           }
         }
@@ -864,35 +894,40 @@ class Figure {
     // the climate's tiles: the class by its colour
     if (f.koppen) {
       const v = R.koppen;
-      if (wait('koppen')) line('Climate, 1961–1990: ' + wait('koppen'));
-      else if (!v || v[3] === 0) line('Climate, 1961–1990: <span class="m">none here.</span>');
+      if (wait('koppen')) line('Climate: ' + wait('koppen'));
+      else if (!v || v[3] === 0) line('Climate: <span class="m">none here.</span>');
       else {
         const hex = '#' + v.slice(0, 3).map((x) => x.toString(16).padStart(2, '0')).join('');
         const c = (pin.koppen || M.koppen || []).find((x) => x.color.toLowerCase() === hex);
-        line('Climate, 1961–1990: ' + (c ? esc(c.code + ' ' + c.name) : '<span class="m">a colour the legend does not name (' + hex + ').</span>') + (c ? '.' : ''));
+        line('Climate: ' + (c ? esc(c.code + ' ' + c.name) : '<span class="m">a colour the legend does not name (' + hex + ').</span>') + (c ? '.' : ''));
       }
     }
-    // the rain and the temperature, month by month
+    // the precipitation and the temperature, month by month, as bars (CRU CL 2.0's means of 1961-1990: the page's text)
     if (f.climate) {
-      if (wait('climate')) line('Rain: ' + wait('climate'));
+      if (wait('climate')) line('Precipitation: ' + wait('climate'));
       else {
         const c = within(ll, R.climate)[0];
-        if (!c) line('Rain: <span class="m">no cell here.</span>');
+        if (!c) line('Precipitation: <span class="m">no cell here.</span>');
         else {
-          const q = c.properties, mo = (pre) => MONTHS.map((m, i) => m + ' ' + q[pre + (i + 1)]).join(', ');
-          const year = MONTHS.reduce((a, _, i) => a + +q['p' + (i + 1)], 0);
-          line('Rain, mean of 1961–1990, mm a month: ' + mo('p') + '. <span class="m">The year, ' + Math.round(year).toLocaleString('en-US') + ' mm.</span>');
-          if (q.t1 != null) line('Temperature, mean of 1961–1990, °C: ' + mo('t') + '.');
+          const q = c.properties, mo = (pre) => MONTHS.map((_, i) => +q[pre + (i + 1)]);
+          const p = mo('p'), year = p.reduce((a, x) => a + x, 0);
+          line('Precipitation: <span class="m">the year, ' + Math.round(year).toLocaleString('en-US') + ' mm.</span>' +
+            bars(p, (x) => Math.round(x).toLocaleString('en-US'), (x) => x.toLocaleString('en-US') + ' mm', 'Precipitation'));
+          if (q.t1 != null) {
+            const t = mo('t'), mean = t.reduce((a, x) => a + x, 0) / 12;
+            line('Temperature: <span class="m">the year\'s mean, ' + minus(mean.toFixed(1)) + ' °C.</span>' +
+              bars(t, (x) => minus(Math.round(x) || 0), (x) => minus(x) + ' °C', 'Temperature'));
+          }
         }
       }
     }
     // the population's classes, 1960 and 1970
     if (f.pop) {
-      if (wait('pop')) line('Population: ' + wait('pop'));
+      if (wait('pop')) line('Population density: ' + wait('pop'));
       else {
         const C = M.pop.classes, cls = (i) => (i + 1 < C.length ? C[i].from.toLocaleString('en-US') + '–' + C[i + 1].from.toLocaleString('en-US') : C[i].from.toLocaleString('en-US') + ' and over');
         const at = within(ll, R.pop), by = M.pop.years.map((y) => [y, at.find((x) => +x.properties.y === y)]);
-        line('Population, persons a km², modelled: ' + (by.some(([, x]) => x) ? by.map(([y, x]) => y + ', ' + (x ? cls(+x.properties.c) : 'none')).join('; ') + '.' : '<span class="m">no cell here.</span>'));
+        line('Population density: ' + (by.some(([, x]) => x) ? by.map(([y, x]) => y + ', ' + (x ? cls(+x.properties.c) + ' persons a km²' : 'none')).join('; ') + '.' : '<span class="m">no cell here.</span>'));
       }
     }
     // the cities of the Yearbook
@@ -901,18 +936,19 @@ class Figure {
       else {
         const [c, cd] = nearest(ll, R.cities.features);
         if (!c) line('Cities: <span class="m">none on the map.</span>');
-        else line('Cities: the nearest, ' + esc(c.properties.name) + ', ' + showKm(cd) + '. <span class="m">' + esc(JSON.parse(c.properties.rows)[0].text) + '</span>');
+        else line('Cities: nearest, ' + esc(c.properties.name) + ', ' + showKm(cd) + '. <span class="m">' + esc(JSON.parse(c.properties.rows)[0].text) + '</span>');
       }
     }
     return '<button type="button" class="x" aria-label="Take the pin away">×</button><b>' + showLL(ll) + '</b>' + L.join('');
   }
 
-  unitLine(u) {
-    const Z = {I: 'I Corps', II: 'II Corps', III: 'III Corps', IV: 'IV Corps', CMD: 'Capital Military District'};
+  /* the unit's items after the place line (STYLE 9): the RVN's corps zone and region, the other countries' units
+     drawn by today's lines and their region; none for the map of China's */
+  unitItems(u) {
+    const Z = {I: 'I Corps.', II: 'II Corps.', III: 'III Corps.', IV: 'IV Corps.', CMD: 'Capital Military District.'};
     const O = this.M.opt || {};
-    if (O.unit) return [u.kind, O.unit, u.full && u.full !== u.name ? u.full : ''].filter(Boolean).join(' · ');
-    if (u.c === 'rvn') return ['province of late 1966', Z[u.ctz], u.region].filter(Boolean).join(' · ');
-    return [u.kind === 'province' ? "today's province" : u.kind, u.region].filter(Boolean).join(' · ');
+    if (O.unit) return [];
+    return [u.src === 'today' ? "Today's " + (u.kind || 'unit') + '.' : '', Z[u.ctz] || '', u.region ? u.region + ' region.' : ''].filter(Boolean);
   }
 
   showPlace(q) {

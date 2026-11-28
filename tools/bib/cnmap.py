@@ -235,9 +235,17 @@ def manifest(series):
          "credit": {**{k: v for k, v in CREDIT.items() if k in files},
                     "page": '<a href="china.html#sources">Sources and licenses</a>'},
          "opt": {"shown": ["prc", "roc", "hong-kong", "macau"], "dot": DOT, "city": CITY, "unit": "as of 1966"},
-         **vnmap._legends(SRC), "pin": vnmap.pin_data(SRC, series, list(gazetteer()), list(units()))}
+         **vnmap._legends(SRC), "pin": vnmap.pin_data(SRC, series, list(gazetteer()), list(units()), _prefectures())}
     _C["manifest"] = _put_json("manifest", M)
     return _C["manifest"]
+
+
+PREF = os.path.join(store.ROOT, "tools", "cnmap", "prefectures.json")    # the prefectures in pinyin (tools/cnmap/prefs.py)
+
+
+def _prefectures():
+    """{prefecture in characters: its name in pinyin}, for the pin's place line (vnmap STYLE 9); {} without the file."""
+    return json.load(open(PREF, encoding="utf-8")) if os.path.exists(PREF) else {}
 
 
 def _key():
