@@ -791,7 +791,7 @@ class Figure {
       if (unit) {
         const u = unit.properties, inU = (M.opt || {}).unit ? this.atv[u.id] || [] : [];
         line('<b>' + link(u.name, (pages.u || {})[u.id]) + '</b> <span class="m">' + esc(this.unitLine(u)) + '</span>' +
-          (inU.length ? ' <span class="m">' + entries(inU.length) + ' placed in it as a whole</span>' + this.rows(inU) : ''));
+          (inU.length ? '<details><summary>' + entries(inU.length) + ' placed in it as a whole</summary>' + this.rows(inU) + '</details>' : ''));
       } else if (!sea) line('Province: <span class="m">none drawn here.</span>');
     }
     if (f.counties) {
