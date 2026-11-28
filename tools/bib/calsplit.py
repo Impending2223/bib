@@ -702,7 +702,8 @@ SCRIPT = """<script>
   var now=''; try{ now=sessionStorage.getItem(KEY)||''; }catch(e){}
   if(/^[a-z0-9-]+$/.test(now)) set(now); else now='';
   /* the rubric: a tap on a thread's name lights it, or clears it if lit, at once; a second tap on it within DBL ms
-     puts the highlight back as it was and follows the link to the thread's entry in the index (a double click or
+     leaves the thread lit (the owner, Nov. 27, 2026: "The second tap should go to the summary but not undo the
+     highlight") and follows the link to the thread's entry in the index (a double click or
      tap). Enter on the name, or a click with a modifier, follows the link alone. A tap on the line elsewhere, not on
      a link or the dateline, clears the thread. Before the page's other handlers (the reader's links), after the
      dateline's: a tap that opens a rubric cut short does that alone, but on a name */
@@ -713,9 +714,9 @@ SCRIPT = """<script>
     var rt=ev.target.closest('.s.rub a.rt'), m=rt&&/thread\\.([a-z0-9-]+)$/.exec(rt.getAttribute('href')||''), t=Date.now();
     if(m){
       if(!ev.detail||ev.button||ev.altKey||ev.ctrlKey||ev.metaKey||ev.shiftKey){ last=null; return; }   // the link alone
-      if(last&&last[0]===rt&&(ev.detail>1||t-last[1]<DBL)){ now=last[2]; set(now); last=null; return; }   // the second tap: the link
+      if(last&&last[0]===rt&&(ev.detail>1||t-last[1]<DBL)){ now=m[1]; set(now); last=null; return; }   // the second tap: lit, and the link
       ev.preventDefault(); ev.stopPropagation();
-      last=[rt,t,now]; now=(now===m[1])?'':m[1]; set(now);
+      last=[rt,t]; now=(now===m[1])?'':m[1]; set(now);
       return;
     }
     last=null;

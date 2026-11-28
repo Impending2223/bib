@@ -603,12 +603,36 @@ ops:
 - edit:
     id: cal.1965-04-29.china-leadership
     base: 81f8f5f4
+    kind: correct
     set:
       time: 1965-04-29T04:00Z
       time_approx: true
       time_zone: Asia/Shanghai
-      n: '[[w.zhou-enlai-nianpu-1949]], II, 727 (Apr. 29, 1965); [[w.zhou-enlai-waijiao-huodong]], 450 (Apr. 29, 1965; noon; flight with Mrs. Touré to Beijing; Liu Shaoqi, Wang Guangmei and Deng
-        Yingchao and others meet them at the airport). The time is the arrival''s: 中午, noon, Peking''s clock, the first act (450); the hospital visit has no hour. Names: Zhou Enlai, Chen Yi.'
+      c: Zhou reaches Beijing with Mrs. Touré by the same plane, at noon; Liu Shaoqi 刘少奇, Wang Guangmei 王光美, Deng Yingchao 邓颖超 and others meet them at the airport.{1}
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 727 (Apr. 29, 1965; not the hour or those at the airport); [[w.zhou-enlai-waijiao-huodong]], 450 (Apr. 29, 1965). The time: 中午, noon, Peking''s
+        clock (450). The arrival is dated by the Waijiao huodong (450) and the nianpu (727). Names: Zhou Enlai, Liu Shaoqi, Wang Guangmei, Deng Yingchao.'
+      tags:
+      - name:zhou-enlai
+      - name:liu-shaoqi
+      - name:wang-guangmei
+      - name:deng-yingchao
+      - polity:prc
+- add:
+    entry:
+      id: cal.1965-04-29.china-leadership-17
+      when: Apr. 29
+      date: '1965-04-29'
+      place: peking
+      thread: china-zhou-foreign
+      follows:
+      - cal.1965-04-29.china-leadership
+      c: Zhou visits Chen Yi 陈毅 in hospital, treated for hypertension.
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 727 (Apr. 29, 1965; 当日，到医院看望因患高血压住院治疗的陈毅). The order: after [[cal.1965-04-29.china-leadership]], the nianpu (727: the arrival, then "当日"),
+        Zhou reaching Peking only at noon. See [[cal.1965-04-29.china-leadership]]. Names: Zhou Enlai, Chen Yi.'
+      tags:
+      - name:zhou-enlai
+      - name:chen-yi
+      - polity:prc
 - edit:
     id: cal.1965-05-07.china-leadership-7
     base: 2feb636a
@@ -644,19 +668,27 @@ ops:
       time: 1965-05-14T02:00Z
       time_zone: Asia/Shanghai
       c: China explodes its second atomic bomb, at 10 a.m.
-      n: '[[w.yang-shangkun-riji]], II, 604 (May 14, 1965; 今天上午10时，我国又爆炸了第二枚原子弹). The time: 10 a.m., as the diary writes it at Xi''an, Peking''s clock. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).
-        Check: the place; the page does not give it. See [[cal.1965-05-12.china-leadership-5]].'
+      n: '[[w.yang-shangkun-riji]], II, 604 (May 14, 1965; 今天上午10时，我国又爆炸了第二枚原子弹). The time: 10 a.m., Peking''s clock, as the diary writes it at Xi''an. Check: the place; the page
+        does not give it. See [[cal.1965-05-12.china-leadership-5]].'
       tags:
       - polity:prc
+- edit:
+    id: cal.1965-05-14.china
+    base: f986a6f2
+    set:
+      n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 28 (May 14, 1965).'
+      src:
+        c: b5af5251
+        rows:
+        - 'w.zhonghua-renmin-gongheguo-waijiao 28: 1, 2'
 - follows:
     id: cal.1965-05-14.china
     add:
     - cal.1965-05-14.china-bomb
-    basis: the test, 10 a.m., and the communiqué on its success ([[w.yang-shangkun-riji]], II, 604; [[w.zhonghua-renmin-gongheguo-waijiao]], 28)
 - check:
     id: cal.1965-05-14.china
-    text: 'Check: the day: the Waijiao dashiji (28) has Xinhua issue the communiqué on May 14, the day of the test; the editors of the manuscript note of May 12 (XVIII, 53 n.1) have Xinhua print
-      it May 15 (the variant above); Yang''s diary (II, 604) dates the explosion, 10 a.m., May 14, and names no communiqué.'
+    text: 'Check: the day of the communiqué: the Waijiao dashiji (28) has Xinhua issue it on May 14, the day of the test; the editors of Mao''s note of May 12 ([[w.jianguo-yilai-mao-zedong]],
+      XVIII, 53 n.1) have Xinhua print it May 15.'
 - edit:
     id: cal.1965-05-30.china-leadership-6
     base: 6b78a830

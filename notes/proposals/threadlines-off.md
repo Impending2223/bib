@@ -24,7 +24,7 @@ The rubric is the line of small capitals at the top of each entry that names its
 
 - One click or tap on a thread's name lights that thread at once. If that thread is already lit, the same tap clears it. The page stays where it is.
 - A second click or tap on the same name within half a second goes to the thread's summary in the index at the top of the page. The highlight goes back to how it was before the first tap. A mouse double click counts even when the computer is set to a slower double click.
-- The single tap does not wait to see whether a second tap is coming. It acts at once. The second tap undoes it and then goes to the summary.
+- The single tap does not wait to see whether a second tap is coming. It acts at once. The second tap leaves the thread lit and goes to the summary (amended on the owner's word, Nov. 27, 2026: "The second tap should go to the summary but not undo the highlight.").
 - A tap on the empty part of the rubric's line clears whatever thread is lit. The empty part is everything on that line that is not a thread's name and not the place and time at the right. On a phone, the space between the names and the place and time can be narrow, and a tap close to a name may count as a tap on the name. Where a line has room, the tap clears.
 - A tap on the place and time at the right does what it did before. The place's link still goes to the place's page.
 - A rubric too long for its line still ends in "…", and a tap on it still opens it to its full length. That tap does nothing else if it lands on the empty part. If it lands on a thread's name, it also lights or clears that thread, as before, when such a tap lit it.

@@ -1576,3 +1576,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 27, 2026, about 5:37 pm PT (Friday, after the pause).** "Sorry, Claude, \"Washington, District of Columbia\" isn't in \"Places:\" at all. I'm saying the Federal district should be listed there as \"D.C.\" and not \"Washington.\" \"Washington,\" the state, should just be \"Washington,\" not \"Washington State.\"" (Done: ruling 72 amended.)
 
 **Nov. 27, 2026, about 6:00 pm PT (Friday, after the pause).** "Shouldn't it be \"D.C., Washington\" by the logic of the alphabetical sort?" (Done: D.C. sorts with the States; ruling 72 amended.)
+
+**Nov. 27, 2026, about 6:25 pm PT (Friday, after the pause).** "\"The second tap undoes it [the highlight] and then goes to the summary.\" That behavior is unexpected. The second tap should go to the summary but not undo the highlight." (Done: the double tap leaves the thread lit and goes to the summary.)
