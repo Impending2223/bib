@@ -1562,3 +1562,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 27, 2026, about 3:52 pm PT (Friday, in the pause; queued).** "Drop the threadlines from the bottom of the web entries. Keep the navigation highlights and keyboard shortcuts. Keep the threadlines on the ebook. Could we make it so that tapping a point on the map \"drops a pin\" that toggles a display beneath the map listing the latitude and longitude of the pin, the nearest point in the gazette, and all available information about the point from the map layers?"
 
 **Nov. 27, 2026, about 4:05 pm PT (Friday, in the pause; queued).** "Give the \"Places:\" short titles of the RVN and the DRV as \"South Vietnam\" and \"North Vietnam.\""
+
+**Nov. 27, 2026, about 4:06 pm PT (Friday, in the pause; queued).** "Give the \"Places:\" short title of \"Washington, District of Columbia\" as \"D.C.\""
