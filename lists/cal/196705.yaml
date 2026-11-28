@@ -783,10 +783,10 @@ entries:
     when: May 4
     date: '1967-05-04'
     thread: vietnam-congress-foreign-relations
-    c: '*Newsday*, Moyers''s paper, prints Fulbright''s interview: the war "a nice little war, not too much killing, but still a big help to the economy"; Rivers, Jackson and Russell for it as their districts thrive on defense contracts. Rivers and Jackson protest; Fulbright apologizes, the interview off the record and quoted out of context.'
-    n: '[[w.woods-fulbright]], 448–49. Check: the days; Woods cites the *Arkansas Democrat* of May 5. To check: "Fulbright Charges News Story Aimed to Discredit Him," *Arkansas Democrat*, May 5, 1967 (cited by [[w.woods-fulbright]], 448–49 nn.34–35). Names: Moyers, Fulbright, Rivers, Jackson, Russell.'
+    c: '*Newsday*, Moyers''s paper, prints Fulbright''s interview: the war "a nice little war, not too much killing, but still a big help to the economy"; Rivers, Jackson and Russell for it as their districts thrive on defense contracts.'
+    n: '[[w.woods-fulbright]], 448–49. Check: the day; Woods (448) gives none, and cites the *Arkansas Democrat* of May 5 for the quotation. To check: "Fulbright Charges News Story Aimed to Discredit Him," *Arkansas Democrat*, May 5, 1967 (cited by [[w.woods-fulbright]], 448–49 nn.34–35). Split under R17: Woods (449) gives the protest and the apology no day; each is now an entry, dated by the *Arkansas Democrat* of May 5. Names: Moyers, Fulbright, Rivers, Jackson, Russell.'
     src:
-      c: 62b560da
+      c: 0261bd19
       rows:
         - 'w.woods-fulbright 448–49: all'
         - 'via x.1967-05-05.fulbright-charges-news-story: all'
@@ -999,6 +999,22 @@ entries:
     c: Hanoi. The three forces guarding the capital's sky meet hundreds of American sorties and shoot down eight aircraft; the May raids aim at the Long Biên bridge and the Yên Phụ power plant.
     n: '[[w.lich-su-khang-chien-chong-my]], IV, 409.'
     tags: [polity:drv, polity:us]
+  - id: cal.1967-05-05.vietnam-congress-foreign-relations
+    when: By May 5
+    date: '1967-05-05'
+    thread: vietnam-congress-foreign-relations
+    c: Rivers and Jackson protest Fulbright's remarks in the *Newsday* interview.
+    n: '[[w.woods-fulbright]], 449 ("immediately" after the interview; no day). Check: the day; Woods''s note 35 is the *Arkansas Democrat* of May 5. To check: "Fulbright Charges News Story Aimed to Discredit Him," *Arkansas Democrat*, May 5, 1967 (cited by [[w.woods-fulbright]], 448–49 nn.34–35). See [[cal.1967-05-04.vietnam-congress-2]]. Names: Rivers, Jackson.'
+    tags: [name:rivers-l-mendel, name:jackson-henry-m]
+  - id: cal.1967-05-05.vietnam-congress-foreign-relations-2
+    when: By May 5
+    date: '1967-05-05'
+    thread: vietnam-congress-foreign-relations
+    follows:
+      - cal.1967-05-05.vietnam-congress-foreign-relations
+    c: 'Fulbright publicly apologizes to his colleagues: *Newsday* sought to discredit him by quoting an off-the-record interview out of context.'
+    n: '[[w.woods-fulbright]], 449 (no day). Check: the day. To check: "Fulbright Charges News Story Aimed to Discredit Him," *Arkansas Democrat*, May 5, 1967 (cited by [[w.woods-fulbright]], 448–49 nn.34–35). See [[cal.1967-05-04.vietnam-congress-2]]. The order: after [[cal.1967-05-05.vietnam-congress-foreign-relations]], Woods, 449 ("immediately cried foul" ... "he publicly apologized"). Names: Fulbright.'
+    tags: [name:fulbright-j-william]
   - id: cal.1967-05-06.vietnam
     when: May 6
     date: '1967-05-06'
@@ -1346,8 +1362,19 @@ entries:
     date: '1967-05-08'
     thread: china-zhou
     c: Zhou Enlai, before dawn, talks in turn with those concerned on Tibet, Tianjin, Peking and Inner Mongolia.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 148 (May 8, 1967); [[w.macfarquhar-maos-last-revolution]], 244 n.20 (Zhou deals with Tianjin). Made public: 2020. To check: [[w.zhou-enlai-nianpu-1949]], III (cited by [[w.macfarquhar-maos-last-revolution]], 244 n.20). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 148 (May 8, 1967); [[w.macfarquhar-maos-last-revolution]], 244 n.20 (Zhou deals with Tianjin); [[w.zhou-enlai-nianpu-1949-2020]], III, 148 (the hour: 凌晨, read on the page image). Made public: 2020. To check: [[w.zhou-enlai-nianpu-1949]], III (cited by [[w.macfarquhar-maos-last-revolution]], 244 n.20). Names: Zhou Enlai.'
+    src:
+      c: e1f32901
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 244 n.20: ?'
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 148: time'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-05-07T16:00Z
+      - 1967-05-07T22:00Z
+    time_band: predawn
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-05-08.china-leadership-2
     when: May 8
     date: '1967-05-08'
@@ -1524,15 +1551,6 @@ entries:
     time_band: workday daytime
     time_zone: America/New_York
     range_basis: kind
-  - id: cal.1967-05-09.soviet-union-leadership
-    when: May 9–13
-    date: '1967-05-09'
-    place: sofia
-    thread: soviet-union-leadership
-    also: [comecon]
-    c: Sofia. Brezhnev leads the party-government delegation (Mazurov, Demichev and others) to Bulgaria, flying out May 10; May 12, in the Central Committee building, he and Zhivkov sign the new treaty of friendship, cooperation and mutual assistance and a communiqué; back in Moscow May 13, 2:55 p.m.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 189 (May 9–13). Names: Brezhnev, Zhivkov, Mazurov, Demichev.'
-    tags: [name:brezhnev-leonid, name:zhivkov-todor, name:mazurov-kirill-t, polity:ussr, name:demichev-pyotr-n, polity:bulgaria]
   - id: cal.1967-05-09.china-leadership
     when: May 9
     date: '1967-05-09'
@@ -1555,6 +1573,19 @@ entries:
     c: Zhou Enlai chairs the Central Special Commission to check the preparation of the hydrogen bomb air-burst test. Every link of the test is to be examined again and again for safety and success; health protection along the track of the cloud to be done thoroughly and emergency measures made ready against accident.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 148 (May 9, 1967); [[w.liu-jixian-ye-jianying-nianpu]], II, 964 (May 9, 1967; Ye Jianying 叶剑英 at the Central Special Commission 中央专委 Zhou calls on the preparations for the hydrogen bomb air-burst test). Made public: 2020. Names: Zhou Enlai.'
     tags: [name:zhou-enlai, polity:prc, vis:only:prc]
+  - id: cal.1967-05-09.soviet-union-leadership-2
+    when: May 9
+    date: '1967-05-09'
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Brezhnev works on the papers for the coming visit of the party-government delegation he is to lead to Bulgaria, 11 a.m. to 2 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 189 (May 9, 11:00–14:00; read on the page image). Made public: 2016. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, polity:bulgaria]
+    time_range:
+      - 1967-05-09T08:00Z
+      - 1967-05-09T11:00Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1967-05-10.opinion
     when: May 10
     date: '1967-05-10'
@@ -1704,6 +1735,17 @@ entries:
     c: 'Ye Jianying 叶剑英 presides at the Military Commission''s 军委 sixty-eighth standing meeting: appointments and removals of cadres; units to be formed, enlarged and reorganized; the production and issue of several weapons and kinds of equipment.'
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 964. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, name:ye-jianying, vis:only:prc, ok:fields-place]
+  - id: cal.1967-05-09.soviet-union-leadership
+    when: May 10
+    date: '1967-05-10'
+    time: 1967-05-10T05:25Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Moscow, Sofia. Brezhnev leads the party-government delegation (Mazurov, Demichev, Karpova and Kuznetsov) on an official visit to Bulgaria, flying out at 8:25 a.m., Moscow time.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 189 (May 10, 8:25; landing at Sofia 11:07, the clock not stated; read on the page image). Split under R25b and R17: the workbook gives the treaty its own hour (May 12, 12:40, Moscow time), the rally and the reception their parts of that day, and the return its own day and hour (May 13, 14:55); each is now an entry. Made public: 2016. Names: Brezhnev, Mazurov, Demichev, Kuznetsov.'
+    tags: [name:brezhnev-leonid, name:mazurov-kirill-t, polity:ussr, name:demichev-pyotr-n, polity:bulgaria, name:kuznetsov-vasily-v]
+    time_zone: Europe/Moscow
   - id: cal.1967-05-11.mississippi
     when: May 11
     date: '1967-05-11'
@@ -2156,6 +2198,45 @@ entries:
         - 'via w.dikotter-cultural-revolution 98 n.16a: all'
         - 'via w.dikotter-cultural-revolution 98 n.16b: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1967-05-12.soviet-union-leadership
+    when: May 12
+    date: '1967-05-12'
+    time: 1967-05-12T09:40Z
+    place: sofia
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Brezhnev and Todor Zhivkov sign the new treaty of friendship, cooperation and mutual assistance between the Soviet Union and Bulgaria, and a Soviet–Bulgarian communiqué, in the Central Committee building, 12:40 Moscow time.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 189 (May 12, 12:40, Moscow time, read on the page image). Made public: 2016. To check: the text of the treaty and the communiqué. See [[cal.1967-05-09.soviet-union-leadership]]. Names: Brezhnev, Zhivkov.'
+    tags: [name:brezhnev-leonid, name:zhivkov-todor, polity:ussr, polity:bulgaria]
+    time_zone: Europe/Moscow
+  - id: cal.1967-05-12.soviet-union-leadership-2
+    when: May 12
+    date: '1967-05-12'
+    place: sofia
+    thread: soviet-union-leadership
+    also: [comecon]
+    follows:
+      - cal.1967-05-12.soviet-union-leadership
+    c: After a short break, a mass rally of Sofia's working people; Zhivkov and Brezhnev speak.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 189 (May 12, read on the page image). Made public: 2016. See [[cal.1967-05-09.soviet-union-leadership]]. Names: Brezhnev, Zhivkov.'
+    tags: [name:brezhnev-leonid, name:zhivkov-todor, polity:ussr, polity:bulgaria]
+  - id: cal.1967-05-12.soviet-union-leadership-3
+    when: May 12
+    date: '1967-05-12'
+    place: sofia
+    thread: soviet-union-leadership
+    also: [comecon]
+    follows:
+      - cal.1967-05-12.soviet-union-leadership-2
+    c: Sofia, evening. A reception, Brezhnev's delegation present.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 189 (May 12, "Вечером состоялся прием"; the workbook names no host or guest; read on the page image). Made public: 2016. See [[cal.1967-05-09.soviet-union-leadership]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, polity:bulgaria]
+    time_range:
+      - 1967-05-12T17:00Z
+      - 1967-05-12T20:00Z
+    time_band: evening
+    time_zone: Europe/Sofia
+    range_basis: record
   - id: cal.1967-05-13.vietnam-congress
     when: May 13
     date: '1967-05-13'
@@ -2205,11 +2286,19 @@ entries:
   - id: cal.1967-05-13.elections-1968-johnson
     when: May 13
     date: '1967-05-13'
+    time: 1967-05-13T19:05Z
+    time_approx: true
     place: washington
     thread: elections-1968-johnson
     c: 'Queen''s Sitting Room, a little past 3, an hour and a half: Lady Bird Johnson and Abe Fortas on "how to get out and when." She has set March 1968 "in my own mind" as the time for Johnson to say he will not be a candidate. Fortas: if the war has improved, he could announce it then; if not, he "simply could not withdraw," and must try for the nomination; he must make no decision or announcement before March, which "would hamstring—almost immobilize—the war effort and Lyndon''s domestic program."'
-    n: '[[w.johnson-white-house-diary]], 518–19 (Mrs. Johnson''s account). Made public: 1970. Names: Lady Bird Johnson, Fortas, Johnson.'
+    n: '[[w.johnson-white-house-diary]], 518–19 (Mrs. Johnson''s account); [[w.johnson-white-house-diary]], 518 (the hour: "a little past 3"). Made public: 1970. Names: Lady Bird Johnson, Fortas, Johnson.'
+    src:
+      c: 9aa9748e
+      rows:
+        - 'w.johnson-white-house-diary 518–19: ?'
+        - 'w.johnson-white-house-diary 518: time'
     tags: [name:johnson-lady-bird, name:fortas-abe, name:johnson-lyndon-b]
+    time_zone: America/New_York
   - id: cal.1967-05-13.china-leadership
     when: May 13
     date: '1967-05-13'
@@ -2237,10 +2326,10 @@ entries:
     date: '1967-05-13'
     thread: china-wuhan
     also: [china-zhou-cr]
-    c: Zhou Enlai, for the 25th anniversary of Mao's Yan'an Talks on literature and art, directs the arts troupes of the army, navy and air force in Peking to perform jointly. Li Zuopeng and others, backing one side, work against it, and the armed fight with bloodshed of May 13 follows. Zhou criticizes both sides.
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 149–150 (May 13, 1967, the item after); [[w.yang-jisheng-tiandi-fanfu]], I, 429–430 (that evening Zhou, Chen Boda, Xiao Hua and Zhang Xiuchuan 張秀川 are at the Great Hall; Zhou, not knowing Mao''s and Lin''s mind, works on both sides'' heads for a joint performance; Liu Suyuan comes and tells him Mao backs her side; Zhou stands on a chair: "do not storm the performance; to storm it again is to storm Chairman Mao''s revolutionary line!" and sends Chen Boda and Xiao Hua to the theater to stop it). Made public: 2020. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 529 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 430 n.32). Names: Zhou Enlai, Li Zuopeng.'
+    c: Zhou Enlai, for the 25th anniversary of Mao's Yan'an Talks on literature and art, directs the arts troupes of the army, navy and air force in Peking to perform jointly. Li Zuopeng and others, backing one side, work against it.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 149–150 (May 13, 1967, the item after); [[w.yang-jisheng-tiandi-fanfu]], I, 429–430 (that evening Zhou, Chen Boda, Xiao Hua and Zhang Xiuchuan 張秀川 are at the Great Hall; Zhou, not knowing Mao''s and Lin''s mind, works on both sides'' heads for a joint performance; Liu Suyuan comes and tells him Mao backs her side; Zhou stands on a chair: "do not storm the performance; to storm it again is to storm Chairman Mao''s revolutionary line!" and sends Chen Boda and Xiao Hua to the theater to stop it). Made public: 2020. To check: *Qiu Huizuo huiyilu* 《邱會作回憶錄》 (Xin shiji chubanshe 新世紀出版社, Hong Kong, 2011), 529 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 430 n.32). Split under R17: the nianpu (III, 150, read on the page image) goes on to the fight of May 13, which is [[cal.1967-05-13.china-leadership-5]], and to Zhou''s criticism of the two sides, now an entry. Names: Zhou Enlai, Li Zuopeng.'
     src:
-      c: b98d6f62
+      c: be3f5f70
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 149–150: ?'
         - 'w.yang-jisheng-tiandi-fanfu I, 429–430: ?'
@@ -2328,6 +2417,28 @@ entries:
     c: Chen Yi 陈毅 at the airport to welcome Gohar Ayub Khan 古哈·阿尤布·汗, member of Pakistan's National Assembly, and his wife.
     n: '[[w.chen-yi-nianpu]], 1189. Names: Chen Yi, Ayub Khan.'
     tags: [polity:prc, polity:pakistan, name:chen-yi, name:ayub-khan-mohammad, ok:fields-place]
+  - id: cal.1967-05-13.soviet-union-leadership
+    when: May 13
+    date: '1967-05-13'
+    time: 1967-05-13T11:55Z
+    place: moscow
+    thread: soviet-union-leadership
+    also: [comecon]
+    c: Brezhnev, heading the delegation, returns from Bulgaria to Moscow, Vnukovo-2 airport, 2:55 p.m., after the talks.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 189 (May 13, 14:55, read on the page image). Made public: 2016. See [[cal.1967-05-09.soviet-union-leadership]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, polity:bulgaria]
+    time_zone: Europe/Moscow
+  - id: cal.1967-05-13.china-wuhan
+    when: May 13
+    date: '1967-05-13'
+    place: peking
+    thread: china-wuhan
+    also: [china-zhou-cr]
+    follows:
+      - cal.1967-05-13.china-leadership-5
+    c: Zhou Enlai criticizes the two sides that took part in the armed fight.
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 150 (May 13, 1967; 周恩来批评了参加武斗的两派, after the fight; read on the page image). Made public: 2020. See [[cal.1967-05-13.china-leadership-3]]; [[cal.1967-05-13.china-leadership-5]]. The order: after [[cal.1967-05-13.china-leadership-5]], the nianpu (150: the criticism is of the fight''s two sides). Names: Zhou Enlai.'
+    tags: [name:zhou-enlai, polity:prc, vis:only:prc]
   - id: cal.1967-05-14.opinion
     when: May 14
     date: '1967-05-14'
@@ -3601,8 +3712,10 @@ entries:
     time: 1967-05-19T21:38Z
     thread: vietnam-air-war
     also: [middle-east-six-day-war]
+    follows:
+      - cal.1967-05-19.vietnam-air-war-2
     c: 'Johnson with Rusk, McNamara, Rostow and Christian, 5:38 to 6:59 p.m., chiefly on the Hanoi power plant and a shift south of the 20th parallel.{1} Rostow''s memorandum, 3 p.m.: "dangerously strong feelings in your official family";{2} strike the plant, then cut back around Hanoi and Haiphong for some weeks while Moscow has its chance to "deliver something."{3} Accepted, by Gibbons''s reading.{4} The Middle East: Bohlen and Bruce to ask the French and British what they will do, to revive "as much of the tripartite as we can."{5}'
-    n: 'FRUS 1964–68, V, doc. [176](https://history.state.gov/historicaldocuments/frus1964-68v05/d176) (Rostow''s memorandum); XIX, doc. [22](https://history.state.gov/historicaldocuments/frus1964-68v19/d22) (the hour; the Middle East, from Rostow''s notes). [[w.gibbons-u-s-government-and]], IV, 650–52 (the war). Made public: FRUS 1964–68, V (2002). To check: [[w.cooper-lost-crusade]], 375 (Cooper''s account, cited by Gibbons, IV, 651). See [[cal.1967-05-19.vietnam]]; [[cal.1967-05-16.middle-east]]. Names: Johnson, Rusk, McNamara, Rostow, Christian, Bohlen, Bruce.'
+    n: 'FRUS 1964–68, V, doc. [176](https://history.state.gov/historicaldocuments/frus1964-68v05/d176) (Rostow''s memorandum); XIX, doc. [22](https://history.state.gov/historicaldocuments/frus1964-68v19/d22) (the hour; the Middle East, from Rostow''s notes). [[w.gibbons-u-s-government-and]], IV, 650–52 (the war). Made public: FRUS 1964–68, V (2002). The order: after [[cal.1967-05-19.vietnam-air-war-2]], Gibbons, IV, 650 ("earlier that day"; "After the meeting and before the meeting with the President"). To check: [[w.cooper-lost-crusade]], 375 (Cooper''s account, cited by Gibbons, IV, 651). See [[cal.1967-05-19.vietnam]]; [[cal.1967-05-16.middle-east]]. Names: Johnson, Rusk, McNamara, Rostow, Christian, Bohlen, Bruce.'
     src:
       c: 22e3ec62
       rows:
@@ -3850,6 +3963,14 @@ entries:
     c: 'Ye Jianying 叶剑英 presides at the Military Commission''s 军委 sixty-ninth standing meeting: military control; the keeping of the militia''s arms; the research and trials of several weapons; the production of military products to fixed designs.'
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 964. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, name:ye-jianying, vis:only:prc, ok:fields-place]
+  - id: cal.1967-05-19.vietnam-air-war-2
+    when: May 19
+    date: '1967-05-19'
+    thread: vietnam-air-war
+    also: [vietnam-program-5]
+    c: 'Katzenbach, Vance, William Bundy, Wheeler, Helms and Eugene Rostow meet, Walt Rostow for part of the time. Vance presents the proposal of the McNamara and Vance memorandum of May 9, which Bundy, Katzenbach and Helms had also recommended and Walt Rostow agreed with: bomb chiefly below the 20th parallel, not in the Hanoi–Haiphong area. Wheeler raises a series of objections; the others give their views.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 650 ("earlier that day"; no hour; before Walt Rostow''s memorandum to the President and the meeting with him, 5:38 p.m.). To check: Eugene Rostow to the Secretary, memorandum of May 19, 1967, State Department Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 650 n.98). See [[cal.1967-05-19.vietnam-2]]; [[cal.1967-05-19.vietnam]]. Names: Katzenbach, Vance, William Bundy, Wheeler, Helms, Eugene Rostow, Rostow.'
+    tags: [name:katzenbach-nicholas, name:vance-cyrus, name:bundy-william, name:wheeler-earle, name:helms-richard, name:rostow-eugene, name:rostow-walt-w, ok:fields-time, ok:fields-place]
   - id: cal.1967-05-20.vietnam-program-5
     when: May 20
     date: '1967-05-20'
@@ -6483,17 +6604,20 @@ entries:
     date: '1967-05-31'
     thread: china-wuhan
     also: [china-mao-cr]
-    c: Mao hears Zhou Enlai and agrees that military control of the Ministries of Railways and Communications cannot wait. That day the Center issues the two decisions (trial drafts), Mao having written "do it," and on June 1 an order on keeping the railway and transport in revolutionary order.{1}
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 31, 1967; [[w.zhou-enlai-nianpu-1949-2020]], III, 155 (May 31, 1967; Zhou at Mao''s at noon: rail and shipping are the country''s arteries, and their military control cannot wait); [[w.jianguo-yilai-mao-zedong]], XIX, 99–100 (May 31, 1967; Mao''s two notes ''Do as proposed'', after hearing Zhou, on the decisions on military control of the Railways Ministry and of the Communications Ministry; the order of June 1 is the Center''s on keeping order on the railways and transport). Made public: 2013. To check: Central Committee, State Council, Military Commission and Cultural Revolution Group, Decision on military control of the Ministry of Railways, trial draft, May 31, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 99 n.1a); Central Committee, State Council, Military Commission and Cultural Revolution Group, Decision on military control of the Ministry of Communications, trial draft, May 31, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 99 n.1a); Central Committee, State Council, Military Commission and Cultural Revolution Group, Order on firmly maintaining the revolutionary order of the railways and transport (Guanyu jianjue weihu tielu jiaotong yunshu geming zhixu de mingling 关于坚决维护铁路、交通运输革命秩序的命令), June 1, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 100 n.1). Names: Mao Zedong, Zhou Enlai.'
+    c: Mao hears Zhou Enlai at noon and agrees that military control of the Ministries of Railways and Communications cannot wait.{1}
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, May 31, 1967; [[w.zhou-enlai-nianpu-1949-2020]], III, 155 (May 31, 1967; Zhou at Mao''s at noon (中午, read on the page image): rail and shipping are the country''s arteries, and their military control cannot wait). Made public: 2013. Split under R25b and R17: the Wengao (XIX, 99–100, read on the page image) gives Mao''s two notes "Do as proposed" on the draft decisions, after he heard Zhou, no hour, and the order of June 1 its own day; the notes and the issue of the decisions are now an entry, and the order another. Names: Mao Zedong, Zhou Enlai.'
     src:
-      c: c4cfa7e8
+      c: a98b14fc
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, May 31, 1967: 1'
         - 'w.zhou-enlai-nianpu-1949-2020 III, 155: ?'
-        - 'w.jianguo-yilai-mao-zedong XIX, 99–100: 1'
-        - 'via w.jianguo-yilai-mao-zedong XIX, 99 n.1a: 1'
-        - 'via w.jianguo-yilai-mao-zedong XIX, 100 n.1: 1'
     tags: [name:mao-zedong, name:zhou-enlai, polity:prc, vis:only:prc]
+    time_range:
+      - 1967-05-31T04:00Z
+      - 1967-05-31T06:00Z
+    time_band: workday midday
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1967-05.vietnam-hanoi
     when: May
     date: 1967-05
@@ -7017,3 +7141,13 @@ entries:
         - 'via w.dikotter-cultural-revolution 225 n.11a: all'
         - 'via w.dikotter-cultural-revolution 225 n.11b: all'
     tags: [polity:prc, vis:only:prc]
+  - id: cal.1967-05-31.china-wuhan
+    when: May 31
+    date: '1967-05-31'
+    thread: china-wuhan
+    also: [china-mao-cr]
+    follows:
+      - cal.1967-05-31.china-leadership
+    c: Mao writes "do it" on each of the two draft decisions, of the Center, the State Council, the Military Commission and the Cultural Revolution Group, on military control of the Ministry of Railways and the Ministry of Communications (trial drafts). The Center issues both that day.
+    n: '[[w.jianguo-yilai-mao-zedong]], XIX, 99–100 (May 31, 1967; Mao''s two notes, "Do as proposed" (照办), after he heard Zhou on military control of the Railways and Communications ministries; no hour; the same day the two documents are issued; read on the page image). [[w.zedong-mao-zedong-nianpu]], VI, May 31, 1967 (the decisions issued that day with Mao''s note 照办). Made public: 2013. To check: Central Committee, State Council, Military Commission and Cultural Revolution Group, Decision on military control of the Ministry of Railways, trial draft, May 31, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 99 n.1a); Central Committee, State Council, Military Commission and Cultural Revolution Group, Decision on military control of the Ministry of Communications, trial draft, May 31, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 99 n.1a); Central Committee, State Council, Military Commission and Cultural Revolution Group, Order on firmly maintaining the revolutionary order of the railways and transport (Guanyu jianjue weihu tielu jiaotong yunshu geming zhixu de mingling 关于坚决维护铁路、交通运输革命秩序的命令), June 1, 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XIX, 100 n.1). See [[cal.1967-05-31.china-leadership]]. Names: Mao Zedong.'
+    tags: [name:mao-zedong, polity:prc, vis:only:prc]

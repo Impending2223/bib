@@ -423,17 +423,21 @@ entries:
     date: '1966-07-02'
     thread: defense
     also: [vietnam]
-    c: 'Executive order: a National Advisory Commission on Selective Service, twenty members, Burke Marshall chairman;{1} McCone, Shoup, and Reedy among them. Classification, deferments, exemptions, the local boards, and "other systems of national service" to be studied; the report by about Jan. 1, 1967.{2}'
-    n: '[Executive Order 11289—National Advisory Commission on Selective Service](https://www.presidency.ucsb.edu/documents/executive-order-11289-national-advisory-commission-selective-service) (July 2, 1966); Statement by the President Upon Establishing a Commission To Study the Draft and Other Systems of National Service, [1966 Pub. Papers 698](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=72) (July 2, 1966). [[w.drea-mcnamara-clifford-and-the-2011]], 272 (the commission created July 2); [[w.drea-mcnamara-clifford-and-the-2011]], 272 (the commission created July 2; its report of February 1967); [[w.wofford-of-kennedys-and-kings]], 315. Check: the order sets "not more than twenty-five members" and leaves the chairman to the President; the twenty members, Marshall chairman, are the White House''s list of July 2 (1966 Pub. Papers 698). To check: [[w.flynn-draft-1940-1973]]; [[w.baskir-chance-and-circumstance]]. Names: Marshall, McCone, Reedy, Shoup.'
+    c: 'Executive order: a National Advisory Commission on Selective Service, twenty members, Burke Marshall chairman;{1} McCone, Shoup, and Reedy among them.{3} Classification, deferments, exemptions, the local boards, and "other systems of national service" to be studied; the report by about Jan. 1, 1967.{4}'
+    cut_from:
+      '3': '2'
+      '4': '2'
+    n: '[Executive Order 11289, 31 Fed. Reg. 9265](https://www.govinfo.gov/content/pkg/FR-1966-07-07/pdf/FR-1966-07-07.pdf#page=9) (July 7, 1966). [Executive Order 11289—National Advisory Commission on Selective Service](https://www.presidency.ucsb.edu/documents/executive-order-11289-national-advisory-commission-selective-service) (July 2, 1966); Statement by the President Upon Establishing a Commission To Study the Draft and Other Systems of National Service, [1966 Pub. Papers 698](https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=72) (July 2, 1966). [[w.drea-mcnamara-clifford-and-the-2011]], 272 (the commission created July 2); [[w.drea-mcnamara-clifford-and-the-2011]], 272 (the commission created July 2; its report of February 1967); [[w.wofford-of-kennedys-and-kings]], 315. Check: the order sets "not more than twenty-five members" and leaves the chairman to the President; the twenty members, Marshall chairman, are the White House''s list of July 2 (1966 Pub. Papers 698). To check: [[w.flynn-draft-1940-1973]]; [[w.baskir-chance-and-circumstance]]. Names: Marshall, McCone, Reedy, Shoup.'
     src:
       c: 904e78c0
       rows:
-        - 'https://www.presidency.ucsb.edu/documents/executive-order-11289-national-advisory-commission-selective-service: 1, 2'
-        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=72: 1, 2'
+        - 'https://www.presidency.ucsb.edu/documents/executive-order-11289-national-advisory-commission-selective-service: 1, 3, 4'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book2/pdf/PPP-1966-book2.pdf#page=72: 1, 3, 4'
         - 'w.drea-mcnamara-clifford-and-the-2011 272: 1'
         - 'via w.drea-mcnamara-clifford-and-the-2011 272 n.38c: 1'
         - 'w.drea-mcnamara-clifford-and-the-2011 272: ?'
         - 'w.wofford-of-kennedys-and-kings 315: ?'
+        - 'https://www.govinfo.gov/content/pkg/FR-1966-07-07/pdf/FR-1966-07-07.pdf#page=9: 4'
     tags: [name:johnson-lyndon-b, name:marshall-burke, name:mccone-john-a, name:shoup-david-m, name:reedy-george-e]
     short: the Marshall commission
     time_range:
@@ -1066,16 +1070,18 @@ entries:
     when: July 5
     date: '1966-07-05'
     time: 1966-07-05T21:48Z
+    place: lbj-ranch
     thread: civil-rights-organizations
     also: [black-nationalism]
     c: 'Johnson to Whitney Young by telephone, 3:48 p.m.: he is "not for black power or white power"; "I am for American power and democracy with a small d, the fellow armed with the right to vote or armed with a job."'
-    n: '[[w.kotz-judgment-days]], 362. To check: [Johnson and Young, 3:48 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-whitney-young-july-5-1966), Conversation WH6607-01-10406 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 362 n.41). See [[cal.1966-07-05.civil-rights-organizations]]. Names: Johnson, Whitney Young.'
+    n: '[[w.kotz-judgment-days]], 362. The hour, 15:48 at the LBJ Ranch, is the recordings catalogues'' (the Miller Center''s and PRDE''s); Texas kept standard time all year in 1966, so 3:48 p.m. is 21:48Z. Check: whether the Ranch''s Daily Diary kept Central or Washington time. To check: [Johnson and Young, 3:48 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-whitney-young-july-5-1966), Conversation WH6607-01-10406 (Miller Center), not heard (cited by [[w.kotz-judgment-days]], 362 n.41). See [[cal.1966-07-05.civil-rights-organizations]]. Names: Johnson, Whitney Young.'
     src:
       c: 0df6d103
       rows:
         - 'w.kotz-judgment-days 362: all'
         - 'via x.1966-07-05.johnson-and-young-telephone-3-48: all'
     tags: [name:johnson-lyndon-b, name:young-whitney-m-jr]
+    time_zone: Etc/GMT+6
   - id: cal.1966-07-05.vietnam-air-war
     when: July 5
     date: '1966-07-05'
@@ -1908,12 +1914,11 @@ entries:
     thread: open-housing
     also: [king, states-and-cities]
     c: 'Chicago.{1} "Freedom Sunday": King at Soldier Field, some 35,000 by UPI''s count (Check), then a march to City Hall, where he tapes the Chicago Freedom Movement''s demands to the door: listings and mortgages without regard to race;{2} a citizens'' board for complaints against the police;{3} low-cost housing scattered over the city; and more.{4} July 11, King and Raby with Daley at City Hall; no agreement.{5}'
-    n: '[Demands of the Chicago Freedom Movement](https://www.crmvet.org/docs/66chi.htm) (July 10, 1966); King, [Address at rally at Soldier Field](https://okra.stanford.edu/link/document660710-000) (King Papers Project). [[w.garrow-bearing-the-cross]], 490–93; [[w.branch-at-canaans-edge]], 501–2 (98 degrees; five thousand walk the three miles; fourteen demands taped to City Hall''s door; Daley''s July 9 figures, 102,847 apartments in 9,226 buildings; the talks of July 11); [[w.kotz-judgment-days]], 365 (short of the 100,000 hoped for; five thousand to City Hall; the demands taped to the door; Daley rejects them the next day); [[w.bernstein-guns-or-butter]], 397 (30,000 of the 100,000 hoped for; 5,000 to City Hall); [[w.young-easy-burden]], 408–9 (the ninety-six demands pinned to the city hall door; Daley the next day, promising nothing); [[w.ralph-northern-protest]], 105–9 (over thirty thousand; the march to City Hall; the meeting of July 11); [[w.anderson-confronting-the-color-line]], 207–08 (the rally; July 11, King and Raby with Daley, who cites the city''s "massive programs"); [[w.cohen-american-pharaoh]], 383–86. Check: Young, 409, counts about thirty thousand at Soldier Field. Check: Cohen and Taylor give 23,000 by the city''s estimate, 60,000 by the organizers'' (384), and 5,000 to 38,000 on the march (385). To check: [[w.chicago-1966]]; [[w.chicago-freedom-movement]]; [[w.fairclough-to-redeem-the-soul]]; *Washington Post*, July 11 at A1 and July 12, 1966, at A1; *Chicago Tribune*, July 11 and 12, 1966, 1; *New York Times*, [July 11 at 1](https://timesmachine.nytimes.com/timesmachine/1966/07/11/issue.html) and [July 12, 1966, at 26](https://timesmachine.nytimes.com/timesmachine/1966/07/12/issue.html) (cited by [[w.garrow-bearing-the-cross]], 492 n.19); Investigator''s Report, "Rally and March, Southern Christian Leadership Conference/Coordinating Council of Community Organizations," July 11, 1966, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 501); [[w.king-beyond-vietnam]], 285 (cited by [[w.branch-at-canaans-edge]], 501); Oates, *Let the Trumpet Sound* (1982), 409 (cited by [[w.branch-at-canaans-edge]], 501); *Chicago Daily News*, July 12, 1966, at 4 (cited by [[w.ralph-northern-protest]], 108 n.44). Names: King, Daley, Raby.'
+    n: '[Demands of the Chicago Freedom Movement](https://www.crmvet.org/docs/66chi.htm) (July 10, 1966); King, [Address at rally at Soldier Field](https://okra.stanford.edu/link/document660710-000) (King Papers Project). [[w.garrow-bearing-the-cross]], 490–93; [[w.branch-at-canaans-edge]], 501–2 (98 degrees; five thousand walk the three miles; fourteen demands taped to City Hall''s door; Daley''s July 9 figures, 102,847 apartments in 9,226 buildings; the talks of July 11); [[w.kotz-judgment-days]], 365 (short of the 100,000 hoped for; five thousand to City Hall; the demands taped to the door; Daley rejects them the next day); [[w.bernstein-guns-or-butter]], 397 (30,000 of the 100,000 hoped for; 5,000 to City Hall); [[w.young-easy-burden]], 408–9 (the ninety-six demands pinned to the city hall door; Daley the next day, promising nothing); [[w.ralph-northern-protest]], 105–9 (over thirty thousand; the march to City Hall; the meeting of July 11); [[w.anderson-confronting-the-color-line]], 207–08 (the rally; July 11, King and Raby with Daley, who cites the city''s "massive programs"); [[w.cohen-american-pharaoh]], 383–86. Check: Young, 409, counts about thirty thousand at Soldier Field. Check: Cohen and Taylor give 23,000 by the city''s estimate, 60,000 by the organizers'' (384), and 5,000 to 38,000 on the march (385). To check: King, Address at rally at Soldier Field, July 10, 1966, 12 pp. (the text; King Papers Project); [[w.chicago-1966]]; [[w.chicago-freedom-movement]]; [[w.fairclough-to-redeem-the-soul]]; *Washington Post*, July 11 at A1 and July 12, 1966, at A1; *Chicago Tribune*, July 11 and 12, 1966, 1; *New York Times*, [July 11 at 1](https://timesmachine.nytimes.com/timesmachine/1966/07/11/issue.html) and [July 12, 1966, at 26](https://timesmachine.nytimes.com/timesmachine/1966/07/12/issue.html) (cited by [[w.garrow-bearing-the-cross]], 492 n.19); Investigator''s Report, "Rally and March, Southern Christian Leadership Conference/Coordinating Council of Community Organizations," July 11, 1966, File 940, RS, CHS (cited by [[w.branch-at-canaans-edge]], 501); [[w.king-beyond-vietnam]], 285 (cited by [[w.branch-at-canaans-edge]], 501); Oates, *Let the Trumpet Sound* (1982), 409 (cited by [[w.branch-at-canaans-edge]], 501); *Chicago Daily News*, July 12, 1966, at 4 (cited by [[w.ralph-northern-protest]], 108 n.44). Names: King, Daley, Raby.'
     src:
       c: c2696b69
       rows:
         - 'https://www.crmvet.org/docs/66chi.htm: 1, 2, 3, 4, 5'
-        - 'https://okra.stanford.edu/link/document660710-000: 1, 2, 3, 4, 5'
         - 'w.garrow-bearing-the-cross 491–93: 1, 2, 3, 4, 5'
         - 'via w.garrow-bearing-the-cross 491 n.18: 2, 3, 4'
         - 'via w.garrow-bearing-the-cross 492 n.19a: 2, 5'
@@ -1929,6 +1934,8 @@ entries:
         - 'via w.ralph-northern-protest 108 n.44: 5'
         - 'w.anderson-confronting-the-color-line 207–08: 1, 5'
         - 'w.cohen-american-pharaoh 383–86: 1, 2, 3, 4, 5'
+        - 'https://www.crmvet.org/docs/66chi.htm: 2, 3, 4'
+        - 'https://okra.stanford.edu/link/document660710-000: date'
     tags: [name:king-martin-luther-jr, name:daley-richard-j, name:raby-albert, state:il, city:chicago]
     short: Freedom Sunday and the Chicago marches
   - id: cal.1966-07-10.opinion
@@ -2627,7 +2634,7 @@ entries:
     thread: robert-kennedy
     also: [civil-rights-the-executive]
     c: '11:39 p.m., Ramsey Clark to Johnson by telephone: Hoover has witnesses, "forty or fifty of them," to swear that Robert Kennedy knew of the FBI''s microphones.'
-    n: '[[w.branch-at-canaans-edge]], 567. To check: [Johnson and Ramsey Clark, 11:39 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ramsey-clark-july-14-1966), Conversation WH6607-01-10407 (Miller Center) (cited by [[w.branch-at-canaans-edge]], 567). After [[cal.1966-07-13.amendments]] (the sources above). Names: Ramsey Clark, Johnson, Hoover, Robert Kennedy.'
+    n: '[[w.branch-at-canaans-edge]], 567. To check: [Johnson and Ramsey Clark, 11:39 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-ramsey-clark-july-14-1966), Conversation WH6607-01-10407 (Miller Center) (cited by [[w.branch-at-canaans-edge]], 567). Names: Ramsey Clark, Johnson, Hoover, Robert Kennedy.'
     src:
       c: acf78bb4
       rows:
@@ -3449,7 +3456,7 @@ entries:
     thread: china-may-sixteenth
     also: [china-mao-cr]
     c: Mao, in a telegram from Shanghai 上海 to Deng Xiaoping 鄧小平, says he will return to preside over the plenum and that it may in no case meet before he is back. The meeting, set for July 21 in Peking, is put off.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 220. Made public: 2008. To check: Zhou Liangxiao 周良霄 and Gu Juying 顧菊英, *Shinian wenge dashiji* 《十年文革大事記》 (Xindalu chubanshe 新大陸出版社, Hong Kong, 2008), 109 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 220 n.5). Names: Deng Xiaoping, Mao Zedong. Check: the place; the calendar has Mao at Wuchang on July 17 ([[cal.1966-07-17.china-leadership]]).'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 220. Made public: 2008. Check: the day and the place: Yang (I, 220, read) has the telegram July 17, from Shanghai, citing the *Shinian wenge dashiji*, 109 (not seen); the Mao nianpu (V, July 17, read) has Mao at Wuchang that day, meeting the Afro-Asian writers, leaving Wuhan at 3 p.m. and back in Peking July 18. To check: Zhou Liangxiao 周良霄 and Gu Juying 顧菊英, *Shinian wenge dashiji* 《十年文革大事記》 (Xindalu chubanshe 新大陸出版社, Hong Kong, 2008), 109 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 220 n.5). Names: Deng Xiaoping, Mao Zedong. Check: the place; the calendar has Mao at Wuchang on July 17 ([[cal.1966-07-17.china-leadership]]).'
     src:
       c: 8b98cc78
       rows:
@@ -3965,7 +3972,7 @@ entries:
     place: wuhan
     thread: china-leadership
     c: 'Li Da 李达, having read in the papers of Mao''s swim in the Yangtze 长江, writes him a short letter: "Chairman: please save my life. I have written a confession; please ask the Wuhan University work team for it."'
-    n: '[[w.pu-weihua-zalan-jiu-shijie]], 138. The words: 7月19日下午 (138). Made public: 2008. Names: Mao Zedong, Li Da.'
+    n: '[[w.pu-weihua-zalan-jiu-shijie]], 138. The words: 7月19日下午 (138). Made public: 2008. Check: the day: Li Da''s letter is signed 七月十九日 and Pu (138, read) says he wrote it that afternoon after reading in the papers of Mao''s swim; the *Renmin ribao* reported the swim July 26 ([[cal.1966-07-26.china-leadership-4]] is the calendar''s entry of that report, not read here); Pu does not say which paper Li read, and the Hubei papers of July 17–19 were not seen. Names: Mao Zedong, Li Da.'
     src:
       c: f312e54c
       rows:
@@ -4185,7 +4192,7 @@ entries:
     place: peking
     thread: china-may-sixteenth
     c: The Tsinghua University 清華大學 work group frees Kuai Dafu 蒯大富, who has been held. He does not believe it; that afternoon, between three and four, he tries the grounds and, by the university wall, looking behind him, finds no one following.
-    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 214. Made public: 2014. To check: Kuai Dafu 蒯大富, *Qinghua wenge wushi tian* 《清華文革五十天》 (Zhongguo wenhua chuanbo chubanshe 中國文化傳播出版社, Hong Kong, 2014), 72 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 214 n.78). The words: 下午大概3、4點鐘 (I, 214). Names: Kuai Dafu.'
+    n: '[[w.yang-jisheng-tiandi-fanfu]], I, 214. Made public: 2014. Check: the day: Yang (I, 214, read) has the work group free Kuai July 20, on Kuai''s own words (his book, 72); MacFarquhar (83) has Wang Li and Guan Feng find him "still detained" (the month-dated entry); Yang puts that visit July 22. To check: Kuai Dafu 蒯大富, *Qinghua wenge wushi tian* 《清華文革五十天》 (Zhongguo wenhua chuanbo chubanshe 中國文化傳播出版社, Hong Kong, 2014), 72 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 214 n.78). The words: 下午大概3、4點鐘 (I, 214). Names: Kuai Dafu.'
     src:
       c: '43806960'
       rows:
@@ -4867,12 +4874,13 @@ entries:
     thread: china-may-sixteenth
     also: [china-liu]
     c: The enlarged Standing Committee meeting, afternoon.{1} Liu Shaoqi reaffirms to the increasingly stormy meeting his conviction that work teams are essential and that the great majority have worked well. Deng Xiaoping, Bo Yibo and, from the PLA, Ye Jianying and Liu Zhijian back him.{2}
-    n: '[[w.macfarquhar-maos-last-revolution]], 83; [[w.pu-weihua-zalan-jiu-shijie]], 175 (dated July 22, the enlarged Standing Committee on the Peking colleges'' preliminary plan: Liu, most work groups good; Deng against withdrawing them; Ye Jianying and Liu Zhijian, for the army, oppose withdrawing them). Made public: 1991. To check: [[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 645–646 (cited by [[w.macfarquhar-maos-last-revolution]], 83 n.76a); [[w.qibin-zhongguo-gongchandang-zhizheng-sishinian]], 272 (cited by [[w.macfarquhar-maos-last-revolution]], 83 n.76b). The words: "the afternoon of July 23" (MacFarquhar 83). Names: Liu Shaoqi, Deng Xiaoping, Bo Yibo, Ye Jianying, Liu Zhijian.'
+    n: '[[w.macfarquhar-maos-last-revolution]], 83; [[w.pu-weihua-zalan-jiu-shijie]], 175 (dated July 22, the enlarged Standing Committee on the Peking colleges'' preliminary plan: Liu, most work groups good; Deng against withdrawing them; Ye Jianying and Liu Zhijian, for the army, oppose withdrawing them); [[w.qibin-zhongguo-gongchandang-zhizheng-sishinian]], 272 (July 19–23, the report meetings on the Cultural Revolution under Liu Shaoqi; the afternoon of July 23, Liu and others at the meeting: most work groups are good; work groups cannot be done without; the question is helping them, not withdrawing them). Made public: 1991. Check: the meeting: the Zhizheng sishinian (272) has report meetings under Liu from July 19 to 23, the afternoon of July 23 the one where Liu says most work groups are good; the Liu Shaoqi nianpu (II, 645–646), the Deng Xiaoping nianpu (III, 1924–1925) and Pu (175) have the enlarged Standing Committee on the Peking colleges'' plan July 22 ([[cal.1966-07-22.china-leadership-7]]) and nothing of July 23 but the evening at Liu''s (Deng, III, 1925); of MacFarquhar''s two sources (83 n.76) only the Zhizheng sishinian has July 23. The words: "the afternoon of July 23" (MacFarquhar 83). Names: Liu Shaoqi, Deng Xiaoping, Bo Yibo, Ye Jianying, Liu Zhijian.'
     src:
       c: 9c7bd7f3
       rows:
         - 'w.macfarquhar-maos-last-revolution 83: 1, 2'
         - 'w.pu-weihua-zalan-jiu-shijie 175: ?'
+        - 'w.qibin-zhongguo-gongchandang-zhizheng-sishinian 272: ?'
     tags: [polity:prc, name:liu-shaoqi, name:deng-xiaoping, name:bo-yibo, name:ye-jianying, vis:only:prc, name:liu-zhijian]
     time_range:
       - 1966-07-23T04:00Z

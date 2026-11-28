@@ -1,0 +1,216 @@
+patch: 2026-11-27-lo-d22
+by: Claude (Sonnet), leftovers batch lo-d22, Nov. 28, 2026
+ops:
+- edit:
+    id: cal.1968-07-03.soviet-union-leadership
+    base: a569c147
+    set:
+      time_range:
+      - 1968-07-03T18:30Z
+      - 1968-07-03T21:20Z
+      time_zone: Europe/Moscow
+      range_basis: record
+- edit:
+    id: cal.1968-07-03.soviet-union-leadership-2
+    base: 3f920d35
+    kind: correct
+    set:
+      when: July 3
+      c: Moscow. Brezhnev negotiates in the Kremlin with the Hungarian delegation led by Kádár, 9 to 11, Kosygin, Podgorny, Voronov, Demichev, Katushev, Lesechko, Gromyko and Titov taking
+        part.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 3, 9 to 11, in the Kremlin; read on the page). Split under R25b and R17: the diary gives the rally, the dinner and the
+        leave-taking of July 4 hours or a day of their own; each is now an entry, [[cal.1968-07-03.soviet-union-leadership-3]], [[cal.1968-07-03.soviet-union-leadership-4]], [[cal.1968-07-04.soviet-union-leadership-3]].
+        Names: Brezhnev, Kádár, Kosygin, Podgorny, Voronov, Demichev, Katushev, Lesechko, Gromyko, Titov.'
+      range_basis: record
+- add:
+    entry:
+      id: cal.1968-07-03.soviet-union-leadership-3
+      when: July 3
+      date: '1968-07-03'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - soviet-union-czechoslovakia
+      - comecon
+      follows:
+      - cal.1968-07-03.soviet-union-leadership-2
+      c: Moscow, the Palace of Congresses. Brezhnev speaks at the Hungarian–Soviet friendship rally, 12 to 2:20.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 3, 12 to 2:20, the Palace of Congresses; read on the page). See [[cal.1968-07-03.soviet-union-leadership-2]]. Names: Brezhnev.'
+      time_range:
+      - 1968-07-03T09:00Z
+      - 1968-07-03T11:20Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - polity:ussr
+      - polity:hungary
+- add:
+    entry:
+      id: cal.1968-07-03.soviet-union-leadership-4
+      when: July 3
+      date: '1968-07-03'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - soviet-union-czechoslovakia
+      - comecon
+      follows:
+      - cal.1968-07-03.soviet-union-leadership-3
+      c: Moscow, the House of Receptions. Dinner for the Hungarian party and government delegation, 5 to 9:20 p.m.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 3, 17:00 to 21:20, the House of Receptions; read on the page). See [[cal.1968-07-03.soviet-union-leadership-2]]. Names:
+        none.'
+      time_range:
+      - 1968-07-03T14:00Z
+      - 1968-07-03T18:20Z
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - polity:ussr
+      - polity:hungary
+- add:
+    entry:
+      id: cal.1968-07-04.soviet-union-leadership-3
+      when: July 4
+      date: '1968-07-04'
+      place: moscow
+      thread: soviet-union-leadership
+      also:
+      - soviet-union-czechoslovakia
+      - comecon
+      c: Moscow, the airport. Brezhnev, with Podgorny and Kosygin, sees the Hungarian party and government delegation under Kádár off, in the morning.
+      n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 4, "Утром"; read on the page). See [[cal.1968-07-03.soviet-union-leadership-2]]. Names: Brezhnev, Podgorny, Kosygin, Kádár.'
+      time_range:
+      - 1968-07-04T03:00Z
+      - 1968-07-04T09:00Z
+      time_band: morning
+      time_zone: Europe/Moscow
+      range_basis: record
+      tags:
+      - name:brezhnev-leonid
+      - name:podgorny-nikolai-v
+      - name:kosygin-aleksei
+      - name:kadar-janos
+      - polity:ussr
+      - polity:hungary
+- edit:
+    id: cal.1968-07-23.crime-and-hijacking-guns
+    base: e2da4982
+    kind: correct
+    set:
+      c: The House on the gun bill, H.R. 17735. McClory's amendment, federal licensing of gun owners, refused by teller vote, 84–179.
+      n: '[114 Cong. Rec. 22,763](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=20) (1968) (July 23, 1968) (a division first, 59–102; then
+        tellers, McClory and Sikes, 84–179). [[w.cq-weekly-report]], July 26, 1968, 1939. Split under R25b and R17: the Record gives Horton''s amendment its own page (22,779–80), after
+        Dingell''s and MacGregor''s; it is now an entry, [[cal.1968-07-23.crime-and-hijacking-guns-2]]. Names: McClory.'
+- add:
+    entry:
+      id: cal.1968-07-23.crime-and-hijacking-guns-2
+      when: July 23
+      date: '1968-07-23'
+      place: washington
+      thread: crime-and-hijacking-guns
+      follows:
+      - cal.1968-07-19.crime-and-hijacking-guns-4
+      c: The House on the gun bill, H.R. 17735, in committee of the whole. Horton's amendment, no importation of surplus military firearms, adopted by teller vote, 65–62; the tellers
+        Horton and Dingell.
+      n: '[114 Cong. Rec. 22,779–80](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=36) (1968) (July 23, 1968) (the amendment offered, 22,779;
+        a division, 43–43; the teller vote, 65–62, 22,780). [[w.cq-weekly-report]], July 26, 1968, 1941. See [[cal.1968-07-23.crime-and-hijacking-guns]]. Check: the hour within the sitting;
+        the House sat from 11 a.m. ([114 Cong. Rec. 22,744](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=1) (1968)) to 7:40 p.m. ([22,832](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=89)).
+        Names: Horton, Dingell.'
+      time_range:
+      - 1968-07-23T18:00Z
+      - 1968-07-23T21:00Z
+      time_band: workday afternoon
+      time_zone: America/New_York
+      range_basis: kind
+      tags:
+      - name:horton-frank-j
+      - name:dingell-john-d
+- follows:
+    id: cal.1968-07-19.crime-and-hijacking-guns-2
+    add:
+    - cal.1968-07-23.crime-and-hijacking-guns
+    basis: '[114 Cong. Rec. 22,763 and 22,765](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=20)'
+- edit:
+    id: cal.1968-07-30.vietnam-paris
+    base: 620e4bb7
+    kind: correct
+    set:
+      src:
+        c: 1078301a
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d314: 1'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dean-rusk-july-30-1968: 1'
+      place: washington
+      time: 1968-07-30T05:57Z
+      time_zone: America/New_York
+      c: 'Johnson to Rusk by telephone, on the Paris cable: Clifford "kind of expressing the viewpoint that''s contained in the cable"; "we''re not going to stop the bombing until they
+        agree to stop some."{1}'
+      n: 'FRUS 1964–68, VI, doc. [314](https://history.state.gov/historicaldocuments/frus1964-68v06/d314) (Washington, July 30, 1968, 9:57 a.m.). [Johnson and Rusk, 9:57 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dean-rusk-july-30-1968),
+        Conversation WH6807-02-13219 (Miller Center). Made public: FRUS 1964–68, VI (2002). Split under R25b and R17: FRUS, doc. 316, gives the meeting with his foreign policy advisers
+        its own hours (1 to 2:05 p.m.); it is now an entry, [[cal.1968-07-30.vietnam-paris-4]]. See [[cal.1968-07-29.vietnam]]. Names: Johnson, Rusk, Clifford.'
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- add:
+    entry:
+      id: cal.1968-07-30.vietnam-paris-4
+      when: July 30
+      date: '1968-07-30'
+      place: washington
+      thread: vietnam-paris
+      follows:
+      - cal.1968-07-30.vietnam-paris
+      c: 'Johnson with Rusk, Clifford, Taylor, Wheeler and Helms, 1 to 2:05 p.m.: he asks Taylor for a report on "this new wave of demands to stop the bombing."'
+      n: 'FRUS 1964–68, VI, doc. [316](https://history.state.gov/historicaldocuments/frus1964-68v06/d316) (Notes of Meeting, Washington, July 30, 1968, 1–2:05 p.m.). [[w.clifford-counsel-to-the-president-2]],
+        567–68 (the lunch: Johnson to Rusk on his news conference, "You missed a lot of opportunities"; to Clifford, on his remark that the concentrated bombing had "in some respects
+        produced more dividends," "Lay off that line. It''s a damned lie"). Made public: FRUS 1964–68, VI (2002). See [[cal.1968-07-30.vietnam-paris]]. Names: Johnson, Rusk, Clifford,
+        Taylor, Wheeler, Helms.'
+      time_range:
+      - 1968-07-30T09:00Z
+      - 1968-07-30T10:05Z
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:johnson-lyndon-b
+      - name:rusk-dean
+      - name:clifford-clark
+      - name:taylor-maxwell
+      - name:wheeler-earle
+      - name:helms-richard
+- edit:
+    id: cal.1968-08-03.elections-1968-miami
+    base: c0c02845
+    kind: correct
+    set:
+      src:
+        c: 00a872c8
+        rows:
+        - 'w.chester-american-melodrama 454–55: 1, 2'
+      c: 'Miami Beach.{1} The *New York Times*, from Leonard Hall, Rockefeller''s floor manager: "Rockefeller Aides Fear Reagan Is Gaining Rapidly," up to 300 votes for Reagan on the
+        first ballot.{2}'
+      n: '[[w.chester-american-melodrama]], 454–55 (Saturday, Aug. 3). Split under R25b and R17: Chester, 449, gives Reagan''s television interview its own part of the day ("Saturday
+        night"); it is now an entry, [[cal.1968-08-03.elections-1968-miami-7]]. Names: Hall, Rockefeller.'
+- add:
+    entry:
+      id: cal.1968-08-03.elections-1968-miami-7
+      when: Aug. 3
+      date: '1968-08-03'
+      place: miami-beach
+      thread: elections-1968-miami
+      also:
+      - republican-party
+      c: 'Miami Beach. Reagan, back on the beach Saturday night, on television: "It''s very difficult to disagree with most of the things that Mr. Wallace is saying." He adds that he
+        must disagree with Wallace nonetheless.'
+      n: '[[w.chester-american-melodrama]], 449 ("by Saturday night"; the television interview). To check: Reagan, television interview, Miami Beach, Aug. 3, 1968 (cited by [[w.chester-american-melodrama]],
+        449). See [[cal.1968-08-03.elections-1968-miami]]. Names: Reagan, Wallace.'
+      time_range:
+      - 1968-08-03T18:00Z
+      - 1968-08-03T20:00Z
+      time_band: night
+      time_zone: America/New_York
+      range_basis: record
+      tags:
+      - name:reagan-ronald
+      - name:wallace-george-c

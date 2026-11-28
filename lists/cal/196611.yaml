@@ -88,6 +88,12 @@ entries:
       rows:
         - 'w.mcpherson-political-education 314–15: all'
     tags: [name:bundy-william, name:rostow-walt-w, name:mcpherson-harry]
+    time_range:
+      - 1966-11-01T13:00Z
+      - 1966-11-01T15:00Z
+    time_band: night
+    time_zone: Asia/Seoul
+    range_basis: record
   - id: cal.1966-11-01.china-leadership
     when: Nov. 1
     date: '1966-11-01'
@@ -4834,6 +4840,12 @@ entries:
         - 'w.jian-zhou-enlai 557: ?'
         - 'w.teiwes-tragedy-of-lin-biao 68: ?'
     tags: [name:mao-zedong, name:zhou-enlai, name:li-fuchun, polity:prc, vis:only:prc, name:gu-mu]
+    variants:
+      - field: date
+        value: '1966-11-21'
+        witness: w.yang-jisheng-tiandi-fanfu
+        reads: on Nov. 21 Zhou tells Gu Mu and Yu Qiuli that he and Tao Zhu will hear them again "tomorrow"; then, at 10 p.m., with no day of its own, Li Fuchun telephones Yu that he and Zhou have already reported to Mao, and gives the four points
+        at: 334–35
   - id: cal.1966-11-22.china-leadership-2
     when: Nov. 22
     date: '1966-11-22'
@@ -5036,10 +5048,10 @@ entries:
     date: '1966-11-25'
     thread: transportation
     also: [court]
-    c: 'Ackley, for the merger, to Marshall: Marshall "obviously unhappy" but finds it "inconceivable that the Solicitor General could fail to take a position."{1} The new brief: no quarrel with the merits; the economic and transportation agencies think the merger "in the public interest and that its consummation should be promptly effected." Califano tells Saunders, at the Hay-Adams, he will be pleased.{2}'
-    n: '[[w.califano-triumph-and-tragedy-of]], 162–63. Check: the day of Califano''s word to Saunders; Califano (163) has Saunders call him "the Monday morning after Thanksgiving," Nov. 28. To check: Ackley to Marshall, Nov. 25, 1966, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 163 n.34). Names: Ackley, Thurgood Marshall, Califano.'
+    c: 'Ackley, for the merger, to Marshall: Marshall "obviously unhappy" but finds it "inconceivable that the Solicitor General could fail to take a position."{1} The new brief: no quarrel with the merits; the economic and transportation agencies think the merger "in the public interest and that its consummation should be promptly effected."{2}'
+    n: '[[w.califano-triumph-and-tragedy-of]], 162–63. Check: the day of the new brief; Califano (163) gives none. To check: Ackley to Marshall, Nov. 25, 1966, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 163 n.34); Ackley to Califano, memorandum, Nov. 26, 1966, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 163 n.34). Split under R25b and R17: Califano (163) has Saunders telephone him "the Monday morning after Thanksgiving," Nov. 28; the call is now an entry. Names: Ackley, Thurgood Marshall, Califano.'
     src:
-      c: 76115b08
+      c: f82e05a7
       rows:
         - 'w.califano-triumph-and-tragedy-of 162–63: 1, 2'
         - 'via w.califano-triumph-and-tragedy-of 163 n.34: 1'
@@ -5432,6 +5444,21 @@ entries:
     n: '[[w.zedong-mao-zedong-nianpu]], VI, late Nov. 1966 (the entry "11月下旬"). [[w.jianguo-yilai-mao-zedong]], XVIII, 396–399 (the item dated November 1966, 一九六六年十一月; Mao''s notes, "changed a little, for the Group''s comrades'' reference," on the draft Jiang Qing sent Nov. 24, and "back to Jiang Qing; some more changes, rather sounder," one o''clock (一时), Nov. 28, on the draft of Nov. 27, printed from the manuscripts and his revised copy; note 2: he softened her lines to the First Peking Opera Troupe and added that she worked "on the basis of others'' first creations"; note 4: he struck "loyal to Chairman Mao"; she spoke Nov. 28). Made public: 2013. To check: Jiang Qing, draft speech for the rally of the arts world, sent to Mao Nov. 24 and Nov. 27, 1966 (given Nov. 28) (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 397 n.1). See [[cal.1966-11-24.china-leadership]]. Names: Mao Zedong, Jiang Qing.'
     tags: [name:mao-zedong, name:jiang-qing, polity:prc, vis:only:prc]
     time_zone: Asia/Shanghai
+  - id: cal.1966-11-28.transportation
+    when: Nov. 28
+    date: '1966-11-28'
+    place: washington
+    thread: transportation
+    also: [court]
+    c: 'Stuart Saunders, staying at the Hay-Adams Hotel across Lafayette Square from the White House, telephones Califano. Califano: the President worked on the problem over the weekend, and Saunders will be pleased with the government''s brief.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 163 ("the Monday morning after Thanksgiving"). To check: Califano''s telephone log, Nov. 28, 1966 (cited by [[w.califano-triumph-and-tragedy-of]], 163 n.36). See [[cal.1966-11-25.transportation]]. Names: Califano.'
+    tags: [name:califano-joseph-a-jr]
+    time_range:
+      - 1966-11-28T11:00Z
+      - 1966-11-28T17:00Z
+    time_band: morning
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1966-11-29.economy
     when: Nov. 29
     date: '1966-11-29'
@@ -6048,11 +6075,23 @@ entries:
   - id: cal.1966-11-30.china-leadership-3
     when: Nov. 30
     date: '1966-11-30'
+    place: peking
     thread: china-red-guards
     also: [china-zhou-cr]
-    c: 'Zhou Enlai speaks at the collective reception by the Center''s leaders of masses from factories, mines, institutions and offices around the country. Because of the Cultural Revolution all have had problems; the Center is studying them and drafting decisions; they have been long away from their units, with production and work, and most may go back, leaving a few delegates. Chen Yi adds that in a word it is the Premier''s instruction, the Center''s spirit: make revolution and grasp and promote production, without hampering production.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 94 (Nov. 30, 1966, the item after). The chronology names Chen Yi, not Chen Boda: 陈毅在讲话中说：千言万语一句话，就是刚才周总理的指示 (III, 94), Chen Yi speaking after Zhou ("just now"). Names: Zhou Enlai, Chen Yi.'
+    c: 'Zhou Enlai speaks at the collective reception by the Center''s leaders of masses from factories, mines, institutions and offices around the country. Because of the Cultural Revolution all have had problems; the Center is studying them and drafting decisions; they have been long away from their units, with production and work, and most may go back, leaving a few delegates. Chen Yi adds that in a word it is the Premier''s instruction, the Center''s spirit: make revolution and grasp and promote production, without hampering production.{1} The Workers'' Gymnasium, evening.{2}'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 94 (Nov. 30, 1966, the item after); [[w.chen-yi-nianpu]], 1176 (the meeting of workers come to Peking, at the Workers'' Gymnasium, 晚上; Chen Yi speaking after Zhou); [[w.chen-yi-nianpu]], 1176. The chronology names Chen Yi, not Chen Boda: 陈毅在讲话中说：千言万语一句话，就是刚才周总理的指示 (III, 94), Chen Yi speaking after Zhou ("just now"). Names: Zhou Enlai, Chen Yi.'
+    src:
+      c: 43988cde
+      rows:
+        - 'w.zhou-enlai-nianpu-1949-2020 III, 94: ?'
+        - 'w.chen-yi-nianpu 1176: 2, time'
     tags: [name:zhou-enlai, polity:prc, name:chen-yi]
+    time_range:
+      - 1966-11-30T11:00Z
+      - 1966-11-30T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1966-11.china-leadership-2
     when: Nov., mid
     date: 1966-11
