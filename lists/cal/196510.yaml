@@ -885,6 +885,48 @@ entries:
       - 1965-10-04T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-10-04.soviet-union-leadership
+    when: Oct. 4
+    date: '1965-10-04'
+    time: 1965-10-04T06:25Z
+    place: moscow
+    thread: soviet-union-leadership
+    c: Moscow. Brezhnev greets Modibo Keita, President of Mali, on his arrival, 9:25 to 11:10.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 73 (Oct. 4; "Встречал М. Кейта," 9:25 to 11:10). The words: 9:25 (II, 73). The time is the first hour''s. See [[cal.1965-10-05.soviet-union-leadership]]. Names: Brezhnev, Keita.'
+    tags: [name:brezhnev-leonid, name:keita-modibo, polity:ussr, polity:mali]
+    time_zone: Europe/Moscow
+  - id: cal.1965-10-04.soviet-union-leadership-2
+    when: Oct. 4
+    date: '1965-10-04'
+    time: 1965-10-04T14:40Z
+    place: moscow
+    thread: soviet-union-leadership
+    follows:
+      - cal.1965-10-04.soviet-union-leadership
+    c: Moscow. Brezhnev at the Kremlin reception in honor of Keita, 5:40 to 9 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 73 (Oct. 4; the reception "в честь М. Кейта," 17:40 to 21:00). The words: 5:40 (II, 73). The time is the first hour''s. See [[cal.1965-10-05.soviet-union-leadership]]. Names: Brezhnev, Keita.'
+    tags: [name:brezhnev-leonid, name:keita-modibo, polity:ussr, polity:mali]
+    time_zone: Europe/Moscow
+  - id: cal.1965-10-04.soviet-union-leadership-3
+    when: Oct. 4
+    date: '1965-10-04'
+    time: 1965-10-04T06:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    c: Moscow. Brezhnev receives Chervonenko, from 9:00.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 73 (Oct. 4; "С 9⁰⁰ Принимал т. Червоненко"). The words: 9⁰⁰ (II, 73). Names: Brezhnev, Chervonenko.'
+    tags: [name:brezhnev-leonid, name:chervonenko-stepan-v, polity:ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1965-10-04.soviet-union-leadership-4
+    when: Oct. 4
+    date: '1965-10-04'
+    time: 1965-10-04T08:10Z
+    place: moscow
+    thread: soviet-union-leadership
+    c: Moscow. Brezhnev receives Kádár, 11:10 to 3:15 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 73 (Oct. 4; "Принимал Я. Кадара," 11:10 to 15:15). The words: 11¹⁰–15¹⁵ (II, 73). The time is the start''s. Names: Brezhnev, Kádár.'
+    tags: [name:brezhnev-leonid, name:kadar-janos, polity:ussr, polity:hungary, ok:polity-tag]
+    time_zone: Europe/Moscow
   - id: cal.1965-10-05.africa
     when: Oct. 5
     date: '1965-10-05'
@@ -970,12 +1012,12 @@ entries:
       rows:
         - 'w.drea-mcnamara-clifford-and-the-2011 63: all'
   - id: cal.1965-10-05.soviet-union-leadership
-    when: Oct. 5–7
+    when: Oct. 5
     date: '1965-10-05'
     place: moscow
     thread: soviet-union-leadership
-    c: Moscow. Brezhnev negotiates with Modibo Keita, President of Mali and Secretary General of its party, Oct. 5; with the Malian party-government delegation in the Kremlin Oct. 6; and with Keita Oct. 7, 9 to 11:20. The Kremlin's reception for him, Oct. 4.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 73–74 (Oct. 4–7). Names: Brezhnev, Keita.'
+    c: Moscow. Brezhnev takes part in the negotiations with Modibo Keita, President of Mali and Secretary General of its party.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 73 (Oct. 5; the workbook gives each day''s items separately, Oct. 4 to 7, II, 73–74). Names: Brezhnev, Keita.'
     tags: [name:brezhnev-leonid, name:keita-modibo, polity:ussr, polity:mali]
   - id: cal.1965-10-05.china-leadership
     when: Oct. 5
@@ -1277,6 +1319,26 @@ entries:
     c: Zhu De 朱德, with Peng Zhen 彭真 and others, receives the heads of the minority visiting groups 少数民族参观团 and the minority youth study groups 少数民族青年学习参观团 come to Peking 北京 for the National Day.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1940. Names: Zhu De, Peng Zhen.'
     tags: [polity:prc, name:zhu-de, name:peng-zhen]
+  - id: cal.1965-10-06.soviet-union-leadership
+    when: Oct. 6
+    date: '1965-10-06'
+    place: moscow
+    thread: soviet-union-leadership
+    follows:
+      - cal.1965-10-06.soviet-union-leadership-2
+    c: Moscow, the Kremlin. Brezhnev takes part in the negotiations with the party-government delegation of Mali, headed by Modibo Keita.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 74 (Oct. 6; no hour given). The order: after [[cal.1965-10-06.soviet-union-leadership-2]], the printed order alone ([[w.brezhnev-rabochie-i-dnevnikovye]], II, 74: the Presidium from 10:00, then the negotiations). See [[cal.1965-10-05.soviet-union-leadership]]. Names: Brezhnev, Keita.'
+    tags: [name:brezhnev-leonid, name:keita-modibo, polity:ussr, polity:mali]
+  - id: cal.1965-10-06.soviet-union-leadership-2
+    when: Oct. 6
+    date: '1965-10-06'
+    time: 1965-10-06T07:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    c: Moscow, the Kremlin. Brezhnev chairs the Presidium of the Central Committee, from 10:00.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 74 (Oct. 6; "С 10⁰⁰ руководил заседанием Президиума ЦК КПСС (в Кремле)"). The words: 10⁰⁰ (II, 74). Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr]
+    time_zone: Europe/Moscow
   - id: cal.1965-10-07.defense-soviet-forces
     when: Oct. 7
     date: '1965-10-07'
@@ -1435,6 +1497,48 @@ entries:
       - 1965-10-07T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1965-10-07.soviet-union-leadership
+    when: Oct. 7
+    date: '1965-10-07'
+    time: 1965-10-07T06:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    c: Moscow, the Kremlin. Brezhnev negotiates with Keita, 9:00 to 11:20.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 74 (Oct. 7; "Переговоры в Кремле с М. Кейта," 9:00 to 11:20). The words: 9:00 (II, 74). The time is the start''s. See [[cal.1965-10-05.soviet-union-leadership]]. Names: Brezhnev, Keita.'
+    tags: [name:brezhnev-leonid, name:keita-modibo, polity:ussr, polity:mali]
+    time_zone: Europe/Moscow
+  - id: cal.1965-10-07.soviet-union-leadership-2
+    when: Oct. 7
+    date: '1965-10-07'
+    time: 1965-10-07T08:30Z
+    place: moscow
+    thread: soviet-union-leadership
+    follows:
+      - cal.1965-10-07.soviet-union-leadership
+    c: Moscow. Brezhnev sees Keita off, 11:30 to 1:10 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 74 (Oct. 7; "Проводы М. Кейта," 11:30 to 13:10). The words: 11:30 (II, 74). The order: after [[cal.1965-10-07.soviet-union-leadership]], [[w.brezhnev-rabochie-i-dnevnikovye]], II, 74 (the negotiation to 11:20, then the farewell). See [[cal.1965-10-05.soviet-union-leadership]]. Names: Brezhnev, Keita.'
+    tags: [name:brezhnev-leonid, name:keita-modibo, polity:ussr, polity:mali]
+    time_zone: Europe/Moscow
+  - id: cal.1965-10-07.soviet-union-leadership-3
+    when: Oct. 7
+    date: '1965-10-07'
+    time: 1965-10-07T11:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    c: Moscow. The Presidium of the Central Committee, 2 to 7 p.m., Brezhnev there.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 74 (Oct. 7; "14⁰⁰–19⁰⁰ Президиум ЦК"). The words: 14⁰⁰–19⁰⁰ (II, 74). The time is the start''s. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr]
+    time_zone: Europe/Moscow
+  - id: cal.1965-10-07.soviet-union-leadership-4
+    when: Oct. 7
+    date: '1965-10-07'
+    time: 1965-10-07T16:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    c: Moscow, the Kremlin. A meeting, 7 to 9:30 p.m., Brezhnev there.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 75 (Oct. 7; "19⁰⁰–21³⁰ Кремль — совещание"). The words: 19⁰⁰–21³⁰ (II, 75). The time is the start''s. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr]
+    time_zone: Europe/Moscow
   - id: cal.1965-10-08.succession
     when: Oct. 8
     date: '1965-10-08'
