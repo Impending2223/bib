@@ -1,0 +1,64 @@
+# Notes pass, batch 14
+
+Sixty entries. Patch: `inbox/2026-11-28-notes-pass-14.yaml`.
+
+- `cal.1965-02-10.china-leadership-3`: built on. Added Peng Zhen presiding and his speech (Peng Zhen nianpu IV, 396, PDF 400, read), Liu Ningyi speaking (Yang Shangkun diary II, 508, PDF 463, read; Yang dates the demonstration Feb. 9, a variant the note already holds) and Chen Yi attending (Chen Yi nianpu 1084, PDF 1097, read); Peng Zhen, Liu Ningyi and Chen Yi named and tagged. The 1,500,000 is in the line (Peng 396). Zhou's words to Kosygin about Liu Ningyi stay in the note: the Wilson Center page (digitalarchive.umd.edu) answered 403 from this host and was not read.
+- `cal.1960-07-26.elections-1960`: left, tagged `ok:note-substance`. Fannin's nomination, Goldwater's withdrawal ("Let's grow up, conservatives") and the 1,321 to 10 are acts of July 27, held in the entries [[cal.1960-07-27.elections-1960-chicago-2]] and [[cal.1960-07-27.elections-1960-chicago-3]] (read in the tree); this entry is Eisenhower's address of July 26. No page opened.
+- `cal.1960-08-25.congo`: built on. Added who attended, Parrott's outline and Dulles's reply from the minutes (FRUS 1964–68, XXIII, doc. 12, read online, p. 20–21); Merchant and Irwin named and tagged (Parrott has no name entry). The $100,000, "any crash programs" and Bissell are Dulles's cable of Aug. 26 and Bissell's account of its release, held in [[cal.1960-08-26.congo-lumumba]]; they stay in the note. Tagged `ok:note-substance`.
+- `cal.1962-04.cuba-2`: built on. Added Helms's orders by Harvey's testimony, the request to Edwards, the Miami introduction and the instruction on Maheu and Giancana from the Church Committee's interim report, 83 (read in the Senate's PDF, text layer, S. Rep. No. 94-465); Edwards, Helms and Giancana named and tagged. Edwards's own words ("In early April Mr. William Harvey asked me") are in his testimony and its exhibit (NARA JFK records), not on a page open here; they say what the report says and stay in the note. Bissell's is the report's account of the plot's history, not this act. Tagged `ok:note-substance`.
+- `cal.1963-06-25.republican-party`: NOT DONE
+- `cal.1964-07-02.civil-rights-bill-22`: NOT DONE
+- `cal.1967-05-23.middle-east-six-day-war`: NOT DONE
+- `cal.1960-10-26.elections-1960-king`: built on. Added where Sorensen, Salinger and O'Donnell were and Shriver's words to Wofford, from Wofford 18 (PDF 18 printed; read in the text layer, lines at "forty minutes"); the three named and tagged.
+- `cal.1961-03-16.middle-east-2`: NOT DONE
+- `cal.1961-03-18.middle-east`: NOT DONE
+- `cal.1962.cuba`: NOT DONE
+- `cal.1963-06-19.civil-rights-bill-3`: NOT DONE
+- `cal.1964-05-21.vietnam-congress`: NOT DONE
+- `cal.1964-06-10.program-2`: NOT DONE
+- `cal.1965-01-26.china-leadership-3`: built on. Added the 10,000, Peng Zhen's welcome (Peng Zhen nianpu IV, 394, PDF 398, read) and Chen Yi's speech (Chen Yi nianpu 1081–82, PDF 1094–95, read); Peng Zhen and Chen Yi named and tagged.
+- `cal.1965-01-26.peace-corps`: NOT DONE
+- `cal.1965-02-08.vietnam-congress-3`: NOT DONE
+- `cal.1965-02-17.vietnam-4`: NOT DONE
+- `cal.1965-02-18.voting-rights`: NOT DONE
+- `cal.1965-02-19.vietnam`: NOT DONE
+- `cal.1965-02-20.china-leadership-4`: built on. Added the 10,000, the treaty, Liu Shaoqi's attendance and Peng Zhen's speech (Peng Zhen nianpu IV, 400, PDF 404, read) and Chen Yi's attendance (Chen Yi nianpu 1086, PDF 1099, read); the three named and tagged. Liu Shaoqi nianpu II, 615 was not opened (the Peng Zhen page names Liu).
+- `cal.1965-03-05.china-leadership-4`: built on. Added the 10,000 and Peng Zhen's speech (Peng Zhen nianpu IV, 404–05, PDF 408–409, read) and Chen Yi's attendance (Chen Yi nianpu 1088, PDF 1101, read); Peng Zhen and Chen Yi named and tagged.
+- `cal.1965-03-08.voting-rights`: NOT DONE
+- `cal.1965-03-09.voting-rights`: NOT DONE
+- `cal.1965-03-11.china-leadership`: NOT DONE
+- `cal.1965-03-25.voting-rights-selma`: NOT DONE
+- `cal.1965-04-07.south-asia`: NOT DONE
+- `cal.1965-04-17.students`: NOT DONE
+- `cal.1965-04-25.latin-america-dominican-republic`: NOT DONE
+- `cal.1965-04-28.latin-america`: NOT DONE
+- `cal.1965-06-07.vietnam`: NOT DONE
+- `cal.1965-06-26.vietnam-july-decision`: NOT DONE
+- `cal.1965-06-27.vietnam-operations`: NOT DONE
+- `cal.1965-07-20.vietnam`: NOT DONE
+- `cal.1965-07-25.china-leadership`: NOT DONE
+- `cal.1965-07-25.vietnam`: NOT DONE
+- `cal.1965-07-27.vietnam-july-decision-3`: NOT DONE
+- `cal.1965-07-30.medicare`: NOT DONE
+- `cal.1965-08-17.steel`: NOT DONE
+- `cal.1965-08-18.civil-disorders-watts`: NOT DONE
+- `cal.1965-09-01.king`: NOT DONE
+- `cal.1965-09-03.china`: NOT DONE
+- `cal.1965-09-22.civil-rights-the-executive`: NOT DONE
+- `cal.1965-09-27.soviet-union-leadership`: NOT DONE
+- `cal.1965-09-29.program`: NOT DONE
+- `cal.1965-10-06.china-leadership`: NOT DONE
+- `cal.1965-10-10.china-leadership`: NOT DONE
+- `cal.1965-10-12.china-leadership`: NOT DONE
+- `cal.1965-11-10.china-leadership-3`: NOT DONE
+- `cal.1965-11-26.china-leadership-2`: NOT DONE
+- `cal.1965-12-02.vietnam-pause`: NOT DONE
+- `cal.1965-12-15.vietnam`: NOT DONE
+- `cal.1965-12-17.economy`: NOT DONE
+- `cal.1965-12-29.vietnam-pause`: NOT DONE
+- `cal.1965-12.china-leadership-3`: NOT DONE
+- `cal.1965-12.china-leadership-4`: NOT DONE
+- `cal.1965.china-leadership-5`: NOT DONE
+- `cal.1966-01-06.china-leadership`: NOT DONE
+- `cal.1966-01-26.open-housing`: NOT DONE
+- `cal.1966-02-12.china-leadership-2`: NOT DONE
