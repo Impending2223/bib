@@ -982,3 +982,39 @@ ops:
 - check:
     id: cal.1966-04.soviet-union-leadership
     text: 'Check: the day; Brezhnev''s workbook has him at a meeting with the delegation of the Romanian party on Apr. 5, 18:30 to 20:30 ([[w.brezhnev-rabochie-i-dnevnikovye]], II, 117).'
+- add:
+    entry:
+      id: cal.1964-10-14.elections-1964-jenkins-2
+      when: Oct. 14
+      date: '1964-10-14'
+      place: nyc
+      thread: elections-1964-jenkins
+      also:
+      - elections-1964
+      follows:
+      - cal.1964-10-14.republican-party
+      c: New York. Reedy confirms to reporters that Jenkins has been hospitalized for "extreme fatigue." By Branch's account.
+      n: '[[w.branch-pillar-of-fire]], 517 (Reedy "soon" after the story reaches the wire at 8:09 p.m., tearful; hospitalized for "extreme fatigue"). The order: after [[cal.1964-10-14.republican-party]], [[w.branch-pillar-of-fire]], 517 (the wire at 8:09 p.m., then Reedy "soon"). Check: the hour. See [[cal.1964-10-14.elections-1964]]. Names: Reedy, Jenkins.'
+      tags:
+      - name:reedy-george-e
+      - name:jenkins-walter-w
+      - city:nyc
+      - state:ny
+      - ok:fields-time
+      time_zone: America/New_York
+- add:
+    entry:
+      id: cal.1964-10-14.elections-1964-jenkins-3
+      when: Oct. 14
+      date: '1964-10-14'
+      time: 1964-10-15T02:15Z
+      thread: elections-1964-jenkins
+      also:
+      - elections-1964
+      follows:
+      - cal.1964-10-14.elections-1964-jenkins-2
+      c: The White House announces, 10:15 p.m., that Jenkins has resigned.
+      n: '[[w.branch-pillar-of-fire]], 517 ("at 10:15 there was a follow-up announcement that Jenkins had resigned"). The words: 10:15 (517), taken as Eastern time, the clock of Branch''s account of the evening in New York. The order: after [cal.1964-10-14.elections-1964-jenkins-2], [[w.branch-pillar-of-fire]], 517 (the hospitalization announced, "and at 10:15" the follow-up). Check: who made the announcement, and where. See [[cal.1964-10-14.elections-1964]]. Names: Jenkins.'
+      tags:
+      - name:jenkins-walter-w
+      time_zone: America/New_York
