@@ -64,13 +64,18 @@ entries:
         - 'w.mann-grand-delusion 532–33: 2, 3'
         - 'w.barrett-uncertain-warriors 66–67: 2'
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt4/pdf/GPO-CRECB-1967-pt4-4-1.pdf#page=128: 2'
-    tags: [name:clark-joseph-s, name:mansfield-mike, name:johnson-lyndon-b]
+    tags: [name:clark-joseph-s, name:mansfield-mike, name:johnson-lyndon-b, ok:note-substance]
     time_range:
       - 1967-03-01T19:00Z
       - 1967-03-01T22:00Z
     time_band: workday afternoon
     time_zone: America/New_York
     range_basis: kind
+    variants:
+      - unit: '2'
+        witness: w.barrett-uncertain-warriors
+        reads: the Mansfield amendment declares the Senate's "firm intentions to provide all necessary support" for the forces in Vietnam, its support of efforts "to prevent an expansion of the war in Vietnam," and its support "of the Geneva accords of 1954 and 1962," the conference urged; no vote or day
+        at: '67'
   - id: cal.1967-03-01.assassination
     when: Mar. 1
     date: '1967-03-01'
@@ -3171,7 +3176,7 @@ entries:
       title: Estimates
       text:
         - 'Dikötter, after Barnouin and Yu: in the months after Mao''s change of mind in March 1967 Red Guards investigated some 5,000 cadres for hidden traitors; several were hounded to their deaths ([[w.dikotter-cultural-revolution]], 156, citing [[w.barnouin-ten-years-of-turbulence]], 185–186).'
-    tags: [name:bo-yibo, name:liu-shaoqi, polity:prc, vis:only:prc, name:an-ziwen, name:liu-lantao, name:yang-xianzhen]
+    tags: [name:bo-yibo, name:liu-shaoqi, polity:prc, vis:only:prc, name:an-ziwen, name:liu-lantao, name:yang-xianzhen, ok:note-substance]
   - id: cal.1967-03-16.china-leadership-3
     when: Mar. 16
     date: '1967-03-16'
@@ -3765,6 +3770,15 @@ entries:
     n: 'The President''s Toast at a Dinner for the Governors, [1967 Pub. Papers 374](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=442) (Mar. 18, 1967) (the hour in its note: 9:33 p.m.). See [[cal.1967-03-18.states-and-cities-2]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b, city:washington]
     time_zone: America/New_York
+  - id: cal.1967-03-18.china-seizures
+    when: Mar. 18
+    date: '1967-03-18'
+    place: qiqihar
+    thread: china-seizures
+    also: [china-army]
+    c: Qiqihar 齐齐哈尔. The railway bureau's army delegates, some forty in all, enter the Cultural Revolution there and set up a "three-in-one" front-line command for production in place of its paralyzed leading organs, with more planned for the branch bureaus.
+    n: '[[w.jianguo-yilai-mao-zedong]], XVIII, 520 n.2 (a Xinhua reporter''s paper of March 1967, "Grave disorder in transport on the Qiqihar railway bureau"). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Names: none.'
+    tags: [polity:prc, vis:only:prc]
   - id: cal.1967-03-19.opinion
     when: Mar. 19
     date: '1967-03-19'
@@ -3790,15 +3804,16 @@ entries:
     date: '1967-03-19'
     thread: china-seizures
     also: [china-mao-cr, china-army]
-    c: 'Mao reads a paper on "grave disorder on the Qiqihar railway bureau": to Lin and Zhou, every railway bureau in disorder to be put under military control and quickly set right, those in order to have army delegates too, to draw on their experience; road transport, shipping and the ports also; to see to industry and not to transport is wrong.{1}'
-    n: '[[w.zedong-mao-zedong-nianpu]], VI, Mar. 19, 1967. [[w.jianguo-yilai-mao-zedong]], XVIII, 519–520 (Mar. 19, 1967; Mao''s note of Mar. 19 to Lin Biao and Zhou Enlai, printed from the Central Archives'' typeset copy, on a paper by a Xinhua reporter at Qiqihar (5,100 wagons a day needed, 1,700–1,800 loaded; 326 accidents to Mar. 15, half again last year''s; military delegates set up a three-in-one command Mar. 18)). Made public: 2013. To check: Xinhua, Qiqihar reporter, "Grave disorder in transport on the Qiqihar railway bureau," March 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 519 n.2). Names: Mao Zedong, Lin Biao, Zhou Enlai.'
+    c: 'Mao reads a paper on "grave disorder on the Qiqihar railway bureau": to Lin and Zhou, every railway bureau in disorder to be put under military control and quickly set right, those in order to have army delegates too, to draw on their experience; road transport, shipping and the ports also; to see to industry and not to transport is wrong.{1} The paper, by a reporter sent to Qiqihar: 5,100 and more wagons a day needed, 1,700 to 1,800 loaded; 326 accidents by Mar. 15, half again last year''s.{2}'
+    n: '[[w.zedong-mao-zedong-nianpu]], VI, Mar. 19, 1967. [[w.jianguo-yilai-mao-zedong]], XVIII, 519–520 (Mar. 19, 1967; Mao''s note of Mar. 19 to Lin Biao and Zhou Enlai, printed from the Central Archives'' typeset copy, on a paper by a Xinhua reporter at Qiqihar (5,100 wagons a day needed, 1,700–1,800 loaded; 326 accidents to Mar. 15, half again last year''s; military delegates set up a three-in-one command Mar. 18)); [[w.jianguo-yilai-mao-zedong]], XVIII, 519–20. Made public: 2013. To check: Xinhua, Qiqihar reporter, "Grave disorder in transport on the Qiqihar railway bureau," March 1967 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 519 n.2). Names: Mao Zedong, Lin Biao, Zhou Enlai.'
     src:
-      c: 1c430d84
+      c: dc4e8925
       rows:
         - 'w.zedong-mao-zedong-nianpu VI, Mar. 19, 1967: 1'
         - 'w.jianguo-yilai-mao-zedong XVIII, 519–520: 1'
         - 'via w.jianguo-yilai-mao-zedong XVIII, 519 n.2: 1'
-    tags: [name:mao-zedong, name:lin-biao, name:zhou-enlai, polity:prc, vis:only:prc]
+        - 'w.jianguo-yilai-mao-zedong XVIII, 519–20: 2'
+    tags: [name:mao-zedong, name:lin-biao, name:zhou-enlai, polity:prc, vis:only:prc, ok:note-substance]
   - id: cal.1967-03-19.china-leadership-2
     when: Mar. 19
     date: '1967-03-19'

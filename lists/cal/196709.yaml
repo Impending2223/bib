@@ -156,16 +156,17 @@ entries:
     place: peking
     thread: china-wuhan
     also: [china-zhou-cr]
-    c: 'Zhou Enlai tells the enlarged meeting of the Peking Revolutionary Committee that stopping armed fights, and the seizure of the PLA''s arms, is now the main task. Factional struggle has hampered production, transport is at its lowest, foreign ships cannot load. Some dig up things from his past years: help in good faith is welcome, but to use them as a threat for a plot he opposes.'
-    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 180–181 (Sept. 1, 1967, the item after); [[w.yang-jisheng-tiandi-fanfu]], I, 546–547 (the Group''s leaders at the enlarged standing meeting of the Peking Revolutionary Committee announce the turn: Jiang Qing, "Peking should lead in struggle-criticism-reform and the alliance," "oppose reactionary anarchism," "to seize the handful in the army is a wrong slogan ... we pull down our own Great Wall"; Chen Boda: her speech is the Group''s and the Center''s, "an important strategic speech at a turning point"; Zhou''s seven points: the second year one of victory, the third to finish; most generals good; the outsiders to go home; stop the link-ups; alliances and three-in-ones this year; the 1966 graduates paid as graduates from Sept. 1 (46 yuan a month)); [[w.yang-jisheng-tiandi-fanfu]], I, 558 (Jiang Qing at the Peking committee''s meeting: "the May 16 makes trouble in an ultra-left guise"). To check: speeches of Jiang Qing, Chen Boda, Zhou Enlai, Kang Sheng and others at the enlarged standing meeting of the Peking Revolutionary Committee, Sept. 1, 1967 (reprinted by the Ministry of Culture''s rebels'' liaison station) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 558 n.14). Names: Zhou Enlai.'
+    c: 'Zhou Enlai tells the enlarged meeting of the Peking Revolutionary Committee that stopping armed fights, and the seizure of the PLA''s arms, is now the main task. Factional struggle has hampered production, transport is at its lowest, foreign ships cannot load. Some dig up things from his past years: help in good faith is welcome, but to use them as a threat for a plot he opposes.{1} By Yang, Jiang Qing: "to seize the handful in the army" is a wrong slogan, "we pull down our own Great Wall"; Chen Boda: her speech is the Group''s and the Center''s, "an important strategic speech at a turning point." Zhou''s seven points: the second year the year to win, the third to finish; most generals good; outsiders home; link-ups stopped; alliances and three-in-ones this year; revolution and production; the 1966 graduates paid as graduates from Sept. 1.{2}'
+    n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 180–181 (Sept. 1, 1967, the item after); [[w.yang-jisheng-tiandi-fanfu]], I, 546–547 (the Group''s leaders at the enlarged standing meeting of the Peking Revolutionary Committee announce the turn: Jiang Qing, "Peking should lead in struggle-criticism-reform and the alliance," "oppose reactionary anarchism," "to seize the handful in the army is a wrong slogan ... we pull down our own Great Wall"; Chen Boda: her speech is the Group''s and the Center''s, "an important strategic speech at a turning point"; Zhou''s seven points: the second year one of victory, the third to finish; most generals good; the outsiders to go home; stop the link-ups; alliances and three-in-ones this year; the 1966 graduates paid as graduates from Sept. 1 (46 yuan a month)); [[w.yang-jisheng-tiandi-fanfu]], I, 558 (Jiang Qing at the Peking committee''s meeting: "the May 16 makes trouble in an ultra-left guise"); [[w.yang-jisheng-tiandi-fanfu]], I, 546–47. To check: speeches of Jiang Qing, Chen Boda, Zhou Enlai, Kang Sheng and others at the enlarged standing meeting of the Peking Revolutionary Committee, Sept. 1, 1967 (reprinted by the Ministry of Culture''s rebels'' liaison station) (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 558 n.14). Names: Zhou Enlai, Jiang Qing, Chen Boda.'
     src:
-      c: e16fa8c9
+      c: 44f370df
       rows:
         - 'w.zhou-enlai-nianpu-1949-2020 III, 180–181: ?'
         - 'w.yang-jisheng-tiandi-fanfu I, 546–547: ?'
         - 'w.yang-jisheng-tiandi-fanfu I, 558: ?'
         - 'via w.yang-jisheng-tiandi-fanfu I, 558 n.14: ?'
-    tags: [name:zhou-enlai, polity:prc]
+        - 'w.yang-jisheng-tiandi-fanfu I, 546–47: 2'
+    tags: [name:zhou-enlai, polity:prc, name:jiang-qing, name:chen-boda, ok:note-substance]
   - id: cal.1967-09-01.china-leadership-4
     when: Sept. 1
     date: '1967-09-01'
@@ -454,7 +455,7 @@ entries:
         - 'w.smith-on-his-own-terms 497: 1'
         - 'w.debenedetti-american-ordeal 194: 1'
         - 'w.zaroulis-who-spoke-up 123: 2'
-    tags: [name:romney-george-w, state:mi, city:detroit]
+    tags: [name:romney-george-w, state:mi, city:detroit, ok:note-substance]
     short: Romney's "brainwashing"
   - id: cal.1967-09-04.vietnam-operations
     when: Sept. 4
@@ -768,6 +769,21 @@ entries:
       - 1967-09-05T01:30Z
       - 1967-09-05T06:00Z
     time_zone: Asia/Shanghai
+  - id: cal.1967-09-05.elections-1968
+    when: Sept. 5
+    date: '1967-09-05'
+    thread: elections-1968
+    also: [vietnam]
+    follows:
+      - cal.1967-09-05.press-and-broadcasting
+    c: Johnson, seeing the *New York Times*'s headline "Romney Asserts He Underwent 'Brainwashing' on Vietnam Trip," tells Bailey, the Democratic national chairman, to ask Romney to apologize for "insult[ing] the integrity of two dedicated and honorable men," Westmoreland and Lodge, by Califano.
+    n: '[[w.califano-triumph-and-tragedy-of]], 222. The words: "The next morning" (222), after the broadcast of Sept. 4. See [[cal.1967-09-04.elections-1968]]. Names: Johnson, Romney, Westmoreland, Lodge.'
+    tags: [name:johnson-lyndon-b, name:romney-george-w, name:westmoreland-william, name:lodge-henry-cabot, ok:fields-place]
+    time_range:
+      - 1967-09-05T10:00Z
+      - 1967-09-05T16:00Z
+    time_band: morning
+    time_zone: America/New_York
   - id: cal.1967-09-06.states-and-cities
     when: Sept. 6
     date: '1967-09-06'
@@ -793,7 +809,7 @@ entries:
       rows:
         - 'w.white-making-of-the-president-1969 60: ?'
         - 'w.califano-triumph-and-tragedy-of 222: 1'
-    tags: [name:romney-george-w, name:westmoreland-william, name:lodge-henry-cabot, name:mcnamara-robert-s]
+    tags: [name:romney-george-w, name:westmoreland-william, name:lodge-henry-cabot, name:mcnamara-robert-s, ok:note-substance]
   - id: cal.1967-09-06.elections-1968-2
     when: Sept. 6
     date: '1967-09-06'
@@ -1463,15 +1479,15 @@ entries:
     date: '1967-09-11'
     place: saigon
     thread: vietnam-order-of-battle
-    c: 'Carver to Helms: the mission stalled. In his reading Westmoreland, with Komer''s encouragement, has in effect ordered that the enemy''s total not exceed 300,000.{1}'
-    n: 'FRUS 1964–68, V, doc. [314](https://history.state.gov/historicaldocuments/frus1964-68v05/d314), 0203Z. [[w.berman-lyndon-johnsons-war]], 81 (after a day of meetings: MACV "stonewalling"; its 298,000 against the CIA''s 431,000 at least; "the inescapable conclusion that General Westmoreland (with Robert Komer''s encouragement) has given instruction tantamount to direct order that VC strength total will not exceed 300,000 ceiling"). Made public: FRUS 1964–68, V (2002). Check: Berman''s note (211 n.5) dates Carver''s cable Sept. 12. See [[cal.1967-09-09.vietnam-order-of-battle]]. Names: Carver, Helms, Westmoreland, Komer.'
+    c: 'Carver to Helms: the mission stalled. In his reading Westmoreland, with Komer''s encouragement, has in effect ordered that the enemy''s total not exceed 300,000.{1} Berman: after a day of meetings MACV is "stonewalling," holding to 298,000 against the CIA''s minimum of 431,000.{2}'
+    n: 'FRUS 1964–68, V, doc. [314](https://history.state.gov/historicaldocuments/frus1964-68v05/d314), 0203Z. [[w.berman-lyndon-johnsons-war]], 81 (after a day of meetings: MACV "stonewalling"; its 298,000 against the CIA''s 431,000 at least; "the inescapable conclusion that General Westmoreland (with Robert Komer''s encouragement) has given instruction tantamount to direct order that VC strength total will not exceed 300,000 ceiling"); [[w.berman-lyndon-johnsons-war]], 81. Made public: FRUS 1964–68, V (2002). Check: Berman''s note (211 n.5) dates Carver''s cable Sept. 12. See [[cal.1967-09-09.vietnam-order-of-battle]]. Names: Carver, Helms, Westmoreland, Komer.'
     src:
-      c: a75e08f2
+      c: 5744f0c6
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d314: 1'
-        - 'w.berman-lyndon-johnsons-war 81: 1'
         - 'via x.1967-09-12.carver-to-helms-jx-258a: 1'
-    tags: [name:carver-george-a-jr, name:helms-richard, name:westmoreland-william, name:komer-robert-w]
+        - 'w.berman-lyndon-johnsons-war 81: 1, 2'
+    tags: [name:carver-george-a-jr, name:helms-richard, name:westmoreland-william, name:komer-robert-w, ok:note-substance]
     short: Carver's stalled mission
     time_range:
       - 1967-09-11T01:00Z
@@ -2276,9 +2292,14 @@ entries:
     when: Sept. 15
     date: '1967-09-15'
     thread: railroads
-    c: 'The Special Railroad Board, Morse its chairman, created by the joint resolution of July 17 on the shopcraft unions'' dispute with the railroads, reports to Johnson: its determination, unanimous, to have the effect of an agreement between the parties (Check its terms).'
-    n: 'The President''s Remarks at a News Briefing by Members of the Special Railroad Board on Their Final Recommendations, [1967 Pub. Papers 841](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=233) (Sept. 15, 1967); "Report and Determination of the Special Railroad Board Established Pursuant to Public Law 90-54" (Sept. 15, 1967). [[w.califano-triumph-and-tragedy-of]], 194–95 (Morse chairman, "the black bean"; Meany and Kappel on the board; Siemiller: "the biggest strike-breaker in the nation"; the settlement imposed in October). See [[cal.1967-01-28.railroads]]; [[cal.1967-07-16.jobs-and-wages]]. Names: Morse, Johnson.'
-    tags: [name:morse-wayne, name:johnson-lyndon-b]
+    c: 'The Special Railroad Board, Morse its chairman, created by the joint resolution of July 17 on the shopcraft unions'' dispute with the railroads, reports to Johnson: its determination, unanimous, to have the effect of an agreement between the parties (Check its terms).{1} Meany and Frederick Kappel, the board''s labor and business members, sign the unanimous report.{2}'
+    n: 'The President''s Remarks at a News Briefing by Members of the Special Railroad Board on Their Final Recommendations, [1967 Pub. Papers 841](https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=233) (Sept. 15, 1967); "Report and Determination of the Special Railroad Board Established Pursuant to Public Law 90-54" (Sept. 15, 1967). [[w.califano-triumph-and-tragedy-of]], 194–95 (Morse chairman, "the black bean"; Meany and Kappel on the board; Siemiller: "the biggest strike-breaker in the nation"; the settlement imposed in October); [[w.califano-triumph-and-tragedy-of]], 194–95. See [[cal.1967-01-28.railroads]]; [[cal.1967-07-16.jobs-and-wages]]. Names: Morse, Johnson, Meany, Kappel.'
+    src:
+      c: 84e7d152
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1967-book2/pdf/PPP-1967-book2.pdf#page=233: 1'
+        - 'w.califano-triumph-and-tragedy-of 194–95: 2'
+    tags: [name:morse-wayne, name:johnson-lyndon-b, name:meany-george, name:kappel-frederick-r, ok:note-substance]
     short: the Special Board's award
     time_range:
       - 1967-09-15T13:00Z

@@ -1182,6 +1182,7 @@ entries:
     also: [congress]
     c: The debt limit. The House defeats H.R. 10328, $365 billion, [199–209](https://voteview.com/rollcall/RH0900069).
     n: '[[w.califano-triumph-and-tragedy-of]], 206 (Johnson on Ottinger: "a public housing project right in the middle of his fancy Westchester district"). Check: the Record''s page. To check: [[w.morgan-deficit-government]]. See [[cal.1967-02-08.economy]].'
+    tags: [ok:note-substance]
     time_range:
       - 1967-06-07T18:00Z
       - 1967-06-07T21:00Z
@@ -1858,6 +1859,7 @@ entries:
     thread: middle-east-six-day-war
     c: Israel and Syria cease fire the evening of June 10.
     n: 'FRUS 1964–68, XIX, docs. [252](https://history.state.gov/historicaldocuments/frus1964-68v19/d252) (Johnson to Kosygin, 10:58 a.m., Washington: Israel "regards cease-fire as in effect now"), [255](https://history.state.gov/historicaldocuments/frus1964-68v19/d255) (11:58 a.m.: "military action in the Middle East is being concluded"). [[w.dobrynin-in-confidence]], 166 ("Late on June 10 Israel ended its military operations on all fronts, and cease-fire agreements were signed"); [[w.dallek-flawed-giant]], 431 (Israel agrees to a cease-fire on all fronts). The evening is Dobrynin''s "late on June 10." Check: the hour: Israel''s announcement was known in Washington by 10:58 a.m., 4:58 p.m. in Israel (doc. 252). See [[cal.1967-06-09.middle-east]].'
+    tags: [ok:note-substance]
     time_range:
       - 1967-06-10T17:00Z
       - 1967-06-10T20:00Z
@@ -1872,6 +1874,20 @@ entries:
     c: Nasser withdraws his resignation, after mass demonstrations in Cairo.
     n: '[FRUS 1964–68, XIX, doc. 236](https://history.state.gov/historicaldocuments/frus1964-68v19/d236), note 2 ("the following day after massive demonstrations in Cairo"). Check: the hour. See [[cal.1967-06-09.middle-east-six-day-war-3]]. Names: Nasser.'
     tags: [name:nasser-gamal-abdel]
+  - id: cal.1967-06-10.middle-east-six-day-war-4
+    when: June 10
+    date: '1967-06-10'
+    time: 1967-06-10T14:58Z
+    place:
+      - washington
+      - moscow
+    thread: middle-east-six-day-war
+    follows:
+      - cal.1967-06-10.middle-east-six-day-war
+    c: 'Johnson to Kosygin on the hot line, 10:58 a.m.: Israel has told General Bull it will accept any arrangements for making the cease-fire effective on the ground, and "regards cease-fire as in effect now"; he asks Kosygin to use his channels to Damascus so the Syrians stop their fire, and to state publicly that Nasser''s charge of American and British part in the war is false.'
+    n: 'FRUS 1964–68, XIX, doc. [252](https://history.state.gov/historicaldocuments/frus1964-68v19/d252). The order: after [[cal.1967-06-10.middle-east-six-day-war]], the message''s words ("I have your last message"). See [[cal.1967-06-10.middle-east-six-day-war]]. Names: Johnson, Kosygin, Nasser.'
+    tags: [name:johnson-lyndon-b, name:kosygin-aleksei, name:nasser-gamal-abdel]
+    time_zone: America/New_York
   - id: cal.1967-06-11.civil-disorders
     when: June 11
     date: '1967-06-11'
@@ -5667,3 +5683,11 @@ entries:
     c: Ye Jianying 叶剑英 presides at the Military Commission's 军委 seventy-eighth standing meeting, on appointments and removals of cadres and the Cultural Revolution 文化大革命 in the Higher Military Academy 高等军事学院.
     n: '[[w.liu-jixian-ye-jianying-nianpu]], II, 967. Made public: 2007. Names: Ye Jianying.'
     tags: [polity:prc, name:ye-jianying, vis:only:prc, ok:fields-place]
+  - id: cal.1967-06.economy-debt-limit
+    when: June, after the 7th
+    date: 1967-06
+    at: after 1967-06-07
+    thread: economy-debt-limit
+    c: 'Johnson asks for the list of the Democrats who voted against the debt limit. Told that Ottinger and other liberals did it in protest against the war, he has Califano tell Ottinger there is plenty of money for housing: "a public housing project right in the middle of his fancy Westchester district," by Califano.'
+    n: '[[w.califano-triumph-and-tragedy-of]], 206. See [[cal.1967-06-07.economy]]. Names: Johnson, Ottinger, Califano.'
+    tags: [name:johnson-lyndon-b, name:ottinger-richard-l, name:califano-joseph-a-jr]
