@@ -586,7 +586,7 @@ def dateline_link(e, place, series=None):
             pl = got.get(("state", c)) if c else None
         else:
             continue
-        if pl and pl["name"] == place:
+        if pl and pl["name"] in (place, "the " + str(place)):     # the dateline drops the article (dateline._bare)
             return pl["page"]
     return None
 
