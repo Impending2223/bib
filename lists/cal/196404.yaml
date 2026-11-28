@@ -782,7 +782,7 @@ entries:
     place: washington
     thread: civil-rights-bill
     c: 'Saturday.{1} A quorum call forty minutes after the Senate meets: forty-one present, twenty-five absent of them Northern Democrats.{2} Mansfield: "a travesty on the legislative process";{3} the Senate in recess to Monday, [27–14](https://voteview.com/rollcall/RS0880290).{4} Humphrey gives the press the absentees'' names.{5}'
-    n: '[110 Cong. Rec. 6862–63](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=2) (1964) (Apr. 4, 1964). [[w.mann-walls-of-jericho]], 407–8; [[w.whalen-longest-debate]], 157–58 (Humphrey''s telegrams to the missing Democrats); [[w.purdum-idea-whose-time-has-2014]], 248–49 (Saturday, Apr. 4: Mansfield, "a travesty on the legislative process"; the recess forty-one minutes after the Senate met at eleven; the absentees, by Humphrey''s and Keating''s count, more than forty Democrats and a dozen Republicans; not the vote on the recess); [[w.risen-bill-of-the-century]], 196 (Saturday, Apr. 4: the civil rights forces fail to make a quorum; the Senate forced to recess; 39 answered, 23 of them Democrats; not the vote). Check: Whalen, 157, gives thirty-nine answering, 23 Democrats and 16 Republicans (110 Cong. Rec. 6862–63, cited 261). Check: Purdum, 248–49, has the absence of a quorum noted as the Senate convened at eleven and the recess voted forty-one minutes after; the entry has the quorum call forty minutes after the Senate meets. To check: [*New York Times*, Apr. 5, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/05/issue.html) (cited by [[w.mann-walls-of-jericho]], 408). See [[cal.1964-03-30.civil-rights-bill]]. Names: Mansfield, Humphrey.'
+    n: '[110 Cong. Rec. 6861](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=1) (1964) (Apr. 4, 1964: "The Senate met at 11 o''clock a.m."); [110 Cong. Rec. 6863](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=3) (the recess "at 11 o''clock and 41 minutes a.m."). [110 Cong. Rec. 6862–63](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=2) (1964) (Apr. 4, 1964). [[w.mann-walls-of-jericho]], 407–8; [[w.whalen-longest-debate]], 157–58 (Humphrey''s telegrams to the missing Democrats); [[w.purdum-idea-whose-time-has-2014]], 248–49 (Saturday, Apr. 4: Mansfield, "a travesty on the legislative process"; the recess forty-one minutes after the Senate met at eleven; the absentees, by Humphrey''s and Keating''s count, more than forty Democrats and a dozen Republicans; not the vote on the recess); [[w.risen-bill-of-the-century]], 196 (Saturday, Apr. 4: the civil rights forces fail to make a quorum; the Senate forced to recess; 39 answered, 23 of them Democrats; not the vote). Check: Whalen, 157, gives thirty-nine answering, 23 Democrats and 16 Republicans (110 Cong. Rec. 6862–63, cited 261). Check: Purdum, 248–49, has the absence of a quorum noted as the Senate convened at eleven and the recess voted forty-one minutes after; the entry has the quorum call forty minutes after the Senate meets. To check: [*New York Times*, Apr. 5, 1964](https://timesmachine.nytimes.com/timesmachine/1964/04/05/issue.html) (cited by [[w.mann-walls-of-jericho]], 408). See [[cal.1964-03-30.civil-rights-bill]]. Names: Mansfield, Humphrey.'
     src:
       c: cfd46711
       rows:
@@ -793,13 +793,13 @@ entries:
         - 'via x.1964-04-04.congressional-record-6862: 1, 4'
         - 'w.purdum-idea-whose-time-has-2014 248–49: 1, 3'
         - 'w.risen-bill-of-the-century 196: ?'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=1: time'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=3: time'
     tags: [name:mansfield-mike, name:humphrey-hubert-h]
     time_range:
-      - 1964-04-04T19:00Z
-      - 1964-04-04T22:00Z
-    time_band: workday afternoon
+      - 1964-04-04T16:00Z
+      - 1964-04-04T16:41Z
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1964-04-04.republican-party
     when: Apr. 4
     date: '1964-04-04'
@@ -1774,8 +1774,13 @@ entries:
     src:
       c: 0868f2af
       rows:
-        - 'w.risen-bill-of-the-century 197: all'
+        - 'w.risen-bill-of-the-century 197: time'
     tags: [name:clark-joseph-s, name:pell-claiborne-d]
+    time_range:
+      - 1964-04-07T11:00Z
+      - 1964-04-07T17:00Z
+    time_band: morning
+    time_zone: America/New_York
   - id: cal.1964-04-07.china-leadership
     when: Apr. 7
     date: '1964-04-07'
@@ -2713,8 +2718,13 @@ entries:
       c: 583687a3
       rows:
         - 'w.zhou-enlai-waijiao-huodong 401: all'
-        - 'w.yang-shangkun-riji II, 367: ?'
+        - 'w.yang-shangkun-riji II, 367: time'
     tags: [polity:prc, polity:japan, name:zhou-enlai]
+    time_range:
+      - 1964-04-09T22:00Z
+      - 1964-04-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-10.china-leadership-3
     when: Apr. 10
     date: '1964-04-10'
@@ -2729,8 +2739,13 @@ entries:
       c: 7135b519
       rows:
         - 'w.zhou-enlai-waijiao-huodong 401: all'
-        - 'w.yang-shangkun-riji II, 367: ?'
+        - 'w.yang-shangkun-riji II, 367: time'
     tags: [polity:prc, polity:australia, name:zhou-enlai, name:e-f-hill]
+    time_range:
+      - 1964-04-09T22:00Z
+      - 1964-04-10T04:00Z
+    time_band: morning
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-10.china
     when: Apr. 10
     date: '1964-04-10'
@@ -2864,10 +2879,10 @@ entries:
     date: '1964-04-11'
     place: kentucky
     thread: elections-1964-state-conventions
-    c: 'Kentucky''s Republican convention: its 24 delegates for Morton as favorite son, by arrangement at least a dozen for Goldwater.'
-    n: '[[w.white-suite-3505]], 305. Names: Morton, Goldwater. Check: White, 305, has Morton later decline to run and release them, 21 for Goldwater on the first ballot.'
+    c: 'Kentucky''s Republican convention: its 24 delegates for Thruston Morton as favorite son, by arrangement at least a dozen for Goldwater.'
+    n: '[[w.white-suite-3505]], 305. Names: Thruston Morton, Goldwater. Check: White, 305, has Morton later decline to run and release them, 21 for Goldwater on the first ballot.'
     src:
-      c: e33f8836
+      c: e96b404a
       rows:
         - 'w.white-suite-3505 305: all'
     tags: [name:morton-thruston-b, name:goldwater-barry-m, state:ky]
@@ -3054,70 +3069,16 @@ entries:
   - id: cal.1964-04-12.china-leadership-4
     when: Apr. 12
     date: '1964-04-12'
-    place:
-      - lanzhou
-      - changsha
+    place: lanzhou
     thread: china-polemic
     also: [soviet-union]
-    c: Lanzhou to Changsha.{1} Deng Xiaoping, Kang Sheng and Wu Lengxi, called by Mao through a telephone call from the Central Committee's General Office on their second night at Lanzhou, fly by way of the military airfield at Wugong and reach Changsha at noon.{2} Peng Zhen takes the rest of the group on to Xi'an.{3}
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 744–745 (the call "the second night at Lanzhou"; Mao''s naming of the three; Apr. 12; arrival at noon, Mao calling a meeting as soon as lunch is over). Made public: 1999. See [[cal.1964-04-07.china-leadership-2]]. Names: Deng Xiaoping, Kang Sheng, Mao Zedong, Peng Zhen, Wu Lengxi.'
+    c: 'Lanzhou, their second night there.{4} A telephone call from the Central Committee''s General Office: Deng Xiaoping to bring a few people from Lanzhou to Changsha at once, Mao to hold a meeting there. With no large airfield at Lanzhou or Xi''an, they are to fly by way of the military airfield at Wugong.{5}'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 744–745 (the call "the second night at Lanzhou"; Wugong). The flight to Changsha is the next morning, Apr. 13, by the Mao and Deng nianpu ([[w.zedong-mao-zedong-nianpu]], V, Apr. 10 and 13, 1964; [[w.deng-xiaoping-nianpu-1904]], III, 1809); Wu dates the flight Apr. 12 (745). Made public: 1999. See [[cal.1964-04-07.china-leadership-2]]. Names: Deng Xiaoping, Mao Zedong. Check: the day: by Wu''s dates the call is the night of Apr. 11.'
     src:
-      c: 1d7bb5c5
+      c: 74d5259d
       rows:
-        - 'w.lengxi-shinian-lunzhan-1956-1966 744–745: 1, 2, 3'
-    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:mao-zedong, name:peng-zhen, vis:only:prc, name:wu-lengxi]
-    time_range:
-      - 1964-04-12T04:00Z
-      - 1964-04-12T06:00Z
-    time_band: workday midday
-    time_zone: Asia/Shanghai
-    variants:
-      - unit: '2'
-        witness: w.deng-xiaoping-nianpu-1904
-        reads: Deng at Lanzhou through the morning and day of April 12; flies to Changsha on the morning of April 13 (四月十三日上午), with Kang Sheng and Wu Lengxi, and attends Mao's forum after lunch
-        at: III, 1809
-  - id: cal.1964-04-12.china-leadership-5
-    when: Apr. 12
-    date: '1964-04-12'
-    place:
-      - changsha
-      - peking
-    thread: china-polemic
-    also: [soviet-union]
-    follows:
-      - cal.1964-04-12.china-leadership-4
-    c: 'Changsha to Peking.{1} Deng Xiaoping telephones Zhou Enlai with Mao''s remarks on the talks on Soviet trade: imports from the Soviet Union to be cut;{2} China to pay its debt in its exports, and if the Soviets will not take them, to let the account stand.{3}'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 747 (Mao''s remarks to Deng for Zhou; Deng''s call "that evening"). Made public: 1999. See [[cal.1964-04-12.china-leadership-4]]. Names: Deng Xiaoping, Zhou Enlai, Mao Zedong. Check: the day, if the meeting was Apr. 13 as the Mao chronology has it.'
-    src:
-      c: 131b76d5
-      rows:
-        - 'w.lengxi-shinian-lunzhan-1956-1966 747: 1, 2, 3'
-    tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:mao-zedong, vis:only:prc]
-    time_range:
-      - 1964-04-12T11:00Z
-      - 1964-04-12T14:00Z
-    time_band: evening
-    time_zone: Asia/Shanghai
-    variants:
-      - unit: '2'
-        witness: w.deng-xiaoping-nianpu-1904
-        reads: Deng reaches Changsha only on April 13; the telephone call to Zhou Enlai on Mao's remarks cannot be the evening of April 12 in Changsha
-        at: III, 1809
-  - id: cal.1964-04-12.china-leadership-6
-    when: Apr. 12–13
-    date: '1964-04-12'
-    place: changsha
-    thread: china-polemic
-    also: [soviet-union]
-    follows:
-      - cal.1964-04-12.china-leadership-4
-    c: Changsha. The evening of Apr. 12 and the morning of the 13th, Wu Lengxi redrafts the telegram to Khrushchev from Mao's four points, then Deng Xiaoping, Wang Renzhong, Zhang Pinghua and Kang Sheng discuss and amend it. Some want it fuller, some two plain paragraphs; Deng has Wu make a long and a short draft for discussion in the afternoon and then for Mao.
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 747 ("that evening and the next morning"; the two drafts). The time is the first day''s. Made public: 1999. See [[cal.1964-04-12.china-leadership-4]]. Names: Deng Xiaoping, Kang Sheng, Mao Zedong, Wu Lengxi, Wang Renzhong, Zhang Pinghua. Check: the Mao chronology dates Mao''s call on them Apr. 13 and his approval Apr. 14.'
-    src:
-      c: dab9c657
-      rows:
-        - 'w.lengxi-shinian-lunzhan-1956-1966 747: all'
-    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:mao-zedong, vis:only:prc, name:wang-renzhong, name:wu-lengxi, name:zhang-pinghua]
+        - 'w.lengxi-shinian-lunzhan-1956-1966 744–745: 4, 5'
+    tags: [polity:prc, name:deng-xiaoping, name:mao-zedong, vis:only:prc]
     time_range:
       - 1964-04-12T11:00Z
       - 1964-04-12T14:00Z
@@ -3505,13 +3466,14 @@ entries:
     place: changsha
     thread: china-foreign
     also: [soviet-union]
-    c: Deng Xiaoping 邓小平, with Kang Sheng 康生 and Wu Lengxi 吴冷西, flies to Changsha 长沙.
-    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1809 (Apr. 13, 1964). The words: 上午 (III, 1809). Made public: 2009 (the nianpu). See [[cal.1964-04-13.china-leadership]]. Names: Deng Xiaoping, Kang Sheng, Wu Lengxi.'
+    c: Deng Xiaoping 邓小平, with Kang Sheng 康生 and Wu Lengxi 吴冷西, flies to Changsha 长沙.{1} By way of the military airfield at Wugong, they reach Changsha at noon. Peng Zhen takes the rest of the group on to Xi'an.{2}
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1809 (Apr. 13, 1964); [[w.lengxi-shinian-lunzhan-1956-1966]], 745. The words: 上午 (III, 1809). Made public: 2009 (the nianpu). Check: Wu (745) dates the flight Apr. 12. See [[cal.1964-04-13.china-leadership]]. Names: Deng Xiaoping, Kang Sheng, Wu Lengxi, Peng Zhen.'
     src:
-      c: cb41b8a4
+      c: bb166084
       rows:
-        - 'w.deng-xiaoping-nianpu-1904 III, 1809: all'
-    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc, name:wu-lengxi]
+        - 'w.deng-xiaoping-nianpu-1904 III, 1809: 1'
+        - 'w.lengxi-shinian-lunzhan-1956-1966 745: 2'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, vis:only:prc, name:wu-lengxi, name:peng-zhen]
     time_range:
       - 1964-04-12T22:00Z
       - 1964-04-13T04:00Z
@@ -3561,6 +3523,47 @@ entries:
     c: Chen Yun 陈云 goes from Guangzhou 广州 to Suzhou 苏州.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 145. Names: Chen Yun.'
     tags: [polity:prc, name:chen-yun]
+  - id: cal.1964-04-12.china-leadership-5
+    when: Apr. 13
+    date: '1964-04-13'
+    place:
+      - changsha
+      - peking
+    thread: china-polemic
+    also: [soviet-union]
+    c: 'Changsha to Peking.{1} Deng Xiaoping telephones Zhou Enlai with Mao''s remarks on the talks on Soviet trade: imports from the Soviet Union to be cut;{2} China to pay its debt in its exports, and if the Soviets will not take them, to let the account stand.{3}'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 747 (Mao''s remarks to Deng for Zhou; Deng''s call "that evening"; Wu dates it Apr. 12); [[w.zedong-mao-zedong-nianpu]], V, Apr. 13, 1964 (the Changsha meeting, afternoon); [[w.deng-xiaoping-nianpu-1904]], III, 1809 (Apr. 13, 1964; Mao asks Deng to tell Zhou Enlai his view of the trade talks). The Mao nianpu and the Deng nianpu date the meeting Apr. 13, and the call is that evening. Made public: 1999. See [[cal.1964-04-13.china-leadership]]. Names: Deng Xiaoping, Zhou Enlai, Mao Zedong.'
+    src:
+      c: 131b76d5
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 747: 1, 2, 3'
+        - 'w.zedong-mao-zedong-nianpu V, Apr. 13, 1964: date'
+    tags: [polity:prc, name:deng-xiaoping, name:zhou-enlai, name:mao-zedong, vis:only:prc]
+    time_range:
+      - 1964-04-13T11:00Z
+      - 1964-04-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
+  - id: cal.1964-04-12.china-leadership-6
+    when: Apr. 13–14
+    date: '1964-04-13'
+    place: changsha
+    thread: china-polemic
+    also: [soviet-union]
+    c: Changsha. The evening of Apr. 13 and the morning of the 14th, Wu Lengxi redrafts the telegram to Khrushchev from Mao's four points, then Deng Xiaoping, Wang Renzhong, Zhang Pinghua and Kang Sheng discuss and amend it. Some want it fuller, some two plain paragraphs; Deng has Wu make a long and a short draft for discussion in the afternoon and then for Mao.
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 747 ("that evening and the next morning"; the two drafts; Wu''s days Apr. 12 and 13); [[w.zedong-mao-zedong-nianpu]], V, Apr. 13 and 14, 1964 (the meeting Apr. 13, afternoon; Apr. 14, 3:30 p.m., Mao on the first draft, a meeting at 5); [[w.deng-xiaoping-nianpu-1904]], III, 1809 (Apr. 14, 1964; 上午, Deng revises the telegram; 下午, hears Mao''s comments). The Mao nianpu and the Deng nianpu put the redrafting the evening of Apr. 13 and the morning of Apr. 14. The time is the first day''s. Made public: 1999. See [[cal.1964-04-13.china-leadership]]. Names: Deng Xiaoping, Kang Sheng, Mao Zedong, Wu Lengxi, Wang Renzhong, Zhang Pinghua.'
+    src:
+      c: 6ee2a8be
+      rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 747: all'
+        - 'w.zedong-mao-zedong-nianpu V, Apr. 13 and 14, 1964: date'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1809: date'
+    tags: [polity:prc, name:deng-xiaoping, name:kang-sheng, name:mao-zedong, vis:only:prc, name:wang-renzhong, name:wu-lengxi, name:zhang-pinghua]
+    time_range:
+      - 1964-04-13T11:00Z
+      - 1964-04-13T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-14.elections-1964
     when: Apr. 14
     date: '1964-04-14'
@@ -3627,14 +3630,13 @@ entries:
     src:
       c: 6b551285
       rows:
-        - 'w.white-suite-3505 306: all'
+        - 'w.white-suite-3505 306: time'
     tags: [name:percy-charles-h, name:goldwater-barry-m, state:il]
     time_range:
-      - 1964-04-14T15:00Z
-      - 1964-04-14T23:00Z
-    time_band: workday daytime
+      - 1964-04-15T02:00Z
+      - 1964-04-15T08:00Z
+    time_band: election night
     time_zone: America/Chicago
-    range_basis: kind
   - id: cal.1964-04-14.states-and-cities
     when: Apr. 14
     date: '1964-04-14'
@@ -3748,13 +3750,20 @@ entries:
   - id: cal.1964-04-14.middle-east-3
     when: Apr. 14
     date: '1964-04-14'
+    time: 1964-04-15T00:55Z
+    time_approx: true
     place: washington
     thread: middle-east
     follows:
       - cal.1964-04-14.consumers
     c: 'The White House, State dinner for King Hussein, about 150 guests. In the Yellow Oval Room, gifts: from the Johnsons a gold clock, a pen stand and a book of Johnson''s speeches; from the King two bracelets of Abraham''s time, a lamp, and a Bible in mother-of-pearl. The guests include Warren, Ball, the Dukes, Hoover, Najeeb Halaby, Helen Thomas of UPI. Hussein tells Mrs. Johnson that many of the Jordan''s springs rise in Israel; he piloted his own 707; the Dave Brubeck Quartet plays.'
     n: '[[w.johnson-white-house-diary]], 110–12 (Lady Bird Johnson''s account; Hoover "never goes to affairs of this sort"). After [[cal.1964-04-14.consumers|the Food and Home Fair]]: the fair, the Senate Ladies'' luncheon, then the guests upstairs "A little before 8" (109–10). See [[cal.1964-04-14.middle-east]]. Names: Johnson, Lady Bird Johnson, Hussein, Warren, Ball, Duke, Hoover.'
+    src:
+      c: b7f5dddf
+      rows:
+        - 'w.johnson-white-house-diary 110–12: time'
     tags: [name:johnson-lyndon-b, name:johnson-lady-bird, name:hussein-ibn-talal, name:warren-earl, name:ball-george-w, name:duke-angier-b, name:hoover-j-edgar]
+    time_zone: America/New_York
   - id: cal.1964-04-14.china-leadership
     when: Apr. 14
     date: '1964-04-14'
@@ -4353,12 +4362,17 @@ entries:
     date: '1964-04-16'
     thread: civil-rights-bill
     c: 'Evening. Humphrey''s and Kuchel''s staff analysis: the civil rights forces can ultimately get sixty-four of the sixty-seven votes needed for cloture, not all of them yet nailed down. Dirksen still listed as "doubtful."'
-    n: '[[w.purdum-idea-whose-time-has-2014]], 263. To check: Horn, log, 97–98, EMDP (cited by [[w.purdum-idea-whose-time-has-2014]], 362). Names: Humphrey, Kuchel, Dirksen. Check: the hour.'
+    n: '[[w.purdum-idea-whose-time-has-2014]], 263. To check: Horn, log, 97–98, EMDP (cited by [[w.purdum-idea-whose-time-has-2014]], 362). Names: Humphrey, Kuchel, Dirksen.'
     src:
-      rows:
-        - 'w.purdum-idea-whose-time-has-2014 263: all'
       c: 468d015c
+      rows:
+        - 'w.purdum-idea-whose-time-has-2014 263: time'
     tags: [name:humphrey-hubert-h, name:kuchel-thomas-h, name:dirksen-everett]
+    time_range:
+      - 1964-04-17T00:00Z
+      - 1964-04-17T03:00Z
+    time_band: evening
+    time_zone: America/New_York
   - id: cal.1964-04-16.china-leadership
     when: Apr. 16
     date: '1964-04-16'
@@ -5443,10 +5457,15 @@ entries:
     c: 'The bipartisan floor leaders'' group, morning. Horn: Dirksen''s amendments are meant to make the fair employment title palatable to northern business. Katzenbach: northern businesses that do not discriminate may be put off by Title VII "because of the records-keeping and the bureaucracy."'
     n: '[[w.purdum-idea-whose-time-has-2014]], 264. To check: Horn, log, 106, EMDP (cited by [[w.purdum-idea-whose-time-has-2014]], 362). Names: Horn, Katzenbach, Dirksen.'
     src:
-      rows:
-        - 'w.purdum-idea-whose-time-has-2014 264: all'
       c: 96d250d6
+      rows:
+        - 'w.purdum-idea-whose-time-has-2014 264: time'
     tags: [name:horn-stephen, name:katzenbach-nicholas, name:dirksen-everett]
+    time_range:
+      - 1964-04-20T11:00Z
+      - 1964-04-20T17:00Z
+    time_band: morning
+    time_zone: America/New_York
   - id: cal.1964-04-20.civil-rights-bill-3
     when: Apr. 20
     date: '1964-04-20'
@@ -6726,13 +6745,20 @@ entries:
   - id: cal.1964-04-25.succession-3
     when: Apr. 25
     date: '1964-04-25'
+    time: 1964-04-25T23:30Z
+    time_approx: true
     place: washington
     thread: succession
     follows:
       - cal.1964-04-25.succession-2
     c: The Gridiron Dinner, Washington. Johnson attends in white tie, a stag dinner; Dobie goes with Walker Stone.
-    n: '[[w.johnson-white-house-diary]], 124–25 (Lady Bird Johnson''s account; she records only that he goes). Names: Johnson.'
+    n: '[[w.johnson-white-house-diary]], 124–25 (Lady Bird Johnson''s account; she records only that he goes; Dobie sets out "about 6:30", the time here, the dinner''s own hour not given). Names: Johnson.'
+    src:
+      c: d80e5339
+      rows:
+        - 'w.johnson-white-house-diary 124–25: time'
     tags: [name:johnson-lyndon-b]
+    time_zone: America/New_York
   - id: cal.1964-04-25.china-leadership
     when: Apr. 25
     date: '1964-04-25'
@@ -6933,19 +6959,21 @@ entries:
   - id: cal.1964-04-26.china-leadership-3
     when: Apr. 26
     date: '1964-04-26'
+    time: 1964-04-25T16:05Z
     thread: china-polemic
     also: [soviet-union, china-mao-foreign, china-propaganda]
     c: 'Mao, now at Hangzhou, approves the *Renmin ribao*''s editors'' note for the CPSU''s three documents, drafted at Peking, revised by Liu Shaoqi and sent to him. He writes: read, very good, broadcast tonight and print tomorrow.{1} The revised reply to the CPSU letter of Mar. 7 goes to him with it.{2} The note follows the lines Deng Xiaoping 邓小平 had worked out with the drafters on the road from Changsha.{3}'
-    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 769–770 (the note drafted after the return of Apr. 20 on the lines Deng Xiaoping had worked out on the road; Mao "approved it on the 26th", his words); [[w.jianguo-yilai-mao-zedong]], XVII, 242–243 (Apr. 26, 1964; Mao''s note to Kang Sheng and Wu Lengxi on their letter of Apr. 25 sending the draft, written at 12:05 a.m. Apr. 26 (四月二十六日上午零时五分), which answers the Check on the hour; no place given; the note renamed the note of the editorial department); [[w.mao-zedong-zhuan]], V, ch. 71 (the digest of the CPSU documents, with an editors'' note, printed Apr. 27 with Mao''s approval (n.40)). [[w.lengxi-shinian-lunzhan-1956-1966]], 769. Made public: 1999. To check: Kang Sheng and Wu Lengxi to Mao Zedong, letter of Apr. 25, 1964 sending the draft Renmin ribao editors'' note on the CPSU''s February plenum documents (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 242 n.1). See [[cal.1964-04-26.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping. Check: the place and hour of Mao''s writing; Wu gives only that he had gone from Changsha to Hangzhou.'
+    n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 769–770 (the note drafted after the return of Apr. 20 on the lines Deng Xiaoping had worked out on the road; Mao "approved it on the 26th", his words); [[w.jianguo-yilai-mao-zedong]], XVII, 242–243 (Apr. 26, 1964; Mao''s note to Kang Sheng and Wu Lengxi on their letter of Apr. 25 sending the draft, written at 12:05 a.m. Apr. 26 (四月二十六日上午零时五分); no place given; the note renamed the note of the editorial department); [[w.mao-zedong-zhuan]], V, ch. 71 (the digest of the CPSU documents, with an editors'' note, printed Apr. 27 with Mao''s approval (n.40)). [[w.lengxi-shinian-lunzhan-1956-1966]], 769. Made public: 1999. To check: Kang Sheng and Wu Lengxi to Mao Zedong, letter of Apr. 25, 1964 sending the draft Renmin ribao editors'' note on the CPSU''s February plenum documents (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 242 n.1). See [[cal.1964-04-26.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping. Check: the place of Mao''s writing; Wu gives only that he had gone from Changsha to Hangzhou. Check: the note as printed (XVII, 242) has "broadcast today" (今日); Wu (769), "tonight" (今晚).'
     src:
       c: 2ba07785
       rows:
         - 'w.lengxi-shinian-lunzhan-1956-1966 769–770: 1, 2'
-        - 'w.jianguo-yilai-mao-zedong XVII, 242–243: 1'
         - 'via w.jianguo-yilai-mao-zedong XVII, 242 n.1: 1, 2'
         - 'w.mao-zedong-zhuan V, ch. 71: ?'
         - 'w.lengxi-shinian-lunzhan-1956-1966 769: 3'
+        - 'w.jianguo-yilai-mao-zedong XVII, 242–243: 1, time'
     tags: [polity:prc, name:mao-zedong, name:liu-shaoqi, name:deng-xiaoping, vis:only:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1964-04-26.china
     when: Apr. 26
     date: '1964-04-26'
@@ -7604,6 +7632,8 @@ entries:
   - id: cal.1964-04-29.civil-rights-bill
     when: Apr. 29
     date: '1964-04-29'
+    time: 1964-04-29T16:00Z
+    time_approx: true
     place: washington
     thread: civil-rights-bill
     also: [republican-party-congress]
@@ -7617,18 +7647,13 @@ entries:
         - 'w.caro-passage-of-power 566: 1, 2'
         - 'w.mann-walls-of-jericho 417: 1'
         - 'via w.mann-walls-of-jericho 417 n.johnsons-refusal-to-negotiate: 1'
-        - 'w.kotz-judgment-days 138–39: 1'
         - 'w.whalen-longest-debate 171–72: 1, 2'
         - 'via x.1964-04-29.lbj-diary-backup: 1, 2'
         - 'w.risen-bill-of-the-century 211–12: 2'
         - 'w.purdum-idea-whose-time-has-2014 270–71: 2'
+        - 'w.kotz-judgment-days 138–39: 1, time'
     tags: [name:dirksen-everett, name:johnson-lyndon-b]
-    time_range:
-      - 1964-04-29T13:00Z
-      - 1964-04-29T21:00Z
-    time_band: workday daytime
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1964-04-29.civil-rights-bill-2
     when: Apr. 29
     date: '1964-04-29'

@@ -34,7 +34,7 @@ entries:
     follows:
       - cal.1965-05-01.latin-america-dominican-republic-2
     c: Palmer asks four more airborne battalions and a third of Marines.
-    n: '[[w.poole-joint-chiefs-of-staff-2012]], 141–42. Split under R25b and R17: Poole, 141, gives Wheeler''s request, Masterson''s reply and the Chiefs'' orders their own hours ("At 1840 on 1 May", "0214 on 2 May", "at 1303 on 2 May"), and 142 the approval of more units its own day ("during 2 May"); each is an entry of its own. See [[cal.1965-04-29.latin-america-dominican-republic-2]]. Names: Palmer.'
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 141–42. See [[cal.1965-04-29.latin-america-dominican-republic-2]]. Names: Palmer.'
     src:
       rows:
         - 'w.poole-joint-chiefs-of-staff-2012 141–42: all'
@@ -373,15 +373,14 @@ entries:
     thread: latin-america-dominican-republic
     follows:
       - cal.1965-05-02.latin-america-dominican-republic-3
-    c: 'Vance puts the field commanders'' courses of action to the President''s advisers; Wheeler for the second, a corridor linking the Marines and the paratroops.{1} Johnson approves late in the day, the advance not before midnight, McNamara against a Sunday operation.{2} The Chiefs'' order: "any time after midnight 2/3 May."{3}'
-    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 303–04. To check: the talking paper for the Chairman, "Alternative Courses of Action in the Dominican Republic," May 2, 1965, SecDef Subject Decimal files, Acc 70A-1265 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 303 n.49); JCS 1251 to CINCLANT, May 2, 1965 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 304 n.51). See [[cal.1965-05-02.latin-america]]. Names: Vance, Wheeler, Johnson, McNamara.'
+    c: Vance puts the field commanders' courses of action to the President's advisers; Wheeler for the second, a corridor linking the Marines and the paratroops.{1}
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 303–04. The meeting is dated 2 May by Drea, 304. To check: the talking paper for the Chairman, "Alternative Courses of Action in the Dominican Republic," May 2, 1965, SecDef Subject Decimal files, Acc 70A-1265 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 303 n.49). See [[cal.1965-05-02.latin-america]]. Names: Vance, Wheeler.'
     src:
-      c: b22efa94
+      c: 3a187de0
       rows:
-        - 'w.drea-mcnamara-clifford-and-the-2011 303–04: 1, 2, 3'
+        - 'w.drea-mcnamara-clifford-and-the-2011 303–04: 1'
         - 'via x.1965-05-02.talking-paper-cjcs-alternative-courses: 1'
-        - 'via x.1965-05-02.jcs-1251-to-cinclant: 3'
-    tags: [name:vance-cyrus, name:wheeler-earle, name:johnson-lyndon-b, name:mcnamara-robert-s]
+    tags: [name:vance-cyrus, name:wheeler-earle]
     time_range:
       - 1965-05-02T13:00Z
       - 1965-05-02T21:00Z
@@ -591,7 +590,7 @@ entries:
     follows:
       - cal.1965-05-02.latin-america-dominican-republic-3
     c: The Joint Chiefs choose Plan B and, 1:03 p.m., order a corridor created at dawn May 3.
-    n: '[[w.poole-joint-chiefs-of-staff-2012]], 141 ("at 1303 on 2 May, issued orders to create a corridor at dawn on 3 May"). Check: Poole''s clock for the hours ("1840", "0214", "1303") is not stated; Washington''s is assumed. It follows Masterson''s reply (141). See [[cal.1965-05-01.latin-america-dominican-republic]].'
+    n: '[[w.poole-joint-chiefs-of-staff-2012]], 141 ("at 1303 on 2 May, issued orders to create a corridor at dawn on 3 May"). Check: Poole''s clock for the hours ("1840", "0214", "1303") is not stated; Washington''s is assumed. It follows Masterson''s reply (141). Check: Drea, 304, has the Joint Chiefs alert Palmer "shortly after 2:00 p.m." to be ready at daybreak on May 3 ([[w.drea-mcnamara-clifford-and-the-2011]], 304). See [[cal.1965-05-01.latin-america-dominican-republic]].'
     time_zone: America/New_York
   - id: cal.1965-05-02.latin-america-dominican-republic-5
     when: May 2
@@ -601,6 +600,32 @@ entries:
     c: The Joint Chiefs approve deploying another Marine battalion and all five uncommitted battalions of the 82nd Airborne Division, Palmer wanting strength to meet an all-out attack on Santo Domingo with uprisings in the countryside.
     n: '[[w.poole-joint-chiefs-of-staff-2012]], 142 ("during 2 May"; no hour given). See [[cal.1965-05-01.latin-america-dominican-republic]]. Names: Palmer.'
     tags: [name:palmer-bruce-jr]
+  - id: cal.1965-05-02.latin-america-dominican-republic-6
+    when: May 2
+    date: '1965-05-02'
+    time: 1965-05-03T00:55Z
+    time_approx: true
+    place: washington
+    thread: latin-america-dominican-republic
+    follows:
+      - cal.1965-05-02.latin-america-dominican-republic-2
+    c: 'Johnson approves the corridor: a few minutes before 9 p.m. he tells Bennett by telephone to go ahead with the cordon, the advance not before midnight; McNamara, by Drea''s reading, for waiting out a Sunday.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 304 (Johnson "approved the plan late on 2 May, subject to the caveat that the advance not begin before midnight"; "A few minutes before 9:00 p.m. the president told Bennett by phone to go ahead with the cordon operation"; the caveat "apparently reflected McNamara''s counsel"). The time: a few minutes before 9 p.m., Washington''s clock, Drea not saying whose. The order: after [[cal.1965-05-02.latin-america-dominican-republic-2]], the meeting at which Vance put the courses (Drea, 304: "approved ... late on 2 May"). See [[cal.1965-05-02.latin-america-dominican-republic-2]]. Names: Johnson, McNamara.'
+    tags: [name:johnson-lyndon-b, name:mcnamara-robert-s]
+    time_zone: America/New_York
+  - id: cal.1965-05-02.latin-america-dominican-republic-7
+    when: May 2
+    date: '1965-05-02'
+    time: 1965-05-03T03:00Z
+    time_approx: true
+    place: washington
+    thread: latin-america-dominican-republic
+    follows:
+      - cal.1965-05-02.latin-america-dominican-republic-6
+    c: 'The Joint Chiefs'' order to Palmer, about two hours after Johnson''s word: begin the cordon "any time after midnight 2/3 May."'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 304 ("The formal JCS order, transmitted about two hours later, directed Palmer to start the operation ''any time after midnight 2/3 May''"). The time: about two hours after the call a few minutes before 9 p.m., Washington''s clock, Drea not saying whose. The order: after [[cal.1965-05-02.latin-america-dominican-republic-6]] (Drea, 304: "about two hours later"). To check: JCS 1251 to CINCLANT, May 2, 1965 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 304 n.51). See [[cal.1965-05-02.latin-america-dominican-republic-2]]. Names: Palmer.'
+    tags: [name:palmer-bruce-jr]
+    time_zone: America/New_York
   - id: cal.1965-05-03.court
     when: May 3
     date: '1965-05-03'
@@ -1970,12 +1995,17 @@ entries:
     place: niujiao
     thread: china-four-cleanups
     c: Niujiao 牛角. Wang Minqing 王敏清 treats Yang Shangkun's 杨尚昆 toothache with acupuncture; the pain eases.
-    n: '[[w.yang-shangkun-riji]], II, 596 (May 7, 1965). The words: 经王敏清针灸后，牙疼已轻了 (II, 596). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Minqing, Yang Shangkun.'
+    n: '[[w.yang-shangkun-riji]], II, 596 (May 7, 1965). The words: 经王敏清针灸后，牙疼已轻了 (II, 596). The range: the evening to midnight, Peking''s clock; the sentence on the acupuncture has no hour of its own and follows 晚间 and "12时才睡" (II, 596), the order of the diary''s sentences alone. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Minqing, Yang Shangkun.'
     src:
       c: ce0a3f21
       rows:
         - 'w.yang-shangkun-riji II, 596: all'
     tags: [polity:prc, vis:only:prc, name:wang-minqing, name:yang-shangkun]
+    time_range:
+      - 1965-05-07T11:00Z
+      - 1965-05-07T16:00Z
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1965-05-07.china-leadership-8
     when: May 7
     date: '1965-05-07'
@@ -3352,12 +3382,18 @@ entries:
     place: niujiao
     thread: china-leadership
     c: 'Niujiao 牛角. Wang Kuancai''s 王宽才 wedding, in the new style, the village''s first; Yang Shangkun 杨尚昆 looks in after breakfast and, invited, sits an hour at his home in the afternoon, drinking, An Yumi 安于密 there, with a toast: respect the elders, teach the young, work well, stay united.'
-    n: '[[w.yang-shangkun-riji]], II, 603 (May 13, 1965). The words: 今天王宽才结婚，早饭后看了一下，完全采取新形式，是牛角村的第一次 (II, 603). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Kuancai, Yang Shangkun, An Yumi.'
+    n: '[[w.yang-shangkun-riji]], II, 603 (May 13, 1965). The words: 今天王宽才结婚，早饭后看了一下，完全采取新形式，是牛角村的第一次 (II, 603). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). The range is the day: after breakfast and the afternoon hour, the two acts the diary gives (II, 603), Peking''s clock. Names: Wang Kuancai, Yang Shangkun, An Yumi.'
     src:
       c: 4d8a09d1
       rows:
         - 'w.yang-shangkun-riji II, 603: all'
     tags: [polity:prc, vis:only:prc, name:an-yumi, name:wang-kuancai, name:yang-shangkun]
+    time_range:
+      - 1965-05-12T22:00Z
+      - 1965-05-13T11:00Z
+    time_band: daytime
+    time_zone: Asia/Shanghai
+    range_basis: record
   - id: cal.1965-05-13.china-leadership-3
     when: May 13
     date: '1965-05-13'
@@ -3651,13 +3687,14 @@ entries:
     date: '1965-05-14'
     thread: china-nuclear-diplomacy
     also: [testing, china-bomb]
+    follows:
+      - cal.1965-05-14.china-bomb
     c: Xinhua issues the press communique on the success of China's second atomic bomb test.{1} It says China develops nuclear arms wholly for defense; China will never be the first to use them; the Chinese people sincerely hope nuclear war never comes; the government and people will go on, with all the peace-loving countries and peoples, to strive for the complete prohibition and thorough destruction of nuclear weapons.{2}
-    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 28 (May 14, 1965); [[w.yang-shangkun-riji]], II, 604 (May 14, 1965; the second atomic bomb exploded at 10 a.m.; the communiqué not named; the words: 今天上午10时，我国又爆炸了第二枚原子弹).'
+    n: '[[w.zhonghua-renmin-gongheguo-waijiao]], 28 (May 14, 1965). Check: the day of the communiqué: the Waijiao dashiji (28) has Xinhua issue it on May 14, the day of the test; the editors of Mao''s note of May 12 ([[w.jianguo-yilai-mao-zedong]], XVIII, 53 n.1) have Xinhua print it May 15.'
     src:
       c: b5af5251
       rows:
         - 'w.zhonghua-renmin-gongheguo-waijiao 28: 1, 2'
-        - 'w.yang-shangkun-riji II, 604: ?'
     tags: [polity:prc]
     variants:
       - unit: '1'
@@ -3774,6 +3811,16 @@ entries:
     c: Zhu De 朱德 talks with Li Yimang 李一氓, vice-president of the Chinese People's Institute of Foreign Affairs 中国人民外交学会.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1933. Made public: 2016. Names: Zhu De.'
     tags: [polity:prc, ok:fields-place, name:zhu-de, vis:only:prc]
+  - id: cal.1965-05-14.china-bomb
+    when: May 14
+    date: '1965-05-14'
+    time: 1965-05-14T02:00Z
+    thread: china-bomb
+    also: [testing]
+    c: China explodes its second atomic bomb, at 10 a.m.
+    n: '[[w.yang-shangkun-riji]], II, 604 (May 14, 1965; 今天上午10时，我国又爆炸了第二枚原子弹). The time: 10 a.m., Peking''s clock, as the diary writes it at Xi''an. Check: the place; the page does not give it. See [[cal.1965-05-12.china-leadership-5]].'
+    tags: [polity:prc]
+    time_zone: Asia/Shanghai
   - id: cal.1965-05-15.students
     when: May 15
     date: '1965-05-15'
@@ -7387,13 +7434,13 @@ entries:
     time: 1965-05-30T07:30Z
     place: lanzhou
     thread: china-leadership
-    c: Lanzhou 兰州, 3:30 p.m. Yang Shangkun 杨尚昆, with Hu Qiang 胡强, arrives, met by Guo Tan 郭坦, secretary-general of the Gansu 甘肃 committee; Pei Mengfei 裴孟飞, Wang Shitai 王世泰 and Gao Jianjun 高健君, its secretaries (the editors' note), waiting at the Ningwozhuang 宁卧庄 guesthouse.
-    n: '[[w.yang-shangkun-riji]], II, 627 (May 30, 1965). The words: 3点半到达兰州，郭坦同志等来接。下榻在省委招待所"宁卧庄" (II, 627). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hu Qiang, Guo Tan, Pei Mengfei, Wang Shitai, Gao Jianjun.'
+    c: Lanzhou 兰州, 3:30 p.m. Yang Shangkun 杨尚昆, with Hu Sheng 胡绳 on the train, arrives, met by Guo Tan 郭坦, secretary-general of the Gansu 甘肃 committee; Pei Mengfei 裴孟飞, Wang Shitai 王世泰 and Gao Jianjun 高健君, its secretaries (the editors' note), waiting at the Ningwozhuang 宁卧庄 guesthouse.
+    n: '[[w.yang-shangkun-riji]], II, 627–28 (May 30, 1965; Hu Sheng on the train, 627; the arrival, the guesthouse and the editors'' note, 628). The words: 与胡绳同志闲谈一些问题 (II, 627); 3点半到达兰州，郭坦同志等来接。下榻在省委招待所"宁卧庄" (II, 628). The diary names Hu Sheng 胡绳 on the train (627), not Hu Qiang. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Hu Sheng, Guo Tan, Pei Mengfei, Wang Shitai, Gao Jianjun.'
     src:
-      c: 9f0ae904
+      c: 666246db
       rows:
-        - 'w.yang-shangkun-riji II, 627: all'
-    tags: [polity:prc, vis:only:prc, name:gao-jianjun, name:guo-tan, name:hu-qiang, name:pei-mengfei, name:wang-shitai, name:yang-shangkun]
+        - 'w.yang-shangkun-riji II, 627–28: all'
+    tags: [polity:prc, vis:only:prc, name:gao-jianjun, name:guo-tan, name:pei-mengfei, name:wang-shitai, name:yang-shangkun, name:hu-sheng]
     time_zone: Asia/Shanghai
   - id: cal.1965-05-30.china-leadership-7
     when: May 30
@@ -7403,16 +7450,15 @@ entries:
     follows:
       - cal.1965-05-30.china-leadership-6
     c: Lanzhou 兰州, to 7 p.m. Yang Shangkun 杨尚昆 and Wang Shitai 王世泰 at the Baita 白塔山 hill north of the Yellow River, over the city.
-    n: '[[w.yang-shangkun-riji]], II, 627 (May 30, 1965). The words: 稍事休息之后，即与世泰同志一起去黄河北岸的白塔山，俯视了兰州全景，7时才回 (II, 627). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Shitai.'
+    n: '[[w.yang-shangkun-riji]], II, 628 (May 30, 1965). The words: 稍事休息之后，即与世泰同志一起去黄河北岸的白塔山，俯视了兰州全景，7时才回 (II, 628). The page is 628, not 627. The range: from the arrival at 3:30 p.m. to the return at 7, Peking''s clock (628). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Shitai.'
     src:
       c: 54bd5e11
       rows:
-        - 'w.yang-shangkun-riji II, 627: all'
+        - 'w.yang-shangkun-riji II, 628: all'
     tags: [polity:prc, vis:only:prc, name:wang-shitai, name:yang-shangkun]
     time_range:
-      - 1965-05-30T04:00Z
-      - 1965-05-30T10:00Z
-    time_band: afternoon
+      - 1965-05-30T07:30Z
+      - 1965-05-30T11:00Z
     time_zone: Asia/Shanghai
   - id: cal.1965-05-30.china-leadership-8
     when: May 30

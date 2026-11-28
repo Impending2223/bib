@@ -22,8 +22,8 @@ STYLE
     tints meet the borders exactly. North up; no rotation.
  2. The span's places (the span: maps.py STYLE 2): a dot each, in the accent, larger by the number of the span's
     entries there (by area, constant on screen); the gazetteer's other places small and muted. A tap on a dot lists its
-    entries (date, thread, the first words of the statement), each linked to the entry; a tap elsewhere names the unit
-    under it (and the month's rain, where shown). Under the map, folded, the span's placed entries in date order.
+    entries (date, thread, the first words of the statement), each linked to the entry; a tap elsewhere drops a pin
+    (STYLE 9). Under the map, folded, the span's placed entries in date order.
  3. Names: the span's places first, most entries first, then the gazetteer's by rank (1, the capitals and the largest
     cities; 2, province capitals, the main bases and battlefields, from about twice the first view; 3, the rest, from
     six times), placed by the library's collision (right, left, above, below the dot; never over another); a constant
@@ -63,6 +63,27 @@ STYLE
     1966"; contents' small capitals, no comma before a bare year), the span's fields on the page's range, the first
     view the Republic widened to the span's places. Before Nov. 26, 2026 the calendar held a map a year, 1960–68, on
     the year's first Monday (the owner, Nov. 4 and 11, 2026), each with its year's entries in the page.
+ 9. The pin (the owner, Nov. 27, 2026: "Could we make it so that tapping a point on the map 'drops a pin' that toggles
+    a display beneath the map listing the latitude and longitude of the pin, the nearest point in the gazette, and all
+    available information about the point from the map layers?"; both maps, wherever they stand; notes/proposals/
+    map-pin.md). A tap on the map that is not on a dot, a city's circle or a control drops the library's own marker
+    there, in ink, and opens a panel just under the map's box (.vnm-pin: the tap's card, .vnm-pop, in the page's flow);
+    a tap elsewhere moves it; a tap on the pin, or the panel's ×, takes it away. A drag, a pinch or a double tap drops
+    nothing. The panel: the pin's latitude and longitude to three decimals (about 100 m); the gazetteer's nearest place,
+    its distance, its entries in the span, its page where it has one (PIN, `pages`) and its gazetteer row; then a line
+    for each layer the map has, read at the pin from the layer's own file, or saying that it holds nothing there. A
+    layer's file not fetched yet is fetched when the pin first needs it (the elevation and the climate a tile each).
+    The lines, as the owner asked on Nov. 27, 2026 (notes/proposals/map-pin-2.md): the place in one line, "[County],
+    [Prefecture], [Province], [Country].", no kind, no date and no label, each Chinese tier in pinyin and characters,
+    none in a heavier type; then, after the full stop, short items (the RVN's corps zone, "Southeast region.", "Today's
+    province.", a disputed area, a word on a county's lines where they are a guess); the country by the register's
+    name on the day of the units drawn (country_names, PIN_DAY); the elevation, the point alone (no band, no contour
+    line); the sea's depth; the nearest river within 20 km ("nearest, unnamed"); the lake; "Climate"; "Precipitation"
+    and "Temperature" each as twelve bars the panel's width (.vnm-bars; CRU CL 2.0's figures are precipitation, snow
+    counted as its water), each month's figure over its bar, whole, the exact figure in the bar's title; "Population
+    density", the persons a km² after each class; the nearest city with its figure. The manifest's `pin` holds what the
+    files do not (pin_data): every climate class with its colour (the legend leaves out the rarest), the countries'
+    names, the units' names in characters, the prefectures' pinyin (tools/cnmap/prefectures.json) and the pages.
 """
 import hashlib
 import json
@@ -299,7 +320,76 @@ def client():
     return _C["client"]
 
 
-def assets():
+PIN_DAY = "1966-12-31"     # the units the maps draw are of 1966: a country is named as the register names it that day
+PIN_POLITY = {"china": "prc"}   # a borders' file's country that is a register's polity under another key
+
+
+def country_names(ids, day=PIN_DAY):
+    """{country: name} for the pin's place line (STYLE 9): the register's name (sources/polities.yaml) on that day, a
+    polity's successor after its `until`; without the register's gloss ("China (the People's Republic)" -> "China":
+    the owner, Nov. 27, 2026: "Could we say 'China' rather than the People's Republic? (The DRV/RVN is a one-off.)").
+    A country the register does not hold keeps its file's name."""
+    from . import vis
+    P = vis.polities()["polities"]
+    out = {}
+    for i in sorted(ids):
+        p = P.get(PIN_POLITY.get(i, i))
+        if not p or p.get("org"):
+            continue
+        if p.get("until") and str(p["until"]) <= day and P.get(p.get("then")):
+            p = P[p["then"]]
+        from . import placepages
+        out[i] = placepages.short_name(p["name"])   # "China", not the People's Republic (the owner, Nov. 27, 2026)
+    return out
+
+
+def unit_zh(d):
+    """{unit: its name in characters} from the units' file in d (the map of China's units.json: `made_of`, a province's
+    own name first, 河北省 before 天津市); {} where the file or the characters are missing."""
+    p = os.path.join(d, "units.json")
+    if not os.path.exists(p):
+        return {}
+    out = {}
+    for u in json.load(open(p, encoding="utf-8")).get("units") or []:
+        han = [m for m in u.get("made_of") or [] if re.search(r"[\u4e00-\u9fff]", m)]
+        if han:
+            out[u["id"]] = next((m for m in han if re.search(r"(省|自治区)$", m)), han[0])
+    return out
+
+
+def pin_data(d, series, places, units=(), pref=None):
+    """The manifest's `pin` (STYLE 9), for a map whose files are in d: every climate class with its colour, the
+    countries' names (country_names), the units' names in characters (unit_zh), the prefectures' names in pinyin
+    (pref: the map of China's, tools/cnmap/prefs.py), and the pages the panel links (maps.place_pages): the map's
+    places (gazetteer keys), its units and its countries (the borders' file's) that have a page of their own."""
+    out = {}
+    kp = os.path.join(d, "koppen.json")
+    if os.path.exists(kp):
+        out["koppen"] = [{k: c[k] for k in ("code", "name", "color")} for c in json.load(open(kp, encoding="utf-8"))["classes"]]
+    countries = set()
+    ap = os.path.join(d, FILES["admin"])
+    if os.path.exists(ap):
+        for f in json.load(open(ap, encoding="utf-8")).get("features") or []:
+            q = f.get("properties") or {}
+            if q.get("id") and (q.get("k") == "land" or (q.get("k"), q.get("l")) == ("lab", "country")):
+                countries.add(q["id"])
+            if q.get("c"):
+                countries.add(q["c"])
+    if countries:
+        out["names"] = country_names(countries)
+    zh = unit_zh(d)
+    if zh:
+        out["zh"] = zh
+    if pref:
+        out["pref"] = pref
+    from . import maps
+    pages = maps.place_pages(series, places, units, countries)
+    if pages:
+        out["pages"] = pages
+    return out
+
+
+def assets(series=None):
     """The client, the library and the data beside the pages: (css, js, manifest) paths from a page."""
     if "assets" in _C:
         return _C["assets"]
@@ -313,7 +403,7 @@ def assets():
     # the manifest's paths are from a page in build/; the font faces' from the page too
     M = {"bounds": BOUNDS, "home": {"all": HOME_ALL, "rvn": HOME_RVN}, "files": files, "fonts": _fonts(),
          "places": _places(), "credit": {**{k: CREDIT[k] for k in CREDIT}, "page": '<a href="indochina.html#sources">Sources and licenses</a>'},
-         **_legends()}
+         **_legends(), "pin": pin_data(LAYERS, series, list(gazetteer()))}
     man = _put_json("manifest", M)
     _C["assets"] = (css_p, js_p, man)
     return _C["assets"]
@@ -440,11 +530,14 @@ def bar(modes, own, have, cities):
 def box(label):
     """The controls, the map's box and the legend: what every figure of this map holds under its span's fields."""
     return (_bar() + f'<div class="vnm-box"><div class="vnm-gl" role="region" aria-label="{label}"></div>'
-            '<div class="vnm-pop" hidden></div></div>' + _key())
+            '<div class="vnm-pop" hidden></div></div>' + PIN + _key())
+
+
+PIN = '<div class="vnm-pin" hidden aria-live="polite"></div>'     # the pin's panel, under the map's box (STYLE 9)
 
 
 def manifest(series=None):
-    return assets()[2]
+    return assets(series)[2]
 
 
 def ready():
@@ -472,7 +565,7 @@ def full_figure(series):
     ar = math.radians(HOME_ALL[2] - HOME_ALL[0]) / (m(HOME_ALL[3]) - m(HOME_ALL[1]))
     all_ = [lo.isoformat(), hi.isoformat()]
     d = {"eu": E["files"], "ys": ys, "sp": all_, "all": all_, "gz": ""}
-    return (f'<figure class="vnm full" data-geo="{manifest()}" style="--vnar:{ar:.4f}">'
+    return (f'<figure class="vnm full" data-geo="{manifest(series)}" style="--vnar:{ar:.4f}">'
             f'<figcaption class="vnm-cap"><span class="vnm-cnt">All years: {maps.count(E["rows"])}</span> {TAIL}'
             '</figcaption>' + yrs + maps.fields(lo, hi) + box(f"{LABEL}, {ys[0]}–{ys[-1]}") +
             f'<details class="vnm-list"><summary>The placed entries ({len(E["rows"])})</summary><ol></ol></details>'
@@ -483,12 +576,14 @@ def problems(series):
     out = []
     G, U = gazetteer(), units()
     lst = series.lists.get("cal")
+    from . import placepages
+    cn_units = set(placepages.provinces())       # `province:` names a PRC province of 1966 as well (placepages STYLE 2)
     if lst:
         for sec, e in lst.entries():
             for t in e.get("tags") or []:
                 if t.startswith("place:") and t[6:] not in G:
                     out.append((e["id"], f"{t}: no such place in sources/vn-provinces-1966/places.json"))
-                elif t.startswith("province:") and t[9:] not in U:
+                elif t.startswith("province:") and t[9:] not in U and t[9:] not in cn_units:   # a PRC province too
                     out.append((e["id"], f"{t}: no such 1966 unit in sources/vn-provinces-1966/provinces1966.geojson"))
     # the map's files: there, under the size limits, the vendored library whole
     total = 0

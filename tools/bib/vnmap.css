@@ -24,12 +24,19 @@
 .vnm-bar button:focus-visible,.vnm-bar input:focus-visible,.vnm-bar select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 .vnm-box{position:relative;aspect-ratio:4/5;max-height:82vh;width:100%;background:var(--vsea);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
 .vnm-box>.vnm-gl{position:absolute;inset:0;width:auto;height:auto}
-.vnm-pop{position:absolute;left:8px;right:8px;bottom:8px;z-index:3;max-height:45%;overflow:auto;background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:8px 10px;font-size:.8rem;line-height:1.35}
-.vnm-pop b{font-weight:600}
-.vnm-pop ol,.vnm-pop ul,.vnm-list ol{margin:.3rem 0 0;padding-left:1.1rem}
-.vnm-pop li,.vnm-list li{margin:.15rem 0}
-.vnm-pop .x{float:right;border:0;background:none;color:var(--muted);font:inherit;font-size:1rem;line-height:1;cursor:pointer;padding:0 0 4px 8px}
-.vnm-pop .m,.vnm-list .m{color:var(--muted)}
+/* a tap's card over the map, and the pin's panel under it (vnmap.py STYLE 9): one card, the panel in the page's flow */
+.vnm-pop,.vnm-pin{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:8px 10px;font-size:.8rem;line-height:1.35}
+.vnm-pop{position:absolute;left:8px;right:8px;bottom:8px;z-index:3;max-height:45%;overflow:auto}
+.vnm-pin{margin-top:.35rem}
+.vnm-pop b,.vnm-pin b{font-weight:600}
+.vnm-pop ol,.vnm-pop ul,.vnm-pin ol,.vnm-list ol{margin:.3rem 0 0;padding-left:1.1rem}
+.vnm-pop li,.vnm-pin li,.vnm-list li{margin:.15rem 0}
+.vnm-pop .x,.vnm-pin .x{float:right;border:0;background:none;color:var(--muted);font:inherit;font-size:1rem;line-height:1;cursor:pointer;padding:0 0 4px 8px}
+.vnm-pop .m,.vnm-pin .m,.vnm-list .m{color:var(--muted)}
+/* the panel's twelve months as bars (STYLE 9): the panel's width, the legend's type size, the zero line a rule */
+.vnm-bars{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:0 2px;margin:.15rem 0 .3rem;font-size:.72rem;line-height:1.2;text-align:center;white-space:nowrap}
+.vnm-bars i{display:block;position:relative;height:2.5rem;margin:1px 0;background:linear-gradient(var(--rule),var(--rule)) 0 var(--z)/100% 1px no-repeat}
+.vnm-bars i i{position:absolute;left:1px;right:1px;height:auto;margin:0;background:var(--bar,var(--muted))}
 .vnm-key{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.72rem;color:var(--muted);margin-top:.35rem}
 .vnm-key>span{display:contents}
 .vnm-key>span[hidden]{display:none}
@@ -42,7 +49,7 @@
 .vnm-key s+em{flex-basis:auto;flex:1 1 12rem}
 .vnm-key a{color:var(--muted)}
 .vnm-list{font-size:.8rem;margin-top:.35rem}
-.vnm-list summary{cursor:pointer;color:var(--muted)}
+.vnm-list summary,.vnm-pin summary{cursor:pointer;color:var(--muted)}
 .vnm-pg{font-size:.75rem;color:var(--muted);margin:.3rem 0 0}
 .vnm-pg a{color:var(--muted)}
 /* the page of its own (indochina.html; STYLE 6) */

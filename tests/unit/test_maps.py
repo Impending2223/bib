@@ -336,6 +336,170 @@ def test_read_date(tmp_path):
                      maps.span(D(1969, 1, 1), D(1969, 1, 20)), maps.span(D(1962, 9, 3), D(1962, 9, 3))]
 
 
+# ---------------------------------------------------------------- the pin (vnmap STYLE 9; the owner, Nov. 27, 2026)
+
+def test_pin_panel_in_every_box(china, monkeypatch, tmp_path):
+    """Each map's box is followed by the pin's panel, hidden, then the legend: under the map, above its key."""
+    layers = tmp_path / "layers"
+    os.makedirs(layers)
+    monkeypatch.setattr(vnmap, "LAYERS", str(layers))
+    for box in (cnmap.box("Map"), vnmap.box("Map")):
+        assert box.count(vnmap.PIN) == 1
+        assert box.index('<div class="vnm-pop" hidden></div></div>' + vnmap.PIN + '<div class="vnm-key">') > 0
+    assert vnmap.PIN == '<div class="vnm-pin" hidden aria-live="polite"></div>'
+
+
+def test_pin_data(tmp_path):
+    """The manifest's `pin`: every climate class (the legend's rarest too), the units' names in characters, the
+    prefectures' pinyin where given, and no pages without a series; a file missing, no key. (The contours' levels went
+    with the panel's contour line, the owner, Nov. 27, 2026.)"""
+    d = tmp_path
+    (d / "contours.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": [{"properties": {"elev_m": 500}}]}))
+    (d / "koppen.json").write_text(json.dumps({"classes": [
+        {"value": 1, "code": "Af", "name": "Tropical, rainforest", "color": "#0000ff", "share_of_land_in_frame": 0.0001},
+        {"value": 3, "code": "Aw", "name": "Tropical, savannah", "color": "#46aafa", "share_of_land_in_frame": 0.35}]}))
+    (d / "units.json").write_text(json.dumps({"units": [{"id": "hebei", "made_of": ["天津市", "河北省"]},
+        {"id": "peking", "made_of": ["北京市"]}, {"id": "hong-kong", "made_of": ["Hong Kong"]}]}, ensure_ascii=False), encoding="utf-8")
+    assert vnmap.pin_data(str(d), None, ["saigon"], pref={"苏州专区": "Suzhou"}) == {"koppen": [
+        {"code": "Af", "name": "Tropical, rainforest", "color": "#0000ff"}, {"code": "Aw", "name": "Tropical, savannah", "color": "#46aafa"}],
+        "zh": {"hebei": "河北省", "peking": "北京市"}, "pref": {"苏州专区": "Suzhou"}}
+    assert vnmap.pin_data(str(tmp_path / "none"), None, ["saigon"]) == {}
+
+
+POLITIES = """polities:
+  prc: {name: 'China (the People''s Republic)', tag: 'PRC', top: true}
+  drv: {name: 'Democratic Republic of Vietnam', tag: 'DRV', until: '1976-07-02', then: srv}
+  srv: {name: 'Socialist Republic of Vietnam', tag: 'SRV', from: '1976-07-02'}
+  rvn: {name: 'Republic of Vietnam', tag: 'RVN', until: '1975-04-30'}
+  roc: {name: 'Republic of China', tag: 'ROC'}
+  laos: {name: 'Laos', tag: 'LAOS'}
+  thailand: {name: 'Thailand', tag: 'THAILAND'}
+  uk: {name: 'United Kingdom', tag: 'UK', top: true}
+  un: {name: 'United Nations', tag: 'UN', org: true}
+"""
+
+
+@pytest.fixture
+def register(monkeypatch, tmp_path):
+    """sources/polities.yaml's rows for the maps' countries, as the register writes them."""
+    from bib import vis
+    p = tmp_path / "polities.yaml"
+    p.write_text(POLITIES, encoding="utf-8")
+    monkeypatch.setattr(vis, "POL", str(p))
+    monkeypatch.setattr(vis, "_cache", {})
+
+
+def test_country_names(register):
+    """The place line's countries: the register's names on the day of the units drawn, a republic's gloss read as its
+    name, a borders' file's own key mapped to the register's, a country the register lacks left to the file, an
+    organization not a country."""
+    assert vnmap.country_names(["rvn", "drv", "china", "prc", "roc", "laos", "vietnam"]) == {
+        "rvn": "Republic of Vietnam", "drv": "Democratic Republic of Vietnam", "china": "China",
+        "prc": "China", "roc": "Republic of China", "laos": "Laos"}
+    assert vnmap.country_names(["un"]) == {}
+    assert vnmap.country_names(["drv"], "1977-01-01") == {"drv": "Socialist Republic of Vietnam"}
+
+
+def test_place_pages(monkeypatch, tmp_path, register):
+    """The pin's links: the map's places, units and countries that have a page of their own, and no others."""
+    from bib import placepages
+    got = {("city", "saigon"): {"page": "places-saigon"}, ("province", "sichuan"): {"page": "places-sichuan"},
+           ("nation", "rvn"): {"page": "places-rvn"}, ("nation", "uk"): {"page": "places-uk"}}
+    rows = {"saigon": got[("city", "saigon")], "sichuan": got[("province", "sichuan")]}
+    monkeypatch.setattr(placepages, "_by_page", lambda series: (got, rows))
+    s = store.Series()
+    assert maps.place_pages(s, ["saigon", "hue"], ["sichuan", "hebei"], ["rvn", "thailand"]) == {
+        "p": {"saigon": "places-saigon.html"}, "u": {"sichuan": "places-sichuan.html"}, "c": {"rvn": "places-rvn.html"}}
+    assert maps.place_pages(s, ["hue"]) == {} and maps.place_pages(None, ["saigon"]) == {}
+    (tmp_path / "admin.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": [
+        {"properties": {"k": "land", "id": "thailand"}}, {"properties": {"k": "lab", "l": "country", "id": "uk"}},
+        {"properties": {"k": "unit", "id": "an-giang", "c": "rvn"}}, {"properties": {"k": "lab", "l": "unit", "id": "saigon"}}]}))
+    got = vnmap.pin_data(str(tmp_path), s, ["saigon"])
+    assert got["pages"] == {"p": {"saigon": "places-saigon.html"}, "c": {"rvn": "places-rvn.html", "uk": "places-uk.html"}}
+    assert got["names"] == {"rvn": "Republic of Vietnam", "thailand": "Thailand", "uk": "United Kingdom"}
+
+
+def test_pin_in_the_manifest(china):
+    """Both maps' manifests carry the pin's data, the map of China's its units' pages too."""
+    s, out = china
+    man = json.load(open(out / cnmap.manifest(s), encoding="utf-8"))
+    assert "pin" in man and set(man["pin"]) <= {"koppen", "names", "zh", "pref", "pages"}
+
+
+def test_client_pin():
+    """The client: a tap not on a dot, a city or a control drops the pin after a double tap's wait; the pin's own tap,
+    and the panel's ×, take it away; the old card for a unit and the rain is the panel's now."""
+    js = open(os.path.join(TOOLS, "bib", "vnmap.js"), encoding="utf-8").read()
+    for word in ("fig.querySelector('.vnm-pin')", "this.setPin(ll, true)", "map.on('dblclick', undo)", "closest('.maplibregl-marker')",
+                 "new this.ml.Marker({color: this.C.ink", "ml.MercatorCoordinate.fromLngLat(ll)", "new window.pmtiles.PMTiles(url)",
+                 "e.target.closest('.x')) this.setPin(null)", "if (this.pin) this.pinShow();"):
+        assert word in js, word
+    tap = js[js.index("  tap(e) {"):js.index("  setPin(ll, tapped) {")]
+    assert "showPlace" in tap and "showCity" in tap and "'rain'" not in tap and "'tint'" not in tap
+    css = open(os.path.join(TOOLS, "bib", "vnmap.css"), encoding="utf-8").read()
+    assert ".vnm-pop,.vnm-pin{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:8px 10px;" in css
+    assert css.count("\n.vnm-pin{") == 1                   # its one rule of its own: its place in the flow
+
+
+@pytest.mark.skipif(not shutil.which("node"), reason="node is not installed: the pin's reading is not run")
+def test_pin_reading(tmp_path):
+    """What the pin reads at a point: its latitude and longitude, distances, a polygon with a hole, a line, the nearest."""
+    js = open(os.path.join(TOOLS, "bib", "vnmap.js"), encoding="utf-8").read()
+    a, b = js.index("const RKM"), js.index("let libP")
+    sq = lambda x0, y0, x1, y1: [[x0, y0], [x1, y0], [x1, y1], [x0, y1], [x0, y0]]
+    poly = {"type": "Polygon", "coordinates": [sq(0, 0, 10, 10), sq(4, 4, 6, 6)]}
+    multi = {"type": "MultiPolygon", "coordinates": [[sq(20, 20, 21, 21)], [sq(30, 30, 31, 31)]]}
+    fc = {"features": [{"properties": {"k": "unit"}, "geometry": poly}, {"properties": {"k": "land"}, "geometry": multi}]}
+    pts = [{"properties": {"id": "a"}, "geometry": {"coordinates": [106.70, 10.78]}},
+           {"properties": {"id": "b"}, "geometry": {"coordinates": [105.85, 21.03]}}]
+    code = js[a:b].replace("export ", "") + "\nconst T = " + json.dumps({"poly": poly, "multi": multi, "fc": fc, "pts": pts}) + ";\n" + (
+        "console.log(JSON.stringify([showLL([106.70194, 10.77556]), showLL([-77.0365, -12.0464]), showKm(0.44), showKm(12.6), "
+        "showKm(1234.4), Math.round(km([106.70194, 10.77556], [105.85, 21.03])), "
+        "inside([1, 1], T.poly), inside([5, 5], T.poly), inside([11, 5], T.poly), inside([30.5, 30.5], T.multi), "
+        "inside([25, 25], T.multi), within([30.5, 30.5], T.fc).length, within([1, 1], T.fc, (q) => q.k === 'land').length, "
+        "toLine([0.5, 0.01], {type: 'LineString', coordinates: [[0, 0], [1, 0]]}).toFixed(3), "
+        "toLine([2, 0], {type: 'MultiLineString', coordinates: [[[0, 0], [1, 0]]]}).toFixed(1), "
+        "nearest([106.6, 10.8], T.pts)[0].properties.id, nearest([1, 1], [])[1]]));\n")
+    p = tmp_path / "pin.mjs"
+    p.write_text(code, encoding="utf-8")
+    out = subprocess.run(["node", str(p)], capture_output=True, text=True, timeout=60)
+    assert out.returncode == 0, out.stderr
+    assert json.loads(out.stdout) == ["10.776° N, 106.702° E", "12.046° S, 77.037° W", "0.4 km", "13 km", "1,234 km",
+                                      1144, True, False, False, True, False, 1, 0, "1.112", "111.2", "a", None]
+
+
+@pytest.mark.skipif(not shutil.which("node"), reason="node is not installed: the panel's county and bars are not run")
+def test_pin_county_and_bars(tmp_path):
+    """The panel (the owner, Nov. 27, 2026): a county's characters, prefecture and the one word on its lines kept from
+    its line; the months' bars, each figure over its bar, from a zero line where the figures cross it."""
+    js = open(os.path.join(TOOLS, "bib", "vnmap.js"), encoding="utf-8").read()
+    a, b = js.index("const RKM"), js.index("let libP")
+    m, e = js.index("const MONTHS"), js.index("const esc =")
+    code = js[m:js.index("\n", m) + 1] + js[e:js.index("\n", e) + 1] + js[a:b].replace("export ", "") + (
+        "\nconsole.log(JSON.stringify(["
+        "countyOf('无锡县 · county, end of 1964 · 江苏省, 苏州专区 · the later unit of the name'), "
+        "countyOf('乐亭县 · county, end of 1964 · 河北省, 唐山专区 · the later unit of the name · a guess'), "
+        "countyOf('苏州市 · city, end of 1964 · 江苏省, 苏州专区 · the later city, larger than the city of 1964'), "
+        "countyOf('Weixian · a later unit (about 1994), shown as it is: its name was not found in the lists'), "
+        "countyOf(\"金門縣 · county, end of 1964 · 福建省（中華民國） · today's county\"), "
+        "bars([10, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40], String, (x) => x + ' mm', 'Precipitation'), "
+        "bars([-10, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], (x) => minus(x), (x) => minus(x) + ' °C', 'Temperature')]));\n")
+    p = tmp_path / "panel.mjs"
+    p.write_text(code, encoding="utf-8")
+    out = subprocess.run(["node", str(p)], capture_output=True, text=True, timeout=60)
+    assert out.returncode == 0, out.stderr
+    c1, c2, c3, c4, c5, b1, b2 = json.loads(out.stdout)
+    assert c1 == {"zh": "无锡县", "pref": "苏州专区", "note": ""}
+    assert c2["note"] == "The county here is a guess." and c3["note"] == "Drawn at the city's later, larger size."
+    assert c4 == {"zh": "Weixian", "pref": "", "note": "Name and lines of a later year."}
+    assert c5 == {"zh": "金門縣", "pref": "", "note": ""}
+    assert b1.startswith('<div class="vnm-bars" role="img" style="--z:100%" aria-label="Precipitation: Jan. 10 mm, Feb. 20 mm,')
+    assert b1.count('<span title=') == 12 and '<span title="Dec. 40 mm">40<i><i style="bottom:0%;height:100%"></i></i><span class="m">D</span></span>' in b1
+    assert 'style="--z:75%"' in b2                       # the zero line a quarter up: -10 to 30
+    assert '<span title="Jan. −10 °C">−10<i><i style="bottom:0%;height:25%"></i></i>' in b2
+    assert '<span title="Feb. 30 °C">30<i><i style="bottom:25%;height:75%"></i></i>' in b2
+
+
 # ---------------------------------------------------------------- tools/cnmap/roc.py: the Republic of China's units
 
 def test_roc_units():

@@ -234,6 +234,29 @@ def test_places_line_new_york_state(series, cal, monkeypatch):
     pp.reset()
 
 
+def test_places_line_short_names(series, cal, register, monkeypatch):
+    """The line's short names (LINE_NAME; the owner, Nov. 27, 2026: "South Vietnam", "D.C."), the page keeping its own;
+    a name that ends in a period takes none after it."""
+    pp.gather(series)
+    ent = next(e for _, e in cal.entries() if "when" in e and e.get("place") == "peking")
+    monkeypatch.setattr(pp, "LINE_NAME", {("nation", "prc"): "the P.R.C.", ("city", "peking"): "Pek."})
+    got = pp.line(ent, series)
+    assert got.startswith('Places: <a href="places-prc.html">the P.R.C.</a>') and got.endswith("Pek.</a>")
+    assert pp.gather(series)[("nation", "prc")]["name"] == "China"
+
+
+def test_uk_parts(monkeypatch):
+    """A United Kingdom place's part, from its place and its place tags, each once, in the order met."""
+    rows = {"london": {"key": "london", "in": "uk", "part": "Great Britain"},
+            "oxford": {"key": "oxford", "in": "uk", "part": "Great Britain"},
+            "hong-kong": {"key": "hong-kong", "in": "uk", "part": "Hong Kong"}, "paris": {"key": "paris", "in": "fr"}}
+    monkeypatch.setattr(places, "get", rows.get)
+    monkeypatch.setattr(pp, "tag_row", lambda g: rows.get(g.partition(":")[2]))
+    assert pp._uk_parts(E(place=["london", "paris"], tags=["city:oxford", "city:hong-kong"])) == ["Great Britain",
+                                                                                                  "Hong Kong"]
+    assert pp._uk_parts(E(place="paris")) == []
+
+
 def test_into_note():
     assert pp.into_note("A, 3. Names: <a>X</a>.", "Places: P.") == "A, 3. Places: P. Names: <a>X</a>."
     assert pp.into_note("A, 3.", "Places: P.") == "A, 3. Places: P."
@@ -254,3 +277,17 @@ def test_dateline_links_its_place(series, monkeypatch):
     assert "<a " not in h
     assert "closest('.dl a')" in dateline.SCRIPT                   # a tap follows the link
     pp.reset()
+
+
+def test_a_line_that_names_a_province_is_about_it(register, monkeypatch):
+    """The owner, Nov. 27, 2026: the Chinese provinces the entries name had no "Places:" link. A line that names a
+    province, in Pinyin or in characters, puts the entry on its page; Peking and Shanghai go by place only."""
+    units = dict(UNITS, hebei={"id": "hebei", "name": "Hebei", "c": "prc", "made_of": ["河北省"]},
+                 shanxi={"id": "shanxi", "name": "Shanxi", "c": "prc", "made_of": ["山西省"]},
+                 peking={"id": "peking", "name": "Peking", "c": "prc", "made_of": ["北京市"]})
+    monkeypatch.setattr(cnmap, "units", lambda: units)
+    assert pp.named_provinces("Mao in Hebei inspects the communes") == {"hebei"}
+    assert pp.named_provinces("the 河北 committee") == {"hebei"}
+    assert pp.named_provinces("Shaanxi and Shanxi") == {"shaanxi", "shanxi"}
+    assert pp.named_provinces("the Peking meeting") == set()
+    assert pp.named_provinces("Hebeian troops") == set()

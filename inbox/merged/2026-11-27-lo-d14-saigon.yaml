@@ -1,0 +1,35 @@
+patch: 2026-11-27-lo-d14-saigon
+by: 'Claude (Opus), the audit of lo-d14, Nov. 27, 2026: held for the merger, to apply after 2026-11-27-lo-d14 lands'
+ops:
+- edit:
+    id: cal.1965-01-27.vietnam
+    base: 35c8b717
+    kind: correct
+    set:
+      c: 'Saigon.{1} The Armed Forces Council withdraws its confidence from Hương''s government and charges Khánh with the crisis: an alliance of Khánh and the Buddhist Institute, Taylor reports.{2} Oánh acting Prime Minister.{3}'
+      n: 'Denney to Rusk, Jan. 27: [FRUS 1964–68, II, doc. 40](https://history.state.gov/historicaldocuments/frus1964-68v02/d40) (the Armed Forces Council''s communiqué; Khánh and the Buddhists). Taylor to Rusk, Jan. 27, 9 a.m., [FRUS 1964–68, II, doc. 41](https://history.state.gov/historicaldocuments/frus1964-68v02/d41). [[w.gibbons-u-s-government-and]], III, 45–46 (Hương removed, Jan. 26–27; Oánh acting; Alexis Johnson''s report of Khánh''s alliance with the Buddhists); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 528 (Khánh''s takeover); [[w.moyar-triumph-forsaken]], 351–52; [[w.westmoreland-soldier-reports]], 96 (the council ousts Hương''s government at Khánh''s bidding, Taylor away; Oánh acting); [[w.branch-pillar-of-fire]], 571; [[w.bernstein-guns-or-butter]], 340 (Khánh overthrows Hương and installs Oánh; Taylor: "no George Washington is in sight"); [[w.taylor-swords-and-plowshares]], 334 (Taylor in Bangkok; Khánh''s first design; Sửu kept, Oánh acting Prime Minister); [[w.lich-su-khang-chien-chong-my]], III, 394 (Jan. 25, 1965: Khánh and young generals overthrow Hương, set up a military council). To check: [*New York Times*, Jan. 27, 1965](https://timesmachine.nytimes.com/timesmachine/1965/01/27/issue.html), at 3 (cited by [[w.branch-pillar-of-fire]], 571). In Washington the same day: McGeorge Bundy''s and McNamara''s memorandum, [[cal.1965-01-27.vietnam-2]]; the meeting with Johnson and Rusk, [[cal.1965-01-27.vietnam-3]]; Johnson to Taylor, [[cal.1965-01-27.vietnam-5]]. See [[cal.1964-11-01.vietnam]]; [[cal.1964-12-20.vietnam]]. Names: Trần Văn Hương, Nguyễn Khánh, Nguyễn Xuân Oánh, Taylor.'
+      src:
+        c: 5e91db36
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d41: 1, 2, 3'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 528: 1, 2, 3'
+        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 528 n.133a: 2'
+        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 528 n.133b: 2, 3'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d40: 2'
+        - 'w.gibbons-u-s-government-and III, 45–46: 1, 2, 3'
+        - 'w.moyar-triumph-forsaken 351–52: 2'
+        - 'w.westmoreland-soldier-reports 96: 1, 2, 3'
+        - 'w.branch-pillar-of-fire 571: 1'
+        - 'via w.branch-pillar-of-fire 571 n.huynh-thi-yen-phi: 1'
+        - 'w.bernstein-guns-or-butter 340: 1, 2, 3'
+        - 'w.taylor-swords-and-plowshares 334: 1, 2, 3'
+        - 'w.lich-su-khang-chien-chong-my III, 394: 1, 2'
+    unset:
+    - cut_from
+- tag:
+    id: cal.1965-01-27.vietnam
+    remove:
+    - name:bundy-mcgeorge
+    - name:mcnamara-robert-s
+    - name:rusk-dean
+    - name:johnson-lyndon-b

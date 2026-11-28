@@ -12,8 +12,8 @@ STYLE
     thread and every thread under it: build.thread_members) has a page; one with none of its own, its head alone
     (STYLE 9).
  2. Each entry as the calendar renders it, by the calendar's own renderer (build.entry_html, build.list_text_html):
-    its rubric, place and time, the claims' spans and the visibility panel, the footnotes, the To/From and ⟨⟨ ⟩⟩
-    lines, the □ mark to e.html#ID. The firsts are the page's own: a work's first citation on the page in full, a
+    its rubric, place and time, the claims' spans and the visibility panel, the footnotes, the To/From line (no ⟨⟨ ⟩⟩
+    line since Nov. 27, 2026: calsplit.py, STYLE 7), the □ mark to e.html#ID. The firsts are the page's own: a work's first citation on the page in full, a
     statute's, a person's characters (cjk.as_page). The blocks the calendar's injects put under an entry (returns,
     tables, maps) are the calendar's alone.
  3. Anchors (the calendar's ids are never repeated here: e.json and the calendar's router know the calendar's pages

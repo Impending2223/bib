@@ -16,6 +16,10 @@ STYLE
     tokens resolved (many readers lack CSS variables); the fonts are the readers' own (EPUB readers do not load web
     fonts from Google); no fixed or absolute positioning, no hover.
  6. Validated with ebooks.validate (structure, well-formed files, inner links).
+ 7. The thread lines ("⟨⟨ Testing ⟩⟩" under each entry, a line a thread: build.thread_nav), which the web pages no longer
+    carry (the owner, Nov. 27, 2026: "Drop the threadlines from the bottom of the web entries ... Keep the threadlines
+    on the ebook"), are put back here from the data, by the same function and renderer the pages used, in the place
+    they had: after the entry's note and its To/From line, before its gloss (thread_lines).
 """
 import datetime
 import os
@@ -26,7 +30,7 @@ import uuid
 import lxml.etree as LET
 import lxml.html as LH
 
-from . import ebooks, store
+from . import ebooks, smart, store
 
 SITE = ebooks.SITE
 BUILD = os.path.join(store.ROOT, "build")
@@ -127,8 +131,50 @@ def css_from(page_html):
     return base + "\n".join(out) + "\n"
 
 
-def build(out=OUT):
+def thread_lines(series):
+    """(id, page) -> the entry's thread lines as the pages rendered them before Nov. 27, 2026 ('' where it has none):
+    build.thread_nav, with the calendar pages' own renderer, its quotation marks curled and its links routed to the
+    part that holds each as the page's were (calsplit.route), so that a link to an entry the book lacks goes to its
+    page on the site (STYLE 4, 7)."""
+    from . import build, calsplit
+    renderers, cache = {}, {}
+
+    def lines(eid, page):
+        hit = series.get(eid)
+        if not hit or hit[0].kind != "calendar" or not hit[2].get("thread") or "when" not in hit[2]:
+            return ""
+        lst, sec, e = hit
+        if e["id"] != eid:                       # an alias
+            return ""
+        if eid not in cache:
+            if lst.key not in renderers:         # the calendar pages' own (build.list_text_html)
+                renderers[lst.key] = build.list_text_html(series, lst.key)
+            h = build.thread_nav(series, lst, e, (e.get("date") or "")[:4], renderers[lst.key])
+            cache[eid] = smart.smarten(h) if h else ""      # its quotation marks curled, as the pages' are (smart.py)
+        pages = [p["page"] for p in calsplit.parts(lst)]
+        return calsplit.route(cache[eid], lst, pages.index(page) + 1 if page in pages else None) if cache[eid] else ""
+    return lines
+
+
+def put_lines(el, lines, page):
+    """Each entry's thread lines into its box, after its note and To/From line, before its gloss (STYLE 7)."""
+    for li in list(el.iter("li")):
+        h = lines(li.get("id") or "", page)
+        if not h or any(isinstance(c.tag, str) and c.get("class") == "tn" for c in li):   # a page built before: its own
+            continue
+        tn = clean(LH.fragment_fromstring(h))
+        gl = next((c for c in li if isinstance(c.tag, str) and "gl" in (c.get("class") or "").split()), None)
+        if gl is not None:
+            gl.addprevious(tn)
+        else:
+            li.append(tn)
+
+
+def build(out=OUT, series=None):
     keys = page_keys()
+    if series is None:
+        series = store.Series()
+    lines = thread_lines(series)
     files, nav, ids, css = [], [], {}, None
     chunks = []                                   # (month, [xhtml strings])
     for key in keys:
@@ -156,6 +202,7 @@ def build(out=OUT):
             prev = months[i]
         for e, m in zip(els, months):
             clean(e)
+            put_lines(e, lines, key)
             for x in e.iter():
                 if isinstance(x.tag, str) and x.get("id"):
                     x.set("data-page", key)

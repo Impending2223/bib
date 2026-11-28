@@ -1,0 +1,1352 @@
+patch: 2026-11-27-lo-d12
+by: Claude (Sonnet), leftovers batch lo-d12, Nov. 27, 2026
+ops:
+- edit:
+    id: cal.1964-02-04.civil-rights-bill-2
+    base: 0f4fbd0e
+    set:
+      n: '[[w.whalen-longest-debate]], 108–09 (the last teller vote of Feb. 3; "That night" the DSG sends its message to the whips, 109; the memorandum dated Feb. 4, 256); [110 Cong.
+        Rec. 1709](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt2/pdf/GPO-CRECB-1964-pt2-4-1.pdf#page=34) (1964) (Feb. 3, 1964: the tellers, ayes 117, noes 124). To check: Thompson
+        to all Regional and Sub-Regional Whip Offices, Feb. 4, 1964, DSG Papers, Library of Congress (cited by [[w.whalen-longest-debate]], 256). See [[cal.1964-02-03.civil-rights-bill]].
+        Names: Thompson.'
+- check:
+    id: cal.1964-02-04.civil-rights-bill-2
+    text: 'Check: the day: Whalen (109) has the DSG message sent "That night," Feb. 3, after the teller vote; the memorandum is dated Feb. 4 (256).'
+- edit:
+    id: cal.1964-02-03.civil-rights-bill
+    base: 75c3b347
+    set:
+      c: 'House, in Committee of the Whole on the civil rights bill, the amendments begin. Title I, voting: nine Southern amendments defeated; two by Southern Republicans accepted, a
+        three-judge court for defendants as for the Attorney General, and Puerto Rico within the bill.{1} The last teller vote of the day, on Dowdy''s amendment that no vote be counted
+        but a living elector''s, cast in person in his precinct, fails 117 to 124.{2}'
+      n: '[110 Cong. Rec. 1709](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt2/pdf/GPO-CRECB-1964-pt2-4-1.pdf#page=34) (1964) (Feb. 3, 1964: the last teller vote of the day).
+        [[w.bernstein-guns-or-butter]], 51; [[w.whalen-longest-debate]], 109 (Feb. 3, six Southern amendments defeated, Poff''s and Cramer''s accepted, the last teller vote 117–124;
+        Feb. 4, three more defeated); [[w.purdum-idea-whose-time-has-2014]], 189–90 (Title I on Feb. 3: Poff''s amendment, a three-judge court for defendants, 100 to 68 standing, and
+        Cramer''s, Puerto Rico, accepted; Purdum calls Poff a Virginia Democrat; Smith''s, 55 to 155, "over the next two days"; not the nine Southern amendments); [[w.risen-bill-of-the-century]],
+        158 (Feb. 3, Willis''s amendment to strike Title I''s three-judge court defeated; not the other amendments). See [[cal.1964-01-31.civil-rights-bill]].'
+      src:
+        c: 003be192
+        rows:
+        - 'w.bernstein-guns-or-butter 51: 1'
+        - 'w.whalen-longest-debate 109: 1'
+        - 'via x.1964-02-03.congressional-record-1677: 1'
+        - 'w.purdum-idea-whose-time-has-2014 189–90: ?'
+        - 'w.risen-bill-of-the-century 158: ?'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt2/pdf/GPO-CRECB-1964-pt2-4-1.pdf#page=34: 2'
+- names:
+    id: cal.1964-02-03.civil-rights-bill
+    add:
+    - Dowdy
+    tags:
+    - name:dowdy-john-v
+- edit:
+    id: cal.1964-02-05.cuba
+    base: 050995cc
+    set:
+      n: 'Remarks at the Joseph P. Kennedy, Jr., Foundation Awards Dinner, [1963–64 Pub. Papers 269](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=353)
+        (Feb. 5, 1964); [[w.johnson-vantage-point]], 185 (the trip; Rusk by telephone); [[w.johnson-white-house-diary]], 68 (Johnson leaves in the middle of the afternoon for New York
+        and the Joseph P. Kennedy Foundation dinner; Mrs. Johnson stays; not the Weizmann dinner or Cuba). Names: Johnson, Rusk, Salinger.'
+- edit:
+    id: cal.1964-02-07.cuba-2
+    base: a6cfe662
+    set:
+      c: 'The White House, the Cabinet Room, 9 a.m., Rusk presiding, on the fishing boats and Guantánamo''s water; McNamara, Ball, Robert Kennedy, Taylor, Bundy, Mann and McCone among
+        those there.{1} Rusk: the seven juveniles back to Cuba; a stiff fine for the captain and the boat seized. McCone: cut the water pipes. Mann: deny the Cubans the base''s $5 million
+        in wages, but dismiss no workers unless there is sabotage.{2} The President joins at about 10:05: using their own water "a mild slap on the wrist"; every firm move short of war
+        to be studied, and the group to meet again at 4.{3}'
+      n: 'Valenti''s notes of the meeting at 9 a.m., [FRUS 1964–68, XXXII, doc. 229](https://history.state.gov/historicaldocuments/frus1964-68v32/d229) (the Cabinet Room; the President
+        joins at about 10:05 a.m., by the Daily Diary, n.2). To check: Robert Kennedy, oral history interview by John Bartlow Martin, May 14, 1964, I, 34, JFK Library (cited by [[w.schlesinger-robert-kennedy-and-his]],
+        636 n.75). See [[cal.1964-02-06.cuba]]. Names: Rusk, McNamara, Ball, Robert Kennedy, Taylor, Bundy, Mann, McCone, Johnson.'
+      time_zone: America/New_York
+      src:
+        c: '19035268'
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v32/d229: 1, 2, 3'
+      gloss:
+        title: Commentary
+        text:
+        - 'Robert Kennedy (May 14, 1964): a "rather violent" argument with Mann at the meeting; his demand for the facts brought an adjournment, and when it met again that afternoon
+          McCone conceded the boats may simply have arrived there ([[w.schlesinger-robert-kennedy-and-his]], 636).'
+    kind: correct
+    settles:
+    - 'Check: Schlesinger''s argument over the fishermen'
+- tag:
+    id: cal.1964-02-07.cuba-2
+    remove:
+    - name:goldwater-barry-m
+    add:
+    - name:mcnamara-robert-s
+    - name:ball-george-w
+    - name:taylor-maxwell
+    - name:bundy-mcgeorge
+- add:
+    entry:
+      id: cal.1964-02-07.cuba-5
+      when: Feb. 7
+      date: '1964-02-07'
+      time: 1964-02-07T22:00Z
+      time_zone: America/New_York
+      place: washington
+      thread: cuba
+      also:
+      - robert-kennedy
+      follows:
+      - cal.1964-02-07.cuba-2
+      c: 'The White House, 5 p.m., the President with the group of an informal meeting just before, and Rusk, Ball, Nitze, Wilson of USIA and Sorensen, on the fishing boats and Guantánamo''s
+        water. The crews to go free, not fined; the captains fined; the boats not forfeited. On the base''s Cuban workers McNamara strongly for dismissal, Taylor with him; Robert Kennedy
+        strongly against: an overreaction, hurting loyal Cubans; McCone with him; Bundy for the second course. Johnson chooses the first, the dismissal.'
+      n: 'FitzGerald''s record of the 5 p.m. meeting, [FRUS 1964–68, XXXII, doc. 235](https://history.state.gov/historicaldocuments/frus1964-68v32/d235) (drafted Feb. 8). To check: Robert
+        Kennedy, oral history interview by John Bartlow Martin, May 14, 1964, I, 34–37, JFK Library; Schlesinger, journal, Mar. 11, 1964 (cited by [[w.schlesinger-robert-kennedy-and-his]],
+        636 n.76). See [[cal.1964-02-07.cuba-2]]. Names: Johnson, Rusk, Ball, Nitze, Sorensen, McNamara, Taylor, Robert Kennedy, McCone, Bundy.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:rusk-dean
+      - name:ball-george-w
+      - name:nitze-paul
+      - name:sorensen-theodore-c
+      - name:mcnamara-robert-s
+      - name:taylor-maxwell
+      - name:kennedy-robert-f
+      - name:mccone-john-a
+      - name:bundy-mcgeorge
+      gloss:
+        title: Commentary
+        text:
+        - 'Robert Kennedy (May 14, 1964): Mann, for discharging the workers, "sounded like Barry Goldwater making a speech at the Economic Club"; Kennedy lost, and by his account it
+          was the last meeting of substance on foreign affairs he was asked to ([[w.schlesinger-robert-kennedy-and-his]], 636).'
+- edit:
+    id: cal.1964-02-07.economy-2
+    base: b3c6a2b4
+    set:
+      c: 'Johnson to Mills, 11:36 a.m., on the tax bill before the Senate''s vote: "If it gets behind civil rights, God knows when it will be there!"{1}'
+      n: '[Johnson and Mills, 11:36 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-wilbur-mills-february-7-1964), Conversation WH6402-08-1921 (Miller
+        Center). [[w.zelizer-taxing-america]], 204. The Miller Center has the call at 11:36 a.m. See [[cal.1963-01-24.economy]]. Names: Johnson, Mills.'
+      src:
+        c: 112a56cb
+        rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-wilbur-mills-february-7-1964: 1'
+        - 'w.zelizer-taxing-america 204: 1'
+        - 'via w.zelizer-taxing-america 204 n.102: 1'
+    kind: correct
+- tag:
+    id: cal.1964-02-07.economy-2
+    remove:
+    - name:obrien-lawrence-f
+- add:
+    entry:
+      id: cal.1964-02-07.economy-3
+      when: Feb. 7
+      date: '1964-02-07'
+      time: 1964-02-08T00:25Z
+      time_zone: America/New_York
+      place: washington
+      thread: economy
+      follows:
+      - cal.1964-02-07.economy
+      c: 'Johnson to O''Brien, 7:25 p.m., after the Senate''s vote: thank Smathers and Long for their work on the tax bill; the conference ahead, the gasoline tax; how the civil rights
+        bill goes in the House. Each day''s delay costs the economy $30 million.'
+      n: '[Johnson and O''Brien, 7:25 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-february-8-1964), Conversation WH6402-09-1955 (Miller
+        Center; dated Feb. 7). [[w.zelizer-taxing-america]], 204 (the $30 million). The order: after the Senate''s vote, [[cal.1964-02-07.economy]]. See [[cal.1964-02-07.economy-2]].
+        Names: Johnson, O''Brien, Smathers, Long.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:obrien-lawrence-f
+      - name:smathers-george-a
+      - name:long-russell-b
+- check:
+    id: cal.1964-02-08.baker
+    text: 'Check: the clock, against the Daily Diary of Feb. 8, 1964 (not reached; discoverlbj.org refuses this machine). The Library''s log keeps the Ranch''s clock: Ball''s call of
+      Nov. 22, 1964, at 5 p.m. by his own record in Washington ([FRUS 1964–68, XXIII, doc. 347](https://history.state.gov/historicaldocuments/frus1964-68v23/d347)), is logged at 4 p.m.
+      (Miller Center, citation 6450); so the hour stands as Central time.'
+- check:
+    id: cal.1964-02-08.baker-2
+    text: 'Check: PRDE has the call at 4:56 p.m.; the clock, against the Daily Diary of Feb. 8, 1964 (not reached). The Library''s log keeps the Ranch''s clock: Ball''s call of Nov.
+      22, 1964, at 5 p.m. by his own record in Washington ([FRUS 1964–68, XXIII, doc. 347](https://history.state.gov/historicaldocuments/frus1964-68v23/d347)), is logged at 4 p.m. (Miller
+      Center, citation 6450); so the hour stands as Central time.'
+- edit:
+    id: cal.1964-02-08.republican-party-congress
+    base: 1637ea8e
+    set:
+      time_range:
+      - 1964-02-08T11:00Z
+      - 1964-02-08T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+- src:
+    id: cal.1964-02-08.republican-party-congress
+    row: w.risen-bill-of-the-century 161
+    'on': time
+- edit:
+    id: cal.1964-02-08.civil-rights-bill-2
+    base: ea4cb650
+    set:
+      time_range:
+      - 1964-02-09T00:00Z
+      - 1964-02-09T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      place: washington
+- src:
+    id: cal.1964-02-08.civil-rights-bill-2
+    row: w.risen-bill-of-the-century 161
+    'on': time
+- edit:
+    id: cal.1964-02-10.civil-rights-bill-3
+    base: 62a85ef7
+    set:
+      c: 'Johnson and Robert Kennedy by telephone, 9:07 p.m., on the House''s vote.{1} Johnson: "Congratulations."{2} Kennedy: "I thought it was wonderful—290 to 130, you can''t do better
+        than that."{3} The pressure now on the Senate.{4} Johnson: Kennedy to work out with O''Brien and Mansfield how to put the bill straight on the Senate calendar.{5}'
+      n: '[Johnson and Robert Kennedy, 9:07 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-and-office-conversation), Conversation
+        WH6402-14-2034 (Miller Center). [[w.shesol-mutual-contempt]], 162; [[w.whalen-longest-debate]], 122 (his calls that evening: also Celler, Halleck, O''Hara, McCormack, Corman,
+        Roosevelt, Keogh, Thompson, Katzenbach and Rodino; not McCulloch); [[w.purdum-idea-whose-time-has-2014]], 201–02 (the 9:07 p.m. call, less than an hour after the vote, O''Brien
+        with Johnson; "Congratulations," its speaker not given; "I thought it was wonderful—290 to 130" Johnson''s; Kennedy on the pressure on the Senate; Johnson: work with O''Brien
+        and Mansfield to put the bill on the Senate calendar); [[w.risen-bill-of-the-century]], 163–64 (Johnson to Kennedy: "get together with Larry and Mike Mansfield in the morning";
+        Justice to run it). After the House''s vote (the sources above). The Miller Center has the call at 9:07 p.m. Check: Purdum, 202, gives Johnson the words "I thought it was wonderful—290
+        to 130," and "Congratulations" no speaker (*The Presidential Recordings: Lyndon B. Johnson*, IV, 451–52, cited 357). Check: Risen, 163–64, puts the call "the morning after the
+        vote"; the Miller Center''s summary of this call has the meeting with O''Brien and Mansfield. See [[cal.1964-02-10.civil-rights-bill]]. Names: Johnson, Robert Kennedy.'
+      time: 1964-02-11T02:07Z
+      time_zone: America/New_York
+      src:
+        c: '33447845'
+        rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-and-office-conversation: 1, 2, 3, 4, 5'
+        - 'w.shesol-mutual-contempt 162: 1, 2, 3, 4'
+        - 'via w.shesol-mutual-contempt 162 n.very-nice: 1, 2, 3, 4'
+        - 'w.whalen-longest-debate 122: 1'
+        - 'via x.1964-02-10.lbj-diary-backup-box-4: 1'
+        - 'w.purdum-idea-whose-time-has-2014 201–02: 4, 5'
+        - 'w.risen-bill-of-the-century 163–64: 5'
+    kind: correct
+    settles:
+    - 'Check: Risen, 163–64, puts Johnson''s call to Robert Kennedy'
+- names:
+    id: cal.1964-02-10.civil-rights-bill-3
+    add:
+    - O'Brien
+    - Mansfield
+    tags:
+    - name:obrien-lawrence-f
+    - name:mansfield-mike
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-7
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-10T23:30Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      c: 'Johnson and Robert Kennedy by telephone, 6:30 p.m., before the House''s final vote, on the bill''s strategy in the Senate: Mansfield, Harry F. Byrd, Dirksen, Russell, cloture;
+        Wilkins.'
+      n: '[Johnson and Robert Kennedy, 6:30 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-february-10-1964), Conversation WH6402-13-2003
+        (Miller Center). See [[cal.1964-02-10.civil-rights-bill-3]]. Names: Johnson, Robert Kennedy, Mansfield, Harry F. Byrd, Dirksen, Russell, Wilkins.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:kennedy-robert-f
+      - name:mansfield-mike
+      - name:byrd-harry-f
+      - name:dirksen-everett
+      - name:russell-richard-b
+      - name:wilkins-roy
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-8
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:45Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'Celler to Johnson by telephone, 8:45 p.m., returning his call; Johnson: they have spoken, on his call to McCormack.'
+      n: '[Johnson and Emanuel Celler, 8:45 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-emanuel-celler-february-11-1964), Conversation WH6402-14-2025
+        (Miller Center). See [[cal.1964-02-10.civil-rights-bill]]. Names: Celler, Johnson.'
+      tags:
+      - name:celler-emanuel
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-9
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:36Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'Johnson to O''Hara by telephone, 8:36 p.m., after the House''s vote: congratulations.'
+      n: '[Johnson and James O''Hara, 8:36 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-office-conversation-february-11-1964), Conversation WH6402-13-2018
+        (Miller Center). [[w.whalen-longest-debate]], 122 (the congratulatory calls from the President that evening). See [[cal.1964-02-10.civil-rights-bill]]. Names: Johnson, O''Hara.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:ohara-james-g
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-10
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:38Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      - cal.1964-02-10.civil-rights-bill-4
+      c: 'Johnson to Speaker McCormack and Celler by telephone, 8:38 p.m., after the House''s vote: congratulations; he thanks Celler profusely for steering the bill through. The immigration
+        bill mentioned.'
+      n: '[Johnson, John McCormack and Emanuel Celler, 8:38 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mccormack-and-emanuel-celler-february-11),
+        Conversation WH6402-14-2020 (Miller Center). [[w.whalen-longest-debate]], 122 (the congratulatory calls from the President that evening; Celler takes it after speaking to reporters
+        on leaving the chamber, the House having adjourned at 8:24 p.m.). See [[cal.1964-02-10.civil-rights-bill]]. Names: Johnson, McCormack, Celler.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:mccormack-john-w
+      - name:celler-emanuel
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-11
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:46Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'Johnson to Corman by telephone, 8:46 p.m., after the House''s vote: congratulations.'
+      n: '[Johnson and James Corman, 8:46 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-jim-corman-february-10-1964), Conversation WH6402-14-2027
+        (Miller Center). [[w.whalen-longest-debate]], 122 (the congratulatory calls from the President that evening). See [[cal.1964-02-10.civil-rights-bill]]. Names: Johnson, Corman.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:corman-james-c
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-12
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:48Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'Johnson to Roosevelt by telephone, 8:48 p.m., after the House''s vote: congratulations.'
+      n: '[Johnson and James Roosevelt, 8:48 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-james-roosevelt-february-10-1964), Conversation WH6402-14-2028
+        (Miller Center). [[w.whalen-longest-debate]], 122 (the congratulatory calls from the President that evening). See [[cal.1964-02-10.civil-rights-bill]]. Names: Johnson, Roosevelt.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:roosevelt-james
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-13
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:49Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'Johnson to Keogh by telephone, 8:49 p.m., after the House''s vote: congratulations.'
+      n: '[Johnson and Eugene Keogh, 8:49 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-eugene-keogh-february-11-1964), Conversation WH6402-14-2029
+        (Miller Center). [[w.whalen-longest-debate]], 122 (the congratulatory calls from the President that evening). See [[cal.1964-02-10.civil-rights-bill]]. Names: Johnson, Keogh.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:keogh-eugene-j
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-14
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:52Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'Johnson to Thompson by telephone, 8:52 p.m., after the House''s vote: congratulations; Medicare to be passed next.'
+      n: '[Johnson and Frank Thompson, 8:52 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-frank-thompson-february-11-1964), Conversation WH6402-14-2031
+        (Miller Center). [[w.whalen-longest-debate]], 122 (the congratulatory calls from the President that evening). See [[cal.1964-02-10.civil-rights-bill]]. Names: Johnson, Thompson.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:thompson-frank-jr
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-15
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T02:45Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'Johnson to Katzenbach by telephone, 9:45 p.m.: the strategy for the civil rights and tax bills in the Senate, the Southern Democrats holding back the tax bill to delay civil
+        rights; praise for Katzenbach''s work on the bill.'
+      n: '[Johnson and Nicholas Katzenbach, 9:45 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-nicholas-katzenbach-and-telephone-operator), Conversation
+        WH6402-14-2037 (Miller Center). [[w.whalen-longest-debate]], 122 (the congratulatory calls from the President that evening). See [[cal.1964-02-10.civil-rights-bill]]. Names:
+        Johnson, Katzenbach.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:katzenbach-nicholas
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-16
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:44Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'Johnson to Rodino, at home, by telephone, 8:44 p.m., after the House''s vote: thanks for his work on the bill. Rodino: Johnson "really moved in."'
+      n: '[Johnson and Peter Rodino, 8:44 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-peter-rodino-february-10-1964), Conversation WH6402-14-2024
+        (Miller Center). [[w.whalen-longest-debate]], 122 (the congratulatory calls from the President that evening; Rodino at home, and his account of the call). See [[cal.1964-02-10.civil-rights-bill]].
+        Names: Johnson, Rodino.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:rodino-peter-w-jr
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-17
+      when: Feb. 10
+      date: '1964-02-10'
+      time_range:
+      - 1964-02-11T00:00Z
+      - 1964-02-11T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'Robert Kennedy to Rodino by telephone, after the House''s vote: congratulations, in a tone "much more subdued," by Rodino''s account.'
+      n: '[[w.whalen-longest-debate]], 122 (the congratulatory calls from the President that evening; Rodino''s account of Kennedy''s call). See [[cal.1964-02-10.civil-rights-bill]].
+        Names: Robert Kennedy, Rodino.'
+      tags:
+      - name:kennedy-robert-f
+      - name:rodino-peter-w-jr
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-21
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:55Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'McDowell and Johnson by telephone, 8:55 p.m.: McDowell thanks him for birthday greetings and praises his lead on the House''s passage of the bill.'
+      n: '[Johnson and Harris McDowell, 8:55 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-harris-mcdowell-february-10-1964), Conversation WH6402-14-2032
+        (Miller Center). See [[cal.1964-02-10.civil-rights-bill]]. Names: McDowell, Johnson.'
+      tags:
+      - name:mcdowell-harris-b-jr
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-20
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:32Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'Johnson to Albert by telephone, 8:32 p.m., after the House''s vote: congratulations. Albert on his Oklahoma constituents'' criticism.'
+      n: '[Johnson and Carl Albert, 8:32 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-carl-albert-february-11-1964), Conversation WH6402-13-2015
+        (Miller Center). See [[cal.1964-02-10.civil-rights-bill]]. Names: Johnson, Albert.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:albert-carl
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-19
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:22Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'Brooks to Johnson by telephone, 8:22 p.m.: the House has passed the bill; the count, the amendment on women, the Texas delegation''s votes; Kilgore''s seat and the election
+        to fill it.'
+      n: '[Johnson and Jack Brooks, 8:22 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-jack-brooks-february-11-1964), Conversation WH6402-13-2010
+        (Miller Center). See [[cal.1964-02-10.civil-rights-bill]]. Names: Brooks, Johnson.'
+      tags:
+      - name:brooks-jack-b
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1964-02-10.civil-rights-bill-18
+      when: Feb. 10
+      date: '1964-02-10'
+      time: 1964-02-11T01:20Z
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-10.civil-rights-bill
+      c: 'O''Brien to Johnson by telephone, 8:20 p.m., the House in the midst of the final vote: the members to thank; he asks to come over to the office.'
+      n: '[Johnson and Larry O''Brien, 8:20 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-february-11-1964), Conversation WH6402-13-2009
+        (Miller Center). See [[cal.1964-02-10.civil-rights-bill]]. Names: O''Brien, Johnson.'
+      tags:
+      - name:obrien-lawrence-f
+      - name:johnson-lyndon-b
+- edit:
+    id: cal.1964-02-10.civil-rights-bill-6
+    base: 938c2caa
+    set:
+      time: 1964-02-11T01:35Z
+      time_zone: America/New_York
+      place: washington
+    unset:
+    - time_approx
+- primary:
+    id: cal.1964-02-10.civil-rights-bill-6
+    text: '[Johnson and Charles Halleck, 8:35 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-charles-halleck-february-11-1964), Conversation WH6402-13-2016
+      (Miller Center)'
+    'on': time
+- edit:
+    id: cal.1964-02-11.civil-rights-bill-2
+    base: 089865c9
+    set:
+      c: 'The day after the House vote.{1} The Oval Office, late afternoon: Johnson for wearing out the Southerners in round-the-clock sessions, Justice for cloture.{2} Robert Kennedy,
+        Katzenbach, Burke Marshall, O''Brien and Salinger are in the Oval Office with Johnson.{7} Katzenbach: Justice has pledged McCulloch that no title will be traded away in the Senate.{8}'
+      n: '[[w.kotz-judgment-days]], 112–14 (Katzenbach''s account; the late-afternoon meeting, Johnson for wearing out the Southerners, Justice for cloture); [[w.whalen-longest-debate]],
+        124–27 (Robert Kennedy, Katzenbach, Marshall, O''Brien and Salinger; Katzenbach on the pledge to McCulloch); [[w.purdum-idea-whose-time-has-2014]], 202 (the strategy session
+        with O''Brien, Katzenbach and Marshall); [[w.whalen-longest-debate]], 125. Kotz (112–13) has the Oval Office meeting in the late afternoon, hours before the reception. Names:
+        Johnson, Katzenbach, Robert Kennedy, Burke Marshall, O''Brien, Salinger.'
+      src:
+        c: c9c26cd0
+        rows:
+        - 'w.kotz-judgment-days 112–14: 1, 2'
+        - 'via w.kotz-judgment-days 113 n.2a: 1, 2'
+        - 'w.whalen-longest-debate 124–27: 1, 2'
+        - 'via x.1964-02-11.lbj-diary-backup-box-4: 1, 2'
+        - 'w.purdum-idea-whose-time-has-2014 202: ?'
+        - 'w.whalen-longest-debate 125: 7, 8'
+    unset:
+    - variants
+    kind: correct
+- tag:
+    id: cal.1964-02-11.civil-rights-bill-2
+    remove:
+    - name:hayden-carl
+- add:
+    entry:
+      id: cal.1964-02-11.civil-rights-bill-5
+      when: Feb. 11
+      date: '1964-02-11'
+      time_range:
+      - 1964-02-12T00:00Z
+      - 1964-02-12T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      place: washington
+      thread: civil-rights-bill
+      follows:
+      - cal.1964-02-11.civil-rights-bill-2
+      c: 'The diplomatic reception, evening: Johnson pulls up two chairs in the middle of the room with Katzenbach. "How the hell are you going to get cloture?" Katzenbach''s list: fifty-eight;
+        the other nine from some fourteen senators. Johnson: "Hayden''s never going to vote for cloture."'
+      n: '[[w.kotz-judgment-days]], 112–14 (Katzenbach''s account); [[w.whalen-longest-debate]], 127 (two hours after the Oval Office meeting, the two chairs; Katzenbach''s list, "9
+        of these 14"); [[w.johnson-white-house-diary]], 70–71 (the diplomatic reception in the evening, Johnson at it until 9:30; not the talk of cloture); [[w.purdum-idea-whose-time-has-2014]],
+        209–10 (Johnson corners Katzenbach at the reception: cloture, round-the-clock sessions, Hayden; Katzenbach''s estimate, fifty-seven to sixty "with reasonable ease"); [[w.risen-bill-of-the-century]],
+        163 (Feb. 11, at a White House reception Johnson takes Katzenbach aside, two chairs together). To check: Katzenbach, interview by Kotz; Katzenbach, oral history, LBJ Library;
+        Katzenbach, "Toward a More Just America for All," in Thomas W. Cowger and Sherwin J. Markman, eds., *Lyndon Johnson Remembered* (2003), 125–38 (cited by [[w.kotz-judgment-days]],
+        113–14 nn.2–3). See [[cal.1964-02-11.civil-rights-bill-2]]. Names: Johnson, Katzenbach, Hayden. Check: Risen, 163, has Johnson ask "How do you plan to get this bill enacted in
+        the Senate?", Katzenbach''s count fifty-seven to sixty votes for cloture "fairly easily" and seventy-four potential votes, and seven more needed from fourteen senators who have
+        voted at least once for cloture. Check: Kotz, 112, puts the Oval Office meeting several hours before the reception; Whalen, 127, two hours.'
+      tags:
+      - name:johnson-lyndon-b
+      - name:katzenbach-nicholas
+      - name:hayden-carl
+- edit:
+    id: cal.1964-02-15.china-leadership-7
+    base: 24b08a73
+    set:
+      time_range:
+      - 1964-02-14T21:00Z
+      - 1964-02-15T00:00Z
+      time_band: early morning
+      time_zone: Asia/Shanghai
+- src:
+    id: cal.1964-02-15.china-leadership-7
+    row: w.deng-xiaoping-nianpu-1904 III, 1797
+    'on': time
+- edit:
+    id: cal.1964-02-19.civil-rights-bill
+    base: '69782718'
+    set:
+      time_range:
+      - 1964-02-19T11:00Z
+      - 1964-02-19T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+- src:
+    id: cal.1964-02-19.civil-rights-bill
+    row: w.risen-bill-of-the-century 175
+    'on': time
+- edit:
+    id: cal.1964-02-20.china-leadership
+    base: 6638f74e
+    set:
+      c: Zhou flies to Rawalpindi.{1}
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 621 (Feb. 20, 1964); [[w.zhou-enlai-waijiao-huodong]], 395 (Feb. 20, 1964; 中午, 乘专机从卡拉奇到达拉瓦尔品第; 阿尤布·汗总统在机场迎接); [[w.chen-yi-nianpu]], 1015 (Feb.
+        20, 1964, 12:20, Chen Yi with Zhou from Karachi to Chaklala airport 恰克拉拉机场, Rawalpindi 拉瓦尔品第). The time is the arrival''s, 12:20 (Chen Yi nianpu, 1015). Made public: 1993. Names:
+        Zhou Enlai, Ayub Khan.'
+      time: 1964-02-20T07:20Z
+      time_zone: Asia/Karachi
+      src:
+        c: 2e991812
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 621: ?'
+        - 'w.zhou-enlai-waijiao-huodong 395: 1'
+        - 'w.chen-yi-nianpu 1015: ?'
+    unset:
+    - time_range
+    - time_band
+    kind: correct
+- add-words:
+    id: cal.1964-02-20.china-leadership
+    after: end
+    words: President Ayub Khan meets him at the airport.
+    item: '[[w.zhou-enlai-waijiao-huodong]], 395'
+- add:
+    entry:
+      id: cal.1964-02-20.china-africa-tour
+      when: Feb. 20
+      date: '1964-02-20'
+      time: 1964-02-20T11:30Z
+      time_zone: Asia/Karachi
+      place: rawalpindi
+      thread: china-africa-tour
+      also:
+      - south-asia
+      - china-zhou-foreign
+      follows:
+      - cal.1964-02-20.china-leadership
+      c: 'Zhou, the President''s House, Rawalpindi, 4:30 p.m.: first talk with President Ayub Khan. On the Sino-Indian border clash: China holds to peaceful negotiation but cannot give
+        up principle. Reliance on foreign aid alone is a swamp, deeper the more one sinks, an opium habit.'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 621 (Feb. 20, 1964); [[w.zhou-enlai-waijiao-huodong]], 395 (Feb. 20, 1964; 下午4时30分, 拉瓦尔品第总统府, 第一次会谈); [[w.jian-zhou-enlai]], 502 (Ayub Khan:
+        "no war and no conflict"; Zhou: negotiation without giving up principle; support for Pakistan''s independence); [[w.chen-yi-nianpu]], 1015 (Feb. 20, 1964, 4:30 p.m., Chen Yi
+        at the talks of Zhou and Ayub Khan). Made public: 1993. To check: [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, 214–218 (cited by [[w.jian-zhou-enlai]], 503 n.40). See [[cal.1964-02-20.china-leadership]].
+        Names: Zhou Enlai, Ayub Khan.'
+      tags:
+      - name:zhou-enlai
+      - name:ayub-khan-mohammad
+      - polity:prc
+      - polity:pakistan
+      - vis:only:prc+pakistan
+- edit:
+    id: cal.1964-02-23.china-leadership-3
+    base: 576931d4
+    set:
+      c: Zhou, with Bhutto, flies to Lahore, capital of West Pakistan.{1}
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 622 (Feb. 23, 1964); [[w.zhou-enlai-waijiao-huodong]], 395 (Feb. 23, 1964; 上午, 乘专机前往拉合尔; 阿尤布·汗总统前往机场欢送; 上午11时, 抵达拉合尔); [[w.chen-yi-nianpu]],
+        1015 (Feb. 23, 1964, morning, Chen Yi with Zhou from Rawalpindi to Lahore 拉合尔). The time is the arrival''s, 11 a.m. (dashiji, 395). Names: Zhou Enlai, Bhutto.'
+      time: 1964-02-23T06:00Z
+      time_zone: Asia/Karachi
+      src:
+        c: 8285fdae
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 622: ?'
+        - 'w.zhou-enlai-waijiao-huodong 395: 1'
+        - 'w.chen-yi-nianpu 1015: ?'
+    unset:
+    - time_range
+    - time_band
+    kind: reword
+- add-words:
+    id: cal.1964-02-23.china-leadership-3
+    after: end
+    words: President Ayub Khan sees him off at the airport.
+    item: '[[w.zhou-enlai-waijiao-huodong]], 395'
+- names:
+    id: cal.1964-02-23.china-leadership-3
+    add:
+    - Ayub Khan
+    tags:
+    - name:ayub-khan-mohammad
+- add:
+    entry:
+      id: cal.1964-02-23.china-zhou-foreign
+      when: Feb. 23
+      date: '1964-02-23'
+      time_range:
+      - 1964-02-23T07:00Z
+      - 1964-02-23T13:00Z
+      time_band: afternoon
+      time_zone: Asia/Karachi
+      place: lahore
+      thread: china-zhou-foreign
+      also:
+      - south-asia
+      follows:
+      - cal.1964-02-23.china-leadership-3
+      c: Lahore. Zhou lays a wreath at the tomb of the poet and philosopher Allama Muhammad Iqbal; Chen Yi is present.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 395 (Feb. 23, 1964; 下午, 向著名巴基斯坦诗人和哲学家阿拉马·穆罕默德·伊克巴勒墓献花圈); [[w.chen-yi-nianpu]], 1015 (Feb. 23, 1964, afternoon, Chen Yi present at Zhou''s
+        wreath at the tomb of Allama Muhammad Iqbal 阿拉马·穆罕默德·伊克巴勒). [[w.zhou-enlai-nianpu-1949]], II, 622 (Feb. 23, 1964). Made public: 1993. See [[cal.1964-02-23.china-leadership-3]].
+        Names: Zhou Enlai, Chen Yi.'
+      tags:
+      - name:zhou-enlai
+      - name:chen-yi
+      - polity:prc
+      - polity:pakistan
+- follows:
+    id: cal.1964-02-23.china-zhou-foreign
+    add:
+    - cal.1964-02-23.china-leadership-4
+    basis: the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 395)
+- edit:
+    id: cal.1964-02-27.china-leadership
+    base: 9103c7d4
+    set:
+      time_range:
+      - 1964-02-27T09:00Z
+      - 1964-02-27T12:30Z
+      time_zone: Asia/Shanghai
+      n: '[[w.zedong-mao-zedong-nianpu]], V, Feb. 27, 1964. [[w.lengxi-shinian-lunzhan-1956-1966]], 670–675 (the first of three talks with Kim Il Sung, Feb. 27, the day before Wu and
+        Deng returned from Vietnam; Mao put three proposals, talks again, a meeting of 17 parties, a world conference of 81 or 100-odd, the talks in October or September or August but
+        not July; the CPSU plenum and its letter of Feb. 12; the Soviet ambassador to Pyongyang''s call on Kim before he left; Mao expects the CPSU to hold two hands, a "decisive rebuff"
+        and Romania as mediator; the Korean side: Pak Kum-chol, Kim Chang-man and Pak Yong-guk; Wu was not at the talk and read the record); [[w.yang-shangkun-riji]], II, 355–356 (Feb.
+        27, 1964; 5 to 8:30 p.m.: Yang meets (接) Kim Il Sung''s party, at the talks, Mao''s reception and dinner; the place not named; Liu, Peng and Li Fuchun not named); [[w.peng-zhen-nianpu-1902]],
+        IV, 321 (Feb. 27 and 29, 1964; Diaoyutai; Peng Zhen, with Li Fuchun, Yang Shangkun and others, accompanies Mao, Liu Shaoqi and others in meeting Kim Il Sung, asking the Korean
+        views on the Center''s reply to the CPSU''s letter of Nov. 29, 1963); [[w.lengxi-shinian-lunzhan-1956-1966]], 673. The range is Yang''s span, 5 to 8:30 p.m., for his meeting
+        Kim''s party, the talk, and Mao''s reception and dinner (II, 355–56); the Mao nianpu has the afternoon. Made public: 1999. Check: Wu (671) has "most of the Standing Committee"
+        at the three talks with Kim Il Sung, the Chinese side headed by Mao, Zhou Enlai being abroad; Deng Xiaoping was in Vietnam on Feb. 27. Names: Mao Zedong, Kim Il Sung, Liu Shaoqi,
+        Peng Zhen, Li Fuchun, Yang Shangkun, Pak Kum-chol, Kim Chang-man, Pak Yong-guk. Check: the Korean names (Chinese: Pu Jinzhe, Jin Changman, Pu Yongguo).'
+- src:
+    id: cal.1964-02-27.china-leadership
+    row: w.yang-shangkun-riji II, 355–356
+    'on': time
+- edit:
+    id: cal.1964-02-27.china-leadership-2
+    base: dc55d48e
+    set:
+      c: 'Zhou, with Song Qingling and Chen Yi: first talk with Mrs.{1} Bandaranaike, on the international situation.{2}'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 623 (Feb. 27, 1964); [[w.zhou-enlai-waijiao-huodong]], 396–97 (Feb. 27, 1964; 上午11时, 总理办公厅, 第一次会谈); [[w.chen-yi-nianpu]], 1017 (Feb. 27, 1964,
+        morning, the Prime Minister''s office; Chen Yi in the talks). The talk is at 11 a.m. (dashiji, 396–97). Made public: 1993. Names: Zhou Enlai, Chen Yi, Song Qingling, Bandaranaike.'
+      src:
+        c: fbf8ecaf
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 623: ?'
+        - 'w.zhou-enlai-waijiao-huodong 396–97: 1'
+        - 'w.chen-yi-nianpu 1017: ?'
+    kind: correct
+- add:
+    entry:
+      id: cal.1964-02-27.china-africa-tour
+      when: Feb. 27
+      date: '1964-02-27'
+      time_range:
+      - 1964-02-27T00:30Z
+      - 1964-02-27T06:30Z
+      time_zone: Asia/Colombo
+      place: colombo
+      thread: china-africa-tour
+      also:
+      - south-asia
+      - china-zhou-foreign
+      c: Colombo. Zhou and Song Qingling lay a wreath at the tomb of the late Prime Minister Solomon Bandaranaike; Chen Yi is with them.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 396 (Feb. 27, 1964; 上午, 和宋庆龄副主席向前锡兰总理班达拉奈克墓献花圈); [[w.chen-yi-nianpu]], 1017 (Feb. 27, 1964, morning, Chen Yi with Soong Ching-ling and Zhou
+        at the tomb of Solomon Bandaranaike 所罗门·班达拉奈克). Made public: 1993. See [[cal.1964-02-27.china-leadership-2]]. Names: Zhou Enlai, Chen Yi, Song Qingling, Bandaranaike.'
+      tags:
+      - name:zhou-enlai
+      - name:chen-yi
+      - name:song-qingling
+      - name:bandaranaike-srimavo
+      - polity:prc
+      - polity:ceylon
+      - vis:only:prc+ceylon
+      time_band: morning
+- follows:
+    id: cal.1964-02-27.china-leadership-2
+    add:
+    - cal.1964-02-27.china-africa-tour
+    basis: the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 396; [[w.chen-yi-nianpu]], 1017)
+- edit:
+    id: cal.1964-02-28.china-leadership
+    base: 935f8557
+    set:
+      time_range:
+      - 1964-02-28T11:00Z
+      - 1964-02-28T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- src:
+    id: cal.1964-02-28.china-leadership
+    row: w.zedong-mao-zedong-nianpu V, Feb. 28, 1964
+    'on': time
+- edit:
+    id: cal.1964-02-29.china-leadership
+    base: b621f740
+    set:
+      time_range:
+      - 1964-02-28T22:00Z
+      - 1964-02-29T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- src:
+    id: cal.1964-02-29.china-leadership
+    row: w.zedong-mao-zedong-nianpu V, Feb. 29, 1964
+    'on': time
+- edit:
+    id: cal.1964-02-28.china-leadership-4
+    base: 77b50f9b
+    kind: correct
+    set:
+      when: Feb. 28
+      c: 'Zhou: first private talk with Mrs. Bandaranaike, at the Governor-General''s house, 11 p.m., on the Sino-Indian boundary.{3} China''s position is negotiation without preconditions,
+        to settle the boundary and serve Sino-Indian friendship, Afro-Asian unity and world peace.{2}'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 624 (Feb. 28–29, 1964; the two private talks together); [[w.zhou-enlai-waijiao-huodong]], 397 (Feb. 28, 1964; 晚11时, 总督府, 第一次单独会谈). The dashiji
+        dates the first private talk Feb. 28, 11 p.m., and the second Feb. 29, 6 p.m. (397–98). Made public: 1993. Names: Zhou Enlai, Bandaranaike.'
+      src:
+        c: 092248d2
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 624: 2, 3'
+        - 'w.zhou-enlai-waijiao-huodong 397: 3'
+- add:
+    entry:
+      id: cal.1964-02-29.china-africa-tour
+      when: Feb. 29
+      date: '1964-02-29'
+      time: 1964-02-29T12:30Z
+      time_zone: Asia/Colombo
+      place: colombo
+      thread: china-africa-tour
+      also:
+      - south-asia
+      - china-zhou-foreign
+      follows:
+      - cal.1964-02-29.china-leadership-3
+      c: 'Zhou, at the Governor-General''s house 总督府, Colombo, 6 p.m.: second private talk with Mrs. Bandaranaike, on the Sino-Indian boundary.'
+      n: '[[w.zhou-enlai-waijiao-huodong]], 398 (Feb. 29, 1964; 下午6时, 在总督府同班达拉奈克夫人进行第二次单独会谈); [[w.zhou-enlai-nianpu-1949]], II, 624 (Feb. 28–29, 1964; the two private talks together,
+        negotiation without preconditions). Made public: 1993. See [[cal.1964-02-28.china-leadership-4]]. Names: Zhou Enlai, Bandaranaike.'
+      tags:
+      - name:zhou-enlai
+      - name:bandaranaike-srimavo
+      - polity:prc
+      - polity:ceylon
+      - vis:only:prc+ceylon
+- edit:
+    id: cal.1964-03-01.china-leadership-5
+    base: 27d72fce
+    set:
+      time_range:
+      - 1964-03-01T01:25Z
+      - 1964-03-01T04:00Z
+      time_zone: Asia/Shanghai
+    unset:
+    - time_band
+- src:
+    id: cal.1964-03-01.china-leadership-5
+    row: w.yang-shangkun-riji II, 356
+    'on': time
+- cite:
+    id: cal.1964-03-01.china-leadership-5
+    item: '[[w.chen-yi-nianpu]], 1018 (Mar. 1, 1964; 上午9时25分, the arrival at Kunming by air from Colombo by way of Burma)'
+    'on': time
+- cite:
+    id: cal.1964-03-01.china-leadership-5
+    item: '[[w.zhou-enlai-waijiao-huodong]], 398 (Mar. 1, 1964; 上午9时25分, 乘专机回到昆明)'
+    'on': time
+- check:
+    id: cal.1964-03-01.china-leadership-5
+    text: 'Check: the arrival at Kunming, and so the hour of the call: the Chen Yi nianpu (1018) and the dashiji (398) have the arrival at 9:25 a.m., Yang (II, 356) at 10; the range
+      runs from 9:25 to noon.'
+- edit:
+    id: cal.1964-03-05.china-leadership
+    base: 23d0ffb8
+    set:
+      time_range:
+      - 1964-03-05T09:00Z
+      - 1964-03-05T14:00Z
+      time_zone: Asia/Shanghai
+- src:
+    id: cal.1964-03-05.china-leadership
+    row: w.zedong-mao-zedong-nianpu V, Mar. 5, 1964
+    'on': time
+- edit:
+    id: cal.1964-03-06.china-leadership
+    base: c6888238
+    set:
+      time_range:
+      - 1964-03-06T11:00Z
+      - 1964-03-06T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- src:
+    id: cal.1964-03-06.china-leadership
+    row: w.zedong-mao-zedong-nianpu V, Mar. 6 and 7, 1964
+    'on': time
+- edit:
+    id: cal.1964-03-09.china-leadership
+    base: dcbc4edd
+    set:
+      time_range:
+      - 1964-03-09T11:00Z
+      - 1964-03-09T14:00Z
+      time_band: evening
+      time_zone: Asia/Shanghai
+- src:
+    id: cal.1964-03-09.china-leadership
+    row: w.zedong-mao-zedong-nianpu V, Mar. 9, 1964
+    'on': time
+- edit:
+    id: cal.1964-03-16.china-leadership
+    base: bf3524ad
+    set:
+      time_range:
+      - 1964-03-16T04:00Z
+      - 1964-03-16T10:00Z
+      time_band: afternoon
+      time_zone: Asia/Shanghai
+- src:
+    id: cal.1964-03-16.china-leadership
+    row: w.zedong-mao-zedong-nianpu V, Mar. 16, 1964
+    'on': time
+- edit:
+    id: cal.1964-03-07.civil-rights-bill
+    base: cbb00693
+    set:
+      time: 1964-03-07T20:30Z
+      time_zone: America/New_York
+- src:
+    id: cal.1964-03-07.civil-rights-bill
+    row: https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=422
+    'on': time
+- edit:
+    id: cal.1964-03-18.elections-1964-primaries
+    base: 4e52c9b3
+    set:
+      date: '1964-03-19'
+      when: Mar. 19
+      n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson:
+        the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 345–46. The Papers date the resignation Mar. 19, the day
+        of the lunch; Salinger has the lunch "the next day" after Mar. 17 (345). See [[cal.1964-03-17.elections-1964-primaries-2]]. Names: Salinger.'
+    kind: correct
+    settles:
+    - 'Check: the day'
+- edit:
+    id: cal.1964-03-18.elections-1964-primaries-4
+    base: 81361d5b
+    set:
+      date: '1964-03-19'
+      when: Mar. 19
+      n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson:
+        the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 346. The Papers date the resignation Mar. 19, the day of
+        the lunch. See [[cal.1964-03-18.elections-1964-primaries]]. Names: Salinger, O''Donnell.'
+    kind: correct
+    settles:
+    - 'Check: the day'
+- edit:
+    id: cal.1964-03-18.elections-1964-primaries-2
+    base: f63df1b7
+    set:
+      date: '1964-03-19'
+      when: Mar. 19
+      n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson:
+        the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 346. The Papers date the resignation Mar. 19, the day of
+        the call. After [[cal.1964-03-18.elections-1964-primaries-4|his leaving the Sans Souci]]: back at the White House, waiting to see Johnson (346). Names: Salinger, Goldberg.'
+    kind: correct
+    settles:
+    - 'Check: the day'
+- edit:
+    id: cal.1964-03-18.elections-1964-primaries-3
+    base: 4228c455
+    set:
+      date: '1964-03-19'
+      when: Mar. 19
+      n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson:
+        the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 348. The Papers date the resignation Mar. 19, the day of
+        the call. After [[cal.1964-03-18.elections-1964-primaries-2|the call to Goldberg]], in Salinger''s sequence: Goldberg while he waited to see Johnson (346); Brown his last call,
+        made as he cleared his desk after the resignation and the briefing (348). Names: Salinger, Brown, Cranston.'
+    kind: correct
+    settles:
+    - 'Check: the day'
+- follows:
+    id: cal.1964-03-19.transition-and-staff-4
+    add:
+    - cal.1964-03-18.elections-1964-primaries-2
+    basis: '[[w.salinger-with-kennedy]], 346 (the call to Goldberg while he waits to see Johnson, Goldberg''s second call a half hour later; "The President sent for me at 3:30 P.M.")'
+- follows:
+    id: cal.1964-03-18.elections-1964-primaries-3
+    add:
+    - cal.1964-03-19.transition-and-staff-2
+    - cal.1964-03-19.press-and-broadcasting-2
+    basis: '[[w.salinger-with-kennedy]], 347–48 (Reedy, the filing fee, the briefing, then "forty-five minutes" to clean out his desk and the last call)'
+- edit:
+    id: cal.1964-03-19.goldwater
+    base: 00531eda
+    set:
+      n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson:
+        the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 348. See [[cal.1964-03-19.transition-and-staff]]. Names:
+        Goldwater, Wicker, Salinger.'
+    settles:
+    - 'Check: the day'
+- edit:
+    id: cal.1964-03-19.transition-and-staff-3
+    base: 41f8929b
+    set:
+      n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson:
+        the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 346. See [[cal.1964-03-19.transition-and-staff]]. Names:
+        Hatcher, Salinger.'
+    settles:
+    - 'Check: the day'
+- check:
+    id: cal.1964-03-19.transition-and-staff-4
+    text: 'Check: Johnson, at his news conference of Mar. 21, puts Salinger''s word to him "about 4 o''clock," then "5 or 5:30" (1963–64 Pub. Papers 408).'
+- primary:
+    id: cal.1964-03-19.transition-and-staff
+    text: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2
+      (Johnson: the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19")'
+    'on': date
+- edit:
+    id: cal.1964-03-19.elections-1964-primaries
+    base: 972ae0f2
+    set:
+      date: '1964-03-20'
+      when: Mar. 20
+      n: 'The President''s News Conference of March 21, 1964, [1963–64 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=488), 408 n.2 (Johnson:
+        the editors at lunch "the day he announced"; the note: Salinger "resigned on March 19"). [[w.salinger-with-kennedy]], 348–49. Salinger leaves for California "tonight", the night
+        of the resignation (346), and lands at 4 a.m. (348): Mar. 20. See [[cal.1964-03-19.elections-1964-primaries-2]]. Names: Salinger. Check: the filing deadline: Mar. 19 in the book
+        (345); its own hours, "twenty-two hours" from 7 p.m. California time (348), make it Mar. 20.'
+      time_range:
+      - 1964-03-20T12:00Z
+      - 1964-03-20T22:00Z
+    kind: correct
+    settles:
+    - 'Check: the day'
+- add:
+    entry:
+      id: cal.1964-03-19.press-and-broadcasting-2
+      when: Mar. 19
+      date: '1964-03-19'
+      time: 1964-03-19T23:00Z
+      time_approx: true
+      time_zone: America/New_York
+      place: washington
+      thread: press-and-broadcasting
+      follows:
+      - cal.1964-03-19.transition-and-staff
+      c: 'Salinger''s last press briefing, put off from 4 to 6 p.m.: he says only that he is resigning at once to return to California and will announce an important decision the next
+        day. The briefing impersonal; afterward correspondents come into his office one by one to wish him luck. By Salinger''s account.'
+      n: '[[w.salinger-with-kennedy]], 346–48 (the briefing "postponed" from 4 to 6 p.m., 346; his words to the press, 347; the correspondents one by one, 347–48). The hour is the postponed
+        schedule''s. See [[cal.1964-03-19.transition-and-staff]]. Names: Salinger.'
+      tags:
+      - name:salinger-pierre
+- add:
+    entry:
+      id: cal.1964-03-19.elections-1964-primaries-2
+      when: Mar. 19
+      date: '1964-03-19'
+      time: 1964-03-20T03:00Z
+      time_zone: America/New_York
+      place: washington
+      thread: elections-1964-primaries
+      c: Washington National Airport, 10 p.m. Salinger, his family seeing him off, boards a plane for San Francisco; the one newspaperman there Zygmunt Broniarek of the Polish *Trybuna
+        Ludu*. By Salinger's account.
+      n: '[[w.salinger-with-kennedy]], 348–49. See [[cal.1964-03-19.transition-and-staff]]. Names: Salinger.'
+      tags:
+      - name:salinger-pierre
+- edit:
+    id: cal.1964-03-24.civil-rights-bill-2
+    base: 9fcd7e34
+    set:
+      time_range:
+      - 1964-03-24T11:00Z
+      - 1964-03-24T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+- src:
+    id: cal.1964-03-24.civil-rights-bill-2
+    row: w.risen-bill-of-the-century 188
+    'on': time
+- edit:
+    id: cal.1964-03-24.space
+    base: fca2f2d2
+    set:
+      time_range:
+      - 1964-03-24T14:05Z
+      - 1964-03-24T15:20Z
+      time_zone: America/Chicago
+- src:
+    id: cal.1964-03-24.space
+    row: w.johnson-white-house-diary 98–99
+    'on': time
+- check:
+    id: cal.1964-03-24.space
+    text: 'Check: the clock of "a little past 9": Mrs. Johnson left Washington at 7 and does not say whether the hour is Washington''s or Huntsville''s (Central); the range holds both
+      readings.'
+- edit:
+    id: cal.1964-03-25.china-leadership-2
+    base: 3c6d02bc
+    set:
+      time_range:
+      - 1964-03-25T07:30Z
+      - 1964-03-25T10:30Z
+      time_zone: Asia/Shanghai
+- src:
+    id: cal.1964-03-25.china-leadership-2
+    row: w.yang-shangkun-riji II, 363
+    'on': time
+- edit:
+    id: cal.1964-04-04.civil-rights-bill
+    base: ac69ff27
+    set:
+      time_range:
+      - 1964-04-04T16:00Z
+      - 1964-04-04T16:41Z
+      time_zone: America/New_York
+    unset:
+    - time_band
+    - range_basis
+- primary:
+    id: cal.1964-04-04.civil-rights-bill
+    text: '[110 Cong. Rec. 6861](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=1) (1964) (Apr. 4, 1964: "The Senate met at 11 o''clock a.m.");
+      [110 Cong. Rec. 6863](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt5/pdf/GPO-CRECB-1964-pt5-13-1.pdf#page=3) (the recess "at 11 o''clock and 41 minutes a.m.")'
+    'on': time
+- edit:
+    id: cal.1964-04-07.civil-rights-bill-2
+    base: d47d84ea
+    set:
+      time_range:
+      - 1964-04-07T11:00Z
+      - 1964-04-07T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+- src:
+    id: cal.1964-04-07.civil-rights-bill-2
+    row: w.risen-bill-of-the-century 197
+    'on': time
+- edit:
+    id: cal.1964-04-10.china-leadership-2
+    base: f26af296
+    set:
+      time_range:
+      - 1964-04-09T22:00Z
+      - 1964-04-10T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- src:
+    id: cal.1964-04-10.china-leadership-2
+    row: w.yang-shangkun-riji II, 367
+    'on': time
+- edit:
+    id: cal.1964-04-10.china-leadership-3
+    base: c0625bdb
+    set:
+      time_range:
+      - 1964-04-09T22:00Z
+      - 1964-04-10T04:00Z
+      time_band: morning
+      time_zone: Asia/Shanghai
+- src:
+    id: cal.1964-04-10.china-leadership-3
+    row: w.yang-shangkun-riji II, 367
+    'on': time
+- edit:
+    id: cal.1964-04-12.china-leadership-4
+    base: bfdfe8bf
+    set:
+      c: 'Lanzhou, their second night there.{4} A telephone call from the Central Committee''s General Office: Deng Xiaoping to bring a few people from Lanzhou to Changsha at once, Mao
+        to hold a meeting there. With no large airfield at Lanzhou or Xi''an, they are to fly by way of the military airfield at Wugong.{5}'
+      place: lanzhou
+      time_range:
+      - 1964-04-12T11:00Z
+      - 1964-04-12T14:00Z
+      time_band: evening
+      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 744–745 (the call "the second night at Lanzhou"; Wugong). The flight to Changsha is the next morning, Apr. 13, by the Mao and Deng nianpu
+        ([[w.zedong-mao-zedong-nianpu]], V, Apr. 10 and 13, 1964; [[w.deng-xiaoping-nianpu-1904]], III, 1809); Wu dates the flight Apr. 12 (745). Made public: 1999. See [[cal.1964-04-07.china-leadership-2]].
+        Names: Deng Xiaoping, Mao Zedong. Check: the day: by Wu''s dates the call is the night of Apr. 11.'
+      src:
+        c: 74d5259d
+        rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 744–745: 4, 5'
+    unset:
+    - variants
+    kind: correct
+- tag:
+    id: cal.1964-04-12.china-leadership-4
+    remove:
+    - name:kang-sheng
+    - name:peng-zhen
+    - name:wu-lengxi
+- add-words:
+    id: cal.1964-04-13.china-leadership-11
+    after: end
+    words: By way of the military airfield at Wugong, they reach Changsha at noon. Peng Zhen takes the rest of the group on to Xi'an.
+    item: '[[w.lengxi-shinian-lunzhan-1956-1966]], 745'
+- names:
+    id: cal.1964-04-13.china-leadership-11
+    add:
+    - Peng Zhen
+    tags:
+    - name:peng-zhen
+- check:
+    id: cal.1964-04-13.china-leadership-11
+    text: 'Check: Wu (745) dates the flight Apr. 12.'
+- edit:
+    id: cal.1964-04-12.china-leadership-5
+    base: 7bd4afef
+    set:
+      date: '1964-04-13'
+      when: Apr. 13
+      time_range:
+      - 1964-04-13T11:00Z
+      - 1964-04-13T14:00Z
+      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 747 (Mao''s remarks to Deng for Zhou; Deng''s call "that evening"; Wu dates it Apr. 12); [[w.zedong-mao-zedong-nianpu]], V, Apr. 13,
+        1964 (the Changsha meeting, afternoon); [[w.deng-xiaoping-nianpu-1904]], III, 1809 (Apr. 13, 1964; Mao asks Deng to tell Zhou Enlai his view of the trade talks). The Mao nianpu
+        and the Deng nianpu date the meeting Apr. 13, and the call is that evening. Made public: 1999. See [[cal.1964-04-13.china-leadership]]. Names: Deng Xiaoping, Zhou Enlai, Mao
+        Zedong.'
+      src:
+        c: 131b76d5
+        rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 747: 1, 2, 3'
+        - 'w.zedong-mao-zedong-nianpu V, Apr. 13, 1964: date'
+    unset:
+    - variants
+    kind: correct
+    settles:
+    - 'Check: the day, if the meeting was Apr. 13'
+- edit:
+    id: cal.1964-04-12.china-leadership-6
+    base: 37c6c8af
+    set:
+      date: '1964-04-13'
+      when: Apr. 13–14
+      c: Changsha. The evening of Apr. 13 and the morning of the 14th, Wu Lengxi redrafts the telegram to Khrushchev from Mao's four points, then Deng Xiaoping, Wang Renzhong, Zhang
+        Pinghua and Kang Sheng discuss and amend it. Some want it fuller, some two plain paragraphs; Deng has Wu make a long and a short draft for discussion in the afternoon and then
+        for Mao.
+      time_range:
+      - 1964-04-13T11:00Z
+      - 1964-04-13T14:00Z
+      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 747 ("that evening and the next morning"; the two drafts; Wu''s days Apr. 12 and 13); [[w.zedong-mao-zedong-nianpu]], V, Apr. 13 and
+        14, 1964 (the meeting Apr. 13, afternoon; Apr. 14, 3:30 p.m., Mao on the first draft, a meeting at 5); [[w.deng-xiaoping-nianpu-1904]], III, 1809 (Apr. 14, 1964; 上午, Deng revises
+        the telegram; 下午, hears Mao''s comments). The Mao nianpu and the Deng nianpu put the redrafting the evening of Apr. 13 and the morning of Apr. 14. The time is the first day''s.
+        Made public: 1999. See [[cal.1964-04-13.china-leadership]]. Names: Deng Xiaoping, Kang Sheng, Mao Zedong, Wu Lengxi, Wang Renzhong, Zhang Pinghua.'
+      src:
+        c: 6ee2a8be
+        rows:
+        - 'w.lengxi-shinian-lunzhan-1956-1966 747: all'
+        - 'w.zedong-mao-zedong-nianpu V, Apr. 13 and 14, 1964: date'
+        - 'w.deng-xiaoping-nianpu-1904 III, 1809: date'
+    kind: correct
+    settles:
+    - 'Check: the Mao chronology dates Mao''s call on them'
+- follows:
+    id: cal.1964-04-12.china-leadership-5
+    remove:
+    - cal.1964-04-12.china-leadership-4
+    why: the summons of Apr. 12 is the day before; the call is the evening of Apr. 13 (Deng nianpu, III, 1809)
+- follows:
+    id: cal.1964-04-12.china-leadership-6
+    remove:
+    - cal.1964-04-12.china-leadership-4
+    why: the summons of Apr. 12 is the day before; the redrafting is the evening of Apr. 13 (Deng nianpu, III, 1809)
+- edit:
+    id: cal.1964-04-14.republican-party
+    base: 6b8f8ed6
+    set:
+      time_range:
+      - 1964-04-15T02:00Z
+      - 1964-04-15T08:00Z
+      time_band: election night
+      time_zone: America/Chicago
+    unset:
+    - range_basis
+- src:
+    id: cal.1964-04-14.republican-party
+    row: w.white-suite-3505 306
+    'on': time
+- edit:
+    id: cal.1964-04-14.middle-east-3
+    base: 3c0a2dee
+    set:
+      time: 1964-04-15T00:55Z
+      time_approx: true
+      time_zone: America/New_York
+- src:
+    id: cal.1964-04-14.middle-east-3
+    row: w.johnson-white-house-diary 110–12
+    'on': time
+- edit:
+    id: cal.1964-04-16.civil-rights-bill-5
+    base: a5ec5582
+    set:
+      time_range:
+      - 1964-04-17T00:00Z
+      - 1964-04-17T03:00Z
+      time_band: evening
+      time_zone: America/New_York
+      n: '[[w.purdum-idea-whose-time-has-2014]], 263. To check: Horn, log, 97–98, EMDP (cited by [[w.purdum-idea-whose-time-has-2014]], 362). Names: Humphrey, Kuchel, Dirksen.'
+    settles:
+    - 'Check: the hour.'
+- src:
+    id: cal.1964-04-16.civil-rights-bill-5
+    row: w.purdum-idea-whose-time-has-2014 263
+    'on': time
+- edit:
+    id: cal.1964-04-20.civil-rights-bill-2
+    base: 49720c3c
+    set:
+      time_range:
+      - 1964-04-20T11:00Z
+      - 1964-04-20T17:00Z
+      time_band: morning
+      time_zone: America/New_York
+- src:
+    id: cal.1964-04-20.civil-rights-bill-2
+    row: w.purdum-idea-whose-time-has-2014 264
+    'on': time
+- edit:
+    id: cal.1964-04-25.succession-3
+    base: '37546816'
+    set:
+      time: 1964-04-25T23:30Z
+      time_approx: true
+      time_zone: America/New_York
+      n: '[[w.johnson-white-house-diary]], 124–25 (Lady Bird Johnson''s account; she records only that he goes; Dobie sets out "about 6:30", the time here, the dinner''s own hour not
+        given). Names: Johnson.'
+- src:
+    id: cal.1964-04-25.succession-3
+    row: w.johnson-white-house-diary 124–25
+    'on': time
+- edit:
+    id: cal.1964-04-26.china-leadership-3
+    base: 025ea2d9
+    set:
+      time: 1964-04-25T16:05Z
+      time_zone: Asia/Shanghai
+      n: '[[w.lengxi-shinian-lunzhan-1956-1966]], 769–770 (the note drafted after the return of Apr. 20 on the lines Deng Xiaoping had worked out on the road; Mao "approved it on the
+        26th", his words); [[w.jianguo-yilai-mao-zedong]], XVII, 242–243 (Apr. 26, 1964; Mao''s note to Kang Sheng and Wu Lengxi on their letter of Apr. 25 sending the draft, written
+        at 12:05 a.m. Apr. 26 (四月二十六日上午零时五分); no place given; the note renamed the note of the editorial department); [[w.mao-zedong-zhuan]], V, ch. 71 (the digest of the CPSU documents,
+        with an editors'' note, printed Apr. 27 with Mao''s approval (n.40)). [[w.lengxi-shinian-lunzhan-1956-1966]], 769. Made public: 1999. To check: Kang Sheng and Wu Lengxi to Mao
+        Zedong, letter of Apr. 25, 1964 sending the draft Renmin ribao editors'' note on the CPSU''s February plenum documents (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 242 n.1).
+        See [[cal.1964-04-26.china-leadership]]. Names: Mao Zedong, Liu Shaoqi, Deng Xiaoping. Check: the place of Mao''s writing; Wu gives only that he had gone from Changsha to Hangzhou.
+        Check: the note as printed (XVII, 242) has "broadcast today" (今日); Wu (769), "tonight" (今晚).'
+    settles:
+    - 'Check: the place and hour of Mao''s writing'
+- src:
+    id: cal.1964-04-26.china-leadership-3
+    row: w.jianguo-yilai-mao-zedong XVII, 242–243
+    'on': time
+- edit:
+    id: cal.1964-04-29.civil-rights-bill
+    base: 8bcb599e
+    set:
+      time: 1964-04-29T16:00Z
+      time_approx: true
+      time_zone: America/New_York
+    unset:
+    - time_range
+    - time_band
+    - range_basis
+- src:
+    id: cal.1964-04-29.civil-rights-bill
+    row: w.kotz-judgment-days 138–39
+    'on': time

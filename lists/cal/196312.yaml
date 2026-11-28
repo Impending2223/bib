@@ -318,10 +318,10 @@ entries:
     date: '1963-12-02'
     thread: republican-party
     also: [elections-1964]
-    c: 'Lodge Topic A in Washington. Morton: "Until yesterday, I would have thought Lodge would have some trouble getting a seat at the convention, much less be nominated for President. But now, I just don''t know."'
-    n: '[[w.novak-agony-of-the-g]], 260–61. See [[cal.1963-12-01.elections-1964]]. Names: Morton, Lodge.'
+    c: 'Lodge Topic A in Washington. Thruston Morton: "Until yesterday, I would have thought Lodge would have some trouble getting a seat at the convention, much less be nominated for President. But now, I just don''t know."'
+    n: '[[w.novak-agony-of-the-g]], 260–61. See [[cal.1963-12-01.elections-1964]]. Names: Thruston Morton, Lodge.'
     src:
-      c: e7791445
+      c: b3e99d19
       rows:
         - 'w.novak-agony-of-the-g 260–61: all'
     tags: [name:morton-thruston-b, name:lodge-henry-cabot]
@@ -3114,17 +3114,13 @@ entries:
     thread: china-zhou-foreign
     also: [africa, indonesia, china-foreign]
     c: Zhou Enlai leaves Kunming on an invited visit to the United Arab Republic, the Democratic and Popular Republic of Algeria and the Kingdom of Morocco.{1} Before leaving, at the airport, he receives the athletes back from the first Games of the New Emerging Forces, praises their spirit in winning honor for the country and also points out the faults shown in the contests.{2}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 600 (Dec. 13, 1963); [[w.zhou-enlai-waijiao-huodong]], 377 (Dec. 13, 1963; 上午, 应纳赛尔总统和萨布里主席的邀请, 由陈毅副总理陪同乘专机离开昆明去阿联访问). Names: Zhou Enlai.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 600 (Dec. 13, 1963); [[w.zhou-enlai-waijiao-huodong]], 377 (Dec. 13, 1963; 应纳赛尔总统和萨布里主席的邀请, 由陈毅副总理陪同乘专机离开昆明去阿联访问). Check: the hour of the departure from Kunming: the nianpu (II, 600) and the dashiji (377) give none, and the dashiji''s only hour on that day is the evening stop at Rangoon (晚上); Yang Shangkun''s diary has Kong Yuan and Tong Xiaopeng, going abroad that day, leave "this afternoon at 5," and Zhou telephones Yang at 1 o''clock (1时), after the morning''s entries and before the afternoon''s (II, 334). Names: Zhou Enlai.'
     src:
       c: 7e700095
       rows:
         - 'w.zhou-enlai-nianpu-1949 II, 600: ?'
         - 'w.zhou-enlai-waijiao-huodong 377: 1'
-    tags: [polity:prc, polity:uar, polity:algeria, polity:morocco, name:zhou-enlai]
-    time_range:
-      - 1963-12-12T22:00Z
-      - 1963-12-13T04:00Z
-    time_band: morning
+    tags: [polity:prc, polity:uar, polity:algeria, polity:morocco, name:zhou-enlai, ok:fields-time]
     time_zone: Asia/Shanghai
   - id: cal.1963-12-13.china-leadership-2
     when: Dec. 13
@@ -5874,14 +5870,16 @@ entries:
   - id: cal.1963-12-23.foreign-aid-4
     when: Dec. 23
     date: '1963-12-23'
-    time: 1963-12-23T07:00Z
-    time_approx: true
     place: washington
     thread: foreign-aid
-    c: 'The Oval Office, the night. Johnson, McCormack and Albert telephone for one more vote to make a quorum of the Rules Committee to send the aid conference report to the floor; most members cannot be found. About 2 a.m. Albert reaches Colmer at a Mississippi hospital, where his wife is ill: "Bill, we need you, your party needs you, and President Johnson needs you. We all need you to give us a quorum." Colmer flies through a blizzard to Washington. By Albert''s account.'
-    n: '[[w.albert-little-giant-1990]], 283. See [[cal.1963-12-23.foreign-aid]]. Names: Johnson, McCormack, Albert, Colmer.'
-    tags: [name:johnson-lyndon-b, name:mccormack-john-w, name:albert-carl, name:colmer-william-m, state:ms]
+    c: The Oval Office, the night. Johnson, McCormack and Albert telephone for one more vote to make a quorum of the Rules Committee to send the aid conference report to the floor; most members cannot be found. By Albert's account.
+    n: '[[w.albert-little-giant-1990]], 283 ("the night of December 23"). The call to Colmer came at 2 a.m. on Dec. 24 by the clock (Albert, 283; the House''s 7 a.m. meeting "the next morning" after the party of Dec. 23, [[w.purdum-idea-whose-time-has-2014]], 172). See [[cal.1963-12-23.foreign-aid]]. Names: Johnson, McCormack, Albert.'
+    tags: [name:johnson-lyndon-b, name:mccormack-john-w, name:albert-carl]
     time_zone: America/New_York
+    time_range:
+      - 1963-12-24T03:00Z
+      - 1963-12-24T05:00Z
+    time_band: night
   - id: cal.1963-12-23.soviet-union-leadership
     when: Dec. 23
     date: '1963-12-23'
@@ -6454,6 +6452,16 @@ entries:
     c: 'Zhu De 朱德, with Mao Zedong 毛泽东 and others, writes an inscription for the exhibition of Hebei''s 河北 fight against the floods 河北抗洪抢险斗争展览会: "Defeat the floods, defend socialist building." Mao''s: "The Hai River 海河 must be brought under control for good."'
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1893–1894. The nianpu adds that rainstorms in early August had flooded parts of Hebei and threatened Tianjin 天津, which the PLA, workers and commune members saved by raising the dikes. Names: Zhu De, Mao Zedong.'
     tags: [polity:prc, ok:fields-place, name:zhu-de, name:mao-zedong]
+  - id: cal.1963-12-24.foreign-aid-3
+    when: Dec. 24
+    date: '1963-12-24'
+    time: 1963-12-24T07:00Z
+    place: washington
+    thread: foreign-aid
+    c: 'The Oval Office, 2 a.m. Albert reaches Colmer at a Mississippi hospital, where his wife is ill: "Bill, we need you, your party needs you, and President Johnson needs you. We all need you to give us a quorum." Colmer flies through a blizzard to Washington. By Albert''s account.'
+    n: '[[w.albert-little-giant-1990]], 283 ("It was 2:00 a.m. before I reached our last possibility, Bill Colmer"). The day: [[w.purdum-idea-whose-time-has-2014]], 172 (the party of Dec. 23; the House''s special 7 a.m. meeting "the next morning"). See [[cal.1963-12-23.foreign-aid-4]]. Names: Albert, Colmer.'
+    tags: [name:albert-carl, name:colmer-william-m, state:ms]
+    time_zone: America/New_York
   - id: cal.1963-12-25.europe-and-the-alliance-cyprus
     when: Dec. 25
     date: '1963-12-25'
@@ -6817,23 +6825,6 @@ entries:
     c: 'Liu Shaoqi hears Bo Yibo, Yu Qiuli and others on industrial production and the national industrial conference. On the Songliao (Daqing) oilfield: vigorous and with style, well done, but keep to rest and the alternation of work and rest. Of the wage system: do not simply refuse pay; workers may speak of not counting pay, leaders must speak of distribution by labor and not drop it. Think long-term: farm production and city building are to be built up slowly; in the future special-zone governments with unified leadership. On technical renovation: take past lessons, do not boast; the movement is long-term and must not stop; encourage technical innovation and dare to think, speak and act, to speak in small circles and act first in the laboratory; what is spread and taught must be mature; for some years good things were overstated in the papers and immature things spread too, to be summed up. On trusts and local contradictions: as a big country with ever more factories, how to manage them to the state''s advantage; throw out individualism, localism and departmentalism; "inconvenient for the locality," "profit sharing," "product sharing," "who is bigger," "who says" are not to be weighed, and are matters for the distribution and finance systems. On management: Party committees and governments should rise a little above the companies and the contradictions and judge, not be a party to them; some bureau heads and industrial, commercial and coal secretaries have rolled in and do not see the whole; the Party and government are to manage planning, balance, arbitration, supervision and political-ideological work, and production is run by companies and factories.'
     n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 586–587 (Dec. 26, 1963). Made public: 1996. Names: Liu Shaoqi, Bo Yibo, Yu Qiuli.'
     tags: [polity:prc, name:liu-shaoqi, name:bo-yibo, vis:only:prc, name:yu-qiuli]
-  - id: cal.1963-12-26.china-leadership-5
-    when: Dec. 26
-    date: '1963-12-26'
-    thread: china-leadership
-    c: Zhou Yang's speech of October is published, on Mao's birthday.{1}
-    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 394. To check: [[w.schram-thought-of-mao-tse]], 167–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 394 n.82a). See [[cal.1963-10.china-leadership-2]]. Check: the day; the *Wengao*, as the entry of Mao''s comment on the draft gives it, has the *Renmin ribao* of Dec. 27 ([[cal.1963-11-08.china-leadership-3]]). Names: Zhou Yang.'
-    src:
-      c: abe5f1b1
-      rows:
-        - 'w.macfarquhar-origins-of-the-cultural III, 394: 1'
-        - 'via w.macfarquhar-origins-of-the-cultural III, 394 n.82a: 1'
-    tags: [polity:prc, name:zhou-yang]
-    variants:
-      - unit: '1'
-        witness: w.yang-shangkun-riji
-        reads: 'The Yang Shangkun riji''s editors: Zhou Yang''s "The fighting tasks of workers in philosophy and the social sciences" printed in the *Renmin ribao* on Dec. 27, 1963 (II, 337 n.2)'
-        at: II, 337, Dec. 27, 1963
   - id: cal.1963-12-26.china-leadership-6
     when: Dec. 26
     date: '1963-12-26'
@@ -7056,7 +7047,7 @@ entries:
     thread: china-zhou-foreign
     also: [africa-algeria-morocco, africa, china-foreign, china-economy]
     c: Zhou Enlai visits Morocco, Dec. 27–31.{1} Dec. 28 he talks with King Hassan, explaining farming as base and industry as leader and self-reliance, which will take ten to twenty years and does not shut out trade;{2} China, met with American hostility and blockade, does not mean to start an armed clash with America and believes the two will in the end agree. He calls on Prime Minister Bahnini; Dec. 30 goes to Casablanca;{3} Dec. 31 the China–Morocco joint communique is issued.{4}
-    n: '[[w.zhou-enlai-nianpu-1949]], II, 604 (Dec. 27–31, 1963); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 27, 1963; 上午, 乘专机离开阿尔及尔前往拉巴特; 上午11时30分, 抵达拉巴特, 阿卜杜拉亲王代表国王哈桑二世到机场欢迎); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 上午11时30分, 国王办公室, 第一次会谈); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 下午5时30分; the second talks with King Hassan II); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 311 (Dec. 27–30, 1963; Zhou visits Morocco officially at King Hassan II''s invitation, Chen Yi among those accompanying him; Zhou and Chen Yi hold talks with the King, Prime Minister Bahnini and Foreign Minister Guedira); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 311–312 (Dec. 31, 1963; the joint communique: China supports Morocco''s policy of peace and nonalignment; both approve the peaceful coexistence of countries of different systems, wide international cooperation, general disarmament and the complete prohibition and destruction of nuclear weapons; economic independence the ground of true independence; noninterference; disputes among Asian and African countries, those left by history among them, to be settled by negotiation; an end to the remains of colonialism); [[w.jian-zhou-enlai]], 501 (Morocco, Dec. 27–31: King Hassan II; the oil refinery); [[w.chen-yi-nianpu]], 1003 (Dec. 28, 1963, morning; Chen Yi in Zhou''s talks with King Hassan II). Continues 605. Made public: 1993. The time is the first day''s. To check: Zhou and Chen Yi''s report on the visit to Morocco, January 5, 1964 (cited by [[w.jian-zhou-enlai]], 501 n.36a); [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, 145 (cited by [[w.jian-zhou-enlai]], 501 n.36b). Names: Zhou Enlai, Hassan II, Ahmed Bahnini.'
+    n: '[[w.zhou-enlai-nianpu-1949]], II, 604 (Dec. 27–31, 1963); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 27, 1963; 上午, 乘专机离开阿尔及尔前往拉巴特; 上午11时30分, 抵达拉巴特, 阿卜杜拉亲王代表国王哈桑二世到机场欢迎); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 上午11时30分, 国王办公室, 第一次会谈); [[w.zhou-enlai-waijiao-huodong]], 381 (Dec. 28, 1963; 下午5时30分; the second talks with King Hassan II); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 311 (Dec. 27–30, 1963; Zhou visits Morocco officially at King Hassan II''s invitation, Chen Yi among those accompanying him; Zhou and Chen Yi hold talks with the King, Prime Minister Bahnini and Foreign Minister Guedira); [[w.zhonghua-renmin-gongheguo-waijiao-2001]], 311–312 (Dec. 31, 1963; the joint communique: China supports Morocco''s policy of peace and nonalignment; both approve the peaceful coexistence of countries of different systems, wide international cooperation, general disarmament and the complete prohibition and destruction of nuclear weapons; economic independence the ground of true independence; noninterference; disputes among Asian and African countries, those left by history among them, to be settled by negotiation; an end to the remains of colonialism); [[w.jian-zhou-enlai]], 501 (Morocco, Dec. 27–31: King Hassan II; the oil refinery); [[w.chen-yi-nianpu]], 1003 (Dec. 28, 1963, morning; Chen Yi in Zhou''s talks with King Hassan II); [[w.zhou-enlai-nianpu-1949]], II, 605 (Dec. 30, to Casablanca; Dec. 31, the China–Morocco joint communique published). Continues 605. Made public: 1993. The time is the first day''s. To check: Zhou and Chen Yi''s report on the visit to Morocco, January 5, 1964 (cited by [[w.jian-zhou-enlai]], 501 n.36a); [[w.li-lianqing-da-waijiaojia-zhou-enlai]], V, 145 (cited by [[w.jian-zhou-enlai]], 501 n.36b). Names: Zhou Enlai, Hassan II, Ahmed Bahnini.'
     src:
       c: 430742da
       rows:
@@ -7067,6 +7058,7 @@ entries:
         - 'w.jian-zhou-enlai 501: ?'
         - 'via x.1964-01-05.zhou-chen-yi-report-visit-morocco: ?'
         - 'w.chen-yi-nianpu 1003: ?'
+        - 'w.zhou-enlai-nianpu-1949 II, 605: 4'
     tags: [polity:prc, polity:morocco, polity:us, name:zhou-enlai, name:hassan-ii, vis:only:prc+morocco, name:ahmed-bahnini]
     time_range:
       - 1963-12-27T06:00Z
@@ -7138,8 +7130,10 @@ entries:
     place: peking
     thread: china-polemic
     also: [china-propaganda]
+    follows:
+      - cal.1963-12-26.china-leadership-5
     c: Peking 北京. Yang Shangkun 杨尚昆 reads Zhou Yang's 周扬 article "The fighting tasks of workers in philosophy and the social sciences" 哲学社会科学工作者的战斗任务, printed that day (the editors note), not to the end.
-    n: '[[w.yang-shangkun-riji]], II, 337 (Dec. 27, 1963). See [[cal.1963-12-26.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Zhou Yang, "The fighting tasks of workers in philosophy and the social sciences," *Renmin ribao*, Dec. 27, 1963 (cited by [[w.yang-shangkun-riji]], II, 337 n.2). Names: Yang Shangkun, Zhou Yang.'
+    n: '[[w.yang-shangkun-riji]], II, 337 (Dec. 27, 1963). The order: after [[cal.1963-12-26.china-leadership-5]], [[w.yang-shangkun-riji]], II, 337 n.2 (the editors: the article printed in the *Renmin ribao* of Dec. 27). See [[cal.1963-12-26.china-leadership-5]]. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). To check: Zhou Yang, "The fighting tasks of workers in philosophy and the social sciences," *Renmin ribao*, Dec. 27, 1963 (cited by [[w.yang-shangkun-riji]], II, 337 n.2). Names: Yang Shangkun, Zhou Yang.'
     src:
       c: 63d9fe10
       rows:
@@ -7267,15 +7261,35 @@ entries:
         witness: w.liu-jixian-ye-jianying-nianpu
         reads: the report sent to the Military Commission Dec. 24, 1963
         at: II, 909
+  - id: cal.1963-12-26.china-leadership-5
+    when: Dec. 27
+    date: '1963-12-27'
+    thread: china-leadership
+    c: Zhou Yang's 周扬 speech of October, "The fighting tasks of workers in philosophy and the social sciences" 哲学社会科学工作者的战斗任务, is printed in the *Renmin ribao* 人民日报.{1}
+    n: '[[w.macfarquhar-origins-of-the-cultural]], III, 394; [[w.yang-shangkun-riji]], II, 337 n.2 (the editors'' note: the article printed in the *Renmin ribao*, Dec. 27, 1963); [[w.jianguo-yilai-mao-zedong]], XVII, 101 & n.1 (根据一九六三年十二月二十七日《人民日报》刊印; 十二月二十七日, 这个讲话在《人民日报》发表). To check: [[w.schram-thought-of-mao-tse]], 167–8 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 394 n.82a). See [[cal.1963-10.china-leadership-2]]. The day: the *Renmin ribao* of Dec. 27, 1963, by the editors'' note to [[w.yang-shangkun-riji]], II, 337 n.2, and by the *Wengao*''s source line and note (XVII, 101 & n.1; see [[cal.1963-11-08.china-leadership-3]]); MacFarquhar, III, 394, puts the publication on Mao''s birthday, Dec. 26. Names: Zhou Yang.'
+    src:
+      c: 6321098e
+      rows:
+        - 'w.macfarquhar-origins-of-the-cultural III, 394: 1'
+        - 'via w.macfarquhar-origins-of-the-cultural III, 394 n.82a: 1'
+        - 'w.yang-shangkun-riji II, 337 n.2: ?'
+        - 'w.jianguo-yilai-mao-zedong XVII, 101 & n.1: ?'
+    tags: [polity:prc, name:zhou-yang]
+    variants:
+      - unit: '1'
+        witness: w.macfarquhar-origins-of-the-cultural
+        reads: the publication "on Mao's birthday, 26 December"
+        at: III, 394
   - id: cal.1963-12-28.europe-and-the-alliance
     when: Dec. 28–29
     date: '1963-12-28'
+    time: 1963-12-28T17:00Z
     place: lbj-ranch
     thread: europe-and-the-alliance
     follows:
       - cal.1963-12-28.europe-and-the-alliance-2
     c: Erhard at the LBJ Ranch.{1} Six American divisions to stay in Germany, "as long as they are needed";{2} the offset, German purchases of American arms against the forces' dollar spending, to continue;{3} no arrangement to perpetuate a divided Germany; the multilateral force "a new means of strengthening Western defense."{4}
-    n: 'Joint Statement Following Discussions With Chancellor Erhard, [1963–64 Pub. Papers 99](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=183) (Dec. 29, 1963). [FRUS 1961–63, XV, doc. 253](https://history.state.gov/historicaldocuments/frus1961-63v15/d253) (the talks, Dec. 28, 3:15 p.m.: East-West relations). [[w.schwartz-lyndon-johnson-and-europe]], 22–23, 65 (the talks; the six divisions); [[w.caro-passage-of-power]], 506–07 (the state visit of Dec. 28: Erhard met at Bergstrom, by helicopter to the ranch; Johnson and Erhard with only the interpreters present, Rusk and Schroeder with the staffs in the next room; the talk in a meadow; not the terms). [[w.gavin-gold-dollars-and-power]], 113, 139–40 (the divisions; the offset). After [[cal.1963-12-28.europe-and-the-alliance-2|the welcome at Bergstrom]]: the helicopter to the Ranch, the stag luncheon, and "after lunch there were more talks" ([[w.johnson-white-house-diary]], 23–24). To check: German record of the talks, *Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1963*, III, docs. 486, 490 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 23 n.57, 65 n.77); *Time*, Jan. 10, 1964, at 23 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 22 n.55). See [[cal.1963-01-14.europe-and-the-alliance]]. Check: Gavin, 113, 140, quotes the communiqué: the offset of "great value to both governments," to be "fully executed and continued"; those are the words of the joint statement of Dec. 21, 1965; that of Dec. 29, 1963: "It was agreed that this arrangement should continue." Names: Erhard.'
+    n: 'Joint Statement Following Discussions With Chancellor Erhard, [1963–64 Pub. Papers 99](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=183) (Dec. 29, 1963). [FRUS 1961–63, XV, doc. 253](https://history.state.gov/historicaldocuments/frus1961-63v15/d253) (the talks, Dec. 28, 3:15 p.m.: East-West relations). [[w.schwartz-lyndon-johnson-and-europe]], 22–23, 65 (the talks; the six divisions); [[w.caro-passage-of-power]], 506–07 (the state visit of Dec. 28: Erhard met at Bergstrom, by helicopter to the ranch; Johnson and Erhard with only the interpreters present, Rusk and Schroeder with the staffs in the next room; the talk in a meadow; not the terms). [[w.gavin-gold-dollars-and-power]], 113, 139–40 (the divisions; the offset). After [[cal.1963-12-28.europe-and-the-alliance-2|the welcome at Bergstrom]]: the helicopter to the Ranch, the stag luncheon, and "after lunch there were more talks" ([[w.johnson-white-house-diary]], 23–24). To check: German record of the talks, *Akten zur Auswärtigen Politik der Bundesrepublik Deutschland 1963*, III, docs. 486, 490 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 23 n.57, 65 n.77); *Time*, Jan. 10, 1964, at 23 (cited by [[w.schwartz-lyndon-johnson-and-europe]], 22 n.55). The time is the first day''s: the private session at 11 a.m. ([FRUS 1961–63, XV, doc. 248](https://history.state.gov/historicaldocuments/frus1961-63v15/d248)). See [[cal.1963-01-14.europe-and-the-alliance]]. Check: Gavin, 113, 140, quotes the communiqué: the offset of "great value to both governments," to be "fully executed and continued"; those are the words of the joint statement of Dec. 21, 1965; that of Dec. 29, 1963: "It was agreed that this arrangement should continue." Names: Erhard.'
     src:
       c: d270f5c6
       rows:
@@ -7296,6 +7310,7 @@ entries:
         - 'w.caro-passage-of-power 506–07: 1'
     tags: [name:erhard-ludwig, name:johnson-lyndon-b]
     short: Erhard at the Ranch
+    time_zone: America/Chicago
   - id: cal.1963-12-28.europe-and-the-alliance-cyprus
     when: Dec. 28
     date: '1963-12-28'
@@ -7503,6 +7518,39 @@ entries:
       - 1963-12-28T14:00Z
     time_band: evening
     time_zone: Asia/Shanghai
+  - id: cal.1963-12-28.europe-and-the-alliance-4
+    when: Dec. 28
+    date: '1963-12-28'
+    time: 1963-12-28T17:00Z
+    place: lbj-ranch
+    thread: europe-and-the-alliance
+    also: [soviet-union, berlin-and-vienna]
+    c: 'The LBJ Ranch, 11 a.m. Johnson and Erhard, alone with their interpreters: US–German relations; de Gaulle and relations with France; negotiations with the Soviets; the Berlin Christmas passes (parts 1, 2, 4 and 5 of nine).'
+    n: '[FRUS 1961–63, XV, doc. 248](https://history.state.gov/historicaldocuments/frus1961-63v15/d248) (Part 1), [doc. 249](https://history.state.gov/historicaldocuments/frus1961-63v15/d249) (Part 2), [doc. 250](https://history.state.gov/historicaldocuments/frus1961-63v15/d250) (Part 4), [doc. 251](https://history.state.gov/historicaldocuments/frus1961-63v15/d251) (Part 5), each at 11 a.m. See [[cal.1963-12-28.europe-and-the-alliance]]. Names: Johnson, Erhard.'
+    tags: [name:johnson-lyndon-b, name:erhard-ludwig]
+    time_zone: America/Chicago
+  - id: cal.1963-12-28.europe-and-the-alliance-5
+    when: Dec. 28
+    date: '1963-12-28'
+    time: 1963-12-28T17:15Z
+    place: lbj-ranch
+    thread: europe-and-the-alliance
+    also: [berlin-and-vienna]
+    c: 'The LBJ Ranch, 11:15 a.m. Rusk, with McGhee, Tyler and Bundy, and Foreign Minister Schroeder, with Westrick, Carstens and others, while Johnson and Erhard meet alone: the Berlin Christmas pass problem and its relation to Berlin and all-German issues (part one of two).'
+    n: '[FRUS 1961–63, XV, doc. 252](https://history.state.gov/historicaldocuments/frus1961-63v15/d252) (Memorandum of conversation, Dec. 28, 11:15 a.m.; the President and Chancellor "in private session"). See [[cal.1963-12-28.europe-and-the-alliance]]. Names: Rusk, McGhee, Tyler, Bundy, Schroeder, Westrick, Carstens.'
+    tags: [name:rusk-dean, name:schroder-gerhard, name:mcghee-george-c, name:tyler-william-r, name:bundy-mcgeorge, name:carstens-karl, name:westrick-ludger]
+    time_zone: America/Chicago
+  - id: cal.1963-12-28.europe-and-the-alliance-6
+    when: Dec. 28
+    date: '1963-12-28'
+    time: 1963-12-28T21:15Z
+    place: lbj-ranch
+    thread: europe-and-the-alliance
+    also: [soviet-union]
+    c: 'The LBJ Ranch, 3:15 to 5:15 p.m. Johnson with Rusk and ten officials, Erhard with Schroeder and twelve: East–West relations (part 5 of 5). Erhard: Western suggestions have met few encouraging answers; the test ban cut the threat of a hot war; the West needs a more exact evaluation of the Soviet position; he favors the proposed wheat sales; the recent autobahn incidents were no accident; the Christmas pass issue has dynamite in it.'
+    n: '[FRUS 1961–63, XV, doc. 253](https://history.state.gov/historicaldocuments/frus1961-63v15/d253) (Memorandum of conversation, Dec. 28, 3:15 p.m.; the meeting ended at 5:15 p.m.). See [[cal.1963-12-28.europe-and-the-alliance]]. Names: Johnson, Rusk, Erhard, Schroeder.'
+    tags: [name:johnson-lyndon-b, name:rusk-dean, name:erhard-ludwig, name:schroder-gerhard]
+    time_zone: America/Chicago
   - id: cal.1963-12-29.poverty
     when: Dec. 29–Jan. 3
     date: '1963-12-29'
@@ -7754,6 +7802,30 @@ entries:
     c: Conghua 从化. Xiao Jinguang 萧劲光, commander of the PLA Navy 中国人民解放军海军, and Su Yu 粟裕, vice-minister of defense, call on Chen Yun 陈云; they talk.
     n: '[[w.chen-yun-nianpu-xiuding]], III, 143. Made public: 2015. Names: Chen Yun, Su Yu.'
     tags: [polity:prc, name:chen-yun, vis:only:prc, name:su-yu]
+  - id: cal.1963-12-29.europe-and-the-alliance-5
+    when: Dec. 29
+    date: '1963-12-29'
+    time: 1963-12-29T17:00Z
+    place: lbj-ranch
+    thread: europe-and-the-alliance
+    also: [soviet-union]
+    c: 'The LBJ Ranch, 11 a.m. Johnson and Erhard, Bundy and the interpreters present: Germany and East–West negotiations (part 2 of 2). Erhard: Bonn cannot approach Khrushchev directly; would the United States, holding to self-determination, explore solutions with him? Germany ready to make real sacrifices, credits among them. Johnson: no meeting with Khrushchev until it can bring concrete results; a $50 billion defense budget; a dearth of new ideas; act while Khrushchev is weak, lest he go "for our jugular."'
+    n: '[FRUS 1961–63, XV, doc. 254](https://history.state.gov/historicaldocuments/frus1961-63v15/d254) (Memorandum of conversation, Dec. 29, 11 a.m.). See [[cal.1963-12-28.europe-and-the-alliance]]. Names: Johnson, Erhard, Bundy, Khrushchev.'
+    tags: [name:johnson-lyndon-b, name:erhard-ludwig, name:bundy-mcgeorge, name:khrushchev-nikita-s]
+    time_zone: America/Chicago
+  - id: cal.1963-12-29.europe-and-the-alliance-6
+    when: Dec. 29
+    date: '1963-12-29'
+    time: 1963-12-29T17:30Z
+    place: lbj-ranch
+    thread: europe-and-the-alliance
+    also: [berlin-and-vienna]
+    follows:
+      - cal.1963-12-29.europe-and-the-alliance-5
+    c: 'The LBJ Ranch, 11:30 a.m. Rusk, with McGhee, Bundy and Tyler, and Schroeder, with Westrick, Carstens, Knappstein and Krapf, while Johnson and Erhard meet in private. Carstens asks that consultation on Berlin center at Bonn, the three ambassadors, the Federal Republic and the Senat at one table; Rusk: five vetoes, the Commandants'' authority not to be diminished. Schroeder: a German paper on a new initiative on reunification, five points, by mid-January; Rusk: on such terms no meeting with the Soviets would take place; any such group to be ready for 300 meetings.'
+    n: '[FRUS 1961–63, XV, doc. 255](https://history.state.gov/historicaldocuments/frus1961-63v15/d255) (Part one, procedure for consultation on Berlin problems), [doc. 256](https://history.state.gov/historicaldocuments/frus1961-63v15/d256) (Part two, the new German initiative on reunification), Dec. 29, 11:30 a.m. The order: after [[cal.1963-12-29.europe-and-the-alliance-5]], [FRUS 1961–63, XV, doc. 255](https://history.state.gov/historicaldocuments/frus1961-63v15/d255) ("After the President and the Chancellor had gone into private session"). See [[cal.1963-12-28.europe-and-the-alliance]]. Names: Rusk, McGhee, Bundy, Tyler, Schroeder, Westrick, Carstens, Knappstein.'
+    tags: [name:rusk-dean, name:mcghee-george-c, name:bundy-mcgeorge, name:tyler-william-r, name:schroder-gerhard, name:westrick-ludger, name:carstens-karl, name:knappstein-heinrich-k]
+    time_zone: America/Chicago
   - id: cal.1963-12-30.congress
     when: Dec. 30
     date: '1963-12-30'
@@ -8044,8 +8116,10 @@ entries:
     place: rabat
     thread: china-africa-tour
     also: [africa, china-zhou-foreign]
+    follows:
+      - cal.1963-12-30.china-leadership-2
     c: Rabat 拉巴特, the Peace Palace 和平宫. Chen Yi 陈毅 and Zhou Enlai 周恩来 at the ceremony announcing the joint communique of the Chinese and Moroccan governments.
-    n: '[[w.chen-yi-nianpu]], 1004. Names: Chen Yi, Zhou Enlai.'
+    n: '[[w.chen-yi-nianpu]], 1004. The order: after [[cal.1963-12-30.china-leadership-2]], [[w.chen-yi-nianpu]], 1004 (back at Rabat at 5:45 p.m. 下午5时45分 from Casablanca; the ceremony after). Check: the communique''s day: the Chen Yi nianpu has the ceremony announcing it at the Peace Palace on Dec. 30 (1004); the Zhou nianpu has the communique published on the 31st (II, 605). Names: Chen Yi, Zhou Enlai.'
     tags: [polity:prc, polity:morocco, name:chen-yi, name:zhou-enlai, ok:fields-time]
   - id: cal.1963-12-30.china-leadership-5
     when: Dec. 30

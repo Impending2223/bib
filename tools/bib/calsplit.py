@@ -35,18 +35,29 @@ STYLE:
     any part's page, to the index or to an old part's page (cal.html#X, cal63.html#X) goes to the page that holds X
     (route): by the data's anchors (entries, days, sections and their old ids), and, in a build that has built the
     calendar, by every id each part's page holds alone (REAL: the tables', the servants', the blocks').
- 7. A thread highlighted: a tap on a thread's entry in the index, or on a thread's line under a calendar entry ("⟨⟨ Testing
-    ⟩⟩"), anywhere but on a link, sets that thread's entries, and its entry in the index, on
+ 7. A thread highlighted: a tap on a thread's entry in the index, anywhere but on a link, or on a thread's name in an
+    entry's rubric, sets that thread's entries, and its entry in the index, on
     white (in the dark theme, a lighter panel): the entry's own box, square, from its rule to the next, and an en dash (.515em of the serif)
     past the rules' ends on either side, into the margin (side shadows of the fill); nothing moves and no edge crosses
     text. A day's first entry, which has no rule above
-    it, and its last, none below, take one while lit, drawn inside the box; the same tap again clears it, a tap on another thread moves it. The
-    links (⟨⟨ and ⟩⟩) go where they go and leave the highlight as it is. A rubric's thread name, a link to the thread's
-    entry in the index, goes there and lights the thread too; it never clears it. It holds across the parts and
+    it, and its last, none below, take one while lit, drawn inside the box; the same tap again clears it, a tap on another thread moves it.
+    The rubric (the owner, Nov. 27, 2026: "a single click/tap on a top-line thread label 'toggles' the thread
+    highlight, but only double clicks/taps navigate to the thread summary"; "tapping empty space in the top line of any
+    entry, to the right of the thread label or labels, 'untoggles' active thread highlights"): a thread's name is still a
+    link to the thread's entry in the index; one click or tap lights the thread, or clears it if lit, at once and does
+    not follow the link; a second within half a second (or the system's double click) puts the highlight back as it
+    was and follows it. Enter on the name, a click with a modifier (a new tab) or the page without its script follow
+    the link alone. A tap on the rest of the line, not on a link or the dateline, clears the lit thread. A tap that
+    opens a rubric cut short (dateline.py, STYLE 1) does that alone, but on a name. It holds across the parts and
     the reader for the session (sessionStorage), and is the reader's alone: nothing in the address. While a thread is
     lit, the left and right arrow keys go to its entry before and after the one at the top of the screen (the owner,
-    Nov. 5, 2026): that entry's ⟨⟨ or ⟩⟩ followed, so the thread's own order and across the parts; where no lit entry
-    is at the top, the nearest above or below it in the thread's order. Not with a modifier, nor in a field, a map or a chart.
+    Nov. 5, 2026): the thread's own order, the order the ⟨⟨ ⟩⟩ under each entry gave, and across the parts; where no lit
+    entry is at the top, the nearest above or below it in the thread's order. Not with a modifier, nor in a field, a map or a chart.
+    The thread lines are off the web pages since Nov. 27, 2026 (the owner: "Drop the threadlines from the bottom of the
+    web entries. Keep the navigation highlights and keyboard shortcuts. Keep the threadlines on the ebook"): the keys
+    read the order from the page (nav_data: each thread's entries on the page, with the one before and after each, and
+    a link for each the page does not hold, routed to its page as the lines' links were); the ebook keeps the lines
+    (calbook.py, STYLE 7).
  6. Each part's lede names the year before and the year after by their `called` words ("The calendar of 1960 precedes
     it; the calendar of 1962 follows; every year in the calendar's index"), each linked to its page's top, or its
     block's in the reader, and "the calendar's index" to the index (other_link).
@@ -64,7 +75,7 @@ STYLE:
     name ("Vietnam: Pennsylvania"), muted, as the A–Z bibliography's ghost entries are, not underlined, linked to its
     first entry in the part; then its dates there, by year (1, 2), as any thread's are, links and all (the owner's
     ruling, Oct. 21, 2026: the name muted, not the links); no line in a part where it has no entries. A rubric naming
-    it links to that line, and a tap on it lights the ghost's entries (7). Given a statement, it is a thread's entry
+    it links to that line, and a tap on it lights the ghost's entries, or clears them (7). Given a statement, it is a thread's entry
     like any other (`ghost_thread_html` in build.py). Its line stands in a part where it, or a ghost under it, has
     entries; its dates are its own (15).
 10. A thread's old name stays in the index where the reader may look for it: a th.yaml entry with `s:` the old name
@@ -110,7 +121,7 @@ STYLE:
     So every entry is dated, in plain text, on one line at least: its own thread's. A parent keeps its line, its
     statement and its seam links (2: to its own entries) in a part where only its subthreads have entries; its
     statement names its ghosts' events as before (statements.py, STYLE 3). The family stays together everywhere else:
-    the thread-nav line under each entry, the highlight (7), the statements, `entry_threads`, `thread_members`. On the
+    the thread-nav line under each entry (the ebook's) and the arrow keys' order, the highlight (7), the statements, `entry_threads`, `thread_members`. On the
     index (13) a thread's years stay its family's: each links to the thread's entry in that year's index, which stands
     while the family has entries there.
 16. A date in a thread's run the same as the one before it ("July 31, July 31") is left out, for now (the owner, Nov.
@@ -621,6 +632,33 @@ def other_link(lst, html):
 
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 
+LI = re.compile(r'<li id="([^"]+)"[^>]*\sdata-threads="')
+
+
+def nav_data(page, lst):
+    """The order the arrow keys follow (STYLE 7), the thread lines being gone from the web pages: for each thread with
+    an entry on the page, the thread's entries (build.thread_members, the order of the lines' ⟨⟨ ⟩⟩) that the page
+    holds, with the entry before and after each; and, for each of those the page does not hold, a link the build
+    routes to the page that does, as it routed the lines' links (route). A thread of one entry, which had no line,
+    is left out."""
+    import json
+    from . import build
+    here = set(LI.findall(page))
+    out, away = {}, []
+    for t, ms in build.thread_members(lst).items():
+        ids = [m["id"] for m in ms]
+        on = [i for i, x in enumerate(ids) if x in here]
+        if len(ids) < 2 or not on:
+            continue
+        keep = sorted({j for i in on for j in (i - 1, i, i + 1) if 0 <= j < len(ids)})
+        out[t] = [ids[j] for j in keep]
+        away += [ids[j] for j in keep if ids[j] not in here]
+    data = json.dumps(out, ensure_ascii=False, sort_keys=True, separators=(",", ":")).replace("</", "<\\/")
+    links = "".join(f'<a href="#{x}"></a>' for x in dict.fromkeys(away))
+    return (f'<script type="application/json" id="tnav">{data}</script>'
+            + (f'<p class="tnx" hidden>{links}</p>' if links else "") + "\n")
+
+
 STYLE = """<style>
 /* the thread index's years and the links across the calendar's halves (tools/bib/calsplit.py) */
 a.tx{color:var(--muted);text-decoration-color:var(--rule)}
@@ -640,14 +678,16 @@ p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E}}
 :root[data-theme="dark"]{--hl:#22262E}
 
-li[data-thread],.tnl[data-t]{cursor:pointer}
+li[data-thread]{cursor:pointer}
+.s.rub a.rt{touch-action:manipulation}
 canvas.hlm{position:fixed;z-index:27;right:6px;width:28px;pointer-events:none;opacity:0;transition:opacity .18s}
 canvas.hlm.on{opacity:1}
 @media (prefers-reduced-motion: reduce){canvas.hlm{transition:none}}
 </style>"""
 
 SCRIPT = """<script>
-/* a thread highlighted: a tap on a thread's entry in the index or on its line under an entry, not on a link (STYLE 7) */
+/* a thread highlighted: a tap on a thread's entry in the index, not on a link, or on a thread's name in an entry's rubric;
+   a tap on the rest of the rubric's line clears it (STYLE 7) */
 (function(){
   var W='-.515em 0 0 var(--hl),.515em 0 0 var(--hl)', KEY='bib-thread-hl', st=document.createElement('style'); document.head.appendChild(st);
   function set(t){
@@ -656,54 +696,71 @@ SCRIPT = """<script>
       'li[data-threads~="'+t+'"],li[data-thread="'+t+'"]{background:var(--hl);box-shadow:'+W+'}'+
       '.day ol.e>li[data-threads~="'+t+'"]:first-child{box-shadow:inset 0 1px 0 var(--rule),'+W+'}'+
       '.day ol.e>li[data-threads~="'+t+'"]:last-child{box-shadow:inset 0 -1px 0 var(--rule),'+W+'}'+
-      '.day ol.e>li[data-threads~="'+t+'"]:only-child{box-shadow:inset 0 1px 0 var(--rule),inset 0 -1px 0 var(--rule),'+W+'}'+
-      '.tnl[data-t="'+t+'"]{color:var(--ink)}';
+      '.day ol.e>li[data-threads~="'+t+'"]:only-child{box-shadow:inset 0 1px 0 var(--rule),inset 0 -1px 0 var(--rule),'+W+'}';
     document.documentElement.dataset.hl = t || '';
   }
   var now=''; try{ now=sessionStorage.getItem(KEY)||''; }catch(e){}
   if(/^[a-z0-9-]+$/.test(now)) set(now); else now='';
+  /* the rubric: a tap on a thread's name lights it, or clears it if lit, at once; a second tap on it within DBL ms
+     leaves the thread lit (the owner, Nov. 27, 2026: "The second tap should go to the summary but not undo the
+     highlight") and follows the link to the thread's entry in the index (a double click or
+     tap). Enter on the name, or a click with a modifier, follows the link alone. A tap on the line elsewhere, not on
+     a link or the dateline, clears the thread. Before the page's other handlers (the reader's links), after the
+     dateline's: a tap that opens a rubric cut short does that alone, but on a name */
+  var DBL=500, last=null;
+  document.addEventListener('mousedown', function(ev){ if(ev.detail>1&&ev.target.closest&&ev.target.closest('.s.rub a.rt')) ev.preventDefault(); }, true);   // no word selected
   document.addEventListener('click', function(ev){
-    var rt=ev.target.closest('a.rt'), m=rt&&/thread\\.([a-z0-9-]+)$/.exec(rt.getAttribute('href')||'');
-    if(m){ if(now!==m[1]){ now=m[1]; set(now); } return; }   // a rubric's thread: lit (never cleared), and the link goes on
+    if(!ev.target.closest) return;
+    var rt=ev.target.closest('.s.rub a.rt'), m=rt&&/thread\\.([a-z0-9-]+)$/.exec(rt.getAttribute('href')||''), t=Date.now();
+    if(m){
+      if(!ev.detail||ev.button||ev.altKey||ev.ctrlKey||ev.metaKey||ev.shiftKey){ last=null; return; }   // the link alone
+      if(last&&last[0]===rt&&(ev.detail>1||t-last[1]<DBL)){ now=m[1]; set(now); last=null; return; }   // the second tap: lit, and the link
+      ev.preventDefault(); ev.stopPropagation();
+      last=[rt,t]; now=(now===m[1])?'':m[1]; set(now);
+      return;
+    }
+    last=null;
+    if(ev.defaultPrevented||!ev.target.closest('.rubrow,.s.rub')||ev.target.closest('a,.dl')) return;
+    if(now){ now=''; set(now); }
+  }, true);
+  document.addEventListener('click', function(ev){
     if(ev.target.closest('a,button,summary,input')) return;
-    var el=ev.target.closest('li[data-thread],.tnl[data-t]'); if(!el) return;
-    var t=el.dataset.thread||el.dataset.t; if(!/^[a-z0-9-]+$/.test(t)) return;
+    var el=ev.target.closest('li[data-thread]'); if(!el) return;
+    var t=el.dataset.thread; if(!/^[a-z0-9-]+$/.test(t)) return;
     now = (now===t) ? '' : t; set(now);
   });
-  /* the arrow keys, while a thread is lit: the ⟨⟨ or ⟩⟩ of its entry at the top, else the lit entry next below or above
-     the top (STYLE 7) */
+  /* the arrow keys, while a thread is lit: the thread's entry before or after its entry at the top, by the page's
+     data (nav_data: the order the thread lines' ⟨⟨ ⟩⟩ gave, the links to other pages routed as theirs were), else the
+     lit entry next below or above the top (STYLE 7) */
+  var NAV={}, AT={}, AWAY={}, i;
+  try{ NAV=JSON.parse((document.getElementById('tnav')||{}).textContent||'{}'); }catch(e){}
+  var xs=document.querySelectorAll('p.tnx a');
+  for(i=0;i<xs.length;i++){ var h=xs[i].getAttribute('href')||''; AWAY[decodeURIComponent(h.split('#')[1]||'')]=h; }
+  var jump=document.createElement('a'); jump.hidden=true; document.body.appendChild(jump);
+  function pos(id){                      // the entry's place in the lit thread's list, or undefined: no line of it
+    var L=NAV[now], k; if(!L) return;
+    if(!AT[now]){ AT[now]={}; for(k=0;k<L.length;k++) AT[now][L[k]]=k; }
+    return AT[now][id];
+  }
+  function next(id,fwd){ var p=pos(id); return p===undefined ? null : NAV[now][p+(fwd?1:-1)]||null; }
   var cur=null, curY=-1;
-  function link(li,fwd){
-    var ln=li.querySelector('.tnl[data-t="'+now+'"]'), as=ln?ln.querySelectorAll('a.tnb'):[], i;
-    for(i=0;i<as.length;i++) if(as[i].textContent.trim()===(fwd?'⟩⟩':'⟨⟨')) return as[i];
-    return null;
-  }
-  function tid(a){ return a?decodeURIComponent((a.getAttribute('href')||'').split('#')[1]||''):''; }
-  function order(els){                   // the page's lit entries in the thread's order, by their ⟨⟨ ⟩⟩ (a month's undated last)
-    var by={}, out=[], seen={}, i, k, e;
-    for(i=0;i<els.length;i++) by[els[i][1].id]=els[i];
-    for(i=0;i<els.length;i++){
-      e=els[i]; if(seen[e[1].id]||by[tid(link(e[1],false))]) continue;      // a head: its ⟨⟨ not on the page
-      for(k=e;k&&!seen[k[1].id];k=by[tid(link(k[1],true))]){ seen[k[1].id]=1; out.push(k); }
-    }
-    for(i=0;i<els.length;i++) if(!seen[els[i][1].id]) out.push(els[i]);
-    return out;
-  }
   document.addEventListener('keydown', function(ev){
     if(!now||(ev.key!=='ArrowLeft'&&ev.key!=='ArrowRight')||ev.altKey||ev.ctrlKey||ev.metaKey||ev.shiftKey||ev.defaultPrevented) return;
     var tg=ev.target; if(tg&&tg.closest&&tg.closest('input,textarea,select,[contenteditable],canvas,.maplibregl-map,.uplot')) return;
     var top=parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop)||0, fwd=ev.key==='ArrowRight', els=[], i, r, at=null;
     var all=document.querySelectorAll('li[data-threads~="'+now+'"]');
-    for(i=0;i<all.length;i++){ r=all[i].getBoundingClientRect(); if(r.height){ els.push([r.top,all[i]]); if(Math.abs(r.top-top)<3) at=all[i]; } }
+    for(i=0;i<all.length;i++){ r=all[i].getBoundingClientRect(); if(r.height){ els.push([r.top,all[i],els.length]); if(Math.abs(r.top-top)<3) at=all[i]; } }
     if(!els.length) return;
     if(cur&&cur.isConnected&&Math.abs(window.scrollY-curY)<3) at=cur;     // where the last key left it (the page's foot)
-    var a=at&&link(at,fwd), go=null, sq, j;
+    var id=at&&next(at.id,fwd), go=null, sq, j;
     ev.preventDefault();
-    if(a){
-      var id=decodeURIComponent((a.getAttribute('href')||'').split('#')[1]||''); go=document.getElementById(id);
-      a.click();                         // the thread's own order, on this page or the next part
-    } else if(!(at&&at.querySelector('.tnl[data-t="'+now+'"]'))){   // none at the top: the nearest in the thread's order
-      sq=order(els);
+    if(id){
+      go=document.getElementById(id);
+      var h=go?'#'+id:AWAY[id];
+      if(h){ jump.setAttribute('href',h); jump.click(); }   // the thread's own order, on this page or the next part
+    } else if(!(at&&pos(at.id)!==undefined)){   // none at the top: the nearest in the thread's order (a month's undated last)
+      sq=els.slice().sort(function(a,b){ var x=pos(a[1].id), y=pos(b[1].id);   // the lit entries with no line of it last
+        return (x===undefined)-(y===undefined) || (x===undefined ? 0 : x-y) || a[2]-b[2]; });
       if(fwd){ for(j=0;j<sq.length;j++) if(sq[j][0]>top+2){ go=sq[j][1]; break; } }
       else { for(j=sq.length-1;j>=0;j--) if(sq[j][0]<top-2){ go=sq[j][1]; break; } }
       if(go) go.scrollIntoView({block:'start'});

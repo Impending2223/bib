@@ -3943,15 +3943,21 @@ entries:
   - id: cal.1964-09-20.china-leadership
     when: Sept. 20
     date: '1964-09-20'
+    place: jinan
     thread: china-foreign
-    c: Bachir Boumaza, Algeria's Minister of National Economy, visiting China, hands Mao Ben Bella's 本·贝拉 second letter, of Sept. 1.
-    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 383–386 (Sept. 20, 1964; note 1). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). To check: Ben Bella to Mao Zedong, second letter, Sept. 1, 1964, Chinese translation (handed to Mao by Boumaza Sept. 20) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 386 n.1a). Names: Mao Zedong, Boumaza, Ben Bella. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
+    c: Bachir Boumaza, Algeria's Minister of National Economy, visiting China, hands Mao Ben Bella's 本·贝拉 second letter, of Sept. 1.{1} At Jinan 济南, on Mao's special train, the morning of his arrival.{2}
+    n: '[[w.jianguo-yilai-mao-zedong]], XVII, 383–386 (Sept. 20, 1964; note 1); [[w.zedong-mao-zedong-nianpu]], V, Sept. 20, 1964 (晨，到达济南。在专列上会见……阿尔及利亚政府经济代表团; 下午，离开济南). Made public: 2023 ([[w.jianguo-yilai-mao-zedong]], the first open printing). Check: the hour: the nianpu has Mao reach Jinan 晨 and meet the delegation on the train, and leave 下午; the range runs from 5 a.m. to noon. To check: Ben Bella to Mao Zedong, second letter, Sept. 1, 1964, Chinese translation (handed to Mao by Boumaza Sept. 20) (cited by [[w.jianguo-yilai-mao-zedong]], XVII, 386 n.1a). Names: Mao Zedong, Boumaza, Ben Bella. Check: whether the notes of the first edition ([[w.zedong-jianguo-yilai-mao-zedong]], printed for internal circulation) give it.'
     src:
-      c: bc9e11e1
+      c: 09155f62
       rows:
-        - 'w.jianguo-yilai-mao-zedong XVII, 383–386: all'
-        - 'via w.jianguo-yilai-mao-zedong XVII, 386 n.1a: all'
+        - 'w.jianguo-yilai-mao-zedong XVII, 383–386: 1'
+        - 'via w.jianguo-yilai-mao-zedong XVII, 386 n.1a: 1'
+        - 'w.zedong-mao-zedong-nianpu V, Sept. 20, 1964: 2'
     tags: [polity:prc, name:mao-zedong, name:ben-bella-ahmed, polity:algeria, vis:only:prc+algeria, name:boumaza]
+    time_range:
+      - 1964-09-19T21:00Z
+      - 1964-09-20T04:00Z
+    time_zone: Asia/Shanghai
   - id: cal.1964-09-20.vietnam-hanoi
     when: Sept. 20
     date: '1964-09-20'
@@ -4099,21 +4105,18 @@ entries:
   - id: cal.1964-09-21.vietnam-tonkin
     when: Sept. 21
     date: '1964-09-21'
+    time: 1964-09-21T00:25Z
     thread: vietnam-tonkin
     c: 'Sharp to the Joint Chiefs on resuming the patrols: intelligence the military reason; politically "our right to go anyplace we desire on the high seas"; "if they can keep us out of the Gulf of Tonkin what do we do when they try to stop us using the straits of Malacca."'
-    n: '[[w.marolda-united-states-navy-and]], 460. To check: msg, CP 210025Z Sep 1964 (cited by [[w.marolda-united-states-navy-and]], 460 n.57). See [[cal.1964-09-19.vietnam-tonkin]]. Names: Sharp.'
+    n: '[[w.marolda-united-states-navy-and]], 460; [[w.marolda-united-states-navy-and]], 460 n.57 (msg, CP 210025Z Sep 1964: the date-time group). Check: the day: Marolda has Sharp respond "on 21 September" (460), the day of the date-time group 210025Z (460 n.57), which is 00:25 GMT Sept. 21: 2:25 p.m. Sept. 20 at Honolulu, 8:25 p.m. Sept. 20 in Washington; where Sharp sent it from is not given. To check: msg, CP 210025Z Sep 1964 (cited by [[w.marolda-united-states-navy-and]], 460 n.57). See [[cal.1964-09-19.vietnam-tonkin]]. Names: Sharp.'
     src:
       c: 6315de87
       rows:
         - 'w.marolda-united-states-navy-and 460: all'
         - 'via x.1964-09-21.cincpac-to-cjcs-210025z-sep-64: all'
+        - 'w.marolda-united-states-navy-and 460 n.57: time'
     tags: [name:sharp-u-s-grant]
-    time_range:
-      - 1964-09-21T19:00Z
-      - 1964-09-22T03:00Z
-    time_band: workday daytime
     time_zone: Pacific/Honolulu
-    range_basis: kind
   - id: cal.1964-09-21.vietnam-tonkin-2
     when: Sept. 21
     date: '1964-09-21'
@@ -5364,7 +5367,7 @@ entries:
     thread: china-four-cleanups
     also: [china-mao-foreign, china-foreign]
     c: 'Mao, Hall of the People, evening: receives Prince Norodom Sihanouk, Cambodia''s head of state, and Princess;{1} Liu Shaoqi, Wang Guangmei, Dong Biwu and Zhou Enlai present.{2} A country of six million dares to oppose the first imperialist power; the U.S. has no answer. Chiang''s UN seat: in a few years, perhaps ten, the U.S. must expel his delegate, not yet. On a book Mao recommended: Engels, Socialism: Utopian and Scientific; and the Manifesto.{3}'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 27, 1964. [[w.zhou-enlai-waijiao-huodong]], 416 (Sept. 28, 1964; 晚6时; Zhou with Mao, the Great Hall of the People). Made public: 1993. Names: Mao Zedong, Norodom Sihanouk, Liu Shaoqi, Dong Biwu, Zhou Enlai, Wang Guangmei.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Sept. 27, 1964 (晚上，在人民大会堂会见柬埔寨国家元首西哈努克亲王和夫人; 刘少奇和夫人王光美、董必武…在座). [[w.zhou-enlai-waijiao-huodong]], 416 (Sept. 28, 1964; 晚6时; Zhou with Mao, the Great Hall of the People). Made public: 1993. Names: Mao Zedong, Norodom Sihanouk, Liu Shaoqi, Dong Biwu, Zhou Enlai, Wang Guangmei.'
     src:
       c: cc0e8b26
       rows:
@@ -5380,6 +5383,11 @@ entries:
         witness: w.shaoqi-liu-shaoqi-nianpu-chronology
         reads: Mao, with Liu Shaoqi, Dong Biwu and Zhou Enlai, meets Sihanouk on Sept. 28
         at: '605'
+    time_range:
+      - 1964-09-27T11:00Z
+      - 1964-09-27T14:00Z
+    time_band: evening
+    time_zone: Asia/Shanghai
   - id: cal.1964-09-27.china-leadership-2
     when: Sept. 27
     date: '1964-09-27'

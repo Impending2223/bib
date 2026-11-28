@@ -136,8 +136,8 @@ def test_names_entry_footnotes(series):
 def test_names_entry_as_calendar(series):
     """A Names entry's calendar entries as the calendar renders them (lives.py, STYLE 9): in the calendar's day block,
     the day's heading once; the place and time at the right; the note's Names: line, its persons linked; the □ mark;
-    the thread rubric and thread line as on the calendar (the owner, Nov. 22, 2026); no "Cal." pointer, no inline date;
-    his own name not linked in his own entry."""
+    the thread rubric as on the calendar (the owner, Nov. 22, 2026), and no thread line, as on the calendar since Nov.
+    27, 2026 (calsplit.py, STYLE 7); no "Cal." pointer, no inline date; his own name not linked in his own entry."""
     from bib.congress import Pointers
     es = [series.get(i)[2] for i in ("cal.1961-04-01.cuba", "cal.1961-04-01.soviet-union")]
     ptrs = Pointers(series, build.Linker(series))
@@ -148,5 +148,5 @@ def test_names_entry_as_calendar(series):
     assert re.search(r'Names: Schlesinger, <a class="nm" href="[^"]+#kennedy-john-f">Kennedy</a>', got[0]["text"])
     assert permalink.mark("cal.1961-04-01.cuba") in got[0]["text"] and '<li id="schlesinger-arthur-m-jr~cal.1961-04-01.cuba"' in html
     assert "Cal. " not in html and "Apr. 1, 1961:" not in html and 'class="rt"' in html
-    assert 'class="tn' in html and "data-threads" not in html
+    assert 'class="tn"' not in html and 'class="tnl"' not in html and "data-threads" not in html
     assert 'class="lvp"' not in html                       # no pointer's sans in the text ("106 Cong. Rec.")

@@ -39,6 +39,99 @@ export const showDate = (iso) => MONTHS[+iso.slice(5, 7) - 1] + ' ' + +iso.slice
 export const showSpan = (a, b) => (a === b ? showDate(a) : a.slice(0, 7) === b.slice(0, 7) ? showDate(a).slice(0, -6) + '–' + +b.slice(8) + ', ' + b.slice(0, 4) :
   (a.slice(0, 4) === b.slice(0, 4) ? showDate(a).slice(0, -6) : showDate(a)) + '–' + showDate(b));
 
+/* The pin (vnmap.py, STYLE 9): what it reads at a point. A point is [lon, lat]; a distance in km, on the sphere
+   between two points, and on a plane laid at the pin for a line within a few tens of km (the error is far under the
+   lines' own). Polygons and lines are the layers' own GeoJSON; nothing is drawn by this code. */
+const RKM = 6371.0088;
+const RAD = Math.PI / 180;
+export const showLL = ([lon, lat]) => Math.abs(lat).toFixed(3) + '° ' + (lat < 0 ? 'S' : 'N') + ', ' +
+  Math.abs(lon).toFixed(3) + '° ' + (lon < 0 ? 'W' : 'E');
+export const showKm = (d) => (d < 10 ? d.toFixed(1) : Math.round(d).toLocaleString('en-US')) + ' km';
+export function km(a, b) {
+  const s = Math.sin((b[1] - a[1]) * RAD / 2) ** 2 + Math.cos(a[1] * RAD) * Math.cos(b[1] * RAD) * Math.sin((b[0] - a[0]) * RAD / 2) ** 2;
+  return 2 * RKM * Math.asin(Math.min(1, Math.sqrt(s)));
+}
+const BB = new WeakMap();
+function bbox(g) {                        // a geometry's [w, s, e, n], kept
+  let b = BB.get(g);
+  if (b) return b;
+  b = [Infinity, Infinity, -Infinity, -Infinity];
+  const walk = (c) => {
+    if (typeof c[0] === 'number') { b[0] = Math.min(b[0], c[0]); b[1] = Math.min(b[1], c[1]); b[2] = Math.max(b[2], c[0]); b[3] = Math.max(b[3], c[1]); }
+    else c.forEach(walk);
+  };
+  walk(g.coordinates || []);
+  BB.set(g, b);
+  return b;
+}
+function inRing([x, y], r) {
+  let inside = false;
+  for (let i = 0, j = r.length - 1; i < r.length; j = i++) {
+    const [xi, yi] = r[i], [xj, yj] = r[j];
+    if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) inside = !inside;
+  }
+  return inside;
+}
+export function inside(p, g) {            // a point in a Polygon or MultiPolygon, its holes out
+  if (!g || !/Polygon$/.test(g.type)) return false;
+  const b = bbox(g);
+  if (p[0] < b[0] || p[0] > b[2] || p[1] < b[1] || p[1] > b[3]) return false;
+  return (g.type === 'Polygon' ? [g.coordinates] : g.coordinates).some((rs) => inRing(p, rs[0]) && !rs.slice(1).some((h) => inRing(p, h)));
+}
+export function toLine(p, g) {            // km from a point to a LineString or MultiLineString
+  const k = Math.cos(p[1] * RAD);
+  let best = Infinity;
+  for (const l of g.type === 'LineString' ? [g.coordinates] : g.type === 'MultiLineString' ? g.coordinates : []) {
+    for (let i = 0; i < l.length; i++) {
+      const ax = (l[i][0] - p[0]) * k, ay = l[i][1] - p[1];
+      const [bx, by] = i + 1 < l.length ? [(l[i + 1][0] - p[0]) * k, l[i + 1][1] - p[1]] : [ax, ay];
+      const dx = bx - ax, dy = by - ay, L = dx * dx + dy * dy;
+      const t = L ? Math.max(0, Math.min(1, -(ax * dx + ay * dy) / L)) : 0;
+      best = Math.min(best, (ax + t * dx) ** 2 + (ay + t * dy) ** 2);
+    }
+  }
+  return Math.sqrt(best) * RAD * RKM;
+}
+export function nearest(p, feats) {       // the nearest point feature and its distance: [feature, km], or [null, Infinity]
+  let best = null, d = Infinity;
+  for (const f of feats) {
+    const x = km(p, f.geometry.coordinates);
+    if (x < d) { d = x; best = f; }
+  }
+  return [best, d];
+}
+export const within = (p, fc, keep) => ((fc && fc.features) || []).filter((f) => (!keep || keep(f.properties || {})) && inside(p, f.geometry));
+/* a county's line (tools/cnmap/base.py): "zh · kind, end of 1964 · province[, prefecture] · how it is drawn[ · a guess]",
+   or "zh · a later unit (about 1994), shown as it is: why". The panel keeps its characters, its prefecture, and a
+   word on its lines only where they are less sure than the rest: a guess, a city at its later size, a later unit. */
+export function countyOf(line) {
+  const s = String(line || '').split(' · ');
+  if (/^a later unit/.test(s[1] || '')) return {zh: s[0], pref: '', note: 'Name and lines of a later year.'};
+  const how = s.slice(3).join(' · ');
+  return {zh: s[0], pref: ((s[2] || '').split(', ')[1] || '').trim(),
+    note: /a guess/.test(how) ? 'The county here is a guess.' : /^the later city, larger/.test(how) ? "Drawn at the city's later, larger size." : ''};
+}
+/* twelve months' bars (STYLE 9): each month's figure over its bar, the month's initial under it; the bars from the
+   zero line, which stands where the figures cross it (a winter below freezing). The figure as shown (show), the
+   month's in full for a pointer's title and a screen reader (full). */
+const INITIAL = 'JFMAMJJASOND';
+export function bars(v, show, full, label, col) {
+  const lo = Math.min(0, ...v), hi = Math.max(0, ...v), r = hi - lo || 1, z = -lo / r * 100;
+  const pc = (x) => +x.toFixed(2) + '%';
+  return '<div class="vnm-bars" role="img" style="--z:' + pc(100 - z) + (col ? ';--bar:var(--' + col + ')' : '') + '" aria-label="' + esc(label + ': ' + v.map((x, i) => MONTHS[i] + ' ' + full(x)).join(', ')) + '">' +
+    v.map((x, i) => '<span title="' + esc(MONTHS[i] + ' ' + full(x)) + '">' + show(x) + '<i><i style="bottom:' + pc(x < 0 ? z + x / r * 100 : z) +
+      ';height:' + pc(Math.abs(x) / r * 100) + '"></i></i><span class="m">' + INITIAL[i] + '</span></span>').join('') + '</div>';
+}
+const minus = (t) => String(t).replace('-', '−');
+/* the rivers' sizes (sources/indochina/README.md, "Rivers"): HydroRIVERS's by mean flow, SWORD's by width */
+const FLOW = ['5,000 m³/s and over', '1,000–5,000 m³/s', '300–1,000 m³/s', '100–300 m³/s', '30–100 m³/s', '10–30 m³/s', 'under 10 m³/s'];
+const WIDTH = ['900 m wide and over', '400–900 m wide', '200–400 m wide', '100–200 m wide', '50–100 m wide', 'under 50 m wide'];
+const RIVER_KM = 20;                      // a river farther from the pin is not named
+const files = {};                         // a layer's file read for the pin, once a page, whichever figure asked
+const json = (url) => files[url] || (files[url] = fetch(url).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .catch((e) => { delete files[url]; throw e; }));
+const pmt = {}, tiles = {}, tileKeys = [];   // the elevation's and the climate's files and tiles read for the pin, the last eight tiles
+
 let libP = null;
 function lib() {
   if (!libP) {
@@ -222,6 +315,8 @@ class Figure {
     this.atv = {};
     this.box = fig.querySelector('.vnm-box');
     this.pop = fig.querySelector('.vnm-pop');
+    this.pinEl = fig.querySelector('.vnm-pin');   // the pin's panel (STYLE 9)
+    this.pin = null;
     this.key = 'vnm2' + (this.D.map ? '-' + this.D.map : '');   // each map its own choices
     const mode0 = this.D.mode || 'ctz';
     this.st = {mode: mode0, lay: {}, month: 7, popyear: 1960, from: this.D.sp[0], to: this.D.sp[1]};
@@ -306,6 +401,7 @@ class Figure {
       el.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') el.blur(); });
     });
     this.pop.addEventListener('click', (e) => { if (e.target.closest('.x')) this.pop.hidden = true; });
+    if (this.pinEl) this.pinEl.addEventListener('click', (e) => { if (e.target.closest('.x')) this.setPin(null); });
     fig.querySelector('.vnm-list').addEventListener('toggle', () => this.fillList());
   }
 
@@ -361,6 +457,7 @@ class Figure {
       cnt.textContent = (y === 'all' ? 'All years' : y || showSpan(from, to)) + ': ' + E.length + ' placed ' +
         (E.length === 1 ? 'entry' : 'entries') + ', at ' + np + (np === 1 ? ' place.' : ' places.');
     }
+    if (this.pin) this.pinShow();          // the panel's counts are the span's
   }
 
   /* an entry's date, with its year where the span holds more than one; its link, on the page where the page holds it */
@@ -401,6 +498,7 @@ class Figure {
 
   async start(ml, M) {
     this.M = M;
+    this.ml = ml;
     const C = this.C = colors();
     const home = this.homeBounds();
     const map = this.map = new ml.Map({
@@ -437,6 +535,14 @@ class Figure {
       map.once('idle', () => { this.fig.dataset.ready = '1'; });
     });
     map.on('click', (e) => this.tap(e));
+    // a double tap or a double click zooms: the pin its first tap would drop is not dropped, or is taken back
+    const undo = () => {
+      clearTimeout(this.tapT);
+      if (this.pinT && performance.now() - this.pinT < 600) { this.pinT = 0; this.setPin(this.pinWas || null); }
+    };
+    map.on('dblclick', undo);
+    map.on('zoomstart', (e) => { const t = e.originalEvent && e.originalEvent.type; if (t === 'dblclick' || /^touch/.test(t || '')) undo(); });
+    if (this.pin) this.drawPin();         // a map given up and drawn again keeps its pin
     for (const id of ['dots', 'dots-dim', 'cities']) {
       map.on('mouseenter', id, () => { map.getCanvas().style.cursor = 'pointer'; });
       map.on('mouseleave', id, () => { map.getCanvas().style.cursor = ''; });
@@ -463,6 +569,7 @@ class Figure {
     this.view = {center: this.map.getCenter(), zoom: this.map.getZoom()};
     this.map.remove();
     this.map = null;
+    this.marker = null;
     this.ready = false;
     this.loaded = {};
   }
@@ -489,6 +596,7 @@ class Figure {
       m.setPaintProperty(id, 'text-halo-color', C.vland);
     if (m.getLayer('rivers')) m.setPaintProperty('rivers', 'line-color', C.vriv);
     if (m.getLayer('lakes')) m.setPaintProperty('lakes', 'fill-color', C.vlake);
+    if (this.pin) this.drawPin();
     this.apply();
   }
 
@@ -584,8 +692,10 @@ class Figure {
     vis('cities-lab', !!lay.cities);
   }
 
-  /* a tap: the place's entries; else a city's figures; else the rain or the unit under it */
+  /* a tap: the place's entries; else a city's figures; else the pin (STYLE 9) */
   tap(e) {
+    const t = e.originalEvent && e.originalEvent.target;
+    if (t && t.closest && t.closest('.maplibregl-marker')) return;     // the pin's own tap (drawPin)
     const m = this.map, p = e.point, r = 10;
     const box = [[p.x - r, p.y - r], [p.x + r, p.y + r]];
     const live = (ids) => ids.filter((id) => m.getLayer(id) && m.getLayoutProperty(id, 'visibility') !== 'none');
@@ -596,30 +706,249 @@ class Figure {
     }
     const city = m.queryRenderedFeatures(box, {layers: live(['cities'])});
     if (city.length) return this.showCity(city[0].properties);
-    const at = m.queryRenderedFeatures(p, {layers: live(['rain', 'county', 'tint'])});
-    const rain = at.find((f) => f.layer.id === 'rain'), unit = at.find((f) => f.layer.id === 'tint');
-    const county = at.find((f) => f.layer.id === 'county');
-    if (!rain && !unit && !county) { this.pop.hidden = true; return; }
-    let h = '<button type="button" class="x" aria-label="Close">×</button>';
-    if (county) h += '<div><b>' + esc(county.properties.name) + '</b> <span class="m">' + esc(county.properties.line) + '</span></div>';
-    if (unit) h += '<b>' + esc(unit.properties.name) + '</b> <span class="m">' + esc(this.unitLine(unit.properties)) + '</span>';
-    const inU = unit && (this.M.opt || {}).unit ? this.atv[unit.properties.id] || [] : [];
-    if (inU.length) h += ' <span class="m">' + inU.length + (inU.length > 1 ? ' entries' : ' entry') + ' placed in it as a whole</span>' + this.rows(inU);
-    if (rain) {
-      const q = rain.properties, mo = this.st.month;
-      h += '<div>Rain, ' + MONTHS[mo - 1] + ', mean of 1961–1990: ' + q['p' + mo] + ' mm' +
-        (q['t' + mo] != null ? '; mean temperature ' + q['t' + mo] + ' °C' : '') + '.</div>';
-    }
-    this.pop.innerHTML = h;
-    this.pop.hidden = false;
+    clearTimeout(this.tapT);              // a second tap of a double tap zooms: the pin waits for it (start)
+    const ll = [e.lngLat.lng, e.lngLat.lat];
+    this.tapT = setTimeout(() => { this.pop.hidden = true; this.setPin(ll, true); }, 300);
   }
 
-  unitLine(u) {
-    const Z = {I: 'I Corps', II: 'II Corps', III: 'III Corps', IV: 'IV Corps', CMD: 'Capital Military District'};
+  /* the pin (STYLE 9): set, moved or taken away (ll null); drawn as the library's marker */
+  setPin(ll, tapped) {
+    if (tapped) { this.pinWas = this.pin; this.pinT = performance.now(); }
+    this.pin = ll;
+    this.pinN = (this.pinN || 0) + 1;
+    this.drawPin();
+    this.pinShow();
+  }
+  drawPin() {
+    if (this.marker) { this.marker.remove(); this.marker = null; }
+    if (!this.pin || !this.map || !this.ml) return;
+    const mk = this.marker = new this.ml.Marker({color: this.C.ink, anchor: 'bottom'}).setLngLat(this.pin).addTo(this.map);
+    const el = mk.getElement();
+    el.title = 'Take the pin away';
+    el.setAttribute('role', 'button');
+    el.setAttribute('aria-label', 'Take the pin away');
+    el.tabIndex = 0;
+    let down = null;                      // a drag that starts on the pin moves the map, and keeps the pin
+    el.addEventListener('pointerdown', (ev) => { down = [ev.clientX, ev.clientY]; });
+    el.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      if (!down || Math.hypot(ev.clientX - down[0], ev.clientY - down[1]) <= 4) this.setPin(null);
+    });
+    el.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); this.setPin(null); } });
+  }
+
+  /* the panel: what can be written at once, then each layer as its file is read */
+  pinShow() {
+    const el = this.pinEl;
+    if (!el) return;
+    if (!this.pin || !this.M) { el.hidden = true; el.innerHTML = ''; return; }
+    const n = this.pinN, ll = this.pin, R = this.pinR = n === this.pinRn ? this.pinR : {};
+    this.pinRn = n;
+    const draw = () => { if (n === this.pinN) el.innerHTML = this.pinHTML(ll, R); };
+    el.hidden = false;
+    draw();
+    const f = this.M.files, got = (k) => (v) => { R[k] = v; draw(); }, lost = (k) => () => { R[k] = false; draw(); };
+    for (const k of ['admin', 'counties', 'bathy', 'rivers', 'lakes', 'climate', 'pop', 'cities']) {
+      if (f[k] && !(k in R)) json(abs(f[k])).then(got(k), lost(k));
+    }
+    for (const k of ['dem', 'koppen']) if (f[k] && !(k in R)) this.pixel(k, ll).then(got(k), lost(k));
+  }
+
+  /* a raster's pixel at the point, at the tiles' deepest zoom: [r, g, b, a], or null where there is no tile */
+  async pixel(k, ll) {
+    const ml = await lib(), url = abs(this.M.files[k]);
+    const P = pmt[url] || (pmt[url] = new window.pmtiles.PMTiles(url));
+    const z = (await P.getHeader()).maxZoom, n = 2 ** z, c = ml.MercatorCoordinate.fromLngLat(ll);
+    const tx = Math.floor(c.x * n), ty = Math.floor(c.y * n), key = url + '/' + z + '/' + tx + '/' + ty;
+    if (!tiles[key]) {
+      tiles[key] = P.getZxy(z, tx, ty).then(async (t) => {
+        if (!t) return null;
+        const b = await createImageBitmap(new Blob([t.data]), {premultiplyAlpha: 'none', colorSpaceConversion: 'none'});
+        const cv = document.createElement('canvas');
+        cv.width = b.width;
+        cv.height = b.height;
+        const cx = cv.getContext('2d', {willReadFrequently: true});
+        cx.drawImage(b, 0, 0);
+        return cx.getImageData(0, 0, b.width, b.height);
+      });
+      tileKeys.push(key);
+      if (tileKeys.length > 8) delete tiles[tileKeys.shift()];
+    }
+    const d = await tiles[key];
+    if (!d) return null;
+    const px = Math.min(d.width - 1, Math.floor((c.x * n - tx) * d.width)), py = Math.min(d.height - 1, Math.floor((c.y * n - ty) * d.height));
+    const i = (py * d.width + px) * 4;
+    return Array.from(d.data.slice(i, i + 4));
+  }
+
+  /* the panel's lines (STYLE 9): the pin's place, then a line for each layer the map has */
+  pinHTML(ll, R) {
+    const M = this.M, f = M.files, pin = M.pin || {}, pages = pin.pages || {}, L = [];
+    const line = (h) => L.push('<div>' + h + '</div>');
+    const wait = (k) => (R[k] === undefined ? '…' : R[k] === false ? 'could not be read.' : null);
+    const link = (text, href) => (href ? '<a href="' + esc(href) + '">' + esc(text) + '</a>' : esc(text));
+    const entries = (n) => n + (n === 1 ? ' entry' : ' entries');
+    // the nearest place of the gazetteer
+    const [pl, d] = nearest(ll, M.places.features);
+    if (pl) {
+      const q = pl.properties, n = (this.at[q.id] || []).length;
+      line('Nearest place: ' + link(q.name, (pages.p || {})[q.id]) + ', ' + showKm(d) + '. <span class="m">' +
+        (n ? entries(n) + ' placed there' : 'No entry placed there') + (this.yearNow() === 'all' ? '' : ' in these dates') + '.</span>' +
+        (this.D.gz != null ? ' <a class="m" href="' + esc(this.D.gz) + '#pl-' + esc(q.id) + '">In the gazetteer</a>' : ''));
+    }
+    // the borders' file and the counties: "[County], [Prefecture], [Province], [Country]." and the unit's items after
+    // it, in the register's and the site's names, no kind and no date (the owner, Nov. 27, 2026)
+    let sea = null;
+    if (wait('admin')) line(wait('admin'));
+    else {
+      const A = R.admin, here = within(ll, A, (q) => ['land', 'unit', 'disp'].includes(q.k));
+      const unit = here.find((x) => x.properties.k === 'unit'), land = here.find((x) => x.properties.k === 'land');
+      const disp = here.find((x) => x.properties.k === 'disp');
+      sea = !unit && !land && !disp;
+      const names = {};
+      for (const x of A.features) if (x.properties.k === 'lab' && x.properties.l === 'country') names[x.properties.id] = x.properties.name;
+      const cid = unit ? unit.properties.c : land && land.properties.id;
+      const cname = cid ? (pin.names || {})[cid] || names[cid] || (land || unit).properties.name : null;
+      const zh = (t) => (t ? ' <span lang="zh">' + esc(t) + '</span>' : '');   // the Roman's shade (the owner, Nov. 27)
+      const tiers = [], items = [];             // each tier [html, characters]
+      if (f.counties && unit) {
+        const c = wait('counties') ? null : within(ll, R.counties, (q) => q.k === 'county')[0];
+        if (wait('counties')) tiers.push(['…', null]);
+        else if (c) {
+          const k = countyOf(c.properties.line), py = (pin.pref || {})[k.pref];
+          tiers.push([esc(c.properties.name) + zh(k.zh), k.zh]);
+          if (py) tiers.push([esc(py) + zh(k.pref), k.pref]);
+          if (k.note) items.push(k.note);
+        }
+      }
+      if (unit) {
+        const u = unit.properties, uz = (pin.zh || {})[u.id];
+        const nm = cname ? u.name.replace(' (' + cname + ')', '') : u.name;
+        if (nm !== cname) tiers.push([link(nm, (pages.u || {})[u.id]) + zh(uz), uz]);
+        items.push(...this.unitItems(u));
+      }
+      // a tier named as the one above it is that one (a city that is its own prefecture or municipality)
+      const shown = tiers.filter((t, i) => !t[1] || !tiers.slice(i + 1).some((x) => x[1] === t[1]));
+      if (sea) line('At sea.');
+      else {
+        const head = shown.map((t) => t[0]).concat(cid ? [link(cname, (pages.c || {})[cid]) +
+          (unit && unit.properties.name === cname && unit.properties.c === cid && unit.properties.kind && !(pin.names || {})[cid] ? ', ' + esc(unit.properties.kind) : '')] : []);
+        if (disp) items.unshift(esc(disp.properties.name) + ', disputed.');
+        const inU = unit && (M.opt || {}).unit ? this.atv[unit.properties.id] || [] : [];
+        line((head.length ? head.join(', ') + '.' : '') + (items.length ? ' ' + items.join(' ') : '') +
+          (inU.length ? '<details><summary>' + entries(inU.length) + ' placed in it as a whole</summary>' + this.rows(inU) + '</details>' : ''));
+      }
+    }
+    // the elevation's tiles, and the sea's depth
+    let elev = null;
+    if (f.dem) {
+      const v = R.dem;
+      if (wait('dem')) line('Elevation: ' + wait('dem'));
+      else if (!v || v[3] === 0) line('Elevation: <span class="m">no reading here.</span>');
+      else {
+        const e = v[0] * 256 + v[1] + v[2] / 256 - 32768;
+        elev = Math.abs(e + 1) < 0.01 ? null : Math.round(e);   // the sea is -1 m in the tiles; land may lie below 0
+        line(elev == null ? 'Elevation: <span class="m">the sea.</span>' : 'Elevation: about ' + elev.toLocaleString('en-US') + ' m.');
+      }
+    }
+    if (f.bathy && (sea || (R.dem && elev == null))) {
+      if (wait('bathy')) line('Depth of the sea: ' + wait('bathy'));
+      else {
+        const b = within(ll, R.bathy).map((x) => +x.properties.d).sort((a, c) => c - a)[0];
+        const D = (M.depths || []).find((x) => +x.from === b);
+        line('Depth of the sea: ' + (D ? esc(D.label) : M.depths && M.depths.length ? 'under ' + M.depths[0].from + ' m' : 'no reading') + '.');
+      }
+    }
+    // the rivers and lakes
+    if (f.rivers) {
+      if (wait('rivers')) line('Rivers: ' + wait('rivers'));
+      else {
+        let best = null, bd = RIVER_KM, k = RIVER_KM / 111 / Math.max(0.2, Math.cos(ll[1] * RAD));
+        for (const x of R.rivers.features) {
+          const b = bbox(x.geometry);
+          if (ll[0] < b[0] - k || ll[0] > b[2] + k || ll[1] < b[1] - RIVER_KM / 111 || ll[1] > b[3] + RIVER_KM / 111) continue;
+          const dd = toLine(ll, x.geometry);
+          if (dd < bd) { bd = dd; best = x.properties; }
+        }
+        if (!best) line('Rivers: <span class="m">none within ' + RIVER_KM + ' km.</span>');
+        else {
+          const nm = best.name_vi || best.name, sz = +best.size, sw = best.source === 'SWORD';
+          const size = (sw ? WIDTH : FLOW)[sz - 1];
+          line('Rivers: nearest, ' + (nm ? esc(nm) + (best.name_vi && best.name && best.name !== nm ? ' (' + esc(best.name) + ')' : '') : 'unnamed') +
+            ', ' + showKm(bd) + '. <span class="m">' + (size ? (sw ? 'A channel ' : 'A mean flow of ') + size + ' (' + esc(best.source) + ').' : '') + '</span>');
+        }
+      }
+      if (f.lakes) {
+        if (wait('lakes')) line('Lakes: ' + wait('lakes'));
+        else {
+          const k = within(ll, R.lakes)[0];
+          if (!k) line('Lakes: <span class="m">none here.</span>');
+          else {
+            const q = k.properties, dam = q.dam_year ? ', dam of ' + q.dam_year : '';
+            line('Lakes: ' + (q.name ? esc(q.name) : 'unnamed') + ' <span class="m">(' + esc(q.type || 'lake') + dam + ', ' +
+              Math.round(+q.area_km2).toLocaleString('en-US') + ' km²)</span>.');
+          }
+        }
+      }
+    }
+    // the climate's tiles: the class by its colour
+    if (f.koppen) {
+      const v = R.koppen;
+      if (wait('koppen')) line('Climate: ' + wait('koppen'));
+      else if (!v || v[3] === 0) line('Climate: <span class="m">none here.</span>');
+      else {
+        const hex = '#' + v.slice(0, 3).map((x) => x.toString(16).padStart(2, '0')).join('');
+        const c = (pin.koppen || M.koppen || []).find((x) => x.color.toLowerCase() === hex);
+        line('Climate: ' + (c ? esc(c.code + ' ' + c.name) : '<span class="m">a colour the legend does not name (' + hex + ').</span>') + (c ? '.' : ''));
+      }
+    }
+    // the precipitation and the temperature, month by month, as bars (CRU CL 2.0's means of 1961-1990: the page's text)
+    if (f.climate) {
+      if (wait('climate')) line('Precipitation: ' + wait('climate'));
+      else {
+        const c = within(ll, R.climate)[0];
+        if (!c) line('Precipitation: <span class="m">no cell here.</span>');
+        else {
+          const q = c.properties, mo = (pre) => MONTHS.map((_, i) => +q[pre + (i + 1)]);
+          const p = mo('p'), year = p.reduce((a, x) => a + x, 0);
+          line('Precipitation: <span class="m">the year, ' + Math.round(year).toLocaleString('en-US') + ' mm.</span>' +
+            bars(p, (x) => Math.round(x).toLocaleString('en-US'), (x) => x.toLocaleString('en-US') + ' mm', 'Precipitation', 'vriv'));
+          if (q.t1 != null) {
+            const t = mo('t'), mean = t.reduce((a, x) => a + x, 0) / 12;
+            line('Temperature: <span class="m">the year\'s mean, ' + minus(mean.toFixed(1)) + ' °C.</span>' +
+              bars(t, (x) => minus(Math.round(x) || 0), (x) => minus(x) + ' °C', 'Temperature', 'vctr'));
+          }
+        }
+      }
+    }
+    // the population's classes, 1960 and 1970
+    if (f.pop) {
+      if (wait('pop')) line('Population density: ' + wait('pop'));
+      else {
+        const C = M.pop.classes, cls = (i) => (i + 1 < C.length ? C[i].from.toLocaleString('en-US') + '–' + C[i + 1].from.toLocaleString('en-US') : C[i].from.toLocaleString('en-US') + ' and over');
+        const at = within(ll, R.pop), by = M.pop.years.map((y) => [y, at.find((x) => +x.properties.y === y)]);
+        line('Population density: ' + (by.some(([, x]) => x) ? by.map(([y, x]) => y + ', ' + (x ? cls(+x.properties.c) + ' persons a km²' : 'none')).join('; ') + '.' : '<span class="m">no cell here.</span>'));
+      }
+    }
+    // the cities of the Yearbook
+    if (f.cities) {
+      if (wait('cities')) line('Cities: ' + wait('cities'));
+      else {
+        const [c, cd] = nearest(ll, R.cities.features);
+        if (!c) line('Cities: <span class="m">none on the map.</span>');
+        else line('Cities: nearest, ' + esc(c.properties.name) + ', ' + showKm(cd) + '. <span class="m">' + esc(JSON.parse(c.properties.rows)[0].text) + '</span>');
+      }
+    }
+    return '<button type="button" class="x" aria-label="Take the pin away">×</button><b>' + showLL(ll) + '</b>' + L.join('');
+  }
+
+  /* the unit's items after the place line (STYLE 9): the RVN's corps zone and region, the other countries' units
+     drawn by today's lines and their region; none for the map of China's */
+  unitItems(u) {
+    const Z = {I: 'I Corps.', II: 'II Corps.', III: 'III Corps.', IV: 'IV Corps.', CMD: 'Capital Military District.'};
     const O = this.M.opt || {};
-    if (O.unit) return [u.kind, O.unit, u.full && u.full !== u.name ? u.full : ''].filter(Boolean).join(' · ');
-    if (u.c === 'rvn') return ['province of late 1966', Z[u.ctz], u.region].filter(Boolean).join(' · ');
-    return [u.kind === 'province' ? "today's province" : u.kind, u.region].filter(Boolean).join(' · ');
+    if (O.unit) return [];
+    return [u.src === 'today' ? "Today's " + (u.kind || 'unit') + '.' : '', Z[u.ctz] || '', u.region ? u.region + ' region.' : ''].filter(Boolean);
   }
 
   showPlace(q) {

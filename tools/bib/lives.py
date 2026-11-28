@@ -44,8 +44,8 @@ STYLE:
     renderer (build.entry_html: the line, its footnotes, the note with its "Names:" line linked, the place and time at
     the right, dateline.py, the □ mark in the corner), the full width, in the calendar's day blocks (daybook.day_open,
     block_open): the day's heading once over the person's entries of the day; a span's, a month's or a loose date's,
-    its `when` with its year. No "Cal." pointer. The thread rubric, the rules between entries and the thread line with its
-    ⟨⟨ ⟩⟩ as on the calendar, no styling of the page's own (the owner, Nov. 22, 2026, reversing the same day's: "bring
+    its `when` with its year. No "Cal." pointer. The thread rubric and the rules between entries as on the calendar (and, as
+    there, no thread line with its ⟨⟨ ⟩⟩ since Nov. 27, 2026: calsplit.py, STYLE 7), no styling of the page's own (the owner, Nov. 22, 2026, reversing the same day's: "bring
     the entries on the names pages into complete conformity with the calendar pages").
  8. "Nomination hearings" (the owner's request, Nov. 5, 2026), after "Testimony before Congress": the printed
     hearings on the person's nominations, a line each, by the first day held (linked to the calendar's day within its

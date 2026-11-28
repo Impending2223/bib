@@ -24,7 +24,9 @@ STYLE
     a State's: those that took place in it (a `place:` row whose `st` is the State's) and those tagged for it: its
     `state:` tag (its postal code, or its gazetteer key), or the `city:` or `place:` tag of a place in it.
     a province's: those that took place in it (a `place:` key the map of China puts in the province: cnmap.placed's
-    points and units) and those tagged `province:<the unit>`.
+    points and units), those tagged `province:<the unit>`, and those whose line (`c`) names it, in Pinyin or in
+    characters (named_provinces; the owner, Nov. 27, 2026: the provinces the entries name had no "Places:" link; the
+    municipalities, Peking and Shanghai, by place only, since a line's "Peking" is the city).
     a city's: those whose `place:` is the city (a key or an alias of its row) or that carry its `city:` or `place:`
     tag.
  3. The page is a thread's page (threads.py): the same template and styles, the same day headings, year and month
@@ -47,7 +49,13 @@ STYLE
  7. "Places:" (the same ruling): in every calendar entry's citation block, just before "Names:" (else at its end), a
     sentence written by the build, never stored: the nations, States, provinces and cities with a page that the
     entry took place in or concerns (STYLE 2), in that order (the index's: the nations as the register lists them, the
-    others by name), each linked to its page as the names are.
+    others by name), each linked to its page as the names are. Some go by a short name there, their pages keeping the
+    full one (LINE_NAME; the owner, Nov. 27, 2026): South Vietnam, North Vietnam, South Korea, North Korea, and D.C.
+    for Washington, which the line sorts among the States, the federal district being of their rank (LINE_AS; the
+    owner, the same day: "Shouldn't it be 'D.C., Washington' by the logic of the alphabetical sort?"). A place of the
+    United Kingdom is listed by its part, the gazetteer row's `part` (Great Britain,
+    Northern Ireland, a territory abroad), in place of "United Kingdom" and linked to its page; a part that is itself
+    a place listed (Hong Kong) is not written twice (the owner, the same day: "For now, just 'Hong Kong' seems best").
  8. The place tags held to the entry (the owner, Nov. 26, 2026, 9:36 p.m.: "What would minimize error at least
     cost?"; ruling 67; notes/proposals/place-pages.md, "The States' tags"), in `./bib check` (check.entry_problems):
     an error, a tag that names nothing (tag_errors): `state:` not a postal code of the States or D.C. in lower case
@@ -117,6 +125,13 @@ def nations():
     return out
 
 
+LINE_NAME = {                           # the "Places:" line's short names (the owner, Nov. 27, 2026), pages keeping theirs
+    ("nation", "rvn"): "South Vietnam", ("nation", "drv"): "North Vietnam",
+    ("nation", "rok"): "South Korea", ("nation", "dprk"): "North Korea",
+    ("city", "washington"): "D.C.",
+}
+
+
 def short_name(name):
     """A polity's name without its gloss: "China (the People's Republic)" -> "China"; a parenthesis that tells one
     from another kept ("Congo (Brazzaville)", "United Arab Republic (Egypt)")."""
@@ -160,6 +175,38 @@ def tag_row(tag):
     return places.get(k) if ns in ("city", "place") and k else None
 
 
+NAMED_SKIP = {"peking", "shanghai"}       # municipalities: a line's "Peking" is the city, its place's business
+
+
+def _province_patterns():
+    """[(unit id, compiled pattern)]: each PRC province's and region's name of 1966 as the calendar writes it (the
+    map's name, in Pinyin) and in characters (its `made_of` name less 省 or 自治区), the municipalities left out."""
+    from . import cnmap
+    out = []
+    for u in cnmap.units().values():
+        if u.get("c") != "prc" or u["id"] in NAMED_SKIP:
+            continue
+        names = [u["name"]] + [re.sub(r"(省|维吾尔自治区|回族自治区|壮族自治区|自治区)$", "", str(m))
+                                for m in (u.get("made_of") or [])]
+        alts = "|".join(re.escape(n) for n in names if n)
+        out.append((u["id"], re.compile(rf"(?<![A-Za-z])(?:{alts})(?![A-Za-z])")))
+    return out
+
+
+_PATS = None
+
+
+def named_provinces(text):
+    """The PRC provinces and regions a line names (STYLE 2): an entry that names Hebei is about Hebei, wherever it
+    took place."""
+    global _PATS
+    from . import cnmap
+    key = tuple(sorted(cnmap.units()))
+    if _PATS is None or _PATS[0] != key:                # the map's units, read once while they stay the same
+        _PATS = (key, _province_patterns())
+    return {pid for pid, pat in _PATS[1] if pat.search(text)}
+
+
 def where(series, lst, e):
     """What an entry is in (STYLE 2): {"there": {kind: set of slugs}, "tagged": {kind: set of slugs}}, kind one of
     nation, state, province, city; a nation's "tagged" its concern by the register."""
@@ -198,6 +245,7 @@ def where(series, lst, e):
                     tagged["state"].add(str(r["st"]).upper())
         elif ns == "province" and k in prov:
             tagged["province"].add(k)
+    tagged["province"] |= named_provinces(e.get("c") or "")      # the line names it (the owner, Nov. 27, 2026)
     date = vis.iso(e.get("date")) or "1960-01-01"
     addr = vis.address(lst, e, None, date)[0]
     tagged["nation"] = {q for p in addr if not vis.is_org(p) for q in _fold(p)}
@@ -557,12 +605,45 @@ def line(e, series=None):
         _C.update(pos_of=got, pos={k: i for i, k in enumerate(got)})
     pos = _C["pos"]                     # the index's order: the nations as the register lists them, the rest by name
     keys = [(kind, slug) for kind, _ in KINDS for slug in w["there"][kind] | w["tagged"][kind] if (kind, slug) in pos]
-    out = [got[k] for k in sorted(keys, key=pos.get)]
+    out = [got[k] for k in sorted(keys, key=lambda k: _line_order(k, got[k], pos))]
     if not out:
         return ""
-    cities = {pl["name"] for pl in out if pl["kind"] == "city"}
-    names = [f"{pl['name']} State" if pl["kind"] == "state" and pl["name"] in cities else pl["name"] for pl in out]
-    return "Places: " + ", ".join(f'<a href="{pl["page"]}.html">{esc(n)}</a>' for pl, n in zip(out, names)) + "."
+    shown = [(pl, LINE_NAME.get((pl["kind"], pl["slug"]), pl["name"])) for pl in out]
+    cities = {n for pl, n in shown if pl["kind"] == "city"}         # beside D.C., the State is "Washington" (Nov. 27)
+    uk = _uk_parts(e)
+    if uk:                              # the United Kingdom by its parts (the owner, Nov. 27, 2026)
+        listed = {n for _, n in shown}
+        shown = [x for pl, n in shown for x in ([(pl, p) for p in uk if p not in listed]
+                                                if (pl["kind"], pl["slug"]) == ("nation", "uk") else [(pl, n)])]
+    names = [(pl, f"{n} State" if pl["kind"] == "state" and n in cities else n) for pl, n in shown]
+    return "Places: " + ", ".join(f'<a href="{pl["page"]}.html">{esc(n)}</a>' for pl, n in names) + (
+        "" if names[-1][1].endswith(".") else ".")
+
+
+LINE_AS = {("city", "washington"): "state"}   # the federal district goes with the States (the owner, Nov. 27, 2026)
+
+
+def _line_order(key, pl, pos):
+    """The line's order: the nations as the register lists them; then the States (D.C. among them, LINE_AS), the
+    provinces and the cities, each kind by the name the line writes."""
+    kind = LINE_AS.get(key, key[0])
+    if kind == "nation":
+        return (0, pos[key], "")
+    return ([k for k, _ in KINDS].index(kind), 0, store.fold(LINE_NAME.get(key, pl["name"])).lower())
+
+
+def _uk_parts(e):
+    """The parts of the United Kingdom an entry's places and place tags lie in (their gazetteer rows' `part`), in the
+    order first met; [] where none has one."""
+    from . import places
+    rows = [places.get(k) for k in places.keys(e)]
+    rows += [tag_row(str(g)) for g in e.get("tags") or [] if str(g).partition(":")[0] in ("city", "place")]
+    out = []
+    for r in rows:
+        p = (r or {}).get("part")
+        if p and p not in out:
+            out.append(str(p))
+    return out
 
 
 def into_note(note_html, places_html):
