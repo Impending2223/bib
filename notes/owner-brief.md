@@ -1564,3 +1564,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 27, 2026, about 4:05 pm PT (Friday, in the pause; queued).** "Give the \"Places:\" short titles of the RVN and the DRV as \"South Vietnam\" and \"North Vietnam.\""
 
 **Nov. 27, 2026, about 4:06 pm PT (Friday, in the pause; queued).** "Give the \"Places:\" short title of \"Washington, District of Columbia\" as \"D.C.\""
+
+**Nov. 27, 2026, about 4:23 pm PT (Friday, in the pause; queued).** "Can we gazetteer the United Kingdom so as to give entries on the big Island and its waters \"Britain\" or \"Great Britain\" as their parent, separate parents for places in \"Northern Ireland\" and further abroad, and suppress the display of \"United Kingdom\" in their \"Place:\" listing? That is, it's true that \"United Kingdom\" is the appropriate top-level parent for London, Belfast, Gibraltar, Akrotiri and Dhekelia, Saint Helena, Hong Kong, etc., but it nonetheless feels out-of-place to give \"United Kingdom\" beside every entry for \"Hong Kong.\" For now, just \"Hong Kong\" seems best."
