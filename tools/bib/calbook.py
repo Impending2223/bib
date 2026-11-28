@@ -132,30 +132,34 @@ def css_from(page_html):
 
 
 def thread_lines(series):
-    """id -> the entry's thread lines as the pages rendered them before Nov. 27, 2026 ('' where it has none): build.thread_nav,
-    with the entry's own renderer (STYLE 7)."""
-    from . import build
+    """(id, page) -> the entry's thread lines as the pages rendered them before Nov. 27, 2026 ('' where it has none):
+    build.thread_nav, with the calendar pages' own renderer, its quotation marks curled and its links routed to the
+    part that holds each as the page's were (calsplit.route), so that a link to an entry the book lacks goes to its
+    page on the site (STYLE 4, 7)."""
+    from . import build, calsplit
     renderers, cache = {}, {}
 
-    def lines(eid):
+    def lines(eid, page):
         hit = series.get(eid)
-        if not hit or hit[0].kind != "calendar" or eid in cache or not hit[2].get("thread") or "when" not in hit[2]:
-            return cache.get(eid, "")
+        if not hit or hit[0].kind != "calendar" or not hit[2].get("thread") or "when" not in hit[2]:
+            return ""
         lst, sec, e = hit
         if e["id"] != eid:                       # an alias
             return ""
-        if lst.key not in renderers:             # the calendar pages' own (build.list_text_html)
-            renderers[lst.key] = build.list_text_html(series, lst.key)
-        h = build.thread_nav(series, lst, e, (e.get("date") or "")[:4], renderers[lst.key])
-        cache[eid] = smart.smarten(h) if h else ""      # its quotation marks curled, as the pages' are (smart.py)
-        return cache[eid]
+        if eid not in cache:
+            if lst.key not in renderers:         # the calendar pages' own (build.list_text_html)
+                renderers[lst.key] = build.list_text_html(series, lst.key)
+            h = build.thread_nav(series, lst, e, (e.get("date") or "")[:4], renderers[lst.key])
+            cache[eid] = smart.smarten(h) if h else ""      # its quotation marks curled, as the pages' are (smart.py)
+        pages = [p["page"] for p in calsplit.parts(lst)]
+        return calsplit.route(cache[eid], lst, pages.index(page) + 1 if page in pages else None) if cache[eid] else ""
     return lines
 
 
-def put_lines(el, lines):
+def put_lines(el, lines, page):
     """Each entry's thread lines into its box, after its note and To/From line, before its gloss (STYLE 7)."""
     for li in list(el.iter("li")):
-        h = lines(li.get("id") or "")
+        h = lines(li.get("id") or "", page)
         if not h or any(isinstance(c.tag, str) and c.get("class") == "tn" for c in li):   # a page built before: its own
             continue
         tn = clean(LH.fragment_fromstring(h))
@@ -198,7 +202,7 @@ def build(out=OUT, series=None):
             prev = months[i]
         for e, m in zip(els, months):
             clean(e)
-            put_lines(e, lines)
+            put_lines(e, lines, key)
             for x in e.iter():
                 if isinstance(x.tag, str) and x.get("id"):
                     x.set("data-page", key)
