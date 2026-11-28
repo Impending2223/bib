@@ -1221,8 +1221,8 @@ ops:
       time_approx: true
       time_zone: America/New_York
       c: 'Johnson, just before 7 p.m., telephones Clifford to ask him and his wife to Camp David on Saturday: the McNamaras and a few others will be there, a chance to talk privately about Vietnam.'
-      n: '[[w.clifford-counsel-to-the-president-2]], 417 ("Just before 7 p.m., the President called to invite Marny and me to come to Camp David on Saturday"). The time: just before 7 p.m., the
-        clock not named. See [[cal.1965-07-23.vietnam-july-decision]]. Names: Johnson, Clifford, McNamara.'
+      n: '[[w.clifford-counsel-to-the-president-2]], 417 ("Just before 7 p.m., the President called to invite Marny and me to come to Camp David on Saturday"). The time: just before 7 p.m., Washington''s
+        clock. The order: after [[cal.1965-07-23.vietnam-july-decision-4]], Clifford, 416–17 (Ball''s call, then "Just before 7 p.m."). See [[cal.1965-07-23.vietnam-july-decision]]. Names: Johnson, Clifford, McNamara.'
       tags:
       - name:johnson-lyndon-b
       - name:clifford-clark
@@ -1449,10 +1449,11 @@ ops:
       - 1965-07-28T00:30Z
       time_zone: America/New_York
       range_basis: record
-      c: 'The meeting with the congressional leaders. Johnson, reading from a wire service''s advance report of the speech Humphrey is to make that night, rebukes him: by Evans and Novak''s account,
-        a cutting rebuke, a moment or two.'
+      c: 'The White House, the meeting with the congressional leaders. Johnson reads to the group from a wire service''s advance report of the speech Humphrey, not present, is to make that night,
+        and speaks of it disparagingly: by Evans and Novak''s account, a cutting rebuke of his Vice President, a moment or two.'
       n: '[[w.gibbons-u-s-government-and]], III, 431 ("During the meeting with the congressional leaders ... reading to the group from a wire service statement"; the rebuke, from Evans and Novak).
-        The range: the meeting began at 6:30 p.m. (FRUS 1964–68, III, doc. 94), and the President''s meeting with Rusk and others began at 8:30 p.m. "immediately after" it (431). The order: after
+        [FRUS 1964–68, III, doc. 94](https://history.state.gov/historicaldocuments/frus1964-68v03/d94) (the meeting, 6:30 p.m.; those present, Humphrey not among them; not the rebuke). The
+        range: the meeting began at 6:30 p.m. (FRUS, doc. 94), and the President''s meeting with Rusk and others began at 8:30 p.m. "immediately after" it (431). The order: after
         [[cal.1965-07-27.vietnam-july-decision-3]], the meeting it was made at. To check: [[w.evans-lyndon-b-johnson]], 551 (cited by [[w.gibbons-u-s-government-and]], III, 431 n.131). See [[cal.1965-07-27.vietnam-humphrey]].
         Names: Johnson, Humphrey.'
       tags:
@@ -1471,18 +1472,29 @@ ops:
     set:
       time: 1965-07-28T15:05Z
       time_zone: America/New_York
+      c: "The Pentagon, the Defense Department's cost reduction awards.{1} Johnson speaks on the concourse; McNamara, Vance and Wheeler there; seventeen employees honored with certificates of merit.{2}"
       n: 'Remarks at the Department of Defense Cost Reduction Awards Ceremony, [1965 Pub. Papers 790](https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=264) (July
-        28, 1965). The time: the Papers'' note, "11:05 a.m." on the concourse of the Pentagon (790). Names: Johnson.'
+        28, 1965). The time: the Papers'' note, "11:05 a.m." on the concourse of the Pentagon (793). Names: Johnson.'
       src:
-        c: 77b41d1c
+        c: '89659076'
         rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=264: 1'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book2/pdf/PPP-1965-book2.pdf#page=264: 1, 2'
       tags:
       - name:johnson-lyndon-b
     unset:
     - time_range
     - time_band
     - range_basis
+- names:
+    id: cal.1965-07-28.defense
+    add:
+    - McNamara
+    - Vance
+    - Wheeler
+    tags:
+    - name:mcnamara-robert-s
+    - name:vance-cyrus
+    - name:wheeler-earle
 - edit:
     id: cal.1965-04-28.latin-america
     base: b87f9323
