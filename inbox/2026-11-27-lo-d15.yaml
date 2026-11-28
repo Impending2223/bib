@@ -638,13 +638,13 @@ ops:
     base: 2feb636a
     set:
       time_range:
-      - 1965-05-07T14:00Z
+      - 1965-05-07T11:00Z
       - 1965-05-07T16:00Z
-      time_band: night
       time_zone: Asia/Shanghai
       range_basis: record
-      n: '[[w.yang-shangkun-riji]], II, 596 (May 7, 1965). The words: 经王敏清针灸后，牙疼已轻了 (II, 596). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). The range is the late evening: the diary''s
-        sentence on the acupuncture follows "12时才睡" and 晚间, no hour of its own (II, 596). Names: Wang Minqing, Yang Shangkun.'
+      n: '[[w.yang-shangkun-riji]], II, 596 (May 7, 1965). The words: 经王敏清针灸后，牙疼已轻了 (II, 596). The range: the evening to midnight, Peking''s clock; the sentence on the acupuncture
+        has no hour of its own and follows 晚间 and "12时才睡" (II, 596), the order of the diary''s sentences alone. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Wang Minqing,
+        Yang Shangkun.'
 - edit:
     id: cal.1965-05-13.china-leadership-2
     base: 560d968e
@@ -656,7 +656,7 @@ ops:
       time_zone: Asia/Shanghai
       range_basis: record
       n: '[[w.yang-shangkun-riji]], II, 603 (May 13, 1965). The words: 今天王宽才结婚，早饭后看了一下，完全采取新形式，是牛角村的第一次 (II, 603). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). The range is the day:
-        after breakfast and the afternoon hour, the two acts the diary gives (II, 603). Names: Wang Kuancai, Yang Shangkun, An Yumi.'
+        after breakfast and the afternoon hour, the two acts the diary gives (II, 603), Peking''s clock. Names: Wang Kuancai, Yang Shangkun, An Yumi.'
 - add:
     entry:
       id: cal.1965-05-14.china-bomb
@@ -694,25 +694,39 @@ ops:
     base: 6b78a830
     kind: correct
     set:
-      n: '[[w.yang-shangkun-riji]], II, 627–28 (May 30, 1965; the day''s heading and journey, 627; the arrival and the Ningwozhuang, 628). The words: 3点半到达兰州，郭坦同志等来接。下榻在省委招待所"宁卧庄" (II, 628). The
-        page is 628, where the arrival, the guesthouse and the hill are printed; 627 has the heading and the morning. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun,
-        Hu Qiang, Guo Tan, Pei Mengfei, Wang Shitai, Gao Jianjun.'
+      c: "Lanzhou 兰州, 3:30 p.m. Yang Shangkun 杨尚昆, with Hu Sheng 胡绳 on the train, arrives, met by Guo Tan 郭坦, secretary-general of the Gansu 甘肃 committee; Pei Mengfei 裴孟飞, Wang Shitai 王世泰 and Gao Jianjun 高健君, its secretaries (the editors' note), waiting at the Ningwozhuang 宁卧庄 guesthouse."
+      n: '[[w.yang-shangkun-riji]], II, 627–28 (May 30, 1965; Hu Sheng on the train, 627; the arrival, the guesthouse and the editors'' note, 628). The words: 与胡绳同志闲谈一些问题 (II, 627);
+        3点半到达兰州，郭坦同志等来接。下榻在省委招待所"宁卧庄" (II, 628). The diary names Hu Sheng 胡绳 on the train (627), not Hu Qiang. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]).
+        Names: Yang Shangkun, Hu Sheng, Guo Tan, Pei Mengfei, Wang Shitai, Gao Jianjun.'
       src:
-        c: 9f0ae904
+        c: '666246db'
         rows:
         - 'w.yang-shangkun-riji II, 627–28: all'
+      tags:
+      - polity:prc
+      - vis:only:prc
+      - name:gao-jianjun
+      - name:guo-tan
+      - name:hu-sheng
+      - name:pei-mengfei
+      - name:wang-shitai
+      - name:yang-shangkun
 - edit:
     id: cal.1965-05-30.china-leadership-7
     base: b7831a88
     kind: correct
     set:
-      n: '[[w.yang-shangkun-riji]], II, 627–28 (May 30, 1965; the heading and journey, 627; the afternoon at Baita, 628). The words: 稍事休息之后，即与世泰同志一起去黄河北岸的白塔山，俯视了兰州全景，7时才回 (II, 628). The page is
-        628, where the arrival, the guesthouse and the hill are printed; 627 has the heading and the morning. Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang
-        Shitai.'
+      n: '[[w.yang-shangkun-riji]], II, 628 (May 30, 1965). The words: 稍事休息之后，即与世泰同志一起去黄河北岸的白塔山，俯视了兰州全景，7时才回 (II, 628). The page is 628, not 627. The range: from the arrival
+        at 3:30 p.m. to the return at 7, Peking''s clock (628). Made public: 2001 ([[w.shangkun-yang-shangkun-riji-2]]). Names: Yang Shangkun, Wang Shitai.'
+      time_range:
+      - 1965-05-30T07:30Z
+      - 1965-05-30T11:00Z
       src:
         c: 54bd5e11
         rows:
-        - 'w.yang-shangkun-riji II, 627–28: all'
+        - 'w.yang-shangkun-riji II, 628: all'
+    unset:
+    - time_band
 - edit:
     id: cal.1965-06-02.china-leadership-3
     base: d480b4ff
