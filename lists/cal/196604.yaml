@@ -693,7 +693,7 @@ entries:
     place: washington
     thread: vietnam-struggle
     c: 'Johnson with Humphrey, Rusk, McNamara, Rostow, Taylor, William Bundy and Fortas, 7:10 to 8:35 p.m. Westmoreland sees "prospect of success in Danang"; Johnson, McNamara and Rusk do not. Johnson: "appeasement never wins";{1} "rather have someone we can control"; "Ky is gone, the last gasp";{2} "We need a Garcia-Godoy type—with an advisor by his side." McNamara: "We need a Bunker in Vietnam."{3}'
-    n: '[FRUS 1964–68, IV, doc. 112](https://history.state.gov/historicaldocuments/frus1964-68v04/d112) (Valenti''s notes). [[w.gibbons-u-s-government-and]], IV, 279–81; [[w.dallek-flawed-giant]], 360 (the meeting two days later: Johnson "rather have someone we can control... than a communist takeover"; Taylor against "a Tri Quang government"; "Ky is gone, the last gasp. ... Let''s get a government we can appoint and support"; not the hours or who was present); [[w.valenti-very-human-president]], 248 (Valenti''s memorandum of 10:20 p.m. after "tonight''s meeting on Vietnam"; no hour or names). Made public: FRUS 1964–68, IV (1998). See [[cal.1966-04-04.vietnam-struggle]]. Names: Johnson, Humphrey, Rusk, McNamara, Rostow, Taylor, William Bundy, Fortas, Westmoreland, Nguyễn Cao Kỳ.'
+    n: '[FRUS 1964–68, IV, doc. 112](https://history.state.gov/historicaldocuments/frus1964-68v04/d112) (Valenti''s notes). [[w.gibbons-u-s-government-and]], IV, 279–81; [[w.dallek-flawed-giant]], 360 (the meeting two days later: Johnson "rather have someone we can control... than a communist takeover"; Taylor against "a Tri Quang government"; "Ky is gone, the last gasp. ... Let''s get a government we can appoint and support"; not the hours or who was present); [[w.valenti-very-human-president]], 248 (Valenti''s memorandum of 10:20 p.m. after "tonight''s meeting on Vietnam"; no hour or names). Made public: FRUS 1964–68, IV (1998). Names: Johnson, Humphrey, Rusk, McNamara, Rostow, Taylor, William Bundy, Fortas, Westmoreland, Nguyễn Cao Kỳ.'
     src:
       c: 2ee377c9
       rows:
@@ -847,14 +847,14 @@ entries:
     place: kabul
     thread: china-liu
     also: [china-foreign]
-    c: 'Liu Shaoqi leaves Hotan for Afghanistan and reaches Kabul;{1} King Mohammed Zahir Shah and the Queen welcome him. He lays a wreath at the tomb of King Mohammed Nadir Shah. At the welcome banquet the King gives he says: China has always held to developing relations with all countries on the five principles of peaceful coexistence; it will not let others treat it with great-power chauvinism, and does not allow itself to treat others so.{2}'
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 4, 1966); [[w.macfarquhar-origins-of-the-cultural]], III, 456 (Liu flies to Afghanistan); [[w.chen-yi-nianpu]], 1142 (Apr. 4, 1966, morning, Chen Yi goes with Liu and his wife from Hotan to Kabul; in the afternoon present at Liu''s wreath at Nadir Shah''s tomb; in the evening at the King''s and Queen''s state banquet and the reception after it in the hall of the Dilkusha 迪尔库沙 palace). Names: Liu Shaoqi, Zahir Shah.'
+    c: Liu Shaoqi leaves Hotan for Afghanistan and reaches Kabul;{1} King Mohammed Zahir Shah and the Queen welcome him.{2}
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 4, 1966); [[w.macfarquhar-origins-of-the-cultural]], III, 456 (Liu flies to Afghanistan); [[w.chen-yi-nianpu]], 1142 (Apr. 4, 1966, morning, Chen Yi goes with Liu and his wife from Hotan to Kabul). Split under R25b and R17: the Chen Yi nianpu (1142) gives the wreath the afternoon and the banquet the evening; each is now an entry. Names: Liu Shaoqi, Zahir Shah.'
     src:
-      c: acea95ce
+      c: 05e69ef3
       rows:
-        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 635: ?'
         - 'w.macfarquhar-origins-of-the-cultural III, 456: 1'
-        - 'w.chen-yi-nianpu 1142: ?'
+        - 'w.shaoqi-liu-shaoqi-nianpu-chronology II, 635: 1, 2'
+        - 'w.chen-yi-nianpu 1142: 1'
     tags: [polity:prc, polity:afghanistan, name:liu-shaoqi, name:zahir-shah-mohammed]
     time_range:
       - 1966-04-03T22:00Z
@@ -989,6 +989,40 @@ entries:
       rows:
         - 'w.pu-weihua-zalan-jiu-shijie 48: all'
     tags: [polity:prc, vis:only:prc, name:peng-zhen]
+  - id: cal.1966-04-04.china-liu
+    when: Apr. 4
+    date: '1966-04-04'
+    place: kabul
+    thread: china-liu
+    also: [china-foreign]
+    follows:
+      - cal.1966-04-04.china-leadership-11
+    c: Liu Shaoqi lays a wreath at the tomb of King Mohammed Nadir Shah.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 4, 1966); [[w.chen-yi-nianpu]], 1142 (Apr. 4, 1966; in the afternoon, Chen Yi present at Liu''s wreath at the tomb of Nadir Shah 穆罕默德·纳迪尔·沙阿). Made public: 1996. See [[cal.1966-04-04.china-leadership-4]]. The order: after [[cal.1966-04-04.china-leadership-11]], the printed order alone ([[w.chen-yi-nianpu]], 1142). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:afghanistan, name:liu-shaoqi]
+    time_range:
+      - 1966-04-04T07:30Z
+      - 1966-04-04T13:30Z
+    time_band: afternoon
+    time_zone: Asia/Kabul
+    range_basis: record
+  - id: cal.1966-04-04.china-liu-2
+    when: Apr. 4
+    date: '1966-04-04'
+    place: kabul
+    thread: china-liu
+    also: [china-foreign]
+    follows:
+      - cal.1966-04-04.china-liu
+    c: 'Liu Shaoqi at the state banquet the King gives him and his wife, evening: China has always held to developing relations with all countries on the five principles of peaceful coexistence; it will not let others treat it with great-power chauvinism, and does not allow itself to treat others so.'
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 4, 1966); [[w.chen-yi-nianpu]], 1142 (Apr. 4, 1966; in the evening, Chen Yi at the state banquet given by the King and Queen for Liu and his wife, and the reception after it in the hall of the Dilkusha palace). Made public: 1996. See [[cal.1966-04-04.china-leadership-4]]. Names: Liu Shaoqi, Zahir Shah.'
+    tags: [polity:prc, polity:afghanistan, name:liu-shaoqi, name:zahir-shah-mohammed]
+    time_range:
+      - 1966-04-04T14:30Z
+      - 1966-04-04T17:30Z
+    time_band: evening
+    time_zone: Asia/Kabul
+    range_basis: record
   - id: cal.1966-04-05.vietnam-struggle
     when: Apr. 5
     date: '1966-04-05'
@@ -1316,24 +1350,23 @@ entries:
   - id: cal.1966-04-06.vietnam
     when: Apr. 6
     date: '1966-04-06'
+    place: washington
     thread: vietnam-struggle
-    c: 'Johnson with Humphrey, Rusk, McNamara, Rostow, William Bundy and others, fifty minutes, on Đà Nẵng. McNamara: the Struggle Movement may be too strong to throw off; "I don''t want to go to war against them."{1} Rusk''s cable to Lodge that evening: Saigon right to seek an over-all political solution first; no American push for a showdown at Đà Nẵng.{2}'
-    n: 'FRUS 1964–68, IV, doc. [116](https://history.state.gov/historicaldocuments/frus1964-68v04/d116) (the cable). [[w.gibbons-u-s-government-and]], IV, 283–84 (the meeting, by Valenti''s notes); [[w.valenti-very-human-president]], 249 (Valenti''s note of 6:30 p.m. "about the meeting at 5:00 today"; no names or length). To check: Valenti''s notes of the meeting, Apr. 6, 1966 (LBJ Library, Meeting Notes File). See [[cal.1966-03-10.vietnam]]. Names: Johnson, Humphrey, Rusk, McNamara, Rostow, William Bundy, Lodge.'
+    c: 'Johnson with Humphrey, Rusk, McNamara, Rostow, William Bundy and others, fifty minutes, on Đà Nẵng. McNamara: the Struggle Movement may be too strong to throw off; "I don''t want to go to war against them."{1}'
+    n: '[[w.gibbons-u-s-government-and]], IV, 283–84 (the meeting, by Valenti''s notes); [[w.valenti-very-human-president]], 249 (Valenti''s note of 6:30 p.m. "about the meeting at 5:00 today"; no names or length); [[w.gibbons-u-s-government-and]], IV, 283 (5:20 to 6:10 p.m.). To check: Valenti''s notes of the meeting, Apr. 6, 1966 (LBJ Library, Meeting Notes File). See [[cal.1966-03-10.vietnam]]. Split under R25b and R17: telegram 3001 (FRUS, IV, doc. 116) gives the cable its own hour, 7:15 p.m.; it is now an entry. Names: Johnson, Humphrey, Rusk, McNamara, Rostow, William Bundy.'
     src:
-      c: da500ed6
+      c: fe75e10b
       rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d116: 1, 2'
-        - 'w.gibbons-u-s-government-and IV, 283–84: 1, 2'
+        - 'w.gibbons-u-s-government-and IV, 283–84: 1'
         - 'via w.gibbons-u-s-government-and IV, 283 n.53: 1'
-        - 'via w.gibbons-u-s-government-and IV, 284 n.55: 2'
         - 'w.valenti-very-human-president 249: ?'
-    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:rusk-dean, name:mcnamara-robert-s, name:rostow-walt-w, name:bundy-william, name:lodge-henry-cabot]
+        - 'w.gibbons-u-s-government-and IV, 283: time'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:rusk-dean, name:mcnamara-robert-s, name:rostow-walt-w, name:bundy-william]
     time_range:
-      - 1966-04-06T14:00Z
-      - 1966-04-06T22:00Z
-    time_band: workday daytime
+      - 1966-04-06T22:20Z
+      - 1966-04-06T23:10Z
     time_zone: America/New_York
-    range_basis: kind
+    range_basis: record
   - id: cal.1966-04-06.vietnam-struggle-2
     when: Apr. 6
     date: '1966-04-06'
@@ -1518,6 +1551,20 @@ entries:
     c: Zhu De 朱德 at the exhibition of research results of Peking's 北京 universities and colleges again.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1950. See [[cal.1966-03-30.china-leadership-8]]. Names: Zhu De.'
     tags: [polity:prc, ok:fields-place, name:zhu-de]
+  - id: cal.1966-04-06.vietnam-struggle-4
+    when: Apr. 6
+    date: '1966-04-06'
+    time: 1966-04-07T00:15Z
+    place:
+      - washington
+      - saigon
+    thread: vietnam-struggle
+    follows:
+      - cal.1966-04-06.vietnam
+    c: 'Rusk to Lodge, telegram 3001: Saigon is right to seek an over-all political solution first; no American push for a showdown at Đà Nẵng.'
+    n: '[FRUS 1964–68, IV, doc. 116](https://history.state.gov/historicaldocuments/frus1964-68v04/d116) (Washington, Apr. 6, 1966, 7:15 p.m.). [[w.gibbons-u-s-government-and]], IV, 284 (Bundy''s draft, apparently approved by the President). Made public: FRUS 1964–68, IV (1998). See [[cal.1966-04-06.vietnam]]. Names: Rusk, Lodge.'
+    tags: [name:rusk-dean, name:lodge-henry-cabot]
+    time_zone: America/New_York
   - id: cal.1966-04-07.vietnam-struggle
     when: Apr. 7
     date: '1966-04-07'
@@ -1622,8 +1669,8 @@ entries:
     place: kabul
     thread: china-liu
     also: [china-foreign]
-    c: Liu Shaoqi visits the Afghan national museum and speaks at the welcome meeting of the people of Kabul.
-    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 7, 1966); [[w.chen-yi-nianpu]], 1142 (Apr. 7, 1966; Chen Yi with Liu at the national museum; in the afternoon at the Kabul citizens'' rally in the Ghazi stadium 加齐体育场). Names: Liu Shaoqi.'
+    c: Liu Shaoqi visits the Afghan national museum.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 7, 1966); [[w.chen-yi-nianpu]], 1142 (Apr. 7, 1966; Chen Yi with Liu at the national museum). Split under R25b and R17: the Chen Yi nianpu (1142) puts the rally in the afternoon; it is now an entry. Names: Liu Shaoqi.'
     tags: [polity:prc, polity:afghanistan, name:liu-shaoqi]
   - id: cal.1966-04-07.china-leadership-3
     when: Apr. 7
@@ -1705,6 +1752,33 @@ entries:
         - 'w.pu-weihua-zalan-jiu-shijie 52: all'
         - 'via x.1966-05-16.dashiji-liang-tiao-daolu-douzheng-wenhua-zhanxian: all'
     tags: [polity:prc, vis:only:prc, name:lin-mohan]
+  - id: cal.1966-04-07.china-liu
+    when: Apr. 7
+    date: '1966-04-07'
+    place: kabul
+    thread: china-liu
+    also: [china-foreign]
+    follows:
+      - cal.1966-04-07.china-leadership-5
+    c: Liu Shaoqi speaks at the welcome meeting of the people of Kabul, in the Ghazi stadium.
+    n: '[[w.shaoqi-liu-shaoqi-nianpu-chronology]], II, 635 (Apr. 7, 1966; the rally and his speech); [[w.chen-yi-nianpu]], 1142 (Apr. 7, 1966; in the afternoon, Chen Yi at the Kabul citizens'' rally in the Ghazi stadium 加齐体育场 welcoming Liu and his wife). Made public: 1996. See [[cal.1966-04-07.china-leadership-2]]. The order: after [[cal.1966-04-07.china-leadership-5]], the printed order alone ([[w.chen-yi-nianpu]], 1142). Names: Liu Shaoqi.'
+    tags: [polity:prc, polity:afghanistan, name:liu-shaoqi]
+    time_range:
+      - 1966-04-07T07:30Z
+      - 1966-04-07T13:30Z
+    time_band: afternoon
+    time_zone: Asia/Kabul
+    range_basis: record
+  - id: cal.1966-04-07.soviet-union-leadership
+    when: Apr. 7
+    date: '1966-04-07'
+    time: 1966-04-07T06:15Z
+    place: moscow
+    thread: soviet-union-leadership
+    c: Brezhnev is present at the Twenty-third Party Congress's editorial commission, from 9:15.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 118 (Apr. 7, 1966). Made public: 2016. See [[cal.1966-03-29.soviet-union-leadership-2]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr]
+    time_zone: Europe/Moscow
   - id: cal.1966-04-08.medicare
     when: Apr. 8
     date: '1966-04-08'
@@ -1967,6 +2041,18 @@ entries:
     c: Peng Dehuai 彭德怀 back in Chengdu 成都.
     n: '[[w.peng-dehuai-nianpu]], 795. Names: Peng Dehuai.'
     tags: [polity:prc, name:peng-dehuai]
+  - id: cal.1966-04-08.soviet-union-leadership-2
+    when: Apr. 8
+    date: '1966-04-08'
+    time: 1966-04-08T09:00Z
+    place: moscow
+    thread: soviet-union-leadership
+    follows:
+      - cal.1966-04-08.soviet-union-leadership
+    c: The Twenty-third Party Congress's last sitting, 12 to 1:10 p.m., Brezhnev taking part.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 118 (Apr. 8, 1966). Made public: 2016. See [[cal.1966-03-29.soviet-union-leadership-2]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr]
+    time_zone: Europe/Moscow
   - id: cal.1966-04-09.africa
     when: Apr. 9
     date: '1966-04-09'
@@ -2807,17 +2893,17 @@ entries:
     date: '1966-04-14'
     thread: china-may-sixteenth
     also: [china-hai-rui, china-mao-cr]
-    c: 'Mao revises, again and again to month''s end, the Center''s notice withdrawing the Five-Man Group''s Outline, from drafts of Zhou Enlai, Deng Xiaoping and Peng Zhen.{1} On the 14th he sends Jiang Qing two Peking drafts, asks Kang Sheng and Chen Boda to go to Shanghai to discuss them with her, and to report to him at Hangzhou on the night of the 16th or the morning of the 17th;{2} the text becomes the May 16 Circular.{3} The drafting group is Chen Boda head, with Kang Sheng, Jiang Qing, Zhang Chunqiao, Wang Li, Guan Feng, Qi Benyu, Wu Lengxi, Yin Da, Mu Xin and Chen Yading; each draft goes to Hangzhou, is revised by Mao and sent back, seven times from Apr. 14 to the month''s end.{4} His first note that morning, to Zhou, Deng, Peng Zhen and Kang Sheng: "some revisions, please consider." At 8:30 a.m. he writes Jiang Qing; at 9 a.m. Zhou, Deng and Peng Zhen, who may come on the 16th, the regional bureaus to decide whether to send men.{5}'
-    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 14, 17–30, 1966 (the entry "4月14日、17日至月底"). [[w.jianguo-yilai-mao-zedong]], XVIII, 246–253 (Apr. 14, 1966; Mao''s notes of the morning of Apr. 14: to Zhou Enlai, Deng Xiaoping, Peng Zhen and Kang Sheng, "some revisions, please consider"; at 8:30 a.m., sending two copies of the Peking draft for changes, Kang Sheng and Chen Boda to go to Shanghai that day or the next to discuss it and report to him on the night of the 16th; at 9 a.m., to Zhou, Deng and Peng 彭真, their letter of Apr. 12 with its enclosure received, Kang and Chen and the drafting group to go to Shanghai, then to him the night of the 16th or the morning of the 17th, the three to come on the 16th, whether the Center bureaus send men theirs to decide; his insertions, items 5–11 (on no equality between proletariat and bourgeoisie; the bourgeois representatives in Party, government and army, some trusted and groomed as successors "like Khrushchev," sleeping beside us); note 1: the notice adopted May 16 by the enlarged Politburo, printed in *Renmin ribao* May 17, 1967; note 2: Deng then with Mao at Hangzhou); [[w.macfarquhar-origins-of-the-cultural]], III, 458 (Mao revises the condemnation seven times; it goes out as the May 16 notification); [[w.mao-zedong-zhuan]], VI, ch. 74 (the notice drafted by Chen Boda is sent Apr. 14 to Mao at Hangzhou; Mao revises it three times, on the 14th and 17th, and makes small changes in the draft on the 27th; the passages he adds; it becomes the Circular of May 16). [[w.peng-zhen-nianpu-1902]], IV, 481 (Apr. 14, 1966, morning; Mao makes "some changes" in Chen Boda''s draft of the 12th, "to Enlai, Xiaoping, Peng Zhen and Kang Sheng" to weigh); [[w.pu-weihua-zalan-jiu-shijie]], 69 (Mao, not content with a technical notice, wants a political one; Kang Sheng, Chen Boda and the drafting group to go to Shanghai and draft it with Jiang Qing and Zhang Chunqiao; the group, Chen Boda its head, Kang Sheng, Jiang Qing, Zhang Chunqiao, Wang Li, Guan Feng, Qi Benyu, Wu Lengxi, Yin Da, Mu Xin and Chen Yading; each draft sent to Hangzhou, revised by Mao and sent back, seven times from Apr. 14 to the month''s end); [[w.pu-weihua-zalan-jiu-shijie]], 69; [[w.jianguo-yilai-mao-zedong]], XVIII, 246–47. Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: Central Committee, draft notice withdrawing the Five-Man Group''s Outline (draft of Apr. 12, 1966), sent from Peking by Zhou Enlai, Deng Xiaoping and Peng Zhen with their letter of Apr. 12 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 252 n.2); [[w.jin-1949-1989-niande-zhongguo]], 623–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 458 n.154). See [[cal.1966-02-12.china-leadership-2]]. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Jiang Qing, Kang Sheng, Chen Boda, Zhang Chunqiao, Wang Li, Guan Feng, Qi Benyu, Wu Lengxi, Yin Da, Mu Xin, Chen Yading.'
+    c: 'Mao revises, again and again to month''s end, the Center''s notice withdrawing the Five-Man Group''s Outline, from drafts of Zhou Enlai, Deng Xiaoping and Peng Zhen.{1} The text becomes the May 16 Circular.{3} The drafting group is Chen Boda head, with Kang Sheng, Jiang Qing, Zhang Chunqiao, Wang Li, Guan Feng, Qi Benyu, Wu Lengxi, Yin Da, Mu Xin and Chen Yading; each draft goes to Hangzhou, is revised by Mao and sent back, seven times from Apr. 14 to the month''s end.{4} His first note that morning, to Zhou, Deng, Peng Zhen and Kang Sheng: "some revisions, please consider."{5}'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 14, 17–30, 1966 (the entry "4月14日、17日至月底"). [[w.jianguo-yilai-mao-zedong]], XVIII, 246–253 (Apr. 14, 1966; Mao''s notes of the morning of Apr. 14: to Zhou Enlai, Deng Xiaoping, Peng Zhen and Kang Sheng, "some revisions, please consider"; at 9 a.m., to Zhou, Deng and Peng 彭真, their letter of Apr. 12 with its enclosure received, Kang and Chen and the drafting group to go to Shanghai, then to him the night of the 16th or the morning of the 17th, the three to come on the 16th, whether the Center bureaus send men theirs to decide; his insertions, items 5–11 (on no equality between proletariat and bourgeoisie; the bourgeois representatives in Party, government and army, some trusted and groomed as successors "like Khrushchev," sleeping beside us); note 1: the notice adopted May 16 by the enlarged Politburo, printed in *Renmin ribao* May 17, 1967; note 2: Deng then with Mao at Hangzhou); [[w.macfarquhar-origins-of-the-cultural]], III, 458 (Mao revises the condemnation seven times; it goes out as the May 16 notification); [[w.mao-zedong-zhuan]], VI, ch. 74 (the notice drafted by Chen Boda is sent Apr. 14 to Mao at Hangzhou; Mao revises it three times, on the 14th and 17th, and makes small changes in the draft on the 27th; the passages he adds; it becomes the Circular of May 16). [[w.peng-zhen-nianpu-1902]], IV, 481 (Apr. 14, 1966, morning; Mao makes "some changes" in Chen Boda''s draft of the 12th, "to Enlai, Xiaoping, Peng Zhen and Kang Sheng" to weigh); [[w.pu-weihua-zalan-jiu-shijie]], 69 (Mao, not content with a technical notice, wants a political one; Kang Sheng, Chen Boda and the drafting group to go to Shanghai and draft it with Jiang Qing and Zhang Chunqiao; the group, Chen Boda its head, Kang Sheng, Jiang Qing, Zhang Chunqiao, Wang Li, Guan Feng, Qi Benyu, Wu Lengxi, Yin Da, Mu Xin and Chen Yading; each draft sent to Hangzhou, revised by Mao and sent back, seven times from Apr. 14 to the month''s end); [[w.pu-weihua-zalan-jiu-shijie]], 69; [[w.jianguo-yilai-mao-zedong]], XVIII, 246–47. Made public: 1989 ([[w.jin-1949-1989-niande-zhongguo]]). To check: Central Committee, draft notice withdrawing the Five-Man Group''s Outline (draft of Apr. 12, 1966), sent from Peking by Zhou Enlai, Deng Xiaoping and Peng Zhen with their letter of Apr. 12 (cited by [[w.jianguo-yilai-mao-zedong]], XVIII, 252 n.2); [[w.jin-1949-1989-niande-zhongguo]], 623–5 (cited by [[w.macfarquhar-origins-of-the-cultural]], III, 458 n.154). See [[cal.1966-02-12.china-leadership-2]]. Split under R25b and R17: the Mao nianpu (V, Apr. 14) gives the note to Jiang Qing its own hour, 8:30 a.m.; it is now an entry, and the letter of 9 a.m. is another. Names: Mao Zedong, Zhou Enlai, Deng Xiaoping, Peng Zhen, Jiang Qing, Kang Sheng, Chen Boda, Zhang Chunqiao, Wang Li, Guan Feng, Qi Benyu, Wu Lengxi, Yin Da, Mu Xin, Chen Yading.'
     src:
-      c: 442ceed1
+      c: 1c7d9c45
       rows:
         - 'w.zedong-mao-zedong-nianpu V, Apr. 14, 17–30, 1966: ?'
-        - 'w.jianguo-yilai-mao-zedong XVIII, 246–253: 1, 2'
-        - 'via w.jianguo-yilai-mao-zedong XVIII, 251 n.1a: 1, 2, 3'
-        - 'via w.jianguo-yilai-mao-zedong XVIII, 252 n.1b: 1, 2, 3'
-        - 'via w.jianguo-yilai-mao-zedong XVIII, 252 n.2: 1, 2, 3'
-        - 'via w.jianguo-yilai-mao-zedong XVIII, 253 n.6: 1, 2, 3'
+        - 'w.jianguo-yilai-mao-zedong XVIII, 246–253: 1'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 251 n.1a: 1, 3'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 252 n.1b: 1, 3'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 252 n.2: 1, 3'
+        - 'via w.jianguo-yilai-mao-zedong XVIII, 253 n.6: 1, 3'
         - 'w.macfarquhar-origins-of-the-cultural III, 458: 1, 3'
         - 'via w.macfarquhar-origins-of-the-cultural III, 458 n.154: 1, 3'
         - 'w.mao-zedong-zhuan VI, ch. 74: 3'
@@ -2966,6 +3052,19 @@ entries:
     n: '[[w.van-kien-dang-toan]], XXVII, 118 (the Secretariat''s cable no. 36: "lúc 6 giờ 27 phút, hai máy bay địch"). Made public: 2003. See [[cal.1966-04-14.vietnam-hanoi-2]].'
     tags: [polity:drv, vis:only:drv]
     time_zone: Asia/Bangkok
+  - id: cal.1966-04-14.china-may-sixteenth
+    when: Apr. 14
+    date: '1966-04-14'
+    time: 1966-04-14T00:30Z
+    place: hangzhou
+    thread: china-may-sixteenth
+    also: [china-mao-cr]
+    follows:
+      - cal.1966-04-14.china-leadership-2
+    c: 'Mao 毛泽东, at 8:30 a.m., writes from Hangzhou 杭州 to Jiang Qing 江青: two copies of the Peking draft sent for her changes; Kang Sheng 康生 and Chen Boda 陈伯达 to go to Shanghai that day or the next to discuss it with her, then to report to him on the night of the 16th.'
+    n: '[[w.zedong-mao-zedong-nianpu]], V, Apr. 14, 1966 (上午八时半批示); [[w.jianguo-yilai-mao-zedong]], XVIII, 246–253 (at 8:30 a.m., sending two copies of the Peking draft for changes, Kang Sheng and Chen Boda to go to Shanghai that day or the next to discuss it and report to him on the night of the 16th). Made public: 2013. See [[cal.1966-04-14.china-leadership-2]]. The order: after [[cal.1966-04-14.china-leadership-2]], the printed order alone ([[w.zedong-mao-zedong-nianpu]], V, Apr. 14, 1966). Names: Mao Zedong, Jiang Qing, Kang Sheng, Chen Boda.'
+    tags: [polity:prc, vis:only:prc, name:mao-zedong, name:jiang-qing, name:kang-sheng, name:chen-boda]
+    time_zone: Asia/Shanghai
   - id: cal.1966-04-15.opinion
     when: Apr. 15
     date: '1966-04-15'
@@ -3361,6 +3460,40 @@ entries:
     c: Peking 北京. Zhu De 朱德 meets Vasil Nathanaili 瓦西里·纳塔奈利, Albania's 阿尔巴尼亚 new Ambassador to China.
     n: '[[w.zhu-de-nianpu-xinbian]], III, 1951. Names: Zhu De.'
     tags: [polity:prc, polity:albania, name:zhu-de]
+  - id: cal.1966-04-16.china-may-sixteenth
+    when: Apr. 16
+    date: '1966-04-16'
+    time: 1966-04-16T10:00Z
+    thread: china-may-sixteenth
+    also: [china-zhou-cr]
+    follows:
+      - cal.1966-04-16.china-leadership-7
+    c: Deng Xiaoping 邓小平 talks with Zhou Enlai 周恩来, 6 p.m.
+    n: '[[w.deng-xiaoping-nianpu-1904]], III, 1909 (Apr. 16, 1966; 下午六时, 同周恩来谈话; after the flight to Shanghai and on to Hangzhou, the place of the talk not given). Made public: 2009. See [[cal.1966-04-16.china-leadership-3]]. Names: Deng Xiaoping, Zhou Enlai.'
+    tags: [polity:prc, vis:only:prc, name:deng-xiaoping, name:zhou-enlai]
+    time_zone: Asia/Shanghai
+  - id: cal.1966-04-19.china-leadership
+    when: Apr. 16
+    date: '1966-04-16'
+    place: hangzhou
+    thread: china-may-sixteenth
+    c: Hangzhou.{1} Peng Zhen, ordered to attend the enlarged Standing Committee meeting, asks for a twenty-minute private audience with Mao.{2} Mao refuses.{3}
+    n: '[[w.macfarquhar-maos-last-revolution]], 33–34; [[w.yang-jisheng-tiandi-fanfu]], I, 126 (at Hangzhou Peng asks Mao''s secretary Xu Yefu 徐業夫 for a meeting of twenty minutes; Mao will not see him; the day not given); [[w.peng-zhen-nianpu-1902]], IV, 482 (Apr. 16, 1966; on reaching Hangzhou Peng Zhen asks, through Mao''s secretary Xu Yefu 徐业夫, to see Mao for only twenty minutes; no reply); [[w.pu-weihua-zalan-jiu-shijie]], 70 (Peng asks Mao''s secretary Xu Yefu for a meeting, "only twenty minutes"; Mao takes no notice; the day not given). Made public: 2006. The Peng Zhen chronology dates the request Apr. 16, on his reaching Hangzhou ([[w.peng-zhen-nianpu-1902]], IV, 482, read: the item of Apr. 16 that records his arrival with Zhou, Deng and the bureau heads); MacFarquhar''s Apr. 19 (33) is the day he gives for Mao''s calling the meeting, which the Mao nianpu (V) and the Deng nianpu (III, 1909) date Apr. 16. To check: [[w.huang-factionalism-in-chinese-communist]], 279–280 (cited by [[w.macfarquhar-maos-last-revolution]], 34 n.6a); [[w.huang-factionalism-in-chinese-communist]], 86, 129, 143–146 (cited by [[w.macfarquhar-maos-last-revolution]], 34 n.6b); Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首「文革」》 (Zhonggong dangshi chubanshe 中共黨史出版社), 594–596 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 126 n.47). Names: Peng Zhen, Mao Zedong.'
+    src:
+      c: 7a203344
+      rows:
+        - 'w.macfarquhar-maos-last-revolution 33–34: 1, 2, 3'
+        - 'w.yang-jisheng-tiandi-fanfu I, 126: 3'
+        - 'via w.yang-jisheng-tiandi-fanfu I, 126 n.47: 3'
+        - 'w.peng-zhen-nianpu-1902 IV, 482: ?'
+        - 'w.pu-weihua-zalan-jiu-shijie 70: 2, 3'
+    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
+    variants:
+      - field: date
+        value: '1966-04-19'
+        witness: w.macfarquhar-maos-last-revolution
+        reads: Mao calls the enlarged meeting Apr. 19, and Peng asks "upon arrival"
+        at: 33–34
   - id: cal.1966-04-17.opinion
     when: Apr. 17
     date: '1966-04-17'
@@ -3743,27 +3876,6 @@ entries:
     c: The White House. Mrs. Johnson's tea for 3,600 Democratic women in Washington for a three-day conference and workshop, in three waves, the first of about 1,200 at 2 p.m. Johnson comes in; they rush him, kissing his face and hand. Photograph of the women on the steps and porch. In the crush an antique lamp in the Red Room and a bust of Henry Clay topple.
     n: '[[w.johnson-white-house-diary]], 383–85 (Lady Bird Johnson''s account). Dorothy McCardle and the United Press are quoted by Mrs. Johnson. Names: Lady Bird Johnson, Johnson.'
     tags: [name:johnson-lady-bird, name:johnson-lyndon-b]
-  - id: cal.1966-04-19.china-leadership
-    when: Apr. 19
-    date: '1966-04-19'
-    place: hangzhou
-    thread: china-may-sixteenth
-    c: Hangzhou.{1} Peng Zhen, ordered to attend the enlarged Standing Committee meeting, asks for a twenty-minute private audience with Mao.{2} Mao refuses.{3}
-    n: '[[w.macfarquhar-maos-last-revolution]], 33–34; [[w.yang-jisheng-tiandi-fanfu]], I, 126 (at Hangzhou Peng asks Mao''s secretary Xu Yefu 徐業夫 for a meeting of twenty minutes; Mao will not see him; the day not given); [[w.peng-zhen-nianpu-1902]], IV, 482 (Apr. 16, 1966; on reaching Hangzhou Peng Zhen asks, through Mao''s secretary Xu Yefu 徐业夫, to see Mao for only twenty minutes; no reply); [[w.pu-weihua-zalan-jiu-shijie]], 70 (Peng asks Mao''s secretary Xu Yefu for a meeting, "only twenty minutes"; Mao takes no notice; the day not given). Made public: 2006. To check: [[w.huang-factionalism-in-chinese-communist]], 279–280 (cited by [[w.macfarquhar-maos-last-revolution]], 34 n.6a); [[w.huang-factionalism-in-chinese-communist]], 86, 129, 143–146 (cited by [[w.macfarquhar-maos-last-revolution]], 34 n.6b); Li Xuefeng 李雪峰, 〈我所知道的文革發動內情〉, in Zhang Hua et al., eds., *Huishou wenge* 《回首「文革」》 (Zhonggong dangshi chubanshe 中共黨史出版社), 594–596 (cited by [[w.yang-jisheng-tiandi-fanfu]], I, 126 n.47). Names: Peng Zhen, Mao Zedong.'
-    src:
-      c: 7a203344
-      rows:
-        - 'w.macfarquhar-maos-last-revolution 33–34: 1, 2, 3'
-        - 'w.yang-jisheng-tiandi-fanfu I, 126: 3'
-        - 'via w.yang-jisheng-tiandi-fanfu I, 126 n.47: 3'
-        - 'w.peng-zhen-nianpu-1902 IV, 482: ?'
-        - 'w.pu-weihua-zalan-jiu-shijie 70: 2, 3'
-    tags: [polity:prc, name:peng-zhen, name:mao-zedong, vis:only:prc]
-    variants:
-      - unit: '2'
-        witness: w.peng-zhen-nianpu-1902
-        reads: the request made on reaching Hangzhou, Apr. 16 ("到杭州后")
-        at: IV, 482
   - id: cal.1966-04-19.china
     when: Apr. 19
     date: '1966-04-19'
