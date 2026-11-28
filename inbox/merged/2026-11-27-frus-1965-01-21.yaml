@@ -106,7 +106,7 @@ ops:
     add:
     - Sparkman
     tags:
-    - name:sparkman-john-j
+    - name:sparkman-john
 - check:
     id: cal.1965-01-15.vietnam-congress
     text: 'Check: Gibbons (III, 38–39) gives Fulbright''s exchange with Rusk after both sessions, Jan. 8 and 15, its note 99 the transcript of Jan. 15, and Sparkman''s question to Jan. 15; Mann (390) has Fulbright''s "reasonable thing to expect" at the first session, and the next week Rusk''s words on strikes and consultation.'
@@ -147,6 +147,7 @@ ops:
       - name:beech-keyes
       - name:taylor-maxwell
       - name:johnson-lyndon-b
+      - ok:fields-place
 - add:
     entry:
       id: cal.1964-12.vietnam-11
@@ -161,10 +162,6 @@ ops:
       tags:
       - name:taylor-maxwell
       - name:beech-keyes
-- follows:
-    id: cal.1964-12.vietnam-11
-    add:
-    - cal.1964-12.vietnam-7
 - add:
     entry:
       id: cal.1965-01-16.vietnam-operations
@@ -200,6 +197,7 @@ ops:
       - name:johnson-u-alexis
       - name:thich-tri-quang
       - name:tran-van-huong
+      - ok:name-untagged
 - add:
     entry:
       id: cal.1965-01-18.vietnam
@@ -273,8 +271,10 @@ ops:
       when: Dec. 9
       date: '1961-12-09'
       thread: vietnam-diplomacy
-      c: 'Saigon to the International Control Commission: the increased U.S. military aid it has asked, for the "flagrant violations of the 1954 Agreement" by the DRV, "can be terminated" once Hanoi ends its aggression and respects the Geneva Accords.'
+      c: 'The South Vietnamese government to the International Control Commission: the increased U.S. military aid it has asked, for the "flagrant violations of the 1954 Agreement" by the DRV, "can be terminated" once the North ends its aggression and respects the Geneva Accords.'
       n: '[FRUS 1964–68, II, doc. 32](https://history.state.gov/historicaldocuments/frus1964-68v02/d32) (Taylor, Jan. 22, 1965: "the GVN letter of December 9, 1961 to the ICC"). To check: the letter''s text.'
+      tags:
+      - ok:fields-place
 - add:
     entry:
       id: cal.1965-01-21.vietnam-2
@@ -327,3 +327,7 @@ ops:
       - name:monroney-almer-s
       - name:saltonstall-leverett
       - name:scott-hugh-d-jr
+- follows:
+    id: cal.1965-01-15.vietnam-congress
+    add:
+    - cal.1965-01-15.vietnam-congress-2

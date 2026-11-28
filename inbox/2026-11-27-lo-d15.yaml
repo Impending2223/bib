@@ -529,7 +529,7 @@ ops:
     set:
       c: Zhou, a short stop at Karachi airport in the morning, reaches Bucharest at 5 p.m.; Ceaușescu 齐奥塞斯库, Maurer 毛雷尔 and other Party and state leaders meet him at the airport.{1}
       n: '[[w.zhou-enlai-nianpu-1949]], II, 720 (Mar. 23, 1965; 上午，在巴基斯坦卡拉奇机场作短暂停留; 下午，飞抵布加勒斯特). [[w.zhou-enlai-waijiao-huodong]], 442 (Mar. 23, 1965; 下午5时，到达布加勒斯特, met at the airport by Ceaușescu
-        (齐奥塞斯库), Maurer (毛雷尔) and other Party and state leaders). The time: 5 p.m., Bucharest''s clock, the book not saying whose. The arrival is dated by the Waijiao huodong (442). Names: Zhou
+        (齐奥塞斯库), Maurer (毛雷尔) and other Party and state leaders). The time: 5 p.m., Bucharest''s clock (442). The arrival is dated by the Waijiao huodong (442). Names: Zhou
         Enlai, Ceaușescu, Maurer.'
       place:
       - karachi
@@ -563,7 +563,7 @@ ops:
       c: Bucharest, the Republic Palace 共和国宫. Zhou, at 8:30 p.m., lays a wreath before Gheorghiu-Dej's body and, with Xie Fuzhi 谢富治, Zhang Hanfu 章汉夫, Zhao Yimin 赵毅敏, Liu Fang 刘放 and Luo Qingchang
         罗青长, keeps vigil beside it.
       n: '[[w.zhou-enlai-nianpu-1949]], II, 720 (Mar. 23, 1965; 晚，...在共和国宫乔治乌—德治灵前献花圈，并和谢富治、章汉夫、赵毅敏、刘放、罗青长在遗体两旁守灵). [[w.zhou-enlai-waijiao-huodong]], 442 (Mar. 23, 1965; 晚8时30分，前往国家宫乔治乌—德治同志灵前献花圈;
-        the book''s State Palace, the nianpu''s Republic Palace). The time: 8:30 p.m., Bucharest''s clock, the book not saying whose. The order: after [[cal.1965-03-23.china-leadership-2]], the
+        the book''s State Palace, the nianpu''s Republic Palace). The time: 8:30 p.m., Bucharest''s clock (442). The order: after [[cal.1965-03-23.china-leadership-2]], the
         condolence call at 8 p.m. (the Waijiao huodong, 442: 晚8时, then 晚8时30分). See [[cal.1965-03-23.china-leadership]]. Names: Zhou Enlai, Xie Fuzhi, Zhang Hanfu, Zhao Yimin, Liu Fang, Luo Qingchang,
         Gheorghiu-Dej.'
       tags:
@@ -730,79 +730,145 @@ ops:
 - edit:
     id: cal.1965-06-02.china-leadership-3
     base: d480b4ff
+    kind: correct
     set:
       time: 1965-06-02T03:00Z
       time_zone: Asia/Karachi
-- check:
-    id: cal.1965-06-02.china-leadership-3
-    text: 'Check: the book does not say whose clock; taken as local.'
+      c: 'Zhou lands at Rawalpindi at 8 a.m., met by Ayub Khan;{1} written statement at the airport: friendship has grown markedly in recent years, cooperation is fruitful, a positive factor
+        in the international situation.{2}'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 734 (June 2, 1965; the arrival and the statement); [[w.zhou-enlai-waijiao-huodong]], 459 (June 2, 1965; 8 a.m., Rawalpindi, welcomed by Ayub Khan);
+        [[w.zhonghua-renmin-gongheguo-waijiao]], 31 (June 2–3, 1965; the stopover in Pakistan). The time: 8 a.m., Rawalpindi''s clock (459). The talks with Ayub Khan the same day are [[cal.1965-06-02.china-leadership-15]];
+        no page read gives talks the next day. Made public: 1993. Names: Zhou Enlai, Ayub Khan.'
+      src:
+        c: '4652fedc'
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 734: 1, 2'
+        - 'w.zhou-enlai-waijiao-huodong 459: 1'
+        - 'w.zhonghua-renmin-gongheguo-waijiao 31: 1'
+- add:
+    entry:
+      id: cal.1965-06-02.china-leadership-15
+      when: June 2
+      date: '1965-06-02'
+      place: rawalpindi
+      thread: china-zhou-foreign
+      also:
+      - south-asia
+      - china-foreign
+      time: 1965-06-02T04:30Z
+      time_zone: Asia/Karachi
+      c: Rawalpindi, the President's house, 9:30 a.m. Zhou in talks with Ayub Khan, continued that afternoon.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 459 (June 2, 1965; 上午9时30分，在总统府同阿尤布·汗总统会谈; 下午，和阿尤布·汗总统继续会谈; the book gives no content); [[w.zhou-enlai-nianpu-1949]],
+        II, 734–35 (当日，与阿尤布·汗举行会谈); [[w.zhonghua-renmin-gongheguo-waijiao]], 31 (June 2–3, 1965; the talks). The time: 9:30 a.m., Rawalpindi''s clock (459); the time is the first
+        session''s. See [[cal.1965-06-02.china-leadership-3]]. Names: Zhou Enlai, Ayub Khan.'
+      tags:
+      - name:zhou-enlai
+      - name:ayub-khan-mohammad
+      - polity:prc
+      - polity:pakistan
+      - vis:only:prc+pakistan
 - edit:
     id: cal.1965-06-20.china-leadership
     base: aa93fd32
+    kind: correct
     set:
       time: 1965-06-20T08:00Z
       time_zone: Africa/Cairo
-- check:
-    id: cal.1965-06-20.china-leadership
-    text: 'Check: the book does not say whose clock; taken as local.'
+      c: 'Zhou, first talk with Nasser, at his residence in Cairo, Chen Yi with him: both agree to take no stand on whether the second Asian-African conference can meet on time until they have
+        consulted each other and others.{1}'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 738 (June 20, 1965); [[w.zhou-enlai-waijiao-huodong]], 463 (June 20, 1965; 11 a.m., Nasser''s residence in Cairo, the first talks, Nasser raising the
+        Algerian "June 19 affair" and whether the conference can meet on time); [[w.friedman-shadow-cold-war]], 133 (Zhou sent to Cairo in June: Nasser has forty days'' food; Moscow, twelve days
+        before, demanded in a note his public support for Soviet attendance at the conference; he will support it, not "actively"; Zhou: "maintain principled struggle until the end"); [[w.chen-yi-nianpu]],
+        1103 (June 20, 1965; Chen Yi with Zhou calls on Nasser at the presidential palace and talks). The time: 11 a.m., Cairo''s clock (463). The state banquet that evening is [[cal.1965-06-20.china-leadership-7]].
+        Made public: 1993. To check: PRC ambassador in UAR to MFA, June 22, 1965, CFMA doc. 109-03645-01, 17 (cited by [[w.friedman-shadow-cold-war]], 133 n.148). Names: Zhou Enlai, Nasser, Chen
+        Yi.'
+      src:
+        c: '2dc6860d'
+        rows:
+        - 'w.zhou-enlai-nianpu-1949 II, 738: 1'
+        - 'w.zhou-enlai-waijiao-huodong 463: 1'
+        - 'w.friedman-shadow-cold-war 133: ?'
+        - 'via x.1965-06-22.prc-ambassador-uar-mfa-june-22-1965: ?'
+        - 'w.chen-yi-nianpu 1103: 1'
+      tags:
+      - name:zhou-enlai
+      - name:nasser-gamal-abdel
+      - name:chen-yi
+      - polity:prc
+      - polity:uar
+      - vis:only:prc+uar
+- add:
+    entry:
+      id: cal.1965-06-20.china-leadership-7
+      when: June 20
+      date: '1965-06-20'
+      place: cairo
+      thread: china-afro-asian
+      also:
+      - africa
+      - middle-east
+      - china-zhou-foreign
+      time_range:
+      - 1965-06-20T16:00Z
+      - 1965-06-20T19:00Z
+      time_band: evening
+      time_zone: Africa/Cairo
+      range_basis: record
+      c: 'Cairo, the garden of the Republic Palace, the evening. Nasser''s state banquet for Zhou and Chen Yi. Zhou: China has always supported the second Asian-African conference; its attitude
+        is positive, as before.'
+      n: '[[w.zhou-enlai-nianpu-1949]], II, 738 (June 20, 1965; the speech); [[w.zhou-enlai-waijiao-huodong]], 463 (June 20, 1965; 晚上，在共和国宫的花园里出席纳赛尔总统举行的盛大国宴); [[w.chen-yi-nianpu]],
+        1103 (June 20, 1965; the banquet for Zhou and Chen Yi). The range is the evening, 晚上, Cairo''s clock (463). See [[cal.1965-06-20.china-leadership]]. Names: Zhou Enlai, Nasser, Chen Yi.'
+      tags:
+      - name:zhou-enlai
+      - name:nasser-gamal-abdel
+      - name:chen-yi
+      - polity:prc
+      - polity:uar
+      - vis:only:prc+uar
 - edit:
     id: cal.1965-06-22.china-leadership-2
     base: 7b8eb430
     set:
       time: 1965-06-22T07:30Z
       time_zone: Africa/Cairo
-- check:
-    id: cal.1965-06-22.china-leadership-2
-    text: 'Check: the book does not say whose clock; taken as local.'
 - edit:
     id: cal.1965-06-24.china-leadership
     base: 0eef7e28
     set:
       time: 1965-06-24T15:00Z
       time_zone: Africa/Cairo
-- check:
-    id: cal.1965-06-24.china-leadership
-    text: 'Check: the book does not say whose clock; taken as local.'
 - edit:
     id: cal.1965-06-26.china-leadership-3
     base: 6d245e53
     set:
       time: 1965-06-26T20:00Z
       time_zone: Africa/Cairo
-- check:
-    id: cal.1965-06-26.china-leadership-3
-    text: 'Check: the book does not say whose clock; taken as local.'
 - edit:
     id: cal.1965-06-27.china-leadership
     base: 10ec0c7b
     set:
       time: 1965-06-27T08:30Z
       time_zone: Africa/Cairo
-- check:
-    id: cal.1965-06-27.china-leadership
-    text: 'Check: the book does not say whose clock; taken as local.'
 - edit:
     id: cal.1965-06-30.china-leadership
     base: 916c9e42
     set:
       time: 1965-06-30T08:00Z
       time_zone: Africa/Cairo
-- check:
-    id: cal.1965-06-30.china-leadership
-    text: 'Check: the book does not say whose clock; taken as local.'
 - edit:
     id: cal.1965-06-06.china-leadership-3
     base: fcfb6187
     set:
       time_range:
       - 1965-06-06T03:00Z
-      - 1965-06-06T16:00Z
-      time_band: daytime
+      - 1965-06-06T14:00Z
       time_zone: Africa/Dar_es_Salaam
       range_basis: record
-      n: '[[w.zhou-enlai-waijiao-huodong]], 461 (June 6, 1965; Zanzibar; the book''s order puts it after the rally; the day''s visit: the arrival 上午, the return to Dar es Salaam 下午, and at 5 p.m.
-        there the third talks with Nyerere, 461). The order: after [[cal.1965-06-06.china-leadership-2]], the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 461). Names: Zhou Enlai, Karume.
+      n: '[[w.zhou-enlai-waijiao-huodong]], 461 (June 6, 1965; Zanzibar; the book''s order puts it after the rally). The range: from the morning arrival at Zanzibar, 上午, to the third talks with
+        Nyerere at Dar es Salaam at 5 p.m., after the flight back 下午, Zanzibar''s clock (461). The order: after [[cal.1965-06-06.china-leadership-2]], the printed order alone ([[w.zhou-enlai-waijiao-huodong]], 461). Names: Zhou Enlai, Karume.
         Check: the hour of the banquet: the page gives none; it falls between the morning arrival and the afternoon flight.'
+    unset:
+    - time_band
 - add:
     entry:
       id: cal.1965-06-19.china-leadership-14
@@ -843,7 +909,7 @@ ops:
       time_zone: Africa/Algiers
       range_basis: record
       c: Algiers 阿尔及尔. Chen Yi 陈毅 meets Subandrio 苏班德里约 of Indonesia.
-      n: '[[w.chen-yi-nianpu]], 1104 (June 23, 1965; 上午，在阿尔及尔会见苏班德里约博士). The range is the morning, 上午. See [[cal.1965-06-23.china-leadership-9]]. Names: Chen Yi, Subandrio.'
+      n: '[[w.chen-yi-nianpu]], 1104 (June 23, 1965; 上午，在阿尔及尔会见苏班德里约博士). The range is the morning, 上午, Algiers''s clock. See [[cal.1965-06-19.africa]]. Names: Chen Yi, Subandrio.'
       tags:
       - polity:prc
       - polity:indonesia
@@ -867,8 +933,8 @@ ops:
       time_band: evening
       time_zone: Africa/Algiers
       range_basis: record
-      c: Algiers 阿尔及尔. Boumedienne 布迈丁, the Algerian leader, receives Chen Yi 陈毅.
-      n: '[[w.chen-yi-nianpu]], 1104 (June 23, 1965; 晚上，阿尔及利亚领导人胡阿里·布迈丁接见陈毅). The range is the evening, 晚上. The order: after [[cal.1965-06-23.china-leadership-9]], the afternoon''s meeting with
+      c: Algiers 阿尔及尔. Boumediene 胡阿里·布迈丁, the Algerian leader, receives Chen Yi 陈毅.
+      n: '[[w.chen-yi-nianpu]], 1104 (June 23, 1965; 晚上，阿尔及利亚领导人胡阿里·布迈丁接见陈毅). The range is the evening, 晚上, Algiers''s clock. The order: after [[cal.1965-06-23.china-leadership-9]], the afternoon''s meeting with
         Syria''s foreign minister (1104: 下午, then 晚上). See [[cal.1965-06-19.africa]]. Names: Chen Yi, Boumediene.'
       tags:
       - polity:prc
@@ -918,7 +984,8 @@ ops:
       range_basis: record
       c: The White House mess, that evening. Johnson's dinner for the chairmen of the 1964 task forces, to which Moyers calls Califano that afternoon; Califano is introduced as of his staff.
       n: '[[w.califano-triumph-and-tragedy-of]], 18–19 ("Late that afternoon, Moyers called"; the dinner at the mess; Johnson "introduced me as a member of his staff"). The order: after [[cal.1965-07-08.transition-and-staff]],
-        the day''s call from Valenti (Califano, 18–19: the dinner is that afternoon''s invitation). See [[cal.1965-07-08.transition-and-staff]]. Names: Johnson, Califano, Moyers.'
+        the day''s call from Valenti (Califano, 18–19: the dinner is that afternoon''s invitation). To check: President''s Daily Diary, July 8, 1965, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]],
+        19 n.5). See [[cal.1965-07-08.transition-and-staff]]. Names: Johnson, Califano, Moyers.'
       tags:
       - name:johnson-lyndon-b
       - name:califano-joseph-a-jr
@@ -931,20 +998,18 @@ ops:
     - 'Check: Dallek, 272, names Clifford among the panel; FRUS, doc. 55, does not.'
     set:
       c: 'The Vietnam panel, Bradley, Gilpatric, Kistiakowsky, Larson and McCloy, meets at the State Department from 11 a.m. with Rusk, McNamara, Thompson and William Bundy: the stakes "very high
-        indeed," Larson excepted;{1} all but Larson for putting in the forces needed.{2} A plenary after lunch. Larson for a move in the UN or serious negotiations, the rest not; Hoffman, in the
-        plenary, with him; Acheson and Dean vehement against, Dean: no time to "turn over our Far East policy to the UN."{3}'
-      n: '[FRUS 1964–68, III, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v03/d55) (the panel''s highlights: Bradley, Gilpatric, Kistiakowsky, Larson and McCloy; its n.1:
-        the panels met separately on the morning of July 8 and jointly after lunch). [[w.mcnamara-in-retrospect]], ch. 7 at nn.46–47 (the morning subpanel, Bradley, Gilpatric, Kistiakowsky, Larson
-        and McCloy, with Rusk, Thompson, William Bundy and McNamara, all but Larson for "whatever" forces were needed; Hoffman for negotiations; McCloy: "We are about to get our noses bloodied
-        but you''ve got to do it"). Check: Dallek, 272, names Clifford among the panel of former officials; FRUS, doc. 55, does not. The morning panel and the plenary are dated by FRUS, doc. 55
-        n.1. See [[cal.1965-07-01.vietnam]]. Names: Acheson, Bradley, Gilpatric, McCloy, Rusk, McNamara, William Bundy, Kistiakowsky, Larson, Thompson, Hoffman, Dean.'
+        indeed," Larson excepted;{1} all but Larson for putting in the forces needed.{2} Larson for a move in the UN or serious negotiations, the rest not.{3}'
+      n: '[FRUS 1964–68, III, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v03/d55) (the panel''s highlights: Bradley, Gilpatric, Kistiakowsky, Larson and McCloy; its n.2:
+        the group met at 11 a.m. in the Department of State, the panels separately in the morning and jointly after lunch). [[w.mcnamara-in-retrospect]], ch. 7 at nn.46–47 (the morning subpanel,
+        Bradley, Gilpatric, Kistiakowsky, Larson and McCloy, with Rusk, Thompson, William Bundy and McNamara, all but Larson for "whatever" forces were needed). Check: Dallek, 272, names Clifford
+        among the panel of former officials; FRUS, doc. 55, does not. The morning panel is dated and timed by FRUS, doc. 55 n.2. The joint session after lunch is [[cal.1965-07-08.vietnam-july-decision-5]].
+        See [[cal.1965-07-01.vietnam]]. Names: Bradley, Gilpatric, Kistiakowsky, Larson, McCloy, Rusk, McNamara, Thompson, William Bundy.'
       src:
-        c: '0c5855ac'
+        c: '8839e41b'
         rows:
         - 'w.mcnamara-in-retrospect ch. 7 at nn.46–47: 1, 2'
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d55: 1'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d55: 1, 2, 3'
       tags:
-      - name:acheson-dean-g
       - name:bradley-omar-n
       - name:gilpatric-roswell-l
       - name:mccloy-john-j
@@ -954,8 +1019,35 @@ ops:
       - name:kistiakowsky-george-b
       - name:larson-arthur
       - name:thompson-llewellyn-e
+- add:
+    entry:
+      id: cal.1965-07-08.vietnam-july-decision-5
+      when: July 8
+      date: '1965-07-08'
+      place: washington
+      thread: vietnam-july-decision
+      follows:
+      - cal.1965-07-08.vietnam-july-decision
+      time_range:
+      - 1965-07-08T16:00Z
+      - 1965-07-08T22:00Z
+      time_band: afternoon
+      time_zone: America/New_York
+      range_basis: record
+      c: 'The State Department, after lunch. The panels of former officials meet jointly. Hoffman backs Larson for an early move in the UN; Acheson and Dean vehement against, Dean: no time to "turn
+        over our Far East policy to the UN." McCloy, for the group, to Rusk and McNamara: "We are about to get our noses bloodied but you''ve got to do it."'
+      n: '[FRUS 1964–68, III, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v03/d55) (the plenary session: Hoffman, Acheson and Dean; its n.2: the panels met jointly after
+        lunch; not McCloy''s words). [[w.mcnamara-in-retrospect]], ch. 7 at nn.46–47 (the full panel later that day: all but Hoffman agree; Acheson and Dean against Hoffman''s call for negotiations;
+        McCloy''s words). The range: "after lunch" (FRUS, doc. 55 n.2), before the President''s meeting at 6:15 p.m. The order: after [[cal.1965-07-08.vietnam-july-decision]], the morning
+        panel (doc. 55 n.2). See [[cal.1965-07-08.vietnam-july-decision]]. Names: Hoffman, Larson, Acheson, Dean, McCloy, Rusk, McNamara.'
+      tags:
       - name:hoffman-paul-g
+      - name:larson-arthur
+      - name:acheson-dean-g
       - name:dean-arthur-h
+      - name:mccloy-john-j
+      - name:rusk-dean
+      - name:mcnamara-robert-s
 - add:
     entry:
       id: cal.1965-07-08.vietnam-july-decision-4
@@ -964,17 +1056,19 @@ ops:
       place: washington
       thread: vietnam-july-decision
       follows:
-      - cal.1965-07-08.vietnam-july-decision
+      - cal.1965-07-08.vietnam-july-decision-5
       time: 1965-07-08T22:15Z
       time_zone: America/New_York
-      c: The White House, 6:15 p.m. Johnson receives Acheson, Dean, Lovett, Cowles, Bradley and McCloy, of the panels of former officials, and their recommendations.{1} No choice but to put in
-        the forces needed and explain it to the country.{2} Johnson laments;{3} by William Bundy's account, Acheson tells him to press on.{4}
-      n: '[FRUS 1964–68, III, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v03/d55) (n.1: "President Johnson met in the White House at 6:15 p.m. on July 8 with Dean Acheson,
+      c: 'The White House, the Cabinet Room, 6:15 p.m. Johnson receives Acheson, Dean, Lovett, Cowles, Bradley and McCloy, of the panels of former officials, and their recommendations: no choice
+        but to put in the forces needed and explain it to the country. Johnson laments; by Acheson''s account to Truman, July 10, Acheson tells him he has no choice except to press on, Lovett and
+        Bradley with him.'
+      n: '[FRUS 1964–68, III, doc. 55](https://history.state.gov/historicaldocuments/frus1964-68v03/d55) (n.2: "President Johnson met in the White House at 6:15 p.m. on July 8 with Dean Acheson,
         Arthur Dean, and Robert Lovett of the Europe panel; John Cowles of the Latin America panel; and General Bradley and McCloy of the Vietnam panel," from William Bundy''s manuscript history,
-        chap. 27, p. 15). [[w.dallek-flawed-giant]], 272–73 (the panel''s advice; Johnson''s lament; Acheson: no choice but to press on); [[w.barrett-uncertain-warriors]], 39–40 (the Wise Men
-        with Johnson: his long complaint; Acheson to Truman, July 10: Johnson "had no choice except to press on"). The order: after [[cal.1965-07-08.vietnam-july-decision]], the panels'' meetings
-        of the day (FRUS, doc. 55 n.1). To check: William Bundy''s manuscript history, chap. 27, 15–21, LBJ Library (cited by [[w.dallek-flawed-giant]], 273). See [[cal.1965-07-01.vietnam]]. Names:
-        Acheson, Dean, Lovett, Bradley, McCloy, William Bundy, Johnson.'
+        chap. 27, p. 15; not the lament). [[w.mcnamara-in-retrospect]], ch. 7 at nn.46–47 (that evening, the Cabinet Room, the six; Acheson''s letter to Truman); [[w.dallek-flawed-giant]], 272–73
+        (the panel''s advice; Johnson''s lament; Acheson: no choice but to press on, the words given as William Bundy''s); [[w.barrett-uncertain-warriors]], 39–40 (Acheson to Truman, July 10: the
+        complaint; "no choice except to press on"; Lovett and Bradley with him). The order: after [[cal.1965-07-08.vietnam-july-decision-5]], the joint session (FRUS, doc. 55 n.2). To check:
+        William Bundy''s manuscript history, chap. 27, 15–21, LBJ Library (cited by [[w.dallek-flawed-giant]], 273 n.98). See [[cal.1965-07-08.vietnam-july-decision]]. Names: Johnson, Acheson,
+        Dean, Lovett, Bradley, McCloy, Truman.'
       tags:
       - name:johnson-lyndon-b
       - name:acheson-dean-g
@@ -982,7 +1076,17 @@ ops:
       - name:lovett-robert-a
       - name:bradley-omar-n
       - name:mccloy-john-j
-      - name:bundy-william
+      - name:truman-harry-s
+- follows:
+    id: cal.1965-07-08.vietnam-july-decision-3
+    remove:
+    - cal.1965-07-08.vietnam-july-decision
+    why: the words were spoken after the panel's meeting with Johnson ([[w.dallek-flawed-giant]], 273), which is now its own entry, [[cal.1965-07-08.vietnam-july-decision-4]]
+- follows:
+    id: cal.1965-07-08.vietnam-july-decision-3
+    add:
+    - cal.1965-07-08.vietnam-july-decision-4
+    basis: '[[w.dallek-flawed-giant]], 273 ("after the meeting," of the meeting with Johnson)'
 - edit:
     id: cal.1965-07-10.economy
     base: '10008239'
@@ -1070,10 +1174,11 @@ ops:
       date: '1965-07-23'
       thread: vietnam-july-decision
       follows:
-      - cal.1965-07-23.vietnam-july-decision
+      - cal.1965-07-23.vietnam-july-decision-6
       c: 'Moyers to Clifford, by telephone, after the meeting: Johnson has all but decided for McNamara and Westmoreland; it would take a miraculous effort to change his course.'
       n: '[[w.clifford-counsel-to-the-president-2]], 416 (Moyers, "another participant in the meeting": Johnson "had virtually made up his mind to support McNamara and Westmoreland"). The order:
-        after [[cal.1965-07-23.vietnam-july-decision]], the call before the meeting (416). See [[cal.1965-07-23.vietnam-july-decision]]. Names: Moyers, McNamara, Westmoreland, Johnson.'
+        after [[cal.1965-07-23.vietnam-july-decision-6]], the meeting, the same as Califano''s in the Cabinet Room (Clifford, 416: Ball "going with Rusk to the White House for another meeting";
+        Moyers "another participant in the meeting"). See [[cal.1965-07-23.vietnam-july-decision]]. Names: Moyers, McNamara, Westmoreland, Johnson.'
       tags:
       - name:moyers-bill
       - name:clifford-clark
@@ -1148,10 +1253,12 @@ ops:
       place: washington
       follows:
       - cal.1965-07-23.vietnam-july-decision-2
+      - cal.1965-07-23.vietnam-july-decision
       c: The Cabinet Room. Johnson with McNamara, Rusk, Ball, Wheeler, Bundy, Moyers and Busby, Busby to draft the announcement.
       n: '[[w.califano-triumph-and-tragedy-of]], 38 ("the President again huddled in the Cabinet Room with McNamara, Rusk, Ball, Wheeler, McGeorge Bundy, Bill Moyers, and ... Horace Busby, who
-        would help draft the presidential announcement"); [[w.drea-mcnamara-clifford-and-the-2011]], 44 (Plans I, II and III; Johnson takes III). To check: Califano 38 n.17. The order: after [[cal.1965-07-23.vietnam-july-decision-2]],
-        the three ways (Califano, 38). See [[cal.1965-07-23.vietnam-july-decision-2]]. Names: Johnson, McNamara, Rusk, Ball, Wheeler, Bundy, Moyers, Busby.'
+        would help draft the presidential announcement"); [[w.clifford-counsel-to-the-president-2]], 416 (Ball "going with Rusk to the White House for another meeting," the group Rusk, McNamara,
+        Wheeler, Moyers and McGeorge Bundy). The order: after [[cal.1965-07-23.vietnam-july-decision-2]], the three ways (Califano, 38), and [[cal.1965-07-23.vietnam-july-decision]],
+        Clifford''s call to Ball before it (Clifford, 416). To check: President''s Daily Diary, July 23, 1965, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 38 n.17). See [[cal.1965-07-23.vietnam-july-decision-2]]. Names: Johnson, McNamara, Rusk, Ball, Wheeler, Bundy, Moyers, Busby.'
       tags:
       - name:johnson-lyndon-b
       - name:mcnamara-robert-s
@@ -1178,7 +1285,8 @@ ops:
       range_basis: record
       c: Johnson, later that afternoon, meets Rusk alone.
       n: '[[w.califano-triumph-and-tragedy-of]], 38 ("Later that afternoon, Johnson met privately with Dean Rusk"; the note on Rusk''s habit of speaking his mind to the President alone). The order:
-        after [[cal.1965-07-23.vietnam-july-decision-6]], "later that afternoon" (38). Names: Johnson, Rusk.'
+        after [[cal.1965-07-23.vietnam-july-decision-6]], "later that afternoon" (38). To check: President''s Daily Diary, July 23, 1965, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]],
+        38 n.17). Names: Johnson, Rusk.'
       tags:
       - name:johnson-lyndon-b
       - name:rusk-dean
@@ -1237,7 +1345,8 @@ ops:
       - cal.1965-07-23.vietnam-july-decision-9
       c: Johnson, having asked for all two thousand letters on Vietnam in the latest weekly mail summary, goes by helicopter to Camp David for the weekend; Busby joins him there.
       n: '[[w.califano-triumph-and-tragedy-of]], 38–39 ("Later he asked for all two thousand letters on Vietnam ... and helicoptered to Camp David for the weekend"; "Busby joined him there").
-        The order: after [[cal.1965-07-23.vietnam-july-decision-9]], "Later" (38). Names: Johnson, Busby.'
+        The order: after [[cal.1965-07-23.vietnam-july-decision-9]], "Later" (38). To check: President''s Daily Diary, July 23, 1965; Paul Popple to Johnson, July 23, 1965, 3:40 p.m., LBJ
+        Library (cited by [[w.califano-triumph-and-tragedy-of]], 39 n.19). Names: Johnson, Busby.'
       tags:
       - name:johnson-lyndon-b
       - name:busby-horace
@@ -1274,7 +1383,7 @@ ops:
       c: Johnson telephones the White House Situation Room at 1:00 a.m. about the bombing raids on a surface-to-air missile site near Hanoi and a power plant a hundred miles south of the North
         Vietnamese capital.
       n: '[[w.califano-triumph-and-tragedy-of]], 40 ("Three times he called the White House situation room ... at 1:00, 3:30 and 7:35 a.m."; the raids on the SAM site and the power plant). The
-        time: 1:00 a.m., Washington''s clock. See [[cal.1965-07-26.vietnam-july-decision]]. Names: Johnson.'
+        time: 1:00 a.m., Washington''s clock. To check: President''s Daily Diary, July 27, 1965, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 40 n.25). See [[cal.1965-07-26.vietnam-july-decision]]. Names: Johnson.'
       tags:
       - name:johnson-lyndon-b
 - add:
@@ -1285,13 +1394,11 @@ ops:
       thread: vietnam-july-decision
       place: washington
       also: *id001
-      follows:
-      - cal.1965-07-27.vietnam-july-decision-4
       time: 1965-07-27T07:30Z
       time_zone: America/New_York
       c: Johnson telephones the Situation Room again, at 3:30 a.m., on the same raids.
       n: '[[w.califano-triumph-and-tragedy-of]], 40 ("Three times he called the White House situation room ... at 1:00, 3:30 and 7:35 a.m."; the raids on the SAM site and the power plant). The
-        time: 3:30 a.m., Washington''s clock. The order: after [[cal.1965-07-27.vietnam-july-decision-4]], the printed order alone ([[w.califano-triumph-and-tragedy-of]], 40). See [[cal.1965-07-26.vietnam-july-decision]].
+        time: 3:30 a.m., Washington''s clock. To check: President''s Daily Diary, July 27, 1965, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 40 n.25). See [[cal.1965-07-26.vietnam-july-decision]].
         Names: Johnson.'
       tags:
       - name:johnson-lyndon-b
@@ -1303,13 +1410,11 @@ ops:
       thread: vietnam-july-decision
       place: washington
       also: *id001
-      follows:
-      - cal.1965-07-27.vietnam-july-decision-5
       time: 1965-07-27T11:35Z
       time_zone: America/New_York
       c: Johnson telephones the Situation Room again, at 7:35 a.m., on the same raids.
       n: '[[w.califano-triumph-and-tragedy-of]], 40 ("Three times he called the White House situation room ... at 1:00, 3:30 and 7:35 a.m."; the raids on the SAM site and the power plant). The
-        time: 7:35 a.m., Washington''s clock. The order: after [[cal.1965-07-27.vietnam-july-decision-5]], the printed order alone ([[w.califano-triumph-and-tragedy-of]], 40). See [[cal.1965-07-26.vietnam-july-decision]].
+        time: 7:35 a.m., Washington''s clock. To check: President''s Daily Diary, July 27, 1965, LBJ Library (cited by [[w.califano-triumph-and-tragedy-of]], 40 n.25). See [[cal.1965-07-26.vietnam-july-decision]].
         Names: Johnson.'
       tags:
       - name:johnson-lyndon-b
