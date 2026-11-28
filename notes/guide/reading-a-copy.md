@@ -125,6 +125,7 @@ A host the session's network does not allow fails with a proxy error. Say which 
 - Delete the PDF, the EPUB's files, the text dumps and the page images when you finish with a work: `rm -rf "$D/<the work's files>"`. Nothing of a copyrighted source stays on disk or goes into the repository.
 - Quote no more than a few words of a copyrighted work anywhere.
 - Change nothing on Drive: no moves, no renames, no sharing changes, no trash.
+- Wait for a long command in the foreground: run `./bib patch-check` (it takes several minutes on the full tree) with the Bash tool's longest timeout, 600000 ms, and read its whole output, not in the background with a watch. Before you report, stop every watch and background command you started (the Nov. 27, 2026 lesson: a reader's watches, left set, woke it after its report and it sent the report three times). Report once, and then end.
 
 ## 9. When something still fails
 
