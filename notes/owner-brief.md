@@ -1574,3 +1574,5 @@ Default each calendar page to its range. Could we have a span filter, with two t
 **Nov. 27, 2026, about 4:41 pm PT (Friday, in the pause; queued).** "Without the threadlines, there's no easy way to \"untoggle\" thread highlights. Could we make it so that tapping empty space in the top line of any entry, to the right of the thread label or labels, \"untoggles\" active thread highlights? And could we make it so that a single click/tap on a top-line thread label \"toggles\" the thread highlight, but only double clicks/taps navigate to the thread summary?"
 
 **Nov. 27, 2026, about 5:37 pm PT (Friday, after the pause).** "Sorry, Claude, \"Washington, District of Columbia\" isn't in \"Places:\" at all. I'm saying the Federal district should be listed there as \"D.C.\" and not \"Washington.\" \"Washington,\" the state, should just be \"Washington,\" not \"Washington State.\"" (Done: ruling 72 amended.)
+
+**Nov. 27, 2026, about 6:00 pm PT (Friday, after the pause).** "Shouldn't it be \"D.C., Washington\" by the logic of the alphabetical sort?" (Done: D.C. sorts with the States; ruling 72 amended.)

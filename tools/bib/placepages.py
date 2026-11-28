@@ -51,7 +51,9 @@ STYLE
     entry took place in or concerns (STYLE 2), in that order (the index's: the nations as the register lists them, the
     others by name), each linked to its page as the names are. Some go by a short name there, their pages keeping the
     full one (LINE_NAME; the owner, Nov. 27, 2026): South Vietnam, North Vietnam, South Korea, North Korea, and D.C.
-    for Washington. A place of the United Kingdom is listed by its part, the gazetteer row's `part` (Great Britain,
+    for Washington, which the line sorts among the States, the federal district being of their rank (LINE_AS; the
+    owner, the same day: "Shouldn't it be 'D.C., Washington' by the logic of the alphabetical sort?"). A place of the
+    United Kingdom is listed by its part, the gazetteer row's `part` (Great Britain,
     Northern Ireland, a territory abroad), in place of "United Kingdom" and linked to its page; a part that is itself
     a place listed (Hong Kong) is not written twice (the owner, the same day: "For now, just 'Hong Kong' seems best").
  8. The place tags held to the entry (the owner, Nov. 26, 2026, 9:36 p.m.: "What would minimize error at least
@@ -603,7 +605,7 @@ def line(e, series=None):
         _C.update(pos_of=got, pos={k: i for i, k in enumerate(got)})
     pos = _C["pos"]                     # the index's order: the nations as the register lists them, the rest by name
     keys = [(kind, slug) for kind, _ in KINDS for slug in w["there"][kind] | w["tagged"][kind] if (kind, slug) in pos]
-    out = [got[k] for k in sorted(keys, key=pos.get)]
+    out = [got[k] for k in sorted(keys, key=lambda k: _line_order(k, got[k], pos))]
     if not out:
         return ""
     shown = [(pl, LINE_NAME.get((pl["kind"], pl["slug"]), pl["name"])) for pl in out]
@@ -616,6 +618,18 @@ def line(e, series=None):
     names = [(pl, f"{n} State" if pl["kind"] == "state" and n in cities else n) for pl, n in shown]
     return "Places: " + ", ".join(f'<a href="{pl["page"]}.html">{esc(n)}</a>' for pl, n in names) + (
         "" if names[-1][1].endswith(".") else ".")
+
+
+LINE_AS = {("city", "washington"): "state"}   # the federal district goes with the States (the owner, Nov. 27, 2026)
+
+
+def _line_order(key, pl, pos):
+    """The line's order: the nations as the register lists them; then the States (D.C. among them, LINE_AS), the
+    provinces and the cities, each kind by the name the line writes."""
+    kind = LINE_AS.get(key, key[0])
+    if kind == "nation":
+        return (0, pos[key], "")
+    return ([k for k, _ in KINDS].index(kind), 0, store.fold(LINE_NAME.get(key, pl["name"])).lower())
 
 
 def _uk_parts(e):
