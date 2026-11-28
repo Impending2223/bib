@@ -523,3 +523,4 @@ Batch 7 (already in):
 - 4:05 pm Fri. Nov. 27, QUEUED (the pause): the owner: the "Places:" names of `rvn` and `drv` are "South Vietnam" and "North Vietnam" (placepages.short_name, or a short name in the register).
 - 4:06 pm Fri. Nov. 27, QUEUED (the pause): the owner: the "Places:" name of Washington, D.C. is "D.C."
 - 4:23 pm Fri. Nov. 27, QUEUED (the pause): the owner: in the gazetteer, the United Kingdom's places take a parent below it: Great Britain (the island and its waters), Northern Ireland, and each territory abroad (Gibraltar, Akrotiri and Dhekelia, Saint Helena, Hong Kong ...); the "Places:" line names that parent and not "United Kingdom" (Hong Kong alone for Hong Kong), the UK's own page keeping them all.
+- 4:24 pm Fri. Nov. 27, QUEUED (the pause): the owner: the "Places:" names of `rok` and `dprk` are "South Korea" and "North Korea" (with the Vietnams and D.C. above).
