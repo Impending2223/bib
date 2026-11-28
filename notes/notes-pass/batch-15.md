@@ -1,10 +1,10 @@
 # Notes pass, batch 15 (Nov. 28, 2026)
 
 - `cal.1966-02-20.china-leadership-3`: Built on. Added the outline of about 3,000 characters, who recorded and revised it and the evening of Feb. 20, from Pu Weihua 43 (PDF 63; also 41 for the context); only Chen Yading tagged, because p. 43 gives Xie and Li by surname alone (p. 41 names Li Manchun beside Liu Zhijian but does not tie him to this outline). Read: Pu 41, 43; MacFarquhar, Origins, III, 451 (it has Liu's report of Feb. 20 to the GPD, which the line already says).
-- `cal.1966-03-17.china-leadership-2`: NOT DONE
-- `cal.1966-03-31.transition-and-staff`: NOT DONE
-- `cal.1966-03.china-leadership-2`: NOT DONE
-- `cal.1966-04-16.china-leadership-8`: NOT DONE
+- `cal.1966-03-17.china-leadership-2`: Built on. Two additions: who drafted and rewrote the summary and Lin Biao's letter to the Commission's Standing Committee (Peng Zhen nianpu IV, 474, read on the page image; the note cites 474-475, p. 475 not read, so the cite is to 474 alone), tagged Zhang Chunqiao and Chen Boda; and Mao's ten or so small changes to the second draft (Pu Weihua 46). The title and quoted phrases of the hint were already in the line. Read: Peng Zhen nianpu IV, 474; Pu 46; MacFarquhar, Origins, III, 456 (it has the approval of Mar. 17 and the chronology; nothing to add).
+- `cal.1966-03-31.transition-and-staff`: Built on. Added the choice of Rostow on Valenti's recommendation over Moyers and Komer, and the title, from Berman 21 (read on the page: folio 21 confirmed); Valenti and Moyers tagged and named. The other cites (Pub. Papers, Califano 135-36) were not the source of the hint and were left as they stand. Read: Berman 21.
+- `cal.1966-03.china-leadership-2`: Built on. Added that the three enlarge and revise the text, that Liu Zhijian and Chen Yading are called to Shanghai, the 14th and the growth from 5,500 to about 10,000 characters (Pu Weihua 45, read on the page image); both names tagged. Read: Pu 45; MacFarquhar, Origins, III, 456 (the day-by-day table; nothing to add).
+- `cal.1966-04-16.china-leadership-8`: Built on. Added Zhou's meeting with Liu Zhijian and Chen Yading, his dictated points, the new comment's length and its stress on Mao's three revisions, Jiang Qing's review and the hand-over on Apr. 30 (Pu Weihua 48-49, read on both page images); the quoted phrase of the hint went in as a paraphrase, not a quotation. Names tagged. Yang Jisheng I, 128 (read) has the same facts in brief and a note to Pu 48-49; nothing more. Read: Pu 48, 49; Yang I, 128.
 - `cal.1966-04-27.soviet-union-leadership`: NOT DONE
 - `cal.1966-05-03.elections-1966`: NOT DONE
 - `cal.1966-05-07.china-leadership`: NOT DONE
