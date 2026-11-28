@@ -754,3 +754,16 @@ Question: the owner said on Nov. 25 that it seems absurd to exclude the famine f
 - The question: the maps' rule was that nothing of a layer is fetched before its box is ticked (`notes/guide/china-map.md`, "Loading"). "All available information" needs every layer's file.
 - Default taken (`notes/proposals/map-pin.md`): a pin reads every layer the map has, ticked or not. A layer's file not yet fetched is fetched once, when the first pin needs it: about 5 MB on the map of Indochina, about 14 MB on the map of China, before compression; the relief and the climate one tile each. The rule now reads "before its box is ticked, or before a pin is dropped" (`notes/guide/indochina-maps.md`, "The pin"; `tools/bib/vnmap.py`, STYLE 9).
 - To overrule: the pin reads only the layers whose boxes are ticked, and the panel says of each other layer that its box must be ticked to read it there.
+
+## 74. Datelines without a leading article (Nov. 27, 2026, about 10:50 p.m.)
+
+- The owner's words: "Shouldn't \"the LBJ Ranch\" dateline read \"LBJ Ranch\"?"
+- Default taken (`tools/bib/dateline.py`, STYLE 3, `_bare`): every dateline drops a leading "the" from its place, as a dateline does: "LBJ Ranch", "Plain of Jars", "Mekong Delta", "Bay of Pigs", "Canal Zone", "DMZ" (28 places in the gazetteer begin with "the"). The gazetteer keeps the article, so running text, the "Places:" line and the place pages still read "the Plain of Jars".
+- To overrule: the article off "the LBJ Ranch" alone (its gazetteer name changed instead), or off the "Places:" line too.
+
+## 75. The Supreme Court protest of May 29, 1968: under the Poor People's Campaign (Nov. 27, 2026, about 11 p.m.)
+
+- The owner's words: "Is the May 29, 1968 entry ... filed (absurdly?) under King: Poor People's Campaign, referring to Puyallup Tribe v. Department of Game, 391 U.S. 392 (1968), decided May 27, 1968?"
+- Default taken (read on Sonnet, audited on Opus; `notes/leftovers/puyallup-1968-audit.md`): the protest stays in the Poor People's Campaign's thread, with the Court's in `also:`. *CQ* files it under the Campaign and calls the protesters "the campaigners", acting for the Campaign's Indian contingent, whose spokesman, Hank Adams, spoke for it again on June 3. The ruling is *Puyallup*, now named and linked in the line; the decision of May 27 is an entry of its own, with *Menominee Tribe v. United States* the same day, and the earlier steps of both cases.
+- Open: the day (CQ's May 29 against the papers of May 31 McKnight cites) and the hour; each has its Check.
+- The calendar has no thread for the American Indians' affairs (the fishing cases, *Menominee*, the Campaign's Indian contingent, the Indian Civil Rights Act of 1968, Alcatraz in 1969). To overrule: a thread of their own, these entries moved to it, the Campaign in `also:`.
