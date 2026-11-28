@@ -620,10 +620,49 @@ def backlinks(series, eid):
     return sorted(set(out))
 
 
+LINE_FIELDS = ("c", "cuts", "cut_from", "src", "variants")   # a calendar line and what names its parts (cuts.py)
+PART_TAG = re.compile(r"^vis:.*@\d+(?:\.\d+)*$")              # a ruling on some parts (cuts.rename)
+
+
+def _combine_line(keep, drop, new, whence):
+    """A calendar entry's line, its cuts and what names its parts (map, variants, a `vis:...@3` tag) go together
+    (cuts.py, STYLE 6): never KEEP's line with DROP's cuts. Sets them on `new` (whose tags are already the union);
+    returns the conflicts. KEEP's set stands, and where DROP's differs, each field of DROP's set is a conflict's
+    `theirs`, so that --take theirs on them all gives DROP's line whole. DROP's set is taken where it is all
+    KEEP lacks: KEEP has no line, or the same plain line with nothing naming its parts. DROP's line folded into
+    KEEP's, with nothing naming its parts, is no conflict."""
+    kg = {f: keep.get(f) for f in LINE_FIELDS}
+    dg = {f: drop.get(f) for f in LINE_FIELDS}
+    kt = [t for t in store.as_list(keep.get("tags")) if PART_TAG.match(str(t))]
+    dt = [t for t in store.as_list(drop.get("tags")) if PART_TAG.match(str(t))]
+    k_names = any(kg[f] for f in LINE_FIELDS[1:]) or kt
+    d_names = any(dg[f] for f in LINE_FIELDS[1:]) or dt
+    kc, dc = store.as_list(kg["c"]), store.as_list(dg["c"])
+    if not dc or (kg == dg and set(kt) == set(dt)):
+        new["tags"] = [t for t in new.get("tags", []) if not PART_TAG.match(str(t)) or t in kt]
+        return []
+    if (not kc or kc == dc) and not k_names:
+        new.update({f: v for f, v in dg.items() if v is not None})
+        return []
+    tags = new.get("tags", [])
+    new["tags"] = [t for t in tags if not PART_TAG.match(str(t)) or t in kt]
+    if not d_names and kc and store.fold(plain(dc[0])) in store.fold(plain(kc[0])):
+        return []
+    out = [{"field": f, "ours": kg[f], "theirs": dg[f], "base": None, "from": whence}
+           for f in LINE_FIELDS if kg[f] != dg[f]]
+    theirs = [t for t in tags if not PART_TAG.match(str(t)) or t in dt]
+    if set(theirs) != set(new["tags"]):
+        out.append({"field": "tags", "ours": new["tags"], "theirs": theirs, "base": None, "from": whence})
+    return out
+
+
 def combine(series, keep_id, drop_id, source, report, touched):
     """Fold entry DROP into KEEP. Lists are unioned, DROP's id becomes an alias of
     KEEP so old links still resolve, [[DROP]] links are rewritten, and any text
-    the two disagree on becomes a conflict on KEEP."""
+    the two disagree on becomes a conflict on KEEP. A calendar line is set with its
+    cuts and what names its parts, KEEP's or DROP's, never one side's line with the
+    other's cuts (_combine_line). An entry stored_form would refuse is refused here,
+    before anything changes, so no file is half written."""
     hk, hd = series.get(keep_id), series.get(drop_id)
     if not hk or not hd:
         report.add("error", keep_id if not hk else drop_id, "no such entry")
@@ -638,16 +677,16 @@ def combine(series, keep_id, drop_id, source, report, touched):
     new["aliases"] = [a for a in new.get("aliases", []) if a != keep_id] + [drop_id] + \
         [a for a in drop.get("aliases", []) if a not in new.get("aliases", [])]
     kc, dc = store.as_list(keep.get("c")), store.as_list(drop.get("c"))
-    if lk.kind == "calendar" and dc and kc != dc:
-        # one event, one line: differing event lines are for a person to settle
-        if store.fold(plain(dc[0])) not in store.fold(plain(kc[0])):
-            conflicts.append({"field": "c", "ours": keep.get("c"), "theirs": drop.get("c"), "base": None,
-                              "from": f"{source}: combined {drop_id}"})
+    whence = f"{source}: combined {drop_id}"
+    if lk.kind == "calendar":
+        conflicts += _combine_line(keep, drop, new, whence)
     elif dc and kc != dc:
         extra = [c for c in dc if store.fold(plain(c)) not in {store.fold(plain(x)) for x in kc}]
         new["c"] = kc + extra
-    for f in store.ENTRY_FIELDS:
-        if f in SKIP or f in SET_FIELDS or f == "c":
+    line = LINE_FIELDS if lk.kind == "calendar" else ("c",)
+    rest = [f for f in drop if not str(f).startswith("_") and f not in store.ENTRY_FIELDS]
+    for f in list(store.ENTRY_FIELDS) + rest:          # a field the list of fields lacks (time_zone) is not lost
+        if f in SKIP or f in SET_FIELDS or f in line:
             continue
         a, b = keep.get(f), drop.get(f)
         if b is None or a == b:
@@ -659,13 +698,18 @@ def combine(series, keep_id, drop_id, source, report, touched):
         elif f == "n" and store.fold(plain(a)) in store.fold(plain(b)):
             new[f] = b
         else:
-            conflicts.append({"field": f, "ours": a, "theirs": b, "base": None, "from": f"{source}: combined {drop_id}"})
+            conflicts.append({"field": f, "ours": a, "theirs": b, "base": None, "from": whence})
     conflicts = [c for c in conflicts if not (c.get("kind") == "duplicate")]
     if conflicts:
         new["conflict"] = conflicts
     else:
         new.pop("conflict", None)
     new = store.normalize_entry(new)
+    try:
+        store.stored_form(new)                         # refused here, before anything changes, not mid-write
+    except ValueError as x:
+        report.add("error", keep_id, f"not combined with {drop_id}: {x}")
+        return
     _replace(sk, keep, new)
     sd.entries.remove(drop)
     touched.update({sk, sd})
