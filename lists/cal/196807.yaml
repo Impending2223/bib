@@ -452,18 +452,19 @@ entries:
       rows:
         - 'w.macv-command-history-1968 843–44: all'
   - id: cal.1968-07-03.soviet-union-leadership-2
-    when: July 3–4
+    when: July 3
     date: '1968-07-03'
     place: moscow
     thread: soviet-union-leadership
     also: [soviet-union-czechoslovakia, comecon]
-    c: Moscow. Brezhnev negotiates with the Hungarian delegation led by Kádár, July 3, 9 to 11, Kosygin, Podgorny, Voronov, Demichev, Katushev, Lesechko, Gromyko and Titov taking part; speaks at the Hungarian–Soviet friendship rally, 12 to 2:20; the Politburo, 9:30 p.m. to 12:20 a.m.; July 4, sees the delegation off.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 3–4). Names: Brezhnev, Kádár, Kosygin, Podgorny, Voronov, Demichev, Katushev, Lesechko, Gromyko, Titov.'
+    c: Moscow. Brezhnev negotiates in the Kremlin with the Hungarian party and government delegation led by Kádár, 9:30 to 11:50, Kosygin, Podgorny, Voronov, Demichev, Katushev, Lesechko, Gromyko and Titov taking part.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 3, 9:30 to 11:50, in the Kremlin; read on the page image). The page image gives 9:30 to 11:50, where the text layer drops the minutes. The rally, the dinner and the leave-taking of July 4, which the record times apart, are entries of their own. Names: Brezhnev, Kádár, Kosygin, Podgorny, Voronov, Demichev, Katushev, Lesechko, Gromyko, Titov.'
     tags: [name:brezhnev-leonid, name:kadar-janos, name:kosygin-aleksei, name:podgorny-nikolai-v, name:voronov-gennady-i, name:gromyko-andrei, name:katushev-konstantin-f, polity:ussr, polity:czechoslovakia, name:demichev-pyotr-n, polity:hungary, name:lesechko]
     time_range:
-      - 1968-07-03T06:00Z
-      - 1968-07-03T08:00Z
+      - 1968-07-03T06:30Z
+      - 1968-07-03T08:50Z
     time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1968-07-03.soviet-union-leadership
     when: July 3
     date: '1968-07-03'
@@ -480,6 +481,11 @@ entries:
         - 'w.schattenberg-brezhnev 275: ?'
         - 'w.brezhnev-rabochie-i-dnevnikovye II, 269: ?'
     tags: [polity:ussr, vis:only:ussr]
+    time_range:
+      - 1968-07-03T18:30Z
+      - 1968-07-03T21:20Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1968-07-03.china-leadership
     when: July 3
     date: '1968-07-03'
@@ -532,6 +538,38 @@ entries:
     c: Zhou Enlai convenes the State Council business group on July 3 and 7, on the national economic plan and the defense, metallurgical and foreign affairs work.
     n: '[[w.zhou-enlai-nianpu-1949-2020]], III, 239 (July 3, 1968). Made public: 2020. Names: Zhou Enlai.'
     tags: [polity:prc, name:zhou-enlai, vis:only:prc]
+  - id: cal.1968-07-03.soviet-union-leadership-3
+    when: July 3
+    date: '1968-07-03'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [soviet-union-czechoslovakia, comecon]
+    follows:
+      - cal.1968-07-03.soviet-union-leadership-2
+    c: Moscow, the Kremlin Palace of Congresses. Brezhnev speaks at the Hungarian–Soviet friendship rally, 12 to 2:30.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 3, 12:00 to 14:30, the Kremlin Palace of Congresses; read on the page image). See [[cal.1968-07-03.soviet-union-leadership-2]]. Names: Brezhnev.'
+    tags: [name:brezhnev-leonid, polity:ussr, polity:hungary]
+    time_range:
+      - 1968-07-03T09:00Z
+      - 1968-07-03T11:30Z
+    time_zone: Europe/Moscow
+    range_basis: record
+  - id: cal.1968-07-03.soviet-union-leadership-4
+    when: July 3
+    date: '1968-07-03'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [soviet-union-czechoslovakia, comecon]
+    follows:
+      - cal.1968-07-03.soviet-union-leadership-3
+    c: Moscow, the House of Receptions. Dinner for the Hungarian party and government delegation, 5 to 9:20 p.m.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 3, 17:00 to 21:20, the House of Receptions; read on the page image). See [[cal.1968-07-03.soviet-union-leadership-2]]. Names: none.'
+    tags: [polity:ussr, polity:hungary]
+    time_range:
+      - 1968-07-03T14:00Z
+      - 1968-07-03T18:20Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1968-07-04.vietnam
     when: July 4
     date: '1968-07-04'
@@ -643,6 +681,21 @@ entries:
       rows:
         - 'w.peng-zhen-nianpu-1902 IV, 500: all'
     tags: [polity:prc, name:kang-sheng, name:peng-zhen, vis:only:prc, ok:fields-place, name:liu-ren]
+  - id: cal.1968-07-04.soviet-union-leadership-3
+    when: July 4
+    date: '1968-07-04'
+    place: moscow
+    thread: soviet-union-leadership
+    also: [soviet-union-czechoslovakia, comecon]
+    c: Moscow, the airport. Brezhnev, with Podgorny and Kosygin, sees the Hungarian party and government delegation under Kádár off, in the morning.
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 269 (July 4, "Утром"; read on the page image). See [[cal.1968-07-03.soviet-union-leadership-2]]. Names: Brezhnev, Podgorny, Kosygin, Kádár.'
+    tags: [name:brezhnev-leonid, name:podgorny-nikolai-v, name:kosygin-aleksei, name:kadar-janos, polity:ussr, polity:hungary]
+    time_range:
+      - 1968-07-04T03:00Z
+      - 1968-07-04T09:00Z
+    time_band: morning
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1968-07-05.war-opposition
     when: July 5
     date: '1968-07-05'
@@ -1943,8 +1996,8 @@ entries:
     thread: conservation
     follows:
       - cal.1968-07-15.conservation-3
-    c: 'The House passes H.R. 5117, the first stage of the Palmetto Bend reclamation project in Texas, [296–103](https://voteview.com/rollcall/RH0900385): a dam on the Navidad, $34,077,000. Aspinall: no appropriation for it "this year or next year or until the fiscal situation clears up."'
-    n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2039. The House sat from noon to 11:11 p.m.: [Daily Digest, D351](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=349). Order: after [[cal.1968-07-15.conservation-3|the rivers and harbors bill]], in the House''s order of business, by the Record''s pages: rivers and harbors, 21369–86; Palmetto Bend, 21423–26 ([Daily Digest, D350](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=348)); roll calls 381 and 385. Check: CQ prints 295–104. Names: Aspinall.'
+    c: 'The House passes H.R. 5117, the first stage of the Palmetto Bend reclamation project in Texas, [295–104](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt16/pdf/GPO-CRECB-1968-pt16-4-2.pdf#page=103): a dam on the Navidad, $34,077,000. Aspinall: no appropriation for it "this year or next year or until the fiscal situation clears up."'
+    n: '[114 Cong. Rec. 21,425](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt16/pdf/GPO-CRECB-1968-pt16-4-2.pdf#page=103) (1968) (July 15, 1968) (the motion to suspend the rules and pass; roll call no. 257, yeas 295, nays 104, not voting 33). [[w.cq-weekly-report]], Aug. 2, 1968, 2039. The Record''s tally settles the count: CQ prints 295–104, as the Record; the Daily Digest (D350) 294–104; the entry had 296–103, Voteview''s. The House sat from noon to 11:11 p.m.: [Daily Digest, D351](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=349). Order: after [[cal.1968-07-15.conservation-3|the rivers and harbors bill]], in the House''s order of business, by the Record''s pages: rivers and harbors, 21369–86; Palmetto Bend, 21423–26 ([Daily Digest, D350](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=348)); roll calls 381 and 385. Names: Aspinall.'
     tags: [name:aspinall-wayne-n, state:tx]
     time_range:
       - 1968-07-15T16:00Z
@@ -3889,15 +3942,14 @@ entries:
     date: '1968-07-23'
     place: washington
     thread: crime-and-hijacking-guns
-    c: The House on the gun bill, H.R. 17735. McClory's amendment, federal licensing of gun owners, refused by teller vote, 84–179. Horton's, no importation of military surplus firearms, adopted, 65–62; Dingell against.
-    n: '[[w.cq-weekly-report]], July 26, 1968, 1939, 1941. Names: McClory, Horton, Dingell.'
-    tags: [name:mcclory-robert, name:horton-frank-j, name:dingell-john-d]
+    c: The House on the gun bill, H.R. 17735, in committee of the whole. McClory's amendment, federal licensing of gun owners, refused by teller vote, 84–179.
+    n: '[114 Cong. Rec. 22,763](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=20) (1968) (July 23, 1968) (a division first, 59–102; then tellers, McClory and Sikes, 84–179). [[w.cq-weekly-report]], July 26, 1968, 1939. The Record gives Horton''s amendment its own place (22,779–80), after Dingell''s and MacGregor''s; it is an entry of its own. Check: the hour within the sitting; the House sat from 11 a.m. ([114 Cong. Rec. 22,744](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=1) (1968)) to 7:40 p.m. ([22,832](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=89)). Names: McClory.'
+    tags: [name:mcclory-robert]
     time_range:
-      - 1968-07-23T18:00Z
-      - 1968-07-23T21:00Z
-    time_band: workday afternoon
+      - 1968-07-23T15:00Z
+      - 1968-07-23T23:40Z
     time_zone: America/New_York
-    range_basis: kind
+    range_basis: record
   - id: cal.1968-07-23.elections-1968
     when: July 23
     date: '1968-07-23'
@@ -4151,13 +4203,30 @@ entries:
     date: '1968-07-23'
     place: washington
     thread: crime-and-hijacking-guns
+    follows:
+      - cal.1968-07-23.crime-and-hijacking-guns
     c: The House on the gun bill, H.R. 17735, in committee of the whole. Dingell's amendment, a $10 license for "collectors" to buy from and sell to one another across State lines, adopted by teller vote, 99–56.
-    n: '[114 Cong. Rec. 22,765](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=22) (1968) (July 23, 1968) (the teller vote, 99–56). [[w.cq-weekly-report]], July 26, 1968, 1939. The Record dates it July 23. Check: the hour within the sitting; the House sat from 11 a.m. ([114 Cong. Rec. 22,744](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=1) (1968)) to 7:40 p.m. ([22,832](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=89)). See [[cal.1968-07-24.crime-and-hijacking]]. Names: Dingell.'
+    n: '[114 Cong. Rec. 22,765](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=22) (1968) (July 23, 1968) (the teller vote, 99–56). [[w.cq-weekly-report]], July 26, 1968, 1939. The Record dates it July 23. Check: the hour within the sitting; the House sat from 11 a.m. ([114 Cong. Rec. 22,744](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=1) (1968)) to 7:40 p.m. ([22,832](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=89)). The order: after [[cal.1968-07-23.crime-and-hijacking-guns]], [114 Cong. Rec. 22,763 and 22,765](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=20) (Dingell''s amendment offered next after McClory''s was rejected). See [[cal.1968-07-24.crime-and-hijacking]]. Names: Dingell.'
     src:
       c: ab3d225f
       rows:
         - 'w.cq-weekly-report July 26, 1968, 1939: all'
     tags: [name:dingell-john-d]
+    time_range:
+      - 1968-07-23T15:00Z
+      - 1968-07-23T23:40Z
+    time_zone: America/New_York
+    range_basis: record
+  - id: cal.1968-07-23.crime-and-hijacking-guns-2
+    when: July 23
+    date: '1968-07-23'
+    place: washington
+    thread: crime-and-hijacking-guns
+    follows:
+      - cal.1968-07-19.crime-and-hijacking-guns-4
+    c: The House on the gun bill, H.R. 17735, in committee of the whole. Horton's amendment, no importation of surplus military firearms, adopted by teller vote, 65–62; the tellers Horton and Dingell. Dingell against.
+    n: '[114 Cong. Rec. 22,779–80](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=36) (1968) (July 23, 1968) (the amendment offered, 22,779; a division, 43–43; the tellers Horton and Dingell, 65–62, 22,780). [[w.cq-weekly-report]], July 26, 1968, 1941. The order: after MacGregor''s amendments (22,773–77), by the Record''s pages. Check: the hour within the sitting; the House sat from 11 a.m. ([114 Cong. Rec. 22,744](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=1) (1968)) to 7:40 p.m. ([22,832](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt17/pdf/GPO-CRECB-1968-pt17-6-1.pdf#page=89)). See [[cal.1968-07-23.crime-and-hijacking-guns]]. Names: Horton, Dingell.'
+    tags: [name:horton-frank-j, name:dingell-john-d]
     time_range:
       - 1968-07-23T15:00Z
       - 1968-07-23T23:40Z
@@ -4515,7 +4584,7 @@ entries:
     thread: students
     also: [school-aid]
     c: The House passes the Higher Education Amendments, H.R. 15067, [389–15](https://voteview.com/rollcall/RH0900400), after an amendment denying its aid to students convicted of crimes in campus disorders, [260–146](https://voteview.com/rollcall/RH0900399).{1} The Senate had passed its bill, S. 3769, [83–0](https://voteview.com/rollcall/RS0900488), July 15.{2}
-    n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2025–27, 2088. [[w.graham-uncertain-triumph]], 191 (389 to 15; new authorizations of $905,270,000; $2,458,270,000 for fiscal 1969 and $2,788,730,000 for 1970, against Johnson''s request of $995.8 million). The House sat from noon to 10:02 p.m.: [Daily Digest, D382](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=380). Check: the amendment''s terms. Check: CQ has Scherle''s amendment require the colleges to cut off aid to a student who "willfully refused to obey a lawful regulation or order" of the institution, the refusal "of a serious nature" and contributing to disruption; not a conviction (2025–26). To check: *Congressional Quarterly Almanac, 1968* (1968) (cited by [[w.graham-uncertain-triumph]], 191 n.26). See [[cal.1967-10-18.students]].'
+    n: '[114 Cong. Rec. 23,372–73](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-2-2.pdf#page=52) (1968) (July 25, 1968) (the amendment, roll call no. 280, yeas 260, nays 146; the bill, roll call no. 281, yeas 389, nays 15; the Daily Digest, D382, prints the amendment''s vote 259–147). [[w.cq-weekly-report]], Aug. 2, 1968, 2025–27, 2088. [[w.graham-uncertain-triumph]], 191 (389 to 15; new authorizations of $905,270,000; $2,458,270,000 for fiscal 1969 and $2,788,730,000 for 1970, against Johnson''s request of $995.8 million). The House sat from noon to 10:02 p.m.: [Daily Digest, D382](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=380). Check: the amendment''s terms. Check: CQ has Scherle''s amendment require the colleges to cut off aid to a student who "willfully refused to obey a lawful regulation or order" of the institution, the refusal "of a serious nature" and contributing to disruption; not a conviction (2025–26). To check: *Congressional Quarterly Almanac, 1968* (1968) (cited by [[w.graham-uncertain-triumph]], 191 n.26). See [[cal.1967-10-18.students]].'
     src:
       c: 78669c61
       rows:
@@ -4525,6 +4594,7 @@ entries:
         - 'w.cq-weekly-report Aug. 2, 1968, 2025–27, 2088: 1'
         - 'w.graham-uncertain-triumph 191: 1'
         - 'via w.graham-uncertain-triumph 191 n.26: 1'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-2-2.pdf#page=52: 1'
     time_range:
       - 1968-07-25T16:00Z
       - 1968-07-26T02:02Z
@@ -4793,7 +4863,7 @@ entries:
     follows:
       - cal.1968-07-26.farm
     c: The conference report on the Senate's housing bill, S. 3497, through the House, [228–135](https://voteview.com/rollcall/RH0900405).{1}
-    n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2031, 2044, 2090. Order: after [[cal.1968-07-26.farm|the cotton bill]], in the House''s order of business, by the Record''s pages: cotton, 23598 ([Daily Digest, D385](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=383)); housing, 23636–92 ([Daily Digest, D386](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=384)). Check: CQ''s story prints the vote 227–135 (2031) and 226–135 (2044); its vote chart, 228–135 (2090), as Voteview. See [[cal.1968-07-10.cities-and-housing]].'
+    n: '[114 Cong. Rec. 23,691](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-3-2.pdf#page=94) (1968) (July 26, 1968) (roll call no. 287, yeas 228, nays 135, not voting 69). [[w.cq-weekly-report]], Aug. 2, 1968, 2031, 2044, 2090. The Record''s tally settles the count: CQ''s story prints 227–135 (2031) and 226–135 (2044), its vote chart 228–135 (2090); the Daily Digest (D386), 226–135. Order: after [[cal.1968-07-26.farm|the cotton bill]], in the House''s order of business, by the Record''s pages: cotton, 23598 ([Daily Digest, D385](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=383)); housing, 23636–92 ([Daily Digest, D386](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=384)). See [[cal.1968-07-10.cities-and-housing]].'
     src:
       c: 2f71383e
       rows:
@@ -4948,8 +5018,8 @@ entries:
     thread: transportation
     follows:
       - cal.1968-07-26.cities-and-housing
-    c: 'The House on the highway bill''s conference report, S. 3418: Stratton''s motion to recommit, to strike the $25 million for beautification, refused, [165–169](https://voteview.com/rollcall/RH0900406); the report adopted by voice vote.'
-    n: '[[w.cq-weekly-report]], Aug. 2, 1968, 2053, 2090. Order: after [[cal.1968-07-26.cities-and-housing|the housing report]], in the House''s order of business, by the Record''s pages: housing, 23636–92; highways, 23692–713 ([Daily Digest, D386](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=384)); roll calls 405 and 406. Check: CQ prints 166–167. Names: Stratton.'
+    c: 'The House on the highway bill''s conference report, S. 3418: Stratton''s motion to recommit, to strike the $25 million for beautification, refused, [166–168](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-3-2.pdf#page=116); the report adopted by voice vote.'
+    n: '[114 Cong. Rec. 23,712–13](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt18/pdf/GPO-CRECB-1968-pt18-3-2.pdf#page=115) (1968) (July 26, 1968) (the motion to recommit; roll call no. 288, yeas 166, nays 168, not voting 98, 23,713). [[w.cq-weekly-report]], Aug. 2, 1968, 2053, 2090. The Record''s tally settles the count: CQ and the Daily Digest (D386) print 166–167; the entry had 165–169, Voteview''s. Order: after [[cal.1968-07-26.cities-and-housing|the housing report]], in the House''s order of business, by the Record''s pages: housing, 23636–92; highways, 23692–713 ([Daily Digest, D386](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=384)); roll calls 405 and 406. Names: Stratton.'
     tags: [name:stratton-samuel-s]
     time_range:
       - 1968-07-26T18:00Z
@@ -5750,22 +5820,18 @@ entries:
   - id: cal.1968-07-30.vietnam-paris
     when: July 30
     date: '1968-07-30'
+    time: 1968-07-30T13:57Z
+    place: washington
     thread: vietnam-paris
-    c: 'Johnson to Rusk by telephone, on the Paris cable: Clifford "kind of expressing the viewpoint that''s contained in the cable"; "we''re not going to stop the bombing until they agree to stop some."{1} At lunch, Johnson asks Taylor for a report on "this new wave of demands to stop the bombing."{2}'
-    n: 'FRUS 1964–68, VI, docs. [314](https://history.state.gov/historicaldocuments/frus1964-68v06/d314), [316](https://history.state.gov/historicaldocuments/frus1964-68v06/d316). [Johnson and Rusk, 9:57 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dean-rusk-july-30-1968), Conversation WH6807-02-13219 (Miller Center). Made public: FRUS 1964–68, VI (2002). [[w.clifford-counsel-to-the-president-2]], 567–68 (the lunch: Johnson to Rusk on his news conference, "You missed a lot of opportunities"; to Clifford, on his remark that the concentrated bombing had "in some respects produced more dividends," "Lay off that line. It''s a damned lie"). See [[cal.1968-07-29.vietnam]]. Names: Johnson, Rusk, Clifford, Taylor.'
+    c: 'Johnson to Rusk by telephone, on the Paris cable: Clifford "kind of expressing the viewpoint that''s contained in the cable"; "we''re not going to stop the bombing until they agree to stop some."{1}'
+    n: 'FRUS 1964–68, VI, doc. [314](https://history.state.gov/historicaldocuments/frus1964-68v06/d314) (Washington, July 30, 1968, 9:57 a.m.). [Johnson and Rusk, 9:57 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dean-rusk-july-30-1968), Conversation WH6807-02-13219 (Miller Center). Made public: FRUS 1964–68, VI (2002). FRUS, doc. 316, gives the meeting with the foreign policy advisers its own hours (1 to 2:05 p.m.); it is an entry of its own. See [[cal.1968-07-29.vietnam]]. Names: Johnson, Rusk, Clifford.'
     src:
-      c: ca2563ec
+      c: 1078301a
       rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d314: 1, 2'
-        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dean-rusk-july-30-1968: 1, 2'
-        - 'w.clifford-counsel-to-the-president-2 567–68: 2'
-    tags: [name:johnson-lyndon-b, name:rusk-dean, name:clifford-clark, name:taylor-maxwell]
-    time_range:
-      - 1968-07-30T13:00Z
-      - 1968-07-30T21:00Z
-    time_band: workday daytime
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d314: 1'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dean-rusk-july-30-1968: 1'
+    tags: [name:johnson-lyndon-b, name:rusk-dean, name:clifford-clark]
     time_zone: America/New_York
-    range_basis: kind
   - id: cal.1968-07-30.governors-ar
     when: July 30
     date: '1968-07-30'
@@ -6092,7 +6158,7 @@ entries:
     date: '1968-07-30'
     thread: vietnam-paris
     follows:
-      - cal.1968-07-30.vietnam-paris
+      - cal.1968-07-30.vietnam-paris-4
     c: After the Tuesday lunch, in the back of Clifford's car, Rusk worried at the President's hard line, by Clifford's account.
     n: '[[w.clifford-counsel-to-the-president-2]], 568. Order: after the Tuesday lunch. See [[cal.1968-07-30.vietnam-paris]]. Names: Rusk, Clifford, Johnson.'
     src:
@@ -6144,9 +6210,9 @@ entries:
     date: '1968-07-30'
     thread: vietnam-air-war
     follows:
-      - cal.1968-07-30.vietnam-paris
+      - cal.1968-07-30.vietnam-paris-4
     c: Taylor reports to Johnson on the source of the "new wave of demands" to end the bombing and what to do about it.
-    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 229. Order: after [[cal.1968-07-30.vietnam-paris|the lunch]], where Johnson asked for it (FRUS 1964–68, VI, doc. [316](https://history.state.gov/historicaldocuments/frus1964-68v06/d316), 1 to 2:05 p.m.); Taylor''s memorandum is of July 30: FRUS 1964–68, VI, doc. [319](https://history.state.gov/historicaldocuments/frus1964-68v06/d319) n.2. Check: the report''s findings; the sentence runs over p. 230. Names: Taylor, Johnson.'
+    n: '[[w.drea-mcnamara-clifford-and-the-2011]], 229. Order: after [[cal.1968-07-30.vietnam-paris-4|the lunch]], where Johnson asked for it (FRUS 1964–68, VI, doc. [316](https://history.state.gov/historicaldocuments/frus1964-68v06/d316), 1 to 2:05 p.m.); Taylor''s memorandum is of July 30: FRUS 1964–68, VI, doc. [319](https://history.state.gov/historicaldocuments/frus1964-68v06/d319) n.2. Check: the report''s findings; the sentence runs over p. 230. Names: Taylor, Johnson.'
     src:
       c: 6a743ed2
       rows:
@@ -6197,6 +6263,21 @@ entries:
       rows:
         - 'w.yang-jisheng-tiandi-fanfu II, 618: all'
     tags: [polity:prc, vis:only:prc, ok:fields-place, name:guan-feng, name:qi-benyu, name:wang-li]
+  - id: cal.1968-07-30.vietnam-paris-4
+    when: July 30
+    date: '1968-07-30'
+    place: washington
+    thread: vietnam-paris
+    follows:
+      - cal.1968-07-30.vietnam-paris
+    c: 'Johnson with Rusk, Clifford, Taylor, Wheeler and Helms, 1 to 2:05 p.m.: he asks Taylor for a report on "this new wave of demands to stop the bombing." Wheeler: a full halt would let 30 percent more troops and supplies reach the South; the Joint Chiefs oppose it.'
+    n: 'FRUS 1964–68, VI, doc. [316](https://history.state.gov/historicaldocuments/frus1964-68v06/d316) (Notes of Meeting, Washington, July 30, 1968, 1–2:05 p.m.). [[w.clifford-counsel-to-the-president-2]], 567–68 (the lunch: Johnson to Rusk on his news conference, "You missed a lot of opportunities"; to Clifford, on his remark that the concentrated bombing had "in some respects produced more dividends," "Lay off that line. It''s a damned lie"). Made public: FRUS 1964–68, VI (2002). See [[cal.1968-07-30.vietnam-paris]]. Names: Johnson, Rusk, Clifford, Taylor, Wheeler, Helms.'
+    tags: [name:johnson-lyndon-b, name:rusk-dean, name:clifford-clark, name:taylor-maxwell, name:wheeler-earle, name:helms-richard]
+    time_range:
+      - 1968-07-30T17:00Z
+      - 1968-07-30T18:05Z
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1968-07-31.crime-and-hijacking
     when: July 31
     date: '1968-07-31'

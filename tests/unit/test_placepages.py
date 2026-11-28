@@ -216,21 +216,21 @@ def test_places_line(series, cal, register):
     pp.gather(series)
     ent = next(e for _, e in cal.entries() if "when" in e and e.get("place") == "peking")
     got = pp.line(ent, series)
-    assert got.startswith('Places: <a href="places-prc.html">China</a>')
-    assert '<a href="places-peking.html">Peking</a>' in got and got.endswith(".")
+    assert got.startswith('Places: <a href="places-peking.html">Peking</a>')         # the smallest tier first
+    assert got.endswith('<a href="places-prc.html">China</a>.')
     assert pp.line(E(id="cal.nowhere"), series) == ""             # an entry it does not know: none
     assert pp.line(ent, None) == "" or pp.line(ent, None) == got   # no series, no build: none (or the build's)
 
 
 def test_places_line_new_york_state(series, cal, monkeypatch):
-    """A State named as a city of the same line is: "New York State", beside the city's "New York"."""
+    """A city named as a State of the same line is: "New York City", beside the State's "New York", the city first
+    (the owner, Nov. 27, 2026)."""
     pp.reset()
     monkeypatch.setattr(pp, "CITY_MIN", 1)
     assert ("city", "nyc") in pp.gather(series)
     ent = next(e for _, e in cal.entries() if "when" in e and e.get("place") in ("nyc", "new-york"))
     got = pp.line(ent, series)
-    assert '<a href="places-new-york-state.html">New York State</a>' in got
-    assert '<a href="places-nyc.html">New York</a>' in got
+    assert '<a href="places-nyc.html">New York City</a>, <a href="places-new-york-state.html">New York</a>' in got
     pp.reset()
 
 
@@ -241,7 +241,7 @@ def test_places_line_short_names(series, cal, register, monkeypatch):
     ent = next(e for _, e in cal.entries() if "when" in e and e.get("place") == "peking")
     monkeypatch.setattr(pp, "LINE_NAME", {("nation", "prc"): "the P.R.C.", ("city", "peking"): "Pek."})
     got = pp.line(ent, series)
-    assert got.startswith('Places: <a href="places-prc.html">the P.R.C.</a>') and got.endswith("Pek.</a>")
+    assert got.startswith('Places: <a href="places-peking.html">Pek.</a>') and got.endswith("the P.R.C.</a>")
     assert pp.gather(series)[("nation", "prc")]["name"] == "China"
 
 
