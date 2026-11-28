@@ -607,7 +607,7 @@ def line(e, series=None):
     if not out:
         return ""
     shown = [(pl, LINE_NAME.get((pl["kind"], pl["slug"]), pl["name"])) for pl in out]
-    cities = {pl["name"] for pl in out if pl["kind"] == "city"}     # Washington State beside D.C., as beside Washington
+    cities = {n for pl, n in shown if pl["kind"] == "city"}         # beside D.C., the State is "Washington" (Nov. 27)
     uk = _uk_parts(e)
     if uk:                              # the United Kingdom by its parts (the owner, Nov. 27, 2026)
         listed = {n for _, n in shown}
