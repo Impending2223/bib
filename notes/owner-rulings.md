@@ -754,9 +754,3 @@ Question: the owner said on Nov. 25 that it seems absurd to exclude the famine f
 - The question: the maps' rule was that nothing of a layer is fetched before its box is ticked (`notes/guide/china-map.md`, "Loading"). "All available information" needs every layer's file.
 - Default taken (`notes/proposals/map-pin.md`): a pin reads every layer the map has, ticked or not. A layer's file not yet fetched is fetched once, when the first pin needs it: about 5 MB on the map of Indochina, about 14 MB on the map of China, before compression; the relief and the climate one tile each. The rule now reads "before its box is ticked, or before a pin is dropped" (`notes/guide/indochina-maps.md`, "The pin"; `tools/bib/vnmap.py`, STYLE 9).
 - To overrule: the pin reads only the layers whose boxes are ticked, and the panel says of each other layer that its box must be ticked to read it there.
-
-## 74. Datelines without a leading article (Nov. 27, 2026, about 10:50 p.m.)
-
-- The owner's words: "Shouldn't \"the LBJ Ranch\" dateline read \"LBJ Ranch\"?"
-- Default taken (`tools/bib/dateline.py`, STYLE 3, `_bare`): every dateline drops a leading "the" from its place, as a dateline does: "LBJ Ranch", "Plain of Jars", "Mekong Delta", "Bay of Pigs", "Canal Zone", "DMZ" (28 places in the gazetteer begin with "the"). The gazetteer keeps the article, so running text, the "Places:" line and the place pages still read "the Plain of Jars".
-- To overrule: the article off "the LBJ Ranch" alone (its gazetteer name changed instead), or off the "Places:" line too.

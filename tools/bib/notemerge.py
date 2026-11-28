@@ -54,11 +54,7 @@ def _sentences(n):
         cur += n[i]
         if n[i] == "." and (i + 1 == len(n) or (n[i + 1] == " " and i + 2 < len(n) and SENT_START.match(n[i + 2]))):
             depth = cur.count("(") - cur.count(")") + cur.count("[") - cur.count("]")
-            # inside a quotation the note closes later, no sentence ends ("Houston Bank Merger ... Reasons against,"; "Gov.
-            # Davis Is Firm,"; "Do not pursue. . . . Would like to drop matter."): the owner, Nov. 27, 2026, of a To check
-            # cut in two at its ellipsis and its second half printed among the works read
-            openq = cur.count('"') % 2 == 1 and '"' in n[i + 1:]
-            if depth == 0 and not openq and (not ABBR.search(cur[:-1]) or OPENER.match(n, i + 2)) and not (CLOCK.search(cur) and not NEXT.match(n[i + 2:])):
+            if depth == 0 and (not ABBR.search(cur[:-1]) or OPENER.match(n, i + 2)) and not (CLOCK.search(cur) and not NEXT.match(n[i + 2:])):
                 out.append(cur.strip())
                 cur = ""
         i += 1

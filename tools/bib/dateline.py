@@ -19,8 +19,7 @@ STYLE
     Nov. 19, 2026: "Write 'noon' as '12:00 p.m.'"), in a span "12:00–2 p.m."; midnight "12:00 a.m." (Nov. 19,
     about 10:45 a.m.: "Yes, '12:00 a.m.'"), "10 p.m.–12:00 a.m.", "12:00–6 a.m."; in the datelines only, the
     notes' prose as written (the same: "Datelines only").
- 3. The place: the entry's `place:` (places.py; the first of two), its gazetteer name without a leading article
-    ("LBJ Ranch", "Plain of Jars": the owner, Nov. 27, 2026; `_bare`); else, until the location pass
+ 3. The place: the entry's `place:` (places.py; the first of two), its gazetteer name; else, until the location pass
     reaches it, its city (`city:` tag), else its State (`state:`), else its zone's city (Washington for the eastern
     zone, Peking, Moscow, Saigon ...). The clock: `time_zone`, else the place's zone; an exact time with neither
     takes its thread's (the Chinese leadership's Peking, the Soviet's Moscow), else Washington's, shown as "Wash."
@@ -159,12 +158,6 @@ def _wash_days(a, b):
     return f"{MON[w1.month - 1]} {w1.day}–{MON[w2.month - 1]} {w2.day}"
 
 
-def _bare(name):
-    """A dateline's place without a leading article: "LBJ Ranch", "Plain of Jars" (the owner, Nov. 27, 2026: "Shouldn't
-    'the LBJ Ranch' dateline read 'LBJ Ranch'?"); the gazetteer's name, article and all, stays for running text."""
-    return re.sub(r"^the ", "", str(name)) if name else name
-
-
 def parts(e):
     """(the line, the dateline in full): the line its start alone, the full its range and Washington's hour where the
     day differs (STYLE 2, 4); ('', '') where there is no time."""
@@ -181,7 +174,7 @@ def parts(e):
         lz, wash_only = WASH, True
     city, st = _tags(e, "city"), _tags(e, "state")
     if pr:
-        place, wash_only = _bare(places.name_on(pr, e.get("date"))), False
+        place, wash_only = places.name_on(pr, e.get("date")), False
     else:
         place = None if wash_only else (_city(city[0]) if city and e.get("time_zone") else
                                         (_state(st[0]) if st and e.get("time_zone") else _zlabel(zone, e)))
