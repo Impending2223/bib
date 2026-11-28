@@ -28,11 +28,12 @@ STYLE
     The code's own literals (CODE: TOP, ARCHIVES, LOCAL_NAMES, NATIONS, FOLD, NATION_WORDS, _map's nations, the seeder's
     tables, the self-check's answers) and the tests' registers, assertions and tags (TESTS), each by its place in the
     file's syntax (ast), not by its letters: a thread's slug (`cuba`, `laos`), a map's own country key (`laos` in
-    vnmap's borders) and a word list's keys stay.
+    vnmap's borders, read through the aliases) and the nationalities' words (lives.py, NATION_OF) stay.
  3. YAML: Norway's `no` is written quoted ('no') where it is a YAML value or key (bare, YAML reads it as false). In a
     tag (`polity:no`) it needs no quotes.
- 4. Idempotent: a second run finds nothing to change (no new code is an old id). A literal the script looks for and
-    finds in neither form is reported, and --apply is refused until the rule is mended: the file changed under it.
+ 4. Idempotent: a second run finds nothing to change (no new code is an old id). A rule whose name, function or
+    words the file no longer has, or a literal not written plainly, is reported, and --apply is refused until the
+    rule is mended: the file changed under it.
  5. After --apply: `python3 -m pytest -q -m "not slow" --update-goldens` rewrites the goldens whose output lists
     tags (tests/golden/expected/queries/tags.txt sorts them by name); read the diff, then `./bib check`.
 """
@@ -564,6 +565,19 @@ def _rule_nodes(tree, src, rule, codes):
     return out
 
 
+def _target_found(tree, rule):
+    """Whether the file still has what the rule names (an assignment, a function, a call); "asserts" needs none."""
+    kind = rule[0]
+    if kind == "asserts":
+        return True
+    if kind == "func-tuple":
+        return any(isinstance(f, ast.FunctionDef) and f.name == rule[1] for f in ast.walk(tree))
+    if kind == "arg":
+        return any(isinstance(n, ast.Call) and isinstance(n.func, ast.Name) and n.func.id == rule[1]
+                   for n in ast.walk(tree))
+    return _assigned(tree, rule[1]) is not None
+
+
 def recode_python(src, rules, tags=False, codes=ALL):
     """(text, count, missing): a Python file's literals in the new codes, by the rules (STYLE 2); its tag literals
     too where tags; missing: the rules ("text" ones) that found neither their old nor their new form."""
@@ -575,6 +589,9 @@ def recode_python(src, rules, tags=False, codes=ALL):
         off = _offsets(src)
         edits = []
         for rule in rules:
+            if not _target_found(tree, rule):
+                missing.append(f"{rule}: its {'function' if rule[0] == 'func-tuple' else 'name'} is not in the file")
+                continue
             for item in _rule_nodes(tree, src, rule, codes):
                 if item[0] == "insert":
                     _, d, old = item

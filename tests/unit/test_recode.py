@@ -162,6 +162,7 @@ def test_python_literals():
 
 def test_python_missing_rule():
     assert recode.recode_python("X = 1\n", [("text", "nowhere", "else")])[2] == ["text 'nowhere': found in neither form"]
+    assert recode.recode_python("X = 1\n", [("all", "TOP")])[2] == ["('all', 'TOP'): its name is not in the file"]
 
 
 # ---------------------------------------------------------------- the pass on a small tree
