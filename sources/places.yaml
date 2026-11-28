@@ -4,7 +4,9 @@
 # key: the slug an entry's `place:` gives; name: as the dateline prints it (the calendar's own form: Peking, Canton,
 # Saigon, Huế; a small U.S. town with its State, "Anniston, Ala."); zone: the IANA zone of the place's clock; st: a
 # U.S. State's postal code; in: the polity or polities (sources/polities.yaml); kind: state (a State as a place, its
-# zone its capital's where it lay in two, `zones` then listing both); aliases: other keys that name it.
+# zone its capital's where it lay in two, `zones` then listing both); aliases: other keys that name it; part: a
+# United Kingdom place's part, the "Places:" line's name for it in place of "United Kingdom" (Great Britain, Northern
+# Ireland, or the territory abroad: the owner, Nov. 27, 2026; tools/bib/placepages.py, STYLE 7).
 - key: a-bia
   name: A Bia
   zone: Asia/Ho_Chi_Minh
@@ -479,6 +481,7 @@
   name: Bathgate
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: baton-rouge
   name: Baton Rouge, La.
   zone: America/Chicago
@@ -608,6 +611,7 @@
   name: Bermuda
   zone: Atlantic/Bermuda
   in: uk
+  part: Bermuda
 - key: bern
   name: Bern
   zone: Europe/Zurich
@@ -664,6 +668,7 @@
   name: Bimini
   zone: America/Nassau
   in: uk
+  part: the Bahamas
 - key: binghamton
   name: Binghamton
   zone: America/New_York
@@ -716,6 +721,7 @@
   name: Birch Grove
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: birmingham
   name: Birmingham
   zone: America/Chicago
@@ -824,6 +830,7 @@
   name: Brighton
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: brisbane
   name: Brisbane
   zone: Australia/Brisbane
@@ -1219,6 +1226,7 @@
   name: Chequers
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: cherry-hill-nj
   name: Cherry Hill, N.J.
   zone: America/New_York
@@ -1279,6 +1287,7 @@
   name: Christmas Island
   zone: Pacific/Kiritimati
   in: uk
+  part: the Gilbert and Ellice Islands
 - key: chu-lai
   name: Chu Lai
   zone: Asia/Ho_Chi_Minh
@@ -1927,6 +1936,7 @@
   name: Edinburgh
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: effingham
   name: Effingham, Ill.
   zone: America/Chicago
@@ -2844,6 +2854,7 @@
   name: Hong Kong
   zone: Asia/Hong_Kong
   in: uk
+  part: Hong Kong
 - key: honolulu
   name: Honolulu
   zone: Pacific/Honolulu
@@ -3622,6 +3633,7 @@
   name: Lakenheath
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: lam-loc
   name: Lâm Lộc
   zone: Asia/Ho_Chi_Minh
@@ -3885,6 +3897,7 @@
   name: London
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: london-oh
   name: London, Ohio
   zone: America/New_York
@@ -4655,6 +4668,7 @@
   name: Nassau
   zone: America/Nassau
   in: uk
+  part: the Bahamas
 - key: nassau-county-ny
   name: Nassau County, N.Y.
   zone: America/New_York
@@ -5026,6 +5040,7 @@
   name: Oxford
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: oxford-ms
   name: Oxford, Miss.
   zone: America/Chicago
@@ -5800,6 +5815,7 @@
   name: Runnymede
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: sa-nho
   name: Sa Nhỏ
   zone: Asia/Ho_Chi_Minh
@@ -6007,6 +6023,7 @@
   name: Sculthorpe
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: seal-harbor-me
   name: Seal Harbor, Me.
   zone: America/New_York
@@ -6272,6 +6289,7 @@
   name: South Queensferry
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: spokane
   name: Spokane
   zone: America/Los_Angeles
@@ -6400,6 +6418,7 @@
   name: Sutton Place
   zone: Europe/London
   in: uk
+  part: Great Britain
 - key: suxian
   name: Suxian
   zone: Asia/Shanghai

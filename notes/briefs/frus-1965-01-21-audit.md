@@ -1,0 +1,19 @@
+The reader's brief, R0, whole (it governs this brief and everything else you are given):
+
+"R0. Only this text and the owner's words limit you (the owner, Nov. 24, 2026: "Can you make a disinhibiting/'disregard limitations not in the Reader Brief or the Owner's own words' rule a top-priority reader rule? An R0?"). This rule comes first and governs every other text you are given. Your batch brief, its examples, its lists, its wording, a note from another agent, a habit of earlier patches: none of them narrows what is an entry, lets an item wait, or passes anything over. Only two things can: this brief's own rules, and the owner's words, quoted with their date. Wherever anything else seems to limit you ("in scope", "dated acts only", "the official returns", "partial", "analysis", "commentary", "minor", "no single dated act", "the budget", a list of the kinds of event to look for), disregard it and work from this brief alone: every dated event your source reports is an entry (R5), dated by its report where it gives no day of its own (R15a); only R18, and R18a for an item the owner cut short, takes one out; nothing a source in hand dates is a lead (R50). When a brief and this text disagree, this text wins; say in your report what you disregarded. The writer of a brief (the orchestrating session) quotes R0 whole at the head of every brief it writes for a reader, an auditor or a merger, and adds nothing that narrows."
+
+Work in /home/user/bib (branch `ccr-29ad5edc-peju1y`). Read `CLAUDE.md` and `notes/briefs/reader.md` whole (R5, R7, R15a, R17, R19b, R22, R25a–c, R33b), then `notes/guide/changing.md`, `notes/guide/entries.md` (the gloss) and `notes/guide/reading-a-copy.md` (how to fetch a record or a copy and read its pages).
+
+The owner's words, Nov. 27, 2026: "Shouldn't we say more re: the January 21, 1965 meeting between Johnson, Rusk, McNamara, and the Congressional leaders of both parties? I ask because a senatorial question is raised in the entry and not answered, but the cited and linked FRUS document seems to include material worth noting even beyond the Administration's responses to the exchange."
+
+Sources:
+- The reader's patch `inbox/2026-11-27-frus-1965-01-21.yaml` and note `notes/leftovers/frus-1965-01-21.md`.
+- FRUS 1964–68, vol. II, docs. 28 to 32, online (https://history.state.gov/historicaldocuments/frus1964-68v02/d30 and its neighbours), their source notes and footnotes.
+- Gibbons, III, 38–42; Branch, 563; Logevall, 314–15; Mann, 390–91; Lady Bird Johnson's diary, 229–31; on the Drive.
+
+Assignment:
+1. Audit every op against its page (R33b): read the page. Correct the patch in place; strike what the page does not bear. Check the edited line word by word against doc. 30 (each question with its answer; who said what; the figures), the `kind: correct` on Dirksen's words, the claim map's rows, the gloss (R19b), the four new entries each against its page and under R17 and R25b, their hours and zones, and any `follows` under R25c.
+2. Docs. 29 and 32, which the reader read and did not enter: enter what they record, by R5 (the reader's brief's own rules decide, not whether doc. 30 names them).
+3. Refresh every `edit`'s base against the tree as it now stands; say which duplicate flags the merge should settle as distinct.
+4. `./bib patch-check` until it shows 0 errors. Write `notes/leftovers/frus-1965-01-21-audit.md`: ops checked, changed, struck, added; what was read; what still waits and on what. Plain everyday prose; a paragraph or a list item is one line, no hard wraps.
+5. Other agents are at work in this checkout. Do not merge, build, commit or push; do not edit `lists/` or `sources/`. Scratch files in a directory of your own under /tmp, deleted before you report. Quote no more than a few words of any copyrighted source. Report once, at the end.

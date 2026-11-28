@@ -234,6 +234,29 @@ def test_places_line_new_york_state(series, cal, monkeypatch):
     pp.reset()
 
 
+def test_places_line_short_names(series, cal, register, monkeypatch):
+    """The line's short names (LINE_NAME; the owner, Nov. 27, 2026: "South Vietnam", "D.C."), the page keeping its own;
+    a name that ends in a period takes none after it."""
+    pp.gather(series)
+    ent = next(e for _, e in cal.entries() if "when" in e and e.get("place") == "peking")
+    monkeypatch.setattr(pp, "LINE_NAME", {("nation", "prc"): "the P.R.C.", ("city", "peking"): "Pek."})
+    got = pp.line(ent, series)
+    assert got.startswith('Places: <a href="places-prc.html">the P.R.C.</a>') and got.endswith("Pek.</a>")
+    assert pp.gather(series)[("nation", "prc")]["name"] == "China"
+
+
+def test_uk_parts(monkeypatch):
+    """A United Kingdom place's part, from its place and its place tags, each once, in the order met."""
+    rows = {"london": {"key": "london", "in": "uk", "part": "Great Britain"},
+            "oxford": {"key": "oxford", "in": "uk", "part": "Great Britain"},
+            "hong-kong": {"key": "hong-kong", "in": "uk", "part": "Hong Kong"}, "paris": {"key": "paris", "in": "fr"}}
+    monkeypatch.setattr(places, "get", rows.get)
+    monkeypatch.setattr(pp, "tag_row", lambda g: rows.get(g.partition(":")[2]))
+    assert pp._uk_parts(E(place=["london", "paris"], tags=["city:oxford", "city:hong-kong"])) == ["Great Britain",
+                                                                                                  "Hong Kong"]
+    assert pp._uk_parts(E(place="paris")) == []
+
+
 def test_into_note():
     assert pp.into_note("A, 3. Names: <a>X</a>.", "Places: P.") == "A, 3. Places: P. Names: <a>X</a>."
     assert pp.into_note("A, 3.", "Places: P.") == "A, 3. Places: P."
