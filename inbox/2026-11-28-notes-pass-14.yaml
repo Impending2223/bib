@@ -150,24 +150,22 @@ ops:
     base: '84117949'
     set:
       c: 'San Francisco, the Young Republican National Federation''s convention.{1} A session of twenty-two hours.{3} Its platform: the federal income tax abolished, the United States out of the United Nations, a "Court of the Union" over the Supreme Court, segregation kept.{6} The chairmanship: Lukens, Goldwater''s candidate, is declared elected over McDevitt.{7}'
+      n: '[[w.perlstein-before-the-storm]], 216–21; [[w.white-suite-3505]], 166–72 (the convention, June 25–28, at the Sheraton-Palace; Goldwater''s speech Thursday night, 169–70); [[w.goldberg-barry-goldwater]], 172 (the Goldwaterites in control; Hinman on the Birchers there: "There is an insanity in the air around here"); [[w.smith-on-his-own-terms]], 410 (a week after Denver); [[w.novak-agony-of-the-g]], 195–201 (June 27–28 on the floor, the Sheraton-Palace; three in four delegates for Goldwater; Gaston directing the disruption; Nadasdy; adjourned at 5:15 a.m., having adopted only the statement of principles and elected officers, by Hiller''s report; the resolutions committee''s civil rights plank never brought to the floor). [[w.kabaservice-rule-and-ruin]], 64–65 (Nadasdy kept in the chair twenty-two hours; the tallies at 5:15 a.m., McDevitt winning or losing by two; Lukens declared elected; the platform). Names: Lukens. Check: the days. Check: Goldberg, 172, puts the Young Republicans'' convention at Denver. Check: Young, 67, puts the convention in August 1963. Check: Kabaservice, 65, has conflicting tallies at 5:15 a.m. showing McDevitt winning or losing by two ballots, and McDevitt giving up; White, 171, has Nadasdy declare McDevitt the winner after the first roll call and Lukens win a clear majority on the second.'
+      src:
+        c: 3e2241a5
+        rows:
+        - 'w.perlstein-before-the-storm 216–21: 1, 3, 6'
+        - 'w.kabaservice-rule-and-ruin 64–65: 3, 6, 7'
+        - 'w.white-suite-3505 166–72: 1, 7'
+        - 'w.goldberg-barry-goldwater 172: 1'
+        - 'via w.goldberg-barry-goldwater 172 n.127: 1'
+        - 'w.smith-on-his-own-terms 410: 1'
+        - 'w.novak-agony-of-the-g 195–201: 1, 3, 6'
+        - 'via x.1963-06.hiller-report-young-republican-convention: 3'
+      tags:
+      - city:san-francisco
+      - name:lukens-donald-e
     kind: reword
-- cite:
-    id: cal.1963-06-25.republican-party
-    item: '[[w.kabaservice-rule-and-ruin]], 65'
-    'on': 'The chairmanship: Lukens, Goldwater''s candidate, is declared elected over McDevitt.'
-- cite:
-    id: cal.1963-06-25.republican-party
-    item: '[[w.white-suite-3505]], 171'
-    'on': 'The chairmanship: Lukens, Goldwater''s candidate, is declared elected over McDevitt.'
-- names:
-    id: cal.1963-06-25.republican-party
-    add:
-    - Lukens
-    tags:
-    - name:lukens-donald-e
-- check:
-    id: cal.1963-06-25.republican-party
-    text: 'Check: Kabaservice, 65, has conflicting tallies at 5:15 a.m. showing McDevitt winning or losing by two ballots, and McDevitt giving up; White, 171, has Nadasdy declare McDevitt the winner after the first roll call and Lukens win a clear majority on the second.'
 - names:
     id: cal.1963-06-25.republican-party
     add: []
@@ -618,14 +616,13 @@ ops:
     - ok:note-substance
 - add-words:
     id: cal.1965-06-27.vietnam-operations
-    after: end
-    words: Over 25 Viet Cong are killed, 200 tons of food and supplies destroyed and some 50 tons of rice recovered for distribution by South Vietnamese authorities.
+    after: 'War Zone D. The 173d Airborne Brigade, two battalions, with the Australian battalion, a South Vietnamese regiment and two airborne battalions, in a three-day sweep: the first entry in years by any but Communist troops;'
+    words: over 25 Viet Cong killed, 200 tons of food and supplies destroyed, some 50 tons of rice recovered for distribution by South Vietnamese authorities;
     item: '[[w.macv-command-history-1965]], 166–67'
-- add-words:
+- cite:
     id: cal.1965-06-27.vietnam-operations
-    after: end
-    words: By MACV's history, it is the first time in over a year that friendly forces have entered the base area.
-    item: '[[w.macv-command-history-1965]], 166'
+    item: '[[w.macv-command-history-1965]], 166–67 ("the first time in over a year")'
+    'on': War Zone D. The 173d Airborne Brigade … the first entry in years by any but Communist troops;
 - names:
     id: cal.1965-06-27.vietnam-operations
     add: []
