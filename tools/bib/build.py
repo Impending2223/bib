@@ -126,7 +126,8 @@ _NAV = {}
 def thread_nav(series, lst, e, year, text_html):
     """Under a calendar entry, for each of its threads, the entries before and after it in the thread:
     "⟨⟨ Testing ⟩⟩", the brackets the links (not underlined: .tnb), the date on hover (the year added where it differs). A thread's first
-    entry has no ⟨⟨, its last no ⟩⟩."""
+    entry has no ⟨⟨, its last no ⟩⟩. In the calendar's ebook alone since Nov. 27, 2026 (calbook.py, STYLE 7); the web
+    pages' arrow keys take the same order from the page's data (calsplit.nav_data, STYLE 7)."""
     key = id(lst)
     if key not in _NAV:
         _NAV[key] = {t: [m["id"] for m in ms] for t, ms in thread_members(lst).items()}
@@ -348,9 +349,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         prog = program_html(series, lst, e, year, text_html)
         if prog:
             parts.append(f'<span class="tn tp">{prog}</span>')
-        nav = thread_nav(series, lst, e, year, text_html)
-        if nav:
-            parts.append(nav)
+        # no thread line on the web pages (the owner, Nov. 27, 2026: "Drop the threadlines from the bottom of the web
+        # entries ... Keep the threadlines on the ebook"): calbook.py puts them back (thread_nav; calsplit.py, STYLE 7)
     if e.get("gloss"):
         # a gloss: a note on the entry, not an entry; under it, in a smaller size (.gl in daybook.py's style)
         gl = e["gloss"] if isinstance(e["gloss"], dict) else {"text": e["gloss"]}
@@ -1454,7 +1454,7 @@ def run(series, which=None):
                 page = contents.finish(page, lst, half or 1, defer=bool(whole))
                 if half:
                     page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
-                    page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
+                    page = page.replace("</body>", calsplit.nav_data(page, lst) + calsplit.SCRIPT + "\n</body>", 1)
                 page = vispage.inject(page)              # the panel's style and script (tools/bib/vispage.py)
             if whole:
                 held.append((half, name, path, page))
@@ -1491,7 +1491,8 @@ def run(series, which=None):
         if cal is not None:                  # the thread statements' tables and maps (tools/bib/contents.py)
             page = contents.finish(page, cal, None)
         page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
-        page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
+        page = page.replace("</body>", (calsplit.nav_data(page, cal) if cal is not None else "") + calsplit.SCRIPT
+                            + "\n</body>", 1)
         page = vispage.inject(page)                  # the panel's style and script (tools/bib/vispage.py)
         path = os.path.join(OUT, "series.html")
         page = pages.route(page)                     # links to the parts of a split page (tools/bib/pages.py)
@@ -1574,7 +1575,7 @@ def run(series, which=None):
         written += [p for p, _, _ in ebooks.build(series)]
         from . import calbook                # the whole calendar, one EPUB, from the pages just built (calbook.py)
         if os.path.exists(os.path.join(OUT, "cal1960H1.html")):
-            p, _, _ = calbook.build()
+            p, _, _ = calbook.build(series=series)
             errs = ebooks.validate(p)
             if errs:
                 print(f"calbook: {len(errs)} problems in {p}:", *errs[:10], sep="\n  ")

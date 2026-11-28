@@ -164,6 +164,20 @@ def count(rows):
     return f"{n:d} placed {'entry' if n == 1 else 'entries'}, at {p} {'place' if p == 1 else 'places'}."
 
 
+def place_pages(series, places=(), units=(), countries=()):
+    """The pages the pin's panel links (vnmap STYLE 9): {"p": {gazetteer key: page}, "u": {unit: page}, "c": {country:
+    page}}, for those of a map's places, provincial units and countries that have a page of their own (placepages.py:
+    a city's, a province's, a nation's), each "places-<slug>.html"; {} without a series."""
+    if series is None or calendar(series) is None:
+        return {}
+    from . import placepages
+    got, rows = placepages._by_page(series)
+    out = {"p": {k: rows[k]["page"] + ".html" for k in sorted(places) if k in rows},
+           "u": {k: got[("province", k)]["page"] + ".html" for k in sorted(units) if ("province", k) in got},
+           "c": {k: got[("nation", k)]["page"] + ".html" for k in sorted(countries) if ("nation", k) in got}}
+    return {k: v for k, v in out.items() if v}
+
+
 def data(d):
     return json.dumps(d, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 

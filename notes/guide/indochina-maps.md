@@ -43,6 +43,16 @@ The owner, Nov. 25, 2026: "Put them on the relevant threads top, scoped to the t
 - A page whose range holds no placed entry of the thread carries no map. A thread divided by date carries a map on each part that has one, on the part's dates, and on its own page, on the whole span.
 - A link in the map's lists goes to the entry on the thread's page where the page holds it (`t-<id>`), and to the calendar where it does not.
 
+## The pin (both maps)
+
+The owner, Nov. 27, 2026: "Could we make it so that tapping a point on the map 'drops a pin' that toggles a display beneath the map listing the latitude and longitude of the pin, the nearest point in the gazette, and all available information about the point from the map layers?" The code: `tools/bib/vnmap.py` (STYLE 9) and the client, `tools/bib/vnmap.js`. The note to the owner: `notes/proposals/map-pin.md`.
+
+- A tap or a click on the map drops a pin there, unless it falls on a dot, a city's circle or one of the map's controls: those do what they did. A tap elsewhere moves the pin. A tap on the pin, or the × in the panel, takes it away. A drag, a pinch or a double tap drops no pin.
+- The pin opens a panel just under the map's box, above the legend. It lists the pin's latitude and longitude to three decimals; the gazetteer's nearest place, its distance, its entries in the span, its page where it has one and its row in the gazetteer; then a line for each layer the map has, read at the pin: the country, the province or unit (with its entries placed in it as a whole), the county, the elevation, the sea's depth, the contours either side, the nearest river within 20 km, the lake, the climate, the rain and the temperature month by month, the population of 1960 and 1970, and the nearest city with its figure. A layer that holds nothing there says so.
+- The panel takes the place of the card a tap on a unit used to open over the map (its name, its line, the month's rain). A tap on a dot or a city's circle still opens its card over the map.
+- The layers are read from their own files, not from what the map has drawn, so a layer whose box is not ticked is read too. A layer's file not yet fetched is fetched when the pin first needs it; the elevation and the climate are read from one tile each. The manifest's `pin` holds what the files do not: the contours' levels, every climate class with its colour, and the pages of the map's places, units and countries (`maps.place_pages`).
+- Tests: `tests/unit/test_maps.py` (the panel in every box, the manifest's `pin`, the pages, the client, and the pin's reading of a point, run in node where node is installed).
+
 ## The page of the two maps
 
 `build/maps.html` (`maps.page`): a heading, one line of what the maps are, and the two maps in the front page's own markup for a list of pages (`ol.e.lists`; its five rules are copied from `templates/series.html`, since `templates/list.html` does not have them). The top bar's one mark 図 leads to it (`templates/list.html`). `./bib build maps` builds it alone; it is also written with either map's page. The two map pages keep their addresses.

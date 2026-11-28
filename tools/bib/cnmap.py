@@ -235,7 +235,7 @@ def manifest(series):
          "credit": {**{k: v for k, v in CREDIT.items() if k in files},
                     "page": '<a href="china.html#sources">Sources and licenses</a>'},
          "opt": {"shown": ["prc", "roc", "hong-kong", "macau"], "dot": DOT, "city": CITY, "unit": "as of 1966"},
-         **vnmap._legends(SRC)}
+         **vnmap._legends(SRC), "pin": vnmap.pin_data(SRC, series, list(gazetteer()), list(units()))}
     _C["manifest"] = _put_json("manifest", M)
     return _C["manifest"]
 
@@ -275,7 +275,7 @@ def ready():
 def box(label):
     """The controls, the map's box and the legend: what every figure of this map holds under its span's fields."""
     return (_bar() + f'<div class="vnm-box"><div class="vnm-gl" role="region" aria-label="{label}"></div>'
-            '<div class="vnm-pop" hidden></div></div>' + _key())
+            '<div class="vnm-pop" hidden></div></div>' + vnmap.PIN + _key())
 
 
 def full_figure(series):

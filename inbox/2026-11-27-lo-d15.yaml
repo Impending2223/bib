@@ -7,7 +7,7 @@ ops:
     kind: correct
     set:
       c: Powell's Education and Labor Committee approves the $1.3 billion education bill, 23–8, no construction money.{1}
-      n: '[[w.zelizer-fierce-urgency-of-now]], 180; [[w.bernstein-guns-or-butter]], 196 (all 21 Democrats, Green among them, and Reid and Bell). The vote of Mar. 2 is dated by [[w.zelizer-fierce-urgency-of-now]],
+      n: '[[w.zelizer-fierce-urgency-of-now]], 180; [[w.bernstein-guns-or-butter]], 196. The vote of Mar. 2 is dated by [[w.zelizer-fierce-urgency-of-now]],
         180, and [[w.bernstein-guns-or-butter]], 196. See [[cal.1965-02-05.school-aid]]. Names: Powell.'
       src:
         c: 4e3209dc
@@ -16,6 +16,24 @@ ops:
         - 'w.bernstein-guns-or-butter 196: 1'
       tags:
       - name:powell-adam-clayton-jr
+- add-words:
+    id: cal.1965-03-02.school-aid
+    after: end
+    words: All 21 Democrats, Edith Green among them, and two Republicans, Reid and Bell, for.
+    item: '[[w.bernstein-guns-or-butter]], 196'
+- names:
+    id: cal.1965-03-02.school-aid
+    add:
+    - Green
+    - Reid
+    - Bell
+    tags:
+    - name:green-edith
+    - name:reid-ogden-r
+    - name:bell-alphonzo
+- cite:
+    id: cal.1965-03-02.school-aid-2
+    item: '[[w.zelizer-fierce-urgency-of-now]], 181 (the 242; not the 68)'
 - add:
     entry:
       id: cal.1965-03-02.school-aid-3
@@ -24,9 +42,11 @@ ops:
       place: washington
       thread: school-aid
       c: 'Cater to Johnson, by memorandum: the National Education Association counts at least 242 House members committed to the education bill.'
-      n: '[[w.zelizer-fierce-urgency-of-now]], 181 (the NEA''s legislative committee: at least 242 positive commitments in the House as of Mar. 2). To check: Douglass Cater to Johnson, Mar. 2,
-        1965, Office Files of Bill Moyers, box 1, LBJ Library (cited by [[w.zelizer-fierce-urgency-of-now]], 181 n.37). See [[cal.1965-03-02.school-aid]]; the NEA''s count, 242 to 68: [[cal.1965-03-02.school-aid-2]].
-        Names: Cater.'
+      follows:
+      - cal.1965-03-02.school-aid-2
+      n: '[[w.zelizer-fierce-urgency-of-now]], 181 (the count: the NEA''s legislative committee, at least 242 positive commitments in the House as of Mar. 2); 181 n.37 (the memorandum, Cater to Johnson,
+        Mar. 2). The order: after [[cal.1965-03-02.school-aid-2]], the count the memorandum reports. Made public: 2015 ([[w.zelizer-fierce-urgency-of-now]]). To check: Douglass Cater to Johnson, Mar. 2, 1965, Office Files of Bill Moyers, box 1, LBJ Library
+        (cited by [[w.zelizer-fierce-urgency-of-now]], 181 n.37). See [[cal.1965-03-02.school-aid]]. Names: Cater.'
       tags:
       - name:cater-s-douglass
 - edit:
@@ -37,8 +57,9 @@ ops:
       c: 'Atlanta, Frazier''s café. SNCC''s executive committee meets from before 10 p.m. Friday, on King''s march from Selma.{1} Silas Norman, the Selma project''s director: SNCC should lend
         walkie-talkies for the road, cooking utensils and medical help;{2} Forman and others: a course of SNCC''s own. The committee votes to put its dissent in a letter to King; Norman and Ivanhoe
         Donaldson draft it that night.{3}'
-      n: '[[w.branch-at-canaans-edge]], 29–31. The time: the committee "convened before ten o''clock Friday night" (29). The time is the first night''s; the Friday meeting is dated by Branch,
-        29. To check: Minutes, SNCC executive committee meeting, Mar. 5, 1965, SNCC Papers, King Library and Archives (cited by [[w.branch-at-canaans-edge]], 29–31). See [[cal.1965-03-07.voting-rights]].
+      time: 1965-03-06T02:45Z
+      n: '[[w.branch-at-canaans-edge]], 29–31; 29 n. (the minutes, "9:45 p.m., March 5, 1965"). The time: 9:45 p.m., Atlanta''s clock, the hour the minutes bear as Branch''s note cites them; the committee
+        "convened before ten o''clock Friday night" (29). The time is the first night''s; the Friday meeting is dated by Branch, 29. To check: Minutes, SNCC executive committee meeting, Mar. 5, 1965, SNCC Papers, King Library and Archives (cited by [[w.branch-at-canaans-edge]], 29–31). See [[cal.1965-03-07.voting-rights]].
         Names: Forman, Martin Luther King.'
       src:
         c: c9bcc09d
@@ -48,12 +69,14 @@ ops:
       tags:
       - name:forman-james
       - name:king-martin-luther-jr
+    unset:
+    - time_approx
 - add-words:
     id: cal.1965-03-06.civil-rights-organizations
     after: Atlanta, Frazier's café.
     words: 'The debate on the letter to King runs through Saturday: Bond for a bare notice of where SNCC will and will not cooperate; Cox and Forman for its dissent set out; Lewis, almost alone,
       for the march: "If these people want to march, I''m going to march with them."'
-    item: '[[w.branch-at-canaans-edge]], 40–41 (Saturday night; Frazier''s)'
+    item: '[[w.branch-at-canaans-edge]], 40–41'
 - names:
     id: cal.1965-03-06.civil-rights-organizations
     add:
@@ -70,7 +93,7 @@ ops:
       when: Mar. 10
       c: Montgomery. Some 700 students of Tuskegee Institute at the capitol with a petition for the vote;{1} Wallace will not see them. Some 200, with Forman and SNCC's workers, sit down and stay
         the night.{2}
-      n: '[[w.branch-at-canaans-edge]], 85–86 (Wednesday, Mar. 10: the students and the night at the capitol are Wednesday''s, 85–86). To check: WATS report, Montgomery, Mar. 10, 1965, SNCC Papers,
+      n: '[[w.branch-at-canaans-edge]], 85–86. To check: WATS report, Montgomery, Mar. 10, 1965, SNCC Papers,
         reel 15 (cited by [[w.branch-at-canaans-edge]], 86). See [[cal.1965-03-10.voting-rights-selma-2]]. Names: Wallace, Forman.'
       src:
         c: 82eaa331
@@ -90,7 +113,7 @@ ops:
       - students
       c: Montgomery, Dexter Avenue Baptist Church. Bevel, from Selma, against Forman's demonstrations. Forman leads four of SNCC's staff and a student back toward the capitol; the police jail
         them, then Bevel, and club some two hundred back into the church.
-      n: '[[w.branch-at-canaans-edge]], 88 (Thursday; Willie Ricks over the SNCC WATS line to Atlanta: "Bevel and Forman almost came to blows in the church"). To check: WATS report, Montgomery,
+      n: '[[w.branch-at-canaans-edge]], 88 (Willie Ricks over the SNCC WATS line to Atlanta: "Bevel and Forman almost came to blows in the church"). To check: WATS report, Montgomery,
         Mar. 11, 1965, SNCC Papers, reel 15 (cited by [[w.branch-at-canaans-edge]], 88). See [[cal.1965-03-10.voting-rights-selma-3]]. Names: Forman.'
       tags:
       - name:forman-james
@@ -104,9 +127,8 @@ ops:
         bring charges against those whom we can identify as violators."{2}'
       n: '[[w.branch-at-canaans-edge]], 89. After [[cal.1965-03-11.voting-rights-2|the call of 10:35 a.m.]]: Branch has the press conference "initiated and scripted by Johnson," and the note cites
         that call for it (89 and its note). To check: [Johnson and Katzenbach, 10:35 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-nicholas-katzenbach-march-11-1965),
-        Conversation WH6503-06-7059 (Miller Center); *New York Times*, [Mar. 12 at 1](https://timesmachine.nytimes.com/timesmachine/1965/03/12/issue.html) and [Mar. 13, 1965, at 12](https://timesmachine.nytimes.com/timesmachine/1965/03/13/issue.html)
-        (cited by [[w.branch-at-canaans-edge]], 89). See [[cal.1965-03-07.voting-rights]]. The press conference is Branch''s (89), the Attorney General''s judgment "just rendered" before the evening
-        reception. Names: Katzenbach, Johnson.'
+        Conversation WH6503-06-7059 (Miller Center); [*New York Times*, Mar. 12, 1965](https://timesmachine.nytimes.com/timesmachine/1965/03/12/issue.html), at 1 (cited by [[w.branch-at-canaans-edge]],
+        89). See [[cal.1965-03-07.voting-rights]]. Names: Katzenbach, Johnson.'
       src:
         c: 6e94e3c3
         rows:
@@ -125,19 +147,25 @@ ops:
       follows:
       - cal.1965-03-11.civil-rights-the-executive-2
       c: 'The White House, the East Room, the evening. Johnson, to some fifty members of Congress at the tenth briefing on Vietnam, on Selma: "The ghost of Lincoln is moving up and down the corridors
-        rather regularly these days." He has Katzenbach explain his statement to the press; Representative John Bell Williams of Mississippi attacks it.'
-      n: '[[w.branch-at-canaans-edge]], 88–89 (fifty-odd members due for the tenth briefing reception on Vietnam; the East Room; "The ghost of Lincoln," 89). The order: after [[cal.1965-03-11.civil-rights-the-executive-2]],
-        Branch, 89 (the Attorney General explains "the judgment he had just rendered at a press conference"). The range is the evening: Branch has Reeb''s death noted to Johnson, "6:55 p.m., Alabama
-        time," during the briefing. See [[cal.1965-03-07.voting-rights]]. Names: Johnson, Katzenbach.'
+        rather regularly these days." He has Katzenbach explain his statement to the press; Representative John Bell Williams of Mississippi attacks it. McNamara and Rusk on Vietnam.'
+      n: '[[w.branch-at-canaans-edge]], 88–89; [[w.johnson-white-house-diary]], 251 (the congressional reception at 6:30; the briefings for the men; "It was 9:30 when they emerged"; not the remarks).
+        The time: the reception''s, 6:30 p.m., Washington''s clock (Lady Bird Johnson''s diary, 251), the remarks prefacing the briefing (Branch, 89). The order: after [[cal.1965-03-11.civil-rights-the-executive-2]],
+        Branch, 89 (the Attorney General explains "the judgment he had just rendered at a press conference"). To check: [*New York Times*, Mar. 13, 1965](https://timesmachine.nytimes.com/timesmachine/1965/03/13/issue.html),
+        at 12 (cited by [[w.branch-at-canaans-edge]], 89). See [[cal.1965-03-07.voting-rights]]. Names: Johnson, Katzenbach, Williams, McNamara, Rusk.'
       tags:
       - name:johnson-lyndon-b
       - name:katzenbach-nicholas
-      time_range:
-      - 1965-03-12T00:00Z
-      - 1965-03-12T03:00Z
-      time_band: evening
+      - name:williams-john-b
+      - name:mcnamara-robert-s
+      - name:rusk-dean
+      time: 1965-03-11T23:30Z
+      time_approx: true
       time_zone: America/New_York
-      range_basis: record
+- follows:
+    id: cal.1965-03-11.voting-rights-selma-3
+    add:
+    - cal.1965-03-11.civil-rights-the-executive-4
+    basis: '[[w.branch-at-canaans-edge]], 89 (the note of Reeb''s death handed to Johnson while McNamara and Rusk brief, after his remarks)'
 - edit:
     id: cal.1965-03-13.voting-rights
     base: 136fefd1
@@ -151,10 +179,11 @@ ops:
         407–08; [[w.dallek-flawed-giant]], 216–17; [[w.branch-at-canaans-edge]], 94–98; [[w.mann-walls-of-jericho]], 456–58 (the meeting); [[w.kotz-judgment-days]], 304 (just before noon, Saturday,
         Mar. 13; "something in common" with King); [[w.kotz-judgment-days]], 304–06 (just before noon, with Seymore Trammell; two hours; "You can''t stop a fever by putting an icepack on your
         head"; "Don''t you shit me, George Wallace"; "George Wallace—He Hated"; Katzenbach, Valenti and Goodwin with Johnson); [[w.bernstein-guns-or-butter]], 231 (three hours in the Oval Office;
-        Burke Marshall: "He really had Wallace impressed"); [[w.kotz-judgment-days]], 304–06. Check: Bernstein, 231, has three hours in the Oval Office; Kotz, 305, two. To check: [[w.carter-politics-of-rage-1995]].
-        (Mar. 12 or 13, 1965), Diary Backup, LBJ Library; Katzenbach to Johnson, Mar. 13, 1965, Diary Backup, LBJ Library; Talking Points, n.d. (Mar. 12 or 13, 1965), Diary Backup, LBJ Library
-        (cited by [[w.dallek-flawed-giant]], 216). See [[cal.1965-03-07.voting-rights]]. The meeting is dated by [[w.kotz-judgment-days]], 304 ("just before noon"); the news conference by Kotz,
-        306 (3:45 p.m.). Names: Wallace, Katzenbach, Valenti, Goodwin, Martin Luther King. Check: Mann, 456, gives "Saturday, March 12."'
+        Burke Marshall: "He really had Wallace impressed"). Check: Bernstein, 231, has three hours in the Oval Office; Kotz, 305, two. Check: Branch, 98, has three hours and fifteen minutes;
+        Dallek, 217, "nearly three hours," and 216 the afternoon. To check: [[w.carter-politics-of-rage-1995]]; Wallace to Johnson, Mar. 12, 1965, and Lee White to Johnson, Mar. 13, 1965, WHCF: EX/HU2/ST1; Memo, Selma, Mar. 13, 1965, Legislative
+        Background: Voting Rights Act, 1965; Douglass Cater to Johnson, n.d. (Mar. 12 or 13, 1965); Katzenbach to Johnson, Mar. 13, 1965; Talking Points, n.d. (Mar. 12 or 13, 1965), Diary Backup,
+        LBJ Library (cited by [[w.dallek-flawed-giant]], 216 n.91). See [[cal.1965-03-07.voting-rights]]. The meeting is dated by [[w.kotz-judgment-days]], 304 ("just before noon"). Names: Wallace,
+        Katzenbach, Valenti, Goodwin, Martin Luther King. Check: Mann, 456, gives "Saturday, March 12."'
       src:
         c: 50147d42
         rows:
@@ -188,27 +217,36 @@ ops:
       also:
       - alabama
       follows:
-      - cal.1965-03-13.voting-rights
+      - cal.1965-03-13.voting-rights-selma-3
       time: 1965-03-13T20:45Z
       time_zone: America/New_York
-      c: 'The Rose Garden, 3:45 p.m. Johnson''s news conference after the meeting with Wallace: "What happened in Selma was an American tragedy";{1} the voting bill to go to Congress Monday;{2}
-        if State officials will not register citizens, federal officials will.{3} He tells of urging Wallace to declare for universal suffrage, to assure peaceful assembly and to appoint a biracial
-        commission.{4}'
-      n: 'The President''s News Conference, [1965 Pub. Papers 274](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=350) (Mar. 13, 1965). [[w.kotz-judgment-days]],
-        306–07 ("At 3:45 p.m. the president walked into the Rose Garden"; the bill to Congress Monday, Mar. 15; citizens registered by federal officials where State officials refuse); [[w.bernstein-guns-or-butter]],
-        231 (at the news conference, "We are not in agreement on a good many things"); [[w.mann-walls-of-jericho]], 456–58 (the Rose Garden; the bill to go to Congress). The order: after [[cal.1965-03-13.voting-rights]],
-        the meeting with Wallace, which the news conference reports ([[w.kotz-judgment-days]], 306: after "just before noon"). See [[cal.1965-03-07.voting-rights]]. Names: Wallace, Johnson.'
+      c: 'The Rose Garden, 3:45 p.m. Johnson''s news conference: "What happened in Selma was an American tragedy"; the voting bill to go to Congress Monday; if State officials will not register
+        citizens, federal officials will. He tells of urging Wallace to declare for universal suffrage, to assure peaceful assembly and to call a biracial meeting: "we are not in agreement on a good
+        many things." Katzenbach speaks on background. Wallace at his side, by Garrow''s and Mann''s accounts.'
+      n: 'The President''s News Conference, [1965 Pub. Papers 274](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=350) (Mar. 13, 1965) (275–77, 280; not Wallace''s
+        presence). The time and the place: the Papers'' note, the Rose Garden, "3:45 p.m." (281). [[w.kotz-judgment-days]], 306–07 (not Katzenbach or Wallace); [[w.bernstein-guns-or-butter]],
+        231 (the three requests; "We are not in agreement on a good many things"); [[w.branch-at-canaans-edge]], 98 (the thirty-eighth press conference, outdoors; universal suffrage); [[w.garrow-bearing-the-cross]],
+        407–08 (Johnson escorts Wallace into the Rose Garden to watch; the bill Monday; the tragedy; the three requests); [[w.mann-walls-of-jericho]], 458 (Wallace "just behind his right shoulder";
+        the bill; universal suffrage). Check: Branch, 98, has Wallace leave after speaking to the reporters; Bernstein, 231, has the press conference "immediately afterward." The order: after [[cal.1965-03-13.voting-rights-selma-3]],
+        Kotz, 306 (Wallace to the reporters in the hallway; then "At 3:45 p.m. the president walked into the Rose Garden"). See [[cal.1965-03-13.voting-rights]]. Names: Johnson, Wallace, Katzenbach.'
       tags:
       - name:wallace-george-c
       - name:johnson-lyndon-b
+      - name:katzenbach-nicholas
 - edit:
     id: cal.1965-03-15.voting-rights-selma-2
     base: 1b766139
     set:
       n: '[[w.branch-at-canaans-edge]], 104–08; [[w.kotz-judgment-days]], 307–08, 312 (King kept in Alabama by Reeb''s memorial service; he watches the address with Lewis at the Jacksons'', in
         tears); [[w.bernstein-guns-or-butter]], 231 (after a battle led by Collins and Baker; King preaches). To check: Mobile LHM, Mar. 19, 1965, FBI file 44-12831-693; *Washington Post*, Mar.
-        16, 1965, at 1 (cited by [[w.branch-at-canaans-edge]], 108). The service was set for two o''clock (Branch, 105): the time is that. See [[cal.1965-03-14.voting-rights]]. Names: Reeb, Reuther,
+        16, 1965, at 1 (cited by [[w.branch-at-canaans-edge]], 105). The service was set for two o''clock (Branch, 105): the time is that. See [[cal.1965-03-14.voting-rights]]. Names: Reeb, Reuther,
         Martin Luther King, Frank Johnson, Iakovos.'
+      src:
+        c: 6cf37117
+        rows:
+        - 'w.branch-at-canaans-edge 104–08: 1, 2, 4'
+        - 'w.kotz-judgment-days 307–08, 312: 4'
+        - 'w.bernstein-guns-or-butter 231: 1'
 - add:
     entry:
       id: cal.1965-03-15.voting-rights-selma-4
@@ -217,51 +255,77 @@ ops:
       thread: voting-rights-selma
       also:
       - king
-      c: Judge Thomas of Mobile orders Clark to permit a limited march to the courthouse.
-      n: '[[w.branch-at-canaans-edge]], 108 (Clark receives the news outside Brown Chapel; "U.S. District Judge Daniel Thomas of Mobile had ordered Clark to permit a limited march to the courthouse").
-        The hour of the order itself is not given; the memorial service''s end, when Abernathy announces it, is the latest. Check: the hour of the order. See [[cal.1965-03-15.voting-rights-selma-2]].
-        Names: Daniel Thomas, Clark.'
+      c: Judge Thomas of Mobile orders Clark to permit a limited march to the courthouse at Selma.
+      n: '[[w.branch-at-canaans-edge]], 108 ("U.S. District Judge Daniel Thomas of Mobile had ordered Clark to permit a limited march to the courthouse"). The hour of the order is not given; its
+        announcement at Brown Chapel, as the memorial service ends, is the latest it can be. Check: the hour and the place of the order. See [[cal.1965-03-15.voting-rights-selma-2]]. Names: Daniel
+        Thomas, Clark.'
       tags:
       - name:thomas-daniel-h
       - name:clark-james-g-jr
       - state:al
       - city:selma
       - ok:fields-place
+- add:
+    entry:
+      id: cal.1965-03-15.voting-rights-selma-5
+      when: Mar. 15
+      date: '1965-03-15'
+      place: selma
+      thread: voting-rights-selma
+      also:
+      - king
+      follows:
+      - cal.1965-03-15.voting-rights-selma-2
+      - cal.1965-03-15.voting-rights-selma-4
+      c: Selma, Brown Chapel, as King finishes the eulogy. Clark gets the news of the order on the sidewalk with Baker, Hosea Williams and Bevel; Baker takes down the barricades on Sylvan Street.
+        Four minutes later Abernathy announces the order from the pulpit.
+      n: '[[w.branch-at-canaans-edge]], 108 ("As he finished, Sheriff Clark received mortifying news"; "Four minutes later, Ralph Abernathy rushed behind King into the pulpit"). The order: after
+        [[cal.1965-03-15.voting-rights-selma-2]], the service (108: "As he finished"), and [[cal.1965-03-15.voting-rights-selma-4]], the order it announces. To check: Mobile LHM, Mar. 19, 1965,
+        FBI file 44-12831-693, 12–13 (cited by [[w.branch-at-canaans-edge]], 108). See [[cal.1965-03-15.voting-rights-selma-2]]. Names: Clark, Baker, Hosea Williams, Abernathy, Martin Luther King.'
+      tags:
+      - name:clark-james-g-jr
+      - name:baker-wilson
+      - name:williams-hosea
+      - name:abernathy-ralph-david
+      - name:king-martin-luther-jr
+      - state:al
+      - city:selma
 - edit:
     id: cal.1965-03-15.voting-rights-selma-3
     base: 627d8c49
     kind: correct
     set:
-      c: Selma. Abernathy announces the order to Brown Chapel as King finishes, four minutes after Baker takes down the barricades on Sylvan Street. Some 3,500 march at 5:08 p.m., a twenty-minute
-        memorial on the courthouse steps.
-      n: '[[w.branch-at-canaans-edge]], 107–08 (108: the march "at 5:08 p.m."; Judge Thomas''s order, announced by Abernathy four minutes after Baker takes down the barricades; the twenty-minute
-        ceremony on the steps). [[w.bernstein-guns-or-butter]], 231 (after a battle led by Collins and Baker). To check: Mobile LHM, Mar. 19, 1965, FBI file 44-12831-693; *Washington Post*, Mar.
-        16, 1965, at 1 (cited by [[w.branch-at-canaans-edge]], 108). It follows the memorial service: the order is announced as King finishes (108). See [[cal.1965-03-15.voting-rights-selma-2]].
-        The order is Judge Thomas''s, as Branch gives it (108). Names: Daniel Thomas, Clark, Abernathy, Baker, Martin Luther King. Check: Bernstein, 231, gives a crowd of 2,000 on the courthouse
-        steps.'
+      c: Selma. Some 3,500 march at 5:08 p.m. to the courthouse, which Clark has locked; a twenty-minute memorial on its steps.
+      n: '[[w.branch-at-canaans-edge]], 108 (the march "at 5:08 p.m."; the twenty-minute ceremony on the steps; Clark''s five children watch from the windows). [[w.bernstein-guns-or-butter]], 231
+        (after a battle led by Collins and Baker). The time: "5:08 p.m.," Alabama''s clock (108). The order: after [[cal.1965-03-15.voting-rights-selma-5]], the announcement (108). To check: *Washington
+        Post*, Mar. 16, 1965, at 1 (cited by [[w.branch-at-canaans-edge]], 108). See [[cal.1965-03-15.voting-rights-selma-2]]. Names: Clark. Check: Bernstein, 231, gives a crowd of 2,000 on the
+        courthouse steps.'
       follows:
-      - cal.1965-03-15.voting-rights-selma-2
-      - cal.1965-03-15.voting-rights-selma-4
+      - cal.1965-03-15.voting-rights-selma-5
+      tags:
+      - name:clark-james-g-jr
+      - state:al
+      - city:selma
 - edit:
     id: cal.1965-03-17.voting-rights
     base: ecfecc2d
     kind: correct
     settles:
     - 'Check: Bernstein, 237, gives the vote to instruct the committee as 63 to 13.'
+    - 'Check: the pages.'
     set:
       c: The voting bill sent to Congress. Celler introduces it, H.R. 6400.{1} Where a literacy or like test was used and fewer than half of those of voting age were registered on Nov. 1, 1964,
         or voted that November, tests suspended and federal examiners to list voters.{3}
       n: 'Letter to the President of the Senate Proposing Legislation To Eliminate Barriers to the Right To Vote, [1965 Pub. Papers 292](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=368)
-        (Mar. 17, 1965). [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-8-2.pdf) (1965); [111 Cong. Rec.](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf)
-        (1965) (the bill, 5402–03). Voting Rights Act of 1965 (K–J Cong. II.J.2). [[w.kotz-judgment-days]], 317 (Celler''s subcommittee, Mar. 17); [[w.bernstein-guns-or-butter]], 236–37 (sections
-        2–9). The bill''s introduction in the House is the Record''s of Mar. 17. To check: [[w.katzenbach-some-of-it-was]]. See [[cal.1965-03-15.voting-rights]]. Names: Celler. Check: the pages.'
+        (Mar. 17, 1965). [111 Cong. Rec. 5325](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-8-2.pdf#page=65) (1965) (Mar. 17, 1965) (H.R. 6400, by Celler); [111 Cong. Rec. 5403](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf#page=18) (1965) (Mar. 18, 1965) (the bill''s
+        text, as S. 1564). Voting Rights Act of 1965 (K–J Cong. II.J.2). [[w.bernstein-guns-or-butter]], 236–37 (sections 2–9). The bill''s introduction in the House is the Record''s of Mar. 17
+        (5325). To check: [[w.katzenbach-some-of-it-was]]. See [[cal.1965-03-15.voting-rights]]. Names: Celler.'
       src:
         c: 80ec35c7
         rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=368: 1, 3'
-        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-8-2.pdf: 1, 3'
-        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf: 3'
-        - 'w.kotz-judgment-days 317: 1'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-8-2.pdf#page=65: 1'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf#page=18: 3'
         - 'w.bernstein-guns-or-butter 236–37: 1, 3'
       tags:
       - name:johnson-lyndon-b
@@ -277,8 +341,8 @@ ops:
       also:
       - congress
       c: Mansfield, for himself, Dirksen and 64 others, introduces the voting bill in the Senate, S. 1564.
-      n: '[111 Cong. Rec. 5402–03](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf) (1965) (Mar. 18, 1965) (the bill, S. 1564). [[w.kotz-judgment-days]],
-        317 (sixty-six sponsors). See [[cal.1965-03-17.voting-rights]]. Names: Mansfield, Dirksen.'
+      n: '[111 Cong. Rec. 5411](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf#page=26) (1965) (Mar. 18, 1965) (S. 1564, Mansfield for himself and 65 others); [111 Cong. Rec. 5387–88](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf#page=2) (1965)
+        (the bill read twice). [[w.kotz-judgment-days]], 317 (sixty-six sponsors). See [[cal.1965-03-17.voting-rights]]. Names: Mansfield, Dirksen.'
       tags:
       - name:mansfield-mike
       - name:dirksen-everett
@@ -294,14 +358,15 @@ ops:
       - congress
       follows:
       - cal.1965-03-18.voting-rights-3
-      c: 'The Senate sends the bill to Judiciary with orders to report by Apr. 9, [67–13](https://voteview.com/rollcall/RS0890032). Stennis: the two weeks "a pitiful thing"; Eastland: "opposed
-        to every word and every line in the bill."'
-      n: '[111 Cong. Rec. 5388–90](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf#page=3) (1965) (Mar. 18, 1965) (Mansfield''s motion for himself and Dirksen;
-        Eastland; Stennis). [[w.branch-at-canaans-edge]], 124 (the Senate''s instruction); [[w.mann-walls-of-jericho]], 467 (the referral; Stennis and Eastland); [[w.kotz-judgment-days]], 317
-        (to be reported by Apr. 9; the Judiciary Committee to report by Apr. 9, twelve Southerners and Margaret Chase Smith against; Mansfield: no Easter recess unless it passes by Apr. 15); [[w.bernstein-guns-or-butter]],
-        236–37 (Eastland: a deadline "unheard of"). The order: after [[cal.1965-03-18.voting-rights-3]], the Record''s (the bill read twice, then the motion). Check: Bernstein, 237, gives the
-        vote to instruct the committee as 63 to 13. See [[cal.1965-03-17.voting-rights]]. Names: Stennis, Eastland, Mansfield, Dirksen.'
+      c: 'The Senate, on Mansfield''s motion for himself and Dirksen, sends the bill to Judiciary with orders to report by Apr. 9, [67–13](https://voteview.com/rollcall/RS0890032); against, by
+        Kotz''s count, twelve Southerners and Margaret Chase Smith. Stennis: the two weeks "a pitiful thing"; Eastland: "opposed to every word and every line in the bill."'
+      n: '[111 Cong. Rec. 5388–90](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf#page=3) (1965) (Mar. 18, 1965) (Mansfield''s motion for himself and Dirksen; Eastland; Stennis); [111 Cong. Rec. 5402–03](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt4/pdf/GPO-CRECB-1965-pt4-9-2.pdf#page=17)
+        (1965) (the vote, 67 to 13). [[w.branch-at-canaans-edge]], 124 (the Senate''s instruction; Eastland; thirteen against); [[w.mann-walls-of-jericho]], 467 (the referral; Stennis and Eastland);
+        [[w.kotz-judgment-days]], 317 (to report by Apr. 9; twelve Southerners and Margaret Chase Smith against; not Stennis or Eastland); [[w.bernstein-guns-or-butter]], 237 (Eastland: a deadline
+        "unheard of"). The order: after [[cal.1965-03-18.voting-rights-3]], the Record''s (the bill read twice, then the motion, 5388). Check: Bernstein, 237, gives the vote to instruct the
+        committee as 63 to 13. See [[cal.1965-03-17.voting-rights]]. Names: Mansfield, Dirksen, Smith, Stennis, Eastland.'
       tags:
+      - name:smith-margaret-chase
       - name:stennis-john-c
       - name:eastland-james-o
       - name:mansfield-mike
@@ -329,8 +394,10 @@ ops:
       follows:
       - cal.1965-03-21.alabama-birmingham
       c: 'Moyers to Johnson, at the LBJ Ranch, by memorandum, 10:45 p.m.: Army demolition teams have disarmed four large bombs at Negro sites in Birmingham.'
-      n: '[[w.branch-at-canaans-edge]], 145 ("Before midnight, Bill Moyers notified President Johnson from the White House"; the memorandum, 10:45 p.m., March 21, 1965, "Bombing Devices Found
-        in Birmingham," in the notes). The time: 10:45 p.m. Washington''s clock. See [[cal.1965-03-21.alabama-birmingham]]. Names: Moyers, Johnson.'
+      n: '[[w.branch-at-canaans-edge]], 145 ("Before midnight, Bill Moyers notified President Johnson from the White House"; four bombs disarmed); 145 n. (the memorandum, "Bombing Devices Found
+        in Birmingham," 10:45 p.m., Mar. 21, 1965). The time: 10:45 p.m., the memorandum''s, from the White House, Washington''s clock (145 n.). Made public: 2006 ([[w.branch-at-canaans-edge]]).
+        To check: Moyers to Johnson, "Bombing Devices Found in Birmingham," 10:45 p.m., Mar. 21, 1965, WH Confidential, box 56, LBJ Library (cited by [[w.branch-at-canaans-edge]], 145 n.). See
+        [[cal.1965-03-21.alabama-birmingham]]. Names: Moyers, Johnson.'
       tags:
       - name:moyers-bill
       - name:johnson-lyndon-b
@@ -346,8 +413,7 @@ ops:
       - voting-rights-selma
       place: birmingham
       c: Two more bombs turn up in Birmingham.
-      n: '[[w.branch-at-canaans-edge]], 145 ("Two more turned up Monday"). To check: Moyers to LBJ, "Bombing Devices Found in Birmingham," 10:45 p.m., Mar. 21, 1965, WH Confidential, box 56, LBJ
-        Library (cited by [[w.branch-at-canaans-edge]], 145). Check: the place; Branch does not say where. See [[cal.1965-03-21.alabama-birmingham]].'
+      n: '[[w.branch-at-canaans-edge]], 145 ("Two more turned up Monday," after the four at Negro sites in Birmingham). Check: the place; Branch does not say where. See [[cal.1965-03-21.alabama-birmingham]].'
       tags:
       - state:al
       - city:birmingham
@@ -394,12 +460,17 @@ ops:
         - 'w.branch-pillar-of-fire 611: 2, 8'
 - add-words:
     id: cal.1965-03-25.voting-rights-selma
+    after: to the capitol.
+    words: The FBI counts some 12,000 passing the starting point at St. Jude, more joining along the last four miles.
+    item: '[[w.branch-at-canaans-edge]], 161'
+- add-words:
+    id: cal.1965-03-25.voting-rights-selma
     after: end
-    words: 'The FBI counts some 12,000 leaving St. Jude, more joining along the last miles. King: "How long? Not long."'
-    item: '[[w.branch-at-canaans-edge]], 161 (the FBI''s head count of some 12,000 at the starting point; more join along the last four miles)'
+    words: 'King: "How long? Not long."'
+    item: '[[w.garrow-bearing-the-cross]], 413'
 - cite:
     id: cal.1965-03-25.voting-rights-selma
-    item: '[[w.garrow-bearing-the-cross]], 410–13 (King: "How long? Not long.")'
+    item: '[[w.branch-at-canaans-edge]], 170'
     'on': 'King: "How long? Not long."'
 - edit:
     id: cal.1965-03-24.school-aid-4

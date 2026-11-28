@@ -357,8 +357,9 @@ def test_layer_sizes(china_layers, monkeypatch):
 
 
 def test_layers_load_when_ticked():
-    """The client fetches nothing of a layer before its box is ticked: every GeoJSON layer's source starts empty, the
-    cities' too, and takes its file in `load`; the tiles are read by the library when their layer is first shown."""
+    """The client fetches nothing of a layer before its box is ticked or a pin is dropped (vnmap STYLE 9): every GeoJSON
+    layer's source starts empty, the cities' too, and takes its file in `load`; the tiles are read by the library when
+    their layer is first shown."""
     js = open(os.path.join(TOOLS, "bib", "vnmap.js"), encoding="utf-8").read()
     lazy = re.search(r"const LAZY = \{([^}]*)\}", js)[1]
     for k in ("rivers", "lakes", "contours", "bathy", "climate", "pop", "counties"):
