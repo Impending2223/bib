@@ -930,8 +930,13 @@ entries:
     thread: soviet-union-leadership
     also: [defense]
     c: Moscow. The Defense Council in the Kremlin, 11 to 3, Brezhnev presiding.
-    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 256 (May 6). Made public: 2016. Names: Brezhnev.'
+    n: '[[w.brezhnev-rabochie-i-dnevnikovye]], II, 256 (May 6; the Defense Council in the Kremlin from 11:00 to 15:00, then the Politburo from 15:00, read in the text layer). Made public: 2016. Names: Brezhnev.'
     tags: [name:brezhnev-leonid, polity:ussr, vis:only:ussr]
+    time_range:
+      - 1968-05-06T08:00Z
+      - 1968-05-06T12:00Z
+    time_zone: Europe/Moscow
+    range_basis: record
   - id: cal.1968-05-06.soviet-union-leadership-2
     when: May 6
     date: '1968-05-06'
@@ -2327,6 +2332,12 @@ entries:
     c: 'The Nebraska primary night, Omaha, on television. Kennedy stresses his rural support in a conservative State and invites "those associated with Senator McCarthy" to switch to him; of McCarthy: "I would hope perhaps we could work together ... in Oregon and California." By Witcover''s account.'
     n: '[[w.witcover-85-days]], 197. Order: after [[cal.1968-05-14.robert-kennedy-campaign-primaries|Iowa]], by Witcover (196: back in Omaha from Des Moines "by early evening"; the returns that night). See [[cal.1968-05-14.robert-kennedy-campaign-2]]. Names: Robert Kennedy, McCarthy.'
     tags: [name:kennedy-robert-f, name:mccarthy-eugene-j, state:ne, city:omaha]
+    time_range:
+      - 1968-05-15T03:00Z
+      - 1968-05-15T05:00Z
+    time_band: night
+    time_zone: America/Chicago
+    range_basis: record
   - id: cal.1968-05-14.elections-1968-mccarthy
     when: May 14, night
     date: '1968-05-14'
@@ -2472,11 +2483,13 @@ entries:
   - id: cal.1968-05-15.africa
     when: May 15
     date: '1968-05-15'
+    time: 1968-05-15T15:37Z
     place: washington
     thread: africa
     c: The White House, the South Lawn. Arrival ceremony for President Habib Bourguiba of Tunisia, with his son Habib Bourguiba, Jr., his Secretary of Foreign Affairs, and his daughter-in-law; Johnson and Bourguiba review the troops; Rusk present.
-    n: '[[w.johnson-white-house-diary]], 670 (Lady Bird Johnson''s account; Bourguiba "an outspoken, volatile man" who "has managed to remain the strongest friend of the United States in the Arab world" is her view). To check: the Public Papers, the arrival remarks. Names: Bourguiba, Habib Bourguiba, Jr., Johnson, Rusk.'
+    n: 'Remarks of Welcome at the White House to President Bourguiba of Tunisia, [1968–69 Pub. Papers 609](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=687) (May 15, 1968). [[w.johnson-white-house-diary]], 670 (Lady Bird Johnson''s account; Bourguiba "an outspoken, volatile man" who "has managed to remain the strongest friend of the United States in the Arab world" is her view). The hour: the President spoke at 11:37 a.m. on the South Lawn (the Papers'' note, 610); Mrs. Johnson was with students in the library "About 11" and was back upstairs "A little past 12" (670). Names: Bourguiba, Habib Bourguiba, Jr., Johnson, Rusk.'
     tags: [name:bourguiba-habib-ben-ali, name:bourguiba-habib-jr, name:johnson-lyndon-b, name:rusk-dean, city:washington]
+    time_zone: America/New_York
   - id: cal.1968-05-15.africa-2
     when: May 15
     date: '1968-05-15'
@@ -3006,8 +3019,14 @@ entries:
     follows:
       - cal.1968-05-18.elections-1968-republican-nomination
     c: 'Tarrytown, N.Y., Lyndhurst, the Jay Gould mansion, owned by the National Trust for Historic Preservation: a tour, its paintings of the Hudson River School; Mrs. Johnson meets the Trust''s officials and is presented with a scroll.'
-    n: '[[w.johnson-white-house-diary]], 675 (Lady Bird Johnson''s account). The day''s tour of Van Cortlandt Manor and Sunnyside with Laurance Rockefeller and Liz Carpenter (672–74) and the dinner at Brooke Astor''s (675–76) are passed over, sights and a social evening. Order: after [[cal.1968-05-18.elections-1968-republican-nomination|the tea at Tarrytown]], by Mrs. Johnson''s diary (675: "Back at Laurance and Mary''s, I changed ... and we set out for Lyndhurst"). Names: Lady Bird Johnson.'
+    n: '[[w.johnson-white-house-diary]], 675 (Lady Bird Johnson''s account). The day''s tour of Van Cortlandt Manor and Sunnyside with Laurance Rockefeller and Liz Carpenter (672–74) and the dinner at Brooke Astor''s (675–76) are passed over, sights and a social evening. Order: after [[cal.1968-05-18.elections-1968-republican-nomination|the tea at Tarrytown]], by Mrs. Johnson''s diary (675: "Back at Laurance and Mary''s, I changed ... and we set out for Lyndhurst"). The hour: "for cocktails" (675), after the tea at the Rockefeller house "a little before 5" (674). Names: Lady Bird Johnson.'
     tags: [name:johnson-lady-bird, state:ny]
+    time_range:
+      - 1968-05-18T21:00Z
+      - 1968-05-18T23:00Z
+    time_band: after-workday daytime
+    time_zone: America/New_York
+    range_basis: record
   - id: cal.1968-05-18.elections-1968-republican-nomination
     when: May 18
     date: '1968-05-18'
@@ -3218,7 +3237,7 @@ entries:
     place: illinois
     thread: governors
     c: Illinois. Kerner, named by Johnson to the Seventh Circuit (nominated Mar. 11, confirmed Apr. 11), resigns as governor, May 20. Shapiro, the lieutenant governor since 1961, sworn governor, May 21, for the rest of the term.
-    n: '[Federal Judicial Center, "Kerner, Otto, Jr."](https://www.fjc.gov/history/judges/kerner-otto-jr): nominated Mar. 11, 1968, confirmed Apr. 11. [Wikipedia, "Otto Kerner Jr."](https://en.wikipedia.org/wiki/Otto_Kerner_Jr.); [Wikipedia, "Samuel Shapiro (Illinois politician)"](https://en.wikipedia.org/wiki/Samuel_Shapiro_(Illinois_politician)). Check: the *Illinois Blue Book*, 1969–70. To check: [[w.barnhart-kerner]]; [[w.peirce-great-lakes-states-of]]. See [[cal.1964-11-03.governors-il]]. Names: Kerner, Shapiro, Johnson.'
+    n: '[Federal Judicial Center, "Kerner, Otto, Jr."](https://www.fjc.gov/history/judges/kerner-otto-jr): nominated Mar. 11, 1968, confirmed Apr. 11. [Wikipedia, "Otto Kerner Jr."](https://en.wikipedia.org/wiki/Otto_Kerner_Jr.); [Wikipedia, "Samuel Shapiro (Illinois politician)"](https://en.wikipedia.org/wiki/Samuel_Shapiro_(Illinois_politician)). The id''s day, May 21, is Shapiro''s swearing-in; the entry''s date, May 20, is Kerner''s resignation. Check: the *Illinois Blue Book*, 1969–70 (not reached: archive.org lists none for these years, the Illinois Digital Archives holds no run of it, and ilsos.gov refused this host). To check: [[w.barnhart-kerner]]; [[w.peirce-great-lakes-states-of]]. See [[cal.1964-11-03.governors-il]]. Names: Kerner, Shapiro, Johnson.'
     tags: [state:il, name:kerner-otto, name:shapiro-samuel-h, name:johnson-lyndon-b]
     short: Kerner to the bench
   - id: cal.1968-05-20.latin-america
@@ -4492,7 +4511,7 @@ entries:
     place: washington
     thread: elections-1968-mccarthy
     c: Washington, the Americans for Democratic Action's convention, the Saturday banquet. McCarthy, coming in at the middle of the evening, walks along the head table shaking hands; at Schlesinger, "his lips tightened, his eyes grew cold," and he hurries by. His speech goes over well with the audience. By Schlesinger's journal.
-    n: '[[w.schlesinger-journals]], 289. Names: McCarthy, Schlesinger.'
+    n: '[[w.schlesinger-journals]], 289. Check: the day: Schlesinger''s journal puts McCarthy at the banquet "Saturday night" in Washington, May 25; Witcover, 213–17 (read), has McCarthy at Portland''s Memorial Coliseum that Saturday night, May 25, speaking of Kennedy''s plunge in the Pacific "yesterday," the day of the Astoria beach, Friday, May 24. Names: McCarthy, Schlesinger.'
     tags: [name:mccarthy-eugene-j, name:schlesinger-arthur-m-jr]
   - id: cal.1968-05-25.robert-kennedy-campaign-primaries
     when: May 25, night
@@ -4723,7 +4742,7 @@ entries:
     thread: robert-kennedy-campaign-primaries
     also: [elections-1968]
     c: 'Oregon, the day before the vote.{1} McCarthy''s radio spots: Harris''s poll has Kennedy losing to Nixon (the poll: Kennedy 42, Nixon 40; McCarthy 39, Nixon 40).{2} Vanden Heuvel wires Finney, McCarthy''s director in Oregon.{3}'
-    n: '[[w.palermo-in-his-own-right]], 215–16. To check: vanden Heuvel to Finney, telegram, May 27, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 215 n.129). Split under R25b and R17: Palermo''s note (215 n.130) gives Salinger''s statement its own hour and place, the Benson Hotel, 10:30 a.m.; it is now an entry. Names: McCarthy, Robert Kennedy, Nixon, vanden Heuvel. Check: the poll''s figures from Harris.'
+    n: '[[w.palermo-in-his-own-right]], 215–16. To check: vanden Heuvel to Finney, telegram, May 27, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 215 n.129). Names: McCarthy, Robert Kennedy, Nixon, vanden Heuvel. Check: the poll''s figures from Harris.'
     src:
       rows:
         - 'w.palermo-in-his-own-right 215–16: 1, 2, 3'
@@ -4882,7 +4901,7 @@ entries:
     place: portland
     thread: robert-kennedy-campaign-primaries
     c: 'Portland, Ore., the last night of the Oregon campaign. Kennedy''s rally in a high school gymnasium: perhaps 1,500 people. Back at the hotel reporters tell O''Brien McCarthy has packed 7,000 into a huge auditorium. By O''Brien''s account.'
-    n: '[[w.obrien-no-final-victories]], 242. Names: Robert Kennedy, O''Brien, McCarthy.'
+    n: '[[w.obrien-no-final-victories]], 242. Check: the day: O''Brien, 242 (read), has the rally "the last night of the campaign," before the vote of May 28; Witcover, 215 (read), has Kennedy at "a routine high school rally" on Saturday night, May 25, while McCarthy drew a crowd to the Memorial Coliseum, the same crowds as O''Brien''s. Names: Robert Kennedy, O''Brien, McCarthy.'
     tags: [name:kennedy-robert-f, name:obrien-lawrence-f, name:mccarthy-eugene-j, state:or, city:portland]
   - id: cal.1968-05-27.robert-kennedy-campaign-primaries
     when: May 27, Roseburg
@@ -5001,15 +5020,15 @@ entries:
     when: May 28
     date: '1968-05-28'
     thread: elections-1968
-    c: 'Primaries in Florida and Oregon.{1} Republican: unpledged delegates in Florida;{2} Nixon in Oregon.{3} Democratic: Smathers in Florida;{4} McCarthy in Oregon.{5}'
+    c: 'Primaries in Florida and Oregon.{1} Republican: unpledged delegates in Florida;{2} Nixon in Oregon.{3} Democratic: Smathers in Florida;{4} McCarthy in Oregon.{5} Oregon, Republican, Nixon over Reagan, 203,037 to 63,707, 65.0 percent, Rockefeller 36,305 by write-in, 11.6 percent. Oregon, Democratic, McCarthy over Kennedy, 163,990 to 141,631, 44.0 percent, Johnson 45,174, 12.1 percent.{6}'
     n: '[*Tabulation of Official Vote, Florida Primary Elections, 1968*, 25–32](https://archive.org/details/TabulationofofficialvoteFloridaprimaryelections1968/page/n30); Or., [*Official Abstract of Votes, Primary Election 1968*, 34–36](https://records.sos.state.or.us/ORSOSWebDrawer/Record/8411031/File/document). CQ Guide 6th (2010) 410. [[w.nixon-rn]], 303 (Nixon in Oregon); [[w.obrien-no-final-victories]], 242 (Oregon: the defeat, "the first election defeat a Kennedy had ever experienced"; Kennedy campaigning in California on the day of the voting and returning that evening; McCarthy''s organization the best of any of the primaries; not the Florida or Republican sides or the figures). See [[cal.1968-03-12.elections-1968]]. Names: McCarthy, Smathers, Nixon. Check: Nixon gives Oregon''s Republican vote as Nixon 73 percent, Reagan 23, Rockefeller 4 (303).'
     src:
-      c: 0130848a
+      c: 897d68bc
       rows:
         - 'https://archive.org/details/TabulationofofficialvoteFloridaprimaryelections1968/page/n30: 1, 2, 3, 4, 5'
-        - 'https://records.sos.state.or.us/ORSOSWebDrawer/Record/8411031/File/document: 1, 2, 3, 4, 5'
         - 'w.nixon-rn 303: 1, 3'
         - 'w.obrien-no-final-victories 242: 5'
+        - 'https://records.sos.state.or.us/ORSOSWebDrawer/Record/8411031/File/document: 1, 2, 3, 4, 5, 6'
     tags: [primary:1968-05-28, name:mccarthy-eugene-j, name:smathers-george-a, name:nixon-richard-m]
     short: Oregon
     time_range:
